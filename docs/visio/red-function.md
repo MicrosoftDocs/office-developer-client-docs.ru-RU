@@ -13,7 +13,7 @@ ms.openlocfilehash: 801ebb64564df81f72c41cb720fe53f0f1b4c10d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19814523"
 ---
 # <a name="red-function"></a>КРАСНЫЙ функции

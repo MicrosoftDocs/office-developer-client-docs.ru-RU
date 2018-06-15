@@ -1,0 +1,82 @@
+---
+title: EXTENDED_NOTIFICATION
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.EXTENDED_NOTIFICATION
+api_type:
+- COM
+ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
+description: '���� ���������� ���������: 9 ����� 2015 �.'
+ms.openlocfilehash: 5e23d9b829a941e3add8b8d8e137c73052b08aa6
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/15/2018
+ms.locfileid: "19808412"
+---
+# <a name="extendednotification"></a>EXTENDED_NOTIFICATION
+
+  
+  
+**Применимо к**: Outlook 
+  
+Описывает сведения, относящиеся к событию, зависящие от поставщика службы. 
+  
+|||
+|:-----|:-----|
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+   
+```cpp
+typedef struct _EXTENDED_NOTIFICATION
+{
+  ULONG ulEvent;
+  ULONG cb;
+  LPBYTE pbEventParameters;
+} EXTENDED_NOTIFICATION;
+
+```
+
+## <a name="members"></a>Элементы
+
+ **ulEvent**
+  
+> Код расширенного событий, определяемый поставщиком.
+    
+ **cb**
+  
+> Число байт в параметрах конкретного события, на который указывает **pbEventParameters**. 
+    
+ **pbEventParameters**
+  
+> Указатель на параметры, относящиеся к события. Тип параметров, которые используются зависит от значение элемента **ulEvent** ; Эти параметры описаны поставщиком, выпустивший события. 
+    
+## <a name="remarks"></a>Замечания
+
+Структура **EXTENDED_NOTIFICATION** — это один из участников объединение структуры, включенные в элемент **info** структуры [УВЕДОМЛЕНИЙ](notification.md) . Когда участник **info** структуры **уведомление** содержит структуру **EXTENDED_NOTIFICATION** , член **ulEventType** структуры **УВЕДОМЛЕНИЙ** задано значение _fnevExtended_.
+  
+Расширенные события определяется поставщиком услуг для представления тип изменения, не могут быть защищены торговыми любой из предварительно определенных событий. Для этого события можно регистрировать только клиентов, которые знать, прежде чем они зарегистрировать, что поставщик услуг поддерживает расширенные события. Не поддерживается для клиентов определить без высокий уровень знания, если поставщик услуг поддерживает расширенные события. Если поставщик услуг поддерживает расширенные события, его показано, как обрабатывать события при получении.
+  
+Уведомление о расширенных отправляется в сеансе, если это клиент выходит из системы. Регистрация для этого уведомления путем вызова [IMAPISession::Advise](imapisession-advise.md) с параметром _lpEntryID_ значение NULL, а параметр _cbEntryID_ , равным нулю. 
+  
+Дополнительные сведения о уведомлений видеть темы, описанные в следующей таблице.
+  
+|**Статья**|**Описание**|
+|:-----|:-----|
+|[Уведомление о событии в MAPI](event-notification-in-mapi.md) <br/> |Общий обзор уведомлений и события уведомления.  <br/> |
+|[Обработка уведомлений](handling-notifications.md) <br/> |Обсуждение как клиенты должны обрабатывать уведомления.  <br/> |
+|[Поддержка уведомления о событии](supporting-event-notification.md) <br/> |Обсуждение того, как поставщиков услуг можно использовать методы [IMAPISupport](imapisupportiunknown.md) для создания уведомлений.  <br/> |
+   
+## <a name="see-also"></a>См. также
+
+
+
+[�����������](notification.md)
+
+
+[Структуры MAPI](mapi-structures.md)
+
