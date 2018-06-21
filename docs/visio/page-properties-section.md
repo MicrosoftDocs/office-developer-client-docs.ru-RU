@@ -13,15 +13,15 @@ ms.openlocfilehash: 0fc1345a5c1ab680535718b3c40d4df878d2b0dd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19814336"
 ---
-# <a name="page-properties-section"></a><span data-ttu-id="1687b-103">В разделе Страница свойств</span><span class="sxs-lookup"><span data-stu-id="1687b-103">Page Properties Section</span></span>
+# <a name="page-properties-section"></a><span data-ttu-id="aedd7-103">В разделе Страница свойств</span><span class="sxs-lookup"><span data-stu-id="aedd7-103">Page Properties Section</span></span>
 
-<span data-ttu-id="1687b-104">Содержит ячейки, которые управляют страницы атрибуты, такие как страница ширина, высота и масштабирования.</span><span class="sxs-lookup"><span data-stu-id="1687b-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
+<span data-ttu-id="aedd7-104">Содержит ячейки, которые управляют страницы атрибуты, такие как страница ширина, высота и масштабирования.</span><span class="sxs-lookup"><span data-stu-id="aedd7-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1687b-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="1687b-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aedd7-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="aedd7-105">Remarks</span></span>
 
-<span data-ttu-id="1687b-106">Можно задать значения свойств страницы путем создания записи в ячейке раздел **Свойства страницы** или с помощью диалогового окна **Параметры страницы** (на вкладке " **Конструктор** ", нажмите кнопку вызова диалогового окна в группе **Параметры страницы** ).</span><span class="sxs-lookup"><span data-stu-id="1687b-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
+<span data-ttu-id="aedd7-106">Можно задать значения свойств страницы путем создания записи в ячейке раздел **Свойства страницы** или с помощью диалогового окна **Параметры страницы** (на вкладке " **Конструктор** ", нажмите кнопку вызова диалогового окна в группе **Параметры страницы** ).</span><span class="sxs-lookup"><span data-stu-id="aedd7-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
   
 
