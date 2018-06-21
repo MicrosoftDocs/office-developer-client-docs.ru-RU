@@ -11,7 +11,7 @@ ms.openlocfilehash: aaeac8804be96ece41f9d80a6355c51f3b58b1f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19807701"
 ---
 # <a name="constants-data-degradation-layer-api"></a>Константы (layer уменьшение объема данных API).

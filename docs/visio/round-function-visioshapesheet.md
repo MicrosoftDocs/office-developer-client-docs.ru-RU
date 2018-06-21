@@ -13,7 +13,7 @@ ms.openlocfilehash: 2457bdf6b46a2bb44b203497f02cc9b2ff034847
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19814637"
 ---
 # <a name="round-function-visioshapesheet"></a>Функция ROUND (VisioShapeSheet)
