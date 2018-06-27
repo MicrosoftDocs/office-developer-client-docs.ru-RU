@@ -8,7 +8,7 @@ ms.assetid: 93c471ef-9063-4d24-8153-53a853b67f5c
 description: Этот контент больше не доступен по этому адресу. См. статью Использование протокола WOPI для интеграции с Office Online на сайте GitHub.
 ms.openlocfilehash: 989283db74c4fe5cc18022f1074eaa93373a3af1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807646"
