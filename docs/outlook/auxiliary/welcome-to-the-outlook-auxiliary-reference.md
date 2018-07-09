@@ -72,7 +72,7 @@ ms.locfileid: "19807968"
     
 - [<span data-ttu-id="1e54d-134">Чтение свойств часового пояса из встречи</span><span class="sxs-lookup"><span data-stu-id="1e54d-134">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [<span data-ttu-id="1e54d-135">Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)</span><span class="sxs-lookup"><span data-stu-id="1e54d-135">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [<span data-ttu-id="1e54d-135">Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)</span><span class="sxs-lookup"><span data-stu-id="1e54d-135">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/ru-ru/library/office/gg262879.aspx)
     
 - [<span data-ttu-id="1e54d-136">Использование относительных времени для доступа к данным о доступности</span><span class="sxs-lookup"><span data-stu-id="1e54d-136">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
     

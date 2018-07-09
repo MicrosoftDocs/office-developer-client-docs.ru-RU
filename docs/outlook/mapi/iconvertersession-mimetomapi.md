@@ -40,7 +40,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 
  <span data-ttu-id="ba013-107">_pstm_</span><span class="sxs-lookup"><span data-stu-id="ba013-107">_pstm_</span></span>
   
-> <span data-ttu-id="ba013-108">[in] Интерфейс [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) поток MIME.</span><span class="sxs-lookup"><span data-stu-id="ba013-108">[in] [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface to a MIME stream.</span></span> 
+> <span data-ttu-id="ba013-108">[in] Интерфейс [IStream](http://msdn.microsoft.com/ru-ru/library/aa380034%28VS.85%29.aspx) поток MIME.</span><span class="sxs-lookup"><span data-stu-id="ba013-108">[in] [IStream](http://msdn.microsoft.com/ru-ru/library/aa380034%28VS.85%29.aspx) interface to a MIME stream.</span></span> 
     
  <span data-ttu-id="ba013-109">_pmsg_</span><span class="sxs-lookup"><span data-stu-id="ba013-109">_pmsg_</span></span>
   

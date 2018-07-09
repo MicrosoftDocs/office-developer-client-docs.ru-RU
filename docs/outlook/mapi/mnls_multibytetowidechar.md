@@ -65,6 +65,6 @@ int MNLS_MultiByteToWideChar(
   
 ## <a name="remarks"></a><span data-ttu-id="f91e6-123">Замечания</span><span class="sxs-lookup"><span data-stu-id="f91e6-123">Remarks</span></span>
 
-<span data-ttu-id="f91e6-124">Эта функция имеет функцию **MultiByteToWideChar** .</span><span class="sxs-lookup"><span data-stu-id="f91e6-124">This function wraps the **MultiByteToWideChar** function.</span></span> <span data-ttu-id="f91e6-125">Для получения дополнительных сведений см [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="f91e6-125">For more information, see [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="f91e6-124">Эта функция имеет функцию **MultiByteToWideChar** .</span><span class="sxs-lookup"><span data-stu-id="f91e6-124">This function wraps the **MultiByteToWideChar** function.</span></span> <span data-ttu-id="f91e6-125">Для получения дополнительных сведений см [MultiByteToWideChar](http://msdn.microsoft.com/ru-ru/library/dd319072%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="f91e6-125">For more information, see [MultiByteToWideChar](http://msdn.microsoft.com/ru-ru/library/dd319072%28VS.85%29.aspx).</span></span>
   
 

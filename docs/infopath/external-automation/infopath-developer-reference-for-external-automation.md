@@ -25,9 +25,9 @@ ms.locfileid: "19807396"
   
 ## <a name="see-also"></a><span data-ttu-id="a8276-109">См. также</span><span class="sxs-lookup"><span data-stu-id="a8276-109">See also</span></span>
 
-- [<span data-ttu-id="a8276-110">Центр разработчиков InfoPath (Возможно, на английском языке)</span><span class="sxs-lookup"><span data-stu-id="a8276-110">InfoPath Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/aa905434.aspx)  
-- [<span data-ttu-id="a8276-111">Центр разработчика Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="a8276-111">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/default.aspx)
-- [<span data-ttu-id="a8276-112">Соглашения о документах в документации разработчиков Office</span><span class="sxs-lookup"><span data-stu-id="a8276-112">Document Conventions in Office Developer Documentation</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [<span data-ttu-id="a8276-110">Центр разработчиков InfoPath</span><span class="sxs-lookup"><span data-stu-id="a8276-110">InfoPath Developer Center</span></span>](http://msdn.microsoft.com/ru-ru/office/aa905434.aspx)  
+- [<span data-ttu-id="a8276-111">Центр разработчика Microsoft Office</span><span class="sxs-lookup"><span data-stu-id="a8276-111">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/ru-ru/office/default.aspx)
+- [<span data-ttu-id="a8276-112">Соглашения о документах в документации разработчиков Office</span><span class="sxs-lookup"><span data-stu-id="a8276-112">Document Conventions in Office Developer Documentation</span></span>](http://msdn.microsoft.com/ru-ru/office/aa905365.aspx)
 - [<span data-ttu-id="a8276-113">Microsoft Accessibility</span><span class="sxs-lookup"><span data-stu-id="a8276-113">Microsoft Accessibility</span></span>](http://www.microsoft.com/ENABLE/)
 - [<span data-ttu-id="a8276-114">Уведомление корпорации Майкрософт о конфиденциальности в сети</span><span class="sxs-lookup"><span data-stu-id="a8276-114">Microsoft Online Privacy Notice</span></span>](http://privacy.microsoft.com/en-us/default.mspx)
   

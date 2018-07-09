@@ -38,11 +38,11 @@ ms.locfileid: "19807668"
     
 - <span data-ttu-id="2aeaf-119">[Примеры кода на репозиториев](https://github.com/OneNoteDev/) (API службы OneNote)</span><span class="sxs-lookup"><span data-stu-id="2aeaf-119">[Samples on GitHub](https://github.com/OneNoteDev/) (OneNote service APIs)</span></span> 
     
-- [<span data-ttu-id="2aeaf-120">Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)</span><span class="sxs-lookup"><span data-stu-id="2aeaf-120">Accessibility in Microsoft Products</span></span>](http://www.microsoft.com/enable/products/default.aspx)
+- [<span data-ttu-id="2aeaf-120">Специальные возможности в продуктах Майкрософт</span><span class="sxs-lookup"><span data-stu-id="2aeaf-120">Accessibility in Microsoft Products</span></span>](http://www.microsoft.com/enable/products/default.aspx)
     
-- [<span data-ttu-id="2aeaf-121">Условные обозначения в документах (Возможно, на английском языке)</span><span class="sxs-lookup"><span data-stu-id="2aeaf-121">Document Conventions</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [<span data-ttu-id="2aeaf-121">Условные обозначения в документах</span><span class="sxs-lookup"><span data-stu-id="2aeaf-121">Document Conventions</span></span>](http://msdn.microsoft.com/ru-ru/office/aa905365.aspx)
     
-- [<span data-ttu-id="2aeaf-122">Сведения об авторских правах Справочник разработчика по OneNote</span><span class="sxs-lookup"><span data-stu-id="2aeaf-122">OneNote Developer Reference Copyright Information</span></span>](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
+- [<span data-ttu-id="2aeaf-122">Сведения об авторских правах Справочник разработчика по OneNote</span><span class="sxs-lookup"><span data-stu-id="2aeaf-122">OneNote Developer Reference Copyright Information</span></span>](https://msdn.microsoft.com/ru-ru/library/office/jj680116.aspx)
     
 - [<span data-ttu-id="2aeaf-123">Уведомление корпорации Майкрософт о конфиденциальности в сети</span><span class="sxs-lookup"><span data-stu-id="2aeaf-123">Microsoft Online Privacy Notice</span></span>](http://privacy.microsoft.com/en-us/default.mspx)
     

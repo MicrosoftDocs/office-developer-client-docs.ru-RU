@@ -202,7 +202,7 @@ ms.locfileid: "19813109"
   
  <span data-ttu-id="60027-269">_bstrProgID_</span><span class="sxs-lookup"><span data-stu-id="60027-269">_bstrProgID_</span></span>
   
-<span data-ttu-id="60027-270">Определяет COM-объект получателя для двусторонней связи.</span><span class="sxs-lookup"><span data-stu-id="60027-270">Identifies the consumer's COM object for two-way communication.</span></span> <span data-ttu-id="60027-271">Должен быть пустым с 39 знаков.</span><span class="sxs-lookup"><span data-stu-id="60027-271">Must be non-empty with a maximum of 39 characters.</span></span> <span data-ttu-id="60027-272">Просмотреть \< для получения дополнительных сведений о коды ProgID.</span><span class="sxs-lookup"><span data-stu-id="60027-272">See [\<ProgID\> Key](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx) for more information on ProgIDs.</span></span> 
+<span data-ttu-id="60027-270">Определяет COM-объект получателя для двусторонней связи.</span><span class="sxs-lookup"><span data-stu-id="60027-270">Identifies the consumer's COM object for two-way communication.</span></span> <span data-ttu-id="60027-271">Должен быть пустым с 39 знаков.</span><span class="sxs-lookup"><span data-stu-id="60027-271">Must be non-empty with a maximum of 39 characters.</span></span> <span data-ttu-id="60027-272">Просмотреть \< для получения дополнительных сведений о коды ProgID.</span><span class="sxs-lookup"><span data-stu-id="60027-272">See [\<ProgID\> Key](http://msdn.microsoft.com/ru-ru/library/ms690196.aspx.aspx) for more information on ProgIDs.</span></span> 
   
  <span data-ttu-id="60027-273">_bstrFileSystemDirectoryHint_</span><span class="sxs-lookup"><span data-stu-id="60027-273">_bstrFileSystemDirectoryHint_</span></span>
   

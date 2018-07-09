@@ -22,7 +22,7 @@ ms.locfileid: "19807512"
 <span data-ttu-id="330a9-114">Класс FormCode непосредственно предоставляет методы  `_Startup` и  `_Shutdown`, которые используются для выполнения процедур инициализации и очистки любых компонентов, которые требуются в дополнение к стандартным возможностям InfoPath во время открытия формы.</span><span class="sxs-lookup"><span data-stu-id="330a9-114">The FormCode class itself provides  `_Startup` and  `_Shutdown` methods that are used to perform initialization and clean-up routines for any components that are required in addition to standard InfoPath functionality while the form is open.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="330a9-p103">[!Важно!] Не вызывайте элементы объектной модели InfoPath из методов  `_Startup` и  `_Shutdown`. В этих методах следует выполнять инициализацию и вызов только элементов внешних компонентов.</span><span class="sxs-lookup"><span data-stu-id="330a9-p103">Do not call members of the InfoPath object model from within the  `_Startup` and  `_Shutdown` methods. You should initialize and call only members of external components in these methods.</span></span> 
+> <span data-ttu-id="330a9-p103">Не вызывайте элементы объектной модели InfoPath из методов  `_Startup` и  `_Shutdown`. В этих методах следует выполнять инициализацию и вызов только элементов внешних компонентов.</span><span class="sxs-lookup"><span data-stu-id="330a9-p103">Do not call members of the InfoPath object model from within the  `_Startup` and  `_Shutdown` methods. You should initialize and call only members of external components in these methods.</span></span> 
   
 ```cs
 using System;

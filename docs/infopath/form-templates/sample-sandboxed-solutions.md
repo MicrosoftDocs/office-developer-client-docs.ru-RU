@@ -140,7 +140,7 @@ ms.locfileid: "19807591"
     2. <span data-ttu-id="2bace-130">Введите URL-адрес сайта SharePoint для публикации и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2bace-130">Enter the URL of the SharePoint site to publish to, and then click **Next**.</span></span> 
         
        > [!IMPORTANT]
-       > <span data-ttu-id="2bace-131">[!Важно!] Для публикации формы на сайте в качестве решения изолированные решения необходимо иметь привилегии администратора семейства сайтов.</span><span class="sxs-lookup"><span data-stu-id="2bace-131">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
+       > <span data-ttu-id="2bace-131">Для публикации формы на сайте в качестве решения изолированные решения необходимо иметь привилегии администратора семейства сайтов.</span><span class="sxs-lookup"><span data-stu-id="2bace-131">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
     
     3. <span data-ttu-id="2bace-132">Выберите элемент **Библиотека форм**, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2bace-132">Select **Form Library**, and then click **Next**.</span></span>
         
@@ -284,7 +284,7 @@ ms.locfileid: "19807591"
     2. <span data-ttu-id="2bace-178">Введите URL-адрес сайта SharePoint для публикации и нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2bace-178">Enter the URL of the SharePoint site to publish to, and then click **Next**.</span></span> 
         
        > [!IMPORTANT]
-       > <span data-ttu-id="2bace-179">[!Важно!] Для публикации формы на сайте в качестве решения изолированные решения необходимо иметь привилегии администратора семейства сайтов.</span><span class="sxs-lookup"><span data-stu-id="2bace-179">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
+       > <span data-ttu-id="2bace-179">Для публикации формы на сайте в качестве решения изолированные решения необходимо иметь привилегии администратора семейства сайтов.</span><span class="sxs-lookup"><span data-stu-id="2bace-179">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
     
     3. <span data-ttu-id="2bace-180">Выберите элемент **Библиотека форм**, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="2bace-180">Select **Form Library**, and then click **Next**.</span></span>
         

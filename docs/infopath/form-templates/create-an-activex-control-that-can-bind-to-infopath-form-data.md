@@ -51,9 +51,9 @@ ms.locfileid: "19807479"
     
 <span data-ttu-id="94099-123">Кроме того, существует два интерфейса COM для InfoPath, обеспечивающие более тесную интеграцию элементов управления:</span><span class="sxs-lookup"><span data-stu-id="94099-123">Also, there are two InfoPath-specific COM interfaces that provide tighter integration of controls:</span></span>
   
-- [<span data-ttu-id="94099-124">IInfoPathControl</span><span class="sxs-lookup"><span data-stu-id="94099-124">IInfoPathControl</span></span>](http://msdn.microsoft.com/en-us/library/bb264625.aspx)
+- [<span data-ttu-id="94099-124">IInfoPathControl</span><span class="sxs-lookup"><span data-stu-id="94099-124">IInfoPathControl</span></span>](http://msdn.microsoft.com/ru-ru/library/bb264625.aspx)
     
-- [<span data-ttu-id="94099-125">IInfoPathControlSite</span><span class="sxs-lookup"><span data-stu-id="94099-125">IInfoPathControlSite</span></span>](http://msdn.microsoft.com/en-us/library/bb264627.aspx)
+- [<span data-ttu-id="94099-125">IInfoPathControlSite</span><span class="sxs-lookup"><span data-stu-id="94099-125">IInfoPathControlSite</span></span>](http://msdn.microsoft.com/ru-ru/library/bb264627.aspx)
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a><span data-ttu-id="94099-126">Добавление элемента управления ActiveX в среду разработки InfoPath</span><span class="sxs-lookup"><span data-stu-id="94099-126">Add an ActiveX Control to the InfoPath Design Environment</span></span>
 
@@ -68,7 +68,7 @@ ms.locfileid: "19807479"
 - <span data-ttu-id="94099-133">Укажите привязку типа данных.</span><span class="sxs-lookup"><span data-stu-id="94099-133">Specify data type binding.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="94099-134">[!Примечание] Если разрабатываемый элемент управления ActiveX добавлен в область задач **Элементы управления** в InfoPath, то повторное создание элемента управления ActiveX будет невозможно до закрытия InfoPath.</span><span class="sxs-lookup"><span data-stu-id="94099-134">If you are developing an ActiveX control and have added it to the **Controls** task pane in InfoPath, you will be unable to rebuild the ActiveX control until InfoPath is closed.</span></span> 
+> <span data-ttu-id="94099-134">Если разрабатываемый элемент управления ActiveX добавлен в область задач **Элементы управления** в InfoPath, то повторное создание элемента управления ActiveX будет невозможно до закрытия InfoPath.</span><span class="sxs-lookup"><span data-stu-id="94099-134">If you are developing an ActiveX control and have added it to the **Controls** task pane in InfoPath, you will be unable to rebuild the ActiveX control until InfoPath is closed.</span></span> 
   
 ## <a name="deploy-an-activex-control"></a><span data-ttu-id="94099-135">Развертывание элемента управления ActiveX</span><span class="sxs-lookup"><span data-stu-id="94099-135">Deploy an ActiveX Control</span></span>
 
@@ -80,5 +80,5 @@ ms.locfileid: "19807479"
 
 <span data-ttu-id="94099-139">Лаборатория 6: Добавление элементов управления ActiveX в InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="94099-139">Lab 6: Adding ActiveX Controls in InfoPath 2003</span></span>
   
-[<span data-ttu-id="94099-140">Создание пользовательского элемента управления InfoPath с помощью C# и .NET (блог команды разработчиков InfoPath) (Возможно, на английском языке)</span><span class="sxs-lookup"><span data-stu-id="94099-140">Creating an InfoPath Custom Control using C# and .NET (InfoPath Team Blog)</span></span>](http://blogs.msdn.com/infopath/archive/2005/04/15/creating-an-infopath-custom-control-using-c-and-net.aspx)
+[<span data-ttu-id="94099-140">Создание пользовательского элемента управления InfoPath с помощью C# и .NET (блог команды разработчиков InfoPath)</span><span class="sxs-lookup"><span data-stu-id="94099-140">Creating an InfoPath Custom Control using C# and .NET (InfoPath Team Blog)</span></span>](http://blogs.msdn.com/infopath/archive/2005/04/15/creating-an-infopath-custom-control-using-c-and-net.aspx)
 

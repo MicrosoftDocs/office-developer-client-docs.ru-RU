@@ -65,7 +65,7 @@ ms.locfileid: "19807598"
 3. <span data-ttu-id="6732b-146">Введите URL-адрес сайта SharePoint, на который выполняется публикация, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="6732b-146">Enter the URL of the SharePoint site to publish to, and then click **Next**.</span></span> 
     
     > [!IMPORTANT]
-    > <span data-ttu-id="6732b-147">[!Важно!] Для публикации формы на сайте в качестве решения изолированные решения необходимо иметь привилегии администратора семейства сайтов.</span><span class="sxs-lookup"><span data-stu-id="6732b-147">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
+    > <span data-ttu-id="6732b-147">Для публикации формы на сайте в качестве решения изолированные решения необходимо иметь привилегии администратора семейства сайтов.</span><span class="sxs-lookup"><span data-stu-id="6732b-147">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
   
 4. <span data-ttu-id="6732b-148">Выберите элемент **Библиотека форм**, а затем нажмите кнопку **Далее**.</span><span class="sxs-lookup"><span data-stu-id="6732b-148">Select **Form Library**, and then click **Next**.</span></span>
     

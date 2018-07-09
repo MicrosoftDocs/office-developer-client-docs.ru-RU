@@ -30,7 +30,7 @@ ms.locfileid: "19807506"
 2. <span data-ttu-id="16b43-112">В редакторе кода добавьте следующие три вспомогательные функции в открытый класс в файле кода формы.</span><span class="sxs-lookup"><span data-stu-id="16b43-112">In the Code Editor, add the following three helper functions to the public class in the form code file.</span></span>
     
    > [!IMPORTANT]
-   > <span data-ttu-id="16b43-113">[!Важно!] Убедитесь, что значение переменной  `debugFieldXpath` в функции  `AddToDebugField` обновлено с использованием правильного выражения XPath для поля, связанного с созданным в рамках первой процедуры элементом управления.</span><span class="sxs-lookup"><span data-stu-id="16b43-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
+   > <span data-ttu-id="16b43-113">Убедитесь, что значение переменной  `debugFieldXpath` в функции  `AddToDebugField` обновлено с использованием правильного выражения XPath для поля, связанного с созданным в рамках первой процедуры элементом управления.</span><span class="sxs-lookup"><span data-stu-id="16b43-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
   
     ```cs
         private void AddToDebugField(string valueToAdd)

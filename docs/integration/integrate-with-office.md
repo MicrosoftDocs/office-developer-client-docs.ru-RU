@@ -37,7 +37,7 @@ ms.locfileid: "19807609"
     
 ## <a name="see-also"></a><span data-ttu-id="ef032-115">См. также</span><span class="sxs-lookup"><span data-stu-id="ef032-115">See also</span></span>
 
-- [<span data-ttu-id="ef032-116">Разработка клиента Office</span><span class="sxs-lookup"><span data-stu-id="ef032-116">Office client development</span></span>](https://msdn.microsoft.com/en-us/library/dn833103.aspx)
+- [<span data-ttu-id="ef032-116">Разработка клиента Office</span><span class="sxs-lookup"><span data-stu-id="ef032-116">Office client development</span></span>](https://msdn.microsoft.com/ru-ru/library/dn833103.aspx)
     
 - [<span data-ttu-id="ef032-117">Разработка решений Office</span><span class="sxs-lookup"><span data-stu-id="ef032-117">Office development</span></span>](http://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
     

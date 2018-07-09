@@ -75,11 +75,11 @@ int MNLS_WideCharToMultiByte(
   
 ## <a name="remarks"></a><span data-ttu-id="c901b-129">Замечания</span><span class="sxs-lookup"><span data-stu-id="c901b-129">Remarks</span></span>
 
-<span data-ttu-id="c901b-130">Эта функция является функция **WideCharToMultiByte** .</span><span class="sxs-lookup"><span data-stu-id="c901b-130">This function wraps the **WideCharToMultiByte** function.</span></span> <span data-ttu-id="c901b-131">Для получения дополнительных сведений см [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c901b-131">For more information, see [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="c901b-130">Эта функция является функция **WideCharToMultiByte** .</span><span class="sxs-lookup"><span data-stu-id="c901b-130">This function wraps the **WideCharToMultiByte** function.</span></span> <span data-ttu-id="c901b-131">Для получения дополнительных сведений см [WideCharToMultiByte](http://msdn.microsoft.com/ru-ru/library/dd374130%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c901b-131">For more information, see [WideCharToMultiByte](http://msdn.microsoft.com/ru-ru/library/dd374130%28VS.85%29.aspx).</span></span>
   
 ## <a name="see-also"></a><span data-ttu-id="c901b-132">См. также</span><span class="sxs-lookup"><span data-stu-id="c901b-132">See also</span></span>
 
 
 
-[<span data-ttu-id="c901b-133">WideCharToMultiByte</span><span class="sxs-lookup"><span data-stu-id="c901b-133">WideCharToMultiByte</span></span>](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx)
+[<span data-ttu-id="c901b-133">WideCharToMultiByte</span><span class="sxs-lookup"><span data-stu-id="c901b-133">WideCharToMultiByte</span></span>](http://msdn.microsoft.com/ru-ru/library/dd374130%28VS.85%29.aspx)
 

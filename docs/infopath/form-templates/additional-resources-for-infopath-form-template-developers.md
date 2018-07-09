@@ -25,7 +25,7 @@ ms.locfileid: "19807470"
   
 > <span data-ttu-id="a6b04-p101">Сведения о концепциях и процедурах разработки шаблонов форм в InfoPath. Чтобы получить доступ к справке Microsoft Office InfoPath, выберите в меню приложения Microsoft InfoPath пункт **Справка**. При наличии подключения к Интернету дополнительное содержимое и обновленные темы справки интегрируются в справку с веб-сайта Microsoft Office Online.</span><span class="sxs-lookup"><span data-stu-id="a6b04-p101">Conceptual and procedural information on designing form templates with InfoPath. To access Microsoft Office InfoPath Help, click the **Help** button in Microsoft InfoPath. When you are connected to the Internet, additional content and updated help topics are integrated into Help from the Microsoft Office Online Web site.</span></span> 
     
-[<span data-ttu-id="a6b04-111">Центр разработчиков InfoPath (Возможно, на английском языке)</span><span class="sxs-lookup"><span data-stu-id="a6b04-111">InfoPath Developer Center</span></span>](http://go.microsoft.com/fwlink?LinkID=11689)
+[<span data-ttu-id="a6b04-111">Центр разработчиков InfoPath</span><span class="sxs-lookup"><span data-stu-id="a6b04-111">InfoPath Developer Center</span></span>](http://go.microsoft.com/fwlink?LinkID=11689)
   
 > <span data-ttu-id="a6b04-112">На этом веб-сайте содержатся технические документы, примеры форм, инструменты, статьи и сведения о разработке шаблонов форм InfoPath.</span><span class="sxs-lookup"><span data-stu-id="a6b04-112">This Web site contains white papers, sample forms, tools, articles, and information about developing InfoPath form templates.</span></span>
     
@@ -49,7 +49,7 @@ ms.locfileid: "19807470"
   
 > <span data-ttu-id="a6b04-123">На этом веб-сайте содержатся сведения о разработке программ и служб, использующих платформу .NET Framework.</span><span class="sxs-lookup"><span data-stu-id="a6b04-123">This Web site contains information about developing programs and services that use the .NET Framework.</span></span>
     
-[<span data-ttu-id="a6b04-124">Центр поддержки InfoPath (Возможно, на английском языке)</span><span class="sxs-lookup"><span data-stu-id="a6b04-124">InfoPath Solution Center</span></span>](http://support.microsoft.com/ph/11303)
+[<span data-ttu-id="a6b04-124">Центр поддержки InfoPath</span><span class="sxs-lookup"><span data-stu-id="a6b04-124">InfoPath Solution Center</span></span>](http://support.microsoft.com/ph/11303)
   
 > <span data-ttu-id="a6b04-125">На этом веб-сайте содержатся сведения о приложении InfoPath, в частности, статьи базы знаний, предоставленные службами поддержки корпорации Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="a6b04-125">This Web site contains information about InfoPath, such as Knowledge Base articles, provided by Microsoft Support Services.</span></span>
     

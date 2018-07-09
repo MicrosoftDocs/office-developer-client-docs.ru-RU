@@ -61,7 +61,7 @@ ms.locfileid: "19807156"
 - <span data-ttu-id="5104d-128">**XLOPER** &ndash; структуру данных нескольких типов, которая может представлять всех типов данных на листе (в том числе ошибок), целые числа, ссылки на диапазон, типы элементов управления поток листа макросов XLM и тип внутреннего хранилища двоичных данных.</span><span class="sxs-lookup"><span data-stu-id="5104d-128">**XLOPER** &ndash; a multi-type data structure that can represent all the worksheet data types (including errors), integers, range references, XLM macro sheet flow control types, and an internal binary storage data type.</span></span> 
     
    > [!NOTE]
-   > <span data-ttu-id="5104d-129">[!����������] ������ ������������ � ���� ����� ������ � ������������ ����� (�� 255���������).</span><span class="sxs-lookup"><span data-stu-id="5104d-129">Strings are represented as length-counted byte strings of up to 255 characters length.</span></span> 
+   > <span data-ttu-id="5104d-129">������ ������������ � ���� ����� ������ � ������������ ����� (�� 255���������).</span><span class="sxs-lookup"><span data-stu-id="5104d-129">Strings are represented as length-counted byte strings of up to 255 characters length.</span></span> 
   
 <span data-ttu-id="5104d-130">������� � Excel�2007:</span><span class="sxs-lookup"><span data-stu-id="5104d-130">Starting in Excel 2007:</span></span>
   
@@ -70,7 +70,7 @@ ms.locfileid: "19807156"
 - <span data-ttu-id="5104d-132">**XLOPER12** &ndash; структуру данных нескольких типов, которая может представлять всех типов данных на листе (в том числе ошибок), целые числа, ссылки на диапазон, типы элементов управления поток листа макросов XLM и тип внутреннего хранилища двоичных данных.</span><span class="sxs-lookup"><span data-stu-id="5104d-132">**XLOPER12** &ndash; a multi-type data structure that can represent all the worksheet data types (including errors), integers, range references, XLM macro sheet flow control types, and an internal binary storage data type.</span></span> 
     
    > [!NOTE]
-   > <span data-ttu-id="5104d-133">[!����������] ������ ������������ � ���� ����� ������� � ������������ ����� �� 32�767 ��������.</span><span class="sxs-lookup"><span data-stu-id="5104d-133">Strings are represented as length-counted Unicode strings of up to 32,767 characters long.</span></span> 
+   > <span data-ttu-id="5104d-133">������ ������������ � ���� ����� ������� � ������������ ����� �� 32�767 ��������.</span><span class="sxs-lookup"><span data-stu-id="5104d-133">Strings are represented as length-counted Unicode strings of up to 32,767 characters long.</span></span> 
   
 ## <a name="registration-data-type-codes"></a><span data-ttu-id="5104d-134">Коды типов данных регистрации</span><span class="sxs-lookup"><span data-stu-id="5104d-134">Registration data type codes</span></span>
 

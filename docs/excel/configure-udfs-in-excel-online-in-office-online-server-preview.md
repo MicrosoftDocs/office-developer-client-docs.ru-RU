@@ -42,7 +42,7 @@ ms.locfileid: "19807136"
   
 ## <a name="enable-udfs-on-office-online-server-preview"></a><span data-ttu-id="ebff5-119">Включение пользовательских функций в предварительной версии Microsoft Office Online Server</span><span class="sxs-lookup"><span data-stu-id="ebff5-119">Enable UDFs on Office Online Server Preview</span></span>
 
-<span data-ttu-id="ebff5-120">Когда администратор создает новую ферму сервера Office Web Apps с помощью командлета [New-OfficeWebAppsFarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) Windows PowerShell, по умолчанию отключены сборки пользовательских Функций.</span><span class="sxs-lookup"><span data-stu-id="ebff5-120">When an adminstrator creates a new Office Web Apps Server farm by using the [New-OfficeWebAppsFarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) Windows PowerShell cmdlet, UDF assemblies are disabled by default.</span></span> <span data-ttu-id="ebff5-121">Значение по умолчанию флаг **ExcelUdfsAllowed** имеет значение false.</span><span class="sxs-lookup"><span data-stu-id="ebff5-121">The default value of the **ExcelUdfsAllowed** flag is false.</span></span> 
+<span data-ttu-id="ebff5-120">Когда администратор создает новую ферму сервера Office Web Apps с помощью командлета [New-OfficeWebAppsFarm](https://technet.microsoft.com/ru-ru/library/jj219436.aspx) Windows PowerShell, по умолчанию отключены сборки пользовательских Функций.</span><span class="sxs-lookup"><span data-stu-id="ebff5-120">When an adminstrator creates a new Office Web Apps Server farm by using the [New-OfficeWebAppsFarm](https://technet.microsoft.com/ru-ru/library/jj219436.aspx) Windows PowerShell cmdlet, UDF assemblies are disabled by default.</span></span> <span data-ttu-id="ebff5-121">Значение по умолчанию флаг **ExcelUdfsAllowed** имеет значение false.</span><span class="sxs-lookup"><span data-stu-id="ebff5-121">The default value of the **ExcelUdfsAllowed** flag is false.</span></span> 
   
 <span data-ttu-id="ebff5-122">Включение пользовательских функций, выполните следующую команду Windows PowerShell на Office Online Server предварительного просмотра, после создания фермы сервера Office Web Apps.</span><span class="sxs-lookup"><span data-stu-id="ebff5-122">To enable UDFs, run the following Windows PowerShell command on the Office Online Server Preview, after the Office Web Apps Server farm has been created.</span></span>
   
@@ -87,7 +87,7 @@ ms.locfileid: "19807136"
     
 ## <a name="see-also"></a><span data-ttu-id="ebff5-142">См. также</span><span class="sxs-lookup"><span data-stu-id="ebff5-142">See also</span></span>
 
-- [<span data-ttu-id="ebff5-143">Настройка Excel Online административных параметров</span><span class="sxs-lookup"><span data-stu-id="ebff5-143">Configure Excel Online administrative settings</span></span>](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)  
-- [<span data-ttu-id="ebff5-144">Office Online Server Preview</span><span class="sxs-lookup"><span data-stu-id="ebff5-144">Office Online Server Preview</span></span>](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)
+- [<span data-ttu-id="ebff5-143">Настройка Excel Online административных параметров</span><span class="sxs-lookup"><span data-stu-id="ebff5-143">Configure Excel Online administrative settings</span></span>](https://technet.microsoft.com/ru-ru/library/jj219698%28v=office.16%29.aspx)  
+- [<span data-ttu-id="ebff5-144">Office Online Server Preview</span><span class="sxs-lookup"><span data-stu-id="ebff5-144">Office Online Server Preview</span></span>](https://technet.microsoft.com/ru-ru/library/jj219456%28v=office.16%29.aspx)
     
 

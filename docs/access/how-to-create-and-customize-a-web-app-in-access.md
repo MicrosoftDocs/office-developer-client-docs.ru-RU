@@ -32,7 +32,7 @@ ms.locfileid: "19806983"
     
 <span data-ttu-id="be72b-112">Дополнительные сведения о настройке среды разработки SharePoint видеть [настроить среду разработки, общие для SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint).</span><span class="sxs-lookup"><span data-stu-id="be72b-112">For more information about setting up your SharePoint development environment, see [Set up a general development environment for SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint).</span></span> 
   
-<span data-ttu-id="be72b-113">Дополнительные сведения о получении доступа и SharePoint в разделе [файлов для загрузки](http://msdn.microsoft.com/en-US/office/apps/fp123627).</span><span class="sxs-lookup"><span data-stu-id="be72b-113">For more information about obtaining Access and SharePoint, see [Downloads](http://msdn.microsoft.com/en-US/office/apps/fp123627).</span></span>
+<span data-ttu-id="be72b-113">Дополнительные сведения о получении доступа и SharePoint в разделе [файлов для загрузки](http://msdn.microsoft.com/ru-ru/office/apps/fp123627).</span><span class="sxs-lookup"><span data-stu-id="be72b-113">For more information about obtaining Access and SharePoint, see [Downloads](http://msdn.microsoft.com/ru-ru/office/apps/fp123627).</span></span>
 
 <span data-ttu-id="be72b-114"><a name="ac15_CreateAndCustomizeWebApp_CreateTheApp"> </a></span><span class="sxs-lookup"><span data-stu-id="be72b-114"></span></span>
 

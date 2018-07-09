@@ -24,7 +24,7 @@ ms.locfileid: "19810051"
 <span data-ttu-id="8acbd-105">Определяет, длина указанной строки Юникод, за исключением конечный символ null.</span><span class="sxs-lookup"><span data-stu-id="8acbd-105">Determines the length of the specified Unicode string, excluding the terminating null character.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="8acbd-106">Рекомендуется использовать [StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="8acbd-106">Consider using [StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx) instead.</span></span> 
+> <span data-ttu-id="8acbd-106">Рекомендуется использовать [StringCchLength](http://msdn.microsoft.com/ru-ru/library/ms647539%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="8acbd-106">Consider using [StringCchLength](http://msdn.microsoft.com/ru-ru/library/ms647539%28VS.85%29.aspx) instead.</span></span> 
   
 ```cpp
 int MNLS_lstrlen(
@@ -43,13 +43,13 @@ int MNLS_lstrlen(
   
 ## <a name="remarks"></a><span data-ttu-id="8acbd-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="8acbd-114">Remarks</span></span>
 
-<span data-ttu-id="8acbd-115">Эта функция имеет функцию **lstrlen** .</span><span class="sxs-lookup"><span data-stu-id="8acbd-115">This function wraps the **lstrlen** function.</span></span> <span data-ttu-id="8acbd-116">Для получения дополнительных сведений см [lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="8acbd-116">For more information, see [lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="8acbd-115">Эта функция имеет функцию **lstrlen** .</span><span class="sxs-lookup"><span data-stu-id="8acbd-115">This function wraps the **lstrlen** function.</span></span> <span data-ttu-id="8acbd-116">Для получения дополнительных сведений см [lstrlen](http://msdn.microsoft.com/ru-ru/library/ms647492%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="8acbd-116">For more information, see [lstrlen](http://msdn.microsoft.com/ru-ru/library/ms647492%28VS.85%29.aspx).</span></span>
   
 ## <a name="see-also"></a><span data-ttu-id="8acbd-117">См. также</span><span class="sxs-lookup"><span data-stu-id="8acbd-117">See also</span></span>
 
 
 
-[<span data-ttu-id="8acbd-118">lstrlen</span><span class="sxs-lookup"><span data-stu-id="8acbd-118">lstrlen</span></span>](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx)
+[<span data-ttu-id="8acbd-118">lstrlen</span><span class="sxs-lookup"><span data-stu-id="8acbd-118">lstrlen</span></span>](http://msdn.microsoft.com/ru-ru/library/ms647492%28VS.85%29.aspx)
   
-[<span data-ttu-id="8acbd-119">StringCchLength</span><span class="sxs-lookup"><span data-stu-id="8acbd-119">StringCchLength</span></span>](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx)
+[<span data-ttu-id="8acbd-119">StringCchLength</span><span class="sxs-lookup"><span data-stu-id="8acbd-119">StringCchLength</span></span>](http://msdn.microsoft.com/ru-ru/library/ms647539%28VS.85%29.aspx)
 
