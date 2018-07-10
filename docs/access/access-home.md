@@ -20,13 +20,13 @@ ms.locfileid: "19806910"
   
 - [<span data-ttu-id="b34a6-106">Справочник по VBA для Access</span><span class="sxs-lookup"><span data-stu-id="b34a6-106">Access VBA reference</span></span>](http://msdn.microsoft.com/library/0e9c6fa4-3289-4a13-b409-354c70129308%28Office.15%29.aspx)
   
-- [<span data-ttu-id="b34a6-107">Access 2010</span><span class="sxs-lookup"><span data-stu-id="b34a6-107">Access 2010</span></span>](https://msdn.microsoft.com/en-us/library/office/ff604965%28v=office.14%29.aspx)
+- [<span data-ttu-id="b34a6-107">Access 2010</span><span class="sxs-lookup"><span data-stu-id="b34a6-107">Access 2010</span></span>](https://msdn.microsoft.com/ru-ru/library/office/ff604965%28v=office.14%29.aspx)
   
 ### <a name="office-add-ins"></a><span data-ttu-id="b34a6-108">Надстройки Office</span><span class="sxs-lookup"><span data-stu-id="b34a6-108">Office Add-ins</span></span>
   
 - [<span data-ttu-id="b34a6-109">Начало работы</span><span class="sxs-lookup"><span data-stu-id="b34a6-109">Get started</span></span>](https://dev.office.com/getting-started/addins)
   
-- [<span data-ttu-id="b34a6-110">Обзор платформы</span><span class="sxs-lookup"><span data-stu-id="b34a6-110">Platform overview</span></span>](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [<span data-ttu-id="b34a6-110">Обзор платформы</span><span class="sxs-lookup"><span data-stu-id="b34a6-110">Platform overview</span></span>](https://msdn.microsoft.com/ru-ru/library/office/jj220082.aspx)
   
 ### <a name="other-resources"></a><span data-ttu-id="b34a6-111">Другие ресурсы</span><span class="sxs-lookup"><span data-stu-id="b34a6-111">Other resources</span></span>
   
@@ -36,7 +36,7 @@ ms.locfileid: "19806910"
   
 - [<span data-ttu-id="b34a6-114">Пакет SDK для Open XML</span><span class="sxs-lookup"><span data-stu-id="b34a6-114">Open XML SDK</span></span>](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
   
-- [<span data-ttu-id="b34a6-115">Надстройки VSTO для Office</span><span class="sxs-lookup"><span data-stu-id="b34a6-115">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
+- [<span data-ttu-id="b34a6-115">Надстройки VSTO для Office</span><span class="sxs-lookup"><span data-stu-id="b34a6-115">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/ru-ru/library/jj620922.aspx)
   
 ### <a name="support"></a><span data-ttu-id="b34a6-116">Поддержка</span><span class="sxs-lookup"><span data-stu-id="b34a6-116">Support</span></span>
   
@@ -44,6 +44,6 @@ ms.locfileid: "19806910"
   
 - [<span data-ttu-id="b34a6-118">Поддержка Office</span><span class="sxs-lookup"><span data-stu-id="b34a6-118">Office support</span></span>](https://support.office.com/)
   
-- [<span data-ttu-id="b34a6-119">Доступ на форуме MSDN</span><span class="sxs-lookup"><span data-stu-id="b34a6-119">Access forum on MSDN</span></span>](https://social.msdn.microsoft.com/Forums/office/en-US/home?forum=accessdev)
+- [<span data-ttu-id="b34a6-119">Доступ на форуме MSDN</span><span class="sxs-lookup"><span data-stu-id="b34a6-119">Access forum on MSDN</span></span>](https://social.msdn.microsoft.com/Forums/office/ru-ru/home?forum=accessdev)
   
 

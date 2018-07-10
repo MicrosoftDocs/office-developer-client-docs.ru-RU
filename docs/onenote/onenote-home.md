@@ -21,7 +21,7 @@ ms.locfileid: "19807667"
 > <span data-ttu-id="87d25-105">API-интерфейсы, описанные в этой документации предназначены только для решений для настольных компьютеров клиента OneNote Win32 отключенный сценариев.</span><span class="sxs-lookup"><span data-stu-id="87d25-105">The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios.</span></span> <span data-ttu-id="87d25-106">Для подключенных сценариев использования рекомендуемые API службы OneNote.</span><span class="sxs-lookup"><span data-stu-id="87d25-106">For connected scenarios, use the recommended OneNote service APIs.</span></span> <span data-ttu-id="87d25-107">Для получения дополнительных сведений посетите [dev.onenote.com](http://dev.onenote.com/).</span><span class="sxs-lookup"><span data-stu-id="87d25-107">To learn more, visit [dev.onenote.com](http://dev.onenote.com/).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="87d25-p102">[!Примечание] Хотите создавать решения, которые расширяют возможности Office на [нескольких платформах](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Попробуйте [надстройки Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).</span><span class="sxs-lookup"><span data-stu-id="87d25-p102">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).</span></span>  
+> <span data-ttu-id="87d25-p102">Хотите создавать решения, которые расширяют возможности Office на [нескольких платформах](https://docs.microsoft.com/ru-ru/office/dev/add-ins/overview/office-add-in-availability)? Попробуйте [надстройки Office](https://docs.microsoft.com/ru-ru/office/dev/add-ins/overview/office-add-ins).</span><span class="sxs-lookup"><span data-stu-id="87d25-p102">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/ru-ru/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/ru-ru/office/dev/add-ins/overview/office-add-ins).</span></span>  
   
 ### <a name="viewed-most"></a><span data-ttu-id="87d25-110">Самые популярные</span><span class="sxs-lookup"><span data-stu-id="87d25-110">Viewed most</span></span>
   
@@ -29,9 +29,9 @@ ms.locfileid: "19807667"
   
 ### <a name="office-add-ins"></a><span data-ttu-id="87d25-112">Надстройки Office</span><span class="sxs-lookup"><span data-stu-id="87d25-112">Office Add-ins</span></span>
   
-- [<span data-ttu-id="87d25-113">Начало работы с надстройками OneNote</span><span class="sxs-lookup"><span data-stu-id="87d25-113">Get started with OneNote add-ins</span></span>](https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/onenote-quickstart)
+- [<span data-ttu-id="87d25-113">Начало работы с надстройками OneNote</span><span class="sxs-lookup"><span data-stu-id="87d25-113">Get started with OneNote add-ins</span></span>](https://docs.microsoft.com/ru-ru/office/dev/add-ins/quickstarts/onenote-quickstart)
   
-- [<span data-ttu-id="87d25-114">Обзор платформы</span><span class="sxs-lookup"><span data-stu-id="87d25-114">Platform overview</span></span>](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)
+- [<span data-ttu-id="87d25-114">Обзор платформы</span><span class="sxs-lookup"><span data-stu-id="87d25-114">Platform overview</span></span>](https://docs.microsoft.com/ru-ru/office/dev/add-ins/overview/office-add-ins)
   
 ### <a name="other-resources"></a><span data-ttu-id="87d25-115">Другие ресурсы</span><span class="sxs-lookup"><span data-stu-id="87d25-115">Other resources</span></span>
   
@@ -41,6 +41,6 @@ ms.locfileid: "19807667"
   
 - [<span data-ttu-id="87d25-118">Пакет SDK для Open XML</span><span class="sxs-lookup"><span data-stu-id="87d25-118">Open XML SDK</span></span>](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
   
-- [<span data-ttu-id="87d25-119">Надстройки VSTO для Office</span><span class="sxs-lookup"><span data-stu-id="87d25-119">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
+- [<span data-ttu-id="87d25-119">Надстройки VSTO для Office</span><span class="sxs-lookup"><span data-stu-id="87d25-119">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/ru-ru/library/jj620922.aspx)
   
 

@@ -19,7 +19,7 @@
     - name: Office Online Server
       href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
     - name: Office для Mac
-      href: 'https://msdn.microsoft.com/en-us/library/office/mt654019.aspx'
+      href: 'https://msdn.microsoft.com/ru-ru/library/office/mt654019.aspx'
     - name: Ресурсы по Office
       href: shared/office-shared.md
       items:
@@ -37,20 +37,20 @@
             - name: Проблемы совместимости в Office
               href: shared/compatibility-issues-in-office.md
         - name: Справочник по библиотеке объектов VBA для Office
-          href: 'https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference'
+          href: 'https://msdn.microsoft.com/ru-ru/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference'
         - name: Справочник по языку Office VBA
-          href: 'https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference'
+          href: 'https://msdn.microsoft.com/ru-ru/VBA/VBA-Language-Reference'
         - name: Справочник по основной сборке взаимодействия Office
-          href: 'https://msdn.microsoft.com/en-us/library/office/ff597925.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ff597925.aspx'
         - name: Пакет SDK 2.5 Open XML
-          href: 'https://msdn.microsoft.com/en-us/library/office/bb448854.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/bb448854.aspx'
         - name: Использование CSISyncClient для управления ODC
           href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
     - name: Access
       href: access/access-home.md
       items:
         - name: Справочник по VBA для Access
-          href: 'https://msdn.microsoft.com/en-us/library/mt346046.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/mt346046.aspx'
         - name: Access настраиваемых веб-приложения ссылки
           href: access/access-custom-web-app-reference.md
           items:
@@ -344,14 +344,14 @@
                     - name: OpenPopup
                       href: access/openpopup-macro-action-access-custom-web-app.md
         - name: Справочник по для настольных баз данных Access
-          href: 'https://msdn.microsoft.com/en-us/library/dn142571.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/dn142571.aspx'
     - name: Excel
       href: excel/excel-home.md
       items:
         - name: Справочник по VBA для Excel
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861528.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861528.aspx'
         - name: Справочник по основной сборке взаимодействия Excel
-          href: 'https://msdn.microsoft.com/en-us/library/office/ff597926.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ff597926.aspx'
         - name: Пакет SDK XLL для Excel
           href: excel/welcome-to-the-excel-software-development-kit.md
           items:
@@ -599,7 +599,7 @@
                     - name: ShowOptions
                       href: excel/showoptions.md
         - name: Советы по оптимизации производительностью
-          href: 'https://msdn.microsoft.com/en-us/library/office/mt709003.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/mt709003.aspx'
     - name: InfoPath
       href: infopath/infopath-home.md
       items:
@@ -784,7 +784,7 @@
                     - name: 'Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003, во время разработки'
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
             - name: Справочник по библиотеке классов для шаблонов форм InfoPath
-              href: 'https://msdn.microsoft.com/en-us/library/office/ee526341.aspx'
+              href: 'https://msdn.microsoft.com/ru-ru/library/office/ee526341.aspx'
         - name: Справочник разработчика InfoPath по внешней автоматизации
           href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
           items:
@@ -805,7 +805,7 @@
                 - name: Автоматизация InfoPath из внешнего приложения
                   href: infopath/external-automation/automating-infopath-from-an-external-application.md
             - name: Справочник по библиотеке классов для внешней автоматизации InfoPath
-              href: 'https://msdn.microsoft.com/en-us/library/office/ff663147.aspx'
+              href: 'https://msdn.microsoft.com/ru-ru/library/office/ff663147.aspx'
     - name: OneNote
       href: onenote/onenote-home.md
       items:
@@ -828,9 +828,9 @@
         - name: Selecting an API or technology for developing solutions for Outlook
           href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
         - name: Справочник по VBA для Outlook
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861520.aspx'
         - name: Справочник по основной сборке взаимодействия Outlook
-          href: 'https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/bb652780.aspx'
         - name: Справочник поставщика по Outlook Social Connector
           href: outlook/social-connector/outlook-social-connector-provider-reference.md
           items:
@@ -6203,12 +6203,12 @@
       href: powerpoint-home.md
       items:
         - name: Справочник по VBA для PowerPoint
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861525.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861525.aspx'
     - name: Project
       href: project/project-home.md
       items:
         - name: Справочник по VBA для Project
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861523.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861523.aspx'
         - name: Документация для разработчиков
           href: project/project-2013-developer-documentation.md
           items:
@@ -6273,25 +6273,25 @@
                     - name: Коды ошибок Project Server
                       href: project/project-server-error-codes.md
                     - name: ProjectData — Справочник по службе OData
-                      href: 'https://msdn.microsoft.com/en-us/library/office/jj163015.aspx'
+                      href: 'https://msdn.microsoft.com/ru-ru/library/office/jj163015.aspx'
             - name: Ссылки на библиотеку и веб-службу класс
-              href: 'https://msdn.microsoft.com/en-us/library/office/ee767707.aspx'
+              href: 'https://msdn.microsoft.com/ru-ru/library/office/ee767707.aspx'
             - name: Справка по API JavaScript
-              href: 'https://msdn.microsoft.com/en-us/library/office/jj712612.aspx'
+              href: 'https://msdn.microsoft.com/ru-ru/library/office/jj712612.aspx'
     - name: Publisher
       href: publisher-home.md
       items:
         - name: Справочник по VBA для Publisher
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861522.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861522.aspx'
     - name: Visio
       href: visio/visio-home.md
       items:
         - name: Справочник по VBA для Visio
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861526.aspx'
         - name: Сохранить как веб-ссылку в Visio
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ff767184.aspx'
         - name: Справочные материалы по Visio Viewer
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ff766866.aspx'
         - name: Справочник по таблице свойств фигуры Visio
           href: visio/visio-shapesheet-reference.md
           items:
@@ -8433,9 +8433,9 @@
         - name: Элементы управления содержимым в Word
           href: word/content-controls-in-word.md
         - name: Справочник по Word VBA
-          href: 'https://msdn.microsoft.com/en-us/library/ee861527.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/ee861527.aspx'
         - name: Справочник по основной сборке взаимодействия Word
-          href: 'https://msdn.microsoft.com/en-us/library/ff597928.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/ff597928.aspx'
     - name: Sway схема URI
       href: swayuri.md
     - name: Схем URI Office
