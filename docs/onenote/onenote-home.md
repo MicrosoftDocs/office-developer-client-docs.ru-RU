@@ -23,7 +23,7 @@ ms.locfileid: "19807667"
 > [!NOTE]
 > [!Примечание] Хотите создавать решения, которые расширяют возможности Office на [нескольких платформах](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Попробуйте [надстройки Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).  
   
-### <a name="viewed-most"></a>Просмотреть наиболее
+### <a name="viewed-most"></a>Самые популярные
   
 - [Справочник разработчика по OneNote](onenote-developer-reference.md)
   

@@ -20,11 +20,11 @@ ms.locfileid: "19815285"
 > [!NOTE]
 > [!Примечание] Хотите создавать решения, которые расширяют возможности Office на [нескольких платформах](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Попробуйте [надстройки Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).  
   
-### <a name="viewed-most"></a>Просмотреть наиболее
+### <a name="viewed-most"></a>Самые популярные
   
 - [Справочник по VBA для Word](https://msdn.microsoft.com/en-us/library/ee861527.aspx)
   
-- [Word 2010](https://msdn.microsoft.com/en-us/library/office/ff601860%28v=office.14%29.aspx)
+- [Word 2010](https://msdn.microsoft.com/en-us/library/office/ff601860%28v=office.14%29.aspx)
   
 ### <a name="office-add-ins"></a>Надстройки Office
   
@@ -32,7 +32,7 @@ ms.locfileid: "19815285"
   
 - [Обзор платформы](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)
   
-### <a name="code-samples"></a>Code samples
+### <a name="code-samples"></a>Примеры кода
   
 - [Примеры кода Word в центре разработчиков Office](https://developer.microsoft.com/en-us/word/gallery/?filterBy=Word,Samples)
   

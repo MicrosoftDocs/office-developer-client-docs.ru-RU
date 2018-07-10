@@ -16,11 +16,11 @@ ms.locfileid: "19806910"
 
 Найдите практических руководств, примеры кода, документацию по SDK и API, справочные материалы VBA, обучающие и технические статьи по разработке решений и настройке клиента.
   
-### <a name="viewed-most"></a>Просмотреть наиболее
+### <a name="viewed-most"></a>Самые популярные
   
-- [Справочник по VBA Access](http://msdn.microsoft.com/library/0e9c6fa4-3289-4a13-b409-354c70129308%28Office.15%29.aspx)
+- [Справочник по VBA для Access](http://msdn.microsoft.com/library/0e9c6fa4-3289-4a13-b409-354c70129308%28Office.15%29.aspx)
   
-- [Access 2010](https://msdn.microsoft.com/en-us/library/office/ff604965%28v=office.14%29.aspx)
+- [Access 2010](https://msdn.microsoft.com/en-us/library/office/ff604965%28v=office.14%29.aspx)
   
 ### <a name="office-add-ins"></a>Надстройки Office
   

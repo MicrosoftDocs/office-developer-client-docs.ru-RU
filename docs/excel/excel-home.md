@@ -20,11 +20,11 @@ ms.locfileid: "19807192"
 > [!NOTE]
 > [!Примечание] Хотите создавать решения, которые расширяют возможности Office на [нескольких платформах](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Изучите новую [Модель надстроек Excel](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-overview). 
   
-### <a name="viewed-most"></a>Просмотреть наиболее
+### <a name="viewed-most"></a>Самые популярные
   
 - [Справочник по VBA для Excel](https://msdn.microsoft.com/EN-US/library/ee861528.aspx)
   
-- [Excel 2010](https://msdn.microsoft.com/en-us/library/ee658205%28v=office.14%29.aspx)
+- [Excel 2010](https://msdn.microsoft.com/en-us/library/ee658205%28v=office.14%29.aspx)
   
 ### <a name="office-add-ins"></a>Надстройки Office
   
@@ -32,7 +32,7 @@ ms.locfileid: "19807192"
   
 - [Обзор платформы](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)
   
-### <a name="code-samples"></a>Code samples
+### <a name="code-samples"></a>Примеры кода
   
 - [Примеры кода Excel в центре разработчиков Office](https://developer.microsoft.com/en-us/excel/gallery/?filterBy=Samples)
   
