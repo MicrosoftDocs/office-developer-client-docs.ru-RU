@@ -19,7 +19,7 @@
     - name: Office Online Server
       href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
     - name: Office для Mac
-      href: 'https://msdn.microsoft.com/en-us/library/office/mt654019.aspx'
+      href: 'https://msdn.microsoft.com/ru-ru/library/office/mt654019.aspx'
     - name: Совместное использование Office
       href: shared/office-shared.md
       items:
@@ -27,7 +27,7 @@
           href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
         - name: Интеграция приложений для обмена мгновенными сообщениями с приложениями Office
           href: shared/integrating-im-applications-with-office.md
-        - name: "Приложения для управления и установщик Office\_365 \"нажми и работай\""
+        - name: "Приложения для управления и установщик Office 365 \"нажми и работай\""
           href: shared/manageability-applications-with-the-office-365-click-to-run-installer.md
         - name: Журнал телеметрии Office
           href: shared/office-telemetry-log.md
@@ -37,20 +37,20 @@
             - name: Проблемы совместимости в Office
               href: shared/compatibility-issues-in-office.md
         - name: Справочник по библиотеке объектов VBA для Office
-          href: 'https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference'
+          href: 'https://msdn.microsoft.com/ru-ru/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference'
         - name: Справочник по языку Office VBA
-          href: 'https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference'
+          href: 'https://msdn.microsoft.com/ru-ru/VBA/VBA-Language-Reference'
         - name: Справочник по основной сборке взаимодействия Office
-          href: 'https://msdn.microsoft.com/en-us/library/office/ff597925.aspx'
-        - name: "Пакет SDK Open XML\_2.5"
-          href: 'https://msdn.microsoft.com/en-us/library/office/bb448854.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ff597925.aspx'
+        - name: "Пакет SDK Open XML 2.5"
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/bb448854.aspx'
         - name: Управление ODC с помощью клиента CSISyncClient
           href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
     - name: Access
       href: access/access-home.md
       items:
         - name: Справочник по VBA для Access
-          href: 'https://msdn.microsoft.com/en-us/library/mt346046.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/mt346046.aspx'
         - name: Справочник по пользовательским веб-приложениям для Access
           href: access/access-custom-web-app-reference.md
           items:
@@ -344,23 +344,23 @@
                     - name: OpenPopup
                       href: access/openpopup-macro-action-access-custom-web-app.md
         - name: Справочник по базам данных Access на компьютере
-          href: 'https://msdn.microsoft.com/en-us/library/dn142571.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/dn142571.aspx'
     - name: Excel
       href: excel/excel-home.md
       items:
         - name: Справочник по VBA для Excel
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861528.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861528.aspx'
         - name: Справочник по основной сборке взаимодействия Excel
-          href: 'https://msdn.microsoft.com/en-us/library/office/ff597926.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ff597926.aspx'
         - name: Пакет SDK XLL для Excel
           href: excel/welcome-to-the-excel-software-development-kit.md
           items:
             - name: Начало работы
               href: excel/getting-started-with-the-excel-xll-sdk.md
               items:
-                - name: "Программирование с использованием API\_C в Excel"
+                - name: "Программирование с использованием API C в Excel"
                   href: excel/programming-with-the-c-api-in-excel.md
-                - name: "Новые возможности в API\_C для Excel"
+                - name: "Новые возможности в API C для Excel"
                   href: excel/what-s-new-in-the-c-api-for-excel.md
                 - name: Известные проблемы
                   href: excel/known-issues-in-excel-xll-development.md
@@ -444,14 +444,14 @@
                       href: excel/xlautoregister-xlautoregister12.md
                     - name: xlAutoRemove
                       href: excel/xlautoremove.md
-                - name: "Функции обратного вызова из API\_C: Excel4, Excel12"
+                - name: "Функции обратного вызова из API C: Excel4, Excel12"
                   href: excel/c-api-callback-functions-excel4-excel12.md
                   items:
                     - name: Excel4/Excel12
                       href: excel/excel4-excel12.md
                     - name: Excel4v/Excel12v
                       href: excel/excel4v-excel12v.md
-                - name: "Необходимые и полезные функции XLM из API\_C"
+                - name: "Необходимые и полезные функции XLM из API C"
                   href: excel/essential-and-useful-c-api-xlm-functions.md
                   items:
                     - name: xlfCaller
@@ -462,19 +462,19 @@
                       href: excel/xlfgetdef.md
                     - name: xlfGetName
                       href: excel/xlfgetname.md
-                    - name: "xlfRegister (форма\_1)"
+                    - name: "xlfRegister (форма 1)"
                       href: excel/xlfregister-form-1.md
-                    - name: "xlfRegister (форма\_2)"
+                    - name: "xlfRegister (форма 2)"
                       href: excel/xlfregister-form-2.md
                     - name: xlfRegisterId
                       href: excel/xlfregisterid.md
-                    - name: "xlfUnregister (форма\_1)"
+                    - name: "xlfUnregister (форма 1)"
                       href: excel/xlfunregister-form-1.md
-                    - name: "xlfUnregister (форма\_2)"
+                    - name: "xlfUnregister (форма 2)"
                       href: excel/xlfunregister-form-2.md
                     - name: xlfSetName
                       href: excel/xlfsetname.md
-                - name: "Функции API\_C, которые можно вызывать только из библиотеки DLL или XLL"
+                - name: "Функции API C, которые можно вызывать только из библиотеки DLL или XLL"
                   href: excel/c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md
                   items:
                     - name: xlAbort
@@ -599,7 +599,7 @@
                     - name: ShowOptions
                       href: excel/showoptions.md
         - name: Советы по оптимизации производительности
-          href: 'https://msdn.microsoft.com/en-us/library/office/mt709003.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/mt709003.aspx'
     - name: Infopath
       href: infopath/infopath-home.md
       items:
@@ -724,67 +724,67 @@
                       href: infopath/form-templates/create-an-activex-control-that-can-bind-to-infopath-form-data.md
                     - name: Активация настраиваемого слияния форм InfoPath
                       href: infopath/form-templates/enable-custom-merging-of-infopath-forms.md
-            - name: "Разработка шаблонов форм, использующих объектную модель InfoPath\_2003"
+            - name: "Разработка шаблонов форм, использующих объектную модель InfoPath 2003"
               href: infopath/form-templates/developing-form-templates-using-the-infopath-2003-object-model.md
               items:
-                - name: "Введение в разработку шаблонов форм, использующих объектную модель InfoPath\_2003"
+                - name: "Введение в разработку шаблонов форм, использующих объектную модель InfoPath 2003"
                   href: infopath/form-templates/get-started-developing-form-templates-using-infopath-object-model.md
                   items:
-                    - name: "Создание шаблона формы, использующего объектную модель InfoPath\_2003"
+                    - name: "Создание шаблона формы, использующего объектную модель InfoPath 2003"
                       href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
-                    - name: "Пошаговое руководство. Создание и отладка начального шаблона формы, использующего объектную модель InfoPath\_2003"
+                    - name: "Пошаговое руководство. Создание и отладка начального шаблона формы, использующего объектную модель InfoPath 2003"
                       href: infopath/form-templates/walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md
-                    - name: "Распространенные задачи разработки шаблонов форм, использующих объектную модель InfoPath\_2003"
+                    - name: "Распространенные задачи разработки шаблонов форм, использующих объектную модель InfoPath 2003"
                       href: infopath/form-templates/common-tasks-for-developing-form-templates-using-infopath-object-model.md
-                    - name: "Использование элементов Microsoft.Office.Interop.InfoPath.SemiTrust, несовместимых с InfoPath\_2003"
+                    - name: "Использование элементов Microsoft.Office.Interop.InfoPath.SemiTrust, несовместимых с InfoPath 2003"
                       href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
-                - name: "Создание шаблонов форм, использующих объектную модель InfoPath\_2003"
+                - name: "Создание шаблонов форм, использующих объектную модель InfoPath 2003"
                   href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
                   items:
-                    - name: "Код инициализации и очистки с использованием объектной модели InfoPath\_2003"
+                    - name: "Код инициализации и очистки с использованием объектной модели InfoPath 2003"
                       href: infopath/form-templates/initialization-and-clean-up-code-using-infopath-2003-object-model.md
-                    - name: "Отладка проектов InfoPath, использующих объектную модель InfoPath\_2003"
+                    - name: "Отладка проектов InfoPath, использующих объектную модель InfoPath 2003"
                       href: infopath/form-templates/how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md
-                    - name: "Добавление обработчика события, использующего объектную модель InfoPath\_2003"
+                    - name: "Добавление обработчика события, использующего объектную модель InfoPath 2003"
                       href: infopath/form-templates/how-to-add-an-event-handler-using-the-infopath-2003-object-model.md
-                    - name: "Поддержки потоков в проектах InfoPath, использующих объектную модель InfoPath\_2003"
+                    - name: "Поддержки потоков в проектах InfoPath, использующих объектную модель InfoPath 2003"
                       href: infopath/form-templates/threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md
-                    - name: "Работа с MSXML и System.Xml с использованием объектной модели InfoPath\_2003"
+                    - name: "Работа с MSXML и System.Xml с использованием объектной модели InfoPath 2003"
                       href: infopath/form-templates/working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md
-                - name: "Общие сведения об объектной модели InfoPath\_2003"
+                - name: "Общие сведения об объектной модели InfoPath 2003"
                   href: infopath/form-templates/understanding-the-infopath-2003-object-model.md
                   items:
-                    - name: "Объектные модели, совместимые с InfoPath\_2003"
+                    - name: "Объектные модели, совместимые с InfoPath 2003"
                       href: infopath/form-templates/infopath-2003-compatible-object-models.md
-                    - name: "Доступ к данным приложений с помощью объектной модели InfoPath\_2003"
+                    - name: "Доступ к данным приложений с помощью объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-access-application-data-using-the-infopath-2003-object-model.md
-                    - name: "Доступ к внешним источникам данных с помощью объектной модели InfoPath\_2003"
+                    - name: "Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-access-external-data-sources-using-the-infopath-2003-object-model.md
-                    - name: "Доступ к данным форм с помощью объектной модели InfoPath\_2003"
+                    - name: "Доступ к данным форм с помощью объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-access-form-data-using-the-infopath-2003-object-model.md
-                    - name: "Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath\_2003"
+                    - name: "Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md
-                    - name: "Обработка ошибок с помощью объектной модели InfoPath\_2003"
+                    - name: "Обработка ошибок с помощью объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-handle-errors-using-the-infopath-2003-object-model.md
-                    - name: "Обработка событий форм с помощью объектной модели InfoPath\_2003"
+                    - name: "Обработка событий форм с помощью объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-respond-to-form-events-using-the-infopath-2003-object-model.md
-                    - name: "Работа с окнами форм при помощи объектной модели InfoPath\_2003"
+                    - name: "Работа с окнами форм при помощи объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-work-with-form-windows-using-the-infopath-2003-object-model.md
-                    - name: "Работа с представлениями при помощи объектной модели InfoPath\_2003"
+                    - name: "Работа с представлениями при помощи объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-work-with-views-using-the-infopath-2003-object-model.md
-                    - name: "Работа с цифровыми подписями при помощи объектной модели InfoPath\_2003"
+                    - name: "Работа с цифровыми подписями при помощи объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md
-                    - name: "Работа с автономными решениями с использованием объектной модели InfoPath\_2003"
+                    - name: "Работа с автономными решениями с использованием объектной модели InfoPath 2003"
                       href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
-                - name: "Устранение неполадок шаблонов форм, использующих объектную модель InfoPath\_2003"
+                - name: "Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003"
                   href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model.md
                   items:
-                    - name: "Устранение неполадок шаблонов форм, использующих объектную модель InfoPath\_2003, во время выполнения"
+                    - name: "Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003, во время выполнения"
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md
-                    - name: "Устранение неполадок шаблонов форм, использующих объектную модель InfoPath\_2003, во время разработки"
+                    - name: "Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003, во время разработки"
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
             - name: Справка по библиотеке классов для шаблонов форм InfoPath
-              href: 'https://msdn.microsoft.com/en-us/library/office/ee526341.aspx'
+              href: 'https://msdn.microsoft.com/ru-ru/library/office/ee526341.aspx'
         - name: Справочник разработчика по автоматизации InfoPath с использованием внешних решений
           href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
           items:
@@ -805,7 +805,7 @@
                 - name: Автоматизация InfoPath из внешнего приложения
                   href: infopath/external-automation/automating-infopath-from-an-external-application.md
             - name: Справочник по библиотекам классов для автоматизации InfoPath с использованием внешних решений
-              href: 'https://msdn.microsoft.com/en-us/library/office/ff663147.aspx'
+              href: 'https://msdn.microsoft.com/ru-ru/library/office/ff663147.aspx'
     - name: OneNote
       href: onenote/onenote-home.md
       items:
@@ -828,9 +828,9 @@
         - name: Выбор API или технологии для разработки решений для Outlook
           href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
         - name: Справочник по VBA для Outlook
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861520.aspx'
         - name: Справочник по основной сборке взаимодействия Outlook
-          href: 'https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/bb652780.aspx'
         - name: Справочник по поставщикам Outlook Social Connector
           href: outlook/social-connector/outlook-social-connector-provider-reference.md
           items:
@@ -6203,12 +6203,12 @@
       href: powerpoint-home.md
       items:
         - name: Справочник по VBA для PowerPoint
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861525.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861525.aspx'
     - name: Project
       href: project/project-home.md
       items:
         - name: Project VBA reference
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861523.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861523.aspx'
         - name: Документация разработчиков
           href: project/project-2013-developer-documentation.md
           items:
@@ -6224,9 +6224,9 @@
                       href: project/project-server-2013-architecture.md
                     - name: Возможности программирования для Project Server
                       href: project/project-server-programmability.md
-                    - name: "Какие задачи PSI выполняет, а какие\_—\_нет"
+                    - name: "Какие задачи PSI выполняет, а какие — нет"
                       href: project/what-the-psi-does-and-does-not-do.md
-                    - name: "Какие задачи CSOM выполняет, а какие\_— нет"
+                    - name: "Какие задачи CSOM выполняет, а какие — нет"
                       href: project/what-the-csom-does-and-does-not-do.md
                 - name: Клиентская объектная модель (CSOM) для Project
                   href: project/client-side-object-model-csom-for-project-2013.md
@@ -6272,26 +6272,26 @@
                       href: project/prerequisites-for-wcf-based-code-samples-in-project.md
                     - name: Коды ошибок Project Server
                       href: project/project-server-error-codes.md
-                    - name: "ProjectData\_— справочник по службе OData"
-                      href: 'https://msdn.microsoft.com/en-us/library/office/jj163015.aspx'
+                    - name: "ProjectData — справочник по службе OData"
+                      href: 'https://msdn.microsoft.com/ru-ru/library/office/jj163015.aspx'
             - name: Справка по библиотеке классов и веб-службам
-              href: 'https://docs.microsoft.com/en-us/dotnet/api/index?view=office-project-server'
+              href: 'https://docs.microsoft.com/ru-ru/dotnet/api/index?view=office-project-server'
             - name: Справка по API JavaScript
-              href: 'https://msdn.microsoft.com/en-us/library/office/jj712612.aspx'
+              href: 'https://msdn.microsoft.com/ru-ru/library/office/jj712612.aspx'
     - name: Publisher
       href: publisher-home.md
       items:
         - name: Справочник по VBA для Publisher
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861522.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861522.aspx'
     - name: Visio
       href: visio/visio-home.md
       items:
         - name: Справочник по VBA для Visio
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ee861526.aspx'
         - name: Справочник по сохранению для Интернета в Visio
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ff767184.aspx'
         - name: Справочные материалы по Visio Viewer
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/office/ff766866.aspx'
         - name: Справочник по таблицам свойств фигур Visio
           href: visio/visio-shapesheet-reference.md
           items:
@@ -8433,9 +8433,9 @@
         - name: Элементы управления содержимым в Word
           href: word/content-controls-in-word.md
         - name: Справочник по VBA для Word
-          href: 'https://msdn.microsoft.com/en-us/library/ee861527.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/ee861527.aspx'
         - name: Справка по основной сборке взаимодействия Word
-          href: 'https://msdn.microsoft.com/en-us/library/ff597928.aspx'
+          href: 'https://msdn.microsoft.com/ru-ru/library/ff597928.aspx'
     - name: Схема URI для Sway
       href: swayuri.md
     - name: Схемы URI Office
