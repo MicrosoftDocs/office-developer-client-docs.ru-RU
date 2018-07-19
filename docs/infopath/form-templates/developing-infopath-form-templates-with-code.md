@@ -10,7 +10,7 @@ ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: В этой статье приведены ссылки на статьи, которые содержат сведения о создании шаблонов форм с бизнес-логикой, написанной в виде управляемого кода (Visual Basic или C#) с применением элементов пространства имен Microsoft.Office.InfoPath .
 ms.openlocfilehash: 4b113e1c189fe8ebdb5781e969e7f67961d4ea18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807467"
@@ -19,7 +19,7 @@ ms.locfileid: "19807467"
 
 В этой статье приведены ссылки на статьи, которые содержат сведения о создании шаблонов форм с бизнес-логикой, написанной в виде управляемого кода (Visual Basic или C#) с применением элементов пространства имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 [Введение в разработку шаблонов форм с кодом](getting-started-developing-form-templates-with-code.md)
   
@@ -29,9 +29,9 @@ ms.locfileid: "19807467"
   
 > Описание объектной модели InfoPath и типичных задач программирования для создания шаблонов форм с управляемым кодом, работающих с объектной моделью, предоставленной в пространстве имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
     
-[Безопасность в шаблонах форм InfoPath с кодом](security-in-infopath-form-templates-with-code.md)
+[Безопасность шаблонов форм InfoPath с кодом](security-in-infopath-form-templates-with-code.md)
   
-> Описание модели безопасности для шаблонов форм InfoPath, использующих управляемый код, а также соответствующих процедур по обеспечению безопасности.
+> Здесь обсуждается модель безопасности для шаблонов формы InfoPath, использующих управляемый код, и сопутствующие процедуры обеспечения безопасности.
     
 [Работа со службами SharePoint и InfoPath Forms Services](working-with-sharepoint-and-infopath-forms-services.md)
   
