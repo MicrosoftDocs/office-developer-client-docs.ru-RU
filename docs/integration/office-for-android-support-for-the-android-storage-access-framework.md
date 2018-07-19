@@ -8,7 +8,7 @@ ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: Office для Android интегрируется с платформой Android Storage Access Framework, которая позволяет Office открывать файлы, хранимые другим поставщиком документов.
 ms.openlocfilehash: c217eb2aa6c0974c32e60f5015449de7b157d39d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807648"
@@ -31,7 +31,7 @@ Android 4.4 (API уровня 19) представляет платформу St
 |:-----|:-----|:-----|
 |Тип документа  <br/> |com_microsoft_office_doctype  <br/> |\<consumer\>  <br/> |
 |Понятное имя службы  <br/> |com_microsoft_office_servicename  <br/> |Любое понятное для пользователей имя службы, используемое для определения документа в списке недавно использовавшихся документов в приложениях Office. Обратите внимание, что свойство "Условия соглашения" должно быть предоставлено до того, как будет отображено понятное имя службы.  <br/> |
-|Условия соглашения  <br/> |com_microsoft_office_termsofuse  <br/> |\<Я соглашаюсь с условиями, размещенными на странице http://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
+|Условия соглашения  <br/> |com_microsoft_office_termsofuse  <br/> |\<Я соглашаюсь с условиями, указанными на странице http://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
    
 ## <a name="see-also"></a>См. также
 <a name="bk_addresources"> </a>
