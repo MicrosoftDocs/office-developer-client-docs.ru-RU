@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2ac14c43-36c1-4f2f-97b0-2462f2360575
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 0dd477a055562f692c8869bc436c4238c77fd02a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812038"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит сертификат подлинности ASN.1 для обмена сообщениями пользователя. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19812038"
 |Связанные свойства:  <br/> |PR_USER_CERTIFICATE  <br/> |
 |Идентификатор:  <br/> |0x3A22  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Области:  <br/> |Пользователь почты MAPI  <br/> |
+|Область:  <br/> |Пользователь почты MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -68,7 +68,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -29,9 +29,9 @@ HRESULT IOlkAccount::FreeMemory (
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-_PV_
+_pv_
   
 > [in] Указатель на память освобождения.
     

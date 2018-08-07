@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cde59b73381458533910dc8f0a728cc4e6ca0c01
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812230"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит массив типа Double, используемый для описания свойства типа PT_MV_DOUBLE.
   
@@ -40,7 +40,7 @@ typedef struct _SDoubleArray
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **cValues**
   

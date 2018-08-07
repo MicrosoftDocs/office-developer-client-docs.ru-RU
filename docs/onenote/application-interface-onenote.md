@@ -450,7 +450,7 @@ static void UpdatePageContent()
   
 |**Свойство**|**Описание**|
 |:-----|:-----|
-|**Windows** <br/> |Предоставляет пользователям доступ к открытых окнах OneNote. Это свойство позволяет пользователям нумерации внутри набора OneNote windows и изменении окно свойств. Для получения дополнительных сведений см [Интерфейсов Windows](window-interfaces-onenote.md).  <br/> |
+|**"Windows";** <br/> |Предоставляет пользователям доступ к открытых окнах OneNote. Это свойство позволяет пользователям нумерации внутри набора OneNote windows и изменении окно свойств. Для получения дополнительных сведений см [Интерфейсов Windows](window-interfaces-onenote.md).  <br/> |
 |**COMAddIns** <br/> |Возвращает коллекцию **COMAddIns** для OneNote. Эта коллекция содержит все COM-надстроек, доступных в OneNote. Свойство **Count** коллекции **COMAddins** возвращает число доступных COM-надстроек. Дополнительные сведения см в объекте [COMAddIns](http://msdn.microsoft.com/en-us/library/office/ff865489.aspx) .  <br/> |
 |**LanguageSettings** <br/> |Предоставляет доступ к некоторые интерфейсы API для изменения стандартных настроек языка из OneNote.  <br/> |
    
@@ -479,5 +479,5 @@ static void UpdatePageContent()
    
 ## <a name="see-also"></a>См. также
 
-- [Справочник разработчика по OneNote](onenote-developer-reference.md)
+- [Справочник разработчика для OneNote](onenote-developer-reference.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Прозрачность ячейки (слои раздел)
+title: Ячейка Transparency (раздел "Слои")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815059"
 ---
-# <a name="transparency-cell-layers-section"></a>Прозрачность ячейки (слои раздел)
+# <a name="transparency-cell-layers-section"></a>Ячейка Transparency (раздел "Слои")
 
 Определяет уровень прозрачности цвета слоя.
   

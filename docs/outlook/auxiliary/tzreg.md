@@ -31,7 +31,7 @@ typedef struct RenTimeZone {
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 _lBias_
   

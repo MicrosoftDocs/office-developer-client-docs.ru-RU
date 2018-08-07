@@ -1,5 +1,5 @@
 ---
-title: Ячейка TheText (раздел событий)
+title: Ячейка TheText (раздел "События")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815025"
 ---
-# <a name="thetext-cell-events-section"></a>Ячейка TheText (раздел событий)
+# <a name="thetext-cell-events-section"></a>Ячейка TheText (раздел "События")
 
 Ячейка события, которое вычисляется при изменении текста или текста композиции фигуры.
   

@@ -1,5 +1,5 @@
 ---
-title: Раздел Свойства темы
+title: Раздел "Свойства темы"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815014"
 ---
-# <a name="theme-properties-section"></a>Раздел Свойства темы
+# <a name="theme-properties-section"></a>Раздел "Свойства темы"
 
 Представлены значения индекса в настоящее время применяется к документу, включая цвета, шрифта, соединителя и значения эффекты темы. 
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка TextDirection (раздел формат блока текст)
+title: Ячейка TextDirection (раздел "Формат текстового блока")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,11 +16,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815021"
 ---
-# <a name="textdirection-cell-text-block-format-section"></a>Ячейка TextDirection (раздел формат блока текст)
+# <a name="textdirection-cell-text-block-format-section"></a>Ячейка TextDirection (раздел "Формат текстового блока")
 
 Определяет направление символов в блоке текста.
   
-|**Значение**|**Направление**|**Константа автоматизации**|
+|**Значение**|**Direction**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | 0  <br/> | Горизонтальная  <br/> |**visTxtBlkLeftToRight** <br/> |
 | 1  <br/> | По вертикали  <br/> |**visTxtBlkTopToBottom** <br/> |

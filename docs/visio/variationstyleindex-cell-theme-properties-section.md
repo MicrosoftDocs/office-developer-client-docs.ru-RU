@@ -1,5 +1,5 @@
 ---
-title: Ячейка VariationStyleIndex (Theme Properties Section)
+title: Ячейка VariationStyleIndex (раздел "Свойства темы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815135"
 ---
-# <a name="variationstyleindex-cell-theme-properties-section"></a>Ячейка VariationStyleIndex (Theme Properties Section)
+# <a name="variationstyleindex-cell-theme-properties-section"></a>Ячейка VariationStyleIndex (раздел "Свойства темы")
 
 Определяет стиль индекс вариант активной темы на странице, как целое число.
   

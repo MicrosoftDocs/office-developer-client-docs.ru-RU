@@ -1,5 +1,5 @@
 ---
-title: Значение ячейки (текстовые поля, раздел)
+title: Ячейка Value (раздел "Текстовые поля")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815126"
 ---
-# <a name="value-cell-text-fields-section"></a>Значение ячейки (текстовые поля, раздел)
+# <a name="value-cell-text-fields-section"></a>Ячейка Value (раздел "Текстовые поля")
 
 Содержит функции для поля.
   

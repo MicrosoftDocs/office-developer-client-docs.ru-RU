@@ -23,13 +23,13 @@ ms.locfileid: "19807465"
 
 Типичные задачи, выполняемые при создании и разработке проектов.
   
-- [Создание шаблона формы с помощью объектной модели InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
+- [Создание шаблона формы, использующего объектную модель InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
     
-- [Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+- [Добавление обработчика события, использующего объектную модель InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
     
-- [Отладка проектов InfoPath с помощью объектной модели InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+- [Отладка проектов InfoPath, использующих объектную модель InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
     
-- [Добавление и ссылок на пользовательские сборки](how-to-add-and-reference-custom-assemblies.md)
+- [Добавление настраиваемых сборок и ссылок на них](how-to-add-and-reference-custom-assemblies.md)
     
 - [Пошаговое руководство. Создание и отладка начального шаблона формы с помощью объектной модели InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
     
@@ -37,19 +37,19 @@ ms.locfileid: "19807465"
 
 Типичные задачи, выполняемые при программировании шаблонов форм с управляемым кодом.
   
-- [Ответ на события, с помощью объектной модели InfoPath 2003 формы](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Обработка событий форм с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
     
-- [Работа с представлениями, использующих объектную модель InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
+- [Работа с представлениями при помощи объектной модели InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
     
-- [Работа с окнами форм, использующих объектную модель InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+- [Работа с окнами форм при помощи объектной модели InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
     
-- [Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
+- [Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
     
-- [Обработка ошибок с помощью объектной модели InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+- [Обработка ошибок с помощью объектной модели InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
     
-- [Работа с цифровыми подписями, использующих объектную модель InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
+- [Работа с цифровыми подписями при помощи объектной модели InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
     
-- [Работа с автономными решениями, с помощью объектной модели InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
+- [Работа с автономными решениями с использованием объектной модели InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
     
 - [Работа с MSXML и System.Xml с использованием объектной модели InfoPath 2003](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
     
@@ -57,17 +57,17 @@ ms.locfileid: "19807465"
 
 Типичные задачи, выполняемые при работе с данными.
   
-- [Доступ к данным приложения с помощью объектной модели InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+- [Доступ к данным приложений с помощью объектной модели InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
     
-- [Доступа к внешним источникам данных с помощью объектной модели InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
+- [Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
     
-- [Доступ к данным формы с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+- [Доступ к данным форм с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
     
 ## <a name="security-and-deployment"></a>Безопасность и развертывание
 
 Типичные задачи и сведения, связанные с безопасностью и разработкой шаблонов форм с управляемым кодом.
   
-- [Модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
+- [Сведения о модели безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
     
 - [Развертывание шаблонов форм InfoPath с кодом](how-to-deploy-infopath-form-templates-with-code.md)
     

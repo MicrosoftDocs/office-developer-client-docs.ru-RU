@@ -24,6 +24,6 @@ ms.locfileid: "19807964"
     
 - [Free/busy API reference](free-busy-api-reference.md)
     
-- [Экспортированные интерфейсы API Outlook](outlook-exported-apis.md)
+- [Экспортированные API Outlook](outlook-exported-apis.md)
     
 

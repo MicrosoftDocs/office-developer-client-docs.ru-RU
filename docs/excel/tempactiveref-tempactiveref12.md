@@ -11,7 +11,7 @@ keywords:
 - функция tempactiveref [excel 2007], функция TempActiveRef12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5c2e82dcaf9bf562048b5d2582ece1bd262b47eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807321"
 ---
 # <a name="tempactivereftempactiveref12"></a>TempActiveRef/TempActiveRef12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функция библиотеки Framework, который создает временные **XLOPER**/ **XLOPER12** , содержащий внешняя ссылка прямоугольный блок ячеек на активном листе. 
   
@@ -30,7 +30,7 @@ LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
 LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _rwFirst_
   
@@ -74,5 +74,5 @@ short WINAPI TempActiveRefExample(void)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

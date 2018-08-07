@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ff74ef880db286beb5f48ba299a83f2f944170b0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808157"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вычисляет число байтов в имеющуюся структуру [SPropProblemArray](spropproblemarray.md) . 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19808157"
 CbSPropProblemArray (_lparray)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  __lparray_
   
@@ -49,5 +49,5 @@ CbSPropProblemArray (_lparray)
 [SPropProblemArray](spropproblemarray.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 

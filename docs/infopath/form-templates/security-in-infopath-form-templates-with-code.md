@@ -1,5 +1,5 @@
 ---
-title: Безопасность в шаблонах форм InfoPath с кодом
+title: Безопасность шаблонов форм InfoPath с кодом
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807588"
 ---
-# <a name="security-in-infopath-form-templates-with-code"></a>Безопасность в шаблонах форм InfoPath с кодом
+# <a name="security-in-infopath-form-templates-with-code"></a>Безопасность шаблонов форм InfoPath с кодом
 
 В этом разделе описана модель безопасности для шаблонов форм Microsoft InfoPath, использующих управляемый код.
   
 ## <a name="in-this-section"></a>В этом разделе
 
-[Модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
+[Сведения о модели безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
   
 > Описывается модель безопасности для шаблонов форм с управляемым кодом.
     

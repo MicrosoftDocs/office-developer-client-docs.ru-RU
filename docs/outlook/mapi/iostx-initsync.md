@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e22244a2-ac5f-910a-501f-4483ea0667c2
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 07305f712fd925b206ce18a32f8f5a24f199ccbf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809461"
 ---
-# <a name="iostxinitsync"></a>IOSTX::Initsync
+# <a name="iostxinitsync"></a>IOSTX::InitSync
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Информирует хранилище локального сообщений, что синхронизация является запуск.
   
@@ -55,7 +55,7 @@ HRESULT InitSync(
   
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
-[IOSTX: IUnknown](iostxiunknown.md)
+[IOSTX : IUnknown](iostxiunknown.md)
 
 
 [��������� MAPI](mapi-constants.md)

@@ -1,5 +1,5 @@
 ---
-title: Ячейка TextBkgnd (раздел формат блока текст)
+title: Ячейка TextBkgnd (раздел "Формат текстового блока")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815018"
 ---
-# <a name="textbkgnd-cell-text-block-format-section"></a>Ячейка TextBkgnd (раздел формат блока текст)
+# <a name="textbkgnd-cell-text-block-format-section"></a>Ячейка TextBkgnd (раздел "Формат текстового блока")
 
 Определяет цвет фона текста для фигуры.
   

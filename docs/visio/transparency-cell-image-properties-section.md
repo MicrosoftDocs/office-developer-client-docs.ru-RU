@@ -1,5 +1,5 @@
 ---
-title: Прозрачность ячейки (раздел Свойства изображения)
+title: Ячейка Transparency (раздел "Свойства изображения")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815053"
 ---
-# <a name="transparency-cell-image-properties-section"></a>Прозрачность ячейки (раздел Свойства изображения)
+# <a name="transparency-cell-image-properties-section"></a>Ячейка Transparency (раздел "Свойства изображения")
 
 Определяет уровень прозрачности цвета слоя.
   

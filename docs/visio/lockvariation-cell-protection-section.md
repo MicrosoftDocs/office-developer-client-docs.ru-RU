@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockVariation (раздел Защита)
+title: Ячейка LockVariation (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814172"
 ---
-# <a name="lockvariation-cell-protection-section"></a>Ячейка LockVariation (раздел Защита)
+# <a name="lockvariation-cell-protection-section"></a>Ячейка LockVariation (раздел "Защита")
 
 Определяет, будет ли вариантов темы, применяются на страницу или форму можно изменить, как логическое значение.
   

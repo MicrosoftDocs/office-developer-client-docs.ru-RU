@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9f7f3bc0e305fb5aa7d6ae1e1909b573b3376ef8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "19810020"
 ---
 # <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Мониторинг изменения состояния подключения с помощью надстройки автономный режим
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Прежде чем использовать автономное состояние add-in для отслеживания изменений состояния подключения, необходимо реализовать функции для установки и инициализации надстройки. Для получения дополнительных сведений см [параметр копирование автономно состояние надстройки](setting-up-an-offline-state-add-in.md).
   
@@ -308,9 +308,9 @@ void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo)
 
 ## <a name="see-also"></a>См. также
 
-- [Об автономных состояний API](about-the-offline-state-api.md)
-- [Установка примера автономного состояния надстройки](installing-the-sample-offline-state-add-in.md)
-- [О примера в автономном режиме состояние надстройки](about-the-sample-offline-state-add-in.md)
-- [Настройка автономной состояний надстройке](setting-up-an-offline-state-add-in.md)
-- [Отключение автономного состояния надстройке](disconnecting-an-offline-state-add-in.md)
+- [Сведения об API автономного состояния](about-the-offline-state-api.md)
+- [Установка примера надстройки, позволяющей управлять автономным состоянием](installing-the-sample-offline-state-add-in.md)
+- [Сведения о примере надстройки с автономным состоянием](about-the-sample-offline-state-add-in.md)
+- [Конфигурация надстройки, позволяющей управлять автономным состоянием](setting-up-an-offline-state-add-in.md)
+- [Отсоединение надстройки, позволяющей управлять автономным состоянием](disconnecting-an-offline-state-add-in.md)
 

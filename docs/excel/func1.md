@@ -10,7 +10,7 @@ keywords:
 - функция func1 [excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 26439f1fb05aae2077844ce19935d9ff99e4f701
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807257"
 ---
 # <a name="func1"></a>Func1
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Пример пользовательской функции показано возвращение статического строковое значение. При загрузке GENERIC.xll регистрирует эту функцию, чтобы его можно вызывать из рабочего листа.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807257"
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _точек_ (**LPXLOPER**)
   
@@ -46,5 +46,5 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 
 
-[В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
 

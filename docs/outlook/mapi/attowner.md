@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3c6a4050-fd97-42ce-abb1-118254b367bd
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 0cb40c3c644618bdf65a2c90a91580a5be8fc88c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808096"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Атрибут **attOwner** кодируются инвентаризации строк нужным начала до конца. Формат для **attOwner** выглядит следующим образом: 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d28852ab-b542-40e1-b2ec-85d20a2eddfd
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c440bb7d8f3d2d3002a4d1a80ca3a671b49f4d2b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812228"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит массив значений валюты, которые используются для описания свойства типа PT_MV_CURRENCY. 
   
@@ -40,7 +40,7 @@ typedef struct _SCurrencyArray
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -58,7 +58,7 @@ typedef struct _SCurrencyArray
 
 
 
-[ВАЛЮТА](currency.md)
+[CURRENCY](currency.md)
   
 [SPropValue](spropvalue.md)
 

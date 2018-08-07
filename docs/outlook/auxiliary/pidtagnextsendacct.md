@@ -25,7 +25,7 @@ ms.locfileid: "19807937"
 |Связанные свойства:  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |Идентификатор:  <br/> |0x0E29  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Области:  <br/> |Приложения Outlook  <br/> |
+|Область:  <br/> |Приложения Outlook  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

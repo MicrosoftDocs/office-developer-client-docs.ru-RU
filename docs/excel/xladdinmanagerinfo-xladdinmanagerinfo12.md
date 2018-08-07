@@ -10,7 +10,7 @@ keywords:
 - функция xladdinmanagerinfo [excel 2007]
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e42cca809c4426ddf9a98b3b275d08490d31c8db
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807327"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Именем с Microsoft Excel, когда диспетчер надстроек вызывается в первый раз в сеансе Excel. Эта функция используется для предоставления сведений о надстройке Диспетчер надстроек.
   
@@ -35,7 +35,7 @@ LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
 LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxAction:_ Указатель на числовой **XLOPER и XLOPER12** (**xltypeInt** или **xltypeNum**).
   
@@ -87,5 +87,5 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 xAction)
 
 
 
-[Диспетчер надстроек и функции XLL интерфейса](add-in-manager-and-xll-interface-functions.md)
+[Функции диспетчера надстроек и интерфейса XLL](add-in-manager-and-xll-interface-functions.md)
 

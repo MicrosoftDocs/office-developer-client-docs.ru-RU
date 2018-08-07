@@ -1,5 +1,5 @@
 ---
-title: Свойство записей в разделах службы сообщений MapiSvc.inf
+title: Записи свойств в разделах службы сообщений MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 714f99e2-80fc-4785-b707-611d8a6c229f
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 30f5e0b59bacfab91a3a6c77c0b345d6299df9e5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812065"
 ---
-# <a name="property-entries-in-mapisvcinf-message-service-sections"></a>Свойство записей в разделах службы сообщений MapiSvc.inf
+# <a name="property-entries-in-mapisvcinf-message-service-sections"></a>Записи свойств в разделах службы сообщений MapiSvc.inf
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Записи, которые задать свойства используйте следующий формат:
   

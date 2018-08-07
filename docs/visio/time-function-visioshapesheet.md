@@ -1,5 +1,5 @@
 ---
-title: Функция TIME (VisioShapeSheet)
+title: TIME Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815044"
 ---
-# <a name="time-function-visioshapesheet"></a>Функция TIME (VisioShapeSheet)
+# <a name="time-function-visioshapesheet"></a>TIME Function (VisioShapeSheet)
 
 Возвращает время, представленное _часа_, _минуты_и _второй_.
   

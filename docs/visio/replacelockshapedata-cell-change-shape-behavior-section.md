@@ -1,5 +1,5 @@
 ---
-title: Ячейка ReplaceLockShapeData (изменение фигуры поведение раздел)
+title: Ячейка ReplaceLockShapeData (раздел "Изменение поведения фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814601"
 ---
-# <a name="replacelockshapedata-cell-change-shape-behavior-section"></a>Ячейка ReplaceLockShapeData (изменение фигуры поведение раздел)
+# <a name="replacelockshapedata-cell-change-shape-behavior-section"></a>Ячейка ReplaceLockShapeData (раздел "Изменение поведения фигуры")
 
 Указывает ли значений указанного ячеек в основной фигуры перезаписи значений (в том числе локального значения) во время операции замены фигуры в процессе замены фигуры. **ReplaceLockShapeData** определяет, будет ли данные фигуры основной фигуры перезаписывает все данные фигуры фигура. 
   

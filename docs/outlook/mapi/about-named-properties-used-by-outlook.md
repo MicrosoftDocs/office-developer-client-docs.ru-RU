@@ -17,7 +17,7 @@ ms.locfileid: "19807977"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 MAPI ������������� �������� ��� ���������� ���� ��� ������������ ������� ��� ������������� ���� ���� � ����������� ���������������� � ������������ ����-� ������������� ����� ������������� ������������ ����� ��������. ����������� �������� ���������������� �� ����� � ���������� ���������� ������������� (GUID) ��� ������ �������. ��� ����� ������� ����� ��� ������. ��� Microsoft Outlook 2013 ��� Microsoft Outlook 2010 ����� ������� ���� ����� ������������ ����, ������������ � Outlook�2013 ��� Outlook�2010, ����� ��� **PSETID_Appointment**. 
   
@@ -185,9 +185,9 @@ Outlook�2013 and Outlook�2010 use MAPI named properties to implement many of
 
 [��������� MAPI](mapi-constants.md)
   
-[Определение, если загружена только заголовок сообщения](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
+[Определение того, скачан ли в Outlook только заголовок сообщения](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
   
-[Получение адреса электронной почты элемента контакта](how-to-get-the-email-address-of-a-contact-item.md)
+[Получение электронного адреса элемента контакта](how-to-get-the-email-address-of-a-contact-item.md)
   
-[Удалите Определение настраиваемой формы, сохраненных в сообщение](how-to-remove-custom-form-definition-saved-with-a-message.md)
+[Удаление определения настраиваемой формы, сохраненного с сообщением](how-to-remove-custom-form-definition-saved-with-a-message.md)
 

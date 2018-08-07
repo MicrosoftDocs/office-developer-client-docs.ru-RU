@@ -30,7 +30,7 @@ HRESULT Restrict(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _ftmStart_
   
@@ -54,5 +54,5 @@ S_OK if the call succeeded; otherwise, an error code.
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
 - [IEnumFBBlock::Skip](ienumfbblock-skip.md)  
-- [Использование относительных времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Использование относительного времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
 

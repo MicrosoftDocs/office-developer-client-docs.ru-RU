@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807602"
 ---
-# <a name="understanding-infopath-object-models-and-development-environment"></a>Общие сведения о средах разработки и объектных моделях InfoPath
+# <a name="understanding-infopath-object-models-and-development-environment"></a>Общие сведения о среде разработки и объектных моделях InfoPath
 
 Microsoft InfoPath 2013 поддерживает два типа моделей программирования для разработки бизнес-логики в шаблонах форм, а также поддерживает внешнюю автоматизацию из управляемого кода.
   
@@ -119,7 +119,7 @@ InfoPath Forms Services предоставляет объектную модел
 
 
 
-[Пошаговое руководство: Создание шаблона базовой формы с помощью кода](walkthrough-creating-a-basic-form-template-with-code.md)
+[Пошаговое руководство. Создание базового шаблона формы с кодом](walkthrough-creating-a-basic-form-template-with-code.md)
   
 [Пошаговое руководство. Создание и отладка начального шаблона формы с помощью объектной модели InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
 

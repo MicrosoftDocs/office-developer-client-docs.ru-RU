@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8938f4f237f5d566b13c86e33fc721ab49e2081b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809370"
 ---
-# <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2: IMsgServiceAdmin
+# <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вносятся изменения в службы сообщений в профиле.
   

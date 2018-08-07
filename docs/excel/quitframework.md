@@ -10,7 +10,7 @@ keywords:
 - функция quitframework
 localization_priority: Normal
 ms.assetid: d17a3efe-c278-4ef1-b8f9-b958ae012361
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5c4b122b200d9de0cf098d2bc9e2fbd887ad9ff3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807313"
 ---
 # <a name="quitframework"></a>QuitFramework
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функция библиотеки Framework, которая отменяет инициализацию библиотеки Framework, который просто повторно инициализирует временные **XLOPER**/ структуры данных**XLOPER12** памяти, что освобождает память, которая уже была распределена. 
   
@@ -28,9 +28,9 @@ ms.locfileid: "19807313"
 short WINAPI QuitFramework(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-Эта функция не имеет аргументов.
+Эта функция не получает никаких аргументов.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
 
@@ -40,5 +40,5 @@ short WINAPI QuitFramework(void);
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

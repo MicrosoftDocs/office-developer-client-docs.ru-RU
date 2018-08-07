@@ -1,5 +1,5 @@
 ---
-title: Добавление и ссылок на пользовательские сборки
+title: Добавление настраиваемых сборок и ссылок на них
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807484"
 ---
-# <a name="add-and-reference-custom-assemblies"></a>Добавление и ссылок на пользовательские сборки
+# <a name="add-and-reference-custom-assemblies"></a>Добавление настраиваемых сборок и ссылок на них
 
 Если в проект шаблона формы с управляемым кодом добавляется ссылка на пользовательскую сборку, то при компиляции и публикации проекта эта сборка включается в файл шаблона формы (XSN-файл).
   
@@ -37,5 +37,5 @@ ms.locfileid: "19807484"
 
 #### <a name="tasks"></a>Задачи
 
-[Создание шаблона формы с помощью объектной модели InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
+[Создание шаблона формы, использующего объектную модель InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
 

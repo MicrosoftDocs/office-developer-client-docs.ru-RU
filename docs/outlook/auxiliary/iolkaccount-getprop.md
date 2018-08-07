@@ -29,7 +29,7 @@ ACCT_VARIANT *pVar
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _dwProp_
   

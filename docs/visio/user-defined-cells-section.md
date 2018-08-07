@@ -1,5 +1,5 @@
 ---
-title: Раздел пользовательские ячейки
+title: Раздел "Пользовательские ячейки"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815111"
 ---
-# <a name="user-defined-cells-section"></a>Раздел пользовательские ячейки
+# <a name="user-defined-cells-section"></a>Раздел "Пользовательские ячейки"
 
 Рабочая область для ввода формул в пользовательские ячейки, которые могут использоваться в другие ячейки и надстройки.
   

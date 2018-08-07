@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 030d5c21-ab02-4047-bf2d-9a402a1e9102
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3b5a4a337d8f92a3142aeb43eec9f2e9f0578a8a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812076"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит координаты x позицию (левый верхний угол) элемента управления поля диалогового окна в диалоговое окно Windows единиц измерения.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19812076"
 |Связанные свойства:  <br/> |PR_XPOS  <br/> |
 |Идентификатор:  <br/> |0x3F05  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Области:  <br/> |Таблица отображения MAPI  <br/> |
+|Область:  <br/> |Таблица отображения MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -58,7 +58,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

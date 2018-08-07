@@ -39,7 +39,7 @@ HRESULT HrCreateNewWrappedObject(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pvUnwrapped_
   

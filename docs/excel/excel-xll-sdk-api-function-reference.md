@@ -1,5 +1,5 @@
 ---
-title: Справочник по функции API пакет SDK XLL для Excel
+title: Справочник по функциям API SDK XLL для Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2f6df879-7546-4ac0-a4e3-6b009aee9463
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2bb0a57ebcae618c8e921135b2bd4c50e8adf751
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807251"
 ---
-# <a name="excel-xll-sdk-api-function-reference"></a>Справочник по функции API пакет SDK XLL для Excel
+# <a name="excel-xll-sdk-api-function-reference"></a>Справочник по функциям API SDK XLL для Excel
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Пакет SDK Microsoft Excel 2013 XLL содержит исходные файлы для библиотеки Framework, предназначенный для ускорения записи XLL-модулей и два примера проекта, пример и универсальный. 
   
@@ -42,25 +42,25 @@ ms.locfileid: "19807251"
     
 - **Универсальный** проекта (`SAMPLES\GENERIC\`) содержит проекта, который можно создать в надстройке XLL GENERIC.xll. XLL демонстрирует несколько пример функции и команды и является хорошей отправной точкой для написания собственного XLL-модулей.
     
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
-- [Диспетчер надстроек и функции XLL интерфейса](add-in-manager-and-xll-interface-functions.md)
+- [Функции диспетчера надстроек и интерфейса XLL](add-in-manager-and-xll-interface-functions.md)
   
-- [������� ��������� ������ API C Excel4 Excel12](c-api-callback-functions-excel4-excel12.md)
+- [Функции обратного вызова API C: Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
   
-- [Функции API XLM важные и полезные C](essential-and-useful-c-api-xlm-functions.md)
+- [Необходимые и полезные функции XLM из API C](essential-and-useful-c-api-xlm-functions.md)
   
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-- [Функции в библиотеке Framework](functions-in-the-framework-library.md)
+- [Функции в библиотеке платформы](functions-in-the-framework-library.md)
   
-- [В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+- [Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
   
-- [Функции соединителя кластера Excel](excel-cluster-connector-functions.md)
+- [Функции для работы с соединителями кластеров Excel](excel-cluster-connector-functions.md)
   
 ## <a name="see-also"></a>См. также
 
-- [���������������� � �������������� C API � Excel](programming-with-the-c-api-in-excel.md)
+- [Программирование с использованием API C в Excel](programming-with-the-c-api-in-excel.md)
   
 - [���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
 

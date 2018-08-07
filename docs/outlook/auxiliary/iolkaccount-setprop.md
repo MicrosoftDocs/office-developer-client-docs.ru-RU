@@ -29,7 +29,7 @@ HRESULT IOlkAccount::SetProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _dwProp_
   

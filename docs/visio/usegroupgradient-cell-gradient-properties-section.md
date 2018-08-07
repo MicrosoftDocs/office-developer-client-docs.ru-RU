@@ -1,5 +1,5 @@
 ---
-title: Ячейка UseGroupGradient (градиента Properties Section)
+title: Ячейка UseGroupGradient (раздел "Свойства градиента")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815113"
 ---
-# <a name="usegroupgradient-cell-gradient-properties-section"></a>Ячейка UseGroupGradient (градиента Properties Section)
+# <a name="usegroupgradient-cell-gradient-properties-section"></a>Ячейка UseGroupGradient (раздел "Свойства градиента")
 
 Определяет, принимает ли градиент фигуры при фигуры сгруппированные вместе с другими фигурами типа Boolean. Значение ячейки **UseGroupGradient** влияет только заливки фигуры. 
   

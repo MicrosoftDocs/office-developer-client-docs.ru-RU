@@ -1,5 +1,5 @@
 ---
-title: Чтение свойств часового пояса из встречи
+title: Считывание свойств часового пояса встречи
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807694"
 ---
-# <a name="read-time-zone-properties-from-an-appointment"></a>Чтение свойств часового пояса из встречи
+# <a name="read-time-zone-properties-from-an-appointment"></a>Считывание свойств часового пояса встречи
 
 В этом разделе показаны функции, `ReadTimeZones`, который вызывает две функции `BinToTZDEFINITION` и `BinToTZREG`, для чтения свойства часовой пояс, [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) и [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)из встречи.
   

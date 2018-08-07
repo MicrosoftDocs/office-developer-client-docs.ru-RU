@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: ff23472254df2bd9d2195c7cf2c4258b856ec430
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19810056"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Очереди долгосрочного структур идентификатор используется файл личных папок (PST) поставщика хранилища для присваивается идентификатор записи для нового сообщения или папки в автономном режиме.
   
@@ -37,7 +37,7 @@ typedef struct {
 } OLFI, *POLFI;
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  _ulVersion_
   
@@ -85,9 +85,9 @@ typedef struct {
 
 
 
-[О репликации API](about-the-replication-api.md)
+[Сведения об API репликации](about-the-replication-api.md)
   
-[О репликации конечного автомата](about-the-replication-state-machine.md)
+[Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
 [LTID](ltid.md)
 

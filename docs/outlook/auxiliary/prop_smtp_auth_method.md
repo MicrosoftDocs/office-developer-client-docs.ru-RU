@@ -39,6 +39,6 @@ ms.locfileid: "19807960"
     
 ## <a name="see-also"></a>См. также
 
-- [Загружаемые файлы для управления сообщения для учетных записей POP3](managing-message-downloads-for-pop3-accounts.md)  
+- [Управление скачиванием сообщений для учетных записей POP3](managing-message-downloads-for-pop3-accounts.md)  
 - [Constants (Account management API)](constants-account-management-api.md)
 

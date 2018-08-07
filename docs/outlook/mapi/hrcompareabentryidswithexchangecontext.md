@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e537c25f-51b5-4f06-a20a-44ee540b9a1f
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 730c24a179cc6aaf8dc2068199ffc206d30156b4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808652"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Сравнивает книги два адреса **entryIDs** безопасно в профиле нескольких Exchange. Эта функция — это функция замены для [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
   
@@ -43,7 +43,7 @@ HRESULT HrCompareABEntryIDsWithExchangeContext(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pmsess_
   

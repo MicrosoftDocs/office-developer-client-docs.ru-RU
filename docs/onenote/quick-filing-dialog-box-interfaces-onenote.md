@@ -304,5 +304,5 @@ namespace SampleQFD
 
 ## <a name="see-also"></a>См. также
 
-- [Справочник разработчика по OneNote](onenote-developer-reference.md)
+- [Справочник разработчика для OneNote](onenote-developer-reference.md)
 

@@ -20,14 +20,14 @@ ms.locfileid: "19807975"
 
 - [Определить, является ли элемент Outlook был изменен, но не сохраняются (Outlook дополнительные справочные материалы по)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
-- [Синтаксический анализ потока из двоичного свойства для чтения TZDEFINITION структуры](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
+- [Анализ потока из двоичного свойства для считывания структуры TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
     
-- [Синтаксический анализ потока из двоичного свойства для чтения TZREG структуры](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
+- [Анализ потока из двоичного свойства для считывания структуры TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
-- [Чтение свойств часового пояса из встречи](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Считывание свойств часового пояса встречи](how-to-read-time-zone-properties-from-an-appointment.md)
     
 - [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
-- [Использование относительных времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Использование относительного времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
     
 

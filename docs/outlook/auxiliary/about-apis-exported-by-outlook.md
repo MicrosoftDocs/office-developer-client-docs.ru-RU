@@ -1,5 +1,5 @@
 ---
-title: Об API-интерфейсы экспортировать с Outlook
+title: Сведения об интерфейсах API, экспортируемых Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807666"
 ---
-# <a name="about-apis-exported-by-outlook"></a>Об API-интерфейсы экспортировать с Outlook
+# <a name="about-apis-exported-by-outlook"></a>Сведения об интерфейсах API, экспортируемых Outlook
 
 Outlook экспортирует определений, структуры данных, функции и интерфейсы, которые изначально были разработаны для внутреннего использования, но теперь доступно для общего использования.
   
@@ -30,7 +30,7 @@ Outlook экспортирует определений, структуры да
     
 - [TZRULE](tzrule.md)
     
-### <a name="functions"></a>�������
+### <a name="functions"></a>Функции
   
 - [HrCreateApptRebaser](hrcreateapptrebaser.md)
     
@@ -44,7 +44,7 @@ Outlook экспортирует определений, структуры да
   
 - [IOlkApptRebaser](iolkapptrebaser.md)
     
-### <a name="events"></a>Events
+### <a name="events"></a>События
   
 - [Доступные события и их идентификаторы DISPID (Outlook экспортировать API-интерфейсы)](available-events-and-their-dispids-outlook-exported-apis.md)
     

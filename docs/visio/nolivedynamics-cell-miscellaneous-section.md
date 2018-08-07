@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoLiveDynamics (раздел Разное)
+title: Ячейка NoLiveDynamics (раздел "Прочее")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814297"
 ---
-# <a name="nolivedynamics-cell-miscellaneous-section"></a>Ячейка NoLiveDynamics (раздел Разное)
+# <a name="nolivedynamics-cell-miscellaneous-section"></a>Ячейка NoLiveDynamics (раздел "Прочее")
 
 Определяет фигуры динамически изменяет размер или поворот при работе с ней.
   

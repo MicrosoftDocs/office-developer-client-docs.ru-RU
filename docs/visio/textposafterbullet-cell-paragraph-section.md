@@ -1,5 +1,5 @@
 ---
-title: Ячейка TextPosAfterBullet (раздел абзаца)
+title: Ячейка TextPosAfterBullet (раздел "Абзац")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815008"
 ---
-# <a name="textposafterbullet-cell-paragraph-section"></a>Ячейка TextPosAfterBullet (раздел абзаца)
+# <a name="textposafterbullet-cell-paragraph-section"></a>Ячейка TextPosAfterBullet (раздел "Абзац")
 
 Представляет расстояние между первой строкой абзаца и маркером. 
   

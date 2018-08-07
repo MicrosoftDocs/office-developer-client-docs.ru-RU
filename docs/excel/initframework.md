@@ -10,7 +10,7 @@ keywords:
 - функция initframework [excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2d7e3286d794d6f21da9ef83ca44d18ec242c063
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807256"
 ---
 # <a name="initframework"></a>InitFramework
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функция библиотеки Framework, инициализирует библиотеки Framework, который просто инициализирует временные **XLOPER**/ структуры данных**XLOPER12** памяти, что освобождает память, которая уже была распределена. 
   
@@ -28,9 +28,9 @@ ms.locfileid: "19807256"
 short WINAPI InitFramework(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-Эта функция не имеет аргументов.
+Эта функция не получает никаких аргументов.
   
 ## <a name="return-value"></a>������������ ��������
 
@@ -54,5 +54,5 @@ short WINAPI InitFrameworkExample(void)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

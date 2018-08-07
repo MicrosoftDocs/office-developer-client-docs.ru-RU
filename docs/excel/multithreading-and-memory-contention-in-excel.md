@@ -8,7 +8,7 @@ keywords:
 - Многопоточность в excel, конфликтов памяти в Excel, функции [Excel 2007], являющихся потокобезопасными, являющихся потокобезопасными функции памяти локального потока [Excel 2007], [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fb0eddfff2f34307143bb896fd451de357f2b639
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19807317"
 ---
 # <a name="multithreading-and-memory-contention-in-excel"></a>Многопоточность и конфликты памяти в Excel
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Чем Excel 2007 версиям Microsoft Excel использовать единый поток для всех расчетов на листе. Тем не менее начиная с версии Excel 2007, Excel может быть настроена на использование от 1 для 1024 параллельных потоков для расчета рабочего листа. Компьютера с несколькими процессорами или многоядерная по умолчанию количество потоков равно числу процессоров или ядер. Таким образом являющихся потокобезопасными ячеек или ячеек, которые содержат только функции, которые являются потокобезопасными, может быть предоставлена параллельных потоков, может быть обычным пересчета логику для вычисления после их влияющие ячейки.
   
@@ -306,9 +306,9 @@ bool copy_shared_table_element_A_to_B(unsigned int index)
 
 
 
-[���������� ������� � Excel](memory-management-in-excel.md)
+[Управление памятью в Excel](memory-management-in-excel.md)
   
-[�������������� �������� � Excel](multithreaded-recalculation-in-excel.md)
+[Многопоточный пересчет в Excel](multithreaded-recalculation-in-excel.md)
   
-[Диспетчер надстроек и функции XLL интерфейса](add-in-manager-and-xll-interface-functions.md)
+[Функции диспетчера надстроек и интерфейса XLL](add-in-manager-and-xll-interface-functions.md)
 

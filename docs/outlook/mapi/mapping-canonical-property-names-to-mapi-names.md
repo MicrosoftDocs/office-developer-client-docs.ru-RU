@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство имена сопоставляемых именам MAPI
+title: Сопоставление имен канонических свойств с именами MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6693326df818d2792d7448407148e57d53fff86f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809998"
 ---
-# <a name="mapping-canonical-property-names-to-mapi-names"></a>Каноническое свойство имена сопоставляемых именам MAPI
+# <a name="mapping-canonical-property-names-to-mapi-names"></a>Сопоставление имен канонических свойств с именами MAPI
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 В этом разделе сопоставляет имя каждого каноническое свойство MAPI свойства или свойств, содержащихся в ней. В этом разделе содержатся три таблицы: таблицы для именованных свойств с помощью числовых идентификаторов, секунды таблица для именованных свойств с идентификаторами строки и третий таблицы с тегами свойств.
   
@@ -328,12 +328,12 @@ ms.locfileid: "19809998"
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
 |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
-|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Ключевые слова  <br/> |
+|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Keywords  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
 |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |LastPrinted  <br/> |
 |[PidNameLastSaveDateTime](pidnamelastsavedatetime-canonical-property.md) <br/> |LastSaveDtm  <br/> |
 |[PidNameLineCount](pidnamelinecount-canonical-property.md) <br/> |LineCount  <br/> |
-|[PidNameManager](pidnamemanager-canonical-property.md) <br/> |Руководитель  <br/> |
+|[PidNameManager](pidnamemanager-canonical-property.md) <br/> |Manager  <br/> |
 |[PidNameMultimediaClipCount](pidnamemultimediaclipcount-canonical-property.md) <br/> |MMClipCount  <br/> |
 |[PidNameNoteCount](pidnamenotecount-canonical-property.md) <br/> |NoteCount  <br/> |
 |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
@@ -346,7 +346,7 @@ ms.locfileid: "19809998"
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
 |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Шаблоны  <br/> |
-|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |название;  <br/> |
+|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Название  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |
 |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |Совместное использование возможностей X  <br/> |
 |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-общий доступ к Config-URL-адрес  <br/> |

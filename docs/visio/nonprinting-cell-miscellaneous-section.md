@@ -1,5 +1,5 @@
 ---
-title: Непечатаемые ячейки (раздел Разное)
+title: Ячейка NonPrinting (раздел "Прочее")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814299"
 ---
-# <a name="nonprinting-cell-miscellaneous-section"></a>Непечатаемые ячейки (раздел Разное)
+# <a name="nonprinting-cell-miscellaneous-section"></a>Ячейка NonPrinting (раздел "Прочее")
 
 Параметры печати и отключает для выбранной фигуры.
   

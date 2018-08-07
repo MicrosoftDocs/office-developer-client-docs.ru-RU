@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 0c691c31b08d507b1ca32d38c37387325b6d5d8d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19810054"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает ли элемент имеет флаг, и если он установлен, цвет, отмеченного элемента.
   
@@ -38,7 +38,7 @@ enum OlFlagIcon {
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  _olNoFlagIcon_
   

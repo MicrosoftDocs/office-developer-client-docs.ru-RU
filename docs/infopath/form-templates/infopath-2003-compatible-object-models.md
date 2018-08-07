@@ -124,7 +124,7 @@ thisXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
 ## <a name="see-also"></a>См. также
 
 - [Типичные задачи по разработке шаблонов форм, использующих объектную модель InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
-- [Модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
-- [Создание шаблонов форм, использующих объектную модель InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
+- [Сведения о модели безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
+- [Создание шаблонов форм, использующих объектную модель InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
 - [Ознакомление с объектной моделью InfoPath 2003](understanding-the-infopath-2003-object-model.md)
 

@@ -28,7 +28,7 @@ HRESULT IOlkAccountHelper::GetMapiSession(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _ppmsess_
   

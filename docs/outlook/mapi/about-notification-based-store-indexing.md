@@ -1,11 +1,11 @@
 ---
-title: Индексирование хранилища на основе уведомлений
+title: Сведения об индексировании хранилищ на основе уведомлений
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b3685890-117c-9acc-e19f-cf22a349a088
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 338ae3c3c8d8b4037ab0c7b46916e45cf5a8ded2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,11 +13,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807978"
 ---
-# <a name="about-notification-based-store-indexing"></a>Индексирование хранилища на основе уведомлений
+# <a name="about-notification-based-store-indexing"></a>Сведения об индексировании хранилищ на основе уведомлений
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Поставщик хранилища MAPI можно указать ли сообщения обработчик протокола MAPI обходы контента и индексы в хранилище или ли хранилище отправляет уведомления для компонента индексирования, когда сообщений для индексирования. Последний называется на основе уведомлений индексирования и хранилища, который поддерживает индексирование на основе уведомлений — это известная как pusher хранилище.
   
@@ -31,7 +31,7 @@ ms.locfileid: "19807978"
 
 
 
-[О хранилище API](about-the-store-api.md)
+[Сведения об API хранилищ](about-the-store-api.md)
   
 [��������� MAPI](mapi-constants.md)
 

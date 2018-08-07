@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8aba90d8-ea1f-4636-af80-17bfeadbdfa0
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a9aa6deeca930da82db61ba517796bfbc0676467
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808654"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Создает идентификатор составные запись для объекта, обычно сообщения в банке сообщений. 
   
@@ -45,7 +45,7 @@ HrComposeEID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _psession_
   

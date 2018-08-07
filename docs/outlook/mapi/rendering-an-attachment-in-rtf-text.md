@@ -1,5 +1,5 @@
 ---
-title: Отображение вложение в текст RTF
+title: Отображение вложения в виде текста RTF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 26372539-e9fe-464d-95c7-90b58c20b98f
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: cf22e360a0319a662c9b7dd31856dbb6eccec02a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812119"
 ---
-# <a name="rendering-an-attachment-in-rtf-text"></a>Отображение вложение в текст RTF
+# <a name="rendering-an-attachment-in-rtf-text"></a>Отображение вложения в виде текста RTF
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Текст в формате RTF (RTF)-принять во внимание клиентов можно получить сведения положение отображения из текста сообщения RTF ищет следующие escape-последовательность в свойство message **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)):
   

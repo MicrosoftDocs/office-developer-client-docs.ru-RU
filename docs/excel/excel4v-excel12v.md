@@ -11,7 +11,7 @@ keywords:
 - функция Excel12v [excel 2007], функция Excel4v [Excel 2007]
 localization_priority: Normal
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7ffa0bc3ae6222af1ecd7f65de66d026ea178c87
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807259"
 ---
 # <a name="excel4vexcel12v"></a>Excel4v/Excel12v
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Вызывает внутренней функции Microsoft Excel, функцию листа макросов или команды, или только для XLL специальные функции или команды, из в DLL-Библиотеку, XLL или ресурс кода.
   
@@ -36,7 +36,7 @@ int _cdecl Excel4v(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER rgx[]);
 int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[]);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _iFunction_ (**int**)
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9295c37a46d3566089f708aaaa0b9fc3b5f30db2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808363"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описывает элемент управления поля группы, которая будет использоваться в диалоговое окно, построенная на основе таблицы отображения.
   
@@ -41,7 +41,7 @@ typedef struct _DTBLGROUPBOX
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   

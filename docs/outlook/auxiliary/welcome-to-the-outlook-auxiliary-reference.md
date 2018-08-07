@@ -30,19 +30,19 @@ ms.locfileid: "19807968"
   
 - [About anti-spam settings](about-anti-spam-settings.md)
     
-- [Загружаемые файлы для управления сообщения для учетных записей POP3](managing-message-downloads-for-pop3-accounts.md)
+- [Управление скачиванием сообщений для учетных записей POP3](managing-message-downloads-for-pop3-accounts.md)
     
-- [Поиск журнала загрузки сообщений для учетной записи POP3](locating-the-message-download-history-for-a-pop3-account.md)
+- [Поиск журнала скачивания сообщений для учетной записи POP3](locating-the-message-download-history-for-a-pop3-account.md)
     
-- [Синтаксический анализ журнала загрузки сообщений для учетной записи POP3](parsing-the-message-download-history-for-a-pop3-account.md)
+- [Анализ журнала скачивания сообщений для учетной записи POP3](parsing-the-message-download-history-for-a-pop3-account.md)
     
-- [О разрешения конфликтов для типов пользовательских элементов](about-conflict-resolution-for-custom-item-types.md)
+- [Сведения о разрешении конфликтов для элементов пользовательских типов](about-conflict-resolution-for-custom-item-types.md)
     
-- [О времени последнего обновления автономной адресной книги](about-the-last-update-time-of-an-offline-address-book.md)
+- [Сведения о времени последнего обновления автономной адресной книги](about-the-last-update-time-of-an-offline-address-book.md)
     
-- [О регистрации нового домена для автоматической настройки](about-registering-a-new-domain-for-automatic-configuration.md)
+- [Сведения о регистрации нового домена для автоматической настройки](about-registering-a-new-domain-for-automatic-configuration.md)
     
-- [О приглашений на собрания как информационные и полного обновления](about-meeting-requests-as-informational-updates-and-full-updates.md)
+- [Сведения о приглашениях на собрания в виде информационных или полных сообщений](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
 - [О сдвига календарей программными средствами на летнее время](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) (Имеется также распространяемого установщика средства сдвига календаря сторонних производителей, который работает с предыдущими версиями Outlook, начиная с Outlook 2010. Загрузить установщик [Outlook 2010: дополнительный распространяемого установщика ссылки и файл заголовка для повторного размещения en календарей](http://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
     
@@ -66,15 +66,15 @@ ms.locfileid: "19807968"
     
 - [Определить, является ли элемент Outlook был изменен, но не сохраняются (Outlook дополнительные справочные материалы по)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
-- [Синтаксический анализ потока из двоичного свойства для чтения TZDEFINITION структуры](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
+- [Анализ потока из двоичного свойства для считывания структуры TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
     
-- [Синтаксический анализ потока из двоичного свойства для чтения TZREG структуры](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
+- [Анализ потока из двоичного свойства для считывания структуры TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
-- [Чтение свойств часового пояса из встречи](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Считывание свойств часового пояса встречи](how-to-read-time-zone-properties-from-an-appointment.md)
     
 - [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
     
-- [Использование относительных времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Использование относительного времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
     
 Справочник по каждой API перечислены константы, определения типов и интерфейсы, которые разработчик должен реализовывать использовать дополнительные функциональные возможности.
   

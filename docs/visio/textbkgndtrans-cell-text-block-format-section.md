@@ -1,5 +1,5 @@
 ---
-title: Ячейка TextBkgndTrans (раздел формат блока текст)
+title: Ячейка TextBkgndTrans (раздел "Формат текстового блока")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815005"
 ---
-# <a name="textbkgndtrans-cell-text-block-format-section"></a>Ячейка TextBkgndTrans (раздел формат блока текст)
+# <a name="textbkgndtrans-cell-text-block-format-section"></a>Ячейка TextBkgndTrans (раздел "Формат текстового блока")
 
 Определяет уровень прозрачности цвета фона блока текста фигуры.
   

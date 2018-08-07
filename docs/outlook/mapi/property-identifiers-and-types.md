@@ -1,5 +1,5 @@
 ---
-title: Идентификаторы свойств и типов
+title: Типы и идентификаторы свойств
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 39a5c97c-5ac8-47a8-b193-a4b3ba6a02a5
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 7f31162e669af6efaf9e935c7c400d105c1321c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812068"
 ---
-# <a name="property-identifiers-and-types"></a>Идентификаторы свойств и типов
+# <a name="property-identifiers-and-types"></a>Типы и идентификаторы свойств
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Все свойства MAPI, представлены тегов свойств. Свойство tag — это значение 32-разрядное целое число, содержащее идентификатор свойства в высоким заказ 16-разрядный и тип свойства в небольшой упорядочивания 16 бит. Теги свойства для всех свойств, определенных в MAPI включены в файл заголовка mapitags.h.
   

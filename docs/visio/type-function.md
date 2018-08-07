@@ -1,5 +1,5 @@
 ---
-title: Функция тип
+title: Функция TYPE
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815096"
 ---
-# <a name="type-function"></a>Функция тип
+# <a name="type-function"></a>Функция TYPE
 
 Возвращает внутренний тип объекта в виде числа. 
   
@@ -26,7 +26,7 @@ ms.locfileid: "19815096"
   
 ### <a name="return-value"></a>������������ ��������
 
-Число
+Number
   
 ## <a name="remarks"></a>Замечания
 

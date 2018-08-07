@@ -1,5 +1,5 @@
 ---
-title: Access настраиваемых веб-приложения ссылки
+title: Справочник по пользовательским веб-приложениям для Access
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
@@ -12,12 +12,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19806914"
 ---
-# <a name="access-custom-web-app-reference"></a>Access настраиваемых веб-приложения ссылки
+# <a name="access-custom-web-app-reference"></a>Справочник по пользовательским веб-приложениям для Access
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 > [!IMPORTANT]
-> Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint. Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для построения без написания кода бизнес-решений для мобильных устройств и веб. 
+> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 - [Основные понятия (приложение настраиваемых web Access)](concepts-access-custom-web-app.md)
     

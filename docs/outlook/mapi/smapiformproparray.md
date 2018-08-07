@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d907f2e8ecb9b6126898ff35b13427b088af9561
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812333"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит массив структур [SMAPIFormProp](smapiformprop.md) . 
   
@@ -42,7 +42,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **cProps**
   

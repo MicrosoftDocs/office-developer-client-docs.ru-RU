@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b7755f2ec067003e47d358a9736c6d7d96ede267
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812073"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Настройка поиска для указанного свойства в свойстве.
   
@@ -41,7 +41,7 @@ LPSPropValue PpropFindProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _rgprop_
   

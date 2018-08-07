@@ -11,7 +11,7 @@ keywords:
 - функция Excel4 [excel 2007], функция Excel12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807244"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Вызывает внутренней функции Microsoft Excel, функцию листа макросов или команды, или только для XLL специальные функции или команды, из DLL или XLL или кода ресурса.
   
@@ -36,7 +36,7 @@ int Excel4(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER argument1, ...);
 int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, ...);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _iFunction_ (**int**)
   
@@ -82,7 +82,7 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
 |:-----|:-----|:-----|:-----|
 |**xlAbort** <br/> |**xlEnableXLMsgs** <br/> |**xlGetInst** <br/> |**xlSheetNm** <br/> |
 |**xlCoerce** <br/> |**xlFree** <br/> |**xlGetName** <br/> |**xlStack** <br/> |
-|**xlDefineBinaryName** <br/> |**xlGetBinaryName** <br/> |**функция xlSet** <br/> |**xlUDF** <br/> |
+|**xlDefineBinaryName** <br/> |**xlGetBinaryName** <br/> |**xlSet** <br/> |**xlUDF** <br/> |
 |**xlDisableXLMsgs** <br/> |**xlGetHwnd** <br/> |**xlSheetId** <br/> ||
    
 ### <a name="different-types-of-functions"></a>Различные типы функций

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: eab12ef45846a8f58eb3cf327fbb40777010be7f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810541"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает URL-адрес, связанные с общего доступа поставщика и заданной свойством **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Это свойство общего доступа сообщения.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810541"
 |Набор свойств:  <br/> |PSETID_Sharing  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008A03  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Области:  <br/> |Sharing  <br/> |
+|Область:  <br/> |Sharing  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

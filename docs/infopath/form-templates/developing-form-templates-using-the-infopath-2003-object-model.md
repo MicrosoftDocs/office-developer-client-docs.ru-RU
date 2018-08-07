@@ -1,5 +1,5 @@
 ---
-title: Разработка шаблонов форм, использующих объектную модель InfoPath 2003
+title: Разработка шаблонов форм, использующих объектную модель InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807473"
 ---
-# <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Разработка шаблонов форм, использующих объектную модель InfoPath 2003
+# <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Разработка шаблонов форм, использующих объектную модель InfoPath 2003
 
 Приложение Microsoft InfoPath по-прежнему поддерживает проекты шаблонов форм, созданные с помощью набора инструментов Microsoft Office InfoPath 2003 для Visual Studio .NET или с помощью набора инструментов Visual Studio 2005 для системы Microsoft Office, использующих бизнес-логику, написанную с применением элементов пространства имен [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . В темах этого раздела типы и члены этого пространства имен упоминаются как объектная модель, совместимая с InfoPath 2003, или просто объектная модель InfoPath 2003. InfoPath также поддерживает проекты шаблонов форм, созданные с помощью Microsoft Office InfoPath 2007 с использованием объектной модели, совместимой с InfoPath 2003. Кроме того, InfoPath можно использовать для создания новых проектов шаблонов форм с применением объектной модели, совместимой с InfoPath 2003, чтобы сохранить обратную совместимость для пользователей Office InfoPath 2007. Все темы этого раздела посвящены созданию и разработке шаблонов форм, работающих с объектной моделью, совместимой с InfoPath 2003 и предоставляемой пространством имен [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
   
@@ -24,15 +24,15 @@ ms.locfileid: "19807473"
   
 ## <a name="in-this-section"></a>В этом разделе
 
-[Приступая к работе разработке шаблонов форм, использующих объектную модель InfoPath 2003](get-started-developing-form-templates-using-infopath-object-model.md)
+[Введение в разработку шаблонов форм, использующих объектную модель InfoPath 2003](get-started-developing-form-templates-using-infopath-object-model.md)
   
 > Предоставляются общие сведения о создании шаблонов форм с управляемым кодом, которые работают с объектной моделью, совместимой с InfoPath 2003.
     
-[Создание шаблонов форм, использующих объектную модель InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
+[Создание шаблонов форм, использующих объектную модель InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
   
 > Описывается инициализация и очистка кода, добавление обработчиков событий, отладка и развертывание шаблонов форм с управляемым кодом, поддержка потоков и работа со службами MSXML из решений InfoPath с управляемым кодом.
     
-[Безопасность в шаблонах форм InfoPath с кодом](security-in-infopath-form-templates-with-code.md)
+[Безопасность шаблонов форм InfoPath с кодом](security-in-infopath-form-templates-with-code.md)
   
 > Описывается модель безопасности для шаблонов форм InfoPath, использующих управляемый код, отладка шаблонов форм InfoPath с полным доверием, а также соответствующие процедуры безопасности.
     
@@ -40,7 +40,7 @@ ms.locfileid: "19807473"
   
 > Описывается объектная модель, совместимая с InfoPath 2003, и типичные задачи программирования для шаблонов форм с управляемым кодом, работающих с этой объектной моделью.
     
-[Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model.md)
+[Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model.md)
   
 > Представляет советы по решению типичных проблем, которые могут обнаружиться при создании шаблонов форм с управляемым кодом, работающих с объектной моделью, совместимой с InfoPath 2003.
     

@@ -11,7 +11,7 @@ keywords:
 - функция tempbool [excel 2007], функция TempBool12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 30874e7b918d8cd780bef60b4b02de1319f0f9ab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807323"
 ---
 # <a name="tempbooltempbool12"></a>TempBool/TempBool12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функция библиотеки Framework, который создает временные **XLOPER**/ **XLOPER12** , содержащий **логическое** **значение TRUE** или **FALSE**.
   
@@ -30,7 +30,7 @@ LPXLOPER TempBool(int b);
 LPXLOPER12 TempBool12(int b);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _b_ (**int**)
   
@@ -58,5 +58,5 @@ short int WINAPI TempBoolExample(void)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

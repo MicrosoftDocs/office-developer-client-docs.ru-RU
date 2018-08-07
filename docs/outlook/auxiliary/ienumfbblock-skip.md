@@ -28,7 +28,7 @@ HRESULT Skip(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _celt_
   

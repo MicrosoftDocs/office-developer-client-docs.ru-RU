@@ -1,5 +1,5 @@
 ---
-title: Разрешений пользователя разрывов страниц в длительных операций
+title: Разрешение прерывания длительных операций пользователем
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - функция xlAbort [excel 2007,] параллельных задач [Excel 2007], разрывов пользователя [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b13f9b9a8c0e5621b25df13537632bdbe5dfc29e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807312"
 ---
-# <a name="permitting-user-breaks-in-lengthy-operations"></a>Разрешений пользователя разрывов страниц в длительных операций
+# <a name="permitting-user-breaks-in-lengthy-operations"></a>Разрешение прерывания длительных операций пользователем
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Несмотря на то, что используется Windows включить многозадачность, где функции или команды может занять много времени на выполнение, рекомендуется, чтобы получить некоторое время для операционной системы и для ее планирования параллельных задач. С помощью собственного вызовов Windows, можно сделать это с помощью функции спящего режима. Использование интерфейса API для C, можно сделать его с помощью [функции xlAbort](xlabort.md), который не только дает процессора для обмена мгновенными, но также проверяет, если пользователь нажата клавиша cancel, **ESC**.
   
@@ -32,11 +32,11 @@ ms.locfileid: "19807312"
 
 
 
-[Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-[�������������� �������� � Excel](multithreaded-recalculation-in-excel.md)
+[Многопоточный пересчет в Excel](multithreaded-recalculation-in-excel.md)
   
-[���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
+[Разработка XLL-файлов для Excel](developing-excel-xlls.md)
   
-[Доступ к экземпляру Excel и значками главное окно](how-to-access-excel-instance-and-main-window-handles.md)
+[Доступ к дескрипторам основного окна и экземпляра Excel](how-to-access-excel-instance-and-main-window-handles.md)
 

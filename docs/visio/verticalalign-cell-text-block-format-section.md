@@ -1,5 +1,5 @@
 ---
-title: Ячейка VerticalAlign (раздел формат блока текст)
+title: Ячейка VerticalAlign (раздел "Формат текстового блока")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815145"
 ---
-# <a name="verticalalign-cell-text-block-format-section"></a>Ячейка VerticalAlign (раздел формат блока текст)
+# <a name="verticalalign-cell-text-block-format-section"></a>Ячейка VerticalAlign (раздел "Формат текстового блока")
 
 Определяет вертикальное выравнивание текста в блоке текста.
   
@@ -24,7 +24,7 @@ ms.locfileid: "19815145"
 |:-----|:-----|:-----|
 | 0  <br/> | Вверх  <br/> |**visVertTop** <br/> |
 | 1  <br/> | Промежуточное  <br/> |**visVertMiddle** <br/> |
-| 2  <br/> | Внизу  <br/> |**visVertBottom** <br/> |
+| 2  <br/> | Bottom  <br/> |**visVertBottom** <br/> |
    
 ## <a name="remarks"></a>Замечания
 

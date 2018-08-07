@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: cecdb2c30d6c9df2aafbeed43714269b863ebc48
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19810011"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Поставщик транспорта управляет ли диспетчер очереди MAPI должен опроса его для входящей почты или ли оно выполняет вызов диспетчер очереди MAPI при поступлении новых сообщений. Поставщика транспорта устанавливает флаг SP_LOGON_POLL при возврате из [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) для запроса опроса. В противном случае поставщика транспорта использует [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) при входящей почты. После обучения, что входящую почту, доступен, диспетчер очереди MAPI откроется новое сообщение и запрашивает поставщика транспорта для хранения свойства полученного сообщения в сообщение. 
   

@@ -37,7 +37,7 @@ void STDAPICALLTYPE RebaseTaskProgress(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _ulMin_
   
@@ -51,7 +51,7 @@ _ulCur_
   
 > [in] Текущий элемент, обрабатываемых.
     
-_Состояние_
+_State_
   
 > [in] Значение, указывающее состояние обрабатываемый элемент. Перечисление **REBASE_APPT_STATE** определен в tzmovelib.h.  _Состояние_ — это один из следующих значений: 
     

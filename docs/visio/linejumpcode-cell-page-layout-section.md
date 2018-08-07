@@ -1,5 +1,5 @@
 ---
-title: Ячейка LineJumpCode (раздел макет страницы)
+title: Ячейка LineJumpCode (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814075"
 ---
-# <a name="linejumpcode-cell-page-layout-section"></a>Ячейка LineJumpCode (раздел макет страницы)
+# <a name="linejumpcode-cell-page-layout-section"></a>Ячейка LineJumpCode (раздел "Макет страницы")
 
 Определяет соединители, к которым требуется добавить переходы.
   

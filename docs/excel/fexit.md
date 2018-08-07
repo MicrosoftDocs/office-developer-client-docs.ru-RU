@@ -10,7 +10,7 @@ keywords:
 - функция fexit [excel 2007]
 localization_priority: Normal
 ms.assetid: d85685fa-df70-45bb-b629-a9d43b5cb926
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3abb5cd68a45fbcd16665dbc4d492d764bbd315e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807247"
 ---
 # <a name="fexit"></a>fExit
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Пример пользовательской команды, выгружает GENERIC.xll. При загрузке GENERIC.xll, он создает пользовательских меню, общая, через который доступ к этой команды. 
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807247"
 int WINAPI fExit(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 Функция не принимает параметры.
   
@@ -48,5 +48,5 @@ int WINAPI fExit(void);
 
 
 
-[В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ac09578-892b-4c72-92f6-c2419ac2efe8
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b94e1f2d66f89d680cc738968342de0fbcee5cda
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812047"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Это свойство содержит значение TRUE, если мастер профиля для отмены вывода страницы личное сообщение store (PST).
   
@@ -32,7 +32,7 @@ ms.locfileid: "19812047"
 |Связанные свойства:  <br/> |PR_WIZARD_NO_PST_PAGE  <br/> |
 |Идентификатор:  <br/> |0x6700  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Области:  <br/> |Администрирования Exchange  <br/> |
+|Область:  <br/> |Администрирования Exchange  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -58,7 +58,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

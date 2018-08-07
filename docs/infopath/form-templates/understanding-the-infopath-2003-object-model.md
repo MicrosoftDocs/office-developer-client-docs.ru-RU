@@ -25,43 +25,43 @@ ms.locfileid: "19807603"
   
 > Предоставляется обзор объектных моделей, используемых в проектах InfoPath с управляемым кодом.
     
-[Доступ к данным приложения с помощью объектной модели InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+[Доступ к данным приложений с помощью объектной модели InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
   
 > Описывается доступ к сведениям о приложении InfoPath, базовом XML-документе формы и файле определения формы (XSF).
     
-[Доступа к внешним источникам данных с помощью объектной модели InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
+[Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
   
 > Описывается доступ к данным, расположенным на внешних источниках данных.
     
-[Доступ к данным формы с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+[Доступ к данным форм с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
   
 > Описывается доступ к сведениям о базовом документе XML для формы и о содержащихся в форме данных, а также выполнение некоторых действий с документом XML.
     
-[Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
+[Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
   
 > Описывается отображение оповещений и диалоговых окон в проектах InfoPath с управляемым кодом.
     
-[Обработка ошибок с помощью объектной модели InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+[Обработка ошибок с помощью объектной модели InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
   
 > Описывается обработка ошибок в проектах InfoPath с управляемым кодом.
     
-[Ответ на события, с помощью объектной модели InfoPath 2003 формы](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+[Обработка событий форм с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
   
 > Описывается создание обработчиков событий для обработки событий, возникающих при заполнении пользователем формы.
     
-[Работа с окнами форм, использующих объектную модель InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[Работа с окнами форм при помощи объектной модели InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
 > Описывается работа с окнами форм.
     
-[Работа с представлениями, использующих объектную модель InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
+[Работа с представлениями при помощи объектной модели InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
   
 > Описывается работа с представлениями.
     
-[Работа с цифровыми подписями, использующих объектную модель InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
+[Работа с цифровыми подписями при помощи объектной модели InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
   
 > Описывается работа с цифровыми подписями.
     
-[Работа с автономными решениями, с помощью объектной модели InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
+[Работа с автономными решениями с использованием объектной модели InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
   
 > Описывается работа с автономными решениями.
     

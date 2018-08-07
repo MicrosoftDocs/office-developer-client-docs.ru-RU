@@ -1,5 +1,5 @@
 ---
-title: Функция ТЕМЫ
+title: Функция THEME
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815009"
 ---
-# <a name="theme-function"></a>Функция ТЕМЫ
+# <a name="theme-function"></a>Функция THEME
 
 Получает параметры формата текущей темы.
   

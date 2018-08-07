@@ -1,5 +1,5 @@
 ---
-title: Ячейка ThemeIndex (Theme Properties Section)
+title: Ячейка ThemeIndex (раздел "Свойства темы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815013"
 ---
-# <a name="themeindex-cell-theme-properties-section"></a>Ячейка ThemeIndex (Theme Properties Section)
+# <a name="themeindex-cell-theme-properties-section"></a>Ячейка ThemeIndex (раздел "Свойства темы")
 
 Сохранение перечисление встроенных темы Microsoft Visio, примененная к документу, как целое число. При новой темы выбран для документа ячейки **ThemeIndex** для документа и всех страниц и фигуры, которые он содержит обновляется с индексом встроенных темы. 
   

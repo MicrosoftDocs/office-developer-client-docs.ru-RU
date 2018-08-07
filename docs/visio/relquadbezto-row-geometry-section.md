@@ -1,5 +1,5 @@
 ---
-title: Строка RelQuadBezTo (раздел геометрии)
+title: Строка RelQuadBezTo (раздел "Геометрия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814608"
 ---
-# <a name="relquadbezto-row-geometry-section"></a>Строка RelQuadBezTo (раздел геометрии)
+# <a name="relquadbezto-row-geometry-section"></a>Строка RelQuadBezTo (раздел "Геометрия")
 
 Содержит *x* - и *y* - координаты конечной точки кривая Безье относительно фигуры ширину и высоту и *x* - и *y* -координаты точки управления фигуры график относительно ширины и высоты. 
   
@@ -26,7 +26,7 @@ ms.locfileid: "19814608"
 |**Cell**|**Описание**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |*X* -координаты окончания вершины кривая Безье ширине фигуры.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -координат окончания вершины кривая Безье высоте фигуры.  <br/> |
+|[Да](y-cell-geometry-section.md) <br/> |*Y* -координат окончания вершины кривая Безье высоте фигуры.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |*X* -координата точки управления график ширине фигуры; точка дуги. Контрольная точка расположена лучше всего о пользователю между начала и окончания грани дуги.  <br/> |
 |[B](b-cell-geometry-section.md) <br/> |*Y* -координата точки управления график высоте фигуры.  <br/> |
    

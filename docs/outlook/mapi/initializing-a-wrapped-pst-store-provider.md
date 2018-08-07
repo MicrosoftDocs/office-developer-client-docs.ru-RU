@@ -15,7 +15,7 @@ ms.locfileid: "19809457"
 ---
 # <a name="initializing-a-wrapped-pst-store-provider"></a>Инициализация оболочку поставщика хранилища PST-файлов
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Чтобы реализовать оболочку поставщика хранилища личных папок (PST) файла, должны инициализировать оболочку поставщика хранилища PST-файлов, используя функцию **[MSProviderInit](msproviderinit.md)** в качестве точки входа. После инициализации DLL поставщика функции **[MSGSERVICEENTRY](msgserviceentry.md)** настраивает оболочку поставщика хранилища PST-файлов. 
   
@@ -243,9 +243,9 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 
 ## <a name="see-also"></a>См. также
 
-- [О примере оболочку поставщика хранилища PST-файлов](about-the-sample-wrapped-pst-store-provider.md)
-- [Установка примера оболочку поставщика хранилища PST-файлов](installing-the-sample-wrapped-pst-store-provider.md)
-- [Выполнив вход поставщик оболочку хранения PST-файлов](logging-on-to-a-wrapped-pst-store-provider.md)
-- [С помощью поставщика оболочку хранилища PST-файлов](using-a-wrapped-pst-store-provider.md)
-- [Завершение работы поставщика оболочку хранения PST-файлов](shutting-down-a-wrapped-pst-store-provider.md)
+- [Сведения о примере поставщика упакованного PST-хранилища](about-the-sample-wrapped-pst-store-provider.md)
+- [Установка примера поставщика упакованного PST-хранилища](installing-the-sample-wrapped-pst-store-provider.md)
+- [Вход в систему поставщика упакованного PST-хранилища](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Использование поставщика упакованного PST-хранилища](using-a-wrapped-pst-store-provider.md)
+- [Завершение работы поставщика упакованного PST-хранилища](shutting-down-a-wrapped-pst-store-provider.md)
 

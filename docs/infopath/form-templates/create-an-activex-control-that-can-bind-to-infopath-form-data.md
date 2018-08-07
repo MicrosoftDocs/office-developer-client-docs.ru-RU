@@ -78,7 +78,7 @@ ms.locfileid: "19807479"
 
 
 
-Лаборатория 6: Добавление элементов управления ActiveX в InfoPath 2003
+Пример 6. Добавление элементов управления ActiveX в InfoPath 2003
   
 [Создание пользовательского элемента управления InfoPath с помощью C# и .NET (блог команды разработчиков InfoPath) (Возможно, на английском языке)](http://blogs.msdn.com/infopath/archive/2005/04/15/creating-an-infopath-custom-control-using-c-and-net.aspx)
 

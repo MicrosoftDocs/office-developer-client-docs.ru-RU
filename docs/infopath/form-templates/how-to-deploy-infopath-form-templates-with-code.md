@@ -82,7 +82,7 @@ ms.locfileid: "19807489"
 [Настройка параметров безопасности для шаблонов форм с кодом](how-to-configure-security-settings-for-form-templates-with-code.md)
 
 
-[Модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
+[Сведения о модели безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
   
 [Просмотр и отладка шаблонов форм, требующих полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
 

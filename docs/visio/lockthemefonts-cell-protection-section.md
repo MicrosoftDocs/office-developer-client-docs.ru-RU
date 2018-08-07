@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockThemeFonts (раздел Защита)
+title: Ячейка LockThemeFonts (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814176"
 ---
-# <a name="lockthemefonts-cell-protection-section"></a>Ячейка LockThemeFonts (раздел Защита)
+# <a name="lockthemefonts-cell-protection-section"></a>Ячейка LockThemeFonts (раздел "Защита")
 
 Запрещает **FontIndex** ячейку в строке **Темы свойств** изменяются, применение новой темы. Запрещает пользователям изменять это значение в таблице свойств фигуры вручную. 
   

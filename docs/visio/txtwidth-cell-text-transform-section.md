@@ -1,5 +1,5 @@
 ---
-title: Ячейка ШиринаТекста (раздел Преобразование текст)
+title: Ячейка TxtWidth (раздел "Преобразование текста")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815100"
 ---
-# <a name="txtwidth-cell-text-transform-section"></a>Ячейка ШиринаТекста (раздел Преобразование текст)
+# <a name="txtwidth-cell-text-transform-section"></a>Ячейка TxtWidth (раздел "Преобразование текста")
 
 Определяет ширину блока текста. Формула по умолчанию имеет вид:
   

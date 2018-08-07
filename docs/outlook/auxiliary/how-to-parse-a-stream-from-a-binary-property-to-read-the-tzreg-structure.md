@@ -1,5 +1,5 @@
 ---
-title: Синтаксический анализ потока из двоичного свойства для чтения TZREG структуры
+title: Анализ потока из двоичного свойства для считывания структуры TZREG
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807697"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a>Синтаксический анализ потока из двоичного свойства для чтения TZREG структуры
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a>Анализ потока из двоичного свойства для считывания структуры TZREG
 
 В этом разделе показано, как читать структура [TZREG](tzreg.md) из сохраненного формата, хранящиеся в двоичного свойства [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).
   
@@ -57,5 +57,5 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ## <a name="see-also"></a>См. также
 
-- [Чтение свойств часового пояса из встречи](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Считывание свойств часового пояса встречи](how-to-read-time-zone-properties-from-an-appointment.md)
 

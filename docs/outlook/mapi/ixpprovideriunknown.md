@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d5507785-c924-4981-ae80-19709ceb054d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e12f69e3486e5eeb9087b30753735f7f910dc6f4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809657"
 ---
-# <a name="ixpprovider--iunknown"></a>IXPProvider: IUnknown
+# <a name="ixpprovider--iunknown"></a>IXPProvider : IUnknown
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Инициализирует объект поставщика транспорта и завершает работу объекта, если они больше не нужны.
   
@@ -40,7 +40,7 @@ ms.locfileid: "19809657"
 
 |||
 |:-----|:-----|
-|[Завершение работы](ixpprovider-shutdown.md) <br/> |Закрывает вниз поставщика транспорта определенным образом.  <br/> |
+|[Shutdown](ixpprovider-shutdown.md) <br/> |Закрывает вниз поставщика транспорта определенным образом.  <br/> |
 |[TransportLogon](ixpprovider-transportlogon.md) <br/> |Устанавливает сеанс, в котором клиентское приложение входит в систему поставщика транспорта.  <br/> |
    
 

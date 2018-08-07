@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d27ef47a3ba387ae2e7acbcefc75b07ddd794e80
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812042"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит сертификаты безопасности X.509 версии 3 для обмена сообщениями пользователя. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19812042"
 |Связанные свойства:  <br/> |PR_USER_X509_CERTIFICATE  <br/> |
 |Идентификатор:  <br/> |0x3A70  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
-|Области:  <br/> |Пользователь почты MAPI  <br/> |
+|Область:  <br/> |Пользователь почты MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -70,7 +70,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

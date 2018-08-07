@@ -1,5 +1,5 @@
 ---
-title: Название функции
+title: Функция TITLE
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815035"
 ---
-# <a name="title-function"></a>Название функции
+# <a name="title-function"></a>Функция TITLE
 
 Возвращает текст из поля **заголовка** в свойствах документа. 
   

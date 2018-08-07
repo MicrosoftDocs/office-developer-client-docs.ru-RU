@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: fbe1f4f6-28f8-40b8-b551-192c0ba48c18
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 0af587bd07de9445f143be316798059eaef402e0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19808159"
 ---
 # <a name="centralizing-the-receipt-of-ndrs"></a>Централизация уведомление о недоставке
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 **Чтобы отчет о недоставке (NDR) получения централизованно при одновременном запуске нескольких экземпляров клиента**
   

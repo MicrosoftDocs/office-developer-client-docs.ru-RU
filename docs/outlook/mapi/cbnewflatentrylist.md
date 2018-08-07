@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f7182631-7f0e-4f4a-995d-22c0bedd7b6a
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a6a6febb82368aee78506f7864f178f1f5dfedf9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808147"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вычисляет число байтов, должен быть размещен для новой структуры [FLATENTRYLIST](flatentrylist.md) , содержащий несколько структур [FLATENTRY](flatentry.md) указанного размера. 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19808147"
 CbNewFLATENTRY (_cb)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  __Сертификация_
   
@@ -51,5 +51,5 @@ CbNewFLATENTRY (_cb)
 [FLATENTRY](flatentry.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 
