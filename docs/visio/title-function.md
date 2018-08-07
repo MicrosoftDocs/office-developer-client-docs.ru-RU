@@ -1,5 +1,5 @@
 ---
-title: Название функции
+title: Функция TITLE
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815035"
 ---
-# <a name="title-function"></a><span data-ttu-id="27c33-103">Название функции</span><span class="sxs-lookup"><span data-stu-id="27c33-103">TITLE Function</span></span>
+# <a name="title-function"></a><span data-ttu-id="6fbff-103">Функция TITLE</span><span class="sxs-lookup"><span data-stu-id="6fbff-103">TITLE Function</span></span>
 
-<span data-ttu-id="27c33-104">Возвращает текст из поля **заголовка** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="27c33-104">Returns the text from the **Title** field of a document's properties.</span></span> 
+<span data-ttu-id="6fbff-104">Возвращает текст из поля **заголовка** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="6fbff-104">Returns the text from the **Title** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="27c33-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="27c33-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6fbff-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6fbff-105">Syntax</span></span>
 
-<span data-ttu-id="27c33-106">(ЗАГОЛОВОК)</span><span class="sxs-lookup"><span data-stu-id="27c33-106">TITLE ()</span></span>
+<span data-ttu-id="6fbff-106">(ЗАГОЛОВОК)</span><span class="sxs-lookup"><span data-stu-id="6fbff-106">TITLE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="27c33-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="27c33-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="6fbff-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6fbff-107">Return value</span></span>
 
-<span data-ttu-id="27c33-108">String</span><span class="sxs-lookup"><span data-stu-id="27c33-108">String</span></span>
+<span data-ttu-id="6fbff-108">String</span><span class="sxs-lookup"><span data-stu-id="6fbff-108">String</span></span>
   
 

@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807705"
 ---
-# <a name="ienumfbblockclone"></a><span data-ttu-id="53384-103">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="53384-103">IEnumFBBlock::Clone</span></span>
+# <a name="ienumfbblockclone"></a><span data-ttu-id="44d31-103">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="44d31-103">IEnumFBBlock::Clone</span></span>
 
-<span data-ttu-id="53384-104">Создает копию перечислителя, с помощью же ограничения времени, но установки курсора в начало перечислитель.</span><span class="sxs-lookup"><span data-stu-id="53384-104">Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator.</span></span>
+<span data-ttu-id="44d31-104">Создает копию перечислителя, с помощью же ограничения времени, но установки курсора в начало перечислитель.</span><span class="sxs-lookup"><span data-stu-id="44d31-104">Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="53384-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="53384-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="44d31-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="44d31-105">Quick info</span></span>
 
-<span data-ttu-id="53384-106">В разделе [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="53384-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
+<span data-ttu-id="44d31-106">В разделе [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="44d31-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
   
 ```cpp
 HRESULT Clone(  
@@ -28,24 +28,24 @@ HRESULT Clone(
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="53384-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="53384-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="44d31-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="44d31-107">Parameters</span></span>
 
-<span data-ttu-id="53384-108">_ppclone_</span><span class="sxs-lookup"><span data-stu-id="53384-108">_ppclone_</span></span>
+<span data-ttu-id="44d31-108">_ppclone_</span><span class="sxs-lookup"><span data-stu-id="44d31-108">_ppclone_</span></span>
   
-> <span data-ttu-id="53384-109">[out] A указателя копию интерфейс [IEnumFBBlock](ienumfbblock.md) .</span><span class="sxs-lookup"><span data-stu-id="53384-109">[out] A pointer to pointer to the copy of [IEnumFBBlock](ienumfbblock.md) interface.</span></span> 
+> <span data-ttu-id="44d31-109">[out] A указателя копию интерфейс [IEnumFBBlock](ienumfbblock.md) .</span><span class="sxs-lookup"><span data-stu-id="44d31-109">[out] A pointer to pointer to the copy of [IEnumFBBlock](ienumfbblock.md) interface.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="53384-110">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="53384-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="44d31-110">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="44d31-110">Return values</span></span>
 
-|<span data-ttu-id="53384-111">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="53384-111">**HRESULT**</span></span>|<span data-ttu-id="53384-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="53384-112">**Description**</span></span>|
+|<span data-ttu-id="44d31-111">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="44d31-111">**HRESULT**</span></span>|<span data-ttu-id="44d31-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="44d31-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="53384-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="53384-113">S_OK</span></span>  <br/> |<span data-ttu-id="53384-114">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="53384-114">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="53384-115">E_OUTOFMEMORY</span><span class="sxs-lookup"><span data-stu-id="53384-115">E_OUTOFMEMORY</span></span>  <br/> |<span data-ttu-id="53384-116">Не хватает памяти для создания копии.</span><span class="sxs-lookup"><span data-stu-id="53384-116">There is insufficient memory for making the copy.</span></span>  <br/> |
+|<span data-ttu-id="44d31-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="44d31-113">S_OK</span></span>  <br/> |<span data-ttu-id="44d31-114">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="44d31-114">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="44d31-115">E_OUTOFMEMORY</span><span class="sxs-lookup"><span data-stu-id="44d31-115">E_OUTOFMEMORY</span></span>  <br/> |<span data-ttu-id="44d31-116">Не хватает памяти для создания копии.</span><span class="sxs-lookup"><span data-stu-id="44d31-116">There is insufficient memory for making the copy.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="53384-117">См. также</span><span class="sxs-lookup"><span data-stu-id="53384-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="44d31-117">См. также</span><span class="sxs-lookup"><span data-stu-id="44d31-117">See also</span></span>
 
-- [<span data-ttu-id="53384-118">Константы (занятости API)</span><span class="sxs-lookup"><span data-stu-id="53384-118">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="53384-119">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="53384-119">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
-- [<span data-ttu-id="53384-120">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="53384-120">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
-- [<span data-ttu-id="53384-121">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="53384-121">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)  
-- [<span data-ttu-id="53384-122">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="53384-122">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)
+- [<span data-ttu-id="44d31-118">Константы (занятости API)</span><span class="sxs-lookup"><span data-stu-id="44d31-118">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="44d31-119">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="44d31-119">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
+- [<span data-ttu-id="44d31-120">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="44d31-120">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
+- [<span data-ttu-id="44d31-121">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="44d31-121">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)  
+- [<span data-ttu-id="44d31-122">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="44d31-122">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)
 

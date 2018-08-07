@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807800"
 ---
-# <a name="interfaces-outlook-exported-apis"></a><span data-ttu-id="c20cc-103">Интерфейсы (Outlook экспортировать API-интерфейсы)</span><span class="sxs-lookup"><span data-stu-id="c20cc-103">Interfaces (Outlook exported APIs)</span></span>
+# <a name="interfaces-outlook-exported-apis"></a><span data-ttu-id="c04f3-103">Интерфейсы (Outlook экспортировать API-интерфейсы)</span><span class="sxs-lookup"><span data-stu-id="c04f3-103">Interfaces (Outlook exported APIs)</span></span>
 
-<span data-ttu-id="c20cc-104">В этом разделе описываются интерфейсы, которые экспортируются Outlook.</span><span class="sxs-lookup"><span data-stu-id="c20cc-104">This section describes the interfaces that Outlook exports.</span></span>
+<span data-ttu-id="c04f3-104">В этом разделе описываются интерфейсы, которые экспортируются Outlook.</span><span class="sxs-lookup"><span data-stu-id="c04f3-104">This section describes the interfaces that Outlook exports.</span></span>
   
-|<span data-ttu-id="c20cc-105">**Интерфейс**</span><span class="sxs-lookup"><span data-stu-id="c20cc-105">**Interface**</span></span>|<span data-ttu-id="c20cc-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c20cc-106">**Description**</span></span>|
+|<span data-ttu-id="c04f3-105">**Интерфейс**</span><span class="sxs-lookup"><span data-stu-id="c04f3-105">**Interface**</span></span>|<span data-ttu-id="c04f3-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c04f3-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="c20cc-107">IOlkApptRebaser</span><span class="sxs-lookup"><span data-stu-id="c20cc-107">IOlkApptRebaser</span></span>](iolkapptrebaser.md) <br/> |<span data-ttu-id="c20cc-108">Поддерживает повторного размещения en встреч в папке календаря.</span><span class="sxs-lookup"><span data-stu-id="c20cc-108">Supports rebasing appointments in a calendar folder.</span></span>  <br/> |
+|[<span data-ttu-id="c04f3-107">IOlkApptRebaser</span><span class="sxs-lookup"><span data-stu-id="c04f3-107">IOlkApptRebaser</span></span>](iolkapptrebaser.md) <br/> |<span data-ttu-id="c04f3-108">Поддерживает повторного размещения en встреч в папке календаря.</span><span class="sxs-lookup"><span data-stu-id="c04f3-108">Supports rebasing appointments in a calendar folder.</span></span>  <br/> |
    
 

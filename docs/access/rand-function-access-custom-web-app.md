@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807095"
 ---
-# <a name="rand-function-access-custom-web-app"></a><span data-ttu-id="ad905-103">Функция рэнд (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="ad905-103">Rand Function (Access custom web app)</span></span>
+# <a name="rand-function-access-custom-web-app"></a><span data-ttu-id="4f1b6-103">Функция рэнд (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="4f1b6-103">Rand Function (Access custom web app)</span></span>
 
-<span data-ttu-id="ad905-104">Возвращает псевдослучайное число от 0 до 1.</span><span class="sxs-lookup"><span data-stu-id="ad905-104">Returns a pseudo-random number between 0 and 1.</span></span>
+<span data-ttu-id="4f1b6-104">Возвращает псевдослучайное число от 0 до 1.</span><span class="sxs-lookup"><span data-stu-id="4f1b6-104">Returns a pseudo-random number between 0 and 1.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="ad905-105">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="ad905-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="ad905-106">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="ad905-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="4f1b6-105">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="4f1b6-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="4f1b6-106">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="4f1b6-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="ad905-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ad905-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4f1b6-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4f1b6-107">Syntax</span></span>
 
- <span data-ttu-id="ad905-108">**Рэнд** ([ *Начального значения* ])</span><span class="sxs-lookup"><span data-stu-id="ad905-108">**Rand** ( [  *Seed*  ])</span></span> 
+ <span data-ttu-id="4f1b6-108">**Рэнд** ([ *Начального значения* ])</span><span class="sxs-lookup"><span data-stu-id="4f1b6-108">**Rand** ( [  *Seed*  ])</span></span> 
   
-<span data-ttu-id="ad905-109">Функция **рэнд** содержит следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="ad905-109">The **Rand** function contains the following argument.</span></span> 
+<span data-ttu-id="4f1b6-109">Функция **рэнд** содержит следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="4f1b6-109">The **Rand** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="ad905-110">**Имя аргумента**</span><span class="sxs-lookup"><span data-stu-id="ad905-110">**Argument name**</span></span>|<span data-ttu-id="ad905-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ad905-111">**Description**</span></span>|
+|<span data-ttu-id="4f1b6-110">**Имя аргумента**</span><span class="sxs-lookup"><span data-stu-id="4f1b6-110">**Argument name**</span></span>|<span data-ttu-id="4f1b6-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="4f1b6-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="ad905-112">*Seed*</span><span class="sxs-lookup"><span data-stu-id="ad905-112">*Seed*</span></span>  <br/> |<span data-ttu-id="ad905-113">Целочисленное выражение, которое задает начальное значение.</span><span class="sxs-lookup"><span data-stu-id="ad905-113">An integer expression that gives the seed value.</span></span> <span data-ttu-id="ad905-114">Если *Начальное* значение не указано, начальное значение назначается в произвольном порядке.</span><span class="sxs-lookup"><span data-stu-id="ad905-114">If  *Seed*  is not specified, a seed value is assigned at random.</span></span>  <br/> |
+| <span data-ttu-id="4f1b6-112">*Seed*</span><span class="sxs-lookup"><span data-stu-id="4f1b6-112">*Seed*</span></span>  <br/> |<span data-ttu-id="4f1b6-113">Целочисленное выражение, которое задает начальное значение.</span><span class="sxs-lookup"><span data-stu-id="4f1b6-113">An integer expression that gives the seed value.</span></span> <span data-ttu-id="4f1b6-114">Если *Начальное* значение не указано, начальное значение назначается в произвольном порядке.</span><span class="sxs-lookup"><span data-stu-id="4f1b6-114">If  *Seed*  is not specified, a seed value is assigned at random.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ad905-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="ad905-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4f1b6-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="4f1b6-115">Remarks</span></span>
 
-<span data-ttu-id="ad905-116">Повторные вызовы функции **рэнд** с того же начального значения возвращает одинаковые результаты.</span><span class="sxs-lookup"><span data-stu-id="ad905-116">Repetitive calls of the **Rand** function with the same seed return the same results.</span></span> 
+<span data-ttu-id="4f1b6-116">Повторные вызовы функции **рэнд** с того же начального значения возвращает одинаковые результаты.</span><span class="sxs-lookup"><span data-stu-id="4f1b6-116">Repetitive calls of the **Rand** function with the same seed return the same results.</span></span> 
   
 

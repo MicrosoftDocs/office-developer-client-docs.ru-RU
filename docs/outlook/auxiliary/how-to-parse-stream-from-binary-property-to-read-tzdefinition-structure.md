@@ -1,5 +1,5 @@
 ---
-title: Синтаксический анализ потока из двоичного свойства для чтения TZDEFINITION структуры
+title: Анализ потока из двоичного свойства для считывания структуры TZDEFINITION
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807699"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a><span data-ttu-id="84ab9-103">Синтаксический анализ потока из двоичного свойства для чтения TZDEFINITION структуры</span><span class="sxs-lookup"><span data-stu-id="84ab9-103">Parse a stream from a binary property to read the TZDEFINITION structure</span></span>
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a><span data-ttu-id="d7df2-103">Анализ потока из двоичного свойства для считывания структуры TZDEFINITION</span><span class="sxs-lookup"><span data-stu-id="d7df2-103">Parse a stream from a binary property to read the TZDEFINITION structure</span></span>
 
-<span data-ttu-id="84ab9-104">В этом разделе показано, как читать структура [TZDEFINITION](tzdefinition.md) из сохраненного формата, хранящиеся в двоичного свойства.</span><span class="sxs-lookup"><span data-stu-id="84ab9-104">This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property.</span></span> 
+<span data-ttu-id="d7df2-104">В этом разделе показано, как читать структура [TZDEFINITION](tzdefinition.md) из сохраненного формата, хранящиеся в двоичного свойства.</span><span class="sxs-lookup"><span data-stu-id="d7df2-104">This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property.</span></span> 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 
@@ -83,8 +83,8 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="84ab9-105">См. также</span><span class="sxs-lookup"><span data-stu-id="84ab9-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d7df2-105">См. также</span><span class="sxs-lookup"><span data-stu-id="d7df2-105">See also</span></span>
 
-- [<span data-ttu-id="84ab9-106">About persisting TZDEFINITION to a stream to commit to a binary property</span><span class="sxs-lookup"><span data-stu-id="84ab9-106">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
-- [<span data-ttu-id="84ab9-107">Чтение свойств часового пояса из встречи</span><span class="sxs-lookup"><span data-stu-id="84ab9-107">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
+- [<span data-ttu-id="d7df2-106">About persisting TZDEFINITION to a stream to commit to a binary property</span><span class="sxs-lookup"><span data-stu-id="d7df2-106">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [<span data-ttu-id="d7df2-107">Считывание свойств часового пояса встречи</span><span class="sxs-lookup"><span data-stu-id="d7df2-107">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
 

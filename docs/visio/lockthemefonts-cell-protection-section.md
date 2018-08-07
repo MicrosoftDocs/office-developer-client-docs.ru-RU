@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockThemeFonts (раздел Защита)
+title: Ячейка LockThemeFonts (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,29 +14,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814176"
 ---
-# <a name="lockthemefonts-cell-protection-section"></a><span data-ttu-id="0f89d-104">Ячейка LockThemeFonts (раздел Защита)</span><span class="sxs-lookup"><span data-stu-id="0f89d-104">LockThemeFonts Cell (Protection Section)</span></span>
+# <a name="lockthemefonts-cell-protection-section"></a><span data-ttu-id="6c6fb-104">Ячейка LockThemeFonts (раздел "Защита")</span><span class="sxs-lookup"><span data-stu-id="6c6fb-104">LockThemeFonts Cell (Protection Section)</span></span>
 
-<span data-ttu-id="0f89d-105">Запрещает **FontIndex** ячейку в строке **Темы свойств** изменяются, применение новой темы.</span><span class="sxs-lookup"><span data-stu-id="0f89d-105">Prevents the **FontIndex** cell in the **Theme Properties** row from being altered by applying a new theme.</span></span> <span data-ttu-id="0f89d-106">Запрещает пользователям изменять это значение в таблице свойств фигуры вручную.</span><span class="sxs-lookup"><span data-stu-id="0f89d-106">Does not prevent users from manually editing this value in the ShapeSheet.</span></span> 
+<span data-ttu-id="6c6fb-105">Запрещает **FontIndex** ячейку в строке **Темы свойств** изменяются, применение новой темы.</span><span class="sxs-lookup"><span data-stu-id="6c6fb-105">Prevents the **FontIndex** cell in the **Theme Properties** row from being altered by applying a new theme.</span></span> <span data-ttu-id="6c6fb-106">Запрещает пользователям изменять это значение в таблице свойств фигуры вручную.</span><span class="sxs-lookup"><span data-stu-id="6c6fb-106">Does not prevent users from manually editing this value in the ShapeSheet.</span></span> 
   
-|<span data-ttu-id="0f89d-107">**Значение**</span><span class="sxs-lookup"><span data-stu-id="0f89d-107">**Value**</span></span>|<span data-ttu-id="0f89d-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0f89d-108">**Description**</span></span>|
+|<span data-ttu-id="6c6fb-107">**Значение**</span><span class="sxs-lookup"><span data-stu-id="6c6fb-107">**Value**</span></span>|<span data-ttu-id="6c6fb-108">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6c6fb-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0f89d-109">TRUE</span><span class="sxs-lookup"><span data-stu-id="0f89d-109">TRUE</span></span>  <br/> |<span data-ttu-id="0f89d-110">Ячейка **FontIndex** может быть изменен с текущим значением только напрямую изменить в таблице свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="0f89d-110">The **FontIndex** cell cannot be changed from its current value unless changed in the ShapeSheet directly.</span></span>  <br/> |
-|<span data-ttu-id="0f89d-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="0f89d-111">FALSE</span></span>  <br/> |<span data-ttu-id="0f89d-112">Ячейка **FontIndex** могут изменяться с текущим значением при изменении темы.</span><span class="sxs-lookup"><span data-stu-id="0f89d-112">The **FontIndex** cell can be changed from its current value when the theme is changed.</span></span>  <br/> |
+|<span data-ttu-id="6c6fb-109">TRUE</span><span class="sxs-lookup"><span data-stu-id="6c6fb-109">TRUE</span></span>  <br/> |<span data-ttu-id="6c6fb-110">Ячейка **FontIndex** может быть изменен с текущим значением только напрямую изменить в таблице свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="6c6fb-110">The **FontIndex** cell cannot be changed from its current value unless changed in the ShapeSheet directly.</span></span>  <br/> |
+|<span data-ttu-id="6c6fb-111">FALSE</span><span class="sxs-lookup"><span data-stu-id="6c6fb-111">FALSE</span></span>  <br/> |<span data-ttu-id="6c6fb-112">Ячейка **FontIndex** могут изменяться с текущим значением при изменении темы.</span><span class="sxs-lookup"><span data-stu-id="6c6fb-112">The **FontIndex** cell can be changed from its current value when the theme is changed.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="0f89d-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="0f89d-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6c6fb-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="6c6fb-113">Remarks</span></span>
 
-<span data-ttu-id="0f89d-114">Для получения ссылки на ячейки **LockThemeFonts** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="0f89d-114">To get a reference to the **LockThemeFonts** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="6c6fb-114">Для получения ссылки на ячейки **LockThemeFonts** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="6c6fb-114">To get a reference to the **LockThemeFonts** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0f89d-115">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="0f89d-115">Cell name:</span></span>  <br/> | <span data-ttu-id="0f89d-116">LockThemeFonts</span><span class="sxs-lookup"><span data-stu-id="0f89d-116">LockThemeFonts</span></span>  <br/> |
+| <span data-ttu-id="6c6fb-115">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="6c6fb-115">Cell name:</span></span>  <br/> | <span data-ttu-id="6c6fb-116">LockThemeFonts</span><span class="sxs-lookup"><span data-stu-id="6c6fb-116">LockThemeFonts</span></span>  <br/> |
    
-<span data-ttu-id="0f89d-117">Для получения ссылки на ячейки **LockThemeFonts** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="0f89d-117">To get a reference to the **LockThemeFonts** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="6c6fb-117">Для получения ссылки на ячейки **LockThemeFonts** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="6c6fb-117">To get a reference to the **LockThemeFonts** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0f89d-118">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="0f89d-118">Section index:</span></span>  <br/> |<span data-ttu-id="0f89d-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="0f89d-119">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="0f89d-120">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="0f89d-120">Row index:</span></span>  <br/> |<span data-ttu-id="0f89d-121">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="0f89d-121">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="0f89d-122">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="0f89d-122">Cell index:</span></span>  <br/> |<span data-ttu-id="0f89d-123">**visLockThemeFonts**</span><span class="sxs-lookup"><span data-stu-id="0f89d-123">**visLockThemeFonts**</span></span> <br/> |
+| <span data-ttu-id="6c6fb-118">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="6c6fb-118">Section index:</span></span>  <br/> |<span data-ttu-id="6c6fb-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="6c6fb-119">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="6c6fb-120">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="6c6fb-120">Row index:</span></span>  <br/> |<span data-ttu-id="6c6fb-121">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="6c6fb-121">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="6c6fb-122">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="6c6fb-122">Cell index:</span></span>  <br/> |<span data-ttu-id="6c6fb-123">**visLockThemeFonts**</span><span class="sxs-lookup"><span data-stu-id="6c6fb-123">**visLockThemeFonts**</span></span> <br/> |
    
 

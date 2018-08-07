@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19807693"
 ---
-# <a name="fbstatus"></a><span data-ttu-id="1cb6a-103">FBStatus</span><span class="sxs-lookup"><span data-stu-id="1cb6a-103">FBStatus</span></span>
+# <a name="fbstatus"></a><span data-ttu-id="25148-103">FBStatus</span><span class="sxs-lookup"><span data-stu-id="25148-103">FBStatus</span></span>
 
-<span data-ttu-id="1cb6a-104">Перечисление для состояния занятости блоки сведениям о доступности.</span><span class="sxs-lookup"><span data-stu-id="1cb6a-104">An enumeration for the free/busy status of free/busy blocks.</span></span>
+<span data-ttu-id="25148-104">Перечисление для состояния занятости блоки сведениям о доступности.</span><span class="sxs-lookup"><span data-stu-id="25148-104">An enumeration for the free/busy status of free/busy blocks.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="1cb6a-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="1cb6a-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="25148-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="25148-105">Quick info</span></span>
 
 ```cpp
 enum  
@@ -31,12 +31,12 @@ enum
 
 ```
 
-## <a name="remarks"></a><span data-ttu-id="1cb6a-106">Замечания</span><span class="sxs-lookup"><span data-stu-id="1cb6a-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="25148-106">Замечания</span><span class="sxs-lookup"><span data-stu-id="25148-106">Remarks</span></span>
 
-<span data-ttu-id="1cb6a-107">Определяет способ отображения в календаре состояния занятости интервала времени: **Свободен**, **занят**, **под вопросом**или **Нет на работе**.</span><span class="sxs-lookup"><span data-stu-id="1cb6a-107">The free/busy status of a block of time determines how it is displayed on a calendar: **Free**, **Busy**, **Tentative**, or **Out of Office**.</span></span> 
+<span data-ttu-id="25148-107">Определяет способ отображения в календаре состояния занятости интервала времени: **Свободен**, **занят**, **под вопросом**или **Нет на работе**.</span><span class="sxs-lookup"><span data-stu-id="25148-107">The free/busy status of a block of time determines how it is displayed on a calendar: **Free**, **Busy**, **Tentative**, or **Out of Office**.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="1cb6a-108">См. также</span><span class="sxs-lookup"><span data-stu-id="1cb6a-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="25148-108">См. также</span><span class="sxs-lookup"><span data-stu-id="25148-108">See also</span></span>
 
-- [<span data-ttu-id="1cb6a-109">FBBlock_1</span><span class="sxs-lookup"><span data-stu-id="1cb6a-109">FBBlock_1</span></span>](fbblock_1.md)
-- [<span data-ttu-id="1cb6a-110">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="1cb6a-110">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)
+- [<span data-ttu-id="25148-109">FBBlock_1</span><span class="sxs-lookup"><span data-stu-id="25148-109">FBBlock_1</span></span>](fbblock_1.md)
+- [<span data-ttu-id="25148-110">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="25148-110">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)
 

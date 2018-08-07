@@ -13,49 +13,49 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19806932"
 ---
-# <a name="math-functions-access-custom-web-app"></a><span data-ttu-id="5dc8d-102">Математические функции (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-102">Math functions (Access custom web app)</span></span>
+# <a name="math-functions-access-custom-web-app"></a><span data-ttu-id="25b60-102">Математические функции (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-102">Math functions (Access custom web app)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="5dc8d-103">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="5dc8d-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="25b60-103">В этой статье</span><span class="sxs-lookup"><span data-stu-id="25b60-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="5dc8d-104">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="5dc8d-104">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="5dc8d-105">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="5dc8d-105">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="25b60-104">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="25b60-104">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="25b60-105">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="25b60-105">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-- [<span data-ttu-id="5dc8d-106">Функция ABS (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-106">Abs Function (Access custom web app)</span></span>](abs-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-106">Функция ABS (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-106">Abs Function (Access custom web app)</span></span>](abs-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-107">Функция AVG (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-107">Avg Function (Access custom web app)</span></span>](avg-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-107">Функция AVG (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-107">Avg Function (Access custom web app)</span></span>](avg-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-108">Функция потолок (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-108">Ceiling Function (Access custom web app)</span></span>](ceiling-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-108">Функция потолок (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-108">Ceiling Function (Access custom web app)</span></span>](ceiling-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-109">Функция Count (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-109">Count Function (Access custom web app)</span></span>](count-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-109">Функция Count (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-109">Count Function (Access custom web app)</span></span>](count-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-110">Функция EXP (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-110">Exp Function (Access custom web app)</span></span>](exp-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-110">Функция EXP (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-110">Exp Function (Access custom web app)</span></span>](exp-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-111">Функция целого числа (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-111">Floor Function (Access custom web app)</span></span>](floor-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-111">Функция целого числа (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-111">Floor Function (Access custom web app)</span></span>](floor-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-112">Функция Log10 (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-112">Log10 Function (Access custom web app)</span></span>](log10-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-112">Функция Log10 (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-112">Log10 Function (Access custom web app)</span></span>](log10-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-113">Функция log (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-113">Log Function (Access custom web app)</span></span>](log-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-113">Функция log (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-113">Log Function (Access custom web app)</span></span>](log-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-114">Функция МАКС (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-114">Max Function (Access custom web app)</span></span>](max-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-114">Функция МАКС (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-114">Max Function (Access custom web app)</span></span>](max-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-115">Функция мин (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-115">Min Function (Access custom web app)</span></span>](min-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-115">Функция мин (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-115">Min Function (Access custom web app)</span></span>](min-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-116">Функция ПИ (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-116">Pi Function (Access custom web app)</span></span>](pi-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-116">Функция ПИ (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-116">Pi Function (Access custom web app)</span></span>](pi-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-117">Функции Power (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-117">Power Function (Access custom web app)</span></span>](power-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-117">Функции Power (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-117">Power Function (Access custom web app)</span></span>](power-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-118">Функция рэнд (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-118">Rand Function (Access custom web app)</span></span>](rand-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-118">Функция рэнд (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-118">Rand Function (Access custom web app)</span></span>](rand-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-119">Функция Round (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-119">Round Function (Access custom web app)</span></span>](round-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-119">Функция Round (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-119">Round Function (Access custom web app)</span></span>](round-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-120">Функция знак (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-120">Sign Function (Access custom web app)</span></span>](sign-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-120">Функция знак (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-120">Sign Function (Access custom web app)</span></span>](sign-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-121">Функция StDev (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-121">StDev Function (Access custom web app)</span></span>](stdev-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-121">Функция StDev (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-121">StDev Function (Access custom web app)</span></span>](stdev-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-122">Функция корень (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-122">Sqrt Function (Access custom web app)</span></span>](sqrt-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-122">Функция корень (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-122">Sqrt Function (Access custom web app)</span></span>](sqrt-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="5dc8d-123">Функция СУММ (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-123">Sum Function (Access custom web app)</span></span>](sum-function-access-custom-web-app.md)
+- [<span data-ttu-id="25b60-123">Функция СУММ (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-123">Sum Function (Access custom web app)</span></span>](sum-function-access-custom-web-app.md)
     
-    [<span data-ttu-id="5dc8d-124">Функция var (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="5dc8d-124">Var Function (Access custom web app)</span></span>](var-function-access-custom-web-app.md)
+    [<span data-ttu-id="25b60-124">Функция var (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="25b60-124">Var Function (Access custom web app)</span></span>](var-function-access-custom-web-app.md)
     
 

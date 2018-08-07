@@ -1,5 +1,5 @@
 ---
-title: Синтаксический анализ потока из двоичного свойства для чтения TZREG структуры
+title: Анализ потока из двоичного свойства для считывания структуры TZREG
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807697"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a><span data-ttu-id="a4a22-103">Синтаксический анализ потока из двоичного свойства для чтения TZREG структуры</span><span class="sxs-lookup"><span data-stu-id="a4a22-103">Parse a stream from a binary property to read the TZREG structure</span></span>
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a><span data-ttu-id="ecc2f-103">Анализ потока из двоичного свойства для считывания структуры TZREG</span><span class="sxs-lookup"><span data-stu-id="ecc2f-103">Parse a stream from a binary property to read the TZREG structure</span></span>
 
-<span data-ttu-id="a4a22-104">В этом разделе показано, как читать структура [TZREG](tzreg.md) из сохраненного формата, хранящиеся в двоичного свойства [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="a4a22-104">This topic shows how to read the [TZREG](tzreg.md) structure from the persisted format stored in the binary property [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="ecc2f-104">В этом разделе показано, как читать структура [TZREG](tzreg.md) из сохраненного формата, хранящиеся в двоичного свойства [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="ecc2f-104">This topic shows how to read the [TZREG](tzreg.md) structure from the persisted format stored in the binary property [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span></span>
   
 ```cpp
 TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)  
@@ -55,7 +55,7 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="a4a22-105">См. также</span><span class="sxs-lookup"><span data-stu-id="a4a22-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ecc2f-105">См. также</span><span class="sxs-lookup"><span data-stu-id="ecc2f-105">See also</span></span>
 
-- [<span data-ttu-id="a4a22-106">Чтение свойств часового пояса из встречи</span><span class="sxs-lookup"><span data-stu-id="a4a22-106">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
+- [<span data-ttu-id="ecc2f-106">Считывание свойств часового пояса встречи</span><span class="sxs-lookup"><span data-stu-id="ecc2f-106">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
 

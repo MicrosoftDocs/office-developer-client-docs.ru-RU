@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807853"
 ---
-# <a name="iolkaccountmanagergetorder"></a><span data-ttu-id="86b73-103">IOlkAccountManager::GetOrder</span><span class="sxs-lookup"><span data-stu-id="86b73-103">IOlkAccountManager::GetOrder</span></span>
+# <a name="iolkaccountmanagergetorder"></a><span data-ttu-id="c90ea-103">IOlkAccountManager::GetOrder</span><span class="sxs-lookup"><span data-stu-id="c90ea-103">IOlkAccountManager::GetOrder</span></span>
 
-<span data-ttu-id="86b73-104">Получает порядок использования учетных записей в указанной категории.</span><span class="sxs-lookup"><span data-stu-id="86b73-104">Gets the ordering of the specified category of accounts.</span></span>
+<span data-ttu-id="c90ea-104">Получает порядок использования учетных записей в указанной категории.</span><span class="sxs-lookup"><span data-stu-id="c90ea-104">Gets the ordering of the specified category of accounts.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="86b73-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="86b73-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="c90ea-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="c90ea-105">Quick info</span></span>
 
-<span data-ttu-id="86b73-106">Просмотреть [IOlkAccountManager](iolkaccountmanager.md)</span><span class="sxs-lookup"><span data-stu-id="86b73-106">See [IOlkAccountManager](iolkaccountmanager.md)</span></span>
+<span data-ttu-id="c90ea-106">Просмотреть [IOlkAccountManager](iolkaccountmanager.md)</span><span class="sxs-lookup"><span data-stu-id="c90ea-106">See [IOlkAccountManager](iolkaccountmanager.md)</span></span>
   
 ```cpp
 HRESULT IOlkAccountManager::GetOrder (  
@@ -30,40 +30,40 @@ HRESULT IOlkAccountManager::GetOrder (
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="86b73-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="86b73-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c90ea-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="c90ea-107">Parameters</span></span>
 
-<span data-ttu-id="86b73-108">_pclsidCategory_</span><span class="sxs-lookup"><span data-stu-id="86b73-108">_pclsidCategory_</span></span>
+<span data-ttu-id="c90ea-108">_pclsidCategory_</span><span class="sxs-lookup"><span data-stu-id="c90ea-108">_pclsidCategory_</span></span>
   
-> <span data-ttu-id="86b73-109">[in] Идентификатор класса категории, для которого необходимо получить порядке.</span><span class="sxs-lookup"><span data-stu-id="86b73-109">[in] The category class ID for which to get the order.</span></span> <span data-ttu-id="86b73-110">The value must be one of the following:</span><span class="sxs-lookup"><span data-stu-id="86b73-110">The value must be one of the following:</span></span>
+> <span data-ttu-id="c90ea-109">[in] Идентификатор класса категории, для которого необходимо получить порядке.</span><span class="sxs-lookup"><span data-stu-id="c90ea-109">[in] The category class ID for which to get the order.</span></span> <span data-ttu-id="c90ea-110">The value must be one of the following:</span><span class="sxs-lookup"><span data-stu-id="c90ea-110">The value must be one of the following:</span></span>
     
-   - <span data-ttu-id="86b73-111">CLSID_OlkMail</span><span class="sxs-lookup"><span data-stu-id="86b73-111">CLSID_OlkMail</span></span>
+   - <span data-ttu-id="c90ea-111">CLSID_OlkMail</span><span class="sxs-lookup"><span data-stu-id="c90ea-111">CLSID_OlkMail</span></span>
     
-   - <span data-ttu-id="86b73-112">CLSID_OlkAddressBook</span><span class="sxs-lookup"><span data-stu-id="86b73-112">CLSID_OlkAddressBook</span></span>
+   - <span data-ttu-id="c90ea-112">CLSID_OlkAddressBook</span><span class="sxs-lookup"><span data-stu-id="c90ea-112">CLSID_OlkAddressBook</span></span>
     
-   - <span data-ttu-id="86b73-113">CLSID_OlkStore</span><span class="sxs-lookup"><span data-stu-id="86b73-113">CLSID_OlkStore</span></span>
+   - <span data-ttu-id="c90ea-113">CLSID_OlkStore</span><span class="sxs-lookup"><span data-stu-id="c90ea-113">CLSID_OlkStore</span></span>
     
-<span data-ttu-id="86b73-114">_pcAccts_</span><span class="sxs-lookup"><span data-stu-id="86b73-114">_pcAccts_</span></span>
+<span data-ttu-id="c90ea-114">_pcAccts_</span><span class="sxs-lookup"><span data-stu-id="c90ea-114">_pcAccts_</span></span>
   
->  <span data-ttu-id="86b73-115">[out] Число учетных записей.</span><span class="sxs-lookup"><span data-stu-id="86b73-115">[out] The number of accounts.</span></span> 
+>  <span data-ttu-id="c90ea-115">[out] Число учетных записей.</span><span class="sxs-lookup"><span data-stu-id="c90ea-115">[out] The number of accounts.</span></span> 
     
-<span data-ttu-id="86b73-116">_prgAccts_</span><span class="sxs-lookup"><span data-stu-id="86b73-116">_prgAccts_</span></span>
+<span data-ttu-id="c90ea-116">_prgAccts_</span><span class="sxs-lookup"><span data-stu-id="c90ea-116">_prgAccts_</span></span>
   
-> <span data-ttu-id="86b73-117">[out] Указатель на массив учетных записей.</span><span class="sxs-lookup"><span data-stu-id="86b73-117">[out] A pointer to an array of accounts.</span></span>
+> <span data-ttu-id="c90ea-117">[out] Указатель на массив учетных записей.</span><span class="sxs-lookup"><span data-stu-id="c90ea-117">[out] A pointer to an array of accounts.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="86b73-118">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="86b73-118">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="c90ea-118">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="c90ea-118">Return values</span></span>
 
-|<span data-ttu-id="86b73-119">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="86b73-119">**HRESULT**</span></span>|<span data-ttu-id="86b73-120">**Description**</span><span class="sxs-lookup"><span data-stu-id="86b73-120">**Description**</span></span>|
+|<span data-ttu-id="c90ea-119">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="c90ea-119">**HRESULT**</span></span>|<span data-ttu-id="c90ea-120">**Description**</span><span class="sxs-lookup"><span data-stu-id="c90ea-120">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="86b73-121">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="86b73-121">S_OK</span></span>  <br/> |<span data-ttu-id="86b73-122">Вызов успешно завершен</span><span class="sxs-lookup"><span data-stu-id="86b73-122">The call succeeded</span></span>  <br/> |
-|<span data-ttu-id="86b73-123">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="86b73-123">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="86b73-124">Один или несколько аргументов являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="86b73-124">One or more arguments are invalid.</span></span>  <br/> |
-|<span data-ttu-id="86b73-125">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="86b73-125">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="86b73-126">The account manager has not been initialized for use.</span><span class="sxs-lookup"><span data-stu-id="86b73-126">The account manager has not been initialized for use.</span></span>  <br/> |
+|<span data-ttu-id="c90ea-121">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c90ea-121">S_OK</span></span>  <br/> |<span data-ttu-id="c90ea-122">Вызов успешно завершен</span><span class="sxs-lookup"><span data-stu-id="c90ea-122">The call succeeded</span></span>  <br/> |
+|<span data-ttu-id="c90ea-123">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="c90ea-123">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="c90ea-124">Один или несколько аргументов являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="c90ea-124">One or more arguments are invalid.</span></span>  <br/> |
+|<span data-ttu-id="c90ea-125">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="c90ea-125">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="c90ea-126">The account manager has not been initialized for use.</span><span class="sxs-lookup"><span data-stu-id="c90ea-126">The account manager has not been initialized for use.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="86b73-127">Remarks</span><span class="sxs-lookup"><span data-stu-id="86b73-127">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c90ea-127">Remarks</span><span class="sxs-lookup"><span data-stu-id="c90ea-127">Remarks</span></span>
 
-<span data-ttu-id="86b73-128">Прежде чем вызывать этот метод, вызывающего выделяет только массива указатель *prgAccts* , но не памяти для массива, на который указывает *prgAccts* .</span><span class="sxs-lookup"><span data-stu-id="86b73-128">Before calling this method, the caller allocates only an array pointer  *prgAccts*  but no memory for the array at which  *prgAccts*  points.</span></span> <span data-ttu-id="86b73-129">После этот метод возвращает, вызывающего необходимо использовать [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) для освобождения памяти, выделенной для *prgAccts* .</span><span class="sxs-lookup"><span data-stu-id="86b73-129">After this method returns, the caller must use [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) to release the memory allocated for  *prgAccts*  .</span></span> 
+<span data-ttu-id="c90ea-128">Прежде чем вызывать этот метод, вызывающего выделяет только массива указатель *prgAccts* , но не памяти для массива, на который указывает *prgAccts* .</span><span class="sxs-lookup"><span data-stu-id="c90ea-128">Before calling this method, the caller allocates only an array pointer  *prgAccts*  but no memory for the array at which  *prgAccts*  points.</span></span> <span data-ttu-id="c90ea-129">После этот метод возвращает, вызывающего необходимо использовать [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) для освобождения памяти, выделенной для *prgAccts* .</span><span class="sxs-lookup"><span data-stu-id="c90ea-129">After this method returns, the caller must use [IOlkAccountManager::FreeMemory](iolkaccountmanager-freememory.md) to release the memory allocated for  *prgAccts*  .</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="86b73-130">См. также</span><span class="sxs-lookup"><span data-stu-id="86b73-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c90ea-130">См. также</span><span class="sxs-lookup"><span data-stu-id="c90ea-130">See also</span></span>
 
-- [<span data-ttu-id="86b73-131">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="86b73-131">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="86b73-132">IOlkAccountManager::SetOrder</span><span class="sxs-lookup"><span data-stu-id="86b73-132">IOlkAccountManager::SetOrder</span></span>](iolkaccountmanager-setorder.md)
+- [<span data-ttu-id="c90ea-131">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="c90ea-131">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="c90ea-132">IOlkAccountManager::SetOrder</span><span class="sxs-lookup"><span data-stu-id="c90ea-132">IOlkAccountManager::SetOrder</span></span>](iolkaccountmanager-setorder.md)
 

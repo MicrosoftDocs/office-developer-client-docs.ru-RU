@@ -1,5 +1,5 @@
 ---
-title: Функция ТЕМЫ
+title: Функция THEME
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815009"
 ---
-# <a name="theme-function"></a><span data-ttu-id="6a2b1-103">Функция ТЕМЫ</span><span class="sxs-lookup"><span data-stu-id="6a2b1-103">THEME Function</span></span>
+# <a name="theme-function"></a><span data-ttu-id="3b2e2-103">Функция THEME</span><span class="sxs-lookup"><span data-stu-id="3b2e2-103">THEME Function</span></span>
 
-<span data-ttu-id="6a2b1-104">Получает параметры формата текущей темы.</span><span class="sxs-lookup"><span data-stu-id="6a2b1-104">Gets the current theme's format settings.</span></span>
+<span data-ttu-id="3b2e2-104">Получает параметры формата текущей темы.</span><span class="sxs-lookup"><span data-stu-id="3b2e2-104">Gets the current theme's format settings.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="6a2b1-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6a2b1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3b2e2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3b2e2-105">Syntax</span></span>
 
-<span data-ttu-id="6a2b1-106">THEME()</span><span class="sxs-lookup"><span data-stu-id="6a2b1-106">THEME()</span></span>
+<span data-ttu-id="3b2e2-106">THEME()</span><span class="sxs-lookup"><span data-stu-id="3b2e2-106">THEME()</span></span>
   
-## <a name="example"></a><span data-ttu-id="6a2b1-107">Пример</span><span class="sxs-lookup"><span data-stu-id="6a2b1-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3b2e2-107">Пример</span><span class="sxs-lookup"><span data-stu-id="3b2e2-107">Example</span></span>
 
 ```vb
 Shape.FillForegnd = THEME("FillColor")
 ```
 
-<span data-ttu-id="6a2b1-108">Назначает текущей темы цвета заливки фигуры.</span><span class="sxs-lookup"><span data-stu-id="6a2b1-108">Assigns the fill color of the current theme to the shape.</span></span>
+<span data-ttu-id="3b2e2-108">Назначает текущей темы цвета заливки фигуры.</span><span class="sxs-lookup"><span data-stu-id="3b2e2-108">Assigns the fill color of the current theme to the shape.</span></span>
   
 

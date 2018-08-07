@@ -14,27 +14,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807938"
 ---
-# <a name="propacctname"></a><span data-ttu-id="51845-103">PROP_ACCT_NAME</span><span class="sxs-lookup"><span data-stu-id="51845-103">PROP_ACCT_NAME</span></span>
+# <a name="propacctname"></a><span data-ttu-id="c780c-103">PROP_ACCT_NAME</span><span class="sxs-lookup"><span data-stu-id="c780c-103">PROP_ACCT_NAME</span></span>
 
-<span data-ttu-id="51845-104">Возвращает или задает имя учетной записи.</span><span class="sxs-lookup"><span data-stu-id="51845-104">Returns or sets the account name.</span></span>
+<span data-ttu-id="c780c-104">Возвращает или задает имя учетной записи.</span><span class="sxs-lookup"><span data-stu-id="c780c-104">Returns or sets the account name.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="51845-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="51845-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="c780c-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="c780c-105">Quick info</span></span>
 
-<span data-ttu-id="51845-106">В разделе [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="51845-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="c780c-106">В разделе [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="c780c-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="51845-107">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="51845-107">Identifier:</span></span>  <br/> |<span data-ttu-id="51845-108">0x0002</span><span class="sxs-lookup"><span data-stu-id="51845-108">0x0002</span></span>  <br/> |
-|<span data-ttu-id="51845-109">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="51845-109">Property type:</span></span>  <br/> |<span data-ttu-id="51845-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="51845-110">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="51845-111">Свойство tag:</span><span class="sxs-lookup"><span data-stu-id="51845-111">Property tag:</span></span>  <br/> |<span data-ttu-id="51845-112">0x0002001F</span><span class="sxs-lookup"><span data-stu-id="51845-112">0x0002001F</span></span>  <br/> |
-|<span data-ttu-id="51845-113">Access:</span><span class="sxs-lookup"><span data-stu-id="51845-113">Access:</span></span>  <br/> |<span data-ttu-id="51845-114">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="51845-114">Read/write</span></span>  <br/> |
+|<span data-ttu-id="c780c-107">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="c780c-107">Identifier:</span></span>  <br/> |<span data-ttu-id="c780c-108">0x0002</span><span class="sxs-lookup"><span data-stu-id="c780c-108">0x0002</span></span>  <br/> |
+|<span data-ttu-id="c780c-109">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="c780c-109">Property type:</span></span>  <br/> |<span data-ttu-id="c780c-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c780c-110">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="c780c-111">Свойство tag:</span><span class="sxs-lookup"><span data-stu-id="c780c-111">Property tag:</span></span>  <br/> |<span data-ttu-id="c780c-112">0x0002001F</span><span class="sxs-lookup"><span data-stu-id="c780c-112">0x0002001F</span></span>  <br/> |
+|<span data-ttu-id="c780c-113">Access:</span><span class="sxs-lookup"><span data-stu-id="c780c-113">Access:</span></span>  <br/> |<span data-ttu-id="c780c-114">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="c780c-114">Read/write</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="51845-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="51845-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c780c-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="c780c-115">Remarks</span></span>
 
-<span data-ttu-id="51845-116">Получение или задание этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md) или [IOlkAccount::SetProp](iolkaccount-setprop.md)соответственно.</span><span class="sxs-lookup"><span data-stu-id="51845-116">Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.</span></span>
+<span data-ttu-id="c780c-116">Получение или задание этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md) или [IOlkAccount::SetProp](iolkaccount-setprop.md)соответственно.</span><span class="sxs-lookup"><span data-stu-id="c780c-116">Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="51845-117">См. также</span><span class="sxs-lookup"><span data-stu-id="51845-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c780c-117">См. также</span><span class="sxs-lookup"><span data-stu-id="c780c-117">See also</span></span>
 
-- [<span data-ttu-id="51845-118">About the Account Management API</span><span class="sxs-lookup"><span data-stu-id="51845-118">About the Account Management API</span></span>](about-the-account-management-api.md) 
-- [<span data-ttu-id="51845-119">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="51845-119">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="c780c-118">About the Account Management API</span><span class="sxs-lookup"><span data-stu-id="c780c-118">About the Account Management API</span></span>](about-the-account-management-api.md) 
+- [<span data-ttu-id="c780c-119">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="c780c-119">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

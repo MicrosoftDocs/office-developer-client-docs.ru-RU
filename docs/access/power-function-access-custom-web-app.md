@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807096"
 ---
-# <a name="power-function-access-custom-web-app"></a><span data-ttu-id="d51fc-103">Функции Power (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="d51fc-103">Power Function (Access custom web app)</span></span>
+# <a name="power-function-access-custom-web-app"></a><span data-ttu-id="152b4-103">Функции Power (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="152b4-103">Power Function (Access custom web app)</span></span>
 
-<span data-ttu-id="d51fc-104">Возвращает значение указанного выражения в указанную степень.</span><span class="sxs-lookup"><span data-stu-id="d51fc-104">Returns the value of the specified expression to the specified power.</span></span>
+<span data-ttu-id="152b4-104">Возвращает значение указанного выражения в указанную степень.</span><span class="sxs-lookup"><span data-stu-id="152b4-104">Returns the value of the specified expression to the specified power.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="d51fc-105">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="d51fc-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="d51fc-106">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="d51fc-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="152b4-105">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="152b4-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="152b4-106">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="152b4-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="d51fc-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d51fc-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="152b4-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="152b4-107">Syntax</span></span>
 
- <span data-ttu-id="d51fc-108">**Power** (*NumericExpression*, *Power*)</span><span class="sxs-lookup"><span data-stu-id="d51fc-108">**Power** (*NumericExpression*, *Power*)</span></span> 
+ <span data-ttu-id="152b4-108">**Power** (*NumericExpression*, *Power*)</span><span class="sxs-lookup"><span data-stu-id="152b4-108">**Power** (*NumericExpression*, *Power*)</span></span> 
   
-<span data-ttu-id="d51fc-109">Функция **Power** содержит следующие аргументы.</span><span class="sxs-lookup"><span data-stu-id="d51fc-109">The **Power** function contains the following arguments.</span></span> 
+<span data-ttu-id="152b4-109">Функция **Power** содержит следующие аргументы.</span><span class="sxs-lookup"><span data-stu-id="152b4-109">The **Power** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="d51fc-110">**Имя аргумента**</span><span class="sxs-lookup"><span data-stu-id="d51fc-110">**Argument name**</span></span>|<span data-ttu-id="d51fc-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d51fc-111">**Description**</span></span>|
+|<span data-ttu-id="152b4-110">**Имя аргумента**</span><span class="sxs-lookup"><span data-stu-id="152b4-110">**Argument name**</span></span>|<span data-ttu-id="152b4-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="152b4-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="d51fc-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="d51fc-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="d51fc-113">Числовое выражение.</span><span class="sxs-lookup"><span data-stu-id="d51fc-113">A numeric expression.</span></span>  <br/> |
-| <span data-ttu-id="d51fc-114">*Power*</span><span class="sxs-lookup"><span data-stu-id="d51fc-114">*Power*</span></span>  <br/> |<span data-ttu-id="d51fc-115">Питания, к которой необходимо вызвать *NumericExpression* .</span><span class="sxs-lookup"><span data-stu-id="d51fc-115">The power to which to raise  *NumericExpression*  .</span></span>  <br/> |
+| <span data-ttu-id="152b4-112">*NumericExpression*</span><span class="sxs-lookup"><span data-stu-id="152b4-112">*NumericExpression*</span></span>  <br/> |<span data-ttu-id="152b4-113">Числовое выражение.</span><span class="sxs-lookup"><span data-stu-id="152b4-113">A numeric expression.</span></span>  <br/> |
+| <span data-ttu-id="152b4-114">*Power*</span><span class="sxs-lookup"><span data-stu-id="152b4-114">*Power*</span></span>  <br/> |<span data-ttu-id="152b4-115">Питания, к которой необходимо вызвать *NumericExpression* .</span><span class="sxs-lookup"><span data-stu-id="152b4-115">The power to which to raise  *NumericExpression*  .</span></span>  <br/> |
    
 

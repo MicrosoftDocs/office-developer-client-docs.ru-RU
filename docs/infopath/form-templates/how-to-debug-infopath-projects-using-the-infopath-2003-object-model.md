@@ -1,5 +1,5 @@
 ---
-title: Отладка проектов InfoPath с помощью объектной модели InfoPath 2003
+title: Отладка проектов InfoPath, использующих объектную модель InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,8 +15,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807483"
 ---
-# <a name="debug-infopath-projects-using-the-infopath-2003-object-model"></a><span data-ttu-id="e1849-104">Отладка проектов InfoPath с помощью объектной модели InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="e1849-104">Debug InfoPath Projects Using the InfoPath 2003 Object Model</span></span>
+# <a name="debug-infopath-projects-using-the-infopath-2003-object-model"></a><span data-ttu-id="e3863-104">Отладка проектов InfoPath, использующих объектную модель InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="e3863-104">Debug InfoPath Projects Using the InfoPath 2003 Object Model</span></span>
 
-<span data-ttu-id="e1849-105">Сведения об отладке шаблона формы InfoPath управляемого кода, включая те, которые закодированные с использованием объектной модели InfoPath 2003 содержатся в разделе [Просмотр и отладка шаблонов форм InfoPath с кодом](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span><span class="sxs-lookup"><span data-stu-id="e1849-105">For information on debugging InfoPath managed code form template, including those that are coded against the InfoPath 2003 object model, see [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span></span>
+<span data-ttu-id="e3863-105">Сведения об отладке шаблона формы InfoPath управляемого кода, включая те, которые закодированные с использованием объектной модели InfoPath 2003 содержатся в разделе [Просмотр и отладка шаблонов форм InfoPath с кодом](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span><span class="sxs-lookup"><span data-stu-id="e3863-105">For information on debugging InfoPath managed code form template, including those that are coded against the InfoPath 2003 object model, see [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span></span>
   
 

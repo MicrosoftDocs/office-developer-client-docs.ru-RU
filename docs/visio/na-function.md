@@ -1,5 +1,5 @@
 ---
-title: Функция НД
+title: Функция NA
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,22 +16,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814298"
 ---
-# <a name="na-function"></a><span data-ttu-id="7ef28-103">Функция НД</span><span class="sxs-lookup"><span data-stu-id="7ef28-103">NA Function</span></span>
+# <a name="na-function"></a><span data-ttu-id="1a497-103">Функция NA</span><span class="sxs-lookup"><span data-stu-id="1a497-103">NA Function</span></span>
 
-<span data-ttu-id="7ef28-104">Возвращает значение ошибки #NA!.</span><span class="sxs-lookup"><span data-stu-id="7ef28-104">Returns the error value #NA!.</span></span> 
+<span data-ttu-id="1a497-104">Возвращает значение ошибки #NA!.</span><span class="sxs-lookup"><span data-stu-id="1a497-104">Returns the error value #NA!.</span></span> 
   
-<span data-ttu-id="7ef28-105">Функция НД в ячейке таблицы свойств фигуры, где отсутствуют сведения о, чтобы ее значение по умолчанию не используется в расчетах.</span><span class="sxs-lookup"><span data-stu-id="7ef28-105">Use the NA function in a ShapeSheet cell where information is missing, so that the cell's default value is not used in calculations.</span></span>
+<span data-ttu-id="1a497-105">Функция НД в ячейке таблицы свойств фигуры, где отсутствуют сведения о, чтобы ее значение по умолчанию не используется в расчетах.</span><span class="sxs-lookup"><span data-stu-id="1a497-105">Use the NA function in a ShapeSheet cell where information is missing, so that the cell's default value is not used in calculations.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="7ef28-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7ef28-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1a497-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1a497-106">Syntax</span></span>
 
-<span data-ttu-id="7ef28-107">(NA)</span><span class="sxs-lookup"><span data-stu-id="7ef28-107">NA( )</span></span>
+<span data-ttu-id="1a497-107">(NA)</span><span class="sxs-lookup"><span data-stu-id="1a497-107">NA( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="7ef28-108">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7ef28-108">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="1a497-108">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1a497-108">Return value</span></span>
 
-<span data-ttu-id="7ef28-109">Строка</span><span class="sxs-lookup"><span data-stu-id="7ef28-109">String</span></span>
+<span data-ttu-id="1a497-109">Строка</span><span class="sxs-lookup"><span data-stu-id="1a497-109">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7ef28-110">Замечания</span><span class="sxs-lookup"><span data-stu-id="7ef28-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1a497-110">Замечания</span><span class="sxs-lookup"><span data-stu-id="1a497-110">Remarks</span></span>
 
-<span data-ttu-id="7ef28-111">НД — это значение ошибки, это означает «значение недоступно.»</span><span class="sxs-lookup"><span data-stu-id="7ef28-111">NA is the error value that means "no value available."</span></span>
+<span data-ttu-id="1a497-111">НД — это значение ошибки, это означает «значение недоступно.»</span><span class="sxs-lookup"><span data-stu-id="1a497-111">NA is the error value that means "no value available."</span></span>
   
 
