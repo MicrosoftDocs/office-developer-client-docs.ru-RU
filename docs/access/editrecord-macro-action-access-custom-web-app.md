@@ -13,21 +13,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19806952"
 ---
-# <a name="editrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="7f759-103">Действия макроса ИзменитьЗапись (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="7f759-103">EditRecord Macro Action (Access custom web app)</span></span>
+# <a name="editrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="3bb88-103">Действия макроса ИзменитьЗапись (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="3bb88-103">EditRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="7f759-104">Помещает текущей записи в режиме редактирования.</span><span class="sxs-lookup"><span data-stu-id="7f759-104">Places the current record into edit mode.</span></span>
+<span data-ttu-id="3bb88-104">Помещает текущей записи в режиме редактирования.</span><span class="sxs-lookup"><span data-stu-id="3bb88-104">Places the current record into edit mode.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="7f759-105">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="7f759-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="7f759-106">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="7f759-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="3bb88-105">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="3bb88-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="3bb88-106">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="3bb88-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="7f759-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7f759-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3bb88-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3bb88-107">Syntax</span></span>
 
- <span data-ttu-id="7f759-108">**ИзменитьЗапись**</span><span class="sxs-lookup"><span data-stu-id="7f759-108">**EditRecord**</span></span>
+ <span data-ttu-id="3bb88-108">**EditRecord**</span><span class="sxs-lookup"><span data-stu-id="3bb88-108">**EditRecord**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7f759-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="7f759-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3bb88-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="3bb88-109">Remarks</span></span>
 
-<span data-ttu-id="7f759-110">Используйте действие **SaveRecord** , чтобы сохранить изменения, внесенные в запись или действие **UndoRecord** , чтобы отменить изменения.</span><span class="sxs-lookup"><span data-stu-id="7f759-110">Use the **SaveRecord** action to save changes made to the record, or the **UndoRecord** action to discard the changes.</span></span> 
+<span data-ttu-id="3bb88-110">Используйте действие **SaveRecord** , чтобы сохранить изменения, внесенные в запись или действие **UndoRecord** , чтобы отменить изменения.</span><span class="sxs-lookup"><span data-stu-id="3bb88-110">Use the **SaveRecord** action to save changes made to the record, or the **UndoRecord** action to discard the changes.</span></span> 
   
-<span data-ttu-id="7f759-111">Действие **ИзменитьЗапись** соответствует выбору кнопку **Изменить** на панели действий.</span><span class="sxs-lookup"><span data-stu-id="7f759-111">The **EditRecord** action is equivalent to selecting the **Edit** button on the action bar.</span></span> 
+<span data-ttu-id="3bb88-111">Действие **ИзменитьЗапись** соответствует выбору кнопку **Изменить** на панели действий.</span><span class="sxs-lookup"><span data-stu-id="3bb88-111">The **EditRecord** action is equivalent to selecting the **Edit** button on the action bar.</span></span> 
   
 

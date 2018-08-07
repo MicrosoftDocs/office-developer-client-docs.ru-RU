@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19806949"
 ---
-# <a name="database-objects-access-custom-web-app"></a><span data-ttu-id="79e68-102">Объекты базы данных (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="79e68-102">Database objects (Access custom web app)</span></span>
+# <a name="database-objects-access-custom-web-app"></a><span data-ttu-id="83647-102">Объекты базы данных (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="83647-102">Database objects (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="79e68-103">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="79e68-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="79e68-104">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="79e68-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="83647-103">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="83647-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="83647-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="83647-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="79e68-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="79e68-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="83647-105">В этой статье</span><span class="sxs-lookup"><span data-stu-id="83647-105">In this section</span></span>
 
-- [<span data-ttu-id="79e68-106">Макрос КЭлементуУправления (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="79e68-106">GoToControl Macro Action (Access custom web app)</span></span>](gotocontrol-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="83647-106">Макрокоманда GoToControl (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="83647-106">GoToControl Macro Action (Access custom web app)</span></span>](gotocontrol-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="79e68-107">Макрос НаЗапись (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="79e68-107">GoToRecord Macro Action (Access custom web app)</span></span>](gotorecord-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="83647-107">Макрос НаЗапись (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="83647-107">GoToRecord Macro Action (Access custom web app)</span></span>](gotorecord-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="79e68-108">Действия макроса SetProperty (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="79e68-108">SetProperty Macro Action (Access custom web app)</span></span>](setproperty-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="83647-108">Действия макроса SetProperty (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="83647-108">SetProperty Macro Action (Access custom web app)</span></span>](setproperty-macro-action-access-custom-web-app.md)
     
 

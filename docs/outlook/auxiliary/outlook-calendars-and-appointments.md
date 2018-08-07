@@ -1,5 +1,5 @@
 ---
-title: Календари Outlook и встреч
+title: Календари и встречи Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807923"
 ---
-# <a name="outlook-calendars-and-appointments"></a><span data-ttu-id="78983-103">Календари Outlook и встреч</span><span class="sxs-lookup"><span data-stu-id="78983-103">Outlook calendars and appointments</span></span>
+# <a name="outlook-calendars-and-appointments"></a><span data-ttu-id="e9656-103">Календари и встречи Outlook</span><span class="sxs-lookup"><span data-stu-id="e9656-103">Outlook calendars and appointments</span></span>
 
-<span data-ttu-id="78983-104">В этом разделе представлены общие сведения о календарями Outlook и встреч, включая API доступности, запрос обновлений встреч и повторного размещения календарей переход на летнее время.</span><span class="sxs-lookup"><span data-stu-id="78983-104">This section provides conceptual information about Outlook calendars and appointments, including the Free/Busy API, meeting request updates, and rebasing calendars for daylight saving time.</span></span> 
+<span data-ttu-id="e9656-104">В этом разделе представлены общие сведения о календарями Outlook и встреч, включая API доступности, запрос обновлений встреч и повторного размещения календарей переход на летнее время.</span><span class="sxs-lookup"><span data-stu-id="e9656-104">This section provides conceptual information about Outlook calendars and appointments, including the Free/Busy API, meeting request updates, and rebasing calendars for daylight saving time.</span></span> 
 
-- [<span data-ttu-id="78983-105">About the Free/Busy API</span><span class="sxs-lookup"><span data-stu-id="78983-105">About the Free/Busy API</span></span>](about-the-free-busy-api.md)
+- [<span data-ttu-id="e9656-105">About the Free/Busy API</span><span class="sxs-lookup"><span data-stu-id="e9656-105">About the Free/Busy API</span></span>](about-the-free-busy-api.md)
     
-- [<span data-ttu-id="78983-106">О приглашений на собрания как информационные и полного обновления</span><span class="sxs-lookup"><span data-stu-id="78983-106">About meeting requests as informational updates and full updates</span></span>](about-meeting-requests-as-informational-updates-and-full-updates.md)
+- [<span data-ttu-id="e9656-106">Сведения о приглашениях на собрания в виде информационных или полных сообщений</span><span class="sxs-lookup"><span data-stu-id="e9656-106">About meeting requests as informational updates and full updates</span></span>](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
-- [<span data-ttu-id="78983-107">About rebasing calendars programmatically for Daylight Saving Time</span><span class="sxs-lookup"><span data-stu-id="78983-107">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [<span data-ttu-id="e9656-107">About rebasing calendars programmatically for Daylight Saving Time</span><span class="sxs-lookup"><span data-stu-id="e9656-107">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
     
-- [<span data-ttu-id="78983-108">About persisting TZDEFINITION to a stream to commit to a binary property</span><span class="sxs-lookup"><span data-stu-id="78983-108">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [<span data-ttu-id="e9656-108">About persisting TZDEFINITION to a stream to commit to a binary property</span><span class="sxs-lookup"><span data-stu-id="e9656-108">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
     
 

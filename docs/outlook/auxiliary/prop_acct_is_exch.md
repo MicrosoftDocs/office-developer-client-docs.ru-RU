@@ -14,27 +14,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807930"
 ---
-# <a name="propacctisexch"></a><span data-ttu-id="d7da3-103">PROP_ACCT_IS_EXCH</span><span class="sxs-lookup"><span data-stu-id="d7da3-103">PROP_ACCT_IS_EXCH</span></span>
+# <a name="propacctisexch"></a><span data-ttu-id="8f414-103">PROP_ACCT_IS_EXCH</span><span class="sxs-lookup"><span data-stu-id="8f414-103">PROP_ACCT_IS_EXCH</span></span>
 
-<span data-ttu-id="d7da3-104">Значение true, если учетная запись является учетной записью Exchange.</span><span class="sxs-lookup"><span data-stu-id="d7da3-104">True if the account is an Exchange account.</span></span>
+<span data-ttu-id="8f414-104">Значение true, если учетная запись является учетной записью Exchange.</span><span class="sxs-lookup"><span data-stu-id="8f414-104">True if the account is an Exchange account.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="d7da3-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="d7da3-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="8f414-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="8f414-105">Quick info</span></span>
 
-<span data-ttu-id="d7da3-106">В разделе [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="d7da3-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="8f414-106">В разделе [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="8f414-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d7da3-107">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="d7da3-107">Identifier:</span></span>  <br/> |<span data-ttu-id="d7da3-108">0x0014</span><span class="sxs-lookup"><span data-stu-id="d7da3-108">0x0014</span></span>  <br/> |
-|<span data-ttu-id="d7da3-109">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="d7da3-109">Property type:</span></span>  <br/> |<span data-ttu-id="d7da3-110">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="d7da3-110">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="d7da3-111">Свойство tag:</span><span class="sxs-lookup"><span data-stu-id="d7da3-111">Property tag:</span></span>  <br/> |<span data-ttu-id="d7da3-112">0x00140003</span><span class="sxs-lookup"><span data-stu-id="d7da3-112">0x00140003</span></span>  <br/> |
-|<span data-ttu-id="d7da3-113">Access:</span><span class="sxs-lookup"><span data-stu-id="d7da3-113">Access:</span></span>  <br/> |<span data-ttu-id="d7da3-114">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="d7da3-114">Read-only</span></span>  <br/> |
+|<span data-ttu-id="8f414-107">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="8f414-107">Identifier:</span></span>  <br/> |<span data-ttu-id="8f414-108">0x0014</span><span class="sxs-lookup"><span data-stu-id="8f414-108">0x0014</span></span>  <br/> |
+|<span data-ttu-id="8f414-109">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="8f414-109">Property type:</span></span>  <br/> |<span data-ttu-id="8f414-110">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="8f414-110">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="8f414-111">Свойство tag:</span><span class="sxs-lookup"><span data-stu-id="8f414-111">Property tag:</span></span>  <br/> |<span data-ttu-id="8f414-112">0x00140003</span><span class="sxs-lookup"><span data-stu-id="8f414-112">0x00140003</span></span>  <br/> |
+|<span data-ttu-id="8f414-113">Access:</span><span class="sxs-lookup"><span data-stu-id="8f414-113">Access:</span></span>  <br/> |<span data-ttu-id="8f414-114">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="8f414-114">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d7da3-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="d7da3-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8f414-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="8f414-115">Remarks</span></span>
 
-<span data-ttu-id="d7da3-116">Получение этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md).</span><span class="sxs-lookup"><span data-stu-id="d7da3-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span> <span data-ttu-id="d7da3-117">При попытке установить для этого свойства, данное свойство возвращает **E_OLK_PROP_READ_ONLY**.</span><span class="sxs-lookup"><span data-stu-id="d7da3-117">If the client attempts to set this property, this property returns **E_OLK_PROP_READ_ONLY**.</span></span> 
+<span data-ttu-id="8f414-116">Получение этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md).</span><span class="sxs-lookup"><span data-stu-id="8f414-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span> <span data-ttu-id="8f414-117">При попытке установить для этого свойства, данное свойство возвращает **E_OLK_PROP_READ_ONLY**.</span><span class="sxs-lookup"><span data-stu-id="8f414-117">If the client attempts to set this property, this property returns **E_OLK_PROP_READ_ONLY**.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="d7da3-118">См. также</span><span class="sxs-lookup"><span data-stu-id="d7da3-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f414-118">См. также</span><span class="sxs-lookup"><span data-stu-id="8f414-118">See also</span></span>
 
-- [<span data-ttu-id="d7da3-119">About the Account Management API</span><span class="sxs-lookup"><span data-stu-id="d7da3-119">About the Account Management API</span></span>](about-the-account-management-api.md) 
-- [<span data-ttu-id="d7da3-120">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="d7da3-120">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="8f414-119">About the Account Management API</span><span class="sxs-lookup"><span data-stu-id="8f414-119">About the Account Management API</span></span>](about-the-account-management-api.md) 
+- [<span data-ttu-id="8f414-120">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="8f414-120">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

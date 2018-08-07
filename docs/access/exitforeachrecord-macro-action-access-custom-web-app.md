@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19806939"
 ---
-# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="54795-103">Действия макроса ExitForEachRecord (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="54795-103">ExitForEachRecord Macro Action (Access custom web app)</span></span>
+# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="072d9-103">Действия макроса ExitForEachRecord (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="072d9-103">ExitForEachRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="54795-104">Действие **ExitForEachRecord** используется для немедленного выхода из блока **[ДляКаждойЗаписи](foreachrecord-data-block-access-custom-web-app.md)** данных.</span><span class="sxs-lookup"><span data-stu-id="54795-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** data block.</span></span> 
+<span data-ttu-id="072d9-104">Действие **ExitForEachRecord** используется для немедленного выхода из блока **[ДляКаждойЗаписи](foreachrecord-data-block-access-custom-web-app.md)** данных.</span><span class="sxs-lookup"><span data-stu-id="072d9-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** data block.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="54795-105">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="54795-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="54795-106">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="54795-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="072d9-105">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="072d9-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="072d9-106">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="072d9-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="54795-107">Действие **ExitForEachRecord** доступна только в макросов данных.</span><span class="sxs-lookup"><span data-stu-id="54795-107">The **ExitForEachRecord** action is available only in Data Macros.</span></span> 
+> <span data-ttu-id="072d9-107">Действие **ExitForEachRecord** доступна только в макросов данных.</span><span class="sxs-lookup"><span data-stu-id="072d9-107">The **ExitForEachRecord** action is available only in Data Macros.</span></span> 
   
 

@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807878"
 ---
-# <a name="iolkenumreset"></a><span data-ttu-id="a375d-103">IOlkEnum::Reset</span><span class="sxs-lookup"><span data-stu-id="a375d-103">IOlkEnum::Reset</span></span>
+# <a name="iolkenumreset"></a><span data-ttu-id="20561-103">IOlkEnum::Reset</span><span class="sxs-lookup"><span data-stu-id="20561-103">IOlkEnum::Reset</span></span>
 
-<span data-ttu-id="a375d-104">Сбрасывает перечислитель к началу.</span><span class="sxs-lookup"><span data-stu-id="a375d-104">Resets the enumerator to the beginning.</span></span>
+<span data-ttu-id="20561-104">Сбрасывает перечислитель к началу.</span><span class="sxs-lookup"><span data-stu-id="20561-104">Resets the enumerator to the beginning.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="a375d-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="a375d-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="20561-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="20561-105">Quick info</span></span>
 
-<span data-ttu-id="a375d-106">В разделе [IOlkEnum](iolkenum.md).</span><span class="sxs-lookup"><span data-stu-id="a375d-106">See [IOlkEnum](iolkenum.md).</span></span>
+<span data-ttu-id="20561-106">В разделе [IOlkEnum](iolkenum.md).</span><span class="sxs-lookup"><span data-stu-id="20561-106">See [IOlkEnum](iolkenum.md).</span></span>
   
 ```cpp
 HRESULT IOlkEnum::Reset ();
 ```
 
-## <a name="return-values"></a><span data-ttu-id="a375d-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="a375d-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="20561-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="20561-107">Return values</span></span>
 
-<span data-ttu-id="a375d-108">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="a375d-108">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="20561-108">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="20561-108">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="a375d-109">См. также</span><span class="sxs-lookup"><span data-stu-id="a375d-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="20561-109">См. также</span><span class="sxs-lookup"><span data-stu-id="20561-109">See also</span></span>
 
-- [<span data-ttu-id="a375d-110">IOlkEnum::GetCount</span><span class="sxs-lookup"><span data-stu-id="a375d-110">IOlkEnum::GetCount</span></span>](iolkenum-getcount.md)
-- [<span data-ttu-id="a375d-111">IOlkEnum::GetNext</span><span class="sxs-lookup"><span data-stu-id="a375d-111">IOlkEnum::GetNext</span></span>](iolkenum-getnext.md)
-- [<span data-ttu-id="a375d-112">IOlkEnum::Skip</span><span class="sxs-lookup"><span data-stu-id="a375d-112">IOlkEnum::Skip</span></span>](iolkenum-skip.md)
+- [<span data-ttu-id="20561-110">IOlkEnum::GetCount</span><span class="sxs-lookup"><span data-stu-id="20561-110">IOlkEnum::GetCount</span></span>](iolkenum-getcount.md)
+- [<span data-ttu-id="20561-111">IOlkEnum::GetNext</span><span class="sxs-lookup"><span data-stu-id="20561-111">IOlkEnum::GetNext</span></span>](iolkenum-getnext.md)
+- [<span data-ttu-id="20561-112">IOlkEnum::Skip</span><span class="sxs-lookup"><span data-stu-id="20561-112">IOlkEnum::Skip</span></span>](iolkenum-skip.md)
 

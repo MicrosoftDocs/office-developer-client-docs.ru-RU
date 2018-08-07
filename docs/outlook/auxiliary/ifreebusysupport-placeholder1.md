@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807723"
 ---
-# <a name="ifreebusysupportplaceholder1"></a><span data-ttu-id="c8a77-103">IFreeBusySupport::Placeholder1</span><span class="sxs-lookup"><span data-stu-id="c8a77-103">IFreeBusySupport::Placeholder1</span></span>
+# <a name="ifreebusysupportplaceholder1"></a><span data-ttu-id="77599-103">IFreeBusySupport::Placeholder1</span><span class="sxs-lookup"><span data-stu-id="77599-103">IFreeBusySupport::Placeholder1</span></span>
 
-<span data-ttu-id="c8a77-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="c8a77-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="77599-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="77599-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="c8a77-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="c8a77-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="77599-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="77599-105">Quick info</span></span>
 
-<span data-ttu-id="c8a77-106">В разделе [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="c8a77-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="77599-106">В разделе [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="77599-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder1( 
@@ -31,12 +31,12 @@ HRESULT Placeholder1(
 
 ```
 
-## <a name="return-values"></a><span data-ttu-id="c8a77-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="c8a77-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="77599-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="77599-107">Return values</span></span>
 
-<span data-ttu-id="c8a77-108">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c8a77-108">S_OK</span></span>
+<span data-ttu-id="77599-108">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="77599-108">S_OK</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c8a77-109">См. также</span><span class="sxs-lookup"><span data-stu-id="c8a77-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="77599-109">См. также</span><span class="sxs-lookup"><span data-stu-id="77599-109">See also</span></span>
 
-- [<span data-ttu-id="c8a77-110">Константы (занятости API)</span><span class="sxs-lookup"><span data-stu-id="c8a77-110">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="c8a77-111">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="c8a77-111">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
+- [<span data-ttu-id="77599-110">Константы (занятости API)</span><span class="sxs-lookup"><span data-stu-id="77599-110">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="77599-111">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="77599-111">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
 

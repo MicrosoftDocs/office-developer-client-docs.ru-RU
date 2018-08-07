@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19810021"
 ---
-# <a name="mnlslstrcmpw"></a><span data-ttu-id="186cd-103">MNLS_lstrcmpW</span><span class="sxs-lookup"><span data-stu-id="186cd-103">MNLS_lstrcmpW</span></span>
+# <a name="mnlslstrcmpw"></a><span data-ttu-id="4bd45-103">MNLS_lstrcmpW</span><span class="sxs-lookup"><span data-stu-id="4bd45-103">MNLS_lstrcmpW</span></span>
 
  
   
-<span data-ttu-id="186cd-104">**Применимо к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="186cd-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="4bd45-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="4bd45-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="186cd-105">Сравнение двух строк Юникод.</span><span class="sxs-lookup"><span data-stu-id="186cd-105">Compares two Unicode strings.</span></span>
+<span data-ttu-id="4bd45-105">Сравнение двух строк Юникод.</span><span class="sxs-lookup"><span data-stu-id="4bd45-105">Compares two Unicode strings.</span></span>
   
 ```cpp
 int MNLS_lstrcmpW(
@@ -29,27 +29,27 @@ int MNLS_lstrcmpW(
   LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="186cd-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="186cd-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4bd45-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="4bd45-106">Parameters</span></span>
 
- <span data-ttu-id="186cd-107">_lpString1_</span><span class="sxs-lookup"><span data-stu-id="186cd-107">_lpString1_</span></span>
+ <span data-ttu-id="4bd45-107">_lpString1_</span><span class="sxs-lookup"><span data-stu-id="4bd45-107">_lpString1_</span></span>
   
-> <span data-ttu-id="186cd-108">[in] Указатель для первой строки Юникод для сравнения.</span><span class="sxs-lookup"><span data-stu-id="186cd-108">[in] Pointer to the first Unicode string to compare.</span></span>
+> <span data-ttu-id="4bd45-108">[in] Указатель для первой строки Юникод для сравнения.</span><span class="sxs-lookup"><span data-stu-id="4bd45-108">[in] Pointer to the first Unicode string to compare.</span></span>
     
- <span data-ttu-id="186cd-109">_lpString2_</span><span class="sxs-lookup"><span data-stu-id="186cd-109">_lpString2_</span></span>
+ <span data-ttu-id="4bd45-109">_lpString2_</span><span class="sxs-lookup"><span data-stu-id="4bd45-109">_lpString2_</span></span>
   
-> <span data-ttu-id="186cd-110">[in] Указатель на втором строку в кодировке Юникод для сравнения.</span><span class="sxs-lookup"><span data-stu-id="186cd-110">[in] Pointer to the second Unicode string to compare.</span></span>
+> <span data-ttu-id="4bd45-110">[in] Указатель на втором строку в кодировке Юникод для сравнения.</span><span class="sxs-lookup"><span data-stu-id="4bd45-110">[in] Pointer to the second Unicode string to compare.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="186cd-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="186cd-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4bd45-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4bd45-111">Return value</span></span>
 
-<span data-ttu-id="186cd-112">Возвращает значения, описанного при вызове эквивалентный **MNLS_CompareStringW** за исключением CSTR_EQUAL.</span><span class="sxs-lookup"><span data-stu-id="186cd-112">Returns the values described for an equivalent call to **MNLS_CompareStringW** except for CSTR_EQUAL.</span></span> 
+<span data-ttu-id="4bd45-112">Возвращает значения, описанного при вызове эквивалентный **MNLS_CompareStringW** за исключением CSTR_EQUAL.</span><span class="sxs-lookup"><span data-stu-id="4bd45-112">Returns the values described for an equivalent call to **MNLS_CompareStringW** except for CSTR_EQUAL.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="186cd-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="186cd-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4bd45-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="4bd45-113">Remarks</span></span>
 
- <span data-ttu-id="186cd-114">_MNLS_lstrcmpW_ выполняет сравнение путем вызова [MNLS_CompareStringW](mnls_comparestringw.md) с локальным GetUserDefaultLCID 0 для флаги и значение -1 для cch1 и cch2.</span><span class="sxs-lookup"><span data-stu-id="186cd-114">_MNLS_lstrcmpW_ performs a comparison by calling [MNLS_CompareStringW](mnls_comparestringw.md) with a locale of GetUserDefaultLCID, 0 for flags, and -1 for cch1 and cch2.</span></span> 
+ <span data-ttu-id="4bd45-114">_MNLS_lstrcmpW_ выполняет сравнение путем вызова [MNLS_CompareStringW](mnls_comparestringw.md) с локальным GetUserDefaultLCID 0 для флаги и значение -1 для cch1 и cch2.</span><span class="sxs-lookup"><span data-stu-id="4bd45-114">_MNLS_lstrcmpW_ performs a comparison by calling [MNLS_CompareStringW](mnls_comparestringw.md) with a locale of GetUserDefaultLCID, 0 for flags, and -1 for cch1 and cch2.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="186cd-115">См. также</span><span class="sxs-lookup"><span data-stu-id="186cd-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4bd45-115">См. также</span><span class="sxs-lookup"><span data-stu-id="4bd45-115">See also</span></span>
 
 
 
-[<span data-ttu-id="186cd-116">GetUserDefaultLCID</span><span class="sxs-lookup"><span data-stu-id="186cd-116">GetUserDefaultLCID</span></span>](http://msdn.microsoft.com/ru-ru/library/dd318135%28VS.85%29.aspx)
+[<span data-ttu-id="4bd45-116">GetUserDefaultLCID</span><span class="sxs-lookup"><span data-stu-id="4bd45-116">GetUserDefaultLCID</span></span>](http://msdn.microsoft.com/en-us/library/dd318135%28VS.85%29.aspx)
 

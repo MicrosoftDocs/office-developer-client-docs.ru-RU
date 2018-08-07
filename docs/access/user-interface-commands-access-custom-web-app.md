@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807143"
 ---
-# <a name="user-interface-commands-access-custom-web-app"></a><span data-ttu-id="9fc68-102">Команд интерфейса пользователя (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="9fc68-102">User interface commands (Access custom web app)</span></span>
+# <a name="user-interface-commands-access-custom-web-app"></a><span data-ttu-id="91e27-102">Команд интерфейса пользователя (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="91e27-102">User interface commands (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="9fc68-103">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="9fc68-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="9fc68-104">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="9fc68-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="91e27-103">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="91e27-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="91e27-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="91e27-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="9fc68-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="9fc68-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="91e27-105">В этой статье</span><span class="sxs-lookup"><span data-stu-id="91e27-105">In this section</span></span>
 
-- [<span data-ttu-id="9fc68-106">Действия макроса ChangeView (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="9fc68-106">ChangeView Macro Action (Access custom web app)</span></span>](changeview-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="91e27-106">Действия макроса ChangeView (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="91e27-106">ChangeView Macro Action (Access custom web app)</span></span>](changeview-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="9fc68-107">Действия макроса ClosePopup (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="9fc68-107">ClosePopup Macro Action (Access custom web app)</span></span>](closepopup-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="91e27-107">Действия макроса ClosePopup (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="91e27-107">ClosePopup Macro Action (Access custom web app)</span></span>](closepopup-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="9fc68-108">Действия макроса MessageBox (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="9fc68-108">MessageBox Macro Action (Access custom web app)</span></span>](messagebox-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="91e27-108">Действия макроса MessageBox (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="91e27-108">MessageBox Macro Action (Access custom web app)</span></span>](messagebox-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="9fc68-109">Действия макроса OpenPopup (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="9fc68-109">OpenPopup Macro Action (Access custom web app)</span></span>](openpopup-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="91e27-109">Действия макроса OpenPopup (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="91e27-109">OpenPopup Macro Action (Access custom web app)</span></span>](openpopup-macro-action-access-custom-web-app.md)
     
 

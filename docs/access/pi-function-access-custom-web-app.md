@@ -14,15 +14,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807081"
 ---
-# <a name="pi-function-access-custom-web-app"></a><span data-ttu-id="05faf-103">Функция ПИ (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="05faf-103">Pi Function (Access custom web app)</span></span>
+# <a name="pi-function-access-custom-web-app"></a><span data-ttu-id="0ccf0-103">Функция ПИ (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="0ccf0-103">Pi Function (Access custom web app)</span></span>
 
-<span data-ttu-id="05faf-104">Возвращает значение пи.</span><span class="sxs-lookup"><span data-stu-id="05faf-104">Returns the constant value of PI.</span></span>
+<span data-ttu-id="0ccf0-104">Возвращает значение пи.</span><span class="sxs-lookup"><span data-stu-id="0ccf0-104">Returns the constant value of PI.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="05faf-105">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="05faf-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="05faf-106">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="05faf-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="0ccf0-105">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="0ccf0-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="0ccf0-106">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="0ccf0-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="05faf-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="05faf-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0ccf0-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0ccf0-107">Syntax</span></span>
 
- <span data-ttu-id="05faf-108">**Пи** ()</span><span class="sxs-lookup"><span data-stu-id="05faf-108">**Pi** ()</span></span> 
+ <span data-ttu-id="0ccf0-108">**Пи** ()</span><span class="sxs-lookup"><span data-stu-id="0ccf0-108">**Pi** ()</span></span> 
   
 

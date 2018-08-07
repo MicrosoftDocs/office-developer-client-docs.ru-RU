@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807922"
 ---
-# <a name="outlook-account-management"></a><span data-ttu-id="ee0a5-104">Управление учетными записями Outlook</span><span class="sxs-lookup"><span data-stu-id="ee0a5-104">Outlook account management</span></span>
+# <a name="outlook-account-management"></a><span data-ttu-id="7e4ec-104">Управление учетными записями Outlook</span><span class="sxs-lookup"><span data-stu-id="7e4ec-104">Outlook account management</span></span>
 
-<span data-ttu-id="ee0a5-105">В этом разделе описываются API управления учетной записи, который предоставляет доступ к сведениям учетной записи и поддерживает уведомления об изменении учетной записи.</span><span class="sxs-lookup"><span data-stu-id="ee0a5-105">This section describes the Account Management API which provides access to account information and supports account-change notifications.</span></span> <span data-ttu-id="ee0a5-106">Он также включает сведения о защите учетных записей от нежелательной почты и управлении загрузки сообщений для учетных записей POP3.</span><span class="sxs-lookup"><span data-stu-id="ee0a5-106">It also includes information about protecting accounts from spam and managing message downloads for POP3 accounts.</span></span>
+<span data-ttu-id="7e4ec-105">В этом разделе описываются API управления учетной записи, который предоставляет доступ к сведениям учетной записи и поддерживает уведомления об изменении учетной записи.</span><span class="sxs-lookup"><span data-stu-id="7e4ec-105">This section describes the Account Management API which provides access to account information and supports account-change notifications.</span></span> <span data-ttu-id="7e4ec-106">Он также включает сведения о защите учетных записей от нежелательной почты и управлении загрузки сообщений для учетных записей POP3.</span><span class="sxs-lookup"><span data-stu-id="7e4ec-106">It also includes information about protecting accounts from spam and managing message downloads for POP3 accounts.</span></span>
 
-- [<span data-ttu-id="ee0a5-107">About the Account Management API</span><span class="sxs-lookup"><span data-stu-id="ee0a5-107">About the Account Management API</span></span>](about-the-account-management-api.md)
+- [<span data-ttu-id="7e4ec-107">About the Account Management API</span><span class="sxs-lookup"><span data-stu-id="7e4ec-107">About the Account Management API</span></span>](about-the-account-management-api.md)
     
-- [<span data-ttu-id="ee0a5-108">About anti-spam settings</span><span class="sxs-lookup"><span data-stu-id="ee0a5-108">About anti-spam settings</span></span>](about-anti-spam-settings.md)
+- [<span data-ttu-id="7e4ec-108">About anti-spam settings</span><span class="sxs-lookup"><span data-stu-id="7e4ec-108">About anti-spam settings</span></span>](about-anti-spam-settings.md)
     
-- [<span data-ttu-id="ee0a5-109">Загружаемые файлы для управления сообщения для учетных записей POP3</span><span class="sxs-lookup"><span data-stu-id="ee0a5-109">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md)
+- [<span data-ttu-id="7e4ec-109">Управление скачиванием сообщений для учетных записей POP3</span><span class="sxs-lookup"><span data-stu-id="7e4ec-109">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md)
     
 

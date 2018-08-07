@@ -1,5 +1,5 @@
 ---
-title: Об уровне уменьшение объема данных API
+title: Сведения об API уровня ухудшения данных
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,8 +14,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807673"
 ---
-# <a name="about-the-data-degradation-layer-api"></a><span data-ttu-id="2e74b-103">Об уровне уменьшение объема данных API</span><span class="sxs-lookup"><span data-stu-id="2e74b-103">About the Data Degradation Layer API</span></span>
+# <a name="about-the-data-degradation-layer-api"></a><span data-ttu-id="c1a98-103">Сведения об API уровня ухудшения данных</span><span class="sxs-lookup"><span data-stu-id="c1a98-103">About the Data Degradation Layer API</span></span>
 
-<span data-ttu-id="2e74b-104">API Layer уменьшение объема данных предоставляет возможность скрыть базовый собственный символьном формате объекта Outlook, позволяя клиента для доступа к объекту в предпочтительном символьном формате, а не в формате внутреннего объекта.</span><span class="sxs-lookup"><span data-stu-id="2e74b-104">The Data Degradation Layer API provides the ability to hide the underlying native character format of an Outlook object, allowing a client to access the object in a preferred character format rather than in the object's native character format.</span></span> <span data-ttu-id="2e74b-105">Он содержит определения констант, приведенные в [константы (уровень уменьшение объема данных API)](constants-data-degradation-layer-api.md)и функцию [HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) , которое возвращает объект Outlook заключены в указанном формате.</span><span class="sxs-lookup"><span data-stu-id="2e74b-105">It provides the constant definitions shown in [Constants (Data degradation layer API)](constants-data-degradation-layer-api.md), and the function [HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) that returns an Outlook object wrapped in a specified format.</span></span> 
+<span data-ttu-id="c1a98-104">API Layer уменьшение объема данных предоставляет возможность скрыть базовый собственный символьном формате объекта Outlook, позволяя клиента для доступа к объекту в предпочтительном символьном формате, а не в формате внутреннего объекта.</span><span class="sxs-lookup"><span data-stu-id="c1a98-104">The Data Degradation Layer API provides the ability to hide the underlying native character format of an Outlook object, allowing a client to access the object in a preferred character format rather than in the object's native character format.</span></span> <span data-ttu-id="c1a98-105">Он содержит определения констант, приведенные в [константы (уровень уменьшение объема данных API)](constants-data-degradation-layer-api.md)и функцию [HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) , которое возвращает объект Outlook заключены в указанном формате.</span><span class="sxs-lookup"><span data-stu-id="c1a98-105">It provides the constant definitions shown in [Constants (Data degradation layer API)](constants-data-degradation-layer-api.md), and the function [HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) that returns an Outlook object wrapped in a specified format.</span></span> 
   
 

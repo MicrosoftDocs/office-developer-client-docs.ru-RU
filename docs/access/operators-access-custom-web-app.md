@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807082"
 ---
-# <a name="operators-access-custom-web-app"></a><span data-ttu-id="b97a1-102">Операторы (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="b97a1-102">Operators (Access custom web app)</span></span>
+# <a name="operators-access-custom-web-app"></a><span data-ttu-id="1ff5a-102">Операторы (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="1ff5a-102">Operators (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="b97a1-103">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="b97a1-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="b97a1-104">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="b97a1-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="1ff5a-103">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="1ff5a-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="1ff5a-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="1ff5a-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="b97a1-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="b97a1-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1ff5a-105">В этой статье</span><span class="sxs-lookup"><span data-stu-id="1ff5a-105">In this section</span></span>
 
-- [<span data-ttu-id="b97a1-106">Арифметические операторы (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="b97a1-106">Arithmetic Operators (Access custom web app)</span></span>](arithmetic-operators-access-custom-web-app.md)
+- [<span data-ttu-id="1ff5a-106">Арифметические операторы (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="1ff5a-106">Arithmetic Operators (Access custom web app)</span></span>](arithmetic-operators-access-custom-web-app.md)
     
-- [<span data-ttu-id="b97a1-107">Операторы сравнения (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="b97a1-107">Comparison Operators (Access custom web app)</span></span>](comparison-operators-access-custom-web-app.md)
+- [<span data-ttu-id="1ff5a-107">Операторы сравнения (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="1ff5a-107">Comparison Operators (Access custom web app)</span></span>](comparison-operators-access-custom-web-app.md)
     
-- [<span data-ttu-id="b97a1-108">Логические операторы (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="b97a1-108">Logical Operators (Access custom web app)</span></span>](logical-operators-access-custom-web-app.md)
+- [<span data-ttu-id="1ff5a-108">Логические операторы (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="1ff5a-108">Logical Operators (Access custom web app)</span></span>](logical-operators-access-custom-web-app.md)
     
-- [<span data-ttu-id="b97a1-109">Операторов строки (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="b97a1-109">String Operators (Access custom web app)</span></span>](string-operators-access-custom-web-app.md)
+- [<span data-ttu-id="1ff5a-109">Операторов строки (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="1ff5a-109">String Operators (Access custom web app)</span></span>](string-operators-access-custom-web-app.md)
     
 

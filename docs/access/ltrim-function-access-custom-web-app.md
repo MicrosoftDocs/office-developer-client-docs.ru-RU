@@ -14,21 +14,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19806920"
 ---
-# <a name="ltrim-function-access-custom-web-app"></a><span data-ttu-id="73687-103">Функции LTrim (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="73687-103">LTrim Function (Access custom web app)</span></span>
+# <a name="ltrim-function-access-custom-web-app"></a><span data-ttu-id="b072d-103">Функции LTrim (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="b072d-103">LTrim Function (Access custom web app)</span></span>
 
-<span data-ttu-id="73687-104">Возвращает выражение символ после удаление начальных пробелов.</span><span class="sxs-lookup"><span data-stu-id="73687-104">Returns a character expression after it removes leading blanks.</span></span>
+<span data-ttu-id="b072d-104">Возвращает выражение символ после удаление начальных пробелов.</span><span class="sxs-lookup"><span data-stu-id="b072d-104">Returns a character expression after it removes leading blanks.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="73687-105">Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="73687-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="73687-106">Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) для построения без написания кода бизнес-решений для мобильных устройств и веб.</span><span class="sxs-lookup"><span data-stu-id="73687-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/ru-ru/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="b072d-105">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="b072d-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="b072d-106">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="b072d-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="73687-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="73687-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b072d-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b072d-107">Syntax</span></span>
 
- <span data-ttu-id="73687-108">**Функции LTrim** (*TextExpression*)</span><span class="sxs-lookup"><span data-stu-id="73687-108">**LTrim** (*TextExpression*)</span></span> 
+ <span data-ttu-id="b072d-108">**Функции LTrim** (*TextExpression*)</span><span class="sxs-lookup"><span data-stu-id="b072d-108">**LTrim** (*TextExpression*)</span></span> 
   
-<span data-ttu-id="73687-109">Функции **LTrim** содержит следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="73687-109">The **LTrim** function contains the following argument.</span></span> 
+<span data-ttu-id="b072d-109">Функции **LTrim** содержит следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="b072d-109">The **LTrim** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="73687-110">**Имя аргумента**</span><span class="sxs-lookup"><span data-stu-id="73687-110">**Argument Name**</span></span>|<span data-ttu-id="73687-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="73687-111">**Description**</span></span>|
+|<span data-ttu-id="b072d-110">**Имя аргумента**</span><span class="sxs-lookup"><span data-stu-id="b072d-110">**Argument Name**</span></span>|<span data-ttu-id="b072d-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b072d-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="73687-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="73687-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="73687-113">Строковое выражение.</span><span class="sxs-lookup"><span data-stu-id="73687-113">A string expression.</span></span>  <br/> |
+| <span data-ttu-id="b072d-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="b072d-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="b072d-113">Строковое выражение.</span><span class="sxs-lookup"><span data-stu-id="b072d-113">A string expression.</span></span>  <br/> |
    
 
