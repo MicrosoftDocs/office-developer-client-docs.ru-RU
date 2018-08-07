@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtLocPinY (раздел Преобразование текст)
+title: Ячейка TxtLocPinY (раздел "Преобразование текста")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815076"
 ---
-# <a name="txtlocpiny-cell-text-transform-section"></a>Ячейка TxtLocPinY (раздел Преобразование текст)
+# <a name="txtlocpiny-cell-text-transform-section"></a>Ячейка TxtLocPinY (раздел "Преобразование текста")
 
 Определяет, *y* -координаты центра блок текста ротации относительно начала блока текста. Формула по умолчанию имеет вид: 
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка объектного (раздел Разное)
+title: Ячейка ObjType (раздел "Прочее")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814326"
 ---
-# <a name="objtype-cell-miscellaneous-section"></a>Ячейка объектного (раздел Разное)
+# <a name="objtype-cell-miscellaneous-section"></a>Ячейка ObjType (раздел "Прочее")
 
 Определяет, являются ли объекты размещаемыми или маршрутизируемый в схемах, при использовании диалогового окна " **Настройка макета** " для размещения форм. 
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка PaperKind (печати Properties Section)
+title: Ячейка PaperKind (раздел "Свойства печати")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814351"
 ---
-# <a name="paperkind-cell-print-properties-section"></a>Ячейка PaperKind (печати Properties Section)
+# <a name="paperkind-cell-print-properties-section"></a>Ячейка PaperKind (раздел "Свойства печати")
 
 Указывает тип бумаги для печати на странице.
   

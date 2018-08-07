@@ -1,5 +1,5 @@
 ---
-title: ТЕПЕРЬ функция (VisioShapeSheet)
+title: NOW Function (VisioShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814331"
 ---
-# <a name="now-function-visioshapesheet"></a>ТЕПЕРЬ функция (VisioShapeSheet)
+# <a name="now-function-visioshapesheet"></a>NOW Function (VisioShapeSheet)
 
 Возвращает текущее значение даты и времени.
   

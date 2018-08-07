@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockThemeColors (раздел Защита)
+title: Ячейка LockThemeColors (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19814152"
 ---
-# <a name="lockthemecolors-cell-protection-section"></a>Ячейка LockThemeColors (раздел Защита)
+# <a name="lockthemecolors-cell-protection-section"></a>Ячейка LockThemeColors (раздел "Защита")
 
 Запрещает применение цветов темы к фигуре. 
   

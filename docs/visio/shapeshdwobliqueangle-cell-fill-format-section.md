@@ -1,5 +1,5 @@
 ---
-title: Ячейка ShapeShdwObliqueAngle (раздел формата заливки)
+title: Ячейка ShapeShdwObliqueAngle (раздел "Формат заливки")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814791"
 ---
-# <a name="shapeshdwobliqueangle-cell-fill-format-section"></a>Ячейка ShapeShdwObliqueAngle (раздел формата заливки)
+# <a name="shapeshdwobliqueangle-cell-fill-format-section"></a>Ячейка ShapeShdwObliqueAngle (раздел "Формат заливки")
 
 Задает угол наклона тени фигуры.
   

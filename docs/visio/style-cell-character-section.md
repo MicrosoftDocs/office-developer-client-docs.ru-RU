@@ -1,5 +1,5 @@
 ---
-title: Стиль ячейки (раздел знаков)
+title: Ячейка Style (раздел "Символ")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814946"
 ---
-# <a name="style-cell-character-section"></a>Стиль ячейки (раздел знаков)
+# <a name="style-cell-character-section"></a>Ячейка Style (раздел "Символ")
 
 Отображает формат символов, применяемый к диапазону текста в блоке текста фигуры.
   

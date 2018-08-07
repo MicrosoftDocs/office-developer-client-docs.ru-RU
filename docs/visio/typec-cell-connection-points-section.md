@@ -1,5 +1,5 @@
 ---
-title: Тип / ячейка C (раздел указывает подключение)
+title: Ячейка Type / C (раздел "Точки соединения")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815085"
 ---
-# <a name="type--c-cell-connection-points-section"></a>Тип / ячейка C (раздел указывает подключение)
+# <a name="type--c-cell-connection-points-section"></a>Ячейка Type / C (раздел "Точки соединения")
 
 Определяет тип точки подключения.
   

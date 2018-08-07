@@ -1,5 +1,5 @@
 ---
-title: Функция ЗАМЕНЫ
+title: Функция SUBSTITUTE
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814970"
 ---
-# <a name="substitute-function"></a>Функция ЗАМЕНЫ
+# <a name="substitute-function"></a>Функция SUBSTITUTE
 
 Заменяет часть текстовой строки другой строкой текста. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19814970"
 | _стар_текст_ <br/> |Обязательный  <br/> |**Строка** <br/> | Текст, который вы хотите заменить.  <br/> |
 | _нов_текст_ <br/> |Обязательный  <br/> |**Строка** <br/> | Текст, который будет использоваться для замены _стар_текст_.  <br/> |
 | _start_num_opt_ <br/> |Optional  <br/> |**Числовой** <br/> |Указывает, какие случаями стар_текст для замены.  <br/> |
-| _ignore_case_opt_ <br/> |Optional  <br/> |**Boolean** <br/> |FALSE, если с учетом регистра; в противном случае — значение TRUE. Значение по умолчанию — FALSE.  <br/> |
+| _ignore_case_opt_ <br/> |Optional  <br/> |**Boolean** <br/> |FALSE, если с учетом регистра; в противном случае — значение TRUE. Значение по умолчанию — FALSE.  <br/> |
    
 ### <a name="return-value"></a>������������ ��������
 

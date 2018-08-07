@@ -1,5 +1,5 @@
 ---
-title: Толщина линии ячейки (раздел формат строки)
+title: Ячейка LineWeight (раздел "Формат линий")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814093"
 ---
-# <a name="lineweight-cell-line-format-section"></a>Толщина линии ячейки (раздел формат строки)
+# <a name="lineweight-cell-line-format-section"></a>Ячейка LineWeight (раздел "Формат линий")
 
 Определяет Толщина линии фигуры. Задайте Толщина линии путем ввода цифр с допустимой единицы измерения.
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockCustProp (раздел Защита)
+title: Ячейка LockCustProp (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814129"
 ---
-# <a name="lockcustprop-cell-protection-section"></a>Ячейка LockCustProp (раздел Защита)
+# <a name="lockcustprop-cell-protection-section"></a>Ячейка LockCustProp (раздел "Защита")
 
 Определяет, является ли пользователь добавлять, удалять и изменения данных в пользовательского интерфейса (UI) с помощью диалогового окна **Определение данных фигуры** или контекстное меню для окна **Данных фигуры** . 
   

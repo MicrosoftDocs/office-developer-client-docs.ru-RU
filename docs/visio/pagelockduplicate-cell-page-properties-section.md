@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageLockDuplicate (раздел страницы свойств)
+title: Ячейка PageLockDuplicate (раздел "Свойства страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814335"
 ---
-# <a name="pagelockduplicate-cell-page-properties-section"></a>Ячейка PageLockDuplicate (раздел страницы свойств)
+# <a name="pagelockduplicate-cell-page-properties-section"></a>Ячейка PageLockDuplicate (раздел "Свойства страницы")
 
 Определяет, будет ли страница может быть реализовано, как логическое значение.
   

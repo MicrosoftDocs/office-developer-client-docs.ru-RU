@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockAspect (раздел Защита)
+title: Ячейка LockAspect (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814124"
 ---
-# <a name="lockaspect-cell-protection-section"></a>Ячейка LockAspect (раздел Защита)
+# <a name="lockaspect-cell-protection-section"></a>Ячейка LockAspect (раздел "Защита")
 
 Блокирует пропорции фигуры, форму можно изменять только пропорционально. не может иметь размер одного измерения.
   

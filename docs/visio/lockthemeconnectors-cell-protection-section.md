@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockThemeConnectors (раздел Защита)
+title: Ячейка LockThemeConnectors (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814155"
 ---
-# <a name="lockthemeconnectors-cell-protection-section"></a>Ячейка LockThemeConnectors (раздел Защита)
+# <a name="lockthemeconnectors-cell-protection-section"></a>Ячейка LockThemeConnectors (раздел "Защита")
 
 Запрещает **ConnectorsSchemeIndex** ячейку в строке **Темы свойств** изменяются применение новой темы или выбрать новую схему соединителя. Запрещает пользователям изменять это значение в таблице свойств фигуры вручную. 
   

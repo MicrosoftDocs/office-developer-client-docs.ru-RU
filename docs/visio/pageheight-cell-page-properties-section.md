@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageHeight (раздел страницы свойств)
+title: Ячейка PageHeight (раздел "Свойства страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814332"
 ---
-# <a name="pageheight-cell-page-properties-section"></a>Ячейка PageHeight (раздел страницы свойств)
+# <a name="pageheight-cell-page-properties-section"></a>Ячейка PageHeight (раздел "Свойства страницы")
 
 Содержит высоту печатной страницы в единицах документа.
   

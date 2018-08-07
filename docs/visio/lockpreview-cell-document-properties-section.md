@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockPreview (раздел свойств документа)
+title: Ячейка LockPreview (раздел "Свойства документа")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814142"
 ---
-# <a name="lockpreview-cell-document-properties-section"></a>Ячейка LockPreview (раздел свойств документа)
+# <a name="lockpreview-cell-document-properties-section"></a>Ячейка LockPreview (раздел "Свойства документа")
 
 Определяет, сохраняется ли Предварительный просмотр каждый раз при сохранении документа.
   

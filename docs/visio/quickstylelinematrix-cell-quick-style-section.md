@@ -1,5 +1,5 @@
 ---
-title: Ячейка QuickStyleLineMatrix (экспресс-стилей раздел)
+title: Ячейка QuickStyleLineMatrix (раздел "Экспресс-стиль")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814516"
 ---
-# <a name="quickstylelinematrix-cell-quick-style-section"></a>Ячейка QuickStyleLineMatrix (экспресс-стилей раздел)
+# <a name="quickstylelinematrix-cell-quick-style-section"></a>Ячейка QuickStyleLineMatrix (раздел "Экспресс-стиль")
 
 Определяет тип линии экспресс-стилей, который наследует фигуры, как целое число от 0 до 6. 
   

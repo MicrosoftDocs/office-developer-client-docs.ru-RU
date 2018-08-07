@@ -1,5 +1,5 @@
 ---
-title: Ячейка ReflectionSize (дополнительный эффект Properties Section)
+title: Ячейка ReflectionSize (раздел "Дополнительные свойства эффекта")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814542"
 ---
-# <a name="reflectionsize-cell-additional-effect-properties-section"></a>Ячейка ReflectionSize (дополнительный эффект Properties Section)
+# <a name="reflectionsize-cell-additional-effect-properties-section"></a>Ячейка ReflectionSize (раздел "Дополнительные свойства эффекта")
 
 Определяет размер отражения относительно фигуры в процентном соотношении от 0,0 100,0%. Фигура со значением 0% в ячейке **ReflectionSize** не имеет отражения; значение 100% отображает полный зеркальным отображением фигуры. 
   

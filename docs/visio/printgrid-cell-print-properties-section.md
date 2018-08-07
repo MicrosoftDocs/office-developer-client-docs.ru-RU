@@ -1,5 +1,5 @@
 ---
-title: Ячейка PrintGrid (печати Properties Section)
+title: Ячейка PrintGrid (раздел "Свойства печати")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814502"
 ---
-# <a name="printgrid-cell-print-properties-section"></a>Ячейка PrintGrid (печати Properties Section)
+# <a name="printgrid-cell-print-properties-section"></a>Ячейка PrintGrid (раздел "Свойства печати")
 
 Указывает, следует ли печатать сетку на странице документа.
   

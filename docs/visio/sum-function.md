@@ -1,5 +1,5 @@
 ---
-title: Функция сумм
+title: Функция SUM
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814968"
 ---
-# <a name="sum-function"></a>Функция сумм
+# <a name="sum-function"></a>Функция SUM
 
 Возвращает сумму список номеров.
   

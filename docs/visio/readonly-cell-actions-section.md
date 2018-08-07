@@ -1,5 +1,5 @@
 ---
-title: ReadOnly ячейки (раздела "действия")
+title: Ячейка ReadOnly (раздел "Действия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814522"
 ---
-# <a name="readonly-cell-actions-section"></a>ReadOnly ячейки (раздела "действия")
+# <a name="readonly-cell-actions-section"></a>Ячейка ReadOnly (раздел "Действия")
 
 Определяет, является ли действие на тег или контекстное меню действий только для чтения. 
   

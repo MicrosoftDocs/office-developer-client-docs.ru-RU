@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockThemeEffects (раздел Защита)
+title: Ячейка LockThemeEffects (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814156"
 ---
-# <a name="lockthemeeffects-cell-protection-section"></a>Ячейка LockThemeEffects (раздел Защита)
+# <a name="lockthemeeffects-cell-protection-section"></a>Ячейка LockThemeEffects (раздел "Защита")
 
 Запрещает применение эффектов темы к фигуре. 
   

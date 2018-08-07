@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtPinX (раздел Преобразование текст)
+title: Ячейка TxtPinX (раздел "Преобразование текста")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815078"
 ---
-# <a name="txtpinx-cell-text-transform-section"></a>Ячейка TxtPinX (раздел Преобразование текст)
+# <a name="txtpinx-cell-text-transform-section"></a>Ячейка TxtPinX (раздел "Преобразование текста")
 
 Определяет значение *x* -координаты центра блок текста из ротации относительно начала фигуры. Формула по умолчанию имеет вид: 
   

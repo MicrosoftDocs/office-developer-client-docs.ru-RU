@@ -1,5 +1,5 @@
 ---
-title: Функция ВЕЛИЧИНЫ
+title: Функция MAGNITUDE
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814189"
 ---
-# <a name="magnitude-function"></a>Функция ВЕЛИЧИНЫ
+# <a name="magnitude-function"></a>Функция MAGNITUDE
 
 Возвращает модуль, развитием — _A_ , а чьи запуск — _B_, умноженное на соответствующие константы _constantA_ и _constantB_. 
   

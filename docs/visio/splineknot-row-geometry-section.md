@@ -1,5 +1,5 @@
 ---
-title: Строка SplineKnot (раздел геометрии)
+title: Строка SplineKnot (раздел "Геометрия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814934"
 ---
-# <a name="splineknot-row-geometry-section"></a>Строка SplineKnot (раздел геометрии)
+# <a name="splineknot-row-geometry-section"></a>Строка SplineKnot (раздел "Геометрия")
 
 Содержит *x* - и *y* -координаты точки управления сплайн и число узлов сплайна. 
   
@@ -25,7 +25,7 @@ ms.locfileid: "19814934"
 |**Cell**|**Описание**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |*X* -координата точки управления.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -координата точки управления.  <br/> |
+|[Да](y-cell-geometry-section.md) <br/> |*Y* -координата точки управления.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |Один из узлов сплайна (кроме последней или первых двух).  <br/> |
    
 ## <a name="remarks"></a>Замечания

@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockGroup (раздел Защита)
+title: Ячейка LockGroup (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19814150"
 ---
-# <a name="lockgroup-cell-protection-section"></a>Ячейка LockGroup (раздел Защита)
+# <a name="lockgroup-cell-protection-section"></a>Ячейка LockGroup (раздел "Защита")
 
 Блокирует группу, его нельзя разгруппировать.
   

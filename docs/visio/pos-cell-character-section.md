@@ -1,5 +1,5 @@
 ---
-title: Положительные ячейки (раздел знаков)
+title: Ячейка Pos (раздел "Символ")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814468"
 ---
-# <a name="pos-cell-character-section"></a>Положительные ячейки (раздел знаков)
+# <a name="pos-cell-character-section"></a>Ячейка Pos (раздел "Символ")
 
 Определяет положение текста фигуры относительно базового плана.
   

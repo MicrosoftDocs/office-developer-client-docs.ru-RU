@@ -1,5 +1,5 @@
 ---
-title: Ячейка SketchFillChange (дополнительный эффект Properties Section)
+title: Ячейка SketchFillChange (раздел "Дополнительные свойства эффекта")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814887"
 ---
-# <a name="sketchfillchange-cell-additional-effect-properties-section"></a>Ячейка SketchFillChange (дополнительный эффект Properties Section)
+# <a name="sketchfillchange-cell-additional-effect-properties-section"></a>Ячейка SketchFillChange (раздел "Дополнительные свойства эффекта")
 
 Определяет объем случайный выбор заливки фигуры с геометрией фигуры при использовании эффекта эскиза в процентном соотношении от Длина раздела. Если ячейка **SketchFillChange** имеет значение 0%, ограничивающий геометрии заливки фигуры сопоставляет Геометрия фигуры. Если значение равно 100%, ограничивающий геометрии заливки фигуры не соответствует Геометрия фигуры. 
   

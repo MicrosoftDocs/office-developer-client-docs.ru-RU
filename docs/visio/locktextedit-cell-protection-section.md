@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockTextEdit (раздел Защита)
+title: Ячейка LockTextEdit (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814153"
 ---
-# <a name="locktextedit-cell-protection-section"></a>Ячейка LockTextEdit (раздел Защита)
+# <a name="locktextedit-cell-protection-section"></a>Ячейка LockTextEdit (раздел "Защита")
 
 Блокирует текст фигуры, не может быть изменен.
   

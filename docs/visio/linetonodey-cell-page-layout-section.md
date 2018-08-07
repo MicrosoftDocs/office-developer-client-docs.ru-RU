@@ -1,5 +1,5 @@
 ---
-title: Ячейка LineToNodeY (раздел макет страницы)
+title: Ячейка LineToNodeY (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814094"
 ---
-# <a name="linetonodey-cell-page-layout-section"></a>Ячейка LineToNodeY (раздел макет страницы)
+# <a name="linetonodey-cell-page-layout-section"></a>Ячейка LineToNodeY (раздел "Макет страницы")
 
 Определяет вертикали свободное пространство между все соединители и фигур на странице документа.
   

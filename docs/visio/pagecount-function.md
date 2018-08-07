@@ -26,6 +26,6 @@ ms.locfileid: "19814337"
   
 ### <a name="return-value"></a>������������ ��������
 
-Число
+Number
   
 

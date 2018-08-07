@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockDelete (раздел Защита)
+title: Ячейка LockDelete (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814128"
 ---
-# <a name="lockdelete-cell-protection-section"></a>Ячейка LockDelete (раздел Защита)
+# <a name="lockdelete-cell-protection-section"></a>Ячейка LockDelete (раздел "Защита")
 
 Блокирует фигуру таким образом, чтобы он не может быть удален.
   

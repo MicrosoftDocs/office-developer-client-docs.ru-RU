@@ -1,5 +1,5 @@
 ---
-title: Раздел свойства стилей
+title: Раздел "Свойства стиля"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814958"
 ---
-# <a name="style-properties-section"></a>Раздел свойства стилей
+# <a name="style-properties-section"></a>Раздел "Свойства стиля"
 
 Включает в себя ячеек, которые управляют поведением стиля, например, включены ли в стиль текста, строка и заполните поля атрибутов.
   

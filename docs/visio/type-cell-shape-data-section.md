@@ -1,5 +1,5 @@
 ---
-title: Тип ячейки (раздел данных фигуры)
+title: Ячейка Type (раздел "Данные фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815081"
 ---
-# <a name="type-cell-shape-data-section"></a>Тип ячейки (раздел данных фигуры)
+# <a name="type-cell-shape-data-section"></a>Ячейка Type (раздел "Данные фигуры")
 
 Указывает тип данных для значения данных фигуры.
   

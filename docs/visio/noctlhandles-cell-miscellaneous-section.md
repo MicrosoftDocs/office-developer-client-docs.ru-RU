@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoCtlHandles (раздел Разное)
+title: Ячейка NoCtlHandles (раздел "Прочее")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814292"
 ---
-# <a name="noctlhandles-cell-miscellaneous-section"></a>Ячейка NoCtlHandles (раздел Разное)
+# <a name="noctlhandles-cell-miscellaneous-section"></a>Ячейка NoCtlHandles (раздел "Прочее")
 
 Включает или отключает отображение управляющих маркеров и отключает для выбранной фигуры.
   

@@ -1,5 +1,5 @@
 ---
-title: Ширина ячеек (раздел Преобразование фигуры)
+title: Ячейка Width (раздел "Преобразование фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815163"
 ---
-# <a name="width-cell-shape-transform-section"></a>Ширина ячеек (раздел Преобразование фигуры)
+# <a name="width-cell-shape-transform-section"></a>Ячейка Width (раздел "Преобразование фигуры")
 
 Содержит ширину выбранной фигуры в единицах документа. Формула для определения ширины одномерной фигуры — это:
   

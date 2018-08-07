@@ -1,5 +1,5 @@
 ---
-title: Функция корень
+title: Функция SQRT
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814952"
 ---
-# <a name="sqrt-function"></a>Функция корень
+# <a name="sqrt-function"></a>Функция SQRT
 
 Возвращает квадратный корень из числа. 
   

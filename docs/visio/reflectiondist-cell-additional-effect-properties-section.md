@@ -1,5 +1,5 @@
 ---
-title: Ячейка ReflectionDist (дополнительный эффект Properties Section)
+title: Ячейка ReflectionDist (раздел "Дополнительные свойства эффекта")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814535"
 ---
-# <a name="reflectiondist-cell-additional-effect-properties-section"></a>Ячейка ReflectionDist (дополнительный эффект Properties Section)
+# <a name="reflectiondist-cell-additional-effect-properties-section"></a>Ячейка ReflectionDist (раздел "Дополнительные свойства эффекта")
 
 Определяет расстояние смещения отражения из формы, в указывает 0.0 100,0. 
   

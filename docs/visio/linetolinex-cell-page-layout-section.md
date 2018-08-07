@@ -1,5 +1,5 @@
 ---
-title: Ячейки LineToLineX (раздел макет страницы)
+title: Ячейка LineToLineX (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814086"
 ---
-# <a name="linetolinex-cell-page-layout-section"></a>Ячейки LineToLineX (раздел макет страницы)
+# <a name="linetolinex-cell-page-layout-section"></a>Ячейка LineToLineX (раздел "Макет страницы")
 
 Определяет горизонтальную свободное пространство между все соединители на странице документа.
   

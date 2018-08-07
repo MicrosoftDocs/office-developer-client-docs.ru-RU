@@ -1,5 +1,5 @@
 ---
-title: Раздел Преобразование текста
+title: Раздел "Преобразование текста"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814988"
 ---
-# <a name="text-transform-section"></a>Раздел Преобразование текста
+# <a name="text-transform-section"></a>Раздел "Преобразование текста"
 
 Содержит данные о блок текста фигуры размещения.
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка ShapePermeableX (раздел макет фигуры)
+title: Ячейка ShapePermeableX (раздел "Макет фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19814778"
 ---
-# <a name="shapepermeablex-cell-shape-layout-section"></a>Ячейка ShapePermeableX (раздел макет фигуры)
+# <a name="shapepermeablex-cell-shape-layout-section"></a>Ячейка ShapePermeableX (раздел "Макет фигуры")
 
 Определяет, будет ли соединитель могут направляться по горизонтали размещаемой фигуры.
   

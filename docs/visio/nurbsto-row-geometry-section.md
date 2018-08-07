@@ -1,5 +1,5 @@
 ---
-title: Строка NURBSTo (раздел геометрии)
+title: Строка NURBSTo (раздел "Геометрия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814308"
 ---
-# <a name="nurbsto-row-geometry-section"></a>Строка NURBSTo (раздел геометрии)
+# <a name="nurbsto-row-geometry-section"></a>Строка NURBSTo (раздел "Геометрия")
 
 Содержит *x* - и *y* -координат, положение секунды до последнего число узлов, Позиция последнего вес, положение первого число узлов, положение первого вес и формулу для неоднородной rational-сплайн (NURBS). 
   
@@ -25,7 +25,7 @@ ms.locfileid: "19814308"
 |**Cell**|**Описание**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |*X* -координаты последнего контрольной точки NURBS.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -координаты последнего контрольной точки NURBS.  <br/> |
+|[Да](y-cell-geometry-section.md) <br/> |*Y* -координаты последнего контрольной точки NURBS.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |Второй — к последней узлов NURBS.  <br/> |
 |[B](b-cell-geometry-section.md) <br/> |Последний вес NURBS.  <br/> |
 |[C](c-cell-geometry-section.md) <br/> |Первый узел NURBS.  <br/> |

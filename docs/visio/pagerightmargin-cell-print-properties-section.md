@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageRightMargin (печати Properties Section)
+title: Ячейка PageRightMargin (раздел "Свойства печати")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814340"
 ---
-# <a name="pagerightmargin-cell-print-properties-section"></a>Ячейка PageRightMargin (печати Properties Section)
+# <a name="pagerightmargin-cell-print-properties-section"></a>Ячейка PageRightMargin (раздел "Свойства печати")
 
 Задает поле в правой части печатной страницы.
   

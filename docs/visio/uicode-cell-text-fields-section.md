@@ -1,5 +1,5 @@
 ---
-title: Ячейка UICode (текстовые поля, раздел)
+title: Ячейка UICode (раздел "Текстовые поля")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815094"
 ---
-# <a name="uicode-cell-text-fields-section"></a>Ячейка UICode (текстовые поля, раздел)
+# <a name="uicode-cell-text-fields-section"></a>Ячейка UICode (раздел "Текстовые поля")
 
 Определяет код, вставленный поля в версии Visio, предшествующие Visio 2000.
   

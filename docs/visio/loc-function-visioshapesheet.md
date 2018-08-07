@@ -1,5 +1,5 @@
 ---
-title: Функция LOC (VisioShapeSheet)
+title: LOC Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814115"
 ---
-# <a name="loc-function-visioshapesheet"></a>Функция LOC (VisioShapeSheet)
+# <a name="loc-function-visioshapesheet"></a>LOC Function (VisioShapeSheet)
 
 Принимает точку, определенную в локальной системе координат одной фигуры и возвращает эквивалентную точку, выраженную в локальной системе координат фигуры, связанной с формулой. 
   
@@ -28,7 +28,7 @@ LOC (** *пункт* **)
 
 |**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _точка_ <br/> |Обязательный  <br/> |**Строка** <br/> | Точка, определенные в локальной системе координат одной фигуры.  <br/> |
+| _пункт_ <br/> |Обязательный  <br/> |**Строка** <br/> | Точка, определенные в локальной системе координат одной фигуры.  <br/> |
    
 ### <a name="return-value"></a>������������ ��������
 

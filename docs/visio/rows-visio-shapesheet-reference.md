@@ -15,54 +15,54 @@ ms.locfileid: "19814675"
 ---
 # <a name="rows-visio-shapesheet-reference"></a>Строк (Справочник по таблице свойств фигуры Visio)
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
-- [Строки действий (раздела "действия")](actions-row-actions-section.md)
+- [Строка Actions (раздел "Действия")](actions-row-actions-section.md)
     
-- [Строка ArcTo (раздел геометрии)](arcto-row-geometry-section.md)
+- [Строка ArcTo (раздел "Геометрия")](arcto-row-geometry-section.md)
     
-- [Строка точек подключения (раздел указывает подключение)](connection-points-row-connection-points-section.md)
+- [Строка Connection Points (раздел "Точки соединения")](connection-points-row-connection-points-section.md)
     
-- [Элементы управления строки (раздел элементы управления)](controls-row-controls-section.md)
+- [Строка Controls (раздел "Элементы управления")](controls-row-controls-section.md)
     
-- [Строка эллипс (раздел геометрии)](ellipse-row-geometry-section.md)
+- [Строка Ellipse (раздел "Геометрия")](ellipse-row-geometry-section.md)
     
-- [Строка EllipticalArcTo (раздел геометрии)](ellipticalarcto-row-geometry-section.md)
+- [Строка EllipticalArcTo (раздел "Геометрия")](ellipticalarcto-row-geometry-section.md)
     
-- [Строка градиента Stop (раздел градиентной заливки)](gradient-stop-row-fill-gradient-section.md)
+- [Строка Gradient Stop (раздел "Градиентная заливка")](gradient-stop-row-fill-gradient-section.md)
     
-- [Градиентный Stop строки (строка градиента раздел)](gradient-stop-row-line-gradient-section.md)
+- [Строка Gradient Stop (раздел "Градиентная линия")](gradient-stop-row-line-gradient-section.md)
     
-- [Строка гиперссылки (гиперссылок раздел)](hyperlink-row-hyperlinks-section.md)
+- [Строка Hyperlink (раздел "Гиперссылки")](hyperlink-row-hyperlinks-section.md)
     
-- [Строка InfiniteLine (раздел геометрии)](infiniteline-row-geometry-section.md)
+- [Строка InfiniteLine (раздел "Геометрия")](infiniteline-row-geometry-section.md)
     
-- [Строка LineTo (раздел геометрии)](lineto-row-geometry-section.md)
+- [Строка LineTo (раздел "Геометрия")](lineto-row-geometry-section.md)
     
-- [Строка MoveTo (раздел геометрии)](moveto-row-geometry-section.md)
+- [Строка MoveTo (раздел "Геометрия")](moveto-row-geometry-section.md)
     
-- [Строка NURBSTo (раздел геометрии)](nurbsto-row-geometry-section.md)
+- [Строка NURBSTo (раздел "Геометрия")](nurbsto-row-geometry-section.md)
     
-- [Строка PolylineTo (раздел геометрии)](polylineto-row-geometry-section.md)
+- [Строка PolylineTo (раздел "Геометрия")](polylineto-row-geometry-section.md)
     
-- [Строка RelCubBezTo (раздел геометрии)](relcubbezto-row-geometry-section.md)
+- [Строка RelCubBezTo (раздел "Геометрия")](relcubbezto-row-geometry-section.md)
     
-- [Строка RelEllipticalArcTo (раздел геометрии)](relellipticalarcto-row-geometry-section.md)
+- [Строка RelEllipticalArcTo (раздел "Геометрия")](relellipticalarcto-row-geometry-section.md)
     
-- [Строка RelLineTo (раздел геометрии)](rellineto-row-geometry-section.md)
+- [Строка RelLineTo (раздел "Геометрия")](rellineto-row-geometry-section.md)
     
-- [Строка RelMoveTo (раздел геометрии)](relmoveto-row-geometry-section.md)
+- [Строка RelMoveTo (раздел "Геометрия")](relmoveto-row-geometry-section.md)
     
-- [Строка RelQuadBezTo (раздел геометрии)](relquadbezto-row-geometry-section.md)
+- [Строка RelQuadBezTo (раздел "Геометрия")](relquadbezto-row-geometry-section.md)
     
-- [Строку данных фигуры (раздел данных фигуры)](shape-data-row-shape-data-section.md)
+- [Строка Shape Data (раздел "Данные фигуры")](shape-data-row-shape-data-section.md)
     
-- [Смарт-теги строк (раздел теги действие)](smart-tags-row-action-tags-section.md)
+- [Строка Smart Tags (раздел "Теги действий")](smart-tags-row-action-tags-section.md)
     
-- [Строка SplineKnot (раздел геометрии)](splineknot-row-geometry-section.md)
+- [Строка SplineKnot (раздел "Геометрия")](splineknot-row-geometry-section.md)
     
-- [Строка SplineStart (раздел геометрии)](splinestart-row-geometry-section.md)
+- [Строка SplineStart (раздел "Геометрия")](splinestart-row-geometry-section.md)
     
-- [Пользовательские ячейки строки (раздел пользовательские ячейки)](user-defined-cells-row-user-defined-cells-section.md)
+- [Строка "Пользовательские ячейки" (раздел "Пользовательские ячейки")](user-defined-cells-row-user-defined-cells-section.md)
     
 

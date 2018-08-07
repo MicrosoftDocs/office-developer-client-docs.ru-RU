@@ -1,5 +1,5 @@
 ---
-title: Функция не
+title: Функция NOT
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814304"
 ---
-# <a name="not-function"></a>Функция не
+# <a name="not-function"></a>Функция NOT
 
 Возвращает значение TRUE (1), если _logicalexpression_ имеет значение FALSE. В противном случае возвращается значение FALSE (0). 
   

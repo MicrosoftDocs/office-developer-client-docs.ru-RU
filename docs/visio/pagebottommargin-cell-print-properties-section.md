@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageBottomMargin (печати Properties Section)
+title: Ячейка PageBottomMargin (раздел "Свойства печати")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814329"
 ---
-# <a name="pagebottommargin-cell-print-properties-section"></a>Ячейка PageBottomMargin (печати Properties Section)
+# <a name="pagebottommargin-cell-print-properties-section"></a>Ячейка PageBottomMargin (раздел "Свойства печати")
 
 Задает поле в нижней части печатной страницы.
   

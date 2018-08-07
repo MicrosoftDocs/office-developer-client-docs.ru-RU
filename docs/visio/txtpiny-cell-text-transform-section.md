@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtPinY (раздел Преобразование текст)
+title: Ячейка TxtPinY (раздел "Преобразование текста")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815084"
 ---
-# <a name="txtpiny-cell-text-transform-section"></a>Ячейка TxtPinY (раздел Преобразование текст)
+# <a name="txtpiny-cell-text-transform-section"></a>Ячейка TxtPinY (раздел "Преобразование текста")
 
 Определяет, *y* -координата блок текста центра вращения относительно начала фигуры. Формула по умолчанию имеет вид: 
   

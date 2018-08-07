@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtLocPinX (раздел Преобразование текст)
+title: Ячейка TxtLocPinX (раздел "Преобразование текста")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815067"
 ---
-# <a name="txtlocpinx-cell-text-transform-section"></a>Ячейка TxtLocPinX (раздел Преобразование текст)
+# <a name="txtlocpinx-cell-text-transform-section"></a>Ячейка TxtLocPinX (раздел "Преобразование текста")
 
 Определяет значение *x* -координаты центра блок текста из ротации относительно начала блока текста. Формула по умолчанию имеет вид: 
   

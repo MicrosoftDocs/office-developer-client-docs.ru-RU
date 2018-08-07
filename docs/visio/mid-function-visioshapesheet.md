@@ -1,5 +1,5 @@
 ---
-title: Функция MID (VisioShapeSheet)
+title: MID Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814280"
 ---
-# <a name="mid-function-visioshapesheet"></a>Функция MID (VisioShapeSheet)
+# <a name="mid-function-visioshapesheet"></a>MID Function (VisioShapeSheet)
 
 Возвращает определенное число символов из строки текста, начиная с указанной позиции, основанный на число знаков, которое можно указать.
   

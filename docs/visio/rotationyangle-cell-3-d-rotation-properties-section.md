@@ -1,5 +1,5 @@
 ---
-title: Ячейка RotationYAngle (поворот объема Properties Section)
+title: Ячейка RotationYAngle (раздел "Свойства поворота объемной фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814634"
 ---
-# <a name="rotationyangle-cell-3-d-rotation-properties-section"></a>Ячейка RotationYAngle (поворот объема Properties Section)
+# <a name="rotationyangle-cell-3-d-rotation-properties-section"></a>Ячейка RotationYAngle (раздел "Свойства поворота объемной фигуры")
 
 Определяет угол вращения по оси y в градусов (0,0 - 359.9).
   

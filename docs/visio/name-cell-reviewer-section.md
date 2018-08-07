@@ -1,5 +1,5 @@
 ---
-title: Имя ячейки (редактор раздел)
+title: Ячейка Name (раздел "Рецензент")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814294"
 ---
-# <a name="name-cell-reviewer-section"></a>Имя ячейки (редактор раздел)
+# <a name="name-cell-reviewer-section"></a>Ячейка Name (раздел "Рецензент")
 
 Содержит имя рецензент документа.
   

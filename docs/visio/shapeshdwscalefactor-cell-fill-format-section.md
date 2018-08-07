@@ -1,5 +1,5 @@
 ---
-title: Ячейка ShapeShdwScaleFactor (раздел формата заливки)
+title: Ячейка ShapeShdwScaleFactor (раздел "Формат заливки")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814815"
 ---
-# <a name="shapeshdwscalefactor-cell-fill-format-section"></a>Ячейка ShapeShdwScaleFactor (раздел формата заливки)
+# <a name="shapeshdwscalefactor-cell-fill-format-section"></a>Ячейка ShapeShdwScaleFactor (раздел "Формат заливки")
 
 Указывает процент, с помощью которого можно увеличена или уменьшена тени фигуры.
   

@@ -1,5 +1,5 @@
 ---
-title: В разделе Страница свойств
+title: Раздел "Свойства страницы"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19814336"
 ---
-# <a name="page-properties-section"></a>В разделе Страница свойств
+# <a name="page-properties-section"></a>Раздел "Свойства страницы"
 
 Содержит ячейки, которые управляют страницы атрибуты, такие как страница ширина, высота и масштабирования.
   

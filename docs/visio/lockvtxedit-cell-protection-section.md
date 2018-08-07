@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockVtxEdit (раздел Защита)
+title: Ячейка LockVtxEdit (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19814170"
 ---
-# <a name="lockvtxedit-cell-protection-section"></a>Ячейка LockVtxEdit (раздел Защита)
+# <a name="lockvtxedit-cell-protection-section"></a>Ячейка LockVtxEdit (раздел "Защита")
 
 Блокирует грани фигуры, их нельзя изменить.
   

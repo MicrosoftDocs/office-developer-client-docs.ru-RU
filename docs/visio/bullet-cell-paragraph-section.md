@@ -1,5 +1,5 @@
 ---
-title: Маркер ячейки (раздел абзаца)
+title: Ячейка Bullet (раздел "Абзац")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813318"
 ---
-# <a name="bullet-cell-paragraph-section"></a>Маркер ячейки (раздел абзаца)
+# <a name="bullet-cell-paragraph-section"></a>Ячейка Bullet (раздел "Абзац")
 
 Определяет стиль маркеров.
   

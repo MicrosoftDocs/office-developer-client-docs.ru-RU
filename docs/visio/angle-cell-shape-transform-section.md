@@ -1,5 +1,5 @@
 ---
-title: Угол ячейки (раздел Преобразование фигуры)
+title: Ячейка Angle (раздел "Преобразование фигур")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813145"
 ---
-# <a name="angle-cell-shape-transform-section"></a>Угол ячейки (раздел Преобразование фигуры)
+# <a name="angle-cell-shape-transform-section"></a>Ячейка Angle (раздел "Преобразование фигур")
 
 Представляет фигуры текущий угол вращения относительно его родительского элемента. Формула по умолчанию для угла фигуры 1 D: = ATAN2(EndY-BeginY,EndX-BeginX).
   

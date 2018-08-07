@@ -1,5 +1,5 @@
 ---
-title: Раздел абзаца
+title: Раздел "Абзац"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814355"
 ---
-# <a name="paragraph-section"></a>Раздел абзаца
+# <a name="paragraph-section"></a>Раздел "Абзац"
 
 Отображает атрибуты форматирования абзаца для текста фигуры, такие как отступы, междустрочным интервалом, маркеры и выравнивание по горизонтали.
   

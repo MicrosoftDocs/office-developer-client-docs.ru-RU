@@ -1,5 +1,5 @@
 ---
-title: ИМЯ функции
+title: Функция NAME
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814291"
 ---
-# <a name="name-function"></a>ИМЯ функции
+# <a name="name-function"></a>Функция NAME
 
 Возвращает имя листа в виде строки.
   

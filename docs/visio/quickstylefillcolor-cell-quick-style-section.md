@@ -1,5 +1,5 @@
 ---
-title: Ячейка QuickStyleFillColor (экспресс-стилей раздел)
+title: Ячейка QuickStyleFillColor (раздел "Экспресс-стиль")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814515"
 ---
-# <a name="quickstylefillcolor-cell-quick-style-section"></a>Ячейка QuickStyleFillColor (экспресс-стилей раздел)
+# <a name="quickstylefillcolor-cell-quick-style-section"></a>Ячейка QuickStyleFillColor (раздел "Экспресс-стиль")
 
 Определяет, какой цвет темы, использующий заливки фигуры в качестве целое число от 0 до 7
   

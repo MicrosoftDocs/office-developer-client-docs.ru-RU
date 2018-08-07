@@ -1,5 +1,5 @@
 ---
-title: Ячейка шкалы (раздел знаков)
+title: Ячейка Scale (раздел "Символ")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814725"
 ---
-# <a name="scale-cell-character-section"></a>Ячейка шкалы (раздел знаков)
+# <a name="scale-cell-character-section"></a>Ячейка Scale (раздел "Символ")
 
 Определяет ширину шрифта. Значение по умолчанию для этой ячейке составляет 100%.
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка EmbellishmentIndex (Theme Properties Section)
+title: Ячейка EmbellishmentIndex (раздел "Свойства темы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19813676"
 ---
-# <a name="embellishmentindex-cell-theme-properties-section"></a>Ячейка EmbellishmentIndex (Theme Properties Section)
+# <a name="embellishmentindex-cell-theme-properties-section"></a>Ячейка EmbellishmentIndex (раздел "Свойства темы")
 
 Изменение внешнего вида (надстрочные знаки) выноски, контейнеров, временных шкал и фигуры организационной диаграммы.
   

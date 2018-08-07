@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoSnap (раздел геометрии)
+title: Ячейка NoSnap (раздел "Геометрия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814310"
 ---
-# <a name="nosnap-cell-geometry-section"></a>Ячейка NoSnap (раздел геометрии)
+# <a name="nosnap-cell-geometry-section"></a>Ячейка NoSnap (раздел "Геометрия")
 
 Определяет, привязываются ли другие элементы к пути.
   

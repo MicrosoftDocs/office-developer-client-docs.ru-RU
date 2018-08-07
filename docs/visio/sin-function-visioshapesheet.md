@@ -1,5 +1,5 @@
 ---
-title: Функция SIN (VisioShapeSheet)
+title: SIN Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814864"
 ---
-# <a name="sin-function-visioshapesheet"></a>Функция SIN (VisioShapeSheet)
+# <a name="sin-function-visioshapesheet"></a>SIN Function (VisioShapeSheet)
 
 Возвращает синус угла. 
   
@@ -32,7 +32,7 @@ SIN (** *угол* **)
    
 ### <a name="return-value"></a>������������ ��������
 
-Число
+Number
   
 ## <a name="remarks"></a>Замечания
 

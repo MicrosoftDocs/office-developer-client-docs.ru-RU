@@ -1,5 +1,5 @@
 ---
-title: Перспектива ячейки (поворот объема Properties Section)
+title: Ячейка Perspective (раздел "Свойства поворота объемной фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814361"
 ---
-# <a name="perspective-cell-3-d-rotation-properties-section"></a>Перспектива ячейки (поворот объема Properties Section)
+# <a name="perspective-cell-3-d-rotation-properties-section"></a>Ячейка Perspective (раздел "Свойства поворота объемной фигуры")
 
 Определяет угол перспективы для перспективы вращение, в градусов (0-359.9)
   

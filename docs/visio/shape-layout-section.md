@@ -1,5 +1,5 @@
 ---
-title: Раздел макет фигуры
+title: Раздел "Макет фигуры"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814758"
 ---
-# <a name="shape-layout-section"></a>Раздел макет фигуры
+# <a name="shape-layout-section"></a>Раздел "Макет фигуры"
 
 Содержит ячейки, которые управляют размещение фигуры и параметры маршрутизации соединителя.
   

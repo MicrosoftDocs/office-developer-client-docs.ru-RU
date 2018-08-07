@@ -1,5 +1,5 @@
 ---
-title: Ячейка RotateGradientWithShape (градиента Properties Section)
+title: Ячейка RotateGradientWithShape (раздел "Свойства градиента")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814619"
 ---
-# <a name="rotategradientwithshape-cell-gradient-properties-section"></a>Ячейка RotateGradientWithShape (градиента Properties Section)
+# <a name="rotategradientwithshape-cell-gradient-properties-section"></a>Ячейка RotateGradientWithShape (раздел "Свойства градиента")
 
 Определяет, разворачивает ли градиентной заливки с фигуры в 2D вращение типа Boolean.
   

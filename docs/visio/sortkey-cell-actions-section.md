@@ -1,5 +1,5 @@
 ---
-title: Ячейка SortKey (раздела "действия")
+title: Ячейка SortKey (раздел "Действия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814939"
 ---
-# <a name="sortkey-cell-actions-section"></a>Ячейка SortKey (раздела "действия")
+# <a name="sortkey-cell-actions-section"></a>Ячейка SortKey (раздел "Действия")
 
 Число, определяющее порядок действий, которые отображаются на действие или контекстное меню тега.
   

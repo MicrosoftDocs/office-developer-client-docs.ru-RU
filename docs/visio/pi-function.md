@@ -1,5 +1,5 @@
 ---
-title: Функция ПИ
+title: Функция PI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814359"
 ---
-# <a name="pi-function"></a>Функция ПИ
+# <a name="pi-function"></a>Функция PI
 
 Возвращает значение математической константы *pi* , которая приблизительно 3.1415926535898. 
   
@@ -26,7 +26,7 @@ ms.locfileid: "19814359"
   
 ### <a name="return-value"></a>������������ ��������
 
-Число
+Number
   
 ## <a name="example"></a>Пример
 

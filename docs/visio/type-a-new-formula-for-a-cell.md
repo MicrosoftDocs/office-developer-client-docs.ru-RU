@@ -1,5 +1,5 @@
 ---
-title: Введите новую формулу для ячейки
+title: Ввод новой формулы для ячейки
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815088"
 ---
-# <a name="type-a-new-formula-for-a-cell"></a>Введите новую формулу для ячейки
+# <a name="type-a-new-formula-for-a-cell"></a>Ввод новой формулы для ячейки
 
 1. Выберите ячейку.
     

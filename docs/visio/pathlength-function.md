@@ -20,7 +20,8 @@ ms.locfileid: "19814358"
   
 ## <a name="version-information"></a>Сведения о версии
 
-Добавлена версия: Visio 2010 
+Добавлена версия: Visio 2010
+ 
   
 ## <a name="syntax"></a>Синтаксис
 

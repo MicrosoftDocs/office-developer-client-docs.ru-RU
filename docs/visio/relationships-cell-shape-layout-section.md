@@ -1,5 +1,5 @@
 ---
-title: Отношения между ячейки (раздел макет фигуры)
+title: Ячейка Relationships (раздел "Макет фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814561"
 ---
-# <a name="relationships-cell-shape-layout-section"></a>Отношения между ячейки (раздел макет фигуры)
+# <a name="relationships-cell-shape-layout-section"></a>Ячейка Relationships (раздел "Макет фигуры")
 
 Сохранение отношения между контейнеров, списков, выноски и фигур. 
   

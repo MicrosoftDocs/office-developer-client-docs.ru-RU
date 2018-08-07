@@ -46,7 +46,7 @@ ms.locfileid: "19814200"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Образец](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие шаблона для документа.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие шаблона для документа.  <br/> |
 |[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Задает ярлыка образца, определенным в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты

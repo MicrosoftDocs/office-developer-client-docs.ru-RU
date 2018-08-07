@@ -1,5 +1,5 @@
 ---
-title: Ячейка SoftEdgesSize (дополнительный эффект Properties Section)
+title: Ячейка SoftEdgesSize (раздел "Дополнительные свойства эффекта")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814915"
 ---
-# <a name="softedgessize-cell-additional-effect-properties-section"></a>Ячейка SoftEdgesSize (дополнительный эффект Properties Section)
+# <a name="softedgessize-cell-additional-effect-properties-section"></a>Ячейка SoftEdgesSize (раздел "Дополнительные свойства эффекта")
 
 Определяет размер эффекта программных пограничного сервера в пунктах от 0,00 для 100,00. Если ячейка **SoftEdgesSize** имеет значение 0, фигура не имеет сглаживание. 
   

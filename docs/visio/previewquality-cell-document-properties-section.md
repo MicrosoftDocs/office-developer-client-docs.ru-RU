@@ -1,5 +1,5 @@
 ---
-title: Ячейка PreviewQuality (раздел свойств документа)
+title: Ячейка PreviewQuality (раздел "Свойства документа")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814461"
 ---
-# <a name="previewquality-cell-document-properties-section"></a>Ячейка PreviewQuality (раздел свойств документа)
+# <a name="previewquality-cell-document-properties-section"></a>Ячейка PreviewQuality (раздел "Свойства документа")
 
 Определяет, является ли образца документа черновиков качество или подробное.
   

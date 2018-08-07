@@ -1,5 +1,5 @@
 ---
-title: Функция ГИПЕРССЫЛКИ
+title: Функция HYPERLINK
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19813917"
 ---
-# <a name="hyperlink-function"></a>Функция ГИПЕРССЫЛКИ
+# <a name="hyperlink-function"></a>Функция HYPERLINK
 
 Переходит по указанному адресу, который может быть файл, UNC или URL-адрес путь.
   

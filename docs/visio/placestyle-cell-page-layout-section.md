@@ -1,5 +1,5 @@
 ---
-title: Ячейка PlaceStyle (раздел макет страницы)
+title: Ячейка PlaceStyle (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814376"
 ---
-# <a name="placestyle-cell-page-layout-section"></a>Ячейка PlaceStyle (раздел макет страницы)
+# <a name="placestyle-cell-page-layout-section"></a>Ячейка PlaceStyle (раздел "Макет страницы")
 
 Определяет способ расположения на странице при размещении фигур с помощью диалоговое окно **Настройка макета** (на вкладке **Конструктор** в группе **Макет** нажмите кнопку **Изменить расположение**и нажмите кнопку **Дополнительные параметры расположения**).
   

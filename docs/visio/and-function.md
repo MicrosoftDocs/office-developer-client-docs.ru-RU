@@ -1,5 +1,5 @@
 ---
-title: И функции
+title: Функция AND
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813163"
 ---
-# <a name="and-function"></a>И функции
+# <a name="and-function"></a>Функция AND
 
 Возвращает значение TRUE (1), если все предоставленные логические выражения имеют значение TRUE. Если какие-либо из логических выражений, FALSE или 0, функция и возвращает значение FALSE (0).
   

@@ -1,5 +1,5 @@
 ---
-title: Функция Повтор
+title: Функция REPT
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814628"
 ---
-# <a name="rept-function"></a>Функция Повтор
+# <a name="rept-function"></a>Функция REPT
 
 Повторяет текст заданное количество раз. 
   

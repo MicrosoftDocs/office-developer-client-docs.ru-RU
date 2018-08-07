@@ -1,5 +1,5 @@
 ---
-title: Ячейка QuickStyleShadowColor (экспресс-стилей раздел)
+title: Ячейка QuickStyleShadowColor (раздел "Экспресс-стиль")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19814518"
 ---
-# <a name="quickstyleshadowcolor-cell-quick-style-section"></a>Ячейка QuickStyleShadowColor (экспресс-стилей раздел)
+# <a name="quickstyleshadowcolor-cell-quick-style-section"></a>Ячейка QuickStyleShadowColor (раздел "Экспресс-стиль")
 
 Определяет, какой цвет темы, которая использует тени фигуры, как целое число от 0 до 7.
   

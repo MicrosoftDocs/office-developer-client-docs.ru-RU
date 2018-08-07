@@ -1,5 +1,5 @@
 ---
-title: Функция ТЕНЬ
+title: Функция SHADE
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814756"
 ---
-# <a name="shade-function"></a>Функция ТЕНЬ
+# <a name="shade-function"></a>Функция SHADE
 
 Изменяет цвет, уменьшая яркость на величину (положительное или отрицательное), указанный в параметре _int_ . 
   

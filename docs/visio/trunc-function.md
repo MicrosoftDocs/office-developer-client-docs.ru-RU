@@ -1,5 +1,5 @@
 ---
-title: Функция ОТБР
+title: Функция TRUNC
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815065"
 ---
-# <a name="trunc-function"></a>Функция ОТБР
+# <a name="trunc-function"></a>Функция TRUNC
 
 Возвращает число сокращается до указанного количества десятичных разрядов.
   

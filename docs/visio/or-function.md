@@ -1,5 +1,5 @@
 ---
-title: ИЛИ функция
+title: Функция OR
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814325"
 ---
-# <a name="or-function"></a>ИЛИ функция
+# <a name="or-function"></a>Функция OR
 
 Возвращает значение TRUE (1), если какие-либо логических выражений, переданных в качестве параметров имеют значение TRUE.
   

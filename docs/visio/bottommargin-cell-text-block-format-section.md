@@ -1,5 +1,5 @@
 ---
-title: Ячейка BottomMargin (раздел формат блока текст)
+title: Ячейка BottomMargin (раздел "Формат текстового блока")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813301"
 ---
-# <a name="bottommargin-cell-text-block-format-section"></a>Ячейка BottomMargin (раздел формат блока текст)
+# <a name="bottommargin-cell-text-block-format-section"></a>Ячейка BottomMargin (раздел "Формат текстового блока")
 
 Определяет расстояние между нижней границы блока текста и последней строки текста, которые он содержит. Значение по умолчанию — 0,1 дюйма. Это значение не зависит от масштаба документа. Если документа изменяется, нижнее остается неизменным.
   

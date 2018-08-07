@@ -1,5 +1,5 @@
 ---
-title: Ячейка LineGradientDir (градиента Properties Section)
+title: Ячейка LineGradientDir (раздел "Свойства градиента")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814089"
 ---
-# <a name="linegradientdir-cell-gradient-properties-section"></a>Ячейка LineGradientDir (градиента Properties Section)
+# <a name="linegradientdir-cell-gradient-properties-section"></a>Ячейка LineGradientDir (раздел "Свойства градиента")
 
 Определяет направление градиента строки. Градиент линейно, Радиальное, прямоугольный, или выполните путь. 
   

@@ -1,5 +1,5 @@
 ---
-title: Строка PolylineTo (раздел геометрии)
+title: Строка PolylineTo (раздел "Геометрия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814388"
 ---
-# <a name="polylineto-row-geometry-section"></a>Строка PolylineTo (раздел геометрии)
+# <a name="polylineto-row-geometry-section"></a>Строка PolylineTo (раздел "Геометрия")
 
 Содержит *x* - и *y* -координаты последнего точки ломаной и ломаной формулы. 
   
@@ -25,7 +25,7 @@ ms.locfileid: "19814388"
 |**Cell**|**Описание**|
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |*X* -координаты окончания вершины ломаной.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -координат окончания вершины ломаной.  <br/> |
+|[Да](y-cell-geometry-section.md) <br/> |*Y* -координат окончания вершины ломаной.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |Формула ломаной.  <br/> |
    
 ## <a name="remarks"></a>Замечания

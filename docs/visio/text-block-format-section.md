@@ -1,5 +1,5 @@
 ---
-title: Раздел формат блока текста
+title: Раздел "Формат текстового блока"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814995"
 ---
-# <a name="text-block-format-section"></a>Раздел формат блока текста
+# <a name="text-block-format-section"></a>Раздел "Формат текстового блока"
 
 Содержит ячейки, которые управляют выравнивание, поля и по умолчанию позиции табуляции текста в блоке текста фигуры.
   

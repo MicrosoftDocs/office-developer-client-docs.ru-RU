@@ -1,5 +1,5 @@
 ---
-title: Раздел геометрии
+title: Раздел "Геометрия"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813839"
 ---
-# <a name="geometry-section"></a>Раздел геометрии
+# <a name="geometry-section"></a>Раздел "Геометрия"
 
 Содержит строки, в которых перечислены координаты грани для линий и дуг, образующих фигуру. 
   

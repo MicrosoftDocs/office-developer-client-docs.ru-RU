@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageLineJumpDirX (раздел макет страницы)
+title: Ячейка PageLineJumpDirX (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814338"
 ---
-# <a name="pagelinejumpdirx-cell-page-layout-section"></a>Ячейка PageLineJumpDirX (раздел макет страницы)
+# <a name="pagelinejumpdirx-cell-page-layout-section"></a>Ячейка PageLineJumpDirX (раздел "Макет страницы")
 
 Определяет направление строки пересечения на горизонтальную динамических соединители на странице документа, для которого не применяются локальные направление.
   

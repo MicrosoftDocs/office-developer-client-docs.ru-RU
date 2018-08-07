@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageShapeSplit (раздел макет страницы)
+title: Ячейка PageShapeSplit (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814353"
 ---
-# <a name="pageshapesplit-cell-page-layout-section"></a>Ячейка PageShapeSplit (раздел макет страницы)
+# <a name="pageshapesplit-cell-page-layout-section"></a>Ячейка PageShapeSplit (раздел "Макет страницы")
 
 Указывает, может ли автоматически разделение фигур на странице.
   

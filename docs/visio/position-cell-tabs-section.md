@@ -1,5 +1,5 @@
 ---
-title: Положение ячейки (вкладки раздел)
+title: Ячейка Position (раздел "Вкладки")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814481"
 ---
-# <a name="position-cell-tabs-section"></a>Положение ячейки (вкладки раздел)
+# <a name="position-cell-tabs-section"></a>Ячейка Position (раздел "Вкладки")
 
 Задает позиции табуляции. Положение вкладки не зависит от масштаба документа. Если документа изменяется, положение вкладки не изменится.
   

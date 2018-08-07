@@ -88,6 +88,6 @@ ms.locfileid: "19815075"
 |RecalcType  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **ТИПА** .  <br/> |
 |RelChanged  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **CONTAINERMEMBERCOUNT** .  <br/> |
 |ZOrderChanged  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице, когда есть ссылка кросс часть, с помощью функции **CONTAINERSHEETREF** .  <br/> |
-|Путь  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при получении нескольких частей ссылки, с помощью функции **POINTALONGPATH**, **PATHLENGTH**или **PATHSEGMENT** существует.  <br/> |
+|Path  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при получении нескольких частей ссылки, с помощью функции **POINTALONGPATH**, **PATHLENGTH**или **PATHSEGMENT** существует.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: PinY ячейки (раздел Преобразование фигуры)
+title: Ячейка PinY (раздел "Преобразование фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814367"
 ---
-# <a name="piny-cell-shape-transform-section"></a>PinY ячейки (раздел Преобразование фигуры)
+# <a name="piny-cell-shape-transform-section"></a>Ячейка PinY (раздел "Преобразование фигуры")
 
 Представляет *y* -координата ПИН-код фигуры (центр вращения) относительно начала родительского элемента. 
   

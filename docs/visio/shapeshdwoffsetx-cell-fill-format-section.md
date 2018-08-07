@@ -1,5 +1,5 @@
 ---
-title: Ячейка ShapeShdwOffsetX (раздел формата заливки)
+title: Ячейка ShapeShdwOffsetX (раздел "Формат заливки")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814806"
 ---
-# <a name="shapeshdwoffsetx-cell-fill-format-section"></a>Ячейка ShapeShdwOffsetX (раздел формата заливки)
+# <a name="shapeshdwoffsetx-cell-fill-format-section"></a>Ячейка ShapeShdwOffsetX (раздел "Формат заливки")
 
 Определяет расстояние смещения тени фигуры по горизонтали относительно фигуры в единицах страницы.
   

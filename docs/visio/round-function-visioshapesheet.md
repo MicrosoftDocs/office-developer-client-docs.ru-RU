@@ -1,5 +1,5 @@
 ---
-title: Функция ROUND (VisioShapeSheet)
+title: ROUND Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19814637"
 ---
-# <a name="round-function-visioshapesheet"></a>Функция ROUND (VisioShapeSheet)
+# <a name="round-function-visioshapesheet"></a>ROUND Function (VisioShapeSheet)
 
 Округляет число до точности, представленное *усеченное* . 
   

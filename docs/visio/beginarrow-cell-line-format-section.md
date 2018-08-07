@@ -1,5 +1,5 @@
 ---
-title: Ячейка BeginArrow (раздел формат строки)
+title: Ячейка BeginArrow (раздел "Формат линий")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813172"
 ---
-# <a name="beginarrow-cell-line-format-section"></a>Ячейка BeginArrow (раздел формат строки)
+# <a name="beginarrow-cell-line-format-section"></a>Ячейка BeginArrow (раздел "Формат линий")
 
 Указывает, будет ли линия стрелки или другой формат окончания строки в первой вершине. Введите число от 0 до 45 или использовать функцию с именем конец настраиваемой строки или используйте диалоговое окно **строки** . 
   

@@ -1,5 +1,5 @@
 ---
-title: Запрос ячейки (раздел данных фигуры)
+title: Ячейка Prompt (раздел "Данные фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814486"
 ---
-# <a name="prompt-cell-shape-data-section"></a>Запрос ячейки (раздел данных фигуры)
+# <a name="prompt-cell-shape-data-section"></a>Ячейка Prompt (раздел "Данные фигуры")
 
 Задает описательный или управляющий текст, который отображается в виде подсказки при наведении курсора на значение в окне **Данных фигуры** . 
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка связывающих (слои раздел)
+title: Ячейка Glue (раздел "Слои")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813848"
 ---
-# <a name="glue-cell-layers-section"></a>Ячейка связывающих (слои раздел)
+# <a name="glue-cell-layers-section"></a>Ячейка Glue (раздел "Слои")
 
 Указывает, может быть связан фигур, относящегося к слою.
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockCrop (раздел Защита)
+title: Ячейка LockCrop (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814125"
 ---
-# <a name="lockcrop-cell-protection-section"></a>Ячейка LockCrop (раздел Защита)
+# <a name="lockcrop-cell-protection-section"></a>Ячейка LockCrop (раздел "Защита")
 
 Блокирует объект из другой программы от обрезки с помощью **Обрезка** . 
   

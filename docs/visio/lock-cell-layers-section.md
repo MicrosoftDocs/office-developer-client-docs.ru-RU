@@ -1,5 +1,5 @@
 ---
-title: Блокирование ячейки (слои раздел)
+title: Ячейка Lock (раздел "Слои")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814112"
 ---
-# <a name="lock-cell-layers-section"></a>Блокирование ячейки (слои раздел)
+# <a name="lock-cell-layers-section"></a>Ячейка Lock (раздел "Слои")
 
 Указывает, заблокирован ли фигур, относящегося к слою от выбора и редактирования.
   

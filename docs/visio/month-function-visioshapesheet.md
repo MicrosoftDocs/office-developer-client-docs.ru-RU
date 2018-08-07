@@ -1,5 +1,5 @@
 ---
-title: Функция MONTH (VisioShapeSheet)
+title: MONTH Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814285"
 ---
-# <a name="month-function-visioshapesheet"></a>Функция MONTH (VisioShapeSheet)
+# <a name="month-function-visioshapesheet"></a>MONTH Function (VisioShapeSheet)
 
 Возвращает целое число от 1 до 12, представляющее месяц.
   

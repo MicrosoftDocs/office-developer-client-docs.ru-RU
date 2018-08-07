@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockCalcWH (раздел Защита)
+title: Ячейка LockCalcWH (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814119"
 ---
-# <a name="lockcalcwh-cell-protection-section"></a>Ячейка LockCalcWH (раздел Защита)
+# <a name="lockcalcwh-cell-protection-section"></a>Ячейка LockCalcWH (раздел "Защита")
 
 Блокирует прямоугольник выделения фигуры, чтобы ее нельзя было обновить при редактировании узел или изменить тип строки в раздел геометрии.
   

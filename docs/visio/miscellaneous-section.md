@@ -1,5 +1,5 @@
 ---
-title: Раздел Разное
+title: Раздел "Прочее"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814281"
 ---
-# <a name="miscellaneous-section"></a>Раздел Разное
+# <a name="miscellaneous-section"></a>Раздел "Прочее"
 
 Содержит различные атрибуты фигур и групп, таких как выделение элемента управления выбора и видимости.
   

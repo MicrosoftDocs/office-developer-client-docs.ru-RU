@@ -42,7 +42,7 @@ ms.locfileid: "19814554"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Образец](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Задает один экземпляр главной XML, хранимых в документе.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Задает один экземпляр главной XML, хранимых в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

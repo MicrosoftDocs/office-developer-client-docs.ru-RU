@@ -1,5 +1,5 @@
 ---
-title: Дополнительный адрес ячейки (гиперссылок раздел)
+title: Ячейка SubAddress (раздел "Гиперссылки")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814972"
 ---
-# <a name="subaddress-cell-hyperlinks-section"></a>Дополнительный адрес ячейки (гиперссылок раздел)
+# <a name="subaddress-cell-hyperlinks-section"></a>Ячейка SubAddress (раздел "Гиперссылки")
 
 Указывает расположение в документе, чтобы связать.
   

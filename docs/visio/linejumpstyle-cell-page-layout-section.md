@@ -1,5 +1,5 @@
 ---
-title: Ячейка LineJumpStyle (раздел макет страницы)
+title: Ячейка LineJumpStyle (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814088"
 ---
-# <a name="linejumpstyle-cell-page-layout-section"></a>Ячейка LineJumpStyle (раздел макет страницы)
+# <a name="linejumpstyle-cell-page-layout-section"></a>Ячейка LineJumpStyle (раздел "Макет страницы")
 
 Определяет стиль значка для всех соединителей на странице документа, не имеющих локальных стиль перехода.
   

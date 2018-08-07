@@ -1,5 +1,5 @@
 ---
-title: Раздел текстовых полей
+title: Раздел "Текстовые поля"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814999"
 ---
-# <a name="text-fields-section"></a>Раздел текстовых полей
+# <a name="text-fields-section"></a>Раздел "Текстовые поля"
 
 Отображает функций и формул вставлен в тексте фигуры с помощью диалогового окна **поля** . 
   

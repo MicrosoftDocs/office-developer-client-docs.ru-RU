@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockThemeIndex (раздел Защита)
+title: Ячейка LockThemeIndex (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814158"
 ---
-# <a name="lockthemeindex-cell-protection-section"></a>Ячейка LockThemeIndex (раздел Защита)
+# <a name="lockthemeindex-cell-protection-section"></a>Ячейка LockThemeIndex (раздел "Защита")
 
 Запрещает **ThemeIndex** ячейка в строке **Темы свойств** изменяются применение новой темы или выбрать новую схему соединителя. Запрещает пользователям изменять это значение в таблице свойств фигуры вручную. 
   

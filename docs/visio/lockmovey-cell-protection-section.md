@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockMoveY (раздел Защита)
+title: Ячейка LockMoveY (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814136"
 ---
-# <a name="lockmovey-cell-protection-section"></a>Ячейка LockMoveY (раздел Защита)
+# <a name="lockmovey-cell-protection-section"></a>Ячейка LockMoveY (раздел "Защита")
 
 Блокирует вертикальную позицию фигуры, чтобы он не перемещаться по вертикали.
   

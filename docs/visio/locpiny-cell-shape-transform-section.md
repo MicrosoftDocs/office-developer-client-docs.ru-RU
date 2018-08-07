@@ -1,5 +1,5 @@
 ---
-title: Ячейка LocPinY (раздел Преобразование фигуры)
+title: Ячейка LocPinY (раздел "Преобразование фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814166"
 ---
-# <a name="locpiny-cell-shape-transform-section"></a>Ячейка LocPinY (раздел Преобразование фигуры)
+# <a name="locpiny-cell-shape-transform-section"></a>Ячейка LocPinY (раздел "Преобразование фигуры")
 
 Представляет *y* -координата ПИН-код фигуры (центр вращения) относительно начала фигуры. Формула для расчета LocPinX — это: 
   

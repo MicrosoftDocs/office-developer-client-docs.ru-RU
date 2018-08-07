@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockReplace (раздел Защита)
+title: Ячейка LockReplace (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814138"
 ---
-# <a name="lockreplace-cell-protection-section"></a>Ячейка LockReplace (раздел Защита)
+# <a name="lockreplace-cell-protection-section"></a>Ячейка LockReplace (раздел "Защита")
 
 Указывает, является ли фигура может принимать участие в операции замены (в качестве целевого или фигуры замещения). 
   

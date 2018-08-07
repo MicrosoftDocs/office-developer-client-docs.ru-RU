@@ -1,5 +1,5 @@
 ---
-title: Ячейке D (раздел геометрии)
+title: Ячейка D (раздел "Геометрия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813517"
 ---
-# <a name="d-cell-geometry-section"></a>Ячейке D (раздел геометрии)
+# <a name="d-cell-geometry-section"></a>Ячейка D (раздел "Геометрия")
 
 Представляет различные сведения в различных строк. В следующей таблице описаны ячейке D, основанную на строке, в котором он находится.
   

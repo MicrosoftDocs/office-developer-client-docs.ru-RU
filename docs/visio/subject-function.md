@@ -1,5 +1,5 @@
 ---
-title: Функция ТЕМЫ
+title: Функция SUBJECT
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814964"
 ---
-# <a name="subject-function"></a>Функция ТЕМЫ
+# <a name="subject-function"></a>Функция SUBJECT
 
 Возвращает текст из поля " **Тема** " в свойствах документа. 
   

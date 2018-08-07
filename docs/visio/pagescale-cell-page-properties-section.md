@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageScale (раздел страницы свойств)
+title: Ячейка PageScale (раздел "Свойства страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814378"
 ---
-# <a name="pagescale-cell-page-properties-section"></a>Ячейка PageScale (раздел страницы свойств)
+# <a name="pagescale-cell-page-properties-section"></a>Ячейка PageScale (раздел "Свойства страницы")
 
 Определяет значение единицы страницы в текущем масштабе документа. Масштаб документа для страницы представляет собой отношение единицы страницы в ячейке PageScale к единице документа в ячейке DrawingScale.
   

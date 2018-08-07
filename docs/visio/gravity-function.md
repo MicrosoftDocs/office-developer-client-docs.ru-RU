@@ -1,5 +1,5 @@
 ---
-title: Функция ВЕСА
+title: Функция GRAVITY
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19813864"
 ---
-# <a name="gravity-function"></a>Функция ВЕСА
+# <a name="gravity-function"></a>Функция GRAVITY
 
 Вычисляет блок текста правильный угол вращения для вращение указанного фигуры для предотвращения текст и включение сверху вниз.
   

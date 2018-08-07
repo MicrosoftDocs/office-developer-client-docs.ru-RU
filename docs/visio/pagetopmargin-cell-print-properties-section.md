@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageTopMargin (печати Properties Section)
+title: Ячейка PageTopMargin (раздел "Свойства печати")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814346"
 ---
-# <a name="pagetopmargin-cell-print-properties-section"></a>Ячейка PageTopMargin (печати Properties Section)
+# <a name="pagetopmargin-cell-print-properties-section"></a>Ячейка PageTopMargin (раздел "Свойства печати")
 
 Задает поле в верхней части страницы принтера.
   

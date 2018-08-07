@@ -1,5 +1,5 @@
 ---
-title: Функции МОДУЛЯ
+title: Функция MODULUS
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814284"
 ---
-# <a name="modulus-function"></a>Функции МОДУЛЯ
+# <a name="modulus-function"></a>Функция MODULUS
 
 Возвращает остаток от деления, полученные при делении числа на делителя.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19814284"
    
 ### <a name="return-value"></a>������������ ��������
 
-Число
+Number
   
 ## <a name="remarks"></a>Замечания
 

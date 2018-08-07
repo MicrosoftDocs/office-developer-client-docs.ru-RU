@@ -1,5 +1,5 @@
 ---
-title: Функция тонового СИГНАЛА
+title: Функция TONE
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815052"
 ---
-# <a name="tone-function"></a>Функция тонового СИГНАЛА
+# <a name="tone-function"></a>Функция TONE
 
 Изменяет цвет, уменьшая насыщенность на величину, указанную в параметре _int_ . 
   

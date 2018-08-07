@@ -15,100 +15,100 @@ ms.locfileid: "19814734"
 ---
 # <a name="sections-visio-shapesheet-reference"></a>Разделы (Справочник по таблице свойств фигуры Visio)
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
-- [Раздел 1 D конечных точек](1-d-endpoints-section.md)
+- [Раздел "Одномерные конечные точки"](1-d-endpoints-section.md)
     
-- [Поворот объемной свойства раздела](3-d-rotation-properties-section.md)
+- [Раздел "Свойства поворота объемной фигуры"](3-d-rotation-properties-section.md)
     
-- [Раздел действий тега](action-tag-section.md)
+- [Раздел "Теги действий"](action-tag-section.md)
     
-- [Раздел действий](actions-section.md)
+- [Раздел "Действия"](actions-section.md)
     
-- [В разделе влияние дополнительных свойств](additional-effect-properties-section.md)
+- [Раздел "Дополнительные свойства эффекта"](additional-effect-properties-section.md)
     
-- [Выравнивание разделов](alignment-section.md)
+- [Раздел "Выравнивание"](alignment-section.md)
     
-- [Раздел заметки](annotation-section.md)
+- [Раздел "Примечание"](annotation-section.md)
     
-- [В разделе свойств Багетная рамка](bevel-properties-section.md)
+- [Раздел "Свойства багетной рамки"](bevel-properties-section.md)
     
-- [Изменение раздела поведение фигуры](change-shape-behavior-section.md)
+- [Раздел "Изменение поведения фигуры"](change-shape-behavior-section.md)
     
-- [Раздел знаков](character-section.md)
+- [Раздел "Символ"](character-section.md)
     
-- [Указывает раздел подключение](connection-points-section.md)
+- [Раздел "Точки соединения"](connection-points-section.md)
     
-- [Раздел элементов управления](controls-section.md)
+- [Раздел "Элементы управления"](controls-section.md)
     
-- [В разделе свойств документа](document-properties-section.md)
+- [Раздел "Свойства документа"](document-properties-section.md)
     
-- [Раздел события](events-section.md)
+- [Раздел "События"](events-section.md)
     
-- [Заполните поля в разделе формат](fill-format-section.md)
+- [Раздел "Формат заливки"](fill-format-section.md)
     
-- [Заполните поля градиента раздел](fill-gradient-section.md)
+- [Раздел "Градиентная заливка"](fill-gradient-section.md)
     
-- [Раздел внешнего изображения](foreign-image-info-section.md)
+- [Раздел "Сведения о внешнем изображении"](foreign-image-info-section.md)
     
-- [Раздел геометрии](geometry-section.md)
+- [Раздел "Геометрия"](geometry-section.md)
     
-- [Раздел связывающих](glue-info-section.md)
+- [Раздел "Сведения о приклеивании"](glue-info-section.md)
     
-- [В разделе градиента свойств](gradient-properties-section.md)
+- [Раздел "Свойства градиента"](gradient-properties-section.md)
     
-- [Раздел Свойства группы](group-properties-section.md)
+- [Раздел "Свойства группы"](group-properties-section.md)
     
-- [Раздел гиперссылок](hyperlinks-section.md)
+- [Раздел "Гиперссылки"](hyperlinks-section.md)
     
-- [Раздел Свойства изображения](image-properties-section.md)
+- [Раздел "Свойства изображения"](image-properties-section.md)
     
-- [Раздел уровня членства](layer-membership-section.md)
+- [Раздел "Размещение по слоям"](layer-membership-section.md)
     
-- [Раздел слоев](layers-section.md)
+- [Раздел "Слои"](layers-section.md)
     
-- [Раздел формат строки](line-format-section.md)
+- [Раздел "Формат линии"](line-format-section.md)
     
-- [Раздел градиента строки](line-gradient-section.md)
+- [Раздел "Градиентная линия"](line-gradient-section.md)
     
-- [Раздел Разное](miscellaneous-section.md)
+- [Раздел "Прочее"](miscellaneous-section.md)
     
-- [Раздел макет страницы](page-layout-section.md)
+- [Раздел "Макет страницы"](page-layout-section.md)
     
-- [В разделе Страница свойств](page-properties-section.md)
+- [Раздел "Свойства страницы"](page-properties-section.md)
     
-- [Раздел абзаца](paragraph-section.md)
+- [Раздел "Абзац"](paragraph-section.md)
     
-- [Раздел Параметры печати](print-properties-section.md)
+- [Раздел "Свойства печати"](print-properties-section.md)
     
-- [Защита раздела](protection-section.md)
+- [Раздел "Защита"](protection-section.md)
     
-- [Раздел экспресс-стилей](quick-style-section.md)
+- [Раздел "Экспресс-стиль"](quick-style-section.md)
     
-- [Раздел редактор](reviewer-section.md)
+- [Раздел "Рецензент"](reviewer-section.md)
     
 - [Линейки &amp; раздел сетки](rulergrid-section.md)
     
-- [Вспомогательный раздел](scratch-section.md)
+- [Раздел "Вспомогательный"](scratch-section.md)
     
-- [Раздел данных фигуры](shape-data-section.md)
+- [Раздел "Данные фигуры"](shape-data-section.md)
     
-- [Раздел макет фигуры](shape-layout-section.md)
+- [Раздел "Макет фигуры"](shape-layout-section.md)
     
-- [Раздел Преобразование фигуры](shape-transform-section.md)
+- [Раздел "Преобразование фигуры"](shape-transform-section.md)
     
-- [Раздел свойства стилей](style-properties-section.md)
+- [Раздел "Свойства стиля"](style-properties-section.md)
     
-- [Раздел вкладок](tabs-section.md)
+- [Раздел "Вкладки"](tabs-section.md)
     
-- [Раздел формат блока текста](text-block-format-section.md)
+- [Раздел "Формат текстового блока"](text-block-format-section.md)
     
-- [Раздел текстовых полей](text-fields-section.md)
+- [Раздел "Текстовые поля"](text-fields-section.md)
     
-- [Раздел Преобразование текста](text-transform-section.md)
+- [Раздел "Преобразование текста"](text-transform-section.md)
     
-- [Раздел Свойства темы](theme-properties-section.md)
+- [Раздел "Свойства темы"](theme-properties-section.md)
     
-- [Раздел пользовательские ячейки](user-defined-cells-section.md)
+- [Раздел "Пользовательские ячейки"](user-defined-cells-section.md)
     
 

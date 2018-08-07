@@ -1,5 +1,5 @@
 ---
-title: Ячейка ShapePlaceStyle (раздел макет фигуры)
+title: Ячейка ShapePlaceStyle (раздел "Макет фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,11 +16,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814781"
 ---
-# <a name="shapeplacestyle-cell-shape-layout-section"></a>Ячейка ShapePlaceStyle (раздел макет фигуры)
+# <a name="shapeplacestyle-cell-shape-layout-section"></a>Ячейка ShapePlaceStyle (раздел "Макет фигуры")
 
 Указывает размещение фигуры на странице расположения фигур в диалоговом окне " **Настройка макета** " (на вкладке **Конструктор** в группе **Макет** нажмите кнопку **Изменить расположение**и нажмите кнопку **Дополнительные параметры расположения**). Сохранение макета стиля и выравнивание значений из **VisCellIndices**. 
   
-|**Константы**|**Значение**|
+|**Constant**|**Значение**|
 |:-----|:-----|
 |**visLOPlaceBottomToTop** <br/> |4  <br/> |
 |**visLOPlaceCircular** <br/> |6  <br/> |

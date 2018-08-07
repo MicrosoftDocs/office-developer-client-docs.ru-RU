@@ -1,5 +1,5 @@
 ---
-title: Выравнивание ячейки (вкладки раздел)
+title: Ячейка Alignment (раздел "Вкладки")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813139"
 ---
-# <a name="alignment-cell-tabs-section"></a>Выравнивание ячейки (вкладки раздел)
+# <a name="alignment-cell-tabs-section"></a>Ячейка Alignment (раздел "Вкладки")
 
 Задает выравнивание табуляции.
   
 |**Значение**|**Выравнивание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | Слева  <br/> |**visTabStopLeft** <br/> |
-| 1  <br/> | Центр  <br/> |**visTabStopCenter** <br/> |
-| 2  <br/> | Правильно  <br/> |**visTabStopRight** <br/> |
+| 0  <br/> | Left  <br/> |**visTabStopLeft** <br/> |
+| 1  <br/> | Center  <br/> |**visTabStopCenter** <br/> |
+| 2  <br/> | Right  <br/> |**visTabStopRight** <br/> |
 | 3  <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
 | 4  <br/> | Разделители  <br/> |**visTabStopComma** <br/> |
    

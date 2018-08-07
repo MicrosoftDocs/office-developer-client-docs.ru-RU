@@ -1,5 +1,5 @@
 ---
-title: Ячейка ReplaceLockFormat (изменение фигуры поведение раздел)
+title: Ячейка ReplaceLockFormat (раздел "Изменение поведения фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814579"
 ---
-# <a name="replacelockformat-cell-change-shape-behavior-section"></a>Ячейка ReplaceLockFormat (изменение фигуры поведение раздел)
+# <a name="replacelockformat-cell-change-shape-behavior-section"></a>Ячейка ReplaceLockFormat (раздел "Изменение поведения фигуры")
 
 Указывает ли значений указанного ячеек в основной фигуры перезаписи значений (в том числе локального значения) во время операции замены фигуры в процессе замены фигуры. Если ячейка **ReplaceLockFormat** основной фигуры задано значение TRUE (1), форматирования значения хозяином перезаписать все соответствующие значения заменяется основной фигуры. 
   

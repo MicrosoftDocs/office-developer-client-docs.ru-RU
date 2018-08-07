@@ -1,5 +1,5 @@
 ---
-title: Ячейка LineJumpFactorY (раздел макет страницы)
+title: Ячейка LineJumpFactorY (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814098"
 ---
-# <a name="linejumpfactory-cell-page-layout-section"></a>Ячейка LineJumpFactorY (раздел макет страницы)
+# <a name="linejumpfactory-cell-page-layout-section"></a>Ячейка LineJumpFactorY (раздел "Макет страницы")
 
 Определяет размер строки пересечения на вертикальной динамической соединители на странице относительно значения ячейки LineToLineY. Значение ячейки можно в диапазоне от 0 до 10, но рекомендуется дробная значения от 0 до 1.
   

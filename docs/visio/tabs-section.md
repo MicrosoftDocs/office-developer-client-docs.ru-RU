@@ -1,5 +1,5 @@
 ---
-title: Раздел вкладок
+title: Раздел "Вкладки"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814973"
 ---
-# <a name="tabs-section"></a>Раздел вкладок
+# <a name="tabs-section"></a>Раздел "Вкладки"
 
 Содержит ячейки для фигур или стилей, которые управляют позиции табуляции и выравнивание.
   

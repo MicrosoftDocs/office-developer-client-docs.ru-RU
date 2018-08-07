@@ -1,5 +1,5 @@
 ---
-title: Ячейка TagName (действие помечает раздел)
+title: Ячейка TagName (раздел "Теги действий")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814980"
 ---
-# <a name="tagname-cell-action-tags-section"></a>Ячейка TagName (действие помечает раздел)
+# <a name="tagname-cell-action-tags-section"></a>Ячейка TagName (раздел "Теги действий")
 
 Имя тега действия, который используется в качестве ключа для связывания тега действия с его действиями.
   

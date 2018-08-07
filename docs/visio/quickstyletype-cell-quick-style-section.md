@@ -1,5 +1,5 @@
 ---
-title: Ячейка QuickStyleType (экспресс-стилей раздел)
+title: Ячейка QuickStyleType (раздел "Экспресс-стиль")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814514"
 ---
-# <a name="quickstyletype-cell-quick-style-section"></a>Ячейка QuickStyleType (экспресс-стилей раздел)
+# <a name="quickstyletype-cell-quick-style-section"></a>Ячейка QuickStyleType (раздел "Экспресс-стиль")
 
 Определяет тип экспресс-стилей (2 измерения, 1 измерения или соединитель), который наследует фигуры. 
   

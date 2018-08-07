@@ -1,5 +1,5 @@
 ---
-title: Ячейка LineRouteExt (раздел макет страницы)
+title: Ячейка LineRouteExt (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814101"
 ---
-# <a name="linerouteext-cell-page-layout-section"></a>Ячейка LineRouteExt (раздел макет страницы)
+# <a name="linerouteext-cell-page-layout-section"></a>Ячейка LineRouteExt (раздел "Макет страницы")
 
 Определяет вид по умолчанию для всех соединителей на странице документа.
   

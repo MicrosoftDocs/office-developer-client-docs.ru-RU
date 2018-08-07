@@ -1,5 +1,5 @@
 ---
-title: Попросите ячейки (раздел данных фигуры)
+title: Ячейка Ask (раздел "Данные фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813147"
 ---
-# <a name="ask-cell-shape-data-section"></a>Попросите ячейки (раздел данных фигуры)
+# <a name="ask-cell-shape-data-section"></a>Ячейка Ask (раздел "Данные фигуры")
 
 Определяет, является ли пользователь будет опрошен для ввода данных фигур для фигуры при создании экземпляра или фигуры и копировании.
   

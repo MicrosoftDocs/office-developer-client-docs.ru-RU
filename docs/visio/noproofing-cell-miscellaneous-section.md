@@ -1,5 +1,5 @@
 ---
-title: Без проверки ячейки (раздел Разное)
+title: Ячейка NoProofing (раздел "Прочее")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19814301"
 ---
-# <a name="noproofing-cell-miscellaneous-section"></a>Без проверки ячейки (раздел Разное)
+# <a name="noproofing-cell-miscellaneous-section"></a>Ячейка NoProofing (раздел "Прочее")
 
 Определяет, является ли автоматическое исправление правописания и отображение орфографические ошибки для выбранной фигуры. Получает **логическое** значение. 
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка ВысотаТекста (раздел Преобразование текст)
+title: Ячейка TxtHeight (раздел "Преобразование текста")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815080"
 ---
-# <a name="txtheight-cell-text-transform-section"></a>Ячейка ВысотаТекста (раздел Преобразование текст)
+# <a name="txtheight-cell-text-transform-section"></a>Ячейка TxtHeight (раздел "Преобразование текста")
 
 Определяет высоту блока текста. Формула по умолчанию имеет вид:
   

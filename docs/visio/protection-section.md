@@ -1,5 +1,5 @@
 ---
-title: Защита раздела
+title: Раздел "Защита"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814495"
 ---
-# <a name="protection-section"></a>Защита раздела
+# <a name="protection-section"></a>Раздел "Защита"
 
 Показан набор текущие параметры блокировки с помощью команды **Protection** (вкладки " [Разработчик](run-in-developer-mode-display-the-developer-tab.md) "), а также несколько дополнительных блокировок, которые могут быть заданы только в окно таблицы свойств фигуры. 
   

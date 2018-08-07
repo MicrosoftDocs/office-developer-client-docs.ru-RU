@@ -1,5 +1,5 @@
 ---
-title: Линейки &amp; раздел сетки
+title: Раздел "Линейка и сетка"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814695"
 ---
-# <a name="ruler-amp-grid-section"></a>Линейки &amp; раздел сетки
+# <a name="ruler-amp-grid-section"></a>Раздел "Линейка и сетка"
 
 Отображает текущие параметры страницы линейки и сетки.
   

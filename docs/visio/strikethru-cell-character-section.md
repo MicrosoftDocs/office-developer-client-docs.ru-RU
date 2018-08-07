@@ -1,5 +1,5 @@
 ---
-title: Ячейка Strikethru (раздел знаков)
+title: Ячейка Strikethru (раздел "Символ")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814962"
 ---
-# <a name="strikethru-cell-character-section"></a>Ячейка Strikethru (раздел знаков)
+# <a name="strikethru-cell-character-section"></a>Ячейка Strikethru (раздел "Символ")
 
 Определяет, является ли текст зачеркивание.
   

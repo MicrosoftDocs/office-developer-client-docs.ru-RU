@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockRotate (раздел Защита)
+title: Ячейка LockRotate (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814146"
 ---
-# <a name="lockrotate-cell-protection-section"></a>Ячейка LockRotate (раздел Защита)
+# <a name="lockrotate-cell-protection-section"></a>Ячейка LockRotate (раздел "Защита")
 
 Блокирует плоских фигур с поворот маркер вращения **Поворот левой 90 °** или **Поворот вправо 90 °** команды. 
   

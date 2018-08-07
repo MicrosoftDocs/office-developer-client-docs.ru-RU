@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageLineJumpDirY (раздел макет страницы)
+title: Ячейка PageLineJumpDirY (раздел "Макет страницы")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814349"
 ---
-# <a name="pagelinejumpdiry-cell-page-layout-section"></a>Ячейка PageLineJumpDirY (раздел макет страницы)
+# <a name="pagelinejumpdiry-cell-page-layout-section"></a>Ячейка PageLineJumpDirY (раздел "Макет страницы")
 
 Определяет направление строки пересечения на вертикальной динамической соединители на странице документа, для которого не применяются локальные направление.
   
 |**Значение**|**Направление**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | 0  <br/> | По умолчанию; вверх или параметров страницы для фигур  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1  <br/> | Слева  <br/> |**visLOJumpDirYLeft** <br/> |
-| 2  <br/> | Правильно  <br/> |**visLOJumpDirYRight** <br/> |
+| 1  <br/> | Left  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2  <br/> | Right  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Замечания
 

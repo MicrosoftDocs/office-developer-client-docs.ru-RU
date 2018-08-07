@@ -1,5 +1,5 @@
 ---
-title: Сплайн ячейки (раздел абзаца)
+title: Ячейка SpLine (раздел "Абзац")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814926"
 ---
-# <a name="spline-cell-paragraph-section"></a>Сплайн ячейки (раздел абзаца)
+# <a name="spline-cell-paragraph-section"></a>Ячейка SpLine (раздел "Абзац")
 
 Определяет расстояние между одну строку текста и следующим, выраженная в процентах, где 100% — высота строки текста.
   

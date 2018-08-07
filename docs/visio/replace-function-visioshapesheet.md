@@ -1,5 +1,5 @@
 ---
-title: ЗАМЕНИТЕ функцию (VisioShapeSheet)
+title: REPLACE Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814569"
 ---
-# <a name="replace-function-visioshapesheet"></a>ЗАМЕНИТЕ функцию (VisioShapeSheet)
+# <a name="replace-function-visioshapesheet"></a>REPLACE Function (VisioShapeSheet)
 
 Заменяет часть строки текста, на основе числа символов, с другой строкой текста.
   

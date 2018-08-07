@@ -1,5 +1,5 @@
 ---
-title: Ячейка FillGradientDir (градиента Properties Section)
+title: Ячейка FillGradientDir (раздел "Свойства градиента")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813753"
 ---
-# <a name="fillgradientdir-cell-gradient-properties-section"></a>Ячейка FillGradientDir (градиента Properties Section)
+# <a name="fillgradientdir-cell-gradient-properties-section"></a>Ячейка FillGradientDir (раздел "Свойства градиента")
 
 Определяет направление градиентной заливки. Градиент линейно, Радиальное, прямоугольный, или выполните путь. 
   

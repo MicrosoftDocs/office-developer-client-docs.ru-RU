@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoCoauth (раздел свойств документа)
+title: Ячейка NoCoauth (раздел "Свойства документа")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814302"
 ---
-# <a name="nocoauth-cell-document-properties-section"></a>Ячейка NoCoauth (раздел свойств документа)
+# <a name="nocoauth-cell-document-properties-section"></a>Ячейка NoCoauth (раздел "Свойства документа")
 
 Задает ли документ, хранящийся на сервере Microsoft SharePoint 2013 или Microsoft OneDrive можно редактировать несколькими авторами одновременно в также сеанса.
   

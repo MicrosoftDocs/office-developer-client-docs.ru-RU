@@ -1,5 +1,5 @@
 ---
-title: Функция Яркость
+title: Функция LUM
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814187"
 ---
-# <a name="lum-function"></a>Функция Яркость
+# <a name="lum-function"></a>Функция LUM
 
 Возвращает значение компонента яркости цвета.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19814187"
    
 ### <a name="return-value"></a>������������ ��������
 
-Число
+Number
   
 ## <a name="remarks"></a>Замечания
 

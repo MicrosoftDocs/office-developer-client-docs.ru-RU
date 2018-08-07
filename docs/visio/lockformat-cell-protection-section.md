@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockFormat (раздел Защита)
+title: Ячейка LockFormat (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814130"
 ---
-# <a name="lockformat-cell-protection-section"></a>Ячейка LockFormat (раздел Защита)
+# <a name="lockformat-cell-protection-section"></a>Ячейка LockFormat (раздел "Защита")
 
 Блокирует форматирование фигуры, поэтому его нельзя изменить.
   

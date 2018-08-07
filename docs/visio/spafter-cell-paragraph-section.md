@@ -1,5 +1,5 @@
 ---
-title: Ячейка SpAfter (раздел абзаца)
+title: Ячейка SpAfter (раздел "Абзац")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814950"
 ---
-# <a name="spafter-cell-paragraph-section"></a>Ячейка SpAfter (раздел абзаца)
+# <a name="spafter-cell-paragraph-section"></a>Ячейка SpAfter (раздел "Абзац")
 
 Определяет дискового пространства вставленный после каждого абзаца в блоке текста фигуры пробелов из ячейки сплайн и, если он установлен в последний абзац текстового заблокировать, BottomMargin ячейки.
   

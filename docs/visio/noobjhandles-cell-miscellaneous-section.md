@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoObjHandles (раздел Разное)
+title: Ячейка NoObjHandles (раздел "Прочее")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814324"
 ---
-# <a name="noobjhandles-cell-miscellaneous-section"></a>Ячейка NoObjHandles (раздел Разное)
+# <a name="noobjhandles-cell-miscellaneous-section"></a>Ячейка NoObjHandles (раздел "Прочее")
 
 Включает или отключает отображение маркеров выделения и отключает для выбранной фигуры.
   

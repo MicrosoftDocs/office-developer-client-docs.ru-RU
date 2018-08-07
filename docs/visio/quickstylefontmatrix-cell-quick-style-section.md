@@ -1,5 +1,5 @@
 ---
-title: Ячейка QuickStyleFontMatrix (экспресс-стилей раздел)
+title: Ячейка QuickStyleFontMatrix (раздел "Экспресс-стиль")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814512"
 ---
-# <a name="quickstylefontmatrix-cell-quick-style-section"></a>Ячейка QuickStyleFontMatrix (экспресс-стилей раздел)
+# <a name="quickstylefontmatrix-cell-quick-style-section"></a>Ячейка QuickStyleFontMatrix (раздел "Экспресс-стиль")
 
 Определяет стиль шрифта для каждого экспресс-стилей, как целое число от 1 до 6.
   
