@@ -23,7 +23,7 @@ ms.locfileid: "19812718"
 HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _Рисунок_
   
@@ -35,5 +35,5 @@ _Рисунок_
   
 ## <a name="see-also"></a>См. также
 
-- [ISocialPerson: IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

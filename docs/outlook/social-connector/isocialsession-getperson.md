@@ -23,7 +23,7 @@ ms.locfileid: "19812739"
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _userId_
   
@@ -39,5 +39,5 @@ _результат_
   
 ## <a name="see-also"></a>См. также
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

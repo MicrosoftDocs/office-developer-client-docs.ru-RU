@@ -1,5 +1,5 @@
 ---
-title: Работа со столбцами Юникод
+title: Работа со столбцами Юникода
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2cd55464-263f-4f83-b874-524271773934
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9f1fd2d4e4bfdc9ccbbb771fedf1141769c8c8ca
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812598"
 ---
-# <a name="working-with-unicode-columns"></a>Работа со столбцами Юникод
+# <a name="working-with-unicode-columns"></a>Работа со столбцами Юникода
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 С помощью стандартных 8-разрядных символов, которые тип свойства PT_STRING8, или знаки Юникода 16-разрядной, которые являются тип свойства PT_UNICODE может быть представлена строк в таблицах. В таблице специалистов по внедрению могут выбирать, поддерживает ли их таблицы строк в кодировке Юникод. Так как Юникод добавляет значение для клиентов и поставщиков услуг, расширяя набор функций, рекомендуется поддержки Юникод, где это возможно. 
   

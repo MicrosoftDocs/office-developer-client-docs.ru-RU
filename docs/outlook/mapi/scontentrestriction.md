@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 34177aee48adad7eecb40836a247705fc22d2a32
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19812217"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описывается ограничение содержимого, которое используется для ограничения представление таблицы, чтобы только строки, которые включают столбец с соответствующими строке поиска содержимого. 
   
@@ -39,7 +39,7 @@ typedef struct _SContentRestriction
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 **ulFuzzyLevel**
   

@@ -33,5 +33,5 @@ ms.locfileid: "19812748"
   
 ## <a name="see-also"></a>См. также
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

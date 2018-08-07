@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b5c9874ca465bb0ebed62f218d1512feb1a2f9ea
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19812294"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Если ваш поставщик поставщика хранилища сообщений, его можно завершить работу в одном из следующих способов:
   
@@ -45,5 +45,5 @@ ms.locfileid: "19812294"
 
 
 
-[Завершение работы поставщика услуг](shutting-down-a-service-provider.md)
+[Завершение работы поставщика службы](shutting-down-a-service-provider.md)
 

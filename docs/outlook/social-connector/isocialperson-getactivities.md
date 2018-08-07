@@ -31,5 +31,5 @@ HRESULT _stdcall GetActivities([in] DATE startTime, [out, retval] BSTR* activiti
   
 ## <a name="see-also"></a>См. также
 
-- [ISocialPerson: IUnknown](isocialpersoniunknown.md)
+- [ISocialPerson : IUnknown](isocialpersoniunknown.md)
 

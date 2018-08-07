@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 799f83b397cbef9d7dcb6c9a88154b88afe35675
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19811009"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит уникальный идентификатор для элемента управления, используемый в диалоговом окне. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811009"
 |Связанные свойства:  <br/> |PR_CONTROL_ID  <br/> |
 |Идентификатор:  <br/> |0x3F07  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Области:  <br/> |Таблица отображения MAPI  <br/> |
+|Область:  <br/> |Таблица отображения MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -60,7 +60,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

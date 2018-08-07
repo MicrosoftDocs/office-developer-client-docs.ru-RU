@@ -1,5 +1,5 @@
 ---
-title: Поддержка доступа к объектам и сравнения
+title: Поддержка доступа к объектам и их сравнения
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2152cfbb91f2e343ebcee3f5b717a29805df1d25
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812446"
 ---
-# <a name="supporting-object-access-and-comparison"></a>Поддержка доступа к объектам и сравнения
+# <a name="supporting-object-access-and-comparison"></a>Поддержка доступа к объектам и их сравнения
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Поставщики услуг могут использовать методы [IMAPISupport::OpenEntry](imapisupport-openentry.md) и [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) для открытия и сравнения объектов, которые принадлежат своим поставщиком или других поставщиков: 
   

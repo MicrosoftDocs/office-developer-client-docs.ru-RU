@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813130"
 ---
-# <a name="sway-uri-scheme"></a>Sway схема URI
+# <a name="sway-uri-scheme"></a>Схема URI для Sway
 
 В этом документе определяет формат универсальных кодов ресурса (URI) для Sway приложения для Windows. Эта схема URI можно использовать для вызова приложения Sway с различные команды.
 

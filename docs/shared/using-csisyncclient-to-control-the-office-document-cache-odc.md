@@ -51,7 +51,7 @@ DeleteFile используется для удаления файла данн�
   
 `HRESULT ILSCLocalSyncClient::DeleteFile ([in] BSTR bstrResourceID)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _bstrResourceID_
   
@@ -76,7 +76,7 @@ GetChanges Возвращает перечислитель ILSCEvent объек�
   
 `HRESULT ILSCLocalSyncClient::GetChanges ([in] LONG nPreviousChangesToken, [out] LONG * pnCurrentChangesToken, [out] IEnumLSCEvent ** ppiEvents)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _nPreviousChangesToken_
   
@@ -105,7 +105,7 @@ GetClientNetworkSyncPermission используется для запросов 
   
 `HRESULT ILSCLocalSyncClient::GetClientNetworkSyncPermission ([in] LSCNetworkSyncPermissionType nspType, [out] VARIANT_BOOL * pfSyncEnabled)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _nspType_
   
@@ -130,7 +130,7 @@ GetFileStatus используется для сбора данных для к�
   
 `HRESULT ILSCLocalSyncClient::GetFileStatus ([in] BSTR bstrResourceID, [in] LSCStatusFlag sfRequestedStatus, [out] BSTR * pbstrFileSystemPath, [out] BSTR * pbstrETag, [out] LSCStatusFlag * psfFileStatus)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _bstrResourceID_
   
@@ -172,7 +172,7 @@ GetSupportedFileExtensions возвращает список расширени�
   
 `HRESULT ILSCLocalSyncClient::GetSupportedFileExtensions ([out] BSTR * pbstrSupportedFileExtensions)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pbstrSupportedFileExtensions_
   
@@ -194,7 +194,7 @@ Initialize должен быть метод вызывается первым. �
   
 `HRESULT ILSCLocalSyncClient::Initialize ([in] BSTR bstrSuppliedID, [in] BSTR bstrProgID, [in] BSTR bstrFileSystemDirectoryHint, [in] IPartnerActivityCallback * pEventCallback, [out] VARIANT_BOOL * pfCreatedNewCache)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _bstrSuppliedID_
   
@@ -202,7 +202,7 @@ Initialize должен быть метод вызывается первым. �
   
  _bstrProgID_
   
-Определяет COM-объект получателя для двусторонней связи. Должен быть пустым с 39 знаков. Просмотреть \< для получения дополнительных сведений о коды ProgID. 
+Определяет COM-объект получателя для двусторонней связи. Должен быть пустым с 39 знаков. Просмотреть [ \<ProgID\> ключ](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx) для получения дополнительных сведений о коды ProgID. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -236,7 +236,7 @@ LocalFileChange используется CsiSyncClient COM-объектом, ч�
   
 `HRESULT ILSCLocalSyncClient::LocalFileChange ([in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _bstrFileSystemPath_
   
@@ -275,7 +275,7 @@ RenameFile будет сопоставьте новый URL-адрес и лок
   
 `HRESULT ILSCLocalSyncClient::RenameFile ([in] BSTR bstrResourceID, [in] BSTR bstrNewFileSystemPath, [in] BSTR bstrNewWebPath, [in] VARIANT_BOOL fBlockUploads)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _bstrResourceID_
   
@@ -313,7 +313,7 @@ ResetCache приведет к удалению кэша, связанного �
   
 `HRESULT ILSCLocalSyncClient::ResetCache()`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
 Нет
   
@@ -334,7 +334,7 @@ ServerFileChange указывает CsiSyncClient COM-объектом, чтоб
   
 `HRESULT ILSCLocalSyncClient::ServerFileChange ([in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:-----|:-----|
@@ -365,7 +365,7 @@ ServerFileChange указывает CsiSyncClient COM-объектом, чтоб
   
 `HRESULT ILSCLocalSyncClient::SetClientConnectivityState ([in] VARIANT_BOOL fIsOnline)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _fIsOnline_
   
@@ -387,7 +387,7 @@ SetClientNetworkSyncPermission используется для переопре�
   
 `HRESULT ILSCLocalSyncClient::SetClientNetworkSyncPermission ([in] LSCNetworkSyncPermissionType nspType, [in] VARIANT_BOOL fEnableSync)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _nspType_
   
@@ -436,7 +436,7 @@ SetClientNetworkSyncPermission используется для переопре�
   
 `HRESULT IEnumLSCEvent::FNext ([out] ILSCEvent ** ppiLSCEvent)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _ppiLSCEvent_
   
@@ -477,7 +477,7 @@ SetClientNetworkSyncPermission используется для переопре�
   
 `HRESULT ILSCEvent::GetConflictStatus ([out] VARIANT_BOOL * pfIsInConflict)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pfIsInConflict_
   
@@ -493,7 +493,7 @@ SetClientNetworkSyncPermission используется для переопре�
   
 `HRESULT ILSCEvent::GetError ([out] LONG * pnError)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pnError_
   
@@ -509,7 +509,7 @@ SetClientNetworkSyncPermission используется для переопре�
   
 `HRESULT ILSCEvent::GetETag ([out] BSTR * pbstrETag)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pbstrETag_
   
@@ -525,7 +525,7 @@ ETag, связанный с данным событием
   
 `HRESULT ILSCEvent::GetEventType ([out] LSCEventType * pnEventType)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pnEventType_
   
@@ -544,7 +544,7 @@ ETag, связанный с данным событием
   
 `HRESULT ILSCEvent::GetLocalWorkingPath ([out] BSTR * pbstrLocalWorkingPath)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pbstrLocalWorkingPath_
   
@@ -560,7 +560,7 @@ ETag, связанный с данным событием
   
 `HRESULT ILSCEvent::GetResourceID ([out] BSTR * pbstrResourceID)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pbstrResourceID_
   
@@ -576,7 +576,7 @@ ETag, связанный с данным событием
   
 `HRESULT ILSCEvent::GetResourceIDAttempted ([out] BSTR * pbstrResourceIDAttempted)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pbstrResourceIDAttempted_
   
@@ -592,7 +592,7 @@ ETag, связанный с данным событием
   
 `HRESULT ILSCEvent::GetSyncErrorType ([out] LSCEventSyncErrorType * pnSyncErrorType)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pnSyncErrorType_
   
@@ -611,7 +611,7 @@ ETag, связанный с данным событием
   
 `HRESULT ILSCEvent::GetWebPath ([out] BSTR * pbstrWebPath)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pbstrWebPath_
   
@@ -633,7 +633,7 @@ ETag, связанный с данным событием
   
 `HRESULT ILSCEvent2::GetErrorChain ([out] BSTR * pbstrErrorChain)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _pbstrErrorChain_
   
@@ -660,7 +660,7 @@ ETag, связанный с данным событием
   
 `HRESULT IPartnerActivityCallback::EventOccurred ([in] LSCEventTypeOccurred eEventTypeOccurred)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Параметры
 
  _eEventTypeOccurred_
   

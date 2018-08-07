@@ -31,5 +31,5 @@ HRESULT _stdcall GetActivitiesOfFriendsAndColleagues([in] DATE startTime, [out, 
   
 ## <a name="see-also"></a>См. также
 
-- [ISocialProfile: ISocialPerson](isocialprofileisocialperson.md)
+- [ISocialProfile : ISocialPerson](isocialprofileisocialperson.md)
 

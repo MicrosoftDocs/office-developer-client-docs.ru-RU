@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9025bcebdd5e656070b31cd82e6519166a3e3791
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812627"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Создает текстовый поток в несжатую форматированный текст (RTF) в сжатом формате, используемые в свойстве **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
   
@@ -41,7 +41,7 @@ HRESULT WrapCompressedRTFStream(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpCompressedRTFStream_
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe181b9a-5903-4cc0-bcd5-2061b440b5b1
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7cb511c7a021c4e65214acc7efa785be0e02ffc8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19812376"
 ---
 # <a name="ssortorder"></a>SSortOrder
  
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Определяет порядок сортировки строк таблицы, в каких столбцов для использования в качестве ключа сортировки и направление сортировки. 
   
@@ -38,7 +38,7 @@ typedef struct _SSortOrder
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 **ulPropTag**
   

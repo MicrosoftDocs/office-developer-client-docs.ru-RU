@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b97a9e72-fbb7-49ab-a19d-5e9bd1b8a80d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f6947efe1aa6866efb7a5a3d96262d021c68013f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19811015"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит битовую маску флагов регулирующих поведение элемента управления, используемые в диалоговое окно, построенная на основе таблицы отображения.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811015"
 |Связанные свойства:  <br/> |PR_CONTROL_FLAGS  <br/> |
 |Идентификатор:  <br/> |0x3F00  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Области:  <br/> |Таблица отображения MAPI  <br/> |
+|Область:  <br/> |Таблица отображения MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -109,7 +109,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

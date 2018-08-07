@@ -1,5 +1,5 @@
 ---
-title: Разрешение имя получателя
+title: Разрешение имени получателя
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2baed391-85bd-4e88-8800-c19bc2d2d54a
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 256412f6ccbe66da067411bf9f66ad0478cf5ca2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812138"
 ---
-# <a name="resolving-a-recipient-name"></a>Разрешение имя получателя
+# <a name="resolving-a-recipient-name"></a>Разрешение имени получателя
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Когда сообщение можно решить, список получателей построения со свойствами, относящиеся к каждому получателю. С момента отправки сообщения один из этих свойств должен быть долгосрочного запись идентификатор получателя. Чтобы убедиться, что для каждого получателя, содержит свойство **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), передайте [ADRLIST](adrlist.md) структуры, описывающие список получателей в содержимое параметра _lpAdrList_ к вызову [IAddrBook:: ResolveName](iaddrbook-resolvename.md).
   

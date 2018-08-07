@@ -1,5 +1,5 @@
 ---
-title: Добавить, изменить или удалить строки в таблице свойств фигуры
+title: Добавление, изменение и удаление строк в таблице свойств фигуры
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813131"
 ---
-# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Добавить, изменить или удалить строки в таблице свойств фигуры
+# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Добавление, изменение и удаление строк в таблице свойств фигуры
 
 Можно добавлять новые строки, изменение типа для существующих строк или удаление строки в таблице свойств фигуры в Microsoft Visio.
   

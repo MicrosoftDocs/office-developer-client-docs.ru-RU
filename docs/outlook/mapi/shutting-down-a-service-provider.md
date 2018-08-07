@@ -1,5 +1,5 @@
 ---
-title: Завершение работы поставщика услуг
+title: Завершение работы поставщика службы
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812296"
 ---
-# <a name="shutting-down-a-service-provider"></a>Завершение работы поставщика услуг
+# <a name="shutting-down-a-service-provider"></a>Завершение работы поставщика службы
 
  
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Когда клиент вызывает метод [IMAPISession::Logoff](imapisession-logoff.md) , чтобы завершить сеанс и завершите работу всех поставщиков услуг активный, MAPI в свою очередь вызывает следующие методы: 
   

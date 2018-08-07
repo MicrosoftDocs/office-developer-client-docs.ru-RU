@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3a38a4604230c0aa3f5b0d104ae3b838f544b31d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19812165"
 ---
 # <a name="rtfwcsretinfo"></a>RTF_WCSRETINFO
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Эта структура предоставляет сведения о потоке в собственном формате, возвращенные распаковки к тексту сообщения, инкапсулированную в сжатом форматированный текст (RTF).
   
@@ -30,7 +30,7 @@ typedef struct {
 } RTF_WCSRETINFO;
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 _size_
   

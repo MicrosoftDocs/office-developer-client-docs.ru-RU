@@ -21,7 +21,7 @@ ms.locfileid: "19813102"
   
 ## <a name="in-this-section"></a>В этом разделе
 
-- [Устранение неполадок с файлами Office и пользовательскими решениями с помощью журнала телеметрии](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
+- [Устранение проблем с файлами Office и пользовательскими решениями при помощи журнала телеметрии](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
     
 - [Проблемы совместимости в Office](compatibility-issues-in-office.md)
     

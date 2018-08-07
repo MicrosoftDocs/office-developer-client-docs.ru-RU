@@ -23,7 +23,7 @@ ms.locfileid: "19812750"
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _идентификатор пользователя_
   
@@ -33,9 +33,9 @@ _идентификатор пользователя_
 
 Параметр _идентификатор пользователя_ должен быть действительный ID пользователя для пользователя в социальных сетях. 
   
-Если поставщик Outlook Social Connector (OSC) значение **doNotFollowPerson** как **true** в XML-КОДЕ для **возможностей**, поставщик должен возвращать ошибку OSC_E_NOT_FOUND в случае пользователя, переданный код не соответствует пользователя в сети. Если поставщик значение **doNotFollowPerson** **значение false** в **возможности**, поставщик должен возвращать ошибку OSC_E_FAIL. Сведения о кодах ошибок см в [Outlook Social Connector коды ошибок для поставщика](outlook-social-connector-provider-error-codes.md).
+Если поставщик Outlook Social Connector (OSC) значение **doNotFollowPerson** как **true** в XML-КОДЕ для **возможностей**, поставщик должен возвращать ошибку OSC_E_NOT_FOUND в случае пользователя, переданный код не соответствует пользователя в сети. Если поставщик значение **doNotFollowPerson** **значение false** в **возможности**, поставщик должен возвращать ошибку OSC_E_FAIL. Сведения о кодах ошибок см. в статье [Коды ошибок поставщика Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   
 ## <a name="see-also"></a>См. также
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

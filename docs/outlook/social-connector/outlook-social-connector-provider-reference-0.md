@@ -1,5 +1,5 @@
 ---
-title: Справочник поставщика по Outlook Social Connector
+title: Справочник по поставщикам Outlook Social Connector
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812825"
 ---
-# <a name="outlook-social-connector-provider-reference"></a>Справочник поставщика по Outlook Social Connector
+# <a name="outlook-social-connector-provider-reference"></a>Справочник по поставщикам Outlook Social Connector
 
 Этот раздел содержит ссылки на разделы для расширений поставщика Outlook Social Connector (OSC).
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 - [Интерфейсы](outlook-social-connector-provider-interfaces.md)
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 553ec17e9caf9bf93278ff139eb94e02e6b48554
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812282"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит массив структур [идентификатор GUID](guid.md) , используемые для описания свойства типа PT_MV_CLSID. 
   
@@ -40,7 +40,7 @@ typedef struct _SGuidArray
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -58,7 +58,7 @@ typedef struct _SGuidArray
 
 
 
-[ИДЕНТИФИКАТОР GUID](guid.md)
+[GUID](guid.md)
   
 [SPropValue](spropvalue.md)
 

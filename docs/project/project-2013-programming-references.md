@@ -31,7 +31,7 @@ ms.locfileid: "19813052"
 > [!NOTE]
 > Для ссылки на основной PSI и клиентской объектной модели (CSOM) в Project Server 2013, изучите следующие разделы: [Справочник по JavaScript API для Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md)и [ссылаться на класс библиотеки и веб-службы](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) . > Справочные материалы Office Add-ins, включая справочник по JavaScript для приложения области задач Project 2013, в разделе [API JavaScript для Office](http://msdn.microsoft.com/en-us/library/fp142185.aspx). > Справочные материалы по VBA Project Стандартный 2013 и Project Professional 2013, содержатся в разделе [Справочник разработчика по Project 2013 VBA](http://msdn.microsoft.com/en-us/library/jj235035.aspx). > Ссылка для работы с отчетами таблиц и представлений в базе данных Project Server 2013 в локальной еще не доступен. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 [Общие сведения о Project PSI](project-psi-reference-overview.md) Описывает сборки и пространства имен в ссылке на PSI для Project Server 2013. 
   

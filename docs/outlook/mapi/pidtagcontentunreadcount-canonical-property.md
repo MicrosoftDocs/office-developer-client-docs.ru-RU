@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ce7092840037345ae99b31c39cfbd4ac96b99ff5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19811001"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит количество непрочитанных сообщений в папке, вычисленный магазином сообщения. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811001"
 |Связанные свойства:  <br/> |PR_CONTENT_UNREAD  <br/> |
 |Идентификатор:  <br/> |0x3603  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Области:  <br/> |Folder  <br/> |
+|Область:  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -76,7 +76,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

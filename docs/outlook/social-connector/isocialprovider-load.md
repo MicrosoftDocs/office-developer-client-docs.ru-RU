@@ -23,7 +23,7 @@ ms.locfileid: "19812731"
 HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR languageTag);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _socialProviderInterfaceVersion_
   
@@ -39,5 +39,5 @@ _languageTag_
   
 ## <a name="see-also"></a>См. также
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

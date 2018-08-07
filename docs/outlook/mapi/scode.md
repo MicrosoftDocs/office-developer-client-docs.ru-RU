@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 6cd9dfe8fabd1ae7a4389550c628fb7ceff09ea8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19812204"
 ---
 # <a name="scode"></a>SCODE
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Значение состояния 32-разрядная версия, используемый для описания сообщение об ошибке или предупреждение. 
   
@@ -58,5 +58,5 @@ typedef ULONG SCODE;
 [HRESULT](hresult.md)
 
 
-[���� ������ MAPI](mapi-data-types.md)
+[Типы данных MAPI](mapi-data-types.md)
 

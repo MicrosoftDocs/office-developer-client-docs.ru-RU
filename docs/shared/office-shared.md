@@ -1,5 +1,5 @@
 ---
-title: Ресурсы по Office
+title: Совместное использование Office
 manager: soliver
 ms.date: 04/20/2016
 ms.audience: Developer
@@ -13,14 +13,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19813111"
 ---
-# <a name="office-shared"></a>Ресурсы по Office
+# <a name="office-shared"></a>Совместное использование Office
 
 Найдите практических руководств, примеры кода, документацию по SDK и API, справочные материалы VBA, обучающие и технические статьи по разработке решений и настройке Office.
   
 > [!NOTE]
-> [!Примечание] Хотите создавать решения, которые расширяют возможности Office на [нескольких платформах](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Попробуйте [надстройки Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
+> Хотите создавать решения, которые расширяют возможности Office на [нескольких платформах](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Ознакомьтесь с новой [моделью надстроек Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
-### <a name="viewed-most"></a>Просмотреть наиболее
+### <a name="viewed-most"></a>Самые популярные
   
 - [Справочник по библиотеке объектов VBA для Office](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
   
@@ -48,7 +48,7 @@ ms.locfileid: "19813111"
   
 - [Обзор платформы](https://msdn.microsoft.com/en-us/library/office/fp179930.aspx)
   
-### <a name="code-samples"></a>Code samples
+### <a name="code-samples"></a>Примеры кода
   
 - [Примеры кода на dev.office.com](https://dev.office.com/codesamples)
   

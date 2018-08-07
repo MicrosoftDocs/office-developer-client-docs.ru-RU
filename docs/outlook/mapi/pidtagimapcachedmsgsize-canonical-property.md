@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 30f9ddb26307791ea7cf64f355f38f99a14743aa
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19811242"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит размер кэшированных протокол сообщения.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811242"
 |Связанные свойства:  <br/> |Нет  <br/> |
 |Идентификатор:  <br/> |0x10F0  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Области:  <br/> |Переименование папки сообщения  <br/> |
+|Область:  <br/> |Переименование папки сообщения  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -64,7 +64,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

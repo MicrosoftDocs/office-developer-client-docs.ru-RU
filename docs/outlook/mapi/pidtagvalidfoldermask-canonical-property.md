@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ae09723c78fe4e333fb5c46e8c79da4b77c0b331
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19812043"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит битовую маску флагов, указывающие на правильность идентификаторы записей папок в хранилище сообщений.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19812043"
 |Связанные свойства:  <br/> |PR_VALID_FOLDER_MASK  <br/> |
 |Идентификатор:  <br/> |0x35DF  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Области:  <br/> |Хранение сообщений MAPI  <br/> |
+|Область:  <br/> |Хранение сообщений MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -92,7 +92,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 
