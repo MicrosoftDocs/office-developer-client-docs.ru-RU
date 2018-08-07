@@ -1,0 +1,30 @@
+---
+title: Отправка между доменами обмена сообщениями
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: 65594253-66cd-486a-aa5b-0bc719f761f0
+description: 'Дата последнего изменения: 23 июля 2011 г.'
+ms.openlocfilehash: 1fc5e4de63815c2cbfcb4818a9f6454af8c4d93b
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19812221"
+---
+# <a name="sending-across-messaging-domains"></a><span data-ttu-id="b5e80-103">Отправка между доменами обмена сообщениями</span><span class="sxs-lookup"><span data-stu-id="b5e80-103">Sending Across Messaging Domains</span></span>
+
+  
+  
+<span data-ttu-id="b5e80-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="b5e80-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="b5e80-105">Обмена сообщениями домена представляет один или несколько систем обмена сообщениями, совместно использующих общий формат адреса.</span><span class="sxs-lookup"><span data-stu-id="b5e80-105">A messaging domain represents one or more messaging systems that share a common address format.</span></span> <span data-ttu-id="b5e80-106">Связи через несколько доменов обмена сообщениями включает перевод сообщение, отправленное в формате исходного домена обмена сообщениями в формат обмена сообщениями целевом домене.</span><span class="sxs-lookup"><span data-stu-id="b5e80-106">Communication across multiple messaging domains involves translating a message sent in the format of the original messaging domain into the format of the destination messaging domain.</span></span> <span data-ttu-id="b5e80-107">Так как не все форматы адресов совместимы, шлюз необходимых для перевода сведения об адресах из исходного формата в формат назначения.</span><span class="sxs-lookup"><span data-stu-id="b5e80-107">Because not all address formats are compatible, a gateway is needed to translate the addressing information from the source format into the destination format.</span></span> <span data-ttu-id="b5e80-108">Для обеспечения допустимости между доменами обмена мгновенными сообщениями, клиентские приложения хранить важные сведения об адресах в свойства MAPI.</span><span class="sxs-lookup"><span data-stu-id="b5e80-108">To ensure validity across messaging domains, client applications store important addressing information in MAPI properties.</span></span> <span data-ttu-id="b5e80-109">Кроме того, шлюзы выполнить миграцию, проверки свойств ожидающих перевода и их изменения в формат, который можно использовать в целевом домене обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="b5e80-109">In addition, gateways perform the translation, examining the properties known to need translation and changing them to a format that the destination messaging domain can use.</span></span>
+  
+<span data-ttu-id="b5e80-110">Ранее MAPI разрешены в этом сведения об адресах необходимо связать с пользователями, которые составляют текущего списка получателей сообщения.</span><span class="sxs-lookup"><span data-stu-id="b5e80-110">Previously, MAPI allowed this addressing information to be associated with only the users who comprise a message's current recipient list.</span></span> <span data-ttu-id="b5e80-111">Свойства, описывающие каждого элемента списка получателей были внесены необходимые перевода с требованиями шлюза для их проверки доменов обмена мгновенными сообщениями.</span><span class="sxs-lookup"><span data-stu-id="b5e80-111">The properties describing each member of the recipient list underwent the required translation by the gateway to ensure validity across messaging domains.</span></span> <span data-ttu-id="b5e80-112">Тем не менее некоторых приложений требуется, что сообщения, помещенные включают сведения о пользователях, которые возможно были получателей в прошлом-адресов, будут иметь получателей или никогда не будут получателей.</span><span class="sxs-lookup"><span data-stu-id="b5e80-112">However, some applications require that their messages include addressing information about users that perhaps were recipients in the past, will be recipients in the future, or will never be recipients.</span></span> <span data-ttu-id="b5e80-113">Например маршрутизации приложений, которые отправлять сообщения в указанном порядке для группы пользователей, внедрить адресации сведения об этих пользователей в сообщениях.</span><span class="sxs-lookup"><span data-stu-id="b5e80-113">For example, routing applications, which send messages in a specified order to a group of users, embed addressing information about these users in the messages.</span></span> <span data-ttu-id="b5e80-114">Внедренные данные обычно включает в себя, адрес и тип адреса будущих получателей и возможно также их ролей и положения в маршрутизации порядке, их имена и один или несколько двоичных идентификаторов отдельно для каждого получателя.</span><span class="sxs-lookup"><span data-stu-id="b5e80-114">The embedded information typically includes the address and address type of the future recipients, and perhaps also their roles and positions in the routing order, their names, and one or more binary identifiers per recipient.</span></span>
+  
+<span data-ttu-id="b5e80-115">Чтобы включить сообщения со сведениями о nonrecipient пользователей, MAPI теперь включает стратегию проверка того, что эти nonrecipient сведения также преобразуется правильно между доменами системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="b5e80-115">To enable messages to include information about these nonrecipient users, MAPI now includes a strategy for ensuring that this nonrecipient information is also translated correctly across messaging domains.</span></span> <span data-ttu-id="b5e80-116">Эта стратегия основана на концепции шлюза сопоставляемые свойства.</span><span class="sxs-lookup"><span data-stu-id="b5e80-116">This strategy is based on the concept of gateway-mappable properties.</span></span>
+  
+

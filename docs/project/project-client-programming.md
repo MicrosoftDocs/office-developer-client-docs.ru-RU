@@ -1,0 +1,57 @@
+---
+title: Программирование клиента Project
+manager: soliver
+ms.date: 08/10/2016
+ms.audience: Developer
+f1_keywords:
+- object model
+- Project object model
+- Project VBA
+- VBA
+keywords:
+- VBA, project объектной модели Project, программирования, программирования, проекта VBA, Visual Basic для приложений, объектной модели VBA, объектной модели проектов, VBA, Visual Basic для приложений
+localization_priority: Normal
+ms.assetid: 0ad49ff6-8dff-4379-a52c-d292c53c2bc0
+description: Приложения рабочего стола клиента Project 2013 — Project Стандартный 2013 и Project Professional 2013 — могут быть настроены и расширенных с помощью VBA для записи макросов. Настройка пользовательского интерфейса ленты и создание сложных надстройками новое расширение модели для областей задач в проекте, основанные на общей платформе Office 2013 включает надстроек Office можно использовать Visual Studio 2012. Project Стандартный 2013 и Project Professional 2013 можно выполнять общие надстроек Office и использовать задач области надстройки, разработанными специально для проекта для интеграции с SharePoint, других веб-сайтов и веб-приложений и внешних данных.
+ms.openlocfilehash: e8604b4d479d0c64f8d45ad2363d7391d57408ed
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19813056"
+---
+# <a name="project-client-programming"></a><span data-ttu-id="a6400-106">Программирование клиента Project</span><span class="sxs-lookup"><span data-stu-id="a6400-106">Project client programming</span></span>
+
+<span data-ttu-id="a6400-107">Приложения рабочего стола клиента Project 2013 — Project Стандартный 2013 и Project Professional 2013 — могут быть настроены и расширенных с помощью VBA для записи макросов.</span><span class="sxs-lookup"><span data-stu-id="a6400-107">The Project 2013 desktop client applications—Project Standard 2013 and Project Professional 2013—can be customized and extended by using VBA to write macros.</span></span> <span data-ttu-id="a6400-108">Настройка пользовательского интерфейса ленты и создание сложных надстройками новое расширение модели для областей задач в проекте, основанные на общей платформе Office 2013 включает надстроек Office можно использовать Visual Studio 2012.</span><span class="sxs-lookup"><span data-stu-id="a6400-108">You can use Visual Studio 2012 to customize the ribbon user interface and create complex add-ins. Office Add-ins enables a new extensibility model for task panes in Project that are built on a common Office 2013 platform.</span></span> <span data-ttu-id="a6400-109">Project Стандартный 2013 и Project Professional 2013 можно выполнять общие надстроек Office и использовать задач области надстройки, разработанными специально для проекта для интеграции с SharePoint, других веб-сайтов и веб-приложений и внешних данных.</span><span class="sxs-lookup"><span data-stu-id="a6400-109">Project Standard 2013 and Project Professional 2013 can run general Office Add-ins and use task pane add-ins that are developed specifically for Project to integrate with SharePoint, other websites and web applications, and external data.</span></span>
+  
+ <span data-ttu-id="a6400-110">**Перемещение в Visual Studio** VBA можно использовать для записи макросов и разработку решений относительно простой автоматизации.</span><span class="sxs-lookup"><span data-stu-id="a6400-110">**Moving to Visual Studio** VBA is useful for recording macros and developing relatively simple automation solutions.</span></span> <span data-ttu-id="a6400-111">Разработка надстроек для области задач, надстройки и несколько сложнее, надежные, масштабируемые и легко развернутых решений мы рекомендуем использовать Visual Studio 2012.</span><span class="sxs-lookup"><span data-stu-id="a6400-111">To develop task pane add-ins, add-ins, and more complex, secure, scalable, and easily deployed solutions, we recommend that you use Visual Studio 2012.</span></span> <span data-ttu-id="a6400-112">Microsoft .NET Framework 4.0 и основной сборки взаимодействия Project 2013 предоставляют многочисленные преимущества для разработки и развертывания решений, автоматизировать и интеграции клиентов Project 2013.</span><span class="sxs-lookup"><span data-stu-id="a6400-112">The Microsoft .NET Framework 4.0 and the Project 2013 primary interop assembly provide many advantages for developing and deploying solutions that automate and integrate the Project 2013 desktop clients.</span></span> 
+  
+> [!NOTE]
+> <span data-ttu-id="a6400-113">С помощью Visual Studio 2010 для разработки надстройки Project. Тем не менее Visual Studio 2012 включает в себя шаблоны и расширения, которые предназначены для создания надстроек Office клиентов.</span><span class="sxs-lookup"><span data-stu-id="a6400-113">You can use Visual Studio 2010 to develop Project add-ins. However, Visual Studio 2012 includes templates and extensions that are designed to create Office Add-ins clients.</span></span> 
+  
+<span data-ttu-id="a6400-114">Объектной модели **MSProject** для VBA в Project 2013 практически не совпадает с **Microsoft.Office.Interop.MSProject** объектной модели для решения с управляемым кодом со средствами для разработчиков Office для Visual Studio 2013 (также известной как VSTO).</span><span class="sxs-lookup"><span data-stu-id="a6400-114">The **MSProject** object model for VBA in Project 2013 is essentially the same as the **Microsoft.Office.Interop.MSProject** object model for managed-code solutions with Office Developer Tools for Visual Studio 2013 (also known as VSTO).</span></span> <span data-ttu-id="a6400-115">Visual Studio 2012 включает в себя шаблоны для разработки уровня приложения надстройки для Project 2010 и Project 2013 (версии Project Standard или Project Professional).</span><span class="sxs-lookup"><span data-stu-id="a6400-115">Visual Studio 2012 includes templates for developing application-level add-ins for Project 2010 and for Project 2013 (either the Project Standard or Project Professional versions).</span></span> <span data-ttu-id="a6400-116">VSTO и инструменты разработчика Office для Visual Studio 2012 упростить разработку, тестирование и развертывание расширенной интеграции решений, которые можно использовать клиент рабочего стола Project и других приложений Office 2013 и интегрировать с сайтами SharePoint, списки, и рабочие процессы.</span><span class="sxs-lookup"><span data-stu-id="a6400-116">VSTO and Office Developer Tools for Visual Studio 2012 simplify developing, testing, and deploying advanced integration solutions that can use the Project desktop client and other Office 2013 applications, and integrate with SharePoint sites, lists, and workflows.</span></span> 
+  
+<span data-ttu-id="a6400-117">Надстройки для области задач и другие надстройки для Office и SharePoint может продаваться в магазине Office (просмотреть [http://office.microsoft.com/store/](http://office.microsoft.com/en-us/store/)) для использования с Project Online и локальной установки.</span><span class="sxs-lookup"><span data-stu-id="a6400-117">Task pane add-ins and other add-ins for Office and SharePoint can be sold in the Office Store (see [http://office.microsoft.com/store/](http://office.microsoft.com/en-us/store/)) for use with both Project Online and on-premises installations.</span></span> <span data-ttu-id="a6400-118">Надстройки VSTO и макросов VBA не распространяется в магазине Office; они предназначены для локального использования с Project Стандартный и Project Professional.</span><span class="sxs-lookup"><span data-stu-id="a6400-118">VBA macros and VSTO add-ins cannot be distributed in the Office Store; they are designed for local use with Project Standard and Project Professional.</span></span> <span data-ttu-id="a6400-119">Можно распределить макросов VBA в рамках проекта. MPP-файла, установить их в нескольких проектах файл на своем компьютере или распространять их в глобальный корпоративный шаблон в Project Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a6400-119">You can distribute VBA macros within a project .MPP file, install them in the Global.MPT file on your computer, or distribute them in the enterprise global template in Project Server 2013.</span></span> <span data-ttu-id="a6400-120">Надстройки VSTO могут распространяться на более безопасной развертывания [ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx) , которая позволяет легко обновлений.</span><span class="sxs-lookup"><span data-stu-id="a6400-120">VSTO add-ins can be distributed more securely through [ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx) deployment, which enables easy updates.</span></span> 
+  
+## <a name="reference"></a><span data-ttu-id="a6400-121">Справочные материалы</span><span class="sxs-lookup"><span data-stu-id="a6400-121">Reference</span></span>
+
+<span data-ttu-id="a6400-122">[Справочник разработчика по Project VBA](http://msdn.microsoft.com/en-us/library/ee861523%28office.15%29.aspx) Содержит вводную и статьи по справке VBA.</span><span class="sxs-lookup"><span data-stu-id="a6400-122">[Project VBA developer reference](http://msdn.microsoft.com/en-us/library/ee861523%28office.15%29.aspx) Contains introductory and VBA Help articles.</span></span> 
+  
+## <a name="related-sections"></a><span data-ttu-id="a6400-123">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="a6400-123">Related sections</span></span>
+
+<span data-ttu-id="a6400-124">[Архитектура Project Server 2013](project-server-2013-architecture.md) Показывает, как клиенты Project для взаимодействия с Project Server.</span><span class="sxs-lookup"><span data-stu-id="a6400-124">[Project Server 2013 architecture](project-server-2013-architecture.md) Shows how the Project clients interact with Project Server.</span></span> 
+  
+## <a name="see-also"></a><span data-ttu-id="a6400-125">См. также</span><span class="sxs-lookup"><span data-stu-id="a6400-125">See also</span></span>
+
+
+
+[<span data-ttu-id="a6400-126">Project для разработчиков (en)</span><span class="sxs-lookup"><span data-stu-id="a6400-126">Project for developers</span></span>](http://msdn.microsoft.com/en-us/office/aa905469)
+  
+[<span data-ttu-id="a6400-127">Центр для разработчиков Office</span><span class="sxs-lookup"><span data-stu-id="a6400-127">Office developer center</span></span>](https://dev.office.com)
+  
+[<span data-ttu-id="a6400-128">Центр разработчиков Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a6400-128">Visual Studio developer center</span></span>](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
+  
+[<span data-ttu-id="a6400-129">Развертывание и безопасность технологии ClickOnce</span><span class="sxs-lookup"><span data-stu-id="a6400-129">ClickOnce Security and Deployment</span></span>](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
+  
+[<span data-ttu-id="a6400-130">Справочник по доступным полям</span><span class="sxs-lookup"><span data-stu-id="a6400-130">Available fields reference</span></span>](http://office.microsoft.com/en-us/project-help/available-fields-reference-HA102749299.aspx?CTT=1)
+

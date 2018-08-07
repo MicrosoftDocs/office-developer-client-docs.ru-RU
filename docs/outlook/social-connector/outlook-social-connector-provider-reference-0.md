@@ -1,5 +1,5 @@
 ---
-title: Справочник поставщика по Outlook Social Connector
+title: Справочник по поставщикам Outlook Social Connector
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19812825"
 ---
-# <a name="outlook-social-connector-provider-reference"></a><span data-ttu-id="79430-103">Справочник поставщика по Outlook Social Connector</span><span class="sxs-lookup"><span data-stu-id="79430-103">Outlook Social Connector provider reference</span></span>
+# <a name="outlook-social-connector-provider-reference"></a><span data-ttu-id="40189-103">Справочник по поставщикам Outlook Social Connector</span><span class="sxs-lookup"><span data-stu-id="40189-103">Outlook Social Connector provider reference</span></span>
 
-<span data-ttu-id="79430-104">Этот раздел содержит ссылки на разделы для расширений поставщика Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="79430-104">This section contains reference topics for Outlook Social Connector (OSC) provider extensibility.</span></span>
+<span data-ttu-id="40189-104">Этот раздел содержит ссылки на разделы для расширений поставщика Outlook Social Connector (OSC).</span><span class="sxs-lookup"><span data-stu-id="40189-104">This section contains reference topics for Outlook Social Connector (OSC) provider extensibility.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="79430-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="79430-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="40189-105">В этой статье</span><span class="sxs-lookup"><span data-stu-id="40189-105">In this section</span></span>
 
-- [<span data-ttu-id="79430-106">Интерфейсы</span><span class="sxs-lookup"><span data-stu-id="79430-106">Interfaces</span></span>](outlook-social-connector-provider-interfaces.md)
+- [<span data-ttu-id="40189-106">Интерфейсы</span><span class="sxs-lookup"><span data-stu-id="40189-106">Interfaces</span></span>](outlook-social-connector-provider-interfaces.md)
   
-- [<span data-ttu-id="79430-107">XML-схемы</span><span class="sxs-lookup"><span data-stu-id="79430-107">XML Schema</span></span>](outlook-social-connector-provider-xml-schema.md)
+- [<span data-ttu-id="40189-107">XML-схемы</span><span class="sxs-lookup"><span data-stu-id="40189-107">XML Schema</span></span>](outlook-social-connector-provider-xml-schema.md)
   
-- [<span data-ttu-id="79430-108">Коды ошибок</span><span class="sxs-lookup"><span data-stu-id="79430-108">Error Codes</span></span>](outlook-social-connector-provider-error-codes.md)
+- [<span data-ttu-id="40189-108">Коды ошибок</span><span class="sxs-lookup"><span data-stu-id="40189-108">Error Codes</span></span>](outlook-social-connector-provider-error-codes.md)
   
-## <a name="related-sections"></a><span data-ttu-id="79430-109">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="79430-109">Related sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="40189-109">Связанные разделы</span><span class="sxs-lookup"><span data-stu-id="40189-109">Related sections</span></span>
 
-- [<span data-ttu-id="79430-110">Рекомендации по разработке поставщика</span><span class="sxs-lookup"><span data-stu-id="79430-110">Best Practices for Developing a Provider</span></span>](best-practices-for-developing-a-provider.md)
+- [<span data-ttu-id="40189-110">Рекомендации по разработке поставщика</span><span class="sxs-lookup"><span data-stu-id="40189-110">Best Practices for Developing a Provider</span></span>](best-practices-for-developing-a-provider.md)
   
-- [<span data-ttu-id="79430-111">Шаблоны OSC примера</span><span class="sxs-lookup"><span data-stu-id="79430-111">OSC Sample Templates</span></span>](osc-sample-templates.md)
+- [<span data-ttu-id="40189-111">Шаблоны OSC примера</span><span class="sxs-lookup"><span data-stu-id="40189-111">OSC Sample Templates</span></span>](osc-sample-templates.md)
   
 
