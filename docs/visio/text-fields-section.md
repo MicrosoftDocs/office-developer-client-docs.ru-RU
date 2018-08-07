@@ -1,5 +1,5 @@
 ---
-title: Раздел текстовых полей
+title: Раздел "Текстовые поля"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,14 +16,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814999"
 ---
-# <a name="text-fields-section"></a><span data-ttu-id="86016-103">Раздел текстовых полей</span><span class="sxs-lookup"><span data-stu-id="86016-103">Text Fields Section</span></span>
+# <a name="text-fields-section"></a><span data-ttu-id="8d664-103">Раздел "Текстовые поля"</span><span class="sxs-lookup"><span data-stu-id="8d664-103">Text Fields Section</span></span>
 
-<span data-ttu-id="86016-104">Отображает функций и формул вставлен в тексте фигуры с помощью диалогового окна **поля** .</span><span class="sxs-lookup"><span data-stu-id="86016-104">Displays functions and formulas inserted in the shape's text by using the **Field** dialog box.</span></span> 
+<span data-ttu-id="8d664-104">Отображает функций и формул вставлен в тексте фигуры с помощью диалогового окна **поля** .</span><span class="sxs-lookup"><span data-stu-id="8d664-104">Displays functions and formulas inserted in the shape's text by using the **Field** dialog box.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="86016-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="86016-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8d664-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="8d664-105">Remarks</span></span>
 
-<span data-ttu-id="86016-106">Чтобы вставить поле в форму с помощью диалогового окна **поля** (вкладка "**Вставка** ") является единственным способом для добавления в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="86016-106">The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab).</span></span> 
+<span data-ttu-id="8d664-106">Чтобы вставить поле в форму с помощью диалогового окна **поля** (вкладка "**Вставка** ") является единственным способом для добавления в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="8d664-106">The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab).</span></span> 
   
-<span data-ttu-id="86016-107">Каждое поле текста в блоке текста имеет соответствующей строки в окне таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="86016-107">Each text field in a text block has a corresponding row in the ShapeSheet window.</span></span> <span data-ttu-id="86016-108">Имя строки представляет число знаков, которое содержит поля.</span><span class="sxs-lookup"><span data-stu-id="86016-108">The name of the row represents the number of characters the field contains.</span></span>
+<span data-ttu-id="8d664-107">Каждое поле текста в блоке текста имеет соответствующей строки в окне таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="8d664-107">Each text field in a text block has a corresponding row in the ShapeSheet window.</span></span> <span data-ttu-id="8d664-108">Имя строки представляет число знаков, которое содержит поля.</span><span class="sxs-lookup"><span data-stu-id="8d664-108">The name of the row represents the number of characters the field contains.</span></span>
   
 

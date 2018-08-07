@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoCtlHandles (раздел Разное)
+title: Ячейка NoCtlHandles (раздел "Прочее")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,29 +16,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814292"
 ---
-# <a name="noctlhandles-cell-miscellaneous-section"></a><span data-ttu-id="36ef9-103">Ячейка NoCtlHandles (раздел Разное)</span><span class="sxs-lookup"><span data-stu-id="36ef9-103">NoCtlHandles Cell (Miscellaneous Section)</span></span>
+# <a name="noctlhandles-cell-miscellaneous-section"></a><span data-ttu-id="5e606-103">Ячейка NoCtlHandles (раздел "Прочее")</span><span class="sxs-lookup"><span data-stu-id="5e606-103">NoCtlHandles Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="36ef9-104">Включает или отключает отображение управляющих маркеров и отключает для выбранной фигуры.</span><span class="sxs-lookup"><span data-stu-id="36ef9-104">Switches the display of control handles on and off for the selected shape.</span></span>
+<span data-ttu-id="5e606-104">Включает или отключает отображение управляющих маркеров и отключает для выбранной фигуры.</span><span class="sxs-lookup"><span data-stu-id="5e606-104">Switches the display of control handles on and off for the selected shape.</span></span>
   
-|<span data-ttu-id="36ef9-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="36ef9-105">**Value**</span></span>|<span data-ttu-id="36ef9-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="36ef9-106">**Description**</span></span>|
+|<span data-ttu-id="5e606-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="5e606-105">**Value**</span></span>|<span data-ttu-id="5e606-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5e606-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="36ef9-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="36ef9-107">TRUE</span></span>  <br/> | <span data-ttu-id="36ef9-108">Управляющие маркеры не отображаются при выборе фигуры.</span><span class="sxs-lookup"><span data-stu-id="36ef9-108">Control handles are not displayed when a shape is selected.</span></span>  <br/> |
-| <span data-ttu-id="36ef9-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="36ef9-109">FALSE</span></span>  <br/> | <span data-ttu-id="36ef9-110">Управляющие маркеры отображаются при выборе фигуры.</span><span class="sxs-lookup"><span data-stu-id="36ef9-110">Control handles are displayed when a shape is selected.</span></span>  <br/> |
+| <span data-ttu-id="5e606-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="5e606-107">TRUE</span></span>  <br/> | <span data-ttu-id="5e606-108">Управляющие маркеры не отображаются при выборе фигуры.</span><span class="sxs-lookup"><span data-stu-id="5e606-108">Control handles are not displayed when a shape is selected.</span></span>  <br/> |
+| <span data-ttu-id="5e606-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="5e606-109">FALSE</span></span>  <br/> | <span data-ttu-id="5e606-110">Управляющие маркеры отображаются при выборе фигуры.</span><span class="sxs-lookup"><span data-stu-id="5e606-110">Control handles are displayed when a shape is selected.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="36ef9-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="36ef9-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5e606-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="5e606-111">Remarks</span></span>
 
-<span data-ttu-id="36ef9-112">Чтобы получить ссылку на ячейку NoCtlHandles по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="36ef9-112">To get a reference to the NoCtlHandles cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="5e606-112">Чтобы получить ссылку на ячейку NoCtlHandles по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="5e606-112">To get a reference to the NoCtlHandles cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="36ef9-113">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="36ef9-113">Cell name:</span></span>  <br/> | <span data-ttu-id="36ef9-114">NoCtlHandles</span><span class="sxs-lookup"><span data-stu-id="36ef9-114">NoCtlHandles</span></span>  <br/> |
+| <span data-ttu-id="5e606-113">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="5e606-113">Cell name:</span></span>  <br/> | <span data-ttu-id="5e606-114">NoCtlHandles</span><span class="sxs-lookup"><span data-stu-id="5e606-114">NoCtlHandles</span></span>  <br/> |
    
-<span data-ttu-id="36ef9-115">Для получения ссылки на ячейки NoCtlHandles по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="36ef9-115">To get a reference to the NoCtlHandles cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="5e606-115">Для получения ссылки на ячейки NoCtlHandles по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="5e606-115">To get a reference to the NoCtlHandles cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="36ef9-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="36ef9-116">Section index:</span></span>  <br/> |<span data-ttu-id="36ef9-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="36ef9-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="36ef9-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="36ef9-118">Row index:</span></span>  <br/> |<span data-ttu-id="36ef9-119">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="36ef9-119">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="36ef9-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="36ef9-120">Cell index:</span></span>  <br/> |<span data-ttu-id="36ef9-121">**visNoCtlHandles**</span><span class="sxs-lookup"><span data-stu-id="36ef9-121">**visNoCtlHandles**</span></span> <br/> |
+| <span data-ttu-id="5e606-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="5e606-116">Section index:</span></span>  <br/> |<span data-ttu-id="5e606-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="5e606-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="5e606-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="5e606-118">Row index:</span></span>  <br/> |<span data-ttu-id="5e606-119">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="5e606-119">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="5e606-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="5e606-120">Cell index:</span></span>  <br/> |<span data-ttu-id="5e606-121">**visNoCtlHandles**</span><span class="sxs-lookup"><span data-stu-id="5e606-121">**visNoCtlHandles**</span></span> <br/> |
    
 

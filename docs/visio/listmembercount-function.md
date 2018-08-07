@@ -14,24 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814097"
 ---
-# <a name="listmembercount-function"></a><span data-ttu-id="b856b-103">Функция LISTMEMBERCOUNT</span><span class="sxs-lookup"><span data-stu-id="b856b-103">LISTMEMBERCOUNT Function</span></span>
+# <a name="listmembercount-function"></a><span data-ttu-id="d8b7d-103">Функция LISTMEMBERCOUNT</span><span class="sxs-lookup"><span data-stu-id="d8b7d-103">LISTMEMBERCOUNT Function</span></span>
 
-<span data-ttu-id="b856b-104">Возвращает число фигур в фигуре-контейнере списка.</span><span class="sxs-lookup"><span data-stu-id="b856b-104">Returns the number of member shapes in the list container shape.</span></span>
+<span data-ttu-id="d8b7d-104">Возвращает число фигур в фигуре-контейнере списка.</span><span class="sxs-lookup"><span data-stu-id="d8b7d-104">Returns the number of member shapes in the list container shape.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="b856b-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="b856b-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="d8b7d-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="d8b7d-105">Version Information</span></span>
 
-<span data-ttu-id="b856b-106">Добавлена версия: Visio 2010</span><span class="sxs-lookup"><span data-stu-id="b856b-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="d8b7d-106">Добавлена версия: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="d8b7d-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="b856b-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b856b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d8b7d-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d8b7d-107">Syntax</span></span>
 
-<span data-ttu-id="b856b-108">LISTMEMBERCOUNT()</span><span class="sxs-lookup"><span data-stu-id="b856b-108">LISTMEMBERCOUNT()</span></span>
+<span data-ttu-id="d8b7d-108">LISTMEMBERCOUNT()</span><span class="sxs-lookup"><span data-stu-id="d8b7d-108">LISTMEMBERCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="b856b-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b856b-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="d8b7d-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d8b7d-109">Return value</span></span>
 
-<span data-ttu-id="b856b-110">Целое число</span><span class="sxs-lookup"><span data-stu-id="b856b-110">Integer</span></span>
+<span data-ttu-id="d8b7d-110">Целое число</span><span class="sxs-lookup"><span data-stu-id="d8b7d-110">Integer</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="b856b-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="b856b-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d8b7d-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="d8b7d-111">Remarks</span></span>
 
-<span data-ttu-id="b856b-112">Если фигура не является контейнером списка, функция LISTMEMBERCOUNT возвращает значение -1.</span><span class="sxs-lookup"><span data-stu-id="b856b-112">If the shape is not a list container, the LISTMEMBERCOUNT function returns -1.</span></span>
+<span data-ttu-id="d8b7d-112">Если фигура не является контейнером списка, функция LISTMEMBERCOUNT возвращает значение -1.</span><span class="sxs-lookup"><span data-stu-id="d8b7d-112">If the shape is not a list container, the LISTMEMBERCOUNT function returns -1.</span></span>
   
 

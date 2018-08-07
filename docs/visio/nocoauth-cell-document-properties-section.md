@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoCoauth (раздел свойств документа)
+title: Ячейка NoCoauth (раздел "Свойства документа")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,29 +14,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814302"
 ---
-# <a name="nocoauth-cell-document-properties-section"></a><span data-ttu-id="8d8ad-103">Ячейка NoCoauth (раздел свойств документа)</span><span class="sxs-lookup"><span data-stu-id="8d8ad-103">NoCoauth Cell (Document Properties Section)</span></span>
+# <a name="nocoauth-cell-document-properties-section"></a><span data-ttu-id="b5d55-103">Ячейка NoCoauth (раздел "Свойства документа")</span><span class="sxs-lookup"><span data-stu-id="b5d55-103">NoCoauth Cell (Document Properties Section)</span></span>
 
-<span data-ttu-id="8d8ad-104">Задает ли документ, хранящийся на сервере Microsoft SharePoint 2013 или Microsoft OneDrive можно редактировать несколькими авторами одновременно в также сеанса.</span><span class="sxs-lookup"><span data-stu-id="8d8ad-104">Sets whether a document stored on a Microsoft SharePoint 2013 server or Microsoft OneDrive can be edited by multiple authors simultaneously in a coauthoring session.</span></span>
+<span data-ttu-id="b5d55-104">Задает ли документ, хранящийся на сервере Microsoft SharePoint 2013 или Microsoft OneDrive можно редактировать несколькими авторами одновременно в также сеанса.</span><span class="sxs-lookup"><span data-stu-id="b5d55-104">Sets whether a document stored on a Microsoft SharePoint 2013 server or Microsoft OneDrive can be edited by multiple authors simultaneously in a coauthoring session.</span></span>
   
-|<span data-ttu-id="8d8ad-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="8d8ad-105">**Value**</span></span>|<span data-ttu-id="8d8ad-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="8d8ad-106">**Description**</span></span>|
+|<span data-ttu-id="b5d55-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="b5d55-105">**Value**</span></span>|<span data-ttu-id="b5d55-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b5d55-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8d8ad-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="8d8ad-107">TRUE</span></span>  <br/> |<span data-ttu-id="8d8ad-108">Документ нельзя совместное редактирование и заблокирован для редактирования при открытии.</span><span class="sxs-lookup"><span data-stu-id="8d8ad-108">The document cannot be coauthored and is locked for editing when open.</span></span>  <br/> |
-|<span data-ttu-id="8d8ad-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="8d8ad-109">FALSE</span></span>  <br/> |<span data-ttu-id="8d8ad-110">Можно совместное редактирование документа.</span><span class="sxs-lookup"><span data-stu-id="8d8ad-110">The document can be coauthored.</span></span>  <br/> |
+|<span data-ttu-id="b5d55-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="b5d55-107">TRUE</span></span>  <br/> |<span data-ttu-id="b5d55-108">Документ нельзя совместное редактирование и заблокирован для редактирования при открытии.</span><span class="sxs-lookup"><span data-stu-id="b5d55-108">The document cannot be coauthored and is locked for editing when open.</span></span>  <br/> |
+|<span data-ttu-id="b5d55-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="b5d55-109">FALSE</span></span>  <br/> |<span data-ttu-id="b5d55-110">Можно совместное редактирование документа.</span><span class="sxs-lookup"><span data-stu-id="b5d55-110">The document can be coauthored.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8d8ad-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="8d8ad-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5d55-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="b5d55-111">Remarks</span></span>
 
-<span data-ttu-id="8d8ad-112">Для получения ссылки на ячейки **NoCoauth** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="8d8ad-112">To get a reference to the **NoCoauth** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b5d55-112">Для получения ссылки на ячейки **NoCoauth** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="b5d55-112">To get a reference to the **NoCoauth** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="8d8ad-113">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="8d8ad-113">Cell name:</span></span>  <br/> | <span data-ttu-id="8d8ad-114">NoCoauth</span><span class="sxs-lookup"><span data-stu-id="8d8ad-114">NoCoauth</span></span>  <br/> |
+| <span data-ttu-id="b5d55-113">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="b5d55-113">Cell name:</span></span>  <br/> | <span data-ttu-id="b5d55-114">NoCoauth</span><span class="sxs-lookup"><span data-stu-id="b5d55-114">NoCoauth</span></span>  <br/> |
    
-<span data-ttu-id="8d8ad-115">Для получения ссылки на ячейки **NoCoauth** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="8d8ad-115">To get a reference to the **NoCoauth** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b5d55-115">Для получения ссылки на ячейки **NoCoauth** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="b5d55-115">To get a reference to the **NoCoauth** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="8d8ad-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="8d8ad-116">Section index:</span></span>  <br/> |<span data-ttu-id="8d8ad-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="8d8ad-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="8d8ad-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="8d8ad-118">Row index:</span></span>  <br/> |<span data-ttu-id="8d8ad-119">**visRowDoc**</span><span class="sxs-lookup"><span data-stu-id="8d8ad-119">**visRowDoc**</span></span> <br/> |
-| <span data-ttu-id="8d8ad-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="8d8ad-120">Cell index:</span></span>  <br/> |<span data-ttu-id="8d8ad-121">**visDocNoCoauth**</span><span class="sxs-lookup"><span data-stu-id="8d8ad-121">**visDocNoCoauth**</span></span> <br/> |
+| <span data-ttu-id="b5d55-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="b5d55-116">Section index:</span></span>  <br/> |<span data-ttu-id="b5d55-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="b5d55-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="b5d55-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="b5d55-118">Row index:</span></span>  <br/> |<span data-ttu-id="b5d55-119">**visRowDoc**</span><span class="sxs-lookup"><span data-stu-id="b5d55-119">**visRowDoc**</span></span> <br/> |
+| <span data-ttu-id="b5d55-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="b5d55-120">Cell index:</span></span>  <br/> |<span data-ttu-id="b5d55-121">**visDocNoCoauth**</span><span class="sxs-lookup"><span data-stu-id="b5d55-121">**visDocNoCoauth**</span></span> <br/> |
    
 

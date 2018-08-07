@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814674"
 ---
-# <a name="rowdeftype-complextype-visio-xml"></a><span data-ttu-id="7d333-102">RowDef_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="7d333-102">RowDef_Type complexType ('Visio XML')</span></span>
+# <a name="rowdeftype-complextype-visio-xml"></a><span data-ttu-id="5d00a-102">RowDef_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="5d00a-102">RowDef_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="7d333-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="7d333-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="5d00a-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="5d00a-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="7d333-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="7d333-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="7d333-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="7d333-105">**Schema file**</span></span> <br/> |<span data-ttu-id="7d333-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="7d333-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="7d333-107">**База расширения**</span><span class="sxs-lookup"><span data-stu-id="7d333-107">**Extension base**</span></span> <br/> |<span data-ttu-id="7d333-108">Нет</span><span class="sxs-lookup"><span data-stu-id="7d333-108">None</span></span>  <br/> |
+|<span data-ttu-id="5d00a-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="5d00a-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="5d00a-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="5d00a-105">**Schema file**</span></span> <br/> |<span data-ttu-id="5d00a-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="5d00a-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="5d00a-107">**База расширения**</span><span class="sxs-lookup"><span data-stu-id="5d00a-107">**Extension base**</span></span> <br/> |<span data-ttu-id="5d00a-108">Нет</span><span class="sxs-lookup"><span data-stu-id="5d00a-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="7d333-109">Определение</span><span class="sxs-lookup"><span data-stu-id="7d333-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="5d00a-109">Определение</span><span class="sxs-lookup"><span data-stu-id="5d00a-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="RowDef_Type">
@@ -40,18 +40,18 @@ ms.locfileid: "19814674"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="7d333-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="7d333-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="5d00a-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="5d00a-110">Elements and attributes</span></span>
 
-<span data-ttu-id="7d333-111">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="7d333-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="5d00a-111">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="5d00a-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="7d333-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="7d333-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5d00a-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="5d00a-112">Child elements</span></span>
 
-|<span data-ttu-id="7d333-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="7d333-113">**Element**</span></span>|<span data-ttu-id="7d333-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="7d333-114">**Type**</span></span>|<span data-ttu-id="7d333-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7d333-115">**Description**</span></span>|
+|<span data-ttu-id="5d00a-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="5d00a-113">**Element**</span></span>|<span data-ttu-id="5d00a-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="5d00a-114">**Type**</span></span>|<span data-ttu-id="5d00a-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5d00a-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="7d333-116">CellDef</span><span class="sxs-lookup"><span data-stu-id="7d333-116">CellDef</span></span>](http://msdn.microsoft.com/library/f94c8227-020a-f613-3715-96a5eaaf14fb%28Office.15%29.aspx) <br/> |[<span data-ttu-id="7d333-117">CellDef_Type</span><span class="sxs-lookup"><span data-stu-id="7d333-117">CellDef_Type</span></span>](celldef_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="5d00a-116">CellDef</span><span class="sxs-lookup"><span data-stu-id="5d00a-116">CellDef</span></span>](http://msdn.microsoft.com/library/f94c8227-020a-f613-3715-96a5eaaf14fb%28Office.15%29.aspx) <br/> |[<span data-ttu-id="5d00a-117">CellDef_Type</span><span class="sxs-lookup"><span data-stu-id="5d00a-117">CellDef_Type</span></span>](celldef_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="7d333-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="7d333-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5d00a-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="5d00a-118">Attributes</span></span>
 
-<span data-ttu-id="7d333-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="7d333-119">None.</span></span>
+<span data-ttu-id="5d00a-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="5d00a-119">None.</span></span>
   
 

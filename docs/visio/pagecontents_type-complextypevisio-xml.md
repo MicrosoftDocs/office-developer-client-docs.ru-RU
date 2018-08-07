@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814333"
 ---
-# <a name="pagecontentstype-complextype-visio-xml"></a><span data-ttu-id="e8223-102">PageContents_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="e8223-102">PageContents_Type complexType ('Visio XML')</span></span>
+# <a name="pagecontentstype-complextype-visio-xml"></a><span data-ttu-id="bfa8f-102">PageContents_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="bfa8f-102">PageContents_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="e8223-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="e8223-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="bfa8f-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="bfa8f-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="e8223-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="e8223-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="e8223-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="e8223-105">**Schema file**</span></span> <br/> |<span data-ttu-id="e8223-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="e8223-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="e8223-107">**База расширения**</span><span class="sxs-lookup"><span data-stu-id="e8223-107">**Extension base**</span></span> <br/> |<span data-ttu-id="e8223-108">Нет</span><span class="sxs-lookup"><span data-stu-id="e8223-108">None</span></span>  <br/> |
+|<span data-ttu-id="bfa8f-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="bfa8f-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="bfa8f-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="bfa8f-105">**Schema file**</span></span> <br/> |<span data-ttu-id="bfa8f-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="bfa8f-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="bfa8f-107">**База расширения**</span><span class="sxs-lookup"><span data-stu-id="bfa8f-107">**Extension base**</span></span> <br/> |<span data-ttu-id="bfa8f-108">Нет</span><span class="sxs-lookup"><span data-stu-id="bfa8f-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="e8223-109">Определение</span><span class="sxs-lookup"><span data-stu-id="e8223-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="bfa8f-109">Определение</span><span class="sxs-lookup"><span data-stu-id="bfa8f-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="PageContents_Type">
@@ -46,19 +46,19 @@ ms.locfileid: "19814333"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="e8223-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="e8223-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="bfa8f-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="bfa8f-110">Elements and attributes</span></span>
 
-<span data-ttu-id="e8223-111">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="e8223-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="bfa8f-111">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="bfa8f-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="e8223-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="e8223-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="bfa8f-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="bfa8f-112">Child elements</span></span>
 
-|<span data-ttu-id="e8223-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="e8223-113">**Element**</span></span>|<span data-ttu-id="e8223-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="e8223-114">**Type**</span></span>|<span data-ttu-id="e8223-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="e8223-115">**Description**</span></span>|
+|<span data-ttu-id="bfa8f-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="bfa8f-113">**Element**</span></span>|<span data-ttu-id="bfa8f-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="bfa8f-114">**Type**</span></span>|<span data-ttu-id="bfa8f-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="bfa8f-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="e8223-116">Осуществляет подключение</span><span class="sxs-lookup"><span data-stu-id="e8223-116">Connects</span></span>](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="e8223-117">Connects_Type</span><span class="sxs-lookup"><span data-stu-id="e8223-117">Connects_Type</span></span>](connects_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="e8223-118">Фигур</span><span class="sxs-lookup"><span data-stu-id="e8223-118">Shapes</span></span>](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="e8223-119">Shapes_Type</span><span class="sxs-lookup"><span data-stu-id="e8223-119">Shapes_Type</span></span>](shapes_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="bfa8f-116">Осуществляет подключение</span><span class="sxs-lookup"><span data-stu-id="bfa8f-116">Connects</span></span>](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="bfa8f-117">Connects_Type</span><span class="sxs-lookup"><span data-stu-id="bfa8f-117">Connects_Type</span></span>](connects_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="bfa8f-118">Фигур</span><span class="sxs-lookup"><span data-stu-id="bfa8f-118">Shapes</span></span>](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="bfa8f-119">Shapes_Type</span><span class="sxs-lookup"><span data-stu-id="bfa8f-119">Shapes_Type</span></span>](shapes_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="e8223-120">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="e8223-120">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="bfa8f-120">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="bfa8f-120">Attributes</span></span>
 
-<span data-ttu-id="e8223-121">Нет.</span><span class="sxs-lookup"><span data-stu-id="e8223-121">None.</span></span>
+<span data-ttu-id="bfa8f-121">Нет.</span><span class="sxs-lookup"><span data-stu-id="bfa8f-121">None.</span></span>
   
 

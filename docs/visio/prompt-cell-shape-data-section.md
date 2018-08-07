@@ -1,5 +1,5 @@
 ---
-title: Запрос ячейки (раздел данных фигуры)
+title: Ячейка Prompt (раздел "Данные фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,24 +16,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814486"
 ---
-# <a name="prompt-cell-shape-data-section"></a><span data-ttu-id="261cc-103">Запрос ячейки (раздел данных фигуры)</span><span class="sxs-lookup"><span data-stu-id="261cc-103">Prompt Cell (Shape Data Section)</span></span>
+# <a name="prompt-cell-shape-data-section"></a><span data-ttu-id="8b6f2-103">Ячейка Prompt (раздел "Данные фигуры")</span><span class="sxs-lookup"><span data-stu-id="8b6f2-103">Prompt Cell (Shape Data Section)</span></span>
 
-<span data-ttu-id="261cc-104">Задает описательный или управляющий текст, который отображается в виде подсказки при наведении курсора на значение в окне **Данных фигуры** .</span><span class="sxs-lookup"><span data-stu-id="261cc-104">Specifies descriptive or instructional text that appears as a tip when the mouse is paused over a value in the **Shape Data** window.</span></span> 
+<span data-ttu-id="8b6f2-104">Задает описательный или управляющий текст, который отображается в виде подсказки при наведении курсора на значение в окне **Данных фигуры** .</span><span class="sxs-lookup"><span data-stu-id="8b6f2-104">Specifies descriptive or instructional text that appears as a tip when the mouse is paused over a value in the **Shape Data** window.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="261cc-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="261cc-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8b6f2-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="8b6f2-105">Remarks</span></span>
 
-<span data-ttu-id="261cc-106">Для получения ссылки на ячейки приглашениями по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="261cc-106">To get a reference to the Prompt cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="8b6f2-106">Для получения ссылки на ячейки приглашениями по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="8b6f2-106">To get a reference to the Prompt cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="261cc-107">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="261cc-107">Cell name:</span></span>  <br/> | <span data-ttu-id="261cc-108">Свойства.  *Имя* . Запрос, где *имя* — это имя строки</span><span class="sxs-lookup"><span data-stu-id="261cc-108">Prop.  *Name*  .Prompt where  *Name*  is the row name</span></span>  <br/> |
+| <span data-ttu-id="8b6f2-107">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="8b6f2-107">Cell name:</span></span>  <br/> | <span data-ttu-id="8b6f2-108">Свойства.  *Имя* . Запрос, где *имя* — это имя строки</span><span class="sxs-lookup"><span data-stu-id="8b6f2-108">Prop.  *Name*  .Prompt where  *Name*  is the row name</span></span>  <br/> |
    
-<span data-ttu-id="261cc-109">Для получения ссылки на ячейки приглашениями по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="261cc-109">To get a reference to the Prompt cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="8b6f2-109">Для получения ссылки на ячейки приглашениями по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="8b6f2-109">To get a reference to the Prompt cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="261cc-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="261cc-110">Section index:</span></span>  <br/> |<span data-ttu-id="261cc-111">**visSectionProp**</span><span class="sxs-lookup"><span data-stu-id="261cc-111">**visSectionProp**</span></span> <br/> |
-| <span data-ttu-id="261cc-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="261cc-112">Row index:</span></span>  <br/> |<span data-ttu-id="261cc-113">**visRowProp +** *i* где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="261cc-113">**visRowProp +** *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="261cc-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="261cc-114">Cell index:</span></span>  <br/> |<span data-ttu-id="261cc-115">**visCustPropsPrompt**</span><span class="sxs-lookup"><span data-stu-id="261cc-115">**visCustPropsPrompt**</span></span> <br/> |
+| <span data-ttu-id="8b6f2-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="8b6f2-110">Section index:</span></span>  <br/> |<span data-ttu-id="8b6f2-111">**visSectionProp**</span><span class="sxs-lookup"><span data-stu-id="8b6f2-111">**visSectionProp**</span></span> <br/> |
+| <span data-ttu-id="8b6f2-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="8b6f2-112">Row index:</span></span>  <br/> |<span data-ttu-id="8b6f2-113">**visRowProp +** *i* где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="8b6f2-113">**visRowProp +** *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="8b6f2-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="8b6f2-114">Cell index:</span></span>  <br/> |<span data-ttu-id="8b6f2-115">**visCustPropsPrompt**</span><span class="sxs-lookup"><span data-stu-id="8b6f2-115">**visCustPropsPrompt**</span></span> <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockFromGroupFormat (раздел Защита)
+title: Ячейка LockFromGroupFormat (раздел "Защита")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,26 +13,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19814145"
 ---
-# <a name="lockfromgroupformat-cell-protection-section"></a><span data-ttu-id="2eb3b-102">Ячейка LockFromGroupFormat (раздел Защита)</span><span class="sxs-lookup"><span data-stu-id="2eb3b-102">LockFromGroupFormat Cell (Protection Section)</span></span>
+# <a name="lockfromgroupformat-cell-protection-section"></a><span data-ttu-id="7482e-102">Ячейка LockFromGroupFormat (раздел "Защита")</span><span class="sxs-lookup"><span data-stu-id="7482e-102">LockFromGroupFormat Cell (Protection Section)</span></span>
 
-<span data-ttu-id="2eb3b-103">Блоки изменений формата групповой фигуры распространения на вложенные фигуры, при этом позволяя пользователям напрямую форматирование указанных вложенных фигур.</span><span class="sxs-lookup"><span data-stu-id="2eb3b-103">Blocks format changes to a group shape from being propagated to its sub-shapes, while still allowing users to format selected sub-shapes directly.</span></span> 
+<span data-ttu-id="7482e-103">Блоки изменений формата групповой фигуры распространения на вложенные фигуры, при этом позволяя пользователям напрямую форматирование указанных вложенных фигур.</span><span class="sxs-lookup"><span data-stu-id="7482e-103">Blocks format changes to a group shape from being propagated to its sub-shapes, while still allowing users to format selected sub-shapes directly.</span></span> 
   
-<span data-ttu-id="2eb3b-104">Значение ячейки LockFromGroupFormat соответствует параметру **из группы форматирования** флажок в диалоговом окне " **Защита** ".</span><span class="sxs-lookup"><span data-stu-id="2eb3b-104">The value of the LockFromGroupFormat cell corresponds to the **From group formatting** check box setting in the **Protection** dialog box.</span></span> 
+<span data-ttu-id="7482e-104">Значение ячейки LockFromGroupFormat соответствует параметру **из группы форматирования** флажок в диалоговом окне " **Защита** ".</span><span class="sxs-lookup"><span data-stu-id="7482e-104">The value of the LockFromGroupFormat cell corresponds to the **From group formatting** check box setting in the **Protection** dialog box.</span></span> 
   
-<span data-ttu-id="2eb3b-105">Для ссылки на ячейки LockFromGroupFormat по имени из другой формулы или из программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="2eb3b-105">To refer to the LockFromGroupFormat cell by name from another formula, or from a program, using the **CellsU** property, use:</span></span> 
-  
-|||
-|:-----|:-----|
-|<span data-ttu-id="2eb3b-106">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="2eb3b-106">Cell name:</span></span>  <br/> |<span data-ttu-id="2eb3b-107">LockFromGroupFormat</span><span class="sxs-lookup"><span data-stu-id="2eb3b-107">LockFromGroupFormat</span></span>  <br/> |
-   
-<span data-ttu-id="2eb3b-108">Для ссылки на ячейки LockFromGroupFormat по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="2eb3b-108">To refer to the LockFromGroupFormat cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="7482e-105">Для ссылки на ячейки LockFromGroupFormat по имени из другой формулы или из программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="7482e-105">To refer to the LockFromGroupFormat cell by name from another formula, or from a program, using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2eb3b-109">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="2eb3b-109">Section index:</span></span>  <br/> |<span data-ttu-id="2eb3b-110">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="2eb3b-110">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="2eb3b-111">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="2eb3b-111">Row index:</span></span>  <br/> |<span data-ttu-id="2eb3b-112">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="2eb3b-112">**visRowLock**</span></span> <br/> |
-|<span data-ttu-id="2eb3b-113">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="2eb3b-113">Cell index:</span></span>  <br/> |<span data-ttu-id="2eb3b-114">**visLockFromGroupFormat**</span><span class="sxs-lookup"><span data-stu-id="2eb3b-114">**visLockFromGroupFormat**</span></span> <br/> |
+|<span data-ttu-id="7482e-106">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="7482e-106">Cell name:</span></span>  <br/> |<span data-ttu-id="7482e-107">LockFromGroupFormat</span><span class="sxs-lookup"><span data-stu-id="7482e-107">LockFromGroupFormat</span></span>  <br/> |
    
-<span data-ttu-id="2eb3b-115">Значение по умолчанию для ячейки равно 0 (False).</span><span class="sxs-lookup"><span data-stu-id="2eb3b-115">The default value for the cell is 0 (False).</span></span>
+<span data-ttu-id="7482e-108">Для ссылки на ячейки LockFromGroupFormat по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="7482e-108">To refer to the LockFromGroupFormat cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="7482e-109">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="7482e-109">Section index:</span></span>  <br/> |<span data-ttu-id="7482e-110">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="7482e-110">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="7482e-111">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="7482e-111">Row index:</span></span>  <br/> |<span data-ttu-id="7482e-112">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="7482e-112">**visRowLock**</span></span> <br/> |
+|<span data-ttu-id="7482e-113">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="7482e-113">Cell index:</span></span>  <br/> |<span data-ttu-id="7482e-114">**visLockFromGroupFormat**</span><span class="sxs-lookup"><span data-stu-id="7482e-114">**visLockFromGroupFormat**</span></span> <br/> |
+   
+<span data-ttu-id="7482e-115">Значение по умолчанию для ячейки равно 0 (False).</span><span class="sxs-lookup"><span data-stu-id="7482e-115">The default value for the cell is 0 (False).</span></span>
   
 

@@ -1,5 +1,5 @@
 ---
-title: Ячейка TheData (раздел событий)
+title: Ячейка TheData (раздел "События")
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815002"
 ---
-# <a name="thedata-cell-events-section"></a><span data-ttu-id="1ceaf-103">Ячейка TheData (раздел событий)</span><span class="sxs-lookup"><span data-stu-id="1ceaf-103">TheData Cell (Events Section)</span></span>
+# <a name="thedata-cell-events-section"></a><span data-ttu-id="a4faa-103">Ячейка TheData (раздел "События")</span><span class="sxs-lookup"><span data-stu-id="a4faa-103">TheData Cell (Events Section)</span></span>
 
-<span data-ttu-id="1ceaf-104">Зарезервировано для использования в будущем.</span><span class="sxs-lookup"><span data-stu-id="1ceaf-104">Reserved for future use.</span></span>
+<span data-ttu-id="a4faa-104">Зарезервировано для использования в будущем.</span><span class="sxs-lookup"><span data-stu-id="a4faa-104">Reserved for future use.</span></span>
   
 

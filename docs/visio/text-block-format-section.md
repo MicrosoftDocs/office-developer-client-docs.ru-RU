@@ -1,5 +1,5 @@
 ---
-title: Раздел формат блока текста
+title: Раздел "Формат текстового блока"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814995"
 ---
-# <a name="text-block-format-section"></a><span data-ttu-id="f7918-103">Раздел формат блока текста</span><span class="sxs-lookup"><span data-stu-id="f7918-103">Text Block Format Section</span></span>
+# <a name="text-block-format-section"></a><span data-ttu-id="04018-103">Раздел "Формат текстового блока"</span><span class="sxs-lookup"><span data-stu-id="04018-103">Text Block Format Section</span></span>
 
-<span data-ttu-id="f7918-104">Содержит ячейки, которые управляют выравнивание, поля и по умолчанию позиции табуляции текста в блоке текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="f7918-104">Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block.</span></span>
+<span data-ttu-id="04018-104">Содержит ячейки, которые управляют выравнивание, поля и по умолчанию позиции табуляции текста в блоке текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="04018-104">Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f7918-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="f7918-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="04018-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="04018-105">Remarks</span></span>
 
-<span data-ttu-id="f7918-106">Можно также задать атрибуты текста с помощью диалоговое окно " **Text** " (на вкладке **Главная** нажмите кнопку вызова диалогового окна « **Шрифт** »).</span><span class="sxs-lookup"><span data-stu-id="f7918-106">You can also set these text attributes by using the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
+<span data-ttu-id="04018-106">Можно также задать атрибуты текста с помощью диалоговое окно " **Text** " (на вкладке **Главная** нажмите кнопку вызова диалогового окна « **Шрифт** »).</span><span class="sxs-lookup"><span data-stu-id="04018-106">You can also set these text attributes by using the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
   
 

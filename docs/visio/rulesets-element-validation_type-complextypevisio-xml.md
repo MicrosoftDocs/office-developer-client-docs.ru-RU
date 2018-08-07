@@ -14,44 +14,44 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814714"
 ---
-# <a name="rulesets-element-validationtype-complextype-visio-xml"></a><span data-ttu-id="db23f-103">Наборы правил элемент (Validation_Type complexType) ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="db23f-103">RuleSets element (Validation_Type complexType) ('Visio XML')</span></span>
+# <a name="rulesets-element-validationtype-complextype-visio-xml"></a><span data-ttu-id="bd370-103">Наборы правил элемент (Validation_Type complexType) ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="bd370-103">RuleSets element (Validation_Type complexType) ('Visio XML')</span></span>
 
-<span data-ttu-id="db23f-104">Включает в себя элемент **набора правил** для каждого правила проверки, задайте в документе.</span><span class="sxs-lookup"><span data-stu-id="db23f-104">Includes a **RuleSet** element for each validation rule set in the document.</span></span> 
+<span data-ttu-id="bd370-104">Включает в себя элемент **набора правил** для каждого правила проверки, задайте в документе.</span><span class="sxs-lookup"><span data-stu-id="bd370-104">Includes a **RuleSet** element for each validation rule set in the document.</span></span> 
   
-## <a name="element-information"></a><span data-ttu-id="db23f-105">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="db23f-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="bd370-105">Сведения об элементе</span><span class="sxs-lookup"><span data-stu-id="bd370-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="db23f-106">**Тип элемента**</span><span class="sxs-lookup"><span data-stu-id="db23f-106">**Element type**</span></span> <br/> |[<span data-ttu-id="db23f-107">RuleSets_Type</span><span class="sxs-lookup"><span data-stu-id="db23f-107">RuleSets_Type</span></span>](rulesets_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="db23f-108">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="db23f-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="db23f-109">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="db23f-109">**Schema file**</span></span> <br/> |<span data-ttu-id="db23f-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="db23f-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="db23f-111">**Части документа**</span><span class="sxs-lookup"><span data-stu-id="db23f-111">**Document parts**</span></span> <br/> |<span data-ttu-id="db23f-112">Validation.XML</span><span class="sxs-lookup"><span data-stu-id="db23f-112">validation.xml</span></span>  <br/> |
+|<span data-ttu-id="bd370-106">**Тип элемента**</span><span class="sxs-lookup"><span data-stu-id="bd370-106">**Element type**</span></span> <br/> |[<span data-ttu-id="bd370-107">RuleSets_Type</span><span class="sxs-lookup"><span data-stu-id="bd370-107">RuleSets_Type</span></span>](rulesets_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="bd370-108">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="bd370-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="bd370-109">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="bd370-109">**Schema file**</span></span> <br/> |<span data-ttu-id="bd370-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="bd370-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="bd370-111">**Части документа**</span><span class="sxs-lookup"><span data-stu-id="bd370-111">**Document parts**</span></span> <br/> |<span data-ttu-id="bd370-112">Validation.XML</span><span class="sxs-lookup"><span data-stu-id="bd370-112">validation.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="db23f-113">Определение</span><span class="sxs-lookup"><span data-stu-id="db23f-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="bd370-113">Определение</span><span class="sxs-lookup"><span data-stu-id="bd370-113">Definition</span></span>
 
 ```XML
 < xs:element name="RuleSets" type="RuleSets_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="db23f-114">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="db23f-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="bd370-114">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="bd370-114">Elements and attributes</span></span>
 
-<span data-ttu-id="db23f-115">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="db23f-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="bd370-115">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="bd370-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="db23f-116">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="db23f-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="bd370-116">Родительские элементы</span><span class="sxs-lookup"><span data-stu-id="bd370-116">Parent elements</span></span>
 
-|<span data-ttu-id="db23f-117">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="db23f-117">**Element**</span></span>|<span data-ttu-id="db23f-118">**Тип**</span><span class="sxs-lookup"><span data-stu-id="db23f-118">**Type**</span></span>|<span data-ttu-id="db23f-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="db23f-119">**Description**</span></span>|
+|<span data-ttu-id="bd370-117">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="bd370-117">**Element**</span></span>|<span data-ttu-id="bd370-118">**Тип**</span><span class="sxs-lookup"><span data-stu-id="bd370-118">**Type**</span></span>|<span data-ttu-id="bd370-119">**Описание**</span><span class="sxs-lookup"><span data-stu-id="bd370-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="db23f-120">Проверка</span><span class="sxs-lookup"><span data-stu-id="db23f-120">Validation</span></span>](validation-elementvisio-xml.md) <br/> |[<span data-ttu-id="db23f-121">Validation_Type</span><span class="sxs-lookup"><span data-stu-id="db23f-121">Validation_Type</span></span>](validation_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="db23f-122">Сохранение информации о проверки схемы для документа.</span><span class="sxs-lookup"><span data-stu-id="db23f-122">Stores information about diagram validation for the document.</span></span>  <br/> |
+|[<span data-ttu-id="bd370-120">Проверка</span><span class="sxs-lookup"><span data-stu-id="bd370-120">Validation</span></span>](validation-elementvisio-xml.md) <br/> |[<span data-ttu-id="bd370-121">Validation_Type</span><span class="sxs-lookup"><span data-stu-id="bd370-121">Validation_Type</span></span>](validation_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="bd370-122">Сохранение информации о проверки схемы для документа.</span><span class="sxs-lookup"><span data-stu-id="bd370-122">Stores information about diagram validation for the document.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="db23f-123">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="db23f-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="bd370-123">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="bd370-123">Child elements</span></span>
 
-|<span data-ttu-id="db23f-124">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="db23f-124">**Element**</span></span>|<span data-ttu-id="db23f-125">**Тип**</span><span class="sxs-lookup"><span data-stu-id="db23f-125">**Type**</span></span>|<span data-ttu-id="db23f-126">**Описание**</span><span class="sxs-lookup"><span data-stu-id="db23f-126">**Description**</span></span>|
+|<span data-ttu-id="bd370-124">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="bd370-124">**Element**</span></span>|<span data-ttu-id="bd370-125">**Тип**</span><span class="sxs-lookup"><span data-stu-id="bd370-125">**Type**</span></span>|<span data-ttu-id="bd370-126">**Описание**</span><span class="sxs-lookup"><span data-stu-id="bd370-126">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="db23f-127">Набор правил</span><span class="sxs-lookup"><span data-stu-id="db23f-127">RuleSet</span></span>](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="db23f-128">RuleSet_Type</span><span class="sxs-lookup"><span data-stu-id="db23f-128">RuleSet_Type</span></span>](ruleset_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="db23f-129">Представляет один набор правил проверки схемы.</span><span class="sxs-lookup"><span data-stu-id="db23f-129">Represents one set of diagram-validation rules.</span></span>  <br/> |
+|[<span data-ttu-id="bd370-127">Набор правил</span><span class="sxs-lookup"><span data-stu-id="bd370-127">RuleSet</span></span>](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="bd370-128">RuleSet_Type</span><span class="sxs-lookup"><span data-stu-id="bd370-128">RuleSet_Type</span></span>](ruleset_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="bd370-129">Представляет один набор правил проверки схемы.</span><span class="sxs-lookup"><span data-stu-id="bd370-129">Represents one set of diagram-validation rules.</span></span>  <br/> |
    
-### <a name="attributes"></a><span data-ttu-id="db23f-130">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="db23f-130">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="bd370-130">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="bd370-130">Attributes</span></span>
 
-<span data-ttu-id="db23f-131">Нет.</span><span class="sxs-lookup"><span data-stu-id="db23f-131">None.</span></span>
+<span data-ttu-id="bd370-131">Нет.</span><span class="sxs-lookup"><span data-stu-id="bd370-131">None.</span></span>
   
 

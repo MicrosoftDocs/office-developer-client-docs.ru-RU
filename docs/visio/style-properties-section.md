@@ -1,5 +1,5 @@
 ---
-title: Раздел свойства стилей
+title: Раздел "Свойства стиля"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814958"
 ---
-# <a name="style-properties-section"></a><span data-ttu-id="85a8f-103">Раздел свойства стилей</span><span class="sxs-lookup"><span data-stu-id="85a8f-103">Style Properties Section</span></span>
+# <a name="style-properties-section"></a><span data-ttu-id="9cadf-103">Раздел "Свойства стиля"</span><span class="sxs-lookup"><span data-stu-id="9cadf-103">Style Properties Section</span></span>
 
-<span data-ttu-id="85a8f-104">Включает в себя ячеек, которые управляют поведением стиля, например, включены ли в стиль текста, строка и заполните поля атрибутов.</span><span class="sxs-lookup"><span data-stu-id="85a8f-104">Includes cells that control style behavior, such as whether a style includes text, line, and fill attributes.</span></span>
+<span data-ttu-id="9cadf-104">Включает в себя ячеек, которые управляют поведением стиля, например, включены ли в стиль текста, строка и заполните поля атрибутов.</span><span class="sxs-lookup"><span data-stu-id="9cadf-104">Includes cells that control style behavior, such as whether a style includes text, line, and fill attributes.</span></span>
   
 

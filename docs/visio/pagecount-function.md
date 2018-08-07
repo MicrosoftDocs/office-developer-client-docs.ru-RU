@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814337"
 ---
-# <a name="pagecount-function"></a><span data-ttu-id="e8809-103">Функция PAGECOUNT</span><span class="sxs-lookup"><span data-stu-id="e8809-103">PAGECOUNT Function</span></span>
+# <a name="pagecount-function"></a><span data-ttu-id="839a7-103">Функция PAGECOUNT</span><span class="sxs-lookup"><span data-stu-id="839a7-103">PAGECOUNT Function</span></span>
 
-<span data-ttu-id="e8809-104">Возвращает число страниц переднего плана в документе.</span><span class="sxs-lookup"><span data-stu-id="e8809-104">Returns the number of foreground pages in a document.</span></span> 
+<span data-ttu-id="839a7-104">Возвращает число страниц переднего плана в документе.</span><span class="sxs-lookup"><span data-stu-id="839a7-104">Returns the number of foreground pages in a document.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="e8809-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e8809-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="839a7-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="839a7-105">Syntax</span></span>
 
-<span data-ttu-id="e8809-106">(PAGECOUNT)</span><span class="sxs-lookup"><span data-stu-id="e8809-106">PAGECOUNT ()</span></span>
+<span data-ttu-id="839a7-106">(PAGECOUNT)</span><span class="sxs-lookup"><span data-stu-id="839a7-106">PAGECOUNT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="e8809-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e8809-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="839a7-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="839a7-107">Return value</span></span>
 
-<span data-ttu-id="e8809-108">Число</span><span class="sxs-lookup"><span data-stu-id="e8809-108">Number</span></span>
+<span data-ttu-id="839a7-108">Number</span><span class="sxs-lookup"><span data-stu-id="839a7-108">Number</span></span>
   
 

@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814366"
 ---
-# <a name="paragraphtype-complextype-visio-xml"></a><span data-ttu-id="0214d-102">Paragraph_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="0214d-102">Paragraph_Type complexType ('Visio XML')</span></span>
+# <a name="paragraphtype-complextype-visio-xml"></a><span data-ttu-id="1a823-102">Paragraph_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="1a823-102">Paragraph_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="0214d-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="0214d-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="1a823-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="1a823-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="0214d-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="0214d-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="0214d-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="0214d-105">**Schema file**</span></span> <br/> |<span data-ttu-id="0214d-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="0214d-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="0214d-107">**База расширения**</span><span class="sxs-lookup"><span data-stu-id="0214d-107">**Extension base**</span></span> <br/> |<span data-ttu-id="0214d-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="0214d-108">Section_Type</span></span>  <br/> |
+|<span data-ttu-id="1a823-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="1a823-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="1a823-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="1a823-105">**Schema file**</span></span> <br/> |<span data-ttu-id="1a823-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="1a823-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="1a823-107">**База расширения**</span><span class="sxs-lookup"><span data-stu-id="1a823-107">**Extension base**</span></span> <br/> |<span data-ttu-id="1a823-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="1a823-108">Section_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="0214d-109">Определение</span><span class="sxs-lookup"><span data-stu-id="0214d-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="1a823-109">Определение</span><span class="sxs-lookup"><span data-stu-id="1a823-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="Paragraph_Type">
@@ -42,18 +42,18 @@ ms.locfileid: "19814366"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="0214d-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="0214d-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="1a823-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="1a823-110">Elements and attributes</span></span>
 
-<span data-ttu-id="0214d-111">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="0214d-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="1a823-111">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="1a823-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="0214d-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="0214d-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="1a823-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="1a823-112">Child elements</span></span>
 
-|<span data-ttu-id="0214d-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="0214d-113">**Element**</span></span>|<span data-ttu-id="0214d-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="0214d-114">**Type**</span></span>|<span data-ttu-id="0214d-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0214d-115">**Description**</span></span>|
+|<span data-ttu-id="1a823-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="1a823-113">**Element**</span></span>|<span data-ttu-id="1a823-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="1a823-114">**Type**</span></span>|<span data-ttu-id="1a823-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="1a823-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="0214d-116">Row</span><span class="sxs-lookup"><span data-stu-id="0214d-116">Row</span></span>](row-element-paragraph-sectionvisio-xml.md) <br/> |[<span data-ttu-id="0214d-117">ParagraphRow_Type</span><span class="sxs-lookup"><span data-stu-id="0214d-117">ParagraphRow_Type</span></span>](paragraphrow_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="1a823-116">Row</span><span class="sxs-lookup"><span data-stu-id="1a823-116">Row</span></span>](row-element-paragraph-sectionvisio-xml.md) <br/> |[<span data-ttu-id="1a823-117">ParagraphRow_Type</span><span class="sxs-lookup"><span data-stu-id="1a823-117">ParagraphRow_Type</span></span>](paragraphrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="0214d-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="0214d-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="1a823-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="1a823-118">Attributes</span></span>
 
-<span data-ttu-id="0214d-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="0214d-119">None.</span></span>
+<span data-ttu-id="1a823-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="1a823-119">None.</span></span>
   
 

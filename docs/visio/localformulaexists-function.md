@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814122"
 ---
-# <a name="localformulaexists-function"></a><span data-ttu-id="f5579-103">Функция LOCALFORMULAEXISTS</span><span class="sxs-lookup"><span data-stu-id="f5579-103">LOCALFORMULAEXISTS Function</span></span>
+# <a name="localformulaexists-function"></a><span data-ttu-id="c237c-103">Функция LOCALFORMULAEXISTS</span><span class="sxs-lookup"><span data-stu-id="c237c-103">LOCALFORMULAEXISTS Function</span></span>
 
-<span data-ttu-id="f5579-104">Показывает, содержит ли указанная ячейка локальную формулу.</span><span class="sxs-lookup"><span data-stu-id="f5579-104">Indicates whether the referenced cell contains a local formula.</span></span> 
+<span data-ttu-id="c237c-104">Показывает, содержит ли указанная ячейка локальную формулу.</span><span class="sxs-lookup"><span data-stu-id="c237c-104">Indicates whether the referenced cell contains a local formula.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f5579-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f5579-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c237c-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c237c-105">Syntax</span></span>
 
-<span data-ttu-id="f5579-106">LOCALFORMULAEXISTS (** *cellref* **)</span><span class="sxs-lookup"><span data-stu-id="f5579-106">LOCALFORMULAEXISTS (** *cellref* ** )</span></span> 
+<span data-ttu-id="c237c-106">LOCALFORMULAEXISTS (** *cellref* **)</span><span class="sxs-lookup"><span data-stu-id="c237c-106">LOCALFORMULAEXISTS (** *cellref* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="f5579-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="f5579-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="c237c-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="c237c-107">Parameters</span></span>
 
-|<span data-ttu-id="f5579-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="f5579-108">**Name**</span></span>|<span data-ttu-id="f5579-109">**Обязательный или необязательный**</span><span class="sxs-lookup"><span data-stu-id="f5579-109">**Required/Optional**</span></span>|<span data-ttu-id="f5579-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="f5579-110">**Data Type**</span></span>|<span data-ttu-id="f5579-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f5579-111">**Description**</span></span>|
+|<span data-ttu-id="c237c-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="c237c-108">**Name**</span></span>|<span data-ttu-id="c237c-109">**Обязательный или необязательный**</span><span class="sxs-lookup"><span data-stu-id="c237c-109">**Required/Optional**</span></span>|<span data-ttu-id="c237c-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="c237c-110">**Data Type**</span></span>|<span data-ttu-id="c237c-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c237c-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="f5579-112">_cellref_</span><span class="sxs-lookup"><span data-stu-id="f5579-112">_cellref_</span></span> <br/> |<span data-ttu-id="f5579-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="f5579-113">Required</span></span>  <br/> |<span data-ttu-id="f5579-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="f5579-114">**String**</span></span> <br/> | <span data-ttu-id="f5579-115">Ячейка, необходимо проверить наличие формулы.</span><span class="sxs-lookup"><span data-stu-id="f5579-115">The cell that you want to check for the presence of a formula.</span></span>  <br/> |
+| <span data-ttu-id="c237c-112">_cellref_</span><span class="sxs-lookup"><span data-stu-id="c237c-112">_cellref_</span></span> <br/> |<span data-ttu-id="c237c-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="c237c-113">Required</span></span>  <br/> |<span data-ttu-id="c237c-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="c237c-114">**String**</span></span> <br/> | <span data-ttu-id="c237c-115">Ячейка, необходимо проверить наличие формулы.</span><span class="sxs-lookup"><span data-stu-id="c237c-115">The cell that you want to check for the presence of a formula.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="f5579-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f5579-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c237c-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c237c-116">Return value</span></span>
 
-<span data-ttu-id="f5579-117">Логический</span><span class="sxs-lookup"><span data-stu-id="f5579-117">Boolean</span></span>
+<span data-ttu-id="c237c-117">Логический</span><span class="sxs-lookup"><span data-stu-id="c237c-117">Boolean</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f5579-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="f5579-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c237c-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="c237c-118">Remarks</span></span>
 
-<span data-ttu-id="f5579-119">Функция LOCALFORMULAEXISTS возвращает 1, если ячейка с формулой локального; Если нет формулы не или наследуется формулу, возвращает нуль (0).</span><span class="sxs-lookup"><span data-stu-id="f5579-119">The LOCALFORMULAEXISTS function returns 1 if the cell contains a local formula; if there is no formula, or if the formula is inherited, it returns 0 (zero).</span></span> 
+<span data-ttu-id="c237c-119">Функция LOCALFORMULAEXISTS возвращает 1, если ячейка с формулой локального; Если нет формулы не или наследуется формулу, возвращает нуль (0).</span><span class="sxs-lookup"><span data-stu-id="c237c-119">The LOCALFORMULAEXISTS function returns 1 if the cell contains a local formula; if there is no formula, or if the formula is inherited, it returns 0 (zero).</span></span> 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtPinY (раздел Преобразование текст)
+title: Ячейка TxtPinY (раздел "Преобразование текста")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815084"
 ---
-# <a name="txtpiny-cell-text-transform-section"></a><span data-ttu-id="cbe65-104">Ячейка TxtPinY (раздел Преобразование текст)</span><span class="sxs-lookup"><span data-stu-id="cbe65-104">TxtPinY Cell (Text Transform Section)</span></span>
+# <a name="txtpiny-cell-text-transform-section"></a><span data-ttu-id="77d20-104">Ячейка TxtPinY (раздел "Преобразование текста")</span><span class="sxs-lookup"><span data-stu-id="77d20-104">TxtPinY Cell (Text Transform Section)</span></span>
 
-<span data-ttu-id="cbe65-105">Определяет, *y* -координата блок текста центра вращения относительно начала фигуры.</span><span class="sxs-lookup"><span data-stu-id="cbe65-105">Determines the  *y*  -coordinate of the text block's center of rotation in relation to the origin of the shape.</span></span> <span data-ttu-id="cbe65-106">Формула по умолчанию имеет вид:</span><span class="sxs-lookup"><span data-stu-id="cbe65-106">The default formula is:</span></span> 
+<span data-ttu-id="77d20-105">Определяет, *y* -координата блок текста центра вращения относительно начала фигуры.</span><span class="sxs-lookup"><span data-stu-id="77d20-105">Determines the  *y*  -coordinate of the text block's center of rotation in relation to the origin of the shape.</span></span> <span data-ttu-id="77d20-106">Формула по умолчанию имеет вид:</span><span class="sxs-lookup"><span data-stu-id="77d20-106">The default formula is:</span></span> 
   
-<span data-ttu-id="cbe65-107">= Высота \* 0,5</span><span class="sxs-lookup"><span data-stu-id="cbe65-107">= Height \* 0.5</span></span>
+<span data-ttu-id="77d20-107">= Высота \* 0,5</span><span class="sxs-lookup"><span data-stu-id="77d20-107">= Height \* 0.5</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="cbe65-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="cbe65-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="77d20-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="77d20-108">Remarks</span></span>
 
-<span data-ttu-id="cbe65-109">Чтобы получить ссылку на ячейку TxtPinY по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cbe65-109">To get a reference to the TxtPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="77d20-109">Чтобы получить ссылку на ячейку TxtPinY по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="77d20-109">To get a reference to the TxtPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="cbe65-110">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="cbe65-110">Cell name:</span></span>  <br/> | <span data-ttu-id="cbe65-111">TxtPinY</span><span class="sxs-lookup"><span data-stu-id="cbe65-111">TxtPinY</span></span>  <br/> |
+| <span data-ttu-id="77d20-110">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="77d20-110">Cell name:</span></span>  <br/> | <span data-ttu-id="77d20-111">TxtPinY</span><span class="sxs-lookup"><span data-stu-id="77d20-111">TxtPinY</span></span>  <br/> |
    
-<span data-ttu-id="cbe65-112">Для получения ссылки на ячейки TxtPinY по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="cbe65-112">To get a reference to the TxtPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="77d20-112">Для получения ссылки на ячейки TxtPinY по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="77d20-112">To get a reference to the TxtPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="cbe65-113">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="cbe65-113">Section index:</span></span>  <br/> |<span data-ttu-id="cbe65-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cbe65-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="cbe65-115">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="cbe65-115">Row index:</span></span>  <br/> |<span data-ttu-id="cbe65-116">**visRowTextXForm**</span><span class="sxs-lookup"><span data-stu-id="cbe65-116">**visRowTextXForm**</span></span> <br/> |
-| <span data-ttu-id="cbe65-117">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="cbe65-117">Cell index:</span></span>  <br/> |<span data-ttu-id="cbe65-118">**visXFormPinY**</span><span class="sxs-lookup"><span data-stu-id="cbe65-118">**visXFormPinY**</span></span> <br/> |
+| <span data-ttu-id="77d20-113">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="77d20-113">Section index:</span></span>  <br/> |<span data-ttu-id="77d20-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="77d20-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="77d20-115">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="77d20-115">Row index:</span></span>  <br/> |<span data-ttu-id="77d20-116">**visRowTextXForm**</span><span class="sxs-lookup"><span data-stu-id="77d20-116">**visRowTextXForm**</span></span> <br/> |
+| <span data-ttu-id="77d20-117">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="77d20-117">Cell index:</span></span>  <br/> |<span data-ttu-id="77d20-118">**visXFormPinY**</span><span class="sxs-lookup"><span data-stu-id="77d20-118">**visXFormPinY**</span></span> <br/> |
    
 

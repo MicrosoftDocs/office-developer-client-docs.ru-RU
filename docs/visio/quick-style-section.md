@@ -1,5 +1,5 @@
 ---
-title: Раздел экспресс-стилей
+title: Раздел "Экспресс-стиль"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814513"
 ---
-# <a name="quick-style-section"></a><span data-ttu-id="efea3-103">Раздел экспресс-стилей</span><span class="sxs-lookup"><span data-stu-id="efea3-103">Quick Style Section</span></span>
+# <a name="quick-style-section"></a><span data-ttu-id="7a61f-103">Раздел "Экспресс-стиль"</span><span class="sxs-lookup"><span data-stu-id="7a61f-103">Quick Style Section</span></span>
 
-<span data-ttu-id="efea3-104">Отображает текущий экспресс-стилей форматирования значения, применяемые к фигуры, включая цвет линии и стиль, цвет заливки и стиль, цвет затенения, эффекты, шрифт и стиль.</span><span class="sxs-lookup"><span data-stu-id="efea3-104">Shows the current Quick Style formatting values applied to the shape, including line color and style, fill color and style, shadow color, effects, font, and style type.</span></span> 
+<span data-ttu-id="7a61f-104">Отображает текущий экспресс-стилей форматирования значения, применяемые к фигуры, включая цвет линии и стиль, цвет заливки и стиль, цвет затенения, эффекты, шрифт и стиль.</span><span class="sxs-lookup"><span data-stu-id="7a61f-104">Shows the current Quick Style formatting values applied to the shape, including line color and style, fill color and style, shadow color, effects, font, and style type.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="efea3-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="efea3-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7a61f-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="7a61f-105">Remarks</span></span>
 
-<span data-ttu-id="efea3-106">Вы можете экспресс-стилей выбрав фигуры и затем выбрав новый экспресс-стилей (на вкладке **Главная** в группе **Стили фигуру** нажмите кнопку **Дополнительно**и выберите другой экспресс-стилей из коллекции).</span><span class="sxs-lookup"><span data-stu-id="efea3-106">You can Quick Style selecting the shape and then selecting a new Quick Style (on the **Home** tab, in the **Shape Styles** group, click **More**, and then select another Quick Style from the gallery).</span></span>
+<span data-ttu-id="7a61f-106">Вы можете экспресс-стилей выбрав фигуры и затем выбрав новый экспресс-стилей (на вкладке **Главная** в группе **Стили фигуру** нажмите кнопку **Дополнительно**и выберите другой экспресс-стилей из коллекции).</span><span class="sxs-lookup"><span data-stu-id="7a61f-106">You can Quick Style selecting the shape and then selecting a new Quick Style (on the **Home** tab, in the **Shape Styles** group, click **More**, and then select another Quick Style from the gallery).</span></span>
   
 

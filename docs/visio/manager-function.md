@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814192"
 ---
-# <a name="manager-function"></a><span data-ttu-id="c25ec-103">Функция MANAGER</span><span class="sxs-lookup"><span data-stu-id="c25ec-103">MANAGER Function</span></span>
+# <a name="manager-function"></a><span data-ttu-id="a4344-103">Функция MANAGER</span><span class="sxs-lookup"><span data-stu-id="a4344-103">MANAGER Function</span></span>
 
-<span data-ttu-id="c25ec-104">Возвращает текст из поля **диспетчера** свойств документа.</span><span class="sxs-lookup"><span data-stu-id="c25ec-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
+<span data-ttu-id="a4344-104">Возвращает текст из поля **диспетчера** свойств документа.</span><span class="sxs-lookup"><span data-stu-id="a4344-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="c25ec-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c25ec-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a4344-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a4344-105">Syntax</span></span>
 
-<span data-ttu-id="c25ec-106">(ДИСПЕТЧЕР)</span><span class="sxs-lookup"><span data-stu-id="c25ec-106">MANAGER ()</span></span>
+<span data-ttu-id="a4344-106">(ДИСПЕТЧЕР)</span><span class="sxs-lookup"><span data-stu-id="a4344-106">MANAGER ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="c25ec-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c25ec-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="a4344-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a4344-107">Return value</span></span>
 
-<span data-ttu-id="c25ec-108">String</span><span class="sxs-lookup"><span data-stu-id="c25ec-108">String</span></span>
+<span data-ttu-id="a4344-108">String</span><span class="sxs-lookup"><span data-stu-id="a4344-108">String</span></span>
   
 

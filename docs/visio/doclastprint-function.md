@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813620"
 ---
-# <a name="doclastprint-function"></a><span data-ttu-id="4b26d-103">Функция DOCLASTPRINT</span><span class="sxs-lookup"><span data-stu-id="4b26d-103">DOCLASTPRINT Function</span></span>
+# <a name="doclastprint-function"></a><span data-ttu-id="c38a3-103">Функция DOCLASTPRINT</span><span class="sxs-lookup"><span data-stu-id="c38a3-103">DOCLASTPRINT Function</span></span>
 
-<span data-ttu-id="4b26d-104">Возвращает дату и время последней печати документа, как значение последовательный.</span><span class="sxs-lookup"><span data-stu-id="4b26d-104">Returns the date and time a document was last printed, as a serial value.</span></span>
+<span data-ttu-id="c38a3-104">Возвращает дату и время последней печати документа, как значение последовательный.</span><span class="sxs-lookup"><span data-stu-id="c38a3-104">Returns the date and time a document was last printed, as a serial value.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="4b26d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4b26d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c38a3-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c38a3-105">Syntax</span></span>
 
-<span data-ttu-id="4b26d-106">(DOCLASTPRINT)</span><span class="sxs-lookup"><span data-stu-id="4b26d-106">DOCLASTPRINT ()</span></span>
+<span data-ttu-id="c38a3-106">(DOCLASTPRINT)</span><span class="sxs-lookup"><span data-stu-id="c38a3-106">DOCLASTPRINT ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4b26d-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="4b26d-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c38a3-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="c38a3-107">Remarks</span></span>
 
-<span data-ttu-id="4b26d-108">Функция FORMAT используется для форматирования значения.</span><span class="sxs-lookup"><span data-stu-id="4b26d-108">Use the FORMAT function to format the value.</span></span> 
+<span data-ttu-id="c38a3-108">Функция FORMAT используется для форматирования значения.</span><span class="sxs-lookup"><span data-stu-id="c38a3-108">Use the FORMAT function to format the value.</span></span> 
   
 
