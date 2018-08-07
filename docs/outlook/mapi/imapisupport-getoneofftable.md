@@ -48,7 +48,7 @@ HRESULT GetOneOffTable(
   
 > <span data-ttu-id="12ce4-114">[out] Указатель на указатель на одноразовых таблицы.</span><span class="sxs-lookup"><span data-stu-id="12ce4-114">[out] A pointer to a pointer to the one-off table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="12ce4-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="12ce4-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="12ce4-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="12ce4-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="12ce4-116">S_OK</span></span> 
   

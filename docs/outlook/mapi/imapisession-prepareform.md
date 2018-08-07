@@ -49,7 +49,7 @@ HRESULT PrepareForm(
   
 > <span data-ttu-id="7ed66-114">[out] Указатель на маркер сообщения, который используется для доступа к сообщения с помощью метода **IMAPISession::ShowForm** , на который указывает _lpMessage_.</span><span class="sxs-lookup"><span data-stu-id="7ed66-114">[out] A pointer to a message token, which is used by the **IMAPISession::ShowForm** method to access the message pointed to by  _lpMessage_.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7ed66-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7ed66-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7ed66-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="7ed66-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7ed66-116">S_OK</span></span> 
   

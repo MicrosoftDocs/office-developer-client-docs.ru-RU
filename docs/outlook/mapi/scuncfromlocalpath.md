@@ -55,7 +55,7 @@ SCODE ScUNCFromLocalPath(
   
 > <span data-ttu-id="aa97d-118">[in] Размер буфера для вывода строки.</span><span class="sxs-lookup"><span data-stu-id="aa97d-118">[in] Size of the buffer for the output string.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="aa97d-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="aa97d-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="aa97d-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="aa97d-120">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="aa97d-120">S_OK</span></span>
   

@@ -64,7 +64,7 @@ HRESULT CompareEntryIDs(
   
 > <span data-ttu-id="d6d15-119">[out] Указатель на результат сравнения.</span><span class="sxs-lookup"><span data-stu-id="d6d15-119">[out] A pointer to the result of the comparison.</span></span> <span data-ttu-id="d6d15-120">Значение TRUE, если идентификаторы двух записей ссылаются на тот же объект; в противном случае — FALSE.</span><span class="sxs-lookup"><span data-stu-id="d6d15-120">TRUE if the two entry identifiers refer to the same object; otherwise, FALSE.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d6d15-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d6d15-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d6d15-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="d6d15-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="d6d15-122">S_OK</span></span> 
   

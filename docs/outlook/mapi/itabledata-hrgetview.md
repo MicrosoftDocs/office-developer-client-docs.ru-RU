@@ -54,7 +54,7 @@ HRESULT HrGetView(
   
 > <span data-ttu-id="2a851-116">[out] Указатель на указатель на только что созданный представления.</span><span class="sxs-lookup"><span data-stu-id="2a851-116">[out] A pointer to a pointer to the newly created view.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2a851-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2a851-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2a851-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="2a851-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="2a851-118">S_OK</span></span> 
   

@@ -44,7 +44,7 @@ HRESULT SetDefaultDir(
   
 > <span data-ttu-id="7ea78-110">[in] Указатель на идентификатор записи контейнер адресной книги по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7ea78-110">[in] A pointer to the entry identifier of the default address book container.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7ea78-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7ea78-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7ea78-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="7ea78-112">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7ea78-112">S_OK</span></span> 
   

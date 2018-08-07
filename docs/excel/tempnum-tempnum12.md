@@ -36,7 +36,7 @@ LPXLOPER12 TempNum12(double d);
   
 <span data-ttu-id="b8c61-109">Целевое значение.</span><span class="sxs-lookup"><span data-stu-id="b8c61-109">The intended value.</span></span> <span data-ttu-id="b8c61-110">Обратите внимание, что IEEE вложенных обычных чисел в настоящее время не поддерживается округляются до нуля.</span><span class="sxs-lookup"><span data-stu-id="b8c61-110">Note that IEEE sub-normal numbers are not currently supported and are rounded to zero.</span></span> <span data-ttu-id="b8c61-111">Отрицательное infinity поддерживается.</span><span class="sxs-lookup"><span data-stu-id="b8c61-111">Negative infinity is supported.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="b8c61-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b8c61-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b8c61-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="b8c61-113">Возвращает числовое **xltypeNum** , содержащая значение переданного или ноль, если переданное значение было вложенных обычный.</span><span class="sxs-lookup"><span data-stu-id="b8c61-113">Returns a numeric **xltypeNum** containing the value passed in or zero if the passed in value was sub-normal.</span></span> 
   

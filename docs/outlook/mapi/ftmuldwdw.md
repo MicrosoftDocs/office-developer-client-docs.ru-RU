@@ -50,7 +50,7 @@ FILETIME FtMulDwDw(
   
 > <span data-ttu-id="09515-116">[in] Двойное слово, содержащий множитель неподписанных 32-разрядное целое число.</span><span class="sxs-lookup"><span data-stu-id="09515-116">[in] A double word that contains the unsigned 32-bit integer multiplier.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="09515-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="09515-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="09515-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="09515-118">Функция **FtMulDwDw** возвращает структуру [FILETIME](filetime.md) , содержащую произведение двух целых чисел.</span><span class="sxs-lookup"><span data-stu-id="09515-118">The **FtMulDwDw** function returns a [FILETIME](filetime.md) structure that contains the product of the two integers.</span></span> <span data-ttu-id="09515-119">Два входных параметра не изменяются.</span><span class="sxs-lookup"><span data-stu-id="09515-119">The two input parameters remain unchanged.</span></span> 
   

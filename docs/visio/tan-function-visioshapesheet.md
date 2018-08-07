@@ -30,7 +30,7 @@ ms.locfileid: "19814992"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="3624f-112">_угол_</span><span class="sxs-lookup"><span data-stu-id="3624f-112">_angle_</span></span> <br/> |<span data-ttu-id="3624f-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="3624f-113">Required</span></span>  <br/> |<span data-ttu-id="3624f-114">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="3624f-114">**Numeric**</span></span> <br/> |<span data-ttu-id="3624f-115">Угол которого необходимо получить тангенс.</span><span class="sxs-lookup"><span data-stu-id="3624f-115">The angle of which to get the tangent.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="3624f-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="3624f-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="3624f-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="3624f-117">Числовой</span><span class="sxs-lookup"><span data-stu-id="3624f-117">Numeric</span></span>
   

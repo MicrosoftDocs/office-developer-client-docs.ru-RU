@@ -42,7 +42,7 @@ LPCWSTR lpString2);
   
 > <span data-ttu-id="2589f-112">[in] Строка для копирования символом null.</span><span class="sxs-lookup"><span data-stu-id="2589f-112">[in] The null-terminated string to be copied.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2589f-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2589f-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2589f-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="2589f-114">Если функция успешно выполнена, возвращается указатель на буфер.</span><span class="sxs-lookup"><span data-stu-id="2589f-114">If the function succeeds, the return value is a pointer to the buffer.</span></span>
   

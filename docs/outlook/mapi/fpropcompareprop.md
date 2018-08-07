@@ -53,7 +53,7 @@ BOOL FPropCompareProp(
   
 > <span data-ttu-id="8b433-119">[in] Указатель на структуру **SPropValue** определение второе значение свойства для сравнения.</span><span class="sxs-lookup"><span data-stu-id="8b433-119">[in] Pointer to an **SPropValue** structure defining the second property value for comparison.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="8b433-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8b433-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8b433-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="8b433-121">TRUE</span><span class="sxs-lookup"><span data-stu-id="8b433-121">TRUE</span></span> 
   

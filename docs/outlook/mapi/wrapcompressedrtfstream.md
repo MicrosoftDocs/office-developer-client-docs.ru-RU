@@ -63,7 +63,7 @@ HRESULT WrapCompressedRTFStream(
   
 > <span data-ttu-id="489eb-123">[out] Указатель на место, где **WrapCompressedRTFStream** возвращает поток для несжатый формат RTF.</span><span class="sxs-lookup"><span data-stu-id="489eb-123">[out] Pointer to the location where **WrapCompressedRTFStream** returns a stream for the uncompressed RTF.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="489eb-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="489eb-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="489eb-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="489eb-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="489eb-125">S_OK</span></span> 
   

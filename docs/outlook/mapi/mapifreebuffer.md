@@ -45,7 +45,7 @@ ULONG MAPIFreeBuffer(
   
 > <span data-ttu-id="9c119-114">[in] Указатель на буфер ранее выделенной памяти.</span><span class="sxs-lookup"><span data-stu-id="9c119-114">[in] Pointer to a previously allocated memory buffer.</span></span> <span data-ttu-id="9c119-115">Если значение NULL передается в параметре _lpBuffer_ , **MAPIFreeBuffer** не имеет никакого эффекта.</span><span class="sxs-lookup"><span data-stu-id="9c119-115">If NULL is passed in the  _lpBuffer_ parameter, **MAPIFreeBuffer** does nothing.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="9c119-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9c119-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9c119-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="9c119-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="9c119-117">S_OK</span></span> 
   

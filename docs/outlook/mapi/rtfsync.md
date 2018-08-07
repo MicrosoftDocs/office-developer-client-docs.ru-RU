@@ -59,7 +59,7 @@ HRESULT RTFSync(
   
 > <span data-ttu-id="04c9d-123">[out] Указатель на переменную, указывающее, существует ли обновленные сообщения.</span><span class="sxs-lookup"><span data-stu-id="04c9d-123">[out] Pointer to a variable indicating whether there is an updated message.</span></span> <span data-ttu-id="04c9d-124">Значение TRUE, если сообщение обновленные значение FALSE в противном случае.</span><span class="sxs-lookup"><span data-stu-id="04c9d-124">TRUE if there is an updated message, FALSE otherwise.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="04c9d-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="04c9d-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="04c9d-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="04c9d-126">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="04c9d-126">S_OK</span></span> 
   

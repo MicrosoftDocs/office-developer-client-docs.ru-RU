@@ -44,7 +44,7 @@ HRESULT EncodeRecips(
   
 > <span data-ttu-id="287e9-110">[in] Указатель на таблицу получателей, для которого кодируется в представлении.</span><span class="sxs-lookup"><span data-stu-id="287e9-110">[in] A pointer to the recipient table for which the view is encoded.</span></span> <span data-ttu-id="287e9-111">Параметр _lpRecipientTable_ может быть NULL.</span><span class="sxs-lookup"><span data-stu-id="287e9-111">The  _lpRecipientTable_ parameter can be NULL.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="287e9-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="287e9-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="287e9-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="287e9-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="287e9-113">S_OK</span></span> 
   

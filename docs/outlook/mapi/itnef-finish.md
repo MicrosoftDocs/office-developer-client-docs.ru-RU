@@ -49,7 +49,7 @@ HRESULT Finish(
   
 > <span data-ttu-id="2c57a-114">[out] Указатель на указатель на структуру возвращенные [STnefProblemArray](stnefproblemarray.md) .</span><span class="sxs-lookup"><span data-stu-id="2c57a-114">[out] A pointer to a pointer to a returned [STnefProblemArray](stnefproblemarray.md) structure.</span></span> <span data-ttu-id="2c57a-115">Структура **STnefProblemArray** указывает, какие свойства при их наличии, были не кодируются должным образом.</span><span class="sxs-lookup"><span data-stu-id="2c57a-115">The **STnefProblemArray** structure indicates which properties, if any, were not encoded properly.</span></span> <span data-ttu-id="2c57a-116">Если NULL передается в параметре _lpProblem_ , возвращается массив проблема не свойство.</span><span class="sxs-lookup"><span data-stu-id="2c57a-116">If NULL is passed in the  _lpProblem_ parameter, no property problem array is returned.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="2c57a-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2c57a-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2c57a-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="2c57a-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="2c57a-118">S_OK</span></span> 
   

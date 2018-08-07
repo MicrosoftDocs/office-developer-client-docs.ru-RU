@@ -39,7 +39,7 @@ HRESULT DeleteProvider(
   
 > <span data-ttu-id="e9d75-108">[in, out] Указатель на структуру [MAPIUID](mapiuid.md) , содержащую уникальный идентификатор, представляющий поставщика для удаления.</span><span class="sxs-lookup"><span data-stu-id="e9d75-108">[in, out] A pointer to the [MAPIUID](mapiuid.md) structure that contains the unique identifier that represents the provider to delete.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="e9d75-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e9d75-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e9d75-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="e9d75-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e9d75-110">S_OK</span></span> 
   

@@ -32,7 +32,7 @@ ms.locfileid: "19814968"
 | <span data-ttu-id="d777d-116">_число2_</span><span class="sxs-lookup"><span data-stu-id="d777d-116">_number2_</span></span> <br/> |<span data-ttu-id="d777d-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="d777d-117">Required</span></span>  <br/> |<span data-ttu-id="d777d-118">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="d777d-118">**Numeric**</span></span> <br/> |<span data-ttu-id="d777d-119">Второй номер.</span><span class="sxs-lookup"><span data-stu-id="d777d-119">The second number.</span></span>  <br/> |
 | <span data-ttu-id="d777d-120">_numberN_</span><span class="sxs-lookup"><span data-stu-id="d777d-120">_numberN_</span></span> <br/> |<span data-ttu-id="d777d-121">Optional</span><span class="sxs-lookup"><span data-stu-id="d777d-121">Optional</span></span>  <br/> |<span data-ttu-id="d777d-122">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="d777d-122">**Numeric**</span></span> <br/> |<span data-ttu-id="d777d-123">N-й номер.</span><span class="sxs-lookup"><span data-stu-id="d777d-123">The nth number.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="d777d-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d777d-124">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="d777d-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="d777d-125">Числовой</span><span class="sxs-lookup"><span data-stu-id="d777d-125">Numeric</span></span>
   

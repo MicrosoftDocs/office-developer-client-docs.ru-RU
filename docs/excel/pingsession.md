@@ -30,7 +30,7 @@ int PingSession(int SessionId)
   
 > <span data-ttu-id="bd59f-109">Идентификатор сеанса для проверки связи.</span><span class="sxs-lookup"><span data-stu-id="bd59f-109">The ID of the session to ping.</span></span> <span data-ttu-id="bd59f-110">Это значение должно соответствовать идентификатор, который возвращает предыдущего вызова [метод OpenSession](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="bd59f-110">This value must match an ID returned by a previous call to [OpenSession](opensession.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="bd59f-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="bd59f-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bd59f-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="bd59f-112">**xlHpcRetSuccess** Если аргумент _SessionId_ является допустимым; в противном случае — **xlHpcRetInvalidSessionId**.</span><span class="sxs-lookup"><span data-stu-id="bd59f-112">**xlHpcRetSuccess** if the  _SessionId_ argument is valid; otherwise **xlHpcRetInvalidSessionId**.</span></span>
   

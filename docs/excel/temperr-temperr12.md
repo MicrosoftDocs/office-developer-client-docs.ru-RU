@@ -46,7 +46,7 @@ LPXLOPER12 TempErr12(BOOL err);
 |<span data-ttu-id="e0335-128">#NUM!</span><span class="sxs-lookup"><span data-stu-id="e0335-128">#NUM!</span></span>  <br/> |<span data-ttu-id="e0335-129">**xlerrNum**</span><span class="sxs-lookup"><span data-stu-id="e0335-129">**xlerrNum**</span></span> <br/> |<span data-ttu-id="e0335-130">36</span><span class="sxs-lookup"><span data-stu-id="e0335-130">36</span></span>  <br/> |
 |<span data-ttu-id="e0335-131">#N/A</span><span class="sxs-lookup"><span data-stu-id="e0335-131">#N/A</span></span>  <br/> |<span data-ttu-id="e0335-132">**xlerrNA**</span><span class="sxs-lookup"><span data-stu-id="e0335-132">**xlerrNA**</span></span> <br/> |<span data-ttu-id="e0335-133">42</span><span class="sxs-lookup"><span data-stu-id="e0335-133">42</span></span>  <br/> |
    
-## <a name="return-value"></a><span data-ttu-id="e0335-134">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e0335-134">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e0335-134">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="e0335-135">Возвращает значение **xltypeBool** , содержащий код ошибки переданную.</span><span class="sxs-lookup"><span data-stu-id="e0335-135">Returns an **xltypeBool** containing the error code passed in.</span></span> 
   

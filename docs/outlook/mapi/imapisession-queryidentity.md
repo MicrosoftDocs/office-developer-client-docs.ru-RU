@@ -44,7 +44,7 @@ HRESULT QueryIdentity(
   
 > <span data-ttu-id="e2a5a-110">[out] Указатель на указатель на идентификатор записи объекта, который содержит основной идентификатор.</span><span class="sxs-lookup"><span data-stu-id="e2a5a-110">[out] A pointer to a pointer to the entry identifier of the object that provides the primary identity.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e2a5a-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e2a5a-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e2a5a-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="e2a5a-112">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e2a5a-112">S_OK</span></span> 
   

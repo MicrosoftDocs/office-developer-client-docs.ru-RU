@@ -30,7 +30,7 @@ int OpenSession(WCHAR *Params)
   
 > <span data-ttu-id="8f34f-108">Указатель, разделенных точкой с запятой строку ЮНИКОДА параметров для этого сеанса.</span><span class="sxs-lookup"><span data-stu-id="8f34f-108">A pointer to semicolon-delimited UNICODE string of parameters for the session.</span></span> <span data-ttu-id="8f34f-109">Excel не использует этот аргумент.</span><span class="sxs-lookup"><span data-stu-id="8f34f-109">Excel does not use this argument.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="8f34f-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8f34f-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8f34f-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="8f34f-111">Идентификатор сеанса для использования в других вызовов соединитель кластера, если сеанс был успешно создан; в противном случае — **xlHpcRetCallFailed**.</span><span class="sxs-lookup"><span data-stu-id="8f34f-111">A session ID to use in other calls to the cluster connector, if the session was successfully created; otherwise **xlHpcRetCallFailed**.</span></span>
   

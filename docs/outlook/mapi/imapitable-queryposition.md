@@ -49,7 +49,7 @@ ULONG FAR * lpulDenominator
   
 > <span data-ttu-id="221ae-113">[out] Указатель на делителя дроби, определяющее позицию в таблице.</span><span class="sxs-lookup"><span data-stu-id="221ae-113">[out] Pointer to the denominator for the fraction identifying the table position.</span></span> <span data-ttu-id="221ae-114">Параметр _lpulDenominator_ не может быть равно нулю.</span><span class="sxs-lookup"><span data-stu-id="221ae-114">The  _lpulDenominator_ parameter cannot be zero.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="221ae-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="221ae-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="221ae-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="221ae-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="221ae-116">S_OK</span></span> 
   

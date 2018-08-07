@@ -49,7 +49,7 @@ HRESULT StartMessage(
   
 > <span data-ttu-id="7c7bb-113">[out] Указатель на ссылку значение, присваиваемое сообщения.</span><span class="sxs-lookup"><span data-stu-id="7c7bb-113">[out] A pointer to a reference value assigned to the message.</span></span> <span data-ttu-id="7c7bb-114">Диспетчер очереди MAPI инициализирует это значение 1, перед возвращает указатель на поставщика транспорта.</span><span class="sxs-lookup"><span data-stu-id="7c7bb-114">The MAPI spooler initializes this value to 1 before it returns the pointer to the transport provider.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7c7bb-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7c7bb-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7c7bb-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="7c7bb-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7c7bb-116">S_OK</span></span> 
   

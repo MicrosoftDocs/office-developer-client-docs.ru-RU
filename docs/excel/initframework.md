@@ -32,7 +32,7 @@ short WINAPI InitFramework(void);
 
 <span data-ttu-id="a31b7-108">Эта функция не получает никаких аргументов.</span><span class="sxs-lookup"><span data-stu-id="a31b7-108">This function takes no arguments.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="a31b7-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a31b7-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a31b7-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="a31b7-110">Эта функция не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="a31b7-110">This function does not return a value.</span></span>
   

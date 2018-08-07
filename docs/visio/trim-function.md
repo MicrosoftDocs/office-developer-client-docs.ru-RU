@@ -30,7 +30,7 @@ ms.locfileid: "19815073"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="da4c9-112">_text_</span><span class="sxs-lookup"><span data-stu-id="da4c9-112">_text_</span></span> <br/> |<span data-ttu-id="da4c9-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="da4c9-113">Required</span></span>  <br/> |<span data-ttu-id="da4c9-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="da4c9-114">**String**</span></span> <br/> |<span data-ttu-id="da4c9-115">Текст, из которого требуется удалить пробелы.</span><span class="sxs-lookup"><span data-stu-id="da4c9-115">The text from which you want to remove spaces.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="da4c9-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="da4c9-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="da4c9-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="da4c9-117">Строка</span><span class="sxs-lookup"><span data-stu-id="da4c9-117">String</span></span>
   

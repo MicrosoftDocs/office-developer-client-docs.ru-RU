@@ -49,7 +49,7 @@ HRESULT GetMemAllocRoutines(
   
 > <span data-ttu-id="a64d4-114">[out] Указатель на указатель на функцию **MAPIFreeBuffer** .</span><span class="sxs-lookup"><span data-stu-id="a64d4-114">[out] A pointer to a pointer to the **MAPIFreeBuffer** function.</span></span> <span data-ttu-id="a64d4-115">**MAPIFreeBuffer** освобождает память.</span><span class="sxs-lookup"><span data-stu-id="a64d4-115">**MAPIFreeBuffer** frees memory.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a64d4-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a64d4-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a64d4-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="a64d4-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a64d4-117">S_OK</span></span> 
   

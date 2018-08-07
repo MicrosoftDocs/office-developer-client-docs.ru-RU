@@ -76,7 +76,7 @@ HRESULT OpenMsgStore(
   
 > <span data-ttu-id="5a89f-136">[out] Указатель на указатель хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="5a89f-136">[out] Pointer to a pointer of the message store.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="5a89f-137">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5a89f-137">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5a89f-137">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="5a89f-138">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="5a89f-138">S_OK</span></span> 
   

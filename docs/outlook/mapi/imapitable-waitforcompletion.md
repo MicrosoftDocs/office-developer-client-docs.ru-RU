@@ -49,7 +49,7 @@ ULONG FAR * lpulTableStatus
   
 > <span data-ttu-id="df2e7-113">[in, out] На выходе — допустимый указатель или значение NULL.</span><span class="sxs-lookup"><span data-stu-id="df2e7-113">[in, out] On input, either a valid pointer or NULL.</span></span> <span data-ttu-id="df2e7-114">В выходных данных Если _lpulTableStatus_ является допустимым указателем, он указывает самое последнее состояние таблицы.</span><span class="sxs-lookup"><span data-stu-id="df2e7-114">On output, if  _lpulTableStatus_ is a valid pointer, it points to the most recent status of the table.</span></span> <span data-ttu-id="df2e7-115">Если _lpulTableStatus_ имеет значение NULL, возвращаются сведения о состоянии.</span><span class="sxs-lookup"><span data-stu-id="df2e7-115">If  _lpulTableStatus_ is NULL, no status information is returned.</span></span> <span data-ttu-id="df2e7-116">Если **WaitForCompletion** возвращает значение HRESULT неудачно, содержимое _lpulTableStatus_ не определено.</span><span class="sxs-lookup"><span data-stu-id="df2e7-116">If **WaitForCompletion** returns an unsuccessful HRESULT value, the contents of  _lpulTableStatus_ are undefined.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="df2e7-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="df2e7-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="df2e7-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="df2e7-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="df2e7-118">S_OK</span></span> 
   

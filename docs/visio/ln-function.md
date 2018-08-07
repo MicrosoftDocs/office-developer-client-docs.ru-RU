@@ -30,7 +30,7 @@ ms.locfileid: "19814110"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="e9f49-114">_number_</span><span class="sxs-lookup"><span data-stu-id="e9f49-114">_number_</span></span> <br/> |<span data-ttu-id="e9f49-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="e9f49-115">Required</span></span>  <br/> |<span data-ttu-id="e9f49-116">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="e9f49-116">**Numeric**</span></span> <br/> | <span data-ttu-id="e9f49-117">Номер, который требуется найти натуральный логарифм.</span><span class="sxs-lookup"><span data-stu-id="e9f49-117">The number whose natural logarithm you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="e9f49-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e9f49-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e9f49-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="e9f49-119">Числовой</span><span class="sxs-lookup"><span data-stu-id="e9f49-119">Numeric</span></span>
   

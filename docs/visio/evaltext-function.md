@@ -30,7 +30,7 @@ ms.locfileid: "19813704"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="eb2ff-112">_указанной фигуре! theText_</span><span class="sxs-lookup"><span data-stu-id="eb2ff-112">_shapename!theText_</span></span> <br/> |<span data-ttu-id="eb2ff-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="eb2ff-113">Required</span></span>  <br/> |<span data-ttu-id="eb2ff-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="eb2ff-114">**String**</span></span> <br/> |<span data-ttu-id="eb2ff-115">Ячейка, выполняемого при изменении связанных с фигурой текстовой композиции.</span><span class="sxs-lookup"><span data-stu-id="eb2ff-115">A cell that is triggered when the associated shape's text composition changes.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="eb2ff-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="eb2ff-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="eb2ff-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="eb2ff-117">Строка</span><span class="sxs-lookup"><span data-stu-id="eb2ff-117">String</span></span>
   

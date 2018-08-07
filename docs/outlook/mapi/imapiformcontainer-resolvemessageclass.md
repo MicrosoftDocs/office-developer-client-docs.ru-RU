@@ -53,7 +53,7 @@ HRESULT ResolveMessageClass(
   
 > <span data-ttu-id="91d3f-116">[out] Указатель на указатель на объект сведения возвращенные формы.</span><span class="sxs-lookup"><span data-stu-id="91d3f-116">[out] A pointer to a pointer to the returned form information object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="91d3f-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="91d3f-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="91d3f-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="91d3f-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="91d3f-118">S_OK</span></span> 
   

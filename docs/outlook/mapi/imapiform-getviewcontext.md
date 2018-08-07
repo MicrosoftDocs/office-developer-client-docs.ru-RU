@@ -39,7 +39,7 @@ HRESULT GetViewContext(
   
 > <span data-ttu-id="8f177-108">[out] Указатель на указатель на контекст представления формы.</span><span class="sxs-lookup"><span data-stu-id="8f177-108">[out] A pointer to a pointer to the form's view context.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="8f177-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8f177-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8f177-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="8f177-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="8f177-110">S_OK</span></span> 
   

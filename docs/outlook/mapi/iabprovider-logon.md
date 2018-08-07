@@ -86,7 +86,7 @@ HRESULT Logon(
   
 > <span data-ttu-id="44d27-137">[out] Указатель на указатель на объект поставщика входа в систему.</span><span class="sxs-lookup"><span data-stu-id="44d27-137">[out] A pointer to a pointer to the provider's logon object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="44d27-138">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="44d27-138">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="44d27-138">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="44d27-139">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="44d27-139">S_OK</span></span> 
   

@@ -28,7 +28,7 @@ ms.locfileid: "19814753"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="f39c8-112">_pathRef_</span><span class="sxs-lookup"><span data-stu-id="f39c8-112">_pathRef_</span></span> <br/> |<span data-ttu-id="f39c8-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="f39c8-113">Required</span></span>  <br/> |<span data-ttu-id="f39c8-114">**Integer**</span><span class="sxs-lookup"><span data-stu-id="f39c8-114">**Integer**</span></span> <br/> |<span data-ttu-id="f39c8-115">Раздел геометрии, представляющий путь, указанный с помощью ссылки на ячейки путь (например, Geometry1.Path).</span><span class="sxs-lookup"><span data-stu-id="f39c8-115">The Geometry section that represents the path, specified by a reference to Path cell (for example, Geometry1.Path).</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="f39c8-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f39c8-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="f39c8-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="f39c8-117">Целое число</span><span class="sxs-lookup"><span data-stu-id="f39c8-117">Integer</span></span>
   

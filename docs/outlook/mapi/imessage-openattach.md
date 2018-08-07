@@ -66,7 +66,7 @@ HRESULT OpenAttach(
   
 > <span data-ttu-id="520d6-126">[out] Указатель на указатель открыть вложение.</span><span class="sxs-lookup"><span data-stu-id="520d6-126">[out] Pointer to a pointer to the open attachment.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="520d6-127">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="520d6-127">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="520d6-127">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="520d6-128">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="520d6-128">S_OK</span></span> 
   

@@ -88,7 +88,7 @@ ULONG FAR * lpulTableType
   
 > <span data-ttu-id="370f1-135">В таблице является статическим, и его содержимое не изменяются при изменении базовых данных.</span><span class="sxs-lookup"><span data-stu-id="370f1-135">The table is static, and its contents do not change when the underlying data changes.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="370f1-136">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="370f1-136">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="370f1-136">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="370f1-137">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="370f1-137">S_OK</span></span> 
   

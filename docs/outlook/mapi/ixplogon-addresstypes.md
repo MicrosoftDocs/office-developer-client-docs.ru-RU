@@ -63,7 +63,7 @@ HRESULT AddressTypes(
   
 > <span data-ttu-id="a71cc-120">[out] Указатель на указатель на массив указатели на [MAPIUID](mapiuid.md) структуры, чтобы указать типы получателей.</span><span class="sxs-lookup"><span data-stu-id="a71cc-120">[out] A pointer to a pointer to an array of pointers to [MAPIUID](mapiuid.md) structures that identify recipient types.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a71cc-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a71cc-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a71cc-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="a71cc-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a71cc-122">S_OK</span></span> 
   

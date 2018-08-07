@@ -65,7 +65,7 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
   
 > <span data-ttu-id="716ec-125">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="716ec-125">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="716ec-126">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="716ec-126">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="716ec-126">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="716ec-127">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="716ec-127">S_OK</span></span> 
   

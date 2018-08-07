@@ -67,7 +67,7 @@ HRESULT GetSiteStatus(
   
 > <span data-ttu-id="55c41-123">Можно отправить сообщение.</span><span class="sxs-lookup"><span data-stu-id="55c41-123">The message can be submitted.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="55c41-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="55c41-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="55c41-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="55c41-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="55c41-125">S_OK</span></span> 
   

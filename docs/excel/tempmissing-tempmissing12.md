@@ -34,7 +34,7 @@ LPXLOPER12 TempMissing12(void);
 
 <span data-ttu-id="d2a45-108">Эта функция не получает никаких параметров.</span><span class="sxs-lookup"><span data-stu-id="d2a45-108">This function takes no parameters.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="d2a45-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d2a45-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d2a45-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="d2a45-110">Возвращает указатель на **xltypeMissing** **XLOPER**/ **XLOPER12**.</span><span class="sxs-lookup"><span data-stu-id="d2a45-110">Returns a pointer to an **xltypeMissing** **XLOPER**/ **XLOPER12**.</span></span>
   

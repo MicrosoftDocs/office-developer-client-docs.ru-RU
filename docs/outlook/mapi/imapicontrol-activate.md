@@ -44,7 +44,7 @@ HRESULT Activate(
   
 > <span data-ttu-id="7e9ed-110">[in] Дескриптор родительского окна диалоговое окно, на котором отображается элемент управления button.</span><span class="sxs-lookup"><span data-stu-id="7e9ed-110">[in] A handle to the parent window of the dialog box on which the button control appears.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7e9ed-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7e9ed-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7e9ed-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="7e9ed-112">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7e9ed-112">S_OK</span></span> 
   

@@ -55,7 +55,7 @@ SCODE ScCountNotifications(
   
 > <span data-ttu-id="2b842-118">[out] Необязательный указатель на размер, в байтах, массива, на который указывает параметр _rgntf_ .</span><span class="sxs-lookup"><span data-stu-id="2b842-118">[out] Optional pointer to the size, in bytes, of the array pointed to by the  _rgntf_ parameter.</span></span> <span data-ttu-id="2b842-119">Если значение NULL, **ScCountNotifications** проверяет массива уведомлений.</span><span class="sxs-lookup"><span data-stu-id="2b842-119">If NULL, **ScCountNotifications** validates the array of notifications.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="2b842-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2b842-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2b842-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="2b842-121">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="2b842-121">S_OK</span></span>
   

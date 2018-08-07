@@ -49,7 +49,7 @@ HRESULT MoveMessage(
   
 > <span data-ttu-id="524f4-112">[in] Указатель на структуру [Прямоугольник](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) , содержащий положение и размер окна текущей формы.</span><span class="sxs-lookup"><span data-stu-id="524f4-112">[in] A pointer to a [RECT](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) structure that contains the current form's window size and position.</span></span> <span data-ttu-id="524f4-113">Далее форме, отображаемой также использует этот прямоугольник окна.</span><span class="sxs-lookup"><span data-stu-id="524f4-113">The next form displayed also uses this window rectangle.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="524f4-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="524f4-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="524f4-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="524f4-115">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="524f4-115">S_OK</span></span> 
   

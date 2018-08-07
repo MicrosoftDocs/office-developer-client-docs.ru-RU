@@ -72,7 +72,7 @@ HRESULT CreateOneOff(
   
 > <span data-ttu-id="ec7fd-130">[out] Указатель на указатель на идентификатор записи для одноразовых получателя.</span><span class="sxs-lookup"><span data-stu-id="ec7fd-130">[out] A pointer to a pointer to the entry identifier for the one-off recipient.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ec7fd-131">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="ec7fd-131">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ec7fd-131">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="ec7fd-132">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="ec7fd-132">S_OK</span></span> 
   

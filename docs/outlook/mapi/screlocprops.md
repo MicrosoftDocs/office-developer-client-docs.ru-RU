@@ -65,7 +65,7 @@ SCODE ScRelocProps(
   
 > <span data-ttu-id="a9688-122">[in, out] Необязательный указатель на размер, в байтах, массива, указанного в параметре _pvBaseNew_ .</span><span class="sxs-lookup"><span data-stu-id="a9688-122">[in, out] Optional pointer to the size, in bytes, of the array indicated by the  _pvBaseNew_ parameter.</span></span> <span data-ttu-id="a9688-123">Если это не имеет значение NULL, параметр _печатной_ число байтов, сохраненных в параметре _pvD_ .</span><span class="sxs-lookup"><span data-stu-id="a9688-123">If not NULL, the  _pcb_ parameter is set to the number of bytes stored in the  _pvD_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a9688-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a9688-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a9688-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="a9688-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a9688-125">S_OK</span></span>
   

@@ -41,7 +41,7 @@ VOID DeinitMapiUtil( void );
 
 <span data-ttu-id="31289-113">Нет</span><span class="sxs-lookup"><span data-stu-id="31289-113">None</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="31289-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="31289-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="31289-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="31289-115">Нет</span><span class="sxs-lookup"><span data-stu-id="31289-115">None</span></span> 
   

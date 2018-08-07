@@ -55,7 +55,7 @@ LPSPropValue PpropFindProp(
   
 > <span data-ttu-id="8c7a1-118">[in] Свойство tag для свойства для поиска в набор свойств, указанное с помощью параметра _rgprop_ .</span><span class="sxs-lookup"><span data-stu-id="8c7a1-118">[in] Property tag for the property to search for in the property set indicated by the  _rgprop_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="8c7a1-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8c7a1-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8c7a1-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
  <span data-ttu-id="8c7a1-120">**PpropFindProp** возвращает структуру [SPropValue](spropvalue.md) , определяющего свойство, соответствующий тег ввода свойство или значение NULL, если нет соответствия.</span><span class="sxs-lookup"><span data-stu-id="8c7a1-120">**PpropFindProp** returns an [SPropValue](spropvalue.md) structure defining the property that matches the input property tag, or NULL if there is no match.</span></span> 
   

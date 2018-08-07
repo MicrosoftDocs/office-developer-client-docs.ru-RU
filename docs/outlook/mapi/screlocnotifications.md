@@ -65,7 +65,7 @@ SCODE ScRelocNotifications(
   
 > <span data-ttu-id="15bff-122">[out] Указатель на размер, в байтах, массива, указанного в параметре _pvBaseNew_ .</span><span class="sxs-lookup"><span data-stu-id="15bff-122">[out] Pointer to the size, in bytes, of the array indicated by the  _pvBaseNew_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="15bff-123">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="15bff-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="15bff-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="15bff-124">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="15bff-124">S_OK</span></span>
   

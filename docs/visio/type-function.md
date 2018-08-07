@@ -24,7 +24,7 @@ ms.locfileid: "19815096"
 
 <span data-ttu-id="2310d-106">(ТИП)</span><span class="sxs-lookup"><span data-stu-id="2310d-106">TYPE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="2310d-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2310d-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="2310d-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="2310d-108">Number</span><span class="sxs-lookup"><span data-stu-id="2310d-108">Number</span></span>
   

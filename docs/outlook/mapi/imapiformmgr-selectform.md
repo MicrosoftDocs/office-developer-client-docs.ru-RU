@@ -63,7 +63,7 @@ HRESULT SelectForm(
   
 > <span data-ttu-id="f9cf7-122">[out] Указатель на указатель на объект сведения возвращенные формы.</span><span class="sxs-lookup"><span data-stu-id="f9cf7-122">[out] A pointer to a pointer to the returned form information object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f9cf7-123">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f9cf7-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f9cf7-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="f9cf7-124">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f9cf7-124">S_OK</span></span> 
   

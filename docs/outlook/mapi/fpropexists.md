@@ -50,7 +50,7 @@ BOOL FPropExists(
   
 > <span data-ttu-id="850b3-116">[in] Свойство tag для поиска.</span><span class="sxs-lookup"><span data-stu-id="850b3-116">[in] Property tag for which to search.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="850b3-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="850b3-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="850b3-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="850b3-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="850b3-118">TRUE</span></span> 
   

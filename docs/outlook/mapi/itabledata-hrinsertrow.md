@@ -44,7 +44,7 @@ HRESULT HrInsertRow(
   
 > <span data-ttu-id="785d9-113">[in] Указатель на структуру [SRow](srow.md) , описывающую строку, которую нужно вставить.</span><span class="sxs-lookup"><span data-stu-id="785d9-113">[in] A pointer to an [SRow](srow.md) structure that describes the row to be inserted.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="785d9-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="785d9-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="785d9-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="785d9-115">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="785d9-115">S_OK</span></span> 
   

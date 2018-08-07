@@ -52,7 +52,7 @@ ULONG ulFlags
   
 > <span data-ttu-id="1cdb7-117">Позволяет таблице отложить операцию параметр столбца, пока данные не требуется.</span><span class="sxs-lookup"><span data-stu-id="1cdb7-117">Permits the table to postpone the column setting operation until the data is actually required.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="1cdb7-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1cdb7-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1cdb7-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="1cdb7-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="1cdb7-119">S_OK</span></span> 
   

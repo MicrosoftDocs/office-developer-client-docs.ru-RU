@@ -26,7 +26,7 @@ ms.locfileid: "19814298"
 
 <span data-ttu-id="1a497-107">(NA)</span><span class="sxs-lookup"><span data-stu-id="1a497-107">NA( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="1a497-108">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1a497-108">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="1a497-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="1a497-109">Строка</span><span class="sxs-lookup"><span data-stu-id="1a497-109">String</span></span>
   

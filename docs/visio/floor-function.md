@@ -31,7 +31,7 @@ ms.locfileid: "19813774"
 | <span data-ttu-id="0988c-112">_number_</span><span class="sxs-lookup"><span data-stu-id="0988c-112">_number_</span></span> <br/> |<span data-ttu-id="0988c-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="0988c-113">Required</span></span>  <br/> |<span data-ttu-id="0988c-114">**Число**</span><span class="sxs-lookup"><span data-stu-id="0988c-114">**Number**</span></span> <br/> |<span data-ttu-id="0988c-115">Чтобы округлить число.</span><span class="sxs-lookup"><span data-stu-id="0988c-115">The number to round.</span></span>  <br/> |
 | <span data-ttu-id="0988c-116">_несколько_</span><span class="sxs-lookup"><span data-stu-id="0988c-116">_multiple_</span></span> <br/> |<span data-ttu-id="0988c-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="0988c-117">Required</span></span>  <br/> |<span data-ttu-id="0988c-118">**Число**</span><span class="sxs-lookup"><span data-stu-id="0988c-118">**Number**</span></span> <br/> |<span data-ttu-id="0988c-119">Множитель, к которому следует округлить.</span><span class="sxs-lookup"><span data-stu-id="0988c-119">The multiple to which to round.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="0988c-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0988c-120">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="0988c-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="0988c-121">Number</span><span class="sxs-lookup"><span data-stu-id="0988c-121">Number</span></span>
   

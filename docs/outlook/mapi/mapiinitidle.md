@@ -45,7 +45,7 @@ LONG MAPIInitIdle(
   
 > <span data-ttu-id="1acbb-114">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="1acbb-114">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="1acbb-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1acbb-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1acbb-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="1acbb-116">Функция **MAPIInitIdle** возвращает ноль при инициализации успешные и 1 в противном случае.</span><span class="sxs-lookup"><span data-stu-id="1acbb-116">The **MAPIInitIdle** function returns zero if initialization is successful, and 1 otherwise.</span></span> <span data-ttu-id="1acbb-117">Если **MAPIInitIdle** вызван несколько раз, все дополнительные звонки выполняются успешно, но игнорируется за исключением чтобы увеличивают счетчик ссылок.</span><span class="sxs-lookup"><span data-stu-id="1acbb-117">If **MAPIInitIdle** is called multiple times, all additional calls succeed but are ignored except to increment the reference count.</span></span> 
   

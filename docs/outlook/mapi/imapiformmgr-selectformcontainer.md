@@ -61,7 +61,7 @@ HRESULT SelectFormContainer(
   
 > <span data-ttu-id="bc0d3-120">[out] Указатель на указатель на возвращенный интерфейс.</span><span class="sxs-lookup"><span data-stu-id="bc0d3-120">[out] A pointer to a pointer to the returned interface.</span></span> <span data-ttu-id="bc0d3-121">Этот интерфейс — объект-контейнер, выбранный пользователем.</span><span class="sxs-lookup"><span data-stu-id="bc0d3-121">This interface is for the container object that is selected by the user.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="bc0d3-122">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="bc0d3-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bc0d3-122">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="bc0d3-123">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="bc0d3-123">S_OK</span></span> 
   

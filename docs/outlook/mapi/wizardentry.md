@@ -65,7 +65,7 @@ ULONG WIZARDENTRY(
   
 > <span data-ttu-id="43244-123">[in] Указатель на объект поддержки MAPI, которые применяются для данного сеанса.</span><span class="sxs-lookup"><span data-stu-id="43244-123">[in] Pointer to the MAPI support object applicable to this session.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="43244-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="43244-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="43244-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="43244-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="43244-125">S_OK</span></span> 
   

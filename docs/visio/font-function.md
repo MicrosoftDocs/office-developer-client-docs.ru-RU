@@ -36,7 +36,7 @@ ms.locfileid: "19813804"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="0bc71-117">_font_name_string_</span><span class="sxs-lookup"><span data-stu-id="0bc71-117">_font_name_string_</span></span> <br/> |<span data-ttu-id="0bc71-118">Обязательный</span><span class="sxs-lookup"><span data-stu-id="0bc71-118">Required</span></span>  <br/> |<span data-ttu-id="0bc71-119">**string**</span><span class="sxs-lookup"><span data-stu-id="0bc71-119">**string**</span></span> <br/> |<span data-ttu-id="0bc71-120">Имя шрифта.</span><span class="sxs-lookup"><span data-stu-id="0bc71-120">The name of the font.</span></span>  <br/> |
    
-## <a name="return-value"></a><span data-ttu-id="0bc71-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0bc71-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0bc71-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="0bc71-122">Целое число</span><span class="sxs-lookup"><span data-stu-id="0bc71-122">Integer</span></span>
   

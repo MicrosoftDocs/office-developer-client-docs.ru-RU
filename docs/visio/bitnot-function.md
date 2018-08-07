@@ -30,7 +30,7 @@ ms.locfileid: "19813225"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="4aa6a-114">_двоичное число_</span><span class="sxs-lookup"><span data-stu-id="4aa6a-114">_binary number_</span></span> <br/> |<span data-ttu-id="4aa6a-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="4aa6a-115">Required</span></span>  <br/> |<span data-ttu-id="4aa6a-116">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="4aa6a-116">**Numeric**</span></span> <br/> |<span data-ttu-id="4aa6a-117">16-разрядное двоичное число.</span><span class="sxs-lookup"><span data-stu-id="4aa6a-117">A 16-bit binary number.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="4aa6a-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4aa6a-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="4aa6a-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="4aa6a-119">16-разрядный двоичный</span><span class="sxs-lookup"><span data-stu-id="4aa6a-119">16-bit Binary</span></span>
   

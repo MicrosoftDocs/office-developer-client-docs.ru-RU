@@ -53,7 +53,7 @@ HRESULT GetLastError(
   
 > <span data-ttu-id="2101b-116">[out] Указатель на указатель на структуру **MAPIERROR** , который содержит сведения о версии, компонент и контекста для ошибки.</span><span class="sxs-lookup"><span data-stu-id="2101b-116">[out] A pointer to a pointer to a **MAPIERROR** structure that contains version, component, and context information for the error.</span></span> <span data-ttu-id="2101b-117">Параметр _lppMAPIError_ может быть присвоено значение NULL, если форма не может предоставить соответствующие сведения для структуры **MAPIERROR** .</span><span class="sxs-lookup"><span data-stu-id="2101b-117">The  _lppMAPIError_ parameter can be set to NULL if the form cannot supply appropriate information for a **MAPIERROR** structure.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="2101b-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2101b-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2101b-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="2101b-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="2101b-119">S_OK</span></span> 
   

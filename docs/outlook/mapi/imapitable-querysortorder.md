@@ -39,7 +39,7 @@ LPSSortOrderSet FAR * lppSortCriteria
   
 > <span data-ttu-id="d154b-108">[out] Указатель на указатель на структуру [SSortOrderSet](ssortorderset.md) , содержащую текущий порядок сортировки.</span><span class="sxs-lookup"><span data-stu-id="d154b-108">[out] Pointer to a pointer to the [SSortOrderSet](ssortorderset.md) structure holding the current sort order.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="d154b-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d154b-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d154b-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="d154b-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="d154b-110">S_OK</span></span> 
   

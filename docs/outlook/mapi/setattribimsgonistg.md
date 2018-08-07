@@ -60,7 +60,7 @@ HRESULT SetAttribIMsgOnIStg(
   
 > <span data-ttu-id="1ebad-120">[out] Указатель на структуру [SPropProblemArray](spropproblemarray.md) возвращенные, содержащий набор свойств проблем.</span><span class="sxs-lookup"><span data-stu-id="1ebad-120">[out] Pointer to the returned [SPropProblemArray](spropproblemarray.md) structure containing a set of property problems.</span></span> <span data-ttu-id="1ebad-121">Эта структура определяет проблем, возникающих при **SetAttribIMsgOnIStg** была возможность установить некоторые свойства, но не все.</span><span class="sxs-lookup"><span data-stu-id="1ebad-121">This structure identifies problems encountered if **SetAttribIMsgOnIStg** has been able to set some properties, but not all.</span></span> <span data-ttu-id="1ebad-122">Если в параметре _lppPropProblems_ передается указатель на значение NULL, массив проблема не свойство возвращается даже в том случае, если не заданы некоторые свойства.</span><span class="sxs-lookup"><span data-stu-id="1ebad-122">If a pointer to NULL is passed in the  _lppPropProblems_ parameter, no property problem array is returned even if some properties were not set.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1ebad-123">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1ebad-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1ebad-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="1ebad-124">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="1ebad-124">S_OK</span></span> 
   

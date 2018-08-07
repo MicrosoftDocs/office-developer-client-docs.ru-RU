@@ -43,7 +43,7 @@ ULONG ulFlags
   
 > <span data-ttu-id="9cb73-111">Хранилище сообщений временно и не следует добавлять к таблице хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="9cb73-111">The message store is temporary and should not be added to the message store table.</span></span> <span data-ttu-id="9cb73-112">Если для MDB_TEMPORARY, **ModifyProfile** возвращает значение S_OK немедленно.</span><span class="sxs-lookup"><span data-stu-id="9cb73-112">When MDB_TEMPORARY is set, **ModifyProfile** returns S_OK immediately.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="9cb73-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9cb73-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9cb73-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="9cb73-114">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="9cb73-114">S_OK</span></span> 
   

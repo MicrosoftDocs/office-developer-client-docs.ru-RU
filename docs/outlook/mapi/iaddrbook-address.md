@@ -49,7 +49,7 @@ HRESULT Address(
   
 > <span data-ttu-id="79b36-115">[in, out] Указатель на указатель на структуру [ADRLIST](adrlist.md) , содержащий сведения о получателях.</span><span class="sxs-lookup"><span data-stu-id="79b36-115">[in, out] A pointer to a pointer to an [ADRLIST](adrlist.md) structure that contains recipient information.</span></span> <span data-ttu-id="79b36-116">На входные данные этот параметр может быть NULL или укажите допустимый указатель.</span><span class="sxs-lookup"><span data-stu-id="79b36-116">On input, this parameter can be NULL or point to a valid pointer.</span></span> <span data-ttu-id="79b36-117">В выходных данных этот параметр указывает указатель на допустимый адрес получателя.</span><span class="sxs-lookup"><span data-stu-id="79b36-117">On output, this parameter points to a pointer to valid recipient information.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="79b36-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="79b36-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="79b36-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="79b36-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="79b36-119">S_OK</span></span> 
   

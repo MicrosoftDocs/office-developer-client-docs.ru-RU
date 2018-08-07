@@ -89,7 +89,7 @@ HRESULT OpenEntry(
   
 > <span data-ttu-id="ea39c-143">[out] Указатель на указатель открыт записи.</span><span class="sxs-lookup"><span data-stu-id="ea39c-143">[out] A pointer to a pointer to the opened entry.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ea39c-144">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="ea39c-144">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ea39c-144">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="ea39c-145">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="ea39c-145">S_OK</span></span> 
   

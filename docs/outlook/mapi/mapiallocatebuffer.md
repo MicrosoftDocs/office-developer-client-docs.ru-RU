@@ -50,7 +50,7 @@ SCODE MAPIAllocateBuffer(
   
 > <span data-ttu-id="56408-116">[out] Указатель на возвращаемый выделенный буфер.</span><span class="sxs-lookup"><span data-stu-id="56408-116">[out] Pointer to the returned allocated buffer.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="56408-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="56408-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="56408-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="56408-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="56408-118">S_OK</span></span> 
   

@@ -30,7 +30,7 @@ ms.locfileid: "19813282"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="7d4e2-112">_langID_opt_</span><span class="sxs-lookup"><span data-stu-id="7d4e2-112">_langID_opt_</span></span> <br/> |<span data-ttu-id="7d4e2-113">Optional</span><span class="sxs-lookup"><span data-stu-id="7d4e2-113">Optional</span></span>  <br/> |<span data-ttu-id="7d4e2-114">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="7d4e2-114">**Numeric**</span></span> <br/> |<span data-ttu-id="7d4e2-115">Используется для указания языка, функция возвращает строки.</span><span class="sxs-lookup"><span data-stu-id="7d4e2-115">Use to specify a language for the string the function returns.</span></span> <span data-ttu-id="7d4e2-116">Используйте 0 (значение по умолчанию), чтобы указать на локальном языке.</span><span class="sxs-lookup"><span data-stu-id="7d4e2-116">Use 0 (default value) to specify the local language.</span></span> <span data-ttu-id="7d4e2-117">Используйте 750, чтобы указать универсального языка.</span><span class="sxs-lookup"><span data-stu-id="7d4e2-117">Use 750 to specify universal language.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="7d4e2-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7d4e2-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="7d4e2-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="7d4e2-119">Строка</span><span class="sxs-lookup"><span data-stu-id="7d4e2-119">String</span></span>
   

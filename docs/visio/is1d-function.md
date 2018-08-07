@@ -27,7 +27,7 @@ ms.locfileid: "19813989"
 
 <span data-ttu-id="a6b43-108">IS1D()</span><span class="sxs-lookup"><span data-stu-id="a6b43-108">IS1D()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="a6b43-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a6b43-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="a6b43-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
  <span data-ttu-id="a6b43-110">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="a6b43-110">**Boolean**</span></span>
   

@@ -73,7 +73,7 @@ HRESULT CopyMsgService(
   
 > <span data-ttu-id="d72cf-128">Запросы на том, что служба сообщений всегда отображаются на листе свойств конфигурации.</span><span class="sxs-lookup"><span data-stu-id="d72cf-128">Requests that the message service always display a configuration property sheet.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d72cf-129">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d72cf-129">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d72cf-129">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="d72cf-130">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="d72cf-130">S_OK</span></span> 
   

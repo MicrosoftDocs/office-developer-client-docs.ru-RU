@@ -58,7 +58,7 @@ HRESULT SetReceiveFolder(
   
 > <span data-ttu-id="b5621-119">[in] Указатель на идентификатор записи папки, чтобы определить, папку получения.</span><span class="sxs-lookup"><span data-stu-id="b5621-119">[in] A pointer to the entry identifier of the folder to establish as the receive folder.</span></span> <span data-ttu-id="b5621-120">Если параметр _lpEntryID_ имеет значение NULL, **SetReceiveFolder** заменяет текущий получать папку с хранилище сообщений по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="b5621-120">If the  _lpEntryID_ parameter is set to NULL, **SetReceiveFolder** replaces the current receive folder with the message store's default.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="b5621-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b5621-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b5621-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="b5621-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="b5621-122">S_OK</span></span> 
   

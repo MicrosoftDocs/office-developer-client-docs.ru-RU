@@ -31,7 +31,7 @@ ms.locfileid: "19814284"
 | <span data-ttu-id="0c683-112">_number_</span><span class="sxs-lookup"><span data-stu-id="0c683-112">_number_</span></span> <br/> |<span data-ttu-id="0c683-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="0c683-113">Required</span></span>  <br/> |<span data-ttu-id="0c683-114">**Число**</span><span class="sxs-lookup"><span data-stu-id="0c683-114">**Number**</span></span> <br/> |<span data-ttu-id="0c683-115">Дивидендов.</span><span class="sxs-lookup"><span data-stu-id="0c683-115">The dividend.</span></span>  <br/> |
 | <span data-ttu-id="0c683-116">_делителя_</span><span class="sxs-lookup"><span data-stu-id="0c683-116">_divisor_</span></span> <br/> |<span data-ttu-id="0c683-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="0c683-117">Required</span></span>  <br/> |<span data-ttu-id="0c683-118">**Число**</span><span class="sxs-lookup"><span data-stu-id="0c683-118">**Number**</span></span> <br/> |<span data-ttu-id="0c683-119">Делителя.</span><span class="sxs-lookup"><span data-stu-id="0c683-119">The divisor.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="0c683-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0c683-120">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="0c683-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="0c683-121">Number</span><span class="sxs-lookup"><span data-stu-id="0c683-121">Number</span></span>
   

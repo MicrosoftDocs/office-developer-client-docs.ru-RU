@@ -27,7 +27,7 @@ ms.locfileid: "19814097"
 
 <span data-ttu-id="d8b7d-108">LISTMEMBERCOUNT()</span><span class="sxs-lookup"><span data-stu-id="d8b7d-108">LISTMEMBERCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="d8b7d-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d8b7d-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="d8b7d-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="d8b7d-110">Целое число</span><span class="sxs-lookup"><span data-stu-id="d8b7d-110">Integer</span></span>
   

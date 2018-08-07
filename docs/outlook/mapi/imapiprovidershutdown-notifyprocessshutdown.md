@@ -31,7 +31,7 @@ ms.locfileid: "19809052"
 HRESULT NotifyProcessShutdown ();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="9ae14-106">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9ae14-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9ae14-106">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="9ae14-107">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="9ae14-107">S_OK</span></span>
   

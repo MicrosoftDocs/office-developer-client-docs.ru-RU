@@ -50,7 +50,7 @@ LONG LPropCompareProp(
   
 > <span data-ttu-id="55511-116">[in] Указатель на структуру **SPropValue** определение второе значение свойства для сравнения.</span><span class="sxs-lookup"><span data-stu-id="55511-116">[in] Pointer to an **SPropValue** structure defining the second property value to be compared.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="55511-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="55511-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="55511-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
  <span data-ttu-id="55511-118">**LPropCompareProp** возвращает одно из следующих значений для большинства типов свойств:</span><span class="sxs-lookup"><span data-stu-id="55511-118">**LPropCompareProp** returns one of the following values for most property types:</span></span> 
   

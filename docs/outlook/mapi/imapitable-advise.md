@@ -51,7 +51,7 @@ ULONG_PTR FAR * lpulConnection
   
 > <span data-ttu-id="08648-114">[out] Указатель на ненулевое значение, представляющее регистрации успешного уведомлений.</span><span class="sxs-lookup"><span data-stu-id="08648-114">[out] Pointer to a nonzero value that represents the successful notification registration.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="08648-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="08648-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="08648-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="08648-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="08648-116">S_OK</span></span> 
   

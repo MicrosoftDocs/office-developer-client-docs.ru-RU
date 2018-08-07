@@ -51,7 +51,7 @@ LPSPropValue LpValFindProp(
   
 > <span data-ttu-id="a1733-118">[in] Массив структур **SPropValue** , который определяет свойства для поиска.</span><span class="sxs-lookup"><span data-stu-id="a1733-118">[in] Array of **SPropValue** structures that defines the properties to be searched.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a1733-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a1733-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a1733-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="a1733-120">Функция **LpValFindProp** возвращает структуру **SPropValue** , который определяет свойство, которое сопоставляется входного свойства tag, или значение NULL, если нет соответствия.</span><span class="sxs-lookup"><span data-stu-id="a1733-120">The **LpValFindProp** function returns an **SPropValue** structure that defines the property that matches the input property tag, or NULL if there is no match.</span></span> 
   

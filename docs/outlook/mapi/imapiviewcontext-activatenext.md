@@ -60,7 +60,7 @@ LPCRECT prcPosRect
   
 > <span data-ttu-id="94dad-122">[in] Указатель на Windows **Прямоугольник** структура, содержащая размер и положение окна, которые будут использоваться для отображения активированные сообщения.</span><span class="sxs-lookup"><span data-stu-id="94dad-122">[in] Pointer to a Windows **RECT** structure containing the size and position of the window to be used to display the activated message.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="94dad-123">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="94dad-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="94dad-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="94dad-124">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="94dad-124">S_OK</span></span> 
   

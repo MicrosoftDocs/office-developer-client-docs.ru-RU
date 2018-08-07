@@ -39,7 +39,7 @@ ULONG ulConnection
   
 > <span data-ttu-id="581f7-108">[in] Подключение ненулевое число, представляющее регистрации уведомлений, установленное ранее при помощи **IMAPISupport::Subscribe**.</span><span class="sxs-lookup"><span data-stu-id="581f7-108">[in] The nonzero connection number that represents the notification registration previously established through **IMAPISupport::Subscribe**.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="581f7-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="581f7-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="581f7-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="581f7-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="581f7-110">S_OK</span></span> 
   

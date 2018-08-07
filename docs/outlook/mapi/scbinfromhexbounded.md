@@ -55,7 +55,7 @@ SCODE ScBinFromHexBounded(
   
 > <span data-ttu-id="c937a-119">[in] Размер, в байтах, параметр _pb_ .</span><span class="sxs-lookup"><span data-stu-id="c937a-119">[in] Size, in bytes, of the  _pb_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="c937a-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c937a-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c937a-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="c937a-121">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c937a-121">S_OK</span></span>
   

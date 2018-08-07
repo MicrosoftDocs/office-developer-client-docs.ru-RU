@@ -110,7 +110,7 @@ HRESULT SpoolerLogon(
   
 > <span data-ttu-id="5b034-150">[out] Указатель на указатель на сообщение хранилища объект для очереди MAPI и клиентскими приложениями для входа в систему.</span><span class="sxs-lookup"><span data-stu-id="5b034-150">[out] A pointer to the pointer to the message store object for the MAPI spooler and client applications to log on to.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="5b034-151">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5b034-151">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5b034-151">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="5b034-152">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="5b034-152">S_OK</span></span> 
   

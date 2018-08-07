@@ -63,7 +63,7 @@ HRESULT GetReceiveFolder(
   
 > <span data-ttu-id="e3e6d-121">[out] Указатель на указатель на класс сообщения, явно задает в качестве его получать папку папке указывает _lppEntryID_.</span><span class="sxs-lookup"><span data-stu-id="e3e6d-121">[out] A pointer to a pointer to the message class that explicitly sets as its receive folder the folder pointed to by  _lppEntryID_.</span></span> <span data-ttu-id="e3e6d-122">Этот класс сообщения должны быть то же, что класс с помощью параметра _lpszMessageClass_ или базового класса этого класса.</span><span class="sxs-lookup"><span data-stu-id="e3e6d-122">This message class should either be the same as the class in the  _lpszMessageClass_ parameter, or a base class of that class.</span></span> <span data-ttu-id="e3e6d-123">Значение NULL указывает, что папка, на который указывает _lppEntryID_ по умолчанию получают папки для хранения сообщений.</span><span class="sxs-lookup"><span data-stu-id="e3e6d-123">Passing NULL indicates that the folder pointed to by  _lppEntryID_ is the default receive folder for the message store.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="e3e6d-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e3e6d-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e3e6d-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="e3e6d-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e3e6d-125">S_OK</span></span> 
   

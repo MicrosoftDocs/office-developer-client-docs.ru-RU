@@ -70,7 +70,7 @@ HRESULT IStorageFromStream(
   
 > <span data-ttu-id="e5fce-125">[out] Указатель на указатель на объект хранилища.</span><span class="sxs-lookup"><span data-stu-id="e5fce-125">[out] A pointer to a pointer to the storage object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e5fce-126">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e5fce-126">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e5fce-126">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="e5fce-127">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e5fce-127">S_OK</span></span> 
   

@@ -54,7 +54,7 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
   
 <span data-ttu-id="0c51a-126">Необязательные аргументы для функции.</span><span class="sxs-lookup"><span data-stu-id="0c51a-126">The optional arguments to the function.</span></span> <span data-ttu-id="0c51a-127">Все аргументы должны быть указатели на **XLOPER** или **XLOPER12** значения.</span><span class="sxs-lookup"><span data-stu-id="0c51a-127">All arguments must be pointers to **XLOPER** or **XLOPER12** values.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="0c51a-128">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0c51a-128">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0c51a-128">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="0c51a-129">Возвращает одно из следующих значений integer (**целое**).</span><span class="sxs-lookup"><span data-stu-id="0c51a-129">Returns one of the following integer (**int**) values.</span></span>
   

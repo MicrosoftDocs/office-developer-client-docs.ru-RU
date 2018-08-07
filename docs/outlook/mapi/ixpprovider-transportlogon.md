@@ -70,7 +70,7 @@ HRESULT TransportLogon(
     
 <span data-ttu-id="451d9-136">_lppXPLogon_: [out] указатель на указатель на объект возвращенные транспорта поставщика входа в систему.</span><span class="sxs-lookup"><span data-stu-id="451d9-136">_lppXPLogon_: [out] Pointer to the pointer to the returned transport provider logon object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="451d9-137">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="451d9-137">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="451d9-137">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="451d9-138">Значение S_OK: Звонок успешно и вернул ожидаемым значением или значения.</span><span class="sxs-lookup"><span data-stu-id="451d9-138">S_OK: The call succeeded and has returned the expected value or values.</span></span>
     

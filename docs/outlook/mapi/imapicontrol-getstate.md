@@ -52,7 +52,7 @@ HRESULT GetState(
   
 > <span data-ttu-id="c81c6-115">Элемент управления button включено, можно щелкнуть.</span><span class="sxs-lookup"><span data-stu-id="c81c6-115">The button control is enabled and can be clicked.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c81c6-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c81c6-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c81c6-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="c81c6-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c81c6-117">S_OK</span></span> 
   

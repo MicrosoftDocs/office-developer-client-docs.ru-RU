@@ -31,7 +31,7 @@ ms.locfileid: "19815065"
 | <span data-ttu-id="67442-112">_number_</span><span class="sxs-lookup"><span data-stu-id="67442-112">_number_</span></span> <br/> |<span data-ttu-id="67442-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="67442-113">Required</span></span>  <br/> |<span data-ttu-id="67442-114">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="67442-114">**Numeric**</span></span> <br/> |<span data-ttu-id="67442-115">Номер для усечения.</span><span class="sxs-lookup"><span data-stu-id="67442-115">The number to truncate.</span></span>  <br/> |
 | <span data-ttu-id="67442-116">_усеченное_</span><span class="sxs-lookup"><span data-stu-id="67442-116">_numberofdigits_</span></span> <br/> |<span data-ttu-id="67442-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="67442-117">Required</span></span>  <br/> |<span data-ttu-id="67442-118">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="67442-118">**Numeric**</span></span> <br/> |<span data-ttu-id="67442-119">Количество цифр, к которому следует усекать _номер_.</span><span class="sxs-lookup"><span data-stu-id="67442-119">The number of digits to which to truncate  _number_.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="67442-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="67442-120">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="67442-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="67442-121">Числовой.</span><span class="sxs-lookup"><span data-stu-id="67442-121">Numeric.</span></span>
   

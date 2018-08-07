@@ -69,7 +69,7 @@ int MNLS_WideCharToMultiByte(
   
 > <span data-ttu-id="c901b-125">[out] Optional.</span><span class="sxs-lookup"><span data-stu-id="c901b-125">[out] Optional.</span></span> <span data-ttu-id="c901b-126">Указатель на флаг, указывающий, если функция использовал знаков по умолчанию для преобразования.</span><span class="sxs-lookup"><span data-stu-id="c901b-126">Pointer to a flag that indicates if the function has used a default character in the conversion.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c901b-127">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c901b-127">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c901b-127">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="c901b-128">Возвращает число байт, записанных в буфере, _lpMultiByteStr_ в случае успешного выполнения.</span><span class="sxs-lookup"><span data-stu-id="c901b-128">Returns the number of bytes written to the buffer pointed to by  _lpMultiByteStr_ if successful.</span></span> 
   

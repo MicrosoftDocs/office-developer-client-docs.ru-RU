@@ -54,7 +54,7 @@ int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[
   
 <span data-ttu-id="a8d3e-126">Массив, содержащий аргументы для функции.</span><span class="sxs-lookup"><span data-stu-id="a8d3e-126">An array that contains the arguments to the function.</span></span> <span data-ttu-id="a8d3e-127">Все аргументы в массиве должны быть указатели на **XLOPER** или **XLOPER12** значения.</span><span class="sxs-lookup"><span data-stu-id="a8d3e-127">All arguments in the array must be pointers to **XLOPER** or **XLOPER12** values.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="a8d3e-128">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a8d3e-128">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a8d3e-128">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="a8d3e-129">Эти функции возвращают те же значения, как **Excel4** и **Excel12**.</span><span class="sxs-lookup"><span data-stu-id="a8d3e-129">These functions return the same values as **Excel4** and **Excel12**.</span></span>
   

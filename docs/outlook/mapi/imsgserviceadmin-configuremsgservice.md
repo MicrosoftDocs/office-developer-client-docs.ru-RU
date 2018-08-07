@@ -75,7 +75,7 @@ HRESULT ConfigureMsgService(
   
 > <span data-ttu-id="e5e82-129">[in] Указатель на массив значений свойств, которые описывают свойства для отображения в окне свойств.</span><span class="sxs-lookup"><span data-stu-id="e5e82-129">[in] A pointer to an array of property values that describe the properties to display in the property sheet.</span></span> <span data-ttu-id="e5e82-130">Параметр _lpProps_ не должен быть NULL, если служба сообщений, необходимо настроить без пользовательского интерфейса.</span><span class="sxs-lookup"><span data-stu-id="e5e82-130">The  _lpProps_ parameter should not be NULL if the message service should be configured without a user interface.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="e5e82-131">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e5e82-131">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e5e82-131">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="e5e82-132">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e5e82-132">S_OK</span></span> 
   

@@ -58,7 +58,7 @@ LPATTACH FAR * lppAttach
   
 > <span data-ttu-id="022a4-120">[out] Указатель на указатель на объект открыть вложение.</span><span class="sxs-lookup"><span data-stu-id="022a4-120">[out] Pointer to a pointer to the open attachment object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="022a4-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="022a4-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="022a4-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="022a4-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="022a4-122">S_OK</span></span> 
   

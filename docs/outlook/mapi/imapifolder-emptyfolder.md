@@ -61,7 +61,7 @@ HRESULT EmptyFolder(
   
 > <span data-ttu-id="cd6b5-123">Отображает индикатор хода выполнения во время операции.</span><span class="sxs-lookup"><span data-stu-id="cd6b5-123">Displays a progress indicator while the operation proceeds.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="cd6b5-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="cd6b5-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="cd6b5-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="cd6b5-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="cd6b5-125">S_OK</span></span> 
   

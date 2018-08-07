@@ -39,7 +39,7 @@ BOOKMARK bkPosition
   
 > <span data-ttu-id="6d579-108">[in] Закладка освобождения, созданные путем вызова метода [IMAPITable::CreateBookmark](imapitable-createbookmark.md) .</span><span class="sxs-lookup"><span data-stu-id="6d579-108">[in] The bookmark to be freed, created by calling the [IMAPITable::CreateBookmark](imapitable-createbookmark.md) method.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="6d579-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6d579-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6d579-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="6d579-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="6d579-110">S_OK</span></span> 
   

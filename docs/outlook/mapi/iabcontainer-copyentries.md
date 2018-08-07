@@ -70,7 +70,7 @@ HRESULT CopyEntries(
   
 > <span data-ttu-id="dd792-131">Указывает, что новая запись необходимо заменить существующий, если определено, что они дубликатов.</span><span class="sxs-lookup"><span data-stu-id="dd792-131">Indicates that a new entry should replace an existing one if it is determined that the two are duplicates.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="dd792-132">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="dd792-132">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dd792-132">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="dd792-133">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="dd792-133">S_OK</span></span> 
   

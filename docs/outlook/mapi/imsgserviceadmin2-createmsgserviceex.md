@@ -75,7 +75,7 @@ HRESULT CreateMsgServiceEx(
   
 > <span data-ttu-id="e807d-129">[out] Указатель на UID добавлена служба сообщений.</span><span class="sxs-lookup"><span data-stu-id="e807d-129">[out] The pointer to the UID of the message service added.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e807d-130">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e807d-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e807d-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="e807d-131">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e807d-131">S_OK</span></span>
   

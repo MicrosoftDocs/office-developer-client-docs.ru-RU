@@ -60,7 +60,7 @@ SCODE ScCreateConversationIndex(
   
 > <span data-ttu-id="9f3bd-121">[out] Указатель на указатель на новый индекс беседы, возвращаемого при вызове.</span><span class="sxs-lookup"><span data-stu-id="9f3bd-121">[out] Pointer to a pointer to the new conversation index returned by the call.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="9f3bd-122">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9f3bd-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9f3bd-122">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="9f3bd-123">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="9f3bd-123">S_OK</span></span> 
   

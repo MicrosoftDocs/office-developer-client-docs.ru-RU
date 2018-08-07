@@ -58,7 +58,7 @@ HRESULT OpenStatusEntry(
   
 > <span data-ttu-id="bb4c3-120">[out] Указатель на указатель на объект открыт.</span><span class="sxs-lookup"><span data-stu-id="bb4c3-120">[out] A pointer to the pointer to the opened object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="bb4c3-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="bb4c3-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bb4c3-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="bb4c3-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="bb4c3-122">S_OK</span></span> 
   

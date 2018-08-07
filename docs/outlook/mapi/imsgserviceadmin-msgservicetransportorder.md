@@ -49,7 +49,7 @@ HRESULT MsgServiceTransportOrder(
   
 > <span data-ttu-id="cfb70-113">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="cfb70-113">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="cfb70-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="cfb70-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="cfb70-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="cfb70-115">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="cfb70-115">S_OK</span></span> 
   

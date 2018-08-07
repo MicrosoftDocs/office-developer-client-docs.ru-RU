@@ -83,7 +83,7 @@ HRESULT SetMessageStatus(
   
 > <span data-ttu-id="aa9e3-129">[out] Указатель на предыдущем состояние сообщения.</span><span class="sxs-lookup"><span data-stu-id="aa9e3-129">[out] A pointer to the previous status of the message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="aa9e3-130">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="aa9e3-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="aa9e3-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="aa9e3-131">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="aa9e3-131">S_OK</span></span> 
   

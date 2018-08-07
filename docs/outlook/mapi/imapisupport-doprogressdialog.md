@@ -53,7 +53,7 @@ HRESULT DoProgressDialog(
   
 > <span data-ttu-id="440f3-116">[out] Указатель на указатель на объект хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="440f3-116">[out] A pointer to a pointer to the progress object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="440f3-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="440f3-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="440f3-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="440f3-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="440f3-118">S_OK</span></span> 
   

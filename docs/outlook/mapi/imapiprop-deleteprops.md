@@ -44,7 +44,7 @@ HRESULT DeleteProps(
   
 > <span data-ttu-id="c7251-111">[in, out] На входе указатель указатель на структуру [SPropProblemArray](spropproblemarray.md) ; в противном случае — значение NULL, который означает, что нет необходимости для получения сведений об ошибках.</span><span class="sxs-lookup"><span data-stu-id="c7251-111">[in, out] On input, a pointer to a pointer to an [SPropProblemArray](spropproblemarray.md) structure; otherwise, NULL, which indicates that there is no need for error information.</span></span> <span data-ttu-id="c7251-112">Если _lppProblems_ допустимый указатель на входные данные, **DeleteProps** возвращает подробные сведения об ошибках в удаления одного или нескольких свойств.</span><span class="sxs-lookup"><span data-stu-id="c7251-112">If  _lppProblems_ is a valid pointer on input, **DeleteProps** returns detailed information about errors in deleting one or more properties.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="c7251-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c7251-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c7251-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="c7251-114">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c7251-114">S_OK</span></span> 
   

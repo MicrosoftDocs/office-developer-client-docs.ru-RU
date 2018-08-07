@@ -55,7 +55,7 @@ void CALLERRELEASE(
   
 > <span data-ttu-id="27384-119">[in] Указатель на [IMAPITable: IUnknown](imapitableiunknown.md) интерфейс для освобождения, представления таблицы.</span><span class="sxs-lookup"><span data-stu-id="27384-119">[in] Pointer to the [IMAPITable : IUnknown](imapitableiunknown.md) interface for the table view being released.</span></span> <span data-ttu-id="27384-120">Это интерфейс для объекта в таблице, возвращаемой в параметре _lppMAPITable_ метод [ITableData::HrGetView](itabledata-hrgetview.md) , создавшее этот объект к выпуску.</span><span class="sxs-lookup"><span data-stu-id="27384-120">This is an interface for the table object returned in the  _lppMAPITable_ parameter of the [ITableData::HrGetView](itabledata-hrgetview.md) method that created the object to release.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="27384-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="27384-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="27384-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="27384-122">Нет</span><span class="sxs-lookup"><span data-stu-id="27384-122">None</span></span> 
   

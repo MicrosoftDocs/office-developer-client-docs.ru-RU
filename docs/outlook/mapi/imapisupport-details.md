@@ -91,7 +91,7 @@ HRESULT Details(
   
 > <span data-ttu-id="412dd-138">Строки переданное хранятся в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="412dd-138">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="412dd-139">Если флаг MAPI_UNICODE не установлен, они в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="412dd-139">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="412dd-140">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="412dd-140">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="412dd-140">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="412dd-141">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="412dd-141">S_OK</span></span> 
   

@@ -44,7 +44,7 @@ ULONG FAR * lpulCount
   
 > <span data-ttu-id="7a1b9-110">[out] Указатель на число строк в таблице.</span><span class="sxs-lookup"><span data-stu-id="7a1b9-110">[out] Pointer to the number of rows in the table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7a1b9-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7a1b9-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7a1b9-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="7a1b9-112">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7a1b9-112">S_OK</span></span> 
   

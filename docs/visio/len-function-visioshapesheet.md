@@ -30,7 +30,7 @@ ms.locfileid: "19814066"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="683a8-112">_text_</span><span class="sxs-lookup"><span data-stu-id="683a8-112">_text_</span></span> <br/> |<span data-ttu-id="683a8-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="683a8-113">Required</span></span>  <br/> |<span data-ttu-id="683a8-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="683a8-114">**String**</span></span> <br/> |<span data-ttu-id="683a8-115">Строка символов, длина которого нужно найти.</span><span class="sxs-lookup"><span data-stu-id="683a8-115">The character string whose length you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="683a8-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="683a8-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="683a8-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="683a8-117">Числовой</span><span class="sxs-lookup"><span data-stu-id="683a8-117">Numeric</span></span>
   

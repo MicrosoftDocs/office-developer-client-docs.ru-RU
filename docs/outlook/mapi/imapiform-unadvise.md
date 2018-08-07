@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > <span data-ttu-id="0e254-108">[in] Число подключений, определяющее регистрации уведомлений, чтобы отменить.</span><span class="sxs-lookup"><span data-stu-id="0e254-108">[in] A connection number that identifies the notification registration to be canceled.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0e254-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0e254-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0e254-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="0e254-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="0e254-110">S_OK</span></span> 
   

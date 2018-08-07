@@ -78,7 +78,7 @@ HRESULT ResolveNames(
   
 > <span data-ttu-id="98ec6-137">Запись не разрешен.</span><span class="sxs-lookup"><span data-stu-id="98ec6-137">The corresponding entry has not been resolved.</span></span> <span data-ttu-id="98ec6-138">Другие контейнеры должны пытаться разрешить этому получателю.</span><span class="sxs-lookup"><span data-stu-id="98ec6-138">Other containers should try to resolve this recipient.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="98ec6-139">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="98ec6-139">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="98ec6-139">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="98ec6-140">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="98ec6-140">S_OK</span></span> 
   

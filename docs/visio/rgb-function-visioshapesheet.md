@@ -32,7 +32,7 @@ ms.locfileid: "19814610"
 | <span data-ttu-id="bd396-118">_Зеленый_</span><span class="sxs-lookup"><span data-stu-id="bd396-118">_green_</span></span> <br/> |<span data-ttu-id="bd396-119">Обязательный</span><span class="sxs-lookup"><span data-stu-id="bd396-119">Required</span></span>  <br/> |<span data-ttu-id="bd396-120">**Число**</span><span class="sxs-lookup"><span data-stu-id="bd396-120">**Number**</span></span> <br/> |<span data-ttu-id="bd396-121">Зеленый компонент.</span><span class="sxs-lookup"><span data-stu-id="bd396-121">The green component.</span></span>  <br/> |
 | <span data-ttu-id="bd396-122">_синий_</span><span class="sxs-lookup"><span data-stu-id="bd396-122">_blue_</span></span> <br/> |<span data-ttu-id="bd396-123">Обязательный</span><span class="sxs-lookup"><span data-stu-id="bd396-123">Required</span></span>  <br/> |<span data-ttu-id="bd396-124">**Nmber**</span><span class="sxs-lookup"><span data-stu-id="bd396-124">**Nmber**</span></span> <br/> |<span data-ttu-id="bd396-125">Синий компонент.</span><span class="sxs-lookup"><span data-stu-id="bd396-125">The blue component.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="bd396-126">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="bd396-126">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="bd396-126">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="bd396-127">Number</span><span class="sxs-lookup"><span data-stu-id="bd396-127">Number</span></span>
   

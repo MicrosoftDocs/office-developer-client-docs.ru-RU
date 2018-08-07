@@ -39,7 +39,7 @@ HRESULT GetStore(
   
 > <span data-ttu-id="c6152-109">[out] Указатель на указатель на хранилище сообщений.</span><span class="sxs-lookup"><span data-stu-id="c6152-109">[out] A pointer to a pointer to the message store.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c6152-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c6152-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c6152-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="c6152-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c6152-111">S_OK</span></span> 
   

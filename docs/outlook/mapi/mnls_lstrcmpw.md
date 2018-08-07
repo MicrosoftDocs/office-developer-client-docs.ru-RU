@@ -39,7 +39,7 @@ int MNLS_lstrcmpW(
   
 > <span data-ttu-id="4bd45-110">[in] Указатель на втором строку в кодировке Юникод для сравнения.</span><span class="sxs-lookup"><span data-stu-id="4bd45-110">[in] Pointer to the second Unicode string to compare.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4bd45-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4bd45-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4bd45-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="4bd45-112">Возвращает значения, описанного при вызове эквивалентный **MNLS_CompareStringW** за исключением CSTR_EQUAL.</span><span class="sxs-lookup"><span data-stu-id="4bd45-112">Returns the values described for an equivalent call to **MNLS_CompareStringW** except for CSTR_EQUAL.</span></span> 
   

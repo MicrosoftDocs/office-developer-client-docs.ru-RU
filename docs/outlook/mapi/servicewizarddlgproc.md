@@ -87,7 +87,7 @@ return (BOOL)3;
   
 > <span data-ttu-id="01f69-140">[in] Параметр 32-разрядная версия, связанный с окном сообщения.</span><span class="sxs-lookup"><span data-stu-id="01f69-140">[in] A 32-bit parameter associated with window messages.</span></span> <span data-ttu-id="01f69-141">Возможные значения зависят от сообщения, указанный в параметре _wMsgID_ .</span><span class="sxs-lookup"><span data-stu-id="01f69-141">Possible values depend on the message specified in the  _wMsgID_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="01f69-142">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="01f69-142">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="01f69-142">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="01f69-143">Значение, возвращаемое функцией **SERVICEWIZARDDLGPROC** на основе зависит от получено сообщение окна.</span><span class="sxs-lookup"><span data-stu-id="01f69-143">The value returned by a **SERVICEWIZARDDLGPROC** based function is dependent on the window message received.</span></span> <span data-ttu-id="01f69-144">В частности, обратите внимание, что исключительных возвращаемое значение для сообщения WIZ_QUERYNUMPAGES.</span><span class="sxs-lookup"><span data-stu-id="01f69-144">Note in particular the exceptional return value for the WIZ_QUERYNUMPAGES message.</span></span> <span data-ttu-id="01f69-145">Обычный значения будут возвращены:</span><span class="sxs-lookup"><span data-stu-id="01f69-145">The normal return values are:</span></span> 
   

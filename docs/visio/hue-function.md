@@ -30,7 +30,7 @@ ms.locfileid: "19813919"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="a4bd0-112">_expression_</span><span class="sxs-lookup"><span data-stu-id="a4bd0-112">_expression_</span></span> <br/> |<span data-ttu-id="a4bd0-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="a4bd0-113">Required</span></span>  <br/> |<span data-ttu-id="a4bd0-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="a4bd0-114">**String**</span></span> <br/> |<span data-ttu-id="a4bd0-115">Выражение, которое оценивается как цвет.</span><span class="sxs-lookup"><span data-stu-id="a4bd0-115">An expression that evaluates to a color.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="a4bd0-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a4bd0-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="a4bd0-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="a4bd0-117">Number</span><span class="sxs-lookup"><span data-stu-id="a4bd0-117">Number</span></span>
   

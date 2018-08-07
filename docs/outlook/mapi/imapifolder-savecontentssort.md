@@ -48,7 +48,7 @@ HRESULT SaveContentsSort(
   
 > <span data-ttu-id="a5d66-113">Набор порядок сортировки по умолчанию применяется для указанной папки и все вложенные папки.</span><span class="sxs-lookup"><span data-stu-id="a5d66-113">The default sort order set applies to the indicated folder and to all its subfolders.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="a5d66-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a5d66-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a5d66-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="a5d66-115">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a5d66-115">S_OK</span></span> 
   

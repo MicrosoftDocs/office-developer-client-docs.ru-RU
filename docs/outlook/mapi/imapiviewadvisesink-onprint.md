@@ -56,7 +56,7 @@ HRESULT hrStatus
   
 > <span data-ttu-id="5aaaa-117">Задание печати был завершен из-за сбоя.</span><span class="sxs-lookup"><span data-stu-id="5aaaa-117">The printing job was terminated due to a failure.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="5aaaa-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5aaaa-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5aaaa-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="5aaaa-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="5aaaa-119">S_OK</span></span> 
   

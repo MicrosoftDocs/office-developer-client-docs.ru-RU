@@ -48,7 +48,7 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
   
 > <span data-ttu-id="2a694-114">[out] Указатель на указатель на структуру, которая содержит сведения о печати.</span><span class="sxs-lookup"><span data-stu-id="2a694-114">[out] Pointer to a pointer to a structure that holds the printing information.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2a694-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2a694-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2a694-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="2a694-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="2a694-116">S_OK</span></span> 
   

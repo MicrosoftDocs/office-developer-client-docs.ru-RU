@@ -76,7 +76,7 @@ LPUNKNOWN FAR * lppUnk
   
 > <span data-ttu-id="cf833-131">[out] Указатель на указатель на объект открыт.</span><span class="sxs-lookup"><span data-stu-id="cf833-131">[out] A pointer to a pointer to the opened object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="cf833-132">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="cf833-132">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="cf833-132">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="cf833-133">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="cf833-133">S_OK</span></span> 
   

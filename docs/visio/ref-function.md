@@ -24,7 +24,7 @@ ms.locfileid: "19814524"
 
 <span data-ttu-id="73dab-106">ПАРАМЕТРЫ REF)</span><span class="sxs-lookup"><span data-stu-id="73dab-106">REF( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="73dab-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="73dab-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="73dab-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="73dab-108">String</span><span class="sxs-lookup"><span data-stu-id="73dab-108">String</span></span>
   

@@ -44,7 +44,7 @@ HRESULT AdminServices(
   
 > <span data-ttu-id="0348c-110">[out] Указатель на указатель на объект администрирования службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="0348c-110">[out] A pointer to a pointer to a message service administration object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0348c-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0348c-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0348c-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="0348c-112">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="0348c-112">S_OK</span></span> 
   

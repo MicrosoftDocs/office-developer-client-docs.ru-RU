@@ -70,7 +70,7 @@ HRESULT FlushQueues(
   
 > <span data-ttu-id="b4b1c-123">Исходящие сообщения или несколько очередей, должны быть очищены.</span><span class="sxs-lookup"><span data-stu-id="b4b1c-123">The outbound message queue or queues should be flushed.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="b4b1c-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b4b1c-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b4b1c-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="b4b1c-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="b4b1c-125">S_OK</span></span> 
   

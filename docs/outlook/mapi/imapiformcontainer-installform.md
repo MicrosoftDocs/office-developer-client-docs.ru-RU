@@ -61,7 +61,7 @@ HRESULT InstallForm(
   
 > <span data-ttu-id="f77ed-124">[in] Путь к файлу конфигурации формы.</span><span class="sxs-lookup"><span data-stu-id="f77ed-124">[in] The path to the form's configuration file.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f77ed-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f77ed-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f77ed-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="f77ed-126">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f77ed-126">S_OK</span></span> 
   

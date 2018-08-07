@@ -74,7 +74,7 @@ HRESULT GetSearchCriteria(
   
 > <span data-ttu-id="dc0d6-134">Поиск является активной и контейнера содержимое таблицы обновляется для отражения изменений в хранилище сообщений или адресная книга.</span><span class="sxs-lookup"><span data-stu-id="dc0d6-134">The search is active and the container's contents table is being updated to reflect changes in the message store or address book.</span></span> <span data-ttu-id="dc0d6-135">Если этот флаг не установлен, поиска неактивных и статического содержимого таблицы.</span><span class="sxs-lookup"><span data-stu-id="dc0d6-135">If this flag is not set, the search is inactive and the contents table is static.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="dc0d6-136">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="dc0d6-136">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dc0d6-136">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="dc0d6-137">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="dc0d6-137">S_OK</span></span> 
   

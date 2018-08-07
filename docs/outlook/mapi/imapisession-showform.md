@@ -97,7 +97,7 @@ HRESULT ShowForm(
   
 > <span data-ttu-id="9d548-141">[in] Указатель на класс сообщения сообщения, отображаемого в форме, скопированные из свойства **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) сообщения, связанный с маркером в параметре _ulMessageToken_ .</span><span class="sxs-lookup"><span data-stu-id="9d548-141">[in] A pointer to the message class of the message being displayed in the form, copied from the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="9d548-142">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9d548-142">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9d548-142">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="9d548-143">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="9d548-143">S_OK</span></span> 
   

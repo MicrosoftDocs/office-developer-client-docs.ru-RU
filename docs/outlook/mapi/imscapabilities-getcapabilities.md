@@ -39,7 +39,7 @@ MSCAP_SELECTOR mscapSelector
   
 > <span data-ttu-id="c1437-108">[in] Выбор, определяющее, какие возможности для возврата.</span><span class="sxs-lookup"><span data-stu-id="c1437-108">[in] Selector indicating which capabilities to return.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c1437-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c1437-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c1437-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="c1437-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span><span class="sxs-lookup"><span data-stu-id="c1437-110">MSCAP_SECURE_FOLDER_HOMEPAGES</span></span>
   

@@ -50,7 +50,7 @@ BOOL FBinFromHex(
   
 > <span data-ttu-id="6a883-118">[out] Указатель на возвращаемый двоичное число.</span><span class="sxs-lookup"><span data-stu-id="6a883-118">[out] Pointer to the returned binary number.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6a883-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6a883-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6a883-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="6a883-120">TRUE</span><span class="sxs-lookup"><span data-stu-id="6a883-120">TRUE</span></span> 
   

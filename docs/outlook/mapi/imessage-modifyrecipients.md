@@ -56,7 +56,7 @@ HRESULT ModifyRecipients(
   
 > <span data-ttu-id="4b695-119">[in] ��������� �� ��������� [ADRLIST](adrlist.md) , ������� �������� ������ �����������, ����� ���� ���������, ������� ��� �������� � ���������.</span><span class="sxs-lookup"><span data-stu-id="4b695-119">[in] Pointer to an [ADRLIST](adrlist.md) structure that contains a list of recipients to be added, deleted, or modified in the message.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4b695-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4b695-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4b695-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="4b695-121">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4b695-121">S_OK</span></span> 
   

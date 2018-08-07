@@ -45,7 +45,7 @@ UINT UFromSz(
   
 > <span data-ttu-id="dc1b3-114">[in] Указатель на строку символом null, которую нужно преобразовать.</span><span class="sxs-lookup"><span data-stu-id="dc1b3-114">[in] Pointer to the null-terminated string to be converted.</span></span> <span data-ttu-id="dc1b3-115">Параметр _lpsz_ не должен превышать 65536 символов.</span><span class="sxs-lookup"><span data-stu-id="dc1b3-115">The  _lpsz_ parameter must not exceed 65536 characters.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="dc1b3-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="dc1b3-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dc1b3-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
  <span data-ttu-id="dc1b3-117">**UFromSz** возвращает целое число без знака.</span><span class="sxs-lookup"><span data-stu-id="dc1b3-117">**UFromSz** returns an unsigned integer.</span></span> <span data-ttu-id="dc1b3-118">Если строка не начинается с по крайней мере один десятичное число, возвращается значение 0.</span><span class="sxs-lookup"><span data-stu-id="dc1b3-118">If the string does not begin with at least one decimal digit, zero is returned.</span></span> 
   

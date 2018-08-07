@@ -65,7 +65,7 @@ ULONG ulFlags
   
 > <span data-ttu-id="9f40a-122">Выполняет поиск строки, закладки.</span><span class="sxs-lookup"><span data-stu-id="9f40a-122">Searches backward from the row identified by the bookmark.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="9f40a-123">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9f40a-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9f40a-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="9f40a-124">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="9f40a-124">S_OK</span></span> 
   

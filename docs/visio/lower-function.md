@@ -30,7 +30,7 @@ ms.locfileid: "19814185"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="91a3c-112">_expression_</span><span class="sxs-lookup"><span data-stu-id="91a3c-112">_expression_</span></span> <br/> |<span data-ttu-id="91a3c-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="91a3c-113">Required</span></span>  <br/> |<span data-ttu-id="91a3c-114">**Разные**</span><span class="sxs-lookup"><span data-stu-id="91a3c-114">**Varies**</span></span> <br/> | <span data-ttu-id="91a3c-115">Строка, ссылка на ячейку или выражение; результат преобразуется в строку, который затем преобразуется в нижний регистр.</span><span class="sxs-lookup"><span data-stu-id="91a3c-115">A string, a cell reference, or an expression; the result is converted to a string which is then converted to lowercase.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="91a3c-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="91a3c-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="91a3c-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="91a3c-117">Строка</span><span class="sxs-lookup"><span data-stu-id="91a3c-117">String</span></span>
   

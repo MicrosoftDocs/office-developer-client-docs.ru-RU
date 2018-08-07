@@ -78,7 +78,7 @@ HRESULT GetMessageStatus(
   
 > <span data-ttu-id="8772e-128">Сообщение уже помечен для определенного клиента цели.</span><span class="sxs-lookup"><span data-stu-id="8772e-128">The message has been tagged for a client-defined purpose.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="8772e-129">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8772e-129">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8772e-129">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="8772e-130">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="8772e-130">S_OK</span></span> 
   

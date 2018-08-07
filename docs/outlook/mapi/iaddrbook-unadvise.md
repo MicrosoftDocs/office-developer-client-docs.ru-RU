@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > <span data-ttu-id="f9301-108">[in] Номер подключения, который представляет регистрации отменяется.</span><span class="sxs-lookup"><span data-stu-id="f9301-108">[in] A connection number that represents the registration to be canceled.</span></span> <span data-ttu-id="f9301-109">Параметр _ulConnection_ должен содержать значение, возвращаемое во время предыдущего вызова метода [IAddrBook::Advise](iaddrbook-advise.md) .</span><span class="sxs-lookup"><span data-stu-id="f9301-109">The  _ulConnection_ parameter should contain a value returned by a prior call to the [IAddrBook::Advise](iaddrbook-advise.md) method.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="f9301-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f9301-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f9301-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="f9301-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f9301-111">S_OK</span></span> 
   

@@ -39,7 +39,7 @@ HRESULT DeleteMsgService(
   
 > <span data-ttu-id="cfaf7-108">[in] Указатель на структуру [MAPIUID](mapiuid.md) , который содержит уникальный идентификатор для службы сообщений для удаления.</span><span class="sxs-lookup"><span data-stu-id="cfaf7-108">[in] A pointer to the [MAPIUID](mapiuid.md) structure that contains the unique identifier for the message service to delete.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="cfaf7-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="cfaf7-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="cfaf7-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="cfaf7-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="cfaf7-110">S_OK</span></span> 
   

@@ -56,7 +56,7 @@ HRESULT HrAddColumns(
   
 > <span data-ttu-id="b8f85-121">[in] Указатель на функцию **MAPIFreeBuffer** .</span><span class="sxs-lookup"><span data-stu-id="b8f85-121">[in] Pointer to the **MAPIFreeBuffer** function.</span></span> <span data-ttu-id="b8f85-122">Используется, чтобы освободить память.</span><span class="sxs-lookup"><span data-stu-id="b8f85-122">Used to free memory.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="b8f85-123">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b8f85-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b8f85-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
  <span data-ttu-id="b8f85-124">**ЗНАЧЕНИЕ S_OK**</span><span class="sxs-lookup"><span data-stu-id="b8f85-124">**S_OK**</span></span>
   

@@ -29,7 +29,7 @@ ms.locfileid: "19807078"
   
 <span data-ttu-id="96e9c-109">*выражение*  Любое допустимое выражение любого типа данных в категории чисел.</span><span class="sxs-lookup"><span data-stu-id="96e9c-109">*expression*  Any valid expression of any one of the data types in the numeric category.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="96e9c-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="96e9c-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="96e9c-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="96e9c-111">Возвращает тип данных аргумента с более высокий приоритет.</span><span class="sxs-lookup"><span data-stu-id="96e9c-111">Returns the data type of the argument with the higher precedence.</span></span>
   

@@ -49,7 +49,7 @@ LPADRBOOK FAR * lppAdrBook
   
 > <span data-ttu-id="72339-113">[out] Указатель на указатель в адресной книге.</span><span class="sxs-lookup"><span data-stu-id="72339-113">[out] A pointer to a pointer to the address book.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="72339-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="72339-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="72339-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="72339-115">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="72339-115">S_OK</span></span> 
   

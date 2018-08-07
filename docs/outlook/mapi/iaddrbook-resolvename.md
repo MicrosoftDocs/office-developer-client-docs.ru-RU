@@ -70,7 +70,7 @@ HRESULT ResolveName(
   
 > <span data-ttu-id="d7abf-128">[входной-выходной параметр] Указатель на структуру [ADRLIST](adrlist.md) , содержащего список получателей разрешения имен.</span><span class="sxs-lookup"><span data-stu-id="d7abf-128">[in-out] A pointer to an [ADRLIST](adrlist.md) structure that contains the list of recipient names to be resolved.</span></span> <span data-ttu-id="d7abf-129">Эта структура **ADRLIST** могут создаваться с помощью метода [IAddrBook::Address](iaddrbook-address.md) .</span><span class="sxs-lookup"><span data-stu-id="d7abf-129">This **ADRLIST** structure can be created by the [IAddrBook::Address](iaddrbook-address.md) method.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="d7abf-130">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d7abf-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d7abf-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="d7abf-131">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="d7abf-131">S_OK</span></span> 
   

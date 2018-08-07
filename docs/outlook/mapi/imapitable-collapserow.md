@@ -54,7 +54,7 @@ ULONG FAR * lpulRowCount
   
 > <span data-ttu-id="09945-114">[out] Указатель на общее количество строк, которые были исключены из в табличном представлении.</span><span class="sxs-lookup"><span data-stu-id="09945-114">[out] A pointer to the total number of rows that are being removed from the table view.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="09945-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="09945-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="09945-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="09945-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="09945-116">S_OK</span></span> 
   

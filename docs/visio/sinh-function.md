@@ -30,7 +30,7 @@ ms.locfileid: "19814877"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="e041c-112">_угол_</span><span class="sxs-lookup"><span data-stu-id="e041c-112">_angle_</span></span> <br/> |<span data-ttu-id="e041c-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="e041c-113">Required</span></span>  <br/> |<span data-ttu-id="e041c-114">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="e041c-114">**Numeric**</span></span> <br/> |<span data-ttu-id="e041c-115">Угол которого необходимо получить гиперболический синус.</span><span class="sxs-lookup"><span data-stu-id="e041c-115">The angle of which to get the hyperbolic sine.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="e041c-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e041c-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e041c-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="e041c-117">Number</span><span class="sxs-lookup"><span data-stu-id="e041c-117">Number</span></span>
   

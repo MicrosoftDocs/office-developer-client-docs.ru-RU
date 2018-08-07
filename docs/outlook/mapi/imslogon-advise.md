@@ -71,7 +71,7 @@ HRESULT Advise(
   
 > <span data-ttu-id="c1585-143">[out] Указатель на переменную, которая после успешного возврата содержит номер подключения для регистрации уведомлений.</span><span class="sxs-lookup"><span data-stu-id="c1585-143">[out] A pointer to a variable that upon a successful return holds the connection number for the notification registration.</span></span> <span data-ttu-id="c1585-144">Номер подключения должен быть отличное от нуля.</span><span class="sxs-lookup"><span data-stu-id="c1585-144">The connection number must be nonzero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c1585-145">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c1585-145">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c1585-145">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="c1585-146">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c1585-146">S_OK</span></span> 
   

@@ -69,7 +69,7 @@ BOOL FPropContainsProp(
         
     - <span data-ttu-id="363fc-129">FL_LOOSE: Сравнение следует указать соответствие по возможности без учета регистра знаков и непробельные символы.</span><span class="sxs-lookup"><span data-stu-id="363fc-129">FL_LOOSE: The comparison should indicate a match whenever possible, ignoring case sensitivity and nonspacing characters.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="363fc-130">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="363fc-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="363fc-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="363fc-131">TRUE</span><span class="sxs-lookup"><span data-stu-id="363fc-131">TRUE</span></span> 
   

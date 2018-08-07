@@ -45,7 +45,7 @@ ULONG FBadRow(
   
 > <span data-ttu-id="38409-114">[in] Указатель на структуру [SRow](srow.md) , идентифицирующий строку для проверки.</span><span class="sxs-lookup"><span data-stu-id="38409-114">[in] Pointer to an [SRow](srow.md) structure identifying the row to be validated.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="38409-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="38409-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="38409-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="38409-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="38409-116">TRUE</span></span> 
   

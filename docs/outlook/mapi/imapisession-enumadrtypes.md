@@ -53,7 +53,7 @@ HRESULT EnumAdrTypes(
   
 > <span data-ttu-id="03f50-117">[out] Указатель на массив указатели на типов адресов.</span><span class="sxs-lookup"><span data-stu-id="03f50-117">[out] A pointer to an array of pointers to address types.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="03f50-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="03f50-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="03f50-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="03f50-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="03f50-119">S_OK</span></span> 
   

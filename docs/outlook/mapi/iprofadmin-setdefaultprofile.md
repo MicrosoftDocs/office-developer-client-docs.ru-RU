@@ -48,7 +48,7 @@ HRESULT SetDefaultProfile(
   
 > <span data-ttu-id="a9bf9-114">Имя профиля — в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="a9bf9-114">The profile name is in Unicode format.</span></span> <span data-ttu-id="a9bf9-115">Если флаг MAPI_UNICODE не установлен, в формате ANSI — это имя профиля.</span><span class="sxs-lookup"><span data-stu-id="a9bf9-115">If the MAPI_UNICODE flag is not set, the profile name is in ANSI format.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="a9bf9-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a9bf9-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a9bf9-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="a9bf9-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a9bf9-117">S_OK</span></span> 
   

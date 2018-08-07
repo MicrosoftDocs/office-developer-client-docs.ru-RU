@@ -55,7 +55,7 @@ HRESULT GetAttribIMsgOnIStg(
   
 > <span data-ttu-id="1cf8a-118">[out] Указатель на указатель на структуру возвращенные [SPropAttrArray](spropattrarray.md) , который содержит атрибуты, извлеченное свойство.</span><span class="sxs-lookup"><span data-stu-id="1cf8a-118">[out] Pointer to a pointer to the returned [SPropAttrArray](spropattrarray.md) structure that contains the retrieved property attributes.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1cf8a-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1cf8a-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1cf8a-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="1cf8a-120">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="1cf8a-120">S_OK</span></span> 
   

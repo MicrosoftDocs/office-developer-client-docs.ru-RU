@@ -49,7 +49,7 @@ HRESULT Address(
   
 > <span data-ttu-id="234bf-114">[in, out] Указатель на указатель на список адресов.</span><span class="sxs-lookup"><span data-stu-id="234bf-114">[in, out] A pointer to a pointer to an address list.</span></span> <span data-ttu-id="234bf-115">Для ввода данных этот список является либо текущий список получателей в сообщении или значение NULL, если список не существует.</span><span class="sxs-lookup"><span data-stu-id="234bf-115">On input, this list is either the current list of recipients in a message or NULL, if no such list exists.</span></span> <span data-ttu-id="234bf-116">На выходе _lppAdrList_ указывает на обновленный список получателей сообщения.</span><span class="sxs-lookup"><span data-stu-id="234bf-116">On output,  _lppAdrList_ points to an updated list of message recipients.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="234bf-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="234bf-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="234bf-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="234bf-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="234bf-118">S_OK</span></span> 
   

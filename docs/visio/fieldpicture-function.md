@@ -30,7 +30,7 @@ ms.locfileid: "19813728"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="5775e-112">_code_</span><span class="sxs-lookup"><span data-stu-id="5775e-112">_code_</span></span> <br/> |<span data-ttu-id="5775e-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="5775e-113">Required</span></span>  <br/> |<span data-ttu-id="5775e-114">**Число**</span><span class="sxs-lookup"><span data-stu-id="5775e-114">**Number**</span></span> <br/> | <span data-ttu-id="5775e-115">Код формата текстового поля.</span><span class="sxs-lookup"><span data-stu-id="5775e-115">A text field format code.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="5775e-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5775e-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="5775e-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="5775e-117">Строка</span><span class="sxs-lookup"><span data-stu-id="5775e-117">String</span></span>
   

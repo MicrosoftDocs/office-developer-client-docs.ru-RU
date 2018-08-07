@@ -53,7 +53,7 @@ HRESULT PrepareForm(
   
 > <span data-ttu-id="dc799-117">[in] Указатель на объект сведения формы для формы веб-сайта.</span><span class="sxs-lookup"><span data-stu-id="dc799-117">[in] A pointer to a form information object for the form to be downloaded.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="dc799-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="dc799-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dc799-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="dc799-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="dc799-119">S_OK</span></span> 
   

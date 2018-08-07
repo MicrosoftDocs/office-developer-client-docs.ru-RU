@@ -54,7 +54,7 @@ HRESULT Load(
   
 > <span data-ttu-id="4b0b9-114">[in] Битовая маска флагов, скопированные из свойства **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) сообщение, предоставляют информацию о состоянии сообщения.</span><span class="sxs-lookup"><span data-stu-id="4b0b9-114">[in] A bitmask of flags, copied from the message's **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property, that provide further information about the state of the message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4b0b9-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4b0b9-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4b0b9-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="4b0b9-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4b0b9-116">S_OK</span></span> 
   

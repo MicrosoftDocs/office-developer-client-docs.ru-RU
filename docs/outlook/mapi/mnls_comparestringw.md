@@ -59,7 +59,7 @@ int MNLS_CompareStringW (
   
 > <span data-ttu-id="a7b03-122">[in] Длина в символах второй строки Юникод, за исключением конечный символ null.</span><span class="sxs-lookup"><span data-stu-id="a7b03-122">[in] Length in characters of the second Unicode string, excluding the terminating null character.</span></span> <span data-ttu-id="a7b03-123">Приложение может предоставлять отрицательным значением, если строка символом null.</span><span class="sxs-lookup"><span data-stu-id="a7b03-123">The application can supply a negative value if the string is null-terminated.</span></span> <span data-ttu-id="a7b03-124">В этом случае функция определяет продолжительность автоматически.</span><span class="sxs-lookup"><span data-stu-id="a7b03-124">In this case, the function determines the length automatically.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="a7b03-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a7b03-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a7b03-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="a7b03-126">Возвращает значения, описанного для [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="a7b03-126">Returns the values described for [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).</span></span>
   

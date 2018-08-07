@@ -87,7 +87,7 @@ HRESULT ABProviderInit(
   
 > <span data-ttu-id="e13f1-135">[out] Указатель на указатель на объект поставщика инициализированную адресной книги.</span><span class="sxs-lookup"><span data-stu-id="e13f1-135">[out] Pointer to a pointer to the initialized address book provider object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e13f1-136">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e13f1-136">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e13f1-136">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="e13f1-137">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e13f1-137">S_OK</span></span> 
   

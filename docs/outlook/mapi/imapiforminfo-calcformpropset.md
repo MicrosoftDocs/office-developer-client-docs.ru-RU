@@ -48,7 +48,7 @@ HRESULT CalcFormPropSet(
   
 > <span data-ttu-id="453ae-114">[out] Указатель на указатель на структуру возвращенные [SMAPIFormPropArray](smapiformproparray.md) .</span><span class="sxs-lookup"><span data-stu-id="453ae-114">[out] A pointer to a pointer to the returned [SMAPIFormPropArray](smapiformproparray.md) structure.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="453ae-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="453ae-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="453ae-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="453ae-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="453ae-116">S_OK</span></span> 
   

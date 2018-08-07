@@ -49,7 +49,7 @@ HRESULT FinishedMsg(
   
 > <span data-ttu-id="091ad-113">[in] Указатель на идентификатор записи сообщения для обработки.</span><span class="sxs-lookup"><span data-stu-id="091ad-113">[in] A pointer to the entry identifier of the message to be processed.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="091ad-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="091ad-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="091ad-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="091ad-115">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="091ad-115">S_OK</span></span> 
   

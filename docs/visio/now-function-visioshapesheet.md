@@ -24,7 +24,7 @@ ms.locfileid: "19814331"
 
 <span data-ttu-id="5b963-106">ТЕПЕРЬ)</span><span class="sxs-lookup"><span data-stu-id="5b963-106">NOW ( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="5b963-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5b963-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="5b963-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="5b963-108">Даты и времени</span><span class="sxs-lookup"><span data-stu-id="5b963-108">Datetime</span></span>
   

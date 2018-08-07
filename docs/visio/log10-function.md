@@ -30,7 +30,7 @@ ms.locfileid: "19814175"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="4f3b2-114">_number_</span><span class="sxs-lookup"><span data-stu-id="4f3b2-114">_number_</span></span> <br/> |<span data-ttu-id="4f3b2-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="4f3b2-115">Required</span></span>  <br/> |<span data-ttu-id="4f3b2-116">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="4f3b2-116">**Numeric**</span></span> <br/> | <span data-ttu-id="4f3b2-117">Номер, десятичный логарифм, который требуется найти.</span><span class="sxs-lookup"><span data-stu-id="4f3b2-117">The number whose base 10 logarithm you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="4f3b2-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4f3b2-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="4f3b2-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="4f3b2-119">Числовой</span><span class="sxs-lookup"><span data-stu-id="4f3b2-119">Numeric</span></span>
   

@@ -30,7 +30,7 @@ int ShowOptions(HWND hWndParent)
   
 > <span data-ttu-id="08e9d-112">Дескриптор окна Excel.</span><span class="sxs-lookup"><span data-stu-id="08e9d-112">A handle to the Excel window.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="08e9d-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="08e9d-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="08e9d-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="08e9d-114">**xlHpcRetSuccess** Если было показано диалоговое окно; **xlHpcRetCallFailed** , если он не отображается.</span><span class="sxs-lookup"><span data-stu-id="08e9d-114">**xlHpcRetSuccess** if the dialog box was shown; **xlHpcRetCallFailed** if it was not shown.</span></span> 
   

@@ -36,7 +36,7 @@ LPXLOPER12 TempStr12(const XCHAR* lpstr);
   
 <span data-ttu-id="77b8c-111">Указатель на строке source символом null.</span><span class="sxs-lookup"><span data-stu-id="77b8c-111">A pointer to the null-terminated source string.</span></span> <span data-ttu-id="77b8c-112">В случае **XLOPER**s TempStrConst ограничивает длину строки, представляющие больше 255 байт.</span><span class="sxs-lookup"><span data-stu-id="77b8c-112">In the case of **XLOPER**s, TempStrConst truncates strings that are longer than 255 bytes.</span></span> <span data-ttu-id="77b8c-113">В случае **XLOPER12**s TempStr12Const ограничивает длину строки, представляющие более 32 767 символов Юникода.</span><span class="sxs-lookup"><span data-stu-id="77b8c-113">In the case of **XLOPER12**s, TempStr12Const truncates strings that are longer than 32,767 Unicode characters.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="77b8c-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="77b8c-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="77b8c-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="77b8c-115">Возвращает строку **xltypeStr** , содержащий копию буфера переданной строки.</span><span class="sxs-lookup"><span data-stu-id="77b8c-115">Returns an **xltypeStr** string containing a copy of the passed-in string buffer.</span></span> 
   

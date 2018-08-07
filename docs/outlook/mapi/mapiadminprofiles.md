@@ -50,7 +50,7 @@ HRESULT MAPIAdminProfiles(
   
 > <span data-ttu-id="858db-116">[out] Указатель на указатель на новый объект администрирования профилей.</span><span class="sxs-lookup"><span data-stu-id="858db-116">[out] Pointer to a pointer to the new profile administration object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="858db-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="858db-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="858db-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="858db-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="858db-118">S_OK</span></span> 
   

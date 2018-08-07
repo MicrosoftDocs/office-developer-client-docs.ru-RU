@@ -117,7 +117,7 @@ HRESULT MAPILogonEx(
   
 > <span data-ttu-id="de8f6-166">[out] Указатель на указатель на интерфейс сеанса MAPI.</span><span class="sxs-lookup"><span data-stu-id="de8f6-166">[out] Pointer to a pointer to the MAPI session interface.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="de8f6-167">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="de8f6-167">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="de8f6-167">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="de8f6-168">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="de8f6-168">S_OK</span></span> 
   

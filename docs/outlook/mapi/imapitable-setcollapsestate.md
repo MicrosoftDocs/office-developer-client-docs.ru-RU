@@ -54,7 +54,7 @@ BOOKMARK FAR * lpbkLocation
   
 > <span data-ttu-id="1f330-114">[out] Указатель на закладку, идентифицирующий строку в таблице, необходимо перестроить свернутого или развернутого состояния.</span><span class="sxs-lookup"><span data-stu-id="1f330-114">[out] Pointer to a bookmark identifying the row in the table at which the collapsed or expanded state should be rebuilt.</span></span> <span data-ttu-id="1f330-115">В этом закладку и ключа экземпляра, переданной в параметре _lpbInstanceKey_ в вызове [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) определите той же строке.</span><span class="sxs-lookup"><span data-stu-id="1f330-115">This bookmark and the instance key passed in the  _lpbInstanceKey_ parameter in the call to [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identify the same row.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1f330-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1f330-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1f330-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="1f330-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="1f330-117">S_OK</span></span> 
   

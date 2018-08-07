@@ -66,7 +66,7 @@ HRESULT OpenProfileSection(
   
 > <span data-ttu-id="e6a5f-124">[out] Указатель на указатель на раздел профилей.</span><span class="sxs-lookup"><span data-stu-id="e6a5f-124">[out] A pointer to a pointer to the profile section.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e6a5f-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e6a5f-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e6a5f-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="e6a5f-126">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e6a5f-126">S_OK</span></span> 
   

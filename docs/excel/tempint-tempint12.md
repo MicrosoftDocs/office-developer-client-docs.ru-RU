@@ -36,7 +36,7 @@ LPXLOPER12 TempInt12(int i);
   
 <span data-ttu-id="35b0c-109">Предполагаемая целое значение.</span><span class="sxs-lookup"><span data-stu-id="35b0c-109">The intended integer value.</span></span> <span data-ttu-id="35b0c-110">Обратите внимание, что целое число **XLOPER** 16-разрядного целого числа со знаком (короткий int), тогда как **XLOPER12** целое число — 32-разрядная версия целого числа со знаком (int [длинный]).</span><span class="sxs-lookup"><span data-stu-id="35b0c-110">Note that the **XLOPER** integer is a signed 16-bit integer (short int), whereas the **XLOPER12** integer is a signed 32-bit integer ([long] int).</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="35b0c-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="35b0c-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="35b0c-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="35b0c-112">Возвращает **xltypeInt** целое значение, переданное в.</span><span class="sxs-lookup"><span data-stu-id="35b0c-112">Returns an **xltypeInt** integer containing the value passed in.</span></span> 
   

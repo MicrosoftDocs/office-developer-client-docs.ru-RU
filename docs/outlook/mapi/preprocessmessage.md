@@ -90,7 +90,7 @@ HRESULT PreprocessMessage(
   
 > <span data-ttu-id="64d6d-134">[out] Указатель на необязательный возвращенные [ADRLIST](adrlist.md) структуру, список обнаруженных препроцессор получателей, для которых не удается доставить сообщение.</span><span class="sxs-lookup"><span data-stu-id="64d6d-134">[out] Pointer to an optional returned [ADRLIST](adrlist.md) structure, listing preprocessor-detected recipients for which the message is undeliverable.</span></span> <span data-ttu-id="64d6d-135">Дополнительные сведения о содержимом этого списка [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) см.</span><span class="sxs-lookup"><span data-stu-id="64d6d-135">For more information about the contents of this list, see the [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) method.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="64d6d-136">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="64d6d-136">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="64d6d-136">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="64d6d-137">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="64d6d-137">S_OK</span></span>
   

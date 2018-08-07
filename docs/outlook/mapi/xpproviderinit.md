@@ -89,7 +89,7 @@ HRESULT XPProviderInit(
   
 > <span data-ttu-id="697fa-135">[out] Указатель на указатель на объект поставщика инициализированную транспорта.</span><span class="sxs-lookup"><span data-stu-id="697fa-135">[out] Pointer to a pointer to the initialized transport provider object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="697fa-136">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="697fa-136">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="697fa-136">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="697fa-137">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="697fa-137">S_OK</span></span> 
   

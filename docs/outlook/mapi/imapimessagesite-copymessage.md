@@ -39,7 +39,7 @@ HRESULT CopyMessage(
   
 > <span data-ttu-id="4db07-108">[in] Указатель на папку, где Копировать сообщение.</span><span class="sxs-lookup"><span data-stu-id="4db07-108">[in] A pointer to the folder where the message is to be copied.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4db07-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4db07-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4db07-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="4db07-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4db07-110">S_OK</span></span> 
   

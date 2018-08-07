@@ -34,7 +34,7 @@ Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
   
 <span data-ttu-id="c618a-109">(Необязательно).</span><span class="sxs-lookup"><span data-stu-id="c618a-109">(Optional).</span></span> <span data-ttu-id="c618a-110">Имя из книг и листов, которое можно найти сведения о.</span><span class="sxs-lookup"><span data-stu-id="c618a-110">The name of the book and sheet you want to find out about.</span></span> <span data-ttu-id="c618a-111">Если этот параметр опущен, функция **xlSheetId** возвращает идентификатор листа листа активный (передний план).</span><span class="sxs-lookup"><span data-stu-id="c618a-111">If omitted, the **xlSheetId** function returns the sheet ID of the active (front) sheet.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="c618a-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c618a-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c618a-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="c618a-113">Возвращает идентификатор листа в _pxRes -\>val.mref.idSheet_.</span><span class="sxs-lookup"><span data-stu-id="c618a-113">Returns the sheet ID in  _pxRes-\>val.mref.idSheet_.</span></span> 
   

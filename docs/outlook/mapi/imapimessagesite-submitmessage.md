@@ -43,7 +43,7 @@ HRESULT SubmitMessage(
   
 > <span data-ttu-id="33dbf-111">MAPI следует отправить сообщение даже в том случае, если не могут отправляться немедленно.</span><span class="sxs-lookup"><span data-stu-id="33dbf-111">MAPI should submit the message even if it might not be sent immediately.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="33dbf-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="33dbf-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="33dbf-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="33dbf-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="33dbf-113">S_OK</span></span> 
   

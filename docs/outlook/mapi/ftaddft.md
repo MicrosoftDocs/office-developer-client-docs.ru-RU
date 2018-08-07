@@ -50,7 +50,7 @@ FILETIME FtAddFt(
   
 > <span data-ttu-id="af0ba-116">[in] Структура **FILETIME** , содержащий второй целого числа без знака 64-разрядная версия будет добавлена.</span><span class="sxs-lookup"><span data-stu-id="af0ba-116">[in] A **FILETIME** structure that contains the second unsigned 64-bit integer to be added.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="af0ba-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="af0ba-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="af0ba-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="af0ba-118">Функция **FtAddFt** возвращает структуру **FILETIME** , содержащую сумма двух целых чисел.</span><span class="sxs-lookup"><span data-stu-id="af0ba-118">The **FtAddFt** function returns a **FILETIME** structure that contains the sum of the two integers.</span></span> <span data-ttu-id="af0ba-119">Два входных параметра не изменяются.</span><span class="sxs-lookup"><span data-stu-id="af0ba-119">The two input parameters remain unchanged.</span></span> 
   

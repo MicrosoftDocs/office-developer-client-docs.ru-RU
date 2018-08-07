@@ -44,7 +44,7 @@ HRESULT IConverterSession::SetTextWrapping (
   
 > <span data-ttu-id="d4d51-110">[in] Текст, перенос ширины для использования.</span><span class="sxs-lookup"><span data-stu-id="d4d51-110">[in] The text wrapping width to use.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d4d51-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d4d51-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d4d51-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="d4d51-112">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="d4d51-112">S_OK</span></span>
   

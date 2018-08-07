@@ -39,7 +39,7 @@ LPMAPIUID lpMuid
   
 > <span data-ttu-id="c817e-108">Указатель на структуру нового **MAPIUID** .</span><span class="sxs-lookup"><span data-stu-id="c817e-108">A pointer to the new **MAPIUID** structure.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="c817e-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c817e-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c817e-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="c817e-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c817e-110">S_OK</span></span> 
   

@@ -27,7 +27,7 @@ ms.locfileid: "19814102"
 
 <span data-ttu-id="0e1dd-108">LISTORDER()</span><span class="sxs-lookup"><span data-stu-id="0e1dd-108">LISTORDER()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="0e1dd-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0e1dd-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="0e1dd-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="0e1dd-110">Целое число</span><span class="sxs-lookup"><span data-stu-id="0e1dd-110">Integer</span></span>
   

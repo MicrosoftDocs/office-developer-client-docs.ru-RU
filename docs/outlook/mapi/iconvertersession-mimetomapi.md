@@ -70,7 +70,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
   
 > <span data-ttu-id="ba013-124">Чтобы форматированный текст (RTF) должны быть преобразованы в сообщении MAPI HTML-текста в потоке MIME.</span><span class="sxs-lookup"><span data-stu-id="ba013-124">The HTML body of the MIME stream should be converted to Rich Text Format (RTF) in the MAPI message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ba013-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="ba013-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ba013-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="ba013-126">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="ba013-126">E_INVALIDARG</span></span>
   

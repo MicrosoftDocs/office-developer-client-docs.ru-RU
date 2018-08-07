@@ -35,7 +35,7 @@ HRESULT HandsOffMessage( void );
 
 <span data-ttu-id="a706d-107">Нет</span><span class="sxs-lookup"><span data-stu-id="a706d-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="a706d-108">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a706d-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a706d-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="a706d-109">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a706d-109">S_OK</span></span> 
   

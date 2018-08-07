@@ -45,7 +45,7 @@ ULONG UlPropSize(
   
 > <span data-ttu-id="a12a6-114">[in] Указатель на структуру [SPropValue](spropvalue.md) определение свойства, которое должно быть измеряется.</span><span class="sxs-lookup"><span data-stu-id="a12a6-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining the property to be measured.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a12a6-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a12a6-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a12a6-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="a12a6-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a12a6-116">S_OK</span></span> 
   

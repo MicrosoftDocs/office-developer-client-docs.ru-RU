@@ -73,7 +73,7 @@ HRESULT StoreLogoff(
   
 > <span data-ttu-id="81dce-135">Исходящие сообщения, ожидающие (то есть, они находятся в папке Исходящие).</span><span class="sxs-lookup"><span data-stu-id="81dce-135">Outbound messages are pending (that is, they are in the Outbox).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="81dce-136">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="81dce-136">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="81dce-136">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="81dce-137">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="81dce-137">S_OK</span></span> 
   

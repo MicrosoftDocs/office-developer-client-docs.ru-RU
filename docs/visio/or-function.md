@@ -32,7 +32,7 @@ ms.locfileid: "19814325"
 | <span data-ttu-id="88fd9-116">_logicalexpression2_</span><span class="sxs-lookup"><span data-stu-id="88fd9-116">_logicalexpression2_</span></span> <br/> |<span data-ttu-id="88fd9-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="88fd9-117">Required</span></span>  <br/> |<span data-ttu-id="88fd9-118">**Строка**</span><span class="sxs-lookup"><span data-stu-id="88fd9-118">**String**</span></span> <br/> |<span data-ttu-id="88fd9-119">Второе выражение, чтобы оценить достоверность.</span><span class="sxs-lookup"><span data-stu-id="88fd9-119">The second expression whose truth you want to evaluate.</span></span>  <br/> |
 | <span data-ttu-id="88fd9-120">_logicalexpressionN_</span><span class="sxs-lookup"><span data-stu-id="88fd9-120">_logicalexpressionN_</span></span> <br/> |<span data-ttu-id="88fd9-121">Обязательный</span><span class="sxs-lookup"><span data-stu-id="88fd9-121">Required</span></span>  <br/> |<span data-ttu-id="88fd9-122">**Строка**</span><span class="sxs-lookup"><span data-stu-id="88fd9-122">**String**</span></span> <br/> |<span data-ttu-id="88fd9-123">N-е выражение, чтобы оценить достоверность.</span><span class="sxs-lookup"><span data-stu-id="88fd9-123">The Nth expression whose truth you want to evaluate.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="88fd9-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="88fd9-124">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="88fd9-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="88fd9-125">Логический</span><span class="sxs-lookup"><span data-stu-id="88fd9-125">Boolean</span></span>
   

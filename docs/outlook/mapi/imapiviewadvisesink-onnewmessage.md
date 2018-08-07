@@ -35,7 +35,7 @@ HRESULT OnNewMessage( void );
 
 <span data-ttu-id="0639f-107">Нет</span><span class="sxs-lookup"><span data-stu-id="0639f-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="0639f-108">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0639f-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0639f-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="0639f-109">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="0639f-109">S_OK</span></span> 
   

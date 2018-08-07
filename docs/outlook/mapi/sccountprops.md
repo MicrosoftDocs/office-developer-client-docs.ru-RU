@@ -55,7 +55,7 @@ SCODE ScCountProps(
   
 > <span data-ttu-id="2a4ca-119">[out] Необязательный указатель на размер, в байтах, свойство массива.</span><span class="sxs-lookup"><span data-stu-id="2a4ca-119">[out] Optional pointer to the size, in bytes, of the property array.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2a4ca-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2a4ca-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2a4ca-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="2a4ca-121">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="2a4ca-121">S_OK</span></span> 
   

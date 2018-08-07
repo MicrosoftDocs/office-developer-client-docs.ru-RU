@@ -68,7 +68,7 @@ HRESULT SelectMultipleForms(
   
 > <span data-ttu-id="d4a6e-124">[out] Указатель на указатель на возвращаемый массив объектов данные формы.</span><span class="sxs-lookup"><span data-stu-id="d4a6e-124">[out] A pointer to a pointer to the returned array of form information objects.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d4a6e-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d4a6e-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d4a6e-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="d4a6e-126">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="d4a6e-126">S_OK</span></span> 
   

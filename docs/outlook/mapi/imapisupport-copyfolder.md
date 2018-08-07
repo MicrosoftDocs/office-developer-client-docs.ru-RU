@@ -100,7 +100,7 @@ HRESULT CopyFolder(
   
 > <span data-ttu-id="c8267-141">— Это имя папки в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="c8267-141">The name of the folder is in Unicode format.</span></span> <span data-ttu-id="c8267-142">Если флаг MAPI_UNICODE не установлен, — это имя папки в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="c8267-142">If the MAPI_UNICODE flag is not set, the name of the folder is in ANSI format.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c8267-143">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c8267-143">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c8267-143">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="c8267-144">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c8267-144">S_OK</span></span> 
   

@@ -31,7 +31,7 @@ ms.locfileid: "19814063"
 | <span data-ttu-id="3f35b-112">_text_</span><span class="sxs-lookup"><span data-stu-id="3f35b-112">_text_</span></span> <br/> |<span data-ttu-id="3f35b-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="3f35b-113">Required</span></span>  <br/> |<span data-ttu-id="3f35b-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="3f35b-114">**String**</span></span> <br/> |<span data-ttu-id="3f35b-115">Текстовая строка, содержащая знаки, которые вы хотите извлечь.</span><span class="sxs-lookup"><span data-stu-id="3f35b-115">The text string that contains the characters you want to extract.</span></span>  <br/> |
 | <span data-ttu-id="3f35b-116">_num_chars_opt_</span><span class="sxs-lookup"><span data-stu-id="3f35b-116">_num_chars_opt_</span></span> <br/> |<span data-ttu-id="3f35b-117">Optional</span><span class="sxs-lookup"><span data-stu-id="3f35b-117">Optional</span></span>  <br/> |<span data-ttu-id="3f35b-118">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="3f35b-118">**Numeric**</span></span> <br/> |<span data-ttu-id="3f35b-119">Число знаков, которое вы хотите извлечь.</span><span class="sxs-lookup"><span data-stu-id="3f35b-119">The number of characters you want to extract.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="3f35b-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="3f35b-120">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="3f35b-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="3f35b-121">Строка</span><span class="sxs-lookup"><span data-stu-id="3f35b-121">String</span></span>
   

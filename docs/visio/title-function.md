@@ -24,7 +24,7 @@ ms.locfileid: "19815035"
 
 <span data-ttu-id="6fbff-106">(ЗАГОЛОВОК)</span><span class="sxs-lookup"><span data-stu-id="6fbff-106">TITLE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="6fbff-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6fbff-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="6fbff-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="6fbff-108">String</span><span class="sxs-lookup"><span data-stu-id="6fbff-108">String</span></span>
   

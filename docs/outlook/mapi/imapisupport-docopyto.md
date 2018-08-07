@@ -101,7 +101,7 @@ HRESULT DoCopyTo(
   
 > <span data-ttu-id="4e088-141">[out] На входе указатель указатель на структуру [SPropProblemArray](spropproblemarray.md) ; в противном случае — значение NULL, указывает, не требуется выполнять сведения об ошибке.</span><span class="sxs-lookup"><span data-stu-id="4e088-141">[out] On input, a pointer to a pointer to an [SPropProblemArray](spropproblemarray.md) structure; otherwise, NULL, which indicates no need for error information.</span></span> <span data-ttu-id="4e088-142">Если _lppProblems_ допустимый указатель на входные данные, **DoCopyTo** возвращает подробные сведения об ошибках в копирование одного или нескольких свойств.</span><span class="sxs-lookup"><span data-stu-id="4e088-142">If  _lppProblems_ is a valid pointer on input, **DoCopyTo** returns detailed information about errors in copying one or more properties.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4e088-143">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4e088-143">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4e088-143">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="4e088-144">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4e088-144">S_OK</span></span> 
   

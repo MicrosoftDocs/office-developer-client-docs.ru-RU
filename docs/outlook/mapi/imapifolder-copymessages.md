@@ -76,7 +76,7 @@ HRESULT CopyMessages(
   
 > <span data-ttu-id="fdf34-131">Сообщения или сообщения должны быть перемещены, а не копируются.</span><span class="sxs-lookup"><span data-stu-id="fdf34-131">The message or messages are to be moved instead of copied.</span></span> <span data-ttu-id="fdf34-132">Если MESSAGE_MOVE не задано, копируются сообщения.</span><span class="sxs-lookup"><span data-stu-id="fdf34-132">If MESSAGE_MOVE is not set, the messages are copied.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="fdf34-133">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="fdf34-133">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="fdf34-133">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="fdf34-134">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="fdf34-134">S_OK</span></span> 
   

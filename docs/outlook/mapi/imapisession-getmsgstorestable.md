@@ -48,7 +48,7 @@ HRESULT GetMsgStoresTable(
   
 > <span data-ttu-id="a0726-114">[out] Указатель на указатель в таблице хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="a0726-114">[out] A pointer to a pointer to the message store table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="a0726-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a0726-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a0726-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="a0726-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a0726-116">S_OK</span></span> 
   

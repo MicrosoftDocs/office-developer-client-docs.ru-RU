@@ -65,7 +65,7 @@ HRESULT OpenFormContainer(
   
 > <span data-ttu-id="6b621-123">[out] Указатель на указатель на объект контейнера возвращенные формы.</span><span class="sxs-lookup"><span data-stu-id="6b621-123">[out] A pointer to a pointer to the returned form container object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6b621-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6b621-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6b621-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="6b621-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="6b621-125">S_OK</span></span> 
   

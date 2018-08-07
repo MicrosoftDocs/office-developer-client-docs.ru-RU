@@ -44,7 +44,7 @@ HRESULT GetDefaultDir(
   
 > <span data-ttu-id="f75af-110">[out] Указатель на указатель на запись идентификатор контейнера по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="f75af-110">[out] A pointer to a pointer to the entry identifier of the default container.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f75af-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f75af-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f75af-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="f75af-112">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f75af-112">S_OK</span></span> 
   

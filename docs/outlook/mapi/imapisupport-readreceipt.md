@@ -53,7 +53,7 @@ LPMESSAGE FAR * lppEmptyMessage
   
 > <span data-ttu-id="9ee3b-116">[in, out] На входе _lppEmptyMessage_ указывает указатель на пустое сообщение.</span><span class="sxs-lookup"><span data-stu-id="9ee3b-116">[in, out] On input,  _lppEmptyMessage_ points to a pointer to an empty message.</span></span> <span data-ttu-id="9ee3b-117">На выходе _lppEmptyMessage_ указывает указатель на сообщение отчета.</span><span class="sxs-lookup"><span data-stu-id="9ee3b-117">On output,  _lppEmptyMessage_ points to a pointer to the report message.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="9ee3b-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9ee3b-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9ee3b-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="9ee3b-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="9ee3b-119">S_OK</span></span> 
   

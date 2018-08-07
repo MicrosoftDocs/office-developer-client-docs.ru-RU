@@ -34,7 +34,7 @@ LPXLOPER TempStr(LPSTR str);
   
 <span data-ttu-id="e432e-112">Указатель на строке source символом null.</span><span class="sxs-lookup"><span data-stu-id="e432e-112">A pointer to the null-terminated source string.</span></span> <span data-ttu-id="e432e-113">**TempStr** ограничивает длину строки, представляющие больше 255 байт.</span><span class="sxs-lookup"><span data-stu-id="e432e-113">**TempStr** truncates strings that are longer than 255 bytes.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="e432e-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e432e-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e432e-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="e432e-115">Возвращает строку **xltypeStr** , содержащий указатель на буфер переданной строки.</span><span class="sxs-lookup"><span data-stu-id="e432e-115">Returns an **xltypeStr** string containing a pointer to the passed-in string buffer.</span></span> 
   

@@ -30,7 +30,7 @@ ms.locfileid: "19815109"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="7231c-112">_name_</span><span class="sxs-lookup"><span data-stu-id="7231c-112">_name_</span></span> <br/> |<span data-ttu-id="7231c-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="7231c-113">Required</span></span>  <br/> |<span data-ttu-id="7231c-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="7231c-114">**String**</span></span> <br/> |<span data-ttu-id="7231c-115">Любая строка, которая является допустимым именем главной.</span><span class="sxs-lookup"><span data-stu-id="7231c-115">Any string that is a valid master name.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="7231c-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7231c-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="7231c-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="7231c-117">Number</span><span class="sxs-lookup"><span data-stu-id="7231c-117">Number</span></span>
   

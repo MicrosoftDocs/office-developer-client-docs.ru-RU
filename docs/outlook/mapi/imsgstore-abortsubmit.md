@@ -49,7 +49,7 @@ AbortSubmit(
   
 > <span data-ttu-id="4bdc3-112">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="4bdc3-112">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4bdc3-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4bdc3-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4bdc3-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="4bdc3-114">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4bdc3-114">S_OK</span></span> 
   

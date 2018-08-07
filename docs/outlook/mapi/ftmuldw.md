@@ -50,7 +50,7 @@ FILETIME FtMulDw(
   
 > <span data-ttu-id="8c9f9-116">[in] Структура [FILETIME](filetime.md) , содержащую целых 64-разрядная версия умножается на значение параметра _Множитель_ .</span><span class="sxs-lookup"><span data-stu-id="8c9f9-116">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer to be multiplied by the value in the  _Multiplier_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="8c9f9-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8c9f9-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8c9f9-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="8c9f9-118">Функция **FtMulDw** возвращает структуру **FILETIME** , содержащую произведение двух целых чисел.</span><span class="sxs-lookup"><span data-stu-id="8c9f9-118">The **FtMulDw** function returns a **FILETIME** structure that contains the product of the two integers.</span></span> <span data-ttu-id="8c9f9-119">Два входных параметра не изменяются.</span><span class="sxs-lookup"><span data-stu-id="8c9f9-119">The two input parameters remain unchanged.</span></span> 
   

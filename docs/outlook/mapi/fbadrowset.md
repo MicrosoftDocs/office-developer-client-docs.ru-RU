@@ -45,7 +45,7 @@ BOOL FBadRowSet(
   
 > <span data-ttu-id="898d3-114">[in] Указатель на структуру [SRowSet](srowset.md) , идентифицирующий набор для проверки строк.</span><span class="sxs-lookup"><span data-stu-id="898d3-114">[in] Pointer to an [SRowSet](srowset.md) structure identifying the row set to be validated.</span></span> <span data-ttu-id="898d3-115">Если указатель имеет значение NULL, структура является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="898d3-115">If the pointer is NULL, the structure is invalid.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="898d3-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="898d3-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="898d3-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="898d3-117">TRUE</span><span class="sxs-lookup"><span data-stu-id="898d3-117">TRUE</span></span> 
   

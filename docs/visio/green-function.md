@@ -30,7 +30,7 @@ ms.locfileid: "19813895"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="7f4c1-112">_expression_</span><span class="sxs-lookup"><span data-stu-id="7f4c1-112">_expression_</span></span> <br/> |<span data-ttu-id="7f4c1-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="7f4c1-113">Required</span></span>  <br/> |<span data-ttu-id="7f4c1-114">**Разные**</span><span class="sxs-lookup"><span data-stu-id="7f4c1-114">**Varies**</span></span> <br/> |<span data-ttu-id="7f4c1-115">Индекс цвета в таблице цветов документа, выражение, которое разрешается в настраиваемые цвета (например, RGB или HSL) или ссылку на ячейку, содержащую цвет индекса или цветовой результатов.</span><span class="sxs-lookup"><span data-stu-id="7f4c1-115">An index of a color in the document's color table, an expression that resolves to a custom color (such as RGB or HSL), or a reference to a cell that contains a color index or color result.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="7f4c1-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7f4c1-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="7f4c1-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="7f4c1-117">Целое число</span><span class="sxs-lookup"><span data-stu-id="7f4c1-117">Integer</span></span>
   

@@ -44,7 +44,7 @@ HRESULT Done(
   
 > <span data-ttu-id="75190-111">Значение HRESULT, указывающее, конечный статус хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="75190-111">An HRESULT indicating final status of the progress.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="75190-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="75190-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="75190-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="75190-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="75190-113">S_OK</span></span> 
   

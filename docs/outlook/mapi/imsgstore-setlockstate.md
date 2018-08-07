@@ -52,7 +52,7 @@ HRESULT SetLockState(
   
 > <span data-ttu-id="3d331-116">Сообщение необходимо разблокировать.</span><span class="sxs-lookup"><span data-stu-id="3d331-116">The message should be unlocked.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="3d331-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="3d331-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3d331-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="3d331-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="3d331-118">S_OK</span></span> 
   

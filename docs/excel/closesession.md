@@ -30,7 +30,7 @@ int CloseSession(int SessionId)
   
 > <span data-ttu-id="dd674-108">Идентификатор сеанса, чтобы закрыть.</span><span class="sxs-lookup"><span data-stu-id="dd674-108">The ID of the session to close.</span></span> <span data-ttu-id="dd674-109">Это значение должно соответствовать значение, возвращенное [метод OpenSession](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="dd674-109">This value must match the value returned by [OpenSession](opensession.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="dd674-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="dd674-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dd674-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="dd674-111">**xlHpcRetSuccess** при закрытии сеанса; **xlHpcRetInvalidSessionId** Если недопустимый _SessionId_ аргумент; **xlHpcRetCallFailed** на других ошибок.</span><span class="sxs-lookup"><span data-stu-id="dd674-111">**xlHpcRetSuccess** if the session closed; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures.</span></span> 
   

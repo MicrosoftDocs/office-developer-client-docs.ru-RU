@@ -30,7 +30,7 @@ ms.locfileid: "19814442"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="8caef-112">_x, y_</span><span class="sxs-lookup"><span data-stu-id="8caef-112">_x,y_</span></span> <br/> |<span data-ttu-id="8caef-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="8caef-113">Required</span></span>  <br/> |<span data-ttu-id="8caef-114">**Номер, номер**</span><span class="sxs-lookup"><span data-stu-id="8caef-114">**Number, Number**</span></span> <br/> |<span data-ttu-id="8caef-115">Координаты точки в системе координат текущей фигуры.</span><span class="sxs-lookup"><span data-stu-id="8caef-115">The coordinates of the point in the coordinate system of the current shape.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="8caef-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8caef-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="8caef-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="8caef-117">Точка</span><span class="sxs-lookup"><span data-stu-id="8caef-117">Point</span></span>
   

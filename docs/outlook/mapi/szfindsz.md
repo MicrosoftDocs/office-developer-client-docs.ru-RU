@@ -50,7 +50,7 @@ LPSTR SzFindCh(
   
 > <span data-ttu-id="90253-117">[in] Указатель на подстроки символом null для поиска.</span><span class="sxs-lookup"><span data-stu-id="90253-117">[in] Pointer to the null-terminated substring to be searched for.</span></span> <span data-ttu-id="90253-118">Параметр _lpszKey_ не должен превышать 65536 символов.</span><span class="sxs-lookup"><span data-stu-id="90253-118">The  _lpszKey_ parameter must not exceed 65536 characters.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="90253-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="90253-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="90253-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
  <span data-ttu-id="90253-120">**SzFindSz** возвращает указатель на первый символ первого вхождения подстроки в строке.</span><span class="sxs-lookup"><span data-stu-id="90253-120">**SzFindSz** returns a pointer to the first character of the first occurrence of the substring in the string.</span></span> <span data-ttu-id="90253-121">Если подстрока не происходит в строке, в любом месте, если _lpszKey_ больше, чем _lpsz_или один из параметров имеет значение NULL, возвращается значение NULL.</span><span class="sxs-lookup"><span data-stu-id="90253-121">If the substring does not occur anywhere in the string, if  _lpszKey_ is larger than  _lpsz_, or if either parameter is NULL, a value of NULL is returned.</span></span> 
   

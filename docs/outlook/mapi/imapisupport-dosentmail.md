@@ -44,7 +44,7 @@ HRESULT DoSentMail(
   
 > <span data-ttu-id="4ad31-110">[in] ��������� �� ��������� ���������, ��� �������� ����� ������ ��������� � �����, ��������������� ��� �������� ������������ ���������.</span><span class="sxs-lookup"><span data-stu-id="4ad31-110">[in] A pointer to the open message for which a message should be generated in the folder designated to hold sent items.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4ad31-111">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4ad31-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4ad31-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="4ad31-112">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4ad31-112">S_OK</span></span> 
   

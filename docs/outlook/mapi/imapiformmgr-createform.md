@@ -63,7 +63,7 @@ HRESULT CreateForm(
   
 > <span data-ttu-id="118fc-122">[out] Указатель на указатель на возвращенный интерфейс.</span><span class="sxs-lookup"><span data-stu-id="118fc-122">[out] A pointer to a pointer to the returned interface.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="118fc-123">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="118fc-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="118fc-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="118fc-124">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="118fc-124">S_OK</span></span> 
   

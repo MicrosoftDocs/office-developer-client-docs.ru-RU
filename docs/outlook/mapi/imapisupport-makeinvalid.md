@@ -54,7 +54,7 @@ ULONG cMethods
   
 > <span data-ttu-id="cb49b-115">[in] Число методов в vtable объекта.</span><span class="sxs-lookup"><span data-stu-id="cb49b-115">[in] The count of methods in the object's vtable.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="cb49b-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="cb49b-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="cb49b-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="cb49b-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="cb49b-117">S_OK</span></span> 
   

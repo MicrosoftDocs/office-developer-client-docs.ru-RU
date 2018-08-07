@@ -31,7 +31,7 @@ ms.locfileid: "19809078"
 HRESULT QueryFastShutdown ();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="de2ca-106">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="de2ca-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="de2ca-106">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="de2ca-107">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="de2ca-107">S_OK</span></span>
   

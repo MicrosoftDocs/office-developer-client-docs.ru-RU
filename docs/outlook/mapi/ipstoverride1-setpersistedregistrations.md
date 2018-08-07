@@ -44,7 +44,7 @@ HRESULT SetPersistedRegistrations(
 > [!NOTE]
 > <span data-ttu-id="7ba83-113">SPropValue хранится в свойстве MAPI в диапазоне внутренних PST-файлов.</span><span class="sxs-lookup"><span data-stu-id="7ba83-113">The SPropValue is stored in a MAPI property in the PST's internal range.</span></span> <span data-ttu-id="7ba83-114">Это свойство недоступно для обычных приложений MAPI.</span><span class="sxs-lookup"><span data-stu-id="7ba83-114">This property is inaccessible to ordinary MAPI applications.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="7ba83-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7ba83-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7ba83-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="7ba83-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7ba83-116">S_OK</span></span> 
   

@@ -53,7 +53,7 @@ ULONG ulFlags
   
 > <span data-ttu-id="153a8-115">Направляет MAPI для объединения свойств, включенных в массиве, на который указывает _lpColumnVals_ с существующей строки в таблице состояния, а не в новую строку.</span><span class="sxs-lookup"><span data-stu-id="153a8-115">Directs MAPI to merge the properties included in the array pointed to by  _lpColumnVals_ with an existing status table row, rather than in a new row.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="153a8-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="153a8-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="153a8-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="153a8-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="153a8-117">S_OK</span></span> 
   

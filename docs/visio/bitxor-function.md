@@ -31,7 +31,7 @@ ms.locfileid: "19813261"
 | <span data-ttu-id="f1c95-114">_двоичные Число1_</span><span class="sxs-lookup"><span data-stu-id="f1c95-114">_binary number1_</span></span> <br/> |<span data-ttu-id="f1c95-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="f1c95-115">Required</span></span>  <br/> |<span data-ttu-id="f1c95-116">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="f1c95-116">**Numeric**</span></span> <br/> |<span data-ttu-id="f1c95-117">Первый номер двоичные 16-разрядной.</span><span class="sxs-lookup"><span data-stu-id="f1c95-117">The first 16-bit binary number.</span></span>  <br/> |
 | <span data-ttu-id="f1c95-118">_двоичные число2_</span><span class="sxs-lookup"><span data-stu-id="f1c95-118">_binary number2_</span></span> <br/> |<span data-ttu-id="f1c95-119">Обязательный</span><span class="sxs-lookup"><span data-stu-id="f1c95-119">Required</span></span>  <br/> |<span data-ttu-id="f1c95-120">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="f1c95-120">**Numeric**</span></span> <br/> |<span data-ttu-id="f1c95-121">Второй 16-разрядное число двоичные.</span><span class="sxs-lookup"><span data-stu-id="f1c95-121">The second 16-bit binary number.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="f1c95-122">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f1c95-122">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="f1c95-122">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="f1c95-123">16-разрядный двоичный</span><span class="sxs-lookup"><span data-stu-id="f1c95-123">16-bit Binary</span></span>
   

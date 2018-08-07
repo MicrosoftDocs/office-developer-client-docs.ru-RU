@@ -27,7 +27,7 @@ ms.locfileid: "19807125"
   
  <span data-ttu-id="19df7-111">*выражение*  Любое допустимое выражение любого типа данных числовой категории, кроме типа данных **bit** .</span><span class="sxs-lookup"><span data-stu-id="19df7-111">*expression*  Any valid expression of any one of the data types in the numeric category except the **bit** data type.</span></span> <span data-ttu-id="19df7-112">Не может использоваться с типами данных даты и времени.</span><span class="sxs-lookup"><span data-stu-id="19df7-112">Cannot be used with date or time data types.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="19df7-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="19df7-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="19df7-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="19df7-114">Возвращает тип данных аргумента с более высокий приоритет.</span><span class="sxs-lookup"><span data-stu-id="19df7-114">Returns the data type of the argument with the higher precedence.</span></span> 
   

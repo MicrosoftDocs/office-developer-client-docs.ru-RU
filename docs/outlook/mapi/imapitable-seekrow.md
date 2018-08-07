@@ -61,7 +61,7 @@ LONG FAR * lplRowsSought
   
 > <span data-ttu-id="bf95f-119">[out] Если _lRowCount_ допустимый указатель на ввода, _lplRowsSought_ указывает на количество строк, обработанных в операции поиска, знак из которых указывает направление поиска, вперед или назад.</span><span class="sxs-lookup"><span data-stu-id="bf95f-119">[out] If  _lRowCount_ is a valid pointer on input,  _lplRowsSought_ points to the number of rows that were processed in the seek operation, the sign of which indicates the direction of search, forward or backward.</span></span> <span data-ttu-id="bf95f-120">Если _lRowCount_ является отрицательным, _lplRowsSought_ является отрицательным.</span><span class="sxs-lookup"><span data-stu-id="bf95f-120">If  _lRowCount_ is negative, then  _lplRowsSought_ is negative.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="bf95f-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="bf95f-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bf95f-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="bf95f-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="bf95f-122">S_OK</span></span> 
   

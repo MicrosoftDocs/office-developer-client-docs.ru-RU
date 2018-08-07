@@ -48,7 +48,7 @@ HRESULT GetProviderTable(
   
 > <span data-ttu-id="232b5-114">[out] Указатель на указатель в таблице поставщика.</span><span class="sxs-lookup"><span data-stu-id="232b5-114">[out] A pointer to a pointer to the provider table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="232b5-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="232b5-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="232b5-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="232b5-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="232b5-116">S_OK</span></span> 
   

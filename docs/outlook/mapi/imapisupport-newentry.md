@@ -74,7 +74,7 @@ HRESULT NewEntry(
   
 > <span data-ttu-id="4b1c2-124">[out] Указатель на указатель на идентификатор операции записи в только что созданный.</span><span class="sxs-lookup"><span data-stu-id="4b1c2-124">[out] A pointer to a pointer to the entry identifier of the newly created entry.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4b1c2-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4b1c2-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4b1c2-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="4b1c2-126">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4b1c2-126">S_OK</span></span> 
   

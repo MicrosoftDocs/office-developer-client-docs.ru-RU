@@ -97,7 +97,7 @@ SCODE CreateTable(
   
 > <span data-ttu-id="ef6f9-139">[out] Указатель на указатель на объект возвращаемой таблицы данных.</span><span class="sxs-lookup"><span data-stu-id="ef6f9-139">[out] Pointer to a pointer to the returned table data object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ef6f9-140">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="ef6f9-140">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ef6f9-140">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="ef6f9-141">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="ef6f9-141">S_OK</span></span> 
   

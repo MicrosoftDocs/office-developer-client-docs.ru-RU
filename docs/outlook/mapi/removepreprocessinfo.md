@@ -45,7 +45,7 @@ HRESULT RemovePreprocessInfo(
   
 > <span data-ttu-id="41ef2-114">[in] Указатель на предварительной обработки сообщений, из которой должна быть удалены сведения.</span><span class="sxs-lookup"><span data-stu-id="41ef2-114">[in] Pointer to the preprocessed message from which information is to be removed.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="41ef2-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="41ef2-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="41ef2-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="41ef2-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="41ef2-116">S_OK</span></span>
   

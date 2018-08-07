@@ -71,7 +71,7 @@ HRESULT DeleteFolder(
   
 > <span data-ttu-id="2037b-126">Индикатор выполнения должен отображаться во время операции.</span><span class="sxs-lookup"><span data-stu-id="2037b-126">A progress indicator should be displayed while the operation proceeds.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2037b-127">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2037b-127">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2037b-127">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="2037b-128">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="2037b-128">S_OK</span></span> 
   

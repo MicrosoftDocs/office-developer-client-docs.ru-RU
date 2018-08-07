@@ -33,7 +33,7 @@ ms.locfileid: "19814569"
 | <span data-ttu-id="b5c6d-121">_Количество_знаков_</span><span class="sxs-lookup"><span data-stu-id="b5c6d-121">_num_chars_</span></span> <br/> |<span data-ttu-id="b5c6d-122">Обязательный</span><span class="sxs-lookup"><span data-stu-id="b5c6d-122">Required</span></span>  <br/> |<span data-ttu-id="b5c6d-123">**Число**</span><span class="sxs-lookup"><span data-stu-id="b5c6d-123">**Number**</span></span> <br/> |<span data-ttu-id="b5c6d-124">Число знаков в _тексте старый_текст_ , который вы хотите заменить</span><span class="sxs-lookup"><span data-stu-id="b5c6d-124">The number of characters in  _old_text_ that you want to replace</span></span>  <br/> |
 | <span data-ttu-id="b5c6d-125">_нов_текст_</span><span class="sxs-lookup"><span data-stu-id="b5c6d-125">_new_text_</span></span> <br/> |<span data-ttu-id="b5c6d-126">Обязательный</span><span class="sxs-lookup"><span data-stu-id="b5c6d-126">Required</span></span>  <br/> |<span data-ttu-id="b5c6d-127">**Строка**</span><span class="sxs-lookup"><span data-stu-id="b5c6d-127">**String**</span></span> <br/> |<span data-ttu-id="b5c6d-128">Текст, который заменяет знаки в _тексте старый_текст_.</span><span class="sxs-lookup"><span data-stu-id="b5c6d-128">The text that will replace characters in  _old_text_.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="b5c6d-129">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b5c6d-129">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="b5c6d-129">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="b5c6d-130">Строка</span><span class="sxs-lookup"><span data-stu-id="b5c6d-130">String</span></span>
   

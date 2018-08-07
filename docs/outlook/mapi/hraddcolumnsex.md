@@ -70,7 +70,7 @@ HRESULT HrAddColumnsEx(
   
 > <span data-ttu-id="1573b-125">[in] Указатель на структуру [SPropTagArray](sproptagarray.md) , содержащий массив тегов свойств, уже существующих в таблице перед свойства при добавлении или перемещено в начале.</span><span class="sxs-lookup"><span data-stu-id="1573b-125">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains the array of property tags already existing in the table before properties are added or moved to the beginning.</span></span> <span data-ttu-id="1573b-126">**HrAddColumnsEx** передается указатель в качестве параметра функции обратного вызова, на который ссылается _lpfnFilterColumns_.</span><span class="sxs-lookup"><span data-stu-id="1573b-126">**HrAddColumnsEx** passes this pointer as the parameter to the callback function pointed to by  _lpfnFilterColumns_.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="1573b-127">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1573b-127">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1573b-127">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="1573b-128">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="1573b-128">S_OK</span></span> 
   

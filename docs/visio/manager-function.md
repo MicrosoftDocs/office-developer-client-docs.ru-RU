@@ -24,7 +24,7 @@ ms.locfileid: "19814192"
 
 <span data-ttu-id="a4344-106">(ДИСПЕТЧЕР)</span><span class="sxs-lookup"><span data-stu-id="a4344-106">MANAGER ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="a4344-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a4344-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="a4344-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="a4344-108">String</span><span class="sxs-lookup"><span data-stu-id="a4344-108">String</span></span>
   

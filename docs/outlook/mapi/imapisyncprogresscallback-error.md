@@ -44,7 +44,7 @@ HRESULT Error(
   
 > <span data-ttu-id="6da6a-111">Указатель на строку, связанную с ошибкой для отображения.</span><span class="sxs-lookup"><span data-stu-id="6da6a-111">A pointer to the string associated with the error to be displayed.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6da6a-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6da6a-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6da6a-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="6da6a-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="6da6a-113">S_OK</span></span> 
   

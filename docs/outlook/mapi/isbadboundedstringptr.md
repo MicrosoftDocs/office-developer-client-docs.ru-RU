@@ -46,7 +46,7 @@ BOOL IsBadBoundedStringPtr(
   
 > <span data-ttu-id="c9500-116">[in] Максимальный размер строки в символах.</span><span class="sxs-lookup"><span data-stu-id="c9500-116">[in] The maximum size of the string, in CHARs.</span></span> <span data-ttu-id="c9500-117">Функция проверяет наличие доступ на чтение в все символы до выполнения определенного пустого строки или до числа символов, указанных в этом параметре, какое из значений меньше.</span><span class="sxs-lookup"><span data-stu-id="c9500-117">The function checks for read access in all characters up to the terminating null character of the string, or up to the number of characters specified by this parameter, whichever is smaller.</span></span> <span data-ttu-id="c9500-118">Если этот параметр равно нулю, возвращаемое значение равно нулю.</span><span class="sxs-lookup"><span data-stu-id="c9500-118">If this parameter is zero, the return value is zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c9500-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c9500-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c9500-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="c9500-120">Возвращаемое значение равно нулю, когда процесс вызова имеет доступ на чтение к все символы до выполнения определенного пустого строки или доступ на чтение до числа знаков, указанное в _cchMax_.</span><span class="sxs-lookup"><span data-stu-id="c9500-120">The return value is zero when the calling process has read access to all characters up to the terminating null character of the string, or read access up to the number of characters specified by  _cchMax_.</span></span>
   

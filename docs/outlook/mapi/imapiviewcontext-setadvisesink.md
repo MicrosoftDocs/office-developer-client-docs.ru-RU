@@ -39,7 +39,7 @@ LPMAPIFORMADVISESINK pmvns
   
 > <span data-ttu-id="bd24d-108">[in] Указатель на форме уведомить приемник object или значение NULL.</span><span class="sxs-lookup"><span data-stu-id="bd24d-108">[in] Pointer to a form advise sink object or NULL.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="bd24d-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="bd24d-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bd24d-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="bd24d-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="bd24d-110">S_OK</span></span> 
   

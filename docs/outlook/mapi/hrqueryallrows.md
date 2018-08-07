@@ -70,7 +70,7 @@ HRESULT HrQueryAllRows(
   
 > <span data-ttu-id="a13a2-129">[out] Указатель на указатель на структуру возвращенные [SRowSet](srowset.md) , который содержит массив указатели на строки извлеченных таблицы.</span><span class="sxs-lookup"><span data-stu-id="a13a2-129">[out] Pointer to a pointer to the returned [SRowSet](srowset.md) structure that contains an array of pointers to the retrieved table rows.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a13a2-130">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a13a2-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a13a2-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="a13a2-131">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a13a2-131">S_OK</span></span> 
   

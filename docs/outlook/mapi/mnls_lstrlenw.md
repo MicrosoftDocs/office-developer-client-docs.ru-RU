@@ -37,7 +37,7 @@ int MNLS_lstrlen(
   
 > <span data-ttu-id="8acbd-109">[in] Символом null строка Юникод для проверки.</span><span class="sxs-lookup"><span data-stu-id="8acbd-109">[in] The null-terminated Unicode string to be checked.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="8acbd-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8acbd-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8acbd-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="8acbd-111">Функция возвращает целое число в длину строки.</span><span class="sxs-lookup"><span data-stu-id="8acbd-111">The function returns an integer with the length of the string.</span></span> <span data-ttu-id="8acbd-112">Это число знаков в строке, за исключением конечный символ null.</span><span class="sxs-lookup"><span data-stu-id="8acbd-112">It is a count of characters in the string, excluding the terminating null character.</span></span> <span data-ttu-id="8acbd-113">Если _lpsz_ имеет значение NULL, функция возвращает ноль.</span><span class="sxs-lookup"><span data-stu-id="8acbd-113">If  _lpsz_ is NULL, the function returns zero.</span></span> 
   

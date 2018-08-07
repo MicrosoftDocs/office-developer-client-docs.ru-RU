@@ -51,7 +51,7 @@ HRESULT GetReceiveFolderTable(
   
 > <span data-ttu-id="e370f-117">[out] Указатель на указатель в таблице папку получения.</span><span class="sxs-lookup"><span data-stu-id="e370f-117">[out] A pointer to a pointer to the receive folder table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e370f-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e370f-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e370f-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="e370f-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e370f-119">S_OK</span></span> 
   

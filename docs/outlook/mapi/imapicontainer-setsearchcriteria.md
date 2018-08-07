@@ -77,7 +77,7 @@ HRESULT SetSearchCriteria(
   
 > <span data-ttu-id="7d0ed-137">Поиск должна быть остановлена.</span><span class="sxs-lookup"><span data-stu-id="7d0ed-137">The search should be stopped.</span></span> <span data-ttu-id="7d0ed-138">Этот флаг не могут задаваться одновременно флаг RESTART_SEARCH.</span><span class="sxs-lookup"><span data-stu-id="7d0ed-138">This flag cannot be set at the same time as the RESTART_SEARCH flag.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7d0ed-139">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7d0ed-139">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7d0ed-139">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="7d0ed-140">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7d0ed-140">S_OK</span></span> 
   

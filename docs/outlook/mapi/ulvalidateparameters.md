@@ -50,7 +50,7 @@ HRESULT UlValidateParameters(
   
 > <span data-ttu-id="0cbae-116">[in] Указатель на первый аргумент в стеке.</span><span class="sxs-lookup"><span data-stu-id="0cbae-116">[in] Pointer to the first argument on the stack.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0cbae-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0cbae-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0cbae-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="0cbae-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="0cbae-118">S_OK</span></span> 
   

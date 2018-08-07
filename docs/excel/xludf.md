@@ -39,7 +39,7 @@ LPXLOPER12 pxArg1, ...);
   
 <span data-ttu-id="d2363-114">Ноль или больше аргументов пользовательских функций.</span><span class="sxs-lookup"><span data-stu-id="d2363-114">Zero or more arguments to the user-defined function.</span></span> <span data-ttu-id="d2363-115">При вызове этой функции в версиях более ранних версий, чем Excel 2007, максимальное число дополнительные аргументы, которые можно передавать — 29, которая является 30 включая _pxFnRef_.</span><span class="sxs-lookup"><span data-stu-id="d2363-115">When you are calling this function in versions earlier than Excel 2007, the maximum number of additional arguments that can be passed is 29, which is 30 including  _pxFnRef_.</span></span> <span data-ttu-id="d2363-116">Начиная с версии Excel 2007, это ограничение возникает до 254, которая является 255 включая _pxFnRef_.</span><span class="sxs-lookup"><span data-stu-id="d2363-116">Starting in Excel 2007, this limit is raised to 254, which is 255 including  _pxFnRef_.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="d2363-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d2363-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d2363-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="d2363-118">Возвращает значение, возвращаемое пользовательской функции.</span><span class="sxs-lookup"><span data-stu-id="d2363-118">Returns whatever value the user-defined function returned.</span></span>
   

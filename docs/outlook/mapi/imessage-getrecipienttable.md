@@ -52,7 +52,7 @@ HRESULT GetRecipientTable(
   
 > <span data-ttu-id="c1076-117">[out] Указатель на указатель на таблицу получателей.</span><span class="sxs-lookup"><span data-stu-id="c1076-117">[out] Pointer to a pointer to the recipient table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c1076-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c1076-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c1076-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="c1076-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c1076-119">S_OK</span></span> 
   

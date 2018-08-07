@@ -45,7 +45,7 @@ HRESULT RegisterTrustedPSTOverrideHandler (
   
 > <span data-ttu-id="800ca-110">[in] Указатель на данные клиента, которые будут передаваться поставщиком PST-файлов в последующие вызовы функции HrTrustedPSTOverrideHandlerCallback библиотеки DLL.</span><span class="sxs-lookup"><span data-stu-id="800ca-110">[in] A pointer to client data, which will be passed by the PST provider into subsequent calls to the DLL's HrTrustedPSTOverrideHandlerCallback function.</span></span> <span data-ttu-id="800ca-111">Эти данные клиента могут быть использованы с библиотеки DLL для помощи при проверке, следует ли разблокированными PST-файлов.</span><span class="sxs-lookup"><span data-stu-id="800ca-111">This client data may be used by the DLL to assist in verifying whether the PST should be unlocked.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="800ca-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="800ca-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="800ca-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="800ca-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="800ca-113">S_OK</span></span>
   

@@ -82,7 +82,7 @@ HRESULT TransportNotify(
   
 > <span data-ttu-id="dadde-163">[out] Указатель на указатель на данные события.</span><span class="sxs-lookup"><span data-stu-id="dadde-163">[out] A pointer to a pointer to event-specific data.</span></span> <span data-ttu-id="dadde-164">Дополнительные сведения о указывает, какие _lppvData_ параметр _lpulFlags_ см.</span><span class="sxs-lookup"><span data-stu-id="dadde-164">For more information about what  _lppvData_ specifies, see the description for the  _lpulFlags_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="dadde-165">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="dadde-165">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dadde-165">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="dadde-166">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="dadde-166">S_OK</span></span> 
   

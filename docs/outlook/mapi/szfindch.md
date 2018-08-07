@@ -48,7 +48,7 @@ LPSTR SzFindCh(
   
 > <span data-ttu-id="06048-116">[in] Знак для поиска.</span><span class="sxs-lookup"><span data-stu-id="06048-116">[in] The character to be searched for.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="06048-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="06048-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="06048-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="06048-118">**SzFindCh** возвращает указатель на первого появления знаков в строке.</span><span class="sxs-lookup"><span data-stu-id="06048-118">**SzFindCh** returns a pointer to the first occurrence of the character in the string.</span></span> <span data-ttu-id="06048-119">Если кодировка не происходит в любом месте в строке или параметр _lpsz_ имеет значение NULL, возвращается значение NULL.</span><span class="sxs-lookup"><span data-stu-id="06048-119">If the character does not occur anywhere in the string, or if the  _lpsz_ parameter is NULL, a value of NULL is returned.</span></span> 
   

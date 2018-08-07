@@ -30,7 +30,7 @@ ms.locfileid: "19814304"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="c0499-114">_logicalexpression_</span><span class="sxs-lookup"><span data-stu-id="c0499-114">_logicalexpression_</span></span> <br/> |<span data-ttu-id="c0499-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="c0499-115">Required</span></span>  <br/> |<span data-ttu-id="c0499-116">**Строка**</span><span class="sxs-lookup"><span data-stu-id="c0499-116">**String**</span></span> <br/> |<span data-ttu-id="c0499-117">Логическое выражение для оценки.</span><span class="sxs-lookup"><span data-stu-id="c0499-117">The logical expression to evaluate.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="c0499-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c0499-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c0499-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="c0499-119">Логический</span><span class="sxs-lookup"><span data-stu-id="c0499-119">Boolean</span></span>
   

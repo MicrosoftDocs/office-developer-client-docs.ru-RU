@@ -59,7 +59,7 @@ int MNLS_MultiByteToWideChar(
   
 > <span data-ttu-id="f91e6-120">[in] Размер в знаков, указанный в параметре _lpWideCharStr_буфера.</span><span class="sxs-lookup"><span data-stu-id="f91e6-120">[in] Size, in characters, of the buffer indicated by  _lpWideCharStr_.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f91e6-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f91e6-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f91e6-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="f91e6-122">Возвращает число знаков в буфер, указанный в параметре _lpWideCharStr_ в случае успешного выполнения.</span><span class="sxs-lookup"><span data-stu-id="f91e6-122">Returns the number of characters written to the buffer indicated by  _lpWideCharStr_ if successful.</span></span> 
   

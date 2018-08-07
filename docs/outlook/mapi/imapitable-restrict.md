@@ -52,7 +52,7 @@ ULONG ulFlags
   
 > <span data-ttu-id="7ea15-116">Вычисление фильтра которого откладывается, пока данные в таблице является обязательным.</span><span class="sxs-lookup"><span data-stu-id="7ea15-116">Defers evaluation of the filter until the data in the table is required.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7ea15-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7ea15-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7ea15-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="7ea15-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7ea15-118">S_OK</span></span> 
   

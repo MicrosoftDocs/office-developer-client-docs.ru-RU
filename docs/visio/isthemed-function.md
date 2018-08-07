@@ -27,7 +27,7 @@ ms.locfileid: "19814023"
 
  <span data-ttu-id="6c989-108">**ISTHEMED** ()</span><span class="sxs-lookup"><span data-stu-id="6c989-108">**ISTHEMED**()</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="6c989-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6c989-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6c989-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="6c989-110">Логический</span><span class="sxs-lookup"><span data-stu-id="6c989-110">Boolean</span></span>
   

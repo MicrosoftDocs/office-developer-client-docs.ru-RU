@@ -53,7 +53,7 @@ HRESULT PrepareRecips(
   
 > <span data-ttu-id="535aa-118">[in] Указатель на структуру [ADRLIST](adrlist.md) , содержащий список получателей.</span><span class="sxs-lookup"><span data-stu-id="535aa-118">[in] A pointer to an [ADRLIST](adrlist.md) structure that contains the list of recipients.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="535aa-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="535aa-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="535aa-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="535aa-120">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="535aa-120">S_OK</span></span> 
   

@@ -45,7 +45,7 @@ HRESULT MAPIInitialize(
   
 > <span data-ttu-id="4e4b5-114">[in] Указатель на структуру [MAPIINIT_0](mapiinit_0.md) .</span><span class="sxs-lookup"><span data-stu-id="4e4b5-114">[in] Pointer to a [MAPIINIT_0](mapiinit_0.md) structure.</span></span> <span data-ttu-id="4e4b5-115">Параметр _lpMapiInit_ может иметь значение NULL.</span><span class="sxs-lookup"><span data-stu-id="4e4b5-115">The  _lpMapiInit_ parameter can be set to NULL.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4e4b5-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4e4b5-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4e4b5-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="4e4b5-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4e4b5-117">S_OK</span></span> 
   

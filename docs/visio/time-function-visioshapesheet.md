@@ -32,7 +32,7 @@ ms.locfileid: "19815044"
 | <span data-ttu-id="b4145-116">_минуты_</span><span class="sxs-lookup"><span data-stu-id="b4145-116">_minute_</span></span> <br/> |<span data-ttu-id="b4145-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="b4145-117">Required</span></span>  <br/> |<span data-ttu-id="b4145-118">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="b4145-118">**Numeric**</span></span> <br/> |<span data-ttu-id="b4145-119">Comonent минут.</span><span class="sxs-lookup"><span data-stu-id="b4145-119">The minute comonent.</span></span>  <br/> |
 | <span data-ttu-id="b4145-120">_секунды_</span><span class="sxs-lookup"><span data-stu-id="b4145-120">_second_</span></span> <br/> |<span data-ttu-id="b4145-121">Обязательный</span><span class="sxs-lookup"><span data-stu-id="b4145-121">Required</span></span>  <br/> |<span data-ttu-id="b4145-122">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="b4145-122">**Numeric**</span></span> <br/> |<span data-ttu-id="b4145-123">Второй компонент.</span><span class="sxs-lookup"><span data-stu-id="b4145-123">The second component.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="b4145-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b4145-124">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="b4145-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="b4145-125">Числовой</span><span class="sxs-lookup"><span data-stu-id="b4145-125">Numeric</span></span>
   

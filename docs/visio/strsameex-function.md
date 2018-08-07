@@ -33,7 +33,7 @@ ms.locfileid: "19814966"
 | <span data-ttu-id="45eb9-120">_localeID_</span><span class="sxs-lookup"><span data-stu-id="45eb9-120">_localeID_</span></span> <br/> |<span data-ttu-id="45eb9-121">Обязательный</span><span class="sxs-lookup"><span data-stu-id="45eb9-121">Required</span></span>  <br/> |<span data-ttu-id="45eb9-122">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="45eb9-122">**Numeric**</span></span> <br/> |<span data-ttu-id="45eb9-123">Код идентификатор языкового стандарта.</span><span class="sxs-lookup"><span data-stu-id="45eb9-123">The locale ID code.</span></span>  <br/> |
 | <span data-ttu-id="45eb9-124">_флаг_</span><span class="sxs-lookup"><span data-stu-id="45eb9-124">_flag_</span></span> <br/> |<span data-ttu-id="45eb9-125">Обязательный</span><span class="sxs-lookup"><span data-stu-id="45eb9-125">Required</span></span>  <br/> |<span data-ttu-id="45eb9-126">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="45eb9-126">**Numeric**</span></span> <br/> | <span data-ttu-id="45eb9-127">Бит, указывающий тип сравнения.</span><span class="sxs-lookup"><span data-stu-id="45eb9-127">A bit that specifies the type of comparison.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="45eb9-128">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="45eb9-128">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="45eb9-128">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="45eb9-129">Логический</span><span class="sxs-lookup"><span data-stu-id="45eb9-129">Boolean</span></span>
   

@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > <span data-ttu-id="f29d6-108">[in] Номер подключения, связанный с регистрацию active уведомлений.</span><span class="sxs-lookup"><span data-stu-id="f29d6-108">[in] A connection number associated with an active notification registration.</span></span> <span data-ttu-id="f29d6-109">Необходимо, с помощью предыдущей вызова **IMAPISession::Advise**были возвращается значение _ulConnection_ .</span><span class="sxs-lookup"><span data-stu-id="f29d6-109">The value of  _ulConnection_ must have been returned by a previous call to **IMAPISession::Advise**.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f29d6-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f29d6-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f29d6-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="f29d6-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f29d6-111">S_OK</span></span> 
   

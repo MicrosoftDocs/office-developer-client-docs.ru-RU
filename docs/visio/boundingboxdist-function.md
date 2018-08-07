@@ -33,7 +33,7 @@ ms.locfileid: "19813310"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="6d190-114">_Index_</span><span class="sxs-lookup"><span data-stu-id="6d190-114">_Index_</span></span> <br/> |<span data-ttu-id="6d190-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="6d190-115">Required</span></span>  <br/> |<span data-ttu-id="6d190-116">**Число**</span><span class="sxs-lookup"><span data-stu-id="6d190-116">**Number**</span></span> <br/> |<span data-ttu-id="6d190-117">Части фигуры ограничивающего прямоугольника измерения и возврата.</span><span class="sxs-lookup"><span data-stu-id="6d190-117">The part of the shape's bounding box to measure and return.</span></span> <span data-ttu-id="6d190-118">Возможные значения см.</span><span class="sxs-lookup"><span data-stu-id="6d190-118">See Remarks for possible values.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="6d190-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6d190-119">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="6d190-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
  <span data-ttu-id="6d190-120">**Число**</span><span class="sxs-lookup"><span data-stu-id="6d190-120">**Number**</span></span>
   

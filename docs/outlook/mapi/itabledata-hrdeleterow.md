@@ -39,7 +39,7 @@ HRESULT HrDeleteRow(
   
 > <span data-ttu-id="5182a-108">[in] Указатель на структуру значение свойства, с описанием столбца индекса для строки для удаления.</span><span class="sxs-lookup"><span data-stu-id="5182a-108">[in] A pointer to a property value structure that describes the index column for the row to be deleted.</span></span> <span data-ttu-id="5182a-109">Член **ulPropTag** структуры значение свойства должны содержать один и тот же свойство тег параметра- _ulPropTagIndexColumn_ вызов функции [CreateTable](createtable.md) .</span><span class="sxs-lookup"><span data-stu-id="5182a-109">The **ulPropTag** member of the property value structure should contain the same property tag as the  _ulPropTagIndexColumn_ parameter from the call to the [CreateTable](createtable.md) function.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="5182a-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5182a-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5182a-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="5182a-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="5182a-111">S_OK</span></span> 
   

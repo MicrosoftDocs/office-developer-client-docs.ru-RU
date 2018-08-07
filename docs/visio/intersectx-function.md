@@ -35,7 +35,7 @@ ms.locfileid: "19813965"
 | <span data-ttu-id="55d60-128">_года 2_</span><span class="sxs-lookup"><span data-stu-id="55d60-128">_y2_</span></span> <br/> |<span data-ttu-id="55d60-129">Обязательный</span><span class="sxs-lookup"><span data-stu-id="55d60-129">Required</span></span>  <br/> |<span data-ttu-id="55d60-130">**Число**</span><span class="sxs-lookup"><span data-stu-id="55d60-130">**Number**</span></span> <br/> |<span data-ttu-id="55d60-131">_Y_-координаты точки во второй строке.</span><span class="sxs-lookup"><span data-stu-id="55d60-131">The  _y_-coordinate of a point on the second line.</span></span>  <br/> |
 | <span data-ttu-id="55d60-132">_angle2_</span><span class="sxs-lookup"><span data-stu-id="55d60-132">_angle2_</span></span> <br/> |<span data-ttu-id="55d60-133">Обязательный</span><span class="sxs-lookup"><span data-stu-id="55d60-133">Required</span></span>  <br/> |<span data-ttu-id="55d60-134">**Число**</span><span class="sxs-lookup"><span data-stu-id="55d60-134">**Number**</span></span> <br/> |<span data-ttu-id="55d60-135">Значение ячейки угол для второй строке.</span><span class="sxs-lookup"><span data-stu-id="55d60-135">The value of the Angle cell for the second line.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="55d60-136">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="55d60-136">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="55d60-136">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="55d60-137">Number</span><span class="sxs-lookup"><span data-stu-id="55d60-137">Number</span></span>
   

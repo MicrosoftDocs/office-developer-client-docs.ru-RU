@@ -44,7 +44,7 @@ HRESULT GetOutgoingQueue(
   
 > <span data-ttu-id="15844-111">[out] Указатель на указатель на таблице исходящей очереди.</span><span class="sxs-lookup"><span data-stu-id="15844-111">[out] A pointer to a pointer to the outgoing queue table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="15844-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="15844-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="15844-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="15844-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="15844-113">S_OK</span></span> 
   

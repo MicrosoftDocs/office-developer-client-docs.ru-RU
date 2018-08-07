@@ -48,7 +48,7 @@ LPSPropTagArray FAR * lpPropTagArray
   
 > <span data-ttu-id="7a223-113">[out] Установите указатель на структуру [SPropTagArray](sproptagarray.md) , содержащий свойства тегов для столбца.</span><span class="sxs-lookup"><span data-stu-id="7a223-113">[out] Pointer to an [SPropTagArray](sproptagarray.md) structure containing the property tags for the column set.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="7a223-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7a223-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7a223-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="7a223-115">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7a223-115">S_OK</span></span> 
   

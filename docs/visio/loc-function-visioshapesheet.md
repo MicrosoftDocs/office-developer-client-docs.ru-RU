@@ -30,7 +30,7 @@ ms.locfileid: "19814115"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="65c9e-112">_пункт_</span><span class="sxs-lookup"><span data-stu-id="65c9e-112">_point_</span></span> <br/> |<span data-ttu-id="65c9e-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="65c9e-113">Required</span></span>  <br/> |<span data-ttu-id="65c9e-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="65c9e-114">**String**</span></span> <br/> | <span data-ttu-id="65c9e-115">Точка, определенные в локальной системе координат одной фигуры.</span><span class="sxs-lookup"><span data-stu-id="65c9e-115">A point defined in one shape's local coordinates.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="65c9e-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="65c9e-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="65c9e-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="65c9e-117">Строка</span><span class="sxs-lookup"><span data-stu-id="65c9e-117">String</span></span>
   

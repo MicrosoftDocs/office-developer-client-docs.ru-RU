@@ -85,7 +85,7 @@ HRESULT LAUNCHWIZARDENTRY(
   
 > <span data-ttu-id="f16e6-136">[out] Указатель на буфер строки, где на основании **LAUNCHWIZARDENTRY** функция возвращает имя созданного профиля.</span><span class="sxs-lookup"><span data-stu-id="f16e6-136">[out] Pointer to a string buffer where the function based on **LAUNCHWIZARDENTRY** returns the name of the created profile.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="f16e6-137">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f16e6-137">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f16e6-137">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="f16e6-138">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f16e6-138">S_OK</span></span> 
   

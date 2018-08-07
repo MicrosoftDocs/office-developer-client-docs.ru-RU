@@ -45,7 +45,7 @@ SCODE MapStorageSCode(
   
 > <span data-ttu-id="b7d37-114">[in] Возвращаемое значение MAPI SCODE из объекта хранения для сопоставления с значение HRESULT.</span><span class="sxs-lookup"><span data-stu-id="b7d37-114">[in] MAPI SCODE return value from an OLE storage object to be mapped to a HRESULT value.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="b7d37-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b7d37-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b7d37-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="b7d37-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="b7d37-116">S_OK</span></span> 
   

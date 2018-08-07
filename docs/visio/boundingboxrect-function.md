@@ -33,7 +33,7 @@ ms.locfileid: "19813305"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="c6cb0-114">_Index_</span><span class="sxs-lookup"><span data-stu-id="c6cb0-114">_Index_</span></span> <br/> |<span data-ttu-id="c6cb0-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="c6cb0-115">Required</span></span>  <br/> |<span data-ttu-id="c6cb0-116">**Integer**</span><span class="sxs-lookup"><span data-stu-id="c6cb0-116">**Integer**</span></span> <br/> |<span data-ttu-id="c6cb0-117">Край фигуры прямоугольника для которого необходимо получить координаты.</span><span class="sxs-lookup"><span data-stu-id="c6cb0-117">The edge of the shape's bounding box for which to get the coordinate.</span></span> <span data-ttu-id="c6cb0-118">Возможные значения см.</span><span class="sxs-lookup"><span data-stu-id="c6cb0-118">See Remarks for possible values.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="c6cb0-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c6cb0-119">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c6cb0-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
  <span data-ttu-id="c6cb0-120">**Число**</span><span class="sxs-lookup"><span data-stu-id="c6cb0-120">**Number**</span></span>
   

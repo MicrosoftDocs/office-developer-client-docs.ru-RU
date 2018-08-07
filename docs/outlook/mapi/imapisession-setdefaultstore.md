@@ -69,7 +69,7 @@ HRESULT SetDefaultStore(
   
 > <span data-ttu-id="94aeb-129">[in] Указатель на идентификатор записи хранилища сообщений, предназначенного по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="94aeb-129">[in] A pointer to the entry identifier of the message store that is intended as the default.</span></span> <span data-ttu-id="94aeb-130">Если клиент передает значение NULL в _lpEntryID_, без хранилища сообщений будет установлен по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="94aeb-130">If a client passes NULL in  _lpEntryID_, no message store is selected as the default.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="94aeb-131">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="94aeb-131">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="94aeb-131">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="94aeb-132">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="94aeb-132">S_OK</span></span> 
   

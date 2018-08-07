@@ -24,7 +24,7 @@ ms.locfileid: "19814359"
 
 <span data-ttu-id="e1796-106">(PI)</span><span class="sxs-lookup"><span data-stu-id="e1796-106">PI( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="e1796-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e1796-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e1796-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="e1796-108">Number</span><span class="sxs-lookup"><span data-stu-id="e1796-108">Number</span></span>
   

@@ -60,7 +60,7 @@ SCODE ScDupPropset(
   
 > <span data-ttu-id="921f7-120">[out] Указатель на начальное положение в памяти хранения дублируемые возвращенный массив структур **SPropValue** .</span><span class="sxs-lookup"><span data-stu-id="921f7-120">[out] Pointer to the initial position in memory where the returned duplicated array of **SPropValue** structures is stored.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="921f7-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="921f7-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="921f7-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="921f7-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="921f7-122">S_OK</span></span> 
   

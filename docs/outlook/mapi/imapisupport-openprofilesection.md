@@ -57,7 +57,7 @@ LPPROFSECT FAR * lppProfileObj
   
 > <span data-ttu-id="a3b4b-120">[out] Указатель на указатель на раздел открыт профилей.</span><span class="sxs-lookup"><span data-stu-id="a3b4b-120">[out] A pointer to a pointer to the opened profile section.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="a3b4b-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a3b4b-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a3b4b-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="a3b4b-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a3b4b-122">S_OK</span></span> 
   

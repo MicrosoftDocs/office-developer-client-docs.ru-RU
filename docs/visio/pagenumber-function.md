@@ -24,7 +24,7 @@ ms.locfileid: "19814339"
 
 <span data-ttu-id="4ad1d-106">PAGENUMBER()</span><span class="sxs-lookup"><span data-stu-id="4ad1d-106">PAGENUMBER()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="4ad1d-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4ad1d-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="4ad1d-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="4ad1d-108">Number</span><span class="sxs-lookup"><span data-stu-id="4ad1d-108">Number</span></span>
   

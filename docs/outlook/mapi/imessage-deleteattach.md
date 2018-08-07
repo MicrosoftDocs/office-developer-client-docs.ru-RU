@@ -58,7 +58,7 @@ ULONG ulFlags
   
 > <span data-ttu-id="66098-121">Запрос на отображение индикатор выполнения как операция продолжается.</span><span class="sxs-lookup"><span data-stu-id="66098-121">Requests the display of a progress indicator as the operation proceeds.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="66098-122">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="66098-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="66098-122">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="66098-123">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="66098-123">S_OK</span></span> 
   

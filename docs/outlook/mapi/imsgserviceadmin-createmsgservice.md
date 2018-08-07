@@ -70,7 +70,7 @@ HRESULT CreateMsgService(
   
 > <span data-ttu-id="24656-128">Служба сообщений отображается окно свойств конфигурации.</span><span class="sxs-lookup"><span data-stu-id="24656-128">The message service displays its configuration property sheet.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="24656-129">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="24656-129">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="24656-129">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="24656-130">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="24656-130">S_OK</span></span> 
   

@@ -30,7 +30,7 @@ ms.locfileid: "19814122"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="c237c-112">_cellref_</span><span class="sxs-lookup"><span data-stu-id="c237c-112">_cellref_</span></span> <br/> |<span data-ttu-id="c237c-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="c237c-113">Required</span></span>  <br/> |<span data-ttu-id="c237c-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="c237c-114">**String**</span></span> <br/> | <span data-ttu-id="c237c-115">Ячейка, необходимо проверить наличие формулы.</span><span class="sxs-lookup"><span data-stu-id="c237c-115">The cell that you want to check for the presence of a formula.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="c237c-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c237c-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c237c-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="c237c-117">Логический</span><span class="sxs-lookup"><span data-stu-id="c237c-117">Boolean</span></span>
   

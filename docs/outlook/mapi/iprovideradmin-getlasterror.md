@@ -53,7 +53,7 @@ HRESULT GetLastError(
   
 > <span data-ttu-id="8e76e-116">[out] Указатель на указатель на структуру возвращенные **MAPIERROR** , версии, компонент и контекста сведения об ошибке.</span><span class="sxs-lookup"><span data-stu-id="8e76e-116">[out] A pointer to a pointer to the returned **MAPIERROR** structure that contains version, component, and context information for the error.</span></span> <span data-ttu-id="8e76e-117">Параметр _lppMAPIError_ может быть присвоено значение NULL, если нет **MAPIERROR** для возврата.</span><span class="sxs-lookup"><span data-stu-id="8e76e-117">The  _lppMAPIError_ parameter can be set to NULL if there is no **MAPIERROR** to return.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="8e76e-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8e76e-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8e76e-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="8e76e-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="8e76e-119">S_OK</span></span> 
   

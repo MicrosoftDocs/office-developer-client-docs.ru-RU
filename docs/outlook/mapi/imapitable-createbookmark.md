@@ -39,7 +39,7 @@ BOOKMARK FAR * lpbkPosition
   
 > <span data-ttu-id="30a93-108">[out] Указатель на значение возвращенные закладки 32-разрядная версия.</span><span class="sxs-lookup"><span data-stu-id="30a93-108">[out] Pointer to the returned 32-bit bookmark value.</span></span> <span data-ttu-id="30a93-109">В этом закладку более поздней версии может быть передан в вызове метода [IMAPITable::SeekRow](imapitable-seekrow.md) .</span><span class="sxs-lookup"><span data-stu-id="30a93-109">This bookmark can later be passed in a call to the [IMAPITable::SeekRow](imapitable-seekrow.md) method.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="30a93-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="30a93-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="30a93-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="30a93-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="30a93-111">S_OK</span></span> 
   

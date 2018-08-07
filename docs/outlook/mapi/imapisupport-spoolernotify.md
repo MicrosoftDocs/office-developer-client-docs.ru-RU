@@ -82,7 +82,7 @@ LPVOID lpvData
 |<span data-ttu-id="ee821-143">NOTIFY_NEWMAIL_RECEIVED</span><span class="sxs-lookup"><span data-stu-id="ee821-143">NOTIFY_NEWMAIL_RECEIVED</span></span>  <br/> |<span data-ttu-id="ee821-144">Структура **NEWMAIL_NOTIFICATION** , содержащая сведения о вновь доставлено сообщение.</span><span class="sxs-lookup"><span data-stu-id="ee821-144">A **NEWMAIL_NOTIFICATION** structure that contains information about the newly delivered message.</span></span>  <br/> |
 |<span data-ttu-id="ee821-145">NOTIFY_SENTDEFERRED</span><span class="sxs-lookup"><span data-stu-id="ee821-145">NOTIFY_SENTDEFERRED</span></span>  <br/> |<span data-ttu-id="ee821-146">Структура **SBinary** , содержащая идентификатор записи отложенные сообщения.</span><span class="sxs-lookup"><span data-stu-id="ee821-146">An **SBinary** structure that contains the entry identifier of deferred message.</span></span>  <br/> |
    
-## <a name="return-value"></a><span data-ttu-id="ee821-147">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="ee821-147">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ee821-147">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="ee821-148">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="ee821-148">S_OK</span></span> 
   

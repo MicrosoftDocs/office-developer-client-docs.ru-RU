@@ -39,7 +39,7 @@ HRESULT GetClassID(
   
 > <span data-ttu-id="77dde-108">[in, out] Указатель на идентификатор класса (CLSID) формы.</span><span class="sxs-lookup"><span data-stu-id="77dde-108">[in, out] A pointer to the class identifier (CLSID) of the form.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="77dde-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="77dde-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="77dde-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="77dde-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="77dde-110">S_OK</span></span> 
   

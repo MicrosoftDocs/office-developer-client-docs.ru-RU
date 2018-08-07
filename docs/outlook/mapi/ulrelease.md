@@ -45,7 +45,7 @@ ULONG UlRelease(
   
 > <span data-ttu-id="96d0b-114">[in] Указатель на интерфейс на основе интерфейс **IUnknown** другими словами любого интерфейса MAPI.</span><span class="sxs-lookup"><span data-stu-id="96d0b-114">[in] Pointer to an interface derived from the **IUnknown** interface, in other words any MAPI interface.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="96d0b-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="96d0b-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="96d0b-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="96d0b-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="96d0b-116">S_OK</span></span> 
   

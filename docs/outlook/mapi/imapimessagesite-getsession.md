@@ -39,7 +39,7 @@ HRESULT GetSession(
   
 > <span data-ttu-id="6ea0b-108">[out] Указатель на указатель на объект возвращенные сеанса.</span><span class="sxs-lookup"><span data-stu-id="6ea0b-108">[out] A pointer to a pointer to the returned session object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6ea0b-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6ea0b-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6ea0b-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="6ea0b-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="6ea0b-110">S_OK</span></span> 
   

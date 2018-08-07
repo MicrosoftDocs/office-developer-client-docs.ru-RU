@@ -30,7 +30,7 @@ Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
 
 <span data-ttu-id="6e521-108">Эта функция не содержит аргументов.</span><span class="sxs-lookup"><span data-stu-id="6e521-108">This function has no arguments.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="6e521-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6e521-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6e521-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="6e521-110">Если функция выполняется в процессе Excel, возвращает 0 в **XLOPER12** из типа **xlTypeInt**.</span><span class="sxs-lookup"><span data-stu-id="6e521-110">If the function is running in an Excel process, returns 0 in an **XLOPER12** of type **xlTypeInt**.</span></span> <span data-ttu-id="6e521-111">Если функция выполняется в кластере, тип возвращаемого значения и значение определяется поставщиком соединитель кластера.</span><span class="sxs-lookup"><span data-stu-id="6e521-111">If the function is running on a cluster, the return type and value is determined by the cluster connector provider.</span></span>
   

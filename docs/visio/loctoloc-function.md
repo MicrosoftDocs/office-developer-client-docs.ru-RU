@@ -32,7 +32,7 @@ ms.locfileid: "19814181"
 | <span data-ttu-id="2a4bb-116">_srcRef_</span><span class="sxs-lookup"><span data-stu-id="2a4bb-116">_srcRef_</span></span> <br/> |<span data-ttu-id="2a4bb-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="2a4bb-117">Required</span></span>  <br/> |<span data-ttu-id="2a4bb-118">**Строка**</span><span class="sxs-lookup"><span data-stu-id="2a4bb-118">**String**</span></span> <br/> | <span data-ttu-id="2a4bb-119">Ссылка на ячейку в объекте источника.</span><span class="sxs-lookup"><span data-stu-id="2a4bb-119">A reference to a cell in the source object.</span></span>  <br/> |
 | <span data-ttu-id="2a4bb-120">_dstRef_</span><span class="sxs-lookup"><span data-stu-id="2a4bb-120">_dstRef_</span></span> <br/> |<span data-ttu-id="2a4bb-121">Обязательный</span><span class="sxs-lookup"><span data-stu-id="2a4bb-121">Required</span></span>  <br/> |<span data-ttu-id="2a4bb-122">**Строка**</span><span class="sxs-lookup"><span data-stu-id="2a4bb-122">**String**</span></span> <br/> | <span data-ttu-id="2a4bb-123">Ссылка на ячейку в целевой объект.</span><span class="sxs-lookup"><span data-stu-id="2a4bb-123">A reference to a cell in the destination object.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="2a4bb-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2a4bb-124">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="2a4bb-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="2a4bb-125">Строка</span><span class="sxs-lookup"><span data-stu-id="2a4bb-125">String</span></span>
   

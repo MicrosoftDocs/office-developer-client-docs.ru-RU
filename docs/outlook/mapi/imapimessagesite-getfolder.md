@@ -39,7 +39,7 @@ HRESULT GetFolder(
   
 > <span data-ttu-id="bd10c-109">[out] Указатель на указатель на папку возвращенные.</span><span class="sxs-lookup"><span data-stu-id="bd10c-109">[out] A pointer to a pointer to the returned folder.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="bd10c-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="bd10c-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bd10c-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="bd10c-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="bd10c-111">S_OK</span></span> 
   

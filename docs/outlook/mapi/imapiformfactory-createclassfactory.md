@@ -49,7 +49,7 @@ HRESULT CreateClassFactory(
   
 > <span data-ttu-id="10a39-112">[out] Указатель на объект фабрики класса.</span><span class="sxs-lookup"><span data-stu-id="10a39-112">[out] A pointer to the class factory object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="10a39-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="10a39-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="10a39-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="10a39-114">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="10a39-114">S_OK</span></span> 
   

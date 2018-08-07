@@ -54,7 +54,7 @@ HRESULT OnActivateNext(
   
 > <span data-ttu-id="fa4be-114">[out] Указатель на указатель на реализацию [IPersistMessage](ipersistmessageiunknown.md) для объекта формы, используются для новой формы, если требуется новая форма.</span><span class="sxs-lookup"><span data-stu-id="fa4be-114">[out] A pointer to a pointer to the [IPersistMessage](ipersistmessageiunknown.md) implementation for the form object used for the new form, if a new form is required.</span></span> <span data-ttu-id="fa4be-115">Могут быть возвращены указатель на значение NULL, если текущий объект формы можно использовать для отображения и сохраните следующее сообщение.</span><span class="sxs-lookup"><span data-stu-id="fa4be-115">A pointer to NULL can be returned if the current form object can be used to display and save the next message.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="fa4be-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="fa4be-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="fa4be-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="fa4be-117">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="fa4be-117">S_OK</span></span> 
   

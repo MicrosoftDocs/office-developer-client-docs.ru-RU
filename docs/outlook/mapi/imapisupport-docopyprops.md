@@ -91,7 +91,7 @@ HRESULT DoCopyProps(
   
 > <span data-ttu-id="52fba-136">[in, out] На входе указатель указатель на структуру [SPropProblemArray](spropproblemarray.md) ; в противном случае — значение NULL, указывает, не требуется выполнять сведения об ошибке.</span><span class="sxs-lookup"><span data-stu-id="52fba-136">[in, out] On input, a pointer to a pointer to an [SPropProblemArray](spropproblemarray.md) structure; otherwise, NULL, which indicates no need for error information.</span></span> <span data-ttu-id="52fba-137">Если _lppProblems_ допустимый указатель на входные данные, **DoCopyProps** возвращает подробные сведения об ошибках в копирование одного или нескольких свойств.</span><span class="sxs-lookup"><span data-stu-id="52fba-137">If  _lppProblems_ is a valid pointer on input, **DoCopyProps** returns detailed information about errors in copying one or more properties.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="52fba-138">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="52fba-138">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="52fba-138">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="52fba-139">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="52fba-139">S_OK</span></span> 
   

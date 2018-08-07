@@ -35,7 +35,7 @@ ms.locfileid: "19814289"
 | <span data-ttu-id="63763-118">_x_</span><span class="sxs-lookup"><span data-stu-id="63763-118">_x_</span></span> <br/> |<span data-ttu-id="63763-119">Обязательный</span><span class="sxs-lookup"><span data-stu-id="63763-119">Required</span></span>  <br/> |<span data-ttu-id="63763-120">**Double**</span><span class="sxs-lookup"><span data-stu-id="63763-120">**Double**</span></span> <br/> |<span data-ttu-id="63763-121">_X_-координата указанный момент.</span><span class="sxs-lookup"><span data-stu-id="63763-121">The  _x_-coordinate of the specified point.</span></span>  <br/> |
 | <span data-ttu-id="63763-122">_y_</span><span class="sxs-lookup"><span data-stu-id="63763-122">_y_</span></span> <br/> |<span data-ttu-id="63763-123">Обязательный</span><span class="sxs-lookup"><span data-stu-id="63763-123">Required</span></span>  <br/> |<span data-ttu-id="63763-124">**Double**</span><span class="sxs-lookup"><span data-stu-id="63763-124">**Double**</span></span> <br/> |<span data-ttu-id="63763-125">_Y_-координата указанный момент.</span><span class="sxs-lookup"><span data-stu-id="63763-125">The  _y_-coordinate of the specified point.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="63763-126">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="63763-126">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="63763-126">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
  <span data-ttu-id="63763-127">**Double**</span><span class="sxs-lookup"><span data-stu-id="63763-127">**Double**</span></span>
   

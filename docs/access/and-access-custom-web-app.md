@@ -24,7 +24,7 @@ ms.locfileid: "19806961"
 
  <span data-ttu-id="10a6c-108">*boolean_expression* **AND** *boolean_expression*</span><span class="sxs-lookup"><span data-stu-id="10a6c-108">*boolean_expression* **AND** *boolean_expression*</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="10a6c-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="10a6c-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="10a6c-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="10a6c-110">Возвращает значение TRUE, если оба выражения имеют значение TRUE.</span><span class="sxs-lookup"><span data-stu-id="10a6c-110">Returns TRUE when both expressions are TRUE.</span></span>
   

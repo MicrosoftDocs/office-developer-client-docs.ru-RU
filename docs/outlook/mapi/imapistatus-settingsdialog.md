@@ -48,7 +48,7 @@ HRESULT SettingsDialog(
   
 > <span data-ttu-id="efc25-113">Предполагает, что поставщик не следует включать пользователям изменять свойства конфигурации.</span><span class="sxs-lookup"><span data-stu-id="efc25-113">Suggests that the provider should not enable users to change configuration properties.</span></span> <span data-ttu-id="efc25-114">Этот флаг является всего лишь предложением; его можно пропустить.</span><span class="sxs-lookup"><span data-stu-id="efc25-114">This flag is only a suggestion; it can be ignored.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="efc25-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="efc25-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="efc25-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="efc25-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="efc25-116">S_OK</span></span> 
   

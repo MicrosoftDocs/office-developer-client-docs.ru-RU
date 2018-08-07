@@ -94,7 +94,7 @@ STDAPI BuildDisplayTable(
   
 > <span data-ttu-id="965a8-136">[in, out] Указатель на указатель на объект данных в таблице, предоставление интерфейс [ITableData](itabledataiunknown.md) в таблице, возвращаемой в параметре _lppTable_ .</span><span class="sxs-lookup"><span data-stu-id="965a8-136">[in, out] Pointer to a pointer to a table data object exposing the [ITableData](itabledataiunknown.md) interface on the table returned in the  _lppTable_ parameter.</span></span> <span data-ttu-id="965a8-137">В случае необходимости объект данных не в таблице _lppTblData_ должно быть присвоено значение NULL вместо значение указателя.</span><span class="sxs-lookup"><span data-stu-id="965a8-137">If no table data object is desired,  _lppTblData_ should be set to NULL instead of a pointer value.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="965a8-138">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="965a8-138">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="965a8-138">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="965a8-139">Нет</span><span class="sxs-lookup"><span data-stu-id="965a8-139">None</span></span>
   

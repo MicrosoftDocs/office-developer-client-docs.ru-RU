@@ -33,7 +33,7 @@ ms.locfileid: "19813896"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="eb4bf-114">_category_</span><span class="sxs-lookup"><span data-stu-id="eb4bf-114">_category_</span></span> <br/> |<span data-ttu-id="eb4bf-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="eb4bf-115">Required</span></span>  <br/> |<span data-ttu-id="eb4bf-116">**Строка**</span><span class="sxs-lookup"><span data-stu-id="eb4bf-116">**String**</span></span> <br/> |<span data-ttu-id="eb4bf-117">Категории, которую требуется найти.</span><span class="sxs-lookup"><span data-stu-id="eb4bf-117">The category to search for.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="eb4bf-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="eb4bf-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="eb4bf-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
  <span data-ttu-id="eb4bf-119">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="eb4bf-119">**Boolean**</span></span>
   

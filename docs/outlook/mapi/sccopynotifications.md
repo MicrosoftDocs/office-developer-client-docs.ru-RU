@@ -60,7 +60,7 @@ SCODE ScCopyNotifications(
   
 > <span data-ttu-id="31f5e-120">[out] Необязательный указатель на переменную, где размер в байтах, массива, на который указывает с помощью параметра _rgntf_ сохраняется.</span><span class="sxs-lookup"><span data-stu-id="31f5e-120">[out] Optional pointer to a variable where the size, in bytes, of the array pointed to by the  _rgntf_ parameter is stored.</span></span> <span data-ttu-id="31f5e-121">Если это не имеет значение NULL, параметр _печатной_ число байтов, сохраненных в параметре _pvDst_ .</span><span class="sxs-lookup"><span data-stu-id="31f5e-121">If not NULL, the  _pcb_ parameter is set to the number of bytes stored in the  _pvDst_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="31f5e-122">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="31f5e-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="31f5e-122">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="31f5e-123">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="31f5e-123">S_OK</span></span>
   

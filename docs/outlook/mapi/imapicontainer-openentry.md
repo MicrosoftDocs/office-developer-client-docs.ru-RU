@@ -80,7 +80,7 @@ HRESULT OpenEntry(
   
 > <span data-ttu-id="202db-134">[out] Указатель на указатель на реализации интерфейса для доступа к объекту open.</span><span class="sxs-lookup"><span data-stu-id="202db-134">[out] A pointer to a pointer to the interface implementation to use to access the open object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="202db-135">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="202db-135">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="202db-135">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="202db-136">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="202db-136">S_OK</span></span> 
   

@@ -43,7 +43,7 @@ HRESULT SubmitMessage(
   
 > <span data-ttu-id="10b18-111">MAPI следует отправить сообщение немедленно.</span><span class="sxs-lookup"><span data-stu-id="10b18-111">MAPI should submit the message immediately.</span></span> <span data-ttu-id="10b18-112">Этот флаг не в настоящее время используется.</span><span class="sxs-lookup"><span data-stu-id="10b18-112">This flag is not currently in use.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="10b18-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="10b18-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="10b18-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="10b18-114">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="10b18-114">S_OK</span></span> 
   

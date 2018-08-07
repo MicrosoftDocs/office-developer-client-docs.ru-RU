@@ -103,7 +103,7 @@ HRESULT Advise(
   
 > <span data-ttu-id="2992e-143">[out] Указатель на подключение ненулевое число, представляющее соединение между вызывающего абонента уведомить объект приемника и хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="2992e-143">[out] A pointer to a nonzero connection number that represents the connection between the caller's advise sink object and the message store.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2992e-144">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="2992e-144">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2992e-144">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="2992e-145">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="2992e-145">S_OK</span></span> 
   

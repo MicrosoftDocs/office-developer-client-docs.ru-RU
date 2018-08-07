@@ -95,7 +95,7 @@ HRESULT Advise(
   
 > <span data-ttu-id="0aa63-137">[out] Указатель на ненулевое число, представляющее соединение между вызывающего абонента уведомить объект приемника и сеанса.</span><span class="sxs-lookup"><span data-stu-id="0aa63-137">[out] A pointer to a nonzero number that represents the connection between the caller's advise sink object and the session.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0aa63-138">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0aa63-138">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0aa63-138">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="0aa63-139">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="0aa63-139">S_OK</span></span> 
   

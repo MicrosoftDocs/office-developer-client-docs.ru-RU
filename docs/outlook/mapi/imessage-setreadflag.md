@@ -49,7 +49,7 @@ HRESULT SetReadFlag(
       
   - <span data-ttu-id="80ca9-115">SUPPRESS_RECEIPT: Ожидающие чтения отчета должна быть отменена Если запрошен чтения отчета, и этот вызов изменяет состояние сообщения из непрочитанные сообщения для чтения.</span><span class="sxs-lookup"><span data-stu-id="80ca9-115">SUPPRESS_RECEIPT: A pending read report should be canceled if a read report had been requested and this call changes the state of the message from unread to read.</span></span> <span data-ttu-id="80ca9-116">Если этот вызов не изменяет состояние сообщения, поставщик хранения сообщений можно игнорировать этот флаг.</span><span class="sxs-lookup"><span data-stu-id="80ca9-116">If this call does not change the state of the message, the message store provider can ignore this flag.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="80ca9-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="80ca9-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="80ca9-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="80ca9-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="80ca9-118">S_OK</span></span> 
   

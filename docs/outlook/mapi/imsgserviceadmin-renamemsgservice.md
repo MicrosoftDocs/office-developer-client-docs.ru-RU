@@ -49,7 +49,7 @@ HRESULT RenameMsgService(
   
 > <span data-ttu-id="260c5-113">[in] Указатель на новое имя для службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="260c5-113">[in] A pointer to the new name for the message service.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="260c5-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="260c5-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="260c5-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="260c5-115">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="260c5-115">MAPI_E_NO_SUPPORT</span></span> 
   

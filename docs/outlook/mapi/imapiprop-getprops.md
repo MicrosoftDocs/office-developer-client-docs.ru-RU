@@ -58,7 +58,7 @@ HRESULT GetProps(
   
 > <span data-ttu-id="f7a2a-120">[out] Указатель на указатель на извлеченное свойство значения.</span><span class="sxs-lookup"><span data-stu-id="f7a2a-120">[out] A pointer to a pointer to the retrieved property values.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f7a2a-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f7a2a-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f7a2a-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="f7a2a-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f7a2a-122">S_OK</span></span> 
   

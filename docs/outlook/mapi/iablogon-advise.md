@@ -68,7 +68,7 @@ HRESULT Advise(
   
 > <span data-ttu-id="9dad2-132">[out] Указатель на ненулевое значение, представляющее регистрации уведомлений.</span><span class="sxs-lookup"><span data-stu-id="9dad2-132">[out] A pointer to a nonzero value that represents the notification registration.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="9dad2-133">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9dad2-133">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9dad2-133">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="9dad2-134">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="9dad2-134">S_OK</span></span> 
   

@@ -38,7 +38,7 @@ LPADRBOOK pab);
   
 > <span data-ttu-id="4a48b-108">[in] Указатель на [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) интерфейс для использования в MAPI для преобразования MIME.</span><span class="sxs-lookup"><span data-stu-id="4a48b-108">[in] Pointer to an [IAddrBook : IMAPIProp](iaddrbookimapiprop.md) interface to be used in the MAPI to MIME conversion.</span></span> <span data-ttu-id="4a48b-109">Присвойте этому параметру значение **null** , если нет необходимости в адресной книге; Это освобождает интерфейс и сбрасывает преобразователь не, используя любой адресной книги.</span><span class="sxs-lookup"><span data-stu-id="4a48b-109">Set this parameter to **null** when you no longer need the Address Book; this releases the interface and resets the converter to not using any Address Book.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4a48b-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4a48b-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4a48b-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="4a48b-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4a48b-111">S_OK</span></span>
   

@@ -35,7 +35,7 @@ HRESULT OnSubmitted( void );
 
 <span data-ttu-id="e2073-107">Нет</span><span class="sxs-lookup"><span data-stu-id="e2073-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="e2073-108">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e2073-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e2073-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="e2073-109">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e2073-109">S_OK</span></span> 
   

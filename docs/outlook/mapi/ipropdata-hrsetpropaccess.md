@@ -49,7 +49,7 @@ HRESULT HrSetPropAccess(
 |<span data-ttu-id="0cb23-117">IPROP_READONLY, это означает, что свойство не может изменить</span><span class="sxs-lookup"><span data-stu-id="0cb23-117">IPROP_READONLY, which indicates that the property cannot be modified</span></span>  <br/> |<span data-ttu-id="0cb23-118">IPROP_CLEAN, это означает, что свойство не были изменены.</span><span class="sxs-lookup"><span data-stu-id="0cb23-118">IPROP_CLEAN, which indicates that the property has not been modified.</span></span>  <br/> |
 |<span data-ttu-id="0cb23-119">IPROP_READWRITE, это означает, что свойство может быть изменено.</span><span class="sxs-lookup"><span data-stu-id="0cb23-119">IPROP_READWRITE, which indicates that the property can be modified.</span></span>  <br/> |<span data-ttu-id="0cb23-120">IPROP_DIRTY, это означает, что свойство были изменены.</span><span class="sxs-lookup"><span data-stu-id="0cb23-120">IPROP_DIRTY, which indicates that the property has been modified.</span></span>  <br/> |
    
-## <a name="return-value"></a><span data-ttu-id="0cb23-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0cb23-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0cb23-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="0cb23-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="0cb23-122">S_OK</span></span> 
   

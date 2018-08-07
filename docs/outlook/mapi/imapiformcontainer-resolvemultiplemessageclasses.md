@@ -53,7 +53,7 @@ HRESULT ResolveMultipleMessageClasses(
   
 > <span data-ttu-id="5fe63-116">[out] Указатель на указатель на массив объектов данные формы.</span><span class="sxs-lookup"><span data-stu-id="5fe63-116">[out] A pointer to a pointer to an array of form information objects.</span></span> <span data-ttu-id="5fe63-117">Если клиентское приложение с помощью параметра _pMsgClassArray_ передает значение NULL, параметр _ppfrminfoarray_ содержит объекты формы для всех форм в контейнере.</span><span class="sxs-lookup"><span data-stu-id="5fe63-117">If a client application passes NULL in the  _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="5fe63-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5fe63-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5fe63-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="5fe63-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="5fe63-119">S_OK</span></span> 
   

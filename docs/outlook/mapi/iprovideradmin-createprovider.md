@@ -66,7 +66,7 @@ HRESULT CreateProvider(
   
 > <span data-ttu-id="05989-123">[out] Указатель на структуру [MAPIUID](mapiuid.md) , содержащую уникальный идентификатор, представляющий поставщика для добавления.</span><span class="sxs-lookup"><span data-stu-id="05989-123">[out] A pointer to the [MAPIUID](mapiuid.md) structure that contains the unique identifier that represents the provider to add.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="05989-124">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="05989-124">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="05989-124">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="05989-125">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="05989-125">S_OK</span></span> 
   

@@ -50,7 +50,7 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
   
 > <span data-ttu-id="4da6a-118">[in] Указатель произвольных значение передается функции обратного вызова, когда она вызывается средствами MAPI.</span><span class="sxs-lookup"><span data-stu-id="4da6a-118">[in] Pointer to an arbitrary value passed to the callback function when MAPI calls it.</span></span> <span data-ttu-id="4da6a-119">Это значение может представлять адрес важности для клиентского приложения.</span><span class="sxs-lookup"><span data-stu-id="4da6a-119">This value can represent an address of significance to the client application.</span></span> <span data-ttu-id="4da6a-120">Обычно для кода C++ _lpvContext_ — это указатель на адрес экземпляр объекта C++.</span><span class="sxs-lookup"><span data-stu-id="4da6a-120">Typically, for C++ code,  _lpvContext_ is a pointer to the address of a C++ object instance.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4da6a-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4da6a-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4da6a-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="4da6a-122">Нет</span><span class="sxs-lookup"><span data-stu-id="4da6a-122">None</span></span>
   

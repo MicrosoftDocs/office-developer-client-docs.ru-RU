@@ -39,7 +39,7 @@ ULONG_PTR ulConnection
   
 > <span data-ttu-id="c70e5-108">[in] Число подключений к регистрации, возвращаемых вызовом [IMAPITable::Advise](imapitable-advise.md).</span><span class="sxs-lookup"><span data-stu-id="c70e5-108">[in] The number of the registration connection returned by a call to [IMAPITable::Advise](imapitable-advise.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c70e5-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c70e5-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c70e5-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="c70e5-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c70e5-110">S_OK</span></span> 
   

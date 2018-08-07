@@ -61,7 +61,7 @@ LPSTREAM FAR * ppstm
   
 > <span data-ttu-id="49c3e-121">[out] Указатель на указатель в поток, который будет содержать сохраненное сообщение.</span><span class="sxs-lookup"><span data-stu-id="49c3e-121">[out] Pointer to a pointer to the stream that will contain the saved message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="49c3e-122">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="49c3e-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="49c3e-122">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="49c3e-123">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="49c3e-123">S_OK</span></span> 
   

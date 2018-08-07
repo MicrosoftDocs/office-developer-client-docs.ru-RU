@@ -44,7 +44,7 @@ ULONG ulDenominator
   
 > <span data-ttu-id="141c6-112">[in] Указатель на делителя дроби, представляющее позицию в таблице.</span><span class="sxs-lookup"><span data-stu-id="141c6-112">[in] Pointer to the denominator of the fraction representing the table position.</span></span> <span data-ttu-id="141c6-113">Параметр _ulDenominator_ не может быть равно нулю.</span><span class="sxs-lookup"><span data-stu-id="141c6-113">The  _ulDenominator_ parameter cannot be zero.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="141c6-114">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="141c6-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="141c6-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4">Return value</span></span>
 
 <span data-ttu-id="141c6-115">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="141c6-115">S_OK</span></span> 
   

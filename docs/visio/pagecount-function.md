@@ -24,7 +24,7 @@ ms.locfileid: "19814337"
 
 <span data-ttu-id="839a7-106">(PAGECOUNT)</span><span class="sxs-lookup"><span data-stu-id="839a7-106">PAGECOUNT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="839a7-107">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="839a7-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="839a7-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="839a7-108">Number</span><span class="sxs-lookup"><span data-stu-id="839a7-108">Number</span></span>
   

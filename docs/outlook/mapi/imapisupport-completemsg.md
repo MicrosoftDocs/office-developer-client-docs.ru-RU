@@ -49,7 +49,7 @@ HRESULT CompleteMsg(
   
 > <span data-ttu-id="b913e-112">[in] Указатель на идентификатор записи сообщения для обработки.</span><span class="sxs-lookup"><span data-stu-id="b913e-112">[in] A pointer to the entry identifier of the message to process.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="b913e-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="b913e-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b913e-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3">Return value</span></span>
 
 <span data-ttu-id="b913e-114">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="b913e-114">S_OK</span></span> 
   

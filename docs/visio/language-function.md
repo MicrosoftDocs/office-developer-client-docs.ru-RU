@@ -33,7 +33,7 @@ ms.locfileid: "19814052"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="9cc04-116">_lcid_or_bcp47_</span><span class="sxs-lookup"><span data-stu-id="9cc04-116">_lcid_or_bcp47_</span></span> <br/> |<span data-ttu-id="9cc04-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="9cc04-117">Required</span></span>  <br/> |<span data-ttu-id="9cc04-118">**Строка**</span><span class="sxs-lookup"><span data-stu-id="9cc04-118">**String**</span></span> <br/> |<span data-ttu-id="9cc04-119">Код языка или BCP 47 значение языка.</span><span class="sxs-lookup"><span data-stu-id="9cc04-119">The LCID or BCP 47 value for the language.</span></span>  <br/> |
    
-## <a name="return-value"></a><span data-ttu-id="9cc04-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="9cc04-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9cc04-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="9cc04-121">Целое число</span><span class="sxs-lookup"><span data-stu-id="9cc04-121">Integer</span></span>
   

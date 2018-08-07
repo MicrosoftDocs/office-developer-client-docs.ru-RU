@@ -39,7 +39,7 @@ HRESULT NotifyNewMail(
   
 > <span data-ttu-id="1f05c-109">[in] ��������� �� ��������� [�����������](notification.md) � ��������� ����������� � ��������� ���������.</span><span class="sxs-lookup"><span data-stu-id="1f05c-109">[in] A pointer to a [NOTIFICATION](notification.md) structure that describes the new message notification.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1f05c-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="1f05c-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1f05c-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="1f05c-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="1f05c-111">S_OK</span></span> 
   

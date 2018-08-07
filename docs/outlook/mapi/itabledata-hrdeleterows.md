@@ -53,7 +53,7 @@ HRESULT HrDeleteRows(
   
 > <span data-ttu-id="e7aac-116">[out] Число удаленных строк.</span><span class="sxs-lookup"><span data-stu-id="e7aac-116">[out] The count of the deleted rows.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e7aac-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="e7aac-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e7aac-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="e7aac-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="e7aac-118">S_OK</span></span> 
   

@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > <span data-ttu-id="03518-108">[in] Номер подключения, связанный с регистрацию active уведомлений.</span><span class="sxs-lookup"><span data-stu-id="03518-108">[in] The connection number associated with an active notification registration.</span></span> <span data-ttu-id="03518-109">Предыдущий вызов **уведомлений** необходимо возвращается значение _ulConnection_.</span><span class="sxs-lookup"><span data-stu-id="03518-109">A previous call to **Advise** must have returned the value of  _ulConnection_.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="03518-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="03518-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="03518-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="03518-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="03518-111">S_OK</span></span> 
   

@@ -49,7 +49,7 @@ HRESULT Progress(
   
 > <span data-ttu-id="c4d7c-114">Индекс, указывающее полный хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="c4d7c-114">The index indicating complete progress.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c4d7c-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c4d7c-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c4d7c-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="c4d7c-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c4d7c-116">S_OK</span></span> 
   

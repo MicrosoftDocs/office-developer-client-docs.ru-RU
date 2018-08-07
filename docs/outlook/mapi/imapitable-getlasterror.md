@@ -53,7 +53,7 @@ LPMAPIERROR FAR * lppMAPIError
   
 > <span data-ttu-id="37d65-116">[out] Указатель на указатель на структуру возвращенные **MAPIERROR** , содержащий версии, компонент и контекста сведения об ошибке.</span><span class="sxs-lookup"><span data-stu-id="37d65-116">[out] Pointer to a pointer to the returned **MAPIERROR** structure containing version, component, and context information for the error.</span></span> <span data-ttu-id="37d65-117">Параметр _lppMAPIError_ может быть присвоено значение NULL, если структуру **MAPIERROR** , используя соответствующие сведения.</span><span class="sxs-lookup"><span data-stu-id="37d65-117">The  _lppMAPIError_ parameter can be set to NULL if a **MAPIERROR** structure with appropriate information cannot be provided.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="37d65-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="37d65-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="37d65-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="37d65-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="37d65-119">S_OK</span></span> 
   

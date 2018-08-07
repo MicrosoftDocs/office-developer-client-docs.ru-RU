@@ -53,7 +53,7 @@ HRESULT ChangePassword(
   
 > <span data-ttu-id="783aa-116">Пароли, в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="783aa-116">The passwords are in Unicode format.</span></span> <span data-ttu-id="783aa-117">Если флаг MAPI_UNICODE не установлен, пароли, в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="783aa-117">If the MAPI_UNICODE flag is not set, the passwords are in ANSI format.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="783aa-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="783aa-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="783aa-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="783aa-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="783aa-119">S_OK</span></span> 
   

@@ -84,7 +84,7 @@ HRESULT CreateFolder(
   
 > <span data-ttu-id="0f3da-139">[out] Указатель на указатель на только что созданная папка.</span><span class="sxs-lookup"><span data-stu-id="0f3da-139">[out] A pointer to a pointer to the newly created folder.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0f3da-140">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="0f3da-140">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0f3da-140">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="0f3da-141">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="0f3da-141">S_OK</span></span> 
   

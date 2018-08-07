@@ -53,7 +53,7 @@ HRESULT SetLimits(
   
 > <span data-ttu-id="4fdff-115">Использует значения параметров метода [IMAPIProgress::Progress](imapiprogress-progress.md) _инициализирует метод ulCount_ и _ulTotal_ , которые указывают, в настоящее время обработанные элемента и всего элементов, соответственно, для увеличения ход выполнения операции.</span><span class="sxs-lookup"><span data-stu-id="4fdff-115">Uses the values in the [IMAPIProgress::Progress](imapiprogress-progress.md) method's  _ulCount_ and  _ulTotal_ parameters, which indicate the currently processed item and the total items, respectively, to increment progress on the operation.</span></span> <span data-ttu-id="4fdff-116">Этот флаг установлен, значения глобального ограничены после должно быть задано.</span><span class="sxs-lookup"><span data-stu-id="4fdff-116">When this flag is set, the values of the global lower and upper limits have to be set.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4fdff-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4fdff-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4fdff-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
 
 <span data-ttu-id="4fdff-118">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4fdff-118">S_OK</span></span> 
   

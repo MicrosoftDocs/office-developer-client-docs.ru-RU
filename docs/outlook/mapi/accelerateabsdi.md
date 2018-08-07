@@ -48,7 +48,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
   
 > <span data-ttu-id="4ddcf-118">[in] Указатель на сообщение Windows.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-118">[in] Pointer to a Windows message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4ddcf-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4ddcf-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4ddcf-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="4ddcf-120">Функция с прототип **ACCELERATEABSDI** возвращает TRUE, если он обрабатывает сообщение.</span><span class="sxs-lookup"><span data-stu-id="4ddcf-120">A function with the **ACCELERATEABSDI** prototype returns TRUE if it handles the message.</span></span> 
   

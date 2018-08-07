@@ -39,7 +39,7 @@ ULONG ulFlags
   
 > <span data-ttu-id="11da0-108">Зарезервировано; должно быть равно нулю.</span><span class="sxs-lookup"><span data-stu-id="11da0-108">Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="11da0-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="11da0-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="11da0-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="11da0-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="11da0-110">S_OK</span></span> 
   

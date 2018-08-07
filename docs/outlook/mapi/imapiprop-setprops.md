@@ -49,7 +49,7 @@ HRESULT SetProps(
   
 > <span data-ttu-id="922d1-113">[in, out] На входе указатель указатель на структуру [SPropProblemArray](spropproblemarray.md) ; в противном случае — значение NULL, указывающее, не требуется выполнять сведения об ошибке.</span><span class="sxs-lookup"><span data-stu-id="922d1-113">[in, out] On input, a pointer to a pointer to an [SPropProblemArray](spropproblemarray.md) structure; otherwise, NULL, indicating no need for error information.</span></span> <span data-ttu-id="922d1-114">Если _lppProblems_ допустимый указатель на входные данные, **SetProps** возвращает подробные сведения об ошибках при обновлении одного или нескольких свойств.</span><span class="sxs-lookup"><span data-stu-id="922d1-114">If  _lppProblems_ is a valid pointer on input, **SetProps** returns detailed information about errors in updating one or more properties.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="922d1-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="922d1-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="922d1-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="922d1-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="922d1-116">S_OK</span></span> 
   

@@ -39,7 +39,7 @@ HRESULT GetMessage(
   
 > <span data-ttu-id="05596-108">[out] Указатель на указатель на возвращенный интерфейс для сообщения.</span><span class="sxs-lookup"><span data-stu-id="05596-108">[out] A pointer to a pointer to the returned interface for the message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="05596-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="05596-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="05596-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="05596-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="05596-110">S_OK</span></span> 
   

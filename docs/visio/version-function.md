@@ -27,7 +27,7 @@ ms.locfileid: "19815149"
 
 <span data-ttu-id="585e5-108">ЛИБО</span><span class="sxs-lookup"><span data-stu-id="585e5-108">VERSION()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="585e5-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="585e5-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="585e5-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="585e5-110">Целое число</span><span class="sxs-lookup"><span data-stu-id="585e5-110">Integer</span></span>
   

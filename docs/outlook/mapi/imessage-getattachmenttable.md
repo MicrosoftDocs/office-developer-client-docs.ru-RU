@@ -52,7 +52,7 @@ HRESULT GetAttachmentTable(
   
 > <span data-ttu-id="6fc5f-117">[out] Указатель на указатель на таблице вложений.</span><span class="sxs-lookup"><span data-stu-id="6fc5f-117">[out] Pointer to a pointer to the attachment table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="6fc5f-118">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="6fc5f-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6fc5f-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
 
 <span data-ttu-id="6fc5f-119">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="6fc5f-119">S_OK</span></span> 
   

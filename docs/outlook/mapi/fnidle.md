@@ -44,7 +44,7 @@ BOOL (STDAPICALLTYPE FNIDLE)(
   
 > <span data-ttu-id="4da3c-116">[in] Указатель на блок памяти, что MAPI передается простоя подпрограммы каждый раз вызывает его.</span><span class="sxs-lookup"><span data-stu-id="4da3c-116">[in] Pointer to a block of memory that MAPI passes to the idle routine each time it calls it.</span></span> <span data-ttu-id="4da3c-117">Такой указатель передается к ядру простоя MAPI с помощью параметра _pvIdleParam_ с [FtgRegisterIdleRoutine](ftgregisteridleroutine.md).</span><span class="sxs-lookup"><span data-stu-id="4da3c-117">This pointer is passed to the MAPI idle engine in the  _pvIdleParam_ parameter by [FtgRegisterIdleRoutine](ftgregisteridleroutine.md).</span></span> <span data-ttu-id="4da3c-118">Данные в блоке памяти может предоставить контекст для вызова простоя действия, например, какие объекта, или текущее состояние длительной операции.</span><span class="sxs-lookup"><span data-stu-id="4da3c-118">The data in the memory block can provide context for the call to the idle routine, such as which object to operate on, or the current state of a lengthy operation.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4da3c-119">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4da3c-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4da3c-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
 <span data-ttu-id="4da3c-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="4da3c-120">FALSE</span></span> 
   

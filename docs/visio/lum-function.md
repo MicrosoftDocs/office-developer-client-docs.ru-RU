@@ -30,7 +30,7 @@ ms.locfileid: "19814187"
 |:-----|:-----|:-----|:-----|
 | <span data-ttu-id="16a43-112">_expression_</span><span class="sxs-lookup"><span data-stu-id="16a43-112">_expression_</span></span> <br/> |<span data-ttu-id="16a43-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="16a43-113">Required</span></span>  <br/> |<span data-ttu-id="16a43-114">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="16a43-114">**Numeric**</span></span> <br/> |<span data-ttu-id="16a43-115">Индекс цвета в таблице цветов документа или ссылка на ячейку, которая содержит индекс цвета.</span><span class="sxs-lookup"><span data-stu-id="16a43-115">The index of a color in the document's color table, or a reference to a cell that contains a color index.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="16a43-116">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="16a43-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="16a43-116">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6">Return value</span></span>
 
 <span data-ttu-id="16a43-117">Number</span><span class="sxs-lookup"><span data-stu-id="16a43-117">Number</span></span>
   

@@ -40,7 +40,7 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 > [!NOTE]
 > <span data-ttu-id="d9b56-111">Поддержка .pst ANSI не реализован.</span><span class="sxs-lookup"><span data-stu-id="d9b56-111">.pst support for ANSI is not implemented.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="d9b56-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="d9b56-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d9b56-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2">Return value</span></span>
 
 <span data-ttu-id="d9b56-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="d9b56-113">S_OK</span></span> 
   

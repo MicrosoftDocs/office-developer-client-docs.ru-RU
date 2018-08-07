@@ -69,7 +69,7 @@ HRESULT Advise(
   
 > <span data-ttu-id="f9544-134">[out] Указатель на подключение ненулевое число, представляющее регистрации уведомлений.</span><span class="sxs-lookup"><span data-stu-id="f9544-134">[out] A pointer to a nonzero connection number that represents the notification registration.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f9544-135">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f9544-135">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f9544-135">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="f9544-136">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f9544-136">S_OK</span></span> 
   

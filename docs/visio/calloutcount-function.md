@@ -27,7 +27,7 @@ ms.locfileid: "19813316"
 
 <span data-ttu-id="85aaa-108">CALLOUTCOUNT()</span><span class="sxs-lookup"><span data-stu-id="85aaa-108">CALLOUTCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="85aaa-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="85aaa-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="85aaa-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9">Return value</span></span>
 
  <span data-ttu-id="85aaa-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="85aaa-110">**Integer**</span></span>
   

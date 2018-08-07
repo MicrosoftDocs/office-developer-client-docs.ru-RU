@@ -60,7 +60,7 @@ SCODE PropCopyMore(
   
 > <span data-ttu-id="c0b6e-120">[in] Указатель на объект, для которого **MAPIAllocateMore** будет выделить пространство, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="c0b6e-120">[in] Pointer to an object for which **MAPIAllocateMore** will allocate space if necessary.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="c0b6e-121">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="c0b6e-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c0b6e-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1">Return value</span></span>
 
 <span data-ttu-id="c0b6e-122">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="c0b6e-122">S_OK</span></span>
   

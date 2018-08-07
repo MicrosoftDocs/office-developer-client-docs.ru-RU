@@ -30,7 +30,7 @@ int CancelOutstandingRequests(int SessionId)
   
 > <span data-ttu-id="80a6b-108">Идентификатор сеанса, используемые отмененные вычислений.</span><span class="sxs-lookup"><span data-stu-id="80a6b-108">The ID of the session used by the canceled calculation.</span></span> <span data-ttu-id="80a6b-109">Это значение определяет соответствие значение, возвращенное [метод OpenSession](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="80a6b-109">This value matches the value returned by [OpenSession](opensession.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="80a6b-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="80a6b-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="80a6b-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="80a6b-111">**xlHpcRetSuccess** Если аргумент _SessionId_ является допустимым; **xlHpcRetInvalidSessionId** Если недопустимый _SessionId_ аргумент; **xlHpcRetCallFailed** на других ошибок.</span><span class="sxs-lookup"><span data-stu-id="80a6b-111">**xlHpcRetSuccess** if the  _SessionId_ argument is valid; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures.</span></span> 
   

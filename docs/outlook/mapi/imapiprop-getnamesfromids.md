@@ -67,7 +67,7 @@ HRESULT GetNamesFromIDs(
   
 > <span data-ttu-id="549d2-124">[out] Указатель на массив указатели на [MAPINAMEID](mapinameid.md) структуры, содержащий имена свойств.</span><span class="sxs-lookup"><span data-stu-id="549d2-124">[out] A pointer to an array of pointers to [MAPINAMEID](mapinameid.md) structures that contains property names.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="549d2-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="549d2-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="549d2-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5">Return value</span></span>
 
 <span data-ttu-id="549d2-126">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="549d2-126">S_OK</span></span> 
   

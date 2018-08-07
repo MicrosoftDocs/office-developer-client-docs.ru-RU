@@ -55,7 +55,7 @@ SCODE OpenIMsgSession(
   
 > <span data-ttu-id="f4c87-119">[out] Указатель на указатель на объект сеанса возвращенных сообщений.</span><span class="sxs-lookup"><span data-stu-id="f4c87-119">[out] Pointer to a pointer to the returned message session object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f4c87-120">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f4c87-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f4c87-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="f4c87-121">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f4c87-121">S_OK</span></span>
   

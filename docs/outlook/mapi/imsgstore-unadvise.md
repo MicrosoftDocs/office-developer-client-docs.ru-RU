@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > <span data-ttu-id="5575a-108">[in] Номер подключения, связанный с регистрацию active уведомлений.</span><span class="sxs-lookup"><span data-stu-id="5575a-108">[in] The connection number associated with an active notification registration.</span></span> <span data-ttu-id="5575a-109">Необходимо, значение _ulConnection_ возвращена предыдущий вызов метода **IMsgStore::Advise** .</span><span class="sxs-lookup"><span data-stu-id="5575a-109">The value of  _ulConnection_ must have been returned by a previous call to the **IMsgStore::Advise** method.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="5575a-110">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5575a-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5575a-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
 
 <span data-ttu-id="5575a-111">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="5575a-111">S_OK</span></span> 
   
