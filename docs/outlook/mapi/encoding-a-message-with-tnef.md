@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6b86d9a9-6876-4885-ae1e-8571b25b85cc
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2cb5c9a971f95e309f0a91cf477eefe98fe3bd64
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19808400"
 ---
 # <a name="encoding-a-message-with-tnef"></a>Кодировка сообщение с TNEF
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 При отправке сообщения поставщика транспорта можно создать файл, который используется для хранения сообщения во время передачи. Рассмотрим процедуру интерфейс [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) является переход через файл. Поставщика транспорта затем использует методы [ITnef](itnefiunknown.md) для записи свойств сообщения поток в виде с тегами, включает свойства для декодирования легко получающей поставщиками транспорта. 
   

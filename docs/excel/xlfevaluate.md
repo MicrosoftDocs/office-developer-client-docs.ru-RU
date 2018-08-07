@@ -10,7 +10,7 @@ keywords:
 - функция xlfevaluate [excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e468dc18b8f78f56acaa67c2f23dd53254088ad0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807347"
 ---
 # <a name="xlfevaluate"></a>xlfEvaluate
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Метод средство синтаксического анализа Microsoft Excel и средство оценки функция для вычисления любое выражение, которое можно ввести в ячейку листа.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807347"
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxFormulaText (xltypeStr)_
   
@@ -70,5 +70,5 @@ short WINAPI EvaluateExample(void)
 
 ## <a name="see-also"></a>См. также
 
-- [Функции API XLM важные и полезные C](essential-and-useful-c-api-xlm-functions.md)
+- [Необходимые и полезные функции XLM из API C](essential-and-useful-c-api-xlm-functions.md)
 

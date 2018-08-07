@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d837d87c479f70f0184a7cf1612dea5ab8c99e6d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19807352"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Используется для регистрации обработчика событий. Появился в Excel 2010.
   
@@ -24,7 +24,7 @@ ms.locfileid: "19807352"
 Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12 pxEvent);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxProcedure_ (**xltypeStr**)
   

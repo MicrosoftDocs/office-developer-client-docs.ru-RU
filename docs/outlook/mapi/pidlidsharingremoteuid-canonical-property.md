@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cfe3b728-317b-4871-adea-e2fdf8441da7
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cb8b4a7c71f3ad81949f3eac6cab230f40c6d487
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810547"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает идентификатор записи удаленной общей папке. Это свойство общего доступа сообщения.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810547"
 |Набор свойств:  <br/> |PSETID_Sharing  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008A06  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Области:  <br/> |Sharing  <br/> |
+|Область:  <br/> |Sharing  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

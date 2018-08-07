@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 613956da-c49b-4836-9fde-4601510e8b89
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bbdc5993a07209f381065ce1b60f860ba54c35d5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19810025"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Заголовки RFC 822 сопоставляются со свойствами MAPI следующим образом. PR_SENDER_\* — Аббревиатура для 5 следующие свойства:
   

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e7ba37629ff2198339394448410ffd16477d4766
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19807340"
 ---
 # <a name="xlasyncreturn"></a>xlAsyncReturn
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Используется для возвращения результата асинхронные пользовательские функции (UDF).
   
@@ -24,7 +24,7 @@ ms.locfileid: "19807340"
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxAsyncHandle_ (**xltypeBigData**)
   

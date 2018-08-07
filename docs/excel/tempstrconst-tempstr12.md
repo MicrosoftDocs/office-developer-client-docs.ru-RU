@@ -11,7 +11,7 @@ keywords:
 - функция tempstr12 [excel 2007], функция TempStrConst [Excel 2007]
 localization_priority: Normal
 ms.assetid: faf4ee4e-8d33-4cb3-ae16-5648a837ee4f
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 321c41aa87a3bfa0edc1d77ecc8fbe4b6a6a4730
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807335"
 ---
 # <a name="tempstrconsttempstr12"></a>TempStrConst/TempStr12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функции библиотеки Framework, который создает временные **XLOPER и XLOPER12** , который содержит строку **xltypeStr** , используя строку символом null источника в качестве входных данных. Функция выделяет новый буфер памяти и копирует переданной строки в нее. Входной строки не изменятся и поэтому объявлен как **const**.
   
@@ -30,9 +30,9 @@ LPXLOPER TempStrConst(const LPSTR str);
 LPXLOPER12 TempStr12(const XCHAR* lpstr);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
- _STR_
+ _str_
   
 Указатель на строке source символом null. В случае **XLOPER**s TempStrConst ограничивает длину строки, представляющие больше 255 байт. В случае **XLOPER12**s TempStr12Const ограничивает длину строки, представляющие более 32 767 символов Юникода.
   
@@ -62,5 +62,5 @@ short WINAPI TempStrExample(void)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

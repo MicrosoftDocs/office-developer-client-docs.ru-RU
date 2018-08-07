@@ -1,5 +1,5 @@
 ---
-title: Использование восстановления после сбоя MAPI API
+title: Использование API аварийного восстановления MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19808641"
 ---
-# <a name="use-the-mapi-crash-recovery-api"></a>Использование восстановления после сбоя MAPI API
+# <a name="use-the-mapi-crash-recovery-api"></a>Использование API аварийного восстановления MAPI
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 В этом разделе содержится пример кода на C++ показано, как вызывать функцию [MAPICrashRecovery](mapicrashrecovery.md) из функции [UnhandledExceptionFilter](http://msdn.microsoft.com/en-us/library/ms681401%28VS.85%29.aspx) . Функция [MAPICrashRecovery](mapicrashrecovery.md) проверяет состояние файл личных папок (PST) или файл автономной папки (OST) общей памяти. 
 
@@ -52,6 +52,6 @@ LONG WINAPI UnhandledExceptionFilter(__in EXCEPTION_POINTERS* pep)
 
 ## <a name="see-also"></a>См. также
 
-- [О восстановлении после сбоя MAPI API](about-the-mapi-crash-recovery-api.md) 
+- [Сведения об API аварийного восстановления MAPI](about-the-mapi-crash-recovery-api.md) 
 - [MAPICrashRecovery](mapicrashrecovery.md)
 

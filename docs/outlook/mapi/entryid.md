@@ -1,5 +1,5 @@
 ---
-title: ИДЕНТИФИКАТОР ЗАПИСИ
+title: ENTRYID
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1b55703c9ad12e3645e6e9cb3dcfcbdf21b90d25
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19808385"
 ---
-# <a name="entryid"></a>ИДЕНТИФИКАТОР ЗАПИСИ
+# <a name="entryid"></a>ENTRYID
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит идентификатор записи для объекта MAPI. 
   
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **abFlags**
   

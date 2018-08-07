@@ -8,7 +8,7 @@ keywords:
 - xlfgetname
 localization_priority: Normal
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 63bfc6e94950a621c2367b2d35d25e3de48b344f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19807348"
 ---
 # <a name="xlfgetname"></a>xlfGetName
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает определение: имя, как оно отображается в столбце **Формула** диалоговое окно **Диспетчер имен** , которая отображается при нажатии кнопки **Диспетчер имен** в разделе **Определенные имена** на вкладке " **формулы** ". Если определение содержит справочные материалы, они задаются в виде ссылок в стиле R1C1. Используйте **xlfGetName** для проверки значения, определенные в имени. Чтобы получить имя, соответствующее определение, используйте [xlfGetDef](xlfgetdef.md).
   
@@ -26,7 +26,7 @@ ms.locfileid: "19807348"
 Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInfoType);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxNameText_ (**xltypeStr**)
   
@@ -57,5 +57,5 @@ _pxRes_ (**xltypeStr**, **xltypeBool**или **xltypeErr**)
 ## <a name="see-also"></a>См. также
 
 - [xlfGetDef](xlfgetdef.md)
-- [Функции API XLM важные и полезные C](essential-and-useful-c-api-xlm-functions.md)
+- [Необходимые и полезные функции XLM из API C](essential-and-useful-c-api-xlm-functions.md)
 

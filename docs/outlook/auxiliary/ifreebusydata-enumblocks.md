@@ -31,7 +31,7 @@ HRESULT EnumBlocks(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _ppenumfb_
   
@@ -60,5 +60,5 @@ S_OK if the call succeeded; otherwise, an error code.
 - [IEnumFBBlock](ienumfbblock.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)
-- [Использование относительных времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Использование относительного времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
 

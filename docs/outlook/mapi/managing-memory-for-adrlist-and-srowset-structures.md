@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: ab582b869fb5a53d7ac4e97e039d9bde4a4f0430
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19809681"
 ---
 # <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Управление памятью для структуры ADRLIST и SRowSet»
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Требования для выделения памяти все буфера, когда это возможно с помощью одного вызова **MAPIAllocateBuffer** не применяется при использовании списка адресов или **ADRLIST**и набор строк или **SRowSet**структуры. 
   
@@ -29,7 +29,7 @@ ms.locfileid: "19809681"
   
 На следующей схеме показана макет структуру данных **ADRLIST** , указывающее, отдельные необходимые там. Серая поля показывают объем памяти, который можно выделить и выпущен с помощью одного вызова. 
   
-**Выделение памяти adrlist**
+**Выделение памяти ADRLIST**
   
 ![Выделение памяти adrlist] (media/amapi_52.gif "Выделение памяти adrlist")
   

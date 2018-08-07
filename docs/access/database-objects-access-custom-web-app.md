@@ -16,11 +16,11 @@ ms.locfileid: "19806949"
 # <a name="database-objects-access-custom-web-app"></a>Объекты базы данных (приложение настраиваемых web Access)
 
 > [!IMPORTANT]
-> Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint. Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для построения без написания кода бизнес-решений для мобильных устройств и веб. 
+> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
-- [Макрос КЭлементуУправления (приложение настраиваемых web Access)](gotocontrol-macro-action-access-custom-web-app.md)
+- [Макрокоманда GoToControl (пользовательское веб-приложение для Access)](gotocontrol-macro-action-access-custom-web-app.md)
     
 - [Макрос НаЗапись (приложение настраиваемых web Access)](gotorecord-macro-action-access-custom-web-app.md)
     

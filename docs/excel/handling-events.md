@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: b67fcb83-a0e2-4349-88f5-bcc181306eac
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: c5508df8466932b6fb5c7e04164aa00a5ea31a8d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19807254"
 ---
 # <a name="handling-events"></a>Обработка событий
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Начиная с версии Excel 2010, XLL-модулей может получать события, предназначенное для управления жизненным циклом асинхронные функции. События, как показано ниже:
   

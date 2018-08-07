@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7676f6f8-28a6-4409-b669-fd2cd1a9f0ab
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 4b4b025fb43e78829206bec964aa6c6b5b51ebba
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810295"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает тип адреса для адрес домашнего факса контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810295"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080C2  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Области:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Контакт  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

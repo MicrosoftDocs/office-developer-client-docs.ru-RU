@@ -10,7 +10,7 @@ keywords:
 - функция xlfregisterid [excel 2007]
 localization_priority: Normal
 ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: cd401393b7465442cef9342b942a27456871c68b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807363"
 ---
 # <a name="xlfregisterid"></a>xlfRegisterId
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Может быть вызван из библиотеки DLL, которая был вызван с Microsoft Excel. Если функция уже зарегистрирован, она возвращает идентификатор регистрации для этой функции без повторная регистрация его. Если функция не зарегистрирован, он регистрирует его и возвращает итоговый код регистра.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807363"
 Excel12(xlfRegisterId, LPXLOPER12 pxRes, 3,     LPXLOPER12 pxModuleText, LPXLOPER12 pxProcedure, LPXLOPER12 pxTypeText);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxModuleText_ (**xltypeStr**)
   
@@ -56,5 +56,5 @@ _pxTypeText_ (**xltypeStr**)
 
 - [РЕГИСТРАЦИЯ](xlfregister-form-1.md)
 - [ОТМЕНА РЕГИСТРАЦИИ](xlfunregister-form-1.md)
-- [Функции API XLM важные и полезные C](essential-and-useful-c-api-xlm-functions.md)
+- [Необходимые и полезные функции XLM из API C](essential-and-useful-c-api-xlm-functions.md)
 

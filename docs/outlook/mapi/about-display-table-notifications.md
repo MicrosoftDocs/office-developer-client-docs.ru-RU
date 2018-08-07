@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a696357c97a85442bbfd5532892c06d570f6367c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19807976"
 ---
 # <a name="about-display-table-notifications"></a>Отображение уведомлений в таблице
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Уведомления для отображения таблицы отправляются поставщиком услуг, ответственных за создание таблицы отображения для MAPI. MAPI регистрация такие уведомления путем вызова метода [IMAPITable::Advise](imapitable-advise.md) таблица отображения и указания события изменения таблицы. 
   

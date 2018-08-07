@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 00d2993c-d66a-4a00-9fb2-98696d29a007
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: db8ca0945c429e7b277ec95b419386d1ce175169
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19809697"
 ---
 # <a name="mapi-architecture-overview"></a>Обзор архитектуры MAPI (en)
  
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 MAPI определяет модульных архитектуры, как показано на следующем рисунке.  
   

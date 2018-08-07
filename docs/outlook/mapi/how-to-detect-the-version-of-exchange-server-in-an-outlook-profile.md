@@ -15,7 +15,7 @@ ms.locfileid: "19808595"
 ---
 # <a name="detect-the-version-of-exchange-server-in-an-outlook-profile"></a>Определить, какая версия Exchange Server в профиле Outlook
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 В этом разделе приводится пример кода c++, который показано, как использовать свойство **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** и свойство **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** для получения сведений о версии сервера Microsoft Exchange Server, который является активной учетной записи подключение. 
   

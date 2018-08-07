@@ -22,6 +22,6 @@ ms.locfileid: "19807922"
     
 - [About anti-spam settings](about-anti-spam-settings.md)
     
-- [Загружаемые файлы для управления сообщения для учетных записей POP3](managing-message-downloads-for-pop3-accounts.md)
+- [Управление скачиванием сообщений для учетных записей POP3](managing-message-downloads-for-pop3-accounts.md)
     
 

@@ -221,5 +221,5 @@ End Namespace
 
 
 
-[Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Добавление обработчика события, использующего объектную модель InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

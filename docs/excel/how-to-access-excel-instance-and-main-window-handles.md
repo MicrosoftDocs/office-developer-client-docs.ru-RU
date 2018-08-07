@@ -1,5 +1,5 @@
 ---
-title: Доступ к экземпляру Excel и значками главное окно
+title: Доступ к дескрипторам основного окна и экземпляра Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - доступ к excel обрабатывает маркеры [Excel 2007], доступ к экземпляры Excel, доступ к дескрипторов окна [Excel 2007], доступ к
 localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 035cd2a8423e3ab14f4b2ca4b73fbc39641e54d6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807274"
 ---
-# <a name="access-excel-instance-and-main-window-handles"></a>Доступ к экземпляру Excel и значками главное окно
+# <a name="access-excel-instance-and-main-window-handles"></a>Доступ к дескрипторам основного окна и экземпляра Excel
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 В некоторых случаях для программирования в среде Windows, необходимо знать дескриптор экземпляра Microsoft Excel или обрабатывать главного окна. К примеру эти маркеры полезны при создании и отображение настраиваемых диалоговых окон Windows.
   
@@ -85,9 +85,9 @@ BOOL GetHwnd(HWND * pHwnd)
 
 
 
-[Отображение диалоговых окон из DLL или XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+[Отображение диалоговых окон из библиотеки DLL или XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
-[Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
 [���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
 

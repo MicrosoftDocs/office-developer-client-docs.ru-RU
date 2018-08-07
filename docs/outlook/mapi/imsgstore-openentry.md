@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a63c42cf-36af-466b-b41e-d6b53ce1c9fb
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 124208a3f5c6bb300aca3699a04b15e842c46cd1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809400"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Открывает папку или сообщение и возвращает указатель интерфейса для дальнейшей доступа. 
   
@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _cbEntryID_
   

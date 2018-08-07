@@ -10,7 +10,7 @@ keywords:
 - функция xlAutoFree [excel 2007]
 localization_priority: Normal
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a2d2b8e60b484ba8156acc80d543493e3ec9c564
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,9 +20,9 @@ ms.locfileid: "19807344"
 ---
 # <a name="xlautofreexlautofree12"></a>xlAutoFree/xlAutoFree12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Именем с Microsoft Excel, сразу после функция листа XLL возвращает **XLOPER**/ **XLOPER12** к нему с набором флаг, указывающий памяти, XLL, по которой нужно освободить. Это позволяет XLL-Модулей для возврата динамически назначаемых массивов строк и внешние ссылки на лист без утечки памяти. Дополнительные сведения содержатся в разделе [Управление памятью в Excel](memory-management-in-excel.md).
+Именем с Microsoft Excel, сразу после функция листа XLL возвращает **XLOPER**/ **XLOPER12** к нему с набором флаг, указывающий памяти, XLL, по которой нужно освободить. Это позволяет XLL-Модулей для возврата динамически назначаемых массивов строк и внешние ссылки на лист без утечки памяти. Дополнительные сведения см. в статье [Управление памятью в Excel](memory-management-in-excel.md).
   
 Начиная с версии Excel 2007, функция **xlAutoFree12** и тип данных **XLOPER12** поддерживаются. 
   
@@ -35,7 +35,7 @@ void WINAPI xlAutoFree(LPXLOPER pxFree);
 void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxFree_ (**LPXLOPER в случае xlAutoFree**)
   
@@ -179,5 +179,5 @@ void WINAPI xlAutoFree12(LPXLOPER pxFree)
 
 
 
-[Диспетчер надстроек и функции XLL интерфейса](add-in-manager-and-xll-interface-functions.md)
+[Функции диспетчера надстроек и интерфейса XLL](add-in-manager-and-xll-interface-functions.md)
 

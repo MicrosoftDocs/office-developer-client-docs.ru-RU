@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d9b782be440e1af50cb5994691268aa098a1a7cd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,20 +23,20 @@ ms.locfileid: "19808137"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вычисляет число байтов, должен быть размещен для новой структуры [ENTRYID](entryid.md) указанного размера. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**ИДЕНТИФИКАТОР ЗАПИСИ** <br/> |
+|Связанные структуры:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  __Сертификация_
   
@@ -46,8 +46,8 @@ CbNewENTRYID (_cb)
 
 
 
-[ИДЕНТИФИКАТОР ЗАПИСИ](entryid.md)
+[ENTRYID](entryid.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 

@@ -10,7 +10,7 @@ keywords:
 - функция xlfCaller [excel 2007]
 localization_priority: Normal
 ms.assetid: de4b119c-ae2e-4207-9783-8d5692a4d052
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 92d2d1877d7b315d178ef1fa36b47bd5f9f8e661
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807346"
 ---
 # <a name="xlfcaller"></a>xlfCaller
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает сведения о ячейку, диапазон ячеек, команда меню, средство на панели инструментов или объекта, который вызвал команду DLL или функции, которые в настоящее время работает.
   
@@ -36,7 +36,7 @@ ms.locfileid: "19807346"
 |Команда, связанная с xlcOnEnter на. ВВЕСТИ, выполнилось событий  <br/> |Ссылка на одну или несколько ячеек, вводимые.  <br/> |
 |Команда, связанная с xlcOnDoubleclick на. DOUBLECLICK выполнилось события.  <br/> |Ячейки, которая была двойном щелчке (не обязательно содержит активную ячейку).  <br/> |
 |Макрос Авто_открыть, AutoClose, Auto_Activate или Auto_Deactivate  <br/> |Имя вызывающего листа.  <br/> |
-|Другие методы, отсутствует в списке  <br/> |#������! Ошибка  <br/> |
+|Другие методы, отсутствует в списке  <br/> |#REF! Ошибка  <br/> |
    
 ```cs
 Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
@@ -71,5 +71,5 @@ short WINAPI CallerExample(void)
 
 
 
-[Функции API XLM важные и полезные C](essential-and-useful-c-api-xlm-functions.md)
+[Необходимые и полезные функции XLM из API C](essential-and-useful-c-api-xlm-functions.md)
 

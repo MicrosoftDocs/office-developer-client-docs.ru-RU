@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 142eb27e-fb6f-4da3-bfb7-a88115bbb5d5
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5b64dfd4308da4efb5e94010fe1dc9d758a1199c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19807132"
 ---
 # <a name="asynchronous-user-defined-functions"></a>Асинхронные пользовательские функции
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 2013 можно асинхронный вызов пользовательских функций. Асинхронный вызов функции могут улучшить производительность, позволяя несколько вычислений для запуска в то же время. При выполнении этих функций на вычислительном кластере асинхронный вызов функции включает несколько компьютеров, которые будут использоваться для выполнения вычислений.
   

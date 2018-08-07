@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d0bce7b3a12f259b7ac5f28219c8a92dd2200f07
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19808590"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Выбор определенной версии MAPI для загрузки
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 При связывании явно реализация интерфейса MAPI, необходимо тщательно выбрать реализация для загрузки. 
   
@@ -107,7 +107,7 @@ ms.locfileid: "19808590"
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [����� �������� � ���������������� MAPI](mapi-programming-overview.md)
-- [Ссылка на функции MAPI](how-to-link-to-mapi-functions.md)
+- [Ссылки на функции MAPI](how-to-link-to-mapi-functions.md)
 - [Параметры реестра заглушка Mapi32.dll](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx)
 - [Настройка разделов MSI для библиотеки DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx)
 - [Явным образом сопоставление вызовов программного интерфейса MAPI для библиотеки MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx)

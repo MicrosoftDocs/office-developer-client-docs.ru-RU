@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e6963fc373f771289e3dbff3a0b41857352b4b9a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808444"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Проверяет все строки в таблице, включенных в набор строк таблицы.
   
@@ -39,7 +39,7 @@ BOOL FBadRowSet(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpRowSet_
   

@@ -29,7 +29,7 @@ typedef struct {
 } TZDEFINITION;
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 _wFlags_
   

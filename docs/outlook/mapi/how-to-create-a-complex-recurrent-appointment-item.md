@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 524fa44ddd1325b51a7389d712ac045afbefb8d9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19808593"
 ---
 # <a name="create-a-complex-recurrent-appointment-item"></a>Создание сложных повторяющейся встречи
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 MAPI можно использовать для создания элементов повторяющейся встречи.
   

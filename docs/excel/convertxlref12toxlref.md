@@ -10,7 +10,7 @@ keywords:
 - функция convertxlref12toxlref [excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 826428edb57eba9e17d601164aa8b4b797fc8929
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807147"
 ---
 # <a name="convertxlref12toxlref"></a>ConvertXLRef12ToXLRef
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Пытается преобразовать **XLREF12** в **XLREF**.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807147"
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxRef12_ (**LPXLREF12**)
   
@@ -75,5 +75,5 @@ BOOL ConvertXLRef12ToXLRef(LPXLREF12 pxref12, LPXLREF pxref)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

@@ -10,7 +10,7 @@ keywords:
 - функция xlstack [excel 2007]
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fcd073f7d2b97e84743d01c498435f186277e345
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807367"
 ---
 # <a name="xlstack"></a>xlStack
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Проверка свободного места в стеке.
   
@@ -28,9 +28,9 @@ ms.locfileid: "19807367"
 Excel12(xlStack, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-Эта функция не имеет аргументов.
+Эта функция не получает никаких аргументов.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
 
@@ -72,5 +72,5 @@ short int WINAPI xlStackExample_XLOPER(void)
 
 ## <a name="see-also"></a>См. также
 
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

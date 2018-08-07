@@ -1,5 +1,5 @@
 ---
-title: Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003
+title: Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807498"
 ---
-# <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003
+# <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003
 
 При создании кода для расширения функциональности шаблона формы, который использует объектную модель InfoPath 2003, часто бывает полезно предоставить пользователю сведения в диалоговом окне. Программная отображение диалоговое окно и связанные элементы интерфейса выполняется в InfoPath с помощью методов интерфейса [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) . 
   
@@ -25,13 +25,13 @@ ms.locfileid: "19807498"
   
 |Имя|Описание|
 |:-----|:-----|
-|[Предупреждения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Отображение простого окна сообщения, содержащего строку указанного сообщения. Этот метод можно использовать при вмешательство не требуется от пользователя и только сообщения требуется отобразить. Диалоговое окно отображается закрывается, нажав кнопку **ОК** .  <br/> |
+|[Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Отображает простое окно сообщения, содержащее указанную строку сообщения. Этот метод следует использовать в том случае, если от пользователя не требуется ввода данных, а нужно только отобразить сообщение. Отображенное диалоговое окно закрывается путем нажатия кнопки **ОК**.<br/> |
 |[Подтверждение](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Отображает окно сообщения с кнопками для ввода данных. Значение, возвращаемое является одной из констант перечисления [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) .  <br/> |
-|[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Задает имя файла по умолчанию для формы в диалоговом окне **Сохранить как** .  <br/> |
-|[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Задает исходное расположение, с которого начинается в диалоговом окне **Сохранить как** , отображаемую при открывании.  <br/> |
+|[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Задает имя файла по умолчанию для формы в диалоговом окне **Сохранить как**.   <br/> |
+|[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Задает исходное расположение обзора при открытии диалогового окна **Сохранить как**.   <br/> |
 |[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Создает новое сообщение электронной почты в приложении электронной почты по умолчанию, с текущей открытой формы вложения в сообщение.  <br/> |
 |[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Отображает модальное диалоговое окно, на основе указанного HTML-файла и аргументы. Этот метод следует использовать, если необходимо отобразить более простое сообщение пользователю, и требуется получить некоторые данные от пользователя (за пределы простого подтверждения, предоставленные **Да** | **Нет** | **Отменить** кнопок, отображаемых с помощью метода **Confirm** ).  <br/> |
-|[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Отображает встроенное диалоговое окно **Цифровые подписи** .  <br/> |
+|[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Отображает встроенное диалоговое окно **Цифровые подписи**.  <br/> |
    
 ## <a name="using-the-uiobject-interface"></a>Использование интерфейса UIObject
 

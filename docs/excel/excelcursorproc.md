@@ -10,7 +10,7 @@ keywords:
 - функция excelcursorproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 07be8da4a07b988d5e848048a088859b58ea3a14
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807249"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 При отображении модального диалогового окна на Microsoft Excel окно курсор является «занят» через окно Excel. В этом **WndProc** извещения WM_SETCURSOR введите сообщения Windows и изменения курсор назад к обычным стрелку. 
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807249"
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _hWndDlg_ (**HWND**)
   
@@ -56,5 +56,5 @@ LRESULT: 0, если сообщение было обработано, в про
 
 
 
-[В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
 

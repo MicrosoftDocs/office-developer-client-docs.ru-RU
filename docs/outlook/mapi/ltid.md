@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 4a60e2fe3a58e1d696ae9645e03ce8dde5340d9a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19809663"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Универсальный длинный идентификатор термина объекта в хранилище Outlook.
   
@@ -34,7 +34,7 @@ struct LTID
 };
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  _Идентификатор GUID_
   
@@ -52,9 +52,9 @@ struct LTID
 
 
 
-[О репликации API](about-the-replication-api.md)
+[Сведения об API репликации](about-the-replication-api.md)
   
-[О репликации конечного автомата](about-the-replication-state-machine.md)
+[Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
 [FEID](feid.md)
 

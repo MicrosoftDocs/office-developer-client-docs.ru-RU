@@ -1,5 +1,5 @@
 ---
-title: Календари Outlook и встреч
+title: Календари и встречи Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807923"
 ---
-# <a name="outlook-calendars-and-appointments"></a>Календари Outlook и встреч
+# <a name="outlook-calendars-and-appointments"></a>Календари и встречи Outlook
 
 В этом разделе представлены общие сведения о календарями Outlook и встреч, включая API доступности, запрос обновлений встреч и повторного размещения календарей переход на летнее время. 
 
 - [About the Free/Busy API](about-the-free-busy-api.md)
     
-- [О приглашений на собрания как информационные и полного обновления](about-meeting-requests-as-informational-updates-and-full-updates.md)
+- [Сведения о приглашениях на собрания в виде информационных или полных сообщений](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
 - [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
     

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac21ba98-f16b-4365-9134-bca7748189ee
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 94656a1444149efeb6e2e9cd3a239ff14fa46937
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810472"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Задает описание шаблона повторения объекта календаря.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810472"
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008232  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Области:  <br/> |Календарь  <br/> |
+|Область:  <br/> |Календарь  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

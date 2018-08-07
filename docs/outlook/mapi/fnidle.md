@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6b31bb4-69dd-43de-b62b-abfa99557641
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bf1a84a1f305580fc9d9085753ab7eb5c62b8aa9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19808470"
 ---
 # <a name="fnidle"></a>FNIDLE
  
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Определяет простоя процедуры, которая простоя подсистемы MAPI периодически вызывает в соответствии с приоритетом. 
   
@@ -38,7 +38,7 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpvContext_
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1afe6a2e-a5e6-4844-9f82-908894fc6759
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d0b7baf4ab17d12145170961a43ca4be252146a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808585"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Состояние HandsOffFromNormal очень похоже на состояние [HandsOffAfterSave](handsoffaftersave-state.md) . Он является частью процесс сохранения содержимое формы в постоянном хранилище. При работе в это состояние означает, объекта формы следует отказаться от внесения изменений в памяти копии значений свойств сообщений, так как не может быть другой возможности, чтобы сохранить изменения. В следующей таблице описываются допустимые переходы из состояния HandsOffFromNormal. 
   
@@ -35,5 +35,5 @@ ms.locfileid: "19808585"
 
 
 
-[Состояния формы](form-states.md)
+[Состояния форм](form-states.md)
 

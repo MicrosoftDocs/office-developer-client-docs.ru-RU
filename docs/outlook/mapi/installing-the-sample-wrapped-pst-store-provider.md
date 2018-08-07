@@ -1,5 +1,5 @@
 ---
-title: Установка примера оболочку поставщика хранилища PST-файлов
+title: Установка примера поставщика упакованного PST-хранилища
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809450"
 ---
-# <a name="installing-the-sample-wrapped-pst-store-provider"></a>Установка примера оболочку поставщика хранилища PST-файлов
+# <a name="installing-the-sample-wrapped-pst-store-provider"></a>Установка примера поставщика упакованного PST-хранилища
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 В этом разделе описываются действия, чтобы загрузить и установить оболочку PST поставщик хранилища. Пример оболочку PST хранения поставщик, WrapPST, реализует оболочку поставщика хранилища PST-файлов, который предназначен для использования совместно с использованием интерфейса API репликации. Дополнительные сведения об API репликации можно [О репликации API](about-the-replication-api.md).
   
@@ -29,7 +29,7 @@ ms.locfileid: "19809450"
     
 3. Нажмите кнопку **Обзор**, выберите расположение, где требуется сохранить образца и нажмите **кнопку ОК**.
     
-4. Нажмите кнопку **извлечь**. Выбранная папка появляется и содержит извлеченные файлы.
+4. Щелкните **Извлечь**. Выбранная папка появляется и содержит извлеченные файлы.
     
 5. Откройте Visual Studio 2005 с правами администратора.
     
@@ -52,13 +52,13 @@ ms.locfileid: "19809450"
 
 
 
-[О примере оболочку поставщика хранилища PST-файлов](about-the-sample-wrapped-pst-store-provider.md)
+[Сведения о примере поставщика упакованного PST-хранилища](about-the-sample-wrapped-pst-store-provider.md)
   
-[Инициализация поставщика оболочку хранения PST-файлов](initializing-a-wrapped-pst-store-provider.md)
+[Инициализация поставщика упакованного PST-хранилища](initializing-a-wrapped-pst-store-provider.md)
   
-[Выполнив вход поставщик оболочку хранения PST-файлов](logging-on-to-a-wrapped-pst-store-provider.md)
+[Вход в систему поставщика упакованного PST-хранилища](logging-on-to-a-wrapped-pst-store-provider.md)
   
-[С помощью поставщика оболочку хранилища PST-файлов](using-a-wrapped-pst-store-provider.md)
+[Использование поставщика упакованного PST-хранилища](using-a-wrapped-pst-store-provider.md)
   
-[Завершение работы поставщика оболочку хранения PST-файлов](shutting-down-a-wrapped-pst-store-provider.md)
+[Завершение работы поставщика упакованного PST-хранилища](shutting-down-a-wrapped-pst-store-provider.md)
 

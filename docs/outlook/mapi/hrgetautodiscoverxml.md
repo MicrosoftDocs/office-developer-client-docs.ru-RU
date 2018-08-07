@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: da466fc9add8cbc385014782f31749d3b6522da9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808666"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Возвращает поток языке (XML), который представляет данные, полученные из службы автоматического обнаружения сервера Microsoft Exchange 2007.
   
@@ -45,7 +45,7 @@ HRESULT HrGetAutoDiscoverXML(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pwzAddress_
   

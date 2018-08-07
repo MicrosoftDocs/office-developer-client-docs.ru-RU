@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20a46c69-d6ae-7d17-f8af-12952867d342
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 443644b66ba9c961992e22dbfc260fe8c48fe1b3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19809880"
 ---
 # <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Предоставляет сведения о **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** для регистрации обратного вызова для объекта в автономном режиме. 
   
@@ -37,7 +37,7 @@ typedef struct
 } MAPIOFFLINE_ADVISEINFO;
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 _ulSize_: размер **MAPIOFFLINE_ADVISEINFO**. 
     
@@ -58,7 +58,7 @@ _ulStateMask_: MAPIOFFLINE_STATE_ALL — это единственный под�
 ## <a name="see-also"></a>См. также
 
 - [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
-- [Об автономных состояний API](about-the-offline-state-api.md) 
+- [Сведения об API автономного состояния](about-the-offline-state-api.md) 
 - [��������� MAPI](mapi-constants.md) 
 - [MAPIOFFLINE_CALLBACK_TYPE](mapioffline_callback_type.md)
 

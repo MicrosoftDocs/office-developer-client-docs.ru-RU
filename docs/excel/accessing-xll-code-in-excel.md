@@ -8,7 +8,7 @@ keywords:
 - доступ к xll-коду [excel 2007,] XLL-модулей [Excel 2007], доступ к кода, команды [Excel 2007], регистрация, функции [Excel 2007], регистрация, звонок XLL-модулей для Excel, регистрация команды [Excel 2007], регистрация функций [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1523f9e8213cb955f1bfd995c42f921b001299fe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19807145"
 ---
 # <a name="accessing-xll-code-in-excel"></a>Доступ к XLL-коду в Excel
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Должно быть доступно в Microsoft Excel, функции и команды, которые содержит XLL-модуль:
   
@@ -105,7 +105,7 @@ short WINAPI xll_cmd_name(void)
 
 ```
 
-Excel возвращаемое значение игнорируется, если не вызывается из листа макросов XLM, в котором случае возвращаемое значение преобразуется в значение **TRUE** или **FALSE**. Следует таким образом возвращает 1, если команда выполнена успешно, а 0, если он не удалась или отменена пользователем.
+Excel игнорирует возвращаемое значение, если оно не вызывается с листа макросов XLM. В этом случае возвращаемое значение преобразуется в значение **TRUE** или **FALSE**. Таким образом, следует возвращать значение 1, если команда выполнена успешно, и 0, если она завершилась с ошибкой или была отменена пользователем.
   
 Вы можете получить сведения о вызов команду с помощью интерфейса API для C работать **xlfCaller**. Для получения дополнительных сведений см [xlfCaller](xlfcaller.md).
   
@@ -113,9 +113,9 @@ Excel возвращаемое значение игнорируется, есл
   
 ## <a name="see-also"></a>См. также
 
-- [Создание XLL-модулей](creating-xlls.md)
-- [Вызов функции XLL из Мастер функций или заменить диалоговых окон](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
-- [Диспетчер надстроек и функции XLL интерфейса](add-in-manager-and-xll-interface-functions.md)
+- [Создание XLL-файлов](creating-xlls.md)
+- [Вызов функций XLL из диалоговых окон "Мастер функций" и "Замена"](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+- [Функции диспетчера надстроек и интерфейса XLL](add-in-manager-and-xll-interface-functions.md)
 - [���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
 
 

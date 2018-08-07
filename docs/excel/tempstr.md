@@ -10,7 +10,7 @@ keywords:
 - функция tempstr [excel 2007]
 localization_priority: Normal
 ms.assetid: b21b4868-babe-4255-9093-503172efa045
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ce9399168d5b94d10481d2d0b5b69dd2e1d1d2e9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807332"
 ---
 # <a name="tempstr"></a>TempStr
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Устаревшие функции библиотеки Framework, который создает временные **XLOPER** , содержащее строку **xltypeStr** байтов. Строка исходного символом null принимает в качестве входных данных. Она пытается заменить первым символом указанная строка длиной последующие строки. Не всегда безопасных что следует сделать: Microsoft Excel может произойти сбой, если передается строка только для чтения. 
   
@@ -28,9 +28,9 @@ ms.locfileid: "19807332"
 LPXLOPER TempStr(LPSTR str);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
- _STR_
+ _str_
   
 Указатель на строке source символом null. **TempStr** ограничивает длину строки, представляющие больше 255 байт. 
   
@@ -46,5 +46,5 @@ LPXLOPER TempStr(LPSTR str);
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 27741887-8405-49ed-b080-613613faf91b
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: fada57c45602f0a0b07276034101fa23a7525f5b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808662"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Гарантирует, что метод **OpenEntry** открывается с ожидаемый Exchange доступа к адресной книге. Эта функция работает так же, [IAddrBook::Details](iaddrbook-details.md) , но открывается с помощью адресная книга Exchange, определяемую средством _pEmsabpUID_ **entryID** .
   
@@ -45,7 +45,7 @@ HRESULT HrDoABDetailsWithProviderUID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pEmsabpUID_
   

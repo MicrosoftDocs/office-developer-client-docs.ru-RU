@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2292d53997fd4d54e9272789be83ea94a93c6a3e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810291"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает дату и время в рамках повторов, которое заменит исключение.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810291"
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008228  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Области:  <br/> |Календарь  <br/> |
+|Область:  <br/> |Календарь  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

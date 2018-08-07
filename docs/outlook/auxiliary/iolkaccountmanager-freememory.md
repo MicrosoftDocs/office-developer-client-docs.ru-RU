@@ -30,7 +30,7 @@ HRESULT IOlkAccountManager::FreeMemory (
 
 ## <a name="parameters"></a>Parameters
 
-_PV_
+_pv_
   
 > [in] Указатель на память, чтобы освободить место.
     

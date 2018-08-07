@@ -298,6 +298,6 @@ ms.locfileid: "19807384"
     
 ## <a name="see-also"></a>См. также
 
-- [О сборке взаимодействия Microsoft Office InfoPath основной](about-the-microsoft-office-infopath-primary-interop-assembly.md)
-- [О сборке взаимодействия InfoPath XML](about-the-infopath-xml-interop-assembly.md)
+- [Сведения об основной сборке взаимодействия Microsoft Office InfoPath](about-the-microsoft-office-infopath-primary-interop-assembly.md)
+- [Сведения о сборке взаимодействия XML InfoPath](about-the-infopath-xml-interop-assembly.md)
 

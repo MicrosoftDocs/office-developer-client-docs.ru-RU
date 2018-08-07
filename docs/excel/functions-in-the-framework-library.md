@@ -1,5 +1,5 @@
 ---
-title: Функции в библиотеке Framework
+title: Функции в библиотеке платформы
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - функции библиотеки Framework [excel 2007], функции [Excel 2007] библиотеки Framework
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1d3878e376f95be3b277f1bb1a59545eb0a631ac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807270"
 ---
-# <a name="functions-in-the-framework-library"></a>Функции в библиотеке Framework
+# <a name="functions-in-the-framework-library"></a>Функции в библиотеке платформы
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Чтобы обеспечить создание XLL-модулей для упрощения был создан библиотеки Framework. Включает простой функции для управления **XLOPER**/ **XLOPER12** памяти, создание временной **XLOPER**/ **XLOPER12**, надежно вызов функции обратного вызова Microsoft Excel (**Excel4**, **Excel4v** ** Excel12 **, ** Excel12v **) и отладки строк на подключенного терминала печати.
   
@@ -71,5 +71,5 @@ Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
   
 ## <a name="see-also"></a>См. также
 
-- [���������� �� ������� Excel 2013 XLL SDK API](excel-xll-sdk-api-function-reference.md)
+- [Справочник по функциям API SDK XLL для Excel](excel-xll-sdk-api-function-reference.md)
 

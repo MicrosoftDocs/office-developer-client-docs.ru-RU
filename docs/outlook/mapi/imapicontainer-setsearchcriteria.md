@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 93578300e2520dda4a9621b05ac6a79c54eca2ef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808839"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Устанавливает условия поиска для контейнера.
   
@@ -35,7 +35,7 @@ HRESULT SetSearchCriteria(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpRestriction_
   
@@ -133,7 +133,7 @@ MAPI_E_TOO_COMPLEX
   
 [IMAPIFolder::CreateFolder](imapifolder-createfolder.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   
@@ -141,7 +141,7 @@ MAPI_E_TOO_COMPLEX
   
 [SSubRestriction](ssubrestriction.md)
   
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)

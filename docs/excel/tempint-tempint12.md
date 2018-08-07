@@ -11,7 +11,7 @@ keywords:
 - функция tempint12 [excel 2007], функция TempInt [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: eb1dd9be0c0b20e533d9cd8202f8878c43b997be
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807329"
 ---
 # <a name="tempinttempint12"></a>TempInt/TempInt12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функция библиотеки Framework, который создает временные **XLOPER**/ **XLOPER12** , содержащее целое число. 
   
@@ -30,7 +30,7 @@ LPXLOPER TempInt(short int i);
 LPXLOPER12 TempInt12(int i);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _я_
   
@@ -60,5 +60,5 @@ short WINAPI TempIntExample(void)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

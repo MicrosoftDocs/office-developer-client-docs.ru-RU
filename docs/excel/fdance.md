@@ -10,7 +10,7 @@ keywords:
 - функция fdance [excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b7a2fbdf723d06dcf9b02789178d7d12d0515884
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807260"
 ---
 # <a name="fdance"></a>fDance
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Пример пользовательской команды, изменения выбранных ячеек на активном листе вокруг только при нажатии клавиши **ESC**. При загрузке GENERIC.xll, он создает пользовательских меню, общая, через который доступ к этой команды.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807260"
 int WINAPI fDance(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 Функция не принимает параметры.
   
@@ -48,5 +48,5 @@ int WINAPI fDance(void);
 
 
 
-[В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
 

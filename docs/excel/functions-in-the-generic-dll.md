@@ -1,5 +1,5 @@
 ---
-title: В универсальные библиотеки DLL
+title: Функции из универсальной библиотеки DLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - Универсальный dll [excel 2007], функции, функции [Excel 2007], универсальный DLL
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e78f276e58ca1c98786e28ed5167762cf0bfdf7f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807275"
 ---
-# <a name="functions-in-the-generic-dll"></a>В универсальные библиотеки DLL
+# <a name="functions-in-the-generic-dll"></a>Функции из универсальной библиотеки DLL
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Папка `\EXAMPLES\GENERIC\` содержит файлы проекта Microsoft Visual Studio и файлы исходного кода, которые требуются для компиляции примера DLL GENERIC.xll. Можно использовать этот проект как шаблон для создания собственных XLL-модулей для Microsoft Excel. Исходный код в этот проект демонстрирует многие функции интерфейса API для C Excel. 
   
@@ -36,7 +36,7 @@ GENERIC.xll также предоставляет три функции лист
   
 Этот проект использует библиотеку framework (FRMWRK32.lib).
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 [DIALOGMsgProc](dialogmsgproc.md)
   
@@ -64,5 +64,5 @@ GENERIC.xll также предоставляет три функции лист
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

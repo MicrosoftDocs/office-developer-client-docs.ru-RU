@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2787150a9fa0fc41e04c58b4a4310ffa844f3743
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808973"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Если такие хранилища возвращает хранилище сообщение, содержащее текущее сообщение. Этот метод возвращает значение NULL в параметре _ppStore_ для внедренных сообщений, которые хранятся в другое сообщение, а не непосредственно в хранилище сообщений. 
   
@@ -33,7 +33,7 @@ HRESULT GetStore(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _ppStore_
   
@@ -65,10 +65,10 @@ S_FALSE
 
 
 
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы формы MAPI](mapi-form-interfaces.md)
+[Интерфейсы форм MAPI](mapi-form-interfaces.md)
 

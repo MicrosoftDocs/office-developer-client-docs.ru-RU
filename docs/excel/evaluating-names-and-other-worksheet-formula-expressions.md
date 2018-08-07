@@ -8,7 +8,7 @@ keywords:
 - Вычисление выражения [excel 2007,] таблицы [Excel 2007] Имя оценки, оценка выражения [Excel 2007], оценка имена листов [Excel 2007], выражения [Excel 2007], оценки, оценка, имена [Excel 2007] Имя вычислений [Excel 2007] , преобразование значений, функция xlfEvaluate [Excel 2007], таблицы [Excel 2007], вычисление выражения строк [Excel 2007]
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9d726d89c859e2f7428b459971d5d13586f144e9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19807173"
 ---
 # <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>Оценка имена и другие выражения формулы листа
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Одной из наиболее важных функций, предоставляемых Excel через C API является возможность преобразования любой строки формулы, юридически должен быть введен в листе значение или массив значений. Это важно для функции XLL и команды, которые должны прочитать содержимое определенные имена, например. Эта возможность предоставляется через [функцию xlfEvaluate](xlfevaluate.md), как показано в следующем примере.
   
@@ -87,7 +87,7 @@ int WINAPI evaluate_expression_example(void)
   
 ## <a name="see-also"></a>См. также
 
-- [Лист Excel и вычисление выражения](excel-worksheet-and-expression-evaluation.md)
-- [���������� ������������ �������� ������� � ���������� ��������](permitting-user-breaks-in-lengthy-operations.md)
-- [��������� � ������ � SDK XLL ��� Excel 2013](getting-started-with-the-excel-xll-sdk.md)
+- [Оценка выражений и листов Excel](excel-worksheet-and-expression-evaluation.md)
+- [Разрешение прерывания длительных операций пользователем](permitting-user-breaks-in-lengthy-operations.md)
+- [Начало работы с пакетом SDK XLL для Excel](getting-started-with-the-excel-xll-sdk.md)
 

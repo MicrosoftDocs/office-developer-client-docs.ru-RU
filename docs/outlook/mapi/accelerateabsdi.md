@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b7d4d758f7031c55aa3a23b662ec8727ea1e0719
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19808001"
 ---
 # <a name="accelerateabsdi"></a>ACCELERATEABSDI
  
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Определяет функцию обратного вызова для процесса сочетания клавиш в диалоговом окне безрежимным адресная книга. 
   
@@ -38,7 +38,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _ulUIParam_
   

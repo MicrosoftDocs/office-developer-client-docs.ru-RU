@@ -10,7 +10,7 @@ keywords:
 - функция xlUDF [excel 2007]
 localization_priority: Normal
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8f45f800ca50d2a46792e7cf5e00ac25bd099e8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807377"
 ---
 # <a name="xludf"></a>xlUDF
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Вызов пользовательской функции (UDF). Эта функция позволяет DLL для вызова Visual Basic для приложений (VBA) пользовательские функции, функции языка макросов XLM и зарегистрированных функции, содержащиеся в другие надстройки.
   
@@ -29,7 +29,7 @@ Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
 LPXLOPER12 pxArg1, ...);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxFnRef_ (**xltypeRef**, **xltypeSRef**, **xltypeStr** или **xltypeNum**)
   
@@ -63,5 +63,5 @@ short WINAPI xlUDFExample(void)
 
 ## <a name="see-also"></a>См. также
 
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

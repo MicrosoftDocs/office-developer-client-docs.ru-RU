@@ -1,5 +1,5 @@
 ---
-title: Реализация функцию адресной книги поставщика
+title: Реализация функции точки входа для поставщика адресной книги
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b60a80bc0ede0c2800f6cfd98a98f498b93a1d8c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809301"
 ---
-# <a name="implementing-an-address-book-provider-entry-point-function"></a>Реализация функцию адресной книги поставщика
+# <a name="implementing-an-address-book-provider-entry-point-function"></a>Реализация функции точки входа для поставщика адресной книги
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 При клиентского приложения вызовы [MAPILogonEx](mapilogonex.md) для начала сеанса с использованием профиля, содержащего адресной книге, MAPI загружает поставщика и все остальные, которые являются частью профиля. Имя функции точки входа вашего поставщика анализирует MAPI, изучив в профиле. Помните, что эта функция не то же, что функция точки входа DLL; Обратитесь к документации по **DllMain** в документации по Win32. 
   

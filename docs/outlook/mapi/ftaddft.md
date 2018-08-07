@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e0e1535a770d4f1b437faf6a90c5f6415f6000ca
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808520"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Добавление одного целых 64-разрядная версия на другой.
   
@@ -40,7 +40,7 @@ FILETIME FtAddFt(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _Addend1_
   

@@ -11,7 +11,7 @@ keywords:
 - функция tempnum12 [excel 2007], функция TempNum [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5ebe58dba32c2cf0382bf0811713eaa0a5471dda
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807326"
 ---
 # <a name="tempnumtempnum12"></a>TempNum/TempNum12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функция библиотеки Framework, который создает временные **XLOPER**/ **XLOPER12** , содержащее число лист Microsoft Excel (IEEE double 8 байтов). 
   
@@ -30,7 +30,7 @@ LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _d_ (**double**)
   
@@ -60,5 +60,5 @@ short WINAPI TempNumExample(void)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

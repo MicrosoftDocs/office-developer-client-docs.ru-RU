@@ -15,7 +15,7 @@ ms.locfileid: "19808616"
 ---
 # <a name="check-the-version-of-outlook"></a>Проверка версии Outlook
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 � ���� ������� ��������� ������� ����, ��������� �������� � ������ ������������� ������ Microsoft Outlook, ���� ������������� ������ �������� Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007 ��� Microsoft Outlook 2003. �������� ������ Outlook � ��������� ������� ���������� ���������, ��� �������� API-���������� MAPI ���������� ������, �������������� � ��������� ����� �������� ������ Outlook.
 

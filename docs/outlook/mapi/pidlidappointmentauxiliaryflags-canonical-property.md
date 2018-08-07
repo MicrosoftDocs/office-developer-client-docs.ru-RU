@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c64e23-4a99-4f80-ba06-dfae2a5fe961
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cac9c735403e6cb65dfe3111a2246a8387339339
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810092"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Задает битовое поле, которое описывает дополнительный состояние объекта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810092"
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008207  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Области:  <br/> |Meetings (собрания);  <br/> |
+|Область:  <br/> |Meetings (собрания);  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -77,7 +77,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 18df25b7-16b7-44cd-a9a0-5276966c1fd4
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 332b78bcebbcd54de43376553ec4aea386c1c359
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808436"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Клиенты в некоторых случаях требуется найти имя профиля, используемого сейчас для сеанса, имя профиля по умолчанию или имя альтернативного профиля, установленный на компьютере.
   

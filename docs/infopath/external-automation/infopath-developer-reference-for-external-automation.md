@@ -1,5 +1,5 @@
 ---
-title: Справочник разработчика InfoPath по внешней автоматизации
+title: Справочник разработчика по автоматизации InfoPath с использованием внешних решений
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807396"
 ---
-# <a name="infopath-developer-reference-for-external-automation"></a>Справочник разработчика InfoPath по внешней автоматизации
+# <a name="infopath-developer-reference-for-external-automation"></a>Справочник разработчика по автоматизации InfoPath с использованием внешних решений
 
 Добро пожаловать на страницу справочника разработчика InfoPath 2013 для внешней автоматизации. В этой документации предоставляются обзоры, задачи программирования и справочные сведения библиотеки классов, призванные помочь в создании решений на основе управляемого кода, которые обеспечивают автоматизацию InfoPath из внешних приложений или надстроек.
   
@@ -29,6 +29,6 @@ ms.locfileid: "19807396"
 - [Центр разработчика Microsoft Office](http://msdn.microsoft.com/en-us/office/default.aspx)
 - [Соглашения о документах в документации разработчиков Office](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
 - [Microsoft Accessibility](http://www.microsoft.com/ENABLE/)
-- [Уведомление корпорации Майкрософт о конфиденциальности в сети](http://privacy.microsoft.com/en-us/default.mspx)
+- [Уведомление о конфиденциальности (Майкрософт), доступное в Интернете](http://privacy.microsoft.com/en-us/default.mspx)
   
 

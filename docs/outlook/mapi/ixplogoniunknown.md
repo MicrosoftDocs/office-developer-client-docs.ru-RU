@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d24ecaf-11d0-4362-8207-be3407736d7b
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 0b16fba054533f1cb5d21f3f4b1788c073eca13b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809651"
 ---
-# <a name="ixplogon--iunknown"></a>IXPLogon: IUnknown
+# <a name="ixplogon--iunknown"></a>IXPLogon : IUnknown
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Предоставляет доступ очереди MAPI для поставщика транспорта. 
   

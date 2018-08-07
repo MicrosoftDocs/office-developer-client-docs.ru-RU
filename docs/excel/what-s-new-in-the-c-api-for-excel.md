@@ -1,5 +1,5 @@
 ---
-title: Новые возможности интерфейса API C для Excel
+title: Новые возможности в API C для Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - c api [excel 2007], новые возможности
 localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e80b667296af59f4d3f18238cd498830fcdc35a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19807325"
 ---
-# <a name="whats-new-in-the-c-api-for-excel"></a>Новые возможности интерфейса API C для Excel
+# <a name="whats-new-in-the-c-api-for-excel"></a>Новые возможности в API C для Excel
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 В сочетании с Microsoft Excel 2013 Microsoft Excel 2013 XLL Software Development Kit (SDK) поддерживает следующие функции.
   
@@ -45,12 +45,12 @@ ms.locfileid: "19807325"
 
 
 
-[���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
+[Разработка XLL-файлов для Excel](developing-excel-xlls.md)
   
-[���������������� � �������������� C API � Excel](programming-with-the-c-api-in-excel.md)
+[Программирование с использованием API C в Excel](programming-with-the-c-api-in-excel.md)
   
 [��������������� � ��������� ������ � Excel](multithreading-and-memory-contention-in-excel.md)
 
 
-[��������� � ������ � SDK XLL ��� Excel 2013](getting-started-with-the-excel-xll-sdk.md)
+[Начало работы с пакетом SDK XLL для Excel](getting-started-with-the-excel-xll-sdk.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 694ee8b12b9918502e60c0c6ea92992cc1062945
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808983"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Запросы в текущем сообщении очереди для доставки.
   
@@ -69,10 +69,10 @@ FORCE_SUBMIT
 
 [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы формы MAPI](mapi-form-interfaces.md)
+[Интерфейсы форм MAPI](mapi-form-interfaces.md)
 

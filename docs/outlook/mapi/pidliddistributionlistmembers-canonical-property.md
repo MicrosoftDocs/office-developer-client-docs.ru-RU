@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c27513474048e9805bc29116aa094bc47f8f0cae
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810248"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Задает список EntryIds объектов, которые соответствуют членов списка рассылки.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810248"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008055  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
-|Области:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Контакт  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

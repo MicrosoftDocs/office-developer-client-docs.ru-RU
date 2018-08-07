@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c942bdbf27590dde04b84970e345f265bc645045
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809516"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Предоставляет доступ к таблице профилей таблицу, содержащую сведения обо всех доступных профилей.
   
@@ -72,11 +72,11 @@ HRESULT GetProfileTable(
 
 
 
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
   
 [MAPILogonEx](mapilogonex.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)

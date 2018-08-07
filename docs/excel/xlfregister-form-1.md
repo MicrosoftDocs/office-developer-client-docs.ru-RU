@@ -1,5 +1,5 @@
 ---
-title: xlfRegister (формы 1)
+title: xlfRegister (форма 1)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - функция xlfRegister [excel 2007]
 localization_priority: Normal
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4fb4e8656b4f27105a30764cdda020849a07645e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807357"
 ---
-# <a name="xlfregister-form-1"></a>xlfRegister (формы 1)
+# <a name="xlfregister-form-1"></a>xlfRegister (форма 1)
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Может быть вызван из DLL или XLL команду, которая был вызван с Microsoft Excel. Это значение равно вызову **регистрации** из таблицы Excel XLM макрос. 
   
@@ -45,7 +45,7 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, int iCount,
         ...);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxModuleText_ (**xltypeStr**)
   
@@ -109,7 +109,7 @@ _pxFunctionHelp_ (**xltypeStr**)
   
 _pxArgumentHelp1_ (**xltypeStr**)
   
-Необязательно. Первое строк, которые описывают пользовательские аргументы функции при выборе функции в Мастер функций. В Excel 2003 и более ранних версиях **xlfRegister** может принимать, не более 30 аргументы таким образом, можно обеспечить справки для первого 20 только аргументов функции. Начиная с версии Excel 2007, **xlfRegister** может занять до 255 аргументов, таким образом, можно обеспечить справки до 245 параметров функции. 
+Необязательный атрибут. Первое строк, которые описывают пользовательские аргументы функции при выборе функции в Мастер функций. В Excel 2003 и более ранних версиях **xlfRegister** может принимать, не более 30 аргументы таким образом, можно обеспечить справки для первого 20 только аргументов функции. Начиная с версии Excel 2007, **xlfRegister** может занять до 255 аргументов, таким образом, можно обеспечить справки до 245 параметров функции. 
   
 ## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
 
@@ -280,7 +280,7 @@ extern "C" lpDbl __stdcall AddDbl(double D1,
 |1  <br/> |Финансовые  <br/> |
 |2  <br/> |Дата &amp; времени  <br/> |
 |3  <br/> |Математические &amp; активация  <br/> |
-|4  <br/> |Text  <br/> |
+|4  <br/> |Текст  <br/> |
 |5  <br/> |Логические операции  <br/> |
 |6  <br/> |Поиск &amp; Справочник  <br/> |
 |7  <br/> |База данных  <br/> |
@@ -294,7 +294,7 @@ extern "C" lpDbl __stdcall AddDbl(double D1,
   
 |**Число**|**Text**|
 |:-----|:-----|
-|10  <br/> |�������  <br/> |
+|10  <br/> |Команды  <br/> |
 |11  <br/> |DDE или внешний  <br/> |
 |12  <br/> |Настройка  <br/> |
 |13  <br/> |Элемент управления макросов  <br/> |
@@ -307,5 +307,5 @@ extern "C" lpDbl __stdcall AddDbl(double D1,
 
 - [РЕГИСТРАТОР.ИД](xlfregisterid.md)
 - [ОТМЕНА РЕГИСТРАЦИИ](xlfunregister-form-1.md)
-- [Функции API XLM важные и полезные C](essential-and-useful-c-api-xlm-functions.md)
+- [Необходимые и полезные функции XLM из API C](essential-and-useful-c-api-xlm-functions.md)
 

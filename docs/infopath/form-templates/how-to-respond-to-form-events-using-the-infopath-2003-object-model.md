@@ -1,5 +1,5 @@
 ---
-title: Ответ на события, с помощью объектной модели InfoPath 2003 формы
+title: Обработка событий форм с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807499"
 ---
-# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Ответ на события, с помощью объектной модели InfoPath 2003 формы
+# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Обработка событий форм с помощью объектной модели InfoPath 2003
 
 Можно написать код, реагирующий на различные события, которые могут происходить при заполнении пользователем формы. Для работы с событиями в InfoPath в режиме конструктора InfoPath создаются обработчики событий.
   
@@ -27,23 +27,23 @@ ms.locfileid: "19807499"
 
 Объектная модель совместимых с InfoPath 2003 реализует девяти объектов событий, предоставляемые в пространстве имен [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . В следующей таблице приведены каждого из объектов событий Microsoft InfoPath, обработчики событий, связанные с ними и описание возможностей, предоставляемых. 
   
-|**Имя**|**Обработчики событий**|**Описание**|
+|**Имя**|**обработчики событий.**|**Описание**|
 |:-----|:-----|:-----|
 |[DataDOMEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.aspx) <br/> |[OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx) <br/> [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) , [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, состояние возврата и другие свойства, содержащие сведения о XML-узле во время изменения объектной модели XML-документа. Также включает метод выявления ошибок.  <br/> |
 |[DocActionEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent.aspx) <br/> |[OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, статус возврата, а также исходный XML-узел во время нажатия кнопки в области формы.  <br/> |
 |[DocContextChangeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocContextChangeEvent.aspx) <br/> |[OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx) <br/> |Возвращает информацию об XML-узле модели Document Object Model (DOM), который является текущим контекстом базового XML-документа формы.  <br/> |
 |[DocEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent.aspx) <br/> |[OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx) , [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы во время переключения режимов или во время операции объединения форм.  <br/> |
 |[DocReturnEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent.aspx) <br/> |[OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) , [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, а также статус возврата в течение загрузки или отправки формы.  <br/> |
-|[MergeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MergeEvent.aspx) <br/> |[OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) <br/> |Возвращает свойства и методы, которые можно использовать в ходе события **OnMergeRequest** для программного взаимодействия с XML-документом формы и определить merge свойств, таких как число объединяемых файлов.  <br/> |
-|[SaveEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Возвращает число свойств и методов, которые можно использовать во время сохранения операции из обработчика событий **OnSaveRequest** для программного взаимодействия с базовым XML-документе формы, определить свойства сохранения и выполнения сохранения операции.  <br/> |
+|[MergeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MergeEvent.aspx) <br/> |[OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) <br/> |Возвращает свойства и методы, которые можно использовать при выполнении события  **OnMergeRequest** для программного взаимодействия с базовым XML-документом формы, а также для определения свойств объединения, таких как число объединяемых файлов.  <br/> |
+|[SaveEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Возвращает число свойств и методов, которые можно использовать во время сохранения из обработчика событий **OnSaveRequest** для программного взаимодействия с базовым XML-документом формы, определения свойств сохранения и выполнения сохранения.  <br/> |
 |[SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) <br/> |[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Используется для ввода дополнительных данных в цифровую подпись.  <br/> |
 |[VersionUpgradeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent.aspx) <br/> |[OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, статус возврата, а также номера версий документа и приложения во время обновления версии.  <br/> |
    
 ## <a name="using-the-event-objects"></a>Использование объектов событий
 
-Создание обработчика событий, InfoPath создает объявление обработчика событий в файле кода формы проекта (FormCode.cs или FormCode.vb). В объявлении обработчика событий InfoPath использует **e** как имя параметра, который передается в обработчик событий. Этот параметр содержит объект события, связанного с обработчиком событий. 
+При создании обработчика событий приложение InfoPath создает объявление обработчика событий в файле кода формы проекта (FormCode.cs или FormCode.vb). В этом описании приложение InfoPath использует **e** в качестве имени параметра, передаваемого обработчику событий. Этот параметр содержит объект событий, который связан с обработчиком событий. 
   
-Например при создании обработчик событий для события **OnLoad** в режиме конструктора (по на вкладке **Разработчик** щелкните **Событие onLoad** ) InfoPath добавляет объявления для обработчика событий, который получает объект **DocReturnEvent** для Форма кода файл, а затем открывает редактор кода, чтобы код можно добавить следующее объявление обработчика событий. 
+Например, при создании обработчика событий **OnLoad** в режиме конструктора (выбрав **Событие OnLoad** на вкладке **Разработчик**) приложение InfoPath добавляет объявление обработчика событий, получающего объект **DocReturnEvent**, в файл кода формы, а затем открывает редактор кода, чтобы можно было добавить код в следующее объявление обработчика событий. 
   
 ```cs
 // The following function handler is created by Microsoft Office 

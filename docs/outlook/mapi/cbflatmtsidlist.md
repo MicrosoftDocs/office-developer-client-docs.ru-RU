@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ecc7c15-ca8a-4af2-9256-b572b70be093
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c69ee41fe4cf170deb12ba92e5629627b9cd1bd0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808130"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вычисляет число байтов в имеющуюся структуру [FLATMTSIDLIST](flatmtsidlist.md) . 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19808130"
 CbFLATMTSIDLIST (_lplist)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  __lplist_
   
@@ -49,5 +49,5 @@ CbFLATMTSIDLIST (_lplist)
 [FLATMTSIDLIST](flatmtsidlist.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 

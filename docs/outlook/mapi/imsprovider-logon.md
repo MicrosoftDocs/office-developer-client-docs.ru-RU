@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b89c8129f68852bdd243a7f984497ab312aa2551
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809456"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Журналы MAPI на один экземпляр поставщика хранилища сообщений.
   
@@ -44,7 +44,7 @@ HRESULT Logon(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpMAPISup_
   
@@ -236,11 +236,11 @@ MAPI освобождает буфер при необходимости. Есл
   
 [IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)
   
-[IProfSect: IMAPIProp](iprofsectimapiprop.md)
+[IProfSect : IMAPIProp](iprofsectimapiprop.md)
   
 [MAPIERROR](mapierror.md)
   
 [MSProviderInit](msproviderinit.md)
   
-[IMSProvider: IUnknown](imsprovideriunknown.md)
+[IMSProvider : IUnknown](imsprovideriunknown.md)
 

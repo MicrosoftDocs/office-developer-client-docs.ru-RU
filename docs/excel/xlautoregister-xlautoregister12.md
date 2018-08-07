@@ -10,7 +10,7 @@ keywords:
 - функция xlautoregister [excel 2007]
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e6430a54b0c0ed3b6e08d3c9256cae7dcde926ab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807338"
 ---
 # <a name="xlautoregisterxlautoregister12"></a>xlAutoRegister/xlAutoRegister12
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Excel вызывает [функцию xlAutoRegister](xlautoregister-xlautoregister12.md) при вызова функции XLM, **Регистрация**или эквивалентный интерфейса API для C [xlfRegister функции](xlfregister-form-1.md), с помощью типов возврата и аргумент функции регистрации отсутствует. Это позволяет XLL-Модулей для поиска его внутренней списки экспортированных функций и команды, чтобы зарегистрировать функцию в аргументе и возвращаемые типы указан.
   
@@ -36,7 +36,7 @@ LPXLOPER12 WINAPI xlAutoRegister12(LPXLOPER12 pxName);
 LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxName_ (**xltypeStr**)
   

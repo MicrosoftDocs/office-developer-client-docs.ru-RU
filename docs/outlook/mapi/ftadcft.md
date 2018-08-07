@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9be25dc655536ff5d32a635da57c54ebd12fea0f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808515"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Добавляет один целых 64-разрядная версия на другой, при необходимости с помощью реализуемые флаг.
   
@@ -36,7 +36,7 @@ FILETIME FtAdcFt(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _FT1_
   

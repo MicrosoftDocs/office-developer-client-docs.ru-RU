@@ -1,5 +1,5 @@
 ---
-title: Доступ к данным формы
+title: Доступ к данным форм
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807526"
 ---
-# <a name="access-form-data"></a>Доступ к данным формы
+# <a name="access-form-data"></a>Доступ к данным форм
 
 Флажок расширить функциональность формы InfoPath, часто бывает необходимо программным способом доступа к сведениям о базовом документе XML формы, доступ к данным, который содержит XML-документа или выполнение некоторых действий с документом XML. Объектная модель InfoPath поддерживает доступ к и работа с XML-документом формы посредством использования класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) в сочетании с классом [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) . 
   
@@ -32,11 +32,11 @@ ms.locfileid: "19807526"
 |Метод [NewFromFormTemplate(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx)  <br/> |Создает новую форму на основе указанного шаблона формы.  <br/> |
 |Метод [NewFromFormTemplate (строка, строка)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (перегрузка 1)  <br/> |Создает новую форму на основе указанного шаблона формы и XML-данных.  <br/> |
 |Метод [NewFromFormTemplate (строка, строка, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (перегрузка 2)  <br/> |Создает новую форму на основе указанного шаблона формы с данными, указанными объектом [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) .  <br/> |
-|Метод [NewFromFormTemplate (String, XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (перегрузка 3)  <br/> |Создает новую форму на основе указанного шаблона формы с данными, указанными объектом **XPathNavigator** , с помощью определенного поведения режима открытия.  <br/> |
+|Метод [NewFromFormTemplate (String, XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (перегрузка 3)  <br/> |Создает новую форму на основе указанного шаблона формы с данными, указанными объектом **XPathNavigator**, и с использованием указанного поведения режима открытия.  <br/> |
 |Метод [Open(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Open.aspx)  <br/> |Открывает указанную форму.  <br/> |
 |Метод [Open (строка, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Open.aspx) (перегрузка 1)  <br/> |Открывает указанную форму с использованием указанного поведения режима открытия.  <br/> |
-|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Count.aspx)  <br/> |Возвращает количество объектов **XmlForm** , содержащихся в коллекции.  <br/> |
-|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **XmlForm** из коллекции по значению индекса.  <br/> |
+|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Count.aspx)  <br/> |Возвращает количество объектов **XmlForm**, содержащихся в семействе.  <br/> |
+|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **XmlForm** из семейства по значению индекса.  <br/> |
    
 ## <a name="overview-of-the-xmlform-class"></a>Обзор интерфейса XmlForm
 
@@ -45,17 +45,17 @@ ms.locfileid: "19807526"
 |**Имя**|**Описание**|
 |:-----|:-----|
 |Метод [Close](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Close.aspx)  <br/> |Закрывает форму.  <br/> |
-|Метод [GetWorkflowTasks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTasks.aspx)  <br/> |Возвращает ссылку на коллекцию **Microsoft.Office.Core.WorkflowTasks** для текущей формы.  <br/> |
-|Метод [GetWorkflowTemplates](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTemplates.aspx)  <br/> |Возвращает ссылку на коллекцию **Microsoft.Office.Core.WorkflowTemplates** для текущей формы.  <br/> |
+|Метод [GetWorkflowTasks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTasks.aspx)  <br/> |Возвращает ссылку на семейство **Microsoft.Office.Core.WorkflowTasks** для текущей формы.  <br/> |
+|Метод [GetWorkflowTemplates](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTemplates.aspx)  <br/> |Возвращает ссылку на семейство **Microsoft.Office.Core.WorkflowTemplates** для текущей формы.  <br/> |
 |Метод [MergeForm(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx)  <br/> |Объединяет текущую форму с формой, указанной с помощью пути или URL-адреса.  <br/> |
-|Метод [MergeForm(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) (перегрузка 1)  <br/> |Объединяет текущую форму с формой, указанной в узле, возвращенном объектом **XPathNavigator** переданным методу.  <br/> |
+|Метод [MergeForm(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) (перегрузка 1)  <br/> |Объединяет текущую форму с формой, указанной в узле, возвращаемым переданным в метод объектом **XPathNavigator**.  <br/> |
 |Метод [NotifyHost](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NotifyHost.aspx)  <br/> |Предоставляет пользовательское значение для внешнего приложения или ASPX-страницы.  <br/> |
 |Метод [Print()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx)  <br/> |Распечатывает содержимое формы в соответствии с активным представлением формы.  <br/> |
-|Метод [Print(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) (перегрузка 1)  <br/> |Печатает содержимое формы, отображаемое в активном представлении формы путем отображения диалогового окна **Печать** .  <br/> |
+|Метод [Print(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) (перегрузка 1)  <br/> |Распечатывает содержимое формы в соответствии с активным представлением формы путем вывода диалогового окна **Печать**.  <br/> |
 |Метод [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Save.aspx)  <br/> |Сохраняет форму по URL-адресу, с которым она в данный момент связана.  <br/> |
 |Метод [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx)  <br/> |Сохраняет форму по указанному URL-адресу.  <br/> |
-|Метод [SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx)  <br/> |Задает имя файла по умолчанию для диалогового окна **Сохранить как** .  <br/> |
-|Метод [SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogLocation.aspx)  <br/> |Задает путь по умолчанию для сохранения формы с помощью диалогового окна **Сохранить как** .  <br/> |
+|Метод [SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx)  <br/> |Задает имя файла по умолчанию для диалогового окна **Сохранить как**.  <br/> |
+|Метод [SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogLocation.aspx)  <br/> |Задает путь по умолчанию для сохранения формы с помощью диалогового окна **Сохранить как**.  <br/> |
 |Метод [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx)  <br/> |Отправляет форму с помощью операции отправки, указанной в шаблоне формы.  <br/> |
 |Свойство [CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx)  <br/> |Получает объект [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , представляющий текущее представление формы.  <br/> |
 |Свойство [DataConnections](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx)  <br/> |Возвращает объект [DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) , связанный с формой.  <br/> |
@@ -63,8 +63,8 @@ ms.locfileid: "19807526"
 |Свойство [Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx)  <br/> |Возвращает значение, которое указывает, были ли изменены данные формы с момента ее последнего сохранения.  <br/> |
 |Свойство [Errors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx)  <br/> |Возвращает ссылку на [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) , связанного с формой.  <br/> |
 |Свойство [Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx)  <br/> |Возвращает [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) для доступа к функциям и глобальным переменным, содержащимся в файле кода формы основной формы, использующего [System.Reflection](https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx).  <br/> |
-|Свойство [FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx)  <br/> |Возвращает ссылку на контейнер свойств [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) , форм с поддержкой веб-браузера можно использовать для сохранения сведений о состоянии сеансов на сервере типа.  <br/> |
-|Свойство [узла](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx)  <br/> |Возвращает [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) , код, выполняющийся в размещенном экземпляре InfoPath можно использовать для доступа к объектной модели ведущего приложения.  <br/> |
+|Свойство [FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx)  <br/> |Возвращает ссылку на контейнер свойств [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) типа, которые могут использовать формы с поддержкой браузера для обработки сведений о состоянии сеансов на сервере.  <br/> |
+|Свойство [узла](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx)  <br/> |Возвращает [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx), который код, запущенный в размещенном экземпляре InfoPath, может использовать для доступа к объектной модели внешнего приложения.  <br/> |
 |Свойство [размещенных в узлах](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Hosted.aspx)  <br/> |Возвращает факт размещения InfoPath в качестве элемента управления в другом приложении.  <br/> |
 |Свойство [HostName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.HostName.aspx)  <br/> |Возвращает имя приложения, размещающего InfoPath в качестве элемента управления.   <br/> |
 |Свойство [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx)  <br/> |Получает объект [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) , представляющий основной источник данных формы.  <br/> |
@@ -81,13 +81,13 @@ ms.locfileid: "19807526"
 |Свойство [URI](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Uri.aspx)  <br/> |Возвращает URI-идентификатор формы.  <br/> |
 |Свойство [UserRole](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.UserRole.aspx)  <br/> |Возвращает или задает текущего пользователя для имени роли формы.  <br/> |
 |Свойство [ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.ViewInfos.aspx)  <br/> |Возвращает ссылку на объект [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) , связанный с шаблоном формы.  <br/> |
-|Свойство [XmlLang](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.XmlLang.aspx)  <br/> |Получает значение атрибута **XML: lang** в базовом XML-документе формы.  <br/> |
+|Свойство [XmlLang](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.XmlLang.aspx)  <br/> |Возвращает значение атрибута **xml:lang** в базовом XML-документе формы.  <br/> |
    
 ## <a name="using-the-xmlformcollection-class"></a>Использование класса XmlFormCollection
 
 Класс **XmlFormCollection** доступен через свойство [XmlForms](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.XmlForms.aspx) класса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . В шаблона формы с управляемым кодом, созданных с помощью объектной модели, которая предоставляется элементами пространства имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) можно использовать **Этот** (C#) или ключевое слово **Me** (Visual Basic) в код формы для доступа к **приложения **класс и его элементы. 
   
-В следующем примере свойство **XmlForms** класса **приложения** для создания объектной переменной с именем myForms, который ссылается на объект **XDocumentsCollection** , запущенные в настоящий момент экземпляра InfoPath. Эта переменная затем используется для отображения числа открытых форм. 
+В следующем примере используется свойство **XmlForms** класса **Application** для создания объектной переменной myForms, которая указывает объект **XDocumentsCollection** запущенного в данный момент экземпляра InfoPath. Эта переменная впоследствии используется для отображения количества открытых форм. 
   
 ```cs
 // Create variable for accessing the XmlFormCollection.
@@ -103,7 +103,7 @@ Dim myForms As XmlFormCollection = Me.Application.XmlForms
 MessageBox.Show("Forms open: " + myForms.Count)
 ```
 
-Переменную myForms будет использоваться для создания новых форм (с помощью одного из методов **New** или **NewFromTemplate** ) или открытия существующих форм (с помощью одного из методов **Open** ). 
+Переменную myForms также затем можно использовать для создания новых форм (с помощью одного из методов **New** или **NewFromTemplate**) или открытия существующих форм (с помощью одного из методов **Open**). 
   
 ## <a name="using-the-xmlform-class"></a>Использование класса XmlForm
 
@@ -111,7 +111,7 @@ MessageBox.Show("Forms open: " + myForms.Count)
   
 ### <a name="accessing-a-forms-property-values"></a>Доступ к значениям свойств формы
 
-В следующем примере используется **Этот** или ключевое слово **Me** для доступа к свойствам **New**, **ReadOnly**, **Signed**и **Uri** класса **XmlForm** и отображения значений, возвращенных для текущей формы в окне сообщения . 
+В следующем примере используется ключевое слово **this** или **Me** для предоставления доступа к свойствам **New**, **ReadOnly**, **Signed** и **Uri** класса **XmlForm** и отображения в окне сообщения значений, возвращенных для текущей формы. 
   
 ```cs
 MessageBox.Show(
@@ -151,7 +151,7 @@ MessageBox.Show(myDoc)
 ```
 
 > [!NOTE]
-> Поскольку InfoPath свойство **MainDataSource** рассматривается как свойство по умолчанию объект **XmlForm** , к которому при использовании **this** или **Me** ключевые слова, его можно опустить из строки кода, используемые для создания **XPathNavigator** объект. 
+> Поскольку приложение InfoPath рассматривает свойство **MainDataSource** как свойство по умолчанию объекта **XmlForm**, доступ к которому предоставляется при использовании ключевых слов **this** и **Me**, то можно опустить его в строке кода, используемой для создания объекта **XPathNavigator**. 
   
 Чтобы узнать больше о класса **XPathNavigator** в бизнес-логике шаблона формы InfoPath, см [классов XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   

@@ -10,7 +10,7 @@ keywords:
 - функция debugprintf [excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 25669cfc705e797b80be0fab590d809e8f1e3b5c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807146"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функция библиотеки Framework, которая записывает символом null байтов строку активного отладчика с помощью пакета SDK Windows функция **OutputDebugStringA**. Если приложение не отладчик, отладчик система отображает строку. Если приложение имеет отладчик не и отладчик система не активен, **debugPrintf** не имеет никакого эффекта. 
   
@@ -30,7 +30,7 @@ ms.locfileid: "19807146"
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpFormat (LPSTR)_
   
@@ -61,5 +61,5 @@ short WINAPI debugPrintfExample(void)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

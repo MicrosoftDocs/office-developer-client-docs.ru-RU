@@ -1,5 +1,5 @@
 ---
-title: Экспортированные интерфейсы API Outlook
+title: Экспортированные API Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807924"
 ---
-# <a name="outlook-exported-apis"></a>Экспортированные интерфейсы API Outlook
+# <a name="outlook-exported-apis"></a>Экспортированные API Outlook
 
 В этом разделе представлены справочные материалы, которые для API-интерфейсы, экспортирует Outlook.
 

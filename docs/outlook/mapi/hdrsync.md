@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bf6892d0-a923-e926-5361-59efa49ebdc0
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: bd1c327eb2042957c8fb043736950af3dae520b7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808581"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Сведения о синхронизации заголовок сообщения во время [загрузки состояния заголовок сообщения](download-message-header-state.md).
   
@@ -36,7 +36,7 @@ struct HDRSYNC
 };
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  _pupmsg_
   
@@ -74,9 +74,9 @@ struct HDRSYNC
 
 
 
-[О репликации API](about-the-replication-api.md)
+[Сведения об API репликации](about-the-replication-api.md)
   
-[О репликации конечного автомата](about-the-replication-state-machine.md)
+[Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
 [��������� MAPI](mapi-constants.md)
   

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 787badaf-8782-454d-a016-7eae83bbd8a9
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f73f49e4d76a8545399eede283b70551ee6569f9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19807137"
 ---
 # <a name="cluster-safe-functions"></a>Безопасные для кластера функции
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 В Excel 2013 Excel может снизить нагрузку звонки пользовательские функции (UDF) в кластере высокопроизводительных сетей через интерфейс соединителя выделенного кластера. Поставщики COMPUTE cluster предоставляют соединителей кластеров. Авторы UDF можно объявить их пользовательских функций как кластера надежных и, при наличии соединитель кластера Excel отправляет звонков на этих пользовательских функций в соединитель кластера для разгрузки.
   

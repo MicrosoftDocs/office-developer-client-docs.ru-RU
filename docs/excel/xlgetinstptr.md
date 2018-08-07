@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a166f39c-f10b-4e56-8b5d-e6a54ee08c8f
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7cc07093e5db335d01fe85527746594d34d4d938
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19807371"
 ---
 # <a name="xlgetinstptr"></a>xlGetInstPtr
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает экземпляр обработчика экземпляра Microsoft Excel, которые в настоящее время звонит библиотеки DLL.
   
@@ -24,7 +24,7 @@ ms.locfileid: "19807371"
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 Эта функция не содержит аргументов.
   
@@ -72,5 +72,5 @@ short WINAPI xlGetInstPtrExample(void)
 
 - [xlGetHwnd](xlgethwnd.md)
 - [xlGetInst](xlgetinst.md)
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

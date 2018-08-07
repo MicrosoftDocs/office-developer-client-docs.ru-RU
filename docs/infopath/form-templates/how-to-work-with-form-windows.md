@@ -20,7 +20,7 @@ ms.locfileid: "19807518"
 При работе программным путем с помощью формы InfoPath, можно написать код для доступа к форме windows и затем настроить некоторые элементы, которые они содержат. Объектная модель InfoPath, предоставляемой поддерживает доступ пространства имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) к windows формы посредством использования класса [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) в сочетании с классом [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.aspx) . 
   
 > [!NOTE]
-> Классы для работы с windows формы доступны только при работе с **Шаблон формы InfoPath**. Если параметр **совместимости** шаблона формы **Форма веб-браузера**, эти классы недоступны. 
+> Классы для работы с окном формы доступны только при работе с **Формой редактора InfoPath**. Если параметр **Совместимость** шаблона формы имеет значение **Форма веб-браузера**, эти классы не будут доступны. 
   
 В InfoPath существует два типа окон:  
   
@@ -45,20 +45,20 @@ ms.locfileid: "19807518"
   
 |**Имя**|**Описание**|**Поддержка типов окон**|
 |:-----|:-----|:-----|
-|Метод [Activate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Activate.aspx)  <br/> |Активирует окно (переключает фокус).   <br/> |**Designer** и **Editor**  <br/> |
-|Свойство [активности](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Active.aspx)  <br/> |Получает **логическое** значение, указывающее, является ли окно текущего активного окна.  <br/> |**Designer** и **Editor**  <br/> |
+|Метод [Activate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Activate.aspx)  <br/> |Активирует окно (переключает фокус).   <br/> |Типы **Designer** и **Editor**  <br/> |
+|Свойство [активности](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Active.aspx)  <br/> |Возвращает логическое (**Boolean**) значение, указывающее, является ли окно активным в данный момент.  <br/> |Типы **Designer** и **Editor**  <br/> |
 |Свойство [Caption](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Caption.aspx)  <br/> |Получает или задает текст заголовка для окна, представленного объектом [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) .  <br/> |Только тип **Editor**  <br/> |
 |Метод [Close()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx)  <br/> |Закрывает окно с запросом на сохранение изменений для любой несохраненной формы или формы, изменения которой не были сохранены.  <br/> |Только тип **Editor**  <br/> |
 |Метод [Close(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx)  <br/> |Закрывает окно и позволяет при необходимости принудительно закрыть без сохранения несохраненную форму или форму с несохраненными изменениями.   <br/> |Только тип **Editor**  <br/> |
-|Свойство [CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.CommandBars.aspx)  <br/> |Возвращает ссылку на коллекцию Microsoft Office **CommandBars** , связанный с окном.  <br/> |**Designer** и **Editor**  <br/> |
-|Свойство [Height](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Height.aspx)  <br/> |Возвращает или задает высоту окна, измеряемую в точках.  <br/> |**Designer** и **Editor**  <br/> |
-|Свойство [слева](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Left.aspx)  <br/> |Возвращает или задает горизонтальную позицию окна, измеряемую в точках.  <br/> |**Designer** и **Editor**  <br/> |
+|Свойство [CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.CommandBars.aspx)  <br/> |Возвращает ссылку на коллекцию Microsoft Office **CommandBars**, связанную с окном.  <br/> |Типы **Designer** и **Editor**  <br/> |
+|Свойство [Height](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Height.aspx)  <br/> |Возвращает или задает высоту окна, измеряемую в точках.  <br/> |Типы **Designer** и **Editor**  <br/> |
+|Свойство [слева](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Left.aspx)  <br/> |Возвращает или задает горизонтальную позицию окна, измеряемую в точках.  <br/> |Типы **Designer** и **Editor**  <br/> |
 |Свойство [MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.MailEnvelope.aspx)  <br/> |Возвращает ссылку на класс [MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MailEnvelope.aspx) .  <br/> |Только тип **Editor**  <br/> |
-|Свойство [TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.TaskPanes.aspx)  <br/> |Возвращает ссылку на коллекцию [TaskPaneCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.aspx) .  <br/> |**Designer** и **Editor**  <br/> |
-|Свойство [Top](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Top.aspx)  <br/> |Возвращает или задает вертикальную позицию окна, измеряемую в точках.  <br/> |**Designer** и **Editor**  <br/> |
-|Свойство [Width](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Width.aspx)  <br/> |Возвращает или задает ширину окна, измеряемую в точках.  <br/> |**Designer** и **Editor**  <br/> |
-|Свойство [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowState.aspx)  <br/> |Получает или задает состояние окна как значение [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowState.aspx) .  <br/> |**Designer** и **Editor**  <br/> |
-|Свойство [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowType.aspx)  <br/> |Возвращает тип окна как значение перечисления [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) .  <br/> |**Designer** и **Editor**  <br/> |
+|Свойство [TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.TaskPanes.aspx)  <br/> |Возвращает ссылку на коллекцию [TaskPaneCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.aspx) .  <br/> |Типы **Designer** и **Editor**  <br/> |
+|Свойство [Top](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Top.aspx)  <br/> |Возвращает или задает вертикальную позицию окна, измеряемую в точках.  <br/> |Типы **Designer** и **Editor**  <br/> |
+|Свойство [Width](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Width.aspx)  <br/> |Возвращает или задает ширину окна, измеряемую в точках.  <br/> |Типы **Designer** и **Editor**  <br/> |
+|Свойство [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowState.aspx)  <br/> |Получает или задает состояние окна как значение [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowState.aspx) .  <br/> |Типы **Designer** и **Editor**  <br/> |
+|Свойство [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowType.aspx)  <br/> |Возвращает тип окна как значение перечисления [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) .  <br/> |Типы **Designer** и **Editor**  <br/> |
 |Свойство [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.XmlForm.aspx)  <br/> |Возвращает ссылку на объект [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) , связанный с окном.  <br/> |Только тип **Editor**  <br/> |
    
 ## <a name="using-the-windowscollection-and-window-classes"></a>Использование классов "WindowsCollection" и "Window"

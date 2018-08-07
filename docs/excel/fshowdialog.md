@@ -10,7 +10,7 @@ keywords:
 - функция fshowdialog [excel 2007]
 localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: ae6d8b2f0b95641678947e9bd75daa2237b080b1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807266"
 ---
 # <a name="fshowdialog"></a>fShowDialog
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Пример пользовательской команды, загружает и отображает пример собственный диалоговое окно Windows. При загрузке GENERIC.xll, он создает пользовательских меню, общая, через который доступ к этой команды.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807266"
 int WINAPI fShowDialog(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 Функция не принимает параметры.
   
@@ -56,5 +56,5 @@ int WINAPI fShowDialog(void);
 
 
 
-[В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
 

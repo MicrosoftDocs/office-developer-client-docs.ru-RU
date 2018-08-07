@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d0418ac2ec5d01d58c63e4ad48a1066cc386e946
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808357"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описывает элемент управления редактирования, которая будет использоваться в диалоговое окно, построенная на основе таблицы отображения.
   
@@ -43,7 +43,7 @@ typedef struct _DTBLEDIT
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **ulbLpszCharsAllowed**
   

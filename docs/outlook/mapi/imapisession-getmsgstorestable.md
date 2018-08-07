@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ba540b0fd3371b3e12be9eeeb102a9bd9d7e8d22
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809053"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Предоставляет доступ к таблице хранилища сообщений, который содержит сведения о всех хранилищ сообщений в профиле сеанса.
   
@@ -84,7 +84,7 @@ MAPI_E_BAD_CHARWIDTH
 
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
   
 [IMAPITable::QueryColumns](imapitable-querycolumns.md)
   
@@ -101,5 +101,5 @@ MAPI_E_BAD_CHARWIDTH
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
   
-[Хранение сообщений таблиц](message-store-tables.md)
+[Таблицы хранилища сообщений](message-store-tables.md)
 

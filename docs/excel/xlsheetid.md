@@ -10,7 +10,7 @@ keywords:
 - функция xlsheetid [excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e4e184d4e456ffe26292fe31b1b41463834216f9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807366"
 ---
 # <a name="xlsheetid"></a>xlSheetId
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Находит идентификатор листа именованные таблицы для создания внешних ссылок.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807366"
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxSheetName_ (**xltypeStr**)
   
@@ -65,5 +65,5 @@ short WINAPI xlSheetIdExample(void)
 ## <a name="see-also"></a>См. также
 
 - [xlSheetNm](xlsheetnm.md)
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

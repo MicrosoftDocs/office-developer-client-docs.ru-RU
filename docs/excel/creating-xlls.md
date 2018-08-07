@@ -1,5 +1,5 @@
 ---
-title: Создание XLL-модулей
+title: Создание XLL-файлов
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - библиотеки DLL [excel 2007], вызов в excel, функция xlAutoFree [Excel 2007], функция xlAutoFree12 [Excel 2007],xlcall32.lib [Excel 2007], функция xlAutoRegister [Excel 2007],xlcall.cpp [Excel 2007], функция xlAutoRemove [Excel 2007], xlAddInManagerInfo функция [Excel 2007], функция xlAutoAdd [Excel 2007], функция xlAutoOpen [Excel 2007], xlAutoClose функции [Excel 2007], DLL-библиотеки [Excel 2007], превращение в XLL-модулей, XLL-модулей [Excel 2007], вызов в Excel, функция xlAutoRegister12 [Excel 2007],xlcall.h [Excel 2007], xlAddInManagerInfo12 функции [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7754998f-4e13-4a37-9724-43b6ee6c919b
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: de347d34768c25adf0d96642b4fade781ae26a9c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807158"
 ---
-# <a name="creating-xlls"></a>Создание XLL-модулей
+# <a name="creating-xlls"></a>Создание XLL-файлов
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Если библиотеки DLL изолированная или только зависит от других библиотек, необходимо знать, как для включения Microsoft Excel для доступа к его функции и команды. Для получения дополнительных сведений см [Доступа к библиотекам DLL в Excel](how-to-access-dlls-in-excel.md). 
   
@@ -109,7 +109,7 @@ Excel вызывает функцию [xlAutoRegister](xlautoregister-xlautoregi
   
 ### <a name="xlautofreexlautofree12"></a>xlAutoFree/xlAutoFree12
 
-Excel вызывает функцию [xlAutoFree/xlAutoFree12](xlautofree-xlautofree12.md) сразу после функция листа XLL возвращает **XLOPER**/ тип данных**XLOPER12** с установлен флаг, обозначающий памяти, XLL, по которой нужно освободить. Это позволяет XLL-Модулей для возврата динамически назначаемых массивов строк и внешние ссылки на лист без утечки памяти. Начиная с версии Excel 2007, тип данных **XLOPER12** поддерживается. Дополнительные сведения содержатся в разделе [Управление памятью в Excel](memory-management-in-excel.md).
+Excel вызывает функцию [xlAutoFree/xlAutoFree12](xlautofree-xlautofree12.md) сразу после функция листа XLL возвращает **XLOPER**/ тип данных**XLOPER12** с установлен флаг, обозначающий памяти, XLL, по которой нужно освободить. Это позволяет XLL-Модулей для возврата динамически назначаемых массивов строк и внешние ссылки на лист без утечки памяти. Начиная с версии Excel 2007, тип данных **XLOPER12** поддерживается. Дополнительные сведения см. в статье [Управление памятью в Excel](memory-management-in-excel.md).
   
 > [!NOTE]
 > Начиная с версии Excel 2007, когда Excel настроен на использование пересчета многопоточные листа, **xlAutoFree**/ на тот же поток, который использовался для вызова функции, он возвращается только что вызывается функция**xlAutoFree12** . Вызов **xlAutoFree**/ **xlAutoFree12** всегда выполняется до любого последующие ячейки оценки для данного потока. Это упрощает разработки потоками в вашей XLL. Для получения дополнительных сведений см [Многопоточные вычисления в Excel](multithreaded-recalculation-in-excel.md). 
@@ -122,9 +122,9 @@ Excel и пользовательские функции можно запуст
 
 
 
-[Вызов функции XLL из Мастер функций или заменить диалоговых окон](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+[Вызов функций XLL из диалоговых окон "Мастер функций" и "Замена"](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
-[Диспетчер надстроек и функции XLL интерфейса](add-in-manager-and-xll-interface-functions.md)
+[Функции диспетчера надстроек и интерфейса XLL](add-in-manager-and-xll-interface-functions.md)
   
 [���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
 

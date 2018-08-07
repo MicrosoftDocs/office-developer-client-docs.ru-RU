@@ -1,11 +1,11 @@
 ---
-title: О репликации конечного автомата
+title: Сведения о конечном автомате репликации
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9ea18f8e5c7eb758780727829fb1e18d2a19ec92
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,11 +13,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807988"
 ---
-# <a name="about-the-replication-state-machine"></a>О репликации конечного автомата
+# <a name="about-the-replication-state-machine"></a>Сведения о конечном автомате репликации
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 В этом разделе приводится обзор конечного автомата для репликации данных Microsoft Outlook 2013 и Microsoft Outlook 2010.
   
@@ -46,18 +46,18 @@ ms.locfileid: "19807988"
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Состояние** <br/> |**Репликация данных** <br/> |**Код состояния** <br/> |**Структура данных** <br/> |
+|**State** <br/> |**Репликация данных** <br/> |**Код состояния** <br/> |**Структура данных** <br/> |
 |[Состояние простоя](idle-state.md) <br/> | *None*  <br/> |**LR_SYNC_IDLE** <br/> | *None*  <br/> |
-|[Синхронизировать состояние](synchronize-state.md) <br/> |Папки или элементов  <br/> |**LR_SYNC** <br/> |**[СИНХРОНИЗАЦИЯ](sync.md)** <br/> |
+|[Синхронизировать состояние](synchronize-state.md) <br/> |Папки или элементов  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
 |[Отправка иерархия состояний](upload-hierarchy-state.md) <br/> |Папки  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
 |[Отправить состояние папки](upload-folder-state.md) <br/> |Folder  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
-|[Синхронизировать состояние содержимого](synchronize-contents-state.md) <br/> |Элементы  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
-|[Отправка состояний в таблице](upload-table-state.md) <br/> |Элементы  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
-|[Отправка сообщения состояния](upload-message-state.md) <br/> |Элемент  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
-|[Отправка состояний просмотра состояния](upload-read-status-state.md) <br/> |Элементы  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
-|[Отправка удалить состояние состояние](upload-delete-status-state.md) <br/> |Элементы  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
+|[Синхронизировать состояние содержимого](synchronize-contents-state.md) <br/> |Items  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
+|[Отправка состояний в таблице](upload-table-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
+|[Отправка сообщения состояния](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
+|[Отправка состояний просмотра состояния](upload-read-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
+|[Отправка удалить состояние состояние](upload-delete-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
 |[Загрузите иерархия состояний](download-hierarchy-state.md) <br/> |Папки  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
-|[Загрузите таблицу состояний](download-table-state.md) <br/> |Элементы  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
+|[Загрузите таблицу состояний](download-table-state.md) <br/> |Items  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
 |[Загрузить состояние заголовка сообщения](download-message-header-state.md) <br/> |Заголовок сообщения  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
    
 ## <a name="state-transition-diagram"></a>Схема смены состояния
@@ -72,7 +72,7 @@ ms.locfileid: "19807988"
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Шаг** <br/> |**Действие** <br/> |**Состояние** <br/> |**Структура данных, связанных с ними** <br/> |
+|**Шаг** <br/> |**Действие** <br/> |**State** <br/> |**Структура данных, связанных с ними** <br/> |
 |1.  <br/> |Клиент инициирует отправляемых иерархии с **IOSTX::SyncBeg**.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |2.  <br/> |Outlook 2010 или Outlook 2013 заполняет **UPHIER** информацию для клиента. Этот компонент включает инициализация параметрах [out]: *iEnt* имеет значение 0, а *централизованной* числу папок в иерархии, которое должно отправку пользователями.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |3.  <br/> |Клиент не отправляемых фактический иерархии. Например если *централизованной* — 10 для каждого из 10 папок вызывает **IOSTX::SyncBeg**, указывающий идентификатор соответствующее состояние и структура данных для передачи в папку.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
@@ -87,9 +87,9 @@ ms.locfileid: "19807988"
 
 
 
-[О репликации API](about-the-replication-api.md)
+[Сведения об API репликации](about-the-replication-api.md)
   
 [��������� MAPI](mapi-constants.md)
   
-[СОСТОЯНИЕ](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

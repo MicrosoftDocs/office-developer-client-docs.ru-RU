@@ -8,7 +8,7 @@ keywords:
 - Известные проблемы, возникающие [excel 2007]
 localization_priority: Normal
 ms.assetid: 3dfecc0b-a91c-448e-8721-5d3486b625fa
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9cdbb10ea68723bd7e1cd9289e8592a7cc087c46
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19807264"
 ---
 # <a name="known-issues-in-excel-xll-development"></a>Известные проблемы, возникающие при разработке XLL для Excel
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 В этом разделе описываются известные проблемы, возникающие в Microsoft Excel, которые могут возникать в разработку XLL-Модулей.
   
@@ -52,7 +52,7 @@ ms.locfileid: "19807264"
 
 Excel позволяет регистрации функций, возвращающих **XLOPER** или **XLOPER12** путем изменения аргумента на месте. Тем не менее если **XLOPER**/ **XLOPER12** аргумент указывает на память и указатель затем перезаписанного возвращаемое значение функции DLL, Excel можно утечка памяти. Excel не отображает ошибку, но он может завершиться со временем. Кроме того если библиотеки DLL выделение памяти для возвращаемого значения, Excel мог попытаться сведениям, память, что может привести к сбоем интерпретации приложения. Таким образом, не следует изменять **XLOPER**/ аргументы**XLOPER12** на месте. Аргументы всех **XLOPER** или **XLOPER12** должны рассматриваться как строго только для чтения. 
   
-Дополнительные сведения содержатся в разделе [Управление памятью в Excel](memory-management-in-excel.md).
+Дополнительные сведения см. в статье [Управление памятью в Excel](memory-management-in-excel.md).
   
 ## <a name="see-also"></a>См. также
 
@@ -61,9 +61,9 @@ Excel позволяет регистрации функций, возвраща
 [XLOper12ToXLOper](xloper12toxloper.md)
 
 
-[���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
+[Разработка XLL-файлов для Excel](developing-excel-xlls.md)
   
-[���������� �� ������� Excel 2013 XLL SDK API](excel-xll-sdk-api-function-reference.md)
+[Справочник по функциям API SDK XLL для Excel](excel-xll-sdk-api-function-reference.md)
   
-[���������� ������� � Excel](memory-management-in-excel.md)
+[Управление памятью в Excel](memory-management-in-excel.md)
 

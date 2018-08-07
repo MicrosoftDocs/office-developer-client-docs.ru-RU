@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 420b2661e766ecf97a5e9e488e9c18f29cd91329
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19810022"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Задает возможности, чтобы возвратить хранилища.
   
@@ -36,7 +36,7 @@ typedef enum
 } MSCAP_SELECTOR;
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  *MSCAP_SEL_RESERVED1* 
   

@@ -10,7 +10,7 @@ keywords:
 - функция xlsheetnm [excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 815565d886b1aea203f6b3b9774325d6b534abd2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807376"
 ---
 # <a name="xlsheetnm"></a>xlSheetNm
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает имя листа электронной таблицы или макрос из его идентификатор внутреннего листа, содержатся в внешней ссылки или имя активного листа, если передается внутреннюю ссылку.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807376"
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxExtref_ (**xltypeRef** или **xltypeSRef**)
   
@@ -63,5 +63,5 @@ short WINAPI xlSheetNmExample(void)
 ## <a name="see-also"></a>См. также
 
 - [xlSheetId](xlsheetid.md)
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

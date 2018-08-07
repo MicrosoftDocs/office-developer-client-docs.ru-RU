@@ -1,5 +1,5 @@
 ---
-title: Об уровне уменьшение объема данных API
+title: Сведения об API уровня ухудшения данных
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807673"
 ---
-# <a name="about-the-data-degradation-layer-api"></a>Об уровне уменьшение объема данных API
+# <a name="about-the-data-degradation-layer-api"></a>Сведения об API уровня ухудшения данных
 
 API Layer уменьшение объема данных предоставляет возможность скрыть базовый собственный символьном формате объекта Outlook, позволяя клиента для доступа к объекту в предпочтительном символьном формате, а не в формате внутреннего объекта. Он содержит определения констант, приведенные в [константы (уровень уменьшение объема данных API)](constants-data-degradation-layer-api.md)и функцию [HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) , которое возвращает объект Outlook заключены в указанном формате. 
   

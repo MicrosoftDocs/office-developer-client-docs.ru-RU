@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1dd460e6-ce95-4fef-bb5e-8d778c9716d5
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5a5e736e8be1120f5fb90048f01fdc8a44479060
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808649"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Создает объект приемника уведомлений, задавая контекст, указанного идентификатором вызывающего реализации и функции обратного вызова, чтобы инициировать, уведомления о событии. 
   
@@ -41,7 +41,7 @@ STDAPI HrAllocAdviseSink(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpfnCallback_
   

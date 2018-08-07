@@ -11,7 +11,7 @@ keywords:
 - функция freexlopert [excel 2007], функция FreeXLOper12T [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b7411bc51770dadc7c2d4a5c2c65d2d546f6025f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807262"
 ---
 # <a name="freexlopertfreexloper12t"></a>FreeXLOperT/FreeXLOper12T
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Функция Framework, освобождает память, связанные с **XLOPER**/ **XLOPER12**. Функция предполагается, что объем памяти выделена с вызовы malloc в библиотеке DLL. Если было выделить память с Microsoft Excel или каким-либо другим образом или другим процессом, эта функция не предназначена освободить память. Используйте [xlFree](xlfree.md) , чтобы освободить память, выделенную Excel для **XLOPER**/ **XLOPER12**s. 
   
@@ -30,7 +30,7 @@ void FreeXLOperT(LPXLOPER pxloper);
 void FreeXLOper12T(LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxloper_ (**LPXLOPER**)
   
@@ -85,5 +85,5 @@ void FreeXLOper12T(LPXLOPER12 pxloper12)
 
 
 
-[Функции в библиотеке Framework](functions-in-the-framework-library.md)
+[Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

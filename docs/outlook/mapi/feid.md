@@ -19,7 +19,7 @@ ms.locfileid: "19808431"
 
  
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Идентификатор для папки. Он содержит идентификатор входа и другие необходимые сведения.
   
@@ -35,7 +35,7 @@ struct FEID
 };
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  _abFlags_
   
@@ -57,7 +57,7 @@ struct FEID
 
 
 
-[О репликации конечного автомата](about-the-replication-state-machine.md)
+[Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
 [��������� MAPI](mapi-constants.md)
   
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[СИНХРОНИЗАЦИЯ](sync.md)
+[SYNC](sync.md)
 

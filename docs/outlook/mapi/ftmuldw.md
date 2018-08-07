@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e135ba67-97be-4ce0-a72e-93c49ed7d6e2
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 861a48464193f357224e33eb0348bc7d5372aa10
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808513"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Умножает целых 64-разрядная версия с 32-разрядное целое число без знака.
   
@@ -40,7 +40,7 @@ FILETIME FtMulDw(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _Множитель_
   

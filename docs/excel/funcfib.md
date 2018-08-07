@@ -10,7 +10,7 @@ keywords:
 - функция funcfib [excel 2007]
 localization_priority: Normal
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8d1c97ea57e968aaedffca6b37ded3d875e87413
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807255"
 ---
 # <a name="funcfib"></a>FuncFib
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Пример пользовательских функция, которая вычисляет n-й Фибоначчи. При загрузке GENERIC.xll регистрирует эту функцию, чтобы его можно вызывать из рабочего листа.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807255"
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxN_ (**LPXLOPER12**)
   
@@ -52,5 +52,5 @@ N-й Фибоначчи.
 
 
 
-[В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
 

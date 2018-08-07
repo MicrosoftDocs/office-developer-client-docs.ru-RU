@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 04fbfb2e6938c1ae5971e90b30f5ef749e7963e1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808358"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описание списка, который будет использоваться в диалоговом окне, построенного из таблицы отображения.
   
@@ -41,7 +41,7 @@ typedef struct _DTBLLBX
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **ulFlags**
   

@@ -10,7 +10,7 @@ keywords:
 - функция xlAbort [excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e90cbe496404b4cc602dee1ad21c91c8f5f91bfd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807342"
 ---
 # <a name="xlabort"></a>xlAbort
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает процессор для других задач в системе и проверяет, нажатии пользователем клавиши **ESC** , чтобы отменить макроса. Если пользователь нажата клавиша **ESC** во время пересчета книги, его можно также обнаружен из функции листа путем вызова этой функции. 
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807342"
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxRetain_ (**xltypeBool**)
   
@@ -121,5 +121,5 @@ int WINAPI fDance(void)
 
 
 
-[Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

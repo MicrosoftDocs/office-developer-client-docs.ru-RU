@@ -8,7 +8,7 @@ keywords:
 - xlrunningoncluster
 localization_priority: Normal
 ms.assetid: 7662f255-4184-4af0-97f5-9a89347a201a
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f42ccbeb94e1fc6b6cf880f1b32ee1bfeb24997e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19807386"
 ---
 # <a name="xlrunningoncluster"></a>xlRunningOnCluster
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает значение, которое указывает, выполняется ли пользовательской функции в кластере. 
   
@@ -26,7 +26,7 @@ ms.locfileid: "19807386"
 Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 Эта функция не содержит аргументов.
   
@@ -40,6 +40,6 @@ Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
   
 ## <a name="see-also"></a>См. также
 
-- [Безопасные для кластера функции](cluster-safe-functions.md)
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции защиты кластеров](cluster-safe-functions.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

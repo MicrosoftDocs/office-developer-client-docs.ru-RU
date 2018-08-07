@@ -1,5 +1,5 @@
 ---
-title: функция xlSet
+title: xlSet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - функция xlSet функции [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 63f50e441f5d851677f36754a17bcd6403705239
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807378"
 ---
-# <a name="xlset"></a>функция xlSet
+# <a name="xlset"></a>xlSet
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Очень быстро переводит постоянных значений в ячейки или диапазоны. Для получения дополнительных сведений см «функция xlSet и книги с формул массива» в разделе [Известные проблемы при разработке XLL для Excel](known-issues-in-excel-xll-development.md).
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807378"
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxReference_ (**xltypeRef** или **xltypeSRef**)
   
@@ -84,5 +84,5 @@ short WINAPI xlSetExample(short int iVal)
 ## <a name="see-also"></a>См. также
 
 - [xlCoerce](xlcoerce.md)
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

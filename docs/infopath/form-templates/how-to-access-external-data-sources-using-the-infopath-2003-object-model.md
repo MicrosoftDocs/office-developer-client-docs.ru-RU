@@ -1,5 +1,5 @@
 ---
-title: Доступа к внешним источникам данных с помощью объектной модели InfoPath 2003
+title: Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807486"
 ---
-# <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Доступа к внешним источникам данных с помощью объектной модели InfoPath 2003
+# <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003
 
 При работе с шаблоном формы InfoPath, использующим объектную модель, совместимую с InfoPath 2003, можно написать код для доступа к дополнительным источникам данных формы и управления содержащимися в них данными.
   
@@ -27,7 +27,7 @@ ms.locfileid: "19807486"
   
 Также объектная модель InfoPath предоставляет набор объектов адаптера данных, содержащий сведения об используемых формой подключениях к данным.  
   
-Существует два типа адаптеров данных: запроса адаптеров и отправки адаптеров. Для получения данных, которая хранится в дополнительного источника данных в то время как отправить адаптеров используются для отправки данных в базу данных или веб-службы, например используются адаптеры запроса. Переданные данные копируются из главного или дополнительного источника данных. 
+Существует два типа адаптеров данных: адаптеры запросов и адаптеры отправки. Адаптеры запросов используются для получения данных, которые затем сохраняются в дополнительном источнике данных, а адаптеры отправки используются для отправки данных, например, в базу данных или в веб-службу. Отправленные данные копируются из основных или дополнительных источников данных. 
   
 ## <a name="overview-of-the-dataobjectscollection-interface"></a>Обзор интерфейса DataObjectsCollection
 
@@ -35,9 +35,9 @@ ms.locfileid: "19807486"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Возвращает количество экземпляров **DataSourceObject** в семействе сайтов.  <br/> |
-|Метод [GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx)  <br/> |Возвращает объект **IEnumerator** , который можно использовать для итерации по коллекции.  <br/> |
-|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx)  <br/> |Возвращает ссылку на указанный экземпляр **DataSourceObject** .  <br/> |
+|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Возвращает количество экземпляров **DataSourceObject** в семействе.  <br/> |
+|Метод [GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx)  <br/> |Возвращает объект **IEnumerator**, который можно использовать для выполнения итерации по семейству.  <br/> |
+|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Item.aspx)  <br/> |Возвращает ссылку на указанный экземпляр **DataSourceObject**.  <br/> |
    
 ## <a name="overview-of-the-datasourceobject-interface"></a>Обзор интерфейса DataSourceObject
 
@@ -45,7 +45,7 @@ ms.locfileid: "19807486"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Метод [Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx)  <br/> |Выполняет запрос для адаптера данных и вставляет возвращенные данные XML в модели объектов документа XML (DOM), связанную с **DataSourceObject**.  <br/> |
+|Метод [Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx)  <br/> |Выполняет запрос для адаптера данных и вставляет возвращенные данные в виде XML в модель XML DOM, связанную с **DataSourceObject**.  <br/> |
 |Свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.DOM.aspx)  <br/> |Возвращает ссылку на модель XML DOM, используемую для хранения и обработки данных с помощью **DataSourceObject**.  <br/> |
 |Свойство [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Name.aspx)  <br/> |Возвращает строковое значение, указывающее имя объекта **DataSourceObject**.  <br/> |
 |Свойство [QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.QueryAdapter.aspx)  <br/> |Возвращает ссылку на связанный объект адаптера данных.  <br/> |
@@ -65,7 +65,7 @@ ms.locfileid: "19807486"
 
 Коллекция **DataSourceObjects** доступен через свойство [DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx) интерфейс [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Например при создании дополнительного источника данных с именем сотрудников, который получает данные из таблицы Employees базы данных Northwind Traders Microsoft Access, можно использовать семейства **DataSourceObjects** для задания ссылки на **DataObject** Объект, представляющий извлеченные данные. 
   
-В следующем примере кода свойство доступа интерфейса **DataObjectsCollection** , которое возвращает ссылку на объект **DataSourceObject** передается имя дополнительного источника данных. Данные из дополнительного источника данных отображается в окне сообщения с помощью свойства **DOM** интерфейса **DataSourceObject** для доступа к свойству **xml** DOM XML. 
+В следующем примере кода имя дополнительного источника данных передается в метод доступа интерфейса **DataObjectsCollection**, который возвращает ссылку на объект **DataSourceObject**. Данные из дополнительного источника данных отображаются в окне сообщения с помощью свойства **DOM** интерфейса **DataSourceObject** для доступа к свойству **xml** модели XML DOM. 
   
 ```cs
 public void CTRL1_5_OnClick(DocActionEvent e)
@@ -94,7 +94,7 @@ Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
 End Sub
 ```
 
-Для обработки данных, содержащихся в дополнительного источника данных, используйте свойство **DOM** интерфейса **DataSourceObject** возвращает ссылку на модель XML DOM, содержащий данные. Если у вас есть ссылку на модель XML DOM, можно использовать все его свойства и методы для работы с данными, которые он содержит. 
+Для управления данными, содержащимися в дополнительном источнике данных, используйте свойство **DOM** интерфейса **DataSourceObject**, чтобы вернуть ссылку на модель XML DOM, содержащую данные. После получения ссылки на модель XML DOM можно пользоваться любыми свойствами и методами этой модели для управления этими данными. 
   
 ## <a name="using-the-dataadapterscollection-and-the-dataadapterobject-interfaces"></a>Использование интерфейсов DataAdaptersCollection и DataAdapterObject
 

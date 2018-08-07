@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a1c5cdc67bc64f20dd8ba0a5e8682c5e2f97294f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809374"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Сравнение двух идентификаторы записей для определения, является ли они ссылаются на той же операции в банке сообщений. MAPI передает этот вызов к поставщику услуг только в том случае, если уникальных идентификаторов (UID) в обоих идентификаторы записей для сравнения обрабатываются этого поставщика.
   
@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _cbEntryID1_
   

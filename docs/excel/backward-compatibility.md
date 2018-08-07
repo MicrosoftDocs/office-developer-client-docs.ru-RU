@@ -8,7 +8,7 @@ keywords:
 - совместимость версий [excel 2007,] XLL совместимости [Excel 2007], обратной совместимости [Excel 2007]
 localization_priority: Normal
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 095961fa909a67b354ed43a7e093b79a9ebb4f18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19807148"
 ---
 # <a name="backward-compatibility"></a>Обратная совместимость
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 В данной статье рассматриваются вопросы совместимости XLL в различных версиях Microsoft Excel.
   
@@ -73,7 +73,7 @@ ms.locfileid: "19807148"
   
 ## <a name="see-also"></a>См. также
 
-- [������� ��������� ������ API C Excel4 Excel12](c-api-callback-functions-excel4-excel12.md) 
-- [���������������� � �������������� C API � Excel](programming-with-the-c-api-in-excel.md)
-- [����� ����������� ���������� API C ��� Excel 2013](what-s-new-in-the-c-api-for-excel.md)
+- [Функции обратного вызова API C: Excel4, Excel12](c-api-callback-functions-excel4-excel12.md) 
+- [Программирование с использованием API C в Excel](programming-with-the-c-api-in-excel.md)
+- [Новые возможности API C для Excel](what-s-new-in-the-c-api-for-excel.md)
 

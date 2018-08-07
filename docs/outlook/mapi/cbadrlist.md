@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2507c3fa-e34c-4da0-88b5-2d1a98b32d4a
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7537e2a041bc2e450663e5fdc3276d134f8ddacd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808302"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вычисляет число байтов в имеющуюся структуру [ADRLIST](adrlist.md) . 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19808302"
 CbADRLIST (_lpadrlist)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  __lpadrlist_
   
@@ -49,5 +49,5 @@ CbADRLIST (_lpadrlist)
 [ADRLIST](adrlist.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 

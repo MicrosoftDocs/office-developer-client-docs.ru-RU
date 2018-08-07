@@ -16,7 +16,7 @@ ms.locfileid: "19806934"
 # <a name="datetime-functions-access-custom-web-app"></a>Дата и время функции (приложение настраиваемых web Access)
 
 > [!IMPORTANT]
-> Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint. Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для построения без написания кода бизнес-решений для мобильных устройств и веб. 
+> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
 
 
 - [Функция DateAdd (приложение настраиваемых web Access)](dateadd-function-access-custom-web-app.md)

@@ -1,5 +1,5 @@
 ---
-title: Вызов функции XLL из Мастер функций или заменить диалоговых окон
+title: Вызов функций XLL из диалоговых окон "Мастер функций" и "Замена"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - функции XLL [excel 2007], вызов из диалоговое окно "Заменить", диалоговое окно Заменить поле [Excel 2007] вызывать функции XLL, Мастер функций [Excel 2007], вызов функции XLL, функции XLL [Excel 2007], вызов из Мастер функций
 localization_priority: Normal
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7ebb33a5b98cebedfca7fb5923e62486bfd85696
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807271"
 ---
-# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Вызов функции XLL из Мастер функций или заменить диалоговых окон
+# <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Вызов функций XLL из диалоговых окон "Мастер функций" и "Замена"
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel обычно вызывает функции XLL во время обычных пересчета книги или его части, если расчет управления макроса. Помните, что функция не могут находиться в формуле ячейки, но могут быть частью определения именованный диапазон или выражение условного форматирования.
   
@@ -119,7 +119,7 @@ bool called_from_paste_fn_dlg(void)
 
 
 
-[Доступ к XLL-коду в Excel](accessing-xll-code-in-excel.md)
+[Доступ к коду XLL в Excel](accessing-xll-code-in-excel.md)
   
 [����� � Excel �� DLL ��� XLL](calling-into-excel-from-the-dll-or-xll.md)
   

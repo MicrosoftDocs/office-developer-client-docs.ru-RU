@@ -15,7 +15,7 @@ ms.locfileid: "19809647"
 ---
 # <a name="logging-on-to-a-wrapped-pst-store-provider"></a>Вход в систему на оболочку поставщик хранилища PST-файлов
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Чтобы выполнить вход на MAPI оболочку поставщика хранилища PST-файлов, необходимо инициализировать и настроить оболочку поставщика хранилища личных папок (PST) файла. Для получения дополнительных сведений см. [В оболочку поставщика хранилища PST -файлов](initializing-a-wrapped-pst-store-provider.md).
   
@@ -159,9 +159,9 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 
 ## <a name="see-also"></a>См. также
 
-- [О примере оболочку поставщика хранилища PST-файлов](about-the-sample-wrapped-pst-store-provider.md) 
-- [Установка примера оболочку поставщика хранилища PST-файлов](installing-the-sample-wrapped-pst-store-provider.md) 
-- [Инициализация поставщика оболочку хранения PST-файлов](initializing-a-wrapped-pst-store-provider.md)
-- [С помощью поставщика оболочку хранилища PST-файлов](using-a-wrapped-pst-store-provider.md)
-- [Завершение работы поставщика оболочку хранения PST-файлов](shutting-down-a-wrapped-pst-store-provider.md)
+- [Сведения о примере поставщика упакованного PST-хранилища](about-the-sample-wrapped-pst-store-provider.md) 
+- [Установка примера поставщика упакованного PST-хранилища](installing-the-sample-wrapped-pst-store-provider.md) 
+- [Инициализация поставщика упакованного PST-хранилища](initializing-a-wrapped-pst-store-provider.md)
+- [Использование поставщика упакованного PST-хранилища](using-a-wrapped-pst-store-provider.md)
+- [Завершение работы поставщика упакованного PST-хранилища](shutting-down-a-wrapped-pst-store-provider.md)
 

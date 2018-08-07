@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 23c08597-41f0-4f48-a63e-79962fa812bc
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: aaa1adaa170349c3df3a2256802a502cb2512b20
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810024"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Определяет функцию обратного вызова, можно освободить интерфейс **IStorage** после окончательной версии объекта **IMessage** , построенных на основе его с помощью функции [OpenIMsgOnIStg](openimsgonistg.md) . 
   
@@ -39,7 +39,7 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
   LPMESSAGE  lpMessage );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _ulCallerData_
   

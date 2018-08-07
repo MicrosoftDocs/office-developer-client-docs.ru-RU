@@ -18,7 +18,7 @@ ms.locfileid: "19806942"
 Чтобы изменить значения, содержащиеся в существующей записи можно использовать блок данных **ИзменитьЗапись** . 
   
 > [!IMPORTANT]
-> Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint. Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для построения без написания кода бизнес-решений для мобильных устройств и веб. 
+> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 > [!NOTE]
 > Блок данных **ИзменитьЗапись** доступна только в макросов данных. 
@@ -27,9 +27,9 @@ ms.locfileid: "19806942"
 
 Блок данных **ИзменитьЗапись** имеет следующие аргументы. 
   
-|**Аргумент**|**Описание**|
+|**Argument**|**Описание**|
 |:-----|:-----|
-|**Псевдоним** <br/> |Строка, идентифицирующая записи для редактирования. Если аргумент *псевдоним* не задан, изменяется текущей записи.  <br/> |
+|**Alias** <br/> |Строка, идентифицирующая записи для редактирования. Если аргумент *псевдоним* не задан, изменяется текущей записи.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -37,12 +37,12 @@ ms.locfileid: "19806942"
   
 ||
 |:-----|
-|[Действия макроса CancelRecordChange](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
-|[Оператор комментария макросов](comment-macro-block-access-custom-web-app.md) <br/> |
-|[Оператор группы макросов](group-macro-block-access-custom-web-app.md) <br/> |
+|[CancelRecordChange Macro Action](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
+|[Comment Macro Statement](comment-macro-block-access-custom-web-app.md) <br/> |
+|[Group Macro Statement](group-macro-block-access-custom-web-app.md) <br/> |
 |[If... Затем... Оператор Else макросов](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
-|[Действия SetField макроса](setfield-macro-action-access-custom-web-app.md) <br/> |
-|[Действия макроса SetLocalVar](setlocalvar-macro-action-access-custom-web-app.md) <br/> |
+|[SetField Macro Action](setfield-macro-action-access-custom-web-app.md) <br/> |
+|[SetLocalVar Macro Action](setlocalvar-macro-action-access-custom-web-app.md) <br/> |
    
 Действие **SetField** используется для указания нового значения поля в измененной записи. 
   

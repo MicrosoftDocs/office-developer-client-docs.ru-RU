@@ -1,12 +1,12 @@
 ---
-title: Функции соединителя кластера Excel
+title: Функции для работы с соединителями кластеров Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 65927ef9-29f7-499a-a1c1-6f672c09bb6b
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4a069aa4ed3ee17320ac65ab793ea8812153cc18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807177"
 ---
-# <a name="excel-cluster-connector-functions"></a>Функции соединителя кластера Excel
+# <a name="excel-cluster-connector-functions"></a>Функции для работы с соединителями кластеров Excel
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Соединитель кластера Microsoft Excel 2013 библиотеки DLL необходимо реализовать функции, описанные в этом разделе.
   
@@ -26,7 +26,7 @@ ms.locfileid: "19807177"
 
 Excel вызывает точки входа в соединитель кластера передача пользовательской функции вызова к высокой производительности вычислительному кластеру, а также для управления сеансами кластера.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 [CallUDF](calludf.md)
   
@@ -34,7 +34,7 @@ Excel вызывает точки входа в соединитель клас�
   
 [CloseSession](closesession.md)
   
-[Метод OpenSession](opensession.md)
+[OpenSession](opensession.md)
   
 [PingSession](pingsession.md)
   
@@ -44,7 +44,7 @@ Excel вызывает точки входа в соединитель клас�
 
 
 
-[���������� ������������ ��������� ��� Excel 2013](developing-excel-cluster-connectors.md)
+[Разработка соединителей кластеров Excel](developing-excel-cluster-connectors.md)
   
-[Безопасные для кластера функции](cluster-safe-functions.md)
+[Функции защиты кластеров](cluster-safe-functions.md)
 

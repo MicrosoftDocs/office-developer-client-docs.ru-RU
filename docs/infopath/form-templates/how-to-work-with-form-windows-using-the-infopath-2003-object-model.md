@@ -1,5 +1,5 @@
 ---
-title: Работа с окнами форм, использующих объектную модель InfoPath 2003
+title: Работа с окнами форм при помощи объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807516"
 ---
-# <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Работа с окнами форм, использующих объектную модель InfoPath 2003
+# <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Работа с окнами форм при помощи объектной модели InfoPath 2003
 
 При работе программным путем с помощью формы InfoPath, можно написать код для доступа к форме windows и затем настроить некоторые элементы, которые они содержат. Объектная модель совместимых с InfoPath 2003 поддерживает доступ к windows формы посредством использования интерфейса [WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) в сочетании с помощью интерфейса [WindowsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowsCollection.aspx) . 
   
@@ -25,16 +25,16 @@ ms.locfileid: "19807516"
     
 - Окно разработки, которое используется при разработке пользователем шаблона формы.
     
-При написании кода в шаблоне формы, это окно редактирования, которое предоставляет возможности наиболее полезным, так как можно использовать экземпляр **WindowObject** , которая обращается к ним для доступа к различных свойств и методов, которые можно использовать для настройки формы процесс изменения. 
+При написании кода в шаблоне формы наиболее удобные функциональные возможности обеспечивает окно редактирования, поскольку оно позволяет использовать экземпляр **WindowObject**, который указывает на него для доступа к целому ряду свойств и методов, которые можно использовать для настройки процесса редактирования формы. 
   
 ## <a name="overview-of-the-windowscollection-interface"></a>Обзор интерфейса WindowsCollection
 
-Интерфейс **WindowsCollection** предоставляет указанные ниже свойства, которыми разработчики форм могут пользоваться для управления экземплярами **WindowObject** , которые он содержит. 
+Интерфейс **WindowsCollection** предоставляет указанные ниже свойства, которыми разработчики форм могут пользоваться для управления экземплярами **WindowObject**, содержащимися в интерфейсе. 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Возвращает количество объектов **Window** , содержащихся в коллекции.  <br/> |
-|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **Window** .  <br/> **Примечание**: Visual C# осуществляет доступ к коллекции с помощью индексатора вместо вызова свойство **Item** . Пример: `thisApplication.Windows[0].Caption`.           |
+|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Возвращает количество объектов  **Window** в семействе.  <br/> |
+|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **Window**.  <br/> **Примечание**: Visual C# осуществляет доступ к коллекции с помощью индексатора вместо вызова свойство **Item** . Пример: `thisApplication.Windows[0].Caption`.           |
    
 ## <a name="overview-of-the-window-object"></a>Обзор объекта Window
 
@@ -42,18 +42,18 @@ ms.locfileid: "19807516"
   
 |**Имя**|**Описание**|**Поддержка типов окон**|
 |:-----|:-----|:-----|
-|Метод [Activate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Activate.aspx)  <br/> |Обозначает окно как активное в данный момент окно.   <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
-|Свойство [активности](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Active.aspx)  <br/> |Возвращает **логическое** значение, указывающее, является ли окно текущего активного окна.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
-|Свойство [Caption](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Caption.aspx)  <br/> |Свойство чтения и записи, которое возвращает или задает текст заголовка для окна, представленного объектом **Window** .  <br/> |Только тип **xdEditorWindow**  <br/> |
+|Метод [Activate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Activate.aspx)  <br/> |Обозначает окно как активное в данный момент окно.   <br/> |Типы **xdDesignWindow** и **xdEditorWindow**  <br/> |
+|Свойство [активности](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Active.aspx)  <br/> |Возвращает логическое (**Boolean**) значение, указывающее, является ли окно активным в данный момент.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
+|Свойство [Caption](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Caption.aspx)  <br/> |Свойство чтения и записи, которое возвращает или задает текст заголовка окна, представленного объектом **Window**.  <br/> |Только тип **xdEditorWindow**  <br/> |
 |Метод [Close](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Close.aspx)  <br/> |Закрывает окно.  <br/> |Только тип **xdEditorWindow**  <br/> |
-|Свойство [CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.CommandBars.aspx)  <br/> |Возвращает ссылку на объект Microsoft Office **CommandBars** .  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
-|Свойство [Height](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Height.aspx)  <br/> |Свойство чтения и записи тип длинное целое, задающее высоту окна, представленную объектом **Window** и измеряемую в точках.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
-|Свойство [слева](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Left.aspx)  <br/> |Свойство чтения и записи тип длинное целое, которое указывает горизонтальную позицию окна, представленного объектом **Window** и измеряемую в точках.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
+|Свойство [CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.CommandBars.aspx)  <br/> |Возвращает ссылку на объект Microsoft Office **CommandBars**.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
+|Свойство [Height](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Height.aspx)  <br/> |Свойство чтения и записи с типом "длинное целое", которое указывает высоту окна, представленную объектом **Window** и измеряемую в точках.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
+|Свойство [слева](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Left.aspx)  <br/> |Свойство чтения и записи с типом "длинное целое", которое указывает горизонтальную позицию окна, представленную объектом **Window** и измеряемую в точках.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
 |Свойство [MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.MailEnvelope.aspx)  <br/> |Возвращает ссылку на объект [MailEnvelopeObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MailEnvelopeObject.aspx) .  <br/> |Только тип **xdEditorWindow**  <br/> |
 |Свойство [TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.TaskPanes.aspx)  <br/> |Возвращает ссылку на коллекцию [TaskPanesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.TaskPanesCollection.aspx) .  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
-|Свойство [Top](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Top.aspx)  <br/> |Свойство чтения и записи тип длинное целое, которое указывает вертикальную позицию окна, представленную объектом **Window** и измеряемую в точках.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
+|Свойство [Top](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Top.aspx)  <br/> |Свойство чтения и записи с типом "длинное целое", которое указывает вертикальную позицию окна, представленную объектом **Window** и измеряемую в точках.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
 |Свойство [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.WindowType.aspx)  <br/> |Возвращает номер, указывающий тип окна, основанный на перечисление [XdWindowType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowType.aspx) .  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
-|Свойство [Width](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Width.aspx)  <br/> |Свойство чтения и записи тип длинное целое, задающее ширину окна, представленную объектом **Window** и измеряемую в точках.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
+|Свойство [Width](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Width.aspx)  <br/> |Свойство чтения и записи с типом "длинное целое", которое указывает ширину окна, представленную объектом **Window** и измеряемую в точках.  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
 |Свойство [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.WindowState.aspx)  <br/> |Свойство чтения и записи типа [XdWindowState](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowState.aspx) , которое возвращает или задает состояние окна, представленного объектом **Window** .  <br/> |**Типы xdDesignWindow** и **xdEditorWindow** типов  <br/> |
 |Свойство [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.XDocument.aspx)  <br/> |Возвращает ссылку на объект [_XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.aspx) , связанный с окном.  <br/> |Только тип **xdEditorWindow**  <br/> |
    
@@ -80,7 +80,7 @@ Dim objWindow As WindowObject = thisApplication.ActiveWindow
 ```
 
 > [!NOTE]
-> При отладке проекта InfoPath управляемым кодом свойство **ActiveWindow** всегда возвращает **значение null,** поскольку окно отладки активно. 
+> При отладке проекта InfoPath с управляемым кодом свойство **ActiveWindow** всегда будет возвращать **null**, поскольку окно отладки активно. 
   
 Доступ к **WindowObject** можно получить с помощью свойства [окна](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx) интерфейса [представления](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.aspx) , который связан с XML-документом формы. Свойство **представления** интерфейса **XDocument** используется для доступа к объекту **представления** . Например следующий пример кода задает ссылку на **WindowObject** , связанный с представлением XML-документом формы. 
   
@@ -93,6 +93,6 @@ Dim objWindow As WindowObject = thisXDocument.View.Window
 ```
 
 > [!NOTE]
-> Некоторые свойства и методы объекта **Window** — только для типа окна редактирования; Если разработка тип окна, они возвращают ошибку. В таблице показано ранее в этом разделе перечислены свойства и методы, которые поддерживаются для каждого типа окна. Чтобы определить, какой тип окна, с которыми выполняется можно использовать свойство **WindowType** в коде. 
+> Некоторые свойства и методы объекта **Window** предназначены только для редактирования окон. При использовании для разработки окон они будут возвращать ошибку. Свойства и методы, которые поддерживаются для каждого типа окон, перечислены в таблице, приведенной ранее в этой теме. Чтобы определить, с каким типом окна осуществляется работа, можно воспользоваться в коде свойством **WindowType**. 
   
 

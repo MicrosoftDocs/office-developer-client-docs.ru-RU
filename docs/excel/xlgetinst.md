@@ -10,7 +10,7 @@ keywords:
 - функция xlgetinst [excel 2007]
 localization_priority: Normal
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9484f7bbc1f5e0fc5b0def17f2ce79ef226dcd17
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807359"
 ---
 # <a name="xlgetinst"></a>xlGetInst
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает экземпляр обработчика экземпляра Microsoft Excel, которые в настоящее время звонит библиотеки DLL.
   
@@ -29,7 +29,7 @@ Excel4(xlGetInst, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 Эта функция не содержит аргументов.
   
@@ -83,5 +83,5 @@ short WINAPI xlGetInstExample(void)
 [xlGetInstPtr](xlgetinstptr.md)
 
 
-[Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

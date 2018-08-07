@@ -1,5 +1,5 @@
 ---
-title: Ссылки на листе
+title: Ссылки на листы
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - ссылки [excel 2007], листа, ссылки на таблицы [Excel 2007], ссылки на внешние таблицы [Excel 2007], активный лист [Excel 2007], текущего листа [Excel 2007], внутренний листа ссылается на [Excel 2007]
 localization_priority: Normal
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: b7089fb891c96be9182189e3a5f30057721cebbc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807343"
 ---
-# <a name="worksheet-references"></a>Ссылки на листе
+# <a name="worksheet-references"></a>Ссылки на листы
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Ссылки в Microsoft Excel — это тип данных, на который ссылается прямоугольный блок ячеек (которые могут быть только одну ячейку) или в некоторых случаях несколько раздельных блоков ячеек. Для внутреннего использования Excel использует один тип ссылки для ячеек на текущем листе, известных как внутреннюю ссылку. Другой тип ссылки, известных как ссылки на внешние описывается любую ячейку, который не является на текущем листе. Содержится в следующем разделе, для определения активных и текущей.
   
@@ -48,9 +48,9 @@ ms.locfileid: "19807343"
 
 
 
-[�������� ���������������� � Excel](excel-programming-concepts.md)
+[Понятия, связанные с программированием для Excel](excel-programming-concepts.md)
   
-[������ ����� � ������ ��������� ������� �����](evaluating-names-and-other-worksheet-formula-expressions.md)
+[Оценка имен и других выражений в формулах листов](evaluating-names-and-other-worksheet-formula-expressions.md)
   
-[Лист Excel и вычисление выражения](excel-worksheet-and-expression-evaluation.md)
+[Оценка выражений и листов Excel](excel-worksheet-and-expression-evaluation.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9da9a13f87eac097fba078da1f1d6c3f78f69c0e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809391"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Включает поставщика хранилища сообщений для обработки на отправленное сообщение. ���� ����� ���������� ������ ����������� ������� MAPI.
   

@@ -19,7 +19,7 @@ ms.locfileid: "19810021"
 
  
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Сравнение двух строк Юникод.
   
@@ -29,7 +29,7 @@ int MNLS_lstrcmpW(
   LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpString1_
   

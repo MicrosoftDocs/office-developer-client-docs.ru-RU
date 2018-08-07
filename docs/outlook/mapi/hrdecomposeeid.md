@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e66d48b6caefe0fee67f41ea829db3201751cf27
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808668"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Разделяет составные запись идентификатор объекта, обычно сообщения в банке сообщений в идентификатор записи этого объекта в хранилище и идентификатор записи хранилища.
   
@@ -45,7 +45,7 @@ HrDecomposeEID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _psession_
   

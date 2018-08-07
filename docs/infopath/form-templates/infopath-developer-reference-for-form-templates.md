@@ -1,5 +1,5 @@
 ---
-title: Справочник разработчика InfoPath по шаблонам форм
+title: Справочник разработчика по шаблонам форм InfoPath
 ms.author: mroberts
 author: mroberts
 manager: soliver
@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807504"
 ---
-# <a name="infopath-developer-reference-for-form-templates"></a>Справочник разработчика InfoPath по шаблонам форм
+# <a name="infopath-developer-reference-for-form-templates"></a>Справочник разработчика по шаблонам форм InfoPath
 
 Добро пожаловать на страницу справочника разработчика InfoPath 2013 по шаблонам форм. В этой документации предоставляются обзоры, задачи программирования и справочные сведения библиотеки классов, призванные помочь в создании шаблонов форм InfoPath, содержащих бизнес-логику, написанную на языке Visual Basic или Visual C#.
   
@@ -35,6 +35,6 @@ ms.locfileid: "19807504"
   
 [Microsoft Accessibility](http://www.microsoft.com/ENABLE/)
   
-[Уведомление корпорации Майкрософт о конфиденциальности в сети](http://privacy.microsoft.com/en-us/default.mspx)
+[Уведомление о конфиденциальности (Майкрософт), доступное в Интернете](http://privacy.microsoft.com/en-us/default.mspx)
   
 

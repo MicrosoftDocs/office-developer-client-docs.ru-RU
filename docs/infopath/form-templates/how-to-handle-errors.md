@@ -37,10 +37,10 @@ ms.locfileid: "19807509"
 |:-----|:-----|
 |Метод [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) (+ 3 перегрузки)  <br/> |Создает объект **FormError** и добавляет его в коллекцию.  <br/> |
 |Метод [DELETE](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) (+ 1 перегрузка)  <br/> |Удаляет указанную пользовательскую ошибку из коллекции.   <br/> |
-|Метод [DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx)  <br/> |Удаляет все объекты **FormError** , содержащихся в коллекции.  <br/> |
-|[GetErrors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+ 1 перегрузка)  <br/> |Возвращает все объекты **FormError** с указанным именем или типом из коллекции.  <br/> |
-|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx)  <br/> |Возвращает количество объектов **FormError** , содержащихся в коллекции.  <br/> |
-|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx)  <br/> |Возвращает ссылку на объект **FormError** , основываясь на указанном номере индекса.  <br/> |
+|Метод [DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx)  <br/> |Удаляет все объекты **FormError** из коллекции.  <br/> |
+|[GetErrors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+ 1 перегрузка)  <br/> |Возвращает все объекты **FormError** с указанным именем или типом, находящиеся в коллекции.   <br/> |
+|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx)  <br/> |Возвращает количество объектов **FormError**, содержащихся в коллекции.  <br/> |
+|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx)  <br/> |Возвращает ссылку на объект **FormError**, основываясь на указанном номере индекса.  <br/> |
    
 ## <a name="overview-of-the-formerror-class"></a>Обзор класса "FormError"
 
@@ -48,11 +48,11 @@ ms.locfileid: "19807509"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Свойство [DetailedMessage](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx)  <br/> |Получает или задает подробное сообщение об ошибке для объекта **FormError** .  <br/> |
-|Свойство [ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx)  <br/> |Получает или задает код ошибки для объекта **FormError** .  <br/> |
-|Свойства [сайта](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx)  <br/> |Возвращает объект **XPathNavigator** , размещенный в узле, связанном с объектом **FormError** .  <br/> |
-|Свойство [Message](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Message.aspx)  <br/> |Получает или задает краткое сообщение об ошибке для объекта **FormError** .  <br/> |
-|Свойство [FormErrorType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.FormErrorType.aspx)  <br/> |Возвращает тип объекта **FormError** .  <br/> |
+|Свойство [DetailedMessage](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx)  <br/> |Возвращает или задает подробное сообщение об ошибке для объекта **FormError**.  <br/> |
+|Свойство [ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx)  <br/> |Возвращает или задает код ошибки для объекта **FormError**.  <br/> |
+|Свойства [сайта](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx)  <br/> |Возвращает объект **XPathNavigator**, расположенном в узле, связанном с объектом **FormError**.  <br/> |
+|Свойство [Message](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Message.aspx)  <br/> |Возвращает или задает краткое сообщение об ошибке для объекта **FormError**.  <br/> |
+|Свойство [FormErrorType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.FormErrorType.aspx)  <br/> |Возвращает тип объекта **FormError**.  <br/> |
    
 ## <a name="using-the-formerrorcollection-and-formerror-classes"></a>Использование классов "FormErrorCollection" и "FormError"
 
@@ -130,8 +130,8 @@ End Try
 
 1. Откройте конструктор InfoPath и затем перейдите на вкладку **файл** . 
     
-2. Нажмите кнопку **Параметры**и нажмите кнопку **Параметры InfoPath** в категории **Общие** . 
+2. Щелкните **Параметры**, затем выберите **Параметры InfoPath** в категории **Общие**. 
     
-3. На вкладке **Дополнительно** установите флажок **Отображать уведомления об ошибках кода Visual Basic и C#** . 
+3. На вкладке **Дополнительно** установите флажок **Уведомлять об ошибках кода Visual Basic и C#**. 
     
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 1d55f22de88b274d0403f81717d0fddefbea0219
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19807138"
 ---
 # <a name="calludf"></a>CallUDF
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Вызывает пользовательскую функцию в вычислительной среде высокой производительности.
   
@@ -24,7 +24,7 @@ ms.locfileid: "19807138"
 int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHandle, int (*CallBackAddr)(), int ArgCount, LPXLOPER12 Parameter1, ...)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _Код сеанса_
   
@@ -64,5 +64,5 @@ _Параметр1_
   
 ## <a name="see-also"></a>См. также
 
-- [Функции соединителя кластера Excel](excel-cluster-connector-functions.md)
+- [Функции для работы с соединителями кластеров Excel](excel-cluster-connector-functions.md)
 

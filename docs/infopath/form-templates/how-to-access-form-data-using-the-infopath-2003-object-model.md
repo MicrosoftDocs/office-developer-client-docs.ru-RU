@@ -1,5 +1,5 @@
 ---
-title: Доступ к данным формы с помощью объектной модели InfoPath 2003
+title: Доступ к данным форм с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807490"
 ---
-# <a name="access-form-data-using-the-infopath-2003-object-model"></a>Доступ к данным формы с помощью объектной модели InfoPath 2003
+# <a name="access-form-data-using-the-infopath-2003-object-model"></a>Доступ к данным форм с помощью объектной модели InfoPath 2003
 
 Флажок расширить функциональность формы InfoPath, часто бывает необходимо программным способом доступа к сведениям о базовом документе XML формы, доступ к данным, который содержит XML-документа или выполнение некоторых действий с документом XML. Объектная модель InfoPath поддерживает доступ к и работа с XML-документом формы посредством использования интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) в сочетании с помощью интерфейса [XDocumentsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollection.aspx) . 
   
@@ -23,7 +23,7 @@ ms.locfileid: "19807490"
   
 ## <a name="overview-of-the-xdocumentscollection-interface"></a>Обзор интерфейса XDocumentsCollection
 
-Интерфейс **XDocumentsCollection** предоставляет следующие методы и свойства, которые можно использовать для управления объектами **XDocument** , содержащимися в семействе. 
+Интерфейс **XDocumentsCollection** предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для управления объектами **XDocument**, содержащимися в семействе. 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
@@ -32,17 +32,17 @@ ms.locfileid: "19807490"
 |Метод [NewFromSolution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolution.aspx)  <br/> |Создает новую форму на основе существующего шаблона формы.  <br/> |
 |Метод [NewFromSolutionWithData](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolutionWithData.aspx)  <br/> |Создает новую форму InfoPath с использованием указанных XML-данных и шаблона формы.   <br/> |
 |Метод [Open](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open.aspx)  <br/> |Открывает указанную форму.  <br/> |
-|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count.aspx)  <br/> |Возвращает количество объектов **XDocument** , содержащихся в коллекции.  <br/> |
-|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **XDocument** .  <br/> |
+|Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count.aspx)  <br/> |Возвращает количество объектов  **XDocument** в семействе.  <br/> |
+|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **XDocument**.  <br/> |
    
 ## <a name="overview-of-the-xdocument-interface"></a>Обзор интерфейса XDocument
 
-Интерфейс **XDocument** предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с и выполнения действий над XML-документом формы. 
+Интерфейс **XDocument** предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с базовым XML-документом формы и выполнения действий над ним. 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
 |Метод [GetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDataVariable.aspx)  <br/> |Возвращает строковое значение указанной переменной данных.  <br/> |
-|Метод [getDOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDOM.aspx)  <br/> |Возвращает ссылку на документ объектной модели XML (DOM) связанного с указанным объектом **DataObject** .  <br/> |
+|Метод [getDOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDOM.aspx)  <br/> |Возвращает ссылку на модель XML DOM, связанную с указанным объектом **DataObject**.  <br/> |
 |Метод [ImportFile](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ImportFile.aspx)  <br/> |Импортирует (или объединяет) указанную форму в открытую в данный момент форму.  <br/> |
 |Метод [printOut](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.PrintOut.aspx)  <br/> |Распечатывает текущее представление формы.  <br/> |
 |Метод [Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Query.aspx)  <br/> |Возвращает данные из адаптера данных, связанного с формой.  <br/> |
@@ -50,22 +50,22 @@ ms.locfileid: "19807490"
 |Метод [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SaveAs.aspx)  <br/> |Сохраняет открытую в данный момент форму с указанным именем.  <br/> |
 |Метод [SetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SetDataVariable.aspx)  <br/> |Задает значение указанной переменной данных.  <br/> |
 |Метод [Submit](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Submit.aspx)  <br/> |Отправляет форму в соответствии с операцией отправки, указанной в режиме конструктора.  <br/> |
-|Свойство [DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx)  <br/> |Возвращает ссылку на семейство **DataObjects** .  <br/> |
+|Свойство [DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx)  <br/> |Возвращает ссылку на семейство **DataObjects**.  <br/> |
 |Свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx)  <br/> |Возвращает ссылку на модель XML DOM, заполненную исходными XML-данными формы.  <br/> |
-|Свойство [Errors](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Errors.aspx)  <br/> |Возвращает ссылку на семейство **Errors** .  <br/> |
+|Свойство [Errors](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Errors.aspx)  <br/> |Возвращает ссылку на семейство **Errors**.  <br/> |
 |Свойство [Extension](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Extension.aspx)  <br/> |Возвращает ссылку на объект, представляющий все функции и переменные, содержащиеся в файле кода формы.  <br/> |
-|Свойство [IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx)  <br/> |Возвращает **логическое** значение, указывающее, были ли изменены данные в форме.  <br/> |
-|Свойство [IsDOMReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDOMReadOnly.aspx)  <br/> |Возвращает **логическое** значение, указывающее, является ли модель XML DOM имеет значение только для чтения.  <br/> |
-|Свойство [IsNew](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsNew.aspx)  <br/> |Возвращает **логическое** значение, указывающее, является ли сохранения формы после ее создания.  <br/> |
-|Свойство [IsReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsReadOnly.aspx)  <br/> |Возвращает **логическое** значение, указывающее, находится ли форма в режиме только для чтения.  <br/> |
-|Свойство [IsSigned](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx)  <br/> |Возвращает **логическое** значение, указывающее, является ли форма имеет цифровую подпись.  <br/> |
+|Свойство [IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx)  <br/> |Возвращает значение **Boolean**, указывающее факт изменения данных в форме.  <br/> |
+|Свойство [IsDOMReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDOMReadOnly.aspx)  <br/> |Возвращает значение **Boolean**, указывающее наличие атрибута только для чтения у модели XML DOM.  <br/> |
+|Свойство [IsNew](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsNew.aspx)  <br/> |Возвращает значение **Boolean**, указывающее факт сохранения формы после ее создания.  <br/> |
+|Свойство [IsReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsReadOnly.aspx)  <br/> |Возвращает значение **Boolean**, указывающее наличие режима формы только для чтения.  <br/> |
+|Свойство [IsSigned](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx)  <br/> |Возвращает значение **Boolean**, указывающее наличие подписи для формы.  <br/> |
 |Свойство [Language](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Language.aspx)  <br/> |Указывает или возвращает строковое значение языка, используемого для формы.  <br/> |
 |Свойство [QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.QueryAdapter.aspx)  <br/> |Возвращает ссылку на объект адаптера данных.  <br/> |
-|Свойство [решения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx)  <br/> |Возвращает ссылку на объект **решения** .  <br/> |
-|Свойство [пользовательского интерфейса](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx)  <br/> |Возвращает ссылку на объект **пользовательского интерфейса** .  <br/> |
+|Свойство [решения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx)  <br/> |Возвращает ссылку на объект **Solution**.  <br/> |
+|Свойство [пользовательского интерфейса](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx)  <br/> |Возвращает ссылку на объект **UI**.  <br/> |
 |Свойство [URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.URI.aspx)  <br/> |Возвращает строковое значение, содержащее URI-идентификатор формы.  <br/> |
-|[Просмотр](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) свойств  <br/> |Возвращает ссылку на объект **View** .  <br/> |
-|Свойство [ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ViewInfos.aspx)  <br/> |Возвращает ссылку на семейство **ViewInfos** .  <br/> |
+|[Просмотр](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) свойств  <br/> |Возвращает ссылку на объект **View**.  <br/> |
+|Свойство [ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ViewInfos.aspx)  <br/> |Возвращает ссылку на семейство **ViewInfos**.  <br/> |
    
 ## <a name="using-the-xdocuments-collection-and-the-xdocument-interfaces"></a>Использование семейства XDocuments и интерфейсов XDocument
 
@@ -94,7 +94,7 @@ thisXDocument.UI.Alert(thisXDocument.URI)
 ```
 
 > [!NOTE]
-> При использовании интерфейса **XDocument** для доступа к XML-документом формы, вы получаете доступ к XML-документа, связанного с текущей открытой формы. 
+> Если интерфейс **XDocument** используется для доступа к базовому XML-документу формы, то доступ осуществляется к XML-документу, связанному с открытой в данный момент формой. 
   
 Ключевые свойства интерфейса **XDocument** является свойство **DOM** . Данное свойство возвращает ссылку на модель XML DOM, заполненную исходными XML-данными формы. При использовании свойства **DOM** , можно использовать все свойства и методы, поддерживаемые DOM XML. Например следующий код использует свойство **xml** XML DOM для определения и отображения все содержимое XML-документом формы. 
   

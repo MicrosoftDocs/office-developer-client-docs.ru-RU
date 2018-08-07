@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4646659b-f932-4d11-a46f-4231bb397243
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 165be9eada54b2030471fc10e7a0bf0c7dcc7c8e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19807328"
 ---
 # <a name="pingsession"></a>PingSession
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Проверяет, допустим ли сеанс. Эта функция обычно вызывается, когда Excel необходимо определить, если ранее возвращенные сеанс остается активным и можно использовать.
   
@@ -24,7 +24,7 @@ ms.locfileid: "19807328"
 int PingSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _Код сеанса_
   
@@ -36,6 +36,6 @@ _Код сеанса_
   
 ## <a name="see-also"></a>См. также
 
-- [Метод OpenSession](opensession.md)
-- [Функции соединителя кластера Excel](excel-cluster-connector-functions.md)
+- [OpenSession](opensession.md)
+- [Функции для работы с соединителями кластеров Excel](excel-cluster-connector-functions.md)
 

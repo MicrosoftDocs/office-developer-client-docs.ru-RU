@@ -10,7 +10,7 @@ keywords:
 - функция xlfSetName [excel 2007]
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 48ce927f6bcb328a90779948a660cf9d0b460205
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807349"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Используется для создания и удаления определенных имен, связанные с DLL.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807349"
 Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNameDefinition);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxNameText_ (**xltypeStr**)
   
@@ -54,5 +54,5 @@ _pxRes_ (**xltypeBool** или **xltypeErr**)
   
 ## <a name="see-also"></a>См. также
 
-- [Функции API XLM важные и полезные C](essential-and-useful-c-api-xlm-functions.md)
+- [Необходимые и полезные функции XLM из API C](essential-and-useful-c-api-xlm-functions.md)
 

@@ -27,57 +27,57 @@ ms.locfileid: "19807503"
   
 ### <a name="add-an-event-handler-for-the-onclick-event-of-a-command-button"></a>Добавление обработчика событий "OnClick" для кнопки
 
-1. На левой панели **элементов управления** нажмите **кнопку** , чтобы добавить кнопку в форму. 
+1. Чтобы добавить кнопку в форму, в области **Элементы управления** щелкните элемент **Кнопка**. 
     
-2. На вкладке **Свойства** щелкните **Пользовательский код**.
+2. На вкладке  **Свойства** щелкните  **Пользовательский код**.
     
    Фокус переключится на заглушку обработчика событий для событий [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) в редакторе кода. 
     
 ### <a name="add-an-event-handler-for-the-onbeforechange-onvalidate-or-onafterchange-event-of-a-field-or-group"></a>Добавление обработчика событий "OnBeforeChange", "OnValidate" или "OnAfterChange" для поля или группы
 
-1. Щелкните правой кнопкой мыши элемент управления ввода данных, привязанных к поля или группы, такие как элемент управления **Текстовое поле** . 
+1. Щелкните правой кнопкой мыши элемент управления ввода данных, связанный с полем или группой, например элемент управления **Текстовое поле**. 
     
-2. Выберите пункт **программирование**и выберите одну из команд, такие как **На событие OnValidate**.
+2. Наведите указатель на пункт **Программирование** и щелкните одну из команд, например, **Событие OnValidate**.
     
    Фокус переключится на заглушку обработчика событий для одного из следующих событий в редакторе кода: [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx)"," [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx)"или" [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx). 
     
 ### <a name="add-an-event-handler-for-the-onload-onswitchview-oncontextchange-or-onsign-event-of-a-form"></a>Добавление обработчика событий "OnLoad", "OnSwitchView", "OnContextChange" или "OnSign" для формы
 
-- В меню **Сервис** выберите пункт **программирование**и щелкните событие формы, для которого требуется написать обработчик событий для.
+- В меню **Сервис** выберите пункт **Программирование** и щелкните событие формы, для которого требуется написать обработчик событий.
     
     Фокус переключится на заглушку обработчика событий для одного из следующих действий в редакторе кода: [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx)"," [OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx)"," [OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx)"или" [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx). 
     
 ### <a name="add-an-event-handler-for-the-onsubmitrequest-event-of-a-form"></a>Добавление обработчика событий "OnSubmitRequest" для формы
 
-1. На вкладке **данные** щелкните **Параметры отправки**.
+1. На вкладке **Данные** щелкните **Параметры отправки**.
     
-2. Установите флажок **Разрешить пользователям отправлять эту форму** и нажмите кнопку **выполнить пользовательское действие с использованием кода**.
+2. Установите флажок **Разрешить пользователям отправлять эту форму** и щелкните **Выполнить пользовательское действие с использованием кода**.
     
-3. Нажмите кнопку **Редактировать код**и нажмите кнопку **ОК**.
+3. Нажмите кнопку **Редактировать код**, а затем кнопку **ОК**.
     
    Фокус переключится на заглушку обработчика событий для события [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) в редакторе кода. 
     
 ### <a name="add-an-event-handler-for-the-onsaverequest-event-of-a-form"></a>Добавление обработчика событий "OnSaveRequest" для формы
 
-1. Перейдите на вкладку **файл** и выберите пункт **Параметры формы**.
+1. Перейдите на вкладку **Файл** и нажмите кнопку **Параметры формы**.
     
-2. В категории, **Сохранение** нажмите кнопку **Сохранить с использованием пользовательского кода**, нажмите кнопку **Изменить**и нажмите кнопку **ОК**.
+2. В категории **Сохранение** последовательно щелкните пункты **Сохранить с использованием пользовательского кода**, **Изменить** и нажмите кнопку **ОК**.
     
    Фокус переключится на заглушку обработчика событий для события [OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) в редакторе кода. 
     
 ### <a name="add-an-event-handler-for-the-onversionupgrade-event-of-a-form"></a>Добавление обработчика событий "OnVersionUpgrade" для формы
 
-1. Перейдите на вкладку **файл** и выберите пункт **Параметры формы**.
+1. На вкладке **Файл** выберите пункт **Параметры формы**.
     
-2. В категории, **Управление версиями** выберите **использовать специальное событие** из списка **Обновить существующие формы** , нажмите кнопку **Изменить**и нажмите кнопку **ОК**.
+2. В категории **Управление версиями** выберите **Использовать специальное событие** из списка **Обновить существующие формы**, щелкните **Изменить**, а затем нажмите кнопку **ОК**.
     
     Фокус переключится на заглушку обработчика событий для события [OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) в редакторе кода. 
     
 ### <a name="add-an-event-handler-for-the-onmergerequest-event-of-a-form"></a>Добавление обработчика событий "OnMergeRequest" для формы
 
-1. Перейдите на вкладку **файл** и выберите пункт **Параметры формы**.
+1. На вкладке **Файл** выберите пункт **Параметры формы**.
     
-2. В категории **Дополнительно** установите флажки **Объединить с использованием пользовательского кода** и **Разрешить объединение форм** , нажмите кнопку **Изменить**и нажмите кнопку **ОК**.
+2. В категории **Дополнительно** установите флажки **Разрешить объединение форм** и **Объединить с использованием пользовательского кода** и щелкните **Изменить** и нажмите кнопку **ОК**.
     
     Фокус переключится на заглушку обработчика событий для события [OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) в редакторе кода. 
     
@@ -222,10 +222,10 @@ namespace AuxDom
 
 ## <a name="how-the-class-that-contains-event-handlers-is-identified"></a>Идентификация класса, содержащего обработчики событий
 
-При создании нового проекта шаблонов форм InfoPath, совместимый с помощью управляемого кода объектной модели InfoPath 2003, атрибут уровня сборки **System.ComponentModel.Description** применяется в класс в начало модуля кода формы определения класса, который содержит все обработчики событий для шаблона формы. 
+При создании нового проекта шаблона формы InfoPath, совместимого с объектной моделью управляемого кода InfoPath 2003, к классу, расположенному в начале модуля кода формы, добавляется атрибут уровня сборки **System.ComponentModel.Description**, позволяющий идентифицировать класс, содержащий все обработчики событий для шаблона формы. 
   
 > [!IMPORTANT]
-> Не изменяйте атрибут **System.ComponentModel.Description** в этот класс. При этом, шаблон формы не может определить, где расположены обработчиков событий и обработчиков событий не может запустить. 
+> Не изменяйте атрибут **System.ComponentModel.Description** в этом классе. При его изменении шаблон формы не сможет идентифицировать расположение обработчиков событий, и обработчики событий не запустятся. 
   
 ```cs
 using System;
@@ -283,5 +283,5 @@ thisXDocument.UI.Alert.(e.Site.text)
   
 ## <a name="see-also"></a>См. также
 
-- [Ответ на события, с помощью объектной модели InfoPath 2003 формы](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Обработка событий форм с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

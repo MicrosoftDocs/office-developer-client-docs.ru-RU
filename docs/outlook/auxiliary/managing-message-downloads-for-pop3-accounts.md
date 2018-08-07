@@ -1,5 +1,5 @@
 ---
-title: Загружаемые файлы для управления сообщения для учетных записей POP3
+title: Управление скачиванием сообщений для учетных записей POP3
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807887"
 ---
-# <a name="managing-message-downloads-for-pop3-accounts"></a>Загружаемые файлы для управления сообщения для учетных записей POP3
+# <a name="managing-message-downloads-for-pop3-accounts"></a>Управление скачиванием сообщений для учетных записей POP3
 
 В этом разделе описывается порядок использования поставщика POP3 из Outlook журнал уникальный идентификатор списка (UIDL) для учетной записи POP3 для идентификации сообщений, которые поставщик был загружен или с сервера POP3, чтобы предотвратить загрузку и то же сообщение более одного раза.
   
@@ -31,8 +31,8 @@ ms.locfileid: "19807887"
 ## <a name="see-also"></a>См. также
 
 - [Управление учетными записями Outlook](outlook-account-management.md)    
-- [Поиск журнала загрузки сообщений для учетной записи POP3](locating-the-message-download-history-for-a-pop3-account.md) 
-- [Синтаксический анализ журнала загрузки сообщений для учетной записи POP3](parsing-the-message-download-history-for-a-pop3-account.md)   
+- [Поиск журнала скачивания сообщений для учетной записи POP3](locating-the-message-download-history-for-a-pop3-account.md) 
+- [Анализ журнала скачивания сообщений для учетной записи POP3](parsing-the-message-download-history-for-a-pop3-account.md)   
 - [PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md)  
 - [Constants (Account management API)](constants-account-management-api.md)    
 - [Свойства (Управление учетными записями API)](properties-account-management-api.md)

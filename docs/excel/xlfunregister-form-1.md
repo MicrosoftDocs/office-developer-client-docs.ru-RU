@@ -1,5 +1,5 @@
 ---
-title: xlfUnregister (формы 1)
+title: xlfUnregister (форма 1)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - функция xlfunregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 6077027a27c054c5a5e65a751373c41a87cb3836
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807358"
 ---
-# <a name="xlfunregister-form-1"></a>xlfUnregister (формы 1)
+# <a name="xlfunregister-form-1"></a>xlfUnregister (форма 1)
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Может быть вызван из DLL или XLL команду, которая был вызван с Microsoft Excel. Это эквивалентно вызову **Отменить РЕГИСТРАЦИЮ** из таблицы Excel XLM макрос. 
   
@@ -38,7 +38,7 @@ ms.locfileid: "19807358"
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxRegisterId_ (**xltypeNum**)
   
@@ -93,6 +93,6 @@ int WINAPI fExit(void)
 
 - [xlfRegister (����� 1)](xlfregister-form-1.md)
 - [xlfRegisterId](xlfregisterid.md)
-- [xlfUnregister (формы 2)](xlfunregister-form-2.md)
-- [Функции API XLM важные и полезные C](essential-and-useful-c-api-xlm-functions.md)
+- [xlfUnregister (форма 2)](xlfunregister-form-2.md)
+- [Необходимые и полезные функции XLM из API C](essential-and-useful-c-api-xlm-functions.md)
 

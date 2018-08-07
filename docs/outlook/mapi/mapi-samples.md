@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 641659f2-3c0a-43af-96f1-2521b4b06680
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3c7e6a408a5afb5b846f95725e69c3cb214874ce
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,11 +17,11 @@ ms.locfileid: "19809831"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 В этом разделе содержатся примеры кода, показывающие, как для достижения определенных задач или использования некоторых поставщиков услуг, с помощью интерфейса MAPI. Mfcmapi (en) также используется в этой справке для демонстрации использования многие API. Для запуска примеров в ОС Windows Vista, Windows Server 2008, Windows XP или операционных систем Windows Server 2003, необходимо сначала настроить система среды выполнения MAPI. Для получения дополнительных сведений см [MAPI программирования](mapi-programming-overview.md).
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
   
@@ -31,16 +31,16 @@ ms.locfileid: "19809831"
   
 > Примеры поставщиков служб MAPI.
     
-[Создание элементов Outlook с помощью интерфейса MAPI](creating-outlook-items-by-using-mapi.md)
+[Создание элементов Outlook с помощью MAPI](creating-outlook-items-by-using-mapi.md)
   
 > Показан пример кода для создания элементов Outlook с помощью интерфейса MAPI.
     
 ## <a name="related-sections"></a>Связанные разделы
 
-[Приступая к работе с Справочник по интерфейсу MAPI приложения Outlook](getting-started-with-the-outlook-mapi-reference.md)
+[Начало работы со справочником по MAPI для Outlook](getting-started-with-the-outlook-mapi-reference.md)
   
-[Основные понятия MAPI](mapi-concepts.md)
+[Понятия MAPI](mapi-concepts.md)
   
-[Справочник по интерфейсу MAPI](mapi-reference.md)
+[Справочник по MAPI](mapi-reference.md)
   
 

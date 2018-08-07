@@ -15,7 +15,7 @@ ms.locfileid: "19808637"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>Убедитесь, что Заблокированные вложения
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Этот пример кода на C++ показано, как использовать [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) интерфейс, чтобы узнать, совместимо ли вложения блокируется Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования. 
   

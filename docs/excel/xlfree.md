@@ -10,7 +10,7 @@ keywords:
 - функция xlFree [excel 2007]
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2dd61ee5cd0e2e671cc47425689287b8a437732f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807361"
 ---
 # <a name="xlfree"></a>xlFree
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Используется, чтобы освободить память, ресурсы, выделенные Microsoft Excel при создании возвращаемое значение **XLOPER**/ **XLOPER12** к вызову [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)или [Excel12v](excel4v-excel12v.md). Функция **xlFree** освобождает память, дополнительный и сбрасывает указатель на **значение NULL** , но не уничтожает другим частям **XLOPER**/ **XLOPER12**.
   
@@ -29,7 +29,7 @@ Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
 Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _px_1,..., px_n_
   
@@ -89,5 +89,5 @@ short WINAPI xlFreeExample(void)
 
 ## <a name="see-also"></a>См. также
 
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

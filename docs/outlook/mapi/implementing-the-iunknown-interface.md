@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 01bba63b-a2a1-490e-8b78-5c9ba8d9547b
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 55bf8831af8f78767b2607c21ab54c32f6e4245f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19809338"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Методы интерфейса [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) , реализованный в каждый объект MAPI поддерживают способ управления обмена данными и объекта. 
   
@@ -36,5 +36,5 @@ ms.locfileid: "19809338"
 
 
 
-[Внедрение объектов MAPI](implementing-mapi-objects.md)
+[Реализация объектов MAPI](implementing-mapi-objects.md)
 

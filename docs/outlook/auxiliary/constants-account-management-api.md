@@ -1,5 +1,5 @@
 ---
-title: Константы (Управление учетными записями API)
+title: Constants (Account management API)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807710"
 ---
-# <a name="constants-account-management-api"></a>Константы (Управление учетными записями API)
+# <a name="constants-account-management-api"></a>Constants (Account management API)
 
 В этом разделе содержит определения констант, класс идентификаторы и идентификаторы интерфейса API для управления учетными записями.
   
 ## <a name="constants"></a>Константы
 
-|**Константы**|**Определение**|
+|**Constant**|**Определение**|
 |:-----|:-----|
 |ACCT_INIT_NOSYNCH_MAPI_ACCTS  <br/> |0x00000001  <br/> |
 |ACCT_INIT_NO_STORES_CHECK  <br/> |0x00000002  <br/> |

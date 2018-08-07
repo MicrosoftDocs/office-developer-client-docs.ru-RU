@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f58bd8499b63bcd526906f78143b76092f194cb4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809373"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Получает к папке, где были установлены как место назначения для входящих сообщений из указанного класса сообщений или по умолчанию получают папки для хранения сообщений.
   
@@ -37,7 +37,7 @@ HRESULT GetReceiveFolder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpszMessageClass_
   

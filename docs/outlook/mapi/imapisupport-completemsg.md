@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: db28d9684f1bb679ce36f99346f4ecc67a1a93e6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809106"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Выполняет постобработку сообщение. 
   

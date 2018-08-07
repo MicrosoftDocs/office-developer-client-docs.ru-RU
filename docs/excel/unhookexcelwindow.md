@@ -10,7 +10,7 @@ keywords:
 - функция unhookexcelwindow
 localization_priority: Normal
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 7b70bf4ed0ff45921df407605baa692c7621bca4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807336"
 ---
 # <a name="unhookexcelwindow"></a>UnhookExcelWindow
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Удаляет **ExcelCursorProc** , которая ранее была установлена **HookExcelWindow**. Это может быть сделано, чтобы **ExcelCursorProc** вызван перед основной Microsoft Excel **WndProc**.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807336"
 extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _hWndExcel_ (**ОБРАБАТЫВАТЬ**)
   
@@ -50,5 +50,5 @@ extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 
 
 
-[В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
 

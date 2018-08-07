@@ -10,7 +10,7 @@ keywords:
 - функция xlCoerce [excel 2007]
 localization_priority: Normal
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e0474b81a6d24663fe85303efc8fe2fd62cfdd82
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807353"
 ---
 # <a name="xlcoerce"></a>xlCoerce
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Преобразует один тип **XLOPER**/ **XLOPER12** в другую или ищет значений ячеек на листе. 
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807353"
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pxSource_
   
@@ -74,8 +74,8 @@ short WINAPI xlCoerceExample(short iVal)
 
 
 
-[функция xlSet](xlset.md)
+[xlSet](xlset.md)
 
 
-[Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

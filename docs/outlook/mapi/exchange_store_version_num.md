@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 88950eda-85ae-ad7a-46c6-0e1933d35e04
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 00d92f8e2ec3af766d5b241d1a911be304b346d6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808394"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Сохранение сведений о версии для Microsoft Exchange Server, подключенные учетные записи в профиле Microsoft Office Outlook.
   
@@ -35,7 +35,7 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  _wMajorVersion_
   
@@ -57,7 +57,7 @@ typedef struct {
 
 
 
-[О дополнения MAPI](about-mapi-additions.md)
+[Сведения о дополнениях для MAPI](about-mapi-additions.md)
   
 [Каноническое свойство PidTagProfileServerFullVersion](pidtagprofileserverfullversion-canonical-property.md)
 

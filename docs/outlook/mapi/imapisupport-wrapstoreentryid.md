@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 25c04f8dee012f4985db98df7d1b3ae5536ef6b7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809179"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Преобразует идентификатор внутренней записи хранилища сообщений идентификатор записи в стандартный формат MAPI.
   
@@ -36,7 +36,7 @@ LPENTRYID FAR * lppWrappedEntry
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _cbOrigEntry_
   

@@ -10,7 +10,7 @@ keywords:
 - функция hookexcelwindow [excel 2007]
 localization_priority: Normal
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8965cc6b1e3d24001c42744f2ee7d447aa4c79b5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807268"
 ---
 # <a name="hookexcelwindow"></a>HookExcelWindow
 
- **Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Устанавливает **ExcelCursorProc** , чтобы вызывается до Microsoft Excel главного **WndProc**.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807268"
 extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _hWndExcel_ (**ОБРАБАТЫВАТЬ**)
   
@@ -50,5 +50,5 @@ extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 
 
 
-[В универсальные библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
 

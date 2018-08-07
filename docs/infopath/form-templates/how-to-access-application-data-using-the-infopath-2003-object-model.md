@@ -1,5 +1,5 @@
 ---
-title: Доступ к данным приложения с помощью объектной модели InfoPath 2003
+title: Доступ к данным приложений с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807474"
 ---
-# <a name="access-application-data-using-the-infopath-2003-object-model"></a>Доступ к данным приложения с помощью объектной модели InfoPath 2003
+# <a name="access-application-data-using-the-infopath-2003-object-model"></a>Доступ к данным приложений с помощью объектной модели InfoPath 2003
 
 Объектная модель совместимых с InfoPath 2003, предоставляет объекты и коллекции, которые можно использовать для получения доступа к сведениям о приложении InfoPath, а также приведены сведения, относящиеся к XML-документом формы и файла определения формы (XSF). Эти данные осуществляется с помощью объекта верхнего уровня в иерархии модели объектов InfoPath, который создается с помощью интерфейса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . 
   
@@ -63,7 +63,7 @@ thisXDocument.UI.Alert("IsDirty: " &amp; thisXDocument.IsDirty &amp; vbNewLine &
 thisXDocument.UI.Alert(thisXDocument.DOM.xml)
 ```
 
-Свойство **xml** , используемые в предыдущем примере — это свойство из модели объектов документа XML (DOM). Дополнительные сведения о XML DOM обратитесь к документации MSXML 5.0 SDK. 
+Использованное в предыдущем примере свойство **xml** является свойством модели XML DOM. Дополнительные сведения о модели XML DOM см. в документации по пакету SDK MSXML 5.0. 
   
 ## <a name="accessing-data-from-a-forms-form-definition-file"></a>Доступ к данным из файла определения формы
 

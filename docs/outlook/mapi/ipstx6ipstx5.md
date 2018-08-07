@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e1f12760607c86a9e076df7565696a58fdead32c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809584"
 ---
-# <a name="ipstx6--ipstx5"></a>IPSTX6: IPSTX5
+# <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Этот интерфейс предоставляет функциональные возможности модуля поддержки при выполнении репликации с помощью интерфейса IOSTX.
   
@@ -46,7 +46,7 @@ ms.locfileid: "19809584"
 
 
 
-[О репликации API](about-the-replication-api.md)
+[Сведения об API репликации](about-the-replication-api.md)
   
 [��������� MAPI](mapi-constants.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: c70fd9eb771268db4030cefdf2f27b75ae5963b7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19809650"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Последовательность взаимодействия, которая происходит при загрузке формы из постоянного хранилища (то есть, из библиотеки форм) для отображения сообщения выглядит следующим образом:
   
@@ -51,5 +51,5 @@ ms.locfileid: "19809650"
 
 
 
-[Взаимодействие сервера формы](form-server-interactions.md)
+[Взаимодействие серверов форм](form-server-interactions.md)
 

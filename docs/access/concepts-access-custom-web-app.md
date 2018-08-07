@@ -14,10 +14,10 @@ ms.locfileid: "19806975"
 ---
 # <a name="concepts-access-custom-web-app"></a>Основные понятия (приложение настраиваемых web Access)
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 > [!IMPORTANT]
-> Корпорация Майкрософт рекомендует больше не Создание и использование веб-приложениях Access в SharePoint. Кроме того рекомендуется использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для построения без написания кода бизнес-решений для мобильных устройств и веб. 
+> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 - [Зарезервированные слова (приложение настраиваемых web Access)](reserved-words-access-custom-web-app.md)
     
@@ -27,6 +27,6 @@ ms.locfileid: "19806975"
     
 - [Форматы настраиваемые даты и времени для функции Format (приложение настраиваемых web Access)](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)
     
-- [Фильтрация представления с помощью макроса в приложение Access](how-to-filter-a-view-by-using-a-macro-in-an-access-app.md)
+- [Фильтрация представления с помощью макроса в приложении Access](how-to-filter-a-view-by-using-a-macro-in-an-access-app.md)
     
 

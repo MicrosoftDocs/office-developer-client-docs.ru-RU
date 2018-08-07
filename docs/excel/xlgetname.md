@@ -10,7 +10,7 @@ keywords:
 - функция xlgetname [excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 069676957d280a0bf3b398bb23b27f0e654bc655
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807356"
 ---
 # <a name="xlgetname"></a>xlGetName
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает полный путь и имя библиотеки DLL в виде строки.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807356"
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 Эта функция не содержит аргументов.
   
@@ -53,5 +53,5 @@ short WINAPI xlGetNameExample(void)
 
 ## <a name="see-also"></a>См. также
 
-- [Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

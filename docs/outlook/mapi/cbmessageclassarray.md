@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cdf06861cf123162e726348b12fa6033fc88ffdb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808132"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вычисляет число байтов в структуру [SMessageClassArray](smessageclassarray.md) , содержащий указанное число строки указатели на классы сообщений. 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19808132"
 CbMessageClassArray (_c)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  __c_
   
@@ -49,5 +49,5 @@ CbMessageClassArray (_c)
 [SMessageClassArray](smessageclassarray.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 
