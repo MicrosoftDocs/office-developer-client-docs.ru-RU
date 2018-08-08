@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807611"
 ---
-# <a name="working-with-sharepoint-and-infopath-forms-services"></a><span data-ttu-id="ec5f8-104">Работа со службами SharePoint и InfoPath Forms Services</span><span class="sxs-lookup"><span data-stu-id="ec5f8-104">Working with SharePoint and InfoPath Forms Services</span></span>
+# <a name="working-with-sharepoint-and-infopath-forms-services"></a><span data-ttu-id="97505-104">Работа со службами SharePoint и InfoPath Forms Services</span><span class="sxs-lookup"><span data-stu-id="97505-104">Working with SharePoint and InfoPath Forms Services</span></span>
 
-<span data-ttu-id="ec5f8-105">В этом разделе представлены сведения о работе с шаблонами форм, совместимыми с браузерами и предназначенными для развертывания в приложении Microsoft SharePoint Server 2010 с InfoPath Forms Services.</span><span class="sxs-lookup"><span data-stu-id="ec5f8-105">This section provides information about working with browser-compatible form templates that will be deployed to Microsoft SharePoint Server 2010 with InfoPath Forms Services.</span></span>
+<span data-ttu-id="97505-105">В этом разделе представлены сведения о работе с шаблонами форм, совместимыми с браузерами и предназначенными для развертывания в приложении Microsoft SharePoint Server 2010 с InfoPath Forms Services.</span><span class="sxs-lookup"><span data-stu-id="97505-105">This section provides information about working with browser-compatible form templates that will be deployed to Microsoft SharePoint Server 2010 with InfoPath Forms Services.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="ec5f8-106">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="ec5f8-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="97505-106">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="97505-106">In this section</span></span>
 
-[<span data-ttu-id="ec5f8-107">Создание шаблонов форм InfoPath, работающих со службами InfoPath Forms Services</span><span class="sxs-lookup"><span data-stu-id="ec5f8-107">Creating InfoPath Form Templates That Work With InfoPath Forms Services</span></span>](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
+[<span data-ttu-id="97505-107">Создание шаблонов форм InfoPath, работающих со службами InfoPath Forms Services</span><span class="sxs-lookup"><span data-stu-id="97505-107">Creating InfoPath Form Templates That Work With InfoPath Forms Services</span></span>](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
   
-> <span data-ttu-id="ec5f8-108">Описываются элементы управления, функции и элементы объектной модели, которые поддерживаются в совместимом с браузерами шаблоне формы, который развертывается в приложении InfoPath Forms Services.</span><span class="sxs-lookup"><span data-stu-id="ec5f8-108">Describes what controls, features, and object model members are supported for browser-compatible form template deployed to InfoPath Forms Services.</span></span>
+> <span data-ttu-id="97505-108">Описываются элементы управления, функции и элементы объектной модели, которые поддерживаются в совместимом с браузерами шаблоне формы, который развертывается в приложении InfoPath Forms Services.</span><span class="sxs-lookup"><span data-stu-id="97505-108">Describes what controls, features, and object model members are supported for browser-compatible form template deployed to InfoPath Forms Services.</span></span>
     
-[<span data-ttu-id="ec5f8-109">Поддержка рабочих процессов SharePoint в формах InfoPath</span><span class="sxs-lookup"><span data-stu-id="ec5f8-109">SharePoint Workflow Support in InfoPath Forms</span></span>](sharepoint-workflow-support-in-infopath-forms.md)
+[<span data-ttu-id="97505-109">Поддержка рабочих процессов SharePoint в формах InfoPath</span><span class="sxs-lookup"><span data-stu-id="97505-109">SharePoint Workflow Support in InfoPath Forms</span></span>](sharepoint-workflow-support-in-infopath-forms.md)
   
-> <span data-ttu-id="ec5f8-110">Даны ссылки на информационные ресурсы по разработке форм InfoPath для рабочих процессов.</span><span class="sxs-lookup"><span data-stu-id="ec5f8-110">Provides links to information about developing InfoPath forms for workflows.</span></span>
+> <span data-ttu-id="97505-110">Даны ссылки на информационные ресурсы по разработке форм InfoPath для рабочих процессов.</span><span class="sxs-lookup"><span data-stu-id="97505-110">Provides links to information about developing InfoPath forms for workflows.</span></span>
     
 

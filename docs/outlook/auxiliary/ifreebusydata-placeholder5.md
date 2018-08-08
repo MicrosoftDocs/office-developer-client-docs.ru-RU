@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807728"
 ---
-# <a name="ifreebusydataplaceholder5"></a><span data-ttu-id="ff6dc-103">IFreeBusyData::Placeholder5</span><span class="sxs-lookup"><span data-stu-id="ff6dc-103">IFreeBusyData::Placeholder5</span></span>
+# <a name="ifreebusydataplaceholder5"></a><span data-ttu-id="614d2-103">IFreeBusyData::Placeholder5</span><span class="sxs-lookup"><span data-stu-id="614d2-103">IFreeBusyData::Placeholder5</span></span>
 
-<span data-ttu-id="ff6dc-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="ff6dc-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="614d2-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="614d2-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="ff6dc-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="ff6dc-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="614d2-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="614d2-105">Quick info</span></span>
 
-<span data-ttu-id="ff6dc-106">В разделе [IFreeBusyData](ifreebusydata.md).</span><span class="sxs-lookup"><span data-stu-id="ff6dc-106">See [IFreeBusyData](ifreebusydata.md).</span></span>
+<span data-ttu-id="614d2-106">В разделе [IFreeBusyData](ifreebusydata.md).</span><span class="sxs-lookup"><span data-stu-id="614d2-106">See [IFreeBusyData](ifreebusydata.md).</span></span>
   
 ```cpp
 HRESULT Placeholder5( 
@@ -30,12 +30,12 @@ HRESULT Placeholder5(
 );
 ```
 
-## <a name="return-values"></a><span data-ttu-id="ff6dc-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="ff6dc-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="614d2-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="614d2-107">Return values</span></span>
 
-<span data-ttu-id="ff6dc-108">Всегда E_NOTIMPL, так как этот член является заполнителя в **IFreeBusyData** и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="ff6dc-108">Always E_NOTIMPL, because this member is a placeholder in **IFreeBusyData** and is not supported.</span></span> 
+<span data-ttu-id="614d2-108">Всегда E_NOTIMPL, так как этот член является заполнителя в **IFreeBusyData** и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="614d2-108">Always E_NOTIMPL, because this member is a placeholder in **IFreeBusyData** and is not supported.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="ff6dc-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="ff6dc-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="614d2-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="614d2-109">Remarks</span></span>
 
-<span data-ttu-id="ff6dc-110">Этот член должен возвращать значение E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="ff6dc-110">This member must return E_NOTIMPL.</span></span>
+<span data-ttu-id="614d2-110">Этот член должен возвращать значение E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="614d2-110">This member must return E_NOTIMPL.</span></span>
   
 

@@ -15,12 +15,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19810045"
 ---
-# <a name="ole-attachments"></a><span data-ttu-id="de25a-103">�������� OLE</span><span class="sxs-lookup"><span data-stu-id="de25a-103">OLE Attachments</span></span>
+# <a name="ole-attachments"></a><span data-ttu-id="fe104-103">�������� OLE</span><span class="sxs-lookup"><span data-stu-id="fe104-103">OLE Attachments</span></span>
 
   
   
-<span data-ttu-id="de25a-104">**Применимо к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="de25a-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="fe104-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="fe104-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="de25a-p101">��������, ������� �������� ������� OLE, ���������� ��� ������� OLE 1 ����� ��� ����������� �������� �������������. ���� �������� ������ ������������� �������� �������� **IStorage** OLE 2, ������ ������ ���� ������������ � ����� OLE 1. ��� �������������� ����������� � ������� ������� **OleConvertIStorageToOLESTREAM**, ������� �������� ������ ���������� Win32 OLE.</span><span class="sxs-lookup"><span data-stu-id="de25a-p101">Attachments that are OLE objects are encoded as OLE 1 stream objects for backward compatibility. If the original object is really an OLE 2 **IStorage** object, then the object must be converted to an OLE 1 stream. This conversion is performed using the **OleConvertIStorageToOLESTREAM** function, which is part of the Win32 OLE libraries.</span></span> 
+<span data-ttu-id="fe104-p101">��������, ������� �������� ������� OLE, ���������� ��� ������� OLE 1 ����� ��� ����������� �������� �������������. ���� �������� ������ ������������� �������� �������� **IStorage** OLE 2, ������ ������ ���� ������������ � ����� OLE 1. ��� �������������� ����������� � ������� ������� **OleConvertIStorageToOLESTREAM**, ������� �������� ������ ���������� Win32 OLE.</span><span class="sxs-lookup"><span data-stu-id="fe104-p101">Attachments that are OLE objects are encoded as OLE 1 stream objects for backward compatibility. If the original object is really an OLE 2 **IStorage** object, then the object must be converted to an OLE 1 stream. This conversion is performed using the **OleConvertIStorageToOLESTREAM** function, which is part of the Win32 OLE libraries.</span></span> 
   
 

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807685"
 ---
-# <a name="functions-data-degradation-layer-api"></a><span data-ttu-id="5b2dc-103">Функции (layer уменьшение объема данных API).</span><span class="sxs-lookup"><span data-stu-id="5b2dc-103">Functions (Data degradation layer API)</span></span>
+# <a name="functions-data-degradation-layer-api"></a><span data-ttu-id="58ff9-103">Функции (layer уменьшение объема данных API).</span><span class="sxs-lookup"><span data-stu-id="58ff9-103">Functions (Data degradation layer API)</span></span>
 
-<span data-ttu-id="5b2dc-104">В этом разделе описываются функции в интерфейсе API Layer уменьшение объема данных.</span><span class="sxs-lookup"><span data-stu-id="5b2dc-104">This section describes the functions in the Data Degradation Layer API.</span></span>
+<span data-ttu-id="58ff9-104">В этом разделе описываются функции в интерфейсе API Layer уменьшение объема данных.</span><span class="sxs-lookup"><span data-stu-id="58ff9-104">This section describes the functions in the Data Degradation Layer API.</span></span>
   
-|<span data-ttu-id="5b2dc-105">**Функция**</span><span class="sxs-lookup"><span data-stu-id="5b2dc-105">**Function**</span></span>|<span data-ttu-id="5b2dc-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5b2dc-106">**Description**</span></span>|
+|<span data-ttu-id="58ff9-105">**Функция**</span><span class="sxs-lookup"><span data-stu-id="58ff9-105">**Function**</span></span>|<span data-ttu-id="58ff9-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="58ff9-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="5b2dc-107">HrCreateNewWrappedObject</span><span class="sxs-lookup"><span data-stu-id="5b2dc-107">HrCreateNewWrappedObject</span></span>](hrcreatenewwrappedobject.md) <br/> |<span data-ttu-id="5b2dc-108">Создает объект, клиент может получить доступ в предпочтительном символьном формате.</span><span class="sxs-lookup"><span data-stu-id="5b2dc-108">Creates an object that a client can access in a preferred character format.</span></span>  <br/> |
+|[<span data-ttu-id="58ff9-107">HrCreateNewWrappedObject</span><span class="sxs-lookup"><span data-stu-id="58ff9-107">HrCreateNewWrappedObject</span></span>](hrcreatenewwrappedobject.md) <br/> |<span data-ttu-id="58ff9-108">Создает объект, клиент может получить доступ в предпочтительном символьном формате.</span><span class="sxs-lookup"><span data-stu-id="58ff9-108">Creates an object that a client can access in a preferred character format.</span></span>  <br/> |
    
 

@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807691"
 ---
-# <a name="concepts-outlook-auxiliary-reference"></a><span data-ttu-id="ffba8-103">Основные понятия (Справочник по Outlook для вспомогательных)</span><span class="sxs-lookup"><span data-stu-id="ffba8-103">Concepts (Outlook auxiliary reference)</span></span>
+# <a name="concepts-outlook-auxiliary-reference"></a><span data-ttu-id="76586-103">Основные понятия (Справочник по Outlook для вспомогательных)</span><span class="sxs-lookup"><span data-stu-id="76586-103">Concepts (Outlook auxiliary reference)</span></span>
 
-<span data-ttu-id="ffba8-104">В этом разделе описаны четыре интерфейсы API в дополнительные справочные материалы по Outlook 2013 и приведены примеры задач, использующие эти API.</span><span class="sxs-lookup"><span data-stu-id="ffba8-104">This section describes the four APIs in the Outlook 2013 Auxiliary Reference and provides sample tasks that use those APIs.</span></span>
+<span data-ttu-id="76586-104">В этом разделе описаны четыре интерфейсы API в дополнительные справочные материалы по Outlook 2013 и приведены примеры задач, использующие эти API.</span><span class="sxs-lookup"><span data-stu-id="76586-104">This section describes the four APIs in the Outlook 2013 Auxiliary Reference and provides sample tasks that use those APIs.</span></span>
 
-- [<span data-ttu-id="ffba8-105">Управление учетными записями Outlook</span><span class="sxs-lookup"><span data-stu-id="ffba8-105">Outlook account management</span></span>](outlook-account-management.md)
+- [<span data-ttu-id="76586-105">Управление учетными записями Outlook</span><span class="sxs-lookup"><span data-stu-id="76586-105">Outlook account management</span></span>](outlook-account-management.md)
     
-- [<span data-ttu-id="ffba8-106">About the Data Degradation Layer API</span><span class="sxs-lookup"><span data-stu-id="ffba8-106">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
+- [<span data-ttu-id="76586-106">About the Data Degradation Layer API</span><span class="sxs-lookup"><span data-stu-id="76586-106">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
     
-- [<span data-ttu-id="ffba8-107">Об API-интерфейсы экспортировать с Outlook</span><span class="sxs-lookup"><span data-stu-id="ffba8-107">About APIs exported by Outlook</span></span>](about-apis-exported-by-outlook.md)
+- [<span data-ttu-id="76586-107">Сведения об интерфейсах API, экспортируемых Outlook</span><span class="sxs-lookup"><span data-stu-id="76586-107">About APIs exported by Outlook</span></span>](about-apis-exported-by-outlook.md)
     
-- [<span data-ttu-id="ffba8-108">Настройки Outlook</span><span class="sxs-lookup"><span data-stu-id="ffba8-108">Outlook configuration</span></span>](outlook-configuration.md)
+- [<span data-ttu-id="76586-108">Конфигурация Outlook</span><span class="sxs-lookup"><span data-stu-id="76586-108">Outlook configuration</span></span>](outlook-configuration.md)
     
-- [<span data-ttu-id="ffba8-109">Календари Outlook и встреч</span><span class="sxs-lookup"><span data-stu-id="ffba8-109">Outlook calendars and appointments</span></span>](outlook-calendars-and-appointments.md)
+- [<span data-ttu-id="76586-109">Календари и встречи Outlook</span><span class="sxs-lookup"><span data-stu-id="76586-109">Outlook calendars and appointments</span></span>](outlook-calendars-and-appointments.md)
     
-- [<span data-ttu-id="ffba8-110">Примеры задач</span><span class="sxs-lookup"><span data-stu-id="ffba8-110">Sample tasks</span></span>](sample-tasks.md)
+- [<span data-ttu-id="76586-110">Примеры задач</span><span class="sxs-lookup"><span data-stu-id="76586-110">Sample tasks</span></span>](sample-tasks.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: Справочник по данным снижение уровня API
+title: Справочник по API уровня ухудшения данных
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807690"
 ---
-# <a name="data-degradation-layer-api-reference"></a><span data-ttu-id="4d56f-103">Справочник по данным снижение уровня API</span><span class="sxs-lookup"><span data-stu-id="4d56f-103">Data degradation layer API reference</span></span>
+# <a name="data-degradation-layer-api-reference"></a><span data-ttu-id="dc4fd-103">Справочник по API уровня ухудшения данных</span><span class="sxs-lookup"><span data-stu-id="dc4fd-103">Data degradation layer API reference</span></span>
 
-<span data-ttu-id="4d56f-104">В этом разделе представлены справочные материалы, которые для данных снижение уровня интерфейса API, который предоставляет возможность скрыть базовый собственный символьном формате объекта Outlook, позволяя клиента для доступа к объекту в предпочтительном символьном формате, а не в Формат внутреннего объекта.</span><span class="sxs-lookup"><span data-stu-id="4d56f-104">This section provides reference content for the Data Degradation Layer API, which provides the ability to hide the underlying native character format of an Outlook object, allowing a client to access the object in a preferred character format rather than in the object's native character format.</span></span>
+<span data-ttu-id="dc4fd-104">В этом разделе представлены справочные материалы, которые для данных снижение уровня интерфейса API, который предоставляет возможность скрыть базовый собственный символьном формате объекта Outlook, позволяя клиента для доступа к объекту в предпочтительном символьном формате, а не в Формат внутреннего объекта.</span><span class="sxs-lookup"><span data-stu-id="dc4fd-104">This section provides reference content for the Data Degradation Layer API, which provides the ability to hide the underlying native character format of an Outlook object, allowing a client to access the object in a preferred character format rather than in the object's native character format.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="4d56f-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="4d56f-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dc4fd-105">В этой статье</span><span class="sxs-lookup"><span data-stu-id="dc4fd-105">In this section</span></span>
 
-- [<span data-ttu-id="4d56f-106">Константы</span><span class="sxs-lookup"><span data-stu-id="4d56f-106">Constants</span></span>](constants-data-degradation-layer-api.md)
+- [<span data-ttu-id="dc4fd-106">Константы</span><span class="sxs-lookup"><span data-stu-id="dc4fd-106">Constants</span></span>](constants-data-degradation-layer-api.md)
     
-- [<span data-ttu-id="4d56f-107">Functions</span><span class="sxs-lookup"><span data-stu-id="4d56f-107">Functions</span></span>](functions-data-degradation-layer-api.md)
+- [<span data-ttu-id="dc4fd-107">Functions</span><span class="sxs-lookup"><span data-stu-id="dc4fd-107">Functions</span></span>](functions-data-degradation-layer-api.md)
     
 

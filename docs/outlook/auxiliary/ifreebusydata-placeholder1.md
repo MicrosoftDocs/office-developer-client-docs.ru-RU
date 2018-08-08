@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807716"
 ---
-# <a name="ifreebusydataplaceholder1"></a><span data-ttu-id="58e7d-103">IFreeBusyData::Placeholder1</span><span class="sxs-lookup"><span data-stu-id="58e7d-103">IFreeBusyData::Placeholder1</span></span>
+# <a name="ifreebusydataplaceholder1"></a><span data-ttu-id="f6597-103">IFreeBusyData::Placeholder1</span><span class="sxs-lookup"><span data-stu-id="f6597-103">IFreeBusyData::Placeholder1</span></span>
 
-<span data-ttu-id="58e7d-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="58e7d-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="f6597-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="f6597-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="58e7d-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="58e7d-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="f6597-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="f6597-105">Quick info</span></span>
 
-<span data-ttu-id="58e7d-106">В разделе [IFreeBusyData](ifreebusydata.md).</span><span class="sxs-lookup"><span data-stu-id="58e7d-106">See [IFreeBusyData](ifreebusydata.md).</span></span>
+<span data-ttu-id="f6597-106">В разделе [IFreeBusyData](ifreebusydata.md).</span><span class="sxs-lookup"><span data-stu-id="f6597-106">See [IFreeBusyData](ifreebusydata.md).</span></span>
   
 ```cpp
 HRESULT Placeholder1( 
@@ -29,18 +29,18 @@ HRESULT Placeholder1(
 
 ```
 
-## <a name="return-values"></a><span data-ttu-id="58e7d-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="58e7d-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f6597-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="f6597-107">Return values</span></span>
 
-<span data-ttu-id="58e7d-108">Всегда E_NOTIMPL, так как этот член является заполнителя в **IFreeBusyData** и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="58e7d-108">Always E_NOTIMPL, because this member is a placeholder in **IFreeBusyData** and is not supported.</span></span> 
+<span data-ttu-id="f6597-108">Всегда E_NOTIMPL, так как этот член является заполнителя в **IFreeBusyData** и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="f6597-108">Always E_NOTIMPL, because this member is a placeholder in **IFreeBusyData** and is not supported.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="58e7d-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="58e7d-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f6597-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="f6597-109">Remarks</span></span>
 
-<span data-ttu-id="58e7d-110">Этот член должен возвращать значение E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="58e7d-110">This member must return E_NOTIMPL.</span></span>
+<span data-ttu-id="f6597-110">Этот член должен возвращать значение E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="f6597-110">This member must return E_NOTIMPL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="58e7d-111">См. также</span><span class="sxs-lookup"><span data-stu-id="58e7d-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f6597-111">См. также</span><span class="sxs-lookup"><span data-stu-id="f6597-111">See also</span></span>
 
-- [<span data-ttu-id="58e7d-112">Константы (занятости API)</span><span class="sxs-lookup"><span data-stu-id="58e7d-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="58e7d-113">IFreeBusyData::EnumBlocks</span><span class="sxs-lookup"><span data-stu-id="58e7d-113">IFreeBusyData::EnumBlocks</span></span>](ifreebusydata-enumblocks.md)
-- [<span data-ttu-id="58e7d-114">IFreeBusyData::GetFBPublishRange</span><span class="sxs-lookup"><span data-stu-id="58e7d-114">IFreeBusyData::GetFBPublishRange</span></span>](ifreebusydata-getfbpublishrange.md)
-- [<span data-ttu-id="58e7d-115">IFreeBusyData::SetFBRange</span><span class="sxs-lookup"><span data-stu-id="58e7d-115">IFreeBusyData::SetFBRange</span></span>](ifreebusydata-setfbrange.md)
+- [<span data-ttu-id="f6597-112">Константы (занятости API)</span><span class="sxs-lookup"><span data-stu-id="f6597-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="f6597-113">IFreeBusyData::EnumBlocks</span><span class="sxs-lookup"><span data-stu-id="f6597-113">IFreeBusyData::EnumBlocks</span></span>](ifreebusydata-enumblocks.md)
+- [<span data-ttu-id="f6597-114">IFreeBusyData::GetFBPublishRange</span><span class="sxs-lookup"><span data-stu-id="f6597-114">IFreeBusyData::GetFBPublishRange</span></span>](ifreebusydata-getfbpublishrange.md)
+- [<span data-ttu-id="f6597-115">IFreeBusyData::SetFBRange</span><span class="sxs-lookup"><span data-stu-id="f6597-115">IFreeBusyData::SetFBRange</span></span>](ifreebusydata-setfbrange.md)
 

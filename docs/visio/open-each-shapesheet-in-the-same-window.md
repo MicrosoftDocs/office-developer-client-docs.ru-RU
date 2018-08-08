@@ -1,5 +1,5 @@
 ---
-title: Откройте каждой фигуры в том же окне
+title: Открытие всех таблиц свойств фигур в одном окне
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814312"
 ---
-# <a name="open-each-shapesheet-in-the-same-window"></a><span data-ttu-id="faba7-102">Откройте каждой фигуры в том же окне</span><span class="sxs-lookup"><span data-stu-id="faba7-102">Open Each ShapeSheet in the Same Window</span></span>
+# <a name="open-each-shapesheet-in-the-same-window"></a><span data-ttu-id="ea8bc-102">Открытие всех таблиц свойств фигур в одном окне</span><span class="sxs-lookup"><span data-stu-id="ea8bc-102">Open Each ShapeSheet in the Same Window</span></span>
 
-1. <span data-ttu-id="faba7-103">Перейдите на вкладку **файл** , выберите пункт **Параметры**и затем нажмите кнопку **Дополнительно**.</span><span class="sxs-lookup"><span data-stu-id="faba7-103">Click the **File** tab, click **Options**, and then click **Advanced**.</span></span>
+1. <span data-ttu-id="ea8bc-103">Перейдите на вкладку **файл** , выберите пункт **Параметры**и затем нажмите кнопку **Дополнительно**.</span><span class="sxs-lookup"><span data-stu-id="ea8bc-103">Click the **File** tab, click **Options**, and then click **Advanced**.</span></span>
     
-2. <span data-ttu-id="faba7-104">На вкладке **Общие**выберите **Открыть каждой фигуры в том же окне**.</span><span class="sxs-lookup"><span data-stu-id="faba7-104">Under **General**, select **Open each ShapeSheet in the same window**.</span></span>
+2. <span data-ttu-id="ea8bc-104">На вкладке **Общие**выберите **Открыть каждой фигуры в том же окне**.</span><span class="sxs-lookup"><span data-stu-id="ea8bc-104">Under **General**, select **Open each ShapeSheet in the same window**.</span></span>
     
-3. <span data-ttu-id="faba7-105">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="faba7-105">Click **OK**.</span></span> 
+3. <span data-ttu-id="ea8bc-105">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="ea8bc-105">Click **OK**.</span></span> 
     
 

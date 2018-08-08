@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814314"
 ---
-# <a name="opengroupwin-function"></a><span data-ttu-id="dba57-104">Функция OPENGROUPWIN</span><span class="sxs-lookup"><span data-stu-id="dba57-104">OPENGROUPWIN Function</span></span>
+# <a name="opengroupwin-function"></a><span data-ttu-id="fdece-104">Функция OPENGROUPWIN</span><span class="sxs-lookup"><span data-stu-id="fdece-104">OPENGROUPWIN Function</span></span>
 
-<span data-ttu-id="dba57-105">Открывает группы в окне «группа».</span><span class="sxs-lookup"><span data-stu-id="dba57-105">Opens the group in the group window.</span></span> <span data-ttu-id="dba57-106">Если объект не является группу, эта функция не имеет никакого эффекта.</span><span class="sxs-lookup"><span data-stu-id="dba57-106">If the object is not a group, this function does nothing.</span></span>
+<span data-ttu-id="fdece-105">Открывает группы в окне «группа».</span><span class="sxs-lookup"><span data-stu-id="fdece-105">Opens the group in the group window.</span></span> <span data-ttu-id="fdece-106">Если объект не является группу, эта функция не имеет никакого эффекта.</span><span class="sxs-lookup"><span data-stu-id="fdece-106">If the object is not a group, this function does nothing.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="dba57-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="dba57-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fdece-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="fdece-107">Syntax</span></span>
 
-<span data-ttu-id="dba57-108">(OPENGROUPWIN)</span><span class="sxs-lookup"><span data-stu-id="dba57-108">OPENGROUPWIN( )</span></span>
+<span data-ttu-id="fdece-108">(OPENGROUPWIN)</span><span class="sxs-lookup"><span data-stu-id="fdece-108">OPENGROUPWIN( )</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="dba57-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="dba57-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fdece-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="fdece-109">Remarks</span></span>
 
-<span data-ttu-id="dba57-110">В более ранних версиях Visio эта функция отображается в виде _OPENGROUPWIN.</span><span class="sxs-lookup"><span data-stu-id="dba57-110">In earlier versions of Visio, this function appears as _OPENGROUPWIN.</span></span> <span data-ttu-id="dba57-111">Visio версии 4.0 и более поздних версий принимать любого из стилей.</span><span class="sxs-lookup"><span data-stu-id="dba57-111">Visio versions 4.0 and later accept either style.</span></span> 
+<span data-ttu-id="fdece-110">В более ранних версиях Visio эта функция отображается в виде _OPENGROUPWIN.</span><span class="sxs-lookup"><span data-stu-id="fdece-110">In earlier versions of Visio, this function appears as _OPENGROUPWIN.</span></span> <span data-ttu-id="fdece-111">Visio версии 4.0 и более поздних версий принимать любого из стилей.</span><span class="sxs-lookup"><span data-stu-id="fdece-111">Visio versions 4.0 and later accept either style.</span></span> 
   
 

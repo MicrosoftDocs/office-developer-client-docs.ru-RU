@@ -1,0 +1,49 @@
+---
+title: Завершение сеанса MAPI
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
+description: 'Дата последнего изменения: 23 июля 2011 г.'
+ms.openlocfilehash: 844880e5a1e40b51ece30baafd969372e7d43121
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19808382"
+---
+# <a name="ending-a-mapi-session"></a><span data-ttu-id="8c82d-103">Завершение сеанса MAPI</span><span class="sxs-lookup"><span data-stu-id="8c82d-103">Ending a MAPI Session</span></span>
+
+  
+  
+<span data-ttu-id="8c82d-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="8c82d-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="8c82d-105">Клиенты могут завершить их сеансов в ответ на запрос пользователя, либо сразу же или обработки после всех исходящих сообщений и когда происходит критическая ошибка.</span><span class="sxs-lookup"><span data-stu-id="8c82d-105">Clients can end their sessions in response to a user's request, either immediately or after all outbound messages have been processed, and when a critical error occurs.</span></span> <span data-ttu-id="8c82d-106">Некоторые клиенты необходимость всегда оставаться на вход в систему, ожидающие исходящих сообщений можно сделать доступными поставщика транспорта и назначение системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="8c82d-106">Some clients need to stay logged on so that pending outbound messages can reach the transport provider and the destination messaging system.</span></span> <span data-ttu-id="8c82d-107">Если такой клиент отправляет сообщение и немедленно выходит из системы, сообщение может оставаться в очереди исходящих сообщений, пока пользователь входит задний план и остается выполнившего вход достаточно времени для сообщения для передачи.</span><span class="sxs-lookup"><span data-stu-id="8c82d-107">If such a client sends a message and immediately logs off, the message may remain in the outgoing queue until a user logs back on and stays logged on long enough for the message to be transmitted.</span></span>
+  
+ <span data-ttu-id="8c82d-108">**Когда следует завершить сеанс с подсистемой MAPI**</span><span class="sxs-lookup"><span data-stu-id="8c82d-108">**When you need to terminate your session with the MAPI subsystem**</span></span>
+  
+1. <span data-ttu-id="8c82d-109">Отмена регистрации для всех уведомлений путем вызова метода **Unadvise** всех зарегистрированных объектов.</span><span class="sxs-lookup"><span data-stu-id="8c82d-109">Cancel the registrations for all notifications by calling the **Unadvise** method of every registered object.</span></span> 
+    
+2. <span data-ttu-id="8c82d-110">Освобождение всех открытых объектов, вызвав их [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) методы.</span><span class="sxs-lookup"><span data-stu-id="8c82d-110">Release all open objects by calling their [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) methods.</span></span> <span data-ttu-id="8c82d-111">Типы объектов, open может включать уведомить приемники, в таблице состояния, папке Исходящие, один или несколько хранилищ сообщений и адресной книги.</span><span class="sxs-lookup"><span data-stu-id="8c82d-111">The types of open objects can include advise sinks, the status table, the Outbox folder, one or more message stores, and the address book.</span></span> 
+    
+3. <span data-ttu-id="8c82d-112">Вызовите [MAPIFreeBuffer](mapifreebuffer.md) , чтобы освободить память для каких-либо идентификаторов кэшированной записи, такие как **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="8c82d-112">Call [MAPIFreeBuffer](mapifreebuffer.md) to free the memory for any cached entry identifiers, such as **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).</span></span>
+    
+4. <span data-ttu-id="8c82d-113">Вызовите [IMAPISession::Logoff](imapisession-logoff.md), установка флага MAPI_LOGOFF_UI, если вы включили пользовательского интерфейса и флаг MAPI_LOGOFF_SHARED, если у вас есть Текущий совместный сеанс.</span><span class="sxs-lookup"><span data-stu-id="8c82d-113">Call [IMAPISession::Logoff](imapisession-logoff.md), setting the MAPI_LOGOFF_UI flag if you allow a user interface and the MAPI_LOGOFF_SHARED flag if you own the current shared session.</span></span> <span data-ttu-id="8c82d-114">**Выход из системы** уведомляет все другие клиенты, использующие текущий совместный сеанс, необходимо выйти, отправив уведомление об ошибке.</span><span class="sxs-lookup"><span data-stu-id="8c82d-114">**Logoff** notifies all other clients that are using the current shared session that they should log off by sending an error notification.</span></span> 
+    
+5. <span data-ttu-id="8c82d-115">Выпуск указатель сеанса, вызвав метод **функции IUnknown::Release** сеанса.</span><span class="sxs-lookup"><span data-stu-id="8c82d-115">Release the session pointer by calling the session's **IUnknown::Release** method.</span></span> 
+    
+6. <span data-ttu-id="8c82d-116">Если [OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) вызван при запуске сеанса для инициализации библиотеки OLE, выполнении отмены инициализации их теперь путем вызова [OleUninitialize](http://msdn.microsoft.com/en-us/library/ms691326%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="8c82d-116">If you called [OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) during session startup to initialize the OLE libraries, uninitialize them now by calling [OleUninitialize](http://msdn.microsoft.com/en-us/library/ms691326%28VS.85%29.aspx).</span></span> <span data-ttu-id="8c82d-117">Только клиенты, которые вызвали **OleInitialize** необходимо вызвать **OleUninitialize**.</span><span class="sxs-lookup"><span data-stu-id="8c82d-117">Only clients that have called **OleInitialize** must call **OleUninitialize**.</span></span> 
+    
+7. <span data-ttu-id="8c82d-118">Выполнении отмены инициализации библиотеки MAPI путем вызова [MAPIUninitialize](mapiuninitialize.md).</span><span class="sxs-lookup"><span data-stu-id="8c82d-118">Uninitialize the MAPI libraries by calling [MAPIUninitialize](mapiuninitialize.md).</span></span> <span data-ttu-id="8c82d-119">Если **OleInitialize** вызван в определенный момент, убедитесь в том, что **OleUninitialize** вызывается до этого вызова **MAPIUninitialize**.</span><span class="sxs-lookup"><span data-stu-id="8c82d-119">If you called **OleInitialize** at some point, make sure that a call to **OleUninitialize** occurs before this call to **MAPIUninitialize**.</span></span> <span data-ttu-id="8c82d-120">Важно правильно выбрать время.</span><span class="sxs-lookup"><span data-stu-id="8c82d-120">The timing is crucial.</span></span> <span data-ttu-id="8c82d-121">Если вызов **OleUninitialize** за вызов **MAPIUninitialize**, клиент может завершить ungracefully.</span><span class="sxs-lookup"><span data-stu-id="8c82d-121">If the call to **OleUninitialize** follows the call to **MAPIUninitialize**, your client might terminate ungracefully.</span></span> 
+    
+8. <span data-ttu-id="8c82d-122">Если [ScInitMapiUtil](scinitmapiutil.md) вызван при запуске сеанса для инициализации библиотеки служебной программы MAPI, выполнении отмены инициализации его теперь путем вызова [DeinitMapiUtil](deinitmapiutil.md).</span><span class="sxs-lookup"><span data-stu-id="8c82d-122">If you called [ScInitMapiUtil](scinitmapiutil.md) during session startup to initialize the MAPI utility library, uninitialize it now by calling [DeinitMapiUtil](deinitmapiutil.md).</span></span> <span data-ttu-id="8c82d-123">Только клиенты, которые вызвали **ScInitMapiUtil** необходимо вызвать **DeinitMapiUtil**.</span><span class="sxs-lookup"><span data-stu-id="8c82d-123">Only clients that have called **ScInitMapiUtil** must call **DeinitMapiUtil**.</span></span>
+    
+> [!NOTE]
+> <span data-ttu-id="8c82d-124">Все открытые объекты освобождается до вызова **IMAPISession::Logoff**.</span><span class="sxs-lookup"><span data-stu-id="8c82d-124">All open objects must be released before the call to **IMAPISession::Logoff**.</span></span> <span data-ttu-id="8c82d-125">Объекты, которые остаются открытыми после **выхода из системы** становятся недействительными; они не могут принимать вызовы и никогда не может быть освободить.</span><span class="sxs-lookup"><span data-stu-id="8c82d-125">Objects that remain open after **Logoff** is called become invalid; they cannot accept any calls and might never be freed.</span></span> <span data-ttu-id="8c82d-126">Если вызов выполняется одно из этих объектов, согласно прогнозу, вызов к ошибке.</span><span class="sxs-lookup"><span data-stu-id="8c82d-126">If a call is made to one of these objects, expect the call to fail.</span></span> 
+  
+ <span data-ttu-id="8c82d-127">MAPI не имеет механизма для удаления библиотеки DLL при завершении сеанса работы.</span><span class="sxs-lookup"><span data-stu-id="8c82d-127">MAPI has no mechanism for deleting DLLs during the session shutdown process.</span></span> <span data-ttu-id="8c82d-128">Служба библиотеку DLL поставщика можно удалить только при вызове его сообщения службы функцию точки входа с событием MSG_SERVICE_INSTALL клиентом конфигурации например панель управления.</span><span class="sxs-lookup"><span data-stu-id="8c82d-128">A service provider's DLL can only be deleted when a configuration client such as the Control Panel calls its message service entry point function with the MSG_SERVICE_INSTALL event.</span></span> 
+  
+

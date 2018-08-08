@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807733"
 ---
-# <a name="ifreebusysupportplaceholder3"></a><span data-ttu-id="c5788-103">IFreeBusySupport::Placeholder3</span><span class="sxs-lookup"><span data-stu-id="c5788-103">IFreeBusySupport::Placeholder3</span></span>
+# <a name="ifreebusysupportplaceholder3"></a><span data-ttu-id="d40bf-103">IFreeBusySupport::Placeholder3</span><span class="sxs-lookup"><span data-stu-id="d40bf-103">IFreeBusySupport::Placeholder3</span></span>
 
-<span data-ttu-id="c5788-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="c5788-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="d40bf-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="d40bf-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="c5788-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="c5788-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="d40bf-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="d40bf-105">Quick info</span></span>
 
-<span data-ttu-id="c5788-106">В разделе [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="c5788-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="d40bf-106">В разделе [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="d40bf-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder3();
 ```
 
-## <a name="return-values"></a><span data-ttu-id="c5788-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="c5788-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d40bf-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="d40bf-107">Return values</span></span>
 
-<span data-ttu-id="c5788-108">Всегда значение S_OK, так как этот элемент — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="c5788-108">Always S_OK, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="d40bf-108">Всегда значение S_OK, так как этот элемент — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="d40bf-108">Always S_OK, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c5788-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="c5788-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d40bf-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="d40bf-109">Remarks</span></span>
 
-<span data-ttu-id="c5788-110">Этот член должен возвращать значение S_OK.</span><span class="sxs-lookup"><span data-stu-id="c5788-110">This member must return S_OK.</span></span>
+<span data-ttu-id="d40bf-110">Этот член должен возвращать значение S_OK.</span><span class="sxs-lookup"><span data-stu-id="d40bf-110">This member must return S_OK.</span></span>
   
 

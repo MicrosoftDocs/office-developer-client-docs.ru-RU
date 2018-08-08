@@ -1,0 +1,67 @@
+---
+title: FBadProp
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- FBadProp
+api_type:
+- HeaderDef
+ms.assetid: 929330c8-e6f2-4adf-a36e-fba18fa055d4
+description: 'Дата последнего изменения: 9 марта 2015 г.'
+ms.openlocfilehash: 39e10e9139036cc86ec93ea24a89b98125ea6e83
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19808404"
+---
+# <a name="fbadprop"></a><span data-ttu-id="eafe0-103">FBadProp</span><span class="sxs-lookup"><span data-stu-id="eafe0-103">FBadProp</span></span>
+
+  
+  
+<span data-ttu-id="eafe0-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="eafe0-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="eafe0-105">Проверяет указанного свойства.</span><span class="sxs-lookup"><span data-stu-id="eafe0-105">Validates a specified property.</span></span> 
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="eafe0-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="eafe0-106">Header file:</span></span>  <br/> |<span data-ttu-id="eafe0-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="eafe0-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="eafe0-108">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="eafe0-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="eafe0-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="eafe0-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="eafe0-110">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="eafe0-110">Called by:</span></span>  <br/> |<span data-ttu-id="eafe0-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="eafe0-111">Service providers</span></span>  <br/> |
+   
+```cpp
+ULONG FBadProp(
+  LPSPropValue lpprop
+);
+```
+
+## <a name="parameters"></a><span data-ttu-id="eafe0-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="eafe0-112">Parameters</span></span>
+
+ <span data-ttu-id="eafe0-113">_lpprop_</span><span class="sxs-lookup"><span data-stu-id="eafe0-113">_lpprop_</span></span>
+  
+> <span data-ttu-id="eafe0-114">[in] Структура [SPropValue](spropvalue.md) , определение свойства для проверки.</span><span class="sxs-lookup"><span data-stu-id="eafe0-114">[in] An [SPropValue](spropvalue.md) structure defining the property to be validated.</span></span> 
+    
+## <a name="return-value"></a><span data-ttu-id="eafe0-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="eafe0-115">Return value</span></span>
+
+<span data-ttu-id="eafe0-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="eafe0-116">TRUE</span></span> 
+  
+> <span data-ttu-id="eafe0-117">Указанное свойство является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="eafe0-117">The specified property is invalid.</span></span> 
+    
+<span data-ttu-id="eafe0-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="eafe0-118">FALSE</span></span> 
+  
+> <span data-ttu-id="eafe0-119">Указанное свойство является допустимым.</span><span class="sxs-lookup"><span data-stu-id="eafe0-119">The specified property is valid.</span></span>
+    
+## <a name="remarks"></a><span data-ttu-id="eafe0-120">Замечания</span><span class="sxs-lookup"><span data-stu-id="eafe0-120">Remarks</span></span>
+
+<span data-ttu-id="eafe0-121">Поставщик службы можно вызвать функцию **FBadProp** по ряду причин, например подготовить для вызова метода [IMAPIProp::SetProps](imapiprop-setprops.md) , задав свойство.</span><span class="sxs-lookup"><span data-stu-id="eafe0-121">A service provider can call the **FBadProp** function for several reasons, for example to prepare for a call to the [IMAPIProp::SetProps](imapiprop-setprops.md) method setting a property.</span></span> <span data-ttu-id="eafe0-122">**FBadProp** проверяет указанное свойство в зависимости от типа свойства.</span><span class="sxs-lookup"><span data-stu-id="eafe0-122">**FBadProp** validates the specified property depending on the property type.</span></span> <span data-ttu-id="eafe0-123">Например, если свойство имеет логическое значение, **FBadProp** сделать sures, что его значением является либо TRUE или FALSE.</span><span class="sxs-lookup"><span data-stu-id="eafe0-123">For example, if the property is Boolean, **FBadProp** make sures that its value is either TRUE or FALSE.</span></span> <span data-ttu-id="eafe0-124">Если свойство имеет двоичный, **FBadProp** проверяет его указатель и размер и следит за тем, что он правильно выделенное.</span><span class="sxs-lookup"><span data-stu-id="eafe0-124">If the property is binary, **FBadProp** checks its pointer and size and makes sure that it is allocated correctly.</span></span> 
+  
+## <a name="see-also"></a><span data-ttu-id="eafe0-125">См. также</span><span class="sxs-lookup"><span data-stu-id="eafe0-125">See also</span></span>
+
+
+
+[<span data-ttu-id="eafe0-126">FBadPropTag</span><span class="sxs-lookup"><span data-stu-id="eafe0-126">FBadPropTag</span></span>](fbadproptag.md)
+

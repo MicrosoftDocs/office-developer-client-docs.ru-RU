@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807680"
 ---
-# <a name="acctvariant"></a><span data-ttu-id="b39b2-103">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="b39b2-103">ACCT_VARIANT</span></span>
+# <a name="acctvariant"></a><span data-ttu-id="75057-103">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="75057-103">ACCT_VARIANT</span></span>
 
-<span data-ttu-id="b39b2-104">Переменная этого типа данных содержит значение свойства, которое имеет тип данных variant.</span><span class="sxs-lookup"><span data-stu-id="b39b2-104">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>
+<span data-ttu-id="75057-104">Переменная этого типа данных содержит значение свойства, которое имеет тип данных variant.</span><span class="sxs-lookup"><span data-stu-id="75057-104">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="b39b2-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="b39b2-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="75057-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="75057-105">Quick info</span></span>
 
 ```cpp
 typedef struct 
@@ -34,28 +34,28 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="b39b2-106">Элементы</span><span class="sxs-lookup"><span data-stu-id="b39b2-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="75057-106">Members</span><span class="sxs-lookup"><span data-stu-id="75057-106">Members</span></span>
 
-<span data-ttu-id="b39b2-107">_dwType_</span><span class="sxs-lookup"><span data-stu-id="b39b2-107">_dwType_</span></span>
+<span data-ttu-id="75057-107">_dwType_</span><span class="sxs-lookup"><span data-stu-id="75057-107">_dwType_</span></span>
   
-> <span data-ttu-id="b39b2-108">Тип variant:</span><span class="sxs-lookup"><span data-stu-id="b39b2-108">Type of variant:</span></span>
+> <span data-ttu-id="75057-108">Тип variant:</span><span class="sxs-lookup"><span data-stu-id="75057-108">Type of variant:</span></span>
     
-    - <span data-ttu-id="b39b2-109">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="b39b2-109">PT_LONG</span></span>
+    - <span data-ttu-id="75057-109">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="75057-109">PT_LONG</span></span>
     
-    - <span data-ttu-id="b39b2-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="b39b2-110">PT_UNICODE</span></span>
+    - <span data-ttu-id="75057-110">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="75057-110">PT_UNICODE</span></span>
     
-    - <span data-ttu-id="b39b2-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="b39b2-111">PT_BINARY</span></span>
+    - <span data-ttu-id="75057-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="75057-111">PT_BINARY</span></span>
     
-<span data-ttu-id="b39b2-112">_DW_</span><span class="sxs-lookup"><span data-stu-id="b39b2-112">_dw_</span></span>
+<span data-ttu-id="75057-112">_DW_</span><span class="sxs-lookup"><span data-stu-id="75057-112">_dw_</span></span>
   
-> <span data-ttu-id="b39b2-113">Значение DWORD значение типа variant.</span><span class="sxs-lookup"><span data-stu-id="b39b2-113">DWORD value of variant.</span></span>
+> <span data-ttu-id="75057-113">Значение DWORD значение типа variant.</span><span class="sxs-lookup"><span data-stu-id="75057-113">DWORD value of variant.</span></span>
     
-<span data-ttu-id="b39b2-114">_pwsz_</span><span class="sxs-lookup"><span data-stu-id="b39b2-114">_pwsz_</span></span>
+<span data-ttu-id="75057-114">_pwsz_</span><span class="sxs-lookup"><span data-stu-id="75057-114">_pwsz_</span></span>
   
-> <span data-ttu-id="b39b2-115">Строковое значение типа variant.</span><span class="sxs-lookup"><span data-stu-id="b39b2-115">String value of variant.</span></span>
+> <span data-ttu-id="75057-115">Строковое значение типа variant.</span><span class="sxs-lookup"><span data-stu-id="75057-115">String value of variant.</span></span>
     
-<span data-ttu-id="b39b2-116">_корзины_</span><span class="sxs-lookup"><span data-stu-id="b39b2-116">_bin_</span></span>
+<span data-ttu-id="75057-116">_корзины_</span><span class="sxs-lookup"><span data-stu-id="75057-116">_bin_</span></span>
   
-> <span data-ttu-id="b39b2-117">Двоичное значение типа variant.</span><span class="sxs-lookup"><span data-stu-id="b39b2-117">Binary value of the variant.</span></span>
+> <span data-ttu-id="75057-117">Двоичное значение типа variant.</span><span class="sxs-lookup"><span data-stu-id="75057-117">Binary value of the variant.</span></span>
     
 

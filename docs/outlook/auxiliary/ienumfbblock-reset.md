@@ -14,26 +14,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807706"
 ---
-# <a name="ienumfbblockreset"></a><span data-ttu-id="ff1d1-103">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="ff1d1-103">IEnumFBBlock::Reset</span></span>
+# <a name="ienumfbblockreset"></a><span data-ttu-id="cb386-103">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="cb386-103">IEnumFBBlock::Reset</span></span>
 
-<span data-ttu-id="ff1d1-104">Сбрасывает перечислитель путем установки курсора в начало.</span><span class="sxs-lookup"><span data-stu-id="ff1d1-104">Resets the enumerator by setting the cursor to the beginning.</span></span>
+<span data-ttu-id="cb386-104">Сбрасывает перечислитель путем установки курсора в начало.</span><span class="sxs-lookup"><span data-stu-id="cb386-104">Resets the enumerator by setting the cursor to the beginning.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="ff1d1-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="ff1d1-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="cb386-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="cb386-105">Quick info</span></span>
 
-<span data-ttu-id="ff1d1-106">В разделе [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="ff1d1-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
+<span data-ttu-id="cb386-106">В разделе [IEnumFBBlock](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="cb386-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
   
 ```cpp
 HRESULT Reset();
 ```
 
-## <a name="return-values"></a><span data-ttu-id="ff1d1-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="ff1d1-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="cb386-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="cb386-107">Return values</span></span>
 
-<span data-ttu-id="ff1d1-108">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="ff1d1-108">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="cb386-108">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="cb386-108">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ff1d1-109">См. также</span><span class="sxs-lookup"><span data-stu-id="ff1d1-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb386-109">См. также</span><span class="sxs-lookup"><span data-stu-id="cb386-109">See also</span></span>
 
-- [<span data-ttu-id="ff1d1-110">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="ff1d1-110">IEnumFBBlock::Clone</span></span>](ienumfbblock-clone.md)  
-- [<span data-ttu-id="ff1d1-111">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="ff1d1-111">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
-- [<span data-ttu-id="ff1d1-112">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="ff1d1-112">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)  
-- [<span data-ttu-id="ff1d1-113">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="ff1d1-113">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)
+- [<span data-ttu-id="cb386-110">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="cb386-110">IEnumFBBlock::Clone</span></span>](ienumfbblock-clone.md)  
+- [<span data-ttu-id="cb386-111">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="cb386-111">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
+- [<span data-ttu-id="cb386-112">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="cb386-112">IEnumFBBlock::Restrict</span></span>](ienumfbblock-restrict.md)  
+- [<span data-ttu-id="cb386-113">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="cb386-113">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)
 
