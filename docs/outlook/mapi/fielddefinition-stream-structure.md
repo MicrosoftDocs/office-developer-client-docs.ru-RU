@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 775dc1b5fdcf40867f67fbab25879bd97de24f4a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "19808423"
 ---
 # <a name="fielddefinition-stream-structure"></a>Структура FieldDefinition потока
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Определение поля, пользовательские поля или набора параметров привязки данных для встроенных полей, содержащихся в структуре FieldDefinition потока.
   
@@ -75,7 +75,7 @@ ms.locfileid: "19808423"
     |iTypeVariant  <br/> |10  <br/> |Этот тип не используется для пользовательских полей.  <br/> |
     |iTypeFloatResult  <br/> |11  <br/> |Этот тип не используется для пользовательских полей.  <br/> |
     |iTypeConcat  <br/> |12  <br/> |**Комбинация**, с параметром **присоединяется поля и любые фрагменты текста друг с другом** , выбранные в диалоговом окне **Сочетание формулу поля** .  <br/> |
-    |iTypeKeywords  <br/> |13  <br/> |**Ключевое слово** <br/> |
+    |iTypeKeywords  <br/> |13  <br/> |**Keyword** <br/> |
     |iTypeInteger  <br/> |14  <br/> |**Integer** <br/> |
    
 - SkipBlocks: Последовательность одного или нескольких структур [SkipBlock](skipblock-stream-structure.md) потока. Этот элемент данных присутствует только в том случае, если PropDefV2 имеет формат определения поля. Если формат определения поля PropDefV2, серии должен содержать по крайней мере один SkipBlock структуры, структура SkipBlock, имеющей равно 0, элемент данных размер и ряд следует начать и завершать эту структуру SkipBlock. 
@@ -89,7 +89,7 @@ ms.locfileid: "19808423"
     
 ## <a name="see-also"></a>См. также
 
-- [Элементы Outlook и полей](outlook-items-and-fields.md)
-- [Поток структуры](stream-structures.md)
-- [Определение свойства потока структуры](propertydefinition-stream-structure.md)
+- [Поля и элементы Outlook](outlook-items-and-fields.md)
+- [Структуры потоков](stream-structures.md)
+- [Структура потока PropertyDefinition](propertydefinition-stream-structure.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b63a6024-910d-4569-a3b4-c3ebf0b32c3d
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 82fa28f021dbb839c7bb05974682f0bb24174bb2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19808229"
 ---
 # <a name="creating-a-distribution-list"></a>Создание списка рассылки
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Клиенты могут создавать список рассылки непосредственно в можно изменить контейнер, такие как личная адресная книга (адресной книги).
   

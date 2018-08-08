@@ -1,5 +1,5 @@
 ---
-title: О сборке взаимодействия Microsoft Office InfoPath основной
+title: Сведения об основной сборке взаимодействия Microsoft Office InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807389"
 ---
-# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>О сборке взаимодействия Microsoft Office InfoPath основной
+# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>Сведения об основной сборке взаимодействия Microsoft Office InfoPath
 
 Как приложение модели компонентных объектов (COM), который предоставляет его интерфейсы программирования для внешней автоматизации COM-интерфейсами создается приложение InfoPath. Для поддержки создания решений InfoPath, использующих языки управляемого кода, например Visual C# и Visual Basic, параметр **Поддержка программирования .NET** в программе установки InfoPath устанавливает трех сборок взаимодействия. Сборки взаимодействия представляют собой сборки .NET, которые служат "мостом" между управляемым и неуправляемым кодами, сопоставляя элементы COM-объекта эквивалентным управляемым элементам .NET. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f50535-b0ed-4097-bda8-fd3ccc2d4b49
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: cf5060ba2113032fe1e13e5417590006808a53e1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809514"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Устанавливает или удаляет профиль клиента по умолчанию.
   
@@ -34,7 +34,7 @@ HRESULT SetDefaultProfile(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpszProfileName_
   
@@ -76,5 +76,5 @@ MAPI_E_NOT_FOUND
   
 [Каноническое свойство PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
 

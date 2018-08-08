@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f18c2dd1-366f-48b4-b335-ebbc0651f467
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c1da292943d6e4d9625c6ce37019c630471e200b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808911"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Разрешает группу классов сообщений в формах в контейнере формы и возвращает массив формы объекты для этих форм.
   
@@ -35,7 +35,7 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pMsgClassArray_
   
@@ -83,7 +83,7 @@ MAPIFORM_EXACTMATCH
 
 [IMAPIFormContainer::ResolveMessageClass](imapiformcontainer-resolvemessageclass.md)
   
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)

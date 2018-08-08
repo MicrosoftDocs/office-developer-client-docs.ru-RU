@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 32dfd966ae4c31618a316e1dd396a1b40c71c639
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,20 +21,20 @@ ms.locfileid: "19809724"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Следующие записи в алфавитном порядке содержат документацию для типов данных, используемых в методы интерфейса MAPI, функции и структуры. 
   
 ||
 |:-----|
-|[Закладка](bookmark.md) <br/> |
+|[BOOKMARK](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |
 |[EXCHANGE_STORE_VERSION_NUM](exchange_store_version_num.md) <br/> |
 |[FEID](feid.md) <br/> |
 |[FollowUpStatus](followupstatus.md) <br/> |
-|[Пол](gender.md) <br/> |
+|[Gender](gender.md) <br/> |
 |[HDRSYNC](hdrsync.md) <br/> |
 |[HRESULT](hresult.md) <br/> |
 |[LTID](ltid.md) <br/> |
@@ -48,9 +48,9 @@ ms.locfileid: "19809724"
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[СИНХРОНИЗАЦИЯ](sync.md) <br/> |
+|[SYNC](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
-|[СОСТОЯНИЕ](syncstate.md) <br/> |
+|[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |
 |[UPDEL](updel.md) <br/> |
 |[UPDELE](updele.md) <br/> |
@@ -67,5 +67,5 @@ ms.locfileid: "19809724"
 
 
 
-[Справочник по интерфейсу MAPI](mapi-reference.md)
+[Справочник по MAPI](mapi-reference.md)
 

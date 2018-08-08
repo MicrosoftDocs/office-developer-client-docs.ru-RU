@@ -1,5 +1,5 @@
 ---
-title: Надчеркивание ячейки (раздел знаков)
+title: Ячейка Overline (раздел "Символ")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814323"
 ---
-# <a name="overline-cell-character-section"></a>Надчеркивание ячейки (раздел знаков)
+# <a name="overline-cell-character-section"></a>Ячейка Overline (раздел "Символ")
 
 Определяет, есть ли текст линия над текстом.
   

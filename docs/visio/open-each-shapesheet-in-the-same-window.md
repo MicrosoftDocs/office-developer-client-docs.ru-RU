@@ -1,5 +1,5 @@
 ---
-title: Откройте каждой фигуры в том же окне
+title: Открытие всех таблиц свойств фигур в одном окне
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814312"
 ---
-# <a name="open-each-shapesheet-in-the-same-window"></a>Откройте каждой фигуры в том же окне
+# <a name="open-each-shapesheet-in-the-same-window"></a>Открытие всех таблиц свойств фигур в одном окне
 
 1. Перейдите на вкладку **файл** , выберите пункт **Параметры**и затем нажмите кнопку **Дополнительно**.
     

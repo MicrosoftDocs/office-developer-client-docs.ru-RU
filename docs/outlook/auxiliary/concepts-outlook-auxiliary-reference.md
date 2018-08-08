@@ -22,11 +22,11 @@ ms.locfileid: "19807691"
     
 - [About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
     
-- [Об API-интерфейсы экспортировать с Outlook](about-apis-exported-by-outlook.md)
+- [Сведения об интерфейсах API, экспортируемых Outlook](about-apis-exported-by-outlook.md)
     
-- [Настройки Outlook](outlook-configuration.md)
+- [Конфигурация Outlook](outlook-configuration.md)
     
-- [Календари Outlook и встреч](outlook-calendars-and-appointments.md)
+- [Календари и встречи Outlook](outlook-calendars-and-appointments.md)
     
 - [Примеры задач](sample-tasks.md)
     

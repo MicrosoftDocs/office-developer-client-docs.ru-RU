@@ -1,5 +1,5 @@
 ---
-title: Ячейка OnPage (печати Properties Section)
+title: Ячейка OnPage (раздел "Свойства печати")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814313"
 ---
-# <a name="onpage-cell-print-properties-section"></a>Ячейка OnPage (печати Properties Section)
+# <a name="onpage-cell-print-properties-section"></a>Ячейка OnPage (раздел "Свойства печати")
 
 Указывает, печатается ли документ на определенное число страниц принтера. 
   

@@ -1,5 +1,5 @@
 ---
-title: Отключение автономного состояния надстройке
+title: Отсоединение надстройки, позволяющей управлять автономным состоянием
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19808296"
 ---
-# <a name="disconnecting-an-offline-state-add-in"></a>Отключение автономного состояния надстройке
+# <a name="disconnecting-an-offline-state-add-in"></a>Отсоединение надстройки, позволяющей управлять автономным состоянием
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 При отключении добавить в автономном режиме, необходимо реализовать функции для правильного прерывания и очистка надстройки. Дополнительные сведения о настройке и использованию автономной состояний надстройки для отслеживания изменений состояния подключения см [параметр копирование автономное состояние надстройки](setting-up-an-offline-state-add-in.md) и [Мониторинг подключения состояние изменений с помощью надстройки состояние не в сети](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
@@ -145,9 +145,9 @@ void UnloadLibraries()
 
 ## <a name="see-also"></a>См. также
 
-- [Об автономных состояний API](about-the-offline-state-api.md)
-- [Установка примера автономного состояния надстройки](installing-the-sample-offline-state-add-in.md)
-- [О примера в автономном режиме состояние надстройки](about-the-sample-offline-state-add-in.md)
-- [Настройка автономной состояний надстройке](setting-up-an-offline-state-add-in.md)
-- [Мониторинга состояния подключения изменяется с помощью автономного состояния надстройке](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [Сведения об API автономного состояния](about-the-offline-state-api.md)
+- [Установка примера надстройки, позволяющей управлять автономным состоянием](installing-the-sample-offline-state-add-in.md)
+- [Сведения о примере надстройки с автономным состоянием](about-the-sample-offline-state-add-in.md)
+- [Конфигурация надстройки, позволяющей управлять автономным состоянием](setting-up-an-offline-state-add-in.md)
+- [Отслеживание изменений состояния подключения с помощью надстройки, позволяющей управлять автономным состоянием](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 

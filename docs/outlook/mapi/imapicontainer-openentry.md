@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: c13ab9ce9c2564c39bfe9b2689f05439bc7b74ff
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808822"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Открывает объект в контейнере, возвращает указатель интерфейса для дальнейшей доступа.
   
@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _cbEntryID_
   
@@ -112,5 +112,5 @@ MAPI_E_UNKNOWN_ENTRYID
 
 
 
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 

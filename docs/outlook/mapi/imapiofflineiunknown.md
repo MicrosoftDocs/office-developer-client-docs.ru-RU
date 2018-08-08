@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 211281ff-3c22-1b51-4b72-ca1e313c7202
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6f17e501a90a50a4984cae470d3924205c78a604
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809014"
 ---
-# <a name="imapioffline--iunknown"></a>IMAPIOffline: IUnknown
+# <a name="imapioffline--iunknown"></a>IMAPIOffline : IUnknown
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Предоставляет сведения для автономного объекта.
   
@@ -52,10 +52,10 @@ ms.locfileid: "19809014"
 
 
 
-[IMAPIOfflineMgr: IMAPIOffline](imapiofflinemgrimapioffline.md)
+[IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[Об автономных состояний API](about-the-offline-state-api.md)
+[Сведения об API автономного состояния](about-the-offline-state-api.md)
   
 [��������� MAPI](mapi-constants.md)
   

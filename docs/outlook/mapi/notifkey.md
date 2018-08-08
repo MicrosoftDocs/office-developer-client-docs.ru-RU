@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3c480c420753b2da6c57b3961589d5c2e2e8022a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810052"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Однозначно определяет подключение между приемника уведомления, источник уведомлений и MAPI.
   
@@ -40,7 +40,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **cb**
   

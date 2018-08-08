@@ -1,5 +1,5 @@
 ---
-title: О регистрации нового домена для автоматической настройки
+title: Сведения о регистрации нового домена для автоматической настройки
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807678"
 ---
-# <a name="about-registering-a-new-domain-for-automatic-configuration"></a>О регистрации нового домена для автоматической настройки
+# <a name="about-registering-a-new-domain-for-automatic-configuration"></a>Сведения о регистрации нового домена для автоматической настройки
 
 Outlook предоставляет способ указания нового домена службы сообщений для автоматической настройки и разрешить поставщика услуг сообщения для настройки учетной записи.
   

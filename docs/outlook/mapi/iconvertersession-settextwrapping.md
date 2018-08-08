@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 81771a263a7496042d4950b465c0d5b03290399b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808795"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Задает ширину потока MIME, который возвращает преобразователь в [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)обтекания.
   
@@ -34,7 +34,7 @@ HRESULT IConverterSession::SetTextWrapping (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  *fWrapText* 
   
@@ -63,7 +63,7 @@ HRESULT IConverterSession::SetTextWrapping (
 
 
 
-[IConverterSession: IUnknown](iconvertersessioniunknown.md)
+[IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
 [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
   

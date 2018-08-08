@@ -23,7 +23,7 @@ ms.locfileid: "19807597"
   
  **Примечания**
   
-- Справочные сведения о MSXML см MSXML SDK.
+- Справочную информацию о MSXML см. в разделе MSXML SDK.
     
 - Элементы объектной модели MSXML, реализуемые пространством имен [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) , нельзя назначать делегатам в коде формы для шаблонов форм с управляемым кодом. 
     

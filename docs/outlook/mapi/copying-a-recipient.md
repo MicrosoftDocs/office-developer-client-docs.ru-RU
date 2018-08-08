@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b9a41f44-4c7e-4c57-b536-63fb85e4fae6
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: dd68bc2054136a7f587b05dc56dbeabd06de1f08
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808213"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Копирование одного или нескольких получателей из одного контейнера в другой или же контейнера, сначала убедитесь, что целевой контейнер можно изменить. Контейнеры, которые могут быть изменены установить флаг AB_MODIFIABLE в своем свойстве **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)).
   

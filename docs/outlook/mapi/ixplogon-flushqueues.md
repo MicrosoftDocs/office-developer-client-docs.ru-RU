@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 116e3cfaace9c0965001021575b76ec371667877
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809631"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Запросы, что поставщик транспорта сразу же доставить все ожидающие входящих или исходящих сообщений.
   
@@ -36,7 +36,7 @@ HRESULT FlushQueues(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _ulUIParam_
   
@@ -88,5 +88,5 @@ FLUSH_UPLOAD
 
 [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

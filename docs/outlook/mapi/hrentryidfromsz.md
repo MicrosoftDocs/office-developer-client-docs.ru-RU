@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2b7ef789c80f85f3539ec3bbd0caf4a8adc50f3e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808674"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Повторно создает запись идентификатора из кодировки ASCII. 
   
@@ -41,7 +41,7 @@ HRESULT HrEntryIDFromSz(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _sz_
   

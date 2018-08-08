@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 008cadb1-4c8e-4ef7-a072-aa1d75a448cf
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b297a81a6a6fa2e328b0c747eaf269c038288b1b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810708"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит значение поля заголовка [RFC3282]-кодирование при передаче контента.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810708"
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |Content-Transfer-Encoding  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Области:  <br/> |Электронная почта  <br/> |
+|Область:  <br/> |Электронная почта  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

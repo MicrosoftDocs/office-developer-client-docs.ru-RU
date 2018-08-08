@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e00d8887-0db4-422d-96db-84cefe65dfc1
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 316a8c9b943af7a3bd13a882b223f7fbcf4e6749
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810396"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает, что пользователь не включать любой текст в тексте приглашения на собрание.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810396"
 |Набор свойств:  <br/> |PSETID_Meeting  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00000004  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Области:  <br/> |Meetings (собрания);  <br/> |
+|Область:  <br/> |Meetings (собрания);  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

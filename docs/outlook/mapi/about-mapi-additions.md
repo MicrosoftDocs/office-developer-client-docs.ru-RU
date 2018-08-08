@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 8eb8c56c6b27592347a7d08186287fe1cf67cb41
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "19807989"
 ---
 # <a name="about-mapi-additions"></a>О дополнения MAPI
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Дополнения MAPI, API, которые принадлежат для системы обмена сообщениями по программированию интерфейса MAPI (Application), такие как типы данных, функции и свойства, которые были ранее не предоставляемые и документированы как часть Справочник программиста MAPI. Они включают следующие определения и свойства.
   
@@ -29,11 +29,11 @@ ms.locfileid: "19807989"
     
 - **[FollowUpStatus](followupstatus.md)**
     
-- **[Пол](gender.md)**
+- **[Gender](gender.md)**
     
 - **[OlFlagIcon](olflagicon.md)**
     
-## <a name="functions"></a>�������
+## <a name="functions"></a>Функции
 
 - **[FixMAPI](fixmapi.md)**
     
@@ -233,8 +233,8 @@ ms.locfileid: "19807989"
     
 ## <a name="see-also"></a>См. также
 
-- [— Это доступа хранилища на удаленный сервер при работе с Outlook в режиме кэширования данных Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [Определить, какая версия Exchange Server в профиле Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
-- [Открыть хранилище на удаленный сервер при работе с Outlook — в режиме кэширования данных Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [Управление сообщение в автономной папки без вызова синхронизации в режиме кэширования данных Exchange](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [Доступ к хранилищу на удаленном сервере, если Outlook работает в режиме кэширования Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
+- [Определение версии Exchange Server в профиле Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [Открытие хранилища на удаленном сервере, если Outlook работает в режиме кэширования Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Управление сообщением в OST без вызова синхронизации в режиме кэширования Exchange](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

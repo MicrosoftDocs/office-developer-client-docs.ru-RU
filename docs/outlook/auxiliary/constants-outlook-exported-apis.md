@@ -1,5 +1,5 @@
 ---
-title: Константы (Outlook экспортировать API-интерфейсы)
+title: Constants (Outlook exported APIs)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807681"
 ---
-# <a name="constants-outlook-exported-apis"></a>Константы (Outlook экспортировать API-интерфейсы)
+# <a name="constants-outlook-exported-apis"></a>Constants (Outlook exported APIs)
 
 В этом разделе содержатся определения констант для API, которые экспортируются Outlook.
   
@@ -31,7 +31,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
 
 ## <a name="definitions-for-category-support"></a>Поддерживает определения для категории
 
-|**Константы**|**Определение**|
+|**Constant**|**Определение**|
 |:-----|:-----|
 |PCAFSIF_MSGEID_IS_SEARCH_KEY  <br/> |0x00000001  <br/> |
    
@@ -48,8 +48,8 @@ Outlook предоставляет следующие идентификатор
    
 ## <a name="see-also"></a>См. также
 
-- [Экспортированные интерфейсы API Outlook](outlook-exported-apis.md)
-- [Об API-интерфейсы экспортировать с Outlook](about-apis-exported-by-outlook.md)
+- [Экспортированные API Outlook](outlook-exported-apis.md)
+- [Сведения об интерфейсах API, экспортируемых Outlook](about-apis-exported-by-outlook.md)
 - [Определить, является ли элемент Outlook был изменен, но не сохраняются (Outlook дополнительные справочные материалы по)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
 - [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
 - [Доступные события и их идентификаторы DISPID (Outlook экспортировать API-интерфейсы)](available-events-and-their-dispids-outlook-exported-apis.md)

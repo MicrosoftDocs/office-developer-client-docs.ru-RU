@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: fb6cd23acdb81af250e7e6dfe6facf7226850363
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808823"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Выполняет задачи, как отображение диалогового окна или запуск программный операции при нажатии элемента управления кнопка пользователе клиентского приложения.
   
@@ -62,5 +62,5 @@ HRESULT Activate(
 
 [IMAPIControl::GetState](imapicontrol-getstate.md)
   
-[IMAPIControl: IUnknown](imapicontroliunknown.md)
+[IMAPIControl : IUnknown](imapicontroliunknown.md)
 

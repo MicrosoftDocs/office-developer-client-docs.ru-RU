@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 4b6f850c8f88088863b37bd94de6b1f3d4c48d4f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808046"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описание ноль или больше свойств, относящихся к получателя.
   
@@ -41,7 +41,7 @@ typedef struct _ADRENTRY
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **ulReserved1**
   

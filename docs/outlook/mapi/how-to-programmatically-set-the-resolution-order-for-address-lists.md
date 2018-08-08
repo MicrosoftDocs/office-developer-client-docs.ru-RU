@@ -15,7 +15,7 @@ ms.locfileid: "19808623"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Приоритет разрешения для списков адресов для задания программным путем
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 В этом разделе содержится пример кода на C++, который программно задает порядок списков адресов в список получателей электронной почты разрешаются сообщений и участниками в рабочей области приглашений на собрания.
   
@@ -266,5 +266,5 @@ STDMETHODIMP CopySBinary(
 
 ## <a name="see-also"></a>См. также
 
-- [О настройке приоритет разрешения для списков адресов в Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [Сведения о настройке порядка разрешения для списков адресов в Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

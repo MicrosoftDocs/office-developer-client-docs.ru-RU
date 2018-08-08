@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 65a54475afe526cce40030cbfd1cdb9e86126554
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19810229"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Каноническое свойство PidLidContactLinkSearchKey
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Содержит список **SearchKeys** для контакта, связанного с объектом сообщения. 
   
@@ -31,7 +31,7 @@ ms.locfileid: "19810229"
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008584  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Области:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Контакт  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -62,6 +62,6 @@ Mapidefs.h
 
 - [Свойства MAPI](mapi-properties.md) 
 - [Каноническое свойства MAPI](mapi-canonical-properties.md)
-- [Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
-- [Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+- [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
+- [Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

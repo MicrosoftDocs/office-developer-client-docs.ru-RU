@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ad26cb9b77404d6470f7a8d787eb85edc5cce402
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19808044"
 ---
 # <a name="adrparm"></a>ADRPARM
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описание отображения и поведения стандартным диалоговым окном адрес. 
   
@@ -54,7 +54,7 @@ typedef struct _ADRPARM
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 **cbABContEntryID**
   

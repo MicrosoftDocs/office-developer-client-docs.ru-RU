@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: abf33e4167d836aeb88fdefb30ba05840e80ce63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19808497"
 ---
 # <a name="fpropcontainsprop"></a>FPropContainsProp
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Сравнивает два значения свойств, обычно строк или двоичные массивы, если один содержит другое. 
   
@@ -39,7 +39,7 @@ BOOL FPropContainsProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _lpSPropValueDst_
   

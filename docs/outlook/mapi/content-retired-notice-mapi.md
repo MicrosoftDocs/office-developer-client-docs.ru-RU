@@ -17,7 +17,7 @@ ms.locfileid: "19808195"
 
 
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Контент, который вы пытаетесь просмотреть больше не доступен. Возможно, его были удалены или заменены более позднюю версию. Изучите этот набор ссылок, чтобы приступить к работе.
   
@@ -25,12 +25,12 @@ ms.locfileid: "19808195"
 
 - [Справочник по MAPI для Outlook](outlook-mapi-reference.md)
     
-- [Приступая к работе с Справочник по интерфейсу MAPI приложения Outlook](getting-started-with-the-outlook-mapi-reference.md)
+- [Начало работы со справочником по MAPI для Outlook](getting-started-with-the-outlook-mapi-reference.md)
     
-- [Примеры использования интерфейса MAPI (EN)](mapi-samples.md)
+- [Примеры MAPI](mapi-samples.md)
     
-- [Основные понятия MAPI](mapi-concepts.md)
+- [Понятия MAPI](mapi-concepts.md)
     
-- [Справочник по интерфейсу MAPI](mapi-reference.md)
+- [Справочник по MAPI](mapi-reference.md)
     
 

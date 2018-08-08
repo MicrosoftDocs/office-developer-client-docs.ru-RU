@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 69bbed644a8173bf9291ca48a63960f693108318
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19808493"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Сравнение двух значений свойств с помощью указанного оператор сравнения. 
   
@@ -39,7 +39,7 @@ BOOL FPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _lpSPropValue1_
   

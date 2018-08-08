@@ -30,7 +30,7 @@ typedef struct  tagFBBlock_1
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 _m_tmStart_
   
@@ -48,5 +48,5 @@ _m_fbStatus_
 
 - [FBStatus](fbstatus.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)
-- [Использование относительных времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Использование относительного времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
 

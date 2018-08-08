@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b5902c25197c2ae5790e654a8f29227e107b4a72
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19810043"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Поставщик для упаковки в локальном хранилище на основе PST-файлов в качестве хранилище NST хранилища сообщений службы функцию точки входа для MAPI. 
   
@@ -45,7 +45,7 @@ HRESULT NSTServiceEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  **NSTServiceEntry** использует прототип функции **[MSGSERVICEENTRY](msgserviceentry.md)** . Сведения о его параметров содержатся **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   
@@ -83,5 +83,5 @@ HRESULT NSTServiceEntry(
 
 
 
-[О репликации API](about-the-replication-api.md)
+[Сведения об API репликации](about-the-replication-api.md)
 

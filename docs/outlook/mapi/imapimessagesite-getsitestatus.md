@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7d81533b13f4f44a0644215e009dc3477717e9a2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808969"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Возвращает сведения из объекта сайта сообщения о сообщении возможности веб-узла для текущего сообщения.
   
@@ -33,7 +33,7 @@ HRESULT GetSiteStatus(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpulStatus_
   
@@ -101,10 +101,10 @@ VCSTATUS_SUBMIT
   
 [Каноническое свойство PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы формы MAPI](mapi-form-interfaces.md)
+[Интерфейсы форм MAPI](mapi-form-interfaces.md)
 

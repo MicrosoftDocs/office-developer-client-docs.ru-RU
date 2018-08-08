@@ -19,7 +19,7 @@ ms.locfileid: "19810051"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Определяет, длина указанной строки Юникод, за исключением конечный символ null.
   
@@ -31,7 +31,7 @@ int MNLS_lstrlen(
   LPCWSTR lpsz);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpsz_
   

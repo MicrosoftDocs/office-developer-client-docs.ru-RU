@@ -17,7 +17,7 @@ ms.locfileid: "19808344"
 ---
 # <a name="dntbl"></a>DNTBL
  
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Информация для загрузки содержимого папки с сервера во время, [Загрузите состояний в таблице](download-table-state.md), как часть полной синхронизации для содержимого для хранилища.
   
@@ -47,7 +47,7 @@ struct DNTBL
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -123,7 +123,7 @@ _pReserved2_
     
 ## <a name="see-also"></a>См. также
 
-- [О репликации конечного автомата](about-the-replication-state-machine.md)  
+- [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)  
 - [��������� MAPI](mapi-constants.md) 
 - [DNTBLE](dntble.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 68c621f5f73073ed127767cc1db189769dab227d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19808389"
 ---
 # <a name="dtctl"></a>DTCTL
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описывает элемент управления, который будет использоваться в диалоговое окно, построенная на основе таблицы отображения. 
   
@@ -58,7 +58,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 **ulCtlType**
   

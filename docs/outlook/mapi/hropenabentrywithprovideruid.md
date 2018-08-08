@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83821a86-abff-460c-bb8e-9fd9d232dc6b
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e33e656e70802437ab8b8717c5e175e2a13e384e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808680"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Открывает **entryID** , с помощью адресная книга Exchange, определяемую средством _pEmsabpUID_. Эта функция работает так же [IAddrBook::OpenEntry](iaddrbook-openentry.md) за исключением того, что с помощью этой функции гарантирует, что [IAddrBook::OpenEntry](iaddrbook-openentry.md) открыто с помощью ожидаемый поставщик адресной книги для Exchange. 
   
@@ -42,7 +42,7 @@ HRESULT HrOpenABEntryWithProviderUID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pEmsmdbUID_
   

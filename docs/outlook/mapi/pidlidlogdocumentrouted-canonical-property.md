@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 604f8859-469f-4745-b4b5-8f69737867a3
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e88c240b4219ac66bc9a1d4b8fa11ffc47682dd9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810403"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает, является ли документ был отправлен маршрутизации получателя во время ведения журнала.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810403"
 |Набор свойств:  <br/> |PSETID_Log  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008710  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Области:  <br/> |������  <br/> |
+|Область:  <br/> |������  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

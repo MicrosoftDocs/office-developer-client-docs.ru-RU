@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 23d68d8b-b0b6-4c32-8404-6acd23802db0
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: bb001d159141f70e9a82fa533e805f2a96b230ec
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19808551"
 ---
 # <a name="handling-mapi-property-errors"></a>Обработка ошибок свойство MAPI
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вместо завершения сбоя или успеха следующие методы **IMAPIProp** сообщить о частичном успехе: 
   

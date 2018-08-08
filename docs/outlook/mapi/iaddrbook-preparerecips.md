@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: fe3e098b2b70e77bd0c536002a4724810261bff3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808782"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Подготовка списка получателей для дальнейшего использования системой обмена сообщениями. 
   
@@ -89,5 +89,5 @@ MAPI преобразует каждого получателя краткоср
   
 [SRowSet](srowset.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

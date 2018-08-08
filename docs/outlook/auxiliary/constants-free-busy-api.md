@@ -20,7 +20,7 @@ ms.locfileid: "19807686"
   
 ## <a name="constants"></a>Константы
 
-|**Константы**|**Определение**|
+|**Constant**|**Определение**|
 |:-----|:-----|
 |E_NOTIMPL  <br/> | *Определенные в файле winerror.h файл заголовка Microsoft Windows Software Development Kit (SDK).*  <br/> |
 |E_OUTOFMEMORY  <br/> | *Определенные в файле winerror.h файл заголовка пакета SDK Windows.*  <br/> |

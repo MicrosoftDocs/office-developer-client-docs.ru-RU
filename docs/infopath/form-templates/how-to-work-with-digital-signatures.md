@@ -31,7 +31,7 @@ ms.locfileid: "19807546"
     
 - Вставлять и просматривать подпись документа.  
     
-- Просмотр проверяемые неотрекаемые сведения, который был добавлен для каждой подписи для повышения уровня безопасности. Дополнительные сведения, которые содержит представление формы, как она представляется каждому подписавшему, входящий в состав подписи и не может быть удалена оставляя подпись. В любое время можно отозвать эти данные, щелкнув подпись в форму, чтобы открыть диалоговое окно **Проверка цифровой подписи** . 
+- Просматривать утверждаемые неотрекаемые сведения, добавленные к каждой подписи для повышения безопасности. Эти дополнительные сведения, которые включают представление формы для каждого подписывающегося лица, являются составным элементом подписи, и их нельзя удалить до тех пор, пока подпись действительна. Эти сведения можно вызвать в любой момент, щелкнув подпись в форме для отображения диалогового окна **Проверка цифровой подписи**. 
     
 - Пользоваться преимуществами объектной модели для работы с цифровыми подписями. Добавляйте настраиваемые сведения в блок подписи форм с полным доверием, используя объектную модель цифровой подписи.  
     
@@ -43,7 +43,7 @@ ms.locfileid: "19807546"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|[Знак](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) <br/> |Возникает после выбора для подписания определенного набора данных.  <br/> Это событие можно использовать для управления данными, хранящимися внутри цифровой подписи. Например, можно добавить данные с надежного сервера метки времени или добавить серверную подпись других сторон для транзакции. Также можно использовать это событие для блокирования подписания, если текущий пользователь не входит в состав определенной группы.  <br/> |
+|[Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) <br/> |Возникает после выбора для подписания определенного набора данных.  <br/> Это событие можно использовать для управления данными, хранящимися внутри цифровой подписи. Например, можно добавить данные с надежного сервера метки времени или добавить серверную подпись других сторон для транзакции. Также можно использовать это событие для блокирования подписания, если текущий пользователь не входит в состав определенной группы.  <br/> |
    
 ### <a name="the-signeventargs-object"></a>Объект SignEventArgs
 
@@ -52,7 +52,7 @@ ms.locfileid: "19807546"
 |**Имя**|**Описание**|
 |:-----|:-----|
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignedDataBlock.aspx) <br/> |Получает набор данных, который вызвал событие [входа](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) .  <br/> |
-|[SignatureWizard](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |Получает или задает факт отображения диалогового окна **Цифровые подписи** .  <br/> |
+|[SignatureWizard](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |Возвращает или задает факт отображения диалогового окна **Цифровые подписи**.  <br/> |
    
 > [!NOTE]
 > В управляемом коде объектной модели [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) , поставляемый с InfoPath 2003 объект [SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) события для события [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2.OnSign.aspx) предоставляет свойство **XDocument** для доступа к ** XDocument** объекта формы, связанный с событием. Это не требуется с шаблонами форм, созданных с помощью службы InfoPath Forms Services или с помощью объектной модели [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , так как элементы объектной модели класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) может осуществляться в код формы с помощью **это InfoPath **(C#) или ключевое слово **Me** (Visual Basic). Например, для доступа к свойству [выполнен вход](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Signed.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) , чтобы определить, если подпись формы, можно ввести либо `this.Signed` или`Me.Signed.`
@@ -70,7 +70,7 @@ ms.locfileid: "19807546"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |Представляет набор подписываемых данных в форме. Объект [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) предоставляет ряд свойств и один метод, который можно использовать для программного взаимодействия с набор подписываемых данных.  <br/> |
+|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |Представляет набор подписываемых данных в форме. Объект [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) предоставляет набор свойств и один метод для программного взаимодействия с набором подписываемых данных.<br/> |
 |[Подпись](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Представляет цифровую подпись, добавленную в форму или набор подписываемых данных в форме. Объект [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) реализует свойства, которые можно использовать для получения сведений о цифровой подписи и метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) запись блока цифровой подписи XML и вычислений криптографический хэш.  <br/> |
 |[Сертификат](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.aspx) <br/> |Представляет цифровой сертификат X.509, использованный для создания подписи.  <br/> |
    
@@ -88,9 +88,9 @@ ms.locfileid: "19807546"
     
 5. Выполняет метод [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) объекта [подписи](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) . 
     
-6. Откроется диалоговое окно **входа** для ввода имени (или выбора рисунка подписи), выбора сертификата подписи и ввода комментариев. 
+6. Отображается диалоговое окно **Подписать** для ввода имени (или выбора рисунка подписи), выбора сертификата подписи и ввода комментариев. 
     
-7. При щелчке кнопки **подписать** производится добавление подписи в семейство подписей для формы и захватываются и сохраняются с подписью (который можно просмотреть впоследствии, нажав кнопку **Просмотреть подписанную форму** на **неотрекаемые сведения Цифровые подписи** диалоговое окно, а затем нажав кнопку **просмотреть дополнительные сведения о подписи, собранных**).
+7. При щелчке кнопки **Подписать** производится добавление подписи в семейство подписей для формы, а неотрекаемые сведения извлекаются и сохраняются вместе с подписью (их можно впоследствии просмотреть, щелкнув **Просмотреть подписанную форму** в диалоговом окне **Цифровые подписи**, а затем щелкнув **Дополнительные сведения, которые будут включены в подпись**).
     
 В следующем примере вызывается метод [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) , когда пользователь подписывает выбранные данные и визирует подпись значением метки времени извлекается из надежной службы метки времени. 
   

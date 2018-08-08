@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 03375a11be3f6f128db5f6147c5fbe901d0a0fa9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19807990"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Инициализирует поставщика адресных книг для операции. 
   
@@ -45,7 +45,7 @@ HRESULT ABProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _hInstance_
   
@@ -113,7 +113,7 @@ MAPI вызывает функцию точки входа **ABProviderInit** д
   
 ## <a name="see-also"></a>См. также
 
-- [IABProvider: IUnknown](iabprovideriunknown.md) 
+- [IABProvider : IUnknown](iabprovideriunknown.md) 
 - [MSProviderInit](msproviderinit.md)
 - [XPProviderInit](xpproviderinit.md)
 

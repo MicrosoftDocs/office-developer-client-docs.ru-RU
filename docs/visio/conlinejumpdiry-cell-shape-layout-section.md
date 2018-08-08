@@ -1,5 +1,5 @@
 ---
-title: Ячейка ConLineJumpDirY (раздел макет фигуры)
+title: Ячейка ConLineJumpDirY (раздел "Макет фигуры")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813446"
 ---
-# <a name="conlinejumpdiry-cell-shape-layout-section"></a>Ячейка ConLineJumpDirY (раздел макет фигуры)
+# <a name="conlinejumpdiry-cell-shape-layout-section"></a>Ячейка ConLineJumpDirY (раздел "Макет фигуры")
 
 Определяет направление пересечения линий при пересечении вертикальной динамической соединительной линии для фигуры.
   
 |**Значение**|**Направление**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | 0  <br/> | Страница по умолчанию  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1  <br/> | Слева  <br/> |**visLOJumpDirYLeft** <br/> |
-| 2  <br/> | Правильно  <br/> |**visLOJumpDirYRight** <br/> |
+| 1  <br/> | Left  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2  <br/> | Right  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Замечания
 

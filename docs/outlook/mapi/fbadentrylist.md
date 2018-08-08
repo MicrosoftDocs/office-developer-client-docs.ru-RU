@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: aae2e97b987414fc5e46b410465d3232b61f1ffe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808406"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Проверяет список идентификаторов запись MAPI. 
   
@@ -39,7 +39,7 @@ BOOL FBadEntryList(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpEntryList_
   

@@ -10,7 +10,7 @@ keywords:
 - функция xloper12toxloper [excel 2007]
 localization_priority: Normal
 ms.assetid: b46f87c4-778b-4502-be57-c3725f73a644
-description: '������� ����������: Excel 2013�| Office 2013�| Visual Studio'
+description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2c06102699db8810da803ecc0ddfa30375fcc125
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19807370"
 ---
 # <a name="xloper12toxloper"></a>XLOper12ToXLOper
 
-**Применимо к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Процедура преобразования используются для преобразования из нового **XLOPER12** старый **XLOPER**.
   
@@ -28,7 +28,7 @@ ms.locfileid: "19807370"
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pxloper12_ (**LPXLOPER12**)
   
@@ -60,5 +60,5 @@ _pxloper_ (**LPXLOPER**)
   
 ## <a name="see-also"></a>См. также
 
-- [Функции в библиотеке Framework](functions-in-the-framework-library.md)
+- [Функции в библиотеке платформы](functions-in-the-framework-library.md)
 

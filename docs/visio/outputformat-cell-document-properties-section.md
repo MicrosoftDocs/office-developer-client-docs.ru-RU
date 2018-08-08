@@ -1,5 +1,5 @@
 ---
-title: Ячейка OutputFormat (раздел свойств документа)
+title: Ячейка OutputFormat (раздел "Свойства документа")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814321"
 ---
-# <a name="outputformat-cell-document-properties-section"></a>Ячейка OutputFormat (раздел свойств документа)
+# <a name="outputformat-cell-document-properties-section"></a>Ячейка OutputFormat (раздел "Свойства документа")
 
 Определяет формат выходных данных для рисунка. Страницы документа обычно форматирования для печати (по умолчанию); Тем не менее вы можете других форматов вывода.
   

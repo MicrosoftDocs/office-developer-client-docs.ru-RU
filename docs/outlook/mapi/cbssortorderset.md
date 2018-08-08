@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0131b4b-9b25-47d3-8eeb-abe29c353ebc
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: eca43833fb286dbb73b6da0a278196d43aa86426
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808188"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вычисляет число байтов в имеющуюся структуру [SSortOrderSet](ssortorderset.md) . 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19808188"
 CbSSortOrderSet (_lpset)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  __lpset_
   
@@ -49,5 +49,5 @@ CbSSortOrderSet (_lpset)
 [SSortOrderSet](ssortorderset.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 

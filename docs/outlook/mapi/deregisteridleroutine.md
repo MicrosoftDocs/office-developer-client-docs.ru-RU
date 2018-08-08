@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 85161fb87e798bbb03b267f9760870da1246e48d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808286"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Удаляет [FNIDLE](fnidle.md) на основе простоя общей процедуры из системы MAPI. 
   
@@ -39,7 +39,7 @@ VOID DeregisterIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _ftg_
   

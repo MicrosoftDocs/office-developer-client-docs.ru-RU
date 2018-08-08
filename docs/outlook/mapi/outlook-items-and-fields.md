@@ -1,11 +1,11 @@
 ---
-title: Элементы Outlook и полей
+title: Поля и элементы Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 605fab0f-c045-4d2b-a2da-447a111f66a9
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 71c67c37cc4f9cd3ddd7a55c37c4ebd6ddd35cfd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,11 +13,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19810083"
 ---
-# <a name="outlook-items-and-fields"></a>Элементы Outlook и полей
+# <a name="outlook-items-and-fields"></a>Поля и элементы Outlook
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Microsoft Outlook предоставляет типы элементов, которые специализируются функциональные возможности (, например почтовых элементов, встречи, контакты, задачи и заметки). Outlook предоставляет стандартных полей для каждого типа элемента, обычно называемую встроенных полей. Outlook позволяет пользователям создавать настраиваемые поля, обычно называемую пользовательских полей. В каждом поле связан с типом данных и значением. Примеры типов данных, **валюты**, **Даты и времени**, **длительность**, **целое число**, **ключевые слова**и **текст**. Пользователи могут определять настраиваемые поля с помощью конструктора форм в Outlook.
   
@@ -35,21 +35,21 @@ Microsoft Outlook предоставляет типы элементов, кот
 
 
 
-[Добавьте определение для нового пользовательского поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Добавление определения для нового пользовательского поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[Определение свойства потока образца](propertydefinition-stream-sample.md)
+[Пример потока PropertyDefinition](propertydefinition-stream-sample.md)
   
-[Поток структуры](stream-structures.md)
+[Структуры потоков](stream-structures.md)
   
-[Определение свойства потока структуры](propertydefinition-stream-structure.md)
+[Структура потока PropertyDefinition](propertydefinition-stream-structure.md)
   
-[Структура FieldDefinition потока](fielddefinition-stream-structure.md)
+[Структура потока FieldDefinition](fielddefinition-stream-structure.md)
   
-[Структура SkipBlock потока](skipblock-stream-structure.md)
+[Структура потока SkipBlock](skipblock-stream-structure.md)
   
-[Структура FirstSkipBlockContent потока](firstskipblockcontent-stream-structure.md)
+[Структура потока FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)
   
-[Структура PackedAnsiString потока](packedansistring-stream-structure.md)
+[Структура потока PackedAnsiString](packedansistring-stream-structure.md)
   
-[Структура PackedUnicodeString потока](packedunicodestring-stream-structure.md)
+[Структура потока PackedUnicodeString](packedunicodestring-stream-structure.md)
 

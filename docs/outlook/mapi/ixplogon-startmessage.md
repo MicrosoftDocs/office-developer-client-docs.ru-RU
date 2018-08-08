@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83c349f7-dcac-4268-befe-fb2bc0cd9c50
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3758cf72aa79dbf500138e96872352950fafbd2a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809640"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Инициирует передачи входящих сообщений от поставщика транспорта диспетчер очереди MAPI.
   
@@ -93,5 +93,5 @@ HRESULT StartMessage(
   
 [IXPLogon::TransportNotify](ixplogon-transportnotify.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

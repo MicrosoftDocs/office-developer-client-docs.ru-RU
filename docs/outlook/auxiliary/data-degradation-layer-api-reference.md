@@ -1,5 +1,5 @@
 ---
-title: Справочник по данным снижение уровня API
+title: Справочник по API уровня ухудшения данных
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807690"
 ---
-# <a name="data-degradation-layer-api-reference"></a>Справочник по данным снижение уровня API
+# <a name="data-degradation-layer-api-reference"></a>Справочник по API уровня ухудшения данных
 
 В этом разделе представлены справочные материалы, которые для данных снижение уровня интерфейса API, который предоставляет возможность скрыть базовый собственный символьном формате объекта Outlook, позволяя клиента для доступа к объекту в предпочтительном символьном формате, а не в Формат внутреннего объекта.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 - [Константы](constants-data-degradation-layer-api.md)
     

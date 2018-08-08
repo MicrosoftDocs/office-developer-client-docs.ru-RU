@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5c62e5919c6e605aa4b60f48072996ed1fd4c355
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808694"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Извлекает все строки из таблицы. 
   
@@ -44,7 +44,7 @@ HRESULT HrQueryAllRows(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pВ таблице_
   

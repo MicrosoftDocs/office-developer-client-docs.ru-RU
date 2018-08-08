@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c712fc17-f436-41cf-9aa3-186c9a86d56e
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 5429f98a0335ae99b719d0f15b66a95ba87430e3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19809643"
 ---
 # <a name="ixplogontransportnotify"></a>IXPLogon::TransportNotify
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает на возникновение события, о том, какие поставщика транспорта запрошено уведомление.
   
@@ -32,7 +32,7 @@ HRESULT TransportNotify(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpulFlags_
   
@@ -108,5 +108,5 @@ NOTIFY_END_OUTBOUND_FLUSH
 - [IXPLogon::StartMessage](ixplogon-startmessage.md)
 - [IXPLogon::SubmitMessage](ixplogon-submitmessage.md)
 - [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)
-- [IXPLogon: IUnknown](ixplogoniunknown.md)
+- [IXPLogon : IUnknown](ixplogoniunknown.md)
 

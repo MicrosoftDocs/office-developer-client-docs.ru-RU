@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 0bbad04e728c9283df0a9b7ceb7a8e303f0595dc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808136"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Вычисляет число байтов, должен быть размещен для новой структуры [ADRLIST](adrlist.md) , содержащий указанное число получателей, представленного [ADRENTRY](adrentry.md) структуры. 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19808136"
 CbNewADRLIST (_centries)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  __centries_
   
@@ -51,5 +51,5 @@ CbNewADRLIST (_centries)
 [ADRENTRY](adrentry.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 

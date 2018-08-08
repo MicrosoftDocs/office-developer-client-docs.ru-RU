@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: a7bb1aca501e24843950114bb76b6a09b20f2467
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809627"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Возвращает типы получателей, которые обрабатывают поставщика транспорта.
   
@@ -37,7 +37,7 @@ HRESULT AddressTypes(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpulFlags_
   
@@ -97,5 +97,5 @@ MAPI_UNICODE
   
 [MAPIUID](mapiuid.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

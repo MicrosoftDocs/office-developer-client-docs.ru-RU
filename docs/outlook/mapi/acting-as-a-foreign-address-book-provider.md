@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6d532ed4-7dc5-46a9-995a-72bc97d16f6e
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 16c3518ab4efddbd68765d9de94db64b4fdc0b64
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19807998"
 ---
 # <a name="acting-as-a-foreign-address-book-provider"></a>Будет действовать как поставщик внешнего адресной книги
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Внешний поставщик — поставщика адресных книг, который: 
   

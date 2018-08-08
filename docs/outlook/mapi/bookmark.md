@@ -1,5 +1,5 @@
 ---
-title: Закладка
+title: BOOKMARK
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8f5f3bc454e18b1dbab434fc1b7cc094b0d6a360
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,11 +19,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19808283"
 ---
-# <a name="bookmark"></a>Закладка
+# <a name="bookmark"></a>BOOKMARK
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Определяет данные закладки запоминание позицию в таблице. 
   
@@ -67,5 +67,5 @@ BOOKMARK_END
 [IMAPITable::SeekRow](imapitable-seekrow.md)
 
 
-[���� ������ MAPI](mapi-data-types.md)
+[Типы данных MAPI](mapi-data-types.md)
 

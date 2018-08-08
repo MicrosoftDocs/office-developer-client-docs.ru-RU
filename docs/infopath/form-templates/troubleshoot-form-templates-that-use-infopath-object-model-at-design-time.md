@@ -44,9 +44,9 @@ th.Start();
   
 ## <a name="see-also"></a>См. также
 
-- [Модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
+- [Сведения о модели безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
 - [Развертывание шаблонов форм InfoPath с кодом](how-to-deploy-infopath-form-templates-with-code.md)
-- [Обработка ошибок с помощью объектной модели InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+- [Обработка ошибок с помощью объектной модели InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
 - [Просмотр и отладка шаблонов форм, требующих полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
-- [Отладка проектов InfoPath с помощью объектной модели InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+- [Отладка проектов InfoPath, использующих объектную модель InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4bcd19f6-c225-43ac-8c27-c46388e9097a
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 653a9df6ec414aa18c44d8035a59f021d7cc19b8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19810031"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Передача сообщений выполняется путем последовательности вызовов из очереди MAPI для поставщика транспорта. Вызовы упорядочены следующим образом:
   

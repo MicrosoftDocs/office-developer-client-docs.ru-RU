@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 268ad60cf8161fb2b58370f89aae623aabd7da7c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808203"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Управлять объектов или объектов, которые поддерживают [IMAPIControl: IUnknown](imapicontroliunknown.md) интерфейс, реализуемые поставщиками, чтобы добавить функциональные возможности для кнопки, которое отображается в диалоговом окне MAPI. Объекты элементов управления можно реализовать только для кнопок. 
   

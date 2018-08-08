@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5308a94-5191-2109-a881-b4f4a7ff1c61
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f1a4834fc600cc93eeb7fc96563723326c7f2169
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19808799"
 ---
 # <a name="iconvertersessionsetsaveformat"></a>IConverterSession::SetSaveFormat
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Задает формат, в котором преобразователь вернет MIME-поток в [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
@@ -31,7 +31,7 @@ HRESULT IConverterSession::SetSaveFormat (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _mstSaveFormat_
   
@@ -57,7 +57,7 @@ _mstSaveFormat_
    
 ## <a name="see-also"></a>См. также
 
-- [IConverterSession: IUnknown](iconvertersessioniunknown.md)
+- [IConverterSession : IUnknown](iconvertersessioniunknown.md)
 - [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
 - [IConverterSession::MIMEToMAPI](iconvertersession-mimetomapi.md)
 - [IConverterSession::SetAdrBook](iconvertersession-setadrbook.md)

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 03a67371c67d5f0ac346470ec7ab38bb67d5ce2a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808785"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Преобразование MIME-поток сообщений MAPI.
   
@@ -36,7 +36,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _pstm_
   
@@ -93,7 +93,7 @@ E_INVALIDARG
 
 
 
-[IConverterSession: IUnknown](iconvertersessioniunknown.md)
+[IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
 [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
   

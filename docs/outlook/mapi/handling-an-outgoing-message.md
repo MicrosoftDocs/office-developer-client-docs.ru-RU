@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f40c2e0b-1a35-4901-868f-af6c191c921e
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: ab293ee3813d77c3a954e8364736a89bc2330feb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "19808548"
 ---
 # <a name="handling-an-outgoing-message"></a>Обработка исходящих сообщений
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Исходящее сообщение — это сообщение, который может быть отправлен для одного или нескольких получателей через один или несколько систем обмена сообщениями или учитываться в папку в хранилище сообщений.
   
@@ -45,7 +45,7 @@ ms.locfileid: "19808548"
     
 Если вы хотите intermittantly сохранить сообщение перед отправкой, вызовите метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) сообщение. Для получения дополнительных сведений см, [Сохранение сообщения](saving-a-message.md) или [Отправка сообщения](sending-a-message.md). 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этой статье
 
 - [Создание списка получателей](creating-a-recipient-list.md): описывает порядок создания списка получателей.
     

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f8f58ee18095dec8a222ae8b5a19cbefbaafa663
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810064"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Задает MVI_FLAG для указанного свойства. 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19810064"
 MVI_PROP (tag)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _тег_
   
@@ -57,5 +57,5 @@ MVI_FLAG объединяет значения MV_FLAG, идентифициру
 [SPropValue](spropvalue.md)
 
 
-[Макросы, связанные с структуры](macros-related-to-structures.md)
+[Макросы, связанные со структурами](macros-related-to-structures.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Отображение таблиц
+title: Таблицы отображения
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 556d7551f64e075d1f15a945ddb1409c3b5a775f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19808343"
 ---
-# <a name="display-tables"></a>Отображение таблиц
+# <a name="display-tables"></a>Таблицы отображения
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Отображение таблице описывается способ отображения определенного типа диалогового окна — один один или несколько страниц с вкладками свойство, выделенным для отображения и возможно редактирование одного или нескольких свойств. Связанные с каждой отображения таблица — [IMAPIProp: IUnknown](imapipropiunknown.md) реализация интерфейса. Реализация **IMAPIProp** поддерживает свойство данные, представленные в диалоговом окне. 
   

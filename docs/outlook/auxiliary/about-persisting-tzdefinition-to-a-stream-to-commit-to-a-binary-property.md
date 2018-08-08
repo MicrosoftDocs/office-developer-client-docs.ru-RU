@@ -1,5 +1,5 @@
 ---
-title: О сохранение TZDEFINITION к потоку, чтобы зафиксировать двоичного свойства
+title: Сведения о сохранении TZDEFINITION в потоке для помещения в двоичное свойство
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19807671"
 ---
-# <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>О сохранение TZDEFINITION к потоку, чтобы зафиксировать двоичного свойства
+# <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>Сведения о сохранении TZDEFINITION в потоке для помещения в двоичное свойство
 
 Свойства часового пояса, [PidLidAppointmentTimeZoneDefinitionEndDisplay](http://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](http://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)и [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) двоичные с именем свойства, каждая из которых содержит поток, который соответствует сохраненного формата [TZDEFINITION](tzdefinition.md) структуры. 
   
@@ -64,6 +64,6 @@ if (TZDEFINITION_FLAG_VALID_KEYNAME)
 ## <a name="see-also"></a>См. также
 
 - [Constants (Outlook exported APIs)](constants-outlook-exported-apis.md)
-- [Синтаксический анализ потока из двоичного свойства для чтения TZDEFINITION структуры](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
-- [Чтение свойств часового пояса из встречи](how-to-read-time-zone-properties-from-an-appointment.md)
+- [Анализ потока из двоичного свойства для считывания структуры TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
+- [Считывание свойств часового пояса встречи](how-to-read-time-zone-properties-from-an-appointment.md)
 

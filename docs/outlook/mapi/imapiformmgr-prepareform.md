@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3b10ac5906be0f95930be3bef51fe2d78d583b03
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808949"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Файлы для загрузки для открытия формы.
   
@@ -35,7 +35,7 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _ulUIParam_
   
@@ -73,5 +73,5 @@ MAPI_DIALOG
   
 [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

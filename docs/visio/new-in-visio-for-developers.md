@@ -1,5 +1,5 @@
 ---
-title: Новые возможности Visio для разработчиков (en)
+title: New in Visio for developers
 manager: soliver
 ms.date: 09/18/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814305"
 ---
-# <a name="new-in-visio-for-developers"></a>Новые возможности Visio для разработчиков (en)
+# <a name="new-in-visio-for-developers"></a>New in Visio for developers
 
 В этом документе представлены чертах расширения и дополнения для разработчиков в Visio 2013. Для разработчиков, все готово для запуска перехода на платформу она предоставляет достаточно сведений для начала создания кода для Visio 2013.
   
@@ -37,17 +37,17 @@ Visio 2013 включает новый формат файла, основанн
   
 Новый формат файла включает в себя следующие типы файлов (с расширением):
   
-- vsdx (документ Visio)
+- VSDX (документ Visio),
     
-- .vsdm (документа с поддержкой макросов Visio)
+- VSDM (документ Visio с поддержкой макросов),
     
-- .vssx (набор элементов Visio)
+- VSSX (набор элементов Visio),
     
-- .vssm (набор элементов Visio с поддержкой макросов для)
+- VSSM (набор элементов Visio с поддержкой макросов),
     
-- vstx (шаблон Visio)
+- VSTX (шаблон Visio),
     
-- .vstm (шаблон с поддержкой макросов Visio)
+- VSTM (шаблон Visio с поддержкой макросов).
     
 Используя существующую поддержку чтения и записи в пакет форматов файлов (например, [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) ) и анализа XML ( [System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx) ), можно программно обрабатывать новые форматы файлов. 
   

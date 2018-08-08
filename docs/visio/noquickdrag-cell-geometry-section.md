@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoQuickDrag (раздел геометрии)
+title: Ячейка NoQuickDrag (раздел "Геометрия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814309"
 ---
-# <a name="noquickdrag-cell-geometry-section"></a>Ячейка NoQuickDrag (раздел геометрии)
+# <a name="noquickdrag-cell-geometry-section"></a>Ячейка NoQuickDrag (раздел "Геометрия")
 
 Определяет, установлен или перетащить при нажатии кнопки Заполненная область, определенные в раздел геометрии фигуры.
   

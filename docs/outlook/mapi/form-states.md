@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 969aca6fd37f237a607df36cc58f249828449e27
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,13 +17,13 @@ ms.locfileid: "19808503"
 ---
 # <a name="form-states"></a>Состояния формы
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Объекты формы может быть в одном из пяти различных состояний, в зависимости от того, какие методы вызова в них и ли наличие ошибок при выполнении этих методов. В следующих разделах описаны состояния.
   
-- [Неинициализированная переменная состояния](uninitialized-state.md)
+- [Неинициализированное состояние](uninitialized-state.md)
     
-- [Состояние Normal](normal-state.md)
+- [Обычное состояние](normal-state.md)
     
 - [Состояние NoScribble](noscribble-state.md)
     
@@ -40,5 +40,5 @@ ms.locfileid: "19808503"
   
 ## <a name="see-also"></a>См. также
 
-- [Разработка серверов формы MAPI](developing-mapi-form-servers.md)
+- [Разработка серверов форм MAPI](developing-mapi-form-servers.md)
 

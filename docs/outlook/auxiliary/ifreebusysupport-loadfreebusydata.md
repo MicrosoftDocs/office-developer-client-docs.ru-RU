@@ -32,7 +32,7 @@ HRESULT LoadFreeBusyData(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _cMax_
   

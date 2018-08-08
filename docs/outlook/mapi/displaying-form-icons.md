@@ -1,5 +1,5 @@
 ---
-title: Отображение значков формы
+title: Отображение значков форм
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 197e72ab-f9d6-4889-a677-0ce4c27b1aad
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b2e79e5568de38bee9a97c9df2598b30f1ba1bdf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19808317"
 ---
-# <a name="displaying-form-icons"></a>Отображение значков формы
+# <a name="displaying-form-icons"></a>Отображение значков форм
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 При отображении списка сообщений в папке, полезно для пользователей различать сообщения с помощью пользовательских классов сообщений из стандартных IPM. Обратите внимание, сообщения. Настраиваемые классы сообщения соответствуют формы серверы и серверы формы предоставляют значки будет представлять собой. В списке сообщений для оповещения пользователей для каждого сообщения класс сообщения можно отобразить эти значки, прежде чем пользователь открывает сообщения. Как правило значок в свойстве **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) формы, то, которое должно отображаться в списке сообщений. Формы также имеют свойство **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)), которые могут отображаться, когда форма свернута в окне свойств.
   

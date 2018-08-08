@@ -34,7 +34,7 @@ HRESULT WINAPI HrProcessConvActionForSentItem(
     DWORD dwFlags)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _pmbinStoreEid_
   

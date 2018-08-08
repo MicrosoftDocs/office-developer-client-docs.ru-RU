@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0a24fe3b-a1ef-4748-b3b3-3bf747473c9d
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1fbeccd805953322b579d1490b5e74e5132aa7ce
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19808186"
 ---
 # <a name="changeidleroutine"></a>ChangeIdleRoutine
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Изменяет некоторые или все характеристики простоя подпрограмма [FNIDLE](fnidle.md) на основе. 
   
@@ -43,7 +43,7 @@ VOID ChangeIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _ftg_
   

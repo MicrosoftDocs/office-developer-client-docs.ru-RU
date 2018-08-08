@@ -1,5 +1,5 @@
 ---
-title: Раздел действий тега
+title: Раздел "Теги действий"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19813124"
 ---
-# <a name="action-tag-section"></a>Раздел действий тега
+# <a name="action-tag-section"></a>Раздел "Теги действий"
 
 Содержит строку для каждого тега действия, определенного для фигуры или страницы.
   

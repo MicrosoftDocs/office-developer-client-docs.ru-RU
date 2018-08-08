@@ -19,7 +19,7 @@ ms.locfileid: "19810040"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Эта функция аналогична **WideCharToMultiByte**, которая соответствует строка UTF-16 (двухбайтовых знаков) новую строку знаков. Создать строку знаков не обязательно из многобайтовой задан.
   
@@ -35,7 +35,7 @@ int MNLS_WideCharToMultiByte(
   BOOL FAR *lpfUsedDefaultChar);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _uCodePage_
   

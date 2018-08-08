@@ -1,5 +1,5 @@
 ---
-title: О хранилище API
+title: Сведения об API хранилищ
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,11 +13,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19808008"
 ---
-# <a name="about-the-store-api"></a>О хранилище API
+# <a name="about-the-store-api"></a>Сведения об API хранилищ
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 API-Интерфейс хранения предоставляет функциональные возможности прочие хранилища для хранения поставщиков. Она предоставляет файлов определения, типы данных, свойств и интерфейсы.
   

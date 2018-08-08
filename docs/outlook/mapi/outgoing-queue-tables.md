@@ -1,5 +1,5 @@
 ---
-title: Исходящие очереди таблиц
+title: Таблицы исходящих очередей
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 10890c1fe430ddbc45c16908df3ac340284c9f18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19810075"
 ---
-# <a name="outgoing-queue-tables"></a>Исходящие очереди таблиц
+# <a name="outgoing-queue-tables"></a>Таблицы исходящих очередей
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Исходящие таблице очереди содержит сведения о всех исходящих сообщений для хранения сообщений. Поставщики хранилища сообщений реализовать исходящей очереди таблицы для очереди MAPI для использования. В этой таблице не должен реализовывать хранилищ, которые не поддерживают отправку и получение сообщений. 
   

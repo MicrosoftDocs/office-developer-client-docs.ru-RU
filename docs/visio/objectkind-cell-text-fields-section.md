@@ -1,5 +1,5 @@
 ---
-title: Ячейка ObjectKind (текстовые поля, раздел)
+title: Ячейка ObjectKind (раздел "Текстовые поля")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814306"
 ---
-# <a name="objectkind-cell-text-fields-section"></a>Ячейка ObjectKind (текстовые поля, раздел)
+# <a name="objectkind-cell-text-fields-section"></a>Ячейка ObjectKind (раздел "Текстовые поля")
 
 Указывает тип текстового поля.
   

@@ -1,5 +1,5 @@
 ---
-title: Объектная модель компонента и MAPI
+title: Объектная модель компонентов и MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cca4c70d-b73a-4834-80b5-9cb5889f63cc
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cf687a7bfadb0981ca3440c2f81bc5de8f910924
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19808197"
 ---
-# <a name="component-object-model-and-mapi"></a>Объектная модель компонента и MAPI
+# <a name="component-object-model-and-mapi"></a>Объектная модель компонентов и MAPI
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Документация по Windows SDK документы с этим правилам при внедрении объекты, которые соответствуют для модели компонентных объектов (COM). Эти правила рассматриваются как сделать следующее:
   

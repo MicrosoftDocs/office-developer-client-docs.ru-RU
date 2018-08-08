@@ -21,7 +21,7 @@ ms.locfileid: "19808771"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Открывает запись книги и возвращает указатель на интерфейс, который можно использовать для доступа к операции.
   
@@ -36,7 +36,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 _cbEntryID_
   
@@ -115,5 +115,5 @@ MAPI_E_UNKNOWN_ENTRYID
   
 ## <a name="see-also"></a>См. также
 
-- [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+- [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

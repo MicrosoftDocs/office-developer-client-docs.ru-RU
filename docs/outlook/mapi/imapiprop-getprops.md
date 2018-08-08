@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c7a9cd2-d765-4218-9aee-52df1a2aae6c
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 33351235db2a9a3f9d9b67f59e8356a0fa8abfa8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809033"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Получает значение свойства из одного или нескольких свойств объекта.
   
@@ -36,7 +36,7 @@ HRESULT GetProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpPropTagArray_
   
@@ -190,12 +190,12 @@ MAPI_E_INVALID_PARAMETER
   
 [SPropValue](spropvalue.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
   
 [Извлечение свойств MAPI](retrieving-mapi-properties.md)
   
-[Использование макросов для обработки ошибок](using-macros-for-error-handling.md)
+[Обработка ошибок с помощью макросов](using-macros-for-error-handling.md)
 

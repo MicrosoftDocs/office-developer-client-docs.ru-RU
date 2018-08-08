@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoFill (раздел геометрии)
+title: Ячейка NoFill (раздел "Геометрия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814300"
 ---
-# <a name="nofill-cell-geometry-section"></a>Ячейка NoFill (раздел геометрии)
+# <a name="nofill-cell-geometry-section"></a>Ячейка NoFill (раздел "Геометрия")
 
 Указывает, можно ли заполнить путь.
   

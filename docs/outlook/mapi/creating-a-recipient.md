@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 586c901f-d9f9-44f2-a328-051775a81265
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c596cb219cb1096f186e616c05b8372fef3b42a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "19808247"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Клиенты создавать получателям, когда они адресации сообщений и при их добавление записей можно изменить адрес книги контейнеров. MAPI предоставляет три способа создания получателей:
   

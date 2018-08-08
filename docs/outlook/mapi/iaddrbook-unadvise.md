@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: bf72e6f182f67861f909e21f0ec1871d76617974
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808776"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Отмена регистрации уведомлений, ранее созданные записи адресной книги.
   
@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _ulConnection_
   
@@ -57,5 +57,5 @@ HRESULT Unadvise(
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

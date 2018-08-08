@@ -1,5 +1,5 @@
 ---
-title: Меню ячейки (раздела "действия")
+title: Ячейка Menu (раздел "Действия")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19814303"
 ---
-# <a name="menu-cell-actions-section"></a>Меню ячейки (раздела "действия")
+# <a name="menu-cell-actions-section"></a>Ячейка Menu (раздел "Действия")
 
 Определяет имя элемента меню, которое отображается в контекстном или меню тегов действий для фигуры или страницы. 
   

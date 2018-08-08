@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5e23d9b829a941e3add8b8d8e137c73052b08aa6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808412"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описывает сведения, относящиеся к событию, зависящие от поставщика службы. 
   
@@ -41,7 +41,7 @@ typedef struct _EXTENDED_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **ulEvent**
   
@@ -67,9 +67,9 @@ typedef struct _EXTENDED_NOTIFICATION
   
 |**Статья**|**Описание**|
 |:-----|:-----|
-|[Уведомление о событии в MAPI](event-notification-in-mapi.md) <br/> |Общий обзор уведомлений и события уведомления.  <br/> |
+|[Уведомление о событиях в MAPI](event-notification-in-mapi.md) <br/> |Общий обзор уведомлений и события уведомления.  <br/> |
 |[Обработка уведомлений](handling-notifications.md) <br/> |Обсуждение как клиенты должны обрабатывать уведомления.  <br/> |
-|[Поддержка уведомления о событии](supporting-event-notification.md) <br/> |Обсуждение того, как поставщиков услуг можно использовать методы [IMAPISupport](imapisupportiunknown.md) для создания уведомлений.  <br/> |
+|[Поддержка уведомлений о событиях](supporting-event-notification.md) <br/> |Обсуждение того, как поставщиков услуг можно использовать методы [IMAPISupport](imapisupportiunknown.md) для создания уведомлений.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

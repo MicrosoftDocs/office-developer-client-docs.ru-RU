@@ -19,7 +19,7 @@ ms.locfileid: "19810030"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Аналогично **MultiByteToWideChar**, которая соответствует строка символов строки UTF-16 (двухбайтовых знаков). Строку знаков не обязательно из многобайтовой задан.
   
@@ -33,7 +33,7 @@ int MNLS_MultiByteToWideChar(
   int cchWideChar);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _uCodePage_
   

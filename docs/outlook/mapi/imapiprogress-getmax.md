@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 88a910ed-b55a-4e5b-a43d-eb3ea795a70e
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bbd52116a108be12df7697f45df41b03adeba68e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809010"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Возвращает максимальное число элементов в операции, для которых выполняется отображаются сведения.
   
@@ -33,7 +33,7 @@ HRESULT GetMax(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpulMax_
   
@@ -75,12 +75,12 @@ HRESULT GetMax(
   
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
 [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
   
-[Отобразить индикатор выполнения](how-to-display-a-progress-indicator.md)
+[Отображение индикатора хода выполнения](how-to-display-a-progress-indicator.md)
   
-[Реализация индикатор выполнения](implementing-a-progress-indicator.md)
+[Реализация индикатора хода выполнения](implementing-a-progress-indicator.md)
 

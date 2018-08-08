@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: f5d253d0306e55699fbe5b9c9decf8c3242867fd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809641"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Закрывает вниз поставщика транспорта определенным образом.
   
@@ -33,7 +33,7 @@ HRESULT Shutdown (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpulFlags_
   
@@ -55,5 +55,5 @@ HRESULT Shutdown (
 
 [XPProviderInit](xpproviderinit.md)
   
-[IXPProvider: IUnknown](ixpprovideriunknown.md)
+[IXPProvider : IUnknown](ixpprovideriunknown.md)
 

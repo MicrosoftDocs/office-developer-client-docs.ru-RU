@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 34bd6de95f731c03466f19e0bc4fd6e2c9910900
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19809199"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Создает закладку в текущей позиции в таблице.
   
@@ -33,7 +33,7 @@ BOOKMARK FAR * lpbkPosition
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
  _lpbkPosition_
   
@@ -75,5 +75,5 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 [IMAPITable::SeekRow](imapitable-seekrow.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

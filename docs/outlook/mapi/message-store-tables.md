@@ -1,5 +1,5 @@
 ---
-title: Хранение сообщений таблиц
+title: Таблицы хранилища сообщений
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 84631ea6d332829430bf9d99488f8a1a5fdebac0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19810026"
 ---
-# <a name="message-store-tables"></a>Хранение сообщений таблиц
+# <a name="message-store-tables"></a>Таблицы хранилища сообщений
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 В таблице хранилища сообщений содержит сведения о поставщиках хранилища сообщений текущего профиля. Для каждого сеанса MAPI, реализованный MAPI и используемого клиентами имеется одна таблица хранилища сообщений. Клиенты могут использовать этой таблице, например, для поиска всех экземпляров определенного поставщика или найти конкретное сообщение хранилища. 
   

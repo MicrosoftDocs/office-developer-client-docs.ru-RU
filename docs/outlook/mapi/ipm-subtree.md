@@ -1,5 +1,5 @@
 ---
-title: Поддерева IPM
+title: Поддерево IPM
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b5fc6084-722d-44e8-8637-f4160a4fb19b
-description: '���� ���������� ���������: 23 ���� 2011 �.'
+description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: eebc029d4ed72f355170710061c4d3717ed0aa1e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19809494"
 ---
-# <a name="ipm-subtree"></a>Поддерева IPM
+# <a name="ipm-subtree"></a>Поддерево IPM
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 MAPI создает дерево папок в корневой папке хранилищем сообщений для всех клиентов, сообщения, чтобы отправлять и принимать сообщения от человека, а не на компьютер, получателей. Сообщений, отправленных в между человеческого получателей, известных как сообщения электронной почты — это и известные это дерево как сообщения электронной почты — это или IPM поддерева. 
   

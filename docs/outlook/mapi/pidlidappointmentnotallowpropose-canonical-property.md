@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 183c8eb5112fc35f088bc5c6ac11748e3449f15a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19810102"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Указывает, участники не разрешено ли предложить новый Дата/время собрания.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810102"
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x0000825A  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Области:  <br/> |Meetings (собрания);  <br/> |
+|Область:  <br/> |Meetings (собрания);  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

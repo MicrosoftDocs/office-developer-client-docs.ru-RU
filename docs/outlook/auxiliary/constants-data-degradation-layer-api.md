@@ -20,7 +20,7 @@ ms.locfileid: "19807701"
   
 ## <a name="constants"></a>Константы
 
-|**Константы**|**Определение**|
+|**Constant**|**Определение**|
 |:-----|:-----|
 |DDLWRAP_FLAG_ANSI  <br/> |0x00000001  <br/> |
 |DDLWRAP_FLAG_UNICODE  <br/> |0x00000002  <br/> |

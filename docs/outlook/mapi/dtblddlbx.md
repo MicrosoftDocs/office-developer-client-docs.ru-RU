@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
-description: '���� ���������� ���������: 9 ����� 2015 �.'
+description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2db95697cd98e66da9fb3d0cd0180b238c0a8dff
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "19808348"
 
   
   
-**Применимо к**: Outlook 
+**Относится к**: Outlook 
   
 Описывает элемент управления раскрывающегося списка, который будет использоваться в диалоговое окно, построенная на основе таблицы отображения.
   
@@ -42,7 +42,7 @@ typedef struct _DTBLDDLBX
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -87,9 +87,9 @@ typedef struct _DTBLDDLBX
 
 [Структуры MAPI](mapi-structures.md)
   
-[Реализация таблица отображения](display-table-implementation.md)
+[Реализация таблицы отображения](display-table-implementation.md)
   
-[Отображение таблиц](display-tables.md)
+[Таблицы отображения](display-tables.md)
   
 [Обзор типов свойств MAPI](mapi-property-type-overview.md)
 
