@@ -1,5 +1,5 @@
 ---
-title: Ячейка YRulerOrigin (линейки &amp; сетка)
+title: Ячейка YRulerOrigin (раздел "Линейка и сетка")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,29 +8,29 @@ f1_keywords:
 - vis_sdr.chm1220
 localization_priority: Normal
 ms.assetid: 5d21b64f-a559-76ef-06df-d24c048cc6ef
-description: Задает координат на линейке по оси y для страницы.
+description: Указывает точку начала координат на линейке по оси y для страницы.
 ms.openlocfilehash: 143f372d66ee25e90608a9b2eb252a99e7bcc52f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815227"
 ---
-# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Ячейка YRulerOrigin (линейки &amp; сетка)
+# <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Ячейка YRulerOrigin (раздел "Линейка и сетка")
 
-Задает координат на линейке по оси y для страницы.
+Указывает точку начала координат на линейке по оси y для страницы.
   
 ## <a name="remarks"></a>Замечания
 
-В этой ячейке соответствует параметру вертикальной **линейки ноль** в **линейки &amp; сетки** диалоговое окно "" (на вкладке **Вид** щелкните стрелку **Показать** ). 
+Эта ячейка соответствует параметру **Ноль на вертикальной линейке** в диалоговом окне **Линейка и сетка** (на вкладке **Вид** нужно выбрать стрелку **Показать**). 
   
-Чтобы получить ссылку на ячейку YRulerOrigin по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку YRulerOrigin по имени из другой формулы или из программы с помощью свойства **CellsU**, укажите следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |YRulerOrigin  <br/> |
+|Имя ячейки:  <br/> |YRulerOrigin  <br/> |
    
-Для получения ссылки на ячейки YRulerOrigin по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку YRulerOrigin по индексу из программы, укажите свойство **CellsSRC** с такими аргументами: 
   
 |||
 |:-----|:-----|

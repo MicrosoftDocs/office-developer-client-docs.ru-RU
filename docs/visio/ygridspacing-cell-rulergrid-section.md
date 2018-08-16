@@ -1,5 +1,5 @@
 ---
-title: Ячейка YGridSpacing (линейки &amp; сетка)
+title: Ячейка YGridSpacing (раздел "Линейка и сетка")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,29 +8,29 @@ f1_keywords:
 - vis_sdr.chm1210
 localization_priority: Normal
 ms.assetid: 30766e13-c90d-62fc-9c98-35ad7b0b4056
-description: Указывает расстояние между вертикальными линиями фиксированной сетки (YGridDensity = 0).
+description: Определяет расстояние между вертикальными линиями в фиксированной сетке (YGridDensity = 0).
 ms.openlocfilehash: 638479719ee0649bf271403249e2cde2ddccf09c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19815225"
 ---
-# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Ячейка YGridSpacing (линейки &amp; сетка)
+# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Ячейка YGridSpacing (раздел "Линейка и сетка")
 
-Указывает расстояние между вертикальными линиями фиксированной сетки (YGridDensity = 0).
+Определяет расстояние между вертикальными линиями в фиксированной сетке (YGridDensity = 0).
   
 ## <a name="remarks"></a>Замечания
 
-**Минимальный интервал** по вертикали, соответствует параметра в **линейки &amp; сетки** диалоговое окно "" (на вкладке **Вид** щелкните стрелку **Показать** ). 
+Соответствует параметру **Минимальный интервал по вертикали** в диалоговом окне **Линейка и сетка** (на вкладке **Вид** нужно выбрать стрелку **Показать**). 
   
-Чтобы получить ссылку на ячейку YGridSpacing по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку YGridSpacing по имени из другой формулы или из программы с помощью свойства **CellsU**, укажите следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |YGridSpacing  <br/> |
+|Имя ячейки:  <br/> |YGridSpacing  <br/> |
    
-Для получения ссылки на ячейки YGridSpacing по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку YGridSpacing по индексу из программы, укажите свойство **CellsSRC** с такими аргументами: 
   
 |||
 |:-----|:-----|
