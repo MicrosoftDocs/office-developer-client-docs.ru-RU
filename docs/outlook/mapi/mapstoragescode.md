@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ab892513348541ec9de3c071a12268afa9337465
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8dbb871a234d94f8bb2e21b15ce5de6f0db0e4ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809924"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581834"
 ---
 # <a name="mapstoragescode"></a>MapStorageSCode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Карты SCODE возвращать значение из объекта хранилища OLE к типу HRESULT. 
   

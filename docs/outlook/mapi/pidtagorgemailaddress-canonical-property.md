@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 287cac543bfc18a72cee9bb939b699c815af01bd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c1119ea2b1b8db0f4671894730dce76b18b4f5c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811425"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575114"
 ---
 # <a name="pidtagorgemailaddress-canonical-property"></a>Каноническое свойство PidTagOrgEmailAddress
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит адрес электронной почты учетной записи электронной почты отправителя.
   

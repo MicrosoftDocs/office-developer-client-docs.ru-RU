@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c4a1fb5d-ae23-445b-a6f0-ef430b03fc9a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1ffde0814fe5024a3f89a93462c48136712f1013
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f26e7b7ec607c9714012870d5367a0e775c62f34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809306"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572104"
 ---
 # <a name="implementing-address-book-provider-logon-and-logoff"></a>Реализация входа и выхода для поставщика адресной книги
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщиками адресных книг поддерживать сеанса входа в систему и выход из системы за счет реализации методов из [IABProvider: IUnknown](iabprovideriunknown.md) интерфейса. ** IABProvider ** интерфейс наследует непосредственно из **IUnknown** и добавляет только два других метода: **Вход в систему** и **Завершение работы**. 
   

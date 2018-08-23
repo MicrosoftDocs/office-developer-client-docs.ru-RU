@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cd9e6a46-2112-4663-891e-5e57b22c0950
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7d91ed369b3a6e8b4f62534d49b202b46c327baa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7449e59227b147d34c2329175d0251dbb9c427b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810931"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581344"
 ---
 # <a name="pidtagcommonviewsentryid-canonical-property"></a>Каноническое свойство PidTagCommonViewsEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи предварительно определенные общие папки представления. 
   

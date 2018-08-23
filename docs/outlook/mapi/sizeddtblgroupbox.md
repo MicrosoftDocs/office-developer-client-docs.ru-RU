@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 7ca01bf7-5185-41cc-907e-01f256345997
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a3d8a76905aa9abb0e5bf001688608e03446704a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 882638d5359154a56fa4438e7a62f213159f916d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812305"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581218"
 ---
 # <a name="sizeddtblgroupbox"></a>SizedDtblGroupBox
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает именованный структуру, которая включает в себя структуру [DTBLGROUPBOX](dtblgroupbox.md) , содержащие элемент управления поля группы и метка заданной длины. 
   

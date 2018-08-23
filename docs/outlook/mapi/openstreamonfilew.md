@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 127c4a77b9184d8bb62925c5237c1aedec643992
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc8644a658b8aca97f80fcf0a942551509064bd6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810076"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581561"
 ---
 # <a name="openstreamonfilew"></a>OpenStreamOnFileW
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Выделяет и инициализирует объект OLE **IStream** для доступа к содержимому файла. Эта функция принимает в качестве аргументов, в отличие от в формате ANSI этой функции [OpenStreamOnFile](openstreamonfile.md)строки Юникод и таким образом позволяет произвольных символов в поле имя файла, включая расширение файла и путь.
   

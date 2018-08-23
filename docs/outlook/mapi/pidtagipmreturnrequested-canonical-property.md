@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9c97df9f-08d7-4223-864f-47286f674e11
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6689a9da11559ed8f08bb2d10ae128ddf637fa96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 689d3e7815113b495140b907df1b8f8004b4a32d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811295"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581932"
 ---
 # <a name="pidtagipmreturnrequested-canonical-property"></a>Каноническое свойство PidTagIpmReturnRequested
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если этого сообщения должны быть возвращены с отчетом.
   

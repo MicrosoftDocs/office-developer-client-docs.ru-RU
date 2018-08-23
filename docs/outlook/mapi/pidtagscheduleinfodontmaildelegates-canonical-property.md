@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e932966e-cb7a-4d8b-8f06-6406fce1b3e6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6bcda9c6281e25f3bae2f9c1dda2f8defb024b57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a88f05bab3f3effc60c0bcca24910106e6849903
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811847"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576811"
 ---
 # <a name="pidtagscheduleinfodontmaildelegates-canonical-property"></a>Каноническое свойство PidTagScheduleInfoDontMailDelegates
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если делегат не хотите получать обновления.
   

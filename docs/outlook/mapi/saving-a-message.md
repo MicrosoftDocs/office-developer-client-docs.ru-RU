@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e61a72691309b2ac632b764c0607f5b1e36b291b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fcb5486cc96403b872e07ab597545ca6f493907d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812177"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581323"
 ---
 # <a name="saving-a-message"></a>Сохранение сообщения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Перед сохранением сообщение клиенты обычно вызывает метод [IMAPIProp::SetProps](imapiprop-setprops.md) сообщение для настройки несколько свойств, кроме свойства: текстовое сообщение, свойства вложения, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) и свойства связанные с списка получателей.
   

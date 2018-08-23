@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: eab12ef45846a8f58eb3cf327fbb40777010be7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b906ce83e26326755b483382eec8e494cbe7875
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810541"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577368"
 ---
 # <a name="pidlidsharingproviderurl-canonical-property"></a>Каноническое свойство PidLidSharingProviderUrl
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает URL-адрес, связанные с общего доступа поставщика и заданной свойством **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). Это свойство общего доступа сообщения.
   

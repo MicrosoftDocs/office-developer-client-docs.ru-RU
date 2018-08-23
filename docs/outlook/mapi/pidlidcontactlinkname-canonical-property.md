@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b9be1cd-e81e-42f3-b391-036afa2ae1b4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 13c10a84383c9c2f775a7579485536bfd63f9a93
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd29ed24f155e3d39d367d677f3760b2aa12a18d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810237"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582380"
 ---
 # <a name="pidlidcontactlinkname-canonical-property"></a>Каноническое свойство PidLidContactLinkName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит элементы свойство **dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)).
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810237"
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008586  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

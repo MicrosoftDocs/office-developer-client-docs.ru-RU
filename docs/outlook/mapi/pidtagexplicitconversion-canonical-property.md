@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8aabcec6-f735-41fe-a5f4-61d4635b2c58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 430366614d0b4d6ca60b539264a185d1caf23420
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf4fe916d93d330b43c0acd76be2db44687a4da7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578614"
 ---
 # <a name="pidtagexplicitconversion-canonical-property"></a>Каноническое свойство PidTagExplicitConversion
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что отправитель сообщения запрашивает преобразование содержимого сообщения для определенного получателя.
   

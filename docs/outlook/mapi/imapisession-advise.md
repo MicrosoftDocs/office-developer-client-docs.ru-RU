@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 45033ab924dcf443e9d231b3a7b4348119758935
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 704a556b97f5fd90989641a17afe5a11d127e51b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809069"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577172"
 ---
 # <a name="imapisessionadvise"></a>IMAPISession::Advise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Регистрация для получения уведомлений о указанного события, которые влияют на сеанс.
   

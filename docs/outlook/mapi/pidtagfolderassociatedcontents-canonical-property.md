@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fe6395029e312a19bce6252e73b4616bb0aa0851
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae09488b99cd55e5cfca23f504d81ac5919633d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811127"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574155"
 ---
 # <a name="pidtagfolderassociatedcontents-canonical-property"></a>Каноническое свойство PidTagFolderAssociatedContents
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит объект внедренного содержимого таблицы, предоставляющий информацию о таблице связанного содержимого. 
   

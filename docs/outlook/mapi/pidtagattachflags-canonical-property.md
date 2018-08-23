@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b934f9694061e17118be35e3fabeeff3bbc61a37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf92e62dc572a81b6e0aab4cb1b0fc8afe97800d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810844"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573098"
 ---
 # <a name="pidtagattachflags-canonical-property"></a>Каноническое свойство PidTagAttachFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов для вложения. 
   

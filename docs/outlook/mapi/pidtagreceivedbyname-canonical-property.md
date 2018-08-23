@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: edd29217-74bb-4321-82fd-65f0fbfd05f8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7b564b1dda1d72a28e16fad40f0ef90451aaaf0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5afe0cfff03feafeb8299780b9402cef3282632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811631"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577074"
 ---
 # <a name="pidtagreceivedbyname-canonical-property"></a>Каноническое свойство PidTagReceivedByName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя пользователя системы обмена сообщениями, который получает сообщение.
   

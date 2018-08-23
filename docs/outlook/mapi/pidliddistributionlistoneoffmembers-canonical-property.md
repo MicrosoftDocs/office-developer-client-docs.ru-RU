@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ae6202a1fdf7ec43bf2269236aa8120aa67e3c50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef60c13923753eb7e349b91a5a4727958ebb73e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810257"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580238"
 ---
 # <a name="pidliddistributionlistoneoffmembers-canonical-property"></a>Каноническое свойство PidLidDistributionListOneOffMembers
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает список единичных записей, соответствующих членов списка рассылки.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810257"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008054  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

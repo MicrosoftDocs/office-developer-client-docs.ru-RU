@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 45dc993c337249ed7d4dffbd5324267de82981d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2ab44081c79e72e082687006ab06d0f83b8367e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809836"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575030"
 ---
 # <a name="mapi-sessions"></a>Сеансы MAPI
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 ������ ��� ���������� ���������� ����� �������� ������� ������ �����������, ���������� ���������� ���������� � ����������� MAPI ��� ������.
   

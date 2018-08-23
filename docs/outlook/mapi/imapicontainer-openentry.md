@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c13ab9ce9c2564c39bfe9b2689f05439bc7b74ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd93866ae8823eb5897318fc2dda4e8432d974b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808822"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578467"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Открывает объект в контейнере, возвращает указатель интерфейса для дальнейшей доступа.
   

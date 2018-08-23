@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: da7f2b16-cbd6-4a98-b577-31841e60a656
 description: Найдите ссылки на сведения в этом разделе о основные части платформы Project 2013, Приступая к разработке CSOM с помощью JavaScript и .NET Framework, задача области надстроек в Project Professional 2013 интерфейс Project Server и Службы отчетов OData.
-ms.openlocfilehash: 84af1edcee75d529fbdbacf5e40fe91cdc3523c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e19fae2a187a9a4f809eaec4d8dade128b9529bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813053"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570305"
 ---
 # <a name="project-conceptual-and-how-to-articles"></a>Общие и практические статьи проекта
 
@@ -27,7 +27,7 @@ Project Server 2013 основано на интерфейс Project Server (PSI
   
 - [Клиентские объектной модели (CSOM) для Project 2013](client-side-object-model-csom-for-project-2013.md) включает разделы о начале работы с CSOM разработки с помощью JavaScript и .NET Framework. 
   
-- [Программирование клиента Project](project-client-programming.md) : Знакомство надстроек области задач в Project Professional 2013. Отдельный пакет SDK содержит статьи и справочные материалы для надстроек в проект и других клиентских программах Office 2013. Для получения дополнительных сведений обратитесь к [документации для разработчиков](https://msdn.microsoft.com/library/office/jj220060.aspx) для надстроек Office. 
+- [Программирование клиента Project](project-client-programming.md) : Знакомство надстроек области задач в Project Professional 2013. Отдельный пакет SDK содержит статьи и справочные материалы для надстроек в проект и других клиентских программах Office 2013. Для получения дополнительных сведений см. в документации для разработчиков [Office Add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins) . 
   
 - [Проект задачи программирования](project-programming-tasks.md) показано, как Разработка надстроек для Project 2013, создание рабочих процессов для управления запросами, настройки ленты Project Web App, создание веб-частей и многое другое. 
   

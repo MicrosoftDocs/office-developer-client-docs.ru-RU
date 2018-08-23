@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c89f388a-1585-4bed-91b4-1b0c268292f3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4aaa8f1c0bb2d9eb43cd1850ea2148151a0f02fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc3849ac972ce7e3efbfa981ff950ee3615cb533
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810224"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571467"
 ---
 # <a name="pidlidcommonend-canonical-property"></a>Каноническое свойство PidLidCommonEnd
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет дату и время сообщения.
   

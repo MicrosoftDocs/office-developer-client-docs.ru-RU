@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 13dad61176a877295069317e4a5b51888b01bebb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62911e0dec15002f39fff81e8c517c1cb11d0183
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812284"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574743"
 ---
 # <a name="sizedadrlist"></a>SizedADRLIST
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет структуру [ADRLIST](adrlist.md) с указанным именем, содержащий указанное число [ADRENTRY](adrentry.md) структуры. 
   

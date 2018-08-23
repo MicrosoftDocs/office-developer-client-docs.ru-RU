@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6917510d-ca1e-4049-9eab-09313753ecf0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 691c5977092b5e2ca6b453209982dd1333a6df89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c9598b583ba62adc42d6fb2b904dfe4981286ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578110"
 ---
 # <a name="pidtagcontainerhierarchy-canonical-property"></a>Каноническое свойство PidTagContainerHierarchy
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит объект таблицы внедренных иерархии, предоставляющий информацию о дочерних контейнеров. 
   

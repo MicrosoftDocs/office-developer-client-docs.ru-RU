@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: eca3d4ff-2e92-4d20-a498-98e0773c1962
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 94e83f4a93bac4ee144c5fbf94fd4b3fdb6c2f55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6cc5edf1c93ca94fb9d8cab302ccd8e96373cd94
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810826"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581946"
 ---
 # <a name="pidtaganr-canonical-property"></a>Каноническое свойство PidTagAnr
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение строки для использования в качестве свойства ограничения на содержимое таблицы контейнер адресной книги. 
   

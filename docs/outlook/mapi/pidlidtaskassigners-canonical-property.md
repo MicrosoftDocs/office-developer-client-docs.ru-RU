@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 07500bd0-bcff-4b03-8ed3-80508875e253
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 89e0b6eae35de9e40dba411afb82e19aa81fb635
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20a4cf4fc847bdb361fb73161adeb96afb49e57e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570753"
 ---
 # <a name="pidlidtaskassigners-canonical-property"></a>Каноническое свойство PidLidTaskAssigners
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит стек записей, которые представляют assigners задач. Самые последние назначено задач отображается в верхней части стека.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 17d64211-6265-41f4-b016-3677d75af966
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8c38fef932388347725b829cd6443c009e384e3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: be09b0f21017c81484fe538839e3bdd6137ff663
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582135"
 ---
 # <a name="pidtagipmdraftsentryid-canonical-property"></a>Каноническое свойство PidTagIpmDraftsEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит **идентификатор записи** для Outlook "Черновики". 
   

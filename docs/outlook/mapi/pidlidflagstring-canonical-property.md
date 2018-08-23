@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 53fe309fb15807ad698fef5a06781e5c3e0bae0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b29fdbb82635ca7706be15ee9f674262d2204ad5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810361"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576185"
 ---
 # <a name="pidlidflagstring-canonical-property"></a>Каноническое свойство PidLidFlagString
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит индекс, который определяет одну из набора предварительно определенных текстовых строк, связанных с флагом.
   

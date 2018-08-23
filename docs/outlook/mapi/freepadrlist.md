@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ca8fbac6-b6f1-46ab-90a1-fc16f0d5824c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2c5d4ec8381d6614cc2bc92fb0a762b068a97a81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39a184f00ccf54d4fa4477bbdf3086f3e44bddb0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808509"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576549"
 ---
 # <a name="freepadrlist"></a>FreePadrlist
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Удаляет структуру [ADRLIST](adrlist.md) и освобождает связанные памяти, включая объем памяти, выделенный для всех элементов массивов и структур. 
   

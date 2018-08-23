@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 32627ebb-547f-4fac-a406-e7243ec5521b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 04aa4348560396c8237811252fd96a2b461cd791
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b572ebcec0a33d2134f4cf19b88e3132cbd47117
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808276"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582002"
 ---
 # <a name="designing-a-message-service"></a>Разработка службы сообщений
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Прежде чем начать писать код для поддержки службы сообщений, важно для создания проекта. Устранение следующих проблем в процессе разработки.
   

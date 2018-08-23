@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 319be396-89fe-48a6-a229-c62ad48b1692
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 608faccd2c8b907710d7e34ce05d2f8d30f59f83
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19a6341f8800bf44f3e763b47ee487cd09f20fdd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578138"
 ---
 # <a name="pidtaginternetapproved-canonical-property"></a>Каноническое свойство PidTagInternetApproved
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сопоставляется с заголовком утвержденных MIME.
   

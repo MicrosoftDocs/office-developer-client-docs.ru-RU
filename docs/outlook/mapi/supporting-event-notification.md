@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a1e3e49c-8d1d-4f7e-ba5a-be441f0f10ae
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 45bfe9f9314a154bd5f096ac20f76f6bf4f259c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1320528a2e123d36457bef929a8454155646f0da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581001"
 ---
 # <a name="supporting-event-notification"></a>Поддержка уведомлений о событиях
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Так как поддержка уведомления о событии, может быть затруднена, MAPI предоставляет три метода объекта поддержки, которые реализуют самые сложные части процесса. Эти методы работать как одно целое и поставщика необходимо использовать все три или ни один из них.
   

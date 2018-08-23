@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 84c2d02da840dfcad077462954cb10894ba153d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1046c8d92feec16428329636257ed9c1f0ec8719
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812063"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571481"
 ---
 # <a name="profile-tables"></a>Таблицы профилей
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В таблице профилей приведены сведения о всех профилей, связанных с определенной клиентским приложением. Существует одна таблица профиль для каждого сеанса реализован MAPI для использования клиентами. 
   

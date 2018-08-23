@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a42fb112-7be5-4b7b-a2e0-7e7f7f58b9a4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e52b2e1795405990864724d873ffa604e5e949b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb60af2550b7247b62b78b3bce1b94f9ba099b6a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810270"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581064"
 ---
 # <a name="pidlidemail3displayname-canonical-property"></a>Каноническое свойство PidLidEmail3DisplayName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает для чтения отображаемое имя для третьего адреса электронной почты.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810270"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080A0  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

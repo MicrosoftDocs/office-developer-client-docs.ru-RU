@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b7e0c174f0b31522cffbb4761ab64a50267874be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: add85bbf9c7608434be045bc30a11b8a28ccaa1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578411"
 ---
 # <a name="pidtagattachpathname-canonical-property"></a>Каноническое свойство PidTagAttachPathname
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит полный путь и имя файла вложения.
   

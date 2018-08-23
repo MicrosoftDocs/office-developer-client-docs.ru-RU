@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aec4d328-c192-4672-a478-b08442352794
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2eb1f0a517b430f2c96161e94faa22ec4d67ac41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97986215a2280d64a7affa817e81d66e4fb82817
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810702"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577767"
 ---
 # <a name="pidnameaudionotes-canonical-property"></a>Каноническое свойство PidNameAudioNotes
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает текстовые примечания, подключенные к голосовое сообщение.
   

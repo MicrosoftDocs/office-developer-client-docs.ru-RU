@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ada86f04-e81b-4f97-b9c1-1c8ec5e1a5dd
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5494558db65e19891848264c170ba85a55c5df71
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e919270efb196cda845581830cc4a918012b385
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810084"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578978"
 ---
 # <a name="packedansistring-stream-structure"></a>Структура потока PackedAnsiString
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Структура потока PackedAnsiString содержит представление в формате ANSI строку, основанную на кодовая страница ANSI компьютера, на котором выполняется Microsoft Outlook. Эта строка не будет завершен символом null. Элементы данных в этот поток хранятся в прямом байтовом, сразу после друг с другом в указанном ниже порядке. Фактические данные элементы, которые существуют зависят от длина строки в кодировке ANSI представление.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 746d63fa-bfb7-479f-94dc-ba40011c1ec9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 91a9d15544ebc71d27c8a9a6f930f3c32ecaa4fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7bcaf230eed9cf21388b68f06ab678dc143f64ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812061"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571824"
 ---
 # <a name="proptype"></a>PROP_TYPE
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает тип свойства тега указанного свойства.
   

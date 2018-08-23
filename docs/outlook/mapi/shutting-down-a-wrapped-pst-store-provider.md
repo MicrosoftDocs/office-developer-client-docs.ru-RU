@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 0c9e5917-1b96-323d-bf8b-1d3aa1f677d0
 description: 'Последнее изменение: 2 июля 2012.'
-ms.openlocfilehash: 5c8ad7443b0c1aa05f48284e4b09859ab53dd2c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43a65548bedc1729ff2bcb62bc3df78d2408bf12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812287"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571747"
 ---
 # <a name="shutting-down-a-wrapped-pst-store-provider"></a>Завершение работы поставщика упакованного PST-хранилища
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 После завершения работы с оболочку поставщика хранилища личных папок (PST) файла, необходимо надлежащим образом завершение работы оболочку поставщика хранилища PST-файлов. Дополнительные сведения об использовании оболочку поставщика хранилища PST-файлов [с использованием поставщика оболочку хранения PST -файлов](using-a-wrapped-pst-store-provider.md)см.
   

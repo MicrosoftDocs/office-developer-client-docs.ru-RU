@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 74f0a1fe-2a79-4b32-ab88-85a8839a2639
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 48883ec33db9ffd6b3e7cc6e16ae9c2487a31607
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a5a5045594e87953d967fddbdeefd5ac18c8a3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812601"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581974"
 ---
 # <a name="validating-and-initializing-a-message-store"></a>Проверка и инициализация хранилища сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При открытии хранилища сообщений через метод [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) без установки флага MDB_NO_MAIL MAPI создается несколько папок и присваивает им имена по умолчанию и роли. MAPI несет ответственность за создание этих папок, чтобы избежать несовместимости, неизменно может возникать, если были ответственность за создание клиентов или поставщиков хранилища сообщений. 
   

@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 854e674002953c31c47d56096700dca582ce0a5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd593b68ef7ca25b1f8ceec613786cdbdd03fd76
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812573"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579076"
 ---
 # <a name="upreade"></a>UPREADE
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Расширенные сведения для загрузки состояние чтения элемента во время [Отправить прочитать состояние состояние](upload-read-status-state.md).
   

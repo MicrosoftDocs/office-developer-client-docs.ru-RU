@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5a3cc16a-145f-4a40-bca9-99871a26b0ef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: db255f13d356ec6e10bbe90bea6decd6cb9e0f20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 243843b625cf17a3286ff2da87824f8867050090
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811220"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570340"
 ---
 # <a name="pidtaghome2telephonenumbers-canonical-property"></a>Каноническое свойство PidTagHome2TelephoneNumbers
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список дополнительных телефонных номеров дома получателя.
   

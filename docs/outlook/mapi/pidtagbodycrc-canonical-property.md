@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6efe9dc3-e988-4042-ab02-2863b5e0f294
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 66a150cf3f83465840aa0e79a9ef921b1534f814
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55da942e59c619dd384bef58349aa3a00d4a6d8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810906"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571474"
 ---
 # <a name="pidtagbodycrc-canonical-property"></a>Каноническое свойство PidTagBodyCrc
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение суммы циклической на текста сообщения.
   

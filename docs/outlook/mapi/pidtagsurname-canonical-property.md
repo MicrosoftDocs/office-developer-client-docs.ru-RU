@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1663f032-4cdc-43ed-8fdc-a91a3a6a84ff
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e3fecd52eb2a3fec6b566df41824098727750833
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8c47e5ab5912f89988f48d28686b1cdd86bf937
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811996"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580329"
 ---
 # <a name="pidtagsurname-canonical-property"></a>Каноническое свойство PidTagSurname
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит Фамилия получателя.
   

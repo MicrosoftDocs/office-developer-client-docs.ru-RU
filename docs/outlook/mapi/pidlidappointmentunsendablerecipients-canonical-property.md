@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ba154612-1b0f-4ef3-8d9f-7981b1c61a2c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dc273e757f173515e8c49827c1a55aa04e1faaf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e2f09779a4f2bfa1a41810841dc16f44ff80119
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810220"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578271"
 ---
 # <a name="pidlidappointmentunsendablerecipients-canonical-property"></a>Каноническое свойство PidLidAppointmentUnsendableRecipients
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список участников, отправить.
   

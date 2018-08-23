@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 534c3881-e12f-f228-7760-788fe2b72ae8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 008dd69f5e31b601b678a4346880e6b3c89a0f39
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 80d1fc3f711369471eb2c1473700f13a6b995594
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578509"
 ---
 # <a name="pidtagsearchattachments-canonical-property"></a>Каноническое свойство PidTagSearchAttachments
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит строку Юникод, запрашиваемый в содержимое вложения в хранилище.
   

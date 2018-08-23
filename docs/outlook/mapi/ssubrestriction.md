@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 152f3032876d6473f1716afa46507196cd5ecc55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de92a1328eb9a089a7914978ab20ab0bf5c430ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812378"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581960"
 ---
 # <a name="ssubrestriction"></a>SSubRestriction
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описываются ограничения дочерний объект, который используется для фильтрации строк вложения сообщения или получателей в таблице.
   

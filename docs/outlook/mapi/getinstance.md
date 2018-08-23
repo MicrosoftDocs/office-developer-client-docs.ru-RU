@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cb432d52-6c96-45d2-bbde-45b0de3f915c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f65f047a73a2c06ca02251c554e5dca42352b6c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c4e5d2847b53988fb75e23fc6c4dfc386ea678f4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808550"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579265"
 ---
 # <a name="getinstance"></a>GetInstance
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Копирует одно значение в рамках свойством одним значением свойства одного типа. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dffc8093200d5fb65e44236bda0eaca63a580cac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 716550a847aff868d01cb67356409537df83b6d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808153"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575933"
 ---
 # <a name="cbnewsproptagarray"></a>CbNewSPropTagArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов, выделенная для новой структуры [SPropTagArray](sproptagarray.md) , содержащий указанное число тегов свойств. 
   

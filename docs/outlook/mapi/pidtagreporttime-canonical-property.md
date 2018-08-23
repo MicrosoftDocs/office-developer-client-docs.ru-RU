@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b3646505-a9f0-4a72-8277-b238c909f66f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 95972d53f20f432bc8007f8bbc6734889773f938
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4efe68745c10521de243677c10a9ca32debd7122
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811728"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577802"
 ---
 # <a name="pidtagreporttime-canonical-property"></a>Каноническое свойство PidTagReportTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время создания отчета в системе обмена сообщениями.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 871dafd7bf8959cf814d65991fe08fdb2b283c08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fb8919287420038b5c9165bb14b7d33d1ad2fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808836"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578866"
 ---
 # <a name="imapicontainergetcontentstable"></a>IMAPIContainer::GetContentsTable
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на таблицу содержимого контейнера.
   

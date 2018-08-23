@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f64a765d-c653-4eef-a0fc-24a54968757c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 67aa5b3d85de3df659b5aa1a351ec0d1dcf90248
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f67dbb4d883f2f66099f2e2b9bc06b6c35b98236
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809027"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575835"
 ---
 # <a name="imapipropgetlasterror"></a>IMAPIProp::GetLastError
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о предыдущем ошибки. 
   

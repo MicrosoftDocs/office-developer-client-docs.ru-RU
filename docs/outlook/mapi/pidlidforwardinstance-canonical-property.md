@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 055bdcaf-5002-44a6-b2b6-87244b2bea93
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0c32a60c7655f4e468a03013cb3979bde228ea3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47dd6f10d1dbd25ea275ea96a2eddb6e9c6dfacb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810362"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571775"
 ---
 # <a name="pidlidforwardinstance-canonical-property"></a>Каноническое свойство PidLidForwardInstance
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что запрос на собрание представляет исключение в повторяющееся и переслано (даже если перенаправленные с организатором) а не приглашение принять участие в отправленных организатора.
   

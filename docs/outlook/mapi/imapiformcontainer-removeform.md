@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0d2c908f86ccd66ffd3a2eb2506d129ee2a14d48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a1d11db538d9b5368d80962e44b9eab38b490d2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808896"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575653"
 ---
 # <a name="imapiformcontainerremoveform"></a>IMAPIFormContainer::RemoveForm
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Удаление определенной формы из контейнера формы.
   

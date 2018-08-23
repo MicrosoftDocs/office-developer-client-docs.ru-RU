@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5bf2ff74f6cda01608efd4b372aa4b03468c820f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 074a806a710ce8c11adba815951c93c25d8cae7c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808958"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579258"
 ---
 # <a name="imapimessagesitecopymessage"></a>IMAPIMessageSite::CopyMessage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Копирует текущего сообщения в папку.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a3765b9d-a108-46d7-a97c-a825ae3980be
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e48b3af79656279e3c554cd5093385d894525e43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1fc2beaa85f8bbc82debe6b39ea02429aeeea16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811278"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578691"
 ---
 # <a name="pidtagipmjournalentryid-canonical-property"></a>Каноническое свойство PidTagIpmJournalEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит **идентификатор записи** журнала Outlook папки. 
   

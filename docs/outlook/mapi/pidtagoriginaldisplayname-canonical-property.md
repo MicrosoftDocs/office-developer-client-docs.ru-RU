@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 176245d9-724d-44f1-b7a3-eddf652533b2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4a43bc33f13d8325a55d09b5ef3031dc632cf587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d168082a16ad5e8df205d976349fd6406d9d18a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811436"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570774"
 ---
 # <a name="pidtagoriginaldisplayname-canonical-property"></a>Каноническое свойство PidTagOriginalDisplayName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя записи копируются из адресной книги Личная адресная книга или других для записи адресной книги.
   

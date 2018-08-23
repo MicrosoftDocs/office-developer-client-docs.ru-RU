@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 6135dfae915a1e70743f9224352390c4b56ea02e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5125fc8f3e36087a05802c38127a8402ae67d468
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576304"
 ---
 # <a name="saving-mapi-properties"></a>Сохранение свойств MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Многие объекты поддержки модели транзакций обработки посредством изменения свойств не становятся постоянной до момента фиксации в дальнейшем. В то время как изменения свойства обрабатываются с помощью методов [IMAPIProp::SetProps](imapiprop-setprops.md) и [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) , действие фиксации обрабатывается [IMAPIProp::SaveChanges](imapiprop-savechanges.md). Файл не является только после успешного вызова **SaveChanges** , что можно получить доступ к наиболее поздней версии для свойств объектов. 
   

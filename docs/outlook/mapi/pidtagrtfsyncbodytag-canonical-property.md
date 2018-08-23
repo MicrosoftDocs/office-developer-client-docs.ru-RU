@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2dab5018-4214-4162-93bc-e5565f3ac24c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bad754d21652d3f5278a6dad3ec06f4a0b533036
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c141ce5b4a8d44cc42a070d73e8e89f35e776fe9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811778"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576859"
 ---
 # <a name="pidtagrtfsyncbodytag-canonical-property"></a>Каноническое свойство PidTagRtfSyncBodyTag
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значительные символов, которые отображаются в начале текста сообщения.
   

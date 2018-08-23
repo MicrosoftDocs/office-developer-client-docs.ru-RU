@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 33c76cdd0e7850f82949349ac2e5bb0dd4e056ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec1c07a8d2c88680ebd94cf8ecd6901ed86ad100
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808549"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578789"
 ---
 # <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Группировка и ограничение таблиц в поставщиках хранилищ сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения часто позволяют пользователям управлять способ отображения содержимого папки. Как правило пользователь можно выбрать для сообщений, сгруппированных по значение одного или нескольких свойств сообщения или исключить сообщения, которые соответствуют определенным условиям. Это делается с помощью [IMAPITable: IUnknown](imapitableiunknown.md) интерфейса. Клиентские приложения можно ограничить строк, возвращенных из таблицы для любой пользователь вводит условия. Таким образом сообщение хранилища поставщика необходимо реализовать следующие методы **IMAPITable** . 
   

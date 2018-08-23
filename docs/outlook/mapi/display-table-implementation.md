@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eb17675a-35e0-4545-b394-789d343510aa
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 07ad94c423c3be425dc905dc578f55ad2c467a95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e31dd7b25b3abf333505c8bde57f61be7a10901
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808298"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580609"
 ---
 # <a name="display-table-implementation"></a>Реализация таблицы отображения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Таблица отображения используется для отображения свойств специальных диалоговое окно, которое состоит из одной или нескольких страниц с вкладками свойство, выделенным для отображения и возможно редактирование одного или нескольких свойств. Связанные с каждой отображения таблица — [IAttach: IMAPIProp](iattachimapiprop.md) реализация интерфейса. Реализация [IMAPIProp](imapipropiunknown.md) поддерживает свойство данные, представленные в окне свойств. 
   

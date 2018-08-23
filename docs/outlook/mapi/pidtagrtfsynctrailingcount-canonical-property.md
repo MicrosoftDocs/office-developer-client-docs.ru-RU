@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3174ebbcf70104c82305e2a20df1e183d30265d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7efa8dccf4c2c6da0ad60688d06d241d336e3943
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811766"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581008"
 ---
 # <a name="pidtagrtfsynctrailingcount-canonical-property"></a>Каноническое свойство PidTagRtfSyncTrailingCount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит число допускающие игнорирование символы, отображаемые после значительные символов сообщения.
   

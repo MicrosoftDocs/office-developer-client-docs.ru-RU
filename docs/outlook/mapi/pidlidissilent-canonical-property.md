@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e00d8887-0db4-422d-96db-84cefe65dfc1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 316a8c9b943af7a3bd13a882b223f7fbcf4e6749
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 90c72abb0b1ae85593084e844b2965bd84fa346e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810396"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579034"
 ---
 # <a name="pidlidissilent-canonical-property"></a>Каноническое свойство PidLidIsSilent
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что пользователь не включать любой текст в тексте приглашения на собрание.
   

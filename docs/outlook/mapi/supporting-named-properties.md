@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2e742ecd-2dcd-46a8-9d4e-2cec2c6f795e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 983cbaf4d3523bf1e5370e5ad3119ab8c1490f8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9ee41469914e52295af219428f26854662c9e2f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812425"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582248"
 ---
 # <a name="supporting-named-properties"></a>Поддержка именованных свойств
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Any object that implements the [IMAPIProp: IUnknown](imapipropiunknown.md) interface can support named properties. Поддержка именованных свойств является обязательным для: 
   

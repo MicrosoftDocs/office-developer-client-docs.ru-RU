@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 43b51a66-71fa-4e10-93e4-d533b48af4de
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c20cd7f82df2fb7f878db177fdc940022e1da351
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7bf69e560142ab282d6545389e02766389e4d018
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808759"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580700"
 ---
 # <a name="iaddrbookgetsearchpath"></a>IAddrBook::GetSearchPath
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает упорядоченный список идентификаторов запись контейнеров, которые будут включены в процесс разрешения имен, которые запускаются с помощью метода [IAddrBook::ResolveName](iaddrbook-resolvename.md) . 
   

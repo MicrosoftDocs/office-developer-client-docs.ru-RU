@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 23cfd1d0-8e9d-4508-93dd-a88c0ef77c51
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 84a2d5517d405ac6deb61f7c4679d6816e802404
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3aad4a5b3ba815d3e4f91e990bb63d75502f94b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810778"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580077"
 ---
 # <a name="pidtagabproviderid-canonical-property"></a>Каноническое свойство PidTagAbProviderId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит структуру [MAPIUID](mapiuid.md) поставщика адресных книг. 
   

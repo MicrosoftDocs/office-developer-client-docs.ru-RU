@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef82a75f-a09f-4880-ba6a-e739b16422a3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e98416ba7796c66d719adcc27ba8029b7908bb79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1bdd8a283fead891261bbb05c38d398132870a50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811889"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582261"
 ---
 # <a name="pidtagsearchfolderefpflags-canonical-property"></a>Каноническое свойство PidTagSearchFolderEfpFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаги расширенной папки, которые применяются к контейнеру папки поиска для папки поиска.
   

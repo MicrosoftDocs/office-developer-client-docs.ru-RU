@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d9f69098f9c53e75dea6f485248d61d277e181c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3fbf8b423cfd4206a0143b5639c85dbcacce2fae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808733"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570984"
 ---
 # <a name="iablogonunadvise"></a>IABLogon::Unadvise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Запрос уведомления, которые ранее были настроены с помощью вызова метода [IABLogon::Advise](iablogon-advise.md) . 
   

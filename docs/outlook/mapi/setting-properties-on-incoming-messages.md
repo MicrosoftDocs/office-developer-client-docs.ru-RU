@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cf4a0501-f42b-4652-a239-003022686475
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f6233afffd532c420ae170ae45b1bf93d6571865
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44b5b489d3efce3ecea69ccd8b7b7a638b173c13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812291"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578439"
 ---
 # <a name="setting-properties-on-incoming-messages"></a>Установка свойств входящих сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения в подсистеме MAPI предполагается, что число свойств в любой полученного сообщения. При поставщика транспорта возвращает сообщение в MAPI, его следует задать эти свойства, поскольку он — это единственный процесс с сведения, необходимые для этого, или по крайней мере наилучшего источника данных.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
 description: 'Последнее изменение: 08 ноября 2011 г.'
-ms.openlocfilehash: 5e63d276d25a26f937e9b4f44575fea1030f52d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12668cb87f21b56cd398a7b5375f6a4b40c65829
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812340"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581533"
 ---
 # <a name="sorting-and-categorization"></a>Сортировка и классификация
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сортировка таблицы помещает строк в порядке, который имеет смысл для его просмотра. Например одно средство просмотра может выбрать для отображения в таблице содержимое папки, упорядоченные по теме сообщения, чтобы все потоки беседы вместе, в то время как другой средство просмотра может оказаться сообщения, отсортированные по имени отправителя. Вновь созданный экземпляр таблицы не обязательно отсортированы в любом порядке. 
   

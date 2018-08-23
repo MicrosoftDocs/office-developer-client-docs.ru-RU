@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 866d3be5e1c7a4375db84d1f15802e01f8d10f23
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5abd3a80a9736a4d71525805e4bc38289975c34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810073"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577809"
 ---
 # <a name="opentnefstream"></a>OpenTnefStream
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вызывается с помощью поставщика транспорта для запуска сеанса MAPI транспорта Neutral Encapsulation формата TNEF. 
   

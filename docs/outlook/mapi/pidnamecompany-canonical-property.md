@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 4546dd8d-b901-4381-a715-887a31cea2b9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 714d7061cdb7fbda2d06488897a962ae5e454d3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d4551d3c2e51380ed747e2ff56a357bbcbe6f356
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810688"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577137"
 ---
 # <a name="pidnamecompany-canonical-property"></a>Каноническое свойство PidNameCompany
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает компанию, для которого был создан файл.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |Компания  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

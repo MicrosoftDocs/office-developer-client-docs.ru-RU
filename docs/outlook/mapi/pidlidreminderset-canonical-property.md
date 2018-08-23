@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fd40be7733934002b81482a8bf5cfe8c9ce12313
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c056b0e587de06f6c32ceb3cebbb96f2fb737208
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579083"
 ---
 # <a name="pidlidreminderset-canonical-property"></a>Каноническое свойство PidLidReminderSet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, установлен ли напоминания на объекте.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6ddaced5-49bb-41fe-95da-4e3300883bf7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ad4b9d3f7c2ca1766ecca4fe9467fc49098f2212
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e1846b4be93bf6300ea89a9ae3133fbba82b344e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812072"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573126"
 ---
 # <a name="propid"></a>PROP_ID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает идентификатор свойства tag указанного свойства.
   

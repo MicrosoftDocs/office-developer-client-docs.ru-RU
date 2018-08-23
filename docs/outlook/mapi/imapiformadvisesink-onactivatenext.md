@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3ce4d57ab4837f40ffbc898fde68e44cc802676f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e8fb69e7d25420186d7269943c5d957311e813d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581758"
 ---
 # <a name="imapiformadvisesinkonactivatenext"></a>IMAPIFormAdviseSink::OnActivateNext
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, является ли форма может обрабатывать класса сообщений для следующего сообщения для отображения.
   

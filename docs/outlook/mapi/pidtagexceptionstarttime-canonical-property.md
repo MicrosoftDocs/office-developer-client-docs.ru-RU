@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fbbd261558cf75458e69371e7fb53857e0692e74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8de1a90c0dde029cc6880fe46b0c4d4af9b50ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811117"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579062"
 ---
 # <a name="pidtagexceptionstarttime-canonical-property"></a>Каноническое свойство PidTagExceptionStartTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает дату и время начала исключения в локальном часовом поясе компьютера при создании исключения.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2d8ca0e1-6849-4e27-a26f-e77d0df608fd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4de198e09a34b83e6ad84b5933487821f79e2026
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f5f2d95a2968420bc26a78f2a05e718070f95b37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810431"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580896"
 ---
 # <a name="pidlidnoteheight-canonical-property"></a>Каноническое свойство PidLidNoteHeight
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает высоту окна, отображается сообщение в пикселях. 
   

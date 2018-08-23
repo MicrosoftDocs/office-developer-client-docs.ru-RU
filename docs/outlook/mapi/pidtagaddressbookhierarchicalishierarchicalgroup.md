@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f62ced8dd2ddec588a1ae285c13268059e49da46
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15c635992134d61329f2f49c0fe3dd84d7225837
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810811"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577130"
 ---
 # <a name="pidtagaddressbookhierarchicalishierarchicalgroup"></a>Каноническое свойство PidTagAddressBookHierarchicalIsHierarchicalGroup
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если список рассылки также является группу отдела. Это свойство доступно только для списков рассылки.
   

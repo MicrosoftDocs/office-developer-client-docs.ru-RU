@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3646f3e3906e62fe148fe1c2b6ddca39013391e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 629746cedf8c6f4a8c960912a9ab1bcdc7a09e9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810846"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574148"
 ---
 # <a name="pidtagattachdatabinary-canonical-property"></a>Каноническое свойство PidTagAttachDataBinary
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит двоичные вложения данные обычно через интерфейс объекта связывания и внедрения (OLE) **IStream** . 
   

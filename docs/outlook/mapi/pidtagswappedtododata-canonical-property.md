@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dedb60c5356e1dbb6d35f27372a09c152da0fed0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8086bc3ea35fdbb4e0f7758b7931e305259a3a9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811998"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578670"
 ---
 # <a name="pidtagswappedtododata-canonical-property"></a>Каноническое свойство PidTagSwappedToDoData
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поддерживает второй набор значений свойств, которые не влияют на отмеченного состояние объекта сообщения.
   

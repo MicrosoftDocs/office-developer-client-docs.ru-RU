@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 249966ee-0d00-4d2d-89b0-fb7525a89735
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d159b569fba4ec413727b22b32175ccdc9d7b0a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db72ce6f030b289dd32c7ec8e78d8eac3a57faaf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810453"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570900"
 ---
 # <a name="pidlidpostrsschannel-canonical-property"></a>Каноническое свойство PidLidPostRssChannel
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит содержимое \<заголовок\> из XML Atom \<веб-канала\> или RSS-канал \<канала\>.
   

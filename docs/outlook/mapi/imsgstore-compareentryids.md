@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a1c5cdc67bc64f20dd8ba0a5e8682c5e2f97294f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 640923511241b08e5a86e9733aab5cc2e9237c23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809374"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576577"
 ---
 # <a name="imsgstorecompareentryids"></a>IMsgStore::CompareEntryIDs
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сравнение двух идентификаторы записей для определения, является ли они ссылаются на той же операции в банке сообщений. MAPI передает этот вызов к поставщику услуг только в том случае, если уникальных идентификаторов (UID) в обоих идентификаторы записей для сравнения обрабатываются этого поставщика.
   

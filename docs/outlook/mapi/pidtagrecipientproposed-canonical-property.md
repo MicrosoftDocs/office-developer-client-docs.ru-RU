@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8cb0e46c-0937-482f-be78-1f2e5261b210
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3b05f33328e9e0b90251a99defa9816f86971337
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e00f121bf52f2c6fcbe797fb8f6126584444411
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811660"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580693"
 ---
 # <a name="pidtagrecipientproposed-canonical-property"></a>Каноническое свойство PidTagRecipientProposed
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, были ли получены участник собрания.
   

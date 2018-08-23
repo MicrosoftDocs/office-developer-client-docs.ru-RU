@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8214390af883432d72f608452b8b944417884fd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43569b22cace7b2700d37ace49fd734b45fec73c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808751"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580882"
 ---
 # <a name="iaddrbookadvise"></a>IAddrBook::Advise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Регистрация клиента или поставщика для получения уведомлений об изменениях в одну или несколько записей в адресной книге.
   

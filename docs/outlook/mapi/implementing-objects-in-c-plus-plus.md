@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ea9f37183f33459b09f2730b3efbb7afed3d4766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4c233f9855674080496b2e54ba9548a53738ead8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809314"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574729"
 ---
 # <a name="implementing-objects-in-c"></a>Внедрение объектов в C++
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 C++ клиентов и поставщиков услуг определения объектов MAPI, создав классы, наследующие от интерфейсы, которые их реализации. Каждый из методов интерфейса является общей, как конструктора и деструктора для класса. Если класс содержит дополнительные методы, они могут быть public или private, в зависимости от реализации. Доступны все элементы данных. 
   

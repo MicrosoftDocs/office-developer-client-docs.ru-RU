@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4fdd50a1108a6546445516664b01fb0f994fbfdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4eaf424bd22f5cb7f40778d81a18cca0ef1dcc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808951"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581519"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Включение средств просмотра формы для получения информации о и активации серверов формы. 
   

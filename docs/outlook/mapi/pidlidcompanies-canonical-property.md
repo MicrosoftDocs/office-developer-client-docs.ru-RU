@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 987b680a-4b9d-47f1-8ae4-9b7ae556ccf0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: de953cea5c394fa489a013a87575906f1ce09adc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f35a2d2cb6fca125abbb4269cba0a9812d61169c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810243"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569885"
 ---
 # <a name="pidlidcompanies-canonical-property"></a>Каноническое свойство PidLidCompanies
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имена компаний, связанных с элементом.
   

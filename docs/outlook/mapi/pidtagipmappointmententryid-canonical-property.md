@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a6e8c8fb-b76a-4a73-b112-6399e4d94233
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 231b905c4288379384530c7b35200eefb63479d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 64945d678051d2e3ae486395fb8ec6630de6a59e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811282"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571159"
 ---
 # <a name="pidtagipmappointmententryid-canonical-property"></a>Каноническое свойство PidTagIpmAppointmentEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит **идентификатор записи** папки календаря Outlook. 
   

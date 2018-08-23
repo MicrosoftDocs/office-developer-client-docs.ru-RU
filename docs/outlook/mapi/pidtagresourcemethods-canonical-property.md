@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f346baf303db9da765eec183d168b370547ec2de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e1cff8148815c3e03b92e4d57d1c6a303943c9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811719"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578166"
 ---
 # <a name="pidtagresourcemethods-canonical-property"></a>Каноническое свойство PidTagResourceMethods
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов, которые указывают методы в интерфейсе **IMAPIStatus** , поддерживаемых приложением объект состояния. 
   

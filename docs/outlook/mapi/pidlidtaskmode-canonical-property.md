@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 185db683-301a-4d91-a583-6959853fa1ad
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f8eef7863cec565403d41dae26687b75f078e0d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bc8e4dfe934d516c07d5532ba6a95e51a3cbf962
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810610"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578082"
 ---
 # <a name="pidlidtaskmode-canonical-property"></a>Каноническое свойство PidLidTaskMode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает состояние назначения задачи.
   

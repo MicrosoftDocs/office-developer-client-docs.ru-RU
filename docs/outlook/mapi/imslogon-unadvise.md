@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 34c15ca4f7d81eeeee71fb0cb7e31085c75e5492
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ee17799fc42faf383461af7eed9d700d17b868e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809455"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582387"
 ---
 # <a name="imslogonunadvise"></a>IMSLogon::Unadvise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Удаляет регистрацию объекта для уведомление об изменениях хранилища сообщений, ранее созданные с помощью вызова метода [IMSLogon::Advise](imslogon-advise.md) . 
   

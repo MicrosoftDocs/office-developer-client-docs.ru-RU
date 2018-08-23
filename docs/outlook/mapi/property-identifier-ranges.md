@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c01e95bb-be25-490d-880b-60674f890258
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aee199cbbd05606d20378023f103fa122f1457f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 479e5abda9137ddaedcabb8d914bc038ddf200f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812074"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581106"
 ---
 # <a name="property-identifier-ranges"></a>Диапазоны идентификаторов свойств
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В следующей таблице приведены различные диапазонов для идентификаторов свойств, описывающее владельца для свойств в каждом диапазоне.
   

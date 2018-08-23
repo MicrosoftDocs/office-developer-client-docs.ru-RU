@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 556d7551f64e075d1f15a945ddb1409c3b5a775f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 738957d7fc9567a2e8202802edebd16cf57fbffd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808343"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581645"
 ---
 # <a name="display-tables"></a>Таблицы отображения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отображение таблице описывается способ отображения определенного типа диалогового окна — один один или несколько страниц с вкладками свойство, выделенным для отображения и возможно редактирование одного или нескольких свойств. Связанные с каждой отображения таблица — [IMAPIProp: IUnknown](imapipropiunknown.md) реализация интерфейса. Реализация **IMAPIProp** поддерживает свойство данные, представленные в диалоговом окне. 
   

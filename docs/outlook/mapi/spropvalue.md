@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f378bdd473410b846328cbe1f911eba9401f88cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60528162917a8a383060adbcadefb610aa42ce32
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812380"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580973"
 ---
 # <a name="spropvalue"></a>SPropValue
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описывает свойство MAPI.
   

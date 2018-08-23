@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c6192e6f92078f2f9bab0d55e9952d21ebb82af6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28dd45f29610b7ad56b4d3302715311569d497c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809513"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577417"
 ---
 # <a name="iprofadmin--iunknown"></a>IProfAdmin : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поддерживает управления профилями. 
   

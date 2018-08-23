@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: f0ea9833-81b8-4d9d-b91d-1a141c3f3725
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 269220e1155b49fb535d5f922486835fa9f9ff2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78ea7d6c830be6af3ee8cf63167fe74b3acc34e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578376"
 ---
 # <a name="pidnamerevisionnumber-canonical-property"></a>Каноническое свойство PidNameRevisionNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает номер редакции файл, подключенный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |RevNumber  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 259297d2-acd7-4bc5-9a77-0df92cbfa33e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 15fb6113e9c3428cff3865307736592fd6e2b2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9ee45ea7a3592a2b0fc0675bbdb6e640f9bd046
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812482"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580392"
 ---
 # <a name="threading-in-mapi"></a>Потоки в MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поток — основные сущности, к которой операционная система выделяет время ЦП. Поток имеет свои регистрах, стека, приоритет и хранилища, но общий адрес места и обработки ресурсов таких как маркеры доступа. Объем памяти, также передать потоков с одним потоком прочтением записанные другим потоком.
   

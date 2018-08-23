@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 30ac637a-874f-4660-b5d0-d28d69486f64
 description: '���� ���������� ���������: 25 ���� 2012 �.'
-ms.openlocfilehash: 177bd84addb001970e52801fd2cddba3a8d81706
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd9cdd9119f94e1f7684be34e1b4ef6fb40ab2bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809791"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576507"
 ---
 # <a name="mapi-programming-overview"></a>����� �������� � ���������������� MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Этот справочник по API системы обмена сообщениями Microsoft Outlook (MAPI) для C, и разработчики C++ с различными должно и опыт работы с мгновенными сообщениями. Для разработчиков, которым необходимо использовать MAPI для расширения приложений, которые имеют функции обмена сообщениями не определенных необходимые знания является обязательным. Требуется опыт в системе обмена сообщениями и модели компонентных объектов (COM) для использования протокола MAPI для создания приложений полномасштабное рабочей группы или драйверы для специализированных служб системы обмена сообщениями.
   

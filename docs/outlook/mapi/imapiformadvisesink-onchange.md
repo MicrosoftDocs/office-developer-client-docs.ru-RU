@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 01bdf6cdde864d1ea4ed19dfeb01a96236dc9c63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e32157f41632b782fbacf87e0411c18d167b4279
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808891"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576682"
 ---
 # <a name="imapiformadvisesinkonchange"></a>IMAPIFormAdviseSink::OnChange
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, было изменено в состояние просмотра формы. 
   

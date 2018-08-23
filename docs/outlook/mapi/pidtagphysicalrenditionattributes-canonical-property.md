@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6cef620b-e3b7-47b9-9727-8e609465c268
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7b930e58fc47f6927ffe7c7b257070d25de3ec9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b6c95093715f484bafd35c5836bb5790ce5b994
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811568"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579230"
 ---
 # <a name="pidtagphysicalrenditionattributes-canonical-property"></a>Каноническое свойство PidTagPhysicalRenditionAttributes
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор объекта ASN.1, который используется для преобразования вложений сообщений.
   

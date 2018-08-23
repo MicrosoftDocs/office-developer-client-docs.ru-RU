@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 51cd838164e3de28ab33d6ab8a08a021360f3183
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d54487928abcc889441ec9bf89ab6a10e5290062
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809114"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570837"
 ---
 # <a name="imapisupportgetoneofftable"></a>IMAPISupport::GetOneOffTable
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на таблице одноразовых MAPI (список шаблонов, что все в адресной книге поставщиков поддержка создания новых получателей).
   

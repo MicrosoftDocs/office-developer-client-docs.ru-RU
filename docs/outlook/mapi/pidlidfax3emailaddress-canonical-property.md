@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b53c307-1a01-4c94-b6db-9fcb840ce390
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0148885a528f10309e2fe1132297ca5ea1f0c3c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c027c165fb4ad353ceadf300ad354aef4af14d47
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810323"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577025"
 ---
 # <a name="pidlidfax3emailaddress-canonical-property"></a>Каноническое свойство PidLidFax3EmailAddress
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что адрес электронной почты контакта в другой адрес факса.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810323"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080D3  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

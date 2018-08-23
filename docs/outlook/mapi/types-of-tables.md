@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 36456c6226b2eb74b8f15995ad0925381302523a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f55902190aa22694d89abd4d118a04d62a3c0d5b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812522"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581918"
 ---
 # <a name="types-of-tables"></a>Типы таблиц
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Существует несколько различных типов таблиц, каждого типа различаются по сведения, которые он содержит. Таблицы Включение клиентских приложений и поставщиков услуг для быстрой доступа и работы важных свойств множество типов объектов. 
   

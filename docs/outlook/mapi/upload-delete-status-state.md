@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ff957e649d5de64c65ac169b3bc413ac7b6c9491
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a45cfafec5126c72f365858e41963bc95fa707a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812557"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574547"
 ---
 # <a name="upload-delete-status-state"></a>Состояние отправки статуса удаления
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описывается, что происходит во время загрузки удалить состояние состояние конечного автомата репликации. 
   
@@ -51,5 +51,5 @@ ms.locfileid: "19812557"
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[SYNCSTATE](syncstate.md)
+[СОСТОЯНИЕ](syncstate.md)
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: Содержит строки, в которых перечислены координаты грани для линий и дуг, образующих фигуру.
-ms.openlocfilehash: 7a829651c4cab62a5c583d068211b9ffa20e725e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1581c87ae34eff4f01054a2340c18f1e55456cfb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814660"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581694"
 ---
 # <a name="row-element-geometry-section-visio-xml"></a>Элемент Row (раздел геометрии) ('Visio XML»)
 
@@ -36,7 +36,7 @@ ms.locfileid: "19814660"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -70,7 +70,7 @@ ms.locfileid: "19814660"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |DEL  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Указывает, был ли удален строку, в противном случае будут унаследованы от образца фигуры.  <br/> |Значения типа xsd:boolean.  <br/> |
 |IX  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Указывает идентификатор на основе одной строки. Оно должно быть unqiue и больше, чем другие идентификаторы в одном разделе. Атрибут IX используется только для разделов символ, подключения, поле, FillGradient, геометрии, уровень, LineGradient, абзаца, редактор, нуля и вкладок. Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
@@ -87,7 +87,7 @@ ms.locfileid: "19814660"
 |ArcTo  <br/> |Содержит координаты x и y и галстук дугу.  <br/> |[Строка ArcTo (раздел "Геометрия")](arcto-row-geometry-section.md) <br/> |
 |Эллипс  <br/> |Содержит x и y координаты центра эллипса и двумя точками на эллипс.  <br/> |[Строка Ellipse (раздел "Геометрия")](ellipse-row-geometry-section.md) <br/> |
 |EllipticalArcTo  <br/> |Содержит координаты x и y-руководство пользователя конечной точки координат x и y-элемента управления указывает на дуги угол главных осей эллипса и отношение между эллипса основной и дополнительной осей.  <br/> |[Строка EllipticalArcTo (раздел "Геометрия")](ellipticalarcto-row-geometry-section.md) <br/> |
-|InfiniteLine  <br/> |Содержит x и y координаты двух точек на строку не ограничен.  <br/> |[Строка InfiniteLine (раздел "Геометрия")](http://msdn.microsoft.com/library/Contains the x- and y-coordinates of two points on an infinite line.%28Office.15%29.aspx) <br/> |
+|InfiniteLine  <br/> |Содержит x и y координаты двух точек на строку не ограничен.  <br/> |[Строка InfiniteLine (раздел "Геометрия")](infiniteline-row-geometry-section.md) |
 |LineTo  <br/> |Содержит x- и y окончания вершины прямой сегмент.  <br/> |[Строка LineTo (раздел "Геометрия")](lineto-row-geometry-section.md) <br/> |
 |MoveTo  <br/> |Содержит x и y координаты первой вершины фигуры или представляет x и y координаты первой вершины после приостановки пути.  <br/> |[Строка MoveTo (раздел "Геометрия")](moveto-row-geometry-section.md) <br/> |
 |NURBSTo  <br/> |Содержит положение координаты x и y-, второй — к последней число узлов, Позиция последнего вес, положение первого число узлов, положение первого вес и формулу для неоднородной rational-сплайн (NURBS).  <br/> |[Строка NURBSTo (раздел "Геометрия")](nurbsto-row-geometry-section.md) <br/> |

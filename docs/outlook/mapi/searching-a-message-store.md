@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9e8d4639-7507-4d98-b56f-a65be369dc40
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 90ed7da43d7f9e5e8b5f3024f1eee99a2d7a2b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 74b63719f6d72e3c92cbcef6fdb26ee106d4b9aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812225"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571838"
 ---
 # <a name="searching-a-message-store"></a>Поиск хранилища сообщений
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения могут выполнять поиск по одной или нескольких папок, поиск сообщений, которые соответствуют условиям поиска. Самый простой способ поиска включает применение ограничения для определения условий и помещает результаты в папку результатов поиска, созданные явным образом для поиска или для предыдущего поиска. Не все хранилища сообщений поддерживает этот метод. 
 

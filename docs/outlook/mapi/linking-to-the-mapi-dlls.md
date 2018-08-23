@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 19fd4678-21d3-47a6-a439-1d4959cac407
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0bce1d682057b81135d1684c40bc79e6710d4e2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 428e92dd783368374fa07c8df9629d60e83dd217
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809642"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582030"
 ---
 # <a name="linking-to-the-mapi-dlls"></a>Связывание с библиотеками DLL MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентов MAPI можно связать библиотек MAPI неявно или явно с помощью функции Windows **LoadLibrary** и **GetProcAddress**. Сведения о явно связанные библиотеки MAPI DLL см [ссылка на функции MAPI](how-to-link-to-mapi-functions.md).
   

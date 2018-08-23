@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fe07ed7c7f9c76f82b54732c019b9b5f8beb5db2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f54ef96443e5c9fc5fb587f5a9c25388c1ff9cdb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812176"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577424"
 ---
 # <a name="sbinary"></a>SBinary
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описывает свойства типа PT_BINARY.
   

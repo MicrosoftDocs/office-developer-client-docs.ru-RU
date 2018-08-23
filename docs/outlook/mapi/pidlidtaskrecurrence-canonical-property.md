@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e675bfdd-7598-45f3-a5aa-23b4734670dc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 29b35250a3cbbee876338ca2366726b2dd14f957
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc164b4117099d9cef0602471af29ad4dbca9d06
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810613"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571138"
 ---
 # <a name="pidlidtaskrecurrence-canonical-property"></a>Каноническое свойство PidLidTaskRecurrence
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит структуру RecurrencePattern, предоставляющий информацию о повторяющихся задач.
   

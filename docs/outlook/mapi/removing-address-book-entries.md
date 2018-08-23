@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 107ebcd7-b612-4139-b676-c3851f15bc74
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1fb7224e110bbee6844cf2820782aac8be213ba3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c5d7a2114f4a85b9f63cd778e899a83d335ff45
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812110"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581281"
 ---
 # <a name="removing-address-book-entries"></a>Удаление записей адресной книги
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Метод [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) контейнера вызывается для удаления одного или нескольких получателей. **Внешнее** имеет два параметра: массив идентификаторов записи, представляющее получателей для удаления и значение зарезервировано флагов. Удаление получателя влияет на таблицу содержимого контейнера; Помимо удаления получателя, контейнера необходимо удалить строку в таблице содержимое, представляющий получателя. При удалении строку из таблицы контейнера выполнить уведомление о таблице для каждого зарегистрированных клиентов. 
   

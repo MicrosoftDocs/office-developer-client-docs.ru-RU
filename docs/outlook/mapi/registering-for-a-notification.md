@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 45625387-dbd2-4ca8-926b-ef87998d01d7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2d01527bb3c5176087aabeb69dbc8d99738df772
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a35add66fb685b3c17464269456edf6b456711e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812126"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570214"
 ---
 # <a name="registering-for-a-notification"></a>Регистрация уведомления
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиент может регистрировать для уведомлений хранилища адресной книги или сообщение как часть процесса инициализации.
   

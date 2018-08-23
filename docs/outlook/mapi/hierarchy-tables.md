@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 23314418836893b40cbddf3b90bd95ec061a00c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d135e0c224866cd2a675df2ef9ec1b206f3169ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808598"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580756"
 ---
 # <a name="hierarchy-tables"></a>Таблицы иерархии
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Иерархия таблица содержит сведения о папок в хранилище сообщений или контейнеров в контейнер адресной книги. Каждая строка таблицы иерархии содержит набор столбцов с сведения об одной папки или контейнер адресной книги. В основном таблиц иерархии используемого клиентами и реализации поставщиками store сообщение для отображения дерева папки и вложенные папки и реализуется поставщиками адресной книги для отображения дерево контейнеров в адресной книге. Контейнеры, которые не могут содержать субконтейнеров, как указано в отсутствие флага AB_SUBCONTAINERS в своем свойстве **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) не внедрять таблицы иерархии.
   

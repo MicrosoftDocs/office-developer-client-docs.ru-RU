@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e3c8d6e-74be-46a7-94ed-74a969caf165
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7ce81e419a4092bd99e5082810ea9d08cb2cc163
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c2db9284c0e014101bc3a3d2114a187d7cb3b4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809365"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576631"
 ---
 # <a name="imsgserviceadmingetlasterror"></a>IMsgServiceAdmin::GetLastError
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о последней ошибке, возникшей для объекта message службы администрирования. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6a0dff65-1055-487c-9d15-4cfe336f2ad7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9734adff9c9c7526fc8ff46d17ca913752e104b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc90f15835de35354a271d87a736366a4caf8dd9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812218"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578782"
 ---
 # <a name="sdatetimearray"></a>SDateTimeArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений времени, которые используются для описания свойства типа PT_MV_SYSTIME.
   

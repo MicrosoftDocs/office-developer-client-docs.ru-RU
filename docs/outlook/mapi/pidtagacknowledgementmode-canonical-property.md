@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: df426e3525ee70568041e90998833d6c93edcca7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28b42e6abee5d918dbcca69c13642f3ebcc859e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810800"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581939"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Каноническое свойство PidTagAcknowledgementMode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор режим сообщение подтверждения.
   

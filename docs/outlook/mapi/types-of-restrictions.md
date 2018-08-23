@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7e3459c639cac449cdc03361949c9618827515b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85cf254c9ea23ecbd6f311ba012d2e048a0b2a6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572447"
 ---
 # <a name="types-of-restrictions"></a>Типы ограничений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Существует несколько типов ограничений, некоторые, настроенных на указанных столбцов. Все реализации в таблице должны поддерживать ограничения на столбцы в текущий набор столбцов. Тем не менее чтобы добавить значение, специалистов по внедрению таблицы также может поддерживать ограничения на основе свойств объектов, которые в настоящее время не в табличном представлении.
   

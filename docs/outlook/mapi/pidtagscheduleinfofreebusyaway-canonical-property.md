@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b5d013a-15ac-469a-98c8-3ed1e80f6faf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3535e8969ceff975077285aed89f979c24821bdf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 717f934c0dadc46935b72c409469633e0779fb3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811843"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576339"
 ---
 # <a name="pidtagscheduleinfofreebusyaway-canonical-property"></a>Каноническое свойство PidTagScheduleInfoFreeBusyAway
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит время, для которых имеет значение состояния занятости об отсутствии на работе.
   

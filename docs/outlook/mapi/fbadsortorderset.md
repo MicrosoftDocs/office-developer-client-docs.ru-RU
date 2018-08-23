@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0e200ea20c55cfd5729ce4c1f590de2d61ca73bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b3f88495cafbd6ea764ca8901ac67c23749aebe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578579"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Проверяет, порядок сортировки, задайте убедиться в его выделение памяти. 
   

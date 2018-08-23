@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 23c260dc-1eb5-4a06-ad1d-c5e34d04e88b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c8843d31c358ff38236f51618eec26d01b0e6f92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f168b8565bc4f365c87900ea990cb060c573010e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571740"
 ---
 # <a name="pidlidfax3richtextformat-canonical-property"></a>Каноническое свойство PidLidFax3RichTextFormat
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что формат RTF контакта в другой адрес факса.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810345"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080D6  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

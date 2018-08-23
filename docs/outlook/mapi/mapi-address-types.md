@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 20eb429b2574f67e8b28ae96eeb96f42840123d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 80e933f5723746dbaeb39271cc813eb0ea56a705
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809689"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571187"
 ---
 # <a name="mapi-address-types"></a>Типы адресов MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Каждый пользователь с сообщениями связан с тип адреса символ строка, описывающая формат адрес пользователя, которая хранится в свойстве **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Сопоставление типов адресов форматов адресов. То есть просмотрев тип адреса получателя, клиентские приложения можно определить форматирование адреса для получателя. 
   

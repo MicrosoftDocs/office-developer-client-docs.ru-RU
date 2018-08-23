@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a0e859ac0f8bcc3bd83e336c85da21f1251efcb5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00c7560427ece58026030ce6895d60aec7cc5a2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808811"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570943"
 ---
 # <a name="iid"></a>IID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описывает структуру [идентификатор GUID](guid.md) , используемый для описания идентификатор для интерфейса MAPI. 
   
@@ -52,7 +52,7 @@ typedef struct _GUID
 
 
 
-[GUID](guid.md)
+[ИДЕНТИФИКАТОР GUID](guid.md)
 
 
 [Структуры MAPI](mapi-structures.md)

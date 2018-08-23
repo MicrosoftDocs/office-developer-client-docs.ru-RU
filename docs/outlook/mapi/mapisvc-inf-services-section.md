@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 99f8e623-3138-4def-9778-5580326111a5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 19031f6c02f3e8e925adfc8d2affa43fb6532fee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 520478061e192f9fec97c6b13edde7833a13a3d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809908"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571397"
 ---
 # <a name="mapisvcinf-services-section"></a>MapiSvc.inf: раздел [Службы]
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В разделе **[Services]** перечислены службы сообщений, установленные на компьютере. Записи в этом разделе используйте следующий формат: 
   

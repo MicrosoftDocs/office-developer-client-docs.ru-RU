@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 97ff2733-a2b1-4da0-b628-00850fc7925b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7064aee2ccd35b6b372bc6f911c7508113c26162
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38011c02791688ce5b1c291a1355ccaececd43fd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574736"
 ---
 # <a name="mapi-forms-notifications"></a>MAPI Forms уведомлений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Для регистрации и обработки уведомлений из объектов формы — это же процессе для других объектов MAPI. Приемников для реализации уведомлений формы либо уведомлений **IMAPIViewAdviseSink** или **IMAPIFormAdviseSink** интерфейс, а не **IMAPIAdviseSink**. [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) и [IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md) иметь несколько методов, другая — для каждого из возможных событий, что соответствующий уведомить источник может создавать. Например, **IMAPIFormAdviseSink** имеет два метода: [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) для обработки изменений в состояние просмотра формы и [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md) для отображения нового сообщения с правильной формы. 
   

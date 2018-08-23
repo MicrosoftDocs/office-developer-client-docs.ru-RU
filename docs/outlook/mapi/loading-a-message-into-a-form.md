@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4bdbe021-d694-4967-a105-4b24f1eebc44
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d677958b1a429201c05b5195c58bd7462d0f3d37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e65311187ba96abde31a4779ebba371b3d02084
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809654"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576500"
 ---
 # <a name="loading-a-message-into-a-form"></a>Загрузка сообщения в форму
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Чтобы загрузить существующее сообщение в форму с помощью сервера форм, используйте одну из следующих стратегий.
   

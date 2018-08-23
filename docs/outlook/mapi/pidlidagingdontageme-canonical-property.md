@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb5936a2-6f78-428e-8900-dc7f2f1d67b0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bc142af5baae3f17db36dc25e1b64e06da47b9ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 59f826efd331d214d199c4bead8badc4cfb2f62d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810096"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577410"
 ---
 # <a name="pidlidagingdontageme-canonical-property"></a>Каноническое свойство PidLidAgingDontAgeMe
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает значение TRUE, если элемент не архивируются автоматически.
   

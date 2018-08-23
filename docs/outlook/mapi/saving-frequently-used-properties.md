@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a8d4d575-7aa0-4542-91e2-322a6e400551
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a5fa4510f0bcad69bc17b8ac19433f66ec763fba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ef0da0c617bffc3820c7cd43f66ea07be2ad4a9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812170"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580462"
 ---
 # <a name="saving-frequently-used-properties"></a>Сохранение часто используемых свойств
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Повысить производительность, хранение данных, который принимает время и ресурсы для получения и часто используемых. С помощью дополнительной памяти в некоторых случаях может быть лучшим вариантом, повторяющихся запросов. Используйте осторожность и осторожность при создании кэш для хранения данных. Имейте в виду, что плохо спроектированные кэша может негативно сказаться на производительности.
   

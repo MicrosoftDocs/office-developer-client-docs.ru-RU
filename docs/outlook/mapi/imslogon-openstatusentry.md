@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 850e256b-6b50-428c-aede-287edaf7b005
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 55cf41d251db4c84dad9f12d8f83d0b0dda63ff3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a48d8248878c64de827bb09030073e6becba3024
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809420"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571201"
 ---
 # <a name="imslogonopenstatusentry"></a>IMSLogon::OpenStatusEntry
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Открывает объект состояния.
   

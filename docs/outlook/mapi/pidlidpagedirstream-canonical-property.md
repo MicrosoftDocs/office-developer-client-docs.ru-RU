@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e94f0daf-fccb-41b6-b38b-5ef4167a6e9d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 809209863af912113ac5f0795cc7c3b0cf51e792
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc2bacb85da810333fb9c1741fd1a414396f2f74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578999"
 ---
 # <a name="pidlidpagedirstream-canonical-property"></a>Каноническое свойство PidLidPageDirStream
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет сведения о страницах настраиваемые формы, связанный с сообщением.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 92070b45-33cf-4b19-a899-7956bda79752
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 416ff5b823ad352a71e7591f2c969320806d25a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 52adb2b4e09b520eda956891974e6d8e434422ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808245"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576556"
 ---
 # <a name="creating-outlook-items-by-using-mapi"></a>Создание элементов Outlook с помощью MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В темах этого раздела приведены инструкции для создания элементов Outlook с помощью интерфейса MAPI.
   

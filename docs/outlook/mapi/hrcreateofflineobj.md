@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 465121d37489b6810ca141d798b6c96d3f14980e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f86266f192ffb1c86ca48f0fd5f99559737a9e76
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808663"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576486"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  Создает объект автономной MAPI, используемый поставщиком и хранилища для уведомления MAPI после выхода автономный режим и Интернет-версия 
   

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Определяет элементы ячеек, которые могут содержаться в DocumentSheet, таблицы стилей, PageSheet или таблицы свойств фигуры.
-ms.openlocfilehash: fb983b31dc69741b12c27f47833213f7b5c3ba2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68ea20f3b2a9bebae3d8f6d12e0d818e30685710
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575632"
 ---
 # <a name="cell-element-visio-xml"></a>Элемент ячейки ('Visio XML»)
 
@@ -54,7 +54,7 @@ ms.locfileid: "19813418"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |E  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает, что формулы оценивается как ошибка. Значение **E** является текущим значением (строка сообщения об ошибке); значение атрибута **V** — это последний допустимое значение.  <br/> |Строка сообщения об ошибке.  <br/> |
 |F  <br/> |XSD:String  <br/> |необязательный  <br/> | Представляет элемент формулы. Этот атрибут может содержать один из следующих строк:  <br/>  (Некоторые формулы) Если формула существует локально  <br/>  `No Formula`Если формула локально удален или заблокирован  <br/>  `Inh`Если наследуется формулу.  <br/> |Формула.  <br/> |
@@ -149,7 +149,7 @@ ms.locfileid: "19813418"
 |EndArrowSize  <br/> |Определяет размер стрелки в конце строки.  <br/> |[Ячейка EndArrowSize (раздел "Формат линий")](endarrowsize-cell-line-format-section.md) <br/> |
 |EndTrigger  <br/> |Содержит формулу запуска, созданный для приложения, который определяет, следует ли перемещать конечную точку одномерной фигуры для сохранения ее соединения с другой фигурой.  <br/> |[Ячейка EndTrigger (раздел "Сведения о приклеивании")](endtrigger-cell-glue-info-section.md) <br/> |
 |EndX  <br/> |Представляет оси x конечной точки одномерной фигуры относительно начала родительского элемента.  <br/> |[Ячейка EndX (раздел "Одномерные конечные точки")](endx-cell-1-d-endpoints-section.md) <br/> |
-|EndY  <br/> |Представляет координаты y конечной точки одномерной фигуры относительно начала родительского элемента.  <br/> |[Ячейка EndY (раздел "Одномерные конечные точки")](http://msdn.microsoft.com/library/3fbfa4bc-7792-b6d9-d549-4602d252c293"%28Office.15%29.aspx) <br/> |
+|EndY  <br/> |Представляет координаты y конечной точки одномерной фигуры относительно начала родительского элемента.  <br/> |[Ячейка EndY (раздел "Одномерные конечные точки")](endy-cell-1-d-endpoints-section.md) <br/> |
 |EventDblClick  <br/> |Ячейка события, которое вычисляется при двойном щелчке фигуры.  <br/> |[Ячейка EventDblClick (раздел "События")](eventdblclick-cell-events-section.md) <br/> |
 |EventDrop  <br/> |Ячейка события, которое оценивается при перетаскивании фигуры на странице документа как экземпляр или при дублировании или вставке фигуры.  <br/> |[Ячейка EventDrop (раздел "События")](eventdrop-cell-events-section.md) <br/> |
 |EventMultiDrop  <br/> |Ячейка события, которое оценивается при перетаскивании нескольких фигур на странице документа в виде экземпляров или при дублировании или вставке фигур.  <br/> |[Ячейка EventMultiDrop (раздел "События")](eventmultidrop-cell-events-section.md) <br/> |
@@ -168,7 +168,7 @@ ms.locfileid: "19813418"
 |Гамма  <br/> |Настраивает или корректирует насыщенность изображения для определенного выходное устройство, например монитор или средства поиска вирусов. Значение по умолчанию — 1 (корректировка отсутствует).  <br/> |[Ячейка Gamma (раздел "Свойства изображения")](gamma-cell-image-properties-section.md) <br/> |
 |GlowColor  <br/> |Определяет цвет, используемый для штрих внешнего свечения, применяемые к фигуре, как значение RGB и темы.  <br/> |[Ячейка GlowColor (раздел "Дополнительные свойства эффекта")](glowcolor-cell-additional-effect-properties-section.md) <br/> |
 |GlowColorTrans  <br/> |Определяет уровень прозрачности цвета, используемого для штрих свечения фигуры в процентном выражении.  <br/> |[Ячейка GlowColorTrans (раздел "Дополнительные свойства эффекта")](glowcolortrans-cell-additional-effect-properties-section.md) <br/> |
-|GlowSize  <br/> |Определяет размер внешнего свечения фигуры в точках.  <br/> |[Ячейка GlowSize (раздел "Дополнительные свойства эффекта")](http://msdn.microsoft.com/library/2ddc7a08-25b8-4903-b0dd-be72d1fa8075"%28Office.15%29.aspx) <br/> |
+|GlowSize  <br/> |Определяет размер внешнего свечения фигуры в точках.  <br/> |[Ячейка GlowSize (раздел "Дополнительные свойства эффекта")](glowsize-cell-additional-effect-properties-section.md) <br/> |
 |Приклеивания  <br/> |Определяет, используется ли одномерной фигуры static (точка-точка) или динамической связывающих (фигура к фигуре), когда он связан с другой фигурой.  <br/> |[Ячейка GlueType (раздел "Сведения о приклеивании")](gluetype-cell-glue-info-section.md) <br/> |
 |Height  <br/> |Определяет высоту фигуры в единицах документа.  <br/> |[Ячейка Height (раздел "Преобразование фигуры")](height-cell-shape-transform-section.md) <br/> |
 |HelpTopic  <br/> |Задает идентификатор раздела справки фигуры.  <br/> ||
@@ -222,7 +222,7 @@ ms.locfileid: "19813418"
 |LockGroup  <br/> |Блокирует группу, его нельзя разгруппировать.  <br/> |[Ячейка LockGroup (раздел "Защита")](lockgroup-cell-protection-section.md) <br/> |
 |LockHeight  <br/> |Блокирует высоту фигуры таким образом, чтобы его высота не изменяется при изменении размера фигуры.  <br/> |[Ячейка LockHeight (раздел "Защита")](lockheight-cell-protection-section.md) <br/> |
 |LockMoveX  <br/> |Блокирует горизонтальную позицию фигуры, чтобы он не перемещаться по горизонтали.  <br/> |[Ячейка LockMoveX (раздел "Защита")](lockmovex-cell-protection-section.md) <br/> |
-|LockMoveY  <br/> |Блокирует вертикальную позицию фигуры, чтобы он не перемещаться по вертикали.  <br/> |[Ячейка LockMoveY (раздел "Защита")](http://msdn.microsoft.com/library/4ed8cab4-112a-e96a-f4e3-02490a6f87fa"%28Office.15%29.aspx) <br/> |
+|LockMoveY  <br/> |Блокирует вертикальную позицию фигуры, чтобы он не перемещаться по вертикали.  <br/> |[Ячейка LockMoveY (раздел "Защита")](lockmovey-cell-protection-section.md) <br/> |
 |LockPreview  <br/> |Определяет, сохраняется ли Предварительный просмотр каждый раз при сохранении документа.  <br/> |[Ячейка LockPreview (раздел "Свойства документа")](lockpreview-cell-document-properties-section.md) <br/> |
 |LockReplace  <br/> |Указывает, является ли фигура может принимать участие в операции замены (в качестве целевого или фигуры замещения).  <br/> |[Ячейка LockReplace (раздел "Защита")](lockreplace-cell-protection-section.md) <br/> |
 |LockRotate  <br/> |Блокирует плоских фигур с поворот с помощью маркера вращения или слева поворот 90° или 90° команду Поворот вправо.  <br/> |[Ячейка LockRotate (раздел "Защита")](lockrotate-cell-protection-section.md) <br/> |
@@ -367,15 +367,15 @@ ms.locfileid: "19813418"
 |ViewMarkup  <br/> |Определяет, отображается ли разметка в окне документа.  <br/> |[Ячейка ViewMarkup (раздел "Свойства документа")](viewmarkup-cell-document-properties-section.md) <br/> |
 |WalkPreference  <br/> |Определяет ли конечная точка одномерной фигуры перемещение точки подключения горизонтальный или вертикальный на фигуры, которые он является привязку, с помощью динамических связывающих при перемещении фигуры в неоднозначные позицию. По умолчанию обе конечные точки одномерной фигуры перемещение горизонтальным точкам соединения.  <br/> |[Ячейка WalkPreference (раздел "Сведения о приклеивании")](walkpreference-cell-glue-info-section.md) <br/> |
 |Width  <br/> |Содержит ширину выбранной фигуры в единицах документа. Формула по умолчанию для определения ширины одномерной фигуры: = корень ((EndX-BeginX) ^ 2 + (КонецY - НачалоY) ^ 2)  <br/> |[Ячейка Width (раздел "Преобразование фигуры")](width-cell-shape-transform-section.md) <br/> |
-|XGridDensity  <br/> |Указывает тип сетки по горизонтали.  <br/> |[Ячейка XGridDensity (линейки &amp; сетка)](xgriddensity-cell-rulergrid-section.md) <br/> |
-|XGridOrigin  <br/> |Задает горизонтальной оси начала сетки.  <br/> |[Ячейка XGridOrigin (линейки &amp; сетка)](xgridorigin-cell-rulergrid-section.md) <br/> |
-|XGridSpacing  <br/> |Указывает расстояние между линиями фиксированной сетки (XGridDensity = 0).  <br/> |[Ячейка XGridSpacing (линейки &amp; сетка)](xgridspacing-cell-rulergrid-section.md) <br/> |
-|XRulerDensity  <br/> |Задает горизонтальную деления на линейке для страницы.  <br/> |[Ячейка XRulerDensity (линейки &amp; сетка)](xrulerdensity-cell-rulergrid-section.md) <br/> |
-|XRulerOrigin  <br/> |Задает координат на оси x линейке для страницы.  <br/> |[Ячейка XRulerOrigin (линейки &amp; сетка)](xrulerorigin-cell-rulergrid-section.md) <br/> |
-|YGridDensity  <br/> |Указывает тип сетки по вертикали.  <br/> |[Ячейка YGridDensity (линейки &amp; сетка)](ygriddensity-cell-rulergrid-section.md) <br/> |
-|YGridOrigin  <br/> |Задает вертикальную начала сетки.  <br/> |[Ячейка YGridOrigin (линейки &amp; сетка)](ygridorigin-cell-rulergrid-section.md) <br/> |
-|YGridSpacing  <br/> |Указывает расстояние между вертикальными линиями фиксированной сетки (YGridDensity = 0).  <br/> |[Ячейка YGridSpacing (линейки &amp; сетка)](ygridspacing-cell-rulergrid-section.md) <br/> |
-|YRulerDensity  <br/> |Определяет вертикальные деления на линейке для страницы.  <br/> |[Ячейка YRulerDensity (линейки &amp; сетка)](yrulerdensity-cell-rulergrid-section.md) <br/> |
-|YRulerOrigin  <br/> |Задает координат на линейке по оси y для страницы.  <br/> |[Ячейка YRulerOrigin (линейки &amp; сетка)](yrulerorigin-cell-rulergrid-section.md) <br/> |
+|XGridDensity  <br/> |Указывает тип горизонтальной сетки для использования.  <br/> |[Ячейка XGridDensity (линейки &amp; сетка)](xgriddensity-cell-rulergrid-section.md) <br/> |
+|XGridOrigin  <br/> |Указывает горизонтальную координату начала сетки.  <br/> |[Ячейка XGridOrigin (линейки &amp; сетка)](xgridorigin-cell-rulergrid-section.md) <br/> |
+|XGridSpacing  <br/> |Определяет расстояние между горизонтальными линиями в фиксированной сетке (XGridDensity = 0).  <br/> |[Ячейка XGridSpacing (линейки &amp; сетка)](xgridspacing-cell-rulergrid-section.md) <br/> |
+|XRulerDensity  <br/> |Определяет горизонтальные промежуточные деления линейки для страницы.  <br/> |[Ячейка XRulerDensity (линейки &amp; сетка)](xrulerdensity-cell-rulergrid-section.md) <br/> |
+|XRulerOrigin  <br/> |Указывает точку начала координат на линейке по оси X для страницы.  <br/> |[Ячейка XRulerOrigin (линейки &amp; сетка)](xrulerorigin-cell-rulergrid-section.md) <br/> |
+|YGridDensity  <br/> |Указывает тип вертикальной сетки для использования.  <br/> |[Ячейка YGridDensity (линейки &amp; сетка)](ygriddensity-cell-rulergrid-section.md) <br/> |
+|YGridOrigin  <br/> |Указывает начало сетки по вертикали.  <br/> |[Ячейка YGridOrigin (линейки &amp; сетка)](ygridorigin-cell-rulergrid-section.md) <br/> |
+|YGridSpacing  <br/> |Определяет расстояние между вертикальными линиями в фиксированной сетке (YGridDensity = 0).  <br/> |[Ячейка YGridSpacing (линейки &amp; сетка)](ygridspacing-cell-rulergrid-section.md) <br/> |
+|YRulerDensity  <br/> |Определяет вертикальные промежуточные деления линейки для страницы.  <br/> |[Ячейка YRulerDensity (линейки &amp; сетка)](yrulerdensity-cell-rulergrid-section.md) <br/> |
+|YRulerOrigin  <br/> |Указывает точку начала координат на линейке по оси y для страницы.  <br/> |[Ячейка YRulerOrigin (линейки &amp; сетка)](yrulerorigin-cell-rulergrid-section.md) <br/> |
    
 

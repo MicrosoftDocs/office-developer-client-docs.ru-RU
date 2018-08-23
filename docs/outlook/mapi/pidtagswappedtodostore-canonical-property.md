@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1edae9ac-fc9a-4bfe-b053-99de848c5144
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cbe1915df46010c5574065826ac1814f45c8c093
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fff9e488a83246f78058a699e637d83bb159ed33
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812029"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577347"
 ---
 # <a name="pidtagswappedtodostore-canonical-property"></a>Каноническое свойство PidTagSwappedToDoStore
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет необходимость для передачи после обработки сообщения электронной почты.
   

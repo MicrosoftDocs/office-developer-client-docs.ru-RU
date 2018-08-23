@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2cf5ff69e8453b2da26fd5044823ddf4f99a9f45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7a236c2a7e307d278cac5ef413cbd2f600bf09f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808451"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582100"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список флагов, используемых для указания состояния записей адресов во время процесса разрешения имен.
   

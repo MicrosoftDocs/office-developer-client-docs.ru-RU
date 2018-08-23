@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 902b991dcca8a48597a26c52081b8c1993c911b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d42bcf531c09ca2486b0181b86bae72e223d2007
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812141"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577165"
 ---
 # <a name="required-report-message-properties"></a>Обязательные свойства сообщений отчетов
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Ниже перечислены свойства, которые клиенты могут ожидать поддерживаемые в отчет о сообщениях.
   

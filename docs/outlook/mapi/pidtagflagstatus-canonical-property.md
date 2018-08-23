@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 38df67757082bd12e008e56632ec7e6961ba9d42
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8dba5906a00beb6d38e4f3e375a9c57db79d42f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811124"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575961"
 ---
 # <a name="pidtagflagstatus-canonical-property"></a>Каноническое свойство PidTagFlagStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает состояние флага объекта message.
   
@@ -40,7 +40,7 @@ ms.locfileid: "19811124"
   
 |**Числовое значение**|**Имя**|**Описание**|
 |:-----|:-----|:-----|
-|Этот параметр не указан  <br/> |Нет  <br/> |Без отметки  <br/> |
+|Этот параметр не указан  <br/> |Н/Д  <br/> |Без отметки  <br/> |
 |0x00000001  <br/> |followupComplete  <br/> |Отмеченные завершена  <br/> |
 |0x00000002  <br/> |followupFlagged  <br/> |Отмеченные  <br/> |
    

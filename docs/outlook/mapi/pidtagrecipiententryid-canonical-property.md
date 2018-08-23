@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 23ae2473-8b0b-4c6c-80a7-09c9e7a1a27d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 51020bb0ec2b7096a43d98f9a2049a144a22c767
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bace0e7f4dcd5eaa56ab2f922e977338dd331daa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577361"
 ---
 # <a name="pidtagrecipiententryid-canonical-property"></a>Каноническое свойство PidTagRecipientEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит **идентификатор записи** получателя 
   

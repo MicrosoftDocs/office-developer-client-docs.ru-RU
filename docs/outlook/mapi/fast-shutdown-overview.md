@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
 description: 'Последнее изменение: 26 июня 2012 г.'
-ms.openlocfilehash: 17b1307427af2c35fe9ba8ee40dc78958e6b4a21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b8335fb2722e193f0eab1288b8ffdb2aa62df8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808405"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577788"
 ---
 # <a name="fast-shutdown-overview"></a>Обзор быстрого завершения работы
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Быстрое завершение работы — это механизм для клиента MAPI для инициации быстрого завершения процесса клиента, уведомления всех поставщиков, с которыми у клиента было активного сеанса MAPI для сохранения данных и параметров до завершения процесса клиента. В этом разделе описывается базовый механизм быстрое завершение работы. 
 

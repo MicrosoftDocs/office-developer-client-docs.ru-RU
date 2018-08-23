@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 09bd3bdf-28d6-432c-9213-562a9a271adc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ccd00b368471448e81e32edf99e645024119be00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ef6117557b504678012b79e2b89c13bdaf6b787
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571488"
 ---
 # <a name="pidtagreporttext-canonical-property"></a>Каноническое свойство PidTagReportText
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит необязательный атрибут типа text для отчета, созданных функцией системы обмена сообщениями.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 2d405268-bb33-4863-be38-2d17e8fc956e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c7c0d1df32a0ad6359fad20128a6a1e3dd225143
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6460cd3ef0495a5494e03b4c7034e067cf8793b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808102"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576066"
 ---
 # <a name="attfrom"></a>attFrom
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Атрибут **attFrom** закодирован **BIOS** структуру, которая кодирует отображаемое имя и адрес электронной почты адрес отправителя, следуют отображаемое имя и адрес отправителя, следуют любые необходимые внутренние поля. Формат для **attFrom** выглядит следующим образом: 
   

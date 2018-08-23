@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c003f7b9-b0cd-4656-98fa-3466fda6832c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1d46110585fb5075041942560b3a8bd5d0b125a8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3fdaa7edef50224ff2687201c5b19f61d31f49e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811285"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580952"
 ---
 # <a name="pidtagipmnoteentryid-canonical-property"></a>Каноническое свойство PidTagIpmNoteEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит **идентификатор записи** папки заметок Outlook. 
   

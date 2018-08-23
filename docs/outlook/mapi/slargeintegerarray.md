@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ec9a674-c1a2-4137-856f-6cabe6f0eb9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4d6785783f69857bd93f3c5818983e832e16af05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29b26996bc337045489758a14857a30fafe48e54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576437"
 ---
 # <a name="slargeintegerarray"></a>SLargeIntegerArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив [LARGE_INTEGER](http://go.microsoft.com/fwlink/?LinkId=132130) структуры, используемые для описания свойства типа PT_MV_I8. 
   

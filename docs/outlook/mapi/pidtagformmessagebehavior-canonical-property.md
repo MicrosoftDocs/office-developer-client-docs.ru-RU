@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 127770c04e6d77932a49d4f447b0bf109afcc194
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0abb3cba2b72c18a2bc1a43a07130509ba29b56c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811184"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580420"
 ---
 # <a name="pidtagformmessagebehavior-canonical-property"></a>Каноническое свойство PidTagFormMessageBehavior
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если сообщение должны включать в себя в текущую папку. 
   

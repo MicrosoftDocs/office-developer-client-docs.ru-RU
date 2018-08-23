@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d5507785-c924-4981-ae80-19709ceb054d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e12f69e3486e5eeb9087b30753735f7f910dc6f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49cb500279540317059cde2d9baba28fcbf06165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809657"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574113"
 ---
 # <a name="ixpprovider--iunknown"></a>IXPProvider : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Инициализирует объект поставщика транспорта и завершает работу объекта, если они больше не нужны.
   

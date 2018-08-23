@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6cd255c60987ec7a279e509aa2925a8029cce62e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a315f1564f2980ad16ce2ba3da2308960f7d4b88
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811026"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578894"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>Каноническое свойство PidTagDefaultProfile
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если профиль пользователя обмена сообщениями является профилем по умолчанию MAPI.
   

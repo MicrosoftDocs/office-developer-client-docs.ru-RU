@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b1ee2533-8077-4976-846b-d42d148bf8c6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d53304dd74a0e54974d479c66637079cd48b2fc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d65ccec0ab270a59252c8a3ae94bdeca839fa807
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809308"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582366"
 ---
 # <a name="implementing-mapi-objects"></a>Реализация объектов MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Объекты MAPI можно реализовать с помощью классов C++ или C структуры данных, в зависимости от языка и API Настройка клиента или с помощью поставщика услуг. Поставщиков услуг может быть написан на C или C++ с помощью интерфейса поставщика службы MAPI; клиентские приложения также можно использовать C или C++. Если это возможно клиентов и поставщиков услуг, использующих интерфейс программирования объектно ориентированные следует использовать C++. 
   

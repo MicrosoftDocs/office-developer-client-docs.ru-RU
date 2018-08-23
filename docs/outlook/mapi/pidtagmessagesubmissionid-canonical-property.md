@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b3286e9e666d59997693df636263cb04f7b767d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a26a8483e584ccc5cf9f33e0dbd75f379c01633
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811389"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569668"
 ---
 # <a name="pidtagmessagesubmissionid-canonical-property"></a>Каноническое свойство PidTagMessageSubmissionId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор система передачи сообщений для передачи сообщений (агента).
   

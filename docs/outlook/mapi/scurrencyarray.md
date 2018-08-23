@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d28852ab-b542-40e1-b2ec-85d20a2eddfd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c440bb7d8f3d2d3002a4d1a80ca3a671b49f4d2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b262ba9c83e9890719f716a373c566be172ae73
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812228"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572454"
 ---
 # <a name="scurrencyarray"></a>SCurrencyArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений валюты, которые используются для описания свойства типа PT_MV_CURRENCY. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06fe4d20-c3f5-4f4f-b7b7-5a4f5257079b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e85150894b18881171e6c653d30188ed65d3e53a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49f0fb7a1bcbd1920e7a2620f28fd5289104c983
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810256"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575625"
 ---
 # <a name="pidliddistributionlistname-canonical-property"></a>Каноническое свойство PidLidDistributionListName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает имя списка рассылки.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810256"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008053  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

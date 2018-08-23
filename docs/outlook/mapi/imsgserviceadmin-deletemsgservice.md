@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3a6b34eb-9d46-488f-8d02-91b27c35de67
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0a3021ed386aa00777694452a755693fc4078093
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0d3d669982bee309901f913612ac1fb1622e60a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809344"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571145"
 ---
 # <a name="imsgserviceadmindeletemsgservice"></a>IMsgServiceAdmin::DeleteMsgService
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Удаление службы сообщений из профиля.
   

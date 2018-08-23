@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 986719d2-8837-46b4-8d04-c24508f5e19a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5398519dc841aa72f2c2655aac6c9f7acba7f335
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 464121a969beea06294049985052eb150651765f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580091"
 ---
 # <a name="pidtagaddresstype-canonical-property"></a>Каноническое свойство PidTagAddressType
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит тип адреса электронной почты, обмена мгновенными сообщениями пользователя, например SMTP.
   

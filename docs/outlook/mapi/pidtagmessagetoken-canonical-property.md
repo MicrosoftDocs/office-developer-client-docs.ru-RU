@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fcb93346-db92-44b5-a447-59fd95f98f45
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7357b7b98d90d08f7d14e965458703e4e193f63a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b5def94096f7664169935a062d3b28171fb2919
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811377"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578432"
 ---
 # <a name="pidtagmessagetoken-canonical-property"></a>Каноническое свойство PidTagMessageToken
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит маркер безопасности ASN.1 для сообщения.
   

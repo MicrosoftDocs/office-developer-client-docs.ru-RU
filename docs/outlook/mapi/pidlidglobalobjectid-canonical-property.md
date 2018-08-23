@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a4e3f9ab-b7ee-4dff-b7bd-2462c561735c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ba79af79ddadba2ca2223008e367738299475f02
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 173c679b7a94678b1b3b14bf82abf6638ecc5b55
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575660"
 ---
 # <a name="pidlidglobalobjectid-canonical-property"></a>Каноническое свойство PidLidGlobalObjectId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает уникальный идентификатор объекта календаря.
   

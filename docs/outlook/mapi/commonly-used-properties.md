@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 887c5e82-170f-4c3c-986f-465c05fbbdbe
 description: 'Последнее изменение: 08 ноября 2011 г.'
-ms.openlocfilehash: 7d29cc51c4de0c120c02c139348e7705162e337a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d1eadfa4138cbd8173bccd0f31e2cdc89c9d5d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577067"
 ---
 # <a name="commonly-used-properties"></a>Часто используемые свойства
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Списки необходимые и дополнительные свойства MAPI, приведены в нескольких местах.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 418ffdd19412dcf948d36a5e7df33f7978d0df3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3bcad4c236f71390f7a048eb66860720e9180e06
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808653"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582044"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает строку ASCII, представляющий идентификатор составные записи для объекта, обычно сообщения в банке сообщений. 
   

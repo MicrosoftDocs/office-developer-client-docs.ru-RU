@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d5ce2e6b0f10ff6c2f6fd91ca9f73953f3ee7cd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 975dd172b6ad342351f014d0966d62a150f713c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812404"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571292"
 ---
 # <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Поддержка форматированного текста в исходящих сообщениях: обязанности клиентов
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения задать свойство **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), свойство **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) или свойство **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) для исходящих сообщений. Клиенты, которые поддерживают только обычного текста для свойства только **PR_BODY** . Текст в формате RTF (RTF)-принять во внимание, клиенты могут установить **PR_BODY** и **PR_RTF_COMPRESSED** свойства, или только **PR_RTF_COMPRESSED**, в зависимости от сообщения сохраняются используемого поставщика. Клиенты с поддержкой HTML необходимо задать свойство **PR_HTML** . 
   

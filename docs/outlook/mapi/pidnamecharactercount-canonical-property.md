@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 6c7960a9-ccfa-4872-9729-e707bfd9b68e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d0453be4da37c2f1b5bc43d171b59fb0be17ff8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c012607815b97cedaabab4f7af2cdf54208010c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810692"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581554"
 ---
 # <a name="pidnamecharactercount-canonical-property"></a>Каноническое свойство PidNameCharacterCount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает количество знаков файл, подключенный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |CharCount  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |

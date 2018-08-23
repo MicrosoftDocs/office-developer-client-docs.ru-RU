@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5c634fe200dde4bfe6f190f8bfa9e5dfa0868db4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82fa1b0af504cc4774b1dc077a6ef48378740d26
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812394"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580679"
 ---
 # <a name="srowset"></a>SRowSet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив структур [SRow](srow.md) . Структура каждого **SRow** описывает строку из таблицы. 
   

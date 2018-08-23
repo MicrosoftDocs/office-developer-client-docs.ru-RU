@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 48e48e3a-1186-46c4-8ff9-34e03905fb93
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5910fd60b7837c2f170358dd5cd4e3306e4c1770
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c37f5a3e2f1a5ec4411f2570d8a3fcdce52dfe57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811860"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578649"
 ---
 # <a name="pidtagscheduleinfodelegatorwantscopy-canonical-property"></a>Каноническое свойство PidTagScheduleInfoDelegatorWantsCopy
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если представитель может принимать копии объектов связанные собрания, отправляемые на делегат.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1604c4a1a0d1bf4008595b0d150b4f7eb3d1c2ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8d85ba55c5aa2f3780ad8e04cf1326cd7c35865
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812379"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575940"
 ---
 # <a name="ssortorderset"></a>SSortOrderSet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет коллекцию ключей сортировки для таблицы, используемый для сортировки стандартный или по категориям.
   

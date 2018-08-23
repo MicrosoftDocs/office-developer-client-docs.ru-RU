@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 34177aee48adad7eecb40836a247705fc22d2a32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43703051193ffacec6a54355eeea74edf904f186
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812217"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580574"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описывается ограничение содержимого, которое используется для ограничения представление таблицы, чтобы только строки, которые включают столбец с соответствующими строке поиска содержимого. 
   

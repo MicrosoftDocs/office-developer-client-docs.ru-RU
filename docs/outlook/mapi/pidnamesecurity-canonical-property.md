@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: f6e42163-494d-4787-ad83-54452d26b815
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f4a33402ecccb055c2c932f71f744fba7cb9aa45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba26ee19e4bd6efb49f867092c971cb433bfc745
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810743"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571432"
 ---
 # <a name="pidnamesecurity-canonical-property"></a>Каноническое свойство PidNameSecurity
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает уровень безопасности файл, подключенный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |Security  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |

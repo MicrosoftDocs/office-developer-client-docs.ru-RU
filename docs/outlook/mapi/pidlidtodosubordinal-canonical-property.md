@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e3bc15ef-155e-49fd-88e5-64713df9b939
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9965ed059ba4596232111f5fbd86b9d177e3c3dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 98dfdab24d2c4170609d9db1c3104a3f17436736
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810628"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578068"
 ---
 # <a name="pidlidtodosubordinal-canonical-property"></a>Каноническое свойство PidLidToDoSubOrdinal
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Действует как средства разбиения слов связывают при свойство **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) сортирует объекты и результатов в набор функций.
   

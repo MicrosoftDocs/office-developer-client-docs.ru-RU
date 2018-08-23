@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 701fca52-0f96-4019-80cd-c0ccd059ff9b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6828a6436946de27020fa1177223955e07a08faf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3899f7000bfa1365228864d97b4410833b774bed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810884"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570787"
 ---
 # <a name="pidtagattachtransportname-canonical-property"></a>Каноническое свойство PidTagAttachTransportName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя файла вложения, изменена, поэтому его можно связать с сообщениями TNEF. 
   

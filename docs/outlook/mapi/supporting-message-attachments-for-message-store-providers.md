@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
 description: '���� ���������� ���������: 7 ������� 2015 �.'
-ms.openlocfilehash: e3d6844f8fe6121d6ea063a9594aaf1fed581ee5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a94d1230f4f26d080976fd15768bdfeb6ea04748
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576101"
 ---
 # <a name="supporting-message-attachments-for-message-store-providers"></a>Поддержка вложений к сообщениям для поставщиков хранилищ сообщений
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщик хранилища сообщений не требуется поддержка вложений сообщений. Тем не менее многие клиентские приложения согласно прогнозу, будут иметь возможность добавления вложений в сообщения. Если хранения сообщений будет использоваться для создания или хранить IPM. Примечание сообщения, а затем вы должны поддерживать вложений сообщений. Поставщики хранилища сообщений по умолчанию также должны поддерживать вложений сообщений. Для получения дополнительных сведений см [Классы сообщений MAPI](mapi-message-classes.md)и [Хранилищ сообщений по умолчанию](default-message-stores.md).
   

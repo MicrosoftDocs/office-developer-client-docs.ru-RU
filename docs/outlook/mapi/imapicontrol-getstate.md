@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fb321b48-3e5f-4b99-9af0-a57b66f26a2e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a6ae89bf9b2b16439cc06f0e106859dda10ea22c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d45c4722b6a0200ea3937ba606da0af5c793df2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19808828"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581855"
 ---
 # <a name="imapicontrolgetstate"></a>IMAPIControl::GetState
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает значение, указывающее, включено ли элемент управления button.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4b1176ec-4126-43f5-856d-cbab8d622825
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a4e924489f2ec656f473f28407d528e9c2ddda5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2efee531e277b6295b7d4bc299eefc789a805d34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809382"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571089"
 ---
 # <a name="imsgstoresetlockstate"></a>IMsgStore::SetLockState
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Блокирует или разблокирует сообщение. ���� ����� ���������� ������ ����������� ������� MAPI.
   

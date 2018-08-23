@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ca1eedba-c617-4403-8490-315ab75f2edb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c4daa46bf7c40f717f2bcd4a9ea87195f3d2c81f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75439fccaf13665c68321cac5d39d0373ca923e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571096"
 ---
 # <a name="pidlidtoattendeesstring-canonical-property"></a>Каноническое свойство PidLidToAttendeesString
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список всех отправляемого участников, которые также являются обязательных участников.
   

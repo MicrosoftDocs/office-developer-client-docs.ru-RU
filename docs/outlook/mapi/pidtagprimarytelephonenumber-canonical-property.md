@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eac130cd-51d1-4c73-a301-a7eafa3b7749
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1a05238899ee85b29c2e96b480a0462d7b273650
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02f3a0678c66ef684a69786f7613fa179c9b9862
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582212"
 ---
 # <a name="pidtagprimarytelephonenumber-canonical-property"></a>Каноническое свойство PidTagPrimaryTelephoneNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит основной телефона получателя.
   

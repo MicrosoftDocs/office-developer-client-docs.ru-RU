@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: faafde3d-3989-4182-91f1-a0cf0f1b5388
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5cff3a6cbf4bfca7b414f9663e71834da71926d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 172abe64073b11d98bfb5f76999237218ef8944a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812539"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581351"
 ---
 # <a name="updating-mapi-properties"></a>Обновление свойств MAPI
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиенты и поставщиков услуг можно обновить значение свойства, вызывая:
   

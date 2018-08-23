@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b5c9874ca465bb0ebed62f218d1512feb1a2f9ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c7ae4ab6de20d69581a98323c14a2c15f436cad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812294"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572825"
 ---
 # <a name="shutting-down-a-message-store-provider"></a>Завершение работы поставщика хранилища сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Если ваш поставщик поставщика хранилища сообщений, его можно завершить работу в одном из следующих способов:
   

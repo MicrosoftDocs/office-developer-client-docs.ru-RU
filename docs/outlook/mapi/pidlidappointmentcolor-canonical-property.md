@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 251377a7b9118437aff3fbb6b2b9376cbf70375c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7dcfe32a5edc6587dfbd1351b61e2b1901e1d28
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810094"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579055"
 ---
 # <a name="pidlidappointmentcolor-canonical-property"></a>Каноническое свойство PidLidAppointmentColor
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет цвет, используемый при отображении в календаре.
   
@@ -41,7 +41,7 @@ ms.locfileid: "19810094"
   
 |**Значение**|**Цвет**|
 |:-----|:-----|
-|0x00000000  <br/> |Нет  <br/> |
+|0x00000000  <br/> |Отсутствует  <br/> |
 |0x00000001  <br/> |Красный  <br/> |
 |0x00000002  <br/> |Синий  <br/> |
 |0x00000003  <br/> |Зеленый  <br/> |

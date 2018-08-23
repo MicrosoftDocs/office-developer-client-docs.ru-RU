@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9b824e70-ed9a-490c-b777-8902a793fece
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5db1b45f42365837d7b0e7af91f859f221ff687b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b05baf1f819a821da3496cc63c2b2980894efd7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808673"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575716"
 ---
 # <a name="hrgetgalfromemsmdbuid"></a>HrGetGALFromEmsmdbUID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает идентификатор записи из глобальной адресной книги для службы Exchange, определяемую средством _pEmsmdbUID_. Идентификатор записи возвращенные нужно освободить с помощью [MAPIFreeBuffer](mapifreebuffer.md).
   

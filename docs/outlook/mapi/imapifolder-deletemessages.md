@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7845abc4f3010daf8e13d56ac4b13d0333bad07e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd0439c71df7083e3c4787a5d317fa11d2b99c61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808868"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578635"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Удаляет одно или несколько сообщений.
   

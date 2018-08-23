@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: da0ad17b-08ac-4c50-ac1d-13062b890dfd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 40839e34a61b5e5fdd3d7b69d8c553d7e469cd22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 198e388f5cfb6ab0431e7b7a78b9a0be3d103597
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811052"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582121"
 ---
 # <a name="pidtagdelivertime-canonical-property"></a>Каноническое свойство PidTagDeliverTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время, когда исходное сообщение было доставлено. 
   

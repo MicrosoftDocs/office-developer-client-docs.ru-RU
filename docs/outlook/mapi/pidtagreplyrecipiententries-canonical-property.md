@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1ab8828dd2fc28a2fba1620fc251ba0a87c3e2bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce433dda7357bdce964f897ce985286d193ec0b1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811707"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576472"
 ---
 # <a name="pidtagreplyrecipiententries-canonical-property"></a>Каноническое свойство PidTagReplyRecipientEntries
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив размера запись идентификаторов для получателей, которые требуется получить ответ.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a791b95f-56ad-493a-9ba5-fb4c7dd80e89
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8f26fc6a51c3abdb4d4d009183fa8263ce97b261
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c4577a35315c9df0055e97de26dd0baf1a2b489
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580588"
 ---
 # <a name="deferring-processing"></a>Откладывание обработки
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Передайте флаг MAPI_DEFERRED_ERRORS вызовы методов насколько это возможно. Многие из вызовы методов интерфейса MAPI оптимизированные для принятия этот флаг, вызывающие поставщика либо откладывать запрошенную задачу до нескольких задач, которые могут выполняться одновременно или можно подождать больше не результаты.
   

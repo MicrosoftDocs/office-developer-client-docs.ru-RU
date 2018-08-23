@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 146c8b4d711982118fd9da185a5b095a1bae6b2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18113fd48f33eaf067942116f168a54e8b91c55c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808490"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579237"
 ---
 # <a name="forwarding-a-message"></a>Переадресация сообщения
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Переадресация сообщения состоит из множества те же задачи, как и отправка исходного сообщения. Во-первых необходимо открыть хранилище сообщений по умолчанию и к папке, предназначенный для хранения исходящих сообщений, обычно Исходящие и вызовите метод [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) этой папки, чтобы создать сообщение для перенаправления. Также необходимо открыть папку, в которой содержатся исходное сообщение обычно папки «Входящие». Сведения об открытии разных папок в разделе [Открытие папки хранения сообщений](opening-a-message-store-folder.md).
   

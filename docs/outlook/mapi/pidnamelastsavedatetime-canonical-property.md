@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 6f1c87aa-70b7-4c36-8840-04e70327bda7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 17eea6fbcac715f1bc6a36584eb68228fc7b3914
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a79bf71ad4d755e31cf8d43f07c371aa6aa9a277
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810733"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580287"
 ---
 # <a name="pidnamelastsavedatetime-canonical-property"></a>Каноническое свойство PidNameLastSaveDateTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает время, последнего сохранения файла.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |LastSaveDtm  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |

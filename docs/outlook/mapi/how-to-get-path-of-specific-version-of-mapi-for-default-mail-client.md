@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 277505beb11dbc2b32b7e970c2bcf2a34dbdf00b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b3160bb81cee86aeab4e7eecb76fb409d8e7c4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808594"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581610"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>Получение путь к определенной версии MAPI для почтового клиента по умолчанию
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приводится пример кода c++, который показано, как получить путь к определенной версии MAPI, используемый почтового клиента по умолчанию на компьютере. Почтовые клиенты MAPI имеют возможность указать в реестре настраиваемых DLL, что библиотека заглушка MAPI загружает и отправки MAPI вызывает для. Раздел реестра, чтобы задать для этой библиотеки DLL настраиваемого для почтового клиента по умолчанию — **MSIComponentID**в раздел **HKLM\Software\Clients\Mail** почтового клиента по умолчанию. Функция [FGetComponentPath](fgetcomponentpath.md) , экспортированные библиотекой заглушка MAPI mapistub.dll, можно вернуть путь для настраиваемой версии MAPI, указанное в ключе реестра **MSIComponentID** . 
   

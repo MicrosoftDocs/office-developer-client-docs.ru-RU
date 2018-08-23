@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b8ad765a2bbd3aafd87a7eff79993978816729b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54cd90cac6c00e8cf274e0b78a1bfec32401bb8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808025"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576514"
 ---
 # <a name="address-book-restrictions"></a>Ограничения для адресных книг
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщиками адресной книги необходимо поддерживает три типа ограничений на содержимое таблицы их контейнеров:
   

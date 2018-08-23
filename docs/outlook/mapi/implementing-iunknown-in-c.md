@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d12201d8476d15021e896a44797ae5fc21178802
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bdc81d78927e530037c65ca7fd61d722cd96bab7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809323"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581442"
 ---
 # <a name="implementing-iunknown-in-c"></a>Реализация IUnknown в C
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Реализация метода [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) в C очень похожи на C++ реализации. Существует две основные действия по реализации. 
   

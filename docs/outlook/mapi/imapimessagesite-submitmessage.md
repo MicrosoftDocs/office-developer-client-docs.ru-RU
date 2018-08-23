@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 694ee8b12b9918502e60c0c6ea92992cc1062945
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 587b8bbb7ac25a7977d8962535f1909464ffc248
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808983"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571103"
 ---
 # <a name="imapimessagesitesubmitmessage"></a>IMAPIMessageSite::SubmitMessage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Запросы в текущем сообщении очереди для доставки.
   

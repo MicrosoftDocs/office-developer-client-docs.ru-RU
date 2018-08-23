@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
 description: '���� ���������� ���������: 25 ���� 2012 �.'
-ms.openlocfilehash: 50b36ee60d00e06a1f5baa8726b5f27c4a3e6ce7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 272d4147d60df53ef30a668faa8abe89f96cd654
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807974"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582324"
 ---
 # <a name="about-the-replication-api"></a>Сведения об API репликации
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Интерфейс API репликации предоставляет функциональные возможности для поставщика хранилища сообщений MAPI для синхронизации элементов Microsoft Outlook 2013 или Microsoft Outlook 2010 между сервером и закрытый на основе .pst локального хранилища, созданный для этого поставщика. 
   
@@ -74,7 +74,7 @@ API репликации предоставляет файлов определ�
     
 - **[SYNCCONT](synccont.md)**
     
-- **[SYNCSTATE](syncstate.md)**
+- **[СОСТОЯНИЕ](syncstate.md)**
     
 - **[UPDEL](updel.md)**
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 834a7141f0e7150140fa27c21d88db422d6f5561
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d277908d3ec96537f63511e4d50488a694696bd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812171"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581225"
 ---
 # <a name="sapptimearray"></a>SAppTimeArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений времени.
   

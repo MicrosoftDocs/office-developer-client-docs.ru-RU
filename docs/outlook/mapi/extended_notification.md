@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5e23d9b829a941e3add8b8d8e137c73052b08aa6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de9b5e377840b1fbfa3b6dd73fd952c0c72efeb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19808412"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580644"
 ---
 # <a name="extendednotification"></a>EXTENDED_NOTIFICATION
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описывает сведения, относящиеся к событию, зависящие от поставщика службы. 
   

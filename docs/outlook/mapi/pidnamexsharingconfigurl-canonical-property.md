@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: b5c833de-db5d-4b3d-ad9a-6a64d046618e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f021661a4dee9e6f94eb56ecbea8bdf94a54e210
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54965a73e5d523a8c586791ed26692cd49485181
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810748"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570858"
 ---
 # <a name="pidnamexsharingconfigurl-canonical-property"></a>Каноническое свойство PidNameXSharingConfigUrl
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет значение свойства **dispidSharingConfigUrl** ([PidLidSharingConfigurationUrl](pidlidsharingconfigurationurl-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |X-общий доступ к Config-URL-адрес  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

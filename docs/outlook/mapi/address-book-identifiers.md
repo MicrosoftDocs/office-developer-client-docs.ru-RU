@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0814d76dac97e40940f41c49dbf72efdd26b3cca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9ba7a2a0752dea353e914aaa14a09046b993e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808018"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580525"
 ---
 # <a name="address-book-identifiers"></a>Идентификаторы адресных книг
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Все поставщиками адресной книги назначьте идентификаторы записей с помощью свойства **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) для имени пользователя обмена мгновенными сообщениями и объекты списка рассылки. Клиентские приложения используйте следующие идентификаторы записей для открытия и доступа к объектам, к которым они назначены.
   

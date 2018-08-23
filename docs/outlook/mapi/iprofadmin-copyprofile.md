@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: cd70f5ee7b58bdf0b1fd61b1056bfc77e3e35992
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e22111ec920d89e0874baf71946681c204cacd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809499"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571208"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Копирует профиль.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6478f2c6c8196fa332a7b019269e6a6266485d1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cda3de1719ec1b7cfca1a9ecdad7bc3b59a8b17d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809226"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571152"
 ---
 # <a name="imapitablegetstatus"></a>IMAPITable::GetStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает состояние в таблице и тип.
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 284b4b451a31a9478caf31fe855d38bfeab2caf3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a10209bd965591e9049027e46d84d904bba14065
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811573"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580231"
 ---
 # <a name="pidtagprofileserverfullversion-canonical-property"></a>Каноническое свойство PidTagProfileServerFullVersion
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает полные сведения о Microsoft Exchange Server, к которому подключены учетных записей в профиле версии и построения.
   

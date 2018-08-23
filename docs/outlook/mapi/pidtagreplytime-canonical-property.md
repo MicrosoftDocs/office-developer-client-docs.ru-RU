@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d01f89bd-012e-4f08-9afa-e33aad9679a4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: faf1e31153475283c9592556e891252e5d5bba20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 598fa59cd412d62907ce3c7f2f05b9f153655091
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811706"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569941"
 ---
 # <a name="pidtagreplytime-canonical-property"></a>Каноническое свойство PidTagReplyTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит крайний срок для сообщения. 
   

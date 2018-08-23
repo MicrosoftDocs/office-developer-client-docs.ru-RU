@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 216691f2c1f94d658a5aa968d6a19148a9b3c06a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2bdbeb39cce1e62569f364875c3828cdd530c63
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812442"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577249"
 ---
 # <a name="synchronize-contents-state"></a>Состояние синхронизации содержимого
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описываются двоичных файлов состояния содержимое синхронизировать конечного автомата репликации. 
   
@@ -53,5 +53,5 @@ ms.locfileid: "19812442"
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[SYNCSTATE](syncstate.md)
+[СОСТОЯНИЕ](syncstate.md)
 

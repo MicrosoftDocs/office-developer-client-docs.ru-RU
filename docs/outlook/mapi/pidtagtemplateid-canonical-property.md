@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1a418c76-ebc7-47f2-ac91-797162e6e099
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7672c18f18d39ed1e4e8b4664ba7990563419a20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f95b97fc4150695c77871f8c4f768f6b5488ceb4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812007"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572464"
 ---
 # <a name="pidtagtemplateid-canonical-property"></a>Каноническое свойство PidTagTemplateid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), выраженное как формат идентификатора навсегда.
   

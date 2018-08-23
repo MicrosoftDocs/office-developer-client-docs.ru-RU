@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5650fa2a-6e62-451c-964e-363f7bee2344
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a37d8138547c8c4e9308dbb0ebbc6750b152d795
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 163bce38d665a8566fd703420ff1f7b2f44f7c63
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809092"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571810"
 ---
 # <a name="imapisession--iunknown"></a>IMAPISession : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Управляет объекты, связанные с сеанса входа MAPI.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ce13f11-5787-4ea5-a84f-b1e3824529ee
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 713a177d5ceddf5fd4d97a0e35d87b2250748faf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db4b8d99c960deb3de3d228b2bf9549738501bcc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808906"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576283"
 ---
 # <a name="imapiformcontainerresolvemessageclass"></a>IMAPIFormContainer::ResolveMessageClass
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Разрешает класс сообщения в его формы в контейнере формы и возвращает объект сведения формы для этой формы.
   

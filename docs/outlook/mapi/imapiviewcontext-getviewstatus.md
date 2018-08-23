@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2e5ec914-7171-41ce-a6fe-78dd80ac32ff
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fb543f4188578483333614cb5768f903c9f243d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 992d51526c45334f6db3738e36994f4bb9c07c6e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809278"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572258"
 ---
 # <a name="imapiviewcontextgetviewstatus"></a>IMAPIViewContext::GetViewStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Извлекает текущее состояние просмотра. 
   

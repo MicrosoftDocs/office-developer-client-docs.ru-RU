@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a5e9f807-12a9-4bc9-a6a5-17579e747ffa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0a83e0aa8f7ab1eb1f30e3ba97d3ea36f16fd873
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6017871b9567406af0898eede0d5659b468b3343
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811335"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581036"
 ---
 # <a name="pidtagmappingsignature-canonical-property"></a>Каноническое свойство PidTagMappingSignature
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сопоставления подпись для именованных свойств конкретного объекта MAPI. 
   

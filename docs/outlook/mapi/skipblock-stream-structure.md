@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d84704300602bada4cf93c9d3f6622feaf16f352
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7be498473ef86b11006702f85089f0f95bb2e37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812316"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580903"
 ---
 # <a name="skipblock-stream-structure"></a>Структура потока SkipBlock
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Структура потока SkipBlock — блок данных, который начинается с целое число, указывающее длину оставшихся часть блока. Эта структура потока существует в потоке [FieldDefinition](fielddefinition-stream-structure.md) Если определение поля в формате PropDefV2. 
   

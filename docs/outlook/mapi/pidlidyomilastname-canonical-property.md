@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6d13f8f3-42fb-4942-b8fd-4cad66924811
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8baa0eb3deaa5fe934d7c63d40a53117b0366720
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff0351989b0d771da77dc301c415d2079eaf7439
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810670"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578936"
 ---
 # <a name="pidlidyomilastname-canonical-property"></a>Каноническое свойство PidLidYomiLastName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает фонетическую транскрипцию фамилию контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810670"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x0000802D  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

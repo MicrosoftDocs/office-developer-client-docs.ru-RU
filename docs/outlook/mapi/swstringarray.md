@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1578e26ec96f69975c2304cb185f352193a52c2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3f53a894b7f7cdaa68e66530c7bd99bf49b9ed0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812438"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581358"
 ---
 # <a name="swstringarray"></a>SWStringArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив строк символов, которые используются для описания свойства типа PT_MV_UNICODE. 
   

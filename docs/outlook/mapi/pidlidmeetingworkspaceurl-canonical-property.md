@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30d7b5e5-be59-4c04-b4dc-4fb59abac2b6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1fbe6084ad2d331bf056ea407fb8081e405b5632
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ee6943c6ff644b04d742e93638e2736ffaacc8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810420"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575408"
 ---
 # <a name="pidlidmeetingworkspaceurl-canonical-property"></a>Каноническое свойство PidLidMeetingWorkspaceUrl
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает URL-адрес, который связан с объектом календарь рабочей области для собраний.
   

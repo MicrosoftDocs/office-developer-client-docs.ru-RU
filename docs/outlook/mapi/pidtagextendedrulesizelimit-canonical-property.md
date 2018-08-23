@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 87186764-fb58-4cdf-804d-bb13c5a8cb65
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 01d25614780f10f30d9e1314ea7f60ad3fbb4af0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 336f2b4bd6a4251548284eae91a51ad7018949c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811119"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582128"
 ---
 # <a name="pidtagextendedrulesizelimit-canonical-property"></a>Каноническое свойство PidTagExtendedRuleSizeLimit
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит максимальный размер в байтах, пользователь может накапливать для одного правила «расширенный».
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811119"
 |Связанные свойства:  <br/> |PR_EXTENDED_RULE_SIZE_LIMIT  <br/> |
 |Идентификатор:  <br/> |0x0E9B  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Правила  <br/> |
+|Область:  <br/> |Rules  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

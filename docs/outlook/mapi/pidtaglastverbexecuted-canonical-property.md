@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 502f0261-697f-41bf-8530-75e1d0f503e5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3c1a1313a6d24e06cf4d92f5eb57368696a4862e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe75a242772441b23d3aaa87fc57486d1f074914
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811314"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581659"
 ---
 # <a name="pidtaglastverbexecuted-canonical-property"></a>Каноническое свойство PidTagLastVerbExecuted
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит последний выполнения команды.
   
@@ -60,7 +60,7 @@ ms.locfileid: "19811314"
 |Из него почты Office  <br/> |0x0000011B  <br/> |
 |Отзыв почты  <br/> |0x0000011C  <br/> |
 |Записанные почты  <br/> |0x00000139  <br/> |
-|Контакт  <br/> |0x00000200  <br/> |
+|Contact  <br/> |0x00000200  <br/> |
 |Список рассылки  <br/> |0x00000201  <br/> |
 |Заметка, синий  <br/> |0x00000300  <br/> |
 |Заметка, зеленый  <br/> |0x00000301  <br/> |

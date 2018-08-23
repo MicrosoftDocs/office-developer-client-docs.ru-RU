@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ebfccb6-967a-4f8e-9d94-94c50ba65438
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0e1fbab53589a4ebf8681d5fe738ad625d31c18f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b83a4acf30f498a0d17cc2c3c76f40c2c3c4b96
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811845"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582016"
 ---
 # <a name="pidtagscheduleinfofreebusymerged-canonical-property"></a>Каноническое свойство PidTagScheduleInfoFreeBusyMerged
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит время, для которых имеет значение состояния занятости на «занят» или об отсутствии на работе.
   

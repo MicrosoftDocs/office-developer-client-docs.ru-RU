@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ecc5439b4abbbfd920fba5456db7462f7967388f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f43a50d08daedc623fa1e4570eafa5d58be71f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812399"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577438"
 ---
 # <a name="support-object-overview"></a>Обзор поддержки объектов
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI предоставляющей объект поддержки объект, реализующий [IMAPISupport: IUnknown](imapisupportiunknown.md) интерфейс для всех поставщиков услуг при входе в систему и для всех служб сообщения во время настройки. 
   

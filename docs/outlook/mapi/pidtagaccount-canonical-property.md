@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bec199b5-abfd-4686-ad59-21092212e1a5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ab2efebe91f871452b243150367b83a1d53f8a52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a244322659403b927738261a28a7af0f070bd64
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810804"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578404"
 ---
 # <a name="pidtagaccount-canonical-property"></a>Каноническое свойство PidTagAccount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя учетной записи получателя. 
   

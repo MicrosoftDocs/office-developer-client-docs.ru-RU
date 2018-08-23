@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7419a0df7a2f3b76caeeb1ca564624d437eddd52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c9252e83ce212bacf185d0eedb75d30617f9807
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809489"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581750"
 ---
 # <a name="iostx--iunknown"></a>IOSTX : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет методы для синхронизации. Этот интерфейс извлекает сведения, необходимые для репликации изменений локального сервера и сервера изменений в локальном хранилище.
   

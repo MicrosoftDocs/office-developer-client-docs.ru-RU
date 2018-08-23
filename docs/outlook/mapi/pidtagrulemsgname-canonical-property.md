@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eefbcdd4-9841-4742-b976-e85c8e686dda
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 962f77662452138d596b0a9364775f24118e66ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 83436f2183e05fe6c3b2672728b37d518d532bf9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811807"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582226"
 ---
 # <a name="pidtagrulemsgname-canonical-property"></a>Каноническое свойство PidTagRuleMsgName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя расширенного правила.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811807"
 |Связанные свойства:  <br/> |PR_RULE_MSG_NAME  <br/> |
 |Идентификатор:  <br/> |0x65EC  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Правила  <br/> |
+|Область:  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

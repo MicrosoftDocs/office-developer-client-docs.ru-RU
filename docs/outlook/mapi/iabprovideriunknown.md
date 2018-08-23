@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3f98d982-156d-43d7-8b0b-94d8c24debef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 10d646bb2d6fbc11e726a50ba32e34ba172ec1e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 742f934e980a2b8627c4e50088a9c23166d1cf6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808742"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582114"
 ---
 # <a name="iabprovider--iunknown"></a>IABProvider : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет метод, войдите в систему на объект поставщик адресной книги, а также способа в недействительное состояние объекта поставщик адресной книги.
   

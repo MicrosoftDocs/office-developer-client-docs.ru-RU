@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0d8d1b8509f699b20f6e436d8af2c1d0d97cf4ba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09c6540f2a224b7dc89a62c34cfb0c867cef4632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808425"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570851"
 ---
 # <a name="fequalnames"></a>FEqualNames
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет, одинаковы ли два MAPI с именем свойства. 
   
