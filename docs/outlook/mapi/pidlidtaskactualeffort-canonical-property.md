@@ -12,60 +12,60 @@ api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0782191010341019ebea71ebf545dec490521520
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a145a103620d23dae4f6a48c225251e8aecc278e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810556"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593671"
 ---
-# <a name="pidlidtaskactualeffort-canonical-property"></a><span data-ttu-id="758c9-103">Каноническое свойство PidLidTaskActualEffort</span><span class="sxs-lookup"><span data-stu-id="758c9-103">PidLidTaskActualEffort Canonical Property</span></span>
+# <a name="pidlidtaskactualeffort-canonical-property"></a><span data-ttu-id="5607c-103">Каноническое свойство PidLidTaskActualEffort</span><span class="sxs-lookup"><span data-stu-id="5607c-103">PidLidTaskActualEffort Canonical Property</span></span>
 
   
   
-<span data-ttu-id="758c9-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="758c9-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="5607c-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5607c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="758c9-105">Указывает, что пользователь выполнять задачи в минутах.</span><span class="sxs-lookup"><span data-stu-id="758c9-105">Indicates the number of minutes that the user performed a task.</span></span>
+<span data-ttu-id="5607c-105">Указывает, что пользователь выполнять задачи в минутах.</span><span class="sxs-lookup"><span data-stu-id="5607c-105">Indicates the number of minutes that the user performed a task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="758c9-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="758c9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="758c9-107">dispidTaskActualEffort</span><span class="sxs-lookup"><span data-stu-id="758c9-107">dispidTaskActualEffort</span></span>  <br/> |
-|<span data-ttu-id="758c9-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="758c9-108">Property set:</span></span>  <br/> |<span data-ttu-id="758c9-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="758c9-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="758c9-110">Длинный идентификатор (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="758c9-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="758c9-111">0x00008110</span><span class="sxs-lookup"><span data-stu-id="758c9-111">0x00008110</span></span>  <br/> |
-|<span data-ttu-id="758c9-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="758c9-112">Data type:</span></span>  <br/> |<span data-ttu-id="758c9-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="758c9-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="758c9-114">Область:</span><span class="sxs-lookup"><span data-stu-id="758c9-114">Area:</span></span>  <br/> |<span data-ttu-id="758c9-115">Task</span><span class="sxs-lookup"><span data-stu-id="758c9-115">Task</span></span>  <br/> |
+|<span data-ttu-id="5607c-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="5607c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5607c-107">dispidTaskActualEffort</span><span class="sxs-lookup"><span data-stu-id="5607c-107">dispidTaskActualEffort</span></span>  <br/> |
+|<span data-ttu-id="5607c-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="5607c-108">Property set:</span></span>  <br/> |<span data-ttu-id="5607c-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="5607c-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="5607c-110">Длинный идентификатор (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="5607c-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="5607c-111">0x00008110</span><span class="sxs-lookup"><span data-stu-id="5607c-111">0x00008110</span></span>  <br/> |
+|<span data-ttu-id="5607c-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="5607c-112">Data type:</span></span>  <br/> |<span data-ttu-id="5607c-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="5607c-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="5607c-114">Область:</span><span class="sxs-lookup"><span data-stu-id="5607c-114">Area:</span></span>  <br/> |<span data-ttu-id="5607c-115">Task</span><span class="sxs-lookup"><span data-stu-id="5607c-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="758c9-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="758c9-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5607c-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="5607c-116">Remarks</span></span>
 
-<span data-ttu-id="758c9-117">Значение должно быть больше или равно 0 и меньше, чем 0x5AE980DF (1,525,252,319), где 480 минут равно один день и 2400 минут равно 1 неделя (8 часов рабочего дня и пять дней в неделе).</span><span class="sxs-lookup"><span data-stu-id="758c9-117">The value must be greater than or equal to 0 and less than 0x5AE980DF (1,525,252,319), where 480 minutes equal one day and 2400 minutes equal one week (eight hours in a work day and five days in a work week).</span></span>
+<span data-ttu-id="5607c-117">Значение должно быть больше или равно 0 и меньше, чем 0x5AE980DF (1,525,252,319), где 480 минут равно один день и 2400 минут равно 1 неделя (8 часов рабочего дня и пять дней в неделе).</span><span class="sxs-lookup"><span data-stu-id="5607c-117">The value must be greater than or equal to 0 and less than 0x5AE980DF (1,525,252,319), where 480 minutes equal one day and 2400 minutes equal one week (eight hours in a work day and five days in a work week).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="758c9-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="758c9-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="5607c-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="5607c-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="758c9-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="758c9-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="5607c-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="5607c-119">Protocol specifications</span></span>
 
-<span data-ttu-id="758c9-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="758c9-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="5607c-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5607c-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="758c9-121">Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="758c9-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="5607c-121">Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="5607c-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="758c9-122">[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="758c9-122">[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="5607c-122">[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5607c-122">[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="758c9-123">Задает свойства и операции, допустимые для объектов списка рассылки и контактов.</span><span class="sxs-lookup"><span data-stu-id="758c9-123">Specifies the properties and operations that are permissible for contact and personal distribution list objects.</span></span>
+> <span data-ttu-id="5607c-123">Задает свойства и операции, допустимые для объектов списка рассылки и контактов.</span><span class="sxs-lookup"><span data-stu-id="5607c-123">Specifies the properties and operations that are permissible for contact and personal distribution list objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="758c9-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="758c9-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="5607c-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="5607c-124">Header files</span></span>
 
-<span data-ttu-id="758c9-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="758c9-125">Mapidefs.h</span></span>
+<span data-ttu-id="5607c-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5607c-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="758c9-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="758c9-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="5607c-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="5607c-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="758c9-127">См. также</span><span class="sxs-lookup"><span data-stu-id="758c9-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5607c-127">См. также</span><span class="sxs-lookup"><span data-stu-id="5607c-127">See also</span></span>
 
 
 
-[<span data-ttu-id="758c9-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="758c9-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="5607c-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="5607c-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="758c9-129">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="758c9-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="5607c-129">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="5607c-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="758c9-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="758c9-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="5607c-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="5607c-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="758c9-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="758c9-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="5607c-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="5607c-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
