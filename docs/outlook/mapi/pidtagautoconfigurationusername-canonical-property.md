@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 05dfa0e2-4ab1-4f57-9009-6a815aca87bd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f6f31905a7a5574d86f569664c907ad65fc64c93
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c061760fd089db0e56c79479d2d095627355d72e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810883"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590549"
 ---
-# <a name="pidtagautoconfigurationusername-canonical-property"></a><span data-ttu-id="71b9e-103">Каноническое свойство PidTagAutoConfigurationUserName</span><span class="sxs-lookup"><span data-stu-id="71b9e-103">PidTagAutoConfigurationUserName Canonical Property</span></span>
+# <a name="pidtagautoconfigurationusername-canonical-property"></a><span data-ttu-id="1b378-103">Каноническое свойство PidTagAutoConfigurationUserName</span><span class="sxs-lookup"><span data-stu-id="1b378-103">PidTagAutoConfigurationUserName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="71b9e-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="71b9e-104">**Applies to:** Outlook \*</span></span> 
+<span data-ttu-id="1b378-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1b378-104">**Applies to**: Office 365 | Outlook | Outlook 2016</span></span> 
   
-<span data-ttu-id="71b9e-105">Представляет отображаемое имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="71b9e-105">Gets the user's display name.</span></span>
+<span data-ttu-id="1b378-105">Представляет отображаемое имя пользователя.</span><span class="sxs-lookup"><span data-stu-id="1b378-105">Represents the user's display name.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="71b9e-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="71b9e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="71b9e-107">PR_AUTOCFG_USER_NAME_W</span><span class="sxs-lookup"><span data-stu-id="71b9e-107">PR_AUTOCFG_USER_NAME_W</span></span>  <br/> |
-|<span data-ttu-id="71b9e-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="71b9e-108">Identifier</span></span>  <br/> |<span data-ttu-id="71b9e-109">0x67FE</span><span class="sxs-lookup"><span data-stu-id="71b9e-109">0x67FE</span></span>  <br/> |
-|<span data-ttu-id="71b9e-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="71b9e-110">Data type</span></span>  <br/> |<span data-ttu-id="71b9e-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="71b9e-111">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="71b9e-112">Область:</span><span class="sxs-lookup"><span data-stu-id="71b9e-112">Area</span></span>  <br/> |<span data-ttu-id="71b9e-113">Вложение в сообщение</span><span class="sxs-lookup"><span data-stu-id="71b9e-113">Message with uuencode attachment</span></span>  <br/> |
+|<span data-ttu-id="1b378-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="1b378-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1b378-107">PR_AUTOCFG_USER_NAME_W</span><span class="sxs-lookup"><span data-stu-id="1b378-107">PR_AUTOCFG_USER_NAME_W</span></span>  <br/> |
+|<span data-ttu-id="1b378-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="1b378-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1b378-109">0x67FE</span><span class="sxs-lookup"><span data-stu-id="1b378-109">0x67FE</span></span>  <br/> |
+|<span data-ttu-id="1b378-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="1b378-110">Data type:</span></span>  <br/> |<span data-ttu-id="1b378-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="1b378-111">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="1b378-112">Область:</span><span class="sxs-lookup"><span data-stu-id="1b378-112">Area:</span></span>  <br/> |<span data-ttu-id="1b378-113">Вложение в сообщение</span><span class="sxs-lookup"><span data-stu-id="1b378-113">Message attachment</span></span>  <br/> |
    
 
