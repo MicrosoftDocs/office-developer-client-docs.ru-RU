@@ -12,47 +12,47 @@ api_type:
 - COM
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c6192e6f92078f2f9bab0d55e9952d21ebb82af6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28dd45f29610b7ad56b4d3302715311569d497c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809513"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577417"
 ---
-# <a name="iprofadmin--iunknown"></a><span data-ttu-id="0ba7d-103">IProfAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0ba7d-103">IProfAdmin : IUnknown</span></span>
+# <a name="iprofadmin--iunknown"></a><span data-ttu-id="ab875-103">IProfAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ab875-103">IProfAdmin : IUnknown</span></span>
 
   
   
-<span data-ttu-id="0ba7d-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="0ba7d-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="ab875-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ab875-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0ba7d-105">Поддерживает управления профилями.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-105">Supports the administration of profiles.</span></span> 
+<span data-ttu-id="ab875-105">Поддерживает управления профилями.</span><span class="sxs-lookup"><span data-stu-id="ab875-105">Supports the administration of profiles.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0ba7d-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="0ba7d-106">Header file:</span></span>  <br/> |<span data-ttu-id="0ba7d-107">Mapix.h</span><span class="sxs-lookup"><span data-stu-id="0ba7d-107">Mapix.h</span></span>  <br/> |
-|<span data-ttu-id="0ba7d-108">Предоставляемые:</span><span class="sxs-lookup"><span data-stu-id="0ba7d-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="0ba7d-109">Объект администрирования профилей</span><span class="sxs-lookup"><span data-stu-id="0ba7d-109">Profile administration object</span></span>  <br/> |
-|<span data-ttu-id="0ba7d-110">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="0ba7d-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="0ba7d-111">MAPI</span><span class="sxs-lookup"><span data-stu-id="0ba7d-111">MAPI</span></span>  <br/> |
-|<span data-ttu-id="0ba7d-112">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="0ba7d-112">Called by:</span></span>  <br/> |<span data-ttu-id="0ba7d-113">Клиентские приложения</span><span class="sxs-lookup"><span data-stu-id="0ba7d-113">Client applications</span></span>  <br/> |
-|<span data-ttu-id="0ba7d-114">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="0ba7d-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="0ba7d-115">IID_IProfAdmin</span><span class="sxs-lookup"><span data-stu-id="0ba7d-115">IID_IProfAdmin</span></span>  <br/> |
-|<span data-ttu-id="0ba7d-116">Тип указателя:</span><span class="sxs-lookup"><span data-stu-id="0ba7d-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="0ba7d-117">LPPROFADMIN</span><span class="sxs-lookup"><span data-stu-id="0ba7d-117">LPPROFADMIN</span></span>  <br/> |
+|<span data-ttu-id="ab875-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="ab875-106">Header file:</span></span>  <br/> |<span data-ttu-id="ab875-107">Mapix.h</span><span class="sxs-lookup"><span data-stu-id="ab875-107">Mapix.h</span></span>  <br/> |
+|<span data-ttu-id="ab875-108">Предоставляемые:</span><span class="sxs-lookup"><span data-stu-id="ab875-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="ab875-109">Объект администрирования профилей</span><span class="sxs-lookup"><span data-stu-id="ab875-109">Profile administration object</span></span>  <br/> |
+|<span data-ttu-id="ab875-110">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="ab875-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="ab875-111">MAPI</span><span class="sxs-lookup"><span data-stu-id="ab875-111">MAPI</span></span>  <br/> |
+|<span data-ttu-id="ab875-112">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="ab875-112">Called by:</span></span>  <br/> |<span data-ttu-id="ab875-113">Клиентские приложения</span><span class="sxs-lookup"><span data-stu-id="ab875-113">Client applications</span></span>  <br/> |
+|<span data-ttu-id="ab875-114">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="ab875-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="ab875-115">IID_IProfAdmin</span><span class="sxs-lookup"><span data-stu-id="ab875-115">IID_IProfAdmin</span></span>  <br/> |
+|<span data-ttu-id="ab875-116">Тип указателя:</span><span class="sxs-lookup"><span data-stu-id="ab875-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="ab875-117">LPPROFADMIN</span><span class="sxs-lookup"><span data-stu-id="ab875-117">LPPROFADMIN</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="0ba7d-118">Порядке vtable</span><span class="sxs-lookup"><span data-stu-id="0ba7d-118">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="ab875-118">Порядке vtable</span><span class="sxs-lookup"><span data-stu-id="ab875-118">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="0ba7d-119">GetLastError</span><span class="sxs-lookup"><span data-stu-id="0ba7d-119">GetLastError</span></span>](iprofadmin-getlasterror.md) <br/> |<span data-ttu-id="0ba7d-120">Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о предыдущем ошибки, которые произошли в объект администрирования профилей.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-120">Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error that occurred to a profile administration object.</span></span>  <br/> |
-|[<span data-ttu-id="0ba7d-121">GetProfileTable</span><span class="sxs-lookup"><span data-stu-id="0ba7d-121">GetProfileTable</span></span>](iprofadmin-getprofiletable.md) <br/> |<span data-ttu-id="0ba7d-122">Предоставляет доступ к таблице профилей таблицу, содержащую сведения обо всех доступных профилей.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-122">Provides access to the profile table, a table that contains information about all of the available profiles.</span></span>  <br/> |
-|[<span data-ttu-id="0ba7d-123">CreateProfile</span><span class="sxs-lookup"><span data-stu-id="0ba7d-123">CreateProfile</span></span>](iprofadmin-createprofile.md) <br/> |<span data-ttu-id="0ba7d-124">Создает новый профиль.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-124">Creates a new profile.</span></span>  <br/> |
-|[<span data-ttu-id="0ba7d-125">DeleteProfile</span><span class="sxs-lookup"><span data-stu-id="0ba7d-125">DeleteProfile</span></span>](iprofadmin-deleteprofile.md) <br/> |<span data-ttu-id="0ba7d-126">Удаляет профиль.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-126">Deletes a profile.</span></span>  <br/> |
-|[<span data-ttu-id="0ba7d-127">ChangeProfilePassword</span><span class="sxs-lookup"><span data-stu-id="0ba7d-127">ChangeProfilePassword</span></span>](iprofadmin-changeprofilepassword.md) <br/> |<span data-ttu-id="0ba7d-128">Рекомендуется использовать.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-128">Deprecated.</span></span> <span data-ttu-id="0ba7d-129">Изменение пароля для профиля.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-129">Changes the password for a profile.</span></span>  <br/> |
-|[<span data-ttu-id="0ba7d-130">CopyProfile</span><span class="sxs-lookup"><span data-stu-id="0ba7d-130">CopyProfile</span></span>](iprofadmin-copyprofile.md) <br/> |<span data-ttu-id="0ba7d-131">Копирует профиль.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-131">Copies a profile.</span></span>  <br/> |
-|[<span data-ttu-id="0ba7d-132">RenameProfile</span><span class="sxs-lookup"><span data-stu-id="0ba7d-132">RenameProfile</span></span>](iprofadmin-renameprofile.md) <br/> |<span data-ttu-id="0ba7d-133">Назначает новое имя профиля.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-133">Assigns a new name to a profile.</span></span>  <br/> |
-|[<span data-ttu-id="0ba7d-134">SetDefaultProfile</span><span class="sxs-lookup"><span data-stu-id="0ba7d-134">SetDefaultProfile</span></span>](iprofadmin-setdefaultprofile.md) <br/> |<span data-ttu-id="0ba7d-135">Устанавливает или удаляет профиль клиента по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-135">Sets or clears a client's default profile.</span></span>  <br/> |
-|[<span data-ttu-id="0ba7d-136">AdminServices</span><span class="sxs-lookup"><span data-stu-id="0ba7d-136">AdminServices</span></span>](iprofadmin-adminservices.md) <br/> |<span data-ttu-id="0ba7d-137">Предоставляет доступ к объекту администрирования службы сообщений для внесения изменений в службы сообщений в профиле.</span><span class="sxs-lookup"><span data-stu-id="0ba7d-137">Provides access to a message service administration object for making changes to the message services in a profile.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-119">GetLastError</span><span class="sxs-lookup"><span data-stu-id="ab875-119">GetLastError</span></span>](iprofadmin-getlasterror.md) <br/> |<span data-ttu-id="ab875-120">Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о предыдущем ошибки, которые произошли в объект администрирования профилей.</span><span class="sxs-lookup"><span data-stu-id="ab875-120">Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error that occurred to a profile administration object.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-121">GetProfileTable</span><span class="sxs-lookup"><span data-stu-id="ab875-121">GetProfileTable</span></span>](iprofadmin-getprofiletable.md) <br/> |<span data-ttu-id="ab875-122">Предоставляет доступ к таблице профилей таблицу, содержащую сведения обо всех доступных профилей.</span><span class="sxs-lookup"><span data-stu-id="ab875-122">Provides access to the profile table, a table that contains information about all of the available profiles.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-123">CreateProfile</span><span class="sxs-lookup"><span data-stu-id="ab875-123">CreateProfile</span></span>](iprofadmin-createprofile.md) <br/> |<span data-ttu-id="ab875-124">Создает новый профиль.</span><span class="sxs-lookup"><span data-stu-id="ab875-124">Creates a new profile.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-125">DeleteProfile</span><span class="sxs-lookup"><span data-stu-id="ab875-125">DeleteProfile</span></span>](iprofadmin-deleteprofile.md) <br/> |<span data-ttu-id="ab875-126">Удаляет профиль.</span><span class="sxs-lookup"><span data-stu-id="ab875-126">Deletes a profile.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-127">ChangeProfilePassword</span><span class="sxs-lookup"><span data-stu-id="ab875-127">ChangeProfilePassword</span></span>](iprofadmin-changeprofilepassword.md) <br/> |<span data-ttu-id="ab875-128">Рекомендуется использовать.</span><span class="sxs-lookup"><span data-stu-id="ab875-128">Deprecated.</span></span> <span data-ttu-id="ab875-129">Изменение пароля для профиля.</span><span class="sxs-lookup"><span data-stu-id="ab875-129">Changes the password for a profile.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-130">CopyProfile</span><span class="sxs-lookup"><span data-stu-id="ab875-130">CopyProfile</span></span>](iprofadmin-copyprofile.md) <br/> |<span data-ttu-id="ab875-131">Копирует профиль.</span><span class="sxs-lookup"><span data-stu-id="ab875-131">Copies a profile.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-132">RenameProfile</span><span class="sxs-lookup"><span data-stu-id="ab875-132">RenameProfile</span></span>](iprofadmin-renameprofile.md) <br/> |<span data-ttu-id="ab875-133">Назначает новое имя профиля.</span><span class="sxs-lookup"><span data-stu-id="ab875-133">Assigns a new name to a profile.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-134">SetDefaultProfile</span><span class="sxs-lookup"><span data-stu-id="ab875-134">SetDefaultProfile</span></span>](iprofadmin-setdefaultprofile.md) <br/> |<span data-ttu-id="ab875-135">Устанавливает или удаляет профиль клиента по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="ab875-135">Sets or clears a client's default profile.</span></span>  <br/> |
+|[<span data-ttu-id="ab875-136">AdminServices</span><span class="sxs-lookup"><span data-stu-id="ab875-136">AdminServices</span></span>](iprofadmin-adminservices.md) <br/> |<span data-ttu-id="ab875-137">Предоставляет доступ к объекту администрирования службы сообщений для внесения изменений в службы сообщений в профиле.</span><span class="sxs-lookup"><span data-stu-id="ab875-137">Provides access to a message service administration object for making changes to the message services in a profile.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0ba7d-138">См. также</span><span class="sxs-lookup"><span data-stu-id="0ba7d-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ab875-138">См. также</span><span class="sxs-lookup"><span data-stu-id="ab875-138">See also</span></span>
 
 
 
-[<span data-ttu-id="0ba7d-139">Интерфейсы MAPI</span><span class="sxs-lookup"><span data-stu-id="0ba7d-139">MAPI Interfaces</span></span>](mapi-interfaces.md)
+[<span data-ttu-id="ab875-139">Интерфейсы MAPI</span><span class="sxs-lookup"><span data-stu-id="ab875-139">MAPI Interfaces</span></span>](mapi-interfaces.md)
 
