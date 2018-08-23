@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9d40c21cde6bf3a6e8e37dda80dd6f900f233a0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a3a83153dc799154edc6a46946682684cad8a09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810967"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593776"
 ---
 # <a name="pidtagcontainerclass-canonical-property"></a>Каноническое свойство PidTagContainerClass
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит текстовая строка, описывающая тип папки. Несмотря на то, что это свойство игнорируется, как правило, версий Microsoft® Exchange Server до диспетчера почтовых ящиков Exchange Server 2003 ожидается, что это свойство должен быть установлен.
   
@@ -43,7 +43,7 @@ ms.locfileid: "19810967"
 |**Значение**|**Содержимое папки**|
 |:-----|:-----|
 |IPF. Встречи  <br/> |Встречи  <br/> |
-|IPF. Контакт  <br/> |Контакты  <br/> |
+|IPF. Контакт  <br/> |Contacts  <br/> |
 |IPF. Журнал  <br/> |Записи журнала в Outlook  <br/> |
 |IPF. Примечание  <br/> |Сообщения почты и заметки  <br/> |
 |IPF. Заметки  <br/> |Записки Outlook  <br/> |

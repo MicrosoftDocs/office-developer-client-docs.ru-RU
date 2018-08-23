@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 500437a4-e0bc-4368-b572-8aecded2621d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d5c91de3dff7e68994e8098d457f89da420228d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf4716bb92f9405986078282510d672e160c5921
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808139"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595428"
 ---
 # <a name="cbnewflatentry"></a>CbNewFLATENTRY
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов, должен быть размещен для новой структуры [FLATENTRY](flatentry.md) , содержащая идентификатор записи байтов указанного размера. 
   

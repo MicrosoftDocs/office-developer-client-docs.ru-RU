@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef5eb5c6-251e-4a3a-8855-7c28804a29ab
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e94692ac4eb401109fcb522e6224c8748bef37f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e303361f4f0dd3a08dbb362096d07b8b391a6d97
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812210"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594420"
 ---
 # <a name="sclocalpathfromunc"></a>ScLocalPathFromUNC
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Находит аналог локальный путь для указанного универсальных имен пути (UNC). 
   

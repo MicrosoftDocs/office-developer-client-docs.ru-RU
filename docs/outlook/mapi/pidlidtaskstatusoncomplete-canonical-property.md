@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: dfe66d5d-7b82-46c6-871b-2ce809bbca7e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cc467336b240ce4ee3fa2407f8e72e9c921bb9fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: beff2f67426707051e62e11776fead9abc0e1534
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810615"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595253"
 ---
 # <a name="pidlidtaskstatusoncomplete-canonical-property"></a>Каноническое свойство PidLidTaskStatusOnComplete
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, запросил ли отправить обновление сообщения электронной почты после их завершения назначенной задачи назначена задача.
   

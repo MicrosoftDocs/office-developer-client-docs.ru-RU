@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 403324b8-c992-4823-aa0f-0414b283debc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7a9a5d090babce8105fab43bf8401448373777cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b523277a3865e62e8ed95883213b28d2155ffb54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811334"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594798"
 ---
 # <a name="pidtaglisthelp-canonical-property"></a>Каноническое свойство PidTagListHelp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение в поле Заголовок списка-Help сообщение Multipurpose Internet Mail Extensions (MIME).
   

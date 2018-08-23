@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 95ef351e4fe906608319a3e25de8f20a44e23d9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b36e4697bfd4360f4ea6ea47c70eaaae434696d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595134"
 ---
 # <a name="handling-table-notification"></a>Обработка уведомлений в таблице
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В качестве альтернативы для регистрации непосредственно с объектом источника уведомлений, например, папки или обмена мгновенными сообщениями пользователя, клиента можно зарегистрировать уведомления на содержимое или таблицы иерархии. Отслеживание изменений в адресной книги, записи, папки и сообщения через содержимое или таблицы иерархии может быть проще и проще, чем через отдельные объекты. 
 

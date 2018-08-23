@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ed433dc1fcf2a366d2ece07ac06d4e12558e4aa7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14964f367e3dbca484c4e1612b374a6a72ddf17b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809606"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593783"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Открывает интерфейс потока на основе текста инкапсулированное сообщение.
   
@@ -55,7 +55,7 @@ MAPI_MODIFY
     
  _lppStream_
   
-> [out] Указатель на указатель на объект потока, который содержит текст из свойства **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) передается в инкапсулированное сообщение, которая поддерживает интерфейс [IStream](http://msdn.microsoft.com/library/stg.istream%28Office.15%29.aspx) . 
+> [out] Указатель на указатель на объект потока, который содержит текст из свойства **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) передается в инкапсулированное сообщение, которая поддерживает интерфейс [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 ## <a name="return-value"></a>������������ ��������
 

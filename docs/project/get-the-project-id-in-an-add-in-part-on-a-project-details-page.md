@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: Добавьте в части размещаются в iframe элементы, которые являются полностью изолирована от внешнего размещения страницы. Для получения сведений о текущем проекте из части надстройки на страницу сведений о Project (PDP), можно использовать метод window.postMessage, прослушиватель событий и обработчик событий, который разбор код проекта из сообщения.
-ms.openlocfilehash: 6704dae7ded385f86d2da47a1334ae4c81622a74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9f6d02f328860f46784f86c049581fa28bb4749
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812919"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594427"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Получение ИД проекта в веб-части надстройки на странице сведений о проекте
 
@@ -38,7 +38,7 @@ ms.locfileid: "19812919"
             
         - Необходимо войти в систему как кто-то отличную от учетной записи системы. Системную учетную запись не имеет разрешения, чтобы установить надстройку.
     
-[Необходимые условия для создания надстройки уровня приложения для Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) более подробные сведения о надстройках для проекта. В разделе [Настройка локальной среды разработки для SharePoint надстройки](http://msdn.microsoft.com/library/b0878c12-27c9-4eea-ae3b-7e79e5a8838d%28Office.15%29.aspx) рекомендации для локальной установки (включая отключение проверки замыкания на себя при необходимости). При разработке удаленно, видеть [Разработка приложений для SharePoint в удаленной системе](http://msdn.microsoft.com/library/bf35d59c-9b84-42e5-877e-fa6881a7b6fc%28Office.15%29.aspx).
+[Необходимые условия для создания надстройки уровня приложения для Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) более подробные сведения о надстройках для проекта. В разделе [Настройка локальной среды разработки для SharePoint надстройки](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) рекомендации для локальной установки (включая отключение проверки замыкания на себя при необходимости). При разработке удаленно, видеть [Разработка приложений для SharePoint в удаленной системе](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
   
 ## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>Создание размещенных в SharePoint и надстройка клиентского веб-части
 <a name="CreateApp"> </a>

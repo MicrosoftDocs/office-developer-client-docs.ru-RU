@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9bd31233-fc8d-4e0a-9f1b-218c5ecb6d1b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c64f84da6bece809176bf67985b6f55ce92414a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d93fde7d654f0ee56dcda9f2fb69ad622e476dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812266"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593622"
 ---
 # <a name="setting-address-book-options"></a>Установка параметров адресной книги
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Можно задать три свойства, описывающие параметры для использования в адресной книге:
   

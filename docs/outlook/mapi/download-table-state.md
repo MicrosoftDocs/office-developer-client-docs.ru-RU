@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6a29cc131b4fe352b067e343376b2b705e8e3244
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e75407f62a7e6440f6c8dca8c1d2c76843048da4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808350"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595400"
 ---
 # <a name="download-table-state"></a>Состояние скачивания данных таблицы
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описываются двоичных файлов состояния в таблице загрузки конечного автомата репликации. 
   
@@ -49,5 +49,5 @@ ms.locfileid: "19808350"
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[SYNCSTATE](syncstate.md)
+[СОСТОЯНИЕ](syncstate.md)
 

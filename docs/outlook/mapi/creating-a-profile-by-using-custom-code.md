@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5632cd25-58f5-4b9c-906c-cd377abc3daf
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 74869293215b86c69ab4e0b1337be6014419fa3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c14d58e8a03633615798b50b256b9cc54fcc4f4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808242"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594735"
 ---
 # <a name="creating-a-profile-by-using-custom-code"></a>Создание профиля с помощью пользовательского кода
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Если вы решаете написать код, чтобы создать профиль, убедитесь в том, что вам понять, как порядок записи профиля и тип и объем сведений, необходимых для каждой записи. Влияние на порядок записей в профиле объясняется [Профили MAPI](mapi-profiles.md).
   

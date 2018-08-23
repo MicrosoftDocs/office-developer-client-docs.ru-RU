@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 54e65b23-7c5f-4ef3-9e32-329f5f461e1e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5c4253e56e0488b7de983b6d7e8af973cef69f6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37a79d0106de9ec2e75e8ea3954105d7ebaa52b5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811833"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595281"
 ---
 # <a name="pidtagscheduleinfofreebusy-canonical-property"></a>Каноническое свойство PidTagScheduleInfoFreeBusy
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Устаревшие сведения.
   

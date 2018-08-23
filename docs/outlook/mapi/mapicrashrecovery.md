@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 22f17df9347b4744dfe6598e7007469ffb9e5251
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b07d794a8f54477c6706cb70af60f7f7ef57d49
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809897"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595344"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Функция **MAPICrashRecovery** проверяет состояние файл личных папок (PST) или файл автономной папки (OST) общей памяти. Если объем памяти, находится в стабильном состоянии, функция **MAPICrashRecovery** перемещает данные на диске и предотвращает дальнейший доступ на чтение или запись, пока процесс завершается. 
   

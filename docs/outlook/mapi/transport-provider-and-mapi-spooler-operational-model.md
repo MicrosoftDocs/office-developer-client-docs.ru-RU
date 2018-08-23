@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0e6c38091e5b2e10e82012bc470ea41037f57c7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26d9982248fde015a584eb79cc248bafc5afc6bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812515"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594035"
 ---
 # <a name="transport-provider-and-mapi-spooler-operational-model"></a>Поставщик транспорта и операционная модель системы буферизации MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Инициализация поставщика транспорта, загрузки, обработки, завершение работы и deinitialization выполняются посредством ряда вызовов из очереди MAPI поставщика транспорта. Вызовы упорядочены следующим образом:
   

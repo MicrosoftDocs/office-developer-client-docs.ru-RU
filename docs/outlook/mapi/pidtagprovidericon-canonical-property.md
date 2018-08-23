@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 92407d56bd095135ac1c6c292aa4b1da4755e93c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61dc61872e8d1ed525d5ac3c46c56ccc3e45ea5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811592"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593699"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>Каноническое свойство PidTagProviderIcon
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит строку Юникода, задает пользовательский значок или значки, отображаемые для поставщика MAPI в строке состояния Microsoft Office Outlook в США и в автономном режиме.
   

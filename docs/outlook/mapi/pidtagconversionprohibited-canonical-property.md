@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 645ea2be2f690701780932e891da3dc32bb1716f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e15a0b09057d9aab1e6c5bec6c314463f15e329
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811027"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593944"
 ---
 # <a name="pidtagconversionprohibited-canonical-property"></a>Каноническое свойство PidTagConversionProhibited
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если сообщение преобразования запрещены по умолчанию для соответствующего пользователя обмена мгновенными сообщениями.
   

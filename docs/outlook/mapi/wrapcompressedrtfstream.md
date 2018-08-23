@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9025bcebdd5e656070b31cd82e6519166a3e3791
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7095907a1fb437e225922d0bef08b4ad79a4b6f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812627"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594595"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает текстовый поток в несжатую форматированный текст (RTF) в сжатом формате, используемые в свойстве **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
   

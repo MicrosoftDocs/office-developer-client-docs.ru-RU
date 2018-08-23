@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9644b8c5-ecc0-4ea3-972a-2169c78b99e5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b082d063cc77be46fcd3d4e07ec6753f78f8f335
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e2552cbeaf528de634c39a5ebd175a2615782b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812115"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594441"
 ---
 # <a name="providing-read-and-nonread-reports-for-message-store-providers"></a>Предоставление отчетов о прочтении и непрочтении для поставщиков хранилищ сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Если поставщик хранения сообщения можно получать сообщения, необходимые для поддержки чтения и nonread отчетами сообщений, полученных поставщиком хранилища сообщений. Если получено сообщение содержит свойство **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) и значение этого свойства имеет значение TRUE, при открытии сообщения, хранилище сообщений необходимо отправить сообщение уведомления отправителя Указывает, что о сообщениях. Аналогично Если пользователь удаляет сообщение перед открытием, хранилища сообщений следует заключать ее в ответ отправителю, указывающего на то, что сообщение не было прочитано.
   

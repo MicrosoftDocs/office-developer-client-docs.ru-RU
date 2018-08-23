@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a95222f8ec75c519558636cf54111f28cbe14066
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b457fce208923ce01686812f20031e365842ccd8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809305"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593678"
 ---
 # <a name="implementing-an-advise-sink-object"></a>Реализация объекта приемника уведомлений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиент можно реализовать собственных объектов приемника уведомлений или использовать вспомогательную функцию, [HrAllocAdviseSink](hrallocadvisesink.md). **HrAllocAdviseSink** создает объект приемника уведомлений с реализацией **OnNotify** , которая вызывает функцию обратного вызова. 
   

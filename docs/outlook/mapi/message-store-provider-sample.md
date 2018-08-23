@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b3c907b0a53a41a52516b23ffb1cf7400d887d89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25c606531aa9a7436306a1b87c32aab49fd975db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810014"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593916"
 ---
 # <a name="message-store-provider-sample"></a>Пример поставщика хранилища сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Оболочку PST поставщик хранилища использует поставщика личных папок (PST) файла как серверные компоненты для хранения данных. Оболочку поставщика хранилища PST-файлов можно использовать интерфейс API репликации. 
   

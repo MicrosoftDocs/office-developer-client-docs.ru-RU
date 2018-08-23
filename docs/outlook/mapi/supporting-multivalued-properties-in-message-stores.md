@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1e951ef6-899d-4277-8450-eb222a3d0ebf
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 13681a4ad0627ba5808c59e38db219e9f930e450
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7be7d3e13a9cae8628a3d6a6856c3a7ceef32c89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812437"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595218"
 ---
 # <a name="supporting-multivalued-properties-in-message-stores"></a>��������� ������������ ������� � �������� ���������
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 The requirements for supporting properties that have multiple values are documented in [����� ������� MAPI](mapi-property-overview.md). Multiple-value property support is not required for message store providers, but it is recommended, particularly for default message store providers. Some other features, such as folder form libraries, do require multiple-value property support.
   

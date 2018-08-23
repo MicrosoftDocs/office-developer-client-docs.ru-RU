@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f6cc66f-a08e-4f8e-b33a-d3674319248e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b634f815d2aedecc716227c6525b846db38ca869
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02d2c30fede7e554910a1bedb01b79c488447bb3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811970"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595358"
 ---
 # <a name="pidtagstoreprovider-canonical-property"></a>Каноническое свойство PidTagStoreProvider
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит заданный поставщиком [MAPIUID](mapiuid.md) структуру, указывающую тип хранилища сообщений. 
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0c691c31b08d507b1ca32d38c37387325b6d5d8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3dffb65ea4f2c19966962a7f58cfc33f767fca83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810054"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594077"
 ---
 # <a name="olflagicon"></a>OlFlagIcon
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает ли элемент имеет флаг, и если он установлен, цвет, отмеченного элемента.
   

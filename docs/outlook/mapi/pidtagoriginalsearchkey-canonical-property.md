@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac5eb91d-31c9-459b-bb22-f4ccfc92d1db
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 26854b640669bbc6479ce90ba9cad18cdf4d9264
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69108529b13c8c5523f0ea92ef627c69a6722469
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811474"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594581"
 ---
 # <a name="pidtagoriginalsearchkey-canonical-property"></a>Каноническое свойство PidTagOriginalSearchKey
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит исходного ключа поиска для записи, скопированные из адресной книги для Личная адресная книга или других доступным для записи адресной книги.
   

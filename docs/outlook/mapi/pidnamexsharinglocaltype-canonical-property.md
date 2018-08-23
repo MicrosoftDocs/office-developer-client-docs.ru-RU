@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 43549741-ea41-4ea6-9a33-3ede015f901f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3c246d83a3c0ea68b1daa07f53764837b94946fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2416861eaed510a27940e63095d1ff35a60e4d67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810792"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593951"
 ---
 # <a name="pidnamexsharinglocaltype-canonical-property"></a>Каноническое свойство PidNameXSharingLocalType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет версию строки свойства **dispidSharingLocalType** ([PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |Общий доступ к Local тип X  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

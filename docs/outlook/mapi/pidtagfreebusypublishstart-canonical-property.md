@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d059f913-3d61-4bec-8215-5b07f0fba488
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ccee84b8e548ee656366d07c81927a701e9b70f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d262c17ed433222cbb037ab6e86120d300df93a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811193"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594063"
 ---
 # <a name="pidtagfreebusypublishstart-canonical-property"></a>Каноническое свойство PidTagFreeBusyPublishStart
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит время начала публикации диапазона.
   

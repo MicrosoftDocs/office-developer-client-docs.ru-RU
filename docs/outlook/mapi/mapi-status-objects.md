@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 38310619-1b1d-4934-8533-d0612676c0b0
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f5b48f8cd4ef6ff41733ec9a18d1ab682f5e6bcb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69a4d25fc6a7abec68c94cc947e5944322d230a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809848"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594952"
 ---
 # <a name="mapi-status-objects"></a>Объекты состояния MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Объекты состояния о сведения обо всех ресурсах MAPI. Например поставщика услуг, процесс отправки и получения MAPI или в адресной книге.
   

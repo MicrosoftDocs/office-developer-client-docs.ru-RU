@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Разработчик приложения можно настроить Project Online сайта (SharePoint hosted) с помощью автономных приложений и/или надстройки Project. Богатый набор приложений — это возможно, в диапазоне от-адресации потребностей пользователей, участвующих в проекте функции поддержки отдела управления Проектами, таких как одно из следующих:'
-ms.openlocfilehash: c50ed12e9f1127f6313a02db4d84a151778e17b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812925"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594533"
 ---
 # <a name="from-0-to-60-with-project-online"></a>Быстрое начало разработки для Project Online
 
@@ -83,7 +83,7 @@ Project Online включает поддержку API для учета в сл
     
    Project Online проверяет приложения области надстройки и разрешения пользователя для управления доступа к данным на узле Project Online. Если явно отказано в доступе в один или оба параметров Project Online не дает доступ к данным. В противном случае доступа.
     
-3. Включите sideloading на вашем сайте. В статье [Настройка Project Online для разработки приложений ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)для получения дополнительных сведений. 
+3. Включите [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на вашем сайте.  
     
 4. Выполните построение проекта.
     
@@ -101,7 +101,7 @@ Project Online включает поддержку API для учета в сл
     
 - .NET framework 4.0 или более поздней версии
     
-- [Пакет SharePointOnline CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (для CSOM звонков) 
+- [Пакет SharePointOnline CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (для CSOM звонков) 
     
 - Язык программирования, таких как C# 
     
@@ -115,7 +115,7 @@ Project Online включает поддержку API для учета в сл
     
    Project Online проверяет приложения области надстройки и разрешения пользователя для управления доступа к данным на узле Project Online. Если явно отказано в доступе в один или оба параметров Project Online не дает доступ к данным. В противном случае доступа.
     
-3. Включите sideloading на вашем сайте. В статье [Настройка Project Online для разработки приложений ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)для получения дополнительных сведений. 
+3. Включите [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на вашем сайте. 
     
 4. Выполните построение проекта.
     
@@ -133,7 +133,7 @@ Project Online включает поддержку API для учета в сл
     
 - .NET framework 4.0 или более поздней версии
     
-- [Пакет SharePointOnline CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (для CSOM звонков) 
+- [Пакет SharePointOnline CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (для CSOM звонков) 
     
 - Язык программирования, таких как C# 
     
@@ -167,6 +167,6 @@ Project Online включает поддержку API для учета в сл
     
 ## <a name="see-also"></a>См. также
 
-Документация и примеры, связанные с Project Online и разработки приложений с помощью CSOM в разделе [Портал проектов разработки](http://dev.office.com/project.aspx).
+Документация и примеры, связанные с Project Online и разработки приложений с помощью CSOM в разделе [Портал проектов разработки](https://developer.microsoft.com/en-us/project).
     
 

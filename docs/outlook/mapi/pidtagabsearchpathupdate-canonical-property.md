@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5ea20b49-8b57-4ad0-a70d-6547a01c8344
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4886749bf65d8bbb603d4b7d5fa38ad56b72ab97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2481ad01d8777783581663ead64ad3797eb8eb1a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810797"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594385"
 ---
 # <a name="pidtagabsearchpathupdate-canonical-property"></a>Каноническое свойство PidTagAbSearchPathUpdate
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список идентификаторов записи адресной книги контейнеров явным образом настроенные пользователем. 
   

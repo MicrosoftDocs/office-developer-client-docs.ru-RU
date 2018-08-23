@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 43765cddb2f06bfbe58e0a4000c7eadfdc5f3347
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ae0c9f123ade599ca9bc1d3bdea3e9c89cfbc16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812208"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594154"
 ---
 # <a name="sccreateconversationindex"></a>ScCreateConversationIndex
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, где принадлежит сообщение в поток сообщений. 
   

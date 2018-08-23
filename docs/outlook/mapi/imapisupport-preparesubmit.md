@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f6902b45cde3e5349d69b6f35c3f8980deb031b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f45a6457bba738b290d967260bbd34c0f88f93f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595064"
 ---
 # <a name="imapisupportpreparesubmit"></a>IMAPISupport::PrepareSubmit
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Подготавливает сообщение для отправки диспетчер очереди MAPI.
   

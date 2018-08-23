@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1ecc80feec2b0a86f35d03f1ca4f75ea9ff094e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27999c141fdeb3e1610213db128bc4ad3d049e6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808477"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594105"
 ---
 # <a name="form-verbs"></a>Форма команд
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Пользовательский интерфейс формы обычно предлагает пунктов меню или элементов управления, которые позволяют пользователям выполнить какое-либо действие с формой. Это задание сервера формы для обработки этих действий пользователя. Этот интерфейс реализуется с помощью стандартных интерфейсов API Win32; одну запись — так же, как записи других интерфейсов для регулярного Win32 программы.
   

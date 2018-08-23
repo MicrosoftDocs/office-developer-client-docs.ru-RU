@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 481812d6-8e94-4510-b288-55501dd5757c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c2e6600af66f3dab8ff0fbb5442a1354687a3cbb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5b2d7db745cc270c0be7ee2184e86c6a4f97aad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594301"
 ---
 # <a name="imslogoncompareentryids"></a>IMSLogon::CompareEntryIDs
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сравнение двух идентификаторы записей для определения, является ли они ссылаются на тот же объект. MAPI ссылается этот вызов к поставщику услуг только в том случае, если уникальных идентификаторов (UID) в обоих идентификаторы записей для сравнения обрабатываются этого поставщика.
   

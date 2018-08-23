@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 20ff2b63-e4a3-4ba9-bad0-2c1873fb69b5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 6673e1d51a7c030a35a7c5c3cbc955341afba299
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d3fb5d2ce5036c6491e24bba8d3541b123eaab1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812233"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595127"
 ---
 # <a name="searching-the-address-book"></a>Поиск в адресной книге
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI ��������� ������������ �������� ����� ��� ���������� ���� ������� ������� ������:
   

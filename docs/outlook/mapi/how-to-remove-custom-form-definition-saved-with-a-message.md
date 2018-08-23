@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
 description: '���� ���������� ���������: 25 ���� 2012 �.'
-ms.openlocfilehash: 9581656c40af39338f8919903f6d0de29c20a061
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b12824542a1408a364452eb6587122ec66412d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808631"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594455"
 ---
 # <a name="remove-custom-form-definition-saved-with-a-message"></a>Удалите Определение настраиваемой формы, сохраненных в сообщение
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приводится пример кода c++, который преобразует сообщения, который был сохранен с определениями настраиваемых форм для регулярного сообщение без определения формы.
   

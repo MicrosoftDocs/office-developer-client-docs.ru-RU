@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a6659f64f6e8d2e3dc61819b2263efe672cdd15c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 179d76b56c1ba9b40768c691d0b1555377f7adb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809242"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595050"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает один или несколько строк из таблицы, начиная с текущей позиции курсора.
   

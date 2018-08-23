@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 55db507055692c9e929b0125abf719d8c03ac967
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efb0812a88ad435c2456a729a6e950b371cc0250
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811416"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595351"
 ---
 # <a name="pidtagnull-canonical-property"></a>Каноническое свойство PidTagNull
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет значение null или параметры свойства или резервирует массива.
   

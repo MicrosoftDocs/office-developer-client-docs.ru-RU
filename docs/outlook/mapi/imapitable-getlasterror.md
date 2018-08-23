@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 832e2c18-ddba-4d18-a391-710d21fe23e6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b8ee83ad550106ae82f3308b9ef5692f66f5f5b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b7b1db5bcc718858b01f122f53406c885998741
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809214"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593818"
 ---
 # <a name="imapitablegetlasterror"></a>IMAPITable::GetLastError
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [MAPIERROR](mapierror.md) , содержащий сведения о предыдущем ошибки в таблице. 
   

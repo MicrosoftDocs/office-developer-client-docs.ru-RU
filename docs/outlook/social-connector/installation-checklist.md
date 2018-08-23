@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
 description: В этом разделе описываются предварительные требования для успешной установки поставщика Outlook Social Connector (OSC) и установки проверяет, что установщик поставщика необходимо выполнить для правильной работы.
-ms.openlocfilehash: cb8ed24db28c3b0e945c4db4b2daa4a2470d7dd5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9854bf5c2b524c6d735fe974046583dab990012
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812726"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594000"
 ---
 # <a name="installation-checklist"></a>Контрольный список установки
 
@@ -90,7 +90,7 @@ http://g.live.com/0CR1033/80
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      Идентификатор компонент — это идентификатор GUID, который предоставляет метод одноуровневая косвенности аналог указателя. Дополнительные сведения о установщика Windows содержатся в разделе [Схема документации установщика Windows](http://msdn.microsoft.com/library/_msi_roadmap_to_windows_installer_documentation.aspx).
+      Идентификатор компонент — это идентификатор GUID, который предоставляет метод одноуровневая косвенности аналог указателя. Дополнительные сведения о установщика Windows содержатся в разделе [Схема документации установщика Windows](https://docs.microsoft.com/en-us/windows/desktop/msi/roadmap-to-windows-installer-documentation).
       
    2. Если указанный компонент, OSC версии. Перейти к шагу 5, чтобы найти текущего языка интерфейса пользователя Outlook для подготовки к установке последней версии OSC.
       

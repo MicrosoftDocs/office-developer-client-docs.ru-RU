@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e82dee1c0acea4e84e15cfe5c6993f9110246bd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ecf98d1e6b267d212d23959cdbde0d53f8c961a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809952"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594693"
 ---
 # <a name="mapping-mapi-names-to-canonical-property-names"></a>Сопоставление имен MAPI с именами канонических свойств
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе сопоставляется каждое свойство MAPI в соответствующее свойство каноническое имя. В этом разделе содержатся три таблицы: таблицы для именованных свойств с помощью числовых идентификаторов, секунды таблица для именованных свойств с идентификаторами строки и третий таблицы с тегами свойств.
   
@@ -344,7 +344,7 @@ ms.locfileid: "19809952"
 |SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
 |Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
 |Шаблоны  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
-|Название  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
+|Title  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
 |WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
 |Совместное использование возможностей X  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |

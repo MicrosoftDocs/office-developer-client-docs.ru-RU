@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 15354a4a07304913cce06d50564b66abe5062a96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad9d81342ed749b6b1b640fd8118519aae7469a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810375"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595176"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>Каноническое свойство PidLidFShouldTNEF
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, следует ли для кодирования элемента с помощью транспорта Neutral Encapsulation формата TNEF. 
   

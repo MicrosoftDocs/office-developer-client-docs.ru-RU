@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e9deaa7c-430b-4e97-8ed6-f7c615956e0f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2ad57b91a1b9d06ab8284fa53c283d17e4eb5613
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ddfcdd95f0423ba92c37c434f18078eadf90d82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809544"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594022"
 ---
 # <a name="iprovideradmingetprovidertable"></a>IProviderAdmin::GetProviderTable
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к таблице поставщика службы сообщений, список поставщиков услуг службы сообщений.
   

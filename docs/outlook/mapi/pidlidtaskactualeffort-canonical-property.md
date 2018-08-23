@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0782191010341019ebea71ebf545dec490521520
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a145a103620d23dae4f6a48c225251e8aecc278e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810556"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593671"
 ---
 # <a name="pidlidtaskactualeffort-canonical-property"></a>Каноническое свойство PidLidTaskActualEffort
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что пользователь выполнять задачи в минутах.
   

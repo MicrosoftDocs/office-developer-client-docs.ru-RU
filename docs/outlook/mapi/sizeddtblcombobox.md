@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fea2b496a34d7aa7f9469158fae14daf6a770608
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39854c320078d2e2ca2365244f094e28962380d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812309"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593657"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает именованные структуру, которая включает в себя структуры [DTBLCOMBOBOX](dtblcombobox.md) для описания поле со списком и максимальное число символов, которые можно ввести в окне связанный редактирования. 
   

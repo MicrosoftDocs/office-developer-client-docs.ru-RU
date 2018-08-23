@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6a315cef8263f7e241a815a0f054dc3174d88fa7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddd9d3c0a61a3a2a585edd6c370285b2f6d424e3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809366"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593720"
 ---
 # <a name="imsgstoreadvise"></a>IMsgStore::Advise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Регистрация для получения уведомлений о указанного события, которые влияют на хранилище сообщений.
   

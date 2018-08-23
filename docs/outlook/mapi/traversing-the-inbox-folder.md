@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2ad1459f-d59a-4784-94ea-4cad194e6e50
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 87fcde5a28a30f08bc2fd5f28fb692a4b4251fbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e93dbed0fe56ada5fc41c3e2e51aa3d0c3bef6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812516"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594490"
 ---
 # <a name="traversing-the-inbox-folder"></a>Навигация по папке "Входящие"
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  **Чтобы просмотреть все сообщения в папке "Входящие"**
   
