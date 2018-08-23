@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f7b273be8c123bd9fb9daf7993720cb36a9cbf35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbc575345ba2e707dd64e35c11f00a08113f5eee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571215"
 ---
 # <a name="pidtagautoconfigurationuseremail-canonical-property"></a>Каноническое свойство PidTagAutoConfigurationUserEmail
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Представляет электронный адрес пользователя.
   
