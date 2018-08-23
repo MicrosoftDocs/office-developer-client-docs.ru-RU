@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3989532388d9c88c293427a4ce7109579a832ad1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ba27e1eefa85e1651dbd24fa0540f8b1108588a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811089"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588470"
 ---
 # <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>Каноническое свойство PidTagDistributionListExpansionHistory
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит журнал, в котором показано, как в список рассылки дополнены во время передачи сообщений. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: baafd8b6437f4febaee9420b274c20ba3242cae6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01296995adbca2640c8da42b4d06c1c749be3266
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809340"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582415"
 ---
 # <a name="implementing-the-flushqueues-method"></a>Реализация метода FlushQueues
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Диспетчер очереди MAPI использует метод [IXPLogon::FlushQueues](ixplogon-flushqueues.md) для загрузки и передать все ожидающие сообщения, чтобы и от поставщика транспорта. Как правило диспетчер очереди MAPI будет Очистка очереди для всех транспорта поставщиков, зарегистрированных в сеансе, начиная с первого поставщика транспорта, как указано в разделе порядок транспорта профиля пользователя. Очистка очереди почти всегда производится в результате прямого запроса пользователем, поэтому отправку и получение сообщений во время очистки очереди синхронные диспетчер очереди MAPI. Так как эти вызовы являются синхронными, поставщика транспорта их обработки как можно скорее. 
   

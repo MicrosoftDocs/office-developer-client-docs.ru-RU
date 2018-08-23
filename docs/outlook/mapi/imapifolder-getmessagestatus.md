@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bac363183c15a2d53c15b46724266b6cb5744075
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e5ccadbd6df664b6650487f340508ae4548a1c2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583269"
 ---
 # <a name="imapifoldergetmessagestatus"></a>IMAPIFolder::GetMessageStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получение сведений о состоянии, связанные с сообщение в определенной папке (например, будет ли это сообщение помечено для удаления).
   

@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 945dabec4ee34d38d2474c918e779d894f4a917c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b4b60084b8cb53a0a245b502b8fe70241fb4eb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811804"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591691"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>Каноническое свойство PidTagRulesTable
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит таблицу со всех правил, применяемых в папку.
   

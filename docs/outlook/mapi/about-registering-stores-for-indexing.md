@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b16446644c360185908e7f4e58463257fe17f403
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 195812f53c4c0aaf20e4ed6e215d15b0295c9a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807995"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584186"
 ---
 # <a name="about-registering-stores-for-indexing"></a>Сведения о регистрации хранилищ для индексирования
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе специально для мгновенного поиска в Microsoft Office Outlook 2007.
   
@@ -58,11 +58,11 @@ ms.locfileid: "19807995"
   
 ||||
 |:-----|:-----|:-----|
-|**Тип поставщика хранилища** <br/> |**GUID** <br/> |**Примечания** <br/> |
+|**Тип поставщика хранилища** <br/> |**ИДЕНТИФИКАТОР GUID** <br/> |**Примечания** <br/> |
 |Файлы личных папок (. PST-ФАЙЛОВ)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |Идентификатор GUID описана в mspst.h общедоступных заголовок файл как **MSPST_UID_PROVIDER** <br/> |
 |Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |Идентификатор GUID описана в edkmdb.h общедоступных заголовок файл как **pbExchangeProviderPrimaryUserGuid** <br/> |
 |Общедоступные папки  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |Идентификатор GUID описана в edkmdb.h общедоступных заголовок файл как **pbExchangeProviderPublicGuid** <br/> |
-|Outlook Connector для MSN  <br/> |{c34f5c97-eb05-bb4b-b199-2a7570ec7cf9}  <br/> |Нет  <br/> |
+|Outlook Connector для MSN  <br/> |{c34f5c97-eb05-bb4b-b199-2a7570ec7cf9}  <br/> |Отсутствует  <br/> |
    
 ## <a name="see-also"></a>См. также
 

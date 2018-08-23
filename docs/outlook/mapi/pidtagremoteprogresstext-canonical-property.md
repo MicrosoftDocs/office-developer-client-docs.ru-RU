@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b74d4350-4ad6-4c3f-8326-bd28537dfa0f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c4b4093fd51d781b7226e5d6239a5d894ffe1107
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a9d6bbe6807c2893c1bb208976dae9e695aa125
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811695"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592805"
 ---
 # <a name="pidtagremoteprogresstext-canonical-property"></a>Каноническое свойство PidTagRemoteProgressText
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Это свойство содержит строку, которая показывает состояние удаленной передачи.
   

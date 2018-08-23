@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c9c3aecf-5e4b-407a-8ea1-6211b4c6e0a5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2a09731dbd0ba2c5d6c1055a7c5ed11097c5ef27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f49ea23ed7fef91bcb360483611af2ee60429934
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809239"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592971"
 ---
 # <a name="imapiviewadvisesinkonshutdown"></a>IMAPIViewAdviseSink::OnShutdown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомляет средство просмотра формы, что форма закрывается.
   
@@ -33,7 +33,7 @@ HRESULT OnShutdown( void );
 
 ## <a name="parameters"></a>Параметры
 
-Нет
+None
   
 ## <a name="return-value"></a>������������ ��������
 

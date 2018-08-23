@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b7d4d758f7031c55aa3a23b662ec8727ea1e0719
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 101e74f3e35e3664dd29e59f166b2f0af6e1dcba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808001"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592040"
 ---
 # <a name="accelerateabsdi"></a>ACCELERATEABSDI
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет функцию обратного вызова для процесса сочетания клавиш в диалоговом окне безрежимным адресная книга. 
   

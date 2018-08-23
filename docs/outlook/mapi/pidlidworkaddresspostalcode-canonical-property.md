@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a03df7e-9ce9-4720-8e58-bc7fa61eb932
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2b1398de87e7c08ddfbd6c30eb10ac71fcae3c8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1dcbc18a624ec209d86ad46c8ac7a3f16754fa0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810658"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583640"
 ---
 # <a name="pidlidworkaddresspostalcode-canonical-property"></a>Каноническое свойство PidLidWorkAddressPostalCode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает почтовый индекс (ПОЧТОВЫЙ индекс) часть рабочий адрес контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810658"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008048  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

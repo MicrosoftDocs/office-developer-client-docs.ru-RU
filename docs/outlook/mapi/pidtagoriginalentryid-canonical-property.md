@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8197d2c7-8665-41b8-bd3a-e9c1c2e642e9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d60531b087d00ca63a060a4dbfac559ba3b01788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eab72c5b49ba501d8ab5516bf5a5eae9ea82abe0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811452"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588708"
 ---
 # <a name="pidtagoriginalentryid-canonical-property"></a>Каноническое свойство PidTagOriginalEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит исходный идентификатор записи для входа, скопированные из адресной книги для Личная адресная книга или других доступным для записи адресной книги.
   

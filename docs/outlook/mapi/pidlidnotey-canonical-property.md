@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ad6a7dc2-506e-4e22-b2a6-9dd6d0a5dd9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 31ae5959585742e206da7e1e0d9fb3b231a5be12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ecba56bc2cbc5c9f4eb31898f76c1d7ee1dfd275
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810437"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591375"
 ---
 # <a name="pidlidnotey-canonical-property"></a>Каноническое свойство PidLidNoteY
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Расстояние в точках от верхнего края экрана, где выводится сообщение о пользовательского интерфейса.
   

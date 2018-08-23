@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: df6347298aab5404ec69bd9ac876863e31b741d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 745c1b10cbbb24389cace7911d7c5fd37fe09472
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809075"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586853"
 ---
 # <a name="imapisessioncompareentryids"></a>IMAPISession::CompareEntryIDs
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сравнение двух идентификаторы записей для определения, является ли они ссылаются на тот же объект. 
   

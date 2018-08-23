@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: db9e0115-99fb-4fa7-8726-0be991505506
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a3bf9e01c16b810d8e48e15016416dd864420498
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a4827627fcc11f903fbabcc4d4c8dc202188d3ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811222"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586146"
 ---
 # <a name="pidtaginitials-canonical-property"></a>Каноническое свойство PidTagInitials
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит инициалы для части полного имени получателя. 
   

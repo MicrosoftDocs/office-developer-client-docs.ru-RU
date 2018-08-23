@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 85de8dd7211fa19b7cdbda9f5ced1f00a736ca9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d2f5fc2f26019902b27750613f7c360a751cd51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809290"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582933"
 ---
 # <a name="implementing-a-sample-object"></a>Реализация объекта образца
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомить приемник объекты — объекты, поддерживающие [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) интерфейс — являются MAPI объектов, что клиентские приложения реализовать для обработки уведомлений. **IMAPIAdviseSink** наследует непосредственно от [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) и содержит только один метод **OnNotify**. Таким образом для реализации объекта приемник уведомлений, клиент создает код для трех методы **IUnknown** и [OnNotify](imapiadvisesink-onnotify.md).
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b5fc6084-722d-44e8-8637-f4160a4fb19b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: eebc029d4ed72f355170710061c4d3717ed0aa1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6fe642d10a50d25874aee170441a07c184b46575
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809494"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591095"
 ---
 # <a name="ipm-subtree"></a>Поддерево IPM
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI создает дерево папок в корневой папке хранилищем сообщений для всех клиентов, сообщения, чтобы отправлять и принимать сообщения от человека, а не на компьютер, получателей. Сообщений, отправленных в между человеческого получателей, известных как сообщения электронной почты — это и известные это дерево как сообщения электронной почты — это или IPM поддерева. 
   

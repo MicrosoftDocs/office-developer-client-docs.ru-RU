@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 58f0bae4-0c05-421e-9890-7ac929fe1435
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bf10434917d639abff21c49251f592b084fb78f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 851a4a959c8eb43edd33505c18577b0523c640ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810520"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586566"
 ---
 # <a name="pidlidremotetransfertime-canonical-property"></a>Каноническое свойство PidLidRemoteTransferTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает время передачи в секундах для удаленного элемента.
   

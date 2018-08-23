@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a1530443600df7cb73ff27d5cfbeab46f81bc53c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae3f84c6b219c7becb88737f0d6c9fcb9722ea34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812300"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584970"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создание именованного структуру, которая включает в себя структуры [DTBLPAGE](dtblpage.md) для описания элемента управления вкладки, метки заданной длины и запись в файле справки заданной длины. 
   

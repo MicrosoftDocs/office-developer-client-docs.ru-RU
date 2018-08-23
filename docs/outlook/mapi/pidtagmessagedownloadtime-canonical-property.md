@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f0d34dd6-7ddb-4843-b848-c89923ff80cc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b47d104ade6a7d23f5630d15697b330360d027b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43916f540ca324059d53f0413105146985835ffe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811357"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588701"
 ---
 # <a name="pidtagmessagedownloadtime-canonical-property"></a>Каноническое свойство PidTagMessageDownloadTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит предполагаемое время для загрузки сообщения с удаленного сервера в хранилище локального сообщения. 
   

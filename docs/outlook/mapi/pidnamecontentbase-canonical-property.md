@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ab197ace-6e7d-4ec5-9f6d-4a63a1eda11c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 21469b944bb2ce5db0576e40012335d89d48cb49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91eb93c9cf3afcecef698e27791c06831c13624d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810736"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589100"
 ---
 # <a name="pidnamecontentbase-canonical-property"></a>Каноническое свойство PidNameContentBase
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение поля заголовка [RFC3282] Content-Base.
   

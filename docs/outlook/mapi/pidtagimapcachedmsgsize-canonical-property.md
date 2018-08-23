@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 30f9ddb26307791ea7cf64f355f38f99a14743aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f669eff49665f28f06e23f19f8f0c0fcd9dd6afd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19811242"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591928"
 ---
 # <a name="pidtagimapcachedmsgsize-canonical-property"></a>Каноническое свойство PidTagImapCachedMsgsize
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит размер кэшированных протокол сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Нет  <br/> |
+|Связанные свойства:  <br/> |Отсутствует  <br/> |
 |Идентификатор:  <br/> |0x10F0  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Переименование папки сообщения  <br/> |

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2a587d8c-f28b-45a6-a3da-cc33052988dc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8cf221d83601f62de2dd5e2ad13a5764ff2adfce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c822600bf9090151fe18d3bf7cab0515fc360a4e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811871"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583507"
 ---
 # <a name="pidtagsearchfolderid-canonical-property"></a>Каноническое свойство PidTagSearchFolderId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит глобальный уникальный идентификатор (GUID), идентифицирующий папки поиска.
   

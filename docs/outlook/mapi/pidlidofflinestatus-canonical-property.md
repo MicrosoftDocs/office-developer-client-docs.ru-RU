@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 34f50766c2c45d85bbb0bd9e12d32c5dd87e3cac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d9f8cf4fbdeab70e40447411ed8efd35ef7899e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810438"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588778"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>Каноническое свойство PidLidOfflineStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет состояние файла на сервере, который реализует [MS-LISTSWS].
   

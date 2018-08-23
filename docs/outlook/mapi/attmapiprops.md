@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 806270c1-30e4-494e-9b03-7d1f2fc04099
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: eef480e8b024565ab282fb242a36336cd17384a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72f252791e374ed4b9b2a40c9b151ef2b91fefe6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808083"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588057"
 ---
 # <a name="attmapiprops"></a>attMAPIProps
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Атрибут **attMAPIProps** особые, в том, что они могут использоваться для кодирования любого свойства MAPI, для которого не аналога в наборе существующие атрибуты TNEF. Атрибут данных является инвентаризации набор свойств MAPI расположения начала до конца. Формат данной кодировки, что позволяет для любого набора свойств MAPI, выглядит следующим образом:  
   

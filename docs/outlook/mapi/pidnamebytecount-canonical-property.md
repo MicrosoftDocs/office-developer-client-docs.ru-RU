@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: a2d0c3e3-ba49-4e2c-bcfd-27cc5ff78c5b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b1e2a76198e0c11a826c1bfec6d5b8af1394899c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6032a1b6e54d9228e88482a1c2b0b194e591b697
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810698"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587756"
 ---
 # <a name="pidnamebytecount-canonical-property"></a>Каноническое свойство PidNameByteCount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Размер файла в байтах, прикрепленный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |ByteCount  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |

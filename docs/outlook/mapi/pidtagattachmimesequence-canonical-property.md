@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e46a6556b88452fb453b031fc1a90762fd748f7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b8fe0dd61247d3473db4cc728ecfa2c83682b691
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810885"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587721"
 ---
 # <a name="pidtagattachmimesequence-canonical-property"></a>Каноническое свойство PidTagAttachMimeSequence
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер последовательности MIME вложения сообщения MIME.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 37a318df01101487fe0e8970251201c2515d1e8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c90284671d6087c74d4541b1a4774cc13b3ada5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811099"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583192"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Каноническое свойство PidTagExchangeProfileSectionId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит динамически созданных GUID используется для определения учетной записи при использовании нескольких учетных записей сервера Microsoft Exchange.
   

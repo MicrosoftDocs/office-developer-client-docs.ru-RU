@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
 description: '���� ���������� ���������: 25 ���� 2012 �.'
-ms.openlocfilehash: 25f896038e25823f1fe49d3cafbd5835a0a43f68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c1b3d3d5eed6bc991f8e4fd702fa197d610c104
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808632"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584802"
 ---
 # <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Открыть хранилище на удаленном сервере, когда Outlook находится в режиме кэширования данных Exchange
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе содержится пример кода на C++, в котором показано, как использовать флаг **MDB_ONLINE** для открытия хранилища сообщений на удаленном сервере, если Microsoft Outlook 2010 или Microsoft Outlook 2013 данных находится в режиме кэширования данных Exchange. 
   

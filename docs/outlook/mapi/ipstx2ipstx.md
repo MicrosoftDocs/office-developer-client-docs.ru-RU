@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c249254205e1b2b58505a88443ffef10bfde7d79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75a876d38e7fd7447058d70ec96f709f84812dae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809561"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587049"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Этот интерфейс предоставляет функциональные возможности модуля поддержки при выполнении репликации с помощью интерфейса **[IOSTX](iostxiunknown.md)** . 
   

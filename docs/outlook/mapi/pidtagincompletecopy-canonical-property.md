@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 352a95cb-e8ba-4c79-81d8-b22723ec71fb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e07d39ba364fd7da72fe9f923fed2d8b93bd2f8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cfe3eaa7a1d849fa5b192c83af0eb153b3f90ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811240"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588981"
 ---
 # <a name="pidtagincompletecopy-canonical-property"></a>Каноническое свойство PidTagIncompleteCopy
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если это сообщение является неполной копией другого сообщения.
   

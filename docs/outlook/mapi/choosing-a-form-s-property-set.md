@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 456ef036b26fd8b9840d33f0f699474c3a6ce127
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ff8d9f1ae25c55d66847b8c0e5e66c406dfdfba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808173"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586153"
 ---
 # <a name="choosing-a-forms-property-set"></a>Выбор набора свойств формы
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При реализации вашего сервера форм необходимо иметь свойства для каждого элемента данных, которое должно класса сообщения. Эти свойства могут быть предварительно определенные свойства MAPI, или они могут быть настраиваемые свойства, которые можно определить. Дополнительные сведения о работе со свойствами можно [Обзор свойств MAPI](mapi-property-overview.md).
   

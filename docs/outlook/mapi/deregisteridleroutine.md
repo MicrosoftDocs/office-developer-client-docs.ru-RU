@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 85161fb87e798bbb03b267f9760870da1246e48d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78d499dabe60a8051c6a2a77abad4b7d6f2ed159
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808286"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591956"
 ---
 # <a name="deregisteridleroutine"></a>DeregisterIdleRoutine
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Удаляет [FNIDLE](fnidle.md) на основе простоя общей процедуры из системы MAPI. 
   

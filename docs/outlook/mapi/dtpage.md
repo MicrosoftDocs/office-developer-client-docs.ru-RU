@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a187245b2594282bc9908b3075852440f418af2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 769ae984e4b6e8610ca7909ea2ac714d9d04d698
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808383"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589674"
 ---
 # <a name="dtpage"></a>DTPAGE
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описание диалогового окна, построенного из отображения таблицы с помощью функции [BuildDisplayTable](builddisplaytable.md) . 
   

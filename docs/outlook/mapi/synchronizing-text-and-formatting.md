@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d7e166f0-1214-4571-b9a8-366960772a7a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 40d7a45ab97e0d2f8e9d3db1e1d38eb3bdb75158
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d797932a9fd22944f1cfd78e7fb67cd3ddbf8632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812464"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588820"
 ---
 # <a name="synchronizing-text-and-formatting"></a>Синхронизация текста и форматирования
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Основная проблема при отправке сообщения форматированный текст (RTF) — это поддержание синхронизации с форматирования текста. Для обеспечения при получении сообщения в место назначения они их авторства предназначен и форматирование текста и синхронизируются, MAPI предоставляет функцию [RTFSync](rtfsync.md) . **RTFSync** обычно вызывается с поддержкой RTF клиентов перед отображением входящих сообщений и диспетчером очереди MAPI, когда загружает сообщения поставщика транспорта. Вызывающие задать область возможных несоответствие, передав одним или двумя флаги **RTFSync**:
   

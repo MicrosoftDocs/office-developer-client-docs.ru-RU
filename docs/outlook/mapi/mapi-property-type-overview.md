@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: b762f5fb-7c2c-4303-96f7-0b6e657146c9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ce3cd37247f37c4e70adb07769f00b2df07307a3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2de51e1cf0f29c91e39eb3c6dbaab065fd7d5972
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809805"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590528"
 ---
 # <a name="mapi-property-type-overview"></a>Обзор типов свойств MAPI
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Типы свойств являются константами, определенными с MAPI в MAPIDEFS. Файл заголовка, которые указывают базовый тип данных значения свойства. Все свойства ли они определены MAPI, клиентские приложения или поставщиков услуг, используйте один из следующих типов. 
   

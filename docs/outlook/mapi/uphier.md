@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 041ae867ff3a9cc9636ff1d93f9360576e455420
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a1ec71d7120eab220ee3b11d2a751fba51cee48e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592096"
 ---
 # <a name="uphier"></a>UPHIER
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сведения о синхронизации иерархии папок во время [загрузки иерархия состояний](upload-hierarchy-state.md).
   

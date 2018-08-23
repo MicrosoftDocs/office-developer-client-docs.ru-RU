@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 55e08ace-493c-4246-8ebf-c304f4abc56a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ba30514df028805135e9e31e7214ca336b1b3f85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48627c6d6eb2100e7dfcab832c86c1ec2e4ec8bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811541"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582807"
 ---
 # <a name="pidtagparententryid-canonical-property"></a>Каноническое свойство PidTagParentEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи папка, содержащая папки или сообщения.
   

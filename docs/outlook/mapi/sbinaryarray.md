@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fd9a8d731d141dbb71a204a2d20b268951bef42f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e601a59a68a3a7d248165d4e573c5abc34d27e2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812179"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586468"
 ---
 # <a name="sbinaryarray"></a>SBinaryArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив двоичных значений. 
   

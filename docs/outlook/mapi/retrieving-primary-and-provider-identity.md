@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d81bb81d-1708-4a8d-a4d5-c3ba087db9b7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2a87e32fe21aa6fb1d9296c568a74da994c146bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da11cf684c4bdcfb94d33791ed7c61d2e322e1a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812143"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586587"
 ---
 # <a name="retrieving-primary-and-provider-identity"></a>Получение удостоверения поставщика и основного удостоверения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщики услуг, обычно поставщиками адресных книг, имеют указать учетные данные, которые можно использовать для представления сеанса в различных ситуациях. Три свойства описывают поставщика удостоверений:
   

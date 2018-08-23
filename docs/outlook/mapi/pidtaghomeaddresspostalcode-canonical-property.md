@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f89fd4ab-61b1-4405-89de-dfe599117a24
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 098c75bdefc6f1a771aae95e12da436396c63585
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50acbe91854264869e72a5438e5d7df16f2c83bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811198"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593510"
 ---
 # <a name="pidtaghomeaddresspostalcode-canonical-property"></a>Каноническое свойство PidTagHomeAddressPostalCode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит почтовый индекс для домашний адрес пользователя.
   

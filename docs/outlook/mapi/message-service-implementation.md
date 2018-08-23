@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bb529cc7-ad09-4f86-89bc-0e8ad29a3f38
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 6ba2f9542fd021c544d73d8208ed356a7bf95309
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7007c01803676412b3efca8b7825b2ed8d863e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810012"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582485"
 ---
 # <a name="message-service-implementation"></a>Реализация службы сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Служба сообщений — один или несколько поставщиков услуг, связанных с ними, сгруппированная для упрощения процесса установки и настройки. Все поставщики услуг должно быть включено в службе сообщений.
   

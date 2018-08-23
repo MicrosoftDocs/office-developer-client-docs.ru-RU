@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9da9a13f87eac097fba078da1f1d6c3f78f69c0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b15f12c9a7ac2041c895b935098f9681e4b3a3c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809391"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589954"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Включает поставщика хранилища сообщений для обработки на отправленное сообщение. ���� ����� ���������� ������ ����������� ������� MAPI.
   

@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8eb8c56c6b27592347a7d08186287fe1cf67cb41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f4aa6444eb02831b299a5ca6e0c54b6b2d0a6fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589709"
 ---
 # <a name="about-mapi-additions"></a>О дополнения MAPI
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Дополнения MAPI, API, которые принадлежат для системы обмена сообщениями по программированию интерфейса MAPI (Application), такие как типы данных, функции и свойства, которые были ранее не предоставляемые и документированы как часть Справочник программиста MAPI. Они включают следующие определения и свойства.
   

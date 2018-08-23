@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e78d7e65-23a4-4359-b057-e06131cabf25
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c5764ea39af7a96a1bc6e6abfcbc29cc315adeda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94b563e7bbf759cfa77d364225693c5ffc8740d5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810938"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585187"
 ---
 # <a name="pidtagcallbacktelephonenumber-canonical-property"></a>Каноническое свойство PidTagCallbackTelephoneNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит телефонный номер, получателя сообщения можно использовать для связи с отправителя. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19810938"
 |Связанные свойства:  <br/> |PR_CALLBACK_TELEPHONE_NUMBER, PR_CALLBACK_TELEPHONE_NUMBER_A, PR_CALLBACK_TELEPHONE_NUMBER_W  <br/> |
 |Идентификатор:  <br/> |0x3A02  <br/> |
 |Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

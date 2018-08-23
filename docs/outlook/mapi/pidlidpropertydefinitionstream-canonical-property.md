@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f7f764d95c2fc36ba6af617333cb47d266cd2aa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23850e7da71125642abd8484fb45b8ec23264748
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810469"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587651"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>Каноническое свойство PidLidPropertyDefinitionStream
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет параметры привязки данных встроенных полей сообщения и определения пользовательских полей.
   

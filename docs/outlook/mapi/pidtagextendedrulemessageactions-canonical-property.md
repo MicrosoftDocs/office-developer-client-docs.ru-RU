@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1cf277d4-76ec-4902-9e54-f1780cee49bf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5425496a5b7845daabf736978e6ed24518451fe0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b6af0c7fae85a2ea6cbd53159674fdcd32c642c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811132"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592772"
 ---
 # <a name="pidtagextendedrulemessageactions-canonical-property"></a>Каноническое свойство PidTagExtendedRuleMessageActions
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит дополнительные сведения об именованных свойств, используемых для сообщения связанные сведения о папке (FAI).
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811132"
 |Связанные свойства:  <br/> |PR_EXTENDED_RULE_MSG_ACTIONS  <br/> |
 |Идентификатор:  <br/> |0x0E99  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Правила  <br/> |
+|Область:  <br/> |Rules  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

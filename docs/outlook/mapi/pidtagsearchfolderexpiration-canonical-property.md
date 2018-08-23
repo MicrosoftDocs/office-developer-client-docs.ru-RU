@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5746090-c850-4e95-b1e7-a07e42c87179
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bd70d18242fadee964ad96305728e63617a0276f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2f72f68926665087ee8e3a0c9e8394042a8f955
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590773"
 ---
 # <a name="pidtagsearchfolderexpiration-canonical-property"></a>Каноническое свойство PidTagSearchFolderExpiration
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит время, по которому будет устаревших контейнер папки поиска и должен обновить или создать заново.
   

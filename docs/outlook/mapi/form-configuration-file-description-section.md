@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d3673c3b10afb55121339e335163ce9b2e5937e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ad5fd9cf437afc3999697792850548e4e5a1435
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808463"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582898"
 ---
 # <a name="form-configuration-file-description-section"></a>Файл конфигурации формы: раздел [Описание]
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В разделе **[Описание]** перечислены все свойства формы, связанные с элементами управления в форму пользовательского интерфейса, а также атрибуты, используемые при поиске формы. **MessageClass**, **отображаемое имя** записи, которые идентифицируют имя класса сообщений формы, его GUID и отображаемое имя класса сообщения, соответственно и **Clsid**, необходимые записи, используемые для нахождения формы в библиотеке форм . Оставшиеся записи являются необязательными. Имеет формат в разделе **[Описание]** : 
   

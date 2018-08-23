@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
 description: Эта справка содержит раздел Общие сведения и ссылки на разделы, включая примеры, которые помогут вам в разработке решений с помощью формат файла Visio.
-ms.openlocfilehash: e79ee31ed4ffb0096baa72eccda10b99a17390a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f5147e70febc0883f0de0dbd23eb5a7f6f1660d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815151"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593433"
 ---
 # <a name="visio-file-format-reference"></a>Справочник по форматам файлов Visio
 
@@ -36,14 +36,10 @@ ms.locfileid: "19815151"
     
 ## <a name="see-also"></a>См. также
 
-- [Visio для разработчиков (en)](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
-    
+- [Visio для разработчиков (en)](http://msdn.microsoft.com/en-us/office/aa905478.aspx) 
 - [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Обозначения в документации](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [Обозначения в документации](http://msdn.microsoft.com/en-us/office/aa905365.aspx) 
 - [Уведомление об авторских правах пакета SDK Visio](visio-sdk-copyright-notice.md)
-    
-- [Уведомление о конфиденциальности (Майкрософт), доступное в Интернете](http://privacy.microsoft.com/en-us/default.mspx)
+
     
 

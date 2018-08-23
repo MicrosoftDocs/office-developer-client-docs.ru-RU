@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 204f8ef2-c7ec-41c5-ab7d-6ef7a864dcb9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 34862cf40f38d3baaac304e77c82081974d28585
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a967aa9e69c4939c376266087b8fa3f227cb277
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811703"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589205"
 ---
 # <a name="pidtagreplyrequested-canonical-property"></a>Каноническое свойство PidTagReplyRequested
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если отправитель сообщения запрашивает ответ от получателя.
   

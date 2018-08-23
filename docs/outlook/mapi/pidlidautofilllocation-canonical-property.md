@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 55922f49d33abfed67b11ceade6d2762e8edacde
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 31cabf50602f9e0f7a70118ddc794387990862ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810193"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591270"
 ---
 # <a name="pidlidautofilllocation-canonical-property"></a>Каноническое свойство PidLidAutoFillLocation
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что свойство **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) — это значение свойству **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) из RecipientRow, который представляет ресурс.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4fa47824-b4ef-41e1-9096-c1b1cdacd7ac
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 68a842ccfdaea8ecdb975e1c510711b0e43fd576
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6845c3d86fb3d34119a296ebbae76a7322d7d8c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812219"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590913"
 ---
 # <a name="sending-a-message"></a>Отправка сообщения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Когда вы готовы для отправки сообщения, вызове метода [IMessage::SubmitMessage](imessage-submitmessage.md) . **SubmitMessage** помещает его в очередь исходящих и устанавливает для флага MSGFLAG_SUBMIT в свойстве **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)), сообщение.
   

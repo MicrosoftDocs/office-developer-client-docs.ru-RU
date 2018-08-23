@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ab92aee6a8254a16c48352e371b711932bbe7427
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cff866ce73eb6ada45a2b629a6c95c69ad189045
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809013"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587826"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает минимальное значение в метод [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) , для которых выполняется отображаются сведения. 
   

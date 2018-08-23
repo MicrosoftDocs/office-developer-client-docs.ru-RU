@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f59b0041f271010e56dda2f73d2248f133bc1325
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d588380ccc84f51fe58bb0f092d5287b12b4270
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812355"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586538"
 ---
 # <a name="spropertyrestriction"></a>SPropertyRestriction
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описывает свойства ограничение, которое используется для сопоставления константу со значением свойства.
   

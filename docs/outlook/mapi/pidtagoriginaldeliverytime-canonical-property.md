@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 700ccfc9-493a-483b-aca0-aa2d7f6bb229
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cd8c44923e64fcea4464f758389db05bb6b7e374
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fee808a02262ef47bff0279c929824becc23912
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811430"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589401"
 ---
 # <a name="pidtagoriginaldeliverytime-canonical-property"></a>Каноническое свойство PidTagOriginalDeliveryTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит копию исходного сообщения дату и время доставки в потоке. 
   

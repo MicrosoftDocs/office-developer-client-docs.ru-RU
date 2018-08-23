@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d6a53d112e4c12cd9092ac627e99cf3c13d901f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c320b2c42b9a14c6dc428fc3df59991528cdbe36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809524"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592572"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет возможность извлекать и изменять уровень доступа для свойств объекта. 
   

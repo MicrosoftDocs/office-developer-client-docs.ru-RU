@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3174d931-e045-44db-a203-a27c9c00f4fc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7b2dd30511927f8df8a8bc587a6b1fedd5854810
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f85fdc701a29f5865700c6519d589212a06fd0af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810408"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585782"
 ---
 # <a name="pidlidlogflags-canonical-property"></a>Каноническое свойство PidLidLogFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит метаданные о журнале.
   

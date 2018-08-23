@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f6da69ff-a913-4a65-bb07-8ad3c5685e5e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a95fc30de7511672cb27c9dd6fbc37b96e822e77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e16c1b46b5a8181b1225c706dbed6cd1bb3f486f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583178"
 ---
 # <a name="pidlidtaskresetreminder-canonical-property"></a>Каноническое свойство PidLidTaskResetReminder
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, необходимости будущих экземпляры повторяющейся задачи напоминаний, несмотря на то, что **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) имеет значение FALSE.
   

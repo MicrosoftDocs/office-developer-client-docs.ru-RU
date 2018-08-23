@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0a3ac3088f633a72241a1826676aac4db432561e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a047518e43e6397c83aa498de707a79d870a1a68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810197"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591788"
 ---
 # <a name="pidlidappointmentsequence-canonical-property"></a>Каноническое свойство PidLidAppointmentSequence
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает порядковый номер объекта собрания.
   

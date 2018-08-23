@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d106b16ac8a20d13a2360eae14272405e1aa717e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d80687df06633b0fd88b0d2c97f06e77c4d5a245
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811159"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587728"
 ---
 # <a name="pidtagformdesignername-canonical-property"></a>Каноническое свойство PidTagFormDesignerName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя для объекта, который используется для разработки формы. 
   

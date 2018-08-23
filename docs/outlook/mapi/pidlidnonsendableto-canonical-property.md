@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 90e14969-652b-422a-9b0a-ee99e58bc8d5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 297d9047944388afcf75b9645d76eb2670841ba8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4875ff12d494b1d259c4647ff925243e55ee281
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810432"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586615"
 ---
 # <a name="pidlidnonsendableto-canonical-property"></a>Каноническое свойство PidLidNonSendableTo
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список всех отправить участникам собрания, которые также являются обязательных участников.
   

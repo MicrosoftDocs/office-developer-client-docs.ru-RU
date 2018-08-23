@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c77a8ef1-0730-d458-b35f-451d3f450fac
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 27db5f54f6a6feba77308a4a63fe4c16448550cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0211a326e94c5847c040040e0e0e4e9ddd1d760d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809363"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583276"
 ---
 # <a name="imscapabilitiesgetcapabilities"></a>IMSCapabilities::GetCapabilities
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает сведения о хранилище, которое может поддерживать на основании указанного "Выбор".
   

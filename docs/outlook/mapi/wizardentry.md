@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2c307d18c5b62e5190aa10632a47a3f16b80e81f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d78b4e6a4a0cc3363edefc84e7ae80dbe72c510
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812603"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590360"
 ---
 # <a name="wizardentry"></a>WIZARDENTRY
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет точку функцию запись службы поставщика, которая вызывает мастер профиля для извлечения достаточно сведений для отображения страницы свойств конфигурации поставщика. 
   

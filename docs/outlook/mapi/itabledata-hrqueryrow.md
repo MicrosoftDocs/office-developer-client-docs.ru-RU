@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 92540159386e6f37d93684aff037b235071010f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef0dc212a6a6f761cd8dd0cae5312c548c02ae50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809608"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583822"
 ---
 # <a name="itabledatahrqueryrow"></a>ITableData::HrQueryRow
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает строку таблицы.
   

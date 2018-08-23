@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5036638-8350-464f-ab44-19c4a1bf50b3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c00626480c536e9dda7f4a74bf0a3b7469e95c55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08dadc1de8e827d997dd8a00c56466c0109e79ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811583"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585873"
 ---
 # <a name="pidtagproofofdelivery-canonical-property"></a>Каноническое свойство PidTagProofOfDelivery
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Это свойство содержит обоснования ASN.1 значение доставки.
   

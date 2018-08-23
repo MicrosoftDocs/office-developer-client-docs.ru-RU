@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b79ec87d-d97c-4e6c-899b-78ebf1b485a7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 09a79a68d7619ded9edf3ec4ac67733bdec1e32c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1b5b36c3a05ef17e319ef236b032b7d07ce8fa8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810825"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589422"
 ---
 # <a name="pidtagaginggranularity-canonical-property"></a>Каноническое свойство PidTagAgingGranularity
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет единицы времени, который используется при определении длина отображения элемента в папке перед заархивированы элемента.
   

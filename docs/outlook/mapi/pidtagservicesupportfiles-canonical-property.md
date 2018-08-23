@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: df4be986-62a8-49d6-8eca-25b55c74f830
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2dc431d807bd74640e5b5a9c020f668b13530197
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5165867e46d3d86d65932e7ae432b446efbd8fff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811945"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589128"
 ---
 # <a name="pidtagservicesupportfiles-canonical-property"></a>Каноническое свойство PidTagServiceSupportFiles
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список файлов, относящихся к службе сообщений.
   

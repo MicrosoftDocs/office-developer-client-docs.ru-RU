@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 37a6d101f6ee9c04236253e143aff3a51a9208d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e554a496dd1869dd7c07b315d92a136676e05006
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811837"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590045"
 ---
 # <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>Каноническое свойство PidTagScheduleInfoAppointmentTombstone
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список блоков данных, которые представляют собрания, которые было отклонено.
   

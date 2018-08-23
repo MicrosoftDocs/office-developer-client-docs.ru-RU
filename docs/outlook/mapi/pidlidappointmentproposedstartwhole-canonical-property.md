@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: acc96b0a-bffb-46ef-8c46-b831d165a346
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5043d29f18ceb2ef53d3617743d4bf2417d38a39
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bdf810ee71f5b79435bb706f8f60f5d4054c7f75
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810136"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591703"
 ---
 # <a name="pidlidappointmentproposedstartwhole-canonical-property"></a>Каноническое свойство PidLidAppointmentProposedStartWhole
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Значение, предлагаемое **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) для предложение.
   

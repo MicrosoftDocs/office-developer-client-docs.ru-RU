@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 29b7f5f1-afc1-45d9-8867-9312c072e74b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 150f2a55bff4188c1f692de8276ed869bcf66c3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 88c3e0bdb3cc6660e35faf62c5bb63ec2f6352bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808543"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590374"
 ---
 # <a name="getting-and-setting-multiple-properties"></a>Получение и задание значений нескольких свойств
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получение и установка столько свойств по мере возможности с наименьшим число вызовов удаленного сокращен активности и уменьшается нагрузка с каждого свойства. Хотя для поставщиков услуг попробовать собирать свойства перед внесением удаленного вызова процедур для извлечения или изменения, можно оптимизировать этот объем работ, начинается с запрашивающего значений нескольких свойств.
   

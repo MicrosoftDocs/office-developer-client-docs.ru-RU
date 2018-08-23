@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d858e4fe-822e-4330-9ed3-4b7d22fa51dc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 63b8224ad56e2b9985c9d733e2a3c27c67eb2f7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ac4a30d6afc7e5245441bfe2d501169dd3a9447
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810063"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586125"
 ---
 # <a name="opening-a-message-store-folder"></a>Открытие папки хранилища сообщений
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Прежде чем можно открыть любой папке, его идентификатор записи должны быть доступны. Для большинства папок это означает, извлечение их свойств **PR_ENTRYID** . Для специальных папок, таких как некоторые из папки поддерева IPM и другие корневой папки MAPI определяет свойства идентификатор специальные запись, доступных пользователям, вызвав метод **IMAPIProp::GetProps** хранилища сообщений. Следующие идентификаторы записей, всегда долгосрочного и имеют следующим образом: 
   

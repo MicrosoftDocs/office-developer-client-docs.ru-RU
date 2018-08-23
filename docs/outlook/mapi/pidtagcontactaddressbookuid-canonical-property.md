@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 89a6f68e9fc29b6053befb552bec48a8e9cbf162
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66eac870ffcb524be95b773697f06b2d9c03376b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810943"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590591"
 ---
 # <a name="pidtagcontactaddressbookuid-canonical-property"></a>Каноническое свойство PidTagContactAddressBookUid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит уникальный идентификатор, идентифицирующий этот сеанс контактов адресной книги.
   

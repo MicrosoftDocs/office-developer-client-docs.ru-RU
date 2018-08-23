@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 611213c9-e758-4366-b193-fc62181d3d1f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8452a6e49059dd0912f1efffef7e749afd6cdf6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f37d398167e8210a2fd67ff08e63572eb6c9db9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809735"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585726"
 ---
 # <a name="mapi-form-interfaces"></a>Интерфейсы форм MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI определяет следующие интерфейсы, связанные с форм.
   

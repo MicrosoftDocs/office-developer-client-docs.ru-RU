@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 89b33a24-395a-4a3f-bc05-a44529399d7c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0c1c463ee6a24f6ef0026264b6790ba50b146a09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4bea9e8fbd07be607f57ea2a14ae14de733def44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810264"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588043"
 ---
 # <a name="pidlidemail2emailaddress-canonical-property"></a>Каноническое свойство PidLidEmail2EmailAddress
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает второй адрес электронной почты контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810264"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008093  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

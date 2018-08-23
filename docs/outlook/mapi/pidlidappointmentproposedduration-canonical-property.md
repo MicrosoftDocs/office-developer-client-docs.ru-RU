@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 37806778-a19a-4905-a845-525d3912bf9e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 56891591871831ba9496f50b69bf4b94ef012c3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3983a110ee9a72f3c82eaf1bbebc810d07f3c4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810106"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591305"
 ---
 # <a name="pidlidappointmentproposedduration-canonical-property"></a>Каноническое свойство PidLidAppointmentProposedDuration
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, предлагаемое значение для свойства **dispidApptDuration** ([PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) для предложение.
   

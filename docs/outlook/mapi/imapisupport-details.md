@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1a62efa2-dd6b-4acb-a760-defa601c20c9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 9923813d821e2b34497e3b498c19ce22ceda2eb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c1bfccf635b96dd0744d888e69b4af5b8df0fa2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809105"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587875"
 ---
 # <a name="imapisupportdetails"></a>IMAPISupport::Details
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отображает диалоговое окно, которое предоставляет подробные сведения о записи определенного адресной книги.
   

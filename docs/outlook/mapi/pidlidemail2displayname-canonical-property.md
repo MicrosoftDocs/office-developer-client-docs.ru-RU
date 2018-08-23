@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6ea0ff57-7237-46cb-99fa-716c943383e0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 932b4300c68e08a3ea567207ea487376ae769e5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6cccf35a46503a9d40a7d67e8cb544eb44d057dc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810274"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589632"
 ---
 # <a name="pidlidemail2displayname-canonical-property"></a>Каноническое свойство PidLidEmail2DisplayName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает для чтения отображаемое имя для второго адреса электронной почты.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810274"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008090  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

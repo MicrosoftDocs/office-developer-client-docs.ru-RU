@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: de4fa7cb24cd486e506f5d747319c44ce9c15a77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808031"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592103"
 ---
 # <a name="algorithm-to-calculate-the-store-hash-number"></a>Алгоритм вычисления хэш-номера хранилища
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Как часть из MAPI универсальный код ресурса по URL-поставщика хранилища отправляет номер хэш-функции магазина обработчик протокола MAPI для идентификации объекта, который будет готов для индексации. Обработчик протокола MAPI использует это число хэш-функции хранения для идентификации в хранилище. В общем случае поставщика хранилища вычисляет число хэш-функции хранения, основанные на подписи сопоставления хранилища, если хранилище имеет свойство **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** , определенные в разделе глобальные профиля. В противном случае поставщика хранилища с помощью идентификатора записи хранилища. Алгоритм для расчета количества хэш-функции хранения следует свести к минимуму путаницу, идентифицирующий хранилищ. 
   

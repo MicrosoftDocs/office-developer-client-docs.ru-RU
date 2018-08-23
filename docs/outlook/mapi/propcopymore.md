@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 750d8b8d50acb9cf7340e6553062412667398665
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 635525a1c2c3234d724534d225eb07022afc9956
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812070"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592124"
 ---
 # <a name="propcopymore"></a>PropCopyMore
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Копирует значения одного свойства из исходного расположения в месте назначения. 
   

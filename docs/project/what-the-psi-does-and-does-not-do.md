@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: Интерфейс Project Server (PSI) помогает автоматизировать много процессов на сервере в локальной установки Project Server 2013. Однако несколько функций необходимо использовать Microsoft Project профессиональный 2013.
-ms.openlocfilehash: 0afdcdf43c4748fff42f7b5bc74af6c4b59b0b07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813071"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588113"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>Какие задачи PSI выполняет, а какие — нет
 
@@ -97,7 +97,7 @@ PSI можно использовать для создания проектов
     
 - Создание связей между проектами.
     
-#### <a name="resources"></a>Ресурсы
+#### <a name="resources"></a>Resources
 
 - Для запроса или выполнения выравнивание загрузки ресурсов.
     
@@ -231,14 +231,10 @@ PSI можно использовать для создания проектов
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
 ## <a name="see-also"></a>См. также
-<a name="pj14_WhatPSIDoes_AR"> </a>
 
-- [Какие задачи CSOM выполняет, а какие — нет](what-the-csom-does-and-does-not-do.md)
-    
-- [Возможности программирования для Project Server](project-server-programmability.md)
-    
-- [Удаленная проверка подлинности в SharePoint Online с использованием проверки подлинности на основе утверждений](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)
-    
-- [Надстройки Office](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
+- [Какие задачи CSOM выполняет, а какие — нет](what-the-csom-does-and-does-not-do.md)  
+- [Возможности программирования для Project Server](project-server-programmability.md)   
+- [Удаленная проверка подлинности в SharePoint Online с использованием проверки подлинности на основе утверждений](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [Надстройки Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

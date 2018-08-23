@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
 description: '���� ���������� ���������: 7 ������� 2015 �.'
-ms.openlocfilehash: d8cd03fa184865446da48d7532764ba71e0e47d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812123"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586965"
 ---
 # <a name="required-and-optional-interfaces-for-message-store-providers"></a>Обязательные и необязательные интерфейсы для поставщиков хранилищ сообщений
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI определяет набор интерфейсов, которые относятся к поставщиков хранилища сообщений. Из-за широкий спектр возможностей, которые можно выбрать хранилищем сообщений для реализации некоторых из этих интерфейсов являются обязательными и — нет. В следующей таблице перечислены интерфейсы MAPI, которые связаны с поставщиков хранилища сообщений, указывает обязательный или необязательный интерфейсы и описывает их назначение.
   

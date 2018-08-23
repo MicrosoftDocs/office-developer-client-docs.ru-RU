@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: d7bae17b-f1f3-4a29-bfa6-0a0658234eec
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bd67b4d6c1620957ec826e87e1db1772d7ed3f1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38a56cf65738fb35a4e153c0a5e3d5be85779947
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810750"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583157"
 ---
 # <a name="pidnamesubject-canonical-property"></a>Каноническое свойство PidNameSubject
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает тему файл, подключенный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |Subject  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

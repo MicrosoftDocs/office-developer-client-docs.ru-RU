@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a3702a4-8a6b-4c0c-a90f-02be3a2bfa05
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 6bd13eb7180302a5ab770586cf36856ca5a22676
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 050068b542616d1ad4d133b289aba46db2888519
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809056"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587819"
 ---
 # <a name="imapisessionenumadrtypes"></a>IMAPISession::EnumAdrTypes
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Рекомендуется использовать. Возвращает типы адресов, которые могут быть обработаны всеми поставщиками транспорта в сеансе. 
   

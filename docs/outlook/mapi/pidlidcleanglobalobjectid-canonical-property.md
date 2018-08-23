@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 59b85997-7972-492e-9786-3f0f367dc3e3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a784c91a04cce572c8e30085b1760c28296a1d53
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38442b763ec97969f73b11b346d638d547302715
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19810238"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589002"
 ---
 # <a name="pidlidcleanglobalobjectid-canonical-property"></a>Каноническое свойство PidLidCleanGlobalObjectId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает clean глобального **ObjectID**.
   

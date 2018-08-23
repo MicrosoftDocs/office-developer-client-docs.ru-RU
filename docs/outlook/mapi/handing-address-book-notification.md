@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f198be78dd36a6d0c9439da68ab322cd8cfa4172
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5428ccde0e16bd32408b2ea908f5c5522992fc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808545"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582919"
 ---
 # <a name="handing-address-book-notification"></a>Передачей уведомлений адресной книги
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомления о адресной книги Разрешить клиенту для получения событий, происходящих для любой записи адресной книги или записи. Для этих уведомлений через адресной книги MAPI, вызвав [IAddrBook::Advise](iaddrbook-advise.md) или с помощью иерархии контейнер адресной книги или таблицу содержимого можно регистрировать путем вызова [IMAPITable::Advise](imapitable-advise.md). 
   

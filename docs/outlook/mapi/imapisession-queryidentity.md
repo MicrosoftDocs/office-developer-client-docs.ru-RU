@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a2cdda90-5457-49a7-b98c-7273ffe5cbbc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c8f05707d63f922c9ce22e6e520c6c57e686f884
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b64653aa87ff7ac983409978a69f59148251d7d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809082"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583416"
 ---
 # <a name="imapisessionqueryidentity"></a>IMAPISession::QueryIdentity
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает идентификатор записи объекта, который содержит основной идентификатор для этого сеанса.
   

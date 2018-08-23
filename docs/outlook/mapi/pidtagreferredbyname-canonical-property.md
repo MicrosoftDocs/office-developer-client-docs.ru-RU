@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ffc71a7-d281-4f17-87ec-4d7ea53be77f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aae3bca0200d9fbc7dc64c339718140fb5ad522f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 265c12daa539a60e4d37951821ca4fb042f57113
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587238"
 ---
 # <a name="pidtagreferredbyname-canonical-property"></a>Каноническое свойство PidTagReferredByName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя пользователя почты ссылок.
   

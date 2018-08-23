@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1904cc68-adf2-4543-8210-043a72b90887
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 60a9058b5e604c480597c4bb245353522e41d1e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ca8fd1dc8dde69cd9f2e8932cc0c50ea03c86a24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810239"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587252"
 ---
 # <a name="pidlidcurrentversionname-canonical-property"></a>Каноническое свойство PidLidCurrentVersionName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит строку, которая показывает, сколько основной и дополнительный номер версии приложения Outlook для элемента.
   

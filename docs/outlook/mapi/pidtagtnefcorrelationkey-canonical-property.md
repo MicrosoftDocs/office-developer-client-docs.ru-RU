@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a7f05c8c-59b4-4d5b-8e70-ebcde5f2ed45
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5a0216616d9a35ef5ad4509bc377044c1d217d79
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 760196668ffb3c486803f27b50ff809177e8e6f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812010"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588617"
 ---
 # <a name="pidtagtnefcorrelationkey-canonical-property"></a>Каноническое свойство PidTagTnefCorrelationKey
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение, соответствующее подключение к транспорта Neutral Encapsulation формата TNEF с сообщением.
   

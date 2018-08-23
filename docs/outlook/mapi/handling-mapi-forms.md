@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b0e54f78257eb6890e8afbb7941dc625dc79be0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6cdb07e1cbe68d90c6dcd9d5418f700ea5abc3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808572"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589653"
 ---
 # <a name="handling-mapi-forms"></a>Обработка формы MAPI
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Формы MAPI — это средство просмотра для сообщения определенного класса. Клиентам, которые позволяют пользователям работать с сообщениями, относящегося к различных классов сообщений должны быть записаны для обработки различные формы MAPI. Для обработки нескольких форм, клиенты реализации компонента, известные как средство просмотра формы, который содержит три следующих объектов:
   

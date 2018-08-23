@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9ed02e19a2934f785b03bb8553a08e16c7bb30e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b594297d364ba4f5a3ff7da603d2fe7c2fe8cf07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588533"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Управляет сообщения, вложения и получателей.
   

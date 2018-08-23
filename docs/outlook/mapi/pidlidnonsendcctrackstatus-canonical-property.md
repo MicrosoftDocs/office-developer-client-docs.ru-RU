@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e2654fad-444b-45bc-976d-3c5cbbc81b84
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1b61bbcbe3530e95924689f2729b23769e90c13d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ee68f0f60f96798130115cbd313f6d7cd403486
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810424"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590500"
 ---
 # <a name="pidlidnonsendcctrackstatus-canonical-property"></a>Каноническое свойство PidLidNonSendCcTrackStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение для каждого участника, перечисленные в свойстве **dispidNonSendableCC** ([PidLidNonSendableCc](pidlidnonsendablecc-canonical-property.md)).
   

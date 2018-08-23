@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f2ccd004415bcbd42b56b1269fbdb4622ef1f8c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30ee7c1a7eb86fd4cdfe90fb6711bd1b295fd5e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811076"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591088"
 ---
 # <a name="pidtagdeferredsendnumber-canonical-property"></a>Каноническое свойство PidTagDeferredSendNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер, который можно использовать для вычисления отсрочке отправки сообщения.
   

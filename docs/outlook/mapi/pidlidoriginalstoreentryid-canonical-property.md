@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1b1fc008-9cd5-49f6-9f91-b59e305a1e82
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aaf442b941cfe14f695bf5e7f7ec246d06e5ae0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d7af1168bf5808523e1500ed2156779386f8d84a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810445"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591753"
 ---
 # <a name="pidlidoriginalstoreentryid-canonical-property"></a>Каноническое свойство PidLidOriginalStoreEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает идентификатор записи хранилища сотрудника.
   

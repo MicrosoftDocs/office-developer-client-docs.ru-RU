@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b5902c25197c2ae5790e654a8f29227e107b4a72
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85cfd219eb83592a4e01263caf5d6923db39e0cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810043"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583787"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщик для упаковки в локальном хранилище на основе PST-файлов в качестве хранилище NST хранилища сообщений службы функцию точки входа для MAPI. 
   

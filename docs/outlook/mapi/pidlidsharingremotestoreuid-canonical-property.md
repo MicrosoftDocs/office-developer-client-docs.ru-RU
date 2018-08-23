@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f6773bba-45ef-4aef-90da-acad8ff64615
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b907b3385a89e0746740a4363bead41cd8fed8fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dba8121ca693e60ec115e5ab039406f4ce399a85
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810565"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583248"
 ---
 # <a name="pidlidsharingremotestoreuid-canonical-property"></a>Каноническое свойство PidLidSharingRemoteStoreUid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает шестнадцатеричную строку, представляющую значение свойства **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) в общей папке. Это свойство общего доступа сообщения.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a89b1a93b2b03f97426a3988739e9b0d8411f113
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 316e17e7804e754eed4ee4fef27211fb5173d4bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808803"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589646"
 ---
 # <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Обеспечивает преобразование между объектами MIME и сообщения MAPI. Это может быть полезно в обмен сообщениями через Интернет.
   

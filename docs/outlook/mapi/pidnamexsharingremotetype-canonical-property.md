@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 74ed968b-c7bb-41a4-a6f1-9ceba8cdc703
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d75d23534b5f311894d918ccca3be57b430e24d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5e7061383c258b66a5f53f1274190da5e9252ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587070"
 ---
 # <a name="pidnamexsharingremotetype-canonical-property"></a>Каноническое свойство PidNameXSharingRemoteType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет значение свойства **dispidSharingRemoteType** ([PidLidSharingRemoteType](pidlidsharingremotetype-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |Общий доступ к удаленного тип X  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

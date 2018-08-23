@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8624821d264500a440b5988ffa30a5c31dc8a91f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38d357fa87a8781173be118fdd2cd26f57e814df
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811746"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583626"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>Каноническое свойство PidTagReturnedMessageid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если исходное сообщение возвращается с nonread отчета.
   

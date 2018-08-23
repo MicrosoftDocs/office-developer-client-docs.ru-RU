@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 81d154d3044ecb5fb2e920874058f1c5136bc7ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 879960a8f61973b160c86eb4a473bf05bcd918fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812045"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586713"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>Каноническое свойство PidTagYCoordinate
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит позицию (левый верхний угол) элемента управления поля диалогового окна в диалоговое окно Windows единиц измерения по оси y.
   

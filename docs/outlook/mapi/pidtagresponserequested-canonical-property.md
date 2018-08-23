@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e52bb48c-7107-4ac4-b030-885409759ee7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b099bf5df657b5516fbf0948e742d1d1b36af2e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02ab7f88edda39fcb1c66eaf643a8263e9d509c8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591732"
 ---
 # <a name="pidtagresponserequested-canonical-property"></a>Каноническое свойство PidTagResponseRequested
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если отправитель сообщения запрашивает ответ на приглашения на собрание.
   

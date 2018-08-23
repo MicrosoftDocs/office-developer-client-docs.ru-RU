@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fc6c12d914e581c3f975e94809f0bdea73020099
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: baf45fa33ca085f51a6f9c20f72ec1fd1545ad79
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812523"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592375"
 ---
 # <a name="uladdref"></a>UlAddRef
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет альтернативный способ для вызова метода OLE **IUnknown::AddRef**. 
   

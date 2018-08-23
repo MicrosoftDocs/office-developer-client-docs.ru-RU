@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 'Последнее изменение: 08 ноября 2011 г.'
-ms.openlocfilehash: 27ad80b9eca8332beeda147a8b2b4204f9f1cd38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57868996f95cfb135298378d2638bc57b2e69977
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807970"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583675"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>Сведения об URL-адресах MAPI для индексирования на основе уведомлений
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Когда поставщика хранилища уведомляет индексатора, который будет готов для индексации объекта, он создает MAPI URL-адрес, который уникальным образом определяет объект обработчик протокола MAPI. URL-адреса, MAPI в кодировке Юникод и имеют следующий формат: 
   

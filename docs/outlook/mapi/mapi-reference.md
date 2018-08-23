@@ -9,56 +9,39 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 807d1b76-ccc1-4cbe-bbe3-5d5cadffbef4
-description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8e85db25df01deb295f88a9352451395ddf96cdd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Документы MAPI, элементы программирования.
+ms.openlocfilehash: a3f489754eb06792c64cc271a5f1dc8e43c842a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809827"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585915"
 ---
 # <a name="mapi-reference"></a>Справочник по MAPI
-
-  
-  
-**Относится к**: Outlook 
+ 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются MAPI, элементы программирования.
   
 ## <a name="in-this-section"></a>В этой статье
 
-[Интерфейсы MAPI](mapi-interfaces.md)
-  
-> Содержит сведения об интерфейсах MAPI и методов интерфейса.
+- [Интерфейсы MAPI](mapi-interfaces.md)
     
-[Функции интерфейса MAPI, обратные вызовы и макросов](mapi-functions-callbacks-and-macros.md)
-  
-> Содержит сведения о функциях, обратные вызовы и макросы, используемые в MAPI.
+- [Функции интерфейса MAPI, обратные вызовы и макросов](mapi-functions-callbacks-and-macros.md)
     
-[Свойства MAPI](mapi-properties.md)
-  
-> Сведения о свойствах MAPI.
+- [Свойства MAPI](mapi-properties.md)
     
-[Структуры MAPI](mapi-structures.md)
-  
-> Содержит сведения о структуре, используемые в MAPI.
+- [Структуры MAPI](mapi-structures.md)
     
-[Макросы, связанные со структурами](macros-related-to-structures.md)
-  
-> Сведения о макросах, связанные с структуры, которые используются в MAPI.
+- [Макросы, связанные со структурами](macros-related-to-structures.md)
     
-[Типы данных MAPI](mapi-data-types.md)
-  
-> Содержит сведения о типах данных, используемых в MAPI.
+- [Типы данных MAPI](mapi-data-types.md)
     
 ## <a name="related-sections"></a>Связанные разделы
 
-[Справочник по MAPI для Outlook](outlook-mapi-reference.md)
-  
-[Начало работы со справочником по MAPI для Outlook](getting-started-with-the-outlook-mapi-reference.md)
-  
-[Примеры MAPI](mapi-samples.md)
-  
-[Понятия MAPI](mapi-concepts.md)
+- [Справочник по MAPI для Outlook](outlook-mapi-reference.md) 
+- [Начало работы со справочником по MAPI для Outlook](getting-started-with-the-outlook-mapi-reference.md)
+- [Примеры MAPI](mapi-samples.md)
+- [Понятия MAPI](mapi-concepts.md)
   
 

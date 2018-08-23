@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b0a9fc55-f4ab-45d8-98cc-b040f9ef6aa4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 38e9418d5d9559b67bd79536635359ffaa3f724d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a9499e2a980cbc00eb11c5199bb7329b255c7b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809722"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592663"
 ---
 # <a name="mapi-extended-errors"></a>Расширенных ошибки MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Реализации методов интерфейса можно выбрать только для возвращения (S_OK) успеха и неудачи (MAPI_E_CALL_FAILED) или различать условия ошибок, возврат столько ошибочные значения как смысла ситуации. Большинстве ситуаций можно использовать одно из значений ошибок, определенных в MAPI в MAPICODE. Файл заголовка. Тем не менее для ситуаций, которые не принадлежат предварительно определенные значения, значение, которое можно использовать MAPI_E_EXTENDED_ERROR. MAPI_E_EXTENDED_ERROR указывает вызывающему, что Дополнительные сведения об ошибке. Дополнительные сведения о извлекает вызывающего путем вызова метода **GetLastError** на тот же объект, возвращенный MAPI_E_EXTENDED_ERROR. 
   

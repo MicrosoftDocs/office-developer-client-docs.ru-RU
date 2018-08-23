@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2b8acb69-4c84-4075-8457-d7aadce26c73
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b8b490242d6c0260fb4ba4335846da06a0e73d4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eaf6c8706b6f51a297fda3015b9ce9c5277760bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810458"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585964"
 ---
 # <a name="pidlidotheraddress-canonical-property"></a>Каноническое свойство PidLidOtherAddress
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что полный адрес контакта в другой адрес.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810458"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x0000801C  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

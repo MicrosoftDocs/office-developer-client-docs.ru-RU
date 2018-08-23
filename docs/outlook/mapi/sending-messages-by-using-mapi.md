@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 36de3b70b0ab7b16f8abed85bbd0983224e00568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a3172dcd962c04d72aacd14d2e42990fb0f78c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812243"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593454"
 ---
 # <a name="sending-messages-by-using-mapi"></a>Отправка сообщений с помощью MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения вызовите метод [IMessage::SubmitMessage](imessage-submitmessage.md) , чтобы отправить сообщение. **SubmitMessage** вызывает [IMAPIProp::SaveChanges](imapiprop-savechanges.md) для сохранения сообщения перед передачей управления диспетчер очереди MAPI или непосредственно к поставщику транспорта. 
   

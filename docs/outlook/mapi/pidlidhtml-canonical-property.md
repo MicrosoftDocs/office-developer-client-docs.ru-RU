@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5598cbaf-cb9a-4d3a-b123-9108a7aa7c1c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d05d34c18152c397df04bcf5a82a79d9f1fdd55e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 636aa4d7f20dbd33676bbe65f38f6a9fab25a347
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810376"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587525"
 ---
 # <a name="pidlidhtml-canonical-property"></a>Каноническое свойство PidLidHtml
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает URL-адрес веб-страницу контакта бизнеса.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810376"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x0000802B  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

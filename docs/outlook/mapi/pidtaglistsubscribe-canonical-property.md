@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 97387a82-8e40-4c76-818c-2229fac12e01
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5030e48ac87408f983696a365d3234c3362346c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4408bbc9461d11859292c1d4c356c2323598eb7b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811327"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584228"
 ---
 # <a name="pidtaglistsubscribe-canonical-property"></a>Каноническое свойство PidTagListSubscribe
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение в поле Заголовок списка подписка сообщение Multipurpose Internet Mail Extensions (MIME).
   

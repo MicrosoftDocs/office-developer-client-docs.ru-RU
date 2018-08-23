@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b8a6d74df3749a5445d95ad392f7f88d27190bfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3732d8cbfaf9a6a10c62eae9e7a12b04de8a80ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808722"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583682"
 ---
 # <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает таблицу одноразовых шаблоны для создания получателей для добавления в список получателей исходящих сообщений.
   

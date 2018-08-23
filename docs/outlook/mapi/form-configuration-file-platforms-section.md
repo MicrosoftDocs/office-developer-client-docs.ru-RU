@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ddc6db2303d9d5f114fdb27b6e15e699a04e73f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d86edfb6fcc72c5968a8ff5d9cd739e20e5dec43
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808476"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589898"
 ---
 # <a name="form-configuration-file-platforms-section"></a>Файл конфигурации формы: раздел [Платформы]
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В разделе **[платформ]** представлен полный набор платформ, поддерживаются в эту форму. Каждая запись платформы состоит из префикса **платформы.** _строка_, где _строка_ — код произвольную строку для платформы. Каждая строка соответствует записи **ЦП** отдельных разделов **[платформ]** . Каждая запись в раздел **[платформ]** задает _строки платформы_ , которая ссылается на последующих **[платформы.** _строка платформы_ раздел **]** , как показано ниже. 
   

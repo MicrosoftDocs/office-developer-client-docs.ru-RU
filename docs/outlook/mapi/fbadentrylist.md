@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aae2e97b987414fc5e46b410465d3232b61f1ffe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 113628ef5487bc66a07d1367c938ed178a8e32ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582912"
 ---
 # <a name="fbadentrylist"></a>FBadEntryList
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Проверяет список идентификаторов запись MAPI. 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a355faf85a44f6257b77b7171aa965faabf57fe9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b66b450318c802e773c2f2c47e4a39500c582d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812587"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592774"
 ---
 # <a name="using-mapi-objects"></a>Использование объектов MAPI
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиенты и поставщики услуг используйте объекты MAPI с помощью методов в их реализации интерфейса. Это является единственным способом, можно использовать объекты MAPI; методы, реализованных с помощью объекта за пределами интерфейса MAPI не общего доступа. Так как все интерфейсы объекта связаны через наследование, объекта пользователя можно вызвать методы в основной интерфейс или из наследуемых интерфейсов, как если бы они принадлежат тот же интерфейс. 
   

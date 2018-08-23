@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
 description: 'Последнее изменение: 03 июля 2012 г.'
-ms.openlocfilehash: 1b725dc5151f1f088f2547a1ef82d322c8458b6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810035"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591942"
 ---
 # <a name="meid"></a>MEID
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Идентификатор элемента Outlook. Он содержит идентификатор входа и другие необходимые сведения.
   

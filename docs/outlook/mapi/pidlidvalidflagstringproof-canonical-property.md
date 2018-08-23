@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5a94968-7e84-4faf-8104-9ea36d35fa1a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 90f16f33e7e116e124384f9988c0c7dddaad2da5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efbbffe184e965caae84db54383e1431dfb1a569
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810667"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585824"
 ---
 # <a name="pidlidvalidflagstringproof-canonical-property"></a>Каноническое свойство PidLidValidFlagStringProof
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Проверяет, является ли было задано значение свойства **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) по агенту, который знала, значение свойства **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
   

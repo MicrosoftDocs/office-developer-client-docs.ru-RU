@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b76312c6-7682-4ded-be25-55e21b0b091b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b3fc7690a8c9eb2ada3a34bc44217ff463721e4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2926b09dd3dfd89ab771206e0c8848415238eba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810835"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585481"
 ---
 # <a name="pidtagattachdataobject-canonical-property"></a>Каноническое свойство PidTagAttachDataObject
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит объект вложения, обычно доступе через интерфейс объекта связывания и внедрения (OLE) **IStorage** . 
   

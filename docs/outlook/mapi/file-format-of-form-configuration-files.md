@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 86e4ebd9-6df2-4346-9ce9-580f80a83884
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: def91b4e28e60f6d2e8534f0ed7261777ec0c8e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95add2ca747a267b825648f0de82e8c8a83d3eb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592257"
 ---
 # <a name="file-format-of-form-configuration-files"></a>Формат файла из файлов конфигурации формы
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Файл конфигурации формы представляет собой форматированный файл, созданных разработчиками форм для определения формы.
   

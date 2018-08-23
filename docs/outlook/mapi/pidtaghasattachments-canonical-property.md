@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fd236d74-2868-46a8-bb3d-17f8365931b6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3b618e5a79c3b7e3810ea541aa9b905dfa4188a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 505f9bb80c86b956cd920348f2120f7fc8494d8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811177"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587504"
 ---
 # <a name="pidtaghasattachments-canonical-property"></a>Каноническое свойство PidTagHasAttachments
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если сообщение содержит по крайней мере одного вложения. 
   

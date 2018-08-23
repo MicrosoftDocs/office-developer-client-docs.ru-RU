@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 975c01457515a400d1d442fedc432dc000f06665
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 42d09fd92edf4dc221b73dac4948e78a7c6898ac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809028"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589331"
 ---
 # <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Реализует объект хода выполнения, который предоставляет клиентских приложений с индикатором хода выполнения. Индикатор выполнения отображается пользовательский интерфейс, который показывает процент завершения операции, такие как копирование папок между хранилищами сообщений. MAPI и клиентских приложениях внедрение объектов хода выполнения и их использовании поставщиков услуг. 
   

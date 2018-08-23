@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 46c23a39-d607-404b-ac67-6d8b02ab6045
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 67e9aa6619405a79da6c874e23724947fb1d3287
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9295109f5e73cc3461580e67ef6ff67c512c6ec3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810202"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583948"
 ---
 # <a name="pidlidbilling-canonical-property"></a>Каноническое свойство PidLidBilling
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения об оплате, связанный с элементом.
   

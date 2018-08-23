@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e281907931a493e82c44913a7c26f6df55876e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa8b84e7baed74bda25ec1b20bd79fb121a838fd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812570"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587574"
 ---
 # <a name="upmsg"></a>UPMSG
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сведения для отправки элемента Outlook во время [отправки сообщения состояния](upload-message-state.md).
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d8b4df2dbb0d7fd2edeb82222f333c11c5f71987
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b29f47191bc1f12653ddcc4e78dd8b3401f0480
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811744"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587644"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>Каноническое свойство PidTagRoamingDatatypes
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску, которое указывает, какие свойства существуют на сообщение потока.
   

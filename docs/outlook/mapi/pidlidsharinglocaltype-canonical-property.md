@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6ac438a1-d36f-424f-b4b4-d6f2d26fd350
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ab9bad51efc4aa9b113bc8d215426c642fc60b9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f24486270f5f20596e76781c7ddf4cbc90e17a11
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583955"
 ---
 # <a name="pidlidsharinglocaltype-canonical-property"></a>Каноническое свойство PidLidSharingLocalType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает значение свойства **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) к папке, где находится в совместном. Это свойство общего доступа сообщения.
   

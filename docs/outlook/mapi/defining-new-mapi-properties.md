@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1a2325ea-ddfa-480f-b65f-f5b20471fb40
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 68e877568565cfcc30b60e9b21f55b7dc1600b28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f922ee95cda84311d840aa9de339883c57efba56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808279"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590325"
 ---
 # <a name="defining-new-mapi-properties"></a>Определение новых свойств MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Несмотря на богатый набор свойств, предоставляемых MAPI для использования клиентами и поставщиков услуг MAPI позволяет новых свойств будет создан, если это необходимо. Ниже перечислены некоторые из действительный сценарии для определения нового общих свойств клиента, создание свойств для поддержки новый класс сообщения и поставщика услуг, создание нового свойства предоставляют доступ к уникальным функции системы обмена сообщениями.
   

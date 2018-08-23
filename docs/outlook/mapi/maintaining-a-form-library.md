@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8488f7ec-e44b-4d1a-ba42-baea8c71d350
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5ccb5a2881d3cef3ff21a106e7e9ea33e0aedd9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6713055837e3b9b664d5fa1465c9a889919ee5ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590094"
 ---
 # <a name="maintaining-a-form-library"></a>Обслуживание библиотеки форм
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Библиотека форм хранит все важные сведения об формы: его свойства, его команды и его сервер исполняемых файлов. Некоторые клиенты их пользователи могли поддерживать, Установка и удаление серверов формы. Если вы хотите предлагать этой функции для пользователей, должны иметь доступ к:
   

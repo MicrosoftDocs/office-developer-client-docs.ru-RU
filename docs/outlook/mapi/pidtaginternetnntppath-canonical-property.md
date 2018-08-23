@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8673bb7d-d6dc-4087-95d6-9479b0a59fc4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 05799e5bf9f987c28035d07bcd218e75651e5ae0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e265b646aa9942efafe8de352cc1d7939dec87a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811254"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592754"
 ---
 # <a name="pidtaginternetnntppath-canonical-property"></a>Каноническое свойство PidTagInternetNntpPath
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сопоставляется с MIME пути.
   

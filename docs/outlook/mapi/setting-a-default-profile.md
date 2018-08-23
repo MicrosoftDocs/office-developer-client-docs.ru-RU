@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1d1e862d-ba49-48a1-bb51-0af861323b7b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ea21e735dba8690a392629b92b636b834d7d57d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2044969cc79990c9f0325fc7934e3426015fdc72
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812257"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591774"
 ---
 # <a name="setting-a-default-profile"></a>Установка профиля по умолчанию
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Профиль по умолчанию является профиль, который используется, если не указано явно в вызове [MAPILogonEx](mapilogonex.md), вместо этого установка флага MAPI_USE_DEFAULT.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0f9aa5d508afeaf5933c50763e1e42832ae4e3f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ae94b40d984adee0f3c888f69dfdbffb1e352e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809249"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584438"
 ---
 # <a name="imapiviewadvisesinkonsaved"></a>IMAPIViewAdviseSink::OnSaved
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомляет средство просмотра формы, который был сохранен текущего сообщения в форме.
   
@@ -33,7 +33,7 @@ HRESULT OnSaved( void );
 
 ## <a name="parameters"></a>Параметры
 
-Нет
+None
   
 ## <a name="return-value"></a>������������ ��������
 

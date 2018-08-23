@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 02d2b136ed1437ba53ce1e54a202d70a48b2abe9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a397ac9110429911755552298ffe244343d54a8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809050"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583731"
 ---
 # <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Включает клиентов, поставщиков услуг и MAPI, для работы со свойствами. Все объекты, которые поддерживают свойства реализовать этот интерфейс.
   

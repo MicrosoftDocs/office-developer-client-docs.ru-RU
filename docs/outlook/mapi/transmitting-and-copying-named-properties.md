@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 37075cfc-461d-4983-9045-d9f1da6739be
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a5d2244270463fcc2fe0a9786112590e741a8a66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c225712e354d72b79313ee4c3f36da55f11b0a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812502"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587518"
 ---
 # <a name="transmitting-and-copying-named-properties"></a>Передача и копирование именованных свойств
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Каждый раз, когда отправляется именованного свойства, переместить или скопировать, имя не изменяется, но идентификатор необходимо изменить в соответствии сопоставления в целевой объект. Единственным исключением из этого правила является при исходном и целевом иметь ту же подпись сопоставления внесения сопоставление ненужных.
   

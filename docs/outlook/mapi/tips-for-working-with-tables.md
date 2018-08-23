@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 451bab57d4e2e8669a25d119f9ce28a8f78e628f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9b4d6a469904058b0484428dbf20a90119e96bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812476"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586139"
 ---
 # <a name="tips-for-working-with-tables"></a>Советы по работе с таблицами
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Работа с MAPI в таблице — это немного аналогично использованию таблицы реляционной базы данных. Пользователя можно ограничить число строк и столбцов в представлении и укажите их порядок. Строк может быть извлеченных по отдельности или в группах. Можно перемещать курсор, который хранит текущую позицию в определенное место в таблице. 
   

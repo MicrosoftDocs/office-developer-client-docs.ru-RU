@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c92181c4-79ca-4310-8bf1-2bc335c8e0cd
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f4b9cb00512838e6b54c0cc910b8f7279120db3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 667d7afe1772786507ffc8eb75f901439ada61d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808179"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587870"
 ---
 # <a name="composing-a-new-message-by-using-a-form"></a>Составление нового сообщения с помощью формы
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Чтобы использовать форму для создания нового сообщения, сначала необходимо создайте новый объект настраиваемого сообщения.
   

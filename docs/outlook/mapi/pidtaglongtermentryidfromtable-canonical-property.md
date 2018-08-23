@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d9457fea-4b1e-4cf6-9c4b-14c98fbec2a1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ebb925ac1ff6507a5e686b769ba9d48b095fb527
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddec060af73d61a4a39c59b35f0442d6b9b1db66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811340"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590318"
 ---
 # <a name="pidtaglongtermentryidfromtable-canonical-property"></a>Каноническое свойство PidTagLongTermEntryIdFromTable
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает идентификатор записи долгосрочного элемента.
   

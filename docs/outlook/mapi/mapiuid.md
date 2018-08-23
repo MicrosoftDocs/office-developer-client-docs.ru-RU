@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3675c6a8ee2ee208f175dd5f7d219447aa52e9ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809917"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587168"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Порядок байтов независимой версия структуру [идентификатор GUID](guid.md) , который используется для уникальной идентификации поставщика услуг. 
   
@@ -74,7 +74,7 @@ MAPI создает **MAPIUID** структуры, чтобы он очень �
 
 
 
-[GUID](guid.md)
+[ИДЕНТИФИКАТОР GUID](guid.md)
   
 [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md)
   

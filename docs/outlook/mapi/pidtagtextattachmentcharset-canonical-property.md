@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: d347c949-d0c3-4a36-8447-3fa01111cdc1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c728799832b10ad2d4533a9a040582b67054baad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cec34819cfa2c6e790f8808eb5bab70412f286b5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812019"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591431"
 ---
 # <a name="pidtagtextattachmentcharset-canonical-property"></a>Каноническое свойство PidTagTextAttachmentCharset
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение набора символов вложения сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Нет  <br/> |
+|Связанные свойства:  <br/> |Отсутствует  <br/> |
 |Идентификатор:  <br/> |0x371B  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |

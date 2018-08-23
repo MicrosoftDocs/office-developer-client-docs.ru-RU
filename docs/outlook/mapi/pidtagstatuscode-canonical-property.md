@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: efd0dcc8fc01fa433cbbf30936244e4818f8b14a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a60bc55686e883cabd144af3a9badfb55f835472
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811961"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593125"
 ---
 # <a name="pidtagstatuscode-canonical-property"></a>Каноническое свойство PidTagStatusCode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов, которые указывают текущее состояние сеанса ресурсов. Все поставщики услуг задать коды состояния как MAPI для создания отчетов о состоянии подсистема очереди MAPI и встроенная адресной книги.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d1837f1-494f-481b-9e09-ab8249f1488c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 9dba148646678f0740c5b2c338ae345ecd76dfac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d74c9d5632e81e5b98cd1a4a02d5646cf3f6300
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810016"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592313"
 ---
 # <a name="message-text"></a>Текст сообщения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Для исходящих сообщений в режиме MIME типа контента зависит от того вложения и выглядит как текстовое сообщение. При наличии вложения, — это тип содержимого _multipart/mixed;_ текста сообщения и каждого вложения становятся отдельной области содержимого сообщения, каждый из которых собственного типа контента. Если нет вложений, _text/plain_ — это тип содержимого сообщения и только один компонент. 
   

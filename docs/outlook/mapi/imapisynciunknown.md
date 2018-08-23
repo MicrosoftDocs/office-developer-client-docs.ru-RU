@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fb7a8ea39d6e7b1d7df1560658ceb67a79d39d92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e2e7a3f9279485d862fac5bb6413b3d3eb1343e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809184"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589086"
 ---
 # <a name="imapisync--iunknown"></a>IMAPISync : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Механизм синхронизации электронной почты, а не с помощью API транспорта. Этот интерфейс предоставляется на объект хранилища. С помощью этого интерфейса и [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), поставщика транспорта можно обеспечить более хода выполнения и сообщения об ошибках чем, который отображается в диалоговом окне отправки и получения в Microsoft Outlook.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f56c56d8-db46-4c69-876f-2bbb4a5c1185
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 9ea1c4063c08844052618c50fe53fdc0064787a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6c12973a3ee2f9842e74f6f01b94553659dc1ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808562"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583311"
 ---
 # <a name="handling-named-property-errors"></a>Свойство ошибки с именем обработки
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При запросе [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) или слишком велик для реализации обработки [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) MAPI_E_TOO_BIG возвращается ошибка. Абонентов необходимо разделить свой запрос на несколько запросов вызова соответствующего метода в цикле. 
   

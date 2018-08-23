@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a66d1c64-5c5a-4980-9acd-72448108fd2c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a05743f2fa10326a358dd92a72cf530740274f2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b10daf3bdc11d406b6f7248fd6aaa9e3c6c2a68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810921"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584718"
 ---
 # <a name="pidtagbodycontentlocation-canonical-property"></a>Каноническое свойство PidTagBodyContentLocation
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение поля заголовка MIME Content-Location.
   

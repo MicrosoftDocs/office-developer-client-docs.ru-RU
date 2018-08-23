@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ae8a9214-e53f-4c57-8dbe-aa7cc6903aa8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0d9e7caf43bcee654aa92652e94bc8c2ebba18e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c92347ab1a786196e7f0d99b286e8f4134ce7c24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590703"
 ---
 # <a name="best-practices-for-fast-shutdown"></a>Рекомендации по быстрому завершению работы
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В данном разделе содержатся советы и рекомендации для администраторов, клиентов MAPI и поставщики MAPI для использования интерфейсов быстрое завершение работы и параметры реестра Windows для сведения к минимуму потерю данных во время отключения клиента.
   

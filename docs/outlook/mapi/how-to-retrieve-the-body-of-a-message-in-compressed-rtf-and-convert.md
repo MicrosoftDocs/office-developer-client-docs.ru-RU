@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9408da71-4abf-60cf-5412-58c5ceeb2205
 description: '���� ���������� ���������: 25 ���� 2012 �.'
-ms.openlocfilehash: c07eebf11b4e61d91f492206498558154e6ddef3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a21c8655b5d5d1b33b26228ed8cca8ef4f1f6f3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808636"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583920"
 ---
 # <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a>Извлечение текста сообщения в сжатом формате RTF и преобразования в его собственном формате
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом примере кода в Microsoft C++ показано, как используйте функцию экспортированного Microsoft Outlook 2010 или Microsoft Outlook 2013 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) для доступа к тексту сообщения, инкапсулированную в сжатом формате RTF и для получения текста в его собственном формате. 
   

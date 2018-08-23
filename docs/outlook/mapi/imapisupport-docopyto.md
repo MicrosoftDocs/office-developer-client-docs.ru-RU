@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1040a0730c4b26b51d3c2b7763488502b2c5323c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ce5aa8c43e284b493a0709808a196c6c6889f88
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809131"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592110"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Копирование или перемещение всех свойств одного объекта, за исключением специально исключенные свойства на другой объект.
   

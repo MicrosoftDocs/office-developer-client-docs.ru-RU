@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 35bb0d6d-41d4-47d6-b161-be3721894201
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 83ab01363d478d197286bfa8f7b5b092a7ffd5a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03465df65498643ce02598fdc26ab78b44e1135a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811211"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588680"
 ---
 # <a name="pidtagiconindex-canonical-property"></a>Каноническое свойство PidTagIconIndex
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер, который указывает, какие значок, используемый при отображении группу объектов электронной почты.
   
@@ -61,7 +61,7 @@ ms.locfileid: "19811211"
 |Из него почты office  <br/> |0x0000011B  <br/> |
 |Отзыв почты  <br/> |0x0000011C  <br/> |
 |Записанные почты  <br/> |0x00000130  <br/> |
-|Контакт  <br/> |0x00000200  <br/> |
+|Contact  <br/> |0x00000200  <br/> |
 |Список рассылки  <br/> |0x00000202  <br/> |
 |Записки синий  <br/> |0x00000300  <br/> |
 |Зеленый записок  <br/> |0x00000301  <br/> |

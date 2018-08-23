@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1353289da2b428fb58adecc6f7830a2eea4b519a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1b18db072cb7c62c10c8ee4ab79dd1d8754388f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810225"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588022"
 ---
 # <a name="pidlidclipend-canonical-property"></a>Каноническое свойство PidLidClipEnd
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает дату и время события в формате UTC для одного экземпляра объектов календаря. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bbaf7df4-2de0-4da3-9125-eb24dfa94cd8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b8da927fe0080a83748bbb2941979dcb246222fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 716d8b5b09ee0e29d1946042cae2631561d74df5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810593"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584655"
 ---
 # <a name="pidlidtaskffixoffline-canonical-property"></a>Каноническое свойство PidLidTaskFFixOffline
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает точность свойство **dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)).
   

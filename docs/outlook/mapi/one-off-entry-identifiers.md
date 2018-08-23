@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1335de3c1decf6c594f0148fbbf055061d7ce7e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a086d1b9bcc1eae620b2f0a5ce96a545ce68342
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810047"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585537"
 ---
 # <a name="one-off-entry-identifiers"></a>Идентификаторы единичных записей
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Идентификаторы единичных записей создается путем MAPI в методе **IAddrBook::CreateOneOff** и компонентов, которые не имеют доступа к подсистеме MAPI, такие как шлюз компонентов. For more information, see [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md). На следующем рисунке показана формат идентификатора единичных записей.
   

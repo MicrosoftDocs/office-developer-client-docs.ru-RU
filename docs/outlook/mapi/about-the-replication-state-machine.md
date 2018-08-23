@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9ea18f8e5c7eb758780727829fb1e18d2a19ec92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30dd43a3ac9a315cd41919872b918bee639ca259
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807988"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593055"
 ---
 # <a name="about-the-replication-state-machine"></a>Сведения о конечном автомате репликации
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приводится обзор конечного автомата для репликации данных Microsoft Outlook 2013 и Microsoft Outlook 2010.
   
@@ -49,14 +49,14 @@ ms.locfileid: "19807988"
 |**State** <br/> |**Репликация данных** <br/> |**Код состояния** <br/> |**Структура данных** <br/> |
 |[Состояние простоя](idle-state.md) <br/> | *None*  <br/> |**LR_SYNC_IDLE** <br/> | *None*  <br/> |
 |[Синхронизировать состояние](synchronize-state.md) <br/> |Папки или элементов  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
-|[Отправка иерархия состояний](upload-hierarchy-state.md) <br/> |Папки  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
+|[Отправка иерархия состояний](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
 |[Отправить состояние папки](upload-folder-state.md) <br/> |Folder  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
 |[Синхронизировать состояние содержимого](synchronize-contents-state.md) <br/> |Items  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
 |[Отправка состояний в таблице](upload-table-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
 |[Отправка сообщения состояния](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
 |[Отправка состояний просмотра состояния](upload-read-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
 |[Отправка удалить состояние состояние](upload-delete-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
-|[Загрузите иерархия состояний](download-hierarchy-state.md) <br/> |Папки  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
+|[Загрузите иерархия состояний](download-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
 |[Загрузите таблицу состояний](download-table-state.md) <br/> |Items  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
 |[Загрузить состояние заголовка сообщения](download-message-header-state.md) <br/> |Заголовок сообщения  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
    
@@ -91,5 +91,5 @@ ms.locfileid: "19807988"
   
 [��������� MAPI](mapi-constants.md)
   
-[SYNCSTATE](syncstate.md)
+[СОСТОЯНИЕ](syncstate.md)
 

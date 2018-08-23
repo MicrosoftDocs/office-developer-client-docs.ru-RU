@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 65f890d8-9d25-408e-ab29-89991278b92d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 871ce5f594a75b9441d0434c3be47b2718540576
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 966af9b3b3cbe52031402450be324ab6821d53ac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811490"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586580"
 ---
 # <a name="pidtagoriginatorcertificate-canonical-property"></a>Каноническое свойство PidTagOriginatorCertificate
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сертификат ASN.1 для этого отправитель сообщения.
   

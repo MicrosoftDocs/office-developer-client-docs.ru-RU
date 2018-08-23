@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 26dfd40ed8b4cd2b2261abff4d2692de46acb6fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d9db53dd752367570fc10aaabe3143b3b3ea917
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808163"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588379"
 ---
 # <a name="changeproptype"></a>CHANGE_PROP_TYPE
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Обновляет свойства тип тега свойства с заданным значением. Идентификатор свойства не изменяется. 
   

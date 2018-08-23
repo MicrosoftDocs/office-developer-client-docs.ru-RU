@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 985b763ade9670c064c6c338953debf7beaa2783
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae0d6d58f96738a9686dbdda86336c040c2e2f68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809525"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591688"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Добавление одного или нескольких свойств типа PT_OBJECT объект.
   

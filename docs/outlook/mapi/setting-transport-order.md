@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4a140ec3-9520-4119-a975-0fb6c1049967
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 71d7ebf2bc8c7bbf3b5ee6ce60959fdeee79abe3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e4c318678fdce7976140ff8f480ae638fd3ca4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812272"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593027"
 ---
 # <a name="setting-transport-order"></a>Установка порядка транспорта
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Диспетчер очереди MAPI назначает ответственность за на основе типов адресов и идентификаторы, которые поставщиками транспорта declare, они могут обрабатывать исходящих сообщений. Поставщиками транспорта опубликовать список поддерживаемых адрес типов и идентификаторы, хранящиеся в **MAPIUID** структуры — при MAPI вызывает метод их [IXPLogon::AddressTypes](ixplogon-addresstypes.md) , непосредственно после входа в систему. Тип адреса получателя хранится в свойстве **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)).
   

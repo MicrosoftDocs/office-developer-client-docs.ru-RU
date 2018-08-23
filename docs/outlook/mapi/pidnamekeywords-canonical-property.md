@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b71579a4652df62e696cd0dc6113dde44fad4287
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caa337541b45c2cb602f0848769b3b07028ea0fd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810715"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590542"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>Каноническое свойство PidNameKeywords
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит ключевые слова или категории для объекта сообщения.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |Keywords  <br/> |
 |Тип данных:  <br/> |PT_MV_UNICODE  <br/> |

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: adf9b28e941e9ead9b83660f58701f13f35cabc7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592936"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомляет средство просмотра формы после загрузки, что новое или существующее сообщение в форме.
   
@@ -33,7 +33,7 @@ HRESULT OnNewMessage( void );
 
 ## <a name="parameters"></a>Параметры
 
-Нет
+None
   
 ## <a name="return-value"></a>������������ ��������
 

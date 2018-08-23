@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d643bf62-62e5-41c7-ab88-5c4c358e5460
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d567a4d3a759976ac73c24b26963a8286a0be484
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50807f65cf280764289b8a29aebdb1e8e8ed8aa6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810522"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582625"
 ---
 # <a name="pidlidsendmeetingasical-canonical-property"></a>Каноническое свойство PidLidSendMeetingAsIcal
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отправка следует приглашения на собрание как iCal сообщение.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 1940feb0-9e0f-4d96-9fb9-b9a35a0aa661
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 525c817cfc3bdcf96455d35025e85486ec8b5b42
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 680d80c0827399f3b7a0ea5819e51be654a05810
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810059"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592481"
 ---
 # <a name="opening-a-view-descriptor"></a>Открытие представления дескриптора
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Большое число папок могут быть открыты в обычном режиме, представление по умолчанию или любое количество личных представлений. Представление описывает способ отображения содержимого папки. Стандартное представление используется, когда нет альтернативные представления и при открытии папки в первый раз. При альтернативное представление существует, его необходимо использовать для откройте папку.
   

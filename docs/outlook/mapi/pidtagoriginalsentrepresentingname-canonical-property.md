@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1be45cad-05a2-44cb-8c3d-7f6ac092fa0d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c71182fc5190e64bdeb95dd5d19dfa7c588a41d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2d7261aadd304b731fbf0d88cbd93cbdc07c118
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811489"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587343"
 ---
 # <a name="pidtagoriginalsentrepresentingname-canonical-property"></a>Каноническое свойство PidTagOriginalSentRepresentingName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя системы обмена сообщениями пользователя, от чьего имени исходное сообщение было отправлено.
   

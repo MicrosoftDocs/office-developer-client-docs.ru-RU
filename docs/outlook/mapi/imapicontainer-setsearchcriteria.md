@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 93578300e2520dda4a9621b05ac6a79c54eca2ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 93fb82c6274a1703376d7a9e15f37088e132dc23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19808839"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585894"
 ---
 # <a name="imapicontainersetsearchcriteria"></a>IMAPIContainer::SetSearchCriteria
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Устанавливает условия поиска для контейнера.
   

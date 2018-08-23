@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 153bf058-3812-4c81-8d07-549892593668
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7db198ef26f355ce154434e0efb2df374ae742dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc75160125e36fb89d7afe0cc84f3d60d4258d1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810785"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589121"
 ---
 # <a name="pidnamexsharingproviderguid-canonical-property"></a>Каноническое свойство PidNameXSharingProviderGuid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет значение свойства **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |X-общий доступ к поставщика — идентификатор Guid  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

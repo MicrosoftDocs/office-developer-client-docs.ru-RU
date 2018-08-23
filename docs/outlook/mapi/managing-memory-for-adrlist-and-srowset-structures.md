@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ab582b869fb5a53d7ac4e97e039d9bde4a4f0430
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef20cf8460aa7d3d160208109e42b2de66658d54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809681"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589730"
 ---
 # <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Управление памятью для структуры ADRLIST и SRowSet»
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Требования для выделения памяти все буфера, когда это возможно с помощью одного вызова **MAPIAllocateBuffer** не применяется при использовании списка адресов или **ADRLIST**и набор строк или **SRowSet**структуры. 
   

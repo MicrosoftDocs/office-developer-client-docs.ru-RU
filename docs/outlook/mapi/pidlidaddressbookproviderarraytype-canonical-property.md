@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ca4eb6c2-98e9-4dbc-9f5a-f0f257456ead
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3515d0f751cb6d8d0d427079691456519bac97dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d0d5ca3b40f6d46641b805593794827fa99b7fb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810086"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593384"
 ---
 # <a name="pidlidaddressbookproviderarraytype-canonical-property"></a>Каноническое свойство PidLidAddressBookProviderArrayType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает состояние контакта электронных адресов и представляет набор битовых флагов.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810086"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008029  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

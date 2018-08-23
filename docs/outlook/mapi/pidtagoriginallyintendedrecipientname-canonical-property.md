@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 19c11c4e49eff9156a928dfa3d2a8b51d8873984
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7fae59d23d2d335513cbbddc22638ed623d894b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811442"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583794"
 ---
 # <a name="pidtagoriginallyintendedrecipientname-canonical-property"></a>Каноническое свойство PidTagOriginallyIntendedRecipientName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит закодированное имя изначально получателя сообщения автоматически переадресовано.
   

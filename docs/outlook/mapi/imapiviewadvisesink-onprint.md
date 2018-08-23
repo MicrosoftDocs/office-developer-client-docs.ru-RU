@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: bf3eee43a70fbc4abf32b60379fc7b191bd9d513
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 202d461d4acefe18e69b47db9319cb328c61406e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809235"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592320"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомляет средство просмотра формы из состояния печати формы.
   

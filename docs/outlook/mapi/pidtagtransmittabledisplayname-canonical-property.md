@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 96eaf6c3f9ddc9d4bf6bc16ddc28a6f38bc311f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc2704b69994cb80b15de82edad6c65423c6b5a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812011"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591851"
 ---
 # <a name="pidtagtransmittabledisplayname-canonical-property"></a>Каноническое свойство PidTagTransmittableDisplayName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя получателя в безопасной формы, которая не может быть изменено.
   

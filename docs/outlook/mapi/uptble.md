@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f7fcb385-186d-d5fe-7104-fe0af09d5768
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 62c18ac609547563ad0e98cbd914866e05888ac8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2523c149d98dacf9ad321a4a443382a39753fd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812577"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592341"
 ---
 # <a name="uptble"></a>UPTBLE
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Подробные данные для загрузки содержимого папки во время [загрузки состояния в таблице](upload-table-state.md).
   

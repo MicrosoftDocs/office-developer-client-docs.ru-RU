@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e608cb0-808d-4418-8521-71dcbce8cdff
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 25f80ddce60ab5a8966a62761d234accafbb54be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b582b48773b9f6f1a6f46f9c0e4c6dcb9782b86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809088"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592068"
 ---
 # <a name="imapisessionunadvise"></a>IMAPISession::Unadvise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Показано, как отменить отправку уведомлений, ранее настройка с помощью вызова метода [IMAPISession::Advise](imapisession-advise.md) . 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 87be00bce55fabda6271b472a9e5c446aaf8054a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cd0442a715fb5441ab8efefb9574f09f2e2c1ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809410"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587861"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Регистрирует объект поставщика хранилища сообщений для уведомлений об изменениях в хранилище сообщений. Хранилище сообщений будет отправлять уведомления об изменениях зарегистрированных объект.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 14abfaadcdb1710a7cb8275c8f82d502aea8300e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 010f69b70324d4280a34d2fe06d670e07d922d86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809018"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586776"
 ---
 # <a name="imapiprogresssetlimits"></a>IMAPIProgress::SetLimits
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает нижний и верхний ограничения на число элементов в операции и флаги, определяющие порядок вычисления сведения о ходе выполнения операции.
   

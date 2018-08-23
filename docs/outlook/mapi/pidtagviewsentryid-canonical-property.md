@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8350a37c-6f42-4bef-82e0-35aa12b09fcf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1980e3bd815b370f125f4449dd7b7f340a7dcb9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 73ed7213ea2bd5079458ccc237b65590f06e8d53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812034"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586265"
 ---
 # <a name="pidtagviewsentryid-canonical-property"></a>Каноническое свойство PidTagViewsEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи папки пользовательских представлений.
   

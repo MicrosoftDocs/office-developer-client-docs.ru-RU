@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 41e1113faec18625f57b24f9fc165e2cb029724d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1312f590dfc0e8388495351dd4870fcf8b9e22f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810711"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591368"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>Каноническое свойство PidNameExchangeJunkEmailMoveStamp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение постоянных сообщение, которое указывает, что сообщение не будет обработано фильтром нежелательной почты, так как сообщение уже обработки или безопасном.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |

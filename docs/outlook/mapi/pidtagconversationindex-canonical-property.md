@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c65cdda7-9515-4da9-be75-43ebf45a02df
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bddb667cba99e240a6ce182c9c1c8ed47f467e15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 77fee834108a603c1cd10e8e47776cc34fd75a2b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811007"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584171"
 ---
 # <a name="pidtagconversationindex-canonical-property"></a>Каноническое свойство PidTagConversationIndex
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит двоичные значение, указывающее, относительное положение этого сообщения в рамках потока беседы. 
   

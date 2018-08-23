@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 12069912-4b87-4945-9123-51106e0d2d54
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d9f08c13f68c7d3d9f41b9a67ac1888d6c507c34
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4301fb504439cf0ebd70b5ece589c812cb74844e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809078"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585299"
 ---
 # <a name="imapiprovidershutdownqueryfastshutdown"></a>IMAPIProviderShutdown::QueryFastShutdown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Запросы, которые поддерживают поставщика MAPI для быстрое завершение работы. 
   

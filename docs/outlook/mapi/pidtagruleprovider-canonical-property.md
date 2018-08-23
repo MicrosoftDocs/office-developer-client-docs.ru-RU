@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 64f80a03-9ba4-495a-9666-b3a909335cb6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5456e0abffd1ac25983809d32fde88644eaa01cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a80669f3d8f3d262cc8787f60efb3bc4b24d4b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811799"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589443"
 ---
 # <a name="pidtagruleprovider-canonical-property"></a>Каноническое свойство PidTagRuleProvider
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя приложения, который задает правило.
   

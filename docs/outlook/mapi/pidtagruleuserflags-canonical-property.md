@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8a44c88cbc971d9d5358fc6b24093e56e9565eb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2fb648de0c974c9b54ad925c271dd5eb7276b71
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585516"
 ---
 # <a name="pidtagruleuserflags-canonical-property"></a>Каноническое свойство PidTagRuleUserFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Это свойство имеет значение клиентом использовать только клиента. 
   

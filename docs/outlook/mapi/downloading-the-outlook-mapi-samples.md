@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ee3a65ec-c776-4aa1-a772-de56fc33a8d1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e3501ef80b6e1b1b99d09e50186fa0bc10d7fb67
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7fb1e20d35e756dc0681f4927d9f542628482cb6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808342"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583262"
 ---
 # <a name="downloading-the-outlook-mapi-samples"></a>Скачивание примеров MAPI для Outlook
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Microsoft Outlook MAPI примеры поставщика адресных книг, поставщика хранилища сообщений и поставщика транспорта.
   

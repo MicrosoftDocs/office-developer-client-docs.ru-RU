@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1e1cba3d927072cb03dbd34eee518c9b0a9e0383
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f20c3e988c0a0461a966a109a8d345c22e1fccee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810601"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585740"
 ---
 # <a name="pidlidtaskmultiplerecipients-canonical-property"></a>Каноническое свойство PidLidTaskMultipleRecipients
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Рекомендации по оптимизации о получателей задачи.
   

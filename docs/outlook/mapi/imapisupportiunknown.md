@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7daa8ec536a81abc196bbb23a0e1a48e826579e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4843a52d7441de1e1ab545e80346db8dd308c4bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590206"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет реализацию для задач, которые обычно выполняют поставщиков услуг и функции точки входа службы сообщений. Поставщики услуг получать указатель их поддержка объект, когда MAPI вызывает метод их объект поставщика входа в систему. Службы сообщений получают их поддержка указателя на объект в вызове функции их точки входа.
   

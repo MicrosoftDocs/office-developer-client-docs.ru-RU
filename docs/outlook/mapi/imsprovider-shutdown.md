@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 334ec8dd0c683cf9b765f387281c624b20520098
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 342b87a3a8f0349631e64600e294d4f19ab1099c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589093"
 ---
 # <a name="imsprovidershutdown"></a>IMSProvider::Shutdown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Закрывает поставщика хранилища сообщений определенным образом.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 80208900-94b8-4215-8bb8-66017856d4c3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 652860a30fd1645ffd3b5fb836489f9d8ae7e578
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 681e2a461f0ebeefcc7dba85dadf324aab9eb1b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811197"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587007"
 ---
 # <a name="pidtaghomefaxnumber-canonical-property"></a>Каноническое свойство PidTagHomeFaxNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит телефонный номер домашнего факса получателя. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 28f6471f74fb0fcc4f7e2f4114f0790e1564e17e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09f0d7988f85a6d6018c45cb64245ab331cda052
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808364"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582814"
 ---
 # <a name="dtbllabel"></a>DTBLLABEL
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описание метки, который будет использоваться в диалоговом окне, построенного из таблицы отображения.
   

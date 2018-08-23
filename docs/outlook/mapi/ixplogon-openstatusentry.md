@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0e96c0b99f0a5f7511ed59b483ab9409eafad882
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7cb77308ebc7229adcab290fc8e1f9e11ce45065
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809626"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587021"
 ---
 # <a name="ixplogonopenstatusentry"></a>IXPLogon::OpenStatusEntry
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Открывает объект состояние поставщика транспорта.
   

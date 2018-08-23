@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2ab4681e-0013-4ba0-ba26-50517bbf3f5b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2520a7544eb4ba39cd83a7a0aa65b98bd8a67deb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d6167a7a3c983171f2ff9cb2a54c879a14dca0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811135"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591417"
 ---
 # <a name="pidtagfoldertype-canonical-property"></a>Каноническое свойство PidTagFolderType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит константы, которое указывает тип папки. 
   

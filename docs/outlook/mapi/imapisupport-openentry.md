@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84662230-6a25-4403-b87e-871427a40c6e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 04bf7f2ddda7377df72417df2472246a2cf329bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b122c98715bd2f6916fe6302fc0b7a01d2cc936
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809157"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584613"
 ---
 # <a name="imapisupportopenentry"></a>IMAPISupport::OpenEntry
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Открывает объект и возвращает указатель интерфейса для дальнейшей доступа. 
   

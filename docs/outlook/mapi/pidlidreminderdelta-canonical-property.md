@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e2caccf3cf6ca7e6f15bed1c901d4dfbb198f19b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91cad169157b2dd0ff279e88b69db149c4c7df89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810480"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590752"
 ---
 # <a name="pidlidreminderdelta-canonical-property"></a>Каноническое свойство PidLidReminderDelta
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает интервал в минутах между времени, когда напоминания сначала становится просроченные и время начала объекта календаря.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 853ddee5-24d6-423d-b483-6a07a12de51f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f00418efa068ea81fab94605cbdfd139e24bb4a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63ddf6fd8f61834c7a7faa910f70bfd98715a703
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809526"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591326"
 ---
 # <a name="iprovideradmingetlasterror"></a>IProviderAdmin::GetLastError
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о предыдущем ошибки, которые произошли объект администрирования поставщика. 
   

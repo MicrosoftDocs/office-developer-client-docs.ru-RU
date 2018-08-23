@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0d705667-19f4-4eda-a068-e65ea8f00d9b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 075c5e894d4b039ce06ca0508b838a7094af8768
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ffe4798c5e8ef200619b060a58e868cc4a1b2bc2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811960"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590073"
 ---
 # <a name="pidtagstoreentryid-canonical-property"></a>Каноническое свойство PidTagStoreEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит уникальный идентификатор хранилища сообщений, где находится объект.
   

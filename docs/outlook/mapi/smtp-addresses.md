@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 42015740-a94f-4628-bf32-b7fc2fdb9ff6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9bc77e3226066dc88bbaf4f4efc324825add8919
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 655d48d1ea937659f85e0ef7379425759ea7e256
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812347"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591361"
 ---
 # <a name="smtp-addresses"></a>SMTP-адреса
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Формат адреса электронной почты SMTP определен в RFC 822. Компоненты MAPI должен обрабатывать любого адреса, соответствующие этому стандарту. Однако существует определенной формы RFC 822 адрес, который лучше всего кодирует MAPI адреса:
   

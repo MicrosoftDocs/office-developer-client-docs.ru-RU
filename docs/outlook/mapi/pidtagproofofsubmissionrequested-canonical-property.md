@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 35e7df1d6c2d9c65af6597d22519a41cecc2ff47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 427eed260dbe56e2a83d7ddccff3eb2cebe8c27c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811595"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589989"
 ---
 # <a name="pidtagproofofsubmissionrequested-canonical-property"></a>Каноническое свойство PidTagProofOfSubmissionRequested
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит обоснования ASN.1 значение отправки.
   

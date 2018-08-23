@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c00c2fa04ae7e89f8c23c085ba021a935748ad4e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87696ceea96bd2f51bfe5a0b062499946179c8b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809900"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582562"
 ---
 # <a name="mapiopenlocalformcontainer"></a>MAPIOpenLocalFormContainer
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель интерфейса библиотеку локального формы. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3b30cec6-da1e-4ef1-8c17-24b66f31cf0a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cdeb432e20f2779bbb625566108551748b48a01f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7475eef15398081a30307e7b4a077a0700a6ba8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810857"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584200"
 ---
 # <a name="pidtagattachencoding-canonical-property"></a>Каноническое свойство PidTagAttachEncoding
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор объекта ASN.1, который задает кодирование для вложения. 
   

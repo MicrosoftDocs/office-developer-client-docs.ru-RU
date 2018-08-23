@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: cb683178a8e258f571cbc3d05a3b030481905433
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 524bbfe5f40a66585fb4ed4463b057ca6a0c881a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809099"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586804"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отображает диалоговое окно Общие адреса. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 52dc4f0a11c480c08b5ea66a7f987e968287d490
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3ab726d6b1d00db20a4d0dac05f4f0d1fa3259c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810505"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591298"
 ---
 # <a name="pidlidreminderplaysound-canonical-property"></a>Каноническое свойство PidLidReminderPlaySound
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, следует ли клиенту воспроизведения звука при напоминания становится просроченные.
   

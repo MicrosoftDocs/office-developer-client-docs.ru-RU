@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3c5182a7-7d7a-48e8-b9cb-5abd7739f0fd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 70d621a386465d28e84e4841c14d212e1d2e4d34
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab96d4412729e8673f0c1ae088277b9929e4d079
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811929"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586818"
 ---
 # <a name="pidtagspamjunksenders-canonical-property"></a>Каноническое свойство PidTagSpamJunkSenders
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список адресов электронной почты и доменов, которые составляют заблокированных отправителей, разделенных точкой с запятой.
   

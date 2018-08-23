@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 71e8cf50c1951abf1df6163cae4757ffebc979b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 124f4875834e035e29d4c63e52789bf07f18258d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808024"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587546"
 ---
 # <a name="administering-profiles-and-message-services"></a>Администрирование профилей и служб сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Профиль и администрирование службы может включать в себя создание новых профилей, удаление старых профилей и изменения содержимого существующих профилей с помощью изменения службы сообщений и поставщиков услуг, содержащихся в них сообщения. Не все клиенты поддерживают администрирование службы профилей и сообщение как стандартные функции. Некоторые клиенты не более с профилями, не позволять пользователям выбрать один во время входа в систему.
   

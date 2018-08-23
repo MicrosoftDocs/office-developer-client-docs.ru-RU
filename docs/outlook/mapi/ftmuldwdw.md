@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 16dca82b94225afc88bcb6c4e698a50565d6b088
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8002698b1644fb63292b4242d4fb3d784a99a03f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808517"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592026"
 ---
 # <a name="ftmuldwdw"></a>FtMulDwDw
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Умножает один целых 32-разрядная версия на другой.
   

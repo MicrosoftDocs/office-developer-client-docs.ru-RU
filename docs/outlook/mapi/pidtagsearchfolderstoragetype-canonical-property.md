@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bd9af0c2862cf2c780a0ec6e6ffd8e1a0ec56af7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e780b33f693410d3936fbeb9acfc55213953042c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811876"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590024"
 ---
 # <a name="pidtagsearchfolderstoragetype-canonical-property"></a>Каноническое свойство PidTagSearchFolderStorageType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаги, определяющие данных больших двоичных объектов (BLOB), который отображается в свойстве **PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)).
   

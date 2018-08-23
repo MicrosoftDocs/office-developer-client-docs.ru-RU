@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 6ec8a610-7782-4bb1-9b91-fc43c877268c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8cc6f67da18be485f14a8e077bc79a1b939590f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 286f2f034696fee29601356442d808d56d42b068
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591458"
 ---
 # <a name="pidnamelastprinted-canonical-property"></a>Каноническое свойство PidNameLastPrinted
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает время, когда файл последней печати.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |LastPrinted  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |

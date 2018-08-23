@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: b685244a-fe1b-4416-85d3-4bd86ccbc3aa
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 6ef441b4315ef21f8b16dc062596bc7f1e526e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a72d0e90e6c28874f341fc9ba7af843a44c5da8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808574"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583325"
 ---
 # <a name="handling-the-address-book"></a>Обработка адресной книги
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 ��������� �������� ����� MAPI ����� �������� ���������� ������ ��� ������������� � �������� ����������� ���������, ��������� ���������� ������� ������ ����������, ���������� ������������� ������ ����������� ����������� ��� ������ ��������, �������� one-offs � ����������� ���� ��� ��������� ���������������� ���������� ���� ����� ��������� ������������� ������������� �������� �� ������ � ������� ���������.
 

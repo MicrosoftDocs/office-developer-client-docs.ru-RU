@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9dd58c7-4119-90db-54f3-e1dd8e48451e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 68a45e0bfedf01b846fd77a638587fa4fb35fe7e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad677b789065f2364d545eb86f5e6bbe56e20181
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811750"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585852"
 ---
 # <a name="pidtagrpcoverhttpproxyprincipalname-canonical-property"></a>Каноническое свойство PidTagRpcOverHttpProxyPrincipalName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя участника для прокси-сервер, используемый Microsoft Outlook для подключения к Microsoft Exchange Server с помощью удаленный вызов процедур (RPC) по протоколу (HTTP).
   

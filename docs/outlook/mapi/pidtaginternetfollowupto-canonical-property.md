@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0708522f918984dca09097104561feca787cd2a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af6eb9ad3332f094d5abfa3d1571714c7f5583ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583290"
 ---
 # <a name="pidtaginternetfollowupto-canonical-property"></a>Каноническое свойство PidTagInternetFollowupTo
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сопоставляется с последующего действия MIME-заголовок.
   

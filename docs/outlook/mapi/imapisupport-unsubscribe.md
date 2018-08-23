@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 9ee071bb303c7518a23c5e57909f8618b7aebdde
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01ea05eb864c78f3ded39ca3ebc62578076b9d37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809187"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584662"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отменяет ответственность за отправки уведомлений, которое ранее было установлено с помощью вызова метода [IMAPISupport::Subscribe](imapisupport-subscribe.md) . 
   

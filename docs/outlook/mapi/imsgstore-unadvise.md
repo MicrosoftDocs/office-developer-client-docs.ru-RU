@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1394039b-d509-49a5-8421-b7362d906879
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 516de39d721c532c003775bd366a52ed8144ab88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72a26875802b2b7f94261f11e78fe560e9cc49d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583430"
 ---
 # <a name="imsgstoreunadvise"></a>IMsgStore::Unadvise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Показано, как отменить отправку уведомлений, ранее настройка с помощью вызова метода [IMsgStore::Advise](imsgstore-advise.md) . 
   

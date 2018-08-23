@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b8c68c2cd34ba037dc725a7d15575159466d8123
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33dc327b9e8609a5a1a8a24e131ce4ea1d1e55bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811741"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583906"
 ---
 # <a name="pidtagrpcoverhttpproxyauthscheme-canonical-property"></a>Каноническое свойство PidTagRpcOverHttpProxyAuthScheme
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет протокол проверки подлинности, которое будет использоваться для этого профиля.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e8293dc9-f2f1-4065-89f4-e734a8db63df
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 33c62b81982aaac3659ad4d41ea2cf5298b42287
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21fdff2aa713905a27a3d0cc5545ceb59f030378
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811044"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586860"
 ---
 # <a name="pidtagdefcreatemailuser-canonical-property"></a>Каноническое свойство PidTagDefCreateMailuser
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи шаблона для обмена сообщениями объекта пользователя по умолчанию. 
   

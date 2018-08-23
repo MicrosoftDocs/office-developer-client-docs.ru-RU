@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2f45028219f0f5f4cc881db3bc512626b3ad2f4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e1f546d33d4781f60df56b12fce437d1e7bd675
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809149"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588225"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Откроется раздел текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшей доступа. 
   

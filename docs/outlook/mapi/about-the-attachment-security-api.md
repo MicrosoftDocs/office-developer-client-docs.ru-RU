@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a70c1445-03d5-9585-2bdb-d03c608b313b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 08dc8d8173f24eda26924f3fca83e141bf790323
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 83123e1794070ecd545c8983750a21349e77cb31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807987"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592372"
 ---
 # <a name="about-the-attachment-security-api"></a>Сведения об API безопасности вложений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 API безопасности вложений позволяет решения для Outlook для обнаружения ли вложение считается небезопасных Outlook и заблокированные для просмотра и индексирования. Она предоставляет следующие определения и интерфейса.
   

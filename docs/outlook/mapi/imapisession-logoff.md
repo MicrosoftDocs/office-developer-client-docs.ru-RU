@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7d6ccd64fea0af30e81a2db0bcb9630062b4b64d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9dfc3b3381139b6b7fe47fb369d1cd69ee5e9677
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809059"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587840"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Завершение сеанса MAPI.
   

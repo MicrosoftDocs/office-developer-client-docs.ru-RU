@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2de48f49-53a4-4117-b5bd-c1db9b5a4d7d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bf095a9839a6e25fd86d7d35b51d035fff6af80d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e510da053ace91442a3cbc8127f719f88b301308
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810228"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583542"
 ---
 # <a name="pidlidcontactlinkentry-canonical-property"></a>Каноническое свойство PidLidContactLinkEntry
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список адресной книги **EntryIDs** , связанный с объектом этого сообщения. 
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810228"
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008585  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

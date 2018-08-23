@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a49b944-cef1-4642-9208-b137fd61171a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d18a595a1019c3bd583ef0c38ee5cbe0d497bf93
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 954e63e5b669ffdd15bbc2548d75c4d420eaf88d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811893"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591046"
 ---
 # <a name="pidtagsentrepresentingsearchkey-canonical-property"></a>Каноническое свойство PidTagSentRepresentingSearchKey
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит ключ поиска для обмена сообщениями пользователя, представленного отправителя.
   

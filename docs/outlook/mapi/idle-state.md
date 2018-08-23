@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dbe81a2a27f302a38eba6f3c5045df905d8db682
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b74ecb44d9a38fc73ceed4077d6f7a939f92f5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19808794"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591802"
 ---
 # <a name="idle-state"></a>Состояние бездействия
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описывается, что происходит во время простоя состояние конечного автомата репликации. 
   
@@ -47,5 +47,5 @@ ms.locfileid: "19808794"
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[SYNCSTATE](syncstate.md)
+[СОСТОЯНИЕ](syncstate.md)
 

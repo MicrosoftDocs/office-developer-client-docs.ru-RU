@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 143ca03a5e98d638d29394f5c0803e349ab4de25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aead09eb10a3015a54867f14011c56b686bc8624
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809225"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586482"
 ---
 # <a name="imapitableseekrow"></a>IMAPITable::SeekRow
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Перемещение курсора в определенное место в таблице.
   

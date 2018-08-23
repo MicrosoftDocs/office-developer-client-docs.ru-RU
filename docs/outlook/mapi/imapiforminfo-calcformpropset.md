@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc3ffb8d-9cc4-47d3-9aa9-02c3a5b7775c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e5da9ffdd3021538ec814d1367cf1b06b49cfbc6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d0c044caf430c944d8912d050e4dbaba659c8b5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808907"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582499"
 ---
 # <a name="imapiforminfocalcformpropset"></a>IMAPIFormInfo::CalcFormPropSet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на полный набор свойств, используемых в форме.
   

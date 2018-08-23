@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
 description: '���� ���������� ���������: 5 ���� 2012 �.'
-ms.openlocfilehash: 29aabc7a2e8513bf24bd3b56ff3e4a126e3d7437
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b16da68a5cc5ab9e005a262bf1518ea90aac570
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809450"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587539"
 ---
 # <a name="installing-the-sample-wrapped-pst-store-provider"></a>Установка примера поставщика упакованного PST-хранилища
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются действия, чтобы загрузить и установить оболочку PST поставщик хранилища. Пример оболочку PST хранения поставщик, WrapPST, реализует оболочку поставщика хранилища PST-файлов, который предназначен для использования совместно с использованием интерфейса API репликации. Дополнительные сведения об API репликации можно [О репликации API](about-the-replication-api.md).
   

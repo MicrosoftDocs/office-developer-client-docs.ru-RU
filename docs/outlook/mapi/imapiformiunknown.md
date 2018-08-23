@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fce8bc45d5cc87c238288653ab989b62076ad451
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce0e109aad52bfc4d7f4f55abfe1001d76276f64
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587133"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Включение средств просмотра формы для работы с контекстах представления формы и формы уведомлений, для выполнения команд формы и завершение работы форм.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 44884f60-7e36-45b2-9712-4f9821a0dc1f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0918f079769a70aa11e4f26551ec232308e5eef0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 099a744940ffae49f49e9ca25f49dc54414b25dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811564"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590010"
 ---
 # <a name="pidtagprocessed-canonical-property"></a>Каноническое свойство PidTagProcessed
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При обработке запроса собрания задано значение TRUE.
   

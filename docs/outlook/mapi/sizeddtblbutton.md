@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3de56b12fa7d34004fddbfe3633b8b8307c0ffc1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc4d3a7a827e728dfd6725ac269350067d4530cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812290"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590346"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает именованный структуру, которая включает в себя структуры [DTBLBUTTON](dtblbutton.md) для описания кнопки и метки заданной длины. 
   

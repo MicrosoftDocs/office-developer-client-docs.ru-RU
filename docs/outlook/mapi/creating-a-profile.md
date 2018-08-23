@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 80867adf-6786-47a9-9d3f-4aef4a7d7c66
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a9a2dd35e9fdce1adfa10d2cf6704b0a1124af94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c6a16b62987a5338e1f14d362ba9d0ba9836e8e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808250"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585159"
 ---
 # <a name="creating-a-profile"></a>Создание профиля
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиент можно создать профиль одним из двух способов, с помощью мастера профилей или написании пользовательского кода.
   

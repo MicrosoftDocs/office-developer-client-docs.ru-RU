@@ -12,22 +12,22 @@ keywords:
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7caf4923e336020928006f6838de5eaeba814a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807244"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586811"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
 Вызывает внутренней функции Microsoft Excel, функцию листа макросов или команды, или только для XLL специальные функции или команды, из DLL или XLL или кода ресурса.
   
 Все последние версии Excel поддерживают **Excel4**. Начиная с версии Excel 2007, **Excel12** поддерживается. 
   
-Эти функции могут вызываться только в том случае, когда Excel истекло управления DLL или XLL. Они также могут вызываться, когда Excel истекло управления косвенно через вызов Visual Basic для приложений (VBA). Они не могут вызывать в любое время. К примеру, они не может вызываться во время вызова функции [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx) или в других случаях при операционная система называется библиотеки DLL или из потока, созданного библиотеки DLL. 
+Эти функции могут вызываться только в том случае, когда Excel истекло управления DLL или XLL. Они также могут вызываться, когда Excel истекло управления косвенно через вызов Visual Basic для приложений (VBA). Они не могут вызывать в любое время. К примеру, они не может вызываться во время вызова функции [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) или в других случаях при операционная система называется библиотеки DLL или из потока, созданного библиотеки DLL. 
   
 Функции [Excel4v и Excel12v](excel4v-excel12v.md) примите их аргументах как массив, тогда как функции **Excel4** и **Excel12** примите их аргументах как список переменной длины в стеке. Во всех других отношениях **Excel4** происходит так же, как **Excel4v**и **Excel12** происходит так же, как **Excel12v**.
   

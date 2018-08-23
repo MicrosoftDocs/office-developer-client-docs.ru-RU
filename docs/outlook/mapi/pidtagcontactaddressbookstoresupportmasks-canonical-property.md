@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 29e842584e5145f747aa0ef0c7796e5f7b3a8e0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a15830d1b673b44e9058e33a1499744f631d8e32
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810944"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587658"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>Каноническое свойство PidTagContactAddressBookStoreSupportMasks
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаги, указывающее, поддерживаемые функции хранилища.
   

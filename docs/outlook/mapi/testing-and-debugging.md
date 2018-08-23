@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0afceb1f-9086-4cc9-8ce4-fb9256a81a9c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 96bc2e58482ba259b14e820f3380978f80c542c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae9b49717fd7981d653e9852ed02d50bef7c7846
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590689"
 ---
 # <a name="testing-and-debugging"></a>Тестирование и отладка
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Стратегии тестирования отличаются в зависимости от того, разрабатывается клиента или поставщика. Так как для клиентского приложения требуется один или несколько поставщиков услуг для работы, клиенты должно тестироваться в среде с различных наборов поставщиков услуг.
   

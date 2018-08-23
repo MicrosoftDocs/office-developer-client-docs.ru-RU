@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 23074402-6ac1-47f1-8a49-b8909f98a26e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a21eecfb1bf3bc4f09fc5becb9a4a99a97193330
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30482f7d6acef7377a1b63bc3de4e43be48d8608
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811092"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583360"
 ---
 # <a name="pidtagdisplaytypeex-canonical-property"></a>Каноническое свойство PidTagDisplayTypeEx
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит тип записи, в отношении как операция должно отображаться на строку в таблице для глобального списка адресов. 
   

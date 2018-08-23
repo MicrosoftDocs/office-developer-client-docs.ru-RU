@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5e8ed98-57af-40d0-85c4-9d9832626e6b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6f7137e3d5712e7d7ce12800a07b860679dd099a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 05cd1428966f6c61e2f5e13e574a0bbcb253f7ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810206"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582604"
 ---
 # <a name="pidlidappointmentstartwhole-canonical-property"></a>Каноническое свойство PidLidAppointmentStartWhole
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет дату и время начала встречи.
   

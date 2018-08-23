@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 67e31027-6bc2-4a40-9b00-d61baef4ab0f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0218ff558e9dfca2f73bbad2dc42cdb7bd7121fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ddde5d206eb4be56ce6a7bae77eb00237f12a0f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811694"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584298"
 ---
 # <a name="pidtagrecipienttype-canonical-property"></a>Каноническое свойство PidTagRecipientType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит тип получателя для получателя сообщения.
   

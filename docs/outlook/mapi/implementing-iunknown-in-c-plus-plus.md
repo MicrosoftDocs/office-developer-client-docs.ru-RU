@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c899eb0afd123b26e12081f5157be3bae7917813
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd5a14b07888c7a17d550941909b345eff3b0276
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809321"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585460"
 ---
 # <a name="implementing-iunknown-in-c"></a>Реализация IUnknown в C++
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Реализация [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx), [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)и [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) методы интерфейс [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) в C++ весьма прост. После некоторые стандартной проверки параметров, которые передаются в реализацию **QueryInterface** проверяет идентификатор запрошенного интерфейса по списку поддерживаемые интерфейсы. Если запрошенный идентификатор является среди тех поддерживается, вызывается **метод AddRef** и возвращается указатель **this** . Если на список поддерживаемых не запрошенный идентификатор, выходной указатель имеет значение NULL, и возвращается значение MAPI_E_INTERFACE_NOT_SUPPORTED. 
   

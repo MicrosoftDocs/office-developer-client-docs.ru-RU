@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c9386b98-615f-488c-8212-11d9abebbdcf
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: aa3ddecbd5af56eef16f5ae3a349a027e689fc8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa48e97ed25fe1175ffd3a92ac961dcf5bde50b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808316"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588358"
 ---
 # <a name="displaying-configuration-property-sheets"></a>Отображение свойств конфигурации
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщики транспорта используйте метод [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) для реализации свойств конфигурации. При вызове **DoConfigPropSheet**, поставщика транспорта передает в указатель массив свойств, а также сведения о том, как они отображаются. MAPI затем представлены свойства для пользователя с помощью стандартного диалогового окна. Вы являетесь настоятельно рекомендуется использовать этот механизм sheet свойства при реализации поставщика транспорта из-за преимущество пользователю согласованный интерфейс.
   

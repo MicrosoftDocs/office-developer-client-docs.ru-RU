@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 74b7bdd0-89d1-4013-a6f1-8ea102974f19
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 924231ba59ff7d8587f049e9adb650a988591177
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a91d565774806b0c25c4088fdee0a3811f639b6a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811299"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583647"
 ---
 # <a name="pidtaglanguage-canonical-property"></a>Каноническое свойство PidTagLanguage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение, указывающее язык, в котором обмена сообщениями пользователя — это запись сообщений.
   

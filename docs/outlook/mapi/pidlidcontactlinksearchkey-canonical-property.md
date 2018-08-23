@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 65a54475afe526cce40030cbfd1cdb9e86126554
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11e1bd22da480669f72768e5d75b637e1257b6d1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589352"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Каноническое свойство PidLidContactLinkSearchKey
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список **SearchKeys** для контакта, связанного с объектом сообщения. 
   
@@ -31,13 +31,13 @@ ms.locfileid: "19810229"
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008584  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
 |**Длина в байтах**|**Описание**|**Примечания**|
 |:-----|:-----|:-----|
-|2  <br/> |ContactEntryCount  <br/> |Нет  <br/> |
+|2  <br/> |ContactEntryCount  <br/> |Отсутствует  <br/> |
 |переменная  <br/> |SearchKey данных  <br/> |Повторяет ContactEntryCount раз  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы

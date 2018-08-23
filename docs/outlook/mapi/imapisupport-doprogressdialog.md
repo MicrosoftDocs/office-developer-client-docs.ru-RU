@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 74c52b96-e903-444b-8bda-73a08f278c22
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 527a7bb3201a4a6b1bc0807136bc88b80c189de2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32174e213334d784220b960364443e60db6d1d19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582779"
 ---
 # <a name="imapisupportdoprogressdialog"></a>IMAPISupport::DoProgressDialog
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Извлекает объект хода выполнения, который отображает индикатор хода выполнения.
   

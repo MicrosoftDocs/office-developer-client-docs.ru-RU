@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 68dc0ecc-881e-de69-faaa-90acb9857031
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e061808c57f25f881cc17fa5251e46ed5d524acd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f45b070464fe1b3c177088ff6aa3295f961d45f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809576"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592593"
 ---
 # <a name="ipstxgetlasterror"></a>IPSTX::GetLastError
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает расширенные сведения о последней ошибки.
   

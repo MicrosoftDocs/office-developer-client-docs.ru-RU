@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1afe6a2e-a5e6-4844-9f82-908894fc6759
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d0b7baf4ab17d12145170961a43ca4be252146a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92c604c621e2837b76e9e49fd182524ad17fbcac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808585"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588344"
 ---
 # <a name="handsofffromnormal-state"></a>Состояние HandsOffFromNormal
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Состояние HandsOffFromNormal очень похоже на состояние [HandsOffAfterSave](handsoffaftersave-state.md) . Он является частью процесс сохранения содержимое формы в постоянном хранилище. При работе в это состояние означает, объекта формы следует отказаться от внесения изменений в памяти копии значений свойств сообщений, так как не может быть другой возможности, чтобы сохранить изменения. В следующей таблице описываются допустимые переходы из состояния HandsOffFromNormal. 
   

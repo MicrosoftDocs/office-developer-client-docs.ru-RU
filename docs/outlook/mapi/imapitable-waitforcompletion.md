@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c7859e033924786e415f9faa9f75021ea47968c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3343381709b7ce3370ba481ad8dbb935c7d4165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586951"
 ---
 # <a name="imapitablewaitforcompletion"></a>IMAPITable::WaitForCompletion
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Приостанавливает работу до завершения одного или нескольких асинхронной операции выполняется в таблице.
   

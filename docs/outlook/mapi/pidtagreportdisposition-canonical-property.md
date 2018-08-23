@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 62d5b04086e45b6b3d2cfa960472010827d60d6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e84308f3a9f9457c5db23c1ad9d42d6e856519e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811721"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583633"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Каноническое свойство PidTagReportDisposition
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает состояние уведомления для сообщений, запрашивающих поступлений. 
   

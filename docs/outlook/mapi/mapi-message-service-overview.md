@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fc444725aae20e7321fa287a90cf7d3e13b7ffb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56f124d7d42ac41e8b5cdb7cf61c9867bbf69837
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587532"
 ---
 # <a name="mapi-message-service-overview"></a>Общие сведения о службе сообщения MAPI
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Служба сообщений определяет группу поставщиков услуг связанных с ними, обычно поставщиков услуг, которые работают с той же системе обмена сообщениями. В то время как поставщиков услуг выполнить взаимодействия между систем обмена сообщениями и подсистемы MAPI, службы сообщений выполняют взаимодействия между пользователем и поставщиков услуг, которые работают с распространенных системы обмена сообщениями.  
   

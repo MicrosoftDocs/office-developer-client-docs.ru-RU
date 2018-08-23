@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 90dafeae-6b61-40e3-8341-d6a11799d0f2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d83fce761afb4673b71df9d620ac3fd794d6009f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d8c995f5fbca322fca44cdcbb0de224af6b2fbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812220"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590290"
 ---
 # <a name="sending-a-reply"></a>Отправки ответа
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения, как правило, поддерживает два типа ответов: одного, которое отправляется только отправителя исходного сообщения и одного, которое отправляется для всех получателей, включенных в список получателей исходного сообщения в дополнение к отправителя. Это второй тип ответа обычно называемую ответ, все сообщения.
   

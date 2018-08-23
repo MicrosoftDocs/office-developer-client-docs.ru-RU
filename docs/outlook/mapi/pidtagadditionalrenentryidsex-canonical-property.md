@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d3a8dc45bb131f5d2e7ff370617a10e3096a99f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fcea014ca4c1b1629505127484c44ae990eed855
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810808"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590808"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>Каноническое свойство PidTagAdditionalRenEntryIdsEx
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит запись специальную папку идентификаторы для объекта хранилища. Каждая запись в этом многозначные свойства может быть сопоставлен один или несколько идентификаторов запись, то есть один ко многим взаимосвязь запись и ее связанный запись идентификаторы.
   
@@ -40,7 +40,7 @@ ms.locfileid: "19810808"
   
 **PersistData блокировки**
 
-|**Имя**|**Тип**|**Size**|**Описание**|
+|**Имя**|**Тип**|**Размер**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |**PersistID** <br/> |WORD  <br/> |2  <br/> |Введите значение идентификатора для этой записи **PersistData** . В разделе таблицы «PersistBlockType значения» для списка допустимых значений.  <br/> |
 |**DataElementsSize** <br/> |WORD  <br/> |2  <br/> |Размер, в байтах, поля **DataElements** .  <br/> |
@@ -65,7 +65,7 @@ ms.locfileid: "19810808"
   
 **PersistElementBlock**
 
-|**Имя**|**Тип**|**Size**|**Описание**|
+|**Имя**|**Тип**|**Размер**|**Описание**|
 |:-----|:-----|:-----|:-----|
 |**Ид_элемента** <br/> |WORD  <br/> |2  <br/> |Указывает значение идентификатора типа для этого блока **PersistElement** . В разделе таблицы «PersistElementType значения» список допустимых значений.  <br/> |
 |**ElementDataSize** <br/> |WORD  <br/> |2  <br/> |Указывает размер, в байтах, поля **ElementData** .  <br/> |

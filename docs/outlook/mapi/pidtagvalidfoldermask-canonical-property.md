@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ae09723c78fe4e333fb5c46e8c79da4b77c0b331
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 605e2f528ea0afc1a35348320abaffeb142d9921
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812043"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590724"
 ---
 # <a name="pidtagvalidfoldermask-canonical-property"></a>Каноническое свойство PidTagValidFolderMask
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов, указывающие на правильность идентификаторы записей папок в хранилище сообщений.
   

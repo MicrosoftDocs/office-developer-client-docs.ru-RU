@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c9a156e6-3472-4409-a4ba-3a1a65b7bdcd
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 3c27b859f6d056d3b9a98bd4d71db8e500dff696
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 581607e184d67413e735c4cbfb874643b3222a80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588771"
 ---
 # <a name="using-an-advanced-search-dialog-box"></a>Использование диалогового окна "Расширенный поиск"
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Некоторые контейнеров адресной книги поддерживает расширенные возможность поиска, который позволяет клиентам для поиска по свойства не **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Контейнеры адресной книги, которые поддерживают расширенный поиск имеют свойство объекта контейнера **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Этот объект-контейнер предоставляет доступ для отображения таблицы с описанием диалоговое окно поиска — диалоговое окно используется для ввода и изменить критерии расширенный поиск.
   

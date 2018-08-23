@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7ffec274-ee90-44c7-ab2e-7dfb502517a6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7071c05f6f59740163f97f840c7fa48d83bea815
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4610d9e643541e39144f2af86a2d64928b8e9ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808329"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591291"
 ---
 # <a name="displaying-recipient-information"></a>Отображение сведения о получателях
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI стандартным диалоговым окном служит для отображения сведения о получателе. Диалоговое окно "Подробности" будет создан из таблицы отображения и реализацию **IMAPIProp** . В таблице Отображаемое описание внешний вид отображения сведений и реализации **IMAPIProp** управляет данные для получателя. Поставщик отвечает за предоставление в таблице отображения и реализации **IMAPIProp** для каждого получателя. 
   

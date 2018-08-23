@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 164eb9dd-e553-459e-99c1-3da0284bb01f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2aa0a8601a72b6d4c40167ac55d3d643bf946708
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d4a49af0585058c2203807bf091c34808376a7dc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811458"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591746"
 ---
 # <a name="pidtagoriginalsendersearchkey-canonical-property"></a>Каноническое свойство PidTagOriginalSenderSearchKey
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит ключ поиска для отправителя первая версия сообщения, то есть, сообщение перед пересылку и ответ.
   

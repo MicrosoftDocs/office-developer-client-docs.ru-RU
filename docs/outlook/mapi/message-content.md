@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ce643afe-e5b6-42f2-b3cf-4efb957c4f2e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5e8debcd5a60357f05dfb7b6bde1faf972e50a26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85bd3f7db53f195295405fb0b02c25f084786a67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810010"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586083"
 ---
 # <a name="message-content"></a>Содержимое сообщения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Существует два возможных кодировки для содержимого сообщения: один с помощью MIME, другой с помощью uuencode. MIME — это кодировки. В дополнение к этому MAPI определяет свойство каждого получателя, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), который управляет ли данные TNEF должно быть включено в исходящих сообщений. Так что являются всего четыре способа кодирования содержимого сообщения:
   

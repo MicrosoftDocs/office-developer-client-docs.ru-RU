@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 553ec17e9caf9bf93278ff139eb94e02e6b48554
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bc0ae6d69db6077c17d2efa66d04a5366f2395a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19812282"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585572"
 ---
 # <a name="sguidarray"></a>SGuidArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив структур [идентификатор GUID](guid.md) , используемые для описания свойства типа PT_MV_CLSID. 
   
@@ -58,7 +58,7 @@ typedef struct _SGuidArray
 
 
 
-[GUID](guid.md)
+[ИДЕНТИФИКАТОР GUID](guid.md)
   
 [SPropValue](spropvalue.md)
 

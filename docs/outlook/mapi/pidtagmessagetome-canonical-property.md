@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: aeb0fa71-f471-46c5-ad9c-f8afb3fed533
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 42aec7a8d617bdf1abd385add30d903efa2b73d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51a8f1768f9b4ed859989058c66044c807068386
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811375"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583934"
 ---
 # <a name="pidtagmessagetome-canonical-property"></a>Каноническое свойство PidTagMessageToMe
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если этого обмена сообщениями пользователя специально с именем как основной (получатель сообщения по) и не является частью списка рассылки. 
   

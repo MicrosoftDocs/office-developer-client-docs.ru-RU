@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9af170f3445757eb96b9fe78c7cbea2c29ef4612
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 954609cbc62039c0d60874bde83fde50d1d11c30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810050"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591669"
 ---
 # <a name="msgserviceentry"></a>MSGSERVICEENTRY
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет прототип для сообщений службы функцию точки входа для поддержки конфигурации службы сообщений. 
   

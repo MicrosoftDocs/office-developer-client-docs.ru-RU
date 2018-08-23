@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cc62219dfb2b5d1549cc060029b69e1736e28964
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff386e8b280eea5bcc5794a3080d9a61cefb20e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811053"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592089"
 ---
 # <a name="pidtagdeltay-canonical-property"></a>Каноническое свойство PidTagDeltaY
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит высоту управления диалогового окна в диалоговое окно Windows единиц измерения. 
   

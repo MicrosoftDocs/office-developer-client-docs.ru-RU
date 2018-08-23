@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
 description: '���� ���������� ���������: 25 ���� 2012 �.'
-ms.openlocfilehash: a21383e0ea6920075a57d872e82851462bf0e8d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb83b57de3bb484e4fb5f94f76a7d9bfa0fce876
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808637"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589800"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>Убедитесь, что Заблокированные вложения
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Этот пример кода на C++ показано, как использовать [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) интерфейс, чтобы узнать, совместимо ли вложения блокируется Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования. 
   

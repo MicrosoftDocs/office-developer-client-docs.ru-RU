@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 53d94bdb-b95b-48de-bbad-1263ff53e379
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 28d82bf34b0eb8f3c3066f2b88c9ee1c7fb40102
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c90b0c665d83bf11f5133d4904a129e0f2f709f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810901"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593062"
 ---
 # <a name="pidtagbusiness2telephonenumber-canonical-property"></a>Каноническое свойство PidTagBusiness2TelephoneNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер дополнительного телефона в месте получателя. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19810901"
 |Связанные свойства:  <br/> |PR_BUSINESS2_TELEPHONE_NUMBER, PR_BUSINESS2_TELEPHONE_NUMBER_A, PR_BUSINESS2_TELEPHONE_NUMBER_W, PR_OFFICE2_TELEPHONE_NUMBER, PR_OFFICE2_TELEPHONE_NUMBER_A, PR_OFFICE2_TELEPHONE_NUMBER_W  <br/> |
 |Идентификатор:  <br/> |0x3A1B  <br/> |
 |Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

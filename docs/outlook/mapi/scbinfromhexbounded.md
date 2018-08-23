@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a00a9b2200f76dfd600f72bf387467b5792599c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 135db8d690d4d4bd610bd15893c358fedddb4605
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812184"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589282"
 ---
 # <a name="scbinfromhexbounded"></a>ScBinFromHexBounded
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Преобразует указанную часть строковое представление шестнадцатеричное число в двоичное. 
   

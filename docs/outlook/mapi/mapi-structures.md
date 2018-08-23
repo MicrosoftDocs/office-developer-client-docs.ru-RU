@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 91820ae945ba44d36221e3a92ce5ee2fd47c02eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8ba845143d962b3627f57a60f45742227bc9f35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809847"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584788"
 ---
 # <a name="mapi-structures"></a>Структуры MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Следующие записи в алфавитном порядке описываются структуры MAPI. Для получения дополнительных сведений перекрестные ссылки на другие публикации или на другие разделы в этой документации также включены.
   
@@ -42,7 +42,7 @@ ms.locfileid: "19809847"
 |[FILETIME](filetime.md) <br/> |[FLAGLIST](flaglist.md) <br/> |
 |[FLATENTRY](flatentry.md) <br/> |[FLATENTRYLIST](flatentrylist.md) <br/> |
 |[FLATMTSIDLIST](flatmtsidlist.md) <br/> |[FORMPRINTSETUP](formprintsetup.md) <br/> |
-|[GUID](guid.md) <br/> |[IID](iid.md) <br/> |
+|[ИДЕНТИФИКАТОР GUID](guid.md) <br/> |[IID](iid.md) <br/> |
 |[MAPIERROR](mapierror.md) <br/> |[MAPIINIT_0](mapiinit_0.md) <br/> |
 |[MAPINAMEID](mapinameid.md) <br/> |[MAPIUID](mapiuid.md) <br/> |
 |[MTSID](mtsid.md) <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |

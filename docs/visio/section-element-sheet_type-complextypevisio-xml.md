@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Задает коллекцию свойств, связанных с ними.
-ms.openlocfilehash: 7cb5e1c30960e69b252abc7af38e021607fd3502
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c729ddd18da7b19499be72a71a9d0666791da207
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814742"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593524"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Элемент раздела (Sheet_Type complexType) ('Visio XML»)
 
@@ -36,7 +36,7 @@ ms.locfileid: "19814742"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,12 +53,12 @@ ms.locfileid: "19814742"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](http://msdn.microsoft.com/library/70a9d6d6-a4ff-2b0d-febc-789a04a2f5b0%28Office.15%29.aspx) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает отдельное свойство.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает отдельное свойство.  <br/> |
 |[Row](http://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Задает коллекцию элементов **Cell_Type** .  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |DEL  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Указывает, ли удалять коллекции, в противном случае будут унаследованы. Оно должно быть равно 0 или 1. Значение 1 указывает, что коллекция не используется и не следует учитывать. Значение 0 указывает, что набор свойств, является допустимым для фигуры. Если атрибут **Del** не указан, значение равно 0.  <br/> |Значения типа xsd:boolean.  <br/> |
 |IX  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Указывает, начинающийся с нуля индекс элемента. Он должен быть уникальным для всех элементов **Section_Type** с тем же атрибутом **N** содержащего **Sheet_Type**. ДОЛЖНО быть больше, чем атрибут **IX** любой предыдущий элемент **Section_Type** с тем же атрибутом **N** содержащего **Sheet_Type**.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
@@ -70,7 +70,7 @@ ms.locfileid: "19814742"
   
 |**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|Действия  <br/> |Набор свойств, которые используются для вычисления. Она должна иметь **ShapeSheet_Type** или **PageSheet_Type** родительского элемента.  <br/> |[Раздел "Действия"](actions-section.md) <br/> |
+|Actions  <br/> |Набор свойств, которые используются для вычисления. Она должна иметь **ShapeSheet_Type** или **PageSheet_Type** родительского элемента.  <br/> |[Раздел "Действия"](actions-section.md) <br/> |
 |ActionTag  <br/> |Набор свойств, которые используются для вычисления только. Она должна иметь **ShapeSheet_Type** или **PageSheet_Type** родительского элемента.  <br/> |[Раздел "Теги действий"](action-tag-section.md) <br/> |
 |Подключения  <br/> |Набор свойств, которые используются для вычисления только. Она должна иметь **ShapeSheet_Type** родительского элемента.  <br/> ||
 |Элементы управления  <br/> |Набор свойств, которые используются для вычисления только. Она должна иметь **ShapeSheet_Type** родительского элемента.  <br/> |[Раздел "Элементы управления"](controls-section.md) <br/> |

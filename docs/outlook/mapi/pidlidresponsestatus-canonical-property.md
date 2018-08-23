@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e56142fd-204b-497e-83b9-59f9acda6cb4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0bfa3a01613c49b122e92e4ac281e5b20b5f07ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e6aa8407459fef5fd9657e9d2887f0ae78ff9c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810516"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585467"
 ---
 # <a name="pidlidresponsestatus-canonical-property"></a>Каноническое свойство PidLidResponseStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает состояние ответа для участника.
   

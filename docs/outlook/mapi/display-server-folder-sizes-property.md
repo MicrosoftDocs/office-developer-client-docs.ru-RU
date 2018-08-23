@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1ddf4501918d598169a3a74fd1c8d2ac38499cd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1ec10bde39f853a80540b48216478edc4e41f12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808306"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584312"
 ---
 # <a name="display-server-folder-sizes-property"></a>Свойство отображения размеров папок на сервере
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отображает размеры указанных папках на сервере в диалоговом окне Outlook **Размер папки** . 
   

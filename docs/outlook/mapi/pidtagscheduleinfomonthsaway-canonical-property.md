@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 282a8ba1-b786-4d17-b6c5-17e935e59a6b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6301cd86a81dfbf38666b6fb3ea326bc1f801490
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b8caf16bad26eef10d7686d66c5a17320de5e3bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811856"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588106"
 ---
 # <a name="pidtagscheduleinfomonthsaway-canonical-property"></a>Каноническое свойство PidTagScheduleInfoMonthsAway
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список месяцев, для которых данные о доступности типа нет на месте (OOF) присутствует в сообщении о доступности. 
   

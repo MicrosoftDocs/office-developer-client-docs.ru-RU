@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e8ccef1-db0a-4230-9bd0-87540b53e890
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9dba26ab6948d7190521ff31a8732c4b058ab7c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2a1c49b29ba08775768fc74861ba36b3c6356fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811739"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589380"
 ---
 # <a name="pidtagresponsibility-canonical-property"></a>Каноническое свойство PidTagResponsibility
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если некоторые поставщика транспорта уже принял ответственность за доставки сообщения для получателя и FALSE, если диспетчер очереди MAPI учитывает принятие данного поставщика транспорта ответственности.
   

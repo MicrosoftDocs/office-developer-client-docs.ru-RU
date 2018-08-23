@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d12d879ea5a82c5e0e3978d90694b3851aaac5cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f78c25285c7ac3f8736006e4a45079a7d9a6d867
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809737"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592299"
 ---
 # <a name="mapi-form-manager"></a>Диспетчер формы MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Диспетчер форм — это объект, реализующий интерфейс [IMAPIFormMgr](imapiformmgriunknown.md) . Большинство организаций будет использовать диспетчер форм, поставляемых вместе с MAPI, называется Диспетчер форм по умолчанию. Тем не менее организации можно заменить диспетчер форм по умолчанию диспетчер настраиваемой формы при желании. Диспетчер форм отвечает за размещение форм в рамках библиотеки форм, загрузке формы в ответ на запросы пользователей и установке форм в библиотеки форм локального пользователя, библиотека форм папки или Библиотека личных форм. 
   

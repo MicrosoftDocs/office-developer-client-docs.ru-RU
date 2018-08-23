@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 560106e98f446529a68eded88a8f8283dd3f531d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c27e320341f2e2072fa45828263e2cb3873f6ad0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811239"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584214"
 ---
 # <a name="pidtaginternetarticlenumber-canonical-property"></a>Каноническое свойство PidTagInternetArticleNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Номер, связанный с элементом в хранилище сообщений.
   

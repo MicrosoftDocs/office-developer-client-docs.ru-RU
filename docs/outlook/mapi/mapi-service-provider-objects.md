@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 505b27b469a4ab197b41058ea5b933608818f0d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85a67216822360bcaf9544389f79980891951757
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809821"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584858"
 ---
 # <a name="mapi-service-provider-objects"></a>Объекты поставщика службы MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщики услуг реализовать множество объектов. Некоторые используются в основном MAPI и некоторые используются с клиентскими приложениями. Несколько объектов, реализуются посредством всех типов поставщиков услуг; остальные, специфичные для типа одного поставщика. В следующей таблице описываются все объекты поставщика службы.
   

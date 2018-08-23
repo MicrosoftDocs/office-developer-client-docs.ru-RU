@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7a82ce9a46017993adfc6c4c755b6c97b847e579
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7813636abc1c4d6ad756c7cf670e21d4acb7f540
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809502"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592747"
 ---
 # <a name="ipersistmessagesavecompleted"></a>IPersistMessage::SaveCompleted
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомляет формы, которая сохранения завершения операции. 
   
@@ -83,19 +83,9 @@ E_INVALIDARG
 |Форма находится в одном из состояний HandsOff и параметр _pMessage_ имеет значение NULL.  <br/> |Возвращает E_INVALIDARG.  <br/> |
 |Форма находится в состоянии от одного из состояний HandsOff или NoScribble.  <br/> |Возвращает значение E_UNEXPECTED.  <br/> |
    
-Дополнительные сведения о сохранении объектов хранилища [IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx) или [IPersistFile::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx) методов см. 
+Дополнительные сведения о сохранении объектов хранилища [IPersistStorage::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) или [IPersistFile::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) методов см. 
   
 ## <a name="see-also"></a>См. также
 
-
-
-[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
-
-
-[Состояния форм](form-states.md)
-
-
-[IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx)
-  
-[IPersistFile::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx)
-
+- [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
+- [Состояния форм](form-states.md)

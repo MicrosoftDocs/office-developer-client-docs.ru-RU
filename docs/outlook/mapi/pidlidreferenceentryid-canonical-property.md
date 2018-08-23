@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42e7c3ac-1a04-4e3f-bf99-ef3f8fc45892
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 736b4e7354929fa7ba5d6bdfea23bb2169244a6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7846a1661b688ac5af2c5446e7a200302e7fdaeb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810491"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588134"
 ---
 # <a name="pidlidreferenceentryid-canonical-property"></a>Каноническое свойство PidLidReferenceEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 — Ссылка на [идентификатор записи](entryid.md) для этого контакта. 
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810491"
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000085BD  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

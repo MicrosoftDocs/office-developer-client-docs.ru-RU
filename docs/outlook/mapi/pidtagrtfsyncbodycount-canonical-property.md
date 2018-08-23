@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 09274c21df3a93abc19aa8158da976e2d16f3e7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b88c036b3bc9b29962204ea0b90bd460ee1cf90f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811784"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585173"
 ---
 # <a name="pidtagrtfsyncbodycount-canonical-property"></a>Каноническое свойство PidTagRtfSyncBodyCount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит число значительные символов из текста сообщения.
   

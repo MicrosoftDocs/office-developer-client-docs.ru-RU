@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 25ee04fd-7ea1-4011-a45e-cd2d323e5d69
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e15896b7f9eb50048ace90d6f91f78360b4fb8df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 026a1ab8afda407e57a18e416cd02125753d3e2d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593419"
 ---
 # <a name="pidtagmiddlename-canonical-property"></a>Каноническое свойство PidTagMiddleName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отчество контакта.
   

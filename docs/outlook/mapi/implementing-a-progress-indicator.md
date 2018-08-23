@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3a062a88-e87e-4c0c-944e-544a8f080930
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 767b8723d9a544a31ee5c4bbc1d6186a15387b44
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a359ec413da91b3e2819978e80ea0a921f6b245
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809292"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587126"
 ---
 # <a name="implementing-a-progress-indicator"></a>Реализация индикатора хода выполнения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Многие из этих операций, инициированных клиентами занять значительное время. Один из входных параметров для потенциально длительных операций — это указатель на объект хода выполнения — это объект, реализующий [IMAPIProgress: IUnknown](imapiprogressiunknown.md) интерфейса. Объекты хода выполнения контролировать внешний вид и отображение индикаторов хода выполнения и реализованы клиентам и MAPI. Можно ли реализовать объект хода выполнения. Реализация интерфейса MAPI для поставщиков услуг для использования, если решено не предоставлять реализацию. 
   

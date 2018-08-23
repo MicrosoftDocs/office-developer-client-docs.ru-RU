@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2b95e0dd62d83dd83a064ee4627811fcb24af921
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aff805f7868ec0c2adc55ece94c45b76368ba6eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809621"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583766"
 ---
 # <a name="itneffinish"></a>ITnef::Finish
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 По завершении обработки для всех операций Transport-Neutral Encapsulation формата TNEF в очереди и ожидание. 
   

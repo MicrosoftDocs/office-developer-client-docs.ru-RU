@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 28a802ffc43b08d3e2ec2be26dd98fa78f474d91
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d4877c81a52b529aa183ea552430b481c6617f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812188"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593356"
 ---
 # <a name="sccopynotifications"></a>ScCopyNotifications
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Группа уведомлений о событиях копируется на один блок памяти. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2cc57464-5b33-4b65-a1bf-abd0ccac209f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9e5bae7f6d64c056dccaf7bac571e10d5b874b7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7074d539518d017ad6ec00f8c6c362f096728e74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811187"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586846"
 ---
 # <a name="pidtaghobbies-canonical-property"></a>Каноническое свойство PidTagHobbies
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имена занятиях обмена сообщениями пользователя.
   

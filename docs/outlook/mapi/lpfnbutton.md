@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e1f15a5f031f5c5a9568b8a36722eaac011b814c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b302de68f27e85c67430f82bd3e2c33009600e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809656"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591354"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет функцию обратного вызова, которая вызывает MAPI для активации элемента управления необязательно кнопка в диалоговом окне адресной книги. Эта кнопка обычно имеет кнопку **сведения** . 
   

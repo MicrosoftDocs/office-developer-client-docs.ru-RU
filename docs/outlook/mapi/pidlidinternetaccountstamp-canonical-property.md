@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 819179fe-e58e-415c-abc7-1949036745ee
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 49732f30461e05e83c130f9cc24129cc86baa75f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6edbf4e9c1300a7e2e67b1f4226c8e2d05e453c8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810390"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585222"
 ---
 # <a name="pidlidinternetaccountstamp-canonical-property"></a>Каноническое свойство PidLidInternetAccountStamp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает идентификатор учетной записи электронной почты, через который отправляется сообщение электронной почты.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ae2a19d556fc9819312ce822f9347edcd6edc0d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d978b7a6bd8af9a505fa025aef2e5da68308468f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809138"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588596"
 ---
 # <a name="imapisupportnewentry"></a>IMAPISupport::NewEntry
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Добавляет нового получателя непосредственно к контейнеру адресной книги или списка получателей исходящих сообщений.
   

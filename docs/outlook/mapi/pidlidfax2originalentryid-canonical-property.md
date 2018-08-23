@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: da80d72f-9389-463f-8665-f26bb30c0ed2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d8a7082f76af761cd04a9c190324b7e6cf6e54fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6b8a00070cba755eb043e90586528674e461514
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810316"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592614"
 ---
 # <a name="pidlidfax2originalentryid-canonical-property"></a>Каноническое свойство PidLidFax2OriginalEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает исходный код записи адрес домашнего факса контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810316"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080C5  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

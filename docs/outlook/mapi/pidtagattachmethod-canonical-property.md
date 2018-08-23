@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
 description: 'Последнее изменение: 07 сентября 2016'
-ms.openlocfilehash: 1720e9a2eeb54daed1e559f99b0c63ce09585419
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 697f7e8045ca198c2c10b9396f19cb2d7ce8346e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810873"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583654"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>Каноническое свойство PidTagAttachMethod
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит определенные MAPI константу, представляющее того, который может осуществляться содержимого вложения. 
   

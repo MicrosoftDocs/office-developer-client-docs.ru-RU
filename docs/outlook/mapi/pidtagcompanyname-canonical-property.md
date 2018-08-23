@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 87bc5753-ef39-4275-a850-cfeb340a4a8b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9ac212172658445a1bb5be2fa21a7b21effb7ea0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e68acf07232d86ef4bd76086d0ae25fd927b74fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810935"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589884"
 ---
 # <a name="pidtagcompanyname-canonical-property"></a>Каноническое свойство PidTagCompanyName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя компании получателя. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19810935"
 |Связанные свойства:  <br/> |PR_COMPANY_NAME, PR_COMPANY_NAME_A, PR_COMPANY_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x3A16  <br/> |
 |Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

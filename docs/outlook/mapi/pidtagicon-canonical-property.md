@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0aa5873d98b7ae9dea1bdaffc37f7996262b6062
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c84e4ad44fbbaad1a49d5866b8b505ca005ddfd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811209"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583857"
 ---
 # <a name="pidtagicon-canonical-property"></a>Каноническое свойство PidTagIcon
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит растрового изображения значка полный размер для формы. 
   

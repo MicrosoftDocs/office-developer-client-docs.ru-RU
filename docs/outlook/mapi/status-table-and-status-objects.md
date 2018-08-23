@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 774aaea0365066981b9d6426a2579160f6578844
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ebd0c21a43ddb1deb01699f0ddf77d319216a4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590066"
 ---
 # <a name="status-table-and-status-objects"></a>Таблица и объекты состояний
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI таблица со сведениями о состоянии в подсистеме MAPI, диспетчер очереди MAPI, адресной книги или поставщик конкретной службы. Можно получить доступ к этой таблице путем вызова [IMAPISession::GetStatusTable](imapisession-getstatustable.md).
   

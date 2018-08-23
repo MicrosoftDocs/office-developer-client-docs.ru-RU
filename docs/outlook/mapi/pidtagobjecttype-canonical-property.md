@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 37da4ff5-300d-479f-a8b4-6fc36df997d9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2830da6aad561045a7ecdd953286c90edea88ca2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b2d435e132bf453cf41ec141d5a946bf54f9c66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811407"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591053"
 ---
 # <a name="pidtagobjecttype-canonical-property"></a>Каноническое свойство PidTagObjectType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит тип объекта. 
   

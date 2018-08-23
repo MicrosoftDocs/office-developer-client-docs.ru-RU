@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 41262e7a-5f5f-4830-b80c-f1be3e9a3276
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 39a83868548990ec89bdb9e8cf0733a822650a42
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dd4f2f26d92207954f823b03d804e8bbda5e7144
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811978"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591970"
 ---
 # <a name="pidtagstreetaddress-canonical-property"></a>Каноническое свойство PidTagStreetAddress
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит почтовый адрес получателя. 
   

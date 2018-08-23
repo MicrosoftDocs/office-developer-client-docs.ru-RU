@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7f81a0c3c9a9ad0a9bcef5c5685aa5b343237f19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f727d68e0e193e8f2e148d881968993f836f8ab0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809622"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582471"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Информирует поставщика транспорта, что диспетчер очереди MAPI завершения обработки на исходящее сообщение.
   

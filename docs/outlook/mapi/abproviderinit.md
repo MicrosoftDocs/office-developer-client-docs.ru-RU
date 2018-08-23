@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 03375a11be3f6f128db5f6147c5fbe901d0a0fa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e76ad936cb8dc99897bc1c74d3a47b0d2aa4be46
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807990"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590052"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Инициализирует поставщика адресных книг для операции. 
   

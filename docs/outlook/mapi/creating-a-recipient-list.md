@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 270f86dd-2c1f-47eb-80f7-9d0d63936d61
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fa23377a8b080ae9dac3e31dfa137ca03a242c74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6de805da2aadd8ac40ca984c5f336d5ca7906248
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808255"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590129"
 ---
 # <a name="creating-a-recipient-list"></a>Создание списка получателей
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Список получателей является структурой [ADRLIST](adrlist.md) , который содержит массив структур значение свойства для каждого получателя сообщения — назначения для сообщения. Получатель может представлять человеческого пользователя, компьютера или папки. Все сообщения, отправляемые требуется по крайней мере одного получателя, которое было через процесс разрешения имен — процесс для проверка того, что свойство **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) включается в массив значений свойств получателя. 
   

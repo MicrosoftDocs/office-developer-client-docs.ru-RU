@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ed3bc585-13f6-46a5-9e71-9c8513ddfc0a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fbe955d3e7a509edf6ba10678e1e2538c9185193
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b783a624ef5358a69d65dd52785b285db1a70df7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810939"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588673"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a>Каноническое свойство PidTagContactAddressBookMultipleAddressFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаги, указывающее, поддерживает ли поставщики нескольких электронной почты решает каждого элемента контакта.
   

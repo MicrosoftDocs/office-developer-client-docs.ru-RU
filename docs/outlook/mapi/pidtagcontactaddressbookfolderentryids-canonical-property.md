@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bb95b639-e5de-44f8-82f2-dff3b00dd3d1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aebf658e70e355f97516a76be1462cf051a9b220
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a9753d190ee20284b717ee31e719e03656117b75
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810929"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587217"
 ---
 # <a name="pidtagcontactaddressbookfolderentryids-canonical-property"></a>Каноническое свойство PidTagContactAddressBookFolderEntryIds
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификаторы для папки Контакты в хранилищ сообщений, места хранения почтовых пользователей.
   

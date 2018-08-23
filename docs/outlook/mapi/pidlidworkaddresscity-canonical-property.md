@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4cbded5d-5aa6-47c5-aa25-416ed9bd3bbe
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7e9ba8eb8aee6ffd2e1b867e0df404837a78adcc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 584b358fa8aec473568f5ef63a31124aba367824
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810654"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583143"
 ---
 # <a name="pidlidworkaddresscity-canonical-property"></a>Каноническое свойство PidLidWorkAddressCity
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает Город расположения часть или рабочий адрес контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810654"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008046  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

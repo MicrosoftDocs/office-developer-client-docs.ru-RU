@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2f268b3b-2e4c-4aea-8879-bdd0ac1df35c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 222ca10e58b50fa06876718658d1a6f3843da2f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a0f4ae75117dff3610175b785ab3f982cc7e7552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811558"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590409"
 ---
 # <a name="pidtagprimarysendaccount-canonical-property"></a>Каноническое свойство PidTagPrimarySendAccount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит строку с именем первого сервера, который используется для отправки сообщения.
   

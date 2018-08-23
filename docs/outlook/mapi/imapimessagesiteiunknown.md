@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 883448f5-0d3f-486d-80a3-7b961c209cd0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 75ef8d6f2134e0269745f92dab1f790228692853
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cffa3024b8533f07f8f76fa5bbac219e23d61bdb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808992"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589506"
 ---
 # <a name="imapimessagesite--iunknown"></a>IMAPIMessageSite : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Управляет сообщений и реализуется код средства просмотра формы (обычно клиентское приложение), которая отвечает на такой обработки.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a0c2014a-6112-4c90-9be0-babb2e377402
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c8e4edd41d05d6825dd2032b0e0fee7205139e9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09b7c137d9d6af66421a93557c2669557482117b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587161"
 ---
 # <a name="pidlidmileage-canonical-property"></a>Каноническое свойство PidLidMileage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения, расстояние, связанный с элементом.
   

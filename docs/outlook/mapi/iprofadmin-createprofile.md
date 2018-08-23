@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 10cda14a-8f93-41e0-b1fb-500098bdc392
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a15561a6f3af35c1c7c2285bb6252e6400e0e8df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92d5dcdf3e5e3fbdb7490d777a24976c9ae4af1a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809505"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582793"
 ---
 # <a name="iprofadmincreateprofile"></a>IProfAdmin::CreateProfile
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает новый профиль.
   

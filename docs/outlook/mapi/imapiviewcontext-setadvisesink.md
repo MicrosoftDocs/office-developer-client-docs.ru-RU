@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: abee768dd29cc807b605a7d13570a579cb271b2c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 555bb4820dc36934fb28197b7e222633a5248125
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809250"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583185"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Управляет формы регистрации для получения уведомлений об изменениях в средстве просмотра. 
   

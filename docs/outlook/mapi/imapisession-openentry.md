@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f23b4855b7e2faeb599868f8c2db52ae9cbfbfd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6234fc737857a7e35f562703802f81ff154b3ee6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809064"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591018"
 ---
 # <a name="imapisessionopenentry"></a>IMAPISession::OpenEntry
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Открывает объект и возвращает указатель интерфейса для дополнительные права доступа.
   

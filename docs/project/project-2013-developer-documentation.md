@@ -16,12 +16,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: Найдите документацию, примеры кода, статьи с инструкциями и справочные материалы по программированию создание приложений для магазина Office или в частном каталоге приложений, а также настройке и интеграции клиентов Project и Project Server с помощью широкий спектр других рабочего стола и бизнес- приложения для управления корпоративными проектами.
-ms.openlocfilehash: 490b5bd2fcbe2f92653b6ebc84d36e5c28cdc8c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23c1229769a08f78b9ad35eab7403876cbe294d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813057"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590759"
 ---
 # <a name="project-2013-developer-documentation"></a>Документация для разработчиков Project 2013
 
@@ -30,7 +30,7 @@ ms.locfileid: "19813057"
 Добро пожаловать в Microsoft Project 2013 пакет средств разработки (SDK). Пакет SDK содержит документацию, примеры кода, статьи с инструкциями и справочные материалы по программированию создание приложений для общего хранилища или частном каталоге приложений, а также настройке и интеграции Project Server и клиенты Project с различными других рабочего стола и бизнес-приложений для управления корпоративными проектами.
   
 > [!NOTE]
-> Project Server 2013 построен на платформе SharePoint Server 2013 и Project 2013 включает в себя значительная часть той же инфраструктуры, что и другие приложения Office 2013. Документация по модели для SharePoint Add-ins, рабочих процессов на основе SharePoint веб-частей, разработка с помощью других компонентов SharePoint и документация по Office Add-ins, в разделе [приложения для Office и SharePoint](http://msdn.microsoft.com/en-us/library/fp161507%28office.15%29.aspx). 
+> Project Server 2013 построен на платформе SharePoint Server 2013 и Project 2013 включает в себя значительная часть той же инфраструктуры, что и другие приложения Office 2013. Документация по модели для SharePoint Add-ins, рабочих процессов на основе SharePoint, веб-части, разработка с помощью других компонентов SharePoint и документация по Office Add-ins, в разделе [надстройки SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins) и [надстроек Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
 ## <a name="introduction-to-the-project-sdk"></a>Общие сведения о пакете SDK Project
 <a name="pj15_Welcome_IntroToSDK"> </a>

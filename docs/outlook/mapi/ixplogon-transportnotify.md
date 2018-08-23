@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: c712fc17-f436-41cf-9aa3-186c9a86d56e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5429f98a0335ae99b719d0f15b66a95ba87430e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0c5cd70595ea43a0957e764150ee4d5153e32c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809643"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589688"
 ---
 # <a name="ixplogontransportnotify"></a>IXPLogon::TransportNotify
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает на возникновение события, о том, какие поставщика транспорта запрошено уведомление.
   

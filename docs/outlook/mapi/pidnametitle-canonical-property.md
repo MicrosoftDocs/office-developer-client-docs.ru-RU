@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: c429f9d8-19f4-4c67-a93f-a55ebf6a148f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3ebf6a5ee7499f8d77f9577e69dc82311c224283
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79ba36d08128a3073e1fd4b6af501c19200db38d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810746"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583612"
 ---
 # <a name="pidnametitle-canonical-property"></a>Каноническое свойство PidNameTitle
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает заголовок файл, подключенный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Имя свойства:  <br/> |Название  <br/> |
+|Имя свойства:  <br/> |Title  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Common  <br/> |
    

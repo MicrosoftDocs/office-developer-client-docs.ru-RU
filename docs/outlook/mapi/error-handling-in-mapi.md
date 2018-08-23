@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6f0ebd2112b65140a106a1376896f6de9c00da1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d98b7cf1d6c5cdc8517ea2e653115d9a7c01e3c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808390"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593300"
 ---
 # <a name="error-handling-in-mapi"></a>Обработка ошибок в MAPI
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Успех, предупреждения и ошибки значения возвращаются с помощью 32-разрядное число, в результате известные дескриптор или HRESULT. HRESULT самом деле не маркер на что-либо; Это просто значение 32-разрядная версия с несколько полей в значения кодировке. Нулевой результат означает успешное выполнение и отличное от нуля результат указывает на ошибку.
   

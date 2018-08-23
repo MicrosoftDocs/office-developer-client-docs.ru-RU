@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb161d7b-ae5b-4f8e-a506-8346ac5e583d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 250074b28b98269df58fecfcb2d178f73e26c571
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65bf7debcae1367ccad9e109242fd4a72839a94e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809503"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584928"
 ---
 # <a name="iprofadmingetlasterror"></a>IProfAdmin::GetLastError
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о предыдущем ошибки, которые произошли в объект администрирования профилей. 
   

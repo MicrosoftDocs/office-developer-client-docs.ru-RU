@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5d9a57cee371675493ba71b2df52b83941d34fc2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e72c947a6e0d4052d3335c3e3cfaf5ffb94da669
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809439"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593006"
 ---
 # <a name="imslogonlogoff"></a>IMSLogon::Logoff
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщик хранилища, выходит из системы сообщение. 
   

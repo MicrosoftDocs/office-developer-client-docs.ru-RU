@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 04ec21b8-8cd8-4d2d-92e7-aa73f4315e1e
 description: 'Последнее изменение: 26 июня 2012 г.'
-ms.openlocfilehash: 2c5e4f422c4eb4fc59ebab6a2243b14f3e8f9502
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cfa4f1838cef5b5f4940775ec79c9a4b39b336fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808164"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591718"
 ---
 # <a name="client-shutdown-in-mapi"></a>Завершение работы клиента в MAPI 
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Приступая к работе в Microsoft Outlook 2010, теперь включительно, Microsoft Outlook 2013, клиенты MAPI могут завершение работы так же, как перед или они могут использовать быстрое завершение работы. Быстрое завершение работы будет выполнена успешно клиент MAPI, поставщика MAPI и администратора на клиентском компьютере необходимо поддерживает быстрое завершение работы. 
   

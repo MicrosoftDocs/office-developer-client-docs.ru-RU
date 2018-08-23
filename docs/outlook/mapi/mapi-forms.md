@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 41d35370-495d-40fe-80bc-6c3bfc995b85
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e3f35126f3887bc1f2979721deb90891b97c9322
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b53cdb4fe379405018555f1cca9fa40ddc5d0fa8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809752"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592488"
 ---
 # <a name="mapi-forms"></a>Формы MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 После прочтения этой Обзор архитектура формы MAPI, будут иметь знания формы MAPI и взаимодействие с другими компонентами в подсистеме MAPI. В этом разделе предназначен для предоставления концептуальные базы знаний, необходимых для реализации серверах формы MAPI.
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8b7a93a9abb9a1c589ac7fdab3723c9c924eea0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b8c70c8b13025f196fdebb2956939bec840a96f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812306"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583941"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает структуру [SRowSet](srowset.md) именованные, содержащий указанное число строк. 
   

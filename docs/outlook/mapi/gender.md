@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f60c65e3-b55f-cb68-746e-d0a8cd862d4d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7abc62938b3c33e42adedfe8ccd66e072314e333
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a74a6639023ae6ffddeabd03970b609e7b7babe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588456"
 ---
 # <a name="gender"></a>Gender
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает возможные значения для Пол обмена сообщениями пользователя.
   

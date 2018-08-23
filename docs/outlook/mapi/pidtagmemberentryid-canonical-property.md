@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3139f7cc60d19048fb17c64101f279ce377e9b26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27659b69e0ae050206de18c1258ee593737fbd3b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811354"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592950"
 ---
 # <a name="pidtagmemberentryid-canonical-property"></a>Каноническое свойство PidTagMemberEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор каталога объект запись члена в таблице список управления ДОСТУПОМ системы доступа элемента управления.
   

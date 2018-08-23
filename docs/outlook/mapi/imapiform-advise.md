@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b5347205e10b44d62a7e11cbe2f4179970f1bd64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0717dad6c32906995938c2b00d59f9ee96ff6e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808875"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591074"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Регистрирует просмотра формы для уведомлений о событиях, которые влияют на форме.
   

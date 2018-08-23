@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: db3bc9dacb0756f3ed9f16969b95245950b947fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30c8f31c104be52da2900eb81c7b7c29dfa55015
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811150"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586531"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>Каноническое свойство PidTagFormDesignerGuid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит уникальный идентификатор для объекта, который используется для создания формы.
   

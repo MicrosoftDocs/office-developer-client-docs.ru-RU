@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 263ac923-692f-40d4-bdd5-116dc5c49766
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b6b5f5aa5c595fb0c19ca9b8a9f8aeb94a2c2725
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b33d3d26c9369bd0a0e18cdf9e4b8ca850666657
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811063"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584872"
 ---
 # <a name="pidtagdeferreddeliverytime-canonical-property"></a>Каноническое свойство PidTagDeferredDeliveryTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время, когда отправитель сообщения запрашивает сообщение доставлено. 
   

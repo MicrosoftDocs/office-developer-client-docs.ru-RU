@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 21ea5faaccb81e763d6d062b6ff567db509d9d35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2837e5470729ae3cdd0b83e17d0342620c986e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592117"
 ---
 # <a name="imapisupportspoolernotify"></a>IMAPISupport::SpoolerNotify
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомление об изменении состояния или запрос на обслуживание диспетчер очереди MAPI. 
   

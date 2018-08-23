@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1e626714-52dc-4141-9741-4d801f32d294
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a7735be5cfb8ff0716b6bd6eba4951563bb938ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a8b0f8fc8c296fe4022ac28623b83d270472ca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808003"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590696"
 ---
 # <a name="adding-a-message-service"></a>Добавление службы сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  **Добавление новой службы сообщений в профиль и доступ к новой службы сообщений**
   

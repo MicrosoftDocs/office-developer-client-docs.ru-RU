@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4eaeb3338c95196ff346c5098e5d06371b00bc5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33f4634623662b7bc09e0830e8bd0b51adc7799d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809868"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583500"
 ---
 # <a name="mapideinitidle"></a>MAPIDeInitIdle
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Завершает работу обработчика бездействия MAPI для вызывающего приложения. 
   

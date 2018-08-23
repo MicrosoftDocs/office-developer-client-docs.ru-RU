@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e6e9e9cefc75ffc78ee7beb47e89063ea1a66ce7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e253aa6a701d565fbc61e8a0e0a6388f7199c000
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808853"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593265"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Копирование или перемещение одно или несколько сообщений.
   

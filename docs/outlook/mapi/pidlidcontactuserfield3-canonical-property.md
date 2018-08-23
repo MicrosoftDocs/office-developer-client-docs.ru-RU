@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 22084d78-c606-4ca9-baa7-09438456d547
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 95c3f4227e62bdfb8c6c438b574b4f3df3d02746
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 350d9502413efda4773a2704cff1eeb62aaa014d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810249"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593370"
 ---
 # <a name="pidlidcontactuserfield3-canonical-property"></a>Каноническое свойство PidLidContactUserField3
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает поле третий на контакт, который предназначен для использования Прочее для этого контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810249"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008051  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

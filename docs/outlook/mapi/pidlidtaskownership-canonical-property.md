@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 805dcb6c-f405-4c4d-8bca-af4bd9cd44fa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 17f3ac0c5cd6005329212d0dcb458b37bb75f41d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c335d8fab820c9876adbe8f001696a02068460c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591410"
 ---
 # <a name="pidlidtaskownership-canonical-property"></a>Каноническое свойство PidLidTaskOwnership
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает роли текущего пользователя относительно задачи.
   

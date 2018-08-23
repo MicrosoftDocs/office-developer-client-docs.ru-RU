@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e34070ae-4f7a-4506-9749-1dadd60a7d2e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6965a314682b897a488157bf5d909fd6f40680c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc83bace43e4807598ce1b1f723eb15695794a86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811539"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590605"
 ---
 # <a name="pidtagphysicaldeliveryreportrequest-canonical-property"></a>Каноническое свойство PidTagPhysicalDeliveryReportRequest
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит режим отчет для доставлено получателю конкретное сообщение, после завершения работы физического сообщение доставки или доставки с системы обработки сообщений.
   
