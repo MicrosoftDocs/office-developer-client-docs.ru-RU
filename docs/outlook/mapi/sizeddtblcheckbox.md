@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9a30554253bc11c8905273079429e4b41c20583a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6120439ea0d98ed6b64fe1542a4372265574723a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812292"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567533"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает именованный структуру, которая включает в себя структуры [DTBLCHECKBOX](dtblcheckbox.md) для описания элемента управления "флажок" и метки заданной длины. 
   

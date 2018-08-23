@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1546ee1aa970be71d853dba59ce0fab7cc5a4dac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a37382cda1a96025f950d941f83fb5b6a0497bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565503"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>Каноническое свойство PidTagProviderDisplay
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит определенные поставщика отображаемое имя для поставщика услуг.
   

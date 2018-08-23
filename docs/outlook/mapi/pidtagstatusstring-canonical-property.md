@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ea24b5e721317668c8f43278a5e4c38d73b3e91c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8370a613162e3bc8d4395a18e9a7e177255b9b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811954"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567302"
 ---
 # <a name="pidtagstatusstring-canonical-property"></a>Каноническое свойство PidTagStatusString
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сообщение, указывающее текущее состояние сеанса ресурсов. 
   

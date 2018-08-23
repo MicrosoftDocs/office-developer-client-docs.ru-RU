@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d27ef47a3ba387ae2e7acbcefc75b07ddd794e80
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7686f36ca105ab92161757d492a86b4b78461dfd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812042"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564082"
 ---
 # <a name="pidtaguserx509certificate-canonical-property"></a>Каноническое свойство PidTagUserX509Certificate
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сертификаты безопасности X.509 версии 3 для обмена сообщениями пользователя. 
   

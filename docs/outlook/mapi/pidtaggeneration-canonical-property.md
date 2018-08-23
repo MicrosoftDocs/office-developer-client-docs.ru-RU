@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 81c2e479-84a1-42ba-a9ce-25e3fc8d80cb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4f13aa14569daeb60271ea6d8645af6f6fe3bcd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a9a513d5044a026475077ea7d4b86821e1c4cd82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569171"
 ---
 # <a name="pidtaggeneration-canonical-property"></a>Каноническое свойство PidTagGeneration
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит поколениям аббревиатура, исходя из полное имя получателя. 
   

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Последнее изменение: 18 июля 2013 г.'
-ms.openlocfilehash: 2eb7f1b496e0732b157ea4f9105a0e067329c52f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812113"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566924"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Регистрация служб и поставщиков служб в MapiSvc.inf
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Для установки нового поставщика в системе требуется обновление файла MapiSvc.inf для указания на новый поставщик. Стандартные свойства, установленные во время настройки, которые включают следующие информирование MAPI расположение библиотеки поставщика динамической компоновки (DLL):
   

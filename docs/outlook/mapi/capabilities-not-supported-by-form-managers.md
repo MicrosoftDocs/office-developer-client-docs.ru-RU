@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b51e9e03-a333-4fdc-b6fe-87bd4e947b9f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 86c91353b620482ca0862aa998aae1b3329cfc94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a84c0a93f80080b71f6049e73f0a0094c38c28ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808125"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566875"
 ---
 # <a name="capabilities-not-supported-by-form-managers"></a>Возможности, не поддерживаемые диспетчерами форм
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Следующие функции не поддерживаются диспетчером формы по умолчанию в целях повышения производительности, но могут поддерживаться руководителями настраиваемой формы.
   

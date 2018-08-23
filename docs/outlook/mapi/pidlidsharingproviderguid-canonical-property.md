@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 103c9cf2-42fb-4fa5-b9c2-8a92725d3097
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f3138a5994ffc6e32ffebd1a4d5b221db0dd2312
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce69d563a0d797298a6d708bcf70f1b2e1ad950f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810551"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565944"
 ---
 # <a name="pidlidsharingproviderguid-canonical-property"></a>Каноническое свойство PidLidSharingProviderGuid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает общего доступа поставщика глобальный уникальный идентификатор (GUID). Это свойство общего доступа сообщения.
   

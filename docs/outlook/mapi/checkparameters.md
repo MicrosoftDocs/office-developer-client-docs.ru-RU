@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ba33866a-c9c4-454a-9549-72455c61ee97
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a693c06d933c7e93d384aac8da8d5311eaf1d9da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f01d0ad7e7e6b1ad7a5e4c4838bb46ca143e0968
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808192"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567057"
 ---
 # <a name="checkparameters"></a>CheckParameters
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вызывает внутренней функции для проверки параметров отладки на методы поставщика службы вызывается MAPI. 
   

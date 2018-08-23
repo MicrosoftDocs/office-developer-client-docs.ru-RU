@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a167e199-a9b2-47f9-a90e-2abc7c29828c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9706d1060347609708070140aae51d9dcadbb9c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70d8266bf0eb8543b9bea7d2258b576b6f02bcc2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810253"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567736"
 ---
 # <a name="pidlidcontactcharacterset-canonical-property"></a>Каноническое свойство PidLidContactCharacterSet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает набор символов, используемый для этого контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810253"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008023  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

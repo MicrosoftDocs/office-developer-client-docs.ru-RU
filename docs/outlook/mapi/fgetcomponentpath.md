@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e4bce7f122522532023d18b43fe4bfdeda84af9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa39128ffaaaa3530b74a660c14971834a99561b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808422"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566350"
 ---
 # <a name="fgetcomponentpath"></a>FGetComponentPath
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает путь к частной Mapi32.dll.
   

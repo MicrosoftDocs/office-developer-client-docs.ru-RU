@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e5f0f83-c40b-4b3a-8492-61d1b53b1e3c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 293eb489a1e926f0e60e823a536dacf6f409e353
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c42649b231e691fec8b5a8d7024b87346cd8ce18
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810182"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568548"
 ---
 # <a name="pidlidappointmentstateflags-canonical-property"></a>Каноническое свойство PidLidAppointmentStateFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает битовое поле, которое описывает состояние объекта.
   

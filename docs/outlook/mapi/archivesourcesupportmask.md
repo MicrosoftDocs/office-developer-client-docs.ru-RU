@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1e0c099783b4d44b1aaf746b07c77981c135ca9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da1a1403ce454eef03a4b1e965441b0c654a99aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19808064"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563816"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Разрешение следует сканировать папок в хранилище и архивировать их автоматически Microsoft Office Outlook.
   

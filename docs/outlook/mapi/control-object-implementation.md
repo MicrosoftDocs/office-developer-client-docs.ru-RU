@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 268ad60cf8161fb2b58370f89aae623aabd7da7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4b225f7e048ef40a79c4b258629cb01b79368d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808203"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565832"
 ---
 # <a name="control-object-implementation"></a>Реализация объекта элемента управления
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Управлять объектов или объектов, которые поддерживают [IMAPIControl: IUnknown](imapicontroliunknown.md) интерфейс, реализуемые поставщиками, чтобы добавить функциональные возможности для кнопки, которое отображается в диалоговом окне MAPI. Объекты элементов управления можно реализовать только для кнопок. 
   

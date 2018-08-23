@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Для поддержки создания решений InfoPath, использующих языки управляемого кода, например Visual C# и Visual Basic, параметр поддержка программирования .NET в программе установки InfoPath устанавливает трех сборок взаимодействия.
-ms.openlocfilehash: b6b37254773d758dc064e22045d68f29febe7bbe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807389"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564131"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>Сведения об основной сборке взаимодействия Microsoft Office InfoPath
 
@@ -35,11 +35,11 @@ ms.locfileid: "19807389"
   
 Microsoft.Office.Interop.InfoPath сборка не отображается в глобальном кэше СБОРОК, следует убедиться, что InfoPath был установлен правильно. По умолчанию **Поддержка программирования .NET** в программе установки включен режим **запускать с моего компьютера** , если распространяемый пакет .NET Framework 1.1, .NET Framework 1.1 Software Development Kit (SDK) или более поздней версии .NET Framework установлен перед запуском программы установки. Если эти сборки взаимодействия недоступны на вашем компьютере, необходимо подтвердить установки .NET Framework 1.1 или более поздней версии и затем использовать **программы и компоненты** **Панели управления** для изменения программы установки, задав **программирования .NET Поддержка** в узле **Microsoft Office InfoPath** , чтобы **запускать с моего компьютера**.
   
-Сведения о загрузке распространяемый пакет .NET Framework 1.1 видеть [1.1 распространяемый пакет .NET Framework](http://msdn.microsoft.com/netframework/technologyinfo/redist/default.aspx).
+Сведения о загрузке распространяемый пакет .NET Framework 1.1 можно [1.1 распространяемый пакет .NET Framework](https://www.microsoft.com/en-us/download/details.aspx?id=26).
   
 ## <a name="the-microsoftofficeinteropinfopath-namespace"></a>Пространство имен Microsoft.Office.Interop.InfoPath
 
-Несмотря на то, что процесс написания управляемого кода для указанных задач очень похоже на использовании языка, например Visual Basic для приложений или JScript, объектной модели, предоставляемые при просмотре **Microsoft.Office.Interop.InfoPath** задачу для выполнения пространство имен из **Обозревателя объектов** в Microsoft Visual Studio выполняет более сложных. Это, так как для взаимодействия с помощью .NET Framework требуется COM-сервера для предоставления из общедоступных интерфейсов, а также некоторые дополнительные конструкции, необходимые для .NET Framework. Дополнительные сведения о как и почему объектной модели, предоставляемые элементом сборки взаимодействия отображается более сложных см раздел «Как COM объекты будут доступны для управляемого кода» в разделе [InfoPath 2003 совместимой объектных моделей](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx) . 
+Несмотря на то, что процесс написания управляемого кода для указанных задач очень похоже на использовании языка, например Visual Basic для приложений или JScript, объектной модели, предоставляемые при просмотре **Microsoft.Office.Interop.InfoPath** задачу для выполнения пространство имен из **Обозревателя объектов** в Microsoft Visual Studio выполняет более сложных. Это, так как для взаимодействия с помощью .NET Framework требуется COM-сервера для предоставления из общедоступных интерфейсов, а также некоторые дополнительные конструкции, необходимые для .NET Framework. Дополнительные сведения о как и почему объектной модели, предоставляемые элементом сборки взаимодействия отображается более сложных см раздел «Как COM объекты будут доступны для управляемого кода» в разделе [InfoPath 2003 совместимой объектных моделей](../form-templates/infopath-2003-compatible-object-models.md) . 
   
 ### <a name="using-intellisense"></a>Использование IntelliSense
 

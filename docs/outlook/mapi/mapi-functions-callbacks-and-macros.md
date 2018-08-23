@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
 description: '���� ���������� ���������: 7 ������� 2015 �.'
-ms.openlocfilehash: 8708606cafffe0e6e1af06189b6ef8961e5a7a05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809759"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565398"
 ---
 # <a name="mapi-functions-callbacks-and-macros"></a>Функции интерфейса MAPI, обратные вызовы и макросов
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Следующие записи к буквам и цифрам содержат документацию для функций MAPI, обратные вызовы и макросы. 
   

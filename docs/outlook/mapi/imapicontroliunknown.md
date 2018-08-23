@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a647e15-ba22-4a7c-b235-75cd76b77c1a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 395e44c2ea54816fab9f29dbedfe5e165e98c7b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 80acb1a1e4663a68efc4692ab67ec27bc369f4b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808830"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566518"
 ---
 # <a name="imapicontrol--iunknown"></a>IMAPIControl : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Включает и отключает элемент управления button и выполняет щелчку клиентского приложения включено элемента управления. Поставщики услуг реализовать объекты элементов управления для создания настраиваемых кнопок в диалоговых окнах, таких как страницы свойств конфигурации, определенные с помощью таблиц отображения. 
   

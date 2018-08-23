@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a4a72e6d5136d7e78648cb62849f7162b7b35f6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d131681ab9a49f1d25d14641855fb19c2456b0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810934"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565412"
 ---
 # <a name="pidtagcontactaddressbookfoldername-canonical-property"></a>Каноническое свойство PidTagContactAddressBookFolderName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя папки, используемое для записи адресной книги.
   

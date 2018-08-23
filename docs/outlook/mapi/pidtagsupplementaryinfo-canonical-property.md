@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6f9d383b6be2ce8efc135b85e9bea151df535cfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9800b1822ca6881c451e01e890d582c77b64546
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812005"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566749"
 ---
 # <a name="pidtagsupplementaryinfo-canonical-property"></a>Каноническое свойство PidTagSupplementaryInfo
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит дополнительные сведения для использования в отчете.
   

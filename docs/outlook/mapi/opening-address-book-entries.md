@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 017a62c0-49c6-47fb-acce-db58e6bb9cc5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c36c70eacffcb4a41af0e73eea85143ab737867f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd86b9cc86f30aac75b732b97208933de4d336e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810072"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566434"
 ---
 # <a name="opening-address-book-entries"></a>Открытие адресной книги
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Когда клиента или поставщика запросил один из объектов открываются MAPI вызывает метод [IABLogon::OpenEntry](iablogon-openentry.md) ваш поставщик. MAPI определяет, что запись идентификатор, представляющий целевой объект принадлежит к поставщику, проверяя [MAPIUID](mapiuid.md) часть идентификатор записи и сопоставление его **MAPIUID** , ваш поставщик зарегистрирован в вызове ** IMAPISupport::SetProviderUID**. MAPI вызывает метод **OpenEntry** . Поставщик должен отвечать путем получения соответствующего объекта — контейнер, список рассылки или обмена мгновенными сообщениями пользователя. 
   

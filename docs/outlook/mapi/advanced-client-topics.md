@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9eb052b5-c0ad-418b-9469-e11ffe450fb7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0186a9299bd5a9efaefb8cb38e3173f5851abae0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 59f245972fabde8db5123c4d0d39e259257ecfdc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808040"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566196"
 ---
 # <a name="advanced-client-topics"></a>Дополнительные темы о клиентах
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе содержатся подразделы о реализации некоторых функций более редко или трудно в клиентском приложении.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 3007aeb5ac3810c57ed6fb4a555d5ce22e831768
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6079a62464231536c0fa6b5bacc291997fe38d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809790"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567925"
 ---
 # <a name="mapi-progress-objects"></a>Объекты хода выполнения MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Методы и данные о ходе выполнения объекта можно управлять как индикатора сообщает о ходе выполнения. Несмотря на то, что клиент или MAPI реализует объект ход выполнения, большая часть усилий по обеспечению правильности отображения хода выполнения попадает на поставщиков услуг. Можно гарантировать его точность путем указания произвольном порядке и значения для параметров, которые передаются в методы объекта хода выполнения.
   

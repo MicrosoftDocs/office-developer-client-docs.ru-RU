@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e01bf0d9-62cf-4fba-8cec-232a46025feb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c8aac3ff8a81c9e7ec921df4d86dd33af3045064
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dcff67f6528805a33ae7a00e03e753c3219155ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810404"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566021"
 ---
 # <a name="pidlidlogdocumentprinted-canonical-property"></a>Каноническое свойство PidLidLogDocumentPrinted
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, будет ли во время ведения журнала печати документа.
   

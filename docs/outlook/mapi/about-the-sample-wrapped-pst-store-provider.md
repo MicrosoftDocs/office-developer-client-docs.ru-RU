@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 953391ce-31a2-3271-365a-284cf5e15d82
 description: 'Последнее изменение: 03 июля 2012 г.'
-ms.openlocfilehash: 51aef9d8778997749e401b008ebdb4126a248ee0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 399c86d189cfc4160d151f417a6dd20364e60ce3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563830"
 ---
 # <a name="about-the-sample-wrapped-pst-store-provider"></a>Сведения о примере поставщика упакованного PST-хранилища
 
  
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 ## <a name="overview-of-message-store-providers"></a>Обзор поставщиков хранилища сообщений
 

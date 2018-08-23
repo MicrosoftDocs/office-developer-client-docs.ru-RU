@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: Эта справка содержит обзоры понятий и программный справочные материалы, которые помогут в разработке решений для настольных систем клиентских приложений, OneNote 2013.
-ms.openlocfilehash: 8af3f0b8623f0b457250ea11f185a25cadec7386
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a3dde524dfa5357c4523db3b545ac583eaa3274
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807668"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566581"
 ---
 # <a name="onenote-developer-reference"></a>Справочник разработчика OneNote
 
@@ -34,16 +34,11 @@ ms.locfileid: "19807668"
   
 ## <a name="see-also"></a>См. также
 
-- [OneNote для разработчиков (en)](http://go.microsoft.com/fwlink/?LinkID=390615)
-    
-- [Примеры кода на репозиториев](https://github.com/OneNoteDev/) (API службы OneNote) 
-    
-- [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Обозначения в документации](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [OneNote для разработчиков (en)](http://go.microsoft.com/fwlink/?LinkID=390615)   
+- [Примеры кода на репозиториев](https://github.com/OneNoteDev/) (API службы OneNote)     
+- [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](http://www.microsoft.com/enable/products/default.aspx)    
+- [Обозначения в документации](http://msdn.microsoft.com/en-us/office/aa905365.aspx)    
 - [Сведения об авторских правах Справочник разработчика по OneNote](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
     
-- [Уведомление о конфиденциальности (Майкрософт), доступное в Интернете](http://privacy.microsoft.com/en-us/default.mspx)
     
 

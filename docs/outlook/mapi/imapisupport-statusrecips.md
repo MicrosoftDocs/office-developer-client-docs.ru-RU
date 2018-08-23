@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f3642c890c3922611d57dea6f03aca5606876864
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cda629cf78d3f7915b64c130867ed4f8ebbd6f8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809192"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563844"
 ---
 # <a name="imapisupportstatusrecips"></a>IMAPISupport::StatusRecips
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает отчеты о доставке и недоставке.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30fdfb20-1e12-442a-bfa0-8c18c15fa5c3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6b344986989a47c4f1159fcf50c1d067ae716e98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32dddc77eee2e16dddb57f29bdb836d5962e29d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810482"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567456"
 ---
 # <a name="pidlidpostaladdressid-canonical-property"></a>Каноническое свойство PidLidPostalAddressId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, какой физический адрес — адрес адреса электронной почты контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810482"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008022  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

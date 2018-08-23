@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 375eac56253772b363ae320b3f7044ac600e71f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 633a7e0ea7cc2b6ffdbc555e2e470ec66ef77f8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810704"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565608"
 ---
 # <a name="pidnameattachmentmacinfo-canonical-property"></a>Каноническое свойство PidNameAttachmentMacInfo
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение вложения [RFC3282], который включает в себя соответствующие заголовка и ресурсов данных ветвления, используемого клиентами электронной почты на основе Macintosh.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PSETID_Attachment  <br/> |
 |Имя свойства:  <br/> |AttachmentMacInfo  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |

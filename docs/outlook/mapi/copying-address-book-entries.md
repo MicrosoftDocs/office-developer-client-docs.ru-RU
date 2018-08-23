@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ce7f7e2db341be62912935b7a55d69eaf5db8ab5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eca0c9f63a4efaaa7f9fd066cf5dce451b8f6175
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565888"
 ---
 # <a name="copying-address-book-entries"></a>Копирование записей адресной книги
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При вызове метода [IABContainer::CopyEntries](iabcontainer-copyentries.md) контейнера одного или нескольких получателей из того же или другой контейнер, должны быть скопированы в этот контейнер. **CopyEntries** имеет четыре входных параметров: массив идентификаторов записи, представляющее получателей для копирования, дескриптор окна для индикатора, указатель объекта хода выполнения и значение флагов. Поставщик должен отображаться ход выполнения, если не задан флаг AB_NO_DIALOG и используйте объект о ходе выполнения с помощью параметра _lpProgress_ , если он не может быть NULL. Если _lpProgress_ имеет значение NULL, вызовите [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) использовать объект MAPI хода выполнения. Дополнительные сведения об отображении хода выполнения [отображая индикатор выполнения](mapi-progress-indicators.md)см.
   

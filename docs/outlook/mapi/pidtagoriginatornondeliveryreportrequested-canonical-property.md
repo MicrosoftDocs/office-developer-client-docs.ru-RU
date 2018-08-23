@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 841d2b14efc781d89727b0c7ed677f527526a4ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 86b5d76cab1b85b38d76315cf7d905d1a07f0777
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811488"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569066"
 ---
 # <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a>Каноническое свойство PidTagOriginatorNonDeliveryReportRequested
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если отправитель сообщения запрашивает о недоставке для определенного получателя.
   

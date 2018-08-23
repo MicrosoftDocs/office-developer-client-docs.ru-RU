@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 301ebbf8e7a3e2a2deb303af5b198fd11511d495
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5f4be5a8593cfc483dfed1cffbb59f596e2e408
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812403"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567652"
 ---
 # <a name="supporting-formatted-text-message-store-responsibilities"></a>Поддержка форматированного текста: обязанности хранилища сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщики хранилища сообщений используйте свойство **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) для публикации ли они могут обрабатывать форматированный текст (RTF), HTML-текст, и, если они поддерживают RTF, ли они хранения форматированный текст в Формат сжатых или несжатых. Поставщики хранилища сообщений указывают, что они поддерживают RTF, установив бит STORE_RTF_OK, а их хранить форматированный текст в несжатую формы путем установки бита STORE_UNCOMPRESSED_RTF. Поставщики хранилища сообщений показывают, что они поддерживают HTML, установив бит STORE_HTML_OK.
   

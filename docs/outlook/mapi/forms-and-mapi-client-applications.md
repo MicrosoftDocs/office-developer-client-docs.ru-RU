@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f1256616eb73fae5f644e7e79a1b3c3350fa5727
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1357482b372e83be4aab1f77037908cafc0b3f05
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808484"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569213"
 ---
 # <a name="forms-and-mapi-client-applications"></a>Формы и клиентских приложений MAPI
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Так как все сообщения MAPI экземпляры форм, клиентские приложения отображения и взаимодействия с объектам формы так же, как и с другими объектами сообщения.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e36a987174ffb2abb4c0f5fc95bf695f31af942e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23663cea49c50f3f584d6b06e331545320e8283b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809096"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565384"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет сведения о состоянии о подсистемы MAPI, встроенная адресной книги и диспетчер очереди MAPI. Поставщик службы реализует **IMAPIStatus** для предоставления сведений о своем состоянии. 
   

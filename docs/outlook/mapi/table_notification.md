@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fd77473ce728a51220a4c039f1d12d03d90e7f36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f32145e0947411c48e1e6c3a941c9913a08709c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812471"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565846"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описание строки в таблице, которые были затронуты некоторые тип события, например, изменения или ошибка. В этом случае уведомление о таблице был создан. 
   

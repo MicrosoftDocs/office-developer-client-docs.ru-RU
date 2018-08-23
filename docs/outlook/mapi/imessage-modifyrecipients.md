@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
 description: '���� ���������� ���������: 9 ����� 2015 �.'
-ms.openlocfilehash: 3edcef69880dbc2a566a44582113c43802a47324
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0735008575db5e1cab62dbde4b699b15e04cedb0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809272"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567288"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 ����������, �������� ��� �������� ����������� ���������.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 73064a22-68bf-4d3f-91f5-1eec807debf8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2dfc6859b596d74af9337ff462e357c95f2ec591
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec9ff524a53b8bb5d7bb62cc9d76bc4691e95e7e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810452"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565391"
 ---
 # <a name="pidlidoldwhenstartwhole-canonical-property"></a>Каноническое свойство PidLidOldWhenStartWhole
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает исходное значение свойства **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) до обновления собрания.
   

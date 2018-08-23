@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 62fb2b069a50408713eea741cf837c421a749fcd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 346a2bce6d5709490ad11da842ed4f3e794b1996
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569192"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Включение средств просмотра формы для обработки хранилища формы и для перехода между состояниями различные.
   

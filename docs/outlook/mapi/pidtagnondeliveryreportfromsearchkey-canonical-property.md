@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c3f10e61-1a6e-47f3-afd1-1c2a7836871b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b2e4c621295289305b34c218202dcfca13460095
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d3b41d5f694c990be7d9aae61b86b705d1b8e17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811393"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569413"
 ---
 # <a name="pidtagnondeliveryreportfromsearchkey-canonical-property"></a>Каноническое свойство PidTagNonDeliveryReportFromSearchKey
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Если значение на отчет о недоставке, обозначает ключ поиска неудачных отправки-под учетной записью пользователя.
   

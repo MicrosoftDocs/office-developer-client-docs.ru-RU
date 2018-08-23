@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2ac8fb6f4e56b6f086e6061c227120cd49fc621a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a55fc361120472473bcba70152c153fb7824fb9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809392"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566553"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Включение упорядоченного выхода хранилища сообщений.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8668ba4f-3236-4a87-a5aa-9cf7eea3d87b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6cf81a5b4c10cb7bff5f03a1b25d11bbaa8ff277
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b49398b822e6972a8a6d02e1dff9c2316ce6eb33
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811479"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566637"
 ---
 # <a name="pidtagoriginalsubject-canonical-property"></a>Каноническое свойство PidTagOriginalSubject
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит темы исходного сообщения для использования в отчете о сообщении.
   

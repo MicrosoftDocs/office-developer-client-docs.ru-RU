@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2507c3fa-e34c-4da0-88b5-2d1a98b32d4a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7537e2a041bc2e450663e5fdc3276d134f8ddacd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a262275640897a0243330404c4d141144bb64f21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808302"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567519"
 ---
 # <a name="cbadrlist"></a>CbADRLIST
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов в имеющуюся структуру [ADRLIST](adrlist.md) . 
   

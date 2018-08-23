@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5859d94f85ca3fe7a0c738ed596d3c1a11fb2e8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c30aa631e70f8f4be52c2fd42dd6bfad900f379e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809670"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566161"
 ---
 # <a name="managing-memory-in-mapi"></a>Управление памятью в MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Знать, как и когда для размещения и освободить память является важной частью программирования с использованием MAPI. MAPI предоставляет функции и макросы, которые ваш поставщик клиента или службы можно использовать для управления памяти в едином виде. Три функции, как показано ниже:
   

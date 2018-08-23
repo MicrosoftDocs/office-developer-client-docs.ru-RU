@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d8cb407e-5c3a-4b4c-b20e-78efcd373081
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1b33f051426e5bdf5ab4f949fa59535081e49185
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ead835b9ace2bb775c06421a25b439ed22d93e0f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811074"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566931"
 ---
 # <a name="pidtagdepartmentname-canonical-property"></a>Каноническое свойство PidTagDepartmentName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя для отдела, в котором работает получатель. 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 451b71da-a888-4d8f-9814-12f9f846de05
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fdd66e4a27209e6b80757bcf52408eb0cea43794
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4c19e88ac1cfb29a9841ec78516410e23b3e5403
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567582"
 ---
 # <a name="handling-notifications"></a>Обработка уведомлений
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уведомления о включение одного объекта для оповещения другой объект, что оно произошло изменение. Тип изменения называется события. MAPI определяет несколько событий, для которых создаются уведомления. 
   

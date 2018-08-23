@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c75cb480b9a1a7ffdcff9c0f9b49aabba746fc3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f528332c52664ac472670566c905d36dac65bfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810749"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565531"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Каноническое свойство PidNameRightsManagementLicense
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Кэширует лицензии на использование для сообщения электронной почты с управлением правами.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |DRMLicense  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |

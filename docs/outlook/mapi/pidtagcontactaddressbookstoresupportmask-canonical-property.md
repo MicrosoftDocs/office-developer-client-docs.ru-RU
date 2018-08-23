@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5cd113c263c97ba306fcf7bf97c750e710eac922
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7219a8936381c498e7b27898f5efae8e40697b59
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810956"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565615"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmask-canonical-property"></a>Каноническое свойство PidTagContactAddressBookStoreSupportMask
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит свойство **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)), полученный из хранилища, который содержит папки «Контакты».
   

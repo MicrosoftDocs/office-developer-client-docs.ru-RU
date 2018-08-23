@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 99146f93dcf634be6766f5c6fcc0d1c610b84d4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f484174bd0a83c9bb874bec4896fe3dd925405c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809300"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568240"
 ---
 # <a name="implementing-a-provider-one-off-table"></a>Реализация одноразовой таблицы поставщиков
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI вызывает метод [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) ваш поставщик, когда пользователь клиентское приложение добавляет получателя для исходящих сообщений. Как правило типы адресов запрошено являются уникальными для обмена сообщениями в системе. Если ваш поставщик поддерживает создание получателей, оно должно поддерживать одноразовых таблица, в которой предоставляет шаблоны для каждого типа поддерживаемых адрес получателя. Если ваш поставщик не поддерживает создание получателей, возвратите MAPI_E_NO_SUPPORT из **GetOneOffTable** вызова. 
   

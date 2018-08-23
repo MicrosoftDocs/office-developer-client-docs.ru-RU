@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dc830665f425b747d2fdb05641dc037a2e84f695
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c66ff2338eb5751dbffe392a6a26258fb1c89476
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808318"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565839"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет функцию обратного вызова, которая вызывает MAPI, когда он может закрыть диалоговое окно безрежимным адресной книги. 
   
@@ -52,7 +52,7 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
     
 ## <a name="return-value"></a>������������ ��������
 
-Нет
+Отсутствует
   
 ## <a name="remarks"></a>Замечания
 

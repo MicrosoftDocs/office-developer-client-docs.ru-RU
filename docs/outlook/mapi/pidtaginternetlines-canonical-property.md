@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bfbbbb76-796a-4ee8-8410-0d17edb349b5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6ee311da43704c36a896a5b9cf8115df75ce2a4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe6c756c8ba5cefbcb2878b75db1c465c861fd24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811253"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565419"
 ---
 # <a name="pidtaginternetlines-canonical-property"></a>Каноническое свойство PidTagInternetLines
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сопоставляется с MIME-строки заголовка.
   

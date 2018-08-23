@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
 description: '���� ���������� ���������: 7 ������� 2015 �.'
-ms.openlocfilehash: 82f529f58a62f412ed8b25d1ceaf508463491612
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19808296"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564138"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>Отсоединение надстройки, позволяющей управлять автономным состоянием
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При отключении добавить в автономном режиме, необходимо реализовать функции для правильного прерывания и очистка надстройки. Дополнительные сведения о настройке и использованию автономной состояний надстройки для отслеживания изменений состояния подключения см [параметр копирование автономное состояние надстройки](setting-up-an-offline-state-add-in.md) и [Мониторинг подключения состояние изменений с помощью надстройки состояние не в сети](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   

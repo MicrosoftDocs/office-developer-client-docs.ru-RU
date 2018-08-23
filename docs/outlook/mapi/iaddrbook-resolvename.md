@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aa72085c4e50fcef1f2d3da81e5409af3d55d89b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f09c88d9bd6720720e2d30ac24fa4a19aed5538
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808753"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567232"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Выполняет разрешение имен, назначение идентификаторов запись для получателей в список получателей.
   

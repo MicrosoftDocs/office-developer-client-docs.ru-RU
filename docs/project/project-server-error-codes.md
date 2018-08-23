@@ -14,18 +14,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: В этом разделе содержатся таблицы коды ошибок для интерфейса Project Server (PSI) в Project Server 2013. Таблицы будут упорядочены по функциональной области и по диапазону кода ошибки.
-ms.openlocfilehash: 9d63ed0dde638d123098ec4ffb8de083ddbb4fc6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d4960c0452c90e267c48ee06de014b9e04b038f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813100"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564145"
 ---
 # <a name="project-server-error-codes"></a>Коды ошибок Project Server
 
 В этом разделе содержатся таблицы коды ошибок для интерфейса Project Server (PSI) в Project Server 2013. Таблицы будут упорядочены по функциональной области и по диапазону кода ошибки.
    
-Project Server 2013 процессов и методам интерфейса PSI имеют номер кода ошибки, обычно упорядоченные по функциональной области. Перечисление [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx) дублируется в [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx); они перечислены коды ошибок в алфавитном порядке по имени. В этом разделе перечислены коды ошибок в таблицах, которые расположены в классе PSI или функциональная область и номер ошибки идентификатор (ID). 
+Project Server 2013 процессов и методам интерфейса PSI имеют номер кода ошибки, обычно упорядоченные по функциональной области. Перечисление [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/en-us/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) дублируется в [WebSvcProject.PSErrorID](https://msdn.microsoft.com/en-us/library/office/websvcproject.pserrorid_di_pj14mref.aspx); они перечислены коды ошибок в алфавитном порядке по имени. В этом разделе перечислены коды ошибок в таблицах, которые расположены в классе PSI или функциональная область и номер ошибки идентификатор (ID). 
   
 > [!NOTE]
 >  Многие коды ошибок являются общими и могут иметь несколько возможных причин. Для получения дополнительных сведений об ошибках вы можете сделать следующее: 
@@ -1050,7 +1050,7 @@ Project Server 2013 процессов и методам интерфейса PS
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
-## <a name="table-22-rules"></a>В таблице 22. Правила
+## <a name="table-22-rules"></a>В таблице 22. Rules
 
 |Код ошибки правил|Описание|
 |:-----|:-----|
@@ -1609,8 +1609,6 @@ CustomFieldRequiredValueNotProvided
 
 ## <a name="see-also"></a>См. также
 
-- [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx)
-- [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx)
 - [Общие и практические статьи проекта](project-conceptual-and-how-to-articles.md)
 - [Профилировщика SQL Server](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
 - [Project Server 2010: Что следует при получении непредвиденным](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3d466bde-b70d-44b6-ba03-6ad8353ec759
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ec5a431d04799e3f19c23dd0437aeac13fbf0968
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e7c94b387a5fe9f9682854de4097f6f1bbcd786
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812105"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565601"
 ---
 # <a name="reconfiguring-a-transport-provider"></a>Изменение конфигурации поставщика транспорта
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Чтобы изменить некоторые свойства поставщика можно использовать объект состояние поставщика транспорта. Диапазон свойств, которые могут быть изменены зависит от свойства, которые включены в поставщика свойств и определение этих свойств. 
   

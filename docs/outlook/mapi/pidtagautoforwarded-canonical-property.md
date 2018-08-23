@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8303a60ee0d61a56c79fadf471bc6111fcbde7d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49e5e3f84d747210ba42870be5fc328c83bae883
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810887"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565902"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>Каноническое свойство PidTagAutoForwarded
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если клиент запрашивает поле заголовка X-MS-Exchange-организации-автоматически переадресовано.
   

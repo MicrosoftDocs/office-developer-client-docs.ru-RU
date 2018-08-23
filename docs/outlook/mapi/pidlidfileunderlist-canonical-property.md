@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a84d8143-5fe7-4a33-bce4-aebf7a824d5f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cec541db3cc46c108d2a5c41b1d5fbd4d8fac4f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 353734d28dd10da1e503e268f9e06e9bf9c86cfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810348"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567568"
 ---
 # <a name="pidlidfileunderlist-canonical-property"></a>Каноническое свойство PidLidFileUnderList
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает список допустимых значений для свойства **dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)).
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810348"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008026  <br/> |
 |Тип данных:  <br/> |PT_MV_LONG  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

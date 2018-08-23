@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f
 description: '���� ���������� ���������: 9 ����� 2015 �.'
-ms.openlocfilehash: 619bd2d5e3b40e49da835d774035ba237af06699
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a305b9c9ea2802ac63a22118b55274bcdff23617
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809801"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569010"
 ---
 # <a name="mapi-receive-folders"></a>��������� ����� MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 ����� ��������� �������� �������� ��������� ������ ������������� ���������. ��������� �����, ����� ���������� ����� � ���������, ��������� �������� ��������� ��� MAPI. MAPI ����� ��� ��������� ����� �� ���������: �������� ����� ��������� ��������� � ����� "��������" ��������� ����������� ����� � ��� ��������� (IPM). � �������� ����� � ��������� ��������� � ��� �������� �� ��������� �������� ����� ��� ���� ��������� ����� ���������� ��������������.
   

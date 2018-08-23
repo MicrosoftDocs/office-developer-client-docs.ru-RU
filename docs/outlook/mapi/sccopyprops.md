@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 979415f1d792f92e593a7073cc84cfd6ba832b6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eb3b3b3c9c2e9cffb77febf9c96baed40ce3f9e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566224"
 ---
 # <a name="sccopyprops"></a>ScCopyProps
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Копирование свойств, определенных в массив структур [SPropValue](spropvalue.md) в новое место назначения. 
   

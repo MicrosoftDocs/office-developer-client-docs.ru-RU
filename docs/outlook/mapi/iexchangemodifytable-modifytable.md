@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9e7f24fb4b444f63b6277d1844a7948f5ab0c590
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b801bdc06317738448a2205b60b94e1c9707d4f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808807"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565909"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Обновляет объект таблицы MAPI.
   

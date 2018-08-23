@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e869a583-2b8f-4782-8c23-74c20a895d8c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6e3ebca954427489313219e8c906b2d9e4c078a8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91a2fcbb9d4fb26531bd6786b49df34e86027ee3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810222"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566616"
 ---
 # <a name="pidlidclassified-canonical-property"></a>Каноническое свойство PidLidClassified
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что сообщение классифицировано.
   

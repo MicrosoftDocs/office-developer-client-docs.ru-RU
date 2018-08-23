@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: eff192b0d2b5cde51a2909452b19ffe1a47b2c04
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c7942d16cabc61eab55ab145b9c26a1799bbcc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809491"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565174"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Загружает формы для указанного сообщения.
   

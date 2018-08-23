@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 479404c5-4926-402a-aa12-75dd23276d75
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ece5340497f83862b711f076c8c6346e14ec9355
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 668e1c57c59bf2356be808e0347e1bd5135478a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812252"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563893"
 ---
 # <a name="sending-or-receiving-a-message-on-demand"></a>Отправки и получения сообщений по запросу
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиенты обычно используют подсистемы MAPI — диспетчер очереди MAPI и поставщиков услуг — обработка время передачи сообщений и прием. Тем не менее можно изменить это время с помощью объекта состояние очереди MAPI или поставщика транспорта.
   

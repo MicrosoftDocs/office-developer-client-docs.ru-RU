@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c64e9a7497a70ea34dc09a5749dd281a24f9413d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c7ce2805248bf91ce7da071c67ece28a5b8ca07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812369"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564285"
 ---
 # <a name="srealarray"></a>SRealArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений с плавающей запятой, которые используются для описания свойства типа PT_MV_R4. 
   

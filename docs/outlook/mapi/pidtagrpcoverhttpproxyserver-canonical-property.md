@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 25787ee0-0cd3-e448-a54e-a6aa03b8b718
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 40f8f2b2d1b4dc6316e1716e102217de43198833
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9711a930424deb8a9a9bc2b61f6da6e87f15ce6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811781"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567225"
 ---
 # <a name="pidtagrpcoverhttpproxyserver-canonical-property"></a>Каноническое свойство PidTagRpcOverHttpProxyServer
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит URL-адрес, используемый для подключения Microsoft Outlook для Microsoft Exchange Server без протокол HTTP или протокол гипертекст перенос протокола Secure (HTTPS), которая предшествует URL-адрес прокси-сервера.
   

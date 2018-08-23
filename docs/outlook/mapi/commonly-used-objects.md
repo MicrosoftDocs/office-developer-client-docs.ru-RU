@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
 description: '���� ���������� ���������: 25 ���� 2012 �.'
-ms.openlocfilehash: bc65aa379b6a6881dcee19d9b5cce06652f97771
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72911e58a0295c0f6c61c877882e4e1731e2d552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808166"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567729"
 ---
 # <a name="commonly-used-objects"></a>Часто используемые объекты
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сведения об объектах описана в различных разделах Справочник по интерфейсу MAPI Microsoft Outlook 2013. Поскольку практически во всех объектов MAPI предоставляет единый интерфейс MAPI, подход заключается в считать объекты и интерфейсы, указываемые ими синонимами.
   

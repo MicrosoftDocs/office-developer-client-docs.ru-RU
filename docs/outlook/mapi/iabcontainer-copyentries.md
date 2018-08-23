@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 44a31e46c43a065c720564f2aa193913dbfd9a2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36e0db77097178d2db7a11b1339d19ebb8c91f2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808704"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565328"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Копирует один или несколько операций, пользователи обычно обмена мгновенными сообщениями или списки рассылки.
   

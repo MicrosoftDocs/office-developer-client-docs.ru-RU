@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4ae7645e45efb461ac53b6718569d909cec76504
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15ff5ded3c26a4283572a0f64f4e41452c7699f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810781"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566840"
 ---
 # <a name="pidtag7bitdisplayname-canonical-property"></a>Каноническое свойство PidTag7BitDisplayName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит представление ASCII 7-битовое имя системы обмена сообщениями пользователя. 
   

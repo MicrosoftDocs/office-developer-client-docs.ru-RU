@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 71a8dc6472051e72d990a5c5d6f026ae63f1df25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d07d756abded137d3268daf7dd0998f0c953cb1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809324"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563949"
 ---
 # <a name="implementing-objects-in-c"></a>Внедрение объектов в C
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения и поставщиков услуг, написанных на языке C определяется путем создания структуры данных и массив указателей упорядоченном функций, известных как таблицы виртуальной функции или vtable объектов MAPI. Указатель vtable должен быть первый элемент структуры данных.
   

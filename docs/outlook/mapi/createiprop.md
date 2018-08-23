@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9bf68814-2564-433d-b762-3d2c83ca3c60
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 906dc4a24b994e079a977808c3f501aaaea9d84f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d6eb011e65ad44f4183eb5821697dcf2508032c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808236"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566882"
 ---
 # <a name="createiprop"></a>CreateIProp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает объект данных свойств, то есть, объект [IPropData](ipropdataimapiprop.md) . 
   

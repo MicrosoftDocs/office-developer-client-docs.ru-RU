@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e0feaac0cb4c52b2f2acff1460a4d8a41196954d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 603adf8df0c00efc592572fd9a46434f42845011
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564740"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>Каноническое свойство PidTagFreeBusyEntryIds
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит **EntryIDs** для сообщения сведения делегата, сообщения о доступности пользователя, выполнившего вход и папки, чьи **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) равен «Занятости данных».
   

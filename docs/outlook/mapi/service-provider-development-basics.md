@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 00efb70f-405e-4efb-94bc-b39c310332cf
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7113c70c5e60954a63e7efe21ad0dc91c90517d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f53c0b758db69e798b9f15c7749f12dcf3b17e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812263"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566133"
 ---
 # <a name="service-provider-development-basics"></a>Основные сведения о разработке поставщиков служб
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Этот раздел содержит общую информацию, необходимо проверить перед созданием собственных поставщиков служб MAPI.
   

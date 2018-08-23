@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fd7f79ad7a36fd174bf9817ff463b00e6a334104
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b292e65ddabcbe052832687a3dcf01658de5e379
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808116"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567477"
 ---
 # <a name="attsentfor"></a>attSentFor
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Атрибут **attSentFor** кодируются инвентаризации строк нужным начала до конца. Формат для **attSentFor** выглядит следующим образом: 
   

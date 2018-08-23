@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 489930b35d24d2691c9b9fbb59b0fa95707a0618
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b37ea2e254e05ada3214309f58147e92f46393
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808052"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566833"
 ---
 # <a name="attached-files-and-messages"></a>Вложенные файлы и сообщения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При использовании во время кодирования содержимого сообщения MIME с TNEF все вложения свойства и содержимое находятся в поток TNEF. TNEF самого — это один двоичный вложенные файл с именем Winmail.dat в кодировке, как описано для MIME без TNEF. 
   

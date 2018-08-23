@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2fd79cfe18e7d39f26563c87b8fb15553bf32ddf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27e489447b501b6e0d3bb7d668cecc3750be443e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808078"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564124"
 ---
 # <a name="attachment-tables"></a>Таблицы вложений
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вложения таблица содержит сведения обо всех объектов вложения, которые связаны с отправляемого сообщения или сообщения в процессе создания. 
   

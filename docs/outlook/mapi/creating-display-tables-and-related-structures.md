@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a8548040-13ed-4a9f-a7ca-de610f94d7df
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 177fe21537e921a4b94a34ad531847701b16c344
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e17306e2b90f26dcef0a0214e78080fe78752e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808235"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568569"
 ---
 # <a name="creating-display-tables-and-related-structures"></a>Создание таблиц отображения и связанных с ними структуры
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создание таблицы отображения аналогична написание программы с помощью сценариев. Можно создать таблицу отображения путем вызова [BuildDisplayTable](builddisplaytable.md) или написании пользовательского кода для заполнения строк и столбцов таблицы. В общем случае следует использовать метод **BuildDisplayTable** , поскольку проще. 
   

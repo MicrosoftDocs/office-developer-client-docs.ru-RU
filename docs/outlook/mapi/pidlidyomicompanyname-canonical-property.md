@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac299846-da85-4ef2-97eb-ee157273ccc3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9d3cef760163e57ebed8346ce78e09cf9f322b51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0e7baf7e4faeea3deab5dce01bea7522ce8a0d92
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567442"
 ---
 # <a name="pidlidyomicompanyname-canonical-property"></a>Каноническое свойство PidLidYomiCompanyName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает фонетическую транскрипцию названия компании.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810680"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x0000802E  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

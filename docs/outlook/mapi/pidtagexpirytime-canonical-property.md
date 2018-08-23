@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4666a5837c9f9f2ceb209088929aa3d343eb02f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21e052545c9c5e68bf1bc2f8c1ead054163f3b8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811128"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566147"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>Каноническое свойство PidTagExpiryTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время, когда система обмена сообщениями можно объявить недействительным содержимое сообщения. 
   

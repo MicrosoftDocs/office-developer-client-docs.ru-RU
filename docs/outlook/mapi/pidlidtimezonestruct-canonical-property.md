@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2acf0036-2f3e-4f90-8614-7aa667860f74
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a1a96cdb3aed03b9621097f1ef858a09391c0693
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9c55aa308072db08e6103418be01f91d0d31a82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810623"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566315"
 ---
 # <a name="pidlidtimezonestruct-canonical-property"></a>Каноническое свойство PidLidTimeZoneStruct
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит поток, который соответствует сохраненного формата структуры [TZREG](http://msdn.microsoft.com/en-us/library/bb820983%28v=office.12%29.aspx) , который описывает часовой пояс, который будет использоваться для времени начала и окончания повторяющейся встречи или приглашения на собрание. 
   

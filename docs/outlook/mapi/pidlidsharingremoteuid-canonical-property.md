@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cfe3b728-317b-4871-adea-e2fdf8441da7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cb8b4a7c71f3ad81949f3eac6cab230f40c6d487
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd42711fc5647f16b33677a330e71d141f1962d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810547"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566868"
 ---
 # <a name="pidlidsharingremoteuid-canonical-property"></a>Каноническое свойство PidLidSharingRemoteUid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает идентификатор записи удаленной общей папке. Это свойство общего доступа сообщения.
   

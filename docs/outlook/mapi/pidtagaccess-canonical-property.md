@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8c8a882e-62c1-4c57-8c63-ee5849f656b0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bb00d4e0e1437f9b3c13ac5e7d0a9dc4f3610d32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc4a784b3a3f3792622fca2d04f5bb4504a98b54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810793"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565370"
 ---
 # <a name="pidtagaccess-canonical-property"></a>Каноническое свойство PidTagAccess
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов, указывающее, операции, которые доступны для клиента для объекта.
   
@@ -41,7 +41,7 @@ ms.locfileid: "19810793"
 |**Имя**|**Значение**|**Описание**|
 |:-----|:-----|:-----|
 |MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Запись  <br/> |
-|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Чтение  <br/> |
+|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Read  <br/> |
 |MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Delete  <br/> |
 |MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Создание вложенных папок в иерархии папок  <br/> |
 |MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Создание сообщения  <br/> |

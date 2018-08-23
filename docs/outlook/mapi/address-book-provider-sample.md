@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c32017598407760d5dbbb01ee6c28267bbffd152
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebbed00fb920994f40b7ae139c7eddd658984b95
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808016"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566861"
 ---
 # <a name="address-book-provider-sample"></a>Пример поставщика адресной книги
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом примере поддерживает один контейнер только для чтения отображаемые имена и адреса электронной почты, которые читают плоской двоичных файлов. В примере поддерживается одноразовых шаблоны и все параметры конфигурации, кроме мастер профилей.
   

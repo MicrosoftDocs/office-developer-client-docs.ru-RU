@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c1a78889ea98133af46089fdc93b0c1c4bb24226
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f95c86a137e7253f3445123c23f2dc0d76b6d87a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809923"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567393"
 ---
 # <a name="mapiuninitialize"></a>MAPIUninitialize
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Уменьшает счетчик ссылок, очищает и удаления каждого экземпляра глобальных данных для библиотеки DLL MAPI. 
   
@@ -39,7 +39,7 @@ void MAPIUninitialize ( void );
 
 ## <a name="parameters"></a>Параметры
 
-Нет 
+None 
   
 ## <a name="return-value"></a>Возвращаемое значение
 

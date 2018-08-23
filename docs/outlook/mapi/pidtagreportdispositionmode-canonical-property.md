@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 67b3c76a-f6f7-462b-955c-dc7b53e7e7eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bc2d577ad6c6b430c2339dfb0567ca56de0a7f8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b16cf3b8d0281ba8995058af6b18dbe22dcf592
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566119"
 ---
 # <a name="pidtagreportdispositionmode-canonical-property"></a>Каноническое свойство PidTagReportDispositionMode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает ликвидации уведомления для сообщений, которые запрашивать уведомления. 
   

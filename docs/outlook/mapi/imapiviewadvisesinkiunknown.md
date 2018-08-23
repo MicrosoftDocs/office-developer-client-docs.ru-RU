@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f16585a96164835784bfa1af3752bd652daf76e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 157703fc9702bb954b4a5c570fc3d5c045e181cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809237"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567190"
 ---
 # <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает уведомления от форм. 
   

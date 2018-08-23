@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 926fef0e1b2f905d510102e69afb667414e6cce3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea72a6fd2a22fe87ad63bb9c8fa6c1416d876b66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564250"
 ---
 # <a name="iablogonadvise"></a>IABLogon::Advise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Регистрирует вызывающего абонента для получения уведомлений о указанного события, которые влияют на container, системы обмена сообщениями пользователя или список рассылки.
   

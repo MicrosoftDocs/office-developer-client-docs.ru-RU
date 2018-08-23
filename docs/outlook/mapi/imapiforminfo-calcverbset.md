@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 362afb1efeddeae72cc19256c377cb2c0f7ecba0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db3cc987b20a76116f2591485f57afae017d3e15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808917"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567715"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на полный набор команд, которые использует формы.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7eca0e1f-a855-4ef7-b892-0bddee59de5e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f915a17b8271f7ec4173f507504bf165a6084085
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0712407a7882c449c065cb6816694b4a1611036f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808565"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568471"
 ---
 # <a name="handling-a-message-store"></a>Обработка хранилища сообщений
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Обработка хранилища сообщений является важной частью любой клиент набор задач. Эти задачи включают открытие, копирование, перемещение, добавление и удаление папок и сообщений, отображение различных таблиц, установка свойств и управление уровнями доступа.
 

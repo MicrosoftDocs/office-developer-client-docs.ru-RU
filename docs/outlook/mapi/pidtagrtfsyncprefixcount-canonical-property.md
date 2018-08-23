@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c2b15ac5-9e89-4ee2-812d-102d0b2ac56e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c9a62365b46e85cc8f5d22fd31de3b5c6bd3f76a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32344d81d929b0f78a5f883cd9860d838ba25bb8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568443"
 ---
 # <a name="pidtagrtfsyncprefixcount-canonical-property"></a>Каноническое свойство PidTagRtfSyncPrefixCount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит число допускающие игнорирование символы, отображаемые перед значительные символов сообщения.
   
