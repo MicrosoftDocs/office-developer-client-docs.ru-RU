@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 598ced18d659fcbe52ded07cc3bb80dc396eddbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 504ae8dddbddb1c7049574b1bdcc575a10a62c8f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810068"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570095"
 ---
 # <a name="one-off-addresses"></a>Одноразовых адреса
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Одноразовых адреса, используемые для отправки сообщений одноразовых получателям, получателям, не связанные с соответствующей записи в любом из сеанса адресной книги контейнеров. Клиенты могут создавать одноразовых адреса, при добавлении новых записей адресной книги или нового получателей в список получателей исходящих сообщений. Одноразовых адреса можно добавить в любой контейнер, в котором можно изменить.
   

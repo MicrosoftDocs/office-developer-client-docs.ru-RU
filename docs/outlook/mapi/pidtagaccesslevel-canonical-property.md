@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 71c0bbec13c869c1401c60834f30ca61360c8b38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddb667715903656291a21ebb835690768146ee9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810788"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575227"
 ---
 # <a name="pidtagaccesslevel-canonical-property"></a>Каноническое свойство PidTagAccessLevel
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает уровень доступа клиентов к объекту.
   

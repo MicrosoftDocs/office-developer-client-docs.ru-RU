@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7f8ca7cf-ac0b-9b77-c1dd-9f1d0871d603
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a5c754a209a3e1bce8888851b88e116f92920eb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d05592d1fdcdcd53c8b7879f9cdcd432df1a3f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809465"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579468"
 ---
 # <a name="iostxsynchdrbeg"></a>IOSTX::SyncHdrBeg
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Запускает синхронизацию для заголовка сообщения.
   

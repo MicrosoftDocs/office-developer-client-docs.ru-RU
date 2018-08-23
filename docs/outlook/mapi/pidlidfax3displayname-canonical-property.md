@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 020242dc-2bde-459e-a144-111b6cefb1c0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 811f5e097d0aa07115bfa153b47999cb087f50a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32837c0810607f5366699589f759c91810e1e85b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810322"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580021"
 ---
 # <a name="pidlidfax3displayname-canonical-property"></a>Каноническое свойство PidLidFax3DisplayName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает отображаемое имя контакта в другой адрес факса.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810322"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080D0  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

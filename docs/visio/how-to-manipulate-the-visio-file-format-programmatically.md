@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: ''
-ms.openlocfilehash: 92ef2c084409dbe017951ff7dfdbf93839ff4b51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba3c03069235b1054dabd122471be996ec515772
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813923"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567848"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Программное управление форматами файлов Visio
 
@@ -220,7 +220,7 @@ ms.locfileid: "19813923"
 ## <a name="select-and-read-package-parts-from-a-package"></a>Выберите и чтение части пакета из пакета
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-После получения файла Visio 2013 откройте как пакет можно получить доступ к части документа в ней с помощью класса [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) , включенные в пространстве имен **System.IO.Packaging** . Объекты **PackagePart** могут быть созданы по отдельности или в виде коллекции. Класс **пакета** предоставляет метод [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) и метод [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) для получения объектов **PackagePart** из **пакета**. Метод **Package.GetParts** возвращает экземпляр класса [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) , который вы может взаимодействовать с как семейства сайтов, который реализует [IEnumerator\<T\> ](https://msdn.microsoft.com/library/System.Collections.Generic.IEnumerator`1.aspx) интерфейса. 
+После получения файла Visio 2013 откройте как пакет можно получить доступ к части документа в ней с помощью класса [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) , включенные в пространстве имен **System.IO.Packaging** . Объекты **PackagePart** могут быть созданы по отдельности или в виде коллекции. Класс **пакета** предоставляет метод [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) и метод [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) для получения объектов **PackagePart** из **пакета**. Метод **Package.GetParts** возвращает экземпляр класса [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) , который вы может взаимодействовать с как семейства сайтов, который реализует [IEnumerator\<T\> ](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2) интерфейса. 
   
 Использовать код в следующей процедуре для получения объекта **PackagePartCollection** из **пакета** как семейство, выполните итерацию по **PackagePart** объектов в коллекции и записи URI и типа контента для каждого **PackagePart **на консоль. 
   

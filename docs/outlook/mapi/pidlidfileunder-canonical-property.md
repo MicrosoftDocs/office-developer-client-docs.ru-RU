@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 55afc4bb-c5fc-4162-a293-7d82644b1965
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aa0a7f958ed1a5ed4140e87e25bd540123616568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58037aa74cbccb67ebd480650fd0ae967a12cbf3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810349"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575695"
 ---
 # <a name="pidlidfileunder-canonical-property"></a>Каноническое свойство PidLidFileUnder
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает имя, под которым контакт хранения при отображении списка контактов.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810349"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008005  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

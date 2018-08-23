@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 26195406-dcef-4504-bb74-d0705d952897
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 39abd90027d7a3d767da186b0dab0ba7f278e4f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21bbcc32cd71899a2546b17f8023ef49744ba5e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810760"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570807"
 ---
 # <a name="pidtagabproviders-canonical-property"></a>Каноническое свойство PidTagAbProviders
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список идентификаторов для текущего профиля поставщиками адресной книги. 
   

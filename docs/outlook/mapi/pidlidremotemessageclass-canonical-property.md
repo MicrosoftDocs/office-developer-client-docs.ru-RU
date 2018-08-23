@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bdc3d9a1-c29c-4fbe-893e-0bc7aaa25edc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8be520734ce839d4efd2e643dec1dab96ff893c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6751b89572f21674f723e7b0d8ab369b804be74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569122"
 ---
 # <a name="pidlidremotemessageclass-canonical-property"></a>Каноническое свойство PidLidRemoteMessageClass
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает класс сообщения удаленного элемента.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19810518"
 |Связанные свойства:  <br/> |dispidRemoteMsgClass  <br/> |
 |Набор свойств:  <br/> |PSETID_Remote  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008F02  <br/> |
-|Тип данных:  <br/> |Нет  <br/> |
+|Тип данных:  <br/> |Отсутствует  <br/> |
 |Область:  <br/> |Удаленные сообщения  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы

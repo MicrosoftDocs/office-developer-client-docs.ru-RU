@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 172eaf47d305cf6e4d1ba54ceb4ac4b4feab80e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41815a88fe1215d2a85a38592e04b0d0bbd43cc6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573049"
 ---
 # <a name="upload-read-status-state"></a>Состояние отправки статуса чтения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описывается, что происходит во время загрузки, прочитайте состояния состояние конечного автомата репликации. 
   
@@ -49,5 +49,5 @@ ms.locfileid: "19812560"
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[SYNCSTATE](syncstate.md)
+[СОСТОЯНИЕ](syncstate.md)
 

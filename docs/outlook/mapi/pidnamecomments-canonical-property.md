@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: bc9b00b6-6337-411b-9219-067dd6c1add3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 158aae90d9e3f90ff6a53026ac299059d6b2a9c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 677457e3e774cfca09fd65ec44ef599e58ea81d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810694"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568380"
 ---
 # <a name="pidnamecomments-canonical-property"></a>Каноническое свойство PidNameComments
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит комментарии файл, подключенный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |Комментарии  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

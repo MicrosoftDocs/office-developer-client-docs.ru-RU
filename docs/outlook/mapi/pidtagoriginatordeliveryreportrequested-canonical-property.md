@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4461b35d-e2b9-41ff-b079-31bfef02e2bb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 07cea7606654bf32c1fe70e49254afeeb04f0e98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e508f9c3d84272a0641a27e18c94e0620a7072c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811503"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574407"
 ---
 # <a name="pidtagoriginatordeliveryreportrequested-canonical-property"></a>Каноническое свойство PidTagOriginatorDeliveryReportRequested
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если отправитель сообщения запрашивает отчетов о доставке для определенного получателя из систем обмена сообщениями перед сообщение помещается в хранилище сообщений.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3c911694-b953-4d35-9a3a-22c17cfd79bc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8c8c89f3626d54f04896ad54de5d7e480dd9b568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2f8235caceec8b27b2b14fac26d51e9e31ce1024
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579776"
 ---
 # <a name="implementing-thread-safe-objects"></a>Реализация потокобезопасных объектов
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 С объектами, возвращенные вызовы методов интерфейса напрямую отвечает поставщика для обеспечения безопасности потока. С помощью объектов обратного вызова отвечает клиентское приложение.
   

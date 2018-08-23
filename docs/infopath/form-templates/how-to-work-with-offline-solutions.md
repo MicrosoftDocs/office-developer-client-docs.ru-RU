@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: Объектная модель InfoPath предоставляет свойство MachineOnlineState класса приложения, которая позволяет код формы для проверки подключения компьютера пользователя к сети. Проверки значения свойства "MachineOnlineState", код формы позволяет выполнять разные действия в зависимости от состояния подключения.
-ms.openlocfilehash: fcdaae31dd6a0c76cf1c453f267be430a2b34bba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab149b488d2b2df1e91ba2cb435960c6749ecefb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807501"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574561"
 ---
 # <a name="work-with-offline-solutions"></a>Работа с автономными решениями
 
@@ -160,5 +160,5 @@ ms.locfileid: "19807501"
     
 ## <a name="see-also"></a>См. также
 
-- [Разработка шаблона формы для автономного использования](http://office.microsoft.com/en-us/infopath/HA102117391033.aspx?pid=CH100341121033)
+- [Разработка шаблона формы для автономного использования](https://support.office.com/en-us/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
 

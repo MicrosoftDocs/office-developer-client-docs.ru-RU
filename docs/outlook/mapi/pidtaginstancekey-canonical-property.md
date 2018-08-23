@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 14fc5571-acc0-4d75-8598-964aee5ba01c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bc16e88035f091a4f42a03342a70e7e3a1da5e0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53772fca5e8137dfd602d4c7d6f5e6ad40f9c50f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811238"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573434"
 ---
 # <a name="pidtaginstancekey-canonical-property"></a>Каноническое свойство PidTagInstanceKey
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение, уникальным образом определяет строку в таблице. 
   

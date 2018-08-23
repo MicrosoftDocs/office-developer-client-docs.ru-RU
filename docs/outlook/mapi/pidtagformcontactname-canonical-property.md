@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f94a0f9c7e4ec4a5c567a96e5ddb0dda25a318c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa57c042291b5ab71eb48c3f9f9b67fc1686b0a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811144"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570466"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>Каноническое свойство PidTagFormContactName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя контакта для получения сведений о форме. 
   

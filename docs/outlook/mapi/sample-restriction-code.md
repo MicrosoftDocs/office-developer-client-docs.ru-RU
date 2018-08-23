@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 4f41abe2ee41946f68e1d79c75b36791364ea970
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812163"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570263"
 ---
 # <a name="sample-restriction-code"></a>Пример кода ограничений
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В следующем примере кода показано создание ограничений, которая фильтрует все сообщения, не содержащих слово «воллейбол» в строке темы и не были отправлены Сью от Sam. Дерево структур [SRestriction](srestriction.md) является обязательным, с которого ограничений **и** реализовать в структуру [SAndRestriction](sandrestriction.md) верхний узел. Три ограничения, которые соединяются с операцию **и** являются вложенные объекты ограничение, которое выполняет поиск сообщений, отправленных в Сью, контента ограничение, которое выполняет поиск сообщений от Sam, а другой **и** ограничение, которое выполняет поиск сообщений у которых темы, содержащий «воллейбол». Так как **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) не обязательное свойство, ограничение **Exist** должен быть включен. 
   

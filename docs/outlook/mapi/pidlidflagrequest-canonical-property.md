@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: df2e474206559dadf250bdf9a078c69da61187c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a2bcfbbc06427e5bf7e06f1c4060a29689fce3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810351"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575394"
 ---
 # <a name="pidlidflagrequest-canonical-property"></a>Каноническое свойство PidLidFlagRequest
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет состояние приглашения на собрание.
   

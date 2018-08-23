@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f3769e83-d678-1087-fc0f-b4f156386333
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 3cf8ad3966c44add3fd85b9f1adf677039bfce15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d6b1dfcd3866b0d0e7151e9d5399e1274810d14
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808996"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568205"
 ---
 # <a name="imapiofflinegetcurrentstate"></a>IMAPIOffline::GetCurrentState
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает текущее состояние сетевым и автономным автономного объекта.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 56aaf5caf93f90f54d152ab3684ca592cd45cd1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 548ec33e39e181aba8a72b5325f3f426b9d51762
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809540"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575870"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получение списка регистраций для файл личных папок (PST).
   

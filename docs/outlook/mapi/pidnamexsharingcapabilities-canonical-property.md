@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 62319e45-b627-4e5a-b76d-2517bf515956
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f01b76d883bdd66074382bdbaeb30c04345fc8ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ad2e825f6d703147a4d043b2a09496dea9ffb7f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810752"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573707"
 ---
 # <a name="pidnamexsharingcapabilities-canonical-property"></a>Каноническое свойство PidNameXSharingCapabilities
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение, указывающее, совместного доступа элемента.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |Совместное использование возможностей X  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

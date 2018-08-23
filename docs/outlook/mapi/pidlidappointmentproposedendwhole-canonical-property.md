@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6749e7b1-7a66-4aca-92b0-9a23a87fc121
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6db8c5d8be3bc7120c91da17135b0d871ec2b026
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c9ef670e5c066c29dc8495c3d0b08ed67284895
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810126"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577627"
 ---
 # <a name="pidlidappointmentproposedendwhole-canonical-property"></a>Каноническое свойство PidLidAppointmentProposedEndWhole
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает предлагаемое значение для свойства **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) для предложение.
   

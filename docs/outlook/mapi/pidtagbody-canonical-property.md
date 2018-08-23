@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 47c0d0fe-4d57-4b81-bdb5-336de85c194c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 23d943d5576f5e9d7694b03c90dea79a878dee64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cbcfdf44044e3cf9e42b0f0503928c9f8720ec1f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810888"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574421"
 ---
 # <a name="pidtagbody-canonical-property"></a>Каноническое свойство PidTagBody
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит текст сообщения.
   

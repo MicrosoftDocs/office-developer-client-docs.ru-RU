@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b8c8484-0cb4-4842-8b11-de42d97e0140
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8777b2119e6beefc4d69dc0babfc8672df3a468b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b26266e58a201b13aa178534039c9e07c900de0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810107"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569500"
 ---
 # <a name="pidlidappointmentmessageclass-canonical-property"></a>Каноническое свойство PidLidAppointmentMessageClass
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает свойство **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) собрания, который будет создан из приглашения на собрание.
   

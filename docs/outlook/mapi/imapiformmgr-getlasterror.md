@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5d908771-ec16-444d-a9b6-44cc75a4d715
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 9dcf0154f0f89a7d5446b832799a78752435ff01
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15208ac0bf07b0f0e67284af98b543676c1b3dd6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808934"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579349"
 ---
 # <a name="imapiformmgrgetlasterror"></a>IMAPIFormMgr::GetLastError
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о предыдущем ошибок, вызываемых объектом диспетчер форм. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7f241fde8aedeae9debc66f728ee21c1c6bed6fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809794"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579860"
 ---
 # <a name="mapi-profiles"></a>Профили MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В профиле хранятся сведения о поставщиках службы и службы сообщений, установленные на компьютере. Для каждого сеанса клиента во время входа выбирает один профиль, который описывает поставщики и служб, которые будут использоваться. Клиент можно выбрать из коллекции профилей и, при желании установить одно по умолчанию. Профиль по умолчанию является профиль, который выбран, автоматически при запуске сеанса и имеет без явного указания профиля клиента.
   

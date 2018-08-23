@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c630ecaf-b19c-4991-9779-e13cc492c755
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 595d5fdba28634b038838921102d3125135452a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75771670f58f4cd65e15a02d08e6f78ab9d71755
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809128"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570739"
 ---
 # <a name="imapisupportmakeinvalid"></a>IMAPISupport::MakeInvalid
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Помечает объект недоступным.
   

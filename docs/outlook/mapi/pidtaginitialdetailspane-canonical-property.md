@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 884bbad509e459d4f329e6468dd99124cec6c7d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ea7d0a17fdb6dba047cb97290d991ce384d4750
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811221"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573938"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>Каноническое свойство PidTagInitialDetailsPane
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает страницу шаблона для отображения для отображения первоначального.
   

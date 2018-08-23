@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 327516e8-ed3f-40fc-9604-03a70aecef5a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a2adbee409649f0268d96502a7dd3f658433052a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7653d7a56302deaad75443746ff7e83834af260f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810346"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571362"
 ---
 # <a name="pidlidfexceptionalbody-canonical-property"></a>Каноническое свойство PidLidFExceptionalBody
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что исключение внедренное сообщение, что для объекта body, которые отличаются от повторяющихся объект календаря.
   

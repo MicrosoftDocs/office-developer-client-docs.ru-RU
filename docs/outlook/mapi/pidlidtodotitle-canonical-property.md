@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 66208b2d31ca379389f3249abf281dd4d040e276
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9973e68dbceea03f31bfc47ede34f004fa3f39b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810633"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570417"
 ---
 # <a name="pidlidtodotitle-canonical-property"></a>Каноническое свойство PidLidToDoTitle
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит текст, при этом задаваемый пользователем для идентификации этот объект сообщения в списке дел консолидированной среды.
   

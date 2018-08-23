@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 888c60e3-7376-4d66-8ee2-ce81abafb185
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0e4e5d5910a7ff3551057760f065e79155d65e49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39b4474bcc6bd71993fb5dc42bb2bfc1bf9f5f48
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809579"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573406"
 ---
 # <a name="isbadboundedstringptr"></a>IsBadBoundedStringPtr
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Проверяет, что вызывающий процесс имеет доступ на чтение для указанного диапазона памяти.
   

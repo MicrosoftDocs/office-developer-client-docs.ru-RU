@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 23c08597-41f0-4f48-a63e-79962fa812bc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aaa1adaa170349c3df3a2256802a502cb2512b20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9a1c416cbf992c9cbcfb5de42d302ff16e7f521
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810024"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573189"
 ---
 # <a name="msgcallrelease"></a>MSGCALLRELEASE
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет функцию обратного вызова, можно освободить интерфейс **IStorage** после окончательной версии объекта **IMessage** , построенных на основе его с помощью функции [OpenIMsgOnIStg](openimsgonistg.md) . 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ce4cb8b-b1f7-420a-b0b2-322c70e4b0f3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 685ca78367ac4e0a8334a3d14c2fda9d57161e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1cc8471f9a3125ce89d5baefac6058e368e601d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811532"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570410"
 ---
 # <a name="pidtagpersonalhomepage-canonical-property"></a>Каноническое свойство PidTagPersonalHomePage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит URL-адрес домашней страницы личного пользователя.
   

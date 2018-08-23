@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: db5ce6576da6f925093ae413c5c5124b2a1a996f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577718"
 ---
 # <a name="link-to-mapi-functions"></a>Ссылка на функции MAPI
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Существует три метода компоновки: неявное связывание, явного связывания и новая модель гибридного использования библиотеки заглушка MAPI.
   

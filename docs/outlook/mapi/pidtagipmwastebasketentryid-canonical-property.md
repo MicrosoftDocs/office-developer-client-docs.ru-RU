@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b9b8cff0a552c5c12108bdc4b31fe9c3930ab5d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66bbf49d737c42ecc2f6c765a60540163649f447
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811307"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573896"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Каноническое свойство PidTagIpmWastebasketEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи из папки "Удаленные" standard электронной почты — это сообщение (IPM). 
   

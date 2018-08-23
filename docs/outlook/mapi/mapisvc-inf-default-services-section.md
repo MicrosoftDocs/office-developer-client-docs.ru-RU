@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: dec42f8d-0f5c-4665-b53a-11cbc58b8b76
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5d860135d846df8ef1ea0784d7430c71ad0fe64e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7270bce12f6d91dbb5632f739f4644df866924d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809903"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573147"
 ---
 # <a name="mapisvcinf-default-services-section"></a>MapiSvc.inf: раздел [Службы по умолчанию]
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В разделе **[Службы по умолчанию]** перечислены все службы сообщений, выбранные как службы сообщений по умолчанию. Эти службы сообщений по умолчанию являются подмножеством службы сообщений, перечисленных в разделе **[Services]** . Если программа настройки профиля создает профиль по умолчанию, службы сообщений в этом разделе устанавливаются автоматически. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bd3e4568-9730-4648-ba31-28813b5bb471
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 973f2c41f4d959f6af469212728a6ff1b9451151
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 279ffc19efd36af311b05b05a3175088877e3288
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810902"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575107"
 ---
 # <a name="pidtagbusinesshomepage-canonical-property"></a>Каноническое свойство PidTagBusinessHomePage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит URL-адрес домашней страницы для бизнеса.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19810902"
 |Связанные свойства:  <br/> |PR_BUSINESS_HOME_PAGE, PR_BUSINESS_HOME_PAGE_A, PR_BUSINESS_HOME_PAGE_W  <br/> |
 |Идентификатор:  <br/> |0x3A51  <br/> |
 |Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

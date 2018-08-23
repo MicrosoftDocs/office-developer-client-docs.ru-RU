@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 29fdbf060576ee9309473fddf8740b06229dae9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809588"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579888"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вставляет строку в таблице. 
   

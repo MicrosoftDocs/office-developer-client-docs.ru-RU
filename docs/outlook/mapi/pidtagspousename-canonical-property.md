@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 43263f91-ccab-481a-8491-5189cfa1217d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c1b4aabe4f066e8fbb65cbcc5db64a050001e649
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6f41a353172f3991b6ac4a73afc062bd0741d0da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811944"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566175"
 ---
 # <a name="pidtagspousename-canonical-property"></a>Каноническое свойство PidTagSpouseName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя супруга пользователя.
   

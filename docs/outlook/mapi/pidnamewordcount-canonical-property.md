@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 84d63bb7-e688-47e4-935f-1c851708eea1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8bd52048090a981e159708a52e25d84328038137
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb1116d54893c102b34b4375bada39381d25eb14
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810771"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569878"
 ---
 # <a name="pidnamewordcount-canonical-property"></a>Каноническое свойство PidNameWordCount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает количество файл, подключенный к документу word.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |WordCount  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |

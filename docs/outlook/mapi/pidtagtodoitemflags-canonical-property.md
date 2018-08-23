@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cae4ef6e4d7634ca2b429eb946aa948f5d90cd92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79f6c90d1ebd2257cc428e88dfce3d9ee9dfeccf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812049"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573469"
 ---
 # <a name="pidtagtodoitemflags-canonical-property"></a>Каноническое свойство PidTagToDoItemFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет условие отмеченного элемента списка дел.
   
@@ -41,7 +41,7 @@ ms.locfileid: "19812049"
 ||||
 |:-----|:-----|:-----|
 |Числовое значение  <br/> |Имя  <br/> |Описание  <br/> |
-|Этот параметр не указан  <br/> |Нет  <br/> |Без отметки  <br/> |
+|Этот параметр не указан  <br/> |Н/Д  <br/> |Без отметки  <br/> |
 |1  <br/> |todoTimeFlagged  <br/> |Объект является отметкой времени  <br/> |
 |8  <br/> |todoRecipientFlagged  <br/> |Должны быть установлены только на объект черновика сообщения, а это означает, что объект имеет флаг для получателей.  <br/> |
    

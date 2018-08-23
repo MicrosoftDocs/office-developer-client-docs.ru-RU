@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d0d003b0-f12f-4422-b71f-26886169461f
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: bdda950cd1fab66db46590e0b9141bb3d2a75221
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 73a4c07c69fb10044cba6e9368cd4bc86c11ad54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809378"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575072"
 ---
 # <a name="imsgstorenotifynewmail"></a>IMsgStore::NotifyNewMail
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 ����������� ��������� ���������, ����� ���������. ���� ����� ���������� ������ ����������� ������� MAPI.
   

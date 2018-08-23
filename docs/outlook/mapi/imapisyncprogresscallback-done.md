@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aaa8eb56-f22f-4c5a-a224-807ff001e0ca
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e0a34e1cc0b1da1b5e2127d0697cce472c8530c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cdd3db3f3779c2078b90352e19f8da6b29cffb8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809185"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573210"
 ---
 # <a name="imapisyncprogresscallbackdone"></a>IMAPISyncProgressCallback::Done
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  Информирует Microsoft Outlook, что синхронизация завершена. 
   

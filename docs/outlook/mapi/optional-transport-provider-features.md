@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0bec2c17-b41c-4e46-8961-a55bde1f7326
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fd685e5bc67a3cb0785d9102e94c11ea921f07ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b55e6518ee1f3f59ef0459b3aeb68461f00a7ab3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810070"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566826"
 ---
 # <a name="optional-transport-provider-features"></a>Необязательные функции поставщика транспорта
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Следующие дополнительные возможности, которые можно реализовать поставщиками транспорта:
   

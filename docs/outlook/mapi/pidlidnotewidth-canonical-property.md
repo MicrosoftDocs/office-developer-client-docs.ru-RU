@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 20788f40-a7a4-44f7-8e43-efd3a34e6b10
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 34a0989b226d5d214f7c7b0a4c95df5ba9b5d865
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd5eb15a635f87741ad4ef6c837bbe540c2b7242
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810441"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574022"
 ---
 # <a name="pidlidnotewidth-canonical-property"></a>Каноническое свойство PidLidNoteWidth
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает ширину окна отображается сообщение в пикселях. 
   

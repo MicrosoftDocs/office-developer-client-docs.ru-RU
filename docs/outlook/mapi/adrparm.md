@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ad26cb9b77404d6470f7a8d787eb85edc5cce402
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 560cae5e8a3d73d80a4907fd0fec43b389ef9fc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19808044"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572027"
 ---
 # <a name="adrparm"></a>ADRPARM
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описание отображения и поведения стандартным диалоговым окном адрес. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c9d4b561-53b3-492b-9324-9376dd7abddf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9e581f040b3d7d9e204dd41431b1eba650b971a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1313ac62bd2ee6c1db27bd1c583f56dadc1bff1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810871"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574302"
 ---
 # <a name="pidtagattachpayloadproviderguidstring-canonical-property"></a>Каноническое свойство PidTagAttachPayloadProviderGuidString
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение поля заголовка X MIME-полезной нагрузки-поставщика-Guid.
   

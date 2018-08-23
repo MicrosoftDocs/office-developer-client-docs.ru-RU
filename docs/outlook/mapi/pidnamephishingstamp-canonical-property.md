@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ca92237d9d5b612fd4964831628a75dfe37aaf4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1eac8831b144053ff364208404dbac3925b51c4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810729"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572937"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Каноническое свойство PidNamePhishingStamp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение сообщение, указывающее и метки сообщений, которые будут считаться фишинга.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |

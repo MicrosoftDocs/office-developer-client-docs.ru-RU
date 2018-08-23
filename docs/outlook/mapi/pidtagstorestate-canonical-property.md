@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 36e49cf5-1411-42c5-9112-09958243996d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a50a38825434ef1e76f0ea5ff2e4d6d5d847a975
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7348d0395952036ee6b356b013072324b64e4b98
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812008"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570823"
 ---
 # <a name="pidtagstorestate-canonical-property"></a>Каноническое свойство PidTagStoreState
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаг, который описывает состояние хранилища сообщений. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 651ef6a7c1af70c75a85e13414c4fd7632d30290
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2aa08ea14df87f24cda3da0137ae4bfa2c50b40
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808923"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576017"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поддерживает использование настраиваемых форм во время выполнения в распределенных средах сетей. 
   

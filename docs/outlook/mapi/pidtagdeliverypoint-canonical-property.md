@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 803481a71d505fc9f12e77b162a91200cac505d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d8157c761cd21d5c8fcdf04948646d8102e774a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811064"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580140"
 ---
 # <a name="pidtagdeliverypoint-canonical-property"></a>Каноническое свойство PidTagDeliveryPoint
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет характер функциональным сущности, с помощью которого был или будет доставлено получателю сообщения. 
   

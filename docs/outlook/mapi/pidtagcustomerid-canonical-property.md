@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 85d1c44d-caab-48dc-a6a0-ad201cc365f7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fab644eee8b535efe3b83bfbcaaa4f7ec5cb2aa7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1abbcabcc360eee5eb3f3db3a37bdf9aa3339080
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811018"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568478"
 ---
 # <a name="pidtagcustomerid-canonical-property"></a>Каноническое свойство PidTagCustomerId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер идентификатора клиента контакта.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811018"
 |Связанные свойства:  <br/> |PR_CUSTOMER_ID, PR_CUSTOMER_ID_A, PR_CUSTOMER_ID_W  <br/> |
 |Идентификатор:  <br/> |0x3A4A  <br/> |
 |Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

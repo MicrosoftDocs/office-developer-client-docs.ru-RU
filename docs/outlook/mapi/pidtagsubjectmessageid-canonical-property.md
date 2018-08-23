@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4b1a087-0986-467a-aaa9-fc643f7c56fc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6b0c097616dbdc24b6e39b05aa0daaabf394e7cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c89a0a86ac733cd2cce1efc071e47fcb011fec18
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812009"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573070"
 ---
 # <a name="pidtagsubjectmessageid-canonical-property"></a>Каноническое свойство PidTagSubjectMessageId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит двоичные значения, которые копируются из сообщения, для которого создается отчет. 
   

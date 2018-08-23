@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5894b98c-7d42-416d-b1b7-fb9a18abaaa3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f8d72efa0d6f913ce4263549a5decb3b7d919347
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2da3166e90c5988fdffa6ff736b1fb511794e798
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810235"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568541"
 ---
 # <a name="pidlidcurrentversion-canonical-property"></a>Каноническое свойство PidLidCurrentVersion
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение типа long, представляющее номер построения приложение Outlook для элемента.
   

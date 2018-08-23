@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e618213a-fad1-4559-a1df-5cdf4ea1637b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 75c12e4df591170337ffa8b44e5520996c935f9f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21c8e3822da124a2aa4d2f7ff33055307e711734
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810252"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570557"
 ---
 # <a name="pidlidemail1originalentryid-canonical-property"></a>Каноническое свойство PidLidEmail1OriginalEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает **идентификатор записи** для объекта, который соответствует на первый адрес электронной почты. 
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810252"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008085  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c178a4e4-6f4c-409c-9db3-f6338bd4f40f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8ea60fb989cd85b23e6dd9302bc03a9b5befd20f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7521d387fa45c191a67f2a20320fac700baed37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811830"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567218"
 ---
 # <a name="pidtagscheduleinfodelegateentryids-canonical-property"></a>Каноническое свойство PidTagScheduleInfoDelegateEntryIds
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит **EntryIDs** делегатов. 
   

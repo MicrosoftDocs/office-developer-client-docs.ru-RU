@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4530dbcf-9436-4f29-b79e-1bb0f791f60b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aa8a683c0033682aa46944c5cc78503dc1a7d729
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3f108ff1053c0aa1046597cd2f11b74bc2dab0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811256"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574176"
 ---
 # <a name="pidtaginternetreturnpath-canonical-property"></a>Каноническое свойство PidTagInternetReturnPath
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение поля заголовка сообщения Multipurpose Internet Mail Extensions (MIME) возврата пути. Адрес электронной почты отправителя сообщения.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ccfb503f62ef039700f79cd8852883685f329dfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d016c83678d9c1c94ee4ad4b8e12723c03f7bda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570438"
 ---
 # <a name="fpropexists"></a>FPropExists
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Выполняет поиск тега заданного свойства в интерфейс [IMAPIProp](imapipropiunknown.md) или интерфейса на основе **IMAPIProp**, такие как [IMessage](imessageimapiprop.md) или [IMAPIFolder](imapifolderimapicontainer.md). 
   

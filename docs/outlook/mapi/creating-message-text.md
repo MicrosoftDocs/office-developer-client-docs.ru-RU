@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 70d1fb24-91a9-4043-8c9d-be1523012e6b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 38be3bc2df8931ca45da12e43436377545e8a977
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd840c7bef0607db37c6477bd8f4a7320a8188c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808265"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574757"
 ---
 # <a name="creating-message-text"></a>Создание текста сообщения
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Несмотря на то, что некоторые сообщения состоят из не более чем список получателей и Тема содержимого большинство сообщений, в частности IPM. Обратите внимание, сообщения, включает в себя текст. Сообщение может быть обычным или форматированный текст и хранится в три свойства: **связей с Общественностью\_ТЕЛО** ([PidTagBody](pidtagbody-canonical-property.md)), **связей с Общественностью\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) и **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 

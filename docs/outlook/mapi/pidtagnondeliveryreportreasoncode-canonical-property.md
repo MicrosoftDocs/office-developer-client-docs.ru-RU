@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4b3ce80c-4245-47b0-ab10-a2e03ccb0b83
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d5ffa6ba2f43b57721ade2e9fd281686ae08ebdc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25b428c084bb49315e940829979602aeb6a38ac4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811401"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573441"
 ---
 # <a name="pidtagnondeliveryreportreasoncode-canonical-property"></a>Каноническое свойство PidTagNonDeliveryReportReasonCode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит код диагностики, часть о недоставке.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 81772115fcd4f081718dd560759f6ab93dc7c11c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569c1bd7ee2f4ac6c321f234be2954a57715549b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810029"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576673"
 ---
 # <a name="message-service-tables"></a>Таблицы службы сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Таблица службы сообщение содержит сведения о службах сообщения текущего профиля. Для каждого сеанса MAPI, реализованный MAPI и используется особого назначения клиентских приложений, которые обеспечивают поддержку конфигурации имеется одна таблица службы сообщений. 
   

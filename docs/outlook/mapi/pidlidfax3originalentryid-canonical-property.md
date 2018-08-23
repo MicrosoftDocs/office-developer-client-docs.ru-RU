@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: afccacf1-0b8b-410c-b701-bf1bd8dcca99
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 76b53e208f95aa2d87e3d47cfc5beb69075d376f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0445c2b31209a0a7851c9fa8322c725c168feb19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810343"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570515"
 ---
 # <a name="pidlidfax3originalentryid-canonical-property"></a>Каноническое свойство PidLidFax3OriginalEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что исходный код элемента контакта в другой адрес факса.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810343"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080D5  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

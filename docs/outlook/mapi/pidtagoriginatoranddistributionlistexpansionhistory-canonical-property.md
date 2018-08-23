@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 382f3be8cfd08056a1bf9e452352850f25bd7674
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a5c2fd1d3b18ceb5aec1ca71ed3f9a28dec2db89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811493"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570200"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>Каноническое свойство PidTagOriginatorAndDistributionListExpansionHistory
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения о отправителем сообщения и История расширение списка рассылки.
   

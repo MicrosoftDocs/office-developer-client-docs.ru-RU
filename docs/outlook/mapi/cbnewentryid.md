@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d9b782be440e1af50cb5994691268aa098a1a7cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4397315ef5ebc8009805f911f7d7b549a698b955
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808137"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574456"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов, должен быть размещен для новой структуры [ENTRYID](entryid.md) указанного размера. 
   

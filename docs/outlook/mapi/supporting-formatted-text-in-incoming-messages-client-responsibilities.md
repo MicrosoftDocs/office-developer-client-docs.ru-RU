@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 79727700-5ef1-4a29-9ed0-fd46c7de3202
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 863c95856f3198c74bb9d72881154676386f6a9f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8fdd9ea4dfbc40d7e800be5e2df666738d2cd23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19812423"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577459"
 ---
 # <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Поддержка форматированного текста во входящих сообщениях: обязанности клиентов
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Как сообщения передаются между систем обмена сообщениями, диспетчер очереди MAPI следит за тем, что форматирование текста остается синхронизированной с текста сообщения. Диспетчер очереди MAPI вызывает функцию [RTFSync](rtfsync.md) в оболочку версии сообщение, которое передается поставщика транспорта. Поставщика транспорта сохраняет изменения, внесенные в сообщение путем вызова метода [IMAPIProp::SaveChanges](imapiprop-savechanges.md) и направляет его нового получателя. 
   

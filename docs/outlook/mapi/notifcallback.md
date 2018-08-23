@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b14529e987b85d1dcbe3689d4e852a9efd39a396
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 17b038fea2dd1614f94f005e32b9e6ba4423dbda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810041"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566266"
 ---
 # <a name="notifcallback"></a>NOTIFCALLBACK
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет функцию обратного вызова, которая вызывает MAPI для отправки уведомления о событии. Эта функция обратного вызова используется только в том случае, если в объект приемника уведомлений, созданный с помощью вызова функции [HrAllocAdviseSink](hrallocadvisesink.md) . 
   

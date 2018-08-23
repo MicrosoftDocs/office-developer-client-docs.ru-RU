@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f7182631-7f0e-4f4a-995d-22c0bedd7b6a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a6a6febb82368aee78506f7864f178f1f5dfedf9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c976375d428e477de688f42eaa3ff8396fcfd4fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808147"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571355"
 ---
 # <a name="cbnewflatentrylist"></a>CbNewFLATENTRYLIST
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов, должен быть размещен для новой структуры [FLATENTRYLIST](flatentrylist.md) , содержащий несколько структур [FLATENTRY](flatentry.md) указанного размера. 
   

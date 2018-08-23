@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ad7e37e1-bd12-409f-87e5-ebc0c298a072
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 59b1efdbb9757dbf75479eebfac8e7f67be5f587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55aa8e47dda82995ca1d246f36c271ef06e66954
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810493"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580182"
 ---
 # <a name="pidlidreminderoverride-canonical-property"></a>Каноническое свойство PidLidReminderOverride
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, будет ли клиента должны учитывать значения свойства **dispidReminderFileParam** ( [PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)) и **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)).
   

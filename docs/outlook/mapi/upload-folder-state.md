@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 82b00a33c5de11b3fc9ccd3bde4cf31c79b99c2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae8c3c4012874e1ca35761b103066cceebb1b165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812551"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576752"
 ---
 # <a name="upload-folder-state"></a>Состояние отправки папки
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описываются двоичных файлов состояние папки загрузки конечного автомата репликации. 
   
@@ -54,5 +54,5 @@ ms.locfileid: "19812551"
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[SYNCSTATE](syncstate.md)
+[СОСТОЯНИЕ](syncstate.md)
 

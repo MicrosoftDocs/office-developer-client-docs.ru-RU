@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5ca8edd2-41b7-40e2-b755-b28eecb49786
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f1e604120041e9d91d06276fabb2e9dd7505df51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3b486838c6ce2d7fc38d950a4de6f4589767073
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808193"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574239"
 ---
 # <a name="choosing-a-message-class"></a>Выбор класса сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Как описано в [Классы сообщений MAPI](mapi-message-classes.md), классы сообщений важны для установления отношения между типами пользовательские сообщения, а также, между серверами формы сами. К счастью выбрав в строке класс сообщения является достаточно простым. Строка класса сообщения класса сообщений является произвольной строкой, но ее следует использовать следующие условные обозначения:
   

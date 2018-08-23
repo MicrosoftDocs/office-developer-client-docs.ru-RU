@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 632aff9c0f6fc60ee9730b5e43667b5b610ae8df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40bbe110c7453cf2360fc103710fbc3bcb7f1c67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809297"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572055"
 ---
 # <a name="implementing-a-service-provider-entry-point-function"></a>Реализация функции точки входа для поставщика службы
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Каждый поставщик услуг DLL-Библиотека имеет функцию, которая вызывает MAPI, чтобы загрузить его точки входа. Обратите внимание, что эта функция точки входа не то же, что [DllMain](http://msdn.microsoft.com/en-us/library/ms682583.aspx), функции точки входа Win32 DLL.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fdda45e2-631d-404c-8af4-bce68df0968b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 826863e30ae39d3c8d523bd2dff84731bcf16971
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33287d8ac6b1faeba8b8746a95850f6fd1c37462
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808905"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579489"
 ---
 # <a name="imapiformunadvise"></a>IMAPIForm::Unadvise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отменяет регистрацию для уведомлений с помощью средства просмотра формы, ранее установленные путем вызова [IMAPIForm::Advise](imapiform-advise.md).
   

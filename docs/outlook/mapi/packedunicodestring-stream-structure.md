@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e4cb1613-7e81-432a-ae3a-7fedb05dac65
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2b4dcdcb50fb04410ed93940b46ea7a0d74fff41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00791ab47cc3c6bd435d6f581e5ada53ae59d73b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810087"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569199"
 ---
 # <a name="packedunicodestring-stream-structure"></a>Структура потока PackedUnicodeString
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Структура потока PackedUnicodeString содержит представление Юникод (UTF-16) строки. Эта строка не будет завершен символом null. Элементы данных в этот поток хранятся в прямом байтовом, сразу после друг с другом в указанном ниже порядке. Фактические данные элементы, которые существуют зависят от длина строки в представление UTF-16.
   

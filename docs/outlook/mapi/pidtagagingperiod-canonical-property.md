@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1fd1b06bbaa10c2d7c71ee4c161fd6a980da1865
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caaa01982ff9e66fe7e17df4eaf37dcd25281d4e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569556"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>Каноническое свойство PidTagAgingPeriod
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет номер единицы времени, которые используются для определения продолжительность времени, элемент остается в папке для архивации элемента.
   

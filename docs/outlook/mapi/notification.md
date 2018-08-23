@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7a8d25dc7cac4226f38baab593b254108210549e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d427adde72c24d4ca879c7bd883af09c4ecad53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810060"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579972"
 ---
 # <a name="notification"></a>NOTIFICATION
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения о возникновении события и данные, которые были затронуты события.
   

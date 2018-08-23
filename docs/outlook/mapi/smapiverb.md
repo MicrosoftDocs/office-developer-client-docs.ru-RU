@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4d060d62deb685b4691846c2b8e48a82ae3195ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11f11ae2d90a951a119895f3e0e3e3ca0dbc0fc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812353"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573700"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описываются команды MAPI.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f440905-8690-489c-ae96-2bc391524de9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6d2731bd9c022cf18ec0ea7eb75a1d78900e62f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c1c4cc8a645720c6652aa49318b1b2b4920a0b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811515"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570620"
 ---
 # <a name="pidtagotheraddressstreet-canonical-property"></a>Каноническое свойство PidTagOtherAddressStreet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит другие почтовый адрес пользователя почты.
   

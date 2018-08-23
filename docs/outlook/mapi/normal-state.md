@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b2acad7-5ef8-44db-911f-3bd2a7ca2778
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dcc92d220f07b1c111284acacac4a65a2e3f8b6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5c92c243069e5b8b500df086169c8e5b961976d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810036"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570718"
 ---
 # <a name="normal-state"></a>Обычное состояние
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Обычном состоянии является, где объекта формы основную часть его время ожидания для клиентских приложений инициировать действие, например, сохранение изменений или закрытия формы. В следующей таблице описываются допустимые переходы в обычном состоянии.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: edb0782c-6671-4e98-9028-a2f9ad547c1d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1242415e0698acb210f3e9ef8bfa00fd944816d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ecf43894089841b85fe8d5c81c608bc141d571d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810838"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579608"
 ---
 # <a name="pidtagassistanttelephonenumber-canonical-property"></a>Каноническое свойство PidTagAssistantTelephoneNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер телефона помощника получателя. 
   

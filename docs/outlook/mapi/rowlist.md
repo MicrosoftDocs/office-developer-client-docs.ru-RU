@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ce0be0d5-4962-4d53-828f-c93d1c5aae32
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d0427e36d07d1cdc4f88e471f9ca006e737b73f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4cbaf08c58a98be45ad33aebb8f230fb53c234f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812164"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577662"
 ---
 # <a name="rowlist"></a>ROWLIST
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив структур [ROWENTRY](rowentry.md) , представляющее строк и операции, выполняемые на соответствующие строки в таблице через интерфейс [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   

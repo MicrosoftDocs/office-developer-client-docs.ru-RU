@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a2ec6def319b1f4686a61e9f97a936bfeba0d410
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 186afd6a80d0ae3ae0a767456e60b2ebaaa579b9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809039"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574386"
 ---
 # <a name="imapipropgetnamesfromids"></a>IMAPIProp::GetNamesFromIDs
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имена свойств, которые соответствуют один или несколько идентификаторов свойств.
   
@@ -145,7 +145,7 @@ MAPI_E_INVALID_PARAMETER
 
 
 
-[GUID](guid.md)
+[ИДЕНТИФИКАТОР GUID](guid.md)
   
 [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2ffc0609-341d-4e35-8f53-ed3096c6fa7f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a9580428cd985902d3af6320dd754947565b74e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11b4ea96283bbef2dcb9afb109a6a81102727efc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810099"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570459"
 ---
 # <a name="pidlidallattendeesstring-canonical-property"></a>Каноническое свойство PidLidAllAttendeesString
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает список всех участников, кроме организатора, включая ресурсы и отправить участников.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5f0e5c97-5089-47cb-b604-2292b2ff945c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 3f461d50e838aac0caee37d295ba8e86b9559bd1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4612b6f345d59d988013671758c6d0579aaa127d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569535"
 ---
 # <a name="using-the-mapi-utilities"></a>Использование служебных программ MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Служебные программы MAPI состоят из таблицы данных и объекты данных свойств и множество функций для поддержки функций Разное. Существует возможность клиенту требуются только этих служебных программ и не должны входить в подсистему MAPI для установления соединения с поставщиками услуг. Если ваш клиент умещается в этой категории, вызовите функцию API [ScInitMapiUtil](scinitmapiutil.md) вместо функции [MAPIInitialize](mapiinitialize.md) во время инициализации. 
   

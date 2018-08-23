@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8f61e386ed3f52c9ce3a8dbef021dc2423aedf1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b0679c37b04b05f240d8cea1b777a430c66d18e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810975"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570109"
 ---
 # <a name="pidtagcontactversion-canonical-property"></a>Каноническое свойство PidTagContactVersion
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит версию контактные данные получателя.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19810975"
 |Связанные свойства:  <br/> |PR_CONTACT_VERSION  <br/> |
 |Идентификатор:  <br/> |0x3A52  <br/> |
 |Тип данных:  <br/> |PT_CLSID  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f570d9b-eb3d-4fc7-bcbe-348a0b8fe9e9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6d2bb6bdb934e0b02831b813b1246a3df4193e0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ccad74a9f2553bf29af124821c6d6a87dcde3303
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812326"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572874"
 ---
 # <a name="slpstrarray"></a>SLPSTRArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив строковых значений, которые используются для описания свойства типа PT_MV_STRING8.
   

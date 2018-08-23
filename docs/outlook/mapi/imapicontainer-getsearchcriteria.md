@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 13c151a134e4334e8ed2e75e031a6fc9dddbf941
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ca565f97851a2efe2f3279f062f6ea89a4c6326
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808829"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579965"
 ---
 # <a name="imapicontainergetsearchcriteria"></a>IMAPIContainer::GetSearchCriteria
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает параметры поиска для контейнера.
   

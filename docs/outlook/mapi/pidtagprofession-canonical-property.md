@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ee0070b-11ac-4add-9c19-4558a1f88577
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f304131312af38c0b14daa30cacfc724c73db0c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5cedd3e2078602d96f346ee4ad75d4232b23ad06
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811575"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572769"
 ---
 # <a name="pidtagprofession-canonical-property"></a>Каноническое свойство PidTagProfession
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит род занятий пользователя.
   

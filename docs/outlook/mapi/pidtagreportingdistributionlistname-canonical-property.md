@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d8b83072-15b9-4b26-875d-147cb6535b2c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4d1460ff7e4451e455eb75de50301ae26fa3bd77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3006d1852dc47b942f87bd6cf3ffcd14f53b6632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811724"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577739"
 ---
 # <a name="pidtagreportingdistributionlistname-canonical-property"></a>Каноническое свойство PidTagReportingDistributionListName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя списка рассылки, где системы обмена сообщениями обеспечивает отчета.
   

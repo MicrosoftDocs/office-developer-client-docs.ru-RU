@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2dd5d24d-0fbb-43bd-bc41-93c29536e342
 description: 'Последнее изменение: 05 октября 2012 г.'
-ms.openlocfilehash: 08a40a5fddadb732ef906af28d4e7bfaf1480678
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f6e7dd5d04fbfe4bcec739f9e0e858695144b28
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808195"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577669"
 ---
 # <a name="content-retired-notice-mapi"></a>Контент не поддерживается уведомление о (MAPI)
 
 
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Контент, который вы пытаетесь просмотреть больше не доступен. Возможно, его были удалены или заменены более позднюю версию. Изучите этот набор ссылок, чтобы приступить к работе.
   

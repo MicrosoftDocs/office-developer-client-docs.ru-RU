@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6693326df818d2792d7448407148e57d53fff86f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f82d5a13066294e8c007f70cd7f54d286ab8b02d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809998"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579363"
 ---
 # <a name="mapping-canonical-property-names-to-mapi-names"></a>Сопоставление имен канонических свойств с именами MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе сопоставляет имя каждого каноническое свойство MAPI свойства или свойств, содержащихся в ней. В этом разделе содержатся три таблицы: таблицы для именованных свойств с помощью числовых идентификаторов, секунды таблица для именованных свойств с идентификаторами строки и третий таблицы с тегами свойств.
   
@@ -346,7 +346,7 @@ ms.locfileid: "19809998"
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
 |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Шаблоны  <br/> |
-|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Название  <br/> |
+|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Title  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |
 |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |Совместное использование возможностей X  <br/> |
 |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-общий доступ к Config-URL-адрес  <br/> |
@@ -577,7 +577,7 @@ ms.locfileid: "19809998"
 |[PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md) <br/> |PR_IDENTITY_DISPLAY, PR_IDENTITY_DISPLAY_A, PR_IDENTITY_DISPLAY_W  <br/> |
 |[PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md) <br/> |PR_IDENTITY_ENTRYID  <br/> |
 |[PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md) <br/> |PR_IDENTITY_SEARCH_KEY  <br/> |
-|[PidTagImapCachedMsgsize](pidtagimapcachedmsgsize-canonical-property.md) <br/> |Нет  <br/> |
+|[PidTagImapCachedMsgsize](pidtagimapcachedmsgsize-canonical-property.md) <br/> |Отсутствует  <br/> |
 |[PidTagImplicitConversionProhibited](pidtagimplicitconversionprohibited-canonical-property.md) <br/> |PR_IMPLICIT_CONVERSION_PROHIBITED  <br/> |
 |[PidTagImportance](pidtagimportance-canonical-property.md) <br/> |PR_IMPORTANCE  <br/> |
 |[PidTagIncompleteCopy](pidtagincompletecopy-canonical-property.md) <br/> |PR_INCOMPLETE_COPY  <br/> |
@@ -959,7 +959,7 @@ ms.locfileid: "19809998"
 |[PidTagTelecommunicationsDeviceForDeafTelephoneNumber](pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property.md) <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |
 |[PidTagTelexNumber](pidtagtelexnumber-canonical-property.md) <br/> |PR_TELEX_NUMBER, PR_TELEX_NUMBER_A, PR_TELEX_NUMBER_W  <br/> |
 |[PidTagTemplateid](pidtagtemplateid-canonical-property.md) <br/> |PR_TEMPLATEID  <br/> |
-|[PidTagTextAttachmentCharset](pidtagtextattachmentcharset-canonical-property.md) <br/> |Нет  <br/> |
+|[PidTagTextAttachmentCharset](pidtagtextattachmentcharset-canonical-property.md) <br/> |Отсутствует  <br/> |
 |[PidTagTitle](pidtagtitle-canonical-property.md) <br/> |PR_TITLE, PR_TITLE_A, PR_TITLE_W  <br/> |
 |[PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md) <br/> |PR_TNEF_CORRELATION_KEY  <br/> |
 |[PidTagTnefUnprocessedProps](pidtagtnefunprocessedprops-canonical-property.md) <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 1b3afeaa-4ede-41eb-a3c1-b8947a46ef97
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 91bc0641723a92d8dc86bf3d1037d8e9936930ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29132f24547dc744efcd6f2b6e4a8f6af87ab53c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809755"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574414"
 ---
 # <a name="mapi-forms-overview"></a>Общие сведения о формах MAPI
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Формы MAPI — это средство просмотра для сообщения. Каждое сообщение имеет класс сообщений, который определяет определенной формы, которая используется в качестве его просмотра. MAPI определяет несколько классов сообщений и производитель реализовал формы для просмотра сообщений из этих классов. Разработчики клиентских приложений можно создать новые классы сообщений и настраиваемые формы для просмотра сообщений, созданных с помощью новых классов.
   

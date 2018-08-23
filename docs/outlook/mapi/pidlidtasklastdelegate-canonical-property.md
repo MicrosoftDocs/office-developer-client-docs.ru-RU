@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5eb8c1ce-063f-4273-acba-e6f9c994e7d3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8e1a343486e78daae45ca7315ba4d29d44b688bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f33443531e5affd358669225044b2d63c909aff1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810591"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575058"
 ---
 # <a name="pidlidtasklastdelegate-canonical-property"></a>Каноническое свойство PidLidTaskLastDelegate
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
  Имя пользователя, который последним назначенных или была назначена задача. 
   

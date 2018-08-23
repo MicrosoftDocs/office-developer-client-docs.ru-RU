@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5eeaa9a8c1965954ad2eb0a6bfd2a174a355f10d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 050a26f4b4e6c353881189f8c7b71c2e4c378d03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812144"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577214"
 ---
 # <a name="required-features-for-address-book-containers"></a>Необходимые функции для контейнеров адресных книг
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Большинство поставщиками адресных книг поддерживает по крайней мере один контейнер, некоторые из них можно изменить. Содержимое и таблиц иерархии, возможности поиска и разрешения имен, можно предоставить контейнеров адресной книги. Можно изменить контейнеров Разрешить удаление операций, таких как системы обмена сообщениями пользователи, списки рассылки или другие контейнеры и добавление записей из записей в других контейнеров или одноразовых шаблонов.
   

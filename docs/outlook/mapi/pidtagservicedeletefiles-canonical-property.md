@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8f90d72e842df62c19c5aeeaf6c398c5db469560
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 236349a6b53eeb2f5c18c841c05cfb80a3fce824
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811921"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580224"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>Каноническое свойство PidTagServiceDeleteFiles
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список имен файлов, которые должны быть удалены при удалении службы сообщений.
   

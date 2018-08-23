@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9b94b8f6-4a40-4467-a115-4467daf782b9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 17bc102aaa8db9a9b9fac1467690739840ead697
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0be0cd923a3685a1573b1414260446281902998
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811186"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573532"
 ---
 # <a name="pidtaghomeaddresscity-canonical-property"></a>Каноническое свойство PidTagHomeAddressCity
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит город для домашнего адреса получателя.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6ecd84e4ffa0959a037574998b5ff12d8f539c95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 708e77e4df097f5a0de008e09808ffcbc0289f61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811574"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574582"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>Каноническое свойство PidTagProfileName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя профиля.
   

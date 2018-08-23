@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2c7506c4-82f6-49e2-81c8-3ca316831d93
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ad1038de2314165a095627594075498705efde62
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4038923258ecb5bf3d00c5e92b9c0e791d6988d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580189"
 ---
 # <a name="pidtaghometelephonenumber-canonical-property"></a>Каноническое свойство PidTagHomeTelephoneNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер основной телефонной домашней получателя. 
   

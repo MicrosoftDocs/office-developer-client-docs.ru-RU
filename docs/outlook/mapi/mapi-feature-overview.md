@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 22cf56c5-2804-40a8-99e6-a6d127897720
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1ff3677a2bbc8ca54e5bc96ae1e873e3efd3c6bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 034f3dd8bc68462348bc92a8acf2904ab66fc798
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809733"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575611"
 ---
 # <a name="mapi-feature-overview"></a>Обзор возможностей интерфейса MAPI
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI имеет ряд ключевых функций, которые позволяют его для обеспечения способа для разработчиков для работы с и использование различных систем обмена сообщениями узла. Эти возможности включают это комплексное и откройте API-интерфейс и поддержки отраслевых стандартов. 
   

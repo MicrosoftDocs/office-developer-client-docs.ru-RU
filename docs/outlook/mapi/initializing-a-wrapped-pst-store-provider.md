@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
 description: 'Последнее изменение: 05 октября 2012 г.'
-ms.openlocfilehash: a332c63814163579d5fe8ab365145e9583fa6c97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c39f66917ecc080785b3a3e91506d3994427ca62
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809457"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569080"
 ---
 # <a name="initializing-a-wrapped-pst-store-provider"></a>Инициализация оболочку поставщика хранилища PST-файлов
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Чтобы реализовать оболочку поставщика хранилища личных папок (PST) файла, должны инициализировать оболочку поставщика хранилища PST-файлов, используя функцию **[MSProviderInit](msproviderinit.md)** в качестве точки входа. После инициализации DLL поставщика функции **[MSGSERVICEENTRY](msgserviceentry.md)** настраивает оболочку поставщика хранилища PST-файлов. 
   

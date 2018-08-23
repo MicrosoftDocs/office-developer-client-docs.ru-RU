@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a651af84-1711-449e-ba7e-5ce09cafa02b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 54fe624c98ddb631326853f387372468a61b2f70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2917f2119fde38686397b65956113bc430b2e31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811912"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570816"
 ---
 # <a name="pidtagservicedllname-canonical-property"></a>Каноническое свойство PidTagServiceDllName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя файла библиотеки DLL, содержащей функцию точки входа поставщика службы сообщение будет вызываться для конфигурации.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc86505c-e264-435f-ae21-4a10f0bbf082
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 02a057d6382394c947fa1f23c4408ff0ad2339de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 927710f3530fd95cc1c1ba548870c1058ad7a819
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567435"
 ---
 # <a name="pidtagoriginalsenderemailaddress-canonical-property"></a>Каноническое свойство PidTagOriginalSenderEmailAddress
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит адрес электронной почты отправителя первая версия сообщения, то есть, сообщение перед пересылку и ответ.
   

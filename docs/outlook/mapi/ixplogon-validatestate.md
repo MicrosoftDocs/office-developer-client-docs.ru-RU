@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 165fe3a72060e88dc34d8153c13ae58bcbd9ae0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4fd0dd02c5cf6f6a49b782d06c02e373dcfc3327
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809660"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577487"
 ---
 # <a name="ixplogonvalidatestate"></a>IXPLogon::ValidateState
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Проверяет состояние внешних поставщика транспорта. 
   

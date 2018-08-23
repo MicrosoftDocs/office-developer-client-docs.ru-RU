@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3179442c-6499-464a-93af-eb0a7a5b0d30
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 20620a5835e627eb7543a03037f9be75db6739ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78bb5114b78142ce18d3f83c34795b72910c87a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811854"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573714"
 ---
 # <a name="pidtagscheduleinfomonthstentative-canonical-property"></a>Каноническое свойство PidTagScheduleInfoMonthsTentative
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит месяцев, помеченные под вопросом в сообщении о доступности.
   

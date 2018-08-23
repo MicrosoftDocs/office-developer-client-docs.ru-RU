@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a2c4a933-b371-43ec-af0f-6140d8b5c7ea
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d9330c3583d95e2124a6eea5720c634b9dba8994
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adef294255b8f29fc3d4f2d87bd0d7b10009aa57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566279"
 ---
 # <a name="pidtagstoreproviders-canonical-property"></a>Каноническое свойство PidTagStoreProviders
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список идентификаторов поставщиков хранилища сообщений текущего профиля.
   

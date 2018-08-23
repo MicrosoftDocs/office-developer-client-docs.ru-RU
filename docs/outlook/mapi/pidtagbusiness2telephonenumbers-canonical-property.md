@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2973ff42-213f-43ce-a358-159b6c5381ef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3d8f1a5f3d244da50b2ebb92be339600d47e2ace
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 120c0619827e8cbbbc92f7665c014eefdd8504e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810904"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572629"
 ---
 # <a name="pidtagbusiness2telephonenumbers-canonical-property"></a>Каноническое свойство PidTagBusiness2TelephoneNumbers
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список телефонных номеров для бизнеса.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19810904"
 |Связанные свойства:  <br/> |PR_BUSINESS2_TELEPHONE_NUMBER_A_MV  <br/> |
 |Идентификатор:  <br/> |0x3A1B  <br/> |
 |Тип данных:  <br/> |PT_MV_STRING8  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

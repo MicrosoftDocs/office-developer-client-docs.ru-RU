@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f985aeaf-653f-44cb-ac70-6e784bc6c848
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 65f5f7311d35ce764d06726780f757771c872f8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db9d84697ed9b89e1c19659d35dabdf01922fffc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810119"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570550"
 ---
 # <a name="pidlidappointmentproposalnumber-canonical-property"></a>Каноническое свойство PidLidAppointmentProposalNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает количество участников, отправки предложений изменения, которые не принято или отклонено сервером организатора.
   

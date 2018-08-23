@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7877667d78cf844cce9ff8c183ff1dc575fa2798
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 601734fbaf3157fd0f3f3637b807a511076a6124
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811011"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577613"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Каноническое свойство PidTagConversionEits
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит тип кодировки данных (EITs), которые применяются к сообщению в пути для описания преобразования.
   

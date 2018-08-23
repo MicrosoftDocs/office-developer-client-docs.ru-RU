@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a85851663c22b33ea94099ac0ab14f81c424259b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a1db4ba7a70695b17631ca13f1728043be8164bd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811888"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575968"
 ---
 # <a name="pidtagsendrichinfo-canonical-property"></a>Каноническое свойство PidTagSendRichInfo
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если получатель может получать все содержимое сообщения, включая форматированный текст (RTF) и объектов внедрения (OLE). 
   

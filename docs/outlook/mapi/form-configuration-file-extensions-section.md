@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4817e446-982d-491c-abcf-cc888a771afa
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7c26b86ad4d6c7fd565abddbfc76f50ac3dccaf8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 459c5f5a34421583141028cd9accad5e242d31ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808457"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573560"
 ---
 # <a name="form-configuration-file-extensions-section"></a>Файл конфигурации формы: раздел [Расширения]
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В разделе **[расширения]** приведены дополнительные атрибуты формы, обычно набор именованных свойств, которые являются какие-либо атрибуты за пределы основные из них, перечисленные в разделе **[Описание]** файла конфигурации формы. Дополнительные атрибуты, возвращаемые из вызовы метода **GetProps** объекта **IMAPIFormInfo** с высокой бит в тег свойства свойства. Клиентские приложения можно определить дополнительные атрибуты формы, путем получения этих тегов. Для этого клиенты вызовите метод [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) , передав в именах свойств формы и вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) для получения свойства. 
   

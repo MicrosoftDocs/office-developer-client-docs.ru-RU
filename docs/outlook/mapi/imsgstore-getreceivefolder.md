@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f58bd8499b63bcd526906f78143b76092f194cb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8cd211cc16b620ac47357271070e0b45b867bea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809373"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579944"
 ---
 # <a name="imsgstoregetreceivefolder"></a>IMsgStore::GetReceiveFolder
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает к папке, где были установлены как место назначения для входящих сообщений из указанного класса сообщений или по умолчанию получают папки для хранения сообщений.
   

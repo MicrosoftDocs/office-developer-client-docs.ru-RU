@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6673a38a478c080a880dcf70c8528ef93a1b4886
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ae4326cedf7e4fa4c3218d30255a9473ab7fbe0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808135"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571418"
 ---
 # <a name="cbmapiverbarray"></a>CbMAPIVerbArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов в структуру [SMAPIVerbArray](smapiverbarray.md) , содержащий указанное число [SMAPIVerb](smapiverb.md) структуры. 
   

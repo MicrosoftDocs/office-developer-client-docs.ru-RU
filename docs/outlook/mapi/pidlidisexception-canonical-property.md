@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 802321fb-4261-4c3e-9de3-8b4f490dae13
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5a36cf21a36f83ec252923ddbb137b3b99456927
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1d4600810d4f773896f1880b7309c1f818c7dc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810388"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575779"
 ---
 # <a name="pidlidisexception-canonical-property"></a>Каноническое свойство PidLidIsException
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что объект, представляющий исключение (включая потерянного экземпляра).
   

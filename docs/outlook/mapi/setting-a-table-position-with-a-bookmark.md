@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d53f15cb439494ae99ff45509ed14c0928756d8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f43e3a7e3376cb437620204a29aed9fb732d3427
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812264"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564096"
 ---
 # <a name="setting-a-table-position-with-a-bookmark"></a>Установка положения таблицы с использованием закладки
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Объект bookmark представляет собой ресурсов, которое указывает, определенного расположения в таблице. Установка закладки позволяет для возврата в позицию в дальнейшем функциональная возможность, которая может значительно повысить производительность операций в таблице. MAPI определяет три стандартные закладки: 
   

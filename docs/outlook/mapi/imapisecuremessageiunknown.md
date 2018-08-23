@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7f08528c067f48267ec70016839fd85c6823f657
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f9f80ad8bce08484f4370ea32b2500fe05aa947
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809189"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573980"
 ---
 # <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет методы, используемые для управления защищенных сообщений.
   

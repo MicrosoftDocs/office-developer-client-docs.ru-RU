@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 949910b2-2312-4791-9510-c11cca38ec0a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b5f3e3b88db255da0397aec2372b60b668984974
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39d49c7f3de97f68ed4a014fde222a2186f2b5a5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810893"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577620"
 ---
 # <a name="pidtagbirthday-canonical-property"></a>Каноническое свойство PidTagBirthday
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит день рождения контакта.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19810893"
 |Связанные свойства:  <br/> |PR_BIRTHDAY  <br/> |
 |Идентификатор:  <br/> |0x3A42  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

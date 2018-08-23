@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8a2199ee2bba8b3b41af7bf26de6cdd3d8d0956e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f18d726c1b06a6fb7f79964165bbdb9074a6d4d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811737"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571369"
 ---
 # <a name="pidtagrequesteddeliverymethod-canonical-property"></a>Каноническое свойство PidTagRequestedDeliveryMethod
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Это свойство содержит двоичные массив методы доставки (поставщиков услуг) в порядке предпочтения отправителя сообщения.
   

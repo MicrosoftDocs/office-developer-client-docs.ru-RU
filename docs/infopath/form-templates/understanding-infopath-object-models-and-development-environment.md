@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 поддерживает два типа моделей программирования для разработки бизнес-логики в шаблонах форм, а также поддерживает внешнюю автоматизацию из управляемого кода.
-ms.openlocfilehash: 18d5d68cdc047ddcb049874d677c6a20e851f2db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 638306eabf9f761ff126953e66228cad8cc5c3ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807602"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579531"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>Общие сведения о среде разработки и объектных моделях InfoPath
 
@@ -110,16 +110,13 @@ InfoPath Forms Services предоставляет объектную модел
   
 ## <a name="infopath-development-environment"></a>Среда разработки InfoPath
 
-Разработку бизнес-логики в шаблонах форм InfoPath 2013, могут выполняться с помощью Visual Studio 2012 с установлен [Набор средств Microsoft Visual Studio 2012 приложений](http://www.microsoft.com/en-us/download/details.aspx?id=30364) надстройки. 
+Разработку бизнес-логики в шаблонах форм InfoPath 2013, могут выполняться с помощью Visual Studio 2012 с установлен [Набор средств Microsoft Visual Studio 2012 приложений](https://www.microsoft.com/en-us/download/details.aspx?id=38807) надстройки. 
   
 > [!NOTE]
 > InfoPath 2013 не поддерживает создание и изменение шаблонов форм, использующих бизнес-логику с JScript и VBScript, несмотря на то, что InfoPath Filler поддерживает шаблоны открытия формы на основе сценариев, которые были созданы в предыдущих версиях InfoPath. 
   
 ## <a name="see-also"></a>См. также
 
-
-
-[Пошаговое руководство. Создание базового шаблона формы с кодом](walkthrough-creating-a-basic-form-template-with-code.md)
-  
-[Пошаговое руководство. Создание и отладка начального шаблона формы с помощью объектной модели InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
+- [Пошаговое руководство. Создание базового шаблона формы с кодом](walkthrough-creating-a-basic-form-template-with-code.md)
+- [Пошаговое руководство. Создание и отладка начального шаблона формы с помощью объектной модели InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: abaf8f665ea7add92a34c2e4d6fcbf9d5fc08d3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e3a2224daace9be7f4504a693806ccb3cf4abbe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808979"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570494"
 ---
 # <a name="imapimessagesitegetformmanager"></a>IMAPIMessageSite::GetFormManager
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает интерфейс диспетчера формы, который сервера форм можно использовать для открытия другой сервер формы.
   

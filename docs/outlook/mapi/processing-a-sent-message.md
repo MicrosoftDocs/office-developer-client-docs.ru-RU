@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 55b3e692-753d-45e9-a40d-22adc81b75da
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0cea1a1008ecbff698b757d6c67af5c279954656
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd86e5d06e868ebc540d8eb779c059089045cd8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812054"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574183"
 ---
 # <a name="processing-a-sent-message"></a>Обработка отправленного сообщения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Исходящим сообщениям, после их передачи может оставаться в папке Исходящие папки, перемещаются в папку, предназначенный для хранения отправленных сообщений или удалении. Тип обработки зависит от того, является ли вы задали сообщение хранилища свойств:
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4b611818-f99f-43a2-9f6b-1aa5b9564d1d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 29a135264772847a624e1a4558b68bcf822b18df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f30dca8323f74bc2817bab375b58fcc1bc15c18b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808234"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574260"
 ---
 # <a name="creating-a-profile-by-using-the-profile-wizard"></a>Создание профиля с помощью мастера профилей
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Мастер профиля является компонентом MAPI, который позволяет пользователю создать профиль в простой из способов. Мастер профиля отображается ряд диалоговых окон, которые запрос пользователю для выбора службы сообщений и введите значения для некоторые важные свойства конфигурации. Для большинства необходимые свойства профилей мастер использует значения по умолчанию, предоставляемые. Чтобы вызвать мастер профилей, метод **LaunchWizard**, функции, основанной на прототипе [LAUNCHWIZARDENTRY](launchwizardentry.md) . 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d0bce7b3a12f259b7ac5f28219c8a92dd2200f07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5a7ba301d61468c0ff43a7e99d05976d55d239d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19808590"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576674"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Выбор определенной версии MAPI для загрузки
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При связывании явно реализация интерфейса MAPI, необходимо тщательно выбрать реализация для загрузки. 
   

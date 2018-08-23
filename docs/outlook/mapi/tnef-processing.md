@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d324fb3-d917-4502-b3a4-179c479deb79
 description: '���� ���������� ���������: 5 ���� 2012 �.'
-ms.openlocfilehash: bd9cc49f5d1d865d5d6b222677df0dd62ec36fd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6b3ef7c7eb469a5de909d440e22e522218a41f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812486"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569493"
 ---
 # <a name="tnef-processing"></a>Обработка TNEF
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Следующая последовательность действий описывают, как транспортов использовать методы TNEF для обработки входящих и исходящих сообщений.
   

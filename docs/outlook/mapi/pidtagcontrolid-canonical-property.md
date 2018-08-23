@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 799f83b397cbef9d7dcb6c9a88154b88afe35675
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2868533e0383309e013bb82aaa4300a0a40e335a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19811009"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577515"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>Каноническое свойство PidTagControlId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит уникальный идентификатор для элемента управления, используемый в диалоговом окне. 
   

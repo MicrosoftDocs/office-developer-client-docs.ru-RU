@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 47c9ccbb-161c-4829-8ffb-201f3b54cd45
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: eb97d278640b4cdd2b14152bf4745f883fe2edba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94ec76d3247421f163775245c43ee68e6f9b560b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810581"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569087"
 ---
 # <a name="pidlidtaskfrecurring-canonical-property"></a>Каноническое свойство PidLidTaskFRecurring
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, является ли задача включает в себя шаблон повторения.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 84c37696-da7a-42e0-b8c0-29658a6c9a48
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b8212f4a055125858b77ee615a5d929a4a62bb82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8c9fb0b24d8954fae75274bfbedca9d7c62de93
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809730"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567862"
 ---
 # <a name="mapi-entry-identifiers"></a>Идентификаторы MAPI записей
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Идентификаторы записей — части двоичных данных, сохраненных в структуру [ENTRYID](entryid.md) , который используется для уникальной идентификации и откройте объект MAPI. Большинство объектов MAPI имеют идентификаторы записей. Идентификаторы записей для объектов аналогичны имена файлов для файлов. Тем не менее они не передаваемого и не может использоваться в системах, отличных от системы, в которой они были созданы на. 
   

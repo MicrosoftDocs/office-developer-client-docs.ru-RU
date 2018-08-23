@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: d16e1adf-c911-427e-9c98-678a303e6791
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 148d71dc0e99e23ffe10445068170617cb26b01b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5daf8c1ee249cfc7fb1bc1ffb6dfc68b400fe953
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810726"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571131"
 ---
 # <a name="pidnamecrossreference-canonical-property"></a>Каноническое свойство PidNameCrossReference
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение поля заголовка перекрестные ссылки на модель [RFC3282].
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |Перекрестные ссылки на модель  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 443cc68e-7898-4285-a606-f916fcd18554
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 85e517601d291f144652befa267d8fd8f76dea64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b182d2b568a3c7cf874dfe2fcf7a7503aa44193f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574491"
 ---
 # <a name="pidtagrtfinsync-canonical-property"></a>Каноническое свойство PidTagRtfInSync
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если свойство **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) имеет то же содержимое текста как свойство **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) для данного сообщения.
   

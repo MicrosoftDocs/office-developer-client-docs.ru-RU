@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d7ec5c79-1287-4364-b5e5-5d1d6f0ea0f1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1749c155693529836b20194f9c60763fdd466357
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: deb215e6c54a08a46f071158d2bf2422561d7c80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811103"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580217"
 ---
 # <a name="pidtagenddate-canonical-property"></a>Каноническое свойство PidTagEndDate
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит конечную дату и время встречи как управляемые приложения планирования. 
   

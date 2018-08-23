@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: e58c4954-e6b5-469d-898b-cef0a8fd612c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e60ba98bdf82f7e0f02aefc858f2eefd4c7d91f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 177a453f64dd41197b18418eefbfdf9868ad2849
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809661"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571642"
 ---
 # <a name="macros-related-to-structures"></a>Макросы, связанные со структурами
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются макросы, связанные с структур MAPI. Для получения дополнительных сведений перекрестные ссылки на другие публикации или на другие разделы в этой документации также включены. 
   

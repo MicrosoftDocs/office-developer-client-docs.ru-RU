@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d3cc6658-e46d-42dd-b1ac-65c88cfef8ca
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ad2014d1d003a4d80646ed1b679f0d3827341c1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 968be38e794793405aac15340a92ccd6d680498d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808935"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571698"
 ---
 # <a name="imapiformmgrresolvemultiplemessageclasses"></a>IMAPIFormMgr::ResolveMultipleMessageClasses
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Разрешает группу классов сообщений в формах в контейнере формы и возвращает массив формы объекты для этих форм.
   

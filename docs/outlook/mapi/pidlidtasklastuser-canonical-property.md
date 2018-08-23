@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 914c55e9-cb36-46a4-b5ee-382413fa25f9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6dc2bcf2003ee16fa4a6c66689b6af79653e2d04
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db94d68a01b65410cf4f3f1f461c780f2bb01918
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810596"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568534"
 ---
 # <a name="pidlidtasklastuser-canonical-property"></a>Каноническое свойство PidLidTaskLastUser
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Имя последнего пользователя, который был владелец задачи.
   

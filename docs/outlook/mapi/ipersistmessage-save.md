@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 222d8257a802739ee8e513a0ea95a13f4b99322e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a95989cea7ad5529eb73276b4c771e4900804b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809490"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579902"
 ---
 # <a name="ipersistmessagesave"></a>IPersistMessage::Save
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сохраняет измененную форму сообщение, из которого его загрузки или создан.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: bf72e6f182f67861f909e21f0ec1871d76617974
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e06f78317a1e98d47a37cb7059042b254567fe8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19808776"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573686"
 ---
 # <a name="iaddrbookunadvise"></a>IAddrBook::Unadvise
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отмена регистрации уведомлений, ранее созданные записи адресной книги.
   

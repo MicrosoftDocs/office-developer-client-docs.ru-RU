@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 2fcff3b3-01e7-4758-9c49-0af41abf0d6b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 57e6974219059c301786295b2d5e6b9a8fb724bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2963e65f97534cbba368b909fef79c982e81ec26
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809672"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568527"
 ---
 # <a name="mapi-address-book-provider-objects"></a>Объекты поставщика MAPI адресной книги
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В дополнение к стандартный поставщик и входа в систему объекты реализуемые поставщиками адресных книг контейнеров адресной книги, списки рассылки, обмена мгновенными сообщениями пользователи, таблиц, состояние объектов и элементов управления.
   

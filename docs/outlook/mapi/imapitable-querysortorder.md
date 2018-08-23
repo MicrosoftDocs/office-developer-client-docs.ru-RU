@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b5eb671be022a6c3aa22e66f68386691fe23b275
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48ca692779fb53cab386d8a18b5f0a50e11d531c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809219"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569437"
 ---
 # <a name="imapitablequerysortorder"></a>IMAPITable::QuerySortOrder
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает текущий порядок сортировки для таблицы.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a593d2a1-29f8-7e23-85bf-02fa3cfebe1b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 37f21c438a0a337eecf5c15a27a0b891d19bcfb8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adcb8e78d4e85e19d4102795aa4d43f06a7f86ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809009"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568149"
 ---
 # <a name="imapiofflinenotify--iunknown"></a>IMAPIOfflineNotify : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отправка уведомлений обратных вызовов в клиент поддерживает Microsoft Outlook 2010 и Microsoft Outlook 2013.
   

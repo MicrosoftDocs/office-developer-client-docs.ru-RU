@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 08782fe616fe260388cff8982dfbb09951453a00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db76dfec27100a22785082580da70ecc2c10fc45
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809870"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579986"
 ---
 # <a name="mapilogonex"></a>MAPILogonEx
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Журналы клиентского приложения на сеанс с системой обмена сообщениями. 
   

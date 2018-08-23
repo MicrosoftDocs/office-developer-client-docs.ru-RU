@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 66e318c3b7b772f2713b5c730590ce4a8ad5965b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce9c8b189991e4102fcc9d17b88747d4ce55efec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570914"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поддерживает и предоставляет доступ к свойствам вложений в сообщениях. Интерфейс **IAttach** не имеет уникальное методов свои собственные. Дополнительные сведения об использовании вложения можно [Вложений MAPI](mapi-attachments.md) и [Таблиц вложений](attachment-tables.md). 
   

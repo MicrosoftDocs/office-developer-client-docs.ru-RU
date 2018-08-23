@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 88a4360d-6ab8-466e-8ebd-af80227ee00a
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: f83f3f51c8b11aececa31fa277fb799ce1ada512
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6af54b773b875531437a275f14c961a06ef799ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809819"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569521"
 ---
 # <a name="mapi-recipients"></a>���������� MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Every message to be transmitted has one or more recipients, or a set of properties that describe where the message is to be delivered. Because recipients are used only in the context of a message, they are considered subobjects of a message instead of separate MAPI objects. Clients and providers work with recipients using the **IMessage** interface. For more information, see [IMessage: IMAPIProp](imessageimapiprop.md).
   

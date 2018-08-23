@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 84631ea6d332829430bf9d99488f8a1a5fdebac0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 735c778cd8e6ccb41de3d3d8cb0fdc163493f712
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810026"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572020"
 ---
 # <a name="message-store-tables"></a>Таблицы хранилища сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В таблице хранилища сообщений содержит сведения о поставщиках хранилища сообщений текущего профиля. Для каждого сеанса MAPI, реализованный MAPI и используемого клиентами имеется одна таблица хранилища сообщений. Клиенты могут использовать этой таблице, например, для поиска всех экземпляров определенного поставщика или найти конкретное сообщение хранилища. 
   

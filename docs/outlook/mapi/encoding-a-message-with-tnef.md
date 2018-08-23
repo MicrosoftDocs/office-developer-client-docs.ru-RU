@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 6b86d9a9-6876-4885-ae1e-8571b25b85cc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2cb5c9a971f95e309f0a91cf477eefe98fe3bd64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5043c338f309b5da21ca828a47daf1d8b6abfd5d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808400"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577753"
 ---
 # <a name="encoding-a-message-with-tnef"></a>Кодировка сообщение с TNEF
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При отправке сообщения поставщика транспорта можно создать файл, который используется для хранения сообщения во время передачи. Рассмотрим процедуру интерфейс [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) является переход через файл. Поставщика транспорта затем использует методы [ITnef](itnefiunknown.md) для записи свойств сообщения поток в виде с тегами, включает свойства для декодирования легко получающей поставщиками транспорта. 
   

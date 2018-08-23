@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9aa0b71e-1ee7-411c-a595-cccc5b7c4b0e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 10784dbf0b65dc4b95b37cfff1d057247702e375
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63a29bd2e61aa63e1771145af58dd9e0e860f226
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810297"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574967"
 ---
 # <a name="pidlidfax1entryid-canonical-property"></a>Каноническое свойство PidLidFax1EntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает EntryID факса контакта рабочего адреса.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810297"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080B1  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

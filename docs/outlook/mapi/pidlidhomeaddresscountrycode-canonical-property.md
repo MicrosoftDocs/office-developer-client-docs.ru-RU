@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 048ce01d-f2c2-40d1-88aa-25206be58dd1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f1da798d23e4ddf903844de6091f631d78bf44b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c775d982c02225fed5e4a78cd17294c4e83e7a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575765"
 ---
 # <a name="pidlidhomeaddresscountrycode-canonical-property"></a>Каноническое свойство PidLidHomeAddressCountryCode
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает часть кода страны домашний адрес контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810385"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080DA  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

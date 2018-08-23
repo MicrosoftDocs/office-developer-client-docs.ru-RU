@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 33fb53a8-4c7b-4418-8849-b6f9a1580172
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6dd3f07ae4c854d3ee87206adf4a3090fe050971
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7098c4eee28442a4a47e70f6a9df9d4ddb9fade6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811885"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568408"
 ---
 # <a name="pidtagsendername-canonical-property"></a>Каноническое свойство PidTagSenderName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя отправителя сообщения.
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 464b1297-9d90-47bd-afc4-3dc63b106cb7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e755c18ef3cc32f9a00169f19cf336eace447a32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a6ba7af5e497ba59b43e9b80cfc9595961ed10e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809779"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579545"
 ---
 # <a name="mapi-named-properties"></a>Именованные свойства MAPI
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI предоставляет средства для назначения имен свойств, для сопоставления этих имен с уникальными идентификаторами и предъявления сохраняемого это сопоставление. Постоянное имя для сопоставления идентификатора гарантирует, что имена свойств остаются действительными между сеансами.
   

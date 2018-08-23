@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 205c9dd28692592ddf133b1b30989ba9fd4236f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 699e77479e0d09e7549c0d2741d5ba54ecc8ce33
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572034"
 ---
 # <a name="imapiofflinegetcapabilities"></a>IMAPIOffline::GetCapabilities
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получает условия, для которых обратные вызовы поддерживаются автономной объектом.
   

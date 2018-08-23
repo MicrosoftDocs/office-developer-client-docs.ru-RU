@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1ae3c47964ff238f57e98e0005a966008192f7c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63f71066b1afc90c3e495ed4f9ba654bcbdfe558
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809673"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579930"
 ---
 # <a name="logging-on-to-mapi"></a>Вход в MAPI
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения вход в подсистему MAPI с вызова функции **MAPILogonEx** . Для получения дополнительных сведений см [MAPILogonEx](mapilogonex.md). **MAPILogonEx** проверяет Выбор профиля и настройки каждого поставщика служб в профиле. После настройки MAPI запускает поставщиками адресной книги перед началом работы поставщиков хранилища сообщений. Поставщики транспорта запускаются при их служб сначала являются обязательными. 
   

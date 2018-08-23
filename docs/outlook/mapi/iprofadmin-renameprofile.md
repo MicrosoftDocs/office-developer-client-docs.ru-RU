@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2a575cac-dbfd-4f42-9c10-4b7e355a065e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c94c60cf9ff1adbe2b54bd85b228e21b4be0e6e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4453465c04d7a5a3de79f2ae34d13095863487cf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809510"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569507"
 ---
 # <a name="iprofadminrenameprofile"></a>IProfAdmin::RenameProfile
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Назначает новое имя профиля.
   

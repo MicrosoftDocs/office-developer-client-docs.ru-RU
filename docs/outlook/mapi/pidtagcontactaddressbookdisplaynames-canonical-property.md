@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 963aea54bed36aa864dea1cd4b9a566eacd6daf4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c5295b07c6ed1e70bc2686b7e5ae0393de2b467
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810923"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574448"
 ---
 # <a name="pidtagcontactaddressbookdisplaynames-canonical-property"></a>Каноническое свойство PidTagContactAddressBookDisplayNames
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит список отображаемые имена для обмена сообщениями пользователей в адресной книги.
   

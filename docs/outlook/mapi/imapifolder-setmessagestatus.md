@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fcca6a7e8fa70a2df9042e8b3c2b28825cee9a7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d06523625a20760faec7a6c73a6beaef757818b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808878"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575079"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задание состояния, связанный с сообщением (например, будет ли это сообщение помечено для удаления).
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0e39f2603a1eef45c456b7fb58744b79c6b75f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44bc6de420953bd665bd3caa336b76b15c1effd6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808761"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579461"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поддерживает доступ к адресной книге MAPI, а также операции, такие как отображение общие диалоговые окна; Открытие контейнеров, системы обмена сообщениями пользователей и списки рассылки; и разрешение имен для выполнения.
   

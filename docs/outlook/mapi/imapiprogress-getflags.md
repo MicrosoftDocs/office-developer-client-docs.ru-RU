@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8964ba8c4341bec431bdbc1690d639b345df8b1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a5e4205a808c7a6e469d2e9cb0a1b3c17a92d21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809011"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573546"
 ---
 # <a name="imapiprogressgetflags"></a>IMAPIProgress::GetFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает флаг, параметры из объекта о ходе выполнения для уровня операции, на котором рассчитывается сведения о ходе выполнения.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3bc4aea5-ab01-4ba5-a4ad-7a9a76c6bf55
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: cdf3052175870287ff1a66d3745e90f8b8fff256
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c82ff28dca4fc50c7801a533f7ad757b839cddf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809833"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568233"
 ---
 # <a name="mapi-session-handling"></a>��������� ������ MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Прежде чем можно общаться с поставщиками услуг и системы обмена сообщениями, необходимо установить сеанс. Сеанс MAPI — это ссылка из клиента на другие компоненты MAPI. В результате успешного запуска сеанса MAPI возвращает клиентам указатель на объект сеанса — это объект, реализующий интерфейс **IMAPISession** . Дополнительные сведения можно [IMAPISession: IUnknown](imapisessioniunknown.md). Можно использовать методы интерфейса **IMAPISession** доступа к объектам поставщиков хранилища адресной книги и сообщения, доступ к несколько таблиц, отображение форм, свойства поставщика транспорта и выполнять администрирование службы профилей и сообщения. 
   

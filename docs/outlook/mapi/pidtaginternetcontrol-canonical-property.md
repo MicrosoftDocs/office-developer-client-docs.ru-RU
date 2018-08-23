@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 77442ad2-7f89-4364-8327-5f95c59b720d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4559e5ed5966197434d88dce80b7d5898db6f9ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c973c7233f1fd91a70f1e03f89d6cb6f5b3d7f1c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811261"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572678"
 ---
 # <a name="pidtaginternetcontrol-canonical-property"></a>Каноническое свойство PidTagInternetControl
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сопоставляется с заголовком элемента управления MIME.
   

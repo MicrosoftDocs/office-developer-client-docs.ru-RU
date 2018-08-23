@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8a0b10596bdfdc1ea33f6d170ee1e021193d3788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28e7874d1e61c0a4fe0ad702f206ca03a9a1096a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575877"
 ---
 # <a name="ixplogonsubmitmessage"></a>IXPLogon::SubmitMessage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что диспетчер очереди MAPI для поставщика транспорта для доставки сообщения.
   

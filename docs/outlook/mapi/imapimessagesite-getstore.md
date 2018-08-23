@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2787150a9fa0fc41e04c58b4a4310ffa844f3743
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f4e6c49ca1c537f78ccce708c4a0b00f81ad7e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808973"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567932"
 ---
 # <a name="imapimessagesitegetstore"></a>IMAPIMessageSite::GetStore
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Если такие хранилища возвращает хранилище сообщение, содержащее текущее сообщение. Этот метод возвращает значение NULL в параметре _ppStore_ для внедренных сообщений, которые хранятся в другое сообщение, а не непосредственно в хранилище сообщений. 
   

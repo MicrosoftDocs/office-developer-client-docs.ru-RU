@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4d71a0e26e2043bbaf961ae5096afc5789be36be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71ad53880c400d924d73c903bd77f7b447a69d8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810851"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577725"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>Каноническое свойство PidTagAttachExtension
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит расширение имени файла, которое указывает тип вложения. 
   

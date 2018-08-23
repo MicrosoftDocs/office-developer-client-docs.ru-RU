@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 00d2993c-d66a-4a00-9fb2-98696d29a007
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: db8ca0945c429e7b277ec95b419386d1ce175169
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a0f2efc17ca8790502f11d677498013cbe10205d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809697"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579356"
 ---
 # <a name="mapi-architecture-overview"></a>Обзор архитектуры MAPI (en)
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI определяет модульных архитектуры, как показано на следующем рисунке.  
   

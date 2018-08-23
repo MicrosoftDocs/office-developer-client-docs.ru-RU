@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3790ce243890f1cce4d67352a8fb0b7191588269
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8017094f6af95940aab8352d52cd1160f0b7a827
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811164"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573763"
 ---
 # <a name="pidtagformversion-canonical-property"></a>Каноническое свойство PidTagFormVersion
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит версию формы. 
   

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f24e2cf97aa27b220f1c214be9d4207b6871f888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d7d52485e334449a7cfb995de02f68f229615e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808182"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574680"
 ---
 # <a name="commonly-used-property-sets"></a>Часто используемые наборы свойств
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе перечислены часто используемые наборы именованных свойств.
   
@@ -29,7 +29,7 @@ ms.locfileid: "19808182"
 |:-----|:-----|
 |Common  <br/> |PS_PUBLIC_STRINGS {00020329-0000-0000-C000-000000000046}  <br/> |
 |Common  <br/> |PSETID_Common {00062008-0000-0000-C000-000000000046}  <br/> |
-|Контакт  <br/> |PSETID_Address {00062004-0000-0000-C000-000000000046}  <br/> |
+|Contact  <br/> |PSETID_Address {00062004-0000-0000-C000-000000000046}  <br/> |
 |Электронная почта  <br/> |PS_INTERNET_HEADERS {00020386-0000-0000-C000-000000000046}  <br/> |
 |Календарь  <br/> |PSETID_Appointment {00062002-0000-0000-C000-000000000046}  <br/> |
 |Календарь  <br/> |PSETID_Meeting {6ED8DA90-450B-101B-98DA-00AA003F1305}  <br/> |

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b21a3aa4-7536-4728-b4a4-273cfb25c57e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 127627b79782a2a785b00b79b9940b66256a08eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a73f5522e7201f73720318374745776b0ff08353
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810671"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570599"
 ---
 # <a name="pidlidwhere-canonical-property"></a>Каноническое свойство PidLidWhere
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает расположение события.
   

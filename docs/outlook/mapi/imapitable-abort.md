@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 73291a5b-b626-494c-b5d9-f7709e34bac2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 4b578f287a532475b53fb69cc4499662b6c4b6d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68d40a6e152698554fcb88c6f7e5bfd4a7ff0ce3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809197"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574008"
 ---
 # <a name="imapitableabort"></a>IMAPITable::Abort
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Останавливает асинхронной операции в данный момент для таблицы.
   
@@ -33,7 +33,7 @@ HRESULT Abort( void );
 
 ## <a name="parameters"></a>Параметры
 
-Нет
+None
   
 ## <a name="return-value"></a>������������ ��������
 

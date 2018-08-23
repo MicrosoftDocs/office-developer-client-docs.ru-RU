@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: В этой статье описываются Microsoft Project Online разработки приложений для настольных приложений с помощью .NET Framework 4.0. Приложения, описанного в данной статье извлекает сведения из внешнего размещения сервера.
-ms.openlocfilehash: a0a2b4042d4db127c56c5ba873ebe25418344571
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a65dbbdedb371fae9b8f0b99ea113ae38cbaffb5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812941"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572881"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Разработка с помощью клиентской объектной модели приложения Project Online
 
@@ -39,7 +39,7 @@ Project Online включает три online наборов API: объектн
     
 В этой статье основное внимание уделяется приложение, использующее интерфейс .NET CSOM.
   
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Необходимые разрешения
 
 Начать с базовой системы под управлением Windows 10 и добавьте следующие элементы:
   
@@ -639,6 +639,6 @@ Value: Red
 
 ## <a name="see-also"></a>См. также
 
-Документация и примеры, связанные с Project Online и разработки приложений с помощью CSOM в разделе [Портал проектов разработки](http://dev.office.com/project.aspx).
+Документация и примеры, связанные с Project Online и разработки приложений с помощью CSOM в разделе [Портал проектов разработки](https://developer.microsoft.com/en-us/project).
     
 
