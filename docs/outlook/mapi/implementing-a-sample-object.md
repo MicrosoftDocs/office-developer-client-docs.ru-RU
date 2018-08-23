@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 85de8dd7211fa19b7cdbda9f5ced1f00a736ca9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d2f5fc2f26019902b27750613f7c360a751cd51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809290"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582933"
 ---
-# <a name="implementing-a-sample-object"></a><span data-ttu-id="eed23-103">Реализация объекта образца</span><span class="sxs-lookup"><span data-stu-id="eed23-103">Implementing a sample object</span></span>
+# <a name="implementing-a-sample-object"></a><span data-ttu-id="f299a-103">Реализация объекта образца</span><span class="sxs-lookup"><span data-stu-id="f299a-103">Implementing a sample object</span></span>
 
-<span data-ttu-id="eed23-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="eed23-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="f299a-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f299a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="eed23-105">Уведомить приемник объекты — объекты, поддерживающие [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) интерфейс — являются MAPI объектов, что клиентские приложения реализовать для обработки уведомлений.</span><span class="sxs-lookup"><span data-stu-id="eed23-105">Advise sink objects — objects that support the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — are MAPI objects that client applications implement for processing notifications.</span></span> <span data-ttu-id="eed23-106">**IMAPIAdviseSink** наследует непосредственно от [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) и содержит только один метод **OnNotify**.</span><span class="sxs-lookup"><span data-stu-id="eed23-106">**IMAPIAdviseSink** inherits directly from [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) and contains only one method, **OnNotify**.</span></span> <span data-ttu-id="eed23-107">Таким образом для реализации объекта приемник уведомлений, клиент создает код для трех методы **IUnknown** и [OnNotify](imapiadvisesink-onnotify.md).</span><span class="sxs-lookup"><span data-stu-id="eed23-107">Therefore, to implement an advise sink object, a client creates code for the three methods in **IUnknown** and for [OnNotify](imapiadvisesink-onnotify.md).</span></span>
+<span data-ttu-id="f299a-105">Уведомить приемник объекты — объекты, поддерживающие [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) интерфейс — являются MAPI объектов, что клиентские приложения реализовать для обработки уведомлений.</span><span class="sxs-lookup"><span data-stu-id="f299a-105">Advise sink objects — objects that support the [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — are MAPI objects that client applications implement for processing notifications.</span></span> <span data-ttu-id="f299a-106">**IMAPIAdviseSink** наследует непосредственно от [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) и содержит только один метод **OnNotify**.</span><span class="sxs-lookup"><span data-stu-id="f299a-106">**IMAPIAdviseSink** inherits directly from [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) and contains only one method, **OnNotify**.</span></span> <span data-ttu-id="f299a-107">Таким образом для реализации объекта приемник уведомлений, клиент создает код для трех методы **IUnknown** и [OnNotify](imapiadvisesink-onnotify.md).</span><span class="sxs-lookup"><span data-stu-id="f299a-107">Therefore, to implement an advise sink object, a client creates code for the three methods in **IUnknown** and for [OnNotify](imapiadvisesink-onnotify.md).</span></span>
   
-<span data-ttu-id="eed23-108">Файл заголовка Mapidefs.h определяет реализация интерфейса **IMAPIAdviseSink** с помощью **DECLARE_MAPI_INTERFACE**следующим образом:</span><span class="sxs-lookup"><span data-stu-id="eed23-108">The Mapidefs.h header file defines an **IMAPIAdviseSink** interface implementation by using **DECLARE_MAPI_INTERFACE**, as follows:</span></span>
+<span data-ttu-id="f299a-108">Файл заголовка Mapidefs.h определяет реализация интерфейса **IMAPIAdviseSink** с помощью **DECLARE_MAPI_INTERFACE**следующим образом:</span><span class="sxs-lookup"><span data-stu-id="f299a-108">The Mapidefs.h header file defines an **IMAPIAdviseSink** interface implementation by using **DECLARE_MAPI_INTERFACE**, as follows:</span></span>
   
 ```cpp
 #define      INTERFACE  IMAPIAdviseSink
@@ -34,9 +34,9 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
  
 ```
 
-<span data-ttu-id="eed23-109">Клиенты, которые реализуют уведомить объектов приемника интерфейсы можно определить их в своих объектов вручную или с помощью макросов **MAPI_IUNKNOWN_METHODS** и **MAPI_IMAPIADVISESINK_METHODS** .</span><span class="sxs-lookup"><span data-stu-id="eed23-109">Clients that implement advise sink objects can define their interfaces in their objects manually or with the **MAPI_IUNKNOWN_METHODS** and **MAPI_IMAPIADVISESINK_METHODS** macros.</span></span> <span data-ttu-id="eed23-110">Объект специалистов по внедрению следует использовать макросы интерфейс по возможности для обеспечения согласованности между объектами и сохранить время и силы.</span><span class="sxs-lookup"><span data-stu-id="eed23-110">Object implementers should use the interface macros whenever possible to ensure consistency across objects and to save time and effort.</span></span> 
+<span data-ttu-id="f299a-109">Клиенты, которые реализуют уведомить объектов приемника интерфейсы можно определить их в своих объектов вручную или с помощью макросов **MAPI_IUNKNOWN_METHODS** и **MAPI_IMAPIADVISESINK_METHODS** .</span><span class="sxs-lookup"><span data-stu-id="f299a-109">Clients that implement advise sink objects can define their interfaces in their objects manually or with the **MAPI_IUNKNOWN_METHODS** and **MAPI_IMAPIADVISESINK_METHODS** macros.</span></span> <span data-ttu-id="f299a-110">Объект специалистов по внедрению следует использовать макросы интерфейс по возможности для обеспечения согласованности между объектами и сохранить время и силы.</span><span class="sxs-lookup"><span data-stu-id="f299a-110">Object implementers should use the interface macros whenever possible to ensure consistency across objects and to save time and effort.</span></span> 
   
-<span data-ttu-id="eed23-111">Реализация методов [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) и [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) будет достаточно простым, так как обычно требуется только несколько строк текста.</span><span class="sxs-lookup"><span data-stu-id="eed23-111">Implementing the [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) methods is relatively simple because typically only a few lines of code are needed.</span></span> <span data-ttu-id="eed23-112">Таким образом клиентов и поставщиков услуг, которые реализуют объекты можно делать их реализаций встроенных **AddRef** и **Release** .</span><span class="sxs-lookup"><span data-stu-id="eed23-112">Therefore, clients and service providers that implement objects can make their **AddRef** and **Release** implementations inline.</span></span> <span data-ttu-id="eed23-113">Ниже показано, как определить C++ объект приемника с помощью встроенного реализации **AddRef** и **Release**рекомендаций.</span><span class="sxs-lookup"><span data-stu-id="eed23-113">The following code shows how to define a C++ advise sink object with inline implementations of **AddRef** and **Release**.</span></span>
+<span data-ttu-id="f299a-111">Реализация методов [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) и [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) будет достаточно простым, так как обычно требуется только несколько строк текста.</span><span class="sxs-lookup"><span data-stu-id="f299a-111">Implementing the [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) methods is relatively simple because typically only a few lines of code are needed.</span></span> <span data-ttu-id="f299a-112">Таким образом клиентов и поставщиков услуг, которые реализуют объекты можно делать их реализаций встроенных **AddRef** и **Release** .</span><span class="sxs-lookup"><span data-stu-id="f299a-112">Therefore, clients and service providers that implement objects can make their **AddRef** and **Release** implementations inline.</span></span> <span data-ttu-id="f299a-113">Ниже показано, как определить C++ объект приемника с помощью встроенного реализации **AddRef** и **Release**рекомендаций.</span><span class="sxs-lookup"><span data-stu-id="f299a-113">The following code shows how to define a C++ advise sink object with inline implementations of **AddRef** and **Release**.</span></span>
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink
@@ -75,13 +75,13 @@ private :
  
 ```
 
-<span data-ttu-id="eed23-114">В C объект приемника уведомлений состоит из следующих элементов:</span><span class="sxs-lookup"><span data-stu-id="eed23-114">In C, the advise sink object is composed of the following elements:</span></span>
+<span data-ttu-id="f299a-114">В C объект приемника уведомлений состоит из следующих элементов:</span><span class="sxs-lookup"><span data-stu-id="f299a-114">In C, the advise sink object is composed of the following elements:</span></span>
   
-- <span data-ttu-id="eed23-115">Указатель vtable, который содержит указатели на реализации каждого из методов в **IUnknown** и **IMAPIAdviseSink**.</span><span class="sxs-lookup"><span data-stu-id="eed23-115">A pointer to a vtable that contains pointers to implementations of each of the methods in **IUnknown** and **IMAPIAdviseSink**.</span></span>
+- <span data-ttu-id="f299a-115">Указатель vtable, который содержит указатели на реализации каждого из методов в **IUnknown** и **IMAPIAdviseSink**.</span><span class="sxs-lookup"><span data-stu-id="f299a-115">A pointer to a vtable that contains pointers to implementations of each of the methods in **IUnknown** and **IMAPIAdviseSink**.</span></span>
     
-- <span data-ttu-id="eed23-116">Элементы данных.</span><span class="sxs-lookup"><span data-stu-id="eed23-116">Data members.</span></span>
+- <span data-ttu-id="f299a-116">Элементы данных.</span><span class="sxs-lookup"><span data-stu-id="f299a-116">Data members.</span></span>
     
-<span data-ttu-id="eed23-117">В следующем примере кода показано, как определить объект приемника уведомлений в C и создать его vtable.</span><span class="sxs-lookup"><span data-stu-id="eed23-117">The following code example shows how to define an advise sink object in C and construct its vtable.</span></span> 
+<span data-ttu-id="f299a-117">В следующем примере кода показано, как определить объект приемника уведомлений в C и создать его vtable.</span><span class="sxs-lookup"><span data-stu-id="f299a-117">The following code example shows how to define an advise sink object in C and construct its vtable.</span></span> 
   
 ```cpp
 // Object definition.
@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-<span data-ttu-id="eed23-118">После объявления переменной объекта в C вы должны инициализировать путем установки для параметра адрес созданного vtable указателя vtable, как показано в следующем коде:</span><span class="sxs-lookup"><span data-stu-id="eed23-118">After you declare an object in C, you must initialize it by setting the vtable pointer to the address of the constructed vtable, as shown in the following code:</span></span>
+<span data-ttu-id="f299a-118">После объявления переменной объекта в C вы должны инициализировать путем установки для параметра адрес созданного vtable указателя vtable, как показано в следующем коде:</span><span class="sxs-lookup"><span data-stu-id="f299a-118">After you declare an object in C, you must initialize it by setting the vtable pointer to the address of the constructed vtable, as shown in the following code:</span></span>
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;
@@ -113,8 +113,8 @@ lpMyObj->lpVtbl = &vtblADVISE;
  
 ```
 
-## <a name="see-also"></a><span data-ttu-id="eed23-119">См. также</span><span class="sxs-lookup"><span data-stu-id="eed23-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f299a-119">См. также</span><span class="sxs-lookup"><span data-stu-id="f299a-119">See also</span></span>
 
-- [<span data-ttu-id="eed23-120">Обзор свойств MAPI</span><span class="sxs-lookup"><span data-stu-id="eed23-120">MAPI Property Overview</span></span>](mapi-property-overview.md)
-- [<span data-ttu-id="eed23-121">Реализация объектов MAPI</span><span class="sxs-lookup"><span data-stu-id="eed23-121">Implementing MAPI Objects</span></span>](implementing-mapi-objects.md)
+- [<span data-ttu-id="f299a-120">Обзор свойств MAPI</span><span class="sxs-lookup"><span data-stu-id="f299a-120">MAPI Property Overview</span></span>](mapi-property-overview.md)
+- [<span data-ttu-id="f299a-121">Реализация объектов MAPI</span><span class="sxs-lookup"><span data-stu-id="f299a-121">Implementing MAPI Objects</span></span>](implementing-mapi-objects.md)
 

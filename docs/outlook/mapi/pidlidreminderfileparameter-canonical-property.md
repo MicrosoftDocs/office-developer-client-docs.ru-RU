@@ -12,60 +12,60 @@ api_type:
 - COM
 ms.assetid: 1009f0ea-6f35-484d-b04d-5b6e844c14dd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1cfb8f7070a8001e94fa70e90c52635c9b8be122
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 07653bea747e6e697cb1edb5669ae106c9e213fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810499"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591480"
 ---
-# <a name="pidlidreminderfileparameter-canonical-property"></a><span data-ttu-id="5b0fa-103">Каноническое свойство PidLidReminderFileParameter</span><span class="sxs-lookup"><span data-stu-id="5b0fa-103">PidLidReminderFileParameter Canonical Property</span></span>
+# <a name="pidlidreminderfileparameter-canonical-property"></a><span data-ttu-id="6cd0b-103">Каноническое свойство PidLidReminderFileParameter</span><span class="sxs-lookup"><span data-stu-id="6cd0b-103">PidLidReminderFileParameter Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5b0fa-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="5b0fa-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="6cd0b-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6cd0b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5b0fa-105">Указывает имя файла звук, клиент должен воспроизводиться мере просроченные оповещение для этого объекта.</span><span class="sxs-lookup"><span data-stu-id="5b0fa-105">Specifies the filename of the sound that a client should play when the reminder for that object becomes overdue.</span></span>
+<span data-ttu-id="6cd0b-105">Указывает имя файла звук, клиент должен воспроизводиться мере просроченные оповещение для этого объекта.</span><span class="sxs-lookup"><span data-stu-id="6cd0b-105">Specifies the filename of the sound that a client should play when the reminder for that object becomes overdue.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5b0fa-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="5b0fa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5b0fa-107">dispidReminderFileParam</span><span class="sxs-lookup"><span data-stu-id="5b0fa-107">dispidReminderFileParam</span></span>  <br/> |
-|<span data-ttu-id="5b0fa-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="5b0fa-108">Property set:</span></span>  <br/> |<span data-ttu-id="5b0fa-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="5b0fa-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="5b0fa-110">Длинный идентификатор (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="5b0fa-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="5b0fa-111">0x0000851F</span><span class="sxs-lookup"><span data-stu-id="5b0fa-111">0x0000851F</span></span>  <br/> |
-|<span data-ttu-id="5b0fa-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="5b0fa-112">Data type:</span></span>  <br/> |<span data-ttu-id="5b0fa-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="5b0fa-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="5b0fa-114">Область:</span><span class="sxs-lookup"><span data-stu-id="5b0fa-114">Area:</span></span>  <br/> |<span data-ttu-id="5b0fa-115">Reminder</span><span class="sxs-lookup"><span data-stu-id="5b0fa-115">Reminder</span></span>  <br/> |
+|<span data-ttu-id="6cd0b-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="6cd0b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6cd0b-107">dispidReminderFileParam</span><span class="sxs-lookup"><span data-stu-id="6cd0b-107">dispidReminderFileParam</span></span>  <br/> |
+|<span data-ttu-id="6cd0b-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="6cd0b-108">Property set:</span></span>  <br/> |<span data-ttu-id="6cd0b-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="6cd0b-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="6cd0b-110">Длинный идентификатор (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="6cd0b-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="6cd0b-111">0x0000851F</span><span class="sxs-lookup"><span data-stu-id="6cd0b-111">0x0000851F</span></span>  <br/> |
+|<span data-ttu-id="6cd0b-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="6cd0b-112">Data type:</span></span>  <br/> |<span data-ttu-id="6cd0b-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="6cd0b-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="6cd0b-114">Область:</span><span class="sxs-lookup"><span data-stu-id="6cd0b-114">Area:</span></span>  <br/> |<span data-ttu-id="6cd0b-115">Reminder</span><span class="sxs-lookup"><span data-stu-id="6cd0b-115">Reminder</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5b0fa-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="5b0fa-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6cd0b-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="6cd0b-116">Remarks</span></span>
 
-<span data-ttu-id="5b0fa-117">Если это свойство не задан, клиент может использовать значение по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="5b0fa-117">If this property is not present, the client may use a default value.</span></span>
+<span data-ttu-id="6cd0b-117">Если это свойство не задан, клиент может использовать значение по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="6cd0b-117">If this property is not present, the client may use a default value.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="5b0fa-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="5b0fa-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="6cd0b-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="6cd0b-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="5b0fa-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="5b0fa-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="6cd0b-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="6cd0b-119">Protocol specifications</span></span>
 
-<span data-ttu-id="5b0fa-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5b0fa-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="6cd0b-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6cd0b-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5b0fa-121">Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="5b0fa-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="6cd0b-121">Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="6cd0b-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="5b0fa-122">[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5b0fa-122">[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="6cd0b-122">[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6cd0b-122">[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5b0fa-123">Задает свойства и модель взаимодействия для электронной почты и других объектов напоминания.</span><span class="sxs-lookup"><span data-stu-id="5b0fa-123">Specifies the properties and the interaction model for email and other object reminders.</span></span>
+> <span data-ttu-id="6cd0b-123">Задает свойства и модель взаимодействия для электронной почты и других объектов напоминания.</span><span class="sxs-lookup"><span data-stu-id="6cd0b-123">Specifies the properties and the interaction model for email and other object reminders.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="5b0fa-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="5b0fa-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="6cd0b-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="6cd0b-124">Header files</span></span>
 
-<span data-ttu-id="5b0fa-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5b0fa-125">Mapidefs.h</span></span>
+<span data-ttu-id="6cd0b-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6cd0b-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="5b0fa-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="5b0fa-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="6cd0b-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="6cd0b-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5b0fa-127">См. также</span><span class="sxs-lookup"><span data-stu-id="5b0fa-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6cd0b-127">См. также</span><span class="sxs-lookup"><span data-stu-id="6cd0b-127">See also</span></span>
 
 
 
-[<span data-ttu-id="5b0fa-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="5b0fa-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="6cd0b-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="6cd0b-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="5b0fa-129">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="5b0fa-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="6cd0b-129">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="6cd0b-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="5b0fa-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="5b0fa-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="6cd0b-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="6cd0b-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="5b0fa-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="5b0fa-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="6cd0b-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="6cd0b-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

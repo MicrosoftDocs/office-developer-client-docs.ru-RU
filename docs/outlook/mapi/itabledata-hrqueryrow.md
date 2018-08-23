@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 92540159386e6f37d93684aff037b235071010f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef0dc212a6a6f761cd8dd0cae5312c548c02ae50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809608"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583822"
 ---
-# <a name="itabledatahrqueryrow"></a><span data-ttu-id="abfbe-103">ITableData::HrQueryRow</span><span class="sxs-lookup"><span data-stu-id="abfbe-103">ITableData::HrQueryRow</span></span>
+# <a name="itabledatahrqueryrow"></a><span data-ttu-id="5b682-103">ITableData::HrQueryRow</span><span class="sxs-lookup"><span data-stu-id="5b682-103">ITableData::HrQueryRow</span></span>
 
   
   
-<span data-ttu-id="abfbe-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="abfbe-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="5b682-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5b682-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="abfbe-105">Получает строку таблицы.</span><span class="sxs-lookup"><span data-stu-id="abfbe-105">Retrieves a table row.</span></span>
+<span data-ttu-id="5b682-105">Получает строку таблицы.</span><span class="sxs-lookup"><span data-stu-id="5b682-105">Retrieves a table row.</span></span>
   
 ```cpp
 HRESULT HrQueryRow(
@@ -35,47 +35,47 @@ HRESULT HrQueryRow(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="abfbe-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="abfbe-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5b682-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="5b682-106">Parameters</span></span>
 
- <span data-ttu-id="abfbe-107">_lpSPropValue_</span><span class="sxs-lookup"><span data-stu-id="abfbe-107">_lpSPropValue_</span></span>
+ <span data-ttu-id="5b682-107">_lpSPropValue_</span><span class="sxs-lookup"><span data-stu-id="5b682-107">_lpSPropValue_</span></span>
   
-> <span data-ttu-id="abfbe-108">[in] Указатель на структуру значение свойства, с описанием столбца индекса для строки нужно вернуть.</span><span class="sxs-lookup"><span data-stu-id="abfbe-108">[in] A pointer to a property value structure that describes the index column for the row to be retrieved.</span></span> <span data-ttu-id="abfbe-109">Член **ulPropTag** структуры значение свойства должны содержать один и тот же свойство тег параметра- _ulPropTagIndexColumn_ вызов функции [CreateTable](createtable.md) , которая обращается к реализации [ITableData](itabledataiunknown.md) .</span><span class="sxs-lookup"><span data-stu-id="abfbe-109">The **ulPropTag** member of the property value structure should contain the same property tag as the  _ulPropTagIndexColumn_ parameter from the call to the [CreateTable](createtable.md) function, which accesses the [ITableData](itabledataiunknown.md) implementation.</span></span> 
+> <span data-ttu-id="5b682-108">[in] Указатель на структуру значение свойства, с описанием столбца индекса для строки нужно вернуть.</span><span class="sxs-lookup"><span data-stu-id="5b682-108">[in] A pointer to a property value structure that describes the index column for the row to be retrieved.</span></span> <span data-ttu-id="5b682-109">Член **ulPropTag** структуры значение свойства должны содержать один и тот же свойство тег параметра- _ulPropTagIndexColumn_ вызов функции [CreateTable](createtable.md) , которая обращается к реализации [ITableData](itabledataiunknown.md) .</span><span class="sxs-lookup"><span data-stu-id="5b682-109">The **ulPropTag** member of the property value structure should contain the same property tag as the  _ulPropTagIndexColumn_ parameter from the call to the [CreateTable](createtable.md) function, which accesses the [ITableData](itabledataiunknown.md) implementation.</span></span> 
     
- <span data-ttu-id="abfbe-110">_lppSRow_</span><span class="sxs-lookup"><span data-stu-id="abfbe-110">_lppSRow_</span></span>
+ <span data-ttu-id="5b682-110">_lppSRow_</span><span class="sxs-lookup"><span data-stu-id="5b682-110">_lppSRow_</span></span>
   
-> <span data-ttu-id="abfbe-111">[out] Указатель на указатель извлеченных строк.</span><span class="sxs-lookup"><span data-stu-id="abfbe-111">[out] A pointer to a pointer to the retrieved row.</span></span> 
+> <span data-ttu-id="5b682-111">[out] Указатель на указатель извлеченных строк.</span><span class="sxs-lookup"><span data-stu-id="5b682-111">[out] A pointer to a pointer to the retrieved row.</span></span> 
     
- <span data-ttu-id="abfbe-112">_lpuliRow_</span><span class="sxs-lookup"><span data-stu-id="abfbe-112">_lpuliRow_</span></span>
+ <span data-ttu-id="5b682-112">_lpuliRow_</span><span class="sxs-lookup"><span data-stu-id="5b682-112">_lpuliRow_</span></span>
   
-> <span data-ttu-id="abfbe-113">[in, out] На ввод допустимый указатель или значение NULL, который означает необходимость сведения не должно быть возвращено.</span><span class="sxs-lookup"><span data-stu-id="abfbe-113">[in, out] On input, a valid pointer or NULL, which indicates that no information needs to be returned.</span></span> <span data-ttu-id="abfbe-114">Выходные данные, допустимый указатель, указывающий на номер строки строки, порядковый номер, идентифицирующий положение строки в таблице.</span><span class="sxs-lookup"><span data-stu-id="abfbe-114">On output, a valid pointer that points to the row's row number, a sequential number that identifies the row's position in the table.</span></span>
+> <span data-ttu-id="5b682-113">[in, out] На ввод допустимый указатель или значение NULL, который означает необходимость сведения не должно быть возвращено.</span><span class="sxs-lookup"><span data-stu-id="5b682-113">[in, out] On input, a valid pointer or NULL, which indicates that no information needs to be returned.</span></span> <span data-ttu-id="5b682-114">Выходные данные, допустимый указатель, указывающий на номер строки строки, порядковый номер, идентифицирующий положение строки в таблице.</span><span class="sxs-lookup"><span data-stu-id="5b682-114">On output, a valid pointer that points to the row's row number, a sequential number that identifies the row's position in the table.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="abfbe-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="abfbe-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5b682-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="5b682-115">Return value</span></span>
 
-<span data-ttu-id="abfbe-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="abfbe-116">S_OK</span></span> 
+<span data-ttu-id="5b682-116">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="5b682-116">S_OK</span></span> 
   
-> <span data-ttu-id="abfbe-117">Строка был успешно извлечен.</span><span class="sxs-lookup"><span data-stu-id="abfbe-117">The row was successfully retrieved.</span></span>
+> <span data-ttu-id="5b682-117">Строка был успешно извлечен.</span><span class="sxs-lookup"><span data-stu-id="5b682-117">The row was successfully retrieved.</span></span>
     
-<span data-ttu-id="abfbe-118">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="abfbe-118">MAPI_E_INVALID_PARAMETER</span></span> 
+<span data-ttu-id="5b682-118">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="5b682-118">MAPI_E_INVALID_PARAMETER</span></span> 
   
-> <span data-ttu-id="abfbe-119">[SPropValue](spropvalue.md) структуры, указывающего _lpSPropValue_ не содержит свойство column индекса.</span><span class="sxs-lookup"><span data-stu-id="abfbe-119">The [SPropValue](spropvalue.md) structure that  _lpSPropValue_ points to does not contain the index column property.</span></span> 
+> <span data-ttu-id="5b682-119">[SPropValue](spropvalue.md) структуры, указывающего _lpSPropValue_ не содержит свойство column индекса.</span><span class="sxs-lookup"><span data-stu-id="5b682-119">The [SPropValue](spropvalue.md) structure that  _lpSPropValue_ points to does not contain the index column property.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="abfbe-120">Замечания</span><span class="sxs-lookup"><span data-stu-id="abfbe-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5b682-120">Замечания</span><span class="sxs-lookup"><span data-stu-id="5b682-120">Remarks</span></span>
 
-<span data-ttu-id="abfbe-121">Метод **ITableData::HrQueryRow** получает все свойства для строки, которая имеет столбец индекса, который соответствует значению индекса столбца в структуре свойство, которое указывает _lpSPropValue_.</span><span class="sxs-lookup"><span data-stu-id="abfbe-121">The **ITableData::HrQueryRow** method retrieves all of the properties for the row that has an index column that matches the value of the index column included in the property structure pointed to by  _lpSPropValue_.</span></span> <span data-ttu-id="abfbe-122">**HrQueryRow** также возвращает номер строки, если вызывающий объект запрашивает его, указывающее положение строки в таблице.</span><span class="sxs-lookup"><span data-stu-id="abfbe-122">**HrQueryRow** also returns the row number, if the caller requests it, that identifies the row's position in the table.</span></span> 
+<span data-ttu-id="5b682-121">Метод **ITableData::HrQueryRow** получает все свойства для строки, которая имеет столбец индекса, который соответствует значению индекса столбца в структуре свойство, которое указывает _lpSPropValue_.</span><span class="sxs-lookup"><span data-stu-id="5b682-121">The **ITableData::HrQueryRow** method retrieves all of the properties for the row that has an index column that matches the value of the index column included in the property structure pointed to by  _lpSPropValue_.</span></span> <span data-ttu-id="5b682-122">**HrQueryRow** также возвращает номер строки, если вызывающий объект запрашивает его, указывающее положение строки в таблице.</span><span class="sxs-lookup"><span data-stu-id="5b682-122">**HrQueryRow** also returns the row number, if the caller requests it, that identifies the row's position in the table.</span></span> 
   
-<span data-ttu-id="abfbe-123">Так как **HrQueryRow** не изменяет структуру **SPropValue** , на который указывает _lpSPropValue_, вызывающие необходимо освободить структура при возврате **HrQueryRow** .</span><span class="sxs-lookup"><span data-stu-id="abfbe-123">Because **HrQueryRow** does not modify the **SPropValue** structure pointed to by  _lpSPropValue_, callers must free the structure when **HrQueryRow** returns.</span></span> <span data-ttu-id="abfbe-124">Вызывающие объекты также необходимо освободить **SRow** структуры, содержащей извлеченные строки.</span><span class="sxs-lookup"><span data-stu-id="abfbe-124">Callers must also free the **SRow** structure that contains the retrieved row.</span></span> 
+<span data-ttu-id="5b682-123">Так как **HrQueryRow** не изменяет структуру **SPropValue** , на который указывает _lpSPropValue_, вызывающие необходимо освободить структура при возврате **HrQueryRow** .</span><span class="sxs-lookup"><span data-stu-id="5b682-123">Because **HrQueryRow** does not modify the **SPropValue** structure pointed to by  _lpSPropValue_, callers must free the structure when **HrQueryRow** returns.</span></span> <span data-ttu-id="5b682-124">Вызывающие объекты также необходимо освободить **SRow** структуры, содержащей извлеченные строки.</span><span class="sxs-lookup"><span data-stu-id="5b682-124">Callers must also free the **SRow** structure that contains the retrieved row.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="abfbe-125">См. также</span><span class="sxs-lookup"><span data-stu-id="abfbe-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5b682-125">См. также</span><span class="sxs-lookup"><span data-stu-id="5b682-125">See also</span></span>
 
 
 
-[<span data-ttu-id="abfbe-126">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="abfbe-126">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
+[<span data-ttu-id="5b682-126">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="5b682-126">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
   
-[<span data-ttu-id="abfbe-127">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="abfbe-127">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
+[<span data-ttu-id="5b682-127">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="5b682-127">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
   
-[<span data-ttu-id="abfbe-128">SPropValue</span><span class="sxs-lookup"><span data-stu-id="abfbe-128">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="5b682-128">SPropValue</span><span class="sxs-lookup"><span data-stu-id="5b682-128">SPropValue</span></span>](spropvalue.md)
   
-[<span data-ttu-id="abfbe-129">SRow</span><span class="sxs-lookup"><span data-stu-id="abfbe-129">SRow</span></span>](srow.md)
+[<span data-ttu-id="5b682-129">SRow</span><span class="sxs-lookup"><span data-stu-id="5b682-129">SRow</span></span>](srow.md)
   
-[<span data-ttu-id="abfbe-130">ITableData : IUnknown</span><span class="sxs-lookup"><span data-stu-id="abfbe-130">ITableData : IUnknown</span></span>](itabledataiunknown.md)
+[<span data-ttu-id="5b682-130">ITableData : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5b682-130">ITableData : IUnknown</span></span>](itabledataiunknown.md)
 
