@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d6724914896fe7c40e9a456785aa5c92b84532fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808458"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567162"
 ---
 # <a name="folder-fields-stream-structures"></a>Структуры потоков полей папок
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Свойство [PidTagUserFields](pidtaguserfields-canonical-property.md) сообщение содержит двоичный поток FolderUserFields, который содержит определения полей, пользовательские папки. В этом разделе описываются структуры потока для определения пользовательских полей папки. 
 
@@ -130,7 +130,7 @@ ms.locfileid: "19808458"
     |FCAPM_MULTILINE_TEXT  <br/> |0x00000100  <br/> |Поле может содержать несколько строк текста.  <br/> |
     |FCAPM_PERCENT  <br/> |0x01000000  <br/> |В этом поле ftFloat тип — это процентное поле.  <br/> |
     |FCAPM_DATEONLY  <br/> |0x01000000  <br/> |В этом поле ftTime типа является поля только для даты времени.  <br/> |
-    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |Для этого поля ftInteger тип единица не разрешена в формат отображения; для примера таких форматов как «Computer - 640 K...» не допускается.  <br/> |
+    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |Для этого поля ftInteger тип единица не разрешена в формат отображения; Например форматов, таких как «компьютер - 640 K...» не допускается.  <br/> |
     |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0x80000000  <br/> |Это поле может быть изменено в элементе: это специально для настраиваемых форм.  <br/> |
    
 - **dwString**: DWORD (4 байта). В разделе первого следующее примечание.

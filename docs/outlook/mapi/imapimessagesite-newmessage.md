@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7062e0b73d2d70be12fb9cead6813ef9c36fdd43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 133a2ae3896b9aaedb502cb77516040c53584882
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808978"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563739"
 ---
 # <a name="imapimessagesitenewmessage"></a>IMAPIMessageSite::NewMessage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает новое сообщение.
   

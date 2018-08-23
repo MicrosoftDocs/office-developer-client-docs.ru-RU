@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7bf66f0c-3095-4b4a-a32e-db278e1adc5a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 15615a2de54cf42399007268cc07cbe2ab776ee8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20f70f9e7bfecd955eb6bfb1c05c6b2010cb52cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811431"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563410"
 ---
 # <a name="pidtagoriginaldisplaybcc-canonical-property"></a>Каноническое свойство PidTagOriginalDisplayBcc
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемые имена получателей скрытой копии (СК) исходного сообщения.
   

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 18b0d284-c224-a022-47d9-b2d82a32f996
 description: '���� ���������� ���������: 25 ���� 2012 �.'
-ms.openlocfilehash: df225a0852b09e048656e817c54ea28b0de59888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa30a173251193d74d6560c8dce2663463a18e36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808000"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565986"
 ---
 # <a name="about-the-offline-state-api"></a>Сведения об API автономного состояния
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Автономные состояния API поддерживает обратных вызовов, указывающее, изменения в состоянии подключения пользователя в Microsoft Outlook 2013 и Microsoft Outlook 2010 — например, от которого online в Outlook 2013 или Outlook 2010 для отключения. API-Интерфейс используется объект глобального автономной в Outlook 2013 или Outlook 2010 для отслеживания таких изменений для профиля учетной записи указанного пользователя. Уведомления — это единственный поддерживаемого форм обратного вызова. Как клиенты этот интерфейс API почты поставщиков, кому требуется получать уведомления о такие изменения состояния подключения выполните следующие действия.
   

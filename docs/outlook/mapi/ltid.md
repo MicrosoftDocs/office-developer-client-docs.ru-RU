@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 4a60e2fe3a58e1d696ae9645e03ce8dde5340d9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29dd2e3b47d0f43df7824274d2fdcc4f7f16eeb3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809663"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569857"
 ---
 # <a name="ltid"></a>LTID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Универсальный длинный идентификатор термина объекта в хранилище Outlook.
   

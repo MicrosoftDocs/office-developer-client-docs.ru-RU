@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f8105bae0f3d97c946eec25543406b61e7d55160
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c7cabcd01ab91fa81f050ba635ece8d6b7aba02
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810972"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568373"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>Каноническое свойство PidTagContactAddressBookFolderNames
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имена контактов папки, где пользователи почты.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: debf7ec3-e9f9-4912-b9a2-fc0953a56a01
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 6465b2d24c3a38da40f2d1e6df79c2fa256b64b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f77b3dd9ca8c977574aab337b0df572404061b4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808119"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565867"
 ---
 # <a name="calling-mapi-from-windows-services"></a>Вызов MAPI из служб Windows
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Чтобы включить клиентские приложения MAPI, которые записываются в виде служб Windows для работы с MAPI-совместимое поставщиков услуг, MAPI, задает некоторые ограничения и требования.
   

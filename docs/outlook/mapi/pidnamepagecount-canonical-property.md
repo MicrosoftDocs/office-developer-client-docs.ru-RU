@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 2f5b6961-69c0-4103-bac7-cc0b22ab2c4f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b745dcc9463c6884e01f395e89109178a3cfde48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9d45d5ab12f1efa6dba97f31c43d525dc28b460
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810722"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563585"
 ---
 # <a name="pidnamepagecount-canonical-property"></a>Каноническое свойство PidNamePageCount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает число страниц из файла, вложенного в документ.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |PageCount  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |

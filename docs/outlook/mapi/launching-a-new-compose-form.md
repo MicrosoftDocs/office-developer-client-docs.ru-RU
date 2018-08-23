@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8d1b94c70e4de6310d2e84cf002c4e3199fced2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66aa5fe08b1c0be3906fa9a0483bbdec37c095c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809662"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564502"
 ---
 # <a name="launching-a-new-compose-form"></a>Запуск новой формы создания
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Специалистов по внедрению сервера форм следует ожидать следующую последовательность вызовов к серверу формы и объекты формы при клиентского приложения откроется новое сообщение для составления:
   

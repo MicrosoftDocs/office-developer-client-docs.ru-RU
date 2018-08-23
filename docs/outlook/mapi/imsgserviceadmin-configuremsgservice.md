@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f58d0f5cd7dfe74d3859d4f06a41aad6c3a55ac4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a599a6fe5093e52e50d33a1761df5689b7335138
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809336"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568296"
 ---
 # <a name="imsgserviceadminconfiguremsgservice"></a>IMsgServiceAdmin::ConfigureMsgService
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Устанавливает службы сообщений.
   

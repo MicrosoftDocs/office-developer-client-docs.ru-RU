@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 98e4d2e3-95fc-4644-8aa8-a9787717de68
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 70dfc267acbbf4d23f744d3b8e4050162cb56152
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61af11204cb9f78700f00e8dcc2f69fcb96245c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810675"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566903"
 ---
 # <a name="pidlidworkaddresspostofficebox-canonical-property"></a>Каноническое свойство PidLidWorkAddressPostOfficeBox
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает почтовый ящик часть работы контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810675"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x0000804A  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

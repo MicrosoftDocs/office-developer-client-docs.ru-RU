@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 4d1bc5fc5a5e304d81ab4252a527d0e52b0d6e3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54443001e3cb14603c8f8f798f2a4068d73b00eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19809921"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568065"
 ---
 # <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Сопоставление атрибутов почты Интернета со свойствами MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются как поставщика транспорта MAPI или принять во внимание MAPI шлюз, который подключается к Интернету следует использовать во всем свойства сообщения MAPI и атрибуты сообщений транспортный протокол SMTP (Simple Mail). SMTP применяется протокол обмена сообщениями на большую часть Интернета. Определяет набор заголовков сообщений SMTP — конверт сообщения и содержимое сообщения в формате. SMTP полностью описан в набор из двух документов, согласно документу RFC 821 и RFC 822, которые можно найти по номеру FTP и веб-сайтов в Интернете.
   

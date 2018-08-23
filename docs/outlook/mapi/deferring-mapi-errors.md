@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 93ae6d54-41cd-433c-8124-eb07d71baa57
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e2b091fa21dae4a1a8da23954d5f998010483da1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d2a46be04f235ba55aa5f2feef222ea7372b211
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808261"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569864"
 ---
 # <a name="deferring-mapi-errors"></a>Откладывание ошибки MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Некоторые методы интерфейса принятие флаг MAPI_DEFERRED_ERRORS в качестве входного параметра. Если этот флаг, метод не имеет сразу же возвращает значение; Это позволяет вызывающему объекту определить результат вызова позднее.
   

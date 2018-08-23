@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 48dfced07a8fd78a1af22679759effbd3c6da343
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b685fd0ebe4a2d0bfcfd8aab3015602b84932db7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810810"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564943"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>Каноническое свойство PidTagAddressBookChooseDirectoryAutomatically
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Позволяет выбрать наиболее подходящую глобальном списке адресов (GAL) или папку "Контакты" для текущего почтового ящика Microsoft Outlook 2010 и Microsoft Outlook 2013.
   

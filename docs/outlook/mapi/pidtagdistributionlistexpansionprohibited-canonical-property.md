@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 80c11dd3-775b-4c66-afc2-b31d7bbcad9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 863dcc0a3a5081be74365ba22fea097b9e9e86f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 743779a815274ae00fae7bacfe9755fc574f38be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811087"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563676"
 ---
 # <a name="pidtagdistributionlistexpansionprohibited-canonical-property"></a>Каноническое свойство PidTagDistributionListExpansionProhibited
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если сообщение передачи (агента) запрещено возможность расширения списков рассылок.
   

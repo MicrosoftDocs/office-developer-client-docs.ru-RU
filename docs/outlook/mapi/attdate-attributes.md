@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22801641-752c-4c81-be90-02039eaa4277
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f3319c9ae49fa97a6179b0ee800bd5dd594aefab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff0cc6b1c17b2ed83d7b0ec0921904763da8624b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808087"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567015"
 ---
 # <a name="attdate-attributes"></a>attDate Attributes
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Все свойства MAPI, относящиеся к значения даты и времени, сопоставляются с TNEF атрибутов, начинающиеся с префикса **attDate** . Все эти кодируются как **DTR** структуры. Дата и время для атрибутов вложения, помеченные как также **DTR** структуры. 
   

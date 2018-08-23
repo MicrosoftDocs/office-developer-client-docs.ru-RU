@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3645e7a6-ef30-494f-bf71-fa06f819bc0c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 03569d05f724df773b1ca3aaf8b7a8f5132b8681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b8af182d905a1b7449d96a525696fb6af912d3ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811710"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563795"
 ---
 # <a name="pidtagreplytemplateid-canonical-property"></a>Каноническое свойство PidTagReplyTemplateId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит глобальный уникальный идентификатор (GUID) для шаблона ответа.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811710"
 |Связанные свойства:  <br/> |PR_REPLY_TEMPLATE_ID  <br/> |
 |Идентификатор:  <br/> |0x65C2  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Правила  <br/> |
+|Область:  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

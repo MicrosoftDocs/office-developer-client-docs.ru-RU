@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd5ef226-39e6-4604-a751-2f6cc49c4895
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 562fff0654def6cf2f05aa5f0b95a4df243c7abf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7be2c8176e890e71963fa9c58ebea6b5bb510fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808143"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570081"
 ---
 # <a name="cbnewmtsid"></a>CbNewMTSID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов, должен быть размещен для новой структуры [MTSID](mtsid.md) с идентификатором агента передачи сообщений из указанного размера. 
   

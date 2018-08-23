@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ea95ea4efbbf50e5551a27eb81fe5d5ab3b73948
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78fb610c5afc3cac4f6de84240f734e5ae196110
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808956"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565545"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает папку, в которой была создана или открыта, текущего сообщения, если такая папка существует. Этот метод возвращает значение NULL в параметре _ppFolder_ для внедренных сообщений, которые не хранятся непосредственно в папке. 
   

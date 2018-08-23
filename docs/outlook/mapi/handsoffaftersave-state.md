@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffdfed49-2c52-445c-8051-6e566f61eedc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4bc4d680903d81b51a39ed39db3861597443d116
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 274e7206171e1874e3625896952f861d25f3b382
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808577"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564537"
 ---
 # <a name="handsoffaftersave-state"></a>Состояние HandsOffAfterSave
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Состояние HandsOffAfterSave является частью процесс сохранения содержимое формы в постоянном хранилище. При работе в это состояние означает, объекта формы следует отказаться от внесения изменений в памяти копии значений свойств сообщений, так как не может быть другой возможности, чтобы сохранить изменения. В следующей таблице описываются допустимые переходы из состояния HandsOffAfterSave.
   

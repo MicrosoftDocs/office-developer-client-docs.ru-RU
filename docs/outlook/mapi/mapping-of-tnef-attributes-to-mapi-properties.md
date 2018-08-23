@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1a724fac-2e64-48a7-92b5-d7cf1528cb2c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 18c11c3f945e00ae1f12e5c948b81abfb88e41ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 810895836ea4d9e4aa82c189f68d13eefd409163
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809925"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568730"
 ---
 # <a name="mapping-of-tnef-attributes-to-mapi-properties"></a>Сопоставление атрибутов TNEF со свойствами MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В следующей таблице перечислены все атрибуты, определенные в реализации TNEF и их сопоставление со свойствами MAPI. В некоторых случаях значений нескольких свойств MAPI, помеченные как один атрибут. Некоторые атрибуты расширили описания данного раздела.
   

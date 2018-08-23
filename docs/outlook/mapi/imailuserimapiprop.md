@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0c70d16d294426d30f3ac5f00b6bc46992386a86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a6971504ec8f4f5ac8593b6b78777a12ff92b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808824"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564565"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к много свойств, связанных с системой обмена сообщениями пользователи. Интерфейс **IMailUser** реализуется системы обмена сообщениями объектов-пользователей. **IMailUser** наследует от [IMAPIProp: IUnknown](imapipropiunknown.md) интерфейс и не имеет уникальное методов свои собственные. 
   

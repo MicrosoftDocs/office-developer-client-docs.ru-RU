@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 64cef938-ef6f-43bb-8f6e-d4cd4d6c9888
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dee12ba9da83d2167afe13d00270a900bf0d73d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 493176029be3e7b154188aa164a95a8bc9c0e7d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808366"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569745"
 ---
 # <a name="dtblradiobutton"></a>DTBLRADIOBUTTON
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описание одного переключателя, который будет частью группы переключателей. В диалоговом окне, построенного из таблицы отображения будет использоваться группы переключателей.
   

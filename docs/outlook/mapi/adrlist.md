@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 85f0d8a5-6dd3-4f33-b31a-246d286d6286
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b2d3dce7835f92d9ad78f7d8837e655fdd8fd412
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87b91b66807ce79533029a8d5b5c4956bc4d5ce9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808034"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565769"
 ---
 # <a name="adrlist"></a>ADRLIST
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описание ноль или больше свойств, относящихся к одному или нескольким получателям. 
   

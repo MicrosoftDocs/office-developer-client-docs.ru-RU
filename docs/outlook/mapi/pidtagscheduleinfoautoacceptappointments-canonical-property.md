@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4f2cab31d6eed19a262bd0e667166bc79f428877
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15feea923c31bd7f88fcb3b346905e37af106d84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811825"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564075"
 ---
 # <a name="pidtagscheduleinfoautoacceptappointments-canonical-property"></a>Каноническое свойство PidTagScheduleInfoAutoAcceptAppointments
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если клиент или сервер должен автоматически отвечает на всех приглашений на собрания для участника или ресурса.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c5053f27-e23d-4a65-b079-5f33765c33f7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bd5f52e2b5c1343544e59881ff2f54d7d518836d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a4d25651423c697ffed713f82f41d7a5584bcfa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808169"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564600"
 ---
 # <a name="cbsproptagarray"></a>CbSPropTagArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов в имеющуюся структуру [SPropTagArray](sproptagarray.md) . 
   

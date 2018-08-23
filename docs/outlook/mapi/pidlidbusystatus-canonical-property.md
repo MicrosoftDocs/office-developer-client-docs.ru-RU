@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 50c91fe6-2a61-4348-a16d-fd5c501b0715
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 926f0425a4a59cad4280917573c974375c94f50b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ea252f8333bf39d391b8d99b768c9c3fa8e57ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810210"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568737"
 ---
 # <a name="pidlidbusystatus-canonical-property"></a>Каноническое свойство PidLidBusyStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Представляет пользователя доступности для встречи.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8135af7947f30ac600b8d9af364b2a79a3443ab6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46585859e1dde4ecf38262f99cac5e3a9d29e5db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809331"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568751"
 ---
 # <a name="implementing-standard-form-verbs"></a>Реализация стандартных команд для форм
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI определяет набор стандартных команд или действия в случае, если пользователь выбирает элемент меню или нажатии кнопки, поддерживающая всем пользователям формы. Каждый имеет константа, связанные с ним для идентификации, определенных в EXCHFORM. Файл заголовка. В следующей таблице приведены команды стандартной формы и их связанных констант:
   

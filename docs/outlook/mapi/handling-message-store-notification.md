@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 898f8b6ff3d0b0dd42a670596b54171f18b4a5e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33002f31c185262bf21b4e74095e0774f55e3bf5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808564"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564593"
 ---
 # <a name="handling-message-store-notification"></a>Обработка уведомлений хранилища сообщений
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Для регистрации уведомлений хранилища сообщений, вызовите метод либо [IMAPISession::Advise](imapisession-advise.md) , либо [IMsgStore::Advise](imsgstore-advise.md) и укажите хранилище сообщений, папки или идентификатор записи сообщения в содержимое параметра _lpEntryID_ . Поставщики хранилища сообщений поддерживает объект и таблицы уведомлений. Регистрация объектов хранилища конкретное сообщение, которые описывают эти объекты таблиц иерархии и содержимое папок или оба объекта и таблиц, зависит от уведомлений, согласно прогнозу, будут видеть, звонки, сделать для выполнения операций, и способ поставщик хранения сообщений поддерживает уведомления. 
   

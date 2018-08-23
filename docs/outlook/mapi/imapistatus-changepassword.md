@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b667f56553b717f1bc938b6ce045dbfdde8fdc0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e09a1de5f85edd7e352a090c573fed9ca16f017f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809093"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565552"
 ---
 # <a name="imapistatuschangepassword"></a>IMAPIStatus::ChangePassword
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Изменение пароля поставщика услуг без отображения пользовательского интерфейса. Этот метод при необходимости поддерживается в состоянии объекты, которые реализуют поставщиков услуг.
   

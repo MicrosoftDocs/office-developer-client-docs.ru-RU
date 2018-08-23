@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 82da274670c9266a746defcf6bbd5dbcf621901b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28611e442f816e4d091cc6b29e2ee69195a63d09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811023"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563361"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Каноническое свойство PidTagCreateTemplates
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит объект внедренных в таблице, который содержит идентификаторы записей шаблона поля диалогового окна. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d851f5cfa2697ea2a81f80c90e8051c59172d549
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9337a49067e9789ece40ed932dbaae133aac0f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811037"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568184"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>Каноническое свойство PidTagDelegatedByRule
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, делегирования ли папка сообщений с помощью правила.
   

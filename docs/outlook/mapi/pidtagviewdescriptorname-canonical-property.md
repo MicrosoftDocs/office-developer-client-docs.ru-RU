@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9a186af55a8a2846bbb8af9e51be45ef73ce5d66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55d838661dcbe0efb604e6a623a434f9ae87512e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812039"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567785"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>Каноническое свойство PidTagViewDescriptorName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя дескриптора представления.
   

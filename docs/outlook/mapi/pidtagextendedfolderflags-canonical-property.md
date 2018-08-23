@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: e0c04f98-3d66-4ab5-ba05-69f9df539fcf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4a4d3c940539c23be8ec212cb85e3dd4f3a04aab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23c43586157806c603ad7fd8c146270a9d71170a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811122"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563788"
 ---
 # <a name="pidtagextendedfolderflags-canonical-property"></a>Каноническое свойство PidTagExtendedFolderFlags
  
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит расширенные флаги о папке.
   

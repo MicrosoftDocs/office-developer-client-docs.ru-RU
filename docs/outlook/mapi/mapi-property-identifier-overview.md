@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 957aa00f-23d8-4f3b-bbc2-7d54f17b47b5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 725256a64cb7d55be494ba623247255dfe5936c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cf2f08a69ee87c40789b764596e514c91483c2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809798"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563158"
 ---
 # <a name="mapi-property-identifier-overview"></a>Обзор свойств идентификатор MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Номер, который служит для указания, для чего используется свойство — это идентификатор свойства и кто несет ответственность за его. Идентификаторы свойств, разделены на с MAPI диапазонов; где идентификатор попадают в диапазон указывает его использованием и владельца. 
   

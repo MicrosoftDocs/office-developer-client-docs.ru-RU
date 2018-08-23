@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ac6584819b5dfa96a5f7816f1d77b89323e3eaf8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc71974d841005785932cc9017d44c3c0614687d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808709"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563389"
 ---
 # <a name="hropenofflineobj"></a>HrOpenOfflineObj
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Открывает автономные объекта на основе заданного профиля.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 03256f2dec62d0228c4d5456dcd1b60f66b13ad2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b161c8c0da78b5ca872b87cad9a297169426d4cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808728"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565006"
 ---
 # <a name="iablogoncompareentryids"></a>IABLogon::CompareEntryIDs
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сравнение двух идентификаторы записей для определения, является ли они ссылаются на тот же объект.
   

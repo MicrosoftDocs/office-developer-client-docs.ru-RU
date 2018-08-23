@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 97000013-1950-4e15-8e58-35d793a5faca
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c08bd5eb9ad7b1aa5b420eec66c9a4cc605aa458
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bc714f8c6db2640c269f681c611fbb89e6e82d13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810699"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566560"
 ---
 # <a name="pidlidworkaddressstreet-canonical-property"></a>Каноническое свойство PidLidWorkAddressStreet
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает название улицы часть работы контакта, адрес электронной почты.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810699"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008045  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

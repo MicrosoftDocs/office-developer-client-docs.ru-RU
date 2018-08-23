@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 444d98c4e8e32e0cc7d2eb8af753a394af1f020c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb048d622aaf3cfa97f380e21324749d7421603e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811992"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563690"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>Каноническое свойство PidTagSubmitFlags
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов, указывающее, подробные сведения о отправки сообщений.
   

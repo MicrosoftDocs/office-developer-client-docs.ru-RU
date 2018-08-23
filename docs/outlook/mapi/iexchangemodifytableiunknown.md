@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1093975e6cbdd79004125a0a4a3098ffa421ab0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51a83e1e28534cc237419d9c4ae475c1d719c5de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808808"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565076"
 ---
 # <a name="iexchangemodifytable--iunknown"></a>IExchangeModifyTable : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поддерживает доступ к объектам в таблице Microsoft Exchange Server, в частности доступа к системе управления список управления ДОСТУПОМ в таблице объекты и правила в таблице объекты на папок Microsoft Exchange Server. Имеет следующий вид: этот интерфейс [IMAPITable: IUnknown](imapitableiunknown.md) интерфейса, но он обеспечивает поддержку структуры специфичных для сервера Microsoft Exchange, которые используются для управления доступом и правила. 
   
 |||
 |:-----|:-----|
-|Предоставляемые:  <br/> |Нет  <br/> |
+|Предоставляемые:  <br/> |Отсутствует  <br/> |
 |Реализованный:  <br/> |В таблице объекты сервера  <br/> |
 |Вызывается:  <br/> |MAPI и клиентских приложениях  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IExchangeModifyTable  <br/> |

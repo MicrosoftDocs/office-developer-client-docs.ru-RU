@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c35d9e38-f4cf-4908-aaa1-a4263b58f7e8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d5d0f465ecdf4865ca86448448c56d54d5df4505
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5d86af111bc778839a78f9b56ba7126e6c973d5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808975"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567379"
 ---
 # <a name="imapimessagesitegetsession"></a>IMAPIMessageSite::GetSession
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает сеанса MAPI, в которой была создана или открыта текущего сообщения.
   

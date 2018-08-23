@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0fcd1c79d1c0debfb18d270dc0e40de42842c6d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebe10ae741975b33ee58e1e99032aaca64ef38d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569731"
 ---
 # <a name="tnef-stream-structure"></a>Структура потока TNEF
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поток TNEF начинается с подписью 32-разрядная версия, которая идентифицирует поток как поток TNEF. После подписи — это 16-разрядное целое число без знака, используемый в качестве ключа для перекрестная ссылка вложения на их расположение в текст с тегами сообщения. В оставшейся части потока — это последовательность атрибутов TNEF. Атрибуты сообщений отображаются первый в поток TNEF и следуйте атрибуты вложения. Атрибуты, относящихся к конкретной вложения сгруппированы, Приступая к работе с помощью атрибута **attAttachRenddata** . 
   

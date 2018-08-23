@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 31885c64-edb2-4a87-8730-09f163dedd40
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: f48fa1712b6e09e5a73f331228a811b4eb8d284d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b13fbb9f2807c9814fed5ba3bcca8fe73aaa7b01
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812414"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564222"
 ---
 # <a name="supporting-multiple-client-access-to-messages-in-message-stores"></a>��������� ���������� ����������� ������� � ���������� � �������� ���������
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 ���������� ����������� ��� ���������� ���������� ����������, ����� ������������ ������� ������� ���������. ��������� ��� ������������� ������� ��� ������������ ����� ������ ����������� ��������� ��������� �� �����. ��� �� ����� ���� ���������� ���������� ��������� ��������� � ��������� �� ���������, ���������� ���������, ������ ��������� ��������� �������:
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e63d661ab8c7e410d6a0dd786819cc189813017e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b357a068249b12468be52f8782f646f394e4060
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810799"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567827"
 ---
 # <a name="pidtagadditionalrenentryids-canonical-property"></a>Каноническое свойство PidTagAdditionalRenEntryIds
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит запись идентификаторы из специальных папок. 
   

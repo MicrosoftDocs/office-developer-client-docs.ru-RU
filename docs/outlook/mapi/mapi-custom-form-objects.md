@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ecb40262959834ec511601ec3176887c919d944f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 96266b948d80b07d7aefefbf29225d2f85089094
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809723"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566700"
 ---
 # <a name="mapi-custom-form-objects"></a>Объекты настраиваемой формы MAPI
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В трех разных компонентов реализованы объекты для пользовательских форм:
   

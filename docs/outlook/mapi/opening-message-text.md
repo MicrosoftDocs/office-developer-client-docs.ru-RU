@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e37fc9d8-433b-41b4-84f2-42a952063f35
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ad3499cc1ff3bd8b633fa48173ab8455d5d8d124
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a2dbe8d2143fd330ae1f5ca5804e30b79909576
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810066"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569415"
 ---
 # <a name="opening-message-text"></a>Открытие текста сообщения
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Текст сообщения, хранится в его **связей с Общественностью\_ТЕЛО** свойство или **связей с Общественностью\_RTF\_СЖАТЫЙ** свойство. Дополнительные сведения можно **связей с Общественностью\_ТЕЛО** ([PidTagBody](pidtagbody-canonical-property.md)), **связей с Общественностью\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) и **связей с Общественностью\_RTF\_СЖАТЫЙ** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 

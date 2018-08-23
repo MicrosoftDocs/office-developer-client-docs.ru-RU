@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0bbad04e728c9283df0a9b7ceb7a8e303f0595dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 898876863223aefa868fd37deced2948bd5a5694
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808136"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569752"
 ---
 # <a name="cbnewadrlist"></a>CbNewADRLIST
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов, должен быть размещен для новой структуры [ADRLIST](adrlist.md) , содержащий указанное число получателей, представленного [ADRENTRY](adrentry.md) структуры. 
   

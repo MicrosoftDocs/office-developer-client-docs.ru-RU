@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 807e592cf535ac060fd275075035ae8beb7d6e78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6f983e49132e7ab6ea402a8e32bb5ec56d1efba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808738"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564852"
 ---
 # <a name="iaddrbookcompareentryids"></a>IAddrBook::CompareEntryIDs
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Сравнение двух идентификаторы записей, относящихся к конкретной адресной книге, чтобы определить, является ли они ссылаются на один и тот же объект адресной книги. 
   

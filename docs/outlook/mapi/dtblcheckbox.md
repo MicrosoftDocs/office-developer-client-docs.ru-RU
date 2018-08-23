@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c6726b852176fa31bf879b5a32b63c35ce2be514
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa7f6ac116bf5255d2598465085bab2695ae2c25
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808341"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564516"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения о флажок, который будет использоваться в диалоговое окно, построенная на основе таблицы отображения. 
   

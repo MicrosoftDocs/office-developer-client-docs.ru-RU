@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1bafd92e-e044-c902-4fd0-df432bae777d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b200641b5dee6691b0eb1cd95ee716abd2040f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a5c9f70831b7d3f5bcbaf9d74f5526b110375ff0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809883"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565496"
 ---
 # <a name="mapiofflinecallbacktype"></a>MAPIOFFLINE_CALLBACK_TYPE
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Перечисление поддерживаемые типы обратных вызовов.
   

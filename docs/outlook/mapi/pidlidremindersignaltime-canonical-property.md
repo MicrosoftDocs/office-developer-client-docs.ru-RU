@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 375cde94d0ecd989908fccbdd69710c1961fba17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1a725583faf13fe8b46616d9d341798298a8b53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810506"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563438"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>Каноническое свойство PidLidReminderSignalTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает точку времени, когда напоминание переходит из ожидающих просроченные.
   

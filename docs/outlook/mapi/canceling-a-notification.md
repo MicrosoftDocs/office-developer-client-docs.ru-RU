@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: decd5d7d-1f47-47c2-b9c4-be0e652c99dd
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8cd96dd22daeb98646a62672bd17f7de4d2f7dab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50d1fb451cbfcd07f97c5b12a9c86c03a435faa6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808133"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564775"
 ---
 # <a name="canceling-a-notification"></a>Отмена уведомления
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Чтобы отменить уведомление, клиенты вызов метода **Unadvise** источник уведомлений. Вызов **Unadvise** важна, так как он вызывает поставщика услуг для освобождения ссылку на приемник уведомлений. При условии, что поставщик услуг поддерживает ссылку на приемника уведомления, приемник уведомлений могут предоставляться [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) вызовов. На самом деле поскольку асинхронные события уведомлений, можно получать уведомления клиентов, даже после успешного **Unadvise** вызова. Клиенты должны обладать возможностью для обработки получения уведомлений в любое время. 
   

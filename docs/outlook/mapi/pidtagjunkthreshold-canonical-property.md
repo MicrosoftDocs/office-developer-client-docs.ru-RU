@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8067e2b5-02df-4b96-8f66-509f5a48c8aa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0f8484e195b1cda8e1d633133cdff89c571d8ecd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d4337105b2dcae94956f0b1badf66c663467dc3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811292"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565664"
 ---
 # <a name="pidtagjunkthreshold-canonical-property"></a>Каноническое свойство PidTagJunkThreshold
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает, агрессивности входящую почту направляются в папку нежелательной почты.
   

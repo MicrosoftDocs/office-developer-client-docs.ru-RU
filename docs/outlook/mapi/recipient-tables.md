@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 02e77317-54c4-4fca-9ab4-835998ce07ce
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: cc7635c474b99898d59589f33fcf06cf24697378
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fdca2f65c73c0db0fa0b7d59b8d49b218aeb2330
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812099"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565090"
 ---
 # <a name="recipient-tables"></a>Таблицы получателей
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Получателей таблица содержит сведения о всех получателей сообщения. Поставщики хранилища сообщений реализации получателей таблиц и их использования для клиентских приложений. Клиенты получить доступ к таблице получателей, вызвав метод [IMessage::GetRecipientTable](imessage-getrecipienttable.md) или если поставщик хранилища сообщения его поддерживает метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) . Для доступа клиентов к получателей таблицы с **OpenProperty** путем указания для свойства tag и IID_IMAPITable **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) для идентификатора интерфейса. Путем вызова метода [IMessage::ModifyRecipients](imessage-modifyrecipients.md) можно внесены изменения в таблицу получателей. 
   

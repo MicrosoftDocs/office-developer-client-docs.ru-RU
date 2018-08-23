@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d45d5ed9-41cd-4aaf-91d2-1e4a27bb16d4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5705af6c8efaf42ae27d1b39bb28d162971ebf9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6ec40005683cc67c51a63d6b186c042c8e170d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808552"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568177"
 ---
 # <a name="handling-an-incoming-message"></a>Обработка входящего сообщения
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Входящее сообщение — это сообщение, отправленное в один или несколько систем обмена сообщениями. Он был отправлен только к вашему или к большому количеству получателей. Входящие сообщения помещаются в папку получения для хранения сообщения определенного класса. Вы можете настроить различные получать папки для каждого класса сообщений обработки или использование одной папки для всех классов.
   

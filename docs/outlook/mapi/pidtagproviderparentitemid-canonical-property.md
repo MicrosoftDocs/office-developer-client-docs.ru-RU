@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6adb8e85-ae56-4542-8b19-ed3cfe7fe522
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 96a9d153fadbe8b4c8baa8532b8c99771b1d7987
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d0ec4e793a5b7940802ee159c2e869695166ce93
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811587"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563284"
 ---
 # <a name="pidtagproviderparentitemid-canonical-property"></a>Каноническое свойство PidTagProviderParentItemId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает идентификатор для родительской папки или элемента в хранилище.
   

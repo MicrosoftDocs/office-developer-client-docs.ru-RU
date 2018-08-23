@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3ff29ac7e7f9b7876bb678930390ca556351ecf6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ab459239bdcdcad30c4b6c82d5a3f8641bd4aca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809118"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567806"
 ---
 # <a name="imapistatusvalidatestate"></a>IMAPIStatus::ValidateState
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Проверяет состояние внешних информация, доступная для ресурсов MAPI или поставщика услуг. Этот метод поддерживается во всех объектах состояние. 
   

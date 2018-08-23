@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28453d29-30c5-405b-84d2-5bb5f281756c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a00505b765abdcb7b8fe9d68052774b30bbdf692
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b943f9a3b6f63f185a1b44cfa811d010a287a3d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811857"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565818"
 ---
 # <a name="pidtagscheduleinfofreebusytentative-canonical-property"></a>Каноническое свойство PidTagScheduleInfoFreeBusyTentative
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит блоки времени, для которых состояние доступности под вопросом.
   

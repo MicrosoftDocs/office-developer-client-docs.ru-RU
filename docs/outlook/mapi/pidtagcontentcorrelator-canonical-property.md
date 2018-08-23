@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2290e6751778f17defc8d1007ff62c88f1b75465
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6398acf71e62157cf5a6eb7e6caf22130fa9f9d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810978"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568807"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Каноническое свойство PidTagContentCorrelator
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение, отправителя сообщения можно использовать в соответствии с отчет с исходного сообщения.
   

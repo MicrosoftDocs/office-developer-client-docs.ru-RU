@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1e704023-1992-4b43-857e-0a7da7bc8e87
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d4e478b053bc1aa81643a60899480ac2ad9d4265
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f54bdb70e9f48c89cb50e8238f8638deac8a93b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811343"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567820"
 ---
 # <a name="pidtagmessageclass-canonical-property"></a>Каноническое свойство PidTagMessageClass
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит текстовую строку, которая определяет класс отправителя определенное сообщение, такие как IPM. Примечание. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7f24910a-e14e-44a1-8477-d8968130ba74
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 954dc467a0d83466b1b16a3ead5b6404d372ecab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8dfa777480af48819e5357fad9b1e7524148a8b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809355"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568814"
 ---
 # <a name="imsgserviceadminopenprofilesection"></a>IMsgServiceAdmin::OpenProfileSection
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Откроется раздел текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшей доступа. 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 087585e936f04f18ad15f390a083213e2285da83
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b9659beac383ab5da206e5184a3501036da2cd80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811108"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564530"
 ---
 # <a name="pidtagexpirynumber-canonical-property"></a>Каноническое свойство PidTagExpiryNumber
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Определяет время отправки истечения срока действия в сочетании со свойством **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
   

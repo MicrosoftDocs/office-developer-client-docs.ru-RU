@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 953c97ef-bc38-4e30-9906-b16373cd33c2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2701aaebe7a3554499af1ba43225737d38aae888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de0d2d7c0b03f7002d07e6703d2f7854b5c6b64c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809830"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564999"
 ---
 # <a name="mapi-service-provider-samples"></a>Примеры поставщика службы MAPI
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе содержатся примеры кода три поставщиков служб MAPI:
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7f083ee0-bf36-0059-1589-66e454fe0098
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 74a4e299da6c0637c3da70c329569266d43dbd9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f8982bafc0678378ae46dc31a9417cc11bb695a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809463"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563074"
 ---
 # <a name="iostxsetsyncresult"></a>IOSTX::SetSyncResult
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает в результате синхронизации.
   

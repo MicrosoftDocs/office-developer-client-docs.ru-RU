@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8aba90d8-ea1f-4636-af80-17bfeadbdfa0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a9aa6deeca930da82db61ba517796bfbc0676467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 335fac38ff3f084195a000ad32a27adcb85c1cc6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808654"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564817"
 ---
 # <a name="hrcomposeeid"></a>HrComposeEID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает идентификатор составные запись для объекта, обычно сообщения в банке сообщений. 
   

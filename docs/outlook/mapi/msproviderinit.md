@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cf1febe89c49b29cdfaf8d27760c4fb27b4c4990
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33adef7a8248e137869912afc2026583828b087e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810032"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570172"
 ---
 # <a name="msproviderinit"></a>MSProviderInit
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Инициализирует поставщика хранилища сообщений для операции.
   

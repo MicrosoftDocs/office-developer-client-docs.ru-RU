@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 656e5c5532edfc6c791ca30aa30f4c4d96847295
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5f35474910f2257e18bcdc3b6b1dc661e2dc63a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809038"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563977"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на интерфейс, который можно использовать для доступа к свойству.
   
@@ -109,8 +109,8 @@ MAPI_E_INVALID_PARAMETER
   
 |**Тип вложения**|**Идентификатор для использования интерфейса**|
 |:-----|:-----|
-|Binary  <br/> |IID_IStream  <br/> |
-|Строка  <br/> |IID_IStream  <br/> |
+|Двоичный  <br/> |IID_IStream  <br/> |
+|String  <br/> |IID_IStream  <br/> |
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0 (EN)  <br/> |IID_IStreamDocfile  <br/> |
    

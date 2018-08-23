@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4d752d3f-bf36-4711-b1d4-68cd575a062f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d5cb5807f4a3c24bf8ab1af1db2c57f361b32ae1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2eb811a88cd15ad05d016c690d3939a6b1e00ca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567799"
 ---
 # <a name="pidtagproofofdeliveryrequested-canonical-property"></a>Каноническое свойство PidTagProofOfDeliveryRequested
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Это свойство содержит значение TRUE, если отправитель сообщения запрашивает подтверждение доставки для определенного получателя.
   

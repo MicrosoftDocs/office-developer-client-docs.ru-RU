@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ac09578-892b-4c72-92f6-c2419ac2efe8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b94e1f2d66f89d680cc738968342de0fbcee5cda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae1f5b62c59c2e9a1c02c1a2fc0ee91ef1e19387
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19812047"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562983"
 ---
 # <a name="pidtagwizardnopstpage-canonical-property"></a>Каноническое свойство PidTagWizardNoPstPage
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Это свойство содержит значение TRUE, если мастер профиля для отмены вывода страницы личное сообщение store (PST).
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3095907498b1ce7ae6b3666e0678dd0c5f76c23e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 828d7ebcbceead02441165e3af92ec7b47d9f001
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808657"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564628"
 ---
 # <a name="hrdecomposemsgid"></a>HrDecomposeMsgID
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Разделяет представления ASCII составные запись идентификатор объекта, обычно сообщения в банке сообщений в идентификатор записи этого объекта в хранилище и идентификатор записи хранилища. 
   

@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 72c71a6109f55f7ec06499e214a1aa11292a9e52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76ad693b05e3989bd64ba66565ae4def22110ad0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808456"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564901"
 ---
 # <a name="folderuserfields-stream-sample"></a>Пример FolderUserFields потока
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описывается пример FolderUserFields потока. Поток содержит определение того, пользовательские поля, `TextField1`. Тип — **текст**, а в потоке FolderUserFields содержит части FolderUserFieldsAnsi и FolderUserFieldsUnicode. Для получения дополнительных сведений см [Структуры папок поля потока](folder-fields-stream-structures.md).
   

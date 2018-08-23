@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 09cac591aac9d266571348531e378974b86a3a9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c9c75d0ae4b9fe060d6717dfa11ad418cbb715b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808465"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564649"
 ---
 # <a name="folder-associated-information-tables"></a>Таблицы сведений, связанных с папками
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI определяет флаг MAPI_ASSOCIATED для различных компонентов интерфейса MAPI для использования при работе с таблицами связанные сведения. Каждой папке в хранилище сообщений должна быть таблица связанное содержимое вместе с его стандартных содержимое таблицы. Клиентские приложения хранятся специальные сообщения в таблице связанное содержимое папки для хранения формы и представления. На самом деле для поддержки формы и представления, поставщиком хранилища сообщений необходимо реализовать связанного содержимого таблицы.
   

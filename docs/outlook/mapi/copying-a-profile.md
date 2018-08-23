@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b722a157-0d92-404d-9075-39547241dbb7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 77c7853c07830804aaa044f08078d95785bcfda7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53b7099ae74828a97eb703b865ba30ab385e9a5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808204"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564936"
 ---
 # <a name="copying-a-profile"></a>Копирование профиля
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 — Это один из способов создать профиль для копирования из существующего профиля и измените необходимые сообщения служб и поставщиков услуг. Копирование профиль включает использование объект администрирования профилей, предоставляемые MAPI через функцию [MAPIAdminProfiles](mapiadminprofiles.md) . 
   

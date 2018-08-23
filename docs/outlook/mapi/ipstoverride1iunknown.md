@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d26cee81-45ea-4fd3-8a54-5f35264b5d6a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: db2853080b1fc2ff3a346dcfb8d112237b7f3459
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e73115811fe0009769826e0f6a011c489772f770
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809567"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569850"
 ---
 # <a name="ipstoverride1--iunknown"></a>IPSTOVERRIDE1 : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Позволяет поставщику хранилища файлов (PST) личных папок для переопределения политики PSTDisableGrow.
   

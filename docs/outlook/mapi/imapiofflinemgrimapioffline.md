@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 644fad96c8aec3701233351469a84ef93341b397
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f5a4a073559c58599b175b6f85a6dfe697aec623
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809022"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563837"
 ---
 # <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr : IMAPIOffline
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поддерживает регистрации для обратных вызовов уведомление об изменениях состояния подключения к учетной записи пользователя.
   

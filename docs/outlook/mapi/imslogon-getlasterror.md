@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3e296f6d-4833-4c68-9b84-df0b09878474
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a865a751f3e274008c7004315906d6705ba55161
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 811be1f6506cee092e487af3bd43bdf6e136d4eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809444"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568898"
 ---
 # <a name="imslogongetlasterror"></a>IMSLogon::GetLastError
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о последней ошибке, возникшей для объекта хранилища сообщений. 
   

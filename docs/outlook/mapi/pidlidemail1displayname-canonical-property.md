@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3429fc9f-25fe-4a73-9a95-469a92645e39
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 69e56b15904cc2cc66c2c3e1cbb6af04afa5e37b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b060ebc341f4039913ff102f734c91572c19988d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810254"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562962"
 ---
 # <a name="pidlidemail1displayname-canonical-property"></a>Каноническое свойство PidLidEmail1DisplayName
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает для чтения отображаемое имя для первого адреса электронной почты.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810254"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008080  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

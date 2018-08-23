@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9be25dc655536ff5d32a635da57c54ebd12fea0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f073dbb9655585ee56ab38be35bea4ef320042c0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808515"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569773"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Добавляет один целых 64-разрядная версия на другой, при необходимости с помощью реализуемые флаг.
   

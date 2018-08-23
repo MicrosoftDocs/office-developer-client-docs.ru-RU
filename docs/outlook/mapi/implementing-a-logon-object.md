@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e23c73931c9051b61d30b7ea7e9c54d06a4d9c33
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 99a8473abf01467c534c0ea829e342fa46489e99
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809288"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568023"
 ---
 # <a name="implementing-a-logon-object"></a>Реализация объекта входа
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Каждые адресной книги, хранилища сообщений и поставщика транспорта создает экземпляр объекта входа в систему как часть своей реализации [IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)или [IXPProvider::TransportLogon](ixpprovider-transportlogon.md). Объекты входа реализовать методы, которые помогают запросов клиентов MAPI службы. В зависимости от типа поставщика услуг объект входа в систему будет поддерживать один из следующих интерфейсов. 
   

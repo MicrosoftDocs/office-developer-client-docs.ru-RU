@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f6afa890f61bb2f394e3cf69e0f2c54699a2ad9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565741"
 ---
 # <a name="rtfsync"></a>RTFSync
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Следит за тем, что текста сообщения форматированный текст (RTF) соответствует версии обычного текста. Это необходимо для вызова этой функции перед чтением версии RTF и после изменения версии RTF. 
   

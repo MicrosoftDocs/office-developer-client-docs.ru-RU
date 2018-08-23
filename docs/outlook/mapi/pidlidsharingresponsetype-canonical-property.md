@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c27b1239-3612-4bb3-9f22-4b89ee9900cd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a645ee26b56355c6594f5667585becbcff2e3eec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: beb2c46b43ae77de08900aeb987d875e85575aba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810557"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563186"
 ---
 # <a name="pidlidsharingresponsetype-canonical-property"></a>Каноническое свойство PidLidSharingResponseType
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает тип ответа, с которого ответили получателя запрос общий доступ. Это свойство общего доступа сообщения.
   

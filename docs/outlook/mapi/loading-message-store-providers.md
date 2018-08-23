@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 96e2ca38391931508dd9f3f78f3ba69e6f8b9c15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47b209b9a8818cf235b7c28593da5778dd944989
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809653"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568702"
 ---
 # <a name="loading-message-store-providers"></a>Загрузка поставщиков хранилищ сообщений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 При открытии хранилища сообщений клиентского приложения MAPI загружает библиотеку DLL поставщика хранилища сообщений в память. После загрузки библиотеки DLL MAPI очень определенной последовательности вызовов методов происходит между поставщиком хранилища сообщений и MAPI. Последовательность вызовов этот метод позволяет MAPI для получения верхнего уровня [IMSProvider: IUnknown](imsprovideriunknown.md), [IMSLogon: IUnknown](imslogoniunknown.md), и [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) интерфейсы и разрешает поставщика хранилища сообщений для получения объекта поддержки MAPI. После завершения последовательности вызовов поставщика хранилища сообщений должен быть готов принять входов в систему от клиентов. 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dce3f4b5bfdcb34148c25c880d8d2d8173755b37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808131"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563578"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Построение приложений MAPI на 32-разрядной и 64-разрядных платформах
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются действия, которые MAPI разработчикам следует изменять и перестроение 32-разрядных приложений MAPI для запуска на 64-разрядной платформе и 64-разрядных приложений для запуска на 32-разрядной платформы. В этом разделе 64-разрядной платформы — это компьютер с 64-разрядная версия Microsoft Outlook и 64-разрядная версия Windows и 32-разрядной платформе — это компьютер с 32-разрядного приложения Outlook и 32-разрядная или 64-разрядная версия Windows. 
   

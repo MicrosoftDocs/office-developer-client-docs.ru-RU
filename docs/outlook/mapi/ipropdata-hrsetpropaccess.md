@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 02365050-5e8b-437c-925f-4eb0df646356
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 39dbf3d3c8a8e22a7b7087929f749589cdeb2090
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d0054e54d56fbe1cc6d6d783ffcd6330d8ab2e6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809550"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564663"
 ---
 # <a name="ipropdatahrsetpropaccess"></a>IPropData::HrSetPropAccess
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает уровень доступа или состояния для одной или нескольких свойств объекта.
   

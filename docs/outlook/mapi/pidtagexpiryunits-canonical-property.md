@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f6a1ca22-cf4c-4e59-8846-6bd937fa8f6e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1c753bb84ccbfe2fa6869d56806fd042a6d60e9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6aab4228af0f584d96a2a8cc02c5f36e05a01e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811102"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569605"
 ---
 # <a name="pidtagexpiryunits-canonical-property"></a>Каноническое свойство PidTagExpiryUnits
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описание единицы времени, когда умножает свойство **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)).
   

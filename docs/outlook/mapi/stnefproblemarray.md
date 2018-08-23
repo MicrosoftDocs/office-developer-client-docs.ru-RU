@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: baa2ac2e859b42234fcb07dd2bf521424ef9b465
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 924ddbc7c2ad1ed84ce6927ae089b6eb223bfb92
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812412"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563508"
 ---
 # <a name="stnefproblemarray"></a>STnefProblemArray
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив структур **STnefProblem** , описывающие один или несколько обработки ошибок, возникших во время кодирования или декодирования потока транспорта Neutral Encapsulation формата TNEF. 
   

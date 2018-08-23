@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 3f079f46-dd6e-422d-9490-20be39a1dfca
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1257fe3fd5be226c04aece1c082152ea37d1214f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba103ab0e071b8841d55e11d7472eb41f97f97b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810727"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567407"
 ---
 # <a name="pidnameedittime-canonical-property"></a>Каноническое свойство PidNameEditTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает время, когда последнего изменения файла.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |EditTime  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

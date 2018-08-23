@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 32669cbe-5460-4043-99cc-c609608f48da
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: aad19bbc016af6bdc0b17124b46112656af53a4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11c8a58e6cfe0719e8683c4e7a0fd966972117c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810093"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569381"
 ---
 # <a name="permissions-for-mapi-objects-and-properties"></a>Разрешения для объектов MAPI и свойства
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Разрешение на доступ или набор операций, разрешенных, может быть характеристик объектов MAPI и отдельных свойств, поддерживаемых эти объекты. Доступ к объекту, определяется родительского объекта. Для сообщений его папки определяет права доступа. Для обмена сообщениями пользователя или список рассылки его контейнер адресной книги осуществляет это определение. Если объект, такие как сообщения хранятся в двух папках, разрешения для двух копий объекта может отличаться. 
   

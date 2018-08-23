@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 064dd5ca-0108-4045-b17b-0bb29cb93346
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 588a32cb2a468c84dfc513af5e4abf6a9a1d0286
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d8e91490cc39c3f259d35a923bb3bcbb2bf6011
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809401"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568170"
 ---
 # <a name="imsgserviceadmingetmsgservicetable"></a>IMsgServiceAdmin::GetMsgServiceTable
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к таблице службы сообщений, список служб сообщения в профиле.
   

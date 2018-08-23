@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 694d63165bb820ffef1a29d1646861435fc4ed26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5127f5aef50b1040b3e6f4bc644395f2af7555cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808624"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563543"
 ---
 # <a name="read-and-parse-a-recurrence-pattern"></a>Чтение и анализа шаблон повторения
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 MAPI можно использовать для чтения и анализа шаблона повторения встречи.
   

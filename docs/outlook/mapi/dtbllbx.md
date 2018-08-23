@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 04fbfb2e6938c1ae5971e90b30f5ef749e7963e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 35e19a4281c46ae7c2b5cbd76c1ecea35bf87665
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808358"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569766"
 ---
 # <a name="dtbllbx"></a>DTBLLBX
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Описание списка, который будет использоваться в диалоговом окне, построенного из таблицы отображения.
   

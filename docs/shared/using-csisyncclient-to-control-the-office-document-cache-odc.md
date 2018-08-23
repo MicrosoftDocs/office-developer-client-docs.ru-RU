@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Узнайте, как использовать CSISyncClient для управления кэша документов Office (ODC).
-ms.openlocfilehash: adaa56bf040889bd8220506bcfab8fdb0b7ab6c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813109"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565286"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Использование CSISyncClient для управления кэша документов Office (ODC)
 
@@ -202,7 +202,7 @@ Initialize должен быть метод вызывается первым. �
   
  _bstrProgID_
   
-Определяет COM-объект получателя для двусторонней связи. Должен быть пустым с 39 знаков. Просмотреть [ \<ProgID\> ключ](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx) для получения дополнительных сведений о коды ProgID. 
+Определяет COM-объект получателя для двусторонней связи. Должен быть пустым с 39 знаков. Просмотреть [ \<ProgID\> ключ](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) Дополнительные сведения о коды ProgID. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -315,7 +315,7 @@ ResetCache приведет к удалению кэша, связанного �
 
 ##### <a name="parameters"></a>Параметры
 
-Нет
+None
   
 ##### <a name="return-values"></a>Возвращаемые значения
 

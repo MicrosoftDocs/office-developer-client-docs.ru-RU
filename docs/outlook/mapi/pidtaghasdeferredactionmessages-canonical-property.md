@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f9085c59-18b1-451d-85d7-b08377708a9d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9ed460a377e2a2f0d2780f97eaebff1f76b9d9fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1fcfd5e257798d21a296f077f0f5eacbcbb82a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811176"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569626"
 ---
 # <a name="pidtaghasdeferredactionmessages-canonical-property"></a>Каноническое свойство PidTagHasDeferredActionMessages
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если сообщение имеет по крайней мере одно правило отложенного действия.
   
@@ -32,7 +32,7 @@ ms.locfileid: "19811176"
 |Связанные свойства:  <br/> |PR_HAS_DAMS  <br/> |
 |Идентификатор:  <br/> |0x3FEA  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Правила  <br/> |
+|Область:  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

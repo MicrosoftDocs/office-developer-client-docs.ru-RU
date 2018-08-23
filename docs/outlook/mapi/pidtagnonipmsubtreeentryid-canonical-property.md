@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8ea4d975e59a57f6b5df7bdc0fd6aee72888fdf4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 52cff2c0738622abf17992b2fc5557afef8e69bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811409"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563459"
 ---
 # <a name="pidtagnonipmsubtreeentryid-canonical-property"></a>Каноническое свойство PidTagNonIpmSubtreeEntryId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отображает идентификатор записи **NON_IPM_SUBTREE** папке в хранилище общих папок Exchange. 
   

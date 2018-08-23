@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 763cab41-f6f6-4cb0-8cb8-170fdf2a92e6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 38d55f45280b0b037dc9b5cbbd0dc8809ed04e35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92807cb216e8a7f4eef6b4d95a8d12826b176e6e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809369"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564670"
 ---
 # <a name="imsgserviceadminsetprimaryidentity"></a>IMsgServiceAdmin::SetPrimaryIdentity
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Назначает службы сообщений быть поставщика основной идентификатор профиля.
   

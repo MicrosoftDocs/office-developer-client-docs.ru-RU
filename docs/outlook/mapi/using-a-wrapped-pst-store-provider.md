@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
 description: 'Последнее изменение: 03 июля 2012 г.'
-ms.openlocfilehash: 4a2ccbbcdd3459af6b69156d80b37695251ba8d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e74ccd44797bb5629bfe4f390b099771c6932a9b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566469"
 ---
 # <a name="using-a-wrapped-pst-store-provider"></a>С помощью оболочку поставщика хранилища PST-файлов
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Прежде чем использовать оболочку поставщика хранилища личных папок (PST) файла, необходимо инициализировать и настроить оболочку поставщика хранилища PST-файлов. После настройки оболочку поставщика хранилища PST-файлов, необходимо реализовать функции, чтобы MAPI и диспетчер очереди MAPI могут войти на поставщика хранилища сообщений. Дополнительные сведения об инициализации и вход в систему на оболочку поставщик хранилища PST-файлов можно [инициализации поставщика оболочку хранения PST -файлов](initializing-a-wrapped-pst-store-provider.md) и [Ведение журнала на к поставщику хранения оболочку PST -файлов](logging-on-to-a-wrapped-pst-store-provider.md).
   

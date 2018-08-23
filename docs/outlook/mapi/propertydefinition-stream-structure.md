@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 289227ee171c2325cad0ed321dab4f635a0ca724
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2de22eef455e59b7877524ce998e93a0a708e0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566658"
 ---
 # <a name="propertydefinition-stream-structure"></a>Определение свойства потока структуры
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Структура потока определение свойства — массив структур [FieldDefinition](fielddefinition-stream-structure.md) потока, которые содержат определения для всех пользовательских полей в элемент Microsoft Outlook и параметры привязки данных для некоторых встроенных полей. 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 380dad4c-7fbf-4c49-b67c-ab612c923499
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8dc37f1b594eeaa199b48f5946d10e60427d4988
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 314d2d6987a8bc669239652b83a31b5927723c68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809811"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562927"
 ---
 # <a name="mapi-property-tags"></a>Теги свойства MAPI
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Свойство tag — это 32-разрядное число, которое содержит уникальный идентификатор в битах 16 до 31 и тип свойства в битах цифры от 0 до 15, как показано на следующем рисунке. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 52fa57be-746d-4b80-92b6-2ba83f796325
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 425bb54f63f6a87c2f1ae6bffef9ce2b042de6bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a17db4a79d4021e40c34254e3e531965e06d9367
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19810115"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570221"
 ---
 # <a name="pidlidappointmentlastsequence-canonical-property"></a>Каноническое свойство PidLidAppointmentLastSequence
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает организатора последний порядковый номер, который был отправлен для любого участника.
   

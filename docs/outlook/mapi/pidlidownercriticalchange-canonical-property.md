@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b79aa2b7-b6e0-46dc-89f1-f801a6b5737a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 316bd4169e3e714e7d36a16cab417a1ee2068594
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0872a2c0ebef5e83052fe671e4b463e980bc4e8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810459"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563291"
 ---
 # <a name="pidlidownercriticalchange-canonical-property"></a>Каноническое свойство PidLidOwnerCriticalChange
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает дату и время отправки приглашения на собрание, организатор.
   

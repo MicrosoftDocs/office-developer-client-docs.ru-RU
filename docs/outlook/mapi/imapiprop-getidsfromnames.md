@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5247ca71c88b9c0f8591a732746a17204265741c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f7c243995c633389ab8fa80a26dddd152347276
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809037"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565363"
 ---
 # <a name="imapipropgetidsfromnames"></a>IMAPIProp::GetIDsFromNames
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет свойство идентификаторы, соответствующие имена одного или нескольких свойств.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 37d0ce65e125b2420af775d61ead51db189758ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 989c6872e78ef78e5e0b18149a186d4f920ca603
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809593"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563466"
 ---
 # <a name="itabledatahrdeleterow"></a>ITableData::HrDeleteRow
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Удаляет строку в таблице.
   

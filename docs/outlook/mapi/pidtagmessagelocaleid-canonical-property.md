@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4ba2b0a8-9f87-4a5e-ada2-e8c2399a9d94
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0fbf26faaa8d927cff8262ec19e0de71919d5658
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe1f5fe525f58f27c6eff573e9f6288ac6493732
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811361"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563634"
 ---
 # <a name="pidtagmessagelocaleid-canonical-property"></a>Каноническое свойство PidTagMessageLocaleId
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит код языка Windows для конечного пользователя, создавшего сообщение.
   

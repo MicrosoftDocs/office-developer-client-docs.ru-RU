@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 1ef9b85fd8dad980f92f5e06a4b54daf146fbcec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563354"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>��������� ���� � ������������� � �������� ��������� ������ ��� ������
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 ���� ��������� ��������� ��������� ��������� ���������� ������ �� ������ � ������� �������� ��������, ���������� ���������� � ��������� ����� MAPI ����� ���������� ��������� ��������� ��������. � ��������� ������� ������ ��� ���������� ��� ��������� ������������� ������������� � ��������� ����� MAPI ����� ���������� ���������� ���� � �������� ��������� ���������� ����� ��������.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 977c18ce-ece5-4ad1-ac97-5a680846ab83
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 423b03d674028a2f81b4c042d6e65e9acfb57274
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b369e20101bbaba5e246b2ef9f6ab3ed1771ef6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809452"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563557"
 ---
 # <a name="initializing-the-transport-provider"></a>Инициализация поставщика транспорта
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Интерфейс диспетчера очереди транспорта определяет вызовах, выполненных диспетчер очереди MAPI для поставщика транспорта. Эти процедуры внедряемые поставщиками транспорта в библиотеке динамической компоновки (DLL). Первой точкой ввод в DLL-ФАЙЛ, используемый диспетчером очереди MAPI должен быть функции инициализации поставщика транспорта [XPProviderInit](xpproviderinit.md).
   

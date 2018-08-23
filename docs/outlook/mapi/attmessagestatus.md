@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8f55470a-65b3-4210-a7d2-9031cb17ca80
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 158e4db4b0f80b80385e85c8afa16fa515dc61b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 704707b34fb4532f0e60636df31edbae1a939f35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808098"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565748"
 ---
 # <a name="attmessagestatus"></a>attMessageStatus
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Отметки сообщений MAPI, сопоставляются с флаги TNEF для поддержки обратной совместимости. Все флаги объединять и кодируются в один байт. Сопоставления, как показано ниже:
   

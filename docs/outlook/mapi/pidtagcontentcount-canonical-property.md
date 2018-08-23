@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3c542b07eac626da5fbbb6a96b4545ad3c8558b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b489e73f9453e5d2ae6657969c2bc18fc9a4620e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810995"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562941"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>Каноническое свойство PidTagContentCount
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит количество сообщений в папку, вычисленный магазином сообщения.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 24cb6429-1276-45f1-be0e-6c9d2ff6ce19
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 81ed520f9f1f7f31283476d32373255e9ca77653
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6f025d54632fdb88a846f978b38a476355395b61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810620"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563375"
 ---
 # <a name="pidlidtimezonedescription-canonical-property"></a>Каноническое свойство PidLidTimeZoneDescription
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Задает строку описания часового пояса.
   

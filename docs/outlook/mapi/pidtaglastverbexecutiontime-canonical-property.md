@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e4fc8bd9-2ec4-462e-b6cb-e533b323bd05
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8d435907c150de2ad3273ac263e7c93fb19e92a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 309d2ee5310f4e329b3f08eabe98bdf834a4fd92
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811322"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563095"
 ---
 # <a name="pidtaglastverbexecutiontime-canonical-property"></a>Каноническое свойство PidTagLastVerbExecutionTime
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Содержит время выполнения последнего действия.
   

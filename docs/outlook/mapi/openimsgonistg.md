@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: a98b0b26-9b19-44ca-9b4e-0ad4d1c54325
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 27a5978d85cf06a31f583b82cd39d0001852876b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56e663ced33da933b4276911b609f2fae1c5d78e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810062"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563969"
 ---
 # <a name="openimsgonistg"></a>OpenIMsgOnIStg
 
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Создает новый объект [IMessage](imessageimapiprop.md) поверх существующего объекта OLE **IStorage** , для использования в рамках сеанса сообщения. 
   

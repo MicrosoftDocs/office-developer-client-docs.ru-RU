@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c84167d8-f726-45c6-9b21-bcde64473148
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ceb055f6269e7abc8270c7d16da79c041d7f4ed0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 987188db4a3aceb4b065f59cdf449f943f68e70d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565321"
 ---
 # <a name="pidlidtaskestimatedeffort-canonical-property"></a>Каноническое свойство PidLidTaskEstimatedEffort
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Указывает количество времени, в минутах, что необходима для выполнения задачи.
   
