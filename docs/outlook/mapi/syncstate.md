@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 63c47e94-f603-aef9-afed-e3819bd79408
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 080556a7ed4530bb96db20fd96d9dda86672a720
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a27f38e759862c7091205a6f9a8aa1cde90c38e3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575534"
 ---
-# <a name="syncstate"></a><span data-ttu-id="c291f-103">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="c291f-103">SYNCSTATE</span></span>
+# <a name="syncstate"></a><span data-ttu-id="cfdc4-103">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="cfdc4-103">SYNCSTATE</span></span>
 
-<span data-ttu-id="c291f-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="c291f-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="cfdc4-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cfdc4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c291f-105">Эта структура определяет состояния для этого компьютера состояние репликации.</span><span class="sxs-lookup"><span data-stu-id="c291f-105">This structure defines the states for the replication state machine.</span></span>
+<span data-ttu-id="cfdc4-105">Эта структура определяет состояния для этого компьютера состояние репликации.</span><span class="sxs-lookup"><span data-stu-id="cfdc4-105">This structure defines the states for the replication state machine.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="c291f-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="c291f-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="cfdc4-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="cfdc4-106">Quick info</span></span>
 
 ```cpp
 typedef enum { 
@@ -41,9 +41,9 @@ typedef enum {
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c291f-107">См. также</span><span class="sxs-lookup"><span data-stu-id="c291f-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cfdc4-107">См. также</span><span class="sxs-lookup"><span data-stu-id="cfdc4-107">See also</span></span>
 
-- [<span data-ttu-id="c291f-108">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="c291f-108">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="c291f-109">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="c291f-109">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="c291f-110">��������� MAPI</span><span class="sxs-lookup"><span data-stu-id="c291f-110">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="cfdc4-108">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="cfdc4-108">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="cfdc4-109">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="cfdc4-109">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="cfdc4-110">��������� MAPI</span><span class="sxs-lookup"><span data-stu-id="cfdc4-110">MAPI Constants</span></span>](mapi-constants.md)
 
