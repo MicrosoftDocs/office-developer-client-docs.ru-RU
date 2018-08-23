@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9444806347c97077b03922b116e2ed7f61665cc1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c00e54d02ba494c94c9826eabe142e1bd3b9a80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809431"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579629"
 ---
 # <a name="imsprovider--iunknown"></a>IMSProvider : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к поставщику хранилища сообщений через объект поставщика хранилища сообщений. Этот объект поставщика хранилища сообщений возвращается при входе в систему поставщика функции точки входа [MSProviderInit](msproviderinit.md) поставщика хранилища сообщений. Объект поставщика хранилища сообщений в основном используется для открытия хранилищ сообщений с клиентскими приложениями и диспетчер очереди MAPI. 
   

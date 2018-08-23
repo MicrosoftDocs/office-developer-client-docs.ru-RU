@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 104de38a41408091a6fbb69995de4f41f6fea6a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ffed8070c219e6611aebbcb1dd5cd181b662850
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579699"
 ---
 # <a name="setting-table-position-with-a-fractional-value"></a>Установка положения таблицы с использованием дробного значения
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 В таблице пользователи могут перемещаться в позицию, представляющий приблизительно, например процент строк при использовании Общая. Вместо перемещения в точной строки, этот метод размещения разделяет таблицы в части на основе доли. В таблице пользователи могут переместить, например точка наполовину способ таблицы или строку, в которой — 7 и 8 способ из таблицы. 
   

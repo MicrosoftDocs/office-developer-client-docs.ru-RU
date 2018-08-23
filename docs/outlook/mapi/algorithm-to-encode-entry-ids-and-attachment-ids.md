@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 710ba5173dcce6e948e1f49c7d82e46bc83b8200
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d3ca89ea7d3d72f625d38e37494e253b05b1569
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808054"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577921"
 ---
 # <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Алгоритм шифрования идентификаторов записей и идентификаторов вложений
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Поставщик хранения можно отправить как часть из MAPI универсальный код ресурса по URL-идентификатор записи и идентификатор вложения обработчик протокола MAPI для идентификации объекта, который будет готов для индексации. Поставщик хранения кодирует запись идентификатор и идентификатор вложения Юникод. В этом разделе показано алгоритм, который создает compact представление идентификатор входа или идентификатор вложения.
   

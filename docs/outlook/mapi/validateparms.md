@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ede1a35-4acc-4b8f-a1bd-027f35798a37
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a22f7628b306707474e4ffb6fdf4525e00bf0771
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b29eab30677dae7f720cecd9fde71e8bbbf752c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812612"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579720"
 ---
 # <a name="validateparms"></a>ValidateParms
 
   
   
-**Относится к**: Outlook 
+**Применимо к**: Outlook 2013 | Outlook 2016 
   
 Вызывает функцию внутреннего и проверять параметры клиентских приложений не имеет разрешений для поставщиков услуг. 
   
