@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9cc1a1fa-62a7-411b-9b2b-c49d24a38a61
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8f490223e56798b962232f0cf2bb4c585ce47c77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f87ac0be4d4fcbb1c1a3dd9d407de5461eb556bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811591"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584277"
 ---
 # <a name="pidtagprofiletype-canonical-property"></a>Каноническое свойство PidTagProfileType
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит тип банка данных.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d8d986554352e05398a843723ee802bb4969e5ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b06ebbe8cb162d77d60cfffa866438567c84c27
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811704"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576836"
 ---
 # <a name="pidtagremotevalidateok-canonical-property"></a>Каноническое свойство PidTagRemoteValidateOk
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Это свойство содержит значение TRUE, если удаленного просмотра может вызвать метод [IMAPIStatus::ValidateState](imapistatus-validatestate.md) . 
   

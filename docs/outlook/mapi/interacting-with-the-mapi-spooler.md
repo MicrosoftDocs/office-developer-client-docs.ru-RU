@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5cc1d0a8-ad23-4173-b220-b7c0169073fa
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: faf3d48b63d1858a2b91f66c83d9ce08e9daa02b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8032172ef19fbb01af68058b2e0255e269183a8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809446"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587896"
 ---
 # <a name="interacting-with-the-mapi-spooler"></a>Взаимодействие с системой буферизации MAPI
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Методы в [IXPLogon: IUnknown](ixplogoniunknown.md) интерфейс используемые диспетчер очереди MAPI при вызове поставщика транспорта. Возможно, для большинства поставщиков транспорта для реализации большая часть этих методов, чтобы быстро вернуть. Это желательно, поскольку если метод принимает много времени для возвращения нажмите его следует выделить со звонками обратно в диспетчер очереди MAPI для освобождения ЦП для других задач. 
   

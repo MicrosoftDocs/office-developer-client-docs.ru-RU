@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fb6cd23acdb81af250e7e6dfe6facf7226850363
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f330ef3099175dde88bec2de3512a3c4af1db49
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580686"
 ---
 # <a name="imapicontrolactivate"></a>IMAPIControl::Activate
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Выполняет задачи, как отображение диалогового окна или запуск программный операции при нажатии элемента управления кнопка пользователе клиентского приложения.
   

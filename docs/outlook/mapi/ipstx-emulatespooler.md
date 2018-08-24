@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a8e353bbb4f276169ae26ba9d05821158bf55f00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 079b54757cfcd5c9b38365abc5a6d901e2b06724
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580721"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает локальное хранилище для эмуляции диспетчера протокола Outlook очереди исходящих сообщений на сервере.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 60b11733-20c2-4fe9-8406-c3103b2852ba
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c3af4e5afa272233cb435b2f856c0aadb42ed16f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9c3fc0eb5b14df27885ec835058f29f9693fb1b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811521"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584775"
 ---
 # <a name="pidtagothertelephonenumber-canonical-property"></a>Каноническое свойство PidTagOtherTelephoneNumber
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит альтернативного телефонный номер для получателя.
   

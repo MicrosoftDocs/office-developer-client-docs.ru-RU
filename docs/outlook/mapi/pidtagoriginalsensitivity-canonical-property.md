@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70a87cf8-2011-4669-90fd-2711c3352e30
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6d461c88e96a3f749595b3e071737107480472aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c921d2c9eee69148713408ec2e2a5510a27011a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811476"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582709"
 ---
 # <a name="pidtagoriginalsensitivity-canonical-property"></a>Каноническое свойство PidTagOriginalSensitivity
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Со значением, назначенные отправителем первая версия сообщение содержит то есть сообщение перед пересылку и ответ.
   

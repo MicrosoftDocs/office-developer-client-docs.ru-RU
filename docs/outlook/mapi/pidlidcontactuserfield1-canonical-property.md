@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9652a6f-5081-4472-830b-9f611bbbb1fa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2abe14ac60058cd3f56855104ba2340c4c553753
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15a24a96b7696c757d2d77d4c4ebd6a6d0763dab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810232"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584270"
 ---
 # <a name="pidlidcontactuserfield1-canonical-property"></a>Каноническое свойство PidLidContactUserField1
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет первое поле контакт, который предназначен для использования Прочее для этого контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810232"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x0000804F  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

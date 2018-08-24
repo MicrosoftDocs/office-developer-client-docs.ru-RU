@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f4584569-1246-4ac9-a404-48284e4920d7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0cc8f25271d1494ebdaca82caa2e77839f299276
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0075db0a515166c5185657daf3fc6b1e121d6672
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812455"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585124"
 ---
 # <a name="szfindsz"></a>SzFindSz
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поиск первого вхождения подстроки символом null в строку символом null. 
   

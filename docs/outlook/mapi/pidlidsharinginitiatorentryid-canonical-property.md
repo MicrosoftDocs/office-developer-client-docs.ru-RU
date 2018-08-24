@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 47f00706-83df-49cb-bda7-ef572d76a020
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6881f5ed54baffd37ff25d26f455b82bf2526d41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79392d892944e8ae2470c3da905e47b804d514aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810542"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576822"
 ---
 # <a name="pidlidsharinginitiatorentryid-canonical-property"></a>Каноническое свойство PidLidSharingInitiatorEntryId
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет, как свойство общего доступа сообщения.
   

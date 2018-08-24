@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 9f7e91f5-63a8-4529-9fb4-6275027af145
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 195cc6454dd5d29839d36e3cf206b0354d5761a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5f696fcbb65a4210160c8e14a31f3db1b2c220b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810676"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576815"
 ---
 # <a name="pidnameapplicationname-canonical-property"></a>Каноническое свойство PidNameApplicationName
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Приложение, которое может открыть файл, подключенный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |Имя_приложения  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |

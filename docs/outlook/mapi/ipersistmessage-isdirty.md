@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e748427b39418a80cae88e98b4aa7eef6df24393
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d2ae556f4dd98b5f6e274a21c608d4ea364d4ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809497"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576206"
 ---
 # <a name="ipersistmessageisdirty"></a>IPersistMessage::IsDirty
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Проверяет формы для изменения, внесенные с момента последнего сохранения.
   
@@ -33,7 +33,7 @@ HRESULT IsDirty( void );
 
 ## <a name="parameters"></a>Параметры
 
-Нет
+None
   
 ## <a name="return-value"></a>������������ ��������
 

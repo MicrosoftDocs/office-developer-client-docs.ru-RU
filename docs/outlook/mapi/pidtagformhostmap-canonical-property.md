@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 92742747-cce0-4c54-9ece-1fcf652ac498
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9e0316ead2adf00619bd87c57946ba72ed01f4b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c024f71279fac5dbb3d771442d9fbfb8a50e0f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811170"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578873"
 ---
 # <a name="pidtagformhostmap-canonical-property"></a>Каноническое свойство PidTagFormHostMap
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит карты узла из доступных форм. 
   

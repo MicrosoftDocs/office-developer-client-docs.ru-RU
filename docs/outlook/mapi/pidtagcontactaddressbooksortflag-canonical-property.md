@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: dcbd12b4-4b50-4be6-a201-45e5d4611ce0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b03deae18556a44f4d4865d7083761893e478472
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e25c265f3136fa7caf407e4b2bf160b67ba0111
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810936"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594861"
 ---
 # <a name="pidtagcontactaddressbooksortflag-canonical-property"></a>Каноническое свойство PidTagContactAddressBookSortFlag
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаг, который имеет значение TRUE, если контакты должны быть отсортированы по файла в разделе и FALSE, когда они должны быть упорядочены по отображаемому имени. 
   

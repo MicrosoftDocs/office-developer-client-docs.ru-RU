@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0246138f-c55e-4353-8e53-e973f524d52c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 41f5acddf273de39a7d5952ccb00e868170c692d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 119d162b50048e69168aa864e5d19ad806758456
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810046"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575996"
 ---
 # <a name="noscribble-state"></a>Состояние NoScribble
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Состояние NoScribble указывает на сохранение изменений в сообщение. Фактические сохранения значений, хранящихся в пользовательский интерфейс объекта формы возникает при вызове метода [IPersistMessage::Save](ipersistmessage-save.md) объекта формы клиентским приложением. В следующей таблице описываются допустимые переходы из состояния NoScribble. 
   

@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e03c5a87-4513-2133-ae0a-11d242f80e4b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 9d8eb3f2c52f20ffe57d84823a0ed736337b4d9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b18a4ae4ee25898d1100d9763714e5be21c69fd8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809893"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580728"
 ---
 # <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
 
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Это уведомление, чтобы внести изменения в состоянии подключения. Он указывает часть состояния подключения, который был изменен, старый состояние подключения и новое состояние подключения.
   

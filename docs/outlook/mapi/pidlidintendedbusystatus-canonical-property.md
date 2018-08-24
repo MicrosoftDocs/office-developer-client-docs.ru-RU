@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 30f1e2389698f5ec96874f46a685a7e087dbb773
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58642cd84c9f9b784a8a9d7246bfed0dab58e119
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810387"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577053"
 ---
 # <a name="pidlidintendedbusystatus-canonical-property"></a>Каноническое свойство PidLidIntendedBusyStatus
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает значение свойства **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) на собрание в календарь организатора, после отправки приглашения на собрание или обновление собрания.
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: edabb9a0f55cb34b4e144672e91ea50b8e9193b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6324dcc567aee48f190f8568c6c94b5ee87c731f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809605"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584570"
 ---
 # <a name="itnefencoderecips"></a>ITnef::EncodeRecips
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Кодирует представления для таблицы получателей сообщения в потоке данных Transport-Neutral Encapsulation формата TNEF в сообщении.
   

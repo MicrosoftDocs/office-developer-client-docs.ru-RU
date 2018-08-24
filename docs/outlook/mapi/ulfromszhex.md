@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e2d6b6bf-f96d-460c-859a-21961ac9237c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d5ba7e7bc52ba041e9fe6c9a01b35dc91d3b947b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6de4be29811dafaf5288b2ccb39c0342a314bad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812540"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584627"
 ---
 # <a name="ulfromszhex"></a>UlFromSzHex
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Преобразует строку символом null шестнадцатеричных цифр в длинное целое без знака. 
   

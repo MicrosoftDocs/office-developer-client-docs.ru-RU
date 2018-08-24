@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee57d6e0-9de0-4427-97ce-371c1c01f3de
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1cfd4afbda5892e96a1d74ca56f4a6d1f98e2268
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1526ed54fd3773856b009c7c3570064f5a66df28
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809097"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594945"
 ---
 # <a name="imapisupportcreateoneoff"></a>IMAPISupport::CreateOneOff
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает запись идентификатор указывает адрес.
   

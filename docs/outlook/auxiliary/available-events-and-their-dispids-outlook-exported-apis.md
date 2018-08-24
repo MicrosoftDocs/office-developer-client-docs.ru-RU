@@ -7,18 +7,18 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1fd848c7-038e-4e2f-8997-c8509b31df79
 description: В этом разделе описываются идентификаторы диспетчера для событий, которые Outlook делает доступными.
-ms.openlocfilehash: 1542ff85579346a3674593e9ea38115170df2237
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a94787063e0fd5be30de1ef772813979d3cb2f21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807689"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582975"
 ---
 # <a name="available-events-and-their-dispids-outlook-exported-apis"></a>Доступные события и их идентификаторы DISPID (Outlook экспортировать API-интерфейсы)
 
 В этом разделе описываются идентификаторы диспетчера для событий, которые Outlook делает доступными.
   
-Outlook предоставляет следующие идентификаторов отправки (DISPID) чтобы разрешить надстройки C++ для прослушивания и обработки соответствующих событий из функции [IDispatch::Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx) . 
+Outlook предоставляет следующие идентификаторов отправки (DISPID) чтобы разрешить надстройки C++ для прослушивания и обработки соответствующих событий из функции [IDispatch::Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) . 
   
 |**Constant**|**DISPID для события**|**Описание**|**Параметры**|**Замечания**|
 |:-----|:-----|:-----|:-----|:-----|

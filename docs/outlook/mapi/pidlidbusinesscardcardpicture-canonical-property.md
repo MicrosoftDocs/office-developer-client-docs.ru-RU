@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2c7af147-f7eb-41ef-8403-93584a2041ba
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8e241022504291ad70f45a3318a7901bbbba213f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b83316b599ea9ee62bde78cbd734dfb6b2d8b80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810212"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588498"
 ---
 # <a name="pidlidbusinesscardcardpicture-canonical-property"></a>Каноническое свойство PidLidBusinessCardCardPicture
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит изображения, используемого на визитной карточки.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810212"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008041  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

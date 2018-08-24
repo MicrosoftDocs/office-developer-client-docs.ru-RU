@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f06a1034-ee49-4a09-831e-9752713228a8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: cf52062eacbd13b45087df9d8558bffd43ccd744
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de0acb88eee6addc0347f5281e5fbe5070bad0a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808011"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595412"
 ---
 # <a name="acting-as-a-host-address-book-provider"></a>Работа в качестве главного поставщика адресной книги
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Этот поставщик является поставщика адресных книг, содержащую получателей из других поставщиков в его контейнеров и зависит от реализации получателей с другими поставщиками частично управлять их обслуживания. Этот поставщик использует идентификаторы шаблон этих внешних получателей для привязки данных для этих получателей для кода в внешнего поставщика. Этот процесс привязки инициируется, когда поставщик Получает свойство **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) получателя и передает его в вызове [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). 
   

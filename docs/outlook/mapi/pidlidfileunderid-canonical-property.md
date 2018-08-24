@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 08e2403be35b87393d22f9109f59c0572c53073b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a4fdb94877fb9491005fc650c206ffefd3f8b94
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810367"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578418"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>Каноническое свойство PidLidFileUnderId
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, как создать и подсчета значение свойства **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) при изменении свойства имени других контактов.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810367"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008006  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

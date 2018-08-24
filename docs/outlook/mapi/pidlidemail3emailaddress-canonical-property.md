@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3a468bb6-c4c2-42ee-8283-492196872ca0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a4015937dd2f3dc77cb3f549a0a70027b4fcea55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82328e285d0bf77ced074ba19aed306a27cea574
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594777"
 ---
 # <a name="pidlidemail3emailaddress-canonical-property"></a>Каноническое свойство PidLidEmail3EmailAddress
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, третий адрес электронной почты контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810271"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x000080A3  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

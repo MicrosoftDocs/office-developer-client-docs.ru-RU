@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 3b40c8433f93237db2ae4fd5449fe8a0da486539
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46c77ce0f14e3b7719256d8b305cb3dad767b3f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808122"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590101"
 ---
 # <a name="building-a-restriction"></a>Построение ограничение
 
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Для построения ограничение, клиентское приложение создает иерархию структур ограничение одного или нескольких различных типов и передает указатель в иерархии, чтобы метод [IMAPITable::Restrict](imapitable-restrict.md) или [IMAPITable::FindRow](imapitable-findrow.md) . Примеры кода в [Коде ограничение](sample-restriction-code.md) и приведенном ниже рисунке демонстрация реализации типичные ограничения структуры связанного ограничение различных типов. 
 

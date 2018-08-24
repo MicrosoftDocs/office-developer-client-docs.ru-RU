@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 809776b7-ff00-4a52-84b9-8b5fb5f5c3e3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e8ca8d7a82360c1f96448b08c9eda18be502b9f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a89cf096e3775b57035be60cab01e3d687770cf8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810635"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582576"
 ---
 # <a name="pidlidtaskstatus-canonical-property"></a>Каноническое свойство PidLidTaskStatus
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает состояние пользователя о ходе выполнения задачи.
   

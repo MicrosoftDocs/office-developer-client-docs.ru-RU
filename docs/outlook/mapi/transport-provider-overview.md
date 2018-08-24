@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a51547e6-8f0e-45f4-a341-3cfa735112c2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 22b9da0cfe70cf499cc6f3a699eabe4aaee25b0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbc56b7334d3966696641a84f23a64ce3802e3e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812520"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595274"
 ---
 # <a name="transport-provider-overview"></a>Обзор поставщиков транспорта
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поставщика транспорта — это библиотека динамической компоновки (DLL), которая выполняет роль посредника между подсистемы MAPI и один или несколько базовых систем обмена сообщениями. Системы обмена сообщениями — некоторые определенные механизм, с помощью которого отправки и получения сообщений. Приведены некоторые примеры систем обмена сообщениями.
   

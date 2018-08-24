@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c18de08b-8c28-4cdf-bd2e-b9c650cd6da6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0c2cf784ff9a86c9e2a2ce1a25b3c4b8ff7d8b75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60704464beb162a614d6619b5e74d362b4af4488
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811417"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585110"
 ---
 # <a name="pidtagordinalmost-canonical-property"></a>Каноническое свойство PidTagOrdinalMost
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит положительное число, отрицательное меньше или равно значению свойства **dispidTaskOrdinal** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) всех задач в папке.
   

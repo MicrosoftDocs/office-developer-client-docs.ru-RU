@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 53325ba2-0b4d-4495-b262-1781117c69a2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6b9fa6a5d793b45c757d228b57e17d6ac176ef5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30000ac957eac9fd16cbc59e3e121320259d6843
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810240"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576199"
 ---
 # <a name="pidlidcontactuserfield4-canonical-property"></a>Каноническое свойство PidLidContactUserField4
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает поле четвертый на контакт, который предназначен для использования Прочее для контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810240"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008052  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

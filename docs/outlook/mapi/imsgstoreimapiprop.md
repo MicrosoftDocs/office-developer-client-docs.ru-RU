@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 20090114-b183-4767-8971-a304a9aa47e6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 426333e6e2624adcd7cb6bc6dc4982b3d1ef1999
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ed17fd7f826432da9460fe01e5aa76802726bad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809405"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584634"
 ---
 # <a name="imsgstore--imapiprop"></a>IMsgStore : IMAPIProp
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к информации о хранилища сообщений и сообщений и папок.
   

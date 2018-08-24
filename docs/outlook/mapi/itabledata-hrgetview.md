@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a913f2f3a72a365ec7d5078eccf31c4212ca83a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0eb0374788da629c4c28eff2fce93536cf65a4ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809599"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582989"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создание нового представления таблицы, возвращает указатель на реализацию [IMAPITable](imapitableiunknown.md) . 
   

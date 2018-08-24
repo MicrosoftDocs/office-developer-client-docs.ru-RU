@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 772ecab1-7e91-415b-bae8-af8ffb7b7ed9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4a0ab660b8df2fb32f21f9bc93932a9187c37b7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a9bba55b585b09d6a5779ba41a283b20c645656f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812521"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576234"
 ---
 # <a name="types-of-transport-providers"></a>Типы поставщиков транспорта
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Все поставщики транспорта поддерживают диапазон стандартные элементы, такие как:
   

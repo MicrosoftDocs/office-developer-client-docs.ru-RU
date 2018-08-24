@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 790180f9-8864-47d4-97fb-35fe16b957c0
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b912d81c1413fb40b6ddccc2f54bc393a6b67857
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6018c05d1191211242066425e4ae546c1618094
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808019"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594560"
 ---
 # <a name="adding-rendering-information-to-formatted-text"></a>Добавление сведений об отображении к форматированному тексту
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Чтобы указать расположение в форматированного текста, в которой отображается вложения, необходимо вставить последовательности символов заполнителя в свойство message **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Последовательность заполнитель включает в себя следующие символы: `\objattph`.
   

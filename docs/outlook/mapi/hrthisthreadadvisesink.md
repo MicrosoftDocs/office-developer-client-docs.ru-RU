@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 744d9a7588bff89e9d306e516a24da2db3038d4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3df5e012867623d1c5e8fb5c3c93103548ab97be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808721"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588386"
 ---
 # <a name="hrthisthreadadvisesink"></a>HrThisThreadAdviseSink
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создание приемника уведомления, которое имеет приемника уведомления для потокобезопасность. 
   

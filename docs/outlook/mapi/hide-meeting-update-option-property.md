@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e7b413f-a88a-a4ec-8d57-1f3058cce4a4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 25942df6f6156266f16cf6e681270dbb530472e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65255e14fd849d730e92bd86027642eef2c687bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584977"
 ---
 # <a name="hide-meeting-update-option-property"></a>Свойство параметра для скрытия обновления собрания
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Скрывает отправка обновлений встреч только добавленным или удаленным участникам.
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: af2f776c-1b77-4942-827a-4363eda3924f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d886bf1e30eae6b4b26512eed95988516a609c94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1d654c2a14728979146ef09618bfc4e9e618f9d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810833"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594770"
 ---
 # <a name="pidtagattachcontentlocation-canonical-property"></a>Каноническое свойство PidTagAttachContentLocation
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит заголовок расположение содержимого вложения сообщения Multipurpose Internet Mail Extensions (MIME). 
   

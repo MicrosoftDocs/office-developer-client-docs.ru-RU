@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 479ba1990f7cac1768fc5e514e3fc55f017e4a0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa29a55a5fc2ce89e125909d13a2c14a347ef831
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810538"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594028"
 ---
 # <a name="pidlidsideeffects-canonical-property"></a>Каноническое свойство PidLidSideEffects
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Позволяет определить способ обработки объекта message клиентом при работе на входные данные конечных пользователей.
   

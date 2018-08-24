@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: eef42a8c7d19af313316bea68624ac67fb1ab4e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d8dbeaf101d5ebb687403a2200bd0ad73b9998
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808243"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577102"
 ---
 # <a name="creating-a-message-attachment"></a>Создание вложения сообщения
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вложения сообщения является некоторые дополнительные данные, такие как файл, другое сообщение или OLE-объект, который вы можете отправить или сохранить, а также сообщение. Каждый вложение содержит набор свойств, определяющий ее, а также его тип и порядок отображения. Как получатели вложений сообщений осуществляется только по почте, к которым они относятся. Таким образом вложения для использования в его сообщение необходимо открыть.
   

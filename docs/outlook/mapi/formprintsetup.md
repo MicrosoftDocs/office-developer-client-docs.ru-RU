@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ff46c58fbb352d56ae3df09d6949cdd5f614673f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 83194b47faf7892d5da568a354921511eb097210
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808485"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582954"
 ---
 # <a name="formprintsetup"></a>FORMPRINTSETUP
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывается настройка печати сведения для объекта формы. 
   

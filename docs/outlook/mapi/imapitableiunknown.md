@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0ffaf5909c978059343067c93a2b30f5969327e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a5504711bdeac4ef94cbe47395ceb8163b60ad68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584333"
 ---
 # <a name="imapitable--iunknown"></a>IMAPITable : IUnknown
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения о таблицы только для чтения. **IMAPITable** используется клиентами и поставщиков услуг для работы с внешний вид таблицы. 
   

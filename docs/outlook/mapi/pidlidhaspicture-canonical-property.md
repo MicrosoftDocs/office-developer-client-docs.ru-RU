@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3bea11c-3197-4060-8672-f1b4bf352112
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 74a54db3ebb55c178fd5f8b7317bb27c83a47311
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30046bd7982d08d99c5581c27d1616162d904dee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810381"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577109"
 ---
 # <a name="pidlidhaspicture-canonical-property"></a>Каноническое свойство PidLidHasPicture
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, существует ли подключение к фотографии контакта.
   
@@ -33,7 +33,7 @@ ms.locfileid: "19810381"
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (КРЫШКА):  <br/> |0x00008015  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Контакт  <br/> |
+|Область:  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Замечания
 

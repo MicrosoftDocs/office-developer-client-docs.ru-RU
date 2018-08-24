@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 52a6132dcd6aa2c3a2951f3d1a6458808364dccb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2831e31e8139dd2348c2deffa6da41793d0a3f4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811780"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576248"
 ---
 # <a name="pidtagruleid-canonical-property"></a>Каноническое свойство PidTagRuleId
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает уникальный идентификатор, создаваемых сервером обмена сообщениями для каждого правила при создании правила. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d6621e2bcd7831016efd7ac43f93ef83aaf41c29
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36d1518764985c4783d967e263ca5c05d63f935f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809215"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588484"
 ---
 # <a name="imapitablefreebookmark"></a>IMAPITable::FreeBookmark
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Освобождает память, связанную с закладку.
   

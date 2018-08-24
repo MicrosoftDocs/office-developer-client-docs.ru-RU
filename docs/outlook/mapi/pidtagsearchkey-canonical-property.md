@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: fcab369a-a1f4-4425-a272-e35046914a4d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 169afc3b8cf982c4767802542b900ae80822cd01
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da7d19407856570a628529877252360d1537bae7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811878"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595393"
 ---
 # <a name="pidtagsearchkey-canonical-property"></a>Каноническое свойство PidTagSearchKey
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит двоичный сравнимые ключ, который определяет соответствующих объектов для поиска.
   
