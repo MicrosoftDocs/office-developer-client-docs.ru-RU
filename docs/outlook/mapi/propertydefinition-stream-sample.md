@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3d0c337bd3e5a73bbbcbb72a109320cfb84efd50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc216302cb68be4b0e9d57f60f491adebcba1975
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812083"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573931"
 ---
 # <a name="propertydefinition-stream-sample"></a>Определение свойства потока образца
 
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описывается пример потока определение свойства. Поток содержит определение того, пользовательские поля, `TextField1`. Тип — **текст**, и определение находится в формате PropDefV2.
   

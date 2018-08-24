@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 35a2d88ec838a9a76355ba6580e9cdbb3f28de56
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0f13b0b8d2f7eb6fd7ba60e9e351b62251aa13d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811612"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572839"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>Каноническое свойство PidTagProviderItemId
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает идентификатор для папки или элемента в хранилище.
   

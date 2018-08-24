@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 733e07b6-da9f-4ec0-80e4-2267213fceae
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d82ce0acb642ae6e3790595fa2479bad92383bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4aef0e62a0f9814bf81932c4d0e161b6998bf57b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19810717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572419"
 ---
 # <a name="pidnamelinecount-canonical-property"></a>Каноническое свойство PidNameLineCount
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает количество строк в файл, подключенный к документу.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Понятные имена:  <br/> |Отсутствует  <br/> |
 |Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |LineCount  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |

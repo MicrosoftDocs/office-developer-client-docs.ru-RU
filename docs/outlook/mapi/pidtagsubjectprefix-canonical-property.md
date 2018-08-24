@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 07fcb881-d873-45bf-b048-30f41d0d8d85
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: be2d30f511540b2eb7aa6e55531753811aaa580d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ffc47eca3457eef876d88a4be43888f24c403b10
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19811993"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575345"
 ---
 # <a name="pidtagsubjectprefix-canonical-property"></a>Каноническое свойство PidTagSubjectPrefix
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит префикс темы, который указывает на то, какие-либо действия в окне сообщения, например, «по: "для пересылки. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 59911531b6d8f9c094ef8563510aaa176e3a63b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b684309211bbc008856311158c67864d958c96a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812387"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573035"
 ---
 # <a name="sshortarray"></a>SShortArray
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив целых значений, которые используются для описания свойства типа PT_MV_SHORT.
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: ee3307836e8b167efbc2cdc870e698257526ef97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78f6083cf17bb21152df1a7ea09825f3be7f0e37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812620"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572944"
 ---
 # <a name="working-with-multivalued-columns"></a>Работа с многозначными столбцами
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Многозначных столбцов с данными многозначные свойства, которое является свойством, которое содержит массив значений базового типа, а не одним значением. Так как ни одна из таблиц многозначных свойств в их наборы столбцов по умолчанию, в таблицу включены многозначные свойства только в том случае, если пользователь таблицы запрашивает его. 
   

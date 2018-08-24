@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e375367b-d107-4768-95de-00b8b9dc3511
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 808d5f4bfca15cae4ca7aab6758d3b5361813bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5c46aed7a15ae4f48c8e4f1fe308fcb20ab3fe7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808174"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575359"
 ---
 # <a name="comparing-address-book-entries"></a>Сравнение записей адресной книги
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Реализация [IABLogon::CompareEntryIDs](iablogon-compareentryids.md) ваш поставщик сравнивает идентификаторы записей для двух объектов ваш поставщик. MAPI вызывает этот метод после определения, что идентификаторы двух записей содержать ваш поставщик регистрации [MAPIUID](mapiuid.md). Таким образом метод **CompareEntryIDs** должны проверяет, что идентификаторы записей, переданных параметров _lpEntryID1_ и _lpEntryID2_ принадлежат к поставщику. 
   

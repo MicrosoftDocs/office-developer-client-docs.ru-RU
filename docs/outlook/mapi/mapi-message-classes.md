@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 64ef2bbb-585c-4908-8ad4-a1c954057e9b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 27b81c0939aa3e880f3998d33f4717c51bdbe681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eecbbb3b806ecaee6c7ceba5c92bd4b713ad1075
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19809778"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575142"
 ---
 # <a name="mapi-message-classes"></a>Классы сообщений MAPI
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Каждое сообщение имеет свойство класс сообщения, **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), который определяет тип, назначение или содержимое сообщения. **PR_MESSAGE_CLASS** свойство является обязательным для всех новых сообщений. Класс сообщения определяет формы, в которой используется для представления сообщение пользователю и папка для размещения входящих сообщений. 
   

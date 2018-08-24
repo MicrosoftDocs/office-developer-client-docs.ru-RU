@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d53790cb51b660c781190cf41ca317c823a021e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ed24682086556addf76b8451674a73bd82ce050
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812563"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572188"
 ---
 # <a name="upload-hierarchy-state"></a>Состояние отправки данных иерархии
 
   
   
-**Относится к**: Outlook 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описываются двоичных файлов состояние иерархии отправляемых конечного автомата репликации. 
   
@@ -49,5 +49,5 @@ ms.locfileid: "19812563"
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[SYNCSTATE](syncstate.md)
+[СОСТОЯНИЕ](syncstate.md)
 
