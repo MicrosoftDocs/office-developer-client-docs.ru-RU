@@ -6,20 +6,20 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
 description: '���� ���������� ���������: 7 ������� 2015 �.'
-ms.openlocfilehash: 15729f8d2c618f16fb5bebab885eaf610c09da77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6369ea8948ae1996b6f88bcacd218b8dcf397306
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808616"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574694"
 ---
-# <a name="check-the-version-of-outlook"></a><span data-ttu-id="d0c2d-103">Проверка версии Outlook</span><span class="sxs-lookup"><span data-stu-id="d0c2d-103">Check the version of Outlook</span></span>
+# <a name="check-the-version-of-outlook"></a><span data-ttu-id="3bfae-103">Проверка версии Outlook</span><span class="sxs-lookup"><span data-stu-id="3bfae-103">Check the version of Outlook</span></span>
 
-<span data-ttu-id="d0c2d-104">**Относится к**: Outlook</span><span class="sxs-lookup"><span data-stu-id="d0c2d-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="3bfae-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3bfae-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d0c2d-p101">� ���� ������� ��������� ������� ����, ��������� �������� � ������ ������������� ������ Microsoft Outlook, ���� ������������� ������ �������� Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007 ��� Microsoft Outlook 2003. �������� ������ Outlook � ��������� ������� ���������� ���������, ��� �������� API-���������� MAPI ���������� ������, �������������� � ��������� ����� �������� ������ Outlook.</span><span class="sxs-lookup"><span data-stu-id="d0c2d-p101">This topic provides a code sample that checks version information of installed versions of Microsoft Outlook if the installed version is Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007, or Microsoft Outlook 2003. Checking the version of Outlook is sometimes necessary to ensure that a MAPI application calls API elements that are supported by the currently running version of Outlook.</span></span>
+<span data-ttu-id="3bfae-p101">� ���� ������� ��������� ������� ����, ��������� �������� � ������ ������������� ������ Microsoft Outlook, ���� ������������� ������ �������� Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007 ��� Microsoft Outlook 2003. �������� ������ Outlook � ��������� ������� ���������� ���������, ��� �������� API-���������� MAPI ���������� ������, �������������� � ��������� ����� �������� ������ Outlook.</span><span class="sxs-lookup"><span data-stu-id="3bfae-p101">This topic provides a code sample that checks version information of installed versions of Microsoft Outlook if the installed version is Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007, or Microsoft Outlook 2003. Checking the version of Outlook is sometimes necessary to ensure that a MAPI application calls API elements that are supported by the currently running version of Outlook.</span></span>
 
-<span data-ttu-id="d0c2d-p102">� ��������� ������� ����,  `PrintOutlookVersionString`�������� ������ ������ ����� � ������� ������� **MsiProvideQualifiedComponent** � **MsiGetFileVersion**, ����������� � ����� Msi.h � Microsoft Windows Development Kit (SDK).  `PrintOutlookVersionString` ����� ���������� ��������� �� ���������� ���� Boolean, �����������, ����������� �� 64-��������� ������ Outlook. �������� � ��������� �������� ��� ��������� ������ ������ ������ ��� ��������� ������ Outlook ���������� [������� ����������� �������� � ������ Outlook](http://support.microsoft.com/kb/870929).</span><span class="sxs-lookup"><span data-stu-id="d0c2d-p102">The following code sample,  `PrintOutlookVersionString`, obtains full version strings by using the **MsiProvideQualifiedComponent** and **MsiGetFileVersion** functions, as declared in the Msi.h file in the Microsoft Windows Software Development Kit (SDK).  `PrintOutlookVersionString` also returns a pointer to a Boolean variable that indicates whether a 64-bit version of Outlook is installed. For information about the expected values for the different parts of a version string for some released versions of Outlook, see [How to determine Outlook version information](http://support.microsoft.com/kb/870929).</span></span>
+<span data-ttu-id="3bfae-p102">� ��������� ������� ����,  `PrintOutlookVersionString`�������� ������ ������ ����� � ������� ������� **MsiProvideQualifiedComponent** � **MsiGetFileVersion**, ����������� � ����� Msi.h � Microsoft Windows Development Kit (SDK).  `PrintOutlookVersionString` ����� ���������� ��������� �� ���������� ���� Boolean, �����������, ����������� �� 64-��������� ������ Outlook. �������� � ��������� �������� ��� ��������� ������ ������ ������ ��� ��������� ������ Outlook ���������� [������� ����������� �������� � ������ Outlook](http://support.microsoft.com/kb/870929).</span><span class="sxs-lookup"><span data-stu-id="3bfae-p102">The following code sample,  `PrintOutlookVersionString`, obtains full version strings by using the **MsiProvideQualifiedComponent** and **MsiGetFileVersion** functions, as declared in the Msi.h file in the Microsoft Windows Software Development Kit (SDK).  `PrintOutlookVersionString` also returns a pointer to a Boolean variable that indicates whether a 64-bit version of Outlook is installed. For information about the expected values for the different parts of a version string for some released versions of Outlook, see [How to determine Outlook version information](http://support.microsoft.com/kb/870929).</span></span>
   
 ```cpp
 void PrintOutlookVersionString()
@@ -172,7 +172,7 @@ Error:
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d0c2d-110">��. �����</span><span class="sxs-lookup"><span data-stu-id="d0c2d-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3bfae-110">��. �����</span><span class="sxs-lookup"><span data-stu-id="3bfae-110">See also</span></span>
 
-- [<span data-ttu-id="d0c2d-111">����� �������� � ���������������� MAPI</span><span class="sxs-lookup"><span data-stu-id="d0c2d-111">MAPI Programming Overview</span></span>](mapi-programming-overview.md)
+- [<span data-ttu-id="3bfae-111">����� �������� � ���������������� MAPI</span><span class="sxs-lookup"><span data-stu-id="3bfae-111">MAPI Programming Overview</span></span>](mapi-programming-overview.md)
 
