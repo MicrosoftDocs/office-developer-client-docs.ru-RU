@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: В шаблоне формы, создаваемом с помощью Microsoft InfoPath, схема XML (XSD) используется для выполнения проверки данных в XML, который представляет вводные, отредактированные и выводные данные из формы InfoPath. Каждый шаблон формы, созданный в конструкторе форм InfoPath, содержит как минимум один файл схемы XSD (XSD), используемый для проверки во время выполнения.
-ms.openlocfilehash: 6b19399e4f31f6270fa6f360a8428c725050ce16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6921a2206c098992a0a24e85c263992a0e2c98b1
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568275"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19807615"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Работа с XML-схемами в InfoPath
 
@@ -532,8 +532,8 @@ xml version="1.0" encoding="UTF-8"
 
 - [W3C XML Schema](http://www.w3.org/XML/Schema)
 - [XML Schema W3C. Основные сведения](http://www.w3.org/TR/xmlschema-0/)
-- [Справочник по структурам XML Schema W3C](https://www.xml.com/pub/a/2000/11/29/schemas/structuresref.html)
-- [Справочник по типам данных XML Schema W3C](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
-- [Учебное пособие по XML Schema](https://www.w3schools.com/xml/schema_intro.asp)
-- [Центр разработчиков XML](http://msdn.microsoft.com/en-us/xml/default.aspx)
+- [Справочник по структурам XML Schema W3C](http://www.xml.com/pub/a/2000/11/29/schemas/structuresref.mdl)
+- [Справочник по типам данных XML Schema W3C](http://www.xml.com/pub/a/2000/11/29/schemas/dataref.mdl)
+- [Учебное пособие по XML Schema](http://www.w3schools.com/schema/default.asp)
+- [Центр разработчиков XML](http://msdn.microsoft.com/ru-RU/xml/default.aspx)
 
