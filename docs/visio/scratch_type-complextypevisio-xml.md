@@ -6,24 +6,24 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1e3dd8c8-e84c-61ff-bfff-57d97545e441
-ms.openlocfilehash: 973a0db86eec553c7a728095e28735d4cdb91041
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4002466eb98beac889fb27b2aec07aa6a5e31ceb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814723"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398964"
 ---
-# <a name="scratchtype-complextype-visio-xml"></a><span data-ttu-id="58322-102">Scratch_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="58322-102">Scratch_Type complexType ('Visio XML')</span></span>
+# <a name="scratchtype-complextype-visio-xml"></a><span data-ttu-id="45143-102">Scratch_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="45143-102">Scratch_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="58322-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="58322-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="45143-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="45143-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="58322-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="58322-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="58322-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="58322-105">**Schema file**</span></span> <br/> |<span data-ttu-id="58322-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="58322-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="58322-107">**База расширения**</span><span class="sxs-lookup"><span data-stu-id="58322-107">**Extension base**</span></span> <br/> |<span data-ttu-id="58322-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="58322-108">Section_Type</span></span>  <br/> |
+|<span data-ttu-id="45143-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="45143-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="45143-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="45143-105">**Schema file**</span></span> <br/> |<span data-ttu-id="45143-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="45143-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="45143-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="45143-107">**Extension base**</span></span> <br/> |<span data-ttu-id="45143-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="45143-108">Section_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="58322-109">Определение</span><span class="sxs-lookup"><span data-stu-id="58322-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="45143-109">Определение</span><span class="sxs-lookup"><span data-stu-id="45143-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="Scratch_Type">
@@ -42,18 +42,18 @@ ms.locfileid: "19814723"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="58322-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="58322-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="45143-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="45143-110">Elements and attributes</span></span>
 
-<span data-ttu-id="58322-111">Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение.</span><span class="sxs-lookup"><span data-stu-id="58322-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="45143-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="45143-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="58322-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="58322-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="45143-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="45143-112">Child elements</span></span>
 
-|<span data-ttu-id="58322-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="58322-113">**Element**</span></span>|<span data-ttu-id="58322-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="58322-114">**Type**</span></span>|<span data-ttu-id="58322-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="58322-115">**Description**</span></span>|
+|<span data-ttu-id="45143-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="45143-113">**Element**</span></span>|<span data-ttu-id="45143-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="45143-114">**Type**</span></span>|<span data-ttu-id="45143-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="45143-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="58322-116">Row</span><span class="sxs-lookup"><span data-stu-id="58322-116">Row</span></span>](row-element-scratch-sectionvisio-xml.md) <br/> |[<span data-ttu-id="58322-117">ScratchRow_Type</span><span class="sxs-lookup"><span data-stu-id="58322-117">ScratchRow_Type</span></span>](scratchrow_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="45143-116">Строка</span><span class="sxs-lookup"><span data-stu-id="45143-116">Row</span></span>](row-element-scratch-sectionvisio-xml.md) <br/> |[<span data-ttu-id="45143-117">ScratchRow_Type</span><span class="sxs-lookup"><span data-stu-id="45143-117">ScratchRow_Type</span></span>](scratchrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="58322-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="58322-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="45143-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="45143-118">Attributes</span></span>
 
-<span data-ttu-id="58322-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="58322-119">None.</span></span>
+<span data-ttu-id="45143-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="45143-119">None.</span></span>
   
 
