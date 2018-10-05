@@ -5,26 +5,26 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6f041970-780b-48b4-a277-20e8289134cd
-description: Данный документ предоставляетсякак есть. Сведения и примеры, представленные в данном документе, включая URL-адреса и другие ссылки на веб-сайты в Интернете, могут изменяться без уведомления. Риск, связанный с использованием таких сведений, лежит на вас.
-ms.openlocfilehash: 318b19afeb77af693e04868e378cc3972ca339be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Данный документ предоставляетсякак есть. Сведения и представлений, выраженная в этом документе, включая URL-адреса и другие ссылки на веб-сайт в Интернете, могут изменяться без предварительного уведомления. Риск, связанный с использованием таких сведений, лежит на вас.
+ms.openlocfilehash: 24a9fd4cdc25f206e8241a9b989724474f290318
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813055"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384684"
 ---
-# <a name="microsoft-project-2013-sdk-copyright-notice"></a><span data-ttu-id="93238-105">Пакет SDK для Microsoft Project 2013 уведомление об авторских правах</span><span class="sxs-lookup"><span data-stu-id="93238-105">Microsoft Project 2013 SDK copyright notice</span></span>
+# <a name="microsoft-project-2013-sdk-copyright-notice"></a><span data-ttu-id="3c511-105">Пакет SDK для Microsoft Project 2013 уведомление об авторских правах</span><span class="sxs-lookup"><span data-stu-id="3c511-105">Microsoft Project 2013 SDK copyright notice</span></span>
 
-<span data-ttu-id="93238-p102">Данный документ предоставляется "как есть". Сведения и примеры, представленные в данном документе, включая URL-адреса и другие ссылки на веб-сайты в Интернете, могут изменяться без уведомления. Риск, связанный с использованием таких сведений, лежит на вас.</span><span class="sxs-lookup"><span data-stu-id="93238-p102">This document is provided "as-is". Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it.</span></span> 
+<span data-ttu-id="3c511-106">Данный документ предоставляется "как есть".</span><span class="sxs-lookup"><span data-stu-id="3c511-106">This document is provided "as-is".</span></span> <span data-ttu-id="3c511-107">Сведения и представлений, выраженная в этом документе, включая URL-адреса и другие ссылки на веб-сайт в Интернете, могут изменяться без предварительного уведомления.</span><span class="sxs-lookup"><span data-stu-id="3c511-107">Information and views expressed in this document, including URL and other Internet website references, may change without notice.</span></span> <span data-ttu-id="3c511-108">Риск, связанный с использованием таких сведений, лежит на вас.</span><span class="sxs-lookup"><span data-stu-id="3c511-108">You bear the risk of using it.</span></span> 
   
-<span data-ttu-id="93238-p103">Некоторые приводимые здесь примеры предоставлены только для иллюстрации и являются вымышленными. Любые совпадения с фактическими объектами следует рассматривать как случайные.</span><span class="sxs-lookup"><span data-stu-id="93238-p103">Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.</span></span>
+<span data-ttu-id="3c511-p103">Некоторые приводимые здесь примеры предоставлены только для иллюстрации и являются вымышленными. Любые совпадения с фактическими объектами следует рассматривать как случайные.</span><span class="sxs-lookup"><span data-stu-id="3c511-p103">Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.</span></span>
   
-<span data-ttu-id="93238-p104">Данный документ не дает вам каких-либо законных прав на любую интеллектуальную собственность в любых продуктах Майкрософт. Разрешается копирование и использование данного документа для внутренних справочных целей.</span><span class="sxs-lookup"><span data-stu-id="93238-p104">This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.</span></span> 
+<span data-ttu-id="3c511-p104">Данный документ не дает вам каких-либо законных прав на любую интеллектуальную собственность в любых продуктах Майкрософт. Разрешается копирование и использование данного документа для внутренних справочных целей.</span><span class="sxs-lookup"><span data-stu-id="3c511-p104">This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.</span></span> 
   
-<span data-ttu-id="93238-p105">© Корпорация Майкрософт (Microsoft Corporation), 2012. Все права защищены.</span><span class="sxs-lookup"><span data-stu-id="93238-p105">© 2012 Microsoft Corporation. All rights reserved.</span></span>
+<span data-ttu-id="3c511-p105">© Корпорация Майкрософт (Microsoft Corporation), 2012. Все права защищены.</span><span class="sxs-lookup"><span data-stu-id="3c511-p105">© 2012 Microsoft Corporation. All rights reserved.</span></span>
   
-<span data-ttu-id="93238-115">Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server и Windows Vista являются товарными знаками группы компаний Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="93238-115">Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server, and Windows Vista are trademarks of the Microsoft group of companies.</span></span>
+<span data-ttu-id="3c511-115">Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server и Windows Vista являются товарными знаками группы компаний Майкрософт.</span><span class="sxs-lookup"><span data-stu-id="3c511-115">Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server, and Windows Vista are trademarks of the Microsoft group of companies.</span></span>
   
-<span data-ttu-id="93238-116">Все остальные товарные знаки являются собственностью их владельцев</span><span class="sxs-lookup"><span data-stu-id="93238-116">All other trademarks are property of their respective owners.</span></span>
+<span data-ttu-id="3c511-116">Все остальные товарные знаки являются собственностью их владельцев</span><span class="sxs-lookup"><span data-stu-id="3c511-116">All other trademarks are property of their respective owners.</span></span>
   
 
