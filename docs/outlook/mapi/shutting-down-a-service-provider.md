@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
 description: '���� ���������� ���������: 7 ������� 2015 �.'
-ms.openlocfilehash: 70db0b0a62568cc499cf915634756bb422ae82ca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e25dad1e04927e10af38cdfbf8f30c9bd04234b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567197"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395177"
 ---
 # <a name="shutting-down-a-service-provider"></a>Завершение работы поставщика службы
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Когда клиент вызывает метод [IMAPISession::Logoff](imapisession-logoff.md) , чтобы завершить сеанс и завершите работу всех поставщиков услуг активный, MAPI в свою очередь вызывает следующие методы: 
   
@@ -33,7 +33,7 @@ ms.locfileid: "22567197"
   
 - Освобождение всех открытых объектов, включая вложенных объектов и объектов состояния.
     
-- Вызов метода [функции IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) объект поддержки для уменьшения счетчик ссылок на него. 
+- Вызов метода [функции IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) объект поддержки для уменьшения счетчик ссылок на него. 
     
 - Удаление всех зарегистрированных [MAPIUID](mapiuid.md) структуры ваш поставщик. 
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4bf3d9159dd1ed31fb93569218770f1015579339
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 68a358c91e35c5a075e220794c78f4e5c96e43ee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582926"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393119"
 ---
 # <a name="imapiformmgropenformcontainer"></a>IMAPIFormMgr::OpenFormContainer
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Откроется интерфейс [IMAPIFormContainer](imapiformcontaineriunknown.md) для контейнера конкретной формы. 
   
@@ -65,9 +65,9 @@ HFRMREG_LOCAL
   
 > [out] Указатель на указатель на объект контейнера возвращенные формы.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -81,15 +81,15 @@ MAPI_E_NO_INTERFACE
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Если значение в _hfrmreg_ HFRMREG_FOLDER, идентификатор интерфейса, используемый в _lpunk_ должно быть **значение null** и необходимо иметь возможность вызова метода [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) интерфейс [IMAPIFolder](imapifolderimapicontainer.md) . 
+Если значение в _hfrmreg_ HFRMREG_FOLDER, идентификатор интерфейса, используемый в _lpunk_ должно быть **значение null** и необходимо иметь возможность вызова метода [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) интерфейс [IMAPIFolder](imapifolderimapicontainer.md) . 
   
 Чтобы открыть контейнер локального формы, необходимо использовать вызов метода **OpenFormContainer** или функцию [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) . Чтобы разрешить пользователю выбрать контейнер локальной форме нельзя использовать метод [IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md) . 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |Mfcmapi (en) использует метод **IMAPIFormMgr::OpenFormContainer** для получения контейнером формы, поэтому можно отобразить содержимое контейнера.  <br/> |
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |Mfcmapi (en) использует метод **IMAPIFormMgr::OpenFormContainer** для получения контейнером формы для папки, поэтому можно отобразить содержимое контейнера.  <br/> |

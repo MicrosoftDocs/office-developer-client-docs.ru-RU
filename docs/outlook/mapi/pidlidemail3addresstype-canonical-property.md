@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c2bf94d9-0524-4a9d-8e30-1adbecd8f3dd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d83788d25ec7a8a1559d3454f5ffd079de9e7275
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f8c151d2d43423ba10773320c51912ef7fbda09
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593048"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392181"
 ---
 # <a name="pidlidemail3addresstype-canonical-property"></a>Каноническое свойство PidLidEmail3AddressType
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает тип адреса третий адрес электронной почты.
   
@@ -43,11 +43,11 @@ ms.locfileid: "22593048"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для контакты и списки рассылки.
     

@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ebbed00fb920994f40b7ae139c7eddd658984b95
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa2a447d0757e75c95d7dc3d9b1dd16b8c7a8084
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566861"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394722"
 ---
 # <a name="address-book-provider-sample"></a>Пример поставщика адресной книги
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом примере поддерживает один контейнер только для чтения отображаемые имена и адреса электронной почты, которые читают плоской двоичных файлов. В примере поддерживается одноразовых шаблоны и все параметры конфигурации, кроме мастер профилей.
   
-В этом примере можно загрузить из [Примеры кода Outlook системы обмена сообщениями API (MAPI)](http://go.microsoft.com/fwlink/?LinkId=129740
+В этом примере можно загрузить из [Примеры кода Outlook системы обмена сообщениями API (MAPI)](https://go.microsoft.com/fwlink/?LinkId=129740
 ).
   
 |||

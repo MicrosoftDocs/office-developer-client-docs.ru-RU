@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d43ec0bd2978c64e3a5ceb635f0dcda57de01cfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20ffc6f7f4d21f980e5f0f387464430ba187192a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590738"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392279"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>Каноническое свойство PidTagDelegateFlags
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает ли делегата можно просматривать объекты представитель личное сообщение.
   
@@ -49,7 +49,7 @@ ms.locfileid: "22590738"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Указывает методы для подключений и настройки почтовых ящиков как делегаты и взаимодействия с объектами сообщений и календаря, когда они действовать от имени другого пользователя.
     

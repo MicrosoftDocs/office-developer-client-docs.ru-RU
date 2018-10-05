@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 47c0d0fe-4d57-4b81-bdb5-336de85c194c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cbcfdf44044e3cf9e42b0f0503928c9f8720ec1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 243a59798980d8c0cfaf1a726d6408dbd66ebba8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574421"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392581"
 ---
 # <a name="pidtagbody-canonical-property"></a>Каноническое свойство PidTagBody
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит текст сообщения.
   
@@ -46,11 +46,11 @@ ms.locfileid: "22574421"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

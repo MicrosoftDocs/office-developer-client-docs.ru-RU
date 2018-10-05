@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 48c31987-bb85-e49a-c337-740fa507a02d
-ms.openlocfilehash: 226af4fee615b0dc6ddc4d92d13aff6dd1fd4b19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c966447c13d90b05918138aeeafb11133e7bb5e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813909"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392034"
 ---
 # <a name="hyperlinktype-complextype-visio-xml"></a>Hyperlink_Type complexType ('Visio XML»)
 
@@ -19,9 +19,9 @@ ms.locfileid: "19813909"
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**База расширения** <br/> |Section_Type  <br/> |
+|**Базовый элемент расширения** <br/> |Section_Type  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -44,13 +44,13 @@ ms.locfileid: "19813909"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Row](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> ||
+|[Строка](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

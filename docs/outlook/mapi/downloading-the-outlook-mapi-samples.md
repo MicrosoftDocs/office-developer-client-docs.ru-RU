@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: ee3a65ec-c776-4aa1-a772-de56fc33a8d1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7fb1e20d35e756dc0681f4927d9f542628482cb6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6b41d9cbd6ec74167dce74e97bb0923817dc6f84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583262"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395968"
 ---
 # <a name="downloading-the-outlook-mapi-samples"></a>Скачивание примеров MAPI для Outlook
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Microsoft Outlook MAPI примеры поставщика адресных книг, поставщика хранилища сообщений и поставщика транспорта.
   
  **Чтобы загрузить образец поставщик адресной книги**
   
-1. Чтобы загрузить примеры Outlook MAPI, щелкните вкладку **Главная** страница [Примеры кода Outlook системы обмена сообщениями API (MAPI)](http://ol2010mapisamples.codeplex.com/) . 
+1. Чтобы загрузить примеры Outlook MAPI, щелкните вкладку **Главная** страница [Примеры кода Outlook системы обмена сообщениями API (MAPI)](https://ol2010mapisamples.codeplex.com/) . 
     
 2. На вкладке **Главная** щелкните **ссылку для загрузки источника для Outlook 2010 MAPI примеров**.
     

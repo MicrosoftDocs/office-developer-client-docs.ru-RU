@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e5f35474910f2257e18bcdc3b6b1dc661e2dc63a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7bf1d6912e44319c36e288cd3870218e8c4e45ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563977"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395807"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на интерфейс, который можно использовать для доступа к свойству.
   
@@ -73,9 +73,9 @@ MAPI_MODIFY
   
 > [out] Указатель на запрашиваемый интерфейс, используемый для доступа к свойству.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Указатель запрошенного интерфейса успешно возвращен.
     
@@ -114,11 +114,11 @@ MAPI_E_INVALID_PARAMETER
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0 (EN)  <br/> |IID_IStreamDocfile  <br/> |
    
-**IStreamDocfile** является производным от интерфейса [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) , основанный на составным файлом OLE 2.0. **IStreamDocfile** — это лучший вариант для доступа к OLE 2.0 вложения, так как он содержит меньше всего накладные расходы. IID_IStreamDocFile можно использовать для свойств, которые содержат данные, хранящиеся в структурированного хранилища, доступные через интерфейс [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) . 
+**IStreamDocfile** является производным от интерфейса [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) , основанный на составным файлом OLE 2.0. **IStreamDocfile** — это лучший вариант для доступа к OLE 2.0 вложения, так как он содержит меньше всего накладные расходы. IID_IStreamDocFile можно использовать для свойств, которые содержат данные, хранящиеся в структурированного хранилища, доступные через интерфейс [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) . 
   
 Дополнительные сведения об использовании **OpenProperty** с вложениями можно свойство **PR_ATTACH_DATA_OBJ** и [открытие вложений](opening-an-attachment.md).
   
-Не используйте указатель **IStream** , который вы получаете для вызова метода его [Seek](http://msdn.microsoft.com/en-us/library/aa380043%28v=VS.85%29.aspx) или [SetSize](http://msdn.microsoft.com/en-us/library/aa380044%28v=VS.85%29.aspx) , если вы не используете ноль положение или размер переменной. Кроме того не полагайтесь на значение параметра _plibNewPosition_ выходные данные, возвращенные вызова **Seek** . 
+Не используйте указатель **IStream** , который вы получаете для вызова метода его [Seek](https://msdn.microsoft.com/library/aa380043%28v=VS.85%29.aspx) или [SetSize](https://msdn.microsoft.com/library/aa380044%28v=VS.85%29.aspx) , если вы не используете ноль положение или размер переменной. Кроме того не полагайтесь на значение параметра _plibNewPosition_ выходные данные, возвращенные вызова **Seek** . 
   
 При вызове **OpenProperty** для доступа к свойству с помощью интерфейса **IStream** используйте только этот интерфейс для внесения изменений. Не следует обновить свойство с любыми из другой [IMAPIProp: IUnknown](imapipropiunknown.md) методы, такие как **SetProps** или [IMAPIProp::DeleteProps](imapiprop-deleteprops.md). 
   
@@ -126,15 +126,15 @@ MAPI_E_INVALID_PARAMETER
   
 Если требуется изменить свойства, которое должно быть открыт, необходимо задайте флаг MAPI_MODIFY. Если вы не уверены, поддерживает ли объект свойства, но вы думаете, что оно должно, необходимо задайте флаги MAPI_CREATE и MAPI_MODIFY. При использовании MAPI_CREATE, необходимо также установить MAPI_MODIFY.
   
-Вы несете ответственность за преобразование указатель интерфейса, возвращаемых в параметре _lppUnk_ , которая подходит для интерфейса, указанного в параметре _lpiid_ . Возвращенный указатель необходимо также использовать для вызова метода [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) после завершения с ним. 
+Вы несете ответственность за преобразование указатель интерфейса, возвращаемых в параметре _lppUnk_ , которая подходит для интерфейса, указанного в параметре _lpiid_ . Возвращенный указатель необходимо также использовать для вызова метода [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) после завершения с ним. 
   
 В некоторых случаях установки флагов с помощью параметра _ulFlags_ не достаточно указать тип доступа к свойству, которое является обязательным. Дополнительные данные, такие как флаги, можно размещать в параметре _ulInterfaceOptions_ . Эти данные — интерфейс зависимые. Некоторые интерфейсы (например, **IStream**) используйте его, а некоторые — нет. Например при открытии свойство так, чтобы изменить с помощью **IStream**, задайте флаг STGM_WRITE с помощью параметра _ulInterfaceOptions_ в дополнение к MAPI_MODIFY. При открытии таблицы с помощью интерфейса [IMAPITable](imapitableiunknown.md) можно включить _ulInterfaceOptions_ MAPI_UNICODE, чтобы указать, следует ли столбцы в таблице, в которых содержатся свойства строки в формате Юникод. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |StreamEditor.cpp  <br/> |CStreamEditor::ReadTextStreamFromProperty  <br/> |Mfcmapi (en) используется метод **IMAPIProp::OpenProperty** для получения интерфейс потока для крупных текст и свойства двоичных файлов.  <br/> |
    
@@ -147,6 +147,6 @@ MAPI_E_INVALID_PARAMETER
 - [IMAPISupport::IStorageFromStream](imapisupport-istoragefromstream.md)
 - [IMAPITable : IUnknown](imapitableiunknown.md)
 - [IMAPIProp : IUnknown](imapipropiunknown.md)
-- [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+- [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
 - [Открытие вложения](opening-an-attachment.md)
 

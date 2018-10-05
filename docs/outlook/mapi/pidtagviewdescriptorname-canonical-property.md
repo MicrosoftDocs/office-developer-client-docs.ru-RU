@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 55d838661dcbe0efb604e6a623a434f9ae87512e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab906d83ae4ad46747fd9037728620db1d656d25
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567785"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394771"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>Каноническое свойство PidTagViewDescriptorName
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя дескриптора представления.
   
@@ -42,7 +42,7 @@ ms.locfileid: "22567785"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > Указывает расположение и свойства клиентских и серверных данных конфигурации, такие как списки общие категории и рабочее время.
     

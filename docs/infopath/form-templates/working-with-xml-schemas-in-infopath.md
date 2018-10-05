@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: В шаблоне формы, создаваемом с помощью Microsoft InfoPath, схема XML (XSD) используется для выполнения проверки данных в XML, который представляет вводные, отредактированные и выводные данные из формы InfoPath. Каждый шаблон формы, созданный в конструкторе форм InfoPath, содержит как минимум один файл схемы XSD (XSD), используемый для проверки во время выполнения.
-ms.openlocfilehash: 6921a2206c098992a0a24e85c263992a0e2c98b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25828c3ec21d22a9952452d5a82fe1a3b4bab54c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807615"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395506"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Работа с XML-схемами в InfoPath
 
@@ -151,13 +151,13 @@ ms.locfileid: "19807615"
 
 ## <a name="storing-xml-signatures-in-the-data-source"></a>Хранение подписей XML в источнике данных
 
-Чтобы пользователи могли во время выполнения ставить на форму цифровую подпись, схема источника данных должна объявить именованную подпись элемента для хранения данных о подписях XML (цифровой подписи), которые создаются при подписывании формы пользователем. Это объявление осуществляется с помощью элемента **xsd:any** с атрибутом пространства имен, указанным в качестве пространства имен подписей XML с подстановочным знаком, а именно: "http://www.w3c.org/2000/09/xmldsig#" 
+Чтобы пользователи могли во время выполнения ставить на форму цифровую подпись, схема источника данных должна объявить именованную подпись элемента для хранения данных о подписях XML (цифровой подписи), которые создаются при подписывании формы пользователем. Это объявление осуществляется с помощью элемента **xsd:any** с атрибутом пространства имен, указанным в качестве пространства имен подписей XML с подстановочным знаком, а именно: "https://www.w3c.org/2000/09/xmldsig#" 
   
 ```XML
 <xsd:element name="signature"> 
     <xsd:complexType> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3c.org/2000/09/xmldsig#"  
+            <xsd:any namespace="https://www.w3c.org/2000/09/xmldsig#"  
              processContents="lax" minOccurs="0" maxOccurs="unbounded"/> 
         <xsd:sequence> 
     </xsd:complexType> 
@@ -173,7 +173,7 @@ ms.locfileid: "19807615"
 <xsd:element name="xhtml"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/> 
+            <xsd:any minOccurs="0" maxOccurs="unbounded" namespace="https://www.w3.org/1999/xhtml" processContents="lax"/> 
         </xsd:sequence> 
     </xsd:complexType> 
 </xsd:element> 
@@ -194,7 +194,7 @@ ms.locfileid: "19807615"
 Чтобы убедиться, что файл XSD поддерживает полную рекомендацию XSD, он должен содержать в теге \<schema\> следующее объявление пространства имен:
   
 ```XML
-xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:xsd="https://www.w3.org/2001/XMLSchema"
 ```
 
 Подобно всем объявлениям пространства имен XML префиксом XML (в данном случае "XSD") может быть любая допустимая строка префикса. Наиболее распространены префиксы "XSD", "XS" и "" (префикса нет). Если это объявление пространства имен отсутствует, MSXML обычно сообщает об ошибке, связанной с неправильным определением корня.
@@ -377,14 +377,14 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   
 ## <a name="regular-expressions"></a>Регулярные выражения
 
-В MSXML 5.0 могут возникнуть проблемы, связанные с проверкой загружаемых шаблонов регулярных выражений. Регулярные выражения могут быть сложными, поэтому их нужно использовать с осторожностью. Похоже, каждое средство синтаксического анализа XSD использует гибкий язык регулярных выражений (т. е. официальный язык регулярных выражений XSD с элементами из других подобных языков). Если конструктор форм InfoPath не может проанализировать регулярное выражение, возможно, приложение InfoPath сформировало недопустимые демонстрационные данные либо не сформировало их совсем. Такая ситуация приемлема во время разработки, так как демонстрационные данные в InfoPath используются только для форматирования. Но при использовании регулярного выражения, которое не поддерживается MSXML, в InfoPath не удастся проверить значение при заполнении пользователем формы. В документе [XML Schema. Часть 0: основные сведения (издание второе)](http://www.w3.org/TR/xmlschema-0/) описано, какие регулярные выражения XSD допустимы. Дополнительные сведения о регулярных выражениях XSD и регулярных выражениях уровня 1 Юникода см. в статье о [регулярных выражениях Юникода](http://www.unicode.org/reports/tr18/). 
+В MSXML 5.0 могут возникнуть проблемы, связанные с проверкой загружаемых шаблонов регулярных выражений. Регулярные выражения могут быть сложными, поэтому их нужно использовать с осторожностью. Похоже, каждое средство синтаксического анализа XSD использует гибкий язык регулярных выражений (т. е. официальный язык регулярных выражений XSD с элементами из других подобных языков). Если конструктор форм InfoPath не может проанализировать регулярное выражение, возможно, приложение InfoPath сформировало недопустимые демонстрационные данные либо не сформировало их совсем. Такая ситуация приемлема во время разработки, так как демонстрационные данные в InfoPath используются только для форматирования. Но при использовании регулярного выражения, которое не поддерживается MSXML, в InfoPath не удастся проверить значение при заполнении пользователем формы. В документе [XML Schema. Часть 0: основные сведения (издание второе)](https://www.w3.org/TR/xmlschema-0/) описано, какие регулярные выражения XSD допустимы. Дополнительные сведения о регулярных выражениях XSD и регулярных выражениях уровня 1 Юникода см. в статье о [регулярных выражениях Юникода](https://www.unicode.org/reports/tr18/). 
   
 ## <a name="targetnamespace-attribute-issues"></a>Проблемы, связанные с атрибутом "targetNamespace"
 
 Файлы XSD интересны тем, что атрибут **targetNamespace** по умолчанию ссылается только на объявления верхнего уровня несмотря на то, что  `attributeFormDefault=qualified` и  `elementFormDefault=qualified` можно задать на переопределение этого заданного по умолчанию поведения. В качестве примера предположим, что в наличии имеется следующий файл XSD. 
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -399,7 +399,7 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 И далее, документ XML выглядит следующим образом.
   
 ```XML
-<ns:root xmlns:ns="http://ns"> 
+<ns:root xmlns:ns="https://ns"> 
     <local/> 
 </ns:root> 
 
@@ -408,7 +408,7 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 Поскольку квалификация по умолчанию отключена, для локальных определений не требуется конечное пространство имен. Однако если локальное определение меняется на глобальное, ссылка должна быть снабжена префиксом пространства имен. Например, следующая схема является недопустимой.
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -422,11 +422,11 @@ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 
 ```
 
-Эта схема недействительна, поскольку "global" находится в пространстве имен "http://ns". ref="global" не распознается, так как заданное по умолчанию пространство имен отлично от "http://ns". Для устранения этой ошибки необходимо добавить префикс для конечного пространства имен и применять его для всех глобальных ссылок и использований типов. Исправленная схема выглядит следующим образом.
+Эта схема недействительна, поскольку "global" находится в пространстве имен "https://ns". ref="global" не распознается, так как заданное по умолчанию пространство имен отлично от "https://ns". Для устранения этой ошибки необходимо добавить префикс для конечного пространства имен и применять его для всех глобальных ссылок и использований типов. Исправленная схема выглядит следующим образом.
   
 ```XML
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  
-    xmlns:ns="http://ns" targetNamespace="http://ns" > 
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema"  
+    xmlns:ns="https://ns" targetNamespace="https://ns" > 
     <xsd:element name="root"> 
         <xsd:complexType> 
             <xsd:sequence> 
@@ -510,13 +510,13 @@ xml version="1.0" encoding="UTF-8"
   
 ## <a name="allowing-rich-text-elements-to-be-bound-in-infopath-design-and-edit-modes"></a>Привязка элементов "Rich Text" в режимах конструктора и правки InfoPath
 
-Если нужно объявить элемент, который можно привязать к элементу управления **Rich Text Box**, он должен иметь следующую форму, содержащую элемент **xsd:any** с атрибутом пространства имен в виде "http://www.w3.org/1999/xhtml", как показано в следующем примере. 
+Если нужно объявить элемент, который можно привязать к элементу управления **Rich Text Box**, он должен иметь следующую форму, содержащую элемент **xsd:any** с атрибутом пространства имен в виде "https://www.w3.org/1999/xhtml", как показано в следующем примере. 
   
 ```XML
 <xsd:element name="your_node_name"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3.org/1999/xhtml"  
+            <xsd:any namespace="https://www.w3.org/1999/xhtml"  
                 minOccurs="0" maxOccurs="unbounded"/> 
         </xsd:sequence> 
     </xsd:complexType> 
@@ -530,10 +530,10 @@ xml version="1.0" encoding="UTF-8"
   
 ## <a name="see-also"></a>См. также
 
-- [W3C XML Schema](http://www.w3.org/XML/Schema)
-- [XML Schema W3C. Основные сведения](http://www.w3.org/TR/xmlschema-0/)
-- [Справочник по структурам XML Schema W3C](http://www.xml.com/pub/a/2000/11/29/schemas/structuresref.mdl)
-- [Справочник по типам данных XML Schema W3C](http://www.xml.com/pub/a/2000/11/29/schemas/dataref.mdl)
-- [Учебное пособие по XML Schema](http://www.w3schools.com/schema/default.asp)
-- [Центр разработчиков XML](http://msdn.microsoft.com/ru-RU/xml/default.aspx)
+- [W3C XML Schema](https://www.w3.org/XML/Schema)
+- [XML Schema W3C. Основные сведения](https://www.w3.org/TR/xmlschema-0/)
+- [Справочник по структурам XML Schema W3C](https://www.xml.com/pub/a/2000/11/29/schemas/structuresref.html)
+- [Справочник по типам данных XML Schema W3C](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
+- [Учебное пособие по XML Schema](https://www.w3schools.com/xml/schema_intro.asp)
+- [Центр разработчиков XML](https://msdn.microsoft.com/xml/default.aspx)
 

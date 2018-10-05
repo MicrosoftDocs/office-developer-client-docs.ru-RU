@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 85cfd219eb83592a4e01263caf5d6923db39e0cc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96c04a242c477204ea1447fb78c31d189eeac59a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583787"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392419"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поставщик для упаковки в локальном хранилище на основе PST-файлов в качестве хранилище NST хранилища сообщений службы функцию точки входа для MAPI. 
   
@@ -27,8 +27,8 @@ ms.locfileid: "22583787"
 
 |||
 |:-----|:-----|
-|Реализованный:  <br/> |Поставщик MAPI  <br/> |
-|Вызывается:  <br/> |MAPI  <br/> |
+|Реализовано в:  <br/> |Поставщик MAPI  <br/> |
+|Вызывающая сторона:  <br/> |MAPI  <br/> |
    
 ```cpp
 HRESULT NSTServiceEntry( 
@@ -55,7 +55,7 @@ HRESULT NSTServiceEntry(
   
 ## <a name="remarks"></a>Замечания
 
-При использовании **[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)** следует искать адреса этой функции msmapi32.dll, укажите «NSTServiceEntry» в качестве имени процедуры. 
+При использовании **[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** следует искать адреса этой функции msmapi32.dll, укажите «NSTServiceEntry» в качестве имени процедуры. 
   
 Чтобы использовать API репликации, поставщик хранилища MAPI сначала необходимо открыть и перенос локального хранилища на основе PST-файлов, вызвав **[NSTServiceEntry](nstserviceentry.md)**. Поставщик затем можно использовать основные интерфейсы API, **[IOSTX](iostxiunknown.md)** и **[IPSTX](ipstxiunknown.md)**, чтобы выполнить репликацию. 
   

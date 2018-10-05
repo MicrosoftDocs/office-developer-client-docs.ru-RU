@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: Представляет правило одного проверки в набор правил проверки схемы.
-ms.openlocfilehash: feae283c624bdece98dbc1136b0fe8765d911e12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92d52456164b89ff2aad31fa8d8f02f818c8bd1c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814688"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395912"
 ---
 # <a name="rule-element-rulesettype-complextype-visio-xml"></a>Элемент Rule (RuleSet_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814688"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Validation.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814688"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19814688"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |Категория  <br/> |XSD:String  <br/> |необязательный  <br/> |Задает текст, отображаемый в столбце **категории** окно вопросов. Значение по умолчанию — пустая строка.  <br/> |Значения типа xsd:string.  <br/> |
 |Описание  <br/> |XSD:String  <br/> |необязательный  <br/> |Задает описание правила проверки, который отображается в пользовательском интерфейсе. Значение по умолчанию — «Неизвестно».  <br/> |Значения типа xsd:string.  <br/> |

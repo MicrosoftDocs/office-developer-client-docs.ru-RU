@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0f1e86924c0464814e3aa1e219930bd23fc78fb5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 45b6b3fb0c67d854fddf3773c06cef7b36f54992
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563487"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394463"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>Каноническое свойство PidTagAttachLongFilename
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит длинное имя файла и расширение, исключая путь вложения. 
   
@@ -48,19 +48,19 @@ MAPI работает только с именами файлов в кодир�
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Задает свойства управляемый правами закодированный сообщений.
     
-[[MS-OXOUM]](http://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
+[[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для представления сообщений голосовой почты и факсов.
     

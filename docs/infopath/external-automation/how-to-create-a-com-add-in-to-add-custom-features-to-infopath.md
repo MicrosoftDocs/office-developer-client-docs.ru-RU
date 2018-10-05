@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: af0b0bc9-20ef-4503-8b3b-8f2a97b671a2
 description: Расширение пользовательского интерфейса редактирования форм Microsoft InfoPath поддерживает COM-надстройки. Хотя поддержка надстройки COM сначала был добавлен в InfoPath, других приложений Office, таких как Microsoft Office Word и Microsoft Office Excel поддерживают COM-надстроек с момента Office 2000.
-ms.openlocfilehash: 4c70dfb71cf7b15a0978b4567ffac02a8ba524c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f8dd16b161c4ea862cf3b15e56e26a2547c1fc4c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807390"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395485"
 ---
 # <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>Создание надстройки COM для добавления пользовательских функций в InfoPath
 
@@ -129,11 +129,11 @@ InfoPath, которые среда редактирования обеспеч�
     
 Чтобы компилировать управляемой надстройки COM для использования на компьютере, отличных от компьютера, на котором был разработан Общая надстройка project, необходимо выполнить дополнительные действия для обеспечения безопасности кода. Сведения о защите проекты Общая надстройка для использования на других компьютерах, просмотрите следующие три статьи:
   
-- [Развертывание из управляемых надстроек COM в Office XP](http://go.microsoft.com/fwlink/?LinkID=73473)
+- [Развертывание из управляемых надстроек COM в Office XP](https://go.microsoft.com/fwlink/?LinkID=73473)
   
-- [Использование решений оболочки совместимости надстройки COM для развертывания управляемых надстроек COM в Office XP](http://go.microsoft.com/fwlink/?LinkID=73474)
+- [Использование решений оболочки совместимости надстройки COM для развертывания управляемых надстроек COM в Office XP](https://go.microsoft.com/fwlink/?LinkID=73474)
   
-- [Изолирование расширений Microsoft Office с помощью мастера COM Shim](http://go.microsoft.com/fwlink/?LinkID=73475)
+- [Изолирование расширений Microsoft Office с помощью мастера COM Shim](https://go.microsoft.com/fwlink/?LinkID=73475)
   
 > [!IMPORTANT]
 > Не изоляция надстройки COM может стать причиной утечки памяти и нестабильности приложения. 
@@ -200,10 +200,10 @@ private void InfoPathApplicationEvents_XDocumentBeforeSave(
   
 ## <a name="see-also"></a>См. также
 
-- [Создание Microsoft Office 2000 надстройки COM](http://go.microsoft.com/fwlink/?LinkID=73468) 
-- [Создание Office управляемых COM-надстроек с помощью Visual Studio .NET](http://go.microsoft.com/fwlink/?LinkID=73470)
-- [Работа с IDTExtensibility2 процедуры событий](http://go.microsoft.com/fwlink/?LinkID=73471)
-- [Построение Office надстройки COM с помощью Visual Basic .NET](http://go.microsoft.com/fwlink/?LinkID=73469)
-- [Построение Office надстройки COM с помощью Visual C# .NET](http://go.microsoft.com/fwlink/?LinkID=73472)
-- [Создание надстроек 2007 InfoPath с помощью Visual Studio 2005 Tools for the Office System SE (en)](http://msdn.microsoft.com/en-us/library/bb968857%28office.12%29.aspx)
+- [Создание Microsoft Office 2000 надстройки COM](https://go.microsoft.com/fwlink/?LinkID=73468) 
+- [Создание Office управляемых COM-надстроек с помощью Visual Studio .NET](https://go.microsoft.com/fwlink/?LinkID=73470)
+- [Работа с IDTExtensibility2 процедуры событий](https://go.microsoft.com/fwlink/?LinkID=73471)
+- [Построение Office надстройки COM с помощью Visual Basic .NET](https://go.microsoft.com/fwlink/?LinkID=73469)
+- [Создание надстройки COM для Microsoft Office с помощью Visual C# .NET](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
+- [Создание надстроек 2007 InfoPath с помощью Visual Studio 2005 Tools for the Office System SE (en)](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f157db03-e7d0-d39f-cbde-2a22f45b40ed
-ms.openlocfilehash: 7fc23d9e2a9e4567693a4979b796804b16f148e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 77c51ab76a1d7c5c4450c429b1d3ccb8e3442f34
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813713"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395730"
 ---
 # <a name="eventitemtype-complextype-visio-xml"></a>EventItem_Type complexType ('Visio XML»)
 
@@ -19,9 +19,9 @@ ms.locfileid: "19813713"
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**База расширения** <br/> |Нет  <br/> |
+|**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -56,7 +56,7 @@ ms.locfileid: "19813713"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -64,11 +64,11 @@ ms.locfileid: "19813713"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Действие  <br/> |XSD:unsignedShort  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedShort.  <br/> |
+|Действие  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
 |Включена  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
-|EventCode  <br/> |XSD:unsignedShort  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedShort.  <br/> |
+|EventCode  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
 |ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
 |Целевой объект  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
 |TargetArgs  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |

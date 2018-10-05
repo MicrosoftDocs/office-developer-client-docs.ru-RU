@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 интеграции функциональных возможностей управления проектами во всей ферме SharePoint и позволяет использование Project Online с помощью клиентской объектной модели (CSOM) и интерфейс OData для данных отчетов.
-ms.openlocfilehash: 992fae3790b8bdb6ab55f41d42ef0229a75e255c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 633532d85b4d910c11a284231cb9a4c3e5a549cc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813072"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394099"
 ---
 # <a name="project-server-architecture"></a>Архитектура Project Server
 
@@ -113,7 +113,7 @@ Project Server поддерживает проекты, если он имеет
     > [!NOTE]
     > Интерфейс на основе SOAP ASMX для веб-служб в PSI по-прежнему доступны в Project Server 2013, но является устаревшим. 
   
-    Внутренняя служба OData.svc WCF реализуется службы OData для создания отчетов. Вы можете получить документ метаданных службы для данных отчетов с помощью `http://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
+    Внутренняя служба OData.svc WCF реализуется службы OData для создания отчетов. Вы можете получить документ метаданных службы для данных отчетов с помощью `https://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
     
     Службы OData для CSOM предназначена для платформ, таких как Windows RT, iOS и Android, где можно использовать интерфейс REST с помощью JavaScript в HTML-страниц. 
     
@@ -165,7 +165,7 @@ Project Professional 2013 и Project Web App использования PSI дл
   
 Некоторые бизнес-приложений (LOB) и другими приложениями сторонних производителей, предназначенных для Project Server 2010 требуются службы PSI, которые еще не представлены в CSOM. Если они предназначены только для локальной установки Project Server, приложения могут продолжить использовать интерфейс WCF или ASMX интерфейс PSI.
   
-Клиентские приложения вызовов PSI через прокси-службы. Все службы PSI через access клиентов, использующих интерфейс WCF `http://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Клиенты, которые используют интерфейс веб-службы ASMX используйте URL-адрес Project Web App для определенной службы. Например служба **ресурсов** был создан `http://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. Если приложения не имеют доступа к интрасети в Project Server, они могут использовать сервер Project Web App в сети периметра (не показано на рисунке 3).
+Клиентские приложения вызовов PSI через прокси-службы. Все службы PSI через access клиентов, использующих интерфейс WCF `https://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Клиенты, которые используют интерфейс веб-службы ASMX используйте URL-адрес Project Web App для определенной службы. Например служба **ресурсов** был создан `https://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. Если приложения не имеют доступа к интрасети в Project Server, они могут использовать сервер Project Web App в сети периметра (не показано на рисунке 3).
   
 На рисунке 4 показаны области **подключения** в **диспетчере Internet Information Services (IIS)** для установки одного сервера SharePoint Server 2013, Project Server 2013 и локальный сайт рабочего процесса управления 1.0 клиент диспетчера рабочих процессов. Семейства сайтов SharePoint (A) включает в себя интерфейсных службы PSI в `_vti_bin\PSI` виртуальный подкаталог. Приложение SharePoint Web Services (B) включает в себя приложение-служба Project, с помощью служб PSI серверной в `508c23fb7dfd4c83a8919fae24bc68c5/PSI` виртуальный подкаталог. Идентификатор GUID — это имя экземпляра приложения-службы Project для установки Project Server. 
   
@@ -173,7 +173,7 @@ Project Professional 2013 и Project Web App использования PSI дл
 
 ![ВНЕШНЕЕ и внутреннее приложения PSI] (media/pj15_Architecture_PSI_IIS.gif "ВНЕШНЕЕ и внутреннее приложения PSI")
   
-Клиентские приложения не могут получить доступ к непосредственно служб WCF для PSI в приложение-служба Project серверной. Если они не требуют доступа к Project Online, клиентских приложений и компонентов бизнес-приложений с помощью прокси-серверы PSI. URL-адресом серверной для интерфейса WCF службу **ресурсов** на рисунке 4, например будет `http://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Порт 32843 — HTTP-порт по умолчанию для приложения веб-служб SharePoint (32844 — номер порта для соединений HTTPS). Тем не менее файл web.config для Project Web App блоки прямой доступ к серверным службам PSI.
+Клиентские приложения не могут получить доступ к непосредственно служб WCF для PSI в приложение-служба Project серверной. Если они не требуют доступа к Project Online, клиентских приложений и компонентов бизнес-приложений с помощью прокси-серверы PSI. URL-адресом серверной для интерфейса WCF службу **ресурсов** на рисунке 4, например будет `https://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Порт 32843 — HTTP-порт по умолчанию для приложения веб-служб SharePoint (32844 — номер порта для соединений HTTPS). Тем не менее файл web.config для Project Web App блоки прямой доступ к серверным службам PSI.
   
 > [!NOTE]
 > Загрузить пакет SDK Project 2013 включает в себя файлы PSI прокси-сервера для службы WCF и службы ASMX и инструкции по их компиляции в сборки прокси-сервера. > Для создания обновленные файлы прокси-сервер PSI, с помощью интерфейса WCF, необходимо с помощью служебной программы svcutil.exe или Visual Studio непосредственно на сервере Project Server. 
@@ -261,12 +261,12 @@ Project Server позволяет диспетчеру проектов обно
     
 ## <a name="see-also"></a>См. также
 
-- [Обзор Project 2013 для разработчиков](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
+- [Обзор Project 2013 для разработчиков](https://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
 - [Возможности программирования для Project Server](project-server-programmability.md)  
 - [Клиентская объектная модель (CSOM) для Project 2013](client-side-object-model-csom-for-project-2013.md)  
 - [Какие задачи PSI выполняет, а какие — нет](what-the-psi-does-and-does-not-do.md)  
 - [Начало разработки рабочих процессов Project Server](getting-started-developing-project-server-workflows.md)   
 - [Справочный обзор PSI Project](project-psi-reference-overview.md)   
-- [Протокол OData](http://www.odata.org/)
+- [Протокол OData](https://www.odata.org/)
     
 

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 68d7472f993bcc35abbd4b733bae9f137b948608
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: be765915b729824b8c8b4209f125f354b02bad2b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576843"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394344"
 ---
 # <a name="create-a-simple-recurrent-task-item"></a>Создание элемента простой повторяющейся задачи
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Чтобы создать для создания элементов задачи можно использовать MAPI. В этом разделе описывается, как создать элемент простого Повторяющаяся задача.
   
@@ -42,7 +42,7 @@ ms.locfileid: "22576843"
   
 `AddTask` Функции приведены ниже. Обратите внимание, что параметр _lpFolder_ , передаваемый `AddTask` функции — указатель на интерфейс [IMAPIFolder](imapifolderimapicontainer.md) , который представляет папку, где создается новую задачу. Учитывая _lpFolder_ , который представляет интерфейс **IMAPIFolder** , код вызывает метод [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . Метод **CreateMessage** возвращает код успеха и указатель на указатель на интерфейс **IMessage** . Большая часть `AddTask` код функции управляет Указание свойств для вызова метода [IMAPIProp::SetProps](imapiprop-setprops.md) подготовки. При вызове метода **SetProps** выполняется успешно, этот метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) вызывается внести изменения в хранилище и создание нового элемента задачи. 
   
-`AddTask` Функция задает число именованных свойств. Сведения об именованных свойств и как они создаются [С помощью интерфейса MAPI для создания элементов Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)см. Так как именованные свойства, используемые для элементов задач занимают несколько наборов свойств, необходимо соблюдать осторожность при создании параметров для передачи методу [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+`AddTask` Функция задает число именованных свойств. Сведения об именованных свойств и как они создаются [С помощью интерфейса MAPI для создания элементов Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)см. Так как именованные свойства, используемые для элементов задач занимают несколько наборов свойств, необходимо соблюдать осторожность при создании параметров для передачи методу [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
 `AddTask` Функция использует `BuildWeeklyTaskRecurrencePattern` вспомогательная функция для создания структуры, представляющее Повторение задачи для установки свойства **dispidTaskRecur** . Сведения о структуре повторения задачи `BuildWeeklyTaskRecurrencePattern` работать построений, см [PidLidTaskRecurrence каноническое свойств](pidlidtaskrecurrence-canonical-property.md) и [PidLidRecurrencePattern каноническое](pidlidrecurrencepattern-canonical-property.md). 
 
@@ -178,5 +178,5 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 
 ## <a name="see-also"></a>См. также
 
-- [Использование интерфейса MAPI для создания элементов Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Использование интерфейса MAPI для создания элементов Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

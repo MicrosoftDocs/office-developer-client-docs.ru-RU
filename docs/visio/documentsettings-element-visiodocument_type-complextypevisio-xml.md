@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
 description: Содержит элементы, которые определяют параметры документов.
-ms.openlocfilehash: 8cd10e43b95918ccd2ceaa75a47c9e93de2acc14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e86dc5a0875006cb8bd1bbaffd36037a07fd5c0f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813633"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396472"
 ---
 # <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>Элемент DocumentSettings (VisioDocument_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813633"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813633"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "19813633"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |DefaultFillStyle  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Указывает идентификатор элемента **таблицы стилей** .  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |DefaultGuideStyle  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Указывает идентификатор элемента **таблицы стилей** .  <br/> |Значения типа xsd:unsignedInt.  <br/> |

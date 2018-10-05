@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0ea7d0a17fdb6dba047cb97290d991ce384d4750
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3bf0f52dbeda37ac35024ae3bf38df8919e37b60
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573938"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393868"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>Каноническое свойство PidTagInitialDetailsPane
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает страницу шаблона для отображения для отображения первоначального.
   
@@ -42,11 +42,11 @@ ms.locfileid: "22573938"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     

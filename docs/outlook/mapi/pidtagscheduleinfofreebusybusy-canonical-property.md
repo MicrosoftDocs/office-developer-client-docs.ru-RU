@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84d9c5b5-e734-4c07-b4cc-1d7b13c1ed19
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1f068ce2e8d98caa7d8733a182c051a820848333
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4fbf0d8b80fdb48e44480b2739a71aec43b88a05
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579811"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395716"
 ---
 # <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>Каноническое свойство PidTagScheduleInfoFreeBusyBusy
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит периода времени, для которого состояние «занят».
   
@@ -42,11 +42,11 @@ ms.locfileid: "22579811"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Публикует доступности пользователя или ресурса.
     

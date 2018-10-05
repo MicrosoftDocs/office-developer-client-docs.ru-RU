@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: ''
-ms.openlocfilehash: ba3c03069235b1054dabd122471be996ec515772
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3da5d0c0c63ba58649435d2e2289b58ab30de2ef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567848"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395821"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Программное управление форматами файлов Visio
 
@@ -32,15 +32,15 @@ ms.locfileid: "22567848"
 В этой статье мы рассмотрим работа с формат файлов Visio 2013 программным способом, с помощью Microsoft .NET Framework 4.5, C# или Visual Basic и Visual Studio 2012. Можно узнать, как открыть файла Visio 2013, выберите части документа в файле, изменить данные в частях и создания новой части документа.
   
 > [!NOTE]
-> Примеры кода в этой статье предполагается, что вы элементарные общее представление о классов в пространствах имен [System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx) и [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) . > В этой статье также предполагается, что вы понимаете принципы и терминологию Open Packaging Conventions. Вы должны знакомы с понятиями, пакеты, части документа или части пакета и связей. Дополнительные сведения можно [OPC: новый стандарт упаковки данных](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx). > Кода демонстрируется создание запросов LINQ (синтаксиса запроса), чтобы выбрать XML. Большая часть образцов кода используйте синтаксис запроса для построения запросов LINQ. Можно переопределить запросов LINQ, заданный в коде с помощью метода синтаксис LINQ, если это необходимо. Дополнительные сведения о синтаксиса запросов LINQ и синтаксис метода можно [LINQ синтаксис запроса или синтаксис метода (C#)](http://msdn.microsoft.com/en-us/library/bb397947.aspx)> в таблице 1 приведены основные темы, которые вы должны быть знакомы с перед началом работы над в этой статье. 
+> Примеры кода в этой статье предполагается, что вы элементарные общее представление о классов в пространствах имен [System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx) и [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) . > В этой статье также предполагается, что вы понимаете принципы и терминологию Open Packaging Conventions. Вы должны знакомы с понятиями, пакеты, части документа или части пакета и связей. Дополнительные сведения можно [OPC: новый стандарт упаковки данных](https://msdn.microsoft.com/magazine/cc163372.aspx). > Кода демонстрируется создание запросов LINQ (синтаксиса запроса), чтобы выбрать XML. Большая часть образцов кода используйте синтаксис запроса для построения запросов LINQ. Можно переопределить запросов LINQ, заданный в коде с помощью метода синтаксис LINQ, если это необходимо. Дополнительные сведения о синтаксиса запросов LINQ и синтаксис метода можно [LINQ синтаксис запроса или синтаксис метода (C#)](https://msdn.microsoft.com/library/bb397947.aspx)> в таблице 1 приведены основные темы, которые вы должны быть знакомы с перед началом работы над в этой статье. 
   
 **В таблице 1. Основные понятия, которые для работы в формат файлов Visio 2013**
 
 |**Название статьи**|**Описание**|
 |:-----|:-----|
 |[Общие сведения о формате файлов Visio (VSDX)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Общий обзор описываются некоторые основные функции в формат файлов Visio 2013. Его описание Open Packaging Conventions (OPC) в качестве их применения в формат файлов Visio 2013. Также описываются различия между предыдущей формат файла XML документа Visio (.vdx) и формат файлов Visio 2013.  <br/> |
-|[OPC: Новый стандарт упаковки данных](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx) <br/> |Журнал MSDN Magazine описаны Open Packaging Conventions качестве концепции.  <br/> |
-|[Основные моменты спецификаций Open Packaging Conventions](http://msdn.microsoft.com/en-us/library/ee361919.aspx) <br/> [Введение в форматы файлов Office (2007) Open XML](http://msdn.microsoft.com/en-us/library/aa338205.aspx) <br/> |В этих двух статьях рассматривается применение Open Packaging Conventions для файлов Microsoft Office. Они содержат описания как связей в пакете и также включите несколько примеров кода.  <br/> |
+|[OPC: Новый стандарт упаковки данных](https://msdn.microsoft.com/magazine/cc163372.aspx) <br/> |Журнал MSDN Magazine описаны Open Packaging Conventions качестве концепции.  <br/> |
+|[Основные моменты спецификаций Open Packaging Conventions](https://msdn.microsoft.com/library/ee361919.aspx) <br/> [Введение в форматы файлов Office (2007) Open XML](https://msdn.microsoft.com/library/aa338205.aspx) <br/> |В этих двух статьях рассматривается применение Open Packaging Conventions для файлов Microsoft Office. Они содержат описания как связей в пакете и также включите несколько примеров кода.  <br/> |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>Создайте файл vsdx (en) и новое решение Visual Studio
 <a name="vis15_ManipulateFF_CreateFile"> </a>
@@ -220,7 +220,7 @@ ms.locfileid: "22567848"
 ## <a name="select-and-read-package-parts-from-a-package"></a>Выберите и чтение части пакета из пакета
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-После получения файла Visio 2013 откройте как пакет можно получить доступ к части документа в ней с помощью класса [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) , включенные в пространстве имен **System.IO.Packaging** . Объекты **PackagePart** могут быть созданы по отдельности или в виде коллекции. Класс **пакета** предоставляет метод [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) и метод [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) для получения объектов **PackagePart** из **пакета**. Метод **Package.GetParts** возвращает экземпляр класса [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) , который вы может взаимодействовать с как семейства сайтов, который реализует [IEnumerator\<T\> ](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2) интерфейса. 
+После получения файла Visio 2013 откройте как пакет можно получить доступ к части документа в ней с помощью класса [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) , включенные в пространстве имен **System.IO.Packaging** . Объекты **PackagePart** могут быть созданы по отдельности или в виде коллекции. Класс **пакета** предоставляет метод [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) и метод [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) для получения объектов **PackagePart** из **пакета**. Метод **Package.GetParts** возвращает экземпляр класса [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) , который вы может взаимодействовать с как семейства сайтов, который реализует [IEnumerator\<T\> ](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2) интерфейса. 
   
 Использовать код в следующей процедуре для получения объекта **PackagePartCollection** из **пакета** как семейство, выполните итерацию по **PackagePart** объектов в коллекции и записи URI и типа контента для каждого **PackagePart **на консоль. 
   
@@ -307,7 +307,7 @@ ms.locfileid: "22567848"
   
 Чаще необходимо выбрать один **PackagePart** без необходимости для итерации по всем из них. Объект **PackagePart** можно получить из **пакета** с помощью ее отношения с **пакета** или другой **PackagePart**. Связь в Visio 2013, файл имеет формат дискретные сущности, описывающий, как часть документа относится к пакет файлов или как две части документа относятся друг с другом. К примеру сам пакет файла Visio 2013 имеет связь с его части документа Visio и части документа Visio имеет связь с частью Windows. Эти связи, представленные в виде экземпляров классов [PackageRelationship](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationship.aspx) или [PackageRelationshipCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationshipCollection.aspx) . 
   
-Класс **пакета** предоставляет несколько методов для получения отношений, которые он содержит как **PackageRelationship** или **PackageRelationshipCollection** объектов. Метод [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) можно использовать для создания объекта **PackageRelationshipCollection** , которая содержит объекты **PackageRelationship** одного определенного типа. Конечно с помощью метода **Package.GetRelationshipsByType** необходимо знать уже тип отношения, который требуется. Отношения типов являются строками в формате пространство имен XML. Например, тип связи из части документа Visio будет http://schemas.microsoft.com/visio/2010/relationships/document. 
+Класс **пакета** предоставляет несколько методов для получения отношений, которые он содержит как **PackageRelationship** или **PackageRelationshipCollection** объектов. Метод [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) можно использовать для создания объекта **PackageRelationshipCollection** , которая содержит объекты **PackageRelationship** одного определенного типа. Конечно с помощью метода **Package.GetRelationshipsByType** необходимо знать уже тип отношения, который требуется. Отношения типов являются строками в формате пространство имен XML. Например, тип связи из части документа Visio будет https://schemas.microsoft.com/visio/2010/relationships/document. 
   
 После определения отношения **PackagePart** в **пакете** или в другой **PackagePart** (то есть, у вас есть объект **PackageRelationship** , который ссылается на **PackagePart** , который будет), можно использовать его связь для получения идентификатора URI, **PackagePart**. Затем передайте URI в метод **Package.GetPart** для возврата **PackagePart**.
   
@@ -370,14 +370,14 @@ ms.locfileid: "22567848"
   ```cs
   // Get a reference to the Visio Document part contained in the file package.
   PackagePart documentPart = GetPackagePart(visioPackage, 
-      "http://schemas.microsoft.com/visio/2010/relationships/document");
+      "https://schemas.microsoft.com/visio/2010/relationships/document");
   
   ```
 
   ```vb
   ' Get a reference to the Visio Document part contained in the file package.
   Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
-      "http://schemas.microsoft.com/visio/2010/relationships/document")
+      "https://schemas.microsoft.com/visio/2010/relationships/document")
   
   ```
 
@@ -442,9 +442,9 @@ ms.locfileid: "22567848"
   // Get a reference to the collection of pages in the document, 
   // and then to the first page in the document.
   PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
-      "http://schemas.microsoft.com/visio/2010/relationships/pages");
+      "https://schemas.microsoft.com/visio/2010/relationships/pages");
   PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
-      "http://schemas.microsoft.com/visio/2010/relationships/page");
+      "https://schemas.microsoft.com/visio/2010/relationships/page");
   
   ```
 
@@ -452,9 +452,9 @@ ms.locfileid: "22567848"
   ' Get a reference to the collection of pages in the document,
   ' and then to the first page in the document.
   Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
-      "http://schemas.microsoft.com/visio/2010/relationships/pages") 
+      "https://schemas.microsoft.com/visio/2010/relationships/pages") 
   Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
-      "http://schemas.microsoft.com/visio/2010/relationships/page") 
+      "https://schemas.microsoft.com/visio/2010/relationships/page") 
   ```
 
 Прежде чем принять изменения в файл XML, включенные в части документа, необходимо сначала загрузить документ XML в объект, который позволяет читать XML-код, с помощью класса [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) или [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx) . Оба класса предоставляют методы для задач, таких как выбор элементов XML, содержащиеся в XML-документов; Создание, чтение и запись атрибутов; и вставка новые элементы XML в документ. 
@@ -775,7 +775,7 @@ textElement.LastNode.ReplaceWith("Start process")
       // Get the Custom File Properties part from the package and
       // and then extract the XML from it.
       PackagePart customPart = GetPackagePart(filePackage, 
-          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
+          "https://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
           "custom-properties");
       XDocument customPartXML = GetXMLFromPart(customPart);
       // Check to see whether document recalculation has already been 
@@ -814,7 +814,7 @@ textElement.LastNode.ReplaceWith("Start process")
           ' Get the Custom File Properties part from the package and
           ' then extract the XML from it.
           Dim customPart As PackagePart = GetPackagePart(filePackage, _
-              "http://schemas.openxmlformats.org/officeDocument/2006/" + _
+              "https://schemas.openxmlformats.org/officeDocument/2006/" + _
               "relationships/custom-properties")
           Dim customPartXML As XDocument = GetXMLFromPart(customPart)
           ' Check to see whether document recalculation has already been
@@ -1010,7 +1010,7 @@ textElement.LastNode.ReplaceWith("Start process")
       // This code adds a new CUSTOM tab to the ribbon for this
       // document. The tab has one group that contains one button.
       XNamespace customUINS = 
-          "http://schemas.microsoft.com/office/2006/01/customui";
+          "https://schemas.microsoft.com/office/2006/01/customui";
       XDocument customUIXDoc = new XDocument(
           new XDeclaration("1.0", "utf-8", "true"),
           new XElement(customUINS + "customUI",
@@ -1044,7 +1044,7 @@ textElement.LastNode.ReplaceWith("Start process")
       ' This code adds a new CUSTOM tab to the ribbon for this
       ' document. The tab has one group that contains one button.
       Dim customUINS As XNamespace = _
-          "http://schemas.microsoft.com/office/2006/01/customui"
+          "https://schemas.microsoft.com/office/2006/01/customui"
       Dim customUIXML = New XDocument( _
           New XDeclaration("1.0", "utf-8", "true"), _
           New XElement(customUINS + "customUI", _
@@ -1136,7 +1136,7 @@ textElement.LastNode.ReplaceWith("Start process")
   CreateNewPackagePart(visioPackage, customUIXML, 
       new Uri("/customUI/customUI1.xml", UriKind.Relative),
       "application/xml",
-      "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
+      "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
   ```
 
   ```vb
@@ -1145,7 +1145,7 @@ textElement.LastNode.ReplaceWith("Start process")
   CreateNewPackagePart(visioPackage, customUIXML, _
       New Uri("/customUI/customUI1.xml", UriKind.Relative), _
       "application/xml", _
-      "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
+      "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
   ```
 
 4. Нажмите клавишу F5 для отладки решения. После завершения работы программы нажмите любую клавишу, чтобы выйти из.
@@ -1162,7 +1162,7 @@ XML-код, созданный с `CreateCustomUI` метод выглядит �
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<customUI xmlns="https://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="customTab" label="CUSTOM">
@@ -1188,18 +1188,18 @@ XML-код, созданный с `CreateCustomUI` метод выглядит �
 
 - С Al Edlund:
     
-  - проект [pkgVisio - Visio 2013 XML выполнение различных операций](http://pkgvisio.codeplex.com/documentation) на сайте CodePlex. 
+  - проект [pkgVisio - Visio 2013 XML выполнение различных операций](https://pkgvisio.codeplex.com/documentation) на сайте CodePlex. 
     
-  - [pkgVisio_pt1](http://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) видео на YouTube. 
+  - [pkgVisio_pt1](https://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) видео на YouTube. 
     
-  - [pkgVisio_pt2](http://www.youtube.com/watch?v=ZIWSXhNSkG8&amp;feature=youtu.be) видео на YouTube. 
+  - [pkgVisio_pt2](https://www.youtube.com/watch?v=ZIWSXhNSkG8&amp;feature=youtu.be) видео на YouTube. 
     
-- [Центр по разработке для Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [Центр по разработке для Visio](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [Работа с документами форматов Office Open XML](http://msdn.microsoft.com/en-us/library/aa982683%28v=office.12%29.aspx)
+- [Работа с документами форматов Office Open XML](https://msdn.microsoft.com/library/aa982683%28v=office.12%29.aspx)
     
-- [Создание документа с пространствами имен (C#) (LINQ to XML)](http://msdn.microsoft.com/en-us/library/bb387075.aspx)
+- [Создание документа с пространствами имен (C#) (LINQ to XML)](https://msdn.microsoft.com/library/bb387075.aspx)
     
-- [Добавление пользовательской XML-части в документ без запуска Microsoft Office](http://msdn.microsoft.com/en-us/library/bb608597%28VS.90%29.aspx)
+- [Добавление пользовательской XML-части в документ без запуска Microsoft Office](https://msdn.microsoft.com/library/bb608597%28VS.90%29.aspx)
     
 

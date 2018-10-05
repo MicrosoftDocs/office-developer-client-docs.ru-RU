@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e75407f62a7e6440f6c8dca8c1d2c76843048da4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7451d159ef97ef9d8160b386ec5bf88fb388706e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595400"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395072"
 ---
 # <a name="download-table-state"></a>Состояние скачивания данных таблицы
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описываются двоичных файлов состояния в таблице загрузки конечного автомата репликации. 
   
@@ -35,7 +35,7 @@ ms.locfileid: "22595400"
   
 ## <a name="description"></a>Описание
 
-Это состояние означает инициирует загрузку в папку. В этом состоянии Outlook инициализирует связанной структуры данных **DNTBL** со сведениями о папке. Клиент файлы для загрузки содержимого папки и обновляет к папке на локальном хранилище с новой содержимое, изменения или удаления с сервера. Процесс загрузки использует Microsoft Exchange добавочные изменения синхронизации (ICS). Дополнительные сведения о ICS [Критерии оценки ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)см.
+Это состояние означает инициирует загрузку в папку. В этом состоянии Outlook инициализирует связанной структуры данных **DNTBL** со сведениями о папке. Клиент файлы для загрузки содержимого папки и обновляет к папке на локальном хранилище с новой содержимое, изменения или удаления с сервера. Процесс загрузки использует Microsoft Exchange добавочные изменения синхронизации (ICS). Дополнительные сведения о ICS [Критерии оценки ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)см.
   
 По окончании этого состояния локального хранилища возвращается в состояние содержимое синхронизировать.
   
@@ -49,5 +49,5 @@ ms.locfileid: "22595400"
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[СОСТОЯНИЕ](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

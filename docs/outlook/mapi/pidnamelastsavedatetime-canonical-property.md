@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f1c87aa-70b7-4c36-8840-04e70327bda7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a79bf71ad4d755e31cf8d43f07c371aa6aa9a277
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 792217a194f415f21aa457134b7cf71f15191444
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580287"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393644"
 ---
 # <a name="pidnamelastsavedatetime-canonical-property"></a>Каноническое свойство PidNameLastSaveDateTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает время, последнего сохранения файла.
   
@@ -39,11 +39,11 @@ ms.locfileid: "22580287"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые в документах.
     

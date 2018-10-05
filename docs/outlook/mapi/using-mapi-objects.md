@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2b66b450318c802e773c2f2c47e4a39500c582d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d732efe5276f4756f43b4aca46e1c33d6f103844
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592774"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392846"
 ---
 # <a name="using-mapi-objects"></a>Использование объектов MAPI
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиенты и поставщики услуг используйте объекты MAPI с помощью методов в их реализации интерфейса. Это является единственным способом, можно использовать объекты MAPI; методы, реализованных с помощью объекта за пределами интерфейса MAPI не общего доступа. Так как все интерфейсы объекта связаны через наследование, объекта пользователя можно вызвать методы в основной интерфейс или из наследуемых интерфейсов, как если бы они принадлежат тот же интерфейс. 
   
-При объекта пользователю необходимо вызвать метод и этот объект реализует несколько интерфейсов, связанных с помощью наследования, пользователь не требуется знать, интерфейс, который принадлежит метод. Можно использовать любой из способов на любом из интерфейсов с одним указатель на объект. Например на следующем рисунке показана как клиентское приложение использует объект folder. Реализация объектов папок [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) интерфейс, который наследует от [IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) косвенно через [IMAPIProp: IUnknown](imapipropiunknown.md) и [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). Клиент может вызвать один из методов **IMAPIProp** , такие как [IMAPIProp::GetProps](imapiprop-getprops.md)и один из [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) методы, такие как [IMAPIFolder::CreateMessage](imapifolder-createmessage.md), так же, как с помощью одной указателя на объект. Клиент не принять во внимание или степени зависит от того, что эти вызовы принадлежащих разных интерфейсов.
+При объекта пользователю необходимо вызвать метод и этот объект реализует несколько интерфейсов, связанных с помощью наследования, пользователь не требуется знать, интерфейс, который принадлежит метод. Можно использовать любой из способов на любом из интерфейсов с одним указатель на объект. Например на следующем рисунке показана как клиентское приложение использует объект folder. Реализация объектов папок [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) интерфейс, который наследует от [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) косвенно через [IMAPIProp: IUnknown](imapipropiunknown.md) и [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). Клиент может вызвать один из методов **IMAPIProp** , такие как [IMAPIProp::GetProps](imapiprop-getprops.md)и один из [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) методы, такие как [IMAPIFolder::CreateMessage](imapifolder-createmessage.md), так же, как с помощью одной указателя на объект. Клиент не принять во внимание или степени зависит от того, что эти вызовы принадлежащих разных интерфейсов.
   
 **Использование объекта папки клиентом**
   
@@ -33,7 +33,7 @@ ms.locfileid: "22592774"
     
 - Вызов функции API.
     
-- Вызов метода [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) на целевой объект. 
+- Вызов метода [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) на целевой объект. 
     
 MAPI предоставляет несколько методов и функций API, которые возвращают указатели для реализации интерфейсов. Например, клиенты могут вызывать метод [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) для извлечения указателя на объект в таблице, который предоставляет доступ к информации поставщика хранилища сообщений через [IMAPITable: IUnknown](imapitableiunknown.md) интерфейса. Поставщиков услуг можно вызвать функцию API [CreateTable](createtable.md) получить указатель на объект данных в таблице. Если нет функция или метод доступен с клиентами или поставщиками услуг уже указателя на объект, они могут вызывать метод **QueryInterface** объекта для извлечения указатель на другой объект реализации интерфейсов. 
   

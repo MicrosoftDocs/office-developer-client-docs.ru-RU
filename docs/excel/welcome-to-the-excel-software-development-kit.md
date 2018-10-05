@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: abfc9d76-6f22-49b9-ba45-eb7a54b082e0
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4de88a12b5fb945c6243e52b77babe88b2d02417
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 492b8097c681ec072d2ec3ca26a9a2bfeba054ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807331"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392363"
 ---
 # <a name="welcome-to-the-excel-software-development-kit"></a>Знакомство с пакетом средств разработки программного обеспечения для Excel
 
@@ -24,7 +24,7 @@ ms.locfileid: "19807331"
   
 Последняя редакция: ноябрь 2012 г.
   
-Скачайте [пакет SDK XLL для Excel 2013](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).
+Скачайте [пакет SDK XLL для Excel 2013](https://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).
   
 Пакет SDK XLL для Excel 2013 включает следующее:
   
@@ -54,10 +54,10 @@ ms.locfileid: "19807331"
     
 ## <a name="related-links"></a>Дополнительные ссылки
 
-[Центр разработчиков Excel](http://msdn.microsoft.com/ru-RU/office/aa905411.aspx)
+[Центр разработчиков Excel](https://msdn.microsoft.com/office/aa905411.aspx)
   
-[Центр разработчика Microsoft Office](http://msdn.microsoft.com/ru-RU/office/default.aspx)
+[Центр разработчика Microsoft Office](https://msdn.microsoft.com/office/default.aspx)
   
-[Пакет SDK для Excel 2010: пакет средств разработки XLL для Excel 2010](http://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
+[Пакет SDK для Excel 2010: пакет средств разработки XLL для Excel 2010](https://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
   
 

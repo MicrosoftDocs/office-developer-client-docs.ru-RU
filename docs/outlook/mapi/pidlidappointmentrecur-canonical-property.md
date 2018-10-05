@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 56d6240f-d07b-48d1-aef0-bf57078ea6c3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: da38c8f04c0ffe6b4b26551cb23e84275900fcb4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de50616664048af6b931a09df7c65461e9ee3399
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563060"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393371"
 ---
 # <a name="pidlidappointmentrecur-canonical-property"></a>Каноническое свойство PidLidAppointmentRecur
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Задает значения даты и времени, когда серии повторяющихся происходит с помощью одного из шаблоны повторения и диапазоны, которые указаны в [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Задает значения даты и времени, когда серии повторяющихся происходит с помощью одного из шаблоны повторения и диапазоны, которые указаны в [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ ms.locfileid: "22563060"
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство определяет значения даты и времени при серии повторяющихся происходит с помощью одного из шаблоны повторения и диапазоны в [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). Значение этого свойства также приводятся сведения о измененные и удаленные исключения; сведения, такие как даты, тему, местоположение и некоторые другие свойства исключения. Двоичные данные в этом свойстве для повторяющихся элементов календаря сохраняется как структура **AppointmentRecurrencePattern** . Это свойство не должна существовать на элементах календаря один экземпляр. 
+Это свойство определяет значения даты и времени при серии повторяющихся происходит с помощью одного из шаблоны повторения и диапазоны в [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). Значение этого свойства также приводятся сведения о измененные и удаленные исключения; сведения, такие как даты, тему, местоположение и некоторые другие свойства исключения. Двоичные данные в этом свойстве для повторяющихся элементов календаря сохраняется как структура **AppointmentRecurrencePattern** . Это свойство не должна существовать на элементах календаря один экземпляр. 
   
 Существует несколько ограничений повторениями.
   
@@ -51,15 +51,15 @@ ms.locfileid: "22563060"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Задает свойства и модель взаимодействия для электронной почты и других объектов напоминания.
     

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 44995137-d241-937a-c097-0f9d79203cdf
 description: Указывает, следует ли открывать гиперссылки в новом окне.
-ms.openlocfilehash: b4d927e1970e994047df3cb89afa7799a825511d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f9d1e4b1294dea3f211c8d0d69ffc49b6180066
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814296"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396339"
 ---
 # <a name="newwindow-cell-hyperlinks-section"></a>Ячейка NewWindow (раздел "Гиперссылки")
 
@@ -22,7 +22,7 @@ ms.locfileid: "19814296"
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Откройте связанную страницу, документа или веб-сайта в новом окне.  <br/> |
+| TRUE  <br/> | Откройте связанную страницу, документа или веб-сайт в новом окне.  <br/> |
 | FALSE  <br/> | Значение, используемое по умолчанию. Не открывать новое окно гиперссылки.  <br/> |
    
 ## <a name="remarks"></a>Замечания
@@ -31,7 +31,7 @@ ms.locfileid: "19814296"
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Гиперссылки.  *Имя* . NewWindow где гиперссылки.  *Имя* — это имя строки  <br/> |
+| Имя ячейки:  <br/> | Гиперссылки.  *Имя* . NewWindow где гиперссылки.  *Имя* — это имя строки  <br/> |
    
 Для получения ссылки на ячейки NewWindow по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
   

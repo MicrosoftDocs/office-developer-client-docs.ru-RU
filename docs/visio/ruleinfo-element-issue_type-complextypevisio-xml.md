@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: aec47b43-adbe-3344-fbac-29554f244c99
 description: Задает сведения о правиле проверки, относящимися ошибки проверки родительского.
-ms.openlocfilehash: ff5a7e4e8918d5ae151a0d4582d1a393509e1b64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0cf726f0c5d6943ef72669aa92f361a7367459c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814691"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394750"
 ---
 # <a name="ruleinfo-element-issuetype-complextype-visio-xml"></a>Элемент RuleInfo (Issue_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814691"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Validation.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814691"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19814691"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |RuleID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Задает уникальный идентификатор правила проверки, проблема родительского относится к.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |RuleSetID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Указывает уникальный идентификатор набора правил проверки, относящимися родительского проблему.  <br/> |Значения типа xsd:unsignedInt.  <br/> |

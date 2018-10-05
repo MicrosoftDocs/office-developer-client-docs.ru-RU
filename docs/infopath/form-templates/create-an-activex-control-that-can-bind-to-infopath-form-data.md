@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: В формах InfoPath, предназначенных для открытия в редакторе InfoPath, разработчики могут размещать элементы управления ActiveX. Такие элементы управления могут уже существовать (при этом применяются некоторые ограничения) или могут создаваться специально для InfoPath.
-ms.openlocfilehash: 90378533a7c3cde4a1927753c0325fdd8d0b3ce5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70ac6a16b305403ffa99d8fe840a165913642f57
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807479"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392797"
 ---
 # <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>Создание элемента управления ActiveX, который можно прикрепить к данным формы InfoPath
 
@@ -51,9 +51,9 @@ ms.locfileid: "19807479"
     
 Кроме того, существует два интерфейса COM для InfoPath, обеспечивающие более тесную интеграцию элементов управления:
   
-- [IInfoPathControl](http://msdn.microsoft.com/en-us/library/bb264625.aspx)
+- [IInfoPathControl](https://msdn.microsoft.com/library/bb264625.aspx)
     
-- [IInfoPathControlSite](http://msdn.microsoft.com/en-us/library/bb264627.aspx)
+- [IInfoPathControlSite](https://msdn.microsoft.com/library/bb264627.aspx)
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a>Добавление элемента управления ActiveX в среду разработки InfoPath
 
@@ -76,9 +76,7 @@ ms.locfileid: "19807479"
   
 ## <a name="see-also"></a>См. также
 
-
-
 Пример 6. Добавление элементов управления ActiveX в InfoPath 2003
   
-[Создание пользовательского элемента управления InfoPath с помощью C# и .NET (блог команды разработчиков InfoPath) (Возможно, на английском языке)](http://blogs.msdn.com/infopath/archive/2005/04/15/creating-an-infopath-custom-control-using-c-and-net.aspx)
+[Создание пользовательского элемента управления InfoPath с помощью C# и .NET (блог команды разработчиков InfoPath) (Возможно, на английском языке)](https://blogs.msdn.microsoft.com/infopath/2005/04/15/creating-an-infopath-custom-control-using-c-and-net/)
 

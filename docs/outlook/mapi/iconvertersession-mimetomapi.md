@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 60a058cc119290a0e14a76c914ac6d5a2d7a693b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d71dd44d2dfc39124c5300d2597f5d8ed1e95ebb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593020"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395415"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Преобразование MIME-поток сообщений MAPI.
   
@@ -40,7 +40,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 
  _pstm_
   
-> [in] Интерфейс [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) поток MIME. 
+> [in] Интерфейс [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) поток MIME. 
     
  _pmsg_
   
@@ -70,7 +70,7 @@ CCSF_USE_RTF
   
 > Чтобы форматированный текст (RTF) должны быть преобразованы в сообщении MAPI HTML-текста в потоке MIME.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
 E_INVALIDARG
   
@@ -80,11 +80,11 @@ E_INVALIDARG
 
 Если указаны **CCSF_USE_RTF** как часть _ulFlags_ и хранилище сообщений назначения поддерживает HTML и RTF, сообщение MAPI преобразуются в HTML или RTF. Если сообщение будет преобразовываться в формат RTF, сжимаются преобразованные формата RTF, весь HTML-код будут внедрены в строку сжатый формат RTF, а строка будет содержаться в [Каноническое свойство PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |Mfcmapi (en) используется MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |Mfcmapi (en) используется MAPIToMIMEStm для преобразования MAPI сообщения EML-файла.  <br/> |

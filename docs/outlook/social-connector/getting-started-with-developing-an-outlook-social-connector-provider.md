@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1c65d2df-86a3-48d5-9fec-a9040f3b878c
 description: Справочник поставщика Outlook Social Connector (OSC) описывается, как разрабатывать поставщика OSC, используя возможности расширения поставщика OSC.
-ms.openlocfilehash: 19f5ffe8987d0b19017692ddb8f7888be2140033
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24f8eabe33103f53e848f055b72fd402bc5dd89a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812702"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392167"
 ---
 # <a name="getting-started-with-developing-an-outlook-social-connector-provider"></a>Начало разработки поставщика Outlook Social Connector
 
-Справочник поставщика Outlook Social Connector (OSC) описывается, как разрабатывать поставщика OSC, используя возможности расширения поставщика OSC. Если вы не знакомы с разработкой решения для Outlook, статью [Выбор API или технологий для разработки решений Outlook](http://msdn.microsoft.com/library/8295da20-e567-4d08-b8e4-5c9b4498edd4%28Office.15%29.aspx) для идентификации интерфейсы API и технологии, наиболее подходящие вашим потребностям. 
+Справочник поставщика Outlook Social Connector (OSC) описывается, как разрабатывать поставщика OSC, используя возможности расширения поставщика OSC. Если вы не знакомы с разработкой решения для Outlook, статью [Выбор API или технологий для разработки решений Outlook](https://msdn.microsoft.com/library/8295da20-e567-4d08-b8e4-5c9b4498edd4%28Office.15%29.aspx) для идентификации интерфейсы API и технологии, наиболее подходящие вашим потребностям. 
 
 В этом разделе дается обзор OSC, как поставщика OSC может быть полезен, быстрого шаги, необходимые для разработки поставщика, технических требований, рекомендации по разработке поставщика и новые возможности этой версии. 
   
@@ -55,8 +55,8 @@ ms.locfileid: "19812702"
   
 ## <a name="see-also"></a>См. также
 
-- [Microsoft Outlook Social Connector с 32-разрядная версия](http://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
-- [Обновление для Outlook Social Connector (KB983403), 32-разрядные версии](http://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
-- [Обновление для Outlook Social Connector (KB983403), 64-разрядный выпуск](http://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
-- [Outlook Social Connector 2013: Шаблоны поставщика](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
+- [Microsoft Outlook Social Connector с 32-разрядная версия](https://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
+- [Обновление для Outlook Social Connector (KB983403), 32-разрядные версии](https://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
+- [Обновление для Outlook Social Connector (KB983403), 64-разрядный выпуск](https://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
+- [Outlook Social Connector 2013: Шаблоны поставщика](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
 

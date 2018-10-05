@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
 description: Содержит элементы подключение данных для документа.
-ms.openlocfilehash: 4de4429985ab0417341224f7f9e267a9873c6504
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b1619253a2818f2a181d281c78a0445318ed6ca
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813541"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395030"
 ---
 # <a name="dataconnections-element-visio-xml"></a>Элемент DataConnections ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813541"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Connections.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813541"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19813541"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |NextID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор следующего недоступны для новых подключений.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    

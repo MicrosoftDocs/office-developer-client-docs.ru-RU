@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
 description: Office для Android предоставляет расширенное решение, позволяющее интегрировать приложения сторонних производителей. Вы можете выполнить интеграцию с Office из своего приложения Android, передав пользователей из своего приложения в Office.
-ms.openlocfilehash: 2fd60c7e86d3390bc5343f3e09fb2235f97e0b13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e674b3d66f3acba7e9c9c19e716ff0d73d803b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807607"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393028"
 ---
 # <a name="integrate-with-office-from-android-applications"></a>Интеграция приложений Android с Office
 
@@ -106,8 +106,8 @@ URL-адрес должен быть зашифрован и быть прямо
 
 - [Интеграция с Office](integrate-with-office.md)
     
-- [PackageManager](http://developer.android.com/reference/android/content/pm/PackageManager.html)
+- [PackageManager](https://developer.android.com/reference/android/content/pm/PackageManager.html)
     
-- [GetPackageManager()](http://developer.android.com/reference/android/content/Context.html)
+- [GetPackageManager()](https://developer.android.com/reference/android/content/Context.html)
     
 

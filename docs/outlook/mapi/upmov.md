@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
 description: '���� ���������� ���������: 5 ���� 2012 �.'
-ms.openlocfilehash: 0a8e318f9bb5e538473e1b60c650e8730f692e50
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577991"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393385"
 ---
 # <a name="upmov"></a>UPMOV
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Информация для загрузки элементов, которые были перемещены. Эти сведения используются во время [загрузки удалить состояние состояния](upload-delete-status-state.md) и [Отправка состояний в таблице](upload-table-state.md).
   
@@ -82,7 +82,7 @@ _pfld_
     
 _pxicc_
   
->  [in] Указатель на интерфейс **IExchangeImportContentsChanges** содержимое, которое поддерживает отправки контента изменений при использовании добавочной синхронизации изменений (ICS). Дополнительные сведения о **IExchangeImportContentsChanges** и ICS [Критерии оценки ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)см.
+>  [in] Указатель на интерфейс **IExchangeImportContentsChanges** содержимое, которое поддерживает отправки контента изменений при использовании добавочной синхронизации изменений (ICS). Дополнительные сведения о **IExchangeImportContentsChanges** и ICS [Критерии оценки ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)см.
     
 _dwReserved_
   

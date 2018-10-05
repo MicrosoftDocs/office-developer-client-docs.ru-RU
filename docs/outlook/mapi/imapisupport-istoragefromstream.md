@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f1c27f87cb113ebe30a42211035f6f50475a1be3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7200e7d226eb148fef094ab8540990644d2d4c99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588183"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392832"
 ---
 # <a name="imapisupportistoragefromstream"></a>IMAPISupport::IStorageFromStream
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Реализует объект хранилища для доступа к потоку.
   
@@ -44,7 +44,7 @@ HRESULT IStorageFromStream(
     
  _lpInterface_
   
-> [in] Указатель на идентификатор интерфейса (ИД интерфейса), который представляет интерфейс, который будет использоваться для доступа к потоку, на который указывает _lpUnkIn_. Допустимы любые из следующих значений: IID_IStream, IID_ILockBytes, или **значение null**, это означает, что интерфейс [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) должен использоваться для доступа к потоку. 
+> [in] Указатель на идентификатор интерфейса (ИД интерфейса), который представляет интерфейс, который будет использоваться для доступа к потоку, на который указывает _lpUnkIn_. Допустимы любые из следующих значений: IID_IStream, IID_ILockBytes, или **значение null**, это означает, что интерфейс [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) должен использоваться для доступа к потоку. 
     
  _ulFlags_
   
@@ -70,17 +70,17 @@ STGSTRM_RESET
   
 > [out] Указатель на указатель на объект хранилища.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Объект хранилища успешно создан.
     
 ## <a name="remarks"></a>Замечания
 
-Метод **IMAPISupport::IStorageFromStream** применяется для всех объектов поддержки поставщика службы. Поставщики услуг вызова **IStorageFromStream** для создания объекта хранилища для открытия отдельного свойства. Поставщики услуг, которые имеют собственные реализации интерфейса [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) не нужно вызвать **IStorageFromStream**. 
+Метод **IMAPISupport::IStorageFromStream** применяется для всех объектов поддержки поставщика службы. Поставщики услуг вызова **IStorageFromStream** для создания объекта хранилища для открытия отдельного свойства. Поставщики услуг, которые имеют собственные реализации интерфейса [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) не нужно вызвать **IStorageFromStream**. 
   
-Объекта хранилища, созданные **IStorageFromStream** вызывает метод [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) поток для увеличения его счетчик ссылок и уменьшает счетчик после выхода хранилища. 
+Объекта хранилища, созданные **IStorageFromStream** вызывает метод [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) поток для увеличения его счетчик ссылок и уменьшает счетчик после выхода хранилища. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
@@ -94,7 +94,7 @@ STGSTRM_RESET
     
 4. Возвращает указатель на объект хранилища.
     
-Если реализовать дополнительные интерфейсы, использующие объекта хранилища, создайте объект, который является оболочкой объекта хранилища и реализуйте метод [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) более высокого уровня. 
+Если реализовать дополнительные интерфейсы, использующие объекта хранилища, создайте объект, который является оболочкой объекта хранилища и реализуйте метод [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) более высокого уровня. 
   
 Не разрешать свойство так, чтобы открыть с помощью интерфейса **IStream** , если он был создан **IStorage**. С другой стороны не разрешать свойство так, чтобы открыть с помощью интерфейса **IStorage** , если он был создан **IStream**. 
   

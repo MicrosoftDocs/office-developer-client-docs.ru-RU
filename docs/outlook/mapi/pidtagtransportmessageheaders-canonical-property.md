@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f8e3f20-6454-4dfd-9b35-e0401abac6b3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 16c3684176de765a10b5bac620ea65a824cfe83a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7ad9048a19123b94c10afaddcbedb7f54e8fe477
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588764"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392351"
 ---
 # <a name="pidtagtransportmessageheaders-canonical-property"></a>Каноническое свойство PidTagTransportMessageHeaders
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения о конверт сообщения транспорта.
   
@@ -44,15 +44,15 @@ ms.locfileid: "22588764"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
     

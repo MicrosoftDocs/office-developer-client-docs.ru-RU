@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Задает коллекцию свойств, связанных с ними.
-ms.openlocfilehash: c729ddd18da7b19499be72a71a9d0666791da207
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593524"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394339"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Элемент раздела (Sheet_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "22593524"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML, masters.xml, главные # .xml, pages.xml, страницы # .xml  <br/> |
    
@@ -54,7 +54,7 @@ ms.locfileid: "22593524"
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает отдельное свойство.  <br/> |
-|[Row](http://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Задает коллекцию элементов **Cell_Type** .  <br/> |
+|[Строка](https://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Задает коллекцию элементов **Cell_Type** .  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -70,7 +70,7 @@ ms.locfileid: "22593524"
   
 |**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|Actions  <br/> |Набор свойств, которые используются для вычисления. Она должна иметь **ShapeSheet_Type** или **PageSheet_Type** родительского элемента.  <br/> |[Раздел "Действия"](actions-section.md) <br/> |
+|Действия  <br/> |Набор свойств, которые используются для вычисления. Она должна иметь **ShapeSheet_Type** или **PageSheet_Type** родительского элемента.  <br/> |[Раздел "Действия"](actions-section.md) <br/> |
 |ActionTag  <br/> |Набор свойств, которые используются для вычисления только. Она должна иметь **ShapeSheet_Type** или **PageSheet_Type** родительского элемента.  <br/> |[Раздел "Теги действий"](action-tag-section.md) <br/> |
 |Подключения  <br/> |Набор свойств, которые используются для вычисления только. Она должна иметь **ShapeSheet_Type** родительского элемента.  <br/> ||
 |Элементы управления  <br/> |Набор свойств, которые используются для вычисления только. Она должна иметь **ShapeSheet_Type** родительского элемента.  <br/> |[Раздел "Элементы управления"](controls-section.md) <br/> |
@@ -89,7 +89,7 @@ ms.locfileid: "22593524"
 |FillGradient  <br/> |Набор свойств, которые задают градиентные цвета заливки фигуры. Она должна иметь **ShapeSheet_Type** или **StyleSheet_Type** родительского элемента.  <br/> |[Раздел "Градиентная заливка"](fill-gradient-section.md) <br/> |
 |Геометрия  <br/> |Коллекция связанных свойств, которые задают визуализации геометрии. Она должна иметь **ShapeSheet_Type** родительского элемента. Первый **Row_Type** дочерний элемент этого элемента должно иметь тип MoveTo, RelMoveTo, эллипс или InfiniteLine.  <br/> |[Раздел "Геометрия"](geometry-section.md) <br/> |
 |Слои  <br/> |Набор свойств, которые все слои, определенные на странице документа. Это должен быть дочерний элемент **PageSheet_Type** .  <br/> |[Раздел "Слои"](layers-section.md) <br/> |
-|Градиентные строки  <br/> |Коллекция связанных свойств, которые задают строки градиента фигуры. Она должна иметь **ShapeSheet_Type** или **StyleSheet_Type** родительского элемента.  <br/> |[Раздел "Градиентная линия"](line-gradient-section.md) <br/> |
+|Градиентная линия  <br/> |Коллекция связанных свойств, которые задают строки градиента фигуры. Она должна иметь **ShapeSheet_Type** или **StyleSheet_Type** родительского элемента.  <br/> |[Раздел "Градиентная линия"](line-gradient-section.md) <br/> |
 |Абзац  <br/> |Коллекция связанных свойств, которые задают свойств абзаца текста фигуры. Она должна иметь родительский элемент **ShapeSheet_Type** или **StyleSheet_Type** родительского элемента.  <br/> |[Раздел "Абзац"](paragraph-section.md) <br/> |
 |Редактор  <br/> |Набор свойств, которые используются для вычисления. Она должна иметь **DocumentSheet_Type** родительского элемента.  <br/> |[Раздел "Рецензент"](reviewer-section.md) <br/> |
 |Нуля  <br/> |Набор свойств, которые используются для вычисления. Она должна иметь **DocumentSheet_Type**, **PageSheet_Type**или **ShapeSheet_Type** родительского элемента.  <br/> |[Раздел "Вспомогательный"](scratch-section.md) <br/> |

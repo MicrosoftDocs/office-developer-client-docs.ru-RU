@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: Для доступа и работы с данными XML в источники данных шаблона формы, многие члены объектной модели управляемого кода, представленные в пространстве имен Microsoft.Office.InfoPath создать или может быть передан экземпляр класса XPathNavigator System.Xml.XPath пространство имен. После получения доступа к объекту XPathNavigator, возвращенный участником объектной модели InfoPath, можно использовать свойства и методы класса XPathNavigator для работы с данными.
-ms.openlocfilehash: a672ea2733d971c829b77e0c18a74f26c7050b34
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f34f2e1a1cbdb8d9e389c864a9b979be20726e6b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807533"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393042"
 ---
 # <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Работа с классами XPathNavigator и XPathNodeIterator
 
@@ -73,11 +73,11 @@ Dim emailAlias As XPathNavigator = _
 emailAlias.SetValue(Me.Application.User.UserName.ToString())
 ```
 
-Сведения о создании выражения XPath видеть ссылку XPath на MSDN и [рекомендации W3C язык адресации XML (XPath) версии 1.0](http://www.w3.org/TR/xpath).
+Сведения о создании выражения XPath видеть ссылку XPath на MSDN и [рекомендации W3C язык адресации XML (XPath) версии 1.0](https://www.w3.org/TR/xpath).
   
 ### <a name="setting-the-value-of-a-node-that-has-the-xsinil-attribute"></a>Установка значения для узла с атрибутом xsi:nil
 
-Для определенных типов данных при попытке задать значение пустое поле программными средствами вызывает ошибку «проверку на соответствие схеме обнаружены ошибки не данных типа». Обычно причиной этой ошибки — это, что элемент имеет атрибут [xsi: nil](http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) присвоено **значение true**. Если посмотреть на базовый XML-элемента для пустого поля в форме, можно видеть этот параметр. Например фрагмент XML-кода для следующих пустые поля даты имеет атрибут **xsi: nil** присвоено **значение true**.
+Для определенных типов данных при попытке задать значение пустое поле программными средствами вызывает ошибку «проверку на соответствие схеме обнаружены ошибки не данных типа». Обычно причиной этой ошибки — это, что элемент имеет атрибут [xsi: nil](https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) присвоено **значение true**. Если посмотреть на базовый XML-элемента для пустого поля в форме, можно видеть этот параметр. Например фрагмент XML-кода для следующих пустые поля даты имеет атрибут **xsi: nil** присвоено **значение true**.
   
 ```XML
 <my:myDate xsi:nil="true"></my:myDate>
@@ -101,7 +101,7 @@ emailAlias.SetValue(Me.Application.User.UserName.ToString())
 public void DeleteNil(XPathNavigator node)
 {
    if (node.MoveToAttribute(
-      "nil", "http://www.w3.org/2001/XMLSchema-instance"))
+      "nil", "https://www.w3.org/2001/XMLSchema-instance"))
       node.DeleteSelf();
 }
 ```
@@ -109,7 +109,7 @@ public void DeleteNil(XPathNavigator node)
 ```vb
 Public Sub DeleteNil(ByVal node As XPathNavigator)
    If (node.MoveToAttribute( _
-      "nil", "http://www.w3.org/2001/XMLSchema-instance")) Then
+      "nil", "https://www.w3.org/2001/XMLSchema-instance")) Then
       node.DeleteSelf()
    End If
 End Sub

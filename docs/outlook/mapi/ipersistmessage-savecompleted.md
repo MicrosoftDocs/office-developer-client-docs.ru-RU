@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7813636abc1c4d6ad756c7cf670e21d4acb7f540
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 021be209a2b2c891b668fa401500d6220619f9bd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592747"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395058"
 ---
 # <a name="ipersistmessagesavecompleted"></a>IPersistMessage::SaveCompleted
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Уведомляет формы, которая сохранения завершения операции. 
   
@@ -37,9 +37,9 @@ _pMessage_
   
 > [in] Указатель на только что сохраненный сообщения.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Уведомление успешно.
     
@@ -67,7 +67,7 @@ E_INVALIDARG
     
 - NoScribble
     
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Существует несколько возможных действий, которые могут выполнять метод **SaveCompleted** , в зависимости от того, какие сообщения содержит параметр-указатель и состояния сообщение находится в. Тем не менее при успешной действие, которое всегда сохраните текущее состояние сообщения, параметр _pMessage_ и переход на новые формы в состояние [Normal](normal-state.md) . 
   
@@ -77,13 +77,13 @@ E_INVALIDARG
 |:-----|:-----|
 |Параметр _pMessage_ имеет значение NULL, и параметр _fSameAsLoad_ метода [IPersistMessage::Save](ipersistmessage-save.md) задано значение TRUE.  <br/> |Вызовите метод [IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) всем зарегистрированным пользователям, пометить форму как чистая, а возвращаемое значение S_OK.  <br/> |
 |Параметр _pMessage_ имеет значение NULL, и параметр _fSameAsLoad_ метода **IPersistMessage::Save** задано значение FALSE.  <br/> |Возвращает значение S_OK.  <br/> |
-|Форма находится в состоянии HandsOffFromNormal.  <br/> |Освобождение сообщения, текущий и замените указывает параметр _pMessage_ сообщение. Вызовите метод [IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) замены сообщения и возвращает значение S_OK.  <br/> |
+|Форма находится в состоянии HandsOffFromNormal.  <br/> |Освобождение сообщения, текущий и замените указывает параметр _pMessage_ сообщение. Вызовите метод [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) замены сообщения и возвращает значение S_OK.  <br/> |
 |Форма находится в состоянии HandsOffAfterSave.  <br/> |Вызовите метод **IMAPIViewAdviseSink::OnSaved** всем зарегистрированным пользователям, пометить форму как чистая, а возвращаемое значение S_OK.  <br/> |
 |Форма находится в состоянии [NoScribble](noscribble-state.md) .  <br/> |Освобождение сообщения, текущий и замените сообщение, которое указывает _pMessage_. Вызов метода **IUnknown::AddRef** замены сообщения. Вызовите метод **IMAPIViewAdviseSink::OnSaved** всем зарегистрированным пользователям, пометить форму как чистая, а возвращаемое значение S_OK.  <br/> |
 |Форма находится в одном из состояний HandsOff и параметр _pMessage_ имеет значение NULL.  <br/> |Возвращает E_INVALIDARG.  <br/> |
 |Форма находится в состоянии от одного из состояний HandsOff или NoScribble.  <br/> |Возвращает значение E_UNEXPECTED.  <br/> |
    
-Дополнительные сведения о сохранении объектов хранилища [IPersistStorage::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) или [IPersistFile::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) методов см. 
+Дополнительные сведения о сохранении объектов хранилища [IPersistStorage::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) или [IPersistFile::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) методов см. 
   
 ## <a name="see-also"></a>См. также
 

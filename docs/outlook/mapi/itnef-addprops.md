@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a7bb7265d29d2acfce17a1a09c95f7f7b539064
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589520"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396318"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Позволяет вызова поставщика услуг или шлюза добавить свойства к инкапсуляция вложения или сообщения. 
   
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Кодирует только свойства из сообщения или вложения, указанного с помощью параметра _ulElemID_ . Если установлен этот флаг, значение в _lpvData_ должно быть указатель [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
+> Кодирует только свойства из сообщения или вложения, указанного с помощью параметра _ulElemID_ . Если установлен этот флаг, значение в _lpvData_ должно быть указатель [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   
@@ -78,9 +78,9 @@ TNEF_PROP_MESSAGE_ONLY
   
 > [in] Указатель на список свойств, включаемых в или исключить из инкапсуляция.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -92,11 +92,11 @@ TNEF_PROP_MESSAGE_ONLY
   
 Обратите внимание на то, что не фактическая кодировка TNEF происходит для **AddProps** до вызова метода [ITnef::Finish](itnef-finish.md) . Данная функциональная возможность означает, что был передан в **AddProps** указатели должны оставаться действительно до, после **завершения** вызова. На этом этапе всех объектов и данных, переданными **AddProps** вызовы можно выпущен или освобождении. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |File.cpp  <br/> |SaveToTNEF  <br/> |Mfcmapi (en) метод **ITnef::AddProps** используется для копирования свойств из сообщения в формате TNEF поток.  <br/> |
    

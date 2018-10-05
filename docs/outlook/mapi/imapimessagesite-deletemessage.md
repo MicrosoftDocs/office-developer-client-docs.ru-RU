@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 09955996-b904-4c0d-8ba5-954a8875c055
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6ed73cd683f1668900a76f7b8c48494952e9fc14
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7b2761e20444c51d08380aee01c41eee797733eb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573350"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396493"
 ---
 # <a name="imapimessagesitedeletemessage"></a>IMAPIMessageSite::DeleteMessage
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Удаление текущего сообщения.
   
@@ -42,11 +42,11 @@ HRESULT DeleteMessage(
     
  _prcPosRect_
   
-> [in] Указатель на структуру [Прямоугольник](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) , содержащий положение и размер окна текущей формы. Далее форме, отображаемой также использует этот прямоугольник окна. 
+> [in] Указатель на структуру [Прямоугольник](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) , содержащий положение и размер окна текущей формы. Далее форме, отображаемой также использует этот прямоугольник окна. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -62,7 +62,7 @@ MAPI_E_NO_SUPPORT
 
 После возврата **DeleteMessage**объекты формы необходимо проверить наличие новых сообщений и затем закрыть сами, если не существует. Чтобы определить, было ли сообщение, которое применяются **DeleteMessage** удаления или перемещения в папки " **Удаленные** ", объект формы может вызывать метод [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md) , чтобы определить, был возвращен ли флаг DELETE_IS_MOVE. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Если средство просмотра формы реализация метода **DeleteMessage** перемещается на следующее сообщение после удаляет сообщение, реализация должна вызовите метод [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) и передайте флаг VCDIR_DELETE перед выполнением Фактические удаления. Если реализация средства просмотра формы **DeleteMessage** перемещение удаленных сообщений (например, для папки " **Удаленные** "), реализации необходимо сохранить изменения к сообщению, если сообщение было изменено. 
   
@@ -76,15 +76,15 @@ MAPI_E_NO_SUPPORT
     
 4. Он удаляет или перемещает сообщение.
     
-Для получения структуры **Прямоугольник** , используемых окно формы, вызовите функцию Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) . 
+Для получения структуры **Прямоугольник** , используемых окно формы, вызовите функцию Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
   
 Список интерфейсы, связанные с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::DeleteMessage  <br/> |Не реализован.  <br/> |
    
@@ -103,7 +103,7 @@ MAPI_E_NO_SUPPORT
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
 [Интерфейсы форм MAPI](mapi-form-interfaces.md)
 

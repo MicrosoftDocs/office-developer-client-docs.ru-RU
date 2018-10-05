@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e8ccef1-db0a-4230-9bd0-87540b53e890
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d2a1c49b29ba08775768fc74861ba36b3c6356fb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 15bf61e71a2c230f7891c738661f839ecddb52e1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589380"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393816"
 ---
 # <a name="pidtagresponsibility-canonical-property"></a>Каноническое свойство PidTagResponsibility
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если некоторые поставщика транспорта уже принял ответственность за доставки сообщения для получателя и FALSE, если диспетчер очереди MAPI учитывает принятие данного поставщика транспорта ответственности.
   
@@ -46,11 +46,11 @@ ms.locfileid: "22589380"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Обрабатывает порядок и поток для передачи данных между клиентом и сервером.
     

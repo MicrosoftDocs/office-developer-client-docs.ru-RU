@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a73c77c-7e32-4302-bffe-a1ea13574731
 description: 'Последнее изменение: 24 февраля 2013 г.'
-ms.openlocfilehash: 62269b823810964fc0e5749aa6a57d39c503e2b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: acc0986dd80b549b0cb2b941a6937d47a4a959fe
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573581"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393875"
 ---
 # <a name="ipstoverridereqregistertrustedpstoverridehandler"></a>IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Инициирует разблокировка процедура файл личных папок (PST).
   
@@ -45,9 +45,9 @@ HRESULT RegisterTrustedPSTOverrideHandler (
   
 > [in] Указатель на данные клиента, которые будут передаваться поставщиком PST-файлов в последующие вызовы функции HrTrustedPSTOverrideHandlerCallback библиотеки DLL. Эти данные клиента могут быть использованы с библиотеки DLL для помощи при проверке, следует ли разблокированными PST-файлов.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK
+S_OK
   
 > Вызов функции прошла успешно.
     
@@ -61,7 +61,7 @@ extern "C" HRESULT __cdecl HrTrustedPSTOverrideHandlerCallback(IMsgStore *pmstor
 
 Эта функция будет вызываться с указатель на объект IMsgStore для PST-файлов, указатель на объект IUnknown, который реализует интерфейс IPSTOVERRIDE1 и указатель на данные, изначально обеспечиваться pvClientData.
   
-Дополнительные сведения см в [реализации обработчика переопределение PST-файлов для обхода политики PSTDisableGrow в Outlook 2007](http://support.microsoft.com/kb/956070).
+Дополнительные сведения см в [реализации обработчика переопределение PST-файлов для обхода политики PSTDisableGrow в Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>См. также
 

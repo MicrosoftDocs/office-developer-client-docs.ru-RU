@@ -8,16 +8,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
 description: COM-объекты, доступ к которым предоставляется через сборки взаимодействия Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll и Microsoft.Office.Interop.InfoPath.Xml.dll, установленные приложением Microsoft InfoPath, не поддерживают вызовы в нескольких потоках. В число таковых входят интерфейсы MSXML, реализуемые пространством имен Microsoft.Office.Interop.InfoPath.SemiTrust (в именах большинства которых используется префикс IXMLDOM), а также все интерфейсы, предоставляемые пространством имен Microsoft.Office.Interop.InfoPath.Xml, которые не обеспечивают точную синхронизацию потоков.
-ms.openlocfilehash: 314ef57e11295c0b2dbc9866c5faa392aab055ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1be2bd0181c47097440af54f1aa804a4f17b30bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807589"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395562"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Поддержка потоков в проектах InfoPath, использующих объектную модель InfoPath 2003
 
-COM-объекты, доступ к которым предоставляется через сборки взаимодействия Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll и Microsoft.Office.Interop.InfoPath.Xml.dll, установленные приложением Microsoft InfoPath, не поддерживают вызовы в нескольких потоках. Это включает в себя интерфейсы для Microsoft XML Core Services (MSXML) объекты, реализуемые пространством имен **Microsoft.Office.Interop.InfoPath.SemiTrust** (большинство из которых имеют имена, которые начинаются с IXMLDOM) и все интерфейсы, предоставляемые элементом пространство имен [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) не являющихся потокобезопасными. 
+COM-объекты, доступ к которым предоставляется через сборки взаимодействия Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll и Microsoft.Office.Interop.InfoPath.Xml.dll, установленные приложением Microsoft InfoPath, не поддерживают вызовы в нескольких потоках. Это включает в себя интерфейсы для Microsoft XML Core Services (MSXML) объекты, реализуемые пространством имен **Microsoft.Office.Interop.InfoPath.SemiTrust** (большинство из которых имеют имена, которые начинаются с IXMLDOM) и все интерфейсы, предоставляемые элементом пространство имен [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) не являющихся потокобезопасными. 
   
 Все вызовы этих COM-объектов необходимо выполнять в одном потоке. Управляемый код в проекте InfoPath может создавать другие потоки для фоновой работы, но вызовы объектной модели может осуществлять только главный поток.
   
@@ -82,7 +82,7 @@ namespace AsyncUpdate
     }
     // The namespace prefixes defined in this attribute must remain 
     // synchronized with those in the form definition file (.xsf).
-    [InfoPathNamespace("xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
+    [InfoPathNamespace("xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
     public class AsyncUpdate
     {
         private XDocument thisXDocument;

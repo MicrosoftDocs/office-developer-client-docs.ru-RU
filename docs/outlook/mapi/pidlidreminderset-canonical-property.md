@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c056b0e587de06f6c32ceb3cebbb96f2fb737208
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 59379b0b1345684a491f2f7f896f2b8fc8fd54c2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579083"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392391"
 ---
 # <a name="pidlidreminderset-canonical-property"></a>Каноническое свойство PidLidReminderSet
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, установлен ли напоминания на объекте.
   
@@ -39,17 +39,17 @@ ms.locfileid: "22579083"
 
 Если объект повторяющихся календаря этому свойству присвоено значение TRUE, клиента можно переопределить это значение для исключения.
   
-Если это свойство имеет значение FALSE для повторяющихся объекта календаря напоминания отключены для всего ряда, включая исключения. Объектам-повторяющихся задач это свойство не может переопределить с исключения (для получения дополнительных сведений см [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) и [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) ). 
+Если это свойство имеет значение FALSE для повторяющихся объекта календаря напоминания отключены для всего ряда, включая исключения. Объектам-повторяющихся задач это свойство не может переопределить с исключения (для получения дополнительных сведений см [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) и [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) ). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Задает свойства и модель взаимодействия для электронной почты и других объектов напоминания.
     

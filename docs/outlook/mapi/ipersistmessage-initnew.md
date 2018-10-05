@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: efeac5a54c576d8b76d94ea7af8949e64dbccab6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9f70b178e7c30e1cdf94b485c77f80374113211c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588512"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394883"
 ---
 # <a name="ipersistmessageinitnew"></a>IPersistMessage::InitNew
 
@@ -44,9 +44,9 @@ HRESULT InitNew(
   
 > [in] Указатель на новое сообщение.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Новое сообщение успешно инициализирована.
     
@@ -56,13 +56,13 @@ HRESULT InitNew(
   
  **InitNew** не должен вызываться, когда формы — в любом состоянии, кроме состояния [не инициализировано](uninitialized-state.md) . Если форма находится в одном из других состояний при вызове **InitNew** , возвратите значение E_UNEXPECTED. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Как правило сообщения, которые имеются несохраненные свойства помечаются как измененные, чтобы клиент может отображать диалоговое окно, в котором пользователь должен быть сохранен этих свойств. Если пользователь указывает, сохранить сообщение, сохранить данные, пометить сообщение как чистая и выйдите из обычно.
   
 Тем не менее если обработки вновь инициализированный сообщений включает в себя определения значения для одного или нескольких вычисляемых свойств и очень важно для этих свойств для сохранения, помечает сообщения как изменены. Так как вычисляемые свойства должны быть невидимы для пользователей, диалоговое окно не должно отображаться.
   
-Если форма имеет ссылку на сайт active сообщение помимо того, передаваемый в **InitNew**, release исходного сайта, так как он больше не будет использоваться. Хранение указатели на сайт сообщений и сообщений из параметров _pMessageSite_ и _pMessage_ и вызвать методы [IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) оба объекта для увеличения их счетчики ссылок. 
+Если форма имеет ссылку на сайт active сообщение помимо того, передаваемый в **InitNew**, release исходного сайта, так как он больше не будет использоваться. Хранение указатели на сайт сообщений и сообщений из параметров _pMessageSite_ и _pMessage_ и вызвать методы [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) оба объекта для увеличения их счетчики ссылок. 
   
 Настройка параметров **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) и **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) для нового сообщения на что-то соответствующий класс сообщения. Множество классов сообщений, например, значение **PR_MESSAGE_FLAGS** MSGFLAG_UNSENT для новых сообщений. 
   
@@ -86,7 +86,7 @@ HRESULT InitNew(
   
  **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
-Дополнительные сведения о состояниях форм можно [Состояния формы](form-states.md). Дополнительные сведения о способ инициализации объектов хранилища [IPersistStorage::InitNew](http://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) см. 
+Дополнительные сведения о состояниях форм можно [Состояния формы](form-states.md). Дополнительные сведения о способ инициализации объектов хранилища [IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) см. 
   
 ## <a name="see-also"></a>См. также
 

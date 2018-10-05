@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Разработчик приложения можно настроить Project Online сайта (SharePoint hosted) с помощью автономных приложений и/или надстройки Project. Богатый набор приложений — это возможно, в диапазоне от-адресации потребностей пользователей, участвующих в проекте функции поддержки отдела управления Проектами, таких как одно из следующих:'
-ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00f79b05b886bfd2c54c118245e22f10bb5451bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594533"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392587"
 ---
 # <a name="from-0-to-60-with-project-online"></a>Быстрое начало разработки для Project Online
 
@@ -83,7 +83,7 @@ Project Online включает поддержку API для учета в сл
     
    Project Online проверяет приложения области надстройки и разрешения пользователя для управления доступа к данным на узле Project Online. Если явно отказано в доступе в один или оба параметров Project Online не дает доступ к данным. В противном случае доступа.
     
-3. Включите [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на вашем сайте.  
+3. Включите [sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на вашем сайте.  
     
 4. Выполните построение проекта.
     
@@ -115,7 +115,7 @@ Project Online включает поддержку API для учета в сл
     
    Project Online проверяет приложения области надстройки и разрешения пользователя для управления доступа к данным на узле Project Online. Если явно отказано в доступе в один или оба параметров Project Online не дает доступ к данным. В противном случае доступа.
     
-3. Включите [sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на вашем сайте. 
+3. Включите [sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на вашем сайте. 
     
 4. Выполните построение проекта.
     

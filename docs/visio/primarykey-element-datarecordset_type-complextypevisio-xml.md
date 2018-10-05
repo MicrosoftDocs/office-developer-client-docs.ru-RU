@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: Определяет один или несколько столбцы первичных ключей в записей данных.
-ms.openlocfilehash: f720636bbdf2c55baca6d98aa7d0761607e53ffc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c001c343c33e65c3990744b885f1c345575b1ab3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814496"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396360"
 ---
 # <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>Элемент PrimaryKey (DataRecordSet_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814496"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |recordsets.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814496"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19814496"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |ColumnNameID  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает имя поля, который является частью первичного ключа. Оно должно быть значение атрибута **ColumnNameID** элемента DataColumn_Type потомкам из DataRecordSet_Type, указано, первичный ключ.  <br/> |Значения типа xsd:string.  <br/> |
    

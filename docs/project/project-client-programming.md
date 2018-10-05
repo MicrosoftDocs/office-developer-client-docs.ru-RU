@@ -13,12 +13,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0ad49ff6-8dff-4379-a52c-d292c53c2bc0
 description: Приложения рабочего стола клиента Project 2013 — Project Стандартный 2013 и Project Professional 2013 — могут быть настроены и расширенных с помощью VBA для записи макросов. Настройка пользовательского интерфейса ленты и создание сложных надстройками новое расширение модели для областей задач в проекте, основанные на общей платформе Office 2013 включает надстроек Office можно использовать Visual Studio 2012. Project Стандартный 2013 и Project Professional 2013 можно выполнять общие надстроек Office и использовать задач области надстройки, разработанными специально для проекта для интеграции с SharePoint, других веб-сайтов и веб-приложений и внешних данных.
-ms.openlocfilehash: 9e89c5a1f6486ce49ad8b95bcd7a92497b7a2436
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cc345f0ff91dfb573dd86c256e89df478edd4924
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594742"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394827"
 ---
 # <a name="project-client-programming"></a>Программирование клиента Project
 
@@ -31,11 +31,11 @@ ms.locfileid: "22594742"
   
 Объектной модели **MSProject** для VBA в Project 2013 практически не совпадает с **Microsoft.Office.Interop.MSProject** объектной модели для решения с управляемым кодом со средствами для разработчиков Office для Visual Studio 2013 (также известной как VSTO). Visual Studio 2012 включает в себя шаблоны для разработки уровня приложения надстройки для Project 2010 и Project 2013 (версии Project Standard или Project Professional). VSTO и инструменты разработчика Office для Visual Studio 2012 упростить разработку, тестирование и развертывание расширенной интеграции решений, которые можно использовать клиент рабочего стола Project и других приложений Office 2013 и интегрировать с сайтами SharePoint, списки, и рабочие процессы. 
   
-Надстройки для области задач и другие надстройки для Office и SharePoint может продаваться в магазине Office (просмотреть [http://office.microsoft.com/store/](http://office.microsoft.com/en-us/store/)) для использования с Project Online и локальной установки. Надстройки VSTO и макросов VBA не распространяется в магазине Office; они предназначены для локального использования с Project Стандартный и Project Professional. Можно распределить макросов VBA в рамках проекта. MPP-файла, установить их в нескольких проектах файл на своем компьютере или распространять их в глобальный корпоративный шаблон в Project Server 2013. Надстройки VSTO могут распространяться на более безопасной развертывания [ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx) , которая позволяет легко обновлений. 
+Надстройки для области задач и другие надстройки для Office и SharePoint может продаваться в магазине Office (просмотреть [https://office.microsoft.com/store/](https://office.microsoft.com/en-us/store/)) для использования с Project Online и локальной установки. Надстройки VSTO и макросов VBA не распространяется в магазине Office; они предназначены для локального использования с Project Стандартный и Project Professional. Можно распределить макросов VBA в рамках проекта. MPP-файла, установить их в нескольких проектах файл на своем компьютере или распространять их в глобальный корпоративный шаблон в Project Server 2013. Надстройки VSTO могут распространяться на более безопасной развертывания [ClickOnce](https://msdn.microsoft.com/library/t71a733d.aspx) , которая позволяет легко обновлений. 
   
 ## <a name="reference"></a>Справочные материалы
 
-[Справочник разработчика по Project VBA](http://msdn.microsoft.com/en-us/library/ee861523%28office.15%29.aspx) Содержит вводную и статьи по справке VBA. 
+[Справочник разработчика по Project VBA](https://msdn.microsoft.com/library/ee861523%28office.15%29.aspx) Содержит вводную и статьи по справке VBA. 
   
 ## <a name="related-sections"></a>Связанные разделы
 
@@ -43,9 +43,9 @@ ms.locfileid: "22594742"
   
 ## <a name="see-also"></a>См. также
 
-- [Project для разработчиков (en)](http://msdn.microsoft.com/en-us/office/aa905469)
+- [Project для разработчиков (en)](https://msdn.microsoft.com/office/aa905469)
 - [Центр для разработчиков Office](https://dev.office.com)
-- [Центр разработчиков Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
-- [Развертывание и безопасность технологии ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
+- [Центр разработчиков Visual Studio](https://msdn.microsoft.com/vstudio/aa718325.aspx)
+- [Развертывание и безопасность технологии ClickOnce](https://msdn.microsoft.com/library/t71a733d.aspx)
 - [Справочник по доступным полям](https://support.office.com/en-us/article/available-fields-reference-615a4563-1cc3-40f4-b66f-1b17e793a460)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ada5694a-b5b1-471f-be33-906fc052681a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1936cb8e95e3faef8c92d6bf28f5b63b3ff72df5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 143e7f0d2cd89cd4e7956cdda05d1bd512db4027
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572706"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392335"
 ---
 # <a name="pidtagstoresupportmask-canonical-property"></a>Каноническое свойство PidTagStoreSupportMask
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов запроса клиентских приложений для определения характеристик хранилища сообщений. 
   
@@ -138,11 +138,11 @@ STORE_UNICODE_OK
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXMSG]](http://msdn.microsoft.com/library/b046868c-9fbf-41ae-9ffb-8de2bd4eec82%28Office.15%29.aspx)
+[[MS-OXMSG]](https://msdn.microsoft.com/library/b046868c-9fbf-41ae-9ffb-8de2bd4eec82%28Office.15%29.aspx)
   
 > Описывает формат сообщений, используемые для отправки сведения, относящиеся к общим папкам на стороне клиента.
     

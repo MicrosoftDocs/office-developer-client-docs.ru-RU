@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b79aa2b7-b6e0-46dc-89f1-f801a6b5737a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0872a2c0ebef5e83052fe671e4b463e980bc4e8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: afc3c93e56c8beda9cb04c79164790b2246de983
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563291"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395772"
 ---
 # <a name="pidlidownercriticalchange-canonical-property"></a>Каноническое свойство PidLidOwnerCriticalChange
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает дату и время отправки приглашения на собрание, организатор.
   
@@ -43,11 +43,11 @@ ms.locfileid: "22563291"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

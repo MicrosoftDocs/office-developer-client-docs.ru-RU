@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: Эта справка содержит обзоры понятий и программный справочные материалы, которые помогут в разработке решений для настольных систем клиентских приложений, OneNote 2013.
-ms.openlocfilehash: 6a3dde524dfa5357c4523db3b545ac583eaa3274
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b19e9957d1faed1bda150df34f61209d9f40fc5d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566581"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395710"
 ---
 # <a name="onenote-developer-reference"></a>Справочник разработчика OneNote
 
@@ -30,15 +30,15 @@ ms.locfileid: "22566581"
 - [Коды ошибок](error-codes-onenote.md): перечислены коды ошибок в объектной модели OneNote 2013.
     
 > [!NOTE]
-> Описанные в этой документации API предназначены только для классических приложений OneNote Win32 в сценариях без подключения к сети. В сценариях с подключением к сети используйте рекомендуемые API службы OneNote. Дополнительные сведения см. на сайте [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615). 
+> Описанные в этой документации API предназначены только для классических приложений OneNote Win32 в сценариях без подключения к сети. В сценариях с подключением к сети используйте рекомендуемые API службы OneNote. Дополнительные сведения см. на сайте [dev.onenote.com](https://go.microsoft.com/fwlink/?LinkID=390615). 
   
 ## <a name="see-also"></a>См. также
 
-- [OneNote для разработчиков (en)](http://go.microsoft.com/fwlink/?LinkID=390615)   
+- [OneNote для разработчиков (en)](https://go.microsoft.com/fwlink/?LinkID=390615)   
 - [Примеры кода на репозиториев](https://github.com/OneNoteDev/) (API службы OneNote)     
-- [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](http://www.microsoft.com/enable/products/default.aspx)    
-- [Обозначения в документации](http://msdn.microsoft.com/en-us/office/aa905365.aspx)    
-- [Сведения об авторских правах Справочник разработчика по OneNote](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
+- [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](https://www.microsoft.com/enable/products/default.aspx)    
+- [Обозначения в документации](https://msdn.microsoft.com/office/aa905365.aspx)    
+- [Сведения об авторских правах Справочник разработчика по OneNote](https://msdn.microsoft.com/library/office/jj680116.aspx)
     
     
 

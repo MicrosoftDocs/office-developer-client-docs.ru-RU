@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4178fdf6-af0e-4833-9751-402f86d18206
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3f8d1e21ad3f591c8176728084ec74831eb9f5cf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1a33510818edc80966bcc1f66291dde9320f3834
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587665"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393742"
 ---
 # <a name="pidtagotheraddresscountry-canonical-property"></a>Каноническое свойство PidTagOtherAddressCountry
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит почта пользователя другие страны или региона.
   
@@ -42,15 +42,15 @@ ms.locfileid: "22587665"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для контакты и списки рассылки.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75ed353c-7d3e-e148-4057-715e82a0f32c
 description: Задает сведения о при запуске летнее время и года, в котором это правило часового пояса сначала вступает в силу для часового пояса.
-ms.openlocfilehash: 77d56d238d959992bfadd2d8c143391ca6fa4d5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71ede7c0061a058c2dd85c7b9b36c42583a6bb84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807969"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392699"
 ---
 # <a name="tzrule"></a>TZRULE
 
@@ -36,7 +36,7 @@ _wFlags_
     
    - **TZRULE_FLAG_EFFECTIVE_TZREG** — определяет правило, что следует использовать в настоящее время. Только одно правило может быть помечен как действующие правила. Все другие правила используются только в целях сравнения. 
     
-   - **TZRULE_FLAG_RECUR_CURRENT_TZREG** — повторяющихся собраний определяет правило, как правило, в [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)сопоставления. Это можно использовать для определения, были ли изменены **PidLidTimeZoneStruct** значительно при использовании устаревшего клиента, что было бы в противном случае — новый, более полную свойства. 
+   - **TZRULE_FLAG_RECUR_CURRENT_TZREG** — повторяющихся собраний определяет правило, как правило, в [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)сопоставления. Это можно использовать для определения, были ли изменены **PidLidTimeZoneStruct** значительно при использовании устаревшего клиента, что было бы в противном случае — новый, более полную свойства. 
     
 _stStart_
   

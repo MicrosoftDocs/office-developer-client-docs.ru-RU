@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a431787c-6e9a-9be1-165f-98c778d12e3e
 description: Открытие сеанса MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.
-ms.openlocfilehash: 50809a00d13fd9f2a93bebc2961a134b3625e82c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5886ac1ae1bb8f3b43e09f49e48434d9a73656ce
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807860"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392605"
 ---
 # <a name="iolkaccounthelpergetmapisession"></a>IOlkAccountHelper::GetMapiSession
 
@@ -45,5 +45,5 @@ S_OK if the call succeeded; otherwise, an error code.
 ## <a name="see-also"></a>См. также
 
 - [IOlkAccountHelper::HandsOffSession](iolkaccounthelper-handsoffsession.md)
-- [IMAPISession: IUnknown](http://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
+- [IMAPISession: IUnknown](https://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
 

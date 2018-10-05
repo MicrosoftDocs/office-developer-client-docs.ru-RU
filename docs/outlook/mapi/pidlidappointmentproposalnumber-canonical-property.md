@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f985aeaf-653f-44cb-ac70-6e784bc6c848
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: db9d84697ed9b89e1c19659d35dabdf01922fffc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9807008ae463755f1d8ad039e5057d8a1c140587
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570550"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395387"
 ---
 # <a name="pidlidappointmentproposalnumber-canonical-property"></a>Каноническое свойство PidLidAppointmentProposalNumber
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает количество участников, отправки предложений изменения, которые не принято или отклонено сервером организатора.
   
@@ -39,11 +39,11 @@ ms.locfileid: "22570550"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 700cc03b-5d98-40ce-adb5-a11fdac8aa28
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 79a0307aaf8b91a50485234acc2e1cbdd2314b47
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c7ae8951b02f099161871b17ff59ea23f8fbcc4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574169"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396045"
 ---
 # <a name="pidtagdisplayto-canonical-property"></a>Каноническое свойство PidTagDisplayTo
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит список отображаемые имена основной (по) получателей сообщения, разделенных точкой с запятой (;). 
   
@@ -54,7 +54,7 @@ ms.locfileid: "22574169"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1f528332c52664ac472670566c905d36dac65bfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 889b823a55c39ebc19e52c8cc9a1d078a5732a01
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565531"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395548"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Каноническое свойство PidNameRightsManagementLicense
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Кэширует лицензии на использование для сообщения электронной почты с управлением правами.
   
@@ -43,11 +43,11 @@ ms.locfileid: "22565531"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Задает свойства управляемый правами закодированный сообщений.
     

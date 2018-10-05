@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bc4506c7-7a4f-940d-d0a6-e0fab4561a88
 description: Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.
-ms.openlocfilehash: d7d29a88114d7b3973b8f04e924dc1dd8489a097
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5be6fd9ce33374725b36429cd0fbc717776c9ab9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807879"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392020"
 ---
 # <a name="iolkapptrebaserendenumerateappointments"></a>IOlkApptRebaser::EndEnumerateAppointments
 
@@ -46,7 +46,7 @@ _ppError_
     
 _ppRows_
   
-> [out] Required. A pointer to a pointer to an [SRowSet](http://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure will usually be passed to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
+> [out] Required. A pointer to a pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure will usually be passed to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
     
 ## <a name="return-values"></a>Возвращаемые значения
 

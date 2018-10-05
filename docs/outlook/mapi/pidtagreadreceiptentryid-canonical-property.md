@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 141d49c8-87cf-4d80-a33b-ccbf3eeae19e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 658f3694e7592fab54b2ddf303da2e15e4510354
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 662c191f36f9ca30dcdf0f559ea5385bfe5fd305
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567106"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396437"
 ---
 # <a name="pidtagreadreceiptentryid-canonical-property"></a>Каноническое свойство PidTagReadReceiptEntryId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи для обмена сообщениями пользователя, где системы обмена сообщениями необходимо прямое подключение чтения отчет для данного сообщения.
   
@@ -44,11 +44,11 @@ ms.locfileid: "22567106"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     

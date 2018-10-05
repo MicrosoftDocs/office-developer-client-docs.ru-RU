@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ed50422e-9edf-4b73-1789-340b70532621
 description: Begins a task for appointment rebasing given a list of appointments, usually obtained from IOlkApptRebaser::EndEnumerateAppointments.
-ms.openlocfilehash: 2becb305eebe448e2adecf91c2a111f86d97fe50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0f2377f30de7688aaa4196e3a046c664c2128aa
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807881"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396094"
 ---
 # <a name="iolkapptrebaserbeginrebaseappointments"></a>IOlkApptRebaser::BeginRebaseAppointments
 
@@ -34,7 +34,7 @@ HRESULT BeginRebaseAppointments(
 
 _pRows_
   
-> [in] Required. A pointer to an [SRowSet](http://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure is usually obtained from a prior call to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
+> [in] Required. A pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure is usually obtained from a prior call to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
     
 _pfnProgress_
   

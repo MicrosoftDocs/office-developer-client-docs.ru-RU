@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 506b3d81-9c93-aeff-f5b2-3354ffd3e075
 description: Создание безопасных приложений — одна из основных задач, сталкиваются разработчики решений. Пользователей, администраторов и разработчиков известно все больше возможностей непреднамеренно выполнение кода, который может отрицательно влиять на своих компьютерах. Это важнее, чем когда-либо, что позволяет обеспечить целостность приложений.
-ms.openlocfilehash: e114fef650f31a6e0adf368d339f71e3a32113f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72b4a45faa46778b7a369cfe458ee4e0e9ea71bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813107"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396556"
 ---
 # <a name="about-security-settings-and-running-code-in-visio-shapesheet"></a>О настройках безопасности и выполнение кода в Visio (фигуры)
 
@@ -34,16 +34,16 @@ ms.locfileid: "19813107"
     
 В предыдущих версиях программы параметры были внесены в диалоговом окне " **Безопасность** " и на вкладке **Безопасность** диалогового окна **Параметры** (меню "**Сервис** "). По состоянию на Office Visio 2007, устранены следующие диалоговые окна и по состоянию на Microsoft Visio 2010, в меню и панели инструментов Visio были заменены ленты. 
   
-Дополнительные сведения о параметрах в **Центр управления безопасностью**Office можно [Заметки о безопасности для разработчиков решений Microsoft Office](http://msdn2.microsoft.com/en-us/library/aa433259.aspx).
+Дополнительные сведения о параметрах в **Центр управления безопасностью**Office можно [Заметки о безопасности для разработчиков решений Microsoft Office](https://msdn.microsoft.com/en-us/library/aa433259.aspx).
   
- Для получения сведений о цифровой подписи кода и надежных источников и издателей поиск «подписывание кода» на сайте MSDN, сети для разработчиков веб-узел. 
+ Для получения сведений о цифровой подписи кода и надежных источников и издателей поиск «подписывание кода» на сайте MSDN, веб-сайт Microsoft Developer Network. 
   
 Дополнительные сведения о аспекты проектирования хороший безопасности и технологии поиска «безопасность» на сайте MSDN. 
   
 ## <a name="additional-visio-resources"></a>Дополнительные ресурсы для Visio
 
-- Дополнительные сведения о надстройках Visio и COM-надстроек в статье MSDN, [Обзор надстроек и надстройки COM в Visio 2007](http://msdn.microsoft.com/en-us/library/bb851468.aspx).
+- Дополнительные сведения о надстройках Visio и COM-надстроек в статье MSDN, [Обзор надстроек и надстройки COM в Visio 2007](https://msdn.microsoft.com/library/bb851468.aspx).
     
-- Дополнительные сведения о функции RUNADDON и свойство **AddonName** в статье MSDN [изменения в функцию RUNADDON и свойство AddOnName для Visio 2002](http://msdn.microsoft.com/en-us/library/aa140368%28office.10%29.aspx).
+- Дополнительные сведения о функции RUNADDON и свойство **AddonName** в статье MSDN [изменения в функцию RUNADDON и свойство AddOnName для Visio 2002](https://msdn.microsoft.com/library/aa140368%28office.10%29.aspx).
     
 

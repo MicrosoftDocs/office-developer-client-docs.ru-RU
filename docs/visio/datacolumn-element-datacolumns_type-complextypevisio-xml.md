@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: Определяет, как столбец данных отображается в окне внешних данных в пользовательском интерфейсе Visio и определяет данные в столбце путем определения его типа данных и форматирования.
-ms.openlocfilehash: f74061b9f3b8f4b93d8aa0e97e4e7c1e45131cbd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 453ff44131575bd3d6927fdddb81db5f3f431a3b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813557"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395849"
 ---
 # <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>Элемент DataColumn (DataColumns_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813557"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |recordsets.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813557"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,12 +50,12 @@ ms.locfileid: "19813557"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Календарь  <br/> |XSD:unsignedShort  <br/> |необязательный  <br/> |Идентификатор календаря столбец данных.  <br/> |Значения типа xsd:unsignedShort.  <br/> |
+|Календарь  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> |Идентификатор календаря столбец данных.  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
 |ColumnNameID  <br/> |XSD:String  <br/> |Обязательный  <br/> |Внешнее имя столбца данных. Отображается в заголовке окна **Внешних данных** и в метки в связанных с данными.  <br/> |Значения типа xsd:string.  <br/> |
-|Денежный  <br/> |XSD:unsignedShort  <br/> |необязательный  <br/> |Идентификатор валюты столбец данных.  <br/> |Значения типа xsd:unsignedShort.  <br/> |
-|DataType  <br/> |XSD:unsignedShort  <br/> |необязательный  <br/> |Тип данных в столбце.  <br/> |Значения типа xsd:unsignedShort.  <br/> |
+|Денежный  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> |Идентификатор валюты столбец данных.  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
+|DataType  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> |Тип данных в столбце.  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
 |Степень  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Задает степень единиц измерения, например квадрат или кубе (power). Значение по умолчанию (атрибут отсутствует) — 1.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |DisplayOrder  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Определяет положение столбец данных в окно **Внешних данных** из самый левый столбец (0) до правого столбца (наибольшее значение).  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |DisplayWidth  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Ширина столбца данных в окно **Внешних данных** .  <br/> |Значения типа xsd:unsignedInt.  <br/> |
