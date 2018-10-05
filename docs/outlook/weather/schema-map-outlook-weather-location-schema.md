@@ -8,27 +8,27 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
 description: В этом разделе показано определение схемы для схемы XML местоположения погоды Outlook.
-ms.openlocfilehash: e3938385402d79d0ca2efbbd383a0726d1cf801f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa14fd05a26bd89820c18e8d6523d80e60616f0f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812915"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386861"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="db10e-103">Карта схемы (схема местоположения погоды Outlook)</span><span class="sxs-lookup"><span data-stu-id="db10e-103">Schema map (Outlook Weather Location Schema)</span></span>
+# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="b31a8-103">Карта схемы (схема местоположения погоды Outlook)</span><span class="sxs-lookup"><span data-stu-id="b31a8-103">Schema map (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="db10e-104">В этом разделе показано определение схемы для схемы XML местоположения погоды Outlook.</span><span class="sxs-lookup"><span data-stu-id="db10e-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
+<span data-ttu-id="b31a8-104">В этом разделе показано определение схемы для схемы XML местоположения погоды Outlook.</span><span class="sxs-lookup"><span data-stu-id="b31a8-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
-xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace= "http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
-xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns:xs="https://www.w3.org/2001/XMLSchema"
+targetNamespace= "https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
+xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd"
 >
   <!-- get weather location  -->
-  <!-- example query: http://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->
+  <!-- example query: https://weather.service.msn.com/data.aspx?outputview=search&amp;weasearchstr=tsurumi -->
   
   <xs:element name="weatherdata">
     <xs:annotation>
