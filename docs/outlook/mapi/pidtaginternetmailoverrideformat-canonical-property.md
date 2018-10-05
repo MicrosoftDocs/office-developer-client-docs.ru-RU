@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 73fa720b4285524d12a9dac468785f6ce211a2b1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4845c413232938319d2c6013d334137ebd2a8716
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574666"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384936"
 ---
 # <a name="pidtaginternetmailoverrideformat-canonical-property"></a>Каноническое свойство PidTagInternetMailOverrideFormat
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает метод шифрования и включения HTML-код для вложений, которые необходимо настроить в исходящей почты.
   
@@ -36,21 +36,21 @@ ms.locfileid: "22574666"
    
 ## <a name="remarks"></a>Замечания
 
-Сведения о вложенных частей, на которые разделен это свойство можно [[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx). 
+Сведения о вложенных частей, на которые разделен это свойство можно [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
     

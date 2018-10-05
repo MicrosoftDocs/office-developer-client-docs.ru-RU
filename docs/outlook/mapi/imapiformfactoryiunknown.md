@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b2aa08ea14df87f24cda3da0137ae4bfa2c50b40
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c60b542852653bd617b5b9f604bbc44d575e5cb3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576017"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384768"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поддерживает использование настраиваемых форм во время выполнения в распределенных средах сетей. 
   
@@ -31,8 +31,8 @@ ms.locfileid: "22576017"
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiform.h  <br/> |
 |Предоставляемые:  <br/> |Объекты фабрики формы  <br/> |
-|Реализованный:  <br/> |Серверы формы  <br/> |
-|Вызывается:  <br/> |Средства просмотра формы  <br/> |
+|Реализовано в:  <br/> |Серверы формы  <br/> |
+|Вызывающая сторона:  <br/> |Средства просмотра формы  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIFormFactory  <br/> |
 |Тип указателя:  <br/> |LPMAPIFORMFACTORY  <br/> |
    
@@ -46,7 +46,7 @@ ms.locfileid: "22576017"
    
 ## <a name="remarks"></a>Замечания
 
-Интерфейс **IMAPIFormFactory** основано на интерфейс [IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) и объекты, которые реализуют **IMAPIFormFactory** также должен наследовать от **IClassFactory**.
+Интерфейс **IMAPIFormFactory** основано на интерфейс [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) и объекты, которые реализуют **IMAPIFormFactory** также должен наследовать от **IClassFactory**.
   
  **IMAPIFormFactory** — это интерфейс, который средства просмотра формы используется для создания новых объектов формы, если сервер формы поддерживает несколько классов сообщений (то есть несколько учетных записей введите объекта формы). 
   

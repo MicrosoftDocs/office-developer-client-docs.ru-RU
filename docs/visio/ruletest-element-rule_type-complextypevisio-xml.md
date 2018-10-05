@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
 description: Задает логическое выражение, которое определяет, удовлетворяет ли целевой объект правила проверки.
-ms.openlocfilehash: 25569530af5bc6f4b00e8600d1e25d968a01f246
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8fd37040bec383ab61edfa62a09bb766ed8cd3c5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814711"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384852"
 ---
 # <a name="ruletest-element-ruletype-complextype-visio-xml"></a>Элемент RuleTest (Rule_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814711"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Validation.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814711"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19814711"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |Формула  <br/> |XSD:String  <br/> |необязательный  <br/> |Представляет элемент формулы.  <br/> |Значения xsd:string.  <br/> |
    

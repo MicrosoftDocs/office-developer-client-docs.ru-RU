@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: Получение текущего экземпляра ProjectContext; извлечение и выполнять итерацию по коллекции опубликованных проектов на сервере; Создание, получение, извлечение и удаления проекта с помощью объектной модели Project Server JavaScript; и изменить свойства проекта.
-ms.openlocfilehash: 966c1298d210cb608001e4ce2b390611a75bdb24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812922"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382913"
 ---
 # <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Создание, получение, обновление и удаление проектов с помощью Project Server JavaScript
 
@@ -53,7 +53,7 @@ ms.locfileid: "19812922"
     
 6. В диалоговом окне **Мастер настройки SharePoint** выберите **Развернуть как решение фермы** и затем нажмите кнопку **Готово**. 
     
-7. Изменить значение свойства **URL-адрес сайта** проекта **ProjectsJSOM** в соответствии с URL-адрес экземпляра Project Web App (например, `http://ServerName/PWA`).
+7. Изменить значение свойства **URL-адрес сайта** проекта **ProjectsJSOM** в соответствии с URL-адрес экземпляра Project Web App (например, `https://ServerName/PWA`).
     
 ### <a name="to-create-the-application-page-in-visual-studio"></a>Создание страницы приложения в Visual Studio
 

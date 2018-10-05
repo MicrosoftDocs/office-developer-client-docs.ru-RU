@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: Приложение InfoPath упрощает создание многофункциональных приложений на основе форм платформы Microsoft SharePoint Server. Microsoft InfoPath 2013 в сочетании с Microsoft SharePoint Server 2013 и InfoPath Forms Services предоставляет разработчикам множество возможностей. Приложение InfoPath Forms Services, доступное в SharePoint Server 2013, позволяет развернуть шаблон формы InfoPath в SharePoint Server, чтобы пользователи без расширенного клиента InfoPath могли открывать и заполнять формы InfoPath в браузере.
-ms.openlocfilehash: a11c6b4018e60a470197ecd7ffdf3b79a13658b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d469dfb99290054008271867f24d947a42efeee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807600"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385153"
 ---
 # <a name="whats-new-for-infopath-developers"></a>Новые возможности для разработчиков InfoPath
 
@@ -45,7 +45,7 @@ ms.locfileid: "19807600"
     
 ## <a name="new-way-to-write-and-edit-code"></a>Новые способы написания и редактирования кода
 
-Интегрированная среда разработки набора средств Microsoft Visual Studio Tools для работы с приложениями, который интегрирован в InfoPath 2010, был удален в InfoPath 2013. Для написания и редактирования кода форм в InfoPath 2013 теперь требуется среда Visual Studio 2012 с установленной надстройкой [набора средств Microsoft Visual Studio 2012 для работы с приложениями](http://www.microsoft.com/en-us/download/details.aspx?id=38807). Сам процесс программирования существенно не изменился, но теперь вы можете использовать все возможности среды разработки Visual Studio при написании управляемого кода для форм InfoPath. 
+Интегрированная среда разработки набора средств Microsoft Visual Studio Tools для работы с приложениями, который интегрирован в InfoPath 2010, был удален в InfoPath 2013. Для написания и редактирования кода форм в InfoPath 2013 теперь требуется среда Visual Studio 2012 с установленной надстройкой [набора средств Microsoft Visual Studio 2012 для работы с приложениями](https://www.microsoft.com/en-us/download/details.aspx?id=38807). Сам процесс программирования существенно не изменился, но теперь вы можете использовать все возможности среды разработки Visual Studio при написании управляемого кода для форм InfoPath. 
   
 В следующих разделах описаны возможности, которые сначала были добавлены в InfoPath 2010 и SharePoint Server 2010, и продолжают служить разработчикам, использующим InfoPath 2013 и SharePoint Server 2013.
   
@@ -63,7 +63,7 @@ InfoPath предназначен для упрощения публикации
   
 ## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>Размещение форм на страницах портала с помощью веб-части формы InfoPath
 
-В SharePoint Server 2013 стало проще чем когда-либо размещать формы на веб-страницы благодаря новой **веб-части формы InfoPath**. В случае Microsoft Office SharePoint Server 2007 пользователям приходилось писать код в Visual Studio, чтобы разместить формы InfoPath на веб-страницах. Теперь можно добавить **веб-часть формы InfoPath** на страницу веб-частей и указать ее для своей опубликованной формы, не написав ни строчки кода. Вы можете использовать **веб-часть формы InfoPath**, чтобы разместить форму InfoPath с поддержкой браузера, которая опубликована в списке SharePoint или библиотеке форм. Можно также подключиться к другим веб-частям на странице для отправки и получения данных. Дополнительные сведения о том, как использовать **веб-часть формы InfoPath**, см. в статье [Работа с веб-частью формы InfoPath](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) в документации по пакету SDK для SharePoint 2010. 
+В SharePoint Server 2013 стало проще чем когда-либо размещать формы на веб-страницы благодаря новой **веб-части формы InfoPath**. В случае Microsoft Office SharePoint Server 2007 пользователям приходилось писать код в Visual Studio, чтобы разместить формы InfoPath на веб-страницах. Теперь можно добавить **веб-часть формы InfoPath** на страницу веб-частей и указать ее для своей опубликованной формы, не написав ни строчки кода. Вы можете использовать **веб-часть формы InfoPath**, чтобы разместить форму InfoPath с поддержкой браузера, которая опубликована в списке SharePoint или библиотеке форм. Можно также подключиться к другим веб-частям на странице для отправки и получения данных. Дополнительные сведения о том, как использовать **веб-часть формы InfoPath**, см. в статье [Работа с веб-частью формы InfoPath](https://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) в документации по пакету SDK для SharePoint 2010. 
   
 ## <a name="richer-web-forms"></a>Более функциональные веб-формы
 

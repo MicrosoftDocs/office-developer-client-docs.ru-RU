@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 45d4b0bfe7f902ee2cfe1d735c990d80f8fbb60d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 22d3e649641dbe688912ecece7fde73a555f4a88
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588946"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383193"
 ---
 # <a name="pidtagattachrendering-canonical-property"></a>Каноническое свойство PidTagAttachRendering
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит метафайлов Microsoft Windows с сведения о визуализации для вложения. 
   
@@ -52,7 +52,7 @@ ms.locfileid: "22588946"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2b29f47191bc1f12653ddcc4e78dd8b3401f0480
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fe5528f7605412d0cfd4b4b914e9b221c715e1b1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587644"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384264"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>Каноническое свойство PidTagRoamingDatatypes
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску, которое указывает, какие свойства существуют на сообщение потока.
   
@@ -47,11 +47,11 @@ ms.locfileid: "22587644"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > Указывает расположение и свойства клиентских и серверных данных конфигурации, такие как списки общие категории и рабочее время.
     

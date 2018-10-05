@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7686f36ca105ab92161757d492a86b4b78461dfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e6446283116c39080271e5c2fb3ec128b25d32e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564082"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385538"
 ---
 # <a name="pidtaguserx509certificate-canonical-property"></a>Каноническое свойство PidTagUserX509Certificate
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит сертификаты безопасности X.509 версии 3 для обмена сообщениями пользователя. 
   
@@ -44,11 +44,11 @@ ms.locfileid: "22564082"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     

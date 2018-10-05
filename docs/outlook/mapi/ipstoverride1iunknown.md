@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: d26cee81-45ea-4fd3-8a54-5f35264b5d6a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e73115811fe0009769826e0f6a011c489772f770
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5208e77f3605b5ba861f68786d8fe5e91b990d32
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569850"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382549"
 ---
 # <a name="ipstoverride1--iunknown"></a>IPSTOVERRIDE1 : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Позволяет поставщику хранилища файлов (PST) личных папок для переопределения политики PSTDisableGrow.
   
 |||
 |:-----|:-----|
 |Наследует от:  <br/> |Интерфейс IUnknown  <br/> |
-|Реализованный:  <br/> |Поставщик хранения PST-файлов  <br/> |
-|Вызывается:  <br/> |Клиент  <br/> |
+|Реализовано в:  <br/> |Поставщик хранения PST-файлов  <br/> |
+|Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IPSTOVERRIDE1  <br/> |
    
 ## <a name="vtable-order"></a>Порядке vtable
@@ -46,7 +46,7 @@ ms.locfileid: "22569850"
 
 Идентификаторы интерфейса обработчик переопределить PST-файлов не могут быть определены в файле загружаемых заголовка, которое имеется в настоящее время, в этом случае будет получить в разделе [Константы MAPI](mapi-constants.md) и можно скопировать и добавьте их в коде. Используйте макрос DEFINE_GUID определенные в guiddef.h файл заголовка Microsoft Windows Software Development Kit (SDK) для сопоставления имен символьной глобальный уникальный идентификатор (GUID) с их значениями. 
   
-Дополнительные сведения см в [реализации обработчика переопределение PST-файлов для обхода политики PSTDisableGrow в Outlook 2007](http://support.microsoft.com/kb/956070).
+Дополнительные сведения см в [реализации обработчика переопределение PST-файлов для обхода политики PSTDisableGrow в Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>См. также
 

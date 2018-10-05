@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bf0d3edc-3280-4500-8fae-bb7f338bb7dd
 description: В этом разделе описывается, как можно загрузить примеры кода, которые прилагаются к этой документации.
-ms.openlocfilehash: d21e65c5a223b93bb8237c7ee85ed0131273887a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19145077d8048ad7117160ffc693fb90827f8fc2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812721"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382493"
 ---
 # <a name="downloading-the-samples"></a>Скачивание примеров
 
@@ -21,7 +21,7 @@ ms.locfileid: "19812721"
   
 ### <a name="to-download-the-sample-code-installation-package"></a>Чтобы загрузить образец кода установки пакета
 
-1. Загрузите файл OSCProviderSamples.zip из [Outlook Social Connector 2013: шаблоны поставщика](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+1. Загрузите файл OSCProviderSamples.zip из [Outlook Social Connector 2013: шаблоны поставщика](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
     
 2. Извлеките ZIP-файл в папку. В Windows 7 путь по умолчанию для Visual Studio 2010 — \Documents\Visual _пользователя_C:\Users\ Studio 2010\Projects.
     

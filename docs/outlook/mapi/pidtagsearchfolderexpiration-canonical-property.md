@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5746090-c850-4e95-b1e7-a07e42c87179
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a2f72f68926665087ee8e3a0c9e8394042a8f955
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a119bb735f752719d292371d4dc43e72450b33c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590773"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385948"
 ---
 # <a name="pidtagsearchfolderexpiration-canonical-property"></a>Каноническое свойство PidTagSearchFolderExpiration
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит время, по которому будет устаревших контейнер папки поиска и должен обновить или создать заново.
   
@@ -42,11 +42,11 @@ ms.locfileid: "22590773"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Задает свойства и операции для управления конфигурации список папок поиска.
     

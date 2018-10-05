@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a51a60c9-479b-7d7b-860f-bb46fc8b4d63
 description: Инкапсулирует свойства, которые связаны с проверки документа.
-ms.openlocfilehash: 4f91160969cfb162f18440019ced23ea62061879
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9eccb85bd7463411d81c867eda3216d6c9a207f2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815124"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385223"
 ---
 # <a name="validationproperties-element-validationtype-complextype-visio-xml"></a>Элемент ValidationProperties (Validation_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19815124"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Validation.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19815124"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19815124"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |LastValidated  <br/> |XSD: DateTime  <br/> |Обязательный  <br/> |Дата и время последнего прошел проверку документа.  <br/> |Значения типа XSD: DateTime.  <br/> |
 |ShowIgnored  <br/> |XSD:Boolean  <br/> |Обязательный  <br/> |Указывает, следует ли показывать проблемы игнорируемыми проверки в окно вопросов.  <br/> |Значения типа xsd:boolean.  <br/> |

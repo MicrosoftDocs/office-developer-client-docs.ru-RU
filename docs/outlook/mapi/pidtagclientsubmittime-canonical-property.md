@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8c7ca5b2b6f5f3131c2fcb70ff0043825a68a91f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 851441e419c17d8f5fef27c785ea4b829a4ae443
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580126"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385839"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Каноническое свойство PidTagClientSubmitTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время отправки сообщения отправителя сообщения. 
   
@@ -42,7 +42,7 @@ ms.locfileid: "22580126"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
 description: Члены предоставлено Microsoft Office InfoPath основной сборки взаимодействия (Microsoft.Office.Interop.InfoPath.dll) и сборке взаимодействия InfoPath XML (Microsoft.Office.Interop.InfoPath.Xml.dll) поддержку написания управляемого кода для автоматизации InfoPath.
-ms.openlocfilehash: 1c76e5cb659c9d3f39eec4a7e517ab57c98c858a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af8bfbb0322b9d70fb85ba21a757a581ba423a44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807384"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383165"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>Сценарии внешней автоматизации и примеры
 
@@ -21,7 +21,7 @@ ms.locfileid: "19807384"
   
 ## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Создание ссылок на сборки основной взаимодействия Microsoft Office InfoPath и InfoPath XML взаимодействия
 
-Для создания управляемого кода для автоматизации InfoPath, необходимо установить ссылки на основной сборке взаимодействия Microsoft InfoPath и сборки взаимодействия InfoPath XML. Основной сборки взаимодействия Microsoft InfoPath поддерживает взаимодействие с помощью объектной модели COM, предоставляемые элементом IPEDITOR. DLL-Библиотеку с помощью членов пространства имен [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . Сборки взаимодействия InfoPath XML поддерживает взаимодействие с помощью объектной модели COM, предоставляемые с Microsoft XML Core Services (MSXML) с помощью членов пространства имен [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) . 
+Для создания управляемого кода для автоматизации InfoPath, необходимо установить ссылки на основной сборке взаимодействия Microsoft InfoPath и сборки взаимодействия InfoPath XML. Основной сборки взаимодействия Microsoft InfoPath поддерживает взаимодействие с помощью объектной модели COM, предоставляемые элементом IPEDITOR. DLL-Библиотеку с помощью членов пространства имен [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . Сборки взаимодействия InfoPath XML поддерживает взаимодействие с помощью объектной модели COM, предоставляемые с Microsoft XML Core Services (MSXML) с помощью членов пространства имен [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) . 
   
 > [!IMPORTANT]
 > Для приложений с управляемым кодом, которые автоматизируют InfoPath пользователям InfoPath, основной сборки взаимодействия Microsoft Office InfoPath и сборке взаимодействия InfoPath XML, установленных на их компьютерах. **Поддержка программирования .NET** в программе установки InfoPath был установлен на **запускать с моего компьютера** для обычной установки InfoPath.
@@ -109,7 +109,7 @@ ms.locfileid: "19807384"
             // namespace of the form. IMPORTANT:Replace the namespace 
             // value below with that of your sample form.
             myXMLDoc.setProperty("SelectionNamespaces",
-    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Select all instances of customerName that contain 
             //'Company A'.
             IXMLDOMNodeList myNames = 
@@ -161,7 +161,7 @@ ms.locfileid: "19807384"
           ' namespace of the form. IMPORTANT:Replace the namespace 
           ' value below with that of your sample form.
           myXMLDoc.setProperty("SelectionNamespaces", _
-    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Select all instances of customerName that contain 
           ''Company A'.
           Dim myNames As IXMLDOMNodeList = _
@@ -247,7 +247,7 @@ ms.locfileid: "19807384"
             // Set the MSXML SelectionNamespaces property to the my
             // namespace of the form. IMPORTANT:Replace the namespace
             // value below with that of your sample form.
-            doc.setProperty("SelectionNamespaces","xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+            doc.setProperty("SelectionNamespaces","xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Pre-populate the fields with specified values.
             doc.selectSingleNode("//my:FirstName").text="My Name";
             doc.selectSingleNode("//my:LastName").text="My LastName";
@@ -280,7 +280,7 @@ ms.locfileid: "19807384"
           ' Set the MSXML SelectionNamespaces property to the my
           ' namespace of the form. IMPORTANT:Replace the namespace
           ' value below with that of your sample form.
-          doc.setProperty("SelectionNamespaces", "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+          doc.setProperty("SelectionNamespaces", "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Pre-populate the fields with specified values.
           doc.selectSingleNode("//my:FirstName").text = "My Name"
           doc.selectSingleNode("//my:LastName").text = "My LastName"

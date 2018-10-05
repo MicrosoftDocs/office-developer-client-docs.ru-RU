@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: Задает шрифт, используемый для текста верхнего и нижнего колонтитулов.
-ms.openlocfilehash: 249040702b1594cc650ccf1304ed7c1c79581ea3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f14d973caddc77394881d1b1dfd62a43f10cd7bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813884"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385972"
 ---
 # <a name="headerfooterfont-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderFooterFont (HeaderFooter_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813884"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813884"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19813884"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |Набор символов  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Задает набор символов шрифта. Эквивалент в поле GDI LOGFONTlfCharSet.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
 |ClipPrecision  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Указывает точность отсечения шрифта. Эквивалент в поле GDI LOGFONTlfClipPrecision.  <br/> |Значения типа xsd:unsignedByte.  <br/> |

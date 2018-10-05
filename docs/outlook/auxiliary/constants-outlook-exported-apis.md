@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: В этом разделе содержатся определения констант для API, которые экспортируются Outlook.
-ms.openlocfilehash: 8b7a9d70b2fc5d26c52a8729797221a44526360c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 65181932b858da1b32c3fbe5fd0bd7e92ca8dc9f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564467"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386077"
 ---
 # <a name="constants-outlook-exported-apis"></a>Constants (Outlook exported APIs)
 
@@ -37,7 +37,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Идентификаторы прочие диспетчера
 
-Outlook предоставляет следующие идентификаторов отправки (DISPID), чтобы [IDispatch::Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) могут использоваться разработчиками для доступа к соответствующее свойство или метод или прослушивание для соответствующих событий. 
+Outlook предоставляет следующие идентификаторов отправки (DISPID), чтобы [IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) могут использоваться разработчиками для доступа к соответствующее свойство или метод или прослушивание для соответствующих событий. 
   
 |**Связанные константа**|**Значение DispId**|**Описание**|**Доступный интерфейс**|
 |:-----|:-----|:-----|:-----|
@@ -51,6 +51,6 @@ Outlook предоставляет следующие идентификатор
 - [Экспортированные API Outlook](outlook-exported-apis.md)
 - [Сведения об интерфейсах API, экспортируемых Outlook](about-apis-exported-by-outlook.md)
 - [Определить, является ли элемент Outlook был изменен, но не сохраняются (Outlook дополнительные справочные материалы по)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
-- [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/library/office/gg262879.aspx)
 - [Доступные события и их идентификаторы DISPID (Outlook экспортировать API-интерфейсы)](available-events-and-their-dispids-outlook-exported-apis.md)
 

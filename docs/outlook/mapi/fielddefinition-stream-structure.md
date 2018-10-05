@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a43d4f12aa28de29116d7d074b743d6c0d61d964
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98584e450bb820dbce05b0f8d2c6d15551586130
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594511"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383277"
 ---
 # <a name="fielddefinition-stream-structure"></a>Структура FieldDefinition потока
 
@@ -40,7 +40,7 @@ ms.locfileid: "22594511"
     |PDO_FT_SWITCH  <br/> |0x00000020  <br/> |Это поле имеет тип **комбинации** и выбрал параметр **Отображение только первое поле пустым, пропуская последующие** в диалоговом окне **Сочетание формулу поля** .  <br/> |
     |PDO_PRINT_SAVEAS_DEF  <br/> |0x00000040  <br/> |Этот флаг не используется с Outlook, но она включена для всех определений пользовательских полей.  <br/> |
    
-- VT: WORD (2 байта), тип данных поля, который — константа из перечисления [VARENUM](http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.varenum.aspx) . 
+- VT: WORD (2 байта), тип данных поля, который — константа из перечисления [VARENUM](https://msdn.microsoft.com/library/system.runtime.interopservices.varenum.aspx) . 
     
 - DispId: Значение DWORD (4 байта), идентификатор поля. Для пользовательских полей значение равно 0.
     

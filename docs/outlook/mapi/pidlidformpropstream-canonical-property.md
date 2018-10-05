@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c4590b2-631e-4a57-a779-eed8268233da
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3833409871b3fd5b454447f16915d2f9f1162399
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7bca52400b5afb14270294d996cfd9b311262383
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587406"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384138"
 ---
 # <a name="pidlidformpropstream-canonical-property"></a>Каноническое свойство PidLidFormPropStream
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Представляет данные в настраиваемых свойств, которые будут сохранены с сообщением.
   
@@ -39,7 +39,7 @@ ms.locfileid: "22587406"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     

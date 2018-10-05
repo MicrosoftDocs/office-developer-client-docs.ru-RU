@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 026926cf-3d0b-984c-897e-9d28346b7ba7
 description: Содержит элементы для колонтитулов документа.
-ms.openlocfilehash: e5933ad318b8100569046668e3cc372ce9a03788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eabb19100c4b37a546c0a271cfba5a0c865a7e83
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813898"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384446"
 ---
 # <a name="headerfooter-element-visiodocumenttype-complextype-visio-xml"></a>Элемент HeaderFooter (VisioDocument_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813898"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813898"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19813898"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |HeaderFooterColor  <br/> |XSD:String  <br/> |необязательный  <br/> |Значение RGB цвет текста для верхнего и нижнего колонтитулов в шестнадцатеричном формате; Например #rrggbb.  <br/> |Значения типа xsd:string.  <br/> |
    

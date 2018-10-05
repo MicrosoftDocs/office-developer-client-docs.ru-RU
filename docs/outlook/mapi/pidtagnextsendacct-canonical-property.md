@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b7429c2e-0d9d-4921-9f56-9ecad817f8cb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 76584e248f03deac62af94e4638fcead15594b3e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eff053fda58266afd5500e322559059f051d5ac3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581134"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384628"
 ---
 # <a name="pidtagnextsendacct-canonical-property"></a>Каноническое свойство PidTagNextSendAcct
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает сервер, клиент пытается использовать для отправки электронной почты.
   
@@ -42,15 +42,15 @@ ms.locfileid: "22581134"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447 и встречи и собрания объекты.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     

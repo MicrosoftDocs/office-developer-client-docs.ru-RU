@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: В этой статье описываются Microsoft Project Online разработки приложений для настольных приложений с помощью .NET Framework 4.0. Приложения, описанного в данной статье извлекает сведения из внешнего размещения сервера.
-ms.openlocfilehash: a65dbbdedb371fae9b8f0b99ea113ae38cbaffb5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b6e7260fd2337d2b156f97605fdd201f5e0d4edc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572881"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385265"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Разработка с помощью клиентской объектной модели приложения Project Online
 
@@ -43,7 +43,7 @@ Project Online включает три online наборов API: объектн
 
 Начать с базовой системы под управлением Windows 10 и добавьте следующие элементы:
   
-- .NET framework 4.0 или более поздней версии--используют структуру завершена. Сайт загрузки — это https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
+- .NET framework 4.0 или более поздней версии--используют структуру завершена. Сайт загрузки — это https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
 - Visual Studio 2013 или более поздней версии — любой выпуск приемлем. Сообщество выпуск Visual Studio 2015 использовалась для разработки учебное приложение. Выпуск сообщества доступном по адресу https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
     

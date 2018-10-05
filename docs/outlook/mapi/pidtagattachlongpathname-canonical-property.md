@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3262cf95-48b5-4764-a96e-d752ce35b2dc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c0a3a96c3d8835550c4b0fda233183214cb4a786
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d8fe8525cf4fc11ac17ed6d73fb5d97e4f2d003e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587427"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383109"
 ---
 # <a name="pidtagattachlongpathname-canonical-property"></a>Каноническое свойство PidTagAttachLongPathname
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит полное длинный путь и имя файла вложения. 
   
@@ -50,11 +50,11 @@ MAPI для работы только с пути и имена файлов в 
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Задает свойства управляемый правами закодированный сообщений.
     

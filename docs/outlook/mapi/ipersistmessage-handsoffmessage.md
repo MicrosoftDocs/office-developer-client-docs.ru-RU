@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0e56b21d-0a2e-4fe6-83f4-c9daab2f3055
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2cd4c86dc45bca85632a3fadc9023c9ad25cfa37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 84f0ca88403980ff9ea1c91821a8a3d7edae74fa
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583031"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384068"
 ---
 # <a name="ipersistmessagehandsoffmessage"></a>IPersistMessage::HandsOffMessage
 
@@ -35,9 +35,9 @@ HRESULT HandsOffMessage( void );
 
 None
   
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Сообщение было успешно отправлено.
     
@@ -51,13 +51,13 @@ None
     
 При открытии формы в одном из следующих состояний, находится в процессе хранением без возможности восстановления. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
-Когда форма просмотра вызывает метод **IPersistMessage::HandsOffMessage** , пока форма находится в состоянии [Normal](normal-state.md) или [NoScribble](noscribble-state.md) , рекурсивно вызова **HandsOffMessage** для каждого сообщения, внедренной в текущего сообщения и [ IPersistStorage::HandsOffStorage](http://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) метод для каждого объекта OLE, внедренные в текущем сообщении. Затем release текущего сообщения и всех внедренных сообщений и объекты OLE. Если форма была в обычном состоянии переход в состояние HandsOffFromNormal. Если форма была в состоянии NoScribble переход в состояние HandsOffAfterSave. После успешного перехода вызовите метод [функции IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) сообщение и возвращает значение S_OK. 
+Когда форма просмотра вызывает метод **IPersistMessage::HandsOffMessage** , пока форма находится в состоянии [Normal](normal-state.md) или [NoScribble](noscribble-state.md) , рекурсивно вызова **HandsOffMessage** для каждого сообщения, внедренной в текущего сообщения и [ IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) метод для каждого объекта OLE, внедренные в текущем сообщении. Затем release текущего сообщения и всех внедренных сообщений и объекты OLE. Если форма была в обычном состоянии переход в состояние HandsOffFromNormal. Если форма была в состоянии NoScribble переход в состояние HandsOffAfterSave. После успешного перехода вызовите метод [функции IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) сообщение и возвращает значение S_OK. 
   
 Когда форма просмотра вызывает **HandsOffMessage** при формы в одном из состояний HandsOff, возвратите значение E_UNEXPECTED. 
   
-Дополнительные сведения о состояниях формы можно [Состояния формы](form-states.md). Дополнительные сведения о работе с состоянием HandsOff объектов хранилища [IPersistStorage::HandsOffStorage](http://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) см. 
+Дополнительные сведения о состояниях формы можно [Состояния формы](form-states.md). Дополнительные сведения о работе с состоянием HandsOff объектов хранилища [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) см. 
   
 ## <a name="see-also"></a>См. также
 

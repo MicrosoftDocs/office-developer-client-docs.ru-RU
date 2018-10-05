@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
 description: Указывает, является ли набор записей обновляемый, с помощью служб Visio в Microsoft SharePoint Server 2013.
-ms.openlocfilehash: 47da60fb95b49084b70cfc630430879f04463553
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b402e2c9d65bf868c0ac33c782b87857ab6aed75
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814536"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384875"
 ---
 # <a name="refreshabledata-element-publishsettingstype-complextype-visio-xml"></a>Элемент RefreshableData (PublishSettings_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814536"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -37,7 +37,7 @@ ms.locfileid: "19814536"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "19814536"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор набора записей.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    

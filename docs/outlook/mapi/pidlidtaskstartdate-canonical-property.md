@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fe87eb3d-21d1-45bb-b848-e141ce1be6a0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b17a5791db4ccb840224785dd71a2ed52143cbaf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3bc475292e47a9ad8dd9565e17640ef95e7b3c76
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565447"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383529"
 ---
 # <a name="pidlidtaskstartdate-canonical-property"></a>Каноническое свойство PidLidTaskStartDate
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Дата, когда пользователь ожидает начала выполнения задания.
   
@@ -39,17 +39,17 @@ ms.locfileid: "22565447"
 
 Если значение этого свойства не определено, задача не имеет дату начала. Значение «0x5AE980E0» (1,525,252,320) также означает, что задачу не имеет дату начала. Если дата начала задачи, значение должно иметь компонент времени полночь, а также необходимо задать свойства **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) и **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).
   
-Это свойство используется совместно спецификацией информационные Пометка протокола и спецификация протокола Task-Related объект находится в [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
+Это свойство используется совместно спецификацией информационные Пометка протокола и спецификация протокола Task-Related объект находится в [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые на контакты и списки рассылки.
     

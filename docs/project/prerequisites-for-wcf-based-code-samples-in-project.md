@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60d2afc8-10b6-465d-8ce8-c073da6e5054
 description: Узнайте, сведения, которые помогут в создании проектов в Visual Studio с помощью образцы кода на основе WCF, включенные в разделы справочника по интерфейса Project Server (PSI).
-ms.openlocfilehash: 43700a9db4445dacf366c7ca2efe1bfb10914372
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2222e1b3651044c41f45e57481f80093aac67bdb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813063"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383382"
 ---
 # <a name="prerequisites-for-wcf-based-code-samples-in-project"></a>Необходимые условия для примеров кода на основе WCF в Project
 
 Узнайте, сведения, которые помогут в создании проектов в Visual Studio с помощью образцы кода на основе WCF, включенные в разделы справочника по интерфейса Project Server (PSI).
    
-Многие из примеров кода на основе WCF, включенных в [библиотеки и веб-службы Project Server 2013 класс ссылаться](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) изначально были созданы для разработчиков документации по Project 2010 и использовать стандартный формат для веб-служб WCF. Примеры по-прежнему работают в Project Server 2013 и предназначены для копируются в консольного приложения и запуска в качестве завершения блока. Имеются следующие исключения в образце. 
+Многие из примеров кода на основе WCF, включенных в [библиотеки и веб-службы Project Server 2013 класс ссылаться](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) изначально были созданы для разработчиков документации по Project 2010 и использовать стандартный формат для веб-служб WCF. Примеры по-прежнему работают в Project Server 2013 и предназначены для копируются в консольного приложения и запуска в качестве завершения блока. Имеются следующие исключения в образце. 
   
 Примеры кода в документации по Project 2013 для разработчиков, которые не отличаются от примеры, разработанных для Office Project Server 2007 использовать веб-службы ASMX. Примеры на основе ASMX также можно адаптировать для использования службы WCF. В этой статье показано, как использовать образцы со службами WCF. Сведения о том, как использовать образцы с веб-службы ASMX видеть [Необходимые условия для образцов кода на основе ASMX в проекте](prerequisites-for-asmx-based-code-samples-in-project.md).
   
@@ -168,11 +168,11 @@ public void DisposeClients()
     
 2. В **обозревателе решений** щелкните правой кнопкой мыши папку **References** (Ссылки), а затем выберите команду **Add Service Reference** (Добавить ссылку на службу). 
     
-3. В диалоговом окне **Добавить ссылку на службу** в поле **адрес** введите http://localhost:32843/ _GUID_/psi/ _ServiceName_SVC и затем нажмите клавишу **Ввод**. Замените _идентификатор GUID_ приложения-службы Project Server, например 534c37eb00d74ccfadcecf9827e95239 имя виртуального каталога. Замените _имя_службы_ имя службы, такие как ресурсов (см). 
+3. В диалоговом окне **Добавить ссылку на службу** в поле **адрес** введите https://localhost:32843/ _GUID_/psi/ _ServiceName_SVC и затем нажмите клавишу **Ввод**. Замените _идентификатор GUID_ приложения-службы Project Server, например 534c37eb00d74ccfadcecf9827e95239 имя виртуального каталога. Замените _имя_службы_ имя службы, такие как ресурсов (см). 
     
    Имя виртуального каталога службы Project Server можно получить одним из следующих способов.
     
-   - Откройте Центр администрирования SharePoint 2013 приложение в браузере. Выберите **Управление приложениями-службами**, а затем выберите необходимое приложение службы PSI Project Server. Например выберите **ProjectServerService**. URL-адрес страницы Управление сайтами Project Web App содержит имя виртуального каталога. Например, в `http://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, — это имя виртуального каталога `534c37eb00d74ccfadcecf9827e95239` (имя каталога содержит без штрихов). 
+   - Откройте Центр администрирования SharePoint 2013 приложение в браузере. Выберите **Управление приложениями-службами**, а затем выберите необходимое приложение службы PSI Project Server. Например выберите **ProjectServerService**. URL-адрес страницы Управление сайтами Project Web App содержит имя виртуального каталога. Например, в `https://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, — это имя виртуального каталога `534c37eb00d74ccfadcecf9827e95239` (имя каталога содержит без штрихов). 
     
    - Откройте диалоговое окно **диспетчера служб IIS** на компьютере Project Server. Разверните узел **Веб-службы SharePoint** в области **Подключения**, а затем разворачивайте виртуальные каталоги службы, пока не найдете каталог, включающий папку PSI. Выберите этот каталог, затем в области **Действия** выберите пункт **Дополнительные параметры** и скопируйте имя каталога в поле **Виртуальный путь**. 
     
@@ -205,7 +205,7 @@ public void DisposeClients()
       > [!NOTE]
       > Удалите дефисы в GUID, чтобы получить имя виртуального каталога. 
   
-   URL-адреса, такие как `http://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` являются стандартными для службы Project Server. 
+   URL-адреса, такие как `https://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` являются стандартными для службы Project Server. 
     
 4. После разрешает ссылку на службу, введите имя ссылки в текстовом поле **пространство имен** . Примеры кода в документации для разработчиков по Project 2013 используйте произвольных пространства имен **Svc _имя_службы_**. Например службу ресурсов в примерах кода называется **SvcResource**.
     
@@ -232,16 +232,16 @@ public void DisposeClients()
 ## <a name="adding-a-service-configuration-file"></a>Добавление файла конфигурации службы
 <a name="pj15_PrerequisitesWCF_AddConfig"> </a>
 
-Если приложение настраивает службы WCF программными средствами, то оно не использует файл конфигурации службы. В противном случае приложение Windows или консольное приложение использует элемент **system.serviceModel** в файле app.config; веб-приложение включает **system.serviceModel** в web.config. Дополнительные сведения об использовании файла app.config и о настройке служб WCF программными средствами см. в пошаговом руководстве [Разработка приложений PSI с использованием WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
+Если приложение настраивает службы WCF программными средствами, то оно не использует файл конфигурации службы. В противном случае приложение Windows или консольное приложение использует элемент **system.serviceModel** в файле app.config; веб-приложение включает **system.serviceModel** в web.config. Дополнительные сведения об использовании файла app.config и о настройке служб WCF программными средствами см. в пошаговом руководстве [Разработка приложений PSI с использованием WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
 При создании исходный файл службы прокси-сервера, команда SvcUtil.exe также создает файл output.config, который является основой для элемента **system.serviceModel** по умолчанию в файле app.config или файла web.config. Загрузить пакет SDK Project 2013 загружается пример файла output.config в `Documentation\IntelliSense\WCF\Source.zip`. Например файл output.config по умолчанию, который создает SvcUtil.exe для службы ресурсов включает в себя две привязки, с именем **BasicHttpBinding_Resource** и **BasicHttpBinding_Resource1**. Элемент **клиента** включает в себя две конечные точки по умолчанию. — Это одна конечная точка для безопасного доступа к адрес HTTP через порт 32843, а другое — для обычного доступа через порт 32843, как показано ниже: 
   
 ```XML
 <client>
-    <endpoint address="http://ServerName.domain:32843/GUID/PSI/Resource.svc/secure"
+    <endpoint address="https://ServerName.domain:32843/GUID/PSI/Resource.svc/secure"
         binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_Resource"
         contract="SvcResource.Resource" name="BasicHttpBinding_Resource" />
-address="http://ServerName.domain:32843/GUID/PSI/Resource.svc"
+address="https://ServerName.domain:32843/GUID/PSI/Resource.svc"
         binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_Resource1"
         contract="SvcResource.Resource" name="BasicHttpBinding_Resource1" />
 </client>
@@ -274,13 +274,13 @@ address="http://ServerName.domain:32843/GUID/PSI/Resource.svc"
                                 maxArrayLength="16384" maxBytesPerRead="4096" 
                                 maxNameTableCharCount="500000000" />
                             <security mode="TransportCredentialOnly">
-                                <transport clientCredentialType="Ntlm" realm="http://SecurityDomain" />
+                                <transport clientCredentialType="Ntlm" realm="https://SecurityDomain" />
                             </security>
                         </binding>
                     </basicHttpBinding>
                 </bindings>
                 <client>
-                    <endpoint address="http://ServerName/ProjectServerName/_vti_bin/PSI/ProjectServer.svc"
+                    <endpoint address="https://ServerName/ProjectServerName/_vti_bin/PSI/ProjectServer.svc"
                         behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
                         bindingConfiguration="basicHttpConf" 
                         contract="SvcServiceName.ServiceName"
@@ -295,7 +295,7 @@ address="http://ServerName.domain:32843/GUID/PSI/Resource.svc"
 4. Замените `ServiceName` с именем службы PSI, такие как ресурсов. Убедитесь, заменить все три вхождения имя службы, например:
     
     ```XML
-        <endpoint address="http://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcResource.Resource"
@@ -309,12 +309,12 @@ address="http://ServerName.domain:32843/GUID/PSI/Resource.svc"
   
     ```XML
         <client>
-        <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcProject.Project"
             name="basicHttp_Project" />
-        <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcQueueSystem.QueueSystem"
@@ -328,7 +328,7 @@ address="http://ServerName.domain:32843/GUID/PSI/Resource.svc"
 
 ![С помощью редактора конфигураций служб WCF] (media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "С помощью редактора конфигураций служб WCF")
   
-Если решение использует файл прокси-сервер службы, такие как wcfResource.cs, выполните компиляцию приложения, а затем откройте исполняемого файла в `bin\debug` каталога. Дополнительные сведения об изменении файла app.config можно [Пошаговое руководство: разработка PSI приложений с помощью WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
+Если решение использует файл прокси-сервер службы, такие как wcfResource.cs, выполните компиляцию приложения, а затем откройте исполняемого файла в `bin\debug` каталога. Дополнительные сведения об изменении файла app.config можно [Пошаговое руководство: разработка PSI приложений с помощью WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
 **Рис. 5. Использование браузера типов контрактов в редакторе конфигураций службы WCF**
 
@@ -386,7 +386,7 @@ private void WcfSample()
 Большинство образцов имеет один или несколько переменных, которые необходимо обновить образец работал надлежащим образом в вашей среде. В следующем примере Если протокол SSL, используйте протокол HTTPS вместо протокола HTTP. Замените _имя сервера_ имя сервера, на котором вы используете. Замените _ProjectServerName_ имя виртуального каталога сайта project server, например веб-клиента Project. 
   
 ```cs
-const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
+const string PROJECT_SERVER_URI = "https://ServerName/ProjectServerName/";
 ```
 
 Все прочие переменные, которые необходимо изменить, указываются вверху примера кода.
@@ -400,11 +400,11 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
   
 - Просмотр элементов, которые будут использовать клиента Project Professional 2013 для откройте проект на сервере Project Server
     
-- Просмотр опубликованных проектов на странице центра проектов Project Web App ( `http://ServerName/ProjectServerName/projects.aspx`).
+- Просмотр опубликованных проектов на странице центра проектов Project Web App ( `https://ServerName/ProjectServerName/projects.aspx`).
     
-- Просмотр журнала очереди в Project Web App. Открыть страницу "Параметры сервера" (в верхнем правом углу щелкните значок **Параметры** ), а затем выберите **Мои задания в очереди** в разделе **Личные параметры** ( `http://ServerName/ProjectServerName/MyJobs.aspx`). В раскрывающемся списке **представление** можно сортировать по состояние задания. Состояние по умолчанию — **в ходе выполнения и произошел сбой задания за прошлую неделю**. 
+- Просмотр журнала очереди в Project Web App. Открыть страницу "Параметры сервера" (в верхнем правом углу щелкните значок **Параметры** ), а затем выберите **Мои задания в очереди** в разделе **Личные параметры** ( `https://ServerName/ProjectServerName/MyJobs.aspx`). В раскрывающемся списке **представление** можно сортировать по состояние задания. Состояние по умолчанию — **в ходе выполнения и произошел сбой задания за прошлую неделю**. 
     
-- Используйте страницу параметров сервера в Project Web App ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) для управления заданиями в очереди и удаления или принудительный возврат корпоративных объектов. Необходимо иметь разрешения администратора для доступа к этих ссылок на странице "Параметры сервера".
+- Используйте страницу параметров сервера в Project Web App ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) для управления заданиями в очереди и удаления или принудительный возврат корпоративных объектов. Необходимо иметь разрешения администратора для доступа к этих ссылок на странице "Параметры сервера".
     
 - Используйте **Microsoft SQL Server Management Studio** для выполнения запроса в таблице базы данных Project Server. Например, с помощью следующего запроса можно получить верхние 200 строк таблицы MSP_WORKFLOW_STAGE_PDPS, чтобы просмотреть информацию о страницах сведений о проекте (PDP) на этапах рабочего процесса. 
     
@@ -422,7 +422,7 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 ## <a name="cleaning-up"></a>Очистка
 <a name="pj15_PrerequisitesWCF_Cleanup"> </a>
 
-После тестирования некоторые примеры кода существует корпоративных объектов и параметров, которые следует удалить или сбросить. На странице "Параметры сервера" в Project Web App можно использовать для управления корпоративными данными ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`). Ссылки на странице "Параметры сервера" позволяет удалять старые элементы, принудительный возврат проектов, управлять очередь заданий для всех пользователей и выполнять другие задачи администрирования.
+После тестирования некоторые примеры кода существует корпоративных объектов и параметров, которые следует удалить или сбросить. На странице "Параметры сервера" в Project Web App можно использовать для управления корпоративными данными ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`). Ссылки на странице "Параметры сервера" позволяет удалять старые элементы, принудительный возврат проектов, управлять очередь заданий для всех пользователей и выполнять другие задачи администрирования.
   
 Далее перечисляются некоторые ссылки на странице параметров сервера, которые можно использовать для выполнения обычных действий по очистке после выполнения примеров кода.
   
@@ -453,9 +453,9 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 ## <a name="see-also"></a>См. также
 
 - [Предварительные требования для основанных на ASMX примеров кода в Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
-- [Пошаговое руководство. Разработка приложений PSI с использованием WCF](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
-- [Использование олицетворения с WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
+- [Пошаговое руководство. Разработка приложений PSI с использованием WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
+- [Использование олицетворения с WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
 - [Справочный обзор PSI Project](project-psi-reference-overview.md) 
-- [Центр по разработке для SharePoint](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [Центр по разработке для SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx)
     
 

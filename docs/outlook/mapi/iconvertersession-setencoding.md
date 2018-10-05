@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3edcb422eb0e3dd415d49c5e014c8b69095e7ec1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5a81e04d112e0adf201dcacf03673daac77a04ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577207"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382423"
 ---
 # <a name="iconvertersessionsetencoding"></a>IConverterSession::SetEncoding
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Инициализирует кодировку для использования при преобразовании.
   
@@ -35,7 +35,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> Значение [ENCODINGTYPE](http://msdn.microsoft.com/en-us/library/aa374936%28VS.85%29.aspx) . Поддерживаются только следующие значения: 
+> Значение [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Поддерживаются только следующие значения: 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -43,7 +43,7 @@ _et_
    - IET_7BIT
    - IET_8BIT
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
 E_INVALIDARG
   
@@ -55,11 +55,11 @@ E_INVALIDARG
   
 Используйте **SetEncoding** , чтобы установить кодировку только внешний сообщения из почтового элемента. Microsoft Outlook 2010 и Microsoft Outlook 2013 выберите кодировку для отдельных вложений. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |Mfcmapi (en) используется MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |Mfcmapi (en) используется MAPIToMIMEStm для преобразования MAPI сообщения EML-файла.  <br/> |

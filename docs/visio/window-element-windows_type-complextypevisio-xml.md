@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: Представляет окно в экземпляре Microsoft Visio. Этот элемент содержит сведения, необходимые для точно повторного создания окна интерфейса пользователя в рабочей области приложения при первом открытии файла в Visio.
-ms.openlocfilehash: 762b689d625c7865696a0bf8bb8c4acc25e3d8eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 676818ddea7747a17b0fe296da515e80c4ffd98f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815172"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385349"
 ---
 # <a name="window-element-windowstype-complextype-visio-xml"></a>Элемент окна (Windows_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19815172"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Windows.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19815172"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -64,7 +64,7 @@ ms.locfileid: "19815172"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |Контейнер  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Идентификатор контейнера: страница, отчет или образец. Только соответствующие и требуется, если указан **ContainerType** .  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |ContainerType  <br/> |XSD:Token  <br/> |необязательный  <br/> |Может быть одно из следующих значений: документа, страницы или образец. Соответствующие только при **WindowType** указан как документа или листа.  <br/> |Значения типа xsd:token.  <br/> |

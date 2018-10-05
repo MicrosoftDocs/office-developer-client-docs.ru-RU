@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 8d19e8fa-4e5c-40bb-ae89-7a552cc7914d
 description: По умолчанию файл FormCode.cs или FormCode.vb, который создается для проекта шаблона формы, совместимого с InfoPath 2003, содержит полный исходный код для программирования логики формы. Шаблон проекта создает класс в файле FormCode.cs или FormCode.vb, схожий с классами, приведенными в указанных далее примерах, где можно указать инициализацию и очистку кода, а также обработчики для событий формы. Файлы FormCode.cs и FormCode.vb применяют атрибут уровня сборки System.ComponentModel.DescriptionAttribute, который идентифицирует класс в качестве единственного класса, где реализуются обработчики событий. Атрибут InfoPathNamespace (который реализуется типом InfoPathNamespaceAttribute ) применяется к классу для идентификации пространств имен выборки XML DOM, используемых в рамках класса. Пространства имен, указанные в InfoPathNamespace, обслуживаются системой проектов InfoPath.
-ms.openlocfilehash: 7111a8525b092998e21d4c267b5884f50fdb9777
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ae81c261ad9927195c0a4ac6d80f58a16a6ebf1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807512"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383123"
 ---
 # <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>Инициализация и очистка кода с помощью объектной модели InfoPath 2003
 
@@ -36,7 +36,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
     public partial class FormCode
     {
         private XDocument thisXDocument;
@@ -66,7 +66,7 @@ Namespace Template1
     ' The namespace prefixes defined in this attribute must remain synchronized with
     ' those in the form definition file (.xsf).
     <InfoPathNamespace( _
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
     Public Class FormCode
         Private thisXDocument As XDocument
         Private thisApplication As Application
@@ -163,7 +163,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
     public partial class Template1
     {
         private XDocument    thisXDocument;
@@ -198,7 +198,7 @@ Namespace Template1
         ' The namespace prefixes defined in this attribute must remain synchronized with
         ' those in the form definition file (.xsf).
         <InfoPathNamespace( _
-            "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
+            "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
         Public Class Template1
             Private thisXDocument As XDocument
             Private thisApplication As Application

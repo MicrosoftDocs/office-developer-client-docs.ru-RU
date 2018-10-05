@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a8de1a90c0dde029cc6880fe46b0c4d4af9b50ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ed498295de6748dfa50f1f4a8ba2710c8be64f7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579062"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383781"
 ---
 # <a name="pidtagexceptionstarttime-canonical-property"></a>Каноническое свойство PidTagExceptionStartTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает дату и время начала исключения в локальном часовом поясе компьютера при создании исключения.
   
@@ -43,7 +43,7 @@ ms.locfileid: "22579062"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

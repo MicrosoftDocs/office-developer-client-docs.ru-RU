@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2386be9f-18c9-4949-a2aa-efc8e212801c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f8260b5b7c1dd3fd6608c2fd17471d21ad362ece
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: becc076efe0f4f805eb2a8db071b70ad731ee256
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568996"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385688"
 ---
 # <a name="pidtagdeferredsendunits-canonical-property"></a>Каноническое свойство PidTagDeferredSendUnits
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает единицы времени, умножить значение свойства **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)).
   
@@ -50,7 +50,7 @@ ms.locfileid: "22568996"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     

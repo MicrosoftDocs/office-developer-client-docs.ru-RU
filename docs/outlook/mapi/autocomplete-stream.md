@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: caa93fcc1675531f2d128170c81904e0e286e0f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591081"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384649"
 ---
 # <a name="autocomplete-stream"></a>Поток автозаполнения
 
@@ -71,7 +71,7 @@ ms.locfileid: "22591081"
   
 метаданные (8 байтов).
   
-Пример двоичной структуры см. в разделе "Binary Example" (Пример двоичной структуры) документа [Outlook 2003/2007 NK2 File Format and Developer Guidelines](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf) (Рекомендации разработчикам и сведения о формате NK2 файлов Outlook 2003/2007).
+Пример двоичной структуры см. в разделе "Binary Example" (Пример двоичной структуры) документа [Outlook 2003/2007 NK2 File Format and Developer Guidelines](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf) (Рекомендации разработчикам и сведения о формате NK2 файлов Outlook 2003/2007).
   
 ## <a name="high-level-layout"></a>Высокоуровневая структура
 
@@ -198,7 +198,7 @@ PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
    
 ## <a name="significant-properties"></a>Значительные свойства
 
-Как уже было сказано в этой статье, двоичные блоки, представляющие свойства, имеют теги свойства, которые соответствуют свойствам получателей из адресной книги. Описание тегов, которые не указаны здесь, вы можете найти в статье http://msdn.microsoft.com/en-us/library/cc433490(EXCHG.80).aspx.
+Как уже было сказано в этой статье, двоичные блоки, представляющие свойства, имеют теги свойства, которые соответствуют свойствам получателей из адресной книги. Описание тегов, которые не указаны здесь, вы можете найти в статье https://msdn.microsoft.com/library/cc433490(EXCHG.80).aspx.
   
 |**Имя свойства**|**Тег свойства**|**Описание (дополнительные сведения см. на сайте MSDN)**|
 |:-----|:-----|:-----|

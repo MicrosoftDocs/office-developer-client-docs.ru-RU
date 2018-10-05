@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cd57a5be-5550-4492-acb9-52255fac9014
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c38d1de1f2631277645ed10eb960ffc1956dfb6f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bbac700c2bf5a0e17967cbf94b68b03627a47256
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594714"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383833"
 ---
 # <a name="pidlidchangehighlight-canonical-property"></a>Каноническое свойство PidLidChangeHighlight
 
@@ -37,17 +37,17 @@ ms.locfileid: "22594714"
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство не требуется. Можно задать отдельные флаги подробно рассмотрены в [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Это свойство не требуется. Можно задать отдельные флаги подробно рассмотрены в [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: fb0eddfff2f34307143bb896fd451de357f2b639
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a385728450fc6519d7f5211c186a9d74e623bf7b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807317"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384425"
 ---
 # <a name="multithreading-and-memory-contention-in-excel"></a>Многопоточность и конфликты памяти в Excel
 
@@ -142,7 +142,7 @@ BOOL TLS_Action(DWORD DllMainCallReason)
 }
 ```
 
-После получения индекса, следующим шагом является выделить блок памяти для каждого потока. [Документация по разработке Windows](http://msdn.microsoft.com/en-us/library/ms682583%28VS.85%29.aspx) рекомендуется выполнять это каждый раз **DllMain** функции обратного вызова вызывается с **DLL_THREAD_ATTACH** событий и освобождения памяти на каждом **DLL_THREAD_DETACH**. Тем не менее выполнив этот совет вызовет библиотеки DLL выполнить ненужных рабочих потоков, не используется для пересчета. 
+После получения индекса, следующим шагом является выделить блок памяти для каждого потока. [Документация по разработке Windows](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx) рекомендуется выполнять это каждый раз **DllMain** функции обратного вызова вызывается с **DLL_THREAD_ATTACH** событий и освобождения памяти на каждом **DLL_THREAD_DETACH**. Тем не менее выполнив этот совет вызовет библиотеки DLL выполнить ненужных рабочих потоков, не используется для пересчета. 
   
 Вместо этого лучше использовать стратегию распределения на первом использовании. Во-первых необходимо определить структуру, который вы хотите выделить для каждого потока. Предыдущие примеры, которые возвращают **XLOPERs** или **XLOPER12s**следующие достаточно, но можно создать любое структуру, которая должна удовлетворять потребностям.
   

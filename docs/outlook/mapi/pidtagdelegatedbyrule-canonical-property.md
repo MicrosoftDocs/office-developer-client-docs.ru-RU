@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e9337a49067e9789ece40ed932dbaae133aac0f0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 47458e2468215c6539ad07533c36564d37da8b96
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568184"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382605"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>Каноническое свойство PidTagDelegatedByRule
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, делегирования ли папка сообщений с помощью правила.
   
@@ -38,11 +38,11 @@ ms.locfileid: "22568184"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Указывает методы для подключений и настройки почтовых ящиков как делегаты и взаимодействия с объектами сообщений и календаря, когда они действовать от имени другого пользователя.
     
-[[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Управляет входящие сообщения электронной почты на сервере.
     

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 1e7a36e6-2e93-4aa5-bef8-66fd5c407700
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c7c123e7a715d13be9a7e46a63a4dfdc21fa2e39
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 50fa3c1e1173a91d7c03759f4f635f1bb6e0600d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575401"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385657"
 ---
 # <a name="pidlidfreebusylocation-canonical-property"></a>Каноническое свойство PidLidFreeBusyLocation
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает URL-адрес, из которого можно получить сведения о доступности для этого контакта как файл iCal, как указано в [[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx).
+Указывает URL-адрес, из которого можно получить сведения о доступности для этого контакта как файл iCal, как указано в [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx).
   
 |||
 |:-----|:-----|
@@ -39,11 +39,11 @@ ms.locfileid: "22575401"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для контакты и списки рассылки.
     

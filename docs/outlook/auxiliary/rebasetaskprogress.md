@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 8b8368d2-b04b-42a5-fdc3-955fc873c2f5
 description: Отчеты о ходе выполнения для перечисления и повторного размещения en встреч.
-ms.openlocfilehash: 4219ab1d59b596bebbe3ced03651716b04b51f81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5df0cd6df10ab86b1a125b9807637438976726f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807962"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384355"
 ---
 # <a name="rebasetaskprogress"></a>RebaseTaskProgress
 
@@ -23,8 +23,8 @@ ms.locfileid: "19807962"
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |tzmovelib.h  <br/> |
-|Реализованный:  <br/> |Клиентские приложения MAPI  <br/> |
-|Вызывается:  <br/> |Объект сдвига Outlook  <br/> |
+|Реализовано в:  <br/> |Клиентские приложения MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Объект сдвига Outlook  <br/> |
 |Тип указателя:  <br/> |**PFNREBASETASKPROGRESS** , определенных в tzmovelib.h  <br/> |
    
 ```cpp
@@ -69,7 +69,7 @@ _State_
     
 _pRowCur_
   
-> [in] Указатель на структуру **[SRow](http://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** с описанием элемента выполняется поиск вирусов или фиксированной. 
+> [in] Указатель на структуру **[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** с описанием элемента выполняется поиск вирусов или фиксированной. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 

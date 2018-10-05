@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 36e0db77097178d2db7a11b1339d19ebb8c91f2c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddb730ed92db4c8d281e7c8d5d9b18bc44505598
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565328"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382948"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Копирует один или несколько операций, пользователи обычно обмена мгновенными сообщениями или списки рассылки.
   
@@ -70,9 +70,9 @@ CREATE_REPLACE
   
 > Указывает, что новая запись необходимо заменить существующий, если определено, что они дубликатов.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Операция копирования выполнена успешно.
     
@@ -92,9 +92,9 @@ MAPI_W_PARTIAL_COMPLETION
     
 4. Метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) новую запись для выполнения сохранения. 
     
-5. Метод [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) новую запись для освобождения ссылку контейнера. 
+5. Метод [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) новую запись для освобождения ссылку контейнера. 
     
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Все контейнеры, поддерживающие метод **IABContainer::CopyEntries** значения можно изменить. Установите флаг AB_MODIFIABLE контейнера в своем свойстве **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)), чтобы указать, что он или нет. 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc86505c-e264-435f-ae21-4a10f0bbf082
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 927710f3530fd95cc1c1ba548870c1058ad7a819
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ed3d84667d7be9c06d0ddf4d896b8888694edc12
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567435"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384995"
 ---
 # <a name="pidtagoriginalsenderemailaddress-canonical-property"></a>Каноническое свойство PidTagOriginalSenderEmailAddress
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит адрес электронной почты отправителя первая версия сообщения, то есть, сообщение перед пересылку и ответ.
   
@@ -42,11 +42,11 @@ ms.locfileid: "22567435"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     

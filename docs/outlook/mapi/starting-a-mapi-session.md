@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 9e95423a1aa9a04247a70592a797d2395cafecc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d88ce382b6a6b5f98ec5f88c4deb1565d3b60151
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595372"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382591"
 ---
 # <a name="starting-a-mapi-session"></a>Запуск сеанса MAPI
 
@@ -27,7 +27,7 @@ ms.locfileid: "22595372"
   
 1. Вызов **MAPIInitialize** для инициализации стандартный набор библиотек MAPI. 
     
-2. Если необходимо использовать библиотек OLE, вызовите функцию OLE [OleInitialize](http://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
+2. Если необходимо использовать библиотек OLE, вызовите функцию OLE [OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
     
 3. Если требуется использовать библиотеку служебной программы MAPI, вызовите [ScInitMapiUtil](scinitmapiutil.md).
     

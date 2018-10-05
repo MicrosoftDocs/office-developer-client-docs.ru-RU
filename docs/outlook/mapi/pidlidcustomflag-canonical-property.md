@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cba4989ec3b1afcadb0caddd4af444cc9c96ebda
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9a131c633b8dcf9b0e5070f01de8fcab90a18ade
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565958"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384201"
 ---
 # <a name="pidlidcustomflag-canonical-property"></a>Каноническое свойство PidLidCustomFlag
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Битовая маска, которая указывает, как сообщение настроенную, например, сохраненных в настраиваемых свойств.
   
@@ -62,7 +62,7 @@ ms.locfileid: "22565958"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств.
     

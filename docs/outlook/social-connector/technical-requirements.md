@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
 description: В этом разделе описываются поддерживаемые языки программирования, видимость COM и метод возвращает тип требования и сведения о расширений поставщика Outlook Social Connector (OSC) DLL.
-ms.openlocfilehash: 94b57e20957f3d8d779c4d3324ecbb8ccd37f60a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812837"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383116"
 ---
 # <a name="technical-requirements"></a>Технические требования
 
@@ -33,7 +33,7 @@ ms.locfileid: "19812837"
     
 - Поставщика OSC, разработанных в управляемом языке виден COM.
     
-- Поставщика OSC следует добавить значения реестра Windows, которые указывают, что поставщик DLL-Библиотека поддерживает одним потоком (STA) и многопоточных подразделения потоковые модели. Дополнительные сведения о потоковые модели COM можно [описания и работы OLE Threading моделей](http://support.microsoft.com/kb/150777).
+- Поставщика OSC следует добавить значения реестра Windows, которые указывают, что поставщик DLL-Библиотека поддерживает одним потоком (STA) и многопоточных подразделения потоковые модели. Дополнительные сведения о потоковые модели COM можно [описания и работы OLE Threading моделей](https://support.microsoft.com/kb/150777).
     
 Методы в возможности расширения поставщика OSC должен возвращать простые типы, такие как **строка** или **bool**. Определенные **строки** возвращает следующие значения должны соответствовать схеме определения для расширений поставщика OSC. Поддерживается только XML как возвращаемое значение. 
   

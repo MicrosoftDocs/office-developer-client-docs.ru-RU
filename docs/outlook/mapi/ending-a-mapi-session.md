@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e8fa8df4e1439db3f1bc688d282e5ebdd3503024
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74c2a7247df02570761247a9e4a6fae378f37312
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575506"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385202"
 ---
 # <a name="ending-a-mapi-session"></a>Завершение сеанса MAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиенты могут завершить их сеансов в ответ на запрос пользователя, либо сразу же или обработки после всех исходящих сообщений и когда происходит критическая ошибка. Некоторые клиенты необходимость всегда оставаться на вход в систему, ожидающие исходящих сообщений можно сделать доступными поставщика транспорта и назначение системы обмена сообщениями. Если такой клиент отправляет сообщение и немедленно выходит из системы, сообщение может оставаться в очереди исходящих сообщений, пока пользователь входит задний план и остается выполнившего вход достаточно времени для сообщения для передачи.
   
@@ -27,7 +27,7 @@ ms.locfileid: "22575506"
   
 1. Отмена регистрации для всех уведомлений путем вызова метода **Unadvise** всех зарегистрированных объектов. 
     
-2. Освобождение всех открытых объектов, вызвав их [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) методы. Типы объектов, open может включать уведомить приемники, в таблице состояния, папке Исходящие, один или несколько хранилищ сообщений и адресной книги. 
+2. Освобождение всех открытых объектов, вызвав их [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) методы. Типы объектов, open может включать уведомить приемники, в таблице состояния, папке Исходящие, один или несколько хранилищ сообщений и адресной книги. 
     
 3. Вызовите [MAPIFreeBuffer](mapifreebuffer.md) , чтобы освободить память для каких-либо идентификаторов кэшированной записи, такие как **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
@@ -35,7 +35,7 @@ ms.locfileid: "22575506"
     
 5. Выпуск указатель сеанса, вызвав метод **функции IUnknown::Release** сеанса. 
     
-6. Если [OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) вызван при запуске сеанса для инициализации библиотеки OLE, выполнении отмены инициализации их теперь путем вызова [OleUninitialize](http://msdn.microsoft.com/en-us/library/ms691326%28VS.85%29.aspx). Только клиенты, которые вызвали **OleInitialize** необходимо вызвать **OleUninitialize**. 
+6. Если [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) вызван при запуске сеанса для инициализации библиотеки OLE, выполнении отмены инициализации их теперь путем вызова [OleUninitialize](https://msdn.microsoft.com/library/ms691326%28VS.85%29.aspx). Только клиенты, которые вызвали **OleInitialize** необходимо вызвать **OleUninitialize**. 
     
 7. Выполнении отмены инициализации библиотеки MAPI путем вызова [MAPIUninitialize](mapiuninitialize.md). Если **OleInitialize** вызван в определенный момент, убедитесь в том, что **OleUninitialize** вызывается до этого вызова **MAPIUninitialize**. Важно правильно выбрать время. Если вызов **OleUninitialize** за вызов **MAPIUninitialize**, клиент может завершить ungracefully. 
     

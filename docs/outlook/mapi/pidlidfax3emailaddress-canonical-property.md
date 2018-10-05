@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b53c307-1a01-4c94-b6db-9fcb840ce390
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c027c165fb4ad353ceadf300ad354aef4af14d47
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9118152a6024647f62694a09d3a39326dfed6e37
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577025"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383956"
 ---
 # <a name="pidlidfax3emailaddress-canonical-property"></a>Каноническое свойство PidLidFax3EmailAddress
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что адрес электронной почты контакта в другой адрес факса.
   
@@ -43,11 +43,11 @@ ms.locfileid: "22577025"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для контакты и списки рассылки.
     

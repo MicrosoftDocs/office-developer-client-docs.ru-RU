@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 60c5d7e980d1dc4d4263a2be2267008dbee1fd4d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f4af3f2fd094942c48e02849c60f3e46acb1a5f7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594700"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385566"
 ---
 # <a name="hrdispatchnotifications"></a>HrDispatchNotifications
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Принудительное диспетчеризации всех уведомлений, помещенных в очередь. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiutil.h  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
    
 ```cpp
 HRESULT HrDispatchNotifications(
@@ -45,9 +45,9 @@ HRESULT HrDispatchNotifications(
   
 > [in] ���������������; ������ ���� ����� ����. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK
+S_OK
   
 > Все уведомления о помещенных в очередь отправки.
     
@@ -65,6 +65,6 @@ MAPI_E_NOT_INITIALIZED
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Некоторые приложения дождитесь сообщение уведомления в цикле времени ожидания, с помощью Windows [PeekMessage](http://msdn.microsoft.com/en-us/library/ms644943.aspx) и [DispatchMessage](http://msdn.microsoft.com/en-us/library/ms644934.aspx) функций. На всех, кроме быстрым платформ такие приложения могут возникнуть низким быстродействием или даже блокировки уведомлений. С помощью **HrDispatchNotifications** не только уменьшает кода, но повышает производительность. 
+Некоторые приложения дождитесь сообщение уведомления в цикле времени ожидания, с помощью Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) и [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx) функций. На всех, кроме быстрым платформ такие приложения могут возникнуть низким быстродействием или даже блокировки уведомлений. С помощью **HrDispatchNotifications** не только уменьшает кода, но повышает производительность. 
   
 

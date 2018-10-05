@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92d90240-012b-9598-c893-6e7085813aa5
 description: Указывает точку вставки текстового поля для соответствующего элемента Field.
-ms.openlocfilehash: 9ff1a81c8ceba83adc110596de86831b58db0167
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7303697a9471dab68f5b1cf851f60d51650a84e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813776"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383326"
 ---
 # <a name="fld-element-texttype-complextype-visio-xml"></a>элемент Fld (Text_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813776"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |страницы # .xml, главные # .xml  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813776"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19813776"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |IX  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Отсчитываемый от нуля индекс элемента в рамках родительского элемента.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    

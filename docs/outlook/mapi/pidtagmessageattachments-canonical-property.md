@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b375ef279fc50aecca75b60d8379438c56f13420
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f13c2825fc0127b95fbf5bc0b41d68c64556864
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569339"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384089"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Каноническое свойство PidTagMessageAttachments
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит таблицу ограничения, которые могут быть применены к таблице содержимого для поиска всех сообщений, содержащих вложения вложенных объектов, необходимых для ограничения. 
   
@@ -46,15 +46,15 @@ ms.locfileid: "22569339"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
+[[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
 > Определяет структуры основных данных, которые используются для удаленных операций.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Определяет структуры основных данных, которые используются для удаленных операций.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447 и встречи и собрания объекты.
     

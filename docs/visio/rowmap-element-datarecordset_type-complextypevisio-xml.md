@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
 description: Сопоставление строк набора записей данных фигуры.
-ms.openlocfilehash: aefae8c625f35feacd6d0fdf04f128c423db299b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2dffa49d66e8e447b4e31d771179c74eecad21da
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814698"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385314"
 ---
 # <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Элемент RowMap (DataRecordSet_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814698"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |recordsets.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814698"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19814698"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |PageID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор страницы фигуры, связанная с данными в строки набора записей данных, **RowID**.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |RowID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор строки строки, уникальных в пределах набора данных.  <br/> |Значения типа xsd:unsignedInt.  <br/> |

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: Office для Android интегрируется с платформой Android Storage Access Framework, которая позволяет Office открывать файлы, хранимые другим поставщиком документов.
-ms.openlocfilehash: c217eb2aa6c0974c32e60f5015449de7b157d39d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24d7e48106aeb5e58a668b94cbde00eaa9175230
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807648"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384551"
 ---
 # <a name="office-for-android-support-for-the-android-storage-access-framework"></a>Поддержка Office для Android для платформы Android Storage Access Framework
 
@@ -31,7 +31,7 @@ Android 4.4 (API уровня 19) представляет платформу St
 |:-----|:-----|:-----|
 |Тип документа  <br/> |com_microsoft_office_doctype  <br/> |\<consumer\>  <br/> |
 |Понятное имя службы  <br/> |com_microsoft_office_servicename  <br/> |Любое понятное для пользователей имя службы, используемое для определения документа в списке недавно использовавшихся документов в приложениях Office. Обратите внимание, что свойство "Условия соглашения" должно быть предоставлено до того, как будет отображено понятное имя службы.  <br/> |
-|Условия соглашения  <br/> |com_microsoft_office_termsofuse  <br/> |\<Я соглашаюсь с условиями, указанными на странице http://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
+|Условия соглашения  <br/> |com_microsoft_office_termsofuse  <br/> |\<Я соглашаюсь с условиями, указанными на странице https://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
    
 ## <a name="see-also"></a>См. также
 <a name="bk_addresources"> </a>

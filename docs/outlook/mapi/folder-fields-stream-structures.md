@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96051bd2b62fd7c0e908a1018aac0225e44986be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567162"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385090"
 ---
 # <a name="folder-fields-stream-structures"></a>Структуры потоков полей папок
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Свойство [PidTagUserFields](pidtaguserfields-canonical-property.md) сообщение содержит двоичный поток FolderUserFields, который содержит определения полей, пользовательские папки. В этом разделе описываются структуры потока для определения пользовательских полей папки. 
 
@@ -66,7 +66,7 @@ ms.locfileid: "22567162"
     
 - **FieldNameLength**: WORD (2 байта), число элементов в массиве **FieldName** .
     
-- **FieldName**: массив символов. Это представление кодовая страница ANSI CP_ACP имя поля. Число этого массива равно **FieldNameLength**. Имя поля должны соответствовать ограничения на параметр Name, как указано в метод [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
+- **FieldName**: массив символов. Это представление кодовая страница ANSI CP_ACP имя поля. Число этого массива равно **FieldNameLength**. Имя поля должны соответствовать ограничения на параметр Name, как указано в метод [UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Для обеспечения совместимости прежних версий Outlook может быть обрабатывать некоторые **FieldName** значения не удовлетворить эти ограничения, однако таких случаях не распространяются в этом разделе. 
@@ -83,7 +83,7 @@ ms.locfileid: "22567162"
     
 - **FieldNameLength**: WORD (2 байта), число элементов в массиве **FieldName** .
     
-- **FieldName**: массив WCHAR. Это представление Юникод (UTF-16) имя поля. Число этого массива равно **FieldNameLength**. Имя поля должны соответствовать ограничения на параметр Name, как указано в метод [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
+- **FieldName**: массив WCHAR. Это представление Юникод (UTF-16) имя поля. Число этого массива равно **FieldNameLength**. Имя поля должны соответствовать ограничения на параметр Name, как указано в метод [UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Для обеспечения совместимости прежних версий Outlook может быть обрабатывать некоторые **FieldName** значения не удовлетворить эти ограничения, но таких случаях не распространяются в этом разделе. 

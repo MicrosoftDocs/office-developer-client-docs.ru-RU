@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b456b07b-4d83-46bf-a305-4f322ea7dbd1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 93e5510802fe5ff0327d7ed3fc702fa61cd3c1c4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8de14542c0d2a4e6d95fb4258697b827f82b8d06
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565580"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384404"
 ---
 # <a name="pidtagsubfolders-canonical-property"></a>Каноническое свойство PidTagSubfolders
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если папка содержит вложенные папки.
   
@@ -42,11 +42,11 @@ ms.locfileid: "22565580"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > Обрабатывает операции папки.
     

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 534c3881-e12f-f228-7760-788fe2b72ae8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 80d1fc3f711369471eb2c1473700f13a6b995594
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 95729474db29fe21f808ec5c8f571bec4600db70
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578509"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382836"
 ---
 # <a name="pidtagsearchattachments-canonical-property"></a>Каноническое свойство PidTagSearchAttachments
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит строку Юникод, запрашиваемый в содержимое вложения в хранилище.
   
@@ -39,11 +39,11 @@ ms.locfileid: "22578509"
   
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Microsoft Exchange Server.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Задает свойства и операции для управления конфигурации список папок поиска.
     

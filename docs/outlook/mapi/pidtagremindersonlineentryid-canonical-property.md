@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cad25cca-248d-4845-9d60-7aa60f2dda62
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b3d1d2a20720bd1c4b15464cd24aac4415721ae8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d845a37f9248a30dadd4db7722d8bed0f9f8d264
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563179"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384754"
 ---
 # <a name="pidtagremindersonlineentryid-canonical-property"></a>Каноническое свойство PidTagRemindersOnlineEntryId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит **идентификатор записи** папки напоминания. 
   
@@ -52,11 +52,11 @@ ms.locfileid: "22563179"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Задает свойства и операции по созданию и поиск специальные папки в почтовом ящике.
     

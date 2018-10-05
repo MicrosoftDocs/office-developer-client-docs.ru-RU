@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ef60c13923753eb7e349b91a5a4727958ebb73e5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fed4395274cb790ab8ab7ecf0456d4ecb9ec0134
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580238"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383347"
 ---
 # <a name="pidliddistributionlistoneoffmembers-canonical-property"></a>Каноническое свойство PidLidDistributionListOneOffMembers
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает список единичных записей, соответствующих членов списка рассылки.
   
@@ -47,11 +47,11 @@ ms.locfileid: "22580238"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для контакты и списки рассылки.
     

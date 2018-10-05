@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821
 description: Чтобы помочь пользователям в эффективной Project Online, связанных с нашей службы расширяемость и гибкость, мы добавили два метода для клиентской объектной модели, которые можно использовать в Project Online приложений и рабочих процессов.
-ms.openlocfilehash: 4f8fee5de5efb69f410b78e9ce93b9dc9bb133f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4de42471cd8c2f12a982447ccffc27ec8104fa31
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812942"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386161"
 ---
 # <a name="bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-online"></a>Пакетное обновление настраиваемых полей и создание сайтов проектов из рабочего процесса в Project Online
 
@@ -25,7 +25,7 @@ ms.locfileid: "19812942"
 Помимо большая гибкость, эти методы также предоставляют значительное улучшение производительности при сохранение и публикация проектов в рабочем процессе. В этой статье описывается, как использовать методы в API-Интерфейс REST и содержит инструкции по созданию рабочего процесса, массового обновления настраиваемых полей и рабочего процесса, который создает сайта проекта.
   
 > [!NOTE]
-> Для получения дополнительных сведений о вызове API-интерфейсы REST из рабочих процессов SharePoint 2013, видеть [служб с помощью SharePoint REST из рабочего процесса с помощью метода POST](http://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl) и [вызов API SharePoint 2013 Rest из рабочего процесса SharePoint Designer](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/). 
+> Для получения дополнительных сведений о вызове API-интерфейсы REST из рабочих процессов SharePoint 2013, видеть [служб с помощью SharePoint REST из рабочего процесса с помощью метода POST](https://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl) и [вызов API SharePoint 2013 Rest из рабочего процесса SharePoint Designer](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/). 
   
 ## <a name="bulk-update-project-custom-fields-from-a-workflow"></a>Массовое обновление проекта настраиваемых полей из рабочего процесса
 <a name="BulkUpdateCustomFields"> </a>
@@ -61,7 +61,7 @@ ms.locfileid: "19812942"
   
 ### <a name="to-create-a-workflow-that-bulk-updates-custom-fields"></a>Создание рабочего процесса, что массовое обновление настраиваемых полей
 
-1. Необязательный атрибут. Сохраните полный URL-адрес проекта в переменной, которые можно использовать во всем рабочего процесса.
+1. Необязательный параметр. Сохраните полный URL-адрес проекта в переменной, которые можно использовать во всем рабочего процесса.
     
     ![Хранилище URL-адрес project в переменной] (media/a880c5c6-8e7a-44dd-87e9-7e532169d489.png "Хранилище URL-адрес project в переменной")
   
@@ -77,8 +77,8 @@ ms.locfileid: "19812942"
     
     |Имя|Тип|Значение|
     |:-----|:-----|:-----|
-    |Accept  <br/> |Строка  <br/> |приложение/json; OData = verbose  <br/> |
-    |Content-Type  <br/> |Строка  <br/> |приложение/json; OData = verbose  <br/> |
+    |Accept  <br/> |String  <br/> |приложение/json; OData = verbose  <br/> |
+    |Content-Type  <br/> |String  <br/> |приложение/json; OData = verbose  <br/> |
    
     ![Добавление заголовков Accept] (media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Добавление заголовков Accept")
   
@@ -123,18 +123,18 @@ ms.locfileid: "19812942"
   
        |Имя|Тип|Значение|
        |:-----|:-----|:-----|
-       |Тип/__metadata/customFieldDictionary (0)  <br/> |Строка  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary (0) аудио- и ключа  <br/> |Строка  <br/> |Настраиваемые\_ce23fbf43fa0e411941000155d3c8201  <br/> |
-       |customFieldDictionary (0) / стоимости  <br/> |Строка  <br/> |Запись\_b9a2fd69279de411940f00155d3c8201; #Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
-       |customFieldDictionary (0) или тип значения  <br/> |Строка  <br/> |Edm.String  <br/> |
-       |customFieldDictionary (1) / __metadata/тип  <br/> |Строка  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary (1) запись реестра  <br/> |Строка  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
-       |customFieldDictionary (1) и значений  <br/> |Строка  <br/> |90.5  <br/> |
-       |customFieldDictionary (1) или тип значения  <br/> |Строка  <br/> |Edm.Double  <br/> |
-       |customFieldDictionary (2) / __metadata/тип  <br/> |Строка  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary (2) запись реестра  <br/> |Строка  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
-       |customFieldDictionary (2)-значение  <br/> |Строка  <br/> |2015-04-01T00:00:00.0000000  <br/> |
-       |customFieldDictionary (2) / тип значения  <br/> |Строка  <br/> |Edm.DateTime  <br/> |
+       |Тип/__metadata/customFieldDictionary (0)  <br/> |String  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary (0) аудио- и ключа  <br/> |String  <br/> |Настраиваемые\_ce23fbf43fa0e411941000155d3c8201  <br/> |
+       |customFieldDictionary (0) / стоимости  <br/> |String  <br/> |Запись\_b9a2fd69279de411940f00155d3c8201; #Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
+       |customFieldDictionary (0) или тип значения  <br/> |String  <br/> |Edm.String  <br/> |
+       |customFieldDictionary (1) / __metadata/тип  <br/> |String  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary (1) запись реестра  <br/> |String  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
+       |customFieldDictionary (1) и значений  <br/> |String  <br/> |90.5  <br/> |
+       |customFieldDictionary (1) или тип значения  <br/> |String  <br/> |Edm.Double  <br/> |
+       |customFieldDictionary (2) / __metadata/тип  <br/> |String  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary (2) запись реестра  <br/> |String  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
+       |customFieldDictionary (2)-значение  <br/> |String  <br/> |2015-04-01T00:00:00.0000000  <br/> |
+       |customFieldDictionary (2) / тип значения  <br/> |String  <br/> |Edm.DateTime  <br/> |
    
        ![Словарь, который определяет обновления настраиваемых полей] (media/41a1f18f-a6b2-40ff-904b-437baf962621.png "Словарь, который определяет обновления настраиваемых полей")
   
@@ -158,7 +158,7 @@ ms.locfileid: "19812942"
     
     ![Привязка словарей для заголовка запроса и контента] (media/f96bec92-138e-4eab-b1e7-1ab83d0428a5.png "Привязка словарей для заголовка запроса и контента")
   
-10. Необязательный атрибут. Чтение из словаря ответа для проверки состояния задания очереди и записи данных в списке журнала рабочего процесса.
+10. Необязательный параметр. Чтение из словаря ответа для проверки состояния задания очереди и записи данных в списке журнала рабочего процесса.
     
     ![Настройка ведения журнала] (media/7d2f4936-61d7-4906-83e8-7478a5935af5.png "Настройка ведения журнала")
   
@@ -198,8 +198,8 @@ ms.locfileid: "19812942"
     
     |Имя|Тип|Значение|
     |:-----|:-----|:-----|
-    |Accept  <br/> |Строка  <br/> |приложение/json; OData = verbose  <br/> |
-    |Content-Type  <br/> |Строка  <br/> |приложение/json; OData = verbose  <br/> |
+    |Accept  <br/> |String  <br/> |приложение/json; OData = verbose  <br/> |
+    |Content-Type  <br/> |String  <br/> |приложение/json; OData = verbose  <br/> |
    
     ![Добавление заголовков Accept] (media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Добавление заголовков Accept")
   
@@ -219,6 +219,6 @@ ms.locfileid: "19812942"
 
 - [Задачи программирования Project](project-programming-tasks.md)
 - [Клиентская объектная модель (CSOM) для Project 2013](client-side-object-model-csom-for-project-2013.md)
-- [Рабочие процессы в SharePoint 2013](http://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
+- [Рабочие процессы в SharePoint 2013](https://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
     
 
