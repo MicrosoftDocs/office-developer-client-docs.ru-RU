@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fad9c0fd-b523-db98-ee0d-78aad5914ff2
-ms.openlocfilehash: 536c19aa314db9fca39298536c12464e71a71407
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b37aa2000218acc0663ee8e2db12f01b93c0663
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807724"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388191"
 ---
 # <a name="ienumfbblock"></a>IEnumFBBlock
 
@@ -21,7 +21,7 @@ ms.locfileid: "19807724"
 
 |||
 |:-----|:-----|
-|Наследует от:  <br/> |[Интерфейс IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Наследует от:  <br/> |[Интерфейс IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Предоставлено:  <br/> |Обмен сведениями о доступности поставщика  <br/> |
 |Идентификатор интерфейса:  <br/> |**IEnumFBBlock** <br/> |
    

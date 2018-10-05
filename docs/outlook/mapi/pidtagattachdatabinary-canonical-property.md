@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 629746cedf8c6f4a8c960912a9ab1bcdc7a09e9e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1a5f8688b8ea747590cf2a2d6d5efb271aa488f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574148"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390928"
 ---
 # <a name="pidtagattachdatabinary-canonical-property"></a>Каноническое свойство PidTagAttachDataBinary
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит двоичные вложения данные обычно через интерфейс объекта связывания и внедрения (OLE) **IStream** . 
   
@@ -44,13 +44,13 @@ ms.locfileid: "22574148"
   
 Для объекта хранилища например составные файл в формате документа OLE 2.0, некоторых поставщиков услуг позволяет открыть с помощью интерфейса MAPI **IStreamDocfile** для повышения производительности. Поставщик, который поддерживает **IStreamDocfile** должен предоставлять на **PR_ATTACH_DATA_OBJ** и может при необходимости привести на **PR_ATTACH_DATA_BIN**. 
   
-Дополнительные сведения о интерфейсов OLE и форматов видеть [OLE и передачи данных](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Дополнительные сведения о интерфейсов OLE и форматов видеть [OLE и передачи данных](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

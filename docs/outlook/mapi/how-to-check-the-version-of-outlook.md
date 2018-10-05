@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
 description: '���� ���������� ���������: 7 ������� 2015 �.'
-ms.openlocfilehash: 6369ea8948ae1996b6f88bcacd218b8dcf397306
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a24ae43c84a0631f355a4d7d8dc98a76519563b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574694"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388219"
 ---
 # <a name="check-the-version-of-outlook"></a>Проверка версии Outlook
 
@@ -19,7 +19,7 @@ ms.locfileid: "22574694"
   
 � ���� ������� ��������� ������� ����, ��������� �������� � ������ ������������� ������ Microsoft Outlook, ���� ������������� ������ �������� Microsoft Outlook 2013, Microsoft Outlook 2010, Microsoft Office Outlook 2007 ��� Microsoft Outlook 2003. �������� ������ Outlook � ��������� ������� ���������� ���������, ��� �������� API-���������� MAPI ���������� ������, �������������� � ��������� ����� �������� ������ Outlook.
 
-� ��������� ������� ����,  `PrintOutlookVersionString`�������� ������ ������ ����� � ������� ������� **MsiProvideQualifiedComponent** � **MsiGetFileVersion**, ����������� � ����� Msi.h � Microsoft Windows Development Kit (SDK).  `PrintOutlookVersionString` ����� ���������� ��������� �� ���������� ���� Boolean, �����������, ����������� �� 64-��������� ������ Outlook. �������� � ��������� �������� ��� ��������� ������ ������ ������ ��� ��������� ������ Outlook ���������� [������� ����������� �������� � ������ Outlook](http://support.microsoft.com/kb/870929).
+� ��������� ������� ����,  `PrintOutlookVersionString`�������� ������ ������ ����� � ������� ������� **MsiProvideQualifiedComponent** � **MsiGetFileVersion**, ����������� � ����� Msi.h � Microsoft Windows Development Kit (SDK).  `PrintOutlookVersionString` ����� ���������� ��������� �� ���������� ���� Boolean, �����������, ����������� �� 64-��������� ������ Outlook. �������� � ��������� �������� ��� ��������� ������ ������ ������ ��� ��������� ������ Outlook ���������� [������� ����������� �������� � ������ Outlook](https://support.microsoft.com/kb/870929).
   
 ```cpp
 void PrintOutlookVersionString()

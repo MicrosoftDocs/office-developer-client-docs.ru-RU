@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: Приложение Microsoft InfoPath написано как приложение модели COM и предоставляет программируемые интерфейсы как для внешней автоматизации, так и для скриптов шаблонов форм в качестве COM-интерфейсов.
-ms.openlocfilehash: 09ba36b39e520629764bd57a623e8fb490a63a89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3351a0fee6e23de0785aa28b0970c6a90361f16
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807536"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389031"
 ---
 # <a name="infopath-2003-compatible-object-models"></a>Совместимый объектной модели InfoPath 2003
 
@@ -29,7 +29,7 @@ ms.locfileid: "19807536"
     
 В этой теме описана объектная модель, предоставляемая через сборку взаимодействия Microsoft.Office.Interop.InfoPath.SemiTrust и используемая исключительно для написания и запуска бизнес-логики с управляемым кодом в рамках шаблонов форм InfoPath (XSN). 
   
-Сведения о Microsoft.Office.Interop.InfoPath и Microsoft.Office.Interop.InfoPath.Xml сборки обратитесь к документации по [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.aspx) и [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) пространства имен. 
+Сведения о Microsoft.Office.Interop.InfoPath и Microsoft.Office.Interop.InfoPath.Xml сборки обратитесь к документации по [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) и [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) пространства имен. 
   
 ## <a name="important-installation-information"></a>Важная информация об установке
 
@@ -37,7 +37,7 @@ ms.locfileid: "19807536"
   
 Если эти сборки не установлены, следует убедиться, что приложение Microsoft InfoPath было установлено правильно. Если перед запуском программы установки был установлен пакет .NET Framework 2.0 или более поздней версии, то параметр **Поддержка программирования .NET** в программе установки InfoPath устанавливается на значение **Запускать с моего компьютера** для **Стандартной** установки InfoPath. Если эти сборки взаимодействия недоступны на компьютере, то необходимо убедиться, что установлена платформа .NET Framework 2.0 или более поздней версии, а затем открыть окно **Установка и удаление программ** из **Панели управления** и установить для параметра **Поддержка программирования .NET** значение **Запускать с моего компьютера**.
   
-Сведения о загрузке пакета .NET Framework 2.0 Redistributable см. в статье [.NET Framework 2.0 Redistributable](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5).
+Сведения о загрузке пакета .NET Framework 2.0 Redistributable см. в статье [.NET Framework 2.0 Redistributable](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5).
   
 ## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>Пространство имен Microsoft.Office.Interop.InfoPath.SemiTrust
 

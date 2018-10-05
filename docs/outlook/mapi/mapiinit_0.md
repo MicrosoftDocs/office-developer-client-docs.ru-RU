@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70739711-ff43-407d-bc8b-6baf7a476fef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1eb4d7ac8d0287388a1bb76185f23636eddcf809
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de31fe7d472b143ed8f3c108dca84a019b5ce103
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591676"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391152"
 ---
 # <a name="mapiinit0"></a>MAPIINIT_0
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Передает параметры в функцию [MAPIInitialize](mapiinitialize.md) . 
   
@@ -60,7 +60,7 @@ MAPI_NT_SERVICE
     
 MAPI_NO_COINIT
   
-> Задайте флаг MAPI_NO_COINT, чтобы **MAPIInitialize** не пытается инициализировать COM с помощью вызова [CoInitialize](http://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Если структуры **MAPIINIT_0** передается в **MAPIInitialize** с _ulFlags_ , задайте значение MAPI_NO_COINIT, MAPI будет предполагать, что COM уже инициализирована и обходили вызова **CoInitialize**.
+> Задайте флаг MAPI_NO_COINT, чтобы **MAPIInitialize** не пытается инициализировать COM с помощью вызова [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Если структуры **MAPIINIT_0** передается в **MAPIInitialize** с _ulFlags_ , задайте значение MAPI_NO_COINIT, MAPI будет предполагать, что COM уже инициализирована и обходили вызова **CoInitialize**.
     
 ## <a name="remarks"></a>Замечания
 

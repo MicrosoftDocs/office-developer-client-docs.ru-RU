@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c30aa631e70f8f4be52c2fd42dd6bfad900f379e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 66489c09be641d8fe9ae5f3ffff46a6d5004f473
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566161"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388072"
 ---
 # <a name="managing-memory-in-mapi"></a>Управление памятью в MAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Знать, как и когда для размещения и освободить память является важной частью программирования с использованием MAPI. MAPI предоставляет функции и макросы, которые ваш поставщик клиента или службы можно использовать для управления памяти в едином виде. Три функции, как показано ниже:
   
@@ -43,6 +43,6 @@ ms.locfileid: "22566161"
 |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
 |[SizedDtblLabel](sizeddtbllabel.md) <br/> | <br/> |
    
-Использование интерфейса COM [IMalloc](http://msdn.microsoft.com/en-us/library/ms678425%28VS.85%29.aspx) также поддерживает MAPI для управления памятью. Поставщики услуг назначается указатель интерфейса **IMalloc** с MAPI во время инициализации, а также можно получить от 1 до [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) функции. Основное преимущество с помощью методов **IMalloc** для управления памяти функции MAPI — это, что с методами COM можно перемещать существующий буфер. Функции памяти MAPI не поддерживают перераспределения. 
+Использование интерфейса COM [IMalloc](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx) также поддерживает MAPI для управления памятью. Поставщики услуг назначается указатель интерфейса **IMalloc** с MAPI во время инициализации, а также можно получить от 1 до [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) функции. Основное преимущество с помощью методов **IMalloc** для управления памяти функции MAPI — это, что с методами COM можно перемещать существующий буфер. Функции памяти MAPI не поддерживают перераспределения. 
   
 

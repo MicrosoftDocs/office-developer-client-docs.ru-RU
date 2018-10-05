@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5c4d07bf-4edc-e241-7827-017f96c11957
 description: Представляет ошибки проверки одного документа.
-ms.openlocfilehash: 904b42c969bdf97fcfa1e34bad97f73242b17cc2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ebe7d2d8b2b4627fb9c9e12113ef23ce19db52e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814010"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389843"
 ---
 # <a name="issue-element-issuestype-complextype-visio-xml"></a>Элемент проблему (Issues_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814010"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Validation.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814010"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "19814010"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Задает уникальный идентификатор ошибки проверки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |Игнорируется  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Задает сведения о правиле проверки, относящимися ошибки проверки родительского.  <br/> |Значения типа xsd:boolean.  <br/> |

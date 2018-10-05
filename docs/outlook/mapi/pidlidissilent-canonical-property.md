@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e00d8887-0db4-422d-96db-84cefe65dfc1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 90c72abb0b1ae85593084e844b2965bd84fa346e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d8d27240cc3e897949ae365c4efc881729a0134b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579034"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391614"
 ---
 # <a name="pidlidissilent-canonical-property"></a>Каноническое свойство PidLidIsSilent
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что пользователь не включать любой текст в тексте приглашения на собрание.
   
@@ -39,11 +39,11 @@ ms.locfileid: "22579034"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

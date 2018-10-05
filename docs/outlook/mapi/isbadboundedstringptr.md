@@ -8,26 +8,26 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 888c60e3-7376-4d66-8ee2-ce81abafb185
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 39b4474bcc6bd71993fb5dc42bb2bfc1bf9f5f48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9d5ebb0e16138c3cc65ff6fd7c635e5498c9c1ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573406"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388905"
 ---
 # <a name="isbadboundedstringptr"></a>IsBadBoundedStringPtr
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Проверяет, что вызывающий процесс имеет доступ на чтение для указанного диапазона памяти.
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |mapiwin.h  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения и поставщиков услуг.  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщиков услуг.  <br/> |
    
 ```cpp
 BOOL IsBadBoundedStringPtr(
@@ -46,7 +46,7 @@ BOOL IsBadBoundedStringPtr(
   
 > [in] Максимальный размер строки в символах. Функция проверяет наличие доступ на чтение в все символы до выполнения определенного пустого строки или до числа символов, указанных в этом параметре, какое из значений меньше. Если этот параметр равно нулю, возвращаемое значение равно нулю.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
 Возвращаемое значение равно нулю, когда процесс вызова имеет доступ на чтение к все символы до выполнения определенного пустого строки или доступ на чтение до числа знаков, указанное в _cchMax_.
   
@@ -60,5 +60,5 @@ BOOL IsBadBoundedStringPtr(
 
 
 
-[IsBadStringPtr](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
+[IsBadStringPtr](https://msdn.microsoft.com/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
 

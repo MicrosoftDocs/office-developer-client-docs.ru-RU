@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d7fea7f92a315b9671d17c82a82d5d7d180f4bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584767"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391607"
 ---
 # <a name="writing-a-remote-viewer"></a>Написание удаленного просмотра
 
@@ -37,7 +37,7 @@ ms.locfileid: "22584767"
     
 5. Передайте идентификатор входа для каждой строки в таблице в вызове [IMAPISession::OpenEntry](imapisession-openentry.md). Так как этот интерфейс упакованы из контекста процесса диспетчер очереди MAPI для процесса контекст клиента — в отличие от интерфейсов, как правило, полученный из адресной книги или сообщения хранения поставщиков — проблемы используемого многопоточность являются более важности. 
     
-6. Вызовите метод [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) состояние объекта, передав IID_IMAPIFolder идентификатор интерфейса для получения удаленной папке. Удаленная папка не является реализации папок; Поддержка только подмножество папки методы и свойства. Один из необходимые методы [IMAPIProp::GetProps](imapiprop-getprops.md)поддерживает извлечения следующие свойства:
+6. Вызовите метод [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) состояние объекта, передав IID_IMAPIFolder идентификатор интерфейса для получения удаленной папке. Удаленная папка не является реализации папок; Поддержка только подмножество папки методы и свойства. Один из необходимые методы [IMAPIProp::GetProps](imapiprop-getprops.md)поддерживает извлечения следующие свойства:
     
     |||
     |:-----|:-----|

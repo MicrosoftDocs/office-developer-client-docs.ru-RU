@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 49e5e3f84d747210ba42870be5fc328c83bae883
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 25d1bb121df6470f5038a2106587e3f5b37f6bb7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565902"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386364"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>Каноническое свойство PidTagAutoForwarded
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если клиент запрашивает поле заголовка X-MS-Exchange-организации-автоматически переадресовано.
   
@@ -42,11 +42,11 @@ ms.locfileid: "22565902"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Определяет каждого свойства, которое используется в объектах, описанные с префиксом MS-OXO документы.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
     

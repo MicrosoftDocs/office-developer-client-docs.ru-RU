@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5b3160bb81cee86aeab4e7eecb76fb409d8e7c4b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1992e34a684a6b5894963eae0c299b21c064578c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581610"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390277"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>Получение путь к определенной версии MAPI для почтового клиента по умолчанию
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приводится пример кода c++, который показано, как получить путь к определенной версии MAPI, используемый почтового клиента по умолчанию на компьютере. Почтовые клиенты MAPI имеют возможность указать в реестре настраиваемых DLL, что библиотека заглушка MAPI загружает и отправки MAPI вызывает для. Раздел реестра, чтобы задать для этой библиотеки DLL настраиваемого для почтового клиента по умолчанию — **MSIComponentID**в раздел **HKLM\Software\Clients\Mail** почтового клиента по умолчанию. Функция [FGetComponentPath](fgetcomponentpath.md) , экспортированные библиотекой заглушка MAPI mapistub.dll, можно вернуть путь для настраиваемой версии MAPI, указанное в ключе реестра **MSIComponentID** . 
   
@@ -36,7 +36,7 @@ ms.locfileid: "22581610"
     
 5. Вызывает **FGetComponentPath**, указав значение `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, чтобы получить путь к версии MAPI, используемый Outlook 2007.
     
-Обратите внимание, что для поддержки локализованных копий MAPI для английского языка и языков, кроме английского, пример кода считывает значения для подразделов **MSIApplicationLCID** и **MSIOfficeLCID** вызывает **FGetComponentPath**, сначала указание ** MSIApplicationLCID** *szQualifier* , а затем снова указание **MSIOfficeLCID** как *szQualifier* . Дополнительные сведения о разделах реестра для почтовых клиентов, которые поддерживают языками см [параметр копирование MSI для Your MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx).
+Обратите внимание, что для поддержки локализованных копий MAPI для английского языка и языков, кроме английского, пример кода считывает значения для подразделов **MSIApplicationLCID** и **MSIOfficeLCID** вызывает **FGetComponentPath**, сначала указание ** MSIApplicationLCID** *szQualifier* , а затем снова указание **MSIOfficeLCID** как *szQualifier* . Дополнительные сведения о разделах реестра для почтовых клиентов, которые поддерживают языками см [параметр копирование MSI для Your MAPI DLL](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx).
   
 ```cpp
 // HrGetRegMultiSZValueA 

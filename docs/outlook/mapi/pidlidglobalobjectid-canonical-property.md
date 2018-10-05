@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a4e3f9ab-b7ee-4dff-b7bd-2462c561735c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 173c679b7a94678b1b3b14bf82abf6638ecc5b55
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c7a77e6e295d1433bd617a55656ee15d172f1f06
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575660"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390669"
 ---
 # <a name="pidlidglobalobjectid-canonical-property"></a>Каноническое свойство PidLidGlobalObjectId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает уникальный идентификатор объекта календаря.
   
@@ -37,17 +37,17 @@ ms.locfileid: "22575660"
    
 ## <a name="remarks"></a>Замечания
 
-После задания для объекта календаря, значение этого свойства нельзя изменять. Подробное описание формата можно найти в [[MS-OXOCAL]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
+После задания для объекта календаря, значение этого свойства нельзя изменять. Подробное описание формата можно найти в [[MS-OXOCAL]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

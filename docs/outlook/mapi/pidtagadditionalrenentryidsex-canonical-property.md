@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fcea014ca4c1b1629505127484c44ae990eed855
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 57ab68d4c53693c769a4aadf8737f57ef5e73fcd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590808"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390417"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>Каноническое свойство PidTagAdditionalRenEntryIdsEx
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит запись специальную папку идентификаторы для объекта хранилища. Каждая запись в этом многозначные свойства может быть сопоставлен один или несколько идентификаторов запись, то есть один ко многим взаимосвязь запись и ее связанный запись идентификаторы.
   
@@ -75,7 +75,7 @@ ms.locfileid: "22590808"
 
 |**Имя**|**Значение**|**Значение ElementDataSize**|**Описание**|
 |:-----|:-----|:-----|:-----|
-|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Указывает, что этот блок **ElementData** поле содержит значение DWORD заголовка. Интерпретация это значение зависит от типа **PersistID** блока.  <br/> Для всех типов **PersistID** , указанных в [[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx)это значение равно нулю.  <br/> |
+|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Указывает, что этот блок **ElementData** поле содержит значение DWORD заголовка. Интерпретация это значение зависит от типа **PersistID** блока.  <br/> Для всех типов **PersistID** , указанных в [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx)это значение равно нулю.  <br/> |
 |RSF_ELID_ENTRYID  <br/> |0x0001  <br/> |переменная  <br/> |Указывает, что этот блок содержит **EntryID** папки, указанного идентификатором **PersistID**.  <br/> |
 |ELEMENT_SENTINEL  <br/> |0x0000  <br/> |0x0000  <br/> |Указывает, обработки не несколько блоков **PersistElement** .  <br/> |
    
@@ -85,19 +85,19 @@ ms.locfileid: "22590808"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Включает обработку списки разрешенных и запрещенных и определение нежелательных сообщений электронной почты.
     
-[[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Задает свойства и операции по созданию и поиск специальные папки в почтовом ящике.
     
-[[MS-OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
 > Идентифицирует и помечает сообщения электронной почты, которые предназначены для побудить получателей разглашение конфиденциальной информации (например, пароли и другие личные сведения) чтобы-надежного источника.
     

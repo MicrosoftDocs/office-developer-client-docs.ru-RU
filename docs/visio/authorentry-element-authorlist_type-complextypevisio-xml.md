@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21ca601b-27f0-b30b-a99e-56359bdf594c
 description: Задает свойства, используемые для идентификации автора комментария в документ.
-ms.openlocfilehash: 905dbc5d08cfb2010c9d749e59584cc294e54e86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81e5121a953102c7d2e3a5383ae9bc775af4ba41
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813166"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386335"
 ---
 # <a name="authorentry-element-authorlisttype-complextype-visio-xml"></a>Элемент AuthorEntry (AuthorList_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813166"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Comments.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813166"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19813166"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |На основе одно значение, идентифицирующее автора.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |Initials  <br/> |XSD:String  <br/> |необязательный  <br/> |Инициалы автора.  <br/> |Значения типа xsd:string.  <br/> |

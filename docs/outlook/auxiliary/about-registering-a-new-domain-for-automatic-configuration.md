@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: a7ab8a50-dd30-4ba5-b6d8-e6d1f482e6f1
 description: Outlook предоставляет способ указания нового домена службы сообщений для автоматической настройки и разрешить поставщика услуг сообщения для настройки учетной записи.
-ms.openlocfilehash: c1daea81fe18e5d1088a233a3fcdff076419d6bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf06ff8d145ed6173e3545f784f8b5b7b5f433be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807678"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388604"
 ---
 # <a name="about-registering-a-new-domain-for-automatic-configuration"></a>Сведения о регистрации нового домена для автоматической настройки
 
@@ -35,9 +35,9 @@ Outlook предоставляет способ указания нового д
   
 Если служба указанного сообщений в настоящее время не зарегистрировано в Mapisvc.inf, или установка поставщика услуг сообщения, но библиотеки DLL имеет версию, более ранних чем указанного по меньшей мере, Outlook использует указанный понятное имя и запрос пользователя для установки Поставщик. Если пользователь принимает, Outlook перенаправляет пользователя на указанная папка для установки, чтобы пользователь может установить поставщик. Установка поставщика регистрирует службы сообщений в Mapisvc.inf.
   
-Если служба сообщений в настоящее время зарегистрирован в Mapisvc.inf и библиотеки DLL поставщика службы — это соответствующую версию, Outlook создает службы сообщений с помощью [IMsgServiceAdmin::CreateMsgService](http://msdn.microsoft.com/library/0135f049-0311-45e5-9685-78597d599a4e%28Office.15%29.aspx)и настраивается с помощью [ IMsgServiceAdmin::ConfigureMsgService](http://msdn.microsoft.com/library/a08f5905-2585-49ca-abb7-a77f2736f604%28Office.15%29.aspx). Автоматическая настройка Outlook использует следующие три свойства, позволяющие поставщика для настройки учетной записи: [PidTagAutoConfigurationUserName](http://msdn.microsoft.com/library/05dfa0e2-4ab1-4f57-9009-6a815aca87bd%28Office.15%29.aspx), [PidTagAutoConfigurationUserEmail](http://msdn.microsoft.com/library/845140c8-5454-4b47-acec-ab5aff00b768%28Office.15%29.aspx)и [PidTagAutoConfigurationUserPassword ](http://msdn.microsoft.com/library/d33e7c45-55d8-4dc1-ade9-605542d87e61%28Office.15%29.aspx).
+Если служба сообщений в настоящее время зарегистрирован в Mapisvc.inf и библиотеки DLL поставщика службы — это соответствующую версию, Outlook создает службы сообщений с помощью [IMsgServiceAdmin::CreateMsgService](https://msdn.microsoft.com/library/0135f049-0311-45e5-9685-78597d599a4e%28Office.15%29.aspx)и настраивается с помощью [ IMsgServiceAdmin::ConfigureMsgService](https://msdn.microsoft.com/library/a08f5905-2585-49ca-abb7-a77f2736f604%28Office.15%29.aspx). Автоматическая настройка Outlook использует следующие три свойства, позволяющие поставщика для настройки учетной записи: [PidTagAutoConfigurationUserName](https://msdn.microsoft.com/library/05dfa0e2-4ab1-4f57-9009-6a815aca87bd%28Office.15%29.aspx), [PidTagAutoConfigurationUserEmail](https://msdn.microsoft.com/library/845140c8-5454-4b47-acec-ab5aff00b768%28Office.15%29.aspx)и [PidTagAutoConfigurationUserPassword ](https://msdn.microsoft.com/library/d33e7c45-55d8-4dc1-ade9-605542d87e61%28Office.15%29.aspx).
   
 ## <a name="see-also"></a>См. также
 
-- [Формат файла MapiSvc.inf](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
+- [Формат файла MapiSvc.inf](https://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb48743f-1f7f-47fb-b339-223d9bbf7072
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0a12489ade6f91f8d7c2c227c4f6ca31a6445a19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e82bda6d233c5ddcee9cb8f7976c80314b471dcd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573868"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388331"
 ---
 # <a name="pidnamecreatedatetimereadonly-canonical-property"></a>Каноническое свойство PidNameCreateDateTimeReadOnly
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает время создания файла.
   
@@ -39,11 +39,11 @@ ms.locfileid: "22573868"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые в документах.
     

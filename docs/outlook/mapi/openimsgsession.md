@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 39dd053b2896ebcfcdec97d976af3e75e19f8c0b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 607105bd58a14a3510f1ae71246069440a4f05cb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564957"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389626"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает и открывает сеанс сообщения с группировкой сообщения, создаваемые в ней. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |IMessage.h  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
    
 ```cpp
 SCODE OpenIMsgSession(
@@ -45,7 +45,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
   
-> [in] Указатель на объект распределителя памяти, предоставление интерфейса OLE [IMalloc](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-imalloc) . Необходимо использовать этот метод для распределения при работе с помощью интерфейса OLE [IStorage](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istorage) MAPI. 
+> [in] Указатель на объект распределителя памяти, предоставление интерфейса OLE [IMalloc](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) . Необходимо использовать этот метод для распределения при работе с помощью интерфейса OLE [IStorage](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) MAPI. 
     
  _ulFlags_
   
@@ -55,9 +55,9 @@ SCODE OpenIMsgSession(
   
 > [out] Указатель на указатель на объект сеанса возвращенных сообщений.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK
+S_OK
   
 > Сеанс был открыт.
     
@@ -81,6 +81,6 @@ MAPI_UNICODE
   
  **OpenIMsgSession** используется клиентов и поставщиков, которым требуется возможность обработки нескольких связанных сообщений как объекты OLE **IStorage** . Если только одного сообщения должны быть открыты одновременно, нет необходимости для отслеживания нескольких сообщений и нет причин для создания сеанса сообщения с **OpenIMsgSession**. 
   
-Так как иметь дело с базовым объектом OLE, MAPI необходимо использовать выделения памяти для OLE. Дополнительные сведения об объектах СТРУКТУРИРОВАННОГО хранилища и выделение памяти OLE можно [OLE и передачи данных](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Так как иметь дело с базовым объектом OLE, MAPI необходимо использовать выделения памяти для OLE. Дополнительные сведения об объектах СТРУКТУРИРОВАННОГО хранилища и выделение памяти OLE можно [OLE и передачи данных](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 

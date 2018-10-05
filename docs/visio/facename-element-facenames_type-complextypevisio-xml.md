@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b1783f05-ced1-917f-8298-eca4ecfa3912
 description: Содержит сведения о шрифта.
-ms.openlocfilehash: 8a66d5294e239e4540939cc7053e1f67a777144d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4c8f047d655be167dc058b3e29ac62161887ce99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813709"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389780"
 ---
 # <a name="facename-element-facenamestype-complextype-visio-xml"></a>Элемент название значка (FaceNames_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813709"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813709"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19813709"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |Наборов символов  <br/> |XSD:String  <br/> |необязательный  <br/> |Поддерживаемые кодировки шрифта.  <br/> |Значения типа xsd:string.  <br/> |
 |Флаги  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Флаги, указывающие следующее: отсутствующие шрифта, шрифта по умолчанию, азиатских шрифтов, сложных шрифтов, вертикальной шрифт и тип шрифта.  <br/> |Значения типа xsd:unsignedInt.  <br/> |

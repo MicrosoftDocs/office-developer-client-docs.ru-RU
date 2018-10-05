@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
 description: Задает авторов комментариев в документе.
-ms.openlocfilehash: 0f31e11e52809df60b41cb67b868b15435e0eb47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af1b1889fa3736931c9abde35191cf5cb3e1bbd5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813192"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387743"
 ---
 # <a name="authorlist-element-commentstype-complextype-visio-xml"></a>Элемент AuthorList (Comments_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813192"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Comments.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813192"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 

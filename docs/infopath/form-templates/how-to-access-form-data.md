@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: Флажок расширить функциональность формы InfoPath, часто бывает необходимо программным способом доступа к сведениям о базовом документе XML формы, доступ к данным, который содержит XML-документа или выполнение некоторых действий с документом XML. Объектная модель InfoPath поддерживает доступ к и работа с XML-документом формы посредством использования класса XmlForm в сочетании с классом XmlFormCollection.
-ms.openlocfilehash: c39862fd404575fe95bc1986ce7ab7d9689acfb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8251afcd75391f102215811694515c06b9f3e7e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807526"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386833"
 ---
 # <a name="access-form-data"></a>Доступ к данным форм
 
@@ -62,7 +62,7 @@ ms.locfileid: "19807526"
 |Свойство [Источники данных](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx)  <br/> |Возвращает объект [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) , связанный с формой.  <br/> |
 |Свойство [Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx)  <br/> |Возвращает значение, которое указывает, были ли изменены данные формы с момента ее последнего сохранения.  <br/> |
 |Свойство [Errors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx)  <br/> |Возвращает ссылку на [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) , связанного с формой.  <br/> |
-|Свойство [Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx)  <br/> |Возвращает [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) для доступа к функциям и глобальным переменным, содержащимся в файле кода формы основной формы, использующего [System.Reflection](https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx).  <br/> |
+|Свойство [Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx)  <br/> |Возвращает [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) для доступа к функциям и глобальным переменным, содержащимся в файле кода формы основной формы, использующего [System.Reflection](https://msdn.microsoft.com/library/system.reflection(v=vs.110).aspx).  <br/> |
 |Свойство [FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx)  <br/> |Возвращает ссылку на контейнер свойств [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) типа, которые могут использовать формы с поддержкой браузера для обработки сведений о состоянии сеансов на сервере.  <br/> |
 |Свойство [узла](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx)  <br/> |Возвращает [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx), который код, запущенный в размещенном экземпляре InfoPath, может использовать для доступа к объектной модели внешнего приложения.  <br/> |
 |Свойство [размещенных в узлах](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Hosted.aspx)  <br/> |Возвращает факт размещения InfoPath в качестве элемента управления в другом приложении.  <br/> |

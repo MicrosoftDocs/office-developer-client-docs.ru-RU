@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da318b6f-128a-44b5-8357-a130022030a1
 description: '���� ���������� ���������: 7 ������� 2015 �.'
-ms.openlocfilehash: 0c7cdf754b2a4b38516b1ac06074fdba9d2227f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9d154b26319f5ed72b1abd6aeef307d07a63bda
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577746"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388569"
 ---
 # <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>Отправка сообщений с использованием настраиваемой обработки вложений TNEF
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Для настройки обработки вложений при отправке сообщения:
   
@@ -41,7 +41,7 @@ ms.locfileid: "22577746"
     
 9. Получает текст с тегами сообщения путем вызова метода [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) . Этот текст с тегами считываются с помощью методов из интерфейса **IStream** , кодируются с помощью модели вложения системе обмена сообщениями и записывается в системе обмена сообщениями. 
     
-10. Вызовите метод [функции IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) для освобождения объекта [ITnef](itnefiunknown.md) . 
+10. Вызовите метод [функции IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) для освобождения объекта [ITnef](itnefiunknown.md) . 
     
 11. Написание оставшихся вложения в системе обмена сообщениями через модель вложения системе обмена сообщениями.
     

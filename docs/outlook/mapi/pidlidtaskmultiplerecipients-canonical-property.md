@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f20c3e988c0a0461a966a109a8d345c22e1fccee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b260917e107086dee6176f73b6c82c3a1825327
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585740"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391173"
 ---
 # <a name="pidlidtaskmultiplerecipients-canonical-property"></a>Каноническое свойство PidLidTaskMultipleRecipients
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Рекомендации по оптимизации о получателей задачи.
   
@@ -49,11 +49,11 @@ ms.locfileid: "22585740"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Определяет несколько объектов, которые модель электронный эквивалент задач, назначений задач и обновления задач.
     

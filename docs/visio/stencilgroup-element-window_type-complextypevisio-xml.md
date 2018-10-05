@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
 description: Указывает группу windows объединенные набор элементов, членом которых является окна.
-ms.openlocfilehash: bcc14e5bc685cf3dc5f6308c8cc9169f7d1b99c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c90ad41faa1444875ac6225942d56519adcc0f33
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814933"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386334"
 ---
 # <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>Элемент StencilGroup (Window_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814933"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Windows.XML  <br/> |
    
@@ -36,13 +36,13 @@ ms.locfileid: "19814933"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Окно](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Представляет окно в экземпляре Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Представляет окно в экземпляре Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

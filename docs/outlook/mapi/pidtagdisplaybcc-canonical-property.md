@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ab5bcd67-d54e-46e9-b94e-a652aac3e81c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cd37d72d6a214f91e371b7126c90e3fda25cde2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74669d102462e1a825568615d1d30346e99e90a6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578901"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388261"
 ---
 # <a name="pidtagdisplaybcc-canonical-property"></a>Каноническое свойство PidTagDisplayBcc
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит список ASCII отображаемые имена получателей скрытой копии (СК) сообщения, разделенные точкой с запятой (;).
   
@@ -54,7 +54,7 @@ ms.locfileid: "22578901"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Описывает формат сообщений, используемые для отправки сведения, относящиеся к общим папкам на стороне клиента.
     

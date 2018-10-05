@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 18ce10ad73ba769f0ecc0bd9e4f12096f4227e42
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30d4ad5e0fc1ecdc4c8eb06f75d39e38dd481269
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594546"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389976"
 ---
 # <a name="event-notification-in-mapi"></a>Уведомление о событии в MAPI
 
@@ -59,6 +59,6 @@ ms.locfileid: "22594546"
   
 ![Вызовы уведомлений о событиях] (media/amapi_51.gif "Вызовы уведомлений о событиях")
   
-Mfcmapi (en) **CAdviseSink** класса (с использованием файлов AdviseSink.h и AdviseSink.cpp) реализует объект приемника уведомлений для всех вызовов **уведомлений**. Дополнительные сведения о mfcmapi (en) можно [mfcmapi (en) в качестве примера кода](mfcmapi-as-a-code-sample.md) и [mfcmapi (en)](http://go.microsoft.com/fwlink/?LinkId=124154).
+Mfcmapi (en) **CAdviseSink** класса (с использованием файлов AdviseSink.h и AdviseSink.cpp) реализует объект приемника уведомлений для всех вызовов **уведомлений**. Дополнительные сведения о mfcmapi (en) можно [mfcmapi (en) в качестве примера кода](mfcmapi-as-a-code-sample.md) и [mfcmapi (en)](https://go.microsoft.com/fwlink/?LinkId=124154).
   
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 31cabf50602f9e0f7a70118ddc794387990862ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2d1edf371486c5db0aa8b869726c8a9a7b62ab06
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591270"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389444"
 ---
 # <a name="pidlidautofilllocation-canonical-property"></a>Каноническое свойство PidLidAutoFillLocation
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что свойство **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) — это значение свойству **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) из RecipientRow, который представляет ресурс.
   
@@ -37,17 +37,17 @@ ms.locfileid: "22591270"
    
 ## <a name="remarks"></a>Замечания
 
-Для получения дополнительных сведений о RecipientRow см.: протокол сообщения и вложения объект как указано в [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
+Для получения дополнительных сведений о RecipientRow см.: протокол сообщения и вложения объект как указано в [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

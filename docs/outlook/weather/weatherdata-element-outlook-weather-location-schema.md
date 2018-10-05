@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 14e0c469-31dc-fbe2-0d45-da602df04f13
 description: Определяет элемент прогноза погоды.
-ms.openlocfilehash: 5a3d0ed0fbf8d06472a6d9af727a41d97c0231cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ade57264fab592d3314aa9a3376e129a5f3719c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812952"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391313"
 ---
 # <a name="weatherdata-element-outlook-weather-location-schema"></a>элемент WeatherData (схема местоположения погоды Outlook)
 
@@ -24,7 +24,7 @@ ms.locfileid: "19812952"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> ||
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Файл схемы** <br/> |getweatherlocation.xsd  <br/> |
    
 ## <a name="definition"></a>Определение
@@ -47,7 +47,7 @@ ms.locfileid: "19812952"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 

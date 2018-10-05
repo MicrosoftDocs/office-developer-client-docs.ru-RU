@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 653bdf26988c46be5f866cfbda331510c5a54afd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dea709b457e28efef62718fc388621e01c4eb5bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575709"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387330"
 ---
 # <a name="pidtaglastmodificationtime-canonical-property"></a>Каноническое свойство PidTagLastModificationTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время последнего изменения объекта или вложенные объекты. 
   
@@ -42,15 +42,15 @@ ms.locfileid: "22575709"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Обрабатывает синхронизации обмена сообщениями объект данных между сервером и клиентом.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     

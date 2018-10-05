@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: eec8ea4b4ddee8b6c399bbb4871c286fea4fae3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70932e703511235e9f5e32efd95b18d1b66494e2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588407"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389962"
 ---
 # <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Каноническое свойство PidTagFolderWebViewInfo Cannonical Property
 
@@ -91,7 +91,7 @@ cbData
     
 ### <a name="webviewpersistenceobject-stream-sample"></a>Пример WebViewPersistenceObject потока
 
-В этом разделе описывается пример **WebViewPersistenceObject** потока. Поток URL-адрес домашней страницы "http://www.microsoft.com«. 
+В этом разделе описывается пример **WebViewPersistenceObject** потока. Поток URL-адрес домашней страницы "https://www.microsoft.com«. 
   
  **Дамп данных**
   
@@ -130,6 +130,6 @@ cbData
     
  _wzURL_
   
-> Смещение 0x2C, 0x32 байт: массив 25 WCHARs. Значение нулем строку Юникод: "http://www.microsoft.com«.
+> Смещение 0x2C, 0x32 байт: массив 25 WCHARs. Значение нулем строку Юникод: "https://www.microsoft.com«.
     
 

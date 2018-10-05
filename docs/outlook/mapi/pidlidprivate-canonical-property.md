@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 829cc757-c5e3-40ed-846e-2dcaf9e13b92
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 77393be40db939088b775095cd38f254fb7406df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f4f0c9c1212d8030b2d05ec8a17304d082c06f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570403"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391782"
 ---
 # <a name="pidlidprivate-canonical-property"></a>Каноническое свойство PidLidPrivate
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, будет ли конечный пользователь хочет этот объект сообщения, скрыты от других пользователей, имеющих доступ к объекту сообщения.
   
@@ -39,11 +39,11 @@ ms.locfileid: "22570403"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определение набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

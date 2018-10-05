@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Определяет элементы ячеек, которые могут содержаться в DocumentSheet, таблицы стилей, PageSheet или таблицы свойств фигуры.
-ms.openlocfilehash: 68ea20f3b2a9bebae3d8f6d12e0d818e30685710
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a48e440e40659209fe3a9fd30587204e3ad724ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575632"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391474"
 ---
 # <a name="cell-element-visio-xml"></a>Элемент ячейки ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "22575632"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML, pages.xml, masters.xml, главные # .xml, страницы # .xml  <br/> |
    
@@ -264,7 +264,7 @@ ms.locfileid: "22575632"
 |PageWidth  <br/> |Определяет ширину печатной страницы в единицах документа.  <br/> |[Ячейка PageWidth (раздел "Свойства страницы")](pagewidth-cell-page-properties-section.md) <br/> |
 |PaperKind  <br/> |Указывает тип бумаги для печати на странице.  <br/> |[Ячейка PaperKind (раздел "Свойства печати")](paperkind-cell-print-properties-section.md) <br/> |
 |PaperSource  <br/> |Определяет источник бумаги для страницы.  <br/> |[Ячейка PaperSource (раздел "Свойства печати")](papersource-cell-printproperties-section.md) <br/> |
-|Перспектива  <br/> |Определяет угол перспективы для перспективы вращение, в градусов (0-359.9).  <br/> |[Ячейка Perspective (раздел "Свойства поворота объемной фигуры")](perspective-cell-3-d-rotation-properties-section.md) <br/> |
+|Perspective  <br/> |Определяет угол перспективы для перспективы вращение, в градусов (0-359.9).  <br/> |[Ячейка Perspective (раздел "Свойства поворота объемной фигуры")](perspective-cell-3-d-rotation-properties-section.md) <br/> |
 |PinX  <br/> |Представляет фигуры ПИН-кода (центр вращения) по оси x относительно начала родительского элемента.  <br/> |[Ячейка PinX (раздел "Преобразование фигуры")](pinx-cell-shape-transform-section.md) <br/> |
 |PinY  <br/> |Представляет y (центр вращения) фигуры по оси y относительно начала родительского элемента.  <br/> |[Ячейка PinY (раздел "Преобразование фигуры")](piny-cell-shape-transform-section.md) <br/> |
 |PlaceDepth  <br/> |Определяет способ, с помощью которого выполняется анализ перед созданием макет документа и определяет тип макета.  <br/> |[Ячейка PlaceDepth (раздел "Макет страницы")](placedepth-cell-page-layout-section.md) <br/> |

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27978a09-daf7-4a50-927a-96d9c4a97d02
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c563284eb261d9b1fe4823f5d3ae90629144e1f8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5ead258c056ec2204ddab92e9b99e1b17fe98092
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565629"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391901"
 ---
 # <a name="pidtagscheduleinfodisallowoverlappingappts-canonical-property"></a>Каноническое свойство PidTagScheduleInfoDisallowOverlappingAppts
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если запрещено повторяющейся встречи.
   
@@ -42,15 +42,15 @@ ms.locfileid: "22565629"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Публикует доступности пользователя или ресурса.
     

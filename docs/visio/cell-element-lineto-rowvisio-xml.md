@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64f2494d-2de7-6bc5-0db4-91b952bdcb5e
 description: Содержит x- или y координаты окончания вершины прямой сегмент.
-ms.openlocfilehash: 284b315c156fed8ea3592d2c6825ff6b4bf4c279
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b7d8128cbef57c4dd9fb69d5b82e1c1c2ccef68
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813337"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386595"
 ---
 # <a name="cell-element-lineto-row-visio-xml"></a>Элемент ячейки (LineTo строка) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813337"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |главные # .xml, страницы # .xml  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813337"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19813337"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |E  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает, что формулы оценивается как ошибка. Значение **E** является текущим значением (строка сообщения об ошибке); значение атрибута **V** — это последний допустимое значение.  <br/> |Строка сообщения об ошибке.  <br/> |
 |F  <br/> |XSD:String  <br/> |необязательный  <br/> | Представляет элемент формулы. Этот атрибут может содержать один из следующих строк:  <br/>  (Некоторые формулы) Если формула существует локально  <br/>  `No Formula`Если формула локально удален или заблокирован  <br/>  `Inh`Если наследуется формулу.  <br/> |Формула.  <br/> |

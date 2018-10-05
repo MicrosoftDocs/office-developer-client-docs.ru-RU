@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 13aa6ae2-47b9-2cf4-a6ef-651f1338dd49
 description: Интерфейс IFreeBusyData в интерфейсе API доступности использует концепцию относительное время — это число минут, начиная с 1 января 1601, выраженная в время в формате UTC, и является значение типа LONG.
-ms.openlocfilehash: b83cd46cfcc4d84d4fc3bf000dd8b0acdda545dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b977fc3aebd1f2b20e51f24caa36d6bbf2862ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807700"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386938"
 ---
 # <a name="use-relative-time-to-access-freebusy-data"></a>Использование относительного времени для доступа к данным о доступности
 
@@ -26,7 +26,7 @@ ms.locfileid: "19807700"
     
 Следуйте предыдущего значения максимально и минимально относительно времени для убедитесь, что необходимые значения относительно времени.
   
-Так как NTFS изначально записывает время файлов в формате [FILETIME](http://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) , может быть удобным для использования в следующем примере кода для преобразования относительно времени в **FILETIME**. 
+Так как NTFS изначально записывает время файлов в формате [FILETIME](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) , может быть удобным для использования в следующем примере кода для преобразования относительно времени в **FILETIME**. 
   
 ```cpp
 static const LONGLONG UnitsPerMinute = 600000000; 

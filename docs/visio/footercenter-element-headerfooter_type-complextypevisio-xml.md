@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c2a720cc-544b-f923-5bec-67da31507444
 description: Содержит строку текста, который отображается в центре части нижнего колонтитула документа.
-ms.openlocfilehash: d164263c93775dcb8baea80781a876fb1caec39a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 931dcd60604adb033fb5334e6fc7fdffe3a8193c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813797"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387428"
 ---
 # <a name="footercenter-element-headerfootertype-complextype-visio-xml"></a>Элемент FooterCenter (HeaderFooter_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813797"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[FooterCenter_Type](footercenter_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813797"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 

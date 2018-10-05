@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bb5667b9-22d6-5913-a170-626f8c93e2f9
 description: Указывает, отображаются ли линейки в окне документа.
-ms.openlocfilehash: 7d029a4e64e29e7d04ba6211a1432beedf6ccc0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 96d50e1ad6f14ff192906c38f845dfa3881eca1d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814873"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386742"
 ---
 # <a name="showrulers-element-windowtype-complextype-visio-xml"></a>Элемент ShowRulers (Window_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814873"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[ShowRulers_Type](showrulers_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Windows.XML  <br/> |
    
@@ -36,13 +36,13 @@ ms.locfileid: "19814873"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Окно](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Представляет окно в экземпляре Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Представляет окно в экземпляре Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

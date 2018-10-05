@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bc61fb1ac3fce317be283b7f05813ad485791cea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f05fa0816db3b412329372ad392c673c240eb59e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563536"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389101"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>Каноническое свойство PidTagAttachMimeTag
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения о форматировании о вложении Multipurpose Internet Mail Extensions (MIME). 
   
@@ -44,11 +44,11 @@ ms.locfileid: "22563536"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Задает свойства управляемый правами закодированный сообщений.
     

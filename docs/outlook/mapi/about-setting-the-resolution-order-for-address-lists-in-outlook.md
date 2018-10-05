@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: '���� ���������� ���������: 5 ���� 2012 �.'
-ms.openlocfilehash: 22d56ffac5d9d628b04e364fa772ddc8de488a31
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07a4c3e90f686f291f95ff87f337b54d8bf35edc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578656"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391411"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>� ��������� ��������� ���������� ��� ������� ������� � Outlook
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Для каждого профиля Microsoft Office Outlook поддерживает несколько списков адресов и пользователи могут вручную задать порядок списков адресов в список получателей электронной почты разрешаются сообщений и участниками в рабочей области приглашений на собрания. �������� ����� ������ ������� ���������, ����� ����� ����������� ������� �������� ����� Outlook � ����� � ���������� ������ �������. �� ���������� ������������ ����� ������� �������� �����, ������� ������ **������** � �������� **���������**, ����� ������� ���� ������� ���������. ��� �� ����� � ������������� �����, ����� ����������� ��� ��-��������������� ���������� �������� ������� ������� �������, ������� ����������� �����. ����� ��� ����� ������������ � �������� ����� ������� �������� �������������, ������������� ������������ ������ �����������. 
   
@@ -27,6 +27,6 @@ ms.locfileid: "22578656"
   
 - [Программная установка порядка разрешения для списков адресов](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
     
-- [������ ���� ������ 292590: ��� �������� ������� ���������� �������� ����� � SetSearchPath](http://support.microsoft.com/kb/292590)
+- [������ ���� ������ 292590: ��� �������� ������� ���������� �������� ����� � SetSearchPath](https://support.microsoft.com/kb/292590)
     
 

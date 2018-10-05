@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f0717dad6c32906995938c2b00d59f9ee96ff6e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ed8bace97dee3842243ed835769e80e8aaf6b03
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591074"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387533"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Регистрирует просмотра формы для уведомлений о событиях, которые влияют на форме.
   
@@ -44,9 +44,9 @@ HRESULT Advise(
   
 > [out] Указатель на ненулевое значение, представляющее регистрации успешного уведомлений.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Регистрация прошла успешно.
     
@@ -58,9 +58,9 @@ E_OUTOFMEMORY
 
 Средства просмотра формы вызов метода **IMAPIForm::Advise** формы для регистрации уведомлений при внесении изменений в форме. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
-Сохранить копию представления уведомить указателя приемника, переданной в параметре _pAdvise_ , которые можно использовать для вызова метода соответствующие [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) при возникновении события. Вызов представление уведомить метода [IUnknown::AddRef's](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) приемника для сохранения указателя до его отмены регистрации уведомлений. Содержимое для параметра _pulConnection_ значение ненулевое число. 
+Сохранить копию представления уведомить указателя приемника, переданной в параметре _pAdvise_ , которые можно использовать для вызова метода соответствующие [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) при возникновении события. Вызов представление уведомить метода [IUnknown::AddRef's](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) приемника для сохранения указателя до его отмены регистрации уведомлений. Содержимое для параметра _pulConnection_ значение ненулевое число. 
   
 Многие формы реализовать вспомогательный объект для обработки регистрации и последующие уведомления о событиях. 
   

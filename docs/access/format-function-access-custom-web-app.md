@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: Возвращает значение, отформатированное в соответствии с указанному шаблону.
-ms.openlocfilehash: 974b56ab8e6bc3f97c1931ba67ca9cd08c3511c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1739f87fd6e77c91aa66a64c0b7520fa6a641e95
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806976"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387799"
 ---
 # <a name="format-function-access-custom-web-app"></a>Функция Format (приложение настраиваемых web Access)
 
@@ -36,13 +36,13 @@ ms.locfileid: "19806976"
 
 Для параметра *Format* вы можете передать строк, соответствующих любой из следующих шаблонов: 
   
-- [Строки стандартного числового формата](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx)
+- [Строки стандартного числового формата](https://msdn.microsoft.com/library/dwhawy9k%28v=vs.110%29.aspx)
     
-- [Строки настраиваемых числовых форматов](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.110%29.aspx)
+- [Строки настраиваемых числовых форматов](https://msdn.microsoft.com/library/0c899ak8%28v=vs.110%29.aspx)
     
-- [Стандартный формат даты и времени форматирования строк](http://msdn.microsoft.com/en-us/library/az4se3k1%28v=vs.110%29.aspx)
+- [Стандартный формат даты и времени форматирования строк](https://msdn.microsoft.com/library/az4se3k1%28v=vs.110%29.aspx)
     
-- [Настраиваемые даты и времени форматирования строк](http://msdn.microsoft.com/en-us/library/8kb3ddd4%28v=vs.110%29.aspx)
+- [Настраиваемые даты и времени форматирования строк](https://msdn.microsoft.com/library/8kb3ddd4%28v=vs.110%29.aspx)
     
 Функция **Format** нельзя использовать в следующих областях веб-приложений Access 2013: 
   

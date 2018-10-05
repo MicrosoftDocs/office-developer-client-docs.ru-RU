@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c9d769e6a32fad22750a965debbbdce83e4de539
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3f0d98b8ffa13fe238fc0fcf8ff0ec76a3a284eb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586461"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390459"
 ---
 # <a name="ipersistmessagegetclassid"></a>IPersistMessage::GetClassID
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает идентификатор, представляющий сервера форм для управления формы. 
   
@@ -39,9 +39,9 @@ HRESULT GetClassID(
   
 > [in, out] Указатель на идентификатор класса (CLSID) формы.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Идентификатор класса успешно возвращен.
     
@@ -49,7 +49,7 @@ HRESULT GetClassID(
 
 Метод **IPersistMessge::GetClassID** задает содержимое параметра _lpClassID_ идентификатор класса сервера форм и возвращает значение S_OK. Когда форма просмотра вызывает **GetClassID** и его пройдет успешно, формы переводится в состояние [не инициализировано](uninitialized-state.md) . 
   
-Дополнительные сведения об использовании идентификаторов классов в структурированных объектов хранилища метод [IPersist::GetClassID](http://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) см. 
+Дополнительные сведения об использовании идентификаторов классов в структурированных объектов хранилища метод [IPersist::GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) см. 
   
 ## <a name="see-also"></a>См. также
 

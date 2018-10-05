@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8b3aea70-a69f-a85e-83d8-c0fa2ee68836
 description: Содержит x или y координаты конечной точки кривая Безье относительно фигуры ширину и высоту или x и y координаты контрольной точки фигуры график относительно ширины и высоты.
-ms.openlocfilehash: 5f823e5930d3dad8bf6e20727e4b527493f89892
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 986ed0a5f6e79f13b92f2ede54361916d9681e17
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813360"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388674"
 ---
 # <a name="cell-element-relquadbezto-row-visio-xml"></a>Элемент ячейки (строка RelQuadBezTo) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813360"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |главные # .xml, страницы # .xml  <br/> |
    
@@ -50,7 +50,7 @@ ms.locfileid: "19813360"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |E  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает, что формулы оценивается как ошибка. Значение **E** является текущим значением (строка сообщения об ошибке); значение атрибута **V** — это последний допустимое значение.  <br/> |Строка сообщения об ошибке.  <br/> |
 |F  <br/> |XSD:String  <br/> |необязательный  <br/> | Представляет элемент формулы. Этот атрибут может содержать один из следующих строк:  <br/>  (Некоторые формулы) Если формула существует локально  <br/>  `No Formula`Если формула локально удален или заблокирован  <br/>  `Inh`Если наследуется формулу.  <br/> |Формула.  <br/> |

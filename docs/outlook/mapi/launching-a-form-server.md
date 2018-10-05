@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 87299ce4335492a744dd4ee965b4f8b85bcedc84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dec8706ba00356660ec82c25e0213ef3e638691d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564894"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387729"
 ---
 # <a name="launching-a-form-server"></a>Запуск сервера форм
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Последовательность взаимодействия, которая происходит при загрузке формы из постоянного хранилища (то есть, из библиотеки форм) для отображения сообщения выглядит следующим образом:
   
@@ -29,7 +29,7 @@ ms.locfileid: "22564894"
     
 3. Диспетчер форм загружает сервера форм из библиотеки соответствующих свойств. Если сервер формы в качестве целевого сообщения не установлен, диспетчер форм устанавливает формы исполняемые файлы, а также.
     
-4. Диспетчер форм вызывает [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) для объекта формы для получения объекта формы [IMAPIForm: IUnknown](imapiformiunknown.md) и [IPersistMessage: IUnknown](ipersistmessageiunknown.md) интерфейсов. 
+4. Диспетчер форм вызывает [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) для объекта формы для получения объекта формы [IMAPIForm: IUnknown](imapiformiunknown.md) и [IPersistMessage: IUnknown](ipersistmessageiunknown.md) интерфейсов. 
     
 5. Диспетчер форм вызывает [IPersistMessage::Load](ipersistmessage-load.md) с сообщением интерфейсы сайта и сообщения из объекта средства просмотра. 
     

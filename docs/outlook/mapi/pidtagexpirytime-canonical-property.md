@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 21e052545c9c5e68bf1bc2f8c1ead054163f3b8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d6fa58e61dde30292487c95fb8a74d568a3bbeb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566147"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388471"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>Каноническое свойство PidTagExpiryTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время, когда система обмена сообщениями можно объявить недействительным содержимое сообщения. 
   
@@ -42,11 +42,11 @@ ms.locfileid: "22566147"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые в сообщениях электронной почты.
     

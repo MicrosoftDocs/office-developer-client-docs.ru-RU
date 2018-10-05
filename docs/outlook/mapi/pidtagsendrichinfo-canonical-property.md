@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a1db4ba7a70695b17631ca13f1728043be8164bd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7ad27d757d4ed6df58c597bf17d9e5412f83457
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575968"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386441"
 ---
 # <a name="pidtagsendrichinfo-canonical-property"></a>Каноническое свойство PidTagSendRichInfo
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если получатель может получать все содержимое сообщения, включая форматированный текст (RTF) и объектов внедрения (OLE). 
   
@@ -59,19 +59,19 @@ ms.locfileid: "22575968"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > из соглашения о стандартных электронной почты Интернета для сообщения объектов.
     

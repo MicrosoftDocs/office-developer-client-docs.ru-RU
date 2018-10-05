@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9db1f8e163e44a44df1e798cebccb3639325275e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579860"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391432"
 ---
 # <a name="mapi-profiles"></a>Профили MAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В профиле хранятся сведения о поставщиках службы и службы сообщений, установленные на компьютере. Для каждого сеанса клиента во время входа выбирает один профиль, который описывает поставщики и служб, которые будут использоваться. Клиент можно выбрать из коллекции профилей и, при желании установить одно по умолчанию. Профиль по умолчанию является профиль, который выбран, автоматически при запуске сеанса и имеет без явного указания профиля клиента.
   
@@ -29,7 +29,7 @@ ms.locfileid: "22579860"
     
 - [Поток автозаполнения](autocomplete-stream.md)
     
-- [Синтаксический анализ двоичных файлов](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+- [Синтаксический анализ двоичных файлов](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
     
 ## <a name="profile-sections"></a>Разделы профилей
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 592d9c78-4487-4c68-8ae7-4cd3d6265685
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 06462f992ec640992b95b89a618e7d82290eeeef
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a257934411bb11a30378ee46317d323156f53e31
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574505"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387295"
 ---
 # <a name="pidtagscheduleinfodelegatenames-canonical-property"></a>Каноническое свойство PidTagScheduleInfoDelegateNames
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имена делегаты.
   
@@ -42,11 +42,11 @@ ms.locfileid: "22574505"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Указывает методы для подключений и настройки почтовых ящиков как делегаты и взаимодействия с объектами сообщений и календаря, когда они действовать от имени другого пользователя.
     

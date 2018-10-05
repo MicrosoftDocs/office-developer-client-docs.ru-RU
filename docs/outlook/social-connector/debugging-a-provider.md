@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
 description: 'Существует несколько способов, чтобы выполнить отладку поставщика Outlook Social Connector (OSC):'
-ms.openlocfilehash: ada439ca3b038ca9a0e849b47ff6a5f54e5016f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39deb7b6c0b11460826bdbf1957ffd8404d926e5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812714"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386854"
 ---
 # <a name="debugging-a-provider"></a>Отладка поставщика
 
@@ -39,7 +39,7 @@ ms.locfileid: "19812714"
   
 В следующей таблице описываются кнопки отладки.
   
-|**Отладка кнопки**|**�������**|
+|**Отладка кнопки**|**Функция**|
 |:-----|:-----|
 |Синхронизация контактов  <br/> |Вызывает OSC для запроса у поставщика OSC только кэшированные контакты.  <br/> |
 |Синхронизация глобального списка адресов  <br/> |Вызывает OSC для заполнения данными из глобального списка адресов Exchange в список контактов.  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "19812714"
    
 ## <a name="fiddler"></a>Fiddler
 
-Fiddler — это средство отладки по сети для проверки вызовов API, отправленные от поставщика в социальной сети и XML, отправленные с социальной сети к поставщику. Fiddler доступно для загрузки в [Fiddler отладки прокси-сервера](http://www.fiddler2.com/fiddler2/version.asp).
+Fiddler — это средство отладки по сети для проверки вызовов API, отправленные от поставщика в социальной сети и XML, отправленные с социальной сети к поставщику. Fiddler доступно для загрузки в [Fiddler отладки прокси-сервера](https://www.fiddler2.com/fiddler2/version.asp).
   
 ## <a name="see-also"></a>См. также
 

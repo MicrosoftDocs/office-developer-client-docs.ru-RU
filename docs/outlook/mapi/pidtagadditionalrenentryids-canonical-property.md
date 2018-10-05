@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5b357a068249b12468be52f8782f646f394e4060
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4984055d370f3f8ab617b11b2d834ba277ef105a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567827"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391397"
 ---
 # <a name="pidtagadditionalrenentryids-canonical-property"></a>Каноническое свойство PidTagAdditionalRenEntryIds
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит запись идентификаторы из специальных папок. 
   
@@ -52,19 +52,19 @@ ms.locfileid: "22567827"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Задает свойства и операции по созданию и поиск специальные папки в почтовом ящике.
     
-[[MS-OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
 > Идентифицирует и помечает сообщения электронной почты, которые предназначены для побудить получателей разглашение конфиденциальной информации (например, пароли и другие личные сведения) чтобы-надежного источника.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Включает обработку списки разрешенных и запрещенных и определение нежелательных сообщений электронной почты.
     
@@ -89,5 +89,5 @@ Mapidefs.h
 [Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 
 
-[Сведения об API хранилищ](http://msdn.microsoft.com/en-us/library/aa192884.aspx)
+[Сведения об API хранилищ](https://msdn.microsoft.com/library/aa192884.aspx)
 

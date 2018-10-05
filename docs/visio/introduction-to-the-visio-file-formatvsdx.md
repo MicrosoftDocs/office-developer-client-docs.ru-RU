@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: Сведения о новом формате в Visio 2013 некоторые высокого уровня понятия по работе с формат файлов Visio 2013 программными средствами и создание простого консольного приложения, которое проверяет файл Visio 2013.
-ms.openlocfilehash: aa3497af7c467c8f51ab80ab82071776568b4978
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4efa90ee513def005653f4f8717b0149de1cdc3d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813971"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389367"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Общие сведения о формате файлов Visio (VSDX)
 
@@ -50,7 +50,7 @@ Visio 2013 представлен новый формат файла (vsdx (en) 
 Формат файлов Visio 2013 использует Open упаковки Conventions (OPC), определяющий структурированных означает, что для хранения данных приложения вместе с другими материалами, с помощью контейнера некоторые примеры sort─for в ZIP-файле. В общем случае файла Visio 2013 все сводится к ZIP-контейнер, содержащий других типов файлов. На самом деле сохранения документа в Visio 2013 в формате vsdx (en), измените расширение файла для "\*.zip» в проводнике Windows и затем откройте файл как папку, чтобы просмотреть его содержимое.
   
 > [!NOTE]
->  В этой статье содержится краткий обзор Open Packaging Conventions. Можно найти более подробные покрытия условные обозначения в других статьях: > Дополнительные сведения об Open Packaging Conventions сами можно [OPC: новый стандарт упаковки данных](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx). > Дополнительные сведения об Open Packaging Conventions и их использование в файлы Microsoft Office можно [основные моменты спецификаций Open Packaging Conventions](http://msdn.microsoft.com/en-us/library/ee361919.aspx) и [Краткие сведения о форматах файлов Office (2007) Open XML](http://msdn.microsoft.com/en-us/library/aa338205.aspx). 
+>  В этой статье содержится краткий обзор Open Packaging Conventions. Можно найти более подробные покрытия условные обозначения в других статьях: > Дополнительные сведения об Open Packaging Conventions сами можно [OPC: новый стандарт упаковки данных](https://msdn.microsoft.com/magazine/cc163372.aspx). > Дополнительные сведения об Open Packaging Conventions и их использование в файлы Microsoft Office можно [основные моменты спецификаций Open Packaging Conventions](https://msdn.microsoft.com/library/ee361919.aspx) и [Краткие сведения о форматах файлов Office (2007) Open XML](https://msdn.microsoft.com/library/aa338205.aspx). 
   
 ### <a name="packages-and-package-parts"></a>Пакеты и части пакета
 
@@ -134,7 +134,7 @@ Visio 2013 представлен новый формат файла (vsdx (en) 
 ## <a name="developer-scenarios-for-working-with-the-visio-2013-file-format"></a>Сценарии разработчика для работы с формат файлов Visio 2013
 <a name="vis15_IntroVSDX_Scenarios"> </a>
 
-Как описано выше в формат файлов Visio 2013 использует несколько общепризнанным технологии, такие как ZIP-файлы и XML для хранения данных. Для работы с Visio 2013 рисования на уровне файлов, решения должны только для использования платформы .NET Framework пространства имен и классы, связанные с работой ZIP-файлы или XML, например, [System.IO.Packaging](http://msdn.microsoft.com/en-us/library/system.io.packaging%28v=vs.110%29.aspx) или [System.Xml](http://msdn.microsoft.com/en-us/library/system.xml%28v=vs.110%29.aspx).
+Как описано выше в формат файлов Visio 2013 использует несколько общепризнанным технологии, такие как ZIP-файлы и XML для хранения данных. Для работы с Visio 2013 рисования на уровне файлов, решения должны только для использования платформы .NET Framework пространства имен и классы, связанные с работой ZIP-файлы или XML, например, [System.IO.Packaging](https://msdn.microsoft.com/library/system.io.packaging%28v=vs.110%29.aspx) или [System.Xml](https://msdn.microsoft.com/library/system.xml%28v=vs.110%29.aspx).
   
 Ключевые преимущества для разработчиков в формат файлов Visio 2013 является чтение и запись файлов Visio 2013 без автоматизации клиентского приложения Visio. Некоторые сценарии, в которых может потребоваться разработчик, для работы с формат файлов Visio 2013 включают:
   
@@ -284,12 +284,12 @@ Visio 2013 представлен новый формат файла (vsdx (en) 
 
 Дополнительные сведения о формате файла Visio 2013, Open Packaging Convention или как можно программно работать с файлами Office OpenXML 2013or Visio можно ознакомьтесь со следующими ресурсами:
   
-- [Visio для разработчиков (en)](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [Visio для разработчиков (en)](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [OPC: новый стандарт упаковки данных](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx).
+- [OPC: новый стандарт упаковки данных](https://msdn.microsoft.com/magazine/cc163372.aspx).
     
-- [Основные моменты спецификаций Open Packaging Conventions](http://msdn.microsoft.com/en-us/library/ee361919.aspx)
+- [Основные моменты спецификаций Open Packaging Conventions](https://msdn.microsoft.com/library/ee361919.aspx)
     
-- [Введение в форматы файлов Office (2007) Open XML](http://msdn.microsoft.com/en-us/library/aa338205.aspx)
+- [Введение в форматы файлов Office (2007) Open XML](https://msdn.microsoft.com/library/aa338205.aspx)
     
 

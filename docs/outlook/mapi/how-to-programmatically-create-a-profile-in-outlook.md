@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: В этой статье описано, как программно обновить профиль в Outlook 2016, добавив свойство MAPI в раздел emsuid объекта Profile.
-ms.openlocfilehash: fbd2dffc637cad022f78c9986eccd91a2c1fe4bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85d084705c1e36f5fe3b0ed268094f86b38d6383
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808626"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391054"
 ---
 # <a name="programmatically-create-a-profile-in-outlook"></a>Программное создание профиля в Outlook
 
@@ -25,7 +25,7 @@ ms.locfileid: "19808626"
 
 1. Убедитесь, что свойство для Outlook 2016 настроено.
     
-2. С помощью интерфейса [IMAPIProp](https://msdn.microsoft.com/ru-RU/library/cc815525.aspx) перейдите к разделу "Профиль Outlook". 
+2. С помощью интерфейса [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) перейдите к разделу "Профиль Outlook". 
     
    Это может быть сложно в MAPI Outlook, так как в версии 2010 и более поздних больше нет раздела глобального профиля. Чтобы найти раздел профиля, найдите свойство PR_EMSMDB_SECTION_UID (0x3D150102). Значением будет идентификатор GUID раздела профиля, сохраненный в двоичной форме, который будет использоваться при выполнении последующих шагов. Это значение нужно записать. 
     
@@ -316,10 +316,10 @@ Cleanup:
 
 ## <a name="use-mfcmapi-to-configure-outlook-profiles"></a>Настройка профилей Outlook с помощью MFCMAPI
 
-[MFCMAPI](http://mfcmapi.codeplex.com) предоставляет доступ к магазинам MAPI для изучения проблем с Exchange и Outlook, а также для предоставления разработчикам поддержки по MAPI. 
+[MFCMAPI](https://mfcmapi.codeplex.com) предоставляет доступ к магазинам MAPI для изучения проблем с Exchange и Outlook, а также для предоставления разработчикам поддержки по MAPI. 
   
 ## <a name="see-also"></a>См. также
 
-- [Создание профиля Outlook с помощью MFCMAPI](https://msdn.microsoft.com/ru-RU/library/office/mt723322.aspx)
+- [Создание профиля Outlook с помощью MFCMAPI](https://msdn.microsoft.com/library/office/mt723322.aspx)
   
 

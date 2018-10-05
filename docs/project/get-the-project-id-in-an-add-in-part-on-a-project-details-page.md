@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: Добавьте в части размещаются в iframe элементы, которые являются полностью изолирована от внешнего размещения страницы. Для получения сведений о текущем проекте из части надстройки на страницу сведений о Project (PDP), можно использовать метод window.postMessage, прослушиватель событий и обработчик событий, который разбор код проекта из сообщения.
-ms.openlocfilehash: d9f6d02f328860f46784f86c049581fa28bb4749
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ffaf9cb7dac783a754b2d56b5ece4d5a7a0319be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594427"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389885"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Получение ИД проекта в веб-части надстройки на странице сведений о проекте
 
@@ -38,7 +38,7 @@ ms.locfileid: "22594427"
             
         - Необходимо войти в систему как кто-то отличную от учетной записи системы. Системную учетную запись не имеет разрешения, чтобы установить надстройку.
     
-[Необходимые условия для создания надстройки уровня приложения для Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) более подробные сведения о надстройках для проекта. В разделе [Настройка локальной среды разработки для SharePoint надстройки](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) рекомендации для локальной установки (включая отключение проверки замыкания на себя при необходимости). При разработке удаленно, видеть [Разработка приложений для SharePoint в удаленной системе](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
+[Необходимые условия для создания надстройки уровня приложения для Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) более подробные сведения о надстройках для проекта. В разделе [Настройка локальной среды разработки для SharePoint надстройки](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) рекомендации для локальной установки (включая отключение проверки замыкания на себя при необходимости). При разработке удаленно, видеть [Разработка приложений для SharePoint в удаленной системе](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
   
 ## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>Создание размещенных в SharePoint и надстройка клиентского веб-части
 <a name="CreateApp"> </a>
@@ -157,7 +157,7 @@ ms.locfileid: "22594427"
   
 В файле AppManifest.xml укажите разрешения, которые надстройка требуется доступ к Project Server данных или данных SharePoint. 
   
-В разделе [Создание надстройки частей для установки с помощью надстройки SharePoint](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) в этой статье описывается установка настраиваемых свойств для части надстройки. 
+В разделе [Создание надстройки частей для установки с помощью надстройки SharePoint](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx) в этой статье описывается установка настраиваемых свойств для части надстройки. 
   
 ## <a name="example-getting-the-project-id-in-an-add-in-part-on-a-pdp-page"></a>Пример: Начало код проекта в части надстройки на странице страница сведений о Проекте
 <a name="CodeExample"> </a>
@@ -252,6 +252,6 @@ ms.locfileid: "22594427"
 
 - [Задачи программирования Project](project-programming-tasks.md)
 - [Создание надстройки Project Server с размещением в SharePoint](create-a-sharepoint-hosted-project-server-add-in.md)
-- [Создание веб-частей надстройки для установки совместно с надстройкой SharePoint](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
+- [Создание веб-частей надстройки для установки совместно с надстройкой SharePoint](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
     
 

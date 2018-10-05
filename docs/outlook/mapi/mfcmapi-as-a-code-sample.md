@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b4d46dc8a84b52605d09a694e6873cb3813ae5b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d72c224db8b3ae4bb6fee3d34f73d9949cda6b8d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578117"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391663"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>Mfcmapi (en) в качестве примера кода
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Пример mfcmapi (en) использует API системы обмена сообщениями для предоставления доступа к хранилищам MAPI через графический интерфейс пользователя. После загрузки в этом примере исходные файлы можно использовать для проверки случаев использования пример для многих интерфейсов MAPI и справочные материалы. Для получения дополнительных сведений см. [MAPI](mapi-interfaces.md).
   
@@ -27,7 +27,7 @@ ms.locfileid: "22578117"
    
 ### <a name="to-download-mfcmapi"></a>Чтобы загрузить mfcmapi (en)
   
-1. На странице [mfcmapi (en)](http://codeplex.com/MFCMAPI) перейдите на вкладку **Исходный код** . 
+1. На странице [mfcmapi (en)](https://codeplex.com/MFCMAPI) перейдите на вкладку **Исходный код** . 
     
 2. В разделе **Последние возврата**нажмите кнопку **загрузить** для последнего построения. 
     

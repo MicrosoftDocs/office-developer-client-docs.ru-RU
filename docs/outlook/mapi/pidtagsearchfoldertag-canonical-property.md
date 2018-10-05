@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7d5f63a7a57a01096151b3b6992796381ebddbdc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a4ad72c147abebfe9863d19690bc9f27f00544a2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574519"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386924"
 ---
 # <a name="pidtagsearchfoldertag-canonical-property"></a>Каноническое свойство PidTagSearchFolderTag
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение, используемое для синхронизации этого определение сообщения с совпадающим контейнер папки поиска.
   
@@ -40,11 +40,11 @@ ms.locfileid: "22574519"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Задает свойства и операции для управления конфигурации список папок поиска.
     

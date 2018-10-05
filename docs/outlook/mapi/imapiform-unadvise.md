@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fdda45e2-631d-404c-8af4-bce68df0968b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 33287d8ac6b1faeba8b8746a95850f6fd1c37462
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 770ceb7af98f5271baad65043e013feb353d231a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579489"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390473"
 ---
 # <a name="imapiformunadvise"></a>IMAPIForm::Unadvise
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отменяет регистрацию для уведомлений с помощью средства просмотра формы, ранее установленные путем вызова [IMAPIForm::Advise](imapiform-advise.md).
   
@@ -39,9 +39,9 @@ HRESULT Unadvise(
   
 > [in] Число подключений, определяющее регистрации уведомлений, чтобы отменить.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Регистрация отменена.
     
@@ -53,9 +53,9 @@ E_INVALIDARG
 
 Средства просмотра форм вызовите метод **IMAPIForm::Unadvise** для отмены регистрации для уведомлений, сначала установить путем вызова метода **IMAPIForm::Advise** . 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
-Отменить указатель, содержат представление формы просмотра уведомить приемник путем вызова метода [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . Как правило, называется **выпуска** во время вызова **Unadvise** . Тем не менее если другой поток находится в процессе вызова одного из методов [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) для представления уведомить приемник, задержки звонка **выпуска** до возвращения методом **IMAPIViewAdviseSink** . 
+Отменить указатель, содержат представление формы просмотра уведомить приемник путем вызова метода [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . Как правило, называется **выпуска** во время вызова **Unadvise** . Тем не менее если другой поток находится в процессе вызова одного из методов [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) для представления уведомить приемник, задержки звонка **выпуска** до возвращения методом **IMAPIViewAdviseSink** . 
   
 ## <a name="see-also"></a>См. также
 

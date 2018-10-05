@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee735ae8-e527-4538-a633-c3f57a36f0a1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f1d7174d6af73b74be7dbba6065ad799a728ae41
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4fa7647de7edc6b731b39048777db79b4e193afb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594518"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391138"
 ---
 # <a name="pidlidlinkedtaskitems-canonical-property"></a>Каноническое свойство PidLidLinkedTaskItems
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает список задач, относящихся к календарю со значением свойства **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
   
@@ -43,11 +43,11 @@ ms.locfileid: "22594518"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

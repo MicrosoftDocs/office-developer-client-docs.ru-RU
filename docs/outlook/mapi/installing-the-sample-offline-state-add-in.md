@@ -6,24 +6,24 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
 description: 'Последнее изменение: 06 июля 2012 г.'
-ms.openlocfilehash: 7616c3a6077b9354cda7046c0949e7c5553f6551
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b7b9ce539537e0759020ef7e3b4f6541a940d6fd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586839"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389199"
 ---
 # <a name="installing-the-sample-offline-state-add-in"></a>Установка примера надстройки, позволяющей управлять автономным состоянием
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются действия, чтобы загрузить и установить надстройку пример состояние не в сети. Надстройки пример состояние не в сети — это надстройка COM, который добавляет меню **Состояния не в сети** в Outlook и использует автономный режим состояния API. Через меню состояния не в сети можно включать и отключать мониторинг состояния Проверьте текущее состояние и изменения текущего состояния. Дополнительные сведения о добавить состояние не в сети в реализации можно [параметр копирование автономно состояние надстройки](setting-up-an-offline-state-add-in.md).
   
 ## <a name="install-the-sample-offline-state-add-in"></a>Установка примера автономного состояния надстройки
 
-1. Загрузить пример состояние не в сети надстройки здесь: [Outlook 2007 примеры Дополнительные справочные кода и распространяемого установщика](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Загрузить пример состояние не в сети надстройки здесь: [Outlook 2007 примеры Дополнительные справочные кода и распространяемого установщика](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Запустите Visual Studio 2005 с правами администратора.
     

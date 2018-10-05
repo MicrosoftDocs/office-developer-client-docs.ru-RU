@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f44acaa6-1747-4b74-bf48-bb6f72b258ed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bdc8175ed277a355b66ea080daaea1dc86320066
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b2d02d0333e066ac45eb18f4c7473760b24605b3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582093"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391635"
 ---
 # <a name="pidnamexsharingproviderurl-canonical-property"></a>Каноническое свойство PidNameXSharingProviderUrl
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Представляет значение свойства **dispidSharingProviderUrl** ([PidLidSharingProviderUrl](pidlidsharingproviderurl-canonical-property.md)).
   
@@ -39,11 +39,11 @@ ms.locfileid: "22582093"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > Открывает общий доступ папки почтовых ящиков между клиентами.
     

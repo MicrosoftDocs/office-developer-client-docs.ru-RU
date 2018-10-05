@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e3c7ae27-2e54-a174-4fb3-d16093faf759
 description: Содержит данные об одной гиперссылки, связанной с фигурой. Фигура будет содержать одну строку гиперссылок для каждой гиперссылки.
-ms.openlocfilehash: 99295838f5d1860e3c34cf4e37866eb477fe81ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36b9b62f248e4f5b9407156a79fa674dc2e8f14d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813927"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390256"
 ---
 # <a name="hyperlink-row-hyperlinks-section"></a>Строка Hyperlink (раздел "Гиперссылки")
 

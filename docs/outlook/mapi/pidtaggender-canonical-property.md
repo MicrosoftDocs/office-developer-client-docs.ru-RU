@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1c2089eee731fea8c80d8811f6b2e9f3c75ad1cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b8ce3898ac021bc6eec2af6220889d71ff5a18dc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570529"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386616"
 ---
 # <a name="pidtaggender-canonical-property"></a>Каноническое свойство PidTagGender
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит Пол обмена сообщениями пользователя.
   
@@ -50,15 +50,15 @@ ms.locfileid: "22570529"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для контакты и списки рассылки.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     

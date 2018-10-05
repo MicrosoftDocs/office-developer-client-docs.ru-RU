@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 10fb1650-6c3e-f467-91cd-48e5ddd82827
 description: '���� ���������� ���������: 5 ���� 2012 �.'
-ms.openlocfilehash: d92e8d7b3fb14051ffceb829f3df3f6fa12e6e23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41a61bd05bd511888aeab756166016813f4dceb8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565860"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391950"
 ---
 # <a name="dntble"></a>DNTBLE
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Информация для загрузки содержимого папки с сервера во время [загрузки состояния в таблице](download-table-state.md). Этот процесс загрузки использует Microsoft Exchange добавочные изменения синхронизации (ICS). Дополнительные сведения о ICS [Критерии оценки ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)см.
+Информация для загрузки содержимого папки с сервера во время [загрузки состояния в таблице](download-table-state.md). Этот процесс загрузки использует Microsoft Exchange добавочные изменения синхронизации (ICS). Дополнительные сведения о ICS [Критерии оценки ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)см.
   
 ## <a name="quick-info"></a>Краткие сведения
 

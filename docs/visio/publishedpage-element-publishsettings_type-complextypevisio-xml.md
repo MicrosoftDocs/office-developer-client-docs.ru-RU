@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
 description: Указывает, является ли страницу документа для просмотра в браузере с помощью служб Visio в Microsoft SharePoint Server 2013.
-ms.openlocfilehash: 5cdbb03aaac3393c16c6ed0169842153374f668e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 313cabbdd59930df67c807ee3c89df1a6e8c17a2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814505"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390984"
 ---
 # <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Элемент PublishedPage (PublishSettings_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814505"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814505"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19814505"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор страницы рисунка.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    

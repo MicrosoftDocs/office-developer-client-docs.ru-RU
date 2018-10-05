@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bee50623-cdf7-b9d7-867a-70c86922cbac
-ms.openlocfilehash: 9d334190b686f3b2c5e25a31336c668c957e820f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69f994b9516b04ddca8d26a645161772dc77c470
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813533"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388660"
 ---
 # <a name="datacolumntype-complextype-visio-xml"></a>DataColumn_Type complexType ('Visio XML»)
 
@@ -19,9 +19,9 @@ ms.locfileid: "19813533"
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**База расширения** <br/> |Нет  <br/> |
+|**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -78,7 +78,7 @@ ms.locfileid: "19813533"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -86,12 +86,12 @@ ms.locfileid: "19813533"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Календарь  <br/> |XSD:unsignedShort  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedShort.  <br/> |
+|Календарь  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
 |ColumnNameID  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|Денежный  <br/> |XSD:unsignedShort  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedShort.  <br/> |
-|DataType  <br/> |XSD:unsignedShort  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedShort.  <br/> |
+|Денежный  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
+|DataType  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
 |Степень  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
 |DisplayOrder  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
 |DisplayWidth  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |

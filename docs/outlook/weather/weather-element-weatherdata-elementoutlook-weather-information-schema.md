@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
 description: Задает погоды расположения.
-ms.openlocfilehash: c19db6657860dd35f90832aef0614f4fb88d87b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19e6669d51aa38d10587c6334aef0409f31baf58
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812923"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390662"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-information-schema"></a>элемент прогноза погоды (weatherdata элемент) (схема сведения о погоде Outlook)
 
@@ -24,7 +24,7 @@ ms.locfileid: "19812923"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Файл схемы** <br/> |GetWeatherInfo.xsd  <br/> |
    
 ## <a name="definition"></a>Определение
@@ -37,7 +37,7 @@ ms.locfileid: "19812923"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "19812923"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |атрибуты  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает источник сведений о погоде.  <br/> |Значения типа xs: String  <br/> |
 |degreetype  <br/> |xs:string  <br/> |Обязательный  <br/> |Определяет единицу измерения для температуры расположения, например градусы Цельсия.  <br/> |C, F  <br/> |

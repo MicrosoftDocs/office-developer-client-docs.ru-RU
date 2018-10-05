@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 809776b7-ff00-4a52-84b9-8b5fb5f5c3e3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a89cf096e3775b57035be60cab01e3d687770cf8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d058b42ad7d1a1b8387aa5b9a1a65ea160d90b02
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582576"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386868"
 ---
 # <a name="pidlidtaskstatus-canonical-property"></a>Каноническое свойство PidLidTaskStatus
 
@@ -51,31 +51,31 @@ ms.locfileid: "22582576"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Определяет несколько объектов, которые модель электронный эквивалент задач, назначений задач и обновления задач.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Задает свойства и операции, связанные с флагов.
     
-[[MS-OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > Задает свойства и операции по созданию и поиск специальные папки в почтовом ящике.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447 и встречи и собрания объекты.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Обрабатывает порядок и поток для передачи данных между клиентом и сервером.
     

@@ -5,12 +5,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Узнайте, как 32-разрядной версии Office совместим с 64-разрядной версии Office.
-ms.openlocfilehash: 924f7a1aa891addc5841e6cdefc5226dcb056096
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eeff11f11d4f2595b7111c0233703d09b1c46651
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813067"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390942"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Совместимость 32- и 64-разрядных версий Office
 
@@ -67,7 +67,7 @@ VBA 7 заменяет кода VBA в Office 2007 и более ранних в
 Сочетание библиотек VBA и тип предоставляет многие функции для создания приложения на базе Office. Тем не менее в некоторых случаях вы должны напрямую связываются с операционной системы и других компонентов, таких как при управлении памяти или процессами, при работе с windows linke элементы пользовательского интерфейса и элементов управления, либо при изменении реестра Windows. В следующих ситуациях лучше использовать одну из внешних функций, внедренных в DLL-файлы. Для этого в VBA путем вызова API, с помощью инструкции **Declare** . 
   
 > [!NOTE]
-> Корпорация Майкрософт предоставляет Win32API.txt файл, содержащий 1500 инструкции Declare и средства для копирования оператор **Declare** , который будет в коде. Тем не менее, эти инструкции для 32-разрядных систем и должен быть преобразован в 64-разрядная версия с помощью сведений, представленных далее в этой статье. Существующие инструкции **Declare** не компиляции в 64-разрядных версиях VBA, пока они помечены как безопасные для 64-разрядная версия с помощью атрибута **PtrSafe** . Примеры этого типа преобразования можно найти на веб-сайте Jan Karel Excel со статусом MVP Pieterse по [http://www.jkp-ads.com/articles/apideclarations.asp](http://www.jkp-ads.com/articles/apideclarations.asp). [Руководство пользователя инспектор совместимости кода Office](http://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx) полезно для проверки синтаксиса инструкции API **Declare** для атрибута **PtrSafe** при необходимости и соответствующий тип возвращаемого значения. 
+> Корпорация Майкрософт предоставляет Win32API.txt файл, содержащий 1500 инструкции Declare и средства для копирования оператор **Declare** , который будет в коде. Тем не менее, эти инструкции для 32-разрядных систем и должен быть преобразован в 64-разрядная версия с помощью сведений, представленных далее в этой статье. Существующие инструкции **Declare** не компиляции в 64-разрядных версиях VBA, пока они помечены как безопасные для 64-разрядная версия с помощью атрибута **PtrSafe** . Примеры этого типа преобразования можно найти на веб-сайте Jan Karel Excel со статусом MVP Pieterse по [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp). [Руководство пользователя инспектор совместимости кода Office](https://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx) полезно для проверки синтаксиса инструкции API **Declare** для атрибута **PtrSafe** при необходимости и соответствующий тип возвращаемого значения. 
   
 Операторы **Declare** похожи на один из следующих действий в зависимости от того, вызывается подпрограмма (без возвращаемого значения) или функция (имеют возвращаемое значение). 
   
@@ -219,7 +219,7 @@ End Sub
   
 #### <a name="when-should-i-convert-long-parameters-to-longptr"></a>Когда следует преобразовать длинные параметры в LongPtr
   
-Следует проверить документация по Windows API в сети разработчиков Microsoft функции, которую нужно позвонить. Маркеры и указатели нужно преобразовать в **LongPtr**. Например документации по [RegOpenKeyA](http://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx) предоставляет следующую подпись: 
+Следует проверить документация по Windows API в сети разработчиков Microsoft функции, которую нужно позвонить. Маркеры и указатели нужно преобразовать в **LongPtr**. Например документации по [RegOpenKeyA](https://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx) предоставляет следующую подпись: 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
@@ -241,7 +241,7 @@ LONG WINAPI RegOpenKeyEx(
 |samDesired [in]  <br/> |Маска, указывающая требуемые права доступа к ключу.  <br/> |
 |phkResult [out]  <br/> |*Указатель* на переменную, которая получает маркер открытого ключа.  <br/> |
    
-В [Win32API_PtrSafe.txt](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b)оператор **Declare** определяются следующим образом. 
+В [Win32API_PtrSafe.txt](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b)оператор **Declare** определяются следующим образом. 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
@@ -269,6 +269,6 @@ End TypeF
 ## <a name="see-also"></a>См. также
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
-- [Анатомия оператор Declare](https://msdn.microsoft.com/en-us/library/office/aa671659.aspx)
+- [Анатомия оператор Declare](https://msdn.microsoft.com/library/office/aa671659.aspx)
     
 

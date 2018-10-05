@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: effc738a-30f4-4a5e-b21d-04b50dad1f45
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6e1c2783abd186146fe738a3396e098711893d3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5dd0d4c19f30e189218b1aeddd333df58e42102a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583984"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387134"
 ---
 # <a name="pidtagflagcompletetime-canonical-property"></a>Каноническое свойство PidTagFlagCompleteTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает дату и время в формате универсального времени (UTC), который объект message был помечен как выполненное.
   
@@ -42,11 +42,11 @@ ms.locfileid: "22583984"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Задает свойства и операции, связанные с флагов.
     

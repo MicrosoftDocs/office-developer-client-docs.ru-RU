@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 83194b47faf7892d5da568a354921511eb097210
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c2b9176e21341ef28e6f0bc007757b097a05daee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582954"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386574"
 ---
 # <a name="formprintsetup"></a>FORMPRINTSETUP
 
@@ -75,7 +75,7 @@ MAPI_UNICODE
   
 Если флаг MAPI_UNICODE передается в параметре _ulFlags_ **GetPrintSetup**, строки, указанные в элементы **hDevmode** и **hDevnames** должен быть в формате Юникод. В противном случае строки должны быть в формате ANSI. 
   
-Реализация **IMAPIViewContext** средства просмотра формы необходимо выделить структура **FORMPRINTSETUP** , с помощью функции распределителя MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), но выделить отдельные элементы, **hDevMode** и **hDevNames** с помощью функции Windows [GlobalAlloc](http://go.microsoft.com/fwlink/?LinkId=132110). Подобным образом распределяется выпуске памяти. Члены **hDevMode** и **hDevNames** освобождения с помощью функции Windows [GlobalFree](http://go.microsoft.com/fwlink/?LinkId=132108) , тогда как структура **FORMPRINTSETUP** освобождения с помощью функции [MAPIFreeBuffer](mapifreebuffer.md) . 
+Реализация **IMAPIViewContext** средства просмотра формы необходимо выделить структура **FORMPRINTSETUP** , с помощью функции распределителя MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), но выделить отдельные элементы, **hDevMode** и **hDevNames** с помощью функции Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). Подобным образом распределяется выпуске памяти. Члены **hDevMode** и **hDevNames** освобождения с помощью функции Windows [GlobalFree](https://go.microsoft.com/fwlink/?LinkId=132108) , тогда как структура **FORMPRINTSETUP** освобождения с помощью функции [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="see-also"></a>См. также
 

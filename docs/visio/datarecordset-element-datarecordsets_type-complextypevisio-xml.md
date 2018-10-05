@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
 description: Сохранение, форматы, обновляет и предоставляет доступ к данным из базы данных в Microsoft Visio.
-ms.openlocfilehash: 157213476214c736367b724dd6ca944060c53467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e2baaeed38318f35d4bd4ce4269f71b6304b148f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813547"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387288"
 ---
 # <a name="datarecordset-element-datarecordsetstype-complextype-visio-xml"></a>Элемент записей данных (DataRecordSets_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813547"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |recordsets.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813547"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -58,7 +58,7 @@ ms.locfileid: "19813547"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |Контрольная сумма  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Значение контрольной суммой, созданных функцией Visio и на основе набора записей данных свойств. Значение в этом attirbute 0; Visio пересчитывает это значение во время выполнения.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |Команда  <br/> |XSD:String  <br/> |необязательный  <br/> |Командную строку, используемую для запроса данных из источника данных.  <br/> |Значения типа xsd:string.  <br/> |

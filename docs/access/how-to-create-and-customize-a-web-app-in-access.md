@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
-ms.openlocfilehash: 7a41bc4c9509f1d9cec49003fb775a3be2768703
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d837a83ea8773018033a27ec894375a22c15c8a3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806983"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391124"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>Создание и настройка веб-приложения в Access
 
@@ -30,9 +30,9 @@ Access 2013 компонентов новая модель приложения,
     
 - Среда разработки SharePoint
     
-Дополнительные сведения о настройке среды разработки SharePoint видеть [настроить среду разработки, общие для SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
+Дополнительные сведения о настройке среды разработки SharePoint видеть [настроить среду разработки, общие для SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
   
-Дополнительные сведения о получении доступа и SharePoint в разделе [файлов для загрузки](http://msdn.microsoft.com/en-US/office/apps/fp123627).
+Дополнительные сведения о получении доступа и SharePoint в разделе [файлов для загрузки](https://msdn.microsoft.com/office/apps/fp123627).
 
 <a name="ac15_CreateAndCustomizeWebApp_CreateTheApp"> </a>
 
@@ -241,7 +241,7 @@ Access создает набор таблиц и представлений.
   
 ## <a name="see-also"></a>См. также
 
-- [Новые возможности для разработчиков Access 2013](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
+- [Новые возможности для разработчиков Access 2013](https://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
 - [Access custom web app reference](access-custom-web-app-reference.md)
   
 

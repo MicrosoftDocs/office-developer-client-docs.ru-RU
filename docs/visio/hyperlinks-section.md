@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: fdf442ea-2c86-8bd5-b95d-59ad0e4da719
 description: Содержит ячейки для создания различных переходов между фигурой или нарисовать страницы и другую страницу рисунка, другой файл или веб-сайта.
-ms.openlocfilehash: e24a718edfca25ec36020101a4fe214533ebec3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 42979a6b0f1b3dff6e950959d33a803263d9b046
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813954"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388408"
 ---
 # <a name="hyperlinks-section"></a>Раздел "Гиперссылки"
 

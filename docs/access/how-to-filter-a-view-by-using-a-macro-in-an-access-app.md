@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: Узнайте, как для фильтрации представления в приложение Access с помощью действия макроса RequeryRecords и макрос данных.
-ms.openlocfilehash: 9cd8c74b3949a0bb496798df663b1b42fb2868d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ce65ef0c04fe91334d00649810c608cdab2f310
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806998"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390410"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Фильтрация представления с помощью макроса в приложении Access
 
@@ -32,7 +32,7 @@ ms.locfileid: "19806998"
 - Среда разработки SharePoint 2013
     
 > [!NOTE]
-> Дополнительные сведения о настройке среды разработки SharePoint видеть [настроить среду разработки, общие для SharePoint 2013](http://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). > Для получения дополнительных сведений о получении Access 2013 и SharePoint 2013 видеть [файлы для загрузки](http://msdn.microsoft.com/en-US/office/apps/fp123627). 
+> Дополнительные сведения о настройке среды разработки SharePoint видеть [настроить среду разработки, общие для SharePoint 2013](https://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). Дополнительные сведения о получении Access 2013 и SharePoint 2013 видеть [файлы для загрузки](https://msdn.microsoft.com/office/apps/fp123627). 
   
 ## <a name="create-the-app"></a>Создание приложения
 <a name="Access2013FilterViewByUsingMacro_CreateApp"> </a>
@@ -269,6 +269,6 @@ Access создает набор таблиц и представлений.
   
 ## <a name="see-also"></a>См. также
 
-- [Новые возможности для разработчиков Access 2013](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
+- [Новые возможности для разработчиков Access 2013](https://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
     
 

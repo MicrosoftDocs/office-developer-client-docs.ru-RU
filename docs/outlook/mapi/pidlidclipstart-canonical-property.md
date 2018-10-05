@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d348988d-a84e-4318-8d48-62e4982ebaf1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3a2bbaaee9325a7d2c110ff4082e14a249e4dc16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4a466b31b5411b1c0467896c031c6560d6c5c880
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577704"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386518"
 ---
 # <a name="pidlidclipstart-canonical-property"></a>Каноническое свойство PidLidClipStart
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает дату начала и время события в формате универсального времени (UTC) для одного экземпляра объектов календаря и указывает полночь день первую строку в формате UTC для серии повторяющихся.
   
@@ -39,11 +39,11 @@ ms.locfileid: "22577704"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

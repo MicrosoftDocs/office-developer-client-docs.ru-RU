@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: ''
 description: Идентифицирует пользователя, который может не иметь сведений о доступности данных, которые доступны.
-ms.openlocfilehash: edfc9980445fcc2e111045650667d93bffa94153
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2511a94678f9ef8f2cb6be868db4f718d92ecb6d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565139"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387904"
 ---
 # <a name="fbuser"></a>FBUser
 
@@ -35,7 +35,7 @@ typedef struct tagFBUser
 
 _m_cbEid_
   
-> Длина записи идентификатор пользователя почты, представленных в интерфейсе [IMailUser](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
+> Длина записи идентификатор пользователя почты, представленных в интерфейсе [IMailUser](https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
     
 _m_lpEid_
   

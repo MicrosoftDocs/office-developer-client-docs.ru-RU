@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3b0d1209-4636-ea9c-acf7-895c3300492a
-ms.openlocfilehash: eb1373881b1584b77c6663dd4ec375c50a61efd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2fa6724ce6262886379f3ac22625927608184bab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815122"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389983"
 ---
 # <a name="validationpropertiestype-complextype-visio-xml"></a>ValidationProperties_Type complexType ('Visio XML»)
 
@@ -19,9 +19,9 @@ ms.locfileid: "19815122"
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**База расширения** <br/> |Нет  <br/> |
+|**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -41,7 +41,7 @@ ms.locfileid: "19815122"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -49,7 +49,7 @@ ms.locfileid: "19815122"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |LastValidated  <br/> |XSD: DateTime  <br/> |Обязательный  <br/> ||Значения типа XSD: DateTime.  <br/> |
 |ShowIgnored  <br/> |XSD:Boolean  <br/> |Обязательный  <br/> ||Значения типа xsd:boolean.  <br/> |

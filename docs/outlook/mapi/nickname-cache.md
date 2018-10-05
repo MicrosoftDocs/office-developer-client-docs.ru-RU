@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 'Последнее изменение: 30 января 2013 г.'
-ms.openlocfilehash: 547733f815c7d8c8762e79febce40ee9fec07d3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 841b01ae8dfcf841b0a1d64113ce7258c4c61583
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574533"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389262"
 ---
 # <a name="nickname-cache"></a>Кэш псевдонимов
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Microsoft Office Outlook 2007, Microsoft Outlook 2010 и Microsoft Outlook 2013 взаимодействовать с кэш псевдонимов, также известной как «Автозаполнение поток.» Поток автозаполнения магазина Outlook остается в списке автозаполнения — список имен, которое отображает в **к**, **Cc**, и **Bcc** редактировать поля, когда пользователь создает сообщение электронной почты. В этом разделе описываются взаимодействия Outlook 2007, Outlook 2010 и Outlook 2013 с потоком автозаполнения и также двоичный формат файла и рекомендуемые способы взаимодействия с потока автозаполнения. 
   
@@ -37,7 +37,7 @@ Microsoft Office Outlook 2007, Microsoft Outlook 2010 и Microsoft Outlook 2013 
   
  **Outlook 2007**
   
-Для Outlook 2007 в потоке автозаполнения хранятся в файле с тем же именем, как профиль и расширение .nk2. Например, при использовании профилем по умолчанию «outlook» файл будет называться «outlook.nk2». Файл .nk2 сохраняется в папке % APPDATA%\Microsoft\Outlook. Дополнительные сведения о формате двоичных файлов кэш псевдонимов содержатся в разделе [Формат файла Outlook 2003 и 2007 NK2 и рекомендации для разработчиков](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
+Для Outlook 2007 в потоке автозаполнения хранятся в файле с тем же именем, как профиль и расширение .nk2. Например, при использовании профилем по умолчанию «outlook» файл будет называться «outlook.nk2». Файл .nk2 сохраняется в папке % APPDATA%\Microsoft\Outlook. Дополнительные сведения о формате двоичных файлов кэш псевдонимов содержатся в разделе [Формат файла Outlook 2003 и 2007 NK2 и рекомендации для разработчиков](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
   
  **Outlook 2010 и Outlook 2013**
   
@@ -84,5 +84,5 @@ Outlook загружает поток автозаполнения при ини
 [Профили MAPI](mapi-profiles.md)
 
 
-[Формат файлов Outlook 2003 и 2007 NK2 и рекомендации для разработчиков](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+[Формат файлов Outlook 2003 и 2007 NK2 и рекомендации для разработчиков](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
 

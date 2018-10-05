@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb88750b-4773-4241-aa38-462a2634dbcb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9cbd237e80f4862683c1fa914f8261f8351b148e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dfb49fafcc2dc368e84786b526869e0447ccaf8c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589023"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387183"
 ---
 # <a name="pidlidtaskfcreator-canonical-property"></a>Каноническое свойство PidLidTaskFCreator
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, что задача была создана с помощью текущего пользователя или агент пользователя, а не при обработке запроса на задачу.
   
@@ -43,11 +43,11 @@ ms.locfileid: "22589023"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Определяет несколько объектов, которые модель электронный эквивалент задач, назначений задач и обновления задач.
     

@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: f5310aa0-75f5-4c33-897e-8cae5de2100a
 description: Здесь вы найдете инструкции, примеры кода, документацию по API и пакетам SDK, справочные материалы по VBA, учебные материалы и технические статьи, посвященные разработке решений и настройке Visio.
-ms.openlocfilehash: e55c5ab195cf8f17eae98dbe61154b6a8fa7651e
-ms.sourcegitcommit: 539bc9a767ede52cb17c1b11ef7fac2fecd96fef
+ms.openlocfilehash: 7dbb12b76835641f9bf45bf78876fd667bacb19a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554164"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391194"
 ---
 # <a name="visio"></a>Visio
 
@@ -37,9 +37,9 @@ ms.locfileid: "22554164"
   
 ### <a name="downloads"></a>Загрузки
   
-- [Пакет SDK для Visio 2013](http://www.microsoft.com/download/details.aspx?id=36825)
+- [Пакет SDK для Visio 2013](https://www.microsoft.com/download/details.aspx?id=36825)
 
-- [Пакет SDK для Visio 2016](http://www.microsoft.com/download/details.aspx?id=51221)  
+- [Пакет SDK для Visio 2016](https://www.microsoft.com/download/details.aspx?id=51221)  
 
 ### <a name="other-resources"></a>Другие ресурсы
   

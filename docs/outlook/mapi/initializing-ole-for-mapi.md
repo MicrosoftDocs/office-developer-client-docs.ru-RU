@@ -8,19 +8,19 @@ api_type:
 - COM
 ms.assetid: 53b65299-69f8-4fc0-8d9b-f666e814aaac
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: cd279c17574ce73b42d5e07e96ac817af71dc700
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87310916f4a54b308f0599ec5c1a4a3bfe83c376
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589807"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388420"
 ---
 # <a name="initializing-ole-for-mapi"></a>Инициализация OLE для MAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-При использовании OLE, вызовите функцию OLE [OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) для инициализации библиотеки OLE. **OleInitialize** инициализирует глобальные данные для сеанса и подготавливает библиотек OLE для приема звонков. Сведения о вызовах **OleInitialize**просмотрите пакет SDK для Windows.
+При использовании OLE, вызовите функцию OLE [OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) для инициализации библиотеки OLE. **OleInitialize** инициализирует глобальные данные для сеанса и подготавливает библиотек OLE для приема звонков. Сведения о вызовах **OleInitialize**просмотрите пакет SDK для Windows.
   
 

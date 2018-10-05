@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 403324b8-c992-4823-aa0f-0414b283debc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b523277a3865e62e8ed95883213b28d2155ffb54
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 588747205ee3922fef7b107dc024f074a6ee527e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594798"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387211"
 ---
 # <a name="pidtaglisthelp-canonical-property"></a>Каноническое свойство PidTagListHelp
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение в поле Заголовок списка-Help сообщение Multipurpose Internet Mail Extensions (MIME).
   
@@ -48,11 +48,11 @@ ms.locfileid: "22594798"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
     

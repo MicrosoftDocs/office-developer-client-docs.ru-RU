@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5e5c420e-f384-7b62-c862-35aea16e6d55
-ms.openlocfilehash: 6ebd483ae9b0748a3afa15360bf2c88feae44aeb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ebd3b666590e6144d2a3cb6e0059b64eb6e8dab5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586902"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391579"
 ---
 # <a name="rowtype-complextype-visio-xml"></a>Row_Type complexType ('Visio XML»)
 
@@ -19,7 +19,7 @@ ms.locfileid: "22586902"
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    

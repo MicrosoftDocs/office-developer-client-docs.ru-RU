@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
 description: 'Веб-службы могут предоставлять один или два стиля привязки к своим веб-методам в контракте WSDL, где они описаны: документальный или RPC.'
-ms.openlocfilehash: 01b75df42bce97d62ebb5e273588cb522e5e2a09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0eacf013c9cdf74f18f3de1d4412ca4ca165a960
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807514"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387680"
 ---
 # <a name="infopath-rpc-encoding-and-web-services"></a>InfoPath, кодировка RPC и веб-службы
 
@@ -62,7 +62,7 @@ ms.locfileid: "19807514"
     
    ```
 
-Дополнительные сведения см. в статье "ИНСТРУКЦИЯ: передача текущих учетных данных в веб-службу ASP.NET" базы знаний Майкрософт по адресу http://support.microsoft.com/.
+Дополнительные сведения см. в статье "ИНСТРУКЦИЯ: передача текущих учетных данных в веб-службу ASP.NET" базы знаний Майкрософт по адресу https://support.microsoft.com/.
     
 ## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a>Создание прокси-веб-службы без использования Visual Studio .NET
 

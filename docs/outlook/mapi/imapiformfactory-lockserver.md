@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b9bd389a-6975-41a2-a2f4-e501312e434b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c4d7273b7393d421092bb06377aece0842b5fb67
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab51b939651bc3c121f357545969d26832a19d19
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590822"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389059"
 ---
 # <a name="imapiformfactorylockserver"></a>IMAPIFormFactory::LockServer
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сохраняет это сервер открытой формы в памяти.
   
@@ -44,9 +44,9 @@ HRESULT LockServer(
   
 > [in] **значение true** для увеличения значения счетчика блокировок; в противном случае — **false**.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -54,9 +54,9 @@ HRESULT LockServer(
 
 Средства просмотра форм вызовите метод **IMAPIFormFactory::LockServer** для хранения приложения сервера открытой формы в памяти. Поддержание сервера форм в памяти повышает эффективность своей работы, когда часто создаются и выпущен форм. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
-Метод **IMAPIFormFactory::LockServer** очень похож на метод [IClassFactory::LockServer](http://msdn.microsoft.com/en-us/library/ms682332%28v=VS.85%29.aspx) . В сущности метод **IMAPIFormFactory::LockServer** поддерживает вызова число сколько раз; Поскольку это число больше 0, метод предотвращает выгрузки из памяти сервера форм. Чтобы реализовать ее можно использовать функцию [CoLockObjectExternal](http://msdn.microsoft.com/en-us/library/ms680592%28VS.85%29.aspx) . 
+Метод **IMAPIFormFactory::LockServer** очень похож на метод [IClassFactory::LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) . В сущности метод **IMAPIFormFactory::LockServer** поддерживает вызова число сколько раз; Поскольку это число больше 0, метод предотвращает выгрузки из памяти сервера форм. Чтобы реализовать ее можно использовать функцию [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) . 
   
 ## <a name="see-also"></a>См. также
 

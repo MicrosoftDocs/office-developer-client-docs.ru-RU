@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1470248e-be1c-fcb0-1d6b-0a5f60365924
 description: Можно добавить показывать, скрывать и удаления разделов в таблице свойств фигуры.
-ms.openlocfilehash: 37bd28083a38fa2c38630994ee42d3f001cf6893
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f1aa5cc20418fa3fc588c50d5e7a94bd9763774
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813143"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389192"
 ---
 # <a name="add-show-hide-or-delete-a-section"></a>Добавление, отображение, скрытие или удаление раздела
 
@@ -53,9 +53,9 @@ ms.locfileid: "19813143"
     
 2. Укажите заголовок раздела.
     
-    Если указатель в знак минус ![](media/IC_SSMinus_ZA07645855.gif), можно свернуть раздел.
+    Если указатель в знак минус ![Если указатель в знак минус, сверните раздел](media/IC_SSMinus_ZA07645855.gif), можно свернуть раздел.
     
-    Если указатель в знак плюс ![](media/IC_SSPlus_ZA07645856.gif), можно развернуть раздел.
+    Если указатель изменяется на "плюс" ![Если указатель в «плюс», разверните раздел](media/IC_SSPlus_ZA07645856.gif), можно развернуть раздел.
     
 3. Щелкните заголовок раздела.
     

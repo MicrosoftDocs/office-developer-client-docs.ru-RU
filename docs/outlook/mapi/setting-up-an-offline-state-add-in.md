@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: '���� ���������� ���������: 5 ���� 2012 �.'
-ms.openlocfilehash: c94e625fc97207e1bc1a2e0797a1ba82ee41fca3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576255"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390963"
 ---
 # <a name="setting-up-an-offline-state-add-in"></a>Настройка надстройки автономный режим
 
@@ -23,7 +23,7 @@ ms.locfileid: "22576255"
   
 ## <a name="on-connection-routine"></a>На процедуру подключения
 
-**[Метод IDTExtensibility2.OnConnection](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** вызывается каждый раз при загрузке надстроек. — Это точка входа для надстройки, чтобы код, поместить `OnConnection` функция будет вызываться при запуске надстройки. В следующем примере `OnConnection` вызовы функций `HrInitAddin` функции. 
+**[Метод IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** вызывается каждый раз при загрузке надстроек. — Это точка входа для надстройки, чтобы код, поместить `OnConnection` функция будет вызываться при запуске надстройки. В следующем примере `OnConnection` вызовы функций `HrInitAddin` функции. 
   
 ### <a name="cmyaddinonconnection-example"></a>Пример CMyAddin::OnConnection()
 

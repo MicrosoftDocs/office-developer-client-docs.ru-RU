@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 71ad53880c400d924d73c903bd77f7b447a69d8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 26efa868de29bc8a6a180b717230951b76da26a3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577725"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388434"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>Каноническое свойство PidTagAttachExtension
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит расширение имени файла, которое указывает тип вложения. 
   
@@ -44,7 +44,7 @@ ms.locfileid: "22577725"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ddd9d3c0a61a3a2a585edd6c370285b2f6d424e3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b4abef731541e308b2c2ebc6f4aaddf4458e257
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593720"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388248"
 ---
 # <a name="imsgstoreadvise"></a>IMsgStore::Advise
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Регистрация для получения уведомлений о указанного события, которые влияют на хранилище сообщений.
   
@@ -103,9 +103,9 @@ HRESULT Advise(
   
 > [out] Указатель на подключение ненулевое число, представляющее соединение между вызывающего абонента уведомить объект приемника и хранилища сообщений.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Регистрация прошла успешно.
     
@@ -119,11 +119,11 @@ MAPI_E_NO_SUPPORT
   
 Чтобы отправить уведомление, MAPI или поставщика хранилища сообщений вызывает метод [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) приемник зарегистрированных уведомлений. Один из параметров в **OnNotify**, уведомления о структуре, содержит сведения, описывающие определенных событий.
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Может поддерживать уведомлений с помощью или без помощи MAPI. MAPI имеет три метода объекта поддержки за помощь реализации уведомлений поставщиков услуг: [IMAPISupport::Subscribe](imapisupport-subscribe.md), [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)и [IMAPISupport::Notify](imapisupport-notify.md). Если вы решите использовать методы поддержки MAPI, вызовите **подписки на** при вызове метода **уведомлений** и освобождать указатель _lpAdviseSink_ . 
   
-Если для поддержки уведомлений самостоятельно, вызовите метод [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) приемник уведомлений, представленное параметром _lpAdviseSink_ сохранить копию этого указателя. Ведение эту копию, пока не будет вызван метод [IMsgStore::Unadvise](imsgstore-unadvise.md) для отмены регистрации. 
+Если для поддержки уведомлений самостоятельно, вызовите метод [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) приемник уведомлений, представленное параметром _lpAdviseSink_ сохранить копию этого указателя. Ведение эту копию, пока не будет вызван метод [IMsgStore::Unadvise](imsgstore-unadvise.md) для отмены регистрации. 
   
 Независимо от того, как вы поддерживаете уведомлений нумерации ненулевое подключения для регистрации уведомлений и вернуть его в параметре _lpulConnection_ . Не release этот номер подключения, пока **Unadvise** вызван и завершения. 
   
@@ -137,11 +137,11 @@ MAPI_E_NO_SUPPORT
   
 Дополнительные сведения об обработке уведомлений можно [Обработки уведомлений](handling-notifications.md). 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |Mfcmapi (en) использует метод **IMsgStore::Advise** для регистрации уведомлений на хранилище всего сообщения.  <br/> |
    

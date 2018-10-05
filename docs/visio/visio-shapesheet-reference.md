@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ca06502c-884c-c1ad-d2c9-31f2b2b30ae5
 description: Эта справка содержит обзоры понятий, задачи по программированию, примеры и справочные материалы, которые помогут в разработке решений на основе Visio 2013.
-ms.openlocfilehash: 7d379004aa420febeaea13925c03eaca90349fa7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 097ac45b76dcf725575fd1c94dd315a1bd25d724
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579174"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391649"
 ---
 # <a name="visio-shapesheet-reference"></a>Справочник по таблицам свойств фигур Visio
 
@@ -34,9 +34,9 @@ ms.locfileid: "22579174"
     
 ## <a name="see-also"></a>См. также
 
-- [Центр по разработке для Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)    
-- [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](http://www.microsoft.com/enable/products/default.aspx)    
-- [Обозначения в документации](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
+- [Центр по разработке для Visio](https://msdn.microsoft.com/office/aa905478.aspx)    
+- [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](https://www.microsoft.com/enable/products/default.aspx)    
+- [Обозначения в документации](https://msdn.microsoft.com/office/aa905365.aspx)   
 - [Уведомление об авторских правах пакета SDK Visio](visio-sdk-copyright-notice.md)
 
     

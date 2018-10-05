@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 64faef3c-27b2-49d2-9d0c-8b9d33f1cb71
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: caf1cb2e16c298af452e638631293379fdd68b10
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b5d1d4456856f1640bbed8589fc0583060cd2520
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589786"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391747"
 ---
 # <a name="pidtagmemberid-canonical-property"></a>Каноническое свойство PidTagMemberId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор элемента в таблице, имеющей описано права на почтового ящика или папки Microsoft Exchange Server.
   
@@ -42,11 +42,11 @@ ms.locfileid: "22589786"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCPERM]](http://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
+[[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
 > Обрабатывает извлечения списков разрешений папки, которые хранятся на сервере.
     

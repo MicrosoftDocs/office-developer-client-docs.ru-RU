@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: Содержит элементы страницы для документа.
-ms.openlocfilehash: bfac84c878189976df616bbce5235bf815d39bf5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4062c83f4b017fde7e1d5d4c568f7c9728e3334
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814354"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386259"
 ---
 # <a name="pages-element-visio-xml"></a>Элемент страницы ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814354"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Pages.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814354"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 

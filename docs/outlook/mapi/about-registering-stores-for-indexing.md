@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 195812f53c4c0aaf20e4ed6e215d15b0295c9a07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96322d12b3b7b334b5f78f81910dcf34c3fc78e1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386532"
 ---
 # <a name="about-registering-stores-for-indexing"></a>Сведения о регистрации хранилищ для индексирования
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе специально для мгновенного поиска в Microsoft Office Outlook 2007.
   
@@ -38,7 +38,7 @@ ms.locfileid: "22584186"
  Поставщики хранилища сторонних производителей, которые нужно индексировать необходимо регистрируются в реестре Windows. 
   
 > [!NOTE]
-> Администраторов и пользователей можно использовать параметр групповой политики, чтобы предотвратить индексирование элементов Outlook Windows Desktop Search. Для получения дополнительных сведений см [Расширение Windows Desktop Search](http://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
+> Администраторов и пользователей можно использовать параметр групповой политики, чтобы предотвратить индексирование элементов Outlook Windows Desktop Search. Для получения дополнительных сведений см [Расширение Windows Desktop Search](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
   
 ## <a name="registry-keys"></a>Разделы реестра
 
@@ -58,7 +58,7 @@ ms.locfileid: "22584186"
   
 ||||
 |:-----|:-----|:-----|
-|**Тип поставщика хранилища** <br/> |**ИДЕНТИФИКАТОР GUID** <br/> |**Примечания** <br/> |
+|**Тип поставщика хранилища** <br/> |**GUID** <br/> |**Примечания** <br/> |
 |Файлы личных папок (. PST-ФАЙЛОВ)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |Идентификатор GUID описана в mspst.h общедоступных заголовок файл как **MSPST_UID_PROVIDER** <br/> |
 |Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |Идентификатор GUID описана в edkmdb.h общедоступных заголовок файл как **pbExchangeProviderPrimaryUserGuid** <br/> |
 |Общедоступные папки  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |Идентификатор GUID описана в edkmdb.h общедоступных заголовок файл как **pbExchangeProviderPublicGuid** <br/> |

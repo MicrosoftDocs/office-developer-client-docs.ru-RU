@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 38b342d9-ab10-04b6-5490-9a45f847a60f
 description: В этом разделе этот период между пружин и попадающих называется период летнего времени.
-ms.openlocfilehash: 4787b2143b3f5d1f0400524f0da82e19e2cbed8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d9a0ffda89ee9d8847cde59181747588a50e947
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807672"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389024"
 ---
 # <a name="about-rebasing-calendars-programmatically-for-daylight-saving-time"></a>Сведения о программном переводе календарей на летнее время
 
@@ -38,13 +38,13 @@ Outlook предоставляет средства для пользовате�
     
 - [IOlkApptRebaser::EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)
     
-- [PidLidAppointmentTimeZoneDefinitionEndDisplay](http://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx)
+- [PidLidAppointmentTimeZoneDefinitionEndDisplay](https://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx)
     
-- [PidLidAppointmentTimeZoneDefinitionRecur](http://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)
+- [PidLidAppointmentTimeZoneDefinitionRecur](https://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)
     
-- [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx)
+- [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx)
     
-- [PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)
+- [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)
     
 - [RebaseTaskComplete](rebasetaskcomplete.md)
     
@@ -62,7 +62,7 @@ Outlook предоставляет средства для пользовате�
     
 2. Используйте **HrCreateApptRebaser**, **IOlkApptRebaser::BeginRebaseAppointments**и **IOlkApptRebaser::EndRebaseAppointments** для перебазирование встречи. 
     
-Для получения Tzmovelib.dll сборки, загрузите распространяемый установщик OutlookTimeZoneMoveLibRedist.exe и файл заголовка Tzmovelib.h в [Outlook 2010: дополнительный распространяемого установщика ссылки и файл заголовка для повторного размещения en календарей](http://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b) . Этот загружаемый файл работает для Outlook 2010 и более поздних версий Outlook. OutlookTimeZoneMoveLibRedist.exe устанавливает файл сборки Tzmovelib.dll в C:\Program Files\MsExTmz. Обратите внимание, что сдвига приложениями сторонних производителей календаря можно распространять только установщика, но OutlookTimeZoneMoveLibRedist.exe и не должен распространять сборки, Tzmovelib.dll или любой другой извлекать компоненты отдельно от установщика.
+Для получения Tzmovelib.dll сборки, загрузите распространяемый установщик OutlookTimeZoneMoveLibRedist.exe и файл заголовка Tzmovelib.h в [Outlook 2010: дополнительный распространяемого установщика ссылки и файл заголовка для повторного размещения en календарей](https://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b) . Этот загружаемый файл работает для Outlook 2010 и более поздних версий Outlook. OutlookTimeZoneMoveLibRedist.exe устанавливает файл сборки Tzmovelib.dll в C:\Program Files\MsExTmz. Обратите внимание, что сдвига приложениями сторонних производителей календаря можно распространять только установщика, но OutlookTimeZoneMoveLibRedist.exe и не должен распространять сборки, Tzmovelib.dll или любой другой извлекать компоненты отдельно от установщика.
   
 ## <a name="see-also"></a>См. также
 
@@ -70,7 +70,7 @@ Outlook предоставляет средства для пользовате�
 - [Анализ потока из двоичного свойства для считывания структуры TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
 - [Анализ потока из двоичного свойства для считывания структуры TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
 - [Считывание свойств часового пояса встречи](how-to-read-time-zone-properties-from-an-appointment.md)
-- [Летнее время Справка и поддержка](http://support.microsoft.com/gp/cp_dst)
-- [Как летнее время с помощью средства обновления календаря Exchange](http://support.microsoft.com/kb/941018)
-- [Способы устранения изменения часового пояса, используя средство обновления данных часового пояса для Microsoft Office Outlook](http://support.microsoft.com/kb/931667)
+- [Летнее время Справка и поддержка](https://support.microsoft.com/gp/cp_dst)
+- [Как летнее время с помощью средства обновления календаря Exchange](https://support.microsoft.com/kb/941018)
+- [Способы устранения изменения часового пояса, используя средство обновления данных часового пояса для Microsoft Office Outlook](https://support.microsoft.com/kb/931667)
 
