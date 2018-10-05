@@ -8,27 +8,27 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 85cfd219eb83592a4e01263caf5d6923db39e0cc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96c04a242c477204ea1447fb78c31d189eeac59a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583787"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392419"
 ---
-# <a name="nstserviceentry"></a><span data-ttu-id="32360-103">NSTServiceEntry</span><span class="sxs-lookup"><span data-stu-id="32360-103">NSTServiceEntry</span></span>
+# <a name="nstserviceentry"></a><span data-ttu-id="bd774-103">NSTServiceEntry</span><span class="sxs-lookup"><span data-stu-id="bd774-103">NSTServiceEntry</span></span>
 
   
   
-<span data-ttu-id="32360-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="32360-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bd774-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bd774-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="32360-105">Поставщик для упаковки в локальном хранилище на основе PST-файлов в качестве хранилище NST хранилища сообщений службы функцию точки входа для MAPI.</span><span class="sxs-lookup"><span data-stu-id="32360-105">Message service entry point function for a MAPI store provider to wrap a PST-based local store as an NST store.</span></span> 
+<span data-ttu-id="bd774-105">Поставщик для упаковки в локальном хранилище на основе PST-файлов в качестве хранилище NST хранилища сообщений службы функцию точки входа для MAPI.</span><span class="sxs-lookup"><span data-stu-id="bd774-105">Message service entry point function for a MAPI store provider to wrap a PST-based local store as an NST store.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="32360-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="32360-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="bd774-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="bd774-106">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="32360-107">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="32360-107">Implemented by:</span></span>  <br/> |<span data-ttu-id="32360-108">Поставщик MAPI</span><span class="sxs-lookup"><span data-stu-id="32360-108">MAPI provider</span></span>  <br/> |
-|<span data-ttu-id="32360-109">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="32360-109">Called by:</span></span>  <br/> |<span data-ttu-id="32360-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="32360-110">MAPI</span></span>  <br/> |
+|<span data-ttu-id="bd774-107">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="bd774-107">Implemented by:</span></span>  <br/> |<span data-ttu-id="bd774-108">Поставщик MAPI</span><span class="sxs-lookup"><span data-stu-id="bd774-108">MAPI provider</span></span>  <br/> |
+|<span data-ttu-id="bd774-109">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="bd774-109">Called by:</span></span>  <br/> |<span data-ttu-id="bd774-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="bd774-110">MAPI</span></span>  <br/> |
    
 ```cpp
 HRESULT NSTServiceEntry( 
@@ -45,43 +45,43 @@ HRESULT NSTServiceEntry(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="32360-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="32360-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bd774-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="bd774-111">Parameters</span></span>
 
- <span data-ttu-id="32360-112">**NSTServiceEntry** использует прототип функции **[MSGSERVICEENTRY](msgserviceentry.md)** .</span><span class="sxs-lookup"><span data-stu-id="32360-112">**NSTServiceEntry** uses the **[MSGSERVICEENTRY](msgserviceentry.md)** function prototype.</span></span> <span data-ttu-id="32360-113">Сведения о его параметров содержатся **[MSGSERVICEENTRY](msgserviceentry.md)**.</span><span class="sxs-lookup"><span data-stu-id="32360-113">For information on its parameters, see **[MSGSERVICEENTRY](msgserviceentry.md)**.</span></span> 
+ <span data-ttu-id="bd774-112">**NSTServiceEntry** использует прототип функции **[MSGSERVICEENTRY](msgserviceentry.md)** .</span><span class="sxs-lookup"><span data-stu-id="bd774-112">**NSTServiceEntry** uses the **[MSGSERVICEENTRY](msgserviceentry.md)** function prototype.</span></span> <span data-ttu-id="bd774-113">Сведения о его параметров содержатся **[MSGSERVICEENTRY](msgserviceentry.md)**.</span><span class="sxs-lookup"><span data-stu-id="bd774-113">For information on its parameters, see **[MSGSERVICEENTRY](msgserviceentry.md)**.</span></span> 
   
-## <a name="return-values"></a><span data-ttu-id="32360-114">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="32360-114">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bd774-114">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="bd774-114">Return values</span></span>
 
-<span data-ttu-id="32360-115">Возвращаемые значения содержатся в разделе **[MSGSERVICEENTRY](msgserviceentry.md)**.</span><span class="sxs-lookup"><span data-stu-id="32360-115">For information on return values, see **[MSGSERVICEENTRY](msgserviceentry.md)**.</span></span> 
+<span data-ttu-id="bd774-115">Возвращаемые значения содержатся в разделе **[MSGSERVICEENTRY](msgserviceentry.md)**.</span><span class="sxs-lookup"><span data-stu-id="bd774-115">For information on return values, see **[MSGSERVICEENTRY](msgserviceentry.md)**.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="32360-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="32360-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd774-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="bd774-116">Remarks</span></span>
 
-<span data-ttu-id="32360-117">При использовании **[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)** следует искать адреса этой функции msmapi32.dll, укажите «NSTServiceEntry» в качестве имени процедуры.</span><span class="sxs-lookup"><span data-stu-id="32360-117">When using **[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)** to look for the address of this function in msmapi32.dll, specify "NSTServiceEntry" as the procedure name.</span></span> 
+<span data-ttu-id="bd774-117">При использовании **[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** следует искать адреса этой функции msmapi32.dll, укажите «NSTServiceEntry» в качестве имени процедуры.</span><span class="sxs-lookup"><span data-stu-id="bd774-117">When using **[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** to look for the address of this function in msmapi32.dll, specify "NSTServiceEntry" as the procedure name.</span></span> 
   
-<span data-ttu-id="32360-118">Чтобы использовать API репликации, поставщик хранилища MAPI сначала необходимо открыть и перенос локального хранилища на основе PST-файлов, вызвав **[NSTServiceEntry](nstserviceentry.md)**.</span><span class="sxs-lookup"><span data-stu-id="32360-118">To use the Replication API, a MAPI store provider must first open and wrap a PST-based local store by calling **[NSTServiceEntry](nstserviceentry.md)**.</span></span> <span data-ttu-id="32360-119">Поставщик затем можно использовать основные интерфейсы API, **[IOSTX](iostxiunknown.md)** и **[IPSTX](ipstxiunknown.md)**, чтобы выполнить репликацию.</span><span class="sxs-lookup"><span data-stu-id="32360-119">The provider can then use the major interfaces of the API, **[IOSTX](iostxiunknown.md)** and **[IPSTX](ipstxiunknown.md)**, to carry out replication.</span></span> 
+<span data-ttu-id="bd774-118">Чтобы использовать API репликации, поставщик хранилища MAPI сначала необходимо открыть и перенос локального хранилища на основе PST-файлов, вызвав **[NSTServiceEntry](nstserviceentry.md)**.</span><span class="sxs-lookup"><span data-stu-id="bd774-118">To use the Replication API, a MAPI store provider must first open and wrap a PST-based local store by calling **[NSTServiceEntry](nstserviceentry.md)**.</span></span> <span data-ttu-id="bd774-119">Поставщик затем можно использовать основные интерфейсы API, **[IOSTX](iostxiunknown.md)** и **[IPSTX](ipstxiunknown.md)**, чтобы выполнить репликацию.</span><span class="sxs-lookup"><span data-stu-id="bd774-119">The provider can then use the major interfaces of the API, **[IOSTX](iostxiunknown.md)** and **[IPSTX](ipstxiunknown.md)**, to carry out replication.</span></span> 
   
-<span data-ttu-id="32360-120">Следующие вычисляются в хранилище NST:</span><span class="sxs-lookup"><span data-stu-id="32360-120">The following remarks apply to an NST store:</span></span>
+<span data-ttu-id="bd774-120">Следующие вычисляются в хранилище NST:</span><span class="sxs-lookup"><span data-stu-id="bd774-120">The following remarks apply to an NST store:</span></span>
   
-- <span data-ttu-id="32360-121">Не следует хранить какие-либо сведения в разделе глобальные профиля, при реализации поставщика MAPI, который использует **NSTServiceEntry**.</span><span class="sxs-lookup"><span data-stu-id="32360-121">Do not store any information in the global profile section when implementing a MAPI provider that uses **NSTServiceEntry**.</span></span> <span data-ttu-id="32360-122">В разделе глобальные профилей совместно используемой многие поставщики и данных, хранящихся в этот профиль может быть перезаписана.</span><span class="sxs-lookup"><span data-stu-id="32360-122">The global profile section is shared by many providers and data stored in this profile can be overwritten.</span></span> 
+- <span data-ttu-id="bd774-121">Не следует хранить какие-либо сведения в разделе глобальные профиля, при реализации поставщика MAPI, который использует **NSTServiceEntry**.</span><span class="sxs-lookup"><span data-stu-id="bd774-121">Do not store any information in the global profile section when implementing a MAPI provider that uses **NSTServiceEntry**.</span></span> <span data-ttu-id="bd774-122">В разделе глобальные профилей совместно используемой многие поставщики и данных, хранящихся в этот профиль может быть перезаписана.</span><span class="sxs-lookup"><span data-stu-id="bd774-122">The global profile section is shared by many providers and data stored in this profile can be overwritten.</span></span> 
     
-- <span data-ttu-id="32360-123">Только элементы с существующей отметки времени изменения получите их пометок обновлены при сохранении.</span><span class="sxs-lookup"><span data-stu-id="32360-123">Only items with existing modification time stamps get their stamps updated when they are saved.</span></span> 
+- <span data-ttu-id="bd774-123">Только элементы с существующей отметки времени изменения получите их пометок обновлены при сохранении.</span><span class="sxs-lookup"><span data-stu-id="bd774-123">Only items with existing modification time stamps get their stamps updated when they are saved.</span></span> 
     
-- <span data-ttu-id="32360-124">Проверка конфликтов не происходит автоматически при сохранении элементов.</span><span class="sxs-lookup"><span data-stu-id="32360-124">Conflict-checking does not occur automatically when items are saved.</span></span>
+- <span data-ttu-id="bd774-124">Проверка конфликтов не происходит автоматически при сохранении элементов.</span><span class="sxs-lookup"><span data-stu-id="bd774-124">Conflict-checking does not occur automatically when items are saved.</span></span>
     
--  <span data-ttu-id="32360-125">Поиск повторяющихся данных не происходит при сохранении элементов.</span><span class="sxs-lookup"><span data-stu-id="32360-125">Duplicate detection does not occur when items are saved.</span></span> 
+-  <span data-ttu-id="bd774-125">Поиск повторяющихся данных не происходит при сохранении элементов.</span><span class="sxs-lookup"><span data-stu-id="bd774-125">Duplicate detection does not occur when items are saved.</span></span> 
     
--  <span data-ttu-id="32360-126">Добавляется файл, представляющий кэшированная версия сервера. NST.</span><span class="sxs-lookup"><span data-stu-id="32360-126">The file representing the cached version of the server is appended with .NST.</span></span> 
+-  <span data-ttu-id="bd774-126">Добавляется файл, представляющий кэшированная версия сервера. NST.</span><span class="sxs-lookup"><span data-stu-id="bd774-126">The file representing the cached version of the server is appended with .NST.</span></span> 
     
-- <span data-ttu-id="32360-127">Для получения указатель в разделе глобальные профилей, служба сообщений вызывает **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** в объекте поддержки с помощью **pbNSTGlobalProfileSectionGuid** , как указано ниже:</span><span class="sxs-lookup"><span data-stu-id="32360-127">To obtain a pointer to the global profile section, a message service calls **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** in the support object using **pbNSTGlobalProfileSectionGuid** as defined below:</span></span> 
+- <span data-ttu-id="bd774-127">Для получения указатель в разделе глобальные профилей, служба сообщений вызывает **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** в объекте поддержки с помощью **pbNSTGlobalProfileSectionGuid** , как указано ниже:</span><span class="sxs-lookup"><span data-stu-id="bd774-127">To obtain a pointer to the global profile section, a message service calls **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** in the support object using **pbNSTGlobalProfileSectionGuid** as defined below:</span></span> 
     
   ```
   #define  pbNSTGlobalProfileSectionGuid "\x85\xED\x14\x23\x9D\xF7\x42\x66\x8B\xF2\xFB\xD4\xA5\x21\x29\x41"
   ```
 
-- <span data-ttu-id="32360-128">В этом случае объект поддержки службы сообщений следует убедиться, что **IMAPISupport::OpenProfileSection** возвращает раздела профиля, который идентифицируется свойством **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** в разделе профиля по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="32360-128">In this case, the support object of the message service should ensure that **IMAPISupport::OpenProfileSection** returns the profile section that is identified by the **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** property in the default profile section.</span></span> <span data-ttu-id="32360-129">Для получения в этом разделе профилей, объект поддержки можно откройте раздел профиля по умолчанию, получить **PR_SERVICE_UID**и передать результат в **IMAPISupport::OpenProfileSection** для получения раздела правильные глобальные профиля.</span><span class="sxs-lookup"><span data-stu-id="32360-129">To get this profile section, the support object can open the default profile section, retrieve **PR_SERVICE_UID**, and pass the result to **IMAPISupport::OpenProfileSection** to retrieve the correct global profile section.</span></span> <span data-ttu-id="32360-130">Объект поддержки в свою очередь возвращает указатель на в этом разделе глобального профиля для службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="32360-130">The support object in turn returns a pointer to this global profile section to the message service.</span></span> 
+- <span data-ttu-id="bd774-128">В этом случае объект поддержки службы сообщений следует убедиться, что **IMAPISupport::OpenProfileSection** возвращает раздела профиля, который идентифицируется свойством **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** в разделе профиля по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="bd774-128">In this case, the support object of the message service should ensure that **IMAPISupport::OpenProfileSection** returns the profile section that is identified by the **[PR_SERVICE_UID](pidtagserviceuid-canonical-property.md)** property in the default profile section.</span></span> <span data-ttu-id="bd774-129">Для получения в этом разделе профилей, объект поддержки можно откройте раздел профиля по умолчанию, получить **PR_SERVICE_UID**и передать результат в **IMAPISupport::OpenProfileSection** для получения раздела правильные глобальные профиля.</span><span class="sxs-lookup"><span data-stu-id="bd774-129">To get this profile section, the support object can open the default profile section, retrieve **PR_SERVICE_UID**, and pass the result to **IMAPISupport::OpenProfileSection** to retrieve the correct global profile section.</span></span> <span data-ttu-id="bd774-130">Объект поддержки в свою очередь возвращает указатель на в этом разделе глобального профиля для службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="bd774-130">The support object in turn returns a pointer to this global profile section to the message service.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="32360-131">См. также</span><span class="sxs-lookup"><span data-stu-id="32360-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bd774-131">См. также</span><span class="sxs-lookup"><span data-stu-id="bd774-131">See also</span></span>
 
 
 
-[<span data-ttu-id="32360-132">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="32360-132">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="bd774-132">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="bd774-132">About the Replication API</span></span>](about-the-replication-api.md)
 
