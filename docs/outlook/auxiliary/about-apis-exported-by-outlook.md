@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7b251308-70ff-a1ec-e968-9d5993909505
 description: Outlook экспортирует определений, структуры данных, функции и интерфейсы, которые изначально были разработаны для внутреннего использования, но теперь доступно для общего использования.
-ms.openlocfilehash: 888a1d7f828b463dc17c03353d693d3df3544e53
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ed68b6c1b8082ee5cc22deb96333a0bd4d29390
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807666"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399370"
 ---
 # <a name="about-apis-exported-by-outlook"></a>Сведения об интерфейсах API, экспортируемых Outlook
 
@@ -52,6 +52,6 @@ Outlook экспортирует определений, структуры да
   
 - [Определить, является ли элемент Outlook был изменен, но не сохраняются (Outlook дополнительные справочные материалы по)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
-- [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 

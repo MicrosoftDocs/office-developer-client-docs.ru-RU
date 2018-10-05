@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9dfc3b3381139b6b7fe47fb369d1cd69ee5e9677
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 317c3702415ddf30038ccd0d40cdf0f19abc61f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587840"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399650"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Завершение сеанса MAPI.
   
@@ -57,15 +57,15 @@ MAPI_LOGOFF_UI
   
 > [in] ���������������; ������ ���� ����� ����.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Выход из системы операция выполнена успешно.
     
 ## <a name="remarks"></a>Замечания
 
-Метод **IMAPISession::Logoff** завершает сеанс MAPI. При возврате **выхода из системы** , ни один из методов, за исключением [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) может быть вызван. 
+Метод **IMAPISession::Logoff** завершает сеанс MAPI. При возврате **выхода из системы** , ни один из методов, за исключением [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) может быть вызван. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
@@ -73,11 +73,11 @@ MAPI_LOGOFF_UI
   
 Дополнительные сведения о завершении сеанса можно [Завершение сеанса MAPI](ending-a-mapi-session.md).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |Mfcmapi (en) использует метод **IMAPISession::Logoff** для сеанса перед выпуском его.  <br/> |
    
@@ -91,7 +91,7 @@ MAPI_LOGOFF_UI
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
 [Завершение сеанса MAPI](ending-a-mapi-session.md)
 

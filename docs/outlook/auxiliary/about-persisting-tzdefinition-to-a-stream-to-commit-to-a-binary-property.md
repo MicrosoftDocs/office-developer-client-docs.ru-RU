@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 0dec535d-d48f-39a5-97d5-0bd109134b3b
 description: Свойства часового пояса, PidLidAppointmentTimeZoneDefinitionEndDisplay, PidLidAppointmentTimeZoneDefinitionRecur и PidLidAppointmentTimeZoneDefinitionStartDisplay двоичные свойства, каждая из которых содержит поток, который сопоставляется с именем постоянные формат TZDEFINITION структуры.
-ms.openlocfilehash: 8e00c7203e2a0adfdf9ff3e6dadff6485c8b5111
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f94b751a55aa852c962eebe5d46968e9e622e315
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807671"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398621"
 ---
 # <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>Сведения о сохранении TZDEFINITION в потоке для помещения в двоичное свойство
 
-Свойства часового пояса, [PidLidAppointmentTimeZoneDefinitionEndDisplay](http://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](http://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)и [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) двоичные с именем свойства, каждая из которых содержит поток, который соответствует сохраненного формата [TZDEFINITION](tzdefinition.md) структуры. 
+Свойства часового пояса, [PidLidAppointmentTimeZoneDefinitionEndDisplay](https://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](https://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)и [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) двоичные с именем свойства, каждая из которых содержит поток, который соответствует сохраненного формата [TZDEFINITION](tzdefinition.md) структуры. 
   
 В этом разделе описываются прямой порядок байтов, который можно использовать при сохранении **TZDEFINITION** к потоку для применения к одной из трех свойства двоичных файлов. Используйте тот же формат порядком в средства синтаксического анализа для интерпретации значения потока, полученный от одного из этих свойств. 
   

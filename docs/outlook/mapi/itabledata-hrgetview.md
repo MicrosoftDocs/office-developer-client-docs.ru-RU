@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0eb0374788da629c4c28eff2fce93536cf65a4ce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 375a0f1d39b09b7ad453120f20752e00ffda0e15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582989"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398712"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
@@ -54,9 +54,9 @@ HRESULT HrGetView(
   
 > [out] Указатель на указатель на только что созданный представления.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Представление успешно создан.
     
@@ -64,7 +64,7 @@ HRESULT HrGetView(
 
 Метод **ITableData::HrGetView** создает представления только для чтения данных в таблице, в порядке, на который указывает параметр _lpSSortOrderSet_ . Курсор в начале первой строки в представлении. Реализация интерфейса **IMAPITable** для доступа к представлении возвращается. 
   
-Поставщиков услуг вызов **HrGetView** , когда требуется предоставить клиентского доступа в таблицу. **HrGetView** создает представление и возвращает указатель **IMAPITable** . В свою очередь, поставщиков услуг передайте указатель мыши на клиенте. Когда клиенту по завершении работы с помощью таблицы и вызывает метод [функции IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) , **HrGetView** вызывает функцию обратного вызова, на который указывает параметр _lpfCallerRelease_ . 
+Поставщиков услуг вызов **HrGetView** , когда требуется предоставить клиентского доступа в таблицу. **HrGetView** создает представление и возвращает указатель **IMAPITable** . В свою очередь, поставщиков услуг передайте указатель мыши на клиенте. Когда клиенту по завершении работы с помощью таблицы и вызывает метод [функции IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) , **HrGetView** вызывает функцию обратного вызова, на который указывает параметр _lpfCallerRelease_ . 
   
 Если поставщик службы необходимо возвратить клиенту представление, набор настраиваемых столбцов или ограничение, поставщик может вызвать методы [IMAPITable::SetColumns](imapitable-setcolumns.md) и [IMAPITable::Restrict](imapitable-restrict.md) представления перед тем как разрешить клиентского доступа. 
   

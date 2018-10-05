@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 265028b7-a583-f6ba-0214-5a4322f98f35
 description: Инициализирует объект IOlkApptRebaser для использования в модификации базового адреса встреч в календарях Outlook.
-ms.openlocfilehash: fec0407c3f129290d03f9b26b0b3f072a229b003
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33ad47d59ee2ca1b2461f730494f3466b9f8b54a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807707"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397543"
 ---
 # <a name="hrcreateapptrebaser"></a>HrCreateApptRebaser
 
@@ -23,8 +23,8 @@ ms.locfileid: "19807707"
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |tzmovelib.h  <br/> |
-|Реализованный:  <br/> |tzmovelib.dll  <br/> |
-|Вызывается:  <br/> |Клиентские приложения MAPI  <br/> |
+|Реализовано в:  <br/> |tzmovelib.dll  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения MAPI  <br/> |
 |Тип указателя:  <br/> |**LPHRCREATEAPPTREBASER** <br/> |
 |Точку входа:  <br/> |**HrCreateApptRebaser@44** <br/> |
    
@@ -106,7 +106,7 @@ pTZMissing
     
 _ppError_
   
-> [out] Указатель на указатель на структуру **MAPIERROR** , содержащий версии, компонент и контекста сведения об ошибке. Может быть NULL, при необходимости не расширенные сведения об ошибке. Бесплатная загрузка с [MAPIFreeBuffer](http://msdn.microsoft.com/library/9412594f-8acc-4c7e-a668-4ec1da0ad9cf%28Office.15%29.aspx). 
+> [out] Указатель на указатель на структуру **MAPIERROR** , содержащий версии, компонент и контекста сведения об ошибке. Может быть NULL, при необходимости не расширенные сведения об ошибке. Бесплатная загрузка с [MAPIFreeBuffer](https://msdn.microsoft.com/library/9412594f-8acc-4c7e-a668-4ec1da0ad9cf%28Office.15%29.aspx). 
     
 _ppApptRebase_
   
@@ -118,9 +118,9 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="remarks"></a>Remarks
 
-При использовании [GetProcAddress](http://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx) следует искать адреса этой функции tzmovelib.dll, укажите **HrCreateApptRebaser@44** в качестве имени процедуры. Не все флаги, допустимый в сочетании друг с другом. 
+При использовании [GetProcAddress](https://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx) следует искать адреса этой функции tzmovelib.dll, укажите **HrCreateApptRebaser@44** в качестве имени процедуры. Не все флаги, допустимый в сочетании друг с другом. 
   
-Дополнительные сведения о различных параметрах, обратитесь к разделу «Глоссарий параметров командной строки для средства обновления данных часового пояса Outlook» в [931667 статья БАЗЫ знаний: как часовой пояс изменения адреса с помощью средства обновления данных часового пояса для Microsoft Office Outlook](http://support.microsoft.com/kb/931667/en-us).
+Дополнительные сведения о различных параметрах, обратитесь к разделу «Глоссарий параметров командной строки для средства обновления данных часового пояса Outlook» в [931667 статья БАЗЫ знаний: как часовой пояс изменения адреса с помощью средства обновления данных часового пояса для Microsoft Office Outlook](https://support.microsoft.com/kb/931667/en-us).
   
 ## <a name="see-also"></a>См. также
 

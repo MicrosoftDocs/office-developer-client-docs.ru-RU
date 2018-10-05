@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: Функциональность формы InfoPath можно повысить за счет к ним с управляемым кодом, разработанных в Visual Studio 2012. Затем можно опубликовать форм с кодом в библиотеки форм в SharePoint Server 2013.
-ms.openlocfilehash: d6a2cfa1847b4b59b6978b8f4a0775aedf07a72d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c67b85823fe567b494366a505be5dad51d20b32
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807510"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401099"
 ---
 # <a name="develop-with-visual-studio"></a>Разработка с помощью Visual Studio
 
@@ -19,7 +19,7 @@ ms.locfileid: "19807510"
   
 Для начала программирования и развертывания форм InfoPath с управляемым кодом необходимо выполнить три основных действия:
   
-1. Установка Visual Studio 2012 с использованием надстройки [Набор средств Microsoft Visual Studio 2012 приложений](http://www.microsoft.com/en-us/download/details.aspx?id=38807) . 
+1. Установка Visual Studio 2012 с использованием надстройки [Набор средств Microsoft Visual Studio 2012 приложений](https://www.microsoft.com/en-us/download/details.aspx?id=38807) . 
     
 2. Определить язык программирования и написание и отладка кода в редакторе кода Visual Studio 2012.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 041c1b07-7ad4-f786-c6dc-32a41d4d5e04
 description: Указывает, является ли пользователь, которым запрещен создании или изменении стилей.
-ms.openlocfilehash: d4cc5bd06742fc29db7b740e9b470f7dc6a5e17a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3d74a5b3af964caad62a79b4c4958661ea101b0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814499"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400245"
 ---
 # <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>Элемент ProtectStyles (DocumentSettings_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814499"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814499"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 

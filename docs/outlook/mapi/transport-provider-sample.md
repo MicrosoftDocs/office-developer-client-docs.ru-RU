@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3b3ae4170cab109ae96a51eae6e70c674895eeae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: def51a752abcb79a35980ed12eb73011c26d2597
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575786"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401407"
 ---
 # <a name="transport-provider-sample"></a>Пример поставщика транспорта
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом примере использует каталоги и файлы для передачи и получения сообщений. Он реализует и регистрирует очень простым препроцессор, который добавляет строку текста для всех исходящих сообщений. Пример схемы иллюстрирует способ разделения содержимого сообщения между транспорта Neutral Encapsulation формата TNEF и текст. Он также поддерживает все параметры конфигурации (страницы свойств, мастеры и программной конфигурации) и параметры сообщения. Он не поддерживает интерфейсы удаленных транспорта. 
   
-В этом примере можно загрузить из [Примеры кода Outlook системы обмена сообщениями API (MAPI)](http://go.microsoft.com/fwlink/?LinkId=129740).
+В этом примере можно загрузить из [Примеры кода Outlook системы обмена сообщениями API (MAPI)](https://go.microsoft.com/fwlink/?LinkId=129740).
   
 |||
 |:-----|:-----|

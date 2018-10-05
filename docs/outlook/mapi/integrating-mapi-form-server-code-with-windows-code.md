@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 47ec3e97-ad2b-43ea-842a-b2a0675eef48
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b37ae47e40906342aeecf179848311556a7d4ba4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 33b205c0ac5caf5fc049a0732cd219aa2c321326
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573994"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397865"
 ---
 # <a name="integrating-mapi-form-server-code-with-windows-code"></a>Интеграция серверного кода форм MAPI с кодом Windows
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Помните, что сервер формы — это приложение Win32. Таким образом существуют некоторые задачи, связанные с загрузки сервера формы в памяти и завершение работы приложения без ошибок. Как и все приложения Windows точка входа для сервера формы является функции **WinMain** . Эта функция является соответствующее место для выполнения следующих задач: 
   
@@ -31,7 +31,7 @@ ms.locfileid: "22573994"
     
 - Регистрация глобального atom с строковое представление формы server идентификатор класса (CLSID). В этом atom должна существовать для жизненным циклом сервера форм.
     
-- Вызов функции OLE [CoRegisterClassObject](http://msdn.microsoft.com/en-us/library/ms693407.aspx) для регистрации фабрики классов сервера форм с OLE. 
+- Вызов функции OLE [CoRegisterClassObject](https://msdn.microsoft.com/library/ms693407.aspx) для регистрации фабрики классов сервера форм с OLE. 
     
 - Создание главного окна для получения сообщений. Это окно, вероятно, не нужно быть видны, так как пользователь будет взаимодействует с определенным windows, связанные с объектами объединяемой формы. Тем не менее во время разработки, главного окна может быть удобно для отладки элемента управления сервера формы или вывода.
     
@@ -39,7 +39,7 @@ ms.locfileid: "22573994"
     
 При выходе из сервера формы, его следует выполнить следующие задачи:
   
-- Вызовите функцию OLE [CoRevokeClassObject](http://msdn.microsoft.com/en-us/library/ms688650%28VS.85%29.aspx) для отмены регистрации OLE класс сообщения. 
+- Вызовите функцию OLE [CoRevokeClassObject](https://msdn.microsoft.com/library/ms688650%28VS.85%29.aspx) для отмены регистрации OLE класс сообщения. 
     
 - Вызовите **MAPIUninitialize** , чтобы должным образом закрыть подключения к серверу формы к MAPI. 
     

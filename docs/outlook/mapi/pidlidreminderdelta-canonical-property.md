@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 91cad169157b2dd0ff279e88b69db149c4c7df89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86a0203f930661452bb143e247c17ef6da8ed436
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590752"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398007"
 ---
 # <a name="pidlidreminderdelta-canonical-property"></a>Каноническое свойство PidLidReminderDelta
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает интервал в минутах между времени, когда напоминания сначала становится просроченные и время начала объекта календаря.
   
@@ -37,17 +37,17 @@ ms.locfileid: "22590752"
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство необходимо установить на объекты календаря. Для всех объектов не календаря это свойство должно иметь значение «0x00000000» и будет пропущен. После закрытия напоминания для одного экземпляра объекта повторяющихся календаря, значение этого свойства используется в расчет времени сигнала следующего экземпляра. Для получения дополнительных сведений о создании объекта календаря в разделе [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
+Это свойство необходимо установить на объекты календаря. Для всех объектов не календаря это свойство должно иметь значение «0x00000000» и будет пропущен. После закрытия напоминания для одного экземпляра объекта повторяющихся календаря, значение этого свойства используется в расчет времени сигнала следующего экземпляра. Для получения дополнительных сведений о создании объекта календаря в разделе [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Задает свойства и модель взаимодействия для электронной почты и других объектов напоминания.
     

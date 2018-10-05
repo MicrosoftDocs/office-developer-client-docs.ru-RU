@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 82c44f2292400c449ee0f82600c5b596728af7c0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4b017089a675727703de9e2ed4d584e7f77a778a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590437"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401568"
 ---
 # <a name="mapi-canonical-properties"></a>Каноническое свойства MAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Каноническое свойство — виртуальная, представляющий свойство MAPI или несколько свойств MAPI, определенным с один и тот же идентификатор свойства. Каноническое свойства предназначены только для облегчения согласованные идентификации свойств MAPI в документации за пределами кода или обсуждения. В отличие от имена определенных пользователем MAPI с тегами свойств имена свойств каноническое не определены как глобальные константы в файлы заголовков MAPI.
   
 ## <a name="naming-conventions"></a>Соглашения о наименовании
 
-Каноническое свойство имена начинаются с префикса «Код продукта», который представляет «идентификатор свойства». В зависимости от свойства с тегами свойство, именованного свойства с числовой идентификатор или именованное свойство с именем string, префикс дальнейшей рекомендованные как «PidTag», «PidLid» и «PidName» соответственно. Например [PidTagAccount](pidtagaccount-canonical-property.md) представляет с тегами свойства **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)) и **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), которые задают получателя Имя учетной записи; [PidLidContacts](pidlidcontacts-canonical-property.md) представляет свойство **dispidContacts** именованного свойства, который содержит числовой идентификатор и, который указывает имя контактов, связанных с сообщением; и представляет [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) "http://schemas.microsoft.com/outlook/phishingstamp,» именованного свойства, который имеет имя строки, после чего, строка, которая Пометка сообщений, которые будут считаться фишинга. 
+Каноническое свойство имена начинаются с префикса «Код продукта», который представляет «идентификатор свойства». В зависимости от свойства с тегами свойство, именованного свойства с числовой идентификатор или именованное свойство с именем string, префикс дальнейшей рекомендованные как «PidTag», «PidLid» и «PidName» соответственно. Например [PidTagAccount](pidtagaccount-canonical-property.md) представляет с тегами свойства **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)), **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)) и **PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md)), которые задают получателя Имя учетной записи; [PidLidContacts](pidlidcontacts-canonical-property.md) представляет свойство **dispidContacts** именованного свойства, который содержит числовой идентификатор и, который указывает имя контактов, связанных с сообщением; и представляет [PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md) "https://schemas.microsoft.com/outlook/phishingstamp,» именованного свойства, который имеет имя строки, после чего, строка, которая Пометка сообщений, которые будут считаться фишинга. 
   
 ## <a name="representing-similar-properties-using-one-canonical-property"></a>Представляет аналогичные свойств с помощью одного канонического свойства
 
@@ -71,7 +71,7 @@ ms.locfileid: "22590437"
   
 ## <a name="canonical-property-names-and-exchange-protocol-specifications"></a>Каноническое свойство имена и спецификаций протокола Exchange
 
-Каноническое имена упоминаются в спецификаций протокола Microsoft Exchange Server, которые используются для связи с другими продуктами корпорации Майкрософт с Exchange Server. Дополнительные сведения о свойствах объекта message ссылается спецификаций протокола Exchange можно [[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx).
+Каноническое имена упоминаются в спецификаций протокола Microsoft Exchange Server, которые используются для связи с другими продуктами корпорации Майкрософт с Exchange Server. Дополнительные сведения о свойствах объекта message ссылается спецификаций протокола Exchange можно [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx).
   
 ## <a name="see-also"></a>См. также
 

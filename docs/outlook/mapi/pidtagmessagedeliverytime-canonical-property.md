@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4f9d44f2-4faa-4f16-9e33-22f80c17db85
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b635ad72acc2bd98ca0c207dea71ea2df757e22b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8ebaea7fb6888e51ee1ef658db53dcf3050644da
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593937"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397347"
 ---
 # <a name="pidtagmessagedeliverytime-canonical-property"></a>Каноническое свойство PidTagMessageDeliveryTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время, когда сообщение было доставлено. 
   
@@ -42,7 +42,7 @@ ms.locfileid: "22593937"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     

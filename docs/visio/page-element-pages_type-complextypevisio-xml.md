@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e4ac41f-3855-05d8-e659-02c265b8750c
 description: Содержит элементы, определяющие страницы в документе.
-ms.openlocfilehash: 368c50a25a09d5f4fd808f3f019b074b7f6d246d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 800e4ab2c6446ab298747f0492800000bb44cca3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814322"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398012"
 ---
 # <a name="page-element-pagestype-complextype-visio-xml"></a>Элемент страницы (Pages_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814322"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Pages.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814322"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "19814322"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |Общие сведения  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Флаг, указывающий, является ли страница фоновой страницы.  <br/> |Значения типа xsd:boolean.  <br/> |
 |Обратная сторона  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Идентификатор страницы фона на этой странице.  <br/> |Значения типа xsd:unsignedInt.  <br/> |

@@ -14,18 +14,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: df584b25-4460-46c8-89a8-3b2c94d20bba
 description: Узнайте, сведения, которые помогут в создании проектов в Visual Studio с помощью образцы кода на основе ASMX, включенные в разделы справочника по интерфейса Project Server (PSI).
-ms.openlocfilehash: 73d097211dc3c68e1066c2ea1ad8d51a616184d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26ad2e388b7e7f6f19e028b47c7f6d1a3fbd020c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813066"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399328"
 ---
 # <a name="prerequisites-for-asmx-based-code-samples-in-project"></a>Предварительные требования для основанных на ASMX примеров кода в Project
 
 Узнайте, сведения, которые помогут в создании проектов в Visual Studio с помощью образцы кода на основе ASMX, включенные в разделы справочника по интерфейса Project Server (PSI).
   
-Многие из примеров кода, включенных в [библиотеки и веб-службы Project Server 2013 класс ссылаться](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) изначально были созданы для пакета SDK для Office Project 2007 и использовать стандартный формат для веб-службы ASMX. Примеры по-прежнему работают в Project Server 2013 и предназначены для копируются в консольного приложения и запуска в качестве завершения блока. Имеются следующие исключения в образце. 
+Многие из примеров кода, включенных в [библиотеки и веб-службы Project Server 2013 класс ссылаться](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) изначально были созданы для пакета SDK для Office Project 2007 и использовать стандартный формат для веб-службы ASMX. Примеры по-прежнему работают в Project Server 2013 и предназначены для копируются в консольного приложения и запуска в качестве завершения блока. Имеются следующие исключения в образце. 
   
 Новые образцы PSI в пакет SDK для Project 2013 соответствует формат, который использует службы Windows Communication Foundation (WCF). Примеры на основе ASMX также можно адаптировать для использования службы WCF. В этой статье показано, как использовать образцы с веб-службы ASMX. Для получения сведений об использовании примеров со службами WCF видеть [Необходимые условия для образцов кода на основе WCF в проекте](prerequisites-for-wcf-based-code-samples-in-project.md).
   
@@ -120,7 +120,7 @@ ms.locfileid: "19813066"
 @ECHO ---------------------------------------------------
 REM Replace ServerName with the name of the server and 
 REM the instance name of Project Web App. Do not use localhost.
-(set VDIR=http://ServerName/pwa/_vti_bin/psi)
+(set VDIR=https://ServerName/pwa/_vti_bin/psi)
 (set OUTDIR=.\Source)
 REM ** Wsdl.exe is the same version in the v6.0A and v7.0A subdirectories. 
 (set WSDL="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\wsdl.exe")
@@ -184,7 +184,7 @@ WssInterop
 Загрузить пакет SDK Project 2013 включает в себя исходные файлы, созданные с помощью команды Wsdl.exe для сборки прокси-сервера. Исходные файлы находятся в файл Source.zip в `Documentation\IntelliSense\ASMX` подкаталог. Вместо установки ссылки на сборку прокси-сервера, можно добавить одну или несколько исходных файлов решение Visual Studio. Например после выполнения сценария GenASMXProxyAssembly.cmd, добавьте wsdl. Файл Project.cs в решение. Вместо выполнение скрипта, можно выполните следующие команды для создания одного исходного файла, например: 
   
 ```MS-DOS
-set VDIR=http://ServerName/ProjectServerName/_vti_bin/psi
+set VDIR=https://ServerName/ProjectServerName/_vti_bin/psi
 set WSDL="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\wsdl.exe"
 %WSDL% /nologo /l:cs /namespace:SvcProject /out:wsdl.Project.cs %VDIR%/Project.asmx?wsdl
 ```
@@ -199,7 +199,7 @@ private static SvcLoginForms.LoginForms loginForms =
 public void AddContextInfo()
 {
     // Add the Url property.
-    project.Url = "http://ServerName /ProjectServerName /_vti_bin/psi/project.asmx";
+    project.Url = "https://ServerName /ProjectServerName /_vti_bin/psi/project.asmx";
     // Add Windows credentials.
     project.Credentials = CredentialCache.DefaultCredentials;
     // If Forms authentication is used, add the Project Server cookie.
@@ -221,11 +221,11 @@ public void AddContextInfo()
     
 3. В диалоговом окне **Настройки ссылок на службы** выберите **Добавить веб-ссылку**.
     
-4. В текстовом поле **URL-адрес** введите `http:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`, а затем нажмите клавишу **Ввод** или выберите значок **Переход** . Если у вас есть Secure Sockets Layer (SSL) установлен, следует использовать протокол HTTPS вместо протокола HTTP. 
+4. В текстовом поле **URL-адрес** введите `https:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`, а затем нажмите клавишу **Ввод** или выберите значок **Переход** . Если у вас есть Secure Sockets Layer (SSL) установлен, следует использовать протокол HTTPS вместо протокола HTTP. 
 
-   Например, используйте следующий URL-адрес для службы Project на `http://MyServer/pwa` сайт Project Web App:`http://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
+   Например, используйте следующий URL-адрес для службы Project на `https://MyServer/pwa` сайт Project Web App:`https://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
     
-   Или, откройте веб-браузер и перейдите к `http://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`. Сохраните файл в локальный каталог, таких как `C:\Project\WebServices\ServiceName.wsdl`. В диалоговом окне **Добавление веб-ссылки** для **URL-адреса**, введите протокол файла и путь к файлу. Например, введите `file://C:\Project\WebServices\Project.wsdl`. 
+   Или, откройте веб-браузер и перейдите к `https://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`. Сохраните файл в локальный каталог, таких как `C:\Project\WebServices\ServiceName.wsdl`. В диалоговом окне **Добавление веб-ссылки** для **URL-адреса**, введите протокол файла и путь к файлу. Например, введите `file://C:\Project\WebServices\Project.wsdl`. 
     
 5. После ссылки разрешаются, введите имя ссылки в текстовом поле **имя веб-ссылки** . Примеры кода в документации для разработчиков по Project 2013 используйте имя произвольных стандартную ссылку **Svc _имя_службы_**. Например, проект веб-службы с именем **SvcProject** (см). 
     
@@ -272,7 +272,7 @@ namespace ASMXLogon_MultiAuth
     class Program
     {
         private const string PROJECT_SERVER_URL = 
-            "http://ServerName/ProjectServerName/_vti_bin/psi/";
+            "https://ServerName/ProjectServerName/_vti_bin/psi/";
         static void Main(string[] args)
         {
             bool isWindowsUser = true;
@@ -371,7 +371,7 @@ namespace ASMXLogon_MultiAuth
 Большинство образцов имеет один или несколько переменных, которые необходимо обновить образец работал надлежащим образом в вашей среде. В следующем примере Если протокол SSL, используйте протокол HTTPS вместо протокола HTTP. Замените _имя сервера_ имя сервера, на котором вы используете. Замените _ProjectServerName_ имя виртуального каталога веб-узла Project Server, например веб-клиента Project. 
   
 ```cs
-const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
+const string PROJECT_SERVER_URI = "https://ServerName/ProjectServerName/";
 ```
 
 Все остальные переменные, которые вам следует изменить, или иные предварительные требования указаны в верхней части примера кода.
@@ -385,11 +385,11 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
   
 - Просмотр элементов, которые будут использовать клиента Project Professional 2013 для откройте проект на сервере Project Server
     
-- Просмотр опубликованных проектов на странице центра проектов Project Web App ( `http://ServerName/ProjectServerName/projects.aspx`).
+- Просмотр опубликованных проектов на странице центра проектов Project Web App ( `https://ServerName/ProjectServerName/projects.aspx`).
     
-- Просмотр журнала очереди в Project Web App. Открыть страницу "Параметры сервера" (в верхнем правом углу щелкните значок **Параметры** ), а затем выберите **Мои задания в очереди** в разделе **Личные параметры** ( `http://ServerName/ProjectServerName/MyJobs.aspx`). В раскрывающемся списке **представление** можно сортировать по состояние задания. Состояние по умолчанию — **в ходе выполнения и произошел сбой задания за прошлую неделю**. 
+- Просмотр журнала очереди в Project Web App. Открыть страницу "Параметры сервера" (в верхнем правом углу щелкните значок **Параметры** ), а затем выберите **Мои задания в очереди** в разделе **Личные параметры** ( `https://ServerName/ProjectServerName/MyJobs.aspx`). В раскрывающемся списке **представление** можно сортировать по состояние задания. Состояние по умолчанию — **в ходе выполнения и произошел сбой задания за прошлую неделю**. 
     
-- Используйте страницу параметров сервера в Project Web App ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) для управления заданиями в очереди и удаления или принудительный возврат корпоративных объектов. Необходимо иметь разрешения администратора для доступа к этих ссылок на странице "Параметры сервера".
+- Используйте страницу параметров сервера в Project Web App ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) для управления заданиями в очереди и удаления или принудительный возврат корпоративных объектов. Необходимо иметь разрешения администратора для доступа к этих ссылок на странице "Параметры сервера".
     
 - Используйте **Microsoft SQL Server Management Studio**, чтобы выполнить запрос для таблицы в базе данных Project. Например, используйте следующий запрос, чтобы выбрать 200 верхних строк таблицы pub.MSP_WORKFLOW_STAGE_PDPS для отображения информации о страницах сведений о проектах (PDP) в этапах рабочего проекта. 
     
@@ -407,7 +407,7 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 ## <a name="cleaning-up"></a>Очистка
 <a name="pj15_PrerequisitesASMX_Cleanup"> </a>
 
-После тестирования некоторые примеры кода существует корпоративных объектов и параметров, которые следует удалить или сбросить. На странице "Параметры сервера" в Project Web App можно использовать для управления корпоративными данными ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`). Ссылки на странице "Параметры сервера" позволяет удалять старые элементы, принудительный возврат проектов, управлять очередь заданий для всех пользователей и выполнять другие задачи администрирования.
+После тестирования некоторые примеры кода существует корпоративных объектов и параметров, которые следует удалить или сбросить. На странице "Параметры сервера" в Project Web App можно использовать для управления корпоративными данными ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`). Ссылки на странице "Параметры сервера" позволяет удалять старые элементы, принудительный возврат проектов, управлять очередь заданий для всех пользователей и выполнять другие задачи администрирования.
   
 Ниже приведено несколько ссылок на страницу параметров сервера, которые вы можете использовать для выполнения стандартных операций очистки после запуска примеров кода:
   
@@ -439,8 +439,8 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 <a name="pj15_PrerequisitesASMX_AR"> </a>
 
 - [Необходимые условия для примеров кода на основе WCF в Project](prerequisites-for-wcf-based-code-samples-in-project.md)
-- [Использование олицетворения с WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
+- [Использование олицетворения с WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
 - [Справочный обзор PSI Project](project-psi-reference-overview.md)
-- [Центр по разработке для SharePoint](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [Центр по разработке для SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx)
     
 

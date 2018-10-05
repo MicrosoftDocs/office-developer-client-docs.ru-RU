@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b35d58b-ec6f-9b99-01fb-c665630e65d7
-ms.openlocfilehash: e21ae09918c1814f2daedfdfb42f52b7d8f515ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e48172e8213359244a61716d208b8b98776429af
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814116"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397377"
 ---
 # <a name="linegradientrowtype-complextype-visio-xml"></a>LineGradientRow_Type complexType ('Visio XML»)
 
@@ -19,9 +19,9 @@ ms.locfileid: "19814116"
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**База расширения** <br/> |IndexedRow_Type  <br/> |
+|**Базовый элемент расширения** <br/> |IndexedRow_Type  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,7 +46,7 @@ ms.locfileid: "19814116"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="child-elements"></a>Дочерние элементы
 

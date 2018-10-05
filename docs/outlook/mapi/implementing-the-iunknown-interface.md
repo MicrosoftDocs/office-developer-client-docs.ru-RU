@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 01bba63b-a2a1-490e-8b78-5c9ba8d9547b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f9ab3b75743d882aca0145b73b8ef707204cc8de
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5165476ea131e40153191e8625af5ea3c49f47b1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571901"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397417"
 ---
 # <a name="implementing-the-iunknown-interface"></a>Реализация интерфейса IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Методы интерфейса [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) , реализованный в каждый объект MAPI поддерживают способ управления обмена данными и объекта. 
+Методы интерфейса [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) , реализованный в каждый объект MAPI поддерживают способ управления обмена данными и объекта. 
   
- **Интерфейс IUnknown** имеет три метода: [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx), [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)и [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx). **QueryInterface** включает один объект, который требуется определить, поддерживает ли другой объект определенного интерфейса. **QueryInterface**могут работать два объекта с отсутствуют знания функциональные возможности друг друга. Если объект, который реализует **QueryInterface** поддерживают интерфейс интересующую, возвращает указатель на реализацию интерфейса. Если объект не поддерживает запрошенный интерфейс, возвращается значение MAPI_E_INTERFACE_NOT_SUPPORTED. 
+ **Интерфейс IUnknown** имеет три метода: [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx), [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)и [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx). **QueryInterface** включает один объект, который требуется определить, поддерживает ли другой объект определенного интерфейса. **QueryInterface**могут работать два объекта с отсутствуют знания функциональные возможности друг друга. Если объект, который реализует **QueryInterface** поддерживают интерфейс интересующую, возвращает указатель на реализацию интерфейса. Если объект не поддерживает запрошенный интерфейс, возвращается значение MAPI_E_INTERFACE_NOT_SUPPORTED. 
   
 При **QueryInterface** возвращает указатель на интерфейс, его необходимо также увеличить счетчик ссылок новый объект. Счетчик ссылку на объект — числовое значение, используемый для управления объекта зависящая от. Если счетчик ссылок больше 1, так как он активно используется не может освободить память объекта. Это, только когда счетчик ссылок станет равен 0, что объект безопасно можно отменить. 
   

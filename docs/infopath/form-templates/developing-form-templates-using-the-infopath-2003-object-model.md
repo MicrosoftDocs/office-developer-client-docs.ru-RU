@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b
 description: Приложение Microsoft InfoPath по-прежнему поддерживает проекты шаблонов форм, созданные с помощью набора инструментов Microsoft Office InfoPath 2003 для Visual Studio .NET или с помощью набора инструментов Visual Studio 2005 для системы Microsoft Office, использующих бизнес-логику, написанную с применением элементов пространства имен Microsoft.Office.Interop.InfoPath.SemiTrust . В темах этого раздела типы и члены этого пространства имен упоминаются как объектная модель, совместимая с InfoPath 2003, или просто объектная модель InfoPath 2003. InfoPath также поддерживает проекты шаблонов форм, созданные с помощью Microsoft Office InfoPath 2007 с использованием объектной модели, совместимой с InfoPath 2003. Кроме того, InfoPath можно использовать для создания новых проектов шаблонов форм с применением объектной модели, совместимой с InfoPath 2003, чтобы сохранить обратную совместимость для пользователей Office InfoPath 2007. Все темы этого раздела посвящены созданию и разработке шаблонов форм, работающих с объектной моделью, совместимой с InfoPath 2003 и предоставляемой пространством имен Microsoft.Office.Interop.InfoPath.SemiTrust .
-ms.openlocfilehash: 5d949242068586c752e7a92fa53792cda9ececea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a39f921f6c7465dbcf469062b866c808fa222851
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807473"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401414"
 ---
 # <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Разработка шаблонов форм, использующих объектную модель InfoPath 2003
 
@@ -46,11 +46,11 @@ ms.locfileid: "19807473"
     
 ## <a name="related-sections"></a>Связанные разделы
 
-[Портал разработчиков InfoPath](http://go.microsoft.com/fwlink?LinkID=11689)
+[Портал разработчиков InfoPath](https://go.microsoft.com/fwlink?LinkID=11689)
   
 > Содержит ссылки на технические статьи, примеры кода, файлы для загрузки, сведения по поддержке и другую документацию MSDN по созданию настраиваемых решений InfoPath.
     
-[Центр разработчика Microsoft Office](http://go.microsoft.com/fwlink?LinkID=27128)
+[Центр разработчика Microsoft Office](https://go.microsoft.com/fwlink?LinkID=27128)
   
 > Содержит ссылки на технические статьи, примеры кода, файлы для загрузки, сведения по поддержке и другую документацию MSDN по созданию настраиваемых решений Office.
     

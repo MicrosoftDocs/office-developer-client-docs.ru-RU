@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1394039b-d509-49a5-8421-b7362d906879
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 72a26875802b2b7f94261f11e78fe560e9cc49d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f85b662b7fe710c66a2e69dd3cd3db22e3283ddb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583430"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398019"
 ---
 # <a name="imsgstoreunadvise"></a>IMsgStore::Unadvise
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Показано, как отменить отправку уведомлений, ранее настройка с помощью вызова метода [IMsgStore::Advise](imsgstore-advise.md) . 
   
@@ -39,9 +39,9 @@ HRESULT Unadvise(
   
 > [in] Номер подключения, связанный с регистрацию active уведомлений. Необходимо, значение _ulConnection_ возвращена предыдущий вызов метода **IMsgStore::Advise** . 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Регистрация успешно отменена.
     
@@ -49,7 +49,7 @@ HRESULT Unadvise(
 
 Метод **IMsgStore::Unadvise** отменяет регистрацию для уведомлений. Выпуски **Unadvise** указатель вызывающего абонента уведомить приемника, полученных в вызове **уведомлений** , используемые для регистрации. 
   
-Как правило **Unadvise** вызывает метод [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) приемник уведомлений во время вызова **Unadvise** . Тем не менее если другой поток находится в процессе вызова метода [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) приемник уведомлений, вызов **выпуске** откладывается до возвращения методом **OnNotify** . 
+Как правило **Unadvise** вызывает метод [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) приемник уведомлений во время вызова **Unadvise** . Тем не менее если другой поток находится в процессе вызова метода [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) приемник уведомлений, вызов **выпуске** откладывается до возвращения методом **OnNotify** . 
   
 ## <a name="see-also"></a>См. также
 

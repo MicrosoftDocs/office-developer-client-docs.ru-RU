@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e72c947a6e0d4052d3335c3e3cfaf5ffb94da669
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 66ba27d1d333be3217f2a22ca5d53449372c1f31
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593006"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399237"
 ---
 # <a name="imslogonlogoff"></a>IMSLogon::Logoff
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поставщик хранилища, выходит из системы сообщение. 
   
@@ -39,9 +39,9 @@ HRESULT Logoff(
   
 > [in] Зарезервировано; должен быть указатель нулевое значение.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -51,7 +51,7 @@ HRESULT Logoff(
   
 - Во время MAPI выхода клиента после вызова метода [IMAPISession::Logoff](imapisession-logoff.md) . 
     
-- Во время выхода поставщика хранилища сообщений MAPI. В этом случае **IMSLogon::Logoff** вызывается в процессе обработки метода [функции IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) объекта поддержки, который создает поставщика хранилища сообщений во время обработки [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) или **IUnknown MAPI:: Выпуск** вызова метода на объект хранилища сообщений. 
+- Во время выхода поставщика хранилища сообщений MAPI. В этом случае **IMSLogon::Logoff** вызывается в процессе обработки метода [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) объекта поддержки, который создает поставщика хранилища сообщений во время обработки [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) или **IUnknown MAPI:: Выпуск** вызова метода на объект хранилища сообщений. 
     
 ## <a name="see-also"></a>См. также
 

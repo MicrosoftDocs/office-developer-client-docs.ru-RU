@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9973e68dbceea03f31bfc47ede34f004fa3f39b6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7ed69d9bab84a5c572026bb9480249c1212e3376
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570417"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397585"
 ---
 # <a name="pidlidtodotitle-canonical-property"></a>Каноническое свойство PidLidToDoTitle
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит текст, при этом задаваемый пользователем для идентификации этот объект сообщения в списке дел консолидированной среды.
   
@@ -49,11 +49,11 @@ ms.locfileid: "22570417"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Задает свойства и операции, связанные с флагов.
     

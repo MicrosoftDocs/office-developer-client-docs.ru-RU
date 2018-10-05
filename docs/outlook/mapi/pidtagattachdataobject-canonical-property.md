@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b76312c6-7682-4ded-be25-55e21b0b091b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d2926b09dd3dfd89ab771206e0c8848415238eba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3961330476cad8947f94152e49c90adb1e8f8b21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585481"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398075"
 ---
 # <a name="pidtagattachdataobject-canonical-property"></a>Каноническое свойство PidTagAttachDataObject
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит объект вложения, обычно доступе через интерфейс объекта связывания и внедрения (OLE) **IStorage** . 
   
@@ -48,13 +48,13 @@ ms.locfileid: "22585481"
   
 Если клиентское приложение или поставщик услуг не могут открыть вложенные объекты вложения с помощью **PR_ATTACH_DATA_OBJ** с помощью **PR_ATTACH_METHOD**, следует использовать **PR_ATTACH_DATA_BIN**. 
   
-Дополнительные сведения о интерфейсов OLE и форматов видеть [OLE и передачи данных](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
+Дополнительные сведения о интерфейсов OLE и форматов видеть [OLE и передачи данных](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

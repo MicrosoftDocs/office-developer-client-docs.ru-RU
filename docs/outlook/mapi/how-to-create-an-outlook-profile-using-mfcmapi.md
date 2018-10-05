@@ -5,12 +5,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 85581bc7-2d81-46af-8836-adef39c933fc
 description: Mfcmapi (en) предоставляет доступ к хранилищу MAPI для облегчения изучения проблем Exchange и Outlook и предоставляет разработчикам с поддержкой для разработки MAPI.
-ms.openlocfilehash: 8df9a4c2783829b7f3540046daecb12ce0b6b86a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a300ad53918b22cc3de5554a1e3c29289cd9365
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19808602"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397879"
 ---
 # <a name="create-an-outlook-profile-using-mfcmapi"></a>Создание профиля Outlook с помощью MFCMAPI
 
@@ -103,7 +103,7 @@ Mfcmapi (en) предоставляет доступ к хранилищу MAPI 
   
 ## <a name="see-also"></a>См. также
 
-- [Справочник по MAPI для Outlook](https://msdn.microsoft.com/en-us/library/office/cc765775.aspx)  
-- [Программное создание профиля в Outlook](https://msdn.microsoft.com/en-us/library/office/mt707568.aspx)
+- [Справочник по MAPI для Outlook](https://msdn.microsoft.com/library/office/cc765775.aspx)  
+- [Программное создание профиля в Outlook](https://msdn.microsoft.com/library/office/mt707568.aspx)
     
 

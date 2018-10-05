@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
 description: '���� ���������� ���������: 5 ���� 2012 �.'
-ms.openlocfilehash: 72dd2a27e89f00885710125f4ecb68be65f2185e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4716a6f42968d7451a5db36173c4e6a9e843c08e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567701"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398124"
 ---
 # <a name="dntbl"></a>DNTBL
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Информация для загрузки содержимого папки с сервера во время, [Загрузите состояний в таблице](download-table-state.md), как часть полной синхронизации для содержимого для хранилища.
   
@@ -75,11 +75,11 @@ _pstmReserved4_
     
 _pxicc_
   
->  [out] Указатель на интерфейс **IExchangeImportContentsChanges** содержимое, которое поддерживает загрузки содержимого изменений. Дополнительные сведения о **IExchangeImportContentsChanges** [Критерии оценки ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)см.
+>  [out] Указатель на интерфейс **IExchangeImportContentsChanges** содержимое, которое поддерживает загрузки содержимого изменений. Дополнительные сведения о **IExchangeImportContentsChanges** [Критерии оценки ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)см.
     
 _pxihc_
   
->  [out] Указатель на интерфейс **IExchangeImportHierarchyChanges** иерархии, которая поддерживает загрузки изменений добавочного иерархии. Дополнительные сведения о **IExchangeImportHierarchyChanges** [Критерии оценки ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)см.
+>  [out] Указатель на интерфейс **IExchangeImportHierarchyChanges** иерархии, которая поддерживает загрузки изменений добавочного иерархии. Дополнительные сведения о **IExchangeImportHierarchyChanges** [Критерии оценки ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)см.
     
 _параметра pszName_
   
@@ -91,7 +91,7 @@ _ftLastMod_
     
 _ulRights_
   
->  [out] Значение свойства **[PR_RIGHTS](http://msdn.microsoft.com/en-us/library/ee238052%28v=EXCHG.80%29.aspx)** папки. 
+>  [out] Значение свойства **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** папки. 
     
 _feid_
   
@@ -103,7 +103,7 @@ _uintReserved_
     
 _rgte_
   
-> [out] Изменения для обычного (или не скрыты) и связанные (или скрытых) элементов.  *rgte [0]* — это для обычных элементов и *rgte [1]* — это для связанных элементов. Этот член заполняет Outlook во время загрузки при использовании добавочной синхронизации изменений (ICS). Дополнительные сведения о ICS [Критерии оценки ICS](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)см.
+> [out] Изменения для обычного (или не скрыты) и связанные (или скрытых) элементов.  *rgte [0]* — это для обычных элементов и *rgte [1]* — это для связанных элементов. Этот член заполняет Outlook во время загрузки при использовании добавочной синхронизации изменений (ICS). Дополнительные сведения о ICS [Критерии оценки ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)см.
     
 _lpsrReserved_
   

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0a41494-ffad-c56c-2074-135b3d0bffb9
 description: Задает параметры, используемые при открытии диаграммы с помощью служб Visio в Microsoft SharePoint Server 2013.
-ms.openlocfilehash: f2554facc47de23104f65b26ae19cfc71821bd37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e926021180d0f32c5e8754fd856081908f4925d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814508"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397214"
 ---
 # <a name="publishsettings-element-visiodocumenttype-complextype-visio-xml"></a>Элемент PublishSettings (VisioDocument_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814508"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Document.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814508"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 

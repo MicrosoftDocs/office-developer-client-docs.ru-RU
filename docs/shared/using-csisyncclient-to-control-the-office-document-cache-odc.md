@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Узнайте, как использовать CSISyncClient для управления кэша документов Office (ODC).
-ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce33063f88492bcd6f9682a4a6431fb36f138d55
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565286"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399454"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Использование CSISyncClient для управления кэша документов Office (ODC)
 
@@ -67,7 +67,7 @@ DeleteFile используется для удаления файла данн�
 |E_LSC_FILENOTFOUND  <br/> |Заданным Ид_ресурса не находится в кэше.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |Initialize не был успешно вызван в прошлом.  <br/> |
 |E_LSC_PENDINGCHANGESINCACHE  <br/> |Файл в настоящее время синхронизации или открыть и не может быть удалена.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientgetchanges"></a>ILSCLocalSyncClient::GetChanges
 <a name="ILSCLocalSyncClient_GetChanges"> </a>
@@ -97,7 +97,7 @@ GetChanges Возвращает перечислитель ILSCEvent объек�
 |E_FAIL  <br/> |Вызов завершился ошибкой.  <br/> |
 |E_INVALIDARG  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызван в прошлом.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientgetclientnetworksyncpermission"></a>ILSCLocalSyncClient::GetClientNetworkSyncPermission
 
@@ -122,7 +122,7 @@ GetClientNetworkSyncPermission используется для запросов 
 |E_FAIL  <br/> |Вызов завершился ошибкой.  <br/> |
 |E_INVALIDARG  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызван в прошлом.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientgetfilestatus"></a>ILSCLocalSyncClient::GetFileStatus
 
@@ -161,7 +161,7 @@ GetFileStatus используется для сбора данных для к�
 |E_LSC_FILENOTFOUND  <br/> |Сведения о файле, указанного идентификатором _bstrResourceID_ не существует в кэше.  <br/> |
 |E_LSC_LOCALFILEUNAVAILABLE  <br/> |Был запрошен LSCStatusFlag_LocalFileUnchanged или файл, указанный в _bstrResourceID_ заблокированы или отсутствуют.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызван в прошлом.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientgetsupportedfileextensions"></a>ILSCLocalSyncClient::GetSupportedFileExtensions
 <a name="ILSCLocalSyncClient_GetSupportedFileExtensions"> </a>
@@ -185,7 +185,7 @@ GetSupportedFileExtensions возвращает список расширени�
 |E_FAIL  <br/> |Вызов завершился ошибкой.  <br/> |
 |E_INVALIDARG  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызван в прошлом.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientinitialize"></a>ILSCLocalSyncClient::Initialize
 <a name="ILSCLocalSyncClient_Initialize"> </a>
@@ -202,7 +202,7 @@ Initialize должен быть метод вызывается первым. �
   
  _bstrProgID_
   
-Определяет COM-объект получателя для двусторонней связи. Должен быть пустым с 39 знаков. Просмотреть [ \<ProgID\> ключ](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) Дополнительные сведения о коды ProgID. 
+Определяет COM-объект получателя для двусторонней связи. Должен быть пустым с 39 знаков. Просмотреть [ \<ProgID\> ключ](https://docs.microsoft.com/windows/desktop/com/-progid--key) Дополнительные сведения о коды ProgID. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -225,7 +225,7 @@ Initialize должен быть метод вызывается первым. �
 |E_LSC_CACHEMISMATCH  <br/> |SuppliedID уже имеет кэша, связанных с ним, но имеет разные ProgId или FileSystemDirectoryHint отличный от предоставляемых.  <br/> |
 |E_LSC_DIRECTORYHINTCONFLICT  <br/> |FileSystemDirectoryHint (или вложенной папке) уже присутствует в разных кэша.  <br/> |
 |E_LAC_PROGIDCONFLICT  <br/> |Программный идентификатор уже присутствует в разных кэша.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientlocalfilechange"></a>ILSCLocalSyncClient::LocalFileChange
 <a name="ILSCLocalSyncClient_LocalFileChange"> </a>
@@ -248,7 +248,7 @@ LocalFileChange используется CsiSyncClient COM-объектом, ч�
   
  _bstrWebPath_
   
-Строка, которая определяет файл на сервере. Это значение должно быть пустым, допустимый URL-адрес, но не более INTERNET_MAX_URL_LENGTH, в соответствии с определением http://support.microsoft.com/kb/208427. 
+Строка, которая определяет файл на сервере. Это значение должно быть пустым, допустимый URL-адрес, но не более INTERNET_MAX_URL_LENGTH, в соответствии с определением https://support.microsoft.com/kb/208427. 
   
 ##### <a name="return-values"></a>Возвращаемые значения
 
@@ -266,7 +266,7 @@ LocalFileChange используется CsiSyncClient COM-объектом, ч�
 |E_LSC_PATHMISMATCH  <br/> |Файл, указанный в _bstrResourceID_ имеет разные FileSystemPath не указан.  <br/> |
 |E_LSC_PENDINGCHANGESINCACHE  <br/> |Указанный файл уже имеет ожидающих изменений в различных кэша и еще не могут быть связаны с кэшем получателя.  <br/> |
 |E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |WebPath предоставляются попадает в разных кэша.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientrenamefile"></a>ILSCLocalSyncClient::RenameFile
 <a name="ILSCLocalSyncClient_RenameFile"> </a>
@@ -287,7 +287,7 @@ RenameFile будет сопоставьте новый URL-адрес и лок
   
  _bstrNewWebPath_
   
-Строка, которая задает новый URL-адрес для файла. Это значение должно быть пустым допустимый URL-адрес, но не более INTERNET_MAX_URL_LENGTH, в соответствии с определением http://support.microsoft.com/kb/208427. 
+Строка, которая задает новый URL-адрес для файла. Это значение должно быть пустым допустимый URL-адрес, но не более INTERNET_MAX_URL_LENGTH, в соответствии с определением https://support.microsoft.com/kb/208427. 
   
  _fBlockUploads_
   
@@ -304,7 +304,7 @@ RenameFile будет сопоставьте новый URL-адрес и лок
 |E_LSC_LOCALPATHNOTMAPPED  <br/> |Заданным FileSystemPath не в корневом каталоге, указанный с FileSystemDirectoryHint, когда вызов для инициализации.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызван в прошлом.  <br/> |
 |E_LSC_PENDINGCHANGESINCACHE  <br/> |Файл, указанный в настоящее время синхронизации в приложении Microsoft Office.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientresetcache"></a>ILSCLocalSyncClient::ResetCache
 <a name="ILSCLocalSyncClient_ResetCache"> </a>
@@ -323,7 +323,7 @@ None
 |:-----|:-----|
 |E_FAIL  <br/> |Вызов завершился ошибкой.  <br/> |
 |E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызывается в прошлом.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientserverfilechange"></a>ILSCLocalSyncClient::ServerFileChange
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
@@ -340,7 +340,7 @@ ServerFileChange указывает CsiSyncClient COM-объектом, чтоб
 |:-----|:-----|
 |bstrFileSystemPath  <br/> |Строка, которая определяет файл на стороне клиента. Это значение должно быть пустым локальный путь с 256 знаков. Этот путь должен быть в дереве каталогов, указанный с FileSystemDirectoryHint, когда вызов для инициализации.  <br/> |
 |bstrResourceID  <br/> |Строка, которая идентифицирует Ид_ресурса файла. Это значение должно быть пустым длиной 128 символов.  <br/> |
-|bstrWebPath  <br/> |Строка, которая определяет файл на сервере. Это значение должно быть пустым допустимый URL-адрес, но не более INTERNET_MAX_URL_LENGTH, в соответствии с определением http://support.microsoft.com/kb/208427.  <br/> |
+|bstrWebPath  <br/> |Строка, которая определяет файл на сервере. Это значение должно быть пустым допустимый URL-адрес, но не более INTERNET_MAX_URL_LENGTH, в соответствии с определением https://support.microsoft.com/kb/208427.  <br/> |
    
 ##### <a name="return-values"></a>Возвращаемые значения
 
@@ -356,7 +356,7 @@ ServerFileChange указывает CsiSyncClient COM-объектом, чтоб
 |E_LSC_PATHMISMATCH  <br/> |Файл, указанный в _bstrResourceID_ имеет разные FileSystemPath не указан.  <br/> |
 |E_LSC_PENDINGCHANGESINCACHE  <br/> |Указанный файл уже имеет ожидающих изменений в различных кэша и еще не могут быть связаны с кэшем получателя.  <br/> |
 |E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |WebPath предоставляются попадает в разных кэша.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientsetclientconnectivitystate"></a>ILSCLocalSyncClient::SetClientConnectivityState
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
@@ -378,7 +378,7 @@ ServerFileChange указывает CsiSyncClient COM-объектом, чтоб
 |E_FAIL  <br/> |Сбой при попытке подключения к состояние кэша.  <br/> |
 |E_INVALIDARG  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
 |E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызван в прошлом.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientsetclientnetworksyncpermission"></a>ILSCLocalSyncClient::SetClientNetworkSyncPermission
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
@@ -403,7 +403,7 @@ SetClientNetworkSyncPermission используется для переопре�
 |:-----|:-----|
 |E_FAIL  <br/> |Сбой, связанный с переопределить синхронизации эвристику.  <br/> |
 |E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызван в прошлом.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 #### <a name="ilsclocalsyncclientuninitialize"></a>ILSCLocalSyncClient::Uninitialize
 <a name="ILSCLocalSyncClient_Uninitialize"> </a>
@@ -422,7 +422,7 @@ SetClientNetworkSyncPermission используется для переопре�
 |:-----|:-----|
 |E_FAIL  <br/> |Сбой при выполнении отмены инициализации.  <br/> |
 |E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) не был успешно вызван в прошлом.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
    
 ### <a name="interface-ienumlscevent"></a>Интерфейс IEnumLSCEvent
 
@@ -447,7 +447,7 @@ SetClientNetworkSyncPermission используется для переопре�
 |Значение|Описание|
 |:-----|:-----|
 |E_FAIL  <br/> |Нет дополнительных событий.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |Вызов выполнен успешно.  <br/> |
+|S_OK  <br/> |Вызов выполнен успешно.  <br/> |
    
 #### <a name="ienumlsceventreset"></a>IEnumLSCEvent::Reset
 
@@ -536,7 +536,7 @@ ETag, связанный с данным событием
 |Значение|Описание|
 |:-----|:-----|
 |E_INVALIDARG  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |Вызов выполнен успешно.  <br/> |
+|S_OK  <br/> |Вызов выполнен успешно.  <br/> |
    
 #### <a name="ilsceventgetlocalworkingpath"></a>ILSCEvent::GetLocalWorkingPath
 
@@ -603,7 +603,7 @@ ETag, связанный с данным событием
 |Значение|Описание|
 |:-----|:-----|
 |E_INVALIDARG  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |Вызов выполнен успешно.  <br/> |
+|S_OK  <br/> |Вызов выполнен успешно.  <br/> |
    
 #### <a name="ilsceventgetwebpath"></a>ILSCEvent::GetWebPath
 
@@ -646,7 +646,7 @@ ETag, связанный с данным событием
 |E_NOTIMPL  <br/> |Установленная версия Office не поддерживает этот интерфейс  <br/> |
 |E_INVALIDARG  <br/> |Одно или несколько значений параметров являются недопустимыми.  <br/> |
 |E_FAIL  <br/> |Сведения об ошибке цепочки недоступен.  <br/> |
-|ЗНАЧЕНИЕ S_OK  <br/> |Вызов выполнен успешно.  <br/> |
+|S_OK  <br/> |Вызов выполнен успешно.  <br/> |
    
 ### <a name="interface-ipartneractivitycallback"></a>Интерфейс IPartnerActivityCallback
 

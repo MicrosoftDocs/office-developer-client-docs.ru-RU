@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 36e49cf5-1411-42c5-9112-09958243996d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7348d0395952036ee6b356b013072324b64e4b98
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8f00addf7abdd765d97c54350e46979f788f06ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570823"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399013"
 ---
 # <a name="pidtagstorestate-canonical-property"></a>Каноническое свойство PidTagStoreState
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаг, который описывает состояние хранилища сообщений. 
   
@@ -48,11 +48,11 @@ STORE_HAS_SEARCHES
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
 > Указывает допустимые операции для базовых объектов хранилища сообщений.
     

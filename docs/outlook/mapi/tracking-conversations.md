@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: ae8b5a474675c0afd771f4e8dfd060d0b379c8f4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f1dd7a23bbd643b496b7634b6ad0230c806585f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572223"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398607"
 ---
 # <a name="tracking-conversations"></a>������������ �����
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ������������ ��������� �������� ���� ������� �� ���������. ������� ������� ���������� ��� ��������, ������� �������� ��� ������������ ������:
   
@@ -47,7 +47,7 @@ ms.locfileid: "22572223"
     
 - 30 ���� ���, ���������� �������� ����� �������� ������� � ����� � ����� ��������� � �������� **FILETIME**. ��� ����� ����� �������� ��������� � ������� ������ �� ���� ���������, � ����������� �� ������� ����. ���� ���� ��� ����� ����, **ScCreateConversationIndex** ������� ������� 15 ��� � ������ 18 �������� ������. ���� ���� ���, ������� ������� ������� 10 ��� � ������ 23 �����. 
     
-- ������ ����, ���������� ��������� �����, ����������� ��� ������ ������� Win32 [GetTickCount](http://msdn.microsoft.com/en-us/library/ms724408%28VS.85%29.aspx).
+- ������ ����, ���������� ��������� �����, ����������� ��� ������ ������� Win32 [GetTickCount](https://msdn.microsoft.com/library/ms724408%28VS.85%29.aspx).
     
 - ������ ����, ���������� ����������� ������, ������� ���� �� ����� ��������� �����.
     

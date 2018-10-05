@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27347302-bd52-4f62-98f1-6c37f9a66463
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 08527f3325742eb7c48f11c2ed7d08f71fa3e972
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d6f858a9f1d3d4620a86621e3f5ecb4ad4609691
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592712"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401085"
 ---
 # <a name="pidtagstorerecordkey-canonical-property"></a>Каноническое свойство PidTagStoreRecordKey
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит уникальный идентификатор сравнимые двоичный файл (ключ записи) хранилища сообщений, в котором находится объект.
   
@@ -44,11 +44,11 @@ ms.locfileid: "22592712"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447 и встречи и собрания объекты.
     

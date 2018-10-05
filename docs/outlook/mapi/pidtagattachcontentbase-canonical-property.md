@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 35c10264-6998-4c46-8cef-82708c96d9c7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 40e2efbf512265dffeee43d09e85879e8c3a0e56
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec1db68d9168e7260a32aaf7708897df6124725a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582422"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398978"
 ---
 # <a name="pidtagattachcontentbase-canonical-property"></a>Каноническое свойство PidTagAttachContentBase
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит контента базовый заголовок вложения сообщения Multipurpose Internet Mail Extensions (MIME).
   
@@ -42,7 +42,7 @@ ms.locfileid: "22582422"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f7dcfe32a5edc6587dfbd1351b61e2b1901e1d28
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1ea0830a06f303da8243f927e4a07cc744951ca9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579055"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399874"
 ---
 # <a name="pidlidappointmentcolor-canonical-property"></a>Каноническое свойство PidLidAppointmentColor
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет цвет, используемый при отображении в календаре.
   
@@ -37,7 +37,7 @@ ms.locfileid: "22579055"
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство определяет цвет, используемый при отображении в календаре. Клиент или сервер следует установить это значение для обеспечения обратной совместимости с клиентами, возраст которых. Вместо этого он может отображать календаря на основе значения свойства **ключевые слова** ([PidNameKeywords](pidnamekeywords-canonical-property.md)), как указано в [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Если задано значение должно быть одно из следующих действий.
+Это свойство определяет цвет, используемый при отображении в календаре. Клиент или сервер следует установить это значение для обеспечения обратной совместимости с клиентами, возраст которых. Вместо этого он может отображать календаря на основе значения свойства **ключевые слова** ([PidNameKeywords](pidnamekeywords-canonical-property.md)), как указано в [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Если задано значение должно быть одно из следующих действий.
   
 |**Значение**|**Цвет**|
 |:-----|:-----|
@@ -57,11 +57,11 @@ ms.locfileid: "22579055"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответы.
     

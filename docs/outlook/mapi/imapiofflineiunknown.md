@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 211281ff-3c22-1b51-4b72-ca1e313c7202
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 616bb4774e2ca5385e7da867477cb8849d94336b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20d8c39765b0dbbfdde530361894d0a27876010a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568387"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401281"
 ---
 # <a name="imapioffline--iunknown"></a>IMAPIOffline : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет сведения для автономного объекта.
   
 |||
 |:-----|:-----|
 |Предоставлено:  <br/> |Запрос на [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) <br/> |
-|Вызывается:  <br/> |Клиент  <br/> |
+|Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIOffline  <br/> |
    
 ## <a name="vtable-order"></a>Порядке vtable
@@ -44,7 +44,7 @@ ms.locfileid: "22568387"
    
 ## <a name="remarks"></a>Замечания
 
-Клиент использует **[HrOpenOfflineObj](hropenofflineobj.md)** для открытия и получить автономного объекта, который поддерживает **IMAPIOfflineMgr**. Поскольку **IMAPIOfflineMgr** наследуется от [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx), клиент может запросить этот интерфейс (с помощью [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)) для получения указателя на указатель интерфейса для **IMAPIOffline** для автономного объекта. Клиент затем можно получить или задать текущее состояние объекта, или узнать о возможностях обратного вызова объекта (путем вызова **IMAPIOffline::GetCapabilities** ) и выберите Настройка обратных вызовов с помощью **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
+Клиент использует **[HrOpenOfflineObj](hropenofflineobj.md)** для открытия и получить автономного объекта, который поддерживает **IMAPIOfflineMgr**. Поскольку **IMAPIOfflineMgr** наследуется от [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx), клиент может запросить этот интерфейс (с помощью [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)) для получения указателя на указатель интерфейса для **IMAPIOffline** для автономного объекта. Клиент затем можно получить или задать текущее состояние объекта, или узнать о возможностях обратного вызова объекта (путем вызова **IMAPIOffline::GetCapabilities** ) и выберите Настройка обратных вызовов с помощью **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
   
 Член этого интерфейса — это значение зарезервировано для внутреннего использования Microsoft Outlook 2013 и может быть изменен. Другие элементы в этот интерфейс должен использоваться только в документации. 
   

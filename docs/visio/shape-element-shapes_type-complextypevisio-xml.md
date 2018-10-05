@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8074bd07-430a-779e-ad1f-e7e3a1c748b1
 description: Содержит элементы, определяющие фигуры в образец, страница или элемент группы фигур.
-ms.openlocfilehash: 8c0a288858e2aaccbd3afadcdc1b057565dd30ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6308b8dd21c92f6ced9ea7f03ec8aa85773fa2bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814776"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399685"
 ---
 # <a name="shape-element-shapestype-complextype-visio-xml"></a>Элемент фигуры (Shapes_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814776"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |страницы # .xml, главные # .xml  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814776"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -60,7 +60,7 @@ ms.locfileid: "19814776"
    
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |DEL  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Флаг, указывающий, является ли элемент удаляется локально.  <br/> |Значения типа xsd:boolean.  <br/> |
 |FillStyle  <br/> |XSD:unsignedInt  <br/> ||Идентификатор таблицы стилей, из которого эта фигура наследует форматирование заливки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d98b7cf1d6c5cdc8517ea2e653115d9a7c01e3c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98ee0856411cce3a3e9012185be6c30503de7779
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593300"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401694"
 ---
 # <a name="error-handling-in-mapi"></a>Обработка ошибок в MAPI
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Успех, предупреждения и ошибки значения возвращаются с помощью 32-разрядное число, в результате известные дескриптор или HRESULT. HRESULT самом деле не маркер на что-либо; Это просто значение 32-разрядная версия с несколько полей в значения кодировке. Нулевой результат означает успешное выполнение и отличное от нуля результат указывает на ошибку.
   
@@ -39,9 +39,9 @@ R, C, N и r бит зарезервированные в значение HRESU
 |:-----|:-----|
 |FACILITY_NULL  <br/> |Для широко применяемые основные коды состояния, таких как значение S_OK или E_OUTOF_MEMORY; значение равно нулю.  <br/> |
 |FACILITY_ITF  <br/> |Для большинства коды состояния, возвращаемые из методов интерфейса; значение определяется с помощью интерфейса. То есть два значения HRESULT точно совпадает с 32-разрядная версия возвращаются из двух разных интерфейсов может иметь различные значения.  <br/> |
-|FACILITY_DISPATCH  <br/> |Позднего связывания [IDispatch](http://msdn.microsoft.com/en-us/library/ms221608.aspx) интерфейса ошибки.  <br/> |
+|FACILITY_DISPATCH  <br/> |Позднего связывания [IDispatch](https://msdn.microsoft.com/library/ms221608.aspx) интерфейса ошибки.  <br/> |
 |FACILITY_RPC  <br/> |Для коды состояния, возвращаемые из удаленных вызовов процедур.  <br/> |
-|FACILITY_STORAGE  <br/> |Для коды состояния, возвращаемые [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) или [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) вызовы методов, относящиеся к структурированного хранилища. Коды состояния кода (меньше 16 бит) значения в диапазоне Windows коды ошибок (то есть, не превышает 256) значение соответствующего ошибки Windows.  <br/> |
+|FACILITY_STORAGE  <br/> |Для коды состояния, возвращаемые [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) или [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) вызовы методов, относящиеся к структурированного хранилища. Коды состояния кода (меньше 16 бит) значения в диапазоне Windows коды ошибок (то есть, не превышает 256) значение соответствующего ошибки Windows.  <br/> |
    
 В поле Код — уникальный номер, назначенный для представления сообщение об ошибке или предупреждение.
   

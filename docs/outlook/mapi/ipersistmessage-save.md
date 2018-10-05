@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1a95989cea7ad5529eb73276b4c771e4900804b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa3f1d6339000fcc53e0ee22dafec4362e65ca7f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579902"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397158"
 ---
 # <a name="ipersistmessagesave"></a>IPersistMessage::Save
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сохраняет измененную форму сообщение, из которого его загрузки или создан.
   
@@ -44,9 +44,9 @@ HRESULT Save(
   
 > [in] TRUE, чтобы указать, что сообщение, на который указывает, _pMessage_ сообщение, из которого форма загрузки или создания; в противном случае — FALSE. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Форма успешно сохранен.
     
@@ -56,7 +56,7 @@ HRESULT Save(
   
  **Сохраните** вызывается только когда форма находится в состоянии [Normal](normal-state.md) . 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Не применить сохраненные изменения; Это вызывающий объект должен сохранить изменения. Никогда не вносить изменения свойств, относящихся к сообщению формы, за исключением во время вызова **Сохранить** . 
   
@@ -66,7 +66,7 @@ HRESULT Save(
   
 Если **Сохранить** вызывается, когда форма находится в любом состоянии, кроме Normal, возвратите значение E_UNEXPECTED. 
   
-Дополнительные сведения о сохранении объектов хранилища документации для методов [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
+Дополнительные сведения о сохранении объектов хранилища документации для методов [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . 
   
 ## <a name="see-also"></a>См. также
 

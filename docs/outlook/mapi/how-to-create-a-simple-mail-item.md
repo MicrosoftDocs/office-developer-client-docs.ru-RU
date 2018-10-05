@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: bbf99c4b-3008-4475-a60a-648eaed59d01
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2f7e1c131bcdaa19fa4001c0ca566714cfffa456
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b7afa8f3c04cb479906f721db8de90e8cf66f11
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571425"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401456"
 ---
 # <a name="create-a-simple-mail-item"></a>Создание простого почтового элемента
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 MAPI можно использовать для создания и отправки сообщения, для которого запрашивается прочтении. При запросе прочтении системы обмена сообщениями создает и возвращает чтения отчета отправителю при открытии сообщения получателем.
   
@@ -139,5 +139,5 @@ HRESULT AddMail(LPMAPISESSION lpMAPISession,
 
 ## <a name="see-also"></a>См. также
 
-- [Использование интерфейса MAPI для создания элементов Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Использование интерфейса MAPI для создания элементов Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

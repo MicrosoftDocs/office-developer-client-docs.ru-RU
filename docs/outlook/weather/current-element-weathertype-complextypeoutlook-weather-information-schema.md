@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d592a396-f935-c44c-409f-b849c327cfbd
 description: Указывает текущий погоды.
-ms.openlocfilehash: 12265c463f0f1bba15c9bf1723cbbea6c505dba9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce92bdd49ee37f939748586c2d63d8a664f664d2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812844"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401092"
 ---
 # <a name="current-element-weathertype-complextype-outlook-weather-information-schema"></a>текущий элемент (weatherType complexType) (схема сведения о погоде Outlook)
 
@@ -24,7 +24,7 @@ ms.locfileid: "19812844"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Файл схемы** <br/> |GetWeatherInfo.xsd  <br/> |
    
 ## <a name="definition"></a>Определение
@@ -37,7 +37,7 @@ ms.locfileid: "19812844"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "19812844"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |date  <br/> |xs: Date  <br/> |Обязательный  <br/> |Задает текущую дату.  <br/> |Значения типа xs: Date  <br/> |
 |день  <br/> |xs:string  <br/> |необязательный  <br/> |Задает день для прогноза.  <br/> |Значения типа xs: String  <br/> |

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 71108da8bb9914bb7ed0ad0b3adacc24e1d69e63
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577718"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400147"
 ---
 # <a name="link-to-mapi-functions"></a>Ссылка на функции MAPI
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Существует три метода компоновки: неявное связывание, явного связывания и новая модель гибридного использования библиотеки заглушка MAPI.
   
@@ -121,7 +121,7 @@ ms.locfileid: "22577718"
     
 Другой способ включения библиотеки заглушка MAPI — это скопировать исходные файлы MapiStubLibrary.cpp и StubUtils.cpp, непосредственно в проект и удаление любое взаимодействие Mapi32.lib и любой код, который явно связано MAPI.
   
-Доступ к файлам библиотеки заглушка MAPI и сведения о создании и интегрировать в проект, а также вопросы об этой библиотеки например, когда и почему его использование, см в [Библиотеке заглушка MAPI](http://mapistublibrary.codeplex.com/documentation) на сайте CodePlex. 
+Доступ к файлам библиотеки заглушка MAPI и сведения о создании и интегрировать в проект, а также вопросы об этой библиотеки например, когда и почему его использование, см в [Библиотеке заглушка MAPI](https://mapistublibrary.codeplex.com/documentation) на сайте CodePlex. 
   
 ## <a name="see-also"></a>См. также
 
@@ -129,7 +129,7 @@ ms.locfileid: "22577718"
 - [Установка подсистемы MAPI](installing-the-mapi-subsystem.md)
 - [Установка файлов заголовков MAPI](how-to-install-mapi-header-files.md)
 - [Выбор определенной версии MAPI для загрузки](how-to-choose-a-specific-version-of-mapi-to-load.md)
-- [Определение подходящего метода связывания для использования](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
-- [Связывание исполняемого файла для библиотеки DLL](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
-- [Настройка разделов MSI для библиотеки DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)
+- [Определение подходящего метода связывания для использования](https://msdn.microsoft.com/library/253b8k2c.aspx)
+- [Связывание исполняемого файла для библиотеки DLL](https://msdn.microsoft.com/library/9yd93633.aspx)
+- [Настройка разделов MSI для библиотеки DLL MAPI](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)
 

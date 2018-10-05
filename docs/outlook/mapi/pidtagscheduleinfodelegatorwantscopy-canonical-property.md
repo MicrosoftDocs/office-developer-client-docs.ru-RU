@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 48e48e3a-1186-46c4-8ff9-34e03905fb93
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c37f5a3e2f1a5ec4411f2570d8a3fcdce52dfe57
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c52a1c055792f17477ff5540c4138160544e3b18
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578649"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400427"
 ---
 # <a name="pidtagscheduleinfodelegatorwantscopy-canonical-property"></a>Каноническое свойство PidTagScheduleInfoDelegatorWantsCopy
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если представитель может принимать копии объектов связанные собрания, отправляемые на делегат.
   
@@ -42,15 +42,15 @@ ms.locfileid: "22578649"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Указывает методы для подключений и настройки почтовых ящиков как делегаты и взаимодействия с объектами сообщений и календаря, когда они действовать от имени другого пользователя.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Публикует доступности пользователя или ресурса.
     

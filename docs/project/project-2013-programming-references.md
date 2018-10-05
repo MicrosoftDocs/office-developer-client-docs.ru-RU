@@ -17,19 +17,19 @@ keywords:
 localization_priority: Normal
 ms.assetid: 79c78c44-1e08-4c9b-a7fe-a5089e666055
 description: Общие сведения об ссылку на интерфейс Project Server (PSI), как использовать интерфейс ASMX и WCF интерфейса PSI, сведения о Project Server коды ошибок и ссылки для службы ProjectData OData.
-ms.openlocfilehash: 8e2ee8730e737408899b6fe26ce55210e0c68e81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27b2eb27d62ec1abdb1a835b5d874e211e7e793e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19813052"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399895"
 ---
 # <a name="project-2013-programming-references"></a>Справочные материалы по программированию Project 2013
 
 Общие сведения об ссылку на интерфейс Project Server (PSI), как использовать интерфейс ASMX и WCF интерфейса PSI, сведения о Project Server коды ошибок и ссылки для службы **ProjectData** OData. 
   
 > [!NOTE]
-> Для ссылки на основной PSI и клиентской объектной модели (CSOM) в Project Server 2013, изучите следующие разделы: [Справочник по JavaScript API для Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md)и [ссылаться на класс библиотеки и веб-службы](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) . > Справочные материалы Office Add-ins, включая справочник по JavaScript для приложения области задач Project 2013, в разделе [API JavaScript для Office](http://msdn.microsoft.com/en-us/library/fp142185.aspx). > Справочные материалы по VBA Project Стандартный 2013 и Project Professional 2013, содержатся в разделе [Справочник разработчика по Project 2013 VBA](http://msdn.microsoft.com/en-us/library/jj235035.aspx). > Ссылка для работы с отчетами таблиц и представлений в базе данных Project Server 2013 в локальной еще не доступен. 
+> Для ссылки на основной PSI и клиентской объектной модели (CSOM) в Project Server 2013, изучите следующие разделы: [Справочник по JavaScript API для Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md)и [ссылаться на класс библиотеки и веб-службы](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) . > Справочные материалы Office Add-ins, включая справочник по JavaScript для приложения области задач Project 2013, в разделе [API JavaScript для Office](https://msdn.microsoft.com/library/fp142185.aspx). > Справочные материалы по VBA Project Стандартный 2013 и Project Professional 2013, содержатся в разделе [Справочник разработчика по Project 2013 VBA](https://msdn.microsoft.com/library/jj235035.aspx). > Ссылка для работы с отчетами таблиц и представлений в базе данных Project Server 2013 в локальной еще не доступен. 
   
 ## <a name="in-this-section"></a>В этой статье
 
@@ -41,13 +41,13 @@ ms.locfileid: "19813052"
   
 [Коды ошибок Project Server](project-server-error-codes.md) Перечислены коды и описания ошибок Project Server по функциональным возможностям. 
   
-[ProjectData — Справочник по службе Project OData](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx) Содержит обзор службы OData для данных отчетов Project Server, введение в использование веб-каналов OData с запросов LINQ и справочные материалы для метаданных XML в службе **ProjectData** . 
+[ProjectData — Справочник по службе Project OData](https://msdn.microsoft.com/library/office/jj163015.aspx) Содержит обзор службы OData для данных отчетов Project Server, введение в использование веб-каналов OData с запросов LINQ и справочные материалы для метаданных XML в службе **ProjectData** . 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[API JavaScript для Office](http://msdn.microsoft.com/en-us/library/fp142185.aspx)
+[API JavaScript для Office](https://msdn.microsoft.com/library/fp142185.aspx)
   
-[Справочник разработчика по Project 2013 VBA](http://msdn.microsoft.com/en-us/library/jj235035.aspx)
+[Справочник разработчика по Project 2013 VBA](https://msdn.microsoft.com/library/jj235035.aspx)
 

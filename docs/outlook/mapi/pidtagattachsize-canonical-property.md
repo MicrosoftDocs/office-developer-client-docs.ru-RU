@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fd98044868bbec36ed14fcf90deb2990039244b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f3e4f19ab43a3da7c4840d762d5131813c83d996
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573742"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399748"
 ---
 # <a name="pidtagattachsize-canonical-property"></a>Каноническое свойство PidTagAttachSize
 
@@ -44,7 +44,7 @@ ms.locfileid: "22573742"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

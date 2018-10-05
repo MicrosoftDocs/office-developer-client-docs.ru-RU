@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 490c834ee63c158b3f9c0e34f8de7f582c650bc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77f28654ffe0f6f459fde229bb7428f2c39e96c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584067"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400721"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает поток языке (XML), который представляет данные, полученные из службы автоматического обнаружения сервера Microsoft Exchange 2007.
   
@@ -32,8 +32,8 @@ ms.locfileid: "22584067"
 |||
 |:-----|:-----|
 |Экспортировать с:  <br/> |olmapi32.dll  <br/> |
-|Вызывается:  <br/> |Клиент  <br/> |
-|Реализованный:  <br/> |Outlook  <br/> |
+|Вызывающая сторона:  <br/> |Клиент  <br/> |
+|Реализовано в:  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT HrGetAutoDiscoverXML( 
@@ -65,17 +65,17 @@ HRESULT HrGetAutoDiscoverXML(
     
  _ppXmlStream_
   
-> [out] Указатель на объект [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) , который содержит XML автоматического обнаружения. Возвращает **значение null** , если происходит сбой операции автоматического обнаружения. Необходимо удалить объект [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) после завершения с ним. 
+> [out] Указатель на объект [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) , который содержит XML автоматического обнаружения. Возвращает **значение null** , если происходит сбой операции автоматического обнаружения. Необходимо удалить объект [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) после завершения с ним. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 - Вызов функции выполнен успешно.
     
 E_INVALIDARG 
   
--  _pwzAddress_ имеет **значение null** или не является допустимым адресом SMTP, или _ppXmlStream_ имеет **значение null,** указателя на объект [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) . 
+-  _pwzAddress_ имеет **значение null** или не является допустимым адресом SMTP, или _ppXmlStream_ имеет **значение null,** указателя на объект [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) . 
     
 MAPI_E_NOT_FOUND 
   

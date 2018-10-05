@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 411e8f81-c2b9-440a-9e9a-d6add5e4be63
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f363b0a756a2cf4c7e37854cab0ddc4a46a0754d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 031e5483539ce17c8b9b994690985c2349573e27
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582660"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400811"
 ---
 # <a name="pidlidcontactitemdata-canonical-property"></a>Каноническое свойство PidLidContactItemData
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Используется для отображения контактных данных.
   
@@ -47,17 +47,17 @@ ms.locfileid: "22582660"
 |2  <br/> |0x00008080  <br/> |Приложения должны отображать Email1.  <br/> |
 |2  <br/> |0x00008090  <br/> |Приложения должны отображать Почта2:.  <br/> |
 |2  <br/> |0x000080A0  <br/> |Приложения должны отображать Почта3:.  <br/> |
-|3,4,5,6  <br/> |PropertyID свойства телефона или любой из номеров факсов, который указан в [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |Приложения должны отображать соответствующего свойства.  <br/> |
+|3,4,5,6  <br/> |PropertyID свойства телефона или любой из номеров факсов, который указан в [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |Приложения должны отображать соответствующего свойства.  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для контакты и списки рассылки.
     

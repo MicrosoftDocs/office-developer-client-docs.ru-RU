@@ -8,26 +8,26 @@ api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 54443001e3cb14603c8f8f798f2a4068d73b00eb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c0a71cbd3b6cdbef091e75ade5d190369a4626a4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568065"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400371"
 ---
 # <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Сопоставление атрибутов почты Интернета со свойствами MAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются как поставщика транспорта MAPI или принять во внимание MAPI шлюз, который подключается к Интернету следует использовать во всем свойства сообщения MAPI и атрибуты сообщений транспортный протокол SMTP (Simple Mail). SMTP применяется протокол обмена сообщениями на большую часть Интернета. Определяет набор заголовков сообщений SMTP — конверт сообщения и содержимое сообщения в формате. SMTP полностью описан в набор из двух документов, согласно документу RFC 821 и RFC 822, которые можно найти по номеру FTP и веб-сайтов в Интернете.
   
-Сведения о протокола SMTP, используемый для связи с SMTP-based почты агенты видеть RFC 821 «Протокол SMTP,» [http://www.rfc-editor.org](http://www.rfc-editor.org).
+Сведения о протокола SMTP, используемый для связи с SMTP-based почты агенты видеть RFC 821 «Протокол SMTP,» [https://www.rfc-editor.org](https://www.rfc-editor.org).
   
-Для адресации и стандартных заголовков сообщений, видеть RFC 822, «Standard для формата из ARPA текста сообщений Интернета» [http://www.rfc-editor.org](http://www.rfc-editor.org).
+Для адресации и стандартных заголовков сообщений, видеть RFC 822, «Standard для формата из ARPA текста сообщений Интернета» [https://www.rfc-editor.org](https://www.rfc-editor.org).
   
-MIME, в разделе RFC 1521 «часть MIME (Multipurpose Internet Mail Extensions) один: механизмы задание и описания формата текстов сообщений Интернета» в [http://www.rfc-editor.org](http://www.rfc-editor.org).
+MIME, в разделе RFC 1521 «часть MIME (Multipurpose Internet Mail Extensions) один: механизмы задание и описания формата текстов сообщений Интернета» в [https://www.rfc-editor.org](https://www.rfc-editor.org).
   
 Задача сопоставления атрибуты сообщений SMTP для свойства MAPI (и наоборот) — чтобы убедиться, что все содержимое сообщения MAPI, который может быть закодированы с помощью собственного атрибуты сообщений SMTP, надежно обмена между различных MAPI компоненты, которые должны взаимодействовать в Интернете. В этом документе основано на уже выполненные работы по таких компонентов в корпорации Майкрософт. 
   

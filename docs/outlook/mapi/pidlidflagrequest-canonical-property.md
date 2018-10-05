@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4a2bcfbbc06427e5bf7e06f1c4060a29689fce3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddcf32df716fe2b0a02655278ff0cd8d821de1f4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575394"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397368"
 ---
 # <a name="pidlidflagrequest-canonical-property"></a>Каноническое свойство PidLidFlagRequest
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Представляет состояние приглашения на собрание.
   
@@ -45,11 +45,11 @@ ms.locfileid: "22575394"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Задает свойства и операции, связанные с флагов.
     

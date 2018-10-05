@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online — это служба Office 365, компаний можно расширить для удовлетворения потребностей бизнеса. Одной области расширения — корпоративных настраиваемых полей (ECFs). ECFs, типизированное значение поля, которые можно добавить в проекты, ресурсы и задачи. В следующей таблице перечислены ECFs, связанные с проектами, ресурсы и задачи и обеспечивает пример значение для экземпляра, ECF:'
-ms.openlocfilehash: d560b258f2c9873844009cb6bc6e698abec029a6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 978fdfbf4ba75382ad85b9f92f8ac4df5c7f97c8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584606"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401155"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Доступ к корпоративным настраиваемым полям Project Online
 
@@ -207,7 +207,7 @@ private static ProjectContext projContext =
 
 - [Портал проекта разработки](https://developer.microsoft.com/en-us/project)
 - [Обзор: Корпоративные настраиваемые поля и таблицы подстановки](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
-- [Локальные и корпоративные настраиваемые поля](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)
-- [Добавление и редактирование корпоративных настраиваемых полей в Project Server 2013](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)
+- [Локальные и корпоративные настраиваемые поля](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
+- [Добавление и редактирование корпоративных настраиваемых полей в Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
 

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: В этой статье приведены ссылки на статьи, которые содержат сведения о создании шаблонов форм с бизнес-логикой, написанной в виде управляемого кода (Visual Basic или C#) с применением элементов пространства имен Microsoft.Office.InfoPath .
-ms.openlocfilehash: 4b113e1c189fe8ebdb5781e969e7f67961d4ea18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 386542b5c5f4e502f48d97c2a18194638e8e1536
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807467"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399391"
 ---
 # <a name="developing-infopath-form-templates-with-code"></a>Разработка шаблонов форм InfoPath с кодом
 
@@ -43,11 +43,11 @@ ms.locfileid: "19807467"
     
 ## <a name="related-sections"></a>Связанные разделы
 
-[Портал разработчиков InfoPath](http://go.microsoft.com/fwlink?LinkID=11689)
+[Портал разработчиков InfoPath](https://go.microsoft.com/fwlink?LinkID=11689)
   
 > Содержит ссылки на технические статьи, примеры кода, файлы для загрузки, сведения по поддержке и другую документацию MSDN по созданию настраиваемых решений InfoPath.
     
-[Центр разработчика Microsoft Office](http://go.microsoft.com/fwlink?LinkID=27128)
+[Центр разработчика Microsoft Office](https://go.microsoft.com/fwlink?LinkID=27128)
   
 > Содержит ссылки на технические статьи, примеры кода, файлы для загрузки, сведения по поддержке и другую документацию MSDN по созданию настраиваемых решений Office.
     

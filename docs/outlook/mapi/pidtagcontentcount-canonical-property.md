@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b489e73f9453e5d2ae6657969c2bc18fc9a4620e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7e9994da72bbc38a546f220e5ecf8768b80c6f1f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22562941"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397018"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>Каноническое свойство PidTagContentCount
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит количество сообщений в папку, вычисленный магазином сообщения.
   
@@ -44,15 +44,15 @@ ms.locfileid: "22562941"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит ссылки на связанные спецификаций протокола Microsoft Exchange Server.
     
-[[MS-OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > Обрабатывает операции папки.
     
-[[MS-OXCTABL]](http://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > Включает в себя разрешенных операций для базовых объектов в таблице.
     

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 30ee7c1a7eb86fd4cdfe90fb6711bd1b295fd5e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e3a30dad433b255573e4e3f041e6475b9227a54
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591088"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398026"
 ---
 # <a name="pidtagdeferredsendnumber-canonical-property"></a>Каноническое свойство PidTagDeferredSendNumber
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер, который можно использовать для вычисления отсрочке отправки сообщения.
   
@@ -44,7 +44,7 @@ ms.locfileid: "22591088"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для объектов сообщения электронной почты.
     

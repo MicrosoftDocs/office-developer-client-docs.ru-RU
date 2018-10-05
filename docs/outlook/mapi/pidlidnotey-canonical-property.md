@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ad6a7dc2-506e-4e22-b2a6-9dd6d0a5dd9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ecba56bc2cbc5c9f4eb31898f76c1d7ee1dfd275
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 73e10bba0886dcc5ae7d55a575d93dd411a1bf15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591375"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398173"
 ---
 # <a name="pidlidnotey-canonical-property"></a>Каноническое свойство PidLidNoteY
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Расстояние в точках от верхнего края экрана, где выводится сообщение о пользовательского интерфейса.
   
@@ -39,11 +39,11 @@ ms.locfileid: "22591375"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
     
-[[MS-OXONOTE]](http://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
+[[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые на заметки.
     

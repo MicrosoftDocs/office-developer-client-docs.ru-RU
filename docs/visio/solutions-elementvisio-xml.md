@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: Задает свойства решений, хранимого в документе.
-ms.openlocfilehash: 522aa3b1229d14f0639d10bb6082da40767c5ecd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65f6d3a34a62cd5e7b63ca0f6518a6e839b48360
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814925"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400224"
 ---
 # <a name="solutions-element-visio-xml"></a>Элемент решений ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814925"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Solutions.XML  <br/> |
    
@@ -35,7 +35,7 @@ ms.locfileid: "19814925"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d41a536-81ff-733c-2fd7-460798e057c8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 79b6461ca4a796b292b86f0f3bdbd8a39ad65863
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 84ff229e9914ec9074d61023873279b110fb606a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575681"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397641"
 ---
 # <a name="pidtagprofileserverversion-canonical-property"></a>Каноническое свойство PidTagProfileServerVersion
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает сведения о версии Microsoft Exchange Server, к которому подключены учетных записей в профиле Microsoft Outlook.
   
@@ -48,7 +48,7 @@ Outlook 2007 не чтение или запись с этим свойство�
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Содержит определения набора свойств.
     

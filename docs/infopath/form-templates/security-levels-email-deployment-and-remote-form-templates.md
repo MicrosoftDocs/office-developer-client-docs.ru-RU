@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
 description: Microsoft InfoPath поддерживает перемещение шаблонов форм из одного места в другое, их отправку в виде вложения в сообщение электронной почты и создание полное доверие шаблонов форм, которые имеют цифровую подпись или установлены.
-ms.openlocfilehash: ea0145eb45f6a03dc8637ba5ec1dc1c80d240006
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 799f2b19bfc4daa4a177d789a811d20ca09e7153
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807592"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396878"
 ---
 # <a name="security-levels-email-deployment-and-remote-form-templates"></a>Уровни безопасности, развертывание по электронной почте и удаленные шаблоны форм
 
@@ -186,7 +186,7 @@ InfoPath позволяет отправлять шаблоны форм в ви
     
 ### <a name="example-deploying-restricted-form-templates-on-an-extranet"></a>Пример: Развертывание ограниченного доступа шаблонов форм в экстрасети
   
-1. Сохраните шаблон формы с уровнем "Домен" на работающем веб-сайте Microsoft SharePoint Foundation 2010.
+1. Сохраните шаблон формы домен на веб-сайте, на котором работает Microsoft SharePoint Foundation 2010.
     
 2. Измените уровень безопасности шаблона формы на "Ограниченный".
     
@@ -200,7 +200,7 @@ InfoPath позволяет отправлять шаблоны форм в ви
     
 7. Попросите пользователей заполнить форму и отправить ее вам обратно.
     
-8. Сохраните форму на работающий веб-сайт SharePoint Foundation 2010 и выполните повторное связывание формы с помощью параметра **Повторно связать документы с этой библиотекой** на странице **Параметры библиотеки форм**. 
+8. Сохраните форму обратно на веб-сайт, на котором выполняется SharePoint Foundation 2010 и выполните повторное связывание формы с помощью параметра **повторно связать документы с этой библиотекой** на странице **Параметры библиотеки форм** . 
     
 ## <a name="signature-verification-failure"></a>Сбой проверки подписи
 

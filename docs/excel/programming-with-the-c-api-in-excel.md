@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 459e57d41ef7497c535e51944bbaf24daee84167
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53167241ebfaf8524fb58d14b4e1299809cdee50
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807316"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401624"
 ---
 # <a name="programming-with-the-c-api-in-excel"></a>Программирование с использованием API C в Excel
 
@@ -90,10 +90,10 @@ Excel позволяет библиотеке XLL вызывать C API, тол
     
 - операции управления потоком выполнения, такие как **GOTO** и **RETURN**.
     
-Ограниченная версия API C существовала в Excel версии 3. Однако в Excel версии 4 язык XLM был сопоставлен с интерфейсом API C. С тех пор библиотеки DLL могут вызывать все функции листа, информационные функции листа макросов, команды, даже перехватывать события. DLL не могут вызывать функции управления потоком XLM из API C. Эти команды и функции листа макроса описаны в файле справки XLMacr8.hlp (прежнее название — Macrofun.hlp). Для получения этого файла справки перейдите в [Центр загрузки Майкрософт](http://download.microsoft.com) и выполните поиск "XLMacr8.hlp". 
+Ограниченная версия API C существовала в Excel версии 3. Однако в Excel версии 4 язык XLM был сопоставлен с интерфейсом API C. С тех пор библиотеки DLL могут вызывать все функции листа, информационные функции листа макросов, команды, даже перехватывать события. DLL не могут вызывать функции управления потоком XLM из API C. Эти команды и функции листа макроса описаны в файле справки XLMacr8.hlp (прежнее название — Macrofun.hlp). Для получения этого файла справки перейдите в [Центр загрузки Майкрософт](https://download.microsoft.com) и выполните поиск "XLMacr8.hlp". 
   
 > [!NOTE]
-> Windows Vista и Windows 7 не поддерживают HLP-файлы напрямую, но вы можете скачать [программу справки Windows (WinHlp32.exe) для Windows Vista](http://go.microsoft.com/fwlink/?LinkID=82148) или [программу справки Windows (WinHlp32.exe) для Windows 7](http://www.microsoft.com/download/en/details.aspx?id=91) от корпорации Майкрософт, позволяющие открыть эти файлы. 
+> Windows Vista и Windows 7 не поддерживают HLP-файлы напрямую, но вы можете скачать [программу справки Windows (WinHlp32.exe) для Windows Vista](https://go.microsoft.com/fwlink/?LinkID=82148) или [программу справки Windows (WinHlp32.exe) для Windows 7](https://www.microsoft.com/download/en/details.aspx?id=91) от корпорации Майкрософт, позволяющие открыть эти файлы. 
   
 Библиотеки DLL вызывают эквиваленты этих функций и команд интерфейса API C, используя функции обратного вызова **Excel4**, **Excel4v**, **Excel12** и **Excel12v** (последние две были представлены в Excel 2007). Перечисленные константы, соответствующие каждой функции и команде, определены в файле заголовка и передаются как один из аргументов функциям обратного вызова. Например, функция **GET.CELL** представлена **xlfGetCell**, **REGISTER** — **xlfRegister**, а **DEFINE.NAME** — **xlcDefineName**.
   

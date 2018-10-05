@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ee6fcaf2fa168f6be91b798efa249799f738bfa0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7319f1abb4a74ee17b0a4a1220215c29434d256b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571082"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398404"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Копирование или Перемещение выбранных свойств. 
   
@@ -85,9 +85,9 @@ MAPI_NOREPLACE
   
 > [in, out] На входе указатель указатель на структуру [SPropProblemArray](spropproblemarray.md) ; в противном случае — **значение null**, указывающего на то, что нет необходимости для получения сведений об ошибках. Если _lppProblems_ допустимый указатель на входные данные, **CopyProps** возвращает подробные сведения об ошибках в копирование одного или нескольких свойств. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Свойства успешно копирования или перемещения.
     
@@ -135,7 +135,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 Вложенными объектами в объекте источника автоматически включены в операции и перемещаются или копируются полностью, независимо от того, использование свойств, указанный в параметре [SPropTagArray](sproptagarray.md) структуры. По умолчанию **CopyProps** перезаписывает любые свойства в целевом объекте, соответствующие свойства из исходного объекта. Если какие-либо свойства скопированной или перемещенной уже существует в целевом объекте, существующие свойства перезаписываются новых свойств, пока флаг MAPI_NOREPLACE будет выполнен с помощью параметра _ulFlags_ . Существующие данные в целевой объект, который не перезаписывается остаются без изменений. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Можно предоставить полная реализация **CopyProps** или зависеть от реализации, предоставляющий MAPI в своем объекте поддержки. Если вы хотите использовать в реализации интерфейса MAPI, вызовите метод **IMAPISupport::DoCopyProps** . Если делегирование обработки для **DoCopyProps** и передаются флаг MAPI_DECLINE_OK, избежать вызова поддержки и вместо этого возвращать MAPI_E_DECLINE_COPY. Этот флаг вызываемого с MAPI, чтобы избежать возможных рекурсии, которая может возникнуть при копировании папки. 
   
@@ -157,7 +157,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 При копировании свойств, которые являются уникальными для объекта тип источника данных, необходимо убедиться, что целевой объект является одного типа. **CopyProps** не запрещает связывания свойства, которые обычно относятся к один тип объекта, с другой тип объекта. Зависит от пользователя для копирования свойств, которые нужны для конечного объекта. К примеру не следует копировать свойства сообщений к контейнеру адресной книги. 
   
-Чтобы убедиться, что выполняется копирование между объектами одного типа, убедитесь, что установлен исходный и конечный объект того же типа, путем сравнения указателей объектов или вызова метода [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . Задайте идентификатор интерфейса, на который указывает _lpInterface_ стандартный интерфейс для объекта источника. Кроме того убедитесь, что тип объекта или свойство **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) является общим для двух объектов. Например при копировании из сообщения значение _lpInterface_ IID_IMessage и **PR_OBJECT_TYPE** объекты MAPI_MESSAGE. 
+Чтобы убедиться, что выполняется копирование между объектами одного типа, убедитесь, что установлен исходный и конечный объект того же типа, путем сравнения указателей объектов или вызова метода [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . Задайте идентификатор интерфейса, на который указывает _lpInterface_ стандартный интерфейс для объекта источника. Кроме того убедитесь, что тип объекта или свойство **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) является общим для двух объектов. Например при копировании из сообщения значение _lpInterface_ IID_IMessage и **PR_OBJECT_TYPE** объекты MAPI_MESSAGE. 
   
 Если недопустимый указатель передается в параметре _lpDestObj_ , результаты непредсказуемы. 
   
@@ -165,11 +165,11 @@ MAPI_E_UNEXPECTED_TYPE
   
 Для копирования папки или иерархии контейнер адресной книги или таблицу содержимого, включают **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) или свойств **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) Свойство tag массива. Чтобы включить таблицу связанного содержимого папки, добавьте свойство **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) в массиве. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |Mfcmapi (en) использует метод **IMAPIProp::CopyProps** для копирования одного сообщения именованных свойств.  <br/> |
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |Mfcmapi (en) использует метод **IMAPIProp::CopyProps** для вставки свойства, скопированный из другого объекта.  <br/> |

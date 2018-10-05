@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fe6270d82d227f52dfd5dfa5454c73e815ad9f42
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 60a8c89afe0d70a1737c6ce694c66359fd6aae4f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573819"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398096"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Запросы, формы выполнить все задачи связывается с определенным команды.
   
@@ -52,11 +52,11 @@ HRESULT DoVerb(
     
  _lprcPosRect_
   
-> [in] Указатель на объект Win32 структуры [Прямоугольник](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) , содержащий размер и положение окна формы. 
+> [in] Указатель на объект Win32 структуры [Прямоугольник](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) , содержащий размер и положение окна формы. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Команда успешно вызова.
     
@@ -70,7 +70,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
   
 Числовое значение, переданной в **DoVerb** с помощью параметра _iVerb_ отмечаются каждого из поддерживаемых команд. Типичная реализация **DoVerb** содержат операторе **switch** для проверки значения, подходящие для параметра _iVerb_ для формы. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Если средство просмотра формы с помощью параметра _lpViewContext_ указывает контекст представления, используйте его в реализации **DoVerb** вместо контекст представления, переданные в более ранних вызова метода [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) . Внесите необходимые изменения, необходимые для вашего внутренних структур данных и не следует сохранять контекст представления. 
   
@@ -86,7 +86,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
     
 Некоторые действия, такие как печать, должны быть модальными по отношению к **DoVerb** звонок, то есть, указанный операция должна быть выполнена до возвращения вызова **DoVerb** . 
   
-Для получения структуры **Прямоугольник** , используемых окно формы, вызовите функцию [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) . 
+Для получения структуры **Прямоугольник** , используемых окно формы, вызовите функцию [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
   
 Не сохранять дескриптор в параметре _hwndParent_ , потому что несмотря на то, что обычно действует до завершения **DoVerb**, его можно удалять сразу же после возврата звонка.
   
@@ -94,13 +94,13 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
 
 Можно выполнять команды немодальную выступать в качестве модальные окна команд, указав _lpViewContext_ для реализации контекст представления, которое возвращает флаг VCSTATUS_MODAL из метода [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) . 
   
-Дополнительные сведения о команд в MAPI можно [Команд формы](form-verbs.md). Дополнительные сведения об обработке команд в OLE можно [OLE и передачи данных](http://msdn.microsoft.com/en-us/library/ms693425%28VS.85%29.aspx).
+Дополнительные сведения о команд в MAPI можно [Команд формы](form-verbs.md). Дополнительные сведения об обработке команд в OLE можно [OLE и передачи данных](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |Mfcmapi (en) использует метод **IMAPIForm::DoVerb** для вызова команды на форме.  <br/> |
    
@@ -115,7 +115,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
 [IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
 [Команды форм](form-verbs.md)
 

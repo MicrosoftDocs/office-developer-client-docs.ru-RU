@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Интерфейсы Window и Windows — API-интерфейса OneNote 2013 объекты, позволяющий пользователям для работы с OneNote windows. Эти объекты позволяют пользователям нумерации внутри набора OneNote windows и изменении окно свойств.
-ms.openlocfilehash: 83a3742419a4c8faf11c22c4766744d675151c1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efc34312def588ecff54c63b3db84f8bf909352b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807679"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399951"
 ---
 # <a name="window-interfaces-onenote"></a>Окно интерфейсы (OneNote)
 
@@ -49,8 +49,8 @@ ms.locfileid: "19807679"
 |**Имя**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
 |**Count** <br/> |ulong  <br/> |Возвращает количество объектов **Window** в наборе **Windows** .  <br/> |
-|**CurrentWindow** <br/> |**Окно** <br/> |Возвращает объект **Window** активного окна OneNote.  <br/> |
-|**Items** <br/> |**Окно** <br/> |Возвращает объект **Window** , соответствующий переданное значение индекса. Это свойство не может осуществляться непосредственно. Чтобы вернуть объект **Window** , используйте **Windows [(uint) index]**.  <br/> |
+|**CurrentWindow** <br/> |**Window** <br/> |Возвращает объект **Window** активного окна OneNote.  <br/> |
+|**Items** <br/> |**Window** <br/> |Возвращает объект **Window** , соответствующий переданное значение индекса. Это свойство не может осуществляться непосредственно. Чтобы вернуть объект **Window** , используйте **Windows [(uint) index]**.  <br/> |
    
 ### <a name="window-interface"></a>Интерфейс окна
 
@@ -87,7 +87,7 @@ ms.locfileid: "19807679"
 
 |||
 |:-----|:-----|
-|**Описание** <br/> |Если передается ссылка OneNote (onenote: / /), открывается окно OneNote в соответствующем расположении в OneNote. Тем не менее если ссылку внешний ресурс, например, http:// или file://, появится диалоговое окно безопасности. После увольнение OneNote пытается открыть ссылку и возвращается сообщение об ошибке HResult.hrObjectDoesNotExist.  <br/> |
+|**Описание** <br/> |Если передается ссылка OneNote (onenote: / /), открывается окно OneNote в соответствующем расположении в OneNote. Тем не менее если ссылки внешних ссылок, такие как https:// или file://, появится диалоговое окно безопасности. После увольнение OneNote пытается открыть ссылку и возвращается сообщение об ошибке HResult.hrObjectDoesNotExist.  <br/> |
 |**Синтаксис** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
 |**Параметры** <br/> | _bstrUrl_— URL-адрес для перехода.  <br/> |
    

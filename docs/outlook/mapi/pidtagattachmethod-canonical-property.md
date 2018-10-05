@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
 description: 'Последнее изменение: 07 сентября 2016'
-ms.openlocfilehash: 697f7e8045ca198c2c10b9396f19cb2d7ce8346e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b84549ab31c939b4e6115795916ebd3520a96dbd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583654"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400728"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>Каноническое свойство PidTagAttachMethod
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит определенные MAPI константу, представляющее того, который может осуществляться содержимого вложения. 
   
@@ -94,7 +94,7 @@ ATTACH_BY_WEBREFERENCE
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщения и вложения.
     

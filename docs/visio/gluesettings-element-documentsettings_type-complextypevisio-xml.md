@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a5675dea-3b78-9fc2-c1c0-51fefe45c6e3
 description: Определяет объекты, которые связывания фигуры на при включении связывающих в документе.
-ms.openlocfilehash: 0341e3e405c42707c802d1f193d341c8f125c159
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c85f1b201a15f5edb7e3ddb0f21553d80b9dd17a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813868"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398145"
 ---
 # <a name="gluesettings-element-documentsettingstype-complextype-visio-xml"></a>Элемент GlueSettings (DocumentSettings_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813868"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Windows.XML, document.xml  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813868"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 

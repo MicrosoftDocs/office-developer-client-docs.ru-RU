@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 поддерживает два типа моделей программирования для разработки бизнес-логики в шаблонах форм, а также поддерживает внешнюю автоматизацию из управляемого кода.
-ms.openlocfilehash: 638306eabf9f761ff126953e66228cad8cc5c3ae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c2ed1254acf86136ab7144c732aef91ac4c14c53
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579531"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400112"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>Общие сведения о среде разработки и объектных моделях InfoPath
 
@@ -89,14 +89,14 @@ InfoPath Forms Services предоставляет объектную модел
 
 Помимо написания бизнес-логики с помощью управляемого кода, можно автоматизировать InfoPath, используя управляемый код, выполняемый во внешнем приложении. Эта функция и сборки, необходимые для написания кода, впервые были представлены в пакете обновления 1 (SP1) для InfoPath 2003. Объекты и члены для автоматизации InfoPath были обновлены для предоставления дополнительных функциональных возможностей для написания кода внешней автоматизации InfoPath 2013.
   
-Классы и члены, используемые для внешней автоматизации, предоставляются через пространства имен [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) и [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml). Файлы сборки, которые необходимы для написания кода автоматизации, находятся в папке C:\Program Files\Microsoft Office\Office14. 
+Классы и члены, используемые для внешней автоматизации, предоставляются через пространства имен [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) и [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml). Файлы сборки, которые необходимы для написания кода автоматизации, находятся в папке C:\Program Files\Microsoft Office\Office14. 
   
 |**Сборки**|**Описание**|
 |:-----|:-----|
 |Microsoft.Office.Interop.InfoPath.dll  <br/> |Обеспечивает COM-взаимодействие с использованием объектной модели COM приложения InfoPath для кода внешней автоматизации, написанном на языке C# или Visual Basic.  <br/> |
 |Microsoft.Office.Interop.InfoPath.Xml.dll  <br/> |Предоставляет COM-взаимодействие в MSXML для операций XML DOM в коде внешней автоматизации, написанном на языке C# или Visual Basic.  <br/> |
    
-Дополнительные сведения о объектных моделей, предоставленные пространства имен **Microsoft.Office.Interop.InfoPath** и **Microsoft.Office.Interop.InfoPath.Xml** , которые используются исключительно для автоматизации приложения InfoPath с помощью управляемых Примеры кода из внешних приложений, см в [Центр разработчиков InfoPath](http://msdn.microsoft.com/en-us/office/aa905434.aspx).
+Дополнительные сведения о объектных моделей, предоставленные пространства имен **Microsoft.Office.Interop.InfoPath** и **Microsoft.Office.Interop.InfoPath.Xml** , которые используются исключительно для автоматизации приложения InfoPath с помощью управляемых Примеры кода из внешних приложений, см в [Центр разработчиков InfoPath](https://msdn.microsoft.com/office/aa905434.aspx).
   
 ### <a name="the-infopath-forms-services-object-model"></a>Новая объектная модель служб форм InfoPath
 

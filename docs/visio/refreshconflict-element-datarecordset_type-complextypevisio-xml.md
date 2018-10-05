@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
 description: Указывает строку в записей данных, связанных с фигурой, который находится в конфликт после обновления набора записей данных.
-ms.openlocfilehash: 0bcfb38c1a9ef84fc8581476fcce13b0de32c308
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2da6f98cf7b047564331aaf5a4167e392927a155
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814547"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397403"
 ---
 # <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Элемент RefreshConflict (DataRecordSet_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19814547"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |recordsets.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19814547"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19814547"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |PageID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор страницы фигуры, участвующие в конфликте.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
 |RowID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Исходный идентификатор строки строки теперь в конфликт после обновления данных.  <br/> |Значения типа xsd:unsignedInt.  <br/> |

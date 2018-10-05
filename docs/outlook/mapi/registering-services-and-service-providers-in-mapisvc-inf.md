@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Последнее изменение: 18 июля 2013 г.'
-ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: edb67fde04a3aa27713c3de47a9a0e7f01eb4b97
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566924"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399557"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Регистрация служб и поставщиков служб в MapiSvc.inf
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Для установки нового поставщика в системе требуется обновление файла MapiSvc.inf для указания на новый поставщик. Стандартные свойства, установленные во время настройки, которые включают следующие информирование MAPI расположение библиотеки поставщика динамической компоновки (DLL):
   
@@ -43,11 +43,11 @@ ms.locfileid: "22566924"
 > [!IMPORTANT]
 > При использовании полные пути в MapiSvc.inf необходимо использовать тот же путь в вызове **WrapStoreEntryID**. 
   
-Кроме того пути, который использован может быть преобразован в Юникод с использованием кодовой страницы, предоставленные функции [GetACP](http://msdn.microsoft.com/en-us/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) и обратно. 
+Кроме того пути, который использован может быть преобразован в Юникод с использованием кодовой страницы, предоставленные функции [GetACP](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) и обратно. 
   
 > [!CAUTION]
-> При выборе пути, который содержит символы, которые не могут выдержать обмен через функции [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) и [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) могут возникнуть сбой. 
+> При выборе пути, который содержит символы, которые не могут выдержать обмен через функции [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) и [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) могут возникнуть сбой. 
   
-Для демонстрации эту функцию был обновлен [Пример оболочку PST -файлов](http://ol2010mapisamples.codeplex.com/) на сайте CodePlex - соответствующие функциональные возможности в **MergeWithMapiSvc** и **GenerateProviderPath**.
+Для демонстрации эту функцию был обновлен [Пример оболочку PST -файлов](https://ol2010mapisamples.codeplex.com/) на сайте CodePlex - соответствующие функциональные возможности в **MergeWithMapiSvc** и **GenerateProviderPath**.
   
 

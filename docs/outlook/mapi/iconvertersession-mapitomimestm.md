@@ -11,17 +11,17 @@ api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
 description: 'Последнее изменение: 20 сентября 2017'
-ms.openlocfilehash: bcbc3d21a03c1585288ad23b1fb2d311d686f55c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570452"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400119"
 ---
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Преобразование сообщения MAPI в MIME-поток.
   
@@ -41,7 +41,7 @@ HRESULT IConverterSession::MAPIToMIMEStm(
     
  _pstm_
   
-> [out] Интерфейс [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) для вывода в потоке. 
+> [out] Интерфейс [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) для вывода в потоке. 
     
  _ulFlags_
   
@@ -97,11 +97,11 @@ E_INVALIDARG
 
 Поддерживается только для стандартных типов сообщений Outlook.
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |Mfcmapi (en) используется MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |Mfcmapi (en) используется MAPIToMIMEStm для преобразования MAPI сообщения EML-файла.  <br/> |

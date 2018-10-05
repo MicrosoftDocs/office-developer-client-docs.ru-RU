@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6aab8be3-b236-029b-1df3-b6860d4f4586
 description: Выделяет обмена данными между один или несколько элементов записей данных и источник данных не в формате XML.
-ms.openlocfilehash: 74e15795e023517263d9b79e9f19557653e4e939
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0073c329ec9149263530421531522c4d0b95633d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813551"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399426"
 ---
 # <a name="dataconnection-element-dataconnectionstype-complextype-visio-xml"></a>Элемент DataConnection (DataConnections_Type complexType) ('Visio XML»)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19813551"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> |Connections.XML  <br/> |
    
@@ -36,7 +36,7 @@ ms.locfileid: "19813551"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -50,7 +50,7 @@ ms.locfileid: "19813551"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |AlwaysUseConnectionFile  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Значение по умолчанию — false. Для получения дополнительных сведений см.  <br/> |Значения типа xsd:boolean.  <br/> |
 |Команда  <br/> |XSD:String  <br/> |необязательный  <br/> |Командную строку, используемую для запроса источника данных.  <br/> |Значения типа xsd:string.  <br/> |

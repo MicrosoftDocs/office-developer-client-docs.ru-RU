@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d896d66db13b2114c1c333084d5f3b1d3a341796
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5fde3e7eda8d98eb5080fff360616649b1eb96a5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574792"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399041"
 ---
 # <a name="initializing-mapi"></a>Инициализация MAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Все клиентские приложения, использующие MAPI библиотеки необходимо вызвать функцию **MAPIInitialize** . Для получения дополнительных сведений см [MAPIInitialize](mapiinitialize.md). **MAPIInitialize** инициализирует глобальные данные для сеанса и подготавливает библиотек MAPI для приема звонков. Существует несколько флаги, необходимо задать в некоторых случаях. 
   
@@ -33,7 +33,7 @@ ms.locfileid: "22574792"
     
 - MAPI_NO_COINIT
     
-    Задайте флаг MAPI_NO_COINT, чтобы **MAPIInitialize** не пытается инициализировать COM с помощью вызова [CoInitialize](http://msdn.microsoft.com/en-us/library/ms886303.aspx). Если структура **MAPIINIT_0** передается в **MAPIInitialize** с _ulFlags_ , задайте значение MAPI_NO_COINIT, MAPI будет Предположим, что COM уже инициализирована и отмены обработки вызова **CoInitialize**.
+    Задайте флаг MAPI_NO_COINT, чтобы **MAPIInitialize** не пытается инициализировать COM с помощью вызова [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx). Если структура **MAPIINIT_0** передается в **MAPIInitialize** с _ulFlags_ , задайте значение MAPI_NO_COINIT, MAPI будет Предположим, что COM уже инициализирована и отмены обработки вызова **CoInitialize**.
     
 Если флаг MAPI_MULTITHREAD_NOTIFICATIONS не передается, MAPI создает окно уведомления в потоке, который использовался для вашего первого вызова **MAPIInitialize** . MAPI создает окно уведомления в отдельном потоке, если передается MAPI_MULTITHREAD_NOTIFICATIONS — поток предназначен для обработки уведомлений. MAPI ожидает поток, который используется для создания окно скрытых уведомления, чтобы: 
   

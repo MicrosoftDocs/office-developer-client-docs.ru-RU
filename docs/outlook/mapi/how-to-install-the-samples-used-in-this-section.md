@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0b4cc2fe82db60a2302f33a194314e0df1458a89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 288ece7a26fb89fa240339da681f163909124823
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586916"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397060"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>Установка примеров, используемые в данном разделе
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Чтобы установить приложение mfcmapi (en) и CreateOutlookItemsAddin проекта для просмотра и запустите пример кода, ссылок на них в разделе [Создание элементов Outlook с помощью интерфейса MAPI](creating-outlook-items-by-using-mapi.md) , выполните следующие действия. 
 
@@ -25,11 +25,11 @@ ms.locfileid: "22586916"
 
 ### <a name="to-download-and-install-the-mfcmapi-application-and-open-createoutlookitemsaddin-project"></a>Чтобы загрузить и установить приложение mfcmapi (en) и откройте проект CreateOutlookItemsAddin
 
-1. Загрузите текущую версию [mfcmapi (en)](http://go.microsoft.com/fwlink/?LinkID=124154) исполняемый файл в папку на компьютере. 
+1. Загрузите текущую версию [mfcmapi (en)](https://go.microsoft.com/fwlink/?LinkID=124154) исполняемый файл в папку на компьютере. 
     
 2. Извлеките файл MFCMapi.exe в MFCMapi.exe. _версия_.zip в пустую папку на жестком диске.
     
-3. Загрузите текущую версию [CreateOutlookItemsAddin](http://go.microsoft.com/fwlink/?LinkID=127828) project. 
+3. Загрузите текущую версию [CreateOutlookItemsAddin](https://go.microsoft.com/fwlink/?LinkID=127828) project. 
     
 4. Извлечь все файлы в файле CreateOutlookItemsAddin.zip к папке, куда были извлечены файл MFCMapi.exe в шаге 2.
     
@@ -70,7 +70,7 @@ ms.locfileid: "22586916"
 
 ### <a name="to-download-and-view-the-mfcmapi-application-source-code"></a>Чтобы загрузить и просмотреть исходный код приложения mfcmapi (en)
 
-1. Загрузите исходный код для текущей версии приложения [mfcmapi (en)](http://go.microsoft.com/fwlink/?LinkID=124154) в папку на компьютере. 
+1. Загрузите исходный код для текущей версии приложения [mfcmapi (en)](https://go.microsoft.com/fwlink/?LinkID=124154) в папку на компьютере. 
     
 2. Извлеките файлы в .zip _изменений_mfcmapi (en) — чтобы очистить папку на жестком диске.
     

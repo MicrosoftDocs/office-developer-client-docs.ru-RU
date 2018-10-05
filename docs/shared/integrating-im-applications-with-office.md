@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: В этой статье описывается настройка клиентского приложения мгновенные сообщения (IM), чтобы он интегрируется с использованием социальных функций в Office 2013, включая отображение сведений о присутствии и отправлять мгновенные сообщения из карточки контакта.
-ms.openlocfilehash: 383aac24be347cf637d9e2f255623035eea8bc40
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbb3c68126b16e04cd00e950828fc67d16fc7669
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813076"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401740"
 ---
 # <a name="integrating-im-applications-with-office"></a>Интеграция приложений для обмена мгновенными сообщениями с приложениями Office
 
@@ -57,7 +57,7 @@ Office 2013 предоставляет приложениям, включая Ly
 
 ![Карточка контакта в Office 2013] (media/ocom15_peoplecard.png "Карточка контакта в Office 2013")
   
-Чтобы включить этот интеграции с Office, клиентского приложения обмена мгновенными Сообщениями необходимо реализовать набор интерфейсов, предоставляемых Office, чтобы подключиться к ней. Интерфейсы API для интеграции включены в пространстве имен [UCCollborationLib](http://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) , который содержится в файле Microsoft.Office.UC.dll, который устанавливается вместе с версиями Office 2013, включая Lync / Скайп для бизнеса. Пространство имен **UCCollaborationLib** включает в себя интерфейсы, которые должны быть реализованы для интеграции с Office. 
+Чтобы включить этот интеграции с Office, клиентского приложения обмена мгновенными Сообщениями необходимо реализовать набор интерфейсов, предоставляемых Office, чтобы подключиться к ней. Интерфейсы API для интеграции включены в пространстве имен [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) , который содержится в файле Microsoft.Office.UC.dll, который устанавливается вместе с версиями Office 2013, включая Lync / Скайп для бизнеса. Пространство имен **UCCollaborationLib** включает в себя интерфейсы, которые должны быть реализованы для интеграции с Office. 
   
 > [!IMPORTANT] 
 > Библиотека типов для необходимых интерфейсов встраивается в Lync 2013/Скайп для бизнеса. Для интеграторов сторонних производителей это работает только в том случае, если на целевом компьютере установлены Lync 2013 и Скайп для бизнеса. Если вы реализуете интеграцию с помощью Office Standard, необходимо извлечь библиотеку типов и установить его на целевом компьютере. [Пакет SDK для Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) включает в себя файл Microsoft.Office.UC.dll. 
@@ -65,7 +65,7 @@ Office 2013 предоставляет приложениям, включая Ly
 > [!NOTE]
 >  Аналогичным образом интеграции небольшое количество приложений Office 2010 в приложение поставщика обмена мгновенными Сообщениями сторонних производителей: Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 и SharePoint Server 2010 (с помощью элемента управления ActiveX). Многие из действий, необходимых для интеграции с Office 2013 относятся к Office 2010 также. Существует ряд ключевых различий в интеграции Office 2010 с помощью поставщика приложения обмена мгновенными Сообщениями: 
 >  - Office 2010 не отображать фотографии контакта. 
->  - Файл Microsoft.Office.Uc.dll необходимо загрузить отдельно с Office 2010. [Пакет SDK для Lync 2010](http://www.microsoft.com/en-us/download/details.aspx?id=18898) включает в себя файл Microsoft.Office.UC.dll для Office 2010. 
+>  - Файл Microsoft.Office.Uc.dll необходимо загрузить отдельно с Office 2010. [Пакет SDK для Lync 2010](https://www.microsoft.com/en-us/download/details.aspx?id=18898) включает в себя файл Microsoft.Office.UC.dll для Office 2010. 
 >  - Когда приложение Office вызывает метод [IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) в клиентском приложении обмена мгновенными Сообщениями, передается в строку «14.0.0.0». 
 >  - Office 2010 перечисляет все группы или контактов сразу же подключается к клиентского приложения обмена мгновенными Сообщениями. 
   
@@ -108,7 +108,7 @@ Office 2013 предоставляет приложениям, включая Ly
 
 После приложение Office устанавливает подключение к клиентское приложение обмена мгновенными Сообщениями, затем происходит следующее:
   
-1. Приложение Office вызывает метод [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) для проверки для интерфейса [IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) . 
+1. Приложение Office вызывает метод [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) для проверки для интерфейса [IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) . 
     
 2. Затем приложение Office вызывает метод **IUCOfficeIntegration.GetAuthenticationInfo** , передав в наибольший интеграции поддерживаемые версии (например, «15.0.0.0»). 
     
@@ -130,7 +130,7 @@ Office 2013 предоставляет приложениям, включая Ly
 
 После проверки подлинности подключения к клиентскому приложению обмена мгновенными Сообщениями, приложение Office пытается подключиться к набор необходимых интерфейсов, которые должны предоставлять клиентское приложение обмена мгновенными Сообщениями. Приложение Office это достигается следующим образом:
   
-- Приложение Office получает [ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient) объект путем вызова метода **IUCOfficeIntegration.GetInterface** , передав в **oiInterfaceLyncClient** константа из перечисления [UCCollaborationLib.OIInterface](http://msdn.microsoft.com/library/UCCollaborationLib.OIInterface) . 
+- Приложение Office получает [ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient) объект путем вызова метода **IUCOfficeIntegration.GetInterface** , передав в **oiInterfaceLyncClient** константа из перечисления [UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface) . 
     
 - Приложение Office получает [IAutomation](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IAutomation) объект путем вызова метода **IUCOfficeIntegration.GetInterface** , передав в **oiInterfaceAutomation** константа из перечисления **OIInterface** . 
     
@@ -140,7 +140,7 @@ Office 2013 предоставляет приложениям, включая Ly
     
 - Приложение Office получает состояние входа из клиентского приложения обмена мгновенными Сообщениями с помощью свойства **ILyncClient.State** . 
     
-- Приложение Office получает возможности обмена мгновенными Сообщениями клиентского приложения путем вызова метода **IUCOfficeIntegration.GetSupportedFeatures** , который возвращает флаг из перечисления [UCCollaborationLib.OIFeature](http://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) . 
+- Приложение Office получает возможности обмена мгновенными Сообщениями клиентского приложения путем вызова метода **IUCOfficeIntegration.GetSupportedFeatures** , который возвращает флаг из перечисления [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) . 
     
 - Приложение Office обращается к свойству **ILyncClient.Self** , чтобы получить ссылку на объект [ISelf](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ISelf) . 
     
@@ -217,7 +217,7 @@ Office 2013 предоставляет приложениям, включая Ly
 В таблице 2 показаны элементы, которые должны быть реализованы в классе, который наследует от **IUCOfficeIntegration** и **_IUCOfficeIntegration**.
   
 > [!NOTE]
-> Дополнительные сведения о **IUCOfficeIntegration** и **_IUCOfficeIntegrationEvents** интерфейсы и их члены можно [UCCollaborationLib.IUCOfficeIntegration](http://msdn.microsoft.com/library/UCCollaborationLib.IUCOfficeIntegration) и [UCCollaborationLib._IUCOfficeIntegrationEvents ](http://msdn.microsoft.com/library/UCCollaborationLib._IUCOfficeIntegrationEvents). 
+> Дополнительные сведения о **IUCOfficeIntegration** и **_IUCOfficeIntegrationEvents** интерфейсы и их члены можно [UCCollaborationLib.IUCOfficeIntegration](https://msdn.microsoft.com/library/UCCollaborationLib.IUCOfficeIntegration) и [UCCollaborationLib._IUCOfficeIntegrationEvents ](https://msdn.microsoft.com/library/UCCollaborationLib._IUCOfficeIntegrationEvents). 
   
 **В таблице 2. Реализация интерфейсов IUCOfficeIntegration и _IUCOfficeIntegrationEvents**
 
@@ -267,7 +267,7 @@ public string GetAuthenticationInfo(string _version)
 
 ```
 
-Метод **GetInterface** передвигаются ссылки на классы коду вызова, в зависимости от того, что передается в качестве аргумента для параметра _интерфейса_ . Когда приложение Office вызывает метод **GetInterface** , передается в одно из двух значений для параметра интерфейса: константа **oiInterfaceILyncClient** (1) или константа **oiInterfaceIAutomation** (2) из [ UCCollaborationLib.OIInterface](http://msdn.microsoft.com/library/UCCollaborationLib.OIInterface) перечисления. Если приложение Office передает **oiInterfaceILyncClient** константу, метод **GetInterface** возвращает ссылку на класс, реализующий интерфейс **ILyncClient** . Если приложение Office передает **oiInterfaceIAutomation** константу, метод **GetInterface** возвращает класс, реализующий интерфейс **IAutomation** . 
+Метод **GetInterface** передвигаются ссылки на классы коду вызова, в зависимости от того, что передается в качестве аргумента для параметра _интерфейса_ . Когда приложение Office вызывает метод **GetInterface** , передается в одно из двух значений для параметра интерфейса: константа **oiInterfaceILyncClient** (1) или константа **oiInterfaceIAutomation** (2) из [ UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface) перечисления. Если приложение Office передает **oiInterfaceILyncClient** константу, метод **GetInterface** возвращает ссылку на класс, реализующий интерфейс **ILyncClient** . Если приложение Office передает **oiInterfaceIAutomation** константу, метод **GetInterface** возвращает класс, реализующий интерфейс **IAutomation** . 
   
 Используйте следующий пример кода для реализации метода **GetInterface** в код приложения клиент обмена мгновенными Сообщениями. 
   
@@ -304,7 +304,7 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-Метод **GetSupportedFeatures** возвращает сведения о функции обмена мгновенными Сообщениями, которые поддерживает клиентское приложение обмена мгновенными Сообщениями. Она принимает строку, для его единственный параметр _версии_. Когда приложение Office вызывает метод **GetSupportFeatures** , метод возвращает значение из перечисления [UCCollaborationLib.OIFeature](http://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) . Возвращаемое значение указывает возможности клиент обмена мгновенными Сообщениями, где каждой возможности обмена мгновенными Сообщениями клиентского приложения указывается в приложение Office, добавив флаг значение. 
+Метод **GetSupportedFeatures** возвращает сведения о функции обмена мгновенными Сообщениями, которые поддерживает клиентское приложение обмена мгновенными Сообщениями. Она принимает строку, для его единственный параметр _версии_. Когда приложение Office вызывает метод **GetSupportFeatures** , метод возвращает значение из перечисления [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) . Возвращаемое значение указывает возможности клиент обмена мгновенными Сообщениями, где каждой возможности обмена мгновенными Сообщениями клиентского приложения указывается в приложение Office, добавив флаг значение. 
   
 > [!NOTE]
 >  Приложения Office 2013 игнорировать следующие константы в перечислении **OIFeature** : 
@@ -327,7 +327,7 @@ public OIFeature GetSupportedFeatures(string _version)
 ### <a name="ilyncclient-interface"></a>Интерфейс ILyncClient
 <a name="off15_IMIntegration_ImplementRequired_ILyncClient"> </a>
 
-Интерфейс **ILyncClient** сопоставляет возможности обмена мгновенными Сообщениями клиентского приложения. Она предоставляет свойства, связанные с человека, который вошел в приложении (локальный пользователь, представленный в интерфейсе [UCCollaborationLib.ISelf](http://msdn.microsoft.com/library/UCCollaborationLib.ISelf) ), состояние приложения, в списке контактов для локального пользователя и некоторые другие параметры. Когда она пытается подключиться к приложению клиент обмена мгновенными Сообщениями, приложение Office получает ссылку на объект, реализующий интерфейс **ILyncClient** . По этой ссылки Office может получить доступ практически возможности обмена мгновенными Сообщениями клиентского приложения. 
+Интерфейс **ILyncClient** сопоставляет возможности обмена мгновенными Сообщениями клиентского приложения. Она предоставляет свойства, связанные с человека, который вошел в приложении (локальный пользователь, представленный в интерфейсе [UCCollaborationLib.ISelf](https://msdn.microsoft.com/library/UCCollaborationLib.ISelf) ), состояние приложения, в списке контактов для локального пользователя и некоторые другие параметры. Когда она пытается подключиться к приложению клиент обмена мгновенными Сообщениями, приложение Office получает ссылку на объект, реализующий интерфейс **ILyncClient** . По этой ссылки Office может получить доступ практически возможности обмена мгновенными Сообщениями клиентского приложения. 
   
 Кроме того класс, реализующий интерфейс **ILyncClient** также требуется реализовать интерфейс **_ILyncClientEvents** . Интерфейс **_ILyncClientEvents** предоставляет несколько событий, которые необходимы для отслеживания состояния клиентское приложение обмена мгновенными Сообщениями. 
   
@@ -336,7 +336,7 @@ public OIFeature GetSupportedFeatures(string _version)
 > [!NOTE]
 > Любой участник **ILyncClient** или ** \_ILyncClientEvents** интерфейс, не указанные в таблице, должно быть установлено, но не обязательно должна быть реализована. Члены, которые являются существует, но не реализовано может вызывать **NotImplementedException** или **E\_NOTIMPL** ошибка. 
 > 
-> Дополнительные сведения о **ILyncClient** и **_ILyncClientEvents** интерфейсы и их члены можно [UCCollaborationLib.ILyncClient](http://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) и [UCCollaborationLib._ILyncClientEvents](http://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
+> Дополнительные сведения о **ILyncClient** и **_ILyncClientEvents** интерфейсы и их члены можно [UCCollaborationLib.ILyncClient](https://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) и [UCCollaborationLib._ILyncClientEvents](https://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
   
 **В таблице 3. Реализация интерфейсов ILyncClient и ILyncClientEvents**
 
@@ -350,7 +350,7 @@ public OIFeature GetSupportedFeatures(string _version)
 ||Свойство **URI**  <br/> |Возвращает URI клиентское приложение обмена мгновенными Сообщениями.  <br/> |
 |**_ILyncClientEvents** <br/> |Событие **OnStateChanged**  <br/> |Возникает при изменении состояния приложения клиент обмена мгновенными Сообщениями. Необходимо обрабатывать и получить свойство **eventData.NewState** . Событие все процессы, привязанного к экземпляру клиентского приложения обмена мгновенными Сообщениями, когда все подсистемы в приложении вызывает изменение состояния.  <br/> |
    
-Во время инициализации Office обращается к свойству **ILyncClient.State** . Это свойство должен возвращать значение из перечисления [UCCollaborationLib.ClientState](http://msdn.microsoft.com/library/UCCollaborationLib.ClientState) . 
+Во время инициализации Office обращается к свойству **ILyncClient.State** . Это свойство должен возвращать значение из перечисления [UCCollaborationLib.ClientState](https://msdn.microsoft.com/library/UCCollaborationLib.ClientState) . 
   
 ```cs
 private ClientState _clientState;
@@ -663,7 +663,7 @@ namespace SampleImplementation
 > [!NOTE]
 > Любой элемент в интерфейсе **IAutomation** , не указанные в таблице, должно быть установлено, но не обязательно должна быть реализована. Члены, которые являются существует, но не реализовано может вызвать ошибку **NotImplementedException** или **E_NOTIMPL** . 
 > 
-> Дополнительные сведения об интерфейсе **IAutomation** и его члены можно [UCCollaborationLib.IAutomation](http://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
+> Дополнительные сведения об интерфейсе **IAutomation** и его члены можно [UCCollaborationLib.IAutomation](https://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
   
 **В таблице 4. Реализация интерфейса IAutomation**
 
@@ -700,7 +700,7 @@ namespace SampleImplementation
 > [!NOTE]
 > Любой элемент в интерфейсе **IContact** , не указанные в таблице, должно быть установлено, но не обязательно должна быть реализована. Члены, которые являются существует, но не реализовано может вызвать ошибку **NotImplementedException** или **E_NOTIMPL** . 
 >
-> Дополнительные сведения об интерфейсе **IContact** и его члены можно [UCCollaborationLib.IContact](http://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
+> Дополнительные сведения об интерфейсе **IContact** и его члены можно [UCCollaborationLib.IContact](https://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
   
 **В таблице 5. Реализация интерфейса IContact**
 
@@ -712,7 +712,7 @@ namespace SampleImplementation
 |Свойства **параметров**  <br/> |Получает коллекцию свойства контакта.  <br/> |
 |Свойство **CustomGroups**  <br/> |Получает коллекцию групп, которым принадлежит контакт.  <br/> |
    
-Во время инициализации приложения Office вызывает метод **IContact.CanStart** для определения возможности обмена мгновенными Сообщениями для локального пользователя. Метод **CanStart** принимает флаг из перечисления [UCCollaborationLib.ModalityTypes](http://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) в качестве аргумента для параметра_modalityTypes_ _. Если текущий пользователь могли взаимодействовать в запрошенные модальности (то есть, пользователь способен обмена мгновенными сообщениями, аудио- и видеоконференций обмена мгновенными сообщениями или общего доступа к приложениям), метод **CanStart** возвращает **значение true**.
+Во время инициализации приложения Office вызывает метод **IContact.CanStart** для определения возможности обмена мгновенными Сообщениями для локального пользователя. Метод **CanStart** принимает флаг из перечисления [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) в качестве аргумента для параметра_modalityTypes_ _. Если текущий пользователь могли взаимодействовать в запрошенные модальности (то есть, пользователь способен обмена мгновенными сообщениями, аудио- и видеоконференций обмена мгновенными сообщениями или общего доступа к приложениям), метод **CanStart** возвращает **значение true**.
   
 ```cs
 public bool CanStart(ModalityTypes _modalityTypes)
@@ -736,7 +736,7 @@ public bool CanStart(ModalityTypes _modalityTypes)
 
 ```
 
-Метод **GetContactInformation** получает сведения о контакте из объекта **IContact** . Вызывающий код должен передать значение из перечисления [UCCollaborationLib.ContactInformationType](http://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) для параметра_contactInformationType_ _ указывает данные, которые нужно вернуть. 
+Метод **GetContactInformation** получает сведения о контакте из объекта **IContact** . Вызывающий код должен передать значение из перечисления [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) для параметра_contactInformationType_ _ указывает данные, которые нужно вернуть. 
   
 ```cs
 public object GetContactInformation(
@@ -767,7 +767,7 @@ public object GetContactInformation(
 }
 ```
 
-Как и **GetContactInformation**, метод **BatchGetContactInformation** получает несколько элементов сведений о присутствии о контакте из объекта **IContact** . Вызывающий код должен передать в массив значений из перечисления **ContactInformationType** для параметра_contactInformationTypes_ _. Метод возвращает объект [UCCollaborationLib.IContactInformationDictionary](http://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) , содержащий запрошенные данные. 
+Как и **GetContactInformation**, метод **BatchGetContactInformation** получает несколько элементов сведений о присутствии о контакте из объекта **IContact** . Вызывающий код должен передать в массив значений из перечисления **ContactInformationType** для параметра_contactInformationTypes_ _. Метод возвращает объект [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) , содержащий запрошенные данные. 
   
 ```cs
 public IMClientContactInformationDictionary BatchGetContactInformation(
@@ -872,7 +872,7 @@ public class IMClientSelf : ISelf
 > [!NOTE]
 > Любой элемент в интерфейсе **IContactManager** , не указанные в таблице, должно быть установлено, но не обязательно должна быть реализована. Члены, которые являются существует, но не реализовано может вызывать **NotImplementedException** или **E\_NOTIMPL** ошибка. 
 >
-> Дополнительные сведения о **IContactManager** и **_IContactManagerEvents** интерфейсы и их члены можно [UCCollaborationLib.IContactManager](http://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) и [UCCollaborationLib._IContactManagerEvents](http://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
+> Дополнительные сведения о **IContactManager** и **_IContactManagerEvents** интерфейсы и их члены можно [UCCollaborationLib.IContactManager](https://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) и [UCCollaborationLib._IContactManagerEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
   
 **В таблице 7. Реализация интерфейсов IContactManager и _IContactManagerEvents**
 
@@ -938,7 +938,7 @@ public IMClientContactSubscription CreateSubscription()
 > [!NOTE]
 > Любой элемент в интерфейсе **IGroup** , не указанные в таблице, должно быть установлено, но не обязательно должна быть реализована. Члены, которые являются существует, но не реализовано может вызвать ошибку **NotImplementedException** или **E_NOTIMPL** . 
 >
-> Дополнительные сведения о **IGroup** и **IGroupCollection** интерфейсов и их члены можно [UCCollaborationLib.IGroup](http://msdn.microsoft.com/library/UCCollaborationLib.IGroup) и [UCCollaborationLib.IGroupCollection](http://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
+> Дополнительные сведения о **IGroup** и **IGroupCollection** интерфейсов и их члены можно [UCCollaborationLib.IGroup](https://msdn.microsoft.com/library/UCCollaborationLib.IGroup) и [UCCollaborationLib.IGroupCollection](https://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
   
 **В таблице 9. Реализация интерфейсов IGroup и IGroupCollection**
 
@@ -960,7 +960,7 @@ public IMClientContactSubscription CreateSubscription()
 > [!NOTE]
 > Любой элемент в интерфейсе **IContactSubscription** , не указанные в таблице, должно быть установлено, но не обязательно должна быть реализована. Члены, которые являются существует, но не реализовано может вызвать ошибку **NotImplementedException** или **E_NOTIMPL** .
 >
-> Дополнительные сведения об интерфейсе **IContactSubscription** и его члены можно [UCCollaborationLib.IContactSubscription](http://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
+> Дополнительные сведения об интерфейсе **IContactSubscription** и его члены можно [UCCollaborationLib.IContactSubscription](https://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
   
 **В таблице 10. Реализация интерфейса IContactSubscription**
 
@@ -993,7 +993,7 @@ public void AddContact(IMClientContact _contact)
 > [!NOTE]
 > Любой элемент в интерфейсе **IContactEndPoint** , не указанные в таблице, должно быть установлено, но не обязательно должна быть реализована. Члены, которые являются существует, но не реализовано может вызвать ошибку **NotImplementedException** или **E_NOTIMPL** .
 >
-> Дополнительные сведения об интерфейсе **IContactEndPoint** и его члены можно [UCCollaborationLib.IContactEndpoint](http://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
+> Дополнительные сведения об интерфейсе **IContactEndPoint** и его члены можно [UCCollaborationLib.IContactEndpoint](https://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
   
 **В таблице 11. Реализация интерфейса IContactEndPoint**
 
@@ -1013,7 +1013,7 @@ public void AddContact(IMClientContact _contact)
 > [!NOTE]
 > Любой элемент в интерфейсе **ILocaleString** , не указанные в таблице, должно быть установлено, но не обязательно должна быть реализована. Члены, которые являются существует, но не реализовано может вызвать ошибку **NotImplementedException** или **E_NOTIMPL** .
 >
-> Дополнительные сведения об интерфейсе **ILocalString** и его члены можно [UCCollaborationLib.ILocaleString](http://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
+> Дополнительные сведения об интерфейсе **ILocalString** и его члены можно [UCCollaborationLib.ILocaleString](https://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
   
 **В таблице 12. Реализация интерфейса ILocaleString**
 
@@ -1024,6 +1024,6 @@ public void AddContact(IMClientContact _contact)
    
 ## <a name="see-also"></a>См. также
 
-- Пространство имен [UCCollaborationLib](http://msdn.microsoft.com/library/UCCollaborationLib) 
+- Пространство имен [UCCollaborationLib](https://msdn.microsoft.com/library/UCCollaborationLib) 
     
 

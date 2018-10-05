@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
 description: Указывает местоположение для прогноза погоды отчет на.
-ms.openlocfilehash: a95e207845a9e54f5cac58b64ce85ec17b59fa22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6642b3f477b9fe45ed0e6a43efcd40e21559b7e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812926"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398299"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>элемент прогноза погоды (weatherdata элемент) (схема местоположения погоды Outlook)
 
@@ -24,7 +24,7 @@ ms.locfileid: "19812926"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
-|**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Файл схемы** <br/> |getweatherlocation.xsd  <br/> |
    
 ## <a name="definition"></a>Определение
@@ -37,7 +37,7 @@ ms.locfileid: "19812926"
 
 ## <a name="elements-and-attributes"></a>Элементы и атрибуты
 
-Если схема определяет специальные требования, такие как **последовательность**, **minOccurs**, **maxOccurs**и **выбора**, обратитесь к разделу определение. 
+Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений. 
   
 ### <a name="parent-elements"></a>Родительские элементы
 
@@ -51,7 +51,7 @@ ms.locfileid: "19812926"
   
 ### <a name="attributes"></a>Атрибуты
 
-|**Атрибут**|**Тип**|**Обязательное**|**Описание**|**Возможные значения**|
+|**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |weatherlocationcode  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает код, связанный с расположением для различения нескольких расположений с тем же именем.  <br/> |Значения типа xs: String  <br/> |
 |weatherlocationname  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает имя расположения.  <br/> |Значения типа xs: String  <br/> |

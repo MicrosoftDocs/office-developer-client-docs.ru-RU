@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 47b209b9a8818cf235b7c28593da5778dd944989
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fe3a76fa246cba9447db2f99562670973af183ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568702"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398397"
 ---
 # <a name="loading-message-store-providers"></a>Загрузка поставщиков хранилищ сообщений
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 При открытии хранилища сообщений клиентского приложения MAPI загружает библиотеку DLL поставщика хранилища сообщений в память. После загрузки библиотеки DLL MAPI очень определенной последовательности вызовов методов происходит между поставщиком хранилища сообщений и MAPI. Последовательность вызовов этот метод позволяет MAPI для получения верхнего уровня [IMSProvider: IUnknown](imsprovideriunknown.md), [IMSLogon: IUnknown](imslogoniunknown.md), и [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) интерфейсы и разрешает поставщика хранилища сообщений для получения объекта поддержки MAPI. После завершения последовательности вызовов поставщика хранилища сообщений должен быть готов принять входов в систему от клиентов. 
   
@@ -33,7 +33,7 @@ ms.locfileid: "22568702"
     
 4. MAPI вызывает [IMSProvider::Logon](imsprovider-logon.md), передав идентификатор записи хранилища сообщений клиентского приложения.
     
-5. **IMSProvider::Logon** создает и возвращает [IMSLogon: IUnknown](imslogoniunknown.md) интерфейс и [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) интерфейс, а затем вызывается метод [IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) его [IMAPISupport: IUnknown](imapisupportiunknown.md) интерфейса. Если сообщение клиента, хранения идентификатор входа ссылается на хранилища сообщений, которое уже открыт, поставщика хранилища сообщений можно вернуть существующие интерфейсы **IMSLogon** и **IMsgStore** и не нужно вызвать **метод AddRef** для объекта его поддержки. 
+5. **IMSProvider::Logon** создает и возвращает [IMSLogon: IUnknown](imslogoniunknown.md) интерфейс и [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) интерфейс, а затем вызывается метод [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) его [IMAPISupport: IUnknown](imapisupportiunknown.md) интерфейса. Если сообщение клиента, хранения идентификатор входа ссылается на хранилища сообщений, которое уже открыт, поставщика хранилища сообщений можно вернуть существующие интерфейсы **IMSLogon** и **IMsgStore** и не нужно вызвать **метод AddRef** для объекта его поддержки. 
     
 6. Если клиент не был указан флаг MAPI_NO_MAIL при его вход в систему, а не был указан MDB_NO_MAIL на шаге 1, MAPI предоставляет идентификатор записи хранилища сообщений очереди MAPI, диспетчер очереди MAPI может войти в хранилище сообщений.
     

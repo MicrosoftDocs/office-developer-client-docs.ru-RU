@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c5a7ba301d61468c0ff43a7e99d05976d55d239d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d353eba55e33b8ab48b3c47d2f31f1b5e0973b58
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576674"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399734"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Выбор определенной версии MAPI для загрузки
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 При связывании явно реализация интерфейса MAPI, необходимо тщательно выбрать реализация для загрузки. 
   
@@ -27,7 +27,7 @@ ms.locfileid: "22576674"
     
 2. Можно реализовать алгоритм подстановки клиента MAPI для поиска версия MAPI, используемых почтового клиента по умолчанию и загрузить его.
     
-Можно изменить [Параметры реестра Mapi32.dll заглушку](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx) для направления приложения для использования любой реализации интерфейса MAPI, поэтому рекомендуется прямое подключение приложения для использования реализация интерфейса MAPI, проверенного с. Ниже описаны оба метода компоновки явным образом. 
+Можно изменить [Параметры реестра Mapi32.dll заглушку](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx) для направления приложения для использования любой реализации интерфейса MAPI, поэтому рекомендуется прямое подключение приложения для использования реализация интерфейса MAPI, проверенного с. Ниже описаны оба метода компоновки явным образом. 
   
 ## <a name="reading-from-the-registry"></a>Чтение из реестра
 
@@ -99,16 +99,16 @@ ms.locfileid: "22576674"
 10.  `GetMAPIPath`затем возвращает этот путь к вызывающему, который затем загружает MAPI и явно приведены ссылки на него, как описано в [ссылка на функции MAPI](how-to-link-to-mapi-functions.md).
     
 > [!NOTE] 
-> - Для поддержки локализованных копий MAPI для английского языка и языковых стандартов неанглийской `GetMAPIPath` считывает значения для **MSIApplicationLCID** и **MSIOfficeLCID** подразделы.  `GetMAPIPath`затем вызывает **FGetComponentPath**, сначала указав **MSIApplicationLCID** как **szQualifier**, а еще раз **MSIOfficeLCID** как **szQualifier**. Дополнительные сведения о разделах реестра для почтовых клиентов, которые поддерживают языками см [параметр копирование MSI для Your MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx).   
+> - Для поддержки локализованных копий MAPI для английского языка и языковых стандартов неанглийской `GetMAPIPath` считывает значения для **MSIApplicationLCID** и **MSIOfficeLCID** подразделы.  `GetMAPIPath`затем вызывает **FGetComponentPath**, сначала указав **MSIApplicationLCID** как **szQualifier**, а еще раз **MSIOfficeLCID** как **szQualifier**. Дополнительные сведения о разделах реестра для почтовых клиентов, которые поддерживают языками см [параметр копирование MSI для Your MAPI DLL](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx).   
 > - Если mfcmapi (en) не получает путь для использования интерфейса MAPI `GetMAPIPath`, он загружает библиотеку заглушка MAPI из каталога системы.
-> - Параметр реестра **MSMapiApps** , обсуждаемые в [Явно сопоставление вызовов программного интерфейса MAPI для библиотеки MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx) применяется только при использовании библиотеки заглушка MAPI. Приложения, которые загрузить реализации интерфейса MAPI или загрузить реализация по умолчанию не нужно задать раздел реестра **MSMapiApps** . 
+> - Параметр реестра **MSMapiApps** , обсуждаемые в [Явно сопоставление вызовов программного интерфейса MAPI для библиотеки MAPI DLL](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx) применяется только при использовании библиотеки заглушка MAPI. Приложения, которые загрузить реализации интерфейса MAPI или загрузить реализация по умолчанию не нужно задать раздел реестра **MSMapiApps** . 
     
 ## <a name="see-also"></a>См. также
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [����� �������� � ���������������� MAPI](mapi-programming-overview.md)
 - [Ссылки на функции MAPI](how-to-link-to-mapi-functions.md)
-- [Параметры реестра заглушка Mapi32.dll](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx)
-- [Настройка разделов MSI для библиотеки DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx)
-- [Явным образом сопоставление вызовов программного интерфейса MAPI для библиотеки MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx)
+- [Параметры реестра заглушка Mapi32.dll](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
+- [Настройка разделов MSI для библиотеки DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
+- [Явным образом сопоставление вызовов программного интерфейса MAPI для библиотеки MAPI DLL](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
 

@@ -6,24 +6,24 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
 description: '���� ���������� ���������: 5 ���� 2012 �.'
-ms.openlocfilehash: 5b16da68a5cc5ab9e005a262bf1518ea90aac570
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1574de555eb74d06c4dbe721e7e013ac59d3071
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587539"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397767"
 ---
 # <a name="installing-the-sample-wrapped-pst-store-provider"></a>Установка примера поставщика упакованного PST-хранилища
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются действия, чтобы загрузить и установить оболочку PST поставщик хранилища. Пример оболочку PST хранения поставщик, WrapPST, реализует оболочку поставщика хранилища PST-файлов, который предназначен для использования совместно с использованием интерфейса API репликации. Дополнительные сведения об API репликации можно [О репликации API](about-the-replication-api.md).
   
 ## <a name="install-the-sample-wrapped-pst-store-provider"></a>Установка примера поставщика хранилища оболочку PST-файлов
 
-1. Чтобы загрузить оболочку PST поставщик хранилища, обратитесь к разделу [Outlook 2007 примеры Дополнительные справочные кода и распространяемого установщика](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Чтобы загрузить оболочку PST поставщик хранилища, обратитесь к разделу [Outlook 2007 примеры Дополнительные справочные кода и распространяемого установщика](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Откройте папку **SampleWrappedPSTStoreProvider** и выберите команду **Извлечь все файлы**.
     
