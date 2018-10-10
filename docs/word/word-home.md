@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9eeb591e-b040-4a53-beef-f69913543fb4
 description: Здесь вы найдете инструкции, примеры кода, документацию по API и пакетам SDK, справочные материалы по VBA, учебные материалы и технические статьи, посвященные разработке решений и настройке Word.
-ms.openlocfilehash: c180c664d4c48204704cea02ce19e3f32510e7a0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 936b4826343fb39c34d21c96228af60f9f6b34db
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400284"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454532"
 ---
 # <a name="word"></a>Word
 
@@ -22,9 +22,9 @@ ms.locfileid: "25400284"
   
 ### <a name="viewed-most"></a>Самые популярные
   
-- [Справочник по VBA для Word](https://msdn.microsoft.com/library/ee861527.aspx)
+- [Справочник по VBA для Word](https://docs.microsoft.com/office/vba/api/overview/word)
   
-- [Word 2010](https://msdn.microsoft.com/library/office/ff601860%28v=office.14%29.aspx)
+- [Word 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff601860(v=office.14))
   
 ### <a name="office-add-ins"></a>Надстройки Office
   
@@ -35,16 +35,16 @@ ms.locfileid: "25400284"
 ### <a name="code-samples"></a>Примеры кода
   
 - 
-  [Примеры кода для Word в Центре разработчиков Office](https://developer.microsoft.com/en-us/word/gallery/?filterBy=Word,Samples)
+  [Примеры кода для Word в Центре разработчиков Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
   
 ### <a name="other-resources"></a>Другие ресурсы
   
-- [Справочник по библиотеке объектов VBA для Office](https://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Справочник по библиотеке объектов VBA для Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Справочник по VBA для Office](https://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Справочник по VBA для Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Open XML SDK](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [Надстройки VSTO для Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [Надстройки VSTO для Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 

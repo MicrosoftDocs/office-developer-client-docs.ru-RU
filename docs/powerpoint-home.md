@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c76c7851-d68f-4f56-8111-e05c764f0ef8
 description: Здесь вы найдете инструкции, примеры кода, документацию по API и пакетам SDK, справочные материалы по VBA, учебные материалы и технические статьи, посвященные разработке решений и настройке PowerPoint.
-ms.openlocfilehash: 185e6f23b186e9909f6bb363506a8f006b8dce0a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 21105174e3d06151ef788ab0d81badd2c3e1d952
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388520"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454504"
 ---
 # <a name="powerpoint"></a>PowerPoint
 
@@ -22,27 +22,27 @@ ms.locfileid: "25388520"
   
 ### <a name="viewed-most"></a>Самые популярные
   
-- [Справочник по VBA для PowerPoint](https://msdn.microsoft.com/EN-US/library/ee861525.aspx)
+- [Справочник по VBA для PowerPoint](https://docs.microsoft.com/office/vba/api/overview/powerpoint)
   
-- [PowerPoint 2010](https://msdn.microsoft.com/library/cc313152%28v=office.12%29.aspx)
+- [PowerPoint 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/cc313152(v=office.12))
   
 ### <a name="office-add-ins"></a>Надстройки Office
   
-- [Начало работы с надстройками PowerPoint](https://docs.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart)
+- [Начало работы с надстройками PowerPoint](https://docs.microsoft.com/office/dev/add-ins/quickstarts/powerpoint-quickstart?tabs=visual-studio)
   
 - [Обзор платформы](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
 ### <a name="code-samples"></a>Примеры кода
   
-- [Примеры кода для PowerPoint в Центре разработчиков Office](https://dev.office.com/code-samples#?filters=powerpoint)
+- [Примеры кода для PowerPoint в Центре разработчиков Office](https://developer.microsoft.com/office/gallery/?filterBy=Samples,PowerPoint)
   
 ### <a name="other-resources"></a>Другие ресурсы
 
-- [Справочник по библиотеке объектов VBA для Office](https://msdn.microsoft.com/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference)
+- [Справочник по библиотеке объектов VBA для Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
 
-- [Справочник по VBA для Office](https://msdn.microsoft.com/VBA/VBA-Language-Reference) 
+- [Справочник по VBA для Office](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
 
-- [Пакет SDK для Open XML](https://msdn.microsoft.com/library/bb448854.aspx)
+- [Пакет SDK для Open XML](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
 
-- [Надстройки VSTO для Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [Надстройки VSTO для Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
