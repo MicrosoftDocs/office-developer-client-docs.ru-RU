@@ -1,0 +1,26 @@
+---
+title: The Role of ADO in Microsoft Data Access
+TOCTitle: The Role of ADO in Microsoft Data Access
+ms:assetid: e9087ec8-850b-ebbe-369a-a5987a528de6
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250180(v=office.15)
+ms:contentKeyID: 48548433
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7d5c9f83299ec297a351f6489d35ea42765ff9f4
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25480622"
+---
+# <a name="the-role-of-ado-in-microsoft-data-access"></a><span data-ttu-id="a7c72-102">The Role of ADO in Microsoft Data Access</span><span class="sxs-lookup"><span data-stu-id="a7c72-102">The Role of ADO in Microsoft Data Access</span></span>
+
+
+<span data-ttu-id="a7c72-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a7c72-103">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="a7c72-104">Компоненты доступа к данным Microsoft (MDAC) обеспечивают доступ к данным, которое не зависит от хранилища данных, средств и языков.</span><span class="sxs-lookup"><span data-stu-id="a7c72-104">The Microsoft Data Access Components (MDAC) provide data access that is independent of data stores, tools, and languages.</span></span> <span data-ttu-id="a7c72-105">Она предоставляет высокого уровня, простой в использовании интерфейс и интерфейс низкого уровня, высокой производительности практически все доступные хранилище данных.</span><span class="sxs-lookup"><span data-stu-id="a7c72-105">It provides a high-level, easy-to-use interface, and a low-level, high-performance interface to practically any data store available.</span></span> <span data-ttu-id="a7c72-106">Эта гибкость можно использовать для интеграции различных хранилищах и используйте Выбор средств, приложений и служб платформы для создания решений правой вашим потребностям.</span><span class="sxs-lookup"><span data-stu-id="a7c72-106">You can use this flexibility to integrate diverse data stores and use your choice of tools, applications, and platform services to create the right solutions for your needs.</span></span> <span data-ttu-id="a7c72-107">Эти технологии предоставляют основную структуру для доступа к данным общего назначения в операционных системах Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="a7c72-107">These technologies provide the basic framework for general-purpose data access in Microsoft Windows operating systems.</span></span>
+
+<span data-ttu-id="a7c72-108">Существует три основных технологии в MDAC.</span><span class="sxs-lookup"><span data-stu-id="a7c72-108">There are three primary technologies in MDAC.</span></span> <span data-ttu-id="a7c72-109">Объекты данных ActiveX (ADO) — это более высокого уровня, простой в использовании интерфейс для OLE DB.</span><span class="sxs-lookup"><span data-stu-id="a7c72-109">ActiveX Data Objects (ADO) is a high-level, easy-to-use interface to OLE DB.</span></span> <span data-ttu-id="a7c72-110">OLE DB — это низкоуровневая высокопроизводительный интерфейс для различных хранилищ данных.</span><span class="sxs-lookup"><span data-stu-id="a7c72-110">OLE DB is a low-level, high-performance interface to a variety of data stores.</span></span> <span data-ttu-id="a7c72-111">ADO и OLE DB может работать с реляционных (табличных) и нереляционных (иерархических или поток) данных.</span><span class="sxs-lookup"><span data-stu-id="a7c72-111">ADO and OLE DB both can work with relational (tabular) and nonrelational (hierarchical or stream) data.</span></span> <span data-ttu-id="a7c72-112">И, наконец Open подключения к базе данных (ODBC) — другой низкоуровневая высокопроизводительный интерфейс, предназначенный специально для реляционных данных хранилища.</span><span class="sxs-lookup"><span data-stu-id="a7c72-112">Finally, Open Database Connectivity (ODBC) is another low-level, high-performance interface that is designed specifically for relational data stores.</span></span>
+
+<span data-ttu-id="a7c72-113">ADO предоставляет уровень абстракции между приложением клиента или среднего уровня и низкоуровневой интерфейсов OLE DB.</span><span class="sxs-lookup"><span data-stu-id="a7c72-113">ADO provides a layer of abstraction between your client or middle-tier application and the low-level OLE DB interfaces.</span></span> <span data-ttu-id="a7c72-114">ADO использует небольшой набор объектов автоматизации для предоставления простой и эффективный интерфейс для OLE DB.</span><span class="sxs-lookup"><span data-stu-id="a7c72-114">ADO uses a small set of Automation objects to provide a simple and efficient interface to OLE DB.</span></span> <span data-ttu-id="a7c72-115">Этот интерфейс делает ADO идеальный выбор для разработчиков на более высокого уровня языках, например Visual Basic и даже VBScript, кому требуется получать доступ к данным без необходимости Узнайте структуры COM и OLE DB.</span><span class="sxs-lookup"><span data-stu-id="a7c72-115">This interface makes ADO the perfect choice for developers in higher level languages, such as Visual Basic and even VBScript, who want to access data without having to learn the intricacies of COM and OLE DB.</span></span>
+
