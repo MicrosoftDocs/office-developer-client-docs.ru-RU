@@ -1,0 +1,54 @@
+---
+title: AddNew Method (ADO)
+TOCTitle: AddNew Method (ADO)
+ms:assetid: bae09be0-5707-4f38-9c74-0acd0f29dbac
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
+ms:contentKeyID: 48547384
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b84e6651093d932a17ff20097841bf84bac00c66
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25482749"
+---
+# <a name="addnew-method-ado"></a><span data-ttu-id="0d87f-102">AddNew Method (ADO)</span><span class="sxs-lookup"><span data-stu-id="0d87f-102">AddNew Method (ADO)</span></span>
+
+
+<span data-ttu-id="0d87f-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0d87f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="0d87f-104">Создает новую запись для обновляемых объекта [набора записей](recordset-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="0d87f-104">Creates a new record for an updatable [Recordset](recordset-object-ado.md) object.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="0d87f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0d87f-105">Syntax</span></span>
+
+<span data-ttu-id="0d87f-106">*набор записей*. AddNew *FieldList*, *значения*</span><span class="sxs-lookup"><span data-stu-id="0d87f-106">*recordset*.AddNew *FieldList*, *Values*</span></span>
+
+## <a name="parameters"></a><span data-ttu-id="0d87f-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="0d87f-107">Parameters</span></span>
+
+  - <span data-ttu-id="0d87f-108">*набор записей*</span><span class="sxs-lookup"><span data-stu-id="0d87f-108">*recordset*</span></span>
+
+  - <span data-ttu-id="0d87f-109">Объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="0d87f-109">A **Recordset** object.</span></span>
+
+  - <span data-ttu-id="0d87f-110">*FieldList*</span><span class="sxs-lookup"><span data-stu-id="0d87f-110">*FieldList*</span></span>
+
+  - <span data-ttu-id="0d87f-111">Необязательный параметр.</span><span class="sxs-lookup"><span data-stu-id="0d87f-111">Optional.</span></span> <span data-ttu-id="0d87f-112">Имя одного или массив имен или порядковый номер позиции поля в новую запись.</span><span class="sxs-lookup"><span data-stu-id="0d87f-112">A single name, or an array of names or ordinal positions of the fields in the new record.</span></span>
+
+  - <span data-ttu-id="0d87f-113">*Значения*</span><span class="sxs-lookup"><span data-stu-id="0d87f-113">*Values*</span></span>
+
+  - <span data-ttu-id="0d87f-114">Необязательный параметр.</span><span class="sxs-lookup"><span data-stu-id="0d87f-114">Optional.</span></span> <span data-ttu-id="0d87f-115">Одиночное значение или массив значений для полей в новую запись.</span><span class="sxs-lookup"><span data-stu-id="0d87f-115">A single value, or an array of values for the fields in the new record.</span></span> <span data-ttu-id="0d87f-116">Если *Fieldlist* является массивом, *значения* также должны быть массив с числом участников; в противном случае возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="0d87f-116">If *Fieldlist* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs.</span></span> <span data-ttu-id="0d87f-117">Порядок имена полей должен совпадать с порядком значений полей в каждом массиве.</span><span class="sxs-lookup"><span data-stu-id="0d87f-117">The order of field names must match the order of field values in each array.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="0d87f-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="0d87f-118">Remarks</span></span>
+
+<span data-ttu-id="0d87f-119">Используйте метод **AddNew** для создания и инициализации новую запись.</span><span class="sxs-lookup"><span data-stu-id="0d87f-119">Use the **AddNew** method to create and initialize a new record.</span></span> <span data-ttu-id="0d87f-120">Использование метода [поддерживает](supports-method-ado.md) с **adAddNew** (значение [CursorOptionEnum](cursoroptionenum.md) ) для проверки, является ли записи можно добавлять в текущий объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="0d87f-120">Use the [Supports](supports-method-ado.md) method with **adAddNew** (a [CursorOptionEnum](cursoroptionenum.md) value) to verify whether you can add records to the current **Recordset** object.</span></span>
+
+<span data-ttu-id="0d87f-121">После вызова метода **AddNew** новую запись становится текущей и остается в текущем после вызова метода [Update](update-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="0d87f-121">After you call the **AddNew** method, the new record becomes the current record and remains current after you call the [Update](update-method-ado.md) method.</span></span> <span data-ttu-id="0d87f-122">Поскольку новую запись добавляется к **набору записей**, вызов **MoveNext** после обновления будут перемещаться за пределами набора **записей**, создание **EOF** значение True.</span><span class="sxs-lookup"><span data-stu-id="0d87f-122">Since the new record is appended to the **Recordset**, a call to **MoveNext** following the Update will move past the end of the **Recordset**, making **EOF** True.</span></span> <span data-ttu-id="0d87f-123">Если объекта **набора записей** не поддерживает закладки, может не иметь возможность получить доступ к новой записи после перемещения к другой записи.</span><span class="sxs-lookup"><span data-stu-id="0d87f-123">If the **Recordset** object does not support bookmarks, you may not be able to access the new record once you move to another record.</span></span> <span data-ttu-id="0d87f-124">В зависимости от типа вашей текущей позиции необходимо вызвать метод [повторный запрос](requery-method-ado.md) для предоставления специальных возможностей новую запись.</span><span class="sxs-lookup"><span data-stu-id="0d87f-124">Depending on your cursor type, you may need to call the [Requery](requery-method-ado.md) method to make the new record accessible.</span></span>
+
+<span data-ttu-id="0d87f-125">При вызове **AddNew** во время редактирования текущей записи или при добавлении новой записи, ADO вызывает метод **Update** , чтобы сохранить все изменения и затем создает новую запись.</span><span class="sxs-lookup"><span data-stu-id="0d87f-125">If you call **AddNew** while editing the current record or while adding a new record, ADO calls the **Update** method to save any changes and then creates the new record.</span></span>
+
+<span data-ttu-id="0d87f-126">Поведение метода **AddNew** зависит от режима обновления объекта **набора записей** и ли передавать аргументы *Fieldlist* и их *значения* .</span><span class="sxs-lookup"><span data-stu-id="0d87f-126">The behavior of the **AddNew** method depends on the updating mode of the **Recordset** object and whether you pass the *Fieldlist* and *Values* arguments.</span></span>
+
+<span data-ttu-id="0d87f-127">В *режиме немедленное обновление* (где поставщик записывает изменения к базовому источнику данных после вызова метода **Update** ) вызов метода **AddNew** без аргументов задает свойство [EditMode](editmode-property-ado.md) **adEditAdd** ) значение [EditModeEnum](editmodeenum.md) ).</span><span class="sxs-lookup"><span data-stu-id="0d87f-127">In *immediate update mode* (in which the provider writes changes to the underlying data source once you call the **Update** method), calling the **AddNew** method without arguments sets the [EditMode](editmode-property-ado.md) property to **adEditAdd** (an [EditModeEnum](editmodeenum.md) value).</span></span> <span data-ttu-id="0d87f-128">Поставщик кэширует изменения значений полей локально.</span><span class="sxs-lookup"><span data-stu-id="0d87f-128">The provider caches any field value changes locally.</span></span> <span data-ttu-id="0d87f-129">Вызов метода **Update** публикует новую запись в базу данных и сбрасывает свойство **EditMode** **как таковые** (значение **EditModeEnum** ).</span><span class="sxs-lookup"><span data-stu-id="0d87f-129">Calling the **Update** method posts the new record to the database and resets the **EditMode** property to **adEditNone** (an **EditModeEnum** value).</span></span> <span data-ttu-id="0d87f-130">Если передать аргументы *Fieldlist* и *значения* , ADO немедленно публикует новую запись в базу данных (без вызова **обновления** не требуется); значение свойства **EditMode** не изменяется (**как таковые**).</span><span class="sxs-lookup"><span data-stu-id="0d87f-130">If you pass the *Fieldlist* and *Values* arguments, ADO immediately posts the new record to the database (no **Update** call is necessary); the **EditMode** property value does not change (**adEditNone**).</span></span>
+
+<span data-ttu-id="0d87f-131">В *пакетном режиме обновления* (в котором поставщик кэширует несколько изменений и записывает их в источнике данных только при вызове метода [UpdateBatch](updatebatch-method-ado.md) ) вызов метода **AddNew** без аргументов задает **EditMode** свойство, позволяющее **adEditAdd**.</span><span class="sxs-lookup"><span data-stu-id="0d87f-131">In *batch update mode* (in which the provider caches multiple changes and writes them to the underlying data source only when you call the [UpdateBatch](updatebatch-method-ado.md) method), calling the **AddNew** method without arguments sets the **EditMode** property to **adEditAdd**.</span></span> <span data-ttu-id="0d87f-132">Поставщик кэширует изменения значений полей локально.</span><span class="sxs-lookup"><span data-stu-id="0d87f-132">The provider caches any field value changes locally.</span></span> <span data-ttu-id="0d87f-133">Вызов метода **Update** добавляет новую запись текущего **набора записей** и сбрасывает свойство **EditMode** **как таковые**, но поставщик не учесть изменения в основной базе данных, пока не будет вызван \*\*UpdateBatch \*\*метод.</span><span class="sxs-lookup"><span data-stu-id="0d87f-133">Calling the **Update** method adds the new record to the current **Recordset** and resets the **EditMode** property to **adEditNone**, but the provider does not post the changes to the underlying database until you call the **UpdateBatch** method.</span></span> <span data-ttu-id="0d87f-134">Если передать аргументы *Fieldlist* и *значения* , ADO отправляет новую запись поставщика для хранения в кэше; необходимо вызвать метод **UpdateBatch** для публикации новой записи в основной базе данных.</span><span class="sxs-lookup"><span data-stu-id="0d87f-134">If you pass the *Fieldlist* and *Values* arguments, ADO sends the new record to the provider for storage in a cache; you need to call the **UpdateBatch** method to post the new record to the underlying database.</span></span>
+
