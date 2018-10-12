@@ -33,7 +33,7 @@ ms.locfileid: "25405989"
 Правило может выполняться на сервере Exchange или в клиенте Outlook при условии, что почтовый ящик текущего пользователя размещается на сервере Exchange. Свойство [IsLocalRule](https://msdn.microsoft.com/library/bb647386\(v=office.15\)) объекта **Rule** возвращает значение **true**, свидетельствующее о выполнении правила в клиенте и необходимости запуска приложения Outlook для выполнения правила. Если правило выполняется на сервере, для оценки условий и выполнения действий правила запускать приложение Outlook не требуется.
 
 > [!NOTE]
-> [!Примечание] Отдельная коллекция, представляющая условия исключений из правила, не предусмотрена. Следует использовать свойство [Exceptions](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._rule.exceptions?view=outlook-pia) объекта **Rule** для получение коллекции [RuleConditions](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.ruleconditions?view=outlook-pia) , которая представляет условия исключений из правила.
+> Отдельная коллекция, представляющая условия исключений из правила, не предусмотрена. Следует использовать свойство [Exceptions](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._rule.exceptions?view=outlook-pia) объекта **Rule** для получение коллекции [RuleConditions](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.ruleconditions?view=outlook-pia) , которая представляет условия исключений из правила.
 
 Для создания правил с помощью объектной модели Outlook выполните следующие действия:
 
