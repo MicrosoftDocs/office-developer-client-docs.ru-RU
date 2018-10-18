@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195966(v=office.15)
 ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f40b4b94e4ef177e9f416e307bd24eb20c0fbed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 15577750d7c6a2373178bce9fefff16fef512023
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482237"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602674"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Database.CreateQueryDef Method (DAO)
 
@@ -59,7 +59,11 @@ ms.locfileid: "25482237"
 </table>
 
 
+<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
+=======
+### <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 QueryDef
 

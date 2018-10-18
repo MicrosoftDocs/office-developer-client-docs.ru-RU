@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a2d1e3cc0128f4490105b24d7181119f6fece9b4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d2ff2381626e8cf81aa95ee9d49f9396bd4b0316
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480687"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602722"
 ---
 # <a name="createobject-method-rds"></a>CreateObject Method (RDS)
 
@@ -73,9 +73,17 @@ ms.locfileid: "25480687"
 
   - *awebsrvr* или *имя компьютера*
 
+<<<<<<< HEAD
   - **Строковое** значение, представляющее URL-адрес, идентифицирующий Internet Information Services (IIS) веб-сервере, где создается экземпляр объекта business server.
 
 ## <a name="remarks"></a>Замечания
 
-*Протокол HTTP* является протоколом Web; *HTTPS* является безопасной Интернет-протокола. Используйте *протокол DCOM* при выполнении локальной сети без HTTP. Протокол *в процесс* является локальной библиотеки динамической компоновки (DLL); сети не используется.
+<a name="the-http-protocol-is-the-standard-web-protocol-https-is-a-secure-web-protocol-use-the-dcom-protocol-when-running-a-local-area-network-without-http-the-in-process-protocol-is-a-local-dynamic-link-library-dll-it-does-not-use-a-network"></a>*Протокол HTTP* является протоколом Web; *HTTPS* является безопасной Интернет-протокола. Используйте *протокол DCOM* при выполнении локальной сети без HTTP. Протокол *в процесс* является локальной библиотеки динамической компоновки (DLL); сети не используется.
+=======
+  - **Строковое** значение, представляющее URL-адрес, идентифицирующий веб-сервер Internet Information Services (IIS), где создается экземпляр объекта business server.
+
+## <a name="remarks"></a>Замечания
+
+*Протокол HTTP* используется стандартный Интернет-протокола; *HTTPS* — это безопасный протокол. Используйте *протокол DCOM* при выполнении локальной сети без HTTP. Протокол *в процесс* является локальной библиотеки динамической компоновки (DLL); сети не используется.
+>>>>>>> master
 

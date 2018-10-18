@@ -1,19 +1,13 @@
 ---
-title: Prepared Property Example (VB)
-TOCTitle: Prepared Property Example (VB)
-ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15)
-ms:contentKeyID: 48548000
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6e4048a21b8d4815dda3bc7a4f9377b24e8fac02
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481034"
+<<<<<<< Название HEAD: TOCTitle примере свойство подготовлено (VB): подготовлено примере свойство (VB) === название: пример свойства подготовленный (VB) TOCTitle: пример свойства подготовленный (VB)
+>>>>>>> главные ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15) ms:contentKeyID: 48548000 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="prepared-property-example-vb"></a>Prepared Property Example (VB)
+=======
+# <a name="prepared-property-example-vb"></a>Пример свойства подготовленный (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

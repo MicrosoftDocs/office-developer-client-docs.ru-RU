@@ -1,19 +1,13 @@
 ---
-title: Catalog ActiveConnection Property Example (VC++)
-TOCTitle: Catalog ActiveConnection Property Example (VC++)
-ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
-ms:contentKeyID: 48543246
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 30eea3d77121712b33881cad13d3445de1467c81
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480497"
+<<<<<<< Название HEAD: пример свойства ActiveConnection каталога (VC ++) TOCTitle: пример свойства ActiveConnection каталога (VC ++) === название: пример свойства ActiveConnection каталога (VC ++) TOCTitle: ActiveConnection каталога Пример свойства (VC ++)
+>>>>>>> главные ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID: 48543246 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="catalog-activeconnection-property-example-vc"></a>Catalog ActiveConnection Property Example (VC++)
+=======
+# <a name="catalog-activeconnection-property-example-vc"></a>Пример свойства ActiveConnection каталога (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

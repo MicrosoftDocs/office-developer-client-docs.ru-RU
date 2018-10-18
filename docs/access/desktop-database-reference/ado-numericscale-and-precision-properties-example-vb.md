@@ -1,19 +1,13 @@
 ---
-title: ADO NumericScale and Precision Properties Example (VB)
-TOCTitle: NumericScale and Precision Properties Example (VB)
-ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15)
-ms:contentKeyID: 48543044
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 773363b968f592bc8773f498db0d4114ad16c41b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480060"
+<<<<<<< Название HEAD: ADO NumericScale и TOCTitle пример свойства точности (VB): NumericScale и пример свойства точности (VB) === название: пример свойства ADO NumericScale и точность (VB) TOCTitle: NumericScale и Пример: свойства точности (VB)
+>>>>>>> главные ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15) ms:contentKeyID: 48543044 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="ado-numericscale-and-precision-properties-example-vb"></a>ADO NumericScale and Precision Properties Example (VB)
+=======
+# <a name="ado-numericscale-and-precision-properties-example-vb"></a>Пример свойства ADO NumericScale и точность (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

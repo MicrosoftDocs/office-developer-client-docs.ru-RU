@@ -1,19 +1,13 @@
 ---
-title: Command and CommandText Properties Example (VB)
-TOCTitle: Command and CommandText Properties Example (VB)
-ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15)
-ms:contentKeyID: 48545462
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0614e0bdd539abf237b78cae42386a3cb070ca41
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482307"
+<<<<<<< Название HEAD: команда и TOCTitle пример свойства CommandText (VB): команда и пример свойства CommandText (VB) === название: пример свойства команды и CommandText (VB) TOCTitle: команда и CommandText Пример: свойства (VB)
+>>>>>>> главные ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15) ms:contentKeyID: 48545462 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="command-and-commandtext-properties-example-vb"></a>Command and CommandText Properties Example (VB)
+=======
+# <a name="command-and-commandtext-properties-example-vb"></a>Пример свойства команды и CommandText (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

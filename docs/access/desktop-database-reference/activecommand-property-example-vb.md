@@ -1,19 +1,13 @@
 ---
-title: ActiveCommand Property Example (VB)
-TOCTitle: ActiveCommand Property Example (VB)
-ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15)
-ms:contentKeyID: 48545999
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f0636141505599464c95af0b9a7df704f9e21dec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482383"
+<<<<<<< Название HEAD: TOCTitle примере свойство ActiveCommand (VB): ms:assetid примере свойство ActiveCommand (VB): 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 09/18/2015 mtps_ версия: v=office.15
 ---
+
 # <a name="activecommand-property-example-vb"></a>ActiveCommand Property Example (VB)
+=== Название: пример свойства ActiveCommand (VB) TOCTitle: ms:assetid пример (VB) свойство ActiveCommand: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 10/17/2018 mtps_version: v=office.15
+---
+
+# <a name="activecommand-property-example-vb"></a>Пример свойства ActiveCommand (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

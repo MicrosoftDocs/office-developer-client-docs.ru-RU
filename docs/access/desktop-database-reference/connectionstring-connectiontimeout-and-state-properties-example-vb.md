@@ -1,19 +1,13 @@
 ---
-title: ConnectionString, ConnectionTimeout, and State Properties Example (VB)
-TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VB)
-ms:assetid: abdd0262-8647-d545-60e0-13f99337df06
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15)
-ms:contentKeyID: 48546984
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 79825670b05279071182f41a6523ac552c4ea1ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481502"
+<<<<<<< Название HEAD: ConnectionString, ConnectionTimeout и TOCTitle пример свойства состояния (VB): ConnectionString, ConnectionTimeout и пример свойства состояния (VB) === название: ConnectionString, ConnectionTimeout, Пример свойства состояния (VB) и TOCTitle: пример свойства ConnectionString, ConnectionTimeout и состояния (VB)
+>>>>>>> главные ms:assetid: abdd0262-8647-d545-60e0-13f99337df06 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15) ms:contentKeyID: 48546984 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vb"></a>ConnectionString, ConnectionTimeout, and State Properties Example (VB)
+=======
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vb"></a>Пример свойства ConnectionString, ConnectionTimeout и состояния (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

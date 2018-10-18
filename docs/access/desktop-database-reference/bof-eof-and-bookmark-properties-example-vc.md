@@ -1,19 +1,13 @@
 ---
-title: BOF, EOF, and Bookmark Properties Example (VC++)
-TOCTitle: BOF, EOF, and Bookmark Properties Example (VC++)
-ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
-ms:contentKeyID: 48547914
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9decac7ec04c3b4dd456b3a406c54418aa955646
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482138"
+<<<<<<< HEAD заголовок: BOF, EOF и TOCTitle пример свойств закладок (VC ++): BOF, EOF и пример свойств закладок (VC ++) === заголовок: пример: свойства BOF, EOF и закладок (VC ++) TOCTitle: свойства BOF, EOF и закладка Пример (VC ++)
+>>>>>>> главные ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15) ms:contentKeyID: 48547914 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="bof-eof-and-bookmark-properties-example-vc"></a>BOF, EOF, and Bookmark Properties Example (VC++)
+=======
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a>Пример: свойства BOF, EOF и закладок (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

@@ -1,22 +1,14 @@
 ---
-title: ActionEnum (Справочник по для настольных баз данных Access)
-TOCTitle: ActionEnum
-ms:assetid: 225024c1-9088-b532-2a23-04c1aaaaa892
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248998(v=office.15)
-ms:contentKeyID: 48543704
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: af0e5fd734c03b88990383b99815d6e35f2c1290
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480210"
+Заголовок: TOCTitle ActionEnum (Справочник по для настольных баз данных Access): ActionEnum ms:assetid: 225024c1-9088-b532-2a23-04c1aaaaa892 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248998(v=office.15) ms:contentKeyID: 48543704 <<<<<<< HEAD ms.date: 09/18/2015 === ms.date: 10 / 17/2018
+>>>>>>> главные mtps_version: v=office.15
 ---
+
 # <a name="actionenum"></a>ActionEnum
 
+<<<<<<< HEAD
 
-**Применимо к**: Access 2013 | Office 2013
+=======
+>>>>>>> главные **относится к следующим продуктам**: Access 2013 | Office 2013
 
 Указывает тип действие, которое необходимо выполнить при вызове [SetPermissions](setpermissions-method-adox.md) .
 

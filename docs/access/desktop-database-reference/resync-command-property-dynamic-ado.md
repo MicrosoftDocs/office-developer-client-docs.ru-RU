@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8fc64a51044f219d4daae44a9c684506cd7bd5c6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6d9133f37b236cfa876a5d6ae8642f25f919f2cb
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480693"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602806"
 ---
 # <a name="resync-command-property--dynamic-ado"></a>Resync Command Property--Dynamic (ADO)
 
@@ -19,7 +19,11 @@ ms.locfileid: "25480693"
 
 Указывает строку пользовательские команды, метод [выполнить повторную синхронизацию](resync-method-ado.md) проблемы для обновления данных в таблице с именем в свойстве динамических [Уникальной таблицы](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) .
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает **строковое** значение, который является командной строки.
 

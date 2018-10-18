@@ -1,19 +1,13 @@
 ---
-title: Attributes Property Example (VC++)
-TOCTitle: Attributes Property Example (VC++)
-ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
-ms:contentKeyID: 48542976
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5c10c098cf6764489acf77b7d56df6b514df46c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482826"
+<<<<<<< Заголовок HEAD: пример свойства атрибуты (VC ++) TOCTitle: пример свойства атрибуты (VC ++) === заголовок: пример свойства атрибуты (VC ++) TOCTitle: пример свойства атрибуты (VC ++)
+>>>>>>> главные ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15) ms:contentKeyID: 48542976 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="attributes-property-example-vc"></a>Attributes Property Example (VC++)
+=======
+# <a name="attributes-property-example-vc"></a>Пример свойства атрибуты (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

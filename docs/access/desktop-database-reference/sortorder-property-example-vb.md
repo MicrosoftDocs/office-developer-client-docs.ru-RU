@@ -1,19 +1,13 @@
 ---
-title: SortOrder Property Example (VB)
-TOCTitle: SortOrder Property Example (VB)
-ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
-ms:contentKeyID: 48546472
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ef0aa4beace636bef859f35c5d2cc354a271e9a1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480490"
+<<<<<<< Название HEAD: TOCTitle примере свойство SortOrder (VB): пример свойства SortOrder (VB) === название: пример свойства SortOrder (VB) TOCTitle: пример свойства SortOrder (VB)
+>>>>>>> главные ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15) ms:contentKeyID: 48546472 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="sortorder-property-example-vb"></a>SortOrder Property Example (VB)
+=======
+# <a name="sortorder-property-example-vb"></a>Пример свойства SortOrder (VB)
+>>>>>>> master
 
 **Применимо к**: Access 2013 | Office 2013
 

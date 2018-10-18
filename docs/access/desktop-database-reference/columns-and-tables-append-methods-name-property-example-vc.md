@@ -1,19 +1,13 @@
 ---
-title: Columns and Tables Append Methods, Name Property Example (VC++)
-TOCTitle: Columns and Tables Append Methods, Name Property Example (VC++)
-ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
-ms:contentKeyID: 48545322
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2cfe3c66775228f73d21be3305ebac6b0972514b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480966"
+<<<<<<< Название HEAD: столбцов и таблиц добавьте методы, пример свойства Name (VC ++) TOCTitle: столбцов и таблиц добавьте методы, пример свойства Name (VC ++) === название: столбцов и таблиц добавьте методы, пример свойства Name (VC ++) TOCTitle: Столбцы и методы добавления таблиц, пример свойства Name (VC ++)
+>>>>>>> главные ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15) ms:contentKeyID: 48545322 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Columns and Tables Append Methods, Name Property Example (VC++)
+=======
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Столбцы и методы добавления таблиц, пример свойства Name (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
