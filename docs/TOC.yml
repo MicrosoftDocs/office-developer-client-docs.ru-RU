@@ -20,7 +20,7 @@ items:
   - name: Office Online Server
     href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
   - name: Office для Mac
-    href: https://msdn.microsoft.com/en-us/library/office/mt654019.aspx
+    href: https://docs.microsoft.com/office/vba/api/overview/office-mac
   - name: Совместное использование Office
     href: shared/office-shared.md
     items:
@@ -28,7 +28,7 @@ items:
       href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
     - name: Интеграция приложений для обмена мгновенными сообщениями с приложениями Office
       href: shared/integrating-im-applications-with-office.md
-    - name: Приложения для управления и установщик Office 365 "нажми и работай"
+    - name: Приложения для управления и установщик Office 365 по технологии "нажми и работай"
       href: shared/manageability-applications-with-the-office-365-click-to-run-installer.md
     - name: Журнал телеметрии Office
       href: shared/office-telemetry-log.md
@@ -38,20 +38,20 @@ items:
       - name: Проблемы совместимости в Office
         href: shared/compatibility-issues-in-office.md
     - name: Справочник по библиотеке объектов VBA для Office
-      href: https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference
+      href: https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference
     - name: Справочник по языку Office VBA
-      href: https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference
+      href: https://docs.microsoft.com/office/vba/api/overview/language-reference
     - name: Справочник по основной сборке взаимодействия Office
-      href: https://msdn.microsoft.com/en-us/library/office/ff597925.aspx
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
     - name: Пакет SDK Open XML 2.5
-      href: https://msdn.microsoft.com/en-us/library/office/bb448854.aspx
+      href: https://docs.microsoft.com/office/open-xml/open-xml-sdk
     - name: Управление ODC с помощью клиента CSISyncClient
       href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
   - name: Access
     href: access/access-home.md
     items:
     - name: Справочник по VBA для Access
-      href: https://msdn.microsoft.com/en-us/library/mt346046.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/access
     - name: Справочник по пользовательским веб-приложениям для Access
       href: access/access-custom-web-app-reference.md
       items:
@@ -253,7 +253,7 @@ items:
           - name: Строковые операторы
             href: access/string-operators-access-custom-web-app.md
             items:
-            - name: Оператор объединения строк
+            - name: Объединение строк
               href: access/plusstring-concatenation-operatoraccess-custom-web-app.md
       - name: Справочник по функциям макросов
         href: access/macro-function-reference-access-custom-web-app.md
@@ -276,7 +276,7 @@ items:
             href: access/stopmacro-macro-action-access-custom-web-app.md
           - name: CancelRecordChange
             href: access/cancelrecordchange-macro-action-access-custom-web-app.md
-          - name: DeleteRecord Data
+          - name: Данные DeleteRecord
             href: access/deleterecord-data-macro-action-access-custom-web-app.md
           - name: RaiseError
             href: access/raiseerror-macro-action-access-custom-web-app.md
@@ -345,23 +345,23 @@ items:
           - name: OpenPopup
             href: access/openpopup-macro-action-access-custom-web-app.md
     - name: Справочник по базам данных Access на компьютере
-      href: https://msdn.microsoft.com/en-us/library/dn142571.aspx
+      href: https://msdn.microsoft.com/library/dn142571.aspx
   - name: Excel
     href: excel/excel-home.md
     items:
     - name: Справочник по VBA для Excel
-      href: https://msdn.microsoft.com/en-us/library/office/ee861528.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/excel
     - name: Справочник по основной сборке взаимодействия Excel
-      href: https://msdn.microsoft.com/en-us/library/office/ff597926.aspx
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
     - name: Пакет SDK XLL для Excel
       href: excel/welcome-to-the-excel-software-development-kit.md
       items:
       - name: Начало работы
         href: excel/getting-started-with-the-excel-xll-sdk.md
         items:
-        - name: Программирование с использованием API C в Excel
+        - name: Программирование с использованием API C в Excel
           href: excel/programming-with-the-c-api-in-excel.md
-        - name: Новые возможности в API C для Excel
+        - name: Новые возможности API C для Excel
           href: excel/what-s-new-in-the-c-api-for-excel.md
         - name: Известные проблемы
           href: excel/known-issues-in-excel-xll-development.md
@@ -413,7 +413,7 @@ items:
             href: excel/multithreaded-recalculation-in-excel.md
         - name: Асинхронные пользовательские функции
           href: excel/asynchronous-user-defined-functions.md
-        - name: Функции защиты кластеров
+        - name: Кластерные функции
           href: excel/cluster-safe-functions.md
         - name: Разрешение прерывания длительных операций пользователем
           href: excel/permitting-user-breaks-in-lengthy-operations.md
@@ -445,7 +445,7 @@ items:
             href: excel/xlautoregister-xlautoregister12.md
           - name: xlAutoRemove
             href: excel/xlautoremove.md
-        - name: 'Функции обратного вызова из API C: Excel4, Excel12'
+        - name: 'Функции обратного вызова API C: Excel4, Excel12'
           href: excel/c-api-callback-functions-excel4-excel12.md
           items:
           - name: Excel4/Excel12
@@ -600,7 +600,7 @@ items:
           - name: ShowOptions
             href: excel/showoptions.md
     - name: Советы по оптимизации производительности
-      href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx
+      href: https://docs.microsoft.com/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
   - name: Infopath
     href: infopath/infopath-home.md
     items:
@@ -613,7 +613,7 @@ items:
         - name: Введение в разработку шаблонов форм с кодом
           href: infopath/form-templates/getting-started-developing-form-templates-with-code.md
           items:
-          - name: Новые возможности для разработчиков InfoPath
+          - name: Новые возможности для разработчиков решений для InfoPath
             href: infopath/form-templates/what-s-new-for-infopath-developers.md
           - name: Общие сведения о среде разработки и объектных моделях InfoPath
             href: infopath/form-templates/understanding-infopath-object-models-and-development-environment.md
@@ -719,7 +719,7 @@ items:
             href: infopath/form-templates/rich-text-and-web-services.md
           - name: InfoPath, кодировка RPC и веб-службы
             href: infopath/form-templates/infopath-rpc-encoding-and-web-services.md
-          - name: Интеграция формы InfoPath с базой данных Microsoft Access Database
+          - name: Интеграция формы InfoPath с базой данных Microsoft Access
             href: infopath/form-templates/integrate-an-infopath-form-with-a-microsoft-access-database.md
           - name: Создание элемента ActiveX, который можно привязать к данным формы InfoPath
             href: infopath/form-templates/create-an-activex-control-that-can-bind-to-infopath-form-data.md
@@ -731,61 +731,61 @@ items:
         - name: Введение в разработку шаблонов форм, использующих объектную модель InfoPath 2003
           href: infopath/form-templates/get-started-developing-form-templates-using-infopath-object-model.md
           items:
-          - name: Создание шаблона формы, использующего объектную модель InfoPath 2003
+          - name: Создание шаблона формы
             href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
-          - name: Пошаговое руководство. Создание и отладка начального шаблона формы, использующего объектную модель InfoPath 2003
+          - name: Создание и отладка простого шаблона формы
             href: infopath/form-templates/walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md
-          - name: Распространенные задачи разработки шаблонов форм, использующих объектную модель InfoPath 2003
+          - name: Основные задачи для разработки шаблонов форм
             href: infopath/form-templates/common-tasks-for-developing-form-templates-using-infopath-object-model.md
-          - name: Использование элементов Microsoft.Office.Interop.InfoPath.SemiTrust, несовместимых с InfoPath 2003
+          - name: Использование элементов Microsoft.Office.Interop.InfoPath.SemiTrust, не совместимых с InfoPath 2003
             href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
         - name: Создание шаблонов форм, использующих объектную модель InfoPath 2003
           href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
           items:
-          - name: Код инициализации и очистки с использованием объектной модели InfoPath 2003
+          - name: Код инициализации и очистки
             href: infopath/form-templates/initialization-and-clean-up-code-using-infopath-2003-object-model.md
-          - name: Отладка проектов InfoPath, использующих объектную модель InfoPath 2003
+          - name: Отладка проектов InfoPath
             href: infopath/form-templates/how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md
-          - name: Добавление обработчика события, использующего объектную модель InfoPath 2003
+          - name: Добавление обработчика события
             href: infopath/form-templates/how-to-add-an-event-handler-using-the-infopath-2003-object-model.md
-          - name: Поддержки потоков в проектах InfoPath, использующих объектную модель InfoPath 2003
+          - name: Поддержка потоков в проектах InfoPath
             href: infopath/form-templates/threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md
-          - name: Работа с MSXML и System.Xml с использованием объектной модели InfoPath 2003
+          - name: Работа с MSXML и System.Xml
             href: infopath/form-templates/working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md
         - name: Общие сведения об объектной модели InfoPath 2003
           href: infopath/form-templates/understanding-the-infopath-2003-object-model.md
           items:
           - name: Объектные модели, совместимые с InfoPath 2003
             href: infopath/form-templates/infopath-2003-compatible-object-models.md
-          - name: Доступ к данным приложений с помощью объектной модели InfoPath 2003
+          - name: Доступ к данным приложения
             href: infopath/form-templates/how-to-access-application-data-using-the-infopath-2003-object-model.md
-          - name: Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003
+          - name: Доступ ко внешним источникам данных
             href: infopath/form-templates/how-to-access-external-data-sources-using-the-infopath-2003-object-model.md
-          - name: Доступ к данным форм с помощью объектной модели InfoPath 2003
+          - name: Доступ к данным форм
             href: infopath/form-templates/how-to-access-form-data-using-the-infopath-2003-object-model.md
-          - name: Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003
+          - name: Отображение оповещений и диалоговых окон
             href: infopath/form-templates/how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md
-          - name: Обработка ошибок с помощью объектной модели InfoPath 2003
+          - name: Обработка ошибок
             href: infopath/form-templates/how-to-handle-errors-using-the-infopath-2003-object-model.md
-          - name: Обработка событий форм с помощью объектной модели InfoPath 2003
+          - name: Обработка событий форм
             href: infopath/form-templates/how-to-respond-to-form-events-using-the-infopath-2003-object-model.md
-          - name: Работа с окнами форм при помощи объектной модели InfoPath 2003
+          - name: Работа с окнами форм
             href: infopath/form-templates/how-to-work-with-form-windows-using-the-infopath-2003-object-model.md
-          - name: Работа с представлениями при помощи объектной модели InfoPath 2003
+          - name: Работа с представлениями
             href: infopath/form-templates/how-to-work-with-views-using-the-infopath-2003-object-model.md
-          - name: Работа с цифровыми подписями при помощи объектной модели InfoPath 2003
+          - name: Работа с цифровыми подписями
             href: infopath/form-templates/how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md
-          - name: Работа с автономными решениями с использованием объектной модели InfoPath 2003
+          - name: Работа с автономными решениями
             href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
         - name: Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003
           href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model.md
           items:
-          - name: Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003, во время выполнения
+          - name: Устранение неполадок шаблонов форм во время выполнения
             href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md
-          - name: Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003, во время разработки
+          - name: Устранение неполадок шаблонов форм во время разработки
             href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
       - name: Справка по библиотеке классов для шаблонов форм InfoPath
-        href: https://msdn.microsoft.com/en-us/library/office/ee526341.aspx
+        href: https://msdn.microsoft.com/library/office/ee526341.aspx
     - name: Справочник разработчика по автоматизации InfoPath с использованием внешних решений
       href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
       items:
@@ -806,7 +806,7 @@ items:
         - name: Автоматизация InfoPath из внешнего приложения
           href: infopath/external-automation/automating-infopath-from-an-external-application.md
       - name: Справочник по библиотекам классов для автоматизации InfoPath с использованием внешних решений
-        href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx
+        href: https://msdn.microsoft.com/library/office/ff663147.aspx
   - name: OneNote
     href: onenote/onenote-home.md
     items:
@@ -829,9 +829,336 @@ items:
     - name: Выбор API или технологии для разработки решений для Outlook
       href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
     - name: Справочник по VBA для Outlook
-      href: https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/outlook
     - name: Справочник по основной сборке взаимодействия Outlook
-      href: https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx
+      href: outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference.md
+      items:
+      - name: Что нового в справочнике Outlook PIA
+        href: outlook/pia/what-s-new-in-the-outlook-pia-reference.md
+      - name: Подготовка к использованию Outlook PIA
+        href: outlook/pia/setting-up-to-use-the-outlook-pia.md
+        items:
+        - name: Введение во взаимодействие между COM и .NET
+          href: outlook/pia/introduction-to-interoperability-between-com-and-net.md
+        - name: Причины использования Outlook PIA
+          href: outlook/pia/why-use-the-outlook-pia.md
+        - name: Установка и создание ссылок на Outlook PIA
+          href: outlook/pia/installing-and-referencing-the-outlook-pia.md
+      - name: Архитектура Outlook PIA
+        href: outlook/pia/architecture-of-the-outlook-pia.md
+        items:
+        - name: Связывание Outlook PIA с объектной моделью
+          href: outlook/pia/relating-the-outlook-pia-with-the-object-model.md
+        - name: Объекты в Outlook PIA
+          href: outlook/pia/objects-in-the-outlook-pia.md
+        - name: Методы и свойства в Outlook PIA
+          href: outlook/pia/methods-and-properties-in-the-outlook-pia.md
+        - name: События в Outlook PIA
+          href: outlook/pia/events-in-the-outlook-pia.md
+      - name: Разработка управляемых надстроек Outlook с помощью основной сборки взаимодействия Outlook
+        href: outlook/pia/developing-managed-outlook-add-ins-using-the-outlook-pia.md
+        items:
+        - name: Подключение к настраиваемым обработчикам событий
+          href: outlook/pia/connecting-to-custom-event-handlers.md
+        - name: Рекомендации по разработке управляемых надстроек Outlook
+          href: outlook/pia/best-practices-in-developing-managed-outlook-add-ins.md
+          items:
+          - name: Систематическое высвобождение объектов
+            href: outlook/pia/systematically-releasing-objects.md
+          - name: Использование отдельного домена приложений для предотвращения сбоя
+            href: outlook/pia/using-a-separate-application-domain-to-avoid-crashing.md
+          - name: Использование надежного объекта приложения, предоставляемого набором "Инструменты разработчика Office для Visual Studio".
+            href: outlook/pia/using-a-trusted-application-object-provided-by-office-developer-tools-for-visual-studio.md
+          - name: Правильное задание области применения в обработчиках событий
+            href: outlook/pia/scoping-variables-appropriately-in-event-handlers.md
+          - name: Предотвращение использования неподдерживаемых технологий в управляемых надстройках Outlook
+            href: outlook/pia/avoiding-unsupported-technologies-in-managed-outlook-add-ins.md
+          - name: Использование позднего связывания при использовании нескольких версий Outlook
+            href: outlook/pia/using-late-binding-if-depending-on-multiple-versions-of-outlook.md
+      - name: Руководства
+        href: outlook/pia/how-do-i-outlook-2013-pia-reference.md
+        items:
+        - name: Учетные записи
+          href: outlook/pia/accounts.md
+          items:
+          - name: Получение сведений об учетной записи
+            href: outlook/pia/how-to-get-account-information.md
+          - name: Создание отправляемого элемента для определенной учетной записи на основе текущей папки
+            href: outlook/pia/how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md
+          - name: Получение учетной записи для папки
+            href: outlook/pia/how-to-get-the-account-for-a-folder.md
+          - name: Получение сведений о нескольких учетных записях
+            href: outlook/pia/how-to-get-information-about-multiple-accounts.md
+          - name: Отправка почтового элемента с помощью учетной записи Hotmail
+            href: outlook/pia/how-to-send-a-mail-item-by-using-a-hotmail-account.md
+        - name: Администрирование надстроек
+          href: outlook/pia/add-in-administration.md
+          items:
+          - name: Как проверить, является ли Outlook на компьютере приложением, устанавливаемым по технологии "нажми и работай"
+            href: outlook/pia/how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md
+        - name: Адресная книга
+          href: outlook/pia/address-book.md
+          items:
+          - name: Отображение в диалоговом окне "Выбор имен" адресной книги, соответствующей папке "Контакты"
+            href: outlook/pia/how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md
+          - name: Получение глобального списка адресов или набора списков адресов для хранилища
+            href: outlook/pia/how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md
+          - name: Перечисление записей в глобальном списке адресов
+            href: outlook/pia/how-to-enumerate-the-entries-in-the-global-address-list.md
+          - name: Отображение списков адресов для профиля
+            href: outlook/pia/how-to-display-the-address-lists-for-a-profile.md
+        - name: Встречи
+          href: outlook/pia/appointments.md
+          items:
+          - name: Создание встречи как события на целый день
+            href: outlook/pia/how-to-create-an-appointment-that-is-an-all-day-event.md
+          - name: Создание встречи, начинающейся по тихоокеанскому времени и заканчивающейся по восточному поясному времени
+            href: outlook/pia/how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md
+          - name: Указание получателей разных типов для элемента встречи
+            href: outlook/pia/how-to-specify-different-recipient-types-for-an-appointment-item.md
+          - name: Создание повторяющейся встречи с использованием установленного по умолчанию шаблона повтора
+            href: outlook/pia/how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md
+          - name: Создание встречи, которая повторяется по недельному расписанию
+            href: outlook/pia/how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md
+          - name: Создание ежегодно повторяющейся встречи, в которой используется шаблон YearNth
+            href: outlook/pia/how-to-create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern.md
+          - name: Поиск определенной встречи в серии повторяющихся встреч
+            href: outlook/pia/how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md
+          - name: Создание встречи-исключения в серии повторяющихся встреч
+            href: outlook/pia/how-to-create-an-exception-appointment-in-a-recurring-appointment-series.md
+          - name: Создание напоминания для элемента встречи
+            href: outlook/pia/how-to-create-a-reminder-for-an-appointment-item.md
+          - name: Импорт XML-данных встреч в объекты встреч Outlook
+            href: outlook/pia/how-to-import-appointment-xml-data-into-outlook-appointment-objects.md
+        - name: Вложения
+          href: outlook/pia/attachments.md
+          items:
+          - name: Программное удаление вложений уровня безопасности 2 из сообщений и их сохранение на диске
+            href: outlook/pia/how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md
+        - name: Календарь
+          href: outlook/pia/calendar.md
+          items:
+          - name: Совместное использование расписания доступности в указанном периоде в календаре
+            href: outlook/pia/how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md
+          - name: Отправка сведений календаря по электронной почте
+            href: outlook/pia/how-to-share-calendar-information-through-e-mail.md
+          - name: Отображение общего календаря получателя
+            href: outlook/pia/how-to-display-a-shared-calendar-of-a-recipient.md
+          - name: Сохранение календаря на диск
+            href: outlook/pia/how-to-save-a-calendar-to-disk.md
+          - name: Открытие и отображение содержимого файла iCalendar
+            href: outlook/pia/how-to-open-and-display-the-contents-of-an-icalendar-file.md
+        - name: Цветовые категории
+          href: outlook/pia/color-categories.md
+          items:
+          - name: Перечисление и добавление категорий
+            href: outlook/pia/how-to-enumerate-and-add-categories.md
+          - name: Назначение категорий элементу
+            href: outlook/pia/how-to-assign-categories-to-an-item.md
+        - name: Контакты
+          href: outlook/pia/contacts.md
+          items:
+          - name: Создание элемента Contact
+            href: outlook/pia/how-to-create-a-contact-item.md
+          - name: Создание настраиваемого элемента Contact
+            href: outlook/pia/how-to-create-a-custom-contact-item.md
+          - name: Создание элемента Contact из файла vCard и сохранение этого элемента в папке
+            href: outlook/pia/how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md
+        - name: Беседы
+          href: outlook/pia/conversations.md
+          items:
+          - name: Получение и отображение элементов в беседе
+            href: outlook/pia/how-to-get-and-display-items-in-a-conversation.md
+          - name: Получение и перечисление выбранных бесед
+            href: outlook/pia/how-to-get-and-enumerate-selected-conversations.md
+        - name: Электронные визитные карточки
+          href: outlook/pia/electronic-business-cards.md
+          items:
+          - name: Изменение макета электронной визитной карточки
+            href: outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card.md
+          - name: Отправка почтового элемента с электронной визитной карточкой
+            href: outlook/pia/how-to-send-a-mail-item-with-an-electronic-business-card.md
+        - name: Пользователи Exchange
+          href: outlook/pia/exchange-users.md
+          items:
+          - name: Получение сведений о текущем пользователе
+            href: outlook/pia/how-to-get-information-about-the-current-user.md
+          - name: Получение сведений обо всех списках рассылки, участником которых является текущий пользователь
+            href: outlook/pia/how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md
+          - name: Создание списка рассылки
+            href: outlook/pia/how-to-create-a-distribution-list.md
+          - name: Получение участников списка рассылки Exchange
+            href: outlook/pia/how-to-get-members-of-an-exchange-distribution-list.md
+          - name: Получение сведений о руководителе текущего пользователя
+            href: outlook/pia/how-to-get-information-about-the-current-user-s-manager.md
+          - name: Получение сведений о доступности для руководителя пользователя Exchange
+            href: outlook/pia/how-to-get-availability-information-for-an-exchange-user-s-manager.md
+          - name: Проверка ответа руководителя на приглашение на собрание
+            href: outlook/pia/how-to-check-a-manager-s-response-to-a-meeting-request.md
+          - name: Получение сведений о подчиненных руководителя текущего пользователя
+            href: outlook/pia/how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md
+        - name: Папки
+          href: outlook/pia/folders.md
+          items:
+          - name: Добавление папки в список папок
+            href: outlook/pia/how-to-add-a-folder-to-the-folder-list.md
+          - name: Перечисление папок
+            href: outlook/pia/how-to-enumerate-folders.md
+          - name: Получение папки, используемой по умолчанию, и перечисление вложенных в нее папок
+            href: outlook/pia/how-to-get-a-default-folder-and-enumerate-its-subfolders.md
+          - name: Получение папки на основе пути к ней
+            href: outlook/pia/how-to-get-a-folder-based-on-its-folder-path.md
+          - name: Выбор папки и отображение сведений о папке
+            href: outlook/pia/how-to-select-a-folder-and-display-folder-information.md
+          - name: Получение класса сообщений по умолчанию для папки
+            href: outlook/pia/how-to-get-the-default-message-class-of-a-folder.md
+          - name: Доступ к данным решений, хранящимся в скрытом сообщении в папке
+            href: outlook/pia/how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md
+          - name: Обеспечение поддержки настраиваемых свойств элемента в запросах на уровне папки
+            href: outlook/pia/how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md
+        - name: Общие элементы Outlook
+          href: outlook/pia/general-outlook-items.md
+          items:
+          - name: Создание вспомогательного класса для доступа к общим элементам Outlook
+            href: outlook/pia/how-to-create-a-helper-class-to-access-common-outlook-item-members.md
+          - name: Отображение выбранных элементов в активном проводнике
+            href: outlook/pia/how-to-display-selected-items-in-the-active-explorer.md
+        - name: Совместное использование групп
+          href: outlook/pia/group-sharing.md
+          items:
+          - name: Подписка на RSS-канал
+            href: outlook/pia/how-to-subscribe-to-an-rss-feed.md
+          - name: Синхронизация приложения Outlook с папкой SharePoint
+            href: outlook/pia/how-to-synchronize-outlook-with-a-sharepoint-folder.md
+        - name: Почта
+          href: outlook/pia/mail.md
+          items:
+          - name: Создание почтового элемента с помощью шаблона сообщения
+            href: outlook/pia/how-to-create-a-mail-item-by-using-a-message-template.md
+          - name: Создание почтового элемента, вложение отчета и отправка почтового элемента руководителю пользователя
+            href: outlook/pia/how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md
+          - name: Отправка электронного сообщения по SMTP-адресу учетной записи
+            href: outlook/pia/how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md
+          - name: Добавление параметров голосования в почтовый элемент
+            href: outlook/pia/how-to-add-voting-options-to-a-mail-item.md
+          - name: Добавление настраиваемого действия в качестве ответа на почтовый элемент
+            href: outlook/pia/how-to-add-a-custom-action-as-a-response-to-a-mail-item.md
+          - name: Получение SMTP-адреса отправителя почтового элемента
+            href: outlook/pia/how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md
+          - name: Задание разных типов получателей для почтового элемента
+            href: outlook/pia/how-to-specify-different-recipient-types-for-a-mail-item.md
+        - name: Приглашения на собрания
+          href: outlook/pia/meeting-requests.md
+          items:
+          - name: Создание приглашения на собрание, добавление получателей и указание расположения
+            href: outlook/pia/how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md
+          - name: Получение организатора собрания
+            href: outlook/pia/how-to-get-the-organizer-of-a-meeting.md
+          - name: Проверка всех откликов на приглашение на собрание
+            href: outlook/pia/how-to-check-all-responses-to-a-meeting-request.md
+          - name: Поиск элемента встречи, связанного с приглашением на собрание
+            href: outlook/pia/how-to-find-the-appointment-item-associated-with-a-meeting-request.md
+          - name: Автоматическое принятие приглашения на собрание
+            href: outlook/pia/how-to-automatically-accept-a-meeting-request.md
+          - name: Предложение пользователю ответить на приглашение на собрание
+            href: outlook/pia/how-to-prompt-a-user-to-respond-to-a-meeting-request.md
+        - name: Получатели
+          href: outlook/pia/recipients.md
+          items:
+          - name: Отображение диалогового окна "Выбор имен" для сопоставления получателей
+            href: outlook/pia/how-to-display-the-select-names-dialog-box-to-resolve-recipients.md
+          - name: Получение и назначение получателей для встречи с помощью диалогового окна "Выбор имен"
+            href: outlook/pia/how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md
+          - name: Получение электронного адреса получателя
+            href: outlook/pia/how-to-get-the-e-mail-address-of-a-recipient.md
+        - name: Правила
+          href: outlook/pia/rules.md
+          items:
+          - name: Создание правила для передачи почтовых элементов от руководителя и их пометки к исполнению
+            href: outlook/pia/how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md
+          - name: Мгновенное выполнение правила
+            href: outlook/pia/how-to-execute-a-rule-instantly.md
+          - name: Выполнение правила на локальном компьютере
+            href: outlook/pia/how-to-execute-a-rule-on-a-local-computer.md
+          - name: Создание правила для назначения категорий почтовым элементам с учетом нескольких слов в теме
+            href: outlook/pia/how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md
+        - name: Примеры задач, в которых используются события Outlook
+          href: outlook/pia/sample-tasks-using-outlook-events.md
+          items:
+          - name: Реализация оболочки для инспекторов и отслеживание событий уровня элемента в каждом инспекторе
+            href: outlook/pia/how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md
+        - name: Поиск и фильтрация
+          href: outlook/pia/search-and-filter.md
+          items:
+          - name: Фильтрация и эффективное перечисление элементов в папке
+            href: outlook/pia/how-to-filter-and-efficiently-enumerate-items-in-a-folder.md
+          - name: Эффективное перечисление элементов в папке с помощью метода SetColumns
+            href: outlook/pia/how-to-use-setcolumns-to-efficiently-enumerate-items-in-a-folder.md
+          - name: Эффективное перечисление элементов в папке с помощью массивов
+            href: outlook/pia/how-to-use-arrays-to-efficiently-enumerate-items-in-a-folder.md
+          - name: Перечисление элементов в папке "Входящие" с учетом времени последнего изменения
+            href: outlook/pia/how-to-enumerate-items-in-the-inbox-based-on-the-last-modification-time.md
+          - name: Фильтрация и отображение элементов папки "Входящие", измененных в прошлом месяце
+            href: outlook/pia/how-to-filter-and-display-inbox-items-modified-in-the-last-month.md
+          - name: Фильтрация и отображение многозначных свойств при перечислении элементов в папке
+            href: outlook/pia/how-to-filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder.md
+          - name: Фильтрация и отображение вычисляемых свойств при перечислении элементов в папке
+            href: outlook/pia/how-to-filter-and-display-computed-properties-when-enumerating-items-in-a-folder.md
+          - name: Перечисление скрытых элементов в папке
+            href: outlook/pia/how-to-enumerate-hidden-items-in-a-folder.md
+          - name: Поиск фразы в теме во всех папках и хранилищах с помощью мгновенного поиска
+            href: outlook/pia/how-to-use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject.md
+          - name: Поиск фразы в тексте элементов в папке
+            href: outlook/pia/how-to-search-for-a-phrase-in-the-body-of-items-in-a-folder.md
+          - name: Поиск точной фразы во вложениях элементов в папке
+            href: outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase.md
+          - name: Поиск и получение встреч в диапазоне времени
+            href: outlook/pia/how-to-search-and-obtain-appointments-in-a-time-range.md
+          - name: Фильтрация повторяющихся встреч и поиск строки в теме
+            href: outlook/pia/how-to-filter-recurring-appointments-and-search-for-a-string-in-the-subject.md
+          - name: Поиск и получение элементов в общем представлении
+            href: outlook/pia/how-to-search-and-obtain-items-in-an-aggregated-view.md
+        - name: Сеансы
+          href: outlook/pia/sessions.md
+          items:
+          - name: Получение экземпляра Outlook и вход в него
+            href: outlook/pia/how-to-get-and-log-on-to-an-instance-of-outlook.md
+        - name: Хранилища
+          href: outlook/pia/stores.md
+          items:
+          - name: Получение сведений о хранилищах в профиле
+            href: outlook/pia/how-to-get-information-about-stores-in-a-profile.md
+          - name: Добавление и удаление хранилища
+            href: outlook/pia/how-to-add-or-remove-a-store.md
+        - name: Задачи
+          href: outlook/pia/tasks.md
+          items:
+          - name: Создание элемента задачи
+            href: outlook/pia/how-to-create-a-task-item.md
+          - name: Назначение задачи получателю
+            href: outlook/pia/how-to-assign-a-task-to-a-recipient.md
+          - name: Отображение элементов запроса выполнения задачи, отправленных получателю
+            href: outlook/pia/how-to-display-the-task-request-items-sent-to-a-recipient.md
+          - name: Ответ на элемент запроса выполнения задачи
+            href: outlook/pia/how-to-respond-to-a-task-request-item.md
+          - name: Создание повторяющейся задачи
+            href: outlook/pia/how-to-create-a-recurring-task.md
+          - name: Пометка почтовых элементов от руководителя к исполнению
+            href: outlook/pia/how-to-flag-mail-items-from-a-manager-for-follow-up.md
+        - name: Представления
+          href: outlook/pia/views.md
+          items:
+          - name: Создание представления
+            href: outlook/pia/how-to-create-a-view.md
+          - name: Добавление полей в представление
+            href: outlook/pia/how-to-add-fields-to-a-view.md
+          - name: Перечисление элементов в табличном представлении
+            href: outlook/pia/how-to-enumerate-items-in-a-table-view.md
+      - name: Библиотека классов
+        href: outlook/pia/outlook-2013-interop-assembly-class-library.md
+        items:
+        - name: Пространство имен Microsoft.Office.Interop.Outlook
+          href: https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
     - name: Справочник по поставщикам Outlook Social Connector
       href: outlook/social-connector/outlook-social-connector-provider-reference.md
       items:
@@ -894,9 +1221,9 @@ items:
           items:
           - name: Обзор XML для элемента веб-канала активности
             href: outlook/social-connector/overview-of-xml-for-an-activity-feed-item.md
-          - name: Элемент activityDetails
+          - name: Элемент ActivityDetails
             href: outlook/social-connector/activitydetails-element.md
-          - name: Элемент activityTemplateContainer
+          - name: Элемент ActivityTemplateContainer
             href: outlook/social-connector/activitytemplatecontainer-element.md
           - name: Переменные шаблонов
             href: outlook/social-connector/template-variables.md
@@ -1024,7 +1351,7 @@ items:
     - name: Расширение панели прогноза погоды в Outlook
       href: outlook/weather/extending-the-weather-bar-in-outlook.md
       items:
-      - name: Схема XML сведений о погоде в Outlook
+      - name: Схема XML для отображения сведений о погоде в Outlook
         href: outlook/weather/outlook-weather-information-xml-schema.md
         items:
         - name: Карта схемы
@@ -1049,7 +1376,7 @@ items:
             href: outlook/weather/forecasttype-complextype-outlook-weather-information-schema.md
           - name: weatherType complexType
             href: outlook/weather/weathertype-complextype-outlook-weather-information-schema.md
-      - name: Схема XML расположения для прогноза погоды в Outlook
+      - name: Схема XML для отображения расположения касательно прогноза погоды в Outlook
         href: outlook/weather/outlook-weather-location-xml-schema.md
         items:
         - name: Карта схемы
@@ -1123,7 +1450,7 @@ items:
             href: outlook/auxiliary/how-to-read-time-zone-properties-from-an-appointment.md
           - name: Использование относительного времени для доступа к данным о доступности
             href: outlook/auxiliary/how-to-use-relative-time-to-access-free-busy-data.md
-      - name: Справочные материалы
+      - name: Справочник
         href: outlook/auxiliary/reference-outlook-auxiliary-reference.md
         items:
         - name: Справочник по API управления учетными записями
@@ -1438,7 +1765,7 @@ items:
                 href: outlook/auxiliary/iolkapptrebaser-endenumerateappointments.md
               - name: IOlkApptRebaser::EndRebaseAppointments
                 href: outlook/auxiliary/iolkapptrebaser-endrebaseappointments.md
-          - name: События
+          - name: Мероприятия
             href: outlook/auxiliary/available-events-and-their-dispids-outlook-exported-apis.md
     - name: Справочник по MAPI для Outlook
       href: outlook/mapi/outlook-mapi-reference.md
@@ -1461,7 +1788,7 @@ items:
       - name: Примеры
         href: outlook/mapi/mapi-samples.md
         items:
-        - name: MFCMAPI в виде образца кода
+        - name: MFCMAPI как пример кода
           href: outlook/mapi/mfcmapi-as-a-code-sample.md
         - name: Примеры поставщика службы MAPI
           href: outlook/mapi/mapi-service-provider-samples.md
@@ -1512,7 +1839,7 @@ items:
             href: outlook/mapi/mapi-client-application-overview.md
           - name: Общие сведения о системе буферизации MAPI
             href: outlook/mapi/mapi-spooler-overview.md
-          - name: Обзор поставщиков службы
+          - name: Обзор поставщиков служб
             href: outlook/mapi/mapi-service-provider-overview.md
           - name: Обзор поставщиков адресной книги
             href: outlook/mapi/mapi-address-book-provider-overview.md
@@ -1541,7 +1868,7 @@ items:
               href: outlook/mapi/disconnecting-an-offline-state-add-in.md
           - name: Сведения об API аварийного восстановления MAPI
             href: outlook/mapi/about-the-mapi-crash-recovery-api.md
-          - name: Сведения о настройке порядка разрешения для списков адресов в Outlook
+          - name: Сведения о настройке порядка разрешения для добавления списков в Outlook
             href: outlook/mapi/about-setting-the-resolution-order-for-address-lists-in-outlook.md
           - name: Сведения об API репликации
             href: outlook/mapi/about-the-replication-api.md
@@ -1961,7 +2288,7 @@ items:
                 href: outlook/mapi/copying-a-profile.md
               - name: Удаление профиля
                 href: outlook/mapi/deleting-a-profile.md
-              - name: Установка профиля по умолчанию
+              - name: Настройка профиля по умолчанию
                 href: outlook/mapi/setting-a-default-profile.md
               - name: Поиск имени профиля
                 href: outlook/mapi/finding-a-profile-name.md
@@ -2268,7 +2595,7 @@ items:
                   href: outlook/mapi/property-entries-in-mapisvc-inf-message-service-sections.md
                 - name: Записи списков в разделах службы сообщений MapiSvc.inf
                   href: outlook/mapi/list-entries-in-mapisvc-inf-message-service-sections.md
-              - name: Разделы поставщика службы MapiSvc.inf
+              - name: Разделы поставщиков служб MapiSvc.inf
                 href: outlook/mapi/mapisvc-inf-service-provider-sections.md
               - name: Регистрация служб и поставщиков служб в MapiSvc.inf
                 href: outlook/mapi/registering-services-and-service-providers-in-mapisvc-inf.md
@@ -2300,7 +2627,7 @@ items:
               items:
               - name: attMAPIProps
                 href: outlook/mapi/attmapiprops.md
-              - name: attDate Attributes
+              - name: Атрибуты attDate
                 href: outlook/mapi/attdate-attributes.md
               - name: attOriginalMessageClass
                 href: outlook/mapi/attoriginalmessageclass.md
@@ -2347,14 +2674,14 @@ items:
               href: outlook/mapi/mapi-implemented-objects.md
             - name: Клиентские объекты
               href: outlook/mapi/mapi-client-objects.md
-            - name: Объекты поставщика службы
+            - name: Объекты поставщиков служб
               href: outlook/mapi/mapi-service-provider-objects.md
               items:
-              - name: Объекты поставщика адресной книги
+              - name: Объекты поставщиков адресных книг
                 href: outlook/mapi/mapi-address-book-provider-objects.md
-              - name: Объекты поставщика хранилища сообщений
+              - name: Объекты поставщиков хранилищ сообщений
                 href: outlook/mapi/mapi-message-store-provider-objects.md
-              - name: Объекты поставщика транспорта
+              - name: Объекты поставщиков транспорта
                 href: outlook/mapi/mapi-transport-provider-objects.md
             - name: Объекты настраиваемых форм
               href: outlook/mapi/mapi-custom-form-objects.md
@@ -2385,7 +2712,7 @@ items:
               href: outlook/mapi/mapi-property-identifier-overview.md
             - name: Обзор типов свойств
               href: outlook/mapi/mapi-property-type-overview.md
-            - name: Свойства строк
+            - name: Строковые свойства
               href: outlook/mapi/mapi-string-properties.md
             - name: Канонические свойства
               href: outlook/mapi/mapi-canonical-properties.md
@@ -2414,7 +2741,7 @@ items:
               items:
               - name: Поддержка именованных свойств
                 href: outlook/mapi/supporting-named-properties.md
-              - name: Имена свойств и наборы свойств
+              - name: Имена и наборы свойств
                 href: outlook/mapi/property-names-and-property-sets.md
               - name: Сопоставления и их подписи
                 href: outlook/mapi/mappings-and-mapping-signatures.md
@@ -2674,7 +3001,7 @@ items:
               href: outlook/mapi/tightly-coupled-message-store-providers.md
             - name: Загрузка поставщиков хранилищ сообщений
               href: outlook/mapi/loading-message-store-providers.md
-      - name: Справочные материалы
+      - name: Справочник
         href: outlook/mapi/mapi-reference.md
         items:
         - name: Интерфейсы
@@ -4929,7 +5256,7 @@ items:
             href: outlook/mapi/pidtagfolderassociatedcontents-canonical-property.md
           - name: Каноническое свойство PidTagFolderType
             href: outlook/mapi/pidtagfoldertype-canonical-property.md
-          - name: Каноническое свойство PidTagFolderWebViewInfo Cannonical Property
+          - name: Каноническое свойство PidTagFolderWebViewInfo
             href: outlook/mapi/pidtagfolderwebviewinfo-cannonical-property.md
           - name: Каноническое свойство PidTagFollowupIcon
             href: outlook/mapi/pidtagfollowupicon-canonical-property.md
@@ -6204,12 +6531,12 @@ items:
     href: powerpoint-home.md
     items:
     - name: Справочник по VBA для PowerPoint
-      href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/powerpoint
   - name: Project
     href: project/project-home.md
     items:
     - name: Project VBA reference
-      href: https://msdn.microsoft.com/en-us/library/office/ee861523.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/project
     - name: Документация разработчиков
       href: project/project-2013-developer-documentation.md
       items:
@@ -6256,7 +6583,7 @@ items:
               href: project/create-a-project-server-workflow-for-demand-management.md
           - name: Пакетное обновление настраиваемых полей и создание сайтов проектов из рабочего процесса в Project Online
             href: project/bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md
-          - name: Работа с проектами с помощью объектной модели JavaScript
+          - name: Работа с проектами при помощи объектной модели JavaScript
             href: project/create-retrieve-update-delete-projects-using-project-server-javascript.md
           - name: Создание надстройки Project Server с размещением в SharePoint
             href: project/create-a-sharepoint-hosted-project-server-add-in.md
@@ -6274,25 +6601,25 @@ items:
           - name: Коды ошибок Project Server
             href: project/project-server-error-codes.md
           - name: ProjectData — справочник по службе OData
-            href: https://msdn.microsoft.com/en-us/library/office/jj163015.aspx
+            href: https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)
       - name: Справка по библиотеке классов и веб-службам
-        href: https://docs.microsoft.com/en-us/dotnet/api/index?view=office-project-server
+        href: https://docs.microsoft.com/dotnet/api/index?view=office-project-server
       - name: Справка по API JavaScript
-        href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
+        href: https://msdn.microsoft.com/library/office/jj712612.aspx
   - name: Publisher
     href: publisher-home.md
     items:
     - name: Справочник по VBA для Publisher
-      href: https://msdn.microsoft.com/en-us/library/office/ee861522.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/publisher
   - name: Visio
     href: visio/visio-home.md
     items:
     - name: Справочник по VBA для Visio
-      href: https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx
-    - name: Справочник по сохранению для Интернета в Visio
-      href: https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/visio
+    - name: Справочник по функции сохранения в качестве веб-страницы для Visio
+      href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference
     - name: Справочные материалы по Visio Viewer
-      href: https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference
     - name: Справочник по таблицам свойств фигур Visio
       href: visio/visio-shapesheet-reference.md
       items:
@@ -6301,7 +6628,7 @@ items:
       - name: Понятия
         href: visio/concepts-visio-shapesheet.md
         items:
-        - name: Сведения о ссылках на ячейку
+        - name: Сведения о ссылках на ячейки
           href: visio/about-cell-references.md
         - name: Сведения о денежных константах
           href: visio/about-currency-constants.md
@@ -6360,7 +6687,7 @@ items:
           href: visio/show-an-object-in-the-shapesheet-window.md
         - name: Ввод новой формулы для ячейки
           href: visio/type-a-new-formula-for-a-cell.md
-      - name: Справочные материалы
+      - name: Справочник
         href: visio/reference-visio-shapesheet.md
         items:
         - name: Ячейки
@@ -7158,7 +7485,7 @@ items:
             href: visio/x-behavior-cell-controls-section.md
           - name: Ячейка X (раздел "Теги действий")
             href: visio/x-cell-action-tags-section.md
-          - name: Ячейка X (раздел "Примечание")
+          - name: Ячейка X (раздел "Заметка")
             href: visio/x-cell-annotation-section.md
           - name: Ячейка X (раздел "Точки соединения")
             href: visio/x-cell-connection-points-section.md
@@ -7184,7 +7511,7 @@ items:
             href: visio/y-behavior-cell-controls-section.md
           - name: Ячейка Y (раздел "Теги действий")
             href: visio/y-cell-action-tags-section.md
-          - name: Ячейка Y (раздел "Примечание")
+          - name: Ячейка Y (раздел "Заметка")
             href: visio/y-cell-annotation-section.md
           - name: Ячейка Y (раздел "Точки соединения")
             href: visio/y-cell-connection-points-section.md
@@ -7678,7 +8005,7 @@ items:
             href: visio/splineknot-row-geometry-section.md
           - name: Строка SplineStart (раздел "Геометрия")
             href: visio/splinestart-row-geometry-section.md
-          - name: Строка "Пользовательские ячейки" (раздел "Пользовательские ячейки")
+          - name: Строка User-defined Cells (раздел "Пользовательские ячейки")
             href: visio/user-defined-cells-row-user-defined-cells-section.md
         - name: Разделы
           href: visio/sections-visio-shapesheet-reference.md
@@ -8434,16 +8761,16 @@ items:
     - name: Элементы управления содержимым в Word
       href: word/content-controls-in-word.md
     - name: Справочник по VBA для Word
-      href: https://msdn.microsoft.com/en-us/library/ee861527.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/word
     - name: Справка по основной сборке взаимодействия Word
-      href: https://msdn.microsoft.com/en-us/library/ff597928.aspx
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
   - name: Схема URI для Sway
     href: swayuri.md
   - name: Схемы URI Office
     href: office-uri-schemes.md
-ms.openlocfilehash: 2f3460ac612fea7fb558ed841fa9e21a0e97a4ac
-ms.sourcegitcommit: c55eec212ae794592c83bbf06b01eab5ca6bff6d
+ms.openlocfilehash: 7033a4730c3cc661ff44f20f44bdaaba629a7aaa
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/16/2018
-ms.locfileid: "20389583"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389374"
