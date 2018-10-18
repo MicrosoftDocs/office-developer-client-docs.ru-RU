@@ -1,26 +1,24 @@
 ---
-title: RecordCount Property (ADO)
-TOCTitle: RecordCount Property (ADO)
-ms:assetid: e3072d10-5bf7-02a8-027e-a9d9a34e3f27
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15)
-ms:contentKeyID: 48548304
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a619570264973fc70b7cc5bd581437a4002b00be
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482603"
+<<<<<<< Заголовок HEAD: TOCTitle свойство RecordCount (ADO): свойство RecordCount (ADO) === заголовка: свойство RecordCount (ADO) TOCTitle: свойство RecordCount (ADO)
+>>>>>>> главные ms:assetid: e3072d10-5bf7-02a8-027e-a9d9a34e3f27 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15) ms:contentKeyID: 48548304 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="recordcount-property-ado"></a>RecordCount Property (ADO)
+=======
+# <a name="recordcount-property-ado"></a>Свойство RecordCount (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает число записей в объекте [набора записей](recordset-object-ado.md) .
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
+=======
+## <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Возвращает значение типа **Long** , показывает, сколько записей в **набора записей**.
 

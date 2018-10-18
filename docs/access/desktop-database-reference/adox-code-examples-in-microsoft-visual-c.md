@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250033(v=office.15)
 ms:contentKeyID: 48547814
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d75e60ec4dff90767a28a71da8f9e75af2344de3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dd2ebb1a6baa30912594db8e2e9ff9ebc9e374c5
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480692"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606012"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-c"></a>ADOX Code Examples in Microsoft Visual C++
 
@@ -28,9 +28,15 @@ ms.locfileid: "25480692"
 
 **Методы**
 
+<<<<<<< HEAD
   - [Columns and Tables Append Methods, Name Property Example (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 
-  - [Connection Close Method, Table Type Property Example (VC++)](connection-close-method-table-type-property-example-vc.md)
+  - [Метод Close подключения, пример свойства типа таблица (VC ++)](connection-close-method-table-type-property-example-vc.md)
+=======
+  - [Столбцы и методы добавления таблиц, пример свойства Name (VC ++)](columns-and-tables-append-methods-name-property-example-vc.md)
+
+  - [Метод Close подключения, пример свойства типа таблица (VC ++)](connection-close-method-table-type-property-example-vc.md)
+>>>>>>> master
 
   - [Create Method Example (VC++)](create-method-example-vc.md)
 
@@ -42,6 +48,7 @@ ms.locfileid: "25480692"
 
   - [Indexes Append Method Example (VC++)](indexes-append-method-example-vc.md)
 
+<<<<<<< HEAD
   - [Ключи добавить метод, тип ключа, RelatedColumn, RelatedTable и пример: свойства UpdateRule (VC ++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
 **Свойства**
@@ -62,21 +69,56 @@ ms.locfileid: "25480692"
 
   - [DeleteRule Property Example (VC++)](deleterule-property-example-vc.md)
 
-  - [IndexNulls Property Example (VC++)](indexnulls-property-example-vc.md)
+  - [Пример свойства IndexNulls (VC ++)](indexnulls-property-example-vc.md)
+=======
+  - [Пример: свойства ключей добавить метод, тип ключа, RelatedColumn, RelatedTable и UpdateRule (VC ++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+
+**Свойства**
+
+  - [Пример свойства атрибуты (VC ++)](attributes-property-example-vc.md)
+
+  - [Пример свойства ActiveConnection каталога (VC ++)](catalog-activeconnection-property-example-vc.md)
+
+  - [Пример свойства кластерные (VC ++)](clustered-property-example-vc.md)
+
+  - [Пример: свойства команды и CommandText (VC ++)](command-and-commandtext-properties-example-vc.md)
+
+  - [Свойство Command, пример коллекции параметров (VC ++)](parameters-collection-command-property-example-vc.md)
+
+  - [Пример: Свойства DateCreated и DateModified (VC ++)](datecreated-and-datemodified-properties-example-vc.md)
+
+  - [Пример свойства DefinedSize (VC ++)](definedsize-property-example-vc.md)
+
+  - [Пример свойства DeleteRule (VC ++)](deleterule-property-example-vc.md)
+
+  - [Пример свойства IndexNulls (VC ++)](indexnulls-property-example-vc.md)
+>>>>>>> master
 
   - [Тип ключа, RelatedColumn, RelatedTable, UpdateRule свойства, ключи добавьте пример метода (VC ++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
   - [Свойство Name, столбцы и таблицы добавьте пример: методы (VC ++)](columns-and-tables-append-methods-name-property-example-vc.md)
 
+<<<<<<< HEAD
   - [NumericScale and Precision Properties Example (VC++)](numericscale-and-precision-properties-example-vc.md)
 
   - [ParentCatalog Property Example (VC++)](parentcatalog-property-example-vc.md)
 
-  - [PrimaryKey and Unique Properties Example (VC++)](primarykey-and-unique-properties-example-vc.md)
+  - [PrimaryKey и пример уникальные свойства (VC ++)](primarykey-and-unique-properties-example-vc.md)
+=======
+  - [Пример: свойства NumericScale и точность (VC ++)](numericscale-and-precision-properties-example-vc.md)
+
+  - [Пример свойства ParentCatalog (VC ++)](parentcatalog-property-example-vc.md)
+
+  - [Пример: свойства PrimaryKey и Unique (VC ++)](primarykey-and-unique-properties-example-vc.md)
+>>>>>>> master
 
   - [Свойство Type в таблице, подключения Закройте пример метода (VC ++)](connection-close-method-table-type-property-example-vc.md)
 
 **Коллекции**
 
-  - [Parameters Collection, Command Property Example (VC++)](parameters-collection-command-property-example-vc.md)
+<<<<<<< HEAD
+  - [Коллекции параметров, пример свойства команды (VC ++)](parameters-collection-command-property-example-vc.md)
+=======
+  - [Коллекции параметров, пример свойства команды (VC ++)](parameters-collection-command-property-example-vc.md)
+>>>>>>> master
 

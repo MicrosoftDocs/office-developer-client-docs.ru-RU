@@ -1,26 +1,24 @@
 ---
-title: Value Property (ADO)
-TOCTitle: Value Property (ADO)
-ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
-ms:contentKeyID: 48548958
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 68c0d45345dfc768f5d435689abf67bcc3d9abe2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480006"
+<<<<<<< Название HEAD: TOCTitle значение свойства (ADO): значение свойства (ADO) === название: значение свойства (ADO) TOCTitle: значение свойства (ADO)
+>>>>>>> главные ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15) ms:contentKeyID: 48548958 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="value-property-ado"></a>Value Property (ADO)
+=======
+# <a name="value-property-ado"></a>Свойство Value (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает значение, присваиваемое [поля](field-object-ado.md), [параметр](parameter-object-ado.md)или [Свойства](property-object-ado.md) объекта.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает значение **типа Variant** , которое указывает значение объекта. Значение по умолчанию зависит от [типа](type-property-ado.md) свойства.
 

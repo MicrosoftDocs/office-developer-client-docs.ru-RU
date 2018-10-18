@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eba2881e4a892f32c70875f80cb8db7c71fb5d34
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 17414560b3aafb51285de0fa6f2beb6d2f0b7b85
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480393"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604612"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>ADO Code Examples in Microsoft Visual Basic
 
@@ -60,7 +60,11 @@ ms.locfileid: "25480393"
 
   - [Пример метода GetString](getstring-method-example-vb.md)
 
+<<<<<<< HEAD
   - [Метод SkipLine, EOS и пример свойств LineSeparator](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+=======
+  - [Метод SkipLine, EOS и LineSeparator пример свойств](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+>>>>>>> master
 
   - [Пример метода Move](move-method-example-vb.md)
 
@@ -80,7 +84,11 @@ ms.locfileid: "25480393"
 
   - [Сохранить и пример открытые методы](save-and-open-methods-example-vb.md)
 
+<<<<<<< HEAD
   - [Поиск метода и пример свойства Index](seek-method-and-index-property-example-vb.md)
+=======
+  - [Поиск метода и индекса пример свойства](seek-method-and-index-property-example-vb.md)
+>>>>>>> master
 
   - [Пример метода поддерживает](supports-method-example-vb.md)
 
@@ -90,6 +98,7 @@ ms.locfileid: "25480393"
 
 **Свойства**
 
+<<<<<<< HEAD
   - [AbsolutePage, PageCount и пример: свойства PageSize](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
   - [Пример свойства CursorLocation и AbsolutePosition](absoluteposition-and-cursorlocation-properties-example-vb.md)
@@ -153,4 +162,69 @@ ms.locfileid: "25480393"
   - [Value Property Example](value-property-example-vb.md)
 
   - [Пример свойства версии](version-property-example-vb.md)
+=======
+  - [Пример: свойства AbsolutePage, PageCount и PageSize](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
+
+  - [Пример свойства AbsolutePosition и CursorLocation](absoluteposition-and-cursorlocation-properties-example-vb.md)
+
+  - [Пример свойства ActiveCommand](activecommand-property-example-vb.md)
+
+  - [Пример: свойства ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
+
+  - [Пример свойства ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-vb.md)
+
+  - [Пример: имя свойства и атрибуты](attributes-and-name-properties-example-vb.md)
+
+  - [Пример: свойства BOF, EOF и закладка](bof-eof-and-bookmark-properties-example-vb.md)
+
+  - [Пример свойства CacheSize](cachesize-property-example-vb.md)
+
+  - [Пример: свойства ConnectionString, ConnectionTimeout и состояния](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
+
+  - [Пример свойства Count](count-property-example-vb.md)
+
+  - [Пример: свойства CursorType, LockType для и EditMode](cursortype-locktype-and-editmode-properties-example-vb.md)
+
+  - [Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
+
+  - [EOS и LineSeparator свойства, пример метода SkipLine](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+
+  - [Пример свойства фильтра и RecordCount](filter-and-recordcount-properties-example-vb.md)
+
+  - [Пример свойства IsolationLevel и режим](isolationlevel-and-mode-properties-example-vb.md)
+
+  - [Пример свойства элемента](item-property-example-vb.md)
+
+  - [Пример свойства MarshalOptions](marshaloptions-property-example-vb.md)
+
+  - [Пример свойства MaxRecords](maxrecords-property-example-vb.md)
+
+  - [Пример: свойства NumericScale и точность](ado-numericscale-and-precision-properties-example-vb.md)
+
+  - [Оптимизация пример свойства](optimize-property-example-vb.md)
+
+  - [Пример свойства OriginalValue и UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vb.md)
+
+  - [Пример свойства подготовленный](prepared-property-example-vb.md)
+
+  - [Пример поставщика и DefaultDatabase свойства](provider-and-defaultdatabase-properties-example-vb.md)
+
+  - [Пример свойства сортировки](sort-property-example-vb.md)
+
+  - [Пример свойства источника](source-property-example-vb.md)
+
+  - [Пример состояния свойства](state-property-example-vb.md)
+
+  - [Пример свойства состояния](status-property-example-recordset-vb.md)
+
+  - [Пример свойства StayInSync](stayinsync-property-example-vb.md)
+
+  - [Пример свойства типа (поле)](type-property-example-field-vb.md)
+
+  - [Пример свойства типа (свойство)](type-property-example-property-vb.md)
+
+  - [Пример свойства Value](value-property-example-vb.md)
+
+  - [Пример свойства версии](version-property-example-vb.md)
+>>>>>>> master
 

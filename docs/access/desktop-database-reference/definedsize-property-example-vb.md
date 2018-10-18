@@ -1,19 +1,13 @@
 ---
-title: DefinedSize Property Example (VB)
-TOCTitle: DefinedSize Property Example (VB)
-ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15)
-ms:contentKeyID: 48543551
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 97676573e430c390344492480e84c6690f45ac95
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480176"
+<<<<<<< Название HEAD: TOCTitle примере свойство DefinedSize (VB): пример свойства DefinedSize (VB) === название: пример свойства DefinedSize (VB) TOCTitle: пример свойства DefinedSize (VB)
+>>>>>>> главные ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15) ms:contentKeyID: 48543551 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="definedsize-property-example-vb"></a>DefinedSize Property Example (VB)
+=======
+# <a name="definedsize-property-example-vb"></a>Пример свойства DefinedSize (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

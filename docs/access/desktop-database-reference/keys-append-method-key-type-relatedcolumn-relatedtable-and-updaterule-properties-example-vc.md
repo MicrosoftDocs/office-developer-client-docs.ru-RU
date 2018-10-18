@@ -1,19 +1,13 @@
 ---
-title: Ключи добавить метод, тип ключа, пример свойств RelatedColumn (VC ++)
-TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++)
-ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
-ms:contentKeyID: 48547840
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0181f93beee3546690ea2a4a806563b2cc220bc7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480425"
+<<<<<<< Название HEAD: ключи добавить метод, тип ключа, пример свойств RelatedColumn (VC ++) TOCTitle: ключи добавить метод, тип ключа, RelatedColumn, RelatedTable и пример: свойства UpdateRule (VC ++) === название: добавьте метод Keys Тип ключа, пример свойств RelatedColumn (VC ++) TOCTitle: пример: свойства ключей добавить метод, тип ключа, RelatedColumn, RelatedTable и UpdateRule (VC ++)
+>>>>>>> главные ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID: 48547840 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++)
+=======
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Пример: свойства ключей добавить метод, тип ключа RelatedColumn, RelatedTable и UpdateRule (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

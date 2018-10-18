@@ -1,19 +1,13 @@
 ---
-title: MarshalOptions Property (ADO)
-TOCTitle: MarshalOptions Property (ADO)
-ms:assetid: dc9c4e94-0725-210d-8251-079054541142
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15)
-ms:contentKeyID: 48548143
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f290f2f4fb4820fb01d3a63aef7bcfbfa7c1f035
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482319"
+<<<<<<< Название HEAD: TOCTitle свойство MarshalOptions (ADO): свойство MarshalOptions (ADO) === название: свойство MarshalOptions (ADO) TOCTitle: свойство MarshalOptions (ADO)
+>>>>>>> главные ms:assetid: dc9c4e94-0725-210d-8251-079054541142 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15) ms:contentKeyID: 48548143 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="marshaloptions-property-ado"></a>MarshalOptions Property (ADO)
+=======
+# <a name="marshaloptions-property-ado"></a>Свойство MarshalOptions (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -26,7 +20,9 @@ ms.locfileid: "25482319"
 
 ## <a name="remarks"></a>Замечания
 
-При использовании со стороны клиента [записей](recordset-object-ado.md), записи, которые были изменены в клиенте записываются на средний уровень или веб-сервер, называемый маршалинга, процесс упаковки и отправки параметров метода интерфейса через поток или границы процессов. Свойство **MarshalOptions** можно повысить производительность измененные удаленных данных — это упаковать для обновления в среднем уровне или в веб-сервере.
+<<<<<<< HEAD при использовании со стороны клиента [записей](recordset-object-ado.md), записи, которые были изменены в клиенте записываются на средний уровень или веб-сервер, называемый маршалинга, процесс создания пакетов и отправка интерфейса параметры метода пределы потока или процесса. Свойство **MarshalOptions** можно повысить производительность измененные удаленных данных — это упаковать для обновления в среднем уровне или в веб-сервере.
+=== При использовании со стороны клиента [записей](recordset-object-ado.md), записи, которые были изменены в клиенте записываются на средний уровень или веб-сервер, называемый маршалинга, процесс упаковки и отправки параметров метода интерфейса через границы, потока или процесса. Свойство **MarshalOptions** можно повысить производительность измененные удаленных данных — это упаковать для обновления в среднем уровне или в веб-сервере.
+>>>>>>> master
 
 **Службы удаленных данных об использовании** Это свойство используется только на стороне клиента **набора записей**.
 

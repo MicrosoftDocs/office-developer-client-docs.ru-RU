@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 48f30471dd5df224e8fe01538dc02d85ded54d6a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5199037f44e75bddf697197bca992a95b8432420
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480771"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605746"
 ---
 # <a name="command-object-ado"></a>Command Object (ADO)
 
@@ -34,7 +34,11 @@ ms.locfileid: "25480771"
 
   - Определите запросы с параметрами и аргументами хранимую процедуру с помощью [параметра](parameter-object-ado.md) объекты и коллекции [параметров](parameters-collection-ado.md) .
 
+<<<<<<< HEAD
   - Выполнение команды и возвратить объект **набора записей** при необходимости с помощью метода [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
+=======
+  - Выполнение команды и возвратить объект **набора записей** при необходимости с помощью метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) .
+>>>>>>> master
 
   - Укажите тип команды со свойством [CommandType](commandtype-property-ado.md) , прежде чем начать выполнение для оптимизации производительности.
 

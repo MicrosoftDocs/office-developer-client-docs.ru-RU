@@ -1,19 +1,13 @@
 ---
-title: Sort Property Example (VC++)
-TOCTitle: Sort Property Example (VC++)
-ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
-ms:contentKeyID: 48543259
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 33f8134320192ad22b0ddc743c1e445cfad46d58
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482592"
+<<<<<<< Название HEAD: пример свойства сортировки (VC ++) TOCTitle: пример свойства сортировки (VC ++) === название: пример свойства сортировки (VC ++) TOCTitle: пример свойства сортировки (VC ++)
+>>>>>>> главные ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID: 48543259 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="sort-property-example-vc"></a>Sort Property Example (VC++)
+=======
+# <a name="sort-property-example-vc"></a>Пример свойства сортировки (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

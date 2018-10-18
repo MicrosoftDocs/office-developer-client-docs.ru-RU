@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 714a8a13ab621a8cc4dee3ba3fb52995e1edd7c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d56ba87c9b510bb0d2e81463453e72e4dd44639
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483131"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604857"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-c"></a>ADO Code Examples in Microsoft Visual C++
 
@@ -66,7 +66,11 @@ ms.locfileid: "25483131"
 
   - [Сохранить и пример открытые методы](save-and-open-methods-example-vc.md)
 
+<<<<<<< HEAD
   - [Поиск метода и пример свойства Index](seek-method-and-index-property-example-vc.md)
+=======
+  - [Поиск метода и индекса пример свойства](seek-method-and-index-property-example-vc.md)
+>>>>>>> master
 
   - [Пример метода поддерживает](supports-method-example-vc.md)
 
@@ -76,6 +80,7 @@ ms.locfileid: "25483131"
 
 **Свойства**
 
+<<<<<<< HEAD
   - [AbsolutePage, PageCount и пример: свойства PageSize](absolutepage-pagecount-and-pagesize-properties-example-vc.md)
 
   - [Пример свойства CursorLocation и AbsolutePosition](absoluteposition-and-cursorlocation-properties-example-vc.md)
@@ -139,6 +144,71 @@ ms.locfileid: "25483131"
   - [Value Property Example](value-property-example-vc.md)
 
   - [Пример свойства версии](version-property-example-vc.md)
+=======
+  - [Пример: свойства AbsolutePage, PageCount и PageSize](absolutepage-pagecount-and-pagesize-properties-example-vc.md)
+
+  - [Пример свойства AbsolutePosition и CursorLocation](absoluteposition-and-cursorlocation-properties-example-vc.md)
+
+  - [Пример свойства ActiveCommand](activecommand-property-example-vc.md)
+
+  - [Пример: свойства ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc.md)
+
+  - [Пример свойства ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-vc.md)
+
+  - [Пример: имя свойства и атрибуты](attributes-and-name-properties-example-vc.md)
+
+  - [Пример: свойства BOF, EOF и закладка](bof-eof-and-bookmark-properties-example-vc.md)
+
+  - [Пример свойства CacheSize](cachesize-property-example-vc.md)
+
+  - [Пример: свойства ConnectionString, ConnectionTimeout и состояния](connectionstring-connectiontimeout-and-state-properties-example-vc.md)
+
+  - [Пример свойства Count](count-property-example-vc.md)
+
+  - [Пример: свойства CursorType, LockType для и EditMode](cursortype-locktype-and-editmode-properties-example-vc.md)
+
+  - [Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc.md)
+
+  - [Пример свойства фильтра и RecordCount](filter-and-recordcount-properties-example-vc.md)
+
+  - [Свойство индексирования и поиска пример метода](seek-method-and-index-property-example-vc.md)
+
+  - [Пример свойства IsolationLevel и режим](isolationlevel-and-mode-properties-example-vc.md)
+
+  - [Пример свойства элемента](item-property-example-vc.md)
+
+  - [Пример свойства MarshalOptions](marshaloptions-property-example-vc.md)
+
+  - [Пример свойства MaxRecords](maxrecords-property-example-vc.md)
+
+  - [Пример: свойства NumericScale и точность](ado-numericscale-and-precision-properties-example-vc.md)
+
+  - [Оптимизация пример свойства](optimize-property-example-vc.md)
+
+  - [Пример свойства OriginalValue и UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vc.md)
+
+  - [Пример свойства подготовленный](prepared-property-example-vc.md)
+
+  - [Пример поставщика и DefaultDatabase свойства](provider-and-defaultdatabase-properties-example-vc.md)
+
+  - [Пример свойства сортировки](sort-property-example-vc.md)
+
+  - [Пример свойства источника](source-property-example-vc.md)
+
+  - [Пример состояния свойства](state-property-example-vc.md)
+
+  - [Пример свойства состояния](status-property-example-vc.md)
+
+  - [Пример свойства StayInSync](stayinsync-property-example-vc.md)
+
+  - [Пример свойства типа (поля)](type-property-example-field-vc.md)
+
+  - [Пример свойства типа (свойство)](type-property-example-property-vc.md)
+
+  - [Пример свойства Value](value-property-example-vc.md)
+
+  - [Пример свойства версии](version-property-example-vc.md)
+>>>>>>> master
 
 **Other**
 

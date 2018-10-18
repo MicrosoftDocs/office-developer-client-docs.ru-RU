@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249564(v=office.15)
 ms:contentKeyID: 48545977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd6949c74e27cfb961b2a8731030b0af3b14ceb8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9fc4cf3540d22d3981bb13a7af3251dd625c2c99
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480370"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606250"
 ---
 # <a name="comparebookmarks-method-ado"></a>CompareBookmarks Method (ADO)
 
@@ -24,7 +24,11 @@ ms.locfileid: "25480370"
 
 *результат* = *набора записей*. CompareBookmarks (*Bookmark1*, *Bookmark2*)
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
+=======
+## <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Возвращает [CompareEnum](compareenum.md) значение, указывающее положение относительно строки из двух записей, представленное закладок.
 

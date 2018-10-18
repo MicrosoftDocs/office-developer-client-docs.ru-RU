@@ -1,19 +1,13 @@
 ---
-title: Clustered Property Example (VC++)
-TOCTitle: Clustered Property Example (VC++)
-ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
-ms:contentKeyID: 48546761
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5be7f193c339c2c002e5b1806103fbcca5306666
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482976"
+<<<<<<< Название HEAD: кластерные пример свойства (VC ++) TOCTitle: кластерные пример свойства (VC ++) === название: пример кластерные свойства (VC ++) TOCTitle: пример кластерные свойства (VC ++)
+>>>>>>> главные ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15) ms:contentKeyID: 48546761 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="clustered-property-example-vc"></a>Clustered Property Example (VC++)
+=======
+# <a name="clustered-property-example-vc"></a>Пример свойства кластерные (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

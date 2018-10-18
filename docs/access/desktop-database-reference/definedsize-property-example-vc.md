@@ -1,19 +1,13 @@
 ---
-title: DefinedSize Property Example (VC++)
-TOCTitle: DefinedSize Property Example (VC++)
-ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15)
-ms:contentKeyID: 48548474
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 09bcf0746497fc7daff85411c418638301300717
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481375"
+<<<<<<< Название HEAD: пример свойства DefinedSize (VC ++) TOCTitle: пример свойства DefinedSize (VC ++) === название: пример свойства DefinedSize (VC ++) TOCTitle: пример свойства DefinedSize (VC ++)
+>>>>>>> главные ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: 48548474 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="definedsize-property-example-vc"></a>DefinedSize Property Example (VC++)
+=======
+# <a name="definedsize-property-example-vc"></a>Пример свойства DefinedSize (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

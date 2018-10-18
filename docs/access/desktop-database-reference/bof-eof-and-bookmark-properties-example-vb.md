@@ -1,19 +1,13 @@
 ---
-title: BOF, EOF, and Bookmark Properties Example (VB)
-TOCTitle: BOF, EOF, and Bookmark Properties Example (VB)
-ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15)
-ms:contentKeyID: 48544037
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 88c0cecb83e83f3572e0e78c2bcc4fb4e4235c17
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481504"
+<<<<<<< Заголовок HEAD: BOF, EOF и TOCTitle пример свойства закладки (VB): BOF, EOF и пример свойства закладки (VB) === заголовок: BOF, EOF и закладка пример свойств (VB) TOCTitle: BOF, EOF и закладка пример свойств (VB)
+>>>>>>> главные ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15) ms:contentKeyID: 48544037 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="bof-eof-and-bookmark-properties-example-vb"></a>BOF, EOF, and Bookmark Properties Example (VB)
+=======
+# <a name="bof-eof-and-bookmark-properties-example-vb"></a>Пример свойства BOF, EOF и закладок (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

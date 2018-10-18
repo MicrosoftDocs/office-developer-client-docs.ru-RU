@@ -1,19 +1,13 @@
 ---
-title: DeleteRule Property Example (VC++)
-TOCTitle: DeleteRule Property Example (VC++)
-ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15)
-ms:contentKeyID: 48544164
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 80f23f9ea8e9c40b691936f5bad6bb0049bcc3b7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481233"
+<<<<<<< Название HEAD: пример свойства DeleteRule (VC ++) TOCTitle: пример свойства DeleteRule (VC ++) === название: пример свойства DeleteRule (VC ++) TOCTitle: пример свойства DeleteRule (VC ++)
+>>>>>>> главные ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15) ms:contentKeyID: 48544164 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="deleterule-property-example-vc"></a>DeleteRule Property Example (VC++)
+=======
+# <a name="deleterule-property-example-vc"></a>Пример свойства DeleteRule (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

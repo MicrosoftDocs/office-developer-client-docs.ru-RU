@@ -1,19 +1,13 @@
 ---
-title: Type Property Example (Field) (VC++)
-TOCTitle: Type Property Example (Field) (VC++)
-ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
-ms:contentKeyID: 48547858
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 13bd264e4b48ed13cc1d9cd9f48281042c66f4f9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480225"
+<<<<<<< Название HEAD: пример свойства типа (поле) (VC ++) TOCTitle: пример свойства типа (поле) (VC ++) === название: пример свойства типа (поле) (VC ++) TOCTitle: пример свойства типа (поле) (VC ++)
+>>>>>>> главные ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID: 48547858 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="type-property-example-field-vc"></a>Type Property Example (Field) (VC++)
+=======
+# <a name="type-property-example-field-vc"></a>Пример свойства типа (поле) (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

@@ -1,19 +1,13 @@
 ---
-title: MarshalOptions Property Example (VB)
-TOCTitle: MarshalOptions Property Example (VB)
-ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15)
-ms:contentKeyID: 48548691
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6da1e748f9cbf350b880f77ec18f1368a99eaa63
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480558"
+<<<<<<< Название HEAD: TOCTitle примере свойство MarshalOptions (VB): пример свойства MarshalOptions (VB) === название: пример свойства MarshalOptions (VB) TOCTitle: пример свойства MarshalOptions (VB)
+>>>>>>> главные ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15) ms:contentKeyID: 48548691 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="marshaloptions-property-example-vb"></a>MarshalOptions Property Example (VB)
+=======
+# <a name="marshaloptions-property-example-vb"></a>Пример свойства MarshalOptions (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

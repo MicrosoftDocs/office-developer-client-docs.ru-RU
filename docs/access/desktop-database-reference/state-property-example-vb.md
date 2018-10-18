@@ -1,19 +1,13 @@
 ---
-title: State Property Example (VB)
-TOCTitle: State Property Example (VB)
-ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
-ms:contentKeyID: 48548366
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 09f80226664c06fcc6c78a8d17c59aa2bc22c7c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481129"
+<<<<<<< Название HEAD: TOCTitle примере свойство State (VB): примере свойство State (VB) === название: пример свойства состояния (VB) TOCTitle: пример свойства состояния (VB)
+>>>>>>> главные ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15) ms:contentKeyID: 48548366 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="state-property-example-vb"></a>State Property Example (VB)
+=======
+# <a name="state-property-example-vb"></a>Пример свойства состояний (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

@@ -1,19 +1,13 @@
 ---
-title: Seek Method and Index Property Example (VC++)
-TOCTitle: Seek Method and Index Property Example (VC++)
-ms:assetid: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15)
-ms:contentKeyID: 48548820
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 1abd8ece2e9e8057a9f886f892bc6b5fdf2a828f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482105"
+<<<<<<< Название HEAD: метод коротким временем поиска и TOCTitle пример свойства Index (VC ++): метод коротким временем поиска и пример свойства Index (VC ++) === название: пример свойства метод коротким временем поиска и индекса (VC ++) TOCTitle: пример свойства метод коротким временем поиска и индекса (VC ++)
+>>>>>>> главные ms:assetid: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15) ms:contentKeyID: 48548820 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="seek-method-and-index-property-example-vc"></a>Seek Method and Index Property Example (VC++)
+=======
+# <a name="seek-method-and-index-property-example-vc"></a>Поиск метода и индекса пример свойства (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

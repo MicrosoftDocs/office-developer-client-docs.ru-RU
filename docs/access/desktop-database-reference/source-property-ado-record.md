@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250235(v=office.15)
 ms:contentKeyID: 48548670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c568861b684856f14c644a4ef3341eed66afd569
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4d6e010ce8db93baaf8faddaeff5ab4dabda6a84
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481160"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603387"
 ---
 # <a name="source-property-ado-record"></a>Source Property (ADO Record)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25481160"
 
 Указывает источник данных или объектов, представленных в [записи](record-object-ado.md).
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает значение **типа Variant** , которое указывает, сущности, представленной **записи**.
 
@@ -36,8 +40,13 @@ ms.locfileid: "25481160"
 
 Свойство **Source** — чтение и запись во время объект **записи** закрывается и доступен только для чтения, когда объект **записи** открыт.
 
+<<<<<<< HEAD
 
 > [!NOTE]
 > <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
+=======
+> [!NOTE]
+> URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
+>>>>>>> master
 
 

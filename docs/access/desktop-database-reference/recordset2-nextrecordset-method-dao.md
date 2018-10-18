@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4c0206b13fb8a846f50b5a2358d60d6807bdec26
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0f445014de9e2e1675d8667b33a0926529308995
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480438"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605277"
 ---
 # <a name="recordset2nextrecordset-method-dao"></a>Recordset2.NextRecordset Method (DAO)
 
@@ -28,7 +28,11 @@ ms.locfileid: "25480438"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
+<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
+=======
+### <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Boolean
 

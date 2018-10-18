@@ -1,19 +1,13 @@
 ---
-title: Attributes and Name Properties Example (VB)
-TOCTitle: Attributes and Name Properties Example (VB)
-ms:assetid: b049c03c-9add-48b7-6a0a-51d2507c8e33
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249840(v=office.15)
-ms:contentKeyID: 48547120
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 95e0aaafdce4d7647666b66787a90ae24db53533
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479820"
+<<<<<<< Название HEAD: атрибуты и TOCTitle примере имя свойства (VB): атрибуты и пример имени свойства (VB) === название: атрибуты и пример свойств имя (VB) TOCTitle: атрибуты и пример свойств имя (VB)
+>>>>>>> главные ms:assetid: b049c03c-9add-48b7-6a0a-51d2507c8e33 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249840(v=office.15) ms:contentKeyID: 48547120 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="attributes-and-name-properties-example-vb"></a>Attributes and Name Properties Example (VB)
+=======
+# <a name="attributes-and-name-properties-example-vb"></a>Атрибуты и пример свойств имя (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

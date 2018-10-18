@@ -1,26 +1,24 @@
 ---
-title: ConnectionTimeout Property (ADO)
-TOCTitle: ConnectionTimeout Property (ADO)
-ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15)
-ms:contentKeyID: 48548589
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 375af7f4dc84d1a630c290df1c38e77ee6580b5d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481029"
+<<<<<<< Название HEAD: TOCTitle свойство ConnectionTimeout (ADO): свойство ConnectionTimeout (ADO) === название: свойство ConnectionTimeout (ADO) TOCTitle: свойство ConnectionTimeout (ADO)
+>>>>>>> главные ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15) ms:contentKeyID: 48548589 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="connectiontimeout-property-ado"></a>ConnectionTimeout Property (ADO)
+=======
+# <a name="connectiontimeout-property-ado"></a>Свойство ConnectionTimeout (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает время ожидания при установке соединения перед завершается и генерируется ошибка.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает значение типа **Long** , которое указывает, в секундах, время ожидания для подключения открыть. Значение по умолчанию — 15.
 

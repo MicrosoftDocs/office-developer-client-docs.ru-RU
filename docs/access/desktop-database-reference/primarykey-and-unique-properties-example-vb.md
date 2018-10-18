@@ -1,19 +1,13 @@
 ---
-title: PrimaryKey and Unique Properties Example (VB)
-TOCTitle: PrimaryKey and Unique Properties Example (VB)
-ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15)
-ms:contentKeyID: 48546137
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 22653f1b8ad7806d3125f86acadf590e321eb073
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482065"
+<<<<<<< Название HEAD: PrimaryKey и TOCTitle пример уникальные свойства (VB): PrimaryKey и пример уникальные свойства (VB) === название: пример свойства PrimaryKey и Unique (VB) TOCTitle: PrimaryKey и Unique пример свойств (VB)
+>>>>>>> главные ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15) ms:contentKeyID: 48546137 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="primarykey-and-unique-properties-example-vb"></a>PrimaryKey and Unique Properties Example (VB)
+=======
+# <a name="primarykey-and-unique-properties-example-vb"></a>Пример свойства PrimaryKey и Unique (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

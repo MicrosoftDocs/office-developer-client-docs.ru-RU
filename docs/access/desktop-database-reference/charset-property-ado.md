@@ -1,26 +1,24 @@
 ---
-title: Charset Property (ADO)
-TOCTitle: Charset Property (ADO)
-ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
-ms:contentKeyID: 48544551
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 84436f814bbc2a503e843d4e9832fa2bab612b58
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482515"
+<<<<<<< Название HEAD: TOCTitle свойство набор символов (ADO): свойство набор символов (ADO) === название: свойство набор символов (ADO) TOCTitle: свойство набор символов (ADO)
+>>>>>>> главные ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15) ms:contentKeyID: 48544551 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="charset-property-ado"></a>Charset Property (ADO)
+=======
+# <a name="charset-property-ado"></a>Свойство набор символов (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает набор знаков, в которой содержимое текстового [потока](stream-object-ado.md) преобразования для хранения в буфере внутренних объектов потока.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает **строковое** значение, указывающее кодировку, в которой будут переведены содержимое **потока** . Значение по умолчанию — «Юникод». Допустимые значения типичного строк, передаваемых через интерфейс как набор строк символов Интернета (например, «iso-8859-1», «Windows-1252", и т.д.). Список строк набора символов, известные системы, в разделе подразделы HKEY\_КЛАССЫ\_КОРНЕВОЙ\\MIME\\базы данных\\набор символов в реестре Windows.
 

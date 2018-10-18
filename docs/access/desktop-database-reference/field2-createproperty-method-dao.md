@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822737(v=office.15)
 ms:contentKeyID: 48547446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8737ca10309cd4dc3a4a7d7a947d3e7d8c90cdc1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1fc3e48b30317ffa2eac21c9c9764759c192090d
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481306"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606341"
 ---
 # <a name="field2createproperty-method-dao"></a>Field2.CreateProperty Method (DAO)
 
@@ -72,7 +72,11 @@ ms.locfileid: "25481306"
 </table>
 
 
+<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
+=======
+### <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Свойство
 

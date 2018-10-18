@@ -1,19 +1,13 @@
 ---
-title: Sort Property Example (VB)
-TOCTitle: Sort Property Example (VB)
-ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
-ms:contentKeyID: 48545539
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c537595c20253aba92224bceb6f46ae538f02f08
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480818"
+<<<<<<< Название HEAD: TOCTitle примере свойство сортировки (VB): пример свойства сортировки (VB) === название: пример свойства сортировки (VB) TOCTitle: пример свойства сортировки (VB)
+>>>>>>> главные ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: 48545539 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="sort-property-example-vb"></a>Sort Property Example (VB)
+=======
+# <a name="sort-property-example-vb"></a>Пример свойства сортировки (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

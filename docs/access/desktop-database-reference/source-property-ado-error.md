@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250316(v=office.15)
 ms:contentKeyID: 48548969
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7dcc674a570b3d2adf6108316339a86333a82f9d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: adeadcf4c467aabad7b486bd43c12e26d67ce302
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481361"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603869"
 ---
 # <a name="source-property-ado-error"></a>Source Property (ADO Error)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25481361"
 
 Указывает имя объекта или приложения, вызвавшего ошибку.
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
+=======
+## <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Возвращает **строковое** значение, указывающее имя объекта или приложения.
 

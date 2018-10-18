@@ -1,19 +1,13 @@
 ---
-title: Provider and DefaultDatabase Properties Example (VJ++)
-TOCTitle: Provider and DefaultDatabase Properties Example (VJ++)
-ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15)
-ms:contentKeyID: 48547380
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7d870c13824e7c14ad216bd614106d47f00b595a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481729"
+<<<<<<< Название HEAD: поставщик и TOCTitle пример свойств DefaultDatabase (VJ ++): поставщика и пример: свойства DefaultDatabase (VJ ++) === заголовок: свойства пример поставщика и DefaultDatabase (VJ ++) TOCTitle: поставщика Пример свойства DefaultDatabase (VJ ++) и
+>>>>>>> главные ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15) ms:contentKeyID: 48547380 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="provider-and-defaultdatabase-properties-example-vj"></a>Provider and DefaultDatabase Properties Example (VJ++)
+=======
+# <a name="provider-and-defaultdatabase-properties-example-vj"></a>Пример: свойства поставщика и DefaultDatabase (VJ ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

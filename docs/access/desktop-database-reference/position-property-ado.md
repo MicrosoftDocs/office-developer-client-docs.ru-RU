@@ -1,26 +1,24 @@
 ---
-title: Position Property (ADO)
-TOCTitle: Position Property (ADO)
-ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
-ms:contentKeyID: 48546709
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a06810fe339bd9b0b24137e178517c062962c096
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481293"
+<<<<<<< Название HEAD: TOCTitle свойство положение (ADO): свойство положение (ADO) === заголовок: установите свойство (ADO) TOCTitle: установите свойство (ADO)
+>>>>>>> главные ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15) ms:contentKeyID: 48546709 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="position-property-ado"></a>Position Property (ADO)
+=======
+# <a name="position-property-ado"></a>Свойство положение (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает текущую позицию в объект [потока](stream-object-ado.md) .
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает значение типа **Long** , который определяет, в число байтов текущей позиции от начала потока. Значение по умолчанию равно 0, который представляет первого байта ответа в потоке.
 

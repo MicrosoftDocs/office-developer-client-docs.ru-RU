@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd7496efe7c38fcd78800ad087730bb21a19c32e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d6955bca1bf693386d1f5edb4bac04cee311d78e
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481355"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606964"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord Method (ADO)
 
@@ -51,7 +51,11 @@ ms.locfileid: "25481355"
 
   - Необязательный параметр. **Логическое** значение, которое, если **значение True**, указывает, что эту операцию следует асинхронный.
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
+=======
+## <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 **Строковое** значение. Как правило возвращается значение *назначения* . Тем не менее точное значение, возвращаемое зависит от поставщика.
 
@@ -73,6 +77,10 @@ ms.locfileid: "25481355"
 
 
 > [!NOTE]
+<<<<<<< HEAD
 > <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
+=======
+> URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
+>>>>>>> master
 
 

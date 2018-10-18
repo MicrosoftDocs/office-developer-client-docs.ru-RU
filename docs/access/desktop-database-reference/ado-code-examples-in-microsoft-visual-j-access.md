@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249854(v=office.15)
 ms:contentKeyID: 48547184
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 329494a2389c3f054bf036b20f7a6f794708e0a0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 36aa7d4adfa5499b2e41661009895057d6ea6faa
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482159"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606473"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j-access"></a>ADO Code Examples in Microsoft Visual J++ (Access)
 
@@ -20,6 +20,7 @@ ms.locfileid: "25482159"
 
   - [ADO Code Examples in Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
 
+<<<<<<< HEAD
   - [AbsolutePage, PageCount, and PageSize Properties Example (VJ++)](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [AbsolutePosition and CursorLocation Properties Example (VJ++)](absoluteposition-and-cursorlocation-properties-example-vj.md)
@@ -28,7 +29,18 @@ ms.locfileid: "25482159"
 
   - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VJ++)](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
 
-  - [ActualSize and DefinedSize Properties Example (VJ++)](actualsize-and-definedsize-properties-example-vj.md)
+  - [Пример свойства DefinedSize (VJ ++) и ActualSize](actualsize-and-definedsize-properties-example-vj.md)
+=======
+  - [Пример: свойства AbsolutePage, PageCount и PageSize (VJ ++)](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
+
+  - [Пример: свойства AbsolutePosition и CursorLocation (VJ ++)](absoluteposition-and-cursorlocation-properties-example-vj.md)
+
+  - [Пример свойства ActiveCommand (VJ ++)](activecommand-property-example-vj.md)
+
+  - [Пример: свойства ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление (VJ ++)](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
+
+  - [Пример: свойства ActualSize и DefinedSize (VJ ++)](actualsize-and-definedsize-properties-example-vj.md)
+>>>>>>> master
 
   - [AddNew Method Example (VJ++)](addnew-method-example-vj.md)
 
@@ -36,13 +48,23 @@ ms.locfileid: "25482159"
 
   - [AppendChunk and GetChunk Methods Example (VJ++)](appendchunk-and-getchunk-methods-example-vj.md)
 
+<<<<<<< HEAD
   - [Attributes and Name Properties Example (VJ++)](attributes-and-name-properties-example-vj.md)
 
   - [BeginTrans, CommitTrans, and RollbackTrans Methods Example (VJ++)](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
 
   - [BOF, EOF, and Bookmark Properties Example (VJ++)](bof-eof-and-bookmark-properties-example-vj.md)
 
-  - [CacheSize Property Example (VJ++)](cachesize-property-example-vj.md)
+  - [Пример свойства CacheSize (VJ ++)](cachesize-property-example-vj.md)
+=======
+  - [Атрибуты и пример: имя свойства (VJ ++)](attributes-and-name-properties-example-vj.md)
+
+  - [BeginTrans, CommitTrans, and RollbackTrans Methods Example (VJ++)](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
+
+  - [Пример: свойства BOF, EOF и закладок (VJ ++)](bof-eof-and-bookmark-properties-example-vj.md)
+
+  - [Пример свойства CacheSize (VJ ++)](cachesize-property-example-vj.md)
+>>>>>>> master
 
   - [Cancel Method Example (VJ++)](cancel-method-example-vj.md)
 
@@ -50,6 +72,7 @@ ms.locfileid: "25482159"
 
   - [CompareBookmarks Method Example (VJ++)](comparebookmarks-method-example-vj.md)
 
+<<<<<<< HEAD
   - [ConnectionString, ConnectionTimeout, and State Properties Example (VJ++)](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
 
   - [Count Property Example (VJ++)](count-property-example-vj.md)
@@ -62,7 +85,22 @@ ms.locfileid: "25482159"
 
   - [Execute, Requery, and Clear Methods Example (VJ++)](execute-requery-and-clear-methods-example-vj.md)
 
-  - [Filter and RecordCount Properties Example (VJ++)](filter-and-recordcount-properties-example-vj.md)
+  - [Фильтр и пример свойств RecordCount (VJ ++)](filter-and-recordcount-properties-example-vj.md)
+=======
+  - [Пример: свойства ConnectionString, ConnectionTimeout и состояния (VJ ++)](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
+
+  - [Пример свойства Count (VJ ++)](count-property-example-vj.md)
+
+  - [Пример: свойства CursorType, LockType для и EditMode (VJ ++)](cursortype-locktype-and-editmode-properties-example-vj.md)
+
+  - [Delete Method Example (VJ++)](delete-method-example-vj.md)
+
+  - [Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState (VJ ++)](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
+
+  - [Execute, Requery, and Clear Methods Example (VJ++)](execute-requery-and-clear-methods-example-vj.md)
+
+  - [Пример: свойства фильтра и RecordCount (VJ ++)](filter-and-recordcount-properties-example-vj.md)
+>>>>>>> master
 
   - [Find Method Example (VJ++)](find-method-example-vj.md)
 
@@ -70,13 +108,23 @@ ms.locfileid: "25482159"
 
   - [GetString Method Example (VJ++)](getstring-method-example-vj.md)
 
+<<<<<<< HEAD
   - [IsolationLevel and Mode Properties Example (VJ++)](isolationlevel-and-mode-properties-example-vj.md)
 
   - [Item Property Example (VJ++)](item-property-example-vj.md)
 
   - [MarshalOptions Property Example (VJ++)](marshaloptions-property-example-vj.md)
 
-  - [MaxRecords Property Example (VJ++)](maxrecords-property-example-vj.md)
+  - [Пример свойства MaxRecords (VJ ++)](maxrecords-property-example-vj.md)
+=======
+  - [Пример: свойства IsolationLevel и режиме (VJ ++)](isolationlevel-and-mode-properties-example-vj.md)
+
+  - [Пример свойства элемента (VJ ++)](item-property-example-vj.md)
+
+  - [Пример свойства MarshalOptions (VJ ++)](marshaloptions-property-example-vj.md)
+
+  - [Пример свойства MaxRecords (VJ ++)](maxrecords-property-example-vj.md)
+>>>>>>> master
 
   - [Move Method Example (VJ++)](move-method-example-vj.md)
 
@@ -84,19 +132,33 @@ ms.locfileid: "25482159"
 
   - [NextRecordset Method Example (VJ++)](nextrecordset-method-example-vj.md)
 
-  - [NumericScale and Precision Properties Example (VJ++)](numericscale-and-precision-properties-example-vj.md)
+<<<<<<< HEAD
+  - [NumericScale и пример точности свойств (VJ ++)](numericscale-and-precision-properties-example-vj.md)
+=======
+  - [Пример: свойства NumericScale и точность (VJ ++)](numericscale-and-precision-properties-example-vj.md)
+>>>>>>> master
 
   - [Open and Close Methods Example (VJ++)](open-and-close-methods-example-vj.md)
 
   - [OpenSchema Method Example (VJ++)](openschema-method-example-vj.md)
 
+<<<<<<< HEAD
   - [Optimize Property Example (VJ++)](optimize-property-example-vj.md)
 
   - [OriginalValue and UnderlyingValue Properties Example (VJ++)](originalvalue-and-underlyingvalue-properties-example-vj.md)
 
   - [Prepared Property Example (VJ++)](prepared-property-example-vj.md)
 
-  - [Provider and DefaultDatabase Properties Example (VJ++)](provider-and-defaultdatabase-properties-example-vj.md)
+  - [Пример свойства DefaultDatabase (VJ ++) и поставщика](provider-and-defaultdatabase-properties-example-vj.md)
+=======
+  - [Оптимизация пример свойства (VJ ++)](optimize-property-example-vj.md)
+
+  - [Пример: свойства OriginalValue и UnderlyingValue (VJ ++)](originalvalue-and-underlyingvalue-properties-example-vj.md)
+
+  - [Пример свойства подготовленный (VJ ++)](prepared-property-example-vj.md)
+
+  - [Пример: свойства поставщика и DefaultDatabase (VJ ++)](provider-and-defaultdatabase-properties-example-vj.md)
+>>>>>>> master
 
   - [Refresh Method Example (VJ++)](refresh-method-example-vj.md)
 
@@ -104,6 +166,7 @@ ms.locfileid: "25482159"
 
   - [Save and Open Methods Example (VJ++)](save-and-open-methods-example-vj.md)
 
+<<<<<<< HEAD
   - [Sort Property Example (VJ++)](sort-property-example-vj.md)
 
   - [Source Property Example (VJ++)](source-property-example-vj.md)
@@ -112,7 +175,18 @@ ms.locfileid: "25482159"
 
   - [Status Property Example (VJ++)](status-property-example-vj.md)
 
-  - [StayInSync Property Example (VJ++)](stayinsync-property-example-vj.md)
+  - [Пример свойства StayInSync (VJ ++)](stayinsync-property-example-vj.md)
+=======
+  - [Пример свойства сортировки (VJ ++)](sort-property-example-vj.md)
+
+  - [Пример свойства источника (VJ ++)](source-property-example-vj.md)
+
+  - [Пример свойства состояний (VJ ++)](state-property-example-vj.md)
+
+  - [Пример свойства состояния (VJ ++)](status-property-example-vj.md)
+
+  - [Пример свойства StayInSync (VJ ++)](stayinsync-property-example-vj.md)
+>>>>>>> master
 
   - [Supports Method Example (VJ++)](supports-method-example-vj.md)
 
@@ -120,7 +194,13 @@ ms.locfileid: "25482159"
 
   - [UpdateBatch and CancelBatch Methods Example (VJ++)](updatebatch-and-cancelbatch-methods-example-vj.md)
 
+<<<<<<< HEAD
   - [Value Property Example (VJ++)](value-property-example-vj.md)
 
-  - [Version Property Example (VJ++)](version-property-example-vj.md)
+  - [Пример свойства версии (VJ ++)](version-property-example-vj.md)
+=======
+  - [Пример свойства Value (VJ ++)](value-property-example-vj.md)
+
+  - [Пример свойства версии (VJ ++)](version-property-example-vj.md)
+>>>>>>> master
 

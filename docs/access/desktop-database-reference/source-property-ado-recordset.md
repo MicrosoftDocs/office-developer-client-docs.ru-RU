@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249269(v=office.15)
 ms:contentKeyID: 48544843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3caeef4bb13ac4b68f3d3d5a62e0ce624d9d515
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: db44459bf3629f6cedfbee023b0be9161ed3bb14
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480209"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605263"
 ---
 # <a name="source-property-ado-recordset"></a>Source Property (ADO Recordset)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25480209"
 
 Указывает источник данных для объекта [набора записей](recordset-object-ado.md) .
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает **строковое** значение или ссылку на объект [Command](command-object-ado.md) ; Возвращает только **строковое** значение, указывающее источник **набора записей**.
 

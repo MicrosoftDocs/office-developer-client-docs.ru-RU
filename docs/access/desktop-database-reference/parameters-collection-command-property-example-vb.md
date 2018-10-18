@@ -1,19 +1,13 @@
 ---
-title: Parameters Collection, Command Property Example (VB)
-TOCTitle: Parameters Collection, Command Property Example (VB)
-ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
-ms:contentKeyID: 48544290
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: b4a1f1074a81ef5d5aa14192e784b91d0c9fcddb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481902"
+<<<<<<< Название HEAD: коллекцию параметров, пример свойства команды (VB) TOCTitle: коллекцию параметров, пример свойства команды (VB) === название: коллекцию параметров, пример свойства команды (VB) TOCTitle: параметры Семейства сайтов, пример свойства команды (VB)
+>>>>>>> главные ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15) ms:contentKeyID: 48544290 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="parameters-collection-command-property-example-vb"></a>Parameters Collection, Command Property Example (VB)
+=======
+# <a name="parameters-collection-command-property-example-vb"></a>Коллекции параметров, пример свойства команды (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

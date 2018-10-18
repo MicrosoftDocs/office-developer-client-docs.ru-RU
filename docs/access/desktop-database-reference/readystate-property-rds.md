@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 804a98a6fa7c93617a5b6e165a2a012969c66913
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2a22099e49489226c7848a54112e7ab5e70b64ff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481860"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603919"
 ---
 # <a name="readystate-property-rds"></a>ReadyState Property (RDS)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25481860"
 
 Индикатор выполнения объекта [DataControl](datacontrol-object-rds.md) при извлечении данных в его объекта [набора записей](recordset-object-ado.md) .
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает одно из следующих значений.
 

@@ -1,19 +1,13 @@
 ---
-title: Version Property Example (VC++)
-TOCTitle: Version Property Example (VC++)
-ms:assetid: deda3998-52cd-0068-7f8c-e58c71802226
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15)
-ms:contentKeyID: 48548201
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6723d43965975f8ad83f60937e7226cd269b688d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482822"
+<<<<<<< Название HEAD: TOCTitle примере свойство Version (VC ++): примере свойство Version (VC ++) === название: примере свойство Version (VC ++) TOCTitle: примере свойство Version (VC ++)
+>>>>>>> главные ms:assetid: deda3998-52cd-0068-7f8c-e58c71802226 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15) ms:contentKeyID: 48548201 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="version-property-example-vc"></a>Version Property Example (VC++)
+=======
+# <a name="version-property-example-vc"></a>Пример свойства версии (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

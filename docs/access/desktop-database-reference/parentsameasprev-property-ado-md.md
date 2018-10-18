@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248863(v=office.15)
 ms:contentKeyID: 48543263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa15ed1fcbc8a298969038ca313adde8734883e1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6d63c31dfd7309144813c979ad34f0d27593e4d9
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480876"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605718"
 ---
 # <a name="parentsameasprev-property-ado-md"></a>ParentSameAsPrev Property (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25480876"
 
 Указывает, является ли родительский этот член положение то же, что родителя предыдущего элемента.
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Return Values
+=======
+## <a name="return-values"></a>Возвращаемые значения
+>>>>>>> master
 
 Возвращает **логическое** значение и доступен только для чтения.
 

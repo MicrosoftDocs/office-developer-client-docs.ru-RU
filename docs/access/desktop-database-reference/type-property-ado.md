@@ -1,26 +1,24 @@
 ---
-title: Type Property (ADO)
-TOCTitle: Type Property (ADO)
-ms:assetid: 14d99172-2145-05ae-620b-459ba097f05c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15)
-ms:contentKeyID: 48543397
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2ac119b9582634e619455870c8a2e115f5e8dafa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480676"
+<<<<<<< Название HEAD: TOCTitle тип свойства (ADO): тип свойства (ADO) === название: введите свойство (ADO) TOCTitle: введите свойство (ADO)
+>>>>>>> главные ms:assetid: 14d99172-2145-05ae-620b-459ba097f05c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15) ms:contentKeyID: 48543397 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="type-property-ado"></a>Type Property (ADO)
+=======
+# <a name="type-property-ado"></a>Свойство Type (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает тип действующие или тип данных [параметра](parameter-object-ado.md), [поля](field-object-ado.md)или [Свойства](property-object-ado.md) объекта.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает значение [DataTypeEnum](datatypeenum.md) .
 

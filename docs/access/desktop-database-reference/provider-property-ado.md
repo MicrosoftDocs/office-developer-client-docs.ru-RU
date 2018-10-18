@@ -1,26 +1,24 @@
 ---
-title: Provider Property (ADO)
-TOCTitle: Provider Property (ADO)
-ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15)
-ms:contentKeyID: 48543543
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 890f80534ff47c4dea67b34f345bce0f90328c60
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479745"
+<<<<<<< Название HEAD: TOCTitle свойство поставщика (ADO): свойство поставщика (ADO) === название: свойство поставщика (ADO) TOCTitle: свойство поставщика (ADO)
+>>>>>>> главные ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15) ms:contentKeyID: 48543543 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="provider-property-ado"></a>Provider Property (ADO)
+=======
+# <a name="provider-property-ado"></a>Свойство поставщика (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает имя поставщика для объекта [подключения](connection-object-ado.md) .
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает **строковое** значение, указывающее имя поставщика.
 

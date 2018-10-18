@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09e2b8238555a0d1b718f04c69f733039c1d8477
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 15009ca039d5df06bc732f4b58c066ad8f8d67c9
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483180"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603765"
 ---
 # <a name="browseto-macro-action"></a>BrowseTo Macro Action
 
@@ -57,7 +57,11 @@ ms.locfileid: "25483180"
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
+<<<<<<< HEAD
 <td><p>Если указано, задает страницу непрерывного формы, в которой будет осуществляться текущей страницы. Этот аргумент представляет Web только.</p></td>
+=======
+<td><p>Если указано, задает страницу непрерывного формы, в которой будет осуществляться текущей страницы. Этот аргумент представляет веб-узла только.</p></td>
+>>>>>>>Образец
 </tr>
 <tr class="even">
 <td><p>Режим данных</p></td>

@@ -1,19 +1,13 @@
 ---
-title: Filter and RecordCount Properties Example (VB)
-TOCTitle: Filter and RecordCount Properties Example (VB)
-ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
-ms:contentKeyID: 48544354
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7900a7c6c49aac179ee331042b11c725cfcb90ad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483173"
+<<<<<<< HEAD заголовок: фильтр и TOCTitle пример свойства RecordCount (VB): фильтр и пример свойства RecordCount (VB) === заголовок: пример свойства фильтра и RecordCount (VB) TOCTitle: свойства фильтра и RecordCount Пример (VB)
+>>>>>>> главные ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID: 48544354 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="filter-and-recordcount-properties-example-vb"></a>Filter and RecordCount Properties Example (VB)
+=======
+# <a name="filter-and-recordcount-properties-example-vb"></a>Пример свойства фильтра и RecordCount (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

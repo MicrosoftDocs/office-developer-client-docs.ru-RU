@@ -1,18 +1,9 @@
 ---
-title: Скрытие ленты при запуске Access
-TOCTitle: Hide the ribbon when Access starts
-ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
-ms:contentKeyID: 48548817
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2b2b3e28157662a585fa03353da92a598b96bd2c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480437"
+Заголовок: скрытие ленты при запуске Access TOCTitle: скрытие ленты при запуске Access <<<<<<< HEAD ms:assetid: f98bab58-8094-1c56-f70b-ced2e7849574 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15) ms:contentKeyID: 48548817 ms.date: 09/18/2015 === Описание: загрузка настраиваемой ленты, который скрывает все встроенной вкладки в Access 2013.
+MS:AssetId: f98bab58-8094-1c56-f70b-ced2e7849574 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15) ms:contentKeyID: 48548817 ms.date: 10/16/2018
+>>>>>>> главные mtps_version: v=office.15
 ---
+
 # <a name="hide-the-ribbon-when-access-starts"></a>Скрытие ленты при запуске Access
 
 **Применимо к:** Access 2013 | Office 2013
@@ -21,7 +12,11 @@ ms.locfileid: "25480437"
 
 Чтобы загрузить настраиваемой ленты при запуске Access, следует хранить его параметры в таблице с именем **USysRibbons**.
 
-В таблице **USysRibbons** должны быть созданы с помощью имена определенных столбцов в порядке для настройки ленты для реализации. В следующей таблице перечислены параметры для использования при создании в таблице **USysRibbons** .
+<<<<<<< В таблице **USysRibbons** должны создаваться с помощью имена определенных столбцов в порядке для настройки ленты для реализации HEAD. В следующей таблице перечислены параметры для использования при создании в таблице **USysRibbons** .
+=== В таблице **USysRibbons** должны быть созданы с помощью имена определенных столбцов для настройки ленты для реализации. 
+
+В следующей таблице перечислены параметры для использования при создании в таблице **USysRibbons** .
+>>>>>>> master
 
 <table>
 <colgroup>
@@ -31,8 +26,13 @@ ms.locfileid: "25480437"
 </colgroup>
 <thead>
 <tr class="header">
+<<<<<<< HEAD
 <th><p>Имя столбца</p></th>
 <th><p>Тип данных</p></th>
+=======
+<th><p>Имя столбца</p></th>
+<th><p>Тип данных</p></th>
+>>>>>>>Образец
 <th><p>Описание</p></th>
 </tr>
 </thead>
@@ -45,11 +45,16 @@ ms.locfileid: "25480437"
 <tr class="even">
 <td><p><strong>RibbonXML</strong></p></td>
 <td><p>Заметка</p></td>
+<<<<<<< HEAD
 <td><p>Содержит XML расширяемости ленты (RibbonX), который определяет настройки ленты.</p></td>
+=======
+<td><p>Содержит расширяемость ленты XML (RibbonX), который определяет настройки ленты.</p></td>
+>>>>>>>Образец
 </tr>
 </tbody>
 </table>
 
+<<<<<<< HEAD
 
 В следующей таблице перечислены параметры настройки ленты для хранения в таблице **USysRibbons** .
 
@@ -78,6 +83,19 @@ ms.locfileid: "25480437"
 
 
 ## <a name="applying-a-custom-ribbon-when-access-starts"></a>Применение настраиваемой ленты при запуске Access
+=======
+<br/>
+
+В следующей таблице перечислены параметры настройки ленты для хранения в таблице **USysRibbons** .
+
+|Имя столбца|Значение|
+|:----------|:----|
+|**RibbonName**|HideTheRibbon|
+|**RibbonXML**|`<CustomUI xmlns="https://schemas.microsoft.com/office/2006/01/CustomUI"> <ribbon startFromScratch="true"/></CustomUI>`|
+
+
+## <a name="apply-a-custom-ribbon-when-access-starts"></a>Применение настраиваемой ленты при запуске Access
+>>>>>>> master
 
 Чтобы применить настраиваемой ленты, чтобы оно доступно при запуске приложения, используйте следующую процедуру:
 
@@ -85,9 +103,15 @@ ms.locfileid: "25480437"
 
 2.  Закройте и перезапустите приложение.
 
+<<<<<<< HEAD
 3.  Нажмите **Кнопку Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102") и нажмите кнопку **Параметры Access**.
 
 4.  Выберите параметр **Текущей базы данных** , а затем, в разделе **ленты и параметры панели инструментов** выберите в списке **Имя ленты** и выберите **HideTheRibbon**.
+=======
+3.  Нажмите **Кнопку Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102"), а затем выберите **Параметры доступа**.
+
+4.  Выберите параметр **Текущей базы данных** и затем в разделе **ленты и параметры панели инструментов** выберите в списке **Имя ленты** и **HideTheRibbon**.
+>>>>>>> master
 
 5.  Закройте и перезапустите приложение.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250189(v=office.15)
 ms:contentKeyID: 48548464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b867c44e80e3333d0dafdcef9fc166f4384e9469
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a834d9618d41e41c818a6a9d69788eff3724e8a7
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482108"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605473"
 ---
 # <a name="formattedvalue-property-ado-md"></a>FormattedValue Property (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25482108"
 
 Указывает, отформатированный отображаемое значение ячейки.
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Return Values
+=======
+## <a name="return-values"></a>Возвращаемые значения
+>>>>>>> master
 
 Возвращает **строку** и доступен только для чтения.
 

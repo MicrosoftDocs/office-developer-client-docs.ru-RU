@@ -1,19 +1,13 @@
 ---
-title: Item Property Example (VC++)
-TOCTitle: Item Property Example (VC++)
-ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
-ms:contentKeyID: 48543452
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a32f81dc29441cb413c07c3a9e1cdde710d2a959
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480933"
+<<<<<<< Название HEAD: TOCTitle пример свойства элемента (VC ++): пример свойства элемента (VC ++) === название: пример свойства элемента (VC ++) TOCTitle: пример свойства элемента (VC ++)
+>>>>>>> главные ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID: 48543452 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="item-property-example-vc"></a>Item Property Example (VC++)
+=======
+# <a name="item-property-example-vc"></a>Пример свойства элемента (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

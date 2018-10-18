@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fb6edf995651241d15b9bc9fc9df1ce507801bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 84e2e9873e076128c42e9fa7ae46d902f47865c7
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481393"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606027"
 ---
 # <a name="childcount-property-ado-md"></a>ChildCount Property (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25481393"
 
 Указывает число участников, для которых текущего объекта [член](member-object-ado-md.md) является родительской в иерархии.
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Return Values
+=======
+## <a name="return-values"></a>Возвращаемые значения
+>>>>>>> master
 
 Возвращает значение типа **Long** integer и доступен только для чтения.
 

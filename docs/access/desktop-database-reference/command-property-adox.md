@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249671(v=office.15)
 ms:contentKeyID: 48546457
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73f25e063f01518869ee0727d0105d8c83dbdb16
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fb55812de85b9db7273cc6d3be0e6f9bd6545a13
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481855"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605270"
 ---
 # <a name="command-property-adox"></a>Command Property (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25481855"
 
 Указывает объект ADO [команды](command-object-ado.md) , который можно использовать для создания или выполнения процедуры.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает допустимый объект ADO **команды** .
 

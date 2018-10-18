@@ -1,20 +1,14 @@
 ---
-title: 'Пример: свойства ActiveConnection CommandText, CommandTimeout (VJ ++)'
-TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VJ++)
-ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)
-ms:contentKeyID: 48545936
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 96500279d97aadcdec9e0968d931987ab8a299cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481462"
+<<<<<<< Название HEAD: ActiveConnection CommandText, пример свойств CommandTimeout (VJ ++) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, размер и пример свойств направление (VJ ++) ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15) ms:contentKeyID: 48545936 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a>ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VJ++)
 
+=== Название: ActiveConnection, CommandText, пример свойств CommandTimeout (VJ ++) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление ms:assetid пример (VJ ++) свойства: 80e69c20-4bad-c036-3b41-cec9d19e37dd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15) ms:contentKeyID: 48545936 ms.date: 10/17/2018 mtps_version: v=office.15
+---
+
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a>Пример: свойства ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление (VJ ++)
+>>>>>>> master
 
 **Применимо к**: Access 2013 | Office 2013
 

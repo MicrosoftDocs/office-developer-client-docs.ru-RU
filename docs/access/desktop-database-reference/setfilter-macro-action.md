@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fad18c6e7a9ca185e15598b532bbc6de4e5b4f9a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4fe2bceb53b835d4c8adab1a1550185c3a7a122a
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482570"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606397"
 ---
 # <a name="setfilter-macro-action"></a>SetFilter Macro Action
 
@@ -41,11 +41,19 @@ ms.locfileid: "25482570"
 <tbody>
 <tr class="odd">
 <td><p>Имя фильтра</p></td>
+<<<<<<< HEAD
 <td><p>Если этот параметр указан, имя запроса или фильтра, сохраненный как запрос. Этот аргумент или аргумент WhereCondition требуется в базе данных клиента. В веб-база данных этот аргумент недоступен.</p></td>
 </tr>
 <tr class="even">
 <td><p>Условие отбора</p></td>
 <td><p>Если этот параметр указан, SQL предложения WHERE, которое ограничивает число записей в таблице данных, форме, отчете или таблице. В веб-база данных этот аргумент является обязательным.</p></td>
+=======
+<td><p>Если этот параметр указан, имя запроса или фильтра, сохраненный как запрос. Этот аргумент или аргумент WhereCondition требуется в базе данных клиента. В веб-база данных этот аргумент недоступен.</p></td>
+</tr>
+<tr class="even">
+<td><p>Условие отбора</p></td>
+<td><p>Если этот параметр указан, SQL предложения WHERE, которое ограничивает число записей в таблице данных, форме, отчете или таблице. В веб-база данных этот аргумент является обязательным.</p></td>
+>>>>>>>Образец
 </tr>
 <tr class="odd">
 <td><p>Контрольное имя</p></td>

@@ -1,19 +1,13 @@
 ---
-title: Chapter Property (ADO)
-TOCTitle: Chapter Property (ADO)
-ms:assetid: d7c9478e-487f-7023-1dd8-5313433dbc5e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15)
-ms:contentKeyID: 48548014
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f02b20aef2b76ff00ce23b8597132dc22b414993
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482343"
+<<<<<<< Название HEAD: TOCTitle свойство главы (ADO): свойство главы (ADO) === название: свойство главы (ADO) TOCTitle: свойство главы (ADO)
+>>>>>>> главные ms:assetid: d7c9478e-487f-7023-1dd8-5313433dbc5e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15) ms:contentKeyID: 48548014 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="chapter-property-ado"></a>Chapter Property (ADO)
+=======
+# <a name="chapter-property-ado"></a>Свойство главы (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -37,7 +31,11 @@ HRESULT get\_главы (\[out retval\] длинные\* plChapter);
 
   - Дескриптор главы.
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Return Values
+=======
+## <a name="return-values"></a>Возвращаемые значения
+>>>>>>> master
 
 Этот метод свойство возвращает стандартных значений HRESULT, включая S\_ОК и E\_с ОШИБКОЙ.
 

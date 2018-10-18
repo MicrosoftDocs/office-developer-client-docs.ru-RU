@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
 ms:contentKeyID: 48548696
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d7b9b6ccac186f87d0a22a4a55108594cfc55ac9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 910ed7f40b1da2d63ed94b4be0c4e1b17f2744f6
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480904"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602967"
 ---
 # <a name="tabledefopenrecordset-method-dao"></a>TableDef.OpenRecordset Method (DAO)
 
@@ -90,7 +90,11 @@ ms.locfileid: "25480904"
 </table>
 
 
+<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
+=======
+### <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Набор записей
 

@@ -1,19 +1,13 @@
 ---
-title: Строка свойство - ActiveX Data Objects (ADO)
-TOCTitle: Row Property (ADO)
-ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
-ms:contentKeyID: 48543562
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 05d97bb411c4199677f512d9412653ca5a4b4fe1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481199"
+Заголовок: свойство строки - ActiveX Data Objects (ADO) <<<<<<< HEAD TOCTitle: свойство строки (ADO) === TOCTitle: строки свойство (ADO)
+>>>>>>> главные ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15) ms:contentKeyID: 48543562 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="row-property-ado"></a>Row Property (ADO)
+=======
+# <a name="row-property-ado"></a>Свойство строки (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -38,7 +32,11 @@ HRESULT get\_строки (\[out retval\] IUnknown\* \* ppRow);
 
   - Объект OLE DB **строки** .
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Return Values
+=======
+## <a name="return-values"></a>Возвращаемые значения
+>>>>>>> master
 
 Этот метод свойство возвращает стандартных значений HRESULT, включая S\_ОК и E\_с ОШИБКОЙ.
 

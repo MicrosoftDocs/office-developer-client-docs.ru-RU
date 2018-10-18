@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250246(v=office.15)
 ms:contentKeyID: 48548700
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 51c4b8469487652212c2236a741cc277a1b4cc88
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 551ee657018cb10bffa714ffe388849bbbf6bbe1
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481341"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603163"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-basic-topics"></a>ADOX Code Examples in Microsoft Visual Basic Topics
 
@@ -21,6 +21,7 @@ ms.locfileid: "25481341"
 
   - [ADOX Code Examples in Microsoft Visual Basic](adox-code-examples-in-microsoft-visual-basic.md)
 
+<<<<<<< HEAD
   - [Attributes Property Example (VB)](attributes-property-example-vb.md)
 
   - [Catalog ActiveConnection Property Example (VB)](catalog-activeconnection-property-example-vb.md)
@@ -39,7 +40,28 @@ ms.locfileid: "25481341"
 
   - [DefinedSize Property Example (VB)](definedsize-property-example-vb.md)
 
-  - [DeleteRule Property Example (VB)](deleterule-property-example-vb.md)
+  - [Пример свойства DeleteRule (VB)](deleterule-property-example-vb.md)
+=======
+  - [Пример свойства атрибуты (VB)](attributes-property-example-vb.md)
+
+  - [Пример свойства ActiveConnection каталога (VB)](catalog-activeconnection-property-example-vb.md)
+
+  - [Пример свойства кластерные (VB)](clustered-property-example-vb.md)
+
+  - [Столбцы и методы добавления таблиц, пример свойства Name (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
+
+  - [Пример свойства команды и CommandText (VB)](command-and-commandtext-properties-example-vb.md)
+
+  - [Метод Close подключения, пример свойства типа таблица (VB)](connection-close-method-table-type-property-example-vb.md)
+
+  - [Create Method Example (VB)](create-method-example-vb.md)
+
+  - [Пример свойства DateCreated и DateModified (VB)](datecreated-and-datemodified-properties-example-vb.md)
+
+  - [Пример свойства DefinedSize (VB)](definedsize-property-example-vb.md)
+
+  - [Пример свойства DeleteRule (VB)](deleterule-property-example-vb.md)
+>>>>>>> master
 
   - [GetObjectOwner and SetObjectOwner Methods Example (VB)](getobjectowner-and-setobjectowner-methods-example-vb.md)
 
@@ -49,6 +71,7 @@ ms.locfileid: "25481341"
 
   - [Indexes Append Method Example (VB)](indexes-append-method-example-vb.md)
 
+<<<<<<< HEAD
   - [IndexNulls Property Example (VB)](indexnulls-property-example-vb.md)
 
   - [Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
@@ -59,7 +82,20 @@ ms.locfileid: "25481341"
 
   - [ParentCatalog Property Example (VB)](parentcatalog-property-example-vb.md)
 
-  - [PrimaryKey and Unique Properties Example (VB)](primarykey-and-unique-properties-example-vb.md)
+  - [PrimaryKey и пример уникальные свойства (VB)](primarykey-and-unique-properties-example-vb.md)
+=======
+  - [Пример свойства IndexNulls (VB)](indexnulls-property-example-vb.md)
+
+  - [Пример свойства ключей добавить метод, тип ключа RelatedColumn, RelatedTable и UpdateRule (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+
+  - [Пример свойства NumericScale и точность (VB)](numericscale-and-precision-properties-example-vb.md)
+
+  - [Коллекции параметров, пример свойства команды (VB)](parameters-collection-command-property-example-vb.md)
+
+  - [Пример свойства ParentCatalog (VB)](parentcatalog-property-example-vb.md)
+
+  - [Пример свойства PrimaryKey и Unique (VB)](primarykey-and-unique-properties-example-vb.md)
+>>>>>>> master
 
   - [Procedures Append Method Example (VB)](procedures-append-method-example-vb.md)
 
@@ -67,13 +103,21 @@ ms.locfileid: "25481341"
 
   - [Procedures Refresh Method Example (VB)](procedures-refresh-method-example-vb.md)
 
-  - [SortOrder Property Example (VB)](sortorder-property-example-vb.md)
+<<<<<<< HEAD
+  - [Пример свойства SortOrder (VB)](sortorder-property-example-vb.md)
+=======
+  - [Пример свойства SortOrder (VB)](sortorder-property-example-vb.md)
+>>>>>>> master
 
   - [Views and Fields Collections Example (VB)](views-and-fields-collections-example-vb.md)
 
   - [Views Append Method Example (VB)](views-append-method-example-vb.md)
 
-  - [Views Collection, CommandText Property Example (VB)](views-collection-commandtext-property-example-vb.md)
+<<<<<<< HEAD
+  - [Коллекции представлений, пример свойства CommandText (VB)](views-collection-commandtext-property-example-vb.md)
+=======
+  - [Коллекции представлений, пример свойства CommandText (VB)](views-collection-commandtext-property-example-vb.md)
+>>>>>>> master
 
   - [Views Delete Method Example (VB)](views-delete-method-example-vb.md)
 

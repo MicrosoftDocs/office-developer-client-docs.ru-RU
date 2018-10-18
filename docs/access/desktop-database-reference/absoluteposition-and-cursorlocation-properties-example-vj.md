@@ -1,20 +1,14 @@
 ---
-title: AbsolutePosition and CursorLocation Properties Example (VJ++)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VJ++)
-ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15)
-ms:contentKeyID: 48544223
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: e864745821dd8d251740bfa816112a0a701c4784
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483057"
+<<<<<<< Название HEAD: AbsolutePosition и TOCTitle пример свойств CursorLocation (VJ ++): AbsolutePosition и пример: свойства CursorLocation (VJ ++) ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15) MS:contentKeyID: 48544223 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
 # <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a>AbsolutePosition and CursorLocation Properties Example (VJ++)
 
+=== Название: пример: свойства AbsolutePosition и CursorLocation (VJ ++) TOCTitle: AbsolutePosition и CursorLocation ms:assetid пример (VJ ++) свойства: 38872022-8a65-680f-20af-086e4d9d7b6a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15) ms:contentKeyID: 48544223 MS.Date: 10/17/2018 mtps_version: v=office.15
+---
+
+# <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a>Пример: свойства AbsolutePosition и CursorLocation (VJ ++)
+>>>>>>> master
 
 **Применимо к**: Access 2013 | Office 2013
 

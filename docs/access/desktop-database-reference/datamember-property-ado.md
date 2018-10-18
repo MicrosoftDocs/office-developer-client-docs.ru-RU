@@ -1,25 +1,23 @@
 ---
-title: DataMember Property (ADO)
-TOCTitle: DataMember Property (ADO)
-ms:assetid: f89e1d42-7993-764b-4e8a-2f449903f792
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250263(v=office.15)
-ms:contentKeyID: 48548787
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3a67864ab135c59f146a27f997d4b0df63865a50
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483156"
+<<<<<<< Название HEAD: TOCTitle свойство DataMember (ADO): свойство DataMember (ADO) === название: свойства DataMember (ADO) TOCTitle: свойства DataMember (ADO)
+>>>>>>> главные ms:assetid: f89e1d42-7993-764b-4e8a-2f449903f792 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250263(v=office.15) ms:contentKeyID: 48548787 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="datamember-property-ado"></a>DataMember Property (ADO)
+=======
+# <a name="datamember-property-ado"></a>Свойство DataMember (ADO)
+>>>>>>> master
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает имя элемента данных, который извлекается из объекта ссылается свойство [DataSource](datasource-property-ado.md) .
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает **строковое** значение. Имя не учитывают регистр.
 

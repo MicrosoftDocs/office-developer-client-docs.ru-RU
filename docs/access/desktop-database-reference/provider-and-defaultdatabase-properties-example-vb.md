@@ -1,19 +1,13 @@
 ---
-title: Provider and DefaultDatabase Properties Example (VB)
-TOCTitle: Provider and DefaultDatabase Properties Example (VB)
-ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15)
-ms:contentKeyID: 48544107
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 445315a3d5271d5566667916180a05de74d44980
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480431"
+<<<<<<< Название HEAD: поставщика и TOCTitle пример свойства DefaultDatabase (VB): поставщика и пример свойства DefaultDatabase (VB) === название: пример свойства поставщика и DefaultDatabase (VB) TOCTitle: поставщик и Пример: свойства DefaultDatabase (VB)
+>>>>>>> главные ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: 48544107 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="provider-and-defaultdatabase-properties-example-vb"></a>Provider and DefaultDatabase Properties Example (VB)
+=======
+# <a name="provider-and-defaultdatabase-properties-example-vb"></a>Пример свойства поставщика и DefaultDatabase (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

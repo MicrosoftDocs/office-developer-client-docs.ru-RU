@@ -1,26 +1,24 @@
 ---
-title: ConnectionString Property (ADO)
-TOCTitle: ConnectionString Property (ADO)
-ms:assetid: c67a7daf-258f-d99d-6475-a4aa98d1e99d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15)
-ms:contentKeyID: 48547627
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 90e884f821c3ca7667020ffe041b4e064555c02b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482361"
+<<<<<<< Название HEAD: TOCTitle свойство ConnectionString (ADO): свойство ConnectionString (ADO) === название: (ADO) и свойство ConnectionString TOCTitle: свойства ConnectionString (ADO)
+>>>>>>> главные ms:assetid: c67a7daf-258f-d99d-6475-a4aa98d1e99d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15) ms:contentKeyID: 48547627 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="connectionstring-property-ado"></a>ConnectionString Property (ADO)
+=======
+# <a name="connectionstring-property-ado"></a>Свойство ConnectionString (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает сведения, используемые для установления подключения к источнику данных.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает **строковое** значение.
 

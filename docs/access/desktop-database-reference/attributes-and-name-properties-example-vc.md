@@ -1,19 +1,13 @@
 ---
-title: Attributes and Name Properties Example (VC++)
-TOCTitle: Attributes and Name Properties Example (VC++)
-ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15)
-ms:contentKeyID: 48545203
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 56346ce15c2598686ab3684a1a972e276d94e939
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483089"
+<<<<<<< Название HEAD: атрибуты и TOCTitle пример свойств имя (VC ++): атрибуты и пример: имя свойства (VC ++) === название: атрибуты и пример: имя свойства (VC ++) TOCTitle: атрибуты и пример (имя свойства VC++)
+>>>>>>> главные ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15) ms:contentKeyID: 48545203 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="attributes-and-name-properties-example-vc"></a>Attributes and Name Properties Example (VC++)
+=======
+# <a name="attributes-and-name-properties-example-vc"></a>Атрибуты и пример: имя свойства (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

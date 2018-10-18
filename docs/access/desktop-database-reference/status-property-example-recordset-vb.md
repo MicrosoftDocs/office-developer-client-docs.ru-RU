@@ -1,19 +1,13 @@
 ---
-title: Status Property Example (Recordset) (VB)
-TOCTitle: Status Property Example (Recordset) (VB)
-ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
-ms:contentKeyID: 48546476
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 05feda1ee3474fc8eccc18d5ebfc48d9ace174d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480809"
+<<<<<<< Название HEAD: пример свойства состояния (записей) (VB) TOCTitle: пример свойства состояния (записей) (VB) === название: пример свойства состояния (записей) (VB) TOCTitle: пример свойства состояния (записей) (VB)
+>>>>>>> главные ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15) ms:contentKeyID: 48546476 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="status-property-example-recordset-vb"></a>Status Property Example (Recordset) (VB)
+=======
+# <a name="status-property-example-recordset-vb"></a>Пример свойства состояния (записей) (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

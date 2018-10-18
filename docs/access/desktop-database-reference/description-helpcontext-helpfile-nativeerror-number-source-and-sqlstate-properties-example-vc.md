@@ -1,19 +1,13 @@
 ---
-title: 'Пример: свойства Description, HelpContext, HelpFile (VC ++)'
-TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)
-ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
-ms:contentKeyID: 48543369
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8216021745ee4b4fe6dda43a1a0f48f0eb5b9214
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479972"
+<<<<<<< Название HEAD: описание HelpContext, пример свойств HelpFile (VC ++) TOCTitle: описание, HelpContext, файл справки, NativeError, номер, источника и пример свойств SQLState (VC ++) === название: описание, HelpContext, пример свойств HelpFile (VC ++) TOCTitle: пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState (VC ++)
+>>>>>>> главные ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15) ms:contentKeyID: 48543369 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VC++)
+=======
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33570bec65de4ff88667ad90b591c4f288c86d96
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 34e691edd429b5d7f00da0c8eb994ffd999c6305
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481629"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603954"
 ---
 # <a name="shape-commands-in-general"></a>Shape Commands in General
 
@@ -62,7 +62,9 @@ ms.locfileid: "25481629"
 
 Можно использовать предложение присоединиться к SQL для связи двух таблиц; Тем не менее иерархические **записей** может представлять данные более эффективно. Каждая строка **набора записей** , созданных с помощью СОЕДИНЕНИЯ повторяет сведения о избыточностью из одной из таблиц. Иерархическая **набора записей** имеет только один родительский **набор записей** для каждого из нескольких дочерних объектов **набора записей** .
 
-Фигура команды могут выполняться с помощью объектов **набора записей** или путем установки свойства [CommandText](commandtext-property-ado.md) объекта [команды](command-object-ado.md) и вызова метода [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
+<<<<<<< Фигуры HEAD команды могут выполняться с помощью объектов **набора записей** или путем установки свойства [CommandText](commandtext-property-ado.md) объекта [команды](command-object-ado.md) и вызова метода [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
+=== Команды фигуры могут выполняться с помощью объектов **набора записей** или путем установки свойства [CommandText](commandtext-property-ado.md) объекта [команды](command-object-ado.md) и вызова метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) .
+>>>>>>> master
 
 Фигура команды могут быть вложенными. То есть *команда родительского* или *дочернего командной* самого возможно другую фигуру, команда.
 

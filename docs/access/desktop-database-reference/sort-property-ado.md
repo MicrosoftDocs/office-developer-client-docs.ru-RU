@@ -1,26 +1,24 @@
 ---
-title: Sort Property (ADO)
-TOCTitle: Sort Property (ADO)
-ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15)
-ms:contentKeyID: 48548652
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f7e78357e2b662f5b94c2bbcbbe563e4001bcc56
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480445"
+<<<<<<< Название HEAD: TOCTitle свойство сортировки (ADO): свойство сортировки (ADO) === заголовок: сортировать свойство (ADO) TOCTitle: сортировать свойство (ADO)
+>>>>>>> главные ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15) ms:contentKeyID: 48548652 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="sort-property-ado"></a>Sort Property (ADO)
+=======
+# <a name="sort-property-ado"></a>Свойство сортировки (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает одно или несколько имен полей на которых сортироваться [записей](recordset-object-ado.md) и ли сортироваться в каждом поле в возрастающем или убывающем порядке.
 
+<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+=======
+## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+>>>>>>> master
 
 Задает или возвращает **строковое** значение, указывающее, имена полей в наборе **записей** , по которому выполняется сортировка. Имя каждого разделенных точкой с запятой и при необходимости следуют пустым и ключевых слов, **ASC**, с которым Сортировка поля в порядке возрастания или **DESC**, который выполняется сортировка поля в порядке убывания. По умолчанию если нет ключевых слов не указан, то это поле является сортироваться в восходящем порядке.
 

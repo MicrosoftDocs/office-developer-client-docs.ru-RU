@@ -1,19 +1,13 @@
 ---
-title: Source Property Example (VJ++)
-TOCTitle: Source Property Example (VJ++)
-ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
-ms:contentKeyID: 48547821
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: aef4ad0bf1146236ba2df7ab51dd28005656c012
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481335"
+<<<<<<< Название HEAD: пример свойства источника (VJ ++) TOCTitle: пример свойства источника (VJ ++) === название: пример свойства источника (VJ ++) TOCTitle: пример свойства источника (VJ ++)
+>>>>>>> главные ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID: 48547821 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="source-property-example-vj"></a>Source Property Example (VJ++)
+=======
+# <a name="source-property-example-vj"></a>Пример свойства источника (VJ ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

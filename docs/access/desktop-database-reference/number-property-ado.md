@@ -1,26 +1,24 @@
 ---
-title: Number Property (ADO)
-TOCTitle: Number Property (ADO)
-ms:assetid: b5103af5-356b-ec74-cd62-86e59467d491
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15)
-ms:contentKeyID: 48547243
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 4e9b048643b1892197f610ef6d53e6ba46b170d8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479765"
+<<<<<<< Заголовок HEAD: TOCTitle свойство номер (ADO): свойство номер (ADO) === заголовка: число свойств (ADO) TOCTitle: номер свойство (ADO)
+>>>>>>> главные ms:assetid: b5103af5-356b-ec74-cd62-86e59467d491 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15) ms:contentKeyID: 48547243 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="number-property-ado"></a>Number Property (ADO)
+=======
+# <a name="number-property-ado"></a>Свойство Number (ADO)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает число, уникально идентифицирующий объект [Error](error-object-ado.md) .
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
+=======
+## <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Возвращает значение типа **Long** , могут соответствовать одному из константы [ErrorValueEnum](errorvalueenum.md) .
 

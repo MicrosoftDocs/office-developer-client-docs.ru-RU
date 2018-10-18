@@ -1,19 +1,13 @@
 ---
-title: Attributes and Name Properties Example (VJ++)
-TOCTitle: Attributes and Name Properties Example (VJ++)
-ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
-ms:contentKeyID: 48547035
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9671fa58cb9d4c6c56361e143ed81877154e1290
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479973"
+<<<<<<< Название HEAD: атрибуты и TOCTitle пример свойств имя (VJ ++): атрибуты и пример: имя свойства (VJ ++) === название: атрибуты и пример: имя свойства (VJ ++) TOCTitle: атрибуты и пример (имя свойства VJ++)
+>>>>>>> главные ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID: 48547035 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="attributes-and-name-properties-example-vj"></a>Attributes and Name Properties Example (VJ++)
+=======
+# <a name="attributes-and-name-properties-example-vj"></a>Атрибуты и пример: имя свойства (VJ ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

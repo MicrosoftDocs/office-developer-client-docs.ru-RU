@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248816(v=office.15)
 ms:contentKeyID: 48543055
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29c6723d710fcf3a8114fb4460326d87261c3fc1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7dd66e0288e20bcf38adefc2fcc30f1856ebf3e6
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480472"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606873"
 ---
 # <a name="description-property-ado-md"></a>Description Property (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25480472"
 
 Возвращает описание текста текущего объекта.
 
+<<<<<<< HEAD
 ## <a name="return-values"></a>Return Values
+=======
+## <a name="return-values"></a>Возвращаемые значения
+>>>>>>> master
 
 Возвращает **строку** и доступен только для чтения.
 

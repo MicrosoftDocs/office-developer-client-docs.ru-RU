@@ -1,25 +1,23 @@
 ---
-title: ParentURL Property (ADO)
-TOCTitle: ParentURL Property (ADO)
-ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15)
-ms:contentKeyID: 48548517
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0fb5e8683bcf7ebe0905b21f169f71834ed424e4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483160"
+<<<<<<< Название HEAD: TOCTitle свойство ParentURL (ADO): свойство ParentURL (ADO) === название: свойство ParentURL (ADO) TOCTitle: свойство ParentURL (ADO)
+>>>>>>> главные ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15) ms:contentKeyID: 48548517 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="parenturl-property-ado"></a>ParentURL Property (ADO)
+=======
+# <a name="parenturl-property-ado"></a>Свойство ParentURL (ADO)
+>>>>>>> master
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает строку абсолютный URL-адрес, указывающий на родительской [записи](record-object-ado.md) текущего объекта **записи** .
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
+=======
+## <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Возвращает **строковое** значение, которое указывает URL-адрес родительской **записи**.
 

@@ -1,25 +1,23 @@
 ---
-title: OriginalValue Property (ADO)
-TOCTitle: OriginalValue Property (ADO)
-ms:assetid: 02ffc728-4692-d439-e2a6-2f02cca53a71
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15)
-ms:contentKeyID: 48542974
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 40c93066de525eaafa9c1c40a7d7c5d543d42f2d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482317"
+<<<<<<< Название HEAD: TOCTitle свойство OriginalValue (ADO): свойство OriginalValue (ADO) === название: свойство OriginalValue (ADO) TOCTitle: свойство OriginalValue (ADO)
+>>>>>>> главные ms:assetid: 02ffc728-4692-d439-e2a6-2f02cca53a71 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15) ms:contentKeyID: 48542974 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="originalvalue-property-ado"></a>OriginalValue Property (ADO)
+=======
+# <a name="originalvalue-property-ado"></a>Свойство OriginalValue (ADO)
+>>>>>>> master
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает значение [поля](field-object-ado.md) , которое существовало в записи до внесения изменений.
 
+<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
+=======
+## <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 Возвращает значение **типа Variant** , который представляет значение поля до изменения.
 

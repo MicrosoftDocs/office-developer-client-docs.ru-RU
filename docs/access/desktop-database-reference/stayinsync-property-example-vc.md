@@ -1,19 +1,13 @@
 ---
-title: StayInSync Property Example (VC++)
-TOCTitle: StayInSync Property Example (VC++)
-ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15)
-ms:contentKeyID: 48544485
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 42203001135e65056ff5370637d4b5bea3f7a515
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480877"
+<<<<<<< Название HEAD: пример свойства StayInSync (VC ++) TOCTitle: пример свойства StayInSync (VC ++) === название: пример свойства StayInSync (VC ++) TOCTitle: пример свойства StayInSync (VC ++)
+>>>>>>> главные ms:assetid: 42c389a8-e6d5-45f4-0442-1b2a2422dcbe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15) ms:contentKeyID: 48544485 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="stayinsync-property-example-vc"></a>StayInSync Property Example (VC++)
+=======
+# <a name="stayinsync-property-example-vc"></a>Пример свойства StayInSync (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

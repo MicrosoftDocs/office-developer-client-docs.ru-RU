@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d68a15873bc5030fd51e54c2219a0ffd91f080f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9f37a188fd3ddb3608eda414fbdcea6402cd9d41
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481922"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603947"
 ---
 # <a name="address-book-navigation-buttons"></a>Address Book Navigation Buttons
 
 
 **Применимо к**: Access 2013 | Office 2013
 
-Адресная книга приложения отображаются кнопки навигации в нижней части веб-страницы. Можно использовать кнопки перехода для перемещения по данным в отображение сетки HTML, выбрав либо первой или последней строки данных или рядом с текущего выделения строк.
+<<<<<<< HEAD. Адресная книга приложения отображаются кнопки навигации в нижней части веб-страницы. Можно использовать кнопки перехода для перемещения по данным в отображение сетки HTML, выбрав либо первой или последней строки данных или рядом с текущего выделения строк.
+=== Приложение адресной книги отображаются кнопки навигации в нижней части веб-страницы. Можно использовать кнопки перехода для перемещения по данным в отображение сетки HTML, выбрав либо первой или последней строки данных или рядом с текущего выделения строк.
+>>>>>>> master
 
 ## <a name="navigation-sub-procedures"></a>Процедуры Sub навигации
 

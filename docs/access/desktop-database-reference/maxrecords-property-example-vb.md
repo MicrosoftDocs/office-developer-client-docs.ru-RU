@@ -1,19 +1,13 @@
 ---
-title: MaxRecords Property Example (VB)
-TOCTitle: MaxRecords Property Example (VB)
-ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15)
-ms:contentKeyID: 48548241
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8ac83b701603996da2a143dcd26567d3f1ece51e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480993"
+<<<<<<< Название HEAD: TOCTitle примере свойство MaxRecords (VB): пример свойства MaxRecords (VB) === название: пример свойства MaxRecords (VB) TOCTitle: пример свойства MaxRecords (VB)
+>>>>>>> главные ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15) ms:contentKeyID: 48548241 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="maxrecords-property-example-vb"></a>MaxRecords Property Example (VB)
+=======
+# <a name="maxrecords-property-example-vb"></a>Пример свойства MaxRecords (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

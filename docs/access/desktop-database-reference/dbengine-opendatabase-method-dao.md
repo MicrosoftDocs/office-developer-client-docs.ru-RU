@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6999c003883675837ad333b6488820f3bb3a9f2e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 54078705c67e892b80a08ce2bd31db191c7fc70c
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482907"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606160"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase Method (DAO)
 
@@ -76,7 +76,11 @@ ms.locfileid: "25482907"
 </table>
 
 
+<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
+=======
+### <a name="return-value"></a>Возвращаемое значение
+>>>>>>> master
 
 База данных
 
@@ -101,7 +105,7 @@ ms.locfileid: "25482907"
 <td><p>Открывает базу данных в монопольном режиме.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Значение false</strong></p></td>
+<td><p><strong>False</strong></p></td>
 <td><p>(По умолчанию) Открывает базу данных в режиме общего доступа.</p></td>
 </tr>
 </tbody>

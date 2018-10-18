@@ -1,19 +1,13 @@
 ---
-title: ActualSize and DefinedSize Properties Example (VB)
-TOCTitle: ActualSize and DefinedSize Properties Example (VB)
-ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15)
-ms:contentKeyID: 48548884
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 4c3d06a5937ed58843271aa2787d5a6f861f981c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481901"
+<<<<<<< Название HEAD: ActualSize и TOCTitle пример свойства DefinedSize (VB): ms:assetid ActualSize и пример свойства DefinedSize (VB): fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID: 48548884 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
 # <a name="actualsize-and-definedsize-properties-example-vb"></a>ActualSize and DefinedSize Properties Example (VB)
+=== Название: пример свойства ActualSize и DefinedSize (VB) TOCTitle: ActualSize и DefinedSize ms:assetid пример (VB) свойства: fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID: 48548884 ms.date: 10/16/2018 mtps _version: v=office.15
+---
+
+# <a name="actualsize-and-definedsize-properties-example-vb"></a>Пример свойства ActualSize и DefinedSize (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

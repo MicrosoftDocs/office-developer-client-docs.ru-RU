@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: abb461473d15f163fac6ea00f2af5d39f7b40d0a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3f551e4c377a0c24a0b733ff094e19d1b75d725
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482834"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606404"
 ---
 # <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>Configuring DataFactory for Safe or Unrestricted Modes
 
@@ -30,7 +30,9 @@ ms.locfileid: "25482834"
 
 Настройка записей реестра обработчик для настройки безопасных было предоставлено handsafe.reg файла реестра. Чтобы запустить в безопасном режиме, запустите handsafe.reg. Настройка записей реестра обработчик для неограниченный конфигурации было предоставлено handunsf.reg файла реестра. Чтобы запустить в режиме без ограничений, запустите handunsf.reg.
 
-После выполнения handsafe.reg или handunsf.reg, необходимо остановить и перезапустить службу публикации Интернета на веб-сервере, введя следующие команды в командной строке: «NET STOP W3SVC» и «W3SVC ЗАПУСТИТЕ NET».
+<<<<<<< HEAD после выполнения handsafe.reg или handunsf.reg, необходимо остановить и перезапустить службу публикации Интернета на веб-сервере, введя следующие команды в командной строке: «NET STOP W3SVC» и «W3SVC ЗАПУСТИТЕ NET».
+=== После запуска handsafe.reg или handunsf.reg, необходимо остановить и перезапустить службу публикации Интернета на веб-сервере, введя следующие команды в командной строке: «NET STOP W3SVC» и «W3SVC ЗАПУСТИТЕ NET».
+>>>>>>> master
 
 Дополнительные сведения об использовании компонента обработчика настройки из служб удаленных рабочих СТОЛОВ в статье технические с помощью компонента обработчика настройки в 2.1 служб удаленных рабочих СТОЛОВ.
 

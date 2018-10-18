@@ -1,19 +1,13 @@
 ---
-title: IsolationLevel and Mode Properties Example (VB)
-TOCTitle: IsolationLevel and Mode Properties Example (VB)
-ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15)
-ms:contentKeyID: 48546999
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d4bf210ce363172b25da1f8f7586201f62cc8166
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480263"
+<<<<<<< Название HEAD: IsolationLevel и TOCTitle пример свойств Mode (VB): IsolationLevel и пример свойств Mode (VB) === название: пример свойства IsolationLevel и режиме (VB) TOCTitle: IsolationLevel и режим Пример: свойства (VB)
+>>>>>>> главные ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15) ms:contentKeyID: 48546999 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="isolationlevel-and-mode-properties-example-vb"></a>IsolationLevel and Mode Properties Example (VB)
+=======
+# <a name="isolationlevel-and-mode-properties-example-vb"></a>Пример свойства IsolationLevel и режиме (VB)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

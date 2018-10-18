@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249557(v=office.15)
 ms:contentKeyID: 48545952
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c1071751df32fbfe89a4ee47e9c6a0613dce68e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 806b2292b12bededd299a0ef628601589afe0ce9
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482438"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603142"
 ---
 # <a name="record-object-ado"></a>Record Object (ADO)
 
@@ -36,9 +36,14 @@ ms.locfileid: "25482438"
 
 Данные изменения и навигации методы объекта **запись** также принимать относительный URL-адрес, который определяет местонахождение ресурса с помощью абсолютный URL-адрес или контекста объекта **подключения** в качестве отправной точки.
 
+<<<<<<< HEAD
 
 > [!NOTE]
 > <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
+=======
+> [!NOTE]
+> URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
+>>>>>>> master
 
 
 

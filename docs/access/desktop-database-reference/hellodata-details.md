@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250105(v=office.15)
 ms:contentKeyID: 48548103
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6de174362e014af3e90686e53a563a10e04ec665
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c25197f0a8a45487f93f56543f73a2beeea062ff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481189"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603157"
 ---
 # <a name="hellodata-details"></a>HelloData Details
 
@@ -28,7 +28,9 @@ GetData помещает это допустимая строка подключ
 
 После открытия подключения присвойте переменной (sSQL) строки SQL. Затем создайте экземпляр объекта **набора записей** , m\_oRecordset1. В следующей строке кода откройте через существующие **подключения**, передав в **набора записей** . В следующей строке кода откройте **записей** через существующие **подключения**, передав sSQL в качестве источника **записей**. ADO помочь в создании определение, что строка SQL, переданной в качестве источника для **набора записей** — текстовое определение команды, передав **adCmdText** в последний аргумент методу **записей** **Open** . Эта строка также задает **LockType для** и **CursorType** связана с **набора записей**.
 
-Следующая строка кода задает свойство **MarshalOptions** равно **adMarshalModifiedOnly**. **MarshalOptions** указывает, какие записи маршалинга средний уровень (или веб-сервера). Дополнительные сведения о маршалинга COM см. При использовании **adMarshalModifiedOnly** с курсором со стороны клиента ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), только записи, которые были изменены в клиенте записываются на среднем уровне. Установка **MarshalOptions** для **adMarshalModifiedOnly** могут улучшить производительность, так как упаковать меньшее число строк.
+<<<<<<< HEAD следующая строка кода задает свойство **MarshalOptions** равно **adMarshalModifiedOnly**. **MarshalOptions** указывает, какие записи маршалинга средний уровень (или веб-сервера). Дополнительные сведения о маршалинга COM см. При использовании **adMarshalModifiedOnly** с курсором со стороны клиента ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), только записи, которые были изменены в клиенте записываются на среднем уровне. Установка **MarshalOptions** для **adMarshalModifiedOnly** могут улучшить производительность, так как упаковать меньшее число строк.
+=== Следующая строка кода задает свойство **MarshalOptions** равно **adMarshalModifiedOnly**. **MarshalOptions** указывает, какие записи маршалинга средний уровень (или веб-сервера). Дополнительные сведения о маршалинга COM см. При использовании **adMarshalModifiedOnly** с курсором со стороны клиента ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**), только записи, которые были изменены в клиенте записываются на среднем уровне. Установка **MarshalOptions** для **adMarshalModifiedOnly** могут улучшить производительность, так как упаковать меньшее число строк.
+>>>>>>> master
 
 Затем отключите **записей** путем установки свойства **ActiveConnection** равна **Nothing**. Для получения дополнительных сведений см [Disconnecting и повторного подключения набора записей](disconnecting-and-reconnecting-the-recordset.md) в главе 5: обновления и сохранение данных.
 

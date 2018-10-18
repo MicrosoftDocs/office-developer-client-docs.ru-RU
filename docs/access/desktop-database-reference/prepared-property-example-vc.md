@@ -1,19 +1,13 @@
 ---
-title: Prepared Property Example (VC++)
-TOCTitle: Prepared Property Example (VC++)
-ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
-ms:contentKeyID: 48546562
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5af614ada8ddc1ef68c40655cc0afb6832975d81
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480501"
+<<<<<<< Название HEAD: TOCTitle подготовлено пример свойства (VC ++): подготовлено пример свойства (VC ++) === название: пример свойства подготовленный (VC ++) TOCTitle: пример свойства подготовленный (VC ++)
+>>>>>>> главные ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15) ms:contentKeyID: 48546562 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="prepared-property-example-vc"></a>Prepared Property Example (VC++)
+=======
+# <a name="prepared-property-example-vc"></a>Пример свойства подготовленный (VC ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013

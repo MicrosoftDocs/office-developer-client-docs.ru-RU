@@ -1,19 +1,13 @@
 ---
-title: Version Property Example (VJ++)
-TOCTitle: Version Property Example (VJ++)
-ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
-ms:contentKeyID: 48547600
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d0f96081b484094837ee9cc2e472db55fb5d9144
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482055"
+<<<<<<< Название HEAD: TOCTitle примере свойство Version (VJ ++): примере свойство Version (VJ ++) === название: примере свойство Version (VJ ++) TOCTitle: примере свойство Version (VJ ++)
+>>>>>>> главные ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15) ms:contentKeyID: 48547600 ms.date: 09/18/2015 mtps_version: v=office.15
 ---
+
+<<<<<<< HEAD
 # <a name="version-property-example-vj"></a>Version Property Example (VJ++)
+=======
+# <a name="version-property-example-vj"></a>Пример свойства версии (VJ ++)
+>>>>>>> master
 
 
 **Применимо к**: Access 2013 | Office 2013
