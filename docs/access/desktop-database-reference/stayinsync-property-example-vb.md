@@ -1,26 +1,20 @@
 ---
-title: StayInSync Property Example (VB)
-TOCTitle: StayInSync Property Example (VB)
-ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15)
-ms:contentKeyID: 48543535
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0c12ca42ec30ef40c6ef1f7c943079b4db58307a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482734"
+<span data-ttu-id="5435b-101"><<<<<<< Название HEAD: TOCTitle примере свойство StayInSync (VB): пример свойства StayInSync (VB) === название: пример свойства StayInSync (VB) TOCTitle: пример свойства StayInSync (VB)</span><span class="sxs-lookup"><span data-stu-id="5435b-101"><<<<<<< HEAD title: StayInSync Property Example (VB) TOCTitle: StayInSync Property Example (VB) ======= title: StayInSync property example (VB) TOCTitle: StayInSync property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="5435b-102">главные ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15) ms:contentKeyID: 48543535 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="5435b-102">master ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15) ms:contentKeyID: 48543535 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="stayinsync-property-example-vb"></a><span data-ttu-id="c5f51-102">StayInSync Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="c5f51-102">StayInSync Property Example (VB)</span></span>
+
+<span data-ttu-id="5435b-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="5435b-103"><<<<<<< HEAD</span></span>
+# <a name="stayinsync-property-example-vb"></a><span data-ttu-id="5435b-104">StayInSync Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="5435b-104">StayInSync Property Example (VB)</span></span>
+=======
+# <a name="stayinsync-property-example-vb"></a><span data-ttu-id="5435b-105">Пример свойства StayInSync (VB)</span><span class="sxs-lookup"><span data-stu-id="5435b-105">StayInSync property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="5435b-106">master</span><span class="sxs-lookup"><span data-stu-id="5435b-106">master</span></span>
 
 
-<span data-ttu-id="c5f51-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c5f51-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="5435b-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5435b-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c5f51-104">В этом примере показано, как свойство [StayInSync](stayinsync-property-ado.md) упрощает доступ к строк в иерархической [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c5f51-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="5435b-108">В этом примере показано, как свойство [StayInSync](stayinsync-property-ado.md) упрощает доступ к строк в иерархической [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="5435b-108">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="c5f51-105">Внешний цикл отображается имя и фамилию, состояние и идентификации каждого автора.</span><span class="sxs-lookup"><span data-stu-id="c5f51-105">The outer loop displays each author's first and last name, state, and identification.</span></span> <span data-ttu-id="c5f51-106">Добавленный **набора записей** для каждой строки извлекается из коллекции [полей](fields-collection-ado.md) и автоматически назначается **rstTitleAuthor** свойством **StayInSync** при перемещении родительского **набора записей** на новую строку.</span><span class="sxs-lookup"><span data-stu-id="c5f51-106">The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row.</span></span> <span data-ttu-id="c5f51-107">Внутренний цикл отображаются четыре поля из каждой строки в присоединенной записей.</span><span class="sxs-lookup"><span data-stu-id="c5f51-107">The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="5435b-109">Внешний цикл отображается имя и фамилию, состояние и идентификации каждого автора.</span><span class="sxs-lookup"><span data-stu-id="5435b-109">The outer loop displays each author's first and last name, state, and identification.</span></span> <span data-ttu-id="5435b-110">Добавленный **набора записей** для каждой строки извлекается из коллекции [полей](fields-collection-ado.md) и автоматически назначается **rstTitleAuthor** свойством **StayInSync** при перемещении родительского **набора записей** на новую строку.</span><span class="sxs-lookup"><span data-stu-id="5435b-110">The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row.</span></span> <span data-ttu-id="5435b-111">Внутренний цикл отображаются четыре поля из каждой строки в присоединенной записей.</span><span class="sxs-lookup"><span data-stu-id="5435b-111">The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```vb 
  

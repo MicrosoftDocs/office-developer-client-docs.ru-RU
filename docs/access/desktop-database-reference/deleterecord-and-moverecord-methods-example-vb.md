@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250268(v=office.15)
 ms:contentKeyID: 48548815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cddc944cbf0aff981495b38dff64dbe62d1483f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d260c0413cc542b6875fbe37fdd22e28fdcf53a5
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483100"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602400"
 ---
-# <a name="deleterecord-and-moverecord-methods-example-vb"></a><span data-ttu-id="64f42-102">DeleteRecord and MoveRecord Methods Example (VB)</span><span class="sxs-lookup"><span data-stu-id="64f42-102">DeleteRecord and MoveRecord Methods Example (VB)</span></span>
+# <a name="deleterecord-and-moverecord-methods-example-vb"></a><span data-ttu-id="17047-102">DeleteRecord and MoveRecord Methods Example (VB)</span><span class="sxs-lookup"><span data-stu-id="17047-102">DeleteRecord and MoveRecord Methods Example (VB)</span></span>
 
 
-<span data-ttu-id="64f42-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="64f42-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="17047-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="17047-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="64f42-104">В этом примере показано, как скопировать, переместить, изменение и удаление содержимое в текстовый файл, опубликованной в веб-папку.</span><span class="sxs-lookup"><span data-stu-id="64f42-104">This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a Web folder.</span></span> <span data-ttu-id="64f42-105">Другие свойства и методы, используемые включают [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [источника](source-property-ado-record.md)и [Очистка](flush-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="64f42-105">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
+<span data-ttu-id="17047-104"><<<<<<< HEAD, в этом примере показано, как скопировать, переместить, изменять и удалять содержимое в текстовый файл, опубликованной в веб-папку.</span><span class="sxs-lookup"><span data-stu-id="17047-104"><<<<<<< HEAD This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a Web folder.</span></span> <span data-ttu-id="17047-105">Другие свойства и методы, используемые включают [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [источника](source-property-ado-record.md)и [Очистка](flush-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="17047-105">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
+<span data-ttu-id="17047-106">=== В этом примере показано, как скопировать, переместить, изменение и удаление содержимое в текстовый файл, опубликованной в веб-папку.</span><span class="sxs-lookup"><span data-stu-id="17047-106">======= This example demonstrates how to copy, move, edit, and delete the contents of a text file published to a web folder.</span></span> <span data-ttu-id="17047-107">Другие свойства и методы, используемые включают [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [источника](source-property-ado-record.md)и [Очистка](flush-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="17047-107">Other properties and methods used include [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [Source](source-property-ado-record.md), and [Flush](flush-method-ado.md).</span></span>
+>>>>>>> <span data-ttu-id="17047-108">master</span><span class="sxs-lookup"><span data-stu-id="17047-108">master</span></span>
 
 ```vb 
  

@@ -1,24 +1,18 @@
 ---
-title: Columns and Tables Append Methods, Name Property Example (VC++)
-TOCTitle: Columns and Tables Append Methods, Name Property Example (VC++)
-ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
-ms:contentKeyID: 48545322
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2cfe3c66775228f73d21be3305ebac6b0972514b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480966"
+<span data-ttu-id="35f41-101"><<<<<<< Название HEAD: столбцов и таблиц добавьте методы, пример свойства Name (VC ++) TOCTitle: столбцов и таблиц добавьте методы, пример свойства Name (VC ++) === название: столбцов и таблиц добавьте методы, пример свойства Name (VC ++) TOCTitle: Столбцы и методы добавления таблиц, пример свойства Name (VC ++)</span><span class="sxs-lookup"><span data-stu-id="35f41-101"><<<<<<< HEAD title: Columns and Tables Append Methods, Name Property Example (VC++) TOCTitle: Columns and Tables Append Methods, Name Property Example (VC++) ======= title: Columns and Tables Append Methods, Name property example (VC++) TOCTitle: Columns and Tables Append Methods, Name property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="35f41-102">главные ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15) ms:contentKeyID: 48545322 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="35f41-102">master ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15) ms:contentKeyID: 48545322 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="4d8ea-102">Columns and Tables Append Methods, Name Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="4d8ea-102">Columns and Tables Append Methods, Name Property Example (VC++)</span></span>
+
+<span data-ttu-id="35f41-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="35f41-103"><<<<<<< HEAD</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="35f41-104">Columns and Tables Append Methods, Name Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="35f41-104">Columns and Tables Append Methods, Name Property Example (VC++)</span></span>
+=======
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="35f41-105">Столбцы и методы добавления таблиц, пример свойства Name (VC ++)</span><span class="sxs-lookup"><span data-stu-id="35f41-105">Columns and Tables Append Methods, Name property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="35f41-106">master</span><span class="sxs-lookup"><span data-stu-id="35f41-106">master</span></span>
 
 
-<span data-ttu-id="4d8ea-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d8ea-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="35f41-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="35f41-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="4d8ea-104">Следующий код демонстрирует создайте новую таблицу.</span><span class="sxs-lookup"><span data-stu-id="4d8ea-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="35f41-108">Следующий код демонстрирует создайте новую таблицу.</span><span class="sxs-lookup"><span data-stu-id="35f41-108">The following code demonstrates how to create a new table.</span></span>
 
 ```cpp 
  

@@ -1,39 +1,37 @@
 ---
-title: EditMode Property (ADO)
-TOCTitle: EditMode Property (ADO)
-ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15)
-ms:contentKeyID: 48543867
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a6c8377e0fa0fc2db1ec2d376ee3c8b9f16e8c99
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480476"
+<span data-ttu-id="c42bf-101"><<<<<<< Название HEAD: TOCTitle свойство EditMode (ADO): свойство EditMode (ADO) === название: свойство EditMode (ADO) TOCTitle: свойство EditMode (ADO)</span><span class="sxs-lookup"><span data-stu-id="c42bf-101"><<<<<<< HEAD title: EditMode Property (ADO) TOCTitle: EditMode Property (ADO) ======= title: EditMode property (ADO) TOCTitle: EditMode property (ADO)</span></span>
+>>>>>>> <span data-ttu-id="c42bf-102">главные ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID: 48543867 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="c42bf-102">master ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID: 48543867 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="editmode-property-ado"></a><span data-ttu-id="b8c3b-102">EditMode Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="b8c3b-102">EditMode Property (ADO)</span></span>
+
+<span data-ttu-id="c42bf-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="c42bf-103"><<<<<<< HEAD</span></span>
+# <a name="editmode-property-ado"></a><span data-ttu-id="c42bf-104">EditMode Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="c42bf-104">EditMode Property (ADO)</span></span>
+=======
+# <a name="editmode-property-ado"></a><span data-ttu-id="c42bf-105">Свойство EditMode (ADO)</span><span class="sxs-lookup"><span data-stu-id="c42bf-105">EditMode property (ADO)</span></span>
+>>>>>>> <span data-ttu-id="c42bf-106">master</span><span class="sxs-lookup"><span data-stu-id="c42bf-106">master</span></span>
 
 
-<span data-ttu-id="b8c3b-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8c3b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c42bf-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c42bf-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="b8c3b-104">Указывает состояние редактирования текущей записи.</span><span class="sxs-lookup"><span data-stu-id="b8c3b-104">Indicates the editing status of the current record.</span></span>
+<span data-ttu-id="c42bf-108">Указывает состояние редактирования текущей записи.</span><span class="sxs-lookup"><span data-stu-id="c42bf-108">Indicates the editing status of the current record.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="b8c3b-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="b8c3b-105">Return Value</span></span>
+<span data-ttu-id="c42bf-109"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="c42bf-109"><<<<<<< HEAD</span></span>
+## <a name="return-value"></a><span data-ttu-id="c42bf-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c42bf-110">Return Value</span></span>
+=======
+## <a name="return-value"></a><span data-ttu-id="c42bf-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c42bf-111">Return value</span></span>
+>>>>>>> <span data-ttu-id="c42bf-112">master</span><span class="sxs-lookup"><span data-stu-id="c42bf-112">master</span></span>
 
-<span data-ttu-id="b8c3b-106">Возвращает значение [EditModeEnum](editmodeenum.md) .</span><span class="sxs-lookup"><span data-stu-id="b8c3b-106">Returns an [EditModeEnum](editmodeenum.md) value.</span></span>
+<span data-ttu-id="c42bf-113">Возвращает значение [EditModeEnum](editmodeenum.md) .</span><span class="sxs-lookup"><span data-stu-id="c42bf-113">Returns an [EditModeEnum](editmodeenum.md) value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b8c3b-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="b8c3b-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c42bf-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="c42bf-114">Remarks</span></span>
 
-<span data-ttu-id="b8c3b-108">ADO поддерживает редактирования буфера, связанного с текущей записи.</span><span class="sxs-lookup"><span data-stu-id="b8c3b-108">ADO maintains an editing buffer associated with the current record.</span></span> <span data-ttu-id="b8c3b-109">Это свойство показывает ли изменения были внесены в этот буфер или создан ли новую запись.</span><span class="sxs-lookup"><span data-stu-id="b8c3b-109">This property indicates whether changes have been made to this buffer, or whether a new record has been created.</span></span> <span data-ttu-id="b8c3b-110">Свойство **EditMode** используется для определения статуса редактирования текущей записи.</span><span class="sxs-lookup"><span data-stu-id="b8c3b-110">Use the **EditMode** property to determine the editing status of the current record.</span></span> <span data-ttu-id="b8c3b-111">Можно проверить наличие ожидающих изменений, если редактирования процесс был прерван и определите, нужно ли использовать [обновления](update-method-ado.md) или метод [CancelUpdate](cancelupdate-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="b8c3b-111">You can test for pending changes if an editing process has been interrupted and determine whether you need to use the [Update](update-method-ado.md) or [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="c42bf-115">ADO поддерживает редактирования буфера, связанного с текущей записи.</span><span class="sxs-lookup"><span data-stu-id="c42bf-115">ADO maintains an editing buffer associated with the current record.</span></span> <span data-ttu-id="c42bf-116">Это свойство показывает ли изменения были внесены в этот буфер или создан ли новую запись.</span><span class="sxs-lookup"><span data-stu-id="c42bf-116">This property indicates whether changes have been made to this buffer, or whether a new record has been created.</span></span> <span data-ttu-id="c42bf-117">Свойство **EditMode** используется для определения статуса редактирования текущей записи.</span><span class="sxs-lookup"><span data-stu-id="c42bf-117">Use the **EditMode** property to determine the editing status of the current record.</span></span> <span data-ttu-id="c42bf-118">Можно проверить наличие ожидающих изменений, если редактирования процесс был прерван и определите, нужно ли использовать [обновления](update-method-ado.md) или метод [CancelUpdate](cancelupdate-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="c42bf-118">You can test for pending changes if an editing process has been interrupted and determine whether you need to use the [Update](update-method-ado.md) or [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
-<span data-ttu-id="b8c3b-112">В разделе метод [AddNew](addnew-method-ado.md) более подробное описание свойства **EditMode** в различных условиях редактирования.</span><span class="sxs-lookup"><span data-stu-id="b8c3b-112">See the [AddNew](addnew-method-ado.md) method for a more detailed description of the **EditMode** property under different editing conditions.</span></span>
+<span data-ttu-id="c42bf-119">В разделе метод [AddNew](addnew-method-ado.md) более подробное описание свойства **EditMode** в различных условиях редактирования.</span><span class="sxs-lookup"><span data-stu-id="c42bf-119">See the [AddNew](addnew-method-ado.md) method for a more detailed description of the **EditMode** property under different editing conditions.</span></span>
 
-<span data-ttu-id="b8c3b-113">Когда звонка для [удаления](delete-method-ado-recordset.md) успешно не удалять записи или записей в данных источника (из-за нарушения ссылочной целостности, например), [записей](recordset-object-ado.md) останется в режиме редактирования (**EditMode** = \*\*adEditInProgress \*\*).</span><span class="sxs-lookup"><span data-stu-id="b8c3b-113">When a call to [Delete](delete-method-ado-recordset.md) does not successfully delete the record or records in the data source (due to referential integrity violations, for example), the [Recordset](recordset-object-ado.md) will remain in edit mode (**EditMode** = **adEditInProgress**).</span></span> <span data-ttu-id="b8c3b-114">Это означает, что **CancelUpdate** необходимо вызывать перед перемещением off текущей записи (с [перемещением](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md)и [Закрыть](close-method-ado.md), например).</span><span class="sxs-lookup"><span data-stu-id="b8c3b-114">This means that **CancelUpdate** must be called before moving off the current record (with [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md), or [Close](close-method-ado.md), for example).</span></span>
+<span data-ttu-id="c42bf-120">Когда звонка для [удаления](delete-method-ado-recordset.md) успешно не удалять записи или записей в данных источника (из-за нарушения ссылочной целостности, например), [записей](recordset-object-ado.md) останется в режиме редактирования (**EditMode** = \*\*adEditInProgress \*\*).</span><span class="sxs-lookup"><span data-stu-id="c42bf-120">When a call to [Delete](delete-method-ado-recordset.md) does not successfully delete the record or records in the data source (due to referential integrity violations, for example), the [Recordset](recordset-object-ado.md) will remain in edit mode (**EditMode** = **adEditInProgress**).</span></span> <span data-ttu-id="c42bf-121">Это означает, что **CancelUpdate** необходимо вызывать перед перемещением off текущей записи (с [перемещением](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md)и [Закрыть](close-method-ado.md), например).</span><span class="sxs-lookup"><span data-stu-id="c42bf-121">This means that **CancelUpdate** must be called before moving off the current record (with [Move](move-method-ado.md), [NextRecordset](nextrecordset-method-ado.md), or [Close](close-method-ado.md), for example).</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="b8c3b-115"><STRONG>EditMode</STRONG> можно вернуть допустимое значение только в том случае, если текущая запись.</span><span class="sxs-lookup"><span data-stu-id="b8c3b-115"><STRONG>EditMode</STRONG> can return a valid value only if there is a current record.</span></span> <span data-ttu-id="b8c3b-116"><STRONG>EditMode</STRONG> возвращает ошибку, если <A href="bof-eof-properties-ado.md">BOF или EOF</A> имеет значение true, или если текущий запись была удалена.</span><span class="sxs-lookup"><span data-stu-id="b8c3b-116"><STRONG>EditMode</STRONG> will return an error if <A href="bof-eof-properties-ado.md">BOF or EOF</A> is true, or if the current record has been deleted.</span></span></P>
+> <P><span data-ttu-id="c42bf-122"><STRONG>EditMode</STRONG> можно вернуть допустимое значение только в том случае, если текущая запись.</span><span class="sxs-lookup"><span data-stu-id="c42bf-122"><STRONG>EditMode</STRONG> can return a valid value only if there is a current record.</span></span> <span data-ttu-id="c42bf-123"><STRONG>EditMode</STRONG> возвращает ошибку, если <A href="bof-eof-properties-ado.md">BOF или EOF</A> имеет значение true, или если текущий запись была удалена.</span><span class="sxs-lookup"><span data-stu-id="c42bf-123"><STRONG>EditMode</STRONG> will return an error if <A href="bof-eof-properties-ado.md">BOF or EOF</A> is true, or if the current record has been deleted.</span></span></P>
 
 

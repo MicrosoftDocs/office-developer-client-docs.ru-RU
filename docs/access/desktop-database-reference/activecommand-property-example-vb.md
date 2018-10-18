@@ -1,26 +1,20 @@
 ---
-title: ActiveCommand Property Example (VB)
-TOCTitle: ActiveCommand Property Example (VB)
-ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15)
-ms:contentKeyID: 48545999
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f0636141505599464c95af0b9a7df704f9e21dec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482383"
+<span data-ttu-id="81c13-101"><<<<<<< Название HEAD: TOCTitle примере свойство ActiveCommand (VB): ms:assetid примере свойство ActiveCommand (VB): 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 09/18/2015 mtps_ версия: v=office.15</span><span class="sxs-lookup"><span data-stu-id="81c13-101"><<<<<<< HEAD title: ActiveCommand Property Example (VB) TOCTitle: ActiveCommand Property Example (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="activecommand-property-example-vb"></a><span data-ttu-id="e4abb-102">ActiveCommand Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="e4abb-102">ActiveCommand Property Example (VB)</span></span>
+
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="81c13-102">ActiveCommand Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="81c13-102">ActiveCommand Property Example (VB)</span></span>
+<span data-ttu-id="81c13-103">=== Название: пример свойства ActiveCommand (VB) TOCTitle: ms:assetid пример (VB) свойство ActiveCommand: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="81c13-103">======= title: ActiveCommand property example (VB) TOCTitle: ActiveCommand property example (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="81c13-104">Пример свойства ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="81c13-104">ActiveCommand property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="81c13-105">master</span><span class="sxs-lookup"><span data-stu-id="81c13-105">master</span></span>
 
 
-<span data-ttu-id="e4abb-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4abb-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="81c13-106">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="81c13-106">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="e4abb-104">В этом примере демонстрируется свойство [ActiveCommand](activecommand-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="e4abb-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="81c13-107">В этом примере демонстрируется свойство [ActiveCommand](activecommand-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="81c13-107">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="e4abb-105">Подпрограмма предоставляется объект [набора записей](recordset-object-ado.md) , в которых свойство **ActiveCommand** используется для отображения текст команды и параметр, который создан **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="e4abb-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="81c13-108">Подпрограмма предоставляется объект [набора записей](recordset-object-ado.md) , в которых свойство **ActiveCommand** используется для отображения текст команды и параметр, который создан **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="81c13-108">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```vb 
  
@@ -87,11 +81,11 @@ End Sub
 'EndActiveCommandVB 
 ```
 
-<span data-ttu-id="e4abb-106">Процедура **ActiveCommandXprint** предоставляется только объекта **набора записей** , но необходимо напечатать текст команды и параметр, который создан **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="e4abb-106">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**.</span></span> <span data-ttu-id="e4abb-107">Это можно сделать, так как свойство **ActiveCommand** объекта **набора записей** уступает связанного объекта [команды](command-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="e4abb-107">This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="81c13-109">Процедура **ActiveCommandXprint** предоставляется только объекта **набора записей** , но необходимо напечатать текст команды и параметр, который создан **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="81c13-109">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**.</span></span> <span data-ttu-id="81c13-110">Это можно сделать, так как свойство **ActiveCommand** объекта **набора записей** уступает связанного объекта [команды](command-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="81c13-110">This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
 
-<span data-ttu-id="e4abb-108">Свойства объекта **команды** [CommandText](commandtext-property-ado.md) уступает параметризованные команды, которые созданы **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="e4abb-108">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**.</span></span> <span data-ttu-id="e4abb-109">Коллекция [параметров](parameters-collection-ado.md) объекта **команды** дает значение, которое было заменить заполнитель параметр команды («**?**»).</span><span class="sxs-lookup"><span data-stu-id="e4abb-109">The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
+<span data-ttu-id="81c13-111">Свойства объекта **команды** [CommandText](commandtext-property-ado.md) уступает параметризованные команды, которые созданы **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="81c13-111">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**.</span></span> <span data-ttu-id="81c13-112">Коллекция [параметров](parameters-collection-ado.md) объекта **команды** дает значение, которое было заменить заполнитель параметр команды («**?**»).</span><span class="sxs-lookup"><span data-stu-id="81c13-112">The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
 
-<span data-ttu-id="e4abb-110">И, наконец печати сообщения об ошибке или автора имя и идентификатор.</span><span class="sxs-lookup"><span data-stu-id="e4abb-110">Finally, an error message or the author's name and ID are printed.</span></span>
+<span data-ttu-id="81c13-113">И, наконец печати сообщения об ошибке или автора имя и идентификатор.</span><span class="sxs-lookup"><span data-stu-id="81c13-113">Finally, an error message or the author's name and ID are printed.</span></span>
 
 ```vb 
  
