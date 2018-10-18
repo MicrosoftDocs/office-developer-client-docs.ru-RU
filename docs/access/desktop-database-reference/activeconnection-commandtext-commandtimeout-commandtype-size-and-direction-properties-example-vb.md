@@ -1,24 +1,18 @@
 ---
-title: 'Пример: свойства ActiveConnection CommandText, CommandTimeout (VB)'
-TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB)
-ms:assetid: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15)
-ms:contentKeyID: 48548140
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c07f7f7cb1522f95a7ce64d0bc8e6b976ed8065f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481485"
+<span data-ttu-id="50148-101"><<<<<<< Название HEAD: ActiveConnection CommandText, пример свойства CommandTimeout (VB) TOCTitle: ms:assetid ActiveConnection, CommandText, CommandTimeout, CommandType, размер и пример свойства направление (VB): dc869f6b-3c48-9fc8-ae3a-5850ed5d3274 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15) ms:contentKeyID: 48548140 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="50148-101"><<<<<<< HEAD title: ActiveConnection, CommandText, CommandTimeout Properties Example (VB) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB) ms:assetid: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15) ms:contentKeyID: 48548140 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a><span data-ttu-id="e2478-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="e2478-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB)</span></span>
 
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a><span data-ttu-id="50148-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="50148-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VB)</span></span>
 
-<span data-ttu-id="e2478-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2478-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="50148-103">=== Название: ActiveConnection, CommandText, пример свойств CommandTimeout (VB) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление ms:assetid пример (VB) свойства: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15) ms:contentKeyID: 48548140 ms.date: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="50148-103">======= title: ActiveConnection, CommandText, CommandTimeout properties example (VB) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB) ms:assetid: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15) ms:contentKeyID: 48548140 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
 
-<span data-ttu-id="e2478-104">В этом примере использует [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [размер](size-property-ado.md)и [направление](direction-property-ado.md) свойства для выполнения хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="e2478-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a><span data-ttu-id="50148-104">Пример свойства ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление (VB)</span><span class="sxs-lookup"><span data-stu-id="50148-104">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="50148-105">master</span><span class="sxs-lookup"><span data-stu-id="50148-105">master</span></span>
+
+<span data-ttu-id="50148-106">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="50148-106">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="50148-107">В этом примере использует [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [размер](size-property-ado.md)и [направление](direction-property-ado.md) свойства для выполнения хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="50148-107">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```vb 
  

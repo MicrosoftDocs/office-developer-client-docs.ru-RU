@@ -1,24 +1,18 @@
 ---
-title: Attributes and Name Properties Example (VJ++)
-TOCTitle: Attributes and Name Properties Example (VJ++)
-ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
-ms:contentKeyID: 48547035
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9671fa58cb9d4c6c56361e143ed81877154e1290
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479973"
+<span data-ttu-id="8a71d-101"><<<<<<< Название HEAD: атрибуты и TOCTitle пример свойств имя (VJ ++): атрибуты и пример: имя свойства (VJ ++) === название: атрибуты и пример: имя свойства (VJ ++) TOCTitle: атрибуты и пример (имя свойства VJ++)</span><span class="sxs-lookup"><span data-stu-id="8a71d-101"><<<<<<< HEAD title: Attributes and Name Properties Example (VJ++) TOCTitle: Attributes and Name Properties Example (VJ++) ======= title: Attributes and Name properties example (VJ++) TOCTitle: Attributes and Name properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="8a71d-102">главные ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID: 48547035 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="8a71d-102">master ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID: 48547035 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="54660-102">Attributes and Name Properties Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="54660-102">Attributes and Name Properties Example (VJ++)</span></span>
+
+<span data-ttu-id="8a71d-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="8a71d-103"><<<<<<< HEAD</span></span>
+# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="8a71d-104">Attributes and Name Properties Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8a71d-104">Attributes and Name Properties Example (VJ++)</span></span>
+=======
+# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="8a71d-105">Атрибуты и пример: имя свойства (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="8a71d-105">Attributes and Name properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="8a71d-106">master</span><span class="sxs-lookup"><span data-stu-id="8a71d-106">master</span></span>
 
 
-<span data-ttu-id="54660-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="54660-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8a71d-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a71d-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="54660-104">В этом примере отображается значение свойства [атрибуты](attributes-property-ado.md) для [подключения](connection-object-ado.md), [поля](field-object-ado.md)и [Свойства](property-object-ado.md) объектов.</span><span class="sxs-lookup"><span data-stu-id="54660-104">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects.</span></span> <span data-ttu-id="54660-105">Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и **Свойства** объекта.</span><span class="sxs-lookup"><span data-stu-id="54660-105">It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
+<span data-ttu-id="8a71d-108">В этом примере отображается значение свойства [атрибуты](attributes-property-ado.md) для [подключения](connection-object-ado.md), [поля](field-object-ado.md)и [Свойства](property-object-ado.md) объектов.</span><span class="sxs-lookup"><span data-stu-id="8a71d-108">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects.</span></span> <span data-ttu-id="8a71d-109">Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и **Свойства** объекта.</span><span class="sxs-lookup"><span data-stu-id="8a71d-109">It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
 
 ```java 
  

@@ -1,24 +1,18 @@
 ---
-title: Status Property Example (VC++)
-TOCTitle: Status Property Example (VC++)
-ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15)
-ms:contentKeyID: 48545618
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 1f2dfa41e11f448f9f302bbc25d9e12a582324f5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480292"
+<span data-ttu-id="9ec52-101"><<<<<<< Название HEAD: пример свойства состояния (VC ++) TOCTitle: пример свойства состояния (VC ++) === заголовок: пример свойства состояния (VC ++) TOCTitle: пример свойства состояния (VC ++)</span><span class="sxs-lookup"><span data-stu-id="9ec52-101"><<<<<<< HEAD title: Status Property Example (VC++) TOCTitle: Status Property Example (VC++) ======= title: Status property example (VC++) TOCTitle: Status property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="9ec52-102">главные ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID: 48545618 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="9ec52-102">master ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID: 48545618 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="status-property-example-vc"></a><span data-ttu-id="77a12-102">Status Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="77a12-102">Status Property Example (VC++)</span></span>
+
+<span data-ttu-id="9ec52-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="9ec52-103"><<<<<<< HEAD</span></span>
+# <a name="status-property-example-vc"></a><span data-ttu-id="9ec52-104">Status Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="9ec52-104">Status Property Example (VC++)</span></span>
+=======
+# <a name="status-property-example-vc"></a><span data-ttu-id="9ec52-105">Пример свойства состояния (VC ++)</span><span class="sxs-lookup"><span data-stu-id="9ec52-105">Status property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="9ec52-106">master</span><span class="sxs-lookup"><span data-stu-id="9ec52-106">master</span></span>
 
 
-<span data-ttu-id="77a12-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="77a12-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9ec52-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="9ec52-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="77a12-104">В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.</span><span class="sxs-lookup"><span data-stu-id="77a12-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="9ec52-108">В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.</span><span class="sxs-lookup"><span data-stu-id="9ec52-108">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```cpp 
  
@@ -209,7 +203,7 @@ void PrintComError(_com_error &e)
 // EndStatusCpp 
 ```
 
-<span data-ttu-id="77a12-105">**StatusX.h**</span><span class="sxs-lookup"><span data-stu-id="77a12-105">**StatusX.h**</span></span>
+<span data-ttu-id="9ec52-109">**StatusX.h**</span><span class="sxs-lookup"><span data-stu-id="9ec52-109">**StatusX.h**</span></span>
 
 ```cpp 
  

@@ -1,24 +1,18 @@
 ---
-title: Provider and DefaultDatabase Properties Example (VB)
-TOCTitle: Provider and DefaultDatabase Properties Example (VB)
-ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15)
-ms:contentKeyID: 48544107
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 445315a3d5271d5566667916180a05de74d44980
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480431"
+<span data-ttu-id="43cab-101"><<<<<<< Название HEAD: поставщика и TOCTitle пример свойства DefaultDatabase (VB): поставщика и пример свойства DefaultDatabase (VB) === название: пример свойства поставщика и DefaultDatabase (VB) TOCTitle: поставщик и Пример: свойства DefaultDatabase (VB)</span><span class="sxs-lookup"><span data-stu-id="43cab-101"><<<<<<< HEAD title: Provider and DefaultDatabase Properties Example (VB) TOCTitle: Provider and DefaultDatabase Properties Example (VB) ======= title: Provider and DefaultDatabase properties example (VB) TOCTitle: Provider and DefaultDatabase properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="43cab-102">главные ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: 48544107 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="43cab-102">master ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: 48544107 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="41f3e-102">Provider and DefaultDatabase Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="41f3e-102">Provider and DefaultDatabase Properties Example (VB)</span></span>
+
+<span data-ttu-id="43cab-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="43cab-103"><<<<<<< HEAD</span></span>
+# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="43cab-104">Provider and DefaultDatabase Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="43cab-104">Provider and DefaultDatabase Properties Example (VB)</span></span>
+=======
+# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="43cab-105">Пример свойства поставщика и DefaultDatabase (VB)</span><span class="sxs-lookup"><span data-stu-id="43cab-105">Provider and DefaultDatabase properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="43cab-106">master</span><span class="sxs-lookup"><span data-stu-id="43cab-106">master</span></span>
 
 
-<span data-ttu-id="41f3e-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="41f3e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="43cab-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="43cab-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="41f3e-104">В этом примере демонстрируется свойство [поставщика](provider-property-ado.md) , открыв три объекты [подключения](connection-object-ado.md) , с помощью различных поставщиков.</span><span class="sxs-lookup"><span data-stu-id="41f3e-104">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers.</span></span> <span data-ttu-id="41f3e-105">Настройка базы данных по умолчанию для поставщика ODBC Microsoft также использует свойство [DefaultDatabase](defaultdatabase-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="41f3e-105">It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
+<span data-ttu-id="43cab-108">В этом примере демонстрируется свойство [поставщика](provider-property-ado.md) , открыв три объекты [подключения](connection-object-ado.md) , с помощью различных поставщиков.</span><span class="sxs-lookup"><span data-stu-id="43cab-108">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers.</span></span> <span data-ttu-id="43cab-109">Настройка базы данных по умолчанию для поставщика ODBC Microsoft также использует свойство [DefaultDatabase](defaultdatabase-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="43cab-109">It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
 
 ```vb 
  

@@ -1,24 +1,18 @@
 ---
-title: Value Property Example (VJ++)
-TOCTitle: Value Property Example (VJ++)
-ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15)
-ms:contentKeyID: 48543474
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 981e9df0b152979008cff31f7b11b2f59dcc682c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480034"
+<span data-ttu-id="058c3-101"><<<<<<< Название HEAD: пример свойства Value (VJ ++) TOCTitle: пример свойства Value (VJ ++) === название: пример свойства Value (VJ ++) TOCTitle: пример свойства Value (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="058c3-101"><<<<<<< HEAD title: Value Property Example (VJ++) TOCTitle: Value Property Example (VJ++) ======= title: Value property example (VJ++) TOCTitle: Value property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="058c3-102">главные ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15) ms:contentKeyID: 48543474 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="058c3-102">master ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15) ms:contentKeyID: 48543474 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="value-property-example-vj"></a><span data-ttu-id="6125a-102">Value Property Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6125a-102">Value Property Example (VJ++)</span></span>
+
+<span data-ttu-id="058c3-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="058c3-103"><<<<<<< HEAD</span></span>
+# <a name="value-property-example-vj"></a><span data-ttu-id="058c3-104">Value Property Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="058c3-104">Value Property Example (VJ++)</span></span>
+=======
+# <a name="value-property-example-vj"></a><span data-ttu-id="058c3-105">Пример свойства Value (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="058c3-105">Value property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="058c3-106">master</span><span class="sxs-lookup"><span data-stu-id="058c3-106">master</span></span>
 
 
-<span data-ttu-id="6125a-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6125a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="058c3-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="058c3-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="6125a-104">В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="6125a-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="058c3-108">В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="058c3-108">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```java 
  

@@ -1,24 +1,18 @@
 ---
-title: AbsolutePosition and CursorLocation Properties Example (VJ++)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VJ++)
-ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15)
-ms:contentKeyID: 48544223
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: e864745821dd8d251740bfa816112a0a701c4784
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483057"
+<span data-ttu-id="11ab3-101"><<<<<<< Название HEAD: AbsolutePosition и TOCTitle пример свойств CursorLocation (VJ ++): AbsolutePosition и пример: свойства CursorLocation (VJ ++) ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15) MS:contentKeyID: 48544223 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="11ab3-101"><<<<<<< HEAD title: AbsolutePosition and CursorLocation Properties Example (VJ++) TOCTitle: AbsolutePosition and CursorLocation Properties Example (VJ++) ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15) ms:contentKeyID: 48544223 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a><span data-ttu-id="26046-102">AbsolutePosition and CursorLocation Properties Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="26046-102">AbsolutePosition and CursorLocation Properties Example (VJ++)</span></span>
 
+# <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a><span data-ttu-id="11ab3-102">AbsolutePosition and CursorLocation Properties Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="11ab3-102">AbsolutePosition and CursorLocation Properties Example (VJ++)</span></span>
 
-<span data-ttu-id="26046-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="26046-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="11ab3-103">=== Название: пример: свойства AbsolutePosition и CursorLocation (VJ ++) TOCTitle: AbsolutePosition и CursorLocation ms:assetid пример (VJ ++) свойства: 38872022-8a65-680f-20af-086e4d9d7b6a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15) ms:contentKeyID: 48544223 MS.Date: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="11ab3-103">======= title: AbsolutePosition and CursorLocation properties example (VJ++) TOCTitle: AbsolutePosition and CursorLocation properties example (VJ++) ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15) ms:contentKeyID: 48544223 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
 
-<span data-ttu-id="26046-104">В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) можно отслеживать цикл, который перечисляет все записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="26046-104">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="26046-105">Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойство **AbsolutePosition** , установив курсор на курсор клиента.</span><span class="sxs-lookup"><span data-stu-id="26046-105">It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.</span></span>
+# <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a><span data-ttu-id="11ab3-104">Пример: свойства AbsolutePosition и CursorLocation (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="11ab3-104">AbsolutePosition and CursorLocation properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="11ab3-105">master</span><span class="sxs-lookup"><span data-stu-id="11ab3-105">master</span></span>
+
+<span data-ttu-id="11ab3-106">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="11ab3-106">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="11ab3-107">В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) можно отслеживать цикл, который перечисляет все записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="11ab3-107">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="11ab3-108">Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойство **AbsolutePosition** , установив курсор на курсор клиента.</span><span class="sxs-lookup"><span data-stu-id="11ab3-108">It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.</span></span>
 
 ```java 
  

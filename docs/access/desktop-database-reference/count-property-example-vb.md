@@ -1,24 +1,18 @@
 ---
-title: Count Property Example (VB)
-TOCTitle: Count Property Example (VB)
-ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15)
-ms:contentKeyID: 48546695
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c8d74444a5d25e20fdfe1d6f3c938788b7025199
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480862"
+<span data-ttu-id="97992-101"><<<<<<< Название HEAD: TOCTitle примере свойство Count (VB): примере свойство Count (VB) === название: пример свойства Count (VB) TOCTitle: пример свойства Count (VB)</span><span class="sxs-lookup"><span data-stu-id="97992-101"><<<<<<< HEAD title: Count Property Example (VB) TOCTitle: Count Property Example (VB) ======= title: Count property example (VB) TOCTitle: Count property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="97992-102">главные ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15) ms:contentKeyID: 48546695 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="97992-102">master ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15) ms:contentKeyID: 48546695 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="count-property-example-vb"></a><span data-ttu-id="7cdeb-102">Count Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="7cdeb-102">Count Property Example (VB)</span></span>
+
+<span data-ttu-id="97992-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="97992-103"><<<<<<< HEAD</span></span>
+# <a name="count-property-example-vb"></a><span data-ttu-id="97992-104">Count Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="97992-104">Count Property Example (VB)</span></span>
+=======
+# <a name="count-property-example-vb"></a><span data-ttu-id="97992-105">Пример свойства Count (VB)</span><span class="sxs-lookup"><span data-stu-id="97992-105">Count property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="97992-106">master</span><span class="sxs-lookup"><span data-stu-id="97992-106">master</span></span>
 
 
-<span data-ttu-id="7cdeb-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7cdeb-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="97992-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="97992-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="7cdeb-104">В этом примере свойство [Count](count-property-ado.md) с двумя семейств сайтов в базе данных ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="7cdeb-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database.</span></span> <span data-ttu-id="7cdeb-105">Свойство получает число объектов в каждом семействе сайтов и задает верхнюю границу для циклов, перечисление этих семейств сайтов.</span><span class="sxs-lookup"><span data-stu-id="7cdeb-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="7cdeb-106">Другой способ перечисления этих коллекций без использования свойства **Count** можно использовать инструкции.</span><span class="sxs-lookup"><span data-stu-id="7cdeb-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
+<span data-ttu-id="97992-108">В этом примере свойство [Count](count-property-ado.md) с двумя семейств сайтов в базе данных ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="97992-108">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employee*** database.</span></span> <span data-ttu-id="97992-109">Свойство получает число объектов в каждом семействе сайтов и задает верхнюю границу для циклов, перечисление этих семейств сайтов.</span><span class="sxs-lookup"><span data-stu-id="97992-109">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="97992-110">Другой способ перечисления этих коллекций без использования свойства **Count** можно использовать инструкции.</span><span class="sxs-lookup"><span data-stu-id="97992-110">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
 
 ```vb 
  

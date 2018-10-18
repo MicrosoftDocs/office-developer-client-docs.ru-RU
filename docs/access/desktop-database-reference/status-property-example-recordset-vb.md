@@ -1,24 +1,18 @@
 ---
-title: Status Property Example (Recordset) (VB)
-TOCTitle: Status Property Example (Recordset) (VB)
-ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
-ms:contentKeyID: 48546476
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 05feda1ee3474fc8eccc18d5ebfc48d9ace174d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480809"
+<span data-ttu-id="37821-101"><<<<<<< Название HEAD: пример свойства состояния (записей) (VB) TOCTitle: пример свойства состояния (записей) (VB) === название: пример свойства состояния (записей) (VB) TOCTitle: пример свойства состояния (записей) (VB)</span><span class="sxs-lookup"><span data-stu-id="37821-101"><<<<<<< HEAD title: Status Property Example (Recordset) (VB) TOCTitle: Status Property Example (Recordset) (VB) ======= title: Status property example (Recordset) (VB) TOCTitle: Status property example (Recordset) (VB)</span></span>
+>>>>>>> <span data-ttu-id="37821-102">главные ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15) ms:contentKeyID: 48546476 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="37821-102">master ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15) ms:contentKeyID: 48546476 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="26250-102">Status Property Example (Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="26250-102">Status Property Example (Recordset) (VB)</span></span>
+
+<span data-ttu-id="37821-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="37821-103"><<<<<<< HEAD</span></span>
+# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="37821-104">Status Property Example (Recordset) (VB)</span><span class="sxs-lookup"><span data-stu-id="37821-104">Status Property Example (Recordset) (VB)</span></span>
+=======
+# <a name="status-property-example-recordset-vb"></a><span data-ttu-id="37821-105">Пример свойства состояния (записей) (VB)</span><span class="sxs-lookup"><span data-stu-id="37821-105">Status property example (Recordset) (VB)</span></span>
+>>>>>>> <span data-ttu-id="37821-106">master</span><span class="sxs-lookup"><span data-stu-id="37821-106">master</span></span>
 
 
-<span data-ttu-id="26250-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="26250-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="37821-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="37821-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="26250-104">В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.</span><span class="sxs-lookup"><span data-stu-id="26250-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="37821-108">В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.</span><span class="sxs-lookup"><span data-stu-id="37821-108">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```vb 
  

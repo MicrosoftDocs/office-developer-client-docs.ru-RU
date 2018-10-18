@@ -1,23 +1,22 @@
 ---
-title: AbsolutePage, PageCount, and PageSize Properties Example (VB)
-TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VB)
-ms:assetid: bd13fb6c-8ee4-7475-ef2d-9067e30918de
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15)
-ms:contentKeyID: 48547426
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: abf65734b7c2bc11f92d0bb6a31df18b016b9aa7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483076"
+<span data-ttu-id="38c97-101"><<<<<<< Название HEAD: AbsolutePage, PageCount и TOCTitle пример свойства PageSize (VB): ms:assetid AbsolutePage, PageCount и пример свойства PageSize (VB): bd13fb6c-8ee4-7475-ef2d-9067e30918de ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15) MS:contentKeyID: 48547426 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="38c97-101"><<<<<<< HEAD title: AbsolutePage, PageCount, and PageSize Properties Example (VB) TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VB) ms:assetid: bd13fb6c-8ee4-7475-ef2d-9067e30918de ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15) ms:contentKeyID: 48547426 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a><span data-ttu-id="e1a60-102">AbsolutePage, PageCount, and PageSize Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="e1a60-102">AbsolutePage, PageCount, and PageSize Properties Example (VB)</span></span>
+
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a><span data-ttu-id="38c97-102">AbsolutePage, PageCount, and PageSize Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="38c97-102">AbsolutePage, PageCount, and PageSize Properties Example (VB)</span></span>
+<span data-ttu-id="38c97-103">=== Название: AbsolutePage, PageCount и PageSize пример свойств (VB) TOCTitle: AbsolutePage, PageCount и PageSize ms:assetid пример (VB) свойства: bd13fb6c-8ee4-7475-ef2d-9067e30918de ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15) ms:contentKeyID: 48547426 MS.Date: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="38c97-103">======= title: AbsolutePage, PageCount, and PageSize properties example (VB) TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VB) ms:assetid: bd13fb6c-8ee4-7475-ef2d-9067e30918de ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15) ms:contentKeyID: 48547426 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a><span data-ttu-id="38c97-104">Пример свойства AbsolutePage, PageCount и PageSize (VB)</span><span class="sxs-lookup"><span data-stu-id="38c97-104">AbsolutePage, PageCount, and PageSize properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="38c97-105">master</span><span class="sxs-lookup"><span data-stu-id="38c97-105">master</span></span>
 
 
-<span data-ttu-id="e1a60-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e1a60-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="38c97-106">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="38c97-106">**Applies to**: Access 2013 | Office 2013</span></span>
 
+<a name="-head"></a><span data-ttu-id="38c97-107"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="38c97-107"><<<<<<< HEAD</span></span>
+=======
+<span data-ttu-id="38c97-108">В этом примере с помощью свойства [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md)и [PageSize](pagesize-property-ado.md) отображаемые имена и даты в таблице ***сотрудников*** пять записей во время приема на работу.</span><span class="sxs-lookup"><span data-stu-id="38c97-108">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span>
+
+>>>>>>> <span data-ttu-id="38c97-109">master</span><span class="sxs-lookup"><span data-stu-id="38c97-109">master</span></span>
 ```vb 
  
 'BeginAbsolutePageVB 

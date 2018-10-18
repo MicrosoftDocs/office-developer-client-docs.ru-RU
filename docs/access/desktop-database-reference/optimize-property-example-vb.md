@@ -1,24 +1,18 @@
 ---
-title: Optimize Property Example (VB)
-TOCTitle: Optimize Property Example (VB)
-ms:assetid: f4576247-6057-c1fe-013d-74feaab33174
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15)
-ms:contentKeyID: 48548686
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8ace24040fa5820f43462819b4c45617d61b0a5b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481769"
+<span data-ttu-id="c4020-101"><<<<<<< HEAD заголовок: TOCTitle оптимизировать примере свойство (VB): оптимизировать примере свойство (VB) === заголовок: оптимизация пример свойства (VB) TOCTitle: оптимизировать пример свойства (VB)</span><span class="sxs-lookup"><span data-stu-id="c4020-101"><<<<<<< HEAD title: Optimize Property Example (VB) TOCTitle: Optimize Property Example (VB) ======= title: Optimize property example (VB) TOCTitle: Optimize property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="c4020-102">главные ms:assetid: f4576247-6057-c1fe-013d-74feaab33174 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15) ms:contentKeyID: 48548686 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="c4020-102">master ms:assetid: f4576247-6057-c1fe-013d-74feaab33174 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15) ms:contentKeyID: 48548686 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="optimize-property-example-vb"></a><span data-ttu-id="fbc63-102">Optimize Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="fbc63-102">Optimize Property Example (VB)</span></span>
+
+<span data-ttu-id="c4020-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="c4020-103"><<<<<<< HEAD</span></span>
+# <a name="optimize-property-example-vb"></a><span data-ttu-id="c4020-104">Optimize Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="c4020-104">Optimize Property Example (VB)</span></span>
+=======
+# <a name="optimize-property-example-vb"></a><span data-ttu-id="c4020-105">Оптимизация пример свойства (VB)</span><span class="sxs-lookup"><span data-stu-id="c4020-105">Optimize property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="c4020-106">master</span><span class="sxs-lookup"><span data-stu-id="c4020-106">master</span></span>
 
 
-<span data-ttu-id="fbc63-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fbc63-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c4020-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4020-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="fbc63-104">В этом примере демонстрируется динамических свойство оптимизировать [поля](field-object-ado.md) объектов.</span><span class="sxs-lookup"><span data-stu-id="fbc63-104">This example demonstrates the [Field](field-object-ado.md) objects dynamic Optimize property.</span></span> <span data-ttu-id="fbc63-105">Поле ***zip*** таблицы ***авторов*** в базе данных ***Pubs*** не индексируются.</span><span class="sxs-lookup"><span data-stu-id="fbc63-105">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="fbc63-106">Свойства [оптимизировать](optimize-property-dynamic-ado.md) значение **True** в поле ***zip*** авторизует ADO для построения индекса, которая улучшает производительность метод [поиска](find-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="fbc63-106">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
+<span data-ttu-id="c4020-108">В этом примере демонстрируется динамических свойство оптимизировать [поля](field-object-ado.md) объектов.</span><span class="sxs-lookup"><span data-stu-id="c4020-108">This example demonstrates the [Field](field-object-ado.md) objects dynamic Optimize property.</span></span> <span data-ttu-id="c4020-109">Поле ***zip*** таблицы ***авторов*** в базе данных ***Pubs*** не индексируются.</span><span class="sxs-lookup"><span data-stu-id="c4020-109">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="c4020-110">Свойства [оптимизировать](optimize-property-dynamic-ado.md) значение **True** в поле ***zip*** авторизует ADO для построения индекса, которая улучшает производительность метод [поиска](find-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="c4020-110">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
 
 ```vb 
  

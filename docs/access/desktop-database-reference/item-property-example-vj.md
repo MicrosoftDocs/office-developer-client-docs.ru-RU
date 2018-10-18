@@ -1,26 +1,20 @@
 ---
-title: Item Property Example (VJ++)
-TOCTitle: Item Property Example (VJ++)
-ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15)
-ms:contentKeyID: 48547461
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8fdbfc6e7b14cca8968f0990c0456defe302b773
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482957"
+<span data-ttu-id="a0200-101"><<<<<<< Название HEAD: TOCTitle пример свойства элемента (VJ ++): пример свойства элемента (VJ ++) === название: пример свойства элемента (VJ ++) TOCTitle: пример свойства элемента (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="a0200-101"><<<<<<< HEAD title: Item Property Example (VJ++) TOCTitle: Item Property Example (VJ++) ======= title: Item property example (VJ++) TOCTitle: Item property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="a0200-102">главные ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15) ms:contentKeyID: 48547461 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="a0200-102">master ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15) ms:contentKeyID: 48547461 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="item-property-example-vj"></a><span data-ttu-id="b7c9c-102">Item Property Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b7c9c-102">Item Property Example (VJ++)</span></span>
+
+<span data-ttu-id="a0200-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="a0200-103"><<<<<<< HEAD</span></span>
+# <a name="item-property-example-vj"></a><span data-ttu-id="a0200-104">Item Property Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="a0200-104">Item Property Example (VJ++)</span></span>
+=======
+# <a name="item-property-example-vj"></a><span data-ttu-id="a0200-105">Пример свойства элемента (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="a0200-105">Item property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="a0200-106">master</span><span class="sxs-lookup"><span data-stu-id="a0200-106">master</span></span>
 
 
-<span data-ttu-id="b7c9c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7c9c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a0200-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0200-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="b7c9c-104">В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции.</span><span class="sxs-lookup"><span data-stu-id="b7c9c-104">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection.</span></span> <span data-ttu-id="b7c9c-105">В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.</span><span class="sxs-lookup"><span data-stu-id="b7c9c-105">The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="a0200-108">В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции.</span><span class="sxs-lookup"><span data-stu-id="a0200-108">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection.</span></span> <span data-ttu-id="a0200-109">В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.</span><span class="sxs-lookup"><span data-stu-id="a0200-109">The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="b7c9c-106">Параметр в команды в базе данных осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [команды](command-object-ado.md) индекс и название.</span><span class="sxs-lookup"><span data-stu-id="b7c9c-106">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name.</span></span> <span data-ttu-id="b7c9c-107">Затем полям возвращаемых [записей](recordset-object-ado.md) осуществляется из коллекции [полей](fields-collection-ado.md) этого объекта индекс и название.</span><span class="sxs-lookup"><span data-stu-id="b7c9c-107">Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="a0200-110">Параметр в команды в базе данных осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [команды](command-object-ado.md) индекс и название.</span><span class="sxs-lookup"><span data-stu-id="a0200-110">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name.</span></span> <span data-ttu-id="a0200-111">Затем полям возвращаемых [записей](recordset-object-ado.md) осуществляется из коллекции [полей](fields-collection-ado.md) этого объекта индекс и название.</span><span class="sxs-lookup"><span data-stu-id="a0200-111">Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```java 
  

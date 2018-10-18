@@ -1,24 +1,18 @@
 ---
-title: Command and CommandText Properties Example (VC++)
-TOCTitle: Command and CommandText Properties Example (VC++)
-ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15)
-ms:contentKeyID: 48546525
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 19e2cc962f92812b250ac48b8ee7fec6221b72c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483086"
+<span data-ttu-id="4fa31-101"><<<<<<< Название HEAD: команда и TOCTitle пример: свойства CommandText (VC ++): команда и пример: свойства CommandText (VC ++) === название: пример: свойства команды и CommandText (VC ++) TOCTitle: команда и CommandText Пример: свойства (VC ++)</span><span class="sxs-lookup"><span data-stu-id="4fa31-101"><<<<<<< HEAD title: Command and CommandText Properties Example (VC++) TOCTitle: Command and CommandText Properties Example (VC++) ======= title: Command and CommandText properties example (VC++) TOCTitle: Command and CommandText properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="4fa31-102">главные ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15) ms:contentKeyID: 48546525 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="4fa31-102">master ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15) ms:contentKeyID: 48546525 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="7e938-102">Command and CommandText Properties Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="7e938-102">Command and CommandText Properties Example (VC++)</span></span>
+
+<span data-ttu-id="4fa31-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="4fa31-103"><<<<<<< HEAD</span></span>
+# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="4fa31-104">Command and CommandText Properties Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="4fa31-104">Command and CommandText Properties Example (VC++)</span></span>
+=======
+# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="4fa31-105">Пример: свойства команды и CommandText (VC ++)</span><span class="sxs-lookup"><span data-stu-id="4fa31-105">Command and CommandText properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="4fa31-106">master</span><span class="sxs-lookup"><span data-stu-id="4fa31-106">master</span></span>
 
 
-<span data-ttu-id="7e938-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e938-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4fa31-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4fa31-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="7e938-104">Следующий код демонстрирует использование свойства [команда](command-property-adox.md) обновление текста процедуры.</span><span class="sxs-lookup"><span data-stu-id="7e938-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
+<span data-ttu-id="4fa31-108">Следующий код демонстрирует использование свойства [команда](command-property-adox.md) обновление текста процедуры.</span><span class="sxs-lookup"><span data-stu-id="4fa31-108">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
 
 ```cpp 
  
