@@ -6,12 +6,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Здесь вы найдете инструкции, примеры кода, документацию по API и пакетам SDK, справочные материалы по VBA, учебные материалы и технические статьи, посвященные разработке решений и настройке Excel.
-ms.openlocfilehash: cf486b3bab5133de75cf59f8999ade1b8cca8aad
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: b12ee0ca7fa97e008767f3c207ea7fd54e914e6d
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394708"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454525"
 ---
 # <a name="excel"></a>Excel
 
@@ -34,8 +34,7 @@ ms.locfileid: "25394708"
   
 ### <a name="code-samples"></a>Примеры кода
   
-- 
-  [Примеры кода для Excel в Центре разработчиков Office](https://developer.microsoft.com/en-us/excel/gallery/?filterBy=Samples)
+- [Примеры кода для Excel в Центре разработчиков Office](https://developer.microsoft.com/excel/gallery/?filterBy=Samples)
   
 ### <a name="other-resources"></a>Другие ресурсы
   
@@ -51,6 +50,6 @@ ms.locfileid: "25394708"
   
 ### <a name="support"></a>Поддержка
   
-- [Центр разработчиков Office](https://developer.microsoft.com/ru-RU/office)
+- [Центр разработчиков Office](https://developer.microsoft.com/office)
   
 - [Поддержка Office](https://support.office.com/)

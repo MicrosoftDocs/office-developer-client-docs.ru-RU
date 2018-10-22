@@ -1,189 +1,189 @@
 ---
-title: �� ����������� �������, ������������ � Outlook
+title: Сведения об именованных свойствах, используемых в Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
-description: '���� ���������� ���������: 25 ���� 2012 �.'
+description: 'Дата последнего изменения: 25 июня 2012 года'
 ms.openlocfilehash: aa4d52d25f120e8b3e2a4c0dcaa4845ad576127a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22566231"
 ---
-# <a name="about-named-properties-used-by-outlook"></a>�� ����������� �������, ������������ � Outlook
+# <a name="about-named-properties-used-by-outlook"></a>Сведения об именованных свойствах, используемых в Outlook
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-MAPI ������������� �������� ��� ���������� ���� ��� ������������ ������� ��� ������������� ���� ���� � ����������� ���������������� � ������������ ����-� ������������� ����� ������������� ������������ ����� ��������. ����������� �������� ���������������� �� ����� � ���������� ���������� ������������� (GUID) ��� ������ �������. ��� ����� ������� ����� ��� ������. ��� Microsoft Outlook 2013 ��� Microsoft Outlook 2010 ����� ������� ���� ����� ������������ ����, ������������ � Outlook�2013 ��� Outlook�2010, ����� ��� **PSETID_Appointment**. 
+MAPI предоставляет возможность назначения имен определенным свойствам для привязки этих имен к уникальным идентификаторам и сохранения этой карты сопоставления названий и идентификаторов для всех сессий. Именованные свойства определяются по имени и глобальному уникальному идентификатору (GUID) для набора свойств. Имя может представлять собой число или строку. Для Microsoft Outlook 2013 или Microsoft Outlook 2010 набор свойств часто представляет собой пространство имен, определенное Outlook 2013 или Outlook 2010, например, **PSETID_Appointment**. 
   
-Named properties are manipulated by using the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) function and the [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) function. The name and the property set GUID are passed to the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) function to obtain a property identifier that is valid for the current MAPI session. Because this property identifier can vary from computer to computer, the only consistent way to access a named property is to know its name and property set GUID. The range for identifiers is always in the 0x8000 and 0xFFFE range. 
+Именованные свойства управляются с помощью функции [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) и функции [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). Имя, а также набор свойств GUID, передаются функции [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) для получения идентификатора свойства, который действует для текущей сессии MAPI. Поскольку этот идентификатор свойства может различаться на разных компьютерах, единственным надежным способом доступа к именованному свойству состоит в получении его имени и набора свойств GUID. Значения идентификаторов всегда находятся в диапазоне от 0x8000 до 0xFFFE. 
   
-Any object that implements the [IMAPIProp: IUnknown](imapipropiunknown.md) interface can support named properties. Specifically, a MAPI service provider or a MAPI client must implement [IMAPIProp::GetProps](imapiprop-getprops.md) to get values of named properties. Setting named properties used by Outlook�2013 or Outlook�2010 is not supported because of the risk of corrupting data that is shared with other MAPI providers or clients. 
+Любой объект, который использует интерфейс[IMAPIProp: IUnknown](imapipropiunknown.md), поддерживает именованные свойства. В частности, поставщик услуг MAPI или клиент MAPI обязан использовать [IMAPIProp::GetProps](imapiprop-getprops.md) для получения значений именованных свойств. Конфигурация именованных свойств, которые используются Outlook 2013 или Outlook 2010, не поддерживается из-за риска повреждения данных, которые используются совместно с другими поставщиками услуг или клиентами MAPI. 
   
-Outlook�2013 and Outlook�2010 use MAPI named properties to implement many of their features, for example, attachment security and meeting counter-proposals. Above this underlying data, Outlook�2013 and Outlook�2010 expose some of these properties as item properties in their Outlook�2013 and Outlook�2010 object models. For example, the **Email1Address** property of the **ContactItem** object in the object model corresponds to the named [������������ �������� PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md) in the **PSETID_Address** namespace. But in general, due to concerns for compatibility and data integrity, many of the MAPI properties that are used by Outlook�2013 and Outlook�2010 are not exposed in the object model. 
+Outlook 2013 и Outlook 2010 используют именованный свойства MAPI для реализации множества своих функций, например, обеспечение безопасности вложений и встречные предложения для встречи. Помимо этих базовых данных Outlook 2013 и Outlook 2010 отображает некоторые из этих свойств в качестве свойств элементов в объектных моделях Outlook 2013 и Outlook 2010. Например, свойство **Email1Address** объекта **ContactItem** в объектной модели соответствует именованному [общепринятому свойству PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md) в пространстве имен**PSETID_Address**. Но как правило, из-за проблем обеспечения совместимости и целостности данных многие свойства MAPI, которые используются Outlook 2013 и Outlook 2010, не используются в объектной модели. 
   
-� ���� ������� ������� ���������� ����������� �������, ������� ����������� ����.
+Эта справочная информация описывает количество именованных свойств, указанные в списке ниже.
   
-���� ������������ ����������� ������� � ������������ ���� **PSETID_Address**. 
+В пространстве имен **PSETID_Address** используются следующие именованные свойства: 
   
-- [������������ �������� PidLidEmail1AddressType](pidlidemail1addresstype-canonical-property.md)
+- [Каноническое свойство PidLidEmail1AddressType](pidlidemail1addresstype-canonical-property.md)
     
-- [������������ �������� PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md)
+- [Каноническое свойство PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md)
     
-- [������������ �������� PidLidEmail1OriginalEntryId](pidlidemail1originalentryid-canonical-property.md)
+- [Каноническое свойство PidLidEmail1OriginalEntryId](pidlidemail1originalentryid-canonical-property.md)
     
-- [������������ �������� PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md)
+- [Каноническое свойство PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md)
     
-- [������������ �������� PidLidEmail2DisplayName](pidlidemail2displayname-canonical-property.md)
+- [Каноническое свойство PidLidEmail2DisplayName](pidlidemail2displayname-canonical-property.md)
     
-- [������������ �������� PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md)
+- [Каноническое свойство PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md)
     
-- [������������ �������� PidLidEmail2OriginalDisplayName](pidlidemail2originaldisplayname-canonical-property.md)
+- [Каноническое свойство PidLidEmail2OriginalDisplayName](pidlidemail2originaldisplayname-canonical-property.md)
     
-- [������������ �������� PidLidEmail2OriginalEntryId](pidlidemail2originalentryid-canonical-property.md)
+- [Каноническое свойство PidLidEmail2OriginalEntryId](pidlidemail2originalentryid-canonical-property.md)
     
-- [������������ �������� PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)
+- [Каноническое свойство PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)
     
-- [������������ �������� PidLidEmail3DisplayName](pidlidemail3displayname-canonical-property.md)
+- [Каноническое свойство PidLidEmail3DisplayName](pidlidemail3displayname-canonical-property.md)
     
-- [������������ �������� PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)
+- [Каноническое свойство PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)
     
-- [������������ �������� PidLidEmail3OriginalDisplayName](pidlidemail3originaldisplayname-canonical-property.md)
+- [Каноническое свойство PidLidEmail3OriginalDisplayName](pidlidemail3originaldisplayname-canonical-property.md)
     
-- [������������ �������� PidLidEmail3OriginalEntryId](pidlidemail3originalentryid-canonical-property.md)
+- [Каноническое свойство PidLidEmail3OriginalEntryId](pidlidemail3originalentryid-canonical-property.md)
     
-- [������������ �������� PidLidEmail1DisplayName](pidlidemail1displayname-canonical-property.md)
+- [Каноническое свойство PidLidEmail1DisplayName](pidlidemail1displayname-canonical-property.md)
     
-- [������������ �������� PidLidEmail1OriginalDisplayName](pidlidemail1originaldisplayname-canonical-property.md)
+- [Каноническое свойство PidLidEmail1OriginalDisplayName](pidlidemail1originaldisplayname-canonical-property.md)
     
-- [������������ �������� PidLidFileUnder](pidlidfileunder-canonical-property.md)
+- [Каноническое свойство PidLidFileUnder](pidlidfileunder-canonical-property.md)
     
-- [������������ �������� PidLidInstantMessagingAddress](pidlidinstantmessagingaddress-canonical-property.md)
+- [Каноническое свойство PidLidInstantMessagingAddress](pidlidinstantmessagingaddress-canonical-property.md)
     
-- [������������ �������� PidLidWorkAddressCity](pidlidworkaddresscity-canonical-property.md)
+- [Каноническое свойство PidLidWorkAddressCity](pidlidworkaddresscity-canonical-property.md)
     
-- [������������ �������� PidLidWorkAddressCountry](pidlidworkaddresscountry-canonical-property.md)
+- [Каноническое свойство PidLidWorkAddressCountry](pidlidworkaddresscountry-canonical-property.md)
     
-- [������������ �������� PidLidWorkAddressPostalCode](pidlidworkaddresspostalcode-canonical-property.md)
+- [Каноническое свойство PidLidWorkAddressPostalCode](pidlidworkaddresspostalcode-canonical-property.md)
     
-- [������������ �������� PidLidWorkAddressPostOfficeBox](pidlidworkaddresspostofficebox-canonical-property.md)
+- [Каноническое свойство PidLidWorkAddressPostOfficeBox](pidlidworkaddresspostofficebox-canonical-property.md)
     
-- [������������ �������� PidLidWorkAddressState](pidlidworkaddressstate-canonical-property.md)
+- [Каноническое свойство PidLidWorkAddressState](pidlidworkaddressstate-canonical-property.md)
     
-- [������������ �������� PidLidWorkAddressStreet](pidlidworkaddressstreet-canonical-property.md)
+- [Каноническое свойство PidLidWorkAddressStreet](pidlidworkaddressstreet-canonical-property.md)
     
-- [������������ �������� PidLidYomiCompanyName](pidlidyomicompanyname-canonical-property.md)
+- [Каноническое свойство PidLidYomiCompanyName](pidlidyomicompanyname-canonical-property.md)
     
-- [������������ �������� PidLidYomiFirstName](pidlidyomifirstname-canonical-property.md)
+- [Каноническое свойство PidLidYomiFirstName](pidlidyomifirstname-canonical-property.md)
     
-- [������������ �������� PidLidYomiLastName](pidlidyomilastname-canonical-property.md)
+- [Каноническое свойство PidLidYomiLastName](pidlidyomilastname-canonical-property.md)
     
-���� ������������ ����������� ������� � ������������ ���� **PSETID_Appointment**. 
+В пространстве имен **PSETID_Appointment** используются следующие именованные свойства: 
   
-- [������������ �������� PidLidAllAttendeesString](pidlidallattendeesstring-canonical-property.md)
+- [Каноническое свойство PidLidAllAttendeesString](pidlidallattendeesstring-canonical-property.md)
     
-- [������������ �������� PidLidAppointmentCounterProposal](pidlidappointmentcounterproposal-canonical-property.md)
+- [Каноническое свойство PidLidAppointmentCounterProposal](pidlidappointmentcounterproposal-canonical-property.md)
     
-- [������������ �������� PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)
+- [Каноническое свойство PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)
     
-- [������������ �������� PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)
+- [Каноническое свойство PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)
     
-- [������������ �������� PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)
+- [Каноническое свойство PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)
     
-- [������������ �������� PidLidBusyStatus](pidlidbusystatus-canonical-property.md)
+- [Каноническое свойство PidLidBusyStatus](pidlidbusystatus-canonical-property.md)
     
-- [������������ �������� PidLidCcAttendeesString](pidlidccattendeesstring-canonical-property.md)
+- [Каноническое свойство PidLidCcAttendeesString](pidlidccattendeesstring-canonical-property.md)
     
-- [������������ �������� PidLidLocation](pidlidlocation-canonical-property.md)
+- [Каноническое свойство PidLidLocation](pidlidlocation-canonical-property.md)
     
-- [������������ �������� PidLidRecurring](pidlidrecurring-canonical-property.md)
+- [Каноническое свойство PidLidRecurring](pidlidrecurring-canonical-property.md)
     
-- [������������ �������� PidLidToAttendeesString](pidlidtoattendeesstring-canonical-property.md)
+- [Каноническое свойство PidLidToAttendeesString](pidlidtoattendeesstring-canonical-property.md)
     
-���� ������������ ����������� ������� � ������������ ���� **PSETID_Common**. 
+В пространстве имен **PSETID_Common** используются следующие именованные свойства: 
   
-- [������������ �������� PidLidCommonEnd](pidlidcommonend-canonical-property.md)
+- [Каноническое свойство PidLidCommonEnd](pidlidcommonend-canonical-property.md)
     
-- [������������ �������� PidLidCommonStart](pidlidcommonstart-canonical-property.md)
+- [Каноническое свойство PidLidCommonStart](pidlidcommonstart-canonical-property.md)
     
-- [������������ �������� PidLidCompanies](pidlidcompanies-canonical-property.md)
+- [Каноническое свойство PidLidCompanies](pidlidcompanies-canonical-property.md)
     
-- [������������ �������� PidLidContacts](pidlidcontacts-canonical-property.md)
+- [Каноническое свойство PidLidContacts](pidlidcontacts-canonical-property.md)
     
-- [������������ �������� PidLidCustomFlag](pidlidcustomflag-canonical-property.md)
+- [Каноническое свойство PidLidCustomFlag](pidlidcustomflag-canonical-property.md)
     
-- [������������ �������� PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
+- [Каноническое свойство PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
     
-- [������������ �������� PidLidFormStorage](pidlidformstorage-canonical-property.md)
+- [Каноническое свойство PidLidFormStorage](pidlidformstorage-canonical-property.md)
     
-- [������������ �������� PidLidHeaderItem](pidlidheaderitem-canonical-property.md)
+- [Каноническое свойство PidLidHeaderItem](pidlidheaderitem-canonical-property.md)
     
-- [������������ �������� PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
+- [Каноническое свойство PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
     
-- [������������ �������� PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)
+- [Каноническое свойство PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)
     
-- [������������ �������� PidLidReminderSet](pidlidreminderset-canonical-property.md)
+- [Каноническое свойство PidLidReminderSet](pidlidreminderset-canonical-property.md)
     
-- [������������ �������� PidLidReminderTime](pidlidremindertime-canonical-property.md)
+- [Каноническое свойство PidLidReminderTime](pidlidremindertime-canonical-property.md)
     
-- [������������ �������� PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
+- [Каноническое свойство PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
     
-- [������������ �������� PidLidScriptStream](pidlidscriptstream-canonical-property.md)
+- [Каноническое свойство PidLidScriptStream](pidlidscriptstream-canonical-property.md)
     
-- [������������ �������� PidLidSmartNoAttach](pidlidsmartnoattach-canonical-property.md)
+- [Каноническое свойство PidLidSmartNoAttach](pidlidsmartnoattach-canonical-property.md)
     
-- [������������ �������� PidLidToDoTitle](pidlidtodotitle-canonical-property.md)
+- [Каноническое свойство PidLidToDoTitle](pidlidtodotitle-canonical-property.md)
     
-- [������������ �������� PidLidUseTnef](pidlidusetnef-canonical-property.md)
+- [Каноническое свойство PidLidUseTnef](pidlidusetnef-canonical-property.md)
     
-���� ������������ ����������� ������� � ������������ ���� **PSETID_Meeting**. 
+В пространстве имен **PSETID_Meeting** используются следующие именованные свойства: 
   
-- [������������ �������� PidLidMeetingType](pidlidmeetingtype-canonical-property.md)
+- [Каноническое свойство PidLidMeetingType](pidlidmeetingtype-canonical-property.md)
     
-���� ������������ ����������� ������� � ������������ ���� **PSETID_Task**. 
+В пространстве имен **PSETID_Task** используются следующие именованные свойства: 
   
-- [������������ �������� PidLidTaskActualEffort](pidlidtaskactualeffort-canonical-property.md)
+- [Каноническое свойство PidLidTaskActualEffort](pidlidtaskactualeffort-canonical-property.md)
     
-- [������������ �������� PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)
+- [Каноническое свойство PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)
     
-- [������������ �������� PidLidTaskEstimatedEffort](pidlidtaskestimatedeffort-canonical-property.md)
+- [Каноническое свойство PidLidTaskEstimatedEffort](pidlidtaskestimatedeffort-canonical-property.md)
     
-- [������������ �������� PidLidTaskFRecurring](pidlidtaskfrecurring-canonical-property.md)
+- [Каноническое свойство PidLidTaskFRecurring](pidlidtaskfrecurring-canonical-property.md)
     
-- [������������ �������� PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)
+- [Каноническое свойство PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)
     
-- [������������ �������� PidLidTaskStatus](pidlidtaskstatus-canonical-property.md)
+- [Каноническое свойство PidLidTaskStatus](pidlidtaskstatus-canonical-property.md)
     
-���� ������������ ����������� ������� � ������������ ���� **PS_INTERNET_HEADERS**. 
+В пространстве имен **PS_INTERNET_HEADERS** используются следующие именованные свойства: 
   
-- [������������ �������� PidTagInternetReturnPath](pidtaginternetreturnpath-canonical-property.md)
+- [Каноническое свойство PidTagInternetReturnPath](pidtaginternetreturnpath-canonical-property.md)
     
-���� ������������ ����������� ������� � ������������ ���� **PSETID_Log**. 
+В пространстве имен **PSETID_Log** используются следующие именованные свойства: 
   
-- [������������ �������� PidLidLogDuration](pidlidlogduration-canonical-property.md)
+- [Каноническое свойство PidLidLogDuration](pidlidlogduration-canonical-property.md)
     
-- [������������ �������� PidLidLogEnd](pidlidlogend-canonical-property.md)
+- [Каноническое свойство PidLidLogEnd](pidlidlogend-canonical-property.md)
     
-- [������������ �������� PidLidLogStart](pidlidlogstart-canonical-property.md)
+- [Каноническое свойство PidLidLogStart](pidlidlogstart-canonical-property.md)
     
-- [������������ �������� PidLidLogType](pidlidlogtype-canonical-property.md)
+- [Каноническое свойство PidLidLogType](pidlidlogtype-canonical-property.md)
     
-���� ������������ ����������� ������� � ������������ ���� **PS_PUBLIC_STRINGS**. 
+В пространстве имен **PS_PUBLIC_STRINGS** используются следующие именованные свойства: 
   
-- [������������ �������� PidNameKeywords](pidnamekeywords-canonical-property.md)
+- [Каноническое свойство PidNameKeywords](pidnamekeywords-canonical-property.md)
     
-- [������������ �������� PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md)
+- [Каноническое свойство PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md)
     
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [Определение того, скачан ли в Outlook только заголовок сообщения](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
   

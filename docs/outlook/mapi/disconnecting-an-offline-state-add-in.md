@@ -1,31 +1,31 @@
 ---
-title: Отсоединение надстройки, позволяющей управлять автономным состоянием
+title: Отключение надстройки, позволяющей управлять автономным состоянием
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
-description: '���� ���������� ���������: 7 ������� 2015 �.'
+description: 'Дата последнего изменения: 7 декабря 2015 года'
 ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22564138"
 ---
-# <a name="disconnecting-an-offline-state-add-in"></a>Отсоединение надстройки, позволяющей управлять автономным состоянием
+# <a name="disconnecting-an-offline-state-add-in"></a>Отключение надстройки, позволяющей управлять автономным состоянием
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-При отключении добавить в автономном режиме, необходимо реализовать функции для правильного прерывания и очистка надстройки. Дополнительные сведения о настройке и использованию автономной состояний надстройки для отслеживания изменений состояния подключения см [параметр копирование автономное состояние надстройки](setting-up-an-offline-state-add-in.md) и [Мониторинг подключения состояние изменений с помощью надстройки состояние не в сети](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
+Если отключить надстройку, позволяющую управлять автономном состоянии, необходимо реализовать ряд функций для корректного прекращения работы и удаления надстройки. Дополнительные сведения о настройке и использовании надстройки, позволяющей управлять автономным состоянием, для отслеживания изменений состояния подключения см. в статье [Конфигурация надстройки, позволяющей управлять автономным состоянием,](setting-up-an-offline-state-add-in.md) и [Мониторинг изменений состояния подключения изменения с помощью надстройки, позволяющей управлять автономным состоянием](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
-В этом разделе, эти отключение прерывания и демонстрируются функции очистки с помощью примеры кода из надстройки пример состояние не в сети. Добавить пример состояние не в сети в является надстройки COM, которая добавляет в меню **Состояния не в сети** в Outlook и использует автономный режим состояния API-Интерфейс. Через меню состояния не в сети можно включить или отключить мониторинг состояния, проверьте текущее состояние и изменения текущего состояния. Дополнительные сведения о загрузке и установке надстройки пример состояние не в сети содержатся в разделе [Установка надстройки пример состояние не в сети](installing-the-sample-offline-state-add-in.md). Дополнительные сведения об автономном режиме состояние API [Об автономном режиме состояние API](about-the-offline-state-api.md)см.
+В этой статье работа функций отключения, прекращения работы и очистки будет продемонстрирована с помощью примеров кода из примера надстройки, позволяющей управлять автономным состоянием. Пример надстройки, позволяющей управлять автономным состоянием, — это надстройка COM, добавляющее **автономное состояние ** в меню Outlook и использует API автономного режима. С помощью меню автономного состояния вы можете включать или отключать отслеживание состояния, проверять текущее состояние и изменять текущее состояние. Дополнительные сведения о скачивании и установке надстройки, позволяющей управлять автономным состоянием, см. в статье [Установка надстройки, позволяющей управлять автономным состоянием](installing-the-sample-offline-state-add-in.md). Дополнительные сведения об API автономного режима см. в статье [Об API автономного режима](about-the-offline-state-api.md).
   
-## <a name="on-disconnection-routine"></a>Для отключения подпрограммы
+## <a name="on-disconnection-routine"></a>Процесс отключения
 
-Метод **IDTExtensibility2.OnDisconnection** вызывается при выгрузке надстройки состояние не в сети. Необходимо реализовать Очистка кода в этой функции. В следующем примере, вызывает функцию **IDTExtensibility2.OnDisconnection** `HrTermAddin` функции. 
+Функция **IDTExtensibility2.OnDisconnection** вызывается при выгрузке надстройки, позволяющей управлять автономным состоянием. Вам необходимо добавить код очистки в эту функцию. В приведенном ниже примере функция  **IDTExtensibility2.OnDisconnection** вызывает `HrTermAddin`функцию 
   
-### <a name="cmyaddinondisconnection-example"></a>Пример CMyAddin::OnDisconnection()
+### <a name="cmyaddinondisconnection-example"></a>CMyAddin::OnDisconnection() пример
 
 ```cpp
 STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEARRAY * * /*custom*/) 
@@ -37,11 +37,11 @@ STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEAR
 }
 ```
 
-## <a name="terminate-add-in-function"></a>Завершение функция надстройки
+## <a name="terminate-add-in-function"></a>Удаление функции надстройки
 
-`HrTermAddin` Вызовы функций `inDeInitMonitor`, `HrRemoveMenuItems`, и `UnloadLibraries` выполнение Очистка надстройки автономный функций. 
+`HrTermAddin`Функция вызывает функции `inDeInitMonitor`, `HrRemoveMenuItems` и `UnloadLibraries` для завершения удаления надстройки, позволяющей управлять автономным состоянием. 
   
-### <a name="cmyaddinhrtermaddin-example"></a>Пример CMyAddin::HrTermAddin()
+### <a name="cmyaddinhrtermaddin-example"></a>CMyAddin::HrTermAddin() пример
 
 ```cpp
 HRESULT CMyAddin::HrTermAddin() 
@@ -54,11 +54,11 @@ HRESULT CMyAddin::HrTermAddin()
 }
 ```
 
-## <a name="deinitialize-monitor-routine"></a>Deinitialize подпрограммы монитор
+## <a name="deinitialize-monitor-routine"></a>Деинициализация мониторинга
 
-`inDeInitMonitor` Функция вызывает функцию [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) для отмены обратных вызовов для автономного объекта. 
+`inDeInitMonitor`Функция вызывает функцию [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) для прекращения повторных вызовов для автономного объекта. 
   
-### <a name="deinitmonitor-example"></a>Пример DeInitMonitor()
+### <a name="deinitmonitor-example"></a>DeInitMonitor() пример
 
 ```cpp
 void DeInitMonitor() 
@@ -75,11 +75,11 @@ g_ulAdviseToken = NULL;
 }
 ```
 
-## <a name="remove-menu-items-routine"></a>Удаление подпрограммы элементы меню
+## <a name="remove-menu-items-routine"></a>Процесс удаления элементов меню
 
-`HrRemoveMenuItems` Вызовы функций `DispEventUnadvise` для каждого элемента меню в группе меню **Состояния не в сети** , а затем удаляет меню **Состояния не в сети** . 
+`HrRemoveMenuItems` Функция вызывает `DispEventUnadvise` для каждого элемента меню **Автономное состояние**, а затем удаляет меню **Автономное состояние**. 
   
-### <a name="cmyaddinhrremovemenuitems-example"></a>Пример CMyAddin::HrRemoveMenuItems()
+### <a name="cmyaddinhrremovemenuitems-example"></a>CMyAddin::HrRemoveMenuItems() пример
 
 ```cpp
 HRESULT CMyAddin::HrRemoveMenuItems() 
@@ -122,11 +122,11 @@ HRESULT CMyAddin::HrRemoveMenuItems()
 }
 ```
 
-## <a name="unload-libraries-routine"></a>Процедуры Unload библиотек
+## <a name="unload-libraries-routine"></a>Процесс выгрузки библиотек
 
-При выгрузке из Outlook, надстройка `UnloadLibraries` функция выгружает библиотеки динамической компоновки (DLL), которые требуется добавить в. 
+Когда надстройка будет выгружена из Outlook, функция `UnloadLibraries` выгружает динамически загружаемые библиотеки (DLL), которые использует надстройка. 
   
-### <a name="unloadlibraries-example"></a>Пример UnloadLibraries()
+### <a name="unloadlibraries-example"></a>UnloadLibraries() пример
 
 ```cpp
 void UnloadLibraries() 
@@ -145,9 +145,9 @@ void UnloadLibraries()
 
 ## <a name="see-also"></a>См. также
 
-- [Сведения об API автономного состояния](about-the-offline-state-api.md)
+- [Об API автономного режима](about-the-offline-state-api.md)
 - [Установка примера надстройки, позволяющей управлять автономным состоянием](installing-the-sample-offline-state-add-in.md)
-- [Сведения о примере надстройки с автономным состоянием](about-the-sample-offline-state-add-in.md)
+- [О примере надстройки, позволяющей управлять автономным состоянием](about-the-sample-offline-state-add-in.md)
 - [Конфигурация надстройки, позволяющей управлять автономным состоянием](setting-up-an-offline-state-add-in.md)
 - [Отслеживание изменений состояния подключения с помощью надстройки, позволяющей управлять автономным состоянием](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 
