@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22579293"
 ---
-# <a name="imapiformmgrselectmultipleforms"></a><span data-ttu-id="f86f5-103">IMAPIFormMgr::SelectMultipleForms</span><span class="sxs-lookup"><span data-stu-id="f86f5-103">IMAPIFormMgr::SelectMultipleForms</span></span>
+# <a name="imapiformmgrselectmultipleforms"></a><span data-ttu-id="ddcef-103">IMAPIFormMgr::SelectMultipleForms</span><span class="sxs-lookup"><span data-stu-id="ddcef-103">IMAPIFormMgr::SelectMultipleForms</span></span>
 
   
   
-<span data-ttu-id="f86f5-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f86f5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ddcef-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ddcef-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f86f5-105">Предоставляет диалоговое окно, которое позволяет пользователю выбрать нескольких форм и возвращает массив формы объекты, которые описывают формах.</span><span class="sxs-lookup"><span data-stu-id="f86f5-105">Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms.</span></span>
+<span data-ttu-id="ddcef-105">Предоставляет диалоговое окно, которое позволяет пользователю выбрать нескольких форм и возвращает массив формы объекты, которые описывают формах.</span><span class="sxs-lookup"><span data-stu-id="ddcef-105">Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms.</span></span>
   
 ```cpp
 HRESULT SelectMultipleForms(
@@ -38,61 +38,61 @@ HRESULT SelectMultipleForms(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f86f5-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="f86f5-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ddcef-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="ddcef-106">Parameters</span></span>
 
- <span data-ttu-id="f86f5-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="f86f5-107">_ulUIParam_</span></span>
+ <span data-ttu-id="ddcef-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="ddcef-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="f86f5-108">[in] Дескриптор родительского окна, отображаемого диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="f86f5-108">[in] A handle to the parent window of the displayed dialog box.</span></span> 
+> <span data-ttu-id="ddcef-108">[in] Дескриптор родительского окна, отображаемого диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="ddcef-108">[in] A handle to the parent window of the displayed dialog box.</span></span> 
     
- <span data-ttu-id="f86f5-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="f86f5-109">_ulFlags_</span></span>
+ <span data-ttu-id="ddcef-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="ddcef-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="f86f5-110">[in] Битовая маска флаги, определяющее тип строк, переданное.</span><span class="sxs-lookup"><span data-stu-id="f86f5-110">[in] A bitmask of flags that controls the type of the passed-in strings.</span></span> <span data-ttu-id="f86f5-111">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="f86f5-111">The following flag can be set:</span></span>
+> <span data-ttu-id="ddcef-110">[in] Битовая маска флаги, определяющее тип строк, переданное.</span><span class="sxs-lookup"><span data-stu-id="ddcef-110">[in] A bitmask of flags that controls the type of the passed-in strings.</span></span> <span data-ttu-id="ddcef-111">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="ddcef-111">The following flag can be set:</span></span>
     
-<span data-ttu-id="f86f5-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f86f5-112">MAPI_UNICODE</span></span> 
+<span data-ttu-id="ddcef-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="ddcef-112">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="f86f5-113">Строки переданное хранятся в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="f86f5-113">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="f86f5-114">Если флаг MAPI_UNICODE не установлен, они в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="f86f5-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
+> <span data-ttu-id="ddcef-113">Строки переданное хранятся в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="ddcef-113">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="ddcef-114">Если флаг MAPI_UNICODE не установлен, они в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="ddcef-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
     
- <span data-ttu-id="f86f5-115">_pszTitle_</span><span class="sxs-lookup"><span data-stu-id="f86f5-115">_pszTitle_</span></span>
+ <span data-ttu-id="ddcef-115">_pszTitle_</span><span class="sxs-lookup"><span data-stu-id="ddcef-115">_pszTitle_</span></span>
   
-> <span data-ttu-id="f86f5-116">[in] Указатель на строку, которая содержит заголовок диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="f86f5-116">[in] A pointer to a string that contains the caption of the dialog box.</span></span> <span data-ttu-id="f86f5-117">Если параметр _pszTitle_ имеет значение NULL, поставщик библиотеки форм, предоставляющий форм предоставляет заголовок по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="f86f5-117">If the  _pszTitle_ parameter is NULL, the form library provider that provides the forms supplies a default caption.</span></span> 
+> <span data-ttu-id="ddcef-116">[in] Указатель на строку, которая содержит заголовок диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="ddcef-116">[in] A pointer to a string that contains the caption of the dialog box.</span></span> <span data-ttu-id="ddcef-117">Если параметр _pszTitle_ имеет значение NULL, поставщик библиотеки форм, предоставляющий форм предоставляет заголовок по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="ddcef-117">If the  _pszTitle_ parameter is NULL, the form library provider that provides the forms supplies a default caption.</span></span> 
     
- <span data-ttu-id="f86f5-118">_pfld_</span><span class="sxs-lookup"><span data-stu-id="f86f5-118">_pfld_</span></span>
+ <span data-ttu-id="ddcef-118">_pfld_</span><span class="sxs-lookup"><span data-stu-id="ddcef-118">_pfld_</span></span>
   
-> <span data-ttu-id="f86f5-119">[in] Указатель на папку для выбора формы.</span><span class="sxs-lookup"><span data-stu-id="f86f5-119">[in] A pointer to the folder from which to select the forms.</span></span> <span data-ttu-id="f86f5-120">Если параметр _pfld_ имеет значение NULL, формы выбираются из контейнера формы local, личный или организации.</span><span class="sxs-lookup"><span data-stu-id="f86f5-120">If the  _pfld_ parameter is NULL, the forms are selected from the local, personal, or organization form container.</span></span> 
+> <span data-ttu-id="ddcef-119">[in] Указатель на папку для выбора формы.</span><span class="sxs-lookup"><span data-stu-id="ddcef-119">[in] A pointer to the folder from which to select the forms.</span></span> <span data-ttu-id="ddcef-120">Если параметр _pfld_ имеет значение NULL, формы выбираются из контейнера формы local, личный или организации.</span><span class="sxs-lookup"><span data-stu-id="ddcef-120">If the  _pfld_ parameter is NULL, the forms are selected from the local, personal, or organization form container.</span></span> 
     
- <span data-ttu-id="f86f5-121">_pfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="f86f5-121">_pfrminfoarray_</span></span>
+ <span data-ttu-id="ddcef-121">_pfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="ddcef-121">_pfrminfoarray_</span></span>
   
-> <span data-ttu-id="f86f5-122">[in] Указатель на массив объектов формы сведения, которые предварительно выбранных для пользователя.</span><span class="sxs-lookup"><span data-stu-id="f86f5-122">[in] A pointer to an array of form information objects that are preselected for the user.</span></span>
+> <span data-ttu-id="ddcef-122">[in] Указатель на массив объектов формы сведения, которые предварительно выбранных для пользователя.</span><span class="sxs-lookup"><span data-stu-id="ddcef-122">[in] A pointer to an array of form information objects that are preselected for the user.</span></span>
     
- <span data-ttu-id="f86f5-123">_ppfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="f86f5-123">_ppfrminfoarray_</span></span>
+ <span data-ttu-id="ddcef-123">_ppfrminfoarray_</span><span class="sxs-lookup"><span data-stu-id="ddcef-123">_ppfrminfoarray_</span></span>
   
-> <span data-ttu-id="f86f5-124">[out] Указатель на указатель на возвращаемый массив объектов данные формы.</span><span class="sxs-lookup"><span data-stu-id="f86f5-124">[out] A pointer to a pointer to the returned array of form information objects.</span></span>
+> <span data-ttu-id="ddcef-124">[out] Указатель на указатель на возвращаемый массив объектов данные формы.</span><span class="sxs-lookup"><span data-stu-id="ddcef-124">[out] A pointer to a pointer to the returned array of form information objects.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f86f5-125">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="f86f5-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ddcef-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="ddcef-125">Return value</span></span>
 
-<span data-ttu-id="f86f5-126">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="f86f5-126">S_OK</span></span> 
+<span data-ttu-id="ddcef-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="ddcef-126">S_OK</span></span> 
   
-> <span data-ttu-id="f86f5-127">Вызов успешно и возвращается ожидаемым значением или значения.</span><span class="sxs-lookup"><span data-stu-id="f86f5-127">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="ddcef-127">Вызов успешно и возвращается ожидаемым значением или значения.</span><span class="sxs-lookup"><span data-stu-id="ddcef-127">The call succeeded and returned the expected value or values.</span></span>
     
-<span data-ttu-id="f86f5-128">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="f86f5-128">MAPI_E_BAD_CHARWIDTH</span></span> 
+<span data-ttu-id="ddcef-128">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="ddcef-128">MAPI_E_BAD_CHARWIDTH</span></span> 
   
-> <span data-ttu-id="f86f5-129">Либо был установлен флажок MAPI_UNICODE и реализация не поддерживает Юникод, или MAPI_UNICODE не было установлено и реализация поддерживает только Юникод.</span><span class="sxs-lookup"><span data-stu-id="f86f5-129">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation supports only Unicode.</span></span>
+> <span data-ttu-id="ddcef-129">Либо был установлен флажок MAPI_UNICODE и реализация не поддерживает Юникод, или MAPI_UNICODE не было установлено и реализация поддерживает только Юникод.</span><span class="sxs-lookup"><span data-stu-id="ddcef-129">Either the MAPI_UNICODE flag was set and the implementation does not support Unicode, or MAPI_UNICODE was not set and the implementation supports only Unicode.</span></span>
     
-<span data-ttu-id="f86f5-130">MAPI_E_USER_CANCEL</span><span class="sxs-lookup"><span data-stu-id="f86f5-130">MAPI_E_USER_CANCEL</span></span> 
+<span data-ttu-id="ddcef-130">MAPI_E_USER_CANCEL</span><span class="sxs-lookup"><span data-stu-id="ddcef-130">MAPI_E_USER_CANCEL</span></span> 
   
-> <span data-ttu-id="f86f5-131">Пользователь отменил операцию, как правило, нажмите кнопку **Отмена** в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="f86f5-131">The user canceled the operation, typically by clicking the **Cancel** button in the dialog box.</span></span> 
+> <span data-ttu-id="ddcef-131">Пользователь отменил операцию, как правило, нажмите кнопку **Отмена** в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="ddcef-131">The user canceled the operation, typically by clicking the **Cancel** button in the dialog box.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="f86f5-132">Замечания</span><span class="sxs-lookup"><span data-stu-id="f86f5-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ddcef-132">Замечания</span><span class="sxs-lookup"><span data-stu-id="ddcef-132">Remarks</span></span>
 
-<span data-ttu-id="f86f5-133">Средства просмотра формы вызвать метод **IMAPIFormMgr::SelectMultipleForms** для первым диалоговое окно, которое позволяет пользователю выбрать нескольких форм нажмите для получения массива формы сведения объекты и, описывающие выбранные формы.</span><span class="sxs-lookup"><span data-stu-id="f86f5-133">Form viewers call the **IMAPIFormMgr::SelectMultipleForms** method to first present a dialog box that enables the user to select multiple forms and then to retrieve an array of form information objects that describe the selected forms.</span></span> <span data-ttu-id="f86f5-134">Диалоговое окно **SelectMultipleForms** отображает все формы ли они являются скрытыми (то есть ли их скрытые свойства не установлены).</span><span class="sxs-lookup"><span data-stu-id="f86f5-134">The **SelectMultipleForms** dialog box displays all forms, whether or not they are hidden (that is, whether or not their hidden properties are clear).</span></span> 
+<span data-ttu-id="ddcef-133">Средства просмотра формы вызвать метод **IMAPIFormMgr::SelectMultipleForms** для первым диалоговое окно, которое позволяет пользователю выбрать нескольких форм нажмите для получения массива формы сведения объекты и, описывающие выбранные формы.</span><span class="sxs-lookup"><span data-stu-id="ddcef-133">Form viewers call the **IMAPIFormMgr::SelectMultipleForms** method to first present a dialog box that enables the user to select multiple forms and then to retrieve an array of form information objects that describe the selected forms.</span></span> <span data-ttu-id="ddcef-134">Диалоговое окно **SelectMultipleForms** отображает все формы ли они являются скрытыми (то есть ли их скрытые свойства не установлены).</span><span class="sxs-lookup"><span data-stu-id="ddcef-134">The **SelectMultipleForms** dialog box displays all forms, whether or not they are hidden (that is, whether or not their hidden properties are clear).</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="f86f5-135">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="f86f5-135">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="ddcef-135">Примечания для реализующих</span><span class="sxs-lookup"><span data-stu-id="ddcef-135">Notes to implementers</span></span>
 
-<span data-ttu-id="f86f5-136">Если форма просмотра передает флаг MAPI_UNICODE в параметре _ulFlags_ , все строки содержат Юникод.</span><span class="sxs-lookup"><span data-stu-id="f86f5-136">If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode.</span></span> <span data-ttu-id="f86f5-137">Поставщики библиотеки форм, которые не поддерживают строк в кодировке Юникод должен возвращать MAPI_E_BAD_CHARWIDTH, если передается MAPI_UNICODE.</span><span class="sxs-lookup"><span data-stu-id="f86f5-137">Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed.</span></span> 
+<span data-ttu-id="ddcef-136">Если форма просмотра передает флаг MAPI_UNICODE в параметре _ulFlags_ , все строки содержат Юникод.</span><span class="sxs-lookup"><span data-stu-id="ddcef-136">If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode.</span></span> <span data-ttu-id="ddcef-137">Поставщики библиотеки форм, которые не поддерживают строк в кодировке Юникод должен возвращать MAPI_E_BAD_CHARWIDTH, если передается MAPI_UNICODE.</span><span class="sxs-lookup"><span data-stu-id="ddcef-137">Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f86f5-138">См. также</span><span class="sxs-lookup"><span data-stu-id="f86f5-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ddcef-138">См. также</span><span class="sxs-lookup"><span data-stu-id="ddcef-138">See also</span></span>
 
 
 
-[<span data-ttu-id="f86f5-139">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f86f5-139">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
+[<span data-ttu-id="ddcef-139">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ddcef-139">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
 

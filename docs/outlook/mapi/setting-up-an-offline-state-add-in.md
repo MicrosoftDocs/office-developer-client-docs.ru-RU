@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
-description: '���� ���������� ���������: 5 ���� 2012 �.'
+description: 'Дата последнего изменения: 05 июля 2012 г.'
 ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -13,19 +13,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25390963"
 ---
-# <a name="setting-up-an-offline-state-add-in"></a><span data-ttu-id="be893-103">Настройка надстройки автономный режим</span><span class="sxs-lookup"><span data-stu-id="be893-103">Setting up an offline state add-in</span></span>
+# <a name="setting-up-an-offline-state-add-in"></a><span data-ttu-id="e5351-103">Настройка надстройки автономный режим</span><span class="sxs-lookup"><span data-stu-id="e5351-103">Setting up an offline state add-in</span></span>
 
-<span data-ttu-id="be893-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="be893-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e5351-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e5351-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="be893-105">Для реализации автономное состояние надстройки, необходимо реализовать подключения, инициализация и другие функции программы установки.</span><span class="sxs-lookup"><span data-stu-id="be893-105">To implement an offline state add-in, you must implement connection, initialization, and other setup functions.</span></span> <span data-ttu-id="be893-106">В этом разделе, эти подключения, инициализация и программы установки с помощью примеры кода из надстройки состояние не в сети пример демонстрируются функции.</span><span class="sxs-lookup"><span data-stu-id="be893-106">In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in.</span></span> <span data-ttu-id="be893-107">Добавить пример состояние не в сети в является надстройки COM, которая добавляет в меню **Состояния не в сети** в Outlook и использует автономный режим состояния API-Интерфейс.</span><span class="sxs-lookup"><span data-stu-id="be893-107">The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API.</span></span> <span data-ttu-id="be893-108">Через меню **Состояния не в сети** можно включить или отключить мониторинг состояния, проверьте текущее состояние и изменения текущего состояния.</span><span class="sxs-lookup"><span data-stu-id="be893-108">Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state.</span></span> <span data-ttu-id="be893-109">Дополнительные сведения о загрузке и установке надстройки пример состояние не в сети содержатся в разделе [Установка надстройки пример состояние не в сети](installing-the-sample-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="be893-109">For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md).</span></span> <span data-ttu-id="be893-110">Дополнительные сведения об автономном режиме состояние API [Об автономном режиме состояние API](about-the-offline-state-api.md)см.</span><span class="sxs-lookup"><span data-stu-id="be893-110">For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).</span></span>
+<span data-ttu-id="e5351-105">Для реализации автономное состояние надстройки, необходимо реализовать подключения, инициализация и другие функции программы установки.</span><span class="sxs-lookup"><span data-stu-id="e5351-105">To implement an offline state add-in, you must implement connection, initialization, and other setup functions.</span></span> <span data-ttu-id="e5351-106">В этом разделе, эти подключения, инициализация и программы установки с помощью примеры кода из надстройки состояние не в сети пример демонстрируются функции.</span><span class="sxs-lookup"><span data-stu-id="e5351-106">In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in.</span></span> <span data-ttu-id="e5351-107">Пример надстройки, позволяющей управлять автономным состоянием, — это надстройка COM, добавляющее \*\*автономное состояние \*\* в меню Outlook и использует API автономного режима.</span><span class="sxs-lookup"><span data-stu-id="e5351-107">The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API.</span></span> <span data-ttu-id="e5351-108">Через меню **Состояния не в сети** можно включить или отключить мониторинг состояния, проверьте текущее состояние и изменения текущего состояния.</span><span class="sxs-lookup"><span data-stu-id="e5351-108">Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state.</span></span> <span data-ttu-id="e5351-109">Дополнительные сведения о скачивании и установке надстройки, позволяющей управлять автономным состоянием, см. в статье [Установка надстройки, позволяющей управлять автономным состоянием](installing-the-sample-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="e5351-109">For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md).</span></span> <span data-ttu-id="e5351-110">Дополнительные сведения об API автономного режима см. в статье [Об API автономного режима](about-the-offline-state-api.md).</span><span class="sxs-lookup"><span data-stu-id="e5351-110">For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).</span></span>
   
-<span data-ttu-id="be893-111">После настройки автономное состояние надстройки, необходимо реализовать функции для мониторинга и изменять изменения состояния подключения.</span><span class="sxs-lookup"><span data-stu-id="be893-111">After you set up an offline state add-in, you must implement functions to monitor and modify connection state changes.</span></span> <span data-ttu-id="be893-112">Для получения дополнительных сведений см [Мониторинг подключения состояние изменений с помощью надстройки состояние не в сети](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="be893-112">For more information, see [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span></span>
+<span data-ttu-id="e5351-111">После настройки автономное состояние надстройки, необходимо реализовать функции для мониторинга и изменять изменения состояния подключения.</span><span class="sxs-lookup"><span data-stu-id="e5351-111">After you set up an offline state add-in, you must implement functions to monitor and modify connection state changes.</span></span> <span data-ttu-id="e5351-112">Для получения дополнительных сведений см [Мониторинг подключения состояние изменений с помощью надстройки состояние не в сети](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span><span class="sxs-lookup"><span data-stu-id="e5351-112">For more information, see [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).</span></span>
   
-## <a name="on-connection-routine"></a><span data-ttu-id="be893-113">На процедуру подключения</span><span class="sxs-lookup"><span data-stu-id="be893-113">On Connection routine</span></span>
+## <a name="on-connection-routine"></a><span data-ttu-id="e5351-113">На процедуру подключения</span><span class="sxs-lookup"><span data-stu-id="e5351-113">On Connection routine</span></span>
 
-<span data-ttu-id="be893-114">**[Метод IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** вызывается каждый раз при загрузке надстроек.</span><span class="sxs-lookup"><span data-stu-id="be893-114">The **[IDTExtensibility2.OnConnection Method](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded.</span></span> <span data-ttu-id="be893-115">— Это точка входа для надстройки, чтобы код, поместить `OnConnection` функция будет вызываться при запуске надстройки.</span><span class="sxs-lookup"><span data-stu-id="be893-115">It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts.</span></span> <span data-ttu-id="be893-116">В следующем примере `OnConnection` вызовы функций `HrInitAddin` функции.</span><span class="sxs-lookup"><span data-stu-id="be893-116">In the following example, the  `OnConnection` function calls the  `HrInitAddin` function.</span></span> 
+<span data-ttu-id="e5351-114">**[Метод IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** вызывается каждый раз при загрузке надстроек.</span><span class="sxs-lookup"><span data-stu-id="e5351-114">The **[IDTExtensibility2.OnConnection Method](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded.</span></span> <span data-ttu-id="e5351-115">— Это точка входа для надстройки, чтобы код, поместить `OnConnection` функция будет вызываться при запуске надстройки.</span><span class="sxs-lookup"><span data-stu-id="e5351-115">It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts.</span></span> <span data-ttu-id="e5351-116">В следующем примере `OnConnection` вызовы функций `HrInitAddin` функции.</span><span class="sxs-lookup"><span data-stu-id="e5351-116">In the following example, the  `OnConnection` function calls the  `HrInitAddin` function.</span></span> 
   
-### <a name="cmyaddinonconnection-example"></a><span data-ttu-id="be893-117">Пример CMyAddin::OnConnection()</span><span class="sxs-lookup"><span data-stu-id="be893-117">CMyAddin::OnConnection() example</span></span>
+### <a name="cmyaddinonconnection-example"></a><span data-ttu-id="e5351-117">Пример CMyAddin::OnConnection()</span><span class="sxs-lookup"><span data-stu-id="e5351-117">CMyAddin::OnConnection() example</span></span>
 
 ```cpp
 STDMETHODIMP CMyAddin::OnConnection( 
@@ -44,11 +44,11 @@ STDMETHODIMP CMyAddin::OnConnection(
 }
 ```
 
-## <a name="initialize-add-in-routine"></a><span data-ttu-id="be893-118">Инициализация подпрограммы Add-in</span><span class="sxs-lookup"><span data-stu-id="be893-118">Initialize Add-in routine</span></span>
+## <a name="initialize-add-in-routine"></a><span data-ttu-id="e5351-118">Инициализация подпрограммы Add-in</span><span class="sxs-lookup"><span data-stu-id="e5351-118">Initialize Add-in routine</span></span>
 
-<span data-ttu-id="be893-119">`HrInitAddin` Вызовы функций `LoadLibraries`, `HrCacheProfileName`, и `HrAddMenuItems` функции для завершения установки надстройки автономное состояние.</span><span class="sxs-lookup"><span data-stu-id="be893-119">The  `HrInitAddin` function calls the  `LoadLibraries`,  `HrCacheProfileName`, and  `HrAddMenuItems` functions to finish setting up the offline state add-in.</span></span> 
+<span data-ttu-id="e5351-119">`HrInitAddin` Вызовы функций `LoadLibraries`, `HrCacheProfileName`, и `HrAddMenuItems` функции для завершения установки надстройки автономное состояние.</span><span class="sxs-lookup"><span data-stu-id="e5351-119">The  `HrInitAddin` function calls the  `LoadLibraries`,  `HrCacheProfileName`, and  `HrAddMenuItems` functions to finish setting up the offline state add-in.</span></span> 
   
-### <a name="cmyaddinhrinitaddin-example"></a><span data-ttu-id="be893-120">Пример CMyAddin::HrInitAddin()</span><span class="sxs-lookup"><span data-stu-id="be893-120">CMyAddin::HrInitAddin() example</span></span>
+### <a name="cmyaddinhrinitaddin-example"></a><span data-ttu-id="e5351-120">Пример CMyAddin::HrInitAddin()</span><span class="sxs-lookup"><span data-stu-id="e5351-120">CMyAddin::HrInitAddin() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrInitAddin() 
@@ -63,11 +63,11 @@ HRESULT CMyAddin::HrInitAddin()
 }
 ```
 
-## <a name="load-libraries-routine"></a><span data-ttu-id="be893-121">Загрузить процедуру библиотеки</span><span class="sxs-lookup"><span data-stu-id="be893-121">Load Libraries routine</span></span>
+## <a name="load-libraries-routine"></a><span data-ttu-id="e5351-121">Загрузить процедуру библиотеки</span><span class="sxs-lookup"><span data-stu-id="e5351-121">Load Libraries routine</span></span>
 
-<span data-ttu-id="be893-122">`LoadLibraries` Функция загружает файлы библиотеки динамической компоновки (DLL), которые требуется добавить в.</span><span class="sxs-lookup"><span data-stu-id="be893-122">The  `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires.</span></span> 
+<span data-ttu-id="e5351-122">`LoadLibraries` Функция загружает файлы библиотеки динамической компоновки (DLL), которые требуется добавить в.</span><span class="sxs-lookup"><span data-stu-id="e5351-122">The  `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires.</span></span> 
   
-### <a name="loadlibraries-example"></a><span data-ttu-id="be893-123">Пример LoadLibraries()</span><span class="sxs-lookup"><span data-stu-id="be893-123">LoadLibraries() example</span></span>
+### <a name="loadlibraries-example"></a><span data-ttu-id="e5351-123">Пример LoadLibraries()</span><span class="sxs-lookup"><span data-stu-id="e5351-123">LoadLibraries() example</span></span>
 
 ```cpp
 void LoadLibraries() 
@@ -166,11 +166,11 @@ void LoadLibraries()
 }
 ```
 
-## <a name="cache-profile-name-routine"></a><span data-ttu-id="be893-124">Процедуру имя профиля кэша</span><span class="sxs-lookup"><span data-stu-id="be893-124">Cache Profile Name routine</span></span>
+## <a name="cache-profile-name-routine"></a><span data-ttu-id="e5351-124">Процедуру имя профиля кэша</span><span class="sxs-lookup"><span data-stu-id="e5351-124">Cache Profile Name routine</span></span>
 
-<span data-ttu-id="be893-125">`HrCacheProfileName` Функция вызывает функцию **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** , чтобы открыть профиля для текущего сеанса и затем задает профиль для обработчиков кнопка.</span><span class="sxs-lookup"><span data-stu-id="be893-125">The  `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers.</span></span> 
+<span data-ttu-id="e5351-125">`HrCacheProfileName` Функция вызывает функцию **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** , чтобы открыть профиля для текущего сеанса и затем задает профиль для обработчиков кнопка.</span><span class="sxs-lookup"><span data-stu-id="e5351-125">The  `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers.</span></span> 
   
-### <a name="cmyaddinhrcacheprofilename-example"></a><span data-ttu-id="be893-126">Пример CMyAddin::HrCacheProfileName()</span><span class="sxs-lookup"><span data-stu-id="be893-126">CMyAddin::HrCacheProfileName() example</span></span>
+### <a name="cmyaddinhrcacheprofilename-example"></a><span data-ttu-id="e5351-126">Пример CMyAddin::HrCacheProfileName()</span><span class="sxs-lookup"><span data-stu-id="e5351-126">CMyAddin::HrCacheProfileName() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrCacheProfileName() 
@@ -212,11 +212,11 @@ HRESULT CMyAddin::HrCacheProfileName()
 }
 ```
 
-## <a name="add-menu-items-routine"></a><span data-ttu-id="be893-127">Добавление общей процедуры пунктов меню</span><span class="sxs-lookup"><span data-stu-id="be893-127">Add Menu Items routine</span></span>
+## <a name="add-menu-items-routine"></a><span data-ttu-id="e5351-127">Добавление общей процедуры пунктов меню</span><span class="sxs-lookup"><span data-stu-id="e5351-127">Add Menu Items routine</span></span>
 
-<span data-ttu-id="be893-128">`HrAddMenuItems` Функция определяет параметры меню, которые отображаются в меню **Состояния не в сети** , которая создается при надстройки загружается в Outlook, а затем вызывает `DispEventAdvise` для каждого элемента меню.</span><span class="sxs-lookup"><span data-stu-id="be893-128">The  `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls  `DispEventAdvise` for each menu item.</span></span> 
+<span data-ttu-id="e5351-128">`HrAddMenuItems` Функция определяет параметры меню, которые отображаются в меню **Состояния не в сети** , которая создается при надстройки загружается в Outlook, а затем вызывает `DispEventAdvise` для каждого элемента меню.</span><span class="sxs-lookup"><span data-stu-id="e5351-128">The  `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls  `DispEventAdvise` for each menu item.</span></span> 
   
-### <a name="cmyaddinhraddmenuitems-example"></a><span data-ttu-id="be893-129">Пример CMyAddin::HrAddMenuItems()</span><span class="sxs-lookup"><span data-stu-id="be893-129">CMyAddin::HrAddMenuItems() example</span></span>
+### <a name="cmyaddinhraddmenuitems-example"></a><span data-ttu-id="e5351-129">Пример CMyAddin::HrAddMenuItems()</span><span class="sxs-lookup"><span data-stu-id="e5351-129">CMyAddin::HrAddMenuItems() example</span></span>
 
 ```cpp
 HRESULT CMyAddin::HrAddMenuItems() 
@@ -287,11 +287,11 @@ HRESULT CMyAddin::HrAddMenuItems()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="be893-130">См. также</span><span class="sxs-lookup"><span data-stu-id="be893-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e5351-130">См. также</span><span class="sxs-lookup"><span data-stu-id="e5351-130">See also</span></span>
 
-- [<span data-ttu-id="be893-131">Сведения об API автономного состояния</span><span class="sxs-lookup"><span data-stu-id="be893-131">About the Offline State API</span></span>](about-the-offline-state-api.md) 
-- [<span data-ttu-id="be893-132">Установка примера надстройки, позволяющей управлять автономным состоянием</span><span class="sxs-lookup"><span data-stu-id="be893-132">Installing the Sample Offline State Add-in</span></span>](installing-the-sample-offline-state-add-in.md)
-- [<span data-ttu-id="be893-133">Сведения о примере надстройки с автономным состоянием</span><span class="sxs-lookup"><span data-stu-id="be893-133">About the Sample Offline State Add-in</span></span>](about-the-sample-offline-state-add-in.md)
-- [<span data-ttu-id="be893-134">Отслеживание изменений состояния подключения с помощью надстройки, позволяющей управлять автономным состоянием</span><span class="sxs-lookup"><span data-stu-id="be893-134">Monitoring Connection State Changes Using an Offline State Add-in</span></span>](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [<span data-ttu-id="be893-135">Отсоединение надстройки, позволяющей управлять автономным состоянием</span><span class="sxs-lookup"><span data-stu-id="be893-135">Disconnecting an Offline State Add-in</span></span>](disconnecting-an-offline-state-add-in.md)
+- [<span data-ttu-id="e5351-131">Об API автономного режима</span><span class="sxs-lookup"><span data-stu-id="e5351-131">About the Offline State API</span></span>](about-the-offline-state-api.md) 
+- [<span data-ttu-id="e5351-132">Установка примера надстройки, позволяющей управлять автономным состоянием</span><span class="sxs-lookup"><span data-stu-id="e5351-132">Installing the Sample Offline State Add-in</span></span>](installing-the-sample-offline-state-add-in.md)
+- [<span data-ttu-id="e5351-133">О примере надстройки, позволяющей управлять автономным состоянием</span><span class="sxs-lookup"><span data-stu-id="e5351-133">About the Sample Offline State Add-in</span></span>](about-the-sample-offline-state-add-in.md)
+- [<span data-ttu-id="e5351-134">Отслеживание изменений состояния подключения с помощью надстройки, позволяющей управлять автономным состоянием</span><span class="sxs-lookup"><span data-stu-id="e5351-134">Monitoring Connection State Changes Using an Offline State Add-in</span></span>](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [<span data-ttu-id="e5351-135">Отключение автономного состояния надстройке</span><span class="sxs-lookup"><span data-stu-id="e5351-135">Disconnecting an Offline State Add-in</span></span>](disconnecting-an-offline-state-add-in.md)
 

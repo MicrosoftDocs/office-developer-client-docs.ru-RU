@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22594840"
 ---
-# <a name="imapisecuremessagegetbasemessage"></a><span data-ttu-id="93479-103">IMAPISecureMessage::GetBaseMessage</span><span class="sxs-lookup"><span data-stu-id="93479-103">IMAPISecureMessage::GetBaseMessage</span></span>
+# <a name="imapisecuremessagegetbasemessage"></a><span data-ttu-id="3a460-103">IMAPISecureMessage::GetBaseMessage</span><span class="sxs-lookup"><span data-stu-id="3a460-103">IMAPISecureMessage::GetBaseMessage</span></span>
 
   
   
-<span data-ttu-id="93479-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="93479-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3a460-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3a460-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="93479-105">Получает базовый [IMessage: IMAPIProp](imessageimapiprop.md) , это [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) является инкапсуляции.</span><span class="sxs-lookup"><span data-stu-id="93479-105">Retrieves the underlying [IMessage : IMAPIProp](imessageimapiprop.md) that this [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) is encapsulating.</span></span> 
+<span data-ttu-id="3a460-105">Получает базовый [IMessage: IMAPIProp](imessageimapiprop.md) , это [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) является инкапсуляции.</span><span class="sxs-lookup"><span data-stu-id="3a460-105">Retrieves the underlying [IMessage : IMAPIProp](imessageimapiprop.md) that this [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) is encapsulating.</span></span> 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -33,23 +33,23 @@ HRESULT GetBaseMessage(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="93479-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="93479-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3a460-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="3a460-106">Parameters</span></span>
 
- <span data-ttu-id="93479-107">_ppmsg_</span><span class="sxs-lookup"><span data-stu-id="93479-107">_ppmsg_</span></span>
+ <span data-ttu-id="3a460-107">_ppmsg_</span><span class="sxs-lookup"><span data-stu-id="3a460-107">_ppmsg_</span></span>
   
-> <span data-ttu-id="93479-108">[out] Объект защищенного сообщения.</span><span class="sxs-lookup"><span data-stu-id="93479-108">[out] A secure message object.</span></span>
+> <span data-ttu-id="3a460-108">[out] Объект защищенного сообщения.</span><span class="sxs-lookup"><span data-stu-id="3a460-108">[out] A secure message object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="93479-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="93479-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3a460-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3a460-109">Return value</span></span>
 
-<span data-ttu-id="93479-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="93479-110">S_OK</span></span>
+<span data-ttu-id="3a460-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="3a460-110">S_OK</span></span>
   
-> <span data-ttu-id="93479-111">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="93479-111">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="3a460-111">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="3a460-111">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="93479-112">См. также</span><span class="sxs-lookup"><span data-stu-id="93479-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a460-112">См. также</span><span class="sxs-lookup"><span data-stu-id="3a460-112">See also</span></span>
 
 
 
-[<span data-ttu-id="93479-113">IMAPISecureMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="93479-113">IMAPISecureMessage : IUnknown</span></span>](imapisecuremessageiunknown.md)
+[<span data-ttu-id="3a460-113">IMAPISecureMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3a460-113">IMAPISecureMessage : IUnknown</span></span>](imapisecuremessageiunknown.md)
   
-[<span data-ttu-id="93479-114">IMessage: IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="93479-114">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
+[<span data-ttu-id="3a460-114">IMessage: IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="3a460-114">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
 

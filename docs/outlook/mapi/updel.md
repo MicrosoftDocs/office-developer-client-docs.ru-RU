@@ -15,15 +15,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22581127"
 ---
-# <a name="updel"></a><span data-ttu-id="ee1d4-103">UPDEL</span><span class="sxs-lookup"><span data-stu-id="ee1d4-103">UPDEL</span></span>
+# <a name="updel"></a><span data-ttu-id="b2bd3-103">UPDEL</span><span class="sxs-lookup"><span data-stu-id="b2bd3-103">UPDEL</span></span>
 
   
   
-<span data-ttu-id="ee1d4-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ee1d4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b2bd3-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b2bd3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ee1d4-105">Сведения для элементов, которые были удалены в локальном хранилище.</span><span class="sxs-lookup"><span data-stu-id="ee1d4-105">Information for items that have been deleted in a local store.</span></span> <span data-ttu-id="ee1d4-106">Эти сведения используются во время [загрузки удалить состояние состояние](upload-delete-status-state.md).</span><span class="sxs-lookup"><span data-stu-id="ee1d4-106">This information is used during the [upload delete status state](upload-delete-status-state.md).</span></span>
+<span data-ttu-id="b2bd3-105">Сведения для элементов, которые были удалены в локальном хранилище.</span><span class="sxs-lookup"><span data-stu-id="b2bd3-105">Information for items that have been deleted in a local store.</span></span> <span data-ttu-id="b2bd3-106">Эти сведения используются во время [загрузки удалить состояние состояние](upload-delete-status-state.md).</span><span class="sxs-lookup"><span data-stu-id="b2bd3-106">This information is used during the [upload delete status state](upload-delete-status-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="ee1d4-107">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="ee1d4-107">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="b2bd3-107">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="b2bd3-107">Quick info</span></span>
 
 ```cpp
 struct UPDEL 
@@ -33,23 +33,23 @@ struct UPDEL
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="ee1d4-108">Members</span><span class="sxs-lookup"><span data-stu-id="ee1d4-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="b2bd3-108">Элементы</span><span class="sxs-lookup"><span data-stu-id="b2bd3-108">Members</span></span>
 
- <span data-ttu-id="ee1d4-109">_pupde_</span><span class="sxs-lookup"><span data-stu-id="ee1d4-109">_pupde_</span></span>
+ <span data-ttu-id="b2bd3-109">_pupde_</span><span class="sxs-lookup"><span data-stu-id="b2bd3-109">_pupde_</span></span>
   
->  <span data-ttu-id="ee1d4-110">[out] Вектор [UPDELE](updele.md) записей.</span><span class="sxs-lookup"><span data-stu-id="ee1d4-110">[out] Vector of [UPDELE](updele.md) entries.</span></span> 
+>  <span data-ttu-id="b2bd3-110">[out] Вектор [UPDELE](updele.md) записей.</span><span class="sxs-lookup"><span data-stu-id="b2bd3-110">[out] Vector of [UPDELE](updele.md) entries.</span></span> 
     
- <span data-ttu-id="ee1d4-111">_централизованной_</span><span class="sxs-lookup"><span data-stu-id="ee1d4-111">_cEnt_</span></span>
+ <span data-ttu-id="b2bd3-111">_централизованной_</span><span class="sxs-lookup"><span data-stu-id="b2bd3-111">_cEnt_</span></span>
   
-> <span data-ttu-id="ee1d4-112">[out] Число записей в *pupde* .</span><span class="sxs-lookup"><span data-stu-id="ee1d4-112">[out] Number of entries in  *pupde*  .</span></span> 
+> <span data-ttu-id="b2bd3-112">[out] Число записей в *pupde* .</span><span class="sxs-lookup"><span data-stu-id="b2bd3-112">[out] Number of entries in  *pupde*  .</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="ee1d4-113">См. также</span><span class="sxs-lookup"><span data-stu-id="ee1d4-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b2bd3-113">См. также</span><span class="sxs-lookup"><span data-stu-id="b2bd3-113">See also</span></span>
 
 
 
-[<span data-ttu-id="ee1d4-114">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="ee1d4-114">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="b2bd3-114">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="b2bd3-114">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="ee1d4-115">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="ee1d4-115">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="b2bd3-115">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="b2bd3-115">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="ee1d4-116">��������� MAPI</span><span class="sxs-lookup"><span data-stu-id="ee1d4-116">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="b2bd3-116">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="b2bd3-116">MAPI Constants</span></span>](mapi-constants.md)
 

@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22578264"
 ---
-# <a name="ftsubft"></a><span data-ttu-id="21a27-103">FtSubFt</span><span class="sxs-lookup"><span data-stu-id="21a27-103">FtSubFt</span></span>
+# <a name="ftsubft"></a><span data-ttu-id="e7268-103">FtSubFt</span><span class="sxs-lookup"><span data-stu-id="e7268-103">FtSubFt</span></span>
 
   
   
-<span data-ttu-id="21a27-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="21a27-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e7268-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e7268-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="21a27-105">Вычитает один 64-разрядных целых чисел из другого.</span><span class="sxs-lookup"><span data-stu-id="21a27-105">Subtracts one unsigned 64-bit integer from another.</span></span> 
+<span data-ttu-id="e7268-105">Вычитает один 64-разрядных целых чисел из другого.</span><span class="sxs-lookup"><span data-stu-id="e7268-105">Subtracts one unsigned 64-bit integer from another.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="21a27-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="21a27-106">Header file:</span></span>  <br/> |<span data-ttu-id="21a27-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="21a27-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="21a27-108">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="21a27-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="21a27-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="21a27-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="21a27-110">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="21a27-110">Called by:</span></span>  <br/> |<span data-ttu-id="21a27-111">Клиентские приложения и поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="21a27-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="e7268-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="e7268-106">Header file:</span></span>  <br/> |<span data-ttu-id="e7268-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="e7268-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="e7268-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="e7268-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="e7268-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="e7268-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="e7268-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="e7268-110">Called by:</span></span>  <br/> |<span data-ttu-id="e7268-111">Клиентские приложения и поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="e7268-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 FILETIME FtSubFt(
@@ -40,18 +40,18 @@ FILETIME FtSubFt(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="21a27-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="21a27-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e7268-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="e7268-112">Parameters</span></span>
 
- <span data-ttu-id="21a27-113">_Уменьшаемое_</span><span class="sxs-lookup"><span data-stu-id="21a27-113">_Minuend_</span></span>
+ <span data-ttu-id="e7268-113">_Уменьшаемое_</span><span class="sxs-lookup"><span data-stu-id="e7268-113">_Minuend_</span></span>
   
-> <span data-ttu-id="21a27-114">[in] Структура [FILETIME](filetime.md) , содержащую целых 64-разрядная версия, из которой должна быть вычитается значение с помощью параметра _вычитаемое_ .</span><span class="sxs-lookup"><span data-stu-id="21a27-114">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer from which the value in the  _Subtrahend_ parameter is to be subtracted.</span></span> 
+> <span data-ttu-id="e7268-114">[in] Структура [FILETIME](filetime.md) , содержащую целых 64-разрядная версия, из которой должна быть вычитается значение с помощью параметра _вычитаемое_ .</span><span class="sxs-lookup"><span data-stu-id="e7268-114">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer from which the value in the  _Subtrahend_ parameter is to be subtracted.</span></span> 
     
- <span data-ttu-id="21a27-115">_Вычитаемое_</span><span class="sxs-lookup"><span data-stu-id="21a27-115">_Subtrahend_</span></span>
+ <span data-ttu-id="e7268-115">_Вычитаемое_</span><span class="sxs-lookup"><span data-stu-id="e7268-115">_Subtrahend_</span></span>
   
-> <span data-ttu-id="21a27-116">[in] Структура **FILETIME** , содержащую целых 64-разрядная версия, вычитается из значения, указанного параметром _Уменьшаемое_ .</span><span class="sxs-lookup"><span data-stu-id="21a27-116">[in] A **FILETIME** structure that contains the unsigned 64-bit integer that is subtracted from the value indicated by the  _Minuend_ parameter.</span></span> 
+> <span data-ttu-id="e7268-116">[in] Структура **FILETIME** , содержащую целых 64-разрядная версия, вычитается из значения, указанного параметром _Уменьшаемое_ .</span><span class="sxs-lookup"><span data-stu-id="e7268-116">[in] A **FILETIME** structure that contains the unsigned 64-bit integer that is subtracted from the value indicated by the  _Minuend_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="21a27-117">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="21a27-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e7268-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e7268-117">Return value</span></span>
 
-<span data-ttu-id="21a27-118">Функция **FtSubFt** возвращает структуру **FILETIME** , содержащую результат вычитания.</span><span class="sxs-lookup"><span data-stu-id="21a27-118">The **FtSubFt** function returns a **FILETIME** structure that contains the result of the subtraction.</span></span> <span data-ttu-id="21a27-119">Два входных параметра не изменяются.</span><span class="sxs-lookup"><span data-stu-id="21a27-119">The two input parameters remain unchanged.</span></span> 
+<span data-ttu-id="e7268-118">Функция **FtSubFt** возвращает структуру **FILETIME** , содержащую результат вычитания.</span><span class="sxs-lookup"><span data-stu-id="e7268-118">The **FtSubFt** function returns a **FILETIME** structure that contains the result of the subtraction.</span></span> <span data-ttu-id="e7268-119">Два входных параметра не изменяются.</span><span class="sxs-lookup"><span data-stu-id="e7268-119">The two input parameters remain unchanged.</span></span> 
   
 

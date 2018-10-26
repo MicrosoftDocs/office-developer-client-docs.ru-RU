@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22592607"
 ---
-# <a name="ixpprovidershutdown"></a><span data-ttu-id="4e1bd-103">IXPProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="4e1bd-103">IXPProvider::Shutdown</span></span>
+# <a name="ixpprovidershutdown"></a><span data-ttu-id="05cbc-103">IXPProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="05cbc-103">IXPProvider::Shutdown</span></span>
 
   
   
-<span data-ttu-id="4e1bd-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4e1bd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="05cbc-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="05cbc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4e1bd-105">Закрывает вниз поставщика транспорта определенным образом.</span><span class="sxs-lookup"><span data-stu-id="4e1bd-105">Closes down a transport provider in an orderly fashion.</span></span>
+<span data-ttu-id="05cbc-105">Закрывает вниз поставщика транспорта определенным образом.</span><span class="sxs-lookup"><span data-stu-id="05cbc-105">Closes down a transport provider in an orderly fashion.</span></span>
   
 ```cpp
 HRESULT Shutdown (
@@ -33,27 +33,27 @@ HRESULT Shutdown (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4e1bd-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="4e1bd-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="05cbc-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="05cbc-106">Parameters</span></span>
 
- <span data-ttu-id="4e1bd-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="4e1bd-107">_lpulFlags_</span></span>
+ <span data-ttu-id="05cbc-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="05cbc-107">_lpulFlags_</span></span>
   
-> <span data-ttu-id="4e1bd-108">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="4e1bd-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="05cbc-108">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="05cbc-108">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="4e1bd-109">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="4e1bd-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="05cbc-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="05cbc-109">Return value</span></span>
 
-<span data-ttu-id="4e1bd-110">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="4e1bd-110">S_OK</span></span> 
+<span data-ttu-id="05cbc-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="05cbc-110">S_OK</span></span> 
   
-> <span data-ttu-id="4e1bd-111">Вызов успешно завершает работу поставщика транспорта.</span><span class="sxs-lookup"><span data-stu-id="4e1bd-111">The call succeeded in shutting down the transport provider.</span></span>
+> <span data-ttu-id="05cbc-111">Вызов успешно завершает работу поставщика транспорта.</span><span class="sxs-lookup"><span data-stu-id="05cbc-111">The call succeeded in shutting down the transport provider.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4e1bd-112">Замечания</span><span class="sxs-lookup"><span data-stu-id="4e1bd-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="05cbc-112">Замечания</span><span class="sxs-lookup"><span data-stu-id="05cbc-112">Remarks</span></span>
 
-<span data-ttu-id="4e1bd-113">Диспетчер очереди MAPI вызывает метод **IXPProvider::Shutdown** перед освобождение объекта поставщика транспорта.</span><span class="sxs-lookup"><span data-stu-id="4e1bd-113">The MAPI spooler calls the **IXPProvider::Shutdown** method just prior to releasing a transport provider object.</span></span> <span data-ttu-id="4e1bd-114">Прежде чем вызывать **Завершение работы**MAPI освобождает все объекты входа в систему для поставщика.</span><span class="sxs-lookup"><span data-stu-id="4e1bd-114">Before calling **Shutdown**, MAPI releases all logon objects for a provider.</span></span>
+<span data-ttu-id="05cbc-113">Диспетчер очереди MAPI вызывает метод **IXPProvider::Shutdown** перед освобождение объекта поставщика транспорта.</span><span class="sxs-lookup"><span data-stu-id="05cbc-113">The MAPI spooler calls the **IXPProvider::Shutdown** method just prior to releasing a transport provider object.</span></span> <span data-ttu-id="05cbc-114">Прежде чем вызывать **Завершение работы**MAPI освобождает все объекты входа в систему для поставщика.</span><span class="sxs-lookup"><span data-stu-id="05cbc-114">Before calling **Shutdown**, MAPI releases all logon objects for a provider.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="4e1bd-115">См. также</span><span class="sxs-lookup"><span data-stu-id="4e1bd-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="05cbc-115">См. также</span><span class="sxs-lookup"><span data-stu-id="05cbc-115">See also</span></span>
 
 
 
-[<span data-ttu-id="4e1bd-116">XPProviderInit</span><span class="sxs-lookup"><span data-stu-id="4e1bd-116">XPProviderInit</span></span>](xpproviderinit.md)
+[<span data-ttu-id="05cbc-116">XPProviderInit</span><span class="sxs-lookup"><span data-stu-id="05cbc-116">XPProviderInit</span></span>](xpproviderinit.md)
   
-[<span data-ttu-id="4e1bd-117">IXPProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="4e1bd-117">IXPProvider : IUnknown</span></span>](ixpprovideriunknown.md)
+[<span data-ttu-id="05cbc-117">IXPProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="05cbc-117">IXPProvider : IUnknown</span></span>](ixpprovideriunknown.md)
 

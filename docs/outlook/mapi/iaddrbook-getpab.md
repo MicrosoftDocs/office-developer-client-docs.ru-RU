@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22583717"
 ---
-# <a name="iaddrbookgetpab"></a><span data-ttu-id="8b6e6-103">IAddrBook::GetPAB</span><span class="sxs-lookup"><span data-stu-id="8b6e6-103">IAddrBook::GetPAB</span></span>
+# <a name="iaddrbookgetpab"></a><span data-ttu-id="bbb30-103">IAddrBook::GetPAB</span><span class="sxs-lookup"><span data-stu-id="bbb30-103">IAddrBook::GetPAB</span></span>
 
   
   
-<span data-ttu-id="8b6e6-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8b6e6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bbb30-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bbb30-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8b6e6-105">Возвращает идентификатор записи контейнера, который используется в качестве Личная адресная книга (адресной книги).</span><span class="sxs-lookup"><span data-stu-id="8b6e6-105">Returns the entry identifier of the container that is designated as the personal address book (PAB).</span></span>
+<span data-ttu-id="bbb30-105">Возвращает идентификатор записи контейнера, который используется в качестве Личная адресная книга (адресной книги).</span><span class="sxs-lookup"><span data-stu-id="bbb30-105">Returns the entry identifier of the container that is designated as the personal address book (PAB).</span></span>
   
 ```cpp
 HRESULT GetPAB(
@@ -34,46 +34,46 @@ HRESULT GetPAB(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8b6e6-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="8b6e6-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bbb30-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="bbb30-106">Parameters</span></span>
 
- <span data-ttu-id="8b6e6-107">_lpcbEntryID_</span><span class="sxs-lookup"><span data-stu-id="8b6e6-107">_lpcbEntryID_</span></span>
+ <span data-ttu-id="bbb30-107">_lpcbEntryID_</span><span class="sxs-lookup"><span data-stu-id="bbb30-107">_lpcbEntryID_</span></span>
   
-> <span data-ttu-id="8b6e6-108">[out] Указатель на число байтов в идентификатор записи, на который указывает параметр _lppEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="8b6e6-108">[out] A pointer to the byte count in the entry identifier pointed to by the  _lppEntryID_ parameter.</span></span> 
+> <span data-ttu-id="bbb30-108">[out] Указатель на число байтов в идентификатор записи, на который указывает параметр _lppEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="bbb30-108">[out] A pointer to the byte count in the entry identifier pointed to by the  _lppEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="8b6e6-109">_lppEntryID_</span><span class="sxs-lookup"><span data-stu-id="8b6e6-109">_lppEntryID_</span></span>
+ <span data-ttu-id="bbb30-109">_lppEntryID_</span><span class="sxs-lookup"><span data-stu-id="bbb30-109">_lppEntryID_</span></span>
   
-> <span data-ttu-id="8b6e6-110">[out] Указатель на указатель на идентификатор записи личной адресной книги.</span><span class="sxs-lookup"><span data-stu-id="8b6e6-110">[out] A pointer to a pointer to the entry identifier of the PAB.</span></span> <span data-ttu-id="8b6e6-111">Параметр _lppEntryID_ содержит нулевое значение, если контейнер не был определен как личной адресной книги.</span><span class="sxs-lookup"><span data-stu-id="8b6e6-111">The  _lppEntryID_ parameter contains zero if no container has been designated as the PAB.</span></span> 
+> <span data-ttu-id="bbb30-110">[out] Указатель на указатель на идентификатор записи личной адресной книги.</span><span class="sxs-lookup"><span data-stu-id="bbb30-110">[out] A pointer to a pointer to the entry identifier of the PAB.</span></span> <span data-ttu-id="bbb30-111">Параметр _lppEntryID_ содержит нулевое значение, если контейнер не был определен как личной адресной книги.</span><span class="sxs-lookup"><span data-stu-id="bbb30-111">The  _lppEntryID_ parameter contains zero if no container has been designated as the PAB.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="8b6e6-112">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="8b6e6-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bbb30-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="bbb30-112">Return value</span></span>
 
-<span data-ttu-id="8b6e6-113">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="8b6e6-113">S_OK</span></span> 
+<span data-ttu-id="bbb30-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="bbb30-113">S_OK</span></span> 
   
-> <span data-ttu-id="8b6e6-114">Идентификатор записи адресной книги успешно возвращен.</span><span class="sxs-lookup"><span data-stu-id="8b6e6-114">The entry identifier of the PAB was successfully returned.</span></span>
+> <span data-ttu-id="bbb30-114">Идентификатор записи адресной книги успешно возвращен.</span><span class="sxs-lookup"><span data-stu-id="bbb30-114">The entry identifier of the PAB was successfully returned.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="8b6e6-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="8b6e6-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bbb30-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="bbb30-115">Remarks</span></span>
 
-<span data-ttu-id="8b6e6-116">Клиенты вызовите метод **GetPAB** для извлечения идентификатор записи контейнера обозначены как личной адресной книги.</span><span class="sxs-lookup"><span data-stu-id="8b6e6-116">Clients call the **GetPAB** method to retrieve the entry identifier of the container designated as the PAB.</span></span> <span data-ttu-id="8b6e6-117">Если не было установлено в профиле адресной книги, MAPI выбирает в качестве личной адресной книги первого контейнера в иерархии адресной книги, обеспечивающий изменения.</span><span class="sxs-lookup"><span data-stu-id="8b6e6-117">If a PAB has not been established in the profile, MAPI selects as the PAB the first container in the address book hierarchy that allows modifications.</span></span> 
+<span data-ttu-id="bbb30-116">Клиенты вызовите метод **GetPAB** для извлечения идентификатор записи контейнера обозначены как личной адресной книги.</span><span class="sxs-lookup"><span data-stu-id="bbb30-116">Clients call the **GetPAB** method to retrieve the entry identifier of the container designated as the PAB.</span></span> <span data-ttu-id="bbb30-117">Если не было установлено в профиле адресной книги, MAPI выбирает в качестве личной адресной книги первого контейнера в иерархии адресной книги, обеспечивающий изменения.</span><span class="sxs-lookup"><span data-stu-id="bbb30-117">If a PAB has not been established in the profile, MAPI selects as the PAB the first container in the address book hierarchy that allows modifications.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="8b6e6-118">Справочник по mfcmapi (en)</span><span class="sxs-lookup"><span data-stu-id="8b6e6-118">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="bbb30-118">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="bbb30-118">MFCMAPI reference</span></span>
 
-<span data-ttu-id="8b6e6-119">������ ���� mfcmapi (en) ���������� � ������� ����.</span><span class="sxs-lookup"><span data-stu-id="8b6e6-119">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="bbb30-119">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="bbb30-119">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="8b6e6-120">**����**</span><span class="sxs-lookup"><span data-stu-id="8b6e6-120">**File**</span></span>|<span data-ttu-id="8b6e6-121">**�������**</span><span class="sxs-lookup"><span data-stu-id="8b6e6-121">**Function**</span></span>|<span data-ttu-id="8b6e6-122">**�����������**</span><span class="sxs-lookup"><span data-stu-id="8b6e6-122">**Comment**</span></span>|
+|<span data-ttu-id="bbb30-120">**Файл**</span><span class="sxs-lookup"><span data-stu-id="bbb30-120">**File**</span></span>|<span data-ttu-id="bbb30-121">**Функция**</span><span class="sxs-lookup"><span data-stu-id="bbb30-121">**Function**</span></span>|<span data-ttu-id="bbb30-122">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="bbb30-122">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="8b6e6-123">MainDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="8b6e6-123">MainDlg.cpp</span></span>  <br/> |<span data-ttu-id="8b6e6-124">CMainDlg::OnOpenPAB</span><span class="sxs-lookup"><span data-stu-id="8b6e6-124">CMainDlg::OnOpenPAB</span></span>  <br/> |<span data-ttu-id="8b6e6-125">Mfcmapi (en) использует метод **GetPAB** для получения идентификатора для пользователя Личная адресная книга.</span><span class="sxs-lookup"><span data-stu-id="8b6e6-125">MFCMAPI uses the **GetPAB** method to get the ID for the user's personal address book.</span></span>  <br/> |
+|<span data-ttu-id="bbb30-123">MainDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="bbb30-123">MainDlg.cpp</span></span>  <br/> |<span data-ttu-id="bbb30-124">CMainDlg::OnOpenPAB</span><span class="sxs-lookup"><span data-stu-id="bbb30-124">CMainDlg::OnOpenPAB</span></span>  <br/> |<span data-ttu-id="bbb30-125">Mfcmapi (en) использует метод **GetPAB** для получения идентификатора для пользователя Личная адресная книга.</span><span class="sxs-lookup"><span data-stu-id="bbb30-125">MFCMAPI uses the **GetPAB** method to get the ID for the user's personal address book.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="8b6e6-126">См. также</span><span class="sxs-lookup"><span data-stu-id="8b6e6-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bbb30-126">См. также</span><span class="sxs-lookup"><span data-stu-id="bbb30-126">See also</span></span>
 
 
 
-[<span data-ttu-id="8b6e6-127">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="8b6e6-127">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
+[<span data-ttu-id="bbb30-127">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="bbb30-127">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
   
-[<span data-ttu-id="8b6e6-128">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="8b6e6-128">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
+[<span data-ttu-id="bbb30-128">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="bbb30-128">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
   
-[<span data-ttu-id="8b6e6-129">Каноническое свойство PidTagContainerFlags</span><span class="sxs-lookup"><span data-stu-id="8b6e6-129">PidTagContainerFlags Canonical Property</span></span>](pidtagcontainerflags-canonical-property.md)
+[<span data-ttu-id="bbb30-129">Каноническое свойство PidTagContainerFlags</span><span class="sxs-lookup"><span data-stu-id="bbb30-129">PidTagContainerFlags Canonical Property</span></span>](pidtagcontainerflags-canonical-property.md)
   
-[<span data-ttu-id="8b6e6-130">IAddrBook : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="8b6e6-130">IAddrBook : IMAPIProp</span></span>](iaddrbookimapiprop.md)
+[<span data-ttu-id="bbb30-130">IAddrBook : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="bbb30-130">IAddrBook : IMAPIProp</span></span>](iaddrbookimapiprop.md)
 
 
-[<span data-ttu-id="8b6e6-131">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="8b6e6-131">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="bbb30-131">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="bbb30-131">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
