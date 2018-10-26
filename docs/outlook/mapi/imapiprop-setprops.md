@@ -23,7 +23,7 @@ ms.locfileid: "22592033"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Обновление одного или нескольких свойств.
   
@@ -49,9 +49,9 @@ HRESULT SetProps(
   
 > [in, out] На входе указатель указатель на структуру [SPropProblemArray](spropproblemarray.md) ; в противном случае — значение NULL, указывающее, не требуется выполнять сведения об ошибке. Если _lppProblems_ допустимый указатель на входные данные, **SetProps** возвращает подробные сведения об ошибках при обновлении одного или нескольких свойств. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Свойства были успешно обновлены.
     
@@ -81,7 +81,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > Тип свойства не типа, вызывающий реализации.
     
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Игнорируйте все свойства с типом **PT_ERROR**и тег свойства **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)). Не вносить изменения или отправки отчетов о проблемах в структуре **SPropProblemArray** . 
   
@@ -103,11 +103,11 @@ MAPI_E_UNEXPECTED_TYPE
   
 Вызовите функцию [MAPIFreeBuffer](mapifreebuffer.md) , чтобы освободить место на **SPropProblemArray** структуры. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |PropertyEditor.cpp  <br/> |CPropertyEditor::WriteSPropValueToObject  <br/> |Mfcmapi (en) использует метод **IMAPIProp::SetProps** для обратной записи свойства объекта после изменения свойства.  <br/> |
    

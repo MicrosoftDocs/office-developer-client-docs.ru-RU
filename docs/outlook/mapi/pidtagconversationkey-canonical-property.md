@@ -19,7 +19,7 @@ ms.locfileid: "25389766"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит беседы ключ, используемый в Microsoft Outlook только в том случае, если поиск **IPM. MessageManager** сообщения, такие как сообщение, содержащее истории загрузки для учетной записи Post Office Protocol (POP3). Это свойство является устаревшим в Microsoft Exchange Server. 
   
@@ -64,7 +64,7 @@ Mapitags.h
 
 
 
-[Поддерево IPM](ipm-subtree.md)
+[Поддерева IPM](ipm-subtree.md)
   
 [����������� ����� MAPI](mapi-special-folders.md)
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
 

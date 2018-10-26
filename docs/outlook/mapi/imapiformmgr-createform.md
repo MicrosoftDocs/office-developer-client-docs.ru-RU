@@ -23,7 +23,7 @@ ms.locfileid: "22586167"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Открывает форму для создания нового сообщения на основе класса сообщения формы.
   
@@ -63,9 +63,9 @@ MAPI_DIALOG
   
 > [out] Указатель на указатель на возвращенный интерфейс.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -81,11 +81,11 @@ MAPI_E_NO_INTERFACE
   
 После открытия формы, вызывающий средство просмотра формы необходимо настроить сообщение с помощью интерфейса [IPersistMessage](ipersistmessageiunknown.md) и при необходимости можно настроить контекст представления для формы. Для получения дополнительных сведений см [запуска сервера формы](launching-a-form-server.md). 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |Mfcmapi (en) использует метод **IMAPIFormMgr::CreateForm** для создания формы перед их отображением.  <br/> |
    
@@ -100,7 +100,7 @@ MAPI_E_NO_INTERFACE
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
 [Запуск сервера форм](launching-a-form-server.md)
 

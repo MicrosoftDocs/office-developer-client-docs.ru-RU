@@ -23,7 +23,7 @@ ms.locfileid: "25384957"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Указывает, необходимости будущих экземпляры повторяющейся задачи напоминаний, несмотря на то, что **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) имеет значение FALSE.
   
@@ -67,14 +67,14 @@ Mapidefs.h
 
 
 
-[������������ �������� PidLidReminderSet](pidlidreminderset-canonical-property.md)
+[Каноническое свойство PidLidReminderSet](pidlidreminderset-canonical-property.md)
 
 
 [Свойства MAPI](mapi-properties.md)
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "22592978"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Показано, как отменить отправку уведомлений, ранее настройка с помощью вызова метода [IMAPITable::Advise](imapitable-advise.md) . 
   
@@ -39,9 +39,9 @@ ULONG_PTR ulConnection
   
 > [in] Число подключений к регистрации, возвращаемых вызовом [IMAPITable::Advise](imapitable-advise.md).
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > The call succeeded.
     
@@ -51,11 +51,11 @@ ULONG_PTR ulConnection
   
 Дополнительные сведения о процессе уведомления видеть [Уведомления о событии в MAPI](event-notification-in-mapi.md). Сведения о таблице уведомлений содержатся [Уведомления о таблице](about-table-notifications.md). Сведения об использовании методов **IMAPISupport** для поддержки уведомлений [Поддерживающие уведомления о событии](supporting-event-notification.md)см.
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |Mfcmapi (en) использует метод **IMAPITable::Unadvise** для отмены уведомления для таблицы.  <br/> |
    

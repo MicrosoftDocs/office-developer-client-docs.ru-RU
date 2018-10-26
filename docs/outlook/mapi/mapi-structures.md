@@ -21,7 +21,7 @@ ms.locfileid: "22584788"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Следующие записи в алфавитном порядке описываются структуры MAPI. Для получения дополнительных сведений перекрестные ссылки на другие публикации или на другие разделы в этой документации также включены.
   
@@ -42,7 +42,7 @@ ms.locfileid: "22584788"
 |[FILETIME](filetime.md) <br/> |[FLAGLIST](flaglist.md) <br/> |
 |[FLATENTRY](flatentry.md) <br/> |[FLATENTRYLIST](flatentrylist.md) <br/> |
 |[FLATMTSIDLIST](flatmtsidlist.md) <br/> |[FORMPRINTSETUP](formprintsetup.md) <br/> |
-|[ИДЕНТИФИКАТОР GUID](guid.md) <br/> |[IID](iid.md) <br/> |
+|[GUID](guid.md) <br/> |[IID](iid.md) <br/> |
 |[MAPIERROR](mapierror.md) <br/> |[MAPIINIT_0](mapiinit_0.md) <br/> |
 |[MAPINAMEID](mapinameid.md) <br/> |[MAPIUID](mapiuid.md) <br/> |
 |[MTSID](mtsid.md) <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |

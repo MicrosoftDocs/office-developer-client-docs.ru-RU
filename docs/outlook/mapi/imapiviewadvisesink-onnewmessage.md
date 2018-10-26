@@ -23,7 +23,7 @@ ms.locfileid: "22592936"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Уведомляет средство просмотра формы после загрузки, что новое или существующее сообщение в форме.
   
@@ -35,9 +35,9 @@ HRESULT OnNewMessage( void );
 
 None
   
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Уведомление успешно завершен.
     
@@ -45,7 +45,7 @@ None
 
 Объекты формы вызовите метод **IMAPIViewAdviseSink::OnNewMessage** каждый раз, когда сообщение будет загружен в форму с помощью метода либо [IPersistMessage::InitNew](ipersistmessage-initnew.md) , либо [IPersistMessage::Load](ipersistmessage-load.md) . 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Выпуск active указателя на объект формы, так как он больше не указывает на сообщение, которое ранее Просмотр используемого средства просмотра. 
   

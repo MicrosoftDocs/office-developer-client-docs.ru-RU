@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e0f37485-55c9-40f0-bc8c-48f7297f9f50
-description: '���� ���������� ���������: 7 ������� 2015 �.'
+description: 'Дата последнего изменения: 7 декабря 2015 года'
 ms.openlocfilehash: 41d953db8e00ff52cd09a27e2f7550f9f1879321
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "25386224"
 
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 MAPI или диспетчер очереди MAPI завершении с помощью объекта транспорта входа:
   

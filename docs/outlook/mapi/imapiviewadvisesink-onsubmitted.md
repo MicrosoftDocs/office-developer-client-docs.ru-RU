@@ -23,7 +23,7 @@ ms.locfileid: "22579447"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Уведомляет средство просмотра формы, что текущего сообщения были отправлены диспетчер очереди MAPI.
   
@@ -35,9 +35,9 @@ HRESULT OnSubmitted( void );
 
 None
   
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Уведомление успешно завершен.
     
@@ -45,7 +45,7 @@ None
 
 Объект формы вызывает метод **IMAPIViewAdviseSink::OnSubmitted** после успешного возврата вызова [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) . 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 После вызова **OnSubmitted** можно продолжить предполагается, что сообщение были обновлены. Обновление windows в соответствии с все изменения, произошедшие. 
   

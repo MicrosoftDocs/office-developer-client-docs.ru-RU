@@ -17,7 +17,7 @@ ms.locfileid: "22579076"
 ---
 # <a name="upreade"></a>UPREADE
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Расширенные сведения для загрузки состояние чтения элемента во время [Отправить прочитать состояние состояние](upload-read-status-state.md).
   
@@ -31,7 +31,7 @@ struct UPREADE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 _ulFlags_
   
@@ -61,6 +61,6 @@ _skey_
 
 - [Сведения об API репликации](about-the-replication-api.md)
 - [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 - [UPREAD](upread.md)
 

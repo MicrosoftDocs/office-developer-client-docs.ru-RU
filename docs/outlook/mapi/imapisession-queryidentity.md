@@ -23,7 +23,7 @@ ms.locfileid: "22583416"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает идентификатор записи объекта, который содержит основной идентификатор для этого сеанса.
   
@@ -44,9 +44,9 @@ HRESULT QueryIdentity(
   
 > [out] Указатель на указатель на идентификатор записи объекта, который содержит основной идентификатор.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Основной идентификатор успешно возвращен.
     
@@ -86,11 +86,11 @@ MAPI_W_NO_SERVICE
   
 Дополнительные сведения о получении идентификатор сеанса MAPI разделе [Извлечение основной и поставщика удостоверений](retrieving-primary-and-provider-identity.md). 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnQueryIdentity  <br/> |Mfcmapi (en) использует метод **IMAPISession::QueryIdentity** для открытия записи адресной книги для основной идентификатор сеанса.  <br/> |
    
@@ -107,13 +107,13 @@ MAPI_W_NO_SERVICE
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
 [Основной идентификатор MAPI](mapi-primary-identity.md)
   
-[Получение удостоверения поставщика и основного удостоверения](retrieving-primary-and-provider-identity.md)
+[Извлечение основная база данных и поставщик удостоверений](retrieving-primary-and-provider-identity.md)
   
-[Обработка ошибок с помощью макросов](using-macros-for-error-handling.md)
+[Использование макросов для обработки ошибок](using-macros-for-error-handling.md)
   
-[Таблица и объекты состояний](status-table-and-status-objects.md)
+[Таблица состояния и состояния объектов](status-table-and-status-objects.md)
 

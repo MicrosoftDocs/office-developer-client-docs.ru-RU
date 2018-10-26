@@ -23,7 +23,7 @@ ms.locfileid: "22577816"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получает адреса MAPI памяти выделение и освобождение функции ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)и [MAPIFreeBuffer](mapifreebuffer.md)).
   
@@ -49,9 +49,9 @@ HRESULT GetMemAllocRoutines(
   
 > [out] Указатель на указатель на функцию **MAPIFreeBuffer** . **MAPIFreeBuffer** освобождает память. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Функция адреса были успешно возвращен.
     

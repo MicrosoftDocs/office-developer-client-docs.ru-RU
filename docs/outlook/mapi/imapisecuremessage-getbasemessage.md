@@ -23,7 +23,7 @@ ms.locfileid: "22594840"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получает базовый [IMessage: IMAPIProp](imessageimapiprop.md) , это [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) является инкапсуляции. 
   
@@ -39,9 +39,9 @@ HRESULT GetBaseMessage(
   
 > [out] Объект защищенного сообщения.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK
+S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     

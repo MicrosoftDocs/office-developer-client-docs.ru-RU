@@ -17,7 +17,7 @@ ms.locfileid: "22593055"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приводится обзор конечного автомата для репликации данных Microsoft Outlook 2013 и Microsoft Outlook 2010.
   
@@ -47,16 +47,16 @@ ms.locfileid: "22593055"
 |||||
 |:-----|:-----|:-----|:-----|
 |**State** <br/> |**Репликация данных** <br/> |**Код состояния** <br/> |**Структура данных** <br/> |
-|[Состояние простоя](idle-state.md) <br/> | *None*  <br/> |**LR_SYNC_IDLE** <br/> | *None*  <br/> |
-|[Синхронизировать состояние](synchronize-state.md) <br/> |Папки или элементов  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
-|[Отправка иерархия состояний](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
+|[Состояние бездействия](idle-state.md) <br/> | *None*  <br/> |**LR_SYNC_IDLE** <br/> | *None*  <br/> |
+|[Состояние синхронизации](synchronize-state.md) <br/> |Папки или элементов  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
+|[Отправка иерархия состояний](upload-hierarchy-state.md) <br/> |Папки  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
 |[Отправить состояние папки](upload-folder-state.md) <br/> |Folder  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
 |[Синхронизировать состояние содержимого](synchronize-contents-state.md) <br/> |Items  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
 |[Отправка состояний в таблице](upload-table-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
 |[Отправка сообщения состояния](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
 |[Отправка состояний просмотра состояния](upload-read-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
 |[Отправка удалить состояние состояние](upload-delete-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
-|[Загрузите иерархия состояний](download-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
+|[Загрузите иерархия состояний](download-hierarchy-state.md) <br/> |Папки  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
 |[Загрузите таблицу состояний](download-table-state.md) <br/> |Items  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
 |[Загрузить состояние заголовка сообщения](download-message-header-state.md) <br/> |Заголовок сообщения  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
    
@@ -89,7 +89,7 @@ ms.locfileid: "22593055"
 
 [Сведения об API репликации](about-the-replication-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
-[СОСТОЯНИЕ](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

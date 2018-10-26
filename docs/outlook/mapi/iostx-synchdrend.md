@@ -23,7 +23,7 @@ ms.locfileid: "22591333"
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Завершает синхронизации для заголовка сообщения.
   
@@ -64,5 +64,5 @@ HRESULT SyncHdrEnd(
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

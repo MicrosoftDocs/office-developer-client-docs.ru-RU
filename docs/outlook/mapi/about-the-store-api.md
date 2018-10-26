@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
-description: '���� ���������� ���������: 25 ���� 2012 �.'
+description: 'Дата последнего изменения: 25 июня 2012 года'
 ms.openlocfilehash: d72df30eab5fde4288b5feba1d7045da05117bde
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "22579377"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 API-Интерфейс хранения предоставляет функциональные возможности прочие хранилища для хранения поставщиков. Она предоставляет файлов определения, типы данных, свойств и интерфейсы.
   

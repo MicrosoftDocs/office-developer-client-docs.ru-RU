@@ -15,7 +15,7 @@ ms.locfileid: "22583675"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>Сведения об URL-адресах MAPI для индексирования на основе уведомлений
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Когда поставщика хранилища уведомляет индексатора, который будет готов для индексации объекта, он создает MAPI URL-адрес, который уникальным образом определяет объект обработчик протокола MAPI. URL-адреса, MAPI в кодировке Юникод и имеют следующий формат: 
   
@@ -90,6 +90,6 @@ WCHAR  wszProviderItemID
     
 ## <a name="see-also"></a>См. также
 
-- [Сведения об индексировании хранилищ на основе уведомлений](about-notification-based-store-indexing.md)
-- [��������� MAPI](mapi-constants.md)
+- [Индексирование хранилища на основе уведомлений](about-notification-based-store-indexing.md)
+- [Константы MAPI](mapi-constants.md)
 

@@ -19,7 +19,7 @@ ms.locfileid: "22567155"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи из папки «Контакты».
   
@@ -42,7 +42,7 @@ typedef struct _contab_entryid
 #pragma pack() 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  **abFlags**
   
@@ -62,8 +62,8 @@ typedef struct _contab_entryid
     
 |**Имя**|**Описание**|
 |:-----|:-----|
-|CONTAB_USER  <br/> |������ ������������, ������ ����������� �����������.  <br/> |
-|CONTAB_DISTLIST  <br/> |������ ������ ��������.  <br/> |
+|CONTAB_USER  <br/> |Объект пользователя, отправляющего сообщение.  <br/> |
+|CONTAB_DISTLIST  <br/> |Объект списка рассылки.  <br/> |
    
  **ulIndex**
   

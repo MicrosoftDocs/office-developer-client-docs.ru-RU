@@ -23,7 +23,7 @@ ms.locfileid: "22594833"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к таблице состояния, таблицу, содержащую сведения обо всех ресурсах MAPI в сеансе.
   
@@ -48,9 +48,9 @@ MAPI_UNICODE
   
 > [out] Указатель на указатель в таблице состояния.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Таблица успешно возвращен.
     
@@ -62,11 +62,11 @@ MAPI_UNICODE
   
 Установка флага MAPI_UNICODE с помощью параметра _ulFlags_ влияет на формат столбцов, возвращаемых с помощью методов [IMAPITable::QueryColumns](imapitable-querycolumns.md) и [IMAPITable::QueryRows](imapitable-queryrows.md) . Этот флаг также определяет типы свойств в порядке сортировки, возвращенный методом [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |Mfcmapi (en) использует метод **IMAPISession::GetStatusTable** для получения состояния таблицы для отображения.  <br/> |
    
@@ -89,7 +89,7 @@ MAPI_UNICODE
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Таблицы состояния](status-tables.md)
+[Состояние таблицы](status-tables.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "22591389"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Этот интерфейс предоставляет функциональные возможности модуля поддержки при выполнении репликации с помощью интерфейса IOSTX.
   
@@ -44,5 +44,5 @@ ms.locfileid: "22591389"
 
 [Сведения об API репликации](about-the-replication-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

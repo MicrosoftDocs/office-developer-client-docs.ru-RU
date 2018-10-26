@@ -21,7 +21,7 @@ ms.locfileid: "22592040"
 ---
 # <a name="accelerateabsdi"></a>ACCELERATEABSDI
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Определяет функцию обратного вызова для процесса сочетания клавиш в диалоговом окне безрежимным адресная книга. 
   
@@ -48,7 +48,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
   
 > [in] Указатель на сообщение Windows.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
 Функция с прототип **ACCELERATEABSDI** возвращает TRUE, если он обрабатывает сообщение. 
   

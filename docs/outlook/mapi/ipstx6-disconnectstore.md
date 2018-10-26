@@ -23,7 +23,7 @@ ms.locfileid: "22579706"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Отключение локального хранилища.
   
@@ -45,5 +45,5 @@ HRESULT DisconnectStore(
 
 [Сведения об API репликации](about-the-replication-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

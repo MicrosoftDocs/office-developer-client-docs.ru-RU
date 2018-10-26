@@ -23,7 +23,7 @@ ms.locfileid: "22573357"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения об объекте, который внесено изменение, например, копирование или изменены.
   
@@ -48,7 +48,7 @@ typedef struct _OBJECT_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  **cbEntryID**
   
@@ -168,9 +168,9 @@ MAPI_SESSION
   
 |**Статья**|**Описание**|
 |:-----|:-----|
-|[Уведомление о событиях в MAPI](event-notification-in-mapi.md) <br/> |Общий обзор уведомлений и события уведомления.  <br/> |
+|[Уведомление о событии в MAPI](event-notification-in-mapi.md) <br/> |Общий обзор уведомлений и события уведомления.  <br/> |
 |[Обработка уведомлений](handling-notifications.md) <br/> |Обсуждение как клиенты должны обрабатывать уведомления.  <br/> |
-|[Поддержка уведомлений о событиях](supporting-event-notification.md) <br/> |Обсуждение того, как поставщиков услуг можно использовать метод [IMAPISupport](imapisupportiunknown.md) для создания уведомлений.  <br/> |
+|[Поддержка уведомления о событии](supporting-event-notification.md) <br/> |Обсуждение того, как поставщиков услуг можно использовать метод [IMAPISupport](imapisupportiunknown.md) для создания уведомлений.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

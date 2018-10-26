@@ -23,7 +23,7 @@ ms.locfileid: "22592117"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Уведомление об изменении состояния или запрос на обслуживание диспетчер очереди MAPI. 
   
@@ -82,9 +82,9 @@ NOTIFY_SENTDEFERRED
 |NOTIFY_NEWMAIL_RECEIVED  <br/> |Структура **NEWMAIL_NOTIFICATION** , содержащая сведения о вновь доставлено сообщение.  <br/> |
 |NOTIFY_SENTDEFERRED  <br/> |Структура **SBinary** , содержащая идентификатор записи отложенные сообщения.  <br/> |
    
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Уведомление успешно.
     
@@ -114,7 +114,7 @@ NOTIFY_SENTDEFERRED
   
 - [Реализация метода FlushQueues](implementing-the-flushqueues-method.md)
     
-- [Взаимодействие с системой буферизации MAPI](interacting-with-the-mapi-spooler.md)
+- [Взаимодействие с очередью MAPI](interacting-with-the-mapi-spooler.md)
     
 - [Модель приема сообщений](message-reception-model.md)
     

@@ -23,7 +23,7 @@ ms.locfileid: "22579258"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Копирует текущего сообщения в папку.
   
@@ -39,9 +39,9 @@ HRESULT CopyMessage(
   
 > [in] Указатель на папку, где Копировать сообщение.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -53,7 +53,7 @@ MAPI_E_NO_SUPPORT
 
 Объекты формы вызовите метод **IMAPIMessageSite::CopyMessage** для копирования текущего сообщения в новую папку. **CopyMessage** не изменяет сообщение, в настоящее время отображается для пользователя и интерфейс для только что созданный сообщения не возвращаются в форму. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Типичное использование метода **CopyMessage** выполняет следующие задачи: 
   
@@ -67,11 +67,11 @@ MAPI_E_NO_SUPPORT
     
 Список интерфейсов, которые связаны с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |Не реализован.  <br/> |
    
@@ -88,7 +88,7 @@ MAPI_E_NO_SUPPORT
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы форм MAPI](mapi-form-interfaces.md)
+[Интерфейсы формы MAPI](mapi-form-interfaces.md)
 

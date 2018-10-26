@@ -23,7 +23,7 @@ ms.locfileid: "22580938"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Устанавливает формы в библиотеке форм.
   
@@ -61,9 +61,9 @@ MAPIFORM_INSTALL_OVERWRITEONCONFLICT
   
 > [in] Путь к файлу конфигурации формы.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -75,7 +75,7 @@ MAPI_E_USER_CANCEL
   
 > Пользователь отменил установку формы, как правило, нажмите кнопку **Отмена** в диалоговом окне. 
     
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Поставщики библиотеки форм следует заполнить структуру **MAPIERROR** и возвращает MAPI_E_EXTENDED_ERROR при возникновении одного из следующих условий: 
   
@@ -101,11 +101,11 @@ MAPI_E_USER_CANCEL
     
 Клиенты должны вызывать [IMAPIFormContainer::GetLastError](imapiformcontainer-getlasterror.md) , если **InstallForm** возвращает MAPI_E_EXTENDED_ERROR, и они должен проверить, возвращенные структура [MAPIERROR](mapierror.md) для определения состояния, которая вызвала ошибку. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |Mfcmapi (en) использует метод **IMAPIFormContainer::InstallForm** для установки формы в контейнере формы.  <br/> |
    

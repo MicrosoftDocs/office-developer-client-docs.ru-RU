@@ -23,7 +23,7 @@ ms.locfileid: "22588477"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Выполняет разрешение имен для одного или нескольких получателей записей.
   
@@ -78,9 +78,9 @@ MAPI_UNRESOLVED
   
 > Запись не разрешен. Другие контейнеры должны пытаться разрешить этому получателю.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Процесс разрешения имен прошла успешно.
     
@@ -104,7 +104,7 @@ MAPI_E_NO_SUPPORT
   
 Клиенты могут также использовать возвращенный структура **ADRLIST** вызовы метода [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Вам не требуется для поддержки разрешение имен с помощью метода **ResolveNames** . Вместо этого, и Кроме того он может поддерживать с ограничением свойство **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Если вы решили зависеть от **PR_ANR** ограничения для разрешения имен, можно вернуть MAPI_E_NO_SUPPORT. For more information, see [���������� ���������� ����](implementing-name-resolution.md).
   

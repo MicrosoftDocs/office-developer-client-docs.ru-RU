@@ -19,7 +19,7 @@ ms.locfileid: "22588309"
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Идентификатор для папки. Он содержит идентификатор входа и другие необходимые сведения.
   
@@ -35,7 +35,7 @@ struct FEID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  _abFlags_
   
@@ -59,7 +59,7 @@ struct FEID
 
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [LTID](ltid.md)
   

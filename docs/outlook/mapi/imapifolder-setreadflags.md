@@ -21,7 +21,7 @@ ms.locfileid: "22578320"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Задает или сбрасывает MSGFLAG_READ в свойстве **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) из одного или нескольких сообщений, папок и управляет Отправка чтения отчеты. 
   
@@ -68,7 +68,7 @@ _ulFlags_
     
 ## <a name="return-values"></a>Возвращаемые значения
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Чтение флаг для указанного сообщения или сообщения успешно задание или снят.
     
@@ -106,7 +106,7 @@ MAPI_W_PARTIAL_COMPLETION
     
 - Сообщения, которые передаются в настоящее время.
     
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Можно указать, кто не поддерживает отправку чтения отчетов и запроса для отмены вывода чтения отчеты. Чтобы избежать подавления чтения отчета, возврата MAPI_E_NO_SUPPRESS при вызове **SetReadFlags** с SUPPRESS_RECEIPT задавать в параметре _ulFlags_ . 
   
@@ -134,19 +134,19 @@ MAPI_W_PARTIAL_COMPLETION
 
 Ожидается, что эти возвращаемые значения в следующих случаях.
   
-|**Условие**|**������������ ��������**|
+|**Условие**|**Возвращаемое значение**|
 |:-----|:-----|
-|**SetReadFlags** успешно обработал каждого сообщения.  <br/> |ЗНАЧЕНИЕ S_OK  <br/> |
+|**SetReadFlags** успешно обработал каждого сообщения.  <br/> |S_OK  <br/> |
 |**SetReadFlags** не удалось успешно обработать каждого сообщения.  <br/> |MAPI_W_PARTIAL_COMPLETION или MAPI_E_NOT_FOUND  <br/> |
 |**SetReadFlags** не удалось завершить.  <br/> |Любое значение ошибки, за исключением MAPI_E_NOT_FOUND  <br/> |
    
 При **SetReadFlags** не удается завершить, не предполагают, что работа не выполнена. **SetReadFlags** мог установить или сбросить флаг MSGFLAG_READ для одного или нескольких сообщений перед ошибок. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |Mfcmapi (en) использует метод **IMAPIFolder::SetReadFlags** Чтобы вручную задать состояние чтения на указанные сообщения.  <br/> |
    
@@ -157,6 +157,6 @@ MAPI_W_PARTIAL_COMPLETION
 - [Каноническое свойство PidTagMessageFlags](pidtagmessageflags-canonical-property.md)  
 - [Каноническое свойство PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)  
 - [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-- [Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)  
-- [Обработка ошибок с помощью макросов](using-macros-for-error-handling.md)
+- [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)  
+- [Использование макросов для обработки ошибок](using-macros-for-error-handling.md)
 

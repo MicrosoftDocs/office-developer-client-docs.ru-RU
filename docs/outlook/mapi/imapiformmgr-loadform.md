@@ -23,7 +23,7 @@ ms.locfileid: "22586216"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Запускает существующее сообщение при открытии формы.
   
@@ -97,9 +97,9 @@ MAPIFORM_EXACTMATCH
   
 > [out] Указатель на указатель на возвращенный интерфейс.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -117,15 +117,15 @@ MAPI_E_NOT_FOUND
   
 Параметр _pFolderFocus_ указывает на папку, содержащую сообщение. Если сообщение внедрен в другое сообщение, _pFolderFocus_ должен иметь значение NULL. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Если NULL передается в _lpszMessageClass_, реализация получает класс сообщения, состояние и флаги сообщения от **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** и **PR_MESSAGE_FLAGS сообщения **свойства. Если этот параметр указан в строке класс сообщения в _lpszMessageClass_реализации необходимо использовать значения в _ulMessageStatus_ и _ulMessageFlags_.
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |Mfcmapi (en) использует метод **IMAPIFormMgr::LoadForm** для загрузки формы перед их отображением.  <br/> |
    

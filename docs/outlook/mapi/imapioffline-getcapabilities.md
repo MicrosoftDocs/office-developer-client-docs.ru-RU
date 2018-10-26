@@ -23,7 +23,7 @@ ms.locfileid: "22572034"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получает условия, для которых обратные вызовы поддерживаются автономной объектом.
   
@@ -66,7 +66,7 @@ MAPIOFFLINE_CAPABILITY_ONLINE
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [HrOpenOfflineObj](hropenofflineobj.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "25388205"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит значение поля заголовка сообщения Multipurpose Internet Mail Extensions (MIME) возврата пути. Адрес электронной почты отправителя сообщения.
   
@@ -72,11 +72,11 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
 

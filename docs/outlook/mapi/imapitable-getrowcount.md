@@ -23,7 +23,7 @@ ms.locfileid: "22584326"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает общее число строк в таблице. 
   
@@ -44,9 +44,9 @@ ULONG FAR * lpulCount
   
 > [out] Указатель на число строк в таблице.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Число строк успешно возвращен.
     
@@ -66,7 +66,7 @@ MAPI_W_APPROX_COUNT
 
 Метод **IMAPITable::GetRowCount** возвращает общее число строк в таблице. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Если не удается определить число точное строк таблицы, возвращаемое MAPI_W_APPROX_COUNT и приблизительно, например строку счетчик содержимое параметра _lpulCount_ . 
   
@@ -78,11 +78,11 @@ MAPI_W_APPROX_COUNT
   
 При **GetRowCount** возвращает MAPI_E_BUSY, так как они временно не удалось получить число строк, вызовите метод [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) . При возврате **WaitForCompletion** повторите вызов **GetRowCount**. Другим способом для определения, является ли в процессе выполнения асинхронной операции является можно вызвать метод [IMAPITable::GetStatus](imapitable-getstatus.md) , а также просматривать содержимое параметра _lpulTableState_ . 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |Mfcmapi (en) использует метод **IMAPITable::GetRowCount** , чтобы определить, сколько строк в таблице источника, можно выделить память для выполнения копирования.  <br/> |
    

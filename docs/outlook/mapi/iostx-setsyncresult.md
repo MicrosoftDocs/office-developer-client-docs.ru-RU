@@ -23,7 +23,7 @@ ms.locfileid: "22563074"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Задает в результате синхронизации.
   
@@ -60,5 +60,5 @@ HRESULT SetSyncResult(
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

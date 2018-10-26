@@ -21,7 +21,7 @@ ms.locfileid: "25382423"
 ---
 # <a name="iconvertersessionsetencoding"></a>IConverterSession::SetEncoding
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Инициализирует кодировку для использования при преобразовании.
   
@@ -73,5 +73,5 @@ E_INVALIDARG
 - [IConverterSession::SetCharSet](iconvertersession-setcharset.md)
 - [IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
 - [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 

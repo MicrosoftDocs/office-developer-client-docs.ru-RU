@@ -21,7 +21,7 @@ ms.locfileid: "22588505"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Активирует следующий или предыдущий сообщения в том порядке, представление. 
   
@@ -60,9 +60,9 @@ _prcPosRect_
   
 > [in] Указатель на Windows **Прямоугольник** структура, содержащая размер и положение окна, которые будут использоваться для отображения активированные сообщения. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Сообщение успешно активирована. 
     
@@ -76,7 +76,7 @@ S_FALSE
   
 VCDIR_DELETE VCDIR_MOVE установлены флаги и методами [IMAPIMessageSite::MoveMessage](imapimessagesite-movemessage.md) и [IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md) соответственно. Реализации этих методов вызовите **ActivateNext** с соответствующие направление и затем выполнить запрошенную операцию в окне сообщения, если выполнены **ActivateNext** звонок. Средства просмотра формы обычно позволяют пользователям указать направление для перемещения в списке сообщений. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Реализация [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) предоставляет следующий или предыдущий сообщение в папке, в зависимости от _ulDir_, текущего сообщения. После возврата **ActivateNext** , вызовите [IMAPIMessageSite::GetMessage](imapimessagesite-getmessage.md) для получения указателя на вновь активированных сообщение. 
   
@@ -84,11 +84,11 @@ VCDIR_DELETE VCDIR_MOVE установлены флаги и методами [I
 
 Если **ActivateNext** возвращает S_FALSE или текущего сообщения не указан, процедура вашей стандартного завершения работы которого следует включить вызов метода [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) формы. Если отображается следующий или предыдущий сообщение, используйте окно прямоугольника, переданной в параметре _prcPosRect_ для его отображения. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |Mfcmapi (en) реализован метод **IMAPIViewContext::ActivateNext** в этой функции.  <br/> |
    

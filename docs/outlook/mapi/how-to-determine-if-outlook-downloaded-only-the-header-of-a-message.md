@@ -1,11 +1,11 @@
 ---
-title: Определение, если загружена только заголовок сообщения
+title: Определение того, скачан ли в Outlook только заголовок сообщения
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: acc96bb9-1592-c480-53ee-1325f65297e1
-description: '���� ���������� ���������: 25 ���� 2012 �.'
+description: 'Дата последнего изменения: 25 июня 2012 года'
 ms.openlocfilehash: 1240faddf2ebc8b645b6c6bde6aba243e9019507
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22563564"
 ---
-# <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a>Определение, если загружена только заголовок сообщения
+# <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a>Определение того, скачан ли в Outlook только заголовок сообщения
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 В этом разделе показан пример кода в Visual C++, именованное [Свойство каноническое PidLidHeaderItem](pidlidheaderitem-canonical-property.md) для определения, ли Microsoft Outlook 2013 загружаются только заголовок сообщения или заголовок и тело сообщения. 
   

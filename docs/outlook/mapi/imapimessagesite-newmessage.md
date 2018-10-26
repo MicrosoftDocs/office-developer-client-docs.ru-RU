@@ -23,7 +23,7 @@ ms.locfileid: "22563739"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Создает новое сообщение.
   
@@ -64,9 +64,9 @@ HRESULT NewMessage(
   
 > [out] Указатель на указатель на контекст представления, подходящую для передачи в новую форму с помощью нового сообщения. Если форма реализует контекст представления, NULL может быть передан в параметре _ppViewContext_ . 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -78,11 +78,11 @@ HRESULT NewMessage(
   
 Список интерфейсы, связанные с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::NewMessage  <br/> |Mfcmapi (en) использует метод **IMAPIMessageSite::NewMessage** для создания нового сообщения, создайте новое средство просмотра формы и вызова **SetPersist** , чтобы задать для сообщения на форму просмотра. И, наконец он возвращает средство просмотра формы как сайт сообщения.  <br/> |
    
@@ -95,7 +95,7 @@ HRESULT NewMessage(
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы форм MAPI](mapi-form-interfaces.md)
+[Интерфейсы формы MAPI](mapi-form-interfaces.md)
 

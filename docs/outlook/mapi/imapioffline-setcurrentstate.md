@@ -23,7 +23,7 @@ ms.locfileid: "22567141"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Задает текущее состояние автономной объекта в сети или в автономном режиме.
   
@@ -70,9 +70,9 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > Этот параметр зарезервирован для внутреннего использования Outlook и не поддерживается. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK
+S_OK
   
 > Состояние объекта автономной успешно изменены.
     
@@ -89,5 +89,5 @@ E_PENDING
 [IMAPIOffline::GetCurrentState](imapioffline-getcurrentstate.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

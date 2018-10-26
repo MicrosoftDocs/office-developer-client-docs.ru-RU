@@ -1,11 +1,11 @@
 ---
-title: Удалите Определение настраиваемой формы, сохраненных в сообщение
+title: Удаление определения настраиваемой формы, сохраненного с сообщением
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
-description: '���� ���������� ���������: 25 ���� 2012 �.'
+description: 'Дата последнего изменения: 25 июня 2012 года'
 ms.openlocfilehash: 4b12824542a1408a364452eb6587122ec66412d3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22594455"
 ---
-# <a name="remove-custom-form-definition-saved-with-a-message"></a>Удалите Определение настраиваемой формы, сохраненных в сообщение
+# <a name="remove-custom-form-definition-saved-with-a-message"></a>Удаление определения настраиваемой формы, сохраненного с сообщением
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приводится пример кода c++, который преобразует сообщения, который был сохранен с определениями настраиваемых форм для регулярного сообщение без определения формы.
   
@@ -25,13 +25,13 @@ ms.locfileid: "22594455"
   
 Чтобы преобразовать сообщение, в котором сохраняется с определениями настраиваемых форм к одному без, необходимо удалить четыре именованных свойств:
   
-- [������������ �������� PidLidFormStorage](pidlidformstorage-canonical-property.md)
+- [Каноническое свойство PidLidFormStorage](pidlidformstorage-canonical-property.md)
     
-- [������������ �������� PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
+- [Каноническое свойство PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
     
-- [������������ �������� PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
+- [Каноническое свойство PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
     
-- [������������ �������� PidLidScriptStream](pidlidscriptstream-canonical-property.md)
+- [Каноническое свойство PidLidScriptStream](pidlidscriptstream-canonical-property.md)
     
 Кроме того следует удалить [PidLidPropertyDefinitionStream каноническое свойство](pidlidpropertydefinitionstream-canonical-property.md) , которое содержит определения пользовательских свойств, сохраненных в этого сообщения. Влияние со стороны удаления это свойство является то, что объектной модели Outlook 2010 или Outlook 2013 и пользовательский интерфейс Outlook 2010 или Outlook 2013 больше не смогут получать доступ к свойствам пользователя, которые были установлены в окне сообщения. По-прежнему можно получить доступ к эти свойства и их значения через MAPI. Обратите внимание, что если это свойство не удаляйте и сообщение сохраняется с другой определение формы, [Свойство каноническое PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) частично заменены новыми данными и целостность данных не гарантируется. 
   
@@ -134,5 +134,5 @@ HRESULT RemoveOneOff(LPMESSAGE lpMessage, BOOL bRemovePropDef)
 
 ## <a name="see-also"></a>См. также
 
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 

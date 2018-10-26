@@ -17,7 +17,7 @@ ms.locfileid: "22592096"
 ---
 # <a name="uphier"></a>UPHIER
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сведения о синхронизации иерархии папок во время [загрузки иерархия состояний](upload-hierarchy-state.md).
   
@@ -33,7 +33,7 @@ struct UPHIER
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 _ulFlags_
   
@@ -61,5 +61,5 @@ _централизованной_
 
 - [Сведения об API репликации](about-the-replication-api.md)
 - [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 

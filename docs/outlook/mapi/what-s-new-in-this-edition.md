@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
-description: '���� ���������� ���������: 7 ������� 2015 �.'
+description: 'Дата последнего изменения: 7 декабря 2015 года'
 ms.openlocfilehash: 23a8b84af50cc8a046206ab37144d84c4c9b6d56
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "25392888"
 
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Справочник по интерфейсу MAPI Microsoft Outlook 2013 были добавлены документации по различные новые функции. 
   
@@ -47,11 +47,11 @@ ms.locfileid: "25392888"
     
 - **Свойства**— **PR_CONVERSATION_KEY** с именем раздел свойство ([Каноническое свойство PidTagConversationKey](pidtagconversationkey-canonical-property.md)) добавлена и связь со **IPM. MessageManager** только сообщений в Outlook MAPI. Внесены следующие статьи, посвященные документации потока Transport-Neutral Encapsulation формата TNEF () и его: 
     
-  - [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  - [Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
     
-  - [Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+  - [Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
     
-  - [Сопоставление атрибутов TNEF со свойствами MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
+  - [Сопоставление атрибутов свойства MAPI, TNEF](mapping-of-tnef-attributes-to-mapi-properties.md)
     
   - [attConversationID и attParentID](attconversationid-and-attparentid.md)
     

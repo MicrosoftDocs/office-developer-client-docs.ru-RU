@@ -17,15 +17,15 @@ ms.locfileid: "22576486"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
  Создает объект автономной MAPI, используемый поставщиком и хранилища для уведомления MAPI после выхода автономный режим и Интернет-версия 
   
 |||
 |:-----|:-----|
 |Экспортировать с:  <br/> |Msmapi32.dll  <br/> |
-|Реализованный:  <br/> |Outlook  <br/> |
-|Вызывается:  <br/> |Клиент  <br/> |
+|Реализовано в:  <br/> |Outlook  <br/> |
+|Вызывающая сторона:  <br/> |Клиент  <br/> |
    
 ```cpp
 STDAPI HrCreateOfflineObj(

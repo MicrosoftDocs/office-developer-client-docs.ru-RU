@@ -23,7 +23,7 @@ ms.locfileid: "22579524"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Отменяет обратных вызовов для объекта в автономном режиме.
   
@@ -44,9 +44,9 @@ HRESULT COfflineObj::Unadvise(
   
 > [in] Маркер уведомлений, определяющий регистрацию обратного вызова, который должен быть отменен. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK
+S_OK
   
 > Вызов выполнен успешно. Этот вызов должен возвращать значение S_OK.
     
@@ -61,5 +61,5 @@ HRESULT COfflineObj::Unadvise(
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

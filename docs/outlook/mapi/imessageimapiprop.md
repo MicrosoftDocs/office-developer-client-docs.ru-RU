@@ -23,7 +23,7 @@ ms.locfileid: "22588533"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Управляет сообщения, вложения и получателей.
   
@@ -31,8 +31,8 @@ ms.locfileid: "22588533"
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapidefs.h  <br/> |
 |Предоставляемые:  <br/> |Объект Message  <br/> |
-|Реализованный:  <br/> |Поставщики хранилища сообщений  <br/> |
-|Вызывается:  <br/> |Клиентские приложения  <br/> |
+|Реализовано в:  <br/> |Поставщики хранилища сообщений  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMessage  <br/> |
 |Тип указателя:  <br/> |LPMESSAGE  <br/> |
 |Модель транзакций:  <br/> |В транзакции  <br/> |
@@ -107,9 +107,9 @@ ms.locfileid: "22588533"
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Только для чтения  <br/> |Обязательный  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |Обязательный  <br/> |
 |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Чтение и запись  <br/> |Обязательный  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Только для чтения  <br/> |Optional  <br/> |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Только для чтения  <br/> |Необязательный  <br/> |
 |**PR_ENTRYID** <br/> |Только для чтения  <br/> |Обязательный  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |Обязательный  <br/> |
-|**PR_SEARCH_KEY** <br/> |Только для чтения  <br/> |Optional  <br/> |
+|**PR_SEARCH_KEY** <br/> |Только для чтения  <br/> |Необязательный  <br/> |
    
 

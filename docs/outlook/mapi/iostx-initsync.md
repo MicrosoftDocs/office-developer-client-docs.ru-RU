@@ -23,7 +23,7 @@ ms.locfileid: "22594042"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Информирует хранилище локального сообщений, что синхронизация является запуск.
   
@@ -58,5 +58,5 @@ HRESULT InitSync(
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

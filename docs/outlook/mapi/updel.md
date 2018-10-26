@@ -19,7 +19,7 @@ ms.locfileid: "22581127"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сведения для элементов, которые были удалены в локальном хранилище. Эти сведения используются во время [загрузки удалить состояние состояние](upload-delete-status-state.md).
   
@@ -33,7 +33,7 @@ struct UPDEL
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  _pupde_
   
@@ -51,5 +51,5 @@ struct UPDEL
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

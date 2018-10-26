@@ -21,7 +21,7 @@ ms.locfileid: "22578628"
 ---
 # <a name="iprovideradmincreateprovider"></a>IProviderAdmin::CreateProvider
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Добавление поставщика услуг службы сообщений. 
   
@@ -66,9 +66,9 @@ HRESULT CreateProvider(
   
 > [out] Указатель на структуру [MAPIUID](mapiuid.md) , содержащую уникальный идентификатор, представляющий поставщика для добавления. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Поставщик был успешно добавлена в службу сообщения.
     

@@ -19,7 +19,7 @@ ms.locfileid: "22573196"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения часто имеют некоторые компоненты пользовательского интерфейса посвящен поиск сообщений в хранилище сообщений. Условия поиска в [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) интерфейса с помощью методов [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) и [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md) . 
   

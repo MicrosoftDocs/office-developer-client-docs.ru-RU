@@ -19,7 +19,7 @@ ms.locfileid: "22589233"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Информация для загрузки состояние чтения элементов во время [Отправить прочитать состояние состояние](upload-read-status-state.md).
   
@@ -33,7 +33,7 @@ struct UPREAD
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  _pupre_
   
@@ -51,7 +51,7 @@ struct UPREAD
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [UPREADE](upreade.md)
 

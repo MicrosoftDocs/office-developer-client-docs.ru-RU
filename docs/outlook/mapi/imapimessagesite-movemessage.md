@@ -23,7 +23,7 @@ ms.locfileid: "25382374"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Перемещает текущего сообщения в папку.
   
@@ -92,5 +92,5 @@ MAPI_E_NO_SUPPORT
 
 [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы форм MAPI](mapi-form-interfaces.md)
+[Интерфейсы формы MAPI](mapi-form-interfaces.md)
 

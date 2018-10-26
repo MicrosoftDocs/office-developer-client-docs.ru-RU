@@ -23,7 +23,7 @@ ms.locfileid: "22578992"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на интерфейс для объекта таблицы MAPI.
   
@@ -57,11 +57,11 @@ frightsFreeBusySimple
   
 > [out] Указывает на [IMAPITable: IUnknown](imapitableiunknown.md) интерфейс, содержащий объект таблицы. 
     
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |Mfcmapi (en) использует метод **IExchangeModifyTable::GetTable** для получения таблицы правил.  <br/> |
    

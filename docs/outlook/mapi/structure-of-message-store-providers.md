@@ -1,5 +1,5 @@
 ---
-title: Структура поставщиков хранилища сообщений
+title: Структура поставщиков хранилищ сообщений
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22584291"
 ---
-# <a name="structure-of-message-store-providers"></a>Структура поставщиков хранилища сообщений
+# <a name="structure-of-message-store-providers"></a>Структура поставщиков хранилищ сообщений
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Поставщик хранилища сообщений, при работе в памяти, — [IMSProvider: IUnknown](imsprovideriunknown.md) интерфейса. Интерфейс **IMSProvider** позволяет клиентских приложений и диспетчер очереди MAPI для входа и из хранилища сообщений. Интерфейсы, которые клиентских приложений и диспетчер очереди MAPI для доступа к папкам и сообщения в хранилище сообщений, [IMSLogon](imslogoniunknown.md) и [IMsgStore](imsgstoreimapiprop.md) интерфейсов. Эти интерфейсы обычно создаются при хранилища сообщений сначала вход в систему, несмотря на то, что точка входа [MSProviderInit](msproviderinit.md) сообщения хранения DLL-Библиотека может также создать их. 
   
@@ -31,5 +31,5 @@ ms.locfileid: "22584291"
   
 ## <a name="see-also"></a>См. также
 
-- [���������� ���������� ��������� ��������� MAPI](developing-a-mapi-message-store-provider.md)
+- [Разработка поставщика хранилища сообщений MAPI](developing-a-mapi-message-store-provider.md)
 

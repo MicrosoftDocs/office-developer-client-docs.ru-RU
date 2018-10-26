@@ -23,7 +23,7 @@ ms.locfileid: "22576283"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Разрешает класс сообщения в его формы в контейнере формы и возвращает объект сведения формы для этой формы.
   
@@ -53,9 +53,9 @@ MAPIFORM_EXACTMATCH
   
 > [out] Указатель на указатель на объект сведения возвращенные формы.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -73,11 +73,11 @@ MAPI_E_NOT_FOUND
   
 Идентификатор класса для класса разрешить сообщение возвращается в составе объекта данные формы. Не следует считать, что идентификатор класса существует в библиотеке OLE до того времени, после вызова метода либо [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) , либо [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) . 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMessageClass  <br/> |Mfcmapi (en) использует метод **IMAPIFormContainer::ResolveMessageClass** для обнаружения формы, который связан с классом сообщения.  <br/> |
    
