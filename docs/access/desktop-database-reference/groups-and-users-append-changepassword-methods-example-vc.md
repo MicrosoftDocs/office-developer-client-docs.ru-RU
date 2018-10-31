@@ -1,24 +1,24 @@
 ---
-title: Groups and Users Append, ChangePassword Methods Example (VC++)
-TOCTitle: Groups and Users Append, ChangePassword Methods Example (VC++)
+title: Пример использования методов Append и ChangePassword для коллекций Groups и Users (VC++)
+TOCTitle: Groups and Users Append, ChangePassword methods example (VC++)
 ms:assetid: 4eaaed4f-f5bf-38d0-b984-8e3f344923c5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249252(v=office.15)
 ms:contentKeyID: 48544759
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49a3018257de782a7b3d50128dd5d6ff692707cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 841ac1f5f4c29c5eb23d85509d06023000cf1959
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480038"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863075"
 ---
-# <a name="groups-and-users-append-changepassword-methods-example-vc"></a><span data-ttu-id="6fbfd-102">Groups and Users Append, ChangePassword Methods Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="6fbfd-102">Groups and Users Append, ChangePassword Methods Example (VC++)</span></span>
+# <a name="groups-and-users-append-changepassword-methods-example-vc"></a><span data-ttu-id="d1514-102">Пример использования методов Append и ChangePassword для коллекций Groups и Users (VC++)</span><span class="sxs-lookup"><span data-stu-id="d1514-102">Groups and Users Append, ChangePassword methods example (VC++)</span></span>
 
 
-<span data-ttu-id="6fbfd-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6fbfd-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d1514-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1514-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="6fbfd-104">В этом примере демонстрируется метод [Append](append-method-adox-groups.md) [групп](groups-collection-adox.md), а также метод [Append](append-method-adox-users.md) [пользователей](users-collection-adox.md) путем добавления новой [группы](group-object-adox.md) и нового [пользователя](user-object-adox.md) в систему.</span><span class="sxs-lookup"><span data-stu-id="6fbfd-104">This example demonstrates the [Append](append-method-adox-groups.md) method of [Groups](groups-collection-adox.md), as well as the [Append](append-method-adox-users.md) method of [Users](users-collection-adox.md) by adding a new [Group](group-object-adox.md) and a new [User](user-object-adox.md) to the system.</span></span> <span data-ttu-id="6fbfd-105">Новая **Группа** добавляется в коллекцию **групп** нового **пользователя**.</span><span class="sxs-lookup"><span data-stu-id="6fbfd-105">The new **Group** is appended to the **Groups** collection of the new **User**.</span></span> <span data-ttu-id="6fbfd-106">Следовательно нового **пользователя** добавляется в **группу**.</span><span class="sxs-lookup"><span data-stu-id="6fbfd-106">Consequently, the new **User** is added to the **Group**.</span></span> <span data-ttu-id="6fbfd-107">Кроме того метод [Изменение пароля](changepassword-method-adox.md) используется для указания пароль **пользователя** .</span><span class="sxs-lookup"><span data-stu-id="6fbfd-107">Also, the [ChangePassword](changepassword-method-adox.md) method is used to specify the **User** password.</span></span>
+<span data-ttu-id="d1514-104">В этом примере демонстрируется метод [Append](append-method-adox-groups.md) [групп](groups-collection-adox.md), а также метод [Append](append-method-adox-users.md) [пользователей](users-collection-adox.md) путем добавления новой [группы](group-object-adox.md) и нового [пользователя](user-object-adox.md) в систему.</span><span class="sxs-lookup"><span data-stu-id="d1514-104">This example demonstrates the [Append](append-method-adox-groups.md) method of [Groups](groups-collection-adox.md), as well as the [Append](append-method-adox-users.md) method of [Users](users-collection-adox.md) by adding a new [Group](group-object-adox.md) and a new [User](user-object-adox.md) to the system.</span></span> <span data-ttu-id="d1514-105">Новая **Группа** добавляется в коллекцию **групп** нового **пользователя**.</span><span class="sxs-lookup"><span data-stu-id="d1514-105">The new **Group** is appended to the **Groups** collection of the new **User**.</span></span> <span data-ttu-id="d1514-106">Следовательно нового **пользователя** добавляется в **группу**.</span><span class="sxs-lookup"><span data-stu-id="d1514-106">Consequently, the new **User** is added to the **Group**.</span></span> <span data-ttu-id="d1514-107">Кроме того метод [Изменение пароля](changepassword-method-adox.md) используется для указания пароль **пользователя** .</span><span class="sxs-lookup"><span data-stu-id="d1514-107">Also, the [ChangePassword](changepassword-method-adox.md) method is used to specify the **User** password.</span></span>
 
 ```cpp 
  
