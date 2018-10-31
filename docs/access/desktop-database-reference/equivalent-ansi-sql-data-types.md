@@ -1,5 +1,5 @@
 ---
-title: Equivalent ANSI SQL Data Types
+title: Типы данных SQL эквивалентный ANSI
 TOCTitle: Equivalent ANSI SQL Data Types
 ms:assetid: 720abf59-f9ef-4e14-4223-c873f604ad58
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195814(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7eae567d2787e60f84c8020d80e1c15c9b02928f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e44ae29014870dcd4fc95629081d50191d6ff184
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481752"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863990"
 ---
-# <a name="equivalent-ansi-sql-data-types"></a>Equivalent ANSI SQL Data Types
+# <a name="equivalent-ansi-sql-data-types"></a>Типы данных SQL эквивалентный ANSI
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -142,20 +142,12 @@ ms.locfileid: "25481752"
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Тип данных ANSI SQL BIT не соответствует типа данных Microsoft Access SQL BIT. Он соответствует типу ДВОИЧНЫХ данных вместо этого. Для типа данных Microsoft Access SQL РАЗРЯДНАЯ эквивалентно не ANSI SQL.</P>
-> <LI>
-> <P>Метка времени больше не поддерживается как синоним для даты и времени.</P>
-> <LI>
-> <P>ЧИСЛОВОЙ больше не поддерживается как синоним с плавающей запятой или DOUBLE. ЧИСЛОВОЙ теперь используется как синоним для знаков после запятой.</P>
-> <LI>
-> <P>Поле LONGTEXT всегда хранятся в формате Юникод представления.</P>
-> <LI>
-> <P>Если тип данных, имя, которое TEXT используется без указания длины, например TEXT(25), создается поле LONGTEXT. Это позволяет написать, приведет к типов данных, схожих с Microsoft SQL Server <A href="create-table-statement-microsoft-access-sql.md">инструкции CREATE TABLE</A> .</P>
-> <LI>
-> <P>Поле символов всегда хранится в формате представления Unicode эквивалентен параметру типа данных НАЦИОНАЛЬНЫЙ ЗНАКОВ ANSI SQL.</P>
-> <LI>
-> <P>Если имя типа данных TEXT используется с указанием длины, например TEXT(25), тип данных поля эквивалентно тип данных (знак). Это позволяет сохранить обратной совместимости для большинства приложений Microsoft Jet, обеспечивая тип данных TEXT (без указания длины) для совместимости с Microsoft SQL Server.</P></LI></UL>
+> - Тип данных ANSI SQL BIT не соответствует типа данных Microsoft Access SQL BIT. Он соответствует типу ДВОИЧНЫХ данных вместо этого. Для типа данных Microsoft Access SQL РАЗРЯДНАЯ эквивалентно не ANSI SQL.
+> - Метка времени больше не поддерживается как синоним для даты и времени.
+> - ЧИСЛОВОЙ больше не поддерживается как синоним с плавающей запятой или DOUBLE. ЧИСЛОВОЙ теперь используется как синоним для знаков после запятой.
+> - Поле LONGTEXT всегда хранятся в формате Юникод представления.
+> - Если тип данных, имя, которое TEXT используется без указания длины, например TEXT(25), создается поле LONGTEXT. Это позволяет написать, приведет к типов данных, схожих с Microsoft SQL Server [инструкции CREATE TABLE](create-table-statement-microsoft-access-sql.md) .
+> - Поле символов всегда хранится в формате представления Unicode эквивалентен параметру типа данных НАЦИОНАЛЬНЫЙ ЗНАКОВ ANSI SQL.
+> - Если имя типа данных TEXT используется с указанием длины, например TEXT(25), тип данных поля эквивалентно тип данных (знак). Это позволяет сохранить обратной совместимости для большинства приложений Microsoft Jet, обеспечивая тип данных TEXT (без указания длины) для совместимости с Microsoft SQL Server.
 
 

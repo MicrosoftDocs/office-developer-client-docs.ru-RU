@@ -1,29 +1,27 @@
 ---
-title: Persisting Records in XML Format
+title: Сохранение записей в формате XML
 TOCTitle: Persisting Records in XML Format
 ms:assetid: 8071e244-60c7-759c-094c-152add5d72e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b1e22c3f85c4289520326c34c6d0c218a442a3f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f06954b25c798dab7fe80ba5ba7cf91bb0efc292
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481623"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860996"
 ---
-# <a name="persisting-records-in-xml-format"></a>Persisting Records in XML Format
+# <a name="persisting-records-in-xml-format"></a>Сохранение записей в формате XML
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Как формат ADTG поставщик Microsoft OLE DB сохраняемость реализована хранение **записей** в формате XML. Этот поставщик создает набор строк только вперед, только для чтения из сохраненного XML-файла или потока, который содержит сведения о схеме, созданных функцией ADO. Аналогично его занять набора **записей**ADO, создать XML- и сохраните его в виде файла или любой объект, реализующий интерфейс COM **IStream** . (На самом деле файл является любой другой пример объекта, который поддерживает **IStream**.) Для версии 2.5 и более поздних версий ADO полагается на средство синтаксического анализа Microsoft XML (MSXML) для загрузки XML-кода в **набор записей**; Поэтому msxml.dll не требуется. Для версии 2.5 MSXML в состав Internet Explorer 5. Для версии 2,6 MSXML поставляется с SQL Server 2000.
 
-
 > [!NOTE]
-> <P>Некоторые ограничения при сохранении иерархические <STRONG>наборы записей</STRONG> (данные фигуры) в формате XML. Не удается сохранить XML, если иерархических <STRONG>записей</STRONG> содержит ожидающие обновления и не могут сохранять параметризованный иерархических <STRONG>набора записей</STRONG>. Для получения дополнительных сведений см <A href="hierarchical-recordsets-in-xml.md">Иерархические наборы записей в формате XML</A>.</P>
-
+> Некоторые ограничения при сохранении иерархические **наборы записей** (данные фигуры) в формате XML. Не удается сохранить XML, если иерархических **записей** содержит ожидающие обновления и не могут сохранять параметризованный иерархических **набора записей**. Для получения дополнительных сведений см [Иерархические наборы записей в формате XML](hierarchical-recordsets-in-xml.md).
 
 
 Это самый простой способ сохранения данных в формат XML и загрузить его обратно еще раз через ADO — с помощью методов **Сохранить** и **Открыть** соответственно. В следующем примере кода ADO демонстрируется сохранение данных в таблице заголовки в файл с именем titles.sav.
@@ -67,3 +65,24 @@ rs.Save "btitles.sav", adPersistXML
 
 ADO всегда использует набор строк механизм курсор клиента для создания прокручиваемой, bookmarkable объекта **набора записей** на основе данных последовательного доступа, создаваемых поставщика службы сохранения.
 
+В этом разделе содержатся следующие разделы:
+
+- [Формат сохранения XML](xml-persistence-format.md)
+
+- [Пространства имен](namespaces.md)
+
+- [Раздел схемы](schema-section.md)
+
+- [Раздел данных](data-section.md)
+
+- [Иерархические наборы записей в XML](hierarchical-recordsets-in-xml.md)
+
+- [Свойства динамической записей в формате XML](recordset-dynamic-properties-in-xml.md)
+
+- [Преобразование в XSLT](xslt-transformations.md)
+
+- [Сохранение в объектной модели DOM XML](saving-to-the-xml-dom-object.md)
+
+- [Рекомендации по безопасности XML](xml-security-considerations.md)
+
+- [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario.md)

@@ -1,21 +1,21 @@
 ---
-title: SELECT Statement (Microsoft Access SQL)
-TOCTitle: SELECT Statement (Microsoft Access SQL)
+title: Инструкция SELECT (Microsoft Access SQL)
+TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: ae7a63a3fe7647dde117db80a52e2322b9af75b9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480474"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860584"
 ---
-# <a name="select-statement-microsoft-access-sql"></a>SELECT Statement (Microsoft Access SQL)
+# <a name="select-statement-microsoft-access-sql"></a>Инструкция SELECT (Microsoft Access SQL)
 
 **Применимо к:** Access 2013 | Office 2013
 
@@ -41,7 +41,7 @@ ms.locfileid: "25480474"
 <tbody>
 <tr class="odd">
 <td><p><em>предикат</em></p></td>
-<td><p>Предикаты одно из следующих значений: <a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">ALL, DISTINCT, DISTINCTROW или TOP</a>. Предикаты используются для ограничения числа возвращаемых записей. Если не указано, по умолчанию используется ALL.</p></td>
+<td><p>Предикаты одно из следующих значений: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW или TOP</a>. Предикаты используются для ограничения числа возвращаемых записей. Если не указано, по умолчанию используется ALL.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -73,7 +73,7 @@ ms.locfileid: "25480474"
 
 ## <a name="remarks"></a>Замечания
 
-Для выполнения этой операции, базы данных Microsoft® Jet выполняет поиск указанной таблицы или таблиц, извлекает соответствующие столбцы, выбирает строки, отвечающие критерия и сортирует полученные строки в указанном порядке.
+Для выполнения этой операции, базы данных Microsoft Jet выполняет поиск указанной таблицы или таблиц, извлекает соответствующие столбцы, выбирает строки, отвечающие критерия и сортирует полученные строки в указанном порядке.
 
 Инструкции SELECT не изменяйте данные в базе данных.
 
@@ -151,6 +151,8 @@ AS HeadCount FROM Employees;
     End Sub
 ```
 
+<br/>
+
 В этом примере подсчитывает число записей, содержащих в поле PostalCode и имена возвращенных полей результатов голосования.
 
 ```sql
@@ -178,6 +180,8 @@ AS HeadCount FROM Employees;
      
     End Sub 
 ```
+
+<br/>
 
 В этом примере показано число сотрудников и Зарплата средний и максимальный.
 
@@ -209,6 +213,8 @@ AS HeadCount FROM Employees;
      
     End Sub 
 ```
+
+<br/>
 
 Процедуры **Sub** EnumFields передается объект **набора записей** из вызова процедуры. Затем процедура форматов и реализуется печать полей **набора записей** в окне **Отладка** . Переменная — это ширина нужного распечатанных поля. В некоторых полях может усекаться.
 

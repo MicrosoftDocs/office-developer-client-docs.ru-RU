@@ -4,21 +4,22 @@ TOCTitle: ExecuteOptionEnum
 ms:assetid: bd6d44a3-e471-7aa0-3e65-6775334de2ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249915(v=office.15)
 ms:contentKeyID: 48547438
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: aeb1083c693e0848e30a0b9217ae709994daddb5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51c5ab78c4ea49ade7fd2b6972aa3753b0c6df09
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481308"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862312"
 ---
 # <a name="executeoptionenum"></a>ExecuteOptionEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает, как поставщик должен выполнить команду.
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,7 +48,7 @@ ms.locfileid: "25481308"
 <tr class="odd">
 <td><p><strong>adAsyncFetchNonBlocking</strong></p></td>
 <td><p>0x40</p></td>
-<td><p>Указывает, что основной поток не блокируется при получении. Если не был получен запрашиваемый строку, текущей строки автоматически перемещается в конец файла. При открытии <a href="recordset-object-ado.md">набора записей</a> из <a href="stream-object-ado.md">потока</a> , содержащий постоянно сохраненных <strong>записей</strong> <strong>adAsyncFetchNonBlocking</strong> не будет иметь эффекта. Операция будет синхронная и блокировки. <strong>adAsynchFetchNonBlocking</strong> не оказывает влияния при использовании параметра <a href="commandtypeenum.md">adCmdTableDirect</a> для открытия <strong>набора записей</strong>.</p></td>
+<td><p>Указывает, что основной поток не блокируется при получении. Если не был получен запрашиваемый строку, текущей строки автоматически перемещается в конец файла.</p><p>При открытии <a href="recordset-object-ado.md">набора записей</a> из <a href="stream-object-ado.md">потока</a> , содержащий постоянно сохраненных <strong>записей</strong> <strong>adAsyncFetchNonBlocking</strong> не будет иметь эффекта. Операция будет синхронная и блокировки. <strong>adAsynchFetchNonBlocking</strong> не оказывает влияния при использовании параметра <a href="commandtypeenum.md">adCmdTableDirect</a> для открытия <strong>набора записей</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adExecuteNoRecords</strong></p></td>
@@ -74,7 +75,7 @@ ms.locfileid: "25481308"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 

@@ -1,19 +1,19 @@
 ---
-title: Append and CreateParameter Methods Example (VC++)
-TOCTitle: Append and CreateParameter Methods Example (VC++)
+title: Пример использования методов Append и CreateParameter (VC++)
+TOCTitle: Append and CreateParameter methods example (VC++)
 ms:assetid: d979bd89-2d17-e977-a222-11d3c24fd84d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250095(v=office.15)
 ms:contentKeyID: 48548052
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 45be01b45ca637b3fb63f267d04da71a93aa22ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e5651c53a692f016fe17ff001754a6ce5e298ad
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482815"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861826"
 ---
-# <a name="append-and-createparameter-methods-example-vc"></a>Append and CreateParameter Methods Example (VC++)
+# <a name="append-and-createparameter-methods-example-vc"></a>Пример использования методов Append и CreateParameter (VC++)
 
 
 **Применимо к**: Access 2013 | Office 2013

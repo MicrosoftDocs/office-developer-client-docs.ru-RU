@@ -1,19 +1,19 @@
 ---
-title: AddNew Method Example (JScript)
-TOCTitle: AddNew Method Example (JScript)
+title: Пример использования метода AddNew (JScript)
+TOCTitle: AddNew method example (JScript)
 ms:assetid: b6f7e98d-d34d-dc2a-bdcb-65452f3fe5e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249882(v=office.15)
 ms:contentKeyID: 48547290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 203930b24f49af82771206024369c79cfa24f8b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 73706fc5e3e95b83e9e2c8e485364afdc4f141cd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482109"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25859918"
 ---
-# <a name="addnew-method-example-jscript"></a>AddNew Method Example (JScript)
+# <a name="addnew-method-example-jscript"></a>Пример использования метода AddNew (JScript)
 
 **Применимо к**: Access 2013 | Office 2013
 
@@ -29,7 +29,7 @@ ms.locfileid: "25482109"
 <html> 
  
 <head> 
- <title>Add New Method Example (JScript)</title> 
+ <title>Add New method example (JScript)</title> 
 <style> 
 <!-- 
 body { 
@@ -42,7 +42,7 @@ body {
 </head> 
  
 <body> 
-<h1>AddNew Method Example (JScript)</h1> 
+<h1>AddNew method example (JScript)</h1> 
  
 <% 
  if (Request.Form("Addit") == "AddNew") 

@@ -1,19 +1,19 @@
 ---
-title: CopyRecord Method (ADO)
+title: Метод CopyRecord (ADO)
 TOCTitle: CopyRecord Method (ADO)
 ms:assetid: 724e4358-f216-8e47-5bab-c72770ece5a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73940108f96cf46cb15d646936039c0329373899
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f01141e0dc2445a91267cf7744214b906a1af3fd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606908"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860345"
 ---
-# <a name="copyrecord-method-ado"></a>CopyRecord Method (ADO)
+# <a name="copyrecord-method-ado"></a>Метод CopyRecord (ADO)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -54,7 +54,7 @@ ms.locfileid: "25606908"
 ## <a name="return-value"></a>Возвращаемое значение
 =======
 ## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
+>>>>>>> образец
 
 **Строковое** значение, которое обычно возвращает значение *назначения*. Тем не менее точное значение, возвращаемое зависит от поставщика.
 
@@ -68,7 +68,7 @@ ms.locfileid: "25606908"
 
 
 > [!IMPORTANT]
-> <P>Параметр <STRONG>adCopyOverWrite</STRONG> внимательно. Например задание этого параметра при копировании файлов в каталог будет <EM>Удалить</EM> каталог и замените файл.</P>
+> Параметр **adCopyOverWrite** внимательно. Например задание этого параметра при копировании файлов в каталог будет *Удалить* каталог и замените файл.
 
 
 
@@ -78,6 +78,6 @@ ms.locfileid: "25606908"
 > <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
 =======
 > URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
->>>>>>> master
+>>>>>>> образец
 
 

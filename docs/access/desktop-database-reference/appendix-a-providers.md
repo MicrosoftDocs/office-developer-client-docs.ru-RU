@@ -1,19 +1,19 @@
 ---
-title: 'Appendix A: Providers'
+title: Приложение А. Поставщики
 TOCTitle: 'Appendix A: Providers'
 ms:assetid: b3f92279-8d66-ad59-71c4-c0448168125a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbd9536edd15f923af85f2fadad8b696077af4a4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f18af92724ff87263808cba2e8799bca2a558541
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482294"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861450"
 ---
-# <a name="appendix-a-providers"></a>Appendix A: Providers
+# <a name="appendix-a-providers"></a>Приложение А. Поставщики
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -21,7 +21,7 @@ ms.locfileid: "25482294"
 
 В данном разделе описываются три вида поставщиков: поставщики данных, поставщиков услуг и компоненты службы. Поставщики могут быть разделены на две категории: те, предоставляя данные и те, обеспечивающих работу служб. *Поставщик данных* несет ответственность за свои собственные данные и предоставляет доступ к нему в виде таблицы в приложение. *Поставщик услуг* инкапсулирует службы путем создания и использования данных, дополнения функции в приложениях ADO. Поставщик службы может также быть разбить как *компонент службы*, которым необходимо работать совместно с другими поставщиками услуг или компоненты.
 
-## <a name="data-providers"></a>Data Providers
+## <a name="data-providers"></a>Поставщики данных
 
 ADO мощные и гибкие, так как он может подключиться к любой из нескольких разных поставщиков данных и по-прежнему предоставляют доступ к той же модели программирования, вне зависимости от конкретных компонентов любого заданного поставщика.
 
@@ -43,37 +43,37 @@ ADO мощные и гибкие, так как он может подключи
 <thead>
 <tr class="header">
 <th><p>Область</p></th>
-<th><p>Раздел</p></th>
+<th><p>Статья</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Базы данных ODBC</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Поставщик Microsoft OLE DB для ODBC</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Служба индексирования</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Поставщик Microsoft OLE DB для службы индексирования (Майкрософт)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Службы Microsoft Active Directory</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Поставщик Microsoft OLE DB для службы Microsoft Active Directory</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Базы данных Microsoft Jet</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Поставщик OLE DB для Microsoft Jet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Поставщик Microsoft OLE DB для Microsoft Jet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft SQL Server</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-sql-server.md">Microsoft OLE DB Provider for SQL Server</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-sql-server.md">Поставщик Microsoft OLE DB для SQL Server</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Базы данных Oracle</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Microsoft OLE DB Provider for Oracle</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Поставщик Microsoft OLE DB для Oracle</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Публикации в Интернете</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации в Интернете</a></p></td>
 </tr>
 </tbody>
 </table>

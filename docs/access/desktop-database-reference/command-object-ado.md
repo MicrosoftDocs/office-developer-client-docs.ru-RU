@@ -1,5 +1,5 @@
 ---
-title: Command Object (ADO)
+title: Объект команды (ADO)
 TOCTitle: Command Object (ADO)
 ms:assetid: 64f4ef03-f858-c004-b891-0c96d13a5e6e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249389(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5199037f44e75bddf697197bca992a95b8432420
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 153f59ebbcfae89f6358fe0d707791aab8a8cdd7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605746"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864076"
 ---
-# <a name="command-object-ado"></a>Command Object (ADO)
+# <a name="command-object-ado"></a>Объект команды (ADO)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -38,7 +38,7 @@ ms.locfileid: "25605746"
   - Выполнение команды и возвратить объект **набора записей** при необходимости с помощью метода [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
 =======
   - Выполнение команды и возвратить объект **набора записей** при необходимости с помощью метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) .
->>>>>>> master
+>>>>>>> образец
 
   - Укажите тип команды со свойством [CommandType](commandtype-property-ado.md) , прежде чем начать выполнение для оптимизации производительности.
 
@@ -54,11 +54,8 @@ ms.locfileid: "25605746"
 
   - Атрибуты поставщика доступа с набором [свойств](properties-collection-ado.md) .
 
-
 > [!NOTE]
-> <P>Для выполнения запроса без использования объекта <STRONG>команды</STRONG> , передайте строку запроса для метода <A href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute</A> объект <STRONG>подключения</STRONG> или метод <A href="open-method-ado-recordset.md">Open</A> объекта <STRONG>набора записей</STRONG> . Тем не менее объект <STRONG>команды</STRONG> является обязательным, когда необходимо сохранять текст команды и повторно выполнить или используйте параметры запроса.</P>
-
-
+> Для выполнения запроса без использования объекта **команды** , передайте строку запроса для метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) объект **подключения** или метод [Open](open-method-ado-recordset.md) объекта **набора записей** . Тем не менее объект **команды** является обязательным, когда необходимо сохранять текст команды и повторно выполнить или используйте параметры запроса.
 
 Для создания объекта **команду** независимо от ранее определенный объект **подключения** , установите для свойства **ActiveConnection** это допустимая строка подключения. ADO по-прежнему создает объект **подключения** , но она не назначает этот объект переменной объекта. Тем не менее если несколько объектов **команды** будет сопоставлен то же подключение, необходимо явно создать и откройте объект **подключения** ; Это назначает объект **подключения** объектную переменную. Если свойства **ActiveConnection** объекта **команды** не установлен на эту переменную объекта, ADO создает новый объект **подключения** для каждого объекта **команды** даже в том случае, если вы используете одну и ту же строку подключения.
 

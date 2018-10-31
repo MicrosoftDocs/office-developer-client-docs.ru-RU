@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 54078705c67e892b80a08ce2bd31db191c7fc70c
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 311481a83c25df29a26610a979a67ceb38124470
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606160"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860422"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase Method (DAO)
 
@@ -80,7 +80,7 @@ ms.locfileid: "25606160"
 ### <a name="return-value"></a>Возвращаемое значение
 =======
 ### <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
+>>>>>>> образец
 
 База данных
 
@@ -126,6 +126,6 @@ ms.locfileid: "25606160"
 
 
 > [!NOTE]
-> <P>При получении доступа к Microsoft Access базы данных подключен модуль ODBC источника данных, можно увеличить производительность вашего приложения, открыв объекта <STRONG>базы данных</STRONG> , подключенных к источнику данных ODBC, а не путем связывания отдельных объектов <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> в определенных в источнике данных ODBC.</P>
+> При получении доступа к Microsoft Access базы данных подключен модуль ODBC источника данных, можно увеличить производительность вашего приложения, открыв объекта **базы данных** , подключенных к источнику данных ODBC, а не путем связывания отдельных объектов [TableDef](tabledef-object-dao.md) в определенных в источнике данных ODBC.
 
 

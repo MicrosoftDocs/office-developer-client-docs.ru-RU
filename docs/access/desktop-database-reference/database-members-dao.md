@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15f868867466bdbce6f15b326a88b7a9f0842015
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58e36426360abf36d7fdf0cb026f6d8ff14b29b5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479992"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864026"
 ---
 # <a name="database-members-dao"></a>Database Members (DAO)
 
@@ -109,7 +109,7 @@ ms.locfileid: "25479992"
 <td><p></p>
 
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
 
 
 <p>Возвращает объект <strong><a href="connection-object-dao.md">подключения</a></strong> , соответствующий базе данных (только для рабочих областей технология ODBCDirect).</p></td>

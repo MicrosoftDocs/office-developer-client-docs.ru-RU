@@ -4,10 +4,10 @@
 ---
 
 <<<<<<< HEAD
-# <a name="editmode-property-ado"></a>EditMode Property (ADO)
+# <a name="editmode-property-ado"></a>Свойство EditMode (ADO)
 =======
 # <a name="editmode-property-ado"></a>Свойство EditMode (ADO)
->>>>>>> master
+>>>>>>> образец
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -18,7 +18,7 @@
 ## <a name="return-value"></a>Возвращаемое значение
 =======
 ## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
+>>>>>>> образец
 
 Возвращает значение [EditModeEnum](editmodeenum.md) .
 
@@ -32,6 +32,6 @@ ADO поддерживает редактирования буфера, связ
 
 
 > [!NOTE]
-> <P><STRONG>EditMode</STRONG> можно вернуть допустимое значение только в том случае, если текущая запись. <STRONG>EditMode</STRONG> возвращает ошибку, если <A href="bof-eof-properties-ado.md">BOF или EOF</A> имеет значение true, или если текущий запись была удалена.</P>
+> **EditMode** можно вернуть допустимое значение только в том случае, если текущая запись. **EditMode** возвращает ошибку, если [BOF или EOF](bof-eof-properties-ado.md) имеет значение true, или если текущий запись была удалена.
 
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2464426bc7178638e8ebbfc9f5b2f6d1d1b61ca2
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f76cb57345b7ec653092517d72fa3355a29de6cd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602589"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862564"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace Method (DAO)
 
@@ -68,7 +68,7 @@ ms.locfileid: "25602589"
 <td><p><strong>Строка</strong> , содержащая пароль для нового объекта <strong>рабочей области</strong> . Пароль может иметь длину до 20 символов и может содержать все символы, за исключением символа ASCII 0 (null).</p>
 
 > [!NOTE]
-> <P>Используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</P>
+> Используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.
 
 
 </td>
@@ -80,7 +80,7 @@ ms.locfileid: "25602589"
 <td><p>Одно из значений <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
 
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Установка для аргумента типа <STRONG>dbUseODBC</STRONG> приведет к ошибке времени выполнения. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Установка для аргумента типа **dbUseODBC** приведет к ошибке времени выполнения. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
 
 
 </td>
@@ -93,7 +93,7 @@ ms.locfileid: "25602589"
 ### <a name="return-value"></a>Возвращаемое значение
 =======
 ### <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
+>>>>>>> образец
 
 Рабочая область
 

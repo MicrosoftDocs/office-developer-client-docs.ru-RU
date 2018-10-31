@@ -1,19 +1,19 @@
 ---
-title: ADD USER Statement (Microsoft Access SQL)
-TOCTitle: ADD USER Statement (Microsoft Access SQL)
+title: Добавление пользователя оператора (Microsoft Access SQL)
+TOCTitle: ADD USER statement (Microsoft Access SQL)
 ms:assetid: 1feb631f-cb8c-14ae-6214-276f1faf1a55
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845862(v=office.15)
 ms:contentKeyID: 48543652
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ba08ab3104fa08780e8affa310b52a65f67d8831
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80e3a8fe62cf077accfc18a30e188898fb279d1d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481566"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862291"
 ---
-# <a name="add-user-statement-microsoft-access-sql"></a>ADD USER Statement (Microsoft Access SQL)
+# <a name="add-user-statement-microsoft-access-sql"></a>Добавление пользователя оператора (Microsoft Access SQL)
 
 **Применимо к**: Access 2013 | Office 2013
 
@@ -51,5 +51,5 @@ ms.locfileid: "25481566"
 
 ## <a name="remarks"></a>Замечания
 
-Когда *пользователь* был добавлен в *группу и* *пользователь* имеет все разрешения, предоставленные в *группу*.
+После *пользователь* добавлен в *группу*, *пользователь* имеет все разрешения, предоставленные в *группу*.
 

@@ -1,19 +1,19 @@
 ---
-title: Append Method (ADOX Groups)
+title: Добавьте метод (ADOX группы)
 TOCTitle: Append Method (ADOX Groups)
 ms:assetid: c3245a24-55b8-3f3f-1c4a-43a119d84dc8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249954(v=office.15)
 ms:contentKeyID: 48547567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 76c602896a629881d06a3f3cf80326e02340186e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: be31cc01122aa24eff2acb8396be2caab33c7dd4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482816"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863061"
 ---
-# <a name="append-method-adox-groups"></a>Append Method (ADOX Groups)
+# <a name="append-method-adox-groups"></a>Добавьте метод (ADOX группы)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -40,6 +40,6 @@ ms.locfileid: "25482816"
 
 
 > [!NOTE]
-> <P>Перед добавлением объекта <STRONG>группы</STRONG> в коллекцию <STRONG>групп</STRONG> объекта <STRONG>пользователя</STRONG> , объект <STRONG>группы</STRONG> с тем же <A href="name-property-adox.md">именем</A> , который будет добавляться должны уже существовать в коллекцию <STRONG>групп</STRONG> <STRONG>каталога</STRONG>.</P>
+> Перед добавлением объекта **группы** в коллекцию **групп** объекта **пользователя** , объект **группы** с тем же [именем](name-property-adox.md) , который будет добавляться должны уже существовать в коллекцию **групп** **каталога**.
 
 

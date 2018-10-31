@@ -1,19 +1,19 @@
 ---
-title: Refresh Method Example (VB)
-TOCTitle: Refresh Method Example (VB)
+title: Пример использования метода Refresh (VB)
+TOCTitle: Refresh method example (VB)
 ms:assetid: d5094e57-e85e-7c65-cd28-ac04692608d0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250071(v=office.15)
 ms:contentKeyID: 48547958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea38044d25d9690ae126182491403d5229f75fd6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0fe6b05fb2cacafdb1844e3a3be9bdffce8a4737
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483018"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861227"
 ---
-# <a name="refresh-method-example-vb"></a>Refresh Method Example (VB)
+# <a name="refresh-method-example-vb"></a>Пример использования метода Refresh (VB)
 
 
 **Применимо к**: Access 2013 | Office 2013

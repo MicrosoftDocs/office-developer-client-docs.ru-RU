@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11c999fcac3b77ddc4eeb9ef8f4414a5f8aa1559
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fa52050e91c1a291dd59f9cde1ea36c320406dd6
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480697"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860268"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial Method (DAO)
 
@@ -79,7 +79,7 @@ ms.locfileid: "25480697"
 
 
 > [!NOTE]
-> <P>Несмотря на то, что <STRONG>PopulatePartial</STRONG> выполняет односторонней синхронизации перед Очистка и повторного заполнения частичные реплики, рекомендуется по-прежнему вызывать <STRONG>синхронизировать</STRONG> до вызова метода <STRONG>PopulatePartial</STRONG>. Это происходит в случае сбоя вызова <STRONG>синхронизировать</STRONG> перехватываемые ошибки. Следует ли продолжить работу с помощью метода <STRONG>PopulatePartial</STRONG> (который удаляет все записи в частичные реплики) можно использовать эту ошибку. Если возникает ошибка во время синхронизации записей <STRONG>PopulatePartial</STRONG> вызывается сам по себе, записей частичное реплики будет по-прежнему снят, могут быть результат.</P>
+> Несмотря на то, что **PopulatePartial** выполняет односторонней синхронизации перед Очистка и повторного заполнения частичные реплики, рекомендуется по-прежнему вызывать **синхронизировать** до вызова метода **PopulatePartial**. Это происходит в случае сбоя вызова **синхронизировать** перехватываемые ошибки. Следует ли продолжить работу с помощью метода **PopulatePartial** (который удаляет все записи в частичные реплики) можно использовать эту ошибку. Если возникает ошибка во время синхронизации записей **PopulatePartial** вызывается сам по себе, записей частичное реплики будет по-прежнему снят, могут быть результат.
 
 
 

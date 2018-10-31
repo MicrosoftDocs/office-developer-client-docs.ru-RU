@@ -1,19 +1,19 @@
 ---
-title: Shape Commands in General
+title: Общие сведения о командах формирования
 TOCTitle: Shape Commands in General
 ms:assetid: ad555aa7-bc64-b495-a98d-e927061a5809
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34e691edd429b5d7f00da0c8eb994ffd999c6305
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5cf2dc58ee3fa9205b9657366d8706b64b0aa58a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603954"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861031"
 ---
-# <a name="shape-commands-in-general"></a>Shape Commands in General
+# <a name="shape-commands-in-general"></a>Общие сведения о командах формирования
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -64,7 +64,7 @@ ms.locfileid: "25603954"
 
 <<<<<<< Фигуры HEAD команды могут выполняться с помощью объектов **набора записей** или путем установки свойства [CommandText](commandtext-property-ado.md) объекта [команды](command-object-ado.md) и вызова метода [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
 === Команды фигуры могут выполняться с помощью объектов **набора записей** или путем установки свойства [CommandText](commandtext-property-ado.md) объекта [команды](command-object-ado.md) и вызова метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) .
->>>>>>> master
+>>>>>>> образец
 
 Фигура команды могут быть вложенными. То есть *команда родительского* или *дочернего командной* самого возможно другую фигуру, команда.
 
@@ -73,4 +73,8 @@ ms.locfileid: "25603954"
 Сведения о навигации в иерархической **набора записей** [Доступ к строк в иерархической записей](accessing-rows-in-a-hierarchical-recordset.md)см.
 
 Точные сведения о командах синтаксически правильные фигуры видеть [Официальные грамматики фигуры](formal-shape-grammar.md).
+
+## <a name="see-also"></a>См. также
+
+- [Отправка команд базовому поставщику данных](issuing-commands-to-the-underlying-data-provider.md)
 

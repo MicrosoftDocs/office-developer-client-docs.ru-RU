@@ -4,21 +4,22 @@ TOCTitle: LineSeparatorsEnum
 ms:assetid: 3b0c58a8-1617-f9b1-c0c8-928580b2dade
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)
 ms:contentKeyID: 48544277
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2f1f1ea4c9a3d7554c23a6d941d6ed2f07ae8175
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 897e4664addee75a69190fa3e10fc23fb5f714e7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482221"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860324"
 ---
 # <a name="lineseparatorsenum"></a>LineSeparatorsEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает символ, используемый в качестве разделителя строки в объектах [потока](stream-object-ado.md) текста.
+
+<br/>
 
 <table>
 <colgroup>
@@ -53,7 +54,7 @@ ms.locfileid: "25482221"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Эти константы нет ADO/WFC эквивалентами.
 

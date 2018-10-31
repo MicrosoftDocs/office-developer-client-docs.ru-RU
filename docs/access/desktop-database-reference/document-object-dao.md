@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60fe0519bc722e688630f13acdd6701b96beff05
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 35d9d80ba9299049eb55ee4ae83ac00d57c22293
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480900"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861960"
 ---
 # <a name="document-object-dao"></a>Document Object (DAO)
 
@@ -56,10 +56,8 @@ ms.locfileid: "25480900"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Не следует путать объекты <STRONG>контейнеров</STRONG> , перечисленных в предыдущей таблице с семействами с таким же именем. Баз данных <STRONG>контейнер</STRONG> объекта ссылается на все объекты сохраненного базы данных, но семейства <STRONG>баз данных</STRONG> относится только к объекты базы данных, которые открыты в конкретной рабочей области.</P>
+> Не следует путать объекты **контейнеров** , перечисленных в предыдущей таблице с семействами с таким же именем. Баз данных **контейнер** объекта ссылается на все объекты сохраненного базы данных, но семейства **баз данных** относится только к объекты базы данных, которые открыты в конкретной рабочей области.
 
 
 

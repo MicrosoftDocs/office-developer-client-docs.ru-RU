@@ -1,19 +1,19 @@
 ---
-title: Creating and Executing a Simple Command
+title: Создание и выполнение простой команды
 TOCTitle: Creating and Executing a Simple Command
 ms:assetid: 9ace1abe-cfae-0677-bc57-5cbda85b79db
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91355c8b24fcd6e797a6610524076b8850b16f57
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 88463cf79ace0007cac8e5ebd1694ee7a080f329
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479974"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860352"
 ---
-# <a name="creating-and-executing-a-simple-command"></a>Creating and Executing a Simple Command
+# <a name="creating-and-executing-a-simple-command"></a>Создание и выполнение простой команды
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -82,9 +82,7 @@ ErrHandler:
 
 
 > [!NOTE]
-> <P>Примеры в данном разделе вызовите вспомогательную функцию, GetNewConnection, чтобы установить соединение с данным поставщиком. Чтобы избежать избыточности, оно указано только один раз, здесь:</P>
-
-
+> Примеры в данном разделе вызовите вспомогательную функцию, **GetNewConnection**, чтобы установить соединение с данным поставщиком. Чтобы избежать избыточности, оно указано только один раз:
 
 ```vb 
  

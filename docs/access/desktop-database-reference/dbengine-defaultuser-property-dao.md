@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053071
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 15fc13b27b30c87bd3993b12303cc59b8a0115bf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3926caa69e6a4e67bf66f2fdecde1db5fd79e2f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480683"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863089"
 ---
 # <a name="dbenginedefaultuser-property-dao"></a>DBEngine.DefaultUser Property (DAO)
 
@@ -36,9 +36,7 @@ ms.locfileid: "25480683"
 
 
 > [!NOTE]
-> <P>Используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</P>
-
-
+> Используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.
 
 По умолчанию, свойство **DefaultUser** имеет значение «администратор» и **DefaultPassword** свойству в строку нулевой длины (»»).
 

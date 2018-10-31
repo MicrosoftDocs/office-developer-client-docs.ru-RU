@@ -1,26 +1,26 @@
 ---
-title: Using ADO with Scripting Languages
+title: Использование ADO со скриптовыми языками
 TOCTitle: Using ADO with Scripting Languages
 ms:assetid: 2e163ffb-22fe-36f5-9960-8f6bcb148183
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249074(v=office.15)
 ms:contentKeyID: 48543985
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 196366987e89f52a3c498a769fa501a3faca9dae
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4d357fe07a93548419fd03745541435d94d59a8c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604437"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861038"
 ---
-# <a name="using-ado-with-scripting-languages"></a>Using ADO with Scripting Languages
+# <a name="using-ado-with-scripting-languages"></a>Использование ADO со скриптовыми языками
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 <<<<<<< HEAD в среде сценариев, ADO позволяет предоставлять данные путем получения сценариев на стороне сервера. В этом сценарии ADO, соответствующий поставщик OLE DB, который использует и других компонентов, необходимых для ссылки хранилища данных установлены на сервере под управлением Internet Information Services (IIS). С помощью Active Server Pages (ASP), ADO — это компонент, указанный в скрипте, который можно создать HTML-код, например. В этом HTML-содержимое может быть передан по протоколу HTTP веб-браузере клиента. Посредством использования сценариев, веб-странице можно отправить действия обратно в скрипт на сервере, что позволяет обновить, проходят через или просмотра определенных данных.
 === В среде сценариев ADO позволяет предоставлять данные путем получения сценариев на стороне сервера. В этом сценарии ADO, соответствующий поставщик OLE DB, который использует и других компонентов, необходимых для ссылки хранилища данных установлены на сервере под управлением Internet Information Services (IIS). С помощью Active Server Pages (ASP), ADO — это компонент, указанный в скрипте, который можно создать HTML-код, например. В этом HTML-содержимое может быть передан по протоколу HTTP веб-браузере клиента. Посредством использования сценариев, веб-страницы можно отправить действия обратно в скрипт на сервере, что позволяет обновить, проходят через или просмотра определенных данных.
->>>>>>> master
+>>>>>>> образец
 
 ## <a name="odbc-data-sources"></a>Источники данных ODBC
 
@@ -36,7 +36,6 @@ ms.locfileid: "25604437"
 
 В следующих разделах содержится более подробные сведения об использовании ADO с языками сценариев:
 
-  - [ADO в VBScript](vbscript-ado-programming.md)
+- [Программирование для ADO на JScript](jscript-ado-programming.md)
 
-  - [ADO в JScript](jscript-ado-programming.md)
-
+- [Программирование для ADO на VBScript](vbscript-ado-programming.md)

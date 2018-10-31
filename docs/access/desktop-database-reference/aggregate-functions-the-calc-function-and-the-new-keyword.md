@@ -1,19 +1,19 @@
 ---
-title: Aggregate Functions, the CALC Function, and the NEW Keyword
+title: Агрегатные функции, функция CALC и ключевое слово NEW
 TOCTitle: Aggregate Functions, the CALC Function, and the NEW Keyword
 ms:assetid: c91fef19-bf41-8d04-f195-5470fb18393f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3616ab20e1d1f6a5d80c70f90a90ad13b3abc0fb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8250d2a21f0c4a4d5af64310fc14f96f56a46b54
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480653"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860016"
 ---
-# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Aggregate Functions, the CALC Function, and the NEW Keyword
+# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Агрегатные функции, функция CALC и ключевое слово NEW
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -63,7 +63,7 @@ ms.locfileid: "25480653"
 <td><p>Значение указанного столбца. Какие-либо имеет значение прогнозируемый только в том случае, если значение столбца является общим для всех строк в главе.</p>
 
 > [!NOTE]
-> <P>Если столбец не содержит такое же значение для всех строк в главе, команда ФИГУРЫ произвольно возвращает одно из значений в качестве значения любой функции.</P>
+> Если столбец не содержит такое же значение для всех строк в главе, команда ФИГУРЫ произвольно возвращает одно из значений в качестве значения любой функции.
 
 
 <p></p></td>

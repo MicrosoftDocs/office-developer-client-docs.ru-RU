@@ -1,5 +1,5 @@
 ---
-title: DeleteObject Macro Action
+title: Действия макроса DeleteObject
 TOCTitle: DeleteObject Macro Action
 ms:assetid: a8deb2a7-4e73-8696-b8c1-3a3939d813f7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821415(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85e9fc888e06a69be6f458ed03ad92b8253b30a2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f9ac791ffd0f11c11358298570db833f8d561d11
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481270"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860940"
 ---
-# <a name="deleteobject-macro-action"></a>DeleteObject Macro Action
+# <a name="deleteobject-macro-action"></a>Действия макроса DeleteObject
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -26,10 +26,8 @@ ms.locfileid: "25481270"
 
 
 > [!NOTE]
-> <P>
+> 
 		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-</P>
-
 
 
 ## <a name="setting"></a>Параметр
@@ -62,7 +60,7 @@ ms.locfileid: "25481270"
 
 
 > [!WARNING]
-> <P>Если оставить поля <STRONG>Тип объекта</STRONG> и <STRONG>Имя объекта</STRONG> , Access удаляет объект, выбранного в области навигации без вывода предупреждающего сообщения при обнаружении <STRONG>DeleteObject</STRONG> действие.</P>
+> Если оставить поля **Тип объекта** и **Имя объекта** , Access удаляет объект, выбранного в области навигации без вывода предупреждающего сообщения при обнаружении **DeleteObject** действие.
 
 
 

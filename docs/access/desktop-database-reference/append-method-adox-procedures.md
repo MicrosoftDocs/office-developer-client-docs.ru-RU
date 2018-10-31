@@ -1,19 +1,19 @@
 ---
-title: Append Method (ADOX Procedures)
+title: Добавьте метод (ADOX процедуры)
 TOCTitle: Append Method (ADOX Procedures)
 ms:assetid: a93b31bb-e41a-5152-abe7-dd7c2b2fcd0a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249783(v=office.15)
 ms:contentKeyID: 48546919
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c1afc7aeea90fc152df7d8f7b1601bf3753b3a3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 195cb08fb0b195b63cdddaa848554f24d028b498
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480124"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861878"
 ---
-# <a name="append-method-adox-procedures"></a>Append Method (ADOX Procedures)
+# <a name="append-method-adox-procedures"></a>Добавьте метод (ADOX процедуры)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -43,6 +43,6 @@ ms.locfileid: "25480124"
 
 
 > [!NOTE]
-> <P>При использовании поставщика OLE DB для Microsoft Jet, позволит метод <STRONG>Append</STRONG> коллекции <STRONG>процедуры</STRONG> можно использовать для определения <STRONG>представления</STRONG> , а не на <STRONG>процедуру</STRONG> с помощью параметра <EM>командной</EM> . <STRONG>Представление</STRONG> будет добавлен к источнику данных и добавляются в коллекцию <STRONG>процедур</STRONG> . После <STRONG>добавления</STRONG>при обновлении семейств сайтов <STRONG>процедуры</STRONG> и <STRONG>представления</STRONG> , <STRONG>представление</STRONG> больше не будет находиться в коллекции <STRONG>процедуры</STRONG> и будет отображаться в коллекции <STRONG>представлений</STRONG> .</P>
+> При использовании поставщика OLE DB для Microsoft Jet, позволит метод **Append** коллекции **процедуры** можно использовать для определения **представления** , а не на **процедуру** с помощью параметра *командной* . **Представление** будет добавлен к источнику данных и добавляются в коллекцию **процедур** . После **добавления**при обновлении семейств сайтов **процедуры** и **представления** , **представление** больше не будет находиться в коллекции **процедуры** и будет отображаться в коллекции **представлений** .
 
 

@@ -1,23 +1,23 @@
 ---
-title: INSERT INTO Statement (Microsoft Access SQL)
-TOCTitle: INSERT INTO Statement (Microsoft Access SQL)
+title: ВСТАВИТЬ в оператор (Microsoft Access SQL)
+TOCTitle: INSERT INTO statement (Microsoft Access SQL)
 ms:assetid: d3e44258-79f2-caba-8629-bde03f898f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834799(v=office.15)
 ms:contentKeyID: 48547918
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 751d2e2747a2d3b9aac4a0d36b8fac11a60c418f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ae2aaffc7361588a55cc17cc33169a9b8b840e1f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481786"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860464"
 ---
-# <a name="insert-into-statement-microsoft-access-sql"></a>INSERT INTO Statement (Microsoft Access SQL)
+# <a name="insert-into-statement-microsoft-access-sql"></a>ВСТАВИТЬ в оператор (Microsoft Access SQL)
 
 **Применимо к**: Access 2013 | Office 2013
 
@@ -25,11 +25,11 @@ ms.locfileid: "25481786"
 
 ## <a name="syntax"></a>Синтаксис
 
-Запрос на добавление нескольких записей
+**Запрос на добавление нескольких записей**:
 
 Вставка в *целевой* \[(*field1*\[, *поле2*\[,... \] \])\] \[В *внешняя_база_данных* \] ВЫБЕРИТЕ \[ *источника*. \] *field1*\[, *поле2*\[,... \] Из *выражение_таблиц*
 
-Запрос на добавление одной записи
+**Запрос на добавление одной записи**:
 
 Вставка в *целевой* \[(*field1*\[, *поле2*\[,... \] \])\] Значения (*значение1*\[, *значение2*\[,... \])
 
@@ -57,7 +57,7 @@ ms.locfileid: "25481786"
 </tr>
 <tr class="odd">
 <td><p><em>внешняя_база_данных</em></p></td>
-<td><p>Путь к внешней базе данных. Описание пути в разделе <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">в</a> предложение.</p></td>
+<td><p>Путь к внешней базе данных. Описание пути в разделе <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">в</a> предложение.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -101,9 +101,9 @@ ms.locfileid: "25481786"
 
 **Автор ссылки** [UtterAccess](https://www.utteraccess.com) сообщества. UtterAccess — это премьер форум вики-сайт и Справка по Microsoft Access.
 
-  - [Создание последовательных номеров для инструкций INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
+- [Создание последовательных номеров для инструкций INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 
-  - [SQL форматирования данных VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+- [SQL форматирования данных VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
 ## <a name="example"></a>Пример
 
@@ -128,6 +128,8 @@ ms.locfileid: "25481786"
      
     End Sub
 ```
+
+<br/>
 
 В этом примере создается новая запись в таблицу Employees.
 

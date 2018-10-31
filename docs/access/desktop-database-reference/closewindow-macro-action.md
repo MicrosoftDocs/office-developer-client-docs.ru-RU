@@ -1,5 +1,5 @@
 ---
-title: CloseWindow Macro Action
+title: Действия макроса CloseWindow
 TOCTitle: CloseWindow Macro Action
 ms:assetid: ba96bc26-7f3f-fd3d-8d3a-e18bfe90cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822510(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1d80ac5b545f07d3bd39f69f16c4578e49439cdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d5ddd1a4b99ec301772690b2815d961676c5a058
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479823"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861857"
 ---
-# <a name="closewindow-macro-action"></a>CloseWindow Macro Action
+# <a name="closewindow-macro-action"></a>Действия макроса CloseWindow
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -45,7 +45,7 @@ ms.locfileid: "25479823"
 <td><p>Тип объекта, вкладку документа, которую нужно закрыть. Выберите <strong>таблицы</strong>, <strong>запроса</strong>, <strong>формы</strong>, <strong>отчета</strong>, <strong>макрос</strong>, <strong>модуль</strong>, <strong>страницы доступа к данным</strong>, <strong>представление</strong>, <strong>Схема</strong>, <strong>хранимая процедура</strong>или <strong>функции</strong> в тип объекта <strong> </strong>флажок в разделе <strong>Действие аргументы</strong> области построения макросов. Выберите вкладку активный документ, оставьте данный аргумент пустым.</p>
 
 > [!NOTE]
-> <P>При закрытии модуля в редакторе Visual Basic, необходимо использовать <STRONG>модуль</STRONG> в аргументе <STRONG>Тип объекта</STRONG> .</P>
+> При закрытии модуля в редакторе Visual Basic, необходимо использовать **модуль** в аргументе **Тип объекта** .
 
 
 <p></p></td>

@@ -1,19 +1,19 @@
 ---
-title: What is a Lock? (Справочник по для настольных баз данных access)
+title: Что такое блокировка? (Справочник по для настольных баз данных access)
 TOCTitle: What is a Lock?
 ms:assetid: 9ddc3198-1531-1d8f-153d-fc79847e388a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
 ms:contentKeyID: 48546636
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f852901be41060568bdbad539906e9166d080fad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52d37d5b618db5e2de698fc4250afde7c4ca5fb5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481621"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862186"
 ---
-# <a name="what-is-a-lock"></a>What is a Lock?
+# <a name="what-is-a-lock"></a>Что такое блокировка?
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -31,4 +31,8 @@ ms.locfileid: "25481621"
 Параметр **adLockPessimistic** не поддерживается, если свойство [CursorLocation](cursorlocation-property-ado.md) имеет значение **adUseClient**. Если задано значение не поддерживается, сообщение об ошибке не приведет к; ближайший поддерживаемый **LockType для** будет использоваться.
 
 Свойство **LockType для** чтения и записи при выполняется **записей** закрытой и только для чтения при открытии.
+
+В этом разделе представлены ниже:
+
+- [Типы блокировок](types-of-locks.md)
 

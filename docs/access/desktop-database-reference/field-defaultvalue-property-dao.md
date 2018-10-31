@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b5e479739177fa869bb2e96329c47c5f5889b64
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d23e088ca93474ac928875730580a693abe9648c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479941"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862228"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue Property (DAO)
 
@@ -33,8 +33,7 @@ ms.locfileid: "25479941"
 
 
 > [!NOTE]
-> <P>Также можно настроить свойство <STRONG>DefaultValue</STRONG> объекта <STRONG>поля</STRONG> на объект <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> особое значение называется «(GenUniqueID)». В результате случайное число для назначения в этом поле каждый раз, когда добавляется или создать новую запись, тем самым обеспечивая каждой записи уникального идентификатора. <STRONG><A href="field-type-property-dao.md">Тип</A></STRONG> поля должен быть <STRONG>времени</STRONG>.</P>
-
+> Также можно настроить свойство **DefaultValue** объекта **поля** на объект [TableDef](tabledef-object-dao.md) особое значение называется «(GenUniqueID)». В результате случайное число для назначения в этом поле каждый раз, когда добавляется или создать новую запись, тем самым обеспечивая каждой записи уникального идентификатора. [Тип](field-type-property-dao.md) поля должен быть **времени**.
 
 
 Доступность **функции DefaultValue** зависит от объекта, который содержит коллекцию **полей** , как показано в следующей таблице.
@@ -52,7 +51,7 @@ ms.locfileid: "25479941"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект индекса</p></td>
+<td><p>Объект Index</p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
@@ -60,11 +59,11 @@ ms.locfileid: "25479941"
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p>Объект набора записей</p></td>
+<td><p>Объект Recordset</p></td>
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p>Отношения объектов</p></td>
+<td><p>Объект Relation</p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">

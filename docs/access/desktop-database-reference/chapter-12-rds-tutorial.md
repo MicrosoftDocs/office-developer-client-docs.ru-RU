@@ -1,19 +1,19 @@
 ---
-title: 'Chapter 12: RDS Tutorial'
+title: Глава 12. Руководство по RDS
 TOCTitle: 'Chapter 12: RDS Tutorial'
 ms:assetid: fa44a5e8-e4df-dfdd-d7a1-a870ec3cabdd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a482da49bb78a74cc68f589c928ffe13dd4a54ad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aec7c9a89ea078bfad9b05d664d373831491edc4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482637"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860226"
 ---
-# <a name="chapter-12-rds-tutorial"></a>Chapter 12: RDS Tutorial
+# <a name="chapter-12-rds-tutorial"></a>Глава 12. Руководство по RDS
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -34,7 +34,7 @@ ms.locfileid: "25482637"
 
 Модель программирования служб удаленных рабочих СТОЛОВ указанное ниже. Используйте его в качестве руководства, как во время выполнения учебника по.
 
-## <a name="rds-programming-model-with-objects"></a>RDS Programming Model with Objects
+## <a name="rds-programming-model-with-objects"></a>Модель программирования RDS с объектами
 
   - Укажите программу для вызова на сервере и получить способом (прокси-сервер), обратитесь к нему из клиента.
 
@@ -48,3 +48,20 @@ ms.locfileid: "25482637"
 
   - Изменения в объект **набора записей** отправляются на сервер и используется для обновления источника данных.
 
+Ниже перечислены действия, описанные в этом руководстве.
+
+- [Этап 1. Указание серверной программы (руководство по RDS)](step-1-specify-a-server-program-rds-tutorial.md)
+
+- [Этап 2. Вызов серверной программы (руководство по RDS)](step-2-invoke-the-server-program-rds-tutorial.md)
+
+- [Этап 3. Получение набора записей сервером (руководство по RDS)](step-3-server-obtains-a-recordset-rds-tutorial.md)
+
+- [Этап 4. Возврат набора записей сервером (руководство по RDS)](step-4-server-returns-the-recordset-rds-tutorial.md)
+
+- [Этап 5. Предоставление доступа к объекту DataControl (руководство по RDS)](step-5-datacontrol-is-made-usable-rds-tutorial.md)
+
+- [Этап 6. Отправка изменений на сервер (руководство по RDS)](step-6-changes-are-sent-to-the-server-rds-tutorial.md)
+
+- [Руководство по RDS (VBScript)](rds-tutorial-vbscript.md)
+
+- [Руководство по RDS (Visual J++)](rds-tutorial-visual-j.md)

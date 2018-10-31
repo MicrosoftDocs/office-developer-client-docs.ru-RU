@@ -1,19 +1,19 @@
 ---
-title: 'Chapter 14: ADO MD Fundamentals'
+title: Глава 14. Основные сведения об ADO MD
 TOCTitle: 'Chapter 14: ADO MD Fundamentals'
 ms:assetid: 129baa54-0bc1-985d-4bfd-25a1c1c3018e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d595136c229234dfa0cb04a44fbe45f58cd79fe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b8576d2a1d579de306b438f7b0fb04a1eb2d46cc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480680"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863652"
 ---
-# <a name="chapter-14-ado-md-fundamentals"></a>Chapter 14: ADO MD Fundamentals
+# <a name="chapter-14-ado-md-fundamentals"></a>Глава 14. Основные сведения об ADO MD
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -22,13 +22,14 @@ Microsoft ActiveX Data Objects (ADO MD) (многомерные) обеспеч�
 
 Как и ADO ADO MD использует поставщика OLE DB для получения доступа к данным. Для работы с ADO MD, поставщик должен быть многомерные данные поставщика (MDP), определенный спецификации OLE DB для OLAP. MDPs представления данных в отличие от поставщиков табличных данных (за) многомерные представлениях, представляющих данные в табличных представлений. Обратитесь к документации для поставщика OLE DB для OLAP более подробные сведения о конкретных синтаксис и поведение поддерживается поставщиком.
 
-В этом документе предполагается знание языка программирования Visual Basic и общие знания ADO и OLAP. Для получения дополнительных сведений см. [Руководство программиста ADO](ado-programmer-s-guide.md) и OLE DB для OLAP программиста ссылку. Для получения дополнительных сведений о ADO MD в следующих разделах:
+В этом документе предполагается знание языка программирования Visual Basic и общие знания ADO и OLAP. Для получения дополнительных сведений см. [Руководство программиста ADO](ado-programmer-s-guide.md) и OLE DB для OLAP программиста ссылку. 
 
-  - [Overview of Multidimensional Schemas and Data](overview-of-multidimensional-schemas-and-data.md)
+В этой главе рассматриваются следующие темы:
 
-  - [Working with Multidimensional Data](working-with-multidimensional-data.md)
+- [Общие сведения о многомерных схемах и данных](overview-of-multidimensional-schemas-and-data.md)
 
-  - [Using ADO with ADO MD](using-ado-with-ado-md.md)
+- [Работа с многомерными данными](working-with-multidimensional-data.md)
 
-  - [Programming with ADO MD](programming-with-ado-md.md)
+- [Использование ADO с ADO MD](using-ado-with-ado-md.md)
 
+- [Программирование с помощью ADO MD](programming-with-ado-md.md)

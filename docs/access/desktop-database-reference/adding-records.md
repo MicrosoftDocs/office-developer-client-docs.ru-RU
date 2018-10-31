@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
 ms:contentKeyID: 48545791
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfa1503e7f7b874136ab5aee70721a3b9cf3463b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f235d7535f15eea7bd5d4c2abb88abb1a30935c7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482721"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862513"
 ---
-# <a name="adding-records"></a>Adding Records
+# <a name="adding-records"></a>Добавление записей
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -23,4 +23,12 @@ ms.locfileid: "25482721"
 После вызова метода **AddNew** новую запись становится текущей и остается в текущем после вызова метода **Update** . Если объект **набора записей** не поддерживает закладки, не можно получить доступ к новой записи после перемещения к другой записи. Таким образом в зависимости от типа вашей текущей позиции, может понадобиться для вызова метода **повторный запрос** для предоставления специальных возможностей новую запись.
 
 При вызове **AddNew** во время редактирования текущей записи или при добавлении новой записи, ADO вызывает метод **Update** , чтобы сохранить все изменения и затем создает новую запись.
+
+В этом разделе содержатся следующие разделы:
+
+- [Добавление нескольких полей](adding-multiple-fields.md)
+
+- [Определение режима правки](determining-edit-mode.md)
+
+- [Использование метода AddNew в режиме интерпретации и пакетном режиме](using-addnew-in-immediate-and-batch-modes.md)
 

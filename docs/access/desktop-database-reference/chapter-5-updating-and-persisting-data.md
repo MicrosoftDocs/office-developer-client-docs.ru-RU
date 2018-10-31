@@ -1,19 +1,19 @@
 ---
-title: 'Chapter 5: Updating and Persisting Data'
+title: Глава 5. Обновление и сохранение данных
 TOCTitle: 'Chapter 5: Updating and Persisting Data'
 ms:assetid: 77acb763-1c60-1945-791d-3e83d684fb0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91c747c970988a9ca853f0be66f5c0b485f5c3f6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 487fd11112375fb0f5788505d049a4fc71e245ba
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480063"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861976"
 ---
-# <a name="chapter-5-updating-and-persisting-data"></a>Chapter 5: Updating and Persisting Data
+# <a name="chapter-5-updating-and-persisting-data"></a>Глава 5. Обновление и сохранение данных
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -28,3 +28,8 @@ ms.locfileid: "25480063"
 
 В режиме интерпретации каждого вызова метода **Update** распространяет изменения к источнику данных. В пакетном режиме каждого вызова **обновления** или перемещения из текущей позиции строки сохраняет изменения в буфер копирования, но только метод **UpdateBatch** распространяет изменения к источнику данных.
 
+В этой главе рассматриваются следующие темы:
+
+- [Updating Data (ADO)](updating-data.md)
+
+- [Persisting Data (ADO)](persisting-data.md)

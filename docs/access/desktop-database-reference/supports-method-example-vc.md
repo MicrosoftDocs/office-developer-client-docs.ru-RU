@@ -1,19 +1,19 @@
 ---
-title: Supports Method Example (VC++)
-TOCTitle: Supports Method Example (VC++)
+title: Пример использования метода Supports (VC++)
+TOCTitle: Supports method example (VC++)
 ms:assetid: a258cf70-ecd4-20eb-efb2-21c1ca79f180
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249747(v=office.15)
 ms:contentKeyID: 48546756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa05faed443cbca3cadf746b9abb140fdf0f2c16
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ff519bbd41e9353f558cc2155a4641a82091ac41
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479773"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861899"
 ---
-# <a name="supports-method-example-vc"></a>Supports Method Example (VC++)
+# <a name="supports-method-example-vc"></a>Пример использования метода Supports (VC++)
 
 
 **Применимо к**: Access 2013 | Office 2013

@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
 ms:contentKeyID: 48542970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2f507cb7d8939a4d4da65b570ae8e2db53cc8c7c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6b7255fb97798a8c074dc650cc4c61e17c22dd9
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480682"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863803"
 ---
-# <a name="updating-data"></a>Updating Data
+# <a name="updating-data"></a>Обновление данных
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -25,4 +25,12 @@ ms.locfileid: "25480682"
 Если объект **набора записей** поддерживает пакетного обновления, можно кэшировать внесение нескольких изменений в одну или несколько записей локально до вызова метода **UpdateBatch** . При изменении текущей записи или добавления новой записи при вызове метода **UpdateBatch** , ADO автоматически будет вызвать метод **Update** для сохранения всех ожидающих изменений в текущей записи перед передачей пакетные изменения Поставщик.
 
 Текущая запись остается текущей после вызова метода **Update** или **UpdateBatch** .
+
+В этом разделе содержатся следующие разделы:
+
+- [Режим интерпретации](immediate-mode.md)
+
+- [Обработка транзакций](transaction-processing.md)
+
+- [Batch Mode (ADO)](batch-mode.md)
 

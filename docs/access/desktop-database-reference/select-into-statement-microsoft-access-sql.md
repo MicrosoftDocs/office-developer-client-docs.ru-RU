@@ -1,20 +1,19 @@
 ---
-title: SELECT.INTO Statement (Microsoft Access SQL)
-TOCTitle: SELECT.INTO Statement (Microsoft Access SQL)
+title: ВЫБЕРИТЕ. В оператор (Microsoft Access SQL)
+TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4122421642b9746b5832984bf784faf65c603fda
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1c05679994cfd98fdc5d6ffb389df00c2f5c9b94
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480338"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861997"
 ---
-# <a name="selectinto-statement-microsoft-access-sql"></a>SELECT.INTO Statement (Microsoft Access SQL)
-
+# <a name="selectinto-statement-microsoft-access-sql"></a>ВЫБЕРИТЕ. В оператор (Microsoft Access SQL)
 
 **Применимо к**: Access 2013 | Office 2013
 
@@ -48,7 +47,7 @@ ms.locfileid: "25480338"
 </tr>
 <tr class="odd">
 <td><p><em>внешняя_база_данных</em></p></td>
-<td><p>Путь к внешней базе данных. Описание пути в разделе <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">в</a> предложение.</p></td>
+<td><p>Путь к внешней базе данных. Описание пути в разделе <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">в</a> предложение.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -62,15 +61,10 @@ ms.locfileid: "25480338"
 
 Запросы на создание таблиц можно использовать для архивации записей, создания резервных копий таблиц или создания копий для экспорта в другую базу данных или для использования в качестве основы для отчетов, отображающих данные за определенный период времени. Например можно создать ежемесячные продажи региона отчета с помощью одного запроса создание таблицы каждый месяц.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Можно определить первичный ключ для новой таблицы. При создании таблицы поля в новую таблицу наследование типа данных и поля размера каждое поле в таблицах запроса, но не другие поля или свойства таблицы данных.</P>
-> <LI>
-> <P>Добавление данных в существующую таблицу, используйте оператор <A href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</A> для создания запроса на добавление.</P>
-> <LI>
-> <P>Чтобы узнать, какие записи будет установлен и перед запуском создание таблицы, сначала проверьте результаты <A href="select-statement-microsoft-access-sql.md">ВЫБЕРИТЕ</A> оператор, который использует же критерии выбора.</P></LI></UL>
+> - Можно определить первичный ключ для новой таблицы. При создании таблицы поля в новую таблицу наследование типа данных и поля размера каждое поле в таблицах запроса, но не другие поля или свойства таблицы данных.
+> - Добавление данных в существующую таблицу, используйте оператор [INSERT INTO](insert-into-statement-microsoft-access-sql.md) для создания запроса на добавление.
+> - Чтобы узнать, какие записи будет установлен и перед запуском создание таблицы, сначала проверьте результаты [ВЫБЕРИТЕ](select-statement-microsoft-access-sql.md) оператор, который использует же критерии выбора.
 
 
 

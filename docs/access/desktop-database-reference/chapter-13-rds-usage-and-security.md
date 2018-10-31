@@ -1,19 +1,19 @@
 ---
-title: 'Chapter 13: RDS Usage and Security'
+title: Глава 13. Безопасность и использование RDS
 TOCTitle: 'Chapter 13: RDS Usage and Security'
 ms:assetid: 78add8bb-f01a-2efb-33f0-430deebefe8f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249495(v=office.15)
 ms:contentKeyID: 48545756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 82eb5120c842f5fc587b9737fb34e1962a7120b1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 439225d1307e37ea367f0ac5121fdd138f54e2ec
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482705"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860319"
 ---
-# <a name="chapter-13-rds-usage-and-security"></a>Chapter 13: RDS Usage and Security
+# <a name="chapter-13-rds-usage-and-security"></a>Глава 13. Безопасность и использование RDS
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -22,11 +22,29 @@ ms.locfileid: "25482705"
 
 В этом разделе содержатся следующие сведения:
 
-  - [Configuring RDS](configuring-rds.md)
+- [Настройка RDS](configuring-rds.md)
 
-  - [Using Related Technologies with RDS](using-related-technologies-with-rds.md)
+- [Предоставление гостевой привилегии на компьютере веб-сервера; Служб удаленных рабочих СТОЛОВ Гость привилегии \[ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 
-  - [DataFactory Customization](datafactory-customization.md)
+- [Пометка бизнес-объектов как безопасных для написания скриптов](marking-business-objects-as-safe-for-scripting.md)
 
-  - [Troubleshooting RDS](troubleshooting-rds.md)
+- [Регистрация бизнес-объектов в клиенте для использования с DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
+
+- [Настройка формата маршалинга потоков DCOM](setting-dcom-stream-marshaling-format.md)
+
+- [Подготовка библиотеки DLL к работе в DCOM](enabling-a-dll-to-run-on-dcom.md)
+
+- [Настройка виртуальных серверов в службах IIS](configuring-virtual-servers-on-iis.md)
+
+- [Указание числа потоков на процессор в службах IIS](specifying-threads-per-processor-on-iis.md)
+
+- [Защита приложений RDS](securing-rds-applications.md)
+
+- [Настройка DataFactory для безопасного и нестрогого режимов](configuring-datafactory-for-safe-or-unrestricted-modes.md)
+
+- [Using Related Technologies with RDS (ADO)](using-related-technologies-with-rds.md)
+
+- [DataFactory Customization (ADO)](datafactory-customization.md)
+
+- [Troubleshooting RDS (ADO)](troubleshooting-rds.md)
 

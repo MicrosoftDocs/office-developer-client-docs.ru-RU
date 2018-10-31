@@ -1,19 +1,19 @@
 ---
-title: ADO Code Examples in Microsoft Visual C++
-TOCTitle: ADO Code Examples in Microsoft Visual C++
+title: Примеры кода ADO в Microsoft Visual C++
+TOCTitle: ADO code examples in Microsoft Visual C++
 ms:assetid: 4542fed7-4d5e-83f9-84dc-7f7991f969dc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d56ba87c9b510bb0d2e81463453e72e4dd44639
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 241a70b73f87dcb2b67d0a6d0d364dc8507892cc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604857"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861563"
 ---
-# <a name="ado-code-examples-in-microsoft-visual-c"></a>ADO Code Examples in Microsoft Visual C++
+# <a name="ado-code-examples-in-microsoft-visual-c"></a>Примеры кода ADO в Microsoft Visual C++
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -70,7 +70,7 @@ ms.locfileid: "25604857"
   - [Поиск метода и пример свойства Index](seek-method-and-index-property-example-vc.md)
 =======
   - [Поиск метода и индекса пример свойства](seek-method-and-index-property-example-vc.md)
->>>>>>> master
+>>>>>>> образец
 
   - [Пример метода поддерживает](supports-method-example-vc.md)
 
@@ -208,7 +208,7 @@ ms.locfileid: "25604857"
   - [Пример свойства Value](value-property-example-vc.md)
 
   - [Пример свойства версии](version-property-example-vc.md)
->>>>>>> master
+>>>>>>> образец
 
 **Other**
 

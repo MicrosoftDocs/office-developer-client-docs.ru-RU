@@ -4,10 +4,10 @@
 ---
 
 <<<<<<< HEAD
-# <a name="cursortype-property-ado"></a>CursorType Property (ADO)
+# <a name="cursortype-property-ado"></a>Свойство CursorType (ADO)
 =======
 # <a name="cursortype-property-ado"></a>Свойство CursorType (ADO)
->>>>>>> master
+>>>>>>> образец
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -18,7 +18,7 @@
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 =======
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
+>>>>>>> образец
 
 Задает или возвращает значение [CursorTypeEnum](cursortypeenum.md) . Значение по умолчанию — **adOpenForwardOnly**.
 
@@ -64,11 +64,8 @@
 </table>
 
 
-
 > [!NOTE]
-> <P>Несмотря на то, что <STRONG>поддерживает</STRONG>(<STRONG>adUpdateBatch</STRONG>) может иметь значение true для динамического и однонаправленные курсоры, для пакетного обновления следует использовать статический курсор или набора ключей. Присвойте свойству <A href="locktype-property-ado.md">LockType для</A> <STRONG>adLockBatchOptimistic</STRONG> и <STRONG>CursorLocation</STRONG> свойства <STRONG>adUseClient</STRONG> , чтобы включить службу курсора для OLE DB, который необходим для пакетного обновления.</P>
-
-
+> Несмотря на то, что **поддерживает**(**adUpdateBatch**) может иметь значение true для динамического и однонаправленные курсоры, для пакетного обновления следует использовать статический курсор или набора ключей. Присвойте свойству [LockType для](locktype-property-ado.md) **adLockBatchOptimistic** и **CursorLocation** свойства **adUseClient** , чтобы включить службу курсора для OLE DB, который необходим для пакетного обновления.
 
 Свойство **CursorType** при чтение и запись **набора записей** закрытой и только для чтения, при открытии.
 

@@ -1,19 +1,19 @@
 ---
-title: Append Method (ADO)
+title: Добавьте метод (ADO)
 TOCTitle: Append Method (ADO)
 ms:assetid: cca133af-2b95-877d-0488-0d99631623f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)
 ms:contentKeyID: 48547742
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b47b7b0514b78a89425e47962c36b092e35677ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 03d3b7ac215c8b5328148b33e2e966c4e574c98e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481974"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864011"
 ---
-# <a name="append-method-ado"></a>Append Method (ADO)
+# <a name="append-method-ado"></a>Добавьте метод (ADO)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -78,8 +78,7 @@ ms.locfileid: "25481974"
 
 
 > [!NOTE]
-> <P>Для нового <STRONG>поля</STRONG> объектов, к коллекции <STRONG>полей</STRONG> объекта <STRONG>записи</STRONG> свойство <A href="value-property-ado.md">Value</A> необходимо установить перед можно указать любые другие свойства <STRONG>поля</STRONG> . Во-первых определенного значения для свойства <STRONG>Value</STRONG> должна быть назначена и вызове <A href="update-method-ado.md">Update</A> в коллекции <STRONG>полей</STRONG> . Затем осуществляется другие свойства, такие как <A href="type-property-ado.md">Тип</A> или <A href="attributes-property-ado.md">атрибуты</A> .</P>
-
+> Для нового **поля** объектов, к коллекции **полей** объекта **записи** свойство [Value](value-property-ado.md) необходимо установить перед можно указать любые другие свойства **поля** . Во-первых определенного значения для свойства **Value** должна быть назначена и вызове [Update](update-method-ado.md) в коллекции **полей** . Затем осуществляется другие свойства, такие как [Тип](type-property-ado.md) или [атрибуты](attributes-property-ado.md) .
 
 
 Объекты **поля** из следующих типов данных (**DataTypeEnum**) не может быть добавлен к коллекции **полей** и приведет к возникновению ошибки: **adArray**, **adChapter**, **adEmpty**, **adPropVariant**и ** adUserDefined**. Кроме того, следующие типы данных не поддерживаются ADO: **adIDispatch**, **adIUnknown**и **adIVariant**. Для этих типов то ошибки не возникает при добавлении, но использование может привести к непредсказуемым последствиям, включая утечки памяти.

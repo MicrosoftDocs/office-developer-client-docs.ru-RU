@@ -4,21 +4,22 @@ TOCTitle: EventStatusEnum
 ms:assetid: ae1711bc-2af5-04fd-7d8c-222d8afc9d3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249821(v=office.15)
 ms:contentKeyID: 48547059
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f49f584603c25997e1b01b94f23aaf9f5429a9e4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e8408e2c73a60ae543bc9982de2f2547f54d1d2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479751"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861535"
 ---
 # <a name="eventstatusenum"></a>EventStatusEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает текущее состояние выполнения события.
+
+<br/>
 
 <table>
 <colgroup>
@@ -63,7 +64,7 @@ ms.locfileid: "25479751"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 

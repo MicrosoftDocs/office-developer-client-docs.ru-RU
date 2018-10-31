@@ -4,21 +4,22 @@ TOCTitle: ObjectStateEnum
 ms:assetid: 129d589a-2955-3da9-e60a-7fbfdd6bfbdc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
 ms:contentKeyID: 48543347
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4a08713e5363cb023021e2dd5acb6b38431a6b5e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e15faf0b31965a0a8a71440f424729b13b117b05
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483103"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861458"
 ---
 # <a name="objectstateenum"></a>ObjectStateEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает, является ли объект открытой или закрытой, подключение к источнику данных, выполнение команды или получения данных.
+
+<br/>
 
 <table>
 <colgroup>
@@ -63,7 +64,7 @@ ms.locfileid: "25483103"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 

@@ -1,19 +1,19 @@
 ---
-title: UpdateBatch and CancelBatch Methods Example (VB)
-TOCTitle: UpdateBatch and CancelBatch Methods Example (VB)
+title: Пример использования методов UpdateBatch и CancelBatch (VB)
+TOCTitle: UpdateBatch and CancelBatch methods example (VB)
 ms:assetid: 7efb80a1-3ec8-0747-5562-6a6c372b949b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249536(v=office.15)
 ms:contentKeyID: 48545893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 94eedbb5c1ccc1509c97345db723fe33d74a2dc1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a5f8994f6ab85263aa713325a5b3111341038b9c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482727"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861794"
 ---
-# <a name="updatebatch-and-cancelbatch-methods-example-vb"></a>UpdateBatch and CancelBatch Methods Example (VB)
+# <a name="updatebatch-and-cancelbatch-methods-example-vb"></a>Пример использования методов UpdateBatch и CancelBatch (VB)
 
 
 **Применимо к**: Access 2013 | Office 2013

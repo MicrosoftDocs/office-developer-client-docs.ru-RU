@@ -1,28 +1,27 @@
 ---
-title: ADO Code Examples in Microsoft Visual Basic
-TOCTitle: ADO Code Examples in Microsoft Visual Basic
+title: Примеры кода ADO в Microsoft Visual Basic
+TOCTitle: ADO code examples in Microsoft Visual Basic
 ms:assetid: 5eb855d4-e5e1-2626-3a21-891d195fb193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17414560b3aafb51285de0fa6f2beb6d2f0b7b85
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: a1ceec153a1717485bac87cbf5fdb764f546cab7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604612"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862116"
 ---
-# <a name="ado-code-examples-in-microsoft-visual-basic"></a>ADO Code Examples in Microsoft Visual Basic
+# <a name="ado-code-examples-in-microsoft-visual-basic"></a>Примеры кода ADO в Microsoft Visual Basic
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 Чтобы узнать, как использовать методы, свойства и события при записи в Visual Basic ADO используйте в следующих примерах кода.
 
-
 > [!NOTE]
-> <P>В примере весь код из Sub для End Sub, вставьте в редакторе кода. Пример может работать неправильно, если частичное примеры используются или абзаца форматирование теряется.</P>
+> Вставьте полный пример кода, от начала до конца в редакторе кода. Пример может работать неправильно, если частичное примеры используются или абзаца форматирование теряется.
 
 
 
@@ -64,7 +63,7 @@ ms.locfileid: "25604612"
   - [Метод SkipLine, EOS и пример свойств LineSeparator](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
 =======
   - [Метод SkipLine, EOS и LineSeparator пример свойств](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
->>>>>>> master
+>>>>>>> образец
 
   - [Пример метода Move](move-method-example-vb.md)
 
@@ -88,7 +87,7 @@ ms.locfileid: "25604612"
   - [Поиск метода и пример свойства Index](seek-method-and-index-property-example-vb.md)
 =======
   - [Поиск метода и индекса пример свойства](seek-method-and-index-property-example-vb.md)
->>>>>>> master
+>>>>>>> образец
 
   - [Пример метода поддерживает](supports-method-example-vb.md)
 
@@ -226,5 +225,5 @@ ms.locfileid: "25604612"
   - [Пример свойства Value](value-property-example-vb.md)
 
   - [Пример свойства версии](version-property-example-vb.md)
->>>>>>> master
+>>>>>>> образец
 

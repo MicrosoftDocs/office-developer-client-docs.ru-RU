@@ -1,5 +1,5 @@
 ---
-title: TransferSQLDatabase Macro Action
+title: Действия макроса TransferSQLDatabase
 TOCTitle: TransferSQLDatabase Macro Action
 ms:assetid: 8cb95e22-f1f0-6c70-7dcb-3a3e9aafdc57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197344(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 301fce8bcdeff45135c305054da72f4c75f503eb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8066c7e8ae827d7ae5a521682f2100bc11c9a6f8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480369"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862893"
 ---
-# <a name="transfersqldatabase-macro-action"></a>TransferSQLDatabase Macro Action
+# <a name="transfersqldatabase-macro-action"></a>Действия макроса TransferSQLDatabase
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -26,9 +26,9 @@ ms.locfileid: "25480369"
 
 
 > [!NOTE]
-> <P>
+> 
 		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-</P>
+
 
 
 

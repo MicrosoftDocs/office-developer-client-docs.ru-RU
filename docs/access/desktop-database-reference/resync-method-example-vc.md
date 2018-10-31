@@ -1,19 +1,19 @@
 ---
-title: Resync Method Example (VC++)
-TOCTitle: Resync Method Example (VC++)
+title: Пример использования метода Resync (VC++)
+TOCTitle: Resync method example (VC++)
 ms:assetid: 4a3af21e-b605-bdad-dfeb-fe89c44c6e45
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249229(v=office.15)
 ms:contentKeyID: 48544665
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34ee8aae0578aa6ad4ad801b620d6ee2d6ddd47a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 021b7d92c97a343e74068c41cae29acbb059855b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479986"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862511"
 ---
-# <a name="resync-method-example-vc"></a>Resync Method Example (VC++)
+# <a name="resync-method-example-vc"></a>Пример использования метода Resync (VC++)
 
 
 **Применимо к**: Access 2013 | Office 2013

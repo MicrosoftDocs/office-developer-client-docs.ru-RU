@@ -1,19 +1,19 @@
 ---
-title: BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)
+title: BeginTrans CommitTrans и методы RollbackTrans (ADO)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)
 ms:assetid: 9a0415f0-9424-8d1c-4779-92e932292d46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3de31156f9c06d3a14e7dbef2748543a3e6c4fd
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 719c495e18fb769a2d3f994542ab8d9e93a469f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605760"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860380"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)
+# <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans CommitTrans и методы RollbackTrans (ADO)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -41,7 +41,7 @@ ms.locfileid: "25605760"
 ## <a name="return-value"></a>Возвращаемое значение
 =======
 ## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
+>>>>>>> образец
 
 **BeginTrans** можно вызывать как функцию, которая возвращает **длинный** переменной, указывающее уровень вложенности транзакции.
 
@@ -57,9 +57,7 @@ ms.locfileid: "25605760"
 
 
 > [!NOTE]
-> <P>Не все поставщики поддерживают транзакции. Убедитесь, что поставщик, определенный «<STRONG>DDL транзакций</STRONG>» отображается в коллекции <A href="properties-collection-ado.md">свойств</A> объекта <STRONG>подключения</STRONG> , указывающего на то, что поставщик поддерживает транзакции. Если поставщик поддерживает транзакции, вызвав один из этих методов возвращает ошибку.</P>
-
-
+> Не все поставщики поддерживают транзакции. Убедитесь, что поставщик, определенный «**DDL транзакций**» отображается в коллекции [свойств](properties-collection-ado.md) объекта **подключения** , указывающего на то, что поставщик поддерживает транзакции. Если поставщик поддерживает транзакции, вызвав один из этих методов возвращает ошибку.
 
 После вызова метода **BeginTrans** поставщик фиксируется больше не мгновенно изменения, внесенные, пока не будет вызван **CommitTrans** или **RollbackTrans** для завершения операции.
 

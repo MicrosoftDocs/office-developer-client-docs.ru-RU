@@ -4,21 +4,22 @@ TOCTitle: RecordTypeEnum
 ms:assetid: 7edd6508-1507-4649-f1aa-03f1873ef09c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249534(v=office.15)
 ms:contentKeyID: 48545890
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4eedd04b630e0cc1cf855eefe09bd071dfbbbb50
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8a18f78d643ad83b3be8a2bd40ca41f640368067
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482376"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863082"
 ---
 # <a name="recordtypeenum"></a>RecordTypeEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает тип объекта [записи](record-object-ado.md) .
+
+<br/>
 
 <table>
 <colgroup>
@@ -58,7 +59,7 @@ ms.locfileid: "25482376"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Эти константы нет ADO/WFC эквивалентами.
 

@@ -1,19 +1,19 @@
 ---
-title: 'Chapter 2: Getting Data'
+title: Глава 2. Получение данных
 TOCTitle: 'Chapter 2: Getting Data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d3df907e1dbe220caab58541b7c3eba605ef2f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 601d18373f5bcd0a9ed6777fa50c2a3ed631594a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481746"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860891"
 ---
-# <a name="chapter-2-getting-data"></a>Chapter 2: Getting Data
+# <a name="chapter-2-getting-data"></a>Глава 2. Получение данных
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -34,3 +34,12 @@ ms.locfileid: "25481746"
 
   - Представлены сведения о разработке источника данных в виде строк схемы. Дополнительные сведения о наборах строк схемы [OpenSchema](openschema-method-ado.md)см.
 
+В этой главе рассматриваются следующие темы:
+
+  - [Создание подключения](making-a-connection.md)
+
+  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
+
+  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
+
+  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)

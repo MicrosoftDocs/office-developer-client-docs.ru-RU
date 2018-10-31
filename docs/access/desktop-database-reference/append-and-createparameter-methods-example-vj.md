@@ -1,19 +1,19 @@
 ---
-title: Append and CreateParameter Methods Example (VJ++)
-TOCTitle: Append and CreateParameter Methods Example (VJ++)
+title: Пример использования методов Append и CreateParameter (VJ++)
+TOCTitle: Append and CreateParameter methods example (VJ++)
 ms:assetid: efd5da94-4fcb-1c05-a3ef-e73a84c91ca8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250220(v=office.15)
 ms:contentKeyID: 48548594
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84876b697047aa0518587928eb98ad6f99ea39e0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 42108258e35ecd231d97b57186c15e581cd9e06c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479789"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863768"
 ---
-# <a name="append-and-createparameter-methods-example-vj"></a>Append and CreateParameter Methods Example (VJ++)
+# <a name="append-and-createparameter-methods-example-vj"></a>Пример использования методов Append и CreateParameter (VJ++)
 
 
 **Применимо к**: Access 2013 | Office 2013

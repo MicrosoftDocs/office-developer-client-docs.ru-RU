@@ -1,34 +1,34 @@
 ---
-title: Troubleshooting RDS
+title: Устранение неполадок RDS
 TOCTitle: Troubleshooting RDS
 ms:assetid: c0e3243a-2e9d-33c1-b83f-c70a0836a9aa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d95af128b9b0d44c69399fd8b15180b70207c6bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1767f3569cb9b58936e01bcd8b0350f374899f2d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481506"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862283"
 ---
-# <a name="troubleshooting-rds"></a>Troubleshooting RDS
+# <a name="troubleshooting-rds"></a>Устранение неполадок RDS
 
 
 **Применимо к**: Access 2013 | Office 2013
 
-В этом разделе для решения конкретных ошибки или проблемы, связанные с RDS. Вопросы, описанные в этом разделе являются:
+Обратитесь в этом разделе для решения конкретных ошибки или проблемы с помощью служб удаленных рабочих СТОЛОВ:
 
-  - [Configuring RDS on Windows 2000](configuring-rds-on-windows-2000.md)
+- [Настройка RDS в Windows 2000](configuring-rds-on-windows-2000.md)
 
-  - [«Ошибка сервера Интернета: доступ запрещен»](internet-server-error-access-denied.md)
+- [Ошибка интернет-сервера: "Отказано в доступе"](internet-server-error-access-denied.md)
 
-  - [RDS Returns "Stream Not Read" Error](rds-returns-stream-not-read-error.md)
+- [RDS возвращает ошибку "Поток не прочитан"](rds-returns-stream-not-read-error.md)
 
-  - [Deadlocks With Read Repeatable Isolation Level](deadlocks-with-read-repeatable-isolation-level.md)
+- [Взаимоблокировок с уровнем изоляции повторяющегося чтения](deadlocks-with-read-repeatable-isolation-level.md)
 
-  - [Ensuring Sufficient TempDB Space](ensuring-sufficient-tempdb-space.md)
+- [Обеспечение наличия достаточного места в TempDB](ensuring-sufficient-tempdb-space.md)
 
-  - [Minimizing Log File Space Usage](minimizing-log-file-space-usage.md)
+- [Сведение к минимуму использования места в файле журнала](minimizing-log-file-space-usage.md)
 

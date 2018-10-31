@@ -4,21 +4,22 @@ TOCTitle: DataTypeEnum
 ms:assetid: a8ab7616-552f-ed5f-ed55-95254cfb374a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
 ms:contentKeyID: 48546904
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e8b70ad0067083373679286bdb452cb667d3de0e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f5c192589f2c90b2ce7b6c7b376b80c92b341e2d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482453"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860660"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает тип данных [параметра](parameter-object-ado.md), [поля](field-object-ado.md)или [Свойства](property-object-ado.md). В скобки в столбце Описание в следующей таблице показан соответствующий индикатор типа OLE DB. Дополнительные сведения о типах данных OLE DB видеть главе 13 и приложение A *Справочник программиста OLE DB*.
+
+<br/>
 
 <table>
 <colgroup>
@@ -128,13 +129,8 @@ ms.locfileid: "25482453"
 <tr class="odd">
 <td><p><strong>adIDispatch</strong></p></td>
 <td><p>9</p></td>
-<td><p>Обозначает указатель на интерфейс <strong>IDispatch</strong> на COM-объект (DBTYPE_IDISPATCH).</p>
-
-> [!NOTE]
-> <P>Этот тип данных в настоящее время не поддерживается ADO. Применение может привести к непредсказуемым последствиям.</P>
-
-
-<p></p></td>
+<td><p>Обозначает указатель на интерфейс <strong>IDispatch</strong> на COM-объект (DBTYPE_IDISPATCH).</p><p><strong>Примечание</strong>: этот тип данных в настоящее время не поддерживается ADO. Применение может привести к непредсказуемым последствиям.</p>
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>adInteger</strong></p></td>
@@ -144,13 +140,8 @@ ms.locfileid: "25482453"
 <tr class="odd">
 <td><p><strong>adIUnknown</strong></p></td>
 <td><p>13</p></td>
-<td><p>Указывает указатель на интерфейс <strong>IUnknown</strong> COM-объект (DBTYPE_IUNKNOWN).</p>
-
-> [!NOTE]
-> <P>Этот тип данных в настоящее время не поддерживается ADO. Применение может привести к непредсказуемым последствиям.</P>
-
-
-<p></p></td>
+<td><p>Указывает указатель на интерфейс <strong>IUnknown</strong> COM-объект (DBTYPE_IUNKNOWN).</p><p><strong>Примечание</strong>: этот тип данных в настоящее время не поддерживается ADO. Применение может привести к непредсказуемым последствиям.
+</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLongVarBinary</strong></p></td>
@@ -230,13 +221,7 @@ ms.locfileid: "25482453"
 <tr class="odd">
 <td><p><strong>adVariant</strong></p></td>
 <td><p>12</p></td>
-<td><p>Указывает, автоматизации <strong>Variant</strong> (DBTYPE_VARIANT).</p>
-
-> [!NOTE]
-> <P>Этот тип данных в настоящее время не поддерживается ADO. Применение может привести к непредсказуемым последствиям.</P>
-
-
-<p></p></td>
+<td><p>Указывает, автоматизации <strong>Variant</strong> (DBTYPE_VARIANT).</p><p><strong>Примечание</strong>: этот тип данных в настоящее время не поддерживается ADO. Применение может привести к непредсказуемым последствиям.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adVarNumeric</strong></p></td>
@@ -257,7 +242,7 @@ ms.locfileid: "25482453"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 

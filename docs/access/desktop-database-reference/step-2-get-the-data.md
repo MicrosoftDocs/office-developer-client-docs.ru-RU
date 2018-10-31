@@ -1,24 +1,24 @@
 ---
-title: 'Шаг 2: Получение данных'
+title: Этап 2. Загрузка данных
 TOCTitle: 'Step 2: Get the Data'
 ms:assetid: e6be8801-6e57-d287-e8d2-348963706edc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250171(v=office.15)
 ms:contentKeyID: 48548387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e4b93eb3e3679fdbc235f4406b0480ad2597d25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80dae05dc691343b3c89ce8fd3ccfe72b776984c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480030"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860331"
 ---
-# <a name="step-2-get-the-data"></a>Шаг 2: Получение данных
+# <a name="step-2-get-the-data"></a>Этап 2. Загрузка данных
 
 
 **Применимо к**: Access 2013 | Office 2013
 
-## <a name="step-2-get-the-data"></a>Шаг 2: Получение данных
+## <a name="step-2-get-the-data"></a>Этап 2. Загрузка данных
 
 На этом этапе будет написание кода для открытия набора **записей** ADO и подготовка для отправки клиенту. Откройте файл XMLResponse.asp в текстовом редакторе, например в Блокноте и вставьте следующий код:
 
@@ -49,5 +49,7 @@ ms.locfileid: "25480030"
 
 Сохранение файла перейдите к следующему шагу.
 
-**Далее** [Шаг 3: отправка данных](step-3-send-the-data.md)
+### <a name="next-step"></a>Дальнейшие действия
+
+[Этап 3. Отправка данных](step-3-send-the-data.md)
 

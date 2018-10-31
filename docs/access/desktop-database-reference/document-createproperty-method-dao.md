@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052967
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb0f40ed8dcffc4af54d7cba68cf5ddd62ed8b96
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4bcd98c41fe6961112758a284aadb3806754bb77
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602533"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863327"
 ---
 # <a name="documentcreateproperty-method-dao"></a>Document.CreateProperty Method (DAO)
 
@@ -80,7 +80,7 @@ ms.locfileid: "25602533"
 ### <a name="return-value"></a>Возвращаемое значение
 =======
 ### <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
+>>>>>>> образец
 
 Свойство
 
@@ -96,6 +96,6 @@ ms.locfileid: "25602533"
 
 
 > [!NOTE]
-> <P>Если опустить аргумент DDL по умолчанию используется значение False (не являющиеся DDL). Так как не соответствующее свойство DDL предоставляется, необходимо удалить и повторно создать объект <STRONG>свойств</STRONG> , чтобы перейти с DDL не DDL.</P>
+> Если опустить аргумент DDL по умолчанию используется значение False (не являющиеся DDL). Так как не соответствующее свойство DDL предоставляется, необходимо удалить и повторно создать объект **свойств** , чтобы перейти с DDL не DDL.
 
 

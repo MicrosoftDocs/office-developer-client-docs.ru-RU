@@ -1,19 +1,19 @@
 ---
-title: Axes Collection (ADO MD)
+title: Коллекция осей (ADO MD)
 TOCTitle: Axes Collection (ADO MD)
 ms:assetid: 7c719197-45f1-a5b9-665d-25cb693b1eb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2b078f2d8f1ea6562d6f82f90943923c7d92a07
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 612a78d8ac99a070f133fd3804f5b69c8093d47c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482303"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862603"
 ---
-# <a name="axes-collection-ado-md"></a>Axes Collection (ADO MD)
+# <a name="axes-collection-ado-md"></a>Коллекция осей (ADO MD)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25482303"
 
 
 > [!NOTE]
-> <P>Оси фильтра набора <STRONG>ячеек</STRONG> не содержащихся в коллекции <STRONG>осей</STRONG> . Свойству <A href="filteraxis-property-ado-md.md">FilterAxis</A> для получения дополнительных сведений см.</P>
+> Оси фильтра набора **ячеек** не содержащихся в коллекции **осей** . Свойству [FilterAxis](filteraxis-property-ado-md.md) для получения дополнительных сведений см.
 
 
 

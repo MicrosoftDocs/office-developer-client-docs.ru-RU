@@ -1,19 +1,19 @@
 ---
-title: Find Method Example (JScript)
-TOCTitle: Find Method Example (JScript)
+title: Пример использования метода Find (JScript)
+TOCTitle: Find method example (JScript)
 ms:assetid: 87db96d6-4ed4-0807-8bff-62d978d4a008
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249589(v=office.15)
 ms:contentKeyID: 48546116
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 171ffa27f5ac3da669f8c8b55c769632fc2b0452
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cd7c6f5321f124fb40e8b2037569ac4dd63a408b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482259"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862109"
 ---
-# <a name="find-method-example-jscript"></a>Find Method Example (JScript)
+# <a name="find-method-example-jscript"></a>Пример использования метода Find (JScript)
 
 
 **Применимо к**: Access 2013 | Office 2013

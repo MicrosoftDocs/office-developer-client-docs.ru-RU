@@ -1,20 +1,19 @@
 ---
-title: ALTER USER or DATABASE Statement (Microsoft Access SQL)
-TOCTitle: ALTER USER or DATABASE Statement (Microsoft Access SQL)
+title: Оператор ALTER пользователя или базы данных (Microsoft Access SQL)
+TOCTitle: ALTER USER or DATABASE statement (Microsoft Access SQL)
 ms:assetid: 86ccd296-5171-97e7-683f-cdaab4bde9ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197012(v=office.15)
 ms:contentKeyID: 48546093
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2d6e471adb7ef2c5826d24f569174b40247d0fd8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ad03607b6452da016bad09fd33561bd811a2a16d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480975"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862613"
 ---
-# <a name="alter-user-or-database-statement-microsoft-access-sql"></a>ALTER USER or DATABASE Statement (Microsoft Access SQL)
-
+# <a name="alter-user-or-database-statement-microsoft-access-sql"></a>Оператор ALTER пользователя или базы данных (Microsoft Access SQL)
 
 **Применимо к**: Access 2013 | Office 2013
 

@@ -1,19 +1,19 @@
 ---
-title: Append Method (ADOX Columns)
+title: Добавьте метод (ADOX столбцов)
 TOCTitle: Append Method (ADOX Columns)
 ms:assetid: e256a478-abc0-f15b-fc29-1b52e354144a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1f64f3b04df989348173ad2fc975dcefbd1114b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 727634356a08646b1e2757996cc6bf071de07353
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480236"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861577"
 ---
-# <a name="append-method-adox-columns"></a>Append Method (ADOX Columns)
+# <a name="append-method-adox-columns"></a>Добавьте метод (ADOX столбцов)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -40,6 +40,6 @@ ms.locfileid: "25480236"
 
 
 > [!NOTE]
-> <P>После добавления <STRONG>столбцов</STRONG> в коллекцию <STRONG>столбцов</STRONG> <A href="index-object-adox.md">индекса</A> , если <STRONG>Столбец</STRONG> не существует в <A href="table-object-adox.md">таблице</A> , уже добавлен в коллекцию <A href="tables-collection-adox.md">таблиц</A> , произойдет ошибка.</P>
+> После добавления **столбцов** в коллекцию **столбцов** [индекса](index-object-adox.md) , если **Столбец** не существует в [таблице](table-object-adox.md) , уже добавлен в коллекцию [таблиц](tables-collection-adox.md) , произойдет ошибка.
 
 

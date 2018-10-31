@@ -4,14 +4,14 @@ TOCTitle: ADCPROP_UPDATECRITERIA_ENUM
 ms:assetid: 70da63fa-fa75-9bb4-683d-0fcb4c4a2934
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249450(v=office.15)
 ms:contentKeyID: 48545571
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: b018402f6a2d48819a3f97c69e2a8db77fa9e84c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 942639a4c87cfe325b9ec8326e2eb392458fa8b3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483232"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863692"
 ---
 # <a name="adcpropupdatecriteriaenum"></a>ADCPROP\_UPDATECRITERIA\_ENUM
 
@@ -20,6 +20,8 @@ ms.locfileid: "25483232"
 Задает поля, которые можно использовать для определения конфликтов при обновлении оптимистичный строки из источника данных с помощью объекта [набора записей](recordset-object-ado.md) .
 
 Используйте эти константы со свойством динамических «**Условию обновления**» **набора записей** , который по ссылке в [ADO динамических свойство индекса](ado-dynamic-property-index.md) и описаны в документации по [Microsoft служба курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) .
+
+<br/>
 
 <table>
 <colgroup>
@@ -59,7 +61,7 @@ ms.locfileid: "25483232"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 

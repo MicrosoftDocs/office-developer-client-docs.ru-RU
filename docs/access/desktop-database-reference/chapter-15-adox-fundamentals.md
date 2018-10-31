@@ -1,19 +1,19 @@
 ---
-title: 'Chapter 15: ADOX Fundamentals'
+title: Глава 15. Основы ADOX
 TOCTitle: 'Chapter 15: ADOX Fundamentals'
 ms:assetid: 973d7579-4f34-3b31-a761-a951ab29e850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3869f23b93df78fd207812a85f91dd3272bd255f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 362fd0784ee596852af7b16fae5636330a52ed59
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482828"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863747"
 ---
-# <a name="chapter-15-adox-fundamentals"></a>Chapter 15: ADOX Fundamentals
+# <a name="chapter-15-adox-fundamentals"></a>Глава 15. Основы ADOX
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -26,15 +26,21 @@ ADOX — это companion Библиотека базовых объектов A
 
 Поставщик Microsoft OLE DB для базы данных Microsoft Jet полностью поддерживает ADOX. Некоторые возможности ADOX может не поддерживаться, в зависимости от поставщика данных. Дополнительные сведения о поддерживаемых функций с помощью поставщик Microsoft OLE DB для ODBC, поставщик Microsoft OLE DB для Oracle или Microsoft SQL Server поставщик OLE DB MDAC см.
 
-В этом документе предполагается разобраться в Microsoft Visual Basic® программирования языка и общие знания ADO. Дополнительные сведения о ADO [Руководство программиста ADO](ado-programmer-s-guide.md)см. Для получения дополнительных сведений о ADOX в следующих разделах:
+В этом документе предполагается разобраться в Microsoft Visual Basic® программирования языка и общие знания ADO. Дополнительные сведения о ADO [Руководство программиста ADO](ado-programmer-s-guide.md)см.
 
-  - [ADOX Objects](adox-objects.md)
+В этой главе рассматриваются в следующих разделах:
 
-  - [ADOX Collections](adox-collections.md)
+- [Поддержка поставщиков для ADOX](provider-support-for-adox.md)
 
-  - [ADOX Properties](adox-properties.md)
+Для получения дополнительных сведений о ADOX в следующих разделах:
 
-  - [ADOX Methods](adox-methods.md)
+- [Объекты ADOX](adox-objects.md)
 
-  - [Примеры ADOX](adox-code-examples.md)
+- [ADOX семейств сайтов](adox-collections.md)
+
+- [Свойства ADOX](adox-properties.md)
+
+- [Методы ADOX](adox-methods.md)
+
+- [Примеры ADOX](adox-code-examples.md)
 

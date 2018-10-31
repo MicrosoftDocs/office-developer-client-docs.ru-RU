@@ -1,5 +1,5 @@
 ---
-title: ImportExportData Macro Action
+title: Действия макроса ImportExportData
 TOCTitle: ImportExportData Macro Action
 ms:assetid: 2cbde873-8a3d-b15c-4aab-405cddf44cea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192107(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d61d298da0e3b44895c8fce3ee1adc3b55d9a491
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482788"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860855"
 ---
-# <a name="importexportdata-macro-action"></a>ImportExportData Macro Action
+# <a name="importexportdata-macro-action"></a>Действия макроса ImportExportData
 
 **Применимо к**: Access 2013 | Office 2013
 

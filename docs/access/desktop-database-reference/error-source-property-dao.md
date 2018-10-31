@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b9aafe1b16b3d989a81ff21f97bd4b6d10f79de3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51acfc5f349d6096028ef86aac480ce81c9b26bf
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482036"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860499"
 ---
 # <a name="errorsource-property-dao"></a>Error.Source Property (DAO)
 
@@ -41,9 +41,7 @@ ms.locfileid: "25482036"
 
 
 > [!NOTE]
-> <P>Конструкция <STRONG>On Error Resume Next</STRONG> может оказаться предпочтительнее <STRONG>On Error GoTo</STRONG> при работе с ошибки, возникающие во время доступа к другим объектам. Проверка свойства объекта <STRONG>ошибки</STRONG> после каждого взаимодействия с объектом устраняет неопределенность, о которых объект кода доступ к при возникновении ошибки. Таким образом вам может быть том, какой объект поместил код ошибки в <STRONG>Error.Number</STRONG>, а также какой объект изначально создал ошибку (<STRONG>Error.Source</STRONG>).</P>
-
-
+> Конструкция **On Error Resume Next** может оказаться предпочтительнее **On Error GoTo** при работе с ошибки, возникающие во время доступа к другим объектам. Проверка свойства объекта **ошибки** после каждого взаимодействия с объектом устраняет неопределенность, о которых объект кода доступ к при возникновении ошибки. Таким образом вам может быть том, какой объект поместил код ошибки в **Error.Number**, а также какой объект изначально создал ошибку (**Error.Source**).
 
 ## <a name="example"></a>Пример
 

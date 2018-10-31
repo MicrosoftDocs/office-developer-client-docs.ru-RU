@@ -1,19 +1,19 @@
 ---
-title: 'Chapter 9: Data Shaping'
+title: Глава 9. Формирование данных
 TOCTitle: 'Chapter 9: Data Shaping'
 ms:assetid: f66a319f-1b3d-c4a3-50b3-af1a47540832
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8217be1004ea8304501e7d32908b8af269873b7a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4636c853f58557b30474b78d902131329084a1a2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482290"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863887"
 ---
-# <a name="chapter-9-data-shaping"></a>Chapter 9: Data Shaping
+# <a name="chapter-9-data-shaping"></a>Глава 9. Формирование данных
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -24,21 +24,21 @@ ms.locfileid: "25482290"
 
 В следующих разделах для получения дополнительных сведений о формирования данных:
 
-  - [Data Shaping Summary](data-shaping-summary.md)
+- [Необходимые поставщики для формирования данных](required-providers-for-data-shaping.md)
 
-  - [Required Providers for Data Shaping](required-providers-for-data-shaping.md)
+- [Предложение вычисления фигур](shape-compute-clause.md)
 
-  - [Shape Commands in General](shape-commands-in-general.md)
+- [Создание иерархических наборов записей](fabricating-hierarchical-recordsets.md)
 
-  - [Предложение APPEND фигуры](shape-append-clause.md)
+- [Доступ к строкам в иерархическом наборе записей](accessing-rows-in-a-hierarchical-recordset.md)
 
-  - [Предложение COMPUTE фигуры](shape-compute-clause.md)
+- [Формальная грамматика фигур](formal-shape-grammar.md)
 
-  - [Fabricating Hierarchical Recordsets](fabricating-hierarchical-recordsets.md)
+- [Функции Visual Basic для приложений](visual-basic-for-applications-functions.md)
 
-  - [Accessing Rows in a Hierarchical Recordset](accessing-rows-in-a-hierarchical-recordset.md)
+- [Shape Append Clause (ADO)](shape-append-clause.md)
 
-  - [Formal Shape Grammar](formal-shape-grammar.md)
+- [Формирования (ADO) данных](data-shaping.md)
 
-  - [Visual Basic для приложений функции](visual-basic-for-applications-functions.md)
+- [Shape Commands in General (ADO)](shape-commands-in-general.md)
 

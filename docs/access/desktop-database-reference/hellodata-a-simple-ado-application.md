@@ -1,19 +1,19 @@
 ---
-title: 'HelloData: A Simple ADO Application'
+title: 'HelloData: простое приложение ADO'
 TOCTitle: 'HelloData: A Simple ADO Application'
 ms:assetid: c271abeb-8865-81f9-db8e-47d3db87ad30
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7a3ef1f8b1a183bcef760af28d6eb8a849b17aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9e70d611f351cf3ff073a1ad91e359a08e026295
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480056"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863299"
 ---
-# <a name="hellodata-a-simple-ado-application"></a>HelloData: A Simple ADO Application
+# <a name="hellodata-a-simple-ado-application"></a>HelloData: простое приложение ADO
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -32,7 +32,7 @@ ms.locfileid: "25480056"
 
 4.  Создание **текстового поля** на форме под сетку и задайте его свойства, как показано в таблице. Формы должен выглядеть на следующем рисунке, после завершения.
 
-5.  И, наконец скопируйте код, приведенный в «[Код HelloData](hellodata-code.md)» и вставьте его в окно редактора кода формы. Нажмите клавишу **F5** , чтобы запустить код.
+5.  И, наконец скопируйте код, приведенный в [HelloData код](hellodata-code.md) и вставьте его в окно редактора кода формы. Нажмите клавишу **F5** , чтобы запустить код.
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ ms.locfileid: "25480056"
 
 
 
-Подробное описание кода в разделе «[сведения о HelloData](hellodata-details.md)».
+Подробное описание код ознакомиться с [Подробными сведениями HelloData](hellodata-details.md).
 
 <table>
 <colgroup>
@@ -135,4 +135,6 @@ ms.locfileid: "25480056"
 </tr>
 </tbody>
 </table>
+
+
 

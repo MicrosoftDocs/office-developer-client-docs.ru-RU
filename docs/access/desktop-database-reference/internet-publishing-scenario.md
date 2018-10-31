@@ -1,19 +1,19 @@
 ---
-title: Веб-публикации сценария
+title: Сценарий публикации в Интернете
 TOCTitle: Internet Publishing Scenario
 ms:assetid: 25a3fa8b-86ec-9e72-5e62-bf0d849479b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249024(v=office.15)
 ms:contentKeyID: 48543790
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7220505f5d2fe4354ad904df3c5b1d79e9e6768d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ea03ee787c344865154ab04a82d3702e121dbc2c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482089"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862665"
 ---
-# <a name="internet-publishing-scenario"></a>Веб-публикации сценария
+# <a name="internet-publishing-scenario"></a>Сценарий публикации в Интернете
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -22,11 +22,11 @@ ms.locfileid: "25482089"
 
 Для создания этого сценария необходимы следующие действия:
 
-  - [Этап 1: Настройка проекта Visual Basic](step-1-set-up-the-visual-basic-project.md)
+- [Этап 1. Настройка проекта Visual Basic](step-1-set-up-the-visual-basic-project.md)
 
-  - [Шаг 2: Инициализация главном списке](step-2-initialize-the-main-list-box.md)
+- [Этап 2. Инициализация главного списка](step-2-initialize-the-main-list-box.md)
 
-  - [Шаг 3: Заполнения списка полей](step-3-populate-the-fields-list-box.md)
+- [Этап 3. Заполнение списка полей](step-3-populate-the-fields-list-box.md)
 
-  - [Шаг 4: Заполните текстовое поле сведений](step-4-populate-the-details-text-box.md)
+- [Этап 4. Заполнение текстового поля сведений](step-4-populate-the-details-text-box.md)
 

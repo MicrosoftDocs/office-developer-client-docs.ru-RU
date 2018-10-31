@@ -1,23 +1,23 @@
 ---
-title: TRANSFORM Statement (Microsoft Access SQL)
-TOCTitle: TRANSFORM Statement (Microsoft Access SQL)
+title: Преобразование оператора (Microsoft Access SQL)
+TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
 ms:contentKeyID: 48544455
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6d05f278e38cc8cf132cf06605703dfa99eb8728
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 16b88f2cf441802c6246425d5bb7bb2efb71a679
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482199"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861220"
 ---
-# <a name="transform-statement-microsoft-access-sql"></a>TRANSFORM Statement (Microsoft Access SQL)
+# <a name="transform-statement-microsoft-access-sql"></a>Преобразование оператора (Microsoft Access SQL)
 
 **Применимо к**: Access 2013 | Office 2013
 
@@ -64,7 +64,7 @@ ms.locfileid: "25482199"
 
 Сведение данных с помощью перекрестного запроса, чтобы выбрать значения из указанного поля или выражения как заголовок столбца, чтобы просмотреть данные в формате compact более чем с запроса.
 
-Преобразование обязательно инструкцию в строке SQL. Он предшествует ВЫБЕРИТЕ оператор, который определяет поля, которые используются как [предложение сортировку строк](https://msdn.microsoft.com/library/ff837271\(v=office.15\)) и заголовков строк. Кроме того можно включить другие предложения, например, [ГДЕ](https://msdn.microsoft.com/library/ff195245\(v=office.15\)), которые задают дополнительные выделения или критериев сортировки. Вы можете также включить —, особенно в предложении WHERE — в запросе перекрестного.
+Преобразование обязательно инструкцию в строке SQL. Он предшествует ВЫБЕРИТЕ оператор, который определяет поля, которые используются как [предложение сортировку строк](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) и заголовков строк. Кроме того можно включить другие предложения, например, [ГДЕ](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), которые задают дополнительные выделения или критериев сортировки. Вы можете также включить —, особенно в предложении WHERE — в запросе перекрестного.
 
 Значения, возвращаемые в *сводных полей* используются в качестве заголовков столбцов в набор результатов запроса. Например сведения о продажах и месяца продажи в запросе перекрестного будет создано 12 столбцов. Можно ограничить *сводных полей* для создания заголовков с фиксированными значениями (*значение1*, *значение2* ), перечисленные в необязательном предложении. Также можно включить фиксированные значения, для которых не содержит данных для создания дополнительных столбцов.
 
