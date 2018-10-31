@@ -1,24 +1,24 @@
 ---
-title: AppendChunk and GetChunk Methods Example (VB)
-TOCTitle: AppendChunk and GetChunk Methods Example (VB)
+title: Пример использования методов AppendChunk и GetChunk (VB)
+TOCTitle: AppendChunk and GetChunk methods example (VB)
 ms:assetid: 42b3ee69-f4c4-3533-59b1-d14cb3cc88d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249196(v=office.15)
 ms:contentKeyID: 48544482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 913509ed0189c786ae7fb50f51e614eaf1ae0fc4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e97e1bf04a78253d02b413c93b4487ea48d803bb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480046"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860303"
 ---
-# <a name="appendchunk-and-getchunk-methods-example-vb"></a><span data-ttu-id="a73e3-102">AppendChunk and GetChunk Methods Example (VB)</span><span class="sxs-lookup"><span data-stu-id="a73e3-102">AppendChunk and GetChunk Methods Example (VB)</span></span>
+# <a name="appendchunk-and-getchunk-methods-example-vb"></a><span data-ttu-id="7951a-102">Пример использования методов AppendChunk и GetChunk (VB)</span><span class="sxs-lookup"><span data-stu-id="7951a-102">AppendChunk and GetChunk methods example (VB)</span></span>
 
 
-<span data-ttu-id="a73e3-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a73e3-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7951a-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7951a-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="a73e3-104">В этом примере использует методы [AppendChunk](appendchunk-method-ado.md) и [GetChunk](getchunk-method-ado.md) для заполнения поля изображения с данными из другой записи.</span><span class="sxs-lookup"><span data-stu-id="a73e3-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
+<span data-ttu-id="7951a-104">В этом примере использует методы [AppendChunk](appendchunk-method-ado.md) и [GetChunk](getchunk-method-ado.md) для заполнения поля изображения с данными из другой записи.</span><span class="sxs-lookup"><span data-stu-id="7951a-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
 
 ```vb 
  

@@ -1,24 +1,24 @@
 ---
-title: Execute, Requery, and Clear Methods Example (VJ++)
-TOCTitle: Execute, Requery, and Clear Methods Example (VJ++)
+title: Пример использования методов Execute, Requery и Clear (VJ++)
+TOCTitle: Execute, Requery, and Clear methods example (VJ++)
 ms:assetid: 00210f2e-7454-25c7-a035-68344868fe11
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248774(v=office.15)
 ms:contentKeyID: 48542897
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97123033b4787d9446a09f36fc9f8d5e768c5836
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4701e390a26fa8a29bf7e7fa490f188f80820876
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481554"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862529"
 ---
-# <a name="execute-requery-and-clear-methods-example-vj"></a><span data-ttu-id="d8268-102">Execute, Requery, and Clear Methods Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d8268-102">Execute, Requery, and Clear Methods Example (VJ++)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vj"></a><span data-ttu-id="24aae-102">Пример использования методов Execute, Requery и Clear (VJ++)</span><span class="sxs-lookup"><span data-stu-id="24aae-102">Execute, Requery, and Clear methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="d8268-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8268-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="24aae-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="24aae-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d8268-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="d8268-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="d8268-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в наборе записей и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="d8268-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="d8268-106">Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="d8268-106">The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="24aae-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="24aae-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="24aae-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в наборе записей и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="24aae-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="24aae-106">Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="24aae-106">The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
 ```java 
  

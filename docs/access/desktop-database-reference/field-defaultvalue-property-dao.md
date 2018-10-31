@@ -6,38 +6,37 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b5e479739177fa869bb2e96329c47c5f5889b64
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d23e088ca93474ac928875730580a693abe9648c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479941"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862228"
 ---
-# <a name="fielddefaultvalue-property-dao"></a><span data-ttu-id="6a9e1-102">Field.DefaultValue Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="6a9e1-102">Field.DefaultValue Property (DAO)</span></span>
+# <a name="fielddefaultvalue-property-dao"></a><span data-ttu-id="6988c-102">Field.DefaultValue Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="6988c-102">Field.DefaultValue Property (DAO)</span></span>
 
 
-<span data-ttu-id="6a9e1-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a9e1-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6988c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6988c-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
 
-<span data-ttu-id="6a9e1-104">Задает или возвращает значение по умолчанию объекта **[поля](field-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="6a9e1-104">Sets or returns the default value of a **[Field](field-object-dao.md)** object.</span></span> <span data-ttu-id="6a9e1-105">Для объекта **поля** , еще не добавляется в конец коллекции **[полей](fields-collection-dao.md)** это свойство является чтение/запись (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="6a9e1-105">For a **Field** object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="6988c-104">Задает или возвращает значение по умолчанию объекта **[поля](field-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="6988c-104">Sets or returns the default value of a **[Field](field-object-dao.md)** object.</span></span> <span data-ttu-id="6988c-105">Для объекта **поля** , еще не добавляется в конец коллекции **[полей](fields-collection-dao.md)** это свойство является чтение/запись (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="6988c-105">For a **Field** object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6a9e1-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6a9e1-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6988c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6988c-106">Syntax</span></span>
 
-<span data-ttu-id="6a9e1-107">*выражение* . Значение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6a9e1-107">*expression* .DefaultValue</span></span>
+<span data-ttu-id="6988c-107">*выражение* . Значение по умолчанию</span><span class="sxs-lookup"><span data-stu-id="6988c-107">*expression* .DefaultValue</span></span>
 
-<span data-ttu-id="6a9e1-108">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="6a9e1-108">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="6988c-108">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="6988c-108">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6a9e1-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="6a9e1-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6988c-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="6988c-109">Remarks</span></span>
 
-<span data-ttu-id="6a9e1-110">Параметр или возвращаемое значение имеет тип данных **String** , которое может содержать не более 255 знаков.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-110">The setting or return value is a **String** data type that can contain a maximum of 255 characters.</span></span> <span data-ttu-id="6a9e1-111">Она может быть текст или выражение.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-111">It can be either text or an expression.</span></span> <span data-ttu-id="6a9e1-112">Если значение свойства — это выражение, не может содержать пользовательские функции, статистические функции ядра базы данных SQL Microsoft Access или ссылки на запросы, форм или других объектов **поля** .</span><span class="sxs-lookup"><span data-stu-id="6a9e1-112">If the property setting is an expression, it can't contain user-defined functions, Microsoft Access database engine SQL aggregate functions, or references to queries, forms, or other **Field** objects.</span></span>
+<span data-ttu-id="6988c-110">Параметр или возвращаемое значение имеет тип данных **String** , которое может содержать не более 255 знаков.</span><span class="sxs-lookup"><span data-stu-id="6988c-110">The setting or return value is a **String** data type that can contain a maximum of 255 characters.</span></span> <span data-ttu-id="6988c-111">Она может быть текст или выражение.</span><span class="sxs-lookup"><span data-stu-id="6988c-111">It can be either text or an expression.</span></span> <span data-ttu-id="6988c-112">Если значение свойства — это выражение, не может содержать пользовательские функции, статистические функции ядра базы данных SQL Microsoft Access или ссылки на запросы, форм или других объектов **поля** .</span><span class="sxs-lookup"><span data-stu-id="6988c-112">If the property setting is an expression, it can't contain user-defined functions, Microsoft Access database engine SQL aggregate functions, or references to queries, forms, or other **Field** objects.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="6a9e1-113">Также можно настроить свойство <STRONG>DefaultValue</STRONG> объекта <STRONG>поля</STRONG> на объект <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> особое значение называется «(GenUniqueID)».</span><span class="sxs-lookup"><span data-stu-id="6a9e1-113">You can also set the <STRONG>DefaultValue</STRONG> property of a <STRONG>Field</STRONG> object on a <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> object to a special value called "GenUniqueID( )".</span></span> <span data-ttu-id="6a9e1-114">В результате случайное число для назначения в этом поле каждый раз, когда добавляется или создать новую запись, тем самым обеспечивая каждой записи уникального идентификатора.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-114">This causes a random number to be assigned to this field whenever a new record is added or created, thereby giving each record a unique identifier.</span></span> <span data-ttu-id="6a9e1-115"><STRONG><A href="field-type-property-dao.md">Тип</A></STRONG> поля должен быть <STRONG>времени</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-115">The field's <STRONG><A href="field-type-property-dao.md">Type</A></STRONG> property must be <STRONG>Long</STRONG>.</span></span></P>
+> <span data-ttu-id="6988c-113">Также можно настроить свойство **DefaultValue** объекта **поля** на объект [TableDef](tabledef-object-dao.md) особое значение называется «(GenUniqueID)».</span><span class="sxs-lookup"><span data-stu-id="6988c-113">You can also set the **DefaultValue** property of a **Field** object on a [TableDef](tabledef-object-dao.md) object to a special value called "GenUniqueID( )".</span></span> <span data-ttu-id="6988c-114">В результате случайное число для назначения в этом поле каждый раз, когда добавляется или создать новую запись, тем самым обеспечивая каждой записи уникального идентификатора.</span><span class="sxs-lookup"><span data-stu-id="6988c-114">This causes a random number to be assigned to this field whenever a new record is added or created, thereby giving each record a unique identifier.</span></span> <span data-ttu-id="6988c-115">[Тип](field-type-property-dao.md) поля должен быть **времени**.</span><span class="sxs-lookup"><span data-stu-id="6988c-115">The field's [Type](field-type-property-dao.md) property must be **Long**.</span></span>
 
 
-
-<span data-ttu-id="6a9e1-116">Доступность **функции DefaultValue** зависит от объекта, который содержит коллекцию **полей** , как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-116">The availability of the **DefaultValue** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
+<span data-ttu-id="6988c-116">Доступность **функции DefaultValue** зависит от объекта, который содержит коллекцию **полей** , как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="6988c-116">The availability of the **DefaultValue** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -46,42 +45,42 @@ ms.locfileid: "25479941"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="6a9e1-117">Если принадлежит коллекции полей</span><span class="sxs-lookup"><span data-stu-id="6a9e1-117">If the Fields collection belongs to an</span></span></p></th>
-<th><p><span data-ttu-id="6a9e1-118">Значение по умолчанию — это</span><span class="sxs-lookup"><span data-stu-id="6a9e1-118">Then DefaultValue is</span></span></p></th>
+<th><p><span data-ttu-id="6988c-117">Если принадлежит коллекции полей</span><span class="sxs-lookup"><span data-stu-id="6988c-117">If the Fields collection belongs to an</span></span></p></th>
+<th><p><span data-ttu-id="6988c-118">Значение по умолчанию — это</span><span class="sxs-lookup"><span data-stu-id="6988c-118">Then DefaultValue is</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6a9e1-119">Объект индекса</span><span class="sxs-lookup"><span data-stu-id="6a9e1-119">Index object</span></span></p></td>
-<td><p><span data-ttu-id="6a9e1-120">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="6a9e1-120">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="6988c-119">Объект Index</span><span class="sxs-lookup"><span data-stu-id="6988c-119">Index object</span></span></p></td>
+<td><p><span data-ttu-id="6988c-120">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="6988c-120">Not supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a9e1-121">Объект QueryDef</span><span class="sxs-lookup"><span data-stu-id="6a9e1-121">QueryDef object</span></span></p></td>
-<td><p><span data-ttu-id="6a9e1-122">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="6a9e1-122">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="6988c-121">Объект QueryDef</span><span class="sxs-lookup"><span data-stu-id="6988c-121">QueryDef object</span></span></p></td>
+<td><p><span data-ttu-id="6988c-122">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="6988c-122">Read-only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a9e1-123">Объект набора записей</span><span class="sxs-lookup"><span data-stu-id="6a9e1-123">Recordset object</span></span></p></td>
-<td><p><span data-ttu-id="6a9e1-124">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="6a9e1-124">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="6988c-123">Объект Recordset</span><span class="sxs-lookup"><span data-stu-id="6988c-123">Recordset object</span></span></p></td>
+<td><p><span data-ttu-id="6988c-124">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="6988c-124">Read-only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a9e1-125">Отношения объектов</span><span class="sxs-lookup"><span data-stu-id="6a9e1-125">Relation object</span></span></p></td>
-<td><p><span data-ttu-id="6a9e1-126">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="6a9e1-126">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="6988c-125">Объект Relation</span><span class="sxs-lookup"><span data-stu-id="6988c-125">Relation object</span></span></p></td>
+<td><p><span data-ttu-id="6988c-126">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="6988c-126">Not supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a9e1-127">Объект TableDef</span><span class="sxs-lookup"><span data-stu-id="6a9e1-127">TableDef object</span></span></p></td>
-<td><p><span data-ttu-id="6a9e1-128">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="6a9e1-128">Read/write</span></span></p></td>
+<td><p><span data-ttu-id="6988c-127">Объект TableDef</span><span class="sxs-lookup"><span data-stu-id="6988c-127">TableDef object</span></span></p></td>
+<td><p><span data-ttu-id="6988c-128">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="6988c-128">Read/write</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="6a9e1-129">При создании новой записи, значение свойства **DefaultValue** автоматически вводится как значение для поля.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-129">When a new record is created, the **DefaultValue** property setting is automatically entered as the value for the field.</span></span> <span data-ttu-id="6a9e1-130">Значение поля можно изменить, задав его свойство **[Value](field-value-property-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="6a9e1-130">You can change the field value by setting its **[Value](field-value-property-dao.md)** property.</span></span>
+<span data-ttu-id="6988c-129">При создании новой записи, значение свойства **DefaultValue** автоматически вводится как значение для поля.</span><span class="sxs-lookup"><span data-stu-id="6988c-129">When a new record is created, the **DefaultValue** property setting is automatically entered as the value for the field.</span></span> <span data-ttu-id="6988c-130">Значение поля можно изменить, задав его свойство **[Value](field-value-property-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="6988c-130">You can change the field value by setting its **[Value](field-value-property-dao.md)** property.</span></span>
 
-<span data-ttu-id="6a9e1-131">Свойство **DefaultValue** не применяется к **счетчика** и **Длинные двоичные** поля.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-131">The **DefaultValue** property doesn't apply to **AutoNumber** and **Long Binary** fields.</span></span>
+<span data-ttu-id="6988c-131">Свойство **DefaultValue** не применяется к **счетчика** и **Длинные двоичные** поля.</span><span class="sxs-lookup"><span data-stu-id="6988c-131">The **DefaultValue** property doesn't apply to **AutoNumber** and **Long Binary** fields.</span></span>
 
-## <a name="example"></a><span data-ttu-id="6a9e1-132">Пример</span><span class="sxs-lookup"><span data-stu-id="6a9e1-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6988c-132">Пример</span><span class="sxs-lookup"><span data-stu-id="6988c-132">Example</span></span>
 
-<span data-ttu-id="6a9e1-133">В этом примере используется свойство **DefaultValue** для оповещения пользователя Обычное значение поля во время запроса на ввода данных.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-133">This example uses the **DefaultValue** property to alert the user of a field's normal value while prompting for input.</span></span> <span data-ttu-id="6a9e1-134">Кроме того, он показывает, как новые записи будет состоять из с помощью **DefaultValue** при отсутствии другие входные данные.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-134">In addition, it demonstrates how new records will be filled using **DefaultValue** in the absence of any other input.</span></span> <span data-ttu-id="6a9e1-135">Функция DefaultPrompt является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="6a9e1-135">The DefaultPrompt function is required for this procedure to run.</span></span>
+<span data-ttu-id="6988c-133">В этом примере используется свойство **DefaultValue** для оповещения пользователя Обычное значение поля во время запроса на ввода данных.</span><span class="sxs-lookup"><span data-stu-id="6988c-133">This example uses the **DefaultValue** property to alert the user of a field's normal value while prompting for input.</span></span> <span data-ttu-id="6988c-134">Кроме того, он показывает, как новые записи будет состоять из с помощью **DefaultValue** при отсутствии другие входные данные.</span><span class="sxs-lookup"><span data-stu-id="6988c-134">In addition, it demonstrates how new records will be filled using **DefaultValue** in the absence of any other input.</span></span> <span data-ttu-id="6988c-135">Функция DefaultPrompt является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="6988c-135">The DefaultPrompt function is required for this procedure to run.</span></span>
 
 ```vb
     Sub DefaultValueX() 

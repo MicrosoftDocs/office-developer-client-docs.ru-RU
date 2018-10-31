@@ -1,24 +1,24 @@
 ---
-title: Cancel Method Example (VJ++)
-TOCTitle: Cancel Method Example (VJ++)
+title: Пример использования метода Cancel (VJ++)
+TOCTitle: Cancel method example (VJ++)
 ms:assetid: 319a7894-9e79-a55a-0007-bd5a581ea58f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249089(v=office.15)
 ms:contentKeyID: 48544058
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65439b9e667b8efeaf73b94121399cadaac26c20
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ce7a0429b80cbed0f5abe97dcaa3cbbd0da8be1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480866"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862512"
 ---
-# <a name="cancel-method-example-vj"></a><span data-ttu-id="4ef81-102">Cancel Method Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="4ef81-102">Cancel Method Example (VJ++)</span></span>
+# <a name="cancel-method-example-vj"></a><span data-ttu-id="a5eee-102">Пример использования метода Cancel (VJ++)</span><span class="sxs-lookup"><span data-stu-id="a5eee-102">Cancel method example (VJ++)</span></span>
 
 
-<span data-ttu-id="4ef81-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4ef81-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a5eee-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5eee-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="4ef81-104">В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены выполняется команда на объект [подключения](connection-object-ado.md) Если подключение «занят».</span><span class="sxs-lookup"><span data-stu-id="4ef81-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="a5eee-104">В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены выполняется команда на объект [подключения](connection-object-ado.md) Если подключение «занят».</span><span class="sxs-lookup"><span data-stu-id="a5eee-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```java 
  

@@ -1,24 +1,24 @@
 ---
-title: Move Method Example (VB)
-TOCTitle: Move Method Example (VB)
+title: Пример использования метода Move (VB)
+TOCTitle: Move method example (VB)
 ms:assetid: e3e837a4-f46d-f8ec-11ba-9b8d66105b13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250161(v=office.15)
 ms:contentKeyID: 48548328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 120e21c670a3fa2b317d5276f32b8486b6a17a28
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7bf20046b785748dfe1d5949da34b8ef855db991
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481158"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860240"
 ---
-# <a name="move-method-example-vb"></a><span data-ttu-id="59eb8-102">Move Method Example (VB)</span><span class="sxs-lookup"><span data-stu-id="59eb8-102">Move Method Example (VB)</span></span>
+# <a name="move-method-example-vb"></a><span data-ttu-id="4f62c-102">Пример использования метода Move (VB)</span><span class="sxs-lookup"><span data-stu-id="4f62c-102">Move method example (VB)</span></span>
 
 
-<span data-ttu-id="59eb8-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="59eb8-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4f62c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f62c-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="59eb8-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="59eb8-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="4f62c-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="4f62c-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```vb 
  

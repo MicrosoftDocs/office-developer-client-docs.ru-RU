@@ -1,24 +1,24 @@
 ---
-title: Supports Method Example (VB)
-TOCTitle: Supports Method Example (VB)
+title: Пример использования метода Supports (VB)
+TOCTitle: Supports method example (VB)
 ms:assetid: 6ebeac50-59d1-41d0-b5ef-2be868182cc2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249438(v=office.15)
 ms:contentKeyID: 48545518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 959dcac3509720597cf7678a7c9cff44cd313d86
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d3ea5bf64eb4897dab60a8f80e0691a1d1538126
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479756"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860359"
 ---
-# <a name="supports-method-example-vb"></a><span data-ttu-id="08990-102">Supports Method Example (VB)</span><span class="sxs-lookup"><span data-stu-id="08990-102">Supports Method Example (VB)</span></span>
+# <a name="supports-method-example-vb"></a><span data-ttu-id="3201f-102">Пример использования метода Supports (VB)</span><span class="sxs-lookup"><span data-stu-id="3201f-102">Supports method example (VB)</span></span>
 
 
-<span data-ttu-id="08990-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="08990-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3201f-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3201f-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="08990-104">В этом примере используется метод [поддерживает](supports-method-ado.md) для отображения параметров, поддерживаемый набор записей, открытый с типами другой курсор.</span><span class="sxs-lookup"><span data-stu-id="08990-104">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types.</span></span> <span data-ttu-id="08990-105">Процедура DisplaySupport является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="08990-105">The DisplaySupport procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="3201f-104">В этом примере используется метод [поддерживает](supports-method-ado.md) для отображения параметров, поддерживаемый набор записей, открытый с типами другой курсор.</span><span class="sxs-lookup"><span data-stu-id="3201f-104">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types.</span></span> <span data-ttu-id="3201f-105">Процедура DisplaySupport является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="3201f-105">The DisplaySupport procedure is required for this procedure to run.</span></span>
 
 ```vb 
  

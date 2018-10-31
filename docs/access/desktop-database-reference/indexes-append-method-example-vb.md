@@ -1,24 +1,24 @@
 ---
-title: Indexes Append Method Example (VB)
-TOCTitle: Indexes Append Method Example (VB)
+title: Пример использования метода Append для коллекции Indexes (VB)
+TOCTitle: Indexes Append method example (VB)
 ms:assetid: 71b18a5b-d000-5184-afac-c5d26b7f17e8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249454(v=office.15)
 ms:contentKeyID: 48545591
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ffe5f156fba719cec07a9aec74a1c6639fe4a900
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8e546445c6959ab1e9f9d6eb53fd28e02d47b40
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480542"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862156"
 ---
-# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="7e842-102">Indexes Append Method Example (VB)</span><span class="sxs-lookup"><span data-stu-id="7e842-102">Indexes Append Method Example (VB)</span></span>
+# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="0136c-102">Пример использования метода Append для коллекции Indexes (VB)</span><span class="sxs-lookup"><span data-stu-id="0136c-102">Indexes Append method example (VB)</span></span>
 
 
-<span data-ttu-id="7e842-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e842-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="0136c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0136c-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="7e842-104">Следующий код демонстрирует для создания нового индекса.</span><span class="sxs-lookup"><span data-stu-id="7e842-104">The following code demonstrates how to create a new index.</span></span> <span data-ttu-id="7e842-105">Индекс находится на два столбца в таблице.</span><span class="sxs-lookup"><span data-stu-id="7e842-105">The index is on two columns in the table.</span></span>
+<span data-ttu-id="0136c-104">Следующий код демонстрирует для создания нового индекса.</span><span class="sxs-lookup"><span data-stu-id="0136c-104">The following code demonstrates how to create a new index.</span></span> <span data-ttu-id="0136c-105">Индекс находится на два столбца в таблице.</span><span class="sxs-lookup"><span data-stu-id="0136c-105">The index is on two columns in the table.</span></span>
 
 ```vb 
  

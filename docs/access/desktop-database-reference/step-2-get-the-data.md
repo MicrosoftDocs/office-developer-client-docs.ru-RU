@@ -1,26 +1,26 @@
 ---
-title: 'Шаг 2: Получение данных'
+title: Этап 2. Загрузка данных
 TOCTitle: 'Step 2: Get the Data'
 ms:assetid: e6be8801-6e57-d287-e8d2-348963706edc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250171(v=office.15)
 ms:contentKeyID: 48548387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e4b93eb3e3679fdbc235f4406b0480ad2597d25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80dae05dc691343b3c89ce8fd3ccfe72b776984c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480030"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860331"
 ---
-# <a name="step-2-get-the-data"></a><span data-ttu-id="1a149-102">Шаг 2: Получение данных</span><span class="sxs-lookup"><span data-stu-id="1a149-102">Step 2: Get the Data</span></span>
+# <a name="step-2-get-the-data"></a><span data-ttu-id="c73bb-102">Этап 2. Загрузка данных</span><span class="sxs-lookup"><span data-stu-id="c73bb-102">Step 2: Get the Data</span></span>
 
 
-<span data-ttu-id="1a149-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1a149-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c73bb-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c73bb-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-## <a name="step-2-get-the-data"></a><span data-ttu-id="1a149-104">Шаг 2: Получение данных</span><span class="sxs-lookup"><span data-stu-id="1a149-104">Step 2: Get the Data</span></span>
+## <a name="step-2-get-the-data"></a><span data-ttu-id="c73bb-104">Этап 2. Загрузка данных</span><span class="sxs-lookup"><span data-stu-id="c73bb-104">Step 2: Get the Data</span></span>
 
-<span data-ttu-id="1a149-105">На этом этапе будет написание кода для открытия набора **записей** ADO и подготовка для отправки клиенту.</span><span class="sxs-lookup"><span data-stu-id="1a149-105">In this step, you will write the code to open an ADO **Recordset** and prepare to send it to the client.</span></span> <span data-ttu-id="1a149-106">Откройте файл XMLResponse.asp в текстовом редакторе, например в Блокноте и вставьте следующий код:</span><span class="sxs-lookup"><span data-stu-id="1a149-106">Open the file XMLResponse.asp with a text editor, such as Windows Notepad, and insert the following code:</span></span>
+<span data-ttu-id="c73bb-105">На этом этапе будет написание кода для открытия набора **записей** ADO и подготовка для отправки клиенту.</span><span class="sxs-lookup"><span data-stu-id="c73bb-105">In this step, you will write the code to open an ADO **Recordset** and prepare to send it to the client.</span></span> <span data-ttu-id="c73bb-106">Откройте файл XMLResponse.asp в текстовом редакторе, например в Блокноте и вставьте следующий код:</span><span class="sxs-lookup"><span data-stu-id="c73bb-106">Open the file XMLResponse.asp with a text editor, such as Windows Notepad, and insert the following code:</span></span>
 
 ```vb 
  
@@ -45,9 +45,11 @@ ms.locfileid: "25480030"
   adoRec.Open strSQL, adoCon, adOpenStatic, adLockOptimistic, adCmdText 
 ```
 
-<span data-ttu-id="1a149-107">Не забудьте изменить значение параметра источника данных в параметре в strCon к имени компьютера Microsoft SQL Server.</span><span class="sxs-lookup"><span data-stu-id="1a149-107">Be sure to change the value of the Data Source parameter in parameter in strCon to the name of your Microsoft SQL Server computer.</span></span>
+<span data-ttu-id="c73bb-107">Не забудьте изменить значение параметра источника данных в параметре в strCon к имени компьютера Microsoft SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c73bb-107">Be sure to change the value of the Data Source parameter in parameter in strCon to the name of your Microsoft SQL Server computer.</span></span>
 
-<span data-ttu-id="1a149-108">Сохранение файла перейдите к следующему шагу.</span><span class="sxs-lookup"><span data-stu-id="1a149-108">Keep the file open and go on to the next step.</span></span>
+<span data-ttu-id="c73bb-108">Сохранение файла перейдите к следующему шагу.</span><span class="sxs-lookup"><span data-stu-id="c73bb-108">Keep the file open and go on to the next step.</span></span>
 
-<span data-ttu-id="1a149-109">**Далее** [Шаг 3: отправка данных](step-3-send-the-data.md)</span><span class="sxs-lookup"><span data-stu-id="1a149-109">**Next** [Step 3: Send the Data](step-3-send-the-data.md)</span></span>
+### <a name="next-step"></a><span data-ttu-id="c73bb-109">Дальнейшие действия</span><span class="sxs-lookup"><span data-stu-id="c73bb-109">Next step</span></span>
+
+[<span data-ttu-id="c73bb-110">Этап 3. Отправка данных</span><span class="sxs-lookup"><span data-stu-id="c73bb-110">Step 3: Send the Data</span></span>](step-3-send-the-data.md)
 

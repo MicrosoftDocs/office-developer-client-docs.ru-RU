@@ -1,28 +1,28 @@
 ---
-title: AddNew Method Example (VBScript)
-TOCTitle: AddNew Method Example (VBScript)
+title: Пример использования метода AddNew (VBScript)
+TOCTitle: AddNew method example (VBScript)
 ms:assetid: a01f01ca-44a7-8743-394d-ef2c4b0919ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249735(v=office.15)
 ms:contentKeyID: 48546699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb519ab40cfb0137c5923029b18494fe5e5bf988
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4f45f9743659e6a0f82d86b1662c178344bf428d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481032"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860114"
 ---
-# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="6b53c-102">AddNew Method Example (VBScript)</span><span class="sxs-lookup"><span data-stu-id="6b53c-102">AddNew Method Example (VBScript)</span></span>
+# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="99261-102">Пример использования метода AddNew (VBScript)</span><span class="sxs-lookup"><span data-stu-id="99261-102">AddNew method example (VBScript)</span></span>
 
 
-<span data-ttu-id="6b53c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b53c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="99261-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="99261-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="6b53c-104">В этом примере используется метод [AddNew](addnew-method-ado.md) , чтобы создать новую запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="6b53c-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="99261-104">В этом примере используется метод [AddNew](addnew-method-ado.md) , чтобы создать новую запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="99261-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
-<span data-ttu-id="6b53c-105">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="6b53c-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="6b53c-106">Используйте **Поиск** для найдите файл Adovbs.inc и помещения их в каталог, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="6b53c-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="6b53c-107">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **AddNewVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="6b53c-107">Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**.</span></span> <span data-ttu-id="6b53c-108">Результат можно просмотреть в браузере любого клиента.</span><span class="sxs-lookup"><span data-stu-id="6b53c-108">You can view the result in any client browser.</span></span>
+<span data-ttu-id="99261-105">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="99261-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="99261-106">Используйте **Поиск** для найдите файл Adovbs.inc и помещения их в каталог, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="99261-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="99261-107">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **AddNewVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="99261-107">Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**.</span></span> <span data-ttu-id="99261-108">Результат можно просмотреть в браузере любого клиента.</span><span class="sxs-lookup"><span data-stu-id="99261-108">You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="6b53c-109">Чтобы использовать в примере, добавьте новую запись в формате HTML.</span><span class="sxs-lookup"><span data-stu-id="6b53c-109">To exercise the example, add a new record in the HTML form.</span></span> <span data-ttu-id="6b53c-110">Щелкните **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="6b53c-110">Click **Add New**.</span></span> <span data-ttu-id="6b53c-111">В разделе [Удаление пример метода](delete-method-example-vbscript.md) удалите ненужные записи.</span><span class="sxs-lookup"><span data-stu-id="6b53c-111">See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
+<span data-ttu-id="99261-109">Чтобы использовать в примере, добавьте новую запись в формате HTML.</span><span class="sxs-lookup"><span data-stu-id="99261-109">To exercise the example, add a new record in the HTML form.</span></span> <span data-ttu-id="99261-110">Щелкните **Добавить**.</span><span class="sxs-lookup"><span data-stu-id="99261-110">Click **Add New**.</span></span> <span data-ttu-id="99261-111">В разделе [Удаление пример метода](delete-method-example-vbscript.md) удалите ненужные записи.</span><span class="sxs-lookup"><span data-stu-id="99261-111">See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
 
 ```vb
  

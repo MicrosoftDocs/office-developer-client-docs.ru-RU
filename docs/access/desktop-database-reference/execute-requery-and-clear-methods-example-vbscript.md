@@ -1,26 +1,26 @@
 ---
-title: Execute, Requery, and Clear Methods Example (VBScript)
-TOCTitle: Execute, Requery, and Clear Methods Example (VBScript)
+title: Пример использования методов Execute, Requery и Clear (VBScript)
+TOCTitle: Execute, Requery, and Clear methods example (VBScript)
 ms:assetid: 3999d3d8-693b-99ee-421a-7c67ff0e3cbf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249142(v=office.15)
 ms:contentKeyID: 48544252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e8518c7923c2334711891a9b3e02b2f010599357
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 340be13a5b6acb830ec38108d4a279814d1c459a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482724"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863047"
 ---
-# <a name="execute-requery-and-clear-methods-example-vbscript"></a><span data-ttu-id="6e82f-102">Execute, Requery, and Clear Methods Example (VBScript)</span><span class="sxs-lookup"><span data-stu-id="6e82f-102">Execute, Requery, and Clear Methods Example (VBScript)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vbscript"></a><span data-ttu-id="1137d-102">Пример использования методов Execute, Requery и Clear (VBScript)</span><span class="sxs-lookup"><span data-stu-id="1137d-102">Execute, Requery, and Clear methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="6e82f-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6e82f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1137d-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1137d-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="6e82f-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="6e82f-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="6e82f-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="6e82f-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="6e82f-106">Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="6e82f-106">The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="1137d-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="1137d-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="1137d-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="1137d-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="1137d-106">Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="1137d-106">The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
-<span data-ttu-id="6e82f-107">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="6e82f-107">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="6e82f-108">Используйте **Поиск** для найдите файл Adovbs.inc и помещения их в каталог, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="6e82f-108">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="6e82f-109">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ExecuteVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="6e82f-109">Cut and paste the following code into Notepad or another text editor, and save it as **ExecuteVBS.asp**.</span></span> <span data-ttu-id="6e82f-110">Результат можно просмотреть в браузере любого клиента.</span><span class="sxs-lookup"><span data-stu-id="6e82f-110">You can view the result in any client browser.</span></span>
+<span data-ttu-id="1137d-107">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="1137d-107">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="1137d-108">Используйте **Поиск** для найдите файл Adovbs.inc и помещения их в каталог, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="1137d-108">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="1137d-109">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ExecuteVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="1137d-109">Cut and paste the following code into Notepad or another text editor, and save it as **ExecuteVBS.asp**.</span></span> <span data-ttu-id="1137d-110">Результат можно просмотреть в браузере любого клиента.</span><span class="sxs-lookup"><span data-stu-id="1137d-110">You can view the result in any client browser.</span></span>
 
 ```vb 
  

@@ -1,26 +1,26 @@
 ---
-title: Save and Open Methods Example (VJ++)
-TOCTitle: Save and Open Methods Example (VJ++)
+title: Пример использования методов Save и Open (VJ++)
+TOCTitle: Save and Open methods example (VJ++)
 ms:assetid: 15ad340a-2d32-3656-25d1-5c3927b9fed2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248920(v=office.15)
 ms:contentKeyID: 48543414
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69d2ea8f40946ea3edcacf52c97a7464d47cd653
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c671946dbd8a7be83c9d2a3c651e614b1fa90bfc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479803"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864009"
 ---
-# <a name="save-and-open-methods-example-vj"></a><span data-ttu-id="a5db9-102">Save and Open Methods Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="a5db9-102">Save and Open Methods Example (VJ++)</span></span>
+# <a name="save-and-open-methods-example-vj"></a><span data-ttu-id="7b565-102">Пример использования методов Save и Open (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7b565-102">Save and Open methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="a5db9-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5db9-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7b565-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b565-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="a5db9-104">Эти три примерах показано, как [Сохранить](save-method-ado.md) и **Открыть** методы можно использовать вместе.</span><span class="sxs-lookup"><span data-stu-id="a5db9-104">These three examples demonstrate how the [Save](save-method-ado.md) and **Open** methods can be used together.</span></span>
+<span data-ttu-id="7b565-104">Эти три примерах показано, как [Сохранить](save-method-ado.md) и **Открыть** методы можно использовать вместе.</span><span class="sxs-lookup"><span data-stu-id="7b565-104">These three examples demonstrate how the [Save](save-method-ado.md) and **Open** methods can be used together.</span></span>
 
-<span data-ttu-id="a5db9-105">Предположим, перейдя на командировки и требуется взять таблицы из базы данных.</span><span class="sxs-lookup"><span data-stu-id="a5db9-105">Assume you are going on a business trip and want to take along a table from a database.</span></span> <span data-ttu-id="a5db9-106">Прежде чем приступать можно получать доступ к данным, как [набора записей](recordset-object-ado.md) и сохраните его в форме портативных.</span><span class="sxs-lookup"><span data-stu-id="a5db9-106">Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form.</span></span> <span data-ttu-id="a5db9-107">При получении в месте назначения, доступ к **записей** как локального, отключенные **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="a5db9-107">When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="a5db9-108">Внесите изменения в **набор записей**, затем сохраните его еще раз, а также изменения.</span><span class="sxs-lookup"><span data-stu-id="a5db9-108">You make changes to the **Recordset**, then save it again, along with your changes.</span></span> <span data-ttu-id="a5db9-109">И, наконец когда вы вернуться на домашнюю страницу, подключения к базе данных и обновление с помощью изменения, внесенные в пути.</span><span class="sxs-lookup"><span data-stu-id="a5db9-109">Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
+<span data-ttu-id="7b565-105">Предположим, перейдя на командировки и требуется взять таблицы из базы данных.</span><span class="sxs-lookup"><span data-stu-id="7b565-105">Assume you are going on a business trip and want to take along a table from a database.</span></span> <span data-ttu-id="7b565-106">Прежде чем приступать можно получать доступ к данным, как [набора записей](recordset-object-ado.md) и сохраните его в форме портативных.</span><span class="sxs-lookup"><span data-stu-id="7b565-106">Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form.</span></span> <span data-ttu-id="7b565-107">При получении в месте назначения, доступ к **записей** как локального, отключенные **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="7b565-107">When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="7b565-108">Внесите изменения в **набор записей**, затем сохраните его еще раз, а также изменения.</span><span class="sxs-lookup"><span data-stu-id="7b565-108">You make changes to the **Recordset**, then save it again, along with your changes.</span></span> <span data-ttu-id="7b565-109">И, наконец когда вы вернуться на домашнюю страницу, подключения к базе данных и обновление с помощью изменения, внесенные в пути.</span><span class="sxs-lookup"><span data-stu-id="7b565-109">Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
 
 ```java 
  
