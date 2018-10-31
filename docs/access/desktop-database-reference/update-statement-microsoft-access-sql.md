@@ -1,10 +1,10 @@
 ---
-title: UPDATE Statement (Microsoft Access SQL)
-TOCTitle: UPDATE Statement (Microsoft Access SQL)
+title: Инструкция UPDATE (Microsoft Access SQL)
+TOCTitle: UPDATE statement (Microsoft Access SQL)
 ms:assetid: 08f9c3d6-c020-ecf1-5748-43b93a76dfbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845036(v=office.15)
 ms:contentKeyID: 48543111
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277583
@@ -12,15 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3affce9346e9e322bc588ca1c3be24867a1469d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7a761fbc6404cf72818271b956bfc63516942d25
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480997"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863285"
 ---
-# <a name="update-statement-microsoft-access-sql"></a>UPDATE Statement (Microsoft Access SQL)
-
+# <a name="update-statement-microsoft-access-sql"></a>Инструкция UPDATE (Microsoft Access SQL)
 
 **Применимо к**: Access 2013 | Office 2013
 
@@ -75,11 +74,8 @@ WHERE ShipCountry = 'UK';
 
 
 > [!IMPORTANT]
-> <UL>
-> <LI>
-> <P>ОБНОВЛЕНИЕ не создает набора результатов. Кроме того после обновления записей с помощью запроса на обновление нельзя отменить операцию. Если вы хотите знать, какие записи будут обновлены, выполните результатов выберите запрос, который использует тем же условиям и затем выполните запрос на обновление.</P>
-> <LI>
-> <P>Создавать резервные копии данных в любое время. При обновлении неверный записей, их можно восстановить из резервной копии.</P></LI></UL>
+- ОБНОВЛЕНИЕ не создает набора результатов. Кроме того после обновления записей с помощью запроса на обновление нельзя отменить операцию. Если вы хотите знать, какие записи будут обновлены, выполните результатов выберите запрос, который использует тем же условиям и затем выполните запрос на обновление.
+- Создавать резервные копии данных в любое время. При обновлении неверный записей, их можно восстановить из резервной копии.
 
 
 

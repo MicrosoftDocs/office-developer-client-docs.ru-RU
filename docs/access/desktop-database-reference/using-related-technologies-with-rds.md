@@ -1,27 +1,27 @@
 ---
-title: Using Related Technologies with RDS
+title: Использование связанных технологий с RDS
 TOCTitle: Using Related Technologies with RDS
 ms:assetid: 4e5fe705-6f1e-33ce-437e-d61fd86f9206
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4442d63dc0e99585966a104ce280bdb0ea836699
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 137f36285a79b45294d680fb31f6e928ee5e68fc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480162"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860562"
 ---
-# <a name="using-related-technologies-with-rds"></a>Using Related Technologies with RDS
+# <a name="using-related-technologies-with-rds"></a>Использование связанных технологий с RDS
 
 **Применимо к**: Access 2013 | Office 2013
 
 В этом разделе содержатся подробные сведения об использовании служб удаленных рабочих СТОЛОВ с аспектов следующие технологии:
 
-  - [Using RDS with ODBC Connection Pooling](using-rds-with-odbc-connection-pooling.md)
+- [Использование RDS с группировкой подключений ODBC](using-rds-with-odbc-connection-pooling.md)
 
-  - [Running Business Objects in Component Services](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
+- [Выполнение бизнес-объектов в службах компонентов](running-business-objects-in-component-services.md)
 
 **Службы IIS** Для получения дополнительных сведений о Microsoft Internet Information Services (IIS) посетите сайт службы IIS.
 

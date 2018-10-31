@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3171ec1d35f08a5bc9d6a02a9a50ca80e11413de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e0307710d5519fa08eff0843ca48268b5bc00f0a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482160"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862606"
 ---
 # <a name="connectionexecute-method-dao"></a>Connection.Execute Method (DAO)
 
@@ -111,18 +111,11 @@ ms.locfileid: "25482160"
 </tbody>
 </table>
 
-
+> [!NOTE]
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
 
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
-
-
-
-
-> [!NOTE]
-> <P>Константы <STRONG>dbConsistent</STRONG> и <STRONG>dbInconsistent</STRONG> являются взаимоисключающими. Можно использовать одно или другое, но не оба в экземпляре <STRONG>OpenRecordset</STRONG>. С помощью <STRONG>dbConsistent</STRONG> и <STRONG>dbInconsistent</STRONG> приводит к ошибке.</P>
-
-
+> Константы **dbConsistent** и **dbInconsistent** являются взаимоисключающими. Можно использовать одно или другое, но не оба в экземпляре **OpenRecordset**. С помощью **dbConsistent** и **dbInconsistent** приводит к ошибке.
 
 Метод **Execute** действителен только для запросов. Если вы используете **Execute** с запрос другого типа, возникает ошибка. Поскольку запрос не возвращает все записи, **выполнение** не возвращает **набор записей**. (Выполнение запроса к серверу в рабочей области технология ODBCDirect не возвращает ошибку при **записей** не возвращаются.)
 

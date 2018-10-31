@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7151ed1a03c0ce0cf0204716d19bb7cfd2b4f607
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1218dd1cc6b1b309c5513a9b0f67a66d06d9c499
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480016"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863641"
 ---
 # <a name="fieldordinalposition-property-dao"></a>Field.OrdinalPosition Property (DAO)
 
@@ -80,11 +80,8 @@ ms.locfileid: "25480016"
 
 Можно указать номер, который больше, чем количество полей минус 1. Поля будут возвращены в порядке относительно наибольшее число. Например, если значение поля **OrdinalPosition** 20 (и имеется только 5 полей) и установки свойства **OrdinalPosition** для двух других полей на 10 и 30, соответственно, возвращаются поля значение 20 между полями, равным 10 и 30.
 
-
 > [!NOTE]
-> <P>Даже в том случае, если коллекцию <STRONG>полей</STRONG> <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> не обновлялись порядок полей в <STRONG><A href="recordset-object-dao.md">набор записей</A></STRONG> , открывается из <STRONG>TableDef</STRONG> будет отражать данные <STRONG>OrdinalPosition</STRONG> объекта <STRONG>TableDef</STRONG> . Тип таблицы <STRONG>записей</STRONG> будут иметь те же данные <STRONG>OrdinalPosition</STRONG> , как и базовая таблица, но любой другой тип <STRONG>набора записей</STRONG> будут иметь новые <STRONG>OrdinalPosition</STRONG> данные (начиная с 0), следуйте порядке, определяется <STRONG> OrdinalPosition</STRONG> данных <STRONG>TableDef</STRONG>.</P>
-
-
+> Даже в том случае, если коллекцию **полей** [TableDef](tabledef-object-dao.md) не обновлялись порядок полей в [набор записей](recordset-object-dao.md) , открывается из **TableDef** будет отражать данные **OrdinalPosition** объекта **TableDef** . Тип таблицы **записей** будут иметь те же данные **OrdinalPosition** , как и базовая таблица, но любой другой тип **набора записей** будут иметь новые **OrdinalPosition** данные (начиная с 0), следуйте порядке, определяется ** OrdinalPosition** данных **TableDef**.
 
 ## <a name="example"></a>Пример
 

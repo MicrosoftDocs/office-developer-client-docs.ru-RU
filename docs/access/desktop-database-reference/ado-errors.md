@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
 ms:contentKeyID: 48542972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee87da91086a010066ba94b294955eebdff7b636
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a8b6b794daf7c03df26c186ac58b9a02ed4a7419
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480188"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861234"
 ---
-# <a name="ado-errors"></a>ADO Errors
+# <a name="ado-errors"></a>Ошибки ADO
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -89,9 +89,7 @@ Help File: E:\WINNT\HELP\ADO260.CHM Topic ID: 1003705
 
 
 > [!NOTE]
-> <P>Объект Visual Basic <STRONG>Err</STRONG> содержит только сведения о последнюю ошибку. Коллекция ADO <STRONG>ошибки</STRONG> объекта <STRONG>подключения</STRONG> содержит один объект <STRONG>Error</STRONG> для каждой ошибки, вызванные последней операции ADO. Используйте коллекцию <STRONG>ошибок</STRONG> , а не объекта <STRONG>Err</STRONG> для обработки нескольких ошибок. Дополнительные сведения о семейство <STRONG>Errors</STRONG> отображаются <A href="provider-errors.md">Ошибки поставщика</A>. Тем не менее если нет действительного объекта <STRONG>подключения</STRONG> , объект <STRONG>Err</STRONG> является источником только для получения сведений об ошибках ADO.</P>
-
-
+> Объект Visual Basic **Err** содержит только сведения о последнюю ошибку. Коллекция ADO **ошибки** объекта **подключения** содержит один объект **Error** для каждой ошибки, вызванные последней операции ADO. Используйте коллекцию **ошибок** , а не объекта **Err** для обработки нескольких ошибок. Дополнительные сведения о семейство **Errors** отображаются <A href="provider-errors.md">Ошибки поставщика</A>. Тем не менее если нет действительного объекта **подключения** , объект **Err** является источником только для получения сведений об ошибках ADO.
 
 Какие типы операций, вероятно, причиной ошибок ADO? Распространенные ошибки ADO может включать в себя Открытие объект, например **подключение** или **набора записей**, попытка обновления данных или вызвав метод или свойство, которое не поддерживается поставщиком.
 

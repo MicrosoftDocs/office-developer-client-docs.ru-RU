@@ -1,5 +1,5 @@
 ---
-title: Initializing the Microsoft Excel Driver
+title: Инициализация драйвера Microsoft Excel
 TOCTitle: Initializing the Microsoft Excel Driver
 ms:assetid: 06c7f823-8e74-0811-cc00-e6b32075ef11
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844939(v=office.15)
@@ -10,25 +10,20 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7c9a3282f3bb508a4c68ecbd3f2c0465cfee9bac
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 85961b761255583738026113a025d6ca84b61f83
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603100"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861990"
 ---
-# <a name="initializing-the-microsoft-excel-driver"></a>Initializing the Microsoft Excel Driver
-
+# <a name="initializing-the-microsoft-excel-driver"></a>Инициализация драйвера Microsoft Excel
 
 **Применимо к**: Access 2013 | Office 2013
 
-<<<<<<< HEAD при установке драйвера Microsoft® Excel, программа установки записывает набор значений по умолчанию в реестр Microsoft Windows® в подразделах обработчики и ISAM Formats. Не изменяйте эти параметры напрямую; для добавления, удаления или изменения этих параметров с помощью программы установки для приложения. В следующих разделах инициализации и параметров ISAM Format драйвера базы данных Microsoft Excel.
-
-## <a name="microsoft-excel-initialization-settings"></a>Параметры инициализации Microsoft Excel
-=== При установке драйвера Excel, программа установки записывает набор значений по умолчанию в реестре Windows в подразделах обработчики и ISAM Formats. Не изменяйте эти параметры напрямую; для добавления, удаления или изменения этих параметров с помощью программы установки для приложения. В следующих разделах инициализации и параметров ISAM Format драйвера базы данных Microsoft Excel.
+При установке драйвера Excel, программа установки записывает набор значений по умолчанию в реестре Windows в подразделах обработчики и ISAM Formats. Не изменяйте эти параметры напрямую; для добавления, удаления или изменения этих параметров с помощью программы установки для приложения. В следующих разделах инициализации и параметров ISAM Format драйвера базы данных Microsoft Excel.
 
 ## <a name="excel-initialization-settings"></a>Параметры инициализации Excel
->>>>>>> master
 
 **Модуль подключения к Access\\обработчики\\Excel** папка содержит параметры инициализации драйвера Aceexcl.dll, который используется для внешнего доступа к лист Microsoft Excel. В следующем примере приведены типичные параметры записей в этой папке.
 
@@ -147,14 +142,9 @@ ms.locfileid: "25603100"
 </table>
 
 
-
 > [!NOTE]
 > При изменении параметров реестра Windows, необходимо выйти из и перезапустить ядро базы данных для новых параметров вступили в силу.
 
-<<<<<<< HEAD
-
-=======
 ## <a name="see-also"></a>См. также
 
-[С помощью параметра TypeGuessRows драйвера Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
->>>>>>> master
+[С помощью параметра TypeGuessRows драйвера Excel](https://support.office.com/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b)

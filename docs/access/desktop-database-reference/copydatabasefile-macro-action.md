@@ -1,19 +1,19 @@
 ---
-title: CopyDatabaseFile Macro Action
+title: Действия CopyDatabaseFile макроса
 TOCTitle: CopyDatabaseFile Macro Action
 ms:assetid: e6320b55-946b-9efc-9b64-b86513801a37
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b52644cb9a0a5140f45c42eaead84a63723c23e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 934a44ee754c403a9ef185537c8af114f1200d82
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482737"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862536"
 ---
-# <a name="copydatabasefile-macro-action"></a>CopyDatabaseFile Macro Action
+# <a name="copydatabasefile-macro-action"></a>Действия CopyDatabaseFile макроса
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -22,9 +22,9 @@ ms.locfileid: "25482737"
 
 
 > [!NOTE]
-> <P>
+> 
 		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-</P>
+
 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "25482737"
 <td><p>Указывает, следует ли доступа принудительное отключение базы данных пользователей. Если параметр имеет значение <strong>Yes</strong>, все пользователи, подключенные к текущей базе данных не соединены по сети, чтобы операции копирования базы данных можно продолжить. Если значение <strong>No</strong> , а один или несколько пользователей подключены к базе данных, возникает ошибка операции копирования базы данных. Значение по умолчанию: <strong>Нет</strong>.</p>
 
 > [!WARNING]
-> <P>Отключение пользователей из базы данных без предварительного предупреждения может привести к потере данных.</P>
+> Отключение пользователей из базы данных без предварительного предупреждения может привести к потере данных.
 
 
 <p></p></td>

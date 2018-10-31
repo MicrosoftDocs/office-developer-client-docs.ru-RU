@@ -1,19 +1,19 @@
 ---
-title: Microsoft Data Shaping Service for OLE DB (ADO Service Provider)
+title: Служба формирования данных (Майкрософт) для OLE DB (поставщик служб ADO)
 TOCTitle: Microsoft Data Shaping Service for OLE DB (ADO Service Provider)
 ms:assetid: 6e6e5f39-6f43-7c7b-5812-796096d1d31b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249436(v=office.15)
 ms:contentKeyID: 48545511
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a72dcc754f39144da4476c9262b93b920fbfbdf6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 526c333f774aaf77079279932f8d9adf39915984
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481666"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861493"
 ---
-# <a name="microsoft-data-shaping-service-for-ole-db-ado-service-provider"></a>Microsoft Data Shaping Service for OLE DB (ADO Service Provider)
+# <a name="microsoft-data-shaping-service-for-ole-db-ado-service-provider"></a>Служба формирования данных (Майкрософт) для OLE DB (поставщик служб ADO)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -73,5 +73,5 @@ Debug.Print cn.Properties("Data Provider")
 cn.Properties("Data Provider") = "MSDASQL" 
 ```
 
-Дополнительные сведения о данных формирования [Формирования данных](data-shaping-summary.md)см.
+Дополнительные сведения о данных формирования [Формирования данных](data-shaping.md)см.
 

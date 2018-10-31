@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b777e53bfad06e0b6c98490f7ec8bf3628c2823
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 7f0e8fa499a21bb231131b968c1456af9cb86a45
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603184"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862956"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Connection.OpenRecordset Method (DAO)
 
@@ -57,7 +57,7 @@ ms.locfileid: "25603184"
 <td><p>Константа <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> , указывающая тип <strong>набора записей</strong> , чтобы открыть.</p>
 
 > [!NOTE]
-> <P>При открытии <STRONG>набора записей</STRONG> в рабочей области Microsoft Access и тип не указан, <STRONG>OpenRecordset</STRONG> создает табличного типа <STRONG>записей</STRONG>, если это возможно. При указании связанной таблицы или запроса, <STRONG>OpenRecordset</STRONG> создает добавляющий <STRONG>набора записей</STRONG>.</P>
+> При открытии **набора записей** в рабочей области Microsoft Access и тип не указан, **OpenRecordset** создает табличного типа **записей**, если это возможно. При указании связанной таблицы или запроса, **OpenRecordset** создает добавляющий **набора записей**.
 
 
 </td>
@@ -69,7 +69,7 @@ ms.locfileid: "25603184"
 <td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> , которые задают характеристики нового <strong>набора записей</strong>.</p>
 
 > [!NOTE]
-> <P>Константы <STRONG>dbConsistent</STRONG> и <STRONG>dbInconsistent</STRONG> являются взаимоисключающими и использовании обоих приводит к ошибке. Также указав аргумент lockedits при параметры использует константу <STRONG>dbReadOnly</STRONG> приводит к ошибке.</P>
+> Константы **dbConsistent** и **dbInconsistent** являются взаимоисключающими и использовании обоих приводит к ошибке. Также указав аргумент lockedits параметров с помощью константу **dbReadOnly** приводит к ошибке.
 
 
 </td>
@@ -81,7 +81,7 @@ ms.locfileid: "25603184"
 <td><p>Константа <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> , определяющая блокировки для <strong>набора записей</strong>.</p>
 
 > [!NOTE]
-> <P>Можно использовать <STRONG>dbReadOnly</STRONG> в аргументе параметры или аргумент lockedits, но не оба. При использовании обоих аргументов, возникает ошибка времени выполнения.</P>
+> Можно использовать **dbReadOnly** в аргументе параметры или аргумент lockedits, но не оба. При использовании обоих аргументов, возникает ошибка времени выполнения.
 
 
 </td>
@@ -94,7 +94,7 @@ ms.locfileid: "25603184"
 ### <a name="return-value"></a>Возвращаемое значение
 =======
 ### <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
+>>>>>>> образец
 
 Набор записей
 
@@ -110,6 +110,6 @@ ms.locfileid: "25603184"
 
 
 > [!NOTE]
-> <P>Если <EM>источник</EM> относится к инструкции SQL состоит из строки объединяется с дробное значение и системных параметров укажите десятичных знаков например запятыми (, например strSQL = «PRICE &gt; " &amp; lngPrice и lngPrice = 125,50), возникает ошибка при попытке открыть <STRONG>набора записей</STRONG>. Это так, как во время объединения, номер будет преобразован в строку с помощью системы по умолчанию десятичных знаков и SQL принимает только США десятичных знаков.</P>
+> Если *источник* относится к инструкции SQL состоит из строки объединяется с дробное значение и системных параметров укажите десятичных знаков например запятыми (, например strSQL = «PRICE &gt; " &amp; lngPrice и lngPrice = 125,50), возникает ошибка при попытке открыть **набора записей**. Это так, как во время объединения, номер будет преобразован в строку с помощью системы по умолчанию десятичных знаков и SQL принимает только США десятичных знаков.
 
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
 ms:contentKeyID: 48548289
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62b195907d5acc05832c1feac45165aadd9e14d1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 526498ee22bc82735eb3b98e633aa3d1b4cfb610
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481082"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864104"
 ---
 # <a name="error-object-dao"></a>Error Object (DAO)
 
@@ -40,7 +40,7 @@ ms.locfileid: "25481082"
     
 
     > [!NOTE]
-    > <P>При программировании в Microsoft Visual Basic для приложений (VBA), при использовании ключевого слова <STRONG>New</STRONG> для создания объекта, который затем вызывает ошибку перед этот объект был добавлен коллекцию объектов <STRONG>DBEngine</STRONG> <STRONG>ошибки</STRONG> семейства сайтов не будет содержать запись для этого объекта ошибки, так как новый объект не связан с объектом <STRONG>DBEngine</STRONG> . Тем не менее сведения об ошибке доступна в объекте VBA <STRONG>Err</STRONG> . Код обработки ошибок VBA следует изучить семейство <STRONG>Errors</STRONG> каждый раз, когда поступает ошибка доступа к данным. При создании обработчик централизованного ошибок проверки объекта VBA <STRONG>Err</STRONG> , чтобы определить допустимость сведения об ошибке в семействе <STRONG>Errors</STRONG> . Если свойство <STRONG>номер</STRONG> последнего элемента семейство <STRONG>Errors</STRONG> (DBEngine.Errors.Count - 1) и значение объекта <STRONG>Err</STRONG> , соответствуют, воспользуйтесь последовательность операторов <STRONG>Select Case</STRONG> для определения конкретной ошибки DAO или ошибки, возникшие. Если они не совпадают, используйте метод <STRONG><A href="errors-refresh-method-dao.md">Refresh</A></STRONG> на семейство <STRONG>Errors</STRONG> .</P>
+    > При программировании в Microsoft Visual Basic для приложений (VBA), при использовании ключевого слова **New** для создания объекта, который затем вызывает ошибку перед этот объект был добавлен коллекцию объектов **DBEngine** **ошибки** семейства сайтов не будет содержать запись для этого объекта ошибки, так как новый объект не связан с объектом **DBEngine** . Тем не менее сведения об ошибке доступна в объекте VBA **Err** . Код обработки ошибок VBA следует изучить семейство **Errors** каждый раз, когда поступает ошибка доступа к данным. При создании обработчик централизованного ошибок проверки объекта VBA **Err** , чтобы определить допустимость сведения об ошибке в семействе **Errors** . Если свойство **номер** последнего элемента семейство **Errors** (DBEngine.Errors.Count - 1) и значение объекта **Err** , соответствуют, воспользуйтесь последовательность операторов **Select Case** для определения конкретной ошибки DAO или ошибки, возникшие. Если они не совпадают, используйте метод [Refresh](errors-refresh-method-dao.md) на семейство **Errors** .
 
 
 

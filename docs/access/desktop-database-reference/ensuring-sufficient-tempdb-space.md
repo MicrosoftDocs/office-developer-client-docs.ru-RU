@@ -1,34 +1,30 @@
 ---
-title: Ensuring Sufficient TempDB Space
+title: Обеспечение наличия достаточного места в TempDB
 TOCTitle: Ensuring Sufficient TempDB Space
 ms:assetid: 2729c118-ec8b-1fcb-4a90-56b57823b24c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 886db9f42f44bd1df4acb678cb969b6d81a64df8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5d049a098a7f7cfd826c6c5945c71831acbceb04
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480875"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863054"
 ---
-# <a name="ensuring-sufficient-tempdb-space"></a>Ensuring Sufficient TempDB Space
+# <a name="ensuring-sufficient-tempdb-space"></a>Обеспечение наличия достаточного места в TempDB
 
 
 **Применимо к**: Access 2013 | Office 2013
 
 При возникновении ошибок во время обработки объектов [наборов записей](recordset-object-ado.md) , которые должны обработки места на Microsoft SQL Server 6.5, может потребоваться увеличение размера базы данных TempDB. (Некоторые запросы требуют пространства временные обработки; например запрос с предложение ORDER BY требует сортировку набора **записей**, что требует временного место).
 
-
 > [!IMPORTANT]
-> <P>Прочитайте эту процедуру перед выполнением действий, так как он не так просто уменьшения размера устройства, когда она развернута.</P>
-
-
-
+> Прочитайте эту процедуру перед выполнением действий, так как он не так просто уменьшения размера устройства, когда она развернута.
 
 > [!NOTE]
-> <P>По умолчанию в Microsoft SQL Server 7.0 и более поздних версий базы данных TempDB присваивается автоматически увеличиваться по мере необходимости. Таким образом эта процедура может быть только необходимые на серверах под управлением версии меньше 7.0.</P>
+> По умолчанию в Microsoft SQL Server 7.0 и более поздних версий базы данных TempDB присваивается автоматически увеличиваться по мере необходимости. Таким образом эта процедура может быть только необходимые на серверах под управлением версии меньше 7.0.
 
 
 

@@ -1,19 +1,19 @@
 ---
-title: Configuring DataFactory for Safe or Unrestricted Modes
+title: Настройка DataFactory для безопасного и нестрогого режимов
 TOCTitle: Configuring DataFactory for Safe or Unrestricted Modes
 ms:assetid: 1516068f-1b02-3236-f6a9-9fdeff098e52
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3f551e4c377a0c24a0b733ff094e19d1b75d725
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 04964b085d6ece60bbdb30e4561e6e02de76268d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606404"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863936"
 ---
-# <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>Configuring DataFactory for Safe or Unrestricted Modes
+# <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>Настройка DataFactory для безопасного и нестрогого режимов
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -26,13 +26,13 @@ ms.locfileid: "25606404"
 
 3.  Файл Msdfmap.ini устанавливается в каталоге Windows. По мере необходимости, перед использованием служб удаленных рабочих СТОЛОВ в режим трехуровневой необходимо настроить этот файл.
 
-При необходимости можно настроить неограниченный установки **DataFactory** . **DataFactory** может использоваться напрямую без пользовательский обработчик. Пользователи по-прежнему могут использовать пользовательский обработчик путем изменения строки подключения, но не требуется. Дополнительные сведения о результаты использования объекта **RDSServer.DataFactory** см [Обеспечение безопасности приложений служб удаленных рабочих СТОЛОВ](securing-rds-applications.md).
+При необходимости можно настроить неограниченный установки **DataFactory** . **DataFactory** может использоваться напрямую без пользовательский обработчик. Пользователи по-прежнему могут использовать пользовательский обработчик путем изменения строки подключения, но не требуется. Дополнительные сведения о влиянии с помощью объекта **RDSServer.DataFactory** [Обеспечение безопасности приложений служб удаленных рабочих СТОЛОВ](securing-rds-applications.md)см.
 
 Настройка записей реестра обработчик для настройки безопасных было предоставлено handsafe.reg файла реестра. Чтобы запустить в безопасном режиме, запустите handsafe.reg. Настройка записей реестра обработчик для неограниченный конфигурации было предоставлено handunsf.reg файла реестра. Чтобы запустить в режиме без ограничений, запустите handunsf.reg.
 
 <<<<<<< HEAD после выполнения handsafe.reg или handunsf.reg, необходимо остановить и перезапустить службу публикации Интернета на веб-сервере, введя следующие команды в командной строке: «NET STOP W3SVC» и «W3SVC ЗАПУСТИТЕ NET».
 === После запуска handsafe.reg или handunsf.reg, необходимо остановить и перезапустить службу публикации Интернета на веб-сервере, введя следующие команды в командной строке: «NET STOP W3SVC» и «W3SVC ЗАПУСТИТЕ NET».
->>>>>>> master
+>>>>>>> образец
 
 Дополнительные сведения об использовании компонента обработчика настройки из служб удаленных рабочих СТОЛОВ в статье технические с помощью компонента обработчика настройки в 2.1 служб удаленных рабочих СТОЛОВ.
 

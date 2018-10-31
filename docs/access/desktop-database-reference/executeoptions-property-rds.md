@@ -1,19 +1,19 @@
 ---
-title: ExecuteOptions Property (RDS)
+title: Свойство ExecuteOptions (RDS)
 TOCTitle: ExecuteOptions Property (RDS)
 ms:assetid: fb244cbd-9a03-9128-1373-694c9061c9da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
 ms:contentKeyID: 48548864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e5a91d3941db0b7daa61b506c136dab59f24ed0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 8b91fc64a05ebdd947274cc4a119344ec2a6e284
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603590"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863957"
 ---
-# <a name="executeoptions-property-rds"></a>ExecuteOptions Property (RDS)
+# <a name="executeoptions-property-rds"></a>Свойство ExecuteOptions (RDS)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "25603590"
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 =======
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
+>>>>>>> образец
 
 Задает или возвращает одно из следующих значений.
 
@@ -54,7 +54,7 @@ ms.locfileid: "25603590"
 
 
 > [!NOTE]
-> <P>Каждый исполняемый файл со стороны клиента, который использует эти константы необходимо предоставить объявления для них. Можно вырежьте и вставьте объявлений констант, которые будут из файла Adcvbs.inc, находящийся в папке C:\Program Files\Common Files\System\MSADC.</P>
+> Каждый исполняемый файл со стороны клиента, который использует эти константы необходимо предоставить объявления для них. Можно вырежьте и вставьте объявлений констант, которые будут из файла Adcvbs.inc, находящийся в папке C:\Program Files\Common Files\System\MSADC.
 
 
 

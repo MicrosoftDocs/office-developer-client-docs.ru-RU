@@ -6,23 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 001cb1372acf4a4a55b3841a3f4ca8d6598f55e8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d797852512becee7f076298750495205cd09bf86
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480546"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861503"
 ---
 # <a name="connection-members-dao"></a>Connection Members (DAO)
 
-
 **Применимо к**: Access 2013 | Office 2013
 
-
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access. Объект подключения представляет подключение к базе данных ODBC (только для рабочих областей технология ODBCDirect).</P>
-
-
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access. Объект подключения представляет подключение к базе данных ODBC (только для рабочих областей технология ODBCDirect).
+ 
 
 ## <a name="methods"></a>Методы
 
@@ -42,8 +39,7 @@ ms.locfileid: "25480546"
 <td><p><strong><a href="connection-cancel-method-dao.md">Отмена</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+<br/>
 
 
 <p>Отменяет выполнение ожидающие асинхронного вызова метода (только для рабочих областей технология ODBCDirect).</p></td>
@@ -90,8 +86,7 @@ ms.locfileid: "25480546"
 <td><p><strong><a href="connection-database-property-dao.md">База данных</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+<br/>
 
 
 <p>Возвращает объект <strong><a href="database-object-dao.md">базы данных</a></strong> , соответствующий для этого подключения (только для рабочих областей технология ODBCDirect).</p></td>
@@ -120,8 +115,7 @@ ms.locfileid: "25480546"
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+<br/>
 
 
 <p>Указывает, следует ли асинхронной операции (то есть, вызывается метод с параметром <strong>dbRunAsync</strong> ) завершено выполнение (только для рабочих областей технология ODBCDirect).</p></td>

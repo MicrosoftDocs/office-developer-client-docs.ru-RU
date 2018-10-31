@@ -1,19 +1,19 @@
 ---
-title: 'Chapter 3: Examining Data'
+title: Глава 3. Осмотр данных
 TOCTitle: 'Chapter 3: Examining Data'
 ms:assetid: 73c69134-3127-3344-d5c3-5ecb9e0e958b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249474(v=office.15)
 ms:contentKeyID: 48545648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 481fbc3bc39f184aeefe6738ac8d2a80fcd1d93f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: af923408c07ac0437bde0aa52707b70c1a002ffc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481407"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25859897"
 ---
-# <a name="chapter-3-examining-data"></a>Chapter 3: Examining Data
+# <a name="chapter-3-examining-data"></a>Глава 3. Осмотр данных
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -105,3 +105,10 @@ End Sub
 
 Следующем разделе объясняется, как найти текущей позиции курсора в этом примере **набора записей**.
 
+В этой главе рассматриваются следующие темы:
+
+  - [Locating the Current Record (ADO)](locating-the-current-record.md)
+
+  - [Navigating Through the Data (ADO)](navigating-through-the-data.md)
+
+  - [Understanding Recordset Structure (ADO)](understanding-recordset-structure.md)

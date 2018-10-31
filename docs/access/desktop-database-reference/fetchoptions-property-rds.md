@@ -1,19 +1,19 @@
 ---
-title: FetchOptions Property (RDS)
+title: Свойство FetchOptions (RDS)
 TOCTitle: FetchOptions Property (RDS)
 ms:assetid: 0d86c5e4-9abc-5c0e-dc04-4183f4c278cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f98872c3eae47e1b657e0b16b5df5b5c46b421a5
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: b3e7251ba50b003b37cdeb0dd70fe4a98821d4c9
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607020"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861934"
 ---
-# <a name="fetchoptions-property-rds"></a>FetchOptions Property (RDS)
+# <a name="fetchoptions-property-rds"></a>Свойство FetchOptions (RDS)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -54,7 +54,7 @@ ms.locfileid: "25607020"
 
 
 > [!NOTE]
-> <P>Каждый исполняемый файл со стороны клиента, который использует эти константы необходимо предоставить объявления для них. Можно вырежьте и вставьте объявлений констант из файла Adcvbs.inc, находящийся в папке C:\Program Files\Common Files\System\MSADC.</P>
+> Каждый исполняемый файл со стороны клиента, который использует эти константы необходимо предоставить объявления для них. Можно вырежьте и вставьте объявлений констант из файла Adcvbs.inc, находящийся в папке C:\Program Files\Common Files\System\MSADC.
 
 
 
@@ -62,5 +62,5 @@ ms.locfileid: "25607020"
 
 <<<<<<< HEAD в веб-приложении, обычно требуется использовать **adcFetchAsync** (значение по умолчанию), так как он обеспечивает более высокую производительность. В скомпилированном клиентское приложение, которое обычно требуется использовать **adcFetchBackground**.
 === В веб-приложении обычно требуется использовать **adcFetchAsync** (значение по умолчанию), так как он обеспечивает более высокую производительность. В скомпилированном клиентское приложение, которое обычно требуется использовать **adcFetchBackground**.
->>>>>>> master
+>>>>>>> образец
 

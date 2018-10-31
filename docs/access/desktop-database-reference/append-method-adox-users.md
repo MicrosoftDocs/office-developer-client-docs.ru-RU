@@ -1,19 +1,19 @@
 ---
-title: Append Method (ADOX Users)
+title: Добавьте метод (ADOX пользователей)
 TOCTitle: Append Method (ADOX Users)
 ms:assetid: b7a1128b-c6e7-2071-c914-913b6bd245ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249884(v=office.15)
 ms:contentKeyID: 48547302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8bce151e800b58e9c99c6dd6591114c53208a5c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dc8f7a2d217a25a8404765aa05bae19fdccad2c3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480569"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863866"
 ---
-# <a name="append-method-adox-users"></a>Append Method (ADOX Users)
+# <a name="append-method-adox-users"></a>Добавьте метод (ADOX пользователей)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -43,6 +43,6 @@ ms.locfileid: "25480569"
 
 
 > [!NOTE]
-> <P>Перед добавлением объекта <STRONG>пользователя</STRONG> в коллекцию <STRONG>пользователей</STRONG> объекта <STRONG>группы</STRONG> , объект <STRONG>пользователя</STRONG> с тем же <A href="name-property-adox.md">именем</A> , который будет добавляться должны уже существовать в коллекции <STRONG>пользователей</STRONG> из <STRONG>каталога</STRONG>.</P>
+> Перед добавлением объекта **пользователя** в коллекцию **пользователей** объекта **группы** , объект **пользователя** с тем же [именем](name-property-adox.md) , который будет добавляться должны уже существовать в коллекции **пользователей** из **каталога**.
 
 

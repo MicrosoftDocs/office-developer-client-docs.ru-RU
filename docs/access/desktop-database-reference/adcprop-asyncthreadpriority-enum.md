@@ -4,14 +4,14 @@ TOCTitle: ADCPROP_ASYNCTHREADPRIORITY_ENUM
 ms:assetid: b15006dd-22d5-fcf3-8196-9e24ea9d55a7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249844(v=office.15)
 ms:contentKeyID: 48547143
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ae89c81b903930eb114cf050688598bc2802a25e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b84a06efde252ca6c128e0bcc0baccaf3676e06e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482276"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862949"
 ---
 # <a name="adcpropasyncthreadpriorityenum"></a>ADCPROP\_ASYNCTHREADPRIORITY\_ENUM
 
@@ -20,6 +20,8 @@ ms.locfileid: "25482276"
 Объект служб удаленных рабочих СТОЛОВ [записей](recordset-object-ado.md) указывает приоритет выполнения асинхронного потока, который получает данные.
 
 Используйте эти константы с свойство динамических «**Приоритет потока фона**» **набора записей** , которое по ссылке в индексе динамические свойства ADO и описаны в документации по [Microsoft служба курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) .
+
+<br/>
 
 <table>
 <colgroup>
@@ -63,8 +65,7 @@ ms.locfileid: "25482276"
 </tbody>
 </table>
 
-
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 

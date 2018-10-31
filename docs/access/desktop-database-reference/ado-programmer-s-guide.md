@@ -1,36 +1,75 @@
 ---
-title: ADO Programmer's Guide
+title: Руководство программиста ADO
 TOCTitle: ADO Programmer's Guide
 ms:assetid: b68a982e-17b6-7dd6-ca9d-3a5960d815da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249876(v=office.15)
 ms:contentKeyID: 48547278
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85ca44a2891b763274a279a7dbed062f4fc05c56
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2e0ad3f70f1bfe2aa8128e0bd2f504c200546a9a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481951"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862886"
 ---
-# <a name="ado-programmers-guide"></a>ADO Programmer's Guide
+# <a name="ado-programmers-guide"></a>Руководство программиста ADO
 
+**Применимо к**: Access 2013, Office 2013
 
-**Применимо к**: Access 2013 | Office 2013
+Руководство программиста ADO был создан для разработчиков, которые появились в ADO, предоставив им подробное введение в технологии. В этом руководстве описаны библиотек семейства ADO и используется пример кода на различных языках для поясняется, как использовать библиотеки, рекомендации по использованию библиотеки и советы и рекомендации для максимальной производительности приложения ADO.
 
-Введение в Руководство программиста Microsoft ActiveX Data Objects (ADO) в следующих разделах:
+Руководство программиста ADO содержит следующие разделы и главы:
 
-  - [Введение](introduction-to-ado-programming.md)
+- [Введение](introduction-to-ado-programming.md)
+  
+- [Раздел по созданию ActiveX Data Objects (ADO)](section-i-activex-data-objects.md)
+    
+    - [Глава 1. Основы ADO](chapter-1-ado-fundamentals.md)
+    
+    - [Глава 2. Получение данных](chapter-2-getting-data.md)
+    
+    - [Глава 3. Осмотр данных](chapter-3-examining-data.md)
+    
+    - [Глава 4. Редактирование данных](chapter-4-editing-data.md)
+    
+    - [Глава 5. Обновление и сохранение данных](chapter-5-updating-and-persisting-data.md)
+    
+    - [Глава 6. Обработка ошибок](chapter-6-error-handling.md)
+    
+    - [Глава 7: Обработка событий ADO](chapter-7-handling-ado-events.md)
+    
+    - [Глава 8. Общие сведения о курсорах и блокировках](chapter-8-understanding-cursors-and-locks.md)
+    
+    - [Глава 9. Формирование данных](chapter-9-data-shaping.md)
+    
+    - [Глава 10. Записи и потоки](chapter-10-records-and-streams.md)
 
-  - [What's New in ADO](what-s-new-in-ado.md)
+- [Раздел II: Служба удаленных данных (RDS)](section-ii-remote-data-service.md)
+    
+    - [Глава 11. Основные сведения об RDS](chapter-11-rds-fundamentals.md)
+    
+    - [Глава 12. Руководство по RDS](chapter-12-rds-tutorial.md)
+    
+    - [Глава 13. Безопасность и использование RDS](chapter-13-rds-usage-and-security.md)
 
-  - [Необходимые компоненты](prerequisites-ado-introduction.md)
+- [Раздел III: (Многомерные) (ADOMD) объекты данных ActiveX](section-iii-ado-multidimensional-ado-md.md)
+    
+    - [Глава 14. Основные сведения об ADO MD](chapter-14-ado-md-fundamentals.md)
 
-  - [The ADO Family of Libraries](the-ado-family-of-libraries.md)
+- [Раздел IV: Объекты данных ActiveX расширения язык описания данных и безопасности (ADOX)](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
+    
+    - [Глава 15. Основы ADOX](chapter-15-adox-fundamentals.md)
 
-  - [The Role of ADO in Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md)
+- [Раздел V. Приложения](section-v-appendixes.md)
+    
+    - [Приложение А. Поставщики](appendix-a-providers.md)
+    
+    - [Приложение Б. Ошибки ADO](appendix-b-ado-errors.md)
+    
+    - [Приложение В. Программирование с помощью ADO](appendix-c-programming-with-ado.md)
+    
+    - [Приложение Г. Примеры ADO](appendix-d-ado-samples.md)
 
-  - [ADO Task Table](ado-task-table.md)
-
-  - [ADO Technology Table](ado-technology-table.md)
+- [Глоссарий ADO](ado-glossary.md)
 

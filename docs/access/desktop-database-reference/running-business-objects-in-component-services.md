@@ -1,19 +1,19 @@
 ---
-title: Running Business Objects in Component Services
+title: Выполнение бизнес-объектов в службах компонентов
 TOCTitle: Running Business Objects in Component Services
 ms:assetid: 12103458-b1dd-10fc-37e8-883fd6c6b9d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248893(v=office.15)
 ms:contentKeyID: 48543328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41424fd62e915ecb2d54fdb49c939b788f458804
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0eb70a615f49ff351ec31a826abc9775558218dd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480979"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862557"
 ---
-# <a name="running-business-objects-in-component-services"></a>Running Business Objects in Component Services
+# <a name="running-business-objects-in-component-services"></a>Выполнение бизнес-объектов в службах компонентов
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -26,6 +26,11 @@ ms.locfileid: "25480979"
 
 
 > [!NOTE]
-> <P>При реализации бизнес-объекты на среднем уровне как компоненты службы компонентов (с помощью <STRONG>GetObjectContext</STRONG>, <STRONG>SetComplete</STRONG>и <STRONG>SetAbort</STRONG>), они могут использовать службы компонентов (или MTS, если вы используете Windows NT) контекст объектов сохранение их состояния между нескольких клиентских вызовов. Этот сценарий можно с помощью DCOM, который обычно реализуются между доверенных клиентов и серверов (интрасеть). В данном случае <A href="dataspace-object-rds.md">RDS. Пространства данных</A> объект и метод <A href="createobject-method-rds.md">CreateObject</A> на стороне клиента, заменяются объект context транзакций и <STRONG>CreateInstance</STRONG> метод (интерфейс <STRONG>ITransactionContext</STRONG> ), реализованные с помощью службы компонентов.</P>
+> При реализации бизнес-объекты на среднем уровне как компоненты службы компонентов (с помощью **GetObjectContext**, **SetComplete**и **SetAbort**), они могут использовать службы компонентов (или MTS, если вы используете Windows NT) контекст объектов сохранение их состояния между нескольких клиентских вызовов. Этот сценарий можно с помощью DCOM, который обычно реализуются между доверенных клиентов и серверов (интрасеть). 
+>
+> В данном случае [RDS. Пространства данных](dataspace-object-rds.md) объект и метод [CreateObject](createobject-method-rds.md) на стороне клиента, заменяются объект context транзакций и **CreateInstance** метод (интерфейс **ITransactionContext** ), реализованные с помощью службы компонентов.
 
 
+## <a name="see-also"></a>См. также
+
+- [Выполнение бизнес-объекты в службы компонентов (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)

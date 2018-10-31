@@ -4,21 +4,22 @@ TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 5b39fc42259a1906891b82bf9b9ef252997e6240
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 91d1ad892557ad944dca175a3589a74e7205ad01
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482667"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862578"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Задает разрешения, доступные для изменения данных в [подключения](connection-object-ado.md), открытие [записи](record-object-ado.md)или указания значения для свойства [режима](mode-property-ado.md) объектов [потока](stream-object-ado.md) и **запись** .
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,7 +48,7 @@ ms.locfileid: "25482667"
 <tr class="odd">
 <td><p><strong>adModeRecursive</strong></p></td>
 <td><p>0x400000</p></td>
-<td><p>Используется в сочетании с другими <em>*ShareDeny*</em> значения (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>или <strong>adModeShareDenyRead</strong>) для распространения ограничения общего доступа ко всем дочерним записям текущей <strong>записи</strong>. Он не оказывает воздействия, если <strong>запись</strong> не имеет дочерние элементы. При использовании с <strong>adModeShareDenyNone</strong> только создается ошибку времени выполнения. Тем не менее его можно использовать с <strong>adModeShareDenyNone</strong> в сочетании с другими значениями. Например, можно использовать &quot; <strong>adModeRead</strong> или <strong>adModeShareDenyNone</strong> или <strong>adModeRecursive</strong>&quot;.</p></td>
+<td><p>Используется в сочетании с другими <em>*ShareDeny*</em> значения (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>или <strong>adModeShareDenyRead</strong>) для распространения ограничения общего доступа ко всем дочерним записям текущей <strong>записи</strong>. Он не оказывает воздействия, если <strong>запись</strong> не имеет дочерние элементы.</p><p>При использовании с <strong>adModeShareDenyNone</strong> только создается ошибку времени выполнения. Тем не менее его можно использовать с <strong>adModeShareDenyNone</strong> в сочетании с другими значениями. Например, можно использовать &quot; <strong>adModeRead</strong> или <strong>adModeShareDenyNone</strong> или <strong>adModeRecursive</strong>&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
@@ -83,7 +84,7 @@ ms.locfileid: "25482667"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 

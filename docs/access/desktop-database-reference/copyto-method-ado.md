@@ -1,19 +1,19 @@
 ---
-title: CopyTo Method (ADO)
+title: Метод CopyTo (ADO)
 TOCTitle: CopyTo Method (ADO)
 ms:assetid: 1c1ab950-51f7-7ecc-ccd8-e689db02f06a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6bd949b92068619b76ac78d5e62cde0e247ed7b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 178254006216a71ae34c437da86cb8381d82125e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481187"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861584"
 ---
-# <a name="copyto-method-ado"></a>CopyTo Method (ADO)
+# <a name="copyto-method-ado"></a>Метод CopyTo (ADO)
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -29,13 +29,10 @@ ms.locfileid: "25481187"
 
   - *DestStream*
 
-  - Объект значение переменной, которая содержит ссылку на объект open **потока** . Текущего **потока** копируется в место назначения **потока** , указанного идентификатором *DestStream*. Целевой **поток** уже должен быть открыт. Если это не так, возникает ошибка времени выполнения.
-    
+  - Объект значение переменной, которая содержит ссылку на объект open **потока** . Текущего **потока** копируется в место назначения **потока** , указанного идентификатором *DestStream*. Целевой **поток** уже должен быть открыт. Если это не так, возникает ошибка времени выполнения.   
 
     > [!NOTE]
-    > <P>Параметр <EM>DestStream</EM> не может быть прокси-сервера объекта <STRONG>потока</STRONG> , так как это требуется доступ к частный интерфейс на объект <STRONG>Stream</STRONG> , нельзя удаленно отправить клиенту.</P>
-
-
+    > Параметр *DestStream* не может быть использования прокси-сервера на объект **Stream** , так как это требуется доступ к частный интерфейс на объект **Stream** , нельзя удаленно отправить клиенту.
 
   - *NumChars*
 

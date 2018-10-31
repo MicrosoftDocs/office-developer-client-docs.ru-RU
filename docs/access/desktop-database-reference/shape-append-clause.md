@@ -1,19 +1,19 @@
 ---
-title: Shape Append Clause
+title: Предложение добавления фигуры
 TOCTitle: Shape Append Clause
 ms:assetid: 8f29afc3-fb93-4439-b67b-cad0eed0bda9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6460572f44e79fe4bdb30d1ca33810d610da9721
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cb8e60c52ded359350adff737807c3e0f92cb7c4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480279"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862128"
 ---
-# <a name="shape-append-clause"></a>Shape Append Clause
+# <a name="shape-append-clause"></a>Предложение добавления фигуры
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -122,3 +122,12 @@ SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO 
 
 ФИГУРА выполняет выберите \* из t1; Поместите таблицы t1 и (выберите \* из t2 ссылка k1 кому k2), не осознавать, входящей в таблице t1 является отдельным и в этой команде делами, опасной, поставщика. Приложения всегда должны проверить пользователем данные, чтобы предотвратить такие потенциальных атак злоумышленников.
 
+В этом разделе содержатся следующие разделы:
+
+- [Операция для команд без параметров](operation-of-non-parameterized-commands.md)
+
+- [Операция для команд с параметрами](operation-of-parameterized-commands.md)
+
+- [Гибридные команды](hybrid-commands.md)
+
+- [Предложения COMPUTE для промежуточных фигур](intervening-shape-compute-clauses.md)

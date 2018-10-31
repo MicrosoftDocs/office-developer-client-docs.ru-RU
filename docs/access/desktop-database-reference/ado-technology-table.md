@@ -1,19 +1,19 @@
 ---
-title: ADO Technology Table
+title: Таблица технологий ADO
 TOCTitle: ADO Technology Table
 ms:assetid: 3aaf5036-ff18-7e80-c131-9459ce78eec4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62e57c91acd83291ee7390d305303521510acbd2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 79ab3111d7ca390101a3742ba2b1120e924b946f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482189"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864139"
 ---
-# <a name="ado-technology-table"></a>ADO Technology Table
+# <a name="ado-technology-table"></a>Таблица технологий ADO
 
 
 **Применимо к**: Access 2013 | Office 2013
@@ -38,7 +38,7 @@ ms.locfileid: "25482189"
 </tr>
 <tr class="even">
 <td><p>Интерфейсы службы Active Directory</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Поставщик Microsoft OLE DB для службы Microsoft Active Directory</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>COM/DCOM</p></td>
@@ -46,15 +46,15 @@ ms.locfileid: "25482189"
 </tr>
 <tr class="even">
 <td><p>FrontPage</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации в Интернете</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Служба индексирования</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Поставщик Microsoft OLE DB для службы индексирования (Майкрософт)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Internet Explorer</p></td>
-<td><p><a href="internet-explorer-error-codes.md">Internet Explorer Error Codes</a></p></td>
+<td><p><a href="internet-explorer-error-codes.md">Коды ошибок Internet Explorer</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Службы IIS</p></td>
@@ -74,7 +74,7 @@ ms.locfileid: "25482189"
 </tr>
 <tr class="odd">
 <td><p>Oracle</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Microsoft OLE DB Provider for Oracle</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Поставщик Microsoft OLE DB для Oracle</a></p></td>
 </tr>
 <tr class="even">
 <td><p>SQL Server 2000</p></td>
@@ -82,11 +82,11 @@ ms.locfileid: "25482189"
 </tr>
 <tr class="odd">
 <td><p>Сервер транзакций</p></td>
-<td><p><a href="running-business-objects-in-component-services.md">Running Business Objects in Component Services</a></p></td>
+<td><p><a href="running-business-objects-in-component-services.md">Выполнение бизнес-объектов в службах компонентов</a></p></td>
 </tr>
 <tr class="even">
 <td><p>VBScript</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a> <a href="visual-basic-for-applications-functions.md">Visual Basic для приложений функции</a> <a href="solutions-for-remote-data-access.md">Решения для удаленного доступа к данным</a> <a href="rds-tutorial-vbscript.md">При помощи учебника по служб удаленных рабочих СТОЛОВ (VBScript)</a> <a href="vbscript-ado-programming.md">Программирование VBScript ADO</a> <a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">Примеры кода ADO в Microsoft Visual Basic Scripting Edition</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a> <a href="visual-basic-for-applications-functions.md">Visual Basic для приложений функции</a> <a href="solutions-for-remote-data-access.md">Решения для удаленного доступа к данным</a> <a href="rds-tutorial-vbscript.md">При помощи учебника по служб удаленных рабочих СТОЛОВ (VBScript)</a> <a href="vbscript-ado-programming.md">Программирование VBScript ADO</a> <a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">ADO примеры кода на языках Microsoft Visual Basic Scripting Edition</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
@@ -98,11 +98,11 @@ ms.locfileid: "25482189"
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a> <a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">При создании экземпляра события ADO по языкам</a> <a href="rds-tutorial-visual-j.md">При помощи учебника по служб удаленных рабочих СТОЛОВ (Visual J ++)</a> <a href="using-ado-with-microsoft-visual-j.md">С помощью ADO с помощью Microsoft Visual J ++ (en)</a> <a href="ado-code-examples-in-microsoft-visual-j.md">ADO примеры кода на языках Microsoft Visual J ++ (en)</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a> <a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">При создании экземпляра события ADO по языкам</a> <a href="rds-tutorial-visual-j.md">При помощи учебника по служб удаленных рабочих СТОЛОВ (Visual J ++)</a> <a href="using-ado-with-microsoft-visual-j.md">С помощью ADO с помощью Microsoft Visual J ++ (en)</a> <a href="ado-code-examples-in-microsoft-visual-j.md">Примеры кода ADO в Microsoft Visual J ++ (en)</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio.</p></td>
-<td><p><a href="appendix-d-ado-samples.md">Appendix D: ADO Samples</a></p></td>
+<td><p><a href="appendix-d-ado-samples.md">Приложение Г. Примеры ADO</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows 2000</p></td>

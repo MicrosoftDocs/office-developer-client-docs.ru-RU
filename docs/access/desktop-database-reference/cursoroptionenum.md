@@ -4,21 +4,22 @@ TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
 ms:contentKeyID: 48544303
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a6d6f66e3bdee06611faafef5d32a2a486fc2028
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 211ab4fc9bf4cab6302c8f2bd5f236aecdd0b078
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480691"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863655"
 ---
 # <a name="cursoroptionenum"></a>CursorOptionEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает, какие функции [поддерживает](supports-method-ado.md) метод, следует проверить наличие.
+
+<br/>
 
 <table>
 <colgroup>
@@ -103,7 +104,7 @@ ms.locfileid: "25480691"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 

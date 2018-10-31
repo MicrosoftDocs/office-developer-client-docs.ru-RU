@@ -4,21 +4,22 @@ TOCTitle: ConnectPromptEnum
 ms:assetid: 81dff685-b2e4-467e-75cc-b8c5bf80fb75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)
 ms:contentKeyID: 48545965
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e405b1eb3a1326d56a32c432fb212de417cf3469
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f10fd9fada954bb5e3a356961636b2022c73bae3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482914"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862172"
 ---
 # <a name="connectpromptenum"></a>ConnectPromptEnum
-
 
 **Применимо к**: Access 2013 | Office 2013
 
 Указывает, следует ли отображать диалоговое окно запрашивать отсутствующие параметры при открытии подключения к источнику данных.
+
+<br/>
 
 <table>
 <colgroup>
@@ -58,7 +59,7 @@ ms.locfileid: "25482914"
 </table>
 
 
-**Эквивалент ADO/WFC**
+### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
 Пакет: **com.ms.wfc.data**
 
