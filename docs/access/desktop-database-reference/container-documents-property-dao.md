@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1053175
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e51fec419d1bf1c2c0577273cf4679d9017bb251
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 17654da8666fee669356fcc37bbc546c0c35cef0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483071"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886741"
 ---
-# <a name="containerdocuments-property-dao"></a><span data-ttu-id="156bb-102">Container.Documents Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="156bb-102">Container.Documents Property (DAO)</span></span>
+# <a name="containerdocuments-property-dao"></a><span data-ttu-id="a5d2c-102">Container.Documents Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="a5d2c-102">Container.Documents Property (DAO)</span></span>
 
 
-<span data-ttu-id="156bb-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="156bb-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a5d2c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5d2c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="156bb-104">Возвращает коллекцию **документов** , который содержит все документы, хранящиеся в указанном объекте.</span><span class="sxs-lookup"><span data-stu-id="156bb-104">Returns a **Documents** collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="156bb-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="156bb-105">Read-only.</span></span>
+<span data-ttu-id="a5d2c-104">Возвращает коллекцию **документов** , который содержит все документы, хранящиеся в указанном объекте.</span><span class="sxs-lookup"><span data-stu-id="a5d2c-104">Returns a **Documents** collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="a5d2c-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a5d2c-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="156bb-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="156bb-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a5d2c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a5d2c-106">Syntax</span></span>
 
-<span data-ttu-id="156bb-107">*выражение* . Документы</span><span class="sxs-lookup"><span data-stu-id="156bb-107">*expression* .Documents</span></span>
+<span data-ttu-id="a5d2c-107">*выражение* . Документы</span><span class="sxs-lookup"><span data-stu-id="a5d2c-107">*expression* .Documents</span></span>
 
-<span data-ttu-id="156bb-108">*выражение* Переменная, которая представляет собой объект- **контейнер** .</span><span class="sxs-lookup"><span data-stu-id="156bb-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="a5d2c-108">*выражение* Переменная, которая представляет собой объект- **контейнер** .</span><span class="sxs-lookup"><span data-stu-id="a5d2c-108">*expression* A variable that represents a **Container** object.</span></span>
 

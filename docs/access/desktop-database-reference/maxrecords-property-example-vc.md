@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="d1641-101"><<<<<<< Название HEAD: пример свойства MaxRecords (VC ++) TOCTitle: пример свойства MaxRecords (VC ++) === название: пример свойства MaxRecords (VC ++) TOCTitle: пример свойства MaxRecords (VC ++)</span><span class="sxs-lookup"><span data-stu-id="d1641-101"><<<<<<< HEAD title: MaxRecords Property Example (VC++) TOCTitle: MaxRecords Property Example (VC++) ======= title: MaxRecords property example (VC++) TOCTitle: MaxRecords property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="d1641-102">главные ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15) ms:contentKeyID: 48542910 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="d1641-102">master ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15) ms:contentKeyID: 48542910 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства MaxRecords (VC++)
+TOCTitle: MaxRecords property example (VC++)
+ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15)
+ms:contentKeyID: 48542910
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: dfd310d635f347bf3ad49b2cc8332c2bde84322e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891221"
 ---
-
-<span data-ttu-id="d1641-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="d1641-103"><<<<<<< HEAD</span></span>
-# <a name="maxrecords-property-example-vc"></a><span data-ttu-id="d1641-104">MaxRecords Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="d1641-104">MaxRecords Property Example (VC++)</span></span>
-=======
-# <a name="maxrecords-property-example-vc"></a><span data-ttu-id="d1641-105">Пример свойства MaxRecords (VC ++)</span><span class="sxs-lookup"><span data-stu-id="d1641-105">MaxRecords property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="d1641-106">master</span><span class="sxs-lookup"><span data-stu-id="d1641-106">master</span></span>
+# <a name="maxrecords-property-example-vc"></a><span data-ttu-id="b0b3b-102">Пример использования свойства MaxRecords (VC++)</span><span class="sxs-lookup"><span data-stu-id="b0b3b-102">MaxRecords property example (VC++)</span></span>
 
 
-<span data-ttu-id="d1641-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1641-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b0b3b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0b3b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d1641-108">В этом примере используется свойство [MaxRecords](maxrecords-property-ado.md) для открытия [набора записей](recordset-object-ado.md) , содержащий 10 самых больших затрат заголовков в таблице ***заголовки*** .</span><span class="sxs-lookup"><span data-stu-id="d1641-108">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="b0b3b-104">В этом примере используется свойство [MaxRecords](maxrecords-property-ado.md) для открытия [набора записей](recordset-object-ado.md) , содержащий 10 самых больших затрат заголовков в таблице ***заголовки*** .</span><span class="sxs-lookup"><span data-stu-id="b0b3b-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```cpp 
  

@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192005(v=office.15)
 ms:contentKeyID: 48543863
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 655251d79c72f5d9b509162d8d11f347f1a27a82
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80ee5425a98a5a66840c280ebfe568d64efdf08a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480100"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878404"
 ---
-# <a name="parameters-members-dao"></a><span data-ttu-id="32b43-102">Parameters Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="32b43-102">Parameters Members (DAO)</span></span>
+# <a name="parameters-members-dao"></a><span data-ttu-id="39145-102">Parameters Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="39145-102">Parameters Members (DAO)</span></span>
 
 
-<span data-ttu-id="32b43-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="32b43-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="39145-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="39145-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="32b43-104">Коллекция параметров содержит все объекты параметров объекта QueryDef.</span><span class="sxs-lookup"><span data-stu-id="32b43-104">A Parameters collection contains all the Parameter objects of a QueryDef object.</span></span>
+<span data-ttu-id="39145-104">Коллекция параметров содержит все объекты параметров объекта QueryDef.</span><span class="sxs-lookup"><span data-stu-id="39145-104">A Parameters collection contains all the Parameter objects of a QueryDef object.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="32b43-105">Методы</span><span class="sxs-lookup"><span data-stu-id="32b43-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="39145-105">Методы</span><span class="sxs-lookup"><span data-stu-id="39145-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -29,20 +29,20 @@ ms.locfileid: "25480100"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="32b43-106">Имя</span><span class="sxs-lookup"><span data-stu-id="32b43-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="32b43-107">Описание</span><span class="sxs-lookup"><span data-stu-id="32b43-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="39145-106">Имя</span><span class="sxs-lookup"><span data-stu-id="39145-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="39145-107">Описание</span><span class="sxs-lookup"><span data-stu-id="39145-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32b43-108"><strong><a href="parameters-refresh-method-dao.md">Обновление</a></strong></span><span class="sxs-lookup"><span data-stu-id="32b43-108"><strong><a href="parameters-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="32b43-109">Обновляет объекты в указанном включающий в соответствии с текущей схеме базы данных.</span><span class="sxs-lookup"><span data-stu-id="32b43-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
+<td><p><span data-ttu-id="39145-108"><strong><a href="parameters-refresh-method-dao.md">Обновление</a></strong></span><span class="sxs-lookup"><span data-stu-id="39145-108"><strong><a href="parameters-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="39145-109">Обновляет объекты в указанном включающий в соответствии с текущей схеме базы данных.</span><span class="sxs-lookup"><span data-stu-id="39145-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="32b43-110">Свойства</span><span class="sxs-lookup"><span data-stu-id="32b43-110">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="39145-110">Свойства</span><span class="sxs-lookup"><span data-stu-id="39145-110">Properties</span></span>
 
 <table>
 <colgroup>
@@ -51,14 +51,14 @@ ms.locfileid: "25480100"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="32b43-111">Имя</span><span class="sxs-lookup"><span data-stu-id="32b43-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="32b43-112">Описание</span><span class="sxs-lookup"><span data-stu-id="32b43-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="39145-111">Имя</span><span class="sxs-lookup"><span data-stu-id="39145-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="39145-112">Описание</span><span class="sxs-lookup"><span data-stu-id="39145-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32b43-113"><strong><a href="parameters-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="32b43-113"><strong><a href="parameters-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="32b43-114">Возвращает число объектов в указанном семействе сайтов.</span><span class="sxs-lookup"><span data-stu-id="32b43-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="32b43-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="32b43-115">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="39145-113"><strong><a href="parameters-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="39145-113"><strong><a href="parameters-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="39145-114">Возвращает число объектов в указанном семействе сайтов.</span><span class="sxs-lookup"><span data-stu-id="39145-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="39145-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="39145-115">Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

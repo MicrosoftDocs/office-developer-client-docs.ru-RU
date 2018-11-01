@@ -10,31 +10,31 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8066c7e8ae827d7ae5a521682f2100bc11c9a6f8
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fff0c9ac46e4a616fb5ea134e3dabc6b4e90576f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862893"
+ms.locfileid: "25873105"
 ---
-# <a name="transfersqldatabase-macro-action"></a><span data-ttu-id="0d249-102">Действия макроса TransferSQLDatabase</span><span class="sxs-lookup"><span data-stu-id="0d249-102">TransferSQLDatabase Macro Action</span></span>
+# <a name="transfersqldatabase-macro-action"></a><span data-ttu-id="82c53-102">Действия макроса TransferSQLDatabase</span><span class="sxs-lookup"><span data-stu-id="82c53-102">TransferSQLDatabase Macro Action</span></span>
 
 
-<span data-ttu-id="0d249-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0d249-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="82c53-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="82c53-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0d249-104">В проекте Microsoft Access **«ПереносБазыДанныхSQL»** можно использовать для передачи Microsoft SQL Server 7.0 или более поздняя версия базы данных на другой SQL Server 7.0 или более поздняя версия базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d249-104">In an Access project, you can use the **TransferSQLDatabase** action to transfer a Microsoft SQL Server 7.0 or later database to another SQL Server 7.0 or later database.</span></span> <span data-ttu-id="0d249-105">Дополнительные сведения о переносе базы данных SQL Server см.</span><span class="sxs-lookup"><span data-stu-id="0d249-105">For more information about transferring a database, see the SQL Server documentation.</span></span>
+<span data-ttu-id="82c53-104">В проекте Microsoft Access **«ПереносБазыДанныхSQL»** можно использовать для передачи Microsoft SQL Server 7.0 или более поздняя версия базы данных на другой SQL Server 7.0 или более поздняя версия базы данных.</span><span class="sxs-lookup"><span data-stu-id="82c53-104">In an Access project, you can use the **TransferSQLDatabase** action to transfer a Microsoft SQL Server 7.0 or later database to another SQL Server 7.0 or later database.</span></span> <span data-ttu-id="82c53-105">Дополнительные сведения о переносе базы данных SQL Server см.</span><span class="sxs-lookup"><span data-stu-id="82c53-105">For more information about transferring a database, see the SQL Server documentation.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="0d249-p102">
+> <span data-ttu-id="82c53-p102">
 		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-</span><span class="sxs-lookup"><span data-stu-id="0d249-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span>
+</span><span class="sxs-lookup"><span data-stu-id="82c53-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span>
 
 
 
-## <a name="setting"></a><span data-ttu-id="0d249-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="0d249-108">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="82c53-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="82c53-108">Setting</span></span>
 
-<span data-ttu-id="0d249-109">**«ПереносБазыДанныхSQL»** имеет следующие аргументы.</span><span class="sxs-lookup"><span data-stu-id="0d249-109">The **TransferSQLDatabase** action has the following arguments.</span></span>
+<span data-ttu-id="82c53-109">**«ПереносБазыДанныхSQL»** имеет следующие аргументы.</span><span class="sxs-lookup"><span data-stu-id="82c53-109">The **TransferSQLDatabase** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -43,58 +43,58 @@ ms.locfileid: "25862893"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0d249-110">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="0d249-110">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="0d249-111">Описание</span><span class="sxs-lookup"><span data-stu-id="0d249-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="82c53-110">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="82c53-110">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="82c53-111">Описание</span><span class="sxs-lookup"><span data-stu-id="82c53-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0d249-112"><strong>Сервер</strong></span><span class="sxs-lookup"><span data-stu-id="0d249-112"><strong>Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d249-113">Имя SQL Server 7.0 или более поздняя версия сервера базы данных выполняется копирование.</span><span class="sxs-lookup"><span data-stu-id="0d249-113">The name of the SQL Server 7.0 or later database server you are copying to.</span></span></p></td>
+<td><p><span data-ttu-id="82c53-112"><strong>Сервер</strong></span><span class="sxs-lookup"><span data-stu-id="82c53-112"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="82c53-113">Имя SQL Server 7.0 или более поздняя версия сервера базы данных выполняется копирование.</span><span class="sxs-lookup"><span data-stu-id="82c53-113">The name of the SQL Server 7.0 or later database server you are copying to.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d249-114"><strong>База данных</strong></span><span class="sxs-lookup"><span data-stu-id="0d249-114"><strong>Database</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d249-115">Имя новой базы данных, которая будет создана на целевом сервере.</span><span class="sxs-lookup"><span data-stu-id="0d249-115">The name of the new database that will be created on the destination server.</span></span></p></td>
+<td><p><span data-ttu-id="82c53-114"><strong>База данных</strong></span><span class="sxs-lookup"><span data-stu-id="82c53-114"><strong>Database</strong></span></span></p></td>
+<td><p><span data-ttu-id="82c53-115">Имя новой базы данных, которая будет создана на целевом сервере.</span><span class="sxs-lookup"><span data-stu-id="82c53-115">The name of the new database that will be created on the destination server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0d249-116"><strong>Доверительное соединение</strong></span><span class="sxs-lookup"><span data-stu-id="0d249-116"><strong>Use Trusted Connection</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d249-117">Указывает ли представляет доверительное соединение к серверу SQL Server.</span><span class="sxs-lookup"><span data-stu-id="0d249-117">Specifes whether or not there is a trusted connection to the SQL Server.</span></span> <span data-ttu-id="0d249-118">Если задано значение <strong>Да</strong>, то есть доверительное соединение и параметры <strong>входа в систему</strong> и <strong>пароль</strong> не являются обязательными.</span><span class="sxs-lookup"><span data-stu-id="0d249-118">If set to <strong>Yes</strong>, then there is a trusted connection and the <strong>Login</strong> and <strong>Password</strong> arguments are not required.</span></span> <span data-ttu-id="0d249-119">Если задано значение <strong>No</strong>, <strong>имя пользователя</strong> и <strong>пароль</strong> аргументов не требуется.</span><span class="sxs-lookup"><span data-stu-id="0d249-119">If set to <strong>No</strong>, the <strong>Login</strong> and <strong>Password</strong> arguments are required.</span></span> <span data-ttu-id="0d249-120">По умолчанию используется значение <strong>Да</strong>.</span><span class="sxs-lookup"><span data-stu-id="0d249-120">The default is <strong>Yes</strong>.</span></span> <span data-ttu-id="0d249-121">При использовании доверительное соединение безопасности SQL Server интегрируется с безопасности операционной системы Windows для обеспечения единого входа сеть и базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d249-121">When you use a trusted connection, SQL Server security integrates with the Windows operating system security to provide a single log on to the network and the database.</span></span></p></td>
+<td><p><span data-ttu-id="82c53-116"><strong>Доверительное соединение</strong></span><span class="sxs-lookup"><span data-stu-id="82c53-116"><strong>Use Trusted Connection</strong></span></span></p></td>
+<td><p><span data-ttu-id="82c53-117">Указывает ли представляет доверительное соединение к серверу SQL Server.</span><span class="sxs-lookup"><span data-stu-id="82c53-117">Specifes whether or not there is a trusted connection to the SQL Server.</span></span> <span data-ttu-id="82c53-118">Если задано значение <strong>Да</strong>, то есть доверительное соединение и параметры <strong>входа в систему</strong> и <strong>пароль</strong> не являются обязательными.</span><span class="sxs-lookup"><span data-stu-id="82c53-118">If set to <strong>Yes</strong>, then there is a trusted connection and the <strong>Login</strong> and <strong>Password</strong> arguments are not required.</span></span> <span data-ttu-id="82c53-119">Если задано значение <strong>No</strong>, <strong>имя пользователя</strong> и <strong>пароль</strong> аргументов не требуется.</span><span class="sxs-lookup"><span data-stu-id="82c53-119">If set to <strong>No</strong>, the <strong>Login</strong> and <strong>Password</strong> arguments are required.</span></span> <span data-ttu-id="82c53-120">По умолчанию используется значение <strong>Да</strong>.</span><span class="sxs-lookup"><span data-stu-id="82c53-120">The default is <strong>Yes</strong>.</span></span> <span data-ttu-id="82c53-121">При использовании доверительное соединение безопасности SQL Server интегрируется с безопасности операционной системы Windows для обеспечения единого входа сеть и базы данных.</span><span class="sxs-lookup"><span data-stu-id="82c53-121">When you use a trusted connection, SQL Server security integrates with the Windows operating system security to provide a single log on to the network and the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d249-122"><strong>Учетные данные</strong></span><span class="sxs-lookup"><span data-stu-id="0d249-122"><strong>Login</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d249-123">Имя для входа на целевой сервер.</span><span class="sxs-lookup"><span data-stu-id="0d249-123">The name of the Login to the destination server.</span></span></p></td>
+<td><p><span data-ttu-id="82c53-122"><strong>Учетные данные</strong></span><span class="sxs-lookup"><span data-stu-id="82c53-122"><strong>Login</strong></span></span></p></td>
+<td><p><span data-ttu-id="82c53-123">Имя для входа на целевой сервер.</span><span class="sxs-lookup"><span data-stu-id="82c53-123">The name of the Login to the destination server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0d249-124"><strong>Password</strong></span><span class="sxs-lookup"><span data-stu-id="0d249-124"><strong>Password</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d249-125">Пароль для <strong>входа</strong> на конечный сервер.</span><span class="sxs-lookup"><span data-stu-id="0d249-125">The password for the <strong>Login</strong> argument.</span></span> <span data-ttu-id="0d249-126">Этот пароль хранится в виде текста в проект Microsoft Access, но скрыт во время операции переноса базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d249-126">This password is stored as text in the Access project, but is hidden during the transfer database operation.</span></span></p></td>
+<td><p><span data-ttu-id="82c53-124"><strong>Password</strong></span><span class="sxs-lookup"><span data-stu-id="82c53-124"><strong>Password</strong></span></span></p></td>
+<td><p><span data-ttu-id="82c53-125">Пароль для <strong>входа</strong> на конечный сервер.</span><span class="sxs-lookup"><span data-stu-id="82c53-125">The password for the <strong>Login</strong> argument.</span></span> <span data-ttu-id="82c53-126">Этот пароль хранится в виде текста в проект Microsoft Access, но скрыт во время операции переноса базы данных.</span><span class="sxs-lookup"><span data-stu-id="82c53-126">This password is stored as text in the Access project, but is hidden during the transfer database operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0d249-127"><strong>Копирование данных</strong></span><span class="sxs-lookup"><span data-stu-id="0d249-127"><strong>Transfer Copy Data</strong></span></span></p></td>
-<td><p><span data-ttu-id="0d249-128">Указывает, следует ли включать данные в операции переноса базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d249-128">Specifies whether or not to include data in the transfer database operation.</span></span> <span data-ttu-id="0d249-129">Если установлено значение " <strong>Да"</strong>, все данные для всех таблиц, а также все структуры данных, расширенные свойства и объекты базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d249-129">When set to <strong>Yes</strong>, all data is included for all the tables, along with all data structures, extended properties, and database objects.</span></span> <span data-ttu-id="0d249-130">Если задано значение <strong>No</strong>, данные не включен из таблиц.</span><span class="sxs-lookup"><span data-stu-id="0d249-130">When set to <strong>No</strong>, no data is included from the tables.</span></span> <span data-ttu-id="0d249-131">Структура таблицы и расширенные свойства создаются на целевом сервере, а также все объекты базы данных (за исключением схемы базы данных).</span><span class="sxs-lookup"><span data-stu-id="0d249-131">Only the table structure and extended properties are created on the destination server, along with all other database objects (except database diagrams).</span></span> <span data-ttu-id="0d249-132">По умолчанию используется значение <strong>Да</strong>.</span><span class="sxs-lookup"><span data-stu-id="0d249-132">The default is <strong>Yes</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="82c53-127"><strong>Копирование данных</strong></span><span class="sxs-lookup"><span data-stu-id="82c53-127"><strong>Transfer Copy Data</strong></span></span></p></td>
+<td><p><span data-ttu-id="82c53-128">Указывает, следует ли включать данные в операции переноса базы данных.</span><span class="sxs-lookup"><span data-stu-id="82c53-128">Specifies whether or not to include data in the transfer database operation.</span></span> <span data-ttu-id="82c53-129">Если установлено значение " <strong>Да"</strong>, все данные для всех таблиц, а также все структуры данных, расширенные свойства и объекты базы данных.</span><span class="sxs-lookup"><span data-stu-id="82c53-129">When set to <strong>Yes</strong>, all data is included for all the tables, along with all data structures, extended properties, and database objects.</span></span> <span data-ttu-id="82c53-130">Если задано значение <strong>No</strong>, данные не включен из таблиц.</span><span class="sxs-lookup"><span data-stu-id="82c53-130">When set to <strong>No</strong>, no data is included from the tables.</span></span> <span data-ttu-id="82c53-131">Структура таблицы и расширенные свойства создаются на целевом сервере, а также все объекты базы данных (за исключением схемы базы данных).</span><span class="sxs-lookup"><span data-stu-id="82c53-131">Only the table structure and extended properties are created on the destination server, along with all other database objects (except database diagrams).</span></span> <span data-ttu-id="82c53-132">По умолчанию используется значение <strong>Да</strong>.</span><span class="sxs-lookup"><span data-stu-id="82c53-132">The default is <strong>Yes</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="0d249-133">Замечания</span><span class="sxs-lookup"><span data-stu-id="0d249-133">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="82c53-133">Замечания</span><span class="sxs-lookup"><span data-stu-id="82c53-133">Remarks</span></span>
 
-<span data-ttu-id="0d249-134">Нельзя выполнять другие операции во время передачи базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d249-134">You cannot perform other operations while the database is being transferred.</span></span>
+<span data-ttu-id="82c53-134">Нельзя выполнять другие операции во время передачи базы данных.</span><span class="sxs-lookup"><span data-stu-id="82c53-134">You cannot perform other operations while the database is being transferred.</span></span>
 
-<span data-ttu-id="0d249-135">**«ПереносБазыДанныхSQL»,** по умолчанию, копирование данных, определений данных, объектов базы данных и расширенные свойства, такие как значения по умолчанию, текстовые ограничения и значений подстановки.</span><span class="sxs-lookup"><span data-stu-id="0d249-135">The **TransferSQLDatabase** action, by default, copies data, data definitions, database objects, and extended properties, such as default values, text constraints, and lookup values.</span></span>
+<span data-ttu-id="82c53-135">**«ПереносБазыДанныхSQL»,** по умолчанию, копирование данных, определений данных, объектов базы данных и расширенные свойства, такие как значения по умолчанию, текстовые ограничения и значений подстановки.</span><span class="sxs-lookup"><span data-stu-id="82c53-135">The **TransferSQLDatabase** action, by default, copies data, data definitions, database objects, and extended properties, such as default values, text constraints, and lookup values.</span></span>
 
-<span data-ttu-id="0d249-136">Существует требования для переноса базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d249-136">There are requirements for transferring a database:</span></span>
+<span data-ttu-id="82c53-136">Существует требования для переноса базы данных.</span><span class="sxs-lookup"><span data-stu-id="82c53-136">There are requirements for transferring a database:</span></span>
 
-  - <span data-ttu-id="0d249-137">Необходимо быть членом роли sysadmin на конечном сервере (нет специальных роль необходима на исходном сервере).</span><span class="sxs-lookup"><span data-stu-id="0d249-137">You must be a member of the sysadmin role on the destination server (No special role is required on the source server).</span></span>
+  - <span data-ttu-id="82c53-137">Необходимо быть членом роли sysadmin на конечном сервере (нет специальных роль необходима на исходном сервере).</span><span class="sxs-lookup"><span data-stu-id="82c53-137">You must be a member of the sysadmin role on the destination server (No special role is required on the source server).</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="0d249-138">Текущий сервер SQL, подключенный к проекту доступа и на целевой сервер, на которого переключается базы данных должен быть SQL Server версии 7.0 или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="0d249-138">The current SQL server connected to the Access project and the destination server you are transferring the database to must be SQL Server version 7.0 or later.</span></span>
+  - <span data-ttu-id="82c53-138">Текущий сервер SQL, подключенный к проекту доступа и на целевой сервер, на которого переключается базы данных должен быть SQL Server версии 7.0 или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="82c53-138">The current SQL server connected to the Access project and the destination server you are transferring the database to must be SQL Server version 7.0 or later.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="0d249-139">Связанные серверы не переносятся во время операции переноса базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d249-139">Linked servers are not transferred during a database transfer operation.</span></span></P>
+> <P><span data-ttu-id="82c53-139">Связанные серверы не переносятся во время операции переноса базы данных.</span><span class="sxs-lookup"><span data-stu-id="82c53-139">Linked servers are not transferred during a database transfer operation.</span></span></P>
 
 
 
-<span data-ttu-id="0d249-140">Чтобы запустить **«ПереносБазыДанныхSQL»** в Visual Basic для приложений (VBA) модуль, используйте метод **TransferSQLDatabase** **объекта** .</span><span class="sxs-lookup"><span data-stu-id="0d249-140">To run the **TransferSQLDatabase** action in a Visual Basic for Applications (VBA) module, use the **TransferSQLDatabase** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="82c53-140">Чтобы запустить **«ПереносБазыДанныхSQL»** в Visual Basic для приложений (VBA) модуль, используйте метод **TransferSQLDatabase** **объекта** .</span><span class="sxs-lookup"><span data-stu-id="82c53-140">To run the **TransferSQLDatabase** action in a Visual Basic for Applications (VBA) module, use the **TransferSQLDatabase** method of the **DoCmd** object.</span></span>
 

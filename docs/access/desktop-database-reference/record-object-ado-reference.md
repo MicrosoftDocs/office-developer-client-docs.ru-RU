@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
 ms:contentKeyID: 48543507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0aa4b565d24784f32bf1ae216f1ce7056b1688c2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9587880b8682acec3d05dda7913aee3de915f8c8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482191"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870403"
 ---
-# <a name="record-object-ado-reference"></a><span data-ttu-id="d1012-102">Record Object (ADO) Reference</span><span class="sxs-lookup"><span data-stu-id="d1012-102">Record Object (ADO) Reference</span></span>
+# <a name="record-object-ado-reference"></a><span data-ttu-id="6a79d-102">Record Object (ADO) Reference</span><span class="sxs-lookup"><span data-stu-id="6a79d-102">Record Object (ADO) Reference</span></span>
 
 
-<span data-ttu-id="d1012-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1012-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6a79d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a79d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="d1012-104">Record Object (ADO)</span><span class="sxs-lookup"><span data-stu-id="d1012-104">Record Object (ADO)</span></span>](record-object-ado.md)
+  - [<span data-ttu-id="6a79d-104">Объект записи (ADO)</span><span class="sxs-lookup"><span data-stu-id="6a79d-104">Record Object (ADO)</span></span>](record-object-ado.md)
 
-  - [<span data-ttu-id="d1012-105">Record Properties, Methods, and Events (ADO)</span><span class="sxs-lookup"><span data-stu-id="d1012-105">Record Properties, Methods, and Events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
+  - [<span data-ttu-id="6a79d-105">Record Properties, Methods, and Events (ADO)</span><span class="sxs-lookup"><span data-stu-id="6a79d-105">Record Properties, Methods, and Events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
 

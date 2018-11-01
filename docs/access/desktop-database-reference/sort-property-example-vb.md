@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="b4c7c-101"><<<<<<< Название HEAD: TOCTitle примере свойство сортировки (VB): пример свойства сортировки (VB) === название: пример свойства сортировки (VB) TOCTitle: пример свойства сортировки (VB)</span><span class="sxs-lookup"><span data-stu-id="b4c7c-101"><<<<<<< HEAD title: Sort Property Example (VB) TOCTitle: Sort Property Example (VB) ======= title: Sort property example (VB) TOCTitle: Sort property example (VB)</span></span>
->>>>>>> <span data-ttu-id="b4c7c-102">главные ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: 48545539 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="b4c7c-102">master ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: 48545539 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Sort (VB)
+TOCTitle: Sort property example (VB)
+ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
+ms:contentKeyID: 48545539
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6bd5f0f894928032e975e8eebe33b18427c5dae1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891256"
 ---
-
-<span data-ttu-id="b4c7c-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="b4c7c-103"><<<<<<< HEAD</span></span>
-# <a name="sort-property-example-vb"></a><span data-ttu-id="b4c7c-104">Sort Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="b4c7c-104">Sort Property Example (VB)</span></span>
-=======
-# <a name="sort-property-example-vb"></a><span data-ttu-id="b4c7c-105">Пример свойства сортировки (VB)</span><span class="sxs-lookup"><span data-stu-id="b4c7c-105">Sort property example (VB)</span></span>
->>>>>>> <span data-ttu-id="b4c7c-106">master</span><span class="sxs-lookup"><span data-stu-id="b4c7c-106">master</span></span>
+# <a name="sort-property-example-vb"></a><span data-ttu-id="1414f-102">Пример использования свойства Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="1414f-102">Sort property example (VB)</span></span>
 
 
-<span data-ttu-id="b4c7c-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4c7c-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1414f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1414f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b4c7c-108">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="b4c7c-108">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="b4c7c-109">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="b4c7c-109">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="1414f-104">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="1414f-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="1414f-105">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="1414f-105">A secondary utility routine prints each row.</span></span>
 
 ```vb 
  
@@ -94,7 +100,7 @@ End Sub
 'EndSortVB 
 ```
 
-<span data-ttu-id="b4c7c-110">Это дополнительный служебной процедуры, печатает заданный заголовок и содержимое указанного **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="b4c7c-110">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
+<span data-ttu-id="1414f-106">Это дополнительный служебной процедуры, печатает заданный заголовок и содержимое указанного **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="1414f-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
 
 ```vb 
  
