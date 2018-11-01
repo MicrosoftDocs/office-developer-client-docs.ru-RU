@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125405(v=office.15)
 ms:contentKeyID: 52073528
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ff84e030ca3fc4e81ef8ab5a00eb80ed73d5958
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a51cd495df003063da8e3ac924770a9c880b4cad
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481226"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876913"
 ---
-# <a name="error-object-reference-dao"></a><span data-ttu-id="64c80-102">Error Object Reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="64c80-102">Error Object Reference (DAO)</span></span>
+# <a name="error-object-reference-dao"></a><span data-ttu-id="8da3d-102">Error Object Reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="8da3d-102">Error Object Reference (DAO)</span></span>
 
 
-<span data-ttu-id="64c80-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="64c80-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8da3d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8da3d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="64c80-104">Error Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="64c80-104">Error Object (DAO)</span></span>](error-object-dao.md)
+  - [<span data-ttu-id="8da3d-104">Error Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="8da3d-104">Error Object (DAO)</span></span>](error-object-dao.md)
 
-  - [<span data-ttu-id="64c80-105">Error Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="64c80-105">Error Members (DAO)</span></span>](error-members-dao.md)
+  - [<span data-ttu-id="8da3d-105">Error Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="8da3d-105">Error Members (DAO)</span></span>](error-members-dao.md)
 
-  - [<span data-ttu-id="64c80-106">Error Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="64c80-106">Error Properties (DAO)</span></span>](error-properties-dao.md)
+  - [<span data-ttu-id="8da3d-106">Error Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="8da3d-106">Error Properties (DAO)</span></span>](error-properties-dao.md)
 

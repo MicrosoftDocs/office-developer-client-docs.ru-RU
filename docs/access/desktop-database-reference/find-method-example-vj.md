@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249367(v=office.15)
 ms:contentKeyID: 48545232
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ea5ca70d7dc31292c8f2dcb3ae66bc035c3d206
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f30a4193e915a9dfcb231216a77f6aba3427527e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863395"
+ms.locfileid: "25885089"
 ---
-# <a name="find-method-example-vj"></a><span data-ttu-id="9cab8-102">Пример использования метода Find (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9cab8-102">Find method example (VJ++)</span></span>
+# <a name="find-method-example-vj"></a><span data-ttu-id="dbf77-102">Пример использования метода Find (VJ++)</span><span class="sxs-lookup"><span data-stu-id="dbf77-102">Find method example (VJ++)</span></span>
 
 
-<span data-ttu-id="9cab8-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="9cab8-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="dbf77-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dbf77-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9cab8-104">В этом примере метод объекта [набора записей](recordset-object-ado.md) [Поиск](find-method-ado.md) для поиска и определения числа business заголовков в базе данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="9cab8-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="9cab8-105">Предполагается, что основной поставщик не поддерживает же возможности.</span><span class="sxs-lookup"><span data-stu-id="9cab8-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="dbf77-104">В этом примере метод объекта [набора записей](recordset-object-ado.md) [Поиск](find-method-ado.md) для поиска и определения числа business заголовков в базе данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="dbf77-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="dbf77-105">Предполагается, что основной поставщик не поддерживает же возможности.</span><span class="sxs-lookup"><span data-stu-id="dbf77-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```java 
  

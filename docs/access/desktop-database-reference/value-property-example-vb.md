@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="41f6e-101"><<<<<<< Название HEAD: TOCTitle примере значение свойства (VB): пример значение свойства (VB) === название: пример свойства Value (VB) TOCTitle: пример свойства Value (VB)</span><span class="sxs-lookup"><span data-stu-id="41f6e-101"><<<<<<< HEAD title: Value Property Example (VB) TOCTitle: Value Property Example (VB) ======= title: Value property example (VB) TOCTitle: Value property example (VB)</span></span>
->>>>>>> <span data-ttu-id="41f6e-102">главные ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15) ms:contentKeyID: 48547547 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="41f6e-102">master ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15) ms:contentKeyID: 48547547 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Value (VB)
+TOCTitle: Value property example (VB)
+ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15)
+ms:contentKeyID: 48547547
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 37182f2de5342374ddb3d12d38e35c63bafaf1aa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872832"
 ---
-
-<span data-ttu-id="41f6e-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="41f6e-103"><<<<<<< HEAD</span></span>
-# <a name="value-property-example-vb"></a><span data-ttu-id="41f6e-104">Value Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="41f6e-104">Value Property Example (VB)</span></span>
-=======
-# <a name="value-property-example-vb"></a><span data-ttu-id="41f6e-105">Пример свойства Value (VB)</span><span class="sxs-lookup"><span data-stu-id="41f6e-105">Value property example (VB)</span></span>
->>>>>>> <span data-ttu-id="41f6e-106">master</span><span class="sxs-lookup"><span data-stu-id="41f6e-106">master</span></span>
+# <a name="value-property-example-vb"></a><span data-ttu-id="e9ba3-102">Пример использования свойства Value (VB)</span><span class="sxs-lookup"><span data-stu-id="e9ba3-102">Value property example (VB)</span></span>
 
 
-<span data-ttu-id="41f6e-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="41f6e-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e9ba3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9ba3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="41f6e-108">В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="41f6e-108">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="e9ba3-104">В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="e9ba3-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```vb 
  

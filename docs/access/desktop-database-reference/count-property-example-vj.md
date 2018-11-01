@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="09241-101"><<<<<<< Название HEAD: TOCTitle примере свойство Count (VJ ++): пример свойства Count (VJ ++) === название: пример свойства Count (VJ ++) TOCTitle: пример свойства Count (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="09241-101"><<<<<<< HEAD title: Count Property Example (VJ++) TOCTitle: Count Property Example (VJ++) ======= title: Count property example (VJ++) TOCTitle: Count property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="09241-102">главные ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15) ms:contentKeyID: 48545666 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="09241-102">master ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15) ms:contentKeyID: 48545666 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Count (VJ++)
+TOCTitle: Count property example (VJ++)
+ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15)
+ms:contentKeyID: 48545666
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6ec8469015f0ba53d277dcdd592d3befdc4e0d0b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870249"
 ---
-
-<span data-ttu-id="09241-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="09241-103"><<<<<<< HEAD</span></span>
-# <a name="count-property-example-vj"></a><span data-ttu-id="09241-104">Count Property Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="09241-104">Count Property Example (VJ++)</span></span>
-=======
-# <a name="count-property-example-vj"></a><span data-ttu-id="09241-105">Пример свойства Count (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="09241-105">Count property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="09241-106">master</span><span class="sxs-lookup"><span data-stu-id="09241-106">master</span></span>
+# <a name="count-property-example-vj"></a><span data-ttu-id="50f75-102">Пример использования свойства Count (VJ++)</span><span class="sxs-lookup"><span data-stu-id="50f75-102">Count property example (VJ++)</span></span>
 
 
-<span data-ttu-id="09241-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="09241-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="50f75-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50f75-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="09241-108">В этом примере свойство [Count](count-property-ado.md) с два семейства сайтов в базе данных ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="09241-108">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employees*** database.</span></span> <span data-ttu-id="09241-109">Свойство получает число объектов в каждом семействе сайтов и задает верхнюю границу для циклов, перечисление этих семейств сайтов.</span><span class="sxs-lookup"><span data-stu-id="09241-109">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="09241-110">Другой способ перечисления этих коллекций без использования свойства **Count** можно использовать инструкции.</span><span class="sxs-lookup"><span data-stu-id="09241-110">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
+<span data-ttu-id="50f75-104">В этом примере свойство [Count](count-property-ado.md) с два семейства сайтов в базе данных ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="50f75-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employees*** database.</span></span> <span data-ttu-id="50f75-105">Свойство получает число объектов в каждом семействе сайтов и задает верхнюю границу для циклов, перечисление этих семейств сайтов.</span><span class="sxs-lookup"><span data-stu-id="50f75-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="50f75-106">Другой способ перечисления этих коллекций без использования свойства **Count** можно использовать инструкции.</span><span class="sxs-lookup"><span data-stu-id="50f75-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
 
 ```java 
  

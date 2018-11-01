@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="7eb08-101"><<<<<<< Название HEAD: TOCTitle примере свойство источника (VB): пример свойства источника (VB) === название: пример свойства источника (VB) TOCTitle: пример свойства источника (VB)</span><span class="sxs-lookup"><span data-stu-id="7eb08-101"><<<<<<< HEAD title: Source Property Example (VB) TOCTitle: Source Property Example (VB) ======= title: Source property example (VB) TOCTitle: Source property example (VB)</span></span>
->>>>>>> <span data-ttu-id="7eb08-102">главные ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: 48545885 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="7eb08-102">master ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: 48545885 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Source (VB)
+TOCTitle: Source property example (VB)
+ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
+ms:contentKeyID: 48545885
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 98d5af89d911f6bbc442427dbb15ccb172f73c0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889667"
 ---
-
-<span data-ttu-id="7eb08-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="7eb08-103"><<<<<<< HEAD</span></span>
-# <a name="source-property-example-vb"></a><span data-ttu-id="7eb08-104">Source Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="7eb08-104">Source Property Example (VB)</span></span>
-=======
-# <a name="source-property-example-vb"></a><span data-ttu-id="7eb08-105">Пример свойства источника (VB)</span><span class="sxs-lookup"><span data-stu-id="7eb08-105">Source property example (VB)</span></span>
->>>>>>> <span data-ttu-id="7eb08-106">master</span><span class="sxs-lookup"><span data-stu-id="7eb08-106">master</span></span>
+# <a name="source-property-example-vb"></a><span data-ttu-id="98122-102">Пример использования свойства Source (VB)</span><span class="sxs-lookup"><span data-stu-id="98122-102">Source property example (VB)</span></span>
 
 
-<span data-ttu-id="7eb08-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7eb08-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="98122-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="98122-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7eb08-108">В этом примере показано свойство [Source](source-property-ado-recordset.md) , открыв три объекты [набора записей](recordset-object-ado.md) по различным источникам данных.</span><span class="sxs-lookup"><span data-stu-id="7eb08-108">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="98122-104">В этом примере показано свойство [Source](source-property-ado-recordset.md) , открыв три объекты [набора записей](recordset-object-ado.md) по различным источникам данных.</span><span class="sxs-lookup"><span data-stu-id="98122-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```vb 
  

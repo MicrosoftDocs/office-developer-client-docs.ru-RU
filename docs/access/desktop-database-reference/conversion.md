@@ -1,24 +1,27 @@
 ---
-<span data-ttu-id="47a6e-101">Заголовок: TOCTitle преобразования (Справочник по для настольных баз данных Access): ms:assetid преобразования: 660816f6-6d17-43c3-b86d-c9f915674a87 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142285(v=office.15) ms:contentKeyID: 52072763 <<<<<<< HEAD ms.date: 09/18/2015 === ms.date: 10 / 16/2018</span><span class="sxs-lookup"><span data-stu-id="47a6e-101">title: Conversion (Access desktop database reference) TOCTitle: Conversion ms:assetid: 660816f6-6d17-43c3-b86d-c9f915674a87 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142285(v=office.15) ms:contentKeyID: 52072763 <<<<<<< HEAD ms.date: 09/18/2015 ======= ms.date: 10/16/2018</span></span>
->>>>>>> <span data-ttu-id="47a6e-102">главные mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="47a6e-102">master mtps_version: v=office.15</span></span>
+title: Преобразование (Справочник по для настольных баз данных Access)
+TOCTitle: Conversion
+ms:assetid: 660816f6-6d17-43c3-b86d-c9f915674a87
+ms:mtpsurl: https://msdn.microsoft.com/library/Dn142285(v=office.15)
+ms:contentKeyID: 52072763
+ms.date: 10/16/2018
+mtps_version: v=office.15
+ms.openlocfilehash: d519efb05a9aa20ef379ed4b3904856ada8da6d3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873357"
 ---
+# <a name="conversion"></a><span data-ttu-id="bc7e2-102">Преобразование</span><span class="sxs-lookup"><span data-stu-id="bc7e2-102">Conversion</span></span>
 
-# <a name="conversion"></a><span data-ttu-id="47a6e-103">Преобразования</span><span class="sxs-lookup"><span data-stu-id="47a6e-103">Conversion</span></span>
+<span data-ttu-id="bc7e2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc7e2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="47a6e-104">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="47a6e-104">**Applies to**: Access 2013 | Office 2013</span></span>
+- [<span data-ttu-id="bc7e2-104">Изменения в Access</span><span class="sxs-lookup"><span data-stu-id="bc7e2-104">Changes in Access</span></span>](changes-in-access.md)
 
-- [<span data-ttu-id="47a6e-105">Изменения в Access</span><span class="sxs-lookup"><span data-stu-id="47a6e-105">Changes in Access</span></span>](changes-in-access.md)
+- [<span data-ttu-id="bc7e2-105">Преобразование кода DAO в ADO</span><span class="sxs-lookup"><span data-stu-id="bc7e2-105">Convert DAO code to ADO</span></span>](converting-dao-code-to-ado.md)
 
-<span data-ttu-id="47a6e-106"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="47a6e-106"><<<<<<< HEAD</span></span>
-- [<span data-ttu-id="47a6e-107">Преобразование таблицы Microsoft Access, форм и отчетов</span><span class="sxs-lookup"><span data-stu-id="47a6e-107">Convert Microsoft Access tables, forms, and reports</span></span>](convert-microsoft-access-tables-forms-and-reports.md)
-
-- <span data-ttu-id="47a6e-108">[Преобразование кода DAO в ADO](converting-dao-code-to-ado.md)
-=======</span><span class="sxs-lookup"><span data-stu-id="47a6e-108">[Converting DAO code to ADO](converting-dao-code-to-ado.md)
-=======</span></span>
-- [<span data-ttu-id="47a6e-109">Преобразование кода DAO ADO</span><span class="sxs-lookup"><span data-stu-id="47a6e-109">Convert DAO code to ADO</span></span>](converting-dao-code-to-ado.md)
-
-- [<span data-ttu-id="47a6e-110">Преобразование таблиц, форм и отчетов</span><span class="sxs-lookup"><span data-stu-id="47a6e-110">Convert tables, forms, and reports</span></span>](convert-microsoft-access-tables-forms-and-reports.md)
+- [<span data-ttu-id="bc7e2-106">Преобразование таблиц, форм и отчетов</span><span class="sxs-lookup"><span data-stu-id="bc7e2-106">Convert tables, forms, and reports</span></span>](convert-microsoft-access-tables-forms-and-reports.md)
 
 
->>>>>>> <span data-ttu-id="47a6e-111">master</span><span class="sxs-lookup"><span data-stu-id="47a6e-111">master</span></span>
 

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="ec615-101"><<<<<<< Название HEAD: пример свойства типа (поле) (VC ++) TOCTitle: пример свойства типа (поле) (VC ++) === название: пример свойства типа (поле) (VC ++) TOCTitle: пример свойства типа (поле) (VC ++)</span><span class="sxs-lookup"><span data-stu-id="ec615-101"><<<<<<< HEAD title: Type Property Example (Field) (VC++) TOCTitle: Type Property Example (Field) (VC++) ======= title: Type property example (Field) (VC++) TOCTitle: Type property example (Field) (VC++)</span></span>
->>>>>>> <span data-ttu-id="ec615-102">главные ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID: 48547858 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="ec615-102">master ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID: 48547858 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Type (Field) (VC++)
+TOCTitle: Type property example (Field) (VC++)
+ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
+ms:contentKeyID: 48547858
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bf9a00e4fafeccf5e284599ec55f9252e8bde568
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884511"
 ---
-
-<span data-ttu-id="ec615-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="ec615-103"><<<<<<< HEAD</span></span>
-# <a name="type-property-example-field-vc"></a><span data-ttu-id="ec615-104">Type Property Example (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="ec615-104">Type Property Example (Field) (VC++)</span></span>
-=======
-# <a name="type-property-example-field-vc"></a><span data-ttu-id="ec615-105">Пример свойства типа (поле) (VC ++)</span><span class="sxs-lookup"><span data-stu-id="ec615-105">Type property example (Field) (VC++)</span></span>
->>>>>>> <span data-ttu-id="ec615-106">master</span><span class="sxs-lookup"><span data-stu-id="ec615-106">master</span></span>
+# <a name="type-property-example-field-vc"></a><span data-ttu-id="3633a-102">Пример использования свойства Type (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="3633a-102">Type property example (Field) (VC++)</span></span>
 
 
-<span data-ttu-id="ec615-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec615-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3633a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3633a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ec615-108">В этом примере показано свойство [типа](type-property-ado.md) , отображая имя константы, соответствующее значение свойства **типа** всех объектов [поля](field-object-ado.md) в таблице ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="ec615-108">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="ec615-109">Функция FieldType является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="ec615-109">The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="3633a-104">В этом примере показано свойство [типа](type-property-ado.md) , отображая имя константы, соответствующее значение свойства **типа** всех объектов [поля](field-object-ado.md) в таблице ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="3633a-104">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="3633a-105">Функция FieldType является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="3633a-105">The FieldType function is required for this procedure to run.</span></span>
 
 ```cpp 
  

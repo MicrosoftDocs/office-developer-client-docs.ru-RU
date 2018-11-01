@@ -1,20 +1,26 @@
 ---
-<span data-ttu-id="70717-101"><<<<<<< Название HEAD: TOCTitle пример свойства элемента (VC ++): пример свойства элемента (VC ++) === название: пример свойства элемента (VC ++) TOCTitle: пример свойства элемента (VC ++)</span><span class="sxs-lookup"><span data-stu-id="70717-101"><<<<<<< HEAD title: Item Property Example (VC++) TOCTitle: Item Property Example (VC++) ======= title: Item property example (VC++) TOCTitle: Item property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="70717-102">главные ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID: 48543452 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="70717-102">master ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID: 48543452 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Item (VC++)
+TOCTitle: Item property example (VC++)
+ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
+ms:contentKeyID: 48543452
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ae4ffe7f1d600fe89788c3084a9e9dc409fc00f1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882499"
 ---
-
-<span data-ttu-id="70717-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="70717-103"><<<<<<< HEAD</span></span>
-# <a name="item-property-example-vc"></a><span data-ttu-id="70717-104">Item Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="70717-104">Item Property Example (VC++)</span></span>
-=======
-# <a name="item-property-example-vc"></a><span data-ttu-id="70717-105">Пример свойства элемента (VC ++)</span><span class="sxs-lookup"><span data-stu-id="70717-105">Item property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="70717-106">master</span><span class="sxs-lookup"><span data-stu-id="70717-106">master</span></span>
+# <a name="item-property-example-vc"></a><span data-ttu-id="4b08f-102">Пример использования свойства Item (VC++)</span><span class="sxs-lookup"><span data-stu-id="4b08f-102">Item property example (VC++)</span></span>
 
 
-<span data-ttu-id="70717-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="70717-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4b08f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4b08f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="70717-108">В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции.</span><span class="sxs-lookup"><span data-stu-id="70717-108">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection.</span></span> <span data-ttu-id="70717-109">В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.</span><span class="sxs-lookup"><span data-stu-id="70717-109">The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="4b08f-104">В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции.</span><span class="sxs-lookup"><span data-stu-id="4b08f-104">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection.</span></span> <span data-ttu-id="4b08f-105">В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.</span><span class="sxs-lookup"><span data-stu-id="4b08f-105">The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="70717-110">Параметр в команды в базе данных осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [команды](command-object-ado.md) индекс и название.</span><span class="sxs-lookup"><span data-stu-id="70717-110">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name.</span></span> <span data-ttu-id="70717-111">Затем полям возвращаемых [записей](recordset-object-ado.md) осуществляется из коллекции [полей](fields-collection-ado.md) этого объекта индекс и название.</span><span class="sxs-lookup"><span data-stu-id="70717-111">Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="4b08f-106">Параметр в команды в базе данных осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [команды](command-object-ado.md) индекс и название.</span><span class="sxs-lookup"><span data-stu-id="4b08f-106">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name.</span></span> <span data-ttu-id="4b08f-107">Затем полям возвращаемых [записей](recordset-object-ado.md) осуществляется из коллекции [полей](fields-collection-ado.md) этого объекта индекс и название.</span><span class="sxs-lookup"><span data-stu-id="4b08f-107">Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```cpp 
  
