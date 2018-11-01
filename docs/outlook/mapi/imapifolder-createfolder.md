@@ -23,7 +23,7 @@ ms.locfileid: "22581785"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Создает папку.
   
@@ -84,9 +84,9 @@ OPEN_IF_EXISTS
   
 > [out] Указатель на указатель на только что созданная папка.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Новую папку были успешно создана или открыта, если флаг OPEN_IF_EXISTS установлен.
     
@@ -112,11 +112,11 @@ MAPI_E_COLLISION
   
 Чтобы определить идентификатор записи только что созданная папка, вызовите метод **IMAPIProp::GetProps** новую папку для получения его свойство **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnCreateSubFolder  <br/> |Mfcmapi (en) использует метод **CMsgStoreDlg::OnCreateSubFolder** для создания новой папки в mfcmapi (en).  <br/> |
    

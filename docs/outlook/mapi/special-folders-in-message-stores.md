@@ -19,13 +19,13 @@ ms.locfileid: "22572713"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Special folders such as the Inbox, Outbox, and search-results folder may be created in advance and protected by the message store provider. If the folders do not exist, MAPI will attempt to create them in the message store by calling the [HrValidateIPMSubtree](hrvalidateipmsubtree.md) function. For more information, see [����������� ����� MAPI](mapi-special-folders.md).
   
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 
-[���������� ����� � �������� ���������](implementing-folders-in-message-stores.md)
+[Реализация папок в хранилищах сообщений](implementing-folders-in-message-stores.md)
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: поставщик и TOCTitle пример свойств DefaultDatabase (VC ++): поставщика и пример: свойства DefaultDatabase (VC ++) === название: свойства пример поставщика и DefaultDatabase (VC ++) TOCTitle: поставщика Пример свойства DefaultDatabase (VC ++) и
->>>>>>> главные ms:assetid: 21c38be4-3906-cee8-b77b-300f1226392a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248995(v=office.15) ms:contentKeyID: 48543687 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств Provider и DefaultDatabase (VC++)
+TOCTitle: Provider and DefaultDatabase properties example (VC++)
+ms:assetid: 21c38be4-3906-cee8-b77b-300f1226392a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248995(v=office.15)
+ms:contentKeyID: 48543687
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d7f94f0eef4821fcc1dc778d8772926e6af70e5a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889835"
 ---
-
-<<<<<<< HEAD
-# <a name="provider-and-defaultdatabase-properties-example-vc"></a>Provider and DefaultDatabase Properties Example (VC++)
-=======
-# <a name="provider-and-defaultdatabase-properties-example-vc"></a>Пример: свойства поставщика и DefaultDatabase (VC ++)
->>>>>>> master
+# <a name="provider-and-defaultdatabase-properties-example-vc"></a>Пример использования свойств Provider и DefaultDatabase (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [поставщика](provider-property-ado.md) , открыв три объекты [подключения](connection-object-ado.md) , с помощью различных поставщиков. Настройка базы данных по умолчанию для поставщика ODBC Microsoft также использует свойство [DefaultDatabase](defaultdatabase-property-ado.md) .
 

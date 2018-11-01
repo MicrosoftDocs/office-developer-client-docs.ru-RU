@@ -19,7 +19,7 @@ ms.locfileid: "22579845"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сведения о запуске синхронизации между локального хранилища и сервером. Эти сведения используются во время [синхронизации состояния](synchronize-state.md).
   
@@ -37,7 +37,7 @@ struct SYNC
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  _ulFlags_
   
@@ -92,5 +92,5 @@ struct SYNC
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

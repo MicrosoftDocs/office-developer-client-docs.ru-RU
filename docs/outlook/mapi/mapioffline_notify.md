@@ -17,7 +17,7 @@ ms.locfileid: "22580728"
 ---
 # <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Это уведомление, чтобы внести изменения в состоянии подключения. Он указывает часть состояния подключения, который был изменен, старый состояние подключения и новое состояние подключения.
   
@@ -42,7 +42,7 @@ typedef struct
 } MAPIOFFLINE_NOTIFY;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  _ulSize_
   
@@ -94,7 +94,7 @@ typedef struct
   
 ## <a name="see-also"></a>См. также
 
-- [Сведения об API автономного состояния](about-the-offline-state-api.md)  
-- [��������� MAPI](mapi-constants.md)  
+- [Об API автономного режима](about-the-offline-state-api.md)  
+- [Константы MAPI](mapi-constants.md)  
 - [MAPIOFFLINE_NOTIFY_TYPE](mapioffline_notify_type.md)
 

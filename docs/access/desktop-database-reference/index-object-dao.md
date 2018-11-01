@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e45356a09a6a625381ef9a39d40e7349234460ba
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5d4ed801dfa746af3ad649738e32cec58afe17f6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481693"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877081"
 ---
 # <a name="index-object-dao"></a>Index Object (DAO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Объекты **индекса** указать порядок записей, доступного из таблицы базы данных и принимаются ли повторяющихся записей, предоставляя эффективного доступа к данным. Для внешних баз данных объекты **индекса** описывают индексов, установленных для внешних таблиц (только для рабочих областей Microsoft Access).
 

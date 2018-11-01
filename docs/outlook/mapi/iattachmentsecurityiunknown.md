@@ -23,7 +23,7 @@ ms.locfileid: "22574828"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Позволяет Microsoft Outlook 2010 и Microsoft Outlook 2013 решения узнать, если вложение считается небезопасные и заблокированные для просмотра и индексирования.
   
@@ -45,7 +45,7 @@ ms.locfileid: "22574828"
 
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
-[Проверка блокировки вложения](how-to-verify-an-attachment-is-blocked.md)
+[Убедитесь, что Заблокированные вложения](how-to-verify-an-attachment-is-blocked.md)
 

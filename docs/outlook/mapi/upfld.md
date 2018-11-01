@@ -17,7 +17,7 @@ ms.locfileid: "22572293"
 ---
 # <a name="upfld"></a>UPFLD
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сведения для передачи в папку во время [загрузки состояние папки](upload-folder-state.md).
   
@@ -33,7 +33,7 @@ struct UPFLD
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 _ulFlags_
   
@@ -71,5 +71,5 @@ _feid_
 
 - [Сведения об API репликации](about-the-replication-api.md) 
 - [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства MaxRecords (VJ ++) TOCTitle: пример свойства MaxRecords (VJ ++) === название: пример свойства MaxRecords (VJ ++) TOCTitle: пример свойства MaxRecords (VJ ++)
->>>>>>> главные ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15) ms:contentKeyID: 48548106 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства MaxRecords (VJ++)
+TOCTitle: MaxRecords property example (VJ++)
+ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15)
+ms:contentKeyID: 48548106
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 57a0aa8b065df622cfc89153c41b3ef31f08eca9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877879"
 ---
-
-<<<<<<< HEAD
-# <a name="maxrecords-property-example-vj"></a>MaxRecords Property Example (VJ++)
-=======
-# <a name="maxrecords-property-example-vj"></a>Пример свойства MaxRecords (VJ ++)
->>>>>>> master
+# <a name="maxrecords-property-example-vj"></a>Пример использования свойства MaxRecords (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [MaxRecords](maxrecords-property-ado.md) для открытия [набора записей](recordset-object-ado.md) , содержащий 10 самых больших затрат заголовков в таблице ***заголовки*** .
 

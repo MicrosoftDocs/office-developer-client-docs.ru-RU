@@ -1,22 +1,22 @@
 ---
-title: ShowAllRecords Macro Action
+title: Действия ПоказатьВсеЗаписи макроса
 TOCTitle: ShowAllRecords Macro Action
 ms:assetid: 6f9741ad-0440-4b8d-abea-009063c111f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195587(v=office.15)
 ms:contentKeyID: 48545538
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 40221ce69a03f619bd15a5a89af9018c66c52791
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1b6482bcd34562e13e1783f8e0702718eeaed0b0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482738"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881736"
 ---
-# <a name="showallrecords-macro-action"></a>ShowAllRecords Macro Action
+# <a name="showallrecords-macro-action"></a>Действия ПоказатьВсеЗаписи макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Можно использовать **ПоказатьВсеЗаписи** для удаления любого фильтра из активной таблицы, набор результатов запроса или формы и отображения всех записей в таблице или результирующего набора или всех записей в виде таблицы или запроса.

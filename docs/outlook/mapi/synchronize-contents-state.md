@@ -17,7 +17,7 @@ ms.locfileid: "22577249"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описываются двоичных файлов состояния содержимое синхронизировать конечного автомата репликации. 
   
@@ -27,7 +27,7 @@ ms.locfileid: "22577249"
 |:-----|:-----|
 |Идентификатор состояний:  <br/> |**LR_SYNC_CONTENTS** <br/> |
 |Структура связанных данных:  <br/> |**[SYNCCONT](synccont.md)** <br/> |
-|Из этого состояния:  <br/> |[Синхронизировать состояние](synchronize-state.md) <br/> |
+|Из этого состояния:  <br/> |[Состояние синхронизации](synchronize-state.md) <br/> |
 |Это состояние:  <br/> |[Загрузить в таблице состояния](download-table-state.md), [Отправка состояний в таблице](upload-table-state.md), или синхронизировать состояние  <br/> |
    
 > [!NOTE]
@@ -49,9 +49,9 @@ ms.locfileid: "22577249"
 
 [Сведения об API репликации](about-the-replication-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[СОСТОЯНИЕ](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

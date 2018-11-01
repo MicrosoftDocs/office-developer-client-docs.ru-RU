@@ -17,7 +17,7 @@ ms.locfileid: "22587574"
 ---
 # <a name="upmsg"></a>UPMSG
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сведения для отправки элемента Outlook во время [отправки сообщения состояния](upload-message-state.md).
   
@@ -38,7 +38,7 @@ struct UPMSG
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  _ulFlags_
   
@@ -120,7 +120,7 @@ _skeySrc_
 
 - [Сведения об API репликации](about-the-replication-api.md)
 - [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 - [FEID](feid.md)
 - [MEID](meid.md)
 - [SKEY](skey.md)

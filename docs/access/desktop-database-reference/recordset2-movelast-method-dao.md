@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
 ms:contentKeyID: 48544079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c66adcadcf07ab18db60ba39ae6bc66d58d5e5db
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e48e4816be8342165dba17d7ab4d478d53962114
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483239"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874596"
 ---
 # <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Переход к последней записи в указанный объект **набора записей** и сделать эту запись текущей записи.
 

@@ -1,5 +1,5 @@
 ---
-title: Initializing the Text Data Source Driver
+title: Инициализация драйвера источника текстовых данных
 TOCTitle: Initializing the Text Data Source Driver
 ms:assetid: cba0864e-5f94-bf43-4708-b1981e3acaff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834391(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb897c4e057b767c98676bc14c9f1e70c22095ee
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: eec27b3bbd8d23fef05ab8bfe4da0209acf80ac1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481981"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875163"
 ---
-# <a name="initializing-the-text-data-source-driver"></a>Initializing the Text Data Source Driver
+# <a name="initializing-the-text-data-source-driver"></a>Инициализация драйвера источника текстовых данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Для обоих источников данных и источники данных HTML, используется один и тот же драйвер базы данных.

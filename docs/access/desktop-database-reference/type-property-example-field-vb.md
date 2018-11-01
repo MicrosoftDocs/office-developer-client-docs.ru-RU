@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства типа (поле) (VB) TOCTitle: пример свойства типа (поле) (VB) === название: пример свойства типа (поле) (VB) TOCTitle: пример свойства типа (поле) (VB)
->>>>>>> главные ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15) ms:contentKeyID: 48548966 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Type (Field) (VB)
+TOCTitle: Type property example (Field) (VB)
+ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15)
+ms:contentKeyID: 48548966
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b7478dd3ab4574b3315f5d57bf2f3680b8777e22
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889443"
 ---
-
-<<<<<<< HEAD
-# <a name="type-property-example-field-vb"></a>Type Property Example (Field) (VB)
-=======
-# <a name="type-property-example-field-vb"></a>Пример свойства типа (поле) (VB)
->>>>>>> master
+# <a name="type-property-example-field-vb"></a>Пример использования свойства Type (Field) (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано свойство [типа](type-property-ado.md) , отображая имя константы, соответствующее значение свойства [типа](type-property-ado.md) всех объектов [поля](field-object-ado.md) в таблице ***сотрудников*** . Функция FieldType является обязательным для выполнения этой процедуры.
 

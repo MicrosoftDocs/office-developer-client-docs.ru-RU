@@ -1,22 +1,22 @@
 ---
-title: WillChangeRecord and RecordChangeComplete Events (ADO)
+title: WillChangeRecord и RecordChangeComplete события (ADO)
 TOCTitle: WillChangeRecord and RecordChangeComplete Events (ADO)
 ms:assetid: b21229b2-74e6-0798-95bf-0252f041831c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249851(v=office.15)
 ms:contentKeyID: 48547162
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5dca190dca19654314df3944b4b1696874f9afaa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 895a80cf4810088b5f18f4a9416e7eadc54a004f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480702"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878131"
 ---
-# <a name="willchangerecord-and-recordchangecomplete-events-ado"></a>WillChangeRecord and RecordChangeComplete Events (ADO)
+# <a name="willchangerecord-and-recordchangecomplete-events-ado"></a>WillChangeRecord и RecordChangeComplete события (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Событие **WillChangeRecord** вызывается перед измените один или несколько записей (строк) в [набора записей](recordset-object-ado.md) . Событие **RecordChangeComplete** вызывается после изменения одной или нескольких записей.

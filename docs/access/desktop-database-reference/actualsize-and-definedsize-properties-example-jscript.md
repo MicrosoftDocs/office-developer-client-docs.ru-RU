@@ -1,16 +1,21 @@
 ---
-<<<<<<< Название HEAD: ActualSize и TOCTitle пример: свойства DefinedSize (JScript): ActualSize и пример: свойства DefinedSize (JScript) ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) мс: contentKeyID: 48547811 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств ActualSize и DefinedSize (JScript)
+TOCTitle: ActualSize and DefinedSize properties example (JScript)
+ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
+ms:contentKeyID: 48547811
+ms.date: 10/16/2018
+mtps_version: v=office.15
+ms.openlocfilehash: ce9c50039566511a4f22f3ab613e5dce36c3931d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878698"
 ---
+# <a name="actualsize-and-definedsize-properties-example-jscript"></a>Пример использования свойств ActualSize и DefinedSize (JScript)
 
-# <a name="actualsize-and-definedsize-properties-example-jscript"></a>ActualSize and DefinedSize Properties Example (JScript)
-
-=== Название: пример свойства ActualSize и DefinedSize (JScript) TOCTitle: ActualSize и DefinedSize ms:assetid пример (JScript) свойства: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms:contentKeyID: 48547811 ms.date: 10 / 16/2018 mtps_version: v=office.15
----
-
-# <a name="actualsize-and-definedsize-properties-example-jscript"></a>Пример свойства ActualSize и DefinedSize (JScript)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере с помощью свойства [ActualSize](actualsize-property-ado.md) и [DefinedSize](definedsize-property-ado.md) для отображения определенного размера и фактический размер поля. Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ActualSizeJS.asp**.
 
@@ -22,11 +27,7 @@
 <html> 
  
 <head> 
-<<<<<<< HEAD
- <title>ActualSize and DefinedSize Properties Example (JScript)</title> 
-=======
  <title>ActualSize and DefinedSize properties example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 

@@ -23,7 +23,7 @@ ms.locfileid: "22573636"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Задает ширину потока MIME, который возвращает преобразователь в [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)обтекания.
   
@@ -44,17 +44,17 @@ HRESULT IConverterSession::SetTextWrapping (
   
 > [in] Текст, перенос ширины для использования.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK
+S_OK
   
 > Вызов выполнен успешно.
     
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |Mfcmapi (en) используется MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |Mfcmapi (en) используется MAPIToMIMEStm для преобразования MAPI сообщения EML-файла.  <br/> |
@@ -78,5 +78,5 @@ HRESULT IConverterSession::SetTextWrapping (
 [IConverterSession::SetSaveFormat](iconvertersession-setsaveformat.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

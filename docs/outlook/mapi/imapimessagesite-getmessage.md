@@ -23,7 +23,7 @@ ms.locfileid: "22576612"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает текущее сообщение.
   
@@ -39,9 +39,9 @@ HRESULT GetMessage(
   
 > [out] Указатель на указатель на возвращенный интерфейс для сообщения.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -57,11 +57,11 @@ S_FALSE
   
 Список интерфейсы, связанные с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |Mfcmapi (en) использует метод **IMAPIMessageSite::GetMessage** возвращает указатель в настоящее время кэширования сообщение, если она доступна.  <br/> |
    
@@ -82,7 +82,7 @@ S_FALSE
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы форм MAPI](mapi-form-interfaces.md)
+[Интерфейсы формы MAPI](mapi-form-interfaces.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "22573014"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Открывает профиля из текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшей доступа. 
   
@@ -66,9 +66,9 @@ MAPI_FORCE_ACCESS
   
 > [out] Указатель на указатель на раздел профилей.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > В разделе профилей успешно открыт.
     
@@ -94,11 +94,11 @@ MAPI_E_NOT_FOUND
   
 При запросе, **OpenProfileSection** открыть несуществующий раздел с разрешением только для чтения, возвращает MAPI_E_NOT_FOUND. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |Mfcmapi (en) использует метод **IProviderAdmin::OpenProfileSection** для открытия профиля из текущего профиля.  <br/> |
    

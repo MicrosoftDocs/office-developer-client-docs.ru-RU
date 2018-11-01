@@ -1,23 +1,23 @@
 ---
-title: Обнаружение и устранение конфликтов
+title: Обнаружение и разрешение конфликтов
 TOCTitle: Detecting and Resolving Conflicts
 ms:assetid: 8299745b-e595-21d5-26c1-a078d00a1c0c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249566(v=office.15)
 ms:contentKeyID: 48545983
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4468887c0ef187e6dd955c20db91050415ec68ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 76bfc8f81b7f9df3d1b0e759620952f92bb5c8f1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480191"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875297"
 ---
-# <a name="detecting-and-resolving-conflicts"></a>Обнаружение и устранение конфликтов
+# <a name="detecting-and-resolving-conflicts"></a>Обнаружение и разрешение конфликтов
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-## <a name="detecting-and-resolving-conflicts"></a>Обнаружение и устранение конфликтов
+## <a name="detecting-and-resolving-conflicts"></a>Обнаружение и разрешение конфликтов
 
 Если вы имеете дело с вашего **набора записей** в режиме интерпретации, существует значительно снижают вероятность возникновения проблем параллелизма в случае. С другой стороны, если приложение использует режим обновление пакета, может существовать хорошо вероятность того, что один пользователь будет изменение записи перед сохранением изменений, внесенных другим пользователем, редактирования и той же записи. В этом случае требуется приложение дело конфликта. Может быть нежелательным, последний участник отправить обновление на сервере «wins.» Или может понадобиться разрешить самыми последними пользователю решить, какие обновления должны имеют приоритет, предоставляя ему возможность выбора из двух конфликтующие значения.
 

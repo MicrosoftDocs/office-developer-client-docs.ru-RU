@@ -23,15 +23,15 @@ ms.locfileid: "22574799"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Освобождает служебной программы функций, вызываемых явным образом с помощью функции [ScInitMapiUtil](scinitmapiutil.md) или неявно с помощью функции [MAPIInitialize](mapiinitialize.md) . 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiutil.h  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
    
 ```cpp
 VOID DeinitMapiUtil( void );
@@ -41,7 +41,7 @@ VOID DeinitMapiUtil( void );
 
 None 
   
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
 Отсутствует 
   

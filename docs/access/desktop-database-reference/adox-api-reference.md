@@ -6,29 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249446(v=office.15)
 ms:contentKeyID: 48545561
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2d39433ca567f6a088c9f4b51cfcaf1b3b5ba1fa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aa925ff5b9fef77b91e4c019ed85d17eb75cd107
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482905"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876500"
 ---
-# <a name="adox-api-reference"></a>ADOX API Reference
+# <a name="adox-api-reference"></a>Справочник по API ADOX
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом разделе документации по ADOX разделы для каждого ADOX объекта, семейства сайтов, метод и свойства, а также примеры кода, когда это необходимо. Для получения дополнительных сведений поиска для конкретного раздела в индексе или изучите следующие разделы:
 
-  - [ADOX Objects](adox-objects.md)
+  - [Объекты ADOX](adox-objects.md)
 
-  - [ADOX Collections](adox-collections.md)
+  - [ADOX семейств сайтов](adox-collections.md)
 
-  - [ADOX Properties](adox-properties.md)
+  - [Свойства ADOX](adox-properties.md)
 
-  - [ADOX Methods](adox-methods.md)
+  - [Методы ADOX](adox-methods.md)
 
-  - [ADOX Enumerated Constants](adox-enumerated-constants.md)
+  - [Перечислимые константы ADOX](adox-enumerated-constants.md)
 
-  - [ADOX Code Examples](adox-code-examples.md)
+  - [Примеры кода ADOX](adox-code-examples.md)
 

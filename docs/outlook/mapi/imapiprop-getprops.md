@@ -23,7 +23,7 @@ ms.locfileid: "22588008"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получает значение свойства из одного или нескольких свойств объекта.
   
@@ -58,9 +58,9 @@ MAPI_UNICODE
   
 > [out] Указатель на указатель на извлеченное свойство значения.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Значения свойств были успешно извлечен.
     
@@ -100,7 +100,7 @@ MAPI_E_INVALID_PARAMETER
     
  **GetProps** не должен возвращать, что свойства с несколькими значениями с **cValues** значение 0. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Вызовите функцию [MAPIAllocateBuffer](mapiallocatebuffer.md) изначально выделить память для структуры [SPropValue](spropvalue.md) , на который указывает _lpPropTagArray_; вызов [MAPIAllocateMore](mapiallocatemore.md) распределения любой дополнительной памяти, необходимый для членов структуры. 
   
@@ -164,11 +164,11 @@ MAPI_E_INVALID_PARAMETER
   
 Дополнительные сведения об использовании **GetProps** для доступа к свойствам можно [Извлечение свойств MAPI](retrieving-mapi-properties.md).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |Mfcmapi (en) использует метод **IMAPIProp::GetProps** для получения всех свойств для объекта, передавая NULL или массива, возвращенных методом [IMAPIProp::GetPropList](imapiprop-getproplist.md) с помощью параметра _lpPropTagArray_ .  <br/> |
    
@@ -193,9 +193,9 @@ MAPI_E_INVALID_PARAMETER
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
 [Извлечение свойств MAPI](retrieving-mapi-properties.md)
   
-[Обработка ошибок с помощью макросов](using-macros-for-error-handling.md)
+[Использование макросов для обработки ошибок](using-macros-for-error-handling.md)
 

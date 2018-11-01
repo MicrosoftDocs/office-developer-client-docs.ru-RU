@@ -1,11 +1,11 @@
 ---
-title: Получение адреса электронной почты из элемента контакта
+title: Получение электронного адреса элемента контакта
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
-description: '���� ���������� ���������: 25 ���� 2012 �.'
+description: 'Дата последнего изменения: 25 июня 2012 года'
 ms.openlocfilehash: f9c6766c934632a83fa0388ac2bc4c2c397eead6
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22575555"
 ---
-# <a name="get-the-email-address-of-a-contact-item"></a>Получение адреса электронной почты из элемента контакта
+# <a name="get-the-email-address-of-a-contact-item"></a>Получение электронного адреса элемента контакта
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 В этом разделе показано, как получить значение именованного свойства, который представляет адрес электронной почты Microsoft Outlook 2010 или Microsoft Outlook 2013 контакт элемента.
   

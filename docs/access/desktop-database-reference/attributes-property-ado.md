@@ -1,29 +1,33 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство атрибуты (ADO): свойство атрибуты (ADO) === название: атрибуты свойства (ADO) TOCTitle: атрибуты свойства (ADO)
->>>>>>> главные ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15) ms:contentKeyID: 48544716 ms.date: 09/18/2015 mtps_version: v=office.15 f1_keywords:
-- ado210.chm1231117 f1_categories:
+title: Свойство Attributes (ADO)
+TOCTitle: Attributes property (ADO)
+ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15)
+ms:contentKeyID: 48544716
+ms.date: 09/18/2015
+mtps_version: v=office.15
+f1_keywords:
+- ado210.chm1231117
+f1_categories:
 - Office.Version=v15
+ms.openlocfilehash: ea253515a673f0f941032e2920d84c7ebf68f1bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874820"
 ---
-
-<<<<<<< HEAD
-# <a name="attributes-property-ado"></a>Attributes Property (ADO)
-=======
 # <a name="attributes-property-ado"></a>Свойство Attributes (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 ## <a name="attributes-property"></a>Свойство Attributes
 
 Указывает один или несколько характеристик объекта.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает значение типа **Long** .
 

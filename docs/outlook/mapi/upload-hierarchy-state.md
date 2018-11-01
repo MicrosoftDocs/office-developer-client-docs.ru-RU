@@ -17,7 +17,7 @@ ms.locfileid: "22572188"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описываются двоичных файлов состояние иерархии отправляемых конечного автомата репликации. 
   
@@ -27,7 +27,7 @@ ms.locfileid: "22572188"
 |:-----|:-----|
 |Идентификатор состояний:  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
 |Структура связанных данных:  <br/> |**[UPHIER](uphier.md)** <br/> |
-|Из этого состояния:  <br/> |[Синхронизировать состояние](synchronize-state.md) <br/> |
+|Из этого состояния:  <br/> |[Состояние синхронизации](synchronize-state.md) <br/> |
 |Это состояние:  <br/> |[Отправить состояние папки](upload-folder-state.md), или синхронизировать состояние  <br/> |
    
 > [!NOTE]
@@ -45,9 +45,9 @@ ms.locfileid: "22572188"
 
 [Сведения об API репликации](about-the-replication-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
   
-[СОСТОЯНИЕ](syncstate.md)
+[SYNCSTATE](syncstate.md)
 

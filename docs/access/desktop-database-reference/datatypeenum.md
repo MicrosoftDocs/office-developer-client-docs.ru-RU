@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
 ms:contentKeyID: 48546904
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f5c192589f2c90b2ce7b6c7b376b80c92b341e2d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7d1cbc0964c4e980c1dd5216431c5efd0c467dc4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860660"
+ms.locfileid: "25878264"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает тип данных [параметра](parameter-object-ado.md), [поля](field-object-ado.md)или [Свойства](property-object-ado.md). В скобки в столбце Описание в следующей таблице показан соответствующий индикатор типа OLE DB. Дополнительные сведения о типах данных OLE DB видеть главе 13 и приложение A *Справочник программиста OLE DB*.
 

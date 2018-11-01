@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822784(v=office.15)
 ms:contentKeyID: 48547483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78f86e8c80a6bbc09499e9512e2daee87fc67998
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c2d96c359a913660c146f4850a1846554e3b6856
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480802"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875121"
 ---
 # <a name="recordstatusenum-enumeration-dao"></a>RecordStatusEnum Enumeration (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Используется совместно со свойством **RecordStatus** для указания состояния обновление текущей записи, если он входит в состав пакета обновления.
 

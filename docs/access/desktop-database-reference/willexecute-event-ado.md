@@ -1,22 +1,22 @@
 ---
-title: WillExecute Event (ADO)
+title: Событие WillExecute (ADO)
 TOCTitle: WillExecute Event (ADO)
 ms:assetid: 9f516bfd-246d-9817-4ca3-64598ab466f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
 ms:contentKeyID: 48546686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3cdf4764cca2b40cee62f9d66ea748a4e627a5f
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: bb044047c0b97c6a600d798bea7acedea57d6afe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606845"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881771"
 ---
-# <a name="willexecute-event-ado"></a>WillExecute Event (ADO)
+# <a name="willexecute-event-ado"></a>Событие WillExecute (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Событие **WillExecute** называется просто до выполнения ожидающие команды для подключения.
@@ -63,9 +63,7 @@ ms.locfileid: "25606845"
 
 ## <a name="remarks"></a>Замечания
 
-<<<<<<< HEAD **WillExecute** события могут возникнуть из-за **подключения.** [Выполнение](https://msdn.microsoft.com/library/jj249832\(v=office.15\)), **команда.** [Выполнение](https://msdn.microsoft.com/library/jj248785\(v=office.15\)), или **набора записей.** Метод [Open](open-method-ado-recordset.md) параметр *pConnection* всегда должен содержать ссылку на допустимый объект **подключения** . Если событие из-за **Connection.Execute** *pRecordset* и *командной* — значение **Nothing**. Если событие из-за **Recordset.Open**параметр *pRecordset* ссылается на объект **набора записей** , параметр *командной* задано значение **Nothing**. Если событие из-за **Command.Execute**, параметр *командной* ссылаются на объект **команды** и *pRecordset* параметру присвоено значение **Nothing**.
-=== Событие **WillExecute** могут возникнуть из-за **подключения.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), или **набора записей.** Метод [Open](open-method-ado-recordset.md) параметр *pConnection* всегда должен содержать ссылку на допустимый объект **подключения** . Если событие из-за **Connection.Execute** *pRecordset* и *командной* — значение **Nothing**. Если событие из-за **Recordset.Open**параметр *pRecordset* ссылается на объект **набора записей** , параметр *командной* задано значение **Nothing**. Если событие из-за **Command.Execute**, параметр *командной* ссылаются на объект **команды** и *pRecordset* параметру присвоено значение **Nothing**.
->>>>>>> master
+Событие **WillExecute** могут возникнуть из-за **подключения.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), или **набора записей.** Метод [Open](open-method-ado-recordset.md) параметр *pConnection* всегда должен содержать ссылку на допустимый объект **подключения** . Если событие из-за **Connection.Execute** *pRecordset* и *командной* — значение **Nothing**. Если событие из-за **Recordset.Open**параметр *pRecordset* ссылается на объект **набора записей** , параметр *командной* задано значение **Nothing**. Если событие из-за **Command.Execute**, параметр *командной* ссылаются на объект **команды** и *pRecordset* параметру присвоено значение **Nothing**.
 
 **WillExecute** позволяет проверять и изменять параметры ожидающих выполнения. Это событие может возвратить запрос на отменить ожидающие команды.
 

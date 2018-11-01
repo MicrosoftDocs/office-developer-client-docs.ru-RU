@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836359(v=office.15)
 ms:contentKeyID: 48548549
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 68f6f1e96ae57508d94ea341b36e3a6b32cac660
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b368079aeb668c9ae72e3955f55159ab2c72a53e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481838"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882569"
 ---
 # <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum Enumeration (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Используется со свойством **подготовить** для указания метода используется, чтобы указать, как следует подготовить запрос.
 
