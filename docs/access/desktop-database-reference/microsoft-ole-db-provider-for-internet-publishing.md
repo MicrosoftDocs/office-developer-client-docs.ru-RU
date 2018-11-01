@@ -1,21 +1,21 @@
 ---
-title: Microsoft OLE DB Provider for Internet Publishing
+title: Поставщик Microsoft OLE DB для публикации в Интернете
 TOCTitle: Microsoft OLE DB Provider for Internet Publishing
 ms:assetid: 5d1e8db5-dabb-0914-e11e-e2eac72bfa77
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249327(v=office.15)
 ms:contentKeyID: 48545100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7221c6bd0a6e8576237fdf4cbfcabe70620f6af8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: bb0bb40d0f12bd9d5a6c8b29af1d4e27d806db87
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603996"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882086"
 ---
-# <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Microsoft OLE DB Provider for Internet Publishing
+# <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Поставщик Microsoft OLE DB для публикации в Интернете
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Поставщик Microsoft OLE DB для публикации Интернет позволяет ADO для доступа к ресурсам удовлетворить с помощью Microsoft FrontPage или Microsoft Internet Information Server. Ресурсы включают в себя web исходные файлы, такие как файлы HTML или веб-папок Windows 2000.
 
@@ -66,11 +66,7 @@ MSDAIPP.DSO
 </tr>
 <tr class="even">
 <td><p><strong>Источник данных</strong> - или - <strong>URL-адрес</strong></p></td>
-<<<<<<< HEAD
 <td><p>Задает URL-адрес файла или папки, опубликованной в веб-папку.</p></td>
-=======
-<td><p>Задает URL-адрес файла или папки, опубликованной в веб-папку.</p></td>
->>>>>>>Образец
 </tr>
 <tr class="odd">
 <td><p><strong>Идентификатор пользователя</strong></p></td>

@@ -1,5 +1,5 @@
 ---
-title: Requery Macro Action
+title: Повторный запрос действия макроса
 TOCTitle: Requery Macro Action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195544(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9eea9445912b1a784d9926b2c044c4385a17ee69
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e8e5a25b8770f3542fade53d206ff20400ebf350
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482201"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885943"
 ---
-# <a name="requery-macro-action"></a>Requery Macro Action
+# <a name="requery-macro-action"></a>Повторный запрос действия макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **запроса** можно использовать для обновления данных в указанный элемент управления для текущего объекта повторным запросом источника элемента управления. Если элемент не указан, это действие вызывает повторный запрос источника самого объекта. Используйте это действие для убедитесь, что объекте или в элементе управления отображает текущих данных.
 

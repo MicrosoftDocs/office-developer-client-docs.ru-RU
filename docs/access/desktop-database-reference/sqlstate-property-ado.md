@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство SQLState (ADO): свойство SQLState (ADO) === заголовок: свойство SQLState (ADO) TOCTitle: свойство SQLState (ADO)
->>>>>>> главные ms:assetid: cf3b078a-849e-1ad2-cba4-a26160080868 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250029(v=office.15) ms:contentKeyID: 48547806 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство SQLState (ADO)
+TOCTitle: SQLState property (ADO)
+ms:assetid: cf3b078a-849e-1ad2-cba4-a26160080868
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250029(v=office.15)
+ms:contentKeyID: 48547806
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f6fb45342a56a003856192a353270778b44654de
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872181"
 ---
-
-<<<<<<< HEAD
-# <a name="sqlstate-property-ado"></a>SQLState Property (ADO)
-=======
 # <a name="sqlstate-property-ado"></a>Свойство SQLState (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает состояние SQL для того или иного объекта [ошибки](error-object-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Возвращает **строковое** значение пяти символов, которая стандарту ANSI SQL и указывает код ошибки.
 

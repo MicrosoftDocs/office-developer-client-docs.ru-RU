@@ -1,5 +1,5 @@
 ---
-title: QuitAccess Macro Action
+title: Действия макроса QuitAccess
 TOCTitle: QuitAccess Macro Action
 ms:assetid: af063f65-d3b1-fa9a-4bc1-04b0d21d62b9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821759(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5fa3b7ffc97f69b1ebc85799a8b2a27b6acc1d90
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d26f8d32e0df350c52ea22dfec44ac7a24c9ecc9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479946"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870753"
 ---
-# <a name="quitaccess-macro-action"></a>QuitAccess Macro Action
+# <a name="quitaccess-macro-action"></a>Действия макроса QuitAccess
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **QuitAccess** можно использовать, чтобы выйти из Microsoft Access. Действие **QuitAccess** можно указать один из параметров сохранения объектов базы данных.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: ConnectionString, ConnectionTimeout и TOCTitle пример свойств состояний (VC ++): ConnectionString, ConnectionTimeout и пример свойств состояний (VC ++) === название: ConnectionString, ConnectionTimeout и пример свойств состояний (VC ++) TOCTitle: пример: свойства ConnectionString, ConnectionTimeout и состояния (VC ++)
->>>>>>> главные ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15) ms:contentKeyID: 48544254 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств ConnectionString, ConnectionTimeout и State (VC++)
+TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VC++)
+ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15)
+ms:contentKeyID: 48544254
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ad2bb36a6e3b714a1fb5730978877d09637d141c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878908"
 ---
-
-<<<<<<< HEAD
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a>ConnectionString, ConnectionTimeout, and State Properties Example (VC++)
-=======
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a>Пример: свойства ConnectionString, ConnectionTimeout и состояния (VC ++)
->>>>>>> master
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a>Пример использования свойств ConnectionString, ConnectionTimeout и State (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется различные способы использования свойства [ConnectionString](connectionstring-property-ado.md) для открытия объект [подключения](connection-object-ado.md) . Он также использует свойство [ConnectionTimeout](connectiontimeout-property-ado.md) , чтобы задать период времени ожидания и свойство [состояние](state-property-ado.md) для проверки состояния подключения. Функция GetState является обязательным для выполнения этой процедуры.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: PrimaryKey и TOCTitle уникальный пример свойств (VC ++): PrimaryKey и уникальные пример свойств (VC ++) === название: пример: свойства PrimaryKey и Unique (VC ++) TOCTitle: PrimaryKey и Unique свойства Пример (VC ++)
->>>>>>> главные ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: 48543158 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств PrimaryKey и Unique (VC++)
+TOCTitle: PrimaryKey and Unique properties example (VC++)
+ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
+ms:contentKeyID: 48543158
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ec71b8aec6990fbd0f05312fecf751c568773a3d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883409"
 ---
-
-<<<<<<< HEAD
-# <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey and Unique Properties Example (VC++)
-=======
-# <a name="primarykey-and-unique-properties-example-vc"></a>Пример: свойства PrimaryKey и Unique (VC ++)
->>>>>>> master
+# <a name="primarykey-and-unique-properties-example-vc"></a>Пример использования свойств PrimaryKey и Unique (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере свойства [PrimaryKey](primarykey-property-adox.md) и [Уникальный](unique-property-adox.md) [индекс](index-object-adox.md). Код создает новую таблицу с двумя столбцами. Свойства **PrimaryKey** и **Unique** используются для сделать один столбец первичного ключа, для которого не разрешены повторяющиеся значения.
 

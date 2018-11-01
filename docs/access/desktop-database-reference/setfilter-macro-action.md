@@ -1,5 +1,5 @@
 ---
-title: SetFilter Macro Action
+title: Действия SetFilter макроса
 TOCTitle: SetFilter Macro Action
 ms:assetid: dee699e2-0840-1612-23ce-199ef8d30566
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835438(v=office.15)
@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4fe2bceb53b835d4c8adab1a1550185c3a7a122a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4292ded0638e8dbe3ad56aa835caa9c6541f0432
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606397"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874316"
 ---
-# <a name="setfilter-macro-action"></a>SetFilter Macro Action
+# <a name="setfilter-macro-action"></a>Действия SetFilter макроса
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы применить фильтр в записи в активной таблицы, формы, отчета или в таблице можно использовать действие **SetFilter** .
 
@@ -41,19 +41,11 @@ ms.locfileid: "25606397"
 <tbody>
 <tr class="odd">
 <td><p>Имя фильтра</p></td>
-<<<<<<< HEAD
 <td><p>Если этот параметр указан, имя запроса или фильтра, сохраненный как запрос. Этот аргумент или аргумент WhereCondition требуется в базе данных клиента. В веб-база данных этот аргумент недоступен.</p></td>
 </tr>
 <tr class="even">
 <td><p>Условие отбора</p></td>
 <td><p>Если этот параметр указан, SQL предложения WHERE, которое ограничивает число записей в таблице данных, форме, отчете или таблице. В веб-база данных этот аргумент является обязательным.</p></td>
-=======
-<td><p>Если этот параметр указан, имя запроса или фильтра, сохраненный как запрос. Этот аргумент или аргумент WhereCondition требуется в базе данных клиента. В веб-база данных этот аргумент недоступен.</p></td>
-</tr>
-<tr class="even">
-<td><p>Условие отбора</p></td>
-<td><p>Если этот параметр указан, SQL предложения WHERE, которое ограничивает число записей в таблице данных, форме, отчете или таблице. В веб-база данных этот аргумент является обязательным.</p></td>
->>>>>>>Образец
 </tr>
 <tr class="odd">
 <td><p>Контрольное имя</p></td>

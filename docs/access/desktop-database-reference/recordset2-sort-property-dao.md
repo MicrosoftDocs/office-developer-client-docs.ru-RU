@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193917(v=office.15)
 ms:contentKeyID: 48544842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0c7674f7513e75d0b03533dc165b49ac78d0461d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a142eb9b8aefd6d13723197fcef25c54937cb4b9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481003"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888071"
 ---
 # <a name="recordset2sort-property-dao"></a>Recordset2.Sort Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013 
+**Применимо к**: Access 2013, Office 2013 
 
 Задает или возвращает порядок сортировки для записей в объекте **[набора записей](recordset-object-dao.md)** (только для рабочих областей Microsoft Access).
 

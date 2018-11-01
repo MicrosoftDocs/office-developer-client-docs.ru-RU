@@ -12,16 +12,16 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 83ba764fa23c972c93156d418bffcde6f3239145
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f7dfaa7a8c3d6b3e41b2443bcca621d083c3a167
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863698"
+ms.locfileid: "25889632"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Оператор ALTER TABLE (Microsoft Access SQL)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Изменяет макет таблицы после его создания с помощью инструкции [CREATE TABLE](create-table-statement-microsoft-access-sql.md) .
 
@@ -97,12 +97,13 @@ ALTER TABLE в *таблице* {ДОБАВЬТЕ {СТОЛБЦА *типа по
   ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
-  
+
 - Используйте ограничение ADD для добавления составной индекс. Дополнительные сведения о составные индексы можно [предложение ограничения](constraint-clause-microsoft-access-sql.md).
 
 - Удаление СТОЛБЦА используется для удаления поля. Указать только имя поля.
 
 - ПОМЕСТИТЕ ограничение используется для удаления составной индекс. Укажите следующие ограничения имя индекса зарезервированным словом.
+
 
 > [!NOTE] 
 > - Не удается добавить или удалить более одного поля или индекса за раз.

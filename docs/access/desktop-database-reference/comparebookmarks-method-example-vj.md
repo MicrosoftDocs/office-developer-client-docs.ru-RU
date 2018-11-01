@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250236(v=office.15)
 ms:contentKeyID: 48548671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e7bc0bd2462fbfd5e5f4305a126e979f73c8c973
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f8e1236e1092b6b6c1d5e6afc0c64917d66ce813
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860590"
+ms.locfileid: "25880126"
 ---
 # <a name="comparebookmarks-method-example-vj"></a>Пример использования метода CompareBookmarks (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется использование метода [CompareBookmarks](comparebookmarks-method-ado.md) . Относительное значение закладки редко требуется, если не определенную закладку каким-либо образом специальные.
 

@@ -1,22 +1,22 @@
 ---
-title: Visual C++ ADO Programming
+title: Программирование для ADO на Visual C++
 TOCTitle: Visual C++ ADO Programming
 ms:assetid: 117c4fad-8c11-5e3a-ea0c-18811e87475f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21f832c227d706f8b12601e3346beb0c30ba0e78
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 55e4bf1476112cc950b72e8bfd1659226704f991
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481707"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25890010"
 ---
-# <a name="visual-c-ado-programming"></a>Visual C++ ADO Programming
+# <a name="visual-c-ado-programming"></a>Программирование для ADO на Visual C++
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Справочник по API ADO описывается функциональных возможностей ADO программный интерфейс (API) с помощью синтаксис, подобный в Microsoft Visual Basic. То, что Предполагаемая аудитория всех пользователей, ADO с любым опытом использования различных языков, например Visual Basic, Visual C++ (с и без ** \#импорта** директива) и Visual J ++ (с пакетом класс ADO/WFC).
 

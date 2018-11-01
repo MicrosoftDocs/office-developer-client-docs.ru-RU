@@ -1,22 +1,22 @@
 ---
-title: Using the Microsoft SDK for Java
+title: Использование пакета SDK (Майкрософт) для Java
 TOCTitle: Using the Microsoft SDK for Java
 ms:assetid: 35a1adb2-06d6-ff45-f151-f1f60ff9bfe2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249116(v=office.15)
 ms:contentKeyID: 48544152
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbcae50b0fdecc441bab40894899a75d04ee5f72
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8b34f02d01b5f119d9311e290f354ccbc71182d2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479799"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872552"
 ---
-# <a name="using-the-microsoft-sdk-for-java"></a>Using the Microsoft SDK for Java
+# <a name="using-the-microsoft-sdk-for-java"></a>Использование пакета SDK (Майкрософт) для Java
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Пакет SDK Microsoft для Java — это комплект материалов для разработчиков для среды Microsoft Internet Explorer. Средства, сведения и примеры предоставляются помогут вам в разработке программы Java и приложения на основе JDK 1.1 и виртуальной машины Microsoft Win32 (виртуальной Машины Microsoft). Пакет SDK Microsoft для Java не привязан к Microsoft Visual J ++.
 

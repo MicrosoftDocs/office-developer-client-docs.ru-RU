@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства CacheSize (JScript) TOCTitle: пример свойства CacheSize (JScript) === название: пример свойства CacheSize (JScript) TOCTitle: пример свойства CacheSize (JScript)
->>>>>>> главные ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15) ms:contentKeyID: 48547473 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства CacheSize (JScript)
+TOCTitle: CacheSize property example (JScript)
+ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15)
+ms:contentKeyID: 48547473
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab8a8f3aa1bb968ebed86c5718c4f236a9d4fc3b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887798"
 ---
-
-<<<<<<< HEAD
-# <a name="cachesize-property-example-jscript"></a>CacheSize Property Example (JScript)
-=======
-# <a name="cachesize-property-example-jscript"></a>Пример свойства CacheSize (JScript)
->>>>>>> master
+# <a name="cachesize-property-example-jscript"></a>Пример использования свойства CacheSize (JScript)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [CacheSize](cachesize-property-ado.md) для отображения разницу в производительности для операции, выполняемой с и без 30 записи кэша. Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **CacheSizeJS.asp**.
 
@@ -23,11 +29,7 @@
  
 <HTML> 
 <HEAD> 
-<<<<<<< HEAD
-<title>CacheSize Property Example (JScript)</title> 
-=======
 <title>CacheSize property example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 
@@ -51,11 +53,7 @@ body {
 </style> 
 </HEAD> 
 <BODY> 
-<<<<<<< HEAD
-<h1>CacheSize Property Example (JScript)</h1> 
-=======
 <h1>CacheSize property example (JScript)</h1> 
->>>>>>> master
 <% 
  // connection and recordset variables 
  var Cnxn = Server.CreateObject("ADODB.Connection") 

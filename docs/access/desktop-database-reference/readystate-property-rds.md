@@ -1,30 +1,26 @@
 ---
-title: ReadyState Property (RDS)
+title: Свойство ReadyState (RDS)
 TOCTitle: ReadyState Property (RDS)
 ms:assetid: e7b62205-a604-ef43-2f5d-9b51b46d2b5a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2a22099e49489226c7848a54112e7ab5e70b64ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: be07b0ffb983889aa7002406da9c40e13522c5c0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603919"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880120"
 ---
-# <a name="readystate-property-rds"></a>ReadyState Property (RDS)
+# <a name="readystate-property-rds"></a>Свойство ReadyState (RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Индикатор выполнения объекта [DataControl](datacontrol-object-rds.md) при извлечении данных в его объекта [набора записей](recordset-object-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает одно из следующих значений.
 

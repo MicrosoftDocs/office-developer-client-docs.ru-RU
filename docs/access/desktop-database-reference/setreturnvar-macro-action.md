@@ -1,21 +1,21 @@
 ---
-title: SetReturnVar Macro Action
+title: Действия макроса SetReturnVar
 TOCTitle: SetReturnVar Macro Action
 ms:assetid: 53719857-00bb-4f33-b5d2-93aff92d736e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193989(v=office.15)
 ms:contentKeyID: 48544870
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa4380904888194bf1d954ebf5619cab7d155047
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a0c4d47283b059a32fa4df3ba8e1278c1fdcd17a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480936"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873987"
 ---
-# <a name="setreturnvar-macro-action"></a>SetReturnVar Macro Action
+# <a name="setreturnvar-macro-action"></a>Действия макроса SetReturnVar
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **SetReturnVar** создает возвращаемое переменной и устанавливает для определенного значения.
 

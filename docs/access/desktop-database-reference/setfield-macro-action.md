@@ -1,22 +1,22 @@
 ---
-title: SetField Macro Action
+title: Действия SetField макроса
 TOCTitle: SetField Macro Action
 ms:assetid: 66bd26e3-e8c3-b9a1-2f16-f29adc44a345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195227(v=office.15)
 ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7050065ccb42d5e6cc9347f32df056891f4ed078
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1be405402c5f410c892c2dd8904133e09039351a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482077"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869507"
 ---
-# <a name="setfield-macro-action"></a>SetField Macro Action
+# <a name="setfield-macro-action"></a>Действия SetField макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **SetField** используется для присвоения значения поля.
 

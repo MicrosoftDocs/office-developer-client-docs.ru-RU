@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250216(v=office.15)
 ms:contentKeyID: 48548586
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d992afb30b5f357bbfe62877f7d79a2bf3571a33
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 55c0126d3936c70c0577b5028969d73d14bbf7ba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482510"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876941"
 ---
 # <a name="adox-code-example-topics"></a>ADOX Code Example Topics
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
-  - [ADOX Code Examples](adox-code-examples.md)
+  - [Примеры кода ADOX](adox-code-examples.md)
 
   - [ADOX Code Examples in Microsoft Visual Basic Topics](adox-code-examples-in-microsoft-visual-basic-topics.md)
 

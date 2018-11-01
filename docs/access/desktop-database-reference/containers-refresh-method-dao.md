@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821123(v=office.15)
 ms:contentKeyID: 48546821
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8953a9a635cd25ee1458e86830368869da9297d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9d8fd20ea57a7e75d425b10b8ded7f5f8ab47086
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482909"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889870"
 ---
 # <a name="containersrefresh-method-dao"></a>Containers.Refresh Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Не поддерживается для **[подключения к](connections-collection-dao.md)** коллекции.
 

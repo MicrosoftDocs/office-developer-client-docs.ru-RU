@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249149(v=office.15)
 ms:contentKeyID: 48544280
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca58dd83ee3d3675a4ca272e1074b8d8cc930391
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e1c3b2cc99cad4ba3b9ee71f0c44ee67b32d41d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483060"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873133"
 ---
-# <a name="view-object-adox"></a>View Object (ADOX)
+# <a name="view-object-adox"></a>Объект View (ADOX)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет отфильтрованного набора записей или виртуальной таблицы. При использовании в сочетании с объектом ADO [команду](command-object-ado.md) объект **View** можно использовать для Добавление, удаление или изменение представления.
 

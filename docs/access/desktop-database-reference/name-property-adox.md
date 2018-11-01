@@ -1,30 +1,26 @@
 ---
-title: Name Property (ADOX)
+title: Свойство Name (ADOX)
 TOCTitle: Name Property (ADOX)
 ms:assetid: c92a3b2b-6e3f-1ed9-c7be-bf348a0737af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
 ms:contentKeyID: 48547674
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ea92fcca60d0c2877bf89359aac4532356a9874
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: eab0b4b21f68f4facbd6b642aff4df5a328caad8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604052"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883115"
 ---
-# <a name="name-property-adox"></a>Name Property (ADOX)
+# <a name="name-property-adox"></a>Свойство Name (ADOX)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает имя объекта.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает **строковое** значение.
 

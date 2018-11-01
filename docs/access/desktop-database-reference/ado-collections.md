@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
 ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a48e3c767d2a65745fd587bccdead7a1ed2ef0c2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cbddefcdfa17326f922cad49c774e8ade06e5137
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480928"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873680"
 ---
-# <a name="ado-collections"></a>ADO Collections
+# <a name="ado-collections"></a>ADO семейств сайтов
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Каждое семейство сайтов может содержать его соответствующего объекта. Например объект [Error](error-object-ado.md) может содержаться в семейство [Errors](errors-collection-ado.md) . Дополнительные сведения об объектах можно [Объекты ADO](ado-objects-and-interfaces.md) или раздела указанного объекта.
 

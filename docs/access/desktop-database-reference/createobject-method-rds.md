@@ -1,22 +1,22 @@
 ---
-title: CreateObject Method (RDS)
+title: Метод CreateObject (RDS)
 TOCTitle: CreateObject Method (RDS)
 ms:assetid: 130debe5-31cf-4ab0-5f78-9adaec7d7126
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2ff2381626e8cf81aa95ee9d49f9396bd4b0316
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 87bba22a6563c92e78b5dff3f737c0963de51cb5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602722"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867393"
 ---
-# <a name="createobject-method-rds"></a>CreateObject Method (RDS)
+# <a name="createobject-method-rds"></a>Метод CreateObject (RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Создает прокси-сервера для бизнес-конечного объекта и возвращает указатель на него. Прокси-сервер пакеты и выполняет маршалинг данные на стороне сервера заглушку взаимодействие с бизнес-объект для отправки запросов и данных через Интернет. Для объектов в процесс компонент не прокси-серверы используются, если только указатель на объект.
@@ -73,17 +73,9 @@ ms.locfileid: "25602722"
 
   - *awebsrvr* или *имя компьютера*
 
-<<<<<<< HEAD
-  - **Строковое** значение, представляющее URL-адрес, идентифицирующий Internet Information Services (IIS) веб-сервере, где создается экземпляр объекта business server.
-
-## <a name="remarks"></a>Замечания
-
-<a name="the-http-protocol-is-the-standard-web-protocol-https-is-a-secure-web-protocol-use-the-dcom-protocol-when-running-a-local-area-network-without-http-the-in-process-protocol-is-a-local-dynamic-link-library-dll-it-does-not-use-a-network"></a>*Протокол HTTP* является протоколом Web; *HTTPS* является безопасной Интернет-протокола. Используйте *протокол DCOM* при выполнении локальной сети без HTTP. Протокол *в процесс* является локальной библиотеки динамической компоновки (DLL); сети не используется.
-=======
   - **Строковое** значение, представляющее URL-адрес, идентифицирующий веб-сервер Internet Information Services (IIS), где создается экземпляр объекта business server.
 
 ## <a name="remarks"></a>Замечания
 
 *Протокол HTTP* используется стандартный Интернет-протокола; *HTTPS* — это безопасный протокол. Используйте *протокол DCOM* при выполнении локальной сети без HTTP. Протокол *в процесс* является локальной библиотеки динамической компоновки (DLL); сети не используется.
->>>>>>> master
 

@@ -1,5 +1,5 @@
 ---
-title: RepaintObject Macro Action
+title: Действия ОбновитьОбъект макроса
 TOCTitle: RepaintObject Macro Action
 ms:assetid: e8fa7d0b-578c-5071-2bd5-b772b48637a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836055(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4371ce5482b775ad9c022eeda8202c4b2e0f800d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 431baa0e98d0ae3a636cb93fd799c3bdf4450816
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481690"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882611"
 ---
-# <a name="repaintobject-macro-action"></a>RepaintObject Macro Action
+# <a name="repaintobject-macro-action"></a>Действия ОбновитьОбъект макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **ОбновитьОбъект** можно использовать для выполнения все ожидающие обновления экрана для указанного объекта или для активного объекта базы данных, если он не задан. Такие обновления включают все ожидающие пересчета для элементов управления объекта.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 928fea9635fee037f5c160419a778f1437e57673
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 49ae07796de91f48028df21f972c67f9c5f30ff4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860576"
+ms.locfileid: "25870095"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Примеры кода ADO на Microsoft Visual J++
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы узнать, как использовать ADO методы и свойства, при записи в Microsoft Visual J ++ используйте в следующих примерах кода.
 
@@ -74,69 +74,6 @@ ms.locfileid: "25860576"
 
 **Свойства**
 
-<<<<<<< HEAD
-  - [AbsolutePage, PageCount и пример: свойства PageSize](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
-
-  - [Пример свойства CursorLocation и AbsolutePosition](absoluteposition-and-cursorlocation-properties-example-vj.md)
-
-  - [Пример свойства ActiveCommand](activecommand-property-example-vj.md)
-
-  - [ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление пример свойств](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
-
-  - [Пример свойства DefinedSize и ActualSize](actualsize-and-definedsize-properties-example-vj.md)
-
-  - [Пример: имя свойства и атрибуты](attributes-and-name-properties-example-vj.md)
-
-  - [BOF, EOF и пример свойств закладку](bof-eof-and-bookmark-properties-example-vj.md)
-
-  - [Пример свойства CacheSize](cachesize-property-example-vj.md)
-
-  - [ConnectionString, ConnectionTimeout и пример свойства состояния](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
-
-  - [Count Property Example](count-property-example-vj.md)
-
-  - [CursorType, LockType для и пример свойств EditMode](cursortype-locktype-and-editmode-properties-example-vj.md)
-
-  - [Описание, HelpContext, файл справки, NativeError, номер, источника и пример свойств SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
-
-  - [Пример свойства RecordCount и фильтра](filter-and-recordcount-properties-example-vj.md)
-
-  - [Пример свойства режим и IsolationLevel](isolationlevel-and-mode-properties-example-vj.md)
-
-  - [Пример свойства элемента](item-property-example-vj.md)
-
-  - [Пример свойства MarshalOptions](marshaloptions-property-example-vj.md)
-
-  - [Пример свойства MaxRecords](maxrecords-property-example-vj.md)
-
-  - [Пример: свойства точности и NumericScale](numericscale-and-precision-properties-example-vj.md)
-
-  - [Оптимизация пример свойства](optimize-property-example-vj.md)
-
-  - [Пример свойства UnderlyingValue и OriginalValue](originalvalue-and-underlyingvalue-properties-example-vj.md)
-
-  - [Пример свойства подготовленный](prepared-property-example-vj.md)
-
-  - [Пример свойства DefaultDatabase и поставщика](provider-and-defaultdatabase-properties-example-vj.md)
-
-  - [Пример свойства сортировки](sort-property-example-vj.md)
-
-  - [Пример свойства источника](source-property-example-vj.md)
-
-  - [Пример состояния свойства](state-property-example-vj.md)
-
-  - [Пример свойства состояния](status-property-example-vj.md)
-
-  - [Пример свойства StayInSync](stayinsync-property-example-vj.md)
-
-  - [Пример свойства типа (поля)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
-
-  - [Пример свойства типа (свойство)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
-
-  - [Value Property Example](value-property-example-vj.md)
-
-  - [Пример свойства версии](version-property-example-vj.md)
-=======
   - [Пример: свойства AbsolutePage, PageCount и PageSize](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [Пример свойства AbsolutePosition и CursorLocation](absoluteposition-and-cursorlocation-properties-example-vj.md)
@@ -198,5 +135,4 @@ ms.locfileid: "25860576"
   - [Пример свойства Value](value-property-example-vj.md)
 
   - [Пример свойства версии](version-property-example-vj.md)
->>>>>>> образец
 

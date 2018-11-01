@@ -1,22 +1,22 @@
 ---
-title: Unique Table, Unique Schema, Unique Catalog Properties--Dynamic (ADO)
+title: Уникальной таблицы, уникальные схемы, свойства уникальный каталога--динамической (ADO)
 TOCTitle: Unique Table, Unique Schema, Unique Catalog Properties--Dynamic (ADO)
 ms:assetid: e6374782-755b-322b-21de-6d6a386dcd98
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
 ms:contentKeyID: 48548374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 71701d605a9a9b156de7b2c6a23100e30932aaea
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 7d358cf87160d8ddbf0b7354bd36375b5b8d41e9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602092"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884529"
 ---
-# <a name="unique-table-unique-schema-unique-catalog-properties--dynamic-ado"></a>Unique Table, Unique Schema, Unique Catalog Properties--Dynamic (ADO)
+# <a name="unique-table-unique-schema-unique-catalog-properties--dynamic-ado"></a>Уникальной таблицы, уникальные схемы, свойства уникальный каталога--динамической (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Позволяет тесно управления изменения определенного базовые таблицы в [набор записей](recordset-object-ado.md) , которая была создана с помощью операции ОБЪЕДИНЕНИЯ на нескольких базовых таблиц.
 
@@ -26,11 +26,7 @@ ms.locfileid: "25602092"
 
   - **Уникальный каталог** указывает *каталог*или имя базы данных, содержащий таблицу.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает значение типа **String** , — это имя таблицы, схемы или каталога.
 

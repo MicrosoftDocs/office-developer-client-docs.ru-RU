@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053052
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dcb15511f3052366eb3d322c26cdd31d72c9beab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c335140e6b5bfa46d25d20438d8af2a9e1393644
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482879"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873672"
 ---
 # <a name="querydefodbctimeout-property-dao"></a>QueryDef.ODBCTimeout Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает количество секунд до ошибку времени ожидания происходит, когда **[QueryDef](querydef-object-dao.md)** выполняется в базе данных ODBC.
 

@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 62a496867852afb89d5b556f6be793f3f8c3739e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860855"
+ms.locfileid: "25887784"
 ---
 # <a name="importexportdata-macro-action"></a>Действия макроса ImportExportData
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **ImportExportData** можно использовать для импорта или экспорта данных между текущей базы данных Access (MDB- или .accdb) или проект Microsoft Access (файлы с расширением ADP) и другой базы данных. Для баз данных Microsoft Access можно связать таблицы в текущей базе данных из другой базы данных. Связанные таблицы имеют доступ к данным таблицы оставив всю таблицу в другой базе данных.
 

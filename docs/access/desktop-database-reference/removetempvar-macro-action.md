@@ -1,5 +1,5 @@
 ---
-title: RemoveTempVar Macro Action
+title: Действия макроса RemoveTempVar
 TOCTitle: RemoveTempVar Macro Action
 ms:assetid: 7bcc5010-3e30-ecef-2c5d-a35e73c8e325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196352(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm147125
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 61d03f23e0fbe04cae49670366f76c02e81d694a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 54831b0f0da673c7c7a6a901fd40fc6daee12603
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481972"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887553"
 ---
-# <a name="removetempvar-macro-action"></a>RemoveTempVar Macro Action
+# <a name="removetempvar-macro-action"></a>Действия макроса RemoveTempVar
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

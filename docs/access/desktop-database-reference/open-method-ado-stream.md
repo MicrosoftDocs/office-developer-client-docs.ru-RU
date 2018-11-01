@@ -1,22 +1,22 @@
 ---
-title: Open Method (ADO Stream)
+title: Метод Open (ADO потока)
 TOCTitle: Open Method (ADO Stream)
 ms:assetid: fa2e6aaa-e9f5-009c-f3a0-050a00abf9b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 025a1a5141adab07999337f9cc518edd2b669fdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ac01f67bb18ea15959f4b5c09dbe4037da8010bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482621"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883241"
 ---
-# <a name="open-method-ado-stream"></a>Open Method (ADO Stream)
+# <a name="open-method-ado-stream"></a>Метод Open (ADO потока)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Открывает объект [Stream](stream-object-ado.md) для работы с потоки данных двоичный или текст.

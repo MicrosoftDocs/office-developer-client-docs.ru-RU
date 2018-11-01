@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053178
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 387493b984ad348b9aff8108ac9f053d3aed134a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 380e841571bfa951a917704a51372b8156d05729
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481168"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888064"
 ---
 # <a name="querydefproperties-property-dao"></a>QueryDef.Properties Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает коллекцию **[свойств](properties-collection-dao.md)** для указанного объекта. Только для чтения.
 

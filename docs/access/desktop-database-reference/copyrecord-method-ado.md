@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f01141e0dc2445a91267cf7744214b906a1af3fd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d9daa27f5a5e31aac295babf6f40b32f89a9df5c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860345"
+ms.locfileid: "25874967"
 ---
 # <a name="copyrecord-method-ado"></a>Метод CopyRecord (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Копирует сущности, представленной в **записи** в другое расположение.
 
@@ -50,11 +50,7 @@ ms.locfileid: "25860345"
 
   - Необязательный параметр. **Логическое** значение, которое, если **значение True**, указывает, что эта операция должна быть асинхронной.
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> образец
 
 **Строковое** значение, которое обычно возвращает значение *назначения*. Тем не менее точное значение, возвращаемое зависит от поставщика.
 
@@ -74,10 +70,6 @@ ms.locfileid: "25860345"
 
 
 > [!NOTE]
-<<<<<<< HEAD
-> <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
-=======
 > URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
->>>>>>> образец
 
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3e7251ba50b003b37cdeb0dd70fe4a98821d4c9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b018fda52ba7dd311cda9b7b23ce10d5e47c4828
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861934"
+ms.locfileid: "25868932"
 ---
 # <a name="fetchoptions-property-rds"></a>Свойство FetchOptions (RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает тип асинхронной выборки.
 
@@ -60,7 +60,5 @@ ms.locfileid: "25861934"
 
 ## <a name="remarks"></a>Замечания
 
-<<<<<<< HEAD в веб-приложении, обычно требуется использовать **adcFetchAsync** (значение по умолчанию), так как он обеспечивает более высокую производительность. В скомпилированном клиентское приложение, которое обычно требуется использовать **adcFetchBackground**.
-=== В веб-приложении обычно требуется использовать **adcFetchAsync** (значение по умолчанию), так как он обеспечивает более высокую производительность. В скомпилированном клиентское приложение, которое обычно требуется использовать **adcFetchBackground**.
->>>>>>> образец
+В веб-приложении обычно требуется использовать **adcFetchAsync** (значение по умолчанию), так как он обеспечивает более высокую производительность. В скомпилированном клиентское приложение, которое обычно требуется использовать **adcFetchBackground**.
 

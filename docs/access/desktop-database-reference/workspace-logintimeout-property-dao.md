@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
 ms:contentKeyID: 48545151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6427b99fd212fa358b70fb20a5ecf0c9180209fb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a051d0a6f580f661b8f16489b66cede064523e44
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479816"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868996"
 ---
 # <a name="workspacelogintimeout-property-dao"></a>Workspace.LoginTimeout Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает число секунд, прежде чем возникает ошибка при попытке выполнить вход в базе данных ODBC.
 

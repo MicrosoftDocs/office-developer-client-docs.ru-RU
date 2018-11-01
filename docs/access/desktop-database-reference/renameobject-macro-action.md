@@ -1,5 +1,5 @@
 ---
-title: RenameObject Macro Action
+title: Действия макроса RenameObject
 TOCTitle: RenameObject Macro Action
 ms:assetid: fee04eb0-23c0-5d57-b903-e1ae54f2d25e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837293(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm165893
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6522e85aa0407800ea0aade039a65c79a25c1419
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0590b586e2640df629cfeacbb28caca6f87ccb34
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480825"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878915"
 ---
-# <a name="renameobject-macro-action"></a>RenameObject Macro Action
+# <a name="renameobject-macro-action"></a>Действия макроса RenameObject
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **RenameObject** можно использовать для переименования объекта указанной базы данных.
 

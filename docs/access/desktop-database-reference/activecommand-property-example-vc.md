@@ -1,16 +1,21 @@
 ---
-<<<<<<< Название HEAD: пример свойства ActiveCommand (VC ++) TOCTitle: пример свойства ActiveCommand (VC ++) ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства ActiveCommand (VC++)
+TOCTitle: ActiveCommand property example (VC++)
+ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15)
+ms:contentKeyID: 48544157
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 8db00f46c657dd2b296963b7be50269b4699d171
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882625"
 ---
+# <a name="activecommand-property-example-vc"></a>Пример использования свойства ActiveCommand (VC++)
 
-# <a name="activecommand-property-example-vc"></a>ActiveCommand Property Example (VC++)
-
-=== Название: пример свойства ActiveCommand (VC ++) TOCTitle: ms:assetid пример (VC ++) свойство ActiveCommand: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="activecommand-property-example-vc"></a>Пример свойства ActiveCommand (VC ++)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [ActiveCommand](activecommand-property-ado.md) .
 

@@ -1,22 +1,22 @@
 ---
-title: RDS Tutorial (VBScript)
+title: Руководство по RDS (VBScript)
 TOCTitle: RDS Tutorial (VBScript)
 ms:assetid: 7a6596fd-00b9-a637-7d00-fb55a621305f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d87dc84217b716505302464825a1857fecf67669
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 449a752d4ab9e1680a3cf318e73802d39d7033fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606824"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884204"
 ---
-# <a name="rds-tutorial-vbscript"></a>RDS Tutorial (VBScript)
+# <a name="rds-tutorial-vbscript"></a>Руководство по RDS (VBScript)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Это учебник служб удаленных рабочих СТОЛОВ, написанных на языке Visual Basic Scripting Edition. Описание назначения в этом руководстве в разделе [При помощи учебника по служб удаленных рабочих СТОЛОВ](chapter-12-rds-tutorial.md).
 
@@ -43,8 +43,7 @@ ms.locfileid: "25606824"
 
 **Шаг 1 — Укажите программы сервера**
 
-<<<<<<< HEAD VBScript можно получить имя веб-сервера IIS он выполняется с помощью метода VBScript **Request.ServerVariables** для страницы ASP: === VBScript можно получить имя веб-сайта IIS Server он выполняется с помощью метода VBScript **Request.ServerVariables** для страницы ASP:
->>>>>>> master
+VBScript можно получить имя веб-сервера IIS, его, на котором выполняется с помощью метода VBScript **Request.ServerVariables** для страницы ASP:
 
 ```vb 
  

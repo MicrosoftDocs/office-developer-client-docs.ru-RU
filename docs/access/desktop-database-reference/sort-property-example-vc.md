@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства сортировки (VC ++) TOCTitle: пример свойства сортировки (VC ++) === название: пример свойства сортировки (VC ++) TOCTitle: пример свойства сортировки (VC ++)
->>>>>>> главные ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID: 48543259 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Sort (VC++)
+TOCTitle: Sort property example (VC++)
+ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
+ms:contentKeyID: 48543259
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 37b5d08ab9c4e42e0f1c4097c5d905c4e45ff547
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881218"
 ---
-
-<<<<<<< HEAD
-# <a name="sort-property-example-vc"></a>Sort Property Example (VC++)
-=======
-# <a name="sort-property-example-vc"></a>Пример свойства сортировки (VC ++)
->>>>>>> master
+# <a name="sort-property-example-vc"></a>Пример использования свойства Sort (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных **Pubs** . Дополнительный служебной процедуры печатает каждую строку.
 

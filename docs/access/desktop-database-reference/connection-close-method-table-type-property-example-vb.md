@@ -1,15 +1,21 @@
 ---
-<<<<<<< Название HEAD: метод Close подключения, пример свойства типа таблица (VB) TOCTitle: метод Close подключения, пример свойства типа таблица (VB) === название: метод Close подключения, пример свойства типа таблица (VB) TOCTitle: Метод Close подключения, пример свойства типа таблица (VB)
->>>>>>> главные ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15) ms:contentKeyID: 48547754 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Метод Close подключения, пример свойства типа таблица (VB)
+TOCTitle: Connection Close Method, Table Type property example (VB)
+ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
+ms:contentKeyID: 48547754
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 388e601d7267eabd01843640ab795fd0ea914a05
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868317"
 ---
-
-<<<<<<< HEAD
-# <a name="connection-close-method-table-type-property-example-vb"></a>Connection Close Method, Table Type Property Example (VB)
-=======
 # <a name="connection-close-method-table-type-property-example-vb"></a>Метод Close подключения, пример свойства типа таблица (VB)
->>>>>>> master
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** «закрыть» каталог. Связанные коллекции будет пустым. Любые объекты, которые были созданы на основе схемы объектам в каталоге будут изолированы. Любые свойства на те объекты, которые были кэшированы по-прежнему доступны, но при чтении свойства, которые требуют вызова к поставщику завершится с ошибкой.
 

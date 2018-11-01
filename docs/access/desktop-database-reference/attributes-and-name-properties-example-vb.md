@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: атрибуты и TOCTitle примере имя свойства (VB): атрибуты и пример имени свойства (VB) === название: атрибуты и пример свойств имя (VB) TOCTitle: атрибуты и пример свойств имя (VB)
->>>>>>> главные ms:assetid: b049c03c-9add-48b7-6a0a-51d2507c8e33 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249840(v=office.15) ms:contentKeyID: 48547120 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств Attributes и Name (VB)
+TOCTitle: Attributes and Name properties example (VB)
+ms:assetid: b049c03c-9add-48b7-6a0a-51d2507c8e33
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249840(v=office.15)
+ms:contentKeyID: 48547120
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b4120f175e96d42ec77e748438fd0d369396320c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887847"
 ---
-
-<<<<<<< HEAD
-# <a name="attributes-and-name-properties-example-vb"></a>Attributes and Name Properties Example (VB)
-=======
-# <a name="attributes-and-name-properties-example-vb"></a>Атрибуты и пример свойств имя (VB)
->>>>>>> master
+# <a name="attributes-and-name-properties-example-vb"></a>Пример использования свойств Attributes и Name (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере отображается значение свойства [атрибуты](attributes-property-ado.md) для [подключения](connection-object-ado.md), [поля](field-object-ado.md)и [Свойства](property-object-ado.md) объектов. Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и **Свойства** объекта.
 

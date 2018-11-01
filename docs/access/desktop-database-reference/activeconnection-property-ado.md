@@ -1,26 +1,29 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойства ActiveConnection (ADO): ms:assetid свойства ActiveConnection (ADO): 5501b2d7-b62c-5fff-1edd-2b7efb3f8c4a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249281(v=office.15) ms:contentKeyID: 48544918 ms.date: 09/18/2015 === Заголовок: свойства ActiveConnection (ADO) TOCTitle: ms:assetid свойство (ADO) ActiveConnection: 5501b2d7-b62c-5fff-1edd-2b7efb3f8c4a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249281(v=office.15) ms:contentKeyID: 48544918 ms.date: 10/17/2018
->>>>>>> главные mtps_version: v=office.15 f1_keywords:
-- ado210.chm1231115 f1_categories:
+title: Свойство ActiveConnection (ADO)
+TOCTitle: ActiveConnection property (ADO)
+ms:assetid: 5501b2d7-b62c-5fff-1edd-2b7efb3f8c4a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249281(v=office.15)
+ms:contentKeyID: 48544918
+ms.date: 10/17/2018
+mtps_version: v=office.15
+f1_keywords:
+- ado210.chm1231115
+f1_categories:
 - Office.Version=v15
+ms.openlocfilehash: d3f2a3cf85f51ac4a0d358fcc26e992d61fedca2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886027"
 ---
-
-<<<<<<< HEAD
-# <a name="activeconnection-property-ado"></a>ActiveConnection Property (ADO)
-
-=======
 # <a name="activeconnection-property-ado"></a>Свойство ActiveConnection (ADO)
->>>>>>> master
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает, какой объект [подключения](connection-object-ado.md) принадлежит указанный объект [команды](command-object-ado.md), [набора записей](recordset-object-ado.md)или [записи](record-object-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает значение типа **String** , содержащий определение для подключения, если подключение работает или **Variant** содержащий текущий объект **подключения** , если подключения. Значение по умолчанию — пустая ссылка на объект. В разделе свойства [ConnectionString](connectionstring-property-ado.md) .
 
@@ -28,14 +31,6 @@
 
 Свойство **ActiveConnection** позволяет определить объект **подключения** , по которому будет выполняться на указанный объект **команды** или указанного **набора записей** будет открыт.
 
-<<<<<<< HEAD **команды**
-
-Для объектов **команду** свойства **ActiveConnection** — чтение и запись.
-
-При попытке выполнить вызов метода [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) объекта **команды** перед назначить этому свойству значение open объекта **подключения** или допустимая строка подключения, возникает ошибка.
-
-<a name="microsoft-visual-basicsetting-the-activeconnection-property-to-nothing-disassociates-the-command-object-from-the-current-connection-and-causes-the-provider-to-release-any-associated-resources-on-the-data-source-you-can-then-associate-the-command-object-with-the-same-or-another-connection-object-some-providers-allow-you-to-change-the-property-setting-from-one-connection-to-another-without-having-to-first-set-the-property-to-nothing"></a>**Microsoft Visual Basic** Установка свойства **ActiveConnection** значение *Nothing* отсоединяет объект **команды** из текущего **подключения** и вызывает поставщика для освобождения любые связанные ресурсы в источнике данных. Затем можно связать объект **команды** с текущей или другой объект **подключения** . Некоторые поставщики позволяют изменить значение свойства из одного **подключения** в другую, без необходимости сначала задайте для свойства значение *Nothing*.
-=======
 ### <a name="command"></a>Команда
 
 Для объектов **команду** свойства **ActiveConnection** — чтение и запись.
@@ -43,16 +38,12 @@
 При попытке выполнить вызов метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) объекта **команды** перед назначить этому свойству значение open объекта **подключения** или допустимая строка подключения, возникает ошибка.
 
 **Microsoft Visual Basic**: свойства **ActiveConnection** значение *Nothing* отсоединяет объект **команды** из текущего **подключения** и вызывает поставщика освобождать любые ресурсы, связанные с данными источник. Затем можно связать объект **команды** с текущей или другой объект **подключения** . Некоторые поставщики позволяют изменить значение свойства из одного **подключения** в другую, без необходимости сначала задайте для свойства значение *Nothing*.
->>>>>>> master
 
 Если коллекции [параметров](parameters-collection-ado.md) объекта **Command** содержит параметры, предоставленные поставщиком, если свойство **ActiveConnection** задано значение *Nothing* или другой объект **подключения** очистки коллекции. Если вы вручную создать объекты [параметров](parameter-object-ado.md) и использовать их для заполнения коллекции **параметров** объекта **команды** , параметру **ActiveConnection** свойство значение *Nothing* или другой объект **подключения** покидает Коллекция **параметров** без изменений.
 
 Закрытие объект **подключения** , с помощью которой объект **команды** — это связанные наборы свойств **ActiveConnection** значение *Nothing*. Назначить этому свойству значение закрытой объект **подключения** приводит к ошибке.
 
-<<<<<<< HEAD **набора записей**
-=======
 ### <a name="recordset"></a>Набор записей
->>>>>>> master
 
 Открыть объекты **набора записей** или объектов **наборов записей** , для свойства [источника](source-property-ado-recordset.md) задано значение допустимого объекта **команды** **ActiveConnection** свойство только для чтения. В противном случае — чтение и запись.
 
@@ -62,18 +53,6 @@
 
 Если задать свойство **Source** объекта **набора записей** для допустимого объектной переменной **команды** , со значением свойства **ActiveConnection** **записей** наследует параметр объекта **команды** ** ActiveConnection** свойство.
 
-<<<<<<< HEAD **Удаленное использование службы данных**при использовании на набор клиентских объектов, это свойство можно задать только на строку подключения или (в Microsoft Visual Basic или Visual Basic Scripting Edition) значение *Nothing*.
-
-**Запись**
-
-Это свойство соответствует чтения и записи при закрытии объекта **записи** и может содержать строку подключения или ссылку на объект open **подключения** . Это свойство только для чтения при **записи** объекта open и содержит ссылку на объект open **подключения** .
-
-Объект **подключения** создается неявно при открытии объекта **записи** из URL-адреса. Откройте **запись** с помощью объекта **подключения к** существующей, откройте назначение объект **подключения** для этого свойства или с помощью объекта **подключения** как параметр в вызове метода [Open](open-method-ado-record.md) . Если **запись** открывается из существующей **записи** или [записей](recordset-object-ado.md), она автоматически связанный с объектом **подключения к** **записи** или **набора записей** этого объекта.
-
-
-> [!NOTE]
-> <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
-=======
 **Удаленное использование службы данных**: при использовании в объект набора записей со стороны клиента, это свойство могут устанавливаться только на строку подключения или (в Microsoft Visual Basic или Visual Basic Scripting Edition) значение *Nothing*.
 
 ### <a name="record"></a>Запись
@@ -85,6 +64,5 @@
 > [!NOTE]
 > URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
 
->>>>>>> master
 
 

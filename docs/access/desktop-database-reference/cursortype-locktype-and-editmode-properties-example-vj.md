@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: CursorType, LockType для и пример: свойства EditMode (VJ ++) TOCTitle: CursorType, LockType для и пример: свойства EditMode (VJ ++) === название: пример: свойства CursorType, LockType для и EditMode (VJ ++) TOCTitle: Пример свойств CursorType, LockType для и EditMode (VJ ++)
->>>>>>> главные ms:assetid: bfe87584-4909-8974-b207-4a0c363c5155 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15) ms:contentKeyID: 48547497 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств CursorType, LockType и EditMode (VJ++)
+TOCTitle: CursorType, LockType, and EditMode properties example (VJ++)
+ms:assetid: bfe87584-4909-8974-b207-4a0c363c5155
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15)
+ms:contentKeyID: 48547497
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 126d52af8a83e23b3298b8f0fb4600e603832a15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873952"
 ---
-
-<<<<<<< HEAD
-# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a>CursorType, LockType, and EditMode Properties Example (VJ++)
-=======
-# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a>Пример: свойства CursorType, LockType для и EditMode (VJ ++)
->>>>>>> master
+# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a>Пример использования свойств CursorType, LockType и EditMode (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется настройка свойств [CursorType](cursortype-property-ado.md) и [LockType для](locktype-property-ado.md) перед открытием [набора записей](recordset-object-ado.md). Также показано значение свойства [EditMode](editmode-property-ado.md) в различных условиях. Функция EditModeOutput является обязательным для выполнения этой процедуры.
 

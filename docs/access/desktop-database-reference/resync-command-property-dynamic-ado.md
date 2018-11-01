@@ -1,29 +1,25 @@
 ---
-title: Resync Command Property--Dynamic (ADO)
+title: Выполнить повторную синхронизацию свойство Command--динамической (ADO)
 TOCTitle: Resync Command Property--Dynamic (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d9133f37b236cfa876a5d6ae8642f25f919f2cb
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 30707140284c4c4fda157e276e62666f0344ad14
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602806"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872006"
 ---
-# <a name="resync-command-property--dynamic-ado"></a>Resync Command Property--Dynamic (ADO)
+# <a name="resync-command-property--dynamic-ado"></a>Выполнить повторную синхронизацию свойство Command--динамической (ADO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает строку пользовательские команды, метод [выполнить повторную синхронизацию](resync-method-ado.md) проблемы для обновления данных в таблице с именем в свойстве динамических [Уникальной таблицы](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает **строковое** значение, который является командной строки.
 

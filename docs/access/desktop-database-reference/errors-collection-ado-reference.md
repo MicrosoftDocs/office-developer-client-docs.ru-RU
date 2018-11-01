@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248823(v=office.15)
 ms:contentKeyID: 48543094
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7eb27e38067316424fae55a01c65b02d92749f5f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6b5049225e175cdfb9695864fbc534c72fe47222
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483182"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889863"
 ---
 # <a name="errors-collection-ado-reference"></a>Errors Collection (ADO) Reference
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [Errors Collection (ADO)](errors-collection-ado.md)
+  - [Семейство errors (ADO)](errors-collection-ado.md)
 
-  - [Errors Collection Properties, Methods, and Events](errors-collection-properties-methods-and-events.md)
+  - [Свойства коллекции ошибок, методы и события](errors-collection-properties-methods-and-events.md)
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: IsolationLevel и TOCTitle пример свойств Mode (VJ ++): IsolationLevel и пример свойств Mode (VJ ++) === название: пример: свойства IsolationLevel и режиме (VJ ++) TOCTitle: IsolationLevel и режим Пример: свойства (VJ ++)
->>>>>>> главные ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15) ms:contentKeyID: 48547711 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств IsolationLevel и Mode (VJ++)
+TOCTitle: IsolationLevel and Mode properties example (VJ++)
+ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15)
+ms:contentKeyID: 48547711
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 85a43312db4861cd4c39742eff2cc39be6f1950f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886692"
 ---
-
-<<<<<<< HEAD
-# <a name="isolationlevel-and-mode-properties-example-vj"></a>IsolationLevel and Mode Properties Example (VJ++)
-=======
-# <a name="isolationlevel-and-mode-properties-example-vj"></a>Пример: свойства IsolationLevel и режиме (VJ ++)
->>>>>>> master
+# <a name="isolationlevel-and-mode-properties-example-vj"></a>Пример использования свойств IsolationLevel и Mode (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [Mode](mode-property-ado.md) открыть исключительных подключение и свойство [IsolationLevel](isolationlevel-property-ado.md) для открытия транзакций, которая проводится по отдельности других операций.
 

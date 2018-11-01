@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства CacheSize (VJ ++) TOCTitle: пример свойства CacheSize (VJ ++) === название: пример свойства CacheSize (VJ ++) TOCTitle: пример свойства CacheSize (VJ ++)
->>>>>>> главные ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15) ms:contentKeyID: 48548704 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства CacheSize (VJ++)
+TOCTitle: CacheSize property example (VJ++)
+ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15)
+ms:contentKeyID: 48548704
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 714b20aad4c03e5e5735d38dd6e4202a4c732844
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881813"
 ---
-
-<<<<<<< HEAD
-# <a name="cachesize-property-example-vj"></a>CacheSize Property Example (VJ++)
-=======
-# <a name="cachesize-property-example-vj"></a>Пример свойства CacheSize (VJ ++)
->>>>>>> master
+# <a name="cachesize-property-example-vj"></a>Пример использования свойства CacheSize (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [CacheSize](cachesize-property-ado.md) для отображения разницу в производительности для операции, выполняемой с и без 30 записи кэша.
 

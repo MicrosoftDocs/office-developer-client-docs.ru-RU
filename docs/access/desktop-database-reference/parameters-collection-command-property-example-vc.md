@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: коллекцию параметров, пример свойства команды (VC ++) TOCTitle: коллекцию параметров, пример свойства команды (VC ++) === название: коллекцию параметров, пример свойства команды (VC ++) TOCTitle: Коллекции параметров, пример свойства команды (VC ++)
->>>>>>> главные ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15) ms:contentKeyID: 48545237 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Коллекции параметров, пример свойства команды (VC ++)
+TOCTitle: Parameters Collection, Command property example (VC++)
+ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
+ms:contentKeyID: 48545237
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 302f329e09123a92fa008f031fde713393ad7a77
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888302"
 ---
-
-<<<<<<< HEAD
-# <a name="parameters-collection-command-property-example-vc"></a>Parameters Collection, Command Property Example (VC++)
-=======
 # <a name="parameters-collection-command-property-example-vc"></a>Коллекции параметров, пример свойства команды (VC ++)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Следующий код демонстрирует использование свойства [команда](command-property-adox.md) с помощью объекта [команды](command-object-ado.md) для получения сведений о параметрах для выполнения процедуры.
 

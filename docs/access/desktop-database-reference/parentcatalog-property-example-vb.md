@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство ParentCatalog (VB): пример свойства ParentCatalog (VB) === название: пример свойства ParentCatalog (VB) TOCTitle: пример свойства ParentCatalog (VB)
->>>>>>> главные ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15) ms:contentKeyID: 48544295 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства ParentCatalog (VB)
+TOCTitle: ParentCatalog property example (VB)
+ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15)
+ms:contentKeyID: 48544295
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6e76d40a02aa70bcf977a34f1db378e8d83e5d1e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867764"
 ---
-
-<<<<<<< HEAD
-# <a name="parentcatalog-property-example-vb"></a>ParentCatalog Property Example (VB)
-=======
-# <a name="parentcatalog-property-example-vb"></a>Пример свойства ParentCatalog (VB)
->>>>>>> master
+# <a name="parentcatalog-property-example-vb"></a>Пример использования свойства ParentCatalog (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Следующий код демонстрирует использование свойства [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству от поставщика перед добавлением таблицы в каталоге. Является ли данное свойство AutoIncrement, которая создает поле AutoIncrement базы данных Microsoft Jet.
 

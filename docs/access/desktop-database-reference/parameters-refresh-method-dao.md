@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193228(v=office.15)
 ms:contentKeyID: 48544607
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 019f59aa8663c60b349c0e39cdb27fc685a3fad0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d5ebd9a4d3ca8951a837432b7a9bd1731dadc926
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482912"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867806"
 ---
 # <a name="parametersrefresh-method-dao"></a>Parameters.Refresh Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Обновляет объекты в указанном включающий в соответствии с текущей схеме базы данных.
 

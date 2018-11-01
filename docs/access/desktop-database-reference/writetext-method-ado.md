@@ -1,22 +1,22 @@
 ---
-title: WriteText Method (ADO)
+title: Метод WriteText (ADO)
 TOCTitle: WriteText Method (ADO)
 ms:assetid: 1ca2d9d5-11f4-d088-6fc3-53240208bb09
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 67dcf218814f938c4583ba9587085cff73066dc1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b457af35e0b9b5f7d61bf5a77f080a11b36232ae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483171"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884095"
 ---
-# <a name="writetext-method-ado"></a>WriteText Method (ADO)
+# <a name="writetext-method-ado"></a>Метод WriteText (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Записывает строку, указанный текст в объект [потока](stream-object-ado.md) .
 

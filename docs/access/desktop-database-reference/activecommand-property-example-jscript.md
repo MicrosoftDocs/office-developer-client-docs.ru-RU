@@ -1,16 +1,21 @@
 ---
-<<<<<<< Название HEAD: пример свойства ActiveCommand (JScript) TOCTitle: ms:assetid пример свойства ActiveCommand (JScript): ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 09/18 / 2015 mtps_version: v=office.15
+title: Пример использования свойства ActiveCommand (JScript)
+TOCTitle: ActiveCommand property example (JScript)
+ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
+ms:contentKeyID: 48547070
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 62e3e8404cb517472dd94d27a899531dde7f076f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887987"
 ---
+# <a name="activecommand-property-example-jscript"></a>Пример использования свойства ActiveCommand (JScript)
 
-# <a name="activecommand-property-example-jscript"></a>ActiveCommand Property Example (JScript)
-
-=== Название: пример свойства ActiveCommand (JScript) TOCTitle: ms:assetid пример (JScript) свойство ActiveCommand: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 10/17/2018 mtps_version: v = Office.15
----
-
-# <a name="activecommand-property-example-jscript"></a>Пример свойства ActiveCommand (JScript)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [ActiveCommand](activecommand-property-ado.md) . Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ActiveCommandJS.asp**.
 
@@ -28,11 +33,7 @@
 <html> 
  
 <head> 
-<<<<<<< HEAD
-<title>ActiveCommand Property Example (JScript)</title> 
-=======
 <title>ActiveCommand property example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -46,11 +47,7 @@ BODY {
  
 <body bgcolor="White"> 
  
-<<<<<<< HEAD
-<h1>ActiveCommand Property Example (JScript)</h1> 
-=======
 <h1>ActiveCommand property example (JScript)</h1> 
->>>>>>> master
  
 <% 
 if (strName.length > 0) 

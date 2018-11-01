@@ -1,22 +1,22 @@
 ---
-title: 'Step 6: Changes are Sent to the Server (RDS Tutorial)'
+title: Этап 6. Отправка изменений на сервер (руководство по RDS)
 TOCTitle: 'Step 6: Changes are Sent to the Server (RDS Tutorial)'
 ms:assetid: c5915d89-77b6-bb3f-a962-49378160751f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249965(v=office.15)
 ms:contentKeyID: 48547611
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d26ca621ba7102dc0f9c6219ba3a16b28138770f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e125837b8f3d16e012d89374650182653f98a728
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481246"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870417"
 ---
-# <a name="step-6-changes-are-sent-to-the-server-rds-tutorial"></a>Step 6: Changes are Sent to the Server (RDS Tutorial)
+# <a name="step-6-changes-are-sent-to-the-server-rds-tutorial"></a>Этап 6. Отправка изменений на сервер (руководство по RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 При редактировании объекта **набора записей** (строк, которые будут добавлены, изменены или удалены) изменения можно отправить на сервер.
 

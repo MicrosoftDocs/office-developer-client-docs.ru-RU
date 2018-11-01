@@ -1,22 +1,22 @@
 ---
-title: Records and Provider-Supplied Fields
+title: Записи и поля от поставщика
 TOCTitle: Records and Provider-Supplied Fields
 ms:assetid: cde72d6a-b9b0-9636-581d-68239a3f522d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f6010c152691e80cad26c615851e4eef0193b4d0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf0e13569e902cd8665cd2a023ba1707d63f51a6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480457"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887462"
 ---
-# <a name="records-and-provider-supplied-fields"></a>Records and Provider-Supplied Fields
+# <a name="records-and-provider-supplied-fields"></a>Записи и поля от поставщика
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 При открытии объект [записи](record-object-ado.md) источника может быть текущей строки open [записей](recordset-object-ado.md), абсолютный URL-адрес или относительный URL-адрес в сочетании с помощью open объекта [подключения](connection-object-ado.md) .
 

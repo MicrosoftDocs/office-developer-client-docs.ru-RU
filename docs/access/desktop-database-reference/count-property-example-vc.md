@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство Count (VC ++): пример свойства Count (VC ++) === название: пример свойства Count (VC ++) TOCTitle: пример свойства Count (VC ++)
->>>>>>> главные ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15) ms:contentKeyID: 48545134 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Count (VC++)
+TOCTitle: Count property example (VC++)
+ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15)
+ms:contentKeyID: 48545134
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7a2761c34e71664d97118766ddfd8121542b67c5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867225"
 ---
-
-<<<<<<< HEAD
-# <a name="count-property-example-vc"></a>Count Property Example (VC++)
-=======
-# <a name="count-property-example-vc"></a>Пример свойства Count (VC ++)
->>>>>>> master
+# <a name="count-property-example-vc"></a>Пример использования свойства Count (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере свойство [Count](count-property-ado.md) с двумя семейств сайтов в базе данных ***сотрудников*** . Свойство получает число объектов в каждом семействе сайтов и задает верхнюю границу для циклов, перечисление этих семейств сайтов. Другой способ перечисления этих коллекций без использования свойства **Count** можно использовать инструкции.
 

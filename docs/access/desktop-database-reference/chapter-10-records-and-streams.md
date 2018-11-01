@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 92d0eafcb1930e7aa7014e3b120b34e2a8d64231
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c61aef7a4f0cc34f256300304823341c99fb8436
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864089"
+ms.locfileid: "25876969"
 ---
 # <a name="chapter-10-records-and-streams"></a>Глава 10. Записи и потоки
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В настоящее время ADO предоставляет объекта[набора записей](recordset-object-ado.md) в качестве основным средством для доступа к информации в источниках данных, таких как реляционные базы данных. Тем не менее некоторые поставщики поддерживают объекты [потока](stream-object-ado.md) и [запись](record-object-ado.md) как альтернативные или дополнительные объекты, с помощью которых можно управлять данные из поставщиков. Конкретные сведения о поведении **записи** в документации к поставщику.
 

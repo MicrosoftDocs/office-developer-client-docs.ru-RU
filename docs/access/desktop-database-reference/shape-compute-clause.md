@@ -1,21 +1,21 @@
 ---
-title: Shape Compute Clause
+title: Предложение вычисления фигур
 TOCTitle: Shape Compute Clause
 ms:assetid: f4fee4a6-ec9e-c0b6-40e0-258f76c4696f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250245(v=office.15)
 ms:contentKeyID: 48548699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 634a0ea648646d95995054ce7458cea492c40e47
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8e35cfc7bc5df144fa1938f794cb705bf2f1448c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482942"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889933"
 ---
-# <a name="shape-compute-clause"></a>Shape Compute Clause
+# <a name="shape-compute-clause"></a>Предложение вычисления фигур
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Предложение COMPUTE фигуры создает родительский объект **набора записей**, столбцы которых состоят из ссылки на дочерних **записей**; необязательные столбцы, содержимое которых главы новыми, или вычисляемых столбцов или в результате выполнения агрегатных функций на дочерних **записей** или ранее формы **набора записей**; и все столбцы из дочерних **записей** из списка в необязательном ПРЕДЛОЖЕНИЕМ.
 

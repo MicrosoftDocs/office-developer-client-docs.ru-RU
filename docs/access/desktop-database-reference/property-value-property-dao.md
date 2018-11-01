@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052994
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a318b3f363d28dedbae177607e381ca2f8104bf9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cac6d4d1715599a71c082ebc988d3f07d76da2b7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481667"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888056"
 ---
 # <a name="propertyvalue-property-dao"></a>Property.Value Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение объекта. Чтение и запись **типа Variant**.
 

@@ -1,22 +1,22 @@
 ---
-title: FilterValue Property (RDS)
+title: Свойство Значение_фильтра (RDS)
 TOCTitle: FilterValue Property (RDS)
 ms:assetid: 66dc14cd-cc14-78cb-cb05-91eefb17ea47
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249399(v=office.15)
 ms:contentKeyID: 48545350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39152be2c53dc0de9bc1bcb21fee505fcb9106dc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 818a38c4c7d11442b1deb7ddeef72a828283c897
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480942"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887336"
 ---
-# <a name="filtervalue-property-rds"></a>FilterValue Property (RDS)
+# <a name="filtervalue-property-rds"></a>Свойство Значение_фильтра (RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Указывает значение для фильтрации записей.

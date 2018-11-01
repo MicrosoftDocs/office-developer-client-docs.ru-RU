@@ -1,24 +1,26 @@
 ---
-<<<<<<< Заголовок HEAD: TOCTitle свойство закладок (ADO): свойство закладок (ADO) === заголовок: закладки свойство (ADO) TOCTitle: закладки свойство (ADO)
->>>>>>> главные ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15) ms:contentKeyID: 48543287 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство Bookmark (ADO)
+TOCTitle: Bookmark property (ADO)
+ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
+ms:contentKeyID: 48543287
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d5052b25325007a5daca76baccf7414e0c7a43cd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889126"
 ---
-
-<<<<<<< HEAD
-# <a name="bookmark-property-ado"></a>Bookmark Property (ADO)
-=======
-# <a name="bookmark-property-ado"></a>Свойство закладок (ADO)
->>>>>>> master
+# <a name="bookmark-property-ado"></a>Свойство Bookmark (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает закладки, который уникальным образом определяет текущую запись в объект [набора записей](recordset-object-ado.md) или задает текущей записи в объекте **набора записей** к записи, обозначенный допустимый закладка.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает выражение **типа Variant** , которое оценивается как действительный закладке.
 

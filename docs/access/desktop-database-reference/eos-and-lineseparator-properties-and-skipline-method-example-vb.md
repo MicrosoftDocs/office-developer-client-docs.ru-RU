@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)
 ms:contentKeyID: 48545340
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf46c6aa2adcf49fa1e51580c83a92611b25111e
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 9a48792379f91e7cdc02653898ee880caa429fe5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862179"
+ms.locfileid: "25869213"
 ---
 # <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a>Пример метода EOS и свойства LineSeparator и SkipLine (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано, как для работы с текстового потоков по одной строке за раз. Показано влияние изменение разделителя строки из по умолчанию возврат каретки return и перевода строки (**adCRLF**) просто перевода строки (**adLF**) или возврата каретки (**adCR**).
 

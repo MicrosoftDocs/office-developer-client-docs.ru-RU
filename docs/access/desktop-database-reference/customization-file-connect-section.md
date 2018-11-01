@@ -1,21 +1,21 @@
 ---
-title: Customization File Connect Section
+title: Раздел Connect в файле настройки
 TOCTitle: Customization File Connect Section
 ms:assetid: 037abfb4-798d-4b09-6133-356969aee95c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248802(v=office.15)
 ms:contentKeyID: 48542985
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd4b7eed3cb5d8192866127322c00e7ecd5a15b5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f160fe06167cde6527b08c23ab3de69731f56dde
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481624"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867525"
 ---
-# <a name="customization-file-connect-section"></a>Customization File Connect Section
+# <a name="customization-file-connect-section"></a>Раздел Connect в файле настройки
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Поведение по умолчанию обработчика является запретить все подключения. В разделе **подключение** указывает исключения, чтобы это поведение. Например если все разделы **подключение** отсутствует или пустой, затем по умолчанию подключения не удалось выполнить.
 

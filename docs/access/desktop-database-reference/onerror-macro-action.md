@@ -1,5 +1,5 @@
 ---
-title: OnError Macro Action
+title: Действия макроса OnError
 TOCTitle: OnError Macro Action
 ms:assetid: 5c6073c4-2c0f-0ed2-83b0-477636e2d81c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194562(v=office.15)
@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm62274
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b27ffa119d37cd7ddf80292acd9a1e1e131b0359
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e755683b4c040b37f0da12f7e67e8c400e62edb4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481244"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882142"
 ---
-# <a name="onerror-macro-action"></a>OnError Macro Action
+# <a name="onerror-macro-action"></a>Действия макроса OnError
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы указать, что должно происходить при возникновении ошибки в макросе, можно использовать **ПриОшибке** .
 

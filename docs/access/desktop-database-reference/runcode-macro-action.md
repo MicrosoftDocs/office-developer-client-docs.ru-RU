@@ -1,5 +1,5 @@
 ---
-title: RunCode Macro Action
+title: Действия ЗапускПрограммы макроса
 TOCTitle: RunCode Macro Action
 ms:assetid: cb0625be-4b5d-4927-9b0e-59a6e411b5bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834373(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c13f6fed20bebb40f4a8cacc3deedd7467ff55e4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e06d3ebb014cc38b19e37098b217bd072af4434a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479827"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870963"
 ---
-# <a name="runcode-macro-action"></a>RunCode Macro Action
+# <a name="runcode-macro-action"></a>Действия ЗапускПрограммы макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действием **RunCode** можно использовать для вызова Visual Basic для приложений (VBA) функция процедуры.
 

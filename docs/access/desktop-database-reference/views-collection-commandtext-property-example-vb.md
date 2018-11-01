@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: коллекции представлений, пример свойства CommandText (VB) TOCTitle: коллекции представлений, пример свойства CommandText (VB) === название: коллекции представлений, пример свойства CommandText (VB) TOCTitle: коллекции представлений Пример свойства CommandText (VB)
->>>>>>> главные ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15) ms:contentKeyID: 48545120 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Коллекции представлений, пример свойства CommandText (VB)
+TOCTitle: Views Collection, CommandText property example (VB)
+ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
+ms:contentKeyID: 48545120
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab1d5013e0371273fdcec3b2ba75a30a8dc18393
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870543"
 ---
-
-<<<<<<< HEAD
-# <a name="views-collection-commandtext-property-example-vb"></a>Views Collection, CommandText Property Example (VB)
-=======
 # <a name="views-collection-commandtext-property-example-vb"></a>Коллекции представлений, пример свойства CommandText (VB)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Следующий код демонстрирует использование свойства [команды](command-property-adox.md) для обновления текста в представлении.
 

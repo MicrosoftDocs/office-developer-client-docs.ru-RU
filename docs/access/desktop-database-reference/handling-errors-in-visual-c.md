@@ -1,22 +1,22 @@
 ---
-title: Handling Errors in Visual C++
+title: Обработка ошибок в Visual C++
 TOCTitle: Handling Errors in Visual C++
 ms:assetid: 75e15699-0c84-1dca-654e-f9ac465c2a30
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249483(v=office.15)
 ms:contentKeyID: 48545684
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8feeb97e049d245da91371fdb5225a644d0e415
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 937454a9277ec219f25a79074833138f6dd7f535
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480679"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887573"
 ---
-# <a name="handling-errors-in-visual-c"></a>Handling Errors in Visual C++
+# <a name="handling-errors-in-visual-c"></a>Обработка ошибок в Visual C++
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В модели COM большинство операций возврата HRESULT кода возврата, которое указывает, будет ли функция успешно завершена. \#Директива импорта создает код программы-оболочки вокруг каждого «необработанные» метод или свойство и проверяет возвращаемое значение HRESULT. Если значение HRESULT указывает на ошибку, кода программы-оболочки для вызывает ошибку COM путем вызова \_com\_проблему\_errorex() со значением HRESULT возвращают код в качестве аргумента. Ошибка COM-объектов может быть зафиксировано в блок **try-catch** . (Ради повышения эффективности перехватывающей ссылку на \_com\_объект error.)
 

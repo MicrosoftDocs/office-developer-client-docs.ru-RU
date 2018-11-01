@@ -1,22 +1,22 @@
 ---
-title: Stream Object (ADO)
+title: Объект Stream (ADO)
 TOCTitle: Stream Object (ADO)
 ms:assetid: d49b1514-e0b4-0aca-d5c2-8266f3f4fe65
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0a5ad4b50ed0548bad1f9a5482ee6755ecc9e2c
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 6820d09c952f85c06637639c62f1423012e14f5b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603597"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872517"
 ---
-# <a name="stream-object-ado"></a>Stream Object (ADO)
+# <a name="stream-object-ado"></a>Объект Stream (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет поток двоичных данных или текст.
 
@@ -64,13 +64,7 @@ ms.locfileid: "25603597"
 
   - Задать режим доступа для **потока** с помощью свойства [режима](mode-property-ado.md) .
 
-<<<<<<< HEAD
-
-> [!NOTE]
-> <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
-=======
 > [!NOTE]
 > URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
->>>>>>> master
 
 

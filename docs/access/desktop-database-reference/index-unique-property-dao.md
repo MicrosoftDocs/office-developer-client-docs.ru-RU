@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bf2bbd8e1bf5c7c51d93e0669becbfd093e29994
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 877be95d2cd65b020946f125714e0229650d5ec5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482469"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871887"
 ---
 # <a name="indexunique-property-dao"></a>Index.Unique Property (DAO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, указывающее, представляет ли объект **[индекса](index-object-dao.md)** уникальный индекс (основные) для таблицы (только для рабочих областей Microsoft Access).
 

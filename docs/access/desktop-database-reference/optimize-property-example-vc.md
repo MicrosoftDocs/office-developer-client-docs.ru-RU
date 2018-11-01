@@ -1,16 +1,22 @@
 ---
-<<<<<<< HEAD заголовок: TOCTitle оптимизировать пример свойства (VC ++): оптимизировать пример свойства (VC ++) === заголовок: оптимизировать пример свойства (VC ++) TOCTitle: оптимизация пример свойства (VC ++)
->>>>>>> главные ms:assetid: f9e83365-93b2-3eb6-0347-8f8aec703d6f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250273(v=office.15) ms:contentKeyID: 48548825 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Optimize (VC++)
+TOCTitle: Optimize property example (VC++)
+ms:assetid: f9e83365-93b2-3eb6-0347-8f8aec703d6f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250273(v=office.15)
+ms:contentKeyID: 48548825
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7e4e595aea68b35ec6fec1515c5d80e5b721b891
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885068"
 ---
-
-<<<<<<< HEAD
-# <a name="optimize-property-example-vc"></a>Optimize Property Example (VC++)
-=======
-# <a name="optimize-property-example-vc"></a>Оптимизация пример свойства (VC ++)
->>>>>>> master
+# <a name="optimize-property-example-vc"></a>Пример использования свойства Optimize (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется динамических свойство оптимизировать [поля](field-object-ado.md) объекта. Поле ***zip*** таблицы ***авторов*** в базе данных ***Pubs*** не индексируются. Свойства [оптимизировать](optimize-property-dynamic-ado.md) значение **True** в поле ***zip*** авторизует ADO для построения индекса, которая улучшает производительность метод [поиска](find-method-ado.md) .
 

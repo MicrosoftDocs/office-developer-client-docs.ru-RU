@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248950(v=office.15)
 ms:contentKeyID: 48543524
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8878333c8390ffcc075c0160f246e7f16757d226
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f60bce47f76214d26f75d13dece5bc062fd4db61
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482076"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889828"
 ---
-# <a name="static-cursors"></a>Static Cursors
+# <a name="static-cursors"></a>Статические курсоры
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Статический курсор всегда отображает результирующий набор, который был впервые открытия курсора. В зависимости от реализации, статические курсоры имеют только для чтения или чтения и записи и предоставления прокрутку вперед и назад. Статический курсор не находит обычно изменений, внесенных в членство, заказа или значения результирующего набора после открытия курсора. Статические курсоры может обнаружить собственные обновления, удаления и вставки, хотя для этого не требуется.
 

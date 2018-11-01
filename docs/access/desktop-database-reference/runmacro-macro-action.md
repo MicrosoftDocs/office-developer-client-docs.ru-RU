@@ -1,5 +1,5 @@
 ---
-title: RunMacro Macro Action
+title: Действия ЗапускМакроса макроса
 TOCTitle: RunMacro Macro Action
 ms:assetid: 25966f20-8160-0821-b88a-ed08b7786fdc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191868(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 533ac6aff194296a9e4470e01672a8338dcbc318
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 18e31837027f9c861480b738de5e77a0b5e2d13b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482881"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867546"
 ---
-# <a name="runmacro-macro-action"></a>RunMacro Macro Action
+# <a name="runmacro-macro-action"></a>Действия ЗапускМакроса макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **ЗапускМакроса** можно использовать для запуска макроса. Макрос может входить в группу макросов.
 

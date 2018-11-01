@@ -6,22 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 19ce858f46177b603fcd6e63f55b4ed7e424deb6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 74406232a6f7d458eebb242f3f341bd4e3ccc583
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482145"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882856"
 ---
-# <a name="data-section"></a>Data Section
+# <a name="data-section"></a>Раздел данных
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
  
-## <a name="data-section"></a>Data Section
+## <a name="data-section"></a>Раздел данных
 
 В разделе данных определяет данных набор строк, а также все ожидающие обновления, вставка или удаление. В разделе данных может содержать ноль или несколько строк. Он может содержать только данные из один набор строк, где строка определяется в схеме. Кроме того как было отмечено ранее, можно опустить столбцы данных. Если атрибут или вложенный элемент используется в разделе данные и этой конструкции не было определено в разделе схемы, он игнорируется без уведомления.
 
-## <a name="string"></a>String
+## <a name="string"></a>Строка
 
 Зарезервированные символы XML в текстовых данных должно быть заменено сущности знаков. Например в поле имя компании «Джо видео» символов одинарные кавычки необходимо заменить сущности. Фактические строки будет иметь вид:
 
