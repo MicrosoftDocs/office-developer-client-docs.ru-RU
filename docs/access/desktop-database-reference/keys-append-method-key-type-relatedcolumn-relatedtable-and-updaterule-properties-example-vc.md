@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="4cf42-101"><<<<<<< Название HEAD: ключи добавить метод, тип ключа, пример свойств RelatedColumn (VC ++) TOCTitle: ключи добавить метод, тип ключа, RelatedColumn, RelatedTable и пример: свойства UpdateRule (VC ++) === название: добавьте метод Keys Тип ключа, пример свойств RelatedColumn (VC ++) TOCTitle: пример: свойства ключей добавить метод, тип ключа, RelatedColumn, RelatedTable и UpdateRule (VC ++)</span><span class="sxs-lookup"><span data-stu-id="4cf42-101"><<<<<<< HEAD title: Keys Append Method, Key Type, RelatedColumn Properties Example (VC++) TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++) ======= title: Keys Append Method, Key Type, RelatedColumn properties example (VC++) TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="4cf42-102">главные ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID: 48547840 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="4cf42-102">master ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID: 48547840 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ключи добавить метод, тип ключа, пример свойств RelatedColumn (VC ++)
+TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
+ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
+ms:contentKeyID: 48547840
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9fed89b0ac9600cf5866bfcfac3497c735ca6929
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890983"
 ---
-
-<span data-ttu-id="4cf42-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="4cf42-103"><<<<<<< HEAD</span></span>
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="4cf42-104">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="4cf42-104">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++)</span></span>
-=======
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="4cf42-105">Пример: свойства ключей добавить метод, тип ключа RelatedColumn, RelatedTable и UpdateRule (VC ++)</span><span class="sxs-lookup"><span data-stu-id="4cf42-105">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="4cf42-106">master</span><span class="sxs-lookup"><span data-stu-id="4cf42-106">master</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="77360-102">Пример: свойства ключей добавить метод, тип ключа RelatedColumn, RelatedTable и UpdateRule (VC ++)</span><span class="sxs-lookup"><span data-stu-id="77360-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="4cf42-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4cf42-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="77360-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="77360-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4cf42-108">Следующий код демонстрирует создание нового внешнего ключа.</span><span class="sxs-lookup"><span data-stu-id="4cf42-108">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="4cf42-109">Предполагается, что существуют две таблицы (клиентов и заказы).</span><span class="sxs-lookup"><span data-stu-id="4cf42-109">It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="77360-104">Следующий код демонстрирует создание нового внешнего ключа.</span><span class="sxs-lookup"><span data-stu-id="77360-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="77360-105">Предполагается, что существуют две таблицы (клиентов и заказы).</span><span class="sxs-lookup"><span data-stu-id="77360-105">It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  
