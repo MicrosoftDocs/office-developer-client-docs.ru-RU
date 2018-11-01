@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248841(v=office.15)
 ms:contentKeyID: 48543165
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a325e7956d0572ca99724cc9eb450af94dc6ff3b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cab06e1c2aa29948034efc6328c124621c4b4438
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481676"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891109"
 ---
 # <a name="columns-collection-adox-reference"></a>Columns Collection (ADOX) Reference
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [Columns Collection (ADOX)](columns-collection-adox.md)
+  - [Коллекция столбцов (ADOX)](columns-collection-adox.md)
 
-  - [Columns Collection Properties, Methods, and Events (ADOX)](columns-collection-properties-methods-and-events-adox.md)
+  - [Столбцы коллекции свойства, методы и события (ADOX)](columns-collection-properties-methods-and-events-adox.md)
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства StayInSync (VJ ++) TOCTitle: пример свойства StayInSync (VJ ++) === название: пример свойства StayInSync (VJ ++) TOCTitle: пример свойства StayInSync (VJ ++)
->>>>>>> главные ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID: 48548448 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства StayInSync (VJ++)
+TOCTitle: StayInSync property example (VJ++)
+ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
+ms:contentKeyID: 48548448
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 53e1ce8eb6c92d139821bdefd1bed64834b379d6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891151"
 ---
-
-<<<<<<< HEAD
-# <a name="stayinsync-property-example-vj"></a>StayInSync Property Example (VJ++)
-=======
-# <a name="stayinsync-property-example-vj"></a>Пример свойства StayInSync (VJ ++)
->>>>>>> master
+# <a name="stayinsync-property-example-vj"></a>Пример использования свойства StayInSync (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано, как свойство [StayInSync](stayinsync-property-ado.md) упрощает доступ к строк в иерархической [набора записей](recordset-object-ado.md).
 

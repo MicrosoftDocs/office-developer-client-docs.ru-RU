@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 86d3c151ac77ab4138afcd84ee2a14d94dd07aef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5f374abd42659708ddb1e9fcd131faaac94f05cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480742"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891116"
 ---
-# <a name="whats-new-in-ado"></a>What's New in ADO
+# <a name="whats-new-in-ado"></a>Новые возможности в ADO
 
 
-**Применимо к**: Access 2013 | Office 2013 
+**Применимо к**: Access 2013, Office 2013 
  
 
 В ADO 2.5 включены следующие новые функции и улучшенные документации выпуска системы. Этот список содержит ADO, ADO MD и ADOX.

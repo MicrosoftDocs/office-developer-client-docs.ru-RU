@@ -1,22 +1,22 @@
 ---
-title: ReadText Method (ADO)
+title: Метод ReadText (ADO)
 TOCTitle: ReadText Method (ADO)
 ms:assetid: 08f5bac4-dccd-696c-09a7-e1ba0cb38d79
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
 ms:contentKeyID: 48543108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5083dccd2c1d328e825a198008fd773bc3a592f6
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5e4bc9febb76f71068517d2d83cddbdf4edee53b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605214"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891137"
 ---
-# <a name="readtext-method-ado"></a>ReadText Method (ADO)
+# <a name="readtext-method-ado"></a>Метод ReadText (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Число операций чтения указанное число символов из объекта [потока](stream-object-ado.md) текста.
 
@@ -30,11 +30,7 @@ ms.locfileid: "25605214"
 
   - Необязательный параметр. **Длинное целое** значение, задающее число символов для чтения из файла, или значение [StreamReadEnum](streamreadenum.md) . Значение по умолчанию — **adReadAll**.
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Метод **ReadText** считывает указанное число символов, строку целиком или всей потока из объекта **потока** и возвращает результирующую строку.
 

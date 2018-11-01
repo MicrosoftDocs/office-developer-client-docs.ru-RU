@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835002(v=office.15)
 ms:contentKeyID: 48547940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a938abb59783f76d5f6c50d35dbd7ea16a989e12
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f0c6df32c37f73dadf1df43201090d44d81a6a01
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480057"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890948"
 ---
 # <a name="recordset2validationrule-property-dao"></a>Recordset2.ValidationRule Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, которое проверяет данные в поля, как она изменен или добавлен в таблицу (только для рабочих областей Microsoft Access). Чтение и запись **строки**.
 

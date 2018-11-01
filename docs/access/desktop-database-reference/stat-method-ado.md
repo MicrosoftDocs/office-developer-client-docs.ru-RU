@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250056(v=office.15)
 ms:contentKeyID: 48547916
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6bc4ff8076ec07d065ba932ef0e0017edb97e703
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 6e620c3b2f824f7c49abb576ea46a51b04598463
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606957"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891160"
 ---
-# <a name="stat-method-ado"></a>Stat Method (ADO)
+# <a name="stat-method-ado"></a>Метод stat (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Извлекает сведения о объект **Stream** .
 
@@ -24,11 +24,7 @@ ms.locfileid: "25606957"
 
 Длинные *потока*. Статистика (*StatStg*, *StatFlag*)
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Значение типа long, указывающее состояние операции.
 

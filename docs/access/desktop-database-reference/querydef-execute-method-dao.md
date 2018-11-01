@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d3438392976051f744f3a449b02cce6aa1c23e8b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8857ef902f10fb31ffb7580d28427ace24d99fd9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480780"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890976"
 ---
 # <a name="querydefexecute-method-dao"></a>QueryDef.Execute Method (DAO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Выполняет инструкции SQL на указанный объект.
 
