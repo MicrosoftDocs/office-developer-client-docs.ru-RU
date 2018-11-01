@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8066c7e8ae827d7ae5a521682f2100bc11c9a6f8
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fff0c9ac46e4a616fb5ea134e3dabc6b4e90576f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862893"
+ms.locfileid: "25873105"
 ---
 # <a name="transfersqldatabase-macro-action"></a>Действия макроса TransferSQLDatabase
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В проекте Microsoft Access **«ПереносБазыДанныхSQL»** можно использовать для передачи Microsoft SQL Server 7.0 или более поздняя версия базы данных на другой SQL Server 7.0 или более поздняя версия базы данных. Дополнительные сведения о переносе базы данных SQL Server см.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
 ms:contentKeyID: 48542972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a8b6b794daf7c03df26c186ac58b9a02ed4a7419
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 66b0d7ca54723755bcdb6e24726f75836cd9716f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861234"
+ms.locfileid: "25885642"
 ---
 # <a name="ado-errors"></a>Ошибки ADO
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Ошибки во время выполнения ошибки ADO фиксируются в программу. Можно использовать механизм перехват ошибок языка программирования для перехвата и их обработки. Например в Visual Basic, используйте оператор **On Error** . В Visual J ++ используйте блок **try-catch** . В Visual C++ он зависит от метода, который используется для доступа к библиотекам ADO. С помощью \#импорта, используйте блок **try-catch** . В противном случае программистов C++ необходимо явно извлечь объект error, вызвав **GetErrorInfo**. Следующая процедура sub Visual Basic демонстрируется перехват ошибка ADO:
 

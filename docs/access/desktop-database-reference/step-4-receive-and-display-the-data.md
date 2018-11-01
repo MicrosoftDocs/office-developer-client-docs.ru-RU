@@ -1,24 +1,24 @@
 ---
-title: 'Шаг 4: Получение и отображения данных'
+title: Этап 4. Получение и отображение данных
 TOCTitle: 'Step 4: Receive and Display the Data'
 ms:assetid: a27cc1d8-0ee0-95a5-ad70-88c454c10485
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249749(v=office.15)
 ms:contentKeyID: 48546764
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2a447b68b8c0eeb18d18050ba8dbbb6f09786ab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 03a089e600799e1ac5fa85886ee6a16e1dd86026
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482466"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869080"
 ---
-# <a name="step-4-receive-and-display-the-data"></a>Шаг 4: Получение и отображения данных
+# <a name="step-4-receive-and-display-the-data"></a>Этап 4. Получение и отображение данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-## <a name="step-4-receive-and-display-the-data"></a>Шаг 4: Получение и отображения данных
+## <a name="step-4-receive-and-display-the-data"></a>Этап 4. Получение и отображение данных
 
 На этом этапе создается HTML-файла с внедренным [RDS. DataControl](datacontrol-object-rds.md) объект, указывающий на файл XMLResponse.asp для получения **набора записей**. Откройте default.htm в текстовом редакторе, например в Блокноте и добавьте приведенный ниже код. Замените «sqlserver» в URL-имя компьютера сервера.
 

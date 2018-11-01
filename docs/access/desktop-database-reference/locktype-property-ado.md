@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle LockType для свойства (ADO): LockType для свойства (ADO) === название: свойство LockType для (ADO) TOCTitle: свойство LockType для (ADO)
->>>>>>> главные ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15) ms:contentKeyID: 48543589 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство LockType (ADO)
+TOCTitle: LockType property (ADO)
+ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15)
+ms:contentKeyID: 48543589
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 88657361d6ce5ac168f21f5709bdaf68eeb23b6d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879062"
 ---
-
-<<<<<<< HEAD
-# <a name="locktype-property-ado"></a>LockType Property (ADO)
-=======
-# <a name="locktype-property-ado"></a>Свойство LockType для (ADO)
->>>>>>> master
+# <a name="locktype-property-ado"></a>Свойство LockType (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает тип блокировки записей во время редактирования.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает значение [LockTypeEnum](locktypeenum.md) . Значение по умолчанию — **adLockReadOnly**.
 

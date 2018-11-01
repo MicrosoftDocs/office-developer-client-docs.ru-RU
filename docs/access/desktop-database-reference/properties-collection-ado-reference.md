@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249684(v=office.15)
 ms:contentKeyID: 48546497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 93ea34ffcda68e71512c91dab2d3744fd85e1e7d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 918e532cb97391b92828a6955479cbc8f77b6546
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480898"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885174"
 ---
 # <a name="properties-collection-ado-reference"></a>Properties Collection (ADO) Reference
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [Properties Collection (ADO)](properties-collection-ado.md)
+  - [Коллекция Properties (ADO)](properties-collection-ado.md)
 
-  - [Properties Collection Properties, Methods, and Events](properties-collection-properties-methods-and-events.md)
+  - [Свойства коллекции свойства, методы и события](properties-collection-properties-methods-and-events.md)
 

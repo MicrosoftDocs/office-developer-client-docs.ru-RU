@@ -1,22 +1,22 @@
 ---
-title: Basic RDS Programming Model
+title: Базовая модель программирования RDS
 TOCTitle: Basic RDS Programming Model
 ms:assetid: a8dd22b0-ac9b-b5c3-4e31-d2990d36230a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249781(v=office.15)
 ms:contentKeyID: 48546911
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2a90423f6bd05ae3d721faf97291ea6d21aa4393
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a666b12a3359c8212afaed66155d8cf8578f6a2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481683"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886825"
 ---
-# <a name="basic-rds-programming-model"></a>Basic RDS Programming Model
+# <a name="basic-rds-programming-model"></a>Базовая модель программирования RDS
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Приложения, которые имеются в среде следующих решает служб удаленных рабочих СТОЛОВ: клиентское приложение задает программы, который будет выполняться на сервере и параметры, необходимые для возврата требуемой информации. Программа вызван для доступа к серверу прибыли для указанного источника данных, извлекает сведения о, при необходимости обрабатывает данные и затем возвращает результирующую сведения о клиентского приложения в форме, его можно легко использовать. Служб удаленных рабочих СТОЛОВ предоставляет средства, которые необходимо выполнить следующую последовательность действий:
 

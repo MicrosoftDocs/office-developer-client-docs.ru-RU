@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249484(v=office.15)
 ms:contentKeyID: 48545691
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ca88141d0de0c70f48fecbfa147cdc40f79d39e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52a642646d6e874dd72fd4975bd777fa5464571f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483231"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875646"
 ---
 # <a name="cell-properties-methods-and-events-ado-md"></a>Cell Properties, Methods, and Events (ADO MD)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Свойства и коллекции
 
@@ -33,7 +33,7 @@ ms.locfileid: "25483231"
 
 Отсутствуют.
 
-## <a name="events"></a>События
+## <a name="events"></a>Мероприятия
 
 Нет.
 

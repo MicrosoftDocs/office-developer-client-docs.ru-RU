@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства MarshalOptions (VJ ++) TOCTitle: пример свойства MarshalOptions (VJ ++) === название: пример свойства MarshalOptions (VJ ++) TOCTitle: пример свойства MarshalOptions (VJ ++)
->>>>>>> главные ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15) ms:contentKeyID: 48544313 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства MarshalOptions (VJ++)
+TOCTitle: MarshalOptions property example (VJ++)
+ms:assetid: 3c565ed1-1a60-77f5-7c69-ceb28027cb40
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15)
+ms:contentKeyID: 48544313
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: dfb62f996bc09446445d8ef2cc49644fa99c1a2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883192"
 ---
-
-<<<<<<< HEAD
-# <a name="marshaloptions-property-example-vj"></a>MarshalOptions Property Example (VJ++)
-=======
-# <a name="marshaloptions-property-example-vj"></a>Пример свойства MarshalOptions (VJ ++)
->>>>>>> master
+# <a name="marshaloptions-property-example-vj"></a>Пример использования свойства MarshalOptions (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [MarshalOptions](marshaloptions-property-ado.md) , чтобы указать, какие строки отправляются на сервер — всех или только измененные строк.
 

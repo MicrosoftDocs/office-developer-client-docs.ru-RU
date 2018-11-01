@@ -1,22 +1,22 @@
 ---
-title: Operation of Parameterized Commands
+title: Операция для команд с параметрами
 TOCTitle: Operation of Parameterized Commands
 ms:assetid: 71edbd16-21db-7afa-356b-d8e7afb92b3a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42f0e8ffc7472dbf8a8c03fa320d3ae2b4a2e21b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9ae1b0545ac647b0034b0d24cac1a653cfeb4b7e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483061"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883850"
 ---
-# <a name="operation-of-parameterized-commands"></a>Operation of Parameterized Commands
+# <a name="operation-of-parameterized-commands"></a>Операция для команд с параметрами
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Если работа с большой дочерних **записей**, особенно по сравнению с размерами родительского **набора записей**, но для доступа только несколько дочерних главы могут оказаться более эффективно использовать параметризованные команды.
 

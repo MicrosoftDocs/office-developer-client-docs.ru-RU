@@ -6,47 +6,47 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124057(v=office.15)
 ms:contentKeyID: 52071694
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f4e8737d002391e257e07f2a6d49506aab336c35
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf17bfee937cad94678a8e5f0d5b209105623450
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481503"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870655"
 ---
 # <a name="macro-commands"></a>Макрос команды
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [CancelEvent Macro Action](cancelevent-macro-action.md)
+  - [Действия ОтменитьСобытие макроса](cancelevent-macro-action.md)
 
-  - [Echo Macro Action](echo-macro-action.md)
+  - [Действия макроса эхо](echo-macro-action.md)
 
-  - [OpenVisualBasicModule Macro Action](openvisualbasicmodule-macro-action.md)
+  - [Действия макроса OpenVisualBasicModule](openvisualbasicmodule-macro-action.md)
 
-  - [RemoveAllTempVars Macro Action](removealltempvars-macro-action.md)
+  - [Действия макроса RemoveAllTempVars](removealltempvars-macro-action.md)
 
-  - [RemoveTempVar Macro Action](removetempvar-macro-action.md)
+  - [Действия макроса RemoveTempVar](removetempvar-macro-action.md)
 
-  - [RunCode Macro Action](runcode-macro-action.md)
+  - [Действия ЗапускПрограммы макроса](runcode-macro-action.md)
 
-  - [RunDataMacro Macro Action](rundatamacro-macro-action.md)
+  - [Действия ЗапускМакросаДанных макроса](rundatamacro-macro-action.md)
 
-  - [RunMacro Macro Action](runmacro-macro-action.md)
+  - [Действия ЗапускМакроса макроса](runmacro-macro-action.md)
 
-  - [RunMenuCommand Macro Action](runmenucommand-macro-action.md)
+  - [Действия макроса RunMenuCommand](runmenucommand-macro-action.md)
 
-  - [SetTempVar Macro Action](settempvar-macro-action.md)
+  - [Действия макроса SetTempVar](settempvar-macro-action.md)
 
-  - [SingleStep Macro Action](singlestep-macro-action.md)
+  - [Действия макроса SingleStep](singlestep-macro-action.md)
 
-  - [StartNewWorkflow Macro Action](startnewworkflow-macro-action.md)
+  - [Действия макроса StartNewWorkflow](startnewworkflow-macro-action.md)
 
-  - [StopAllMacros Macro Action](stopallmacros-macro-action.md)
+  - [Действия ОстановитьВсеМакросы макроса](stopallmacros-macro-action.md)
 
-  - [StopMacro Macro Action](stopmacro-macro-action.md)
+  - [Действия ОстановитьМакрос макроса](stopmacro-macro-action.md)
 
-  - [WorkflowTasks Macro Action](workflowtasks-macro-action.md)
+  - [Действия макроса WorkflowTasks](workflowtasks-macro-action.md)
 

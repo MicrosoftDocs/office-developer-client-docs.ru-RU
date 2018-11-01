@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125230(v=office.15)
 ms:contentKeyID: 52073354
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bb88ca3d5d77dbe13adb283e5582fdb4d0f4639c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d72b9302b19fb0f176e46f83436a25d36018cc4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480117"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868930"
 ---
 # <a name="data-blocks"></a>Блоки данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [CreateRecord Data Block](createrecord-data-block.md)
+  - [Блок данных CreateRecord](createrecord-data-block.md)
 
-  - [EditRecord Data Block](editrecord-data-block.md)
+  - [Блок данных EditRecord](editrecord-data-block.md)
 
-  - [ForEachRecord Data Block](foreachrecord-data-block.md)
+  - [Блок данных ForEachRecord](foreachrecord-data-block.md)
 
-  - [LookupRecord Data Block](lookuprecord-data-block.md)
+  - [Блок данных LookupRecord](lookuprecord-data-block.md)
 

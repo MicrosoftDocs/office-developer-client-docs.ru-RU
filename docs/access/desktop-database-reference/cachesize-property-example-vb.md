@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство CacheSize (VB): пример свойства CacheSize (VB) === название: пример свойства CacheSize (VB) TOCTitle: пример свойства CacheSize (VB)
->>>>>>> главные ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15) ms:contentKeyID: 48544934 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства CacheSize (VB)
+TOCTitle: CacheSize property example (VB)
+ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15)
+ms:contentKeyID: 48544934
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d39a46edd737317fa4478c546b6e895a0b6d8683
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877235"
 ---
-
-<<<<<<< HEAD
-# <a name="cachesize-property-example-vb"></a>CacheSize Property Example (VB)
-=======
-# <a name="cachesize-property-example-vb"></a>Пример свойства CacheSize (VB)
->>>>>>> master
+# <a name="cachesize-property-example-vb"></a>Пример использования свойства CacheSize (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [CacheSize](cachesize-property-ado.md) для отображения разницу в производительности для операции, выполняемой с и без 30 записи кэша.
 
