@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5a899f72c6603d81244c31775c1109f66520910e
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 1c0b1ea2f0103d444a1429748b16c6a4314eb92c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602981"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876430"
 ---
 # <a name="recordsetclone-method-dao"></a>Recordset.Clone Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Создает объект повторяющихся **[записей](recordset-object-dao.md)** , на который ссылается на исходный объект **набора записей** .
 
@@ -30,11 +30,7 @@ ms.locfileid: "25602981"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
-=======
-### <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Набор записей
 

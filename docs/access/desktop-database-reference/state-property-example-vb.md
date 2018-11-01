@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство State (VB): примере свойство State (VB) === название: пример свойства состояния (VB) TOCTitle: пример свойства состояния (VB)
->>>>>>> главные ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15) ms:contentKeyID: 48548366 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства State (VB)
+TOCTitle: State property example (VB)
+ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
+ms:contentKeyID: 48548366
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6d4aed1d2cbefaa8a43017b7a8ae216ddc0610d9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871271"
 ---
-
-<<<<<<< HEAD
-# <a name="state-property-example-vb"></a>State Property Example (VB)
-=======
-# <a name="state-property-example-vb"></a>Пример свойства состояний (VB)
->>>>>>> master
+# <a name="state-property-example-vb"></a>Пример использования свойства State (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [состояние](state-property-ado.md) для отображения сообщения во время открытия асинхронных подключений и выполнении асинхронных команд.
 

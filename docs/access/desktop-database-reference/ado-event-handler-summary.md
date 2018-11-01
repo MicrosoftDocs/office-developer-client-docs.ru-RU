@@ -1,22 +1,22 @@
 ---
-title: ADO Event Handler Summary
+title: Сводка по обработчикам событий ADO
 TOCTitle: ADO Event Handler Summary
 ms:assetid: f50b9eb4-df6e-7b9d-0b3d-dca8945167a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250247(v=office.15)
 ms:contentKeyID: 48548701
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9042bdbf3271f5aed65f44d8c7f76f1dcbee1d9c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5e47cf076c213707857285757d936d58bd153e7c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481413"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880602"
 ---
-# <a name="ado-event-handler-summary"></a>ADO Event Handler Summary
+# <a name="ado-event-handler-summary"></a>Сводка по обработчикам событий ADO
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Два объекта ADO могут вызывать события: объект [подключения](connection-object-ado.md) и объекта [набора записей](recordset-object-ado.md) . Семейство **ConnectionEvent** относится к операции на объект **подключения** , а семейства **RecordsetEvent** относится к операции в объекте **набора записей** .
 

@@ -1,16 +1,21 @@
 ---
-<<<<<<< Название HEAD: AbsolutePosition и TOCTitle пример: свойства CursorLocation (JScript): AbsolutePosition и пример: свойства CursorLocation (JScript) ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15) ms:contentKeyID: 48548142 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств AbsolutePosition и CursorLocation (JScript)
+TOCTitle: AbsolutePosition and CursorLocation properties example (JScript)
+ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15)
+ms:contentKeyID: 48548142
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 85dbd90fcf70b9c98414e1e2d496a51c356d096d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885607"
 ---
+# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>Пример использования свойств AbsolutePosition и CursorLocation (JScript)
 
-# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>AbsolutePosition and CursorLocation Properties Example (JScript)
-
-=== Название: пример свойства AbsolutePosition и CursorLocation (JScript) TOCTitle: AbsolutePosition и CursorLocation ms:assetid пример (JScript) свойства: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15) ms:contentKeyID: 48548142 ms.date: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>Пример свойства AbsolutePosition и CursorLocation (JScript)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) можно отслеживать цикл, который перечисляет все записи из [набора записей](recordset-object-ado.md). Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойство **AbsolutePosition** , установив курсор на курсор клиента. Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **AbsolutePositionJS.asp**.
 
@@ -23,11 +28,7 @@
 <html> 
  
 <head> 
-<<<<<<< HEAD
-<title>AbsolutePosition and CursorLocation Properties Example (JScript)</title> 
-=======
 <title>AbsolutePosition and CursorLocation properties example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -52,11 +53,7 @@ BODY {
 </head> 
  
 <body> 
-<<<<<<< HEAD
-<h1>AbsolutePosition and CursorLocation Properties Example (JScript)</h1> 
-=======
 <h1>AbsolutePosition and CursorLocation properties example (JScript)</h1> 
->>>>>>> master
 <% 
  // connection and recordset variables 
  var strCnxn = "Provider='sqloledb';Data Source=" + Request.ServerVariables("SERVER_NAME") + ";" + 

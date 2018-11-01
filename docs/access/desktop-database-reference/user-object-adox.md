@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250178(v=office.15)
 ms:contentKeyID: 48548426
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab5d92a67737774d817046538200d0ebd4337e74
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0c37e43f09fb4187de246e687d81dbd72463d390
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481809"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889317"
 ---
-# <a name="user-object-adox"></a>User Object (ADOX)
+# <a name="user-object-adox"></a>Объект пользователя (ADOX)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет учетную запись пользователя, который имеет разрешения на доступ в рамках защищенной базы данных.
 

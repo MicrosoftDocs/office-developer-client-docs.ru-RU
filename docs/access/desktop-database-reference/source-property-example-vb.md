@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство источника (VB): пример свойства источника (VB) === название: пример свойства источника (VB) TOCTitle: пример свойства источника (VB)
->>>>>>> главные ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: 48545885 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Source (VB)
+TOCTitle: Source property example (VB)
+ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
+ms:contentKeyID: 48545885
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 98d5af89d911f6bbc442427dbb15ccb172f73c0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889667"
 ---
-
-<<<<<<< HEAD
-# <a name="source-property-example-vb"></a>Source Property Example (VB)
-=======
-# <a name="source-property-example-vb"></a>Пример свойства источника (VB)
->>>>>>> master
+# <a name="source-property-example-vb"></a>Пример использования свойства Source (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано свойство [Source](source-property-ado-recordset.md) , открыв три объекты [набора записей](recordset-object-ado.md) по различным источникам данных.
 

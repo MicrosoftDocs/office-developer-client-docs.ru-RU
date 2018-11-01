@@ -1,22 +1,22 @@
 ---
-title: Delete Method (ADOX Collections)
+title: Удаление метода (ADOX коллекций)
 TOCTitle: Delete Method (ADOX Collections)
 ms:assetid: bcf9b8dd-cc7a-c1f9-fd93-58694766c4d9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249909(v=office.15)
 ms:contentKeyID: 48547423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea02f02270649783873f1f086bb9f39b804034a2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4bfb9e12f32da56aecd9338e51d6e4656714b6c1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482697"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871334"
 ---
-# <a name="delete-method-adox-collections"></a>Delete Method (ADOX Collections)
+# <a name="delete-method-adox-collections"></a>Удаление метода (ADOX коллекций)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

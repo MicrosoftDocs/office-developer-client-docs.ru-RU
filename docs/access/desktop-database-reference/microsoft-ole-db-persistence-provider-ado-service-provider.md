@@ -1,22 +1,22 @@
 ---
-title: Microsoft OLE DB Persistence Provider (ADO Service Provider)
+title: Поставщик услуг хранения Microsoft OLE DB (поставщик служб ADO)
 TOCTitle: Microsoft OLE DB Persistence Provider (ADO Service Provider)
 ms:assetid: 22e41769-36eb-5a88-05ed-870938657624
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249007(v=office.15)
 ms:contentKeyID: 48543719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee7f29fa12b7158f2886f908666fa485ddf291cd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 35cab114da6536ea1a0123e0da2541dd69125824
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481206"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877886"
 ---
-# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Microsoft OLE DB Persistence Provider (ADO Service Provider)
+# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Поставщик услуг хранения Microsoft OLE DB (поставщик служб ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013 
+**Применимо к**: Access 2013, Office 2013 
 
 Поставщик OLE DB сохраняемость позволяет сохранить объект [набора записей](recordset-object-ado.md) в файл и восстанавливать этот объект **набора записей** из файла. Сведения о схеме, данные и ожидающие изменения сохраняются.
 
@@ -31,7 +31,7 @@ ms.locfileid: "25481206"
 "Provider=MSPersist" 
 ```
 
-## <a name="errors"></a>Errors
+## <a name="errors"></a>Ошибки
 
 В приложении могут быть обнаружены следующие ошибки, выданный данного поставщика.
 

@@ -1,5 +1,5 @@
 ---
-title: StartNewWorkflow Macro Action
+title: Действия макроса StartNewWorkflow
 TOCTitle: StartNewWorkflow Macro Action
 ms:assetid: b3e81a11-b816-0eef-fc70-6d6da7a5a845
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822054(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm198223
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c4c6d237ef24bea0c8509ac4ae0df00c4f30cec2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6ba9d38caaa85ab9dd582abdbeb37aff5c7b340e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480741"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886496"
 ---
-# <a name="startnewworkflow-macro-action"></a>StartNewWorkflow Macro Action
+# <a name="startnewworkflow-macro-action"></a>Действия макроса StartNewWorkflow
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **StartNewWorkflow** можно использовать для запуска нового рабочего процесса для элемента в связанном списке Microsoft SharePoint Foundation.
 

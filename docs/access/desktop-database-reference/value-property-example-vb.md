@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере значение свойства (VB): пример значение свойства (VB) === название: пример свойства Value (VB) TOCTitle: пример свойства Value (VB)
->>>>>>> главные ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15) ms:contentKeyID: 48547547 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Value (VB)
+TOCTitle: Value property example (VB)
+ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15)
+ms:contentKeyID: 48547547
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 37182f2de5342374ddb3d12d38e35c63bafaf1aa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872832"
 ---
-
-<<<<<<< HEAD
-# <a name="value-property-example-vb"></a>Value Property Example (VB)
-=======
-# <a name="value-property-example-vb"></a>Пример свойства Value (VB)
->>>>>>> master
+# <a name="value-property-example-vb"></a>Пример использования свойства Value (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .
 

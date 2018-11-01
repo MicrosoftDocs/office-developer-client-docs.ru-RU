@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 760e4cd3ebc3192ee63a790009398f2bc1e6d1c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0b01232e7afd4f32411a53dec6ae233c786c1c08
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480456"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873406"
 ---
-# <a name="field-object"></a>Объект Field
+# <a name="field-object"></a>Объект поля
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Каждый объект **поля** обычно соответствует столбец таблицы базы данных. Тем не менее, **поле** также может представлять указатель на другой **набор записей**, называется главу. Исключения, такие как главы столбцы будут описаны позже в этом руководстве.
 

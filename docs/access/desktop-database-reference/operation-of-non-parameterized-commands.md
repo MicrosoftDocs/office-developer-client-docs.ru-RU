@@ -1,22 +1,22 @@
 ---
-title: Operation of Non-Parameterized Commands
+title: Операция для команд без параметров
 TOCTitle: Operation of Non-Parameterized Commands
 ms:assetid: 934740b1-07d0-140e-7c83-00feb34c01d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249651(v=office.15)
 ms:contentKeyID: 48546395
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f45bb8e148fe2ba252b2620d41685006302cfdb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3e1799e5e40ffa3ffcd6698900b8678b309696e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480580"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885159"
 ---
-# <a name="operation-of-non-parameterized-commands"></a>Operation of Non-Parameterized Commands
+# <a name="operation-of-non-parameterized-commands"></a>Операция для команд без параметров
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Для команды без параметров выполняются все команды поставщика и **наборов записей** , созданных во время выполнения команды. Если команда выполняется синхронно, всех наборов **записей** будет полностью заполнена. Выделенный режим асинхронное заполнение, заполненный состояние **наборов записей** будут зависеть от режима заполнения и размера **набора записей**.
 

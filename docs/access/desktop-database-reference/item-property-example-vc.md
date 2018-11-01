@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle пример свойства элемента (VC ++): пример свойства элемента (VC ++) === название: пример свойства элемента (VC ++) TOCTitle: пример свойства элемента (VC ++)
->>>>>>> главные ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID: 48543452 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Item (VC++)
+TOCTitle: Item property example (VC++)
+ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
+ms:contentKeyID: 48543452
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ae4ffe7f1d600fe89788c3084a9e9dc409fc00f1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882499"
 ---
-
-<<<<<<< HEAD
-# <a name="item-property-example-vc"></a>Item Property Example (VC++)
-=======
-# <a name="item-property-example-vc"></a>Пример свойства элемента (VC ++)
->>>>>>> master
+# <a name="item-property-example-vc"></a>Пример использования свойства Item (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции. В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.
 

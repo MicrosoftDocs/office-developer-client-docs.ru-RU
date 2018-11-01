@@ -1,21 +1,21 @@
 ---
-title: Item Property (ADO MD Cellset)
+title: Свойство Item (ячеек ADO MD)
 TOCTitle: Item Property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 017b25b164233cb0e16753874e5b898409b5ac5a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d4f2f67daf4bf072037fac07ecdc3cd163904818
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480512"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883801"
 ---
-# <a name="item-property-ado-md-cellset"></a>Item Property (ADO MD Cellset)
+# <a name="item-property-ado-md-cellset"></a>Свойство Item (ячеек ADO MD)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Получает ячейки из набора координат ячеек.
 

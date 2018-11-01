@@ -1,22 +1,22 @@
 ---
-title: Open Method (ADO Connection)
+title: Метод Open (ADO-подключение)
 TOCTitle: Open Method (ADO Connection)
 ms:assetid: 1adaa17d-dfe1-22e0-3415-720516d138f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248951(v=office.15)
 ms:contentKeyID: 48543525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78c20ce6da4c20385bd22488ce910312c737986e
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 3bd698f7ea6c05d81e07969ae8031049804b7706
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606334"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889471"
 ---
-# <a name="open-method-ado-connection"></a>Open Method (ADO Connection)
+# <a name="open-method-ado-connection"></a>Метод Open (ADO-подключение)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
  
 
 Открывает подключение к источнику данных.
@@ -57,10 +57,6 @@ ms.locfileid: "25606334"
 
 
 > [!NOTE]
-<<<<<<< HEAD
-> <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
-=======
 > URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
->>>>>>> master
 
 

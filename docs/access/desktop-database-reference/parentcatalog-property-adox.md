@@ -1,30 +1,26 @@
 ---
-title: ParentCatalog Property (ADOX)
+title: Свойство ParentCatalog (ADOX)
 TOCTitle: ParentCatalog Property (ADOX)
 ms:assetid: 7eef4ef5-1fa4-73ea-a710-fc8767c9ea21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249535(v=office.15)
 ms:contentKeyID: 48545891
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9fdd4b41578b4f185d199a47204faabd0af3ff8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: e316beebd45b39d7cbbb0714499ec7156a4bb270
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603415"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883724"
 ---
-# <a name="parentcatalog-property-adox"></a>ParentCatalog Property (ADOX)
+# <a name="parentcatalog-property-adox"></a>Свойство ParentCatalog (ADOX)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает каталог родительской таблицы или столбца для предоставления доступа к свойствам конкретного поставщика.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает и возвращает объект [каталога](catalog-object-adox.md) . Параметру **ParentCatalog** open **каталога** позволяет получить доступ к свойствам конкретного поставщика перед добавлением таблицы или столбца в коллекцию **каталога** .
 

@@ -1,22 +1,22 @@
 ---
-title: ExecuteComplete Event (ADO)
+title: Событие ExecuteComplete (ADO)
 TOCTitle: ExecuteComplete Event (ADO)
 ms:assetid: 47317d97-e373-32f4-9438-2dff46b8d367
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 231cfcf42cead3074996870971488dadb60583ae
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: e29db2848d7ec7b229831156ee64815a152a4bfc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605424"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887903"
 ---
-# <a name="executecomplete-event-ado"></a>ExecuteComplete Event (ADO)
+# <a name="executecomplete-event-ado"></a>Событие ExecuteComplete (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
@@ -56,7 +56,5 @@ ExecuteComplete*RecordsAffected*, *pError*, *adStatus*, *командной*, *p
 
 ## <a name="remarks"></a>Замечания
 
-<<<<<<< HEAD событие **ExecuteComplete** может возникнуть из-за **подключения.** [Выполнение](https://msdn.microsoft.com/library/jj249832\(v=office.15\)), **команда.** [Выполнение](https://msdn.microsoft.com/library/jj248785\(v=office.15\)), **набора записей.** После [открытия](open-method-ado-recordset.md) **набора записей.** [Повторный запрос](requery-method-ado.md), или **набора записей.** Методы [NextRecordset](nextrecordset-method-ado.md) .
-=== Событие **ExecuteComplete** может возникнуть из-за **подключения.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **набора записей.** После [открытия](open-method-ado-recordset.md) **набора записей.** [Повторный запрос](requery-method-ado.md), или **набора записей.** Методы [NextRecordset](nextrecordset-method-ado.md) .
->>>>>>> master
+Событие **ExecuteComplete** может возникнуть из-за **подключения.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **набора записей.** После [открытия](open-method-ado-recordset.md) **набора записей.** [Повторный запрос](requery-method-ado.md), или **набора записей.** Методы [NextRecordset](nextrecordset-method-ado.md) .
 

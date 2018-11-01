@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства DeleteRule (VC ++) TOCTitle: пример свойства DeleteRule (VC ++) === название: пример свойства DeleteRule (VC ++) TOCTitle: пример свойства DeleteRule (VC ++)
->>>>>>> главные ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15) ms:contentKeyID: 48544164 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства DeleteRule (VC++)
+TOCTitle: DeleteRule property example (VC++)
+ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15)
+ms:contentKeyID: 48544164
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 97e2e1d9a9c801fc7982ec9bdd84e060a03ceccf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875485"
 ---
-
-<<<<<<< HEAD
-# <a name="deleterule-property-example-vc"></a>DeleteRule Property Example (VC++)
-=======
-# <a name="deleterule-property-example-vc"></a>Пример свойства DeleteRule (VC ++)
->>>>>>> master
+# <a name="deleterule-property-example-vc"></a>Пример использования свойства DeleteRule (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [DeleteRule](deleterule-property-adox.md) объекта [ключа](key-object-adox.md) . Код добавляет новую [таблицу](table-object-adox.md) и затем определяет первичный ключ, установка для **DeleteRule** **adRICascade**.
 

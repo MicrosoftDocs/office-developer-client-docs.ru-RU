@@ -1,5 +1,5 @@
 ---
-title: RefreshRecord Macro Action
+title: Действия макроса RefreshRecord
 TOCTitle: RefreshRecord Macro Action
 ms:assetid: 68c90d7d-f59c-9e83-bc30-8f37cf5a3696
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195261(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91c49ca4d453418a02d55163a023e853fadd5773
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65f972f2ec50212685897d496fd072c7d3f57968
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481247"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876024"
 ---
-# <a name="refreshrecord-macro-action"></a>RefreshRecord Macro Action
+# <a name="refreshrecord-macro-action"></a>Действия макроса RefreshRecord
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **RefreshRecord** можно использовать для обновления базового источника данных для активной формы или таблицы для отражения изменений, внесенных в записи в текущий набор.
 

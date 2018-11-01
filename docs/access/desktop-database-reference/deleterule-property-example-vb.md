@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство DeleteRule (VB): пример свойства DeleteRule (VB) === название: пример свойства DeleteRule (VB) TOCTitle: пример свойства DeleteRule (VB)
->>>>>>> главные ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15) ms:contentKeyID: 48544142 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства DeleteRule (VB)
+TOCTitle: DeleteRule property example (VB)
+ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15)
+ms:contentKeyID: 48544142
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 43177dd707f47106d8be14e174d840b9815f8155
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886132"
 ---
-
-<<<<<<< HEAD
-# <a name="deleterule-property-example-vb"></a>DeleteRule Property Example (VB)
-=======
-# <a name="deleterule-property-example-vb"></a>Пример свойства DeleteRule (VB)
->>>>>>> master
+# <a name="deleterule-property-example-vb"></a>Пример использования свойства DeleteRule (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [DeleteRule](deleterule-property-adox.md) объекта [ключа](key-object-adox.md) . Код добавляет новую [таблицу](table-object-adox.md) и затем определяет первичный ключ, установка для **DeleteRule** **adRICascade**.
 

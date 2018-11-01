@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249229(v=office.15)
 ms:contentKeyID: 48544665
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 021b7d92c97a343e74068c41cae29acbb059855b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e87035c751bf5542a13ab7e750415a990a14adf7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862511"
+ms.locfileid: "25885369"
 ---
 # <a name="resync-method-example-vc"></a>Пример использования метода Resync (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано использование метода [выполнить повторную синхронизацию](resync-method-ado.md) для обновления данных в статических записей.
 

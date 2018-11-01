@@ -1,26 +1,24 @@
 ---
-title: Microsoft OLE DB Provider for Microsoft Indexing Service
+title: Поставщик Microsoft OLE DB для службы индексирования (Майкрософт)
 TOCTitle: Microsoft OLE DB Provider for Microsoft Indexing Service
 ms:assetid: 01c2e75c-950a-dd8a-2b20-bbd916315ec5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e41633ddb2730af66ddeee400ad035d5a17ed90d
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: ac8225430d35d18df224dcfe42e59181a76407cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607055"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871537"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Microsoft OLE DB Provider for Microsoft Indexing Service
+# <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Поставщик Microsoft OLE DB для службы индексирования (Майкрософт)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-<<<<<<< HEAD поставщик Microsoft OLE DB для службы индексирования Майкрософт предоставляет программный доступ только для чтения к файловой системе и данных веб-службой индексирования Microsoft. ADO приложений можно выполнять запросы SQL для извлечения сведений содержимое и файлы.
-=== Microsoft поставщика OLE DB для служб индексирования Microsoft позволяет получать доступ только для чтения к файловой системы и веб-данных, службой индексирования Microsoft. ADO приложений можно выполнять запросы SQL для извлечения сведений содержимое и файлы.
->>>>>>> master
+Поставщик Microsoft OLE DB для служб индексирования Microsoft позволяет получать доступ только для чтения к файловой системы и веб-данных, службой индексирования Microsoft. ADO приложений можно выполнять запросы SQL для извлечения сведений содержимое и файлы.
 
 Поставщик свободных потоков и Юникод.
 

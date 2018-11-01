@@ -1,5 +1,5 @@
 ---
-title: SaveObject Macro Action
+title: Действия макроса SaveObject
 TOCTitle: SaveObject Macro Action
 ms:assetid: 85716dfc-f76f-ca47-cc40-f8f88162f85a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196789(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 107b9b97b22f01b1caaf09ae10936abd8484684f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f5cbb47c8c4b1ecc4990ca53835f8ae9f7ed4d1b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481719"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886573"
 ---
-# <a name="saveobject-macro-action"></a>SaveObject Macro Action
+# <a name="saveobject-macro-action"></a>Действия макроса SaveObject
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **SaveObject** можно использовать для сохранения указанный объект доступа или активного объекта, если он не задан. Можно также сохранить активного объекта под новым именем, в некоторых случаях (это работает так же, как команды **Сохранить как** в панели **Быстрого доступа**).
 

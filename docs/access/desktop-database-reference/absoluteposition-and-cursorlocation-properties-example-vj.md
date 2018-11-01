@@ -1,16 +1,21 @@
 ---
-<<<<<<< Название HEAD: AbsolutePosition и TOCTitle пример свойств CursorLocation (VJ ++): AbsolutePosition и пример: свойства CursorLocation (VJ ++) ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15) MS:contentKeyID: 48544223 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств AbsolutePosition и CursorLocation (VJ++)
+TOCTitle: AbsolutePosition and CursorLocation properties example (VJ++)
+ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15)
+ms:contentKeyID: 48544223
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 9b936aa8fd2c733e35be144072c3648dbbbe8a15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867477"
 ---
+# <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a>Пример использования свойств AbsolutePosition и CursorLocation (VJ++)
 
-# <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a>AbsolutePosition and CursorLocation Properties Example (VJ++)
-
-=== Название: пример: свойства AbsolutePosition и CursorLocation (VJ ++) TOCTitle: AbsolutePosition и CursorLocation ms:assetid пример (VJ ++) свойства: 38872022-8a65-680f-20af-086e4d9d7b6a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15) ms:contentKeyID: 48544223 MS.Date: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a>Пример: свойства AbsolutePosition и CursorLocation (VJ ++)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) можно отслеживать цикл, который перечисляет все записи из [набора записей](recordset-object-ado.md). Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойство **AbsolutePosition** , установив курсор на курсор клиента.
 

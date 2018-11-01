@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249299(v=office.15)
 ms:contentKeyID: 48544996
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 559d2ea0ccf1cb34e801d75657695f191ef7076b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 95b16ba79a90765be9c6850c6aea6a000993f695
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480564"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880427"
 ---
-# <a name="types-of-cursors"></a>Types of Cursors
+# <a name="types-of-cursors"></a>Типы курсоров
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Как правило в приложении следует использовать простой курсор, который предоставляет доступ требуемых данных. Каждой из которых дополнительные курсор от простого к сложному (только вперед, только для чтения, static, прокрутки, небуферизованные) имеет цену — в памяти клиента, сетевой нагрузки и производительности. Во многих случаях параметры курсора по умолчанию создать более сложных курсор не фактически приложению.
 

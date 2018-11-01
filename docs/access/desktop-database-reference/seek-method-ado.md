@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c4ad4376eb50c9eeec0efa6db0c0e9446cd0860
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fb6a5a72474b8d19efe1dd155950fa9e3ecd8714
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482529"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889520"
 ---
-# <a name="seek-method-ado"></a>Seek Method (ADO)
+# <a name="seek-method-ado"></a>Способ (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство точности (ADO): свойство точности (ADO) === название: свойство точности (ADO) TOCTitle: свойство точности (ADO)
->>>>>>> главные ms:assetid: c9d54d78-d5a5-caf8-d635-259d1fcc0595 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249983(v=office.15) ms:contentKeyID: 48547685 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство Precision (ADO)
+TOCTitle: Precision property (ADO)
+ms:assetid: c9d54d78-d5a5-caf8-d635-259d1fcc0595
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249983(v=office.15)
+ms:contentKeyID: 48547685
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: db2000c2db48215df42b5cd81fb35be0f0c4be9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869962"
 ---
-
-<<<<<<< HEAD
-# <a name="precision-property-ado"></a>Precision Property (ADO)
-=======
-# <a name="precision-property-ado"></a>Свойство точности (ADO)
->>>>>>> master
+# <a name="precision-property-ado"></a>Свойство Precision (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает погрешность числовых значений в объект [параметра](parameter-object-ado.md) или для объектов числового [поля](field-object-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает **битное** значение, указывающее максимальное число знаков, используемых для представления значений.
 

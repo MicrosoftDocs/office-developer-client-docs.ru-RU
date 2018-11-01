@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ee9afcd5367135da2d39fe889d17d089ae6f4c25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7d35f4acb97871f9d7499b67817c6c88ae56f441
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480105"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871901"
 ---
 # <a name="recordset2type-property-dao"></a>Recordset2.Type Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Только для чтения **целое число**.
 

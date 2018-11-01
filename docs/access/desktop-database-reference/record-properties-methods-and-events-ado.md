@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
 ms:contentKeyID: 48547573
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f04b2a246824923a2149ed7bb4d5eacffd112b8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 56fd6a124e4491e53bb3bfabcd43c08269f1da7f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479769"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886468"
 ---
 # <a name="record-properties-methods-and-events-ado"></a>Record Properties, Methods, and Events (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Свойства и коллекции
 
@@ -32,7 +32,7 @@ ms.locfileid: "25479769"
 
 - [Свойство типом записи](recordtype-property-ado.md)
 
-- [Source Property (ADO Record)](source-property-ado-record.md)
+- [Свойство Source (ADO запись)](source-property-ado-record.md)
 
 - [Свойство State](state-property-ado.md)
 
@@ -50,9 +50,9 @@ ms.locfileid: "25479769"
 
 - [Метод MoveRecord](moverecord-method-ado.md)
 
-- [Open Method (ADO Record)](open-method-ado-record.md)
+- [Метод Open (ADO запись)](open-method-ado-record.md)
 
-## <a name="events"></a>События
+## <a name="events"></a>Мероприятия
 
 Нет.
 

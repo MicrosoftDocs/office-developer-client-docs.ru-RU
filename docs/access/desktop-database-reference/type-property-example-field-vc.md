@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства типа (поле) (VC ++) TOCTitle: пример свойства типа (поле) (VC ++) === название: пример свойства типа (поле) (VC ++) TOCTitle: пример свойства типа (поле) (VC ++)
->>>>>>> главные ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID: 48547858 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Type (Field) (VC++)
+TOCTitle: Type property example (Field) (VC++)
+ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
+ms:contentKeyID: 48547858
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bf9a00e4fafeccf5e284599ec55f9252e8bde568
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884511"
 ---
-
-<<<<<<< HEAD
-# <a name="type-property-example-field-vc"></a>Type Property Example (Field) (VC++)
-=======
-# <a name="type-property-example-field-vc"></a>Пример свойства типа (поле) (VC ++)
->>>>>>> master
+# <a name="type-property-example-field-vc"></a>Пример использования свойства Type (Field) (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано свойство [типа](type-property-ado.md) , отображая имя константы, соответствующее значение свойства **типа** всех объектов [поля](field-object-ado.md) в таблице ***сотрудников*** . Функция FieldType является обязательным для выполнения этой процедуры.
 

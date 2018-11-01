@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a93fb7fd333156c6939311c0e247f4b5f8aec16
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: efff94e9f86d1fac7fd8b3716b1df2029bd32eb9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607041"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876388"
 ---
-# <a name="clone-method-ado"></a>Clone Method (ADO)
+# <a name="clone-method-ado"></a>Клонирование метод (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
@@ -26,11 +26,7 @@ ms.locfileid: "25607041"
 
 **Установка** *rstDuplicate*  =  *rstOriginal*. Копия (*LockType для*)
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Возвращает ссылку на объект **набора записей** .
 

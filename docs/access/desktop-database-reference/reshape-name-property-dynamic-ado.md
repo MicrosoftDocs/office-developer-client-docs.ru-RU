@@ -1,30 +1,26 @@
 ---
-title: Reshape Name Property--Dynamic (ADO)
+title: Изменение формы свойство Name — динамической (ADO)
 TOCTitle: Reshape Name Property--Dynamic (ADO)
 ms:assetid: 59ef99c8-da40-5cf6-b987-d47ea1433f45
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249307(v=office.15)
 ms:contentKeyID: 48545030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bebdec8bdc68724522331714052a0079f75b28e3
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 1b2797d5e77e30a9e92639920960796a9d6cae52
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603170"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872146"
 ---
-# <a name="reshape-name-property--dynamic-ado"></a>Reshape Name Property--Dynamic (ADO)
+# <a name="reshape-name-property--dynamic-ado"></a>Изменение формы свойство Name — динамической (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает имя для объекта [набора записей](recordset-object-ado.md) .
 
-<<<<<<< HEAD
-## <a name="return-values"></a>Return Values
-=======
 ## <a name="return-values"></a>Возвращаемые значения
->>>>>>> master
 
 Возвращает значение типа **String** , — это имя **набора записей**.
 

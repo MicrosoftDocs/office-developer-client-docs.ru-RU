@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836981(v=office.15)
 ms:contentKeyID: 48548803
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce18de3d09d90d4a9ed0e9477948a4f65b6e10bf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0e5f8f28ebb987f51a7f88aa2f5dbe4556299bbb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482986"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884676"
 ---
 # <a name="complextypefields-property-dao"></a>ComplexType.Fields Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает коллекцию **полей** , представляющую все хранятся объекты **поля** для указанного объекта. Только для чтения.
 

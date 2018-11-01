@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053171
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7ded35253f0cea2243076db6a12caeeee22ecd09
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 44981d8c19f76ee0a1d6df5fbdaeb72b35357336
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480346"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886937"
 ---
 # <a name="recordsetcachestart-property-dao"></a>Recordset.CacheStart Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, указывающее закладки для первой записи в объекте типа динамического набора записей, содержащий данные для локально кэшировать из источника данных ODBC (только для рабочих областей Microsoft Access).
 

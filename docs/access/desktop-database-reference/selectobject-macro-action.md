@@ -1,5 +1,5 @@
 ---
-title: SelectObject Macro Action
+title: Действия SelectObject макроса
 TOCTitle: SelectObject Macro Action
 ms:assetid: a90539a0-c5a0-e997-9c25-e0972d28f2a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821420(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c0e1c538f873143d3d6c7b97eda34d068761852a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 655b5c9273e84be3365116c2e7b93c657c0d732f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479785"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884060"
 ---
-# <a name="selectobject-macro-action"></a>SelectObject Macro Action
+# <a name="selectobject-macro-action"></a>Действия SelectObject макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **ВыделитьОбъект** можно использовать для выбора объекта указанной базы данных.
 

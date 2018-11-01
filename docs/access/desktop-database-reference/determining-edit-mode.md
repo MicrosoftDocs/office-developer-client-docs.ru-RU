@@ -1,22 +1,22 @@
 ---
-title: Determining Edit Mode
+title: Определение режима правки
 TOCTitle: Determining Edit Mode
 ms:assetid: 45e21fa7-94e8-3449-e062-09cbcf15cba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249215(v=office.15)
 ms:contentKeyID: 48544563
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53167d7438ecce673fed64f3c7b8d53fbbfbaa5d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: facad27e4579a28f45d88bfd4e440e420e70d913
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483078"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867939"
 ---
-# <a name="determining-edit-mode"></a>Determining Edit Mode
+# <a name="determining-edit-mode"></a>Определение режима правки
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ADO поддерживает редактирования буфера, связанного с текущей записи. Свойство **EditMode** указывает ли изменения были внесены в этот буфер или создан ли новую запись. Использование **EditMode** для определения статуса редактирования текущей записи. Можно проверить наличие ожидающих изменений, если редактирования процесс был прерван и определите, нужно ли использовать **обновления** или метод **CancelUpdate** .
 

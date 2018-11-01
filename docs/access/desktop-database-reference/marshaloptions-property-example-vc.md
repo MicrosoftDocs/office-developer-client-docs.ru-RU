@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства MarshalOptions (VC ++) TOCTitle: пример свойства MarshalOptions (VC ++) === название: пример свойства MarshalOptions (VC ++) TOCTitle: пример свойства MarshalOptions (VC ++)
->>>>>>> главные ms:assetid: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15) ms:contentKeyID: 48546236 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства MarshalOptions (VC++)
+TOCTitle: MarshalOptions property example (VC++)
+ms:assetid: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15)
+ms:contentKeyID: 48546236
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3d5043e104b9fd424cd1c13b641dc69cc32b6c91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881526"
 ---
-
-<<<<<<< HEAD
-# <a name="marshaloptions-property-example-vc"></a>MarshalOptions Property Example (VC++)
-=======
-# <a name="marshaloptions-property-example-vc"></a>Пример свойства MarshalOptions (VC ++)
->>>>>>> master
+# <a name="marshaloptions-property-example-vc"></a>Пример использования свойства MarshalOptions (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [MarshalOptions](marshaloptions-property-ado.md) , чтобы указать, какие строки отправляются на сервер — всех или только измененные строк.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства источника (VJ ++) TOCTitle: пример свойства источника (VJ ++) === название: пример свойства источника (VJ ++) TOCTitle: пример свойства источника (VJ ++)
->>>>>>> главные ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID: 48547821 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Source (VJ++)
+TOCTitle: Source property example (VJ++)
+ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
+ms:contentKeyID: 48547821
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 032a6804d2976ac6eca1c4fc24cff0555aa949cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875716"
 ---
-
-<<<<<<< HEAD
-# <a name="source-property-example-vj"></a>Source Property Example (VJ++)
-=======
-# <a name="source-property-example-vj"></a>Пример свойства источника (VJ ++)
->>>>>>> master
+# <a name="source-property-example-vj"></a>Пример использования свойства Source (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано свойство [Source](source-property-ado-recordset.md) , открыв три объекты [набора записей](recordset-object-ado.md) по различным источникам данных.
 

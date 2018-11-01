@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052925
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d396c830ecaffd1f1c2d8d57f509baaa9171ae9a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cbcd456e2c3d64364a7c01ea71174999159f0aa4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483243"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881722"
 ---
 # <a name="tabledefvalidationrule-property-dao"></a>TableDef.ValidationRule Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, которое проверяет данные в поля, как она изменен или добавлен в таблицу (только для рабочих областей Microsoft Access). Чтение и запись **строки**.
 

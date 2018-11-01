@@ -1,5 +1,5 @@
 ---
-title: MaximizeWindow Macro Action
+title: Действия макроса MaximizeWindow
 TOCTitle: MaximizeWindow Macro Action
 ms:assetid: 79c9e430-07a7-02b2-ff5a-c6b9ec32c5b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196171(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm196948
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b612d050d6c523ae836b21aa27826ff180e8f977
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 110262c9aee48fc24858150714194953136fa835
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481249"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867274"
 ---
-# <a name="maximizewindow-macro-action"></a>MaximizeWindow Macro Action
+# <a name="maximizewindow-macro-action"></a>Действия макроса MaximizeWindow
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Если доступа настроены на использование перекрывающиеся windows вместо вкладками, можно использовать действие **MaximizeWindow** увеличить размер активного окна, чтобы он заполняет окна клиента. Это действие позволит увидеть столько объекта в активном окне ответов.
 

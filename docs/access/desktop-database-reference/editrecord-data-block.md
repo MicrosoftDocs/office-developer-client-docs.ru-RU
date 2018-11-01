@@ -1,21 +1,21 @@
 ---
-title: EditRecord Data Block
+title: Блок данных EditRecord
 TOCTitle: EditRecord Data Block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 07763e32e0f8687816dc39298f91733ca814d275
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c4d5a5a1565aeda41e5a52127e9f82b5304e686
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479802"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876885"
 ---
-# <a name="editrecord-data-block"></a>EditRecord Data Block
+# <a name="editrecord-data-block"></a>Блок данных EditRecord
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы изменить значения, содержащиеся в существующей записи можно использовать блок данных **ИзменитьЗапись** .
 
@@ -56,22 +56,22 @@ ms.locfileid: "25479802"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange Macro Action</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Действия макроса CancelRecordChange</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Comment Macro Statement</a></p></td>
+<td><p><a href="comment-macro-statement.md">Оператор комментария макросов</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-macro-statement.md">Group Macro Statement</a></p></td>
+<td><p><a href="group-macro-statement.md">Оператор группы макросов</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="if-then-else-macro-block.md">If... Затем... Оператор Else макросов</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="setfield-macro-action.md">SetField Macro Action</a></p></td>
+<td><p><a href="setfield-macro-action.md">Действия SetField макроса</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="setlocalvar-macro-action.md">SetLocalVar Macro Action</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Действия макроса SetLocalVar</a></p></td>
 </tr>
 </tbody>
 </table>

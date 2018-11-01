@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle пример свойства элемента (VJ ++): пример свойства элемента (VJ ++) === название: пример свойства элемента (VJ ++) TOCTitle: пример свойства элемента (VJ ++)
->>>>>>> главные ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15) ms:contentKeyID: 48547461 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Item (VJ++)
+TOCTitle: Item property example (VJ++)
+ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15)
+ms:contentKeyID: 48547461
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 672eb8582f5e412a026be68cd9c56ddd603d2ac0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889660"
 ---
-
-<<<<<<< HEAD
-# <a name="item-property-example-vj"></a>Item Property Example (VJ++)
-=======
-# <a name="item-property-example-vj"></a>Пример свойства элемента (VJ ++)
->>>>>>> master
+# <a name="item-property-example-vj"></a>Пример использования свойства Item (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции. В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.
 

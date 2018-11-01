@@ -1,5 +1,5 @@
 ---
-title: Before Delete Macro Event
+title: Прежде чем удалить макрос события
 TOCTitle: Before Delete Macro Event
 ms:assetid: 1a8d3457-5c59-d13e-ada9-6ecd33dfd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845672(v=office.15)
@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm186077
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7863f8500a81014f3c70b5547fb363c46803f4f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ee4878a742454eb1b02f4b9a45c14ad79097c46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482019"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876262"
 ---
-# <a name="before-delete-macro-event"></a>Before Delete Macro Event
+# <a name="before-delete-macro-event"></a>Прежде чем удалить макрос события
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **Прежде чем удалить** событие происходит при удалении записи, но перед сохранением изменений.
 
@@ -58,15 +58,15 @@ ms.locfileid: "25482019"
 <tbody>
 <tr class="odd">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="comment-macro-statement.md">Comment Macro Statement</a></p></td>
+<td><p><a href="comment-macro-statement.md">Оператор комментария макросов</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="group-macro-statement.md">Group Macro Statement</a></p></td>
+<td><p><a href="group-macro-statement.md">Оператор группы макросов</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="if-then-else-macro-block.md">If...Then...Else Macro Block</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... Затем... Блок else макросов</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
@@ -74,23 +74,23 @@ ms.locfileid: "25482019"
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">ClearMacroError Macro Action</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Действия макроса ClearMacroError</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="onerror-macro-action.md">OnError Macro Action</a></p></td>
+<td><p><a href="onerror-macro-action.md">Действия макроса OnError</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="raiseerror-macro-action.md">RaiseError Macro Action</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">Действия макроса RaiseError</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setlocalvar-macro-action.md">SetLocalVar Macro Action</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Действия макроса SetLocalVar</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">Действия ОстановитьМакрос макроса</a></p></td>
 </tr>
 </tbody>
 </table>

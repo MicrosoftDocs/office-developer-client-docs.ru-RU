@@ -1,16 +1,22 @@
 ---
-<<<<<<< HEAD заголовок: фильтр и TOCTitle пример свойства RecordCount (VB): фильтр и пример свойства RecordCount (VB) === заголовок: пример свойства фильтра и RecordCount (VB) TOCTitle: свойства фильтра и RecordCount Пример (VB)
->>>>>>> главные ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID: 48544354 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств Filter и RecordCount (VB)
+TOCTitle: Filter and RecordCount properties example (VB)
+ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
+ms:contentKeyID: 48544354
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3fe5065c75408e7093fbd2b39e7a84400d648e99
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873168"
 ---
-
-<<<<<<< HEAD
-# <a name="filter-and-recordcount-properties-example-vb"></a>Filter and RecordCount Properties Example (VB)
-=======
-# <a name="filter-and-recordcount-properties-example-vb"></a>Пример свойства фильтра и RecordCount (VB)
->>>>>>> master
+# <a name="filter-and-recordcount-properties-example-vb"></a>Пример использования свойств Filter и RecordCount (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере откройте **записей** в таблице издателей в базе данных ***Pubs*** . Затем свойство [фильтра](filter-property-ado.md) используется для ограничения числа видимых записей для этих издателей в определенной стране или регионе. Свойство **RecordCount** используется для отображения различие между отфильтрованные и неотфильтрованные наборы записей.
 

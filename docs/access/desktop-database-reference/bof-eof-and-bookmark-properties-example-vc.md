@@ -1,16 +1,22 @@
 ---
-<<<<<<< HEAD заголовок: BOF, EOF и TOCTitle пример свойств закладок (VC ++): BOF, EOF и пример свойств закладок (VC ++) === заголовок: пример: свойства BOF, EOF и закладок (VC ++) TOCTitle: свойства BOF, EOF и закладка Пример (VC ++)
->>>>>>> главные ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15) ms:contentKeyID: 48547914 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств BOF, EOF и Bookmark (VC++)
+TOCTitle: BOF, EOF, and Bookmark properties example (VC++)
+ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
+ms:contentKeyID: 48547914
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0465c14c8dc95becd7ddf7a28eae9db811d51e32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886986"
 ---
-
-<<<<<<< HEAD
-# <a name="bof-eof-and-bookmark-properties-example-vc"></a>BOF, EOF, and Bookmark Properties Example (VC++)
-=======
-# <a name="bof-eof-and-bookmark-properties-example-vc"></a>Пример: свойства BOF, EOF и закладок (VC ++)
->>>>>>> master
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a>Пример использования свойств BOF, EOF и Bookmark (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Первая функция в этом примере свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) используется для отображения сообщения, если пользователь пытается пропустить первой или последней записи из [набора записей](recordset-object-ado.md). Для оповещения пользователя помечает записи в наборе **записей** и вернуться к нему позже используется свойство [Закладка](bookmark-property-ado.md) .
 

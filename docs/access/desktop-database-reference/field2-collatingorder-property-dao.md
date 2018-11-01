@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834380(v=office.15)
 ms:contentKeyID: 48547709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1749b6f5b4c96c55f0256971d619bec17430f410
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 508f7f758d682dec0f1557f8a3f4dc2845e20a39
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480340"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870769"
 ---
 # <a name="field2collatingorder-property-dao"></a>Field2.CollatingOrder Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает значение, указывающее последовательность порядок сортировки в текст для сравнения строк или сортировка (только для рабочих областей Microsoft Access). Только для чтения **времени**.
 

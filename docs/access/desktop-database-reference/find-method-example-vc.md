@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250114(v=office.15)
 ms:contentKeyID: 48548137
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09c7ad1a5fc78f1e41767a6bded2d05de94319a0
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 67bc5d598352f1b56e7290b1f72d113fcf8de748
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861850"
+ms.locfileid: "25871348"
 ---
 # <a name="find-method-example-vc"></a>Пример использования метода Find (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере метод объекта [набора записей](recordset-object-ado.md) [Поиск](find-method-ado.md) для поиска и определения числа business заголовков в базе данных ***Pubs*** . Предполагается, что основной поставщик не поддерживает же возможности.
 

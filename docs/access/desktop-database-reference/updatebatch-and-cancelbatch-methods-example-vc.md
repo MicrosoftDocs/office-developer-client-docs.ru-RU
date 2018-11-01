@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249227(v=office.15)
 ms:contentKeyID: 48544651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ea8a1cee322798545e9727f61dc4426186e0e3c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: eb6d2b9e03ab5f23ef1c31b9656797359ec53d27
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861927"
+ms.locfileid: "25872356"
 ---
 # <a name="updatebatch-and-cancelbatch-methods-example-vc"></a>Пример использования методов UpdateBatch и CancelBatch (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется использование метода [UpdateBatch](updatebatch-method-ado.md) в сочетании с методом [CancelBatch](cancelbatch-method-ado.md) .
 

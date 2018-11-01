@@ -1,22 +1,22 @@
 ---
-title: Dimension Object (ADO MD)
+title: Объект измерения (ADO MD)
 TOCTitle: Dimension Object (ADO MD)
 ms:assetid: 12f43cfc-c74e-a2e8-7f6e-75fc68472c4b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248902(v=office.15)
 ms:contentKeyID: 48543355
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15ae89905c9ca82c4c41701c4ed713c02722e322
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e3581f9bce5e2e56b341928df3415a1b9b223beb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479815"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872888"
 ---
-# <a name="dimension-object-ado-md"></a>Dimension Object (ADO MD)
+# <a name="dimension-object-ado-md"></a>Объект измерения (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет один из измерения многомерного куба, содержащего иерархии один или несколько элементов.
 

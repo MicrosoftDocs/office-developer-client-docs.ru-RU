@@ -1,22 +1,22 @@
 ---
-title: Marking Business Objects as Safe for Scripting
+title: Пометка бизнес-объектов как безопасных для написания скриптов
 TOCTitle: Marking Business Objects as Safe for Scripting
 ms:assetid: 8ee49aec-672d-96f7-baa6-9261317a4d90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7ac928f7e61cf633aac6963565cf3aae441a2ac6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 195e9fc25e3aa8871233ebe60441d29909b31a48
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482575"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878313"
 ---
-# <a name="marking-business-objects-as-safe-for-scripting"></a>Marking Business Objects as Safe for Scripting
+# <a name="marking-business-objects-as-safe-for-scripting"></a>Пометка бизнес-объектов как безопасных для написания скриптов
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы обеспечить надлежащую безопасной среде Интернета, нужно пометить любой бизнес-объекты с [RDS. экземпляр Пространства данных](dataspace-object-rds.md) метод [CreateObject](createobject-method-rds.md) объекта как «безопасные для скриптов». Необходимо убедиться, что они помечены как таковым в области лицензии системного реестра перед их можно использовать в DCOM.
 

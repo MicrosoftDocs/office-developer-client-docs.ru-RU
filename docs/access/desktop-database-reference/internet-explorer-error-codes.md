@@ -1,22 +1,22 @@
 ---
-title: Internet Explorer Error Codes
+title: Коды ошибок Internet Explorer
 TOCTitle: Internet Explorer Error Codes
 ms:assetid: 776580d5-05fc-aa7a-d066-530d887a2a64
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249489(v=office.15)
 ms:contentKeyID: 48545726
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5f4dca3854712b16faa4cd11305cd55497fc03f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2818fb05d5842c7f465bd47d1ce7eaa28ea00365
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480743"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882016"
 ---
-# <a name="internet-explorer-error-codes"></a>Internet Explorer Error Codes
+# <a name="internet-explorer-error-codes"></a>Коды ошибок Internet Explorer
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В следующей таблице перечислены коды ошибок Microsoft Internet Explorer, связанные с удаленной службы данных об использовании. Положительное десятичное перевода низкой два байта, показаны отрицательные decimal перевода код полного ошибки и шестнадцатеричные значения.
 

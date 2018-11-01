@@ -1,21 +1,21 @@
 ---
-title: Making a Connection
+title: Создание подключения
 TOCTitle: Making a Connection
 ms:assetid: 188f6794-f4ec-8e8d-5adc-bdee36f4c9ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248932(v=office.15)
 ms:contentKeyID: 48543472
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1deaeb3f636c95da2aec6a3cbf3a2d097455e36
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7bd99419a841a8fa876dd0ad30b4d06360a27df1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480791"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882051"
 ---
-# <a name="making-a-connection"></a>Making a Connection
+# <a name="making-a-connection"></a>Создание подключения
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Для подключения к источнику данных, необходимо указать *строку подключения*, параметры которого может отличаться для каждого поставщика и источника данных. [Строка подключения](creating-the-connection-string.md)для получения дополнительных сведений см.
 

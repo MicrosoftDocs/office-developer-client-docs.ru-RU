@@ -1,5 +1,5 @@
 ---
-title: RunSavedImportExport Macro Action
+title: Действия макроса RunSavedImportExport
 TOCTitle: RunSavedImportExport Macro Action
 ms:assetid: b2449c51-ee20-6e50-87f3-a45adc0b0dde
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822018(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm3022
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0afff780714f8be943a2b0b7d744d6118fcacf88
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 48e808fa27e468dd7cb651cb5784627d5064fea0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482097"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870935"
 ---
-# <a name="runsavedimportexport-macro-action"></a>RunSavedImportExport Macro Action
+# <a name="runsavedimportexport-macro-action"></a>Действия макроса RunSavedImportExport
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **RunSavedImportExport** можно использовать для запуска сохраненного импорта или экспорта спецификации, в которой была создана с помощью мастера импорта или мастер экспорта.
 

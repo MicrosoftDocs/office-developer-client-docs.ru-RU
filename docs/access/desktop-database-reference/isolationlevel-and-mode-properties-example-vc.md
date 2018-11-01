@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: IsolationLevel и TOCTitle пример свойств Mode (VC ++): IsolationLevel и пример свойств Mode (VC ++) === название: пример: свойства IsolationLevel и режиме (VC ++) TOCTitle: IsolationLevel и режим Пример: свойства (VC ++)
->>>>>>> главные ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15) ms:contentKeyID: 48546050 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств IsolationLevel и Mode (VC++)
+TOCTitle: IsolationLevel and Mode properties example (VC++)
+ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15)
+ms:contentKeyID: 48546050
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 23426be11226feeb4c922d55aa7fec8fd4821cfc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871411"
 ---
-
-<<<<<<< HEAD
-# <a name="isolationlevel-and-mode-properties-example-vc"></a>IsolationLevel and Mode Properties Example (VC++)
-=======
-# <a name="isolationlevel-and-mode-properties-example-vc"></a>Пример: свойства IsolationLevel и режиме (VC ++)
->>>>>>> master
+# <a name="isolationlevel-and-mode-properties-example-vc"></a>Пример использования свойств IsolationLevel и Mode (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [Mode](mode-property-ado.md) открыть исключительных подключение и свойство [IsolationLevel](isolationlevel-property-ado.md) для открытия транзакций, которая проводится по отдельности других операций.
 

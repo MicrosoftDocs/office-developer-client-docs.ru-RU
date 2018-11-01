@@ -1,5 +1,5 @@
 ---
-title: GoToRecord Macro Action
+title: Действия НаЗапись макроса
 TOCTitle: GoToRecord Macro Action
 ms:assetid: 76f936de-739b-63be-9b28-5b0e111408e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196037(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f7094d95053e97180526523fd41862dfeb100c86
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 702910c12f0954b8d5cf8c0c49395cb65b8c661d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482375"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879860"
 ---
-# <a name="gotorecord-macro-action"></a>GoToRecord Macro Action
+# <a name="gotorecord-macro-action"></a>Действия НаЗапись макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Можно использовать действие **НаЗапись** чтобы сделать указанной записи текущей открытой таблицы, формы или набора результатов запроса.
 

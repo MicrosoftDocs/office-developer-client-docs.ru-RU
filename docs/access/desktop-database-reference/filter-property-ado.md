@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство фильтра (ADO): свойство фильтра (ADO) === заголовок: фильтровать свойство (ADO) TOCTitle: фильтрации свойство (ADO)
->>>>>>> главные ms:assetid: 5abc528a-a6ee-34de-5d44-a3249194b0a0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15) ms:contentKeyID: 48545053 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство Filter (ADO)
+TOCTitle: Filter property (ADO)
+ms:assetid: 5abc528a-a6ee-34de-5d44-a3249194b0a0
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
+ms:contentKeyID: 48545053
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8c6e9b7a77a71acdb50536e21d9f6278dd127d75
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888666"
 ---
-
-<<<<<<< HEAD
-# <a name="filter-property-ado"></a>Filter Property (ADO)
-=======
-# <a name="filter-property-ado"></a>Свойства фильтра (ADO)
->>>>>>> master
+# <a name="filter-property-ado"></a>Свойство Filter (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает фильтр для данных в [набор записей](recordset-object-ado.md).
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает значение **типа Variant** , который может содержать один из следующих:
 

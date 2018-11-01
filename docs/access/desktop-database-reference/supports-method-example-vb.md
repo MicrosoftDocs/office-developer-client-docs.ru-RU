@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249438(v=office.15)
 ms:contentKeyID: 48545518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d3ea5bf64eb4897dab60a8f80e0691a1d1538126
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 306dc8e2a6f0ea89b25a178dde3b879a86fa623c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860359"
+ms.locfileid: "25886083"
 ---
 # <a name="supports-method-example-vb"></a>Пример использования метода Supports (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется метод [поддерживает](supports-method-ado.md) для отображения параметров, поддерживаемый набор записей, открытый с типами другой курсор. Процедура DisplaySupport является обязательным для выполнения этой процедуры.
 
