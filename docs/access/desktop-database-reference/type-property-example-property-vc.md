@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства типа (свойство) (VC ++) TOCTitle: пример свойства типа (свойство) (VC ++) === название: пример свойства типа (свойство) (VC ++) TOCTitle: пример свойства типа (свойство) (VC ++)
->>>>>>> главные ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: 48548168 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Type (Property) (VC++)
+TOCTitle: Type property example (Property) (VC++)
+ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
+ms:contentKeyID: 48548168
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 21c0f6044b0c59949984a35e6f6d4b51c80b1801
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868429"
 ---
-
-<<<<<<< HEAD
-# <a name="type-property-example-property-vc"></a>Type Property Example (Property) (VC++)
-=======
-# <a name="type-property-example-property-vc"></a>Пример свойства типа (свойство) (VC ++)
->>>>>>> master
+# <a name="type-property-example-property-vc"></a>Пример использования свойства Type (Property) (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано свойство [типа](type-property-ado.md) . Это модель служебной программы для список имен и типы семейства сайтов, как [Свойства](properties-collection-ado.md), [поля](fields-collection-ado.md)и т.д.
 

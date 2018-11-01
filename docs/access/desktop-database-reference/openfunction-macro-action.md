@@ -1,5 +1,5 @@
 ---
-title: OpenFunction Macro Action
+title: Действия ОткрытьФункцию макроса
 TOCTitle: OpenFunction Macro Action
 ms:assetid: 0446dbb9-c342-9225-27ba-b8a6892030e1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844833(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a64d7c44afd1531e0abf90a0372d39c742cff946
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d7d6c719c535dabbf4fea1267d8ce7cf9ced9326
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481963"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882100"
 ---
-# <a name="openfunction-macro-action"></a>OpenFunction Macro Action
+# <a name="openfunction-macro-action"></a>Действия ОткрытьФункцию макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В проекте Microsoft Access можно использовать действие **ОткрытьФункцию** Открытие пользовательской функции в представлении таблицы данных, представление конструктора встроенные функции, представления SQL, текстовый редактор (для скалярные или таблице пользовательских функций), или режим предварительного просмотра. Это действие выполняется пользовательской функции при открытии в представлении таблицы данных. Также можно выбрать режим ввода данных для пользовательских функций и ограничить записи, которые отображаются пользовательских функций.
 

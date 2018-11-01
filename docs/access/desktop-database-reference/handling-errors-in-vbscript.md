@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85af8f8840cdc74494f29d169cbccb3ce38cc6b4
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: bc7f915b32c9a6bec79afe5de554bf7863030c03
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862218"
+ms.locfileid: "25869801"
 ---
 # <a name="handling-errors-in-vbscript"></a>Обработка ошибок на языке сценариев VBScript
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Отличается от методов, используемых в Visual Basic и тех, которые используются с помощью VBScript. Основное различие заключается в том, что VBScript не поддерживает концепцию ошибок с продолжение выполнения на метку. Другими словами On Error GoTo нельзя использовать в VBScript. Используйте в VBScript. Вместо этого используйте On Error Resume Next и затем проверить **Err.Number** и свойство **Count** коллекции **ошибок** , как показано в следующем примере:
 

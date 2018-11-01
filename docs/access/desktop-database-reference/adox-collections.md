@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
 ms:contentKeyID: 48547500
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b98460e9bcfb1003a8cda8e88784362a3f50d41
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e26031d6acaf958f1f715e210fa7bb8e4d3b9515
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483234"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879433"
 ---
-# <a name="adox-collections"></a>ADOX Collections
+# <a name="adox-collections"></a>ADOX семейств сайтов
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ ms.locfileid: "25483234"
 <td><p>Содержит все объекты <strong>в таблице</strong> каталога.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="users-collection-adox.md">пользователи</a>;</p></td>
+<td><p><a href="users-collection-adox.md">Пользователи</a></p></td>
 <td><p>Содержит все хранимые объектов <strong>пользователей</strong> из каталога или группы.</p></td>
 </tr>
 <tr class="even">

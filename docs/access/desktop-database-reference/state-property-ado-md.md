@@ -1,30 +1,26 @@
 ---
-title: State Property (ADO MD)
+title: Свойство состояний (ADO MD)
 TOCTitle: State Property (ADO MD)
 ms:assetid: 4df09f45-9b62-33ce-b4ed-230e41eaac7a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249249(v=office.15)
 ms:contentKeyID: 48544744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a389ad273c2d47405ff6dcec6f5b5c42fa0662b8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4bc1efc33aa263275ba50526ff682b64a229293f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602442"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885467"
 ---
-# <a name="state-property-ado-md"></a>State Property (ADO MD)
+# <a name="state-property-ado-md"></a>Свойство состояний (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает текущее состояние ячеек.
 
-<<<<<<< HEAD
-## <a name="return-values"></a>Return Values
-=======
 ## <a name="return-values"></a>Возвращаемые значения
->>>>>>> master
 
 Возвращает **длинное** целое число, указывающее текущее состояние объекта [ячеек](cellset-object-ado-md.md) и доступен только для чтения. Допустимыми являются следующие значения: **adStateClosed** (0) и **adStateOpen** (1).
 

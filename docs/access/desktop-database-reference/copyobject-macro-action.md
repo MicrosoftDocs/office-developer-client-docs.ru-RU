@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60c0204bd374feaa950d3158873f68127debaf0f
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 09edfd37edb5a0cb237bd94f7f13449690cf18bb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862550"
+ms.locfileid: "25868226"
 ---
 # <a name="copyobject-macro-action"></a>Действия КопироватьОбъект макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **КопироватьОбъект** можно использовать для копирования указанного объекта в другую базу данных Access или одной базы данных или проекта Access под новым именем. Например можно скопировать или резервное копирование существующего объекта в другую базу данных или быстро создать объект аналогичные с несколько изменений.
 

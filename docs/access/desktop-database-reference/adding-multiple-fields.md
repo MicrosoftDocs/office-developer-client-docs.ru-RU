@@ -1,22 +1,22 @@
 ---
-title: Adding Multiple Fields
+title: Добавление нескольких полей
 TOCTitle: Adding Multiple Fields
 ms:assetid: 81b2f9de-4805-4494-9990-09ffda1b2068
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249560(v=office.15)
 ms:contentKeyID: 48545961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b9bca4035917f4376ccf69201d79894a0273ceb9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 01330eeed2645a0bd76f6ac51e96542068b245e7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481806"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878978"
 ---
-# <a name="adding-multiple-fields"></a>Adding Multiple Fields
+# <a name="adding-multiple-fields"></a>Добавление нескольких полей
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В некоторых случаях может быть более эффективный для передачи в массиве полей и их соответствующие значения в метод **AddNew** , а не **для параметра несколько раз для каждого нового поля** . Если *FieldList* является массивом, *значения* также должны быть массив с числом участников; в противном случае возникает ошибка. Порядок имена полей должен совпадать с порядком значений полей в каждом массиве. Следующий код в метод **AddNew** передает массив полей и массив значений.
 

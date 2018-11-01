@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053080
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7b8ff4fa104dd153faf6eb1a50d2e922e5e5021d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e6169169b5152e47063e2f679f2494c87581eb02
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479979"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889352"
 ---
 # <a name="recordset2editmode-property-dao"></a>Recordset2.EditMode Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает значение, указывающее состояние редактирования для текущей записи.
 

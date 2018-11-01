@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
 ms:contentKeyID: 48548407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 987a6898143bccf9f9b169f4e76953e84dba8058
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: df0ab6516fbe2115abecf5105bde4ff0f790087b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481961"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873686"
 ---
 # <a name="connection-properties-methods-and-events-ado"></a>Connection Properties, Methods, and Events (ADO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Свойства и коллекции
 
@@ -55,11 +55,11 @@ ms.locfileid: "25481961"
 
 - [Выполнить метод (ADO-подключение)](https://msdn.microsoft.com/library/jj249832\(v=office.15\))
 
-- [Open Method (ADO Connection)](open-method-ado-connection.md)
+- [Метод Open (ADO-подключение)](open-method-ado-connection.md)
 
 - [Метод OpenSchema](openschema-method-ado.md)
 
-## <a name="events"></a>События
+## <a name="events"></a>Мероприятия
 
 - [BeginTransComplete, CommitTransComplete и RollbackTransComplete события](begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md)
 

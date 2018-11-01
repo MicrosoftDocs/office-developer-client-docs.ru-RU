@@ -1,23 +1,23 @@
 ---
-title: Общие сведения о справочнике клиента SQL
+title: Обзор справочника по Access SQL
 TOCTitle: Overview of the Access SQL reference
 ms:assetid: cbe45ec3-0f13-43cb-b18a-90481d89078f
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161402(v=office.15)
 ms:contentKeyID: 52074368
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88444bd34a9baba433fd47685db435b332379e4a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fc568e7cf6f277a0928dc9d29913f18785562044
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481734"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872265"
 ---
-# <a name="overview-of-the-access-sql-reference"></a>Общие сведения о справочнике клиента SQL
+# <a name="overview-of-the-access-sql-reference"></a>Обзор справочника по Access SQL
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-- [Статистические функции SQL](sql-aggregate-functions-sql.md)
+- [Агрегатные функции SQL](sql-aggregate-functions-sql.md)
 
 - [Выражения SQL](sql-expressions.md)
 
@@ -27,9 +27,9 @@ ms.locfileid: "25481734"
 
 - [Скалярные функции ODBC](odbc-scalar-functions.md)
 
-- [Comparison of Microsoft Access SQL and ANSI SQL](comparison-of-microsoft-access-sql-and-ansi-sql.md)
+- [Сравнение Microsoft Access SQL и ANSI SQL](comparison-of-microsoft-access-sql-and-ansi-sql.md)
 
 - [Эквивалентные типы данных ANSI SQL](equivalent-ansi-sql-data-types.md)
 
-- [Использование подстановочных знаков в сравнениях строк](using-wildcard-characters-in-string-comparisons.md)
+- [Использование подстановочных знаков при сравнении строк](using-wildcard-characters-in-string-comparisons.md)
 

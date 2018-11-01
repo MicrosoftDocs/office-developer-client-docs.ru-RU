@@ -1,24 +1,24 @@
 ---
-title: 'Этап 1: Настройка проекта Visual Basic'
+title: Этап 1. Настройка проекта Visual Basic
 TOCTitle: 'Step 1: Set Up the Visual Basic Project'
 ms:assetid: 1b8195c9-60c8-18a2-3fa2-ffdeed370748
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248954(v=office.15)
 ms:contentKeyID: 48543544
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f608d0dadb44a6ddea7a60123d2d6950bc9627cb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 31b81c762f192f8a56e56baf0c5e0ae5b6b6fadf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480636"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868653"
 ---
-# <a name="step-1-set-up-the-visual-basic-project"></a>Этап 1: Настройка проекта Visual Basic
+# <a name="step-1-set-up-the-visual-basic-project"></a>Этап 1. Настройка проекта Visual Basic
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-## <a name="step-1-set-up-the-visual-basic-project"></a>Этап 1: Настройка проекта Visual Basic
+## <a name="step-1-set-up-the-visual-basic-project"></a>Этап 1. Настройка проекта Visual Basic
 
 В этом сценарии предполагается, что у вас есть Microsoft Visual Basic 6.0 или более поздней версии, ADO 2.5 или более поздней версии и поставщик Microsoft OLE DB для публикации Интернет в системе.
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249669(v=office.15)
 ms:contentKeyID: 48546451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80b5123f8ba025bc94d607c3a9bb0017fbda4dc7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d377fe7a2fec2579b8ac1a5a5a71690fbe571e71
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25859981"
+ms.locfileid: "25886216"
 ---
 # <a name="move-method-example-vc"></a>Пример использования метода Move (VC++)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.
 

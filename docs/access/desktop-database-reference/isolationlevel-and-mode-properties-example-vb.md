@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: IsolationLevel и TOCTitle пример свойств Mode (VB): IsolationLevel и пример свойств Mode (VB) === название: пример свойства IsolationLevel и режиме (VB) TOCTitle: IsolationLevel и режим Пример: свойства (VB)
->>>>>>> главные ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15) ms:contentKeyID: 48546999 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств IsolationLevel и Mode (VB)
+TOCTitle: IsolationLevel and Mode properties example (VB)
+ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15)
+ms:contentKeyID: 48546999
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bda6536d76e488c4ede8aff20610bf3eca84210a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877718"
 ---
-
-<<<<<<< HEAD
-# <a name="isolationlevel-and-mode-properties-example-vb"></a>IsolationLevel and Mode Properties Example (VB)
-=======
-# <a name="isolationlevel-and-mode-properties-example-vb"></a>Пример свойства IsolationLevel и режиме (VB)
->>>>>>> master
+# <a name="isolationlevel-and-mode-properties-example-vb"></a>Пример использования свойств IsolationLevel и Mode (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [Mode](mode-property-ado.md) открыть исключительных подключение и свойство [IsolationLevel](isolationlevel-property-ado.md) для открытия транзакций, которая проводится по отдельности других операций.
 

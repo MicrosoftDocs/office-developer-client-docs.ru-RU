@@ -1,22 +1,22 @@
 ---
-title: LoadFromFile Method (ADO)
+title: Метод LoadFromFile (ADO)
 TOCTitle: LoadFromFile Method (ADO)
 ms:assetid: 33fd543f-bd24-9199-7540-2889b69221c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
 ms:contentKeyID: 48544123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a2a86e739b8744f40c481eb81b86f2f1ae5fad12
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 61244e989815d5c4ba1943e61aea7f6a6abf139d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479982"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872034"
 ---
-# <a name="loadfromfile-method-ado"></a>LoadFromFile Method (ADO)
+# <a name="loadfromfile-method-ado"></a>Метод LoadFromFile (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

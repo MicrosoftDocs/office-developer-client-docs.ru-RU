@@ -1,16 +1,22 @@
 ---
-<<<<<<< HEAD заголовок: фильтр и TOCTitle пример свойств RecordCount (VJ ++): фильтр и пример свойств RecordCount (VJ ++) === заголовок: пример свойств фильтра и RecordCount (VJ ++) TOCTitle: фильтр и RecordCount Пример: свойства (VJ ++)
->>>>>>> главные ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15) ms:contentKeyID: 48547798 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств Filter и RecordCount (VJ++)
+TOCTitle: Filter and RecordCount properties example (VJ++)
+ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15)
+ms:contentKeyID: 48547798
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 13d0173886b2b75d6e416d242eb6f437c97418ec
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884725"
 ---
-
-<<<<<<< HEAD
-# <a name="filter-and-recordcount-properties-example-vj"></a>Filter and RecordCount Properties Example (VJ++)
-=======
-# <a name="filter-and-recordcount-properties-example-vj"></a>Пример: свойства фильтра и RecordCount (VJ ++)
->>>>>>> master
+# <a name="filter-and-recordcount-properties-example-vj"></a>Пример использования свойств Filter и RecordCount (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [фильтра](filter-property-ado.md) для открытия нового [набора записей](recordset-object-ado.md) на основе указанного условия, применяемые к существующей **набора записей**. Свойство [RecordCount](recordcount-property-ado.md) используется для отображения количества записей в двух **наборов записей**. Функция FilterField является обязательным для выполнения этой процедуры.
 

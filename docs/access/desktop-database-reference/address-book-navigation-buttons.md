@@ -1,26 +1,24 @@
 ---
-title: Address Book Navigation Buttons
+title: Кнопки навигации по адресной книге
 TOCTitle: Address Book Navigation Buttons
 ms:assetid: 4ec32c08-5b35-8dce-23ec-0daa4db551cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f37a188fd3ddb3608eda414fbdcea6402cd9d41
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: d0a6409bcdeca211c3badb1ca7918d3d34bc3f1f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603947"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869024"
 ---
-# <a name="address-book-navigation-buttons"></a>Address Book Navigation Buttons
+# <a name="address-book-navigation-buttons"></a>Кнопки навигации по адресной книге
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-<<<<<<< HEAD. Адресная книга приложения отображаются кнопки навигации в нижней части веб-страницы. Можно использовать кнопки перехода для перемещения по данным в отображение сетки HTML, выбрав либо первой или последней строки данных или рядом с текущего выделения строк.
-=== Приложение адресной книги отображаются кнопки навигации в нижней части веб-страницы. Можно использовать кнопки перехода для перемещения по данным в отображение сетки HTML, выбрав либо первой или последней строки данных или рядом с текущего выделения строк.
->>>>>>> master
+Адресная книга приложения отображаются кнопки навигации в нижней части веб-страницы. Можно использовать кнопки перехода для перемещения по данным в отображение сетки HTML, выбрав либо первой или последней строки данных или рядом с текущего выделения строк.
 
 ## <a name="navigation-sub-procedures"></a>Процедуры Sub навигации
 

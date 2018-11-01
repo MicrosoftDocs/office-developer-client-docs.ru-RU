@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248893(v=office.15)
 ms:contentKeyID: 48543328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0eb70a615f49ff351ec31a826abc9775558218dd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c398dc0733b58c72fb021c104eaf1a546fd9c66a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862557"
+ms.locfileid: "25881680"
 ---
 # <a name="running-business-objects-in-component-services"></a>Выполнение бизнес-объектов в службах компонентов
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Бизнес-объекты могут быть исполняемых файлов (.exe) или библиотеки динамической компоновки (DLL). Конфигурации, используемые для выполнения бизнес-объекта зависит от объекта .dll или .exe файла:
 

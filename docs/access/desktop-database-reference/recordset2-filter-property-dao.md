@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053062
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ba5b43f6b0012e45c3cb4af662454ef76eab9194
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9be017367a0422884e393acf82d96e6b4908689a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482569"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876451"
 ---
 # <a name="recordset2filter-property-dao"></a>Recordset2.Filter Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, определяющее записей, включенных в последующем открытого объекта **набора записей** (только для рабочих областей Microsoft Access). Для чтения и записи, **String**.
 

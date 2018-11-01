@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
 ms:contentKeyID: 48547148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e4937ee83251f9e4114827860da2ea571887ad8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aa624c545d17ef0d56a076b3d30326bacd2c6edf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481807"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871964"
 ---
-# <a name="using-cachesize"></a>Using CacheSize
+# <a name="using-cachesize"></a>Использование свойства CacheSize
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Используйте свойство **CacheSize** для управления количества записей для получения за один раз в локальную память от поставщика. Например при **CacheSize** — 10, открыв объекта **набора записей** , поставщик получает первые 10 записей в локальную память. При переходе от объекта **набора записей** , поставщик возвращает данные из буфера локальной памяти. После перемещения за последние записи в кэше, поставщик извлекает следующие 10 записей из источника данных в кэш.
 

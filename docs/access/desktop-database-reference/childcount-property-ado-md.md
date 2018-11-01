@@ -1,30 +1,26 @@
 ---
-title: ChildCount Property (ADO MD)
+title: Свойство ChildCount (ADO MD)
 TOCTitle: ChildCount Property (ADO MD)
 ms:assetid: ff1872f0-d5f6-174e-0473-7997a462ca81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84e2e9873e076128c42e9fa7ae46d902f47865c7
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 0ac5e65356e7ee66cda864bffc983ae1d394825b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606027"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879608"
 ---
-# <a name="childcount-property-ado-md"></a>ChildCount Property (ADO MD)
+# <a name="childcount-property-ado-md"></a>Свойство ChildCount (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает число участников, для которых текущего объекта [член](member-object-ado-md.md) является родительской в иерархии.
 
-<<<<<<< HEAD
-## <a name="return-values"></a>Return Values
-=======
 ## <a name="return-values"></a>Возвращаемые значения
->>>>>>> master
 
 Возвращает значение типа **Long** integer и доступен только для чтения.
 

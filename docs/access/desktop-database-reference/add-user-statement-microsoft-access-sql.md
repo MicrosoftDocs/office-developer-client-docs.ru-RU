@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845862(v=office.15)
 ms:contentKeyID: 48543652
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 80e3a8fe62cf077accfc18a30e188898fb279d1d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7a27874a7264258fee51f90fabaeecd180d7aeae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862291"
+ms.locfileid: "25868611"
 ---
 # <a name="add-user-statement-microsoft-access-sql"></a>Добавление пользователя оператора (Microsoft Access SQL)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Добавление одного или нескольких существующих *пользователей*s существующей *группы*.
 

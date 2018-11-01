@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 934a44ee754c403a9ef185537c8af114f1200d82
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 74441e4a13e2cbe6b812b18b2c4ecab1a66dceaf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862536"
+ms.locfileid: "25882772"
 ---
 # <a name="copydatabasefile-macro-action"></a>Действия CopyDatabaseFile макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **КопироватьФайлБазыДанных** можно использовать для создания копии текущего Microsoft SQL Server 7.0 или более поздняя версия базы данных, подключенные к проект Microsoft Access. Access отключает текущую базу данных и подключает ее к конечному серверу. Дополнительные сведения о присоединение и отсоединение базы данных SQL Server см.
 

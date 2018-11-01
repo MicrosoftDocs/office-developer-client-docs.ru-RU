@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052932
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f67a6202286f8aabdfbbc134995c07deb610d0d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: eff81bf8d2e7f7f040611ffc1aafdedff1e35ddf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482639"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874050"
 ---
 # <a name="field2foreignname-property-dao"></a>Field2.ForeignName Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, указывающее имя объекта **поле2** внешней таблицы, соответствующее поле в основной таблицы для связи (только для рабочих областей Microsoft Access).
 

@@ -1,30 +1,24 @@
 ---
-<<<<<<< Название HEAD: доступ к строк в иерархической TOCTitle записей: доступ к строк в иерархической записей ms:assetid: db59b152-b780-539c-17ef-462e8adfb26e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250106(v=office.15) ms:contentKeyID: 48548104 ms.date: 09/18 / 2015 mtps_version: v=office.15
+title: Доступ к строк в иерархической записей
+TOCTitle: Accessing rows in a hierarchical Recordset
+ms:assetid: db59b152-b780-539c-17ef-462e8adfb26e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250106(v=office.15)
+ms:contentKeyID: 48548104
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 3041aa1486f9630a36383dde4ad675c50c799339
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870032"
 ---
-
-# <a name="accessing-rows-in-a-hierarchical-recordset"></a>Accessing Rows in a Hierarchical Recordset
-
-=== Название: доступ к строк в иерархической TOCTitle записей: доступ к строк в иерархической ms:assetid записей: db59b152-b780-539c-17ef-462e8adfb26e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250106(v=office.15) ms:contentKeyID: 48548104 ms.date: 10/17/2018 mtps_version: v = Office.15
----
-
 # <a name="accessing-rows-in-a-hierarchical-recordset"></a>Доступ к строк в иерархической записей
->>>>>>> master
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В следующем примере показано действия, необходимые для доступа к строк в иерархической [набора записей](recordset-object-ado.md):
 
-<<<<<<< HEAD
-1.  Объекты **набора записей** из авторов и titleauthor таблицы связаны с идентификатором автора.
-
-2.  Внешний цикл отображается имя и фамилию, состояние и идентификации каждого автора.
-
-3.  Добавленный **набора записей** для каждой строки извлекается из коллекции **полей** и назначается *rstTitleAuthor*.
-
-4.  Внутренний цикл отображаются четыре поля из каждой строки в присоединенной **набора записей**.
-
-<a name="the-stayinsyncstayinsync-property-adomd-property-is-set-to-false-for-purposes-of-illustration--so-you-can-see-the-chapter-change-explicitly-in-each-iteration-of-the-outer-loop-however-the-example-will-be-more-efficient-if-the-assignment-in-step-3-is-moved-before-the-first-line-in-step-2-so-that-the-assignment-is-performed-only-once-then-set-the-stayinsync-property-to-true-so-that-rsttitleauthor-will-implicitly-and-automatically-change-to-the-corresponding-chapter-whenever-rst-moves-to-a-new-row"></a>(Свойство [StayInSync](stayinsync-property-ado.md) задано значение FALSE для наглядности, чтобы увидеть, главы явным образом изменить в каждой итерации внешнего цикла. Тем не менее пример будет более эффективным, если назначение на шаге 3 перемещается перед первой строки на шаге 2, поэтому назначения выполняется только один раз. Задайте свойство **StayInSync** имеет значение TRUE, таким образом, чтобы *rstTitleAuthor* неявно и автоматически изменится на соответствующий главы каждый раз, когда *rst* перемещает на новую строку.)
-=======
 1. Объекты **набора записей** из авторов и titleauthor таблицы связаны с идентификатором автора.
 
 2. Внешний цикл отображается имя и фамилию, состояние и идентификации каждого автора.
@@ -35,7 +29,6 @@
 
 > [!NOTE] 
 > Свойство [StayInSync](stayinsync-property-ado.md) присвоено значение FALSE для наглядности, чтобы увидеть, главы явным образом изменить в каждой итерации внешнего цикла. Тем не менее пример будет более эффективным, если назначение на шаге 3 перемещается перед первой строки на шаге 2, поэтому назначения выполняется только один раз. Присвойте свойству **StayInSync** значение TRUE, поэтому *rstTitleAuthor* неявно и автоматически изменится на соответствующий главы каждый раз, когда *rst* перемещает на новую строку.
->>>>>>> master
 
 **Пример**
 

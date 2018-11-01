@@ -1,5 +1,5 @@
 ---
-title: ShowToolbar Macro Action
+title: Действия ПанельИнструментов макроса
 TOCTitle: ShowToolbar Macro Action
 ms:assetid: 9e53009b-1e5e-1bee-3bcc-f82dc1b0dc48
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198288(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm27417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 462dbd34f5666643cceff1fc96b9dd77c36d0071
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 84eff76b29697df46c7159c442865bd00ce051e0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481224"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879125"
 ---
-# <a name="showtoolbar-macro-action"></a>ShowToolbar Macro Action
+# <a name="showtoolbar-macro-action"></a>Действия ПанельИнструментов макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **ПанельИнструментов** можно использовать для отображения или скрытия группы команд на вкладке **Надстройки** .
 

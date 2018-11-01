@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства Value (VJ ++) TOCTitle: пример свойства Value (VJ ++) === название: пример свойства Value (VJ ++) TOCTitle: пример свойства Value (VJ ++)
->>>>>>> главные ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15) ms:contentKeyID: 48543474 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Value (VJ++)
+TOCTitle: Value property example (VJ++)
+ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15)
+ms:contentKeyID: 48543474
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7117c9d48269ea9ae2eedf7af83aedab01b77d50
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871950"
 ---
-
-<<<<<<< HEAD
-# <a name="value-property-example-vj"></a>Value Property Example (VJ++)
-=======
-# <a name="value-property-example-vj"></a>Пример свойства Value (VJ ++)
->>>>>>> master
+# <a name="value-property-example-vj"></a>Пример использования свойства Value (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .
 

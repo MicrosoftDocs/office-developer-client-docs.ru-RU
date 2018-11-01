@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
 ms:contentKeyID: 48548696
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 910ed7f40b1da2d63ed94b4be0c4e1b17f2744f6
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 2bb0e9eda069f86170542596aebd1b359a242680
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602967"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872707"
 ---
 # <a name="tabledefopenrecordset-method-dao"></a>TableDef.OpenRecordset Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Создает новый объект **[набора записей](recordset-object-dao.md)** и добавляет его в коллекцию **наборов записей** .
 
@@ -90,11 +90,7 @@ ms.locfileid: "25602967"
 </table>
 
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
-=======
-### <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Набор записей
 

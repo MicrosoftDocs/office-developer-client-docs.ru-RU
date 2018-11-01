@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства DefinedSize (VC ++) TOCTitle: пример свойства DefinedSize (VC ++) === название: пример свойства DefinedSize (VC ++) TOCTitle: пример свойства DefinedSize (VC ++)
->>>>>>> главные ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: 48548474 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства DefinedSize (VC++)
+TOCTitle: DefinedSize property example (VC++)
+ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15)
+ms:contentKeyID: 48548474
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: a87889c7cd742c02def55cb802981fd3e16b3f91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867365"
 ---
-
-<<<<<<< HEAD
-# <a name="definedsize-property-example-vc"></a>DefinedSize Property Example (VC++)
-=======
-# <a name="definedsize-property-example-vc"></a>Пример свойства DefinedSize (VC ++)
->>>>>>> master
+# <a name="definedsize-property-example-vc"></a>Пример использования свойства DefinedSize (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md). Код будет переопределения размера столбце FirstName таблице **Employees** базы данных *Northwind* . Затем отображается на изменение значений [полей](field-object-ado.md) [набора записей](recordset-object-ado.md) , основанного на таблице **Employees** . Обратите внимание на то, что по умолчанию для поля FirstName становится дополняются пробелами после переопределить свойство **DefinedSize** .
 

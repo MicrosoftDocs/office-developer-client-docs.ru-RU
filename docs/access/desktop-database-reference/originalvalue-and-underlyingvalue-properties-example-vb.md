@@ -1,15 +1,21 @@
 ---
-<<<<<<< Название HEAD: OriginalValue и TOCTitle пример свойства UnderlyingValue (VB): OriginalValue и пример свойства UnderlyingValue (VB) === название: пример свойства OriginalValue и UnderlyingValue (VB) TOCTitle: Пример свойства OriginalValue и UnderlyingValue (VB)
->>>>>>> главные ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15) ms:contentKeyID: 48548189 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств OriginalValue и UnderlyingValue (VB)
+TOCTitle: OriginalValue and UnderlyingValue properties example (VB)
+ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15)
+ms:contentKeyID: 48548189
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ffe9672be5dd970e77368d7298283462fe74f25c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879055"
 ---
+# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a>Пример использования свойств OriginalValue и UnderlyingValue (VB)
 
-<<<<<<< HEAD
-# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a>OriginalValue and UnderlyingValue Properties Example (VB)
-=======
-# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a>Пример свойства OriginalValue и UnderlyingValue (VB)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется [OriginalValue](originalvalue-property-ado.md) и обновление свойств [UnderlyingValue](underlyingvalue-property-ado.md) по отображения сообщения при изменении базовых данных записи во время пакетного [набора записей](recordset-object-ado.md) .
 

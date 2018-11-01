@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249099(v=office.15)
 ms:contentKeyID: 48544090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 930516aa9ffc3c12c6df96dda2cb8cf4a47b5f99
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 166cdc22c7448851605789f04f590ca9fff04758
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863740"
+ms.locfileid: "25873754"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Примеры кода ADO на Microsoft JScript
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Используйте в следующих примерах кода, чтобы узнать, как использовать методы, свойства и события при записи в JScript ADO.
 
@@ -36,21 +36,6 @@ ms.locfileid: "25863740"
 
 **Свойства**
 
-<<<<<<< HEAD
-  - [AbsolutePage, PageCount и пример: свойства PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
-
-  - [Пример свойства CursorLocation и AbsolutePosition](absoluteposition-and-cursorlocation-properties-example-jscript.md)
-
-  - [Пример свойства ActiveCommand](activecommand-property-example-jscript.md)
-
-  - [ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление пример свойств](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
-
-  - [Пример свойства DefinedSize и ActualSize](actualsize-and-definedsize-properties-example-jscript.md)
-
-  - [Пример свойства CacheSize](cachesize-property-example-jscript.md)
-
-  - [Пример свойства RecordCount и фильтра](filter-and-recordcount-properties-example-jscript.md)
-=======
   - [Пример: свойства AbsolutePage, PageCount и PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 
   - [Пример свойства AbsolutePosition и CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
@@ -64,5 +49,4 @@ ms.locfileid: "25863740"
   - [Пример свойства CacheSize](cachesize-property-example-jscript.md)
 
   - [Пример свойства фильтра и RecordCount](filter-and-recordcount-properties-example-jscript.md)
->>>>>>> образец
 

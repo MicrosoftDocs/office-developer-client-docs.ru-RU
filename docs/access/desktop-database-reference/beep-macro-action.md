@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm11853
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7024734b09544042fa58b8cd95127d8195e5788a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 284be6222d0b81e48a061afd1d87dd32c3985feb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482566"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867582"
 ---
-# <a name="beep-macro-action"></a>Beep Macro Action
+# <a name="beep-macro-action"></a>Звуковые сигналы действия макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **Звуковые** можно использовать для получения сигнала звуковой сигнал через динамик компьютера.
 

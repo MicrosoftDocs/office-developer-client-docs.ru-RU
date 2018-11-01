@@ -1,16 +1,22 @@
 ---
-<<<<<<< Заголовок HEAD: пример свойства состояния (VJ ++) TOCTitle: пример свойства состояния (VJ ++) === заголовок: пример свойства состояния (VJ ++) TOCTitle: пример свойства состояния (VJ ++)
->>>>>>> главные ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15) ms:contentKeyID: 48547452 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Status (VJ++)
+TOCTitle: Status property example (VJ++)
+ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15)
+ms:contentKeyID: 48547452
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f903da131d94c72656a2b8d80febb20e01854b49
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872230"
 ---
-
-<<<<<<< HEAD
-# <a name="status-property-example-vj"></a>Status Property Example (VJ++)
-=======
-# <a name="status-property-example-vj"></a>Пример свойства состояния (VJ ++)
->>>>>>> master
+# <a name="status-property-example-vj"></a>Пример использования свойства Status (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.
 

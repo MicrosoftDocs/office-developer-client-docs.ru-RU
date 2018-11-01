@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
 ms:contentKeyID: 48545899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8c8759bb9ada91934b8aeb287e75fd36ef19a0f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4f833f51863c4a64bfb6fcde0c2d3c592d52d1ba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479837"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878026"
 ---
-# <a name="rds-methods"></a>RDS Methods
+# <a name="rds-methods"></a>Методы служб удаленных рабочих СТОЛОВ
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 <table>
 <colgroup>

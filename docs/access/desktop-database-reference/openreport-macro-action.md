@@ -1,5 +1,5 @@
 ---
-title: OpenReport Macro Action
+title: Действия ОткрытьОтчет макроса
 TOCTitle: OpenReport Macro Action
 ms:assetid: cd35faf2-190d-ac48-cf59-81c1599eb764
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834462(v=office.15)
@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 06828474aee961dd6df02f29c7d046805a1c764c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef2a1f5afd4b8828fdc39744e92d0a4e92ca7bd6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480906"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871495"
 ---
-# <a name="openreport-macro-action"></a>OpenReport Macro Action
+# <a name="openreport-macro-action"></a>Действия ОткрытьОтчет макроса
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы открыть отчет в режиме конструктора или просмотра или отправить отчет на принтер, можно использовать **ОткрытьОтчет** . Можно также ограничить записей, которые печатаются в отчете.
 

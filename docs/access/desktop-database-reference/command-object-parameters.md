@@ -1,22 +1,22 @@
 ---
-title: Command Object Parameters
+title: Параметры объекта команды
 TOCTitle: Command Object Parameters
 ms:assetid: b43bb20e-9d0a-b361-6845-d537ae667f0c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249862(v=office.15)
 ms:contentKeyID: 48547218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 16e292c5700c653300e5493cbd613326621266c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b3ce61f514e174595a458f66ea0a6c671ce5a9dc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480235"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880175"
 ---
-# <a name="command-object-parameters"></a>Command Object Parameters
+# <a name="command-object-parameters"></a>Параметры объекта команды
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Использование наиболее интересных для объекта **команды** показано в следующем примере, в котором можно было параметризованные был изменен текст команды SQL. Это позволяет использовать команды, передав в другое значение для параметра каждый раз. Поскольку свойство **подготовленных** объекта **команды** задано значение **True**, ADO потребует поставщика для компиляции команды, указанной в **CommandText** перед выполнением в первый раз. Он также будет сохранять скомпилированной команды в памяти. Это замедляет выполнение команды немного первого время выполнения из-за накладные расходы, необходимые для подготовки, но результаты в рост производительности каждый раз, когда после этого вызывается команда. Таким образом команды должны быть подготовлен только в том случае, если они будут использоваться несколько раз.
 

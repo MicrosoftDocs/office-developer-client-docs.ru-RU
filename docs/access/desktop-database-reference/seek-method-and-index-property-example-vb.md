@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: метод коротким временем поиска и TOCTitle пример свойства Index (VB): метод коротким временем поиска и пример свойства Index (VB) === заголовок: метод коротким временем поиска и индексирования пример свойства (VB) TOCTitle: пример свойства метод коротким временем поиска и индекса (VB)
->>>>>>> главные ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15) ms:contentKeyID: 48547577 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Поиск метода и индекса пример свойства (VB)
+TOCTitle: Seek Method and Index property example (VB)
+ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15)
+ms:contentKeyID: 48547577
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 692dcd7e046935aa447d6d39de574dd3d3e6b129
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871873"
 ---
-
-<<<<<<< HEAD
-# <a name="seek-method-and-index-property-example-vb"></a>Seek Method and Index Property Example (VB)
-=======
 # <a name="seek-method-and-index-property-example-vb"></a>Поиск метода и индекса пример свойства (VB)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется метод [Seek](seek-method-ado.md) и свойства [Index](index-property-ado.md) объекта [набора записей](recordset-object-ado.md) в сочетании с заданным ***Идентификатор сотрудника***, найдите имя сотрудника в таблице ***Employees*** базы данных Nwind.mdb.
 

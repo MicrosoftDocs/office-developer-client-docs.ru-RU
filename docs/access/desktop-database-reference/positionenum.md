@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
 ms:contentKeyID: 48543907
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ba1756b6335b8b290fb4ff0942426c50cb08e87c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: aff2956659d71606b8da7fc206bf91501f091d2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861486"
+ms.locfileid: "25867967"
 ---
 # <a name="positionenum"></a>PositionEnum
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает текущую позицию указателя записи в наборе [записей](recordset-object-ado.md).
 

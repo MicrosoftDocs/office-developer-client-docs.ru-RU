@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197361(v=office.15)
 ms:contentKeyID: 48546266
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c20542c89537f16f20c9d3e30cbc14ce115bf4d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a69594ff30b92a32cf9ba95424ea7616df922725
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483158"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867442"
 ---
 # <a name="driverpromptenum-enumeration-dao"></a>DriverPromptEnum Enumeration (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает, если и при пользователя для установки подключения.
 

@@ -1,5 +1,5 @@
 ---
-title: BrowseTo Macro Action
+title: Действия ВыбратьОбъект макроса
 TOCTitle: BrowseTo Macro Action
 ms:assetid: b25e1cc6-c4ed-abd6-0285-94fc7dae0bdf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822020(v=office.15)
@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 15009ca039d5df06bc732f4b58c066ad8f8d67c9
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 242041627a909b1c16d956dbbb94a3bf173d544a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603765"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878936"
 ---
-# <a name="browseto-macro-action"></a>BrowseTo Macro Action
+# <a name="browseto-macro-action"></a>Действия ВыбратьОбъект макроса
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **ВыбратьОбъект** можно использовать для перехода между объектами на месте. Можно также изменить исходный объект подчиненной путем указания пути к подчиненной аргумент. Используйте **ВыбратьОбъект** для перехода от form1 form2, не открывая новое окно.
 
@@ -57,11 +57,7 @@ ms.locfileid: "25603765"
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<<<<<<< HEAD
-<td><p>Если указано, задает страницу непрерывного формы, в которой будет осуществляться текущей страницы. Этот аргумент представляет Web только.</p></td>
-=======
 <td><p>Если указано, задает страницу непрерывного формы, в которой будет осуществляться текущей страницы. Этот аргумент представляет веб-узла только.</p></td>
->>>>>>>Образец
 </tr>
 <tr class="even">
 <td><p>Режим данных</p></td>

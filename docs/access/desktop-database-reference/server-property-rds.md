@@ -1,22 +1,22 @@
 ---
-title: Server Property (RDS)
+title: Свойства сервера (RDS)
 TOCTitle: Server Property (RDS)
 ms:assetid: 17519dbe-a43a-1d0d-22c1-dc0def2f63ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec001c57f72582dcdaabdfd6e76069582468b54c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 487b6e676816ab571cb08f6cfe7870362c7a8c84
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479812"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868436"
 ---
-# <a name="server-property-rds"></a>Server Property (RDS)
+# <a name="server-property-rds"></a>Свойства сервера (RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает имя и связи протокол Internet Information Services (IIS).
 

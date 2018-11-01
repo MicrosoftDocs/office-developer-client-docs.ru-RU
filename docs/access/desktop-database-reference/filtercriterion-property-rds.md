@@ -1,22 +1,22 @@
 ---
-title: FilterCriterion Property (RDS)
+title: Свойство FilterCriterion (RDS)
 TOCTitle: FilterCriterion Property (RDS)
 ms:assetid: 51e6cb64-a404-114e-8e1a-0744cceeec3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249267(v=office.15)
 ms:contentKeyID: 48544834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b847318c5fe0132fbc53f588b4478b7f37ec4ba
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b5567265aba8d4490837ab69572a553d4aa1c1e1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483080"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869766"
 ---
-# <a name="filtercriterion-property-rds"></a>FilterCriterion Property (RDS)
+# <a name="filtercriterion-property-rds"></a>Свойство FilterCriterion (RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

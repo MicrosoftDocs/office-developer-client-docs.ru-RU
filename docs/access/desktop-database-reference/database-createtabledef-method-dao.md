@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 99bccffb11dfb9813d52fed721a51b5417ef6be0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: c5da4e34697599852283dbde51bb4bdc8ace96a8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602820"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872811"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef Method (DAO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Создает новый объект **[TableDef](tabledef-object-dao.md)** (только для рабочих областей Microsoft Access). .
 
@@ -75,11 +75,7 @@ ms.locfileid: "25602820"
 </table>
 
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
-=======
-### <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 TableDef
 

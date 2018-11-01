@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248811(v=office.15)
 ms:contentKeyID: 48543030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 994da4e0c063557deae4df6b207a67b34e5bd87d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 30db56800fdad45975aef367356b57d590825c83
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480797"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870459"
 ---
 # <a name="rds-api-reference-topics"></a>RDS API Reference Topics
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [RDS API Reference](rds-api-reference.md)
+  - [Справочник по API служб удаленных рабочих СТОЛОВ](rds-api-reference.md)
 
   - [RDS Objects (Access)](rds-objects-access.md)
 

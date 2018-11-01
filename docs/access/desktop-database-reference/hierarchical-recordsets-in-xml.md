@@ -1,24 +1,24 @@
 ---
-title: Hierarchical Recordsets in XML
+title: Иерархические наборы записей в XML
 TOCTitle: Hierarchical Recordsets in XML
 ms:assetid: 606dee87-8762-6cc2-a151-94d34031b35f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249351(v=office.15)
 ms:contentKeyID: 48545181
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1f608cd8ed36b621847c58dd523cfa052c5f501a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5276dd011ec8b7c6190ab35f5417009510875e15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482156"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877172"
 ---
-# <a name="hierarchical-recordsets-in-xml"></a>Hierarchical Recordsets in XML
+# <a name="hierarchical-recordsets-in-xml"></a>Иерархические наборы записей в XML
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-## <a name="hierarchical-recordsets-in-xml"></a>Hierarchical Recordsets in XML
+## <a name="hierarchical-recordsets-in-xml"></a>Иерархические наборы записей в XML
 
 ADO позволяет сохраняемость иерархических объектов **наборов записей** в XML. С объектами иерархических **записей** значение поля в родительском **записей** является другого **набора записей**. Такие поля, представленные в виде дочерних элементов в потоке XML, а не атрибут. В этом случае в следующем примере:
 

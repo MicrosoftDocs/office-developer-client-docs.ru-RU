@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249511(v=office.15)
 ms:contentKeyID: 48545813
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eaa1de504436b0dff7afb8bdbb75aa94068037cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fdcacb1d936835f9add4706eab8e36417d2a82ca
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482961"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887672"
 ---
 # <a name="group-object-adox-reference"></a>Group Object (ADOX) Reference
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [Group Object (ADOX)](group-object-adox.md)
+  - [Объект группы (ADOX)](group-object-adox.md)
 
   - [Group Properties, Methods, and Events (ADOX)](group-properties-methods-and-events-adox.md)
 

@@ -1,22 +1,22 @@
 ---
-title: Visual Basic for Applications functions
+title: Функции Visual Basic для приложений
 TOCTitle: Visual Basic for Applications functions
 ms:assetid: 482b1236-0051-8737-b8f8-e29e9223a739
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249223(v=office.15)
 ms:contentKeyID: 48544617
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a97c487dd2d8f7a49af05fc9be689fd5672f6149
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf497c64767a872a2bfd1e07754fcc8a5afa9dd9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481264"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881834"
 ---
-# <a name="visual-basic-for-applications-functions"></a>Visual Basic for Applications functions
+# <a name="visual-basic-for-applications-functions"></a>Функции Visual Basic для приложений
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Можно использовать следующие Visual Basic для приложений функций в формирования Вычисление выражения данных:
 
@@ -156,7 +156,7 @@ ms.locfileid: "25481264"
 <td><p>STR$</p></td>
 <td><p>StrComp</p></td>
 <td><p>StrConv</p></td>
-<td><p>String</p></td>
+<td><p>Строка</p></td>
 </tr>
 <tr class="odd">
 <td><p>Строка $</p></td>

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e5ac9c60be702841a4e45628ba609bdc63e14477
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 39286a3b94712c15628e6163c12ee7c8d2d3e502
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862139"
+ms.locfileid: "25882737"
 ---
 # <a name="absolute-and-relative-urls"></a>Абсолютный и относительный URL-адресов
 
-**Применимо к**: Access 2013 | Office 2013 
+**Применимо к**: Access 2013, Office 2013    
 
 URL-адрес указывает расположение целевого, хранящиеся на компьютере локальный или сетевой, такие как файл, каталог, HTML-код страницы, изображения, программы и т. д. В этом разделе рассмотрена *абсолютный URL-адрес* имеет вид:
 
@@ -81,5 +81,4 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 Начальная часть полный URL-адрес — это *Схема* , используемая для доступа к ресурсу, определяемому в оставшейся части URL-адрес. Примерами являются HTTP (HyperText Transfer Protocol) и FTP (протокол передачи файлов).
 
 ADO поддерживает поставщики OLE DB, распознает собственные схемы URL-адрес. Например, [Поставщик Microsoft OLE DB для публикации Интернета](microsoft-ole-db-provider-for-internet-publishing.md), какие доступ «опубликованный» файлы Windows 2000, распознает существующую схему HTTP.
-
 

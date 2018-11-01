@@ -1,22 +1,22 @@
 ---
-title: Visual C++ Extensions Example
+title: Пример расширения Visual C++
 TOCTitle: Visual C++ Extensions Example
 ms:assetid: fe57868f-5707-3c5b-cb93-4121732d67cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250305(v=office.15)
 ms:contentKeyID: 48548934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f848e5adb9e8aca3a53732633b8b40cd75550cf9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 172774af5297f456b53dcdbadfc4080f533bc8b3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480884"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878117"
 ---
-# <a name="visual-c-extensions-example"></a>Visual C++ Extensions Example
+# <a name="visual-c-extensions-example"></a>Пример расширения Visual C++
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Эта программа показано получение значений из полей и преобразуются в переменные C/C++.
 

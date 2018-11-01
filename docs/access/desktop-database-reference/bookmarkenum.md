@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)
 ms:contentKeyID: 48545681
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 60ae21fc65fd480abe4fc094d61a04498d0da2ea
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 867d1734b43526e47b3229eab0a9cff823a77725
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863663"
+ms.locfileid: "25876101"
 ---
 # <a name="bookmarkenum"></a>BookmarkEnum
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает, указывающее, где следует начать операцию закладку.
 

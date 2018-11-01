@@ -1,22 +1,22 @@
 ---
-title: Visual C++ Extensions for ADO
+title: Расширения Visual C++ для ADO
 TOCTitle: Visual C++ Extensions for ADO
 ms:assetid: 38048ae0-1dae-9e5e-c569-04011df8b5aa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249134(v=office.15)
 ms:contentKeyID: 48544212
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7d3a5e876dd98e26c2eb9169a21a8dcd5e532e2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f4e0d9e9f5db8741cb04fd4d576ea67408285aac
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482020"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881764"
 ---
-# <a name="visual-c-extensions-for-ado"></a>Visual C++ Extensions for ADO
+# <a name="visual-c-extensions-for-ado"></a>Расширения Visual C++ для ADO
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 С помощью предпочтительным программирования ADO с помощью Visual C++ ** \#импорта** директивы, как описано в [Microsoft Visual C++ ADO программирования](visual-c-ado-programming.md). Тем не менее, более ранних версий ADO в состав альтернативного метода программирование с использованием Visual C++: расширения Visual C++. В данном разделе описываются этой функции для тех, кто должен поддерживать код расширений Visual C++, но новый код ADO должны быть написаны с помощью \# **импорта**.
 
@@ -30,7 +30,7 @@ ADO предоставляет интерфейс, который поддерж
 
   - [С помощью расширений Visual C++ для ADO](using-visual-c-extensions.md)
 
-  - [Visual C++ Extensions Header](visual-c-extensions-header.md)
+  - [Заголовок расширений Visual C++](visual-c-extensions-header.md)
 
   - [ADO с примером расширения Visual C++](visual-c-extensions-example.md)
 

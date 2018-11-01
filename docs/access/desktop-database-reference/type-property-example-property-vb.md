@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства типа (свойство) (VB) TOCTitle: пример свойства типа (свойство) (VB) === название: пример свойства типа (свойство) (VB) TOCTitle: пример свойства типа (свойство) (VB)
->>>>>>> главные ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15) ms:contentKeyID: 48547209 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Type (Property) (VB)
+TOCTitle: Type property example (Property) (VB)
+ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15)
+ms:contentKeyID: 48547209
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 870b68bd43ed12e4d74a9d9f1c1c0887fdb22f85
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885698"
 ---
-
-<<<<<<< HEAD
-# <a name="type-property-example-property-vb"></a>Type Property Example (Property) (VB)
-=======
-# <a name="type-property-example-property-vb"></a>Пример свойства типа (свойство) (VB)
->>>>>>> master
+# <a name="type-property-example-property-vb"></a>Пример использования свойства Type (Property) (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано свойство [типа](type-property-ado.md) . Это модель служебной программы для список имен и типы семейства сайтов, как [Свойства](properties-collection-ado.md), [поля](fields-collection-ado.md)и т.д.
 

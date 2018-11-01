@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249323(v=office.15)
 ms:contentKeyID: 48545082
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 74e7f2fcc8e0cbc068d08b3fdc59619fadfd1756
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: edaf1bbaa0b88c250c87cf5ec07b29b3dd77e45f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860178"
+ms.locfileid: "25877914"
 ---
 # <a name="getrowsoptionenum"></a>GetRowsOptionEnum
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает количество записей для извлечения из [набора записей](recordset-object-ado.md).
 

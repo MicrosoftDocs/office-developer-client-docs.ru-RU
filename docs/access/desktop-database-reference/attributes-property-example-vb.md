@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство атрибуты (VB): пример свойства атрибуты (VB) === заголовок: пример свойства атрибуты (VB) TOCTitle: пример свойства атрибуты (VB)
->>>>>>> главные ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID: 48547442 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Attributes (VB)
+TOCTitle: Attributes property example (VB)
+ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
+ms:contentKeyID: 48547442
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1abdb333551e80a8c2b0e8a440aee9c35ca69120
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879258"
 ---
-
-<<<<<<< HEAD
-# <a name="attributes-property-example-vb"></a>Attributes Property Example (VB)
-=======
-# <a name="attributes-property-example-vb"></a>Пример свойства атрибуты (VB)
->>>>>>> master
+# <a name="attributes-property-example-vb"></a>Пример использования свойства Attributes (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере свойство [Attributes](attributes-property-adox.md) [столбца](column-object-adox.md). Установка его **adColNullable** пользователь может задать значение [набора записей](recordset-object-ado.md)[поля](field-object-ado.md) пустую строку. В этом случае пользователь может различать записи, где неизвестно данных и запись, где данные не применяется.
 

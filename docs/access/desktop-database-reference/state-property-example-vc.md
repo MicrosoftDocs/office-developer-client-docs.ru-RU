@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle пример свойства состояния (VC ++): пример свойства состояния (VC ++) === заголовок: пример свойства состояния (VC ++) TOCTitle: пример свойства состояния (VC ++)
->>>>>>> главные ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15) ms:contentKeyID: 48547085 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства State (VC++)
+TOCTitle: State property example (VC++)
+ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15)
+ms:contentKeyID: 48547085
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 06d91a9e2103fa56025230ae5326cda2d0bfb85f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886917"
 ---
-
-<<<<<<< HEAD
-# <a name="state-property-example-vc"></a>State Property Example (VC++)
-=======
-# <a name="state-property-example-vc"></a>Пример свойства состояний (VC ++)
->>>>>>> master
+# <a name="state-property-example-vc"></a>Пример использования свойства State (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [состояние](state-property-ado.md) для отображения сообщения во время открытия асинхронных подключений и выполнении асинхронных команд.
 

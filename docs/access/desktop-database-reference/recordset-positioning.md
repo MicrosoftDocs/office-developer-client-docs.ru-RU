@@ -1,22 +1,22 @@
 ---
-title: Recordset Positioning
+title: Размещение наборов записей
 TOCTitle: Recordset Positioning
 ms:assetid: 1b8b08d5-a11c-ec6e-201c-1405171a1264
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248955(v=office.15)
 ms:contentKeyID: 48543546
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10586c711b9931c1cac93401111f4d477ca8a987
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 34b767e50893f62a30f075bee82a4f19ce4696c5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482884"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882114"
 ---
-# <a name="recordset-positioning"></a>Recordset Positioning
+# <a name="recordset-positioning"></a>Размещение наборов записей
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Используйте свойство **AbsolutePosition** для перемещения к записи на основании его порядковый номер в объекте **набора записей** или для определения порядковый номер текущей записи. Поставщик должен поддерживать соответствующие функциональные возможности для этого свойства, чтобы оно было доступно.
 

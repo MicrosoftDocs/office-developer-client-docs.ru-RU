@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845405(v=office.15)
 ms:contentKeyID: 48543345
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dab800e390e6ceaa6bf473e54d7d576f5e6023f4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 37891aa3ee9c6329e1295b730b4f72779d16e0a3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482842"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875394"
 ---
 # <a name="fieldtype-property-dao"></a>Field.Type Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Чтение и запись **целое число**.
 

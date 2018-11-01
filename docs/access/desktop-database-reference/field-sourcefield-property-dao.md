@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835953(v=office.15)
 ms:contentKeyID: 48548360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 729a858ae39c6403d8ccefcacaa7bade754f0484
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0a769cd242064ae9f1fef91c787e614610aab48a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481184"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869374"
 ---
 # <a name="fieldsourcefield-property-dao"></a>Field.SourceField Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает значение, указывающее имя поля, который является оригинального источника данных для объекта **поля** . Только для чтения, **String**.
 

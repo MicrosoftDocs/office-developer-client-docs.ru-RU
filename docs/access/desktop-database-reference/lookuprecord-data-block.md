@@ -1,21 +1,21 @@
 ---
-title: LookupRecord Data Block
+title: Блок данных LookupRecord
 TOCTitle: LookupRecord Data Block
 ms:assetid: 750dc8ca-3bab-c3d1-c91d-2196f9c0604d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd0db6e818ab79fc124760509d07d60b954d49e5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3bd9a687d7f74b99dc20ee079f970c37ba627f31
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481852"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877690"
 ---
-# <a name="lookuprecord-data-block"></a>LookupRecord Data Block
+# <a name="lookuprecord-data-block"></a>Блок данных LookupRecord
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Блок данных **макрокомандой НайтиЗапись, после** выполняет набор действий в конкретной записи.
 
@@ -57,7 +57,7 @@ ms.locfileid: "25481852"
 <td><p>Строковое выражение, используемое для ограничения диапазона данных, на котором блок данных <strong>макрокомандой НайтиЗапись, после</strong> выполнения. К примеру, критерии эквивалентны часто предложение WHERE в выражении SQL без слова ГДЕ. Если критерии опускаются, блок данных <strong>макрокомандой НайтиЗапись, после</strong> действует на весь домен, указанный в аргументе <em>в</em> . Поля, который включен в условия также должны входить в <em>в</em>поле.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Alias</p></td>
+<td><p>псевдоним;</p></td>
 <td><p>Нет</p></td>
 <td><p>Строка, которая предоставляет альтернативное имя для записи, указанный в аргументе <em>в</em> . Позволяет сократить имя таблицы для последующих ссылок избежать возможных неоднозначных ссылок. Если <em>псевдоним</em> не указан, будут использовать имя таблицы или запроса в качестве псевдоним.</p></td>
 </tr>

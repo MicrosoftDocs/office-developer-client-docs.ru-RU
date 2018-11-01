@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: команда и TOCTitle пример: свойства CommandText (VC ++): команда и пример: свойства CommandText (VC ++) === название: пример: свойства команды и CommandText (VC ++) TOCTitle: команда и CommandText Пример: свойства (VC ++)
->>>>>>> главные ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15) ms:contentKeyID: 48546525 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств Command и CommandText (VC++)
+TOCTitle: Command and CommandText properties example (VC++)
+ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15)
+ms:contentKeyID: 48546525
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0d329fb08604f0b3f9cf9336108696778ff26df0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879251"
 ---
-
-<<<<<<< HEAD
-# <a name="command-and-commandtext-properties-example-vc"></a>Command and CommandText Properties Example (VC++)
-=======
-# <a name="command-and-commandtext-properties-example-vc"></a>Пример: свойства команды и CommandText (VC ++)
->>>>>>> master
+# <a name="command-and-commandtext-properties-example-vc"></a>Пример использования свойств Command и CommandText (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Следующий код демонстрирует использование свойства [команда](command-property-adox.md) обновление текста процедуры.
 

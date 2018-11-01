@@ -1,22 +1,22 @@
 ---
-title: WillConnect Event (ADO)
+title: Событие WillConnect (ADO)
 TOCTitle: WillConnect Event (ADO)
 ms:assetid: 8b0e9955-4e7a-7af8-ce6c-7a4ba569a5bb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c5493593998bf5484bd2247b32e114809b805fda
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51d9d0b11d137fbca8bf5efdddfe51469642c405
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483114"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887175"
 ---
-# <a name="willconnect-event-ado"></a>WillConnect Event (ADO)
+# <a name="willconnect-event-ado"></a>Событие WillConnect (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Событие **WillConnect** вызывается до начала подключения.

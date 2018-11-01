@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: OriginalValue и TOCTitle пример свойств UnderlyingValue (VJ ++): OriginalValue и пример: свойства UnderlyingValue (VJ ++) === название: пример: свойства OriginalValue и UnderlyingValue (VJ ++) TOCTitle: Пример свойств OriginalValue и UnderlyingValue (VJ ++)
->>>>>>> главные ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15) ms:contentKeyID: 48545233 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств OriginalValue и UnderlyingValue (VJ++)
+TOCTitle: OriginalValue and UnderlyingValue properties example (VJ++)
+ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15)
+ms:contentKeyID: 48545233
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b6af489106c582afc862ff93d8d1263accdbff47
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880280"
 ---
-
-<<<<<<< HEAD
-# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>OriginalValue and UnderlyingValue Properties Example (VJ++)
-=======
-# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>Пример: свойства OriginalValue и UnderlyingValue (VJ ++)
->>>>>>> master
+# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>Пример использования свойств OriginalValue и UnderlyingValue (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется [OriginalValue](originalvalue-property-ado.md) и обновление свойств [UnderlyingValue](underlyingvalue-property-ado.md) по отображения сообщения при изменении базовых данных записи во время пакетного [набора записей](recordset-object-ado.md) .
 

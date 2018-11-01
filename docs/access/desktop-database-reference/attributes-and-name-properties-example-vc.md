@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: атрибуты и TOCTitle пример свойств имя (VC ++): атрибуты и пример: имя свойства (VC ++) === название: атрибуты и пример: имя свойства (VC ++) TOCTitle: атрибуты и пример (имя свойства VC++)
->>>>>>> главные ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15) ms:contentKeyID: 48545203 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств Attributes и Name (VC++)
+TOCTitle: Attributes and Name properties example (VC++)
+ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15)
+ms:contentKeyID: 48545203
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: df442df4378589ff82981858b021efe033b05ba6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887420"
 ---
-
-<<<<<<< HEAD
-# <a name="attributes-and-name-properties-example-vc"></a>Attributes and Name Properties Example (VC++)
-=======
-# <a name="attributes-and-name-properties-example-vc"></a>Атрибуты и пример: имя свойства (VC ++)
->>>>>>> master
+# <a name="attributes-and-name-properties-example-vc"></a>Пример использования свойств Attributes и Name (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере отображается значение свойства [атрибуты](attributes-property-ado.md) для [подключения](connection-object-ado.md), [поля](field-object-ado.md)и [Свойства](property-object-ado.md) объектов. Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и **Свойства** объекта.
 

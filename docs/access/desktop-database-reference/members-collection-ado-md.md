@@ -1,22 +1,22 @@
 ---
-title: Members Collection (ADO MD)
+title: Члены коллекции (ADO MD)
 TOCTitle: Members Collection (ADO MD)
 ms:assetid: 1389c554-e4f1-107d-22c6-7fe851d53d23
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248910(v=office.15)
 ms:contentKeyID: 48543371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd467335102351fc0412b5c77685d6434b0c20a8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c7142c65bba1df724125c66928001c2b3cd71f1b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481489"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876395"
 ---
-# <a name="members-collection-ado-md"></a>Members Collection (ADO MD)
+# <a name="members-collection-ado-md"></a>Члены коллекции (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Содержит объекты [члена](member-object-ado-md.md) с уровнем или положение оси.
 

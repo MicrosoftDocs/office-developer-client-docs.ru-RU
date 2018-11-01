@@ -1,22 +1,22 @@
 ---
-title: Forward-Only Cursors
+title: Однонаправленные курсоры
 TOCTitle: Forward-Only Cursors
 ms:assetid: 27541bac-077b-bfe6-d9d8-713e4a945125
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249035(v=office.15)
 ms:contentKeyID: 48543834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0fdcdde9859ec0f31326134a240c7b703f4a71d1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 176dc9fe3820b88ddaf0bd27feb4aacbbcb311cc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481171"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886286"
 ---
-# <a name="forward-only-cursors"></a>Forward-Only Cursors
+# <a name="forward-only-cursors"></a>Однонаправленные курсоры
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Тип курсора типичного по умолчанию, называемый курсор последовательного доступа (или не прокручиваемым), можно переместить только вперед через набор результатов. Последовательный курсор не поддерживает прокрутку (возможность переместить вперед и назад в наборе результатов); он поддерживает только выборка строк от начала до конца набора результатов. С помощью некоторых курсоров (например, с библиотекой курсора SQL Server), все insert, update и delete операторов текущий пользователь (или зафиксирует другими пользователями) влияют на строк в результирующем наборе отображаются, как извлечь строки. Поскольку курсор нельзя прокручивать назад, однако изменения, внесенные в строки в базе данных после получения строки не видны посредством курсора.
 

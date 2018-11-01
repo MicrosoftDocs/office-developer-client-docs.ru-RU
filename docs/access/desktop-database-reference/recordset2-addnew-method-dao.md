@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191874(v=office.15)
 ms:contentKeyID: 48543792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7e8123fc67d8b41b892f92b19605a26384af68b5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 274b32a53f6f2db53105b2ca5039efcf561c6d72
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481307"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870116"
 ---
 # <a name="recordset2addnew-method-dao"></a>Recordset2.AddNew Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
  
 
 Создает новую запись для объекта обновляемых **Recordset2** .

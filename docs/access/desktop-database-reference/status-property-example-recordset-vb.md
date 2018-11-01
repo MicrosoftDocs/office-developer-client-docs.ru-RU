@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства состояния (записей) (VB) TOCTitle: пример свойства состояния (записей) (VB) === название: пример свойства состояния (записей) (VB) TOCTitle: пример свойства состояния (записей) (VB)
->>>>>>> главные ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15) ms:contentKeyID: 48546476 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Status (Recordset) (VB)
+TOCTitle: Status property example (Recordset) (VB)
+ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
+ms:contentKeyID: 48546476
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 23e444b2b10946c815cb25b0ed8aedb7533b89c1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869066"
 ---
-
-<<<<<<< HEAD
-# <a name="status-property-example-recordset-vb"></a>Status Property Example (Recordset) (VB)
-=======
-# <a name="status-property-example-recordset-vb"></a>Пример свойства состояния (записей) (VB)
->>>>>>> master
+# <a name="status-property-example-recordset-vb"></a>Пример использования свойства Status (Recordset) (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.
 

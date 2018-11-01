@@ -1,5 +1,5 @@
 ---
-title: OpenTable Macro Action
+title: Действия ОткрытьТаблицу макроса
 TOCTitle: OpenTable Macro Action
 ms:assetid: 4220ad3a-d064-0034-2806-ec1a447cebac
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192909(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 729c1f14d49b3f80ec6307ce775066d3291b96de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0390b81fdf4362372dd6142b09071c8eb1e773e1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481627"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889639"
 ---
-# <a name="opentable-macro-action"></a>OpenTable Macro Action
+# <a name="opentable-macro-action"></a>Действия ОткрытьТаблицу макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы открыть таблицу в режиме таблицы, конструктора или просмотра можно использовать **ОткрытьТаблицу** . Также можно выбрать режим ввода данных для таблицы.
 

@@ -1,5 +1,5 @@
 ---
-title: After Delete Macro Event
+title: После удаления макроса события
 TOCTitle: After Delete Macro Event
 ms:assetid: ecf9e6d4-345f-9b78-eb36-bd526e5df09b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836323(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e803ccc915a939878cf758698a98661c2a3f5283
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b180acb99ab2ac406a7b60fdecf8aff5d63eb71f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481011"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869115"
 ---
-# <a name="after-delete-macro-event"></a>After Delete Macro Event
+# <a name="after-delete-macro-event"></a>После удаления макроса события
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **После удаления** событие происходит после удаления записи.
 
@@ -74,15 +74,15 @@ End If
 <tbody>
 <tr class="odd">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="comment-macro-statement.md">Comment Macro Statement</a></p></td>
+<td><p><a href="comment-macro-statement.md">Оператор комментария макросов</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="group-macro-statement.md">Group Macro Statement</a></p></td>
+<td><p><a href="group-macro-statement.md">Оператор группы макросов</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="if-then-else-macro-block.md">If...Then...Else Macro Block</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... Затем... Блок else макросов</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
@@ -98,59 +98,59 @@ End If
 </tr>
 <tr class="odd">
 <td><p>Блок данных</p></td>
-<td><p><a href="lookuprecord-data-block.md">LookupRecord Data Block</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Блок данных LookupRecord</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange Macro Action</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Действия макроса CancelRecordChange</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">ClearMacroError Macro Action</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Действия макроса ClearMacroError</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="deleterecord-macro-action.md">DeleteRecord Macro Action</a></p></td>
+<td><p><a href="deleterecord-macro-action.md">Действия макрокоманду УдалитьЗапись макроса</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="exitforeachrecord-macro-action.md">ExitForEachRecord Macro Action</a></p></td>
+<td><p><a href="exitforeachrecord-macro-action.md">Действия макроса ExitForEachRecord</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="logevent-macro-action.md">LogEvent Macro Action</a></p></td>
+<td><p><a href="logevent-macro-action.md">Действия LogEvent макроса</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="onerror-macro-action.md">OnError Macro Action</a></p></td>
+<td><p><a href="onerror-macro-action.md">Действия макроса OnError</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="raiseerror-macro-action.md">RaiseError Macro Action</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">Действия макроса RaiseError</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="rundatamacro-macro-action.md">RunDataMacro Macro Action</a></p></td>
+<td><p><a href="rundatamacro-macro-action.md">Действия ЗапускМакросаДанных макроса</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="sendemail-macro-action.md">SendEmail Macro Action</a></p></td>
+<td><p><a href="sendemail-macro-action.md">Действия макроса sendemail действие</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setfield-macro-action.md">SetField Macro Action</a></p></td>
+<td><p><a href="setfield-macro-action.md">Действия SetField макроса</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setlocalvar-macro-action.md">SetLocalVar Macro Action</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Действия макроса SetLocalVar</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="stopallmacros-macro-action.md">StopAllMacros Macro Action</a></p></td>
+<td><p><a href="stopallmacros-macro-action.md">Действия ОстановитьВсеМакросы макроса</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">Действия ОстановитьМакрос макроса</a></p></td>
 </tr>
 </tbody>
 </table>

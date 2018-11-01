@@ -1,22 +1,22 @@
 ---
-title: Position Object (ADO MD)
+title: Положение объекта (ADO MD)
 TOCTitle: Position Object (ADO MD)
 ms:assetid: f8d33cbf-6196-cce4-a140-75521677f1f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250264(v=office.15)
 ms:contentKeyID: 48548794
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15441f3cb2c9e7d612a48a576bcfa73bd7ea680d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 97b0b423886430cbf7d299339417d0e33042a704
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481914"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882534"
 ---
-# <a name="position-object-ado-md"></a>Position Object (ADO MD)
+# <a name="position-object-ado-md"></a>Положение объекта (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет набор одного или нескольких элементов различных измерений, который определяет точку оси.
 

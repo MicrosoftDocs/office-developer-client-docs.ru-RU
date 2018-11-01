@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство размер (ADO): свойство размер (ADO) === название: размер свойство (ADO) TOCTitle: размер свойство (ADO)
->>>>>>> главные ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15) ms:contentKeyID: 48543753 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство Size (ADO)
+TOCTitle: Size property (ADO)
+ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15)
+ms:contentKeyID: 48543753
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 03434b0227c5110ac3a1f36512aaaebd5c23c97a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876409"
 ---
-
-<<<<<<< HEAD
-# <a name="size-property-ado"></a>Size Property (ADO)
-=======
 # <a name="size-property-ado"></a>Свойство Size (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает максимальный размер в байтах или символов объекта [параметров](parameter-object-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает значение типа **Long** , которое указывает максимальный размер в байтах или символов значение в объект **параметра** .
 

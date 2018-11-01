@@ -1,22 +1,22 @@
 ---
-title: ADO Dynamic Properties
+title: Динамические свойства ADO
 TOCTitle: ADO Dynamic Properties
 ms:assetid: a908bc52-2cb0-89c7-a997-2cde93477e4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249782(v=office.15)
 ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a953157e7b38aab7989b4c52f60bfffd1c56766
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6a35bf0cd62db8f635540bfd1ccd65995b198b46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481515"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877550"
 ---
-# <a name="ado-dynamic-properties"></a>ADO Dynamic Properties
+# <a name="ado-dynamic-properties"></a>Динамические свойства ADO
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Динамические свойства можно добавить в коллекции [свойств](properties-collection-ado.md) объектов [подключения](connection-object-ado.md), [команда](command-object-ado.md)или [набора записей](recordset-object-ado.md) . Источник данных свойств — это либо поставщик данных, таких как [Поставщик OLE DB для SQL Server](microsoft-ole-db-provider-for-sql-server.md)или поставщика услуг, таких как [Служба курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md). Обратитесь к требуемые данные поставщика или документации поставщика службы Дополнительные сведения о конкретных динамического свойства.
 

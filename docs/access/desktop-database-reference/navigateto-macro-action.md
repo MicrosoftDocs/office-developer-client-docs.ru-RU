@@ -1,5 +1,5 @@
 ---
-title: NavigateTo Macro Action
+title: Действия макроса NavigateTo
 TOCTitle: NavigateTo Macro Action
 ms:assetid: 6594d614-3ea6-7851-b70e-1661d24f8ba0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195165(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9a6a59b6c84e9814aeb9b4709d27955f29fd9e1e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6cb9505eaf4a2002b0a4ae73ce4917ac250cda12
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481435"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876059"
 ---
-# <a name="navigateto-macro-action"></a>NavigateTo Macro Action
+# <a name="navigateto-macro-action"></a>Действия макроса NavigateTo
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **NavigateTo** можно использовать для управления отображением объектов базы данных в области навигации. Например можно изменить как классифицируются объекты базы данных и объекты можно отфильтровать так, чтобы отображались только некоторые из них.
 

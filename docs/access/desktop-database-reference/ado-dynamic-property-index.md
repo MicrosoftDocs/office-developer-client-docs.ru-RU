@@ -1,22 +1,22 @@
 ---
-title: ADO Dynamic Property Index
+title: Индекс динамические свойства ADO
 TOCTitle: ADO Dynamic Property Index
 ms:assetid: 437beced-b97a-894d-b08f-4a322629a5a6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58e9029e7c78a6cbde97973ee7fc482fb116c3f2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6f385f3637f9a64ff94d571345d88fbaa088d126
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480136"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876066"
 ---
-# <a name="ado-dynamic-property-index"></a>ADO Dynamic Property Index
+# <a name="ado-dynamic-property-index"></a>Индекс динамические свойства ADO
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Поставщики данных, поставщиков услуг и компоненты службы можно добавить динамические свойства коллекции **свойств** объектов неоткрытый [подключения](connection-object-ado.md) и [набора записей](recordset-object-ado.md) . Данный поставщик также вставить дополнительные свойства при открытии эти объекты. В разделе [Свойства динамического ADO](ado-dynamic-properties.md) перечислены некоторые из этих свойств. Больше, указанных для конкретных поставщиков в разделе [Приложение а: поставщиков](appendix-a-providers.md) .
 

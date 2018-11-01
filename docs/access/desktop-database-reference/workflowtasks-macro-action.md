@@ -1,5 +1,5 @@
 ---
-title: WorkflowTasks Macro Action
+title: Действия макроса WorkflowTasks
 TOCTitle: WorkflowTasks Macro Action
 ms:assetid: 4b299681-b45b-f6d1-2cfe-ebf01712bfc1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193503(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm8454
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 29bd256c08a3b7c650609bc9b365436e5d332b8d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1bbb04600dc6f7ecea4ce9084b146d3bf696cd6b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481113"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878124"
 ---
-# <a name="workflowtasks-macro-action"></a>WorkflowTasks Macro Action
+# <a name="workflowtasks-macro-action"></a>Действия макроса WorkflowTasks
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы открыть диалоговое окно **Задачи рабочего процесса** можно использовать действие **WorkflowTasks** .
 

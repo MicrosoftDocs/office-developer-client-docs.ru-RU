@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: описание HelpContext, пример свойств HelpFile (VJ ++) TOCTitle: описание, HelpContext, файл справки, NativeError, номер, источника и пример свойств SQLState (VJ ++) === название: описание, HelpContext, пример свойств HelpFile (VJ ++) TOCTitle: пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState (VJ ++)
->>>>>>> главные ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15) ms:contentKeyID: 48548085 ms.date: 09/18/2015 mtps_version: v=office.15
+title: 'Пример: свойства Description, HelpContext, HelpFile (VJ ++)'
+TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)
+ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15)
+ms:contentKeyID: 48548085
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 75ba9554b4c4d6e2da82a0fe13437a3bebea3d07
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880917"
 ---
-
-<<<<<<< HEAD
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a>Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++)
-=======
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a>Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState (VJ ++)
->>>>>>> master
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a>Пример использования свойств Description, HelpContext, HelpFile, NativeError, Number, Source и SQLState (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере вызывает ошибку, его перехватывает и отображает [Описание](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [файл справки](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [номер](number-property-ado.md), [источника](source-property-ado-error.md)и свойства [SQLState](sqlstate-property-ado.md) итоговый [Ошибка](error-object-ado.md) объект.
 

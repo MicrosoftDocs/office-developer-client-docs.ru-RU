@@ -1,5 +1,5 @@
 ---
-title: ApplyFilter Macro Action
+title: Действия ApplyFilter макроса
 TOCTitle: ApplyFilter Macro Action
 ms:assetid: c63988c4-4506-cc51-98f7-478d1f3fe668
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823130(v=office.15)
@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fc90d6cc2cdb3f4bbee4faeb48e12555c14fa9a1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c5d75ee8e4d9fdbd2ab922bd2ed7a8c0dc5fa846
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481114"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874506"
 ---
-# <a name="applyfilter-macro-action"></a>ApplyFilter Macro Action
+# <a name="applyfilter-macro-action"></a>Действия ApplyFilter макроса
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы применить фильтр, запрос или инструкцию SQL в таблице, форму или отчет, чтобы ограничить или сортировки записей в таблице или записей из базовой таблицы или запроса формы или отчета можно использовать **ПрименитьФильтр** . Для отчетов это действие можно использовать только в макросе, указанном в свойстве события **формы** отчета.
 

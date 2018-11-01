@@ -1,15 +1,21 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство SortOrder (VB): пример свойства SortOrder (VB) === название: пример свойства SortOrder (VB) TOCTitle: пример свойства SortOrder (VB)
->>>>>>> главные ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15) ms:contentKeyID: 48546472 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства SortOrder (VB)
+TOCTitle: SortOrder property example (VB)
+ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
+ms:contentKeyID: 48546472
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 051f0ce18cf12ef2d3450dbf9ecc27ebb36134a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874239"
 ---
+# <a name="sortorder-property-example-vb"></a>Пример использования свойства SortOrder (VB)
 
-<<<<<<< HEAD
-# <a name="sortorder-property-example-vb"></a>SortOrder Property Example (VB)
-=======
-# <a name="sortorder-property-example-vb"></a>Пример свойства SortOrder (VB)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [SortOrder](sortorder-property-adox.md) [столбец](column-object-adox.md) , который был добавлен к коллекции [столбцов](columns-collection-adox.md) из [индекса](index-object-adox.md). Код добавляет по возрастанию индекс столбца страны в таблице **сотрудников** , а затем отображаются записи. Затем код добавляет по убыванию индекс столбца страны в таблице **Employees** и отображаются записи еще раз. Показаны различия между по возрастанию и по убыванию индексов.
 

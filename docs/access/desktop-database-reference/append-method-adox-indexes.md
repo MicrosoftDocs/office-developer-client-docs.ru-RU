@@ -1,22 +1,22 @@
 ---
-title: Append Method (ADOX Indexes)
+title: Добавьте метод (ADOX индексов)
 TOCTitle: Append Method (ADOX Indexes)
 ms:assetid: 015ebab4-5e9d-8777-ac82-4d20e957c274
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248784(v=office.15)
 ms:contentKeyID: 48542933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f91535075c2782861dc409a6c527f159cd5458a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2b2786de4d1fde2e67e576c2bc81733b1a877a80
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480581"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875128"
 ---
-# <a name="append-method-adox-indexes"></a>Append Method (ADOX Indexes)
+# <a name="append-method-adox-indexes"></a>Добавьте метод (ADOX индексов)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249183(v=office.15)
 ms:contentKeyID: 48544428
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 82983aaad7f684a84fca54a49d0f5b0d8df36f3f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 32218186c9d670ab2c116bf77df2f7086b91929f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480798"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881183"
 ---
 # <a name="users-collection-adox-reference"></a>Users Collection (ADOX) Reference
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [Users Collection (ADOX)](users-collection-adox.md)
+  - [Коллекция пользователей (ADOX)](users-collection-adox.md)
 
-  - [Users Collection Properties, Methods, and Events (ADOX)](users-collection-properties-methods-and-events-adox.md)
+  - [Свойства коллекции пользователей, методы и события (ADOX)](users-collection-properties-methods-and-events-adox.md)
 

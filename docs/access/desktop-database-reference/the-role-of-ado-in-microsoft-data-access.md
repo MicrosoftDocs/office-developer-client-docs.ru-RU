@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250180(v=office.15)
 ms:contentKeyID: 48548433
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d5c9f83299ec297a351f6489d35ea42765ff9f4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 23502ec1bc4ebd0bcdbca17763c2e9dd467d8793
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480622"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884522"
 ---
 # <a name="the-role-of-ado-in-microsoft-data-access"></a>The Role of ADO in Microsoft Data Access
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Компоненты доступа к данным Microsoft (MDAC) обеспечивают доступ к данным, которое не зависит от хранилища данных, средств и языков. Она предоставляет высокого уровня, простой в использовании интерфейс и интерфейс низкого уровня, высокой производительности практически все доступные хранилище данных. Эта гибкость можно использовать для интеграции различных хранилищах и используйте Выбор средств, приложений и служб платформы для создания решений правой вашим потребностям. Эти технологии предоставляют основную структуру для доступа к данным общего назначения в операционных системах Microsoft Windows.
 

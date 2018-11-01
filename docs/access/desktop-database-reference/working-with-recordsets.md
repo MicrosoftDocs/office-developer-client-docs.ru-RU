@@ -1,22 +1,22 @@
 ---
-title: Working with Recordsets
+title: Работа с наборами записей
 TOCTitle: Working with Recordsets
 ms:assetid: 9cd52866-2738-8150-381c-eee0b8a6cd36
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab78043392801f04a85a80c103c7afad6091b30b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d57f05905aa0f79c1a72638e70ede8bdabf73b8f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481022"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883689"
 ---
-# <a name="working-with-recordsets"></a>Working with Recordsets
+# <a name="working-with-recordsets"></a>Работа с наборами записей
 
 
-**Применимо к**: Access 2013 | Office 2013 
+**Применимо к**: Access 2013, Office 2013 
 
 Объект **набора записей** содержит встроенные функции, которые позволяют изменить порядок данные в результате задать, для поиска конкретных записей по критерии, по которым вы задаете и даже для оптимизации тех поиска операций с помощью индексов. Эти возможности доступны для использования зависит от поставщика и в некоторых случаях — например, свойство [Index](index-property-ado.md) — Структура самого источника данных.
 

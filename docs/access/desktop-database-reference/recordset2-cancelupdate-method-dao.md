@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
 ms:contentKeyID: 48548761
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2d22f37dbc26c1742f6042d612210135bf8662bd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a8517e21382bd69cb4dafb86b9b9a016a5e11473
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483219"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883374"
 ---
 # <a name="recordset2cancelupdate-method-dao"></a>Recordset2.CancelUpdate Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Отменяет все ожидающие обновления для объекта **[набора записей](recordset-object-dao.md)** .
 

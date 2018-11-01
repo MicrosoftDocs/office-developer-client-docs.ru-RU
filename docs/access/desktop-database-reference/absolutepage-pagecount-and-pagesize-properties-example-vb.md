@@ -1,22 +1,25 @@
 ---
-<<<<<<< Название HEAD: AbsolutePage, PageCount и TOCTitle пример свойства PageSize (VB): ms:assetid AbsolutePage, PageCount и пример свойства PageSize (VB): bd13fb6c-8ee4-7475-ef2d-9067e30918de ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15) MS:contentKeyID: 48547426 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств AbsolutePage, PageCount и PageSize (VB)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VB)
+ms:assetid: bd13fb6c-8ee4-7475-ef2d-9067e30918de
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15)
+ms:contentKeyID: 48547426
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 0b98557f4c5906c5d1952f635c9967e3b280cbae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885075"
 ---
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a>AbsolutePage, PageCount, and PageSize Properties Example (VB)
-=== Название: AbsolutePage, PageCount и PageSize пример свойств (VB) TOCTitle: AbsolutePage, PageCount и PageSize ms:assetid пример (VB) свойства: bd13fb6c-8ee4-7475-ef2d-9067e30918de ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15) ms:contentKeyID: 48547426 MS.Date: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a>Пример свойства AbsolutePage, PageCount и PageSize (VB)
->>>>>>> master
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a>Пример использования свойств AbsolutePage, PageCount и PageSize (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-<a name="-head"></a><<<<<<< HEAD
-=======
 В этом примере с помощью свойства [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md)и [PageSize](pagesize-property-ado.md) отображаемые имена и даты в таблице ***сотрудников*** пять записей во время приема на работу.
 
->>>>>>> master
 ```vb 
  
 'BeginAbsolutePageVB 

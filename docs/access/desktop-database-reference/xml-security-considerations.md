@@ -1,24 +1,24 @@
 ---
-title: XML Security Considerations
+title: Рекомендации по безопасности XML
 TOCTitle: XML Security Considerations
 ms:assetid: ef2c7f59-f5a2-98d1-37c6-42cb35b26a40
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250214(v=office.15)
 ms:contentKeyID: 48548575
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3120db77ba89aee1036de4d6fa85df73c21d26d9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 69672b2993cb91ace5bd447b762f33fcbd66c1bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482429"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868492"
 ---
-# <a name="xml-security-considerations"></a>XML Security Considerations
+# <a name="xml-security-considerations"></a>Рекомендации по безопасности XML
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-## <a name="xml-security-considerations"></a>XML Security Considerations
+## <a name="xml-security-considerations"></a>Рекомендации по безопасности XML
 
 Методы ADO **сохранения** и **открытия** в объекте **набора записей** , не считаются безопасных операций для запуска в Internet Explorer. Таким образом Если эти методы используются в коде скрипта, который работает в приложения или элемента управления, которая размещается в браузере, настройка безопасности обозревателя будут иметь влияет на поведение.
 

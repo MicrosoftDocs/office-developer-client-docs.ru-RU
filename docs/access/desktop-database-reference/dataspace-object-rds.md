@@ -1,21 +1,21 @@
 ---
-title: DataSpace Object (RDS)
+title: Объект пространства данных (RDS)
 TOCTitle: DataSpace Object (RDS)
 ms:assetid: 7db181d5-422b-49fe-b6af-a20f5da520ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249527(v=office.15)
 ms:contentKeyID: 48545862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2466727f52a37d396e7478fa54d27a68158855a4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1715a1d1207955d47897fee8ba191117bcfaa244
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480175"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882919"
 ---
-# <a name="dataspace-object-rds"></a>DataSpace Object (RDS)
+# <a name="dataspace-object-rds"></a>Объект пространства данных (RDS)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Создает прокси-серверы со стороны клиента и настраиваемых бизнес-объектов, расположенной на среднем уровне.
 

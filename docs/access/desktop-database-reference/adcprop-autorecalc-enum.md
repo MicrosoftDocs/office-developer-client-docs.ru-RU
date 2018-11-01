@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249502(v=office.15)
 ms:contentKeyID: 48545779
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: b9c1aff21b62eff061a3f68ef3ad56e07e46388d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d8f8a8f3ea27ff40c059ceada6d7f6df65b79664
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860086"
+ms.locfileid: "25867176"
 ---
 # <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_ENUM
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает, когда поставщик [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) повторно вычисляет статистические и вычисляемых столбцов в иерархической записей.
 

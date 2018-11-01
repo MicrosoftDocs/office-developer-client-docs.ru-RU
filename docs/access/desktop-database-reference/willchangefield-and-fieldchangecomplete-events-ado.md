@@ -1,22 +1,22 @@
 ---
-title: WillChangeField and FieldChangeComplete Events (ADO)
+title: WillChangeField и FieldChangeComplete события (ADO)
 TOCTitle: WillChangeField and FieldChangeComplete Events (ADO)
 ms:assetid: bc4455a6-2925-33dc-d04f-8ea570e5e370
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
 ms:contentKeyID: 48547407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 40e9572988ca3335ef93ecf46d00a716ba29c595
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aa26ff85bfb3a2b5666b98ea6ab6b30e689b5c2b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481959"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872692"
 ---
-# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>WillChangeField and FieldChangeComplete Events (ADO)
+# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>WillChangeField и FieldChangeComplete события (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Событие **WillChangeField** вызывается перед ожидающие операции изменяется значение один или несколько объектов [поля](field-object-ado.md) в [набора записей](recordset-object-ado.md). Событие **FieldChangeComplete** вызывается после изменения значения одного или нескольких объектов **поля** .
 

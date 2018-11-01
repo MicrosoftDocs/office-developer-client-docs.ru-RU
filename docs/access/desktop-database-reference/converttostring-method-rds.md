@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7483144ff3ab9b93ae35bdebff951c5b4415786c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0820aec3ce8606f5f8f0fcb8dac838ae7bbd15d8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860513"
+ms.locfileid: "25869131"
 ---
 # <a name="converttostring-method-rds"></a>Метод ConvertToString (RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013 
+**Применимо к**: Access 2013, Office 2013 
 
 Преобразование [набора записей](recordset-object-ado.md) MIME строку, представляющую данных набора записей.
 

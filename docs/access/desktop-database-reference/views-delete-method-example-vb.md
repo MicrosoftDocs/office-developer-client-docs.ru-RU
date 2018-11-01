@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249194(v=office.15)
 ms:contentKeyID: 48544474
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 251a8429e11a59d9276c79034c68860375cba7e7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4a016a0be48dfd91ad288937584b0d928c960e01
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861073"
+ms.locfileid: "25868674"
 ---
 # <a name="views-delete-method-example-vb"></a>Пример использования метода Delete для коллекции Views (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Приведенный ниже код показано, как использовать метод [Delete](delete-method-adox-collections.md) для удаления представления из каталога.
 

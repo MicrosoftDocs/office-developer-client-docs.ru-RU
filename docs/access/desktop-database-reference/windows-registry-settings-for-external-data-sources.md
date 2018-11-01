@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161249(v=office.15)
 ms:contentKeyID: 52074216
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5fb0a569ab3badefd8b94e2ca374d6191d1eab4d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: acef0ad6f64ffbbf12ebffd381bc4de39398bf33
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481812"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873112"
 ---
 # <a name="windows-registry-settings-for-external-data-sources"></a>Параметры реестра Windows для внешних источников данных
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-- [Настройка параметров реестра Windows для ядро базы данных Microsoft Access](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
+- [Настройка параметров реестра Windows для ядра СУБД Microsoft Access](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
 
 - [Инициализация драйвера Microsoft Excel](initializing-the-microsoft-excel-driver.md)
 

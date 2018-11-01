@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
 ms:contentKeyID: 48545071
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: c7c930ddd550d7c919b033e098bc95fa03806bbc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: bac61333ab9d8c7abdbbb23a8207716f50c4ac21
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863544"
+ms.locfileid: "25879096"
 ---
 # <a name="ruleenum"></a>RuleEnum
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает правило, которое следует придерживаться при удалении [ключа](key-object-adox.md) .
 

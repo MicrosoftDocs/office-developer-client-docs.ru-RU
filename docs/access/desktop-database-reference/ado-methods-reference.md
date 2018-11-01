@@ -6,118 +6,118 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249497(v=office.15)
 ms:contentKeyID: 48545759
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 828ff68f8515239d36c3e6a47f418a41c12fd508
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f67482304d7971f9397ad2550ced601f3c3d6158
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483178"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886671"
 ---
 # <a name="ado-methods-reference"></a>ADO Methods Reference
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
-  - [ADO Methods](ado-methods.md)
+  - [Методы ADO](ado-methods.md)
 
-  - [AddNew Method (ADO)](addnew-method-ado.md)
+  - [Метод AddNew (ADO)](addnew-method-ado.md)
 
-  - [Append Method (ADO)](append-method-ado.md)
+  - [Добавьте метод (ADO)](append-method-ado.md)
 
-  - [AppendChunk Method (ADO)](appendchunk-method-ado.md)
+  - [Метод AppendChunk (ADO)](appendchunk-method-ado.md)
 
-  - [BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)](begintrans-committrans-and-rollbacktrans-methods-ado.md)
+  - [BeginTrans CommitTrans и методы RollbackTrans (ADO)](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 
-  - [Cancel Method (ADO)](cancel-method-ado.md)
+  - [Метод Cancel (ADO)](cancel-method-ado.md)
 
-  - [CancelBatch Method (ADO)](cancelbatch-method-ado.md)
+  - [Метод CancelBatch (ADO)](cancelbatch-method-ado.md)
 
-  - [CancelUpdate Method (ADO)](cancelupdate-method-ado.md)
+  - [Метод CancelUpdate (ADO)](cancelupdate-method-ado.md)
 
-  - [Clear Method (ADO)](clear-method-ado.md)
+  - [Метод Clear (ADO)](clear-method-ado.md)
 
-  - [Clone Method (ADO)](clone-method-ado.md)
+  - [Клонирование метод (ADO)](clone-method-ado.md)
 
-  - [Close Method (ADO)](close-method-ado.md)
+  - [Закройте метод (ADO)](close-method-ado.md)
 
-  - [CompareBookmarks Method (ADO)](comparebookmarks-method-ado.md)
+  - [Метод CompareBookmarks (ADO)](comparebookmarks-method-ado.md)
 
-  - [CopyRecord Method (ADO)](copyrecord-method-ado.md)
+  - [Метод CopyRecord (ADO)](copyrecord-method-ado.md)
 
-  - [CopyTo Method (ADO)](copyto-method-ado.md)
+  - [Метод CopyTo (ADO)](copyto-method-ado.md)
 
-  - [CreateParameter Method (ADO)](createparameter-method-ado.md)
+  - [Метод CreateParameter (ADO)](createparameter-method-ado.md)
 
-  - [Delete Method (ADO Fields Collection)](delete-method-ado-fields-collection.md)
+  - [Метод Delete (ADO поля семейства сайтов)](delete-method-ado-fields-collection.md)
 
-  - [Delete Method (ADO Parameters Collection)](delete-method-ado-parameters-collection.md)
+  - [Удаление метода (коллекции параметров ADO)](delete-method-ado-parameters-collection.md)
 
-  - [Delete Method (ADO Recordset)](delete-method-ado-recordset.md)
+  - [Удаление метода (записей ADO)](delete-method-ado-recordset.md)
 
-  - [DeleteRecord Method (ADO)](deleterecord-method-ado.md)
+  - [Метод макрокоманду УдалитьЗапись (ADO)](deleterecord-method-ado.md)
 
-  - [Find Method (ADO)](find-method-ado.md)
+  - [Найти метод (ADO)](find-method-ado.md)
 
-  - [Flush Method (ADO)](flush-method-ado.md)
+  - [Очистка метод (ADO)](flush-method-ado.md)
 
-  - [GetChildren Method (ADO)](getchildren-method-ado.md)
+  - [Метод GetChildren (ADO)](getchildren-method-ado.md)
 
-  - [GetChunk Method (ADO)](getchunk-method-ado.md)
+  - [Метод GetChunk (ADO)](getchunk-method-ado.md)
 
-  - [GetRows Method (ADO)](getrows-method-ado.md)
+  - [Метод получения строк (ADO)](getrows-method-ado.md)
 
-  - [GetString Method (ADO)](getstring-method-ado.md)
+  - [Метод GetString (ADO)](getstring-method-ado.md)
 
-  - [LoadFromFile Method (ADO)](loadfromfile-method-ado.md)
+  - [Метод LoadFromFile (ADO)](loadfromfile-method-ado.md)
 
-  - [Move Method (ADO)](move-method-ado.md)
+  - [Метод Move (ADO)](move-method-ado.md)
 
-  - [MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (ADO)](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+  - [MoveFirst, MoveLast, MoveNext и методы MovePrevious (ADO)](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 
-  - [MoveRecord Method (ADO)](moverecord-method-ado.md)
+  - [Метод MoveRecord (ADO)](moverecord-method-ado.md)
 
-  - [NextRecordset Method (ADO)](nextrecordset-method-ado.md)
+  - [Метод NextRecordset (ADO)](nextrecordset-method-ado.md)
 
-  - [Open Method (ADO Connection)](open-method-ado-connection.md)
+  - [Метод Open (ADO-подключение)](open-method-ado-connection.md)
 
-  - [Open Method (ADO Record)](open-method-ado-record.md)
+  - [Метод Open (ADO запись)](open-method-ado-record.md)
 
-  - [Open Method (ADO Recordset)](open-method-ado-recordset.md)
+  - [Метод Open (записей ADO)](open-method-ado-recordset.md)
 
-  - [Open Method (ADO Stream)](open-method-ado-stream.md)
+  - [Метод Open (ADO потока)](open-method-ado-stream.md)
 
-  - [OpenSchema Method (ADO)](openschema-method-ado.md)
+  - [Метод OpenSchema (ADO)](openschema-method-ado.md)
 
-  - [Read Method (ADO)](read-method-ado.md)
+  - [Метод Read (ADO)](read-method-ado.md)
 
-  - [ReadText Method (ADO)](readtext-method-ado.md)
+  - [Метод ReadText (ADO)](readtext-method-ado.md)
 
-  - [Refresh Method (ADO)](refresh-method-ado.md)
+  - [Обновления метода (ADO)](refresh-method-ado.md)
 
-  - [Requery Method (ADO)](requery-method-ado.md)
+  - [Повторный запрос метод (ADO)](requery-method-ado.md)
 
-  - [Resync Method (ADO)](resync-method-ado.md)
+  - [Выполнить повторную синхронизацию метод (ADO)](resync-method-ado.md)
 
-  - [Save Method (ADO)](save-method-ado.md)
+  - [Сохраните метод (ADO)](save-method-ado.md)
 
-  - [SaveToFile Method (ADO)](savetofile-method-ado.md)
+  - [Метод SaveToFile (ADO)](savetofile-method-ado.md)
 
-  - [Seek Method (ADO)](seek-method-ado.md)
+  - [Способ (ADO)](seek-method-ado.md)
 
-  - [SetEOS Method (ADO)](seteos-method-ado.md)
+  - [Метод SetEOS (ADO)](seteos-method-ado.md)
 
-  - [SkipLine Method (ADO)](skipline-method-ado.md)
+  - [Метод SkipLine (ADO)](skipline-method-ado.md)
 
-  - [Stat Method (ADO)](stat-method-ado.md)
+  - [Метод stat (ADO)](stat-method-ado.md)
 
-  - [Supports Method (ADO)](supports-method-ado.md)
+  - [Поддержка метода (ADO)](supports-method-ado.md)
 
-  - [Update Method (ADO)](update-method-ado.md)
+  - [Метод Update (ADO)](update-method-ado.md)
 
-  - [UpdateBatch Method (ADO)](updatebatch-method-ado.md)
+  - [Метод UpdateBatch (ADO)](updatebatch-method-ado.md)
 
-  - [Write Method (ADO)](write-method-ado.md)
+  - [Создание метода (ADO)](write-method-ado.md)
 
-  - [WriteText Method (ADO)](writetext-method-ado.md)
+  - [Метод WriteText (ADO)](writetext-method-ado.md)
 

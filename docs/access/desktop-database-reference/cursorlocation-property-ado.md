@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство CursorLocation (ADO): свойство CursorLocation (ADO) === название: свойство CursorLocation (ADO) TOCTitle: свойство CursorLocation (ADO)
->>>>>>> главные ms:assetid: 8a048bd4-ae25-a555-1c07-14364b7e6560 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15) ms:contentKeyID: 48546182 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство CursorLocation (ADO)
+TOCTitle: CursorLocation property (ADO)
+ms:assetid: 8a048bd4-ae25-a555-1c07-14364b7e6560
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
+ms:contentKeyID: 48546182
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7716e6de9fbda6ffab8071d5d794465efb6a51c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870165"
 ---
-
-<<<<<<< HEAD
-# <a name="cursorlocation-property-ado"></a>CursorLocation Property (ADO)
-=======
 # <a name="cursorlocation-property-ado"></a>Свойство CursorLocation (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает расположение службы курсора.
 

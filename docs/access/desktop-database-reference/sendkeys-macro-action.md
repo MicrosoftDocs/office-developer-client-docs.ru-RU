@@ -1,5 +1,5 @@
 ---
-title: SendKeys Macro Action
+title: Действие SendKeys макросов
 TOCTitle: SendKeys Macro Action
 ms:assetid: 3b06fcfc-ea64-c780-b5fc-6fc72853f524
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192656(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 005f139af44249e3029441d362db895969c9fefc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f8ddc6c19f675db7cc04cb46a24e0f42ac991df
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480059"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881358"
 ---
-# <a name="sendkeys-macro-action"></a>SendKeys Macro Action
+# <a name="sendkeys-macro-action"></a>Действие SendKeys макросов
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 <table>
 <thead>

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124596(v=office.15)
 ms:contentKeyID: 52072219
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 71239f18601055befa24959551c88d0b8d0c4dcf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1b6e329b28d4a708f3825b55cf15476059a82593
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481672"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867183"
 ---
 # <a name="relations-methods-dao"></a>Relations Methods (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052886
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: abb99f58b151c9bafe554486f8b6f1308322560f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 943fdbace196d79c4f8830e44354e77275286cca
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481691"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879517"
 ---
 # <a name="recordset2eof-property-dao"></a>Recordset2.EOF Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает значение, указывающее, является ли положение текущей записи после последней записи в объекте **набора записей** . Только для чтения, **Boolean**.
 

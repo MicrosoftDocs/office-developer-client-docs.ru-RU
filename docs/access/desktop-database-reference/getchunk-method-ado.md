@@ -1,22 +1,22 @@
 ---
-title: GetChunk Method (ADO)
+title: Метод GetChunk (ADO)
 TOCTitle: GetChunk Method (ADO)
 ms:assetid: 1ef1c37a-8453-8d3b-251a-d16e0d519fd7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae3cc867c00930c71d379e8ce5bb139075d229d8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 77726a20decd8029d4ced8198ac1bb622a1c6b11
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602505"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881519"
 ---
-# <a name="getchunk-method-ado"></a>GetChunk Method (ADO)
+# <a name="getchunk-method-ado"></a>Метод GetChunk (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Возвращает все или часть содержимого большого текстового или объекта [поля](field-object-ado.md) двоичных данных.
@@ -25,11 +25,7 @@ ms.locfileid: "25602505"
 
 *переменная* = *поля*. Методы GetChunk (*размер* )
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Возвращает значение **типа Variant**.
 

@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство Mode (ADO): свойство Mode (ADO) === название: свойство Mode (ADO) TOCTitle: свойство Mode (ADO)
->>>>>>> главные ms:assetid: 62086f4f-8624-16c4-dae1-a17475d1864d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249365(v=office.15) ms:contentKeyID: 48545227 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство Mode (ADO)
+TOCTitle: Mode property (ADO)
+ms:assetid: 62086f4f-8624-16c4-dae1-a17475d1864d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249365(v=office.15)
+ms:contentKeyID: 48545227
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 74b0a401c5fbd7e34cbd002020d81b9b0858e4f7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874281"
 ---
-
-<<<<<<< HEAD
-# <a name="mode-property-ado"></a>Mode Property (ADO)
-=======
 # <a name="mode-property-ado"></a>Свойство Mode (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает, доступные права на изменение данных в объекте [подключения](connection-object-ado.md), [запись](record-object-ado.md)или [потока](stream-object-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает значение [ConnectModeEnum](connectmodeenum.md) . Значение по умолчанию для **подключения к** : **adModeUnknown**. Значение по умолчанию для объекта **записи** — **adModeRead**. Значение по умолчанию для **потока** , связанного с базовым источником (открывается URL-адрес, как источник или **потока** **записи**по умолчанию) — **adModeRead**. Значение по умолчанию для **потока** , не связанные с базовым источником (создания экземпляра в памяти) — **adModeUnknown**.
 

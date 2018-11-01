@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250306(v=office.15)
 ms:contentKeyID: 48548935
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3c5d05c958a30f1ec5782a5dce0dd66ccd5dad4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c362e87f3e962586c2bd821bd6facb35966a77f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480112"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886839"
 ---
-# <a name="using-bookmarks"></a>Using Bookmarks
+# <a name="using-bookmarks"></a>Использование закладок
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Часто полезно для возврата непосредственно к определенной записи после без необходимости прокручивать все записи и сравните значения перемещать в **набора записей** . Например при попытке поиска с помощью метода **Найти** записи, но поиск не возвращает записи, вы автоматически помещаются на любом конце **набора записей**. Если ваш поставщик поддерживает их, чтобы отметить место перед использованием метода **Поиск** , чтобы можно было вернуться к папке можно использовать закладки. Закладки — это значение типа **Variant** , уникально идентифицирующее запись в объект **набора записей** .
 

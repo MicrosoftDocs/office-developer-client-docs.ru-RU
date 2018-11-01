@@ -1,30 +1,26 @@
 ---
-title: Type Property (ADO Stream)
+title: Свойство Type (ADO потока)
 TOCTitle: Type Property (ADO Stream)
 ms:assetid: 43872c74-51bf-47ae-6bdc-55d25b0dc84a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249203(v=office.15)
 ms:contentKeyID: 48544505
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2fdf3f40565f41a3d34b2202c4e079839af1f1ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: a1101742e8c82b0eebcb0d260825f01905cb92a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602743"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868730"
 ---
-# <a name="type-property-ado-stream"></a>Type Property (ADO Stream)
+# <a name="type-property-ado-stream"></a>Свойство Type (ADO потока)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает тип данных, содержащихся в [потоке](stream-object-ado.md) (двоичный или текст).
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает [StreamTypeEnum](streamtypeenum.md) значение, задающее тип данных, содержащихся в объекте **потока** . Значение по умолчанию — **adTypeText**. Тем не менее если изначально двоичные данные записываются новый, пустой **поток**, **Тип** будет изменено на **adTypeBinary**.
 

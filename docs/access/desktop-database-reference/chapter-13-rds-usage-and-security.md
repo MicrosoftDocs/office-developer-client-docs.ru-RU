@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249495(v=office.15)
 ms:contentKeyID: 48545756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 439225d1307e37ea367f0ac5121fdd138f54e2ec
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4250235d433572944d311611c909c060d2e69da9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860319"
+ms.locfileid: "25876108"
 ---
 # <a name="chapter-13-rds-usage-and-security"></a>Глава 13. Безопасность и использование RDS
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Используйте сведения в этой главе, чтобы настроить сервер быстро и использовать служб удаленных рабочих СТОЛОВ. В этой главе включает действия по настройке определенных, которые могут потребоваться при реализации служб удаленных рабочих СТОЛОВ, описываются некоторые основные отношения между служб удаленных рабочих СТОЛОВ и другие технологии, и помогает определить решения проблем, которые могут возникнуть при настройке Решение для служб удаленных рабочих СТОЛОВ.
 

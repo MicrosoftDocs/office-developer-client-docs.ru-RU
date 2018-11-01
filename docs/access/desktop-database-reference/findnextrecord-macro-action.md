@@ -1,5 +1,5 @@
 ---
-title: FindNextRecord Macro Action
+title: Действия макроса FindNextRecord
 TOCTitle: FindNextRecord Macro Action
 ms:assetid: 57fb6457-9098-4e81-c693-78ccd262ce0b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194307(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b58478a67468fa7d00c348066459672bc31c52a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05dec445360d5c42636880982e27e0abd46d048e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482356"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883654"
 ---
-# <a name="findnextrecord-macro-action"></a>FindNextRecord Macro Action
+# <a name="findnextrecord-macro-action"></a>Действия макроса FindNextRecord
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **FindNextRecord** можно использовать для поиска следующую запись, которая соответствует условиям, указанным **предыдущей НайтиЗапись** или значение в диалоговом окне **Поиск и замена** (на вкладке **Главная** нажмите кнопку **Найти**). Действие **FindNextRecord** можно использовать для поиска записей несколько раз. Например можно последовательно по всем записям для конкретного клиента.
 

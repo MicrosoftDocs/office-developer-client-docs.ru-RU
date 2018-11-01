@@ -1,22 +1,22 @@
 ---
-title: Transaction Processing
+title: Обработка транзакций
 TOCTitle: Transaction Processing
 ms:assetid: 7cacf3bb-e523-8739-f9ff-c8663c9ddfeb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249523(v=office.15)
 ms:contentKeyID: 48545842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a598b2842638b0c58e72ef2b802c8214f5c72b8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf12c224de0593fa3202ab74cdd0c5346c9570a8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481006"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874197"
 ---
-# <a name="transaction-processing"></a>Transaction Processing
+# <a name="transaction-processing"></a>Обработка транзакций
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ADO предоставляет следующие методы для управления транзакции: **BeginTrans** **CommitTrans**и **RollbackTrans**. Использование этих методов с объектом **подключения** необходимо сохранить или отменить ряд изменений, внесенных в источник данных как единый элемент. К примеру деньги переключение между учетными записями, вы вычесть сумму из одного и добавьте совпадает со значением в другой. Если либо обновить возникает ошибка, больше не сбалансировать учетные записи. Эти изменения в открытую операцию гарантирует, что все или изменения проходят через.
 

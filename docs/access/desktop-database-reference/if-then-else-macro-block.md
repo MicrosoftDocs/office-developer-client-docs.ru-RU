@@ -1,22 +1,22 @@
 ---
-title: If...Then...Else Macro Block
+title: If... Затем... Блок else макросов
 TOCTitle: If...Then...Else Macro Block
 ms:assetid: 0c4a4b7a-4fdb-9dbc-a94e-939a2ff1c0e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
 ms:contentKeyID: 48543188
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79e5379ad2c50eff3ddf12b597defc7b85cefb39
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c7c6842e8463250f6575cfc85364ec3bff7aba1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483179"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876045"
 ---
-# <a name="ifthenelse-macro-block"></a>If...Then...Else Macro Block
+# <a name="ifthenelse-macro-block"></a>If... Затем... Блок else макросов
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Можно использовать макрос блок **If** позволяет выполнять группу действия в зависимости от значения выражения.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: ADO NumericScale и TOCTitle пример свойств точности (VC ++): NumericScale и пример: свойства точности (VC ++) === название: пример: свойства ADO NumericScale и точность (VC ++) TOCTitle: Пример: свойства NumericScale и точность (VC ++)
->>>>>>> главные ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15) ms:contentKeyID: 48548611 ms.date: 09/18/2015 mtps_version: v=office.15
+title: 'Пример: свойства ADO NumericScale и точность (VC ++)'
+TOCTitle: NumericScale and Precision properties example (VC++)
+ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15)
+ms:contentKeyID: 48548611
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 00ed299c651e5c52971d00312541806dc15a20bb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868749"
 ---
-
-<<<<<<< HEAD
-# <a name="ado-numericscale-and-precision-properties-example-vc"></a>ADO NumericScale and Precision Properties Example (VC++)
-=======
 # <a name="ado-numericscale-and-precision-properties-example-vc"></a>Пример: свойства ADO NumericScale и точность (VC ++)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере с помощью свойства [NumericScale](numericscale-property-ado.md) и [точность](precision-property-ado.md) для отображения числовых масштаб и точность поля в таблице ***скидок*** базы данных ***Pubs*** .
 

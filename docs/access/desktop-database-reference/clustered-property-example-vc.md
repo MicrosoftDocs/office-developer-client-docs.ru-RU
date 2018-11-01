@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: кластерные пример свойства (VC ++) TOCTitle: кластерные пример свойства (VC ++) === название: пример кластерные свойства (VC ++) TOCTitle: пример кластерные свойства (VC ++)
->>>>>>> главные ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15) ms:contentKeyID: 48546761 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Clustered (VC++)
+TOCTitle: Clustered property example (VC++)
+ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
+ms:contentKeyID: 48546761
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8f7a57ee235f2bcf91c75abb99fa044d7e21a6c4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874484"
 ---
-
-<<<<<<< HEAD
-# <a name="clustered-property-example-vc"></a>Clustered Property Example (VC++)
-=======
-# <a name="clustered-property-example-vc"></a>Пример свойства кластерные (VC ++)
->>>>>>> master
+# <a name="clustered-property-example-vc"></a>Пример использования свойства Clustered (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [Clustered](clustered-property-adox.md) [индекса](index-object-adox.md). Обратите внимание, что баз данных Microsoft Jet не поддерживают кластеризованных индексов, поэтому этот пример возвращает **значение False** для свойства **Clustered** всех индексов в базе *данных "Борей"* .
 

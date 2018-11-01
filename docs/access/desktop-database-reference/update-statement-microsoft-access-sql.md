@@ -12,16 +12,16 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7a761fbc6404cf72818271b956bfc63516942d25
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4e7f27cb696b085b5c4536477ee3454df09cfabe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863285"
+ms.locfileid: "25881288"
 ---
 # <a name="update-statement-microsoft-access-sql"></a>Инструкция UPDATE (Microsoft Access SQL)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Создает запрос на обновление, которое изменяет значения в полях в указанной таблице на основании указанных критериев.
 

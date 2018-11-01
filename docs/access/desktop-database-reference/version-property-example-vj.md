@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство Version (VJ ++): примере свойство Version (VJ ++) === название: примере свойство Version (VJ ++) TOCTitle: примере свойство Version (VJ ++)
->>>>>>> главные ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15) ms:contentKeyID: 48547600 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Version (VJ++)
+TOCTitle: Version property example (VJ++)
+ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
+ms:contentKeyID: 48547600
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 185321327ed1718784fe6227f259347c0f8bb17d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889779"
 ---
-
-<<<<<<< HEAD
-# <a name="version-property-example-vj"></a>Version Property Example (VJ++)
-=======
-# <a name="version-property-example-vj"></a>Пример свойства версии (VJ ++)
->>>>>>> master
+# <a name="version-property-example-vj"></a>Пример использования свойства Version (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [Version](version-property-ado.md) объекта [подключения](connection-object-ado.md) для отображения текущая версия ADO. Он также использует несколько динамических свойств для отображения:
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249207(v=office.15)
 ms:contentKeyID: 48544534
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 54499cc9c8b45e411b4121963d1a571100b7e0e5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4c39d9ca7da2955343e38c67628c9c603a2c256b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860949"
+ms.locfileid: "25869808"
 ---
 # <a name="recordopenoptionsenum"></a>RecordOpenOptionsEnum
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает параметры открытия для [записи](record-object-ado.md). Эти значения можно объединять с помощью или.
 

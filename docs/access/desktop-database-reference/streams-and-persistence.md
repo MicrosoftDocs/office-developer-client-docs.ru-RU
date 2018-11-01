@@ -1,22 +1,22 @@
 ---
-title: Streams and Persistence
+title: Потоки и сохраняемость
 TOCTitle: Streams and Persistence
 ms:assetid: 564fc098-52bf-77d7-9d48-75186483e3fe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249289(v=office.15)
 ms:contentKeyID: 48544949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d47d7bb4d8e9243d48daf4ad7947cef2416d4004
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65fda92e28aab278fde4dafba4e94c576827370a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482213"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881750"
 ---
-# <a name="streams-and-persistence"></a>Streams and Persistence
+# <a name="streams-and-persistence"></a>Потоки и сохраняемость
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Хранилищ метод [Сохранить](save-method-ado.md) объект [набора записей](recordset-object-ado.md) , или *повторяется*, **записей** в файле и метод [Open](open-method-ado-recordset.md) восстанавливает **записей** из этого файла.
 

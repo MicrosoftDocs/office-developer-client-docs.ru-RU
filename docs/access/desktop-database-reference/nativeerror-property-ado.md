@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство NativeError (ADO): свойство NativeError (ADO) === заголовок: свойство NativeError (ADO) TOCTitle: свойство NativeError (ADO)
->>>>>>> главные ms:assetid: 9f4d4064-5ee7-20f8-fd54-2cb2eae64d7b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15) ms:contentKeyID: 48546685 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство NativeError (ADO)
+TOCTitle: NativeError property (ADO)
+ms:assetid: 9f4d4064-5ee7-20f8-fd54-2cb2eae64d7b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15)
+ms:contentKeyID: 48546685
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3d572e7629deca0c7732bafbdfdb0c600ce34a35
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880182"
 ---
-
-<<<<<<< HEAD
-# <a name="nativeerror-property-ado"></a>NativeError Property (ADO)
-=======
 # <a name="nativeerror-property-ado"></a>Свойство NativeError (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает код ошибки поставщика для того или иного объекта [ошибки](error-object-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Возвращает значение типа **Long** , указывающее код ошибки.
 

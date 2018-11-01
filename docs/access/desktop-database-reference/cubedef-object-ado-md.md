@@ -1,22 +1,22 @@
 ---
-title: CubeDef Object (ADO MD)
+title: Объект CubeDef (ADO MD)
 TOCTitle: CubeDef Object (ADO MD)
 ms:assetid: 199235b7-3d98-f655-27bc-94f66e994e06
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248941(v=office.15)
 ms:contentKeyID: 48543502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae0da646a4259f8a963ff55a8d92573830711508
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f7dc244483c3111e6e354496f1ffbbd12f463800
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481685"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878298"
 ---
-# <a name="cubedef-object-ado-md"></a>CubeDef Object (ADO MD)
+# <a name="cubedef-object-ado-md"></a>Объект CubeDef (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет куб из многомерных схемы, содержащая набор связанных измерений.
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cff7a319130786cfdab26546d49f83da5769c5f6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a70e5d1c19f4d92c4494071f78192ffb4e543ad7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482009"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882387"
 ---
 # <a name="field2defaultvalue-property-dao"></a>Field2.DefaultValue Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Задает или возвращает значение по умолчанию объекта **поле2** . Для объекта **поле2** , еще не добавляется в конец коллекции **[полей](fields-collection-dao.md)** это свойство является чтение/запись (только для рабочих областей Microsoft Access).
@@ -56,7 +56,7 @@ ms.locfileid: "25482009"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект индекса</p></td>
+<td><p>Объект Index</p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
@@ -64,11 +64,11 @@ ms.locfileid: "25482009"
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p>Объект набора записей</p></td>
+<td><p>Объект Recordset</p></td>
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p>Отношения объектов</p></td>
+<td><p>Объект Relation</p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">

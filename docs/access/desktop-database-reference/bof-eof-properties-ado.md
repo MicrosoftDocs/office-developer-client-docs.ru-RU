@@ -1,26 +1,28 @@
 ---
-<<<<<<< Название HEAD: BOF, TOCTitle свойства EOF (ADO): BOF, свойства EOF (ADO) === название: BOF, свойства EOF (ADO) TOCTitle: BOF, свойства EOF (ADO)
->>>>>>> главные ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15) ms:contentKeyID: 48548768 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойства BOF, EOF (ADO)
+TOCTitle: BOF, EOF properties (ADO)
+ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
+ms:contentKeyID: 48548768
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 5b71e48f3fe0b596f085f02d371b0775695ffd5c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874246"
 ---
-
-<<<<<<< HEAD
-# <a name="bof-eof-properties-ado"></a>BOF, EOF Properties (ADO)
-=======
-# <a name="bof-eof-properties-ado"></a>BOF, свойства EOF (ADO)
->>>>>>> master
+# <a name="bof-eof-properties-ado"></a>Свойства BOF, EOF (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
   - **BOF** — указывает, что положение текущей записи — перед первой записи в объекте [набора записей](recordset-object-ado.md) .
 
   - **Функция EOF** — указывает, что положение текущей записи после последней записи в объекте **набора записей** .
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 **Логические** значения, возвращаемые свойства **BOF** и **EOF** .
 

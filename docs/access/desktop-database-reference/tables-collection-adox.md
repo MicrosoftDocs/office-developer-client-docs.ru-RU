@@ -1,22 +1,22 @@
 ---
-title: Tables Collection (ADOX)
+title: Коллекция таблиц (ADOX)
 TOCTitle: Tables Collection (ADOX)
 ms:assetid: 07bc0541-c528-1c25-c8c4-05736836eda3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248821(v=office.15)
 ms:contentKeyID: 48543082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 43ca716cf03579c5c4cacf3f6b83a56d549b1433
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e59de5fc777d08f12b1030812a6260378924f286
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481620"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869269"
 ---
-# <a name="tables-collection-adox"></a>Tables Collection (ADOX)
+# <a name="tables-collection-adox"></a>Коллекция таблиц (ADOX)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Содержит все объекты [в таблице](table-object-adox.md) каталога.
 

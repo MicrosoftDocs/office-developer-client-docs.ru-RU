@@ -1,22 +1,22 @@
 ---
-title: SetValue Macro Action
+title: Действие SetValue макросов
 TOCTitle: SetValue Macro Action
 ms:assetid: a08be0c1-a053-45f9-b4ae-709fedc58e8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f845dc5512611aa948991ad2099169a25bbcb113
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 36dd3e511a3ff252ca44aa6d10fd1be4acd5c5fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479993"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878691"
 ---
-# <a name="setvalue-macro-action"></a>SetValue Macro Action
+# <a name="setvalue-macro-action"></a>Действие SetValue макросов
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Действие **SetValue** можно использовать для установки значения поля Microsoft Access, элемента управления или свойства на форме, форма таблицы или отчета.

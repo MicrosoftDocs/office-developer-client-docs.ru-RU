@@ -1,5 +1,5 @@
 ---
-title: SearchForRecord Macro Action
+title: Действия ПоискЗаписи макроса
 TOCTitle: SearchForRecord Macro Action
 ms:assetid: a3483c41-adb5-5923-55f4-1a3c4f60cb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821023(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm118713
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 21efa96338363646be826248e6c9ca0b951496c9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9bb498771e5a1ac3a8e6eb19b3b1ec2886867214
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480178"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876493"
 ---
-# <a name="searchforrecord-macro-action"></a>SearchForRecord Macro Action
+# <a name="searchforrecord-macro-action"></a>Действия ПоискЗаписи макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Можно использовать действие **ПоискЗаписи** поиск определенной записи в таблице, запрос, форму или отчет.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство DefinedSize (VB): пример свойства DefinedSize (VB) === название: пример свойства DefinedSize (VB) TOCTitle: пример свойства DefinedSize (VB)
->>>>>>> главные ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15) ms:contentKeyID: 48543551 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства DefinedSize (VB)
+TOCTitle: DefinedSize property example (VB)
+ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15)
+ms:contentKeyID: 48543551
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 365d9ec4328164798e0499bcd85555cd0d56d740
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868373"
 ---
-
-<<<<<<< HEAD
-# <a name="definedsize-property-example-vb"></a>DefinedSize Property Example (VB)
-=======
-# <a name="definedsize-property-example-vb"></a>Пример свойства DefinedSize (VB)
->>>>>>> master
+# <a name="definedsize-property-example-vb"></a>Пример использования свойства DefinedSize (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md). Код будет переопределения размера столбце FirstName таблице **Employees** базы данных *Northwind* . Затем отображается на изменение значений [полей](field-object-ado.md) [набора записей](recordset-object-ado.md) , основанного на таблице **Employees** . Обратите внимание на то, что по умолчанию для поля FirstName становится дополняются пробелами после переопределить свойство **DefinedSize** .
 

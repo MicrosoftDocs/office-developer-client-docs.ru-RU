@@ -1,5 +1,5 @@
 ---
-title: OpenStoredProcedure Macro Action
+title: Действия ОткрытьСохраненнуюПроцедуру макроса
 TOCTitle: OpenStoredProcedure Macro Action
 ms:assetid: b14dbb82-7c8a-0ace-e251-46599551a490
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822003(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b30049348171fcd65bbc2edd25c18256a12c955
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52d7d6c54913511ab593ee77d374ed55984ed40b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481124"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883255"
 ---
-# <a name="openstoredprocedure-macro-action"></a>OpenStoredProcedure Macro Action
+# <a name="openstoredprocedure-macro-action"></a>Действия ОткрытьСохраненнуюПроцедуру макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В проекте Microsoft Access можно использовать действие **ОткрытьСохраненнуюПроцедуру** для открытия хранимую процедуру в режиме таблицы данных, представление конструирования хранимую процедуру или режим предварительного просмотра. Это действие выполняется именованные хранимую процедуру при открытии в представлении таблицы данных. Можно выбрать режим ввода данных для хранимые процедуры и ограничить записи, которые отображаются хранимую процедуру.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249362(v=office.15)
 ms:contentKeyID: 48545220
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 202626b656c79d703d6e06fc4311c9f3bef9fd93
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9448844afa167af3e34e609145ba50d549a9930a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480160"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884907"
 ---
-# <a name="immediate-mode"></a>Immediate Mode
+# <a name="immediate-mode"></a>Режим интерпретации
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Режим интерпретации — в случае **LockType для** задано значение **adLockOptimistic** или **adLockPessimistic**. В режиме интерпретации распространения изменений, внесенных запись к источнику данных сразу же объявлении работы в строке полный путем вызова метода **Update** .
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства ActiveConnection каталога (VC ++) TOCTitle: пример свойства ActiveConnection каталога (VC ++) === название: пример свойства ActiveConnection каталога (VC ++) TOCTitle: ActiveConnection каталога Пример свойства (VC ++)
->>>>>>> главные ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID: 48543246 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства ActiveConnection объекта Catalog (VC++)
+TOCTitle: Catalog ActiveConnection property example (VC++)
+ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
+ms:contentKeyID: 48543246
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 55faf280d56b90f6033aaba700d3b9fa7a7e2724
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869192"
 ---
-
-<<<<<<< HEAD
-# <a name="catalog-activeconnection-property-example-vc"></a>Catalog ActiveConnection Property Example (VC++)
-=======
-# <a name="catalog-activeconnection-property-example-vc"></a>Пример свойства ActiveConnection каталога (VC ++)
->>>>>>> master
+# <a name="catalog-activeconnection-property-example-vc"></a>Пример использования свойства ActiveConnection объекта Catalog (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Установка для свойства [ActiveConnection](activeconnection-property-adox.md) допустимый, откройте подключение «открывает» каталог. Открытие каталога можно приступить к объекты схемы, содержащиеся в каталоге.
 

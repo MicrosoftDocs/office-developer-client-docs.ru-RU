@@ -1,22 +1,22 @@
 ---
-title: What You Can Do With ADO
+title: Что можно сделать с помощью ADO
 TOCTitle: What You Can Do With ADO
 ms:assetid: 98246cb0-aec6-6a77-c953-85895ad83a5d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d944d70e7aba054abb7e6f02933b1311bb90ee17
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: be66e8cf4179965f761db5873f4a2ac5de20c49d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480172"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874498"
 ---
-# <a name="what-you-can-do-with-ado"></a>What You Can Do With ADO
+# <a name="what-you-can-do-with-ado"></a>Что можно сделать с помощью ADO
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ADO предназначен для предоставления разработчикам мощные, логических объектной модели для программного доступа к, изменение и обновление широкий спектр источники данных через интерфейсы OLE DB системы. Наиболее распространенные использования ADO является запрос таблицы или таблицы в реляционной базе данных, извлечения и отображения результатов в приложении и возможно разрешить пользователям одновременное внесение и сохранение изменений в данные. Другие действия, которые выполняются программным путем с помощью ADO включают:
 

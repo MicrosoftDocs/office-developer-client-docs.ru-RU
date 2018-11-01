@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 487fd11112375fb0f5788505d049a4fc71e245ba
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0fe82d2fe434032165a39c95f05d426b8a7342bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861976"
+ms.locfileid: "25874897"
 ---
 # <a name="chapter-5-updating-and-persisting-data"></a>Глава 5. Обновление и сохранение данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Предыдущая главы рассматриваются способы использования ADO для получения данных в источнике данных, как просматривать данные и даже как для изменения данных. Конечно Если целью приложения является разрешить пользователям изменять данные, необходимо понять, как сохранить изменения. Либо можно сохранять изменения **записей** в файл с помощью метода **Сохранить** или отправке изменений обратно в источник данных для хранения данных с помощью метода **Update** или **UpdateBatch** .
 

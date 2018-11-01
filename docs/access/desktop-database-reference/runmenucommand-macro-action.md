@@ -1,5 +1,5 @@
 ---
-title: RunMenuCommand Macro Action
+title: Действия макроса RunMenuCommand
 TOCTitle: RunMenuCommand Macro Action
 ms:assetid: cc4a4f72-0c73-91b7-8cec-6cbcda7e5b1c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834420(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9d853c99fad322e17e8bbfd49cef27c14be33ffe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 372803779767ea6fdc12b4e10b5dde231ce101fc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481665"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875516"
 ---
-# <a name="runmenucommand-macro-action"></a>RunMenuCommand Macro Action
+# <a name="runmenucommand-macro-action"></a>Действия макроса RunMenuCommand
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **RunMenuCommand** можно использовать для выполнения встроенных команды Microsoft Access.
 

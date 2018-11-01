@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5104aa452dfc8bc73c378c30a454f676d455c9f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a5cc7394b01dcd79d17e3fcc7568bb8081ee12ce
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482530"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872643"
 ---
 # <a name="tabledefreplicafilter-property-dao"></a>TableDef.ReplicaFilter Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение на объекте **[TableDef](tabledef-object-dao.md)** в реплику, которое указывает, какие подмножество записей реплицированы на таблицу с полной реплики. (Microsoft Access рабочие области только).
 
@@ -55,7 +55,7 @@ ms.locfileid: "25482530"
 <td><p>Реплицирует все записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Значение false</strong></p></td>
+<td><p><strong>False</strong></p></td>
 <td><p>(По умолчанию) Не поддерживает репликацию записей.</p></td>
 </tr>
 </tbody>

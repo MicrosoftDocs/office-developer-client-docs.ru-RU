@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7f3cbb7ca4078fb92ad721d85679dabee9237f85
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 92d3cd9e9ed50503b4816cae03e2a69c790706ff
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481967"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878362"
 ---
 # <a name="field2expression-property-dao"></a>Field2.Expression Property (DAO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Получает или задает выражение, представляющее формулу для вычисляемого поля. Для чтения и записи, **String**.
 

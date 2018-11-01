@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 601d18373f5bcd0a9ed6777fa50c2a3ed631594a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7b045676cad97ffa1dc60f7370ec5013d4c30bdf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860891"
+ms.locfileid: "25888078"
 ---
 # <a name="chapter-2-getting-data"></a>Глава 2. Получение данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Предыдущей главе представлены четыре основных операций, используемых при создании приложения ADO: получение данных, анализ данных, изменение данных и обновление данных. В этой главе нацеливаются на сведения о концепциях, имеющих отношение к первой операции: получение данных.
 

@@ -1,22 +1,22 @@
 ---
-title: 'Step 2: Invoke the Server Program (RDS Tutorial)'
+title: Этап 2. Вызов серверной программы (руководство по RDS)
 TOCTitle: 'Step 2: Invoke the Server Program (RDS Tutorial)'
 ms:assetid: 45429faa-c1e2-d448-a5b4-b2d77cb94377
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249211(v=office.15)
 ms:contentKeyID: 48544549
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edd9f8561e6275e3b8eb33e86be745345d7c797a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 53ad3306bf9e175566f0a3d02b1454872264d4b6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482801"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885481"
 ---
-# <a name="step-2-invoke-the-server-program-rds-tutorial"></a>Step 2: Invoke the Server Program (RDS Tutorial)
+# <a name="step-2-invoke-the-server-program-rds-tutorial"></a>Этап 2. Вызов серверной программы (руководство по RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 При вызове метода для клиента *прокси-сервера*, самой программы на сервере выполняется метод. На этом этапе будет выполнить запрос на сервере.
 

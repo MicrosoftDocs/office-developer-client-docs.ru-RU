@@ -1,21 +1,21 @@
 ---
-title: Microsoft OLE DB Provider for ODBC
+title: Поставщик Microsoft OLE DB для ODBC
 TOCTitle: Microsoft OLE DB Provider for ODBC
 ms:assetid: c507567e-5ad1-b32a-f6ad-5ba2c39aa4c2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0098e646ea48656f44bd3ccd380ae41efc94ffba
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 66ef27165e6f5823cc97a295643dfc2ae5c205c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606943"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883185"
 ---
-# <a name="microsoft-ole-db-provider-for-odbc"></a>Microsoft OLE DB Provider for ODBC
+# <a name="microsoft-ole-db-provider-for-odbc"></a>Поставщик Microsoft OLE DB для ODBC
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы программист ADO или служб удаленных рабочих СТОЛОВ идеальном мире бы одно в каждом данных источника предоставляет интерфейс OLE DB, чтобы вызвать непосредственно в источник данных ADO. Несмотря на то, что все больше дополнительные базы данных поставщиков реализует интерфейсы OLE DB, некоторые источники данных не еще не представленных таким способом. Тем не менее практически все СУБД в настоящее время может осуществляться через ODBC.
 
@@ -79,11 +79,7 @@ MSDASQL
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong>.</p></td>
-<<<<<<< HEAD
 <td><p>Задает URL-адрес файла или папки, опубликованной в веб-папку.</p></td>
-=======
-<td><p>Задает URL-адрес файла или папки, опубликованной в веб-папку.</p></td>
->>>>>>>Образец
 </tr>
 </tbody>
 </table>

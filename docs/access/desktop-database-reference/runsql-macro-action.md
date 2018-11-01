@@ -1,5 +1,5 @@
 ---
-title: RunSQL Macro Action
+title: Действия RunSQL макроса
 TOCTitle: RunSQL Macro Action
 ms:assetid: 3692142d-f8a8-e194-0b38-051167f46319
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192476(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ff4a363f6fbb05af582767f4b664f71f34d23357
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c5fd5bea659b3df368f6e352d0ae233b5e066113
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479819"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875597"
 ---
-# <a name="runsql-macro-action"></a>RunSQL Macro Action
+# <a name="runsql-macro-action"></a>Действия RunSQL макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **Макрокоманды ЗапускЗапросаSQL** можно использовать для выполнения запроса действие Access с помощью соответствующего оператора SQL. Также можно запустить управляющий запрос.
 

@@ -1,5 +1,5 @@
 ---
-title: PrintOut Macro Action
+title: Макрос макрокоманду
 TOCTitle: PrintOut Macro Action
 ms:assetid: 13688158-1cf1-4b2e-d90a-271c8890e413
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845432(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cef354bf0dc0018ef30a36d77df596bf8440f218
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6a0aa0ae6d992410d5bed6126bfe49d7e84e9135
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482761"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878733"
 ---
-# <a name="printout-macro-action"></a>PrintOut Macro Action
+# <a name="printout-macro-action"></a>Макрос макрокоманду
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 **Макрокоманду** можно использовать для печати активного объекта в открытой базы данных. Можно распечатать таблицы данных, отчеты, формы, страницы доступа к данным и модули.
 

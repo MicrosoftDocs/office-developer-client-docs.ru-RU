@@ -1,22 +1,22 @@
 ---
-title: SaveToFile Method (ADO)
+title: Метод SaveToFile (ADO)
 TOCTitle: SaveToFile Method (ADO)
 ms:assetid: db0fd95e-8ef3-af87-5346-8f8713153ca7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250104(v=office.15)
 ms:contentKeyID: 48548097
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c0bd915a4eb6405b7d5ddd4bfe42eb4a98f68b89
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e1fcb4a5365f431eed4ed30ca57a3418abac9e2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480379"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875464"
 ---
-# <a name="savetofile-method-ado"></a>SaveToFile Method (ADO)
+# <a name="savetofile-method-ado"></a>Метод SaveToFile (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

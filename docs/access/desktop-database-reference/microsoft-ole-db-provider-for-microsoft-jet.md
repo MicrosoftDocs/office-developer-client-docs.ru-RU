@@ -1,21 +1,21 @@
 ---
-title: Microsoft OLE DB Provider for Microsoft Jet
+title: Поставщик Microsoft OLE DB для Microsoft Jet
 TOCTitle: Microsoft OLE DB Provider for Microsoft Jet
 ms:assetid: 4a210d72-8c90-aa7c-4621-1a555a30a2d2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249228(v=office.15)
 ms:contentKeyID: 48544660
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd56f018a9eb8da4078848d7890e4543279a7362
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 39cb1288ef5e6be4f50d4ef976725122635db1dc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480332"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884088"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Microsoft OLE DB Provider for Microsoft Jet
+# <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Поставщик Microsoft OLE DB для Microsoft Jet
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Поставщик OLE DB для Microsoft Jet позволяет ADO для доступа к базам данных Microsoft Jet.
 

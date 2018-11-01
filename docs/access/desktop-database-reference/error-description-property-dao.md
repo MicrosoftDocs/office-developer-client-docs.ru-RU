@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053358
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e261bdffb7a8cbd616515c6cbcaa7e4ea291d086
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2de4c87832956fb690f67f734d418a855b179d8c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480396"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870340"
 ---
 # <a name="errordescription-property-dao"></a>Error.Description Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
  
 
 Возвращает строку описания, связанную с ошибкой. Это свойство по умолчанию для объект **Error** .

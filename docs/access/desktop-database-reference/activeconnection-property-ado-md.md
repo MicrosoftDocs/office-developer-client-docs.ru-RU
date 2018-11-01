@@ -1,24 +1,25 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойства ActiveConnection (ADO MD): ms:assetid свойства ActiveConnection (ADO MD): d09f0f91-5e1d-01ed-4d83-eaf58ff718a2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250043(v=office.15) ms:contentKeyID: 48547845 ms.date: 09/18/2015 mtps_ версия: v=office.15
+title: Свойство ActiveConnection (ADO MD)
+TOCTitle: ActiveConnection property (ADO MD)
+ms:assetid: d09f0f91-5e1d-01ed-4d83-eaf58ff718a2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250043(v=office.15)
+ms:contentKeyID: 48547845
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 2d2ed71f938089d3238eddee91f0c533bba266c4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880014"
 ---
-
-# <a name="activeconnection-property-ado-md"></a>ActiveConnection Property (ADO MD)
-
-=== Название: свойства ActiveConnection (ADO MD) TOCTitle: ms:assetid свойство (ADO MD) ActiveConnection: d09f0f91-5e1d-01ed-4d83-eaf58ff718a2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250043(v=office.15) ms:contentKeyID: 48547845 ms.date: 10/17/2018 mtps_version: v=office.15
----
-
 # <a name="activeconnection-property-ado-md"></a>Свойство ActiveConnection (ADO MD)
->>>>>>> master
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает, какие объект ADO- [подключение](connection-object-ado.md) текущий набор ячеек и каталогов в настоящее время принадлежит.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает значение **типа Variant** , содержащее строку, определяющую подключения или объект **подключения** . Значение по умолчанию будет пустым.
 
@@ -34,16 +35,8 @@
 
 При попытке изменить свойство **ActiveConnection** open объекта **ячеек** , произойдет ошибка.
 
-<<<<<<< HEAD
-
-> [!NOTE]
-> <P>В Visual Basic не забудьте ключевого слова <STRONG>Set</STRONG> при задании свойства <STRONG>ActiveConnection</STRONG> для объекта <STRONG>подключения</STRONG> . Если опустить ключевого слова <STRONG>Set</STRONG> , вам будет фактически свойства <STRONG>ActiveConnection</STRONG> равно объект <STRONG>подключения</STRONG> по умолчанию свойства <STRONG>ConnectionString</STRONG>. Код будет работать; Тем не менее будет создать дополнительные подключения к источнику данных, который может иметь негативное влияние.</P>
-
-
-=======
 > [!NOTE]
 > В Visual Basic не забудьте ключевого слова **Set** при задании свойства **ActiveConnection** для объекта **подключения** . Если опустить ключевого слова **Set** , вам будет фактически свойства **ActiveConnection** равно объект **подключения** по умолчанию свойства **ConnectionString**. Код будет работать; Тем не менее будет создать дополнительные подключения к источнику данных, который может иметь негативное влияние.
->>>>>>> master
 
 При использовании поставщика данных MSOLAP, задайте источника данных в строке подключения с именем сервера и присвоено имя каталога базу данных из источника данных. Для подключения к файлу куба, отключены от сервера, задайте расположение полный путь. Файл КУБ. В любом случае значение имени поставщика и имени поставщика. Например следующую строку подключается к каталогу с именем Bobs видео хранилища на сервере с именем имя сервера с поставщиком MSOLAP:
 

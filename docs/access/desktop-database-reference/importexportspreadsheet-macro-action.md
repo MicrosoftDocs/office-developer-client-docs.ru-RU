@@ -1,5 +1,5 @@
 ---
-title: ImportExportSpreadsheet Macro Action
+title: Действия макроса ImportExportSpreadsheet
 TOCTitle: ImportExportSpreadsheet Macro Action
 ms:assetid: 526aef41-8329-5335-9d16-4d332542a297
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193927(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm31446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4693cbe643ab34431f7920564e704808c1b0f73b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78819ba2a82bf2fc9ab5c39300d06c1acdda80bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480394"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875807"
 ---
-# <a name="importexportspreadsheet-macro-action"></a>ImportExportSpreadsheet Macro Action
+# <a name="importexportspreadsheet-macro-action"></a>Действия макроса ImportExportSpreadsheet
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **ImportExportSpreadsheet** можно использовать для импорта или экспорта данных между текущей базы данных Access (MDB- или .accdb) или проект Microsoft Access (файлы с расширением ADP) и файла электронной таблицы. Также можно связать данные в электронную таблицу Microsoft Excel для текущей базы данных Microsoft Access. Связывания электронной таблицы можно просматривать и изменять данные электронной таблицы с доступом по-прежнему предоставляя полный доступ к данным из программы электронной таблицы Excel. Также можно связать с данным в файл электронной таблицы Lotus 1-2-3, но эти данные в доступа только для чтения.
 

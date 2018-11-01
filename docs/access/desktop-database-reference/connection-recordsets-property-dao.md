@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053364
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b6678939edea3e0ae673b70c61566194bcdeb606
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 09a50709df32e9853cca0c35adfc4dde5e8a0258
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483063"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887448"
 ---
 # <a name="connectionrecordsets-property-dao"></a>Connection.Recordsets Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает коллекцию **наборов записей** , который содержит все открытые наборы записей в для указанного подключения. Только для чтения.
 

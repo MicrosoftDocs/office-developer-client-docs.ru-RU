@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249558(v=office.15)
 ms:contentKeyID: 48545956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 246f346ffedfed6213d6df0fa7829447d2dbb631
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 778f942098d97d1e8e4c8e75f2511af06191ac30
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861507"
+ms.locfileid: "25877249"
 ---
 # <a name="move-method-example-vj"></a>Пример использования метода Move (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.
 

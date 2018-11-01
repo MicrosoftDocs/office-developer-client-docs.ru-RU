@@ -1,22 +1,22 @@
 ---
-title: DataControl Error Codes
+title: Коды ошибок DataControl
 TOCTitle: DataControl Error Codes
 ms:assetid: d81446e2-aae6-b460-08a3-eae9920dc767
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250089(v=office.15)
 ms:contentKeyID: 48548027
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef139e545fafedd67ca788ebfdc8a8ae86c659e2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 38e9f726b596e9e523b759b639cd6b96055fd1d8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480666"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876353"
 ---
-# <a name="datacontrol-error-codes"></a>DataControl Error Codes
+# <a name="datacontrol-error-codes"></a>Коды ошибок DataControl
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В следующей таблице перечислены [RDS. DataControl](datacontrol-object-rds.md) объекта коды ошибок. Положительное десятичное перевода низкой два байта, показаны отрицательные decimal перевода код полного ошибки и шестнадцатеричные значения.
 

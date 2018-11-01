@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250268(v=office.15)
 ms:contentKeyID: 48548815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f53b56cc5fa0c99a7f7349164a42749c9575dd51
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 56d41d25ed2821422d397be7f5a0c6fb68a47811
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863396"
+ms.locfileid: "25889303"
 ---
 # <a name="deleterecord-and-moverecord-methods-example-vb"></a>Пример использования методов DeleteRecord и MoveRecord (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-<<<<<<< HEAD, в этом примере показано, как скопировать, переместить, изменять и удалять содержимое в текстовый файл, опубликованной в веб-папку. Другие свойства и методы, используемые включают [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [источника](source-property-ado-record.md)и [Очистка](flush-method-ado.md).
-=== В этом примере показано, как скопировать, переместить, изменение и удаление содержимое в текстовый файл, опубликованной в веб-папку. Другие свойства и методы, используемые включают [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [источника](source-property-ado-record.md)и [Очистка](flush-method-ado.md).
->>>>>>> образец
+В этом примере показано, как скопировать, переместить, изменение и удаление содержимое в текстовый файл, опубликованной в веб-папку. Другие свойства и методы, используемые включают [GetChildren](getchildren-method-ado.md), [ParentURL](parenturl-property-ado.md), [источника](source-property-ado-record.md)и [Очистка](flush-method-ado.md).
 
 ```vb 
  

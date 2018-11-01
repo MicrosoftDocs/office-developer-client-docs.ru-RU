@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197102(v=office.15)
 ms:contentKeyID: 48546197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee6ebd8ceb41b99fcf656170572cae7fc89b2c7b
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 659e2cca7d9e5507e208b77dfd2685f76fed02d1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602827"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881246"
 ---
 # <a name="tabledefcreateproperty-method-dao"></a>TableDef.CreateProperty Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Создание пользовательских **[свойств](property-object-dao.md)** объекта (только для рабочих областей Microsoft Access).
 
@@ -72,11 +72,7 @@ ms.locfileid: "25602827"
 </table>
 
 
-<<<<<<< HEAD
 ### <a name="return-value"></a>Возвращаемое значение
-=======
-### <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Свойство
 

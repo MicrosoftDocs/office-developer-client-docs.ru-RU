@@ -1,22 +1,22 @@
 ---
-title: Record Object (ADO)
+title: Объект записи (ADO)
 TOCTitle: Record Object (ADO)
 ms:assetid: 817aaf13-78d4-1134-aa94-997e92077c22
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249557(v=office.15)
 ms:contentKeyID: 48545952
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 806b2292b12bededd299a0ef628601589afe0ce9
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 82eb2a8fc2bae5e2aa4d451f015216ce20fc99b8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603142"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868002"
 ---
-# <a name="record-object-ado"></a>Record Object (ADO)
+# <a name="record-object-ado"></a>Объект записи (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет строку из [набора записей](recordset-object-ado.md) или поставщик данных или объект, возвращенный поставщиком частично структурированных данных, такой как файл или папку.
 
@@ -36,14 +36,8 @@ ms.locfileid: "25603142"
 
 Данные изменения и навигации методы объекта **запись** также принимать относительный URL-адрес, который определяет местонахождение ресурса с помощью абсолютный URL-адрес или контекста объекта **подключения** в качестве отправной точки.
 
-<<<<<<< HEAD
-
-> [!NOTE]
-> <P>URL-адреса, с помощью схемы http автоматически вызывает <A href="microsoft-ole-db-provider-for-internet-publishing.md">Поставщик Microsoft OLE DB для публикации Интернет</A>. Для получения дополнительных сведений см <A href="absolute-and-relative-urls.md">абсолютного и относительных URL-адресов</A>.</P>
-=======
 > [!NOTE]
 > URL-адреса, с помощью схемы http автоматически вызывает [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютных и относительных URL-адресов](absolute-and-relative-urls.md).
->>>>>>> master
 
 
 

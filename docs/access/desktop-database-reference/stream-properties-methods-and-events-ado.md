@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
 ms:contentKeyID: 48543339
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5cfca6c3d35bd9e120904dd7d0cc9a2b84d7e05f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8348a2b67eb6da401c02fcce9a65d2c6839137f2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481356"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870599"
 ---
 # <a name="stream-properties-methods-and-events-ado"></a>Stream Properties, Methods, and Events (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ## <a name="properties"></a>Свойства
 
@@ -34,7 +34,7 @@ ms.locfileid: "25481356"
 
 - [Свойство State](state-property-ado.md)
 
-- [Type Property (ADO Stream)](type-property-ado-stream.md)
+- [Свойство Type (ADO потока)](type-property-ado-stream.md)
 
 ## <a name="methods"></a>Методы
 
@@ -48,7 +48,7 @@ ms.locfileid: "25481356"
 
 - [Метод LoadFromFile](loadfromfile-method-ado.md)
 
-- [Open Method (ADO Stream)](open-method-ado-stream.md)
+- [Метод Open (ADO потока)](open-method-ado-stream.md)
 
 - [Read Method](read-method-ado.md)
 
@@ -66,7 +66,7 @@ ms.locfileid: "25481356"
 
 - [Метод WriteText](writetext-method-ado.md)
 
-## <a name="events"></a>События
+## <a name="events"></a>Мероприятия
 
 Нет.
 

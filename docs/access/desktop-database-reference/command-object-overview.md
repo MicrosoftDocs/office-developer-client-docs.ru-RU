@@ -1,22 +1,22 @@
 ---
-title: Command Object Overview
+title: Обзор объекта команды
 TOCTitle: Command Object Overview
 ms:assetid: 3d6d81c4-4cf0-0c13-adb3-0c2c5934dc21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249166(v=office.15)
 ms:contentKeyID: 48544346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1e6cd3b2ebea67fac7cef7e556038490b3eb9b1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 39724156b8644b6d99ffec82bdf79624b6cfaee1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482927"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875037"
 ---
-# <a name="command-object-overview"></a>Command Object Overview
+# <a name="command-object-overview"></a>Обзор объекта команды
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 С помощью семейства сайтов, методы и свойства объекта **команды** сделайте следующее:
 

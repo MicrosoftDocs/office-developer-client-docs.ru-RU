@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052929
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4b1297fe7c41efd49a457f3382f72c480f85363
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9a7f89277b51ef0edb5603c4482d4547201673fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482026"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884777"
 ---
 # <a name="fieldvalidateonset-property-dao"></a>Field.ValidateOnSet Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, указывает ли значение **[поля](field-object-dao.md)** объекта сразу же проверке, если свойство **[Value](field-value-property-dao.md)** объекта установлено (только для рабочих областей Microsoft Access).
 

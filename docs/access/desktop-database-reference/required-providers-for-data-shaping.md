@@ -1,22 +1,22 @@
 ---
-title: Required Providers for Data Shaping
+title: Необходимые поставщики для формирования данных
 TOCTitle: Required Providers for Data Shaping
 ms:assetid: eb8933fb-d533-3ea7-e045-35c1ca585765
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250194(v=office.15)
 ms:contentKeyID: 48548488
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41b8c7b34aa8a0da7a360dbdca5b396bb9f2b4b3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: de8634503c81bd2c66eeda0c64a8b1ff1b6f5363
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482892"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885357"
 ---
-# <a name="required-providers-for-data-shaping"></a>Required Providers for Data Shaping
+# <a name="required-providers-for-data-shaping"></a>Необходимые поставщики для формирования данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Формирование данных обычно требуется двух поставщиков. Поставщик услуг [Служба формирования данных для OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)предоставляет функциональные возможности формирования данных и поставщика данных, таких как поставщик OLE DB для SQL Server предоставляет строк данных для заполнения формы [набора записей](recordset-object-ado.md).
 

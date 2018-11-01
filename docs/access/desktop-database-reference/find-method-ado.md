@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc78503008daa733e747923697f21917ada8c106
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 929e4ac695ff65c3576f2ffb8ad1baf8ab1d1137
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481075"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870627"
 ---
-# <a name="find-method-ado"></a>Find Method (ADO)
+# <a name="find-method-ado"></a>Найти метод (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Выполняет поиск [записей](recordset-object-ado.md) для строки, которая должна удовлетворять определенным условиям. Кроме того можно указать направление поиска, начальную строку и смещением от начала строки. Если соблюдаются условия, текущей позиции строки имеет значение обнаруженного записи; в противном случае положение задано значение end (или Пуск) **набора записей**.

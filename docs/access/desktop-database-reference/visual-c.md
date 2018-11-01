@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
 ms:contentKeyID: 48544062
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e6f0e020373db9bf0fe7acc1b1c7bfeab210329
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5e0285fd190ade398d4e5c834296313edf9ef7b3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861423"
+ms.locfileid: "25870942"
 ---
 # <a name="visual-c"></a>Visual C++
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Это Схематическое Описание способа для создания экземпляра ADO событий в Microsoft Visual C++. В разделе [пример модели событий ADO (VC ++)](ado-events-model-example-vc.md) полное описание.
 

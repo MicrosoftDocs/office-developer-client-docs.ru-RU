@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f06954b25c798dab7fe80ba5ba7cf91bb0efc292
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 77a8f14cf76e87060d73d0b3a6a6939c292c422e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860996"
+ms.locfileid: "25868058"
 ---
 # <a name="persisting-records-in-xml-format"></a>Сохранение записей в формате XML
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Как формат ADTG поставщик Microsoft OLE DB сохраняемость реализована хранение **записей** в формате XML. Этот поставщик создает набор строк только вперед, только для чтения из сохраненного XML-файла или потока, который содержит сведения о схеме, созданных функцией ADO. Аналогично его занять набора **записей**ADO, создать XML- и сохраните его в виде файла или любой объект, реализующий интерфейс COM **IStream** . (На самом деле файл является любой другой пример объекта, который поддерживает **IStream**.) Для версии 2.5 и более поздних версий ADO полагается на средство синтаксического анализа Microsoft XML (MSXML) для загрузки XML-кода в **набор записей**; Поэтому msxml.dll не требуется. Для версии 2.5 MSXML в состав Internet Explorer 5. Для версии 2,6 MSXML поставляется с SQL Server 2000.
 

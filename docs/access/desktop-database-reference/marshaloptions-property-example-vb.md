@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство MarshalOptions (VB): пример свойства MarshalOptions (VB) === название: пример свойства MarshalOptions (VB) TOCTitle: пример свойства MarshalOptions (VB)
->>>>>>> главные ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15) ms:contentKeyID: 48548691 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства MarshalOptions (VB)
+TOCTitle: MarshalOptions property example (VB)
+ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15)
+ms:contentKeyID: 48548691
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: efb33fbcccaac26f6a169761235a88a49ec0cfa8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869871"
 ---
-
-<<<<<<< HEAD
-# <a name="marshaloptions-property-example-vb"></a>MarshalOptions Property Example (VB)
-=======
-# <a name="marshaloptions-property-example-vb"></a>Пример свойства MarshalOptions (VB)
->>>>>>> master
+# <a name="marshaloptions-property-example-vb"></a>Пример использования свойства MarshalOptions (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [MarshalOptions](marshaloptions-property-ado.md) , чтобы указать, какие строки отправляются на сервер — всех или только измененные строк.
 

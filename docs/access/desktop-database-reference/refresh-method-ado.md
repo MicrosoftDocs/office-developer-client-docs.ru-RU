@@ -1,22 +1,22 @@
 ---
-title: Refresh Method (ADO)
+title: Обновления метода (ADO)
 TOCTitle: Refresh Method (ADO)
 ms:assetid: f1c8829f-9c7d-12b6-7470-727ff38d663e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ea277f83c39bde4b5309a26b87961ff2325b145
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 710329fb00615b127ee5bc79cb10a6b5fc71b5e0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480007"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875674"
 ---
-# <a name="refresh-method-ado"></a>Refresh Method (ADO)
+# <a name="refresh-method-ado"></a>Обновления метода (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Обновление объектов в коллекции объектов, доступных из и относящиеся к поставщику.
 

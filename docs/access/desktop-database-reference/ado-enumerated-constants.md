@@ -1,22 +1,22 @@
 ---
-title: ADO Enumerated Constants
+title: ADO перечисленных констант
 TOCTitle: ADO Enumerated Constants
 ms:assetid: 7c983acd-8b38-dc3c-6704-46e649ebb7d6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249522(v=office.15)
 ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ecefa3973d2995a69feb9abe82355aae7df63d1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3e9944138dcdca49f33ca293a9bdf41d88d86e9e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482410"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882310"
 ---
-# <a name="ado-enumerated-constants"></a>ADO Enumerated Constants
+# <a name="ado-enumerated-constants"></a>ADO перечисленных констант
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы помочь в отладке, перечислений ADO списка значение для каждого константу. Тем не менее это значение исключительно рекомендации и может измениться в разных выпусках ADO в другую. Код должен только зависят от имени, а не фактические значения каждого перечисляемые константы.
 

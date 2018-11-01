@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845726(v=office.15)
 ms:contentKeyID: 48543557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09562d9bcdffb85d3e97a6aca72fa3b34411e5a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b6c3427f22e3f92082f1aa61dfbda17bb21a4209
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481658"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877858"
 ---
 # <a name="recordset2lastmodified-property-dao"></a>Recordset2.LastModified Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает ookmark, указывающее наиболее недавно добавлены или изменены записи.
 

@@ -1,22 +1,22 @@
 ---
-title: CancelBatch Method (ADO)
+title: Метод CancelBatch (ADO)
 TOCTitle: CancelBatch Method (ADO)
 ms:assetid: be7bf073-ed0b-e24c-7ec0-b7379236782a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249925(v=office.15)
 ms:contentKeyID: 48547463
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cbc16d01e04bbcff7ff28ccc8e7cb4f3fd6f3dec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 24444aa40fae38987f1dab284a37239b281ecb58
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482147"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886559"
 ---
-# <a name="cancelbatch-method-ado"></a>CancelBatch Method (ADO)
+# <a name="cancelbatch-method-ado"></a>Метод CancelBatch (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Показано, как отменить ожидающие пакетного обновления.

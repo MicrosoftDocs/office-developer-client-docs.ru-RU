@@ -1,22 +1,22 @@
 ---
-title: UpdateBatch Method (ADO)
+title: Метод UpdateBatch (ADO)
 TOCTitle: UpdateBatch Method (ADO)
 ms:assetid: 69e72a65-b637-36fd-d09f-7f81050f71ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249416(v=office.15)
 ms:contentKeyID: 48545420
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 522cfe50ac160074f7199a8364326d7debd5b780
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 73400abe1298520aadb3f82a242a2e50872be0ca
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482197"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875751"
 ---
-# <a name="updatebatch-method-ado"></a>UpdateBatch Method (ADO)
+# <a name="updatebatch-method-ado"></a>Метод UpdateBatch (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Записывает все ожидающие пакета обновления на диск.
 

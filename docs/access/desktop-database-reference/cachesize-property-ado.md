@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство CacheSize (ADO): свойство CacheSize (ADO) === заголовок: свойство CacheSize (ADO) TOCTitle: свойство CacheSize (ADO)
->>>>>>> главные ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15) ms:contentKeyID: 48544491 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство CacheSize (ADO)
+TOCTitle: CacheSize property (ADO)
+ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15)
+ms:contentKeyID: 48544491
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 17c24cca00f88be4d867a3cb53a9566a326c2548
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887700"
 ---
-
-<<<<<<< HEAD
 # <a name="cachesize-property-ado"></a>Свойство CacheSize (ADO)
-=======
-# <a name="cachesize-property-ado"></a>Свойство CacheSize (ADO)
->>>>>>> образец
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает количество записей из объекта [набора записей](recordset-object-ado.md) , которые кэшируются локально в памяти.
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> образец
 
 Задает или возвращает значение типа **Long** , должно быть больше 0. Значение по умолчанию — 1.
 

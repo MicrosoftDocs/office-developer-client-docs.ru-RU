@@ -1,22 +1,22 @@
 ---
-title: Microsoft OLE DB Provider for SQL Server
+title: Поставщик Microsoft OLE DB для SQL Server
 TOCTitle: Microsoft OLE DB Provider for SQL Server
 ms:assetid: 0ffdea03-1a76-499b-f649-423f6b3c13d7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248868(v=office.15)
 ms:contentKeyID: 48543282
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f999f9268511fd23f1fc6a20c8459d11345ceb4f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c856b2ba8d39c9cfc03bdadd6250ee9411b9c9c8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480787"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883892"
 ---
-# <a name="microsoft-ole-db-provider-for-sql-server"></a>Microsoft OLE DB Provider for SQL Server
+# <a name="microsoft-ole-db-provider-for-sql-server"></a>Поставщик Microsoft OLE DB для SQL Server
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Поставщик Microsoft OLE DB для SQL Server, SQLOLEDB, позволяет ADO для доступа к Microsoft SQL Server.
 

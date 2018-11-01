@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250183(v=office.15)
 ms:contentKeyID: 48548445
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c3e7b14ecb6995836d5abff4ff3000af0d4a0fe
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d3213fd05d8556755adfc52d7a09a91d7f9ed597
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863313"
+ms.locfileid: "25882008"
 ---
 # <a name="groups-and-users-append-changepassword-methods-example-vb"></a>Пример использования методов Append и ChangePassword для групп и пользователей (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется метод [Append](append-method-adox-groups.md) [групп](groups-collection-adox.md), а также метод [Append](append-method-adox-users.md) [пользователей](users-collection-adox.md) путем добавления новой [группы](group-object-adox.md) и нового [пользователя](user-object-adox.md) в систему. Новая **Группа** добавляется в коллекцию **групп** нового **пользователя**. Следовательно нового **пользователя** добавляется в **группу**. Кроме того метод [Изменение пароля](changepassword-method-adox.md) используется для указания пароль **пользователя** .
 

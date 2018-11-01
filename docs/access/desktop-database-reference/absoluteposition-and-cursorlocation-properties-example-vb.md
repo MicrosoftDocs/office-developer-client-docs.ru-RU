@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: AbsolutePosition и TOCTitle пример свойства CursorLocation (VB): ms:assetid AbsolutePosition и пример свойства CursorLocation (VB): 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) мс: contentKeyID: 48544966 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств AbsolutePosition и CursorLocation (VB)
+TOCTitle: AbsolutePosition and CursorLocation properties example (VB)
+ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15)
+ms:contentKeyID: 48544966
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: b1fb72b167ad24d2d5ef7acd1472d435381428c8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869647"
 ---
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>AbsolutePosition and CursorLocation Properties Example (VB)
-=== Название: пример свойства AbsolutePosition и CursorLocation (VB) TOCTitle: AbsolutePosition и CursorLocation ms:assetid пример (VB) свойства: 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID: 48544966 MS.Date: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>Пример свойства AbsolutePosition и CursorLocation (VB)
->>>>>>> master
+# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>Пример использования свойств AbsolutePosition и CursorLocation (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) можно отслеживать цикл, который перечисляет все записи из [набора записей](recordset-object-ado.md). Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойство **AbsolutePosition** , установив курсор на курсор клиента.
 

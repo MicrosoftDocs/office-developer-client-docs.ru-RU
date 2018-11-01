@@ -1,21 +1,21 @@
 ---
-title: Microsoft OLE DB Remoting Provider (ADO Service Provider)
+title: Поставщик услуг удаленного взаимодействия Microsoft OLE DB (поставщик служб ADO)
 TOCTitle: Microsoft OLE DB Remoting Provider (ADO Service Provider)
 ms:assetid: f39bd83d-8c2c-302e-16e3-0fae50f89fbc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 907686e0dcd1be8ef24747d9ff655a7ff0f7f91f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8e9e6e655198cba28ece0951414af85ec14f26f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481632"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878061"
 ---
-# <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Microsoft OLE DB Remoting Provider (ADO Service Provider)
+# <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Поставщик услуг удаленного взаимодействия Microsoft OLE DB (поставщик служб ADO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Поставщик удаленного взаимодействия Microsoft OLE DB позволяет локального пользователя на клиентском компьютере для вызова поставщиков данных на удаленном компьютере. Укажите параметры поставщика данных для удаленного компьютера, как если бы вы были локального пользователя на удаленном компьютере. Затем укажите параметры, используемый поставщиком удаленного взаимодействия для доступа к удаленному компьютеру. Итоговый результат — это будет доступ удаленного компьютера, как если бы вы были локального пользователя.
 

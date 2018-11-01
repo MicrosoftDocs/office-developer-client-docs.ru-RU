@@ -1,5 +1,5 @@
 ---
-title: LockNavigationPane Macro Action
+title: Действия макроса LockNavigationPane
 TOCTitle: LockNavigationPane Macro Action
 ms:assetid: abf7a989-c7cf-3efa-8df4-3c5b075d0e5f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821487(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm172454
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e18b17c5d00095b61323511c20b95a355819eab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2db34ee9ea56c5fcb4c5aff6afa57c3f59d1f17c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482386"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870333"
 ---
-# <a name="locknavigationpane-macro-action"></a>LockNavigationPane Macro Action
+# <a name="locknavigationpane-macro-action"></a>Действия макроса LockNavigationPane
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Чтобы запретить пользователям удалять объекты базы данных, которые отображаются в области навигации можно использовать действие **LockNavigationPane** .
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5e3a38cb4b35b8472b2c1af601c88af4cc9db813
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d11d9c6e3434e635d93e9c499c6d5f7c82c6f49
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483279"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867869"
 ---
 # <a name="dbenginesetoption-method-dao"></a>DBEngine.SetOption Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Временно переопределяет значения для клавиш ядра базы данных Microsoft Access в реестре Windows (только для рабочих областей Microsoft Access).
 

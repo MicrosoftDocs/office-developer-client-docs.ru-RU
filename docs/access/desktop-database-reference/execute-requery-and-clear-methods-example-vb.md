@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249432(v=office.15)
 ms:contentKeyID: 48545491
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8d6c1a24bd20835ed96842d995a3c1568ae7139
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6737496cffb31fd4a3666ba57a604f8730c79c6c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863026"
+ms.locfileid: "25886244"
 ---
 # <a name="execute-requery-and-clear-methods-example-vb"></a>Пример использования методов Execute, Requery и Clear (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) . Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) . (Семейство **Errors** осуществляется через объект **подключения** из свойства [ActiveConnection](activeconnection-property-ado.md) [набора записей](recordset-object-ado.md)). Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.
 

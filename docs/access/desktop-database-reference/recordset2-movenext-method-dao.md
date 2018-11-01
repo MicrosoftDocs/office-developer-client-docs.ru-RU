@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845265(v=office.15)
 ms:contentKeyID: 48543254
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd6eddf9f9b41223603887bb038bf2c9bd227031
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f28c587236bfe76fc2431a2226d52b2f9f8ce0db
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481858"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867379"
 ---
 # <a name="recordset2movenext-method-dao"></a>Recordset2.MoveNext Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Переход к следующей записи в указанном объекте **набора записей** и убедитесь, что запись текущей записи.
 

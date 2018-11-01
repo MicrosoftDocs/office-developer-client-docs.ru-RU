@@ -1,22 +1,22 @@
 ---
-title: Using ADO with ADO MD
+title: Использование ADO с ADO MD
 TOCTitle: Using ADO with ADO MD
 ms:assetid: 93d1d270-b8d0-4489-d441-11a61887291c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249655(v=office.15)
 ms:contentKeyID: 48546405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 492efdcef5f71daf50ac84eec5e61ef4ed07fd5a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 469480b0735c6cfbc6bf43e54c529f3e40f6818d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481625"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880546"
 ---
-# <a name="using-ado-with-ado-md"></a>Using ADO with ADO MD
+# <a name="using-ado-with-ado-md"></a>Использование ADO с ADO MD
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ADO и ADO MD, связанных с ними, но отдельные объектных моделей. ADO предоставляет объекты для подключения к источникам данных, выполнение команд, получение табличных данных и метаданных схемы в табличном формате и просмотра сведений об ошибках поставщика. ADO MD предоставляет объекты для извлечения многомерных данных и Просмотр многомерных схемы метаданных.
 

@@ -1,16 +1,21 @@
 ---
-<<<<<<< Название HEAD: ActualSize и TOCTitle пример свойств DefinedSize (VJ ++): ActualSize и пример: свойства DefinedSize (VJ ++) ms:assetid: 3a25d3b7-df53-66c1-6141-d51cd57aca96 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15) ms:contentKeyID: 48544261 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств ActualSize и DefinedSize (VJ++)
+TOCTitle: ActualSize and DefinedSize properties example (VJ++)
+ms:assetid: 3a25d3b7-df53-66c1-6141-d51cd57aca96
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15)
+ms:contentKeyID: 48544261
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 7a7742f3afe544e775de294e3e955142e646b213
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885040"
 ---
+# <a name="actualsize-and-definedsize-properties-example-vj"></a>Пример использования свойств ActualSize и DefinedSize (VJ++)
 
-# <a name="actualsize-and-definedsize-properties-example-vj"></a>ActualSize and DefinedSize Properties Example (VJ++)
-
-=== Название: пример: свойства ActualSize и DefinedSize (VJ ++) TOCTitle: ActualSize и DefinedSize ms:assetid пример (VJ ++) свойства: 3a25d3b7-df53-66c1-6141-d51cd57aca96 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15) ms:contentKeyID: 48544261 ms.date: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="actualsize-and-definedsize-properties-example-vj"></a>Пример: свойства ActualSize и DefinedSize (VJ ++)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере с помощью свойства [ActualSize](actualsize-property-ado.md) и [DefinedSize](definedsize-property-ado.md) для отображения определенного размера и фактический размер поля.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249474(v=office.15)
 ms:contentKeyID: 48545648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: af923408c07ac0437bde0aa52707b70c1a002ffc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b5542b465cc6fc31949f2ceb5ed8bda408b1e653
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25859897"
+ms.locfileid: "25875933"
 ---
 # <a name="chapter-3-examining-data"></a>Глава 3. Осмотр данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Глава 2 объясняется порядок извлечения данных из источника данных в качестве объекта **набора записей** . В этой главе рассматриваются **записей** более подробно, в том числе как перейти по **записей** и просматривать данные.
 

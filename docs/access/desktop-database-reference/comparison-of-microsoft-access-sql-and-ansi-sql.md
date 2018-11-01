@@ -1,22 +1,22 @@
 ---
-title: Comparison of Microsoft Access SQL and ANSI SQL
+title: Сравнение Microsoft Access SQL и ANSI SQL
 TOCTitle: Comparison of Microsoft Access SQL and ANSI SQL
 ms:assetid: 0686f98f-10fe-0e02-e9d1-84ff3e755b57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd28cebe731ee3c922adec0bc3357e998dc1959b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d941e93fba9e5152bb2f1c973245fa9a7647dab
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481203"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874407"
 ---
-# <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparison of Microsoft Access SQL and ANSI SQL
+# <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Сравнение Microsoft Access SQL и ANSI SQL
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Ядро СУБД Microsoft Access SQL обычно является совместимым с ANSI-89 уровня 1. Тем не менее некоторые функции ANSI SQL не реализованы в Microsoft® Access SQL. С другой стороны Microsoft Access SQL включает в себя зарезервированные слова и функции, не поддерживаемые в формате ANSI SQL.
 

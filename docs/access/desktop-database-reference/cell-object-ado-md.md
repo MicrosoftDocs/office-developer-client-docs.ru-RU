@@ -1,22 +1,22 @@
 ---
-title: Cell Object (ADO MD)
+title: Объект Cell (ADO MD)
 TOCTitle: Cell Object (ADO MD)
 ms:assetid: b9d00b71-1f40-5bd1-4b89-fbdb59c552ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f38de1adc48e7d63a3b67e45f242a8cc884633ac
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 90fa6f969ab9fcb7eb6fdbb8b0c217cac92c8870
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482262"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874589"
 ---
-# <a name="cell-object-ado-md"></a>Cell Object (ADO MD)
+# <a name="cell-object-ado-md"></a>Объект Cell (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет данные на пересечении ось координат, содержащаяся в набор ячеек.
 

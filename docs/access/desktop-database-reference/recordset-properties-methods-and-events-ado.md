@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
 ms:contentKeyID: 48547019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 293ba387810af67998bf048f26f3d80b53863773
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 40763a87bafc545fb856e34835e33a8b6cc0e664
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482240"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872384"
 ---
 # <a name="recordset-properties-methods-and-events-ado"></a>Recordset Properties, Methods, and Events (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Свойства и коллекции
 
@@ -66,11 +66,11 @@ ms.locfileid: "25482240"
 
 - [Свойство Sort](sort-property-ado.md)
 
-- [Source Property (ADO Recordset)](source-property-ado-recordset.md)
+- [Свойство Source (записей ADO)](source-property-ado-recordset.md)
 
 - [Свойство State](state-property-ado.md)
 
-- [Status Property (ADO Recordset)](status-property-ado-recordset.md)
+- [Свойство Status (записей ADO)](status-property-ado-recordset.md)
 
 - [Свойство StayInSync](stayinsync-property-ado.md)
 
@@ -90,7 +90,7 @@ ms.locfileid: "25482240"
 
 - [Метод CompareBookmarks](comparebookmarks-method-ado.md)
 
-- [Delete Method (ADO Recordset)](delete-method-ado-recordset.md)
+- [Удаление метода (записей ADO)](delete-method-ado-recordset.md)
 
 - [Метод Find](find-method-ado.md)
 
@@ -104,7 +104,7 @@ ms.locfileid: "25482240"
 
 - [Метод NextRecordset](nextrecordset-method-ado.md)
 
-- [Open Method (ADO Recordset)](open-method-ado-recordset.md)
+- [Метод Open (записей ADO)](open-method-ado-recordset.md)
 
 - [Метод Requery](requery-method-ado.md)
 
@@ -120,7 +120,7 @@ ms.locfileid: "25482240"
 
 - [Метод UpdateBatch](updatebatch-method-ado.md)
 
-## <a name="events"></a>События
+## <a name="events"></a>Мероприятия
 
 - [Событие EndOfRecordset](endofrecordset-event-ado.md)
 

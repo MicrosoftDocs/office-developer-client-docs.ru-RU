@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
 ms:contentKeyID: 48544862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7f302f83db902498421649ea98b440c01a235d41
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f1741bc56fd1b81d056b5b408c4a2869ee15136
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480790"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877229"
 ---
 # <a name="parameters-collection-dao"></a>Parameters Collection (DAO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Коллекция **параметров** содержит все объекты **параметров** объекта **QueryDef** .
 

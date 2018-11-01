@@ -1,22 +1,22 @@
 ---
-title: Field-Related Error Information
+title: Сведения об ошибках, связанных с полями
 TOCTitle: Field-Related Error Information
 ms:assetid: 81a2c5a4-ab09-53d8-b270-e889b00a0c1a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249559(v=office.15)
 ms:contentKeyID: 48545958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfa35220e463cada69c94fe56a72732591683686
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: de2a737e314322064894142b2494e3b3793d1625
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480361"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884858"
 ---
-# <a name="field-related-error-information"></a>Field-Related Error Information
+# <a name="field-related-error-information"></a>Сведения об ошибках, связанных с полями
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Если ошибка, непосредственно связан с полем — например, если отсутствуют данные или имеет неверный тип поля — можно получить дополнительные сведения о причине проблемы, проверив свойство **состояние** объекта **поля** . Это свойство улучшена для предоставления конкретной информации о проблеме. Таким образом например, при сбое вызова **UpdateBatch** причины проблемы можно определить путем проверки свойство **Status** **полей** в каждой записи задействованных базах. Это свойство будет содержать одно из значений в **FieldStatusEnum** константу. В следующей таблице представлены эти значения, которые могут представлять интерес при возникновении ошибки.
 

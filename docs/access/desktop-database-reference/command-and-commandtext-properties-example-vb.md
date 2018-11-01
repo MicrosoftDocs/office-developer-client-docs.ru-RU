@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: команда и TOCTitle пример свойства CommandText (VB): команда и пример свойства CommandText (VB) === название: пример свойства команды и CommandText (VB) TOCTitle: команда и CommandText Пример: свойства (VB)
->>>>>>> главные ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15) ms:contentKeyID: 48545462 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств Command и CommandText (VB)
+TOCTitle: Command and CommandText properties example (VB)
+ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15)
+ms:contentKeyID: 48545462
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: e19ac7517e548f1594c0b525671e6aff66eef72c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888512"
 ---
-
-<<<<<<< HEAD
-# <a name="command-and-commandtext-properties-example-vb"></a>Command and CommandText Properties Example (VB)
-=======
-# <a name="command-and-commandtext-properties-example-vb"></a>Пример свойства команды и CommandText (VB)
->>>>>>> master
+# <a name="command-and-commandtext-properties-example-vb"></a>Пример использования свойств Command и CommandText (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Следующий код демонстрирует использование свойства [команда](command-property-adox.md) обновление текста процедуры.
 

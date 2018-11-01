@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249614(v=office.15)
 ms:contentKeyID: 48546223
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9f2fe9ca40fb9f9a290b48289646f15d9fef30d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 436bdfd955494accfc02d4460a6080531f76452d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861059"
+ms.locfileid: "25888197"
 ---
 # <a name="update-and-cancelupdate-methods-example-vb"></a>Пример использования методов Update и CancelUpdate (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется использование метода [обновления](update-method-ado.md) в сочетании с помощью метода [CancelUpdate](cancelupdate-method-ado.md) .
 

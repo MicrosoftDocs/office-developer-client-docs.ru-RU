@@ -1,22 +1,22 @@
 ---
-title: Users Collection (ADOX)
+title: Коллекция пользователей (ADOX)
 TOCTitle: Users Collection (ADOX)
 ms:assetid: bc61c862-1637-02e7-4b56-5ad984bdbcb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
 ms:contentKeyID: 48547413
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d68dc2dd368523e8ca3dd04a06008cea9bef337e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c3415fb7a2972621978ba3673343eb5f32b0eec1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480233"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885621"
 ---
-# <a name="users-collection-adox"></a>Users Collection (ADOX)
+# <a name="users-collection-adox"></a>Коллекция пользователей (ADOX)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Содержит все хранимые объектов [пользователей](user-object-adox.md) из каталога или группы.
 

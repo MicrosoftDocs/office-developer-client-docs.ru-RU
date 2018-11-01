@@ -1,15 +1,21 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство IndexNulls (VB): пример свойства IndexNulls (VB) === название: пример свойства IndexNulls (VB) TOCTitle: пример свойства IndexNulls (VB)
->>>>>>> главные ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID: 48545417 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства IndexNulls (VB)
+TOCTitle: IndexNulls property example (VB)
+ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
+ms:contentKeyID: 48545417
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c1baa2169b2d953f7a390dee44f9841a4c7ecfa4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869850"
 ---
+# <a name="indexnulls-property-example-vb"></a>Пример использования свойства IndexNulls (VB)
 
-<<<<<<< HEAD
-# <a name="indexnulls-property-example-vb"></a>IndexNulls Property Example (VB)
-=======
-# <a name="indexnulls-property-example-vb"></a>Пример свойства IndexNulls (VB)
->>>>>>> master
-
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [IndexNulls](indexnulls-property-adox.md) [индекса](index-object-adox.md). Код создает новый индекс и задает значение **IndexNulls** на основе ввода пользователя (из поля со списком с именем List1). Затем **индекс** добавляется **сотрудников** [в таблице](table-object-adox.md) в [каталог](catalog-object-adox.md) *"Борей"* . Новый **индекс** применяется к [набору записей](recordset-object-ado.md) , основанного на таблице **Employees** и открывается **набора записей** . Новая запись добавляется к таблице **Employees** **нулевое** значение в индексированных полей. Отображение этой новой записи зависит от значения свойства **IndexNulls** .
 

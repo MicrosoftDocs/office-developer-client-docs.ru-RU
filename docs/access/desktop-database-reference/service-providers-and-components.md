@@ -1,22 +1,22 @@
 ---
-title: Service Providers and Components
+title: Компоненты и поставщики служб
 TOCTitle: Service Providers and Components
 ms:assetid: e42d9c84-525a-4aca-01b2-88e3f2b0717f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250163(v=office.15)
 ms:contentKeyID: 48548333
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e7b099b7fda71f09e9e2a1bb3596c23106771fb3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d215c7c66c489e54d513941604b1c66c0e9094c1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482888"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881211"
 ---
-# <a name="service-providers-and-components"></a>Service Providers and Components
+# <a name="service-providers-and-components"></a>Компоненты и поставщики служб
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Поставщики услуг — это компоненты, которые расширяют функциональные возможности поставщиков данных при помощи расширенные интерфейсы, которые изначально не поддерживаемых в хранилище данных.
 

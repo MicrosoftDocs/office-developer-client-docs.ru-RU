@@ -1,22 +1,22 @@
 ---
-title: Working with Multidimensional Data
+title: Работа с многомерными данными
 TOCTitle: Working with Multidimensional Data
 ms:assetid: a0c9ac73-04da-cfdd-8787-15c8a53ff819
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 426a317f378862bd780abe8bce75bb7ff62bedad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7aba6eda9abc84c6f34442f828fe802c4b016653
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482269"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871992"
 ---
-# <a name="working-with-multidimensional-data"></a>Working with Multidimensional Data
+# <a name="working-with-multidimensional-data"></a>Работа с многомерными данными
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 *Набор ячеек* производится в результате запроса на многомерные данные. Он состоит из коллекции осей, обычно не более четырех осей и обычно только два или три. *Ось* — это коллекцию элементов из одного или нескольких измерений, который используется для поиска или фильтрации определенных значений в кубе.
 

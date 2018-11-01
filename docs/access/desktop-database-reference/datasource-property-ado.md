@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойства источника данных (ADO): свойства источника данных (ADO) === название: свойства источника данных (ADO) TOCTitle: свойства источника данных (ADO)
->>>>>>> главные ms:assetid: 5c5d6c9b-b7d4-45a5-0f6a-a5580a74361e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249325(v=office.15) ms:contentKeyID: 48545087 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство DataSource (ADO)
+TOCTitle: DataSource property (ADO)
+ms:assetid: 5c5d6c9b-b7d4-45a5-0f6a-a5580a74361e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249325(v=office.15)
+ms:contentKeyID: 48545087
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6a6b889deb9ccf713c2313b207387be8f6b1681b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868163"
 ---
-
-<<<<<<< HEAD
-# <a name="datasource-property-ado"></a>DataSource Property (ADO)
-=======
-# <a name="datasource-property-ado"></a>Свойства источника данных (ADO)
->>>>>>> master
+# <a name="datasource-property-ado"></a>Свойство DataSource (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает объект, который содержит данные в виде объекта [набора записей](recordset-object-ado.md) .
 

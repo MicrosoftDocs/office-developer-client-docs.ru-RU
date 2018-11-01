@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822732(v=office.15)
 ms:contentKeyID: 48547436
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7501ef6b54eac4388ba8e8b9e17b08d1b8404375
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bb79d9edd877e69ee103dc05b98b71cd49420e9a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481622"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873651"
 ---
 # <a name="recordsetdatecreated-property-dao"></a>Recordset.DateCreated Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает дату и время создания базовой таблицы (только для рабочих областей Microsoft Access). Только для чтения **Variant**.
 

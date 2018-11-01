@@ -1,26 +1,28 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство UnderlyingValue (ADO): свойство UnderlyingValue (ADO) === название: свойство UnderlyingValue (ADO) TOCTitle: свойство UnderlyingValue (ADO)
->>>>>>> главные ms:assetid: f84f4c1c-2bd4-a725-3575-ed063ead13c8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250262(v=office.15) ms:contentKeyID: 48548782 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство UnderlyingValue (ADO)
+TOCTitle: UnderlyingValue property (ADO)
+ms:assetid: f84f4c1c-2bd4-a725-3575-ed063ead13c8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250262(v=office.15)
+ms:contentKeyID: 48548782
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0d91dccb88ff39ad344ffa0e59e7ccdaaa9f1565
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867785"
 ---
-
-<<<<<<< HEAD
-# <a name="underlyingvalue-property-ado"></a>UnderlyingValue Property (ADO)
-=======
 # <a name="underlyingvalue-property-ado"></a>Свойство UnderlyingValue (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
 Указывает объект [поля](field-object-ado.md) текущим значением в базе данных.
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Возвращает значение **типа Variant** , которое указывает значение **поля**.
 

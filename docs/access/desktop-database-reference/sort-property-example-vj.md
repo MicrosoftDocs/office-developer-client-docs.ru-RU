@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства сортировки (VJ ++) TOCTitle: пример свойства сортировки (VJ ++) === название: пример свойства сортировки (VJ ++) TOCTitle: пример свойства сортировки (VJ ++)
->>>>>>> главные ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID: 48543896 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Sort (VJ++)
+TOCTitle: Sort property example (VJ++)
+ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
+ms:contentKeyID: 48543896
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9ea7dd3ee87b3e7ff2d06a6f6cf14d9195216f42
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872083"
 ---
-
-<<<<<<< HEAD
-# <a name="sort-property-example-vj"></a>Sort Property Example (VJ++)
-=======
-# <a name="sort-property-example-vj"></a>Пример свойства сортировки (VJ ++)
->>>>>>> master
+# <a name="sort-property-example-vj"></a>Пример использования свойства Sort (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных ***Pubs*** . Дополнительный служебной процедуры печатает каждую строку.
 

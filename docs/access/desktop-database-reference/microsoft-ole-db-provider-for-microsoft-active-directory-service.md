@@ -1,21 +1,21 @@
 ---
-title: Microsoft OLE DB Provider for Microsoft Active Directory Service
+title: Поставщик Microsoft OLE DB для службы Microsoft Active Directory
 TOCTitle: Microsoft OLE DB Provider for Microsoft Active Directory Service
 ms:assetid: 92d1c967-aa61-f3b5-1c0a-301ef236894c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249647(v=office.15)
 ms:contentKeyID: 48546385
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ad3b3163a2169d90072335d5bc827700b99c73f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c1555883ef8305225d6ddd1969d98de082288a6b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480660"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887539"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Microsoft OLE DB Provider for Microsoft Active Directory Service
+# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Поставщик Microsoft OLE DB для службы Microsoft Active Directory
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Поставщик Microsoft служб Active Directory интерфейсы (ADSI) позволяет ADO для подключения к службам каталогов разнородных через ADSI. Это позволяет приложений ADO доступ только для чтения к Microsoft Windows NT 4.0 и Microsoft Windows 2000 службы каталогов, в дополнение к любой LDAP-совместимый службы каталогов и Novell Directory Services. ADSI самого основана на модели поставщика, поэтому в случае нового поставщика, предоставляющая доступ к другой каталог приложений ADO смогут бесперебойно получать доступ к нему. Поставщик ADSI свободных потоков и Юникод.
 

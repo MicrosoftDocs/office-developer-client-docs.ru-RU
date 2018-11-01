@@ -1,30 +1,26 @@
 ---
-title: DrilledDown Property (ADO MD)
+title: Свойство DrilledDown (ADO MD)
 TOCTitle: DrilledDown Property (ADO MD)
 ms:assetid: 1dfe728f-8da2-1d2b-7361-8689a0b088b4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248972(v=office.15)
 ms:contentKeyID: 48543610
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96edfa035937a201891f0dca2aeaf036a5061cfe
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f7e53eb2a6d1735e07fa73e38adad8a59522fddf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605494"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871502"
 ---
-# <a name="drilleddown-property-ado-md"></a>DrilledDown Property (ADO MD)
+# <a name="drilleddown-property-ado-md"></a>Свойство DrilledDown (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает, будет ли дочерних элементов следовать непосредственно после элемента на оси.
 
-<<<<<<< HEAD
-## <a name="return-values"></a>Return Values
-=======
 ## <a name="return-values"></a>Возвращаемые значения
->>>>>>> master
 
 Возвращает **логическое** значение и доступен только для чтения. **DrilledDown** возвращает **значение True** , если нет дочерних членов текущего элемента на оси. **DrilledDown** возвращает **значение False** , если один или несколько дочерних элементов текущего элемента на оси.
 

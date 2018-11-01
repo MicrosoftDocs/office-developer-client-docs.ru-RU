@@ -1,22 +1,22 @@
 ---
-title: Overview of Multidimensional Schemas and Data
+title: Общие сведения о многомерных схемах и данных
 TOCTitle: Overview of Multidimensional Schemas and Data
 ms:assetid: a963e993-b7bf-eeb4-ecd5-d6fe43cf4bb5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef416e62d17b5b4821b5051ecc59cc6e0dfb5739
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 376d80bc79af772cfd09b6f5b8759321ed4431ee
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482616"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887169"
 ---
-# <a name="overview-of-multidimensional-schemas-and-data"></a>Overview of Multidimensional Schemas and Data
+# <a name="overview-of-multidimensional-schemas-and-data"></a>Общие сведения о многомерных схемах и данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ## <a name="understanding-multidimensional-schemas"></a>Общие сведения о многомерных схем
 
@@ -71,7 +71,7 @@ Hamburg, Munich, Stuttgart}
 
   - Cities (города) = {Ottawa, Торонто, Vancouver, Калгари, Сиэтл, Буаз, Лос-Анджелес, Хьюстоне, Shreveport, Майами, может, Нью-Йорк, Лондон, Dover, Глазго, Эдинбург, Cardiff, Pembroke, Белфаст, Берлин, Hamburg, Мюнхен, Штутгартский}
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 Элементы на конечном уровне иерархии не имеющие дочерних элементов и нет родительского имеют члены на корневом уровне. Другие участники имеют по крайней мере один родительских и дочерних по крайней мере один. Например частичное обход дерева иерархии в измерении Geography дает следующие отношения родительских и дочерних:
 
@@ -140,7 +140,7 @@ Hamburg, Munich, Stuttgart}
 
 - Cities (города) = {Ottawa, Торонто, Vancouver, Калгари, Сиэтл, Буаз, Лос-Анджелес, Хьюстоне, Shreveport, Майами, может, Нью-Йорк, Лондон, Dover, Глазго, Эдинбург, Cardiff, Pembroke, Белфаст, Берлин, Hamburg, Мюнхен, Штутгартский}
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 Элементы на конечном уровне иерархии не имеющие дочерних элементов и нет родительского имеют члены на корневом уровне. Другие участники имеют по крайней мере один родительских и дочерних по крайней мере один. Например частичное обход дерева иерархии в измерении Geography дает следующие отношения родительских и дочерних:
 

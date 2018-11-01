@@ -1,22 +1,22 @@
 ---
-title: Close Method (ADO MD)
+title: Закройте метод (ADO MD)
 TOCTitle: Close Method (ADO MD)
 ms:assetid: 683788b0-0a96-a165-6b49-8d7036850756
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249406(v=office.15)
 ms:contentKeyID: 48545382
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39059a684a2a64574fc270f3fbd3797a00f66b96
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 28c5ff23470015c9b40c996a1eb5b60f74766da3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482951"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888792"
 ---
-# <a name="close-method-ado-md"></a>Close Method (ADO MD)
+# <a name="close-method-ado-md"></a>Закройте метод (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Закрытие открытых ячеек.
 

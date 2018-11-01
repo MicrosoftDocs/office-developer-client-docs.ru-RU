@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 362fd0784ee596852af7b16fae5636330a52ed59
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 72152a67a9846adacbc6b200a3517c7e65b9fc4c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863747"
+ms.locfileid: "25881912"
 ---
 # <a name="chapter-15-adox-fundamentals"></a>Глава 15. Основы ADOX
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Microsoft® ActiveX® данных объекты расширения для языка определения данных и безопасности (ADOX) — это расширение объекты ADO и модели программирования. ADOX включает в себя объекты для создания схемы и изменения, а также безопасности. Так как они объектно ориентированный подход к схеме выполнение различных операций, можно написать код, будут работать в различных данных источников независимо от того, различия в свой собственный синтаксис.
 

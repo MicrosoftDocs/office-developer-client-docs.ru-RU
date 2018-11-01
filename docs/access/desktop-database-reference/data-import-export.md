@@ -6,31 +6,31 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)
 ms:contentKeyID: 52071871
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 12525e212b29c02c891fb5524b89771467cb326e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f3b4770cb480ff5c99722d84758df2c638264bcc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480701"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876752"
 ---
-# <a name="data-importexport"></a>Data Import/Export
+# <a name="data-importexport"></a>Импорт и экспорт данных
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [RunSavedImportExport Macro Action](runsavedimportexport-macro-action.md)
+  - [Действия макроса RunSavedImportExport](runsavedimportexport-macro-action.md)
 
-  - [EMailDatabaseObject Macro Action](emaildatabaseobject-macro-action.md)
+  - [Действия макроса EMailDatabaseObject](emaildatabaseobject-macro-action.md)
 
-  - [ExportWithFormatting Macro Action](exportwithformatting-macro-action.md)
+  - [Действия макроса ExportWithFormatting](exportwithformatting-macro-action.md)
 
-  - [ImportExportData Macro Action](importexportdata-macro-action.md)
+  - [Действия макроса ImportExportData](importexportdata-macro-action.md)
 
-  - [ImportExportSpreadsheet Macro Action](importexportspreadsheet-macro-action.md)
+  - [Действия макроса ImportExportSpreadsheet](importexportspreadsheet-macro-action.md)
 
-  - [ImportExportText Macro Action](importexporttext-macro-action.md)
+  - [Действия макроса ImportExportText](importexporttext-macro-action.md)
 
-  - [ImportSharePointList Macro Action](importsharepointlist-macro-action.md)
+  - [Действия макроса ImportSharePointList](importsharepointlist-macro-action.md)
 

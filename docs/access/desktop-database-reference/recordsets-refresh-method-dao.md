@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835781(v=office.15)
 ms:contentKeyID: 48548335
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 63c95c864998be90e1d65b3980e949945bf1a4ae
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8bc53ef4dda95f11430e85d1108899f02fd32ff9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481297"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870879"
 ---
 # <a name="recordsetsrefresh-method-dao"></a>Recordsets.Refresh Method (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Не поддерживается для этого объекта.
 

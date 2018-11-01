@@ -1,5 +1,5 @@
 ---
-title: OpenDiagram Macro Action
+title: Действия OpenDiagram макроса
 TOCTitle: OpenDiagram Macro Action
 ms:assetid: 408e7224-02bb-335a-b1b9-cbccbf6e36ec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192875(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm154095
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 39557bca91a500a5abf0871d5977418bf067d562
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3118c2a6b85d400b4b797c4b9b711e5f5a512c62
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482389"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869241"
 ---
-# <a name="opendiagram-macro-action"></a>OpenDiagram Macro Action
+# <a name="opendiagram-macro-action"></a>Действия OpenDiagram макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В проекте Microsoft Access можно использовать действие **OpenDiagram** для открытия схемы базы данных в режиме конструктора.
 

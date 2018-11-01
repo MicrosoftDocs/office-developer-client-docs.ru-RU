@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837054(v=office.15)
 ms:contentKeyID: 48548846
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7c0d97b6727f8f294bb2a778423ca02666b7d05f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: edb0f18e68021bf6e23e006d5d8e37e6eb6d816c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483262"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867953"
 ---
 # <a name="recordset2batchsize-property-dao"></a>Recordset2.BatchSize Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 

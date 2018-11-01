@@ -1,22 +1,22 @@
 ---
-title: Address Book Data-Binding Object
+title: Объект привязки данных адресной книги
 TOCTitle: Address Book Data-Binding Object
 ms:assetid: cf43f645-1ee1-8655-eb70-86d601e9f3f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfa95c05ac87648c4d69e3d781614d9cd553bc02
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7852a929f08c46feea002913a1f64d8144572080
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481956"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877557"
 ---
-# <a name="address-book-data-binding-object"></a>Address Book Data-Binding Object
+# <a name="address-book-data-binding-object"></a>Объект привязки данных адресной книги
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Приложение адресной книги использует [RDS. DataControl](datacontrol-object-rds.md) объект привязки данных из базы данных SQL Server к визуального объекта (в данном случае таблице DHTML) на странице HTML клиентского приложения. Логика программы VBScript событиями использует [RDS. DataControl](datacontrol-object-rds.md) для:
 

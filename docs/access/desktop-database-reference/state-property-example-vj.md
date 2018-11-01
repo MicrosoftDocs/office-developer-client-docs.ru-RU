@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle пример свойства состояния (VJ ++): пример свойства состояния (VJ ++) === заголовок: пример свойства состояния (VJ ++) TOCTitle: пример свойства состояния (VJ ++)
->>>>>>> главные ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15) ms:contentKeyID: 48545869 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства State (VJ++)
+TOCTitle: State property example (VJ++)
+ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15)
+ms:contentKeyID: 48545869
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ac8e066e537f86095c31ee975fd27f0f38211c2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881687"
 ---
-
-<<<<<<< HEAD
-# <a name="state-property-example-vj"></a>State Property Example (VJ++)
-=======
-# <a name="state-property-example-vj"></a>Пример свойства состояний (VJ ++)
->>>>>>> master
+# <a name="state-property-example-vj"></a>Пример использования свойства State (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [состояние](state-property-ado.md) для отображения сообщения во время открытия асинхронных подключений и выполнении асинхронных команд.
 

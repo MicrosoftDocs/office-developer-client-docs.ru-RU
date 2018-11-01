@@ -1,5 +1,5 @@
 ---
-title: RemoveAllTempVars Macro Action
+title: Действия макроса RemoveAllTempVars
 TOCTitle: RemoveAllTempVars Macro Action
 ms:assetid: 409fd836-4a53-cefd-4264-8cee0fa8ac52
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192877(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm117413
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 42217fea05b29fdf127945d1547adbac28346cc9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 49b92f90fb26ea1f7ad5f0878a7479267b35bdaf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481261"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870795"
 ---
-# <a name="removealltempvars-macro-action"></a>RemoveAllTempVars Macro Action
+# <a name="removealltempvars-macro-action"></a>Действия макроса RemoveAllTempVars
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Чтобы удалить все временные переменные, которые созданы с помощью действия **SetTempVar** можно использовать действие **RemoveAllTempVars** .

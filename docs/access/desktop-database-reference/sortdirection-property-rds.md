@@ -1,22 +1,22 @@
 ---
-title: SortDirection Property (RDS)
+title: Свойство направления сортировки (RDS)
 TOCTitle: SortDirection Property (RDS)
 ms:assetid: 33de0dce-f371-6a54-d179-0627939f5b14
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249106(v=office.15)
 ms:contentKeyID: 48544119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 256e6a878e9c3f382bcd65b9138df7a440bf118c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3603696992ab7ac759a62a70f50b4fa35636d2c0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482522"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879153"
 ---
-# <a name="sortdirection-property-rds"></a>SortDirection Property (RDS)
+# <a name="sortdirection-property-rds"></a>Свойство направления сортировки (RDS)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Указывает, будет ли порядок сортировки по возрастанию или по убыванию.

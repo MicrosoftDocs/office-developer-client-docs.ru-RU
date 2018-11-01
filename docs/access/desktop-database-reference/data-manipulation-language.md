@@ -6,44 +6,44 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124073(v=office.15)
 ms:contentKeyID: 52071710
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 391cc2e5e951e4f44082ee2340e96913a3bac5e0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 48a95e821beeace771cbced5886072fdab37be78
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481960"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888141"
 ---
 # <a name="data-manipulation-language-microsoft-access-sql"></a>Язык обработки данных (доступ к Microsoft SQL)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-  - [Удалите оператор](delete-statement-microsoft-access-sql.md)
+  - [Оператор DELETE](delete-statement-microsoft-access-sql.md)
 
-  - [Инструкция EXECUTE](execute-statement-microsoft-access-sql.md)
+  - [Оператор EXECUTE](execute-statement-microsoft-access-sql.md)
 
   - [Операция INNER JOIN](inner-join-operation-microsoft-access-sql.md)
 
-  - [Инструкция INSERT INTO](insert-into-statement-microsoft-access-sql.md)
+  - [Оператор INSERT INTO](insert-into-statement-microsoft-access-sql.md)
 
-  - [Присоединение к СЛЕВА, RIGHT JOIN операций](left-join-right-join-operations-microsoft-access-sql.md)
+  - [Операции LEFT JOIN и RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md)
 
-  - [Объявление параметров](parameters-declaration-microsoft-access-sql.md)
+  - [Объявление PARAMETERS](parameters-declaration-microsoft-access-sql.md)
 
-  - [Предложение ПРОЦЕДУРЫ](procedure-clause-microsoft-access-sql.md)
+  - [Предложение PROCEDURE](procedure-clause-microsoft-access-sql.md)
 
-  - [Инструкция SELECT](select-statement-microsoft-access-sql.md)
+  - [Оператор SELECT](select-statement-microsoft-access-sql.md)
 
-  - [ВЫБЕРИТЕ. В оператор](select-into-statement-microsoft-access-sql.md)
+  - [Оператор SELECT.INTO](select-into-statement-microsoft-access-sql.md)
 
   - [Вложенные запросы SQL](sql-subqueries-microsoft-access-sql.md)
 
-  - [Оператор ТРАНЗАКЦИЙ](transaction-statement-microsoft-access-sql.md)
+  - [Оператор TRANSACTION](transaction-statement-microsoft-access-sql.md)
 
-  - [Оператор ПРЕОБРАЗОВАНИЯ](transform-statement-microsoft-access-sql.md)
+  - [Оператор TRANSFORM](transform-statement-microsoft-access-sql.md)
 
-  - [Операции ОБЪЕДИНЕНИЯ](union-operation-microsoft-access-sql.md)
+  - [Операция UNION](union-operation-microsoft-access-sql.md)
 
-  - [Инструкция UPDATE ](update-statement-microsoft-access-sql.md)
+  - [Оператор UPDATE](update-statement-microsoft-access-sql.md)
 
-  - [ОБЪЯВЛЕНИЕ OWNERACCESS OPTION](with-owneraccess-option-declaration-microsoft-access-sql.md)
+  - [Объявление WITH OWNERACCESS OPTION](with-owneraccess-option-declaration-microsoft-access-sql.md)
 

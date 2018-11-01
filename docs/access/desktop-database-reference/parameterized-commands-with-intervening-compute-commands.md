@@ -1,22 +1,22 @@
 ---
-title: Parameterized Commands with Intervening COMPUTE Commands
+title: Команды с параметрами и промежуточными командами COMPUTE
 TOCTitle: Parameterized Commands with Intervening COMPUTE Commands
 ms:assetid: ff3724cd-040b-4b5f-bb9b-e6a38fd938c9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250311(v=office.15)
 ms:contentKeyID: 48548959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c05e1a8b31523b9dd225c062caf2b602df1b222e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c44afce969af77696e52cea3bc194d73eb2ddd25
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479771"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877256"
 ---
-# <a name="parameterized-commands-with-intervening-compute-commands"></a>Parameterized Commands with Intervening COMPUTE Commands
+# <a name="parameterized-commands-with-intervening-compute-commands"></a>Команды с параметрами и промежуточными командами COMPUTE
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Фигурой типичного параметризованный команда APPEND имеет, который создает родительский объект **набора записей** с командой, запросов и другой предложения, который создает дочерний **набора записей** с помощью команды параметризованный запрос, то есть, содержащий параметр команды Заполнитель (вопросительный знак, «?»). Полученный форме **записей** имеет два уровня, в которых родительский занимает верхнего уровня и дочерние занимает низкого уровня.
 

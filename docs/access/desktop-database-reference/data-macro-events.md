@@ -6,27 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124692(v=office.15)
 ms:contentKeyID: 52072314
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 90025bd3a48dac008f4c59ae37dba79ec59fc6c3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a98218bb80bb413411feaaf3b0d63483aea4e686
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482717"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879713"
 ---
-# <a name="data-macro-events"></a>Data Macro Events
+# <a name="data-macro-events"></a>Макрос данных события
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [After Delete Macro Event](after-delete-macro-event.md)
+  - [После удаления макроса события](after-delete-macro-event.md)
 
-  - [After Insert Macro Event](after-insert-macro-event.md)
+  - [После вставки макрос события](after-insert-macro-event.md)
 
-  - [After Update Macro Event](after-update-macro-event.md)
+  - [После обновления макрос события](after-update-macro-event.md)
 
-  - [Before Change Macro Event](before-change-macro-event.md)
+  - [Прежде чем событие изменения макросов](before-change-macro-event.md)
 
-  - [Before Delete Macro Event](before-delete-macro-event.md)
+  - [Прежде чем удалить макрос события](before-delete-macro-event.md)
 

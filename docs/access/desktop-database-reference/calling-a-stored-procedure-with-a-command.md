@@ -1,22 +1,22 @@
 ---
-title: Calling a Stored Procedure with a Command
+title: Вызов хранимой процедуры с помощью команды
 TOCTitle: Calling a Stored Procedure with a Command
 ms:assetid: 19d600d7-f717-39df-11a0-951e3ed0f812
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248944(v=office.15)
 ms:contentKeyID: 48543509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 573b847f53d3fc7ca07691e9a92d152598531bce
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05e68a18ccd97e33416c4603f033fb91acaf0210
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481450"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876003"
 ---
-# <a name="calling-a-stored-procedure-with-a-command"></a>Calling a Stored Procedure with a Command
+# <a name="calling-a-stored-procedure-with-a-command"></a>Вызов хранимой процедуры с помощью команды
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Можно также использовать команду при вызове хранимой процедуры. Следующий код вызывает хранимую процедуру в образце базы данных Northwind, называется CustOrdersOrders, которое определяется следующим образом:
 

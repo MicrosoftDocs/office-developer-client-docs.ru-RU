@@ -1,16 +1,22 @@
 ---
-<<<<<<< HEAD заголовок: BOF, EOF и TOCTitle пример свойств закладок (VJ ++): BOF, EOF и пример свойств закладок (VJ ++) === заголовок: пример: свойства BOF, EOF и закладок (VJ ++) TOCTitle: свойства BOF, EOF и закладка Пример (VJ ++)
->>>>>>> главные ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID: 48545400 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств BOF, EOF и Bookmark (VJ++)
+TOCTitle: BOF, EOF, and Bookmark properties example (VJ++)
+ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15)
+ms:contentKeyID: 48545400
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bc00c8a4102287fb2488d8ffa99607521a91021b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870431"
 ---
-
-<<<<<<< HEAD
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a>BOF, EOF, and Bookmark Properties Example (VJ++)
-=======
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a>Пример: свойства BOF, EOF и закладок (VJ ++)
->>>>>>> master
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a>Пример использования свойств BOF, EOF и Bookmark (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере с помощью свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) отображать сообщение, если пользователь пытается пропустить первой или последней записи из [набора записей](recordset-object-ado.md). Для оповещения пользователя помечает записи в наборе **записей** и вернуться к нему позже используется свойство [Закладка](bookmark-property-ado.md) .
 

@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство DefaultDatabase (ADO): свойство DefaultDatabase (ADO) === название: свойство DefaultDatabase (ADO) TOCTitle: свойство DefaultDatabase (ADO)
->>>>>>> главные ms:assetid: a35c5631-f9d9-e51f-950b-e52169830d94 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15) ms:contentKeyID: 48546784 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство DefaultDatabase (ADO)
+TOCTitle: DefaultDatabase property (ADO)
+ms:assetid: a35c5631-f9d9-e51f-950b-e52169830d94
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15)
+ms:contentKeyID: 48546784
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6238192f123e31c27a0e553d548be0b1623f0a32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882331"
 ---
-
-<<<<<<< HEAD
-# <a name="defaultdatabase-property-ado"></a>DefaultDatabase Property (ADO)
-=======
 # <a name="defaultdatabase-property-ado"></a>Свойство DefaultDatabase (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает базу данных по умолчанию для объекта [подключения](connection-object-ado.md) .
 
-<<<<<<< HEAD
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
-=======
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
->>>>>>> master
 
 Задает или возвращает **строковое** значение, которое оценивается как имя базы данных, доступные из поставщика.
 

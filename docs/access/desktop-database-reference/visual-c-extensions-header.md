@@ -1,22 +1,22 @@
 ---
-title: Visual C++ Extensions Header
+title: Заголовок расширений Visual C++
 TOCTitle: Visual C++ Extensions Header
 ms:assetid: 59fb9758-be43-051e-b3ae-6fdf50218057
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
 ms:contentKeyID: 48545032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78fc2a0b17637dcb0328995dcfc8b93edee2e326
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef7ca4a9dabb92bc2d13bd0b589180d7d4ca2958
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479805"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871474"
 ---
-# <a name="visual-c-extensions-header"></a>Visual C++ Extensions Header
+# <a name="visual-c-extensions-header"></a>Заголовок расширений Visual C++
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Следующий заголовок, **icrsint.h**, сведения о интерфейс, который клиенты извлекаются поля из **набора записей** в переменные, определенные в класс, производный от **CADORecordBinding**. Необходимо указать привязку макросе ADO для каждого поля, которое требуется получить доступ к.
 

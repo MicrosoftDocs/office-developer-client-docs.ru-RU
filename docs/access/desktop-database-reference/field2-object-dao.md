@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
 ms:contentKeyID: 48544994
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ecc5bf969d0566982d2d3bf47c13919b13c610b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7b092007ed2ba0dc3f2b6e53cc059e2382a064e9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481048"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870375"
 ---
 # <a name="field2-object-dao"></a>Field2 Object (DAO)
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Объект **поле2** представляет столбец данных с типом данных и общий набор свойств.
 

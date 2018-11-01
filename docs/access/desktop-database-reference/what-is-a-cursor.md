@@ -1,22 +1,22 @@
 ---
-title: What is a Cursor?  (Справочник по для настольных баз данных access)
+title: Что такое курсор?  (Справочник по для настольных баз данных access)
 TOCTitle: What is a Cursor?
 ms:assetid: cc70d941-05e0-9b14-1c5d-6b1a5802f546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
 ms:contentKeyID: 48547738
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb9321434dc039527daa99f2b24abf83a4c3383e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6dc2e38c7459fea46c33373447276d8643b4b0de
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480878"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887378"
 ---
-# <a name="what-is-a-cursor"></a>What is a Cursor?
+# <a name="what-is-a-cursor"></a>Что такое курсор?
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Операции в реляционной базе данных выступить полный набор строк. Набор строк, возвращаемых оператором SELECT состоит из всех строк, которые удовлетворяют условиям в предложении WHERE оператора. Этот полный набор строк, возвращаемых в операторе называется набор результатов. Приложения, особенно, интерактивные и online, не всегда эффективно работают с результирующим набором как одно целое. Эти приложения требуется механизм для работы с одну строку или небольшой блок строк за раз. Курсоры являются расширением наборы результатов, которые предоставляют такой механизм.
 

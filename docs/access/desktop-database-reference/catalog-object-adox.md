@@ -1,22 +1,22 @@
 ---
-title: Catalog Object (ADOX)
+title: Объект каталога (ADOX)
 TOCTitle: Catalog Object (ADOX)
 ms:assetid: d9e8d94b-9161-3eb6-abaf-00d1244d1f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 04622cd636d73beaf3124cda2584299443467973
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8d1be720b8c3791830a4258d6241466ba596d85e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480269"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887658"
 ---
-# <a name="catalog-object-adox"></a>Catalog Object (ADOX)
+# <a name="catalog-object-adox"></a>Объект каталога (ADOX)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Содержит коллекции ([таблицы](tables-collection-adox.md), [представления](views-collection-adox.md), [пользователей](users-collection-adox.md), [групп](groups-collection-adox.md)и [процедуры](procedures-collection-adox.md)), которые описывают каталога схемы из источника данных.
 

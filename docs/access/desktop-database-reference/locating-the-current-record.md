@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249865(v=office.15)
 ms:contentKeyID: 48547228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6088a1af3a99b26b83a0f77e696a46214a009b5a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 26dbeab9930ddb3abf77aa9c8f10b79a03480b6e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860478"
+ms.locfileid: "25883661"
 ---
 # <a name="locating-the-current-record"></a>Обнаружение текущей записи
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Текущее положение курсора в **записей** ограничивает положения текущей записи. Если предполагается, что выдается, команда возвращает результаты, автоматически курсора на первую запись при вызове метода **Open** **набора записей** . Таким образом с помощью образца **набора записей**курсор будет первой записи «Груши органических Dried ячейку Bob».
 

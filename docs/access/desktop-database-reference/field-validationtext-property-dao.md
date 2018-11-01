@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195540(v=office.15)
 ms:contentKeyID: 48545494
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fcdcd3d7e052dc2d04b34089b7b4f02896fb339a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c582795dc104171bd4c8435521e0da31718b1a38
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480879"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868891"
 ---
 # <a name="fieldvalidationtext-property-dao"></a>Field.ValidationText Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Задает или возвращает значение, указывающее, текст сообщения, приложение, если значение **поля** объекта не удовлетворяют правило проверки, указанного идентификатором **условие на значение** свойства поля (только для рабочих областей Microsoft Access) . Для чтения и записи, **String**.
 

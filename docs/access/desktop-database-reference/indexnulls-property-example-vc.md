@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства IndexNulls (VC ++) TOCTitle: пример свойства IndexNulls (VC ++) === название: пример свойства IndexNulls (VC ++) TOCTitle: пример свойства IndexNulls (VC ++)
->>>>>>> главные ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15) ms:contentKeyID: 48543039 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства IndexNulls (VC++)
+TOCTitle: IndexNulls property example (VC++)
+ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15)
+ms:contentKeyID: 48543039
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8f91883349a39a5674459328d5335cc892e0bb79
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877242"
 ---
-
-<<<<<<< HEAD
-# <a name="indexnulls-property-example-vc"></a>IndexNulls Property Example (VC++)
-=======
-# <a name="indexnulls-property-example-vc"></a>Пример свойства IndexNulls (VC ++)
->>>>>>> master
+# <a name="indexnulls-property-example-vc"></a>Пример использования свойства IndexNulls (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [IndexNulls](indexnulls-property-adox.md) [индекса](index-object-adox.md). Код создает новый индекс и задает значение **IndexNulls** зависимости от введенных пользователем. Затем **индекс** добавляется **сотрудников** [в таблице](table-object-adox.md) в [каталог](catalog-object-adox.md) *"Борей"* . Новый **индекс** применяется к [набору записей](recordset-object-ado.md) , основанного на таблице **Employees** и открывается **набора записей** . Новая запись добавляется к таблице **Employees** **нулевое** значение в индексированных полей. Отображение этой новой записи зависит от значения свойства **IndexNulls** .
 

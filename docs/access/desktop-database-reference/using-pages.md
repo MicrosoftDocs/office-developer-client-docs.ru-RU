@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249261(v=office.15)
 ms:contentKeyID: 48544817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b25123698f39e602b59a2f5cd6bd9a2f0595addb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9ff4c0368d2811767b3211a664a42dfc8aac16ba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482975"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874771"
 ---
-# <a name="using-pages"></a>Using Pages
+# <a name="using-pages"></a>Использование страниц
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Используйте свойство **PageCount** , чтобы определить, сколько страниц данных находятся в объекте **набора записей** . *Страницы* — это группы, размер которого равен значение свойства **PageSize** записей. Даже в том случае, если последней странице не заполнен, так как меньше записей, чем значение **PageSize** , счетчиков на дополнительные в качестве значения **PageCount** . Если объекта **набора записей** не поддерживает это свойство, **PageCount** будет иметь значение -1, чтобы указать, что **PageCount** является неопределенной.
 

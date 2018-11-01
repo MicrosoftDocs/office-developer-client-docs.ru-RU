@@ -1,15 +1,21 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство Item (ADO): свойство Item (ADO) === название: свойство (ADO) элемента TOCTitle: свойство (ADO) элемента
->>>>>>> главные ms:assetid: 793c305f-0e5b-a529-e21f-b7ab0843ed49 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15) ms:contentKeyID: 48545767 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство Item (ADO)
+TOCTitle: Item property (ADO)
+ms:assetid: 793c305f-0e5b-a529-e21f-b7ab0843ed49
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15)
+ms:contentKeyID: 48545767
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 73e6240b92a34a6ff1d215cd3211a844f10fe766
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868311"
 ---
-
-<<<<<<< HEAD
-# <a name="item-property-ado"></a>Item Property (ADO)
-=======
 # <a name="item-property-ado"></a>Свойство Item (ADO)
->>>>>>> master
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает конкретный элемент из коллекции по имени или номеру порядковый номер.
 
@@ -17,11 +23,7 @@
 
 Установить для*объекта* = *семейства сайтов*. Элемент (индекс)
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Возвращает ссылку на объект.
 

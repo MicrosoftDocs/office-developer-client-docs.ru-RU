@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 387ab87bb21d9c49c58a72bb4958426367493c11
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4571f250891d02f8053e63aae7b94d674f61ca71
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480382"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876402"
 ---
-# <a name="ado-properties"></a>ADO Properties
+# <a name="ado-properties"></a>Свойства ADO
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 <table>
 <colgroup>

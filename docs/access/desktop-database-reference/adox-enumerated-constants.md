@@ -1,22 +1,22 @@
 ---
-title: ADOX Enumerated Constants
+title: Перечислимые константы ADOX
 TOCTitle: ADOX Enumerated Constants
 ms:assetid: 0ad716a0-8801-50cb-024a-85c308c65c78
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248840(v=office.15)
 ms:contentKeyID: 48543163
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6849961c0428079227348e1bb68c6ceb8dfd73a1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0f8be72ea28d9814890bcaf193c1175725fcfe1d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483172"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869501"
 ---
-# <a name="adox-enumerated-constants"></a>ADOX Enumerated Constants
+# <a name="adox-enumerated-constants"></a>Перечислимые константы ADOX
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Для помощи отладки, констант перечисления ADOX списка значение для каждого константу. Тем не менее это значение исключительно рекомендации и может измениться в разных выпусках ADOX в другую. Код только должен зависеть от имени, а не фактические значения, перечисленных констант.
 

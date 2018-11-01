@@ -1,22 +1,22 @@
 ---
-title: Member Object (ADO MD)
+title: Объект члена (ADO MD)
 TOCTitle: Member Object (ADO MD)
 ms:assetid: d80c024a-07dc-7a35-f8f2-b4d5b19d89e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
 ms:contentKeyID: 48548025
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: caa3bd6e36c26864e263653cc63a85d35d2d1232
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7eaaa31df9b9bc3678c69e2115a0a58ec41ccf9f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482200"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878222"
 ---
-# <a name="member-object-ado-md"></a>Member Object (ADO MD)
+# <a name="member-object-ado-md"></a>Объект члена (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Представляет элемент уровень в кубе, дочерние элементы элемента уровня или членом положение оси набора ячеек.
 

@@ -1,23 +1,23 @@
 ---
-title: XML Persistence Format
+title: Формат сохранения XML
 TOCTitle: XML Persistence Format
 ms:assetid: 499f335c-ee1f-c803-e3a8-034b8decf1ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249226(v=office.15)
 ms:contentKeyID: 48544643
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9db8da66ab2c7bae1f28271ae37573f06ca222d7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 201ea2b46ad2bb08e631882cebd5419b6b301179
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481556"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867750"
 ---
-# <a name="xml-persistence-format"></a>XML Persistence Format
+# <a name="xml-persistence-format"></a>Формат сохранения XML
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-## <a name="xml-persistence-format"></a>XML Persistence Format
+## <a name="xml-persistence-format"></a>Формат сохранения XML
 
 В ADO используется кодировка UTF-8 для потока XML, который она повторяется.
 
@@ -67,7 +67,7 @@ xmlns:z="#RowsetSchema">
 
 В разделе данных имеет три строки, содержащие сведения о них. Для пустой набор строк, в разделе данных может быть пустым, но `<rs:data>` теги, должно быть установлено. Без данных можно написать сокращение тег просто `<rs:data>`. Любой тег начинаются с «rs» указывает, что в пространстве имен, определенные в urn: schemas-microsoft-com:rowset. Полное определение схемы определяется в приложении к этому документу.
 
-## <a name="xml-persistence-format"></a>XML Persistence Format
+## <a name="xml-persistence-format"></a>Формат сохранения XML
 
 В ADO используется кодировка UTF-8 для потока XML, который она повторяется.
 

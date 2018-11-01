@@ -6,37 +6,37 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180129(v=office.15)
 ms:contentKeyID: 52075078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31aec34d6626973f798b998433f35b632055b0c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 28ce8f84138d0f6eda4fce5e916f6722a3d7385f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482313"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882793"
 ---
 # <a name="data-actions"></a>Действия с данными
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 
-  - [CancelRecordChange Macro Action](cancelrecordchange-macro-action.md)
+  - [Действия макроса CancelRecordChange](cancelrecordchange-macro-action.md)
 
-  - [ClearMacroError Macro Action](clearmacroerror-macro-action.md)
+  - [Действия макроса ClearMacroError](clearmacroerror-macro-action.md)
 
-  - [ExitForEachRecord Macro Action](exitforeachrecord-macro-action.md)
+  - [Действия макроса ExitForEachRecord](exitforeachrecord-macro-action.md)
 
-  - [LogEvent Macro Action](logevent-macro-action.md)
+  - [Действия LogEvent макроса](logevent-macro-action.md)
 
-  - [OnError Macro Action](onerror-macro-action.md)
+  - [Действия макроса OnError](onerror-macro-action.md)
 
-  - [RaiseError Macro Action](raiseerror-macro-action.md)
+  - [Действия макроса RaiseError](raiseerror-macro-action.md)
 
-  - [SendEmail Macro Action](sendemail-macro-action.md)
+  - [Действия макроса sendemail действие](sendemail-macro-action.md)
 
-  - [SetField Macro Action](setfield-macro-action.md)
+  - [Действия SetField макроса](setfield-macro-action.md)
 
-  - [SetLocalVar Macro Action](setlocalvar-macro-action.md)
+  - [Действия макроса SetLocalVar](setlocalvar-macro-action.md)
 
-  - [SetReturnVar Macro Action](setreturnvar-macro-action.md)
+  - [Действия макроса SetReturnVar](setreturnvar-macro-action.md)
 

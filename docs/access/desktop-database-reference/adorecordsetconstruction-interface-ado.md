@@ -1,22 +1,22 @@
 ---
-title: ADORecordsetConstruction Interface (ADO)
+title: Интерфейс ADORecordsetConstruction (ADO)
 TOCTitle: ADORecordsetConstruction Interface (ADO)
 ms:assetid: 2b53aa6e-3b6f-a996-3967-534215fd586c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
 ms:contentKeyID: 48543926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b99fcfe4fadc3dddf5937ba1043875de43e88d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c7ea33eb0cdd221f0d59edfb7cd04520bb888249
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482081"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877403"
 ---
-# <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction Interface (ADO)
+# <a name="adorecordsetconstruction-interface-ado"></a>Интерфейс ADORecordsetConstruction (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Интерфейс **ADORecordsetConstruction** используется для создания объекта ADO **записей** из объекта OLE DB **строк** в приложении C/C++.
 
@@ -53,7 +53,7 @@ ms.locfileid: "25482081"
 
 Отсутствуют.
 
-## <a name="events"></a>События
+## <a name="events"></a>Мероприятия
 
 Нет.
 

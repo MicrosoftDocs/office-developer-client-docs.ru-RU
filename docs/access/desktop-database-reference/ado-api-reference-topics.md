@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249967(v=office.15)
 ms:contentKeyID: 48547622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8caeea740bae09e502e500d5368475d416cf1db
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 60ba79c800eaf6454ec6dcfa72ea8f68f219246f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482814"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875072"
 ---
 # <a name="ado-api-reference-topics"></a>ADO API Reference Topics
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
-  - [ADO API Reference](ado-api-reference.md)
+  - [Справочник по API ADO](ado-api-reference.md)
 
   - [ADO Objects and Interfaces Reference](ado-objects-and-interfaces-reference.md)
 

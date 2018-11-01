@@ -1,5 +1,5 @@
 ---
-title: SetTempVar Macro Action
+title: Действия макроса SetTempVar
 TOCTitle: SetTempVar Macro Action
 ms:assetid: 9c3b7bee-02c5-efbf-1276-4c4a1f7802d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198102(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm150219
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 32bf1ff8f660bbc9f38c9764f560c0897041ab45
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 103be9b9587c2171d3414665a67ec36629df8ce2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482298"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874624"
 ---
-# <a name="settempvar-macro-action"></a>SetTempVar Macro Action
+# <a name="settempvar-macro-action"></a>Действия макроса SetTempVar
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 

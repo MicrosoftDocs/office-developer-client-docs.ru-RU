@@ -1,22 +1,22 @@
 ---
-title: AddNew Method (ADO)
+title: Метод AddNew (ADO)
 TOCTitle: AddNew Method (ADO)
 ms:assetid: bae09be0-5707-4f38-9c74-0acd0f29dbac
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b84e6651093d932a17ff20097841bf84bac00c66
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 720445d488f70f3e6219db65192946d4056ddfe4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482749"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886055"
 ---
-# <a name="addnew-method-ado"></a>AddNew Method (ADO)
+# <a name="addnew-method-ado"></a>Метод AddNew (ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Создает новую запись для обновляемых объекта [набора записей](recordset-object-ado.md) .
 
