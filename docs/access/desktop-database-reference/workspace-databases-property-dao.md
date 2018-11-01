@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1053174
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11de92519cd3d2ff917a28ffef40236e0c252fc3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 082c482cca32fa8d861a686b3120409f5e547977
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480959"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883451"
 ---
-# <a name="workspacedatabases-property-dao"></a><span data-ttu-id="9134c-102">Workspace.Databases Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="9134c-102">Workspace.Databases Property (DAO)</span></span>
+# <a name="workspacedatabases-property-dao"></a><span data-ttu-id="cba43-102">Workspace.Databases Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="cba43-102">Workspace.Databases Property (DAO)</span></span>
 
 
-<span data-ttu-id="9134c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="9134c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cba43-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cba43-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9134c-104">Возвращает коллекцию **баз данных** , который представляет open баз данных в указанной **рабочей области**.</span><span class="sxs-lookup"><span data-stu-id="9134c-104">Returns a **Databases** collection that represents the open databases in the specified **Workspace**.</span></span> <span data-ttu-id="9134c-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9134c-105">Read-only.</span></span>
+<span data-ttu-id="cba43-104">Возвращает коллекцию **баз данных** , который представляет open баз данных в указанной **рабочей области**.</span><span class="sxs-lookup"><span data-stu-id="cba43-104">Returns a **Databases** collection that represents the open databases in the specified **Workspace**.</span></span> <span data-ttu-id="cba43-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="cba43-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9134c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9134c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cba43-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="cba43-106">Syntax</span></span>
 
-<span data-ttu-id="9134c-107">*выражение* . Базы данных</span><span class="sxs-lookup"><span data-stu-id="9134c-107">*expression* .Databases</span></span>
+<span data-ttu-id="cba43-107">*выражение* . Базы данных</span><span class="sxs-lookup"><span data-stu-id="cba43-107">*expression* .Databases</span></span>
 
-<span data-ttu-id="9134c-108">*выражение* Переменная, которая представляет собой объект- **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="9134c-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="cba43-108">*выражение* Переменная, которая представляет собой объект- **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="cba43-108">*expression* A variable that represents a **Workspace** object.</span></span>
 

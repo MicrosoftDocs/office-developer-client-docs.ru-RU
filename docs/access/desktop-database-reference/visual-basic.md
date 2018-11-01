@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249714(v=office.15)
 ms:contentKeyID: 48546616
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eeac988a85f9ef1551d740940d326b67355c478c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f496b39c3b06832cab9f60d2e560c9748f12c0d1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25483019"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880560"
 ---
-# <a name="visual-basic"></a><span data-ttu-id="2a7f7-102">Visual Basic</span><span class="sxs-lookup"><span data-stu-id="2a7f7-102">Visual Basic</span></span>
+# <a name="visual-basic"></a><span data-ttu-id="2a2e9-102">Visual Basic</span><span class="sxs-lookup"><span data-stu-id="2a2e9-102">Visual Basic</span></span>
 
 
-<span data-ttu-id="2a7f7-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2a7f7-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2a2e9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2a2e9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2a7f7-104">Для обработки событий ADO в Microsoft Visual Basic, необходимо объявить переменную уровня модуля, с помощью ключевое слово **WithEvents** .</span><span class="sxs-lookup"><span data-stu-id="2a7f7-104">In order to handle ADO events in Microsoft Visual Basic, you must declare a module-level variable using the **WithEvents** keyword.</span></span> <span data-ttu-id="2a7f7-105">Переменная может быть объявлен только как часть модуль класса и должны быть объявлены на уровне модуля.</span><span class="sxs-lookup"><span data-stu-id="2a7f7-105">The variable can be declared only as part of a class module and must be declared at the module level.</span></span> <span data-ttu-id="2a7f7-106">Это не такие же ограничения, как кажется, тем не менее, так как объектов Visual Basic **формы** также являются классы.</span><span class="sxs-lookup"><span data-stu-id="2a7f7-106">This is not as restrictive as it seems, however, because Visual Basic **Form** objects are also classes.</span></span> <span data-ttu-id="2a7f7-107">— Это самый простой способ обработки событий ADO для объявления переменной с помощью **WithEvents**.</span><span class="sxs-lookup"><span data-stu-id="2a7f7-107">The simplest way to handle ADO events is to declare a variable using **WithEvents**.</span></span> <span data-ttu-id="2a7f7-108">Следующий пример обрабатывает события **ConnectComplete** для объекта **подключения** :</span><span class="sxs-lookup"><span data-stu-id="2a7f7-108">The following example handles the **ConnectComplete** event for a **Connection** object:</span></span>
+<span data-ttu-id="2a2e9-104">Для обработки событий ADO в Microsoft Visual Basic, необходимо объявить переменную уровня модуля, с помощью ключевое слово **WithEvents** .</span><span class="sxs-lookup"><span data-stu-id="2a2e9-104">In order to handle ADO events in Microsoft Visual Basic, you must declare a module-level variable using the **WithEvents** keyword.</span></span> <span data-ttu-id="2a2e9-105">Переменная может быть объявлен только как часть модуль класса и должны быть объявлены на уровне модуля.</span><span class="sxs-lookup"><span data-stu-id="2a2e9-105">The variable can be declared only as part of a class module and must be declared at the module level.</span></span> <span data-ttu-id="2a2e9-106">Это не такие же ограничения, как кажется, тем не менее, так как объектов Visual Basic **формы** также являются классы.</span><span class="sxs-lookup"><span data-stu-id="2a2e9-106">This is not as restrictive as it seems, however, because Visual Basic **Form** objects are also classes.</span></span> <span data-ttu-id="2a2e9-107">— Это самый простой способ обработки событий ADO для объявления переменной с помощью **WithEvents**.</span><span class="sxs-lookup"><span data-stu-id="2a2e9-107">The simplest way to handle ADO events is to declare a variable using **WithEvents**.</span></span> <span data-ttu-id="2a2e9-108">Следующий пример обрабатывает события **ConnectComplete** для объекта **подключения** :</span><span class="sxs-lookup"><span data-stu-id="2a2e9-108">The following example handles the **ConnectComplete** event for a **Connection** object:</span></span>
 
 ```vb 
  
@@ -76,5 +76,5 @@ End Sub
 ' EndEventExampleVB02 
 ```
 
-<span data-ttu-id="2a7f7-109">Объект **подключения** объявлен на уровне **формы** , с помощью ключевое слово **WithEvents** для включения обработки событий.</span><span class="sxs-lookup"><span data-stu-id="2a7f7-109">The **Connection** object is declared at the **Form** level using the **WithEvents** keyword to enable event handling.</span></span> <span data-ttu-id="2a7f7-110">Форма\_обработчика событий загрузки фактически создается объект, назначив новый объект **подключения** к *connEvent* и затем открывает подключение.</span><span class="sxs-lookup"><span data-stu-id="2a7f7-110">The Form\_Load event handler actually creates the object by assigning a new **Connection** object to *connEvent* and then opens the connection.</span></span> <span data-ttu-id="2a7f7-111">Конечно, реальном приложении сделать несколько обработки в виде\_обработчика событий загрузки не показано ниже.</span><span class="sxs-lookup"><span data-stu-id="2a7f7-111">Of course, a real application would do more processing in the Form\_Load event handler than is shown here.</span></span>
+<span data-ttu-id="2a2e9-109">Объект **подключения** объявлен на уровне **формы** , с помощью ключевое слово **WithEvents** для включения обработки событий.</span><span class="sxs-lookup"><span data-stu-id="2a2e9-109">The **Connection** object is declared at the **Form** level using the **WithEvents** keyword to enable event handling.</span></span> <span data-ttu-id="2a2e9-110">Форма\_обработчика событий загрузки фактически создается объект, назначив новый объект **подключения** к *connEvent* и затем открывает подключение.</span><span class="sxs-lookup"><span data-stu-id="2a2e9-110">The Form\_Load event handler actually creates the object by assigning a new **Connection** object to *connEvent* and then opens the connection.</span></span> <span data-ttu-id="2a2e9-111">Конечно, реальном приложении сделать несколько обработки в виде\_обработчика событий загрузки не показано ниже.</span><span class="sxs-lookup"><span data-stu-id="2a2e9-111">Of course, a real application would do more processing in the Form\_Load event handler than is shown here.</span></span>
 

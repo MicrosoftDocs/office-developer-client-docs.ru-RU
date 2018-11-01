@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250280(v=office.15)
 ms:contentKeyID: 48548849
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9431711e3a3e2b39d6d59165650bb32e85e84f4a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 033aa1f4ed79d1585f1ae44786c0be3487145d18
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861864"
+ms.locfileid: "25881953"
 ---
-# <a name="getstring-method-example-vb"></a><span data-ttu-id="14f6c-102">Пример использования метода GetString (VB)</span><span class="sxs-lookup"><span data-stu-id="14f6c-102">GetString method example (VB)</span></span>
+# <a name="getstring-method-example-vb"></a><span data-ttu-id="da321-102">Пример использования метода GetString (VB)</span><span class="sxs-lookup"><span data-stu-id="da321-102">GetString method example (VB)</span></span>
 
 
-<span data-ttu-id="14f6c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="14f6c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="da321-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da321-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="14f6c-104">В этом примере демонстрируется использование метода [GetString](getstring-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="14f6c-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
+<span data-ttu-id="da321-104">В этом примере демонстрируется использование метода [GetString](getstring-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="da321-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
 
-<span data-ttu-id="14f6c-105">Предположим, отладке проблемы доступа к данным и требуется быстрый и простой способ Печать текущего содержимого малого [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="14f6c-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="da321-105">Предположим, отладке проблемы доступа к данным и требуется быстрый и простой способ Печать текущего содержимого малого [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="da321-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
 
 ```vb 
  

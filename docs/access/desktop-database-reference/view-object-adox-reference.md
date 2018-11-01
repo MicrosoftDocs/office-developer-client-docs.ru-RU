@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249366(v=office.15)
 ms:contentKeyID: 48545231
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c5da97af7fd3f43e911a55859969d79f82175369
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: da613abb98ac584187b761712d3b956ca93dac20
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482712"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878096"
 ---
-# <a name="view-object-adox-reference"></a><span data-ttu-id="49cc0-102">View Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="49cc0-102">View Object (ADOX) Reference</span></span>
+# <a name="view-object-adox-reference"></a><span data-ttu-id="96409-102">View Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="96409-102">View Object (ADOX) Reference</span></span>
 
 
-<span data-ttu-id="49cc0-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="49cc0-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="96409-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="96409-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="49cc0-104">View Object (ADOX)</span><span class="sxs-lookup"><span data-stu-id="49cc0-104">View Object (ADOX)</span></span>](view-object-adox.md)
+  - [<span data-ttu-id="96409-104">Объект View (ADOX)</span><span class="sxs-lookup"><span data-stu-id="96409-104">View Object (ADOX)</span></span>](view-object-adox.md)
 
-  - [<span data-ttu-id="49cc0-105">View Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="49cc0-105">View Properties, Methods, and Events (ADOX)</span></span>](view-properties-methods-and-events-adox.md)
+  - [<span data-ttu-id="96409-105">View Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="96409-105">View Properties, Methods, and Events (ADOX)</span></span>](view-properties-methods-and-events-adox.md)
 

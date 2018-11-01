@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="4d4da-101"><<<<<<< Название HEAD: TOCTitle подготовлено пример свойства (VC ++): подготовлено пример свойства (VC ++) === название: пример свойства подготовленный (VC ++) TOCTitle: пример свойства подготовленный (VC ++)</span><span class="sxs-lookup"><span data-stu-id="4d4da-101"><<<<<<< HEAD title: Prepared Property Example (VC++) TOCTitle: Prepared Property Example (VC++) ======= title: Prepared property example (VC++) TOCTitle: Prepared property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="4d4da-102">главные ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15) ms:contentKeyID: 48546562 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="4d4da-102">master ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15) ms:contentKeyID: 48546562 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Prepared (VC++)
+TOCTitle: Prepared property example (VC++)
+ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
+ms:contentKeyID: 48546562
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f0c3f6f48418b6b8df95b423b9baba3a9c84c21b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885817"
 ---
-
-<span data-ttu-id="4d4da-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="4d4da-103"><<<<<<< HEAD</span></span>
-# <a name="prepared-property-example-vc"></a><span data-ttu-id="4d4da-104">Prepared Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="4d4da-104">Prepared Property Example (VC++)</span></span>
-=======
-# <a name="prepared-property-example-vc"></a><span data-ttu-id="4d4da-105">Пример свойства подготовленный (VC ++)</span><span class="sxs-lookup"><span data-stu-id="4d4da-105">Prepared property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="4d4da-106">master</span><span class="sxs-lookup"><span data-stu-id="4d4da-106">master</span></span>
+# <a name="prepared-property-example-vc"></a><span data-ttu-id="0ecda-102">Пример использования свойства Prepared (VC++)</span><span class="sxs-lookup"><span data-stu-id="0ecda-102">Prepared property example (VC++)</span></span>
 
 
-<span data-ttu-id="4d4da-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d4da-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="0ecda-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ecda-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4d4da-108">В этом примере демонстрируется свойство [подготовленных](prepared-property-ado.md) , открыв два объекта [команд](command-object-ado.md) — подготовлено и не подготовлен.</span><span class="sxs-lookup"><span data-stu-id="4d4da-108">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="0ecda-104">В этом примере демонстрируется свойство [подготовленных](prepared-property-ado.md) , открыв два объекта [команд](command-object-ado.md) — подготовлено и не подготовлен.</span><span class="sxs-lookup"><span data-stu-id="0ecda-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```cpp 
  

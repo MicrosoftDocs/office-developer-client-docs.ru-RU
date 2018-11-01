@@ -6,43 +6,43 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e8da60617e3076d5670218ca3a1cbe6df13ddbb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dbc35b696f74aa0da64ec24ce38c2f8ad8cfab4d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481824"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879095"
 ---
-# <a name="recordset2nomatch-property-dao"></a><span data-ttu-id="a5ac6-102">Recordset2.NoMatch Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="a5ac6-102">Recordset2.NoMatch Property (DAO)</span></span>
+# <a name="recordset2nomatch-property-dao"></a><span data-ttu-id="48d97-102">Recordset2.NoMatch Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="48d97-102">Recordset2.NoMatch Property (DAO)</span></span>
 
 
-<span data-ttu-id="a5ac6-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5ac6-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="48d97-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48d97-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a5ac6-104">Указывает, будет ли определенный запись найдена с помощью метода **[Seek](recordset2-seek-method-dao.md)** или один из методов **[поиска](recordset2-findfirst-method-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="a5ac6-104">Indicates whether a particular record was found by using the **[Seek](recordset2-seek-method-dao.md)** method or one of the **[Find](recordset2-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="48d97-104">Указывает, будет ли определенный запись найдена с помощью метода **[Seek](recordset2-seek-method-dao.md)** или один из методов **[поиска](recordset2-findfirst-method-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="48d97-104">Indicates whether a particular record was found by using the **[Seek](recordset2-seek-method-dao.md)** method or one of the **[Find](recordset2-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a5ac6-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a5ac6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="48d97-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="48d97-105">Syntax</span></span>
 
-<span data-ttu-id="a5ac6-106">*выражение* . NoMatch</span><span class="sxs-lookup"><span data-stu-id="a5ac6-106">*expression* .NoMatch</span></span>
+<span data-ttu-id="48d97-106">*выражение* . NoMatch</span><span class="sxs-lookup"><span data-stu-id="48d97-106">*expression* .NoMatch</span></span>
 
-<span data-ttu-id="a5ac6-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="a5ac6-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="48d97-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="48d97-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a5ac6-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="a5ac6-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="48d97-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="48d97-108">Remarks</span></span>
 
-<span data-ttu-id="a5ac6-109">При открытии или создание объекта **[набора записей](recordset-object-dao.md)** , его свойство **NoMatch** имеет значение **False**.</span><span class="sxs-lookup"><span data-stu-id="a5ac6-109">When you open or create a **[Recordset](recordset-object-dao.md)** object, its **NoMatch** property is set to **False**.</span></span>
+<span data-ttu-id="48d97-109">При открытии или создание объекта **[набора записей](recordset-object-dao.md)** , его свойство **NoMatch** имеет значение **False**.</span><span class="sxs-lookup"><span data-stu-id="48d97-109">When you open or create a **[Recordset](recordset-object-dao.md)** object, its **NoMatch** property is set to **False**.</span></span>
 
-<span data-ttu-id="a5ac6-110">Чтобы найти записи, используйте метод **Seek** на объект **набора записей** в таблице тип или один из методов **поиска** для объекта **набора записей** добавляющий или моментальный снимок.</span><span class="sxs-lookup"><span data-stu-id="a5ac6-110">To locate a record, use the **Seek** method on a table-type **Recordset** object or one of the **Find** methods on a dynaset- or snapshot-type **Recordset** object.</span></span> <span data-ttu-id="a5ac6-111">Проверьте значение свойства **NoMatch** , чтобы увидеть, является ли запись найдена.</span><span class="sxs-lookup"><span data-stu-id="a5ac6-111">Check the **NoMatch** property setting to see whether the record was found.</span></span>
+<span data-ttu-id="48d97-110">Чтобы найти записи, используйте метод **Seek** на объект **набора записей** в таблице тип или один из методов **поиска** для объекта **набора записей** добавляющий или моментальный снимок.</span><span class="sxs-lookup"><span data-stu-id="48d97-110">To locate a record, use the **Seek** method on a table-type **Recordset** object or one of the **Find** methods on a dynaset- or snapshot-type **Recordset** object.</span></span> <span data-ttu-id="48d97-111">Проверьте значение свойства **NoMatch** , чтобы увидеть, является ли запись найдена.</span><span class="sxs-lookup"><span data-stu-id="48d97-111">Check the **NoMatch** property setting to see whether the record was found.</span></span>
 
-<span data-ttu-id="a5ac6-112">Если **Seek** или **Найти** метод завершается неудачно, а свойство **NoMatch** имеет **значение True**, текущей записи будет становятся недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="a5ac6-112">If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property is **True**, the current record will no longer be valid.</span></span> <span data-ttu-id="a5ac6-113">Убедитесь, что для получения текущей записи закладку перед использованием **Seek** метод или метод **поиска** , если вам потребуется вернуться к этой записи.</span><span class="sxs-lookup"><span data-stu-id="a5ac6-113">Be sure to obtain the current record's bookmark before using the **Seek** method or a **Find** method if you'll need to return to that record.</span></span>
+<span data-ttu-id="48d97-112">Если **Seek** или **Найти** метод завершается неудачно, а свойство **NoMatch** имеет **значение True**, текущей записи будет становятся недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="48d97-112">If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property is **True**, the current record will no longer be valid.</span></span> <span data-ttu-id="48d97-113">Убедитесь, что для получения текущей записи закладку перед использованием **Seek** метод или метод **поиска** , если вам потребуется вернуться к этой записи.</span><span class="sxs-lookup"><span data-stu-id="48d97-113">Be sure to obtain the current record's bookmark before using the **Seek** method or a **Find** method if you'll need to return to that record.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="a5ac6-114">Использовать любой из способов <STRONG><A href="recordset-movefirst-method-dao.md">перемещать</A></STRONG> <STRONG>целиком</STRONG> не влияет на его значение свойства <STRONG>NoMatch</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="a5ac6-114">Using any of the <STRONG><A href="recordset-movefirst-method-dao.md">Move</A></STRONG> methods on a <STRONG>Recordset</STRONG> object won't affect its <STRONG>NoMatch</STRONG> property setting.</span></span></P>
+> <P><span data-ttu-id="48d97-114">Использовать любой из способов <STRONG><A href="recordset-movefirst-method-dao.md">перемещать</A></STRONG> <STRONG>целиком</STRONG> не влияет на его значение свойства <STRONG>NoMatch</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="48d97-114">Using any of the <STRONG><A href="recordset-movefirst-method-dao.md">Move</A></STRONG> methods on a <STRONG>Recordset</STRONG> object won't affect its <STRONG>NoMatch</STRONG> property setting.</span></span></P>
 
 
 
-## <a name="example"></a><span data-ttu-id="a5ac6-115">Пример</span><span class="sxs-lookup"><span data-stu-id="a5ac6-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="48d97-115">Пример</span><span class="sxs-lookup"><span data-stu-id="48d97-115">Example</span></span>
 
-<span data-ttu-id="a5ac6-116">В этом примере используется свойство **NoMatch** для определения ли **Seek** и **FindFirst** было выполнено успешно и если это не так, чтобы предоставить соответствующий отзыв.</span><span class="sxs-lookup"><span data-stu-id="a5ac6-116">This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback.</span></span> <span data-ttu-id="a5ac6-117">Процедуры SeekMatch и FindMatch необходимы для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="a5ac6-117">The SeekMatch and FindMatch procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="48d97-116">В этом примере используется свойство **NoMatch** для определения ли **Seek** и **FindFirst** было выполнено успешно и если это не так, чтобы предоставить соответствующий отзыв.</span><span class="sxs-lookup"><span data-stu-id="48d97-116">This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback.</span></span> <span data-ttu-id="48d97-117">Процедуры SeekMatch и FindMatch необходимы для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="48d97-117">The SeekMatch and FindMatch procedures are required for this procedure to run.</span></span>
 
 ```vb
     Sub NoMatchX() 

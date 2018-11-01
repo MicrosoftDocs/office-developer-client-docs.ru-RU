@@ -1,17 +1,23 @@
 ---
-<span data-ttu-id="4be77-101"><<<<<<< Название HEAD: TOCTitle примере свойство SortOrder (VB): пример свойства SortOrder (VB) === название: пример свойства SortOrder (VB) TOCTitle: пример свойства SortOrder (VB)</span><span class="sxs-lookup"><span data-stu-id="4be77-101"><<<<<<< HEAD title: SortOrder Property Example (VB) TOCTitle: SortOrder Property Example (VB) ======= title: SortOrder property example (VB) TOCTitle: SortOrder property example (VB)</span></span>
->>>>>>> <span data-ttu-id="4be77-102">главные ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15) ms:contentKeyID: 48546472 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="4be77-102">master ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15) ms:contentKeyID: 48546472 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства SortOrder (VB)
+TOCTitle: SortOrder property example (VB)
+ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
+ms:contentKeyID: 48546472
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 051f0ce18cf12ef2d3450dbf9ecc27ebb36134a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874239"
 ---
+# <a name="sortorder-property-example-vb"></a><span data-ttu-id="a1916-102">Пример использования свойства SortOrder (VB)</span><span class="sxs-lookup"><span data-stu-id="a1916-102">SortOrder property example (VB)</span></span>
 
-<span data-ttu-id="4be77-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="4be77-103"><<<<<<< HEAD</span></span>
-# <a name="sortorder-property-example-vb"></a><span data-ttu-id="4be77-104">SortOrder Property Example (VB)</span><span class="sxs-lookup"><span data-stu-id="4be77-104">SortOrder Property Example (VB)</span></span>
-=======
-# <a name="sortorder-property-example-vb"></a><span data-ttu-id="4be77-105">Пример свойства SortOrder (VB)</span><span class="sxs-lookup"><span data-stu-id="4be77-105">SortOrder property example (VB)</span></span>
->>>>>>> <span data-ttu-id="4be77-106">master</span><span class="sxs-lookup"><span data-stu-id="4be77-106">master</span></span>
+<span data-ttu-id="a1916-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1916-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4be77-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4be77-107">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="4be77-108">В этом примере демонстрируется свойство [SortOrder](sortorder-property-adox.md) [столбец](column-object-adox.md) , который был добавлен к коллекции [столбцов](columns-collection-adox.md) из [индекса](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="4be77-108">This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="4be77-109">Код добавляет по возрастанию индекс столбца страны в таблице **сотрудников** , а затем отображаются записи.</span><span class="sxs-lookup"><span data-stu-id="4be77-109">The code appends an ascending index to the Country column in the **Employees** table, then displays the records.</span></span> <span data-ttu-id="4be77-110">Затем код добавляет по убыванию индекс столбца страны в таблице **Employees** и отображаются записи еще раз.</span><span class="sxs-lookup"><span data-stu-id="4be77-110">Then the code appends a descending index to the Country column in the **Employees** table and displays the records again.</span></span> <span data-ttu-id="4be77-111">Показаны различия между по возрастанию и по убыванию индексов.</span><span class="sxs-lookup"><span data-stu-id="4be77-111">The difference between ascending and descending indexes is shown.</span></span>
+<span data-ttu-id="a1916-104">В этом примере демонстрируется свойство [SortOrder](sortorder-property-adox.md) [столбец](column-object-adox.md) , который был добавлен к коллекции [столбцов](columns-collection-adox.md) из [индекса](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a1916-104">This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="a1916-105">Код добавляет по возрастанию индекс столбца страны в таблице **сотрудников** , а затем отображаются записи.</span><span class="sxs-lookup"><span data-stu-id="a1916-105">The code appends an ascending index to the Country column in the **Employees** table, then displays the records.</span></span> <span data-ttu-id="a1916-106">Затем код добавляет по убыванию индекс столбца страны в таблице **Employees** и отображаются записи еще раз.</span><span class="sxs-lookup"><span data-stu-id="a1916-106">Then the code appends a descending index to the Country column in the **Employees** table and displays the records again.</span></span> <span data-ttu-id="a1916-107">Показаны различия между по возрастанию и по убыванию индексов.</span><span class="sxs-lookup"><span data-stu-id="a1916-107">The difference between ascending and descending indexes is shown.</span></span>
 
 
 ```vb 

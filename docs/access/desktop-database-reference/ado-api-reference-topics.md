@@ -6,33 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249967(v=office.15)
 ms:contentKeyID: 48547622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8caeea740bae09e502e500d5368475d416cf1db
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 60ba79c800eaf6454ec6dcfa72ea8f68f219246f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482814"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875072"
 ---
-# <a name="ado-api-reference-topics"></a><span data-ttu-id="a10a6-102">ADO API Reference Topics</span><span class="sxs-lookup"><span data-stu-id="a10a6-102">ADO API Reference Topics</span></span>
+# <a name="ado-api-reference-topics"></a><span data-ttu-id="6b2b2-102">ADO API Reference Topics</span><span class="sxs-lookup"><span data-stu-id="6b2b2-102">ADO API Reference Topics</span></span>
 
 
-<span data-ttu-id="a10a6-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a10a6-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6b2b2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b2b2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-  - [<span data-ttu-id="a10a6-104">ADO API Reference</span><span class="sxs-lookup"><span data-stu-id="a10a6-104">ADO API Reference</span></span>](ado-api-reference.md)
+  - [<span data-ttu-id="6b2b2-104">Справочник по API ADO</span><span class="sxs-lookup"><span data-stu-id="6b2b2-104">ADO API Reference</span></span>](ado-api-reference.md)
 
-  - [<span data-ttu-id="a10a6-105">ADO Objects and Interfaces Reference</span><span class="sxs-lookup"><span data-stu-id="a10a6-105">ADO Objects and Interfaces Reference</span></span>](ado-objects-and-interfaces-reference.md)
+  - [<span data-ttu-id="6b2b2-105">ADO Objects and Interfaces Reference</span><span class="sxs-lookup"><span data-stu-id="6b2b2-105">ADO Objects and Interfaces Reference</span></span>](ado-objects-and-interfaces-reference.md)
 
-  - [<span data-ttu-id="a10a6-106">ADO Collections Reference</span><span class="sxs-lookup"><span data-stu-id="a10a6-106">ADO Collections Reference</span></span>](ado-collections-reference.md)
+  - [<span data-ttu-id="6b2b2-106">ADO Collections Reference</span><span class="sxs-lookup"><span data-stu-id="6b2b2-106">ADO Collections Reference</span></span>](ado-collections-reference.md)
 
-  - [<span data-ttu-id="a10a6-107">ADO Properties Reference</span><span class="sxs-lookup"><span data-stu-id="a10a6-107">ADO Properties Reference</span></span>](ado-properties-reference.md)
+  - [<span data-ttu-id="6b2b2-107">ADO Properties Reference</span><span class="sxs-lookup"><span data-stu-id="6b2b2-107">ADO Properties Reference</span></span>](ado-properties-reference.md)
 
-  - [<span data-ttu-id="a10a6-108">ADO Dynamic Properties Reference</span><span class="sxs-lookup"><span data-stu-id="a10a6-108">ADO Dynamic Properties Reference</span></span>](ado-dynamic-properties-reference.md)
+  - [<span data-ttu-id="6b2b2-108">ADO Dynamic Properties Reference</span><span class="sxs-lookup"><span data-stu-id="6b2b2-108">ADO Dynamic Properties Reference</span></span>](ado-dynamic-properties-reference.md)
 
-  - [<span data-ttu-id="a10a6-109">ADO Methods Reference</span><span class="sxs-lookup"><span data-stu-id="a10a6-109">ADO Methods Reference</span></span>](ado-methods-reference.md)
+  - [<span data-ttu-id="6b2b2-109">ADO Methods Reference</span><span class="sxs-lookup"><span data-stu-id="6b2b2-109">ADO Methods Reference</span></span>](ado-methods-reference.md)
 
-  - [<span data-ttu-id="a10a6-110">ADO Events Reference</span><span class="sxs-lookup"><span data-stu-id="a10a6-110">ADO Events Reference</span></span>](ado-events-reference.md)
+  - [<span data-ttu-id="6b2b2-110">ADO Events Reference</span><span class="sxs-lookup"><span data-stu-id="6b2b2-110">ADO Events Reference</span></span>](ado-events-reference.md)
 
-  - [<span data-ttu-id="a10a6-111">ADO Enumerated Constants Reference</span><span class="sxs-lookup"><span data-stu-id="a10a6-111">ADO Enumerated Constants Reference</span></span>](ado-enumerated-constants-reference.md)
+  - [<span data-ttu-id="6b2b2-111">ADO Enumerated Constants Reference</span><span class="sxs-lookup"><span data-stu-id="6b2b2-111">ADO Enumerated Constants Reference</span></span>](ado-enumerated-constants-reference.md)
 
-  - [<span data-ttu-id="a10a6-112">ADO Code Examples (Access)</span><span class="sxs-lookup"><span data-stu-id="a10a6-112">ADO Code Examples (Access)</span></span>](ado-code-examples-access.md)
+  - [<span data-ttu-id="6b2b2-112">ADO Code Examples (Access)</span><span class="sxs-lookup"><span data-stu-id="6b2b2-112">ADO Code Examples (Access)</span></span>](ado-code-examples-access.md)
 

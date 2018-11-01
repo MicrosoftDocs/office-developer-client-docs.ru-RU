@@ -6,39 +6,39 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249953(v=office.15)
 ms:contentKeyID: 48547564
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 650baeb3780e40d7a6ba2e8be16944f93a455714
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5a84432466ee59e40c2e5db5dcb028d670f3ef63
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479779"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869291"
 ---
-# <a name="rds-methods-access"></a><span data-ttu-id="c9de6-102">RDS Methods (Access)</span><span class="sxs-lookup"><span data-stu-id="c9de6-102">RDS Methods (Access)</span></span>
+# <a name="rds-methods-access"></a><span data-ttu-id="456e6-102">RDS Methods (Access)</span><span class="sxs-lookup"><span data-stu-id="456e6-102">RDS Methods (Access)</span></span>
 
 
-<span data-ttu-id="c9de6-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9de6-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="456e6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="456e6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="c9de6-104">RDS Methods</span><span class="sxs-lookup"><span data-stu-id="c9de6-104">RDS Methods</span></span>](rds-methods.md)
+  - [<span data-ttu-id="456e6-104">Методы служб удаленных рабочих СТОЛОВ</span><span class="sxs-lookup"><span data-stu-id="456e6-104">RDS Methods</span></span>](rds-methods.md)
 
-  - [<span data-ttu-id="c9de6-105">Cancel Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-105">Cancel Method (RDS)</span></span>](cancel-method-rds.md)
+  - [<span data-ttu-id="456e6-105">Метод Cancel (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-105">Cancel Method (RDS)</span></span>](cancel-method-rds.md)
 
-  - [<span data-ttu-id="c9de6-106">CancelUpdate Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-106">CancelUpdate Method (RDS)</span></span>](cancelupdate-method-rds.md)
+  - [<span data-ttu-id="456e6-106">Метод CancelUpdate (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-106">CancelUpdate Method (RDS)</span></span>](cancelupdate-method-rds.md)
 
-  - [<span data-ttu-id="c9de6-107">ConvertToString Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-107">ConvertToString Method (RDS)</span></span>](converttostring-method-rds.md)
+  - [<span data-ttu-id="456e6-107">Метод ConvertToString (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-107">ConvertToString Method (RDS)</span></span>](converttostring-method-rds.md)
 
-  - [<span data-ttu-id="c9de6-108">CreateObject Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-108">CreateObject Method (RDS)</span></span>](createobject-method-rds.md)
+  - [<span data-ttu-id="456e6-108">Метод CreateObject (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-108">CreateObject Method (RDS)</span></span>](createobject-method-rds.md)
 
-  - [<span data-ttu-id="c9de6-109">CreateRecordset Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-109">CreateRecordset Method (RDS)</span></span>](createrecordset-method-rds.md)
+  - [<span data-ttu-id="456e6-109">Метод CreateRecordset (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-109">CreateRecordset Method (RDS)</span></span>](createrecordset-method-rds.md)
 
-  - [<span data-ttu-id="c9de6-110">MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-110">MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (RDS)</span></span>](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
+  - [<span data-ttu-id="456e6-110">MoveFirst, MoveLast, MoveNext и методы MovePrevious (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-110">MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (RDS)</span></span>](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
 
-  - [<span data-ttu-id="c9de6-111">Query Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-111">Query Method (RDS)</span></span>](query-method-rds.md)
+  - [<span data-ttu-id="456e6-111">Метод Query (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-111">Query Method (RDS)</span></span>](query-method-rds.md)
 
-  - [<span data-ttu-id="c9de6-112">Refresh Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-112">Refresh Method (RDS)</span></span>](refresh-method-rds.md)
+  - [<span data-ttu-id="456e6-112">Обновления метода (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-112">Refresh Method (RDS)</span></span>](refresh-method-rds.md)
 
-  - [<span data-ttu-id="c9de6-113">Reset Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-113">Reset Method (RDS)</span></span>](reset-method-rds.md)
+  - [<span data-ttu-id="456e6-113">Метод Reset (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-113">Reset Method (RDS)</span></span>](reset-method-rds.md)
 
-  - [<span data-ttu-id="c9de6-114">SubmitChanges Method (RDS)</span><span class="sxs-lookup"><span data-stu-id="c9de6-114">SubmitChanges Method (RDS)</span></span>](submitchanges-method-rds.md)
+  - [<span data-ttu-id="456e6-114">Метод SubmitChanges (RDS)</span><span class="sxs-lookup"><span data-stu-id="456e6-114">SubmitChanges Method (RDS)</span></span>](submitchanges-method-rds.md)
 

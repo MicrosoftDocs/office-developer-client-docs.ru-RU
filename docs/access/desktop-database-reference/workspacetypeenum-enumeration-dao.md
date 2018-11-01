@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823134(v=office.15)
 ms:contentKeyID: 48547625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d36e35e5947b7f39045f2966bf434e32f20261bb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8a562f7ab82c3349a4a397ecb72861eed30cb20d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480043"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870326"
 ---
-# <a name="workspacetypeenum-enumeration-dao"></a><span data-ttu-id="f725b-102">WorkspaceTypeEnum Enumeration (DAO)</span><span class="sxs-lookup"><span data-stu-id="f725b-102">WorkspaceTypeEnum Enumeration (DAO)</span></span>
+# <a name="workspacetypeenum-enumeration-dao"></a><span data-ttu-id="2a743-102">WorkspaceTypeEnum Enumeration (DAO)</span><span class="sxs-lookup"><span data-stu-id="2a743-102">WorkspaceTypeEnum Enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="f725b-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f725b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2a743-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2a743-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f725b-104">Используется с методом **CreateWorkspace** , чтобы указать тип рабочей области для создания.</span><span class="sxs-lookup"><span data-stu-id="f725b-104">Used with the **CreateWorkspace** method to specify the type of workspace to create.</span></span>
+<span data-ttu-id="2a743-104">Используется с методом **CreateWorkspace** , чтобы указать тип рабочей области для создания.</span><span class="sxs-lookup"><span data-stu-id="2a743-104">Used with the **CreateWorkspace** method to specify the type of workspace to create.</span></span>
 
 <table>
 <colgroup>
@@ -28,16 +28,16 @@ ms.locfileid: "25480043"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f725b-105">Имя</span><span class="sxs-lookup"><span data-stu-id="f725b-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="f725b-106">Значение</span><span class="sxs-lookup"><span data-stu-id="f725b-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="f725b-107">Описание</span><span class="sxs-lookup"><span data-stu-id="f725b-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="2a743-105">Имя</span><span class="sxs-lookup"><span data-stu-id="2a743-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="2a743-106">Значение</span><span class="sxs-lookup"><span data-stu-id="2a743-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="2a743-107">Описание</span><span class="sxs-lookup"><span data-stu-id="2a743-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f725b-108">dbUseJet</span><span class="sxs-lookup"><span data-stu-id="f725b-108">dbUseJet</span></span></p></td>
-<td><p><span data-ttu-id="f725b-109">2</span><span class="sxs-lookup"><span data-stu-id="f725b-109">2</span></span></p></td>
-<td><p><span data-ttu-id="f725b-110">Создайте рабочую область для Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="f725b-110">Create a Microsoft Access workspace.</span></span></p></td>
+<td><p><span data-ttu-id="2a743-108">dbUseJet</span><span class="sxs-lookup"><span data-stu-id="2a743-108">dbUseJet</span></span></p></td>
+<td><p><span data-ttu-id="2a743-109">2</span><span class="sxs-lookup"><span data-stu-id="2a743-109">2</span></span></p></td>
+<td><p><span data-ttu-id="2a743-110">Создайте рабочую область для Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="2a743-110">Create a Microsoft Access workspace.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249198(v=office.15)
 ms:contentKeyID: 48544489
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eccec24c2e0fa110e0266cbab610c4e7d5c16c84
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fc2c55b3f4c665860a7d609877823423d87c6690
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863964"
+ms.locfileid: "25882007"
 ---
-# <a name="move-method-example-vbscript"></a><span data-ttu-id="98670-102">Пример использования метода Move (VBScript)</span><span class="sxs-lookup"><span data-stu-id="98670-102">Move method example (VBScript)</span></span>
+# <a name="move-method-example-vbscript"></a><span data-ttu-id="9fd66-102">Пример использования метода Move (VBScript)</span><span class="sxs-lookup"><span data-stu-id="9fd66-102">Move method example (VBScript)</span></span>
 
 
-<span data-ttu-id="98670-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="98670-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9fd66-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9fd66-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="98670-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="98670-104">This example uses the [Move](move-method-ado.md) method to position the record pointer, based on user input.</span></span>
+<span data-ttu-id="9fd66-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="9fd66-104">This example uses the [Move](move-method-ado.md) method to position the record pointer, based on user input.</span></span>
 
-<span data-ttu-id="98670-105">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="98670-105">Use the following example in an Active Server Page (ASP).</span></span>
+<span data-ttu-id="9fd66-105">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="9fd66-105">Use the following example in an Active Server Page (ASP).</span></span>
 
-<span data-ttu-id="98670-106">Используйте **Поиск** для найдите файл Adovbs.inc и помещения их в каталог, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="98670-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="98670-107">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **MoveVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="98670-107">Cut and paste the following code to Notepad or another text editor, and save it as **MoveVBS.asp**.</span></span> <span data-ttu-id="98670-108">Результат можно просмотреть в любой браузер.</span><span class="sxs-lookup"><span data-stu-id="98670-108">You can view the result in any browser.</span></span>
+<span data-ttu-id="9fd66-106">Используйте **Поиск** для найдите файл Adovbs.inc и помещения их в каталог, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="9fd66-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="9fd66-107">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **MoveVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="9fd66-107">Cut and paste the following code to Notepad or another text editor, and save it as **MoveVBS.asp**.</span></span> <span data-ttu-id="9fd66-108">Результат можно просмотреть в любой браузер.</span><span class="sxs-lookup"><span data-stu-id="9fd66-108">You can view the result in any browser.</span></span>
 
-<span data-ttu-id="98670-109">Попробуйте ввести буквы или нецелочисленным для просмотра рабочих обработки ошибок.</span><span class="sxs-lookup"><span data-stu-id="98670-109">Try entering a letter or noninteger to see the error handling work.</span></span>
+<span data-ttu-id="9fd66-109">Попробуйте ввести буквы или нецелочисленным для просмотра рабочих обработки ошибок.</span><span class="sxs-lookup"><span data-stu-id="9fd66-109">Try entering a letter or noninteger to see the error handling work.</span></span>
 
 ```vb 
  

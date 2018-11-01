@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249943(v=office.15)
 ms:contentKeyID: 48547536
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 626b6d4aadc4326c370da3b9137f8990d5f818d7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 427159a5f9bf73081e459dfe11cdb13dc3969cf0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861479"
+ms.locfileid: "25877333"
 ---
-# <a name="createrecordset-method-example-vb"></a><span data-ttu-id="ec858-102">Пример использования метода CreateRecordset (VB)</span><span class="sxs-lookup"><span data-stu-id="ec858-102">CreateRecordset method example (VB)</span></span>
+# <a name="createrecordset-method-example-vb"></a><span data-ttu-id="ad70a-102">Пример использования метода CreateRecordset (VB)</span><span class="sxs-lookup"><span data-stu-id="ad70a-102">CreateRecordset method example (VB)</span></span>
 
 
-<span data-ttu-id="ec858-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec858-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ad70a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad70a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ec858-104">Можно создать объект [набора записей](recordset-object-ado.md) и указать сведения о столбце.</span><span class="sxs-lookup"><span data-stu-id="ec858-104">You can create a [Recordset](recordset-object-ado.md) object and specify the column information.</span></span> <span data-ttu-id="ec858-105">Затем можно вставить данные в объекте **набора записей** ; базовый набор строк буферов вставок.</span><span class="sxs-lookup"><span data-stu-id="ec858-105">You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.</span></span>
+<span data-ttu-id="ad70a-104">Можно создать объект [набора записей](recordset-object-ado.md) и указать сведения о столбце.</span><span class="sxs-lookup"><span data-stu-id="ad70a-104">You can create a [Recordset](recordset-object-ado.md) object and specify the column information.</span></span> <span data-ttu-id="ad70a-105">Затем можно вставить данные в объекте **набора записей** ; базовый набор строк буферов вставок.</span><span class="sxs-lookup"><span data-stu-id="ad70a-105">You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.</span></span>
 
-<span data-ttu-id="ec858-106">В следующем примере кода показано, как для определения **набора записей** с помощью объекта [RDSServer.DataFactory](datafactory-object-rdsserver.md) .</span><span class="sxs-lookup"><span data-stu-id="ec858-106">The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span> <span data-ttu-id="ec858-107">Это также можно сделать с помощью [RDS. DataControl](datacontrol-object-rds.md) объекта.</span><span class="sxs-lookup"><span data-stu-id="ec858-107">You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
+<span data-ttu-id="ad70a-106">В следующем примере кода показано, как для определения **набора записей** с помощью объекта [RDSServer.DataFactory](datafactory-object-rdsserver.md) .</span><span class="sxs-lookup"><span data-stu-id="ad70a-106">The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span> <span data-ttu-id="ad70a-107">Это также можно сделать с помощью [RDS. DataControl](datacontrol-object-rds.md) объекта.</span><span class="sxs-lookup"><span data-stu-id="ad70a-107">You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
 
 ```vb 
  

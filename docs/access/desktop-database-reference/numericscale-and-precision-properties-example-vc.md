@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="ed246-101"><<<<<<< Название HEAD: NumericScale и TOCTitle пример свойств точности (VC ++): NumericScale и пример: свойства точности (VC ++) === название: пример: свойства NumericScale и точность (VC ++) TOCTitle: NumericScale и Пример: свойства точности (VC ++)</span><span class="sxs-lookup"><span data-stu-id="ed246-101"><<<<<<< HEAD title: NumericScale and Precision Properties Example (VC++) TOCTitle: NumericScale and Precision Properties Example (VC++) ======= title: NumericScale and Precision properties example (VC++) TOCTitle: NumericScale and Precision properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="ed246-102">главные ms:assetid: da4bec90-b039-1764-3b8b-c74bb725da61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250098(v=office.15) ms:contentKeyID: 48548078 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="ed246-102">master ms:assetid: da4bec90-b039-1764-3b8b-c74bb725da61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250098(v=office.15) ms:contentKeyID: 48548078 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойств NumericScale и Precision (VC++)
+TOCTitle: NumericScale and Precision properties example (VC++)
+ms:assetid: da4bec90-b039-1764-3b8b-c74bb725da61
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250098(v=office.15)
+ms:contentKeyID: 48548078
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d5cdfc5fe2c59b6431d1f8497aa91160d0c68b36
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877697"
 ---
-
-<span data-ttu-id="ed246-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="ed246-103"><<<<<<< HEAD</span></span>
-# <a name="numericscale-and-precision-properties-example-vc"></a><span data-ttu-id="ed246-104">NumericScale and Precision Properties Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="ed246-104">NumericScale and Precision Properties Example (VC++)</span></span>
-=======
-# <a name="numericscale-and-precision-properties-example-vc"></a><span data-ttu-id="ed246-105">Пример: свойства NumericScale и точность (VC ++)</span><span class="sxs-lookup"><span data-stu-id="ed246-105">NumericScale and Precision properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="ed246-106">master</span><span class="sxs-lookup"><span data-stu-id="ed246-106">master</span></span>
+# <a name="numericscale-and-precision-properties-example-vc"></a><span data-ttu-id="a8a23-102">Пример использования свойств NumericScale и Precision (VC++)</span><span class="sxs-lookup"><span data-stu-id="a8a23-102">NumericScale and Precision properties example (VC++)</span></span>
 
 
-<span data-ttu-id="ed246-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed246-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a8a23-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a8a23-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ed246-108">В этом примере показано [NumericScale](numericscale-property-adox.md) и [точность](precision-property-adox.md) свойства объекта [столбца](column-object-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="ed246-108">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="ed246-109">Этот код отображает значения для таблицы **Сведения о заказе** из базы данных *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="ed246-109">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
+<span data-ttu-id="a8a23-104">В этом примере показано [NumericScale](numericscale-property-adox.md) и [точность](precision-property-adox.md) свойства объекта [столбца](column-object-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="a8a23-104">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="a8a23-105">Этот код отображает значения для таблицы **Сведения о заказе** из базы данных *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="a8a23-105">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
 
 ```cpp 
  

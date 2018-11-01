@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249454(v=office.15)
 ms:contentKeyID: 48545591
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8e546445c6959ab1e9f9d6eb53fd28e02d47b40
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 3158cf55291876048fc0e75de5f8b702a275a593
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862156"
+ms.locfileid: "25879755"
 ---
-# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="0136c-102">Пример использования метода Append для коллекции Indexes (VB)</span><span class="sxs-lookup"><span data-stu-id="0136c-102">Indexes Append method example (VB)</span></span>
+# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="592d3-102">Пример использования метода Append для коллекции Indexes (VB)</span><span class="sxs-lookup"><span data-stu-id="592d3-102">Indexes Append method example (VB)</span></span>
 
 
-<span data-ttu-id="0136c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0136c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="592d3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="592d3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0136c-104">Следующий код демонстрирует для создания нового индекса.</span><span class="sxs-lookup"><span data-stu-id="0136c-104">The following code demonstrates how to create a new index.</span></span> <span data-ttu-id="0136c-105">Индекс находится на два столбца в таблице.</span><span class="sxs-lookup"><span data-stu-id="0136c-105">The index is on two columns in the table.</span></span>
+<span data-ttu-id="592d3-104">Следующий код демонстрирует для создания нового индекса.</span><span class="sxs-lookup"><span data-stu-id="592d3-104">The following code demonstrates how to create a new index.</span></span> <span data-ttu-id="592d3-105">Индекс находится на два столбца в таблице.</span><span class="sxs-lookup"><span data-stu-id="592d3-105">The index is on two columns in the table.</span></span>
 
 ```vb 
  

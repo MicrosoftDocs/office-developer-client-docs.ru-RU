@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249609(v=office.15)
 ms:contentKeyID: 48546195
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50fb678cb9346641b38acc3ca4f3a9553fd2a1c2
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 205c727b140ac8d9bd5b0aa096b7650e12e78e2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862935"
+ms.locfileid: "25873420"
 ---
-# <a name="create-method-example-vc"></a><span data-ttu-id="a2f66-102">Пример использования метода Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="a2f66-102">Create method example (VC++)</span></span>
+# <a name="create-method-example-vc"></a><span data-ttu-id="23feb-102">Пример использования метода Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="23feb-102">Create method example (VC++)</span></span>
 
 
-<span data-ttu-id="a2f66-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2f66-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="23feb-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23feb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2f66-104">Следующий код демонстрирует создание новой базы данных Microsoft Jet с помощью метода [Create](create-method-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="a2f66-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
+<span data-ttu-id="23feb-104">Следующий код демонстрирует создание новой базы данных Microsoft Jet с помощью метода [Create](create-method-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="23feb-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
 
 ```cpp 
  

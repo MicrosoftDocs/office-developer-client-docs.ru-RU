@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="9d17b-101"><<<<<<< Название HEAD: NumericScale и TOCTitle пример свойств точности (VJ ++): NumericScale и пример: свойства точности (VJ ++) === название: пример: свойства NumericScale и точность (VJ ++) TOCTitle: NumericScale и Пример: свойства точности (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="9d17b-101"><<<<<<< HEAD title: NumericScale and Precision Properties Example (VJ++) TOCTitle: NumericScale and Precision Properties Example (VJ++) ======= title: NumericScale and Precision properties example (VJ++) TOCTitle: NumericScale and Precision properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="9d17b-102">главные ms:assetid: 9b6fc40c-b740-ede0-d69d-546eb5d40c95 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15) ms:contentKeyID: 48546574 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="9d17b-102">master ms:assetid: 9b6fc40c-b740-ede0-d69d-546eb5d40c95 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15) ms:contentKeyID: 48546574 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойств NumericScale и Precision (VJ++)
+TOCTitle: NumericScale and Precision properties example (VJ++)
+ms:assetid: 9b6fc40c-b740-ede0-d69d-546eb5d40c95
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15)
+ms:contentKeyID: 48546574
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: fc77017b4e52c9a0e9ef519f9cfa0a6169b4895f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883220"
 ---
-
-<span data-ttu-id="9d17b-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="9d17b-103"><<<<<<< HEAD</span></span>
-# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="9d17b-104">NumericScale and Precision Properties Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9d17b-104">NumericScale and Precision Properties Example (VJ++)</span></span>
-=======
-# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="9d17b-105">Пример: свойства NumericScale и точность (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="9d17b-105">NumericScale and Precision properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="9d17b-106">master</span><span class="sxs-lookup"><span data-stu-id="9d17b-106">master</span></span>
+# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="be93a-102">Пример использования свойств NumericScale и Precision (VJ++)</span><span class="sxs-lookup"><span data-stu-id="be93a-102">NumericScale and Precision properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="9d17b-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="9d17b-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="be93a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be93a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9d17b-108">В этом примере с помощью свойства [NumericScale](numericscale-property-ado.md) и [точность](precision-property-ado.md) для отображения числовых масштаб и точность поля в таблице ***скидок*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="9d17b-108">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="be93a-104">В этом примере с помощью свойства [NumericScale](numericscale-property-ado.md) и [точность](precision-property-ado.md) для отображения числовых масштаб и точность поля в таблице ***скидок*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="be93a-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```java 
  

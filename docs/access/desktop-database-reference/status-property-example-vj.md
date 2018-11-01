@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="06352-101"><<<<<<< Заголовок HEAD: пример свойства состояния (VJ ++) TOCTitle: пример свойства состояния (VJ ++) === заголовок: пример свойства состояния (VJ ++) TOCTitle: пример свойства состояния (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="06352-101"><<<<<<< HEAD title: Status Property Example (VJ++) TOCTitle: Status Property Example (VJ++) ======= title: Status property example (VJ++) TOCTitle: Status property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="06352-102">главные ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15) ms:contentKeyID: 48547452 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="06352-102">master ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15) ms:contentKeyID: 48547452 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Status (VJ++)
+TOCTitle: Status property example (VJ++)
+ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15)
+ms:contentKeyID: 48547452
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f903da131d94c72656a2b8d80febb20e01854b49
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872230"
 ---
-
-<span data-ttu-id="06352-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="06352-103"><<<<<<< HEAD</span></span>
-# <a name="status-property-example-vj"></a><span data-ttu-id="06352-104">Status Property Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="06352-104">Status Property Example (VJ++)</span></span>
-=======
-# <a name="status-property-example-vj"></a><span data-ttu-id="06352-105">Пример свойства состояния (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="06352-105">Status property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="06352-106">master</span><span class="sxs-lookup"><span data-stu-id="06352-106">master</span></span>
+# <a name="status-property-example-vj"></a><span data-ttu-id="293b7-102">Пример использования свойства Status (VJ++)</span><span class="sxs-lookup"><span data-stu-id="293b7-102">Status property example (VJ++)</span></span>
 
 
-<span data-ttu-id="06352-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="06352-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="293b7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="293b7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="06352-108">В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.</span><span class="sxs-lookup"><span data-stu-id="06352-108">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="293b7-104">В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.</span><span class="sxs-lookup"><span data-stu-id="293b7-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```java 
  

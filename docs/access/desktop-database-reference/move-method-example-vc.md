@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249669(v=office.15)
 ms:contentKeyID: 48546451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80b5123f8ba025bc94d607c3a9bb0017fbda4dc7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d377fe7a2fec2579b8ac1a5a5a71690fbe571e71
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25859981"
+ms.locfileid: "25886216"
 ---
-# <a name="move-method-example-vc"></a><span data-ttu-id="2e63b-102">Пример использования метода Move (VC++)</span><span class="sxs-lookup"><span data-stu-id="2e63b-102">Move method example (VC++)</span></span>
+# <a name="move-method-example-vc"></a><span data-ttu-id="96d80-102">Пример использования метода Move (VC++)</span><span class="sxs-lookup"><span data-stu-id="96d80-102">Move method example (VC++)</span></span>
 
-<span data-ttu-id="2e63b-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e63b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="96d80-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="96d80-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2e63b-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="2e63b-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="96d80-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="96d80-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```cpp 
  
@@ -256,7 +256,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="2e63b-105">**MoveX.h**</span><span class="sxs-lookup"><span data-stu-id="2e63b-105">**MoveX.h**</span></span>
+<span data-ttu-id="96d80-105">**MoveX.h**</span><span class="sxs-lookup"><span data-stu-id="96d80-105">**MoveX.h**</span></span>
 
 ```cpp
 // BeginMoveH 

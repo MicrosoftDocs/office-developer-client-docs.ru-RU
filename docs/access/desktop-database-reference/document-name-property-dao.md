@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1053001
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eb2746808e79636ee291c7d73656644c34103769
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1f6d405015ce64c19a4a2bce47669f0426a9cb94
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480335"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869927"
 ---
-# <a name="documentname-property-dao"></a><span data-ttu-id="13274-102">Document.Name Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="13274-102">Document.Name Property (DAO)</span></span>
+# <a name="documentname-property-dao"></a><span data-ttu-id="f198f-102">Document.Name Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="f198f-102">Document.Name Property (DAO)</span></span>
 
 
-<span data-ttu-id="13274-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="13274-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f198f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f198f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="13274-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="13274-104">Returns the name of the specified object.</span></span> <span data-ttu-id="13274-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="13274-105">Read-only **String**.</span></span>
+<span data-ttu-id="f198f-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="f198f-104">Returns the name of the specified object.</span></span> <span data-ttu-id="f198f-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="f198f-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="13274-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="13274-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f198f-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f198f-106">Syntax</span></span>
 
-<span data-ttu-id="13274-107">*выражение* . Имя</span><span class="sxs-lookup"><span data-stu-id="13274-107">*expression* .Name</span></span>
+<span data-ttu-id="f198f-107">*выражение* . Имя</span><span class="sxs-lookup"><span data-stu-id="f198f-107">*expression* .Name</span></span>
 
-<span data-ttu-id="13274-108">*выражение* Переменная, которая представляет собой объект- **документов** .</span><span class="sxs-lookup"><span data-stu-id="13274-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="f198f-108">*выражение* Переменная, которая представляет собой объект- **документов** .</span><span class="sxs-lookup"><span data-stu-id="f198f-108">*expression* A variable that represents a **Document** object.</span></span>
 

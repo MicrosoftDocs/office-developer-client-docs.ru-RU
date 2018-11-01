@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125509(v=office.15)
 ms:contentKeyID: 52073631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 161bfd8480dae0db384e8c43a5f960dc825a6c2b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 67841bd0efeafc801b0fed051132ba846d2d899f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481087"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879811"
 ---
-# <a name="field-methods-dao"></a><span data-ttu-id="9d76b-102">Field Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="9d76b-102">Field Methods (DAO)</span></span>
+# <a name="field-methods-dao"></a><span data-ttu-id="c0e93-102">Field Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="c0e93-102">Field Methods (DAO)</span></span>
 
 
-<span data-ttu-id="9d76b-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="9d76b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c0e93-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0e93-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="9d76b-104">Field.AppendChunk Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="9d76b-104">Field.AppendChunk Method (DAO)</span></span>](field-appendchunk-method-dao.md)
+  - [<span data-ttu-id="c0e93-104">Field.AppendChunk Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="c0e93-104">Field.AppendChunk Method (DAO)</span></span>](field-appendchunk-method-dao.md)
 
-  - [<span data-ttu-id="9d76b-105">Field.CreateProperty Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="9d76b-105">Field.CreateProperty Method (DAO)</span></span>](field-createproperty-method-dao.md)
+  - [<span data-ttu-id="c0e93-105">Field.CreateProperty Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="c0e93-105">Field.CreateProperty Method (DAO)</span></span>](field-createproperty-method-dao.md)
 
-  - [<span data-ttu-id="9d76b-106">Field.GetChunk Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="9d76b-106">Field.GetChunk Method (DAO)</span></span>](field-getchunk-method-dao.md)
+  - [<span data-ttu-id="c0e93-106">Field.GetChunk Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="c0e93-106">Field.GetChunk Method (DAO)</span></span>](field-getchunk-method-dao.md)
 

@@ -12,25 +12,25 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9a06a5598716bb57d05048d861fcb13b1813365f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 63ff883f35dabbbd69e1bf144eb32016f303c7ef
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481074"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879111"
 ---
-# <a name="union-operation-microsoft-access-sql"></a><span data-ttu-id="30709-102">UNION Operation (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="30709-102">UNION Operation (Microsoft Access SQL)</span></span>
+# <a name="union-operation-microsoft-access-sql"></a><span data-ttu-id="60082-102">UNION Operation (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="60082-102">UNION Operation (Microsoft Access SQL)</span></span>
 
 
-<span data-ttu-id="30709-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="30709-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="60082-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60082-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="30709-104">Создает запрос на объединение, который объединяет результаты двух или более независимых запросов или таблиц.</span><span class="sxs-lookup"><span data-stu-id="30709-104">Creates a union query, which combines the results of two or more independent queries or tables.</span></span>
+<span data-ttu-id="60082-104">Создает запрос на объединение, который объединяет результаты двух или более независимых запросов или таблиц.</span><span class="sxs-lookup"><span data-stu-id="60082-104">Creates a union query, which combines the results of two or more independent queries or tables.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="30709-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="30709-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="60082-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="60082-105">Syntax</span></span>
 
-<span data-ttu-id="30709-106">\[В ТАБЛИЦЕ\] *query1* ОБЪЕДИНЕНИЕ \[все\] \[в ТАБЛИЦЕ\] *query2* \[ОБЪЕДИНЕНИЕ \[все\] \[в ТАБЛИЦЕ\] *queryn* \[ ...</span><span class="sxs-lookup"><span data-stu-id="30709-106">\[TABLE\] *query1* UNION \[ALL\] \[TABLE\] *query2* \[UNION \[ALL\] \[TABLE\] *queryn* \[ …</span></span> <span data-ttu-id="30709-107">\]\]</span><span class="sxs-lookup"><span data-stu-id="30709-107"></span></span>
+<span data-ttu-id="60082-106">\[В ТАБЛИЦЕ\] *query1* ОБЪЕДИНЕНИЕ \[все\] \[в ТАБЛИЦЕ\] *query2* \[ОБЪЕДИНЕНИЕ \[все\] \[в ТАБЛИЦЕ\] *queryn* \[ ...</span><span class="sxs-lookup"><span data-stu-id="60082-106">\[TABLE\] *query1* UNION \[ALL\] \[TABLE\] *query2* \[UNION \[ALL\] \[TABLE\] *queryn* \[ …</span></span> <span data-ttu-id="60082-107">\]\]</span><span class="sxs-lookup"><span data-stu-id="60082-107"></span></span>
 
-<span data-ttu-id="30709-108">Операции ОБЪЕДИНЕНИЯ состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="30709-108">The UNION operation has these parts:</span></span>
+<span data-ttu-id="60082-108">Операции ОБЪЕДИНЕНИЯ состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="60082-108">The UNION operation has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,22 +39,22 @@ ms.locfileid: "25481074"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="30709-109">Часть</span><span class="sxs-lookup"><span data-stu-id="30709-109">Part</span></span></p></th>
-<th><p><span data-ttu-id="30709-110">Описание</span><span class="sxs-lookup"><span data-stu-id="30709-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="60082-109">Часть</span><span class="sxs-lookup"><span data-stu-id="60082-109">Part</span></span></p></th>
+<th><p><span data-ttu-id="60082-110">Описание</span><span class="sxs-lookup"><span data-stu-id="60082-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="30709-111"><em>Query1 n</em></span><span class="sxs-lookup"><span data-stu-id="30709-111"><em>query1-n</em></span></span></p></td>
-<td><p><span data-ttu-id="30709-112">Инструкция SELECT, имя сохраненного запроса или имя сохраненной таблицы стоять ключевое слово в ТАБЛИЦЕ.</span><span class="sxs-lookup"><span data-stu-id="30709-112">A SELECT statement, the name of a stored query, or the name of a stored table preceded by the TABLE keyword.</span></span></p></td>
+<td><p><span data-ttu-id="60082-111"><em>Query1 n</em></span><span class="sxs-lookup"><span data-stu-id="60082-111"><em>query1-n</em></span></span></p></td>
+<td><p><span data-ttu-id="60082-112">Инструкция SELECT, имя сохраненного запроса или имя сохраненной таблицы стоять ключевое слово в ТАБЛИЦЕ.</span><span class="sxs-lookup"><span data-stu-id="60082-112">A SELECT statement, the name of a stored query, or the name of a stored table preceded by the TABLE keyword.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="30709-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="30709-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="60082-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="60082-113">Remarks</span></span>
 
-<span data-ttu-id="30709-114">Можно объединить результаты двух или более запросов, таблиц и инструкций SELECT в любое сочетание за одну операцию ОБЪЕДИНЕНИЯ.</span><span class="sxs-lookup"><span data-stu-id="30709-114">You can merge the results of two or more queries, tables, and SELECT statements, in any combination, in a single UNION operation.</span></span> <span data-ttu-id="30709-115">В следующем примере объединяются существующей таблицы с именем инструкции SELECT и новых учетных записей:</span><span class="sxs-lookup"><span data-stu-id="30709-115">The following example merges an existing table named New Accounts and a SELECT statement:</span></span>
+<span data-ttu-id="60082-114">Можно объединить результаты двух или более запросов, таблиц и инструкций SELECT в любое сочетание за одну операцию ОБЪЕДИНЕНИЯ.</span><span class="sxs-lookup"><span data-stu-id="60082-114">You can merge the results of two or more queries, tables, and SELECT statements, in any combination, in a single UNION operation.</span></span> <span data-ttu-id="60082-115">В следующем примере объединяются существующей таблицы с именем инструкции SELECT и новых учетных записей:</span><span class="sxs-lookup"><span data-stu-id="60082-115">The following example merges an existing table named New Accounts and a SELECT statement:</span></span>
 
 ```sql
 TABLE [New Accounts] UNION ALL 
@@ -63,27 +63,27 @@ FROM Customers
 WHERE OrderAmount > 1000;
 ```
 
-<span data-ttu-id="30709-116">По умолчанию повторяющиеся записи не возвращаются при использовании операции ОБЪЕДИНЕНИЯ; Тем не менее можно включить [все](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) предикат, чтобы убедиться, что возвращаются все записи.</span><span class="sxs-lookup"><span data-stu-id="30709-116">By default, no duplicate records are returned when you use a UNION operation; however, you can include the [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) predicate to ensure that all records are returned.</span></span> <span data-ttu-id="30709-117">Это также делает время выполнения запроса.</span><span class="sxs-lookup"><span data-stu-id="30709-117">This also makes the query run faster.</span></span>
+<span data-ttu-id="60082-116">По умолчанию повторяющиеся записи не возвращаются при использовании операции ОБЪЕДИНЕНИЯ; Тем не менее можно включить [все](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) предикат, чтобы убедиться, что возвращаются все записи.</span><span class="sxs-lookup"><span data-stu-id="60082-116">By default, no duplicate records are returned when you use a UNION operation; however, you can include the [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) predicate to ensure that all records are returned.</span></span> <span data-ttu-id="60082-117">Это также делает время выполнения запроса.</span><span class="sxs-lookup"><span data-stu-id="60082-117">This also makes the query run faster.</span></span>
 
-<span data-ttu-id="30709-118">Все запросы в операции ОБЪЕДИНЕНИЯ необходимо запросить такое же число полей; Тем не менее поля не должны иметь одинаковый размер или тип данных.</span><span class="sxs-lookup"><span data-stu-id="30709-118">All queries in a UNION operation must request the same number of fields; however, the fields do not have to be of the same size or data type.</span></span>
+<span data-ttu-id="60082-118">Все запросы в операции ОБЪЕДИНЕНИЯ необходимо запросить такое же число полей; Тем не менее поля не должны иметь одинаковый размер или тип данных.</span><span class="sxs-lookup"><span data-stu-id="60082-118">All queries in a UNION operation must request the same number of fields; however, the fields do not have to be of the same size or data type.</span></span>
 
-<span data-ttu-id="30709-119">Используйте псевдонимы только в первой инструкции SELECT, так как они обрабатываются в любые другие пользователи.</span><span class="sxs-lookup"><span data-stu-id="30709-119">Use aliases only in the first SELECT statement because they are ignored in any others.</span></span> <span data-ttu-id="30709-120">В предложение ORDER BY ссылаться на поля, как они называются в первом операторе SELECT.</span><span class="sxs-lookup"><span data-stu-id="30709-120">In the ORDER BY clause, refer to fields by what they are called in the first SELECT statement.</span></span>
+<span data-ttu-id="60082-119">Используйте псевдонимы только в первой инструкции SELECT, так как они обрабатываются в любые другие пользователи.</span><span class="sxs-lookup"><span data-stu-id="60082-119">Use aliases only in the first SELECT statement because they are ignored in any others.</span></span> <span data-ttu-id="60082-120">В предложение ORDER BY ссылаться на поля, как они называются в первом операторе SELECT.</span><span class="sxs-lookup"><span data-stu-id="60082-120">In the ORDER BY clause, refer to fields by what they are called in the first SELECT statement.</span></span>
 
 
 > [!NOTE]
 > <UL>
 > <LI>
-> <P><span data-ttu-id="30709-121">Предложение <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> или <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> в каждый аргумент <EM>запроса</EM> можно использовать для группировки возвращаемые данные.</span><span class="sxs-lookup"><span data-stu-id="30709-121">You can use a <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> or <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> clause in each <EM>query</EM> argument to group the returned data.</span></span></P>
+> <P><span data-ttu-id="60082-121">Предложение <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> или <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> в каждый аргумент <EM>запроса</EM> можно использовать для группировки возвращаемые данные.</span><span class="sxs-lookup"><span data-stu-id="60082-121">You can use a <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> or <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> clause in each <EM>query</EM> argument to group the returned data.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="30709-122">Предложение <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> в конце последний аргумент <EM>запроса</EM> можно использовать для отображения возвращаемых данных в указанном порядке.</span><span class="sxs-lookup"><span data-stu-id="30709-122">You can use an <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> clause at the end of the last <EM>query</EM> argument to display the returned data in a specified order.</span></span></P></LI></UL>
+> <P><span data-ttu-id="60082-122">Предложение <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> в конце последний аргумент <EM>запроса</EM> можно использовать для отображения возвращаемых данных в указанном порядке.</span><span class="sxs-lookup"><span data-stu-id="60082-122">You can use an <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> clause at the end of the last <EM>query</EM> argument to display the returned data in a specified order.</span></span></P></LI></UL>
 
 
 
-## <a name="example"></a><span data-ttu-id="30709-123">Пример</span><span class="sxs-lookup"><span data-stu-id="30709-123">Example</span></span>
+## <a name="example"></a><span data-ttu-id="60082-123">Пример</span><span class="sxs-lookup"><span data-stu-id="60082-123">Example</span></span>
 
-<span data-ttu-id="30709-124">В этом примере показано получение имен и городов из всех поставщиков и клиентов в Бразилии.</span><span class="sxs-lookup"><span data-stu-id="30709-124">This example retrieves the names and cities of all suppliers and customers in Brazil.</span></span>
+<span data-ttu-id="60082-124">В этом примере показано получение имен и городов из всех поставщиков и клиентов в Бразилии.</span><span class="sxs-lookup"><span data-stu-id="60082-124">This example retrieves the names and cities of all suppliers and customers in Brazil.</span></span>
 
-<span data-ttu-id="30709-125">В этом примере вызывается процедура EnumFields, которые можно найти в примере инструкции SELECT.</span><span class="sxs-lookup"><span data-stu-id="30709-125">This example calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
+<span data-ttu-id="60082-125">В этом примере вызывается процедура EnumFields, которые можно найти в примере инструкции SELECT.</span><span class="sxs-lookup"><span data-stu-id="60082-125">This example calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
 
 ```vb
     Sub UnionX() 

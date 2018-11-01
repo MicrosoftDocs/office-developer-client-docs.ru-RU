@@ -1,26 +1,26 @@
 ---
-title: Fabricating Hierarchical Recordsets
+title: Создание иерархических наборов записей
 TOCTitle: Fabricating Hierarchical Recordsets
 ms:assetid: 0a6e41ba-015e-c07e-8876-1e744256b876
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248836(v=office.15)
 ms:contentKeyID: 48543153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 81302ba1c18645a51913cb92179f4b61f3c32ce4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 10f2eb3d46bc0091f8ebadb5c6aea6efe4eb6758
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482318"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881365"
 ---
-# <a name="fabricating-hierarchical-recordsets"></a><span data-ttu-id="82f68-102">Fabricating Hierarchical Recordsets</span><span class="sxs-lookup"><span data-stu-id="82f68-102">Fabricating Hierarchical Recordsets</span></span>
+# <a name="fabricating-hierarchical-recordsets"></a><span data-ttu-id="96c43-102">Создание иерархических наборов записей</span><span class="sxs-lookup"><span data-stu-id="96c43-102">Fabricating Hierarchical Recordsets</span></span>
 
 
-<span data-ttu-id="82f68-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="82f68-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="96c43-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="96c43-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="82f68-104">Следующем примере показано, как для создания иерархической записей без источника данных с помощью формирования грамматики определение столбцов для родительских, дочерних и котором **наборов записей**данных.</span><span class="sxs-lookup"><span data-stu-id="82f68-104">The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.</span></span>
+<span data-ttu-id="96c43-104">Следующем примере показано, как для создания иерархической записей без источника данных с помощью формирования грамматики определение столбцов для родительских, дочерних и котором **наборов записей**данных.</span><span class="sxs-lookup"><span data-stu-id="96c43-104">The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.</span></span>
 
-<span data-ttu-id="82f68-105">Для создания иерархической **записей**, необходимо указать служба Microsoft формирования данных для OLE DB (MSDataShape), и можно указать поставщика данных значение NONE в параметрах строки подключения из объект [подключения](connection-object-ado.md) [Open](open-method-ado-connection.md) метод.</span><span class="sxs-lookup"><span data-stu-id="82f68-105">To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method.</span></span> <span data-ttu-id="82f68-106">Для получения дополнительных сведений см [Требуется поставщиков для формирования данных](required-providers-for-data-shaping.md).</span><span class="sxs-lookup"><span data-stu-id="82f68-106">For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).</span></span>
+<span data-ttu-id="96c43-105">Для создания иерархической **записей**, необходимо указать служба Microsoft формирования данных для OLE DB (MSDataShape), и можно указать поставщика данных значение NONE в параметрах строки подключения из объект [подключения](connection-object-ado.md) [Open](open-method-ado-connection.md) метод.</span><span class="sxs-lookup"><span data-stu-id="96c43-105">To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method.</span></span> <span data-ttu-id="96c43-106">Для получения дополнительных сведений см [Требуется поставщиков для формирования данных](required-providers-for-data-shaping.md).</span><span class="sxs-lookup"><span data-stu-id="96c43-106">For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).</span></span>
 
 ```vb
     Dim cn As New ADODB.Connection
@@ -47,5 +47,5 @@ ms.locfileid: "25482318"
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-<span data-ttu-id="82f68-107">После **набора записей** был целью, его можно заполняются, таким образом или сохранено в файле.</span><span class="sxs-lookup"><span data-stu-id="82f68-107">After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.</span></span>
+<span data-ttu-id="96c43-107">После **набора записей** был целью, его можно заполняются, таким образом или сохранено в файле.</span><span class="sxs-lookup"><span data-stu-id="96c43-107">After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.</span></span>
 

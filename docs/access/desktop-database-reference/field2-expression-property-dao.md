@@ -6,43 +6,43 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7f3cbb7ca4078fb92ad721d85679dabee9237f85
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 92d3cd9e9ed50503b4816cae03e2a69c790706ff
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481967"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878362"
 ---
-# <a name="field2expression-property-dao"></a><span data-ttu-id="0b92b-102">Field2.Expression Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="0b92b-102">Field2.Expression Property (DAO)</span></span>
+# <a name="field2expression-property-dao"></a><span data-ttu-id="44fb2-102">Field2.Expression Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="44fb2-102">Field2.Expression Property (DAO)</span></span>
 
-<span data-ttu-id="0b92b-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0b92b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="44fb2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="44fb2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0b92b-104">Получает или задает выражение, представляющее формулу для вычисляемого поля.</span><span class="sxs-lookup"><span data-stu-id="0b92b-104">Gets or sets an expression that represents the formula for a calculated field.</span></span> <span data-ttu-id="0b92b-105">Для чтения и записи, **String**.</span><span class="sxs-lookup"><span data-stu-id="0b92b-105">Read/write **String**.</span></span>
+<span data-ttu-id="44fb2-104">Получает или задает выражение, представляющее формулу для вычисляемого поля.</span><span class="sxs-lookup"><span data-stu-id="44fb2-104">Gets or sets an expression that represents the formula for a calculated field.</span></span> <span data-ttu-id="44fb2-105">Для чтения и записи, **String**.</span><span class="sxs-lookup"><span data-stu-id="44fb2-105">Read/write **String**.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="0b92b-106">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="0b92b-106">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="44fb2-106">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="44fb2-106">Version Information</span></span>
 
-<span data-ttu-id="0b92b-107">Добавлена версия: Access 2010
-</span><span class="sxs-lookup"><span data-stu-id="0b92b-107">Version Added: Access 2010</span></span>
+<span data-ttu-id="44fb2-107">Добавлена версия: Access 2010
+</span><span class="sxs-lookup"><span data-stu-id="44fb2-107">Version Added: Access 2010</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0b92b-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0b92b-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="44fb2-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="44fb2-108">Syntax</span></span>
 
-<span data-ttu-id="0b92b-109">*выражение* . Выражение</span><span class="sxs-lookup"><span data-stu-id="0b92b-109">*expression* .Expression</span></span>
+<span data-ttu-id="44fb2-109">*выражение* . Выражение</span><span class="sxs-lookup"><span data-stu-id="44fb2-109">*expression* .Expression</span></span>
 
-<span data-ttu-id="0b92b-110">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="0b92b-110">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="44fb2-110">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="44fb2-110">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0b92b-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="0b92b-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="44fb2-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="44fb2-111">Remarks</span></span>
 
-<span data-ttu-id="0b92b-112">В Access 2013 можно создавать поля в таблице, вычисление значений.</span><span class="sxs-lookup"><span data-stu-id="0b92b-112">In Access 2013, you can create table fields that calculate values.</span></span> <span data-ttu-id="0b92b-113">Расчеты могут включать значения из полей в одной таблицы, а также встроенных функций доступа.</span><span class="sxs-lookup"><span data-stu-id="0b92b-113">The calculations can include values from fields in the same table as well as built-in Access functions.</span></span>
+<span data-ttu-id="44fb2-112">В Access 2013 можно создавать поля в таблице, вычисление значений.</span><span class="sxs-lookup"><span data-stu-id="44fb2-112">In Access 2013, you can create table fields that calculate values.</span></span> <span data-ttu-id="44fb2-113">Расчеты могут включать значения из полей в одной таблицы, а также встроенных функций доступа.</span><span class="sxs-lookup"><span data-stu-id="44fb2-113">The calculations can include values from fields in the same table as well as built-in Access functions.</span></span>
 
-<span data-ttu-id="0b92b-114">Расчет не может содержать поля из таблицы или запросы.</span><span class="sxs-lookup"><span data-stu-id="0b92b-114">The calculation cannot include fields from other tables or queries.</span></span>
+<span data-ttu-id="44fb2-114">Расчет не может содержать поля из таблицы или запросы.</span><span class="sxs-lookup"><span data-stu-id="44fb2-114">The calculation cannot include fields from other tables or queries.</span></span>
 
-<span data-ttu-id="0b92b-115">Результаты расчета доступны только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0b92b-115">The results of the calculation are read-only.</span></span>
+<span data-ttu-id="44fb2-115">Результаты расчета доступны только для чтения.</span><span class="sxs-lookup"><span data-stu-id="44fb2-115">The results of the calculation are read-only.</span></span>
 
-## <a name="example"></a><span data-ttu-id="0b92b-116">Пример</span><span class="sxs-lookup"><span data-stu-id="0b92b-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="44fb2-116">Пример</span><span class="sxs-lookup"><span data-stu-id="44fb2-116">Example</span></span>
 
-<span data-ttu-id="0b92b-117">Следующий пример демонстрирует создание вычисляемого поля.</span><span class="sxs-lookup"><span data-stu-id="0b92b-117">The following example shows how to create a calculated field.</span></span> <span data-ttu-id="0b92b-118">Метод CreateField создает поле с именем **полное имя**.</span><span class="sxs-lookup"><span data-stu-id="0b92b-118">The CreateField method creates a field named **FullName**.</span></span> <span data-ttu-id="0b92b-119">Выражение затем задано значение выражения, вычисляющий значение поля.</span><span class="sxs-lookup"><span data-stu-id="0b92b-119">The Expression property is then set to the expression that calculates the value of the field.</span></span>
+<span data-ttu-id="44fb2-117">Следующий пример демонстрирует создание вычисляемого поля.</span><span class="sxs-lookup"><span data-stu-id="44fb2-117">The following example shows how to create a calculated field.</span></span> <span data-ttu-id="44fb2-118">Метод CreateField создает поле с именем **полное имя**.</span><span class="sxs-lookup"><span data-stu-id="44fb2-118">The CreateField method creates a field named **FullName**.</span></span> <span data-ttu-id="44fb2-119">Выражение затем задано значение выражения, вычисляющий значение поля.</span><span class="sxs-lookup"><span data-stu-id="44fb2-119">The Expression property is then set to the expression that calculates the value of the field.</span></span>
 
-<span data-ttu-id="0b92b-120">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="0b92b-120">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="44fb2-120">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="44fb2-120">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub CreateCalculatedField()

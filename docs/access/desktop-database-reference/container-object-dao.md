@@ -6,24 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
 ms:contentKeyID: 48543720
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 575f79c079e197fbc760bdb6b51a4baae5fafa4a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: af4d7563c20a965e3ca045f80c1c1d24dbf5deff
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482451"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882814"
 ---
-# <a name="container-object-dao"></a><span data-ttu-id="d1b57-102">Container Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1b57-102">Container Object (DAO)</span></span>
+# <a name="container-object-dao"></a><span data-ttu-id="bd574-102">Container Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="bd574-102">Container Object (DAO)</span></span>
 
-<span data-ttu-id="d1b57-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1b57-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="bd574-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd574-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d1b57-104">Объект **контейнера** групп сходных типов объектов **документа** .</span><span class="sxs-lookup"><span data-stu-id="d1b57-104">A **Container** object groups similar types of **Document** objects together.</span></span>
+<span data-ttu-id="bd574-104">Объект **контейнера** групп сходных типов объектов **документа** .</span><span class="sxs-lookup"><span data-stu-id="bd574-104">A **Container** object groups similar types of **Document** objects together.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d1b57-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="d1b57-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd574-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="bd574-105">Remarks</span></span>
 
-<span data-ttu-id="d1b57-106">Каждый объект **базы данных** имеет коллекцию **контейнеров** , состоящую из встроенных объектов **контейнера** .</span><span class="sxs-lookup"><span data-stu-id="d1b57-106">Each **Database** object has a **Containers** collection consisting of built-in **Container** objects.</span></span> <span data-ttu-id="d1b57-107">Приложения могут определять собственные типы документов и соответствующих контейнеров (Microsoft Access базами данных, ядро только); Тем не менее эти объекты может не всегда поддерживаться через DAO.</span><span class="sxs-lookup"><span data-stu-id="d1b57-107">Applications can define their own document types and corresponding containers (Microsoft Access database engine databases only); however, these objects may not always be supported through DAO.</span></span>
+<span data-ttu-id="bd574-106">Каждый объект **базы данных** имеет коллекцию **контейнеров** , состоящую из встроенных объектов **контейнера** .</span><span class="sxs-lookup"><span data-stu-id="bd574-106">Each **Database** object has a **Containers** collection consisting of built-in **Container** objects.</span></span> <span data-ttu-id="bd574-107">Приложения могут определять собственные типы документов и соответствующих контейнеров (Microsoft Access базами данных, ядро только); Тем не менее эти объекты может не всегда поддерживаться через DAO.</span><span class="sxs-lookup"><span data-stu-id="bd574-107">Applications can define their own document types and corresponding containers (Microsoft Access database engine databases only); however, these objects may not always be supported through DAO.</span></span>
 
-<span data-ttu-id="d1b57-108">Некоторые из этих объектов **контейнера** определяются ядро базы данных Microsoft Access, в то время как другие пользователи могут быть определены с другими приложениями.</span><span class="sxs-lookup"><span data-stu-id="d1b57-108">Some of these **Container** objects are defined by the Microsoft Access database engine while others may be defined by other applications.</span></span> <span data-ttu-id="d1b57-109">В следующей таблице перечислены имя каждого объекта- **контейнера** определяется ядро базы данных Microsoft Access и тип информации о нем.</span><span class="sxs-lookup"><span data-stu-id="d1b57-109">The following table lists the name of each **Container** object defined by the Microsoft Access database engine and what type of information it contains.</span></span>
+<span data-ttu-id="bd574-108">Некоторые из этих объектов **контейнера** определяются ядро базы данных Microsoft Access, в то время как другие пользователи могут быть определены с другими приложениями.</span><span class="sxs-lookup"><span data-stu-id="bd574-108">Some of these **Container** objects are defined by the Microsoft Access database engine while others may be defined by other applications.</span></span> <span data-ttu-id="bd574-109">В следующей таблице перечислены имя каждого объекта- **контейнера** определяется ядро базы данных Microsoft Access и тип информации о нем.</span><span class="sxs-lookup"><span data-stu-id="bd574-109">The following table lists the name of each **Container** object defined by the Microsoft Access database engine and what type of information it contains.</span></span>
 
 <table>
 <colgroup>
@@ -32,52 +32,52 @@ ms.locfileid: "25482451"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d1b57-110">Имя контейнера</span><span class="sxs-lookup"><span data-stu-id="d1b57-110">Container name</span></span></p></th>
-<th><p><span data-ttu-id="d1b57-111">Содержит сведения о</span><span class="sxs-lookup"><span data-stu-id="d1b57-111">Contains information about</span></span></p></th>
+<th><p><span data-ttu-id="bd574-110">Имя контейнера</span><span class="sxs-lookup"><span data-stu-id="bd574-110">Container name</span></span></p></th>
+<th><p><span data-ttu-id="bd574-111">Содержит сведения о</span><span class="sxs-lookup"><span data-stu-id="bd574-111">Contains information about</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d1b57-112">Базы данных</span><span class="sxs-lookup"><span data-stu-id="d1b57-112">Databases</span></span></p></td>
-<td><p><span data-ttu-id="d1b57-113">Сохраненные баз данных</span><span class="sxs-lookup"><span data-stu-id="d1b57-113">Saved databases</span></span></p></td>
+<td><p><span data-ttu-id="bd574-112">Базы данных</span><span class="sxs-lookup"><span data-stu-id="bd574-112">Databases</span></span></p></td>
+<td><p><span data-ttu-id="bd574-113">Сохраненные баз данных</span><span class="sxs-lookup"><span data-stu-id="bd574-113">Saved databases</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d1b57-114">Таблицы</span><span class="sxs-lookup"><span data-stu-id="d1b57-114">Tables</span></span></p></td>
-<td><p><span data-ttu-id="d1b57-115">Сохранить таблиц и запросов</span><span class="sxs-lookup"><span data-stu-id="d1b57-115">Saved tables and queries</span></span></p></td>
+<td><p><span data-ttu-id="bd574-114">Таблицы</span><span class="sxs-lookup"><span data-stu-id="bd574-114">Tables</span></span></p></td>
+<td><p><span data-ttu-id="bd574-115">Сохранить таблиц и запросов</span><span class="sxs-lookup"><span data-stu-id="bd574-115">Saved tables and queries</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d1b57-116">Отношения</span><span class="sxs-lookup"><span data-stu-id="d1b57-116">Relations</span></span></p></td>
-<td><p><span data-ttu-id="d1b57-117">Сохраненные связей</span><span class="sxs-lookup"><span data-stu-id="d1b57-117">Saved relationships</span></span></p></td>
+<td><p><span data-ttu-id="bd574-116">Отношения</span><span class="sxs-lookup"><span data-stu-id="bd574-116">Relations</span></span></p></td>
+<td><p><span data-ttu-id="bd574-117">Сохраненные связей</span><span class="sxs-lookup"><span data-stu-id="bd574-117">Saved relationships</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="d1b57-118">Не следует путать объекты **контейнеров** , перечисленных в предыдущей таблице с семействами с таким же именем.</span><span class="sxs-lookup"><span data-stu-id="d1b57-118">Don't confuse the **Container** objects listed in the preceding table with the collections of the same name.</span></span> <span data-ttu-id="d1b57-119">Баз данных **контейнер** объекта ссылается на все объекты сохраненного базы данных, но семейства **баз данных** относится только к объекты базы данных, которые открыты в конкретной рабочей области.</span><span class="sxs-lookup"><span data-stu-id="d1b57-119">The Databases **Container** object refers to all saved database objects, but the **Databases** collection refers only to database objects that are open in a particular workspace.</span></span>
+> <span data-ttu-id="bd574-118">Не следует путать объекты **контейнеров** , перечисленных в предыдущей таблице с семействами с таким же именем.</span><span class="sxs-lookup"><span data-stu-id="bd574-118">Don't confuse the **Container** objects listed in the preceding table with the collections of the same name.</span></span> <span data-ttu-id="bd574-119">Баз данных **контейнер** объекта ссылается на все объекты сохраненного базы данных, но семейства **баз данных** относится только к объекты базы данных, которые открыты в конкретной рабочей области.</span><span class="sxs-lookup"><span data-stu-id="bd574-119">The Databases **Container** object refers to all saved database objects, but the **Databases** collection refers only to database objects that are open in a particular workspace.</span></span>
 
-<span data-ttu-id="d1b57-120">Каждый объект- **контейнер** имеет **документы** коллекцию, содержащую объекты **документов** , которые описывают экземпляры встроенные объекты типа, указанного в качестве **контейнера**.</span><span class="sxs-lookup"><span data-stu-id="d1b57-120">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**.</span></span> <span data-ttu-id="d1b57-121">Объект **контейнера** обычно используется как промежуточных ссылка на сведения, приведенные в объект **Document** .</span><span class="sxs-lookup"><span data-stu-id="d1b57-121">You typically use a **Container** object as an intermediate link to the information in the **Document** object.</span></span> <span data-ttu-id="d1b57-122">Коллекция **контейнеров** можно также использовать настройки безопасности для всех объектов **документов** данного типа.</span><span class="sxs-lookup"><span data-stu-id="d1b57-122">You can also use the **Containers** collection to set security for all **Document** objects of a given type.</span></span>
+<span data-ttu-id="bd574-120">Каждый объект- **контейнер** имеет **документы** коллекцию, содержащую объекты **документов** , которые описывают экземпляры встроенные объекты типа, указанного в качестве **контейнера**.</span><span class="sxs-lookup"><span data-stu-id="bd574-120">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**.</span></span> <span data-ttu-id="bd574-121">Объект **контейнера** обычно используется как промежуточных ссылка на сведения, приведенные в объект **Document** .</span><span class="sxs-lookup"><span data-stu-id="bd574-121">You typically use a **Container** object as an intermediate link to the information in the **Document** object.</span></span> <span data-ttu-id="bd574-122">Коллекция **контейнеров** можно также использовать настройки безопасности для всех объектов **документов** данного типа.</span><span class="sxs-lookup"><span data-stu-id="bd574-122">You can also use the **Containers** collection to set security for all **Document** objects of a given type.</span></span>
 
-<span data-ttu-id="d1b57-123">Существующий объект **контейнера** можно выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="d1b57-123">With an existing **Container** object, you can:</span></span>
+<span data-ttu-id="bd574-123">Существующий объект **контейнера** можно выполнить следующие действия.</span><span class="sxs-lookup"><span data-stu-id="bd574-123">With an existing **Container** object, you can:</span></span>
 
-- <span data-ttu-id="d1b57-124">Используйте свойство **Name** возвращает предварительно определенное имя для объекта- **контейнера** .</span><span class="sxs-lookup"><span data-stu-id="d1b57-124">Use the **Name** property to return the predefined name of the **Container** object.</span></span>
+- <span data-ttu-id="bd574-124">Используйте свойство **Name** возвращает предварительно определенное имя для объекта- **контейнера** .</span><span class="sxs-lookup"><span data-stu-id="bd574-124">Use the **Name** property to return the predefined name of the **Container** object.</span></span>
 
-- <span data-ttu-id="d1b57-125">Используйте свойство **владельца** или возвращает владельца объекта- **контейнера** .</span><span class="sxs-lookup"><span data-stu-id="d1b57-125">Use the **Owner** property to set or return the owner of the **Container** object.</span></span> <span data-ttu-id="d1b57-126">Для установки свойства **Owner** , необходимо иметь разрешения на запись для объекта- **контейнера** , а свойству необходимо присвоить имя существующего объекта **пользователя** или **группы** .</span><span class="sxs-lookup"><span data-stu-id="d1b57-126">To set the **Owner** property, you must have write permission for the **Container** object, and you must set the property to the name of an existing **User** or **Group** object.</span></span>
+- <span data-ttu-id="bd574-125">Используйте свойство **владельца** или возвращает владельца объекта- **контейнера** .</span><span class="sxs-lookup"><span data-stu-id="bd574-125">Use the **Owner** property to set or return the owner of the **Container** object.</span></span> <span data-ttu-id="bd574-126">Для установки свойства **Owner** , необходимо иметь разрешения на запись для объекта- **контейнера** , а свойству необходимо присвоить имя существующего объекта **пользователя** или **группы** .</span><span class="sxs-lookup"><span data-stu-id="bd574-126">To set the **Owner** property, you must have write permission for the **Container** object, and you must set the property to the name of an existing **User** or **Group** object.</span></span>
 
-- <span data-ttu-id="d1b57-127">Использование свойств **разрешения** и **имя пользователя** для настройки разрешений доступа для объекта **контейнера** ; любой объект **документа** , созданного в коллекции **документов** для объекта- **контейнера** наследует эти параметры разрешений доступа.</span><span class="sxs-lookup"><span data-stu-id="d1b57-127">Use the **Permissions** and **UserName** properties to set access permissions for the **Container** object; any **Document** object created in the **Documents** collection of a **Container** object inherits these access permission settings.</span></span>
+- <span data-ttu-id="bd574-127">Использование свойств **разрешения** и **имя пользователя** для настройки разрешений доступа для объекта **контейнера** ; любой объект **документа** , созданного в коллекции **документов** для объекта- **контейнера** наследует эти параметры разрешений доступа.</span><span class="sxs-lookup"><span data-stu-id="bd574-127">Use the **Permissions** and **UserName** properties to set access permissions for the **Container** object; any **Document** object created in the **Documents** collection of a **Container** object inherits these access permission settings.</span></span>
 
-<span data-ttu-id="d1b57-128">Поскольку встроенные объекты **контейнеров** , не могут создавать новые объекты **контейнера** или удалять существующие.</span><span class="sxs-lookup"><span data-stu-id="d1b57-128">Because **Container** objects are built-in, you can't create new **Container** objects or delete existing ones.</span></span>
+<span data-ttu-id="bd574-128">Поскольку встроенные объекты **контейнеров** , не могут создавать новые объекты **контейнера** или удалять существующие.</span><span class="sxs-lookup"><span data-stu-id="bd574-128">Because **Container** objects are built-in, you can't create new **Container** objects or delete existing ones.</span></span>
 
-<span data-ttu-id="d1b57-129">Для ссылки на объект **контейнера** в семействе сайтов, с его порядковый номер или **его свойства Name** , можно используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="d1b57-129">To refer to a **Container** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="bd574-129">Для ссылки на объект **контейнера** в семействе сайтов, с его порядковый номер или **его свойства Name** , можно используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="bd574-129">To refer to a **Container** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-- <span data-ttu-id="d1b57-130">**Контейнеры** (0)</span><span class="sxs-lookup"><span data-stu-id="d1b57-130">**Containers**(0)</span></span>
+- <span data-ttu-id="bd574-130">**Контейнеры** (0)</span><span class="sxs-lookup"><span data-stu-id="bd574-130">**Containers**(0)</span></span>
 
-- <span data-ttu-id="d1b57-131">**Контейнеры** («*имя*»)</span><span class="sxs-lookup"><span data-stu-id="d1b57-131">**Containers**("*name*")</span></span>
+- <span data-ttu-id="bd574-131">**Контейнеры** («*имя*»)</span><span class="sxs-lookup"><span data-stu-id="bd574-131">**Containers**("*name*")</span></span>
 
-- <span data-ttu-id="d1b57-132">**Контейнеры**\!\[*имя*\]</span><span class="sxs-lookup"><span data-stu-id="d1b57-132">**Containers**\!\[*name*\]</span></span>
+- <span data-ttu-id="bd574-132">**Контейнеры**\!\[*имя*\]</span><span class="sxs-lookup"><span data-stu-id="bd574-132">**Containers**\!\[*name*\]</span></span>
 
-## <a name="example"></a><span data-ttu-id="d1b57-133">Пример</span><span class="sxs-lookup"><span data-stu-id="d1b57-133">Example</span></span>
+## <a name="example"></a><span data-ttu-id="bd574-133">Пример</span><span class="sxs-lookup"><span data-stu-id="bd574-133">Example</span></span>
 
-<span data-ttu-id="d1b57-134">В этом примере перечисляются коллекция **контейнеров** базы данных Northwind и коллекции **свойств** для каждого объекта- **контейнера** в коллекции.</span><span class="sxs-lookup"><span data-stu-id="d1b57-134">This example enumerates the **Containers** collection of the Northwind database and the **Properties** collection of each **Container** object in the collection.</span></span>
+<span data-ttu-id="bd574-134">В этом примере перечисляются коллекция **контейнеров** базы данных Northwind и коллекции **свойств** для каждого объекта- **контейнера** в коллекции.</span><span class="sxs-lookup"><span data-stu-id="bd574-134">This example enumerates the **Containers** collection of the Northwind database and the **Properties** collection of each **Container** object in the collection.</span></span>
 
 ```vb
     Sub ContainerObjectX() 

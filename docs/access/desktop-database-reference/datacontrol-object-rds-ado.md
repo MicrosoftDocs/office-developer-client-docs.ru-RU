@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248873(v=office.15)
 ms:contentKeyID: 48543295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a3f17417011ea51b0dbae8c24d6577aa459c9a6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f2a4893f2f2f6d5d401c1a9f9134f3167aba3d37
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479739"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871425"
 ---
-# <a name="datacontrol-object-rds-ado"></a><span data-ttu-id="00c7c-102">DataControl Object (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="00c7c-102">DataControl Object (RDS) (ADO)</span></span>
+# <a name="datacontrol-object-rds-ado"></a><span data-ttu-id="c515e-102">DataControl Object (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="c515e-102">DataControl Object (RDS) (ADO)</span></span>
 
 
-<span data-ttu-id="00c7c-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="00c7c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c515e-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c515e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="00c7c-104">DataControl Object (RDS)</span><span class="sxs-lookup"><span data-stu-id="00c7c-104">DataControl Object (RDS)</span></span>](datacontrol-object-rds.md)
+  - [<span data-ttu-id="c515e-104">Объект DataControl (RDS)</span><span class="sxs-lookup"><span data-stu-id="c515e-104">DataControl Object (RDS)</span></span>](datacontrol-object-rds.md)
 
-  - [<span data-ttu-id="00c7c-105">DataControl Properties, Methods, and Events (RDS)</span><span class="sxs-lookup"><span data-stu-id="00c7c-105">DataControl Properties, Methods, and Events (RDS)</span></span>](datacontrol-properties-methods-and-events-rds.md)
+  - [<span data-ttu-id="c515e-105">DataControl Properties, Methods, and Events (RDS)</span><span class="sxs-lookup"><span data-stu-id="c515e-105">DataControl Properties, Methods, and Events (RDS)</span></span>](datacontrol-properties-methods-and-events-rds.md)
 

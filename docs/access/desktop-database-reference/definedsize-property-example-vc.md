@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="44f57-101"><<<<<<< Название HEAD: пример свойства DefinedSize (VC ++) TOCTitle: пример свойства DefinedSize (VC ++) === название: пример свойства DefinedSize (VC ++) TOCTitle: пример свойства DefinedSize (VC ++)</span><span class="sxs-lookup"><span data-stu-id="44f57-101"><<<<<<< HEAD title: DefinedSize Property Example (VC++) TOCTitle: DefinedSize Property Example (VC++) ======= title: DefinedSize property example (VC++) TOCTitle: DefinedSize property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="44f57-102">главные ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: 48548474 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="44f57-102">master ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: 48548474 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства DefinedSize (VC++)
+TOCTitle: DefinedSize property example (VC++)
+ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15)
+ms:contentKeyID: 48548474
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: a87889c7cd742c02def55cb802981fd3e16b3f91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867365"
 ---
-
-<span data-ttu-id="44f57-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="44f57-103"><<<<<<< HEAD</span></span>
-# <a name="definedsize-property-example-vc"></a><span data-ttu-id="44f57-104">DefinedSize Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="44f57-104">DefinedSize Property Example (VC++)</span></span>
-=======
-# <a name="definedsize-property-example-vc"></a><span data-ttu-id="44f57-105">Пример свойства DefinedSize (VC ++)</span><span class="sxs-lookup"><span data-stu-id="44f57-105">DefinedSize property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="44f57-106">master</span><span class="sxs-lookup"><span data-stu-id="44f57-106">master</span></span>
+# <a name="definedsize-property-example-vc"></a><span data-ttu-id="7972e-102">Пример использования свойства DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="7972e-102">DefinedSize property example (VC++)</span></span>
 
 
-<span data-ttu-id="44f57-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="44f57-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7972e-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7972e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="44f57-108">В этом примере демонстрируется свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="44f57-108">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="44f57-109">Код будет переопределения размера столбце FirstName таблице **Employees** базы данных *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="44f57-109">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="44f57-110">Затем отображается на изменение значений [полей](field-object-ado.md) [набора записей](recordset-object-ado.md) , основанного на таблице **Employees** .</span><span class="sxs-lookup"><span data-stu-id="44f57-110">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="44f57-111">Обратите внимание на то, что по умолчанию для поля FirstName становится дополняются пробелами после переопределить свойство **DefinedSize** .</span><span class="sxs-lookup"><span data-stu-id="44f57-111">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
+<span data-ttu-id="7972e-104">В этом примере демонстрируется свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="7972e-104">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="7972e-105">Код будет переопределения размера столбце FirstName таблице **Employees** базы данных *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="7972e-105">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="7972e-106">Затем отображается на изменение значений [полей](field-object-ado.md) [набора записей](recordset-object-ado.md) , основанного на таблице **Employees** .</span><span class="sxs-lookup"><span data-stu-id="7972e-106">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="7972e-107">Обратите внимание на то, что по умолчанию для поля FirstName становится дополняются пробелами после переопределить свойство **DefinedSize** .</span><span class="sxs-lookup"><span data-stu-id="7972e-107">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
 
 ```cpp 
  

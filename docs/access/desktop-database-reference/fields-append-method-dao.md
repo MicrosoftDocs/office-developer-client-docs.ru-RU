@@ -6,28 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0bfd430231517f3c4f3a4d5f9c14109dc3381363
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 44d7b6c8c9c44b51f7771dd731b50848f1cbf175
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482102"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884823"
 ---
-# <a name="fieldsappend-method-dao"></a><span data-ttu-id="a578d-102">Fields.Append Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="a578d-102">Fields.Append Method (DAO)</span></span>
+# <a name="fieldsappend-method-dao"></a><span data-ttu-id="cd9f2-102">Fields.Append Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd9f2-102">Fields.Append Method (DAO)</span></span>
 
 
-<span data-ttu-id="a578d-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a578d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cd9f2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd9f2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="a578d-104">Добавляет новое **[поле](field-object-dao.md)** в коллекцию **[полей](fields-collection-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="a578d-104">Adds a new **[Field](field-object-dao.md)** to the **[Fields](fields-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="cd9f2-104">Добавляет новое **[поле](field-object-dao.md)** в коллекцию **[полей](fields-collection-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="cd9f2-104">Adds a new **[Field](field-object-dao.md)** to the **[Fields](fields-collection-dao.md)** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a578d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a578d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cd9f2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="cd9f2-105">Syntax</span></span>
 
-<span data-ttu-id="a578d-106">*выражение* . Добавление (***объект***)</span><span class="sxs-lookup"><span data-stu-id="a578d-106">*expression* .Append(***Object***)</span></span>
+<span data-ttu-id="cd9f2-106">*выражение* . Добавление (***объект***)</span><span class="sxs-lookup"><span data-stu-id="cd9f2-106">*expression* .Append(***Object***)</span></span>
 
-<span data-ttu-id="a578d-107">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="a578d-107">*expression* A variable that represents a **Fields** object.</span></span>
+<span data-ttu-id="cd9f2-107">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="cd9f2-107">*expression* A variable that represents a **Fields** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="a578d-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="a578d-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="cd9f2-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="cd9f2-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -38,36 +38,36 @@ ms.locfileid: "25482102"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a578d-109">Имя</span><span class="sxs-lookup"><span data-stu-id="a578d-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="a578d-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="a578d-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="a578d-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="a578d-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="a578d-112">Описание</span><span class="sxs-lookup"><span data-stu-id="a578d-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="cd9f2-109">Имя</span><span class="sxs-lookup"><span data-stu-id="cd9f2-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="cd9f2-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="cd9f2-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="cd9f2-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="cd9f2-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="cd9f2-112">Описание</span><span class="sxs-lookup"><span data-stu-id="cd9f2-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a578d-113">Объект</span><span class="sxs-lookup"><span data-stu-id="a578d-113">Object</span></span></p></td>
-<td><p><span data-ttu-id="a578d-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="a578d-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="a578d-115"><strong>Объект</strong></span><span class="sxs-lookup"><span data-stu-id="a578d-115"><strong>Object</strong></span></span></p></td>
-<td><p><span data-ttu-id="a578d-116">Объектная переменная, представляющий поле, добавленный в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="a578d-116">An object variable that represents the field being appended to the collection.</span></span></p></td>
+<td><p><span data-ttu-id="cd9f2-113">Объект</span><span class="sxs-lookup"><span data-stu-id="cd9f2-113">Object</span></span></p></td>
+<td><p><span data-ttu-id="cd9f2-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="cd9f2-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="cd9f2-115"><strong>Объект</strong></span><span class="sxs-lookup"><span data-stu-id="cd9f2-115"><strong>Object</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd9f2-116">Объектная переменная, представляющий поле, добавленный в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="cd9f2-116">An object variable that represents the field being appended to the collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="a578d-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="a578d-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cd9f2-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="cd9f2-117">Remarks</span></span>
 
-<span data-ttu-id="a578d-118">Метод **Append** используется для добавления новой таблицы в базе данных, Добавление поля в таблицу и добавить поле индекса.</span><span class="sxs-lookup"><span data-stu-id="a578d-118">You can use the **Append** method to add a new table to a database, add a field to a table, and add a field to an index.</span></span>
+<span data-ttu-id="cd9f2-118">Метод **Append** используется для добавления новой таблицы в базе данных, Добавление поля в таблицу и добавить поле индекса.</span><span class="sxs-lookup"><span data-stu-id="cd9f2-118">You can use the **Append** method to add a new table to a database, add a field to a table, and add a field to an index.</span></span>
 
-<span data-ttu-id="a578d-119">Добавленный объект становится сохраняемого объекта, хранящиеся на диске, пока не будет удалена с помощью метода **Delete** .</span><span class="sxs-lookup"><span data-stu-id="a578d-119">The appended object becomes a persistent object, stored on disk, until you delete it by using the **Delete** method.</span></span>
+<span data-ttu-id="cd9f2-119">Добавленный объект становится сохраняемого объекта, хранящиеся на диске, пока не будет удалена с помощью метода **Delete** .</span><span class="sxs-lookup"><span data-stu-id="cd9f2-119">The appended object becomes a persistent object, stored on disk, until you delete it by using the **Delete** method.</span></span>
 
-<span data-ttu-id="a578d-120">Добавление нового объекта выполняется немедленно, но следует использовать метод **Refresh** в семействах сайтов, которые может затронуть изменения структуры базы данных.</span><span class="sxs-lookup"><span data-stu-id="a578d-120">The addition of a new object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
+<span data-ttu-id="cd9f2-120">Добавление нового объекта выполняется немедленно, но следует использовать метод **Refresh** в семействах сайтов, которые может затронуть изменения структуры базы данных.</span><span class="sxs-lookup"><span data-stu-id="cd9f2-120">The addition of a new object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
 
-<span data-ttu-id="a578d-121">Если объект, в которую добавляются не завершена (например, при любые объекты **поля** еще не добавлены в коллекцию **полей** **индекс** объекта до добавляется к коллекции **индексов** ) или задать свойства в одном или нескольких неправильные подчиненных объектов, с помощью метода **Append** приводит к ошибке.</span><span class="sxs-lookup"><span data-stu-id="a578d-121">If the object you're appending isn't complete (such as when you haven't appended any **Field** objects to a **Fields** collection of an **Index** object before it's appended to an **Indexes** collection) or if the properties set in one or more subordinate objects are incorrect, using the **Append** method causes an error.</span></span> <span data-ttu-id="a578d-122">Например если вы еще не указан тип поля и попытайтесь добавьте объект **поля** в коллекцию **полей** в объекте **TableDef** , с помощью метода **Append** запускает ошибку времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="a578d-122">For example, if you haven’t specified a field type and then try to append the **Field** object to the **Fields** collection in a **TableDef** object, using the **Append** method triggers a run-time error.</span></span>
+<span data-ttu-id="cd9f2-121">Если объект, в которую добавляются не завершена (например, при любые объекты **поля** еще не добавлены в коллекцию **полей** **индекс** объекта до добавляется к коллекции **индексов** ) или задать свойства в одном или нескольких неправильные подчиненных объектов, с помощью метода **Append** приводит к ошибке.</span><span class="sxs-lookup"><span data-stu-id="cd9f2-121">If the object you're appending isn't complete (such as when you haven't appended any **Field** objects to a **Fields** collection of an **Index** object before it's appended to an **Indexes** collection) or if the properties set in one or more subordinate objects are incorrect, using the **Append** method causes an error.</span></span> <span data-ttu-id="cd9f2-122">Например если вы еще не указан тип поля и попытайтесь добавьте объект **поля** в коллекцию **полей** в объекте **TableDef** , с помощью метода **Append** запускает ошибку времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="cd9f2-122">For example, if you haven’t specified a field type and then try to append the **Field** object to the **Fields** collection in a **TableDef** object, using the **Append** method triggers a run-time error.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a578d-123">Пример</span><span class="sxs-lookup"><span data-stu-id="a578d-123">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cd9f2-123">Пример</span><span class="sxs-lookup"><span data-stu-id="cd9f2-123">Example</span></span>
 
-<span data-ttu-id="a578d-124">В этом примере используется метод **Append** или метода **Delete** для изменения коллекции **полей** **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="a578d-124">This example uses either the **Append** method or the **Delete** method to modify the **Fields** collection of a **TableDef**.</span></span> <span data-ttu-id="a578d-125">Процедура AppendDeleteField является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="a578d-125">The AppendDeleteField procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="cd9f2-124">В этом примере используется метод **Append** или метода **Delete** для изменения коллекции **полей** **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="cd9f2-124">This example uses either the **Append** method or the **Delete** method to modify the **Fields** collection of a **TableDef**.</span></span> <span data-ttu-id="cd9f2-125">Процедура AppendDeleteField является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="cd9f2-125">The AppendDeleteField procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub AppendX() 

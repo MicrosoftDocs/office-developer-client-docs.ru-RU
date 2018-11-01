@@ -6,36 +6,36 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249217(v=office.15)
 ms:contentKeyID: 48544571
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7e8df776c59d995b3e16bdd1341dc70a45481a0d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8ab26581dc3d8d0dac14dc2cf6a634fef1c0bbb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482387"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871306"
 ---
-# <a name="hierarchy-properties-methods-and-events-ado-md"></a><span data-ttu-id="d6b4e-102">Hierarchy Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d6b4e-102">Hierarchy Properties, Methods, and Events (ADO MD)</span></span>
+# <a name="hierarchy-properties-methods-and-events-ado-md"></a><span data-ttu-id="437e4-102">Hierarchy Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="437e4-102">Hierarchy Properties, Methods, and Events (ADO MD)</span></span>
 
 
-<span data-ttu-id="d6b4e-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6b4e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="437e4-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="437e4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-## <a name="propertiescollections"></a><span data-ttu-id="d6b4e-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="d6b4e-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="437e4-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="437e4-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="d6b4e-105">Свойство Description</span><span class="sxs-lookup"><span data-stu-id="d6b4e-105">Description Property</span></span>](description-property-ado-md.md)
+- [<span data-ttu-id="437e4-105">Свойство Description</span><span class="sxs-lookup"><span data-stu-id="437e4-105">Description Property</span></span>](description-property-ado-md.md)
 
-- [<span data-ttu-id="d6b4e-106">Уровни коллекции</span><span class="sxs-lookup"><span data-stu-id="d6b4e-106">Levels Collection</span></span>](levels-collection-ado-md.md)
+- [<span data-ttu-id="437e4-106">Уровни коллекции</span><span class="sxs-lookup"><span data-stu-id="437e4-106">Levels Collection</span></span>](levels-collection-ado-md.md)
 
-- [<span data-ttu-id="d6b4e-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="d6b4e-107">Name Property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="437e4-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="437e4-107">Name Property</span></span>](name-property-ado-md.md)
 
-- [<span data-ttu-id="d6b4e-108">Коллекция Properties</span><span class="sxs-lookup"><span data-stu-id="d6b4e-108">Properties Collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="437e4-108">Коллекция Properties</span><span class="sxs-lookup"><span data-stu-id="437e4-108">Properties Collection</span></span>](properties-collection-ado.md)
 
-- [<span data-ttu-id="d6b4e-109">Свойство уникального имени</span><span class="sxs-lookup"><span data-stu-id="d6b4e-109">UniqueName Property</span></span>](uniquename-property-ado-md.md)
+- [<span data-ttu-id="437e4-109">Свойство уникального имени</span><span class="sxs-lookup"><span data-stu-id="437e4-109">UniqueName Property</span></span>](uniquename-property-ado-md.md)
 
-## <a name="methods"></a><span data-ttu-id="d6b4e-110">Методы</span><span class="sxs-lookup"><span data-stu-id="d6b4e-110">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="437e4-110">Методы</span><span class="sxs-lookup"><span data-stu-id="437e4-110">Methods</span></span>
 
-<span data-ttu-id="d6b4e-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="d6b4e-111">None.</span></span>
+<span data-ttu-id="437e4-111">Отсутствуют.</span><span class="sxs-lookup"><span data-stu-id="437e4-111">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="d6b4e-112">События</span><span class="sxs-lookup"><span data-stu-id="d6b4e-112">Events</span></span>
+## <a name="events"></a><span data-ttu-id="437e4-112">Мероприятия</span><span class="sxs-lookup"><span data-stu-id="437e4-112">Events</span></span>
 
-<span data-ttu-id="d6b4e-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="d6b4e-113">None.</span></span>
+<span data-ttu-id="437e4-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="437e4-113">None.</span></span>
 

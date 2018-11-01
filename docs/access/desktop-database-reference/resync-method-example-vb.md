@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249571(v=office.15)
 ms:contentKeyID: 48546001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49c41a2d6f7e90f4e40da5ba932f66fc9976eba8
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 22eafe559757c6d4b7a9f03d17e89a20d87c97a4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863411"
+ms.locfileid: "25868989"
 ---
-# <a name="resync-method-example-vb"></a><span data-ttu-id="10fcc-102">Пример использования метода Resync (VB)</span><span class="sxs-lookup"><span data-stu-id="10fcc-102">Resync method example (VB)</span></span>
+# <a name="resync-method-example-vb"></a><span data-ttu-id="72315-102">Пример использования метода Resync (VB)</span><span class="sxs-lookup"><span data-stu-id="72315-102">Resync method example (VB)</span></span>
 
 
-<span data-ttu-id="10fcc-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="10fcc-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="72315-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="72315-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="10fcc-104">В этом примере показано использование метода [выполнить повторную синхронизацию](resync-method-ado.md) для обновления данных в статических записей.</span><span class="sxs-lookup"><span data-stu-id="10fcc-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="72315-104">В этом примере показано использование метода [выполнить повторную синхронизацию](resync-method-ado.md) для обновления данных в статических записей.</span><span class="sxs-lookup"><span data-stu-id="72315-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```vb 
  

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="ee845-101"><<<<<<< Название HEAD: пример свойства сортировки (VJ ++) TOCTitle: пример свойства сортировки (VJ ++) === название: пример свойства сортировки (VJ ++) TOCTitle: пример свойства сортировки (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="ee845-101"><<<<<<< HEAD title: Sort Property Example (VJ++) TOCTitle: Sort Property Example (VJ++) ======= title: Sort property example (VJ++) TOCTitle: Sort property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="ee845-102">главные ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID: 48543896 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="ee845-102">master ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID: 48543896 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Sort (VJ++)
+TOCTitle: Sort property example (VJ++)
+ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
+ms:contentKeyID: 48543896
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9ea7dd3ee87b3e7ff2d06a6f6cf14d9195216f42
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872083"
 ---
-
-<span data-ttu-id="ee845-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="ee845-103"><<<<<<< HEAD</span></span>
-# <a name="sort-property-example-vj"></a><span data-ttu-id="ee845-104">Sort Property Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ee845-104">Sort Property Example (VJ++)</span></span>
-=======
-# <a name="sort-property-example-vj"></a><span data-ttu-id="ee845-105">Пример свойства сортировки (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="ee845-105">Sort property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="ee845-106">master</span><span class="sxs-lookup"><span data-stu-id="ee845-106">master</span></span>
+# <a name="sort-property-example-vj"></a><span data-ttu-id="339b7-102">Пример использования свойства Sort (VJ++)</span><span class="sxs-lookup"><span data-stu-id="339b7-102">Sort property example (VJ++)</span></span>
 
 
-<span data-ttu-id="ee845-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ee845-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="339b7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="339b7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ee845-108">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="ee845-108">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="ee845-109">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="ee845-109">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="339b7-104">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="339b7-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="339b7-105">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="339b7-105">A secondary utility routine prints each row.</span></span>
 
 ```java 
  

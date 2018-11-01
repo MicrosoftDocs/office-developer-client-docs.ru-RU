@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="20011-101"><<<<<<< Название HEAD: ключи добавить метод, тип ключа, пример свойства RelatedColumn (VB) TOCTitle: ключи добавить метод, тип ключа, RelatedColumn, RelatedTable и пример свойства UpdateRule (VB) === заголовок: метод добавьте разделы, ключ Тип, пример свойств RelatedColumn TOCTitle (VB): метод добавления ключей, тип ключа, RelatedColumn, RelatedTable и UpdateRule пример свойств (VB)</span><span class="sxs-lookup"><span data-stu-id="20011-101"><<<<<<< HEAD title: Keys Append Method, Key Type, RelatedColumn Properties Example (VB) TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VB) ======= title: Keys Append Method, Key Type, RelatedColumn properties example (VB) TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="20011-102">главные ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15) ms:contentKeyID: 48547871 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="20011-102">master ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15) ms:contentKeyID: 48547871 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Ключи добавить метод, тип ключа, пример свойств RelatedColumn (VB)
+TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
+ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
+ms:contentKeyID: 48547871
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7cec32ff7229540344d471e6c66b96270bb5a197
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878033"
 ---
-
-<span data-ttu-id="20011-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="20011-103"><<<<<<< HEAD</span></span>
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="20011-104">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="20011-104">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VB)</span></span>
-=======
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="20011-105">Пример свойства ключей добавить метод, тип ключа RelatedColumn, RelatedTable и UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="20011-105">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="20011-106">master</span><span class="sxs-lookup"><span data-stu-id="20011-106">master</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="83b43-102">Пример свойства ключей добавить метод, тип ключа RelatedColumn, RelatedTable и UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="83b43-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
 
 
-<span data-ttu-id="20011-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="20011-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="83b43-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="83b43-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="20011-108">Следующий код демонстрирует создание нового внешнего ключа.</span><span class="sxs-lookup"><span data-stu-id="20011-108">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="20011-109">Предполагается, что существуют две таблицы (**клиентов** и **Заказы**).</span><span class="sxs-lookup"><span data-stu-id="20011-109">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
+<span data-ttu-id="83b43-104">Следующий код демонстрирует создание нового внешнего ключа.</span><span class="sxs-lookup"><span data-stu-id="83b43-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="83b43-105">Предполагается, что существуют две таблицы (**клиентов** и **Заказы**).</span><span class="sxs-lookup"><span data-stu-id="83b43-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
 
 ```vb 
  

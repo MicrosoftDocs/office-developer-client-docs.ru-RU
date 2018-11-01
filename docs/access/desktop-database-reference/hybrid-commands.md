@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249286(v=office.15)
 ms:contentKeyID: 48544929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa95956fb50a5cd15fa4415e65d4a701f2e48feb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 363f305fee12cb2e46ab9d4c628030f7dc4bcd78
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481510"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873854"
 ---
-# <a name="hybrid-commands"></a><span data-ttu-id="e4fe6-102">Hybrid Commands</span><span class="sxs-lookup"><span data-stu-id="e4fe6-102">Hybrid Commands</span></span>
+# <a name="hybrid-commands"></a><span data-ttu-id="2abb9-102">Гибридные команды</span><span class="sxs-lookup"><span data-stu-id="2abb9-102">Hybrid Commands</span></span>
 
 
-<span data-ttu-id="e4fe6-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4fe6-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2abb9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2abb9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e4fe6-104">Гибридные команды, частично параметризованные команды.</span><span class="sxs-lookup"><span data-stu-id="e4fe6-104">Hybrid commands are partially parameterized commands.</span></span> <span data-ttu-id="e4fe6-105">Пример:</span><span class="sxs-lookup"><span data-stu-id="e4fe6-105">For example:</span></span>
+<span data-ttu-id="2abb9-104">Гибридные команды, частично параметризованные команды.</span><span class="sxs-lookup"><span data-stu-id="2abb9-104">Hybrid commands are partially parameterized commands.</span></span> <span data-ttu-id="2abb9-105">Пример:</span><span class="sxs-lookup"><span data-stu-id="2abb9-105">For example:</span></span>
 
 ```vb 
  
@@ -28,5 +28,5 @@ SHAPE {select * from plants}
  PlantRegion TO CustomerRegion ) 
 ```
 
-<span data-ttu-id="e4fe6-106">Поведение кэширования для гибридных команды — это же, что регулярное параметризованные команды.</span><span class="sxs-lookup"><span data-stu-id="e4fe6-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
+<span data-ttu-id="2abb9-106">Поведение кэширования для гибридных команды — это же, что регулярное параметризованные команды.</span><span class="sxs-lookup"><span data-stu-id="2abb9-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
 

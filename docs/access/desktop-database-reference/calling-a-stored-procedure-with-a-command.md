@@ -1,24 +1,24 @@
 ---
-title: Calling a Stored Procedure with a Command
+title: Вызов хранимой процедуры с помощью команды
 TOCTitle: Calling a Stored Procedure with a Command
 ms:assetid: 19d600d7-f717-39df-11a0-951e3ed0f812
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248944(v=office.15)
 ms:contentKeyID: 48543509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 573b847f53d3fc7ca07691e9a92d152598531bce
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05e68a18ccd97e33416c4603f033fb91acaf0210
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25481450"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876003"
 ---
-# <a name="calling-a-stored-procedure-with-a-command"></a><span data-ttu-id="ec32e-102">Calling a Stored Procedure with a Command</span><span class="sxs-lookup"><span data-stu-id="ec32e-102">Calling a Stored Procedure with a Command</span></span>
+# <a name="calling-a-stored-procedure-with-a-command"></a><span data-ttu-id="fe144-102">Вызов хранимой процедуры с помощью команды</span><span class="sxs-lookup"><span data-stu-id="fe144-102">Calling a Stored Procedure with a Command</span></span>
 
 
-<span data-ttu-id="ec32e-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec32e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="fe144-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe144-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ec32e-104">Можно также использовать команду при вызове хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="ec32e-104">You can also use a command when calling a stored procedure.</span></span> <span data-ttu-id="ec32e-105">Следующий код вызывает хранимую процедуру в образце базы данных Northwind, называется CustOrdersOrders, которое определяется следующим образом:</span><span class="sxs-lookup"><span data-stu-id="ec32e-105">The following code calls a stored procedure in the Northwind sample database, called CustOrdersOrders, which is defined as follows:</span></span>
+<span data-ttu-id="fe144-104">Можно также использовать команду при вызове хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="fe144-104">You can also use a command when calling a stored procedure.</span></span> <span data-ttu-id="fe144-105">Следующий код вызывает хранимую процедуру в образце базы данных Northwind, называется CustOrdersOrders, которое определяется следующим образом:</span><span class="sxs-lookup"><span data-stu-id="fe144-105">The following code calls a stored procedure in the Northwind sample database, called CustOrdersOrders, which is defined as follows:</span></span>
 
 ```vb 
  
@@ -29,11 +29,11 @@ WHERE CustomerID = @CustomerID
 ORDER BY OrderID 
 ```
 
-<span data-ttu-id="ec32e-106">Эта процедура аналогична команды, используемой в [Объект параметров команды](command-object-parameters.md), в том, что она принимает параметр ID клиента и возвращает информацию о заказов этого клиента.</span><span class="sxs-lookup"><span data-stu-id="ec32e-106">This stored procedure is similar to the command used in [Command Object Parameters](command-object-parameters.md), in that it takes a customer ID parameter and returns information about that customer's orders.</span></span> <span data-ttu-id="ec32e-107">В следующем примере кода в качестве источника используется эта хранимая процедура для набора **записей**ADO.</span><span class="sxs-lookup"><span data-stu-id="ec32e-107">The code below uses this stored procedure as the source for an ADO **Recordset**.</span></span>
+<span data-ttu-id="fe144-106">Эта процедура аналогична команды, используемой в [Объект параметров команды](command-object-parameters.md), в том, что она принимает параметр ID клиента и возвращает информацию о заказов этого клиента.</span><span class="sxs-lookup"><span data-stu-id="fe144-106">This stored procedure is similar to the command used in [Command Object Parameters](command-object-parameters.md), in that it takes a customer ID parameter and returns information about that customer's orders.</span></span> <span data-ttu-id="fe144-107">В следующем примере кода в качестве источника используется эта хранимая процедура для набора **записей**ADO.</span><span class="sxs-lookup"><span data-stu-id="fe144-107">The code below uses this stored procedure as the source for an ADO **Recordset**.</span></span>
 
-<span data-ttu-id="ec32e-108">С помощью хранимая процедура позволяет получить доступ к другим возможность ADO: коллекции **параметров** метод **Refresh** .</span><span class="sxs-lookup"><span data-stu-id="ec32e-108">Using the stored procedure allows you to access another capability of ADO: the **Parameters** collection **Refresh** method.</span></span> <span data-ttu-id="ec32e-109">С помощью этого метода, ADO может автоматически заполнять все сведения о параметрах, необходимые для команды во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="ec32e-109">By using this method, ADO can automatically fill in all information about the parameters required by the command at run time.</span></span> <span data-ttu-id="ec32e-110">Производительность снижается, в этот способ, поскольку ADO необходимо запросов к источнику данных для получения сведений о параметрах.</span><span class="sxs-lookup"><span data-stu-id="ec32e-110">There is a performance penalty in using this technique, because ADO must query the data source for the information about the parameters.</span></span>
+<span data-ttu-id="fe144-108">С помощью хранимая процедура позволяет получить доступ к другим возможность ADO: коллекции **параметров** метод **Refresh** .</span><span class="sxs-lookup"><span data-stu-id="fe144-108">Using the stored procedure allows you to access another capability of ADO: the **Parameters** collection **Refresh** method.</span></span> <span data-ttu-id="fe144-109">С помощью этого метода, ADO может автоматически заполнять все сведения о параметрах, необходимые для команды во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="fe144-109">By using this method, ADO can automatically fill in all information about the parameters required by the command at run time.</span></span> <span data-ttu-id="fe144-110">Производительность снижается, в этот способ, поскольку ADO необходимо запросов к источнику данных для получения сведений о параметрах.</span><span class="sxs-lookup"><span data-stu-id="fe144-110">There is a performance penalty in using this technique, because ADO must query the data source for the information about the parameters.</span></span>
 
-<span data-ttu-id="ec32e-111">Существуют другие важные различия между приведенный ниже код и код, приведенный в [Объект параметров команды](command-object-parameters.md), где вручную введенные параметры.</span><span class="sxs-lookup"><span data-stu-id="ec32e-111">Other important differences exist between the code below and the code in [Command Object Parameters](command-object-parameters.md), where the parameters were entered manually.</span></span> <span data-ttu-id="ec32e-112">Во-первых этот код не свойства **подготовленных** значение **True,** так как они хранимая процедура SQL Server и компилироваться по определению.</span><span class="sxs-lookup"><span data-stu-id="ec32e-112">First, this code does not set the **Prepared** property to **True** because it is a SQL Server stored procedure and is precompiled by definition.</span></span> <span data-ttu-id="ec32e-113">Во-вторых свойство **CommandType** объекта **команду** изменено на **adCmdStoredProc** во втором примере для оповещения ADO, что команда была хранимую процедуру.</span><span class="sxs-lookup"><span data-stu-id="ec32e-113">Second, the **CommandType** property of the **Command** object changed to **adCmdStoredProc** in the second example to inform ADO that the command was a stored procedure.</span></span>
+<span data-ttu-id="fe144-111">Существуют другие важные различия между приведенный ниже код и код, приведенный в [Объект параметров команды](command-object-parameters.md), где вручную введенные параметры.</span><span class="sxs-lookup"><span data-stu-id="fe144-111">Other important differences exist between the code below and the code in [Command Object Parameters](command-object-parameters.md), where the parameters were entered manually.</span></span> <span data-ttu-id="fe144-112">Во-первых этот код не свойства **подготовленных** значение **True,** так как они хранимая процедура SQL Server и компилироваться по определению.</span><span class="sxs-lookup"><span data-stu-id="fe144-112">First, this code does not set the **Prepared** property to **True** because it is a SQL Server stored procedure and is precompiled by definition.</span></span> <span data-ttu-id="fe144-113">Во-вторых свойство **CommandType** объекта **команду** изменено на **adCmdStoredProc** во втором примере для оповещения ADO, что команда была хранимую процедуру.</span><span class="sxs-lookup"><span data-stu-id="fe144-113">Second, the **CommandType** property of the **Command** object changed to **adCmdStoredProc** in the second example to inform ADO that the command was a stored procedure.</span></span>
 
 ```vb 
  

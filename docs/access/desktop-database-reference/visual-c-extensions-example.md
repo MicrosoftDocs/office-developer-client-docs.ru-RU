@@ -1,28 +1,28 @@
 ---
-title: Visual C++ Extensions Example
+title: Пример расширения Visual C++
 TOCTitle: Visual C++ Extensions Example
 ms:assetid: fe57868f-5707-3c5b-cb93-4121732d67cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250305(v=office.15)
 ms:contentKeyID: 48548934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f848e5adb9e8aca3a53732633b8b40cd75550cf9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 172774af5297f456b53dcdbadfc4080f533bc8b3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480884"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878117"
 ---
-# <a name="visual-c-extensions-example"></a><span data-ttu-id="7a7cf-102">Visual C++ Extensions Example</span><span class="sxs-lookup"><span data-stu-id="7a7cf-102">Visual C++ Extensions Example</span></span>
+# <a name="visual-c-extensions-example"></a><span data-ttu-id="7b21d-102">Пример расширения Visual C++</span><span class="sxs-lookup"><span data-stu-id="7b21d-102">Visual C++ Extensions Example</span></span>
 
 
-<span data-ttu-id="7a7cf-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a7cf-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7b21d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b21d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7a7cf-104">Эта программа показано получение значений из полей и преобразуются в переменные C/C++.</span><span class="sxs-lookup"><span data-stu-id="7a7cf-104">This program shows how values are retrieved from fields and converted to C/C++ variables.</span></span>
+<span data-ttu-id="7b21d-104">Эта программа показано получение значений из полей и преобразуются в переменные C/C++.</span><span class="sxs-lookup"><span data-stu-id="7b21d-104">This program shows how values are retrieved from fields and converted to C/C++ variables.</span></span>
 
-<span data-ttu-id="7a7cf-105">В этом примере также используются преимущества «смарт-указатели», которые автоматически обрабатывать подробные сведения о вызове и подсчета для интерфейса **IADORecordBinding** ссылок COM-отношение.</span><span class="sxs-lookup"><span data-stu-id="7a7cf-105">This example also takes advantage of "smart pointers," which automatically handle the COM-specific details of calling and reference counting for the **IADORecordBinding** interface.</span></span>
+<span data-ttu-id="7b21d-105">В этом примере также используются преимущества «смарт-указатели», которые автоматически обрабатывать подробные сведения о вызове и подсчета для интерфейса **IADORecordBinding** ссылок COM-отношение.</span><span class="sxs-lookup"><span data-stu-id="7b21d-105">This example also takes advantage of "smart pointers," which automatically handle the COM-specific details of calling and reference counting for the **IADORecordBinding** interface.</span></span>
 
-<span data-ttu-id="7a7cf-106">Без смарт-указатели кода:</span><span class="sxs-lookup"><span data-stu-id="7a7cf-106">Without smart pointers, you would code:</span></span>
+<span data-ttu-id="7b21d-106">Без смарт-указатели кода:</span><span class="sxs-lookup"><span data-stu-id="7b21d-106">Without smart pointers, you would code:</span></span>
 
 ```cpp 
  
@@ -34,21 +34,21 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-<span data-ttu-id="7a7cf-107">С помощью смарт-указатели типа IADORecordBindingPtr производными тип из интерфейса IADORecordBinding этот оператор with:</span><span class="sxs-lookup"><span data-stu-id="7a7cf-107">With smart pointers, you derive the IADORecordBindingPtr type from the type from the IADORecordBinding interface with this statement:</span></span>
+<span data-ttu-id="7b21d-107">С помощью смарт-указатели типа IADORecordBindingPtr производными тип из интерфейса IADORecordBinding этот оператор with:</span><span class="sxs-lookup"><span data-stu-id="7b21d-107">With smart pointers, you derive the IADORecordBindingPtr type from the type from the IADORecordBinding interface with this statement:</span></span>
 
 ```cpp 
  
 _COM_SMARTPTR_TYPEDEF(IADORecordBinding, __uuidof(IADORecordBinding)); 
 ```
 
-<span data-ttu-id="7a7cf-108">И создайте указатель следующим образом:</span><span class="sxs-lookup"><span data-stu-id="7a7cf-108">And instantiate the pointer like this:</span></span>
+<span data-ttu-id="7b21d-108">И создайте указатель следующим образом:</span><span class="sxs-lookup"><span data-stu-id="7b21d-108">And instantiate the pointer like this:</span></span>
 
 ```cpp 
  
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-<span data-ttu-id="7a7cf-109">Так как расширений Visual C++ реализованы объектом **набора записей** , конструктор смарт-указатель picRs, принимает \_RecordsetPtr указатель, pRs.</span><span class="sxs-lookup"><span data-stu-id="7a7cf-109">Because the Visual C++ Extensions are implemented by the **Recordset** object, the constructor for the smart pointer, picRs , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="7a7cf-110">Конструктор вызывает поиск с помощью pRs QueryInterface, принимает \_RecordsetPtr указатель, pRs.</span><span class="sxs-lookup"><span data-stu-id="7a7cf-110">The constructor calls QueryInterface using pRs to find the , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="7a7cf-111">Конструктор вызывает QueryInterface, с помощью pRs найти интерфейс IADORecordBinding.</span><span class="sxs-lookup"><span data-stu-id="7a7cf-111">The constructor calls QueryInterface using pRs to find the IADORecordBinding interface.</span></span>
+<span data-ttu-id="7b21d-109">Так как расширений Visual C++ реализованы объектом **набора записей** , конструктор смарт-указатель picRs, принимает \_RecordsetPtr указатель, pRs.</span><span class="sxs-lookup"><span data-stu-id="7b21d-109">Because the Visual C++ Extensions are implemented by the **Recordset** object, the constructor for the smart pointer, picRs , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="7b21d-110">Конструктор вызывает поиск с помощью pRs QueryInterface, принимает \_RecordsetPtr указатель, pRs.</span><span class="sxs-lookup"><span data-stu-id="7b21d-110">The constructor calls QueryInterface using pRs to find the , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="7b21d-111">Конструктор вызывает QueryInterface, с помощью pRs найти интерфейс IADORecordBinding.</span><span class="sxs-lookup"><span data-stu-id="7b21d-111">The constructor calls QueryInterface using pRs to find the IADORecordBinding interface.</span></span>
 
 ```cpp 
  

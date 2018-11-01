@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="2612f-101"><<<<<<< HEAD заголовок: BOF, EOF и TOCTitle пример свойств закладок (VJ ++): BOF, EOF и пример свойств закладок (VJ ++) === заголовок: пример: свойства BOF, EOF и закладок (VJ ++) TOCTitle: свойства BOF, EOF и закладка Пример (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="2612f-101"><<<<<<< HEAD title: BOF, EOF, and Bookmark Properties Example (VJ++) TOCTitle: BOF, EOF, and Bookmark Properties Example (VJ++) ======= title: BOF, EOF, and Bookmark properties example (VJ++) TOCTitle: BOF, EOF, and Bookmark properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="2612f-102">главные ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID: 48545400 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="2612f-102">master ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID: 48545400 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойств BOF, EOF и Bookmark (VJ++)
+TOCTitle: BOF, EOF, and Bookmark properties example (VJ++)
+ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15)
+ms:contentKeyID: 48545400
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bc00c8a4102287fb2488d8ffa99607521a91021b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870431"
 ---
-
-<span data-ttu-id="2612f-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="2612f-103"><<<<<<< HEAD</span></span>
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="2612f-104">BOF, EOF, and Bookmark Properties Example (VJ++)</span><span class="sxs-lookup"><span data-stu-id="2612f-104">BOF, EOF, and Bookmark Properties Example (VJ++)</span></span>
-=======
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="2612f-105">Пример: свойства BOF, EOF и закладок (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="2612f-105">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="2612f-106">master</span><span class="sxs-lookup"><span data-stu-id="2612f-106">master</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="280a6-102">Пример использования свойств BOF, EOF и Bookmark (VJ++)</span><span class="sxs-lookup"><span data-stu-id="280a6-102">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="2612f-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2612f-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="280a6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="280a6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2612f-108">В этом примере с помощью свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) отображать сообщение, если пользователь пытается пропустить первой или последней записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="2612f-108">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="2612f-109">Для оповещения пользователя помечает записи в наборе **записей** и вернуться к нему позже используется свойство [Закладка](bookmark-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="2612f-109">It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="280a6-104">В этом примере с помощью свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) отображать сообщение, если пользователь пытается пропустить первой или последней записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="280a6-104">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="280a6-105">Для оповещения пользователя помечает записи в наборе **записей** и вернуться к нему позже используется свойство [Закладка](bookmark-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="280a6-105">It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```java 
  

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="58320-101"><<<<<<< Название HEAD: TOCTitle пример свойства состояния (VC ++): пример свойства состояния (VC ++) === заголовок: пример свойства состояния (VC ++) TOCTitle: пример свойства состояния (VC ++)</span><span class="sxs-lookup"><span data-stu-id="58320-101"><<<<<<< HEAD title: State Property Example (VC++) TOCTitle: State Property Example (VC++) ======= title: State property example (VC++) TOCTitle: State property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="58320-102">главные ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15) ms:contentKeyID: 48547085 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="58320-102">master ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15) ms:contentKeyID: 48547085 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства State (VC++)
+TOCTitle: State property example (VC++)
+ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15)
+ms:contentKeyID: 48547085
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 06d91a9e2103fa56025230ae5326cda2d0bfb85f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886917"
 ---
-
-<span data-ttu-id="58320-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="58320-103"><<<<<<< HEAD</span></span>
-# <a name="state-property-example-vc"></a><span data-ttu-id="58320-104">State Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="58320-104">State Property Example (VC++)</span></span>
-=======
-# <a name="state-property-example-vc"></a><span data-ttu-id="58320-105">Пример свойства состояний (VC ++)</span><span class="sxs-lookup"><span data-stu-id="58320-105">State property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="58320-106">master</span><span class="sxs-lookup"><span data-stu-id="58320-106">master</span></span>
+# <a name="state-property-example-vc"></a><span data-ttu-id="a6143-102">Пример использования свойства State (VC++)</span><span class="sxs-lookup"><span data-stu-id="a6143-102">State property example (VC++)</span></span>
 
 
-<span data-ttu-id="58320-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="58320-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a6143-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6143-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58320-108">В этом примере используется свойство [состояние](state-property-ado.md) для отображения сообщения во время открытия асинхронных подключений и выполнении асинхронных команд.</span><span class="sxs-lookup"><span data-stu-id="58320-108">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="a6143-104">В этом примере используется свойство [состояние](state-property-ado.md) для отображения сообщения во время открытия асинхронных подключений и выполнении асинхронных команд.</span><span class="sxs-lookup"><span data-stu-id="a6143-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```cpp 
  

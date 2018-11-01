@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1052881
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e5e299f87bc12e7a80c90c2527c1ecae27d8a2bb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 55b1ee667347766b927636f877821f29e9455345
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480972"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869605"
 ---
-# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="c8cd6-102">Connection.Updatable Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="c8cd6-102">Connection.Updatable Property (DAO)</span></span>
+# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="9bf58-102">Connection.Updatable Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="9bf58-102">Connection.Updatable Property (DAO)</span></span>
 
 
-<span data-ttu-id="c8cd6-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8cd6-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9bf58-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bf58-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c8cd6-104">Возвращает значение, указывающее, является ли объект DAO можно изменить.</span><span class="sxs-lookup"><span data-stu-id="c8cd6-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="c8cd6-105">Только для чтения **типа Boolean**. Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="c8cd6-105">Read-only **Boolean**.Read-only.</span></span>
+<span data-ttu-id="9bf58-104">Возвращает значение, указывающее, является ли объект DAO можно изменить.</span><span class="sxs-lookup"><span data-stu-id="9bf58-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="9bf58-105">Только для чтения **типа Boolean**. Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9bf58-105">Read-only **Boolean**.Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c8cd6-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c8cd6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9bf58-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9bf58-106">Syntax</span></span>
 
-<span data-ttu-id="c8cd6-107">*выражение* . Обновляемые</span><span class="sxs-lookup"><span data-stu-id="c8cd6-107">*expression* .Updatable</span></span>
+<span data-ttu-id="9bf58-107">*выражение* . Обновляемые</span><span class="sxs-lookup"><span data-stu-id="9bf58-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="c8cd6-108">*выражение* Выражение, возвращающее объект **подключения** .</span><span class="sxs-lookup"><span data-stu-id="c8cd6-108">*expression* An expression that returns a **Connection** object.</span></span>
+<span data-ttu-id="9bf58-108">*выражение* Выражение, возвращающее объект **подключения** .</span><span class="sxs-lookup"><span data-stu-id="9bf58-108">*expression* An expression that returns a **Connection** object.</span></span>
 

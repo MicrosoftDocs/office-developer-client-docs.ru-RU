@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
 ms:contentKeyID: 48546628
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9ffa0f2ee4f1b4c1e02f5d8a94e98f9da09c1cc6
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 3fb625208e5d47f4107adac5c429257ae58e2eab
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603674"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882177"
 ---
-# <a name="workspaceopenconnection-method-dao"></a><span data-ttu-id="d870b-102">Workspace.OpenConnection Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="d870b-102">Workspace.OpenConnection Method (DAO)</span></span>
+# <a name="workspaceopenconnection-method-dao"></a><span data-ttu-id="cd124-102">Workspace.OpenConnection Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd124-102">Workspace.OpenConnection Method (DAO)</span></span>
 
 
-<span data-ttu-id="d870b-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d870b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cd124-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd124-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d870b-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d870b-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cd124-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="cd124-104">Syntax</span></span>
 
-<span data-ttu-id="d870b-105">*выражение* . OpenConnection (***имя***, ***Параметры***, ***только для чтения***, ***подключение***)</span><span class="sxs-lookup"><span data-stu-id="d870b-105">*expression* .OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connect***)</span></span>
+<span data-ttu-id="cd124-105">*выражение* . OpenConnection (***имя***, ***Параметры***, ***только для чтения***, ***подключение***)</span><span class="sxs-lookup"><span data-stu-id="cd124-105">*expression* .OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connect***)</span></span>
 
-<span data-ttu-id="d870b-106">*выражение* Переменная, которая представляет собой объект- **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="d870b-106">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="cd124-106">*выражение* Переменная, которая представляет собой объект- **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="cd124-106">*expression* A variable that represents a **Workspace** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="d870b-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="d870b-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="cd124-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="cd124-107">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -35,56 +35,52 @@ ms.locfileid: "25603674"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d870b-108">Имя</span><span class="sxs-lookup"><span data-stu-id="d870b-108">Name</span></span></p></th>
-<th><p><span data-ttu-id="d870b-109">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="d870b-109">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="d870b-110">Тип данных</span><span class="sxs-lookup"><span data-stu-id="d870b-110">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="d870b-111">Описание</span><span class="sxs-lookup"><span data-stu-id="d870b-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="cd124-108">Имя</span><span class="sxs-lookup"><span data-stu-id="cd124-108">Name</span></span></p></th>
+<th><p><span data-ttu-id="cd124-109">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="cd124-109">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="cd124-110">Тип данных</span><span class="sxs-lookup"><span data-stu-id="cd124-110">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="cd124-111">Описание</span><span class="sxs-lookup"><span data-stu-id="cd124-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d870b-112">Имя</span><span class="sxs-lookup"><span data-stu-id="d870b-112">Name</span></span></p></td>
-<td><p><span data-ttu-id="d870b-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="d870b-113">Required</span></span></p></td>
-<td><p><span data-ttu-id="d870b-114"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-114"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-115">Строковое выражение.</span><span class="sxs-lookup"><span data-stu-id="d870b-115">A string expression.</span></span> <span data-ttu-id="d870b-116">В разделе обсуждения в разделе Примечания.</span><span class="sxs-lookup"><span data-stu-id="d870b-116">See the discussion under Remarks.</span></span></p></td>
+<td><p><span data-ttu-id="cd124-112">Имя</span><span class="sxs-lookup"><span data-stu-id="cd124-112">Name</span></span></p></td>
+<td><p><span data-ttu-id="cd124-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="cd124-113">Required</span></span></p></td>
+<td><p><span data-ttu-id="cd124-114"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-114"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-115">Строковое выражение.</span><span class="sxs-lookup"><span data-stu-id="cd124-115">A string expression.</span></span> <span data-ttu-id="cd124-116">В разделе обсуждения в разделе Примечания.</span><span class="sxs-lookup"><span data-stu-id="cd124-116">See the discussion under Remarks.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d870b-117">Options</span><span class="sxs-lookup"><span data-stu-id="d870b-117">Options</span></span></p></td>
-<td><p><span data-ttu-id="d870b-118">Необязательный</span><span class="sxs-lookup"><span data-stu-id="d870b-118">Optional</span></span></p></td>
-<td><p><span data-ttu-id="d870b-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-119"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-120">Задает различные параметры подключения, как указано в разделе Примечания.</span><span class="sxs-lookup"><span data-stu-id="d870b-120">sets various options for the connection, as specified in Remarks.</span></span> <span data-ttu-id="d870b-121">На основе этого значения, драйвера ODBC запрашивает сведения о подключении, такие как имя источника данных (DSN), имя пользователя и пароль.</span><span class="sxs-lookup"><span data-stu-id="d870b-121">Based on this value, the ODBC driver manager prompts the user for connection information such as data source name (DSN), user name, and password.</span></span></p></td>
+<td><p><span data-ttu-id="cd124-117">Options</span><span class="sxs-lookup"><span data-stu-id="cd124-117">Options</span></span></p></td>
+<td><p><span data-ttu-id="cd124-118">Необязательный</span><span class="sxs-lookup"><span data-stu-id="cd124-118">Optional</span></span></p></td>
+<td><p><span data-ttu-id="cd124-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-119"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-120">Задает различные параметры подключения, как указано в разделе Примечания.</span><span class="sxs-lookup"><span data-stu-id="cd124-120">sets various options for the connection, as specified in Remarks.</span></span> <span data-ttu-id="cd124-121">На основе этого значения, драйвера ODBC запрашивает сведения о подключении, такие как имя источника данных (DSN), имя пользователя и пароль.</span><span class="sxs-lookup"><span data-stu-id="cd124-121">Based on this value, the ODBC driver manager prompts the user for connection information such as data source name (DSN), user name, and password.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d870b-122">ReadOnly</span><span class="sxs-lookup"><span data-stu-id="d870b-122">ReadOnly</span></span></p></td>
-<td><p><span data-ttu-id="d870b-123">Необязательный</span><span class="sxs-lookup"><span data-stu-id="d870b-123">Optional</span></span></p></td>
-<td><p><span data-ttu-id="d870b-124"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-124"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-125"><strong>Значение true,</strong> Если подключение будет открыт для доступа только для чтения и <strong>значение False</strong> , если подключение должен быть открыт для чтения и записи (по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="d870b-125"><strong>True</strong> if the connection is to be opened for read-only access and <strong>False</strong> if the connection is to be opened for read/write access (default).</span></span></p></td>
+<td><p><span data-ttu-id="cd124-122">ReadOnly</span><span class="sxs-lookup"><span data-stu-id="cd124-122">ReadOnly</span></span></p></td>
+<td><p><span data-ttu-id="cd124-123">Необязательный</span><span class="sxs-lookup"><span data-stu-id="cd124-123">Optional</span></span></p></td>
+<td><p><span data-ttu-id="cd124-124"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-124"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-125"><strong>Значение true,</strong> Если подключение будет открыт для доступа только для чтения и <strong>значение False</strong> , если подключение должен быть открыт для чтения и записи (по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="cd124-125"><strong>True</strong> if the connection is to be opened for read-only access and <strong>False</strong> if the connection is to be opened for read/write access (default).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d870b-126">Подключение</span><span class="sxs-lookup"><span data-stu-id="d870b-126">Connect</span></span></p></td>
-<td><p><span data-ttu-id="d870b-127">Необязательный</span><span class="sxs-lookup"><span data-stu-id="d870b-127">Optional</span></span></p></td>
-<td><p><span data-ttu-id="d870b-128"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-128"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-129">Строка подключения ODBC.</span><span class="sxs-lookup"><span data-stu-id="d870b-129">An ODBC connection string.</span></span> <span data-ttu-id="d870b-130">В разделе свойства <strong><a href="connection-connect-property-dao.md">подключения</a></strong> для определенных элементов и синтаксис этой строки.</span><span class="sxs-lookup"><span data-stu-id="d870b-130">See the <strong><a href="connection-connect-property-dao.md">Connect</a></strong> property for the specific elements and syntax of this string.</span></span> <span data-ttu-id="d870b-131">Начале стоит символ &quot;ODBC. &quot; является обязательным.</span><span class="sxs-lookup"><span data-stu-id="d870b-131">A prepended &quot;ODBC;&quot; is required.</span></span></p></td>
+<td><p><span data-ttu-id="cd124-126">Подключение</span><span class="sxs-lookup"><span data-stu-id="cd124-126">Connect</span></span></p></td>
+<td><p><span data-ttu-id="cd124-127">Необязательный</span><span class="sxs-lookup"><span data-stu-id="cd124-127">Optional</span></span></p></td>
+<td><p><span data-ttu-id="cd124-128"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-128"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-129">Строка подключения ODBC.</span><span class="sxs-lookup"><span data-stu-id="cd124-129">An ODBC connection string.</span></span> <span data-ttu-id="cd124-130">В разделе свойства <strong><a href="connection-connect-property-dao.md">подключения</a></strong> для определенных элементов и синтаксис этой строки.</span><span class="sxs-lookup"><span data-stu-id="cd124-130">See the <strong><a href="connection-connect-property-dao.md">Connect</a></strong> property for the specific elements and syntax of this string.</span></span> <span data-ttu-id="cd124-131">Начале стоит символ &quot;ODBC. &quot; является обязательным.</span><span class="sxs-lookup"><span data-stu-id="cd124-131">A prepended &quot;ODBC;&quot; is required.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="d870b-132"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="d870b-132"><<<<<<< HEAD</span></span>
-### <a name="return-value"></a><span data-ttu-id="d870b-133">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="d870b-133">Return Value</span></span>
-=======
-### <a name="return-value"></a><span data-ttu-id="d870b-134">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="d870b-134">Return value</span></span>
->>>>>>> <span data-ttu-id="d870b-135">master</span><span class="sxs-lookup"><span data-stu-id="d870b-135">master</span></span>
+### <a name="return-value"></a><span data-ttu-id="cd124-132">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="cd124-132">Return value</span></span>
 
-<span data-ttu-id="d870b-136">Подключение</span><span class="sxs-lookup"><span data-stu-id="d870b-136">Connection</span></span>
+<span data-ttu-id="cd124-133">Подключение</span><span class="sxs-lookup"><span data-stu-id="cd124-133">Connection</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d870b-137">Замечания</span><span class="sxs-lookup"><span data-stu-id="d870b-137">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cd124-134">Замечания</span><span class="sxs-lookup"><span data-stu-id="cd124-134">Remarks</span></span>
 
-<span data-ttu-id="d870b-138">Используйте метод **OpenConnection** для подключения к источнику данных ODBC из рабочей области технология ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="d870b-138">Use the **OpenConnection** method to establish a connection to an ODBC data source from an ODBCDirect workspace.</span></span> <span data-ttu-id="d870b-139">Метод **OpenConnection** похоже, но не эквивалентно **OpenDatabase**.</span><span class="sxs-lookup"><span data-stu-id="d870b-139">The **OpenConnection** method is similar but not equivalent to **OpenDatabase**.</span></span> <span data-ttu-id="d870b-140">Основное различие — это **OpenConnection** доступны только в рабочей области технология ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="d870b-140">The main difference is that **OpenConnection** is available only in an ODBCDirect workspace.</span></span>
+<span data-ttu-id="cd124-135">Используйте метод **OpenConnection** для подключения к источнику данных ODBC из рабочей области технология ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="cd124-135">Use the **OpenConnection** method to establish a connection to an ODBC data source from an ODBCDirect workspace.</span></span> <span data-ttu-id="cd124-136">Метод **OpenConnection** похоже, но не эквивалентно **OpenDatabase**.</span><span class="sxs-lookup"><span data-stu-id="cd124-136">The **OpenConnection** method is similar but not equivalent to **OpenDatabase**.</span></span> <span data-ttu-id="cd124-137">Основное различие — это **OpenConnection** доступны только в рабочей области технология ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="cd124-137">The main difference is that **OpenConnection** is available only in an ODBCDirect workspace.</span></span>
 
-<span data-ttu-id="d870b-141">Если указать зарегистрированных имя источника данных ODBC (DSN) в аргументе подключиться, а затем может быть любое допустимое строковое аргумента имени, а также предоставляют свойства **Name** для объекта **подключения** .</span><span class="sxs-lookup"><span data-stu-id="d870b-141">If you specify a registered ODBC data source name (DSN) in the connect argument, then the name argument can be any valid string, and will also provide the **Name** property for the **Connection** object.</span></span> <span data-ttu-id="d870b-142">Если допустимый уведомления о Доставке не включен в аргументе подключение, имя должны ссылаться на допустимый ODBC DSN, которая также будет свойство **Name** .</span><span class="sxs-lookup"><span data-stu-id="d870b-142">If a valid DSN is not included in the connect argument, then name must refer to a valid ODBC DSN, which will also be the **Name** property.</span></span> <span data-ttu-id="d870b-143">Если имя ни подключения содержит допустимое уведомления о Доставке драйвера ODBC может быть установлено (с помощью аргумента options) запрашивать у пользователя необходимые сведения для соединения.</span><span class="sxs-lookup"><span data-stu-id="d870b-143">If neither name nor connect contains a valid DSN, the ODBC driver manager can be set (via the options argument) to prompt the user for the required connection information.</span></span> <span data-ttu-id="d870b-144">Уведомления о Доставке обеспечиваться на строке, затем предоставляет свойство **Name** .</span><span class="sxs-lookup"><span data-stu-id="d870b-144">The DSN supplied through the prompt then provides the **Name** property.</span></span>
+<span data-ttu-id="cd124-138">Если указать зарегистрированных имя источника данных ODBC (DSN) в аргументе подключиться, а затем может быть любое допустимое строковое аргумента имени, а также предоставляют свойства **Name** для объекта **подключения** .</span><span class="sxs-lookup"><span data-stu-id="cd124-138">If you specify a registered ODBC data source name (DSN) in the connect argument, then the name argument can be any valid string, and will also provide the **Name** property for the **Connection** object.</span></span> <span data-ttu-id="cd124-139">Если допустимый уведомления о Доставке не включен в аргументе подключение, имя должны ссылаться на допустимый ODBC DSN, которая также будет свойство **Name** .</span><span class="sxs-lookup"><span data-stu-id="cd124-139">If a valid DSN is not included in the connect argument, then name must refer to a valid ODBC DSN, which will also be the **Name** property.</span></span> <span data-ttu-id="cd124-140">Если имя ни подключения содержит допустимое уведомления о Доставке драйвера ODBC может быть установлено (с помощью аргумента options) запрашивать у пользователя необходимые сведения для соединения.</span><span class="sxs-lookup"><span data-stu-id="cd124-140">If neither name nor connect contains a valid DSN, the ODBC driver manager can be set (via the options argument) to prompt the user for the required connection information.</span></span> <span data-ttu-id="cd124-141">Уведомления о Доставке обеспечиваться на строке, затем предоставляет свойство **Name** .</span><span class="sxs-lookup"><span data-stu-id="cd124-141">The DSN supplied through the prompt then provides the **Name** property.</span></span>
 
-<span data-ttu-id="d870b-145">Параметры аргумент определяет, если и когда запрос пользователю для установления подключения, а ли асинхронно открытия подключения.</span><span class="sxs-lookup"><span data-stu-id="d870b-145">The options argument determines if and when to prompt the user to establish the connection, and whether or not to open the connection asynchronously.</span></span> <span data-ttu-id="d870b-146">Можно использовать один из следующих констант.</span><span class="sxs-lookup"><span data-stu-id="d870b-146">You can use one of the following constants.</span></span>
+<span data-ttu-id="cd124-142">Параметры аргумент определяет, если и когда запрос пользователю для установления подключения, а ли асинхронно открытия подключения.</span><span class="sxs-lookup"><span data-stu-id="cd124-142">The options argument determines if and when to prompt the user to establish the connection, and whether or not to open the connection asynchronously.</span></span> <span data-ttu-id="cd124-143">Можно использовать один из следующих констант.</span><span class="sxs-lookup"><span data-stu-id="cd124-143">You can use one of the following constants.</span></span>
 
 <table>
 <colgroup>
@@ -93,40 +89,40 @@ ms.locfileid: "25603674"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d870b-147">Константа</span><span class="sxs-lookup"><span data-stu-id="d870b-147">Constant</span></span></p></th>
-<th><p><span data-ttu-id="d870b-148">Описание</span><span class="sxs-lookup"><span data-stu-id="d870b-148">Description</span></span></p></th>
+<th><p><span data-ttu-id="cd124-144">Константа</span><span class="sxs-lookup"><span data-stu-id="cd124-144">Constant</span></span></p></th>
+<th><p><span data-ttu-id="cd124-145">Описание</span><span class="sxs-lookup"><span data-stu-id="cd124-145">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d870b-149"><strong>dbDriverNoPrompt</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-149"><strong>dbDriverNoPrompt</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-150">Драйвера ODBC использует строку подключения, представленные в <em>dbname</em> и <em>подключения</em>.</span><span class="sxs-lookup"><span data-stu-id="d870b-150">The ODBC Driver Manager uses the connection string provided in <em>dbname</em> and <em>connect</em>.</span></span> <span data-ttu-id="d870b-151">Если не предоставляют достаточно сведений, возникает ошибка времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="d870b-151">If you don't provide sufficient information, a run-time error occurs.</span></span></p></td>
+<td><p><span data-ttu-id="cd124-146"><strong>dbDriverNoPrompt</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-146"><strong>dbDriverNoPrompt</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-147">Драйвера ODBC использует строку подключения, представленные в <em>dbname</em> и <em>подключения</em>.</span><span class="sxs-lookup"><span data-stu-id="cd124-147">The ODBC Driver Manager uses the connection string provided in <em>dbname</em> and <em>connect</em>.</span></span> <span data-ttu-id="cd124-148">Если не предоставляют достаточно сведений, возникает ошибка времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="cd124-148">If you don't provide sufficient information, a run-time error occurs.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d870b-152"><strong>dbDriverPrompt</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-152"><strong>dbDriverPrompt</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-153">Драйвера ODBC отображает диалоговое окно <strong>Источники данных ODBC</strong> , в которой отображаются все соответствующие сведения указано в <em>dbname</em> или <em>подключиться</em>.</span><span class="sxs-lookup"><span data-stu-id="d870b-153">The ODBC Driver Manager displays the <strong>ODBC Data Sources</strong> dialog box, which displays any relevant information supplied in <em>dbname</em> or <em>connect</em>.</span></span> <span data-ttu-id="d870b-154">Строка подключения состоит из источника данных, что пользователь выбирает с помощью диалоговых окон, или, если пользователь не указывает имя источника данных, используется значение по умолчанию уведомления о Доставке.</span><span class="sxs-lookup"><span data-stu-id="d870b-154">The connection string is made up of the DSN that the user selects via the dialog boxes, or, if the user doesn't specify a DSN, the default DSN is used.</span></span></p></td>
+<td><p><span data-ttu-id="cd124-149"><strong>dbDriverPrompt</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-149"><strong>dbDriverPrompt</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-150">Драйвера ODBC отображает диалоговое окно <strong>Источники данных ODBC</strong> , в которой отображаются все соответствующие сведения указано в <em>dbname</em> или <em>подключиться</em>.</span><span class="sxs-lookup"><span data-stu-id="cd124-150">The ODBC Driver Manager displays the <strong>ODBC Data Sources</strong> dialog box, which displays any relevant information supplied in <em>dbname</em> or <em>connect</em>.</span></span> <span data-ttu-id="cd124-151">Строка подключения состоит из источника данных, что пользователь выбирает с помощью диалоговых окон, или, если пользователь не указывает имя источника данных, используется значение по умолчанию уведомления о Доставке.</span><span class="sxs-lookup"><span data-stu-id="cd124-151">The connection string is made up of the DSN that the user selects via the dialog boxes, or, if the user doesn't specify a DSN, the default DSN is used.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d870b-155"><strong>dbDriverComplete</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-155"><strong>dbDriverComplete</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-156">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="d870b-156">Default.</span></span> <span data-ttu-id="d870b-157">Если аргумент <em>подключения</em> содержит все необходимые сведения для выполнения подключения, драйвера ODBC использует строку в <em>подключение</em>.</span><span class="sxs-lookup"><span data-stu-id="d870b-157">If the <em>connect</em> argument includes all the necessary information to complete a connection, the ODBC Driver Manager uses the string in <em>connect</em>.</span></span> <span data-ttu-id="d870b-158">В противном случае оно ведет себя как при указании <strong>dbDriverPrompt</strong>.</span><span class="sxs-lookup"><span data-stu-id="d870b-158">Otherwise it behaves as it does when you specify <strong>dbDriverPrompt</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="cd124-152"><strong>dbDriverComplete</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-152"><strong>dbDriverComplete</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-153">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="cd124-153">Default.</span></span> <span data-ttu-id="cd124-154">Если аргумент <em>подключения</em> содержит все необходимые сведения для выполнения подключения, драйвера ODBC использует строку в <em>подключение</em>.</span><span class="sxs-lookup"><span data-stu-id="cd124-154">If the <em>connect</em> argument includes all the necessary information to complete a connection, the ODBC Driver Manager uses the string in <em>connect</em>.</span></span> <span data-ttu-id="cd124-155">В противном случае оно ведет себя как при указании <strong>dbDriverPrompt</strong>.</span><span class="sxs-lookup"><span data-stu-id="cd124-155">Otherwise it behaves as it does when you specify <strong>dbDriverPrompt</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d870b-159"><strong>dbDriverCompleteRequired</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-159"><strong>dbDriverCompleteRequired</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-160">Этот параметр действует как <strong>dbDriverComplete</strong> , за исключением драйвер ODBC отключает запрашивала какие-либо сведения для выполнения подключения не требуется.</span><span class="sxs-lookup"><span data-stu-id="d870b-160">This option behaves like <strong>dbDriverComplete</strong> except the ODBC driver disables the prompts for any information not required to complete the connection.</span></span></p></td>
+<td><p><span data-ttu-id="cd124-156"><strong>dbDriverCompleteRequired</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-156"><strong>dbDriverCompleteRequired</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-157">Этот параметр действует как <strong>dbDriverComplete</strong> , за исключением драйвер ODBC отключает запрашивала какие-либо сведения для выполнения подключения не требуется.</span><span class="sxs-lookup"><span data-stu-id="cd124-157">This option behaves like <strong>dbDriverComplete</strong> except the ODBC driver disables the prompts for any information not required to complete the connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d870b-161"><strong>dbRunAsync</strong></span><span class="sxs-lookup"><span data-stu-id="d870b-161"><strong>dbRunAsync</strong></span></span></p></td>
-<td><p><span data-ttu-id="d870b-162">Асинхронного метода.</span><span class="sxs-lookup"><span data-stu-id="d870b-162">Execute the method asynchronously.</span></span> <span data-ttu-id="d870b-163">В этом константы могут быть использованы с любыми другими константы <em>Параметры</em> .</span><span class="sxs-lookup"><span data-stu-id="d870b-163">This constant may be used with any of the other <em>options</em> constants.</span></span></p></td>
+<td><p><span data-ttu-id="cd124-158"><strong>dbRunAsync</strong></span><span class="sxs-lookup"><span data-stu-id="cd124-158"><strong>dbRunAsync</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd124-159">Асинхронного метода.</span><span class="sxs-lookup"><span data-stu-id="cd124-159">Execute the method asynchronously.</span></span> <span data-ttu-id="cd124-160">В этом константы могут быть использованы с любыми другими константы <em>Параметры</em> .</span><span class="sxs-lookup"><span data-stu-id="cd124-160">This constant may be used with any of the other <em>options</em> constants.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="d870b-164">**OpenConnection** возвращает объект **подключения** , который содержит сведения о подключении.</span><span class="sxs-lookup"><span data-stu-id="d870b-164">**OpenConnection** returns a **Connection** object which contains information about the connection.</span></span> <span data-ttu-id="d870b-165">Объект **подключения** аналогичен объекта **[базы данных](database-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="d870b-165">The **Connection** object is similar to a **[Database](database-object-dao.md)** object.</span></span> <span data-ttu-id="d870b-166">Участника отличие заключается в том, что объект **базы данных** обычно представляет базы данных, несмотря на то, что его можно использовать для представления подключения к источнику данных ODBC из рабочей области для Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="d870b-166">The principal difference is that a **Database** object usually represents a database, although it can be used to represent a connection to an ODBC data source from a Microsoft Access workspace.</span></span>
+<span data-ttu-id="cd124-161">**OpenConnection** возвращает объект **подключения** , который содержит сведения о подключении.</span><span class="sxs-lookup"><span data-stu-id="cd124-161">**OpenConnection** returns a **Connection** object which contains information about the connection.</span></span> <span data-ttu-id="cd124-162">Объект **подключения** аналогичен объекта **[базы данных](database-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="cd124-162">The **Connection** object is similar to a **[Database](database-object-dao.md)** object.</span></span> <span data-ttu-id="cd124-163">Участника отличие заключается в том, что объект **базы данных** обычно представляет базы данных, несмотря на то, что его можно использовать для представления подключения к источнику данных ODBC из рабочей области для Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="cd124-163">The principal difference is that a **Database** object usually represents a database, although it can be used to represent a connection to an ODBC data source from a Microsoft Access workspace.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d870b-167">Пример</span><span class="sxs-lookup"><span data-stu-id="d870b-167">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cd124-164">Пример</span><span class="sxs-lookup"><span data-stu-id="cd124-164">Example</span></span>
 
-<span data-ttu-id="d870b-168">В этом примере используется метод **OpenConnection** с другими параметрами для открытия трех разных объектов **подключения** .</span><span class="sxs-lookup"><span data-stu-id="d870b-168">This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.</span></span>
+<span data-ttu-id="cd124-165">В этом примере используется метод **OpenConnection** с другими параметрами для открытия трех разных объектов **подключения** .</span><span class="sxs-lookup"><span data-stu-id="cd124-165">This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.</span></span>
 
 ```vb 
 Sub OpenConnectionX() 
@@ -204,7 +200,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="d870b-169">В этом примере демонстрируется объект **подключения** и **подключения к** коллекции, открыв объект Microsoft Access **базы данных** и два объекта технология ODBCDirect **подключения** и список свойств, доступных для каждого объекта.</span><span class="sxs-lookup"><span data-stu-id="d870b-169">This example demonstrates the **Connection** object and **Connections** collection by opening a Microsoft Access **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.</span></span>
+<span data-ttu-id="cd124-166">В этом примере демонстрируется объект **подключения** и **подключения к** коллекции, открыв объект Microsoft Access **базы данных** и два объекта технология ODBCDirect **подключения** и список свойств, доступных для каждого объекта.</span><span class="sxs-lookup"><span data-stu-id="cd124-166">This example demonstrates the **Connection** object and **Connections** collection by opening a Microsoft Access **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.</span></span>
 
 ```vb 
 Sub ConnectionObjectX() 

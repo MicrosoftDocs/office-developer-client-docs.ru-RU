@@ -10,27 +10,27 @@ f1_keywords:
 - dao360.chm1052868
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9ab4c9d37e051c0bc676d5689daeab88a42f7fa9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b9d25b9ccb0c6d3a167e33768d893abdaa8d41a7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25479778"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874652"
 ---
-# <a name="fieldsdelete-method-dao"></a><span data-ttu-id="bcffc-102">Fields.Delete Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="bcffc-102">Fields.Delete Method (DAO)</span></span>
+# <a name="fieldsdelete-method-dao"></a><span data-ttu-id="16076-102">Fields.Delete Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="16076-102">Fields.Delete Method (DAO)</span></span>
 
 
-<span data-ttu-id="bcffc-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="bcffc-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="16076-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16076-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bcffc-104">Удаление **[поля](field-object-dao.md)** из коллекции **[полей](fields-collection-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="bcffc-104">Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="16076-104">Удаление **[поля](field-object-dao.md)** из коллекции **[полей](fields-collection-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="16076-104">Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection-dao.md)** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bcffc-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="bcffc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="16076-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="16076-105">Syntax</span></span>
 
-<span data-ttu-id="bcffc-106">*выражение* . Удаление (***имя***)</span><span class="sxs-lookup"><span data-stu-id="bcffc-106">*expression* .Delete(***Name***)</span></span>
+<span data-ttu-id="16076-106">*выражение* . Удаление (***имя***)</span><span class="sxs-lookup"><span data-stu-id="16076-106">*expression* .Delete(***Name***)</span></span>
 
-<span data-ttu-id="bcffc-107">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="bcffc-107">*expression* A variable that represents a **Fields** object.</span></span>
+<span data-ttu-id="16076-107">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="16076-107">*expression* A variable that represents a **Fields** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="bcffc-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="bcffc-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="16076-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="16076-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,30 +41,30 @@ ms.locfileid: "25479778"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="bcffc-109">Имя</span><span class="sxs-lookup"><span data-stu-id="bcffc-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="bcffc-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="bcffc-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="bcffc-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="bcffc-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="bcffc-112">Описание</span><span class="sxs-lookup"><span data-stu-id="bcffc-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="16076-109">Имя</span><span class="sxs-lookup"><span data-stu-id="16076-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="16076-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="16076-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="16076-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="16076-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="16076-112">Описание</span><span class="sxs-lookup"><span data-stu-id="16076-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bcffc-113">Имя</span><span class="sxs-lookup"><span data-stu-id="bcffc-113">Name</span></span></p></td>
-<td><p><span data-ttu-id="bcffc-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="bcffc-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="bcffc-115"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="bcffc-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="bcffc-116">Чтобы удалить поле.</span><span class="sxs-lookup"><span data-stu-id="bcffc-116">The field to delete.</span></span></p></td>
+<td><p><span data-ttu-id="16076-113">Имя</span><span class="sxs-lookup"><span data-stu-id="16076-113">Name</span></span></p></td>
+<td><p><span data-ttu-id="16076-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="16076-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="16076-115"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="16076-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="16076-116">Чтобы удалить поле.</span><span class="sxs-lookup"><span data-stu-id="16076-116">The field to delete.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="bcffc-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="bcffc-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="16076-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="16076-117">Remarks</span></span>
 
-<span data-ttu-id="bcffc-118">Удаление сохраненных объекта выполняется немедленно, но следует использовать метод **Refresh** в семействах сайтов, которые может затронуть изменения структуры базы данных.</span><span class="sxs-lookup"><span data-stu-id="bcffc-118">The deletion of a stored object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
+<span data-ttu-id="16076-118">Удаление сохраненных объекта выполняется немедленно, но следует использовать метод **Refresh** в семействах сайтов, которые может затронуть изменения структуры базы данных.</span><span class="sxs-lookup"><span data-stu-id="16076-118">The deletion of a stored object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
 
-## <a name="example"></a><span data-ttu-id="bcffc-119">Пример</span><span class="sxs-lookup"><span data-stu-id="bcffc-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="16076-119">Пример</span><span class="sxs-lookup"><span data-stu-id="16076-119">Example</span></span>
 
-<span data-ttu-id="bcffc-120">В этом примере используется метод **Append** или метода **Delete** для изменения коллекции **полей** **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="bcffc-120">This example uses either the **Append** method or the **Delete** method to modify the **Fields** collection of a **TableDef**.</span></span> <span data-ttu-id="bcffc-121">Процедура AppendDeleteField является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="bcffc-121">The AppendDeleteField procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="16076-120">В этом примере используется метод **Append** или метода **Delete** для изменения коллекции **полей** **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="16076-120">This example uses either the **Append** method or the **Delete** method to modify the **Fields** collection of a **TableDef**.</span></span> <span data-ttu-id="16076-121">Процедура AppendDeleteField является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="16076-121">The AppendDeleteField procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub AppendX() 

@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142529(v=office.15)
 ms:contentKeyID: 52073767
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1e6f25566ecf26315b5cc30b58832cf95a01fb3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65d181af867a49602e629bc4ad88e02d0d417868
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482087"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879181"
 ---
-# <a name="tabledefs-properties-dao"></a><span data-ttu-id="2224d-102">TableDefs Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="2224d-102">TableDefs Properties (DAO)</span></span>
+# <a name="tabledefs-properties-dao"></a><span data-ttu-id="18c36-102">TableDefs Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="18c36-102">TableDefs Properties (DAO)</span></span>
 
 
-<span data-ttu-id="2224d-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2224d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="18c36-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="18c36-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="2224d-104">TableDefs.Count Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="2224d-104">TableDefs.Count Property (DAO)</span></span>](tabledefs-count-property-dao.md)
+  - [<span data-ttu-id="18c36-104">TableDefs.Count Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="18c36-104">TableDefs.Count Property (DAO)</span></span>](tabledefs-count-property-dao.md)
 

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="2f944-101"><<<<<<< Название HEAD: метод Close подключения, пример свойства типа таблица (VC ++) TOCTitle: метод Close подключения, пример свойства типа таблица (VC ++) === название: метод Close подключения, пример свойства типа таблица (VC ++) TOCTitle: Метод Close подключения, пример свойства типа таблица (VC ++)</span><span class="sxs-lookup"><span data-stu-id="2f944-101"><<<<<<< HEAD title: Connection Close Method, Table Type Property Example (VC++) TOCTitle: Connection Close Method, Table Type Property Example (VC++) ======= title: Connection Close Method, Table Type property example (VC++) TOCTitle: Connection Close Method, Table Type property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="2f944-102">главные ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15) ms:contentKeyID: 48548006 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="2f944-102">master ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15) ms:contentKeyID: 48548006 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Метод Close подключения, пример свойства типа таблица (VC ++)
+TOCTitle: Connection Close Method, Table Type property example (VC++)
+ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15)
+ms:contentKeyID: 48548006
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 595877a88a250d69cd4b9401bb30a0d63cfcb3b5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874435"
 ---
-
-<span data-ttu-id="2f944-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="2f944-103"><<<<<<< HEAD</span></span>
-# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="2f944-104">Connection Close Method, Table Type Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="2f944-104">Connection Close Method, Table Type Property Example (VC++)</span></span>
-=======
-# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="2f944-105">Метод Close подключения, пример свойства типа таблица (VC ++)</span><span class="sxs-lookup"><span data-stu-id="2f944-105">Connection Close Method, Table Type property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="2f944-106">master</span><span class="sxs-lookup"><span data-stu-id="2f944-106">master</span></span>
+# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="0bc28-102">Метод Close подключения, пример свойства типа таблица (VC ++)</span><span class="sxs-lookup"><span data-stu-id="0bc28-102">Connection Close Method, Table Type property example (VC++)</span></span>
 
 
-<span data-ttu-id="2f944-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f944-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="0bc28-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0bc28-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2f944-108">Для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** «закрыть» каталог.</span><span class="sxs-lookup"><span data-stu-id="2f944-108">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog.</span></span> <span data-ttu-id="2f944-109">Связанные коллекции будет пустым.</span><span class="sxs-lookup"><span data-stu-id="2f944-109">Associated collections will be empty.</span></span> <span data-ttu-id="2f944-110">Любые объекты, которые были созданы на основе схемы объектам в каталоге будут изолированы.</span><span class="sxs-lookup"><span data-stu-id="2f944-110">Any objects that were created from schema objects in the catalog will be orphaned.</span></span> <span data-ttu-id="2f944-111">Любые свойства на те объекты, которые были кэшированы по-прежнему доступны, но при чтении свойства, которые требуют вызова к поставщику завершится с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="2f944-111">Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="0bc28-104">Для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** «закрыть» каталог.</span><span class="sxs-lookup"><span data-stu-id="0bc28-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog.</span></span> <span data-ttu-id="0bc28-105">Связанные коллекции будет пустым.</span><span class="sxs-lookup"><span data-stu-id="0bc28-105">Associated collections will be empty.</span></span> <span data-ttu-id="0bc28-106">Любые объекты, которые были созданы на основе схемы объектам в каталоге будут изолированы.</span><span class="sxs-lookup"><span data-stu-id="0bc28-106">Any objects that were created from schema objects in the catalog will be orphaned.</span></span> <span data-ttu-id="0bc28-107">Любые свойства на те объекты, которые были кэшированы по-прежнему доступны, но при чтении свойства, которые требуют вызова к поставщику завершится с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="0bc28-107">Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```cpp 
  

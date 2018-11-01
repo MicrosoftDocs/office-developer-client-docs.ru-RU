@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="5e6f1-101"><<<<<<< Название HEAD: пример свойства ParentCatalog (VC ++) TOCTitle: пример свойства ParentCatalog (VC ++) === название: пример свойства ParentCatalog (VC ++) TOCTitle: пример свойства ParentCatalog (VC ++)</span><span class="sxs-lookup"><span data-stu-id="5e6f1-101"><<<<<<< HEAD title: ParentCatalog Property Example (VC++) TOCTitle: ParentCatalog Property Example (VC++) ======= title: ParentCatalog property example (VC++) TOCTitle: ParentCatalog property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="5e6f1-102">главные ms:assetid: fad6574f-698f-f48a-ba0b-59f048ae012c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15) ms:contentKeyID: 48548855 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="5e6f1-102">master ms:assetid: fad6574f-698f-f48a-ba0b-59f048ae012c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15) ms:contentKeyID: 48548855 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства ParentCatalog (VC++)
+TOCTitle: ParentCatalog property example (VC++)
+ms:assetid: fad6574f-698f-f48a-ba0b-59f048ae012c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15)
+ms:contentKeyID: 48548855
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 80a550a65601ee86d34f7e8acf6a88f75f738501
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876052"
 ---
-
-<span data-ttu-id="5e6f1-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="5e6f1-103"><<<<<<< HEAD</span></span>
-# <a name="parentcatalog-property-example-vc"></a><span data-ttu-id="5e6f1-104">ParentCatalog Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="5e6f1-104">ParentCatalog Property Example (VC++)</span></span>
-=======
-# <a name="parentcatalog-property-example-vc"></a><span data-ttu-id="5e6f1-105">Пример свойства ParentCatalog (VC ++)</span><span class="sxs-lookup"><span data-stu-id="5e6f1-105">ParentCatalog property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="5e6f1-106">master</span><span class="sxs-lookup"><span data-stu-id="5e6f1-106">master</span></span>
+# <a name="parentcatalog-property-example-vc"></a><span data-ttu-id="97734-102">Пример использования свойства ParentCatalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="97734-102">ParentCatalog property example (VC++)</span></span>
 
 
-<span data-ttu-id="5e6f1-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e6f1-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="97734-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="97734-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5e6f1-108">Следующий код демонстрирует использование свойства [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству от поставщика перед добавлением таблицы в каталоге.</span><span class="sxs-lookup"><span data-stu-id="5e6f1-108">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog.</span></span> <span data-ttu-id="5e6f1-109">Является ли данное свойство AutoIncrement, которая создает поле AutoIncrement базы данных Microsoft Jet.</span><span class="sxs-lookup"><span data-stu-id="5e6f1-109">The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
+<span data-ttu-id="97734-104">Следующий код демонстрирует использование свойства [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству от поставщика перед добавлением таблицы в каталоге.</span><span class="sxs-lookup"><span data-stu-id="97734-104">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog.</span></span> <span data-ttu-id="97734-105">Является ли данное свойство AutoIncrement, которая создает поле AutoIncrement базы данных Microsoft Jet.</span><span class="sxs-lookup"><span data-stu-id="97734-105">The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
 
 ```cpp 
  
