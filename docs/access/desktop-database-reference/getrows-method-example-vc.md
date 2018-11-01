@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250034(v=office.15)
 ms:contentKeyID: 48547817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9d28202ce20b68171f3de93078fd818007028a9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 341158e15ec06525fa88eddecf778bb0bb78c3f0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860492"
+ms.locfileid: "25884780"
 ---
-# <a name="getrows-method-example-vc"></a><span data-ttu-id="52624-102">Пример использования метода GetRows (VC++)</span><span class="sxs-lookup"><span data-stu-id="52624-102">GetRows method example (VC++)</span></span>
+# <a name="getrows-method-example-vc"></a><span data-ttu-id="12aa4-102">Пример использования метода GetRows (VC++)</span><span class="sxs-lookup"><span data-stu-id="12aa4-102">GetRows method example (VC++)</span></span>
 
 
-<span data-ttu-id="52624-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="52624-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="12aa4-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12aa4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="52624-104">В этом примере используется метод [получения строк](getrows-method-ado.md) для извлечения указанное число строк из [набора записей](recordset-object-ado.md) и для заполнения массива с полученными данными.</span><span class="sxs-lookup"><span data-stu-id="52624-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve a specified number of rows from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="52624-105">Метод **получения строк** возвращает меньше, чем требуемое число строк в двух случаях: если достигнут [конец файла](bof-eof-properties-ado.md) или если **Получение строк** попытались получить записи, которая была удалена другим пользователем.</span><span class="sxs-lookup"><span data-stu-id="52624-105">The **GetRows** method will return less than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="52624-106">Функция возвращает **значение False** , только в том случае, если происходит второй вариант.</span><span class="sxs-lookup"><span data-stu-id="52624-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="52624-107">Функция GetRowsOK является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="52624-107">The GetRowsOK function is required for this procedure to run.</span></span>
+<span data-ttu-id="12aa4-104">В этом примере используется метод [получения строк](getrows-method-ado.md) для извлечения указанное число строк из [набора записей](recordset-object-ado.md) и для заполнения массива с полученными данными.</span><span class="sxs-lookup"><span data-stu-id="12aa4-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve a specified number of rows from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="12aa4-105">Метод **получения строк** возвращает меньше, чем требуемое число строк в двух случаях: если достигнут [конец файла](bof-eof-properties-ado.md) или если **Получение строк** попытались получить записи, которая была удалена другим пользователем.</span><span class="sxs-lookup"><span data-stu-id="12aa4-105">The **GetRows** method will return less than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="12aa4-106">Функция возвращает **значение False** , только в том случае, если происходит второй вариант.</span><span class="sxs-lookup"><span data-stu-id="12aa4-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="12aa4-107">Функция GetRowsOK является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="12aa4-107">The GetRowsOK function is required for this procedure to run.</span></span>
 
 ```cpp 
  

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="904af-101"><<<<<<< Название HEAD: пример свойства сортировки (VC ++) TOCTitle: пример свойства сортировки (VC ++) === название: пример свойства сортировки (VC ++) TOCTitle: пример свойства сортировки (VC ++)</span><span class="sxs-lookup"><span data-stu-id="904af-101"><<<<<<< HEAD title: Sort Property Example (VC++) TOCTitle: Sort Property Example (VC++) ======= title: Sort property example (VC++) TOCTitle: Sort property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="904af-102">главные ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID: 48543259 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="904af-102">master ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID: 48543259 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Sort (VC++)
+TOCTitle: Sort property example (VC++)
+ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
+ms:contentKeyID: 48543259
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 37b5d08ab9c4e42e0f1c4097c5d905c4e45ff547
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881218"
 ---
-
-<span data-ttu-id="904af-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="904af-103"><<<<<<< HEAD</span></span>
-# <a name="sort-property-example-vc"></a><span data-ttu-id="904af-104">Sort Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="904af-104">Sort Property Example (VC++)</span></span>
-=======
-# <a name="sort-property-example-vc"></a><span data-ttu-id="904af-105">Пример свойства сортировки (VC ++)</span><span class="sxs-lookup"><span data-stu-id="904af-105">Sort property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="904af-106">master</span><span class="sxs-lookup"><span data-stu-id="904af-106">master</span></span>
+# <a name="sort-property-example-vc"></a><span data-ttu-id="19b10-102">Пример использования свойства Sort (VC++)</span><span class="sxs-lookup"><span data-stu-id="19b10-102">Sort property example (VC++)</span></span>
 
 
-<span data-ttu-id="904af-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="904af-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="19b10-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="19b10-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="904af-108">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных **Pubs** .</span><span class="sxs-lookup"><span data-stu-id="904af-108">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database.</span></span> <span data-ttu-id="904af-109">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="904af-109">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="19b10-104">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных **Pubs** .</span><span class="sxs-lookup"><span data-stu-id="19b10-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database.</span></span> <span data-ttu-id="19b10-105">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="19b10-105">A secondary utility routine prints each row.</span></span>
 
 ```cpp 
  

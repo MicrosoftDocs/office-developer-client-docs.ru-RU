@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="07b93-101"><<<<<<< Название HEAD: PrimaryKey и TOCTitle уникальный пример свойств (VC ++): PrimaryKey и уникальные пример свойств (VC ++) === название: пример: свойства PrimaryKey и Unique (VC ++) TOCTitle: PrimaryKey и Unique свойства Пример (VC ++)</span><span class="sxs-lookup"><span data-stu-id="07b93-101"><<<<<<< HEAD title: PrimaryKey and Unique Properties Example (VC++) TOCTitle: PrimaryKey and Unique Properties Example (VC++) ======= title: PrimaryKey and Unique properties example (VC++) TOCTitle: PrimaryKey and Unique properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="07b93-102">главные ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: 48543158 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="07b93-102">master ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: 48543158 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойств PrimaryKey и Unique (VC++)
+TOCTitle: PrimaryKey and Unique properties example (VC++)
+ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
+ms:contentKeyID: 48543158
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ec71b8aec6990fbd0f05312fecf751c568773a3d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883409"
 ---
-
-<span data-ttu-id="07b93-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="07b93-103"><<<<<<< HEAD</span></span>
-# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="07b93-104">PrimaryKey and Unique Properties Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="07b93-104">PrimaryKey and Unique Properties Example (VC++)</span></span>
-=======
-# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="07b93-105">Пример: свойства PrimaryKey и Unique (VC ++)</span><span class="sxs-lookup"><span data-stu-id="07b93-105">PrimaryKey and Unique properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="07b93-106">master</span><span class="sxs-lookup"><span data-stu-id="07b93-106">master</span></span>
+# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="e03be-102">Пример использования свойств PrimaryKey и Unique (VC++)</span><span class="sxs-lookup"><span data-stu-id="e03be-102">PrimaryKey and Unique properties example (VC++)</span></span>
 
 
-<span data-ttu-id="07b93-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="07b93-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e03be-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e03be-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="07b93-108">В этом примере свойства [PrimaryKey](primarykey-property-adox.md) и [Уникальный](unique-property-adox.md) [индекс](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="07b93-108">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="07b93-109">Код создает новую таблицу с двумя столбцами.</span><span class="sxs-lookup"><span data-stu-id="07b93-109">The code creates a new table with two columns.</span></span> <span data-ttu-id="07b93-110">Свойства **PrimaryKey** и **Unique** используются для сделать один столбец первичного ключа, для которого не разрешены повторяющиеся значения.</span><span class="sxs-lookup"><span data-stu-id="07b93-110">The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
+<span data-ttu-id="e03be-104">В этом примере свойства [PrimaryKey](primarykey-property-adox.md) и [Уникальный](unique-property-adox.md) [индекс](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="e03be-104">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="e03be-105">Код создает новую таблицу с двумя столбцами.</span><span class="sxs-lookup"><span data-stu-id="e03be-105">The code creates a new table with two columns.</span></span> <span data-ttu-id="e03be-106">Свойства **PrimaryKey** и **Unique** используются для сделать один столбец первичного ключа, для которого не разрешены повторяющиеся значения.</span><span class="sxs-lookup"><span data-stu-id="e03be-106">The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
 
 ```cpp 
  

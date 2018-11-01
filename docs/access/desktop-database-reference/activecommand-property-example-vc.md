@@ -1,20 +1,25 @@
 ---
-<span data-ttu-id="dcd99-101"><<<<<<< Название HEAD: пример свойства ActiveCommand (VC ++) TOCTitle: пример свойства ActiveCommand (VC ++) ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="dcd99-101"><<<<<<< HEAD title: ActiveCommand Property Example (VC++) TOCTitle: ActiveCommand Property Example (VC++) ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства ActiveCommand (VC++)
+TOCTitle: ActiveCommand property example (VC++)
+ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15)
+ms:contentKeyID: 48544157
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 8db00f46c657dd2b296963b7be50269b4699d171
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882625"
 ---
+# <a name="activecommand-property-example-vc"></a><span data-ttu-id="d0a9f-102">Пример использования свойства ActiveCommand (VC++)</span><span class="sxs-lookup"><span data-stu-id="d0a9f-102">ActiveCommand property example (VC++)</span></span>
 
-# <a name="activecommand-property-example-vc"></a><span data-ttu-id="dcd99-102">ActiveCommand Property Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="dcd99-102">ActiveCommand Property Example (VC++)</span></span>
+<span data-ttu-id="d0a9f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d0a9f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dcd99-103">=== Название: пример свойства ActiveCommand (VC ++) TOCTitle: ms:assetid пример (VC ++) свойство ActiveCommand: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 10/17/2018 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="dcd99-103">======= title: ActiveCommand property example (VC++) TOCTitle: ActiveCommand property example (VC++) ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
+<span data-ttu-id="d0a9f-104">В этом примере демонстрируется свойство [ActiveCommand](activecommand-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="d0a9f-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-# <a name="activecommand-property-example-vc"></a><span data-ttu-id="dcd99-104">Пример свойства ActiveCommand (VC ++)</span><span class="sxs-lookup"><span data-stu-id="dcd99-104">ActiveCommand property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="dcd99-105">master</span><span class="sxs-lookup"><span data-stu-id="dcd99-105">master</span></span>
-
-<span data-ttu-id="dcd99-106">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="dcd99-106">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="dcd99-107">В этом примере демонстрируется свойство [ActiveCommand](activecommand-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="dcd99-107">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
-
-<span data-ttu-id="dcd99-108">Подпрограмма предоставляется объект [набора записей](recordset-object-ado.md) , в которых свойство **ActiveCommand** используется для отображения текст команды и параметр, который создан **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="dcd99-108">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="d0a9f-105">Подпрограмма предоставляется объект [набора записей](recordset-object-ado.md) , в которых свойство **ActiveCommand** используется для отображения текст команды и параметр, который создан **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="d0a9f-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```cpp 
  

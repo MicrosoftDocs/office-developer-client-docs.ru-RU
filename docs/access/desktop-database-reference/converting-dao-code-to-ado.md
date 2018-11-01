@@ -1,22 +1,30 @@
 ---
-<span data-ttu-id="fcec3-101"><<<<<<< Заголовок HEAD: преобразование кода DAO для ADO TOCTitle: преобразование кода DAO для ADO ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15) ms:contentKeyID: 48544585 ms.date: 09/18/2015 === заголовок: преобразование DAO код для ADO TOCTitle: преобразование DAO кода для ADO ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15) ms:contentKeyID: 48544585 ms.date: 10/16/2018</span><span class="sxs-lookup"><span data-stu-id="fcec3-101"><<<<<<< HEAD title: Converting DAO Code to ADO TOCTitle: Converting DAO Code to ADO ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15) ms:contentKeyID: 48544585 ms.date: 09/18/2015 ======= title: Convert DAO code to ADO TOCTitle: Convert DAO code to ADO ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15) ms:contentKeyID: 48544585 ms.date: 10/16/2018</span></span>
->>>>>>> <span data-ttu-id="fcec3-102">главные mtps_version: v=office.15 f1_keywords:</span><span class="sxs-lookup"><span data-stu-id="fcec3-102">master mtps_version: v=office.15 f1_keywords:</span></span>
-- <span data-ttu-id="fcec3-103">vbaac10.chm5267115 f1_categories:</span><span class="sxs-lookup"><span data-stu-id="fcec3-103">vbaac10.chm5267115 f1_categories:</span></span>
-- <span data-ttu-id="fcec3-104">Office.Version=v15</span><span class="sxs-lookup"><span data-stu-id="fcec3-104">Office.Version=v15</span></span>
+title: Преобразование кода DAO в ADO
+TOCTitle: Convert DAO code to ADO
+ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15)
+ms:contentKeyID: 48544585
+ms.date: 10/16/2018
+mtps_version: v=office.15
+f1_keywords:
+- vbaac10.chm5267115
+f1_categories:
+- Office.Version=v15
+ms.openlocfilehash: 60baeabfce93c2987cb9621c7cc877a7525a954c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876745"
 ---
+# <a name="convert-dao-code-to-ado"></a><span data-ttu-id="4b957-102">Преобразование кода DAO в ADO</span><span class="sxs-lookup"><span data-stu-id="4b957-102">Convert DAO code to ADO</span></span>
 
-<span data-ttu-id="fcec3-105"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="fcec3-105"><<<<<<< HEAD</span></span>
-# <a name="converting-dao-code-to-ado"></a><span data-ttu-id="fcec3-106">Converting DAO Code to ADO</span><span class="sxs-lookup"><span data-stu-id="fcec3-106">Converting DAO Code to ADO</span></span>
-=======
-# <a name="convert-dao-code-to-ado"></a><span data-ttu-id="fcec3-107">Преобразование кода DAO ADO</span><span class="sxs-lookup"><span data-stu-id="fcec3-107">Convert DAO code to ADO</span></span>
->>>>>>> <span data-ttu-id="fcec3-108">master</span><span class="sxs-lookup"><span data-stu-id="fcec3-108">master</span></span>
-
-<span data-ttu-id="fcec3-109">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fcec3-109">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4b957-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4b957-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="fcec3-110">Версии библиотеки DAO перед 3.6 не предоставляются и не поддерживаются в клиенте.</span><span class="sxs-lookup"><span data-stu-id="fcec3-110">Versions of the DAO library prior to 3.6 are not provided or supported in Access.</span></span>
+> <span data-ttu-id="4b957-104">Версии библиотеки DAO перед 3.6 не предоставляются и не поддерживаются в клиенте.</span><span class="sxs-lookup"><span data-stu-id="4b957-104">Versions of the DAO library prior to 3.6 are not provided or supported in Access.</span></span>
 
-## <a name="dao-to-ado-object-map"></a><span data-ttu-id="fcec3-111">DAO карту объект ADO</span><span class="sxs-lookup"><span data-stu-id="fcec3-111">DAO to ADO object map</span></span>
+## <a name="dao-to-ado-object-map"></a><span data-ttu-id="4b957-105">DAO карту объект ADO</span><span class="sxs-lookup"><span data-stu-id="4b957-105">DAO to ADO object map</span></span>
 
 <table>
 <colgroup>
@@ -26,75 +34,51 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="fcec3-112"><strong>DAO</strong></span><span class="sxs-lookup"><span data-stu-id="fcec3-112"><strong>DAO</strong></span></span></p></th>
-<span data-ttu-id="fcec3-113"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="fcec3-113"><<<<<<< HEAD</span></span>
-<th><p><span data-ttu-id="fcec3-114"><strong>ADO(ADODB)</strong></span><span class="sxs-lookup"><span data-stu-id="fcec3-114"><strong>ADO(ADODB)</strong></span></span></p></th>
-=======
-<th><p><span data-ttu-id="fcec3-115"><strong>ADO (ADODB)</strong></span><span class="sxs-lookup"><span data-stu-id="fcec3-115"><strong>ADO (ADODB)</strong></span></span></p></th><span data-ttu-id="fcec3-116">
->>>>>>>Образец</span><span class="sxs-lookup"><span data-stu-id="fcec3-116">
->>>>>>> master</span></span>
-<th><p><span data-ttu-id="fcec3-117"><strong>Примечание</strong></span><span class="sxs-lookup"><span data-stu-id="fcec3-117"><strong>Note</strong></span></span></p></th>
+<th><p><span data-ttu-id="4b957-106"><strong>DAO</strong></span><span class="sxs-lookup"><span data-stu-id="4b957-106"><strong>DAO</strong></span></span></p></th>
+<th><p><span data-ttu-id="4b957-107"><strong>ADO (ADODB)</strong></span><span class="sxs-lookup"><span data-stu-id="4b957-107"><strong>ADO (ADODB)</strong></span></span></p></th>
+<th><p><span data-ttu-id="4b957-108"><strong>Примечание</strong></span><span class="sxs-lookup"><span data-stu-id="4b957-108"><strong>Note</strong></span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fcec3-118">DBEngine</span><span class="sxs-lookup"><span data-stu-id="fcec3-118">DBEngine</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-119">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="fcec3-119">None</span></span></p></td>
+<td><p><span data-ttu-id="4b957-109">DBEngine</span><span class="sxs-lookup"><span data-stu-id="4b957-109">DBEngine</span></span></p></td>
+<td><p><span data-ttu-id="4b957-110">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="4b957-110">None</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fcec3-120">Рабочая область</span><span class="sxs-lookup"><span data-stu-id="fcec3-120">Workspace</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-121">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="fcec3-121">None</span></span></p></td>
+<td><p><span data-ttu-id="4b957-111">Рабочая область</span><span class="sxs-lookup"><span data-stu-id="4b957-111">Workspace</span></span></p></td>
+<td><p><span data-ttu-id="4b957-112">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="4b957-112">None</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fcec3-122">База данных</span><span class="sxs-lookup"><span data-stu-id="fcec3-122">Database</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-123">Подключение</span><span class="sxs-lookup"><span data-stu-id="fcec3-123">Connection</span></span></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="fcec3-124">Набор записей</span><span class="sxs-lookup"><span data-stu-id="fcec3-124">Recordset</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-125">Набор записей</span><span class="sxs-lookup"><span data-stu-id="fcec3-125">Recordset</span></span></p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="fcec3-126">Добавляющий</span><span class="sxs-lookup"><span data-stu-id="fcec3-126">Dynaset-Type</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-127">Набор ключей</span><span class="sxs-lookup"><span data-stu-id="fcec3-127">Keyset</span></span></p></td>
-<span data-ttu-id="fcec3-128"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="fcec3-128"><<<<<<< HEAD</span></span>
-<td><p><span data-ttu-id="fcec3-129">Получает набор указатели на записей в наборе</span><span class="sxs-lookup"><span data-stu-id="fcec3-129">Retrieves a set of pointers to the records in the recordset</span></span></p></td>
-=======
-<td><p><span data-ttu-id="fcec3-130">Извлекает набор указателей на записи в наборе записей.</span><span class="sxs-lookup"><span data-stu-id="fcec3-130">Retrieves a set of pointers to the records in the recordset.</span></span></p></td><span data-ttu-id="fcec3-131">
->>>>>>>Образец</span><span class="sxs-lookup"><span data-stu-id="fcec3-131">
->>>>>>> master</span></span>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="fcec3-132">Тип моментальных снимков</span><span class="sxs-lookup"><span data-stu-id="fcec3-132">Snapshot-Type</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-133">Статическое</span><span class="sxs-lookup"><span data-stu-id="fcec3-133">Static</span></span></p></td>
-<span data-ttu-id="fcec3-134"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="fcec3-134"><<<<<<< HEAD</span></span>
-<td><p><span data-ttu-id="fcec3-135">Оба Получение полного записей, но могут быть обновлены статического набора записей.</span><span class="sxs-lookup"><span data-stu-id="fcec3-135">Both retrieve full records but a Static recordset can be updated.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="fcec3-136">Тип таблицы</span><span class="sxs-lookup"><span data-stu-id="fcec3-136">Table-Type</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-137">Набор ключей с adCmdTableDirect параметр</span><span class="sxs-lookup"><span data-stu-id="fcec3-137">Keyset with adCmdTableDirect Option</span></span></p></td>
-=======
-<td><p><span data-ttu-id="fcec3-138">Оба Получение полного записей, но могут быть обновлены статического набора записей.</span><span class="sxs-lookup"><span data-stu-id="fcec3-138">Both retrieve full records, but a Static recordset can be updated.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="fcec3-139">Тип таблицы</span><span class="sxs-lookup"><span data-stu-id="fcec3-139">Table-Type</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-140">Набор ключей с помощью параметра adCmdTableDirect.</span><span class="sxs-lookup"><span data-stu-id="fcec3-140">Keyset with adCmdTableDirect option.</span></span></p></td><span data-ttu-id="fcec3-141">
->>>>>>>Образец</span><span class="sxs-lookup"><span data-stu-id="fcec3-141">
->>>>>>> master</span></span>
+<td><p><span data-ttu-id="4b957-113">База данных</span><span class="sxs-lookup"><span data-stu-id="4b957-113">Database</span></span></p></td>
+<td><p><span data-ttu-id="4b957-114">Подключение</span><span class="sxs-lookup"><span data-stu-id="4b957-114">Connection</span></span></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fcec3-142">Поле</span><span class="sxs-lookup"><span data-stu-id="fcec3-142">Field</span></span></p></td>
-<td><p><span data-ttu-id="fcec3-143">Поле</span><span class="sxs-lookup"><span data-stu-id="fcec3-143">Field</span></span></p></td>
-<span data-ttu-id="fcec3-144"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="fcec3-144"><<<<<<< HEAD</span></span>
-<td><p><span data-ttu-id="fcec3-145">Если в наборе записей</span><span class="sxs-lookup"><span data-stu-id="fcec3-145">When referred to in a recordset</span></span></p></td>
-=======
-<td><p><span data-ttu-id="fcec3-146">Если приведенные в набор записей.</span><span class="sxs-lookup"><span data-stu-id="fcec3-146">When referred to in a recordset.</span></span></p></td><span data-ttu-id="fcec3-147">
->>>>>>>Образец</span><span class="sxs-lookup"><span data-stu-id="fcec3-147">
->>>>>>> master</span></span>
+<td><p><span data-ttu-id="4b957-115">Набор записей</span><span class="sxs-lookup"><span data-stu-id="4b957-115">Recordset</span></span></p></td>
+<td><p><span data-ttu-id="4b957-116">Набор записей</span><span class="sxs-lookup"><span data-stu-id="4b957-116">Recordset</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="4b957-117">Добавляющий</span><span class="sxs-lookup"><span data-stu-id="4b957-117">Dynaset-Type</span></span></p></td>
+<td><p><span data-ttu-id="4b957-118">Набор ключей</span><span class="sxs-lookup"><span data-stu-id="4b957-118">Keyset</span></span></p></td>
+<td><p><span data-ttu-id="4b957-119">Извлекает набор указателей на записи в наборе записей.</span><span class="sxs-lookup"><span data-stu-id="4b957-119">Retrieves a set of pointers to the records in the recordset.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="4b957-120">Тип моментальных снимков</span><span class="sxs-lookup"><span data-stu-id="4b957-120">Snapshot-Type</span></span></p></td>
+<td><p><span data-ttu-id="4b957-121">Статическое</span><span class="sxs-lookup"><span data-stu-id="4b957-121">Static</span></span></p></td>
+<td><p><span data-ttu-id="4b957-122">Оба Получение полного записей, но могут быть обновлены статического набора записей.</span><span class="sxs-lookup"><span data-stu-id="4b957-122">Both retrieve full records, but a Static recordset can be updated.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="4b957-123">Тип таблицы</span><span class="sxs-lookup"><span data-stu-id="4b957-123">Table-Type</span></span></p></td>
+<td><p><span data-ttu-id="4b957-124">Набор ключей с помощью параметра adCmdTableDirect.</span><span class="sxs-lookup"><span data-stu-id="4b957-124">Keyset with adCmdTableDirect option.</span></span></p></td>
+<td><p></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="4b957-125">Поле</span><span class="sxs-lookup"><span data-stu-id="4b957-125">Field</span></span></p></td>
+<td><p><span data-ttu-id="4b957-126">Поле</span><span class="sxs-lookup"><span data-stu-id="4b957-126">Field</span></span></p></td>
+<td><p><span data-ttu-id="4b957-127">Если приведенные в набор записей.</span><span class="sxs-lookup"><span data-stu-id="4b957-127">When referred to in a recordset.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -102,9 +86,9 @@
 <br/>
 <br/>
 
-### <a name="dao"></a><span data-ttu-id="fcec3-148">DAO</span><span class="sxs-lookup"><span data-stu-id="fcec3-148">DAO</span></span>
+### <a name="dao"></a><span data-ttu-id="4b957-128">DAO</span><span class="sxs-lookup"><span data-stu-id="4b957-128">DAO</span></span>
 
-#### <a name="open-a-recordset"></a><span data-ttu-id="fcec3-149">Открытие набора записей</span><span class="sxs-lookup"><span data-stu-id="fcec3-149">Open a Recordset</span></span>
+#### <a name="open-a-recordset"></a><span data-ttu-id="4b957-129">Открытие набора записей</span><span class="sxs-lookup"><span data-stu-id="4b957-129">Open a Recordset</span></span>
 
 ```vb
  Dim db as Database
@@ -113,7 +97,7 @@
  Set rs = db.OpenRecordset("Employees")
 ```
 
-#### <a name="edit-a-recordset"></a><span data-ttu-id="fcec3-150">Изменение набора записей</span><span class="sxs-lookup"><span data-stu-id="fcec3-150">Edit a Recordset</span></span>
+#### <a name="edit-a-recordset"></a><span data-ttu-id="4b957-130">Изменение набора записей</span><span class="sxs-lookup"><span data-stu-id="4b957-130">Edit a Recordset</span></span>
 
 ```vb
  rs.Edit 
@@ -121,9 +105,9 @@
  rs.Update
 ```
 
-### <a name="ado"></a><span data-ttu-id="fcec3-151">ADO</span><span class="sxs-lookup"><span data-stu-id="fcec3-151">ADO</span></span>
+### <a name="ado"></a><span data-ttu-id="4b957-131">ADO</span><span class="sxs-lookup"><span data-stu-id="4b957-131">ADO</span></span>
 
-#### <a name="open-a-recordset"></a><span data-ttu-id="fcec3-152">Открытие набора записей</span><span class="sxs-lookup"><span data-stu-id="fcec3-152">Open a Recordset</span></span>
+#### <a name="open-a-recordset"></a><span data-ttu-id="4b957-132">Открытие набора записей</span><span class="sxs-lookup"><span data-stu-id="4b957-132">Open a Recordset</span></span>
 
 ```vb
  Dim rs as New ADODB.Recordset
@@ -131,7 +115,7 @@
          adOpenKeySet, adLockOptimistic
 ```
 
-#### <a name="edit-a-recordset"></a><span data-ttu-id="fcec3-153">Изменение набора записей</span><span class="sxs-lookup"><span data-stu-id="fcec3-153">Edit a Recordset</span></span>
+#### <a name="edit-a-recordset"></a><span data-ttu-id="4b957-133">Изменение набора записей</span><span class="sxs-lookup"><span data-stu-id="4b957-133">Edit a Recordset</span></span>
 
 ```vb
  rs("TextFieldName") = "NewValue" 
@@ -140,19 +124,13 @@
 
 
 > [!NOTE]
-<span data-ttu-id="fcec3-154"><<<<<<< Перемещение HEAD фокус из текущей записи с помощью **MoveNext MoveLast MoveFirst MovePrevious** без сначала с помощью метода **CancelUpdate** неявного выполнения метода **Update** .</span><span class="sxs-lookup"><span data-stu-id="fcec3-154"><<<<<<< HEAD Moving focus from current record via **MoveNext, MoveLast, MoveFirst, MovePrevious** without first using the **CancelUpdate** method will implicitly execute the **Update** method.</span></span>
-> <span data-ttu-id="fcec3-155">=== Перемещения фокуса от текущей записи через **MoveNext, MoveLast, MoveFirst, MovePrevious** без использования метода **CancelUpdate** неявно выполняет метод **Update** .</span><span class="sxs-lookup"><span data-stu-id="fcec3-155">======= Moving focus from current record via **MoveNext, MoveLast, MoveFirst, MovePrevious** without first using the **CancelUpdate** method implicitly executes the **Update** method.</span></span>
->>>>>>> <span data-ttu-id="fcec3-156">master</span><span class="sxs-lookup"><span data-stu-id="fcec3-156">master</span></span>
+> <span data-ttu-id="4b957-134">Перемещение фокуса из текущей записи через **MoveNext, MoveLast, MoveFirst, MovePrevious** без использования метода **CancelUpdate** неявно выполняет метод **Update** .</span><span class="sxs-lookup"><span data-stu-id="4b957-134">Moving focus from current record via **MoveNext, MoveLast, MoveFirst, MovePrevious** without first using the **CancelUpdate** method implicitly executes the **Update** method.</span></span>
 
-### <a name="about-the-contributors"></a><span data-ttu-id="fcec3-157">О участники</span><span class="sxs-lookup"><span data-stu-id="fcec3-157">About the contributors</span></span>
+### <a name="about-the-contributors"></a><span data-ttu-id="4b957-135">О участники</span><span class="sxs-lookup"><span data-stu-id="4b957-135">About the contributors</span></span>
 
-<span data-ttu-id="fcec3-158">**Автор ссылку** [UtterAccess](https://www.utteraccess.com) сообщества.</span><span class="sxs-lookup"><span data-stu-id="fcec3-158">**Link provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="fcec3-159">UtterAccess — это премьер форум вики-сайт и Справка по Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="fcec3-159">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
+<span data-ttu-id="4b957-136">**Автор ссылку** [UtterAccess](https://www.utteraccess.com) сообщества.</span><span class="sxs-lookup"><span data-stu-id="4b957-136">**Link provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="4b957-137">UtterAccess — это премьер форум вики-сайт и Справка по Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4b957-137">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
 
-- [<span data-ttu-id="fcec3-160">Выбор между DAO и ADO</span><span class="sxs-lookup"><span data-stu-id="fcec3-160">Choosing between DAO and ADO</span></span>](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
+- [<span data-ttu-id="4b957-138">Выбор между DAO и ADO</span><span class="sxs-lookup"><span data-stu-id="4b957-138">Choosing between DAO and ADO</span></span>](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
-<span data-ttu-id="fcec3-161"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="fcec3-161"><<<<<<< HEAD</span></span>
-
-=======
 <br/>
->>>>>>> <span data-ttu-id="fcec3-162">master</span><span class="sxs-lookup"><span data-stu-id="fcec3-162">master</span></span>
 

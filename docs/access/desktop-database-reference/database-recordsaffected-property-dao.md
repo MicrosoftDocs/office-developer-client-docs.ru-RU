@@ -6,29 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
 ms:contentKeyID: 48543567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f0fb54773b6ab28a871b4a550e91dda5516c97c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 346e01359b3ffef50a15ad3a9c3502b1104d6e0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482662"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889002"
 ---
-# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="f23df-102">Database.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="f23df-102">Database.RecordsAffected Property (DAO)</span></span>
+# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="bd46b-102">Database.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="bd46b-102">Database.RecordsAffected Property (DAO)</span></span>
 
 
-<span data-ttu-id="f23df-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f23df-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="bd46b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd46b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f23df-104">Возвращает число записей, влияет на недавно вызванного метода **[Execute](connection-execute-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="f23df-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="bd46b-104">Возвращает число записей, влияет на недавно вызванного метода **[Execute](connection-execute-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="bd46b-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f23df-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f23df-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bd46b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="bd46b-105">Syntax</span></span>
 
-<span data-ttu-id="f23df-106">*выражение* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="f23df-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="bd46b-106">*выражение* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="bd46b-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="f23df-107">*выражение* Переменная, которая представляет собой объект **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="f23df-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="bd46b-107">*выражение* Переменная, которая представляет собой объект **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="bd46b-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f23df-108">Пример</span><span class="sxs-lookup"><span data-stu-id="f23df-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="bd46b-108">Пример</span><span class="sxs-lookup"><span data-stu-id="bd46b-108">Example</span></span>
 
-<span data-ttu-id="f23df-109">В этом примере используется свойство **RecordsAffected** с запросы действия, выполняемые из объекта **базы данных** и из объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="f23df-109">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object.</span></span> <span data-ttu-id="f23df-110">Функция RecordsAffectedOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="f23df-110">The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="bd46b-109">В этом примере используется свойство **RecordsAffected** с запросы действия, выполняемые из объекта **базы данных** и из объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="bd46b-109">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object.</span></span> <span data-ttu-id="bd46b-110">Функция RecordsAffectedOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="bd46b-110">The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 

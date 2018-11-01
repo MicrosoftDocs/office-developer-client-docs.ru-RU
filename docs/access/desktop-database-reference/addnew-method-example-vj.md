@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249023(v=office.15)
 ms:contentKeyID: 48543786
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c2d373e22445a064dc467c30e6ba9eb0c45a547d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: da4d1e32c4193fc75fcceb032dc11f4ab7de60de
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862585"
+ms.locfileid: "25888631"
 ---
-# <a name="addnew-method-example-vj"></a><span data-ttu-id="3f05b-102">Пример использования метода AddNew (VJ++)</span><span class="sxs-lookup"><span data-stu-id="3f05b-102">AddNew method example (VJ++)</span></span>
+# <a name="addnew-method-example-vj"></a><span data-ttu-id="b1959-102">Пример использования метода AddNew (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b1959-102">AddNew method example (VJ++)</span></span>
 
 
-<span data-ttu-id="3f05b-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f05b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b1959-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1959-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3f05b-104">В этом примере используется метод [AddNew](addnew-method-ado.md) , чтобы создать новую запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="3f05b-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="b1959-104">В этом примере используется метод [AddNew](addnew-method-ado.md) , чтобы создать новую запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="b1959-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```java 
  

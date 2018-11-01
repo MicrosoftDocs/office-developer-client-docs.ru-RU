@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844759(v=office.15)
 ms:contentKeyID: 48542947
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9ade6ba29ec2ee34be0de6abc067c3e591357556
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7b5a00c7bd170c6c7c4b054bc795385baeadca64
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482512"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887532"
 ---
-# <a name="recordset2delete-method-dao"></a><span data-ttu-id="19836-102">Recordset2.Delete Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="19836-102">Recordset2.Delete Method (DAO)</span></span>
+# <a name="recordset2delete-method-dao"></a><span data-ttu-id="ed559-102">Recordset2.Delete Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="ed559-102">Recordset2.Delete Method (DAO)</span></span>
 
 
-<span data-ttu-id="19836-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="19836-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ed559-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed559-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="19836-104">Не поддерживается для этого объекта.</span><span class="sxs-lookup"><span data-stu-id="19836-104">Not supported for this object.</span></span>
+<span data-ttu-id="ed559-104">Не поддерживается для этого объекта.</span><span class="sxs-lookup"><span data-stu-id="ed559-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="19836-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="19836-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ed559-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ed559-105">Syntax</span></span>
 
-<span data-ttu-id="19836-106">*выражение* . Удаление</span><span class="sxs-lookup"><span data-stu-id="19836-106">*expression* .Delete</span></span>
+<span data-ttu-id="ed559-106">*выражение* . Удаление</span><span class="sxs-lookup"><span data-stu-id="ed559-106">*expression* .Delete</span></span>
 
-<span data-ttu-id="19836-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="19836-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="ed559-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="ed559-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 

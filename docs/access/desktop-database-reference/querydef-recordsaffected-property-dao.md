@@ -10,33 +10,33 @@ f1_keywords:
 - dao360.chm1053082
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9377f61ec334f41b7f8ccba61b87a9d5953b4429
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 63762814d0eb90cccb86402dbd6284fd873aef73
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482080"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887805"
 ---
-# <a name="querydefrecordsaffected-property-dao"></a><span data-ttu-id="6dfa0-102">QueryDef.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="6dfa0-102">QueryDef.RecordsAffected Property (DAO)</span></span>
+# <a name="querydefrecordsaffected-property-dao"></a><span data-ttu-id="f1a2f-102">QueryDef.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1a2f-102">QueryDef.RecordsAffected Property (DAO)</span></span>
 
 
-<span data-ttu-id="6dfa0-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6dfa0-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f1a2f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1a2f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6dfa0-104">Возвращает число записей, влияет на недавно вызванного метода **[Execute](querydef-execute-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="6dfa0-104">Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="f1a2f-104">Возвращает число записей, влияет на недавно вызванного метода **[Execute](querydef-execute-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="f1a2f-104">Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6dfa0-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6dfa0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f1a2f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f1a2f-105">Syntax</span></span>
 
-<span data-ttu-id="6dfa0-106">*выражение* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="6dfa0-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="f1a2f-106">*выражение* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="f1a2f-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="6dfa0-107">*выражение* Переменная, которая представляет собой объект- **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="6dfa0-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="f1a2f-107">*выражение* Переменная, которая представляет собой объект- **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="f1a2f-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6dfa0-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="6dfa0-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f1a2f-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="f1a2f-108">Remarks</span></span>
 
-<span data-ttu-id="6dfa0-109">При использовании метода **Execute** для выполнения запроса из объекта **QueryDef** свойство **RecordsAffected** будет содержать число записей удален, обновляется или вставляется.</span><span class="sxs-lookup"><span data-stu-id="6dfa0-109">When you use the **Execute** method to run an action query from a **QueryDef** object, the **RecordsAffected** property will contain the number of records deleted, updated, or inserted.</span></span>
+<span data-ttu-id="f1a2f-109">При использовании метода **Execute** для выполнения запроса из объекта **QueryDef** свойство **RecordsAffected** будет содержать число записей удален, обновляется или вставляется.</span><span class="sxs-lookup"><span data-stu-id="f1a2f-109">When you use the **Execute** method to run an action query from a **QueryDef** object, the **RecordsAffected** property will contain the number of records deleted, updated, or inserted.</span></span>
 
-## <a name="example"></a><span data-ttu-id="6dfa0-110">Пример</span><span class="sxs-lookup"><span data-stu-id="6dfa0-110">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f1a2f-110">Пример</span><span class="sxs-lookup"><span data-stu-id="f1a2f-110">Example</span></span>
 
-<span data-ttu-id="6dfa0-111">В этом примере используется свойство **RecordsAffected** с запросы действия, выполняемые из объекта **[базы данных](database-object-dao.md)** и из объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="6dfa0-111">This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object.</span></span> <span data-ttu-id="6dfa0-112">Функция RecordsAffectedOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="6dfa0-112">The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="f1a2f-111">В этом примере используется свойство **RecordsAffected** с запросы действия, выполняемые из объекта **[базы данных](database-object-dao.md)** и из объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="f1a2f-111">This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object.</span></span> <span data-ttu-id="f1a2f-112">Функция RecordsAffectedOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="f1a2f-112">The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 

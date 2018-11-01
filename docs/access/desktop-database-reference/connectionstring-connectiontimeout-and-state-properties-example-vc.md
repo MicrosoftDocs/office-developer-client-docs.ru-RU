@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="d2c97-101"><<<<<<< Название HEAD: ConnectionString, ConnectionTimeout и TOCTitle пример свойств состояний (VC ++): ConnectionString, ConnectionTimeout и пример свойств состояний (VC ++) === название: ConnectionString, ConnectionTimeout и пример свойств состояний (VC ++) TOCTitle: пример: свойства ConnectionString, ConnectionTimeout и состояния (VC ++)</span><span class="sxs-lookup"><span data-stu-id="d2c97-101"><<<<<<< HEAD title: ConnectionString, ConnectionTimeout, and State Properties Example (VC++) TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VC++) ======= title: ConnectionString, ConnectionTimeout, and State properties example (VC++) TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="d2c97-102">главные ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15) ms:contentKeyID: 48544254 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="d2c97-102">master ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15) ms:contentKeyID: 48544254 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойств ConnectionString, ConnectionTimeout и State (VC++)
+TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VC++)
+ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15)
+ms:contentKeyID: 48544254
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ad2bb36a6e3b714a1fb5730978877d09637d141c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878908"
 ---
-
-<span data-ttu-id="d2c97-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="d2c97-103"><<<<<<< HEAD</span></span>
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a><span data-ttu-id="d2c97-104">ConnectionString, ConnectionTimeout, and State Properties Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="d2c97-104">ConnectionString, ConnectionTimeout, and State Properties Example (VC++)</span></span>
-=======
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a><span data-ttu-id="d2c97-105">Пример: свойства ConnectionString, ConnectionTimeout и состояния (VC ++)</span><span class="sxs-lookup"><span data-stu-id="d2c97-105">ConnectionString, ConnectionTimeout, and State properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="d2c97-106">master</span><span class="sxs-lookup"><span data-stu-id="d2c97-106">master</span></span>
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a><span data-ttu-id="1238a-102">Пример использования свойств ConnectionString, ConnectionTimeout и State (VC++)</span><span class="sxs-lookup"><span data-stu-id="1238a-102">ConnectionString, ConnectionTimeout, and State properties example (VC++)</span></span>
 
 
-<span data-ttu-id="d2c97-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2c97-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1238a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1238a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2c97-108">В этом примере демонстрируется различные способы использования свойства [ConnectionString](connectionstring-property-ado.md) для открытия объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="d2c97-108">This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="d2c97-109">Он также использует свойство [ConnectionTimeout](connectiontimeout-property-ado.md) , чтобы задать период времени ожидания и свойство [состояние](state-property-ado.md) для проверки состояния подключения.</span><span class="sxs-lookup"><span data-stu-id="d2c97-109">It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections.</span></span> <span data-ttu-id="d2c97-110">Функция GetState является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="d2c97-110">The GetState function is required for this procedure to run.</span></span>
+<span data-ttu-id="1238a-104">В этом примере демонстрируется различные способы использования свойства [ConnectionString](connectionstring-property-ado.md) для открытия объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="1238a-104">This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="1238a-105">Он также использует свойство [ConnectionTimeout](connectiontimeout-property-ado.md) , чтобы задать период времени ожидания и свойство [состояние](state-property-ado.md) для проверки состояния подключения.</span><span class="sxs-lookup"><span data-stu-id="1238a-105">It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections.</span></span> <span data-ttu-id="1238a-106">Функция GetState является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="1238a-106">The GetState function is required for this procedure to run.</span></span>
 
 ```cpp 
  
