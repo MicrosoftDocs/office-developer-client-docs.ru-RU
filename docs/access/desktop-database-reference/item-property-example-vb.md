@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle примере свойство Item (VB): примере свойство Item (VB) === название: пример свойства элемента (VB) TOCTitle: пример свойства элемента (VB)
->>>>>>> главные ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15) ms:contentKeyID: 48548430 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Item (VB)
+TOCTitle: Item property example (VB)
+ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
+ms:contentKeyID: 48548430
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 5601363e072585e731af58d117c219b363271f0e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881554"
 ---
-
-<<<<<<< HEAD
-# <a name="item-property-example-vb"></a>Item Property Example (VB)
-=======
-# <a name="item-property-example-vb"></a>Пример свойства элемента (VB)
->>>>>>> master
+# <a name="item-property-example-vb"></a>Пример использования свойства Item (VB)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции. В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37f66f6ef6c4ed63b106584a6ac5118cddf20526
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 3ee4805f89d6a6a9d114c4347d808be61683efe6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861205"
+ms.locfileid: "25880616"
 ---
 # <a name="batch-mode"></a>Пакетный режим
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Пакетном режиме — в случае свойство **LockType для** задано значение **adLockBatchOptimistic** и обновление пакета поддерживается поставщиком. Некоторые параметры типа блокировки, недоступны в зависимости от расположения курсора. Например тип жесткой блокировки недоступен при **CursorLocation** задано значение **adUseClient**. И наоборот поставщик может не поддерживать оптимистичный блокировки пакета при положения курсора на сервере. Следует использовать пакетного обновления с набором ключей или статических текущей позиции.
 

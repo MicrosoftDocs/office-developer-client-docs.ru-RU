@@ -23,7 +23,7 @@ ms.locfileid: "22577172"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Регистрация для получения уведомлений о указанного события, которые влияют на сеанс.
   
@@ -95,9 +95,9 @@ fnevSearchComplete
   
 > [out] Указатель на ненулевое число, представляющее соединение между вызывающего абонента уведомить объект приемника и сеанса.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Регистрация прошла успешно.
     
@@ -133,11 +133,11 @@ MAPI_E_UNKNOWN_ENTRYID
   
 Дополнительные сведения об обработке уведомлений можно [Обработки уведомлений](handling-notifications.md). 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |Mfcmapi (en) использует метод **IMAPISession::Advise** для регистрации уведомлений от сеанса.  <br/> |
    
@@ -156,7 +156,7 @@ MAPI_E_UNKNOWN_ENTRYID
 [IMAPISession: IUnknown](imapisessioniunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Уведомление о событиях в MAPI](event-notification-in-mapi.md)
+[Уведомление о событии в MAPI](event-notification-in-mapi.md)
 

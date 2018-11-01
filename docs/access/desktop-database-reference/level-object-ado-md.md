@@ -1,22 +1,22 @@
 ---
-title: Level Object (ADO MD)
+title: Объект уровня (ADO MD)
 TOCTitle: Level Object (ADO MD)
 ms:assetid: ddbcabce-8777-1068-98a3-be209084f497
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250121(v=office.15)
 ms:contentKeyID: 48548160
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13fce901860768064d450a64c44545f3c3244453
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d6137e35d43153d7d9d36f23e1bdbe9fc80a442d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480126"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881442"
 ---
-# <a name="level-object-ado-md"></a>Level Object (ADO MD)
+# <a name="level-object-ado-md"></a>Объект уровня (ADO MD)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Содержит набор элементов, каждый из которых содержит один и тот же ранг в иерархии.
 

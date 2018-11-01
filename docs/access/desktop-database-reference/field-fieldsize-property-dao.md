@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823165(v=office.15)
 ms:contentKeyID: 48547645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4de733dd88be212779d3ab9d9b562d4741492a87
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f757752e32ec45fa2b7d2c82f133078d70b64a5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482605"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877599"
 ---
 # <a name="fieldfieldsize-property-dao"></a>Field.FieldSize Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 
 Возвращает число байтов, используемых в базе данных (а не в памяти) объекта Memo или Long Binary **[поле](field-object-dao.md)** в коллекции **[полей](fields-collection-dao.md)** объекта **[набора записей](recordset-object-dao.md)** .

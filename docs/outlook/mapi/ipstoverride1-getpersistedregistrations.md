@@ -23,7 +23,7 @@ ms.locfileid: "22575870"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получение списка регистраций для файл личных папок (PST).
   
@@ -40,9 +40,9 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 > [!NOTE]
 > Поддержка .pst ANSI не реализован. 
   
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Вызов функции прошла успешно.
     

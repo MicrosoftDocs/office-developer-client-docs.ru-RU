@@ -1,22 +1,22 @@
 ---
-title: ADO Error Reference
+title: Справочник по об ошибках ADO
 TOCTitle: ADO Error Reference
 ms:assetid: 21cec161-664a-4c18-4458-8117f4f63845
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248997(v=office.15)
 ms:contentKeyID: 48543690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53dfb03616b0610ed580f4e576f4c48ef3be8525
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8c1308b084efbf68233e9647cfed26d905d56400
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482710"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878775"
 ---
-# <a name="ado-error-reference"></a>ADO Error Reference
+# <a name="ado-error-reference"></a>Справочник по об ошибках ADO
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Константа **ErrorValueEnum** описаны значения ошибка ADO. Полный список эти перечисленные константы, включая значения отображаются [Ошибки ADO B: приложение](appendix-b-ado-errors.md). В этом разделе будет проверить некоторые из наиболее интересных ошибок и описываются некоторые конкретных ситуаций, которые могут вызывать их или с помощью решений для решения проблемы. Перечисленные константы **ErrorValueEnum** и короткий положительное десятичное число.
 

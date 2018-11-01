@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249296(v=office.15)
 ms:contentKeyID: 48544978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e1b552ac2774fe0c5d47c19924219800e5bdf865
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 092e14f314b4bba1e49cbb4ad7707aad0311bfbc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480634"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880448"
 ---
 # <a name="the-significance-of-cursor-location"></a>The Significance of Cursor Location
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Каждые курсор использует временные ресурсы для хранения своих данных. Эти ресурсы может быть памяти, размер файла подкачки диска, временные файлы или даже временной базы данных. Курсор вызывает курсора *со стороны клиента* , эти ресурсы расположены на клиентском компьютере. Курсор вызывает курсора *на сервере* , эти ресурсы, находятся на сервере.
 

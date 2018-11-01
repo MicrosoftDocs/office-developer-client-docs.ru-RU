@@ -21,7 +21,7 @@ ms.locfileid: "22587623"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Регистрирует файлы личных папок (PST) для автоматического разблокирование Предотвращение дальнейшие вызовы HrTrustedPSTOverrideHandlerCallback.
   
@@ -44,9 +44,9 @@ _pmval_
 > [!NOTE]
 > SPropValue хранится в свойстве MAPI в диапазоне внутренних PST-файлов. Это свойство недоступно для обычных приложений MAPI. 
   
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Вызов функции прошла успешно.
     

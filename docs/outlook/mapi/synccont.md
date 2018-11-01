@@ -17,7 +17,7 @@ ms.locfileid: "22584676"
 ---
 # <a name="synccont"></a>SYNCCONT
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сведения о синхронизации содержимое указанных папках в локальном хранилище с сервером во время [синхронизации состояние содержимого](synchronize-contents-state.md). Это включает в себя только что отправку пользователями или полную синхронизацию, передаваемых и выберите файл для загрузки.
   
@@ -35,7 +35,7 @@ struct SYNCCONT
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 _ulFlags_
   
@@ -69,5 +69,5 @@ _psosReserved_
 
 - [Сведения об API репликации](about-the-replication-api.md)
 - [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 

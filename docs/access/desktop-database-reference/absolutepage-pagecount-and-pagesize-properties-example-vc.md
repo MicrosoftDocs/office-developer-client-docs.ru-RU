@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: AbsolutePage, PageCount и TOCTitle пример: свойства PageSize (VC ++): AbsolutePage, PageCount и пример: свойства PageSize (VC ++) ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15) MS:contentKeyID: 48546133 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойств AbsolutePage, PageCount и PageSize (VC++)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++)
+ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)
+ms:contentKeyID: 48546133
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 70415069254edf731734dcd742d8d7bfd36f74d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891271"
 ---
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage, PageCount, and PageSize Properties Example (VC++)
-=== Название: пример: свойства AbsolutePage, PageCount и PageSize (VC ++) TOCTitle: AbsolutePage, PageCount и PageSize ms:assetid пример (VC ++) свойства: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15) ms:contentKeyID: 48546133 ms.date: 10/17/2018 mtps_version: v=office.15
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>Пример: свойства AbsolutePage, PageCount и PageSize (VC ++)
->>>>>>> master
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>Пример использования свойств AbsolutePage, PageCount и PageSize (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере с помощью свойства [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md)и [PageSize](pagesize-property-ado.md) отображаемые имена и даты из таблицы ***сотрудников*** пять записей во время приема на работу.
 

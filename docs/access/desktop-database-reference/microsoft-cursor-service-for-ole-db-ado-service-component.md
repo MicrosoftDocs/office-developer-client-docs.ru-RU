@@ -1,22 +1,22 @@
 ---
-title: Microsoft Cursor Service for OLE DB (ADO Service Component)
+title: Служба курсоров (Майкрософт) для OLE DB (компонент службы ADO)
 TOCTitle: Microsoft Cursor Service for OLE DB (ADO Service Component)
 ms:assetid: 6818fc05-9c9f-9b67-07d2-e622c93133c2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249405(v=office.15)
 ms:contentKeyID: 48545376
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 175023f12d1efa23422afb15e693d44976421cc0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1f164e2671fb27a8e8a8721010bdad518f2d199e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480602"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879052"
 ---
-# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Microsoft Cursor Service for OLE DB (ADO Service Component)
+# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Служба курсоров (Майкрософт) для OLE DB (компонент службы ADO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Служба курсора для OLE DB дополняет функции поддержки курсора поставщиков данных. В результате пользователь понимает относительно универсальный код функции из всех поставщиков данных.
 

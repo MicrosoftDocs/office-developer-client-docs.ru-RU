@@ -23,7 +23,7 @@ ms.locfileid: "22579867"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Устаревшие: Рекомендуется использовать [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) . Добавление службы сообщений для текущего профиля. 
   
@@ -70,9 +70,9 @@ SERVICE_UI_ALWAYS
   
 > Служба сообщений отображается окно свойств конфигурации.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -108,11 +108,11 @@ MAPI_E_NOT_FOUND
 > [!IMPORTANT]
 > _UlFlags_ SERVICE_NO_RESTART_WARNING не могут быть определены в файле загружаемых заголовка в настоящий момент, в этом случае можно добавить его в код с помощью следующее значение: >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |Mfcmapi (en) использует метод **IMsgServiceAdmin::CreateMsgService** для добавления в профиль службы.  <br/> |
    

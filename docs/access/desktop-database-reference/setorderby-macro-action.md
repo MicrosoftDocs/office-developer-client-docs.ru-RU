@@ -1,5 +1,5 @@
 ---
-title: SetOrderBy Macro Action
+title: Действия макроса ЗадатьПорядокСортировки
 TOCTitle: SetOrderBy Macro Action
 ms:assetid: 78f65ce9-b56f-f476-3bd6-f3307bc22a08
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196152(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm98639
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3f14ea2fb2c41058fe15764c3f06931ffd0dc9ae
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ac911110d313243879d6dff993061d58c208cd34
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482028"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876220"
 ---
-# <a name="setorderby-macro-action"></a>SetOrderBy Macro Action
+# <a name="setorderby-macro-action"></a>Действия макроса ЗадатьПорядокСортировки
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **ЗадатьПорядокСортировки** можно использовать для указания способа сортировки записей формы, отчета, таблицы или результата запроса.
 

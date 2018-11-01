@@ -23,7 +23,7 @@ ms.locfileid: "22589646"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Обеспечивает преобразование между объектами MIME и сообщения MAPI. Это может быть полезно в обмен сообщениями через Интернет.
   
@@ -59,5 +59,5 @@ ms.locfileid: "22589646"
 
 [Сведения об API преобразования MAPI-MIME](about-the-mapi-mime-conversion-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

@@ -1,21 +1,21 @@
 ---
-title: More Ways to Move in a Recordset
+title: Дополнительные способы перемещения по набору записей
 TOCTitle: More Ways to Move in a Recordset
 ms:assetid: ae49b20e-0050-c44b-67e9-7e39de5098c4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249822(v=office.15)
 ms:contentKeyID: 48547067
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a9a98471a73f5e3471d55ba6e81689dd39a5934
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: af1ce2c9b79d150a6949619026eff8b7bdbbd0ef
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480342"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875863"
 ---
-# <a name="more-ways-to-move-in-a-recordset"></a>More Ways to Move in a Recordset
+# <a name="more-ways-to-move-in-a-recordset"></a>Дополнительные способы перемещения по набору записей
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Следующие четыре метода используются для перемещения или прокрутите список в **записей**: [MoveFirst, MoveLast, MoveNext и MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md). (Некоторые из этих методов недоступны на курсоров.)
 

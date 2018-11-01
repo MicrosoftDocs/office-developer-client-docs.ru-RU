@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства источника (VC ++) TOCTitle: пример свойства источника (VC ++) === название: пример свойства источника (VC ++) TOCTitle: пример свойства источника (VC ++)
->>>>>>> главные ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15) ms:contentKeyID: 48543949 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Source (VC++)
+TOCTitle: Source property example (VC++)
+ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15)
+ms:contentKeyID: 48543949
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d977f962e08ba8497392582fb26cfbf1d8691a28
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881204"
 ---
-
-<<<<<<< HEAD
-# <a name="source-property-example-vc"></a>Source Property Example (VC++)
-=======
-# <a name="source-property-example-vc"></a>Пример свойства источника (VC ++)
->>>>>>> master
+# <a name="source-property-example-vc"></a>Пример использования свойства Source (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере показано свойство [Source](source-property-ado-recordset.md) , открыв три объекты [набора записей](recordset-object-ado.md) по различным источникам данных.
 

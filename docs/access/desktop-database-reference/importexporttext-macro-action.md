@@ -1,5 +1,5 @@
 ---
-title: ImportExportText Macro Action
+title: Действия макроса ImportExportText
 TOCTitle: ImportExportText Macro Action
 ms:assetid: 366fa095-6f09-7c22-e734-bfa585cfe79e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192475(v=office.15)
@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm168097
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c4ea6feeec4c8d4189b80354e41a01de61da4e30
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5ded11512def101bc27dfb843d2315f9f4105fb5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482168"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891228"
 ---
-# <a name="importexporttext-macro-action"></a>ImportExportText Macro Action
+# <a name="importexporttext-macro-action"></a>Действия макроса ImportExportText
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **ImportExportText** можно использовать для импорта или экспорта текста между текущей базы данных Microsoft Access (MDB- или .accdb) или проект Microsoft Access (файлы с расширением ADP) и в текстовый файл. Также можно связать данные в текстовый файл текущей базы данных Access. С помощью связанного текстового файла можно просмотреть текстовых данных с доступом по-прежнему предоставляя полный доступ к данным из программы обработки текста. Также импортировать из, экспортировать и ссылка на таблицы или списка в файле HTML (\*.html).
 

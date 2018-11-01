@@ -23,7 +23,7 @@ ms.locfileid: "22574386"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит имена свойств, которые соответствуют один или несколько идентификаторов свойств.
   
@@ -67,9 +67,9 @@ MAPI_NO_STRINGS
   
 > [out] Указатель на массив указатели на [MAPINAMEID](mapinameid.md) структуры, содержащий имена свойств. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Имена свойств были успешно возвращен. 
     
@@ -113,7 +113,7 @@ MAPI_E_INVALID_PARAMETER
     
 - Задает содержимое _lpppPropNames_ значение NULL. 
     
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Если _lpPropSetGuid_ указывает на свойство набора и _lppPropTags_ имеет значение NULL, результат является неопределенным. Можно использовать один из следующих стратегий: 
   
@@ -133,11 +133,11 @@ MAPI_E_INVALID_PARAMETER
   
 Дополнительные сведения об именованных свойств в разделе [Свойства с именем MAPI](mapi-named-properties.md). 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedProps  <br/> |Mfcmapi (en) использует метод **IMAPIProp::GetNamesFromIDs** для поиска именованных свойств, которые ранее были сопоставлены.  <br/> |
    
@@ -145,7 +145,7 @@ MAPI_E_INVALID_PARAMETER
 
 
 
-[ИДЕНТИФИКАТОР GUID](guid.md)
+[GUID](guid.md)
   
 [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)
   
@@ -160,9 +160,9 @@ MAPI_E_INVALID_PARAMETER
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[Mfcmapi (en) � �������� ������� ����](mfcmapi-as-a-code-sample.md)
+[MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
 [Именованные свойства MAPI](mapi-named-properties.md)
   
-[Обработка ошибок с помощью макросов](using-macros-for-error-handling.md)
+[Использование макросов для обработки ошибок](using-macros-for-error-handling.md)
 

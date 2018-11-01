@@ -1,16 +1,22 @@
 ---
-<<<<<<< Заголовок HEAD: пример свойства атрибуты (VC ++) TOCTitle: пример свойства атрибуты (VC ++) === заголовок: пример свойства атрибуты (VC ++) TOCTitle: пример свойства атрибуты (VC ++)
->>>>>>> главные ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15) ms:contentKeyID: 48542976 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Attributes (VC++)
+TOCTitle: Attributes property example (VC++)
+ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
+ms:contentKeyID: 48542976
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6c68c163b08c3d7b2be66e072daa2f3895ffef0e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891265"
 ---
-
-<<<<<<< HEAD
-# <a name="attributes-property-example-vc"></a>Attributes Property Example (VC++)
-=======
-# <a name="attributes-property-example-vc"></a>Пример свойства атрибуты (VC ++)
->>>>>>> master
+# <a name="attributes-property-example-vc"></a>Пример использования свойства Attributes (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере свойство [Attributes](attributes-property-adox.md) [столбца](column-object-adox.md). Установка его **adColNullable** пользователь может задать значение [набора записей](recordset-object-ado.md)[поля](field-object-ado.md) пустую строку. В этом случае пользователь может различать записи, где неизвестно данных и запись, где данные не применяется.
 

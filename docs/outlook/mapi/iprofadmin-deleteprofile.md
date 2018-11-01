@@ -23,7 +23,7 @@ ms.locfileid: "22572091"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Удаляет профиль.
   
@@ -44,9 +44,9 @@ HRESULT DeleteProfile(
   
 > [in] Всегда имеет значение NULL. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Профиль успешно удален.
     
@@ -62,11 +62,11 @@ MAPI_E_NOT_FOUND
   
 Чтобы удалить профиль необходим не пароль.
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |Mfcmapi (en) метод **IProfAdmin::DeleteProfile** используется для удаления выбранного профиля.  <br/> |
    

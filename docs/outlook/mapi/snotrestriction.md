@@ -23,7 +23,7 @@ ms.locfileid: "22575065"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Описываются ограничения **не** , который используется для применения к ограничению логическая операция **не** . 
   
@@ -40,7 +40,7 @@ typedef struct _SNotRestriction
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  **ulReserved**
   

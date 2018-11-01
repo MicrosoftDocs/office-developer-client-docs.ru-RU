@@ -19,13 +19,13 @@ ms.locfileid: "22595218"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 The requirements for supporting properties that have multiple values are documented in [����� ������� MAPI](mapi-property-overview.md). Multiple-value property support is not required for message store providers, but it is recommended, particularly for default message store providers. Some other features, such as folder form libraries, do require multiple-value property support.
   
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 
-[���������� ��������� � �������� ���������](implementing-messages-in-message-stores.md)
+[Включение сообщений в хранилищах сообщений](implementing-messages-in-message-stores.md)
 

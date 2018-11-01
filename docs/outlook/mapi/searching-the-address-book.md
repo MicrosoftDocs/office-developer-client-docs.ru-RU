@@ -1,5 +1,5 @@
 ---
-title: Поиск в адресной книге
+title: Поиск по адресной книге
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22595127"
 ---
-# <a name="searching-the-address-book"></a>Поиск в адресной книге
+# <a name="searching-the-address-book"></a>Поиск по адресной книге
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 MAPI ��������� ������������ �������� ����� ��� ���������� ���� ������� ������� ������:
   

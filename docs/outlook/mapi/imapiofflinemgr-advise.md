@@ -23,7 +23,7 @@ ms.locfileid: "22586937"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Регистрация клиента для получения обратных вызовов для автономного объекта.
   
@@ -49,9 +49,9 @@ HRESULT COfflineObj::Advise(
   
 > [out] Маркер уведомлений, возвращаются вызывающему клиента для впоследствии Отмена обратного вызова для объекта.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK
+S_OK
   
 > Вызов выполнен успешно.
     
@@ -76,7 +76,7 @@ E_NOINTERFACE
 [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [HrOpenOfflineObj](hropenofflineobj.md)
 

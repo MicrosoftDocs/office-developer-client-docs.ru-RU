@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249272(v=office.15)
 ms:contentKeyID: 48544867
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2ca63d6797f31768dfec9d0d28d9c1f9c577f55a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c461594687cc8be53a526920a6fcd6ff15a864a8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860366"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891193"
 ---
 # <a name="marshaloptionsenum"></a>MarshalOptionsEnum
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает, какие записи должны быть возвращены на сервер.
 

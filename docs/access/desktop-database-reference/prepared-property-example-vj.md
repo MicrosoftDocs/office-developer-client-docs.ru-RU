@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: TOCTitle подготовлено пример свойства (VJ ++): подготовлено пример свойства (VJ ++) === название: пример свойства подготовленный (VJ ++) TOCTitle: пример свойства подготовленный (VJ ++)
->>>>>>> главные ms:assetid: 4b8402c2-9604-aaba-ba75-43161a8df9c8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15) ms:contentKeyID: 48544693 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства Prepared (VJ++)
+TOCTitle: Prepared property example (VJ++)
+ms:assetid: 4b8402c2-9604-aaba-ba75-43161a8df9c8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15)
+ms:contentKeyID: 48544693
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4f275585d784845c3292901bbacabdcc1c4ab931
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878446"
 ---
-
-<<<<<<< HEAD
-# <a name="prepared-property-example-vj"></a>Prepared Property Example (VJ++)
-=======
-# <a name="prepared-property-example-vj"></a>Пример свойства подготовленный (VJ ++)
->>>>>>> master
+# <a name="prepared-property-example-vj"></a>Пример использования свойства Prepared (VJ++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере демонстрируется свойство [подготовленных](prepared-property-ado.md) , открыв два объекта [команд](command-object-ado.md) — подготовлено и не подготовлен.
 

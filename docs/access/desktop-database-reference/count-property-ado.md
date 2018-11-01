@@ -1,24 +1,26 @@
 ---
-<<<<<<< Название HEAD: TOCTitle свойство Count (ADO): свойство Count (ADO) === название: (ADO) свойство Count TOCTitle: Count свойство (ADO)
->>>>>>> главные ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15) ms:contentKeyID: 48547253 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Свойство Count (ADO)
+TOCTitle: Count property (ADO)
+ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15)
+ms:contentKeyID: 48547253
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c710b02678940d898f910ef5215d879cd6ded163
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880861"
 ---
-
-<<<<<<< HEAD
-# <a name="count-property-ado"></a>Count Property (ADO)
-=======
 # <a name="count-property-ado"></a>Свойство Count (ADO)
->>>>>>> master
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Указывает число объектов в коллекции.
 
-<<<<<<< HEAD
 ## <a name="return-value"></a>Возвращаемое значение
-=======
-## <a name="return-value"></a>Возвращаемое значение
->>>>>>> master
 
 Возвращает значение типа **Long** .
 

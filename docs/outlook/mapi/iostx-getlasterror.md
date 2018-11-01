@@ -23,7 +23,7 @@ ms.locfileid: "22584683"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получает расширенные сведения о последней ошибки.
   
@@ -68,5 +68,5 @@ HRESULT GetLastError(
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

@@ -1,5 +1,5 @@
 ---
-title: GoToPage Macro Action
+title: Действия НаСтраницу макроса
 TOCTitle: GoToPage Macro Action
 ms:assetid: 611aadff-83b7-e74d-4093-93fb5ce6e3ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194858(v=office.15)
@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc7777535fdba5bcb1f6ace167e23e1294f13960
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b183b7815769c1eed8c3ee0826167b93453ca19d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480714"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891312"
 ---
-# <a name="gotopage-macro-action"></a>GoToPage Macro Action
+# <a name="gotopage-macro-action"></a>Действия НаСтраницу макроса
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Действие **НаСтраницу** можно использовать для перемещения фокуса в активной форме на первый элемент управления на указанной странице. Это действие можно использовать при создании формы с разрывов страниц, которые содержит группы связанные сведения. К примеру может иметь форму сотрудников с персональными данными на одну страницу, сведения о office на другую страницу и сведения о продажах на третьей страницы. Действие **НаСтраницу** можно использовать для перемещения на нужную страницу. Также можно представить несколько страниц сведения для одной формы с помощью элементов управления вкладки.
 

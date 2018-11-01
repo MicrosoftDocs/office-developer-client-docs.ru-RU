@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821452(v=office.15)
 ms:contentKeyID: 48546941
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb3d73cc236821d56e2151d80cf0e0aba241b8c9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ecaddcb30428b167811ab1eafcec149deb4da3ba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25480870"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891305"
 ---
 # <a name="recordsetrecordcount-property-dao"></a>Recordset.RecordCount Property (DAO)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 Возвращает число записей в объект **[набора записей](recordset-object-dao.md)** или общее число записей в таблице тип объекта **набора записей** . или **[TableDef](tabledef-object-dao.md)** объект. Только для чтения **времени**.
 

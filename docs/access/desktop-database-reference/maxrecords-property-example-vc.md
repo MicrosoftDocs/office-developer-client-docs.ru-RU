@@ -1,16 +1,22 @@
 ---
-<<<<<<< Название HEAD: пример свойства MaxRecords (VC ++) TOCTitle: пример свойства MaxRecords (VC ++) === название: пример свойства MaxRecords (VC ++) TOCTitle: пример свойства MaxRecords (VC ++)
->>>>>>> главные ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15) ms:contentKeyID: 48542910 ms.date: 09/18/2015 mtps_version: v=office.15
+title: Пример использования свойства MaxRecords (VC++)
+TOCTitle: MaxRecords property example (VC++)
+ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15)
+ms:contentKeyID: 48542910
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: dfd310d635f347bf3ad49b2cc8332c2bde84322e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891221"
 ---
-
-<<<<<<< HEAD
-# <a name="maxrecords-property-example-vc"></a>MaxRecords Property Example (VC++)
-=======
-# <a name="maxrecords-property-example-vc"></a>Пример свойства MaxRecords (VC ++)
->>>>>>> master
+# <a name="maxrecords-property-example-vc"></a>Пример использования свойства MaxRecords (VC++)
 
 
-**Применимо к**: Access 2013 | Office 2013
+**Применимо к**: Access 2013, Office 2013
 
 В этом примере используется свойство [MaxRecords](maxrecords-property-ado.md) для открытия [набора записей](recordset-object-ado.md) , содержащий 10 самых больших затрат заголовков в таблице ***заголовки*** .
 
