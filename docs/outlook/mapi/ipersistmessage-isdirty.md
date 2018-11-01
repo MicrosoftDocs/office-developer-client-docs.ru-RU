@@ -19,39 +19,39 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22576206"
 ---
-# <a name="ipersistmessageisdirty"></a><span data-ttu-id="437b1-103">IPersistMessage::IsDirty</span><span class="sxs-lookup"><span data-stu-id="437b1-103">IPersistMessage::IsDirty</span></span>
+# <a name="ipersistmessageisdirty"></a><span data-ttu-id="d25d1-103">IPersistMessage::IsDirty</span><span class="sxs-lookup"><span data-stu-id="d25d1-103">IPersistMessage::IsDirty</span></span>
 
   
   
-<span data-ttu-id="437b1-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="437b1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d25d1-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d25d1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="437b1-105">Проверяет формы для изменения, внесенные с момента последнего сохранения.</span><span class="sxs-lookup"><span data-stu-id="437b1-105">Checks the form for changes that were made since the last save.</span></span>
+<span data-ttu-id="d25d1-105">Проверяет формы для изменения, внесенные с момента последнего сохранения.</span><span class="sxs-lookup"><span data-stu-id="d25d1-105">Checks the form for changes that were made since the last save.</span></span>
   
 ```cpp
 HRESULT IsDirty( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="437b1-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="437b1-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d25d1-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="d25d1-106">Parameters</span></span>
 
-<span data-ttu-id="437b1-107">None</span><span class="sxs-lookup"><span data-stu-id="437b1-107">None</span></span>
+<span data-ttu-id="d25d1-107">None</span><span class="sxs-lookup"><span data-stu-id="d25d1-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="437b1-108">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="437b1-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d25d1-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="d25d1-108">Return value</span></span>
 
-<span data-ttu-id="437b1-109">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="437b1-109">S_OK</span></span> 
+<span data-ttu-id="d25d1-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="d25d1-109">S_OK</span></span> 
   
-> <span data-ttu-id="437b1-110">Форма содержит изменения, внесенные с момента последнего сохранения.</span><span class="sxs-lookup"><span data-stu-id="437b1-110">The form has changes that were made since it was last saved.</span></span>
+> <span data-ttu-id="d25d1-110">Форма содержит изменения, внесенные с момента последнего сохранения.</span><span class="sxs-lookup"><span data-stu-id="d25d1-110">The form has changes that were made since it was last saved.</span></span>
     
-<span data-ttu-id="437b1-111">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="437b1-111">S_FALSE</span></span> 
+<span data-ttu-id="d25d1-111">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="d25d1-111">S_FALSE</span></span> 
   
-> <span data-ttu-id="437b1-112">Форма не имеет изменения, внесенные с момента последнего сохранения.</span><span class="sxs-lookup"><span data-stu-id="437b1-112">The form does not have changes that were made since it was last saved.</span></span>
+> <span data-ttu-id="d25d1-112">Форма не имеет изменения, внесенные с момента последнего сохранения.</span><span class="sxs-lookup"><span data-stu-id="d25d1-112">The form does not have changes that were made since it was last saved.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="437b1-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="437b1-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d25d1-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="d25d1-113">Remarks</span></span>
 
-<span data-ttu-id="437b1-114">Средства просмотра формы вызовите метод **IPersistMessage::IsDirty** , чтобы определить, имеет ли сообщение несохраненные данные.</span><span class="sxs-lookup"><span data-stu-id="437b1-114">Form viewers call the **IPersistMessage::IsDirty** method to determine whether the message has unsaved data.</span></span> 
+<span data-ttu-id="d25d1-114">Средства просмотра формы вызовите метод **IPersistMessage::IsDirty** , чтобы определить, имеет ли сообщение несохраненные данные.</span><span class="sxs-lookup"><span data-stu-id="d25d1-114">Form viewers call the **IPersistMessage::IsDirty** method to determine whether the message has unsaved data.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="437b1-115">См. также</span><span class="sxs-lookup"><span data-stu-id="437b1-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d25d1-115">См. также</span><span class="sxs-lookup"><span data-stu-id="d25d1-115">See also</span></span>
 
 
 
-[<span data-ttu-id="437b1-116">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="437b1-116">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
+[<span data-ttu-id="d25d1-116">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d25d1-116">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
 

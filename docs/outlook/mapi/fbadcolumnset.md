@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22575100"
 ---
-# <a name="fbadcolumnset"></a><span data-ttu-id="dc4c7-103">FBadColumnSet</span><span class="sxs-lookup"><span data-stu-id="dc4c7-103">FBadColumnSet</span></span>
+# <a name="fbadcolumnset"></a><span data-ttu-id="62ce3-103">FBadColumnSet</span><span class="sxs-lookup"><span data-stu-id="62ce3-103">FBadColumnSet</span></span>
 
   
   
-<span data-ttu-id="dc4c7-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dc4c7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="62ce3-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="62ce3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="dc4c7-105">Тестов, задайте действия столбец таблицы для использования поставщиком услуг в последующих вызов метода [IMAPITable::SetColumns](imapitable-setcolumns.md) .</span><span class="sxs-lookup"><span data-stu-id="dc4c7-105">Tests the validity of a table column set for use by a service provider in a subsequent call to the [IMAPITable::SetColumns](imapitable-setcolumns.md) method.</span></span> 
+<span data-ttu-id="62ce3-105">Тестов, задайте действия столбец таблицы для использования поставщиком услуг в последующих вызов метода [IMAPITable::SetColumns](imapitable-setcolumns.md) .</span><span class="sxs-lookup"><span data-stu-id="62ce3-105">Tests the validity of a table column set for use by a service provider in a subsequent call to the [IMAPITable::SetColumns](imapitable-setcolumns.md) method.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="dc4c7-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="dc4c7-106">Header file:</span></span>  <br/> |<span data-ttu-id="dc4c7-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="dc4c7-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="dc4c7-108">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="dc4c7-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="dc4c7-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="dc4c7-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="dc4c7-110">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="dc4c7-110">Called by:</span></span>  <br/> |<span data-ttu-id="dc4c7-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="dc4c7-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="62ce3-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="62ce3-106">Header file:</span></span>  <br/> |<span data-ttu-id="62ce3-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="62ce3-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="62ce3-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="62ce3-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="62ce3-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="62ce3-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="62ce3-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="62ce3-110">Called by:</span></span>  <br/> |<span data-ttu-id="62ce3-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="62ce3-111">Service providers</span></span>  <br/> |
    
 ```cpp
 ULONG FBadColumnSet(
@@ -39,24 +39,24 @@ ULONG FBadColumnSet(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="dc4c7-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="dc4c7-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="62ce3-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="62ce3-112">Parameters</span></span>
 
- <span data-ttu-id="dc4c7-113">_lpptaCols_</span><span class="sxs-lookup"><span data-stu-id="dc4c7-113">_lpptaCols_</span></span>
+ <span data-ttu-id="62ce3-113">_lpptaCols_</span><span class="sxs-lookup"><span data-stu-id="62ce3-113">_lpptaCols_</span></span>
   
-> <span data-ttu-id="dc4c7-114">[in] Указатель на структуру [SPropTagArray](sproptagarray.md) , который содержит массив тегов свойств, определение столбцов в таблице для проверки.</span><span class="sxs-lookup"><span data-stu-id="dc4c7-114">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags defining the table columns to validate.</span></span> 
+> <span data-ttu-id="62ce3-114">[in] Указатель на структуру [SPropTagArray](sproptagarray.md) , который содержит массив тегов свойств, определение столбцов в таблице для проверки.</span><span class="sxs-lookup"><span data-stu-id="62ce3-114">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags defining the table columns to validate.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="dc4c7-115">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="dc4c7-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="62ce3-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="62ce3-115">Return value</span></span>
 
-<span data-ttu-id="dc4c7-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="dc4c7-116">TRUE</span></span> 
+<span data-ttu-id="62ce3-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="62ce3-116">TRUE</span></span> 
   
-> <span data-ttu-id="dc4c7-117">Недопустимый набор указанного столбца.</span><span class="sxs-lookup"><span data-stu-id="dc4c7-117">The specified column set is invalid.</span></span> 
+> <span data-ttu-id="62ce3-117">Недопустимый набор указанного столбца.</span><span class="sxs-lookup"><span data-stu-id="62ce3-117">The specified column set is invalid.</span></span> 
     
-<span data-ttu-id="dc4c7-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="dc4c7-118">FALSE</span></span> 
+<span data-ttu-id="62ce3-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="62ce3-118">FALSE</span></span> 
   
-> <span data-ttu-id="dc4c7-119">Набор указанного столбца является допустимым.</span><span class="sxs-lookup"><span data-stu-id="dc4c7-119">The specified column set is valid.</span></span>
+> <span data-ttu-id="62ce3-119">Набор указанного столбца является допустимым.</span><span class="sxs-lookup"><span data-stu-id="62ce3-119">The specified column set is valid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="dc4c7-120">Замечания</span><span class="sxs-lookup"><span data-stu-id="dc4c7-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="62ce3-120">Замечания</span><span class="sxs-lookup"><span data-stu-id="62ce3-120">Remarks</span></span>
 
-<span data-ttu-id="dc4c7-121">Функция **FBadColumnSet** обрабатывает столбцы типа PT_ERROR как недопустимый и столбцы типа PT_NULL действительным.</span><span class="sxs-lookup"><span data-stu-id="dc4c7-121">The **FBadColumnSet** function treats columns of type PT_ERROR as invalid and columns of type PT_NULL as valid.</span></span> 
+<span data-ttu-id="62ce3-121">Функция **FBadColumnSet** обрабатывает столбцы типа PT_ERROR как недопустимый и столбцы типа PT_NULL действительным.</span><span class="sxs-lookup"><span data-stu-id="62ce3-121">The **FBadColumnSet** function treats columns of type PT_ERROR as invalid and columns of type PT_NULL as valid.</span></span> 
   
 

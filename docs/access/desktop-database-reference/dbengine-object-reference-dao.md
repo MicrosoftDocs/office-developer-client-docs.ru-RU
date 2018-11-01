@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142515(v=office.15)
 ms:contentKeyID: 52073753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1e1602a016124b5ffc5888c02e8bdf2f0faaf3c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 931ced0ca641dec4972ebb05ee9bdc1518b0e3aa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482704"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880896"
 ---
-# <a name="dbengine-object-reference-dao"></a><span data-ttu-id="1b450-102">DBEngine Object Reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b450-102">DBEngine Object Reference (DAO)</span></span>
+# <a name="dbengine-object-reference-dao"></a><span data-ttu-id="899b3-102">DBEngine Object Reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="899b3-102">DBEngine Object Reference (DAO)</span></span>
 
 
-<span data-ttu-id="1b450-103">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b450-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="899b3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="899b3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="1b450-104">DBEngine Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b450-104">DBEngine Object (DAO)</span></span>](dbengine-object-dao.md)
+  - [<span data-ttu-id="899b3-104">DBEngine Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="899b3-104">DBEngine Object (DAO)</span></span>](dbengine-object-dao.md)
 
-  - [<span data-ttu-id="1b450-105">DBEngine Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b450-105">DBEngine Members (DAO)</span></span>](dbengine-members-dao.md)
+  - [<span data-ttu-id="899b3-105">DBEngine Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="899b3-105">DBEngine Members (DAO)</span></span>](dbengine-members-dao.md)
 
-  - [<span data-ttu-id="1b450-106">DBEngine Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b450-106">DBEngine Properties (DAO)</span></span>](dbengine-properties-dao.md)
+  - [<span data-ttu-id="899b3-106">DBEngine Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="899b3-106">DBEngine Properties (DAO)</span></span>](dbengine-properties-dao.md)
 
-  - [<span data-ttu-id="1b450-107">DBEngine Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b450-107">DBEngine Methods (DAO)</span></span>](dbengine-methods-dao.md)
+  - [<span data-ttu-id="899b3-107">DBEngine Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="899b3-107">DBEngine Methods (DAO)</span></span>](dbengine-methods-dao.md)
 

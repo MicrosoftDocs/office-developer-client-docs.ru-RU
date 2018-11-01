@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="2fd91-101"><<<<<<< Название HEAD: пример свойства типа (поле) (VB) TOCTitle: пример свойства типа (поле) (VB) === название: пример свойства типа (поле) (VB) TOCTitle: пример свойства типа (поле) (VB)</span><span class="sxs-lookup"><span data-stu-id="2fd91-101"><<<<<<< HEAD title: Type Property Example (Field) (VB) TOCTitle: Type Property Example (Field) (VB) ======= title: Type property example (Field) (VB) TOCTitle: Type property example (Field) (VB)</span></span>
->>>>>>> <span data-ttu-id="2fd91-102">главные ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15) ms:contentKeyID: 48548966 ms.date: 09/18/2015 mtps_version: v=office.15</span><span class="sxs-lookup"><span data-stu-id="2fd91-102">master ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15) ms:contentKeyID: 48548966 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Пример использования свойства Type (Field) (VB)
+TOCTitle: Type property example (Field) (VB)
+ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15)
+ms:contentKeyID: 48548966
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b7478dd3ab4574b3315f5d57bf2f3680b8777e22
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: ru-RU
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889443"
 ---
-
-<span data-ttu-id="2fd91-103"><<<<<<< HEAD</span><span class="sxs-lookup"><span data-stu-id="2fd91-103"><<<<<<< HEAD</span></span>
-# <a name="type-property-example-field-vb"></a><span data-ttu-id="2fd91-104">Type Property Example (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="2fd91-104">Type Property Example (Field) (VB)</span></span>
-=======
-# <a name="type-property-example-field-vb"></a><span data-ttu-id="2fd91-105">Пример свойства типа (поле) (VB)</span><span class="sxs-lookup"><span data-stu-id="2fd91-105">Type property example (Field) (VB)</span></span>
->>>>>>> <span data-ttu-id="2fd91-106">master</span><span class="sxs-lookup"><span data-stu-id="2fd91-106">master</span></span>
+# <a name="type-property-example-field-vb"></a><span data-ttu-id="00c9b-102">Пример использования свойства Type (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="00c9b-102">Type property example (Field) (VB)</span></span>
 
 
-<span data-ttu-id="2fd91-107">**Применимо к**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="2fd91-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="00c9b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="00c9b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2fd91-108">В этом примере показано свойство [типа](type-property-ado.md) , отображая имя константы, соответствующее значение свойства [типа](type-property-ado.md) всех объектов [поля](field-object-ado.md) в таблице ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="2fd91-108">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="2fd91-109">Функция FieldType является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="2fd91-109">The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="00c9b-104">В этом примере показано свойство [типа](type-property-ado.md) , отображая имя константы, соответствующее значение свойства [типа](type-property-ado.md) всех объектов [поля](field-object-ado.md) в таблице ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="00c9b-104">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="00c9b-105">Функция FieldType является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="00c9b-105">The FieldType function is required for this procedure to run.</span></span>
 
 ```vb 
  
