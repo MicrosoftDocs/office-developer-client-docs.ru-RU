@@ -1,5 +1,5 @@
 ---
-title: DBEngine.CreateDatabase Method (DAO)
+title: Метод DBEngine.CreateDatabase (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: d5821a4b-483a-b8fa-e929-5f036057d8c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835033(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65a32b2b7e884e2b5957f435df0592549062b7ed
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7478a06df491f4c2254f8c72f0eacf9c4b19d49e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868020"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927510"
 ---
-# <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase Method (DAO)
+# <a name="dbenginecreatedatabase-method-dao"></a>Метод DBEngine.CreateDatabase (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -77,7 +77,7 @@ ms.locfileid: "25868020"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Можно использовать один из следующих константы для аргумента языковой стандарт для указания свойства **[CollatingOrder](database-collatingorder-property-dao.md)** текста для сравнения строк.
 

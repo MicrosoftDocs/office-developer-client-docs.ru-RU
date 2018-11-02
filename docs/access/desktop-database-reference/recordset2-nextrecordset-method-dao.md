@@ -1,5 +1,5 @@
 ---
-title: Recordset2.NextRecordset Method (DAO)
+title: Метод Recordset2.NextRecordset (DAO)
 TOCTitle: NextRecordset Method
 ms:assetid: 33288131-d4f3-0159-1736-f401346087f3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192318(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 55f85466a3717a3e3212b0458b3fbed78eb99c0a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3bbc70c132f0171b5aaeed02abdcdcc933926297
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888939"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920678"
 ---
-# <a name="recordset2nextrecordset-method-dao"></a>Recordset2.NextRecordset Method (DAO)
+# <a name="recordset2nextrecordset-method-dao"></a>Метод Recordset2.NextRecordset (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -32,7 +32,7 @@ ms.locfileid: "25888939"
 
 Boolean
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В рабочей области технология ODBCDirect можно открыть **набор записей** , содержащий несколько выборку в исходный аргумент **OpenRecordset**или свойство **[SQL](querydef-sql-property-dao.md)** select запроса объекта **[QueryDef](querydef-object-dao.md)** , как показано в следующем примере.
 

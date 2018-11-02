@@ -1,52 +1,35 @@
 ---
 title: Макрос команды (Справочник по для настольных баз данных Access)
-TOCTitle: Macro Commands
+TOCTitle: Macro commands
 ms:assetid: 24e7f34d-7902-4644-bb67-33689d9895c0
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124057(v=office.15)
 ms:contentKeyID: 52071694
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf17bfee937cad94678a8e5f0d5b209105623450
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d37d107848808ed7a97b836c4d2be90c6d346c62
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870655"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926418"
 ---
-# <a name="macro-commands"></a>Макрос команды
-
+# <a name="macro-commands"></a>Макрокоманды
 
 **Применимо к**: Access 2013, Office 2013
 
-
-
-  - [Действия ОтменитьСобытие макроса](cancelevent-macro-action.md)
-
-  - [Действия макроса эхо](echo-macro-action.md)
-
-  - [Действия макроса OpenVisualBasicModule](openvisualbasicmodule-macro-action.md)
-
-  - [Действия макроса RemoveAllTempVars](removealltempvars-macro-action.md)
-
-  - [Действия макроса RemoveTempVar](removetempvar-macro-action.md)
-
-  - [Действия ЗапускПрограммы макроса](runcode-macro-action.md)
-
-  - [Действия ЗапускМакросаДанных макроса](rundatamacro-macro-action.md)
-
-  - [Действия ЗапускМакроса макроса](runmacro-macro-action.md)
-
-  - [Действия макроса RunMenuCommand](runmenucommand-macro-action.md)
-
-  - [Действия макроса SetTempVar](settempvar-macro-action.md)
-
-  - [Действия макроса SingleStep](singlestep-macro-action.md)
-
-  - [Действия макроса StartNewWorkflow](startnewworkflow-macro-action.md)
-
-  - [Действия ОстановитьВсеМакросы макроса](stopallmacros-macro-action.md)
-
-  - [Действия ОстановитьМакрос макроса](stopmacro-macro-action.md)
-
-  - [Действия макроса WorkflowTasks](workflowtasks-macro-action.md)
+- [Макрокоманда CancelEvent](cancelevent-macro-action.md)
+- [Макрокоманда Echo](echo-macro-action.md)
+- [Макрокоманда OpenVisualBasicModule](openvisualbasicmodule-macro-action.md)
+- [Макрокоманда RemoveAllTempVars](removealltempvars-macro-action.md)
+- [Макрокоманда RemoveTempVar](removetempvar-macro-action.md)
+- [Макрокоманда RunCode](runcode-macro-action.md)
+- [Макрокоманда RunDataMacro](rundatamacro-macro-action.md)
+- [Макрокоманда RunMacro](runmacro-macro-action.md)
+- [Макрокоманда RunMenuCommand](runmenucommand-macro-action.md)
+- [Макрокоманда SetTempVar](settempvar-macro-action.md)
+- [Макрокоманда SingleStep](singlestep-macro-action.md)
+- [Макрокоманда StartNewWorkflow](startnewworkflow-macro-action.md)
+- [Макрокоманда StopAllMacros](stopallmacros-macro-action.md)
+- [Макрокоманда StopMacro](stopmacro-macro-action.md)
+- [Макрокоманда WorkflowTasks](workflowtasks-macro-action.md)
 

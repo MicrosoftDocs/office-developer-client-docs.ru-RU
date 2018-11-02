@@ -1,19 +1,19 @@
 ---
-title: Действие SetValue макросов
-TOCTitle: SetValue Macro Action
+title: Макрокоманда SetValue
+TOCTitle: SetValue macro action
 ms:assetid: a08be0c1-a053-45f9-b4ae-709fedc58e8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36dd3e511a3ff252ca44aa6d10fd1be4acd5c5fb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6f407c5da2ca669025d5aec47685e6eb9732c72c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878691"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927104"
 ---
-# <a name="setvalue-macro-action"></a>Действие SetValue макросов
+# <a name="setvalue-macro-action"></a>Макрокоманда SetValue
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -75,7 +75,7 @@ ms.locfileid: "25878691"
 
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие можно использовать для задания значения для поля или элемента управления на форме, форма таблицы или отчета. Также можно задать значение для практически во всех элемента управления, формы и свойства отчета в любом представлении. Чтобы узнать, совместимо ли конкретному свойству можно задать с помощью макросов и представлений, к которым может быть задано, обратитесь к разделу справки для этого свойства в редакторе Visual Basic.
 

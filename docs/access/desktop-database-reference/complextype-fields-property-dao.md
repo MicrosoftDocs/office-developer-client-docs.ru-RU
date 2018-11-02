@@ -1,19 +1,19 @@
 ---
-title: ComplexType.Fields Property (DAO)
+title: Свойство ComplexType.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: f913a304-5e72-d1df-8d89-d4a1c3a77d99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836981(v=office.15)
 ms:contentKeyID: 48548803
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0e5f8f28ebb987f51a7f88aa2f5dbe4556299bbb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 33fab87a6650b42c3b41937826410ce601b36639
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884676"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921306"
 ---
-# <a name="complextypefields-property-dao"></a>ComplexType.Fields Property (DAO)
+# <a name="complextypefields-property-dao"></a>Свойство ComplexType.Fields (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013

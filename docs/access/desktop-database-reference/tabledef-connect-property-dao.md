@@ -1,5 +1,5 @@
 ---
-title: TableDef.Connect Property (DAO)
+title: Свойство TableDef.Connect (DAO)
 TOCTitle: Connect Property
 ms:assetid: 4fbb324c-a358-8fad-60f2-fb8005cf74d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193791(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c15343c003de0328d55125d52dcef865110665f0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 322b59c6556b73186fe4034e64c75d9104d29560
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881155"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926901"
 ---
-# <a name="tabledefconnect-property-dao"></a>TableDef.Connect Property (DAO)
+# <a name="tabledefconnect-property-dao"></a>Свойство TableDef.Connect (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25881155"
 
 *выражение* Переменная, которая представляет собой объект- **TableDef** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Настройка свойства **подключение** — **строка** состоит из спецификатора типа базы данных и ноль или больше параметров, разделенных точкой с запятой. Свойство **Connect** передает Дополнительные сведения о ODBC и драйверы некоторых ISAM при необходимости.
 

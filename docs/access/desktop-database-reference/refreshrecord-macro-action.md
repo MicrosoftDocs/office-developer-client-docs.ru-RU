@@ -1,6 +1,6 @@
 ---
-title: Действия макроса RefreshRecord
-TOCTitle: RefreshRecord Macro Action
+title: Макрокоманда RefreshRecord
+TOCTitle: RefreshRecord macro action
 ms:assetid: 68c90d7d-f59c-9e83-bc30-8f37cf5a3696
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195261(v=office.15)
 ms:contentKeyID: 48545396
@@ -10,21 +10,21 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65f972f2ec50212685897d496fd072c7d3f57968
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4b7ec534579b070d342fe2efd80af44e2ea921ef
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876024"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927272"
 ---
-# <a name="refreshrecord-macro-action"></a>Действия макроса RefreshRecord
+# <a name="refreshrecord-macro-action"></a>Макрокоманда RefreshRecord
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Действие **RefreshRecord** можно использовать для обновления базового источника данных для активной формы или таблицы для отражения изменений, внесенных в записи в текущий набор.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Действие **RefreshRecord** показывает только изменения, внесенные в записи в текущий набор. Поскольку действие **RefreshRecord** фактически не запрашивать базу, текущий набор не будет включать записи, которые были добавлены или исключения записей, которые были удалены с момента базы данных последнего опросить; И не будет исключать записям, которые больше не отвечают условию запроса или фильтра. Чтобы запросить базу данных, используйте метод **[повторный запрос](requery-macro-action.md)** . Если обновляется источника записей для формы, текущего набора записей будет точно отражают все данные из источника данных.
 

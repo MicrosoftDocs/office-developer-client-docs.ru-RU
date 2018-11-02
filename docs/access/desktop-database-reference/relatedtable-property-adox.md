@@ -1,17 +1,17 @@
 ---
 title: Свойство RelatedTable (ADOX)
-TOCTitle: RelatedTable Property (ADOX)
+TOCTitle: RelatedTable property (ADOX)
 ms:assetid: e9e7fedb-d280-6018-2cbf-e7be6136a00c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250185(v=office.15)
 ms:contentKeyID: 48548450
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e90fbde305630971cb10ee6f284aeebc7385bd47
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c13c270ff1fdadeb821e3e3a59af302f8f186f7b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874379"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920909"
 ---
 # <a name="relatedtable-property-adox"></a>Свойство RelatedTable (ADOX)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25874379"
 
 Задает и возвращает значение типа **String** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение по умолчанию — пустая строка (»»).
 

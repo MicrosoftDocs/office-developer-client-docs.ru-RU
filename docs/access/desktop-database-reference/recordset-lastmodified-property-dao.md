@@ -1,5 +1,5 @@
 ---
-title: Recordset.LastModified Property (DAO)
+title: Свойство Recordset.LastModified (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195859(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052898
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6b8b6b58f330807047b7fc58ff49ee154371d4b2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: be2e066801754c419b3c3b74e673af8f8034f2e7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869745"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920979"
 ---
-# <a name="recordsetlastmodified-property-dao"></a>Recordset.LastModified Property (DAO)
+# <a name="recordsetlastmodified-property-dao"></a>Свойство Recordset.LastModified (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013 
@@ -30,7 +30,7 @@ ms.locfileid: "25869745"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **LastModified** перейти с самыми последними добавлены или обновленные записи. Используйте свойство **LastModified** с таблице - и добавляющий объекты **[набора записей](recordset-object-dao.md)** . Записи должны быть добавлены или изменены в объекте **набора записей** в порядке для свойства **LastModified** , которое должно иметь значение.
 

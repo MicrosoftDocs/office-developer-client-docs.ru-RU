@@ -1,19 +1,19 @@
 ---
 title: Клонирование метод - ActiveX Data Objects (ADO)
-TOCTitle: Clone Method (ADO)
+TOCTitle: Clone method (ADO)
 ms:assetid: ca9b2b76-90bf-9a60-2611-3cb4977d5591
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efff94e9f86d1fac7fd8b3716b1df2029bd32eb9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 17284fd61c44fe17f1c2661eff204c8827bf8e80
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876388"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922344"
 ---
-# <a name="clone-method-ado"></a>Клонирование метод (ADO)
+# <a name="clone-method-ado"></a>Метод Clone (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -42,9 +42,9 @@ ms.locfileid: "25876388"
 
   - *LockType для*
 
-  - Необязательный параметр. [LockTypeEnum](locktypeenum.md) значение, задающее тип блокировки исходного **набора записей**или только для чтения **набора записей**. Допустимые значения: **adLockUnspecified** или **adLockReadOnly**.
+  - Необязательно указывать. [LockTypeEnum](locktypeenum.md) значение, задающее тип блокировки исходного **набора записей**или только для чтения **набора записей**. Допустимые значения: **adLockUnspecified** или **adLockReadOnly**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **клонированной** для создания нескольких дубликатов объектов **набора записей** , особенно в том случае, если вы хотите поддерживать более одного текущей записи в данного набора записей. С помощью метода **клонированной** эффективнее, чем создания и открытия нового объекта **набора записей** с тем же определением, что и исходный.
 

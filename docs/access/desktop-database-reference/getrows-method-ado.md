@@ -1,19 +1,19 @@
 ---
-title: Метод получения строк (ADO)
-TOCTitle: GetRows Method (ADO)
+title: Метод GetRows (ADO)
+TOCTitle: GetRows method (ADO)
 ms:assetid: 570e6f1c-c17a-7d9a-c172-387894a3a1f1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 99988383c40b84e1993582ad0d1c07491de82933
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b472f8e2cb7d95a3aa79194e7704a877864c1339
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879881"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920279"
 ---
-# <a name="getrows-method-ado"></a>Метод получения строк (ADO)
+# <a name="getrows-method-ado"></a>Метод GetRows (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -33,17 +33,17 @@ ms.locfileid: "25879881"
 
   - *Строк*
 
-  - Необязательный параметр. [GetRowsOptionEnum](getrowsoptionenum.md) значение, указывающее количество записей для извлечения. Значение по умолчанию — **adGetRowsRest**.
+  - Необязательно указывать. [GetRowsOptionEnum](getrowsoptionenum.md) значение, указывающее количество записей для извлечения. Значение по умолчанию — **adGetRowsRest**.
 
   - *Start*
 
-  - Необязательный параметр. Значение **String** или **Variant** , которое оценивается как закладку для записи, с которого следует начать операции **получения строк** . Можно также использовать значение [BookmarkEnum](bookmarkenum.md) .
+  - Необязательно указывать. Значение **String** или **Variant** , которое оценивается как закладку для записи, с которого следует начать операции **получения строк** . Можно также использовать значение [BookmarkEnum](bookmarkenum.md) .
 
   - *Поля*
 
-  - Необязательный параметр. **Variant** , который представляет одного поля имя или порядковый номер или массив имена полей или номера порядковый номер. ADO возвращает только данные в этих полях.
+  - Необязательно указывать. **Variant** , который представляет одного поля имя или порядковый номер или массив имена полей или номера порядковый номер. ADO возвращает только данные в этих полях.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **получения строк** для копирования записей из **набора записей** в двумерного массива. Первый индекс определяет поля и второй номер записи. Переменной *массива* автоматически задан в правильном размере при возвращении метода **получения строк** данных.
 

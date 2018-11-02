@@ -1,6 +1,6 @@
 ---
 title: Звуковые сигналы действия макроса (Справочник по для настольных баз данных Access)
-TOCTitle: Beep Macro Action
+TOCTitle: Beep macro action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194572(v=office.15)
 ms:contentKeyID: 48545092
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm11853
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 284be6222d0b81e48a061afd1d87dd32c3985feb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d8ceb39071335b1600f4e371a357126306fbcf2a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867582"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922239"
 ---
-# <a name="beep-macro-action"></a>Звуковые сигналы действия макроса
+# <a name="beep-macro-action"></a>Макрокоманда Beep
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25867582"
 
 Действие **звуковые сигналы** не требует аргументов.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Можно использовать действие **Beep** для сигнала в следующих случаях:
 

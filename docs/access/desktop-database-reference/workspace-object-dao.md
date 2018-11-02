@@ -1,25 +1,25 @@
 ---
-title: Workspace Object (DAO)
+title: Рабочая область для объекта (DAO)
 TOCTitle: Workspace Object
 ms:assetid: bf3ab863-5e9a-4842-1f82-2ccf958d9779
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822782(v=office.15)
 ms:contentKeyID: 48547481
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17e8bd561858c8cb1eeb9bf84f6fc636a37f812b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f658822255e090594bdb43cd1b5e9ec1f30199cc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875065"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925746"
 ---
-# <a name="workspace-object-dao"></a>Workspace Object (DAO)
+# <a name="workspace-object-dao"></a>Рабочая область для объекта (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
 Объект **рабочей области** определяет именованный сеанса для пользователя. Содержит open баз данных и предоставляет механизмы для одновременных операций и, в рабочих областях Microsoft Access безопасного поддержка рабочей группы.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **Рабочая область** — это непостоянные объект, который определяет, как приложение взаимодействует с данными с помощью ядро базы данных Microsoft Access. Используйте объект **рабочей области** для управления текущего сеанса или чтобы начать сеанс обмена дополнительные. В сеансе можно открыть несколько баз данных или подключения к и управление транзакции. Например можно выполнить следующие действия.
 

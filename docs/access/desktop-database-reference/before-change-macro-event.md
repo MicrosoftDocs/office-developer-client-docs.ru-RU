@@ -1,6 +1,6 @@
 ---
-title: Прежде чем событие изменения макросов
-TOCTitle: Before Change Macro Event
+title: Событие макроса Before Change
+TOCTitle: Before Change macro event
 ms:assetid: da456d55-a773-abeb-1fac-ef58e3331cb5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835322(v=office.15)
 ms:contentKeyID: 48548077
@@ -12,14 +12,14 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09188378ff75944f6dc8acccc64b621ea2bca1f6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fb513c83e3956a37da019d762c5fd1e0c92da755
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887861"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926565"
 ---
-# <a name="before-change-macro-event"></a>Прежде чем событие изменения макросов
+# <a name="before-change-macro-event"></a>Событие макроса Before Change
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ ms.locfileid: "25887861"
 > [!NOTE]
 > Событие **Change перед** доступна только в макросов данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Изменить с помощью события **До изменения** для выполнения действий, которые следует выполнить перед записью. **До изменения** обычно используется для выполнения проверки и повысить пользовательские сообщения об ошибках.
 
@@ -90,43 +90,43 @@ ms.locfileid: "25887861"
 <tbody>
 <tr class="odd">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="comment-macro-statement.md">Оператор комментария макросов</a></p></td>
+<td><p><a href="comment-macro-statement.md">Оператор макроса Comment</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="group-macro-statement.md">Оператор группы макросов</a></p></td>
+<td><p><a href="group-macro-statement.md">Оператор макроса Group</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="if-then-else-macro-block.md">If... Затем... Блок else макросов</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Блок макросов If...Then...Else</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
-<td><p><a href="lookuprecord-data-block.md">Действия макрокомандой НайтиЗапись, после макроса</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Макрокомандой НайтиЗапись, после действия макроса</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Действия макроса ClearMacroError</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда ClearMacroError</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="onerror-macro-action.md">Действия макроса OnError</a></p></td>
+<td><p><a href="onerror-macro-action.md">Макрокоманда OnError</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="raiseerror-macro-action.md">Действия макроса RaiseError</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">Макрокоманда RaiseError</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setfield-macro-action.md">Действия SetField макроса</a></p></td>
+<td><p><a href="setfield-macro-action.md">Макрокоманда SetField</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Действия макроса SetLocalVar</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Макрокоманда SetLocalVar</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="stopmacro-macro-action.md">Действия ОстановитьМакрос макроса</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">Макрокоманда StopMacro</a></p></td>
 </tr>
 </tbody>
 </table>

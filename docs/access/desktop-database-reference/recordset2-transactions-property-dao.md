@@ -1,19 +1,19 @@
 ---
-title: Recordset2.Transactions Property (DAO)
+title: Свойство Recordset2.Transactions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: f2169565-f782-4089-0e4b-bc5d58d37db5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836614(v=office.15)
 ms:contentKeyID: 48548642
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6999a4b95ea18065ed1ad15f336d005a2838a6b6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 85d6f1af274c342270660143d18f4706d74fcd66
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875583"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919789"
 ---
-# <a name="recordset2transactions-property-dao"></a>Recordset2.Transactions Property (DAO)
+# <a name="recordset2transactions-property-dao"></a>Свойство Recordset2.Transactions (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25875583"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В рабочей области Microsoft Access можно также свойство **транзакции** с или таблице добавляющий объекты **набора записей** . Моментальный снимок и прямого — только – **[набора записей](recordset-object-dao.md)** объекты типа всегда возвращает **значение False**.
 

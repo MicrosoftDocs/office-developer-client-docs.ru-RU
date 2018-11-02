@@ -1,17 +1,17 @@
 ---
 title: Метод OpenSchema (ADO)
-TOCTitle: OpenSchema Method (ADO)
+TOCTitle: OpenSchema method (ADO)
 ms:assetid: 57771163-a14e-207a-2942-849acb79a9a1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36f82510c4dd0004aa89b3f79ac0049cc2193ed3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 846d1c0f73ba4a17f166fffc7c1bb4682ad31d49
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877669"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921168"
 ---
 # <a name="openschema-method-ado"></a>Метод OpenSchema (ADO)
 
@@ -37,13 +37,13 @@ ms.locfileid: "25877669"
 
   - *Criteria*
 
-  - Необязательный параметр. Массив ограничения запроса для каждого варианта *QueryType* , как указано в **SchemaEnum**.
+  - Необязательно указывать. Массив ограничения запроса для каждого варианта *QueryType* , как указано в **SchemaEnum**.
 
   - *SchemaID*
 
   - Идентификатор GUID для запроса поставщика схемы не определена спецификацией OLE DB. Этот параметр является обязательным, если *QueryType* задано значение **adSchemaProviderSpecific**; в противном случае он не используется.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **OpenSchema** возвращает столбцы в таблицах и типы данных, поддерживаемые достаточные описательные сведения об источнике данных, например таблицах, представляют в источнике данных.
 

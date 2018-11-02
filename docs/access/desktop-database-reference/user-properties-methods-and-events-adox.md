@@ -1,19 +1,19 @@
 ---
-title: User Properties, Methods, and Events (ADOX)
+title: Свойства пользователя, методы и события (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 30789414-a207-6a80-69aa-bbcab55bd77d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249082(v=office.15)
 ms:contentKeyID: 48544026
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5df5c06129775b450c37f48bf39c223a7bfce9f0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c5516e5169be907cc2e8f6d7c0db825926604a43
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868660"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919726"
 ---
-# <a name="user-properties-methods-and-events-adox"></a>User Properties, Methods, and Events (ADOX)
+# <a name="user-properties-methods-and-events-adox"></a>Свойства пользователя, методы и события (ADOX)
 
 
 **Применимо к**: Access 2013, Office 2013

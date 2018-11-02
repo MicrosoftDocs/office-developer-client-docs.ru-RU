@@ -1,19 +1,19 @@
 ---
-title: Field.OrdinalPosition Property (DAO)
+title: Свойство Field.OrdinalPosition (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 07f2344e-2a72-33d8-be47-b37d76ecca47
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b696a3bcae08986f71e2d4172b6995e98ff5267c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 29313e61527920cdc4918cc81c4ff9f94e932855
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872538"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920090"
 ---
-# <a name="fieldordinalposition-property-dao"></a>Field.OrdinalPosition Property (DAO)
+# <a name="fieldordinalposition-property-dao"></a>Свойство Field.OrdinalPosition (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25872538"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для объекта еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.
 

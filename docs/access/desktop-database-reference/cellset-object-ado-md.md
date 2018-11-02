@@ -1,25 +1,25 @@
 ---
-title: Объект ячеек (ADO MD)
-TOCTitle: Cellset Object (ADO MD)
+title: Объект Cellset (ADO MD)
+TOCTitle: Cellset object (ADO MD)
 ms:assetid: 28d4b3b9-f907-9ec0-00e1-9666c887cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249047(v=office.15)
 ms:contentKeyID: 48543869
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a71e6989eca613a23b96e66816820ffa1e4742c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 005d1df7fe5b746e98966ca882865058ab039c32
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879559"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924467"
 ---
-# <a name="cellset-object-ado-md"></a>Объект ячеек (ADO MD)
+# <a name="cellset-object-ado-md"></a>Объект Cellset (ADO MD)
 
 **Применимо к**: Access 2013, Office 2013
 
 Представляет результаты запроса многомерных. Это коллекция ячеек, выбранные из кубов или других наборов ячеек.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Данные в рамках набора **ячеек** извлекаются с помощью прямого доступа как массив. Вы можете «выполнить» к определенному элементу, для получения данных о этого элемента. Например следующий код возвращает заголовок первого элемента в начале на оси первого набора ячеек, с именем cst:
 

@@ -1,19 +1,19 @@
 ---
-title: WillChangeField и FieldChangeComplete события (ADO)
-TOCTitle: WillChangeField and FieldChangeComplete Events (ADO)
+title: События WillChangeField и FieldChangeComplete (ADO)
+TOCTitle: WillChangeField and FieldChangeComplete events (ADO)
 ms:assetid: bc4455a6-2925-33dc-d04f-8ea570e5e370
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
 ms:contentKeyID: 48547407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa26ff85bfb3a2b5666b98ea6ab6b30e689b5c2b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2967b6670ad96752e7ce47d82227fad70335e1f6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872692"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927405"
 ---
-# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>WillChangeField и FieldChangeComplete события (ADO)
+# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>События WillChangeField и FieldChangeComplete (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -58,7 +58,7 @@ WillChangeField*cFields*, *поля* *adStatus*, *pRecordset*
 
   - Объект **набора записей** . **Набор записей** , для которого произошло это событие.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Событие **WillChangeField** или **FieldChangeComplete** может возникнуть при установке свойства [Value](value-property-ado.md) и вызова метода [обновления](update-method-ado.md) с поля и значения массива параметров.
 

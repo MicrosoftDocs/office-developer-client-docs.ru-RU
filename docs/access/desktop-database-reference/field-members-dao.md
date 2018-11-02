@@ -1,19 +1,19 @@
 ---
-title: Field Members (DAO)
+title: Члены поля (DAO)
 TOCTitle: Field Members
 ms:assetid: 4b6a587f-1fd0-37fb-db7d-75b587a8dc60
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 649cfa4dd14ed0068aeb333ffc8e5799426ac52d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 497c0375496310c27c134792e01bd17e5533a452
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870424"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922204"
 ---
-# <a name="field-members-dao"></a>Field Members (DAO)
+# <a name="field-members-dao"></a>Члены поля (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -115,7 +115,7 @@ ms.locfileid: "25870424"
 <td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-required-property-dao.md">Обязательный</a></strong></p></td>
+<td><p><strong><a href="field-required-property-dao.md">Обязательно</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое указывает, требуется ли объект <strong><a href="field-object-dao.md">поля</a></strong> ненулевое значение.</p></td>
 </tr>
 <tr class="odd">

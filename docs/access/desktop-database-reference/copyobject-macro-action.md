@@ -1,6 +1,6 @@
 ---
-title: Действия КопироватьОбъект макроса
-TOCTitle: CopyObject Macro Action
+title: Макрокоманда CopyObject
+TOCTitle: CopyObject macro action
 ms:assetid: 746f61df-d5db-284a-0897-75820c2be11f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195876(v=office.15)
 ms:contentKeyID: 48545661
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09edfd37edb5a0cb237bd94f7f13449690cf18bb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a226cca2c37a6e404275c246f2e506b500a58d2b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868226"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919628"
 ---
-# <a name="copyobject-macro-action"></a>Действия КопироватьОбъект макроса
+# <a name="copyobject-macro-action"></a>Макрокоманда CopyObject
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -74,7 +74,7 @@ ms.locfileid: "25868226"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Необходимо ввести значение для одного или обоих аргументов **Конечной базы данных** и **Новое имя** для этого действия.
 

@@ -1,19 +1,19 @@
 ---
-title: QueryDef.Connect Property (DAO)
+title: Свойство QueryDef.Connect (DAO)
 TOCTitle: Connect Property
 ms:assetid: 14f19205-e92e-acc6-5677-b6d88772d5da
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
 ms:contentKeyID: 48543398
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1aef24850a2dfa9eeb801708ea773087b9d1ff40
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1208ac064c92e2e3793e8f2e3ceb4502cbfa4d6c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871446"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922008"
 ---
-# <a name="querydefconnect-property-dao"></a>QueryDef.Connect Property (DAO)
+# <a name="querydefconnect-property-dao"></a>Свойство QueryDef.Connect (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25871446"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Настройка свойства **подключение** — **строка** состоит из спецификатора типа базы данных и ноль или больше параметров, разделенных точкой с запятой. Свойство **Connect** передает Дополнительные сведения о ODBC и драйверы некоторых ISAM при необходимости.
 

@@ -1,17 +1,17 @@
 ---
 title: Метод GetChunk (ADO)
-TOCTitle: GetChunk Method (ADO)
+TOCTitle: GetChunk method (ADO)
 ms:assetid: 1ef1c37a-8453-8d3b-251a-d16e0d519fd7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 77726a20decd8029d4ced8198ac1bb622a1c6b11
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6a61130db9bd4564523688adc4e045f665e7310e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881519"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919012"
 ---
 # <a name="getchunk-method-ado"></a>Метод GetChunk (ADO)
 
@@ -35,7 +35,7 @@ ms.locfileid: "25881519"
 
   - **Длинные** выражения, равный число байтов или символов, которые необходимо получить.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **GetChunk** для объекта **поля** для извлечения или часть ее длинные двоичный или данных символов. В случаях, когда системной памяти ограниченный можно использовать метод **GetChunk** для работы с длинные значения в частях, а не полностью.
 

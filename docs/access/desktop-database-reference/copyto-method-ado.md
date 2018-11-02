@@ -1,17 +1,17 @@
 ---
 title: Метод CopyTo (ADO)
-TOCTitle: CopyTo Method (ADO)
+TOCTitle: CopyTo method (ADO)
 ms:assetid: 1c1ab950-51f7-7ecc-ccd8-e689db02f06a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2a5e5b793940c82e6656ec836c5a8d392800940d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a17e74e1e3483b7ad2a70c5444503234cff5be12
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870144"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920251"
 ---
 # <a name="copyto-method-ado"></a>Метод CopyTo (ADO)
 
@@ -36,9 +36,9 @@ ms.locfileid: "25870144"
 
   - *NumChars*
 
-  - Необязательный параметр. **Целое число, указывающее число байтов или знаков для копирования из текущей позиции в источнике **потока** в целевой **поток**.** Значение по умолчанию — 1, что указывает, что все символы или байт копируются из текущей позиции [EOS](eos-property-ado.md).
+  - Необязательно указывать. **Целое число, указывающее число байтов или знаков для копирования из текущей позиции в источнике **потока** в целевой **поток**.** Значение по умолчанию — 1, что указывает, что все символы или байт копируются из текущей позиции [EOS](eos-property-ado.md).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот метод копирует указанного числа символов или байтов, начиная с текущей позиции, указанного в свойстве [положение](position-property-ado.md) . Если указанный номер больше, чем доступно число байт до **EOS**, затем копируются только символов или байтов, начиная с текущей позиции **EOS** . Если значение *NumChars* – 1 или опущен, копируются все символы или байт, начиная с текущей позиции.
 

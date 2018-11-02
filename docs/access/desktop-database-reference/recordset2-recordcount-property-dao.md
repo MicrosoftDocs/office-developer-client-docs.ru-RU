@@ -1,5 +1,5 @@
 ---
-title: Recordset2.RecordCount Property (DAO)
+title: Свойство Recordset2.RecordCount (DAO)
 TOCTitle: RecordCount Property
 ms:assetid: 77852966-11e9-1773-6e58-53927b84c03b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196071(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052890
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 94328c10b2416d660de325fc3a6de316b08c627a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 829804ab6fc2ae3a0e53c782e8d8233cbf1bdc41
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885915"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921350"
 ---
-# <a name="recordset2recordcount-property-dao"></a>Recordset2.RecordCount Property (DAO)
+# <a name="recordset2recordcount-property-dao"></a>Свойство Recordset2.RecordCount (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25885915"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте свойство **RecordCount** найдете количество записей в **записей** или объект **TableDef** осуществлялся. Свойство **RecordCount** не указывает количество записей содержащихся в динамический набор –, моментальный снимок – или объекта **набора записей** прямого — только — тип до получения доступа к все записи. После обращения последней записи свойство **RecordCount** показывает общее количество неудаленные записей в объекте **TableDef** или **набора записей** . Чтобы принудительно последней записи для доступа, используйте метод **[MoveLast](recordset2-movelast-method-dao.md)** на объекте **набора записей** . Также можно использовать функцию SQL **Count** для определения приблизительное число записей, которые возвращает запрос.
 

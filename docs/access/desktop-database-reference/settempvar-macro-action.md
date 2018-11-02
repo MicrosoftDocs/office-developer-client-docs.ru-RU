@@ -1,6 +1,6 @@
 ---
-title: Действия макроса SetTempVar
-TOCTitle: SetTempVar Macro Action
+title: Макрокоманда SetTempVar
+TOCTitle: SetTempVar macro action
 ms:assetid: 9c3b7bee-02c5-efbf-1276-4c4a1f7802d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198102(v=office.15)
 ms:contentKeyID: 48546593
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm150219
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 103be9b9587c2171d3414665a67ec36629df8ce2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 342a4db4e2ed6e06dca917beb96b4562f1fc65da
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874624"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919446"
 ---
-# <a name="settempvar-macro-action"></a>Действия макроса SetTempVar
+# <a name="settempvar-macro-action"></a>Макрокоманда SetTempVar
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -54,7 +54,7 @@ ms.locfileid: "25874624"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 - Может быть длиной до 255 временные переменные, определенные за один раз. Если вы не удалите временную переменную, остается в памяти до закрытия базы данных. Рекомендуется удалить временные переменные после завершения их использования. Чтобы удалить одного временную переменную, используйте действие **[RemoveTempVar](removetempvar-macro-action.md)** и установите аргумента имя временную переменную, которую требуется удалить. Если у вас есть несколько временную переменную, требуется одновременное удаление используйте действие **RemoveAllTempVars** .
 

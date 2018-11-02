@@ -1,19 +1,19 @@
 ---
-title: Indexes.Count Property (DAO)
+title: Свойство Indexes.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 195ede10-f91e-50c6-6af4-b318c476b9ea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845647(v=office.15)
 ms:contentKeyID: 48543499
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47c42a1275b4d19f79cb73599fc2ef376e0ca25d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ae6a8098e51f271080924a8569d31e5bc268dc1f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884179"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927020"
 ---
-# <a name="indexescount-property-dao"></a>Indexes.Count Property (DAO)
+# <a name="indexescount-property-dao"></a>Свойство Indexes.Count (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25884179"
 
 *выражение* Переменная, которая представляет объект **индексов** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
 

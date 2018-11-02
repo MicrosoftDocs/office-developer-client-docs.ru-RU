@@ -1,5 +1,5 @@
 ---
-title: QueryDef.Prepare Property (DAO)
+title: Свойство QueryDef.Prepare (DAO)
 TOCTitle: Prepare Property
 ms:assetid: d5a285c4-bd00-028b-b785-f1890db29bab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835035(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101187
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1328dbbfe37ac1876d2839e08295a98068f52384
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f1d587501cb9a3279db055b9eee27d765e002a03
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889975"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925942"
 ---
-# <a name="querydefprepare-property-dao"></a>QueryDef.Prepare Property (DAO)
+# <a name="querydefprepare-property-dao"></a>Свойство QueryDef.Prepare (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25889975"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **Prepare** либо наличие сервера создания временной хранимую процедуру из своего запроса и последующее выполнение или просто быть напрямую выполняемого запроса. По умолчанию **Prepare** задано значение **dbQPrepare**. Тем не менее это свойство можно задать для **dbQUnprepare** , чтобы запретить Подготовка запроса. В этом случае запрос выполняется с помощью **SQLExecDirect** API.
 

@@ -1,26 +1,26 @@
 ---
-title: Relations Collection (DAO)
+title: Коллекции отношений (DAO)
 TOCTitle: Relations Collection
 ms:assetid: 8929b5cc-cf52-03f2-8cf5-7f45276d258e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
 ms:contentKeyID: 48546153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 08dfdda497311c70920dba3f082180503077d09d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 78fdc7fc236a3e366cc97d466deb1e31cc030ac7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873755"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919474"
 ---
-# <a name="relations-collection-dao"></a>Relations Collection (DAO)
+# <a name="relations-collection-dao"></a>Коллекции отношений (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Коллекция **отношения** содержит сохраненные объекты **отношений** объектов **базы данных** (базы данных ядра базы данных Microsoft Access только).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **связи** можно использовать для создания новых связей и проверить существующих связей между таблицами в базе данных. Чтобы добавить объект **отношения** в коллекции **отношений** , сначала создайте его с помощью метода **CreateRelation** и затем добавьте его в коллекцию **отношений** с помощью метода **Append** . Объект **отношения** сохраняется при закрытии объекта **базы данных** . Чтобы удалить объект **связи** из коллекции, используйте метод **Delete** .
 

@@ -1,19 +1,19 @@
 ---
-title: Recordset2.Index Property (DAO)
+title: Свойство Recordset2.index (DAO)
 TOCTitle: Index Property
 ms:assetid: 614bdf53-aca3-25ef-a23c-50095b345d20
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
 ms:contentKeyID: 48545209
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 897fa6fc41657f1291a726a7ac86b2c6d579abee
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4a0956efd8082363c4d00acf491bcb0b990cdf0e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885866"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920405"
 ---
-# <a name="recordset2index-property-dao"></a>Recordset2.Index Property (DAO)
+# <a name="recordset2index-property-dao"></a>Свойство Recordset2.index (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25885866"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Записи в базовые таблицы не сохраняются в любом порядке. Свойство **Index** изменяет порядок записей, возвращенных из базы данных; он не влияет на порядок, в котором хранятся записи.
 

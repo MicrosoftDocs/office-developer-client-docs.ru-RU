@@ -1,26 +1,26 @@
 ---
-title: Indexes Collection (DAO)
+title: Коллекции индексов (DAO)
 TOCTitle: Indexes Collection
 ms:assetid: 26450e85-c79d-b12a-d760-dfc89c37f36c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96bd1e51f3e8a0ea88c97835ab5b0c3b43419c46
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6c6f610c329057156875065e149db1e914a282e4
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877375"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920454"
 ---
-# <a name="indexes-collection-dao"></a>Indexes Collection (DAO)
+# <a name="indexes-collection-dao"></a>Коллекции индексов (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Коллекции **индексов** содержит все хранимые объекты **индекс** объекта **TableDef** (только для рабочих областей Microsoft Access).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При получении доступа к таблице тип объекта набора записей, используйте свойство **Index** объекта, чтобы указать порядок записей. Этому свойству присвоено значение **свойства Name существующего объекта **индексу** в коллекции **индексов** объекта **[TableDef](tabledef-object-dao.md)** базового объекта **[набора записей](recordset-object-dao.md)** ** .
 

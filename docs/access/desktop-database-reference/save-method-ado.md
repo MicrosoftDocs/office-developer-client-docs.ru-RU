@@ -1,19 +1,19 @@
 ---
 title: Метод - Save ActiveX Data Objects (ADO)
-TOCTitle: Save Method (ADO)
+TOCTitle: Save method (ADO)
 ms:assetid: 02dab13b-f947-b96d-46ea-0def3ed8f28f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
 ms:contentKeyID: 48542968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b4e3698043c109a8f0fbf32c5c2b8c8ae20e824
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d779fc5cff955ca669635ca827456dafb8927d8a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875983"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919684"
 ---
-# <a name="save-method-ado"></a>Сохраните метод (ADO)
+# <a name="save-method-ado"></a>Метод Save (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,13 +28,13 @@ ms.locfileid: "25875983"
 
   - *Назначения*
 
-  - Необязательный параметр. **Variant** , представляющий полный путь файла, в которых будут сохраняться **записей** или ссылку на объект **Stream** .
+  - Необязательно указывать. **Variant** , представляющий полный путь файла, в которых будут сохраняться **записей** или ссылку на объект **Stream** .
 
   - *PersistFormat*
 
-  - Необязательный параметр. [PersistFormatEnum](persistformatenum.md) значение, указывающее формат, в котором должен быть сохранен (XML или ADTG) **набора записей** . Значение по умолчанию — **adPersistADTG**.
+  - Необязательно указывать. [PersistFormatEnum](persistformatenum.md) значение, указывающее формат, в котором должен быть сохранен (XML или ADTG) **набора записей** . Значение по умолчанию — **adPersistADTG**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **Save** можно вызвать только на открытие **набора записей**. Используйте метод [Open](open-method-ado-recordset.md) позднее восстановление **набора записей** из *места назначения*.
 

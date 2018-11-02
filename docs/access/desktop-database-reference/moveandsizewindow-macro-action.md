@@ -1,19 +1,19 @@
 ---
-title: Действия макроса MoveAndSizeWindow
-TOCTitle: MoveAndSizeWindow Macro Action
+title: Макрокоманда MoveAndSizeWindow
+TOCTitle: MoveAndSizeWindow macro action
 ms:assetid: 86bcf45f-90ce-4ca2-a7fb-efbe5347d137
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab2998140f46fd3275f564684995d9a4d8d56968
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fd5bbe18af823e2b36772ef209db18ba6cb4b1d4
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882541"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925270"
 ---
-# <a name="moveandsizewindow-macro-action"></a>Действия макроса MoveAndSizeWindow
+# <a name="moveandsizewindow-macro-action"></a>Макрокоманда MoveAndSizeWindow
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -67,7 +67,7 @@ ms.locfileid: "25882541"
 
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы настроить приложение для использования перекрывающиеся windows вместо вкладками, используйте следующую процедуру:
 

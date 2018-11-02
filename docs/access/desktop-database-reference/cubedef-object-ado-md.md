@@ -1,17 +1,17 @@
 ---
 title: Объект CubeDef (ADO MD)
-TOCTitle: CubeDef Object (ADO MD)
+TOCTitle: CubeDef object (ADO MD)
 ms:assetid: 199235b7-3d98-f655-27bc-94f66e994e06
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248941(v=office.15)
 ms:contentKeyID: 48543502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7dc244483c3111e6e354496f1ffbbd12f463800
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9f48b3ea16e45b3bde12ed9f8584c3218f955eba
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878298"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922393"
 ---
 # <a name="cubedef-object-ado-md"></a>Объект CubeDef (ADO MD)
 
@@ -20,7 +20,7 @@ ms.locfileid: "25878298"
 
 Представляет куб из многомерных схемы, содержащая набор связанных измерений.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Со свойствами объекта **CubeDef** и семейств сайтов выполните следующее:
 

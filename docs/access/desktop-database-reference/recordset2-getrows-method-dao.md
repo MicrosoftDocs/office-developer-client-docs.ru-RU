@@ -1,19 +1,19 @@
 ---
-title: Recordset2.GetRows Method (DAO)
+title: Метод Recordset2.GetRows (DAO)
 TOCTitle: GetRows Method
 ms:assetid: e5c0a082-e9d2-359f-fed5-835ab91d2311
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835959(v=office.15)
 ms:contentKeyID: 48548367
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df28aaba3c10104f0b0f03970e9c414ba401e02b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6d0489361a3c739527fb44db0c566986dc2a40a0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890997"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921399"
 ---
-# <a name="recordset2getrows-method-dao"></a>Recordset2.GetRows Method (DAO)
+# <a name="recordset2getrows-method-dao"></a>Метод Recordset2.GetRows (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -58,7 +58,7 @@ ms.locfileid: "25890997"
 
 Variant
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **получения строк** для копирования записей из **набора записей**. **Получение строк** возвращает двухмерный массив. Первый индекс определяет поля и второй — указывает номер строки. К примеру intField представляет поле, а intRecord указывает номер строки:
 

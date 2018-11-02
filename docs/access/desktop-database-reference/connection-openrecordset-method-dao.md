@@ -1,19 +1,19 @@
 ---
-title: Connection.OpenRecordset Method (DAO)
+title: Метод Connection.OpenRecordset (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: 584a3e00-7589-90f1-aa6a-5d6116f0b5b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fec0e2717c39ea2aeb4a41d7630998c79ce9c52
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 310f6e8961faed0a60b686bc9aeb9e7f8bcf5deb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872720"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926894"
 ---
-# <a name="connectionopenrecordset-method-dao"></a>Connection.OpenRecordset Method (DAO)
+# <a name="connectionopenrecordset-method-dao"></a>Метод Connection.OpenRecordset (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -94,7 +94,7 @@ ms.locfileid: "25872720"
 
 Набор записей
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Как правило если пользователь получает Эта ошибка при обновлении записи, код должен обновить содержимое полей и извлечение измененные значения. Если ошибка возникает при удалении записи, кода удалось отобразить новые записи данных для пользователя и сообщение, указывающее, что недавно были изменены данные. На этом этапе кода можно запросить подтверждения, что по-прежнему требуется удалить эту запись.
 

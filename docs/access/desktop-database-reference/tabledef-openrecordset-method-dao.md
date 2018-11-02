@@ -1,19 +1,19 @@
 ---
-title: TableDef.OpenRecordset Method (DAO)
+title: Метод TableDef.OpenRecordset (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: f4c9c89c-3348-d3c9-ce76-dd11e5ee11a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
 ms:contentKeyID: 48548696
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bb0e9eda069f86170542596aebd1b359a242680
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 69a18aface5857d5c2ad77055000b2a9356545e4
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872707"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923982"
 ---
-# <a name="tabledefopenrecordset-method-dao"></a>TableDef.OpenRecordset Method (DAO)
+# <a name="tabledefopenrecordset-method-dao"></a>Метод TableDef.OpenRecordset (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -94,7 +94,7 @@ ms.locfileid: "25872707"
 
 Набор записей
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Как правило если пользователь получает Эта ошибка при обновлении записи, код должен обновить содержимое полей и извлечение измененные значения. Если ошибка возникает при удалении записи, кода удалось отобразить новые записи данных для пользователя и сообщение, указывающее, что недавно были изменены данные. На этом этапе кода можно запросить подтверждения, что по-прежнему требуется удалить эту запись.
 

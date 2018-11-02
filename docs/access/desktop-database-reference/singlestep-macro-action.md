@@ -1,6 +1,6 @@
 ---
-title: Действия макроса SingleStep
-TOCTitle: SingleStep Macro Action
+title: Макрокоманда SingleStep
+TOCTitle: SingleStep macro action
 ms:assetid: 2836fe1d-fb9b-6b42-acfd-c52e468161d4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191989(v=office.15)
 ms:contentKeyID: 48543855
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm47687
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7bee12bb26c4ed3799fce2481e7d9329aa5d1e61
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c3944b82e656bae7f35ecef89d2e30083832a65b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868961"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925130"
 ---
-# <a name="singlestep-macro-action"></a>Действия макроса SingleStep
+# <a name="singlestep-macro-action"></a>Макрокоманда SingleStep
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25868961"
 
 Действие **SingleStep** не имеет каких-либо аргументов.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
   - Действие **SingleStep** используется для устранения неполадок макрос, не работает должным образом. Можно добавить действие **SingleStep** макрос перед действие, который может быть причина проблемы. Действие приостанавливает макрос и открывает диалоговое окно **Макроса одним действием** . Это диалоговое окно сведения о получена, такие как имя макроса, любого указанного условия, действие имя, аргументы и номер ошибки, если это возможно. В диалоговом окне нажмите кнопку **Шаг** , чтобы перейти к следующей действия макроса, **Остановите все макросы** для остановки текущего макроса и другие макросы, работающих под управлением или **Продолжить** , чтобы остановить пошаговый и возобновления нормальной работы макроса.
 

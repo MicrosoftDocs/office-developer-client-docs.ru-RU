@@ -1,19 +1,19 @@
 ---
-title: Блок данных ForEachRecord
-TOCTitle: ForEachRecord Data Block
+title: Блок данных ДляКаждойЗаписи
+TOCTitle: ForEachRecord data block
 ms:assetid: be369196-230e-1f92-e36b-667048eef2be
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dffb433d8a7023b725ebcb5c1e5f651d86f9dbd7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fd16b91bb3d6ca0d206be0a63bb73e6f9176da8e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886552"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921028"
 ---
-# <a name="foreachrecord-data-block"></a>Блок данных ForEachRecord
+# <a name="foreachrecord-data-block"></a>Блок данных ДляКаждойЗаписи
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -69,7 +69,7 @@ ms.locfileid: "25886552"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Действие **[ExitForEachRecord](exitforeachrecord-macro-action.md)** используется для выхода из блока **ДляКаждойЗаписи** данных немедленно.
 

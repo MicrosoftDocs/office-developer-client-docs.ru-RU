@@ -1,19 +1,19 @@
 ---
-title: Свойства сервера (RDS)
-TOCTitle: Server Property (RDS)
+title: Свойство Server (RDS)
+TOCTitle: Server property (RDS)
 ms:assetid: 17519dbe-a43a-1d0d-22c1-dc0def2f63ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 487b6e676816ab571cb08f6cfe7870362c7a8c84
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 062a4a319073ccf8f2810205973c11a845e2cc6f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868436"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925235"
 ---
-# <a name="server-property-rds"></a>Свойства сервера (RDS)
+# <a name="server-property-rds"></a>Свойство Server (RDS)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -48,13 +48,13 @@ ms.locfileid: "25868436"
 
 *порт*
 
-- Необязательный параметр. Порт, используемый для подключения к серверу службы IIS. Номер порта задано в Internet Explorer (в меню **Сервис** выберите пункт **Свойства обозревателя**и перейдите на вкладку **подключения** ) или в службах IIS.
+- Необязательно указывать. Порт, используемый для подключения к серверу службы IIS. Номер порта задано в Internet Explorer (в меню **Сервис** выберите пункт **Свойства обозревателя**и перейдите на вкладку **подключения** ) или в службах IIS.
 
 *DataControl*
 
 - Объектную переменную, которая представляет **RDS. DataControl** объекта.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Сервер — это местоположение где **RDS. DataControl** обработки запроса (то есть, запроса или обновления). По умолчанию все запросы обрабатываются с помощью объекта [RDSServer.DataFactory](datafactory-object-rdsserver.md) , [MSDFMAP. Обработчик](datafactory-customization.md) компонента и [MSDFMAP. INI](understanding-the-customization-file.md) файл на указанном сервере. 
 

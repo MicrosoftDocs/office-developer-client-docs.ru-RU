@@ -1,5 +1,5 @@
 ---
-title: QueryDef.RecordsAffected Property (DAO)
+title: Свойство QueryDef.RecordsAffected (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 29a864b5-305c-d33f-b2ca-fc9a08baaa5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192040(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053082
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 63762814d0eb90cccb86402dbd6284fd873aef73
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 49a181f834692fd824924c560a32a4e94de4ebb5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887805"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921623"
 ---
-# <a name="querydefrecordsaffected-property-dao"></a>QueryDef.RecordsAffected Property (DAO)
+# <a name="querydefrecordsaffected-property-dao"></a>Свойство QueryDef.RecordsAffected (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25887805"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При использовании метода **Execute** для выполнения запроса из объекта **QueryDef** свойство **RecordsAffected** будет содержать число записей удален, обновляется или вставляется.
 

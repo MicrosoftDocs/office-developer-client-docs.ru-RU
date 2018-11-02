@@ -1,19 +1,19 @@
 ---
-title: Fields.Refresh Method (DAO)
+title: Метод Fields.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d08597d8-bad6-523b-a083-d824f85b64bc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834723(v=office.15)
 ms:contentKeyID: 48547844
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1804585f3c3bc4a796da00dfede5a482d65a82a1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8e118705052c23613500191437906be5507099ef
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889618"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921812"
 ---
-# <a name="fieldsrefresh-method-dao"></a>Fields.Refresh Method (DAO)
+# <a name="fieldsrefresh-method-dao"></a>Метод Fields.Refresh (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "25889618"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы определить позицию, ядро базы данных Microsoft Access с помощью **поля** объектов в коллекции **полей** **QueryDef**, **набора записей**или **TableDef** объекта, используйте свойство **OrdinalPosition** Каждый объект **поля** . Изменение свойства **OrdinalPosition** объекта **поля** могут не изменить порядок **полей** объектов в коллекции только при вызове метода **обновления на**
 

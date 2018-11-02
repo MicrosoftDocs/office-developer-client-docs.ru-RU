@@ -1,17 +1,17 @@
 ---
 title: Метод SetPermissions (ADOX)
-TOCTitle: SetPermissions Method (ADOX)
+TOCTitle: SetPermissions method (ADOX)
 ms:assetid: 63d1053d-fb32-456b-ae67-3a4e45aa01af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249382(v=office.15)
 ms:contentKeyID: 48545274
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 433ddcc0394ff3543cd47b6399cb430890972920
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6d99608a938598135d713375875da9073c8f9f3c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889527"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927517"
 ---
 # <a name="setpermissions-method-adox"></a>Метод SetPermissions (ADOX)
 
@@ -46,13 +46,13 @@ ms.locfileid: "25889527"
 
   - *Наследование*
 
-  - Необязательный параметр. **Длинное целое** значение, который может быть одной из констант [InheritTypeEnum](inherittypeenum.md) , определяющее, как наследование разрешений. Значение по умолчанию — **adInheritNone**.
+  - Необязательно указывать. **Длинное целое** значение, который может быть одной из констант [InheritTypeEnum](inherittypeenum.md) , определяющее, как наследование разрешений. Значение по умолчанию — **adInheritNone**.
 
   - *ObjectTypeId*
 
-  - Необязательный параметр. Значение **типа Variant** , который указывает идентификатор GUID для поставщика тип объекта, не определена спецификацией OLE DB. Этот параметр является обязательным, если *тип объекта* имеет значение **adPermObjProviderSpecific**; в противном случае он не используется.
+  - Необязательно указывать. Значение **типа Variant** , который указывает идентификатор GUID для поставщика тип объекта, не определена спецификацией OLE DB. Этот параметр является обязательным, если *тип объекта* имеет значение **adPermObjProviderSpecific**; в противном случае он не используется.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если поставщик поддерживает назначении прав доступа для групп или пользователей, произойдет ошибка.
 

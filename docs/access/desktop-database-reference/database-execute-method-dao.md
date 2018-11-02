@@ -1,19 +1,19 @@
 ---
-title: Database.Execute Method (DAO)
+title: Метод Database.Execute (DAO)
 TOCTitle: Execute Method
 ms:assetid: 9294d530-f70f-e1ed-3990-ce128de4378b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e72de1f266b1dc24267b1c7f3c43be489d92fb5e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1d3204ed2f5fd44b346b7b1c55be3304138d3e7b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889597"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920062"
 ---
-# <a name="databaseexecute-method-dao"></a>Database.Execute Method (DAO)
+# <a name="databaseexecute-method-dao"></a>Метод Database.Execute (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -59,7 +59,7 @@ ms.locfileid: "25889597"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Следующие константы **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** можно использовать для доступа к параметрам.
 

@@ -1,19 +1,19 @@
 ---
-title: Field2.SourceTable Property (DAO)
+title: Свойство Field2.SourceTable (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 24d2fdda-d924-d95e-8458-063dd1d36d5d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191839(v=office.15)
 ms:contentKeyID: 48543768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb0c7b57b8ad5c0a1c202197e14fdaefd9a1103f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fbde7aa9785e4e875f96569884e7f6e45743f2bb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881022"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925585"
 ---
-# <a name="field2sourcetable-property-dao"></a>Field2.SourceTable Property (DAO)
+# <a name="field2sourcetable-property-dao"></a>Свойство Field2.SourceTable (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25881022"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для объекта **поле2** использование свойств **SourceField** и **Таблица** зависит от объекта, который содержит коллекцию **полей** , добавляется объект **поле2** , как показано в следующей таблице.
 

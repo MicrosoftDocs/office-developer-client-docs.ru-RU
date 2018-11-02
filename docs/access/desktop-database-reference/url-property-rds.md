@@ -1,19 +1,19 @@
 ---
 title: Свойство URL-адрес (RDS - ссылки для настольных баз данных Access)
-TOCTitle: URL Property (RDS)
+TOCTitle: URL property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
 ms:contentKeyID: 48545603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f179eb2c251ca96943a5f924b0ca51881aa371b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ca1fdba5e5fd9b16b66fd71f2841890870de4d65
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874162"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925984"
 ---
-# <a name="url-property-rds"></a>Свойство URL-адрес (RDS)
+# <a name="url-property-rds"></a>Свойство URL (RDS)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -40,7 +40,7 @@ ms.locfileid: "25874162"
 
   - Объектная переменная, которая представляет собой объект- **DataControl** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Как правило URL-адрес указывает файл страницы Active Server (.asp), который может создавать и возвращать [набора записей](recordset-object-ado.md). Таким образом пользователь может получить **записей** без вызова объекта [DataFactory](datafactory-object-rdsserver.md) на сервере или программа настраиваемый бизнес-объект.
 

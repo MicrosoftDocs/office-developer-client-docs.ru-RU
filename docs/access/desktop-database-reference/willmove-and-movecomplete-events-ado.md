@@ -1,19 +1,19 @@
 ---
-title: WillMove и MoveComplete события (ADO)
-TOCTitle: WillMove and MoveComplete Events (ADO)
+title: События WillMove и MoveComplete (ADO)
+TOCTitle: WillMove and MoveComplete events (ADO)
 ms:assetid: fe7eb823-b388-6b3d-1ae9-056018032ef5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250307(v=office.15)
 ms:contentKeyID: 48548937
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b1a0e119d857947b78eb6adcfc9a5b1ba87e055
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5388601f1ac88e281a6abc5cfe1e644bdeebef28
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868835"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923569"
 ---
-# <a name="willmove-and-movecomplete-events-ado"></a>WillMove и MoveComplete события (ADO)
+# <a name="willmove-and-movecomplete-events-ado"></a>События WillMove и MoveComplete (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -52,7 +52,7 @@ MoveComplete*adReason*, *pError*, *adStatus*, *pRecordset*
 
   - Объект [набора записей](recordset-object-ado.md) . **Набор записей** , для которого произошло это событие.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Событие **WillMove** или **MoveComplete** могут быть вызваны следующие операции **записей** : [Открытие](open-method-ado-recordset.md), [Перемещение](move-method-ado.md), [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [AddNew](addnew-method-ado.md)и [Повторный запрос](requery-method-ado.md). Эти события могут возникнуть из-за следующие свойства: [Фильтр](filter-property-ado.md), [индекса](index-property-ado.md), [закладки](bookmark-property-ado.md), [AbsolutePage](absolutepage-property-ado.md)и [AbsolutePosition](absoluteposition-property-ado.md). Эти события также возникают при дочерних **записей** имеет **записей** событий подключенных и родительский перемещены **набора записей** .
 

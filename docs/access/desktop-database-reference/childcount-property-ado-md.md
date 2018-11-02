@@ -1,17 +1,17 @@
 ---
 title: Свойство ChildCount (ADO MD)
-TOCTitle: ChildCount Property (ADO MD)
+TOCTitle: ChildCount property (ADO MD)
 ms:assetid: ff1872f0-d5f6-174e-0473-7997a462ca81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ac5e65356e7ee66cda864bffc983ae1d394825b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b8a55f54bfe796f9dfa0fc3ec157c8f7cfe9fa11
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879608"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925221"
 ---
 # <a name="childcount-property-ado-md"></a>Свойство ChildCount (ADO MD)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25879608"
 
 Возвращает значение типа **Long** integer и доступен только для чтения.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **ChildCount** Возвращает оценку сколько потомки **члена** имеет. Фактические потомки **члена** можно возвращается свойством [дочерних элементов](children-property-ado-md.md) .
 

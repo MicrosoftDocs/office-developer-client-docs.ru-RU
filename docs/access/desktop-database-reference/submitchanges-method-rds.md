@@ -1,17 +1,17 @@
 ---
 title: Метод SubmitChanges (RDS)
-TOCTitle: SubmitChanges Method (RDS)
+TOCTitle: SubmitChanges method (RDS)
 ms:assetid: ecaea12d-7e1a-095d-17e7-d631ef230b90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
 ms:contentKeyID: 48548521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 521728af91967d673a1c69f4e4812b0aaa73ce59
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 92634f2c0d95fbe9022934d22340f768b5614a58
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883885"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923373"
 ---
 # <a name="submitchanges-method-rds"></a>Метод SubmitChanges (RDS)
 
@@ -44,7 +44,7 @@ ms.locfileid: "25883885"
 
   - Объектная переменная, представляющий объект **набора записей** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Необходимо задать свойства [подключения](connect-property-rds.md), [сервер](server-property-rds.md)и [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) , прежде чем использовать метод **SubmitChanges** с **RDS. DataControl** объекта.
 

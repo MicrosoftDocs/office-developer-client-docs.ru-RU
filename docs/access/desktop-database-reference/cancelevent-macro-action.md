@@ -1,6 +1,6 @@
 ---
-title: Действия ОтменитьСобытие макроса
-TOCTitle: CancelEvent Macro Action
+title: Макрокоманда CancelEvent
+TOCTitle: CancelEvent macro action
 ms:assetid: d9d3ea99-c9fb-2524-c570-e3ee6d20af98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835110(v=office.15)
 ms:contentKeyID: 48548066
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0bc9f38e1f91a58fcfc7cedfdfb740a22477f649
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7999d2acd19fd1f6aa4d7dd9dccd88b7ffea88a7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880672"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925331"
 ---
-# <a name="cancelevent-macro-action"></a>Действия ОтменитьСобытие макроса
+# <a name="cancelevent-macro-action"></a>Макрокоманда CancelEvent
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -29,7 +29,7 @@ ms.locfileid: "25880672"
 
 Действие **ОтменитьСобытие** не требует аргументов.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В форме обычно используется **ОтменитьСобытие в макросе проверки** со свойством событие **BeforeUpdate** . При вводе данных в элемент управления или запись Access запускает макрос перед добавлением данные в базу данных. В случае сбоя в макросе условиям проверки данных **ОтменитьСобытие** действие отменяет процесс обновления до его запуска.
 

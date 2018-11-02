@@ -1,19 +1,19 @@
 ---
-title: Connection.Cancel Method (DAO)
+title: Метод Connection.Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 43ad7b64-823d-3fac-e4d4-5e9514f60011
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
 ms:contentKeyID: 48544509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e81c73b7dd42d437eecdc3bd8e2ef36f0ef49489
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4810bd1804433be091fc9a4b30aa9ba62f057965
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882751"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922547"
 ---
-# <a name="connectioncancel-method-dao"></a>Connection.Cancel Method (DAO)
+# <a name="connectioncancel-method-dao"></a>Метод Connection.Cancel (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -23,7 +23,7 @@ ms.locfileid: "25882751"
 
 *выражение* Переменная, которая содержит объект **подключения** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Использование метода **Cancel** для завершения выполнения асинхронного вызова метода **Execute** или **OpenConnection** (то есть, метод был вызван с параметром dbRunAsync). **Отменить** возвращает ошибку времени выполнения, если в метод, который вы пытаетесь прерывания не используется dbRunAsync.
 

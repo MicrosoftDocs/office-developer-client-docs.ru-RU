@@ -1,6 +1,6 @@
 ---
-title: Действия макроса TransferSQLDatabase
-TOCTitle: TransferSQLDatabase Macro Action
+title: Макрокоманда TransferSQLDatabase
+TOCTitle: TransferSQLDatabase macro action
 ms:assetid: 8cb95e22-f1f0-6c70-7dcb-3a3e9aafdc57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197344(v=office.15)
 ms:contentKeyID: 48546244
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fff0c9ac46e4a616fb5ea134e3dabc6b4e90576f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ae05da3d07cc17f54584d11282721ac83f23ccd8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873105"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926544"
 ---
-# <a name="transfersqldatabase-macro-action"></a>Действия макроса TransferSQLDatabase
+# <a name="transfersqldatabase-macro-action"></a>Макрокоманда TransferSQLDatabase
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -76,7 +76,7 @@ ms.locfileid: "25873105"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Нельзя выполнять другие операции во время передачи базы данных.
 

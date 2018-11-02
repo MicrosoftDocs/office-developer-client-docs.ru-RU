@@ -1,6 +1,6 @@
 ---
-title: Действия ДобавитьМеню макроса
-TOCTitle: AddMenu Macro Action
+title: Макрокоманда AddMenu
+TOCTitle: AddMenu macro action
 ms:assetid: 4eb2afa0-ed1f-41b1-d27f-b3ce7a73d2bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193760(v=office.15)
 ms:contentKeyID: 48544762
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d14005bffa1374e7d8256938824876d6a577f317
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: badfb4468c8f485d52535b33c644b88b5fae531d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880049"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923170"
 ---
-# <a name="addmenu-macro-action"></a>Действия ДобавитьМеню макроса
+# <a name="addmenu-macro-action"></a>Макрокоманда AddMenu
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -70,7 +70,7 @@ ms.locfileid: "25880049"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для запуска **макрокоманды** в Visual Basic для приложений (VBA) модуль, используйте метод **ДобавитьМеню** **объекта** . Также можно задать свойство **строки меню** или **ShortcutMenuBar** в VBA для создания настраиваемого меню на вкладке **Надстройки** , чтобы присоединить настраиваемого контекстного меню для формы, отчета или элемента управления. Можно задать свойство **ShortcutMenuBar** объекта **приложения** для создания глобального контекстного меню.
 

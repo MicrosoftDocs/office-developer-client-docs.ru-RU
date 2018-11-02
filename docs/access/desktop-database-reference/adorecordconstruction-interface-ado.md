@@ -1,17 +1,17 @@
 ---
 title: Интерфейс ADORecordConstruction (ADO)
-TOCTitle: ADORecordConstruction Interface (ADO)
+TOCTitle: ADORecordConstruction interface (ADO)
 ms:assetid: 3f0afbdb-f1c4-e44e-7c0f-a0c4cee554a7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
 ms:contentKeyID: 48544387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ddf7da4e99f852178e0d12484e86f54248b4185
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b719c6314fb2c68a0a343a800da35ee944654df3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874561"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924591"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>Интерфейс ADORecordConstruction (ADO)
 
@@ -52,7 +52,7 @@ ms.locfileid: "25874561"
 
 Нет.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Заданным объекта OLE DB **строки** (pRow), конструкции (объект ADO **записи** ), конструирование объекта ADO **записи** (adoR) объемов для трех основных операций:
 

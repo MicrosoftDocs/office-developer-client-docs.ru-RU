@@ -1,6 +1,6 @@
 ---
-title: Действия ЗапускПрограммы макроса
-TOCTitle: RunCode Macro Action
+title: Макрокоманда RunCode
+TOCTitle: RunCode macro action
 ms:assetid: cb0625be-4b5d-4927-9b0e-59a6e411b5bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834373(v=office.15)
 ms:contentKeyID: 48547706
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e06d3ebb014cc38b19e37098b217bd072af4434a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: acf8ed2bd10efd55436b8933a862833b8e49c5f0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870963"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926691"
 ---
-# <a name="runcode-macro-action"></a>Действия ЗапускПрограммы макроса
+# <a name="runcode-macro-action"></a>Макрокоманда RunCode
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -54,7 +54,7 @@ ms.locfileid: "25870963"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Процедуры пользовательских функций, хранятся в модулях Microsoft Access.
 

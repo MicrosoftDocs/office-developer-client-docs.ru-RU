@@ -1,19 +1,19 @@
 ---
-title: Recordset.Updatable Property (DAO)
+title: Свойство Recordset.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 2d4bdcef-1b10-b542-ce0f-6172c271131b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192110(v=office.15)
 ms:contentKeyID: 48543968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 392864fa2b6d72249de0c0d75e3c1bc3ecbc3a11
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6a7f5d803c64504c598a96c244db3fcf75bf0dd5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878523"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919264"
 ---
-# <a name="recordsetupdatable-property-dao"></a>Recordset.Updatable Property (DAO)
+# <a name="recordsetupdatable-property-dao"></a>Свойство Recordset.Updatable (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25878523"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Моментальный снимок и прямого только – набора записей объекты типа всегда возвращает **значение False**.
 

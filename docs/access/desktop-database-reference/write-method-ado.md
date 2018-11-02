@@ -1,19 +1,19 @@
 ---
 title: Создание метода - ActiveX Data Objects (ADO)
-TOCTitle: Write Method (ADO)
+TOCTitle: Write method (ADO)
 ms:assetid: cabe4581-409f-7f05-bd59-d495bfb2c6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
 ms:contentKeyID: 48547697
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5987b16c033b13be145e60317cdfdc821851be38
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a04825a59f19b6b54fbb10652a1bba2fd0479588
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867414"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920965"
 ---
-# <a name="write-method-ado"></a>Создание метода (ADO)
+# <a name="write-method-ado"></a>Метод Write (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -31,7 +31,7 @@ ms.locfileid: "25867414"
 
   - **Variant** , содержащее массив байтов для записи.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **потока** без пробелов промежуточных между каждый байт записывается указанный байт.
 

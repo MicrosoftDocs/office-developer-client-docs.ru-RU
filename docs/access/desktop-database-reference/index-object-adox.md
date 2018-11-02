@@ -1,25 +1,25 @@
 ---
-title: Объект индекса (ADOX)
-TOCTitle: Index Object (ADOX)
+title: Объект Index (ADOX)
+TOCTitle: Index object (ADOX)
 ms:assetid: fe368ab1-e396-4684-d930-18b0ba58a925
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250304(v=office.15)
 ms:contentKeyID: 48548929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 682811352f1b218633cf4a925d4468322d9386d3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7cc27964bed572431f3482e0834868690f3b77df
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870641"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921903"
 ---
-# <a name="index-object-adox"></a>Объект индекса (ADOX)
+# <a name="index-object-adox"></a>Объект Index (ADOX)
 
 **Применимо к**: Access 2013, Office 2013
 
 Представляет индекс из таблицы базы данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Следующий код создает новый **индекса**.
 

@@ -1,5 +1,5 @@
 ---
-title: QueryDef.Close Method (DAO)
+title: Метод QueryDef.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: b2b63462-453d-9e2b-0bb3-69a4a7a6ecef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822031(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052976
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 874e4148bc23130a7b7cd952f8ea008c41f26ca5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a0fbc93ab07df4f21c9b4df13454455ed3c48a82
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868576"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925193"
 ---
-# <a name="querydefclose-method-dao"></a>QueryDef.Close Method (DAO)
+# <a name="querydefclose-method-dao"></a>Метод QueryDef.Close (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25868576"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если при использовании **Close**объекта **QueryDef** закрыт, возникает ошибка времени выполнения.
 

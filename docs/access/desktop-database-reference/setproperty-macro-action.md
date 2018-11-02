@@ -1,6 +1,6 @@
 ---
-title: Действия SetProperty макроса
-TOCTitle: SetProperty Macro Action
+title: Макрокоманда SetProperty
+TOCTitle: SetProperty macro action
 ms:assetid: 58d2eac3-35b2-e9f8-47e0-62c9b52f2c24
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194340(v=office.15)
 ms:contentKeyID: 48545004
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm139044
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ac0cb0fe608ad5f3e15ae72346eac30628ba3dfa
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 48b51ac15cde600b6f79968af49b73ad73333915
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887385"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918998"
 ---
-# <a name="setproperty-macro-action"></a>Действия SetProperty макроса
+# <a name="setproperty-macro-action"></a>Макрокоманда SetProperty
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -55,7 +55,7 @@ ms.locfileid: "25887385"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 - Действия **SetProperty** можно использовать для настройки следующих свойств элемента управления: **включено**, **Visible**, **блокируется**, **слева**, **в начало**, **Ширина**, **Высота**, **цвет текста**, **Цвет фона**, или **Заголовок**.
 

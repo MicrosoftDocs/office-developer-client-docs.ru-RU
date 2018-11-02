@@ -1,6 +1,6 @@
 ---
-title: Действия макроса DeleteObject
-TOCTitle: DeleteObject Macro Action
+title: Макрокоманда DeleteObject
+TOCTitle: DeleteObject macro action
 ms:assetid: a8deb2a7-4e73-8696-b8c1-3a3939d813f7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821415(v=office.15)
 ms:contentKeyID: 48546912
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91a6943267ebcd5445c338f12cc9f892ead0e316
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 65072fcc418e6a75ea1684c6830f3acfc4875aee
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879426"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921945"
 ---
-# <a name="deleteobject-macro-action"></a>Действия макроса DeleteObject
+# <a name="deleteobject-macro-action"></a>Макрокоманда DeleteObject
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -64,7 +64,7 @@ ms.locfileid: "25879426"
 
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы удалить временные объекты, созданные во время выполнения макроса можно использовать действие **DeleteObject** . Например можно использовать **ОткрытьЗапрос** для выполнения запроса создание таблицы, который создает временные таблицы. По окончании с помощью временной таблицы, можно использовать действие **DeleteObject** удалить ее.
 

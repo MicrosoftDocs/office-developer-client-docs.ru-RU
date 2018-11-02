@@ -1,19 +1,19 @@
 ---
-title: Relations.Delete Method (DAO)
+title: Метод Relations.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: e95408d2-9dde-44e7-875e-8f2d4b837cf6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836064(v=office.15)
 ms:contentKeyID: 48548438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a7ad2345e547232b79085ec5942ce5ca7d8b5c8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 462581e5b1ab3f09b697ee7f4b763a889d8119fd
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870025"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925529"
 ---
-# <a name="relationsdelete-method-dao"></a>Relations.Delete Method (DAO)
+# <a name="relationsdelete-method-dao"></a>Метод Relations.Delete (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -54,7 +54,7 @@ ms.locfileid: "25870025"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **Delete** поддерживается только в том случае, когда объект **связи** — это новый, unappended объект.
 

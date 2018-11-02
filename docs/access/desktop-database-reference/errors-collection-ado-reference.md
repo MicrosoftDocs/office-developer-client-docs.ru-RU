@@ -1,26 +1,26 @@
 ---
-title: Errors Collection (ADO) Reference
-TOCTitle: Errors Collection (ADO)
+title: Справочник по коллекции (ADO) ошибки
+TOCTitle: Errors collection (ADO)
 ms:assetid: 08400de5-8113-4f53-a6ae-62010372f276
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248823(v=office.15)
 ms:contentKeyID: 48543094
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6b5049225e175cdfb9695864fbc534c72fe47222
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4bea86d482ca1ac9e4cd11c8e859b042dbbf927b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889863"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926950"
 ---
-# <a name="errors-collection-ado-reference"></a>Errors Collection (ADO) Reference
+# <a name="errors-collection-ado-reference"></a>Справочник по коллекции (ADO) ошибки
 
 
 **Применимо к**: Access 2013, Office 2013
 
 
 
-  - [Семейство errors (ADO)](errors-collection-ado.md)
+  - [Коллекция Errors (ADO)](errors-collection-ado.md)
 
-  - [Свойства коллекции ошибок, методы и события](errors-collection-properties-methods-and-events.md)
+  - [Свойства, методы и события коллекции Errors](errors-collection-properties-methods-and-events.md)
 

@@ -1,5 +1,5 @@
 ---
-title: DBEngine.DefaultUser Property (DAO)
+title: Свойство DBEngine.DefaultUser (DAO)
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192905(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053071
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4f7179b6cb6dc442775082474039ab61831cb627
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 48397c3654d11735d13dd9499e1a6784f330f4af
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867694"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927152"
 ---
-# <a name="dbenginedefaultuser-property-dao"></a>DBEngine.DefaultUser Property (DAO)
+# <a name="dbenginedefaultuser-property-dao"></a>Свойство DBEngine.DefaultUser (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25867694"
 
 *выражение* Выражение, возвращающее объект **DBEngine** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр **DefaultUser** имеет тип данных String. Она может быть 1 — 20 знаков в Microsoft Access рабочих областей и он может включать буквы, диакритические знаки, чисел, пробелов и символов, за исключением: "(кавычки) / (косая черта), \\ (обратная косая черта), \[ \] (квадратные скобки) ,: (двоеточие), | (канал), \< (меньше-знак "больше"), \> (больше-знак "больше"), + (плюс), = (равно входа), (точка с запятой), (разделители)? (вопросительный знак), \* (звездочка), начальные пробелы и управляющие знаки (ASCII от 00 до ASCII 31).
 

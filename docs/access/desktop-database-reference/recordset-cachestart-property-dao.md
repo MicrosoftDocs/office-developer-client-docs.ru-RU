@@ -1,5 +1,5 @@
 ---
-title: Recordset.CacheStart Property (DAO)
+title: Свойство Recordset.CacheStart (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 03814312-660a-d8e9-8a7b-bc14d66e05ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844802(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053171
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 44981d8c19f76ee0a1d6df5fbdaeb72b35357336
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c73a12803a65f84d11ab62955d80ccda3d0825fb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886937"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919180"
 ---
-# <a name="recordsetcachestart-property-dao"></a>Recordset.CacheStart Property (DAO)
+# <a name="recordsetcachestart-property-dao"></a>Свойство Recordset.CacheStart (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25886937"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Кэширование данных улучшает производительность при использовании **набора записей** объектов для извлечения данных из удаленного сервера. Кэш — это должен быть пробел в локальной памяти, в которой содержатся данные, недавно извлеченные с сервера. Это полезно, если пользователи запрашивать данные еще раз во время выполнения приложения. Когда пользователь запрашивает данные, ядро базы данных Microsoft Access кэша для запрошенные данные сначала проверяет вместо извлечение из сервера, который занимает больше времени. Кэш сохраняет только данные, поступающие из источника данных ODBC.
 

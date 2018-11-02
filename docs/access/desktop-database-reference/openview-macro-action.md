@@ -1,6 +1,6 @@
 ---
-title: Действия OpenView макроса
-TOCTitle: OpenView Macro Action
+title: Макрокоманда OpenView
+TOCTitle: OpenView macro action
 ms:assetid: 4d3b7e6d-4b81-4fbe-7222-24d745350321
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193569(v=office.15)
 ms:contentKeyID: 48544726
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm50135
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ee0a46e909c86534693638de98f42980bccfebba
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 50346ce66d32d91a4f902adbb5600438d214e1fb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870172"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921329"
 ---
-# <a name="openview-macro-action"></a>Действия OpenView макроса
+# <a name="openview-macro-action"></a>Макрокоманда OpenView
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -64,7 +64,7 @@ ms.locfileid: "25870172"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие аналогично дважды щелкнув представления в области переходов или щелкнув правой кнопкой мыши представления в области переходов и затем выбрав команду.
 

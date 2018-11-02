@@ -1,19 +1,19 @@
 ---
 title: Найти метод - ActiveX Data Objects (ADO)
-TOCTitle: Find Method (ADO)
+TOCTitle: Find method (ADO)
 ms:assetid: a7cc9ceb-fdb9-73e2-8328-70b174f93cda
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 929e4ac695ff65c3576f2ffb8ad1baf8ab1d1137
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b37f5930f9a9a36603700a1d27458527f128ad34
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870627"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922036"
 ---
-# <a name="find-method-ado"></a>Найти метод (ADO)
+# <a name="find-method-ado"></a>Метод Find (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -41,9 +41,9 @@ ms.locfileid: "25870627"
 
   - *Start*
 
-  - Необязательный параметр. Закладка **Variant** , который работает как позицию для поиска.
+  - Необязательно указывать. Закладка **Variant** , который работает как позицию для поиска.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Может быть указано только имя одного столбца в *условия*. Этот метод не поддерживает поиска по нескольким столбцам.
 

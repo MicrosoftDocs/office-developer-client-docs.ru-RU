@@ -1,19 +1,19 @@
 ---
 title: Очистка метод - ActiveX Data Objects (ADO)
-TOCTitle: Flush Method (ADO)
+TOCTitle: Flush method (ADO)
 ms:assetid: c167e3b1-c133-ce45-6cee-5a1280a1568f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
 ms:contentKeyID: 48547529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ecf56ccf715df324798cd9b5adfc57f92591f05
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b52bb3d595c21ccc682e5af182b794065bcd1b13
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885131"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920447"
 ---
-# <a name="flush-method-ado"></a>Очистка метод (ADO)
+# <a name="flush-method-ado"></a>Метод Flush (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "25885131"
 
 *Поток*. Очистка
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот метод может использоваться для отправки содержимое буфера потока базовый объект (например, узел или файл, представленный URL-адрес, который является источником объекта **потока** ). Этот метод необходимо вызывать флажок, чтобы убедиться, что все изменения, внесенные в содержимое **потока** были записаны. Тем не менее с помощью ADO не обычно требуется позвонить, **Очистка**, как ADO постоянно очищает его буфер, насколько это возможно в фоновом режиме. Содержимое **потока** внесения изменений автоматически, не кэшируется до **очистки** вызова.
 

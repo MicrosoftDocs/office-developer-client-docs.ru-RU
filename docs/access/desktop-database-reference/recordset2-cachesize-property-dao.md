@@ -1,5 +1,5 @@
 ---
-title: Recordset2.CacheSize Property (DAO)
+title: Свойство Recordset2.CacheSize (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: d8d195cc-6696-0583-31eb-b9988f8b7c6f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835090(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052927
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f314644d54c7a6361cf196f4e3c2a59df8af271d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 89a9b22ccb1318b0888d4332ca85858ac8313012
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872244"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919369"
 ---
-# <a name="recordset2cachesize-property-dao"></a>Recordset2.CacheSize Property (DAO)
+# <a name="recordset2cachesize-property-dao"></a>Свойство Recordset2.CacheSize (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25872244"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение свойства **CacheSize** должен быть между 5 и 1200, но не больше, чем объем доступной памяти будет разрешено. Стандартное значение равно 100. Значение 0 отключает кэширование.
 

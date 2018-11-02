@@ -1,6 +1,6 @@
 ---
-title: LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
-TOCTitle: LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
+title: Присоединение к СЛЕВА, RIGHT JOIN операции (Microsoft Access SQL)
+TOCTitle: LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)
 ms:assetid: 9c10525f-98b1-fd4f-8b40-07a32c5c6502
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198084(v=office.15)
 ms:contentKeyID: 48546586
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: 4e2c9f8b47622bf9408d02b683af4e48d52c8662
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a16df1e26e4ab5617e6bf76aa93a11a936ccb49b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870529"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925900"
 ---
-# <a name="left-join-right-join-operations-microsoft-access-sql"></a>LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
+# <a name="left-join-right-join-operations-microsoft-access-sql"></a>Присоединение к СЛЕВА, RIGHT JOIN операции (Microsoft Access SQL)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -55,7 +55,7 @@ ms.locfileid: "25870529"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте операцию LEFT JOIN для создания левого внешнего соединения. Левые внешние соединения включают все записи из первой (левой) таблицы, даже если нет совпадающих значений для записей в таблице второй (справа).
 

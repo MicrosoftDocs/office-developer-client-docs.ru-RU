@@ -1,19 +1,19 @@
 ---
-title: Property.Type Property (DAO)
+title: Свойство Property.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: bf8258ca-08b5-c4f9-e6d7-114e4300b2ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
 ms:contentKeyID: 48547490
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15a1ac18a504a723948b8f1539c1bf002cf9833a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c157e088c594c7a5b6a8ae7af3df4617d79e9be3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888148"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919845"
 ---
-# <a name="propertytype-property-dao"></a>Property.Type Property (DAO)
+# <a name="propertytype-property-dao"></a>Свойство Property.Type (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25888148"
 
 *выражение* Переменная, которая представляет собой объект- **свойство** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр или возвращаемое значение — это константа, которая указывает тип действующие или данных. Для **[Свойства](property-object-dao.md)** объекта это свойство является чтение и запись, пока объект добавляется к коллекции или другой объект, после чего он доступен только для чтения.
 

@@ -1,19 +1,19 @@
 ---
-title: Field2.GetChunk Method (DAO)
+title: Метод Field2.GetChunk (DAO)
 TOCTitle: GetChunk Method
 ms:assetid: 5d3a66c0-8216-d701-0a91-b79fbbc822b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33f5c3a88cb604236be64dc0771b4d1e78b7eb37
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 09660c472a6fd799c111214dafe3266cdec9eced
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880952"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926649"
 ---
-# <a name="field2getchunk-method-dao"></a>Field2.GetChunk Method (DAO)
+# <a name="field2getchunk-method-dao"></a>Метод Field2.GetChunk (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -64,7 +64,7 @@ ms.locfileid: "25880952"
 
 Variant
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Байт, возвращаемых **GetChunk** назначаются переменной. Используйте **GetChunk** для возврата значения данных за раз. Метод **[AppendChunk](field-appendchunk-method-dao.md)** воссоздать компоненты.
 

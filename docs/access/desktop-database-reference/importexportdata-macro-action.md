@@ -1,6 +1,6 @@
 ---
-title: Действия макроса ImportExportData
-TOCTitle: ImportExportData Macro Action
+title: Макрокоманда ImportExportData
+TOCTitle: ImportExportData macro action
 ms:assetid: 2cbde873-8a3d-b15c-4aab-405cddf44cea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192107(v=office.15)
 ms:contentKeyID: 48543961
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 62a496867852afb89d5b556f6be793f3f8c3739e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 847f23c429b06fee51b42aa211d672b051accb7c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887784"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920398"
 ---
-# <a name="importexportdata-macro-action"></a>Действия макроса ImportExportData
+# <a name="importexportdata-macro-action"></a>Макрокоманда ImportExportData
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -90,7 +90,7 @@ ms.locfileid: "25887784"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Можно импортировать и экспортировать таблицы между доступа и другие типы баз данных. Также можно экспортировать запросах доступа к другим типам баз данных. Microsoft Access экспортирует набор результатов запроса в виде таблицы. Можно импортировать и экспортировать все объекты базы данных Access, если обе базы данных, базы данных Access.
 

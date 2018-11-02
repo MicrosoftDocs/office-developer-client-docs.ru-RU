@@ -1,6 +1,6 @@
 ---
-title: Действия макроса NavigateTo
-TOCTitle: NavigateTo Macro Action
+title: Макрокоманда NavigateTo
+TOCTitle: NavigateTo macro action
 ms:assetid: 6594d614-3ea6-7851-b70e-1661d24f8ba0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195165(v=office.15)
 ms:contentKeyID: 48545324
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6cb9505eaf4a2002b0a4ae73ce4917ac250cda12
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9d8747c5c4fd1a32a36841f648017bc0cab3de8f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876059"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920811"
 ---
-# <a name="navigateto-macro-action"></a>Действия макроса NavigateTo
+# <a name="navigateto-macro-action"></a>Макрокоманда NavigateTo
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -42,17 +42,17 @@ ms.locfileid: "25876059"
 <tbody>
 <tr class="odd">
 <td><p><strong>Категория</strong></p></td>
-<td><p>Обязательный. Категория, по которому требуется области навигации для отображения объектов. Выберите <strong>Тип объекта</strong>, <strong>таблицы и представления</strong>, <strong>Дата изменения</strong>, <strong>Дата создания</strong>или <strong>Custom</strong> в поле <strong>категории</strong> .</p></td>
+<td><p>Обязательно указывать. Категория, по которому требуется области навигации для отображения объектов. Выберите <strong>Тип объекта</strong>, <strong>таблицы и представления</strong>, <strong>Дата изменения</strong>, <strong>Дата создания</strong>или <strong>Custom</strong> в поле <strong>категории</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>group</strong></p></td>
-<td><p>Необязательный параметр. Ограничения аргумент для <strong>групп</strong> , которые объектов в категории, отображаются в области навигации. Если <strong>Группа</strong> аргумента оставлено пустым, области навигации отображает все объекты базы данных, упорядоченные по условиям, указанным в аргументе <strong>категории</strong> . В следующей таблице показаны примеры допустимых аргументов <strong>группы</strong> для различных <strong>категорий</strong> аргументов.</p></td>
+<td><p>Необязательно указывать. Ограничения аргумент для <strong>групп</strong> , которые объектов в категории, отображаются в области навигации. Если <strong>Группа</strong> аргумента оставлено пустым, области навигации отображает все объекты базы данных, упорядоченные по условиям, указанным в аргументе <strong>категории</strong> . В следующей таблице показаны примеры допустимых аргументов <strong>группы</strong> для различных <strong>категорий</strong> аргументов.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
   - Это действие аналогично Выбор категории и группы из строки заголовка в области переходов.
 

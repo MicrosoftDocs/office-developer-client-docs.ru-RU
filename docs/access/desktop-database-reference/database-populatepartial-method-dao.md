@@ -1,5 +1,5 @@
 ---
-title: Database.PopulatePartial Method (DAO)
+title: Метод Database.PopulatePartial (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837034(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ed8125d89691045a24ecc438d490146a8a3942b5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2d90d82db89060894eda1e58442cb6f9d52f124e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883017"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919495"
 ---
-# <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial Method (DAO)
+# <a name="databasepopulatepartial-method-dao"></a>Метод Database.PopulatePartial (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -59,7 +59,7 @@ ms.locfileid: "25883017"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При синхронизации частичные реплики с полной реплики, можно создать «потерянных» записей в частичные реплики. Допустим, у вас есть клиенты с его **[этого](tabledef-replicafilter-property-dao.md)** , задайте значение «область = «Центр сертификации»». При изменении пользователем региона клиента из центра сертификации для Нюнорск частичное реплики, а затем синхронизации с помощью метода **[синхронизации](database-synchronize-method-dao.md)** , изменения распределены по полной реплики, но запись, содержащую Нюнорск частичное реплики потерянные, так как теперь ИТ не соответствует условиям фильтра реплики.
 

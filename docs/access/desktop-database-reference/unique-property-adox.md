@@ -1,19 +1,19 @@
 ---
-title: Уникальные свойства (ADOX)
-TOCTitle: Unique Property (ADOX)
+title: Свойство Unique (ADOX)
+TOCTitle: Unique property (ADOX)
 ms:assetid: 23dc9e98-5bc4-42c7-6d3a-340736f0db05
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249012(v=office.15)
 ms:contentKeyID: 48543744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 209bcabdcad9c75cdfee01f85e16f27205e9160e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7d228c6f2b802982076db1dc602849f5bf8a0515
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880455"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927209"
 ---
-# <a name="unique-property-adox"></a>Уникальные свойства (ADOX)
+# <a name="unique-property-adox"></a>Свойство Unique (ADOX)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "25880455"
 
 Задает и возвращает значение **типа Boolean** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение по умолчанию — **False**.
 

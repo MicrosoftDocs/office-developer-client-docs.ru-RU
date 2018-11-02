@@ -1,5 +1,5 @@
 ---
-title: Recordset.Move Method (DAO)
+title: Метод Recordset.Move (DAO)
 TOCTitle: Move Method
 ms:assetid: 21ca5ab5-ff71-1ae8-21b3-8991d5f795cf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191697(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052941
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2caa468f189e30373e2818b090688ca6f239258d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1bb39565e087a5c679e87e0e40dccb3eb4446511
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870592"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926089"
 ---
-# <a name="recordsetmove-method-dao"></a>Recordset.Move Method (DAO)
+# <a name="recordsetmove-method-dao"></a>Метод Recordset.Move (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -64,7 +64,7 @@ ms.locfileid: "25870592"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если вы используете **Перемещение** навести указатель текущей записи перед первой записи указатель текущей записи перемещает в начало файла. Если **записей** не содержит записей и его свойство **[BOF](recordset-bof-property-dao.md)** имеет **значение True**, с помощью этого метода для перемещения назад приводит к ошибке.
 

@@ -1,5 +1,5 @@
 ---
-title: Field.AllowZeroLength Property (DAO)
+title: Свойство Field.AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: 5103a905-9258-e088-0210-857372f41c3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193832(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7d5e6ecf7683a41ddb057467f892155143c33144
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3bee3b9457f2c5187432c1aad6cd1837e70eadae
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882436"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926299"
 ---
-# <a name="fieldallowzerolength-property-dao"></a>Field.AllowZeroLength Property (DAO)
+# <a name="fieldallowzerolength-property-dao"></a>Свойство Field.AllowZeroLength (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -29,7 +29,7 @@ ms.locfileid: "25882436"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для объекта еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.
 

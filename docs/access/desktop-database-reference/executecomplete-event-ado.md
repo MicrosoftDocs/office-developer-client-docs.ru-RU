@@ -1,17 +1,17 @@
 ---
 title: Событие ExecuteComplete (ADO)
-TOCTitle: ExecuteComplete Event (ADO)
+TOCTitle: ExecuteComplete event (ADO)
 ms:assetid: 47317d97-e373-32f4-9438-2dff46b8d367
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e29db2848d7ec7b229831156ee64815a152a4bfc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 58683a8721ede0e7535b159f095b44bc6db6c1b7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887903"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926733"
 ---
 # <a name="executecomplete-event-ado"></a>Событие ExecuteComplete (ADO)
 
@@ -54,7 +54,7 @@ ExecuteComplete*RecordsAffected*, *pError*, *adStatus*, *командной*, *p
 
   - Объект [подключения](connection-object-ado.md) . Подключение, для которого была выполнена операция.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Событие **ExecuteComplete** может возникнуть из-за **подключения.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **набора записей.** После [открытия](open-method-ado-recordset.md) **набора записей.** [Повторный запрос](requery-method-ado.md), или **набора записей.** Методы [NextRecordset](nextrecordset-method-ado.md) .
 

@@ -1,19 +1,19 @@
 ---
-title: Обновления метода (ADO)
-TOCTitle: Refresh Method (ADO)
+title: Метод Refresh (ADO)
+TOCTitle: Refresh method (ADO)
 ms:assetid: f1c8829f-9c7d-12b6-7470-727ff38d663e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 710329fb00615b127ee5bc79cb10a6b5fc71b5e0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c4bbc44dbb9cdfeaac0904ed5296db206016211d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875674"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922764"
 ---
-# <a name="refresh-method-ado"></a>Обновления метода (ADO)
+# <a name="refresh-method-ado"></a>Метод Refresh (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "25875674"
 
 *семейства сайтов*. Обновление
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **Refresh** выполняет различные задачи в зависимости от семейства сайтов, из которого вызывается его.
 

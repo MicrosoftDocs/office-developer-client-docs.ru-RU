@@ -1,6 +1,6 @@
 ---
-title: Действия УстановитьСообщения макроса
-TOCTitle: SetWarnings Macro Action
+title: Макрокоманда SetWarnings
+TOCTitle: SetWarnings macro action
 ms:assetid: ff95b919-b1ee-c0a0-851d-71894851bb1d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837313(v=office.15)
 ms:contentKeyID: 48548965
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm165020
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a1081ac8778c143270e4e2536c53bb47982af92
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d72a594a09196f5061ede52b4fbcbbc2cf96253c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885516"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923163"
 ---
-# <a name="setwarnings-macro-action"></a>Действия УстановитьСообщения макроса
+# <a name="setwarnings-macro-action"></a>Макрокоманда SetWarnings
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -56,7 +56,7 @@ ms.locfileid: "25885516"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие можно использовать для предотвращения модальные окна предупреждения и окнах сообщений в каждом окне. Тем не менее всегда отображаются сообщения об ошибках. Кроме того, Microsoft Access отображает все диалоговые окна, требующие ввода данных, отличных от простого нажатия кнопок (например, **кнопку ОК**, **Отменить**, **Да**или **Нет**), к примеру, любое диалоговое окно, которое требуется для ввода текста или выберите один из несколько вариантов .
 

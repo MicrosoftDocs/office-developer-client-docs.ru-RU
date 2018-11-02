@@ -1,19 +1,19 @@
 ---
-title: TableDef.CreateProperty Method (DAO)
+title: Метод TableDef.CreateProperty (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 8a92cc64-414e-f33c-1c3e-d1b62c1688c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197102(v=office.15)
 ms:contentKeyID: 48546197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 659e2cca7d9e5507e208b77dfd2685f76fed02d1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c8f95eb28c90e00cf4a13cde542ef46608a2fe80
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881246"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919481"
 ---
-# <a name="tabledefcreateproperty-method-dao"></a>TableDef.CreateProperty Method (DAO)
+# <a name="tabledefcreateproperty-method-dao"></a>Метод TableDef.CreateProperty (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -76,7 +76,7 @@ ms.locfileid: "25881246"
 
 Свойство
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект пользовательских **свойств** можно создать только в коллекции **[свойств](properties-collection-dao.md)** объекта, который является постоянным.
 

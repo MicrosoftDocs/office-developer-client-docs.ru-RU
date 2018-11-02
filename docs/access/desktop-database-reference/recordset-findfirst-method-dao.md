@@ -1,19 +1,19 @@
 ---
-title: Recordset.FindFirst Method (DAO)
+title: Метод Recordset.FindFirst (DAO)
 TOCTitle: FindFirst Method
 ms:assetid: 5fcf78cd-7d2c-2e47-14e5-996f2e14ff51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194787(v=office.15)
 ms:contentKeyID: 48545170
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80d642bf408e4234ff38ec70641a5c9b69db0e9a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 23f7609cb918ce1dc04c17d84178daf2ce43be31
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887742"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925396"
 ---
-# <a name="recordsetfindfirst-method-dao"></a>Recordset.FindFirst Method (DAO)
+# <a name="recordsetfindfirst-method-dao"></a>Метод Recordset.FindFirst (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -53,7 +53,7 @@ ms.locfileid: "25887742"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если требуется включить все записи в поле поиска — не только те, которые соответствуют определенное условие — использовать методы **перемещения** для перемещения между записями. Чтобы найти записи в таблице тип **набора записей**, используйте метод **поиска** .
 

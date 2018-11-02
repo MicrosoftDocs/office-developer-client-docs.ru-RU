@@ -1,19 +1,19 @@
 ---
 title: Метод stat - ActiveX Data Objects (ADO)
-TOCTitle: Stat Method (ADO)
+TOCTitle: Stat method (ADO)
 ms:assetid: d3d3976b-14d4-dee0-412d-a37bc72fbfd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250056(v=office.15)
 ms:contentKeyID: 48547916
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e620c3b2f824f7c49abb576ea46a51b04598463
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a8e1193257710eb2a0a23436cfc1a36424025136
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891160"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922834"
 ---
-# <a name="stat-method-ado"></a>Метод stat (ADO)
+# <a name="stat-method-ado"></a>Метод Stat (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -64,7 +64,7 @@ ms.locfileid: "25891160"
     </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В следующих полях структуры STATSTG заполняет версии Stat метода, реализованного в объекте ADO Stream:
 

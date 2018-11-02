@@ -1,19 +1,19 @@
 ---
-title: Catalog Properties, Methods, and Events (ADO MD)
+title: Каталог свойства, методы и события (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 51d3b237-a1ee-a605-a228-7c92edb13bd5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249265(v=office.15)
 ms:contentKeyID: 48544831
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3eb77a7f6cabd2e2e49af81225c7828abe002fa
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1e618599e8b4552017c02fd7d2083676770c050c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869164"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921805"
 ---
-# <a name="catalog-properties-methods-and-events-ado-md"></a>Catalog Properties, Methods, and Events (ADO MD)
+# <a name="catalog-properties-methods-and-events-ado-md"></a>Каталог свойства, методы и события (ADO MD)
 
 **Применимо к**: Access 2013, Office 2013
 

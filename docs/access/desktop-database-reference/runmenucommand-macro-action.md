@@ -1,6 +1,6 @@
 ---
-title: Действия макроса RunMenuCommand
-TOCTitle: RunMenuCommand Macro Action
+title: Макрокоманда RunMenuCommand
+TOCTitle: RunMenuCommand macro action
 ms:assetid: cc4a4f72-0c73-91b7-8cec-6cbcda7e5b1c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834420(v=office.15)
 ms:contentKeyID: 48547735
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 372803779767ea6fdc12b4e10b5dde231ce101fc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f01fc72a620e5c08a6f98b4b69a8eb8da7b98bbb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875516"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925676"
 ---
-# <a name="runmenucommand-macro-action"></a>Действия макроса RunMenuCommand
+# <a name="runmenucommand-macro-action"></a>Макрокоманда RunMenuCommand
 
 
 **Применимо к**: Access 2013, Office 2013

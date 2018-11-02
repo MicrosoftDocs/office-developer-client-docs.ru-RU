@@ -1,5 +1,5 @@
 ---
-title: DBEngine.OpenConnection Method (DAO)
+title: Метод DBEngine.OpenConnection (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 778a581f-be42-94ee-e5c6-4cbc1843450d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196074(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 959291193b8606ce223e6ad1a20c17895b136a13
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f958081ee73e64ca6c895217c8aa3e821617b283
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876794"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927195"
 ---
-# <a name="dbengineopenconnection-method-dao"></a>DBEngine.OpenConnection Method (DAO)
+# <a name="dbengineopenconnection-method-dao"></a>Метод DBEngine.OpenConnection (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -78,7 +78,7 @@ ms.locfileid: "25876794"
 
 Подключение
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **OpenConnection** для подключения к источнику данных ODBC из рабочей области технология ODBCDirect. Метод **OpenConnection** похоже, но не эквивалентно **OpenDatabase**. Основное различие — это **OpenConnection** доступны только в рабочей области технология ODBCDirect.
 

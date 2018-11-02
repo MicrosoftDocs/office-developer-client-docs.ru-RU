@@ -1,19 +1,19 @@
 ---
-title: Действия ПоказатьВсеЗаписи макроса
-TOCTitle: ShowAllRecords Macro Action
+title: Макрокоманда ShowAllRecords
+TOCTitle: ShowAllRecords macro action
 ms:assetid: 6f9741ad-0440-4b8d-abea-009063c111f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195587(v=office.15)
 ms:contentKeyID: 48545538
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b6482bcd34562e13e1783f8e0702718eeaed0b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c4ea531de8c5b99c9ff85eacddcc79a596caebd5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881736"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922043"
 ---
-# <a name="showallrecords-macro-action"></a>Действия ПоказатьВсеЗаписи макроса
+# <a name="showallrecords-macro-action"></a>Макрокоманда ShowAllRecords
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -25,7 +25,7 @@ ms.locfileid: "25881736"
 
 **ПоказатьВсеЗаписи** не требует аргументов.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы убедиться, что все записи (включая все измененные или новые записи) отображаются для таблицы, набор результатов запроса или формы, можно использовать это действие. Это действие позволяет обновление записей для формы или подчиненной формы.
 

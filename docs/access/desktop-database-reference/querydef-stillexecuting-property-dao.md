@@ -1,5 +1,5 @@
 ---
-title: QueryDef.StillExecuting Property (DAO)
+title: Свойство QueryDef.StillExecuting (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 98e85d37-de50-afe1-dcca-01623546e0ad
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197953(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053584
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 62290944381687955b19e34f728e9ffff851bcd2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8f3816ade1195505910a2a6d26319d525b1db42b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872825"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919285"
 ---
-# <a name="querydefstillexecuting-property-dao"></a>QueryDef.StillExecuting Property (DAO)
+# <a name="querydefstillexecuting-property-dao"></a>Свойство QueryDef.StillExecuting (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25872825"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **StillExecuting** определяет наиболее недавно вызванный асинхронный метод **[OpenConnection](dbengine-openconnection-method-dao.md)** (то есть, метод выполнен с помощью параметра **dbRunAsync** ) или **[выполнить](querydef-execute-method-dao.md)** завершена. Хотя свойство **StillExecuting** имеет **значение True**, любой возвращенный объект не были доступны.
 

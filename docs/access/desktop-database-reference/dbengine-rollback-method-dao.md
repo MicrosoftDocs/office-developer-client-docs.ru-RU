@@ -1,5 +1,5 @@
 ---
-title: DBEngine.Rollback Method (DAO)
+title: Метод DBEngine.Rollback (DAO)
 TOCTitle: Rollback Method
 ms:assetid: da7e2fe0-c837-7b1e-d35c-98e6cb0a7bbe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835327(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053424
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b4d7e8496aefc40047c813c844a989580f8202e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 74676272d9ee69555762a6eb4343f1733be401e5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880959"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925521"
 ---
-# <a name="dbenginerollback-method-dao"></a>DBEngine.Rollback Method (DAO)
+# <a name="dbenginerollback-method-dao"></a>Метод DBEngine.Rollback (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25880959"
 
 *выражение* Переменная, которая представляет собой объект- **DBEngine** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Методы транзакции **BeginTrans** **CommitTrans**и **отката** управление обработки во время сеанса, определенные с помощью объекта **рабочей области** транзакций. Вы можете использовать эти методы с объектом **рабочей области** , когда необходимо рассматривать ряд изменений, внесенных в базы данных в сеансе как одно целое.
 

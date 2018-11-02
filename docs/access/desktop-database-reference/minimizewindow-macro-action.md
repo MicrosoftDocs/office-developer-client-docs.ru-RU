@@ -1,6 +1,6 @@
 ---
-title: Действия макроса MinimizeWindow
-TOCTitle: MinimizeWindow Macro Action
+title: Макрокоманда MinimizeWindow
+TOCTitle: MinimizeWindow macro action
 ms:assetid: 3a92b654-15ce-1ed1-63e0-eed927dbe26c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192648(v=office.15)
 ms:contentKeyID: 48544265
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm174420
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fd70c3fb41b65ae9c21b1651a6af64912b9c3c7c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 50716a32d0fa3837f87d9d2c5ecde0b59696480d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890892"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920370"
 ---
-# <a name="minimizewindow-macro-action"></a>Действия макроса MinimizeWindow
+# <a name="minimizewindow-macro-action"></a>Макрокоманда MinimizeWindow
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -34,7 +34,7 @@ ms.locfileid: "25890892"
 
 Действие **MinimizeWindow** не требует аргументов.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие можно использовать для удаления окна на экране, не закрывая объекта. Это действие также можно использовать для открытия объекта без отображения окна. **Чтобы отобразить объект макрокоманда с действием либо **MaximizeWindow** , либо **RestoreWindow** .** Действие **RestoreWindow** восстанавливает свернутого окна предыдущих размеров.
 

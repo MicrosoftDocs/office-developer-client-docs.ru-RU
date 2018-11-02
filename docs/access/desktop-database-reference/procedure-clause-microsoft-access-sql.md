@@ -1,6 +1,6 @@
 ---
-title: PROCEDURE Clause (Microsoft Access SQL)
-TOCTitle: PROCEDURE Clause (Microsoft Access SQL)
+title: Предложение ПРОЦЕДУРЫ (Microsoft Access SQL)
+TOCTitle: PROCEDURE clause (Microsoft Access SQL)
 ms:assetid: a718802c-9260-88d5-ec29-d5e5594927b0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821342(v=office.15)
 ms:contentKeyID: 48546872
@@ -12,14 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 63b38a469c5de60588783381c24c61296b177bdd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dd99fb241572f2e16eae914ba7d1dea31e1d097f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877991"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924262"
 ---
-# <a name="procedure-clause-microsoft-access-sql"></a>PROCEDURE Clause (Microsoft Access SQL)
+# <a name="procedure-clause-microsoft-access-sql"></a>Предложение ПРОЦЕДУРЫ (Microsoft Access SQL)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -41,7 +41,7 @@ ms.locfileid: "25877991"
 |*Тип данных* | Одна из основных [типов данных Microsoft Access SQL](sql-data-types.md) или их синонимы. |
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Процедура SQL состоит из предложения PROCEDURE (определяющего имя процедуры), дополнительный список параметров определения и одной инструкции SQL. Например, процедура Get\_часть\_номер может выполнять запрос, который извлекает указанную часть номер.
 

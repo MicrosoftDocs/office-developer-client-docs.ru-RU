@@ -1,19 +1,19 @@
 ---
-title: Представления коллекции свойства, методы и события (ADOX)
-TOCTitle: Views Collection Properties, Methods, and Events (ADOX)
+title: Свойства, методы и события коллекции Views (ADOX)
+TOCTitle: Views collection properties, methods, and events (ADOX)
 ms:assetid: 83108c15-39f9-d82b-9617-be1938bdc2f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249570(v=office.15)
 ms:contentKeyID: 48546000
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97b850fd14751843e14e899bdc8c6b6652e46764
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a655695b627d96650aa7dcc591182608bffc06cc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867554"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920825"
 ---
-# <a name="views-collection-properties-methods-and-events-adox"></a>Представления коллекции свойства, методы и события (ADOX)
+# <a name="views-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Views (ADOX)
 
 
 **Применимо к**: Access 2013, Office 2013

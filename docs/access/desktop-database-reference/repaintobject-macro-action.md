@@ -1,6 +1,6 @@
 ---
-title: Действия ОбновитьОбъект макроса
-TOCTitle: RepaintObject Macro Action
+title: Макрокоманда RepaintObject
+TOCTitle: RepaintObject macro action
 ms:assetid: e8fa7d0b-578c-5071-2bd5-b772b48637a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836055(v=office.15)
 ms:contentKeyID: 48548431
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 431baa0e98d0ae3a636cb93fd799c3bdf4450816
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 369c518ab0ab213975bb7da3c96b6e5844bad9ee
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882611"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919418"
 ---
-# <a name="repaintobject-macro-action"></a>Действия ОбновитьОбъект макроса
+# <a name="repaintobject-macro-action"></a>Макрокоманда RepaintObject
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -52,7 +52,7 @@ ms.locfileid: "25882611"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Microsoft Access будет ожидать завершения ожидающие обновления экрана до завершения другие ожидающие задачи. С помощью этого действия можно принудительно немедленное обновление элементов управления в указанном объекте. Это действие можно использовать:
 

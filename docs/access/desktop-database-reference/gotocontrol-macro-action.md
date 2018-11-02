@@ -1,19 +1,19 @@
 ---
-title: Действия КЭлементуУправления макроса
-TOCTitle: GoToControl Macro Action
+title: Макрокоманда GoToControl
+TOCTitle: GoToControl macro action
 ms:assetid: caff76dc-7ca8-4f87-8144-89445ed4600d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d068f6e0087d93d4a7dec3c5a7b2ed0f11c36be7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9fafa3ea40b492baf8b49dd240c6f7767ffad655
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874862"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926656"
 ---
-# <a name="gotocontrol-macro-action"></a>Действия КЭлементуУправления макроса
+# <a name="gotocontrol-macro-action"></a>Макрокоманда GoToControl
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -58,7 +58,7 @@ ms.locfileid: "25874862"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **КЭлементуУправления** нельзя использовать для перемещения фокуса на элемент управления на форме скрытые.
 

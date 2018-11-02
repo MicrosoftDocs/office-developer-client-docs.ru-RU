@@ -1,19 +1,19 @@
 ---
-title: Parameter.Type Property (DAO)
+title: Свойство Parameter.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 68205cd6-eb45-56a3-593f-e1203472037b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195248(v=office.15)
 ms:contentKeyID: 48545377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fe05170927fc8e32038678c9128a73ebbb75b7bf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 294d61ba964958d7933a68919df940cb7501ec0d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889541"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927034"
 ---
-# <a name="parametertype-property-dao"></a>Parameter.Type Property (DAO)
+# <a name="parametertype-property-dao"></a>Свойство Parameter.Type (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25889541"
 
 *выражение* Переменная, которая представляет собой объект- **параметр** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр или возвращаемое значение — это константа, которая указывает тип действующие или данных. Для объекта **[параметра](parameter-object-dao.md)** в рабочей области Microsoft Access свойство только для чтения.
 

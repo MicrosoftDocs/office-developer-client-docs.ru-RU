@@ -1,19 +1,19 @@
 ---
-title: Workspace.CommitTrans Method (DAO)
+title: Метод Workspace.CommitTrans (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
 ms:contentKeyID: 48548391
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6088a35988cfa94ed9bdca2cba2f03b9b36bb391
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f1c231ff8855a97c06bb7fed6f7e27bb7b0241e5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884641"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921218"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Workspace.CommitTrans Method (DAO)
+# <a name="workspacecommittrans-method-dao"></a>Метод Workspace.CommitTrans (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -53,7 +53,7 @@ ms.locfileid: "25884641"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Методы транзакции **BeginTrans** **CommitTrans**и **отката** управление обработки во время сеанса, определенные с помощью объекта **рабочей области** транзакций. Вы можете использовать эти методы с объектом **рабочей области** , когда необходимо рассматривать ряд изменений, внесенных в базы данных в сеансе как одно целое.
 

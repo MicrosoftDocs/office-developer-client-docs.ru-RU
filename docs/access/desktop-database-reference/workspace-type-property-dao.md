@@ -1,19 +1,19 @@
 ---
-title: Workspace.Type Property (DAO)
+title: Свойство Workspace.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 89e59280-d2cd-b6a2-16c5-9f14f42fdd99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
 ms:contentKeyID: 48546177
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3293c145ae615e7373a7061e79fc7ff531c24cf8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6c715da6ec535d90397b49e47be6ca76a72e5685
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881806"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926775"
 ---
-# <a name="workspacetype-property-dao"></a>Workspace.Type Property (DAO)
+# <a name="workspacetype-property-dao"></a>Свойство Workspace.Type (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25881806"
 
 *выражение* Переменная, которая представляет собой объект- **рабочей области** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для объекта **рабочей области** возможные параметры и возвращаемые значения, как показано ниже.
 

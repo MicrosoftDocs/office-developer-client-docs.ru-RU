@@ -1,19 +1,19 @@
 ---
-title: Блок данных CreateRecord
-TOCTitle: CreateRecord Data Block
+title: Блок данных СоздатьЗапись
+TOCTitle: CreateRecord data block
 ms:assetid: e18f47f8-2aad-9a14-ad63-ab603a4d5b07
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835671(v=office.15)
 ms:contentKeyID: 48548263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bda30265cbcf2377114734d03b16f889b0d165b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 69656b6ab65cef0e2dfec01a338dfc5a70752de3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880819"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922099"
 ---
-# <a name="createrecord-data-block"></a>Блок данных CreateRecord
+# <a name="createrecord-data-block"></a>Блок данных СоздатьЗапись
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -55,7 +55,7 @@ ms.locfileid: "25880819"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Записи, созданной **СоздатьЗапись** автоматически становится текущей.
 
@@ -67,22 +67,22 @@ ms.locfileid: "25880819"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="cancelrecordchange-macro-action.md">Действия макроса CancelRecordChange</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Макрокоманда CancelRecordChange</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Оператор комментария макросов</a></p></td>
+<td><p><a href="comment-macro-statement.md">Оператор макроса Comment</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-macro-statement.md">Оператор группы макросов</a></p></td>
+<td><p><a href="group-macro-statement.md">Оператор макроса Group</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="if-then-else-macro-block.md">If... Затем... Оператор Else макросов</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="setfield-macro-action.md">Действия SetField макроса</a></p></td>
+<td><p><a href="setfield-macro-action.md">Макрокоманда SetField</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="setlocalvar-macro-action.md">Действия макроса SetLocalVar</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Макрокоманда SetLocalVar</a></p></td>
 </tr>
 </tbody>
 </table>

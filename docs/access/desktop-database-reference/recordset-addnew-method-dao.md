@@ -1,5 +1,5 @@
 ---
-title: Recordset.AddNew Method (DAO)
+title: Метод Recordset.AddNew (DAO)
 TOCTitle: AddNew Method
 ms:assetid: 18cb35f6-8652-fb20-2460-3d13fae39d23
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845624(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052883
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ce7d907db9d16ead7cfa355ecf4f9e87e04f8095
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b07717a209fdb0152964bcd33d228d17cecd4eec
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891298"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922351"
 ---
-# <a name="recordsetaddnew-method-dao"></a>Recordset.AddNew Method (DAO)
+# <a name="recordsetaddnew-method-dao"></a>Метод Recordset.AddNew (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25891298"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **AddNew** для создания и добавления новой записи в объекте **набора записей** с именем, набора записей. Этого метода можно задать полей значения по умолчанию, и если нет значения по умолчанию не заданы, задает поля значение Null (значения по умолчанию, заданные для табличного типа **записей**).
 

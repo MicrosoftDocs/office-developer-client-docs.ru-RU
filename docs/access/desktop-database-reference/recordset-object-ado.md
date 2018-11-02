@@ -1,25 +1,25 @@
 ---
-title: Объект набора записей (ADO)
-TOCTitle: Recordset Object (ADO)
+title: Объект Recordset (ADO)
+TOCTitle: Recordset object (ADO)
 ms:assetid: 0f963bf8-f066-dc8a-b754-f427de712df1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248865(v=office.15)
 ms:contentKeyID: 48543267
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26172a73f0967ef299b79e0bae30088eec0f77c9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a99b3f792518e65900841bab90977e2edda6e804
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872587"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927041"
 ---
-# <a name="recordset-object-ado"></a>Объект набора записей (ADO)
+# <a name="recordset-object-ado"></a>Объект Recordset (ADO)
 
 **Применимо к**: Access 2013, Office 2013
 
 Представляет полного набора записей из базовой таблицы или результаты выполнения команды. В любое время в объект **набора записей** называется только одной записи в наборе текущей записи.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте объекты **набора записей** для работы с данными из поставщика. При использовании ADO работы с данным почти полностью с помощью объектов **набора записей** . Все объекты **наборов записей** состоят из записей (строк) и полей (столбцов). В зависимости от функциональных возможностей, поддерживаемых поставщиком некоторые из **набора записей** методов и свойств недоступен.
 

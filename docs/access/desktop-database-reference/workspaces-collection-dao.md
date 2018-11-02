@@ -1,26 +1,26 @@
 ---
-title: Workspaces Collection (DAO)
+title: Рабочие области для семейства сайтов (DAO)
 TOCTitle: Workspaces Collection
 ms:assetid: 88b851ce-4180-964f-582e-bc9571bf554c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197057(v=office.15)
 ms:contentKeyID: 48546142
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4108be7d6c1b2ee66ec5cddf4d26599796bf844c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7ac9bfe5d1002318b12faa115ea546324ee3e766
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870270"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926929"
 ---
-# <a name="workspaces-collection-dao"></a>Workspaces Collection (DAO)
+# <a name="workspaces-collection-dao"></a>Рабочие области для семейства сайтов (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 **Рабочие области для** семейства содержит все активные, Показать объекты **рабочей области для** объекта **DBEngine** . (Скрытые **рабочей области** объекты не добавляется в конец коллекции и ссылается переменная, к которому они назначены.)
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте объект **рабочей области** для управления текущего сеанса или чтобы начать сеанс обмена дополнительные.
 

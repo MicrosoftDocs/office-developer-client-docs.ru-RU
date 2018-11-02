@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
 ms:contentKeyID: 48548289
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f4a42fdf47b736b13cea53122431606224d2f9da
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e373dd683e679737564d44057ec0b96a866ab84e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889562"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923478"
 ---
-# <a name="error-object-dao"></a>Error Object (DAO)
+# <a name="error-object-dao"></a>Объект Error (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Объект **Error** содержит сведения об ошибках доступа к данным, каждая из которых относятся к одной операции, включающие использование DAO.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Любые операции, включающие использование DAO можно создать одну или несколько ошибок. Например вызов на сервер ODBC может привести ошибка с сервера баз данных, ошибку из ODBC и DAO ошибки. Как происходит каждой такой ошибки, объект **Error** помещается в семействе **Errors** объекта **DBEngine** . Одно событие может привести несколько объектов **ошибок** , изображения которых появляются в семейство **Errors** .
 

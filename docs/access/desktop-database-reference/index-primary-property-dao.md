@@ -1,5 +1,5 @@
 ---
-title: Index.Primary Property (DAO)
+title: Свойство Index.Primary (DAO)
 TOCTitle: Primary Property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: efaf00dc54068c6ce7c2991613b9485bcbdf41c7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2ef796ca15ea551010ebf3605a6662bf66d83131
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891242"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921882"
 ---
-# <a name="indexprimary-property-dao"></a>Index.Primary Property (DAO)
+# <a name="indexprimary-property-dao"></a>Свойство Index.Primary (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -31,7 +31,7 @@ ms.locfileid: "25891242"
 
 *выражение* Переменная, которая представляет объект **индекса** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение свойства **основной** — чтение и запись для нового объекта **индекс** еще не добавлены в семейство сайтов и только для чтения для существующего объекта **индексу** в коллекции **[индексов](indexes-collection-dao.md)** . Если объект **[TableDef](tabledef-object-dao.md)** добавляется объект **индекса** , но объект **TableDef** не добавлено в коллекцию **[TableDefs](tabledefs-collection-dao.md)** , свойство **Index** — чтение и запись.
 

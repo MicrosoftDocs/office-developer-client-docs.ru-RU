@@ -1,19 +1,19 @@
 ---
-title: Recordset2.UpdateOptions Property (DAO)
+title: Свойство Recordset2.UpdateOptions (DAO)
 TOCTitle: UpdateOptions Property
 ms:assetid: 2692480e-c472-dd8e-f91a-939776822ece
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191899(v=office.15)
 ms:contentKeyID: 48543816
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 04f47f7a4affd68a55ae72287fb102a1c0f6d8be
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5ad1428d9a820a2489a9051ca77c0de854e03d57
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877942"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920853"
 ---
-# <a name="recordset2updateoptions-property-dao"></a>Recordset2.UpdateOptions Property (DAO)
+# <a name="recordset2updateoptions-property-dao"></a>Свойство Recordset2.UpdateOptions (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "25877942"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При выполнении пакетного режима **[обновления](recordset2-update-method-dao.md)** DAO и текущей позиции пакета клиентской библиотеки создать ряд инструкций SQL UPDATE, внесите необходимые изменения. Для каждого обновления для изоляции записей, которые помечены как измененный свойством **[RecordStatus](recordset2-recordstatus-property-dao.md)** создается инструкцию SQL. Так как некоторые удаленных серверов с помощью триггеров или другие способы целостность данных, он часто необходимо ограничить поля обновляется только теми, которые повлияет переход. 
 

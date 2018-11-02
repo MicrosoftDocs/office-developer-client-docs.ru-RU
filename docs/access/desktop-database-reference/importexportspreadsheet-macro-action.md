@@ -1,6 +1,6 @@
 ---
-title: Действия макроса ImportExportSpreadsheet
-TOCTitle: ImportExportSpreadsheet Macro Action
+title: Макрокоманда ImportExportSpreadsheet
+TOCTitle: ImportExportSpreadsheet macro action
 ms:assetid: 526aef41-8329-5335-9d16-4d332542a297
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193927(v=office.15)
 ms:contentKeyID: 48544846
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm31446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 78819ba2a82bf2fc9ab5c39300d06c1acdda80bc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6d630602d7b81fe44427d892d62275f4509dbdc2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875807"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923975"
 ---
-# <a name="importexportspreadsheet-macro-action"></a>Действия макроса ImportExportSpreadsheet
+# <a name="importexportspreadsheet-macro-action"></a>Макрокоманда ImportExportSpreadsheet
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -94,7 +94,7 @@ ms.locfileid: "25875807"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Можно экспортировать данные в запросах доступа электронных таблиц. Microsoft Access экспортирует набор результатов запроса в виде таблицы.
 

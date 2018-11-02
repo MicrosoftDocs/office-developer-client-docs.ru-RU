@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193203(v=office.15)
 ms:contentKeyID: 48544587
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f8cf561c5e53de9da159c3aa5c8179a921deecf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 644089e9ff4dddf2aed9f767a667cc3d80b6e039
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867596"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924570"
 ---
-# <a name="field-object-dao"></a>Field Object (DAO)
+# <a name="field-object-dao"></a>Объект поля (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
 Объект **поля** представляет столбец данных с типом данных и общий набор свойств.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Коллекции **полей** **индекса**, **QueryDef**, **связь**и **TableDef** объектов содержат спецификаций для полей представляют эти объекты. Коллекция **полей** объекта **набора записей** представляет объекты **поля** в строке данных или в записи. Используйте объекты **поля** в объекте **набора записей** для чтения и задайте значения для полей в текущей записи объекта **набора записей** .
 

@@ -1,19 +1,19 @@
 ---
-title: QueryDef.OpenRecordset Method (DAO)
+title: Метод QueryDef.OpenRecordset (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: b4908c36-c156-e269-e2ad-b1fa20ec4884
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822070(v=office.15)
 ms:contentKeyID: 48547232
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: afea074d034f1778dbf7d456a2b0bb427c107aab
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f18982c733d6fcbf150e31dfccab630529135722
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875058"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924353"
 ---
-# <a name="querydefopenrecordset-method-dao"></a>QueryDef.OpenRecordset Method (DAO)
+# <a name="querydefopenrecordset-method-dao"></a>Метод QueryDef.OpenRecordset (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -88,7 +88,7 @@ ms.locfileid: "25875058"
 
 Набор записей
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Константа **[dbSeeChanges](recordsetoptionenum-enumeration-dao.md)** также следует использовать при открытии **набора записей** в таблице Microsoft Access базы данных подключен модуль ODBC рабочей области для Microsoft SQL Server 6.0 (или более поздней версии), которая имеет столбец ИДЕНТИФИКАТОРОВ, в противном случае может возникнуть ошибка.
 

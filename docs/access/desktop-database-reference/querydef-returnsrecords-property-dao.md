@@ -1,5 +1,5 @@
 ---
-title: QueryDef.ReturnsRecords Property (DAO)
+title: Свойство QueryDef.ReturnsRecords (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5d3b0c159d259d96ea135a8ed014af268a57cd77
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 933f2ebd5816f02305184c00562b81d7424db57a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880322"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925669"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a>QueryDef.ReturnsRecords Property (DAO)
+# <a name="querydefreturnsrecords-property-dao"></a>Свойство QueryDef.ReturnsRecords (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -31,7 +31,7 @@ ms.locfileid: "25880322"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Не все запросы к серверу SQL к внешним базам данных возвращает записи. Например инструкция SQL UPDATE обновляет записи без возвращения записей, пока инструкции SQL SELECT возврата записей. Если запрос возвращает записей, присвойте свойству **ReturnsRecords** значение **True**; Если запрос не возвращает записей, присвойте свойству **ReturnsRecords** значение **False**.
 

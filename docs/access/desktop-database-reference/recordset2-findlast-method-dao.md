@@ -1,19 +1,19 @@
 ---
-title: Recordset2.FindLast Method (DAO)
+title: Метод Recordset2.FindLast (DAO)
 TOCTitle: FindLast Method
 ms:assetid: 6a31dd00-8e05-6226-ebd8-703d2562b5c7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195400(v=office.15)
 ms:contentKeyID: 48545428
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2cf726af8a9177a0e01c00bed00cde9f30306a57
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2c780a3a379e94ec5a166428afee0a01e001718a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873000"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920055"
 ---
-# <a name="recordset2findlast-method-dao"></a>Recordset2.FindLast Method (DAO)
+# <a name="recordset2findlast-method-dao"></a>Метод Recordset2.FindLast (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -54,7 +54,7 @@ ms.locfileid: "25873000"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если требуется включить все записи в поле поиска — не только те, которые соответствуют определенное условие — использовать методы **перемещения** для перемещения между записями. Чтобы найти записи в таблице тип **набора записей**, используйте метод **поиска** .
 

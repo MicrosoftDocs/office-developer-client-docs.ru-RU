@@ -1,26 +1,26 @@
 ---
-title: Document Object (DAO)
+title: Объект Document (DAO)
 TOCTitle: Document Object
 ms:assetid: b51d4545-b157-4c7c-fdbe-16a25afffdb3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 27caa87aa250b0604c163b347bb5202e1c9b994b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 17dfd7d1a6f5a0c7ec6bd985d75d201202a71ff7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880777"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922316"
 ---
-# <a name="document-object-dao"></a>Document Object (DAO)
+# <a name="document-object-dao"></a>Объект Document (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Объект **Document** содержит сведения о один экземпляр объекта. Объект может быть базы данных, сохраненные в таблице, запрос или связь (Microsoft Access базами данных, ядро только).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Каждый объект- **контейнер** имеет **документы** коллекцию, содержащую объекты **документов** , которые описывают экземпляры встроенные объекты типа, указанного в качестве **контейнера**. В следующей таблице перечислены тип объекта, который описывает каждого **документа** , имя его объекта- **контейнера** , а какая информация **документ** содержит.
 

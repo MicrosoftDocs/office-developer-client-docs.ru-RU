@@ -1,25 +1,25 @@
 ---
-title: TableDefs Collection (DAO)
+title: Коллекция TableDefs (DAO)
 TOCTitle: TableDefs Collection
 ms:assetid: a2986b02-0437-d6ac-7bbb-c43f5225c3fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
 ms:contentKeyID: 48546766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 084e11bf892a63d6b526e5f584de1ae450264c75
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b265063d1912b81aa852505b756e58e7a643d4ae
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25482715"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922946"
 ---
-# <a name="tabledefs-collection-dao"></a>TableDefs Collection (DAO)
+# <a name="tabledefs-collection-dao"></a>Коллекция TableDefs (DAO)
 
 **Применимо к:** Access 2013 | Office 2013
 
 Коллекция **TableDefs** содержит все хранимые **TableDef** объектов базы данных (только для рабочих областей Microsoft Access).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Работа с помощью объекта **TableDef** и его методы и свойства определения таблицы.
 

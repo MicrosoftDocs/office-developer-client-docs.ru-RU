@@ -1,5 +1,5 @@
 ---
-title: QueryDef.MaxRecords Property (DAO)
+title: Свойство QueryDef.MaxRecords (DAO)
 TOCTitle: MaxRecords Property
 ms:assetid: 7492cde9-be30-3473-dabc-9602465910d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195877(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053583
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 87f193be1f7261a4aecbfe1cceb4fe5a55038702
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5893dd0c6538a1812dc9b19aede2b9114899d68c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882107"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927128"
 ---
-# <a name="querydefmaxrecords-property-dao"></a>QueryDef.MaxRecords Property (DAO)
+# <a name="querydefmaxrecords-property-dao"></a>Свойство QueryDef.MaxRecords (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -31,7 +31,7 @@ ms.locfileid: "25882107"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение по умолчанию равно 0, указывающее без ограничений на количество возвращаемых записей.
 

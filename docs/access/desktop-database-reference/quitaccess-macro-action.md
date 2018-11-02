@@ -1,6 +1,6 @@
 ---
-title: Действия макроса QuitAccess
-TOCTitle: QuitAccess Macro Action
+title: Макрокоманда QuitAccess
+TOCTitle: QuitAccess macro action
 ms:assetid: af063f65-d3b1-fa9a-4bc1-04b0d21d62b9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821759(v=office.15)
 ms:contentKeyID: 48547089
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d26f8d32e0df350c52ea22dfec44ac7a24c9ecc9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f30459483af92a915aaa1e94eb4bb12e0f8ca93c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870753"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919691"
 ---
-# <a name="quitaccess-macro-action"></a>Действия макроса QuitAccess
+# <a name="quitaccess-macro-action"></a>Макрокоманда QuitAccess
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -56,7 +56,7 @@ ms.locfileid: "25870753"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Access не выполните все действия, которые выполните действие **QuitAccess** в макросе.
 

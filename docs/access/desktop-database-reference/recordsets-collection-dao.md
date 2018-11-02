@@ -1,25 +1,25 @@
 ---
-title: Recordsets Collection (DAO)
+title: Коллекция наборов записей (DAO)
 TOCTitle: Recordsets Collection
 ms:assetid: 246d9a78-4ce8-6393-982b-77ac00cd85bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
 ms:contentKeyID: 48543756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a32c52f60ed8c7bd68f32ed9986638bffcdec84
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b32ef33205e23656e7bcb86d7384876e4c404c1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869003"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924528"
 ---
-# <a name="recordsets-collection-dao"></a>Recordsets Collection (DAO)
+# <a name="recordsets-collection-dao"></a>Коллекция наборов записей (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
 Коллекция **наборов записей** содержит все открытые объекты **набора записей** в объекте **подключения** или **базы данных** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При использовании объектов DAO работы с данным почти полностью с помощью объектов **набора записей** .
 

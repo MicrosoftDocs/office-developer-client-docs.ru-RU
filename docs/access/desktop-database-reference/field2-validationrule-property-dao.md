@@ -1,19 +1,19 @@
 ---
-title: Field2.ValidationRule Property (DAO)
+title: Свойство Field2.ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 5464d2de-f3d7-5d6b-4fc5-66df6a5540cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
 ms:contentKeyID: 48544896
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 006c9ce982aa98f28187d04fced12992d61548d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cf640597405205987040d95033b2eb1ceee13867
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880056"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922715"
 ---
-# <a name="field2validationrule-property-dao"></a>Field2.ValidationRule Property (DAO)
+# <a name="field2validationrule-property-dao"></a>Свойство Field2.ValidationRule (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25880056"
 
 *выражение* Выражение, возвращающее объект **поле2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметры или возвращаемые значения — это строка, описывающая сравнения в виде SQL, ГДЕ предложения WHERE без зарезервированным словом. Для объекта еще не добавляется в конец коллекции **[полей](fields-collection-dao.md)** это свойство соответствует чтения и записи.
 

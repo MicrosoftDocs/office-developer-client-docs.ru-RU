@@ -1,19 +1,19 @@
 ---
-title: Parameters.Count Property (DAO)
+title: Свойство Parameters.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: bc8c814b-da55-22b7-431f-a0f7e6cac994
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822720(v=office.15)
 ms:contentKeyID: 48547415
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9a45ce03c68b310042a1abd6673fb7811fa21d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b021eaa165ec1ac32e8c241f3ebf59450a473422
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883815"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923466"
 ---
-# <a name="parameterscount-property-dao"></a>Parameters.Count Property (DAO)
+# <a name="parameterscount-property-dao"></a>Свойство Parameters.Count (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25883815"
 
 *выражение* Переменная, которая представляет собой объект- **Параметры** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
 

@@ -1,19 +1,19 @@
 ---
-title: Properties.Refresh Method (DAO)
+title: Метод Properties.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 71ba18fb-55a5-6a5f-3631-1c81c20f3369
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195805(v=office.15)
 ms:contentKeyID: 48545593
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a10f4404ff3ee94e85baed36eb9ce9869754a69
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cf799da67768659772faad01baed898263dfc0e8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883857"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925641"
 ---
-# <a name="propertiesrefresh-method-dao"></a>Properties.Refresh Method (DAO)
+# <a name="propertiesrefresh-method-dao"></a>Метод Properties.Refresh (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25883857"
 
 *выражение* Переменная, которая представляет собой объект- **Свойства** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **Refresh** в многопользовательских средах, в которых другие пользователи могут изменить базу данных. Кроме того, может потребоваться использовать на всех коллекций, которые косвенно затронуты изменениями в базе данных. Например при изменении коллекции **пользователей** может потребоваться обновить коллекцию **групп** перед использованием семейства сайтов **групп** .
 
