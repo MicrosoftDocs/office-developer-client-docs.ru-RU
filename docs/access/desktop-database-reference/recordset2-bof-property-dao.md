@@ -1,19 +1,19 @@
 ---
-title: Recordset2.BOF Property (DAO)
+title: Свойство Recordset2.BOF (DAO)
 TOCTitle: BOF Property
 ms:assetid: d97d0507-0d5a-e3f1-fa30-40caec9f3ffa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835098(v=office.15)
 ms:contentKeyID: 48548053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9e85b86d2ccfeaddd56f5373684e8790ee1ab0b2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ee64cbdea3a17f00939041f808ae6261d9810ae
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876423"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919642"
 ---
-# <a name="recordset2bof-property-dao"></a>Recordset2.BOF Property (DAO)
+# <a name="recordset2bof-property-dao"></a>Свойство Recordset2.BOF (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25876423"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойства **BOF** и **EOF** можно использовать для определения того, содержит ли объект **набора записей** ли вы уменьшилось за пределы ограничения объекта **набора записей** , при перемещении по записям или записи.
 

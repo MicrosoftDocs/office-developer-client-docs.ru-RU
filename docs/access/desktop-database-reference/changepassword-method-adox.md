@@ -1,19 +1,19 @@
 ---
-title: Изменение пароля метод (ADOX)
-TOCTitle: ChangePassword Method (ADOX)
+title: Метод ChangePassword (ADOX)
+TOCTitle: ChangePassword method (ADOX)
 ms:assetid: 999826a5-3e6b-b6da-b8f6-d61b9a50ceca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249690(v=office.15)
 ms:contentKeyID: 48546519
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34de673d29d160c715c8e2617d0e2a75e3843904
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f11cfaddc99a0e10a86e0df9a7a187c4e89fc794
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872237"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921063"
 ---
-# <a name="changepassword-method-adox"></a>Изменение пароля метод (ADOX)
+# <a name="changepassword-method-adox"></a>Метод ChangePassword (ADOX)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -36,7 +36,7 @@ ms.locfileid: "25872237"
 
   - **Строковое** значение, задающее новый пароль.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 По соображениям безопасности старый пароль должен быть указан в дополнение к новый пароль.
 

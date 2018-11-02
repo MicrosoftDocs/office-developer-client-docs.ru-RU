@@ -1,6 +1,6 @@
 ---
-title: Действия ОстановитьВсеМакросы макроса
-TOCTitle: StopAllMacros Macro Action
+title: Макрокоманда StopAllMacros
+TOCTitle: StopAllMacros macro action
 ms:assetid: 6afbf906-03b8-6e68-bbc9-7a4b141cf1c5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195440(v=office.15)
 ms:contentKeyID: 48545442
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm104968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4d9452bed9a301c82d32c0c0a0800eb7b29231b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 34dbfc3504744dd446a018e797ebacfb79066d96
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870515"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923353"
 ---
-# <a name="stopallmacros-macro-action"></a>Действия ОстановитьВсеМакросы макроса
+# <a name="stopallmacros-macro-action"></a>Макрокоманда StopAllMacros
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25870515"
 
 Действие **ОстановитьВсеМакросы** не требует аргументов.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие обычно используется для остановки всех макросов при ошибки. В строке действие макрос, содержащий это действие можно использовать условного выражения. Когда вычисление выражения дает значение **True** (– 1), Microsoft Access останавливает все макросы.
 

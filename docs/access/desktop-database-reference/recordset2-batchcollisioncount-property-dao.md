@@ -1,19 +1,19 @@
 ---
-title: Recordset2.BatchCollisionCount Property (DAO)
+title: Свойство Recordset2.BatchCollisionCount (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 997dfbb3-673c-8813-f51b-ab8d95093c4f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197961(v=office.15)
 ms:contentKeyID: 48546514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 56f2b2debdcd974df3232ee42f07ca1235ff73c5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a703ca1bc05b40c4f86f16a808098b12d6d92678
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871341"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923324"
 ---
-# <a name="recordset2batchcollisioncount-property-dao"></a>Recordset2.BatchCollisionCount Property (DAO)
+# <a name="recordset2batchcollisioncount-property-dao"></a>Свойство Recordset2.BatchCollisionCount (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "25871341"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство показывает количество записей обнаружил конфликтов или в противном случае — не удалось обновить во время последней попытки обновления пакета. Значение этого свойства соответствует номеру закладки в свойстве **[BatchCollisions](recordset2-batchcollisions-property-dao.md)** .
 

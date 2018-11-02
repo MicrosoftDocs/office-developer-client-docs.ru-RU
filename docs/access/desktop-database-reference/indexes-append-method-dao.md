@@ -1,19 +1,19 @@
 ---
-title: Indexes.Append Method (DAO)
+title: Метод Indexes.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: 60dce80f-505b-e988-3ac1-8ecaae3d3d09
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194835(v=office.15)
 ms:contentKeyID: 48545191
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 203be6662fe555ecac0d6d18b261c6d5409700e3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c9ee24af940ef73940b7e70e870f452502380dd9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873910"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919348"
 ---
-# <a name="indexesappend-method-dao"></a>Indexes.Append Method (DAO)
+# <a name="indexesappend-method-dao"></a>Метод Indexes.Append (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -54,7 +54,7 @@ ms.locfileid: "25873910"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Добавленный объект становится сохраняемого объекта, хранящиеся на диске, пока не будет удалена с помощью метода **Delete** .
 

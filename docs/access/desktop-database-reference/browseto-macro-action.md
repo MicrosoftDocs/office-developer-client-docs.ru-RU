@@ -1,6 +1,6 @@
 ---
-title: Действия ВыбратьОбъект макроса
-TOCTitle: BrowseTo Macro Action
+title: Макрокоманда BrowseTo
+TOCTitle: BrowseTo macro action
 ms:assetid: b25e1cc6-c4ed-abd6-0285-94fc7dae0bdf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822020(v=office.15)
 ms:contentKeyID: 48547167
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 242041627a909b1c16d956dbbb94a3bf173d544a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c648e7ea8700a6881e3cc2deda4fd2ee9955c8b1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878936"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923813"
 ---
-# <a name="browseto-macro-action"></a>Действия ВыбратьОбъект макроса
+# <a name="browseto-macro-action"></a>Макрокоманда BrowseTo
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -67,7 +67,7 @@ ms.locfileid: "25878936"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Аргумент PathToSubFormControl должен быть указан с помощью синтаксиса в следующем примере кода:
 

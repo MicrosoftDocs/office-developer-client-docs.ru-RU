@@ -1,19 +1,19 @@
 ---
-title: QueryDefs Members (DAO)
+title: Члены QueryDefs (DAO)
 TOCTitle: QueryDefs Members
 ms:assetid: d178fa87-cf01-cb5b-357d-45d8b4e1b0ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834754(v=office.15)
 ms:contentKeyID: 48547864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f5e8d4c89686298b7769e480b833f05b0fa6f979
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5e00cde4c3cc44900a0a499548a987d61763148e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870207"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923212"
 ---
-# <a name="querydefs-members-dao"></a>QueryDefs Members (DAO)
+# <a name="querydefs-members-dao"></a>Члены QueryDefs (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013

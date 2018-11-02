@@ -1,5 +1,5 @@
 ---
-title: Database Object (DAO)
+title: Объект базы данных (DAO)
 TOCTitle: Database Object
 ms:assetid: 6cf2ddf8-3957-a15e-5eeb-85f81c1e415e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195520(v=office.15)
@@ -10,20 +10,20 @@ f1_keywords:
 - dao360.chm0
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ca0538f07f25ffe41288d15fd3737e08eb58f491
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 265edf6b5d426b87d718c66e9886b7a4877120de
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886755"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918851"
 ---
-# <a name="database-object-dao"></a>Database Object (DAO)
+# <a name="database-object-dao"></a>Объект базы данных (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
 Объект **базы данных** представляет базу данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте объект **базы данных** и его методы и свойства для работы с открытой базы данных. В базе данных любого типа можно выполнить следующие действия.
 

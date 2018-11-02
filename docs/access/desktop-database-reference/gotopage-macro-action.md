@@ -1,6 +1,6 @@
 ---
-title: Действия НаСтраницу макроса
-TOCTitle: GoToPage Macro Action
+title: Макрокоманда GoToPage
+TOCTitle: GoToPage macro action
 ms:assetid: 611aadff-83b7-e74d-4093-93fb5ce6e3ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194858(v=office.15)
 ms:contentKeyID: 48545199
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b183b7815769c1eed8c3ee0826167b93453ca19d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dd38a7f4973195fdd758934ceec787d623c3353c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891312"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923268"
 ---
-# <a name="gotopage-macro-action"></a>Действия НаСтраницу макроса
+# <a name="gotopage-macro-action"></a>Макрокоманда GoToPage
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -62,7 +62,7 @@ ms.locfileid: "25891312"
 
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие можно использовать для выбора первый элемент управления (как определено в последовательности табуляции формы) на указанной странице. Используйте **КЭлементуУправления** для перемещения для определенного элемента управления в форме.
 

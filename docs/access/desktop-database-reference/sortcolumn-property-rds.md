@@ -1,17 +1,17 @@
 ---
 title: Свойство SortColumn (RDS)
-TOCTitle: SortColumn Property (RDS)
+TOCTitle: SortColumn property (RDS)
 ms:assetid: 0a5d157c-9261-960d-6f89-33d9c94b3940
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248835(v=office.15)
 ms:contentKeyID: 48543151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a613ed053bd91685286066bfa534c41b99edbdd1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4bccd0eb536ec67937e8c3659b2ac62ef49a0bb3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874757"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924066"
 ---
 # <a name="sortcolumn-property-rds"></a>Свойство SortColumn (RDS)
 
@@ -34,7 +34,7 @@ ms.locfileid: "25874757"
 
   - **Строковое** значение, представляющее имя или псевдоним столбца, по которому выполняется сортировка записей.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **SortColumn**, [SortDirection](sortdirection-property-rds.md), [Значение_фильтра](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) свойства предоставляют функциональные возможности сортировки и фильтрации на кэш со стороны клиента. Функциональные возможности сортировки упорядочивает записей по значениями, полученными из одного столбца. Функции фильтрации отображает подмножество записей на основании условия поиска, пока сохраняется полный [набор записей](recordset-object-ado.md) в кэше. Метод [Reset](reset-method-rds.md) будет выполнять критерии и замените текущего **набора записей** обновляемых **записей**.
 

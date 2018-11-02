@@ -1,6 +1,6 @@
 ---
-title: Объект команды (ADO)
-TOCTitle: Command Object (ADO)
+title: Объект Command (ADO)
+TOCTitle: Command object (ADO)
 ms:assetid: 64f4ef03-f858-c004-b891-0c96d13a5e6e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249389(v=office.15)
 ms:contentKeyID: 48545303
@@ -10,21 +10,21 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 557eafe6e8c8ea2265fdaf8a5c4bae8856bb4476
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7fc8648f40e38020e84393e71d0a269a6ba7a6d7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867533"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922267"
 ---
-# <a name="command-object-ado"></a>Объект команды (ADO)
+# <a name="command-object-ado"></a>Объект Command (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Определяет определенной команде, которые планируется выполнить в источнике данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Использование объекта **команды** для запроса базы данных и возврата записей в объекте [набора записей](recordset-object-ado.md) для выполнения операции массового или для работы с структуры базы данных. В зависимости от функциональности поставщика некоторые **команды** семейств сайтов, методов или свойств может привести к ошибке при обращении к.
 

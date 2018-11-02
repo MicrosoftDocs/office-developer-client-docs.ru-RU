@@ -1,5 +1,5 @@
 ---
-title: DBEngine.RegisterDatabase Method (DAO)
+title: Метод DBEngine.RegisterDatabase (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fcb8e675f488c0d69f4c0d0b6329c47085d51e26
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 767bd146de7a5568d7441024adb9ad6816cb806e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888624"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923513"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase Method (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>Метод DBEngine.RegisterDatabase (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -77,7 +77,7 @@ ms.locfileid: "25888624"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если база данных уже зарегистрирована (сведения о подключении к уже введены) в реестре Windows при использовании метода **RegisterDatabase** обновляется сведения о подключении.
 

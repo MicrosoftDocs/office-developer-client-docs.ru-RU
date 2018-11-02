@@ -1,19 +1,19 @@
 ---
-title: Свойство обработчика (RDS)
-TOCTitle: Handler Property (RDS)
+title: Свойство Handler (RDS)
+TOCTitle: Handler property (RDS)
 ms:assetid: aaf8c8c6-f95b-3cf3-b3f6-203f37464c87
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
 ms:contentKeyID: 48546962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dcb0b7f635e9ad74e6d8733a2f0fbe0153ac4739
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2bb9444091611fbd051da9fa649b5d3efdb92ee6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884872"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923583"
 ---
-# <a name="handler-property-rds"></a>Свойство обработчика (RDS)
+# <a name="handler-property-rds"></a>Свойство Handler (RDS)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -35,7 +35,7 @@ ms.locfileid: "25884872"
 
   - **Строковое** значение, содержащее имя обработчика и любых параметров, все запятыми (например, «handlerName, parm1, parm2,..., parm *N*»).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство поддерживает настройки, функциональные возможности, необходимо задать свойство [CursorLocation](cursorlocation-property-ado.md) **adUseClient**.
 

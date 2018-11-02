@@ -1,19 +1,19 @@
 ---
 title: Метод - Close ActiveX Data Objects (ADO)
-TOCTitle: Close Method (ADO)
+TOCTitle: Close method (ADO)
 ms:assetid: 26a7cced-ebeb-70be-f5de-96a35711bc37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
 ms:contentKeyID: 48543818
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2df2f04f54242186093122bf70ef3365ad8617bf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3040896c1613e64a41fb839a7ea111cbca547e00
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875821"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923275"
 ---
-# <a name="close-method-ado"></a>Закройте метод (ADO)
+# <a name="close-method-ado"></a>Метод Close (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "25875821"
 
 *object*.Close
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **Close** для закрытия [подключения](connection-object-ado.md), [записи](record-object-ado.md), [набора записей](recordset-object-ado.md)или объект [Stream](stream-object-ado.md) , чтобы освободить место на все связанные системные ресурсы. Закрытие объект не удаляется из памяти; можно изменить параметры его свойств и откройте его позже. Чтобы полностью удалить объект из памяти, задайте объектной переменной значение *Nothing* (в Visual Basic) после закрытия объекта.
 
