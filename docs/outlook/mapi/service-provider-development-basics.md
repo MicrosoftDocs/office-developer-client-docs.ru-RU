@@ -19,7 +19,7 @@ ms.locfileid: "22566133"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Этот раздел содержит общую информацию, необходимо проверить перед созданием собственных поставщиков служб MAPI.
   
@@ -27,11 +27,11 @@ ms.locfileid: "22566133"
 
 
 
-[Разработка поставщика адресной книги MAPI](developing-a-mapi-address-book-provider.md)
+[Разработка поставщик адресной книги MAPI](developing-a-mapi-address-book-provider.md)
   
 [Разработка поставщика транспорта MAPI](developing-a-mapi-transport-provider.md)
   
-[���������� ���������� ��������� ��������� MAPI](developing-a-mapi-message-store-provider.md)
+[Разработка поставщика хранилища сообщений MAPI](developing-a-mapi-message-store-provider.md)
   
 [Поставщиков служб MAPI](mapi-service-providers.md)
   

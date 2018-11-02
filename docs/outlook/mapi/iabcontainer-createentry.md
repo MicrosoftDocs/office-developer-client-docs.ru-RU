@@ -23,7 +23,7 @@ ms.locfileid: "22575604"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Создает новый объект, который может быть обмена сообщениями пользователя, в список рассылки или другой контейнер.
   
@@ -66,17 +66,17 @@ CREATE_REPLACE
   
 > [out] Указатель на указатель на созданный элемент.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Новая запись успешно создан.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IABContainer::CreateEntry** создает новую запись определенного типа в указанном контейнере, указатель возвращается в реализации интерфейса дальнейший доступ к записи. Новая запись создается с помощью шаблона, который был выбран из контейнера списка доступных шаблонов, опубликованные в одноразовых таблице. Абоненты доступ к таблице одноразовых контейнер путем вызова метода [IMAPIProp::OpenProperty](imapiprop-openproperty.md) и разрешения на запрос свойства **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Все контейнеры, поддерживающие метод **IABContainer::CreateEntry** значения можно изменить. Установите флаг AB_MODIFIABLE контейнера в своем свойстве **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)), чтобы указать, что он или нет. 
   

@@ -17,7 +17,7 @@ ms.locfileid: "22575534"
 ---
 # <a name="syncstate"></a>SYNCSTATE
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Эта структура определяет состояния для этого компьютера состояние репликации.
   
@@ -45,5 +45,5 @@ typedef enum {
 
 - [Сведения об API репликации](about-the-replication-api.md)
 - [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 

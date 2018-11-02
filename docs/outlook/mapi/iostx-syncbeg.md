@@ -23,7 +23,7 @@ ms.locfileid: "22565118"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Подготавливает локального хранилища для синхронизации в определенное состояние и получает сведения, необходимые для репликации.
   
@@ -148,7 +148,7 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Клиент вызывает **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** для установки в результате синхронизации и затем вызывает **[IOSTX::SyncEnd](iostx-syncend.md)** для завершения этого состояния. Клиент должен вызывать **[IOSTX::SyncEnd](iostx-syncend.md)** для каждого вызова **IOSTX::SyncBeg** для определения, была ли успешно реплицирована состояние. После этого определения Outlook можно приступать к Очистка внутреннего состояния. 
   
@@ -173,5 +173,5 @@ LR_SYNC_DOWNLOAD_TABLE
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

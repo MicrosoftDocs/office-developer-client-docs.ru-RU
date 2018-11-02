@@ -23,7 +23,7 @@ ms.locfileid: "22571152"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает состояние в таблице и тип.
   
@@ -88,13 +88,13 @@ TBLTYPE_SNAPSHOT
   
 > В таблице является статическим, и его содержимое не изменяются при изменении базовых данных.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Состояние таблицы успешно возвращен.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPTable::GetStatus** получает сведения о типе и текущее состояние таблицы. 
   
@@ -108,11 +108,11 @@ TBLTYPE_SNAPSHOT
     
 - [IMAPITable::SetColumns](imapitable-setcolumns.md) для определения набора столбцов. 
     
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |Mfcmapi (en) использует метод **IMAPITable::GetStatus** для отчет о состоянии таблицы.  <br/> |
    

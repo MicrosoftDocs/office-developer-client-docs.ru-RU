@@ -21,7 +21,7 @@ ms.locfileid: "22576269"
 ---
 # <a name="rowentry"></a>ROWENTRY
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит строку и операцию, выполняемую с этой строки в таблице через интерфейс [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
@@ -34,7 +34,7 @@ typedef struct
 }  ROWENTRY, FAR * LPROWENTRY;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 **ulRowFlags**
   
@@ -56,11 +56,11 @@ typedef struct
   
 > Массив структур [SPropValue](spropvalue.md) , представляющих значения столбцов для вставки в таблице. 
     
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Используются для формирования список выбранных правил для последующих действий **ModifyTable** .  <br/> |
    

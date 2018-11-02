@@ -23,7 +23,7 @@ ms.locfileid: "22568842"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Завершает синхронизации в текущем состоянии и выходе из этого состояния.
   
@@ -31,7 +31,7 @@ ms.locfileid: "22568842"
 HRESULT SyncEnd();
 ```
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Клиент должен вызывать **IOSTX::SyncEnd** для каждого вызова [IOSTX::SyncBeg](iostx-syncbeg.md). Соответствующий структура данных содержит сведения, которые указывают ли клиент успешного завершения текущего состояния, Outlook может Очистка внутреннего состояния.
   
@@ -54,5 +54,5 @@ HRESULT SyncEnd();
 [IOSTX : IUnknown](iostxiunknown.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

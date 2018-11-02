@@ -23,15 +23,15 @@ ms.locfileid: "22566308"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Проверка ограничений, используются для ограничения представлении таблицы. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapival.h  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Поставщики услуг  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Поставщики услуг  <br/> |
    
 ```cpp
 ULONG FBadRestriction(
@@ -45,7 +45,7 @@ ULONG FBadRestriction(
   
 > [in] Структура [SRestriction](srestriction.md) , определение ограничения для проверки. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
 TRUE 
   
@@ -55,7 +55,7 @@ FALSE
   
 > Указанный ограничение и все его subrestrictions являются допустимыми.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 После проверки ограничения может быть передан в вызовы метода [IMAPITable::Restrict](imapitable-restrict.md) для ограничения в таблице, определенные строки, метод [IMAPITable::FindRow](imapitable-findrow.md) , найдите строку в таблице и методы [IMAPIContainer](imapicontainerimapiprop.md) интерфейс для выполнения ограничения для объекта-контейнера. 
   

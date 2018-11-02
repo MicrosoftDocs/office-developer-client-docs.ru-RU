@@ -23,15 +23,15 @@ ms.locfileid: "22566882"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Создает объект данных свойств, то есть, объект [IPropData](ipropdataimapiprop.md) . 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |Mapiutil.h  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
    
 ```cpp
 SCODE CreateIProp(
@@ -70,9 +70,9 @@ SCODE CreateIProp(
   
 > [out] Указатель на указатель на объект данных возвращаемого свойства.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������. 
     
@@ -80,7 +80,7 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
   
 > Запрошенный интерфейс не поддерживается для этого объекта.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Входные параметры _lpAllocateBuffer_, _lpAllocateMore_и _lpFreeBuffer_ пункты функции [MAPIFreeBuffer](mapifreebuffer.md) , [MAPIAllocateMore](mapiallocatemore.md)и [MAPIAllocateBuffer](mapiallocatebuffer.md)соответственно. Клиентское приложение вызов **CreateIProp** передается в указатели функции MAPI только с именем; Поставщик службы передает указатели эти функции его полученным в его вызовы инициализации и получить с помощью вызова метода [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
   

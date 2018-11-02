@@ -23,7 +23,7 @@ ms.locfileid: "22586804"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Отображает диалоговое окно Общие адреса. 
   
@@ -49,13 +49,13 @@ HRESULT Address(
   
 > [in, out] Указатель на указатель на список адресов. Для ввода данных этот список является либо текущий список получателей в сообщении или значение NULL, если список не существует. На выходе _lppAdrList_ указывает на обновленный список получателей сообщения. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Диалоговое окно "адрес" успешно отображается.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISupport::Address** реализуется для объектов поддержки поставщик адресной книги. Поставщиками адресной книги вызовите **адрес** , который необходимо создать или обновить список получателей сообщения. 
   
@@ -130,5 +130,5 @@ HRESULT Address(
 [IMAPISupport: IUnknown](imapisupportiunknown.md)
 
 
-[Управление памятью для структур ADRLIST и SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
+[Управление памятью для ADRLIST и SRowSet структур](managing-memory-for-adrlist-and-srowset-structures.md)
 

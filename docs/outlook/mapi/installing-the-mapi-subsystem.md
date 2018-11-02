@@ -19,7 +19,7 @@ ms.locfileid: "22575352"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Поддерживаемые версии Windows Установка библиотеки заглушка MAPI, Mapi32.dll, в _ \<диск\>_ \Windows\System32 папки. 
   

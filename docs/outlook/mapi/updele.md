@@ -17,7 +17,7 @@ ms.locfileid: "22566588"
 ---
 # <a name="updele"></a>UPDELE
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Подробные данные для элементов, которые были удалены в локальном хранилище. Эти сведения используются во время [загрузки удалить состояние состояние](upload-delete-status-state.md).
   
@@ -36,7 +36,7 @@ struct UPDELE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 _ulFlags_
   
@@ -72,7 +72,7 @@ _skey_
     
 _dwReserved_
   
-> [out] Этот член зарезервирован для внутреннего использования Outlook и не поддерживается.
+> [out] Данный элемент резервируется для внутреннего использования в Outlook и не поддерживается.
     
 _binChg_
   
@@ -94,7 +94,7 @@ _pupmov_
 
 - [Сведения об API репликации](about-the-replication-api.md) 
 - [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 - [SKEY](skey.md)
 - [UPDEL](updel.md)
 - [UPMOV](upmov.md)

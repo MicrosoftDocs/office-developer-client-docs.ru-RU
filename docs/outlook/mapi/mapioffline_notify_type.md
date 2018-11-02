@@ -19,7 +19,7 @@ ms.locfileid: "22566889"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 При изменении состояния подключения необходимо предпринять месте, с удалением или завершения — определяет MAPIOFFLINE_NOTIFY_TYPE уведомление. 
   
@@ -39,9 +39,9 @@ typedef enum {
 
 
 
-[Сведения об API автономного состояния](about-the-offline-state-api.md)
+[Об API автономного режима](about-the-offline-state-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [MAPIOFFLINE_NOTIFY](mapioffline_notify.md)
 

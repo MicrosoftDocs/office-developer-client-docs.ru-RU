@@ -23,7 +23,7 @@ ms.locfileid: "22573140"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает отображаемое имя контейнера формы.
   
@@ -48,17 +48,17 @@ MAPI_UNICODE
   
 > [out] Указатель на строку, содержащую отображаемое имя контейнера формы.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |Mfcmapi (en) использует метод **IMAPIFormContainer::GetDisplay** для получения имени контейнера формы при ее отображении CFormContainerDlg.  <br/> |
    

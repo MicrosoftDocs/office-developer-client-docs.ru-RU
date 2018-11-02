@@ -23,7 +23,7 @@ ms.locfileid: "22568205"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Возвращает текущее состояние сетевым и автономным автономного объекта.
   
@@ -56,5 +56,5 @@ MAPIOFFLINE_STATE_OFFLINE
 [IMAPIOffline::SetCurrentState](imapioffline-setcurrentstate.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

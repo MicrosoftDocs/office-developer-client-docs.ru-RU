@@ -19,7 +19,7 @@ ms.locfileid: "22565496"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Перечисление поддерживаемые типы обратных вызовов.
   
@@ -37,9 +37,9 @@ typedef enum
 
 
 
-[Сведения об API автономного состояния](about-the-offline-state-api.md)
+[Об API автономного режима](about-the-offline-state-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)
 

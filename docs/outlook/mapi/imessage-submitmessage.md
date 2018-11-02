@@ -23,7 +23,7 @@ ms.locfileid: "22567323"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сохраняет все свойства сообщений и помечает сообщения как Готово к отправке.
   
@@ -43,9 +43,9 @@ FORCE_SUBMIT
   
 > MAPI следует отправить сообщение немедленно. Этот флаг не в настоящее время используется.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
@@ -53,11 +53,11 @@ MAPI_E_NO_RECIPIENTS
   
 > Таблица получателей сообщения будет пустым.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMessage::SubmitMessage** помечает сообщения как готовые для передачи. MAPI передает сообщения системы обмена сообщениями в том порядке, в котором они помечены как для отправки. Из-за эту функцию сообщение может оставаться в хранилище сообщений некоторое время вступления системы обмена сообщениями ответственность за его. Порядок получения в месте назначения находится в базовом обмена сообщениями системы управления и не соответствует порядке, в котором отправки сообщения. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Вызов метода [IMAPIProp::SaveChanges](imapiprop-savechanges.md) сообщения, сохраните его и проверьте свойство message **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Если значение флага MSGFLAG_RESEND, вызовите [IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md). **PrepareSubmit** обновления тип получателя и свойство **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) для всех получателей в повторная отправка сообщений.
   
@@ -67,11 +67,11 @@ MAPI_E_NO_RECIPIENTS
   
 Чтобы отменить операцию отправки, получения и хранения указатель свойство message **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) перед отправкой сообщения. Так как идентификатор записи сообщения недействительными после отправки сообщения, это необходимо для сохранения до вызова метода **SubmitMessage**. Чтобы отменить отправить, выберите параметр _lpEntryId_ этот идентификатор записи и вызова [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |FolderDlg.cpp  <br/> |**CFolderDlg::OnSubmitMessage** <br/> |Mfcmapi (en) использует метод **IMessage::SubmitMessage** для отправки выбранного сообщения.  <br/> |
    

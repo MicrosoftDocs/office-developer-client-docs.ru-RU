@@ -23,7 +23,7 @@ ms.locfileid: "22570795"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Задает порядок вызова поставщиков какие транспорта доставить сообщение.
   
@@ -49,9 +49,9 @@ HRESULT MsgServiceTransportOrder(
   
 > [in] ���������������; ������ ���� ����� ����.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Порядок транспорта успешно установлены.
     
@@ -63,7 +63,7 @@ MAPI_E_NOT_FOUND
   
 > Одно или несколько из структур [MAPIUID](mapiuid.md) , переданной в параметре _lpUIDList_ относится к поставщика транспорта в настоящее время в профиле. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMsgServiceAdmin::MsgServiceTransportOrder** задает порядок доставки поставщиками транспорта в профиле. Параметр _lpUIDList_ должен содержать отсортированный список идентификаторов запись поставщика транспорта, полученного из свойства **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) в таблице, возвращенный из [IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md) метод. Клиентское приложение должно передавать полный список в _lpUIDList_.
   

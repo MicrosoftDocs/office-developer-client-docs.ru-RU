@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6986d27a-9602-e44a-0797-4c47f2184ef7
-description: '���� ���������� ���������: 25 ���� 2012 �.'
+description: 'Дата последнего изменения: 25 июня 2012 года'
 ms.openlocfilehash: ff13866139bf422f071eaba2c146aa1140ccd1ab
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22565048"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Проверяет, если указанное вложение не заблокирован по Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования.
   
@@ -48,7 +48,7 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
-[Проверка блокировки вложения](how-to-verify-an-attachment-is-blocked.md)
+[Убедитесь, что Заблокированные вложения](how-to-verify-an-attachment-is-blocked.md)
 

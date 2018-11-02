@@ -23,7 +23,7 @@ ms.locfileid: "22590430"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Задает приостановленном состоянии очереди.
   
@@ -51,5 +51,5 @@ void SetSpoolSuspendState(
 
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

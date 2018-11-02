@@ -19,7 +19,7 @@ ms.locfileid: "22570808"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 A great deal of the information that relates to message store provider support for folders is covered in [����� MAPI](mapi-folders.md). You should be familiar with that information before attempting to implement a message store provider. The [����� MAPI](mapi-folders.md) section is heavily oriented to the MAPI client's perspective; this topic covers additional information that is important from the message store provider's point of view. 
   

@@ -23,7 +23,7 @@ ms.locfileid: "22571145"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Удаление службы сообщений из профиля.
   
@@ -39,9 +39,9 @@ HRESULT DeleteMsgService(
   
 > [in] Указатель на структуру [MAPIUID](mapiuid.md) , который содержит уникальный идентификатор для службы сообщений для удаления. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Служба сообщений был удален.
     
@@ -49,7 +49,7 @@ MAPI_E_NOT_FOUND
   
 > **MAPIUID** , на который указывает _lpuid_ не соответствует существующую службу сообщений. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMsgServiceAdmin::DeleteMsgService** удаляет службы сообщений из профиля. **DeleteMsgService** удаляет все разделы профилей, связанные со службой сообщений. 
   
@@ -67,11 +67,11 @@ MAPI_E_NOT_FOUND
 
 Для получения **MAPIUID** структуры для службы сообщений для удаления, получить столбец свойство **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) из службы сообщений строку в таблице службы сообщений. Для получения дополнительных сведений см процедуры, описанные в методе [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |Mfcmapi (en) метод **IMsgServiceAdmin::DeleteMsgService** используется для удаления выбранного службы.  <br/> |
    

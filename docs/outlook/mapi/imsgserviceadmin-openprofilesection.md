@@ -23,7 +23,7 @@ ms.locfileid: "22568814"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Откроется раздел текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшей доступа. 
   
@@ -66,9 +66,9 @@ MAPI_FORCE_ACCESS
   
 > [out] Указатель на указатель на раздел профилей.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > В разделе профилей успешно открыт.
     
@@ -80,7 +80,7 @@ MAPI_E_NOT_FOUND
   
 > В разделе запрошенные профиля не существует.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMsgServiceAdmin::OpenProfileSection** открывает раздел профиля, объект, который поддерживает интерфейс [IProfSect](iprofsectimapiprop.md) . Разделы профилей используются для чтения и записи данных в профиль сеанса. 
   
@@ -94,11 +94,11 @@ MAPI_E_NOT_FOUND
   
 Можно создать профиля путем вызова **OpenProfileSection** с флагом MAPI_MODIFY и несуществующий [MAPIUID](mapiuid.md) структуры с помощью параметра _lpUID_ . Убедитесь, что вы установили MAPI_MODIFY. Если необходимо задать _lpUID_ для указания на несуществующий **MAPIUID** и **OpenProfileSection** задано значение использовать режим по умолчанию доступа только для чтения, вызов завершится с ошибкой с MAPI_E_NOT_FOUND. 
   
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |Mfcmapi (en) использует метод **IMsgServiceAdmin::OpenProfileSection** для открытия профиля.  <br/> |
    

@@ -19,7 +19,7 @@ ms.locfileid: "22583346"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Описание свойств идентификатора записи каталога.
   
@@ -40,7 +40,7 @@ typedef struct _dir_entryid
 #pragma pack()
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  **abFlags**
   
@@ -61,14 +61,14 @@ typedef struct _dir_entryid
 |**Имя**|**Описание**|
 |:-----|:-----|
 |CONTAB_ROOT  <br/> |Корневой папки для адресную книгу MAPI.  <br/> |
-|CONTAB_SUBROOT  <br/> |Подпапки, находящиеся в корневую папку объект MAPI адресной книги.  <br/> |
-|CONTAB_CONTAINER  <br/> |������ ���������� �������� �����.  <br/> |
+|CONTAB_SUBROOT  <br/> |Вложенная папка, находящаяся в корневой папке объекта адресной книги MAPI.  <br/> |
+|CONTAB_CONTAINER  <br/> |Объект-контейнер адресной книги.  <br/> |
    
  **muidID**
   
 > GUID, идентифицирующий объект вход в систему.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Структур **DIR_ENTRYID** и [CONTAB_ENTRYID](contab_entryid.md) идентичны, за исключением члена **ulType** . Содержимое элемента **ulType** определяет, какие структуры подходит для остальных полях. 
   

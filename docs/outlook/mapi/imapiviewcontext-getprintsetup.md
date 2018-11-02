@@ -23,7 +23,7 @@ ms.locfileid: "22587259"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Извлекает сведения о текущем печати.
   
@@ -48,17 +48,17 @@ MAPI_UNICODE
   
 > [out] Указатель на указатель на структуру, которая содержит сведения о печати.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-ЗНАЧЕНИЕ S_OK 
+S_OK 
   
 > Печать информации был успешно извлечен.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объекты формы вызовите метод **IMAPIViewContext::GetPrintSetup** для получения сведений о настройке принтера прежде чем печати текущего сообщения. 
   
-## <a name="notes-to-implementers"></a>Примечания для исполнителей
+## <a name="notes-to-implementers"></a>Примечания для реализующих
 
 Выделите **hDevMode** и **hDevName** элементы структуры [FORMPRINTSETUP](formprintsetup.md) , с помощью функции Win32 **GlobalAlloc**.
   

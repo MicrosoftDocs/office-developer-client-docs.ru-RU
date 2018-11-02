@@ -23,7 +23,7 @@ ms.locfileid: "22565909"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Обновляет объект таблицы MAPI.
   
@@ -65,11 +65,11 @@ ROWLIST_REPLACE
   
 > [in] Указывает на [ROWLIST](rowlist.md) структура, содержащая свойства для объекта в таблице. 
     
-## <a name="mfcmapi-reference"></a>Справочник по mfcmapi (en)
+## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
-������ ���� mfcmapi (en) ���������� � ������� ����.
+Пример кода MFCMAPI указан в приведенной ниже таблице.
   
-|**����**|**�������**|**�����������**|
+|**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
 |RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |Mfcmapi (en) использует метод **IExchangeModifyTable::ModifyTable** для обратной записи измененные правила в таблице правил.  <br/> |
    

@@ -17,7 +17,7 @@ ms.locfileid: "22565097"
 ---
 # <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Предоставляет сведения о **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** для регистрации обратного вызова для объекта в автономном режиме. 
   
@@ -37,7 +37,7 @@ typedef struct
 } MAPIOFFLINE_ADVISEINFO;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 _ulSize_: размер **MAPIOFFLINE_ADVISEINFO**. 
     
@@ -58,7 +58,7 @@ _ulStateMask_: MAPIOFFLINE_STATE_ALL — это единственный под�
 ## <a name="see-also"></a>См. также
 
 - [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
-- [Сведения об API автономного состояния](about-the-offline-state-api.md) 
-- [��������� MAPI](mapi-constants.md) 
+- [Об API автономного режима](about-the-offline-state-api.md) 
+- [Константы MAPI](mapi-constants.md) 
 - [MAPIOFFLINE_CALLBACK_TYPE](mapioffline_callback_type.md)
 

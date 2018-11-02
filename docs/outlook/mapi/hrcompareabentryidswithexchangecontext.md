@@ -19,15 +19,15 @@ ms.locfileid: "22564992"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Сравнивает книги два адреса **entryIDs** безопасно в профиле нескольких Exchange. Эта функция — это функция замены для [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |abhelp.h  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
    
 ```cpp
 HRESULT HrCompareABEntryIDsWithExchangeContext(

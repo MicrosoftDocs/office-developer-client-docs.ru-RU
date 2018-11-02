@@ -23,7 +23,7 @@ ms.locfileid: "22568149"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Отправка уведомлений обратных вызовов в клиент поддерживает Microsoft Outlook 2010 и Microsoft Outlook 2013.
   
@@ -38,7 +38,7 @@ ms.locfileid: "22568149"
 |:-----|:-----|
 |[Уведомления](imapiofflinenotify-notify.md) <br/> |Отправляет уведомления об изменениях в состоянии подключения к клиенту.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Клиент должен реализовывать этот интерфейс и передать указатель на него в качестве члена группы в **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** при настройке обратных вызовов с помощью **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Следовательно Outlook 2010 или Outlook 2013 могут использовать этот интерфейс для отправки уведомлений обратных вызовов для клиента. 
   
@@ -49,9 +49,9 @@ ms.locfileid: "22568149"
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 
 
-[Сведения об API автономного состояния](about-the-offline-state-api.md)
+[Об API автономного режима](about-the-offline-state-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)
 

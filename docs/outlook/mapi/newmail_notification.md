@@ -23,7 +23,7 @@ ms.locfileid: "22569514"
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Описание сведений, которые относятся к поступления нового сообщения. 
   
@@ -45,7 +45,7 @@ typedef struct _NEWMAIL_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  **cbEntryID**
   
@@ -79,7 +79,7 @@ MAPI_UNICODE
   
 > Битовая маска флаги, описывающее текущее состояние вновь поступивших сообщений. Член **ulMessageFlags** является копию свойство message **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Структура **NEWMAIL_NOTIFICATION** — это один из участников объединение структуры, включенные в элемент **info** структуры [УВЕДОМЛЕНИЙ](notification.md) . Когда участник **info** структуры **уведомление** содержит структуру **NEWMAIL_NOTIFICATION** , член **ulEventType** структуры **УВЕДОМЛЕНИЙ** задано значение _fnevNewMail._
   
@@ -89,9 +89,9 @@ MAPI использует структуру **NEWMAIL_NOTIFICATION** тольк
   
 |**Статья**|**Описание**|
 |:-----|:-----|
-|[Уведомление о событиях в MAPI](event-notification-in-mapi.md) <br/> |Общий обзор уведомлений и события уведомления.  <br/> |
+|[Уведомление о событии в MAPI](event-notification-in-mapi.md) <br/> |Общий обзор уведомлений и события уведомления.  <br/> |
 |[Обработка уведомлений](handling-notifications.md) <br/> |Обсуждение как клиенты должны обрабатывать уведомления.  <br/> |
-|[Поддержка уведомлений о событиях](supporting-event-notification.md) <br/> |Обсуждение того, как поставщиков услуг можно использовать метод [IMAPISupport](imapisupportiunknown.md) для создания уведомлений.  <br/> |
+|[Поддержка уведомления о событии](supporting-event-notification.md) <br/> |Обсуждение того, как поставщиков услуг можно использовать метод [IMAPISupport](imapisupportiunknown.md) для создания уведомлений.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
