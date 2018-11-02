@@ -1,19 +1,19 @@
 ---
-title: Recordset2.Clone Method (DAO)
+title: Метод Recordset2.Clone (DAO)
 TOCTitle: Clone Method
 ms:assetid: f0d32cb1-03f6-395d-2509-b2139a5fdc68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 95d02f56a7c1e916bd0b6181a7a22b3cebb9d9b1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 666e27b176fb973298c791f7473dbda6fe37c7b0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875030"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928833"
 ---
-# <a name="recordset2clone-method-dao"></a>Recordset2.Clone Method (DAO)
+# <a name="recordset2clone-method-dao"></a>Метод Recordset2.Clone (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25875030"
 
 Набор записей
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **клонированной** для создания нескольких дубликатов объектов **набора записей** . Каждый набор записей может иметь собственный текущей записи. С помощью **клонированной** сам по себе не изменяет данные в объектах или в их базовые структуры. При использовании метода **клонирования** могут совместно использовать закладки между двумя или более объектов **Recordset2** , так как их закладки являются взаимозаменяемыми.
 

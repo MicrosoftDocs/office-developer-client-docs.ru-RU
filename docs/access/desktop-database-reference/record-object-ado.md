@@ -1,26 +1,26 @@
 ---
-title: Объект записи (ADO)
-TOCTitle: Record Object (ADO)
+title: Объект Record (ADO)
+TOCTitle: Record object (ADO)
 ms:assetid: 817aaf13-78d4-1134-aa94-997e92077c22
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249557(v=office.15)
 ms:contentKeyID: 48545952
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 82eb2a8fc2bae5e2aa4d451f015216ce20fc99b8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c3a42a89179cca6ec556819031865d6b6752b176
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868002"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928609"
 ---
-# <a name="record-object-ado"></a>Объект записи (ADO)
+# <a name="record-object-ado"></a>Объект Record (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Представляет строку из [набора записей](recordset-object-ado.md) или поставщик данных или объект, возвращенный поставщиком частично структурированных данных, такой как файл или папку.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **запись** представляет одну строку данных и понятий похож с одной строки **набора записей**. В зависимости от возможностей вашего поставщика, объекты **записи** могут быть возвращены непосредственно от поставщика вместо одной строки **набора записей**для выполнения пример, когда запрос SQL, которая выбирает только одну строку. Также можно получить объект **записи** непосредственно из объекта **набора записей** . Или, в **записи** можно получить напрямую от поставщика для частично структурированных данных, таких как Microsoft Exchange поставщика OLE DB.
 

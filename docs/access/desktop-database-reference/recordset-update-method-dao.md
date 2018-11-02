@@ -1,19 +1,19 @@
 ---
-title: Recordset.Update Method (DAO)
+title: Метод Recordset.Update (DAO)
 TOCTitle: Update Method
 ms:assetid: aad4171a-da95-ed72-86b3-714615ea0ac8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821467(v=office.15)
 ms:contentKeyID: 48546961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 48ab6c6c2aa61fbfda52b60c88dfd301742aaf87
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d095fd8288ddd3b778bb8d4384fdea9e423ad8d1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891088"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930310"
 ---
-# <a name="recordsetupdate-method-dao"></a>Recordset.Update Method (DAO)
+# <a name="recordsetupdate-method-dao"></a>Метод Recordset.Update (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -57,7 +57,7 @@ ms.locfileid: "25891088"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для сохранения текущей записи и все изменения, внесенные в нее выполните **обновление** .
 

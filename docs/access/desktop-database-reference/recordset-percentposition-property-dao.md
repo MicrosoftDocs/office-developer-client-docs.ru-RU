@@ -1,19 +1,19 @@
 ---
-title: Recordset.PercentPosition Property (DAO)
+title: Свойство Recordset.PercentPosition (DAO)
 TOCTitle: PercentPosition Property
 ms:assetid: aebbda44-ed72-7a6c-0cd5-28c8997d4d96
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821751(v=office.15)
 ms:contentKeyID: 48547077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e319cea6e33f2f40490d5236746337040bf16dae
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 31f1cbf1f6bbc2f2c7ce855cccb667e71638b1b8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888694"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929574"
 ---
-# <a name="recordsetpercentposition-property-dao"></a>Recordset.PercentPosition Property (DAO)
+# <a name="recordsetpercentposition-property-dao"></a>Свойство Recordset.PercentPosition (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25888694"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы указать или изменить приблизительно, например положения текущей записи в объекте **набора записей** , можно проверить или задайте для свойства **PercentPosition** . При работе с объектом **набора записей** добавляющий или моментальный снимок непосредственно из базовой таблицы заполните путем перемещения к последнему записи, прежде чем задать или свойство **PercentPosition** объекта **набора записей** . Если использовать свойство **PercentPosition** до полностью заполнения объекта **набора записей** , величину перемещения задается число записей, доступны как указано значение свойства **[RecordCount](recordset-recordcount-property-dao.md)** . К последнему можно перемещать записи с помощью метода **[MoveLast](recordset-movelast-method-dao.md)** .
 

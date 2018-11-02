@@ -1,26 +1,26 @@
 ---
-title: Семейство Groups (ADOX)
-TOCTitle: Groups Collection (ADOX)
+title: Коллекция Groups (ADOX)
+TOCTitle: Groups collection (ADOX)
 ms:assetid: 9aec57df-bc5c-f9b3-5aec-e7e7efa47ba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249702(v=office.15)
 ms:contentKeyID: 48546553
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 099b9b4034d64f768513cfa5c9a28b89bef89ef8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b75f6277695c00c251352e0ae2bdcc44f2c86d34
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880994"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929155"
 ---
-# <a name="groups-collection-adox"></a>Семейство Groups (ADOX)
+# <a name="groups-collection-adox"></a>Коллекция Groups (ADOX)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Содержит все хранимые объекты [групповой](group-object-adox.md) каталога или пользователя.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Коллекцию **групп** [каталога](catalog-object-adox.md) предоставляет все учетные записи групп каталога. Коллекция **групп** для [пользователя](user-object-adox.md) представляет только группы, к которой принадлежит пользователь.
 

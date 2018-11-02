@@ -1,5 +1,5 @@
 ---
-title: TableDef.CreateField Method (DAO)
+title: Метод TableDef.CreateField (DAO)
 TOCTitle: CreateField Method
 ms:assetid: a83d797f-ea42-4a07-dd9e-b254755f0891
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821396(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8fa642eb5351129f1763a5b3f24424ae95df073f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fafccd704e1528ece69a86a5955bcb040dc24cbf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873931"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928770"
 ---
-# <a name="tabledefcreatefield-method-dao"></a>TableDef.CreateField Method (DAO)
+# <a name="tabledefcreatefield-method-dao"></a>Метод TableDef.CreateField (DAO)
 
 **Применимо к:** Access 2013 | Office 2013
 
@@ -73,7 +73,7 @@ ms.locfileid: "25873931"
 
 Поле
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы создать новое поле, а также указать имя, тип данных и размер поля можно использовать метод **CreateField** . Если опустить одно или несколько частей необязательно при использовании **CreateField**, можно использовать соответствующие присваивания установить или сбросить соответствующего свойства перед добавлением нового объекта в коллекцию. После добавления нового объекта, можно изменить некоторые, но не для всех параметров его свойств. Обратитесь к соответствующим разделам отдельных свойств для получения дополнительных сведений.
 

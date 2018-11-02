@@ -1,19 +1,19 @@
 ---
-title: Index.CreateField Method (DAO)
+title: Метод Index.CreateField (DAO)
 TOCTitle: CreateField Method
 ms:assetid: fc82b785-8768-b144-a2a4-c1f1798865a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
 ms:contentKeyID: 48548892
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d73fbdaa119238ad1a9b70b7f2446be21e525452
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 789c6070dbf62ba4f8ccf10ab3728010f6bcd401
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871859"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929624"
 ---
-# <a name="indexcreatefield-method-dao"></a>Index.CreateField Method (DAO)
+# <a name="indexcreatefield-method-dao"></a>Метод Index.CreateField (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -70,7 +70,7 @@ ms.locfileid: "25871859"
 
 Поле
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы создать новое поле, а также указать имя, тип данных и размер поля можно использовать метод **CreateField** . Если опустить одно или несколько частей необязательно при использовании **CreateField**, можно использовать соответствующие присваивания установить или сбросить соответствующего свойства перед добавлением нового объекта в коллекцию. После добавления нового объекта, можно изменить некоторые, но не для всех параметров его свойств. Обратитесь к соответствующим разделам отдельных свойств для получения дополнительных сведений.
 

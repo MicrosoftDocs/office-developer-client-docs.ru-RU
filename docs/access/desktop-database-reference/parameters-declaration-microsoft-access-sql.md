@@ -1,6 +1,6 @@
 ---
-title: PARAMETERS Declaration (Microsoft Access SQL)
-TOCTitle: PARAMETERS Declaration (Microsoft Access SQL)
+title: Описание PARAMETERS (Microsoft Access SQL)
+TOCTitle: PARAMETERS declaration (Microsoft Access SQL)
 ms:assetid: 0dcaad68-6a5f-93dc-e62a-b82b36e1e69c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845220(v=office.15)
 ms:contentKeyID: 48543230
@@ -12,14 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 24212ce3a29c0e30fae1dad7566ef93815f8a03f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7feb483d60084e62c6233d039e568477eda9d134
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876780"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927867"
 ---
-# <a name="parameters-declaration-microsoft-access-sql"></a>PARAMETERS Declaration (Microsoft Access SQL)
+# <a name="parameters-declaration-microsoft-access-sql"></a>Описание PARAMETERS (Microsoft Access SQL)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -56,7 +56,7 @@ ms.locfileid: "25876780"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для запросов, на которых выполняется регулярно можно использовать параметры объявления для создания запроса с параметрами. Параметр запроса может помочь автоматизировать процесс изменения условия запроса. С помощью параметра запроса кода потребуется для предоставления параметров при каждом выполнении запроса.
 

@@ -1,26 +1,26 @@
 ---
-title: Errors Collection (DAO)
+title: Семейство errors (DAO)
 TOCTitle: Errors Collection
 ms:assetid: d42007b5-6410-14e9-baf9-9306fdef38f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834805(v=office.15)
 ms:contentKeyID: 48547929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: debc3554fb63ab379bbc94bc8d44e2239eb32dd4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: db6796d5777af12d1cd0a3e65647d7223f4423ba
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885754"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928924"
 ---
-# <a name="errors-collection-dao"></a>Errors Collection (DAO)
+# <a name="errors-collection-dao"></a>Семейство errors (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Семейство **Errors** содержит все хранимые объекты **ошибки** , каждая из которых относятся к одной операции, включающие использование DAO.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Любые операции, включающие использование объектов DAO можно создать одну или несколько ошибок. Как возникают ошибки, один или несколько объектов **Ошибка** помещаются в семействе **Errors** объекта **DBEngine** . Когда другой операции DAO создает сообщение об ошибке, семейство **Errors** снят и новый набор объектов **ошибок** переводится в семейство **Errors** . Объект наибольший номер в семействе **Errors** (DBEngine.Errors.Count - 1) соответствует с Microsoft Visual Basic для приложений (VBA) **Err** объекта сообщение об ошибке.
 

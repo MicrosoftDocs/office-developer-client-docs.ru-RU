@@ -1,17 +1,17 @@
 ---
 title: Метод ReadText (ADO)
-TOCTitle: ReadText Method (ADO)
+TOCTitle: ReadText method (ADO)
 ms:assetid: 08f5bac4-dccd-696c-09a7-e1ba0cb38d79
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
 ms:contentKeyID: 48543108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e4bc9febb76f71068517d2d83cddbdf4edee53b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 97ef84cbacc02da0a3150cf0efcb3a24e548f2d2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891137"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929316"
 ---
 # <a name="readtext-method-ado"></a>Метод ReadText (ADO)
 
@@ -28,13 +28,13 @@ ms.locfileid: "25891137"
 
   - *NumChars*
 
-  - Необязательный параметр. **Длинное целое** значение, задающее число символов для чтения из файла, или значение [StreamReadEnum](streamreadenum.md) . Значение по умолчанию — **adReadAll**.
+  - Необязательно указывать. **Длинное целое** значение, задающее число символов для чтения из файла, или значение [StreamReadEnum](streamreadenum.md) . Значение по умолчанию — **adReadAll**.
 
 ## <a name="return-value"></a>Возвращаемое значение
 
 Метод **ReadText** считывает указанное число символов, строку целиком или всей потока из объекта **потока** и возвращает результирующую строку.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если *NumChar* больше, чем количество символов в потоке, возвращаются только оставшиеся символы. Чтение строки не дополняется в соответствии с *NumChar*заданной длины. Если не используются никакие символы для чтения, возвращается значение типа variant, значение которого равно null. **ReadText** не может использоваться для чтения в обратном направлении.
 

@@ -1,6 +1,6 @@
 ---
-title: Коллекция параметров (ADO)
-TOCTitle: Parameters Collection (ADO)
+title: Коллекция Parameters (ADO)
+TOCTitle: Parameters collection (ADO)
 ms:assetid: 554387c3-3572-5391-3b24-c7d3443844cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249283(v=office.15)
 ms:contentKeyID: 48544923
@@ -10,21 +10,21 @@ f1_keywords:
 - ado210.chm1231103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7a1da73679bd63de0c35362b87b2db8259698614
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3a838819b2bac097d3f2fb704ef42c9d2329e51c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867792"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929904"
 ---
-# <a name="parameters-collection-ado"></a>Коллекция параметров (ADO)
+# <a name="parameters-collection-ado"></a>Коллекция Parameters (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Содержит все объекты [параметров](parameter-object-ado.md) объекта [Command](command-object-ado.md) .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **команды** имеет коллекцию **параметров** , состоящих из объектов **параметров** .
 

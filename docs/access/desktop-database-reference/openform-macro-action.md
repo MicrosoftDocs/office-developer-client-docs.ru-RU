@@ -1,19 +1,19 @@
 ---
-title: Действия ОткрытьФорму макроса
-TOCTitle: OpenForm Macro Action
+title: Макрокоманда OpenForm
+TOCTitle: OpenForm macro action
 ms:assetid: c519a9d7-99d4-4765-ad96-59c3fe1be9e3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 140ac927089a89fa5c77034c9e33d4cd1519e41c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 68f1651dd2f96f660d60e037eddbca4226e0420e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870263"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927860"
 ---
-# <a name="openform-macro-action"></a>Действия ОткрытьФорму макроса
+# <a name="openform-macro-action"></a>Макрокоманда OpenForm
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -94,7 +94,7 @@ ms.locfileid: "25870263"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие аналогично дважды щелкнув формы в области навигации или щелкнув правой кнопкой мыши форму в области навигации, а затем выбрав представления.
 

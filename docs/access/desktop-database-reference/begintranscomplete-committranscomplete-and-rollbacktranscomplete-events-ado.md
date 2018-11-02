@@ -1,19 +1,19 @@
 ---
 title: События BeginTransComplete, CommitTransComplete, RollbackTransComplete (ADO)
-TOCTitle: BeginTransComplete, CommitTransComplete, and RollbackTransComplete Events (ADO)
+TOCTitle: BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)
 ms:assetid: 9d0ae38e-530a-7a89-a344-f3ab401c2e35
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249713(v=office.15)
 ms:contentKeyID: 48546615
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bf38a106a8cb53c1603628f0c3c0096be4b73d52
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c6a49b08c1b4f7879d50f9dd1d29cfcf89ded50c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888638"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928083"
 ---
-# <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>BeginTransComplete, CommitTransComplete и RollbackTransComplete события (ADO)
+# <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>События BeginTransComplete, CommitTransComplete и RollbackTransComplete (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -55,7 +55,7 @@ RollbackTransComplete*pError*, *adStatus* *pConnection*
 
   - Объект **подключения** , для которого произошло это событие.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В Visual C++ несколько **подключения** могут совместно использовать же метод обработки событий. Метод использует возвращенный объект **подключения** для определения, какой объект вызвала событие.
 

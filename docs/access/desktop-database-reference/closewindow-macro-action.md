@@ -1,6 +1,6 @@
 ---
-title: Действия макроса CloseWindow
-TOCTitle: CloseWindow Macro Action
+title: Макрокоманда CloseWindow
+TOCTitle: CloseWindow macro action
 ms:assetid: ba96bc26-7f3f-fd3d-8d3a-e18bfe90cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822510(v=office.15)
 ms:contentKeyID: 48547377
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab6b3a265b6e63680add41ec051ba61a262819bd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f9bffbd129d8fb4fc1334dbd884556d98e7f140c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876843"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929323"
 ---
-# <a name="closewindow-macro-action"></a>Действия макроса CloseWindow
+# <a name="closewindow-macro-action"></a>Макрокоманда CloseWindow
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -62,7 +62,7 @@ ms.locfileid: "25876843"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Действие **CloseWindow** работает на все объекты базы данных, которые пользователь может явно открыть или закрыть. Это действие имеет тот же эффект, как при выборе объекта и закрывая его, щелкнув правой кнопкой мыши вкладку документа объекта и затем нажмите кнопку **Закрыть** в контекстном меню или нажав кнопку **Закрыть** для объекта.
 

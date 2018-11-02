@@ -1,5 +1,5 @@
 ---
-title: Parameter.Direction Property (DAO)
+title: Свойство Parameter.Direction (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822422(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053586
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c06fbf6bb3424e776e21f32343c8cdb8a795b604
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f7d468d703989fdc26538d18cbc00eb950fe0e8e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877109"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930219"
 ---
-# <a name="parameterdirection-property-dao"></a>Parameter.Direction Property (DAO)
+# <a name="parameterdirection-property-dao"></a>Свойство Parameter.Direction (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -29,7 +29,7 @@ ms.locfileid: "25877109"
 
 *выражение* Переменная, которая представляет собой объект- **параметр** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр или возвращаемое значение — это значение типа Long, которое может быть установлено одно из констант **[ParameterDirectionEnum](parameterdirectionenum-enumeration-dao.md)** .
 

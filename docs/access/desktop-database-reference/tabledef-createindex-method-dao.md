@@ -1,5 +1,5 @@
 ---
-title: TableDef.CreateIndex Method (DAO)
+title: Метод TableDef.CreateIndex (DAO)
 TOCTitle: CreateIndex Method
 ms:assetid: 857b25c1-01fa-b926-0c74-7105e71b7505
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196791(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 017fbbe543540d45a7b05dec7ca992614bda40ad
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 73b6fb5c5a4b0b91904c92a1b445ddc41cb7c73e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868093"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931346"
 ---
-# <a name="tabledefcreateindex-method-dao"></a>TableDef.CreateIndex Method (DAO)
+# <a name="tabledefcreateindex-method-dao"></a>Метод TableDef.CreateIndex (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013 
@@ -62,7 +62,7 @@ ms.locfileid: "25868093"
 
 Указатель
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы создать новый объект **индекса** для объекта **TableDef** можно использовать метод **CreateIndex** . Если опустить часть необязательное имя при использовании **CreateIndex**, можно использовать соответствующие присваивания установить или сбросить свойство **Name** , прежде чем добавить новый объект в коллекцию. После добавления объекта, можно или не может иметь возможность задать его свойство **Name** , в зависимости от типа объекта, который содержит коллекцию **индексов** . В разделе **имя** свойства для получения дополнительных сведений.
 

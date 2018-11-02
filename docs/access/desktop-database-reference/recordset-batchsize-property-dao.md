@@ -1,5 +1,5 @@
 ---
-title: Recordset.BatchSize Property (DAO)
+title: Свойство Recordset.BatchSize (DAO)
 TOCTitle: BatchSize Property
 ms:assetid: f03dc505-682f-4b60-62f2-1bd088d873c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836544(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e07a948a22a8101db2b2bffce3e6cde94c852668
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1801d03eb874f5d3dec16e2adcc8595c0a88eb84
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891235"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928938"
 ---
-# <a name="recordsetbatchsize-property-dao"></a>Recordset.BatchSize Property (DAO)
+# <a name="recordsetbatchsize-property-dao"></a>Свойство Recordset.BatchSize (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25891235"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **BatchSize** определяет пакет размер, используемый при отправке операторов на сервер в пакет обновления. Значение свойства определяет число операторов, отправляемых на сервер в один буфер команд. По умолчанию 15 операторы отправляются на сервер в каждом пакете. Это свойство можно изменить в любое время. Если сервер базы данных не поддерживает оператор пакетной обработки, можно этому свойству присвоено значение 1, вызывающие каждого оператора отправить отдельно.
 

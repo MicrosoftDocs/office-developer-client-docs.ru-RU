@@ -1,26 +1,26 @@
 ---
-title: Семейство errors (ADO)
-TOCTitle: Errors Collection (ADO)
+title: Коллекция Errors (ADO)
+TOCTitle: Errors collection (ADO)
 ms:assetid: 76c234b8-7fec-11c5-275e-864d5d880ee7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249486(v=office.15)
 ms:contentKeyID: 48545706
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb58176e51a9e73f8551abb05636af1cfbe48d57
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a6462fed7054a66777a7957e2128b23a6fc0440f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875219"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929547"
 ---
-# <a name="errors-collection-ado"></a>Семейство errors (ADO)
+# <a name="errors-collection-ado"></a>Коллекция Errors (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Содержит все объекты [ошибки](error-object-ado.md) , созданные в ответ на сбой поставщика единого поставщика.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Любые операции, включающие использование объекты ADO можно создать одну или несколько ошибок поставщика. Как возникают ошибки, один или несколько объектов **об ошибках** могут размещаться в семействе **Errors** объекта [подключения](connection-object-ado.md) . Когда другой операции ADO создает сообщение об ошибке, семейство **Errors** снят и новый набор объектов **ошибок** , которые могут размещаться в семействе **Errors** .
 

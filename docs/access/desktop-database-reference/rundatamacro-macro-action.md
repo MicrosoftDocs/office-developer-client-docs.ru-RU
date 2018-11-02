@@ -1,6 +1,6 @@
 ---
-title: Действия ЗапускМакросаДанных макроса
-TOCTitle: RunDataMacro Macro Action
+title: Макрокоманда RunDataMacro
+TOCTitle: RunDataMacro macro action
 ms:assetid: fe4ac2f4-7851-7797-ce91-5f2dd3ba4d22
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837269(v=office.15)
 ms:contentKeyID: 48548933
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm168493
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6777ae05d2ab7455016df834d17abb3406a2d710
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c1d540b909a2ac5741719470f5632e34205806ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889926"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927986"
 ---
-# <a name="rundatamacro-macro-action"></a>Действия ЗапускМакросаДанных макроса
+# <a name="rundatamacro-macro-action"></a>Макрокоманда RunDataMacro
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -47,9 +47,9 @@ ms.locfileid: "25889926"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Можно использовать **ЗапускМакросаДанных** в макросы, с именем макросов данных и следующие события макрос: **[После удаления события макрос](after-delete-macro-event.md)**, **[После вставки события макросов](after-insert-macro-event.md)** и **[После обновления макрос события](after-update-macro-event.md)**.
+Можно использовать **ЗапускМакросаДанных** в макросы, с именем макросов данных и следующие события макрос: **[после удаления событий макроса](after-delete-macro-event.md)**, **[события после вставки макросов](after-insert-macro-event.md)** и **[событие макрос после обновления](after-update-macro-event.md)**.
 
 Имя макроса данных необходимо включить таблицу, к которой он подключен (например, **Comments.AddComment**, не только **AddComment**).
 

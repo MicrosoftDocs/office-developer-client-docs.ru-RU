@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfb2ea094594d3a2b71b1e449ecae1bf7b3631e6
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 406380b0c935e94b8478e0b135bf5f92180faaca
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910677"
+ms.locfileid: "25928332"
 ---
 # <a name="datacontrol-properties-methods-and-events-rds"></a>DataControl свойства, методы и события (RDS)
 
@@ -19,7 +19,7 @@ ms.locfileid: "25910677"
 
 ## <a name="properties"></a>Свойства
 
-- [Свойство (RDS)](connect-property-rds.md)
+- [Свойство Connect (RDS)](connect-property-rds.md)
 
 - [Свойство ExecuteOptions (RDS)](executeoptions-property-rds.md)
 
@@ -29,9 +29,9 @@ ms.locfileid: "25910677"
 
 - [Свойство FilterCriterion (RDS)](filtercriterion-property-rds.md)
 
-- [Свойство Значение_фильтра (RDS)](filtervalue-property-rds.md)
+- [Свойство FilterValue (RDS)](filtervalue-property-rds.md)
 
-- [Свойство обработчика (RDS)](handler-property-rds.md)
+- [Свойство Handler (RDS)](handler-property-rds.md)
 
 - [Свойство InternetTimeout (RDS)](internettimeout-property-rds.md)
 
@@ -39,15 +39,15 @@ ms.locfileid: "25910677"
 
 - [Набор записей, свойства SourceRecordset (RDS)](recordset-sourcerecordset-properties-rds.md)
 
-- [Свойства сервера (RDS)](server-property-rds.md)
+- [Свойство Server (RDS)](server-property-rds.md)
 
 - [Свойство SortColumn (RDS)](sortcolumn-property-rds.md)
 
-- [Свойство направления сортировки (RDS)](sortdirection-property-rds.md)
+- [Свойство SortDirection (RDS)](sortdirection-property-rds.md)
 
 - [Свойство SQL (RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
 
-- [Свойство URL-адрес (RDS)](url-property-rds.md)
+- [Свойство URL (RDS)](url-property-rds.md)
 
 ## <a name="methods"></a>Методы
 
@@ -59,7 +59,7 @@ ms.locfileid: "25910677"
 
 - [MoveFirst, MoveLast, MoveNext и методы MovePrevious (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
 
-- [Обновления метода (RDS)](refresh-method-rds.md)
+- [Метод Refresh (RDS)](refresh-method-rds.md)
 
 - [Метод Reset (RDS)](reset-method-rds.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Database.MakeReplica Method (DAO)
+title: Метод Database.MakeReplica (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c8274d441c246d7363ec5d5c603c3079da732c84
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a47709d1be3eab66f849e076c5756d5081d28fc8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880805"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930233"
 ---
-# <a name="databasemakereplica-method-dao"></a>Database.MakeReplica Method (DAO)
+# <a name="databasemakereplica-method-dao"></a>Метод Database.MakeReplica (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -69,7 +69,7 @@ ms.locfileid: "25880805"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Только что созданный реплику будут иметь все **[этого](tabledef-replicafilter-property-dao.md)** свойства, значение **False**, что означает, что данные не будут в таблицах.
 

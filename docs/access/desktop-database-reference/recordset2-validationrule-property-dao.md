@@ -1,19 +1,19 @@
 ---
-title: Recordset2.ValidationRule Property (DAO)
+title: Свойство Recordset2.ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: d46cc255-e588-e9e6-66d7-31fc26ae45b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835002(v=office.15)
 ms:contentKeyID: 48547940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0c6df32c37f73dadf1df43201090d44d81a6a01
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 107841ac3f67507adbf1f8aa722dce163b821d1e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890948"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931325"
 ---
-# <a name="recordset2validationrule-property-dao"></a>Recordset2.ValidationRule Property (DAO)
+# <a name="recordset2validationrule-property-dao"></a>Свойство Recordset2.ValidationRule (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25890948"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметров или возвращаемых значений — это **строка** , описывающая сравнения в виде SQL, ГДЕ предложения WHERE без зарезервированным словом. Для объекта еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.
 

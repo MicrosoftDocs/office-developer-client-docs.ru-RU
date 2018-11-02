@@ -1,19 +1,19 @@
 ---
-title: Indexes.Refresh Method (DAO)
+title: Метод Indexes.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: ffe1bc79-5a56-2a70-c5ac-2f80b683adbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837325(v=office.15)
 ms:contentKeyID: 48548973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e97a886f966ded295e36f76c07d649dfc057a191
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6188eff2bda5f2810684016787b088e2078f8f5f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872139"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927929"
 ---
-# <a name="indexesrefresh-method-dao"></a>Indexes.Refresh Method (DAO)
+# <a name="indexesrefresh-method-dao"></a>Метод Indexes.Refresh (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25872139"
 
 *выражение* Переменная, которая представляет объект **индексов** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **Refresh** в многопользовательских средах, в которых другие пользователи могут изменить базу данных. Кроме того, может потребоваться использовать на всех коллекций, которые косвенно затронуты изменениями в базе данных. Например при изменении коллекции **пользователей** может потребоваться обновить коллекцию **групп** перед использованием семейства сайтов **групп** .
 

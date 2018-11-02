@@ -1,6 +1,6 @@
 ---
-title: Действия ОткрытьОтчет макроса
-TOCTitle: OpenReport Macro Action
+title: Макрокоманда OpenReport
+TOCTitle: OpenReport macro action
 ms:assetid: cd35faf2-190d-ac48-cf59-81c1599eb764
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834462(v=office.15)
 ms:contentKeyID: 48547758
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ef2a1f5afd4b8828fdc39744e92d0a4e92ca7bd6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a6166f8da8597e5b0672ba0d5fdfdd3745cfd159
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871495"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927769"
 ---
-# <a name="openreport-macro-action"></a>Действия ОткрытьОтчет макроса
+# <a name="openreport-macro-action"></a>Макрокоманда OpenReport
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -75,7 +75,7 @@ ms.locfileid: "25871495"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр **печати** для аргумента **представления** печать отчета с использованием текущих настроек принтера, не открывая диалогового окна **Печать** . Можно также использовать **ОткрытьОтчет** Открытие и настройка отчета и затем использовать макрокоманду для печати. Например может потребоваться изменить отчет или использовать **макрокоманду** , чтобы изменить параметры принтера перед печатью.
 

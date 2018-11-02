@@ -1,19 +1,19 @@
 ---
-title: Field2.CreateProperty Method (DAO)
+title: Метод Field2.CreateProperty (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: bdbd6bec-216f-138e-78df-9c3221692aa4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822737(v=office.15)
 ms:contentKeyID: 48547446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2e0bbf9117e4ad3e06d1ffe5778de2e7ff0c2116
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4b838af4437e9ceafc9f44f0f8852f6e83a70103
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868128"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928616"
 ---
-# <a name="field2createproperty-method-dao"></a>Field2.CreateProperty Method (DAO)
+# <a name="field2createproperty-method-dao"></a>Метод Field2.CreateProperty (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -76,7 +76,7 @@ ms.locfileid: "25868128"
 
 Свойство
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект пользовательских **свойств** можно создать только в коллекции **[свойств](properties-collection-dao.md)** объекта, который является постоянным.
 

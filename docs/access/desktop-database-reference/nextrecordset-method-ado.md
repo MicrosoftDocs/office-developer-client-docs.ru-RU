@@ -1,17 +1,17 @@
 ---
 title: Метод NextRecordset (ADO)
-TOCTitle: NextRecordset Method (ADO)
+TOCTitle: NextRecordset method (ADO)
 ms:assetid: d2776dd5-d521-c57f-dbe5-e02ee238104d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec6b6677e0de89b22f3c35009edcbc05684d10ce
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: da7e23974b9541a29aa78ba9d7de22e76102971b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872601"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929554"
 ---
 # <a name="nextrecordset-method-ado"></a>Метод NextRecordset (ADO)
 
@@ -33,7 +33,7 @@ ms.locfileid: "25872601"
 
 - *RecordsAffected*
 
-- Необязательный параметр. **Длинные** переменной, в который поставщик возвращает число записей, которое влияет на текущей операции.
+- Необязательно указывать. **Длинные** переменной, в который поставщик возвращает число записей, которое влияет на текущей операции.
 
 
 > [!NOTE]
@@ -41,7 +41,7 @@ ms.locfileid: "25872601"
 
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **NextRecordset** для возврата результатов следующей команды в операторе составные команду или хранимую процедуру, возвращающую несколько результатов. При открытии объекта **набора записей** на основе инструкции составные команды (например, «ВЫБЕРИТЕ \* из Таблица1. Выбор \* из таблица2») с помощью метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) на [команду](command-object-ado.md) или метод [Open](open-method-ado-recordset.md) на **набора записей**ADO выполняет только первой команды и возвращает результаты для *набора записей*. Чтобы получить доступ к результаты последующих команд в операторе, вызовите метод **NextRecordset** .
 

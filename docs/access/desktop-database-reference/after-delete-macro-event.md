@@ -1,6 +1,6 @@
 ---
-title: После удаления макроса события
-TOCTitle: After Delete Macro Event
+title: Событие макроса After Delete
+TOCTitle: After Delete macro event
 ms:assetid: ecf9e6d4-345f-9b78-eb36-bd526e5df09b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836323(v=office.15)
 ms:contentKeyID: 48548527
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b180acb99ab2ac406a7b60fdecf8aff5d63eb71f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 943f16c5bb1f1525c8da36938fa6beb2e6f71444
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869115"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929799"
 ---
-# <a name="after-delete-macro-event"></a>После удаления макроса события
+# <a name="after-delete-macro-event"></a>Событие макроса After Delete
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25869115"
 
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Событие **После удаления** используется для выполнения действий, которые должны происходить при удалении записи. Чаще всего используется **После удаления** включают применение бизнес-правил, рабочие процессы, обновление общую сумму и отправки уведомлений.
 
@@ -74,83 +74,83 @@ End If
 <tbody>
 <tr class="odd">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="comment-macro-statement.md">Оператор комментария макросов</a></p></td>
+<td><p><a href="comment-macro-statement.md">Оператор макроса Comment</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="group-macro-statement.md">Оператор группы макросов</a></p></td>
+<td><p><a href="group-macro-statement.md">Оператор макроса Group</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Выполнение программы</p></td>
-<td><p><a href="if-then-else-macro-block.md">If... Затем... Блок else макросов</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">Блок макросов If...Then...Else</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
-<td><p><a href="createrecord-data-block.md">Действия СоздатьЗапись макроса</a></p></td>
+<td><p><a href="createrecord-data-block.md">Действия макроса СоздатьЗапись</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Блок данных</p></td>
-<td><p><a href="editrecord-data-block.md">Действия ИзменитьЗапись макроса</a></p></td>
+<td><p><a href="editrecord-data-block.md">Действия макроса ИзменитьЗапись</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
-<td><p><a href="foreachrecord-data-block.md">Действия ДляКаждойЗаписи макроса</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">Действия макроса ДляКаждойЗаписи</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Блок данных</p></td>
-<td><p><a href="lookuprecord-data-block.md">Блок данных LookupRecord</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Блок данных макрокомандой НайтиЗапись, после</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="cancelrecordchange-macro-action.md">Действия макроса CancelRecordChange</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Макрокоманда CancelRecordChange</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Действия макроса ClearMacroError</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда ClearMacroError</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="deleterecord-macro-action.md">Действия макрокоманду УдалитьЗапись макроса</a></p></td>
+<td><p><a href="deleterecord-macro-action.md">Макрокоманда DeleteRecord</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="exitforeachrecord-macro-action.md">Действия макроса ExitForEachRecord</a></p></td>
+<td><p><a href="exitforeachrecord-macro-action.md">Макрокоманда ExitForEachRecord</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="logevent-macro-action.md">Действия LogEvent макроса</a></p></td>
+<td><p><a href="logevent-macro-action.md">Макрокоманда LogEvent</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="onerror-macro-action.md">Действия макроса OnError</a></p></td>
+<td><p><a href="onerror-macro-action.md">Макрокоманда OnError</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="raiseerror-macro-action.md">Действия макроса RaiseError</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">Макрокоманда RaiseError</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="rundatamacro-macro-action.md">Действия ЗапускМакросаДанных макроса</a></p></td>
+<td><p><a href="rundatamacro-macro-action.md">Макрокоманда RunDataMacro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="sendemail-macro-action.md">Действия макроса sendemail действие</a></p></td>
+<td><p><a href="sendemail-macro-action.md">Макрокоманда SendEmail</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setfield-macro-action.md">Действия SetField макроса</a></p></td>
+<td><p><a href="setfield-macro-action.md">Макрокоманда SetField</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Действия макроса SetLocalVar</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Макрокоманда SetLocalVar</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="stopallmacros-macro-action.md">Действия ОстановитьВсеМакросы макроса</a></p></td>
+<td><p><a href="stopallmacros-macro-action.md">Макрокоманда StopAllMacros</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="stopmacro-macro-action.md">Действия ОстановитьМакрос макроса</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">Макрокоманда StopMacro</a></p></td>
 </tr>
 </tbody>
 </table>

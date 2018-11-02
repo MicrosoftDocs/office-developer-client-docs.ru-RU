@@ -1,19 +1,19 @@
 ---
-title: Recordset.FillCache Method (DAO)
+title: Метод Recordset.FillCache (DAO)
 TOCTitle: FillCache Method
 ms:assetid: d171b939-b904-c6bd-6217-68bc2814e282
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834751(v=office.15)
 ms:contentKeyID: 48547861
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c217fd1cf63477fd8758dfe3d34592fce34cdbca
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 155074e95480e2de2b3efb1197814a1413b48586
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885215"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930429"
 ---
-# <a name="recordsetfillcache-method-dao"></a>Recordset.FillCache Method (DAO)
+# <a name="recordsetfillcache-method-dao"></a>Метод Recordset.FillCache (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -60,7 +60,7 @@ ms.locfileid: "25885215"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Кэширование повышает производительность приложения, которое получает данные с удаленного сервера. Кэш — это место в локальной памяти, в которой содержатся данные, недавно извлеченные с сервера. предполагается, что данные, вероятно, запрашивается еще раз во время выполнения приложения. Когда пользователь запрашивает данные, ядро базы данных Microsoft Access кэша для данных сначала проверяет вместо извлечение из сервера, который занимает больше времени. Кэш не сохраняет данные, которые не поступают из источника данных ODBC.
 

@@ -1,19 +1,19 @@
 ---
-title: Действия ОстановитьМакрос макроса
-TOCTitle: StopMacro Macro Action
+title: Макрокоманда StopMacro
+TOCTitle: StopMacro macro action
 ms:assetid: 6bbf9026-4536-43f2-aa43-3f2ecea01005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195473(v=office.15)
 ms:contentKeyID: 48545455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3880b57e235520e3351ef16282fb8883d93b11e3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b6a050a57afa1e579fba7a3c9185d69cbf27e63
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873714"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929561"
 ---
-# <a name="stopmacro-macro-action"></a>Действия ОстановитьМакрос макроса
+# <a name="stopmacro-macro-action"></a>Макрокоманда StopMacro
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -23,7 +23,7 @@ ms.locfileid: "25873714"
 
 Действие **ОстановитьМакрос** не требует аргументов.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие обычно используется для остановки макроса при выполнении определенного условия. В строке действие макрос, содержащий это действие можно использовать условного выражения. Когда вычисление выражения дает значение **True** (– 1), Microsoft Access останавливает макрос.
 

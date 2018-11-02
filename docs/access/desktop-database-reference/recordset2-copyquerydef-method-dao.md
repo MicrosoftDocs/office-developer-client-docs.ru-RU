@@ -1,5 +1,5 @@
 ---
-title: Recordset2.CopyQueryDef Method (DAO)
+title: Метод Recordset2.CopyQueryDef (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: 36689ac0-f8a6-1f3e-4170-799141373777
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192474(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053073
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d65f46433aa3071ce9709f1c3841dda45e02a5b6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ea2bd660679b093ad031b6ce4d5f3c64b335893
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870389"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929792"
 ---
-# <a name="recordset2copyquerydef-method-dao"></a>Recordset2.CopyQueryDef Method (DAO)
+# <a name="recordset2copyquerydef-method-dao"></a>Метод Recordset2.CopyQueryDef (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013 
@@ -34,7 +34,7 @@ ms.locfileid: "25870389"
 
 QueryDef
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **CopyQueryDef** можно использовать для создания нового **QueryDef** , дублирующих **QueryDef** , используемые для создания **записей**.
 

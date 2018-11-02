@@ -1,19 +1,19 @@
 ---
-title: Relations.Refresh Method (DAO)
+title: Метод Relations.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d71cecf2-da90-5f62-9e51-f994e660ad34
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835058(v=office.15)
 ms:contentKeyID: 48547997
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fea6525d56552129ddc697cd56adf1eb6409345
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: edd018039ce6f612994c06da1036318586924883
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891039"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928378"
 ---
-# <a name="relationsrefresh-method-dao"></a>Relations.Refresh Method (DAO)
+# <a name="relationsrefresh-method-dao"></a>Метод Relations.Refresh (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -26,7 +26,7 @@ ms.locfileid: "25891039"
 
 *выражение* Переменная, которая представляет собой объект- **связи** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **Refresh** в многопользовательских средах, в которых другие пользователи могут изменить базу данных. Кроме того, может потребоваться использовать на всех коллекций, которые косвенно затронуты изменениями в базе данных. Например при изменении коллекции **пользователей** может потребоваться обновить коллекцию **групп** перед использованием семейства сайтов **групп** .
 

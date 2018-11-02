@@ -1,6 +1,6 @@
 ---
-title: Действия OpenQuery макроса
-TOCTitle: OpenQuery Macro Action
+title: Макрокоманда OpenQuery
+TOCTitle: OpenQuery macro action
 ms:assetid: 64bfce73-aeaf-9a78-895c-492e5da43ded
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195094(v=office.15)
 ms:contentKeyID: 48545298
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3a718355f8305c7182ba2bc1196e0099205f6da1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1e5e031b0dc89626a40934cb42f8f54a0eb8d057
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880273"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928112"
 ---
-# <a name="openquery-macro-action"></a>Действия OpenQuery макроса
+# <a name="openquery-macro-action"></a>Макрокоманда OpenQuery
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -62,7 +62,7 @@ ms.locfileid: "25880273"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При использовании для аргумента **представления** **таблицы данных** Access отображает набор результатов, если запрос будет выбрать, перекрестного объединения, или запроса к серверу, свойство **ReturnsRecords** установлен в значение **Yes**; и выполняет запрос, если это действие, определение данных или запроса к серверу, свойство **ReturnsRecords** задано значение **Нет**.
 

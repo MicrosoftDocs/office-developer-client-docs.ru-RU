@@ -1,6 +1,6 @@
 ---
 title: Метод CreateParameter (ADO)
-TOCTitle: CreateParameter Method (ADO)
+TOCTitle: CreateParameter method (ADO)
 ms:assetid: cf080a0b-75d2-dcdf-2715-10af147358e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250026(v=office.15)
 ms:contentKeyID: 48547799
@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231042
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d851b60500ae3847afb47c574fba83e8399e45d3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 88a5d62cc94aa707c2e90467d74dc07d80a0af02
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868562"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928945"
 ---
 # <a name="createparameter-method-ado"></a>Метод CreateParameter (ADO)
 
@@ -37,25 +37,25 @@ ms.locfileid: "25868562"
 
   - *Имя*
 
-  - Необязательный параметр. **Строковое** значение, содержащее имя объекта **параметра** .
+  - Необязательно указывать. **Строковое** значение, содержащее имя объекта **параметра** .
 
   - *Тип*
 
-  - Необязательный параметр. [DataTypeEnum](datatypeenum.md) значение, задающее тип данных **параметра** объекта.
+  - Необязательно указывать. [DataTypeEnum](datatypeenum.md) значение, задающее тип данных **параметра** объекта.
 
   - *Direction*
 
-  - Необязательный параметр. [ParameterDirectionEnum](parameterdirectionenum.md) значение, задающее тип объекта **параметра** .
+  - Необязательно указывать. [ParameterDirectionEnum](parameterdirectionenum.md) значение, задающее тип объекта **параметра** .
 
   - *Размер*
 
-  - Необязательный параметр. Значение типа **Long** , определяет максимальную длину значения параметра в символы или в байтах.
+  - Необязательно указывать. Значение типа **Long** , определяет максимальную длину значения параметра в символы или в байтах.
 
   - *Значение*
 
-  - Необязательный параметр. **Variant** , который задает значение для **параметра** объекта.
+  - Необязательно указывать. **Variant** , который задает значение для **параметра** объекта.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **CreateParameter** для создания нового объекта **параметра** с указанным именем, типом, направление, размер и значение. Все значения, передаваемого в аргументах записываются в соответствующие свойства **параметра** .
 

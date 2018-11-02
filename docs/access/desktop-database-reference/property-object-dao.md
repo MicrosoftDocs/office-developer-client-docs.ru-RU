@@ -1,26 +1,26 @@
 ---
-title: Property Object (DAO)
+title: Свойство object (DAO)
 TOCTitle: Property Object
 ms:assetid: a1ecb0db-bb93-a7b5-23c3-0b73f275dfe0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820932(v=office.15)
 ms:contentKeyID: 48546744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50f7cc2b977b25602e8aec440796f105055a7437
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7d8f3c2d403513c3f2f70bad7d3be79f3b3d7a49
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875636"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931080"
 ---
-# <a name="property-object-dao"></a>Property Object (DAO)
+# <a name="property-object-dao"></a>Свойство object (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Объект **Property** представляет характеристику встроенные или пользовательские объекта DAO.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Каждый объект DAO, за исключением объекты **подключения** и **Ошибка** содержит коллекцию **свойств** , которая имеет **свойство** объекты, соответствующий встроенных свойств этого объекта DAO. Пользователя можно определить объекты **Свойства** и добавьте их в коллекцию **свойств** некоторых объектов DAO. Эти объекты **свойство** (которые часто просто называются свойства) однозначно Создание характеристик этого экземпляра объекта.
 

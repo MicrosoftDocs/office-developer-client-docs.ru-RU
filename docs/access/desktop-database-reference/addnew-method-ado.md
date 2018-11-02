@@ -1,17 +1,17 @@
 ---
 title: Метод AddNew (ADO)
-TOCTitle: AddNew Method (ADO)
+TOCTitle: AddNew method (ADO)
 ms:assetid: bae09be0-5707-4f38-9c74-0acd0f29dbac
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 720445d488f70f3e6219db65192946d4056ddfe4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 379aa71ad875213ab8c1ae022f7c8af3350b2662
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886055"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927748"
 ---
 # <a name="addnew-method-ado"></a>Метод AddNew (ADO)
 
@@ -32,13 +32,13 @@ ms.locfileid: "25886055"
 
   - *FieldList*
 
-  - Необязательный параметр. Имя одного или массив имен или порядковый номер позиции поля в новую запись.
+  - Необязательно указывать. Имя одного или массив имен или порядковый номер позиции поля в новую запись.
 
   - *Значения*
 
-  - Необязательный параметр. Одиночное значение или массив значений для полей в новую запись. Если *Fieldlist* является массивом, *значения* также должны быть массив с числом участников; в противном случае возникает ошибка. Порядок имена полей должен совпадать с порядком значений полей в каждом массиве.
+  - Необязательно указывать. Одиночное значение или массив значений для полей в новую запись. Если *Fieldlist* является массивом, *значения* также должны быть массив с числом участников; в противном случае возникает ошибка. Порядок имена полей должен совпадать с порядком значений полей в каждом массиве.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **AddNew** для создания и инициализации новую запись. Использование метода [поддерживает](supports-method-ado.md) с **adAddNew** (значение [CursorOptionEnum](cursoroptionenum.md) ) для проверки, является ли записи можно добавлять в текущий объект **набора записей** .
 

@@ -1,19 +1,19 @@
 ---
-title: Выполнить повторную синхронизацию свойство Command--динамической (ADO)
-TOCTitle: Resync Command Property--Dynamic (ADO)
+title: Выполнить повторную синхронизацию динамических свойство Command (ADO)
+TOCTitle: Resync Command dynamic property (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 30707140284c4c4fda157e276e62666f0344ad14
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 23d03c5c346b377333387a3be1c0f15bc091d235
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872006"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927944"
 ---
-# <a name="resync-command-property--dynamic-ado"></a>Выполнить повторную синхронизацию свойство Command--динамической (ADO)
+# <a name="resync-command-dynamic-property-ado"></a>Выполнить повторную синхронизацию динамических свойство Command (ADO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -23,7 +23,7 @@ ms.locfileid: "25872006"
 
 Задает или возвращает **строковое** значение, который является командной строки.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект [набора записей](recordset-object-ado.md) производится в результате операции СОЕДИНЕНИЯ на нескольких базовых таблиц. Измененных строк зависят от параметра *AffectRecords* метода [выполнить повторную синхронизацию](resync-method-ado.md) . Стандартный метод **выполнить повторную синхронизацию** выполняется, если свойства [Уникальной таблицы](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) и **Выполнить повторную синхронизацию команда** не установлены.
 

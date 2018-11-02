@@ -1,5 +1,5 @@
 ---
-title: Field2.DefaultValue Property (DAO)
+title: Свойство Field2.DefaultValue (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a70e5d1c19f4d92c4494071f78192ffb4e543ad7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c0edef512eb6b4c099362e737a760624dcfc0b69
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882387"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928478"
 ---
-# <a name="field2defaultvalue-property-dao"></a>Field2.DefaultValue Property (DAO)
+# <a name="field2defaultvalue-property-dao"></a>Свойство Field2.DefaultValue (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -31,7 +31,7 @@ ms.locfileid: "25882387"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр или возвращаемое значение имеет тип данных **String** , которое может содержать не более 255 знаков. Она может быть текст или выражение. Если значение свойства — это выражение, не может содержать пользовательские функции, статистические функции ядра базы данных SQL Microsoft Access или ссылки на запросов, форм и других объектов **поле2** .
 

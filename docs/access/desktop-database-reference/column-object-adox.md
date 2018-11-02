@@ -1,26 +1,26 @@
 ---
-title: Объект столбца (ADOX)
-TOCTitle: Column Object (ADOX)
+title: Объект Column (ADOX)
+TOCTitle: Column object (ADOX)
 ms:assetid: ad38c2df-f704-0599-4b7a-8556e430ba46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249811(v=office.15)
 ms:contentKeyID: 48547034
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28ae0f69303db5569b97799d8a77ca66828e2035
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ac4416dce7d3f9fa52c4b948b1e8d3e0167c2751
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879622"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930632"
 ---
-# <a name="column-object-adox"></a>Объект столбца (ADOX)
+# <a name="column-object-adox"></a>Объект Column (ADOX)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Представляет столбец из таблицы, индекса или ключа.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В следующем коде создается новый **столбец**:
 

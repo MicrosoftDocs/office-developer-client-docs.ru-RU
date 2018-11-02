@@ -1,5 +1,5 @@
 ---
-title: DBEngine.CompactDatabase Method (DAO)
+title: Метод DBEngine.CompactDatabase (DAO)
 TOCTitle: CompactDatabase Method
 ms:assetid: 03f3a156-005a-4b71-81b0-598f326f7d42
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844821(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9452a76f9e5d467279ee427c6c07016107833acf
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e898a089843774792b1ed48cea65086331a94ec6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861436"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931220"
 ---
-# <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase Method (DAO)
+# <a name="dbenginecompactdatabase-method-dao"></a>Метод DBEngine.CompactDatabase (DAO)
 
 **Применимо к**: Access 2013 | 2016 доступа
 
@@ -77,7 +77,7 @@ ms.locfileid: "25861436"
 <td><p>Options</p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Необязательный параметр. Константа или сочетание констант, которое указывает один или несколько параметров, как указано в примечания. Параметры можно использовать суммируются соответствующий констант.</p></td>
+<td><p>Необязательно указывать. Константа или сочетание констант, которое указывает один или несколько параметров, как указано в примечания. Параметры можно использовать суммируются соответствующий констант.</p></td>
 </tr>
 <tr class="odd">
 <td><p>password</p></td>
@@ -95,7 +95,7 @@ ms.locfileid: "25861436"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Допустимы следующие константы для аргумента DstLocale можно использовать для указания свойство **CollatingOrder** для сравнения строк текста.
 

@@ -1,5 +1,5 @@
 ---
-title: Connection.CreateQueryDef Method (DAO)
+title: Метод Connection.CreateQueryDef (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191860(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5ea0e06d133c95506a68e947254bfcd0ea8a2dc6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 191cd2b1bdd1f1c625743d5e50037bc944b4ef23
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880308"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928441"
 ---
-# <a name="connectioncreatequerydef-method-dao"></a>Connection.CreateQueryDef Method (DAO)
+# <a name="connectioncreatequerydef-method-dao"></a>Метод Connection.CreateQueryDef (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -68,7 +68,7 @@ ms.locfileid: "25880308"
 
 QueryDef
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В рабочей области Microsoft Access Если вы укажите отличное от строку нулевой длины имени при создании **QueryDef**результирующего объекта **QueryDef** автоматически добавляется к коллекции **[QueryDefs](querydefs-collection-dao.md)** .
 

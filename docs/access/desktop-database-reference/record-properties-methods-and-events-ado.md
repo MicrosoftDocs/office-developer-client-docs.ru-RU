@@ -1,19 +1,19 @@
 ---
-title: Record Properties, Methods, and Events (ADO)
+title: Запись свойства, методы и события (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c38c915c-da8f-ce52-cf36-7463829d2278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
 ms:contentKeyID: 48547573
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 56fd6a124e4491e53bb3bfabcd43c08269f1da7f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9a302ade84cd9f2183672772c4cad7b020622eee
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886468"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925753"
 ---
-# <a name="record-properties-methods-and-events-ado"></a>Record Properties, Methods, and Events (ADO)
+# <a name="record-properties-methods-and-events-ado"></a>Запись свойства, методы и события (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013

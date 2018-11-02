@@ -1,17 +1,17 @@
 ---
 title: Метод - Clear ActiveX Data Objects (ADO)
-TOCTitle: Clear Method (ADO)
+TOCTitle: Clear method (ADO)
 ms:assetid: 5d51f42c-147b-1fcf-d05b-123e5714ecb7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249329(v=office.15)
 ms:contentKeyID: 48545110
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 864c31a75514b4e8c56383672b196a4e62c4ec8f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 459ce19fab15e3e9bbd886a0f063005dab674fbc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876787"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929141"
 ---
 # <a name="clear-method-ado"></a>Метод Clear (ADO)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25876787"
 
 *Ошибки*. Очистить
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **Clear** на семейство [Errors](errors-collection-ado.md) для удаления всех существующих объектов [Error](error-object-ado.md) из коллекции. При возникновении ошибки ADO автоматически удаляет семейство **Errors** и заполняется **Ошибка** объекты, основанные на новой ошибки.
 

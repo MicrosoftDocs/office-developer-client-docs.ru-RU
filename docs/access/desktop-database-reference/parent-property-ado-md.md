@@ -1,17 +1,17 @@
 ---
 title: Свойство Parent (ADO MD)
-TOCTitle: Parent Property (ADO MD)
+TOCTitle: Parent property (ADO MD)
 ms:assetid: 62649da7-d35f-f11f-674c-28ce95abaf20
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249370(v=office.15)
 ms:contentKeyID: 48545238
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7beba341a2374e1868c67c8f7b4fab73c71c0ba8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c1da5b763d85fc9975a42e357860d87ce64cf618
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880301"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930590"
 ---
 # <a name="parent-property-ado-md"></a>Свойство Parent (ADO MD)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25880301"
 
 Возвращает объект, [член](member-object-ado-md.md) и доступен только для чтения.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Элемент, который находится на верхнем уровне иерархии (корень) не имеет родительского узла. Это свойство поддерживается только для объектов **члена** , относящегося к объекту [уровень](level-object-ado-md.md) . Ошибка происходит, когда это свойство является ссылка из объектов **члена** , относящегося к объекту [позиции](position-object-ado-md.md) .
 

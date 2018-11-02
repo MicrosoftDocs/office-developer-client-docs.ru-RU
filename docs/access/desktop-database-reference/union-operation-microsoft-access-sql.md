@@ -1,6 +1,6 @@
 ---
-title: UNION Operation (Microsoft Access SQL)
-TOCTitle: UNION Operation (Microsoft Access SQL)
+title: Операции ОБЪЕДИНЕНИЯ (Microsoft Access SQL)
+TOCTitle: UNION operation (Microsoft Access SQL)
 ms:assetid: a5139921-51e5-7d96-74e3-11c3fd5f7eaa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821131(v=office.15)
 ms:contentKeyID: 48546826
@@ -12,14 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 63ff883f35dabbbd69e1bf144eb32016f303c7ef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 068496332479d25dfc4f20bdc683330ee462ce78
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879111"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927671"
 ---
-# <a name="union-operation-microsoft-access-sql"></a>UNION Operation (Microsoft Access SQL)
+# <a name="union-operation-microsoft-access-sql"></a>Операции ОБЪЕДИНЕНИЯ (Microsoft Access SQL)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -52,7 +52,7 @@ ms.locfileid: "25879111"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Можно объединить результаты двух или более запросов, таблиц и инструкций SELECT в любое сочетание за одну операцию ОБЪЕДИНЕНИЯ. В следующем примере объединяются существующей таблицы с именем инструкции SELECT и новых учетных записей:
 

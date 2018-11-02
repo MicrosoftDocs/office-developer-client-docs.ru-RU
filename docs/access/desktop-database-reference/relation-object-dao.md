@@ -1,26 +1,26 @@
 ---
-title: Relation Object (DAO)
+title: Объект отношения (DAO)
 TOCTitle: Relation Object
 ms:assetid: 46d6dfaf-a97d-3abd-0b4b-396a41eb3be7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193195(v=office.15)
 ms:contentKeyID: 48544578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b254d3d08e6ba8997474535dd90de44aaf6101e5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cfabb36e539aaff1f6e12d431d2cfcfe79ff5d04
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869276"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928091"
 ---
-# <a name="relation-object-dao"></a>Relation Object (DAO)
+# <a name="relation-object-dao"></a>Объект отношения (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Объект **связи** представляет связь между полями в таблицах и запросах (Microsoft Access базами данных, ядро только).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **связи** можно использовать для создания новых связей и проверить существующих связей между таблицами в базе данных.
 

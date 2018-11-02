@@ -1,6 +1,6 @@
 ---
-title: Действия макроса LockNavigationPane
-TOCTitle: LockNavigationPane Macro Action
+title: Макрокоманда LockNavigationPane
+TOCTitle: LockNavigationPane macro action
 ms:assetid: abf7a989-c7cf-3efa-8df4-3c5b075d0e5f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821487(v=office.15)
 ms:contentKeyID: 48546986
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm172454
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2db34ee9ea56c5fcb4c5aff6afa57c3f59d1f17c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 48961d9c4a73d9370f542f31c8cbad3192afb3b4
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870333"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928826"
 ---
-# <a name="locknavigationpane-macro-action"></a>Действия макроса LockNavigationPane
+# <a name="locknavigationpane-macro-action"></a>Макрокоманда LockNavigationPane
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -48,7 +48,7 @@ ms.locfileid: "25870333"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Закрепление области переходов позволяет удалять объекты базы данных или обрезка объектов базы данных в буфер обмена. Оно делает это *не* препятствует выполнению любой из следующих операций:
 

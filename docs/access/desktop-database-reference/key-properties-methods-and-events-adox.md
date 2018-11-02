@@ -1,19 +1,19 @@
 ---
-title: Key Properties, Methods, and Events (ADOX)
+title: Основные свойства, методы и события (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 35639116-c8ec-103d-88f6-c0560efef2c0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
 ms:contentKeyID: 48544145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26dcf9c49b1ef38590ec0866214023dd08585eb0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8f4d53296ac61e0ccd91ad4a78f693d11d2e4488
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879895"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929652"
 ---
-# <a name="key-properties-methods-and-events-adox"></a>Key Properties, Methods, and Events (ADOX)
+# <a name="key-properties-methods-and-events-adox"></a>Основные свойства, методы и события (ADOX)
 
 
 **Применимо к**: Access 2013, Office 2013 

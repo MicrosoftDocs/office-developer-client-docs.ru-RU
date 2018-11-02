@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Type Property (DAO)
+title: Свойство Recordset2.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 9bec543e-7f59-ea59-dc79-41d0e08b5ab6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198080(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7d35f4acb97871f9d7499b67817c6c88ae56f441
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 57c433594a22a78615aa689cccd0b7477bb32e91
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871901"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930660"
 ---
-# <a name="recordset2type-property-dao"></a>Recordset2.Type Property (DAO)
+# <a name="recordset2type-property-dao"></a>Свойство Recordset2.Type (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25871901"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для объекта **набора записей** возможные параметры и возвращаемые значения, как показано ниже.
 

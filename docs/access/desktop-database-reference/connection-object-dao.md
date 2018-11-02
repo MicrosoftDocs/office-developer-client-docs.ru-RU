@@ -1,19 +1,19 @@
 ---
-title: Connection Object (DAO)
+title: Объект подключения (DAO)
 TOCTitle: Connection Object
 ms:assetid: f469b04e-2539-6b53-31f2-85fe22fcc2fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836694(v=office.15)
 ms:contentKeyID: 48548690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7170a28cb1d3ec9c8cdeca9229c255f264b9422e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0473a3f4b920e05ad07556b070ed0e778d7ac694
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883430"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930156"
 ---
-# <a name="connection-object-dao"></a>Connection Object (DAO)
+# <a name="connection-object-dao"></a>Объект подключения (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -25,7 +25,7 @@ ms.locfileid: "25883430"
 
 Объект **подключения** представляет подключение к базе данных ODBC (только для рабочих областей технология ODBCDirect).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **Подключение** — это непостоянные объект, представляющий подключение к удаленной базе данных. Объект **подключения** доступен только в рабочие области технология ODBCDirect (то есть, **рабочей области** объект, созданных с помощью параметра типа **dbUseODBC**).
 

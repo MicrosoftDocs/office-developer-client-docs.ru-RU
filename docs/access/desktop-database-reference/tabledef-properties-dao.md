@@ -1,52 +1,52 @@
 ---
-title: TableDef Properties (DAO)
+title: Свойства TableDef (DAO)
 TOCTitle: Properties
 ms:assetid: ac31add4-4819-42de-801a-d7862eb04619
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142653(v=office.15)
 ms:contentKeyID: 52073890
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e915563f3fc6600eb03285c4c35fce42df456dc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 89881a3b3ee55abaee52025a964b865a1edd1f4b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885544"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927832"
 ---
-# <a name="tabledef-properties-dao"></a>TableDef Properties (DAO)
+# <a name="tabledef-properties-dao"></a>Свойства TableDef (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 
 
-  - [TableDef.Attributes Property (DAO)](tabledef-attributes-property-dao.md)
+  - [Свойство TableDef.Attributes (DAO)](tabledef-attributes-property-dao.md)
 
-  - [TableDef.ConflictTable Property (DAO)](tabledef-conflicttable-property-dao.md)
+  - [Свойство TableDef.ConflictTable (DAO)](tabledef-conflicttable-property-dao.md)
 
-  - [TableDef.Connect Property (DAO)](tabledef-connect-property-dao.md)
+  - [Свойство TableDef.Connect (DAO)](tabledef-connect-property-dao.md)
 
-  - [TableDef.DateCreated Property (DAO)](tabledef-datecreated-property-dao.md)
+  - [Свойство TableDef.DateCreated (DAO)](tabledef-datecreated-property-dao.md)
 
-  - [TableDef.Fields Property (DAO)](tabledef-fields-property-dao.md)
+  - [Свойство TableDef.Fields (DAO)](tabledef-fields-property-dao.md)
 
-  - [TableDef.Indexes Property (DAO)](tabledef-indexes-property-dao.md)
+  - [Свойство TableDef.Indexes (DAO)](tabledef-indexes-property-dao.md)
 
-  - [TableDef.LastUpdated Property (DAO)](tabledef-lastupdated-property-dao.md)
+  - [Свойство TableDef.LastUpdated (DAO)](tabledef-lastupdated-property-dao.md)
 
-  - [TableDef.Name Property (DAO)](tabledef-name-property-dao.md)
+  - [Свойство TableDef.Name (DAO)](tabledef-name-property-dao.md)
 
-  - [TableDef.Properties Property (DAO)](tabledef-properties-property-dao.md)
+  - [Свойство TableDef.Properties (DAO)](tabledef-properties-property-dao.md)
 
-  - [TableDef.RecordCount Property (DAO)](tabledef-recordcount-property-dao.md)
+  - [Свойство TableDef.RecordCount (DAO)](tabledef-recordcount-property-dao.md)
 
-  - [TableDef.ReplicaFilter Property (DAO)](tabledef-replicafilter-property-dao.md)
+  - [Свойство TableDef.ReplicaFilter (DAO)](tabledef-replicafilter-property-dao.md)
 
-  - [TableDef.SourceTableName Property (DAO)](tabledef-sourcetablename-property-dao.md)
+  - [Свойство TableDef.SourceTableName (DAO)](tabledef-sourcetablename-property-dao.md)
 
-  - [TableDef.Updatable Property (DAO)](tabledef-updatable-property-dao.md)
+  - [Свойство TableDef.Updatable (DAO)](tabledef-updatable-property-dao.md)
 
-  - [TableDef.ValidationRule Property (DAO)](tabledef-validationrule-property-dao.md)
+  - [Свойство TableDef.ValidationRule (DAO)](tabledef-validationrule-property-dao.md)
 
-  - [TableDef.ValidationText Property (DAO)](tabledef-validationtext-property-dao.md)
+  - [Свойство TableDef.ValidationText (DAO)](tabledef-validationtext-property-dao.md)
 

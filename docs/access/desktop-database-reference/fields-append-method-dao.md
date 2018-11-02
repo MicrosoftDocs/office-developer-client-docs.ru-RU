@@ -1,19 +1,19 @@
 ---
-title: Fields.Append Method (DAO)
+title: Метод Fields.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: a0e553ba-6a57-09af-3436-4f6ca3cbe561
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44d7b6c8c9c44b51f7771dd731b50848f1cbf175
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 70fa0aba5385157453a1e9b009a167f036dc874b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884823"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929120"
 ---
-# <a name="fieldsappend-method-dao"></a>Fields.Append Method (DAO)
+# <a name="fieldsappend-method-dao"></a>Метод Fields.Append (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -55,7 +55,7 @@ ms.locfileid: "25884823"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **Append** используется для добавления новой таблицы в базе данных, Добавление поля в таблицу и добавить поле индекса.
 

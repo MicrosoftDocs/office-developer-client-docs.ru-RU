@@ -1,26 +1,26 @@
 ---
-title: Объект параметра (ADO)
-TOCTitle: Parameter Object (ADO)
+title: Объект Parameter (ADO)
+TOCTitle: Parameter object (ADO)
 ms:assetid: 7577598e-3d0c-30c6-5f24-1cfe98791798
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249481(v=office.15)
 ms:contentKeyID: 48545676
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 382945e1f2ff37eb2155b2bc0db9f521ca85d2de
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2000585a890256da878483b5538990c1898fc84a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878278"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927820"
 ---
-# <a name="parameter-object-ado"></a>Объект параметра (ADO)
+# <a name="parameter-object-ado"></a>Объект Parameter (ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
 Представляет параметр или аргумент, связанной с объектом [команды](command-object-ado.md) на основе параметризованный запрос или хранимую процедуру.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Многие поставщики поддерживают параметризованные команды. Ниже приведены команды, в которых нужное действие определяется один раз, но переменные (или параметров) используются для изменения некоторые сведения команды. Например источников данных можно использовать параметр для определения условий соответствия предложение WHERE, и другая, чтобы определить имя столбца для СОРТИРОВКИ BY.
 

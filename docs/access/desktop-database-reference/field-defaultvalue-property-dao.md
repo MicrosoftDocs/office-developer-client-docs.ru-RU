@@ -1,19 +1,19 @@
 ---
-title: Field.DefaultValue Property (DAO)
+title: Свойство Field.DefaultValue (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 8a1c558b-c8f6-757d-c595-4e50b9b6ae3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4a2710c714f22ad7ec1a27dc3e4750f56d6fac5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 38ce5fe4287b298ddf48e4c6c60556ace2d567cb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891095"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928252"
 ---
-# <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue Property (DAO)
+# <a name="fielddefaultvalue-property-dao"></a>Свойство Field.DefaultValue (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "25891095"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр или возвращаемое значение имеет тип данных **String** , которое может содержать не более 255 знаков. Она может быть текст или выражение. Если значение свойства — это выражение, не может содержать пользовательские функции, статистические функции ядра базы данных SQL Microsoft Access или ссылки на запросы, форм или других объектов **поля** .
 

@@ -1,25 +1,25 @@
 ---
-title: QueryDefs Collection (DAO)
+title: Коллекция QueryDefs (DAO)
 TOCTitle: QueryDefs Collection
 ms:assetid: 6178c3a6-8301-16bf-4657-0fb113de0a36
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194892(v=office.15)
 ms:contentKeyID: 48545215
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f210497a541efa40d8ddf2e5bfd43637706efce8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 93f089d2bc5302329b5f4e3a0c267055921534b8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867449"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927552"
 ---
-# <a name="querydefs-collection-dao"></a>QueryDefs Collection (DAO)
+# <a name="querydefs-collection-dao"></a>Коллекция QueryDefs (DAO)
 
 **Применимо к**: Access 2013, Office 2013 
 
 Коллекция **QueryDefs** содержит все объекты **QueryDef** объекта **базы данных** в базе данных ядра базы данных Microsoft Access.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы создать новый объект **QueryDef** , используйте метод **CreateQueryDef** . В рабочей области Microsoft Access Если указать строку для аргумента имени или явно задать свойство **Name** нового объекта **QueryDef** не – пустую строку будет создать постоянное **QueryDef** , который будет автоматически в коллекцию **QueryDefs** и на жестком диске. Временные объекта **QueryDef** приведет к передав строку нулевой длины в качестве аргумента имя и явно установки свойства **Name** в строку нулевой длины.
 

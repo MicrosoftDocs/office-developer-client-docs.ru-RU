@@ -1,5 +1,5 @@
 ---
-title: Field2.ForeignName Property (DAO)
+title: Свойство Field2.ForeignName (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 76da233a-efb4-63cd-a2a2-d18d9e2fb2fb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196027(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052932
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eff81bf8d2e7f7f040611ffc1aafdedff1e35ddf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f95839ac7b8832e22f69b31914f42de4f4adad06
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874050"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929239"
 ---
-# <a name="field2foreignname-property-dao"></a>Field2.ForeignName Property (DAO)
+# <a name="field2foreignname-property-dao"></a>Свойство Field2.ForeignName (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -30,7 +30,7 @@ ms.locfileid: "25874050"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если объект **[связи](relation-object-dao.md)** не добавлено в **[базе данных](database-object-dao.md)**, но **поле2** добавляется к объекту **отношения** , свойство **ForeignName** — чтение и запись. Если объект **отношения** добавляется к базе данных, свойство **ForeignName** доступен только для чтения.
 

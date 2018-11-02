@@ -1,6 +1,6 @@
 ---
-title: Действия макроса MaximizeWindow
-TOCTitle: MaximizeWindow Macro Action
+title: Макрокоманда MaximizeWindow
+TOCTitle: MaximizeWindow macro action
 ms:assetid: 79c9e430-07a7-02b2-ff5a-c6b9ec32c5b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196171(v=office.15)
 ms:contentKeyID: 48545778
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm196948
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 110262c9aee48fc24858150714194953136fa835
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 452e676d3becb7f5f76587a970b71a42e4ec8ab2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867274"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928651"
 ---
-# <a name="maximizewindow-macro-action"></a>Действия макроса MaximizeWindow
+# <a name="maximizewindow-macro-action"></a>Макрокоманда MaximizeWindow
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -34,7 +34,7 @@ ms.locfileid: "25867274"
 
 Действие **MaximizeWindow** не требует аргументов.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это действие имеет тот же эффект, нажав кнопку **Развернуть** в правом верхнем углу окна или нажав кнопку **Развернуть** в **элемент управления** меню.
 

@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d4ed801dfa746af3ad649738e32cec58afe17f6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cc849e22da654bd384065e4c169b3fd5540c6061
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877081"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928966"
 ---
-# <a name="index-object-dao"></a>Index Object (DAO)
+# <a name="index-object-dao"></a>Объект индекса (DAO)
 
 **Применимо к**: Access 2013, Office 2013
 
 Объекты **индекса** указать порядок записей, доступного из таблицы базы данных и принимаются ли повторяющихся записей, предоставляя эффективного доступа к данным. Для внешних баз данных объекты **индекса** описывают индексов, установленных для внешних таблиц (только для рабочих областей Microsoft Access).
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Ядро базы данных Microsoft Access использует индексы при его соединяет таблицы и создает объекты **[набора записей](recordset-object-dao.md)** . Индексов определения порядка, в котором объектов **наборов записей** в таблице тип возврата записей, но они не определяют порядок, в котором хранятся записи в таблице базового ядро базы данных Microsoft Access или порядок, в которых любой другой тип **набора записей** Возвращает объект записей.
 

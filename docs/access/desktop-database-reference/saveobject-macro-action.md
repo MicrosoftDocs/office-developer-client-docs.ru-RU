@@ -1,6 +1,6 @@
 ---
-title: Действия макроса SaveObject
-TOCTitle: SaveObject Macro Action
+title: Макрокоманда SaveObject
+TOCTitle: SaveObject macro action
 ms:assetid: 85716dfc-f76f-ca47-cc40-f8f88162f85a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196789(v=office.15)
 ms:contentKeyID: 48546060
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f5cbb47c8c4b1ecc4990ca53835f8ae9f7ed4d1b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 77fc87ac989d34f5a4e774555c54955cf0bd805e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886573"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931353"
 ---
-# <a name="saveobject-macro-action"></a>Действия макроса SaveObject
+# <a name="saveobject-macro-action"></a>Макрокоманда SaveObject
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -60,7 +60,7 @@ ms.locfileid: "25886573"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Действие **SaveObject** работает на все объекты базы данных, которые пользователь может явно открывать и сохранять. Указанный объект должен быть открыт для выполнения действия **SaveObject** оказывает никакого влияния на объекте. Это действие имеет тот же эффект, как при выборе объекта и сохранения его, нажав кнопку **Сохранить** на панели **Быстрого доступа**. Оставить пустым аргумент **Тип объекта** и введите новое имя в качестве аргумента **Имя объекта** имеет тот же эффект, что и нажмите кнопку **Сохранить как** на панели **Быстрого доступа**и введите новое имя для активного объекта. Действие **SaveObject** позволяет указать объект для сохранения и выполнения команды **Сохранить как** из макроса.
 

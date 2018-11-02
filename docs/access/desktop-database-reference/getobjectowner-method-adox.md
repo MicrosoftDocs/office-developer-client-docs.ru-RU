@@ -1,17 +1,17 @@
 ---
 title: Метод GetObjectOwner (ADOX)
-TOCTitle: GetObjectOwner Method (ADOX)
+TOCTitle: GetObjectOwner method (ADOX)
 ms:assetid: 716dd49a-8663-3f7a-32a3-0be353aea506
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249451(v=office.15)
 ms:contentKeyID: 48545585
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6961cb1de192e480ca68d9688105600ac85c69c9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b1a37b0f341c849358b649c2222df2955fd88f5d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874218"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927819"
 ---
 # <a name="getobjectowner-method-adox"></a>Метод GetObjectOwner (ADOX)
 
@@ -41,9 +41,9 @@ ms.locfileid: "25874218"
 
   - *ObjectTypeId*
 
-  - Необязательный параметр. Значение **типа Variant** , который указывает идентификатор GUID для поставщика тип объекта, не определена спецификацией OLE DB. Этот параметр является обязательным, если *тип объекта* имеет значение **adPermObjProviderSpecific**; в противном случае он не используется.
+  - Необязательно указывать. Значение **типа Variant** , который указывает идентификатор GUID для поставщика тип объекта, не определена спецификацией OLE DB. Этот параметр является обязательным, если *тип объекта* имеет значение **adPermObjProviderSpecific**; в противном случае он не используется.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если поставщик поддерживает возвращает ошибку владельцы объектов, произойдет ошибка.
 

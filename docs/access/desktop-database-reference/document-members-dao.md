@@ -1,19 +1,19 @@
 ---
-title: Document Members (DAO)
+title: Члены документа (DAO)
 TOCTitle: Document Members
 ms:assetid: 8de770e6-e4d1-372a-3ef8-8539c921b41f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197365(v=office.15)
 ms:contentKeyID: 48546270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ae19e30aa2a2f60f606f2380712815732eac932
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d21151b2a30ec44b717031f2b0b8a8f506f22193
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871369"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930422"
 ---
-# <a name="document-members-dao"></a>Document Members (DAO)
+# <a name="document-members-dao"></a>Члены документа (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
