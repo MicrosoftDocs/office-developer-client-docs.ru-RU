@@ -1,20 +1,19 @@
 ---
 title: Динамические свойства ADO
-TOCTitle: ADO Dynamic Properties
+TOCTitle: ADO dynamic properties
 ms:assetid: a908bc52-2cb0-89c7-a997-2cde93477e4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249782(v=office.15)
 ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a35bf0cd62db8f635540bfd1ccd65995b198b46
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ab0d84931389aecb5bd495c884baa9163c52d4a6
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877550"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910924"
 ---
 # <a name="ado-dynamic-properties"></a>Динамические свойства ADO
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -24,12 +23,18 @@ ms.locfileid: "25877550"
 
 Следующие свойства динамического представляют интерес и также описаны в источниках, перечисленных выше. Специальные функциональные возможности с помощью ADO описана в перечисленных ниже разделах справки ADO.
 
+<br/>
+
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Динамические свойства</th>
+<th>Описание</th>
+</tr>
 <tr class="odd">
 <td><p><a href="optimize-property-dynamic-ado.md">Оптимизация</a></p></td>
 <td><p>Указывает, следует ли создавать индекса на это поле.</p></td>
@@ -48,7 +53,7 @@ ms.locfileid: "25877550"
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Уникальной таблицы, уникальные схемы, уникальный каталога</a></p></td>
-<td><p><strong>Уникальная таблица</strong> — определяет имя базовая таблица, для которой разрешены обновления, вставки и удаления. <strong>Уникальный схемы</strong> — определяет схему или имя владельца таблицы. <strong>Уникальный каталога</strong> — указывает каталог или имя базы данных, содержащий таблицу.</p></td>
+<td><p><strong>Уникальная таблица</strong> — определяет имя базовая таблица, для которой разрешены обновления, вставки и удаления.<br/><br/><strong>Уникальный схемы</strong> — определяет схему или имя владельца таблицы.<br/><br/><strong>Уникальный каталога</strong> — указывает каталог или имя базы данных, содержащий таблицу.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Обновление повторной синхронизации</a></p></td>
@@ -56,4 +61,6 @@ ms.locfileid: "25877550"
 </tr>
 </tbody>
 </table>
+
+<br/>
 

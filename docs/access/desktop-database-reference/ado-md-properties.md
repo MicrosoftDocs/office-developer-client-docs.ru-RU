@@ -1,22 +1,23 @@
 ---
-title: Объекты данных ActiveX (ADO) MD свойства
-TOCTitle: ADO MD Properties
+title: Свойства ActiveX Data Objects (ADO) MD
+TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0bd08cea4c79fb9bf25c9bca4364accf617e6962
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0323ba7adb617bd68ed5c97098c93be9f990ac70
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873917"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910931"
 ---
-# <a name="ado-md-properties"></a>ADO MD свойства
-
+# <a name="ado-md-properties"></a>Свойства ADO MD
 
 **Применимо к**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25873917"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Свойство</th>
+<th>Описание</th>
+</tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado-md.md">ActiveConnection</a></p></td>
 <td><p>Указывает, какие объект ADO- <strong>подключение</strong> текущий набор ячеек и каталогов в настоящее время принадлежит.</p></td>
@@ -127,3 +132,4 @@ ms.locfileid: "25873917"
 </tbody>
 </table>
 
+<br/>

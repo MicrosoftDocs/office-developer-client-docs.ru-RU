@@ -1,17 +1,17 @@
 ---
 title: Объект DataControl (RDS)
-TOCTitle: DataControl Object (RDS)
+TOCTitle: DataControl object (RDS)
 ms:assetid: ac430669-7628-696c-c036-b5d35405d788
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1735de700fe1b0e786f55f0539495656dd9db2d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8cb71c5e51e56447636b25639dae0733a729bdb1
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883003"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910868"
 ---
 # <a name="datacontrol-object-rds"></a>Объект DataControl (RDS)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25883003"
     </OBJECT>
 ```
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 КОД класса для **RDS. DataControl** BD96C556 65A3 - 11D 0-983A-00C04FC29E33 — это объект.
 
