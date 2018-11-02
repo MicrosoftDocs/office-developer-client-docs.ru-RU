@@ -1,26 +1,22 @@
 ---
-title: Key Object (ADOX) Reference
-TOCTitle: Key Object (ADOX)
+title: Ссылка на объект ключа (ADOX)
+TOCTitle: Key object (ADOX)
 ms:assetid: 7bb344df-182f-43fc-847e-1b40098bd1f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249514(v=office.15)
 ms:contentKeyID: 48545818
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef1d46b75979982818848f1276cfd8b4e6f9922d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fe4b4ec0df664d28335e53efd52b6a6a0411fbbf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878208"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926222"
 ---
-# <a name="key-object-adox-reference"></a><span data-ttu-id="a9483-102">Key Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="a9483-102">Key Object (ADOX) Reference</span></span>
+# <a name="key-object-adox-reference"></a><span data-ttu-id="b88c7-102">Ссылка на объект ключа (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b88c7-102">Key object (ADOX) reference</span></span>
 
+<span data-ttu-id="b88c7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b88c7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a9483-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9483-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="a9483-104">Объект ключа (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a9483-104">Key Object (ADOX)</span></span>](key-object-adox.md)
-
-  - [<span data-ttu-id="a9483-105">Key Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a9483-105">Key Properties, Methods, and Events (ADOX)</span></span>](key-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="b88c7-104">Объект Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b88c7-104">Key object (ADOX)</span></span>](key-object-adox.md)
+- [<span data-ttu-id="b88c7-105">Основные свойства, методы и события (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b88c7-105">Key properties, methods, and events (ADOX)</span></span>](key-properties-methods-and-events-adox.md)
 

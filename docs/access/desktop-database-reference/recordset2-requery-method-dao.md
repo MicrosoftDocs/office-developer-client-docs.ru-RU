@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Requery Method (DAO)
+title: Метод Recordset2.Requery (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834712(v=office.15)
@@ -10,27 +10,27 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4646003bb7911fc18840d75addf459935ebb1fbd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e9b6986ca4baeda6adad4154538304c31e023390
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878635"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925487"
 ---
-# <a name="recordset2requery-method-dao"></a><span data-ttu-id="48d85-102">Recordset2.Requery Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="48d85-102">Recordset2.Requery Method (DAO)</span></span>
+# <a name="recordset2requery-method-dao"></a><span data-ttu-id="87c8d-102">Метод Recordset2.Requery (DAO)</span><span class="sxs-lookup"><span data-stu-id="87c8d-102">Recordset2.Requery method (DAO)</span></span>
 
 
-<span data-ttu-id="48d85-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48d85-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="87c8d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="87c8d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="48d85-104">Обновляет данные в объект **[набора записей](recordset-object-dao.md)** , повторное выполнение запросов, на котором основан объект.</span><span class="sxs-lookup"><span data-stu-id="48d85-104">Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-executing the query on which the object is based.</span></span>
+<span data-ttu-id="87c8d-104">Обновляет данные в объект **[набора записей](recordset-object-dao.md)** , повторное выполнение запросов, на котором основан объект.</span><span class="sxs-lookup"><span data-stu-id="87c8d-104">Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-executing the query on which the object is based.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="48d85-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="48d85-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="87c8d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="87c8d-105">Syntax</span></span>
 
-<span data-ttu-id="48d85-106">*выражение* . Обновление (***NewQueryDef***)</span><span class="sxs-lookup"><span data-stu-id="48d85-106">*expression* .Requery(***NewQueryDef***)</span></span>
+<span data-ttu-id="87c8d-106">*выражение* . Обновление (***NewQueryDef***)</span><span class="sxs-lookup"><span data-stu-id="87c8d-106">*expression* .Requery(***NewQueryDef***)</span></span>
 
-<span data-ttu-id="48d85-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="48d85-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="87c8d-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="87c8d-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="48d85-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="48d85-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="87c8d-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="87c8d-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,42 +41,42 @@ ms.locfileid: "25878635"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="48d85-109">Имя</span><span class="sxs-lookup"><span data-stu-id="48d85-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="48d85-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="48d85-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="48d85-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="48d85-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="48d85-112">Описание</span><span class="sxs-lookup"><span data-stu-id="48d85-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="87c8d-109">Имя</span><span class="sxs-lookup"><span data-stu-id="87c8d-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="87c8d-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="87c8d-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="87c8d-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="87c8d-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="87c8d-112">Описание</span><span class="sxs-lookup"><span data-stu-id="87c8d-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="48d85-113">NewQueryDef</span><span class="sxs-lookup"><span data-stu-id="48d85-113">NewQueryDef</span></span></p></td>
-<td><p><span data-ttu-id="48d85-114">Необязательный</span><span class="sxs-lookup"><span data-stu-id="48d85-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="48d85-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="48d85-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="48d85-116">Представляет значение свойства <strong>Name</strong> объекта <strong><a href="querydef-object-dao.md">QueryDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="48d85-116">Represents the <strong>Name</strong> property value of a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object</span></span></p></td>
+<td><p><span data-ttu-id="87c8d-113">NewQueryDef</span><span class="sxs-lookup"><span data-stu-id="87c8d-113">NewQueryDef</span></span></p></td>
+<td><p><span data-ttu-id="87c8d-114">Необязательный</span><span class="sxs-lookup"><span data-stu-id="87c8d-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="87c8d-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="87c8d-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="87c8d-116">Представляет значение свойства <strong>Name</strong> объекта <strong><a href="querydef-object-dao.md">QueryDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="87c8d-116">Represents the <strong>Name</strong> property value of a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="48d85-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="48d85-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="87c8d-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="87c8d-117">Remarks</span></span>
 
-<span data-ttu-id="48d85-118">Используйте этот метод, чтобы убедиться в том, что **набор записей** содержит последние данные.</span><span class="sxs-lookup"><span data-stu-id="48d85-118">Use this method to make sure that a **Recordset** contains the most recent data.</span></span> <span data-ttu-id="48d85-119">Этот метод повторно заполняет текущего **набора записей** с помощью любого из текущего запроса или (в рабочей области для Microsoft Access) новых структур указано в аргументе newquerydef.</span><span class="sxs-lookup"><span data-stu-id="48d85-119">This method re-populates the current **Recordset** by using either the current query parameters or (in a Microsoft Access workspace) the new ones supplied by the newquerydef argument.</span></span>
+<span data-ttu-id="87c8d-118">Используйте этот метод, чтобы убедиться в том, что **набор записей** содержит последние данные.</span><span class="sxs-lookup"><span data-stu-id="87c8d-118">Use this method to make sure that a **Recordset** contains the most recent data.</span></span> <span data-ttu-id="87c8d-119">Этот метод повторно заполняет текущего **набора записей** с помощью любого из текущего запроса или (в рабочей области для Microsoft Access) новых структур указано в аргументе newquerydef.</span><span class="sxs-lookup"><span data-stu-id="87c8d-119">This method re-populates the current **Recordset** by using either the current query parameters or (in a Microsoft Access workspace) the new ones supplied by the newquerydef argument.</span></span>
 
-<span data-ttu-id="48d85-120">Если не указан аргумент newquerydef, **записей** повторно заполняется на основе одного определения запроса и параметры, используемые для заполнения изначально **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="48d85-120">If you don't specify a newquerydef argument, the **Recordset** is re-populated based on the same query definition and parameters used to originally populate the **Recordset**.</span></span> <span data-ttu-id="48d85-121">Любые изменения в базовые данные будут отражены во время повторного заполнения.</span><span class="sxs-lookup"><span data-stu-id="48d85-121">Any changes to the underlying data will be reflected during this re-population.</span></span> <span data-ttu-id="48d85-122">Если **QueryDef** не используется для создания **записей**, **записей** повторно создать с нуля.</span><span class="sxs-lookup"><span data-stu-id="48d85-122">If you didn't use a **QueryDef** to create the **Recordset**, the **Recordset** is re-created from scratch.</span></span>
+<span data-ttu-id="87c8d-120">Если не указан аргумент newquerydef, **записей** повторно заполняется на основе одного определения запроса и параметры, используемые для заполнения изначально **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="87c8d-120">If you don't specify a newquerydef argument, the **Recordset** is re-populated based on the same query definition and parameters used to originally populate the **Recordset**.</span></span> <span data-ttu-id="87c8d-121">Любые изменения в базовые данные будут отражены во время повторного заполнения.</span><span class="sxs-lookup"><span data-stu-id="87c8d-121">Any changes to the underlying data will be reflected during this re-population.</span></span> <span data-ttu-id="87c8d-122">Если **QueryDef** не используется для создания **записей**, **записей** повторно создать с нуля.</span><span class="sxs-lookup"><span data-stu-id="87c8d-122">If you didn't use a **QueryDef** to create the **Recordset**, the **Recordset** is re-created from scratch.</span></span>
 
-<span data-ttu-id="48d85-123">При указании исходного **QueryDef** в аргументе newquerydef, затем **записей** обновляется с использованием параметров, указанного идентификатором **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="48d85-123">If you specify the original **QueryDef** in the newquerydef argument, then the **Recordset** is requeried using the parameters specified by the **QueryDef**.</span></span> <span data-ttu-id="48d85-124">Любые изменения в базовые данные будут отражены во время повторного заполнения.</span><span class="sxs-lookup"><span data-stu-id="48d85-124">Any changes to the underlying data will be reflected during this re-population.</span></span> <span data-ttu-id="48d85-125">Чтобы отразить любые изменения значения параметров запроса в **набор записей**, необходимо указать аргумент newquerydef.</span><span class="sxs-lookup"><span data-stu-id="48d85-125">To reflect any changes to the query parameter values in the **Recordset**, you must supply the newquerydef argument.</span></span>
+<span data-ttu-id="87c8d-123">При указании исходного **QueryDef** в аргументе newquerydef, затем **записей** обновляется с использованием параметров, указанного идентификатором **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="87c8d-123">If you specify the original **QueryDef** in the newquerydef argument, then the **Recordset** is requeried using the parameters specified by the **QueryDef**.</span></span> <span data-ttu-id="87c8d-124">Любые изменения в базовые данные будут отражены во время повторного заполнения.</span><span class="sxs-lookup"><span data-stu-id="87c8d-124">Any changes to the underlying data will be reflected during this re-population.</span></span> <span data-ttu-id="87c8d-125">Чтобы отразить любые изменения значения параметров запроса в **набор записей**, необходимо указать аргумент newquerydef.</span><span class="sxs-lookup"><span data-stu-id="87c8d-125">To reflect any changes to the query parameter values in the **Recordset**, you must supply the newquerydef argument.</span></span>
 
-<span data-ttu-id="48d85-126">Если указать другой **QueryDef** чем что использовалась для создания **записей** **набора записей** повторно создать с нуля.</span><span class="sxs-lookup"><span data-stu-id="48d85-126">If you specify a different **QueryDef** than what was originally used to create the **Recordset**, the **Recordset** is re-created from scratch.</span></span>
+<span data-ttu-id="87c8d-126">Если указать другой **QueryDef** чем что использовалась для создания **записей** **набора записей** повторно создать с нуля.</span><span class="sxs-lookup"><span data-stu-id="87c8d-126">If you specify a different **QueryDef** than what was originally used to create the **Recordset**, the **Recordset** is re-created from scratch.</span></span>
 
-<span data-ttu-id="48d85-127">При использовании **повторный запрос**первой записи в **набор записей** становится текущей.</span><span class="sxs-lookup"><span data-stu-id="48d85-127">When you use **Requery**, the first record in the **Recordset** becomes the current record.</span></span>
+<span data-ttu-id="87c8d-127">При использовании **повторный запрос**первой записи в **набор записей** становится текущей.</span><span class="sxs-lookup"><span data-stu-id="87c8d-127">When you use **Requery**, the first record in the **Recordset** becomes the current record.</span></span>
 
-<span data-ttu-id="48d85-128">Нельзя использовать метод **повторный запрос** на или моментальный снимок добавляющий объектов **наборов записей** , свойство **[Restartable](recordset2-restartable-property-dao.md)** имеет значение **False**.</span><span class="sxs-lookup"><span data-stu-id="48d85-128">You can't use the **Requery** method on dynaset- or snapshot-type **Recordset** objects whose **[Restartable](recordset2-restartable-property-dao.md)** property is set to **False**.</span></span> <span data-ttu-id="48d85-129">Тем не менее если вы задаете newquerydef необязательный аргумент, свойство **Restartable** игнорируется.</span><span class="sxs-lookup"><span data-stu-id="48d85-129">However, if you supply the optional newquerydef argument, the **Restartable** property is ignored.</span></span>
+<span data-ttu-id="87c8d-128">Нельзя использовать метод **повторный запрос** на или моментальный снимок добавляющий объектов **наборов записей** , свойство **[Restartable](recordset2-restartable-property-dao.md)** имеет значение **False**.</span><span class="sxs-lookup"><span data-stu-id="87c8d-128">You can't use the **Requery** method on dynaset- or snapshot-type **Recordset** objects whose **[Restartable](recordset2-restartable-property-dao.md)** property is set to **False**.</span></span> <span data-ttu-id="87c8d-129">Тем не менее если вы задаете newquerydef необязательный аргумент, свойство **Restartable** игнорируется.</span><span class="sxs-lookup"><span data-stu-id="87c8d-129">However, if you supply the optional newquerydef argument, the **Restartable** property is ignored.</span></span>
 
-<span data-ttu-id="48d85-130">Если **как **[BOF](recordset2-bof-property-dao.md)** , так и параметры свойства **[EOF](recordset2-eof-property-dao.md)** объекта **набора записей** выполняются после использования метода **повторный запрос** ,** запрос не возвращает никаких записей и **записей** не содержит данных.</span><span class="sxs-lookup"><span data-stu-id="48d85-130">If both the **[BOF](recordset2-bof-property-dao.md)** and **[EOF](recordset2-eof-property-dao.md)** property settings of the **Recordset** object are **True** after you use the **Requery** method, the query didn't return any records and the **Recordset** contains no data.</span></span>
+<span data-ttu-id="87c8d-130">Если **как **[BOF](recordset2-bof-property-dao.md)** , так и параметры свойства **[EOF](recordset2-eof-property-dao.md)** объекта **набора записей** выполняются после использования метода **повторный запрос** ,** запрос не возвращает никаких записей и **записей** не содержит данных.</span><span class="sxs-lookup"><span data-stu-id="87c8d-130">If both the **[BOF](recordset2-bof-property-dao.md)** and **[EOF](recordset2-eof-property-dao.md)** property settings of the **Recordset** object are **True** after you use the **Requery** method, the query didn't return any records and the **Recordset** contains no data.</span></span>
 
-## <a name="example"></a><span data-ttu-id="48d85-131">Пример</span><span class="sxs-lookup"><span data-stu-id="48d85-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="87c8d-131">Пример</span><span class="sxs-lookup"><span data-stu-id="87c8d-131">Example</span></span>
 
-<span data-ttu-id="48d85-132">В этом примере показано использование метода **повторный запрос** для обновления запроса после изменения базовых данных.</span><span class="sxs-lookup"><span data-stu-id="48d85-132">This example shows how the **Requery** method can be used to refresh a query after underlying data has been changed.</span></span>
+<span data-ttu-id="87c8d-132">В этом примере показано использование метода **повторный запрос** для обновления запроса после изменения базовых данных.</span><span class="sxs-lookup"><span data-stu-id="87c8d-132">This example shows how the **Requery** method can be used to refresh a query after underlying data has been changed.</span></span>
 
 ```vb
     Sub RequeryX() 
@@ -134,7 +134,7 @@ ms.locfileid: "25878635"
 
 <br/>
 
-<span data-ttu-id="48d85-133">В этом примере показано использование метода **повторный запрос** для обновления запроса после изменения параметров запроса.</span><span class="sxs-lookup"><span data-stu-id="48d85-133">This example shows how the **Requery** method can be used to refresh a query after the query parameters have been changed.</span></span>
+<span data-ttu-id="87c8d-133">В этом примере показано использование метода **повторный запрос** для обновления запроса после изменения параметров запроса.</span><span class="sxs-lookup"><span data-stu-id="87c8d-133">This example shows how the **Requery** method can be used to refresh a query after the query parameters have been changed.</span></span>
 
 ```vb
 Sub RequeryX2() 

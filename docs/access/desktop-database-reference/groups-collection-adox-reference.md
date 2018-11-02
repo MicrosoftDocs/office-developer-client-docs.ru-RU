@@ -1,26 +1,22 @@
 ---
-title: Groups Collection (ADOX) Reference
-TOCTitle: Groups Collection (ADOX)
+title: Справочник по группам семейства сайтов (ADOX)
+TOCTitle: Groups collection (ADOX)
 ms:assetid: 99fc8913-b6f9-4df9-9583-ff459e894152
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249693(v=office.15)
 ms:contentKeyID: 48546527
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8882191ab689282e77c7dbafb2e738a8e74c4bab
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 310e09c69e789c4ad8ed089a8cbfa0884eb0d9c9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885054"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927144"
 ---
-# <a name="groups-collection-adox-reference"></a><span data-ttu-id="fcc04-102">Groups Collection (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="fcc04-102">Groups Collection (ADOX) Reference</span></span>
+# <a name="groups-collection-adox-reference"></a><span data-ttu-id="5ac30-102">Справочник по группам семейства сайтов (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5ac30-102">Groups collection (ADOX) reference</span></span>
 
+<span data-ttu-id="5ac30-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ac30-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fcc04-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fcc04-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="fcc04-104">Семейство Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fcc04-104">Groups Collection (ADOX)</span></span>](groups-collection-adox.md)
-
-  - [<span data-ttu-id="fcc04-105">Свойства коллекции групп, методы и события (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fcc04-105">Groups Collection Properties, Methods, and Events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="5ac30-104">Коллекция Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5ac30-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
+- [<span data-ttu-id="5ac30-105">Свойства, методы и события коллекции Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5ac30-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
 

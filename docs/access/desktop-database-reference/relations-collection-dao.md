@@ -1,40 +1,40 @@
 ---
-title: Relations Collection (DAO)
+title: Коллекции отношений (DAO)
 TOCTitle: Relations Collection
 ms:assetid: 8929b5cc-cf52-03f2-8cf5-7f45276d258e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
 ms:contentKeyID: 48546153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 08dfdda497311c70920dba3f082180503077d09d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 78fdc7fc236a3e366cc97d466deb1e31cc030ac7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873755"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919474"
 ---
-# <a name="relations-collection-dao"></a><span data-ttu-id="0abed-102">Relations Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="0abed-102">Relations Collection (DAO)</span></span>
+# <a name="relations-collection-dao"></a><span data-ttu-id="41d1d-102">Коллекции отношений (DAO)</span><span class="sxs-lookup"><span data-stu-id="41d1d-102">Relations collection (DAO)</span></span>
 
 
-<span data-ttu-id="0abed-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0abed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="41d1d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="41d1d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0abed-104">Коллекция **отношения** содержит сохраненные объекты **отношений** объектов **базы данных** (базы данных ядра базы данных Microsoft Access только).</span><span class="sxs-lookup"><span data-stu-id="0abed-104">A **Relations** collection contains stored **Relation** objects of a **Database** object (Microsoft Access database engine databases only).</span></span>
+<span data-ttu-id="41d1d-104">Коллекция **отношения** содержит сохраненные объекты **отношений** объектов **базы данных** (базы данных ядра базы данных Microsoft Access только).</span><span class="sxs-lookup"><span data-stu-id="41d1d-104">A **Relations** collection contains stored **Relation** objects of a **Database** object (Microsoft Access database engine databases only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0abed-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="0abed-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="41d1d-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="41d1d-105">Remarks</span></span>
 
-<span data-ttu-id="0abed-106">Объект **связи** можно использовать для создания новых связей и проверить существующих связей между таблицами в базе данных.</span><span class="sxs-lookup"><span data-stu-id="0abed-106">You can use the **Relation** object to create new relationships and examine existing relationships in your database.</span></span> <span data-ttu-id="0abed-107">Чтобы добавить объект **отношения** в коллекции **отношений** , сначала создайте его с помощью метода **CreateRelation** и затем добавьте его в коллекцию **отношений** с помощью метода **Append** .</span><span class="sxs-lookup"><span data-stu-id="0abed-107">To add a **Relation** object to the **Relations** collection, first create it with the **CreateRelation** method, and then append it to the **Relations** collection with the **Append** method.</span></span> <span data-ttu-id="0abed-108">Объект **отношения** сохраняется при закрытии объекта **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="0abed-108">This will save the **Relation** object when you close the **Database** object.</span></span> <span data-ttu-id="0abed-109">Чтобы удалить объект **связи** из коллекции, используйте метод **Delete** .</span><span class="sxs-lookup"><span data-stu-id="0abed-109">To remove a **Relation** object from the collection, use the **Delete** method.</span></span>
+<span data-ttu-id="41d1d-106">Объект **связи** можно использовать для создания новых связей и проверить существующих связей между таблицами в базе данных.</span><span class="sxs-lookup"><span data-stu-id="41d1d-106">You can use the **Relation** object to create new relationships and examine existing relationships in your database.</span></span> <span data-ttu-id="41d1d-107">Чтобы добавить объект **отношения** в коллекции **отношений** , сначала создайте его с помощью метода **CreateRelation** и затем добавьте его в коллекцию **отношений** с помощью метода **Append** .</span><span class="sxs-lookup"><span data-stu-id="41d1d-107">To add a **Relation** object to the **Relations** collection, first create it with the **CreateRelation** method, and then append it to the **Relations** collection with the **Append** method.</span></span> <span data-ttu-id="41d1d-108">Объект **отношения** сохраняется при закрытии объекта **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="41d1d-108">This will save the **Relation** object when you close the **Database** object.</span></span> <span data-ttu-id="41d1d-109">Чтобы удалить объект **связи** из коллекции, используйте метод **Delete** .</span><span class="sxs-lookup"><span data-stu-id="41d1d-109">To remove a **Relation** object from the collection, use the **Delete** method.</span></span>
 
-<span data-ttu-id="0abed-110">Для ссылки на объект **связи** в семействе сайтов, с его порядковый номер или **его свойства Name** , можно используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="0abed-110">To refer to a **Relation** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="41d1d-110">Для ссылки на объект **связи** в семействе сайтов, с его порядковый номер или **его свойства Name** , можно используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="41d1d-110">To refer to a **Relation** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="0abed-111">**Отношения** (0)</span><span class="sxs-lookup"><span data-stu-id="0abed-111">**Relations**(0)</span></span>
+<span data-ttu-id="41d1d-111">**Отношения** (0)</span><span class="sxs-lookup"><span data-stu-id="41d1d-111">**Relations**(0)</span></span>
 
-<span data-ttu-id="0abed-112">**Отношения** («имя»)</span><span class="sxs-lookup"><span data-stu-id="0abed-112">**Relations**("name")</span></span>
+<span data-ttu-id="41d1d-112">**Отношения** («имя»)</span><span class="sxs-lookup"><span data-stu-id="41d1d-112">**Relations**("name")</span></span>
 
-<span data-ttu-id="0abed-113">**Отношения**\!\[имя\]</span><span class="sxs-lookup"><span data-stu-id="0abed-113">**Relations**\!\[name\]</span></span>
+<span data-ttu-id="41d1d-113">**Отношения**\!\[имя\]</span><span class="sxs-lookup"><span data-stu-id="41d1d-113">**Relations**\!\[name\]</span></span>
 
-## <a name="example"></a><span data-ttu-id="0abed-114">Пример</span><span class="sxs-lookup"><span data-stu-id="0abed-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="41d1d-114">Пример</span><span class="sxs-lookup"><span data-stu-id="41d1d-114">Example</span></span>
 
-<span data-ttu-id="0abed-115">В этом примере показано, как управлять существующий объект **отношения** ввода данных.</span><span class="sxs-lookup"><span data-stu-id="0abed-115">This example shows how an existing **Relation** object can control data entry.</span></span> <span data-ttu-id="0abed-116">Процедура пытается добавить запись, намеренно неправильный идентификатор категории; Это вызывает обработчик ошибок.</span><span class="sxs-lookup"><span data-stu-id="0abed-116">The procedure attempts to add a record with a deliberately incorrect CategoryID; this triggers the error-handling routine.</span></span>
+<span data-ttu-id="41d1d-115">В этом примере показано, как управлять существующий объект **отношения** ввода данных.</span><span class="sxs-lookup"><span data-stu-id="41d1d-115">This example shows how an existing **Relation** object can control data entry.</span></span> <span data-ttu-id="41d1d-116">Процедура пытается добавить запись, намеренно неправильный идентификатор категории; Это вызывает обработчик ошибок.</span><span class="sxs-lookup"><span data-stu-id="41d1d-116">The procedure attempts to add a record with a deliberately incorrect CategoryID; this triggers the error-handling routine.</span></span>
 
 ```vb
     Sub RelationX() 
@@ -95,7 +95,7 @@ ms.locfileid: "25873755"
 
 <br/>
 
-<span data-ttu-id="0abed-117">В этом примере используется метод **CreateRelation** для создания **связи** между сотрудниками **TableDef** и новые **TableDef** вызван отделов.</span><span class="sxs-lookup"><span data-stu-id="0abed-117">This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments.</span></span> <span data-ttu-id="0abed-118">В этом примере также показано, как создание нового **отношения** будет также создать необходимые **индексов** в таблице внешнего (DepartmentsEmployees Index в таблице «Сотрудники»).</span><span class="sxs-lookup"><span data-stu-id="0abed-118">This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).</span></span>
+<span data-ttu-id="41d1d-117">В этом примере используется метод **CreateRelation** для создания **связи** между сотрудниками **TableDef** и новые **TableDef** вызван отделов.</span><span class="sxs-lookup"><span data-stu-id="41d1d-117">This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments.</span></span> <span data-ttu-id="41d1d-118">В этом примере также показано, как создание нового **отношения** будет также создать необходимые **индексов** в таблице внешнего (DepartmentsEmployees Index в таблице «Сотрудники»).</span><span class="sxs-lookup"><span data-stu-id="41d1d-118">This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).</span></span>
 
 ```vb
     Sub CreateRelationX() 
