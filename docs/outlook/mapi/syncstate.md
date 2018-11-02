@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22575534"
 ---
-# <a name="syncstate"></a><span data-ttu-id="cfdc4-103">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="cfdc4-103">SYNCSTATE</span></span>
+# <a name="syncstate"></a><span data-ttu-id="70fed-103">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="70fed-103">SYNCSTATE</span></span>
 
-<span data-ttu-id="cfdc4-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cfdc4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="70fed-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="70fed-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cfdc4-105">Эта структура определяет состояния для этого компьютера состояние репликации.</span><span class="sxs-lookup"><span data-stu-id="cfdc4-105">This structure defines the states for the replication state machine.</span></span>
+<span data-ttu-id="70fed-105">Эта структура определяет состояния для этого компьютера состояние репликации.</span><span class="sxs-lookup"><span data-stu-id="70fed-105">This structure defines the states for the replication state machine.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="cfdc4-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="cfdc4-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="70fed-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="70fed-106">Quick info</span></span>
 
 ```cpp
 typedef enum { 
@@ -41,9 +41,9 @@ typedef enum {
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="cfdc4-107">См. также</span><span class="sxs-lookup"><span data-stu-id="cfdc4-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="70fed-107">См. также</span><span class="sxs-lookup"><span data-stu-id="70fed-107">See also</span></span>
 
-- [<span data-ttu-id="cfdc4-108">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="cfdc4-108">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="cfdc4-109">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="cfdc4-109">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="cfdc4-110">��������� MAPI</span><span class="sxs-lookup"><span data-stu-id="cfdc4-110">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="70fed-108">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="70fed-108">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="70fed-109">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="70fed-109">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="70fed-110">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="70fed-110">MAPI Constants</span></span>](mapi-constants.md)
 

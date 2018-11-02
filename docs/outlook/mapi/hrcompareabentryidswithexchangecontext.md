@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22564992"
 ---
-# <a name="hrcompareabentryidswithexchangecontext"></a><span data-ttu-id="179e1-103">HrCompareABEntryIDsWithExchangeContext</span><span class="sxs-lookup"><span data-stu-id="179e1-103">HrCompareABEntryIDsWithExchangeContext</span></span>
+# <a name="hrcompareabentryidswithexchangecontext"></a><span data-ttu-id="24155-103">HrCompareABEntryIDsWithExchangeContext</span><span class="sxs-lookup"><span data-stu-id="24155-103">HrCompareABEntryIDsWithExchangeContext</span></span>
 
   
   
-<span data-ttu-id="179e1-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="179e1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="24155-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="24155-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="179e1-105">Сравнивает книги два адреса **entryIDs** безопасно в профиле нескольких Exchange.</span><span class="sxs-lookup"><span data-stu-id="179e1-105">Compares two address book **entryIDs** safely in a Multiple Exchange profile.</span></span> <span data-ttu-id="179e1-106">Эта функция — это функция замены для [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).</span><span class="sxs-lookup"><span data-stu-id="179e1-106">This function is a replacement function for [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).</span></span>
+<span data-ttu-id="24155-105">Сравнивает книги два адреса **entryIDs** безопасно в профиле нескольких Exchange.</span><span class="sxs-lookup"><span data-stu-id="24155-105">Compares two address book **entryIDs** safely in a Multiple Exchange profile.</span></span> <span data-ttu-id="24155-106">Эта функция — это функция замены для [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).</span><span class="sxs-lookup"><span data-stu-id="24155-106">This function is a replacement function for [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="179e1-107">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="179e1-107">Header file:</span></span>  <br/> |<span data-ttu-id="179e1-108">abhelp.h</span><span class="sxs-lookup"><span data-stu-id="179e1-108">abhelp.h</span></span>  <br/> |
-|<span data-ttu-id="179e1-109">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="179e1-109">Implemented by:</span></span>  <br/> |<span data-ttu-id="179e1-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="179e1-110">MAPI</span></span>  <br/> |
-|<span data-ttu-id="179e1-111">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="179e1-111">Called by:</span></span>  <br/> |<span data-ttu-id="179e1-112">Клиентские приложения и поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="179e1-112">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="24155-107">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="24155-107">Header file:</span></span>  <br/> |<span data-ttu-id="24155-108">abhelp.h</span><span class="sxs-lookup"><span data-stu-id="24155-108">abhelp.h</span></span>  <br/> |
+|<span data-ttu-id="24155-109">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="24155-109">Implemented by:</span></span>  <br/> |<span data-ttu-id="24155-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="24155-110">MAPI</span></span>  <br/> |
+|<span data-ttu-id="24155-111">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="24155-111">Called by:</span></span>  <br/> |<span data-ttu-id="24155-112">Клиентские приложения и поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="24155-112">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT HrCompareABEntryIDsWithExchangeContext(
@@ -43,42 +43,42 @@ HRESULT HrCompareABEntryIDsWithExchangeContext(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="179e1-113">Параметры</span><span class="sxs-lookup"><span data-stu-id="179e1-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="24155-113">Параметры</span><span class="sxs-lookup"><span data-stu-id="24155-113">Parameters</span></span>
 
- <span data-ttu-id="179e1-114">_pmsess_</span><span class="sxs-lookup"><span data-stu-id="179e1-114">_pmsess_</span></span>
+ <span data-ttu-id="24155-114">_pmsess_</span><span class="sxs-lookup"><span data-stu-id="24155-114">_pmsess_</span></span>
   
-> <span data-ttu-id="179e1-115">[in] Система на **IMAPISession**.</span><span class="sxs-lookup"><span data-stu-id="179e1-115">[in] The logged on **IMAPISession**.</span></span> <span data-ttu-id="179e1-116">Он не может быть NULL.</span><span class="sxs-lookup"><span data-stu-id="179e1-116">It cannot be NULL.</span></span>
+> <span data-ttu-id="24155-115">[in] Система на **IMAPISession**.</span><span class="sxs-lookup"><span data-stu-id="24155-115">[in] The logged on **IMAPISession**.</span></span> <span data-ttu-id="24155-116">Он не может быть NULL.</span><span class="sxs-lookup"><span data-stu-id="24155-116">It cannot be NULL.</span></span>
     
- <span data-ttu-id="179e1-117">_pEmsmdbUID_</span><span class="sxs-lookup"><span data-stu-id="179e1-117">_pEmsmdbUID_</span></span>
+ <span data-ttu-id="24155-117">_pEmsmdbUID_</span><span class="sxs-lookup"><span data-stu-id="24155-117">_pEmsmdbUID_</span></span>
   
-> <span data-ttu-id="179e1-118">[in] Указатель на **emsmdbUID** , который определяет службу Exchange, которая содержит поставщик адресной книги Exchange, который следует использовать эту функцию для отображения сведений на идентификатор записи.</span><span class="sxs-lookup"><span data-stu-id="179e1-118">[in] A pointer to an **emsmdbUID** that identifies the Exchange Service that contains the Exchange Address Book Provider that this function should use to display details on the entry identifier.</span></span> <span data-ttu-id="179e1-119">Если входящий идентификатор записи не идентификатор записи Exchange поставщик адресной книги, этот параметр игнорируется и вызов функции действует как [IAddrBook::Details](iaddrbook-details.md).</span><span class="sxs-lookup"><span data-stu-id="179e1-119">If the incoming entry identifier is not an Exchange Address Book Provider entry identifier, this parameter is ignored and the function call behaves like [IAddrBook::Details](iaddrbook-details.md).</span></span> <span data-ttu-id="179e1-120">Если этот параметр имеет значение NULL или ноль MAPIUID, эта функция действует как [IAddrBook::Details](iaddrbook-details.md).</span><span class="sxs-lookup"><span data-stu-id="179e1-120">If this parameter is NULL or a zero MAPIUID, this function behaves like [IAddrBook::Details](iaddrbook-details.md).</span></span>
+> <span data-ttu-id="24155-118">[in] Указатель на **emsmdbUID** , который определяет службу Exchange, которая содержит поставщик адресной книги Exchange, который следует использовать эту функцию для отображения сведений на идентификатор записи.</span><span class="sxs-lookup"><span data-stu-id="24155-118">[in] A pointer to an **emsmdbUID** that identifies the Exchange Service that contains the Exchange Address Book Provider that this function should use to display details on the entry identifier.</span></span> <span data-ttu-id="24155-119">Если входящий идентификатор записи не идентификатор записи Exchange поставщик адресной книги, этот параметр игнорируется и вызов функции действует как [IAddrBook::Details](iaddrbook-details.md).</span><span class="sxs-lookup"><span data-stu-id="24155-119">If the incoming entry identifier is not an Exchange Address Book Provider entry identifier, this parameter is ignored and the function call behaves like [IAddrBook::Details](iaddrbook-details.md).</span></span> <span data-ttu-id="24155-120">Если этот параметр имеет значение NULL или ноль MAPIUID, эта функция действует как [IAddrBook::Details](iaddrbook-details.md).</span><span class="sxs-lookup"><span data-stu-id="24155-120">If this parameter is NULL or a zero MAPIUID, this function behaves like [IAddrBook::Details](iaddrbook-details.md).</span></span>
     
- <span data-ttu-id="179e1-121">_pAddrBook_</span><span class="sxs-lookup"><span data-stu-id="179e1-121">_pAddrBook_</span></span>
+ <span data-ttu-id="24155-121">_pAddrBook_</span><span class="sxs-lookup"><span data-stu-id="24155-121">_pAddrBook_</span></span>
   
-> <span data-ttu-id="179e1-122">[in] В адресной книге используется для открытия идентификатор записи.</span><span class="sxs-lookup"><span data-stu-id="179e1-122">[in] The address book used to open the entry identifier.</span></span> <span data-ttu-id="179e1-123">Он не может быть NULL.</span><span class="sxs-lookup"><span data-stu-id="179e1-123">It cannot be NULL.</span></span>
+> <span data-ttu-id="24155-122">[in] В адресной книге используется для открытия идентификатор записи.</span><span class="sxs-lookup"><span data-stu-id="24155-122">[in] The address book used to open the entry identifier.</span></span> <span data-ttu-id="24155-123">Он не может быть NULL.</span><span class="sxs-lookup"><span data-stu-id="24155-123">It cannot be NULL.</span></span>
     
- <span data-ttu-id="179e1-124">_cbEntryID1_</span><span class="sxs-lookup"><span data-stu-id="179e1-124">_cbEntryID1_</span></span>
+ <span data-ttu-id="24155-124">_cbEntryID1_</span><span class="sxs-lookup"><span data-stu-id="24155-124">_cbEntryID1_</span></span>
   
-> <span data-ttu-id="179e1-125">[in] Количество байтов первой записи идентификатор, указанный в параметре _lpEntryID1_ .</span><span class="sxs-lookup"><span data-stu-id="179e1-125">[in] The byte count of the first entry identifier specified by the  _lpEntryID1_ parameter.</span></span> 
+> <span data-ttu-id="24155-125">[in] Количество байтов первой записи идентификатор, указанный в параметре _lpEntryID1_ .</span><span class="sxs-lookup"><span data-stu-id="24155-125">[in] The byte count of the first entry identifier specified by the  _lpEntryID1_ parameter.</span></span> 
     
- <span data-ttu-id="179e1-126">_lpEntryID1_</span><span class="sxs-lookup"><span data-stu-id="179e1-126">_lpEntryID1_</span></span>
+ <span data-ttu-id="24155-126">_lpEntryID1_</span><span class="sxs-lookup"><span data-stu-id="24155-126">_lpEntryID1_</span></span>
   
-> <span data-ttu-id="179e1-127">[in] Указатель на первый идентификатор записи, который представляет записи адресной книги для сравнения.</span><span class="sxs-lookup"><span data-stu-id="179e1-127">[in] A pointer to the first entry identifier that represents the address book entry to compare.</span></span>
+> <span data-ttu-id="24155-127">[in] Указатель на первый идентификатор записи, который представляет записи адресной книги для сравнения.</span><span class="sxs-lookup"><span data-stu-id="24155-127">[in] A pointer to the first entry identifier that represents the address book entry to compare.</span></span>
     
- <span data-ttu-id="179e1-128">_cbEntryID2_</span><span class="sxs-lookup"><span data-stu-id="179e1-128">_cbEntryID2_</span></span>
+ <span data-ttu-id="24155-128">_cbEntryID2_</span><span class="sxs-lookup"><span data-stu-id="24155-128">_cbEntryID2_</span></span>
   
-> <span data-ttu-id="179e1-129">[in] Количество байтов второй идентификатор записи, указанные с помощью параметра _lpEntryID2_ .</span><span class="sxs-lookup"><span data-stu-id="179e1-129">[in] The byte count of the second entry identifier specified by the  _lpEntryID2_ parameter.</span></span> 
+> <span data-ttu-id="24155-129">[in] Количество байтов второй идентификатор записи, указанные с помощью параметра _lpEntryID2_ .</span><span class="sxs-lookup"><span data-stu-id="24155-129">[in] The byte count of the second entry identifier specified by the  _lpEntryID2_ parameter.</span></span> 
     
- <span data-ttu-id="179e1-130">_lpEntryID2_</span><span class="sxs-lookup"><span data-stu-id="179e1-130">_lpEntryID2_</span></span>
+ <span data-ttu-id="24155-130">_lpEntryID2_</span><span class="sxs-lookup"><span data-stu-id="24155-130">_lpEntryID2_</span></span>
   
-> <span data-ttu-id="179e1-131">[in] Указатель на втором запись идентификатор, который используется для сравнения, представляющий запись адресной книги для сравнения.</span><span class="sxs-lookup"><span data-stu-id="179e1-131">[in] A pointer to the second entry identifier used in the comparison that represents the address book entry to compare.</span></span>
+> <span data-ttu-id="24155-131">[in] Указатель на втором запись идентификатор, который используется для сравнения, представляющий запись адресной книги для сравнения.</span><span class="sxs-lookup"><span data-stu-id="24155-131">[in] A pointer to the second entry identifier used in the comparison that represents the address book entry to compare.</span></span>
     
- <span data-ttu-id="179e1-132">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="179e1-132">_ulFlags_</span></span>
+ <span data-ttu-id="24155-132">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="24155-132">_ulFlags_</span></span>
   
-> <span data-ttu-id="179e1-133">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="179e1-133">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="24155-133">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="24155-133">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="179e1-134">_lpulResult_</span><span class="sxs-lookup"><span data-stu-id="179e1-134">_lpulResult_</span></span>
+ <span data-ttu-id="24155-134">_lpulResult_</span><span class="sxs-lookup"><span data-stu-id="24155-134">_lpulResult_</span></span>
   
-> <span data-ttu-id="179e1-135">[out] Указатель на папку, где содержатся результаты сравнения.</span><span class="sxs-lookup"><span data-stu-id="179e1-135">[out] A pointer to the location that contains the results of the comparison.</span></span> 
+> <span data-ttu-id="24155-135">[out] Указатель на папку, где содержатся результаты сравнения.</span><span class="sxs-lookup"><span data-stu-id="24155-135">[out] A pointer to the location that contains the results of the comparison.</span></span> 
     
 

@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22567855"
 ---
-# <a name="ifoldersupportgetsupportmask"></a><span data-ttu-id="a5c64-103">IFolderSupport::GetSupportMask</span><span class="sxs-lookup"><span data-stu-id="a5c64-103">IFolderSupport::GetSupportMask</span></span>
+# <a name="ifoldersupportgetsupportmask"></a><span data-ttu-id="bc480-103">IFolderSupport::GetSupportMask</span><span class="sxs-lookup"><span data-stu-id="bc480-103">IFolderSupport::GetSupportMask</span></span>
 
   
   
-<span data-ttu-id="a5c64-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a5c64-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bc480-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bc480-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a5c64-105">Получает сведения о поддержке папки для совместного доступа.</span><span class="sxs-lookup"><span data-stu-id="a5c64-105">Gets information about a folder's support for sharing.</span></span>
+<span data-ttu-id="bc480-105">Получает сведения о поддержке папки для совместного доступа.</span><span class="sxs-lookup"><span data-stu-id="bc480-105">Gets information about a folder's support for sharing.</span></span>
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -33,24 +33,24 @@ HRESULT GetSupportMask(
 ); 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a5c64-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="a5c64-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bc480-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="bc480-106">Parameters</span></span>
 
- <span data-ttu-id="a5c64-107">_pdwSupportMask_</span><span class="sxs-lookup"><span data-stu-id="a5c64-107">_pdwSupportMask_</span></span>
+ <span data-ttu-id="bc480-107">_pdwSupportMask_</span><span class="sxs-lookup"><span data-stu-id="bc480-107">_pdwSupportMask_</span></span>
   
-> <span data-ttu-id="a5c64-108">[out] Битовая маска, указывающее, поддерживает ли общий доступ к папке.</span><span class="sxs-lookup"><span data-stu-id="a5c64-108">[out] A bitmask indicating if the folder supports sharing.</span></span>
+> <span data-ttu-id="bc480-108">[out] Битовая маска, указывающее, поддерживает ли общий доступ к папке.</span><span class="sxs-lookup"><span data-stu-id="bc480-108">[out] A bitmask indicating if the folder supports sharing.</span></span>
     
- <span data-ttu-id="a5c64-109">**FS_NONE**</span><span class="sxs-lookup"><span data-stu-id="a5c64-109">**FS_NONE**</span></span>
+ <span data-ttu-id="bc480-109">**FS_NONE**</span><span class="sxs-lookup"><span data-stu-id="bc480-109">**FS_NONE**</span></span>
   
-> <span data-ttu-id="a5c64-110">Указывает, что папка не поддерживает общий доступ.</span><span class="sxs-lookup"><span data-stu-id="a5c64-110">Indicates that the folder does not support sharing.</span></span>
+> <span data-ttu-id="bc480-110">Указывает, что папка не поддерживает общий доступ.</span><span class="sxs-lookup"><span data-stu-id="bc480-110">Indicates that the folder does not support sharing.</span></span>
     
- <span data-ttu-id="a5c64-111">**FS_SUPPORTS_SHARING**</span><span class="sxs-lookup"><span data-stu-id="a5c64-111">**FS_SUPPORTS_SHARING**</span></span>
+ <span data-ttu-id="bc480-111">**FS_SUPPORTS_SHARING**</span><span class="sxs-lookup"><span data-stu-id="bc480-111">**FS_SUPPORTS_SHARING**</span></span>
   
-> <span data-ttu-id="a5c64-112">Указывает, что папка поддерживает общий доступ.</span><span class="sxs-lookup"><span data-stu-id="a5c64-112">Indicates that the folder supports sharing.</span></span>
+> <span data-ttu-id="bc480-112">Указывает, что папка поддерживает общий доступ.</span><span class="sxs-lookup"><span data-stu-id="bc480-112">Indicates that the folder supports sharing.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="a5c64-113">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="a5c64-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bc480-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="bc480-113">Return value</span></span>
 
-<span data-ttu-id="a5c64-114">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="a5c64-114">S_OK</span></span> 
+<span data-ttu-id="bc480-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="bc480-114">S_OK</span></span> 
   
-> <span data-ttu-id="a5c64-115">Вызов выполнен успешно.</span><span class="sxs-lookup"><span data-stu-id="a5c64-115">The call was successful.</span></span>
+> <span data-ttu-id="bc480-115">Вызов выполнен успешно.</span><span class="sxs-lookup"><span data-stu-id="bc480-115">The call was successful.</span></span>
     
 

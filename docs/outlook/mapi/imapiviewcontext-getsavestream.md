@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22568576"
 ---
-# <a name="imapiviewcontextgetsavestream"></a><span data-ttu-id="7fc37-103">IMAPIViewContext::GetSaveStream</span><span class="sxs-lookup"><span data-stu-id="7fc37-103">IMAPIViewContext::GetSaveStream</span></span>
+# <a name="imapiviewcontextgetsavestream"></a><span data-ttu-id="a1820-103">IMAPIViewContext::GetSaveStream</span><span class="sxs-lookup"><span data-stu-id="a1820-103">IMAPIViewContext::GetSaveStream</span></span>
 
   
   
-<span data-ttu-id="7fc37-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7fc37-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a1820-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a1820-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7fc37-105">Получает поток, в который будет использоваться для сохранения текущего сообщения.</span><span class="sxs-lookup"><span data-stu-id="7fc37-105">Retrieves a stream to be used for saving the current message.</span></span>
+<span data-ttu-id="a1820-105">Получает поток, в который будет использоваться для сохранения текущего сообщения.</span><span class="sxs-lookup"><span data-stu-id="a1820-105">Retrieves a stream to be used for saving the current message.</span></span>
   
 ```cpp
 HRESULT GetSaveStream(
@@ -35,49 +35,49 @@ LPSTREAM FAR * ppstm
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7fc37-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="7fc37-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a1820-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="a1820-106">Parameters</span></span>
 
- <span data-ttu-id="7fc37-107">_pulFlags_</span><span class="sxs-lookup"><span data-stu-id="7fc37-107">_pulFlags_</span></span>
+ <span data-ttu-id="a1820-107">_pulFlags_</span><span class="sxs-lookup"><span data-stu-id="a1820-107">_pulFlags_</span></span>
   
-> <span data-ttu-id="7fc37-108">[out] Указатель на битовую маску флагов, который определяет, как должны сохраняться текста сообщения.</span><span class="sxs-lookup"><span data-stu-id="7fc37-108">[out] Pointer to a bitmask of flags that controls how the message text should be saved.</span></span> <span data-ttu-id="7fc37-109">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="7fc37-109">The following flag can be set:</span></span>
+> <span data-ttu-id="a1820-108">[out] Указатель на битовую маску флагов, который определяет, как должны сохраняться текста сообщения.</span><span class="sxs-lookup"><span data-stu-id="a1820-108">[out] Pointer to a bitmask of flags that controls how the message text should be saved.</span></span> <span data-ttu-id="a1820-109">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="a1820-109">The following flag can be set:</span></span>
     
-<span data-ttu-id="7fc37-110">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="7fc37-110">MAPI_UNICODE</span></span> 
+<span data-ttu-id="a1820-110">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="a1820-110">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="7fc37-111">Текст сообщения сохраняются в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="7fc37-111">The message text is saved in Unicode format.</span></span> <span data-ttu-id="7fc37-112">Если флаг MAPI_UNICODE не установлен, текст сохраняется в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="7fc37-112">If the MAPI_UNICODE flag is not set, the text is saved in ANSI format.</span></span>
+> <span data-ttu-id="a1820-111">Текст сообщения сохраняются в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="a1820-111">The message text is saved in Unicode format.</span></span> <span data-ttu-id="a1820-112">Если флаг MAPI_UNICODE не установлен, текст сохраняется в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="a1820-112">If the MAPI_UNICODE flag is not set, the text is saved in ANSI format.</span></span>
     
- <span data-ttu-id="7fc37-113">_pulFormat_</span><span class="sxs-lookup"><span data-stu-id="7fc37-113">_pulFormat_</span></span>
+ <span data-ttu-id="a1820-113">_pulFormat_</span><span class="sxs-lookup"><span data-stu-id="a1820-113">_pulFormat_</span></span>
   
-> <span data-ttu-id="7fc37-114">[out] Указатель на битовую маску флагов, который управляет формата текста, сохраненного.</span><span class="sxs-lookup"><span data-stu-id="7fc37-114">[out] Pointer to a bitmask of flags that controls the format of the saved text.</span></span> <span data-ttu-id="7fc37-115">Можно задать следующие флажки:</span><span class="sxs-lookup"><span data-stu-id="7fc37-115">The following flags can be set:</span></span>
+> <span data-ttu-id="a1820-114">[out] Указатель на битовую маску флагов, который управляет формата текста, сохраненного.</span><span class="sxs-lookup"><span data-stu-id="a1820-114">[out] Pointer to a bitmask of flags that controls the format of the saved text.</span></span> <span data-ttu-id="a1820-115">Можно задать следующие флажки:</span><span class="sxs-lookup"><span data-stu-id="a1820-115">The following flags can be set:</span></span>
     
-<span data-ttu-id="7fc37-116">SAVE_FORMAT_RICHTEXT</span><span class="sxs-lookup"><span data-stu-id="7fc37-116">SAVE_FORMAT_RICHTEXT</span></span> 
+<span data-ttu-id="a1820-116">SAVE_FORMAT_RICHTEXT</span><span class="sxs-lookup"><span data-stu-id="a1820-116">SAVE_FORMAT_RICHTEXT</span></span> 
   
-> <span data-ttu-id="7fc37-117">Текст сообщения является сохраняются как форматированный текст в форматированный текст (RTF).</span><span class="sxs-lookup"><span data-stu-id="7fc37-117">The message text is to be saved as formatted text in the Rich Text Format (RTF).</span></span> 
+> <span data-ttu-id="a1820-117">Текст сообщения является сохраняются как форматированный текст в форматированный текст (RTF).</span><span class="sxs-lookup"><span data-stu-id="a1820-117">The message text is to be saved as formatted text in the Rich Text Format (RTF).</span></span> 
     
-<span data-ttu-id="7fc37-118">SAVE_FORMAT_TEXT</span><span class="sxs-lookup"><span data-stu-id="7fc37-118">SAVE_FORMAT_TEXT</span></span> 
+<span data-ttu-id="a1820-118">SAVE_FORMAT_TEXT</span><span class="sxs-lookup"><span data-stu-id="a1820-118">SAVE_FORMAT_TEXT</span></span> 
   
-> <span data-ttu-id="7fc37-119">Текст сообщения является сохранен в виде обычного текста.</span><span class="sxs-lookup"><span data-stu-id="7fc37-119">The message text is to be saved as plain text.</span></span> 
+> <span data-ttu-id="a1820-119">Текст сообщения является сохранен в виде обычного текста.</span><span class="sxs-lookup"><span data-stu-id="a1820-119">The message text is to be saved as plain text.</span></span> 
     
- <span data-ttu-id="7fc37-120">_ppstm_</span><span class="sxs-lookup"><span data-stu-id="7fc37-120">_ppstm_</span></span>
+ <span data-ttu-id="a1820-120">_ppstm_</span><span class="sxs-lookup"><span data-stu-id="a1820-120">_ppstm_</span></span>
   
-> <span data-ttu-id="7fc37-121">[out] Указатель на указатель в поток, который будет содержать сохраненное сообщение.</span><span class="sxs-lookup"><span data-stu-id="7fc37-121">[out] Pointer to a pointer to the stream that will contain the saved message.</span></span>
+> <span data-ttu-id="a1820-121">[out] Указатель на указатель в поток, который будет содержать сохраненное сообщение.</span><span class="sxs-lookup"><span data-stu-id="a1820-121">[out] Pointer to a pointer to the stream that will contain the saved message.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7fc37-122">������������ ��������</span><span class="sxs-lookup"><span data-stu-id="7fc37-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a1820-122">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="a1820-122">Return value</span></span>
 
-<span data-ttu-id="7fc37-123">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="7fc37-123">S_OK</span></span> 
+<span data-ttu-id="a1820-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="a1820-123">S_OK</span></span> 
   
-> <span data-ttu-id="7fc37-124">Поток был успешно извлечен.</span><span class="sxs-lookup"><span data-stu-id="7fc37-124">The stream was successfully retrieved.</span></span>
+> <span data-ttu-id="a1820-124">Поток был успешно извлечен.</span><span class="sxs-lookup"><span data-stu-id="a1820-124">The stream was successfully retrieved.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="7fc37-125">Замечания</span><span class="sxs-lookup"><span data-stu-id="7fc37-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a1820-125">Примечания</span><span class="sxs-lookup"><span data-stu-id="a1820-125">Remarks</span></span>
 
-<span data-ttu-id="7fc37-126">Объекты формы вызовите метод **IMAPIViewContext::GetSaveStream** для извлечения потока объект, реализующий интерфейс **IStream** для обработки команды Сохранить как в средстве просмотра формы.</span><span class="sxs-lookup"><span data-stu-id="7fc37-126">Form objects call the **IMAPIViewContext::GetSaveStream** method to retrieve a stream an object that implements the **IStream** interface to support the handling of the Save As verb in the form viewer.</span></span> <span data-ttu-id="7fc37-127">Метод [IMAPIForm::DoVerb](imapiform-doverb.md) , который реализован на сервере формы и вызывается средством просмотра формы для вызова команды, не должен возвращать, пока сообщение полностью преобразуется в соответствующий текстовый формат и помещаются в соответствующие потока.</span><span class="sxs-lookup"><span data-stu-id="7fc37-127">The [IMAPIForm::DoVerb](imapiform-doverb.md) method, which is implemented in the form server and called by the form viewer to invoke a verb, should not return until the message is fully converted into the appropriate text format and placed into the appropriate stream.</span></span> 
+<span data-ttu-id="a1820-126">Объекты формы вызовите метод **IMAPIViewContext::GetSaveStream** для извлечения потока объект, реализующий интерфейс **IStream** для обработки команды Сохранить как в средстве просмотра формы.</span><span class="sxs-lookup"><span data-stu-id="a1820-126">Form objects call the **IMAPIViewContext::GetSaveStream** method to retrieve a stream an object that implements the **IStream** interface to support the handling of the Save As verb in the form viewer.</span></span> <span data-ttu-id="a1820-127">Метод [IMAPIForm::DoVerb](imapiform-doverb.md) , который реализован на сервере формы и вызывается средством просмотра формы для вызова команды, не должен возвращать, пока сообщение полностью преобразуется в соответствующий текстовый формат и помещаются в соответствующие потока.</span><span class="sxs-lookup"><span data-stu-id="a1820-127">The [IMAPIForm::DoVerb](imapiform-doverb.md) method, which is implemented in the form server and called by the form viewer to invoke a verb, should not return until the message is fully converted into the appropriate text format and placed into the appropriate stream.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="7fc37-128">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="7fc37-128">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="a1820-128">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="a1820-128">Notes to callers</span></span>
 
-<span data-ttu-id="7fc37-129">Не записывать в поток, который указывает _ppstm_ до вызова метода **GetSaveStream**.</span><span class="sxs-lookup"><span data-stu-id="7fc37-129">Do not write to the stream pointed to by  _ppstm_ before calling **GetSaveStream**.</span></span> <span data-ttu-id="7fc37-130">При возврате **GetSaveStream** , не сбрасывает позицию указателя поиска.</span><span class="sxs-lookup"><span data-stu-id="7fc37-130">When **GetSaveStream** returns, do not reset the position of the seek pointer.</span></span> <span data-ttu-id="7fc37-131">В этом указатель должен оставаться в конце текста сохраненные сообщения.</span><span class="sxs-lookup"><span data-stu-id="7fc37-131">This pointer must remain at the end of the saved message text.</span></span> 
+<span data-ttu-id="a1820-129">Не записывать в поток, который указывает _ppstm_ до вызова метода **GetSaveStream**.</span><span class="sxs-lookup"><span data-stu-id="a1820-129">Do not write to the stream pointed to by  _ppstm_ before calling **GetSaveStream**.</span></span> <span data-ttu-id="a1820-130">При возврате **GetSaveStream** , не сбрасывает позицию указателя поиска.</span><span class="sxs-lookup"><span data-stu-id="a1820-130">When **GetSaveStream** returns, do not reset the position of the seek pointer.</span></span> <span data-ttu-id="a1820-131">В этом указатель должен оставаться в конце текста сохраненные сообщения.</span><span class="sxs-lookup"><span data-stu-id="a1820-131">This pointer must remain at the end of the saved message text.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="7fc37-132">См. также</span><span class="sxs-lookup"><span data-stu-id="7fc37-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a1820-132">См. также</span><span class="sxs-lookup"><span data-stu-id="a1820-132">See also</span></span>
 
 
 
-[<span data-ttu-id="7fc37-133">IMAPIViewContext : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7fc37-133">IMAPIViewContext : IUnknown</span></span>](imapiviewcontextiunknown.md)
+[<span data-ttu-id="a1820-133">IMAPIViewContext : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a1820-133">IMAPIViewContext : IUnknown</span></span>](imapiviewcontextiunknown.md)
 
