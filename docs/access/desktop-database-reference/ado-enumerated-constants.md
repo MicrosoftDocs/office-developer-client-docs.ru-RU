@@ -1,24 +1,25 @@
 ---
-title: ADO перечисленных констант
-TOCTitle: ADO Enumerated Constants
+title: Перечислимые константы ADO
+TOCTitle: ADO enumerated constants
 ms:assetid: 7c983acd-8b38-dc3c-6704-46e649ebb7d6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249522(v=office.15)
 ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e9944138dcdca49f33ca293a9bdf41d88d86e9e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0e6a6dee6d2882b1d7d1c277584ca8ba46d6db28
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882310"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910952"
 ---
-# <a name="ado-enumerated-constants"></a>ADO перечисленных констант
-
+# <a name="ado-enumerated-constants"></a>Перечислимые константы ADO
 
 **Применимо к**: Access 2013, Office 2013
 
 Чтобы помочь в отладке, перечислений ADO списка значение для каждого константу. Тем не менее это значение исключительно рекомендации и может измениться в разных выпусках ADO в другую. Код должен только зависят от имени, а не фактические значения каждого перечисляемые константы.
+
+<br/>
 
 <table>
 <colgroup>
@@ -26,6 +27,10 @@ ms.locfileid: "25882310"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Константа перечисления</th>
+<th>Описание</th>
+</tr>
 <tr class="odd">
 <td><p><a href="adcprop-asyncthreadpriority-enum.md">ADCPROP_ASYNCTHREADPRIORITY_ENUM</a></p></td>
 <td><p>Объект служб удаленных рабочих СТОЛОВ <strong>записей</strong> указывает приоритет выполнения асинхронного потока, который получает данные.</p></td>

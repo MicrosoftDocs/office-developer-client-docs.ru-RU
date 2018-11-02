@@ -1,22 +1,23 @@
 ---
-title: Объекты данных ActiveX (ADO) MD семейств
-TOCTitle: ADO MD Collections
+title: ActiveX Data Objects (ADO) MD семейств сайтов
+TOCTitle: ADO MD collections
 ms:assetid: dc7df649-80bb-b517-f084-2bfa780fb2f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250115(v=office.15)
 ms:contentKeyID: 48548139
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2159243f7c2ec97e20994a39e5a89054a95f8dbf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c596cdd57a825efc7f856e37af4f9bd721d233e9
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876360"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910959"
 ---
-# <a name="ado-md-collections"></a>ADO MD семейств сайтов
-
+# <a name="ado-md-collections"></a>Коллекции ADO MD
 
 **Применимо к**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25876360"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Коллекция</th>
+<th>Описание</th>
+</tr>
 <tr class="odd">
 <td><p><a href="axes-collection-ado-md.md">Оси</a></p></td>
 <td><p>Содержит объекты <strong>ось</strong> , определяющие набора ячеек.</p></td>
@@ -55,3 +60,4 @@ ms.locfileid: "25876360"
 </tbody>
 </table>
 
+<br/>

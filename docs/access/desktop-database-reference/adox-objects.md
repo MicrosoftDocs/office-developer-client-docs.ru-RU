@@ -1,24 +1,25 @@
 ---
 title: Объекты ADOX (Справочник по для настольных баз данных Access)
-TOCTitle: ADOX Objects
+TOCTitle: ADOX objects
 ms:assetid: d7db1aed-251b-888b-bc44-f61caeeac403
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60dc15ecb7b13619b71078d8e2f0cb7f14e8cd7d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6053792912d701fd844b44835721fc0497d23ee4
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879370"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910896"
 ---
 # <a name="adox-objects"></a>Объекты ADOX
 
-
 **Применимо к**: Access 2013, Office 2013
 
-**Сводка объекта ADOX**
+Каждый объект может содержаться в соответствующие коллекции. Например объект **таблицы** может содержаться в коллекцию [таблиц](tables-collection-adox.md) . Для получения дополнительных сведений см [ADOX семейств сайтов](adox-collections.md) или раздела конкретной коллекции.
+
+<br/>
 
 <table>
 <colgroup>
@@ -71,6 +72,7 @@ ms.locfileid: "25879370"
 </tbody>
 </table>
 
+<br/>
 
-Каждый объект может содержаться в соответствующие коллекции. Например объект **таблицы** может содержаться в коллекцию [таблиц](tables-collection-adox.md) . Для получения дополнительных сведений см [ADOX семейств сайтов](adox-collections.md) или раздела конкретной коллекции.
+
 

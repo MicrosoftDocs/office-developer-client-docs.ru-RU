@@ -1,22 +1,23 @@
 ---
 title: Объекты ADO MD (Справочник по для настольных баз данных Access)
-TOCTitle: ADO MD Objects
+TOCTitle: ADO MD objects
 ms:assetid: 13501e44-70b6-1036-a8b7-c276f187e4f4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e09676b222e7199b7f2f9f7520ebf3d5436f9a3c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fca73b9e8a77e102ad694dde8fd9759b20c1fcaf
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875135"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910840"
 ---
 # <a name="ado-md-objects"></a>Объекты ADO MD
 
-
 **Применимо к**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25875135"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Объект</th>
+<th>Описание</th>
+</tr>
 <tr class="odd">
 <td><p><a href="axis-object-ado-md.md">Ось</a></p></td>
 <td><p>Представляет позиционные или оси фильтра набора ячеек, содержащий выбранные элементы из одного или нескольких измерений.</p></td>
@@ -67,8 +72,11 @@ ms.locfileid: "25875135"
 </tbody>
 </table>
 
+<br/>
 
 Кроме того объект **каталога** подключен объект ADO- **подключения** , который входит в состав стандартной библиотеки ADO:
+
+<br/>
 
 <table>
 <colgroup>
@@ -89,6 +97,7 @@ ms.locfileid: "25875135"
 </tbody>
 </table>
 
+<br/>
 
 Многие объекты ADO MD может содержаться в соответствующие коллекции. Например объект [CubeDef](cubedef-object-ado-md.md) может содержаться в коллекцию [CubeDefs](cubedefs-collection-ado-md.md) **каталога**. Для получения дополнительных сведений см [ADO MD семейств сайтов](ado-md-collections.md).
 

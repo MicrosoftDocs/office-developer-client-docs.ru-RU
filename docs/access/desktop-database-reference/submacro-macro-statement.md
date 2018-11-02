@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837173(v=office.15)
 ms:contentKeyID: 48548867
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: de0d7066927e3a3cf034197c15f4330302801c0a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 379680fc527b3c5165ae5df99dd354b37dfb9322
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885929"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910798"
 ---
 # <a name="submacro-macro-statement"></a>Оператор макрос вложенный макрос
 
