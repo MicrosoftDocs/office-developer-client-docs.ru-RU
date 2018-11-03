@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 406380b0c935e94b8478e0b135bf5f92180faaca
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: de0d78a0387c783e18aaa34ce81cf7edab846055
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928332"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946890"
 ---
 # <a name="datacontrol-properties-methods-and-events-rds"></a>DataControl свойства, методы и события (RDS)
 
@@ -20,54 +20,35 @@ ms.locfileid: "25928332"
 ## <a name="properties"></a>Свойства
 
 - [Свойство Connect (RDS)](connect-property-rds.md)
-
 - [Свойство ExecuteOptions (RDS)](executeoptions-property-rds.md)
-
 - [Свойство FetchOptions (RDS)](fetchoptions-property-rds.md)
-
 - [Свойство FilterColumn (RDS)](filtercolumn-property-rds.md)
-
 - [Свойство FilterCriterion (RDS)](filtercriterion-property-rds.md)
-
 - [Свойство FilterValue (RDS)](filtervalue-property-rds.md)
-
 - [Свойство Handler (RDS)](handler-property-rds.md)
-
 - [Свойство InternetTimeout (RDS)](internettimeout-property-rds.md)
-
 - [Свойство ReadyState (RDS)](readystate-property-rds.md)
-
 - [Набор записей, свойства SourceRecordset (RDS)](recordset-sourcerecordset-properties-rds.md)
-
 - [Свойство Server (RDS)](server-property-rds.md)
-
 - [Свойство SortColumn (RDS)](sortcolumn-property-rds.md)
-
 - [Свойство SortDirection (RDS)](sortdirection-property-rds.md)
-
 - [Свойство SQL (RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
-
 - [Свойство URL (RDS)](url-property-rds.md)
+
 
 ## <a name="methods"></a>Методы
 
 - [Метод Cancel (RDS)](cancel-method-rds.md)
-
 - [Метод CancelUpdate (RDS)](cancelupdate-method-rds.md)
-
 - [Метод CreateRecordset (RDS)](createrecordset-method-rds.md)
-
-- [MoveFirst, MoveLast, MoveNext и методы MovePrevious (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
-
+- [Методы MoveFirst, MoveLast, MoveNext и MovePrevious (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
 - [Метод Refresh (RDS)](refresh-method-rds.md)
-
 - [Метод Reset (RDS)](reset-method-rds.md)
-
 - [Метод SubmitChanges (RDS)](submitchanges-method-rds.md)
+
 
 ## <a name="events"></a>Мероприятия
 
-- [Событие OnError](onerror-event-rds.md)
-
+- [События OnError](onerror-event-rds.md)
 - [Событие OnReadyStateChange](onreadystatechange-event-rds.md)
 

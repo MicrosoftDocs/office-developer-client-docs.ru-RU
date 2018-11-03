@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249706(v=office.15)
 ms:contentKeyID: 48546566
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: faaa35164de92d39a061be87fe216e55dbb7c42b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: bd26466faeb4a3e3ba9489abb15e53ac53ae5bf8
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919719"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943880"
 ---
 # <a name="fields-collection-properties-methods-and-events"></a>Свойства, методы и события коллекции Fields
 
@@ -20,21 +20,15 @@ ms.locfileid: "25919719"
 ## <a name="properties"></a>Свойства
 
 - [Свойство Count](count-property-ado.md)
-
 - [Свойство Item](item-property-ado.md)
 
 ## <a name="methods"></a>Методы
 
-- [Добавьте метод](append-method-ado.md)
-
+- [Метод Append](append-method-ado.md)
 - [Метод CancelUpdate](cancelupdate-method-ado.md)
-
-- [Метод Delete (ADO поля семейства сайтов)](delete-method-ado-fields-collection.md)
-
+- [Удаление метода (коллекции полей ADO)](delete-method-ado-fields-collection.md)
 - [Метод Refresh](refresh-method-ado.md)
-
 - [Выполнить повторную синхронизацию метод](resync-method-ado.md)
-
 - [Метод Update](update-method-ado.md)
 
 ## <a name="events"></a>Мероприятия

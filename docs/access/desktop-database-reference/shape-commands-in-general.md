@@ -1,20 +1,19 @@
 ---
-title: Общие сведения о командах формирования
-TOCTitle: Shape Commands in General
+title: В общем команды фигуры
+TOCTitle: Shape commands in general
 ms:assetid: ad555aa7-bc64-b495-a98d-e927061a5809
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 340cdd4f9901b3b58b702284cf50b7485e99f769
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1a670c5c6d266da390528810935016d8c1e4aaae
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887896"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943950"
 ---
-# <a name="shape-commands-in-general"></a>Общие сведения о командах формирования
-
+# <a name="shape-commands-in-general"></a>В общем команды фигуры
 
 **Применимо к**: Access 2013, Office 2013
 

@@ -1,20 +1,19 @@
 ---
 title: Программирование ADO/WFC
-TOCTitle: ADO/WFC Programming
+TOCTitle: ADO/WFC programming
 ms:assetid: fc438cc2-00b9-9590-6e0d-a865001ccf2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250293(v=office.15)
 ms:contentKeyID: 48548887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea531f484ad75de268f0d4fb38a10e617c1851e6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 58ec04f92bf4d1eaaa8ea36c5937cae0bab3729f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884634"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943824"
 ---
 # <a name="adowfc-programming"></a>Программирование ADO/WFC
-
 
 **Применимо к**: Access 2013, Office 2013
 

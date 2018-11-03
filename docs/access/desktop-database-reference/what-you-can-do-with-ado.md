@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be66e8cf4179965f761db5873f4a2ac5de20c49d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 02fd4c5dc5c44e15d8318653bbef9755899d61f6
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874498"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947793"
 ---
 # <a name="what-you-can-do-with-ado"></a>Что можно сделать с помощью ADO
 

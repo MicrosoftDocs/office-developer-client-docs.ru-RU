@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
 ms:contentKeyID: 48546357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6de4ea8a8dd64ff4c0562111f6e42ed089754f3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cdbf9bc7ab29b98c7d1b96700adccaa17275d698
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919460"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946554"
 ---
 # <a name="read-method-ado"></a>Метод Read (ADO)
 

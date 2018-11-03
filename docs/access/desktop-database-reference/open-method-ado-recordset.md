@@ -1,19 +1,19 @@
 ---
-title: Метод Open (записей ADO)
-TOCTitle: Open Method (ADO Recordset)
+title: Метод Open (объект Recordset ADO)
+TOCTitle: Open method (ADO Recordset)
 ms:assetid: 87ef19a4-28e1-dec7-ed33-4ae500b9c460
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bf40fa501c24af3433dde1bf2b0686fd3854acf2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a753ea57fba54f2e3b1a08c93f1309259f712446
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884291"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947709"
 ---
-# <a name="open-method-ado-recordset"></a>Метод Open (записей ADO)
+# <a name="open-method-ado-recordset"></a>Метод Open (объект Recordset ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -29,23 +29,23 @@ ms.locfileid: "25884291"
 
   - *Source*
 
-  - Необязательный параметр. **Variant** , которое оценивается как допустимый объект [команды](command-object-ado.md) , инструкции SQL, имя таблицы, вызов хранимой процедуры, URL-адрес или имя файла или [потока](stream-object-ado.md) object, содержащий постоянно хранимых [набора записей](recordset-object-ado.md).
+  - Необязательно указывать. **Variant** , которое оценивается как допустимый объект [команды](command-object-ado.md) , инструкции SQL, имя таблицы, вызов хранимой процедуры, URL-адрес или имя файла или [потока](stream-object-ado.md) object, содержащий постоянно хранимых [набора записей](recordset-object-ado.md).
 
   - *ActiveConnection*
 
-  - Необязательный параметр. **Variant** , которое оценивается как допустимое имя переменной объекта [подключения](connection-object-ado.md) , либо **строку** , содержащую параметры [ConnectionString](connectionstring-property-ado.md) .
+  - Необязательно указывать. **Variant** , которое оценивается как допустимое имя переменной объекта [подключения](connection-object-ado.md) , либо **строку** , содержащую параметры [ConnectionString](connectionstring-property-ado.md) .
 
   - *CursorType*
 
-  - Необязательный параметр. [CursorTypeEnum](cursortypeenum.md) значение, определяющее тип курсора, поставщик должен использовать при открытии **набора записей**. Значение по умолчанию — **adOpenForwardOnly**.
+  - Необязательно указывать. [CursorTypeEnum](cursortypeenum.md) значение, определяющее тип курсора, поставщик должен использовать при открытии **набора записей**. Значение по умолчанию — **adOpenForwardOnly**.
 
   - *LockType для*
 
-  - Необязательный параметр. [LockTypeEnum](locktypeenum.md) значение, определяющее тип блокировки (одновременно) поставщика следует использовать при открытии **набора записей**. Значение по умолчанию — **adLockReadOnly**.
+  - Необязательно указывать. [LockTypeEnum](locktypeenum.md) значение, определяющее тип блокировки (одновременно) поставщика следует использовать при открытии **набора записей**. Значение по умолчанию — **adLockReadOnly**.
 
   - *Варианты*
 
-  - Необязательный параметр. **Длинное** значение, которое указывает, как поставщик необходимо решить *исходный* аргумент, если он представляет элемент отличный от объекта **команды** или **набора записей** должен быть восстановлен из файла, в котором он был сохранен ранее. Может быть один или несколько [CommandTypeEnum](commandtypeenum.md) или [ExecuteOptionEnum](executeoptionenum.md) значения, которые может использоваться совместно с оператор AND.
+  - Необязательно указывать. **Длинное** значение, которое указывает, как поставщик необходимо решить *исходный* аргумент, если он представляет элемент отличный от объекта **команды** или **набора записей** должен быть восстановлен из файла, в котором он был сохранен ранее. Может быть один или несколько [CommandTypeEnum](commandtypeenum.md) или [ExecuteOptionEnum](executeoptionenum.md) значения, которые может использоваться совместно с оператор AND.
 
 
 > [!NOTE]
@@ -55,7 +55,7 @@ ms.locfileid: "25884291"
 
 Значения **ExecuteOpenEnum** **adExecuteNoRecords** или **adExecuteStream** не должны использоваться с **Open**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 По умолчанию курсор для набора **записей** ADO является только вперед, только для чтения на сервере.
 

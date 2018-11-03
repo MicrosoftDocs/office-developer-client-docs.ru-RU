@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31a0d2212f063eca013c1668b47e548df1405366
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8bb6024043655c2529ce8309e5a6bead08cb4225
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922575"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947058"
 ---
 # <a name="catalog-object-adox"></a>Объект Catalog (ADOX)
 
@@ -26,9 +26,9 @@ ms.locfileid: "25922575"
 
 С помощью свойства и методы объекта **каталога** можно выполнить следующие действия.
 
-  - Откройте каталог путем установки свойства [ActiveConnection](activeconnection-property-adox.md) объект ADO- [подключение](connection-object-ado.md) или это допустимая строка подключения.
+- Откройте каталог путем установки свойства [ActiveConnection](activeconnection-property-adox.md) объект ADO- [подключение](connection-object-ado.md) или это допустимая строка подключения.
 
-  - Создайте новый каталог с помощью метода [Create](create-method-adox.md) .
+- Создайте новый каталог с помощью метода [Create](create-method-adox.md) .
 
-  - Определение владельцев объекты **каталога** с помощью методов [GetObjectOwner](getobjectowner-method-adox.md) и [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) .
+- Определение владельцев объекты **каталога** с помощью методов [GetObjectOwner](getobjectowner-method-adox.md) и [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) .
 

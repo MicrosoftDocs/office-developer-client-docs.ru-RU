@@ -1,31 +1,29 @@
 ---
-title: BeginTrans CommitTrans и методы RollbackTrans (ADO)
-TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)
+title: Методы BeginTrans, CommitTrans и RollbackTrans (ADO)
+TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods (ADO)
 ms:assetid: 9a0415f0-9424-8d1c-4779-92e932292d46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 68e827f6177c0ea90d4dd8d74c9782d552b3fdd2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ca7c63e0c310535ecdf84a11c656d00ff436627f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884669"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945924"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans CommitTrans и методы RollbackTrans (ADO)
-
+# <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>Методы BeginTrans, CommitTrans и RollbackTrans (ADO)
 
 **Применимо к**: Access 2013, Office 2013
 
-
 Эти методы транзакций управление транзакций обработка объект [подключения](connection-object-ado.md) следующим образом:
 
-  - **BeginTrans** — начало новой транзакции.
+- **BeginTrans** — начало новой транзакции.
 
-  - **CommitTrans** — сохраняет все изменения и заканчивающейся текущей операции. Он также может начать новую операцию.
+- **CommitTrans** — сохраняет все изменения и заканчивающейся текущей операции. Он также может начать новую операцию.
 
-  - **RollbackTrans** — показано, как отменить все изменения, внесенные во время текущей операции и заканчивающейся транзакции. Он также может начать новую операцию.
+- **RollbackTrans** — показано, как отменить все изменения, внесенные во время текущей операции и заканчивающейся транзакции. Он также может начать новую операцию.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -43,14 +41,13 @@ ms.locfileid: "25884669"
 
 ## <a name="parameters"></a>Параметры
 
-  - *object*
+- *object*
 
   - Объект **подключения** .
 
-**Подключение**
+### <a name="connection"></a>Подключение
 
 Использование этих методов с объектом **подключения** необходимо сохранить или отменить ряд изменений, внесенных в источник данных как единый элемент. К примеру деньги переключение между учетными записями, вы вычесть сумму из одного и добавьте совпадает со значением в другой. Если либо обновить возникает ошибка, больше не сбалансировать учетные записи. Эти изменения в открытую операцию гарантирует, что все или изменения проходят через.
-
 
 > [!NOTE]
 > Не все поставщики поддерживают транзакции. Убедитесь, что поставщик, определенный «**DDL транзакций**» отображается в коллекции [свойств](properties-collection-ado.md) объекта **подключения** , указывающего на то, что поставщик поддерживает транзакции. Если поставщик поддерживает транзакции, вызвав один из этих методов возвращает ошибку.
@@ -63,7 +60,7 @@ ms.locfileid: "25884669"
 
 В зависимости от того, свойство [Attributes](attributes-property-ado.md) объект **подключения** вызов методов параметр **CommitTrans** или **RollbackTrans** автоматически запускать новые транзакции. Если свойство **Attributes** **adXactCommitRetaining**, поставщик автоматически запускает новую транзакцию после **CommitTrans** вызова. Если свойство **Attributes** **adXactAbortRetaining**, поставщик автоматически запускает новую транзакцию после вызова **RollbackTrans** .
 
-**Службы удаленных данных**
+### <a name="remote-data-service"></a>Службы удаленных данных
 
 Методы **BeginTrans** **CommitTrans**и **RollbackTrans** недоступны на объект **подключения** со стороны клиента.
 

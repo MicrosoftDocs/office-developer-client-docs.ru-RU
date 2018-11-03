@@ -1,23 +1,21 @@
 ---
 title: Параметры событий (Справочник по для настольных баз данных Access)
-TOCTitle: Event Parameters
+TOCTitle: Event parameters
 ms:assetid: 626de9b1-4d45-d77e-ccf2-23f2ea31c043
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249371(v=office.15)
 ms:contentKeyID: 48545239
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 023109586d13dc25846c8c145746aaf97fc22c15
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3acad111c3e1329f50c64f3f6fd6c5f7430e558d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888372"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946743"
 ---
 # <a name="event-parameters"></a>Параметры событий
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Каждый обработчик событий имеет параметр состояния, который определяет обработчик событий. Для завершения событий этот параметр используется для указания успешное или неудачное выполнение операции, создавшее событие. Самый полный события также создать параметр ошибки для предоставления сведений о на ошибки, которые могут произойти, а также один или несколько параметров объекта, которые ссылаются на объекты ADO, используемые для выполнения операции. Например событие [ExecuteComplete](executecomplete-event-ado.md) включает в себя параметров объекта для **команды**, **записей**и объекты **подключения** , связанный с событием. В следующем примере Microsoft Visual Basic можно просмотреть командной, pRecordset и pConnection объектов, которые представляют **команды**, **записей**и объекты **подключения** , используемого метода **Execute** .
 

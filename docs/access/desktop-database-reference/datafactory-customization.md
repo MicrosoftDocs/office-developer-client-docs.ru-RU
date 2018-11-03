@@ -1,17 +1,17 @@
 ---
 title: Настройка DataFactory
-TOCTitle: DataFactory Customization
+TOCTitle: DataFactory customization
 ms:assetid: 43cd7416-1f05-87ee-22f0-6cf0d2d1b39f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249205(v=office.15)
 ms:contentKeyID: 48544511
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a7ddd728908212716256eaa65adc925548e739e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9de748b85e4bf6076c37f49e9d9bc7ff3b0bfe62
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879707"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947575"
 ---
 # <a name="datafactory-customization"></a>Настройка DataFactory
 
@@ -30,16 +30,10 @@ ms.locfileid: "25879707"
 
 В следующих разделах Дополнительные сведения о настройке **DataFactory** объектов:
 
-  - [Общие сведения о файле настройки](understanding-the-customization-file.md)
-
-  - [Раздел Connect в файле настройки](customization-file-connect-section.md)
-
-  - [Раздел SQL в файле настройки](customization-file-sql-section.md)
-
-  - [Раздел UserList в файле настройки](customization-file-userlist-section.md)
-
-  - [Раздел Logs в файле настройки](customization-file-logs-section.md)
-
-  - [Параметры необходимые клиента](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-
-  - [Создание настраиваемого обработчика](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Общие сведения о файле настройки](understanding-the-customization-file.md)
+- [Раздел подключение файла настройки](customization-file-connect-section.md)
+- [Раздел настройки файла SQL](customization-file-sql-section.md)
+- [Раздел UserList файл настройки](customization-file-userlist-section.md)
+- [Раздел настройки файлов журналов](customization-file-logs-section.md)
+- [Параметры необходимые клиента](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
+- [Создание настраиваемого обработчика](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

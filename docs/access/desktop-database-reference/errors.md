@@ -6,19 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249199(v=office.15)
 ms:contentKeyID: 48544490
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3908a4b882a78360d3fd30ede0d4b9e406d03be5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4f8514fddb5523b670e2dff2b9b55981cab52f72
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873882"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946988"
 ---
 # <a name="errors"></a>Ошибки
 
-
 **Применимо к**: Access 2013, Office 2013
 
-Любые операции, включающие использование объекты ADO можно создать одну или несколько ошибок поставщика. Как возникают ошибки, один или несколько объектов **Ошибка** помещаются в семействе **Errors** объекта **подключения** . Дополнительные сведения об обработке предупреждения и ошибки в приложении ADO см [Глава 6: обработки ошибок](chapter-6-error-handling.md).
+Любые операции, включающие использование объекты ADO можно создать одну или несколько ошибок поставщика. Как возникают ошибки, один или несколько объектов **Ошибка** помещаются в семействе **Errors** объекта **подключения** . Дополнительные сведения об обработке предупреждения и ошибки в приложении ADO см [Глава 6: обработка ошибок](chapter-6-error-handling.md).
 
 Отдельные механизмом могут возникать ошибки приложения. Например в Visual Basic объекта **Err** будет содержать ошибки уровня приложения.
 

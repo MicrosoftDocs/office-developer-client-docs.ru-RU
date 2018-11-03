@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
 ms:contentKeyID: 48545559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b977db2faf07a47c2e9234cec4a7828def5e6188
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1dd402a27164b5fb40bab10d7809f042846e37b5
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926740"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943733"
 ---
 # <a name="catalog-object-ado-md"></a>Объект Catalog (ADO MD)
 
@@ -24,9 +24,9 @@ ms.locfileid: "25926740"
 
 Со свойствами объекта **каталога** и семейств сайтов выполните следующее:
 
-  - Откройте каталог путем установки свойства [ActiveConnection](activeconnection-property-ado-md.md) стандартный объект ADO- [подключение](connection-object-ado.md) или это допустимая строка подключения.
+- Откройте каталог путем установки свойства [ActiveConnection](activeconnection-property-ado-md.md) стандартный объект ADO- [подключение](connection-object-ado.md) или это допустимая строка подключения.
 
-  - Определение **каталога** с помощью свойства [Name](name-property-ado-md.md) .
+- Определение **каталога** с помощью свойства [Name](name-property-ado-md.md) .
 
-  - Выполните итерацию по кубов в каталог с помощью коллекции [CubeDefs](cubedefs-collection-ado-md.md) .
+- Выполните итерацию по кубов в каталог с помощью коллекции [CubeDefs](cubedefs-collection-ado-md.md) .
 

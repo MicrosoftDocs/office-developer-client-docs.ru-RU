@@ -1,20 +1,19 @@
 ---
 title: Пакетном режиме (Справочник по для настольных баз данных Access)
-TOCTitle: Batch Mode
+TOCTitle: Batch mode
 ms:assetid: b73921f6-5a12-9b26-ea65-99b32dd763f6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ee4805f89d6a6a9d114c4347d808be61683efe6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9541e8b7888f5fb5f16bcfb343d545cf304b1afd
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880616"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945791"
 ---
-# <a name="batch-mode"></a>Пакетный режим
-
+# <a name="batch-mode"></a>Пакетном режиме
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -25,14 +24,9 @@ ms.locfileid: "25880616"
 В этом разделе содержатся следующие разделы:
 
 - [Отправка обновлений: UpdateBatch](sending-the-updates-updatebatch.md)
-
 - [Фильтрация для обновленных записей](filtering-for-updated-records.md)
-
-- [Исправление неудачных обновлений](dealing-with-failed-updates.md)
-
-- [Обнаружение и разрешение конфликтов](detecting-and-resolving-conflicts.md)
-
+- [Работа с ошибками обновлений](dealing-with-failed-updates.md)
+- [Обнаружение и устранение конфликтов](detecting-and-resolving-conflicts.md)
 - [Отключение и повторное подключение набора записей](disconnecting-and-reconnecting-the-recordset.md)
-
-- [Обновление результатов JOINed: уникальная таблица](updating-joined-results-unique-table.md)
+- [Обновление результатов Соединяемая: уникальной таблицы](updating-joined-results-unique-table.md)
 

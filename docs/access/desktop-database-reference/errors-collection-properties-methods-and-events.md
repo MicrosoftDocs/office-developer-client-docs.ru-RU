@@ -6,29 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249816(v=office.15)
 ms:contentKeyID: 48547044
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97d3bb3c187fab2d0e58d50e9eae55e7d8c3f3c0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 52f9f2b01c570a9e193195680197dac7110d74c3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925550"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945357"
 ---
 # <a name="errors-collection-properties-methods-and-events"></a>Свойства, методы и события коллекции Errors
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 ## <a name="properties"></a>Свойства
 
 - [Свойство Count](count-property-ado.md)
-
 - [Свойство Item](item-property-ado.md)
 
 ## <a name="methods"></a>Методы
 
 - [Метод Clear](clear-method-ado.md)
-
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>Мероприятия

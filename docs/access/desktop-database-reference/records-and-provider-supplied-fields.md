@@ -1,20 +1,19 @@
 ---
-title: Записи и поля от поставщика
-TOCTitle: Records and Provider-Supplied Fields
+title: Записи и поля указано поставщика
+TOCTitle: Records and provider-supplied fields
 ms:assetid: cde72d6a-b9b0-9636-581d-68239a3f522d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf0e13569e902cd8665cd2a023ba1707d63f51a6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a2de9f48b9f35afb208006118add97c9b29c4885
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887462"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944524"
 ---
-# <a name="records-and-provider-supplied-fields"></a>Записи и поля от поставщика
-
+# <a name="records-and-provider-supplied-fields"></a>Записи и поля указано поставщика
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -146,7 +145,7 @@ ms.locfileid: "25887462"
 <tr class="even">
 <td><p>CHAPTERED_CHILDREN</p></td>
 <td><p>AdChapter</p></td>
-<td><p>Только для чтения. Необязательный параметр. Указывает, главы из строк, которые содержат дочерние элементы ресурса. ( <em>Поставщик OLE DB для публикации Интернет</em> не использует этот столбец.)</p></td>
+<td><p>Только для чтения. Необязательно указывать. Указывает, главы из строк, которые содержат дочерние элементы ресурса. ( <em>Поставщик OLE DB для публикации Интернет</em> не использует этот столбец.)</p></td>
 </tr>
 <tr class="odd">
 <td><p>RESOURCE_DISPLAYNAME</p></td>

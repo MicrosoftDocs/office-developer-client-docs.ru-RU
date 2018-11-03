@@ -1,19 +1,19 @@
 ---
-title: Обеспечение наличия достаточного места в TempDB
-TOCTitle: Ensuring Sufficient TempDB Space
+title: Обеспечение достаточно места для базы данных TempDB
+TOCTitle: Ensuring sufficient TempDB space
 ms:assetid: 2729c118-ec8b-1fcb-4a90-56b57823b24c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fe8d0c2513a723a9be51823866ed896976e79dd9
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 09671570865d25738b7d4ba9358754c62da6f24e
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936205"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946351"
 ---
-# <a name="ensuring-sufficient-tempdb-space"></a>Обеспечение наличия достаточного места в TempDB
+# <a name="ensuring-sufficient-tempdb-space"></a>Обеспечение достаточно места для базы данных TempDB
 
 
 **Применимо к**: Access 2013, Office 2013

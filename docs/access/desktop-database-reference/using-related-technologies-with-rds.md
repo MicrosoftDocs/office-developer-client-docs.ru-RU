@@ -6,22 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c99fd426473cf331c5b43b93c9c1bb285b6a5b43
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6a1fc46e1a5b8f320810f2e0e5ea891e3a6cb85a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891004"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947870"
 ---
-# <a name="using-related-technologies-with-rds"></a>Использование связанных технологий с RDS
+# <a name="using-related-technologies-with-rds"></a>С помощью связанных технологиях с помощью служб удаленных рабочих СТОЛОВ
 
 **Применимо к**: Access 2013, Office 2013
 
 В этом разделе содержатся подробные сведения об использовании служб удаленных рабочих СТОЛОВ с аспектов следующие технологии:
 
-- [Использование RDS с группировкой подключений ODBC](using-rds-with-odbc-connection-pooling.md)
+- [С помощью служб удаленных рабочих СТОЛОВ с группировки подключений ODBC](using-rds-with-odbc-connection-pooling.md)
 
-- [Выполнение бизнес-объектов в службах компонентов](running-business-objects-in-component-services.md)
+- [Выполнение бизнес-объекты в службы компонентов](running-business-objects-in-component-services.md)
 
 **Службы IIS** Для получения дополнительных сведений о Microsoft Internet Information Services (IIS) посетите сайт службы IIS.
 

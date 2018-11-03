@@ -6,30 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
 ms:contentKeyID: 48544145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f4d53296ac61e0ccd91ad4a78f693d11d2e4488
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6e604983e6b83f3b51d0b8da7f6d4223d4402c67
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929652"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946477"
 ---
 # <a name="key-properties-methods-and-events-adox"></a>Основные свойства, методы и события (ADOX)
-
 
 **Применимо к**: Access 2013, Office 2013 
 
 ## <a name="propertiescollections"></a>Свойства и коллекции
 
 - [Коллекция столбцов](columns-collection-adox.md)
-
 - [Свойство DeleteRule](deleterule-property-adox.md)
-
 - [Свойство Name](name-property-adox.md)
-
 - [Свойство RelatedTable](relatedtable-property-adox.md)
-
 - [Свойство Type (ключ)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))
-
 - [Свойство UpdateRule](updaterule-property-adox.md)
 
 ## <a name="methods"></a>Методы

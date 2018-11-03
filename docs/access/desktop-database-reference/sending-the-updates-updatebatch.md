@@ -1,17 +1,17 @@
 ---
 title: 'Отправка обновлений: UpdateBatch'
-TOCTitle: 'Sending the Updates: UpdateBatch'
+TOCTitle: 'Sending the updates: UpdateBatch'
 ms:assetid: a840b9a7-7ccd-9c31-7951-8921dadf381e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249778(v=office.15)
 ms:contentKeyID: 48546898
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 432c54c16984135bb5492854e2a9e9ac1ca94336
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7da0320bf42d1a1720bccfe8bf9e3843a2bb94f5
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883367"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946939"
 ---
 # <a name="sending-the-updates-updatebatch"></a>Отправка обновлений: UpdateBatch
 

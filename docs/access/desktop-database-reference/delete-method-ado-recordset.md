@@ -1,19 +1,19 @@
 ---
-title: Удаление метода (записей ADO)
-TOCTitle: Delete Method (ADO Recordset)
+title: Метод Delete (набор записей ADO)
+TOCTitle: Delete method (ADO Recordset)
 ms:assetid: 62c39b4d-223e-7b48-6780-6cd272e3114e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ae4b3bac6ed07aa7779009dc029737f5c7e0505
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 324366ef1fb399bf4a6b31113a288fa1abdc6b2b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885740"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947282"
 ---
-# <a name="delete-method-ado-recordset"></a>Удаление метода (записей ADO)
+# <a name="delete-method-ado-recordset"></a>Метод Delete (набор записей ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25885740"
 
 ## <a name="parameters"></a>Параметры
 
-  - *AffectRecords*
+- *AffectRecords*
 
   - Метод **Delete** повлияет от [AffectEnum](affectenum.md) значение, определяющее число записей. Значение по умолчанию — **adAffectCurrent**.
 
@@ -36,7 +36,7 @@ ms.locfileid: "25885740"
 > [!NOTE]
 > **adAffectAll** и **adAffectAllChapters** не допустимый аргументы, которые нужно **Удалить**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 С помощью метода **Delete** помечает текущую запись или группу из записей в объекте [набора записей](recordset-object-ado.md) для удаления. Если объект **набора записей** не позволяет удаление записи, возникает ошибка. Если вы используете режим немедленное обновление, удаление происходит в базе данных немедленно. Если запись не может успешно удалены (из-за нарушения целостности базы данных, например), запись будет оставаться в режиме редактирования после вызова **обновления**. Это означает, что необходимо отменить обновление с [CancelUpdate](cancelupdate-method-ado.md) перед перемещением текущей записи (например, с помощью [Закрыть](close-method-ado.md), [Перемещение](move-method-ado.md)или [NextRecordset](nextrecordset-method-ado.md)).
 

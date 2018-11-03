@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249203(v=office.15)
 ms:contentKeyID: 48544505
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a1101742e8c82b0eebcb0d260825f01905cb92a0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f1a5c9c69b5de6fbdf57efedf9724ae71ac151b7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868730"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945532"
 ---
-# <a name="type-property-ado-stream"></a>Свойство Type (ADO потока)
+# <a name="type-property-ado-stream"></a>Свойство Type (объект Stream в ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -24,7 +24,7 @@ ms.locfileid: "25868730"
 
 Задает или возвращает [StreamTypeEnum](streamtypeenum.md) значение, задающее тип данных, содержащихся в объекте **потока** . Значение по умолчанию — **adTypeText**. Тем не менее если изначально двоичные данные записываются новый, пустой **поток**, **Тип** будет изменено на **adTypeBinary**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Является ли данное свойство **Тип** чтения и записи только в том случае, если текущее положение находится в начале **потока** ([положение](position-property-ado.md) — 0) и только для чтения в любом другом месте.
 

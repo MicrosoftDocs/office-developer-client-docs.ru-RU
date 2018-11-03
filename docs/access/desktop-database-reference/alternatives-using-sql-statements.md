@@ -1,19 +1,19 @@
 ---
-title: 'Альтернативы: использование операторов SQL'
-TOCTitle: 'Alternatives: Using SQL Statements'
+title: 'Альтернативы: Использование инструкций SQL'
+TOCTitle: 'Alternatives: Using SQL statements'
 ms:assetid: 9ed787da-7099-2ef5-b2c6-c4f6bce5ddfe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249727(v=office.15)
 ms:contentKeyID: 48546668
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 853dfaab43d6d4c831b7ec9288bc8e9477fe2683
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4bcda13d8b785f1048890d1ed9492f5da3e7288b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888099"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945560"
 ---
-# <a name="alternatives-using-sql-statements"></a>Альтернативы: использование операторов SQL
+# <a name="alternatives-using-sql-statements"></a>Альтернативы: Использование инструкций SQL
 
 
 **Применимо к**: Access 2013, Office 2013

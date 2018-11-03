@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161227(v=office.15)
 ms:contentKeyID: 52074194
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 7d41feda3273862b80a3a9cbe975485ab589beee
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cea75ba4f6af4e2a319457e0d7d4466a61c0c1b6
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880582"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944861"
 ---
 # <a name="access-macro-actions-access-developer-reference"></a>Действия макросов Access (Справочник по Access для разработчиков)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25880582"
 - [Импорт или экспорт данных](data-import-export.md)
 - [События макросов для данных](data-macro-events.md)
 - [Объекты баз данных](database-objects.md)
-- [Фильтрация, запросы и поиск](filter-query-search.md)
+- [Фильтр, запрос или поиск](filter-query-search.md)
 - [Макрокоманды](macro-commands.md)
 - [Программный поток](program-flow.md)
 - [Системные команды](system-commands.md)

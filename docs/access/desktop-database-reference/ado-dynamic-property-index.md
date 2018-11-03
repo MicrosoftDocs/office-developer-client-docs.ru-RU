@@ -1,20 +1,19 @@
 ---
-title: Индекс динамические свойства ADO
-TOCTitle: ADO Dynamic Property Index
+title: Индекс динамических свойств ADO
+TOCTitle: ADO dynamic property index
 ms:assetid: 437beced-b97a-894d-b08f-4a322629a5a6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f385f3637f9a64ff94d571345d88fbaa088d126
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 19b7ddca0395869b5a1dba4182a123d33e54e66d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876066"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947604"
 ---
-# <a name="ado-dynamic-property-index"></a>Индекс динамические свойства ADO
-
+# <a name="ado-dynamic-property-index"></a>Индекс динамических свойств ADO
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -24,15 +23,15 @@ ms.locfileid: "25876066"
 
 Справочник программиста OLE DB указано имя свойства ADO по слову «Описание». Дополнительные сведения об этих стандартных свойств можно найти в Справочник программиста OLE DB. Поиск имени свойства OLE DB в индексе или в следующих разделах:
 
-  - Приложение c. свойства OLE DB
+- Приложение c. свойства OLE DB
 
-  - Поддерживаемые свойства службы курсора
+- Поддерживаемые свойства службы курсора
 
-  - Поддерживаемые свойства поставщика службы сохранения
+- Поддерживаемые свойства поставщика службы сохранения
 
-  - Свойства Поддерживаемые OLE DB поставщика удаленного доступа
+- Свойства Поддерживаемые OLE DB поставщика удаленного доступа
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Обратите внимание на номера, используемые в cross-index.
 

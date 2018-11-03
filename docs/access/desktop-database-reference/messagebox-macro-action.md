@@ -6,20 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f501b5884a8149850df7c1d16a141f345da90e52
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 14f3cd56323b68f54228e01413f984542c7f3c1a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925431"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944517"
 ---
 # <a name="messagebox-macro-action"></a>Макрокоманда MessageBox
 
-
 **Применимо к**: Access 2013, Office 2013
-
-
-
 
 Действие **MessageBox** можно использовать для отображения окна сообщения, содержащее предупреждение или информационное сообщение. Например можно использовать действие **MessageBox** с макросами проверки. Элемент управления или запись не условие в макросе, прошедших окно сообщения можно отображать сообщение об ошибке и приведены инструкции по тип данных, который должен быть введен.
 

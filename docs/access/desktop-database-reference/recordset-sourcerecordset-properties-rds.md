@@ -1,19 +1,19 @@
 ---
-title: Набор записей, свойства SourceRecordset (RDS)
-TOCTitle: Recordset, SourceRecordset Properties (RDS)
+title: Свойства Recordset и SourceRecordset (RDS)
+TOCTitle: Recordset, SourceRecordset properties (RDS)
 ms:assetid: 5f4bb72d-ddfa-41c0-c353-b3a6632b4a91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249345(v=office.15)
 ms:contentKeyID: 48545160
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 08fe0f569b36fe0b3403cb564dc53eadf2edff8c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f842ad1498e0f6752299cd3d16d8c558042a850e
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887182"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945784"
 ---
-# <a name="recordset-sourcerecordset-properties-rds"></a>Набор записей, свойства SourceRecordset (RDS)
+# <a name="recordset-sourcerecordset-properties-rds"></a>Свойства Recordset и SourceRecordset (RDS)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,15 +28,15 @@ ms.locfileid: "25887182"
 
 ## <a name="parameters"></a>Параметры
 
-  - *DataControl*
+- *DataControl*
 
   - Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.
 
-  - *Набор записей*
+- *Набор записей*
 
   - Объектная переменная, представляющий объект **набора записей** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойства **SourceRecordset** значение [набора записей](recordset-object-ado.md) , возвращаемых настраиваемых бизнес-объекта.
 

@@ -1,19 +1,19 @@
 ---
-title: Размещение наборов записей
-TOCTitle: Recordset Positioning
+title: Размещение набора записей
+TOCTitle: Recordset positioning
 ms:assetid: 1b8b08d5-a11c-ec6e-201c-1405171a1264
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248955(v=office.15)
 ms:contentKeyID: 48543546
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34b767e50893f62a30f075bee82a4f19ce4696c5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5116adbf68e4e98c7fbda8285348e00638465742
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882114"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946274"
 ---
-# <a name="recordset-positioning"></a>Размещение наборов записей
+# <a name="recordset-positioning"></a>Размещение набора записей
 
 
 **Применимо к**: Access 2013, Office 2013

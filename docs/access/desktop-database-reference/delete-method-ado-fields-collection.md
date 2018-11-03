@@ -1,19 +1,19 @@
 ---
-title: Метод Delete (ADO поля семейства сайтов)
-TOCTitle: Delete Method (ADO Fields Collection)
+title: Удаление метода (коллекции полей ADO)
+TOCTitle: Delete method (ADO Fields Collection)
 ms:assetid: adc66365-703f-4491-fc5b-dbc9bca2ac53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
 ms:contentKeyID: 48547047
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0fc2e614916026effe6ee0a9766e0b23db200574
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: afeec4007b9bd44a9575217e1fb6380a50d699c3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886398"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945318"
 ---
-# <a name="delete-method-ado-fields-collection"></a>Метод Delete (ADO поля семейства сайтов)
+# <a name="delete-method-ado-fields-collection"></a>Удаление метода (коллекции полей ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -28,11 +28,11 @@ ms.locfileid: "25886398"
 
 ## <a name="parameters"></a>Параметры
 
-  - *Поле*
+- *Поле*
 
   - **Variant** , который определяет удаляемый объект [поля](field-object-ado.md) . Этот параметр может быть имя объекта **поля** или порядковый номер самого объекта **поля** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вызов метода **Fields.Delete** для открытия [набора записей](recordset-object-ado.md) вызывает ошибку времени выполнения.
 

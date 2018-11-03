@@ -1,20 +1,19 @@
 ---
-title: Характеристики курсоров и блокировок
-TOCTitle: Cursor and Lock Characteristics
+title: Характеристики курсора и блокировки
+TOCTitle: Cursor and lock characteristics
 ms:assetid: 5f8b6700-14f6-d342-42f6-cc8e89c71a1a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249347(v=office.15)
 ms:contentKeyID: 48545164
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85268b9c4b57d92cd8e7df9cd1da01286709f915
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2b3d518ccd82ae2dbc3f280954848d58d8e617cd
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877571"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944993"
 ---
-# <a name="cursor-and-lock-characteristics"></a>Характеристики курсоров и блокировок
-
+# <a name="cursor-and-lock-characteristics"></a>Характеристики курсора и блокировки
 
 **Применимо к**: Access 2013, Office 2013
 

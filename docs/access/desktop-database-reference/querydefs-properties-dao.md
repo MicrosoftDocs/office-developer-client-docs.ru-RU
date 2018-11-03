@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123567(v=office.15)
 ms:contentKeyID: 52071209
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d4d0be967574bae3be4456b306faa17029c3a16
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 28f595d13ea65bb100db4c7a18512f7092ccb7ad
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923597"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945945"
 ---
 # <a name="querydefs-properties-dao"></a>Свойства QueryDefs (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
 
-
-
-  - [Свойство QueryDefs.Count (DAO)](querydefs-count-property-dao.md)
+- [Свойство QueryDefs.Count (DAO)](querydefs-count-property-dao.md)
 

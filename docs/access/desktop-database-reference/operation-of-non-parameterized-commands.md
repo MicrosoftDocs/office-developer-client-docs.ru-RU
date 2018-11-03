@@ -1,19 +1,19 @@
 ---
-title: Операция для команд без параметров
-TOCTitle: Operation of Non-Parameterized Commands
+title: Операция команды без параметров
+TOCTitle: Operation of non-parameterized commands
 ms:assetid: 934740b1-07d0-140e-7c83-00feb34c01d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249651(v=office.15)
 ms:contentKeyID: 48546395
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3e1799e5e40ffa3ffcd6698900b8678b309696e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: eac0297f2895ba78c1ff2746edcd532e79b1fa0c
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885159"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944895"
 ---
-# <a name="operation-of-non-parameterized-commands"></a>Операция для команд без параметров
+# <a name="operation-of-non-parameterized-commands"></a>Операция команды без параметров
 
 
 **Применимо к**: Access 2013, Office 2013

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249808(v=office.15)
 ms:contentKeyID: 48547024
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a807abde57212d894cd8bc96b51d28ddb8ac7095
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 37263bc21eb46489027a10fd1e97f7a9fd90205d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886958"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943908"
 ---
 # <a name="appendix-c-programming-with-ado"></a>Приложение В. Программирование с помощью ADO
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -25,11 +24,8 @@ ADO — это компонент автоматизации интерфейс�
 Дополнительные сведения о программировании с помощью ADO в различных средах разработки в следующих разделах:
 
 - [Использование ADO с Microsoft Visual Basic](using-ado-with-microsoft-visual-basic.md)
-
-- [Использование ADO со скриптовыми языками](using-ado-with-scripting-languages.md)
-
+- [С помощью ADO с языками сценариев](using-ado-with-scripting-languages.md)
 - [Использование ADO с Microsoft Visual C++](using-ado-with-microsoft-visual-c.md)
-
 - [Использование ADO с Microsoft Visual J++](using-ado-with-microsoft-visual-j.md)
 
 

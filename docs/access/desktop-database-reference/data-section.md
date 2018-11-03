@@ -1,23 +1,21 @@
 ---
 title: Раздел данных (Справочник по для настольных баз данных Access)
-TOCTitle: Data Section
+TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74406232a6f7d458eebb242f3f341bd4e3ccc583
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 98215394af89df30a95fcb9c5a757368cb64d4f1
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882856"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946379"
 ---
 # <a name="data-section"></a>Раздел данных
 
 **Применимо к**: Access 2013, Office 2013
- 
-## <a name="data-section"></a>Раздел данных
 
 В разделе данных определяет данных набор строк, а также все ожидающие обновления, вставка или удаление. В разделе данных может содержать ноль или несколько строк. Он может содержать только данные из один набор строк, где строка определяется в схеме. Кроме того как было отмечено ранее, можно опустить столбцы данных. Если атрибут или вложенный элемент используется в разделе данные и этой конструкции не было определено в разделе схемы, он игнорируется без уведомления.
 

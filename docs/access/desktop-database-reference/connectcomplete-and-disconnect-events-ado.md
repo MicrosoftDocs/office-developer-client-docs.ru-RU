@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249629(v=office.15)
 ms:contentKeyID: 48546293
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ab98e270fd52d656bf722c7f666afbe22d5ea44
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2799feebc3d2c2c4599249f0af310cf4020dcb49
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926306"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945518"
 ---
 # <a name="connectcomplete-and-disconnect-events-ado"></a>События ConnectComplete и Disconnect (ADO)
 
@@ -28,11 +28,11 @@ ConnectComplete*pError*, *adStatus* *pConnection*
 
 ## <a name="parameters"></a>Параметры
 
-  - *pError*
+- *pError*
 
   - Объект [Error](error-object-ado.md) . Описание ошибки, возникшей при имеет значение *adStatus* **adStatusErrorsOccurred**; в противном случае он не задан.
 
-  - *adStatus*
+- *adStatus*
 
   - [EventStatusEnum](eventstatusenum.md)
     
@@ -40,7 +40,7 @@ ConnectComplete*pError*, *adStatus* *pConnection*
     
     Прежде чем возвращает либо события, присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления. Тем не менее закрыть и повторно открыть [подключение](connection-object-ado.md) вызывает эти события к еще раз.
 
-  - *pConnection*
+- *pConnection*
 
   - Объект **подключения** , для которого применяется данное событие.
 

@@ -1,19 +1,19 @@
 ---
-title: Поиск метода и индекса пример свойства (VB)
-TOCTitle: Seek Method and Index property example (VB)
+title: Пример использования метода Seek и свойства Index (VB)
+TOCTitle: Seek method and Index property example (VB)
 ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15)
 ms:contentKeyID: 48547577
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 692dcd7e046935aa447d6d39de574dd3d3e6b129
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 41a50e9f115ec308a27a1c7169aaa61a56195dda
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871873"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945961"
 ---
-# <a name="seek-method-and-index-property-example-vb"></a>Поиск метода и индекса пример свойства (VB)
+# <a name="seek-method-and-index-property-example-vb"></a>Пример использования метода Seek и свойства Index (VB)
 
 
 **Применимо к**: Access 2013, Office 2013

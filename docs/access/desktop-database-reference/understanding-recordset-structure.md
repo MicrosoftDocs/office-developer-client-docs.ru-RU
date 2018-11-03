@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249027(v=office.15)
 ms:contentKeyID: 48543808
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a7f3d9c64812a0b778d52f3e4c70436a11b270e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4a8372f2c1762e29e4291b00e126ecd2a53618cd
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880413"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945070"
 ---
 # <a name="understanding-recordset-structure"></a>Общие сведения о структуре набора записей
 
@@ -21,9 +21,7 @@ ms.locfileid: "25880413"
 
 В следующих статьях объясняется, как получить сведения о каждом поле и перемещаться по коллекции **полей** . Затем они рассматриваются какие сведения доступны через объект **поля** и способы его использования.
 
-- [The Fields Collection](the-fields-collection.md)
-
-- [The Field Object](the-field-object.md)
-
+- [Коллекция Fields](the-fields-collection.md)
+- [Объект Field](the-field-object.md)
 - [Работа с наборами записей](working-with-recordsets.md)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17284fd61c44fe17f1c2661eff204c8827bf8e80
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 857a007d1b3bfe2665eea1284bc41cc9c67ccd46
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922344"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944440"
 ---
 # <a name="clone-method-ado"></a>Метод Clone (ADO)
 
@@ -32,15 +32,15 @@ ms.locfileid: "25922344"
 
 ## <a name="parameters"></a>Параметры
 
-  - *rstDuplicate*
+- *rstDuplicate*
 
   - Объектная переменная, которая определяет повторяющихся **записей** объект будет создан.
 
-  - *rstOriginal*
+- *rstOriginal*
 
   - Объектная переменная, которая определяет объект **набора записей** дублирование.
 
-  - *LockType для*
+- *LockType для*
 
   - Необязательно указывать. [LockTypeEnum](locktypeenum.md) значение, задающее тип блокировки исходного **набора записей**или только для чтения **набора записей**. Допустимые значения: **adLockUnspecified** или **adLockReadOnly**.
 

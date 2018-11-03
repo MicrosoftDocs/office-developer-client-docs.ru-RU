@@ -1,20 +1,19 @@
 ---
-title: Пометка бизнес-объектов как безопасных для написания скриптов
-TOCTitle: Marking Business Objects as Safe for Scripting
+title: Пометка бизнес-объекты как безопасные для скриптов
+TOCTitle: Marking business objects as safe for scripting
 ms:assetid: 8ee49aec-672d-96f7-baa6-9261317a4d90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f638ae278835841ebf297f2472c04235c6a325b4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bfd2a93b4a228186629d0c08e26cf2b0b7b32804
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936653"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944258"
 ---
-# <a name="marking-business-objects-as-safe-for-scripting"></a>Пометка бизнес-объектов как безопасных для написания скриптов
-
+# <a name="marking-business-objects-as-safe-for-scripting"></a>Пометка бизнес-объекты как безопасные для скриптов
 
 **Применимо к**: Access 2013, Office 2013
 

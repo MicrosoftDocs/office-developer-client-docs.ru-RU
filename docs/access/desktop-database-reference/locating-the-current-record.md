@@ -1,19 +1,19 @@
 ---
-title: Обнаружение текущей записи
-TOCTitle: Locating the Current Record
+title: Поиск текущей записи
+TOCTitle: Locating the current record
 ms:assetid: b47fa9d6-0381-3d95-fb85-6bf1dd1071c9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249865(v=office.15)
 ms:contentKeyID: 48547228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26dbeab9930ddb3abf77aa9c8f10b79a03480b6e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cc495c5171788862ad7873e21ad3ddaef113445b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883661"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947688"
 ---
-# <a name="locating-the-current-record"></a>Обнаружение текущей записи
+# <a name="locating-the-current-record"></a>Поиск текущей записи
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -22,5 +22,4 @@ ms.locfileid: "25883661"
 В этом разделе содержатся следующие разделы:
 
 - [Подсчет строк](counting-rows.md)
-
-- [The Limits of a Recordset](the-limits-of-a-recordset.md)
+- [Ограничения набора записей](the-limits-of-a-recordset.md)

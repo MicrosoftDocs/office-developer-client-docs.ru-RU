@@ -1,19 +1,19 @@
 ---
-title: Кнопки адресной книги
-TOCTitle: Address Book Command Buttons
+title: Адресной книги кнопок команд
+TOCTitle: Address Book command buttons
 ms:assetid: bcea6f53-3e36-b067-03c2-b157ed02d41d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249908(v=office.15)
 ms:contentKeyID: 48547422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e445414ead78bb5e1b05b3f3812e86f1d6c119ef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f586b92f309ffd330230bf732d0e477acf0a8ba9
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869514"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946932"
 ---
-# <a name="address-book-command-buttons"></a>Кнопки адресной книги
+# <a name="address-book-command-buttons"></a>Адресной книги кнопок команд
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -21,13 +21,13 @@ ms.locfileid: "25869514"
 
 Адресная книга приложения включает в себя следующие командные кнопки:
 
-  - Кнопка поиска для отправки запросов к базе данных.
+- **Найдите** кнопку для отправки запросов к базе данных.
 
-  - **Снимите флажок** , чтобы снимите текстовых полей, чтобы приступить к работе новый поиск.
+- **Снимите флажок** , чтобы снимите текстовых полей, чтобы приступить к работе новый поиск.
 
-  - Кнопка Обновить профиль для сохранения изменений в запись сотрудника.
+- Кнопка **Обновить профиль** для сохранения изменений в запись сотрудника.
 
-  - Отмена изменений, чтобы отменить изменения.
+- **Отмена изменений** , чтобы отменить изменения.
 
 ## <a name="find-button"></a>Найдите кнопку
 

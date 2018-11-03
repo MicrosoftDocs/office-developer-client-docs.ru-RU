@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 660ae5523d3f04e7c533508e6c138b0f52d215c4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 7478a90e3c6242c68a1325b08e998f4c76a62f3d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937248"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944664"
 ---
-# <a name="visual-c-ado-programming"></a>Программирование для ADO на Visual C++
+# <a name="visual-c-ado-programming"></a>Visual C++ ADO программирования
 
 
 **Применимо к**: Access 2013, Office 2013

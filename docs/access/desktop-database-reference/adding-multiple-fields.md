@@ -1,20 +1,19 @@
 ---
 title: Добавление нескольких полей
-TOCTitle: Adding Multiple Fields
+TOCTitle: Adding multiple fields
 ms:assetid: 81b2f9de-4805-4494-9990-09ffda1b2068
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249560(v=office.15)
 ms:contentKeyID: 48545961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01330eeed2645a0bd76f6ac51e96542068b245e7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6ea9b4999ae107c6b6ca88ca7cf75888163a5b05
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878978"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944111"
 ---
 # <a name="adding-multiple-fields"></a>Добавление нескольких полей
-
 
 **Применимо к**: Access 2013, Office 2013
 

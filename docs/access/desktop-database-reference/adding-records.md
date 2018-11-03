@@ -1,20 +1,19 @@
 ---
 title: Добавление записей (Справочник по для настольных баз данных Access)
-TOCTitle: Adding Records
+TOCTitle: Adding records
 ms:assetid: 7a5b27bc-7b28-4f43-b55e-a21edfb9e1b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
 ms:contentKeyID: 48545791
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 760c9b2915b84457d64325c97c5118fb5debc925
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 177eeb0499f3ba3376237c4773e776f8c7c7583f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880595"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946512"
 ---
 # <a name="adding-records"></a>Добавление записей
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -27,8 +26,6 @@ ms.locfileid: "25880595"
 В этом разделе содержатся следующие разделы:
 
 - [Добавление нескольких полей](adding-multiple-fields.md)
-
-- [Определение режима правки](determining-edit-mode.md)
-
-- [Использование метода AddNew в режиме интерпретации и пакетном режиме](using-addnew-in-immediate-and-batch-modes.md)
+- [Определение режима редактирования](determining-edit-mode.md)
+- [С помощью команды AddNew в режимах Интерпретация и пакета](using-addnew-in-immediate-and-batch-modes.md)
 

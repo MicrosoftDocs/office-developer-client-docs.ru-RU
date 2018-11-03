@@ -1,20 +1,19 @@
 ---
-title: Навигация по данным
-TOCTitle: Navigating Through the Data
+title: Перемещение по данным
+TOCTitle: Navigating through the data
 ms:assetid: 65e6cbe7-ec45-85b9-472e-845ce9b2ed21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249394(v=office.15)
 ms:contentKeyID: 48545332
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b4635e200443044f6fcd7b6ad93770df8a92590a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7f02da45365b053020125be03d1f94d4bee8df68
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872041"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944307"
 ---
-# <a name="navigating-through-the-data"></a>Навигация по данным
-
+# <a name="navigating-through-the-data"></a>Перемещение по данным
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -23,12 +22,8 @@ ms.locfileid: "25872041"
 В следующих разделах рассматриваются способы использования эти методы и свойства на пример **набора записей**:
 
 - [Переход к записи](jumping-to-a-record.md)
-
-- [Дополнительные способы перемещения по набору записей](more-ways-to-move-in-a-recordset.md)
-
+- [Дополнительные способы перемещения в наборе записей](more-ways-to-move-in-a-recordset.md)
 - [Использование закладок](using-bookmarks.md)
-
 - [Использование страниц](using-pages.md)
-
-- [Размещение наборов записей](recordset-positioning.md)
+- [Размещение набора записей](recordset-positioning.md)
 

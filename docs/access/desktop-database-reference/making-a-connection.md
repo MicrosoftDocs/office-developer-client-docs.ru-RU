@@ -1,19 +1,19 @@
 ---
-title: Создание подключения
-TOCTitle: Making a Connection
+title: Подключения
+TOCTitle: Making a connection
 ms:assetid: 188f6794-f4ec-8e8d-5adc-bdee36f4c9ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248932(v=office.15)
 ms:contentKeyID: 48543472
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7bd99419a841a8fa876dd0ad30b4d06360a27df1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0335c4bbc0d1240d6d4ca53ceacf47bf44fce67d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882051"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945889"
 ---
-# <a name="making-a-connection"></a>Создание подключения
+# <a name="making-a-connection"></a>Подключения
 
 **Применимо к**: Access 2013, Office 2013
 

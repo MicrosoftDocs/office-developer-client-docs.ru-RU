@@ -1,17 +1,17 @@
 ---
 title: Поставщики OLE DB (Справочник по для настольных баз данных Access)
-TOCTitle: OLE DB Providers
+TOCTitle: OLE DB providers
 ms:assetid: ef412198-eac5-bf86-73fd-574e67276408
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
 ms:contentKeyID: 48548576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b359e75d67a4ed9e3ad4ef1df23a1adc1279751
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: e80df3dad65edb23e7fcd4e6828f2435df405e70
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936324"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947779"
 ---
 # <a name="ole-db-providers"></a>Поставщики OLE DB
 

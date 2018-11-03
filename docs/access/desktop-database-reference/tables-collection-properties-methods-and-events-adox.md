@@ -6,30 +6,26 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248806(v=office.15)
 ms:contentKeyID: 48543009
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: effb963d76dc0077433b002b8077719fed27a42a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3843846174767396d0292f15ef59b275a93b5e4a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919159"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943922"
 ---
 # <a name="tables-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Tables (ADOX)
-
 
 **Применимо к**: Access 2013, Office 2013
 
 ## <a name="properties"></a>Свойства
 
 - [Свойство Count](count-property-ado.md)
-
 - [Свойство Item](item-property-ado.md)
 
 ## <a name="methods"></a>Методы
 
 - [Добавьте метод (таблицы)](append-method-adox-tables.md)
-
 - [Удаление метода (коллекций)](delete-method-adox-collections.md)
-
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>Мероприятия

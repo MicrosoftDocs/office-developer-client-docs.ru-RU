@@ -6,28 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249548(v=office.15)
 ms:contentKeyID: 48545930
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ddacbdb45521078db5e047f82002c89cb7f17c0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e21a282166dd9376275a24f41674d240bd23c4f7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886930"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947954"
 ---
 # <a name="using-ado-with-microsoft-visual-c"></a>Использование ADO с Microsoft Visual C++
-
 
 **Применимо к**: Access 2013, Office 2013
 
 Для получения сведений об использовании ADO с Visual C++ изучите следующие разделы:
 
-- [Программирование для ADO на Visual C++](visual-c-ado-programming.md)
-
+- [Visual C++ ADO программирования](visual-c-ado-programming.md)
 - [Расширения Visual C++ для ADO](visual-c-extensions-for-ado.md)
-
-- [Использование расширений Visual C++](using-visual-c-extensions.md)
-
+- [С помощью расширений Visual C++](using-visual-c-extensions.md)
 - [Заголовок расширений Visual C++](visual-c-extensions-header.md)
-
 - [Пример расширения Visual C++](visual-c-extensions-example.md)
 
 

@@ -1,19 +1,19 @@
 ---
-title: Метод Close подключения, пример свойства типа таблица (VB)
-TOCTitle: Connection Close Method, Table Type property example (VB)
+title: Метод Close подключения, пример свойства Type таблицы (VB)
+TOCTitle: Connection Close method, Table Type property example (VB)
 ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
 ms:contentKeyID: 48547754
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 388e601d7267eabd01843640ab795fd0ea914a05
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a4587cec98d6e1bd272c79428955ca422bb3eec0
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868317"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947745"
 ---
-# <a name="connection-close-method-table-type-property-example-vb"></a>Метод Close подключения, пример свойства типа таблица (VB)
+# <a name="connection-close-method-table-type-property-example-vb"></a>Метод Close подключения, пример свойства Type таблицы (VB)
 
 **Применимо к**: Access 2013, Office 2013
 

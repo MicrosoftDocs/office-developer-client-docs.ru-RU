@@ -1,17 +1,17 @@
 ---
 title: Именованные команды
-TOCTitle: Named Commands
+TOCTitle: Named commands
 ms:assetid: 1a4d77e0-1736-83ea-a3c6-f5398c0b01e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248948(v=office.15)
 ms:contentKeyID: 48543518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c13a91495d283c6ce0f76c93d0ecae3e44d5f56f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45609ba0db81cf9ab807d2ea97c146a32028b884
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878341"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947835"
 ---
 # <a name="named-commands"></a>Именованные команды
 

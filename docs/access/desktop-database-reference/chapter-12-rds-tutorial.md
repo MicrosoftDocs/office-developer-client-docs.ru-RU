@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9455d7b2a9df98671f8ce6f9d8a939fcadc56f79
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 276e8989b674c61414c42428bbff795bf700c6dc
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936947"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947681"
 ---
-# <a name="chapter-12-rds-tutorial"></a>Глава 12. Руководство по RDS
-
+# <a name="chapter-12-rds-tutorial"></a>Глава 12: Учебник служб удаленных рабочих СТОЛОВ
 
 **Применимо к**: Access 2013, Office 2013
 
