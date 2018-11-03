@@ -1,24 +1,24 @@
 ---
-title: Поиск метода и индекса пример свойства (VC ++)
-TOCTitle: Seek Method and Index property example (VC++)
+title: Пример использования метода Seek и свойства Index (VC++)
+TOCTitle: Seek method and Index property example (VC++)
 ms:assetid: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15)
 ms:contentKeyID: 48548820
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 721f3fdbd69265cf5786aec43059d86f8a86bfa8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 79cb9c7bd51f7d4f3b57eeb3097cae60dcf4f012
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889611"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944013"
 ---
-# <a name="seek-method-and-index-property-example-vc"></a><span data-ttu-id="1e764-102">Поиск метода и индекса пример свойства (VC ++)</span><span class="sxs-lookup"><span data-stu-id="1e764-102">Seek Method and Index property example (VC++)</span></span>
+# <a name="seek-method-and-index-property-example-vc"></a><span data-ttu-id="29fdb-102">Пример использования метода Seek и свойства Index (VC++)</span><span class="sxs-lookup"><span data-stu-id="29fdb-102">Seek method and Index property example (VC++)</span></span>
 
 
-<span data-ttu-id="1e764-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e764-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="29fdb-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="29fdb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1e764-104">В этом примере используется метод [Seek](seek-method-ado.md) и свойства [Index](index-property-ado.md) объекта [набора записей](recordset-object-ado.md) в сочетании с заданным ***Идентификатор сотрудника***, найдите имя сотрудника в таблице ***Employees*** базы данных Nwind.mdb.</span><span class="sxs-lookup"><span data-stu-id="1e764-104">This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.</span></span>
+<span data-ttu-id="29fdb-104">В этом примере используется метод [Seek](seek-method-ado.md) и свойства [Index](index-property-ado.md) объекта [набора записей](recordset-object-ado.md) в сочетании с заданным ***Идентификатор сотрудника***, найдите имя сотрудника в таблице ***Employees*** базы данных Nwind.mdb.</span><span class="sxs-lookup"><span data-stu-id="29fdb-104">This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.</span></span>
 
 ```cpp 
  
@@ -242,7 +242,7 @@ void PrintComError(_com_error &e)
 // EndSeekCpp 
 ```
 
-<span data-ttu-id="1e764-105">**SeekX.h**</span><span class="sxs-lookup"><span data-stu-id="1e764-105">**SeekX.h**</span></span>
+<span data-ttu-id="29fdb-105">**SeekX.h**</span><span class="sxs-lookup"><span data-stu-id="29fdb-105">**SeekX.h**</span></span>
 
 ```cpp 
  

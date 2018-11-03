@@ -1,24 +1,24 @@
 ---
 title: Именованные команды
-TOCTitle: Named Commands
+TOCTitle: Named commands
 ms:assetid: 1a4d77e0-1736-83ea-a3c6-f5398c0b01e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248948(v=office.15)
 ms:contentKeyID: 48543518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c13a91495d283c6ce0f76c93d0ecae3e44d5f56f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45609ba0db81cf9ab807d2ea97c146a32028b884
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878341"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947835"
 ---
-# <a name="named-commands"></a><span data-ttu-id="b1468-102">Именованные команды</span><span class="sxs-lookup"><span data-stu-id="b1468-102">Named Commands</span></span>
+# <a name="named-commands"></a><span data-ttu-id="799e9-102">Именованные команды</span><span class="sxs-lookup"><span data-stu-id="799e9-102">Named commands</span></span>
 
 
-<span data-ttu-id="b1468-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1468-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="799e9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="799e9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b1468-104">Можно задать свойство **Name** объекта **команды** и затем выполните команду путем вызова его, как если бы метод **ActiveConnection** свойства объекта **команды** .</span><span class="sxs-lookup"><span data-stu-id="b1468-104">You can set the **Name** property on a **Command** object and then execute the command by calling it as if it were a method on the **Command** object **ActiveConnection** property.</span></span> <span data-ttu-id="b1468-105">Это показано в следующем примере, в котором команда с именем *GetCustomers*.</span><span class="sxs-lookup"><span data-stu-id="b1468-105">This is illustrated in the following example, in which the command is named *GetCustomers*.</span></span> <span data-ttu-id="b1468-106">Обратите внимание на то, что код передает в объект **набора записей** объявленные и инициализированный GetCustomers «метод».</span><span class="sxs-lookup"><span data-stu-id="b1468-106">Notice that the code passes in a declared and instantiated **Recordset** object to the GetCustomers "method."</span></span> <span data-ttu-id="b1468-107">Можно также передать в параметрах «метод» если они являются обязательными в **команду**.</span><span class="sxs-lookup"><span data-stu-id="b1468-107">You can also pass in parameters to the "method" if they are required by the **Command**.</span></span>
+<span data-ttu-id="799e9-104">Можно задать свойство **Name** объекта **команды** и затем выполните команду путем вызова его, как если бы метод **ActiveConnection** свойства объекта **команды** .</span><span class="sxs-lookup"><span data-stu-id="799e9-104">You can set the **Name** property on a **Command** object and then execute the command by calling it as if it were a method on the **Command** object **ActiveConnection** property.</span></span> <span data-ttu-id="799e9-105">Это показано в следующем примере, в котором команда с именем *GetCustomers*.</span><span class="sxs-lookup"><span data-stu-id="799e9-105">This is illustrated in the following example, in which the command is named *GetCustomers*.</span></span> <span data-ttu-id="799e9-106">Обратите внимание на то, что код передает в объект **набора записей** объявленные и инициализированный GetCustomers «метод».</span><span class="sxs-lookup"><span data-stu-id="799e9-106">Notice that the code passes in a declared and instantiated **Recordset** object to the GetCustomers "method."</span></span> <span data-ttu-id="799e9-107">Можно также передать в параметрах «метод» если они являются обязательными в **команду**.</span><span class="sxs-lookup"><span data-stu-id="799e9-107">You can also pass in parameters to the "method" if they are required by the **Command**.</span></span>
 
 ```vb 
  

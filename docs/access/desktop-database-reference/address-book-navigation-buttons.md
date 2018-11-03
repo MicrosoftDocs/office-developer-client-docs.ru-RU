@@ -1,30 +1,29 @@
 ---
-title: Кнопки навигации по адресной книге
-TOCTitle: Address Book Navigation Buttons
+title: Адресной книги кнопки перехода
+TOCTitle: Address Book navigation buttons
 ms:assetid: 4ec32c08-5b35-8dce-23ec-0daa4db551cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d0a6409bcdeca211c3badb1ca7918d3d34bc3f1f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d1a8caae94bf56532b45dcfa3e647ba092552795
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869024"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947555"
 ---
-# <a name="address-book-navigation-buttons"></a><span data-ttu-id="2d703-102">Кнопки навигации по адресной книге</span><span class="sxs-lookup"><span data-stu-id="2d703-102">Address Book Navigation Buttons</span></span>
+# <a name="address-book-navigation-buttons"></a><span data-ttu-id="e15d3-102">Адресной книги кнопки перехода</span><span class="sxs-lookup"><span data-stu-id="e15d3-102">Address Book navigation buttons</span></span>
 
+<span data-ttu-id="e15d3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e15d3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2d703-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d703-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e15d3-104">Адресная книга приложения отображаются кнопки навигации в нижней части веб-страницы.</span><span class="sxs-lookup"><span data-stu-id="e15d3-104">The Address Book application displays the navigation buttons at the bottom of the webpage.</span></span> <span data-ttu-id="e15d3-105">Можно использовать кнопки перехода для перемещения по данным в отображение сетки HTML, выбрав либо первой или последней строки данных или рядом с текущего выделения строк.</span><span class="sxs-lookup"><span data-stu-id="e15d3-105">You can use the navigation buttons to navigate through the data in the HTML grid display by selecting either the first or last row of data, or rows adjacent to the current selection.</span></span>
 
-<span data-ttu-id="2d703-104">Адресная книга приложения отображаются кнопки навигации в нижней части веб-страницы.</span><span class="sxs-lookup"><span data-stu-id="2d703-104">The Address Book application displays the navigation buttons at the bottom of the webpage.</span></span> <span data-ttu-id="2d703-105">Можно использовать кнопки перехода для перемещения по данным в отображение сетки HTML, выбрав либо первой или последней строки данных или рядом с текущего выделения строк.</span><span class="sxs-lookup"><span data-stu-id="2d703-105">You can use the navigation buttons to navigate through the data in the HTML grid display by selecting either the first or last row of data, or rows adjacent to the current selection.</span></span>
+## <a name="navigation-sub-procedures"></a><span data-ttu-id="e15d3-106">Процедуры Sub навигации</span><span class="sxs-lookup"><span data-stu-id="e15d3-106">Navigation Sub Procedures</span></span>
 
-## <a name="navigation-sub-procedures"></a><span data-ttu-id="2d703-106">Процедуры Sub навигации</span><span class="sxs-lookup"><span data-stu-id="2d703-106">Navigation Sub Procedures</span></span>
+<span data-ttu-id="e15d3-107">Приложение адресная книга содержит некоторые процедуры, которые позволяют пользователям щелкните **первый**, **Далее**, **Назад**и **последний** кнопки для перемещения данных.</span><span class="sxs-lookup"><span data-stu-id="e15d3-107">The Address Book application contains several procedures that allow users to click the **First**, **Next**, **Previous**, and **Last** buttons to move around the data.</span></span>
 
-<span data-ttu-id="2d703-107">Приложение адресная книга содержит некоторые процедуры, которые позволяют пользователям щелкните **первый**, **Далее**, **Назад**и **последний** кнопки для перемещения данных.</span><span class="sxs-lookup"><span data-stu-id="2d703-107">The Address Book application contains several procedures that allow users to click the **First**, **Next**, **Previous**, and **Last** buttons to move around the data.</span></span>
-
-<span data-ttu-id="2d703-108">Например, щелкнув **Первая** кнопка активирует первый VBScript\_процедуры OnClick Sub.</span><span class="sxs-lookup"><span data-stu-id="2d703-108">For example, clicking the **First** button activates the VBScript First\_OnClick Sub procedure.</span></span> <span data-ttu-id="2d703-109">Процедура выполняет метод [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) , что делает первую строку данных текущего выделенного фрагмента.</span><span class="sxs-lookup"><span data-stu-id="2d703-109">The procedure executes a [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, which makes the first row of data the current selection.</span></span> <span data-ttu-id="2d703-110">Нажатие кнопки **последней** активирует последний\_процедуры OnClick Sub, которая вызывает метод [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) текущего выделения последней строки данных.</span><span class="sxs-lookup"><span data-stu-id="2d703-110">Clicking the **Last** button activates the Last\_OnClick Sub procedure, which invokes the [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, making the last row of data the current selection.</span></span> <span data-ttu-id="2d703-111">Аналогичным образом работать оставшихся кнопок навигации.</span><span class="sxs-lookup"><span data-stu-id="2d703-111">The remaining navigation buttons work in a similar fashion.</span></span>
+<span data-ttu-id="e15d3-108">Например, щелкнув **Первая** кнопка активирует первый VBScript\_процедуры OnClick Sub.</span><span class="sxs-lookup"><span data-stu-id="e15d3-108">For example, clicking the **First** button activates the VBScript First\_OnClick Sub procedure.</span></span> <span data-ttu-id="e15d3-109">Процедура выполняет метод [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) , что делает первую строку данных текущего выделенного фрагмента.</span><span class="sxs-lookup"><span data-stu-id="e15d3-109">The procedure executes a [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, which makes the first row of data the current selection.</span></span> <span data-ttu-id="e15d3-110">Нажатие кнопки **последней** активирует последний\_процедуры OnClick Sub, которая вызывает метод [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) текущего выделения последней строки данных.</span><span class="sxs-lookup"><span data-stu-id="e15d3-110">Clicking the **Last** button activates the Last\_OnClick Sub procedure, which invokes the [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, making the last row of data the current selection.</span></span> <span data-ttu-id="e15d3-111">Аналогичным образом работать оставшихся кнопок навигации.</span><span class="sxs-lookup"><span data-stu-id="e15d3-111">The remaining navigation buttons work in a similar fashion.</span></span>
 
 ```vb 
  

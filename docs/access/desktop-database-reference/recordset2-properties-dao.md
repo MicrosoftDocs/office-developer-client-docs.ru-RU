@@ -6,87 +6,51 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161301(v=office.15)
 ms:contentKeyID: 52074268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bca6996fb8d0b2158475d9fcde3323cbf72fd953
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 80db9d6cebd02133a83021696cf60e0919b93da4
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921840"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947884"
 ---
-# <a name="recordset2-properties-dao"></a><span data-ttu-id="12e69-102">Свойства Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-102">Recordset2 properties (DAO)</span></span>
+# <a name="recordset2-properties-dao"></a><span data-ttu-id="b3217-102">Свойства Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-102">Recordset2 properties (DAO)</span></span>
 
+<span data-ttu-id="b3217-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3217-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="12e69-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12e69-103">**Applies to**: Access 2013, Office 2013</span></span>
+- [<span data-ttu-id="b3217-104">Свойство Recordset2.AbsolutePosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-104">Recordset2.AbsolutePosition property (DAO)</span></span>](recordset2-absoluteposition-property-dao.md)
+- [<span data-ttu-id="b3217-105">Свойство Recordset2.BatchCollisionCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-105">Recordset2.BatchCollisionCount property (DAO)</span></span>](recordset2-batchcollisioncount-property-dao.md)
+- [<span data-ttu-id="b3217-106">Свойство Recordset2.BatchCollisions (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-106">Recordset2.BatchCollisions property (DAO)</span></span>](recordset2-batchcollisions-property-dao.md)
+- [<span data-ttu-id="b3217-107">Свойство Recordset2.BATCHSIZE (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-107">Recordset2.BatchSize property (DAO)</span></span>](recordset2-batchsize-property-dao.md)
+- [<span data-ttu-id="b3217-108">Свойство Recordset2.BOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-108">Recordset2.BOF property (DAO)</span></span>](recordset2-bof-property-dao.md)
+- [<span data-ttu-id="b3217-109">Свойство Recordset2.Bookmark (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-109">Recordset2.Bookmark property (DAO)</span></span>](recordset2-bookmark-property-dao.md)
+- [<span data-ttu-id="b3217-110">Свойство Recordset2.Bookmarkable (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-110">Recordset2.Bookmarkable property (DAO)</span></span>](recordset2-bookmarkable-property-dao.md)
+- [<span data-ttu-id="b3217-111">Свойство Recordset2.CacheSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-111">Recordset2.CacheSize property (DAO)</span></span>](recordset2-cachesize-property-dao.md)
+- [<span data-ttu-id="b3217-112">Свойство Recordset2.CacheStart (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-112">Recordset2.CacheStart property (DAO)</span></span>](recordset2-cachestart-property-dao.md)
+- [<span data-ttu-id="b3217-113">Свойство Recordset2.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-113">Recordset2.Connection property (DAO)</span></span>](recordset2-connection-property-dao.md)
+- [<span data-ttu-id="b3217-114">Свойство Recordset2.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-114">Recordset2.DateCreated property (DAO)</span></span>](recordset2-datecreated-property-dao.md)
+- [<span data-ttu-id="b3217-115">Свойство Recordset2.EditMode (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-115">Recordset2.EditMode property (DAO)</span></span>](recordset2-editmode-property-dao.md)
+- [<span data-ttu-id="b3217-116">Свойство Recordset2.EOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-116">Recordset2.EOF property (DAO)</span></span>](recordset2-eof-property-dao.md)
+- [<span data-ttu-id="b3217-117">Свойство Recordset2.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-117">Recordset2.Fields property (DAO)</span></span>](recordset2-fields-property-dao.md)
+- [<span data-ttu-id="b3217-118">Свойство Recordset2.Filter (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-118">Recordset2.Filter property (DAO)</span></span>](recordset2-filter-property-dao.md)
+- [<span data-ttu-id="b3217-119">Свойство Recordset2.index (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-119">Recordset2.Index property (DAO)</span></span>](recordset2-index-property-dao.md)
+- [<span data-ttu-id="b3217-120">Свойство Recordset2.LastModified (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-120">Recordset2.LastModified property (DAO)</span></span>](recordset2-lastmodified-property-dao.md)
+- [<span data-ttu-id="b3217-121">Свойство Recordset2.LastUpdated (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-121">Recordset2.LastUpdated property (DAO)</span></span>](recordset2-lastupdated-property-dao.md)
+- [<span data-ttu-id="b3217-122">Свойство Recordset2.LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-122">Recordset2.LockEdits property (DAO)</span></span>](recordset2-lockedits-property-dao.md)
+- [<span data-ttu-id="b3217-123">Свойство Recordset2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-123">Recordset2.Name property (DAO)</span></span>](recordset2-name-property-dao.md)
+- [<span data-ttu-id="b3217-124">Свойство Recordset2.NoMatch (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-124">Recordset2.NoMatch property (DAO)</span></span>](recordset2-nomatch-property-dao.md)
+- [<span data-ttu-id="b3217-125">Свойство Recordset2.ParentRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-125">Recordset2.ParentRecordset property (DAO)</span></span>](recordset2-parentrecordset-property-dao.md)
+- [<span data-ttu-id="b3217-126">Свойство Recordset2.PercentPosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-126">Recordset2.PercentPosition property (DAO)</span></span>](recordset2-percentposition-property-dao.md)
+- [<span data-ttu-id="b3217-127">Свойство Recordset2.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-127">Recordset2.Properties property (DAO)</span></span>](recordset2-properties-property-dao.md)
+- [<span data-ttu-id="b3217-128">Свойство Recordset2.RecordCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-128">Recordset2.RecordCount property (DAO)</span></span>](recordset2-recordcount-property-dao.md)
+- [<span data-ttu-id="b3217-129">Свойство Recordset2.RecordStatus (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-129">Recordset2.RecordStatus property (DAO)</span></span>](recordset2-recordstatus-property-dao.md)
+- [<span data-ttu-id="b3217-130">Свойство Recordset2.Restartable (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-130">Recordset2.Restartable property (DAO)</span></span>](recordset2-restartable-property-dao.md)
+- [<span data-ttu-id="b3217-131">Свойство Recordset2.Sort (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-131">Recordset2.Sort property (DAO)</span></span>](recordset2-sort-property-dao.md)
+- [<span data-ttu-id="b3217-132">Свойство Recordset2.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-132">Recordset2.StillExecuting property (DAO)</span></span>](recordset2-stillexecuting-property-dao.md)
+- [<span data-ttu-id="b3217-133">Свойство Recordset2.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-133">Recordset2.Transactions property (DAO)</span></span>](recordset2-transactions-property-dao.md)
+- [<span data-ttu-id="b3217-134">Свойство Recordset2.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-134">Recordset2.Type property (DAO)</span></span>](recordset2-type-property-dao.md)
+- [<span data-ttu-id="b3217-135">Свойство Recordset2.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-135">Recordset2.Updatable property (DAO)</span></span>](recordset2-updatable-property-dao.md)
+- [<span data-ttu-id="b3217-136">Свойство Recordset2.UpdateOptions (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-136">Recordset2.UpdateOptions property (DAO)</span></span>](recordset2-updateoptions-property-dao.md)
+- [<span data-ttu-id="b3217-137">Свойство Recordset2.ValidationRule (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-137">Recordset2.ValidationRule property (DAO)</span></span>](recordset2-validationrule-property-dao.md)
+- [<span data-ttu-id="b3217-138">Свойство Recordset2.ValidationText (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3217-138">Recordset2.ValidationText property (DAO)</span></span>](recordset2-validationtext-property-dao.md)
 
-
-
-  - [<span data-ttu-id="12e69-104">Свойство Recordset2.AbsolutePosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-104">Recordset2.AbsolutePosition property (DAO)</span></span>](recordset2-absoluteposition-property-dao.md)
-
-  - [<span data-ttu-id="12e69-105">Свойство Recordset2.BatchCollisionCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-105">Recordset2.BatchCollisionCount property (DAO)</span></span>](recordset2-batchcollisioncount-property-dao.md)
-
-  - [<span data-ttu-id="12e69-106">Свойство Recordset2.BatchCollisions (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-106">Recordset2.BatchCollisions property (DAO)</span></span>](recordset2-batchcollisions-property-dao.md)
-
-  - [<span data-ttu-id="12e69-107">Свойство Recordset2.BATCHSIZE (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-107">Recordset2.BatchSize property (DAO)</span></span>](recordset2-batchsize-property-dao.md)
-
-  - [<span data-ttu-id="12e69-108">Свойство Recordset2.BOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-108">Recordset2.BOF property (DAO)</span></span>](recordset2-bof-property-dao.md)
-
-  - [<span data-ttu-id="12e69-109">Свойство Recordset2.Bookmark (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-109">Recordset2.Bookmark property (DAO)</span></span>](recordset2-bookmark-property-dao.md)
-
-  - [<span data-ttu-id="12e69-110">Свойство Recordset2.Bookmarkable (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-110">Recordset2.Bookmarkable property (DAO)</span></span>](recordset2-bookmarkable-property-dao.md)
-
-  - [<span data-ttu-id="12e69-111">Свойство Recordset2.CacheSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-111">Recordset2.CacheSize property (DAO)</span></span>](recordset2-cachesize-property-dao.md)
-
-  - [<span data-ttu-id="12e69-112">Свойство Recordset2.CacheStart (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-112">Recordset2.CacheStart property (DAO)</span></span>](recordset2-cachestart-property-dao.md)
-
-  - [<span data-ttu-id="12e69-113">Свойство Recordset2.Connection (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-113">Recordset2.Connection property (DAO)</span></span>](recordset2-connection-property-dao.md)
-
-  - [<span data-ttu-id="12e69-114">Свойство Recordset2.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-114">Recordset2.DateCreated property (DAO)</span></span>](recordset2-datecreated-property-dao.md)
-
-  - [<span data-ttu-id="12e69-115">Свойство Recordset2.EditMode (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-115">Recordset2.EditMode property (DAO)</span></span>](recordset2-editmode-property-dao.md)
-
-  - [<span data-ttu-id="12e69-116">Свойство Recordset2.EOF (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-116">Recordset2.EOF property (DAO)</span></span>](recordset2-eof-property-dao.md)
-
-  - [<span data-ttu-id="12e69-117">Свойство Recordset2.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-117">Recordset2.Fields property (DAO)</span></span>](recordset2-fields-property-dao.md)
-
-  - [<span data-ttu-id="12e69-118">Свойство Recordset2.Filter (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-118">Recordset2.Filter property (DAO)</span></span>](recordset2-filter-property-dao.md)
-
-  - [<span data-ttu-id="12e69-119">Свойство Recordset2.index (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-119">Recordset2.Index property (DAO)</span></span>](recordset2-index-property-dao.md)
-
-  - [<span data-ttu-id="12e69-120">Свойство Recordset2.LastModified (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-120">Recordset2.LastModified property (DAO)</span></span>](recordset2-lastmodified-property-dao.md)
-
-  - [<span data-ttu-id="12e69-121">Свойство Recordset2.LastUpdated (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-121">Recordset2.LastUpdated property (DAO)</span></span>](recordset2-lastupdated-property-dao.md)
-
-  - [<span data-ttu-id="12e69-122">Свойство Recordset2.LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-122">Recordset2.LockEdits property (DAO)</span></span>](recordset2-lockedits-property-dao.md)
-
-  - [<span data-ttu-id="12e69-123">Свойство Recordset2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-123">Recordset2.Name property (DAO)</span></span>](recordset2-name-property-dao.md)
-
-  - [<span data-ttu-id="12e69-124">Свойство Recordset2.NoMatch (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-124">Recordset2.NoMatch property (DAO)</span></span>](recordset2-nomatch-property-dao.md)
-
-  - [<span data-ttu-id="12e69-125">Свойство Recordset2.ParentRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-125">Recordset2.ParentRecordset property (DAO)</span></span>](recordset2-parentrecordset-property-dao.md)
-
-  - [<span data-ttu-id="12e69-126">Свойство Recordset2.PercentPosition (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-126">Recordset2.PercentPosition property (DAO)</span></span>](recordset2-percentposition-property-dao.md)
-
-  - [<span data-ttu-id="12e69-127">Свойство Recordset2.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-127">Recordset2.Properties property (DAO)</span></span>](recordset2-properties-property-dao.md)
-
-  - [<span data-ttu-id="12e69-128">Свойство Recordset2.RecordCount (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-128">Recordset2.RecordCount property (DAO)</span></span>](recordset2-recordcount-property-dao.md)
-
-  - [<span data-ttu-id="12e69-129">Свойство Recordset2.RecordStatus (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-129">Recordset2.RecordStatus property (DAO)</span></span>](recordset2-recordstatus-property-dao.md)
-
-  - [<span data-ttu-id="12e69-130">Свойство Recordset2.Restartable (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-130">Recordset2.Restartable property (DAO)</span></span>](recordset2-restartable-property-dao.md)
-
-  - [<span data-ttu-id="12e69-131">Свойство Recordset2.Sort (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-131">Recordset2.Sort property (DAO)</span></span>](recordset2-sort-property-dao.md)
-
-  - [<span data-ttu-id="12e69-132">Свойство Recordset2.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-132">Recordset2.StillExecuting property (DAO)</span></span>](recordset2-stillexecuting-property-dao.md)
-
-  - [<span data-ttu-id="12e69-133">Свойство Recordset2.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-133">Recordset2.Transactions property (DAO)</span></span>](recordset2-transactions-property-dao.md)
-
-  - [<span data-ttu-id="12e69-134">Свойство Recordset2.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-134">Recordset2.Type property (DAO)</span></span>](recordset2-type-property-dao.md)
-
-  - [<span data-ttu-id="12e69-135">Свойство Recordset2.Updatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-135">Recordset2.Updatable property (DAO)</span></span>](recordset2-updatable-property-dao.md)
-
-  - [<span data-ttu-id="12e69-136">Свойство Recordset2.UpdateOptions (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-136">Recordset2.UpdateOptions property (DAO)</span></span>](recordset2-updateoptions-property-dao.md)
-
-  - [<span data-ttu-id="12e69-137">Свойство Recordset2.ValidationRule (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-137">Recordset2.ValidationRule property (DAO)</span></span>](recordset2-validationrule-property-dao.md)
-
-  - [<span data-ttu-id="12e69-138">Свойство Recordset2.ValidationText (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e69-138">Recordset2.ValidationText property (DAO)</span></span>](recordset2-validationtext-property-dao.md)
 

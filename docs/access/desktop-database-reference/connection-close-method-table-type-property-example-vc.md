@@ -1,24 +1,24 @@
 ---
-title: Метод Close подключения, пример свойства типа таблица (VC ++)
-TOCTitle: Connection Close Method, Table Type property example (VC++)
+title: Метод Close подключения, пример свойства Type таблицы (VC++)
+TOCTitle: Connection Close method, Table Type property example (VC++)
 ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15)
 ms:contentKeyID: 48548006
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 595877a88a250d69cd4b9401bb30a0d63cfcb3b5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dcae0898ea0ce84f334711b9d2a1f2b941f6e684
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874435"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946904"
 ---
-# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="0bc28-102">Метод Close подключения, пример свойства типа таблица (VC ++)</span><span class="sxs-lookup"><span data-stu-id="0bc28-102">Connection Close Method, Table Type property example (VC++)</span></span>
+# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="534c6-102">Метод Close подключения, пример свойства Type таблицы (VC++)</span><span class="sxs-lookup"><span data-stu-id="534c6-102">Connection Close method, Table Type property example (VC++)</span></span>
 
 
-<span data-ttu-id="0bc28-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0bc28-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="534c6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="534c6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0bc28-104">Для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** «закрыть» каталог.</span><span class="sxs-lookup"><span data-stu-id="0bc28-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog.</span></span> <span data-ttu-id="0bc28-105">Связанные коллекции будет пустым.</span><span class="sxs-lookup"><span data-stu-id="0bc28-105">Associated collections will be empty.</span></span> <span data-ttu-id="0bc28-106">Любые объекты, которые были созданы на основе схемы объектам в каталоге будут изолированы.</span><span class="sxs-lookup"><span data-stu-id="0bc28-106">Any objects that were created from schema objects in the catalog will be orphaned.</span></span> <span data-ttu-id="0bc28-107">Любые свойства на те объекты, которые были кэшированы по-прежнему доступны, но при чтении свойства, которые требуют вызова к поставщику завершится с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="0bc28-107">Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="534c6-104">Для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** «закрыть» каталог.</span><span class="sxs-lookup"><span data-stu-id="534c6-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog.</span></span> <span data-ttu-id="534c6-105">Связанные коллекции будет пустым.</span><span class="sxs-lookup"><span data-stu-id="534c6-105">Associated collections will be empty.</span></span> <span data-ttu-id="534c6-106">Любые объекты, которые были созданы на основе схемы объектам в каталоге будут изолированы.</span><span class="sxs-lookup"><span data-stu-id="534c6-106">Any objects that were created from schema objects in the catalog will be orphaned.</span></span> <span data-ttu-id="534c6-107">Любые свойства на те объекты, которые были кэшированы по-прежнему доступны, но при чтении свойства, которые требуют вызова к поставщику завершится с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="534c6-107">Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```cpp 
  
