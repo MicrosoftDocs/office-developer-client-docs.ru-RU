@@ -23,7 +23,7 @@ ms.locfileid: "25397053"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Поддерживает регистрации для обратных вызовов уведомление об изменениях состояния подключения к учетной записи пользователя.
   
@@ -48,7 +48,7 @@ ms.locfileid: "25397053"
 | *Заполнитель члена*  <br/> | *Этот член — это и не поддерживается.*  <br/> |
 | *Заполнитель члена*  <br/> | *Этот член — это и не поддерживается.*  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При открытии автономного объекта для профиля учетной записи пользователя, с помощью **[HrOpenOfflineObj](hropenofflineobj.md)**, клиент получает автономного объекта, который поддерживает **IMAPIOfflineMgr**. 
   
@@ -63,9 +63,9 @@ ms.locfileid: "25397053"
 [IMAPIOffline : IUnknown](imapiofflineiunknown.md)
 
 
-[Сведения об API автономного состояния](about-the-offline-state-api.md)
+[Об API автономного режима](about-the-offline-state-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [HrOpenOfflineObj](hropenofflineobj.md)
   

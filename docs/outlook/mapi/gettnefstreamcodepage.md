@@ -19,7 +19,7 @@ ms.locfileid: "25399657"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Определяет кодовую страницу для потока Transport-Neutral Encapsulation формата TNEF ().
   
@@ -65,7 +65,7 @@ HRESULT GetTnefStreamCodepage(
   
 > Поток не поток TNEF либо произошла ошибка при чтении атрибута attOemCodepage.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте функцию **GetTnefStreamCodepage** для чтения атрибута **attOemCodepage** поток TNEF для определения кода страницы и страницы дополнительный код. Если **attOemCodepage** не найден, **GetTnefStreamCodepage** возвращает кодовую страницу 437 и страницы subcode 0. 
   

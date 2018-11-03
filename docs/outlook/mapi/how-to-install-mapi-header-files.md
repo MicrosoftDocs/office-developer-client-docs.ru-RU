@@ -1,5 +1,5 @@
 ---
-title: Установить файлы заголовков MAPI
+title: Установка файлов заголовков MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25399720"
 ---
-# <a name="install-mapi-header-files"></a>Установить файлы заголовков MAPI
+# <a name="install-mapi-header-files"></a>Установка файлов заголовков MAPI
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описывается, как получить и установить файлы заголовков MAPI и файлов библиотеки.
 
@@ -28,6 +28,6 @@ ms.locfileid: "25399720"
 ## <a name="see-also"></a>См. также
 
 - [����� �������� � ���������������� MAPI](mapi-programming-overview.md) 
-- [Ссылки на функции MAPI](how-to-link-to-mapi-functions.md)
+- [Ссылка на функции MAPI](how-to-link-to-mapi-functions.md)
 - [Часто используемые файлы заголовков](commonly-used-header-files.md)
 

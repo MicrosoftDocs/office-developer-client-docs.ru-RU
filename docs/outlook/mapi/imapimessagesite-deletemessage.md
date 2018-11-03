@@ -23,7 +23,7 @@ ms.locfileid: "25396493"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Удаление текущего сообщения.
   
@@ -54,7 +54,7 @@ MAPI_E_NO_SUPPORT
   
 > Операция не поддерживается на этом сайте сообщения.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект формы вызывает метод **IMAPIMessageSite::DeleteMessage** для удаления сообщения, в настоящее время отображения формы. 
   
@@ -105,5 +105,5 @@ MAPI_E_NO_SUPPORT
 
 [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы форм MAPI](mapi-form-interfaces.md)
+[Интерфейсы формы MAPI](mapi-form-interfaces.md)
 

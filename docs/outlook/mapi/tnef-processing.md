@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4d324fb3-d917-4502-b3a4-179c479deb79
-description: '���� ���������� ���������: 5 ���� 2012 �.'
+description: 'Дата последнего изменения: 05 июля 2012 г.'
 ms.openlocfilehash: 066ad3dfb64161e326b92fef7774d5b3b9461d8a
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "25399572"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Следующая последовательность действий описывают, как транспортов использовать методы TNEF для обработки входящих и исходящих сообщений.
   

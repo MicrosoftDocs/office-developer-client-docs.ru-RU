@@ -23,7 +23,7 @@ ms.locfileid: "25399650"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Завершение сеанса MAPI.
   
@@ -63,7 +63,7 @@ S_OK
   
 > Выход из системы операция выполнена успешно.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession::Logoff** завершает сеанс MAPI. При возврате **выхода из системы** , ни один из методов, за исключением [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) может быть вызван. 
   

@@ -23,7 +23,7 @@ ms.locfileid: "25398943"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Представляет Дата и время окончания для сообщения журнала.
   
@@ -35,7 +35,7 @@ ms.locfileid: "25398943"
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |������  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Время действия завершения в формате UTC (UTC), которое должно быть равно свойству **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) и больше или равно свойству **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)).
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
 
