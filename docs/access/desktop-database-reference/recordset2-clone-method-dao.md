@@ -1,56 +1,56 @@
 ---
-title: Recordset2.Clone Method (DAO)
+title: Метод Recordset2.Clone (DAO)
 TOCTitle: Clone Method
 ms:assetid: f0d32cb1-03f6-395d-2509-b2139a5fdc68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 95d02f56a7c1e916bd0b6181a7a22b3cebb9d9b1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 666e27b176fb973298c791f7473dbda6fe37c7b0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875030"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928833"
 ---
-# <a name="recordset2clone-method-dao"></a><span data-ttu-id="f4afc-102">Recordset2.Clone Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="f4afc-102">Recordset2.Clone Method (DAO)</span></span>
+# <a name="recordset2clone-method-dao"></a><span data-ttu-id="5ad6d-102">Метод Recordset2.Clone (DAO)</span><span class="sxs-lookup"><span data-stu-id="5ad6d-102">Recordset2.Clone method (DAO)</span></span>
 
 
-<span data-ttu-id="f4afc-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f4afc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5ad6d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ad6d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f4afc-104">Создает объект повторяющихся **[записей](recordset-object-dao.md)** , на который ссылается на исходный объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="f4afc-104">Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset2** object.</span></span>
+<span data-ttu-id="5ad6d-104">Создает объект повторяющихся **[записей](recordset-object-dao.md)** , на который ссылается на исходный объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="5ad6d-104">Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset2** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f4afc-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f4afc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5ad6d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5ad6d-105">Syntax</span></span>
 
-<span data-ttu-id="f4afc-106">*выражение* . Копия</span><span class="sxs-lookup"><span data-stu-id="f4afc-106">*expression* .Clone</span></span>
+<span data-ttu-id="5ad6d-106">*выражение* . Копия</span><span class="sxs-lookup"><span data-stu-id="5ad6d-106">*expression* .Clone</span></span>
 
-<span data-ttu-id="f4afc-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="f4afc-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="5ad6d-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="5ad6d-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-### <a name="return-value"></a><span data-ttu-id="f4afc-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="f4afc-108">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="5ad6d-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5ad6d-108">Return value</span></span>
 
-<span data-ttu-id="f4afc-109">Набор записей</span><span class="sxs-lookup"><span data-stu-id="f4afc-109">Recordset</span></span>
+<span data-ttu-id="5ad6d-109">Набор записей</span><span class="sxs-lookup"><span data-stu-id="5ad6d-109">Recordset</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f4afc-110">Замечания</span><span class="sxs-lookup"><span data-stu-id="f4afc-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5ad6d-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="5ad6d-110">Remarks</span></span>
 
-<span data-ttu-id="f4afc-111">Используйте метод **клонированной** для создания нескольких дубликатов объектов **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="f4afc-111">Use the **Clone** method to create multiple, duplicate **Recordset** objects.</span></span> <span data-ttu-id="f4afc-112">Каждый набор записей может иметь собственный текущей записи.</span><span class="sxs-lookup"><span data-stu-id="f4afc-112">Each recordset can have its own current record.</span></span> <span data-ttu-id="f4afc-113">С помощью **клонированной** сам по себе не изменяет данные в объектах или в их базовые структуры.</span><span class="sxs-lookup"><span data-stu-id="f4afc-113">Using **Clone** by itself doesn't change the data in the objects or in their underlying structures.</span></span> <span data-ttu-id="f4afc-114">При использовании метода **клонирования** могут совместно использовать закладки между двумя или более объектов **Recordset2** , так как их закладки являются взаимозаменяемыми.</span><span class="sxs-lookup"><span data-stu-id="f4afc-114">When you use the **Clone** method, you can share bookmarks between two or more **Recordset2** objects because their bookmarks are interchangeable.</span></span>
+<span data-ttu-id="5ad6d-111">Используйте метод **клонированной** для создания нескольких дубликатов объектов **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="5ad6d-111">Use the **Clone** method to create multiple, duplicate **Recordset** objects.</span></span> <span data-ttu-id="5ad6d-112">Каждый набор записей может иметь собственный текущей записи.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-112">Each recordset can have its own current record.</span></span> <span data-ttu-id="5ad6d-113">С помощью **клонированной** сам по себе не изменяет данные в объектах или в их базовые структуры.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-113">Using **Clone** by itself doesn't change the data in the objects or in their underlying structures.</span></span> <span data-ttu-id="5ad6d-114">При использовании метода **клонирования** могут совместно использовать закладки между двумя или более объектов **Recordset2** , так как их закладки являются взаимозаменяемыми.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-114">When you use the **Clone** method, you can share bookmarks between two or more **Recordset2** objects because their bookmarks are interchangeable.</span></span>
 
-<span data-ttu-id="f4afc-115">Можно использовать метод **клонированной** , если необходимо использовать для выполнения операции наборов записей, требует нескольких записей текущей.</span><span class="sxs-lookup"><span data-stu-id="f4afc-115">You can use the **Clone** method when you want to perform an operation on a recordset that requires multiple current records.</span></span> <span data-ttu-id="f4afc-116">Это быстрее и эффективнее, чем при открытии второго набора записей.</span><span class="sxs-lookup"><span data-stu-id="f4afc-116">This is faster and more efficient than opening a second recordset.</span></span> <span data-ttu-id="f4afc-117">При создании набора записей с помощью метода **клонированной** его изначально не имеет текущей записи.</span><span class="sxs-lookup"><span data-stu-id="f4afc-117">When you create a recordset with the **Clone** method, it initially lacks a current record.</span></span> <span data-ttu-id="f4afc-118">Чтобы сделать запись текущей, прежде чем использовать клонированной записей, необходимо задать свойство **[закладку](recordset2-bookmark-property-dao.md)** или используйте один из методов **[перемещения](recordset-movefirst-method-dao.md)** , один из методов **[поиска](recordset2-findfirst-method-dao.md)** , либо метод **[Seek](recordset2-seek-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="f4afc-118">To make a record current before you use the recordset clone, you must set the **[Bookmark](recordset2-bookmark-property-dao.md)** property or use one of the **[Move](recordset-movefirst-method-dao.md)** methods, one of the **[Find](recordset2-findfirst-method-dao.md)** methods, or the **[Seek](recordset2-seek-method-dao.md)** method.</span></span>
+<span data-ttu-id="5ad6d-115">Можно использовать метод **клонированной** , если необходимо использовать для выполнения операции наборов записей, требует нескольких записей текущей.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-115">You can use the **Clone** method when you want to perform an operation on a recordset that requires multiple current records.</span></span> <span data-ttu-id="5ad6d-116">Это быстрее и эффективнее, чем при открытии второго набора записей.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-116">This is faster and more efficient than opening a second recordset.</span></span> <span data-ttu-id="5ad6d-117">При создании набора записей с помощью метода **клонированной** его изначально не имеет текущей записи.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-117">When you create a recordset with the **Clone** method, it initially lacks a current record.</span></span> <span data-ttu-id="5ad6d-118">Чтобы сделать запись текущей, прежде чем использовать клонированной записей, необходимо задать свойство **[закладку](recordset2-bookmark-property-dao.md)** или используйте один из методов **[перемещения](recordset-movefirst-method-dao.md)** , один из методов **[поиска](recordset2-findfirst-method-dao.md)** , либо метод **[Seek](recordset2-seek-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="5ad6d-118">To make a record current before you use the recordset clone, you must set the **[Bookmark](recordset2-bookmark-property-dao.md)** property or use one of the **[Move](recordset-movefirst-method-dao.md)** methods, one of the **[Find](recordset2-findfirst-method-dao.md)** methods, or the **[Seek](recordset2-seek-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="f4afc-119">С помощью метода **[Close](connection-close-method-dao.md)** исходной или повторяющихся объекта не влияет на другой объект.</span><span class="sxs-lookup"><span data-stu-id="f4afc-119">Using the **[Close](connection-close-method-dao.md)** method on either the original or duplicate object doesn't affect the other object.</span></span> <span data-ttu-id="f4afc-120">К примеру на исходный набора записей с помощью **Закрыть** не закройте копия.</span><span class="sxs-lookup"><span data-stu-id="f4afc-120">For example, using **Close** on the original recordset doesn't close the clone.</span></span>
+<span data-ttu-id="5ad6d-119">С помощью метода **[Close](connection-close-method-dao.md)** исходной или повторяющихся объекта не влияет на другой объект.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-119">Using the **[Close](connection-close-method-dao.md)** method on either the original or duplicate object doesn't affect the other object.</span></span> <span data-ttu-id="5ad6d-120">К примеру на исходный набора записей с помощью **Закрыть** не закройте копия.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-120">For example, using **Close** on the original recordset doesn't close the clone.</span></span>
 
 
 > [!NOTE]
 > <UL>
 > <LI>
-> <P><span data-ttu-id="f4afc-121">Закрытие набора записей клонированной ожидающие транзакции будет отображено неявные операции <STRONG>отката</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="f4afc-121">Closing a clone recordset within a pending transaction will cause an implicit <STRONG>Rollback</STRONG> operation.</span></span></P>
+> <P><span data-ttu-id="5ad6d-121">Закрытие набора записей клонированной ожидающие транзакции будет отображено неявные операции <STRONG>отката</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="5ad6d-121">Closing a clone recordset within a pending transaction will cause an implicit <STRONG>Rollback</STRONG> operation.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="f4afc-122">При клонировании объекта <STRONG>набора записей</STRONG> в таблице типа в рабочей области Microsoft Access значение свойства <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> не копируется в новую копию набора записей.</span><span class="sxs-lookup"><span data-stu-id="f4afc-122">When you clone a table-type <STRONG>Recordset</STRONG> object in a Microsoft Access workspace, the <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> property setting is not cloned on the new copy of the recordset.</span></span> <span data-ttu-id="f4afc-123">Необходимо скопировать вручную значение свойства <STRONG>Index</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="f4afc-123">You must copy the <STRONG>Index</STRONG> property setting manually.</span></span></P></LI></UL>
+> <P><span data-ttu-id="5ad6d-122">При клонировании объекта <STRONG>набора записей</STRONG> в таблице типа в рабочей области Microsoft Access значение свойства <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> не копируется в новую копию набора записей.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-122">When you clone a table-type <STRONG>Recordset</STRONG> object in a Microsoft Access workspace, the <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> property setting is not cloned on the new copy of the recordset.</span></span> <span data-ttu-id="5ad6d-123">Необходимо скопировать вручную значение свойства <STRONG>Index</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="5ad6d-123">You must copy the <STRONG>Index</STRONG> property setting manually.</span></span></P></LI></UL>
 
 
 
-## <a name="example"></a><span data-ttu-id="f4afc-124">Пример</span><span class="sxs-lookup"><span data-stu-id="f4afc-124">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5ad6d-124">Пример</span><span class="sxs-lookup"><span data-stu-id="5ad6d-124">Example</span></span>
 
-<span data-ttu-id="f4afc-125">В этом примере используется метод **клонированной** для создания копии набора записей и затем позволяет пользователя положение указателя записи каждой копии независимо друг от друга.</span><span class="sxs-lookup"><span data-stu-id="f4afc-125">This example uses the **Clone** method to create copies of a recordset and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="5ad6d-125">В этом примере используется метод **клонированной** для создания копии набора записей и затем позволяет пользователя положение указателя записи каждой копии независимо друг от друга.</span><span class="sxs-lookup"><span data-stu-id="5ad6d-125">This example uses the **Clone** method to create copies of a recordset and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```vb
     Sub CloneX() 

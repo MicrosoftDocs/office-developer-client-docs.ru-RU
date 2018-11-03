@@ -10,31 +10,30 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c73aa8f4023ea5d3a192608fad88bf336e6e858f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 571698567816b34071e99c7dc46af11274a54c80
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924801"
+ms.locfileid: "25937145"
 ---
-# <a name="field2savetofile-method-dao"></a><span data-ttu-id="7ada5-102">Метод Field2.SaveToFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ada5-102">Field2.SaveToFile method (DAO)</span></span>
+# <a name="field2savetofile-method-dao"></a><span data-ttu-id="a98e4-102">Метод Field2.SaveToFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="a98e4-102">Field2.SaveToFile method (DAO)</span></span>
 
-<span data-ttu-id="7ada5-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ada5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a98e4-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a98e4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7ada5-104">Сохранение вложений на диске.</span><span class="sxs-lookup"><span data-stu-id="7ada5-104">Saves an attachment to disk.</span></span>
+<span data-ttu-id="a98e4-104">Сохранение вложений на диске.</span><span class="sxs-lookup"><span data-stu-id="a98e4-104">Saves an attachment to disk.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="7ada5-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="7ada5-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="a98e4-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="a98e4-105">Version information</span></span>
 
-<span data-ttu-id="7ada5-106">Добавлена версия: Access 2007
-</span><span class="sxs-lookup"><span data-stu-id="7ada5-106">Version Added: Access 2007</span></span>
+<span data-ttu-id="a98e4-106">Добавлена версия: Access 2007</span><span class="sxs-lookup"><span data-stu-id="a98e4-106">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7ada5-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7ada5-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a98e4-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a98e4-107">Syntax</span></span>
 
-<span data-ttu-id="7ada5-108">*выражение* . SaveToFile (***имя файла***)</span><span class="sxs-lookup"><span data-stu-id="7ada5-108">*expression* .SaveToFile(***FileName***)</span></span>
+<span data-ttu-id="a98e4-108">*выражение* . SaveToFile (***имя файла***)</span><span class="sxs-lookup"><span data-stu-id="a98e4-108">*expression* .SaveToFile(***FileName***)</span></span>
 
-<span data-ttu-id="7ada5-109">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="7ada5-109">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="a98e4-109">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="a98e4-109">*expression* A variable that represents a **Field2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="7ada5-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="7ada5-110">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="a98e4-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="a98e4-110">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -45,26 +44,26 @@ ms.locfileid: "25924801"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7ada5-111">Имя</span><span class="sxs-lookup"><span data-stu-id="7ada5-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="7ada5-112">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="7ada5-112">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="7ada5-113">Тип данных</span><span class="sxs-lookup"><span data-stu-id="7ada5-113">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="7ada5-114">Описание</span><span class="sxs-lookup"><span data-stu-id="7ada5-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="a98e4-111">Имя</span><span class="sxs-lookup"><span data-stu-id="a98e4-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="a98e4-112">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="a98e4-112">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="a98e4-113">Тип данных</span><span class="sxs-lookup"><span data-stu-id="a98e4-113">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="a98e4-114">Описание</span><span class="sxs-lookup"><span data-stu-id="a98e4-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7ada5-115">FileName</span><span class="sxs-lookup"><span data-stu-id="7ada5-115">FileName</span></span></p></td>
-<td><p><span data-ttu-id="7ada5-116">Обязательный</span><span class="sxs-lookup"><span data-stu-id="7ada5-116">Required</span></span></p></td>
-<td><p><span data-ttu-id="7ada5-117"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="7ada5-117"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="7ada5-118">Полный путь к файлу, к которому вы хотите сохранить вложение.</span><span class="sxs-lookup"><span data-stu-id="7ada5-118">The fully qualified path of the file to which you want to save the attachment.</span></span></p></td>
+<td><p><span data-ttu-id="a98e4-115">FileName</span><span class="sxs-lookup"><span data-stu-id="a98e4-115">FileName</span></span></p></td>
+<td><p><span data-ttu-id="a98e4-116">Обязательный</span><span class="sxs-lookup"><span data-stu-id="a98e4-116">Required</span></span></p></td>
+<td><p><span data-ttu-id="a98e4-117"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="a98e4-117"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="a98e4-118">Полный путь к файлу, к которому вы хотите сохранить вложение.</span><span class="sxs-lookup"><span data-stu-id="a98e4-118">The fully qualified path of the file to which you want to save the attachment.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="example"></a><span data-ttu-id="7ada5-119">Пример</span><span class="sxs-lookup"><span data-stu-id="7ada5-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a98e4-119">Пример</span><span class="sxs-lookup"><span data-stu-id="a98e4-119">Example</span></span>
 
-<span data-ttu-id="7ada5-120">В следующем фрагменте кода показано, как использовать метод **SaveToFile** для сохранения всех вложений для конкретного сотрудника на диске.</span><span class="sxs-lookup"><span data-stu-id="7ada5-120">The following code snippet illustrates how to use the **SaveToFile** method to save all of the attachments for a specific employee to disk.</span></span>
+<span data-ttu-id="a98e4-120">В следующем фрагменте кода показано, как использовать метод **SaveToFile** для сохранения всех вложений для конкретного сотрудника на диске.</span><span class="sxs-lookup"><span data-stu-id="a98e4-120">The following code snippet illustrates how to use the **SaveToFile** method to save all of the attachments for a specific employee to disk.</span></span>
 
 ```vb
     '  Instantiate the parent recordset.  
@@ -87,9 +86,9 @@ ms.locfileid: "25924801"
 
 <br/>
 
-<span data-ttu-id="7ada5-121">Следующем примере показано, как для сохранения файлов, сохраненных в поля вложения для указанной папки.</span><span class="sxs-lookup"><span data-stu-id="7ada5-121">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="a98e4-121">Следующем примере показано, как для сохранения файлов, сохраненных в поля вложения для указанной папки.</span><span class="sxs-lookup"><span data-stu-id="a98e4-121">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
-<span data-ttu-id="7ada5-122">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="7ada5-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="a98e4-122">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="a98e4-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

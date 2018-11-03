@@ -1,30 +1,24 @@
 ---
-title: TableDef Object Reference (DAO)
-TOCTitle: TableDef Object
+title: Ссылка на объект TableDef (DAO)
+TOCTitle: TableDef
 ms:assetid: 5a521e96-f9b6-4719-a21b-2c2114a88982
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124949(v=office.15)
 ms:contentKeyID: 52072569
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b83c78193d04d0ac28b86686b18ab5980f84cad1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5d439a577ef70c26292eee463e342237910dba61
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873056"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930163"
 ---
-# <a name="tabledef-object-reference-dao"></a><span data-ttu-id="2c8cf-102">TableDef Object Reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c8cf-102">TableDef Object Reference (DAO)</span></span>
+# <a name="tabledef-object-reference-dao"></a><span data-ttu-id="17c96-102">Ссылка на объект TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="17c96-102">TableDef object reference (DAO)</span></span>
 
+<span data-ttu-id="17c96-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="17c96-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2c8cf-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c8cf-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="2c8cf-104">TableDef Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c8cf-104">TableDef Object (DAO)</span></span>](tabledef-object-dao.md)
-
-  - [<span data-ttu-id="2c8cf-105">TableDef Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c8cf-105">TableDef Members (DAO)</span></span>](tabledef-members-dao.md)
-
-  - [<span data-ttu-id="2c8cf-106">TableDef Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c8cf-106">TableDef Properties (DAO)</span></span>](tabledef-properties-dao.md)
-
-  - [<span data-ttu-id="2c8cf-107">TableDef Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c8cf-107">TableDef Methods (DAO)</span></span>](tabledef-methods-dao.md)
+- [<span data-ttu-id="17c96-104">Объект TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="17c96-104">TableDef object (DAO)</span></span>](tabledef-object-dao.md)
+- [<span data-ttu-id="17c96-105">Члены TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="17c96-105">TableDef members (DAO)</span></span>](tabledef-members-dao.md)
+- [<span data-ttu-id="17c96-106">Свойства TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="17c96-106">TableDef properties (DAO)</span></span>](tabledef-properties-dao.md)
+- [<span data-ttu-id="17c96-107">Методы TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="17c96-107">TableDef methods (DAO)</span></span>](tabledef-methods-dao.md)
 

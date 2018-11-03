@@ -1,26 +1,26 @@
 ---
-title: Container Members (DAO)
+title: Участники контейнера (DAO)
 TOCTitle: Container Members
 ms:assetid: bdf7aeff-0203-7880-99b4-db5b55e98d33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822740(v=office.15)
 ms:contentKeyID: 48547451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba0341e9d9be646e1973b6128b296be799eb85f4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dac5eb06c1a973f52154050e1035c6ff9d84832b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874302"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923338"
 ---
-# <a name="container-members-dao"></a><span data-ttu-id="cc9b9-102">Container Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc9b9-102">Container Members (DAO)</span></span>
+# <a name="container-members-dao"></a><span data-ttu-id="e94d6-102">Участники контейнера (DAO)</span><span class="sxs-lookup"><span data-stu-id="e94d6-102">Container members (DAO)</span></span>
 
 
-<span data-ttu-id="cc9b9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc9b9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e94d6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e94d6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cc9b9-104">Объект контейнера групп сходных типов объектов документа.</span><span class="sxs-lookup"><span data-stu-id="cc9b9-104">A Container object groups similar types of Document objects together.</span></span>
+<span data-ttu-id="e94d6-104">Объект контейнера групп сходных типов объектов документа.</span><span class="sxs-lookup"><span data-stu-id="e94d6-104">A Container object groups similar types of Document objects together.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="cc9b9-105">Свойства</span><span class="sxs-lookup"><span data-stu-id="cc9b9-105">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="e94d6-105">Свойства</span><span class="sxs-lookup"><span data-stu-id="e94d6-105">Properties</span></span>
 
 <table>
 <colgroup>
@@ -29,22 +29,22 @@ ms.locfileid: "25874302"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="cc9b9-106">Имя</span><span class="sxs-lookup"><span data-stu-id="cc9b9-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="cc9b9-107">Описание</span><span class="sxs-lookup"><span data-stu-id="cc9b9-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="e94d6-106">Имя</span><span class="sxs-lookup"><span data-stu-id="e94d6-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="e94d6-107">Описание</span><span class="sxs-lookup"><span data-stu-id="e94d6-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cc9b9-108"><strong><a href="container-documents-property-dao.md">Документы</a></strong></span><span class="sxs-lookup"><span data-stu-id="cc9b9-108"><strong><a href="container-documents-property-dao.md">Documents</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cc9b9-109">Возвращает коллекцию <strong>документов</strong> , который содержит все документы, хранящиеся в указанном объекте.</span><span class="sxs-lookup"><span data-stu-id="cc9b9-109">Returns a <strong>Documents</strong> collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="cc9b9-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="cc9b9-110">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="e94d6-108"><strong><a href="container-documents-property-dao.md">Документы</a></strong></span><span class="sxs-lookup"><span data-stu-id="e94d6-108"><strong><a href="container-documents-property-dao.md">Documents</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="e94d6-109">Возвращает коллекцию <strong>документов</strong> , который содержит все документы, хранящиеся в указанном объекте.</span><span class="sxs-lookup"><span data-stu-id="e94d6-109">Returns a <strong>Documents</strong> collection that contains all of the documents stored in the specified object.</span></span> <span data-ttu-id="e94d6-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e94d6-110">Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cc9b9-111"><strong><a href="container-name-property-dao.md">Имя</a></strong></span><span class="sxs-lookup"><span data-stu-id="cc9b9-111"><strong><a href="container-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cc9b9-112">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="cc9b9-112">Returns the name of the specified object.</span></span> <span data-ttu-id="cc9b9-113">Только для чтения, <strong>String</strong>.</span><span class="sxs-lookup"><span data-stu-id="cc9b9-113">Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="e94d6-111"><strong><a href="container-name-property-dao.md">Имя</a></strong></span><span class="sxs-lookup"><span data-stu-id="e94d6-111"><strong><a href="container-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="e94d6-112">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="e94d6-112">Returns the name of the specified object.</span></span> <span data-ttu-id="e94d6-113">Только для чтения, <strong>String</strong>.</span><span class="sxs-lookup"><span data-stu-id="e94d6-113">Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cc9b9-114"><strong><a href="container-properties-property-dao.md">Свойства</a></strong></span><span class="sxs-lookup"><span data-stu-id="cc9b9-114"><strong><a href="container-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cc9b9-115">Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="cc9b9-115">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object.</span></span> <span data-ttu-id="cc9b9-116">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="cc9b9-116">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="e94d6-114"><strong><a href="container-properties-property-dao.md">Свойства</a></strong></span><span class="sxs-lookup"><span data-stu-id="e94d6-114"><strong><a href="container-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="e94d6-115">Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="e94d6-115">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object.</span></span> <span data-ttu-id="e94d6-116">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e94d6-116">Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

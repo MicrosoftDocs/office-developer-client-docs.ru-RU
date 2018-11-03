@@ -6,27 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09660c472a6fd799c111214dafe3266cdec9eced
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1d3bf59549a37e728d26da2e5986e852235d6f77
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926649"
+ms.locfileid: "25937451"
 ---
-# <a name="field2getchunk-method-dao"></a><span data-ttu-id="c6063-102">Метод Field2.GetChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="c6063-102">Field2.GetChunk method (DAO)</span></span>
+# <a name="field2getchunk-method-dao"></a><span data-ttu-id="44454-102">Метод Field2.GetChunk (DAO)</span><span class="sxs-lookup"><span data-stu-id="44454-102">Field2.GetChunk method (DAO)</span></span>
 
 
-<span data-ttu-id="c6063-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c6063-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="44454-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="44454-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c6063-104">Возвращает все или часть содержимого **Memo** или **Длинный BinaryField2** объекта в коллекции **[полей](fields-collection-dao.md)** объекта **[набора записей](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="c6063-104">Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.</span></span>
+<span data-ttu-id="44454-104">Возвращает все или часть содержимого **Memo** или **Длинный BinaryField2** объекта в коллекции **[полей](fields-collection-dao.md)** объекта **[набора записей](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="44454-104">Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c6063-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c6063-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="44454-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="44454-105">Syntax</span></span>
 
-<span data-ttu-id="c6063-106">*выражение* . Методы GetChunk (***смещение***, ***в байтах***)</span><span class="sxs-lookup"><span data-stu-id="c6063-106">*expression* .GetChunk(***Offset***, ***Bytes***)</span></span>
+<span data-ttu-id="44454-106">*выражение* . Методы GetChunk (***смещение***, ***в байтах***)</span><span class="sxs-lookup"><span data-stu-id="44454-106">*expression* .GetChunk(***Offset***, ***Bytes***)</span></span>
 
-<span data-ttu-id="c6063-107">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="c6063-107">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="44454-107">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="44454-107">*expression* A variable that represents a **Field2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="c6063-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="c6063-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="44454-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="44454-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,50 +37,47 @@ ms.locfileid: "25926649"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="c6063-109">Имя</span><span class="sxs-lookup"><span data-stu-id="c6063-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="c6063-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="c6063-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="c6063-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="c6063-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="c6063-112">Описание</span><span class="sxs-lookup"><span data-stu-id="c6063-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="44454-109">Имя</span><span class="sxs-lookup"><span data-stu-id="44454-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="44454-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="44454-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="44454-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="44454-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="44454-112">Описание</span><span class="sxs-lookup"><span data-stu-id="44454-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c6063-113">Offset</span><span class="sxs-lookup"><span data-stu-id="c6063-113">Offset</span></span></p></td>
-<td><p><span data-ttu-id="c6063-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="c6063-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="c6063-115"><strong>Длинный</strong></span><span class="sxs-lookup"><span data-stu-id="c6063-115"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="c6063-116">Число байтов, пропустите перед начинается копирование.</span><span class="sxs-lookup"><span data-stu-id="c6063-116">The number of bytes to skip before copying begins.</span></span></p></td>
+<td><p><span data-ttu-id="44454-113">Offset</span><span class="sxs-lookup"><span data-stu-id="44454-113">Offset</span></span></p></td>
+<td><p><span data-ttu-id="44454-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="44454-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="44454-115"><strong>Длинный</strong></span><span class="sxs-lookup"><span data-stu-id="44454-115"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="44454-116">Число байтов, пропустите перед начинается копирование.</span><span class="sxs-lookup"><span data-stu-id="44454-116">The number of bytes to skip before copying begins.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c6063-117">Байт</span><span class="sxs-lookup"><span data-stu-id="c6063-117">Bytes</span></span></p></td>
-<td><p><span data-ttu-id="c6063-118">Обязательный</span><span class="sxs-lookup"><span data-stu-id="c6063-118">Required</span></span></p></td>
-<td><p><span data-ttu-id="c6063-119"><strong>Длинный</strong></span><span class="sxs-lookup"><span data-stu-id="c6063-119"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="c6063-120">Число байтов, которые необходимо вернуть.</span><span class="sxs-lookup"><span data-stu-id="c6063-120">The number of bytes you want to return.</span></span></p></td>
+<td><p><span data-ttu-id="44454-117">Байт</span><span class="sxs-lookup"><span data-stu-id="44454-117">Bytes</span></span></p></td>
+<td><p><span data-ttu-id="44454-118">Обязательный</span><span class="sxs-lookup"><span data-stu-id="44454-118">Required</span></span></p></td>
+<td><p><span data-ttu-id="44454-119"><strong>Длинный</strong></span><span class="sxs-lookup"><span data-stu-id="44454-119"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="44454-120">Число байтов, которые необходимо вернуть.</span><span class="sxs-lookup"><span data-stu-id="44454-120">The number of bytes you want to return.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a><span data-ttu-id="c6063-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c6063-121">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="44454-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="44454-121">Return value</span></span>
 
-<span data-ttu-id="c6063-122">Variant</span><span class="sxs-lookup"><span data-stu-id="c6063-122">Variant</span></span>
+<span data-ttu-id="44454-122">Variant</span><span class="sxs-lookup"><span data-stu-id="44454-122">Variant</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c6063-123">Примечания</span><span class="sxs-lookup"><span data-stu-id="c6063-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="44454-123">Примечания</span><span class="sxs-lookup"><span data-stu-id="44454-123">Remarks</span></span>
 
-<span data-ttu-id="c6063-124">Байт, возвращаемых **GetChunk** назначаются переменной.</span><span class="sxs-lookup"><span data-stu-id="c6063-124">The bytes returned by **GetChunk** are assigned to variable.</span></span> <span data-ttu-id="c6063-125">Используйте **GetChunk** для возврата значения данных за раз.</span><span class="sxs-lookup"><span data-stu-id="c6063-125">Use **GetChunk** to return a portion of the total data value at a time.</span></span> <span data-ttu-id="c6063-126">Метод **[AppendChunk](field-appendchunk-method-dao.md)** воссоздать компоненты.</span><span class="sxs-lookup"><span data-stu-id="c6063-126">You can use the **[AppendChunk](field-appendchunk-method-dao.md)** method to reassemble the pieces.</span></span>
+<span data-ttu-id="44454-124">Байт, возвращаемых **GetChunk** назначаются переменной.</span><span class="sxs-lookup"><span data-stu-id="44454-124">The bytes returned by **GetChunk** are assigned to variable.</span></span> <span data-ttu-id="44454-125">Используйте **GetChunk** для возврата значения данных за раз.</span><span class="sxs-lookup"><span data-stu-id="44454-125">Use **GetChunk** to return a portion of the total data value at a time.</span></span> <span data-ttu-id="44454-126">Метод **[AppendChunk](field-appendchunk-method-dao.md)** воссоздать компоненты.</span><span class="sxs-lookup"><span data-stu-id="44454-126">You can use the **[AppendChunk](field-appendchunk-method-dao.md)** method to reassemble the pieces.</span></span>
 
-<span data-ttu-id="c6063-127">Если смещение равно 0, **GetChunk** начинает копировать из первого байта ответа от поля.</span><span class="sxs-lookup"><span data-stu-id="c6063-127">If offset is 0, **GetChunk** begins copying from the first byte of the field.</span></span>
+<span data-ttu-id="44454-127">Если смещение равно 0, **GetChunk** начинает копировать из первого байта ответа от поля.</span><span class="sxs-lookup"><span data-stu-id="44454-127">If offset is 0, **GetChunk** begins copying from the first byte of the field.</span></span>
 
-<span data-ttu-id="c6063-128">Если numbytes больше, чем число байтов в поле, **GetChunk** возвращает фактическое число байтов оставшихся в соответствующем поле.</span><span class="sxs-lookup"><span data-stu-id="c6063-128">If numbytes is greater than the number of bytes in the field, **GetChunk** returns the actual number of remaining bytes in the field.</span></span>
-
+<span data-ttu-id="44454-128">Если numbytes больше, чем число байтов в поле, **GetChunk** возвращает фактическое число байтов оставшихся в соответствующем поле.</span><span class="sxs-lookup"><span data-stu-id="44454-128">If numbytes is greater than the number of bytes in the field, **GetChunk** returns the actual number of remaining bytes in the field.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="c6063-129">Используйте поле <STRONG>Memo</STRONG> для текста и поместить двоичные данные только в <STRONG>Длинный двоичные</STRONG> поля.</span><span class="sxs-lookup"><span data-stu-id="c6063-129">Use a <STRONG>Memo</STRONG> field for text, and put binary data only in <STRONG>Long Binary</STRONG> fields.</span></span> <span data-ttu-id="c6063-130">В противном случае это приведет к нежелательным результатам.</span><span class="sxs-lookup"><span data-stu-id="c6063-130">Doing otherwise will cause undesirable results.</span></span></P>
+> <span data-ttu-id="44454-129">Используйте поле **Memo** для текста и поместить двоичные данные только в **Длинный двоичные** поля.</span><span class="sxs-lookup"><span data-stu-id="44454-129">Use a **Memo** field for text, and put binary data only in **Long Binary** fields.</span></span> <span data-ttu-id="44454-130">В противном случае это приведет к нежелательным результатам.</span><span class="sxs-lookup"><span data-stu-id="44454-130">Doing otherwise will cause undesirable results.</span></span>
 
+## <a name="example"></a><span data-ttu-id="44454-131">Пример</span><span class="sxs-lookup"><span data-stu-id="44454-131">Example</span></span>
 
-
-## <a name="example"></a><span data-ttu-id="c6063-131">Пример</span><span class="sxs-lookup"><span data-stu-id="c6063-131">Example</span></span>
-
-<span data-ttu-id="c6063-132">В этом примере использует методы **AppendChunk** и **GetChunk** для заполнения поле объекта OLE с данными из другой записи 32 КБ за раз.</span><span class="sxs-lookup"><span data-stu-id="c6063-132">This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time.</span></span> <span data-ttu-id="c6063-133">В реальном приложении один может использовать процедуру следующим образом для копирования запись сотрудника (включая фотографию сотрудника) из одной таблицы в другую.</span><span class="sxs-lookup"><span data-stu-id="c6063-133">In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another.</span></span> <span data-ttu-id="c6063-134">В этом примере запись просто копируется обратно в одной таблицы.</span><span class="sxs-lookup"><span data-stu-id="c6063-134">In this example, the record is simply being copied back to same table.</span></span> <span data-ttu-id="c6063-135">Обратите внимание, что все операции блока выполняется в рамках одного последовательность обновления AddNew.</span><span class="sxs-lookup"><span data-stu-id="c6063-135">Note that all the chunk manipulation takes place within a single AddNew-Update sequence.</span></span>
+<span data-ttu-id="44454-132">В этом примере использует методы **AppendChunk** и **GetChunk** для заполнения поле объекта OLE с данными из другой записи 32 КБ за раз.</span><span class="sxs-lookup"><span data-stu-id="44454-132">This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time.</span></span> <span data-ttu-id="44454-133">В реальном приложении один может использовать процедуру следующим образом для копирования запись сотрудника (включая фотографию сотрудника) из одной таблицы в другую.</span><span class="sxs-lookup"><span data-stu-id="44454-133">In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another.</span></span> <span data-ttu-id="44454-134">В этом примере запись просто копируется обратно в одной таблицы.</span><span class="sxs-lookup"><span data-stu-id="44454-134">In this example, the record is simply being copied back to same table.</span></span> <span data-ttu-id="44454-135">Обратите внимание, что все операции блока выполняется в рамках одного последовательность обновления AddNew.</span><span class="sxs-lookup"><span data-stu-id="44454-135">Note that all the chunk manipulation takes place within a single AddNew-Update sequence.</span></span>
 
 ```vb
     Sub AppendChunkX() 

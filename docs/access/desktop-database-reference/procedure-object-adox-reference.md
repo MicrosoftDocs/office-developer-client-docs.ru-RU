@@ -1,26 +1,22 @@
 ---
-title: Procedure Object (ADOX) Reference
-TOCTitle: Procedure Object (ADOX)
+title: Ссылка на объект (ADOX) процедуры
+TOCTitle: Procedure object (ADOX)
 ms:assetid: 79805348-61b7-4d3f-a076-c12db788ba97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249500(v=office.15)
 ms:contentKeyID: 48545769
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4cc9bc1c48fc6b634ab09311ba0b6101b5ba12bf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b2df4027f1e4a1b0d962c34125bf6514a1922188
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876241"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928686"
 ---
-# <a name="procedure-object-adox-reference"></a><span data-ttu-id="0f253-102">Procedure Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="0f253-102">Procedure Object (ADOX) Reference</span></span>
+# <a name="procedure-object-adox-reference"></a><span data-ttu-id="21592-102">Ссылка на объект (ADOX) процедуры</span><span class="sxs-lookup"><span data-stu-id="21592-102">Procedure object (ADOX) reference</span></span>
 
+<span data-ttu-id="21592-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="21592-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0f253-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0f253-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="0f253-104">Объект процедуры (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0f253-104">Procedure Object (ADOX)</span></span>](procedure-object-adox.md)
-
-  - [<span data-ttu-id="0f253-105">Procedure Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0f253-105">Procedure Properties, Methods, and Events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="21592-104">Объект Procedure (ADOX)</span><span class="sxs-lookup"><span data-stu-id="21592-104">Procedure object (ADOX)</span></span>](procedure-object-adox.md)
+- [<span data-ttu-id="21592-105">Процедура свойства, методы и события (ADOX)</span><span class="sxs-lookup"><span data-stu-id="21592-105">Procedure properties, methods, and events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
 
