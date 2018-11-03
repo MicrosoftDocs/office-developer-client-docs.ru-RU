@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
 ms:contentKeyID: 48544896
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf640597405205987040d95033b2eb1ceee13867
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 354b080b40c9dfc59394f1a860453e539c5949fb
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922715"
+ms.locfileid: "25936604"
 ---
 # <a name="field2validationrule-property-dao"></a>Свойство Field2.ValidationRule (DAO)
 
@@ -76,6 +76,6 @@ ms.locfileid: "25922715"
 
 
 > [!NOTE]
-> <P>Если свойству присвоено значение объединяется с дробное значение строки и системных параметров укажите десятичных знаков пробел (например, strRule = «ЦЕНЫ &gt; " &amp; lngPrice и lngPrice = 125,50), возникнет ошибка при код пытается проверить все данные. Это так, как во время объединения, номер будет преобразован в строку с помощью системы по умолчанию десятичных знаков и ядро СУБД Microsoft Access SQL принимает только США десятичных знаков.</P>
+> Если свойству присвоено значение объединяется с дробное значение строки и системных параметров укажите десятичных знаков пробел (например, strRule = «ЦЕНЫ &gt; " &amp; lngPrice и lngPrice = 125,50), возникнет ошибка при код пытается проверить все данные. Это так, как во время объединения, номер будет преобразован в строку с помощью системы по умолчанию десятичных знаков и ядро СУБД Microsoft Access SQL принимает только США десятичных знаков.
 
 

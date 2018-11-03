@@ -10,18 +10,18 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c1ba74f754ef0c998a14f7421914bd4bcd7c9cf9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6e1d61d2f61050118745347441cba1f27c35c41f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870200"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937745"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Инициализация драйвера источника данных Microsoft Exchange
 
 **Применимо к**: Access 2013, Office 2013
 
-При установке драйвера источника данных Microsoft® Exchange программа установки записывает набор значений по умолчанию реестра Microsoft Windows® в подразделах обработчики и ISAM Formats. Не изменяйте эти параметры напрямую; для добавления, удаления или изменения этих параметров с помощью программы установки для приложения. В следующих разделах инициализации и параметров ISAM Format драйвера источника данных Microsoft Exchange.
+При установке драйвера источника данных Microsoft Exchange, программа установки записывает набор значений по умолчанию реестра Microsoft Windows в подразделы обработчики и ISAM Formats. Не изменяйте эти параметры напрямую; для добавления, удаления или изменения этих параметров с помощью программы установки для приложения. В следующих разделах инициализации и параметров ISAM Format драйвера источника данных Microsoft Exchange.
 
 ## <a name="microsoft-exchange-data-source-initialization-settings"></a>Параметры инициализации источника данных Microsoft Exchange
 

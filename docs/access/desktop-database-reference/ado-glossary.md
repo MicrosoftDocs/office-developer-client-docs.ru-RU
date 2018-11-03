@@ -1,17 +1,17 @@
 ---
-title: Объекты данных ActiveX (ADO) глоссария
+title: Глоссарий ActiveX Data Objects (ADO)
 TOCTitle: ADO Glossary
 ms:assetid: 40f00876-7525-4117-8f57-f3d87c54be99
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 809431c51b7fab9e56d492b44610d607e4da3b06
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e7085edf0d7f30c70868d308130b3f438347ad4b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869969"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937822"
 ---
 # <a name="ado-glossary"></a>Глоссарий ADO
 
@@ -419,11 +419,11 @@ MIME — это стандарт, обеспечивающий двоичных 
 
 Указывает расположение ресурса, находящегося в Интернете или интрасети. Полный URL-адрес состоит из схемы (например, FTP, HTTP, mailto, файлов и т. д.), за которым следует двоеточие, имя сервера и полный путь к ресурсу (например, документ, рисунок или другой файл). Некоторые примеры URL-адреса, являются:  
   
-https://www.domain.com/default.html  
-FTP://FTP.Server.somewhere/FTP.File  
+- https://www.domain.com/default.html  
+- FTP://FTP.Server.somewhere/FTP.File  
   
-FTP://FTP.Server.somewhere/FTP.File  
-file://Server/Share/File.doc
+- FTP://FTP.Server.somewhere/FTP.File  
+- file://Server/Share/File.doc
 
 В разделе также **абсолютный URL-адрес** и **относительный URL-адрес**.
 
@@ -431,5 +431,5 @@ file://Server/Share/File.doc
 
 Компьютер, который предоставляет веб-служб и страницы, предназначенные для пользователей Интернета и интрасети.
 
-К началу страницы
+
 

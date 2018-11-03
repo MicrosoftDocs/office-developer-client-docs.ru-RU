@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835080(v=office.15)
 ms:contentKeyID: 48548030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85e518dc5d13a6e8e70c449fb35158395b7a13aa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 540e5b8226907dc580d34ab3215d3c0dca67e3f6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920727"
+ms.locfileid: "25936884"
 ---
 # <a name="recordsettype-property-dao"></a>Свойство Recordset.Type (DAO)
 
@@ -51,7 +51,7 @@ ms.locfileid: "25920727"
 <td><p>Динамические (только для рабочих областей технология ODBCDirect)</p>
 
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
 
 
 <p></p></td>

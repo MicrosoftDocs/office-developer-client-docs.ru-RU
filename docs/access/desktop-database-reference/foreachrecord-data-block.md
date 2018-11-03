@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd16b91bb3d6ca0d206be0a63bb73e6f9176da8e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 09a09a80773adecf760ae4610df30bbd5f36f3d6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921028"
+ms.locfileid: "25937528"
 ---
 # <a name="foreachrecord-data-block"></a>Блок данных ДляКаждойЗаписи
 
@@ -20,11 +20,8 @@ ms.locfileid: "25921028"
 
 Блок данных **ДляКаждойЗаписи** повторяет набор инструкций для каждой записи в домене.
 
-
 > [!NOTE]
-> <P>Блок данных <STRONG>ДляКаждойЗаписи</STRONG> доступна только в макросов данных.</P>
-
-
+> Блок данных **ДляКаждойЗаписи** доступна только в макросов данных.
 
 ## <a name="setting"></a>Параметр
 
@@ -50,7 +47,7 @@ ms.locfileid: "25921028"
 <td><p>Строка, идентифицирующая домена записей для работы с. Аргумент <em>в</em> может содержать имя таблицы, запроса или инструкции SQL.</p>
 
 > [!NOTE]
-> <P>Указанный домен не может включать данные, хранящиеся в связанной таблице или источник данных ODBC.</P>
+> Указанный домен не может включать данные, хранящиеся в связанной таблице или источник данных ODBC.
 
 
 <p></p></td>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
 ms:contentKeyID: 48548576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc70603c9b3dc48090558662b775725017062411
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9b359e75d67a4ed9e3ad4ef1df23a1adc1279751
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880224"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936324"
 ---
 # <a name="ole-db-providers"></a>Поставщики OLE DB
 

@@ -1,20 +1,19 @@
 ---
-title: 'Глава 7: Обработка событий ADO'
-TOCTitle: 'Chapter 7: Handling ADO Events'
+title: Глава 7. Обработка событий ADO
+TOCTitle: 'Chapter 7: Handling ADO events'
 ms:assetid: 22924fe2-d00d-8a0c-52f5-2dc6039537ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249004(v=office.15)
 ms:contentKeyID: 48543709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 48b74b3de734ecc10a4ff9a46b517eba18191179
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 58186a9f5612308c7762a815520d49ddce8eaf57
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880077"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937542"
 ---
-# <a name="chapter-7-handling-ado-events"></a>Глава 7: Обработка событий ADO
-
+# <a name="chapter-7-handling-ado-events"></a>Глава 7. Обработка событий ADO
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -28,12 +27,8 @@ ms.locfileid: "25880077"
 
 В этой главе рассматриваются следующие темы:
 
-- [Сводка по обработчикам событий ADO](ado-event-handler-summary.md)
-
+- [Обработчик событий ADO сводки](ado-event-handler-summary.md)
 - [Типы событий](types-of-events.md)
-
 - [Параметры событий](event-parameters.md)
-
-- [Как обработчики событий совместно действуют](how-event-handlers-work-together.md)
-
-- [ADO Event Instantiation by Language (ADO)](ado-event-instantiation-by-language-ado.md)
+- [Совместная работа обработчиков событий](how-event-handlers-work-together.md)
+- [При создании экземпляра события ADO по языкам (ADO)](ado-event-instantiation-by-language-ado.md)

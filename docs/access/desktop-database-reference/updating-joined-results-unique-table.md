@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249551(v=office.15)
 ms:contentKeyID: 48545940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9360b2b1126856ea92bbada183ffc67b16b2554e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b3656764b1183efc53375665d570e1f1bb8958b1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884025"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936646"
 ---
 # <a name="updating-joined-results-unique-table"></a>Обновление результатов JOINed: уникальная таблица
 

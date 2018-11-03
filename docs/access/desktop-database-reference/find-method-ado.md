@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b37f5930f9a9a36603700a1d27458527f128ad34
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ff66a39de070759e0ad31b441e4be5735d87516
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922036"
+ms.locfileid: "25936615"
 ---
 # <a name="find-method-ado"></a>Метод Find (ADO)
 
@@ -57,12 +57,9 @@ ms.locfileid: "25922036"
 
 
 > [!NOTE]
-> <P>Если для текущей позиции строки не задано до вызова метода <STRONG>Найти</STRONG>, произойдет ошибка. Любой метод, который задает положение строки, например <A href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</A>, должен быть вызван до вызова метода <STRONG>поиска</STRONG>.</P>
-
-
-
+> Если для текущей позиции строки не задано до вызова метода **Найти**, произойдет ошибка. Любой метод, который задает положение строки, например [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), должен быть вызван до вызова метода **поиска**.
 
 > [!NOTE]
-> <P>При вызове метода <STRONG>Поиск</STRONG> наборов записей и текущую позицию в наборе записей был создан последней записи или конца файла (EOF), вы не найдете все действия. Необходимо вызвать метод <STRONG>MoveFirst</STRONG> для установки текущей позиции/курсора в начало набора записей.</P>
+> При вызове метода **Поиск** наборов записей и текущую позицию в наборе записей был создан последней записи или конца файла (EOF), вы не найдете все действия. Необходимо вызвать метод **MoveFirst** для установки текущей позиции/курсора в начало набора записей.
 
 

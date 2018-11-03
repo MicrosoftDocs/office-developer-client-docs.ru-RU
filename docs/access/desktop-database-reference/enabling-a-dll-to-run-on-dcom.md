@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 750848ce0e787506085899f4717730e1ca0a8f13
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: eeec1109d2e352d43eaaa66a7e081123d7f388ee
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868695"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937717"
 ---
 # <a name="enabling-a-dll-to-run-on-dcom"></a>Подготовка библиотеки DLL к работе в DCOM
 
 
 **Применимо к**: Access 2013, Office 2013
 
-Следующие шаги показывают, как включить динамические библиотеки объектов business использование DCOM и сведения о служб Интернета (HTTP) Microsoft® с помощью службы компонентов.
+Следующие шаги показывают, как включить динамические библиотеки объектов business использование DCOM и Microsoft Internet сведения служб (HTTP) с помощью службы компонентов.
 
 1.  Создайте новый пустой пакет в оснастке служб консоли Управления компонента. Компонент служб MMC-оснастку будет использоваться для создания пакета и добавления библиотеки DLL в этот пакет. Это делает библиотеки DLL через DCOM, но удаляет специальными возможностями IIS. (Если установить в реестре для библиотеки DLL **Inproc** ключ пустая; Установка атрибута активации, описано далее в этом разделе, добавляет значение раздела **Inproc** .)
 

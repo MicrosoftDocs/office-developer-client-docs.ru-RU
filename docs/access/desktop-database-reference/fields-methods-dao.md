@@ -6,23 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125301(v=office.15)
 ms:contentKeyID: 52073425
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d167754b6ac1adc9a4f4e583792c2880638d4377
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f8d7c7ab5b30ab991ee79abcd218f8b7cecb5a53
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924836"
+ms.locfileid: "25936212"
 ---
 # <a name="fields-methods-dao"></a>Методы полей (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
 
-
-
-  - [Метод Fields.Append (DAO)](fields-append-method-dao.md)
-
-  - [Метод Fields.Delete (DAO)](fields-delete-method-dao.md)
-
-  - [Метод Fields.Refresh (DAO)](fields-refresh-method-dao.md)
+- [Метод Fields.Append (DAO)](fields-append-method-dao.md)
+- [Метод Fields.Delete (DAO)](fields-delete-method-dao.md)
+- [Метод Fields.Refresh (DAO)](fields-refresh-method-dao.md)
 

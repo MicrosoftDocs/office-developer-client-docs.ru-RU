@@ -6,22 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
 ms:contentKeyID: 48548361
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 11d4fd25388cfc28f0f5a84d1056521cf5d12517
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 672e37da0a29ecb0d9db52de6c424602c7169df2
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920671"
+ms.locfileid: "25937801"
 ---
 # <a name="connections-members-dao"></a>Члены подключений (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
 > [!NOTE]
 > Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access. Коллекция подключений содержит текущего объекты подключения рабочей области для объекта (только для рабочих областей технология ODBCDirect).
-
-
 
 ## <a name="methods"></a>Методы
 

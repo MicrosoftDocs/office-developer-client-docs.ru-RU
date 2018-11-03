@@ -10,19 +10,18 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a44226e8ea90a8be96de35cdc923349eded17cb4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f4127178f0158e2ab6deb177402f13d3edc6ac9e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887000"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937724"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>Настройка параметров реестра Windows для ядро базы данных Microsoft Access
 
-
 **Применимо к**: Access 2013, Office 2013
 
-Если приложение работает правильно с функциональными возможностями по умолчанию ядра базы данных Microsoft Access, может потребоваться изменить параметры реестра Microsoft® Windows® в соответствии со своими потребностями. Реестра Windows можно также использовать для настройки операции устанавливаемый драйвер ISAM и ODBC.
+Если приложение работает правильно с функциональными возможностями по умолчанию ядра базы данных Microsoft Access, может потребоваться изменить параметры в соответствии со своими потребностями реестра Microsoft Windows. Реестра Windows можно также использовать для настройки операции устанавливаемый драйвер ISAM и ODBC.
 
 Можно настроить параметры реестра Windows четырьмя способами:
 

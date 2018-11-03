@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b55bf1897c6b5fc5cd7ee70402e466f2180b7d92
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 26d2b4b6281dd762e95113d5ca022e7c0d136755
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890927"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937047"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>Предложение ограничения (Microsoft Access SQL)
 
@@ -32,11 +32,11 @@ ms.locfileid: "25890927"
 
 ## <a name="syntax"></a>Синтаксис
 
-**Простые ограничения**:
+### <a name="single-field-constraint"></a>Простые ограничения
 
 ОГРАНИЧЕНИЕ *имени* {первичный ключ | УНИКАЛЬНЫЙ | NOT NULL | Справочные материалы *таблицавнешнегоключа* \[(*foreignfield1, foreignfield2*)\] \[ON UPDATE CASCADE | ЗАДАЙТЕ значение NULL,\] \[ON DELETE CASCADE | ЗАДАЙТЕ значение NULL,\]}
 
-**Составные ограничения**:
+### <a name="multiple-field-constraint"></a>Составные ограничения
 
 ОГРАНИЧЕНИЕ *имени* {первичный ключ (*primary1*\[, *primary2* \[,... \]\]) | УНИКАЛЬНЫЙ (*unique1*\[, *unique2* \[,... \]\]) | NOT NULL (*notnull1*\[, *notnull2* \[,... \]\]) | ВНЕШНИЙ ключ \[без ИНДЕКСА\] (*аргументов ссылка1*\[, *ref2* \[,... \] \]) Ссылки *таблицавнешнегоключа* \[(*foreignfield1* \[, *foreignfield2* \[,... \] \])\] \[ON UPDATE CASCADE | ЗАДАЙТЕ значение NULL,\] \[ON DELETE CASCADE | ЗАДАЙТЕ значение NULL,\]}
 
@@ -86,7 +86,7 @@ ms.locfileid: "25890927"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте следующий синтаксис для простых ограничений в предложении определения поля инструкции ALTER TABLE или CREATE TABLE сразу после спецификации тип данных.
 

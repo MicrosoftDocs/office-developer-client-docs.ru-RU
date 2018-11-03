@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 497c0375496310c27c134792e01bd17e5533a452
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 549559756a2929e6b2daad01c4a0542a973a8bca
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922204"
+ms.locfileid: "25937122"
 ---
 # <a name="field-members-dao"></a>Члены поля (DAO)
 
@@ -102,12 +102,8 @@ ms.locfileid: "25922204"
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p>Одно из значений <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Возвращает значение <strong>поля</strong> в базе данных, которое существовало во время начала последнего обновления пакета (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -152,12 +148,8 @@ ms.locfileid: "25922204"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p>Одно из значений <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Возвращает значение в настоящее время в базе данных, больше, чем свойство <strong>OriginalValue</strong> согласно конфликт обновления пакета (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 </tbody>

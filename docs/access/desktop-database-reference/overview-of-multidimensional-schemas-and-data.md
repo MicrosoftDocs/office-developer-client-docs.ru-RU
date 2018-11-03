@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 376d80bc79af772cfd09b6f5b8759321ed4431ee
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 67bdcdbaa525039f544a7d45cb4411faeee297e8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887169"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937031"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Общие сведения о многомерных схемах и данных
 
@@ -75,13 +75,10 @@ Hamburg, Munich, Stuttgart}
 
 Элементы на конечном уровне иерархии не имеющие дочерних элементов и нет родительского имеют члены на корневом уровне. Другие участники имеют по крайней мере один родительских и дочерних по крайней мере один. Например частичное обход дерева иерархии в измерении Geography дает следующие отношения родительских и дочерних:
 
-  - {All} (родительский) {Европы, Северной Америки}
-
-  - {Северная Америка} (родительский) {Канада США}
-
-  - {США} (родительский) {США NE, США-NW США-SE (EN), США-SW}
-
-  - {США NW} (родительский) {Буаз Сиэтл}
+- {All} (родительский) {Европы, Северной Америки}
+- {Северная Америка} (родительский) {Канада США}
+- {США} (родительский) {США NE, США-NW США-SE (EN), США-SW}
+- {США NW} (родительский) {Буаз Сиэтл}
 
 Члены можно объединить вместе один или несколько иерархий на аналитику.
 

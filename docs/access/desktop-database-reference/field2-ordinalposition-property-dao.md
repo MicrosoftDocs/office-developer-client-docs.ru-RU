@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1672c893994c1257a3898304042816d859e83314
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 600fe2855ba10e1ab36413f6395d3455bb7bd00b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927321"
+ms.locfileid: "25937059"
 ---
 # <a name="field2ordinalposition-property-dao"></a>Свойство Field2.OrdinalPosition (DAO)
 
@@ -87,7 +87,7 @@ ms.locfileid: "25927321"
 
 
 > [!NOTE]
-> <P>Даже в том случае, если коллекцию <STRONG>полей</STRONG> <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> не обновлялись порядок полей в <STRONG><A href="recordset-object-dao.md">набор записей</A></STRONG> , открывается из <STRONG>TableDef</STRONG> будет отражать данные <STRONG>OrdinalPosition</STRONG> объекта <STRONG>TableDef</STRONG> . Тип таблицы <STRONG>записей</STRONG> будут иметь те же данные <STRONG>OrdinalPosition</STRONG> , как и базовая таблица, но любой другой тип <STRONG>набора записей</STRONG> будут иметь новые <STRONG>OrdinalPosition</STRONG> данные (начиная с 0), следуйте порядке, определяется <STRONG> OrdinalPosition</STRONG> данных <STRONG>TableDef</STRONG>.</P>
+> Даже в том случае, если коллекции **полей** объекта **[TableDef](tabledef-object-dao.md)** не обновлялись порядок полей в **[набор записей](recordset-object-dao.md)** , открывается из **TableDef** будет отражать данные **OrdinalPosition** объекта **TableDef** . Тип таблицы **записей** будут иметь те же данные **OrdinalPosition** , как и базовая таблица, но любой другой тип **набора записей** будут иметь новые **OrdinalPosition** данные (начиная с 0), следуйте порядке, определяется ** OrdinalPosition** данных **TableDef**.
 
 
 

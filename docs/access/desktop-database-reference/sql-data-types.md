@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fd49861af896ae1c2d55a80665f119662c0baf53
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cfaecd26ebd3f747a0e2db2ec530c151928fec74
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880399"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936912"
 ---
 # <a name="sql-data-types"></a>Типы данных SQL
 
 
 **Применимо к**: Access 2013, Office 2013
 
-Типы данных SQL ядра базы данных Microsoft Access состоят из 13 основных типов данных определенных ядром базы данных Microsoft Jet и нескольких допустимых синонимов, распознанные для этих типов данных.
+Типы данных SQL ядра базы данных Microsoft Access состоят из 13 основных типов данных определяется базы данных Microsoft Jet и нескольких допустимых синонимов, распознанные для этих типов данных.
 
 В следующей таблице перечислены основные типы данных. Синонимы, определяются в [Microsoft Access базы данных модуля SQL зарезервированные слова](sql-reserved-words.md).
 

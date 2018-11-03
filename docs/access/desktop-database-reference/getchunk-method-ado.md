@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a61130db9bd4564523688adc4e045f665e7310e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ea7346c8c1b97ef16af71f56aafbbf777635d906
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919012"
+ms.locfileid: "25937787"
 ---
 # <a name="getchunk-method-ado"></a>Метод GetChunk (ADO)
 
@@ -49,6 +49,6 @@ ms.locfileid: "25919012"
 
 
 > [!NOTE]
-> <P>Метод <STRONG>GetChunk</STRONG> не работают с объектами <STRONG>поля</STRONG> объект <A href="record-object-ado.md">записи</A> . Он не выполнять любые операции и приведет к ошибке времени выполнения.</P>
+> Метод **GetChunk** не работают с объектами **поля** объект [записи](record-object-ado.md) . Он не выполнять любые операции и приведет к ошибке времени выполнения.
 
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 43c9d5ba4cd07e4ca388863fd79fb9b198a841af
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f9662c4f0cb691136a556faa32cb0d5a1c775268
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874106"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936835"
 ---
 # <a name="drop-user-or-group-statement-microsoft-access-sql"></a>Удаление пользователя или группы оператора (Microsoft Access SQL)
 
@@ -21,11 +21,11 @@ ms.locfileid: "25874106"
 
 ## <a name="syntax"></a>Синтаксис
 
-**Удаление одного или нескольких _пользователей_ или удалить один или несколько _пользователей_ из _группы_**:
+### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a>Удаление одного или нескольких пользователей или удалить один или несколько пользователей из группы
 
 Удаление пользователя *пользователя*\[, *пользователь*... \] \[Из *группы*\]
 
-**Удаление одного или нескольких _групп_**:
+### <a name="delete-one-or-more-groups"></a>Удаление одного или нескольких групп
 
 ГРУППА РАЗМЕЩЕНИЯ *группы*\[, *Группа*...\]
 
@@ -55,7 +55,7 @@ ms.locfileid: "25874106"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При использовании этого ключевого слова в инструкции DROP USER каждого из *пользователей* , перечисленных в инструкции будет удален из *группы* указанной после этого ключевого слова. Тем не менее, *Пользователи* сами не будут удалены.
 

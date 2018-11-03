@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 21e6000e8620011f5f6f0c2481bb9c03fd71bab5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f4a519f1853c0779777d59e6e6c314cbaaf60621
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887959"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937458"
 ---
 # <a name="odbc-scalar-functions"></a>Скалярные функции ODBC
 
 
 **Применимо к**: Access 2013, Office 2013
 
-Microsoft® Access SQL поддерживает использование синтаксиса ODBC определенные скалярные функции. Например следующий запрос:
+Microsoft Access SQL поддерживает использование синтаксиса ODBC определенные скалярные функции. Например следующий запрос:
 
 Выбор DAILYCLOSE, DAILYCHANGE из DAILYQUOTE ГДЕ {fn ABS(DAILYCHANGE)} \> 5
 

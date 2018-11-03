@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f73e01c11f62b8c9eaff874dc315be083474532a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 84f8be8360996eb209462347dc18b118cf460442
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919740"
+ms.locfileid: "25937619"
 ---
 # <a name="querydef-members-dao"></a>Члены QueryDef (DAO)
 
@@ -39,7 +39,7 @@ ms.locfileid: "25919740"
 <td><p></p>
 
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
 
 
 <p>Отменяет выполнение ожидающие асинхронного вызова метода (только для рабочих областей технология ODBCDirect).</p></td>
@@ -119,7 +119,7 @@ ms.locfileid: "25919740"
 <td><p></p>
 
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
 
 
 <p>Задает или возвращает значение, указывающее, следует подготовить на сервере как временной хранимой процедуры с помощью функции ODBC <strong>SQLPrepare</strong> API, прежде чем начать выполнение, запрос или просто выполняется с помощью (функция ODBC <strong>SQLExecDirect</strong> API Технология ODBCDirect рабочие области только). Чтение и запись <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</p></td>
@@ -145,7 +145,7 @@ ms.locfileid: "25919740"
 <td><p></p>
 
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
 
 
 <p>Указывает, следует ли асинхронной операции (то есть, вызывается метод с параметром <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a> ) завершено выполнение (только для рабочих областей технология ODBCDirect).</p></td>

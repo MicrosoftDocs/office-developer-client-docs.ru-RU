@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195566(v=office.15)
 ms:contentKeyID: 48545515
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec1bdab14743a43bc4abda029e5f77ec1a8e6212
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e7c17992daff5064b41507f5c2a1b2781476095a
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925151"
+ms.locfileid: "25936877"
 ---
 # <a name="field2value-property-dao"></a>Свойство Field2.Value (DAO)
 
@@ -38,6 +38,6 @@ ms.locfileid: "25925151"
 
 
 > [!NOTE]
-> <P>При чтении десятичные значения из базы данных Microsoft SQL Server, они будут иметь формат с помощью научное обозначение через рабочую область для Microsoft Access, но оно отображается как обычный десятичных значений с помощью технология ODBCDirect рабочей области.</P>
+> При чтении десятичные значения из базы данных Microsoft SQL Server, они будут иметь формат с помощью научное обозначение через рабочую область для Microsoft Access, но оно отображается как обычный десятичных значений с помощью технология ODBCDirect рабочей области.
 
 

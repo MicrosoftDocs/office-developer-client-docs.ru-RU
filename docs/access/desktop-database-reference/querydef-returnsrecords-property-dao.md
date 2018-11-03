@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 933f2ebd5816f02305184c00562b81d7424db57a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 66905394b0bf7127e952c9fe17860e84a151a3b0
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925669"
+ms.locfileid: "25937605"
 ---
 # <a name="querydefreturnsrecords-property-dao"></a>Свойство QueryDef.ReturnsRecords (DAO)
 
@@ -106,6 +106,8 @@ Sub ClientServerX1()
  dbsCurrent.Close 
  
 ```
+
+<br/>
 
 В этом примере используется свойство **ReturnsRecords** и пользовательское свойство **LogMessages** для создания запроса к серверу, который будет возвращать данные и все сообщения, создаваемые с удаленного сервера.
 

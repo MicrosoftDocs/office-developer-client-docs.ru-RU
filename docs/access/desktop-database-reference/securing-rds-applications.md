@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248922(v=office.15)
 ms:contentKeyID: 48543423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be6c210ef75b6a9e96b8733d12f3aa598d158df7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4240ca118adfcc122ebe346cb60f8b9a0b6efd9e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881260"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937493"
 ---
 # <a name="securing-rds-applications"></a>Защита приложений RDS
 
@@ -19,7 +19,7 @@ ms.locfileid: "25881260"
 
 ## <a name="microsoft-internet-explorer-security-issues"></a>Проблемы безопасности Microsoft Internet Explorer
 
-С помощью улучшения безопасности добавлена Microsoft® Internet Explorer некоторые объекты ADO и RDS ограничены только в среде «безопасный режим». Для этого необходимо принять во внимание следующие, в том числе связанных различными зонами, уровни безопасности, ограничительная поведение, небезопасных операций и настраивать параметры безопасности.
+С помощью новых безопасности улучшениях в Microsoft Internet Explorer некоторые объекты ADO и RDS ограничены только в среде «безопасный режим». Для этого необходимо принять во внимание следующие, в том числе связанных различными зонами, уровни безопасности, ограничительная поведение, небезопасных операций и настраивать параметры безопасности.
 
 Дополнительные сведения об этих проблем можно ADO и проблем безопасности служб удаленных рабочих СТОЛОВ в Microsoft Internet Explorer в разделе Технические статьи ActiveX Data Objects (ADO).
 

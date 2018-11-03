@@ -1,20 +1,19 @@
 ---
-title: Глава 2. Получение данных
-TOCTitle: 'Chapter 2: Getting Data'
+title: 'Глава 2: Получение данных'
+TOCTitle: 'Chapter 2: Getting data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b045676cad97ffa1dc60f7370ec5013d4c30bdf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 729d7a74c8e1ead84810e82d608e4e9b37268a6b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888078"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937003"
 ---
-# <a name="chapter-2-getting-data"></a>Глава 2. Получение данных
-
+# <a name="chapter-2-getting-data"></a>Глава 2: Получение данных
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,20 +25,17 @@ ms.locfileid: "25888078"
 
 Объектная модель ADO представляет концепцию соединение с объект **подключения** — foundation, на какие ADO построения функциональные возможности. Объект **подключения** предназначен для:
 
-  - Определите сведения, необходимые ADO для взаимодействия с источниками данных и создание сеансов.
+- Определите сведения, необходимые ADO для взаимодействия с источниками данных и создание сеансов.
 
-  - Определение возможности транзакций сеанса.
+- Определение возможности транзакций сеанса.
 
-  - Дают возможность создания и выполнения команд в источнике данных.
+- Дают возможность создания и выполнения команд в источнике данных.
 
-  - Представлены сведения о разработке источника данных в виде строк схемы. Дополнительные сведения о наборах строк схемы [OpenSchema](openschema-method-ado.md)см.
+- Представлены сведения о разработке источника данных в виде строк схемы. Дополнительные сведения о наборах строк схемы [OpenSchema](openschema-method-ado.md)см.
 
 В этой главе рассматриваются следующие темы:
 
-  - [Создание подключения](making-a-connection.md)
-
-  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
-
-  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
-
-  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)
+- [Подключения](making-a-connection.md)
+- [С помощью ссылки на объект подключения (ADO)](using-the-connection-object-access.md)
+- [С помощью ссылки на объект команды (ADO)](using-the-command-object-access.md)
+- [Добавление данных для набора записей (ADO)](adding-data-to-a-recordset.md)

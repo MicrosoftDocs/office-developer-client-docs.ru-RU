@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
 ms:contentKeyID: 48544354
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fe5065c75408e7093fbd2b39e7a84400d648e99
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c291dcfdcaf14543100d68bed46cabbc05403d7e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873168"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936520"
 ---
 # <a name="filter-and-recordcount-properties-example-vb"></a>Пример использования свойств Filter и RecordCount (VB)
 
@@ -105,7 +105,7 @@ End Sub
 
 
 > [!NOTE]
-> <P>Если вы знаете данных, которые нужно выбрать, обычно более эффективно для открытия <STRONG>набора записей</STRONG> с помощью инструкции SQL. В этом примере показано, как можно создать только один <STRONG>набор записей</STRONG> и получить записей от конкретной страны или региона.</P>
+> Если вы знаете данных, которые нужно выбрать, обычно более эффективно для открытия **набора записей** с помощью инструкции SQL. В этом примере показано, как можно создать только один **набор записей** и получить записей от конкретной страны или региона.
 
 
 

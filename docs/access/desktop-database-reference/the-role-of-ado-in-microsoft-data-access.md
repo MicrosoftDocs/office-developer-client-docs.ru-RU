@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250180(v=office.15)
 ms:contentKeyID: 48548433
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 23502ec1bc4ebd0bcdbca17763c2e9dd467d8793
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1675f674a07175b3cade82e5e5b43db29874bec2
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884522"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936723"
 ---
 # <a name="the-role-of-ado-in-microsoft-data-access"></a>The Role of ADO in Microsoft Data Access
-
 
 **Применимо к**: Access 2013, Office 2013
 

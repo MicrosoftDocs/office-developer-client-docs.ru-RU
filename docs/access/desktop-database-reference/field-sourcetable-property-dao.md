@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052900
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6bd096b8989cefe48df882d447aab0d4f3d0a6ee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1236b606f81533922844026d87644b7724e68977
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925200"
+ms.locfileid: "25937570"
 ---
 # <a name="fieldsourcetable-property-dao"></a>Свойство Field.SourceTable (DAO)
 
@@ -74,6 +74,6 @@ ms.locfileid: "25925200"
 
 
 > [!NOTE]
-> <P>Свойство <STRONG>Таблица</STRONG> не возвращает имя удобной для восприятия таблицы при использовании объекта <STRONG>поля</STRONG> в коллекции <STRONG>полей</STRONG> объекта <STRONG>набора записей</STRONG> в таблице тип.</P>
+> Свойство **Таблица** не возвращает имя удобной для восприятия таблицы при использовании объекта **поля** в коллекции **полей** объекта **набора записей** в таблице тип.
 
 

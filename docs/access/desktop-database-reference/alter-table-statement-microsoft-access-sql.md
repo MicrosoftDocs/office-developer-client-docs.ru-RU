@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f7dfaa7a8c3d6b3e41b2443bcca621d083c3a167
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8481102d587480577c0ba73d2da46385359a92c6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889632"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937343"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Оператор ALTER TABLE (Microsoft Access SQL)
 
@@ -26,7 +26,7 @@ ms.locfileid: "25889632"
 Изменяет макет таблицы после его создания с помощью инструкции [CREATE TABLE](create-table-statement-microsoft-access-sql.md) .
 
 > [!NOTE]
-> Ядро СУБД Microsoft Access не поддерживает использование ALTER TABLE или любой другой инструкции языка определения данных (DDL), с базами данных Microsoft Access. Используйте методы **Создания DAO** .
+> Ядро СУБД Microsoft Access не поддерживает использование ALTER TABLE или любой другой инструкции языка определения данных (DDL), с базами данных Microsoft Access. Используйте методы DAO **Создать** .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -78,7 +78,7 @@ ALTER TABLE в *таблице* {ДОБАВЬТЕ {СТОЛБЦА *типа по
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 С помощью оператора изменения таблицы, можно изменить существующую таблицу несколькими способами. Вы можете выполнить указанные ниже действия.
 

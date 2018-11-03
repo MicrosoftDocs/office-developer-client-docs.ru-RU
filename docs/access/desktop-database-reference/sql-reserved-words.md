@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 57acba0c3c375bd9161748d3cc6e4410c143ecfe
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ade0aa43f84bfb8088281a2d5458b157ea7658a9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888715"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937192"
 ---
 # <a name="sql-reserved-words"></a>Зарезервированные слова SQL
 
@@ -25,7 +25,7 @@ ms.locfileid: "25888715"
 Следующий список содержит все слова, зарезервированные ядром СУБД Microsoft Access, для использования в инструкциях SQL. В списке слов, которые не являются прописными буквами, зарезервированы другими приложениями. Следовательно разделы справки для этих слов содержат общие сведения, не ориентированные на работу с SQL.
 
 > [!NOTE]
-> <P>Слова, а затем символ звездочки (*), зарезервированы, но в настоящее время не имеют значения в контексте инструкции Microsoft® Access SQL (например, <STRONG>уровень</STRONG> и <STRONG>идентификатор таблицы</STRONG>). Слова, которые не подчеркнуто нет связанные описания.</P>
+> <P>Слова, а затем символ звездочки (*), зарезервированы, но в настоящее время не имеют значения в контексте инструкции Microsoft Access SQL (например, <STRONG>уровень</STRONG> и <STRONG>идентификатор таблицы</STRONG>). Слова, которые не подчеркнуто нет связанные описания.</P>
 
 
 

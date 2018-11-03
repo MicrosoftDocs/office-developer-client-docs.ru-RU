@@ -1,20 +1,19 @@
 ---
-title: Глава 3. Осмотр данных
-TOCTitle: 'Chapter 3: Examining Data'
+title: 'Глава 3: Проверка данных'
+TOCTitle: 'Chapter 3: Examining data'
 ms:assetid: 73c69134-3127-3344-d5c3-5ecb9e0e958b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249474(v=office.15)
 ms:contentKeyID: 48545648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5542b465cc6fc31949f2ceb5ed8bda408b1e653
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4b489400536675fccced8f87aae515b019b87123
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875933"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936863"
 ---
-# <a name="chapter-3-examining-data"></a>Глава 3. Осмотр данных
-
+# <a name="chapter-3-examining-data"></a>Глава 3: Проверка данных
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -54,6 +53,8 @@ ErrHandler:
 End Sub 
 'EndRsTour 
 ```
+
+<br/>
 
 Этот запрос SQL возвращает **набора записей** с помощью пяти строк (записей) и три столбца (поля). В следующей таблице показаны значения для каждой строки.
 
@@ -107,8 +108,6 @@ End Sub
 
 В этой главе рассматриваются следующие темы:
 
-  - [Locating the Current Record (ADO)](locating-the-current-record.md)
-
-  - [Navigating Through the Data (ADO)](navigating-through-the-data.md)
-
-  - [Understanding Recordset Structure (ADO)](understanding-recordset-structure.md)
+- [Поиск текущей записи (ADO)](locating-the-current-record.md)
+- [Переход между данными (ADO)](navigating-through-the-data.md)
+- [Общие сведения о структуре набора записей (ADO)](understanding-recordset-structure.md)

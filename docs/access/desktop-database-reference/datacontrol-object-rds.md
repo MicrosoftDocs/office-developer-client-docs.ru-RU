@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8cb71c5e51e56447636b25639dae0733a729bdb1
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 2d4b622cd65cfaf71c45ac7ae8c77bdb596ebd3a
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910868"
+ms.locfileid: "25937808"
 ---
 # <a name="datacontrol-object-rds"></a>Объект DataControl (RDS)
 
@@ -92,7 +92,7 @@ ms.locfileid: "25910868"
 
 Клиентские компоненты удаленной службы данных уже включены в Internet Explorer версии 4.0; Таким образом вам не нужно включить параметр базы кода в вашей **RDS. DataControl** тегом object.
 
-С Internet Explorer 4.0 или более поздней версии можно привязать к данным с помощью HTML-элементы управления и элементы управления ActiveX® только в том случае, если они помечены как элементы управления модели подразделения.
+С Internet Explorer 4.0 или более поздней версии можно привязать к данным с помощью HTML-элементы управления и элементы управления ActiveX только в том случае, если они помечены как элементы управления модели подразделения.
 
 **Пользователи Microsoft Visual Basic** **RDS. DataControl** используется только в веб-приложения. Клиентского приложения Visual Basic имеет не требуется.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192517(v=office.15)
 ms:contentKeyID: 48544228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 94d3bb48da8d16a2a9cae1ec0f692a3475c57c31
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cd6f2621b65a0584d79ef72bbba0341b8391ccf1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919208"
+ms.locfileid: "25937598"
 ---
 # <a name="parameter-members-dao"></a>Параметр члены (DAO)
 
@@ -39,7 +39,7 @@ ms.locfileid: "25919208"
 <td><p></p>
 
 > [!NOTE]
-> <P>Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</P>
+> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
 
 
 <p>Задает или возвращает значение, указывающее, представляет ли объект <strong><a href="parameter-object-dao.md">параметра</a></strong> входного параметра, выходного параметра, оба адресата, или возвращаемое значение из процедуры (только для рабочих областей технология ODBCDirect).</p></td>

@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 90dbaae5ab803173493e5348b77b124d83f8f9d6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b12fcf4d92bbe0949065557973efe94688a7a30
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873035"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937206"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>Инструкция CREATE INDEX (Microsoft Access SQL)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25873035"
 Создает новый индекс на существующей таблицы.
 
 > [!NOTE]
-> Для баз данных ядра базы данных Microsoft Access ядро базы данных Microsoft Access не поддерживает использование CREATE INDEX (за исключением создания псевдоиндекса на связанная таблица ODBC) и любых других инструкций языка (DDL). Используйте методы **Создания DAO** . Для получения дополнительных сведений см.
+> Для баз данных ядра базы данных Microsoft Access ядро базы данных Microsoft Access не поддерживает использование CREATE INDEX (за исключением создания псевдоиндекса на связанная таблица ODBC) и любых других инструкций языка (DDL). Используйте методы DAO **Создать** . Для получения дополнительных сведений см.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -60,7 +60,7 @@ ms.locfileid: "25873035"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы запретить повторяющиеся значения в одном или нескольких индексированных полей различные записи, используйте УНИКАЛЬНОЕ зарезервированным словом.
 

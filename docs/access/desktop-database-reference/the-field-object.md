@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b01232e7afd4f32411a53dec6ae233c786c1c08
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b6841eb674aac04b979623a65b27ca84a8bc927c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873406"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937150"
 ---
 # <a name="field-object"></a>Объект поля
 

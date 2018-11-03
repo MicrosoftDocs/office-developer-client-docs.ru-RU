@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 55e4bf1476112cc950b72e8bfd1659226704f991
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 660ae5523d3f04e7c533508e6c138b0f52d215c4
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25890010"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937248"
 ---
 # <a name="visual-c-ado-programming"></a>Программирование для ADO на Visual C++
 
@@ -471,7 +471,7 @@ void main(void)
 
 
 > [!NOTE]
-> <P>Следующие замечания соответствуют закомментированного разделов в примере кода.</P>
+> Следующие замечания соответствуют закомментированного разделов в примере кода.
 
 
 

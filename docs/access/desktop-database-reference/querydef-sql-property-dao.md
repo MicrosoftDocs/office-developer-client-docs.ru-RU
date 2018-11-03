@@ -1,6 +1,6 @@
 ---
 title: Свойство QueryDef.SQL (DAO)
-TOCTitle: SQL Property
+TOCTitle: SQL property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845522(v=office.15)
 ms:contentKeyID: 48543429
@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053054
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 25921f9bcd320c2ccc5d703b95e3ac818125d300
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 43acce256d3a46fd7b01122a8502e0af502eb3e9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920748"
+ms.locfileid: "25937682"
 ---
 # <a name="querydefsql-property-dao"></a>Свойство QueryDef.SQL (DAO)
 
@@ -40,7 +40,7 @@ ms.locfileid: "25920748"
 В рабочей области Microsoft Access с помощью объекта **QueryDef** является предпочтительным для выполнения операций к серверу SQL в источники данных ODBC подключением модуля Microsoft Access базы данных. Путем установки свойства объекта **QueryDef** **[подключение](querydef-connect-property-dao.md)** к источнику данных ODBC, можно использовать SQL не – – – базы данных Microsoft Access в запрос для передачи на внешний сервер. Например можно использовать инструкции TRANSACT SQL (с Microsoft SQL Server или Sybase SQL Server базы данных), которые в противном случае — не обрабатывает ядро базы данных Microsoft Access.
 
 > [!NOTE]
-> Если свойству присвоено значение объединяется с дробное значение строки и системных параметров укажите десятичных знаков пробел (например, strSQL = «ЦЕНЫ &gt; " &amp; lngPrice и lngPrice = 125,50), возникнет ошибка при вы Попробуйте выполнить объекта **QueryDef** в базе данных ядра базы данных Microsoft Access. Это так, как во время объединения, номер будет преобразован в строку с помощью системы по умолчанию десятичных знаков и Microsoft Access SQL принимает только США десятичных знаков.
+> Если свойству присвоено значение string, объединяется с дробное значение и системных параметров укажите десятичных знаков например запятой (например, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`), будет выдана ошибка при попытке выполнить объекта **QueryDef** в Microsoft База данных модуля базы данных Access. Это так, как во время объединения, номер будет преобразован в строку с помощью системы по умолчанию десятичных знаков и Microsoft Access SQL принимает только США десятичных знаков.
 
 ## <a name="example"></a>Пример
 
@@ -121,9 +121,13 @@ ms.locfileid: "25920748"
        End With 
      
     End Function 
+```
+
+<br/>
+
+В этом примере показано возможное использование CopyQueryNew(). 
      
-    This example shows a possible use of CopyQueryNew(). 
-     
+```vb
     Sub CopyQueryDefX() 
      
        Dim dbsNorthwind As Database 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248853(v=office.15)
 ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd4bafd29195e2ff9898973351cd7d13262c3cec
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b346cd5c53ee101809237896acc0806bbf4e4624
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869682"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936933"
 ---
 # <a name="creating-the-connection-string"></a>Создание строки подключения
 

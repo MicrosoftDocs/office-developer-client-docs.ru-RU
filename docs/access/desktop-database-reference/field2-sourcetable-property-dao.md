@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191839(v=office.15)
 ms:contentKeyID: 48543768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fbde7aa9785e4e875f96569884e7f6e45743f2bb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 253be078fa6a8f5fdd4cb0c6c67fc6d5385e554c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925585"
+ms.locfileid: "25936541"
 ---
 # <a name="field2sourcetable-property-dao"></a>Свойство Field2.SourceTable (DAO)
 
@@ -70,6 +70,6 @@ ms.locfileid: "25925585"
 
 
 > [!NOTE]
-> <P>Свойство <STRONG>Таблица</STRONG> не возвращает имя удобной для восприятия таблицы при использовании объекта <STRONG>поле2</STRONG> в коллекции <STRONG>полей</STRONG> объекта <STRONG>набора записей</STRONG> в таблице тип.</P>
+> Свойство **Таблица** не возвращает имя удобной для восприятия таблицы при использовании объекта **поле2** в коллекции **полей** объекта **набора записей** в таблице тип.
 
 

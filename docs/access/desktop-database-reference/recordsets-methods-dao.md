@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125678(v=office.15)
 ms:contentKeyID: 52074551
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7f73deb714e9e38f207d0fec5a64dd650bfa51c3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d2325ded82ee4ce052ad9a8bfdfb6987c3df3166
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921987"
+ms.locfileid: "25937514"
 ---
 # <a name="recordsets-methods-dao"></a>Методы наборов записей (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
 
-
-
-  - [Метод Recordsets.Refresh (DAO)](recordsets-refresh-method-dao.md)
+- [Метод Recordsets.Refresh (DAO)](recordsets-refresh-method-dao.md)
 

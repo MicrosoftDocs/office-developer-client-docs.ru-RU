@@ -1,24 +1,23 @@
 ---
-title: Глава 15. Основы ADOX
-TOCTitle: 'Chapter 15: ADOX Fundamentals'
+title: '15 главы: Основные сведения о ADOX'
+TOCTitle: 'Chapter 15: ADOX fundamentals'
 ms:assetid: 973d7579-4f34-3b31-a761-a951ab29e850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 72152a67a9846adacbc6b200a3517c7e65b9fc4c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6b410fcaa81aa847732e530bd18bc18200f04ebc
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881912"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936870"
 ---
-# <a name="chapter-15-adox-fundamentals"></a>Глава 15. Основы ADOX
-
+# <a name="chapter-15-adox-fundamentals"></a>15 главы: Основные сведения о ADOX
 
 **Применимо к**: Access 2013, Office 2013
 
-Microsoft® ActiveX® данных объекты расширения для языка определения данных и безопасности (ADOX) — это расширение объекты ADO и модели программирования. ADOX включает в себя объекты для создания схемы и изменения, а также безопасности. Так как они объектно ориентированный подход к схеме выполнение различных операций, можно написать код, будут работать в различных данных источников независимо от того, различия в свой собственный синтаксис.
+Расширения объектов данных Microsoft ActiveX для языка определения данных и безопасности (ADOX) — это расширение объекты ADO и модели программирования. ADOX включает в себя объекты для создания схемы и изменения, а также безопасности. Так как они объектно ориентированный подход к схеме выполнение различных операций, можно написать код, будут работать в различных данных источников независимо от того, различия в свой собственный синтаксис.
 
 ADOX — это companion Библиотека базовых объектов ADO. Она предоставляет дополнительные объекты для создания, изменения и удаления объектов схемы, например таблицы и процедуры. Он также включает объекты безопасности на обслуживание пользователей и групп, а также для предоставления и отмены разрешений для объектов.
 
@@ -26,21 +25,17 @@ ADOX — это companion Библиотека базовых объектов A
 
 Поставщик Microsoft OLE DB для базы данных Microsoft Jet полностью поддерживает ADOX. Некоторые возможности ADOX может не поддерживаться, в зависимости от поставщика данных. Дополнительные сведения о поддерживаемых функций с помощью поставщик Microsoft OLE DB для ODBC, поставщик Microsoft OLE DB для Oracle или Microsoft SQL Server поставщик OLE DB MDAC см.
 
-В этом документе предполагается разобраться в Microsoft Visual Basic® программирования языка и общие знания ADO. Дополнительные сведения о ADO [Руководство программиста ADO](ado-programmer-s-guide.md)см.
+В этом документе предполагается знание языка программирования Microsoft Visual Basic и общие знания ADO. Дополнительные сведения о ADO [Руководство программиста ADO](ado-programmer-s-guide.md)см.
 
 В этой главе рассматриваются в следующих разделах:
 
-- [Поддержка поставщиков для ADOX](provider-support-for-adox.md)
+- [Поддержка ADOX](provider-support-for-adox.md)
 
 Для получения дополнительных сведений о ADOX в следующих разделах:
 
 - [Объекты ADOX](adox-objects.md)
-
-- [ADOX семейств сайтов](adox-collections.md)
-
+- [Коллекции ADOX](adox-collections.md)
 - [Свойства ADOX](adox-properties.md)
-
 - [Методы ADOX](adox-methods.md)
-
 - [Примеры ADOX](adox-code-examples.md)
 
