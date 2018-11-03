@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f999a0519fccb8f896ed07963db621065530c1a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e5aaab6a79893a66b12216f60c05690c1e806000
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929771"
+ms.locfileid: "25937052"
 ---
 # <a name="field2appendchunk-method-dao"></a>Метод Field2.AppendChunk (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Добавление данных из строковое выражение Memo или Long Binary **поле2** объект в **[набора записей](recordset-object-dao.md)**.
 
@@ -67,11 +65,8 @@ ms.locfileid: "25929771"
 
 Если при использовании **AppendChunk**нет текущей записи, возникает ошибка.
 
-
 > [!NOTE]
-> <P>Начальное операция <STRONG>AppendChunk</STRONG> (после <STRONG><A href="recordset-edit-method-dao.md">изменения</A></STRONG> или <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG> вызова) будет просто поместить данные в поле перезапись существующих данных. Последующие <STRONG>AppendChunk</STRONG> вызывает в пределах того же <STRONG>Изменение</STRONG> или сеанса <STRONG>AddNew</STRONG> затем будут добавлены в существующих данных.</P>
-
-
+> Начальное операция **AppendChunk** (после **[изменения](recordset-edit-method-dao.md)** или **[AddNew](recordset-addnew-method-dao.md)** вызова) будет просто поместить данные в поле перезапись существующих данных. Последующие **AppendChunk** вызывает в пределах того же **Изменение** или сеанса **AddNew** затем будут добавлены в существующих данных.
 
 ## <a name="example"></a>Пример
 

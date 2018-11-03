@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101189
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bd1d48926440ac47a204becfbb4c68c5a827d74f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 588019a058f44c53967370f609ae10dda5737d59
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927566"
+ms.locfileid: "25936247"
 ---
 # <a name="field2complextype-property-dao"></a>Свойство Field2.complexType (DAO)
 
@@ -27,7 +27,6 @@ ms.locfileid: "25927566"
 ## <a name="version-information"></a>Сведения о версии
 
 Добавлена версия: Access 2007
-
 
 ## <a name="syntax"></a>Синтаксис
 

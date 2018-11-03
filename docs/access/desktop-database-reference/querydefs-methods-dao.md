@@ -6,23 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123475(v=office.15)
 ms:contentKeyID: 52071118
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fe78a0c8ecb011aeaeb927a2ac9910dc1745eebf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4fd7caab218a0fd234c81e116b1cc07193d56c78
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923821"
+ms.locfileid: "25936389"
 ---
 # <a name="querydefs-methods-dao"></a>Методы QueryDefs (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
 
-
-
-  - [Метод QueryDefs.Append (DAO)](querydefs-append-method-dao.md)
-
-  - [Метод QueryDefs.Delete (DAO)](querydefs-delete-method-dao.md)
-
-  - [Метод QueryDefs.Refresh (DAO)](querydefs-refresh-method-dao.md)
+- [Метод QueryDefs.Append (DAO)](querydefs-append-method-dao.md)
+- [Метод QueryDefs.Delete (DAO)](querydefs-delete-method-dao.md)
+- [Метод QueryDefs.Refresh (DAO)](querydefs-refresh-method-dao.md)
 

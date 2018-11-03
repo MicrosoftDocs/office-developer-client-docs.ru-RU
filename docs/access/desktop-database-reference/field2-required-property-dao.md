@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
 ms:contentKeyID: 48545848
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bb7735bf2c19da3cf82ffcb10d3d5b99b1a01c1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cf5e459773cd0fa0976704834b1b73467fc75294
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928791"
+ms.locfileid: "25937409"
 ---
 # <a name="field2required-property-dao"></a>Свойство Field2.Required (DAO)
 
@@ -73,7 +73,7 @@ ms.locfileid: "25928791"
 
 
 > [!NOTE]
-> <P>При установке этого свойства для объекта <STRONG>индекса</STRONG> или объект <STRONG>поле2</STRONG> устанавливалось для объекта <STRONG>поле2</STRONG> . Действия значение свойства для объекта <STRONG>поле2</STRONG> проверяется до этого объекта <STRONG>индекса</STRONG> .</P>
+> При установке этого свойства для объекта **индекса** или объект **поле2** устанавливалось для объекта **поле2** . Действия значение свойства для объекта **поле2** проверяется до этого объекта **индекса** .
 
 
 

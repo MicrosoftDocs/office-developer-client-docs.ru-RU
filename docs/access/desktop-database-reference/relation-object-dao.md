@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193195(v=office.15)
 ms:contentKeyID: 48544578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cfabb36e539aaff1f6e12d431d2cfcfe79ff5d04
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 49e8cdb7586af93ca17782ba0cb1071036c38eeb
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928091"
+ms.locfileid: "25936954"
 ---
 # <a name="relation-object-dao"></a>Объект отношения (DAO)
 
@@ -117,7 +117,7 @@ ms.locfileid: "25928091"
 
 <br/>
 
-В этом примере используется метод **CreateRelation** для создания **связи** между сотрудниками **TableDef** и новые **TableDef** вызван отделов. В этом примере также показано, как создание нового **отношения** будет также создать необходимые **индексов** в таблице внешнего (DepartmentsEmployees Index в таблице «Сотрудники»).
+В этом примере используется метод **CreateRelation** для создания **связи** между сотрудниками **TableDef** и новые **TableDef** вызван отделов. Также показано, как создание нового **отношения** также создается необходимые **индексов** в таблице внешнего (DepartmentsEmployees Index в таблице «Сотрудники»).
 
 ```vb
     Sub CreateRelationX() 

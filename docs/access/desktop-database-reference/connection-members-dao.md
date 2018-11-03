@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8127109834a617e86116a81731d964181c1bdf2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 39c1366a182f1757abdcbf4b36a19b553eb2b680
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930597"
+ms.locfileid: "25936765"
 ---
 # <a name="connection-members-dao"></a>Элементы подключения (DAO)
 
@@ -20,7 +20,6 @@ ms.locfileid: "25930597"
 > [!NOTE]
 > Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access. Объект подключения представляет подключение к базе данных ODBC (только для рабочих областей технология ODBCDirect).
  
-
 ## <a name="methods"></a>Методы
 
 <table>
@@ -37,12 +36,7 @@ ms.locfileid: "25930597"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connection-cancel-method-dao.md">Отмена</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Отменяет выполнение ожидающие асинхронного вызова метода (только для рабочих областей технология ODBCDirect).</p></td>
+<td><p>Отменяет выполнение ожидающие асинхронного вызова метода (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-close-method-dao.md">Закрыть</a></strong></p></td>
@@ -84,12 +78,7 @@ ms.locfileid: "25930597"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-database-property-dao.md">База данных</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Возвращает объект <strong><a href="database-object-dao.md">базы данных</a></strong> , соответствующий для этого подключения (только для рабочих областей технология ODBCDirect).</p></td>
+<td><p>Возвращает объект <strong><a href="database-object-dao.md">базы данных</a></strong> , соответствующий для этого подключения (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-name-property-dao.md">Name</a></strong></p></td>
@@ -113,12 +102,7 @@ ms.locfileid: "25930597"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>Указывает, следует ли асинхронной операции (то есть, вызывается метод с параметром <strong>dbRunAsync</strong> ) завершено выполнение (только для рабочих областей технология ODBCDirect).</p></td>
+<td><p>Указывает, следует ли асинхронной операции (то есть, вызывается метод с параметром <strong>dbRunAsync</strong> ) завершено выполнение (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></p></td>

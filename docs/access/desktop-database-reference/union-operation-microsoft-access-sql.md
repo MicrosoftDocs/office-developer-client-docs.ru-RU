@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 068496332479d25dfc4f20bdc683330ee462ce78
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927671"
+ms.locfileid: "25937423"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>Операции ОБЪЕДИНЕНИЯ (Microsoft Access SQL)
 
@@ -81,9 +81,7 @@ WHERE OrderAmount > 1000;
 
 ## <a name="example"></a>Пример
 
-В этом примере показано получение имен и городов из всех поставщиков и клиентов в Бразилии.
-
-В этом примере вызывается процедура EnumFields, которые можно найти в примере инструкции SELECT.
+В этом примере показано получение имен и городов из всех поставщиков и клиентов в Бразилии. Он вызывает процедуру EnumFields, которые можно найти в примере инструкции SELECT.
 
 ```vb
     Sub UnionX() 

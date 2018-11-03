@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 730c7bb6b659d0743613c590e3683b92fe7f0d65
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: df63dfb8351da910a6f735722ef33e8ddc347150
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929253"
+ms.locfileid: "25937815"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>Метод DBEngine.CreateWorkspace (DAO)
 
@@ -66,11 +66,7 @@ ms.locfileid: "25929253"
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p><strong>Строка</strong> , содержащая пароль для нового объекта <strong>рабочей области</strong> . Пароль может иметь длину до 20 символов и может содержать все символы, за исключением символа ASCII 0 (null).</p>
-
-> [!NOTE]
-> Используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.
-
-
+<td><p><strong>Примечание</strong>: используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p>
 </td>
 </tr>
 <tr class="even">
@@ -78,11 +74,7 @@ ms.locfileid: "25929253"
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Одно из значений <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Установка для аргумента типа **dbUseODBC** приведет к ошибке времени выполнения. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 </td>
 </tr>
 </tbody>

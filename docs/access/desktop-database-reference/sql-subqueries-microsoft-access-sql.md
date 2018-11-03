@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 72d9d9d27ac128ec587621231b5c899bc89c2752
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b2a7bdadeb700bdbc6bf18dda2e73401afb7df86
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925953"
+ms.locfileid: "25937353"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Вложенные запросы SQL (Microsoft Access SQL)
 
@@ -111,9 +111,7 @@ WHERE T1.Title = Employees.Title) Order by Title;
 
 ## <a name="example"></a>Пример
 
-В этом примере перечислены имя и контактов каждого клиента, выполнившим заказа во втором квартале 1995.
-
-В этом примере вызывается процедура EnumFields, которые можно найти в примере инструкции SELECT.
+В этом примере перечислены имя и контактов каждого клиента, выполнившим заказа во втором квартале 1995. Он вызывает процедуру EnumFields, которые можно найти в примере инструкции SELECT.
 
 ```vb
     Sub SubQueryX() 

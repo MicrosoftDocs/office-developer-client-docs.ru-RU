@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
 ms:contentKeyID: 48543999
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 25ba678f759fefa460dd505cded6e05b3e96fdf5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6fbf95e02c9945558d70fff35f12a73ce0dee45e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928357"
+ms.locfileid: "25937318"
 ---
 # <a name="fieldrequired-property-dao"></a>Свойство Field.Required (DAO)
 
@@ -72,7 +72,7 @@ ms.locfileid: "25928357"
 
 
 > [!NOTE]
-> <P>При установке этого свойства для объекта <STRONG>индекса</STRONG> или объекта <STRONG>поля</STRONG> задайте его для объекта <STRONG>поля</STRONG> . Перед, объект <STRONG>индекса</STRONG> проверять правильность настройки свойства для объекта <STRONG>поля</STRONG> .</P>
+> При установке этого свойства для объекта **индекса** или объекта **поля** задайте его для объекта **поля** . Перед, объект **индекса** проверять правильность настройки свойства для объекта **поля** .
 
 
 

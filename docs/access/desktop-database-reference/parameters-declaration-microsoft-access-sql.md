@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7feb483d60084e62c6233d039e568477eda9d134
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e906e90fd6f7bf6e26898ed5381ef687c2ee8514
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927867"
+ms.locfileid: "25937345"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>Описание PARAMETERS (Microsoft Access SQL)
 
@@ -83,7 +83,7 @@ AND OrderDate >= [Beginning date];
 
 В этом примере пользователю требуется укажите название задания, а затем использует данной должности как критерии для запроса.
 
-В этом примере вызывается процедура EnumFields, которые можно найти в примере [оператор SELECT](select-statement-microsoft-access-sql.md) .
+Он вызывает процедуру EnumFields, которые можно найти в примере [оператор SELECT](select-statement-microsoft-access-sql.md) .
 
 ```vb
     Sub ParametersX() 

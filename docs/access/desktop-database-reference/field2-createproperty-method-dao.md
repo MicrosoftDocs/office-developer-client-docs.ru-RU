@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822737(v=office.15)
 ms:contentKeyID: 48547446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b838af4437e9ceafc9f44f0f8852f6e83a70103
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1a101e736e72c0e00bd0b5efede91ae74e4f9754
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928616"
+ms.locfileid: "25936688"
 ---
 # <a name="field2createproperty-method-dao"></a>Метод Field2.CreateProperty (DAO)
 
@@ -88,6 +88,6 @@ ms.locfileid: "25928616"
 
 
 > [!NOTE]
-> <P>Если опустить аргумент DDL по умолчанию используется значение False (не являющиеся DDL). Так как не соответствующее свойство DDL предоставляется, необходимо удалить и повторно создать объект <STRONG>свойств</STRONG> , чтобы перейти с DDL не DDL.</P>
+> Если опустить аргумент DDL по умолчанию используется значение False (не являющиеся DDL). Так как не соответствующее свойство DDL предоставляется, необходимо удалить и повторно создать объект **свойств** , чтобы перейти с DDL не DDL.
 
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248791(v=office.15)
 ms:contentKeyID: 48542962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 27741f8b1a07e4fae49818b72a7239d13d069cca
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 39c801e223eba83a8de6aa7dacda6d8296e77588
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931206"
+ms.locfileid: "25936975"
 ---
 # <a name="fields-collection-ado"></a>Коллекция Fields (ADO)
 
@@ -24,11 +24,8 @@ ms.locfileid: "25931206"
 
 Объект **набора записей** имеет коллекции **полей** , состоящих из **поля** объектов. Каждый объект **поля** соответствует столбца в **набора записей**. Можно заполнить коллекции **полей** перед открытием **набора записей** путем вызова метода [обновления](refresh-method-ado.md) в семействе сайтов.
 
-
 > [!NOTE]
-> <P>В разделе <STRONG>поля</STRONG> объекта более подробное описание того, как использовать объекты <STRONG>поля</STRONG> .</P>
-
-
+> В разделе **поля** объекта более подробное описание того, как использовать объекты **поля** .
 
 Коллекция **полей** содержит метод [Append](append-method-ado.md) , который условно создает и добавляет объект **поля** в коллекцию и метод **Update** , который завершает добавлений или удалений.
 
