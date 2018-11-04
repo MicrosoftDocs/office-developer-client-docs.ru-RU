@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249267(v=office.15)
 ms:contentKeyID: 48544834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a9724d84bed6c89267aeb811936eeb49b49bc17
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f9887551d4d8a141c8390764bcd23c98c59edc26
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929344"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950225"
 ---
 # <a name="filtercriterion-property-rds"></a>Свойство FilterCriterion (RDS)
 
-
 **Применимо к**: Access 2013, Office 2013
-
-
 
 Указывает оператор оценки, используемый в значение фильтра.
 
@@ -28,13 +25,10 @@ ms.locfileid: "25929344"
 
 ## <a name="parameters"></a>Параметры
 
-  - *DataControl*
-
-  - Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.
-
-  - *Строка*
-
-  - **Строковое** значение, указывающее, оператор оценки [Значение_фильтра](filtervalue-property-rds.md) в записи. Может быть одним из следующих значений: \<, \<=, \>, \>=, =, или \< \>.
+|Параметр|Описание|
+|:--------|:----------|
+|*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
+|*Строка* |**Строковое** значение, указывающее, оператор оценки [Значение_фильтра](filtervalue-property-rds.md) в записи. Может быть одним из следующих значений: \<, \<=, \>, \>=, =, или \< \>.|
 
 ## <a name="remarks"></a>Примечания
 

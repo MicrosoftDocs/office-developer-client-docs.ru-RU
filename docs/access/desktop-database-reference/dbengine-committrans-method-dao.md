@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845171(v=office.15)
 ms:contentKeyID: 48543197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 564f1852fac571bdf1459c98620f31e2419b2cf3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: de57bfff5b47e3c4202a17910db2413686f73d9b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925711"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950267"
 ---
 # <a name="dbenginecommittrans-method-dao"></a>Метод DBEngine.CommitTrans (DAO)
 
@@ -26,7 +26,7 @@ ms.locfileid: "25925711"
 
 *выражение* Переменная, которая представляет собой объект- **DBEngine** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ ms.locfileid: "25925711"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Параметр</p></td>
+<td><p><em>Вариант</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Длинный</strong></p></td>
 <td><p>В рабочей области для Microsoft Access можно включить константы <strong>dbForceOSFlush</strong> с <strong>CommitTrans</strong>. Это заставляет СУБД немедленно очистить все обновления на диске, вместо кэширование их временно. Без этого параметра, пользователь может get управления обратно сразу же после программа приложение вызывает <strong>CommitTrans</strong>включить компьютере отключена и не обновлять данные записываются на диск. При использовании этого параметра может повлиять на производительность приложения, будет полезно в ситуациях, где компьютер может отключен перед кэшированные обновления сохраняются на диске.</p></td>
