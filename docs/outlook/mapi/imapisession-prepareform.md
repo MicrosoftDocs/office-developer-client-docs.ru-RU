@@ -23,7 +23,7 @@ ms.locfileid: "25393238"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Создает числовое маркера, который использует метод [IMAPISession::ShowForm](imapisession-showform.md) для доступа к сообщению. 
   
@@ -55,7 +55,7 @@ S_OK
   
 > Подготовка формы выполнена успешно.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession::PrepareForm** создает маркер сообщения для сообщения, на который указывает параметр _lpMessage_ и вызывает метод [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) сообщение. Этот маркер передается в параметре _ulMessageToken_ **IMAPISession::ShowForm**. 
   

@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249909(v=office.15)
 ms:contentKeyID: 48547423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a429c18890125f1c047c6356d250713ea5ea817
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 893890e43725d8c667ee5f72b396d3ec8947f395
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944902"
+ms.locfileid: "25949371"
 ---
 # <a name="delete-method-adox-collections"></a>Удаление метода (ADOX коллекций)
 
-
 **Применимо к**: Access 2013, Office 2013
-
-
 
 Удаляет объект из коллекции.
 
@@ -28,9 +25,9 @@ ms.locfileid: "25944902"
 
 ## <a name="parameters"></a>Параметры
 
-- *Имя*
-
-  - **Variant** , которое указывает имя или порядковый номер (индекс) объекта для удаления.
+|Параметр|Описание|
+|:--------|:----------|
+|*Name* |**Variant** , которое указывает имя или порядковый номер (индекс) объекта для удаления.|
 
 ## <a name="remarks"></a>Примечания
 

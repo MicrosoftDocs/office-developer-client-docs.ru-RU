@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a06837ec98d96cc4c6ae75a19dd953ca4dc59dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d95b33531f32ebc3524737c3322c92838518b97f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920083"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949539"
 ---
 # <a name="connectionexecute-method-dao"></a>Метод Connection.Execute (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25920083"
 
 *выражение* Переменная, которая содержит объект **подключения** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ ms.locfileid: "25920083"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Query</p></td>
+<td><p><em>Query</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p><strong>Строка</strong> , которая является значение свойства <strong>Name</strong> объекта <strong>QueryDef</strong> или инструкции SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Варианты</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа или сочетание констант, который определяет характеристики целостности данных запроса, как указано в настройки.</p></td>

@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2d90d82db89060894eda1e58442cb6f9d52f124e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fc089ded79e9a25da566f44b668bf788d97fc4be
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919495"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949980"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Метод Database.PopulatePartial (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Синхронизирует все изменения в частичные реплики с полной реплики, очищает все записи в частичные реплики и затем повторно заполняется реплику на основе текущего фильтров реплики. (База данных ядра базы данных Microsoft Access только.).
 
@@ -31,7 +29,7 @@ ms.locfileid: "25919495"
 
 *выражение* Переменная, которая представляет собой объект **базы данных** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -50,7 +48,7 @@ ms.locfileid: "25919495"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DbPathName</p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Путь и имя полной реплики, из которого для заполнения записей.</p></td>

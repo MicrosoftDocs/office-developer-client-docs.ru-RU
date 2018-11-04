@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
 ms:contentKeyID: 48546357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cdbf9bc7ab29b98c7d1b96700adccaa17275d698
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 2bcee0de272a14825f978abb1f6dd2834a998f86
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946554"
+ms.locfileid: "25949336"
 ---
 # <a name="read-method-ado"></a>Метод Read (ADO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,9 +25,9 @@ ms.locfileid: "25946554"
 
 ## <a name="parameters"></a>Параметры
 
-  - *NumBytes*
-
-  - Необязательно указывать. Значение типа **Long** , указывающее число байтов для чтения из файла или значение [StreamReadEnum](streamreadenum.md) **adReadAll**, который используется по умолчанию.
+|Параметр|Описание|
+|:--------|:----------|
+|*NumBytes* |Необязательно указывать. Значение типа **Long** , указывающее число байтов для чтения из файла или значение [StreamReadEnum](streamreadenum.md) **adReadAll**, который используется по умолчанию.|
 
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -38,8 +37,7 @@ ms.locfileid: "25946554"
 
 Если *NumBytes* больше, чем количество байтов, оставшихся в **потоке**, возвращаются только остаток байтов. Данные, прочитанные не дополняется в соответствии с *NumBytes*заданной длины. Если нет байт для чтения, возвращается значение variant нулевое значение. **Чтение** не может использоваться для чтения в обратном направлении.
 
-
 > [!NOTE]
-> <P><EM>NumBytes</EM> всегда меры в байтах. Для текста <STRONG>поток</STRONG> объектов (<A href="type-property-ado-stream.md">Тип</A> — <STRONG>adTypeText</STRONG>), используйте <A href="readtext-method-ado.md">ReadText</A>.</P>
+> *NumBytes* всегда меры в байтах. Для текста **поток** объектов ([Тип](type-property-ado-stream.md) — **adTypeText**), используйте [ReadText](readtext-method-ado.md).
 
 

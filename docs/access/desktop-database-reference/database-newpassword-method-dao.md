@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d721102039a0fffbc8bbdc4696712bc530967fd8
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 567a8901b06bf73a57addc8907e2eb5517e5c2e4
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936856"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949518"
 ---
 # <a name="databasenewpassword-method-dao"></a>Метод Database.NewPassword (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25936856"
 
 *выражение* Выражение, возвращающее объект **базы данных** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,17 +48,17 @@ ms.locfileid: "25936856"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>bstrOld</p></td>
+<td><p><em>bstrOld</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Текущего значения свойства <strong>Password</strong> объекта <strong>базы данных</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>bstrNew</p></td>
+<td><p><em>bstrNew</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Новый параметр <strong>Password</strong> свойство объекта <strong>базы данных</strong> .</p>
-<p><strong>Примечание</strong> Используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p>
+<p><strong>Примечание</strong>: используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p>
 </td>
 </tr>
 </tbody>

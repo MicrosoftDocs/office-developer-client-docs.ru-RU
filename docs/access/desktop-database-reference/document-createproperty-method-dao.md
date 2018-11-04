@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052967
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 50d19b2341a709425a5cf974d8f947126ab4c717
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d6b8d8e7e721ecbe3be08f654fbe8c682294e49d
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929988"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949707"
 ---
 # <a name="documentcreateproperty-method-dao"></a>Метод Document.CreateProperty (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25929988"
 
 *выражение* Переменная, которая представляет собой объект- **документов** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,25 +48,25 @@ ms.locfileid: "25929988"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Строка</strong> , уникальным образом новый объект <strong>свойство</strong> . Свойство <strong>Name</strong> для получения дополнительных сведений см на допустимый имена <strong>свойств</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип</p></td>
+<td><p><em>Тип</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа, которая определяет тип данных нового <strong>Свойства</strong> объекта. В разделе свойства <strong><a href="field-type-property-dao.md">Type</a></strong> для типов данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Значение</p></td>
+<td><p><em>Значение</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> содержащий исходное значение свойства. Свойство <strong><a href="field-value-property-dao.md">Value</a></strong> для получения дополнительных сведений см.</p></td>
 </tr>
 <tr class="even">
-<td><p>DDL</p></td>
+<td><p><em>DDL</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (<strong>логическое</strong> подтип), которое указывает, является ли <strong>свойство</strong> объектом DDL. Значение по умолчанию — <strong>False</strong>. Если DDL имеет <strong>значение True</strong>, пользователи не могут изменить и удалить этот объект <strong>Свойства</strong> , если у них есть разрешение <strong>dbSecWriteDef</strong> .</p></td>
@@ -76,7 +75,7 @@ ms.locfileid: "25929988"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Свойство
 

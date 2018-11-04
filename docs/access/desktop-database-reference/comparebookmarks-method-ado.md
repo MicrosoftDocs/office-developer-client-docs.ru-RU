@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249564(v=office.15)
 ms:contentKeyID: 48545977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88257a39ffc459f04a8fbd5afda476ef58955c03
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 8b4ff47c0fa778e89479df7a4281abd534fdcec8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945665"
+ms.locfileid: "25949626"
 ---
 # <a name="comparebookmarks-method-ado"></a>Метод CompareBookmarks (ADO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,13 +29,10 @@ ms.locfileid: "25945665"
 
 ## <a name="parameters"></a>Параметры
 
-- *Bookmark1*
-
-  - Закладка первой строки.
-
-- *Bookmark2*
-
-  - Закладка второй строке.
+|Параметр|Описание|
+|:--------|:----------|
+|*Bookmark1* |Закладка первой строки.|
+|*Bookmark2* |Закладка второй строке.|
 
 ## <a name="remarks"></a>Примечания
 

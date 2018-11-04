@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
 ms:contentKeyID: 48547658
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06b9372a15082a76503654dde9261db941a492f8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1e7f9dfc3ce5cb0d757951f13c1078ab44d04760
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924003"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949427"
 ---
 # <a name="query-method-rds"></a>Метод Query (RDS)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Допустимая строка запроса SQL используется для возврата [набора записей](recordset-object-ado.md).
 
@@ -27,21 +25,12 @@ ms.locfileid: "25924003"
 
 ## <a name="parameters"></a>Параметры
 
-  - *Набор записей*
-
-  - Объектная переменная, представляющий объект **набора записей** .
-
-  - *DataFactory*
-
-  - Объектная переменная, которая представляет объект [RDSServer.DataFactory](datafactory-object-rdsserver.md) .
-
-  - *Подключение*
-
-  - **Строковое** значение, содержащее сведения о подключении сервера. Это свойства [подключения](connect-property-rds.md) .
-
-  - *Query*
-
-  - **Строка** , содержащая запрос SQL.
+|Параметр|Описание|
+|:--------|:----------|
+|*Набор записей* |Объектная переменная, представляющий объект **набора записей** .|
+|*DataFactory* |Объектная переменная, которая представляет объект [RDSServer.DataFactory](datafactory-object-rdsserver.md) .|
+|*Подключение* |**Строковое** значение, содержащее сведения о подключении сервера. Это свойства [подключения](connect-property-rds.md) .|
+|*Query* |**Строка** , содержащая запрос SQL.|
 
 ## <a name="remarks"></a>Примечания
 

@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58683a8721ede0e7535b159f095b44bc6db6c1b7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 49ab3d51deae86a02a486da224459bcfaaf057b2
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926733"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949680"
 ---
 # <a name="executecomplete-event-ado"></a>Событие ExecuteComplete (ADO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
-
 
 Событие **ExecuteComplete** вызывается после завершения выполнения команды.
 
@@ -28,31 +25,14 @@ ExecuteComplete*RecordsAffected*, *pError*, *adStatus*, *командной*, *p
 
 ## <a name="parameters"></a>Параметры
 
-  - *RecordsAffected*
-
-  - **Длинное** значение, указывающее количество записей командой.
-
-  - *pError*
-
-  - Объект [Error](error-object-ado.md) . Описание ошибки, возникшей при имеет значение **adStatus** **adStatusErrorsOccurred**; в противном случае он не задан.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Прежде чем возвращает это событие, присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления.
-
-  - *Командной*
-
-  - Объект [команды](command-object-ado.md) , который был выполнен. Содержит объект **команды** , даже в том случае, если вызов **Connection.Execute** или **Recordset.Open** без явного создания **команды**, в каких случаях объект **команды** создается внутренне с ADO.
-
-  - *pRecordset*
-
-  - Объект [набора записей](recordset-object-ado.md) , в результате выполнения команды. Этот **набор записей** может быть пустым. Никогда не следует удалить объект набора записей из в этот обработчик событий. Это приведет к нарушение прав доступа, когда ADO пытается получить доступ к объекту, который больше не существует.
-
-  - *pConnection*
-
-  - Объект [подключения](connection-object-ado.md) . Подключение, для которого была выполнена операция.
+|Параметр|Описание|
+|:--------|:----------|
+|*RecordsAffected* |**Длинное** значение, указывающее количество записей командой.|
+|*pError* |Объект [Error](error-object-ado.md) . Описание ошибки, возникшей при имеет значение **adStatus** **adStatusErrorsOccurred**; в противном случае он не задан.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Прежде чем возвращает это событие, присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления.|
+|*Командной* |Объект [команды](command-object-ado.md) , который был выполнен. Содержит объект **команды** , даже в том случае, если вызов **Connection.Execute** или **Recordset.Open** без явного создания **команды**, в каких случаях объект **команды** создается внутренне с ADO.|
+|*pRecordset* |Объект [набора записей](recordset-object-ado.md) , в результате выполнения команды. Этот **набор записей** может быть пустым. Никогда не следует удалить объект набора записей из в этот обработчик событий. Это приведет к нарушение прав доступа, когда ADO пытается получить доступ к объекту, который больше не существует.|
+|*pConnection* |Объект [подключения](connection-object-ado.md) . Подключение, для которого была выполнена операция.|
 
 ## <a name="remarks"></a>Примечания
 

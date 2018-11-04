@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa7042f34f4b125c9cd34d31baae538ea3637801
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7a6f7ac26c3089a973a68e07acbe0f6f3e4029df
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928539"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949441"
 ---
 # <a name="append-method-adox-columns"></a>Метод Append (коллекция Columns в ADOX)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,17 +25,11 @@ ms.locfileid: "25928539"
 
 ## <a name="parameters"></a>Параметры
 
-  - *Столбец*
-
-  - Объект для добавления **столбца** или имя столбца для создания и добавления.
-
-  - *Тип*
-
-  - Необязательно указывать. Значение типа **Long** , определяющее тип данных столбца. Параметр *типа* соответствует свойство [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) объекта **столбца** .
-
-  - *DefinedSize*
-
-  - Необязательно указывать. Значение типа **Long** , определяет размер столбца. Параметр *DefinedSize* соответствует свойству [DefinedSize](definedsize-property-adox.md) объекта **столбца** .
+|Параметр|Описание|
+|:--------|:----------|
+|*Столбец* |Объект для добавления **столбца** или имя столбца для создания и добавления.|
+|*Тип* |Необязательно указывать. Значение типа **Long** , определяющее тип данных столбца. Параметр *типа* соответствует свойство [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) объекта **столбца** .|
+|*DefinedSize* |Необязательно указывать. Значение типа **Long** , определяет размер столбца. Параметр *DefinedSize* соответствует свойству [DefinedSize](definedsize-property-adox.md) объекта **столбца** .|
 
 
 > [!NOTE]

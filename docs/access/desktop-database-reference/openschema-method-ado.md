@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 846d1c0f73ba4a17f166fffc7c1bb4682ad31d49
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a204f6e86a1c50be49400430f53dd99468668a9e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921168"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950001"
 ---
 # <a name="openschema-method-ado"></a>Метод OpenSchema (ADO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Получает сведения о схеме базы данных от поставщика.
 
@@ -31,17 +29,11 @@ ms.locfileid: "25921168"
 
 ## <a name="parameters"></a>Параметры
 
-  - *QueryType*
-
-  - Любое значение [SchemaEnum](schemaenum.md) , представляющий тип запроса схемы для запуска.
-
-  - *Criteria*
-
-  - Необязательно указывать. Массив ограничения запроса для каждого варианта *QueryType* , как указано в **SchemaEnum**.
-
-  - *SchemaID*
-
-  - Идентификатор GUID для запроса поставщика схемы не определена спецификацией OLE DB. Этот параметр является обязательным, если *QueryType* задано значение **adSchemaProviderSpecific**; в противном случае он не используется.
+|Параметр|Описание|
+|:--------|:----------|
+|*QueryType* |Любое значение [SchemaEnum](schemaenum.md) , представляющий тип запроса схемы для запуска.|
+|*Criteria* |Необязательно указывать. Массив ограничения запроса для каждого варианта *QueryType* , как указано в **SchemaEnum**.|
+|*SchemaID* |Идентификатор GUID для запроса поставщика схемы не определена спецификацией OLE DB. Этот параметр является обязательным, если *QueryType* задано значение **adSchemaProviderSpecific**; в противном случае он не используется.|
 
 ## <a name="remarks"></a>Примечания
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f958081ee73e64ca6c895217c8aa3e821617b283
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 08e26c4a32e8648eb1833dc493b4e121030d1f1a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927195"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950036"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>Метод DBEngine.OpenConnection (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -28,7 +27,7 @@ ms.locfileid: "25927195"
 
 *выражение* Переменная, которая представляет собой объект- **DBEngine** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -47,25 +46,25 @@ ms.locfileid: "25927195"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Строковое выражение. В разделе обсуждения в разделе Примечания.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Варианты</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Задает различные параметры подключения, как указано в разделе Примечания. На основе этого значения, драйвера ODBC запрашивает сведения о подключении, такие как имя источника данных (DSN), имя пользователя и пароль.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>Только для чтения</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Значение true,</strong> Если подключение будет открыт для доступа только для чтения и <strong>значение False</strong> , если подключение должен быть открыт для чтения и записи (по умолчанию).</p></td>
 </tr>
 <tr class="even">
-<td><p>Подключение</p></td>
+<td><p><em>Подключение</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Строка подключения ODBC. В разделе свойства <strong><a href="connection-connect-property-dao.md">подключения</a></strong> для определенных элементов и синтаксис этой строки. Начале стоит символ &quot;ODBC. &quot; является обязательным.</p></td>
@@ -74,7 +73,7 @@ ms.locfileid: "25927195"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Подключение
 

@@ -1,17 +1,17 @@
 ---
-title: Свойство Item (ячеек ADO MD)
-TOCTitle: Item Property (ADO MD Cellset)
+title: Свойство Item (ADO MD Cellset)
+TOCTitle: Item property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53912b9c1b84b88929a00f9e74caf4c138a1410
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fdf405ab5cd59e7ab4268e2fea870272836fb164
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946617"
+ms.locfileid: "25949609"
 ---
 # <a name="item-property-ado-md-cellset"></a>Свойство Item (ADO MD Cellset)
 
@@ -25,15 +25,9 @@ ms.locfileid: "25946617"
 
 ## <a name="parameters"></a>Параметры
 
-- *Положения*
-
-- **Variant** **массив** значений, которые однозначно указать ячейки. *Положения* может иметь одно из следующих:
-    
-  - Массив положение чисел
-    
-  - Массив имена элементов
-    
-  - Порядковый номер
+|Параметр|Описание|
+|:--------|:----------|
+|*Положения* |**Вариантный массив** значений, которые однозначно указать ячейки. *Положения* может иметь одно из следующих:<br/><br/>-Массив положение чисел<br/>-Массив имена элементов<br/>-Порядковый номер |
 
 ## <a name="remarks"></a>Примечания
 

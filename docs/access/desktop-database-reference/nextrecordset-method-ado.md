@@ -6,19 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: da7e23974b9541a29aa78ba9d7de22e76102971b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6ca95e311f6040d5834fa24ce24d392375953990
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929554"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949938"
 ---
 # <a name="nextrecordset-method-ado"></a>Метод NextRecordset (ADO)
 
-
 **Применимо к**: Access 2013, Office 2013
  
-
 Удаляет текущий объект [набора записей](recordset-object-ado.md) и возвращает следующего **набора записей** путем перемещения через последовательность команд.
 
 ## <a name="syntax"></a>Синтаксис
@@ -31,15 +29,12 @@ ms.locfileid: "25929554"
 
 ## <a name="parameters"></a>Параметры
 
-- *RecordsAffected*
-
-- Необязательно указывать. **Длинные** переменной, в который поставщик возвращает число записей, которое влияет на текущей операции.
-
+|Параметр|Описание|
+|:--------|:----------|
+|*RecordsAffected* |Необязательно указывать. **Длинные** переменной, в который поставщик возвращает число записей, которое влияет на текущей операции.|
 
 > [!NOTE]
-> <P>Этот параметр только возвращает число записей, затронутых операцией; Возвращает число записей в инструкции select, используемый для создания <STRONG>записей</STRONG>.</P>
-
-
+> Этот параметр только возвращает число записей, затронутых операцией; Возвращает число записей в инструкции select, используемый для создания **записей**.
 
 ## <a name="remarks"></a>Примечания
 

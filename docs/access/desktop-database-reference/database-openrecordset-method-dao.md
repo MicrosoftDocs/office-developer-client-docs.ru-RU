@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab969f2e26751a70a0f9ac9daf2ca17bcaa103c5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f241d8b6a5b13d68ed58b984ef84bfdd942a3891
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925977"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949966"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Метод Database.OpenRecordset (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25925977"
 
 *выражение* Переменная, которая представляет собой объект **базы данных** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -48,52 +48,37 @@ ms.locfileid: "25925977"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Источник записей для нового <strong>набора записей</strong>. Источник может быть имя таблицы, имя запроса или инструкции SQL, которая возвращает записи. Для объектов <strong>наборов записей</strong> в таблице типа в базами данных, ядро базы данных Microsoft Access источник может быть только имя таблицы.</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип</p></td>
+<td><p><em>Тип</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> , указывающая тип <strong>набора записей</strong> , чтобы открыть.</p>
-
-> [!NOTE]
-> При открытии **набора записей** в рабочей области Microsoft Access и тип не указан, **OpenRecordset** создает табличного типа **записей**, если это возможно. При указании связанной таблицы или запроса, **OpenRecordset** создает добавляющий **набора записей**.
-
-
+<td><p>Константа <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> , указывающая тип <strong>набора записей</strong> , чтобы открыть.</p><p><strong>Примечание</strong>: при открытии <strong>набора записей</strong> в рабочей области Microsoft Access и тип не указан, <strong>OpenRecordset</strong> создает табличного типа <strong>записей</strong>, если это возможно. При указании связанной таблицы или запроса, <strong>OpenRecordset</strong> создает добавляющий <strong>набора записей</strong>.</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p><em>Варианты</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> , которые задают характеристики нового <strong>набора записей</strong>.</p>
-
-> [!NOTE]
-> Константы **dbConsistent** и **dbInconsistent** являются взаимоисключающими и использовании обоих приводит к ошибке. Также указав аргумент LockEdit, когда параметры использует константу **dbReadOnly** приводит к ошибке.
-
-
+<td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> , которые задают характеристики нового <strong>набора записей</strong>.</p><p><strong>Примечание</strong>: константы <strong>dbConsistent</strong> и <strong>dbInconsistent</strong> являются взаимоисключающими и использовании обоих приводит к ошибке. Также указав аргумент LockEdit, когда параметры использует константу <strong>dbReadOnly</strong> приводит к ошибке.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>LockEdit</p></td>
+<td><p><em>LockEdit</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> , определяющая блокировки для <strong>набора записей</strong>.</p>
-
-> [!NOTE]
-> Можно использовать **dbReadOnly** в аргументе параметры или аргумент LockedEdit, но не оба. При использовании обоих аргументов, возникает ошибка времени выполнения.
-
-
+<td><p>Константа <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> , определяющая блокировки для <strong>набора записей</strong>.</p><p><strong>Примечание</strong>: можно использовать <strong>dbReadOnly</strong> в аргументе параметры или аргумент LockedEdit, но не оба. При использовании обоих аргументов, возникает ошибка времени выполнения.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Набор записей
 

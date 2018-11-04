@@ -1,24 +1,21 @@
 ---
-title: Способа - ActiveX Data Objects (ADO)
+title: Способ - ActiveX Data Objects (ADO)
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee2dbaf7dd3a15cf6cd415af208ec10a14fc9c9b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: be8127ea3f298a8f137012615b1f4de656a6ea1f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923380"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949714"
 ---
 # <a name="seek-method-ado"></a>Метод Seek (ADO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
-
 
 Выполняет поиск индекса [набора записей](recordset-object-ado.md) для быстрого поиска строку, в которой совпадает с указанными значениями и изменяет текущее положение строки на эту строку.
 
@@ -28,13 +25,10 @@ ms.locfileid: "25923380"
 
 ## <a name="parameters"></a>Параметры
 
-  - *KeyValues*
-
-  - Массив значений **Variant** . Индекс состоит из одного или нескольких столбцов и массив содержит значение, которое будет сравниваться с все соответствующие столбцы.
-
-  - *SeekOption*
-
-  - [SeekEnum](seekenum.md) значение, задающее тип сравнения между столбцов индекса и соответствующие *KeyValues*.
+|Параметр|Описание|
+|:--------|:----------|
+|*KeyValues* |Массив значений **Variant** . Индекс состоит из одного или нескольких столбцов и массив содержит значение, которое будет сравниваться с все соответствующие столбцы.|
+|*SeekOption* |[SeekEnum](seekenum.md) значение, задающее тип сравнения между столбцов индекса и соответствующие *KeyValues*.|
 
 ## <a name="remarks"></a>Примечания
 

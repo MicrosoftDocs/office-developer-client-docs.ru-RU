@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b472f8e2cb7d95a3aa79194e7704a877864c1339
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 853f971f68bb0ec4069ba58e04b7cf9d231c6467
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920279"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949861"
 ---
 # <a name="getrows-method-ado"></a>Метод GetRows (ADO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Извлекает нескольких записей объекта [набора записей](recordset-object-ado.md) в массив.
 
@@ -31,17 +29,11 @@ ms.locfileid: "25920279"
 
 ## <a name="parameters"></a>Параметры
 
-  - *Строк*
-
-  - Необязательно указывать. [GetRowsOptionEnum](getrowsoptionenum.md) значение, указывающее количество записей для извлечения. Значение по умолчанию — **adGetRowsRest**.
-
-  - *Start*
-
-  - Необязательно указывать. Значение **String** или **Variant** , которое оценивается как закладку для записи, с которого следует начать операции **получения строк** . Можно также использовать значение [BookmarkEnum](bookmarkenum.md) .
-
-  - *Поля*
-
-  - Необязательно указывать. **Variant** , который представляет одного поля имя или порядковый номер или массив имена полей или номера порядковый номер. ADO возвращает только данные в этих полях.
+|Параметр|Описание|
+|:--------|:----------|
+|*Строк* |Необязательно указывать. [GetRowsOptionEnum](getrowsoptionenum.md) значение, указывающее количество записей для извлечения. Значение по умолчанию — **adGetRowsRest**.|
+|*Start* |Необязательно указывать. Значение **String** или **Variant** , которое оценивается как закладку для записи, с которого следует начать операции **получения строк** . Можно также использовать значение [BookmarkEnum](bookmarkenum.md) .|
+|*Поля* |Необязательно указывать. **Variant** , который представляет одного поля имя или порядковый номер или массив имена полей или номера порядковый номер. ADO возвращает только данные в этих полях.|
 
 ## <a name="remarks"></a>Примечания
 

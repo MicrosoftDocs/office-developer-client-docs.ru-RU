@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 59e5cc34eb6325b6151ab053f9c870a999bd94aa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8a5e220903a7404689b7fb4088cf10164333d67e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927895"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950044"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Метод Database.CreateTableDef (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25927895"
 
 *выражение* Переменная, которая представляет собой объект **базы данных** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -48,25 +48,25 @@ ms.locfileid: "25927895"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (<strong>String</strong> подтип), уникальным образом новый объект <strong>TableDef</strong> . Свойство <strong><a href="tabledef-name-property-dao.md">Name</a></strong> для получения дополнительных сведений см допустимые имена <strong>TableDef</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Атрибуты</p></td>
+<td><p><em>Атрибуты</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа или сочетание констант, которое указывает один или несколько характеристик этого нового объекта <strong>TableDef</strong> . Свойство <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> для получения дополнительных сведений см.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SourceTableName</p></td>
+<td><p><em>SourceTableName</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (<strong>String</strong> подтип), содержащей имя таблицы во внешней базе данных, который является оригинального источника данных. Источник строки, становится значения свойства <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> новый объект <strong>TableDef</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Подключение</p></td>
+<td><p><em>Подключение</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (<strong>String</strong> подтип), содержащее сведения о источника базу данных, используемые в запроса к серверу или связанной таблицы базы данных. В разделе свойства <strong><a href="tabledef-connect-property-dao.md">Подключить</a></strong> Дополнительные сведения о допустимых строках подключения.</p></td>
@@ -75,7 +75,7 @@ ms.locfileid: "25927895"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 TableDef
 

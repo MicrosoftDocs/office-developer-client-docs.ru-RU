@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45d2835f4745a26d60c57c950ca1a48a9b47cd77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2a1ad7798fc6236f95d31c18cd864fe64e7a3fd8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927008"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949930"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Метод Database.CreateRelation (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25927008"
 
 *выражение* Переменная, которая представляет собой объект **базы данных** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -48,25 +48,25 @@ ms.locfileid: "25927008"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (<strong>String</strong> подтип), уникальным образом новый объект <strong>отношения</strong> . Свойство <strong><a href="connection-name-property-dao.md">Name</a></strong> для получения дополнительных сведений см допустимые имена <strong>отношения</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Таблица</p></td>
+<td><p><em>Table</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (<strong>String</strong> подтип) с именем основной таблицы в отношении. Если в таблице не существует, перед добавлением объект <strong>отношения</strong> , возникает ошибка времени выполнения.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Таблицавнешнегоключа</p></td>
+<td><p><em>Таблицавнешнегоключа</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (<strong>String</strong> подтип) с именем таблицы внешнего в отношении. Если в таблице не существует, перед добавлением объект <strong>отношения</strong> , возникает ошибка времени выполнения.</p></td>
 </tr>
 <tr class="even">
-<td><p>Атрибуты</p></td>
+<td><p><em>Атрибуты</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа или сочетание констант, который содержит сведения о типе отношения. Свойство <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> для получения дополнительных сведений см.</p></td>
@@ -75,7 +75,7 @@ ms.locfileid: "25927008"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Связь
 

@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d750bd39835a8bb69d195663b72254d3f53cd635
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 68c0e6d246370f9c4f0c241195fb19c241ca49e5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926082"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949721"
 ---
 # <a name="dbengineidle-method-dao"></a>Метод DBEngine.Idle (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Выполняется приостановка обработки данных, позволяя ядро базы данных Microsoft Access завершить все ожидающие задач, таких как оптимизации памяти или время ожидания страницы (только для рабочих областей Microsoft Access).
 
@@ -31,7 +29,7 @@ ms.locfileid: "25926082"
 
 *выражение* Переменная, которая представляет собой объект- **DBEngine** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -50,7 +48,7 @@ ms.locfileid: "25926082"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Действие</p></td>
+<td><p><em>Действие</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Указывает действие, которое выполняется. Может быть <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> констант.</p></td>

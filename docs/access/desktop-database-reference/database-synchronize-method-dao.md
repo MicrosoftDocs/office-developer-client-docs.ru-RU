@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 19c9935b92e1b7f0b60efb3e00df22133c4d7658
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 65611960044ea62e42be1ea9d6c6a54d5d42d5a8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927307"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949770"
 ---
 # <a name="databasesynchronize-method-dao"></a>Метод Database.Synchronize (DAO)
 
@@ -30,7 +30,7 @@ ms.locfileid: "25927307"
 
 *выражение* Переменная, которая представляет собой объект **базы данных** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,13 +49,13 @@ ms.locfileid: "25927307"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DbPathName</p></td>
+<td><p><em>DbPathName</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Путь к целевой реплики, с которой синхронизируется базы данных.</p></td>
 </tr>
 <tr class="even">
-<td><p>ExchangeType</p></td>
+<td><p><em>ExchangeType</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> , которое указывает направление, чтобы синхронизировать изменения между двумя базами данных.</p></td>

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5e0282d95a77f302103414df1ee904d300a0330e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2d6d40d88051e708944dadfabb984d44cc8c5cbc
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922953"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949889"
 ---
 # <a name="dbenginesetoption-method-dao"></a>Метод: DBEngine.SetOption (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25922953"
 
 *выражение* Выражение, возвращающее объект **DBEngine** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ ms.locfileid: "25922953"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Параметр</p></td>
+<td><p><em>Вариант</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Длинный</strong></p></td>
 <td><p>Константа, как описано в разделе Примечания.</p></td>
 </tr>
 <tr class="even">
-<td><p>Значение</p></td>
+<td><p><em>Значение</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Значение, которое требуется для параметра.</p></td>

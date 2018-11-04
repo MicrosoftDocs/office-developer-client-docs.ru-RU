@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248924(v=office.15)
 ms:contentKeyID: 48543435
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e336a7ddf4db6e927c185b33a4138ab8dd5d5e9a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cebb2f464b63106545ff5b27b1722b6417b9dbe1
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925970"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949945"
 ---
 # <a name="reset-method-rds"></a>Метод Reset (RDS)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,13 +25,10 @@ ms.locfileid: "25925970"
 
 ## <a name="parameters"></a>Параметры
 
-  - *DataControl*
-
-  - Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.
-
-  - *value*
-
-  - Необязательно указывать. **Логическое** значение, равное **True** (по умолчанию) Если требуется отфильтровать на текущем «отфильтрованные» строк. **Значение false** указывает, что фильтрации на исходной строк, удалить любые предыдущие параметры фильтра.
+|Параметр|Описание|
+|:--------|:----------|
+|*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
+|*value* |Необязательно указывать. **Логическое** значение, равное **True** (по умолчанию) Если требуется отфильтровать на текущем «отфильтрованные» строк. **Значение false** указывает, что фильтрации на исходной строк, удалить любые предыдущие параметры фильтра.|
 
 ## <a name="remarks"></a>Примечания
 

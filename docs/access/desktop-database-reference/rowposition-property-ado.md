@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15)
 ms:contentKeyID: 48547325
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f83d1b113b29be06ffded5263791d3db3068f7f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0adb1cdf9ce7b096d7b80b86a89a819d5789b60b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869073"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949385"
 ---
 # <a name="rowposition-property-ado"></a>Свойство RowPosition (ADO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
-
 
 Получает или задает объект OLE DB **RowPosition** из/на объекте **ADORecordsetConstruction** . При использовании **поместить\_RowPosition** Чтобы установить для объекта **RowPosition** , объекте результирующего **набора записей** использует объект **RowPosition** для определения текущей строки.
 
@@ -32,23 +29,20 @@ HRESULT get\_RowPosition (\[out retval\] IUnknown\* \* ppRowPos);
 
 ## <a name="parameters"></a>Параметры
 
-  - *ppRowPos*
-
-  - Указатель на объект OLE DB **RowPosition** .
-
-  - *PRowPos*
-
-  - Объект OLE DB **RowPosition** .
+|Параметр|Описание|
+|:--------|:----------|
+|*ppRowPos* |Указатель на объект OLE DB **RowPosition** .|
+|*PRowPos* |Объект OLE DB **RowPosition** .|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
 Этот метод свойство возвращает стандартных значений HRESULT, включая S\_ОК и E\_с ОШИБКОЙ.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если значение этого свойства, если объекта **набора записей** в объекте **RowPosition** отличается от объекта **набора записей** в объекте **набора записей** , бывшие переопределяет второй. То же самое относится к текущей **главы** **RowPosition** также.
 
-## <a name="applies-to"></a>Применимо к
+## <a name="applies-to"></a>Область применения
 
 [ADORecordsetConstruction](adorecordsetconstruction-interface-ado.md)
 
