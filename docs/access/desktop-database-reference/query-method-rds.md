@@ -6,44 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
 ms:contentKeyID: 48547658
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06b9372a15082a76503654dde9261db941a492f8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1e7f9dfc3ce5cb0d757951f13c1078ab44d04760
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924003"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949427"
 ---
-# <a name="query-method-rds"></a><span data-ttu-id="20a6f-102">Метод Query (RDS)</span><span class="sxs-lookup"><span data-stu-id="20a6f-102">Query method (RDS)</span></span>
+# <a name="query-method-rds"></a><span data-ttu-id="6a72c-102">Метод Query (RDS)</span><span class="sxs-lookup"><span data-stu-id="6a72c-102">Query method (RDS)</span></span>
 
+<span data-ttu-id="6a72c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a72c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="20a6f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20a6f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6a72c-104">Допустимая строка запроса SQL используется для возврата [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6a72c-104">Uses a valid SQL query string to return a [Recordset](recordset-object-ado.md).</span></span>
 
+## <a name="syntax"></a><span data-ttu-id="6a72c-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6a72c-105">Syntax</span></span>
 
-<span data-ttu-id="20a6f-104">Допустимая строка запроса SQL используется для возврата [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="20a6f-104">Uses a valid SQL query string to return a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="6a72c-106">Установка*набора записей* = *DataFactory*. Запрос (*подключения*, *запросов*)</span><span class="sxs-lookup"><span data-stu-id="6a72c-106">Set*Recordset* = *DataFactory*.Query(*Connection*, *Query*)</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="20a6f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="20a6f-105">Syntax</span></span>
+## <a name="parameters"></a><span data-ttu-id="6a72c-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="6a72c-107">Parameters</span></span>
 
-<span data-ttu-id="20a6f-106">Установка*набора записей* = *DataFactory*. Запрос (*подключения*, *запросов*)</span><span class="sxs-lookup"><span data-stu-id="20a6f-106">Set*Recordset* = *DataFactory*.Query(*Connection*, *Query*)</span></span>
+|<span data-ttu-id="6a72c-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="6a72c-108">Parameter</span></span>|<span data-ttu-id="6a72c-109">Описание</span><span class="sxs-lookup"><span data-stu-id="6a72c-109">Description</span></span>|
+|:--------|:----------|
+|<span data-ttu-id="6a72c-110">*Набор записей*</span><span class="sxs-lookup"><span data-stu-id="6a72c-110">*Recordset*</span></span> |<span data-ttu-id="6a72c-111">Объектная переменная, представляющий объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="6a72c-111">An object variable that represents a **Recordset** object.</span></span>|
+|<span data-ttu-id="6a72c-112">*DataFactory*</span><span class="sxs-lookup"><span data-stu-id="6a72c-112">*DataFactory*</span></span> |<span data-ttu-id="6a72c-113">Объектная переменная, которая представляет объект [RDSServer.DataFactory](datafactory-object-rdsserver.md) .</span><span class="sxs-lookup"><span data-stu-id="6a72c-113">An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span>|
+|<span data-ttu-id="6a72c-114">*Подключение*</span><span class="sxs-lookup"><span data-stu-id="6a72c-114">*Connection*</span></span> |<span data-ttu-id="6a72c-115">**Строковое** значение, содержащее сведения о подключении сервера.</span><span class="sxs-lookup"><span data-stu-id="6a72c-115">A **String** value that contains the server connection information.</span></span> <span data-ttu-id="6a72c-116">Это свойства [подключения](connect-property-rds.md) .</span><span class="sxs-lookup"><span data-stu-id="6a72c-116">This is similar to the [Connect](connect-property-rds.md) property.</span></span>|
+|<span data-ttu-id="6a72c-117">*Query*</span><span class="sxs-lookup"><span data-stu-id="6a72c-117">*Query*</span></span> |<span data-ttu-id="6a72c-118">**Строка** , содержащая запрос SQL.</span><span class="sxs-lookup"><span data-stu-id="6a72c-118">A **String** that contains the SQL query.</span></span>|
 
-## <a name="parameters"></a><span data-ttu-id="20a6f-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="20a6f-107">Parameters</span></span>
+## <a name="remarks"></a><span data-ttu-id="6a72c-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="6a72c-119">Remarks</span></span>
 
-  - <span data-ttu-id="20a6f-108">*Набор записей*</span><span class="sxs-lookup"><span data-stu-id="20a6f-108">*Recordset*</span></span>
-
-  - <span data-ttu-id="20a6f-109">Объектная переменная, представляющий объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="20a6f-109">An object variable that represents a **Recordset** object.</span></span>
-
-  - <span data-ttu-id="20a6f-110">*DataFactory*</span><span class="sxs-lookup"><span data-stu-id="20a6f-110">*DataFactory*</span></span>
-
-  - <span data-ttu-id="20a6f-111">Объектная переменная, которая представляет объект [RDSServer.DataFactory](datafactory-object-rdsserver.md) .</span><span class="sxs-lookup"><span data-stu-id="20a6f-111">An object variable that represents an [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span>
-
-  - <span data-ttu-id="20a6f-112">*Подключение*</span><span class="sxs-lookup"><span data-stu-id="20a6f-112">*Connection*</span></span>
-
-  - <span data-ttu-id="20a6f-113">**Строковое** значение, содержащее сведения о подключении сервера.</span><span class="sxs-lookup"><span data-stu-id="20a6f-113">A **String** value that contains the server connection information.</span></span> <span data-ttu-id="20a6f-114">Это свойства [подключения](connect-property-rds.md) .</span><span class="sxs-lookup"><span data-stu-id="20a6f-114">This is similar to the [Connect](connect-property-rds.md) property.</span></span>
-
-  - <span data-ttu-id="20a6f-115">*Query*</span><span class="sxs-lookup"><span data-stu-id="20a6f-115">*Query*</span></span>
-
-  - <span data-ttu-id="20a6f-116">**Строка** , содержащая запрос SQL.</span><span class="sxs-lookup"><span data-stu-id="20a6f-116">A **String** that contains the SQL query.</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="20a6f-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="20a6f-117">Remarks</span></span>
-
-<span data-ttu-id="20a6f-118">Запрос следует использовать диалект SQL сервера базы данных.</span><span class="sxs-lookup"><span data-stu-id="20a6f-118">The query should use the SQL dialect of the database server.</span></span> <span data-ttu-id="20a6f-119">Если возникает ошибка при выполнении запроса, был выполнен возвращается состояние результатов.</span><span class="sxs-lookup"><span data-stu-id="20a6f-119">A result status is returned if there is an error with the query that was executed.</span></span> <span data-ttu-id="20a6f-120">Метод **Query** не выполняет проверку строки **запроса** синтаксис.</span><span class="sxs-lookup"><span data-stu-id="20a6f-120">The **Query** method doesn't perform any syntax checking on the **Query** string.</span></span>
+<span data-ttu-id="6a72c-120">Запрос следует использовать диалект SQL сервера базы данных.</span><span class="sxs-lookup"><span data-stu-id="6a72c-120">The query should use the SQL dialect of the database server.</span></span> <span data-ttu-id="6a72c-121">Если возникает ошибка при выполнении запроса, был выполнен возвращается состояние результатов.</span><span class="sxs-lookup"><span data-stu-id="6a72c-121">A result status is returned if there is an error with the query that was executed.</span></span> <span data-ttu-id="6a72c-122">Метод **Query** не выполняет проверку строки **запроса** синтаксис.</span><span class="sxs-lookup"><span data-stu-id="6a72c-122">The **Query** method doesn't perform any syntax checking on the **Query** string.</span></span>
 
