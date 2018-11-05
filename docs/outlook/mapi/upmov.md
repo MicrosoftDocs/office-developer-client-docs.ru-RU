@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
-description: '���� ���������� ���������: 5 ���� 2012 �.'
+description: 'Дата последнего изменения: 05 июля 2012 г.'
 ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "25393385"
 ---
 # <a name="upmov"></a>UPMOV
  
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Информация для загрузки элементов, которые были перемещены. Эти сведения используются во время [загрузки удалить состояние состояния](upload-delete-status-state.md) и [Отправка состояний в таблице](upload-table-state.md).
   
@@ -39,7 +39,7 @@ struct UPMOV
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
 _ulFlags_
   
@@ -59,13 +59,13 @@ _ulFlags_
     
 _Сохраняются_
   
->  [out] Этот член зарезервирован для внутреннего использования Outlook и не поддерживается. 
+>  [out] Данный элемент резервируется для внутреннего использования в Outlook и не поддерживается. 
     
 _pstmReserved_
   
->  [out] Этот член зарезервирован для внутреннего использования Outlook и не поддерживается. 
+>  [] Данный элемент резервируется для внутреннего использования в Outlook и не поддерживается. 
     
-_параметра pszName_
+_pszName_
   
 >  [out] Имя папки назначения. 
     
@@ -86,7 +86,7 @@ _pxicc_
     
 _dwReserved_
   
->  [out] Этот член зарезервирован для внутреннего использования Outlook и не поддерживается. 
+>  [out] Данный элемент резервируется для внутреннего использования в Outlook и не поддерживается. 
     
 _pupmovNext_
   
@@ -100,6 +100,6 @@ _cEntMov_
 
 - [Сведения об API репликации](about-the-replication-api.md)
 - [Сведения о конечном автомате репликации](about-the-replication-state-machine.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 - [FEID](feid.md)
 

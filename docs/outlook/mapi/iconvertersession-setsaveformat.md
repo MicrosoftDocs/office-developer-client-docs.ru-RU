@@ -21,7 +21,7 @@ ms.locfileid: "25394358"
 ---
 # <a name="iconvertersessionsetsaveformat"></a>IConverterSession::SetSaveFormat
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Задает формат, в котором преобразователь вернет MIME-поток в [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
@@ -64,5 +64,5 @@ S_OK
 - [IConverterSession::SetCharSet](iconvertersession-setcharset.md)
 - [IConverterSession::SetEncoding](iconvertersession-setencoding.md)
 - [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
-- [��������� MAPI](mapi-constants.md)
+- [Константы MAPI](mapi-constants.md)
 
