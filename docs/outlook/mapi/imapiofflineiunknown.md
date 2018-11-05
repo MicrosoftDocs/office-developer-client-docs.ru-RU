@@ -23,7 +23,7 @@ ms.locfileid: "25401281"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Предоставляет сведения для автономного объекта.
   
@@ -42,7 +42,7 @@ ms.locfileid: "25401281"
 |**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Возвращает текущее состояние сетевым и автономным автономного объекта.  <br/> |
 | *Заполнитель члена*  <br/> |Этот член — это и не поддерживается.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Клиент использует **[HrOpenOfflineObj](hropenofflineobj.md)** для открытия и получить автономного объекта, который поддерживает **IMAPIOfflineMgr**. Поскольку **IMAPIOfflineMgr** наследуется от [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx), клиент может запросить этот интерфейс (с помощью [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)) для получения указателя на указатель интерфейса для **IMAPIOffline** для автономного объекта. Клиент затем можно получить или задать текущее состояние объекта, или узнать о возможностях обратного вызова объекта (путем вызова **IMAPIOffline::GetCapabilities** ) и выберите Настройка обратных вызовов с помощью **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
   
@@ -55,9 +55,9 @@ ms.locfileid: "25401281"
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[Сведения об API автономного состояния](about-the-offline-state-api.md)
+[Об API автономного режима](about-the-offline-state-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
   
 [Интерфейсы MAPI](mapi-interfaces.md)
 

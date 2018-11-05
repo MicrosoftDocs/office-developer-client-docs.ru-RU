@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
-description: '���� ���������� ���������: 5 ���� 2012 �.'
+description: 'Дата последнего изменения: 05 июля 2012 г.'
 ms.openlocfilehash: a1574de555eb74d06c4dbe721e7e013ac59d3071
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "25397767"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 В этом разделе описываются действия, чтобы загрузить и установить оболочку PST поставщик хранилища. Пример оболочку PST хранения поставщик, WrapPST, реализует оболочку поставщика хранилища PST-файлов, который предназначен для использования совместно с использованием интерфейса API репликации. Дополнительные сведения об API репликации можно [О репликации API](about-the-replication-api.md).
   
@@ -52,13 +52,13 @@ ms.locfileid: "25397767"
 
 
 
-[Сведения о примере поставщика упакованного PST-хранилища](about-the-sample-wrapped-pst-store-provider.md)
+[О примере оболочку поставщика хранилища PST-файлов](about-the-sample-wrapped-pst-store-provider.md)
   
-[Инициализация поставщика упакованного PST-хранилища](initializing-a-wrapped-pst-store-provider.md)
+[Инициализация поставщика оболочку хранения PST-файлов](initializing-a-wrapped-pst-store-provider.md)
   
-[Вход в систему поставщика упакованного PST-хранилища](logging-on-to-a-wrapped-pst-store-provider.md)
+[Выполнив вход поставщик оболочку хранения PST-файлов](logging-on-to-a-wrapped-pst-store-provider.md)
   
-[Использование поставщика упакованного PST-хранилища](using-a-wrapped-pst-store-provider.md)
+[С помощью поставщика оболочку хранилища PST-файлов](using-a-wrapped-pst-store-provider.md)
   
-[Завершение работы поставщика упакованного PST-хранилища](shutting-down-a-wrapped-pst-store-provider.md)
+[Завершение работы поставщика оболочку хранения PST-файлов](shutting-down-a-wrapped-pst-store-provider.md)
 

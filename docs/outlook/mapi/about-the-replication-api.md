@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
-description: '���� ���������� ���������: 25 ���� 2012 �.'
+description: 'Дата последнего изменения: 25 июня 2012 года'
 ms.openlocfilehash: 532c01d6885e72753067b2d30bf2bd5f88207176
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "25396059"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Интерфейс API репликации предоставляет функциональные возможности для поставщика хранилища сообщений MAPI для синхронизации элементов Microsoft Outlook 2013 или Microsoft Outlook 2010 между сервером и закрытый на основе .pst локального хранилища, созданный для этого поставщика. 
   

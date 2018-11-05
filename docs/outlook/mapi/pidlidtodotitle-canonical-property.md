@@ -23,7 +23,7 @@ ms.locfileid: "25397585"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит текст, при этом задаваемый пользователем для идентификации этот объект сообщения в списке дел консолидированной среды.
   
@@ -35,7 +35,7 @@ ms.locfileid: "25397585"
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство не должен задаваться на задачу. Для указания пустой свойство, не задавайте это свойство строку нулевой длины, но вместо этого удалите его. 
   
@@ -69,14 +69,14 @@ Mapidefs.h
 
 [Каноническое свойство PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)
   
-[������������ �������� PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
+[Каноническое свойство PidLidFlagRequest](pidlidflagrequest-canonical-property.md)
 
 
 [Свойства MAPI](mapi-properties.md)
   
 [Каноническое свойства MAPI](mapi-canonical-properties.md)
   
-[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
 

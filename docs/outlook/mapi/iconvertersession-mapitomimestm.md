@@ -21,7 +21,7 @@ ms.locfileid: "25400119"
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Преобразование сообщения MAPI в MIME-поток.
   
@@ -93,7 +93,7 @@ E_INVALIDARG
   
 > Были переданы недопустимые флаги или *pmsg* или *pstm* имеет значение NULL. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Поддерживается только для стандартных типов сообщений Outlook.
   
@@ -128,8 +128,8 @@ E_INVALIDARG
   
 [Каноническое свойство PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
   
-[������������ �������� PidLidUseTnef](pidlidusetnef-canonical-property.md)
+[Каноническое свойство PidLidUseTnef](pidlidusetnef-canonical-property.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

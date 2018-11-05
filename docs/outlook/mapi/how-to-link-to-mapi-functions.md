@@ -1,5 +1,5 @@
 ---
-title: Ссылка на функции MAPI
+title: Ссылки на функции MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25400147"
 ---
-# <a name="link-to-mapi-functions"></a>Ссылка на функции MAPI
+# <a name="link-to-mapi-functions"></a>Ссылки на функции MAPI
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Существует три метода компоновки: неявное связывание, явного связывания и новая модель гибридного использования библиотеки заглушка MAPI.
   
@@ -127,7 +127,7 @@ ms.locfileid: "25400147"
 
 - [����� �������� � ���������������� MAPI](mapi-programming-overview.md)
 - [Установка подсистемы MAPI](installing-the-mapi-subsystem.md)
-- [Установка файлов заголовков MAPI](how-to-install-mapi-header-files.md)
+- [Установить файлы заголовков MAPI](how-to-install-mapi-header-files.md)
 - [Выбор определенной версии MAPI для загрузки](how-to-choose-a-specific-version-of-mapi-to-load.md)
 - [Определение подходящего метода связывания для использования](https://msdn.microsoft.com/library/253b8k2c.aspx)
 - [Связывание исполняемого файла для библиотеки DLL](https://msdn.microsoft.com/library/9yd93633.aspx)

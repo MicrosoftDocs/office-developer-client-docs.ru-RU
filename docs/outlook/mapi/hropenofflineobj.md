@@ -23,7 +23,7 @@ ms.locfileid: "25395800"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Открывает автономные объекта на основе заданного профиля.
   
@@ -77,7 +77,7 @@ MAPI_E_NOT_FOUND
   
 - Сбой вызова функции.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это первый вызов, с помощью клиента, когда клиенту требуется получать уведомления о изменения состояния подключения для заданного профиля. При вызове **HrOpenOfflineObj**, клиент получает автономного объекта, который поддерживает **IMAPIOfflineMgr**. Клиент можно проверить для видов обратных вызовов, поддерживаемые объектом (с помощью [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)) и затем настроить обратных вызовов для него (с помощью [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
   
@@ -94,7 +94,7 @@ MAPI_E_NOT_FOUND
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[Сведения об API автономного состояния](about-the-offline-state-api.md)
+[Об API автономного режима](about-the-offline-state-api.md)
   
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

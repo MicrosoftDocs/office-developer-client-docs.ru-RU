@@ -23,7 +23,7 @@ ms.locfileid: "25395415"
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Преобразование MIME-поток сообщений MAPI.
   
@@ -76,7 +76,7 @@ E_INVALIDARG
   
 > Указывает, что _pstm_ имеет **значение null**, _pmsg_ имеет **значение null**или _ulFlags_ является недопустимым. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если указаны **CCSF_USE_RTF** как часть _ulFlags_ и хранилище сообщений назначения поддерживает HTML и RTF, сообщение MAPI преобразуются в HTML или RTF. Если сообщение будет преобразовываться в формат RTF, сжимаются преобразованные формата RTF, весь HTML-код будут внедрены в строку сжатый формат RTF, а строка будет содержаться в [Каноническое свойство PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
@@ -108,5 +108,5 @@ E_INVALIDARG
 [IConverterSession::SetTextWrapping](iconvertersession-settextwrapping.md)
 
 
-[��������� MAPI](mapi-constants.md)
+[Константы MAPI](mapi-constants.md)
 

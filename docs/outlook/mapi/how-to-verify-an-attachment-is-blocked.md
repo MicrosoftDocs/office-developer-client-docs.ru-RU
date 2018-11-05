@@ -1,11 +1,11 @@
 ---
-title: Убедитесь, что Заблокированные вложения
+title: Проверка блокировки вложения
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
-description: '���� ���������� ���������: 25 ���� 2012 �.'
+description: 'Дата последнего изменения: 25 июня 2012 года'
 ms.openlocfilehash: c1c6f960f2e24108bebdc8f6cbf08bf1d94d85ae
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25393840"
 ---
-# <a name="verify-an-attachment-is-blocked"></a>Убедитесь, что Заблокированные вложения
+# <a name="verify-an-attachment-is-blocked"></a>Проверка блокировки вложения
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Этот пример кода на C++ показано, как использовать [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) интерфейс, чтобы узнать, совместимо ли вложения блокируется Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования. 
   

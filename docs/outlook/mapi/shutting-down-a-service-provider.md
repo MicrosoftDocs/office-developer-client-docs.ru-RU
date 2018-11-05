@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
-description: '���� ���������� ���������: 7 ������� 2015 �.'
+description: 'Дата последнего изменения: 7 декабря 2015 года'
 ms.openlocfilehash: 4e25dad1e04927e10af38cdfbf8f30c9bd04234b
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "25395177"
 
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Когда клиент вызывает метод [IMAPISession::Logoff](imapisession-logoff.md) , чтобы завершить сеанс и завершите работу всех поставщиков услуг активный, MAPI в свою очередь вызывает следующие методы: 
   
