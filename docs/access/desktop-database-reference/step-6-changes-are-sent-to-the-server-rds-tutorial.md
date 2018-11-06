@@ -6,25 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249965(v=office.15)
 ms:contentKeyID: 48547611
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8677428c32c70bc11b9eef6f168b09c72592a0b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a9f75e5215e3e3d79363ab7110f7c16bcacf3cbb
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944251"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998996"
 ---
-# <a name="step-6-changes-are-sent-to-the-server-rds-tutorial"></a><span data-ttu-id="03f01-102">Шаг 6: Изменения отправляются на сервер (учебник служб удаленных рабочих СТОЛОВ)</span><span class="sxs-lookup"><span data-stu-id="03f01-102">Step 6: Changes are sent to the server (RDS Tutorial)</span></span>
+# <a name="step-6-changes-are-sent-to-the-server-rds-tutorial"></a><span data-ttu-id="4050a-102">Шаг 6: Изменения отправляются на сервер (учебник служб удаленных рабочих СТОЛОВ)</span><span class="sxs-lookup"><span data-stu-id="4050a-102">Step 6: Changes are sent to the server (RDS Tutorial)</span></span>
 
+<span data-ttu-id="4050a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4050a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="03f01-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="03f01-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4050a-104">При редактировании объекта **набора записей** (строк, которые будут добавлены, изменены или удалены) изменения можно отправить на сервер.</span><span class="sxs-lookup"><span data-stu-id="4050a-104">If the **Recordset** object is edited, any changes (that is, rows that are added, changed, or deleted) can be sent back to the server.</span></span>
 
-<span data-ttu-id="03f01-104">При редактировании объекта **набора записей** (строк, которые будут добавлены, изменены или удалены) изменения можно отправить на сервер.</span><span class="sxs-lookup"><span data-stu-id="03f01-104">If the **Recordset** object is edited, any changes (that is, rows that are added, changed, or deleted) can be sent back to the server.</span></span>
-
-
-> [!NOTE]
-> <P><span data-ttu-id="03f01-105">Поведение по умолчанию служб удаленных рабочих СТОЛОВ можно вызвать неявно с объекты ADO и поставщик удаленного взаимодействия Microsoft OLE DB.</span><span class="sxs-lookup"><span data-stu-id="03f01-105">The default behavior of RDS can be invoked implicitly with ADO objects and the Microsoft OLE DB Remoting Provider.</span></span> <span data-ttu-id="03f01-106">Запросы могут возвращать s <STRONG>записей</STRONG>и измененного s <STRONG>записей</STRONG>можно обновить источник данных.</span><span class="sxs-lookup"><span data-stu-id="03f01-106">Queries can return <STRONG>Recordset</STRONG>s, and edited <STRONG>Recordset</STRONG>s can update the data source.</span></span> <span data-ttu-id="03f01-107">В этом руководстве не вызывает служб удаленных рабочих СТОЛОВ с объектами ADO, но это, как она будет выглядеть при как:</span><span class="sxs-lookup"><span data-stu-id="03f01-107">This tutorial does not invoke RDS with ADO objects, but this is how it would look if it did:</span></span></P>
-
-
+<span data-ttu-id="4050a-105">Поведение по умолчанию служб удаленных рабочих СТОЛОВ можно вызвать неявно с объекты ADO и поставщик удаленного взаимодействия Microsoft OLE DB.</span><span class="sxs-lookup"><span data-stu-id="4050a-105">The default behavior of RDS can be invoked implicitly with ADO objects and the Microsoft OLE DB Remoting Provider.</span></span> <span data-ttu-id="4050a-106">Запросы могут возвращать **наборов записей**и измененного **наборов записей** можно обновить источник данных.</span><span class="sxs-lookup"><span data-stu-id="4050a-106">Queries can return **Recordsets**, and edited **Recordsets** can update the data source.</span></span> <span data-ttu-id="4050a-107">В этом руководстве не вызывает служб удаленных рабочих СТОЛОВ с объектами ADO, но это, как она будет выглядеть при как:</span><span class="sxs-lookup"><span data-stu-id="4050a-107">This tutorial does not invoke RDS with ADO objects, but this is how it would look if it did:</span></span>
 
 ```vb 
  
@@ -36,9 +31,9 @@ rs.UpdateBatch ' The equivalent of SubmitChanges.
 ... 
 ```
 
-<span data-ttu-id="03f01-108">**Часть "A"**</span><span class="sxs-lookup"><span data-stu-id="03f01-108">**Part A**</span></span> 
+<span data-ttu-id="4050a-108">**Часть "A"**</span><span class="sxs-lookup"><span data-stu-id="4050a-108">**Part A**</span></span> 
 
-<span data-ttu-id="03f01-109">Предположим, в этом случае только использовали [RDS. DataControl](datacontrol-object-rds.md) , а теперь — объект **набора записей** , связанных с **RDS. DataControl**.</span><span class="sxs-lookup"><span data-stu-id="03f01-109">Assume for this case that you have only used the [RDS.DataControl](datacontrol-object-rds.md) and that a **Recordset** object is now associated with the **RDS.DataControl**.</span></span> <span data-ttu-id="03f01-110">Метод [SubmitChanges](submitchanges-method-rds.md) обновляет источник данных все изменения в объект **набора записей** Если свойства [сервера](server-property-rds.md) и [подключение](connect-property-rds.md) по-прежнему.</span><span class="sxs-lookup"><span data-stu-id="03f01-110">The [SubmitChanges](submitchanges-method-rds.md) method updates the data source with any changes to the **Recordset** object if the [Server](server-property-rds.md) and [Connect](connect-property-rds.md) properties are still set.</span></span>
+<span data-ttu-id="4050a-109">Предположим, в этом случае только использовали [RDS. DataControl](datacontrol-object-rds.md) , а теперь — объект **набора записей** , связанных с **RDS. DataControl**.</span><span class="sxs-lookup"><span data-stu-id="4050a-109">Assume for this case that you have only used the [RDS.DataControl](datacontrol-object-rds.md) and that a **Recordset** object is now associated with the **RDS.DataControl**.</span></span> <span data-ttu-id="4050a-110">Метод [SubmitChanges](submitchanges-method-rds.md) обновляет источник данных все изменения в объект **набора записей** Если свойства [сервера](server-property-rds.md) и [подключение](connect-property-rds.md) по-прежнему.</span><span class="sxs-lookup"><span data-stu-id="4050a-110">The [SubmitChanges](submitchanges-method-rds.md) method updates the data source with any changes to the **Recordset** object if the [Server](server-property-rds.md) and [Connect](connect-property-rds.md) properties are still set.</span></span>
 
 ```vb 
  
@@ -57,9 +52,9 @@ DC.SubmitChanges
 ... 
 ```
 
-<span data-ttu-id="03f01-111">**Часть "B"**</span><span class="sxs-lookup"><span data-stu-id="03f01-111">**Part B**</span></span> 
+<span data-ttu-id="4050a-111">**Часть "B"**</span><span class="sxs-lookup"><span data-stu-id="4050a-111">**Part B**</span></span> 
 
-<span data-ttu-id="03f01-112">Кроме того может обновить сервер с объектом [RDSServer.DataFactory](datafactory-object-rdsserver.md) определения подключения и объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="03f01-112">Alternatively, you could update the server with the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object, specifying a connection and a **Recordset** object.</span></span>
+<span data-ttu-id="4050a-112">Кроме того может обновить сервер с объектом [RDSServer.DataFactory](datafactory-object-rdsserver.md) определения подключения и объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="4050a-112">Alternatively, you could update the server with the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object, specifying a connection and a **Recordset** object.</span></span>
 
 ```vb 
  
@@ -77,5 +72,5 @@ blnStatus = DF.SubmitChanges "DSN=Pubs", RS
 End Sub 
 ```
 
-<span data-ttu-id="03f01-113">**Это конце обучения.**</span><span class="sxs-lookup"><span data-stu-id="03f01-113">**This is the end of the tutorial.**</span></span>
+<span data-ttu-id="4050a-113">**Это конце обучения.**</span><span class="sxs-lookup"><span data-stu-id="4050a-113">**This is the end of the tutorial.**</span></span>
 

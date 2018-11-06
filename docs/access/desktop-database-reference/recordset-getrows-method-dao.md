@@ -1,6 +1,6 @@
 ---
 title: Метод Recordset.GetRows (DAO)
-TOCTitle: GetRows Method
+TOCTitle: GetRows method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
 ms:contentKeyID: 48545031
@@ -10,27 +10,26 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1b0df2371ec9da675346cc24fd53d602cf69a170
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ec7947fd5d8d15eee92a033a47a8574f2933e73b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931241"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998387"
 ---
-# <a name="recordsetgetrows-method-dao"></a><span data-ttu-id="7d973-102">Метод Recordset.GetRows (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d973-102">Recordset.GetRows method (DAO)</span></span>
+# <a name="recordsetgetrows-method-dao"></a><span data-ttu-id="02ba1-102">Метод Recordset.GetRows (DAO)</span><span class="sxs-lookup"><span data-stu-id="02ba1-102">Recordset.GetRows method (DAO)</span></span>
 
+<span data-ttu-id="02ba1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="02ba1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7d973-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d973-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="02ba1-104">Получает несколько строк из объекта **[набора записей](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="02ba1-104">Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.</span></span>
 
-<span data-ttu-id="7d973-104">Получает несколько строк из объекта **[набора записей](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="7d973-104">Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.</span></span>
+## <a name="syntax"></a><span data-ttu-id="02ba1-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="02ba1-105">Syntax</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7d973-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7d973-105">Syntax</span></span>
+<span data-ttu-id="02ba1-106">*выражение* . Получение строк (***NumRows***)</span><span class="sxs-lookup"><span data-stu-id="02ba1-106">*expression* .GetRows(***NumRows***)</span></span>
 
-<span data-ttu-id="7d973-106">*выражение* . Получение строк (***NumRows***)</span><span class="sxs-lookup"><span data-stu-id="7d973-106">*expression* .GetRows(***NumRows***)</span></span>
+<span data-ttu-id="02ba1-107">*выражение* Переменная, которая представляет собой объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="02ba1-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-<span data-ttu-id="7d973-107">*выражение* Переменная, которая представляет собой объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="7d973-107">*expression* A variable that represents a **Recordset** object.</span></span>
-
-### <a name="parameters"></a><span data-ttu-id="7d973-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="7d973-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="02ba1-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="02ba1-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,58 +40,58 @@ ms.locfileid: "25931241"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7d973-109">Имя</span><span class="sxs-lookup"><span data-stu-id="7d973-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="7d973-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="7d973-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="7d973-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="7d973-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="7d973-112">Описание</span><span class="sxs-lookup"><span data-stu-id="7d973-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="02ba1-109">Имя</span><span class="sxs-lookup"><span data-stu-id="02ba1-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="02ba1-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="02ba1-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="02ba1-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="02ba1-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="02ba1-112">Описание</span><span class="sxs-lookup"><span data-stu-id="02ba1-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7d973-113">NumRows</span><span class="sxs-lookup"><span data-stu-id="7d973-113">NumRows</span></span></p></td>
-<td><p><span data-ttu-id="7d973-114">Необязательный</span><span class="sxs-lookup"><span data-stu-id="7d973-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="7d973-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="7d973-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d973-116">Количество строк, извлекаемых.</span><span class="sxs-lookup"><span data-stu-id="7d973-116">The number of rows to retrieve.</span></span></p></td>
+<td><p><span data-ttu-id="02ba1-113"><em>NumRows</em></span><span class="sxs-lookup"><span data-stu-id="02ba1-113"><em>NumRows</em></span></span></p></td>
+<td><p><span data-ttu-id="02ba1-114">Необязательный</span><span class="sxs-lookup"><span data-stu-id="02ba1-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="02ba1-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="02ba1-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="02ba1-116">Количество строк, извлекаемых.</span><span class="sxs-lookup"><span data-stu-id="02ba1-116">The number of rows to retrieve.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a><span data-ttu-id="7d973-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7d973-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="02ba1-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="02ba1-117">Return value</span></span>
 
-<span data-ttu-id="7d973-118">Variant</span><span class="sxs-lookup"><span data-stu-id="7d973-118">Variant</span></span>
+<span data-ttu-id="02ba1-118">Variant</span><span class="sxs-lookup"><span data-stu-id="02ba1-118">Variant</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7d973-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="7d973-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="02ba1-119">Примечания</span><span class="sxs-lookup"><span data-stu-id="02ba1-119">Remarks</span></span>
 
-<span data-ttu-id="7d973-120">Используйте метод **получения строк** для копирования записей из **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="7d973-120">Use the **GetRows** method to copy records from a **Recordset**.</span></span> <span data-ttu-id="7d973-121">**Получение строк** возвращает двухмерный массив.</span><span class="sxs-lookup"><span data-stu-id="7d973-121">**GetRows** returns a two-dimensional array.</span></span> <span data-ttu-id="7d973-122">Первый индекс определяет поля и второй — указывает номер строки.</span><span class="sxs-lookup"><span data-stu-id="7d973-122">The first subscript identifies the field and the second identifies the row number.</span></span> <span data-ttu-id="7d973-123">К примеру intField представляет поле, а intRecord указывает номер строки:</span><span class="sxs-lookup"><span data-stu-id="7d973-123">For example, intField represents the field, and intRecord identifies the row number:</span></span>
+<span data-ttu-id="02ba1-120">Используйте метод **получения строк** для копирования записей из **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="02ba1-120">Use the **GetRows** method to copy records from a **Recordset**.</span></span> <span data-ttu-id="02ba1-121">**Получение строк** возвращает двухмерный массив.</span><span class="sxs-lookup"><span data-stu-id="02ba1-121">**GetRows** returns a two-dimensional array.</span></span> <span data-ttu-id="02ba1-122">Первый индекс определяет поля и второй — указывает номер строки.</span><span class="sxs-lookup"><span data-stu-id="02ba1-122">The first subscript identifies the field and the second identifies the row number.</span></span> <span data-ttu-id="02ba1-123">Например `intField` представляет это поле, и `intRecord` определяет номер строки:</span><span class="sxs-lookup"><span data-stu-id="02ba1-123">For example, `intField` represents the field, and `intRecord` identifies the row number:</span></span>
 
-<span data-ttu-id="7d973-124">avarRecords (intField, intRecord)</span><span class="sxs-lookup"><span data-stu-id="7d973-124">avarRecords(intField, intRecord)</span></span>
+`avarRecords(intField, intRecord)`
 
-<span data-ttu-id="7d973-125">Для получения значения первого поля во второй строке возвращаемых использовать код следующим образом:</span><span class="sxs-lookup"><span data-stu-id="7d973-125">To get the first field value in the second row returned, use code like the following:</span></span>
+<span data-ttu-id="02ba1-124">Для получения значения первого поля во второй строке возвращаемых использовать код следующим образом:</span><span class="sxs-lookup"><span data-stu-id="02ba1-124">To get the first field value in the second row returned, use code like the following:</span></span>
 
-<span data-ttu-id="7d973-126">field1 = avarRecords(0,1)</span><span class="sxs-lookup"><span data-stu-id="7d973-126">field1 = avarRecords(0,1)</span></span>
+`field1 = avarRecords(0,1)`
 
-<span data-ttu-id="7d973-127">Чтобы получить значение второго поля в первой строке, используйте код следующим образом:</span><span class="sxs-lookup"><span data-stu-id="7d973-127">To get the second field value in the first row, use code like the following:</span></span>
+<span data-ttu-id="02ba1-125">Чтобы получить значение второго поля в первой строке, используйте код следующим образом:</span><span class="sxs-lookup"><span data-stu-id="02ba1-125">To get the second field value in the first row, use code like the following:</span></span>
 
-<span data-ttu-id="7d973-128">поле2 = avarRecords(1,0)</span><span class="sxs-lookup"><span data-stu-id="7d973-128">field2 = avarRecords(1,0)</span></span>
+`field2 = avarRecords(1,0)`
 
-<span data-ttu-id="7d973-129">Переменная avarRecords автоматически становится двумерного массива, если **Получение строк** возвращает данные.</span><span class="sxs-lookup"><span data-stu-id="7d973-129">The avarRecords variable automatically becomes a two-dimensional array when **GetRows** returns data.</span></span>
+<span data-ttu-id="02ba1-126">Переменная avarRecords автоматически становится двумерного массива, если **Получение строк** возвращает данные.</span><span class="sxs-lookup"><span data-stu-id="02ba1-126">The avarRecords variable automatically becomes a two-dimensional array when **GetRows** returns data.</span></span>
 
-<span data-ttu-id="7d973-130">Если запросить увеличение количества строк, чем доступно, **Получение строк** возвращает число доступных строк.</span><span class="sxs-lookup"><span data-stu-id="7d973-130">If you request more rows than are available, then **GetRows** returns only the number of available rows.</span></span> <span data-ttu-id="7d973-131">Visual Basic для приложений **UBound** функции можно использовать для определения количества строк, фактически извлеченных **Получение строк** , так как массив изменяется в соответствии со число возвращенных строк.</span><span class="sxs-lookup"><span data-stu-id="7d973-131">You can use the Visual Basic for Applications **UBound** function to determine how many rows **GetRows** actually retrieved, because the array is sized to fit the number of returned rows.</span></span> <span data-ttu-id="7d973-132">К примеру Если возвращенные результаты в **Variant** ДИСПА вызван можно использовать следующий код для определения количества строк, возвращенных:</span><span class="sxs-lookup"><span data-stu-id="7d973-132">For example, if you returned the results into a **Variant** called varA, you could use the following code to determine how many rows were actually returned:</span></span>
+<span data-ttu-id="02ba1-127">Если запросить увеличение количества строк, чем доступно, **Получение строк** возвращает число доступных строк.</span><span class="sxs-lookup"><span data-stu-id="02ba1-127">If you request more rows than are available, then **GetRows** returns only the number of available rows.</span></span> <span data-ttu-id="02ba1-128">Visual Basic для приложений **UBound** функции можно использовать для определения количества строк, фактически извлеченных **Получение строк** , так как массив изменяется в соответствии со число возвращенных строк.</span><span class="sxs-lookup"><span data-stu-id="02ba1-128">You can use the Visual Basic for Applications **UBound** function to determine how many rows **GetRows** actually retrieved, because the array is sized to fit the number of returned rows.</span></span> <span data-ttu-id="02ba1-129">К примеру Если возвращенные результаты в **Variant** ДИСПА вызван можно использовать следующий код для определения количества строк, возвращенных:</span><span class="sxs-lookup"><span data-stu-id="02ba1-129">For example, if you returned the results into a **Variant** called varA, you could use the following code to determine how many rows were actually returned:</span></span>
 
-<span data-ttu-id="7d973-133">numReturned = UBound(varA,2) + 1</span><span class="sxs-lookup"><span data-stu-id="7d973-133">numReturned = UBound(varA,2) + 1</span></span>
+`numReturned = UBound(varA,2) + 1`
 
-<span data-ttu-id="7d973-134">Необходимо использовать «+ 1», так как первая строка возвращается в элемент 0 массива.</span><span class="sxs-lookup"><span data-stu-id="7d973-134">You need to use "+ 1" because the first row returned is in the 0 element of the array.</span></span> <span data-ttu-id="7d973-135">Число строк, которые вы можете получить ограничен объем доступной памяти.</span><span class="sxs-lookup"><span data-stu-id="7d973-135">The number of rows that you can retrieve is constrained by the amount of available memory.</span></span> <span data-ttu-id="7d973-136">**Получение строк** не следует использовать для получения всей таблицы в массив при большом.</span><span class="sxs-lookup"><span data-stu-id="7d973-136">You shouldn't use **GetRows** to retrieve an entire table into an array if it is large.</span></span>
+<span data-ttu-id="02ba1-130">Необходимо использовать «+ 1», так как первая строка возвращается в элемент 0 массива.</span><span class="sxs-lookup"><span data-stu-id="02ba1-130">You need to use "+ 1" because the first row returned is in the 0 element of the array.</span></span> <span data-ttu-id="02ba1-131">Число строк, которые вы можете получить ограничен объем доступной памяти.</span><span class="sxs-lookup"><span data-stu-id="02ba1-131">The number of rows that you can retrieve is constrained by the amount of available memory.</span></span> <span data-ttu-id="02ba1-132">**Получение строк** не следует использовать для получения всей таблицы в массив при большом.</span><span class="sxs-lookup"><span data-stu-id="02ba1-132">You shouldn't use **GetRows** to retrieve an entire table into an array if it is large.</span></span>
 
-<span data-ttu-id="7d973-137">Так как **Получение строк** возвращает все поля из **набора записей** в массив, включая поля Memo и Long Binary, можно использовать это запрос, который ограничивает число возвращаемых полей.</span><span class="sxs-lookup"><span data-stu-id="7d973-137">Because **GetRows** returns all fields of the **Recordset** into the array, including Memo and Long Binary fields, you might want to use a query that restricts the fields returned.</span></span>
+<span data-ttu-id="02ba1-133">Так как **Получение строк** возвращает все поля из **набора записей** в массив, включая поля Memo и Long Binary, можно использовать это запрос, который ограничивает число возвращаемых полей.</span><span class="sxs-lookup"><span data-stu-id="02ba1-133">Because **GetRows** returns all fields of the **Recordset** into the array, including Memo and Long Binary fields, you might want to use a query that restricts the fields returned.</span></span>
 
-<span data-ttu-id="7d973-138">После вызова метода **получения строк**текущей записи располагается в следующей строке непрочитанные сообщения.</span><span class="sxs-lookup"><span data-stu-id="7d973-138">After you call **GetRows**, the current record is positioned at the next unread row.</span></span> <span data-ttu-id="7d973-139">То есть **Получение строк** имеет тот же эффект на текущей записи, как **перемещать** numrows.</span><span class="sxs-lookup"><span data-stu-id="7d973-139">That is, **GetRows** has the same effect on the current record as **Move** numrows.</span></span>
+<span data-ttu-id="02ba1-134">После вызова метода **получения строк**текущей записи располагается в следующей строке непрочитанные сообщения.</span><span class="sxs-lookup"><span data-stu-id="02ba1-134">After you call **GetRows**, the current record is positioned at the next unread row.</span></span> <span data-ttu-id="02ba1-135">То есть **Получение строк** имеет тот же эффект на текущей записи, как **перемещать** numrows.</span><span class="sxs-lookup"><span data-stu-id="02ba1-135">That is, **GetRows** has the same effect on the current record as **Move** numrows.</span></span>
 
-<span data-ttu-id="7d973-140">Если вы пытаетесь получить все строки с использованием различных вызовов **Получение строк** , используйте свойство **[EOF](recordset-eof-property-dao.md)** следует убедиться в том, что вы находитесь в конце **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="7d973-140">If you are trying to retrieve all the rows by using multiple **GetRows** calls, use the **[EOF](recordset-eof-property-dao.md)** property to be sure that you're at the end of the **Recordset**.</span></span> <span data-ttu-id="7d973-141">**Получение строк** возвращает меньше, чем количество запрошенных Если это в конце **набора записей**, или если он не может получить строку запрошенного диапазона.</span><span class="sxs-lookup"><span data-stu-id="7d973-141">**GetRows** returns less than the number requested if it's at the end of the **Recordset**, or if it can't retrieve a row in the range requested.</span></span> <span data-ttu-id="7d973-142">Например если вы пытаетесь получить 10 записей, но не удается извлечь пятой записи, **Получение строк** возвращает четыре записи и делает пятой записи текущей записи.</span><span class="sxs-lookup"><span data-stu-id="7d973-142">For example, if you're trying to retrieve 10 records, but you can't retrieve the fifth record, **GetRows** returns four records and makes the fifth record the current record.</span></span> <span data-ttu-id="7d973-143">Это не будет создавать ошибку времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="7d973-143">This will not generate a run-time error.</span></span> <span data-ttu-id="7d973-144">Это может произойти, если другой пользователь удаляет запись в наборе **записей**.</span><span class="sxs-lookup"><span data-stu-id="7d973-144">This might occur if another user deletes a record in a dynaset-type **Recordset**.</span></span> <span data-ttu-id="7d973-145">Пример для демонстрации того, как обрабатывать это см.</span><span class="sxs-lookup"><span data-stu-id="7d973-145">See the example for a demonstration of how to handle this.</span></span>
+<span data-ttu-id="02ba1-136">Если вы пытаетесь получить все строки с использованием различных вызовов **Получение строк** , используйте свойство **[EOF](recordset-eof-property-dao.md)** следует убедиться в том, что вы находитесь в конце **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="02ba1-136">If you are trying to retrieve all the rows by using multiple **GetRows** calls, use the **[EOF](recordset-eof-property-dao.md)** property to be sure that you're at the end of the **Recordset**.</span></span> <span data-ttu-id="02ba1-137">**Получение строк** возвращает меньше, чем количество запрошенных Если это в конце **набора записей**, или если он не может получить строку запрошенного диапазона.</span><span class="sxs-lookup"><span data-stu-id="02ba1-137">**GetRows** returns less than the number requested if it's at the end of the **Recordset**, or if it can't retrieve a row in the range requested.</span></span> <span data-ttu-id="02ba1-138">Например если вы пытаетесь получить 10 записей, но не удается извлечь пятой записи, **Получение строк** возвращает четыре записи и делает пятой записи текущей записи.</span><span class="sxs-lookup"><span data-stu-id="02ba1-138">For example, if you're trying to retrieve 10 records, but you can't retrieve the fifth record, **GetRows** returns four records and makes the fifth record the current record.</span></span> <span data-ttu-id="02ba1-139">Это не будет создавать ошибку времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="02ba1-139">This will not generate a run-time error.</span></span> <span data-ttu-id="02ba1-140">Это может произойти, если другой пользователь удаляет запись в наборе **записей**.</span><span class="sxs-lookup"><span data-stu-id="02ba1-140">This might occur if another user deletes a record in a dynaset-type **Recordset**.</span></span> <span data-ttu-id="02ba1-141">Пример для демонстрации того, как обрабатывать это см.</span><span class="sxs-lookup"><span data-stu-id="02ba1-141">See the example for a demonstration of how to handle this.</span></span>
 
-## <a name="example"></a><span data-ttu-id="7d973-146">Пример</span><span class="sxs-lookup"><span data-stu-id="7d973-146">Example</span></span>
+## <a name="example"></a><span data-ttu-id="02ba1-142">Пример</span><span class="sxs-lookup"><span data-stu-id="02ba1-142">Example</span></span>
 
-<span data-ttu-id="7d973-147">В этом примере используется метод **получения строк** для извлечения указанное число строк из **набора записей** и для заполнения массива с полученными данными.</span><span class="sxs-lookup"><span data-stu-id="7d973-147">This example uses the **GetRows** method to retrieve a specified number of rows from a **Recordset** and to fill an array with the resulting data.</span></span> <span data-ttu-id="7d973-148">Метод **получения строк** возвращает меньше, чем требуемое число строк в двух случаях: если достигнут **конец файла** или если **Получение строк** попытались получить записи, которая была удалена другим пользователем.</span><span class="sxs-lookup"><span data-stu-id="7d973-148">The **GetRows** method will return fewer than the desired number of rows in two cases: either if **EOF** has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="7d973-149">Функция возвращает **значение False** , только в том случае, если происходит второй вариант.</span><span class="sxs-lookup"><span data-stu-id="7d973-149">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="7d973-150">Функция GetRowsOK является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="7d973-150">The GetRowsOK function is required for this procedure to run.</span></span>
+<span data-ttu-id="02ba1-143">В этом примере используется метод **получения строк** для извлечения указанное число строк из **набора записей** и для заполнения массива с полученными данными.</span><span class="sxs-lookup"><span data-stu-id="02ba1-143">This example uses the **GetRows** method to retrieve a specified number of rows from a **Recordset** and to fill an array with the resulting data.</span></span> <span data-ttu-id="02ba1-144">Метод **получения строк** возвращает меньше, чем требуемое число строк в двух случаях: если достигнут **конец файла** или если **Получение строк** попытались получить записи, которая была удалена другим пользователем.</span><span class="sxs-lookup"><span data-stu-id="02ba1-144">The **GetRows** method will return fewer than the desired number of rows in two cases: either if **EOF** has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="02ba1-145">Функция возвращает **значение False** , только в том случае, если происходит второй вариант.</span><span class="sxs-lookup"><span data-stu-id="02ba1-145">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="02ba1-146">Функция GetRowsOK является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="02ba1-146">The GetRowsOK function is required for this procedure to run.</span></span>
 
 ```vb
     Sub GetRowsX() 

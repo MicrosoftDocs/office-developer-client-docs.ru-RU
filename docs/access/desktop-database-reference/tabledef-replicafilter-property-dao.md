@@ -10,29 +10,28 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dbd8ecc670742d6b9f88dd9c608d2304e26a8d09
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dc8f9103cffb4df4a4db327da9c8ff36e3ec2555
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929666"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997807"
 ---
-# <a name="tabledefreplicafilter-property-dao"></a><span data-ttu-id="7cbfe-102">Свойство TableDef.ReplicaFilter (DAO)</span><span class="sxs-lookup"><span data-stu-id="7cbfe-102">TableDef.ReplicaFilter property (DAO)</span></span>
+# <a name="tabledefreplicafilter-property-dao"></a><span data-ttu-id="1f1c1-102">Свойство TableDef.ReplicaFilter (DAO)</span><span class="sxs-lookup"><span data-stu-id="1f1c1-102">TableDef.ReplicaFilter property (DAO)</span></span>
 
+<span data-ttu-id="1f1c1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f1c1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7cbfe-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7cbfe-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1f1c1-104">Задает или возвращает значение на объекте **[TableDef](tabledef-object-dao.md)** в реплику, которое указывает, какие подмножество записей реплицированы на таблицу с полной реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-104">Sets or returns a value on a **[TableDef](tabledef-object-dao.md)** object within a partial replica that indicates which subset of records is replicated to that table from a full replica.</span></span> <span data-ttu-id="1f1c1-105">(Microsoft Access рабочие области только).</span><span class="sxs-lookup"><span data-stu-id="1f1c1-105">(Microsoft Access workspaces only).</span></span>
 
-<span data-ttu-id="7cbfe-104">Задает или возвращает значение на объекте **[TableDef](tabledef-object-dao.md)** в реплику, которое указывает, какие подмножество записей реплицированы на таблицу с полной реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-104">Sets or returns a value on a **[TableDef](tabledef-object-dao.md)** object within a partial replica that indicates which subset of records is replicated to that table from a full replica.</span></span> <span data-ttu-id="7cbfe-105">(Microsoft Access рабочие области только).</span><span class="sxs-lookup"><span data-stu-id="7cbfe-105">(Microsoft Access workspaces only).</span></span>
+## <a name="syntax"></a><span data-ttu-id="1f1c1-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1f1c1-106">Syntax</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7cbfe-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7cbfe-106">Syntax</span></span>
+<span data-ttu-id="1f1c1-107">*выражение* . Этого</span><span class="sxs-lookup"><span data-stu-id="1f1c1-107">*expression* .ReplicaFilter</span></span>
 
-<span data-ttu-id="7cbfe-107">*выражение* . Этого</span><span class="sxs-lookup"><span data-stu-id="7cbfe-107">*expression* .ReplicaFilter</span></span>
+<span data-ttu-id="1f1c1-108">*выражение* Переменная, которая представляет собой объект- **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="1f1c1-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-<span data-ttu-id="7cbfe-108">*выражение* Переменная, которая представляет собой объект- **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="7cbfe-108">*expression* A variable that represents a **TableDef** object.</span></span>
+## <a name="remarks"></a><span data-ttu-id="1f1c1-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="1f1c1-109">Remarks</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7cbfe-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="7cbfe-109">Remarks</span></span>
-
-<span data-ttu-id="7cbfe-110">Параметр или возвращаемое значение — это **строка** или **типа Boolean** , которое указывает, какие подмножество записей репликации, как указано в следующей таблице:</span><span class="sxs-lookup"><span data-stu-id="7cbfe-110">The setting or return value is a **String** or **Boolean** that indicates which subset of records is replicated, as specified in the following table:</span></span>
+<span data-ttu-id="1f1c1-110">Параметр или возвращаемое значение — это **строка** или **типа Boolean** , которое указывает, какие подмножество записей репликации, как указано в следующей таблице:</span><span class="sxs-lookup"><span data-stu-id="1f1c1-110">The setting or return value is a **String** or **Boolean** that indicates which subset of records is replicated, as specified in the following table:</span></span>
 
 <table>
 <colgroup>
@@ -41,52 +40,49 @@ ms.locfileid: "25929666"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7cbfe-111">Значение</span><span class="sxs-lookup"><span data-stu-id="7cbfe-111">Value</span></span></p></th>
-<th><p><span data-ttu-id="7cbfe-112">Описание</span><span class="sxs-lookup"><span data-stu-id="7cbfe-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="1f1c1-111">Значение</span><span class="sxs-lookup"><span data-stu-id="1f1c1-111">Value</span></span></p></th>
+<th><p><span data-ttu-id="1f1c1-112">Описание</span><span class="sxs-lookup"><span data-stu-id="1f1c1-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7cbfe-113">Строка.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-113">A string</span></span></p></td>
-<td><p><span data-ttu-id="7cbfe-114">Критерии, по которым должны соответствовать записи в таблице реплику для реплицируемых из полной реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-114">A criteria that a record in the partial replica table must satisfy in order to be replicated from the full replica.</span></span></p></td>
+<td><p><span data-ttu-id="1f1c1-113">Строка.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-113">A string</span></span></p></td>
+<td><p><span data-ttu-id="1f1c1-114">Критерии, по которым должны соответствовать записи в таблице реплику для реплицируемых из полной реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-114">A criteria that a record in the partial replica table must satisfy in order to be replicated from the full replica.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7cbfe-115"><strong>Значение true</strong></span><span class="sxs-lookup"><span data-stu-id="7cbfe-115"><strong>True</strong></span></span></p></td>
-<td><p><span data-ttu-id="7cbfe-116">Реплицирует все записи.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-116">Replicates all records.</span></span></p></td>
+<td><p><span data-ttu-id="1f1c1-115"><strong>Значение true</strong></span><span class="sxs-lookup"><span data-stu-id="1f1c1-115"><strong>True</strong></span></span></p></td>
+<td><p><span data-ttu-id="1f1c1-116">Реплицирует все записи.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-116">Replicates all records.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7cbfe-117"><strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="7cbfe-117"><strong>False</strong></span></span></p></td>
-<td><p><span data-ttu-id="7cbfe-118">(По умолчанию) Не поддерживает репликацию записей.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-118">(Default) Doesn't replicate any records.</span></span></p></td>
+<td><p><span data-ttu-id="1f1c1-117"><strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="1f1c1-117"><strong>False</strong></span></span></p></td>
+<td><p><span data-ttu-id="1f1c1-118">(По умолчанию) Не поддерживает репликацию записей.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-118">(Default) Doesn't replicate any records.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="7cbfe-119">Это свойство аналогично инструкцию SQL (без слова ГДЕ), однако нельзя указать вложенные запросы, статистические функции (такие как **Count**) или пользовательские функции критериям.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-119">This property is similar to an SQL WHERE clause (without the word WHERE), but you cannot specify subqueries, aggregate functions (such as **Count**), or user-defined functions within the criteria.</span></span>
+<span data-ttu-id="1f1c1-119">Это свойство аналогично инструкцию SQL (без слова ГДЕ), однако нельзя указать вложенные запросы, статистические функции (такие как **Count**) или пользовательские функции критериям.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-119">This property is similar to an SQL WHERE clause (without the word WHERE), but you cannot specify subqueries, aggregate functions (such as **Count**), or user-defined functions within the criteria.</span></span>
 
-<span data-ttu-id="7cbfe-120">Можно синхронизировать только данные между полной реплики и частичные реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-120">You can only synchronize data between a full replica and a partial replica.</span></span> <span data-ttu-id="7cbfe-121">Синхронизация данных между двумя частичные реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-121">You can't synchronize data between two partial replicas.</span></span> <span data-ttu-id="7cbfe-122">Кроме того частичное репликации позволяет указать ограничения на которых реплицируются записей, но невозможно указать, какие поля будут реплицированы.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-122">Also, with partial replication you can set restrictions on which records are replicated, but you can't indicate which fields are replicated.</span></span>
+<span data-ttu-id="1f1c1-120">Можно синхронизировать только данные между полной реплики и частичные реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-120">You can only synchronize data between a full replica and a partial replica.</span></span> <span data-ttu-id="1f1c1-121">Синхронизация данных между двумя частичные реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-121">You can't synchronize data between two partial replicas.</span></span> <span data-ttu-id="1f1c1-122">Кроме того частичное репликации позволяет указать ограничения на которых реплицируются записей, но невозможно указать, какие поля будут реплицированы.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-122">Also, with partial replication you can set restrictions on which records are replicated, but you can't indicate which fields are replicated.</span></span>
 
-<span data-ttu-id="7cbfe-123">Как правило когда необходимо реплицировать на другой набор записей сбросить фильтр реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-123">Usually, you reset a replica filter when you want to replicate a different set of records.</span></span> <span data-ttu-id="7cbfe-124">К примеру при торгового представителя временно переводит на другой торгового представителя область, приложения базы данных можно временно реплицировать данные для обеих областей и вернитесь к предыдущей фильтра.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-124">For example, when a sales representative temporarily takes over another sales representative's region, the database application can temporarily replicate data for both regions and then return to the previous filter.</span></span> <span data-ttu-id="7cbfe-125">В этом сценарии приложение восстанавливаются значения по умолчанию **этого** и затем заполняет сокращенный реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-125">In this scenario, the application resets the **ReplicaFilter** property and then repopulates the partial replica.</span></span>
+<span data-ttu-id="1f1c1-123">Как правило когда необходимо реплицировать на другой набор записей сбросить фильтр реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-123">Usually, you reset a replica filter when you want to replicate a different set of records.</span></span> <span data-ttu-id="1f1c1-124">К примеру при торгового представителя временно переводит на другой торгового представителя область, приложения базы данных можно временно реплицировать данные для обеих областей и вернитесь к предыдущей фильтра.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-124">For example, when a sales representative temporarily takes over another sales representative's region, the database application can temporarily replicate data for both regions and then return to the previous filter.</span></span> <span data-ttu-id="1f1c1-125">В этом сценарии приложение восстанавливаются значения по умолчанию **этого** и затем заполняет сокращенный реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-125">In this scenario, the application resets the **ReplicaFilter** property and then repopulates the partial replica.</span></span>
 
-<span data-ttu-id="7cbfe-126">Если приложение изменяет реплики фильтры, необходимо выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-126">If your application changes replica filters, you should follow these steps:</span></span>
+<span data-ttu-id="1f1c1-126">Если приложение изменяет реплики фильтры, необходимо выполните следующие действия.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-126">If your application changes replica filters, you should follow these steps:</span></span>
 
-1.  <span data-ttu-id="7cbfe-127">Используйте метод **[синхронизации](database-synchronize-method-dao.md)** для синхронизации с реплику, в котором изменяются фильтры полной реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-127">Use the **[Synchronize](database-synchronize-method-dao.md)** method to synchronize your full replica with the partial replica in which the filters are being changed.</span></span>
+1.  <span data-ttu-id="1f1c1-127">Используйте метод **[синхронизации](database-synchronize-method-dao.md)** для синхронизации с реплику, в котором изменяются фильтры полной реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-127">Use the **[Synchronize](database-synchronize-method-dao.md)** method to synchronize your full replica with the partial replica in which the filters are being changed.</span></span>
 
-2.  <span data-ttu-id="7cbfe-128">Свойство **этого** внесите необходимые изменения в фильтр реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-128">Use the **ReplicaFilter** property to make the desired changes to the replica filter.</span></span>
+2.  <span data-ttu-id="1f1c1-128">Свойство **этого** внесите необходимые изменения в фильтр реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-128">Use the **ReplicaFilter** property to make the desired changes to the replica filter.</span></span>
 
-3.  <span data-ttu-id="7cbfe-129">Метод **[PopulatePartial](database-populatepartial-method-dao.md)** используется для удаления всех записей из частичные реплики и перенести все записи с полной реплики, условиям фильтра новой реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-129">Use the **[PopulatePartial](database-populatepartial-method-dao.md)** method to remove all records from the partial replica and transfer all records from the full replica that meet the new replica filter criteria.</span></span>
+3.  <span data-ttu-id="1f1c1-129">Метод **[PopulatePartial](database-populatepartial-method-dao.md)** используется для удаления всех записей из частичные реплики и перенести все записи с полной реплики, условиям фильтра новой реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-129">Use the **[PopulatePartial](database-populatepartial-method-dao.md)** method to remove all records from the partial replica and transfer all records from the full replica that meet the new replica filter criteria.</span></span>
 
-<span data-ttu-id="7cbfe-130">Чтобы удалить фильтр, задайте для **этого** значение **False**.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-130">To remove a filter, set the **ReplicaFilter** property to **False**.</span></span> <span data-ttu-id="7cbfe-131">Если вы не удалите все фильтры и вызвать метод **PopulatePartial** , записи не будут отображаться в любой реплицированной таблицы в частичные реплики.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-131">If you remove all filters and invoke the **PopulatePartial** method, no records will appear in any replicated tables in the partial replica.</span></span>
-
+<span data-ttu-id="1f1c1-130">Чтобы удалить фильтр, задайте для **этого** значение **False**.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-130">To remove a filter, set the **ReplicaFilter** property to **False**.</span></span> <span data-ttu-id="1f1c1-131">Если вы не удалите все фильтры и вызвать метод **PopulatePartial** , записи не будут отображаться в любой реплицированной таблицы в частичные реплики.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-131">If you remove all filters and invoke the **PopulatePartial** method, no records will appear in any replicated tables in the partial replica.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="7cbfe-132">Если вызывается метод <STRONG>синхронизации</STRONG> без первого вызова <STRONG>PopulatePartial</STRONG>фильтр реплики была изменена, то перехватываемые возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-132">If a replica filter has changed, and the <STRONG>Synchronize</STRONG> method is invoked without first invoking <STRONG>PopulatePartial</STRONG>, a trappable error occurs.</span></span></P>
+> <span data-ttu-id="1f1c1-132">Если вызывается метод **синхронизации** без первого вызова **PopulatePartial**фильтр реплики была изменена, то перехватываемые возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-132">If a replica filter has changed, and the **Synchronize** method is invoked without first invoking **PopulatePartial**, a trappable error occurs.</span></span>
 
+## <a name="example"></a><span data-ttu-id="1f1c1-133">Пример</span><span class="sxs-lookup"><span data-stu-id="1f1c1-133">Example</span></span>
 
-
-## <a name="example"></a><span data-ttu-id="7cbfe-133">Пример</span><span class="sxs-lookup"><span data-stu-id="7cbfe-133">Example</span></span>
-
-<span data-ttu-id="7cbfe-134">В следующем примере **этого** реплицировать только записи клиентов из области Калифорния.</span><span class="sxs-lookup"><span data-stu-id="7cbfe-134">The following example uses the **ReplicaFilter** property to replicate only customer records from the California region.</span></span>
+<span data-ttu-id="1f1c1-134">В следующем примере **этого** реплицировать только записи клиентов из области Калифорния.</span><span class="sxs-lookup"><span data-stu-id="1f1c1-134">The following example uses the **ReplicaFilter** property to replicate only customer records from the California region.</span></span>
 
 ```vb 
 Sub ReplicaFilterX() 

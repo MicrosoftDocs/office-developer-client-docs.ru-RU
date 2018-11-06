@@ -10,30 +10,30 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ba28bc092a09bc4a2899923957a54670abf30d58
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bb073dfbdbf4ad9d87314c04a0ae2f97e7cfddc3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936617"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996932"
 ---
-# <a name="field2loadfromfile-method-dao"></a><span data-ttu-id="2d8c2-102">Метод Field2.LoadFromFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="2d8c2-102">Field2.LoadFromFile method (DAO)</span></span>
+# <a name="field2loadfromfile-method-dao"></a><span data-ttu-id="2fdff-102">Метод Field2.LoadFromFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="2fdff-102">Field2.LoadFromFile method (DAO)</span></span>
 
-<span data-ttu-id="2d8c2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d8c2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2fdff-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2fdff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2d8c2-104">Загружает указанный файл с диска.</span><span class="sxs-lookup"><span data-stu-id="2d8c2-104">Loads the specified file from disk.</span></span>
+<span data-ttu-id="2fdff-104">Загружает указанный файл с диска.</span><span class="sxs-lookup"><span data-stu-id="2fdff-104">Loads the specified file from disk.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="2d8c2-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="2d8c2-105">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="2fdff-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="2fdff-105">Version information</span></span>
 
-<span data-ttu-id="2d8c2-106">Добавлена версия: Access 2007</span><span class="sxs-lookup"><span data-stu-id="2d8c2-106">Version added: Access 2007</span></span>
+<span data-ttu-id="2fdff-106">Добавлена версия: Access 2007</span><span class="sxs-lookup"><span data-stu-id="2fdff-106">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2d8c2-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2d8c2-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2fdff-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2fdff-107">Syntax</span></span>
 
-<span data-ttu-id="2d8c2-108">*выражение* . LoadFromFile (***имя файла***)</span><span class="sxs-lookup"><span data-stu-id="2d8c2-108">*expression* .LoadFromFile(***FileName***)</span></span>
+<span data-ttu-id="2fdff-108">*выражение* . LoadFromFile (***имя файла***)</span><span class="sxs-lookup"><span data-stu-id="2fdff-108">*expression* .LoadFromFile(***FileName***)</span></span>
 
-<span data-ttu-id="2d8c2-109">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="2d8c2-109">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="2fdff-109">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="2fdff-109">*expression* A variable that represents a **Field2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="2d8c2-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="2d8c2-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2fdff-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="2fdff-110">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -44,26 +44,26 @@ ms.locfileid: "25936617"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2d8c2-111">Имя</span><span class="sxs-lookup"><span data-stu-id="2d8c2-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="2d8c2-112">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="2d8c2-112">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="2d8c2-113">Тип данных</span><span class="sxs-lookup"><span data-stu-id="2d8c2-113">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="2d8c2-114">Описание</span><span class="sxs-lookup"><span data-stu-id="2d8c2-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="2fdff-111">Имя</span><span class="sxs-lookup"><span data-stu-id="2fdff-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="2fdff-112">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="2fdff-112">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="2fdff-113">Тип данных</span><span class="sxs-lookup"><span data-stu-id="2fdff-113">Data type</span></span></p></th>
+<th><p><span data-ttu-id="2fdff-114">Описание</span><span class="sxs-lookup"><span data-stu-id="2fdff-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2d8c2-115">FileName</span><span class="sxs-lookup"><span data-stu-id="2d8c2-115">FileName</span></span></p></td>
-<td><p><span data-ttu-id="2d8c2-116">Обязательный</span><span class="sxs-lookup"><span data-stu-id="2d8c2-116">Required</span></span></p></td>
-<td><p><span data-ttu-id="2d8c2-117"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="2d8c2-117"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="2d8c2-118">Полный путь к файлу, который требуется загрузить.</span><span class="sxs-lookup"><span data-stu-id="2d8c2-118">The fully qualified path of the file to that you want to load.</span></span></p></td>
+<td><p><span data-ttu-id="2fdff-115"><em>Имя файла</em></span><span class="sxs-lookup"><span data-stu-id="2fdff-115"><em>FileName</em></span></span></p></td>
+<td><p><span data-ttu-id="2fdff-116">Обязательный</span><span class="sxs-lookup"><span data-stu-id="2fdff-116">Required</span></span></p></td>
+<td><p><span data-ttu-id="2fdff-117"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="2fdff-117"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="2fdff-118">Полный путь к файлу, который требуется загрузить.</span><span class="sxs-lookup"><span data-stu-id="2fdff-118">The fully qualified path of the file to that you want to load.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="example"></a><span data-ttu-id="2d8c2-119">Пример</span><span class="sxs-lookup"><span data-stu-id="2d8c2-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2fdff-119">Пример</span><span class="sxs-lookup"><span data-stu-id="2fdff-119">Example</span></span>
 
-<span data-ttu-id="2d8c2-120">В следующем фрагменте кода используется метод **LoadFromFile** загрузить изображение сотрудника с диска.</span><span class="sxs-lookup"><span data-stu-id="2d8c2-120">The following code snippet uses the **LoadFromFile** method to load an employee's picture from disk.</span></span>
+<span data-ttu-id="2fdff-120">В следующем фрагменте кода используется метод **LoadFromFile** загрузить изображение сотрудника с диска.</span><span class="sxs-lookup"><span data-stu-id="2fdff-120">The following code snippet uses the **LoadFromFile** method to load an employee's picture from disk.</span></span>
 
 ```vb 
    '  Instantiate the parent recordset.  
@@ -88,9 +88,9 @@ ms.locfileid: "25936617"
 
 <br/>
 
-<span data-ttu-id="2d8c2-121">Следующем примере показано, как добавить файлы из указанной папки путь полем вложения.</span><span class="sxs-lookup"><span data-stu-id="2d8c2-121">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="2fdff-121">Следующем примере показано, как добавить файлы из указанной папки путь полем вложения.</span><span class="sxs-lookup"><span data-stu-id="2fdff-121">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
-<span data-ttu-id="2d8c2-122">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="2d8c2-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="2fdff-122">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="2fdff-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

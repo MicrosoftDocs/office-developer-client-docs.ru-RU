@@ -6,57 +6,47 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
 ms:contentKeyID: 48545209
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a0956efd8082363c4d00acf491bcb0b990cdf0e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 034fd349f140e931d1a5f654dfb275854aa2b78d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920405"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998982"
 ---
-# <a name="recordset2index-property-dao"></a><span data-ttu-id="9cf16-102">Свойство Recordset2.index (DAO)</span><span class="sxs-lookup"><span data-stu-id="9cf16-102">Recordset2.Index property (DAO)</span></span>
+# <a name="recordset2index-property-dao"></a><span data-ttu-id="c89f9-102">Свойство Recordset2.index (DAO)</span><span class="sxs-lookup"><span data-stu-id="c89f9-102">Recordset2.Index property (DAO)</span></span>
 
+<span data-ttu-id="c89f9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c89f9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9cf16-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9cf16-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c89f9-104">Задает или возвращает значение, указывающее имя текущего объекта **[индекса](index-object-dao.md)** в таблице тип объекта **[набора записей](recordset-object-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="c89f9-104">Sets or returns a value that indicates the name of the current **[Index](index-object-dao.md)** object in a table-type **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).</span></span>
 
-<span data-ttu-id="9cf16-104">Задает или возвращает значение, указывающее имя текущего объекта **[индекса](index-object-dao.md)** в таблице тип объекта **[набора записей](recordset-object-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="9cf16-104">Sets or returns a value that indicates the name of the current **[Index](index-object-dao.md)** object in a table-type **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).</span></span>
+## <a name="syntax"></a><span data-ttu-id="c89f9-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c89f9-105">Syntax</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9cf16-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9cf16-105">Syntax</span></span>
+<span data-ttu-id="c89f9-106">*выражение* . Индекс</span><span class="sxs-lookup"><span data-stu-id="c89f9-106">*expression* .Index</span></span>
 
-<span data-ttu-id="9cf16-106">*выражение* . Индекс</span><span class="sxs-lookup"><span data-stu-id="9cf16-106">*expression* .Index</span></span>
+<span data-ttu-id="c89f9-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="c89f9-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-<span data-ttu-id="9cf16-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="9cf16-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+## <a name="remarks"></a><span data-ttu-id="c89f9-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="c89f9-108">Remarks</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9cf16-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="9cf16-108">Remarks</span></span>
+<span data-ttu-id="c89f9-109">Записи в базовые таблицы не сохраняются в любом порядке.</span><span class="sxs-lookup"><span data-stu-id="c89f9-109">Records in base tables aren't stored in any particular order.</span></span> <span data-ttu-id="c89f9-110">Свойство **Index** изменяет порядок записей, возвращенных из базы данных; он не влияет на порядок, в котором хранятся записи.</span><span class="sxs-lookup"><span data-stu-id="c89f9-110">Setting the **Index** property changes the order of records returned from the database; it doesn't affect the order in which the records are stored.</span></span>
 
-<span data-ttu-id="9cf16-109">Записи в базовые таблицы не сохраняются в любом порядке.</span><span class="sxs-lookup"><span data-stu-id="9cf16-109">Records in base tables aren't stored in any particular order.</span></span> <span data-ttu-id="9cf16-110">Свойство **Index** изменяет порядок записей, возвращенных из базы данных; он не влияет на порядок, в котором хранятся записи.</span><span class="sxs-lookup"><span data-stu-id="9cf16-110">Setting the **Index** property changes the order of records returned from the database; it doesn't affect the order in which the records are stored.</span></span>
+<span data-ttu-id="c89f9-111">Указанный объект **индекса** уже должны быть определены.</span><span class="sxs-lookup"><span data-stu-id="c89f9-111">The specified **Index** object must already be defined.</span></span> <span data-ttu-id="c89f9-112">Если значение свойства **Index** объекта **индекса** , не существует или свойства **Index** не задано, при использовании метода **[Seek](recordset2-seek-method-dao.md)** , то перехватываемые возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="c89f9-112">If you set the **Index** property to an **Index** object that doesn't exist or if the **Index** property isn't set when you use the **[Seek](recordset2-seek-method-dao.md)** method, a trappable error occurs.</span></span>
 
-<span data-ttu-id="9cf16-111">Указанный объект **индекса** уже должны быть определены.</span><span class="sxs-lookup"><span data-stu-id="9cf16-111">The specified **Index** object must already be defined.</span></span> <span data-ttu-id="9cf16-112">Если значение свойства **Index** объекта **индекса** , не существует или свойства **Index** не задано, при использовании метода **[Seek](recordset2-seek-method-dao.md)** , то перехватываемые возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="9cf16-112">If you set the **Index** property to an **Index** object that doesn't exist or if the **Index** property isn't set when you use the **[Seek](recordset2-seek-method-dao.md)** method, a trappable error occurs.</span></span>
+<span data-ttu-id="c89f9-113">Проверьте коллекцию **индексов** **TableDef** объекта, чтобы определить, какие объекты **индекса** доступны для объектов тип таблицы **записей** , создаваемых с помощью этого объекта **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="c89f9-113">Examine the **Indexes** collection of a **TableDef** object to determine what **Index** objects are available to table-type **Recordset** objects created from that **TableDef** object.</span></span>
 
-<span data-ttu-id="9cf16-113">Проверьте коллекцию **индексов** **TableDef** объекта, чтобы определить, какие объекты **индекса** доступны для объектов тип таблицы **записей** , создаваемых с помощью этого объекта **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="9cf16-113">Examine the **Indexes** collection of a **TableDef** object to determine what **Index** objects are available to table-type **Recordset** objects created from that **TableDef** object.</span></span>
+<span data-ttu-id="c89f9-114">Можно создать новый индекс для таблицы путем создания объекта **индекса** , установка ее свойств, добавления в коллекцию **индексов** базового объекта **TableDef** и повторно открыть объекта **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="c89f9-114">You can create a new index for the table by creating a new **Index** object, setting its properties, appending it to the **Indexes** collection of the underlying **TableDef** object, and then reopening the **Recordset** object.</span></span>
 
-<span data-ttu-id="9cf16-114">Можно создать новый индекс для таблицы путем создания объекта **индекса** , установка ее свойств, добавления в коллекцию **индексов** базового объекта **TableDef** и повторно открыть объекта **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="9cf16-114">You can create a new index for the table by creating a new **Index** object, setting its properties, appending it to the **Indexes** collection of the underlying **TableDef** object, and then reopening the **Recordset** object.</span></span>
-
-<span data-ttu-id="9cf16-115">Возвращенный объект **набора записей** в таблице типа записи могут быть упорядочены только с помощью индексов, определенных для базового объекта **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="9cf16-115">Records returned from a table-type **Recordset** object can be ordered only by the indexes defined for the underlying **TableDef** object.</span></span> <span data-ttu-id="9cf16-116">Чтобы отсортировать записи в некоторые другие порядке, можно открыть динамический набор –, моментальный снимок – или объекта **набора записей** прямого — только — тип с помощью инструкции SQL с предложение ORDER BY.</span><span class="sxs-lookup"><span data-stu-id="9cf16-116">To sort records in some other order, you can open a dynaset–, snapshot–, or forward–only–type **Recordset** object by using an SQL statement with an ORDER BY clause.</span></span>
-
+<span data-ttu-id="c89f9-115">Возвращенный объект **набора записей** в таблице типа записи могут быть упорядочены только с помощью индексов, определенных для базового объекта **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="c89f9-115">Records returned from a table-type **Recordset** object can be ordered only by the indexes defined for the underlying **TableDef** object.</span></span> <span data-ttu-id="c89f9-116">Чтобы отсортировать записи в некоторые другие порядке, можно открыть динамический набор –, моментальный снимок – или объекта **набора записей** прямого — только — тип с помощью инструкции SQL с предложение ORDER BY.</span><span class="sxs-lookup"><span data-stu-id="c89f9-116">To sort records in some other order, you can open a dynaset–, snapshot–, or forward–only–type **Recordset** object by using an SQL statement with an ORDER BY clause.</span></span>
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P><span data-ttu-id="9cf16-117">У вас нет для создания индексов для таблиц.</span><span class="sxs-lookup"><span data-stu-id="9cf16-117">You don't have to create indexes for tables.</span></span> <span data-ttu-id="9cf16-118">С большой, неиндексированные таблиц доступ к определенной записи или создание объекта <STRONG>набора записей</STRONG> может занять много времени.</span><span class="sxs-lookup"><span data-stu-id="9cf16-118">With large, unindexed tables, accessing a specific record or creating a <STRONG>Recordset</STRONG> object can take a long time.</span></span> <span data-ttu-id="9cf16-119">С другой стороны, создание слишком много индексов замедляет работу обновления, добавлять и удалять операции, так как все индексы обновляются автоматически.</span><span class="sxs-lookup"><span data-stu-id="9cf16-119">On the other hand, creating too many indexes slows down update, append, and delete operations because all indexes are automatically updated.</span></span></P>
-> <LI>
-> <P><span data-ttu-id="9cf16-120">Чтение из таблицы без индексов записи возвращаются в определенной последовательности.</span><span class="sxs-lookup"><span data-stu-id="9cf16-120">Records read from tables without indexes are returned in no particular sequence.</span></span></P>
-> <LI>
-> <P><span data-ttu-id="9cf16-121">Свойство <STRONG><A href="field-attributes-property-dao.md">атрибуты</A></STRONG> каждого объекта <STRONG><A href="field-object-dao.md">поля</A></STRONG> в объекте <STRONG>индекса</STRONG> определяет порядок записей и следовательно определяет методы доступа для этого индекса.</span><span class="sxs-lookup"><span data-stu-id="9cf16-121">The <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> property of each <STRONG><A href="field-object-dao.md">Field</A></STRONG> object in the <STRONG>Index</STRONG> object determines the order of records and consequently determines the access techniques to use for that index.</span></span></P>
-> <LI>
-> <P><span data-ttu-id="9cf16-122">Уникальный индекс помогает оптимизировать поиск записей.</span><span class="sxs-lookup"><span data-stu-id="9cf16-122">A unique index helps optimize finding records.</span></span></P>
-> <LI>
-> <P><span data-ttu-id="9cf16-123">Индексы не влияют на физический порядок базовый tableindexes определяют, как только записи обращением объекта <STRONG>набора записей</STRONG> в таблице тип при выборе определенного индекса или при открытии <STRONG>набора записей</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="9cf16-123">Indexes don't affect the physical order of a base tableindexes affect only how the records are accessed by the table-type <STRONG>Recordset</STRONG> object when a particular index is chosen or when <STRONG>Recordset</STRONG> is opened.</span></span></P></LI></UL>
+> - <span data-ttu-id="c89f9-117">У вас нет для создания индексов для таблиц.</span><span class="sxs-lookup"><span data-stu-id="c89f9-117">You don't have to create indexes for tables.</span></span> <span data-ttu-id="c89f9-118">С большой, неиндексированные таблиц доступ к определенной записи или создание объекта **набора записей** может занять много времени.</span><span class="sxs-lookup"><span data-stu-id="c89f9-118">With large, unindexed tables, accessing a specific record or creating a **Recordset** object can take a long time.</span></span> <span data-ttu-id="c89f9-119">С другой стороны, создание слишком много индексов замедляет работу обновления, добавлять и удалять операции, так как все индексы обновляются автоматически.</span><span class="sxs-lookup"><span data-stu-id="c89f9-119">On the other hand, creating too many indexes slows down update, append, and delete operations because all indexes are automatically updated.</span></span>
+> - <span data-ttu-id="c89f9-120">Чтение из таблицы без индексов записи возвращаются в определенной последовательности.</span><span class="sxs-lookup"><span data-stu-id="c89f9-120">Records read from tables without indexes are returned in no particular sequence.</span></span>
+> - <span data-ttu-id="c89f9-121">Свойство **[атрибуты](field-attributes-property-dao.md)** каждого объекта **[поля](field-object-dao.md)** в объекте **индекса** определяет порядок записей и следовательно определяет методы доступа для этого индекса.</span><span class="sxs-lookup"><span data-stu-id="c89f9-121">The **[Attributes](field-attributes-property-dao.md)** property of each **[Field](field-object-dao.md)** object in the **Index** object determines the order of records and consequently determines the access techniques to use for that index.</span></span>
+> - <span data-ttu-id="c89f9-122">Уникальный индекс помогает оптимизировать поиск записей.</span><span class="sxs-lookup"><span data-stu-id="c89f9-122">A unique index helps optimize finding records.</span></span>
+> - <span data-ttu-id="c89f9-123">Индексы не влияют на физический порядок базовый tableindexes определяют, как только записи обращением объекта **набора записей** в таблице тип при выборе определенного индекса или при открытии **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="c89f9-123">Indexes don't affect the physical order of a base tableindexes affect only how the records are accessed by the table-type **Recordset** object when a particular index is chosen or when **Recordset** is opened.</span></span>
 
+## <a name="example"></a><span data-ttu-id="c89f9-124">Пример</span><span class="sxs-lookup"><span data-stu-id="c89f9-124">Example</span></span>
 
-
-## <a name="example"></a><span data-ttu-id="9cf16-124">Пример</span><span class="sxs-lookup"><span data-stu-id="9cf16-124">Example</span></span>
-
-<span data-ttu-id="9cf16-125">В этом примере используется свойство **индекса** Установка другой записи заказов для табличного типа **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="9cf16-125">This example uses the **Index** property to set different record orders for a table-type **Recordset**.</span></span>
+<span data-ttu-id="c89f9-125">В этом примере используется свойство **индекса** Установка другой записи заказов для табличного типа **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="c89f9-125">This example uses the **Index** property to set different record orders for a table-type **Recordset**.</span></span>
 
 ```vb
     Sub IndexPropertyX() 
@@ -100,7 +90,7 @@ ms.locfileid: "25920405"
 
 <br/>
 
-<span data-ttu-id="9cf16-126">В этом примере демонстрируется использование метода **Seek** , позволяя пользователю выполнять поиск по идентификатору продукта.</span><span class="sxs-lookup"><span data-stu-id="9cf16-126">This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.</span></span>
+<span data-ttu-id="c89f9-126">В этом примере демонстрируется использование метода **Seek** , позволяя пользователю выполнять поиск по идентификатору продукта.</span><span class="sxs-lookup"><span data-stu-id="c89f9-126">This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.</span></span>
 
 ```vb
     Sub SeekX() 
