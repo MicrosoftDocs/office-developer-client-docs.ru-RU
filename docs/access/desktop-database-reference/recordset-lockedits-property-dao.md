@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052877
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f1f539659ef81ebb484c4a116176974491b0a480
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 81c7b3e2474ee6cbcd8e45b61369e22f20440587
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931066"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996757"
 ---
 # <a name="recordsetlockedits-property-dao"></a>Свойство Recordset.LockEdits (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -66,11 +65,8 @@ ms.locfileid: "25931066"
 
 При работе с источниками данных ODBC подключением модуля Microsoft Access базы данных, свойство **LockEdits** всегда имеет значение **False**или оптимистичный блокировки. Ядро СУБД Microsoft Access не контролирует механизмы блокировки, используемые на серверах внешней базе данных.
 
-
 > [!NOTE]
-> <P>Значение <STRONG>LockEdits</STRONG> могут быть предварительно при первом открытии <STRONG>набора записей</STRONG> , задав аргумент lockedits <STRONG><A href="connection-openrecordset-method-dao.md">OpenRecordset</A></STRONG> метода. Установка для аргумента lockedits <STRONG>dbPessimistic</STRONG> будет <STRONG>LockEdits</STRONG> свойству присвоено <STRONG>значение True,</STRONG>и lockedits параметр к любым другим значением будет <STRONG>LockEdits</STRONG> свойству присвоено <STRONG>значение False</STRONG>.</P>
-
-
+> Значение **LockEdits** могут быть предварительно при первом открытии **набора записей** , задав аргумент lockedits **[OpenRecordset](connection-openrecordset-method-dao.md)** метода. Установка для аргумента lockedits **dbPessimistic** будет **LockEdits** свойству присвоено **значение True,** и lockedits параметр к любым другим значением будет **LockEdits** свойству присвоено **значение False**.
 
 ## <a name="example"></a>Пример
 

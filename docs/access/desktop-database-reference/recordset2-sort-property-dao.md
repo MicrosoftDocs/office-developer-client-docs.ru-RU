@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193917(v=office.15)
 ms:contentKeyID: 48544842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d9d154bb7506ca75862006a889c84906e43bc2a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 60d843773c00e7bd40e3e8e28997422fbda3c215
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925424"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998310"
 ---
 # <a name="recordset2sort-property-dao"></a>Свойство Recordset2.Sort (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013 
 
@@ -36,11 +35,8 @@ ms.locfileid: "25925424"
 
 Свойство **сортировки** не применяется к таблице – прямого – только для – тип или объектов **наборов записей** . Чтобы отсортировать объекта **набора записей** в таблице — тип, используйте свойство **[индекса](recordset2-index-property-dao.md)** .
 
-
 > [!NOTE]
-> <P>Во многих случаях это быстрее, чтобы открыть новый объект <STRONG>набора записей</STRONG> с помощью инструкции SQL, которая включает в себя критерия сортировки.</P>
-
-
+> Во многих случаях это быстрее, чтобы открыть новый объект **набора записей** с помощью инструкции SQL, которая включает в себя критерия сортировки.
 
 ## <a name="example"></a>Пример
 

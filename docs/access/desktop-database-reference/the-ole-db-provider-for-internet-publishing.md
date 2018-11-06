@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 536acebd305927cffe50e742245be97a48242796
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 7315df5a20cf032fc256f03893531f58857d470a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945750"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998667"
 ---
 # <a name="ole-db-provider-for-internet-publishing"></a>Поставщик OLE DB для публикации в Интернете
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -48,11 +47,8 @@ ms.locfileid: "25945750"
     objConn.Open "https://servername" 
   ```
 
-
 > [!NOTE]
-> <P>Если Msdaipp.dso явным образом указаны как значение поставщика, с ключевым словом строки подключения <EM>поставщика</EM> или свойство <STRONG>поставщика</STRONG> нельзя использовать «URL-адрес =» в строке подключения. В противном случае возникнет ошибка. Вместо этого просто укажите URL-адрес, как показано выше.</P>
-
-
+> Если Msdaipp.dso явным образом указаны как значение поставщика, с ключевым словом строки подключения *поставщика* или свойство **поставщика** нельзя использовать «URL-адрес =» в строке подключения. В противном случае возникнет ошибка. Вместо этого просто укажите URL-адрес, как показано выше в этом разделе.
 
 Более подробные сведения о поставщике публикации Интернет отображаться [Поставщик Microsoft OLE DB для публикации Интернет](microsoft-ole-db-provider-for-internet-publishing.md)или документации поставщика, входящие в состав исходное приложение, с которым была поставщика OLE DB для публикации Интернет установленные: Windows 2000, Office 2000 или Internet Explorer версии 5.0.
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2d6d40d88051e708944dadfabb984d44cc8c5cbc
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 55baceac9523400c5e646fbc4c1e7bb411219697
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949889"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998590"
 ---
 # <a name="dbenginesetoption-method-dao"></a>Метод: DBEngine.SetOption (DAO)
 

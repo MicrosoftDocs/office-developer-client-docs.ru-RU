@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e5aaab6a79893a66b12216f60c05690c1e806000
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: eeaed6e6c2f32463a12f617c8fee90b2d5f24a86
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937052"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998436"
 ---
 # <a name="field2appendchunk-method-dao"></a>Метод Field2.AppendChunk (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25937052"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -48,7 +48,7 @@ ms.locfileid: "25937052"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Функция Val</p></td>
+<td><p><em>Функция Val</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Выражение типа Variant (String подтип) или переменная, содержащая данные необходимо добавить объект <strong>поле2</strong> .</p></td>

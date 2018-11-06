@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: df7533376bf6f6d3c5387173a90c7d5e1a5013cd
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: fb3deeb6e2f90c6ddbe7cdc90c5e599349ebfb10
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950050"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998723"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>Метод DBEngine.CompactDatabase (DAO)
 

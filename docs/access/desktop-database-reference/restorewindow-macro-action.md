@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb857e7eda7860150feb7af07babcc2574c3972f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dfd7877ff1db960afcbf864f1e72ff01b12e8f09
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929050"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998954"
 ---
 # <a name="restorewindow-macro-action"></a>Макрокоманда RestoreWindow
-
 
 **Применимо к**: Access 2013, Office 2013
 
 Действие **RestoreWindow** можно использовать для восстановления предыдущих размеров развернутого или свернутого окна.
 
-
 > [!NOTE]
-> <P>Это действие не может применяться к windows кода в редакторе Visual Basic. Для получения сведений о действиях с кодом windows приведены в разделе свойство <STRONG>WindowState</STRONG> .</P>
-
-
+> Это действие не может применяться к windows кода в редакторе Visual Basic. Для получения сведений о действиях с кодом windows приведены в разделе свойство **WindowState** .
 
 ## <a name="setting"></a>Параметр
 

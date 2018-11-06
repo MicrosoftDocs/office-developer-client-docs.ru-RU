@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
 ms:contentKeyID: 48546489
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6dacfb1b46899397647c928c2b8032a97417fbf5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6db35b060d59891bfc33bb75c6e6bb370fb3dc9a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927419"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998232"
 ---
 # <a name="recordset2seek-method-dao"></a>Метод Recordset2.Seek (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25927419"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ ms.locfileid: "25927419"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Comparison</p></td>
+<td><p><em>Comparison</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Один из следующих строковых выражений: &lt;, &lt;=, =, &gt;=, или &gt;.</p></td>
 </tr>
 <tr class="even">
-<td><p>Key1 Key2... Key13</p></td>
+<td><p><em>Key1 Key2... Key13</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Один или несколько значения, соответствующие поля в текущий индекс объекта <strong>набора записей</strong> в соответствии с его значение свойства <strong>Index</strong> . Можно использовать до 13 ключевые аргументов.</p></td>

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053061
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b86713870efb2ed5974f462197cadc95df43fcb3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5df9c972095d61ff17fa2a405a6786c08dad74fc
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920776"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997779"
 ---
 # <a name="recordsetseek-method-dao"></a>Метод Recordset.Seek (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25920776"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -48,13 +48,13 @@ ms.locfileid: "25920776"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Comparison</p></td>
+<td><p><em>Comparison</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Один из следующих строковых выражений: &lt;, &lt;=, =, &gt;=, или &gt;.</p></td>
 </tr>
 <tr class="even">
-<td><p>Key1 Key2... Key13</p></td>
+<td><p><em>Key1 Key2... Key13</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Один или несколько значения, соответствующие поля в текущий индекс объекта <strong>набора записей</strong> в соответствии с его значение свойства <strong>Index</strong> . Можно использовать до 13 ключевые аргументов.</p></td>

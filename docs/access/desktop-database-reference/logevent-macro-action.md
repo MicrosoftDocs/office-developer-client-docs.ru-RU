@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192460(v=office.15)
 ms:contentKeyID: 48544148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa036f73dd4c811191c9d5ba83a6d2fc65a54827
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: edc2fcaa72f6bfb912708948903aa09b25447580
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918977"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998176"
 ---
 # <a name="logevent-macro-action"></a>Макрокоманда LogEvent
-
 
 **Применимо к**: Access 2013, Office 2013
 
 Действие **LogEvent** записывает сведения об **системы см** .
 
-
 > [!NOTE]
-> <P><STRONG>LogEvent</STRONG> действие доступно только в макросов данных.</P>
-
-
+> **LogEvent** действие доступно только в макросов данных.
 
 ## <a name="setting"></a>Параметр
 
@@ -51,7 +47,6 @@ ms.locfileid: "25918977"
 </tr>
 </tbody>
 </table>
-
 
 ## <a name="remarks"></a>Примечания
 

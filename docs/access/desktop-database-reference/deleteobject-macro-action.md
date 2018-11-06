@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65072fcc418e6a75ea1684c6830f3acfc4875aee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3ed8580d95128dae475a6d5fe3963f7daaad53f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921945"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997261"
 ---
 # <a name="deleteobject-macro-action"></a>Макрокоманда DeleteObject
-
 
 **Применимо к**: Access 2013, Office 2013
 
 Действие **DeleteObject** можно использовать для удаления объекта указанной базы данных.
 
-
 > [!NOTE]
-> 
-		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-
+> Это действие не разрешено, если база данных не является доверенной. 
 
 ## <a name="setting"></a>Параметр
 
@@ -57,12 +53,8 @@ ms.locfileid: "25921945"
 </tbody>
 </table>
 
-
-
 > [!WARNING]
 > Если оставить поля **Тип объекта** и **Имя объекта** , Access удаляет объект, выбранного в области навигации без вывода предупреждающего сообщения при обнаружении **DeleteObject** действие.
-
-
 
 ## <a name="remarks"></a>Примечания
 

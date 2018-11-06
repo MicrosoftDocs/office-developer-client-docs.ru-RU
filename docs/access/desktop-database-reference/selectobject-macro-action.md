@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f134a43aaa56a1b206330175658f92e5076a4a14
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b34deff80157b3de63038251a649794587dacc85
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919292"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997415"
 ---
 # <a name="selectobject-macro-action"></a>Макрокоманда SelectObject
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -46,13 +45,7 @@ ms.locfileid: "25919292"
 </tr>
 <tr class="even">
 <td><p><strong>Имя объекта</strong></p></td>
-<td><p>Имя объекта для выбора. В поле <strong>Имя объекта</strong> содержит все объекты базы данных, указанному в аргументе <strong>Тип объекта</strong> типа. Это аргумент является обязательным, если не выбрано значение " <strong>Да"</strong>аргумент в области переходов.</p>
-
-> [!NOTE]
-> <P>Имена объектов для <STRONG>Представления Server</STRONG>, <STRONG>Схема</STRONG>или <STRONG>Хранимую процедуру</STRONG> объекты не отображаются в поле <STRONG>Имя объекта</STRONG> проекта Access (файлы с расширением ADP).</P>
-
-
-<p></p></td>
+<td><p>Имя объекта для выбора. В поле <strong>Имя объекта</strong> содержит все объекты базы данных, указанному в аргументе <strong>Тип объекта</strong> типа. Это аргумент является обязательным, если не выбрано значение " <strong>Да"</strong>аргумент в области переходов.</p><p><strong>Примечание</strong>: имена объектов для объектов- <STRONG>Представление</STRONG>, <STRONG>Схема</STRONG>или <STRONG>Хранимую процедуру</STRONG> не отображается в поле <STRONG>Имя объекта</STRONG> проекта Access (файлы с расширением ADP).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>В области переходов</strong></p></td>

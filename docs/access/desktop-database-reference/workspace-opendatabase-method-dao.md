@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ef8c2399ec8a2ddedde47197388698c2b83c57c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4c4f799d9e0e3ea2ffddbf981adf9332cca672ee
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926670"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997289"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Метод Workspace.OpenDatabase (DAO)
 
@@ -25,7 +25,7 @@ ms.locfileid: "25926670"
 
 *выражение* Переменная, которая представляет собой объект- **рабочей области** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -44,25 +44,25 @@ ms.locfileid: "25926670"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Имя существующий файл базы данных ядра базы данных Microsoft Access или данных источника имя источника данных ODBC (DSN). Просмотрите Дополнительные сведения о настройке это значение свойства <strong><a href="connection-name-property-dao.md">Name</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Варианты</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Задает различные параметры для базы данных, как указано в разделе Примечания.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>Только для чтения</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Значение true,</strong> Если вы хотите откройте базу данных с доступом только для чтения, или <strong>значение False</strong> (по умолчанию), чтобы открыть базу данных с помощью доступ на чтение и запись.</p></td>
 </tr>
 <tr class="even">
-<td><p>Подключение</p></td>
+<td><p><em>Подключение</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Указывает различные сведения о подключении, включая пароли.</p></td>
@@ -71,7 +71,7 @@ ms.locfileid: "25926670"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 База данных
 
@@ -102,6 +102,7 @@ ms.locfileid: "25926670"
 </tbody>
 </table>
 
+<br/>
 
 При открытии базы данных, автоматически добавляется в коллекцию **баз данных** .
 

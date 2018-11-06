@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 083e76ea4e2a0800153d50fa0c61d5acb7a29645
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f6975a438e4e724a6fc1f72be92088f0d07a5b44
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922183"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996708"
 ---
 # <a name="recordset2nomatch-property-dao"></a>Свойство Recordset2.NoMatch (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -34,11 +33,8 @@ ms.locfileid: "25922183"
 
 Если **Seek** или **Найти** метод завершается неудачно, а свойство **NoMatch** имеет **значение True**, текущей записи будет становятся недопустимыми. Убедитесь, что для получения текущей записи закладку перед использованием **Seek** метод или метод **поиска** , если вам потребуется вернуться к этой записи.
 
-
 > [!NOTE]
-> <P>Использовать любой из способов <STRONG><A href="recordset-movefirst-method-dao.md">перемещать</A></STRONG> <STRONG>целиком</STRONG> не влияет на его значение свойства <STRONG>NoMatch</STRONG> .</P>
-
-
+> Использовать любой из способов **[перемещать](recordset-movefirst-method-dao.md)** **целиком** не влияет на его значение свойства **NoMatch** .
 
 ## <a name="example"></a>Пример
 

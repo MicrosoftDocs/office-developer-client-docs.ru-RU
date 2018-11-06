@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 322b59c6556b73186fe4034e64c75d9104d29560
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d5ce90c362d6d8cddcbf04326b5443b2c1dda2ae
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926901"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996792"
 ---
 # <a name="tabledefconnect-property-dao"></a>Свойство TableDef.Connect (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -159,12 +158,6 @@ ms.locfileid: "25926901"
 
 Для базовых таблиц в базе данных Micorosoft Access значение свойства **подключение** является строкой нулевой длины (»»).
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Необходимо установить свойство <STRONG>подключение</STRONG> , прежде чем задать свойство <STRONG>ReturnsRecords</STRONG> .</P>
-> <LI>
-> <P>Необходимо иметь разрешения доступа на компьютере, где размещается сервер базы данных, который вы пытаетесь получить доступ к.</P></LI></UL>
-
-
+> - Необходимо установить свойство **подключение** , прежде чем задать свойство **ReturnsRecords** .
+> - Необходимо иметь разрешения доступа на компьютере, где размещается сервер базы данных, который вы пытаетесь получить доступ к.

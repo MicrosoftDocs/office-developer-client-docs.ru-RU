@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052963
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 44fa827be7359c598ff610313be4c2acf30d5e50
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d5daadde111c18831108c1149170b71960d84b64
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920566"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996841"
 ---
 # <a name="indexrequired-property-dao"></a>Свойство Index.Required (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -32,11 +31,8 @@ ms.locfileid: "25920566"
 
 ## <a name="remarks"></a>Примечания
 
-
 > [!NOTE]
-> <P>При установке этого свойства для объекта <STRONG>индекса</STRONG> или объекта <STRONG>поля</STRONG> задайте его для объекта <STRONG>поля</STRONG> . Перед, объект <STRONG>индекса</STRONG> проверять правильность настройки свойства для объекта <STRONG>поля</STRONG> .</P>
-
-
+> При установке этого свойства для объекта **индекса** или объекта **поля** задайте его для объекта **поля** . Перед, объект **индекса** проверять правильность настройки свойства для объекта **поля** .
 
 Доступность свойства **необходимые** зависит от объекта, который содержит коллекцию [полей](fields-collection-dao.md) , как показано в следующей таблице.
 

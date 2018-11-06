@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm93359
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2fcc3cc7bac9bcc4ab1f87c6e3da791eab06fc94
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: caa22f142062b929b2520d5a2de69f9ccddb2145
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919278"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998681"
 ---
 # <a name="runapplication-macro-action"></a>Макрокоманда RunApplication
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -35,16 +34,10 @@ ms.locfileid: "25919278"
 </tbody>
 </table>
 
-
 Действие **RunApplication** позволяет выполнять Microsoft Windows и основе MS-DOS приложения, например Microsoft Excel, Microsoft Word или Microsoft PowerPoint в Microsoft Access. Например можно вставить данные электронных таблиц Excel в базы данных Access.
 
-
 > [!NOTE]
-> <P>
-		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-</P>
-
-
+> Это действие не разрешено, если база данных не является доверенной. 
 
 ## <a name="setting"></a>Параметр
 

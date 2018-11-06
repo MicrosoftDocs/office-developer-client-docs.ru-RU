@@ -1,20 +1,19 @@
 ---
 title: Метод Recordset.MoveLast (DAO)
-TOCTitle: MoveLast Method
+TOCTitle: MoveLast method
 ms:assetid: fc0f7a33-1f55-9f5b-b00d-1b81f49b1c3e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837192(v=office.15)
 ms:contentKeyID: 48548881
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44b38825ad2757be1cb17bfc7f7a6721bc073968
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 22c028601024df79f5ca75c8845decae31935dc3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920097"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998779"
 ---
 # <a name="recordsetmovelast-method-dao"></a>Метод Recordset.MoveLast (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25920097"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25920097"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Параметры</p></td>
+<td><p><em>Варианты</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Длинный</strong></p></td>
 <td><p>Задайте значение <strong>dbRunAsync</strong> для rune вызов <strong>MoveLast</strong> асинхронно.</p></td>
@@ -66,11 +65,10 @@ ms.locfileid: "25920097"
 
 Если записей относится к таблице типа **записей** (только для рабочих областей Microsoft Access), перемещение за текущий индекс. Индекс текущей можно задать с помощью свойства **индекса** . Если не установить текущий индекс, порядок возвращаемых записей не определено.
 
-
 > [!NOTE]
-> <P>Метод <STRONG>MoveLast</STRONG> полностью заполнить или моментальный снимок добавляющий <STRONG>набора записей</STRONG> для предоставления текущее число записей в <STRONG>набора записей</STRONG>. Тем не менее если вы используете <STRONG>MoveLast</STRONG> таким образом, может снизить производительность приложения. <STRONG>MoveLast</STRONG> следует использовать только для получения счетчика записей, если это действительно необходимо получить точное число записей на открываемые <STRONG>набора записей</STRONG>. При использовании константу <STRONG>dbRunAsync</STRONG> с <STRONG>MoveLast</STRONG>асинхронного вызова метода. Чтобы определить, когда <STRONG>записей</STRONG> полностью заполнен, и можно использовать метод <STRONG>Cancel</STRONG> для завершения выполнения асинхронного вызова метода <STRONG>MoveLast</STRONG> можно использовать свойство <STRONG>StillExecuting</STRONG> .</P>
-
-
+> Метод **MoveLast** полностью заполнить или моментальный снимок добавляющий **набора записей** для предоставления текущее число записей в **набора записей**. Тем не менее если вы используете **MoveLast** таким образом, может снизить производительность приложения. **MoveLast** следует использовать только для получения счетчика записей, если это действительно необходимо получить точное число записей на открываемые **набора записей**. 
+> 
+> При использовании константу **dbRunAsync** с **MoveLast**асинхронного вызова метода. Чтобы определить, когда **записей** полностью заполнен, и можно использовать метод **Cancel** для завершения выполнения асинхронного вызова метода **MoveLast** можно использовать свойство **StillExecuting** .
 
 Нельзя использовать методы **MoveFirst** **MoveLast**и **MovePrevious** для прямого — только – тип объекта **набора записей** .
 

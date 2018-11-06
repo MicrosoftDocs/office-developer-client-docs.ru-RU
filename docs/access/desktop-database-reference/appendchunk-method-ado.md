@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9103135100c5a10931ee63bfbdeabe9d97119fd2
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 260fe01066e14578655089d397b0e76a705b9802
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949266"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996848"
 ---
 # <a name="appendchunk-method-ado"></a>Метод AppendChunk (ADO)
 
@@ -34,7 +34,7 @@ ms.locfileid: "25949266"
 
 Используйте метод **AppendChunk** для **поля** или **параметра** объекта для наполнения данными длинный двоичные или знак. В случаях, когда системной памяти ограниченный можно использовать метод **AppendChunk** для работы с длинные значения в части, а не полностью.
 
-**Поле**
+### <a name="field"></a>Поле
 
 Если бит **adFldLong** в свойство [Attributes](attributes-property-ado.md) объекта **поля** задано значение true, можно использовать метод **AppendChunk** для этого поля.
 
@@ -42,13 +42,10 @@ ms.locfileid: "25949266"
 
 Если отсутствует текущий запись при вызове **AppendChunk** объекта **поля** , возникает ошибка.
 
-
 > [!NOTE]
 > Метод **AppendChunk** не работают с объектами **поля** объект [записи](record-object-ado.md) . Он не выполнять любые операции и приведет к ошибке времени выполнения.
 
-
-
-**Параметр**
+### <a name="parameters"></a>Параметры
 
 Если бит **adParamLong** в свойстве **атрибуты** объекта **параметр** имеет значение true, можно использовать метод **AppendChunk** для этого параметра.
 

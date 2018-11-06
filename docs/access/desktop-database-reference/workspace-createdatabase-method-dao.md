@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5774eb4c9965cad7679d37754fd9a1f431ddaa48
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3bb08ff90bb6a9981ef0d25c3beb1652a9415a34
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923415"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996897"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Метод Workspace.CreateDatabase (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25923415"
 
 *выражение* Переменная, которая представляет собой объект- **рабочей области** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ ms.locfileid: "25923415"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Строка длиной до 255 знаков, — это имя файла базы данных, который вы создаете. Это может быть полный путь и имя файла. Если сеть поддерживает его, можно также указать сетевой путь, таких как &quot; \\server1\share1\dir1\db1&quot;. Файлы базы данных Microsoft Access можно создать только с помощью этого метода.</p></td>
 </tr>
 <tr class="even">
-<td><p>Подключение</p></td>
+<td><p><em>Подключение</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><ul>
@@ -64,7 +63,7 @@ ms.locfileid: "25923415"
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Параметр</p></td>
+<td><p><em>Вариант</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа или сочетание констант, которое указывает один или несколько параметров, как указано в настройки. Параметры можно использовать суммируются соответствующий констант.</p></td>
@@ -176,6 +175,7 @@ ms.locfileid: "25923415"
 </tbody>
 </table>
 
+<br/>
 
 Одно или несколько из следующих констант в аргументе параметры можно использовать для указания версии должен иметь формат данных и ли шифрование базы данных.
 
@@ -222,6 +222,7 @@ ms.locfileid: "25923415"
 </tbody>
 </table>
 
+<br/>
 
 Если опустить константу шифрования **CreateDatabase** создает без зашифрованной базе данных.
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 228c7d64d67b93a5f057c8d27c0f7a4fcc7d9064
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f8d245223549d51c49e769eedd0b92bb335357cf
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921553"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996995"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Метод Field.GetChunk (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25921553"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ ms.locfileid: "25921553"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Смещение</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Длинный</strong></p></td>
 <td><p>Число байтов, пропустите перед начинается копирование.</p></td>
 </tr>
 <tr class="even">
-<td><p>Байт</p></td>
+<td><p><em>Байт</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Длинный</strong></p></td>
 <td><p>Число байтов, которые необходимо вернуть.</p></td>
@@ -64,7 +63,7 @@ ms.locfileid: "25921553"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Variant
 
@@ -76,11 +75,8 @@ Variant
 
 Если numbytes больше, чем число байтов в поле, **GetChunk** возвращает фактическое число байтов оставшихся в соответствующем поле.
 
-
 > [!NOTE]
 > Используйте поле **Memo** для текста и поместить двоичные данные только в **Длинный двоичные** поля. В противном случае это приведет к нежелательным результатам.
-
-
 
 ## <a name="example"></a>Пример
 

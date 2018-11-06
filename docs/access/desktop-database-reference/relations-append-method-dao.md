@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052904
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 50e1cf6b2eb87e27f6ee0ca1468ef6dadc17e602
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c3f8ee64f7eff6b02ddf4a004eaec7364436e0d1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922533"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998422"
 ---
 # <a name="relationsappend-method-dao"></a>Метод Relations.Append (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25922533"
 
 *выражение* Переменная, которая представляет собой объект- **связи** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,7 +48,7 @@ ms.locfileid: "25922533"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект</p></td>
+<td><p><em>Объект</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Объект</strong></p></td>
 <td><p>Объектная переменная, представляющий поле, добавленный в коллекцию.</p></td>

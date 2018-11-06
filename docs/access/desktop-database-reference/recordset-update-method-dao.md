@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821467(v=office.15)
 ms:contentKeyID: 48546961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d095fd8288ddd3b778bb8d4384fdea9e423ad8d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6d81eaf181a87d6afc13dbf2908be307d120d349
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930310"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997023"
 ---
 # <a name="recordsetupdate-method-dao"></a>Метод Recordset.Update (DAO)
 
@@ -23,7 +23,7 @@ ms.locfileid: "25930310"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -42,13 +42,13 @@ ms.locfileid: "25930310"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Длинный</strong></p></td>
 <td><p><strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> константу, указывающую тип обновления, как указано в настройки (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p>Force</p></td>
+<td><p><em>Force</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p><strong>Логическое</strong> значение, указывающее ли принудительно изменения в базу данных, вне зависимости от ли данным был изменен другим пользователем <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong>, <strong><a href="fields-delete-method-dao.md">Удалить</a></strong>, или <strong><a href="recordset-edit-method-dao.md">Изменение</a></strong> звонок. Если <strong>значение True</strong>, принудительно изменений и изменения, внесенные другими пользователями, просто будут перезаписаны. Если <strong>значение False</strong> (по умолчанию), изменения, внесенные другим пользователем до обновления будет отображено сбоя для эти изменения, которые находятся в конфликта обновления. Ошибка не происходит, но свойства <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> и <strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong> будут указывать числа конфликтов и строк, затронутых конфликтов, соответственно (только для рабочих областей технология ODBCDirect).</p></td>
@@ -76,7 +76,6 @@ ms.locfileid: "25930310"
 В рабочей области Microsoft Access когда объекта **набора записей** **LockEdits** задается **значение True** (pessimistically заблокирован) в многопользовательской среде запись остается заблокированным с момента **Изменение** используется до ** Обновление** метода или изменение отменяется. Если значение свойства **LockEdits** равно **False** (оптимистичном случае заблокирован), запись блокируется и по сравнению с предварительно измененной записи непосредственно перед обновляется в базе данных. 
 
 Если запись была изменена используется метод **изменения** , происходит сбой операции **обновления** . Базы данных Microsoft Access модуль подключения ODBC и устанавливаемый драйвер ISAM баз данных всегда использовать оптимистичный блокировки. Чтобы продолжить операцию **обновления** внесенными изменениями, используйте метод **обновления** еще раз. Вернуться к записи другого пользователя изменен, необходимо обновить текущей записи с помощью перемещения 0.
-
 
 > [!NOTE]
 > Чтобы добавить, изменить или удалить записи, должен существовать уникальный индекс на запись в источнике данных. Если нет, произойдет ошибка «Отказано в разрешении» на **AddNew**, **Удаление**или **Изменение** вызова метода в рабочей области Microsoft Access или приведет к возникновению ошибки «Недопустимый аргумент» при вызове **Update** в рабочей области технология ODBCDirect.

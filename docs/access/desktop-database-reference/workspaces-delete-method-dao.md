@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
 ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e6edefa53c64fd71652adae0123396d21455cf1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3fa1474b12665b38c0e2e60dde953eb6082d9430
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930100"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997995"
 ---
 # <a name="workspacesdelete-method-dao"></a>Метод Workspaces.Delete (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25930100"
 
 *выражение* Переменная, которая представляет собой объект- **рабочие области** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25930100"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Имя рабочей области для удаления.</p></td>

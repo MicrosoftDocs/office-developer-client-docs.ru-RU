@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6adf3e5ec2ec36163d4818411a1abc07e940b209
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 76137608ed5de0fbd2b841fba3101d70209c7a6d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922687"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998758"
 ---
 # <a name="recordset2absoluteposition-property-dao"></a>Свойство Recordset2.AbsolutePosition (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -40,15 +39,9 @@ ms.locfileid: "25922687"
 
 Это свойство не следует использовать как номер записи заменяющего. Закладки будут по-прежнему рекомендуемый способ сохранения и возврата в заданной позиции и являются единственным способом для размещения текущей записи для всех типов объектов **Recordset2** . В частности при удалении одной или нескольких записей, перед изменение положения записи. Нет также никакой гарантий, что запись будет же абсолютного положения, если повторно объект **Recordset2** создается еще раз, так как порядок отдельных записей в объекте **набора записей** не гарантируется, если он создается с помощью SQL оператор с помощью предложение ORDER BY.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Для свойства <STRONG>AbsolutePosition</STRONG> значение значение больше нуля в объекте <STRONG>Recordset2</STRONG> недавно открытых, но пустые возникает перехватываемые ошибки. Объект <STRONG>Recordset2</STRONG> сначала заполняется с помощью метода <STRONG>MoveLast</STRONG> .</P>
-> <LI>
-> <P>Свойство <STRONG>AbsolutePosition</STRONG> недоступно <STRONG>Recordset2</STRONG> прямого — только — тип объектов или объектов <STRONG>Recordset2</STRONG> открывается из Транзитные запросы к базам данных ODBC engine подключенной базы данных Microsoft Access.</P></LI></UL>
-
-
+> - Для свойства **AbsolutePosition** значение значение больше нуля в объекте **Recordset2** недавно открытых, но пустые возникает перехватываемые ошибки. Объект **Recordset2** сначала заполняется с помощью метода **MoveLast** .
+> - Свойство **AbsolutePosition** недоступно **Recordset2** прямого — только — тип объектов или объектов **Recordset2** открывается из Транзитные запросы к базам данных ODBC engine подключенной базы данных Microsoft Access.
 
 ## <a name="example"></a>Пример
 

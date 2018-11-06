@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 666e27b176fb973298c791f7473dbda6fe37c7b0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 598944aadb344ab97d7561e7ef55a67041c4fbf1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928833"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998752"
 ---
 # <a name="recordset2clone-method-dao"></a>Метод Recordset2.Clone (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25928833"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Набор записей
 
@@ -38,15 +37,9 @@ ms.locfileid: "25928833"
 
 С помощью метода **[Close](connection-close-method-dao.md)** исходной или повторяющихся объекта не влияет на другой объект. К примеру на исходный набора записей с помощью **Закрыть** не закройте копия.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Закрытие набора записей клонированной ожидающие транзакции будет отображено неявные операции <STRONG>отката</STRONG> .</P>
-> <LI>
-> <P>При клонировании объекта <STRONG>набора записей</STRONG> в таблице типа в рабочей области Microsoft Access значение свойства <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> не копируется в новую копию набора записей. Необходимо скопировать вручную значение свойства <STRONG>Index</STRONG> .</P></LI></UL>
-
-
+> - Закрытие набора записей клонированной ожидающие транзакции будет отображено неявные операции **отката** .
+> - При клонировании объекта **набора записей** в таблице типа в рабочей области Microsoft Access значение свойства **[Index](recordset2-index-property-dao.md)** не копируется в новую копию набора записей. Необходимо скопировать вручную значение свойства **Index** .
 
 ## <a name="example"></a>Пример
 

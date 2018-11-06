@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f0c0ba73274d6f27a9e2a857aea1061416168f3a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 84d5b9c5f65e032523be8c646cdea18890744367
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922918"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997450"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>Макрокоманда EMailDatabaseObject
 
@@ -24,9 +24,7 @@ ms.locfileid: "25922918"
 Действие **EMailDatabaseObject** можно использовать для включения указанного Microsoft Access таблицы, формы, отчета, модуль или данные доступа к странице в сообщение электронной почты, где его можно просматривать и пересылку.
 
 > [!NOTE]
-> 
-		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-
+> Это действие не разрешено, если база данных не является доверенной. 
 
 ## <a name="settings"></a>Параметры
 
@@ -114,7 +112,7 @@ ms.locfileid: "25922918"
 
 **Автор ссылок** Люк Чанг, [FMS, Inc.](https://www.fmsinc.com/), основатель и президент компании FMS, Inc., ведущего поставщика решений настраиваемых баз данных и средств разработки.
 
-  - [Возможности и ограничения для использования метода ОтправитьОбъект для отправки](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
+- [Возможности и ограничения для использования метода ОтправитьОбъект для отправки](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
 
 

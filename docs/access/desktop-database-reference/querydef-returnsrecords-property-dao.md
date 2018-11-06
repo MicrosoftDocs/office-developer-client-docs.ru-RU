@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 66905394b0bf7127e952c9fe17860e84a151a3b0
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a651e017b77e01a3fc6e810f58c00c94ece123ad
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937605"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997772"
 ---
 # <a name="querydefreturnsrecords-property-dao"></a>Свойство QueryDef.ReturnsRecords (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Задает или возвращает значение, указывающее, возвращает ли запрос к серверу к внешней базе данных записей (только для рабочих областей Microsoft Access).
 
@@ -35,11 +33,8 @@ ms.locfileid: "25937605"
 
 Не все запросы к серверу SQL к внешним базам данных возвращает записи. Например инструкция SQL UPDATE обновляет записи без возвращения записей, пока инструкции SQL SELECT возврата записей. Если запрос возвращает записей, присвойте свойству **ReturnsRecords** значение **True**; Если запрос не возвращает записей, присвойте свойству **ReturnsRecords** значение **False**.
 
-
 > [!NOTE]
-> <P>Необходимо установить свойство <STRONG><A href="querydef-connect-property-dao.md">подключение</A></STRONG> , прежде чем задать свойство <STRONG>ReturnsRecords</STRONG> .</P>
-
-
+> Необходимо установить свойство **[подключение](querydef-connect-property-dao.md)** , прежде чем задать свойство **ReturnsRecords** .
 
 ## <a name="example"></a>Пример
 

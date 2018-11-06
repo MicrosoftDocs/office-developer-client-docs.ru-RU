@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053073
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8ea2bd660679b093ad031b6ce4d5f3c64b335893
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 70bdcddaaeb82b022fd9e6f49d13333017b5aaf9
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929792"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999003"
 ---
 # <a name="recordset2copyquerydef-method-dao"></a>Метод Recordset2.CopyQueryDef (DAO)
 
@@ -30,7 +30,7 @@ ms.locfileid: "25929792"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 QueryDef
 

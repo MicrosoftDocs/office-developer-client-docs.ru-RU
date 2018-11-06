@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 70fa0aba5385157453a1e9b009a167f036dc874b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 576928e6538ea704bf6f10d0826c0e6bbb359bf1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929120"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998240"
 ---
 # <a name="fieldsappend-method-dao"></a>Метод Fields.Append (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 Добавляет новое **[поле](field-object-dao.md)** в коллекцию **[полей](fields-collection-dao.md)** .
 
@@ -27,7 +25,7 @@ ms.locfileid: "25929120"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -46,7 +44,7 @@ ms.locfileid: "25929120"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект</p></td>
+<td><p><em>Объект</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Объект</strong></p></td>
 <td><p>Объектная переменная, представляющий поле, добавленный в коллекцию.</p></td>

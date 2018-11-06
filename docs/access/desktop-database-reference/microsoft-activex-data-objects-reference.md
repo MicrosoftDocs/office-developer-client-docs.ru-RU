@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 54d605beb0f6653695dafcd4a9ffffeb2f097d5b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 31d314ebbdc43bd6e50c187cafcb68028d03a7e5
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871432"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996806"
 ---
 # <a name="microsoft-activex-data-objects-reference"></a>Справочник по объектам данных Microsoft ActiveX
 

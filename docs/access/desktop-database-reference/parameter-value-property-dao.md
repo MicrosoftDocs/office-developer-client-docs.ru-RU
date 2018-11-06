@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195733(v=office.15)
 ms:contentKeyID: 48545556
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7c7eda7c438658022e0330c606169a1ed5bb2b3b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 95086e811288bd70dce15a22319531b28a1ecd6c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919257"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996729"
 ---
 # <a name="parametervalue-property-dao"></a>Свойство Parameter.Value (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -36,8 +35,7 @@ ms.locfileid: "25919257"
 
 Попытка установить или возвратить **значение** свойства в недопустимом контексте (например, свойство **Value** объекта **поля** в коллекцию **полей** объекта **TableDef** ) будет отображено перехватываемые ошибки.
 
-
 > [!NOTE]
-> <P>При чтении десятичные значения из базы данных Microsoft SQL Server, они будут иметь формат с помощью научное обозначение через рабочую область для Microsoft Access, но оно отображается как обычный десятичных значений с помощью технология ODBCDirect рабочей области.</P>
+> При чтении десятичные значения из базы данных Microsoft SQL Server, они будут иметь формат с помощью научное обозначение через рабочую область для Microsoft Access, но оно отображается как обычный десятичных значений с помощью технология ODBCDirect рабочей области.
 
 

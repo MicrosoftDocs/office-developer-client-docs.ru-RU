@@ -1,6 +1,6 @@
 ---
 title: Метод Recordset.GetRows (DAO)
-TOCTitle: GetRows Method
+TOCTitle: GetRows method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
 ms:contentKeyID: 48545031
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1b0df2371ec9da675346cc24fd53d602cf69a170
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ec7947fd5d8d15eee92a033a47a8574f2933e73b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931241"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998387"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Метод Recordset.GetRows (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25931241"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,7 +48,7 @@ ms.locfileid: "25931241"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NumRows</p></td>
+<td><p><em>NumRows</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Количество строк, извлекаемых.</p></td>
@@ -58,29 +57,29 @@ ms.locfileid: "25931241"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Variant
 
 ## <a name="remarks"></a>Примечания
 
-Используйте метод **получения строк** для копирования записей из **набора записей**. **Получение строк** возвращает двухмерный массив. Первый индекс определяет поля и второй — указывает номер строки. К примеру intField представляет поле, а intRecord указывает номер строки:
+Используйте метод **получения строк** для копирования записей из **набора записей**. **Получение строк** возвращает двухмерный массив. Первый индекс определяет поля и второй — указывает номер строки. Например `intField` представляет это поле, и `intRecord` определяет номер строки:
 
-avarRecords (intField, intRecord)
+`avarRecords(intField, intRecord)`
 
 Для получения значения первого поля во второй строке возвращаемых использовать код следующим образом:
 
-field1 = avarRecords(0,1)
+`field1 = avarRecords(0,1)`
 
 Чтобы получить значение второго поля в первой строке, используйте код следующим образом:
 
-поле2 = avarRecords(1,0)
+`field2 = avarRecords(1,0)`
 
 Переменная avarRecords автоматически становится двумерного массива, если **Получение строк** возвращает данные.
 
 Если запросить увеличение количества строк, чем доступно, **Получение строк** возвращает число доступных строк. Visual Basic для приложений **UBound** функции можно использовать для определения количества строк, фактически извлеченных **Получение строк** , так как массив изменяется в соответствии со число возвращенных строк. К примеру Если возвращенные результаты в **Variant** ДИСПА вызван можно использовать следующий код для определения количества строк, возвращенных:
 
-numReturned = UBound(varA,2) + 1
+`numReturned = UBound(varA,2) + 1`
 
 Необходимо использовать «+ 1», так как первая строка возвращается в элемент 0 массива. Число строк, которые вы можете получить ограничен объем доступной памяти. **Получение строк** не следует использовать для получения всей таблицы в массив при большом.
 

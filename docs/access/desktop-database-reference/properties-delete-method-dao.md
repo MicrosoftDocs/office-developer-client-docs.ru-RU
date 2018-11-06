@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
 ms:contentKeyID: 48548123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d9769e0b1ad82aaee423ed9e63efacc050bfcc0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2dd614e5be87b11a595bbfc4c8ae71aaf24041bb
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930748"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996778"
 ---
 # <a name="propertiesdelete-method-dao"></a>Метод Properties.Delete (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25930748"
 
 *выражение* Переменная, которая представляет собой объект- **Свойства** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25930748"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Имя свойства для удаления.</p></td>

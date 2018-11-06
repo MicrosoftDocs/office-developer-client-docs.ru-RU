@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 847f23c429b06fee51b42aa211d672b051accb7c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 363945386233fd992390f1fbc4b6115e272dc923
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920398"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997618"
 ---
 # <a name="importexportdata-macro-action"></a>Макрокоманда ImportExportData
 
@@ -24,9 +24,7 @@ ms.locfileid: "25920398"
 Действие **ImportExportData** можно использовать для импорта или экспорта данных между текущей базы данных Access (MDB- или .accdb) или проект Microsoft Access (файлы с расширением ADP) и другой базы данных. Для баз данных Microsoft Access можно связать таблицы в текущей базе данных из другой базы данных. Связанные таблицы имеют доступ к данным таблицы оставив всю таблицу в другой базе данных.
 
 > [!NOTE]
-> 
-		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-
+> Это действие не разрешено, если база данных не является доверенной. 
 
 ## <a name="settings"></a>Параметры
 
@@ -46,13 +44,7 @@ ms.locfileid: "25920398"
 <tbody>
 <tr class="odd">
 <td><p><strong>Тип передачи</strong></p></td>
-<td><p>Тип переноса, который требуется сделать. Выберите <strong>Импорт</strong>, <strong>Экспорт</strong>или <strong>ссылку</strong> в поле <strong>Тип преобразования</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов. Значение по умолчанию — <strong>Импорт</strong>.</p>
-
-> [!NOTE]
-> Тип передачи **связи** не поддерживается для проектов Access (файлы с расширением ADP).
-
-
-<p></p></td>
+<td><p>Тип переноса, который требуется сделать. Выберите <strong>Импорт</strong>, <strong>Экспорт</strong>или <strong>ссылку</strong> в поле <strong>Тип преобразования</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов. Значение по умолчанию — <strong>Импорт</strong>.</p><p><strong>Примечание</strong>: тип передачи <strong>связи</strong> не поддерживается для проектов Access (файлы с расширением ADP).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Тип базы данных</strong></p></td>

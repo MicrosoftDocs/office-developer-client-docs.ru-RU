@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm176660
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b6db77a3cd712717e5aa2eb22e89f90557a1dabf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b257473d2acd3d17f30a3fdd579d213dcd39487b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926019"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996904"
 ---
 # <a name="setlocalvar-macro-action"></a>Макрокоманда SetLocalVar
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -55,7 +54,6 @@ ms.locfileid: "25926019"
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Примечания
 
 Переменные, созданные **ЗадатьЛокПеременную** можно использовать только в макросе, в котором они определены. Действие **[SetTempVar](settempvar-macro-action.md)** используется для определения переменной, которая может использоваться в другого макроса в процедуре события или на форму или отчет.
@@ -64,8 +62,6 @@ ms.locfileid: "25926019"
 
 `=[LocalVars]![TotalAmount]`
 
-
 > [!NOTE]
-> <P>Макрос данных не нужно использовать коллекцию LocalVars для ссылки на переменную. К примеру при создании временную переменную в макросе данных с именем TotalAmount можно использовать переменной как источник элемента управления для текстового поля, используя следующий синтаксис<BR>= [TotalAmount]</P>
-
+> Макрос данных не нужно использовать коллекцию LocalVars для ссылки на переменную. К примеру, при создании временную переменную в макросе данных с именем TotalAmount можно использовать переменной как источник элемента управления для текстового поля, используя следующий синтаксис: `=[TotalAmount]`.
 

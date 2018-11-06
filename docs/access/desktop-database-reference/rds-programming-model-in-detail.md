@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b152715c104c9c3a4d503254d0dc36622e29006c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ea0f47e8ad86ecac4dd2423c289e3891cd7c6719
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943831"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998527"
 ---
 # <a name="rds-programming-model-in-detail"></a>Модель программирования служб удаленных рабочих СТОЛОВ подробно
 
@@ -62,8 +62,7 @@ ms.locfileid: "25943831"
 
 Служб удаленных рабочих СТОЛОВ поддерживается два свои собственные события, находящиеся вне зависимости от модели событий ADO. Событие [onReadyStateChange](onreadystatechange-event-rds.md) вызывается при каждом **RDS. DataControl** изменения свойств [ReadyState](readystate-property-rds.md) , таким образом о том, по завершении асинхронной операции успешно завершен или произошла ошибка. События [onError](onerror-event-rds.md) вызывается каждый раз, когда возникает ошибка, даже в том случае, если возникает ошибка во время выполнения асинхронной операции.
 
-
 > [!NOTE]
-> <P>Microsoft Internet Explorer предоставляет два дополнительных события для служб удаленных рабочих СТОЛОВ — <STRONG>onDataSetChanged</STRONG> ( <STRONG>записей</STRONG> функциональным, но по-прежнему извлечение строк) и <STRONG>onDataSetComplete</STRONG> ( <STRONG>записей</STRONG> закончит извлечение строк).</P>
+> Microsoft Internet Explorer предоставляет два дополнительных события для служб удаленных рабочих СТОЛОВ — **onDataSetChanged** ( **записей** функциональным, но по-прежнему извлечение строк) и **onDataSetComplete** ( **записей** закончит извлечение строк).
 
 

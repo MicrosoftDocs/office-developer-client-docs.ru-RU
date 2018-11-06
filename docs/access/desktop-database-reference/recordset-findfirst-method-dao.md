@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194787(v=office.15)
 ms:contentKeyID: 48545170
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 23f7609cb918ce1dc04c17d84178daf2ce43be31
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 489e6060fdbaa4183c006e3f422c207d9a5013ee
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925396"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998856"
 ---
 # <a name="recordsetfindfirst-method-dao"></a>Метод Recordset.FindFirst (DAO)
 
@@ -25,7 +25,7 @@ ms.locfileid: "25925396"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ ms.locfileid: "25925396"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Критерий</p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
 <td><p>Строка, используемая для поиска записи. Это предложение WHERE в инструкции SQL, но без слова like ГДЕ.</p></td>

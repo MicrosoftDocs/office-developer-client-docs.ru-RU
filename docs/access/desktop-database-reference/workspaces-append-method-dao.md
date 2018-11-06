@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845644(v=office.15)
 ms:contentKeyID: 48543498
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b3d53a26d4f60c0ef385af23d4cb074be2e101d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ac8e1c9624932bf24fb47cd8a038f60b5933dad7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927615"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997653"
 ---
 # <a name="workspacesappend-method-dao"></a>Метод Workspaces.Append (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25927615"
 
 *выражение* Переменная, которая представляет собой объект- **рабочие области** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25927615"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект</p></td>
+<td><p><em>Объект</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Объект</strong></p></td>
 <td><p>Объектная переменная, представляющий поле, добавленный в коллекцию.</p></td>

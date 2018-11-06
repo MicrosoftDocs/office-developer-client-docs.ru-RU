@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
 ms:contentKeyID: 48543398
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1208ac064c92e2e3793e8f2e3ceb4502cbfa4d6c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4956d9d2652ab8268a5f49a9b7edc63ebe2878c7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922008"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997985"
 ---
 # <a name="querydefconnect-property-dao"></a>Свойство QueryDef.Connect (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -157,12 +156,8 @@ ms.locfileid: "25922008"
 
 Для объекта **QueryDef** в рабочую область для Microsoft Access можно использовать свойство **подключение** с помощью свойства ReturnsRecords для создания запроса к серверу ODBC SQL. В оставшейся части строки содержит сведения, относящиеся к драйвера ODBC, используемого для доступа к удаленным данным databasetype строку подключения — «ODBC;» Для получения дополнительных сведений см драйвера.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Необходимо установить свойство <STRONG>подключение</STRONG> , прежде чем задать свойство <STRONG>ReturnsRecords</STRONG> .</P>
-> <LI>
-> <P>Необходимо иметь разрешения доступа на компьютере, где размещается сервер базы данных, который вы пытаетесь получить доступ к.</P></LI></UL>
+> - Необходимо установить свойство **подключение** , прежде чем задать свойство **ReturnsRecords** .
+> - Необходимо иметь разрешения доступа на компьютере, где размещается сервер базы данных, который вы пытаетесь получить доступ к.
 
 

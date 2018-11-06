@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd5b694906e8c0ac1f15329f4342586793e114ec
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1623b32a5ec52acd086bf028a5c1775daae989e8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946154"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997051"
 ---
 # <a name="operation-of-parameterized-commands"></a>Операция параметризованные команды
 
@@ -34,11 +34,8 @@ SHAPE {SELECT * FROM customer}
 
 Родительскими и дочерними таблицами иметь имя столбца в распространенных, клиент\_идентификатора *.* *Команда дочерних* имеет заполнитель «?», на который указывает ссылка предложения (то есть, «... ПАРАМЕТР, 0").
 
-
 > [!NOTE]
-> <P>Предложение параметр относится исключительно к синтаксис команды фигуры. Не связан с объектом ADO <A href="parameter-object-ado.md">параметр</A> или коллекцию <A href="parameters-collection-ado.md">параметров</A> .</P>
-
-
+> Предложение параметр относится исключительно к синтаксис команды фигуры. Не связан с объектом ADO [параметр](parameter-object-ado.md) или коллекцию [параметров](parameters-collection-ado.md) .
 
 При выполнении команды параметризованный фигуры, происходит следующее:
 
@@ -56,8 +53,7 @@ SHAPE {SELECT * FROM customer}
 
 Свойство динамического **Кэша дочерние строки** имеет значение **True** по умолчанию. Поведение кэширования, может изменяться в зависимости от значения параметров запроса. В запросе с одним параметром дочерних **записей** значение данного параметра будут кэшироваться между запросами для дочерних с соответствующими значениями. Это демонстрируется в следующем коде:
 
-```vb 
- 
+```vb
 ... 
 SCmd = "SHAPE {select * from customer} " & _ 
  "APPEND({select * from orders where cust_id = ?} " & _ 

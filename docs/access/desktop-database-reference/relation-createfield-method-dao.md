@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 564cbae4669a0405a0e33d0e9770bbaa8f6c9dfb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8de2072e96ec00cab96dac19bd1af5889acd883a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929484"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999038"
 ---
 # <a name="relationcreatefield-method-dao"></a>Метод Relation.CreateField (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25929484"
 
 *выражение* Переменная, которая представляет собой объект- **связи** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -45,19 +44,19 @@ ms.locfileid: "25929484"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Строка, уникальным образом новый объект <strong>поля</strong> . Свойство <strong><a href="connection-name-property-dao.md">Name</a></strong> для получения дополнительных сведений см на допустимый имена <strong>полей</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип</p></td>
+<td><p><em>Тип</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Аргумент не поддерживается для этого объекта.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Size</p></td>
+<td><p><em>Размер</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Аргумент не поддерживается для этого объекта.</p></td>
@@ -66,7 +65,7 @@ ms.locfileid: "25929484"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Поле
 

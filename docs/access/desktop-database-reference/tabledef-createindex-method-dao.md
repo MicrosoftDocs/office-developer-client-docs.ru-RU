@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 73b6fb5c5a4b0b91904c92a1b445ddc41cb7c73e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 429b64ae3909e320433b34d1426e396926fafba7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931346"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997478"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>Метод TableDef.CreateIndex (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013 
 
@@ -30,7 +29,7 @@ ms.locfileid: "25931346"
 
 *выражение* Переменная, которая представляет собой объект- **TableDef** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,7 +48,7 @@ ms.locfileid: "25931346"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Строка</strong> , уникальным образом новый объект <strong>индекса</strong> . Свойство <strong>Name</strong> для получения дополнительных сведений см допустимые имена <strong>индекса</strong> .</p></td>
@@ -58,7 +57,7 @@ ms.locfileid: "25931346"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Указатель
 

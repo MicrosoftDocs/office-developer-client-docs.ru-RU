@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052973
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 316dd9e8b430ba0dbb741bc1af81517749d84f77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7cf5a0e0a9d0cf3d3cd5ce2b89dc287b41c72f74
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921889"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998800"
 ---
 # <a name="recordset2percentposition-property-dao"></a>Свойство Recordset2.PercentPosition (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -34,11 +33,8 @@ ms.locfileid: "25921889"
 
 Чтобы указать или изменить приблизительно, например положения текущей записи в объекте **набора записей** , можно проверить или задайте для свойства **PercentPosition** . При работе с объектом **набора записей** добавляющий или моментальный снимок непосредственно из базовой таблицы заполните путем перемещения к последнему записи, прежде чем задать или свойство **PercentPosition** объекта **набора записей** . Если использовать свойство **PercentPosition** до полностью заполнения объекта **набора записей** , величину перемещения задается число записей, доступны как указано значение свойства **[RecordCount](recordset2-recordcount-property-dao.md)** . К последнему можно перемещать записи с помощью метода **[MoveLast](recordset2-movelast-method-dao.md)** .
 
-
 > [!NOTE]
-> <P>С помощью свойства <STRONG>PercentPosition</STRONG> для перемещения что текущей записи к определенной записи в объекте <STRONG>набора записей</STRONG> не recommended?the <STRONG><A href="recordset2-bookmark-property-dao.md">закладку</A></STRONG> свойство лучше всего подходит для этой задачи.</P>
-
-
+> Не рекомендуется использовать свойство **PercentPosition** Перемещение текущей записи к определенной записи в объекте **набора записей** . Свойство **[закладку](recordset2-bookmark-property-dao.md)** лучше всего подходит для этой задачи.
 
 После **PercentPosition** свойству присвоено значение, записи в приблизительно, например позиции, соответствующее значение, становится текущей и свойство **PercentPosition** сбрасывается в значение, которое отражает приблизительно, например положение текущего запись. Например если объекта **набора записей** содержит только пять записей и присвойте ему значение свойства **PercentPosition** для 77, значение, возвращенное свойством **PercentPosition** может быть 80, не 77.
 

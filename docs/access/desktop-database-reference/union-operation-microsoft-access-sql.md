@@ -12,15 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ed31f0105d8381667e1398fc5d91577d40998d81
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937423"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998821"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>Операции ОБЪЕДИНЕНИЯ (Microsoft Access SQL)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -69,15 +68,9 @@ WHERE OrderAmount > 1000;
 
 Используйте псевдонимы только в первой инструкции SELECT, так как они обрабатываются в любые другие пользователи. В предложение ORDER BY ссылаться на поля, как они называются в первом операторе SELECT.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Предложение <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> или <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> в каждый аргумент <EM>запроса</EM> можно использовать для группировки возвращаемые данные.</P>
-> <LI>
-> <P>Предложение <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> в конце последний аргумент <EM>запроса</EM> можно использовать для отображения возвращаемых данных в указанном порядке.</P></LI></UL>
-
-
+> - Предложение [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) или [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) в каждый аргумент *запроса* можно использовать для группировки возвращаемые данные.
+> - Предложение [ORDER BY](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql) в конце последний аргумент *запроса* можно использовать для отображения возвращаемых данных в указанном порядке.
 
 ## <a name="example"></a>Пример
 

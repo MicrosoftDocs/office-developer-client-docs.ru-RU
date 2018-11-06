@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249327(v=office.15)
 ms:contentKeyID: 48545100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bb0bb40d0f12bd9d5a6c8b29af1d4e27d806db87
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c6f1c7c65d0ac1dd2a6d3ea132a31955f175bc7f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882086"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997485"
 ---
 # <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Поставщик Microsoft OLE DB для публикации в Интернете
 
@@ -82,8 +82,6 @@ MSDAIPP.DSO
 
 Если задано значение *ResourceURL* из «URL-адрес =» в строке подключения недопустимое значение по умолчанию службу публикации в Интернете вызывает диалоговое окно запрашивать допустимое значение. Это нежелательное поведение компонента на среднем уровне приложения, так как приостанавливает выполнение программы, пока диалоговое окно будет удалена, и отображается клиента для закрепления, так как не получил ответа из компонента.
 
-
 > [!NOTE]
-> <P>Если MSDAIPP. DSO явным образом указаны как значение поставщика, либо с ключевым словом строки подключения <EM>поставщика</EM> или свойство <STRONG>поставщика</STRONG> , нельзя использовать «URL-адрес =» в строке подключения. В противном случае возникнет ошибка. Вместо этого просто укажите URL-адрес, как показано в разделе <A href="the-ole-db-provider-for-internet-publishing.md">С помощью ADO с помощью поставщика OLE DB для публикации Интернет</A>.</P>
-
+> Если MSDAIPP. DSO явным образом указаны как значение поставщика, либо с ключевым словом строки подключения *поставщика* или свойство **поставщика** , нельзя использовать «URL-адрес =» в строке подключения. В противном случае возникнет ошибка. Вместо этого просто укажите URL-адрес, как показано в разделе [С помощью ADO с помощью поставщика OLE DB для публикации Интернет](the-ole-db-provider-for-internet-publishing.md).
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
 ms:contentKeyID: 48547674
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a65bad49c7b9b7a7af91403b1119923b62daa04a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5c66c4e6b8fc43a27b2feb87e45ec436e3abfa49
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931248"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998919"
 ---
 # <a name="name-property-adox"></a>Свойство Name (ADOX)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -32,14 +31,8 @@ ms.locfileid: "25931248"
 
 Для чтения и записи объектов (**столбец**, **группы**, **ключ**, **индекса**, **таблицы** и **пользователь** ), значение по умолчанию — пустая строка (»»).
 
-
 > [!NOTE]
-> <P>Для клавиш это свойство соответствует на объекты <STRONG>ключ</STRONG> уже добавляется в конец коллекции только для чтения.</P>
-
-
-
-
-> [!NOTE]
-> <P>Для таблиц это свойство доступно только для чтения для объектов <STRONG>в таблице</STRONG> , уже добавляется в конец коллекции.</P>
+> - Для клавиш это свойство соответствует на объекты **ключ** уже добавляется в конец коллекции только для чтения.
+> - Для таблиц это свойство доступно только для чтения для объектов **в таблице** , уже добавляется в конец коллекции.
 
 

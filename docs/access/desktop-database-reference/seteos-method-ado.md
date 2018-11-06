@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
 ms:contentKeyID: 48547933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8eda32f026c0fb706f15da3760c3dba879aae9d6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b45e716844b3e616dfe5b8f94d69f29d6b0f1042
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928333"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997513"
 ---
 # <a name="seteos-method-ado"></a>Метод SetEOS (ADO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,8 +29,5 @@ ms.locfileid: "25928333"
 
 С момента [написания](write-method-ado.md), [WriteText](writetext-method-ado.md)и [CopyTo](copyto-method-ado.md) не удалять любые дополнительные значения в существующие объекты **потока** , задав новое место окончания потока с **SetEOS**можно усекать этих байт или символов.
 
-
 > [!WARNING]
-> <P>Если значение <STRONG>EOS</STRONG> позицию перед фактический конец потока, будут потеряны все данные после новую позицию <STRONG>EOS</STRONG> .</P>
-
-
+> Если значение **EOS** позицию перед фактический конец потока, будут потеряны все данные после новую позицию **EOS** .

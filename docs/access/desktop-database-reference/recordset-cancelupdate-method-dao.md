@@ -1,6 +1,6 @@
 ---
 title: Метод Recordset.CancelUpdate (DAO)
-TOCTitle: CancelUpdate Method
+TOCTitle: CancelUpdate method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836421(v=office.15)
 ms:contentKeyID: 48548590
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053072
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c75b98de62738e479b0bbb1608097f0f920cf60c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6cb9823cec79a31f8ae26b2518d4368f6eefe2ce
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926488"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999080"
 ---
 # <a name="recordsetcancelupdate-method-dao"></a>Метод Recordset.CancelUpdate (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25926488"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -49,15 +48,10 @@ ms.locfileid: "25926488"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Длинный</strong></p></td>
-<td><p>Установите одно из значений <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p>
-
-> [!NOTE]
-> <P>Значения <EM>dbUpdateRegular</EM> и <EM>dbUpdateBatch</EM> являются допустимыми только в том случае, если обновление пакета включен.</P>
-
-
+<td><p>Установите одно из значений <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Примечание</strong>: значения <EM>dbUpdateRegular</EM> и <EM>dbUpdateBatch</EM> действительны только в том случае, если обновление пакета включен.</p>
 </td>
 </tr>
 </tbody>
@@ -70,10 +64,8 @@ ms.locfileid: "25926488"
 
 Проверьте свойство **[EditMode](recordset-editmode-property-dao.md)** **набора записей** для определения ожидающие операции, которая может быть отменена.
 
-
 > [!NOTE]
-> <P>С помощью метода <STRONG>CancelUpdate</STRONG> имеет тот же эффект, как перейти к другой записи без с помощью метода <STRONG><A href="recordset-update-method-dao.md">Update</A></STRONG> , за исключением того, что текущей записи не изменяется и не обновляются различные свойства, такие как <STRONG><A href="recordset-bof-property-dao.md">BOF</A></STRONG> и <STRONG><A href="recordset-eof-property-dao.md">EOF</A></STRONG>.</P>
-
+> С помощью метода **CancelUpdate** имеет тот же эффект, как перейти к другой записи без с помощью метода **[Update](recordset-update-method-dao.md)** , за исключением того, что текущей записи не изменяется и не обновляются различные свойства, такие как **[BOF](recordset-bof-property-dao.md)** и **[EOF](recordset-eof-property-dao.md)**.
 
 
 ## <a name="example"></a>Пример

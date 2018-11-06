@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7bce54b0cf7e589641eff35c3cbed2bd54dbe3d2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: aa5a04ec08136dda637aabff15d89f81be6ecde8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923002"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998576"
 ---
 # <a name="recordsetclone-method-dao"></a>Метод Recordset.Clone (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25923002"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Набор записей
 
@@ -42,15 +41,9 @@ ms.locfileid: "25923002"
 
 С помощью метода **[Close](connection-close-method-dao.md)** исходной или повторяющихся объекта не влияет на другой объект. К примеру с помощью **Закрыть** на исходной **набора записей** не закройте копия.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Закрытие набора записей клонированной ожидающие транзакции будет отображено неявные операции <STRONG>отката</STRONG> .</P>
-> <LI>
-> <P>При клонировании объекта <STRONG>набора записей</STRONG> в таблице типа в рабочей области Microsoft Access значение свойства <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> не копируется в новую копию набора записей. Необходимо скопировать вручную значение свойства <STRONG>Index</STRONG> .</P></LI></UL>
-
-
+> - Закрытие набора записей клонированной ожидающие транзакции будет отображено неявные операции **отката** .
+> - При клонировании объекта **набора записей** в таблице типа в рабочей области Microsoft Access значение свойства **[Index](recordset2-index-property-dao.md)** не копируется в новую копию набора записей. Необходимо скопировать вручную значение свойства **Index** .
 
 ## <a name="example"></a>Пример
 

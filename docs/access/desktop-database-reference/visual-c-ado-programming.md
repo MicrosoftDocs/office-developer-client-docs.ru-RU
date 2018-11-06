@@ -1,20 +1,19 @@
 ---
-title: Программирование для ADO на Visual C++
-TOCTitle: Visual C++ ADO Programming
+title: Visual C++ ADO программирования
+TOCTitle: Visual C++ ADO programming
 ms:assetid: 117c4fad-8c11-5e3a-ea0c-18811e87475f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7478a90e3c6242c68a1325b08e998f4c76a62f3d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 5278a998363359f4bd2aad14881865505ce45633
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944664"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998415"
 ---
 # <a name="visual-c-ado-programming"></a>Visual C++ ADO программирования
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -114,7 +113,7 @@ rs->Fields->Item["au_fname"]->Value = "value";
 
 Исключения для этого правила — это типы данных, относящиеся к COM: **Variant**, **BSTR**и **SafeArray**.
 
-## <a name="variant"></a>Variant
+### <a name="variant"></a>Variant
 
 **Variant** — это тип структурированных данных, который содержит элемент значение и член типа данных. **Variant** может содержать большое число других типов данных, включая другого типа Variant, BSTR, логическое значение, IDispatch или IUnknown указатель, валюты, даты и т. д. COM также предоставляет методы, которые позволяют легко преобразования одного типа данных в другой.
 
@@ -124,7 +123,7 @@ rs->Fields->Item["au_fname"]->Value = "value";
 
 Это правило не явным образом значение true, если в разделе **Параметры** в разделах Справочник по API ADO говорит операнд **Variant**. Одно исключение — при документации явно сказано, что операнд принимает тип стандартных данных, таких как **длинный** или **байтов**или перечисление. Операнд принимает **строку**при еще одно исключение.
 
-## <a name="bstr"></a>BSTR
+### <a name="bstr"></a>BSTR
 
 **BSTR** (**B**asic **STR**ing) — это тип структурированных данных, который содержит строку символов и длина строки. COM предоставляет методы для выделения, работы с и без **BSTR**.
 
@@ -132,7 +131,7 @@ rs->Fields->Item["au_fname"]->Value = "value";
 
 Справочник по API ADO сказано, метод или свойство принимает значение типа **String** , означает значение задается в виде ** \_bstr\_t**.
 
-## <a name="casting-variantt-and-bstrt-classes"></a>Приведение \_variant\_t и \_bstr\_классы t
+#### <a name="casting-variantt-and-bstrt-classes"></a>Приведение \_variant\_t и \_bstr\_классы t
 
 Часто не требуется явно кода ** \_variant\_t** или ** \_bstr\_t** в аргумент для операции. Если ** \_variant\_t** или ** \_bstr\_t** класс содержит конструктор, который соответствует типу данных аргумента, а затем компилятор будет создавать соответствующий ** \_variant\_t** или ** \_ BSTR\_t**.
 
@@ -160,7 +159,7 @@ rs->Fields->Item["au_fname"]->Value = "value";
 
 Последний случай явно кодов второй аргумент boolean конструктора с его дополнительный параметр, по умолчанию значение true. Этот аргумент вызывает конструктор **типа Variant** , чтобы вызвать метод **AddRef**(), который компенсация ADO автоматически вызов ** \_variant\_t::Release**() метод при завершении вызова метод или свойство ADO.
 
-## <a name="safearray"></a>SafeArray
+### <a name="safearray"></a>SafeArray
 
 **SafeArray** — это тип структурированных данных, который содержит массив из других типов данных. **SafeArray** называется *безопасных* , так как он содержит сведения о границы каждого измерения массива и ограничения доступа к элементам массива в этих границах.
 
@@ -170,7 +169,7 @@ rs->Fields->Item["au_fname"]->Value = "value";
 
 В качестве примеров первый аргумент метода **поиска** является **Variant** , значение которого равно одномерный **массив SafeArray**; Каждый дополнительный первый и второй аргументы **AddNew** является одномерный **массив SafeArray**; а возвращаемое значение метода **получения строк** — **Variant** , значение которого равно двухмерных **SafeArray**.
 
-## <a name="missing-and-default-parameters"></a>Отсутствует и параметры по умолчанию
+## <a name="missing-and-default-parameters"></a>Параметры по умолчанию и отсутствует
 
 Visual Basic позволяет отсутствуют параметры в методах. К примеру метод **Open** объекта **набора записей** имеет пять параметров, но можно пропустить промежуточных параметров и не указывайте конечные параметры. В зависимости от типа операнд будет заменен по умолчанию **BSTR** или **Variant** .
 
@@ -210,11 +209,11 @@ pRecordset->NextRecordset(NULL);
 
 ** \#Импорта** директива создает только ошибки процедур обработки для методов и свойств, объявленных в ADO DLL-файл. Тем не менее вы можете воспользоваться преимуществами эта же ошибка механизм обработки, создав собственный макрос или встроенной функции проверки ошибок. Просмотрите раздел, [Расширений Visual C++](visual-c-extensions-for-ado.md)или код в следующих разделах приведены примеры.
 
-## <a name="visual-c-equivalents-of-visual-basic-conventions"></a>Соглашения по Visual Basic, эквивалентные Visual C++
+## <a name="visual-c-equivalents-of-visual-basic-conventions"></a>Visual C++ эквиваленты соглашения по Visual Basic
 
 Ниже приводится сводка по несколько условные обозначения в документации по ADO, закодированный в Visual Basic, а также их эквивалентами в Visual C++.
 
-## <a name="declaring-an-ado-object"></a>Объявление объекта ADO
+### <a name="declaring-an-ado-object"></a>Объявление объекта ADO
 
 В Visual Basic ADO объектной переменной (в данном случае для объекта **набора записей** ) объявляется следующим образом:
 
@@ -279,7 +278,9 @@ rs->Open(...);
 
 По одной переменной можно использовать двумя способами, так как «-\>"оператор перегрузить чтобы экземпляр класса для обрабатываются как указатель на интерфейс. Закрытый класс элемент переменной экземпляра содержит указатель на ** \_записей** интерфейса; «-\>"оператор возвращает этот указатель; и возвращенный указатель обращается к членов ** \_записей** объекта.
 
-## <a name="coding-a-missing-parameter"></a>Создание кода отсутствующий параметр
+### <a name="coding-a-missing-parameter"></a>Создание кода отсутствующий параметр
+
+#### <a name="string"></a>Строка
 
 При необходимости кода операнд **строки** в Visual Basic, просто опустить операнд. Необходимо указать операнд в Visual C++. Код ** \_bstr\_t** , которая имеет пустую строку как значение.
 
@@ -288,7 +289,7 @@ rs->Open(...);
 _bstr_t strMissing(L""); 
 ```
 
-## <a name="coding-a-missing-parameter"></a>Создание кода отсутствующий параметр
+#### <a name="variant"></a>Variant
 
 При необходимости кода операнд **Variant** в Visual Basic, просто опустить операнд. Необходимо указать все операнды в Visual C++. Код отсутствующий параметр **типа Variant** с ** \_variant\_t** специальные значение Отображать\_E\_PARAMNOTFOUND и тип, VT\_ошибка. Кроме того, укажите **vtMissing**, который является эквивалент предопределенные константы в телефонном ** \#импорта** директивы.
 
@@ -304,7 +305,7 @@ _variant_t vtMissingYours(DISP_E_PARAMNOTFOUND, VT_ERROR);
 ...vtMissing...; 
 ```
 
-## <a name="declaring-a-variant"></a>Объявление типа Variant
+### <a name="declaring-a-variant"></a>Объявление типа variant
 
 В Visual Basic **Variant** объявлен с помощью оператора **Dim** следующим образом:
 
@@ -315,11 +316,8 @@ Dim VariableName As Variant
 
 В Visual C++ объявлении переменной в качестве типа ** \_variant\_t**. Несколько схема ** \_variant\_t** ниже показаны объявления.
 
-
 > [!NOTE]
-> <P>Эти объявления просто присвойте приблизительное представление об бы кода в собственную программу. Для получения дополнительных сведений см. в приведенных ниже примерах и документации по Visual C++.</P>
-
-
+> Эти объявления просто присвойте приблизительное представление об бы кода в собственную программу. Для получения дополнительных сведений см. в приведенных ниже примерах и документации по Visual C++.
 
 ```cpp 
  
@@ -329,7 +327,7 @@ _variant_t VariableName(value, VT_DATATYPE);
 _variant_t VariableName(interface * value, bool fAddRef = true); 
 ```
 
-## <a name="using-arrays-of-variants"></a>Использование массивов вариантов
+### <a name="using-arrays-of-variants"></a>Использование массивов вариантов
 
 В Visual Basic массивов **вариантов** можно закодировать с помощью оператора **Dim** , или можно использовать функцию **массива** , как показано в следующем примере кода:
 
@@ -353,100 +351,96 @@ End Sub
 
 В следующем примере Visual C++ демонстрируется использование **SafeArray** используется с ** \_variant\_t**.
 
-
 > [!NOTE]
-> <P>Следующие замечания соответствуют закомментированного разделов в примере кода.</P>
+> Следующие замечания соответствуют закомментированного разделов в примере кода.
 
+1. Еще раз чтобы воспользоваться преимуществами существующего механизм обработки ошибок определяется встроенная функция TESTHR().
 
-
-1.  Еще раз чтобы воспользоваться преимуществами существующего механизм обработки ошибок определяется встроенная функция TESTHR().
-
-2.  Одномерный массив, требуется только в том случае, поэтому **SafeArrayCreateVector**, можно использовать вместо объявления **SAFEARRAYBOUND** общего назначения и функции **SafeArrayCreate** . Ниже приведен код будет выглядеть как с помощью **SafeArrayCreate**.
+2. Одномерный массив, требуется только в том случае, поэтому **SafeArrayCreateVector**, можно использовать вместо объявления **SAFEARRAYBOUND** общего назначения и функции **SafeArrayCreate** . Ниже приведен код будет выглядеть как с помощью **SafeArrayCreate**.
     
-    ```cpp 
+   ```cpp 
      
      SAFEARRAYBOUND sabound[1]; 
      sabound[0].lLbound = 0; 
      sabound[0].cElements = 4; 
      pSa = SafeArrayCreate(VT_VARIANT, 1, sabound); 
-    ```
+   ```
 
-3.  Схемы, определяемую средством константа перечисления **adSchemaColumns**связан с четыре столбца ограничение: таблица\_КАТАЛОГА, в ТАБЛИЦЕ\_СХЕМЫ, таблица\_имя и столбец\_имя. Таким образом создается массив значений **Variant** с четырьмя элементами. Выберите ограничение по значению, соответствующий третьего столбца в ТАБЛИЦЕ\_имя, указано. **Набор записей** , который возвращается состоит из нескольких столбцов, подмножество из которых представляет столбцы ограничений. Значения столбцов ограничения для каждой строки набора должно совпадать с соответствующие значения ограничения.
+3. Схемы, определяемую средством константа перечисления **adSchemaColumns**связан с четыре столбца ограничение: таблица\_КАТАЛОГА, в ТАБЛИЦЕ\_СХЕМЫ, таблица\_имя и столбец\_имя. Таким образом создается массив значений **Variant** с четырьмя элементами. Выберите ограничение по значению, соответствующий третьего столбца в ТАБЛИЦЕ\_имя, указано. **Набор записей** , который возвращается состоит из нескольких столбцов, подмножество из которых представляет столбцы ограничений. Значения столбцов ограничения для каждой строки набора должно совпадать с соответствующие значения ограничения.
 
-4.  Те, которые знакомы с **объекты SAFEARRAY** может получать уведомления, что ( **SafeArrayDestroy**) не вызывается до завершения. На самом деле вызов ( **SafeArrayDestroy**) в этом случае вызовет исключение во время выполнения. Причина в том, что деструктор vtCriteria выполняется звонок ( **VariantClear**) при ** \_variant\_t** выходит за область, в которой будет освободить **SafeArray**. Вызов **SafeArrayDestroy**без вручную очистка ** \_variant\_t**, вызовет деструктор для снимите недопустимый указатель **SafeArray** . Если вызов **SafeArrayDestroy** , код будет выглядеть следующим образом:
+4. Те, которые знакомы с **объекты SAFEARRAY** может получать уведомления, что ( **SafeArrayDestroy**) не вызывается до завершения. На самом деле вызов ( **SafeArrayDestroy**) в этом случае вызовет исключение во время выполнения. Причина в том, что деструктор vtCriteria выполняется звонок ( **VariantClear**) при ** \_variant\_t** выходит за область, в которой будет освободить **SafeArray**. Вызов **SafeArrayDestroy**без вручную очистка ** \_variant\_t**, вызовет деструктор для снимите недопустимый указатель **SafeArray** . Если вызов **SafeArrayDestroy** , код будет выглядеть следующим образом:
     
-    ```cpp 
+   ```cpp 
      
      TESTHR(SafeArrayDestroy(pSa)); 
      vtCriteria.vt = VT_EMPTY; 
      vtCriteria.parray = NULL; 
-    ```
+   ```
     
-    Тем не менее, гораздо проще let ** \_variant\_t** управление **SafeArray**.
+   Тем не менее, гораздо проще let ** \_variant\_t** управление **SafeArray**.
 
-<!-- end list -->
 
 ```cpp 
  
-#import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
-#include <stdio.h> 
- 
-// Note 1 
-inline void TESTHR( HRESULT _hr ) 
- { if FAILED(_hr) _com_issue_error(_hr); } 
- 
-void main(void) 
-{ 
- CoInitialize(NULL); 
- try 
- { 
- _RecordsetPtr pRs("ADODB.Recordset"); 
- _ConnectionPtr pCn("ADODB.Connection"); 
- _variant_t vtTableName("authors"), 
- vtCriteria; 
- long ix[1]; 
- SAFEARRAY *pSa = NULL; 
- 
- pCn->Open("DSN=pubs;User ID=MyUserId;pwd=MyPassword;Provider=MSDASQL;", "", "", 
- adConnectUnspecified); 
-// Note 2, Note 3 
- pSa = SafeArrayCreateVector(VT_VARIANT, 1, 4); 
- if (!pSa) _com_issue_error(E_OUTOFMEMORY); 
- 
-// Specify TABLE_NAME in the third array element (index of 2). 
- 
- ix[0] = 2; 
- TESTHR(SafeArrayPutElement(pSa, ix, &vtTableName)); 
- 
-// There is no Variant constructor for a SafeArray, so manually set the 
-// type (SafeArray of Variant) and value (pointer to a SafeArray). 
- 
- vtCriteria.vt = VT_ARRAY | VT_VARIANT; 
- vtCriteria.parray = pSa; 
- 
- pRs = pCn->OpenSchema(adSchemaColumns, vtCriteria, vtMissing); 
- 
- long limit = pRs->GetFields()->Count; 
- for (long x = 0; x < limit; x++) 
- printf("%d: %s\n", x+1, 
- ((char*) pRs->GetFields()->Item[x]->Name)); 
-// Note 4 
- pRs->Close(); 
- pCn->Close(); 
- } 
- catch (_com_error &e) 
- { 
- printf("Error:\n"); 
- printf("Code = %08lx\n", e.Error()); 
- printf("Code meaning = %s\n", (char*) e.ErrorMessage()); 
- printf("Source = %s\n", (char*) e.Source()); 
- printf("Description = %s\n", (char*) e.Description()); 
- } 
- CoUninitialize(); 
-} 
+    #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
+    #include <stdio.h> 
+    
+    // Note 1 
+    inline void TESTHR( HRESULT _hr ) 
+    { if FAILED(_hr) _com_issue_error(_hr); } 
+    
+    void main(void) 
+    { 
+    CoInitialize(NULL); 
+    try 
+    { 
+    _RecordsetPtr pRs("ADODB.Recordset"); 
+    _ConnectionPtr pCn("ADODB.Connection"); 
+    _variant_t vtTableName("authors"), 
+    vtCriteria; 
+    long ix[1]; 
+    SAFEARRAY *pSa = NULL; 
+    
+    pCn->Open("DSN=pubs;User ID=MyUserId;pwd=MyPassword;Provider=MSDASQL;", "", "", 
+    adConnectUnspecified); 
+    // Note 2, Note 3 
+    pSa = SafeArrayCreateVector(VT_VARIANT, 1, 4); 
+    if (!pSa) _com_issue_error(E_OUTOFMEMORY); 
+    
+    // Specify TABLE_NAME in the third array element (index of 2). 
+    
+    ix[0] = 2; 
+    TESTHR(SafeArrayPutElement(pSa, ix, &vtTableName)); 
+    
+    // There is no Variant constructor for a SafeArray, so manually set the 
+    // type (SafeArray of Variant) and value (pointer to a SafeArray). 
+    
+    vtCriteria.vt = VT_ARRAY | VT_VARIANT; 
+    vtCriteria.parray = pSa; 
+    
+    pRs = pCn->OpenSchema(adSchemaColumns, vtCriteria, vtMissing); 
+    
+    long limit = pRs->GetFields()->Count; 
+    for (long x = 0; x < limit; x++) 
+    printf("%d: %s\n", x+1, 
+    ((char*) pRs->GetFields()->Item[x]->Name)); 
+    // Note 4 
+    pRs->Close(); 
+    pCn->Close(); 
+    } 
+    catch (_com_error &e) 
+    { 
+    printf("Error:\n"); 
+    printf("Code = %08lx\n", e.Error()); 
+    printf("Code meaning = %s\n", (char*) e.ErrorMessage()); 
+    printf("Source = %s\n", (char*) e.Source()); 
+    printf("Description = %s\n", (char*) e.Description()); 
+    } 
+    CoUninitialize(); 
+    } 
 ```
 
-## <a name="using-property-getputputref"></a>С помощью свойства Get и Put/PutRef
+### <a name="using-property-getputputref"></a>С помощью свойства Get и Put/PutRef
 
 В Visual Basic имя свойства не дополняется ли его получить, назначенных или назначенных ссылку.
 
@@ -469,17 +463,14 @@ void main(void)
 
 В этом примере Visual C++ демонстрируется **Начало**/**поместить**/**PutRef *** свойство*.
 
-
 > [!NOTE]
 > Следующие замечания соответствуют закомментированного разделов в примере кода.
 
+1. В этом примере используется два вида отсутствует строковый аргумент: явные константа, **strMissing**и строку, компилятор будет использовать для создания временного ** \_bstr\_t** , которая будет присутствовать для области метода **Open** .
 
-
-1.  В этом примере используется два вида отсутствует строковый аргумент: явные константа, **strMissing**и строку, компилятор будет использовать для создания временного ** \_bstr\_t** , которая будет присутствовать для области метода **Open** .
-
-2.  Нет необходимости привести операнд rs -\>PutRefActiveConnection(cn) для (IDispatch \*), так как тип операнда уже (IDispatch \*).
+2. Нет необходимости привести операнд rs -\>PutRefActiveConnection(cn) для (IDispatch \*), так как тип операнда уже (IDispatch \*).
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
     #include <stdio.h> 
@@ -524,9 +515,9 @@ void main(void)
      } 
      ::CoUninitialize(); 
     } 
-    ```
+   ```
 
-## <a name="using-getitemx-and-itemx"></a>С помощью GetItem(x) и элемента\[x\]
+### <a name="using-getitemx-and-itemx"></a>С помощью GetItem(x) и элемента\[x\]
 
 В этом примере Visual Basic демонстрируется стандартный и альтернативный синтаксис ( **элемент**).
 
@@ -551,15 +542,12 @@ End Sub
 
 В этом примере Visual C++ **элемента**.
 
-
 > [!NOTE]
-> <P>Следующее примечание соответствует комментариев для разделов в примере кода.</P>
+> Следующее примечание соответствует комментариев для разделов в примере кода.
 
-
-
-1.  При доступе к коллекции с помощью **элемента**, индекса, **2**, необходимо привести к **времени** , вызывается соответствующий конструктор.
+1. При доступе к коллекции с помощью **элемента**, индекса, **2**, необходимо привести к **времени** , вызывается соответствующий конструктор.
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
     #include <stdio.h> 
@@ -600,23 +588,20 @@ End Sub
      } 
      ::CoUninitialize(); 
     } 
-    ```
+   ```
 
-## <a name="casting-ado-object-pointers-with-idispatch-"></a>Приведение указатели объект ADO с (IDispatch \*)
+### <a name="casting-ado-object-pointers-with-idispatch-"></a>Приведение указатели объект ADO с (IDispatch \*)
 
 В следующем примере Visual C++ демонстрируется использование (IDispatch \*) для приведения указателей объектов ADO.
 
-
 > [!NOTE]
-> <P>Следующие замечания соответствуют закомментированного разделов в примере кода.</P>
+> Следующие замечания соответствуют закомментированного разделов в примере кода.
 
+1. Укажите open объекта **подключения** в явным образом закодированный **Variant**. Привести его с (IDispatch \*), будет вызываться надлежащий конструктор. Также, необходимо явно задать второй ** \_variant\_t** параметр со значением по умолчанию **значение true**, поэтому счетчик ссылок объекта будет правильный после завершения операции **Recordset::Open** .
 
-
-1.  Укажите open объекта **подключения** в явным образом закодированный **Variant**. Привести его с (IDispatch \*), будет вызываться надлежащий конструктор. Также, необходимо явно задать второй ** \_variant\_t** параметр со значением по умолчанию **значение true**, поэтому счетчик ссылок объекта будет правильный после завершения операции **Recordset::Open** .
-
-2.  Выражение (\_bstr\_t), не является приведения, но ** \_variant\_t** оператор, который извлекает ** \_bstr\_t** строку из **типа Variant** , возвращенное **значение**. Выражение (символ\*), не является приведения, но ** \_bstr\_t** оператор, который извлекает указатель инкапсулированное строку в ** \_bstr\_t** объекта. В этом разделе кода показаны некоторые полезные поведения ** \_variant\_t** и ** \_bstr\_t** операторы.
+2. Выражение (\_bstr\_t), не является приведения, но ** \_variant\_t** оператор, который извлекает ** \_bstr\_t** строку из **типа Variant** , возвращенное **значение**. Выражение (символ\*), не является приведения, но ** \_bstr\_t** оператор, который извлекает указатель инкапсулированное строку в ** \_bstr\_t** объекта. В этом разделе кода показаны некоторые полезные поведения ** \_variant\_t** и ** \_bstr\_t** операторы.
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
      
@@ -655,5 +640,5 @@ End Sub
      } 
     ::CoUninitialize(); 
     } 
-    ```
+   ```
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052994
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 41260e801be8ebd43d89f9f495f236ff60582a56
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4eb1a961a91bf32a69154a1f0e7b734dd00f24b6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930065"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998898"
 ---
 # <a name="propertyvalue-property-dao"></a>Свойство Property.Value (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -40,8 +39,7 @@ ms.locfileid: "25930065"
 
 Попытка установить или возвратить **значение** свойства в недопустимом контексте (например, свойство **Value** объекта **поля** в коллекцию **полей** объекта **TableDef** ) будет отображено перехватываемые ошибки.
 
-
 > [!NOTE]
-> <P>При чтении десятичные значения из базы данных Microsoft SQL Server, они будут иметь формат с помощью научное обозначение через рабочую область для Microsoft Access, но оно отображается как обычный десятичных значений с помощью технология ODBCDirect рабочей области.</P>
+> При чтении десятичные значения из базы данных Microsoft SQL Server, они будут иметь формат с помощью научное обозначение через рабочую область для Microsoft Access, но оно отображается как обычный десятичных значений с помощью технология ODBCDirect рабочей области.
 
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1101187
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f1d587501cb9a3279db055b9eee27d765e002a03
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a30c9d12de32f4137e3bb365254445f96e8b03c6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925942"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998786"
 ---
 # <a name="querydefprepare-property-dao"></a>Свойство QueryDef.Prepare (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -36,11 +35,8 @@ ms.locfileid: "25925942"
 
 Если **Подготовка** **dbQPrepare**, это можно переопределить при выполнении запроса путем установки для параметра **dbExecDirect**аргумент параметры метода **[Execute](querydef-execute-method-dao.md)** .
 
-
 > [!NOTE]
-> <P>Как только свойству DAO <STRONG><A href="querydef-sql-property-dao.md">SQL</A></STRONG> называется ODBC <STRONG>SQLPrepare</STRONG> API. Таким образом Если вы хотите повысить производительность с помощью параметра <STRONG>dbQUnprepare</STRONG> , необходимо установить свойство <STRONG>подготовить</STRONG> перед установкой <STRONG>SQL</STRONG> .</P>
-
-
+> Как только свойству DAO **[SQL](querydef-sql-property-dao.md)** называется ODBC **SQLPrepare** API. Таким образом Если вы хотите повысить производительность с помощью параметра **dbQUnprepare** , необходимо установить свойство **подготовить** перед установкой **SQL** .
 
 ## <a name="example"></a>Пример
 

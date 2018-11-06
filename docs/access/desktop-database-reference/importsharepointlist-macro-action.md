@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm152234
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e8b1e32eca6862645fc4f9c3b9021258e805dc8c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f01899833b4cf0537a4437a643f2aeedf99e586c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921322"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996918"
 ---
 # <a name="importsharepointlist-macro-action"></a>Макрокоманда ImportSharePointList
 
@@ -24,9 +24,7 @@ ms.locfileid: "25921322"
 Действие **ImportSharePointList** можно использовать для импорта данных с сайта Microsoft SharePoint Foundation.
 
 > [!NOTE]
-> 
-		Эта действие не разрешено, если база данных не является доверенной. Дополнительные сведения о включении макросов см. по ссылкам в разделе See Also этой статьи.
-
+> Это действие не разрешено, если база данных не является доверенной. 
 
 ## <a name="setting"></a>Параметр
 

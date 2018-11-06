@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29d3485526b4adb5084b7dd8277b0c93d664af47
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 359816f828191a8643941a21ac520ba7b3231e6b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944657"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998205"
 ---
 # <a name="hellodata-a-simple-ado-application"></a>HelloData: Простого ADO приложения
 
@@ -33,11 +33,8 @@ ms.locfileid: "25944657"
 
 5.  И, наконец скопируйте код, приведенный в [HelloData код](hellodata-code.md) и вставьте его в окно редактора кода формы. Нажмите клавишу **F5** , чтобы запустить код.
 
-
 > [!NOTE]
-> <P>В следующем примере и в руководстве идентификатор пользователя «Мой_идентификатор» пароль «123aBc» используется для проверки подлинности на сервере. Необходимо заменить эти значения с действительные учетные данные для сервера. Кроме того замените «MyServer» значение с именем сервера.</P>
-
-
+> В следующем примере и в руководстве идентификатор пользователя «Мой_идентификатор» пароль «123aBc» используется для проверки подлинности на сервере. Необходимо заменить эти значения с действительные учетные данные для сервера. Кроме того замените «MyServer» значение с именем сервера.
 
 Подробное описание код ознакомиться с [Подробными сведениями HelloData](hellodata-details.md).
 

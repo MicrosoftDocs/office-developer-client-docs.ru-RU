@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e7bd39d3329c83ec2a26fbef11e3a3b4e51e760
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 95b12df62fe47779c1867a291018726ada299390
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921307"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998933"
 ---
 # <a name="indexclustered-property-dao"></a>Свойство Index.Clustered (DAO)
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -38,12 +37,8 @@ ms.locfileid: "25921307"
 
 Свойство **Clustered** — чтение и запись для нового объекта **индекс** еще не добавлены в семейство сайтов и только для чтения для существующего объекта **индексу** в коллекции **индексов** .
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Базами данных, ядро базы данных Microsoft Access игнорировать свойство <STRONG>Clustered</STRONG> ядро базы данных Microsoft Access поддерживает кластеризованных индексов.</P>
-> <LI>
-> <P>Для источников данных ODBC <STRONG>Clustered</STRONG> свойство всегда возвращает <STRONG>значение False</STRONG>; не удается обнаружить ли источник данных ODBC имеет кластеризованных индекса.</P></LI></UL>
+> - Базами данных, ядро базы данных Microsoft Access игнорировать свойство **Clustered** ядро базы данных Microsoft Access поддерживает кластеризованных индексов.
+> - Для источников данных ODBC **Clustered** свойство всегда возвращает **значение False**; не удается обнаружить ли источник данных ODBC имеет кластеризованных индекса.
 
 

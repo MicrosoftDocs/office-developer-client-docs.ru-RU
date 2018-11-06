@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fafccd704e1528ece69a86a5955bcb040dc24cbf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b19cf0819353dbe4d6cdb017faf0e38b3bfb7757
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928770"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997009"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>Метод TableDef.CreateField (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25928770"
 
 *выражение* Переменная, которая представляет собой объект- **TableDef** .
 
-### <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Параметры
 
 <table>
 <colgroup>
@@ -48,19 +48,19 @@ ms.locfileid: "25928770"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Имя</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Строка, уникальным образом новый объект <strong>поля</strong> . Свойство <strong><a href="connection-name-property-dao.md">Name</a></strong> для получения дополнительных сведений см на допустимый имена <strong>полей</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип</p></td>
+<td><p><em>Тип</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа, которая определяет тип данных на новый объект <strong>поля</strong> . В разделе свойства <strong><a href="field-type-property-dao.md">Type</a></strong> для типов данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Size</p></td>
+<td><p><em>Размер</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Целое число, которое указывает максимальный размер в байтах, объект <strong>поля</strong> , который содержит текст. В разделе <strong><a href="field-size-property-dao.md">свойства Size для значений допустимый размер</a></strong> . Этот аргумент игнорируется для полей числовые и половинной ширины.</p></td>
@@ -69,7 +69,7 @@ ms.locfileid: "25928770"
 </table>
 
 
-### <a name="return-value"></a>Возвращаемое значение
+## <a name="return-value"></a>Возвращаемое значение
 
 Поле
 

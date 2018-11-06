@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248955(v=office.15)
 ms:contentKeyID: 48543546
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5116adbf68e4e98c7fbda8285348e00638465742
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: bf4c442ecd7cbce740df69d60b5ec3e1e405a412
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946274"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997856"
 ---
 # <a name="recordset-positioning"></a>Размещение набора записей
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -24,8 +23,7 @@ ms.locfileid: "25946274"
 
 Если задать свойство **AbsolutePosition** даже в том случае, если это записи в текущей кэш-памяти, ADO перезагружает кэша с новой группы записей, начиная с указанной записи. Свойство **CacheSize** определяет размер этой группы.
 
-
 > [!NOTE]
-> <P>Не следует использовать свойство <STRONG>AbsolutePosition</STRONG> как номер заменяющего записи. Положение данной записи изменений при удалении предыдущей записи. Кроме того, не Software assurance, что данной записи будут иметь же <STRONG>AbsolutePosition</STRONG> , если опросить или повторном открытии в объект <STRONG>набора записей</STRONG> . Закладки являются рекомендуемый способ сохранения и возврата в заданной позиции и являются единственным способом размещения для всех типов объектов <STRONG>наборов записей</STRONG> .</P>
+> Не следует использовать свойство **AbsolutePosition** как номер заменяющего записи. Положение данной записи изменений при удалении предыдущей записи. Кроме того, не Software assurance, что данной записи будут иметь же **AbsolutePosition** , если опросить или повторном открытии в объект **набора записей** . Закладки являются рекомендуемый способ сохранения и возврата в заданной позиции и являются единственным способом размещения для всех типов объектов **наборов записей** .
 
 
