@@ -362,34 +362,34 @@ items:
           items:
           - name: Изменения в Access
             href: access/desktop-database-reference/changes-in-access.md
-          - name: Преобразование таблиц, форм и отчетов Microsoft Access
-            href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
           - name: Преобразование кода DAO в ADO
             href: access/desktop-database-reference/converting-dao-code-to-ado.md
+          - name: Преобразование таблиц, форм и отчетов
+            href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
         - name: Лента
           href: access/desktop-database-reference/ribbon.md
           items:
-          - name: Скрытие ленты при запуске Access
-            href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md
           - name: Применение пользовательской ленты к форме или отчету
             href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-to-a-form-or-report.md
           - name: Применение пользовательской ленты при запуске Access
             href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-when-starting-access.md
+          - name: Скрытие ленты при запуске Access
+            href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md
         - name: Работа с другими приложениями
           href: access/desktop-database-reference/working-with-other-applications-access.md
           items:
           - name: Автоматизация в Microsoft Access
             href: access/desktop-database-reference/automation-with-microsoft-access.md
-          - name: Использование Microsoft Access в качестве сервера DDE
-            href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
           - name: Использование объектов данных ActiveX
             href: access/desktop-database-reference/using-activex-data-objects.md
+          - name: Использование Microsoft Access в качестве сервера DDE
+            href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
         - name: Установка свойств форм, отчетов и элементов управления
           href: access/desktop-database-reference/set-form-report-and-control-properties.md
       - name: Справочник по Microsoft DAO
         href: access/desktop-database-reference/microsoft-data-access-objects-reference.md
         items:
-        - name: Объект ComplexType
+        - name: ComplexType
           href: access/desktop-database-reference/complextype-object-reference-dao.md
           items:
           - name: Объект ComplexType
@@ -401,7 +401,7 @@ items:
             items:
             - name: Свойство Fields
               href: access/desktop-database-reference/complextype-fields-property-dao.md
-        - name: Объект Connection
+        - name: Connection
           href: access/desktop-database-reference/connection-object-reference-dao.md
           items:
           - name: Объект Connection
@@ -444,7 +444,7 @@ items:
               href: access/desktop-database-reference/connection-execute-method-dao.md
             - name: Метод OpenRecordset
               href: access/desktop-database-reference/connection-openrecordset-method-dao.md
-        - name: Объект Connections
+        - name: Connections
           href: access/desktop-database-reference/connections-object-reference-dao.md
           items:
           - name: Коллекция Connections
@@ -461,7 +461,7 @@ items:
             items:
             - name: Метод Refresh
               href: access/desktop-database-reference/connections-refresh-method-dao.md
-        - name: Объект Container
+        - name: Container
           href: access/desktop-database-reference/container-object-reference-dao.md
           items:
           - name: Объект Container
@@ -477,7 +477,7 @@ items:
               href: access/desktop-database-reference/container-name-property-dao.md
             - name: Свойство Properties
               href: access/desktop-database-reference/container-properties-property-dao.md
-        - name: Объект Containers
+        - name: Containers
           href: access/desktop-database-reference/containers-object-reference-dao.md
           items:
           - name: Объект Containers
@@ -494,7 +494,7 @@ items:
             items:
             - name: Метод Refresh
               href: access/desktop-database-reference/containers-refresh-method-dao.md
-        - name: Объект Database
+        - name: Database
           href: access/desktop-database-reference/database-object-reference-dao.md
           items:
           - name: Объект Database
@@ -563,7 +563,7 @@ items:
               href: access/desktop-database-reference/database-populatepartial-method-dao.md
             - name: Метод Synchronize
               href: access/desktop-database-reference/database-synchronize-method-dao.md
-        - name: Объект Databases
+        - name: Databases
           href: access/desktop-database-reference/databases-object-reference-dao.md
           items:
           - name: Коллекция Databases
@@ -580,7 +580,7 @@ items:
             items:
             - name: Метод Refresh
               href: access/desktop-database-reference/databases-refresh-method-dao.md
-        - name: Объект DBEngine
+        - name: DBEngine
           href: access/desktop-database-reference/dbengine-object-reference-dao.md
           items:
           - name: Объект DBEngine
@@ -633,7 +633,7 @@ items:
               href: access/desktop-database-reference/dbengine-rollback-method-dao.md
             - name: Метод SetOption
               href: access/desktop-database-reference/dbengine-setoption-method-dao.md
-        - name: Объект Document
+        - name: Document
           href: access/desktop-database-reference/document-object-reference-dao.md
           items:
           - name: Объект Document
@@ -658,7 +658,7 @@ items:
             items:
             - name: Метод CreateProperty
               href: access/desktop-database-reference/document-createproperty-method-dao.md
-        - name: Объект Documents
+        - name: Documents
           href: access/desktop-database-reference/documents-object-reference-dao.md
           items:
           - name: Коллекция Documents
@@ -675,7 +675,7 @@ items:
             items:
             - name: Метод Refresh
               href: access/desktop-database-reference/documents-refresh-method-dao.md
-        - name: Объект Error
+        - name: Error
           href: access/desktop-database-reference/error-object-reference-dao.md
           items:
           - name: Объект Error
@@ -691,7 +691,7 @@ items:
               href: access/desktop-database-reference/error-number-property-dao.md
             - name: Свойство Source
               href: access/desktop-database-reference/error-source-property-dao.md
-        - name: Объект Errors
+        - name: Errors
           href: access/desktop-database-reference/errors-object-reference-dao.md
           items:
           - name: Коллекция Errors
@@ -708,7 +708,7 @@ items:
             items:
             - name: Метод Refresh
               href: access/desktop-database-reference/errors-refresh-method-dao.md
-        - name: Объект Field
+        - name: Field
           href: access/desktop-database-reference/field-object-reference-dao.md
           items:
           - name: Объект Field
@@ -769,7 +769,7 @@ items:
               href: access/desktop-database-reference/field-createproperty-method-dao.md
             - name: Метод GetChunk
               href: access/desktop-database-reference/field-getchunk-method-dao.md
-        - name: Объект Field2
+        - name: Field2
           href: access/desktop-database-reference/field2-object-reference-dao.md
           items:
           - name: Объект Field2
@@ -842,7 +842,7 @@ items:
               href: access/desktop-database-reference/field2-loadfromfile-method-dao.md
             - name: Метод SaveToFile
               href: access/desktop-database-reference/field2-savetofile-method-dao.md
-        - name: Объект Fields
+        - name: Fields
           href: access/desktop-database-reference/fields-object-reference-dao.md
           items:
           - name: Коллекция Fields
@@ -863,7 +863,7 @@ items:
               href: access/desktop-database-reference/fields-delete-method-dao.md
             - name: Метод Refresh
               href: access/desktop-database-reference/fields-refresh-method-dao.md
-        - name: Объект Index
+        - name: Index
           href: access/desktop-database-reference/index-object-reference-dao.md
           items:
           - name: Объект Index
@@ -900,7 +900,7 @@ items:
               href: access/desktop-database-reference/index-createfield-method-dao.md
             - name: Метод CreateProperty
               href: access/desktop-database-reference/index-createproperty-method-dao.md
-        - name: Объект Indexes
+        - name: Indexes
           href: access/desktop-database-reference/indexes-object-reference-dao.md
           items:
           - name: Коллекция Indexes
@@ -921,7 +921,7 @@ items:
               href: access/desktop-database-reference/indexes-delete-method-dao.md
             - name: Метод Refresh
               href: access/desktop-database-reference/indexes-refresh-method-dao.md
-        - name: Объект Parameter
+        - name: Parameter
           href: access/desktop-database-reference/parameter-object-reference-dao.md
           items:
           - name: Объект Parameter
@@ -941,7 +941,7 @@ items:
               href: access/desktop-database-reference/parameter-type-property-dao.md
             - name: Свойство Value
               href: access/desktop-database-reference/parameter-value-property-dao.md
-        - name: Объект Parameters
+        - name: Parameters
           href: access/desktop-database-reference/parameters-object-reference-dao.md
           items:
           - name: Коллекция Parameters
@@ -958,7 +958,7 @@ items:
             items:
             - name: Метод Refresh
               href: access/desktop-database-reference/parameters-refresh-method-dao.md
-        - name: Объект Properties
+        - name: Properties
           href: access/desktop-database-reference/properties-object-reference-dao.md
           items:
           - name: Коллекция Properties
@@ -979,7 +979,7 @@ items:
               href: access/desktop-database-reference/properties-delete-method-dao.md
             - name: Метод Refresh
               href: access/desktop-database-reference/properties-refresh-method-dao.md
-        - name: Объект Property
+        - name: Property
           href: access/desktop-database-reference/property-object-reference-dao.md
           items:
           - name: Объект Property
@@ -999,7 +999,7 @@ items:
               href: access/desktop-database-reference/property-type-property-dao.md
             - name: Свойство Value
               href: access/desktop-database-reference/property-value-property-dao.md
-        - name: Объект QueryDef
+        - name: QueryDef
           href: access/desktop-database-reference/querydef-object-reference-dao.md
           items:
           - name: Объект QueryDef
@@ -1056,7 +1056,7 @@ items:
               href: access/desktop-database-reference/querydef-execute-method-dao.md
             - name: Метод OpenRecordset
               href: access/desktop-database-reference/querydef-openrecordset-method-dao.md
-        - name: Объект QueryDefs
+        - name: QueryDefs
           href: access/desktop-database-reference/querydefs-object-reference-dao.md
           items:
           - name: Коллекция QueryDefs
@@ -1077,7 +1077,7 @@ items:
               href: access/desktop-database-reference/querydefs-delete-method-dao.md
             - name: Метод Refresh
               href: access/desktop-database-reference/querydefs-refresh-method-dao.md
-        - name: Объект Recordset
+        - name: Recordset
           href: access/desktop-database-reference/recordset-object-reference-dao.md
           items:
           - name: Объект Recordset
@@ -1208,7 +1208,7 @@ items:
               href: access/desktop-database-reference/recordset-seek-method-dao.md
             - name: Метод Update
               href: access/desktop-database-reference/recordset-update-method-dao.md
-        - name: Объект Recordset2
+        - name: Recordset2
           href: access/desktop-database-reference/recordset2-object-reference-dao.md
           items:
           - name: Объект Recordset2
@@ -1339,7 +1339,7 @@ items:
               href: access/desktop-database-reference/recordset2-seek-method-dao.md
             - name: Метод Update
               href: access/desktop-database-reference/recordset2-update-method-dao.md
-        - name: Объект Recordsets
+        - name: Recordsets
           href: access/desktop-database-reference/recordsets-object-reference-dao.md
           items:
           - name: Коллекция Recordsets
@@ -1356,7 +1356,7 @@ items:
             items:
             - name: Метод Refresh
               href: access/desktop-database-reference/recordsets-refresh-method-dao.md
-        - name: Объект Relation
+        - name: Relation
           href: access/desktop-database-reference/relation-object-reference-dao.md
           items:
           - name: Объект Relation
@@ -1385,7 +1385,7 @@ items:
             items:
             - name: Метод CreateField
               href: access/desktop-database-reference/relation-createfield-method-dao.md
-        - name: Объект Relations
+        - name: Relations
           href: access/desktop-database-reference/relations-object-reference-dao.md
           items:
           - name: Коллекция Relations
@@ -1406,7 +1406,7 @@ items:
               href: access/desktop-database-reference/relations-delete-method-dao.md
             - name: Метод Refresh
               href: access/desktop-database-reference/relations-refresh-method-dao.md
-        - name: Объект TableDef
+        - name: TableDef
           href: access/desktop-database-reference/tabledef-object-reference-dao.md
           items:
           - name: Объект TableDef
@@ -1459,7 +1459,7 @@ items:
               href: access/desktop-database-reference/tabledef-openrecordset-method-dao.md
             - name: Метод RefreshLink
               href: access/desktop-database-reference/tabledef-refreshlink-method-dao.md
-        - name: Объект TableDefs
+        - name: TableDefs
           href: access/desktop-database-reference/tabledefs-object-reference-dao.md
           items:
           - name: Коллекция TableDefs
@@ -1480,7 +1480,7 @@ items:
               href: access/desktop-database-reference/tabledefs-delete-method-dao.md
             - name: Метод Refresh
               href: access/desktop-database-reference/tabledefs-refresh-method-dao.md
-        - name: Объект Workspace
+        - name: Workspace
           href: access/desktop-database-reference/workspace-object-reference-dao.md
           items:
           - name: Объект Workspace
@@ -1523,7 +1523,7 @@ items:
               href: access/desktop-database-reference/workspace-opendatabase-method-dao.md
             - name: Метод Rollback
               href: access/desktop-database-reference/workspace-rollback-method-dao.md
-        - name: Объект Workspaces
+        - name: Workspaces
           href: access/desktop-database-reference/workspaces-object-reference-dao.md
           items:
           - name: Коллекция Workspaces
@@ -1603,18 +1603,14 @@ items:
         href: access/desktop-database-reference/microsoft-activex-data-objects-reference.md
         items:
         - name: Руководство для программистов по ADO
-          href: access/desktop-database-reference/ado-programmer-s-guide-topics.md
+          href: access/desktop-database-reference/ado-programmer-s-guide.md
           items:
-          - name: Руководство для программистов по ADO
-            href: access/desktop-database-reference/ado-programmer-s-guide.md
           - name: Общие сведения об ADO
-            href: access/desktop-database-reference/introduction-to-ado.md
+            href: access/desktop-database-reference/introduction-to-ado-programming.md
             items:
-            - name: Введение
-              href: access/desktop-database-reference/introduction-to-ado-programming.md
             - name: Что нового в ADO
               href: access/desktop-database-reference/what-s-new-in-ado.md
-            - name: Предварительные требования
+            - name: Необходимые компоненты
               href: access/desktop-database-reference/prerequisites-ado-introduction.md
             - name: Семейство библиотек ADO
               href: access/desktop-database-reference/the-ado-family-of-libraries.md
@@ -1627,92 +1623,69 @@ items:
             - name: Глоссарий ADO
               href: access/desktop-database-reference/ado-glossary.md
           - name: Раздел I. Объекты данных ActiveX
-            href: access/desktop-database-reference/section-i-activex-data-objects-access.md
+            href: access/desktop-database-reference/section-i-activex-data-objects.md
             items:
-            - name: Раздел I. Объекты данных ActiveX
-              href: access/desktop-database-reference/section-i-activex-data-objects.md
             - name: Глава 1. Основы ADO
-              href: access/desktop-database-reference/chapter-1-ado-fundamentals-ado.md
+              href: access/desktop-database-reference/chapter-1-ado-fundamentals.md
               items:
-              - name: Глава 1. Основы ADO
-                href: access/desktop-database-reference/chapter-1-ado-fundamentals.md
               - name: Что можно делать с помощью ADO
                 href: access/desktop-database-reference/what-you-can-do-with-ado.md
               - name: Ошибки
                 href: access/desktop-database-reference/errors.md
               - name: 'HelloData: простое приложение ADO'
-                href: access/desktop-database-reference/hellodata-a-simple-ado-application-ado.md
+                href: access/desktop-database-reference/hellodata-a-simple-ado-application.md
                 items:
-                - name: 'HelloData: простое приложение ADO'
-                  href: access/desktop-database-reference/hellodata-a-simple-ado-application.md
                 - name: Сведения о HelloData
                   href: access/desktop-database-reference/hellodata-details.md
                 - name: Код HelloData
                   href: access/desktop-database-reference/hellodata-code.md
               - name: Поставщики OLE DB
-                href: access/desktop-database-reference/ole-db-providers-ado.md
+                href: access/desktop-database-reference/ole-db-providers.md
                 items:
-                - name: Поставщики OLE DB
-                  href: access/desktop-database-reference/ole-db-providers.md
                 - name: Поставщики данных
                   href: access/desktop-database-reference/data-providers.md
                 - name: Компоненты и поставщики служб
                   href: access/desktop-database-reference/service-providers-and-components.md
             - name: Глава 2. Получение данных
-              href: access/desktop-database-reference/chapter-2-getting-data-ado.md
+              href: access/desktop-database-reference/chapter-2-getting-data.md
               items:
-              - name: Глава 2. Получение данных
-                href: access/desktop-database-reference/chapter-2-getting-data.md
               - name: Создание подключения
                 href: access/desktop-database-reference/making-a-connection.md
               - name: Использование объекта Connection
-                href: access/desktop-database-reference/using-the-connection-object-reference-ado.md
+                href: access/desktop-database-reference/using-the-connection-object-access.md
                 items:
-                - name: Использование объекта Connection
-                  href: access/desktop-database-reference/using-the-connection-object-access.md
                 - name: Создание строки подключения
                   href: access/desktop-database-reference/creating-the-connection-string.md
                 - name: Управление транзакциями
                   href: access/desktop-database-reference/controlling-transactions.md
-              - name: Использование объекта Command
-                href: access/desktop-database-reference/using-the-command-object-reference-ado.md
+              - name: Использование COM-объекта
+                href: access/desktop-database-reference/using-the-command-object-access.md
                 items:
-                - name: Использование объекта Command
-                  href: access/desktop-database-reference/using-the-command-object-access.md
-                - name: Обзор объекта Command
+                - name: Обзор COM-объекта
                   href: access/desktop-database-reference/command-object-overview.md
                 - name: Создание и выполнение простой команды
                   href: access/desktop-database-reference/creating-and-executing-a-simple-command.md
-                - name: Параметры объекта Command
+                - name: Параметры COM-объекта
                   href: access/desktop-database-reference/command-object-parameters.md
                 - name: Вызов хранимой процедуры с помощью команды
                   href: access/desktop-database-reference/calling-a-stored-procedure-with-a-command.md
                 - name: Именованные команды
                   href: access/desktop-database-reference/named-commands.md
-              - name: Добавление данных в набор записей
-                href: access/desktop-database-reference/adding-data-to-a-recordset-ado.md
-                items:
-                - name: Добавление данных в набор записей
-                  href: access/desktop-database-reference/adding-data-to-a-recordset.md
-            - name: Глава 3. Осмотр данных
-              href: access/desktop-database-reference/chapter-3-examining-data-ado.md
+              - name: Добавление данных в объект Recordset
+                href: access/desktop-database-reference/adding-data-to-a-recordset.md
+            - name: Глава 3. Изучение данных
+              href: access/desktop-database-reference/chapter-3-examining-data.md
               items:
-              - name: Глава 3. Осмотр данных
-                href: access/desktop-database-reference/chapter-3-examining-data.md
-              - name: Обнаружение текущей записи
-                href: access/desktop-database-reference/locating-the-current-record-ado.md
+              - name: Поиск текущей записи
+                href: access/desktop-database-reference/locating-the-current-record.md
                 items:
-                - name: Обнаружение текущей записи
-                  href: access/desktop-database-reference/locating-the-current-record.md
                 - name: Подсчет строк
                   href: access/desktop-database-reference/counting-rows.md
                 - name: Ограничения набора записей
                   href: access/desktop-database-reference/the-limits-of-a-recordset.md
               - name: Навигация по данным
-                href: access/desktop-database-reference/navigating-through-the-data-ado.md
+                href: access/desktop-database-reference/navigating-through-the-data.md
                 items:
-                - name: Навигация по данным
-                  href: access/desktop-database-reference/navigating-through-the-data.md
                 - name: Переход к записи
                   href: access/desktop-database-reference/jumping-to-a-record.md
                 - name: Дополнительные способы перемещения по набору записей
@@ -1723,11 +1696,9 @@ items:
                   href: access/desktop-database-reference/using-pages.md
                 - name: Размещение наборов записей
                   href: access/desktop-database-reference/recordset-positioning.md
-              - name: Общие сведения о структуре набора записей
-                href: access/desktop-database-reference/understanding-recordset-structure-ado.md
+              - name: Структура набора записей
+                href: access/desktop-database-reference/understanding-recordset-structure.md
                 items:
-                - name: Общие сведения о структуре набора записей
-                  href: access/desktop-database-reference/understanding-recordset-structure.md
                 - name: Коллекция Fields
                   href: access/desktop-database-reference/the-fields-collection.md
                 - name: Объект Field
@@ -1735,10 +1706,8 @@ items:
                 - name: Работа с наборами записей
                   href: access/desktop-database-reference/working-with-recordsets.md
             - name: Глава 4. Редактирование данных
-              href: access/desktop-database-reference/chapter-4-editing-data-ado.md
+              href: access/desktop-database-reference/chapter-4-editing-data.md
               items:
-              - name: Глава 4. Редактирование данных
-                href: access/desktop-database-reference/chapter-4-editing-data.md
               - name: Редактирование существующих записей
                 href: access/desktop-database-reference/editing-existing-records.md
               - name: Определение поддерживаемых возможностей
@@ -1748,38 +1717,30 @@ items:
               - name: 'Альтернативы: использование операторов SQL'
                 href: access/desktop-database-reference/alternatives-using-sql-statements.md
               - name: Добавление записей
-                href: access/desktop-database-reference/adding-records-ado.md
+                href: access/desktop-database-reference/adding-records.md
                 items:
-                - name: Добавление записей
-                  href: access/desktop-database-reference/adding-records.md
                 - name: Добавление нескольких полей
                   href: access/desktop-database-reference/adding-multiple-fields.md
                 - name: Определение режима правки
                   href: access/desktop-database-reference/determining-edit-mode.md
-                - name: Использование метода AddNew в режиме интерпретации и пакетном режиме
+                - name: Использование метода AddNew в режиме немедленного обновления и пакетном режиме
                   href: access/desktop-database-reference/using-addnew-in-immediate-and-batch-modes.md
             - name: Глава 5. Обновление и сохранение данных
-              href: access/desktop-database-reference/chapter-5-updating-and-persisting-data-ado.md
+              href: access/desktop-database-reference/chapter-5-updating-and-persisting-data.md
               items:
-              - name: Глава 5. Обновление и сохранение данных
-                href: access/desktop-database-reference/chapter-5-updating-and-persisting-data.md
               - name: Обновление данных
-                href: access/desktop-database-reference/updating-data-ado.md
+                href: access/desktop-database-reference/updating-data.md
                 items:
-                - name: Обновление данных
-                  href: access/desktop-database-reference/updating-data.md
-                - name: Режим интерпретации
+                - name: Режим немедленного обновления
                   href: access/desktop-database-reference/immediate-mode.md
                 - name: Обработка транзакций
                   href: access/desktop-database-reference/transaction-processing.md
                 - name: Пакетный режим
-                  href: access/desktop-database-reference/batch-mode-ado.md
+                  href: access/desktop-database-reference/batch-mode.md
                   items:
-                  - name: Пакетный режим
-                    href: access/desktop-database-reference/batch-mode.md
                   - name: 'Отправка обновлений: UpdateBatch'
                     href: access/desktop-database-reference/sending-the-updates-updatebatch.md
-                  - name: Фильтрация для обновленных записей
+                  - name: Поиск обновленных записей с помощью фильтра
                     href: access/desktop-database-reference/filtering-for-updated-records.md
                   - name: Исправление неудачных обновлений
                     href: access/desktop-database-reference/dealing-with-failed-updates.md
@@ -1790,19 +1751,15 @@ items:
                   - name: 'Обновление результатов JOINed: уникальная таблица'
                     href: access/desktop-database-reference/updating-joined-results-unique-table.md
               - name: Сохранение данных
-                href: access/desktop-database-reference/persisting-data-ado.md
+                href: access/desktop-database-reference/persisting-data.md
                 items:
-                - name: Сохранение данных
-                  href: access/desktop-database-reference/persisting-data.md
-                - name: Дополнительные сведения о сохранения наборов записей
+                - name: Дополнительные сведения о сохранении наборов записей
                   href: access/desktop-database-reference/more-about-recordset-persistence.md
                 - name: Сохранение отфильтрованных и иерархических наборов записей
                   href: access/desktop-database-reference/persisting-filtered-and-hierarchical-recordsets.md
                 - name: Сохранение записей в формате XML
-                  href: access/desktop-database-reference/persisting-records-in-xml-format-ado.md
+                  href: access/desktop-database-reference/persisting-records-in-xml-format.md
                   items:
-                  - name: Сохранение записей в формате XML
-                    href: access/desktop-database-reference/persisting-records-in-xml-format.md
                   - name: Формат сохранения XML
                     href: access/desktop-database-reference/xml-persistence-format.md
                   - name: Пространства имен
@@ -1815,30 +1772,17 @@ items:
                     href: access/desktop-database-reference/hierarchical-recordsets-in-xml.md
                   - name: Динамические свойства наборов записей в XML
                     href: access/desktop-database-reference/recordset-dynamic-properties-in-xml.md
-                  - name: Преобразование в XSLT
+                  - name: XSLT
                     href: access/desktop-database-reference/xslt-transformations.md
                   - name: Сохранение в объект XML DOM
                     href: access/desktop-database-reference/saving-to-the-xml-dom-object.md
                   - name: Рекомендации по безопасности XML
                     href: access/desktop-database-reference/xml-security-considerations.md
                   - name: Сценарий сохранения набора записей XML
-                    href: access/desktop-database-reference/xml-recordset-persistence-scenario-topics.md
-                    items:
-                    - name: Сценарий сохранения набора записей XML
-                      href: access/desktop-database-reference/xml-recordset-persistence-scenario.md
-                    - name: Этап 1. Настройка приложения
-                      href: access/desktop-database-reference/step-1-set-up-the-application.md
-                    - name: Этап 2. Загрузка данных
-                      href: access/desktop-database-reference/step-2-get-the-data.md
-                    - name: Этап 3. Отправка данных
-                      href: access/desktop-database-reference/step-3-send-the-data.md
-                    - name: Этап 4. Получение и отображение данных
-                      href: access/desktop-database-reference/step-4-receive-and-display-the-data.md
+                    href: access/desktop-database-reference/xml-recordset-persistence-scenario.md
             - name: Глава 6. Обработка ошибок
-              href: access/desktop-database-reference/chapter-6-error-handlinge-ado.md
+              href: access/desktop-database-reference/chapter-6-error-handling.md
               items:
-              - name: Глава 6. Обработка ошибок
-                href: access/desktop-database-reference/chapter-6-error-handling.md
               - name: Ошибки ADO
                 href: access/desktop-database-reference/ado-errors.md
               - name: Справочник по ошибкам ADO
@@ -1852,30 +1796,26 @@ items:
               - name: Предугадывание ошибок
                 href: access/desktop-database-reference/anticipating-errors.md
               - name: Обработка ошибок на других языках
-                href: access/desktop-database-reference/handling-errors-in-other-languages-ado.md
+                href: access/desktop-database-reference/handling-errors-in-other-languages.md
                 items:
                 - name: Обработка ошибок в JScript
                   href: access/desktop-database-reference/handling-errors-in-jscript.md
-                - name: Обработка ошибок на других языках
-                  href: access/desktop-database-reference/handling-errors-in-other-languages.md
-                - name: Обработка ошибок на языке сценариев VBScript
+                - name: Обработка ошибок на языке VBScript
                   href: access/desktop-database-reference/handling-errors-in-vbscript.md
                 - name: Обработка ошибок в Visual C++
                   href: access/desktop-database-reference/handling-errors-in-visual-c.md
             - name: Глава 7. Обработка событий ADO
-              href: access/desktop-database-reference/chapter-7-handling-ado-events-ado.md
+              href: access/desktop-database-reference/chapter-7-handling-ado-events.md
               items:
-              - name: Глава 7. Обработка событий ADO
-                href: access/desktop-database-reference/chapter-7-handling-ado-events.md
               - name: Сводка по обработчикам событий ADO
                 href: access/desktop-database-reference/ado-event-handler-summary.md
               - name: Типы событий
                 href: access/desktop-database-reference/types-of-events.md
               - name: Параметры событий
                 href: access/desktop-database-reference/event-parameters.md
-              - name: Как обработчики событий совместно действуют
+              - name: Взаимодействие обработчиков событий
                 href: access/desktop-database-reference/how-event-handlers-work-together.md
-              - name: Экземпляры событий ADO по языкам
+              - name: Создание экземпляров событий ADO по языкам
                 href: access/desktop-database-reference/ado-event-instantiation-by-language-ado.md
                 items:
                 - name: Visual Basic
@@ -1890,11 +1830,9 @@ items:
                   href: access/desktop-database-reference/jscript.md
                 - name: ADO/WFC
                   href: access/desktop-database-reference/ado-wfc.md
-            - name: Глава 8. Общие сведения о курсорах и блокировках
-              href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks-ado.md
+            - name: Глава 8. Курсоры и блокировки
+              href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks.md
               items:
-              - name: Глава 8. Общие сведения о курсорах и блокировках
-                href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks.md
               - name: Что такое курсор?
                 href: access/desktop-database-reference/what-is-a-cursor.md
               - name: Важность положения курсора
@@ -1905,18 +1843,9 @@ items:
                 href: access/desktop-database-reference/using-cachesize.md
               - name: Характеристики курсоров и блокировок
                 href: access/desktop-database-reference/cursor-and-lock-characteristics.md
-              - name: Что такое блокировка?
-                href: access/desktop-database-reference/what-is-a-lock-ado.md
-                items:
-                - name: Что такое блокировка?
-                  href: access/desktop-database-reference/what-is-a-lock.md
-                - name: Типы блокировок
-                  href: access/desktop-database-reference/types-of-locks.md
               - name: Типы курсоров
-                href: access/desktop-database-reference/types-of-cursors-ado.md
+                href: access/desktop-database-reference/types-of-cursors.md
                 items:
-                - name: Типы курсоров
-                  href: access/desktop-database-reference/types-of-cursors.md
                 - name: Однонаправленные курсоры
                   href: access/desktop-database-reference/forward-only-cursors.md
                 - name: Динамические курсоры
@@ -1925,14 +1854,16 @@ items:
                   href: access/desktop-database-reference/static-cursors.md
                 - name: Курсоры наборов ключей
                   href: access/desktop-database-reference/keyset-cursors.md
+              - name: Что такое блокировка?
+                href: access/desktop-database-reference/what-is-a-lock.md
+              - name: Типы блокировок
+                href: access/desktop-database-reference/types-of-locks.md
             - name: Глава 9. Формирование данных
-              href: access/desktop-database-reference/chapter-9-data-shaping-ado.md
+              href: access/desktop-database-reference/chapter-9-data-shaping.md
               items:
-              - name: Глава 9. Формирование данных
-                href: access/desktop-database-reference/chapter-9-data-shaping.md
               - name: Необходимые поставщики для формирования данных
                 href: access/desktop-database-reference/required-providers-for-data-shaping.md
-              - name: Предложение вычисления фигур
+              - name: Предложение Compute команды Shape
                 href: access/desktop-database-reference/shape-compute-clause.md
               - name: Создание иерархических наборов записей
                 href: access/desktop-database-reference/fabricating-hierarchical-recordsets.md
@@ -1942,48 +1873,38 @@ items:
                 href: access/desktop-database-reference/formal-shape-grammar.md
               - name: Функции Visual Basic для приложений
                 href: access/desktop-database-reference/visual-basic-for-applications-functions.md
-              - name: Предложение добавления фигуры
-                href: access/desktop-database-reference/shape-append-clause-ado.md
+              - name: Предложение Append команды Shape
+                href: access/desktop-database-reference/shape-append-clause.md
                 items:
-                - name: Предложение добавления фигуры
-                  href: access/desktop-database-reference/shape-append-clause.md
-                - name: Операция для команд без параметров
+                - name: Выполнение непараметризованных команд
                   href: access/desktop-database-reference/operation-of-non-parameterized-commands.md
-                - name: Операция для команд с параметрами
+                - name: Выполнение параметризованных команд
                   href: access/desktop-database-reference/operation-of-parameterized-commands.md
                 - name: Гибридные команды
                   href: access/desktop-database-reference/hybrid-commands.md
-                - name: Предложения COMPUTE для промежуточных фигур
+                - name: Предложения COMPUTE между дочерним и родительским элементами команды Shape
                   href: access/desktop-database-reference/intervening-shape-compute-clauses.md
-              - name: Сводка по формированию данных
-                href: access/desktop-database-reference/data-shaping-summary-ado.md
+              - name: Формирование данных
+                href: access/desktop-database-reference/data-shaping.md
                 items:
-                - name: Сводка по формированию данных
-                  href: access/desktop-database-reference/data-shaping-summary.md
-                - name: Формирование данных
-                  href: access/desktop-database-reference/data-shaping.md
                 - name: Изменение формы
                   href: access/desktop-database-reference/reshaping.md
                 - name: Статистические выражения с внучатыми элементами
                   href: access/desktop-database-reference/grandchild-aggregates.md
-                - name: Команды с параметрами и промежуточными командами COMPUTE
+                - name: Параметризованные команды с промежуточными командами COMPUTE
                   href: access/desktop-database-reference/parameterized-commands-with-intervening-compute-commands.md
                 - name: Сохранение иерархических наборов записей
                   href: access/desktop-database-reference/persisting-hierarchical-recordsets.md
-              - name: Общие сведения о командах формирования
-                href: access/desktop-database-reference/shape-commands-in-general-ado.md
+              - name: Общие сведения о командах Shape
+                href: access/desktop-database-reference/shape-commands-in-general.md
                 items:
-                - name: Общие сведения о командах формирования
-                  href: access/desktop-database-reference/shape-commands-in-general.md
                 - name: Агрегатные функции, функция CALC и ключевое слово NEW
                   href: access/desktop-database-reference/aggregate-functions-the-calc-function-and-the-new-keyword.md
                 - name: Отправка команд базовому поставщику данных
                   href: access/desktop-database-reference/issuing-commands-to-the-underlying-data-provider.md
             - name: Глава 10. Записи и потоки
-              href: access/desktop-database-reference/chapter-10-records-and-streams-ado.md
+              href: access/desktop-database-reference/chapter-10-records-and-streams.md
               items:
-              - name: Глава 10. Записи и потоки
-                href: access/desktop-database-reference/chapter-10-records-and-streams.md
               - name: Потоки и сохраняемость
                 href: access/desktop-database-reference/streams-and-persistence.md
               - name: Записи и поля от поставщика
@@ -1991,35 +1912,18 @@ items:
               - name: Абсолютные и относительные URL-адреса
                 href: access/desktop-database-reference/absolute-and-relative-urls.md
               - name: Использование ADO для публикации в Интернете
-                href: access/desktop-database-reference/using-ado-for-internet-publishing-ado.md
+                href: access/desktop-database-reference/using-ado-for-internet-publishing.md
                 items:
-                - name: Использование ADO для публикации в Интернете
-                  href: access/desktop-database-reference/using-ado-for-internet-publishing.md
                 - name: Поставщик OLE DB для публикации в Интернете
                   href: access/desktop-database-reference/the-ole-db-provider-for-internet-publishing.md
                 - name: Сценарий публикации в Интернете
-                  href: access/desktop-database-reference/internet-publishing-scenario-topics.md
-                  items:
-                  - name: Сценарий публикации в Интернете
-                    href: access/desktop-database-reference/internet-publishing-scenario.md
-                  - name: Этап 1. Настройка проекта Visual Basic
-                    href: access/desktop-database-reference/step-1-set-up-the-visual-basic-project.md
-                  - name: Этап 2. Инициализация главного списка
-                    href: access/desktop-database-reference/step-2-initialize-the-main-list-box.md
-                  - name: Этап 3. Заполнение списка полей
-                    href: access/desktop-database-reference/step-3-populate-the-fields-list-box.md
-                  - name: Этап 4. Заполнение текстового поля сведений
-                    href: access/desktop-database-reference/step-4-populate-the-details-text-box.md
+                  href: access/desktop-database-reference/internet-publishing-scenario.md
           - name: Раздел II. Служба удаленных данных
-            href: access/desktop-database-reference/section-ii-remote-data-service-access.md
+            href: access/desktop-database-reference/section-ii-remote-data-service.md
             items:
-            - name: Раздел II. Служба удаленных данных
-              href: access/desktop-database-reference/section-ii-remote-data-service.md
-            - name: Глава 11. Основные сведения об RDS
-              href: access/desktop-database-reference/chapter-11-rds-fundamentals-ado.md
+            - name: Глава 11. Основы RDS
+              href: access/desktop-database-reference/chapter-11-rds-fundamentals.md
               items:
-              - name: Глава 11. Основные сведения об RDS
-                href: access/desktop-database-reference/chapter-11-rds-fundamentals.md
               - name: Решения для удаленного доступа к данным
                 href: access/desktop-database-reference/solutions-for-remote-data-access.md
               - name: Базовая модель программирования RDS
@@ -2044,31 +1948,27 @@ items:
                 - name: Кнопки навигации по адресной книге
                   href: access/desktop-database-reference/address-book-navigation-buttons.md
             - name: Глава 12. Руководство по RDS
-              href: access/desktop-database-reference/chapter-12-rds-tutorial-ado.md
+              href: access/desktop-database-reference/chapter-12-rds-tutorial.md
               items:
-              - name: Глава 12. Руководство по RDS
-                href: access/desktop-database-reference/chapter-12-rds-tutorial.md
-              - name: Этап 1. Указание серверной программы (руководство по RDS)
+              - name: 'Шаг 1: Укажите программу сервера'
                 href: access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md
-              - name: Этап 2. Вызов серверной программы (руководство по RDS)
+              - name: 'Шаг 2: Вызовите программу сервера'
                 href: access/desktop-database-reference/step-2-invoke-the-server-program-rds-tutorial.md
-              - name: Этап 3. Получение набора записей сервером (руководство по RDS)
+              - name: Шаг 3. Сервер получает набор записей
                 href: access/desktop-database-reference/step-3-server-obtains-a-recordset-rds-tutorial.md
-              - name: Этап 4. Возврат набора записей сервером (руководство по RDS)
+              - name: Шаг 4. Сервер возвращает набор записей
                 href: access/desktop-database-reference/step-4-server-returns-the-recordset-rds-tutorial.md
-              - name: Этап 5. Предоставление доступа к объекту DataControl (руководство по RDS)
+              - name: Шаг 5. Предоставление доступа к объекту DataControl
                 href: access/desktop-database-reference/step-5-datacontrol-is-made-usable-rds-tutorial.md
-              - name: Этап 6. Отправка изменений на сервер (руководство по RDS)
+              - name: Шаг 6. Отправка изменений на сервер
                 href: access/desktop-database-reference/step-6-changes-are-sent-to-the-server-rds-tutorial.md
               - name: Руководство по RDS (VBScript)
                 href: access/desktop-database-reference/rds-tutorial-vbscript.md
               - name: Руководство по RDS (Visual J++)
                 href: access/desktop-database-reference/rds-tutorial-visual-j.md
             - name: Глава 13. Безопасность и использование RDS
-              href: access/desktop-database-reference/chapter-13-rds-usage-and-security-ado.md
+              href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
               items:
-              - name: Глава 13. Безопасность и использование RDS
-                href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
               - name: Настройка RDS
                 href: access/desktop-database-reference/configuring-rds.md
               - name: Предоставление гостевых привилегий компьютеру веб-сервера; гостевые привилегии RDS [ADO]
@@ -2081,28 +1981,24 @@ items:
                 href: access/desktop-database-reference/setting-dcom-stream-marshaling-format.md
               - name: Подготовка библиотеки DLL к работе в DCOM
                 href: access/desktop-database-reference/enabling-a-dll-to-run-on-dcom.md
-              - name: Настройка виртуальных серверов в службах IIS
+              - name: Настройка виртуальных серверов в IIS
                 href: access/desktop-database-reference/configuring-virtual-servers-on-iis.md
-              - name: Указание числа потоков на процессор в службах IIS
+              - name: Указание числа потоков на процессор в IIS
                 href: access/desktop-database-reference/specifying-threads-per-processor-on-iis.md
               - name: Защита приложений RDS
                 href: access/desktop-database-reference/securing-rds-applications.md
-              - name: Настройка DataFactory для безопасного и нестрогого режимов
+              - name: Настройка DataFactory для безопасного или неограниченного режима
                 href: access/desktop-database-reference/configuring-datafactory-for-safe-or-unrestricted-modes.md
               - name: Использование связанных технологий с RDS
-                href: access/desktop-database-reference/using-related-technologies-with-rds-ado.md
+                href: access/desktop-database-reference/using-related-technologies-with-rds.md
                 items:
-                - name: Использование связанных технологий с RDS
-                  href: access/desktop-database-reference/using-related-technologies-with-rds.md
                 - name: Использование RDS с группировкой подключений ODBC
                   href: access/desktop-database-reference/using-rds-with-odbc-connection-pooling.md
                 - name: Выполнение бизнес-объектов в службах компонентов
                   href: access/desktop-database-reference/running-business-objects-in-component-services.md
               - name: Настройка DataFactory
-                href: access/desktop-database-reference/datafactory-customization-ado.md
+                href: access/desktop-database-reference/datafactory-customization.md
                 items:
-                - name: Настройка DataFactory
-                  href: access/desktop-database-reference/datafactory-customization.md
                 - name: Общие сведения о файле настройки
                   href: access/desktop-database-reference/understanding-the-customization-file.md
                 - name: Раздел Connect в файле настройки
@@ -2114,33 +2010,27 @@ items:
                 - name: Раздел Logs в файле настройки
                   href: access/desktop-database-reference/customization-file-logs-section.md
               - name: Устранение неполадок RDS
-                href: access/desktop-database-reference/troubleshooting-rds-ado.md
+                href: access/desktop-database-reference/troubleshooting-rds.md
                 items:
-                - name: Устранение неполадок RDS
-                  href: access/desktop-database-reference/troubleshooting-rds.md
                 - name: Настройка RDS в Windows 2000
                   href: access/desktop-database-reference/configuring-rds-on-windows-2000.md
                 - name: 'Ошибка интернет-сервера: "Отказано в доступе"'
                   href: access/desktop-database-reference/internet-server-error-access-denied.md
                 - name: RDS возвращает ошибку "Поток не прочитан"
                   href: access/desktop-database-reference/rds-returns-stream-not-read-error.md
-                - name: Взаимоблокировка с уровнем изоляции с повторяемым чтением
+                - name: Взаимоблокировки с уровнем изоляции с повторяемым чтением
                   href: access/desktop-database-reference/deadlocks-with-read-repeatable-isolation-level.md
                 - name: Обеспечение наличия достаточного места в TempDB
                   href: access/desktop-database-reference/ensuring-sufficient-tempdb-space.md
-                - name: Сведение к минимуму использования места в файле журнала
+                - name: Минимизация места, занимаемого файлом журнала
                   href: access/desktop-database-reference/minimizing-log-file-space-usage.md
           - name: Раздел III. ADO (многомерный) (ADO MD)
-            href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md-access.md
+            href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md.md
             items:
-            - name: Раздел III. ADO (многомерный) (ADO MD)
-              href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md.md
-            - name: Глава 14. Основные сведения об ADO MD
-              href: access/desktop-database-reference/chapter-14-ado-md-fundamentals-ado.md
+            - name: Глава 14. Основы ADO MD
+              href: access/desktop-database-reference/chapter-14-ado-md-fundamentals.md
               items:
-              - name: Глава 14. Основные сведения об ADO MD
-                href: access/desktop-database-reference/chapter-14-ado-md-fundamentals.md
-              - name: Общие сведения о многомерных схемах и данных
+              - name: Обзор многомерных схем и данных
                 href: access/desktop-database-reference/overview-of-multidimensional-schemas-and-data.md
               - name: Работа с многомерными данными
                 href: access/desktop-database-reference/working-with-multidimensional-data.md
@@ -2149,27 +2039,19 @@ items:
               - name: Программирование с помощью ADO MD
                 href: access/desktop-database-reference/programming-with-ado-md.md
           - name: Раздел IV. Расширения ADO для языка определения данных и безопасности (ADOX)
-            href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox-access.md
+            href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox.md
             items:
-            - name: Раздел IV. Расширения ADO для языка определения данных и безопасности (ADOX)
-              href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox.md
             - name: Глава 15. Основы ADOX
-              href: access/desktop-database-reference/chapter-15-adox-fundamentals-ado.md
+              href: access/desktop-database-reference/chapter-15-adox-fundamentals.md
               items:
-              - name: Глава 15. Основы ADOX
-                href: access/desktop-database-reference/chapter-15-adox-fundamentals.md
               - name: Поддержка поставщиков для ADOX
                 href: access/desktop-database-reference/provider-support-for-adox.md
           - name: Раздел V. Приложения
-            href: access/desktop-database-reference/section-v-appendixes-access.md
+            href: access/desktop-database-reference/section-v-appendixes.md
             items:
-            - name: Раздел V. Приложения
-              href: access/desktop-database-reference/section-v-appendixes.md
             - name: Приложение А. Поставщики
-              href: access/desktop-database-reference/appendix-a-providers-ado.md
+              href: access/desktop-database-reference/appendix-a-providers.md
               items:
-              - name: Приложение А. Поставщики
-                href: access/desktop-database-reference/appendix-a-providers.md
               - name: Поставщик Microsoft OLE DB для ODBC
                 href: access/desktop-database-reference/microsoft-ole-db-provider-for-odbc.md
               - name: Поставщик Microsoft OLE DB для службы индексирования (Майкрософт)
@@ -2190,13 +2072,11 @@ items:
                 href: access/desktop-database-reference/microsoft-ole-db-persistence-provider-ado-service-provider.md
               - name: Поставщик услуг удаленного взаимодействия Microsoft OLE DB (поставщик служб ADO)
                 href: access/desktop-database-reference/microsoft-ole-db-remoting-provider-ado-service-provider.md
-              - name: Служба курсоров (Майкрософт) для OLE DB (компонент службы ADO)
+              - name: Служба курсора (Майкрософт) для OLE DB (компонент службы ADO)
                 href: access/desktop-database-reference/microsoft-cursor-service-for-ole-db-ado-service-component.md
             - name: Приложение Б. Ошибки ADO
-              href: access/desktop-database-reference/appendix-b-ado-errors-ado.md
+              href: access/desktop-database-reference/appendix-b-ado-errors.md
               items:
-              - name: Приложение Б. Ошибки ADO
-                href: access/desktop-database-reference/appendix-b-ado-errors.md
               - name: Коды ошибок ADO
                 href: access/desktop-database-reference/ado-error-codes.md
               - name: Коды ошибок DataControl
@@ -2206,26 +2086,20 @@ items:
               - name: Коды ошибок служб IIS
                 href: access/desktop-database-reference/internet-information-services-error-codes.md
             - name: Приложение В. Программирование с помощью ADO
-              href: access/desktop-database-reference/appendix-c-programming-with-ado-ado.md
+              href: access/desktop-database-reference/appendix-c-programming-with-ado.md
               items:
-              - name: Приложение В. Программирование с помощью ADO
-                href: access/desktop-database-reference/appendix-c-programming-with-ado.md
               - name: Использование ADO с Microsoft Visual Basic
                 href: access/desktop-database-reference/using-ado-with-microsoft-visual-basic.md
               - name: Использование ADO со скриптовыми языками
-                href: access/desktop-database-reference/using-ado-with-scripting-languages-topics.md
+                href: access/desktop-database-reference/using-ado-with-scripting-languages.md
                 items:
-                - name: Использование ADO со скриптовыми языками
-                  href: access/desktop-database-reference/using-ado-with-scripting-languages.md
                 - name: Программирование для ADO на JScript
                   href: access/desktop-database-reference/jscript-ado-programming.md
                 - name: Программирование для ADO на VBScript
                   href: access/desktop-database-reference/vbscript-ado-programming.md
               - name: Использование ADO с Microsoft Visual C++
-                href: access/desktop-database-reference/using-ado-with-microsoft-visual-c-topics.md
+                href: access/desktop-database-reference/using-ado-with-microsoft-visual-c.md
                 items:
-                - name: Использование ADO с Microsoft Visual C++
-                  href: access/desktop-database-reference/using-ado-with-microsoft-visual-c.md
                 - name: Программирование для ADO на Visual C++
                   href: access/desktop-database-reference/visual-c-ado-programming.md
                 - name: Расширения Visual C++ для ADO
@@ -2237,441 +2111,420 @@ items:
                 - name: Пример расширений Visual C++
                   href: access/desktop-database-reference/visual-c-extensions-example.md
               - name: Использование ADO с Microsoft Visual J++
-                href: access/desktop-database-reference/using-ado-with-microsoft-visual-j-topics.md
+                href: access/desktop-database-reference/using-ado-with-microsoft-visual-j.md
                 items:
-                - name: Использование ADO с Microsoft Visual J++
-                  href: access/desktop-database-reference/using-ado-with-microsoft-visual-j.md
                 - name: Программирование ADO/WFC
                   href: access/desktop-database-reference/ado-wfc-programming.md
                 - name: Использование мастера библиотеки типов Java
                   href: access/desktop-database-reference/using-the-java-type-library-wizard.md
-                - name: Использование пакета SDK (Майкрософт) для Java
+                - name: Использование пакета Microsoft SDK для Java
                   href: access/desktop-database-reference/using-the-microsoft-sdk-for-java.md
-                - name: Оболочки классов Java для ADO
+                - name: Оболочки класса Java ADO
                   href: access/desktop-database-reference/ado-java-class-wrappers.md
             - name: Приложение Г. Примеры ADO
-              href: access/desktop-database-reference/appendix-d-ado-samples-ado.md
-              items:
-              - name: Приложение Г. Примеры ADO
-                href: access/desktop-database-reference/appendix-d-ado-samples.md
+              href: access/desktop-database-reference/appendix-d-ado-samples.md
         - name: Справочник программиста по ADO
           href: access/desktop-database-reference/ado-programmer-s-reference-topics.md
           items:
           - name: Справочник по API для ADO
-            href: access/desktop-database-reference/ado-api-reference-topics.md
+            href: access/desktop-database-reference/ado-api-reference.md
             items:
-            - name: Справочник по API для ADO
-              href: access/desktop-database-reference/ado-api-reference.md
-            - name: Объекты и интерфейсы ADO
-              href: access/desktop-database-reference/ado-objects-and-interfaces-reference.md
+            - name: Интерфейсы и объекты ADO
+              href: access/desktop-database-reference/ado-objects-and-interfaces.md
               items:
-              - name: Объекты и интерфейсы ADO
-                href: access/desktop-database-reference/ado-objects-and-interfaces.md
-              - name: Интерфейс ADORecordConstruction (ADO)
+              - name: Интерфейс ADORecordConstruction
                 href: access/desktop-database-reference/adorecordconstruction-interface-ado.md
-              - name: Интерфейс ADORecordsetConstruction (ADO)
+              - name: Интерфейс ADORecordsetConstruction
                 href: access/desktop-database-reference/adorecordsetconstruction-interface-ado.md
-              - name: Объект Command (ADO)
+              - name: Command
                 href: access/desktop-database-reference/command-object-ado-reference.md
                 items:
-                - name: Объект Command (ADO)
+                - name: Объект Command
                   href: access/desktop-database-reference/command-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/command-properties-methods-and-events-ado.md
-              - name: Объект Connection (ADO)
+              - name: Connection
                 href: access/desktop-database-reference/connection-object-ado-reference.md
                 items:
-                - name: Объект Connection (ADO)
+                - name: Объект Connection
                   href: access/desktop-database-reference/connection-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/connection-properties-methods-and-events-ado.md
-              - name: Объект Error (ADO)
+              - name: Error
                 href: access/desktop-database-reference/error-object-ado-reference.md
                 items:
-                - name: Объект Error (ADO)
+                - name: Объект Error
                   href: access/desktop-database-reference/error-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/error-properties-methods-and-events-ado.md
-              - name: Объект Field (ADO)
+              - name: Field
                 href: access/desktop-database-reference/field-object-ado-reference.md
                 items:
-                - name: Объект Field (ADO)
+                - name: Объект Field
                   href: access/desktop-database-reference/field-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/field-properties-methods-and-events-ado.md
-              - name: Объект Parameter (ADO)
+              - name: Parameter
                 href: access/desktop-database-reference/parameter-object-ado-reference.md
                 items:
-                - name: Объект Parameter (ADO)
+                - name: Объект Parameter
                   href: access/desktop-database-reference/parameter-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/parameter-properties-methods-and-events-ado.md
-              - name: Объект Property (ADO)
+              - name: Property
                 href: access/desktop-database-reference/property-object-ado-reference.md
                 items:
-                - name: Объект Property (ADO)
+                - name: Объект Property
                   href: access/desktop-database-reference/property-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/property-properties-methods-and-events-ado.md
-              - name: Объект Record (ADO)
+              - name: Record
                 href: access/desktop-database-reference/record-object-ado-reference.md
                 items:
-                - name: Объект Record (ADO)
+                - name: Объект Record
                   href: access/desktop-database-reference/record-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/record-properties-methods-and-events-ado.md
-              - name: Объект Recordset (ADO)
+              - name: Recordset
                 href: access/desktop-database-reference/recordset-object-ado-reference.md
                 items:
-                - name: Объект Recordset (ADO)
+                - name: Объект Recordset
                   href: access/desktop-database-reference/recordset-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/recordset-properties-methods-and-events-ado.md
-              - name: Объект Stream (ADO)
+              - name: Stream
                 href: access/desktop-database-reference/stream-object-ado-reference.md
                 items:
-                - name: Объект Stream (ADO)
+                - name: Объект Stream
                   href: access/desktop-database-reference/stream-object-ado.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/stream-properties-methods-and-events-ado.md
             - name: Коллекции ADO
-              href: access/desktop-database-reference/ado-collections-reference.md
+              href: access/desktop-database-reference/ado-collections.md
               items:
-              - name: Коллекции ADO
-                href: access/desktop-database-reference/ado-collections.md
-              - name: Коллекция Errors (ADO)
+              - name: Errors
                 href: access/desktop-database-reference/errors-collection-ado-reference.md
                 items:
-                - name: Коллекция Errors (ADO)
+                - name: Коллекция Errors
                   href: access/desktop-database-reference/errors-collection-ado.md
                 - name: Свойства, методы и события коллекции Errors
                   href: access/desktop-database-reference/errors-collection-properties-methods-and-events.md
-              - name: Коллекция Fields (ADO)
+              - name: Fields
                 href: access/desktop-database-reference/fields-collection-ado-reference.md
                 items:
-                - name: Коллекция Fields (ADO)
+                - name: Коллекция Fields
                   href: access/desktop-database-reference/fields-collection-ado.md
                 - name: Свойства, методы и события коллекции Fields
                   href: access/desktop-database-reference/fields-collection-properties-methods-and-events.md
-              - name: Коллекция Parameters (ADO)
+              - name: Parameters
                 href: access/desktop-database-reference/parameters-collection-ado-reference.md
                 items:
-                - name: Коллекция Parameters (ADO)
+                - name: Коллекция Parameters
                   href: access/desktop-database-reference/parameters-collection-ado.md
                 - name: Свойства, методы и события коллекции Parameters
                   href: access/desktop-database-reference/parameters-collection-properties-methods-and-events.md
-              - name: Коллекция Properties (ADO)
+              - name: Properties
                 href: access/desktop-database-reference/properties-collection-ado-reference.md
                 items:
-                - name: Коллекция Properties (ADO)
+                - name: Коллекция Properties
                   href: access/desktop-database-reference/properties-collection-ado.md
                 - name: Свойства, методы и события коллекции Properties
                   href: access/desktop-database-reference/properties-collection-properties-methods-and-events.md
             - name: Свойства ADO
-              href: access/desktop-database-reference/ado-properties-reference.md
+              href: access/desktop-database-reference/ado-properties.md
               items:
-              - name: Свойства ADO
-                href: access/desktop-database-reference/ado-properties.md
-              - name: Свойство AbsolutePage (ADO)
+              - name: Свойство AbsolutePage
                 href: access/desktop-database-reference/absolutepage-property-ado.md
-              - name: Свойство AbsolutePosition (ADO)
+              - name: Свойство AbsolutePosition
                 href: access/desktop-database-reference/absoluteposition-property-ado.md
-              - name: Свойство ActiveCommand (ADO)
+              - name: Свойство ActiveCommand
                 href: access/desktop-database-reference/activecommand-property-ado.md
-              - name: Свойство ActiveConnection (ADO)
+              - name: Свойство ActiveConnection
                 href: access/desktop-database-reference/activeconnection-property-ado.md
-              - name: Свойство ActualSize (ADO)
+              - name: Свойство ActualSize
                 href: access/desktop-database-reference/actualsize-property-ado.md
-              - name: Свойство Attributes (ADO)
+              - name: Свойство Attributes
                 href: access/desktop-database-reference/attributes-property-ado.md
-              - name: Свойства BOF, EOF (ADO)
+              - name: Свойства BOF, EOF
                 href: access/desktop-database-reference/bof-eof-properties-ado.md
-              - name: Свойство Bookmark (ADO)
+              - name: Свойство Bookmark
                 href: access/desktop-database-reference/bookmark-property-ado.md
-              - name: Свойство CacheSize (ADO)
+              - name: Свойство CacheSize
                 href: access/desktop-database-reference/cachesize-property-ado.md
-              - name: Свойство Chapter (ADO)
+              - name: Свойство Chapter
                 href: access/desktop-database-reference/chapter-property-ado.md
-              - name: Свойство Charset (ADO)
+              - name: Свойство Charset
                 href: access/desktop-database-reference/charset-property-ado.md
-              - name: Свойство CommandText (ADO)
+              - name: Свойство CommandText
                 href: access/desktop-database-reference/commandtext-property-ado.md
-              - name: Свойство CommandTimeout (ADO)
+              - name: Свойство CommandTimeout
                 href: access/desktop-database-reference/commandtimeout-property-ado.md
-              - name: Свойство CommandType (ADO)
+              - name: Свойство CommandType
                 href: access/desktop-database-reference/commandtype-property-ado.md
-              - name: Свойство ConnectionString (ADO)
+              - name: Свойство ConnectionString
                 href: access/desktop-database-reference/connectionstring-property-ado.md
-              - name: Свойство ConnectionTimeout (ADO)
+              - name: Свойство ConnectionTimeout
                 href: access/desktop-database-reference/connectiontimeout-property-ado.md
-              - name: Свойство Count (ADO)
+              - name: Свойство Count
                 href: access/desktop-database-reference/count-property-ado.md
-              - name: Свойство CursorLocation (ADO)
+              - name: Свойство CursorLocation
                 href: access/desktop-database-reference/cursorlocation-property-ado.md
-              - name: Свойство CursorType (ADO)
+              - name: Свойство CursorType
                 href: access/desktop-database-reference/cursortype-property-ado.md
-              - name: Свойство DataMember (ADO)
+              - name: Свойство DataMember
                 href: access/desktop-database-reference/datamember-property-ado.md
-              - name: Свойство DataSource (ADO)
+              - name: Свойство DataSource
                 href: access/desktop-database-reference/datasource-property-ado.md
-              - name: Свойство DefaultDatabase (ADO)
+              - name: Свойство DefaultDatabase
                 href: access/desktop-database-reference/defaultdatabase-property-ado.md
-              - name: Свойство DefinedSize (ADO)
+              - name: Свойство DefinedSize
                 href: access/desktop-database-reference/definedsize-property-ado.md
-              - name: Свойство Description (ADO)
+              - name: Свойство Description
                 href: access/desktop-database-reference/description-property-ado.md
-              - name: Свойство Direction (ADO)
+              - name: Свойство Direction
                 href: access/desktop-database-reference/direction-property-ado.md
-              - name: Свойство EditMode (ADO)
+              - name: Свойство EditMode
                 href: access/desktop-database-reference/editmode-property-ado.md
-              - name: Свойство EOS (ADO)
+              - name: Свойство EOS
                 href: access/desktop-database-reference/eos-property-ado.md
-              - name: Свойство Filter (ADO)
+              - name: Свойство Filter
                 href: access/desktop-database-reference/filter-property-ado.md
-              - name: Свойства HelpContext, HelpFile (ADO)
+              - name: Свойства HelpContext, HelpFile
                 href: access/desktop-database-reference/helpcontext-helpfile-properties-ado.md
-              - name: Свойство Index (ADO)
+              - name: Свойство Index
                 href: access/desktop-database-reference/index-property-ado.md
-              - name: Свойство IsolationLevel (ADO)
+              - name: Свойство IsolationLevel
                 href: access/desktop-database-reference/isolationlevel-property-ado.md
-              - name: Свойство Item (ADO)
+              - name: Свойство Item
                 href: access/desktop-database-reference/item-property-ado.md
-              - name: Свойство LineSeparator (ADO)
+              - name: Свойство LineSeparator
                 href: access/desktop-database-reference/lineseparator-property-ado.md
-              - name: Свойство LockType (ADO)
+              - name: Свойство LockType
                 href: access/desktop-database-reference/locktype-property-ado.md
-              - name: Свойство MarshalOptions (ADO)
+              - name: Свойство MarshalOptions
                 href: access/desktop-database-reference/marshaloptions-property-ado.md
-              - name: Свойство MaxRecords (ADO)
+              - name: Свойство MaxRecords
                 href: access/desktop-database-reference/maxrecords-property-ado.md
-              - name: Свойство Mode (ADO)
+              - name: Свойство Mode
                 href: access/desktop-database-reference/mode-property-ado.md
-              - name: Свойство Name (ADO)
+              - name: Свойство Name
                 href: access/desktop-database-reference/name-property-ado.md
-              - name: Свойство NativeError (ADO)
+              - name: Свойство NativeError
                 href: access/desktop-database-reference/nativeerror-property-ado.md
-              - name: Свойство Number (ADO)
+              - name: Свойство Number
                 href: access/desktop-database-reference/number-property-ado.md
-              - name: Свойство NumericScale (ADO)
+              - name: Свойство NumericScale
                 href: access/desktop-database-reference/numericscale-property-ado.md
-              - name: Свойство OriginalValue (ADO)
+              - name: Свойство OriginalValue
                 href: access/desktop-database-reference/originalvalue-property-ado.md
-              - name: Свойство PageCount (ADO)
+              - name: Свойство PageCount
                 href: access/desktop-database-reference/pagecount-property-ado.md
-              - name: Свойство PageSize (ADO)
+              - name: Свойство PageSize
                 href: access/desktop-database-reference/pagesize-property-ado.md
-              - name: Свойство ParentRow (ADO)
+              - name: Свойство ParentRow
                 href: access/desktop-database-reference/parentrow-property-ado.md
-              - name: Свойство ParentURL (ADO)
+              - name: Свойство ParentURL
                 href: access/desktop-database-reference/parenturl-property-ado.md
-              - name: Свойство Position (ADO)
+              - name: Свойство Position
                 href: access/desktop-database-reference/position-property-ado.md
-              - name: Свойство Precision (ADO)
+              - name: Свойство Precision
                 href: access/desktop-database-reference/precision-property-ado.md
-              - name: Свойство Prepared (ADO)
+              - name: Свойство Prepared
                 href: access/desktop-database-reference/prepared-property-ado.md
-              - name: Свойство Provider (ADO)
+              - name: Свойство Provider
                 href: access/desktop-database-reference/provider-property-ado.md
-              - name: Свойство RecordCount (ADO)
+              - name: Свойство RecordCount
                 href: access/desktop-database-reference/recordcount-property-ado.md
-              - name: Свойство RecordType (ADO)
+              - name: Свойство RecordType
                 href: access/desktop-database-reference/recordtype-property-ado.md
-              - name: Свойство Row (ADO)
+              - name: Свойство Row
                 href: access/desktop-database-reference/row-property-ado.md
-              - name: Свойство RowPosition (ADO)
+              - name: Свойство RowPosition
                 href: access/desktop-database-reference/rowposition-property-ado.md
-              - name: Свойство Rowset (ADO)
+              - name: Свойство Rowset
                 href: access/desktop-database-reference/rowset-property-ado.md
-              - name: Свойство Size (ADO)
+              - name: Свойство Size
                 href: access/desktop-database-reference/size-property-ado.md
-              - name: Свойство Sort (ADO)
+              - name: Свойство Sort
                 href: access/desktop-database-reference/sort-property-ado.md
-              - name: Свойство Source (объект Error в ADO)
+              - name: Свойство Source (Error в ADO)
                 href: access/desktop-database-reference/source-property-ado-error.md
               - name: Свойство Source (объект Record в ADO)
                 href: access/desktop-database-reference/source-property-ado-record.md
-              - name: Свойство Source (объект Recordset в ADO)
+              - name: Свойство Source (Recordset в ADO)
                 href: access/desktop-database-reference/source-property-ado-recordset.md
-              - name: Свойство SQLState (ADO)
+              - name: Свойство SQLState
                 href: access/desktop-database-reference/sqlstate-property-ado.md
-              - name: Свойство State (ADO)
+              - name: Свойство State
                 href: access/desktop-database-reference/state-property-ado.md
-              - name: Свойство StayInSync (ADO)
-                href: access/desktop-database-reference/stayinsync-property-ado.md
-              - name: Свойство Status (объект Field в ADO)
+              - name: Свойство Status (Field в ADO)
                 href: access/desktop-database-reference/status-property-ado-field.md
-              - name: Свойство Status (объект Recordset в ADO)
+              - name: Свойство Status (Recordset в ADO)
                 href: access/desktop-database-reference/status-property-ado-recordset.md
-              - name: Свойство Type (ADO)
+              - name: Свойство StayInSync
+                href: access/desktop-database-reference/stayinsync-property-ado.md
+              - name: Свойство Type
                 href: access/desktop-database-reference/type-property-ado.md
-              - name: Свойство Type (объект Stream в ADO)
+              - name: Свойство Type (Stream в ADO)
                 href: access/desktop-database-reference/type-property-ado-stream.md
-              - name: Свойство UnderlyingValue (ADO)
+              - name: Свойство UnderlyingValue
                 href: access/desktop-database-reference/underlyingvalue-property-ado.md
-              - name: Свойство Value (ADO)
+              - name: Свойство Value
                 href: access/desktop-database-reference/value-property-ado.md
-              - name: Свойство Version (ADO)
+              - name: Свойство Version
                 href: access/desktop-database-reference/version-property-ado.md
             - name: Динамические свойства ADO
-              href: access/desktop-database-reference/ado-dynamic-properties-reference.md
+              href: access/desktop-database-reference/ado-dynamic-properties.md
               items:
-              - name: Динамические свойства ADO
-                href: access/desktop-database-reference/ado-dynamic-properties.md
               - name: Индекс динамических свойств ADO
                 href: access/desktop-database-reference/ado-dynamic-property-index.md
-              - name: Динамическое свойство Optimize (ADO)
+              - name: Свойство Optimize
                 href: access/desktop-database-reference/optimize-property-dynamic-ado.md
-              - name: Динамическое свойство Prompt (ADO)
+              - name: Свойство Prompt
                 href: access/desktop-database-reference/prompt-property-dynamic-ado.md
-              - name: Динамическое свойство Reshape Name (ADO)
+              - name: Свойство Reshape Name
                 href: access/desktop-database-reference/reshape-name-property-dynamic-ado.md
-              - name: Динамическое свойство Resync Command (ADO)
+              - name: Свойство Resync Command
                 href: access/desktop-database-reference/resync-command-property-dynamic-ado.md
-              - name: Динамические свойства Unique Table, Unique Schema и Unique Catalog (ADO)
+              - name: Свойства Unique Table, Unique Schema и Unique Catalog
                 href: access/desktop-database-reference/unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md
-              - name: Динамическое свойство Update Resync (ADO)
+              - name: Свойство Update Resync
                 href: access/desktop-database-reference/update-resync-property-dynamic-ado.md
             - name: Методы ADO
-              href: access/desktop-database-reference/ado-methods-reference.md
+              href: access/desktop-database-reference/ado-methods.md
               items:
-              - name: Методы ADO
-                href: access/desktop-database-reference/ado-methods.md
-              - name: Метод AddNew (ADO)
+              - name: Метод AddNew
                 href: access/desktop-database-reference/addnew-method-ado.md
-              - name: Метод Append (ADO)
+              - name: Метод Append
                 href: access/desktop-database-reference/append-method-ado.md
-              - name: Метод AppendChunk (ADO)
+              - name: Метод AppendChunk
                 href: access/desktop-database-reference/appendchunk-method-ado.md
-              - name: Методы BeginTrans, CommitTrans и RollbackTrans (ADO)
+              - name: Методы BeginTrans, CommitTrans и RollbackTrans
                 href: access/desktop-database-reference/begintrans-committrans-and-rollbacktrans-methods-ado.md
-              - name: Метод Cancel (ADO)
+              - name: Метод Cancel
                 href: access/desktop-database-reference/cancel-method-ado.md
-              - name: Метод CancelBatch (ADO)
+              - name: Метод CancelBatch
                 href: access/desktop-database-reference/cancelbatch-method-ado.md
-              - name: Метод CancelUpdate (ADO)
+              - name: Метод CancelUpdate
                 href: access/desktop-database-reference/cancelupdate-method-ado.md
-              - name: Метод Clear (ADO)
+              - name: Метод Clear
                 href: access/desktop-database-reference/clear-method-ado.md
-              - name: Метод Clone (ADO)
+              - name: Метод Clone
                 href: access/desktop-database-reference/clone-method-ado.md
-              - name: Метод Close (ADO)
+              - name: Метод Close
                 href: access/desktop-database-reference/close-method-ado.md
-              - name: Метод CompareBookmarks (ADO)
+              - name: Метод CompareBookmarks
                 href: access/desktop-database-reference/comparebookmarks-method-ado.md
-              - name: Метод CopyRecord (ADO)
+              - name: Метод CopyRecord
                 href: access/desktop-database-reference/copyrecord-method-ado.md
-              - name: Метод CopyTo (ADO)
+              - name: Метод CopyTo
                 href: access/desktop-database-reference/copyto-method-ado.md
-              - name: Метод CreateParameter (ADO)
+              - name: Метод CreateParameter
                 href: access/desktop-database-reference/createparameter-method-ado.md
               - name: Метод Delete (коллекция Fields в ADO)
                 href: access/desktop-database-reference/delete-method-ado-fields-collection.md
               - name: Метод Delete (коллекция Parameters в ADO)
                 href: access/desktop-database-reference/delete-method-ado-parameters-collection.md
-              - name: Метод Delete (набор записей ADO)
+              - name: Метод Delete (Recordset в ADO)
                 href: access/desktop-database-reference/delete-method-ado-recordset.md
-              - name: Метод DeleteRecord (ADO)
+              - name: Метод DeleteRecord
                 href: access/desktop-database-reference/deleterecord-method-ado.md
-              - name: Метод Find (ADO)
+              - name: Метод Find
                 href: access/desktop-database-reference/find-method-ado.md
-              - name: Метод Flush (ADO)
+              - name: Метод Flush
                 href: access/desktop-database-reference/flush-method-ado.md
-              - name: Метод GetChildren (ADO)
+              - name: Метод GetChildren
                 href: access/desktop-database-reference/getchildren-method-ado.md
-              - name: Метод GetChunk (ADO)
+              - name: Метод GetChunk
                 href: access/desktop-database-reference/getchunk-method-ado.md
-              - name: Метод GetRows (ADO)
+              - name: Метод GetRows
                 href: access/desktop-database-reference/getrows-method-ado.md
-              - name: Метод GetString (ADO)
+              - name: Метод GetString
                 href: access/desktop-database-reference/getstring-method-ado.md
-              - name: Метод LoadFromFile (ADO)
+              - name: Метод LoadFromFile
                 href: access/desktop-database-reference/loadfromfile-method-ado.md
-              - name: Метод Move (ADO)
+              - name: Метод Move
                 href: access/desktop-database-reference/move-method-ado.md
-              - name: Методы MoveFirst, MoveLast, MoveNext и MovePrevious (ADO)
+              - name: Методы MoveFirst, MoveLast, MoveNext и MovePrevious
                 href: access/desktop-database-reference/movefirst-movelast-movenext-and-moveprevious-methods-ado.md
-              - name: Метод MoveRecord (ADO)
+              - name: Метод MoveRecord
                 href: access/desktop-database-reference/moverecord-method-ado.md
-              - name: Метод NextRecordset (ADO)
+              - name: Метод NextRecordset
                 href: access/desktop-database-reference/nextrecordset-method-ado.md
-              - name: Метод Open (объект Connection в ADO)
+              - name: Метод Open (Connection в ADO)
                 href: access/desktop-database-reference/open-method-ado-connection.md
               - name: Метод Open (объект Record в ADO)
                 href: access/desktop-database-reference/open-method-ado-record.md
               - name: Метод Open (объект Recordset ADO)
                 href: access/desktop-database-reference/open-method-ado-recordset.md
-              - name: Метод Open (объект Stream в ADO)
+              - name: Метод Open (Stream в ADO)
                 href: access/desktop-database-reference/open-method-ado-stream.md
-              - name: Метод OpenSchema (ADO)
+              - name: Метод OpenSchema
                 href: access/desktop-database-reference/openschema-method-ado.md
-              - name: Метод Read (ADO)
+              - name: Метод Read
                 href: access/desktop-database-reference/read-method-ado.md
-              - name: Метод ReadText (ADO)
+              - name: Метод ReadText
                 href: access/desktop-database-reference/readtext-method-ado.md
-              - name: Метод Refresh (ADO)
+              - name: Метод Refresh
                 href: access/desktop-database-reference/refresh-method-ado.md
-              - name: Метод Requery (ADO)
+              - name: Метод Requery
                 href: access/desktop-database-reference/requery-method-ado.md
-              - name: Метод Resync (ADO)
+              - name: Метод Resync
                 href: access/desktop-database-reference/resync-method-ado.md
-              - name: Метод Save (ADO)
+              - name: Метод Save
                 href: access/desktop-database-reference/save-method-ado.md
-              - name: Метод SaveToFile (ADO)
+              - name: Метод SaveToFile
                 href: access/desktop-database-reference/savetofile-method-ado.md
-              - name: Метод Seek (ADO)
+              - name: Метод Seek
                 href: access/desktop-database-reference/seek-method-ado.md
-              - name: Метод SetEOS (ADO)
+              - name: Метод SetEOS
                 href: access/desktop-database-reference/seteos-method-ado.md
-              - name: Метод SkipLine (ADO)
+              - name: Метод SkipLine
                 href: access/desktop-database-reference/skipline-method-ado.md
-              - name: Метод Stat (ADO)
+              - name: Метод Stat
                 href: access/desktop-database-reference/stat-method-ado.md
-              - name: Метод Supports (ADO)
+              - name: Метод Supports
                 href: access/desktop-database-reference/supports-method-ado.md
-              - name: Метод Update (ADO)
+              - name: Метод Update
                 href: access/desktop-database-reference/update-method-ado.md
-              - name: Метод UpdateBatch (ADO)
+              - name: Метод UpdateBatch
                 href: access/desktop-database-reference/updatebatch-method-ado.md
-              - name: Метод Write (ADO)
+              - name: Метод Write
                 href: access/desktop-database-reference/write-method-ado.md
-              - name: Метод WriteText (ADO)
+              - name: Метод WriteText
                 href: access/desktop-database-reference/writetext-method-ado.md
             - name: События ADO
-              href: access/desktop-database-reference/ado-events-reference.md
+              href: access/desktop-database-reference/ado-events.md
               items:
-              - name: События ADO
-                href: access/desktop-database-reference/ado-events.md
-              - name: События BeginTransComplete, CommitTransComplete и RollbackTransComplete (ADO)
+              - name: События BeginTransComplete, CommitTransComplete и RollbackTransComplete
                 href: access/desktop-database-reference/begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md
-              - name: События ConnectComplete и Disconnect (ADO)
+              - name: События ConnectComplete и Disconnect
                 href: access/desktop-database-reference/connectcomplete-and-disconnect-events-ado.md
-              - name: Событие EndOfRecordset (ADO)
+              - name: Событие EndOfRecordset
                 href: access/desktop-database-reference/endofrecordset-event-ado.md
-              - name: Событие ExecuteComplete (ADO)
+              - name: Событие ExecuteComplete
                 href: access/desktop-database-reference/executecomplete-event-ado.md
-              - name: Событие FetchComplete (ADO)
+              - name: Событие FetchComplete
                 href: access/desktop-database-reference/fetchcomplete-event-ado.md
-              - name: Событие FetchProgress (ADO)
+              - name: Событие FetchProgress
                 href: access/desktop-database-reference/fetchprogress-event-ado.md
-              - name: Событие InfoMessage (ADO)
+              - name: Событие InfoMessage
                 href: access/desktop-database-reference/infomessage-event-ado.md
-              - name: События WillChangeField и FieldChangeComplete (ADO)
+              - name: События WillChangeField и FieldChangeComplete
                 href: access/desktop-database-reference/willchangefield-and-fieldchangecomplete-events-ado.md
-              - name: События WillChangeRecord и RecordChangeComplete (ADO)
+              - name: События WillChangeRecord и RecordChangeComplete
                 href: access/desktop-database-reference/willchangerecord-and-recordchangecomplete-events-ado.md
-              - name: События WillChangeRecordset и RecordsetChangeComplete (ADO)
+              - name: События WillChangeRecordset и RecordsetChangeComplete
                 href: access/desktop-database-reference/willchangerecordset-and-recordsetchangecomplete-events-ado.md
-              - name: Событие WillConnect (ADO)
+              - name: Событие WillConnect
                 href: access/desktop-database-reference/willconnect-event-ado.md
-              - name: Событие WillExecute (ADO)
+              - name: Событие WillExecute
                 href: access/desktop-database-reference/willexecute-event-ado.md
-              - name: События WillMove и MoveComplete (ADO)
+              - name: События WillMove и MoveComplete
                 href: access/desktop-database-reference/willmove-and-movecomplete-events-ado.md
             - name: Перечислимые константы ADO
-              href: access/desktop-database-reference/ado-enumerated-constants-reference.md
+              href: access/desktop-database-reference/ado-enumerated-constants.md
               items:
-              - name: Перечислимые константы ADO
-                href: access/desktop-database-reference/ado-enumerated-constants.md
               - name: ADCPROP_ASYNCTHREADPRIORITY_ENUM
                 href: access/desktop-database-reference/adcprop-asyncthreadpriority-enum.md
               - name: ADCPROP_AUTORECALC_ENUM
@@ -2779,15 +2632,11 @@ items:
               - name: XactAttributeEnum
                 href: access/desktop-database-reference/xactattributeenum.md
             - name: Примеры кода ADO
-              href: access/desktop-database-reference/ado-code-examples-access.md
+              href: access/desktop-database-reference/ado-code-examples.md
               items:
-              - name: Примеры кода ADO
-                href: access/desktop-database-reference/ado-code-examples.md
               - name: Примеры кода ADO в Microsoft Visual Basic
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic.md
                 items:
-                - name: Примеры кода ADO в Microsoft Visual Basic
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic.md
                 - name: Пример использования свойств AbsolutePage, PageCount и PageSize (VB)
                   href: access/desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-vb.md
                 - name: Пример использования свойств AbsolutePosition и CursorLocation (VB)
@@ -2913,10 +2762,8 @@ items:
                 - name: Пример использования свойства Version (VB)
                   href: access/desktop-database-reference/version-property-example-vb.md
               - name: Примеры кода ADO на языке сценариев VBScript
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition.md
                 items:
-                - name: Примеры кода ADO на языке сценариев VBScript
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition.md
                 - name: Пример использования метода AddNew (VBScript)
                   href: access/desktop-database-reference/addnew-method-example-vbscript.md
                 - name: Пример использования метода Clone (VBScript)
@@ -2932,10 +2779,8 @@ items:
                 - name: Пример использования методов Open и Close (VBScript)
                   href: access/desktop-database-reference/open-and-close-methods-example-vbscript.md
               - name: Примеры кода ADO в Microsoft Visual C++
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c.md
                 items:
-                - name: Примеры кода ADO в Microsoft Visual C++
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c.md
                 - name: Пример модели событий ADO (VC++)
                   href: access/desktop-database-reference/ado-events-model-example-vc.md
                 - name: Пример использования свойств AbsolutePage, PageCount и PageSize (VC++)
@@ -3047,10 +2892,8 @@ items:
                 - name: Пример использования свойства Version (VC++)
                   href: access/desktop-database-reference/version-property-example-vc.md
               - name: Примеры кода ADO на Microsoft Visual J++
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j.md
                 items:
-                - name: Примеры кода ADO на Microsoft Visual J++
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j.md
                 - name: Пример использования свойств AbsolutePage, PageCount и PageSize (VJ++)
                   href: access/desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-vj.md
                 - name: Пример использования свойств AbsolutePosition и CursorLocation (VJ++)
@@ -3156,10 +2999,8 @@ items:
                 - name: Пример использования свойства Version (VJ++)
                   href: access/desktop-database-reference/version-property-example-vj.md
               - name: Примеры кода ADO на Microsoft JScript
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-jscript-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-jscript.md
                 items:
-                - name: Примеры кода ADO на Microsoft JScript
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-jscript.md
                 - name: Пример использования свойств AbsolutePage, PageCount и PageSize (JScript)
                   href: access/desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-jscript.md
                 - name: Пример использования свойств AbsolutePosition и CursorLocation (JScript)
@@ -3185,486 +3026,454 @@ items:
                 - name: Пример использования метода GetRows (JScript)
                   href: access/desktop-database-reference/getrows-method-example-jscript.md
           - name: Справочник по API RDS
-            href: access/desktop-database-reference/rds-api-reference-topics.md
+            href: access/desktop-database-reference/rds-api-reference.md
             items:
-            - name: Справочник по API RDS
-              href: access/desktop-database-reference/rds-api-reference.md
             - name: Объекты RDS
-              href: access/desktop-database-reference/rds-objects-access.md
+              href: access/desktop-database-reference/rds-objects.md
               items:
-              - name: Объекты RDS
-                href: access/desktop-database-reference/rds-objects.md
-              - name: Объект DataControl (RDS)
+              - name: DataControl
                 href: access/desktop-database-reference/datacontrol-object-rds-ado.md
                 items:
-                - name: Объект DataControl (RDS)
+                - name: Объект DataControl
                   href: access/desktop-database-reference/datacontrol-object-rds.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/datacontrol-properties-methods-and-events-rds.md
-              - name: DataFactoryObject (RDSServer)
+              - name: DataFactory (RDSServer)
                 href: access/desktop-database-reference/datafactoryobject-rdsserver.md
                 items:
-                - name: Объект DataFactory (RDSServer)
+                - name: Объект DataFactory
                   href: access/desktop-database-reference/datafactory-object-rdsserver.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/datafactoryobject-properties-methods-and-events-rds.md
-              - name: Объект DataSpace (RDS)
+              - name: DataSpace
                 href: access/desktop-database-reference/dataspace-object-rds-ado.md
                 items:
-                - name: Объект DataSpace (RDS)
+                - name: Объект DataSpace
                   href: access/desktop-database-reference/dataspace-object-rds.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/dataspace-properties-methods-and-events-rds.md
             - name: Свойства RDS
-              href: access/desktop-database-reference/rds-properties-access.md
+              href: access/desktop-database-reference/rds-properties.md
               items:
-              - name: Свойства RDS
-                href: access/desktop-database-reference/rds-properties.md
-              - name: Свойство Connect (RDS)
+              - name: Свойство Connect
                 href: access/desktop-database-reference/connect-property-rds.md
-              - name: Свойство ExecuteOptions (RDS)
+              - name: Свойство ExecuteOptions
                 href: access/desktop-database-reference/executeoptions-property-rds.md
-              - name: Свойство FetchOptions (RDS)
+              - name: Свойство FetchOptions
                 href: access/desktop-database-reference/fetchoptions-property-rds.md
-              - name: Свойство FilterColumn (RDS)
+              - name: Свойство FilterColumn
                 href: access/desktop-database-reference/filtercolumn-property-rds.md
-              - name: Свойство FilterCriterion (RDS)
+              - name: Свойство FilterCriterion
                 href: access/desktop-database-reference/filtercriterion-property-rds.md
-              - name: Свойство FilterValue (RDS)
+              - name: Свойство FilterValue
                 href: access/desktop-database-reference/filtervalue-property-rds.md
-              - name: Свойство Handler (RDS)
+              - name: Свойство Handler
                 href: access/desktop-database-reference/handler-property-rds.md
-              - name: Свойство InternetTimeout (RDS)
+              - name: Свойство InternetTimeout
                 href: access/desktop-database-reference/internettimeout-property-rds.md
-              - name: Свойство ReadyState (RDS)
+              - name: Свойство ReadyState
                 href: access/desktop-database-reference/readystate-property-rds.md
-              - name: Свойства Recordset и SourceRecordset (RDS)
+              - name: Свойства Recordset и SourceRecordset
                 href: access/desktop-database-reference/recordset-sourcerecordset-properties-rds.md
-              - name: Свойство Server (RDS)
+              - name: Свойство Server
                 href: access/desktop-database-reference/server-property-rds.md
-              - name: Свойство SortColumn (RDS)
+              - name: Свойство SortColumn
                 href: access/desktop-database-reference/sortcolumn-property-rds.md
-              - name: Свойство SortDirection (RDS)
+              - name: Свойство SortDirection
                 href: access/desktop-database-reference/sortdirection-property-rds.md
-              - name: Свойство URL (RDS)
+              - name: Свойство URL
                 href: access/desktop-database-reference/url-property-rds.md
             - name: Методы RDS
-              href: access/desktop-database-reference/rds-methods-access.md
+              href: access/desktop-database-reference/rds-methods.md
               items:
-              - name: Методы RDS
-                href: access/desktop-database-reference/rds-methods.md
-              - name: Метод Cancel (RDS)
+              - name: Метод Cancel
                 href: access/desktop-database-reference/cancel-method-rds.md
-              - name: Метод CancelUpdate (RDS)
+              - name: Метод CancelUpdate
                 href: access/desktop-database-reference/cancelupdate-method-rds.md
-              - name: Метод ConvertToString (RDS)
+              - name: Метод ConvertToString
                 href: access/desktop-database-reference/converttostring-method-rds.md
-              - name: Метод CreateObject (RDS)
+              - name: Метод CreateObject
                 href: access/desktop-database-reference/createobject-method-rds.md
-              - name: Метод CreateRecordset (RDS)
+              - name: Метод CreateRecordset
                 href: access/desktop-database-reference/createrecordset-method-rds.md
-              - name: Методы MoveFirst, MoveLast, MoveNext и MovePrevious (RDS)
+              - name: Методы MoveFirst, MoveLast, MoveNext и MovePrevious
                 href: access/desktop-database-reference/movefirst-movelast-movenext-and-moveprevious-methods-rds.md
-              - name: Метод Query (RDS)
+              - name: Метод Query
                 href: access/desktop-database-reference/query-method-rds.md
-              - name: Метод Refresh (RDS)
+              - name: Метод Refresh
                 href: access/desktop-database-reference/refresh-method-rds.md
-              - name: Метод Reset (RDS)
+              - name: Метод Reset
                 href: access/desktop-database-reference/reset-method-rds.md
-              - name: Метод SubmitChanges (RDS)
+              - name: Метод SubmitChanges
                 href: access/desktop-database-reference/submitchanges-method-rds.md
             - name: События RDS
-              href: access/desktop-database-reference/rds-events-access.md
+              href: access/desktop-database-reference/rds-events.md
               items:
-              - name: События RDS
-                href: access/desktop-database-reference/rds-events.md
-              - name: Событие onError (RDS)
+              - name: Событие onError
                 href: access/desktop-database-reference/onerror-event-rds.md
-              - name: Событие onReadyStateChange (RDS)
+              - name: Событие onReadyStateChange
                 href: access/desktop-database-reference/onreadystatechange-event-rds.md
           - name: Справочник по API ADO MD
-            href: access/desktop-database-reference/ado-md-api-reference-topics.md
+            href: access/desktop-database-reference/ado-md-api-reference.md
             items:
-            - name: Справочник по API ADO MD
-              href: access/desktop-database-reference/ado-md-api-reference.md
             - name: Объекты ADO MD
-              href: access/desktop-database-reference/ado-md-objects-reference.md
+              href: access/desktop-database-reference/ado-md-objects.md
               items:
-              - name: Объекты ADO MD
-                href: access/desktop-database-reference/ado-md-objects.md
-              - name: Объект Axis (ADO MD)
+              - name: Axis
                 href: access/desktop-database-reference/axis-object-ado-md-reference.md
                 items:
-                - name: Объект Axis (ADO MD)
+                - name: Объект Axis
                   href: access/desktop-database-reference/axis-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/axis-properties-methods-and-events-ado-md.md
-              - name: Объект Catalog (ADO MD)
+              - name: Каталог
                 href: access/desktop-database-reference/catalog-object-ado-md-reference.md
                 items:
-                - name: Объект Catalog (ADO MD)
+                - name: Объект Catalog
                   href: access/desktop-database-reference/catalog-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/catalog-properties-methods-and-events-ado-md.md
-              - name: Объект Cell (ADO MD)
+              - name: Cell
                 href: access/desktop-database-reference/cell-object-ado-md-reference.md
                 items:
-                - name: Объект Cell (ADO MD)
+                - name: Объект Cell
                   href: access/desktop-database-reference/cell-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/cell-properties-methods-and-events-ado-md.md
-              - name: Объект Cellset (ADO MD)
+              - name: Cellset
                 href: access/desktop-database-reference/cellset-object-ado-md-reference.md
                 items:
-                - name: Объект Cellset (ADO MD)
+                - name: Объект Cellset
                   href: access/desktop-database-reference/cellset-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/cellset-properties-methods-and-events-ado-md.md
-              - name: Объект CubeDef (ADO MD)
+              - name: CubeDef
                 href: access/desktop-database-reference/cubedef-object-ado-md-reference.md
                 items:
-                - name: Объект CubeDef (ADO MD)
+                - name: Объект CubeDef
                   href: access/desktop-database-reference/cubedef-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/cubedef-properties-methods-and-events-ado-md.md
-              - name: Объект Dimension (ADO MD)
+              - name: Dimension
                 href: access/desktop-database-reference/dimension-object-ado-md-reference.md
                 items:
-                - name: Объект Dimension (ADO MD)
+                - name: Объект Dimension
                   href: access/desktop-database-reference/dimension-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/dimension-properties-methods-and-events-ado-md.md
-              - name: Объект Hierarchy (ADO MD)
+              - name: Hierarchy
                 href: access/desktop-database-reference/hierarchy-object-ado-md-reference.md
                 items:
-                - name: Объект Hierarchy (ADO MD)
+                - name: Объект Hierarchy
                   href: access/desktop-database-reference/hierarchy-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/hierarchy-properties-methods-and-events-ado-md.md
-              - name: Объект Level (ADO MD)
+              - name: Level
                 href: access/desktop-database-reference/level-object-ado-md-reference.md
                 items:
-                - name: Объект Level (ADO MD)
+                - name: Объект Level
                   href: access/desktop-database-reference/level-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/level-properties-methods-and-events-ado-md.md
-              - name: Объект Member (ADO MD)
+              - name: Member
                 href: access/desktop-database-reference/member-object-ado-md-reference.md
                 items:
-                - name: Объект Member (ADO MD)
+                - name: Объект Member
                   href: access/desktop-database-reference/member-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/member-properties-methods-and-events-ado-md.md
-              - name: Объект Position (ADO MD)
+              - name: Position
                 href: access/desktop-database-reference/position-object-ado-md-reference.md
                 items:
-                - name: Объект Position (ADO MD)
+                - name: Объект Position
                   href: access/desktop-database-reference/position-object-ado-md.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/position-properties-methods-and-events-ado-md.md
             - name: Коллекции ADO MD
-              href: access/desktop-database-reference/ado-md-collections-reference.md
+              href: access/desktop-database-reference/ado-md-collections.md
               items:
-              - name: Коллекции ADO MD
-                href: access/desktop-database-reference/ado-md-collections.md
-              - name: Коллекция Axes (ADO MD)
+              - name: Axes
                 href: access/desktop-database-reference/axes-collection-ado-md-reference.md
                 items:
-                - name: Коллекция Axes (ADO MD)
+                - name: Коллекция Axes
                   href: access/desktop-database-reference/axes-collection-ado-md.md
                 - name: Свойства, методы и события коллекции Axes
                   href: access/desktop-database-reference/axes-collection-properties-methods-and-events-ado-md.md
-              - name: Коллекция CubeDefs (ADO MD)
+              - name: CubeDefs
                 href: access/desktop-database-reference/cubedefs-collection-ado-md-reference.md
                 items:
-                - name: Коллекция CubeDefs (ADO MD)
+                - name: Коллекция CubeDefs
                   href: access/desktop-database-reference/cubedefs-collection-ado-md.md
                 - name: Свойства, методы и события коллекции CubeDefs
                   href: access/desktop-database-reference/cubedefs-collection-properties-methods-and-events-ado-md.md
-              - name: Коллекция Dimensions (ADO MD)
+              - name: Dimensions
                 href: access/desktop-database-reference/dimensions-collection-ado-md-reference.md
                 items:
-                - name: Коллекция Dimensions (ADO MD)
+                - name: Коллекция Dimensions
                   href: access/desktop-database-reference/dimensions-collection-ado-md.md
                 - name: Свойства, методы и события коллекции Dimensions
                   href: access/desktop-database-reference/dimensions-collection-properties-methods-and-events-ado-md.md
-              - name: Коллекция Hierarchies (ADO MD)
+              - name: Hierarchies
                 href: access/desktop-database-reference/hierarchies-collection-ado-md-reference.md
                 items:
-                - name: Коллекция Hierarchies (ADO MD)
+                - name: Коллекция Hierarchies
                   href: access/desktop-database-reference/hierarchies-collection-ado-md.md
                 - name: Свойства, методы и события коллекции Hierarchies
                   href: access/desktop-database-reference/hierarchies-collection-properties-methods-and-events-ado-md.md
-              - name: Коллекция Levels (ADO MD)
+              - name: Levels
                 href: access/desktop-database-reference/levels-collection-ado-md-reference.md
                 items:
-                - name: Коллекция Levels (ADO MD)
+                - name: Коллекция Levels
                   href: access/desktop-database-reference/levels-collection-ado-md.md
                 - name: Свойства, методы и события коллекции Levels
                   href: access/desktop-database-reference/levels-collection-properties-methods-and-events-ado-md.md
-              - name: Коллекция Members (ADO MD)
+              - name: Members
                 href: access/desktop-database-reference/members-collection-ado-md-reference.md
                 items:
-                - name: Коллекция Members (ADO MD)
+                - name: Коллекция Members
                   href: access/desktop-database-reference/members-collection-ado-md.md
                 - name: Свойства, методы и события коллекции Members
                   href: access/desktop-database-reference/members-collection-properties-methods-and-events-ado-md.md
-              - name: Коллекция Positions (ADO MD)
+              - name: Positions
                 href: access/desktop-database-reference/positions-collection-ado-md-reference.md
                 items:
-                - name: Коллекция Positions (ADO MD)
+                - name: Коллекция Positions
                   href: access/desktop-database-reference/positions-collection-ado-md.md
                 - name: Свойства, методы и события коллекции Positions
                   href: access/desktop-database-reference/positions-collection-properties-methods-and-events-ado-md.md
             - name: Свойства ADO MD
-              href: access/desktop-database-reference/ado-md-properties-reference.md
+              href: access/desktop-database-reference/ado-md-properties.md
               items:
-              - name: Свойства ADO MD
-                href: access/desktop-database-reference/ado-md-properties.md
-              - name: Свойство ActiveConnection (ADO MD)
+              - name: Свойство ActiveConnection
                 href: access/desktop-database-reference/activeconnection-property-ado-md.md
-              - name: Свойство Caption (ADO MD)
+              - name: Свойство Caption
                 href: access/desktop-database-reference/caption-property-ado-md.md
-              - name: Свойство ChildCount (ADO MD)
+              - name: Свойство ChildCount
                 href: access/desktop-database-reference/childcount-property-ado-md.md
-              - name: Свойство Children (ADO MD)
+              - name: Свойство Children
                 href: access/desktop-database-reference/children-property-ado-md.md
-              - name: Свойство Depth (ADO MD)
+              - name: Свойство Depth
                 href: access/desktop-database-reference/depth-property-ado-md.md
-              - name: Свойство Description (ADO MD)
+              - name: Свойство Description
                 href: access/desktop-database-reference/description-property-ado-md.md
-              - name: Свойство DimensionCount (ADO MD)
+              - name: Свойство DimensionCount
                 href: access/desktop-database-reference/dimensioncount-property-ado-md.md
-              - name: Свойство DrilledDown (ADO MD)
+              - name: Свойство DrilledDown
                 href: access/desktop-database-reference/drilleddown-property-ado-md.md
-              - name: Свойство FilterAxis (ADO MD)
+              - name: Свойство FilterAxis
                 href: access/desktop-database-reference/filteraxis-property-ado-md.md
-              - name: Свойство FormattedValue (ADO MD)
+              - name: Свойство FormattedValue
                 href: access/desktop-database-reference/formattedvalue-property-ado-md.md
-              - name: Свойство Item (ADO MD Cellset)
+              - name: Свойство Item (Cellset в ADO MD)
                 href: access/desktop-database-reference/item-property-ado-md-cellset.md
-              - name: Свойство LevelDepth (ADO MD)
+              - name: Свойство LevelDepth
                 href: access/desktop-database-reference/leveldepth-property-ado-md.md
-              - name: Свойство LevelName (ADO MD)
+              - name: Свойство LevelName
                 href: access/desktop-database-reference/levelname-property-ado-md.md
-              - name: Свойство Name (ADO MD)
+              - name: Свойство Name
                 href: access/desktop-database-reference/name-property-ado-md.md
-              - name: Свойство Ordinal (ADO MD Cell)
+              - name: Свойство Ordinal (Cell в ADO MD)
                 href: access/desktop-database-reference/ordinal-property-ado-md-cell.md
-              - name: Свойство Ordinal (ADO MD Position)
+              - name: Свойство Ordinal (Position в ADO MD)
                 href: access/desktop-database-reference/ordinal-property-ado-md-position.md
-              - name: Свойство Parent (ADO MD)
+              - name: Свойство Parent
                 href: access/desktop-database-reference/parent-property-ado-md.md
-              - name: Свойство ParentSameAsPrev (ADO MD)
+              - name: Свойство ParentSameAsPrev
                 href: access/desktop-database-reference/parentsameasprev-property-ado-md.md
-              - name: Свойство Source (ADO MD)
+              - name: Свойство Source
                 href: access/desktop-database-reference/source-property-ado-md.md
-              - name: Свойство State (ADO MD)
+              - name: Свойство State
                 href: access/desktop-database-reference/state-property-ado-md.md
-              - name: Свойство Type (ADO MD)
+              - name: Свойство Type
                 href: access/desktop-database-reference/type-property-ado-md.md
-              - name: Свойство UniqueName (ADO MD)
+              - name: Свойство UniqueName
                 href: access/desktop-database-reference/uniquename-property-ado-md.md
-              - name: Свойство Value (ADO MD)
+              - name: Свойство Value
                 href: access/desktop-database-reference/value-property-ado-md.md
             - name: Методы ADO MD
-              href: access/desktop-database-reference/ado-md-methods-reference.md
+              href: access/desktop-database-reference/ado-md-methods.md
               items:
-              - name: Методы ADO MD
-                href: access/desktop-database-reference/ado-md-methods.md
-              - name: Метод Close (ADO MD)
+              - name: Метод Close
                 href: access/desktop-database-reference/close-method-ado-md.md
-              - name: Метод Open (ADO MD)
+              - name: Метод Open
                 href: access/desktop-database-reference/open-method-ado-md.md
             - name: Перечислимые константы ADO MD
-              href: access/desktop-database-reference/ado-md-enumerated-constants-reference.md
+              href: access/desktop-database-reference/ado-md-enumerated-constants.md
               items:
-              - name: Перечислимые константы ADO MD
-                href: access/desktop-database-reference/ado-md-enumerated-constants.md
               - name: MemberTypeEnum
                 href: access/desktop-database-reference/membertypeenum.md
           - name: Справочник по API ADOX
-            href: access/desktop-database-reference/adox-api-reference-topics.md
+            href: access/desktop-database-reference/adox-api-reference.md
             items:
-            - name: Справочник по API ADOX
-              href: access/desktop-database-reference/adox-api-reference.md
             - name: Объекты ADOX
-              href: access/desktop-database-reference/adox-objects-reference.md
+              href: access/desktop-database-reference/adox-objects.md
               items:
-              - name: Объекты ADOX
-                href: access/desktop-database-reference/adox-objects.md
-              - name: Объект Catalog (ADOX)
+              - name: Каталог
                 href: access/desktop-database-reference/catalog-object-adox-reference.md
                 items:
-                - name: Объект Catalog (ADOX)
+                - name: Объект Catalog
                   href: access/desktop-database-reference/catalog-object-adox.md
-                - name: Свойства, методы и события объекта Catalog (ADOX)
+                - name: Свойства, методы и события
                   href: access/desktop-database-reference/catalog-properties-methods-and-events-adox.md
-              - name: Объект Column (ADOX)
+              - name: Column
                 href: access/desktop-database-reference/column-object-adox-reference.md
                 items:
-                - name: Объект Column (ADOX)
+                - name: Объект Column
                   href: access/desktop-database-reference/column-object-adox.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/column-properties-methods-and-events-adox.md
-              - name: Объект Group (ADOX)
+              - name: Group
                 href: access/desktop-database-reference/group-object-adox-reference.md
                 items:
-                - name: Объект Group (ADOX)
+                - name: Объект Group
                   href: access/desktop-database-reference/group-object-adox.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/group-properties-methods-and-events-adox.md
-              - name: Объект Index (ADOX)
+              - name: Index
                 href: access/desktop-database-reference/index-object-adox-reference.md
                 items:
-                - name: Объект Index (ADOX)
+                - name: Объект Index
                   href: access/desktop-database-reference/index-object-adox.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/index-properties-methods-and-events-adox.md
-              - name: Объект Key (ADOX)
+              - name: Key
                 href: access/desktop-database-reference/key-object-adox-reference.md
                 items:
-                - name: Объект Key (ADOX)
+                - name: Объект Key
                   href: access/desktop-database-reference/key-object-adox.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/key-properties-methods-and-events-adox.md
-              - name: Объект Procedure (ADOX)
+              - name: Procedure
                 href: access/desktop-database-reference/procedure-object-adox-reference.md
                 items:
-                - name: Объект Procedure (ADOX)
+                - name: Объект Procedure
                   href: access/desktop-database-reference/procedure-object-adox.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/procedure-properties-methods-and-events-adox.md
-              - name: Объект Table (ADOX)
+              - name: Table
                 href: access/desktop-database-reference/table-object-adox-reference.md
                 items:
-                - name: Объект Table (ADOX)
+                - name: Объект Table
                   href: access/desktop-database-reference/table-object-adox.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/table-properties-methods-and-events-adox.md
-              - name: Объект User (ADOX)
+              - name: User
                 href: access/desktop-database-reference/user-object-adox-reference.md
                 items:
-                - name: Объект User (ADOX)
+                - name: Объект User
                   href: access/desktop-database-reference/user-object-adox.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/user-properties-methods-and-events-adox.md
-              - name: Объект View (ADOX)
+              - name: View
                 href: access/desktop-database-reference/view-object-adox-reference.md
                 items:
-                - name: Объект View (ADOX)
+                - name: Объект View
                   href: access/desktop-database-reference/view-object-adox.md
                 - name: Свойства, методы и события
                   href: access/desktop-database-reference/view-properties-methods-and-events-adox.md
             - name: Коллекции ADOX
-              href: access/desktop-database-reference/adox-collections-reference.md
+              href: access/desktop-database-reference/adox-collections.md
               items:
-              - name: Коллекции ADOX
-                href: access/desktop-database-reference/adox-collections.md
-              - name: Коллекция Columns (ADOX)
+              - name: Columns
                 href: access/desktop-database-reference/columns-collection-adox-reference.md
                 items:
-                - name: Коллекция Columns (ADOX)
+                - name: Коллекция Columns
                   href: access/desktop-database-reference/columns-collection-adox.md
-                - name: Свойства, методы и события коллекции Columns (ADOX)
+                - name: Свойства, методы и события коллекции Columns
                   href: access/desktop-database-reference/columns-collection-properties-methods-and-events-adox.md
-              - name: Коллекция Groups (ADOX)
+              - name: Groups
                 href: access/desktop-database-reference/groups-collection-adox-reference.md
                 items:
-                - name: Коллекция Groups (ADOX)
+                - name: Коллекция Groups
                   href: access/desktop-database-reference/groups-collection-adox.md
-                - name: Свойства, методы и события коллекции Groups (ADOX)
+                - name: Свойства, методы и события коллекции Groups
                   href: access/desktop-database-reference/groups-collection-properties-methods-and-events-adox.md
-              - name: Коллекция Indexes (ADOX)
+              - name: Indexes
                 href: access/desktop-database-reference/indexes-collection-adox-reference.md
                 items:
-                - name: Коллекция Indexes (ADOX)
+                - name: Коллекция Indexes
                   href: access/desktop-database-reference/indexes-collection-adox.md
-                - name: Свойства, методы и события коллекции Indexes (ADOX)
+                - name: Свойства, методы и события коллекции Indexes
                   href: access/desktop-database-reference/indexes-collection-properties-methods-and-events-adox.md
-              - name: Коллекция Keys (ADOX)
+              - name: Keys
                 href: access/desktop-database-reference/keys-collection-adox-reference.md
                 items:
-                - name: Коллекция Keys (ADOX)
+                - name: Коллекция Keys
                   href: access/desktop-database-reference/keys-collection-adox.md
-                - name: Свойства, методы и события коллекции Keys (ADOX)
+                - name: Свойства, методы и события коллекции Keys
                   href: access/desktop-database-reference/keys-collection-properties-methods-and-events-adox.md
-              - name: Коллекция Procedures (ADOX)
+              - name: Procedures
                 href: access/desktop-database-reference/procedures-collection-adox-reference.md
                 items:
-                - name: Коллекция Procedures (ADOX)
+                - name: Коллекция Procedures
                   href: access/desktop-database-reference/procedures-collection-adox.md
-                - name: Свойства, методы и события коллекции Procedures (ADOX)
+                - name: Свойства, методы и события коллекции Procedures
                   href: access/desktop-database-reference/procedures-collection-properties-methods-and-events-adox.md
-              - name: Коллекция Tables (ADOX)
+              - name: Tables
                 href: access/desktop-database-reference/tables-collection-adox-reference.md
                 items:
-                - name: Коллекция Tables (ADOX)
+                - name: Коллекция Tables
                   href: access/desktop-database-reference/tables-collection-adox.md
-                - name: Свойства, методы и события коллекции Tables (ADOX)
+                - name: Свойства, методы и события коллекции Tables
                   href: access/desktop-database-reference/tables-collection-properties-methods-and-events-adox.md
-              - name: Коллекция Users (ADOX)
+              - name: Users
                 href: access/desktop-database-reference/users-collection-adox-reference.md
                 items:
-                - name: Коллекция Users (ADOX)
+                - name: Коллекция Users
                   href: access/desktop-database-reference/users-collection-adox.md
-                - name: Свойства, методы и события коллекции Users (ADOX)
+                - name: Свойства, методы и события коллекции Users
                   href: access/desktop-database-reference/users-collection-properties-methods-and-events-adox.md
-              - name: Коллекция Views (ADOX)
+              - name: Views
                 href: access/desktop-database-reference/views-collection-adox-reference.md
                 items:
-                - name: Коллекция Views (ADOX)
+                - name: Коллекция Views
                   href: access/desktop-database-reference/views-collection-adox.md
-                - name: Свойства, методы и события коллекции Views (ADOX)
+                - name: Свойства, методы и события коллекции Views
                   href: access/desktop-database-reference/views-collection-properties-methods-and-events-adox.md
             - name: Свойства ADOX
-              href: access/desktop-database-reference/adox-properties-reference.md
+              href: access/desktop-database-reference/adox-properties.md
               items:
-              - name: Свойства ADOX
-                href: access/desktop-database-reference/adox-properties.md
-              - name: Свойство ActiveConnection (ADOX)
+              - name: Свойство ActiveConnection
                 href: access/desktop-database-reference/activeconnection-property-adox.md
-              - name: Свойство Attributes (ADOX)
+              - name: Свойство Attributes
                 href: access/desktop-database-reference/attributes-property-adox.md
-              - name: Свойство Clustered (ADOX)
+              - name: Свойство Clustered
                 href: access/desktop-database-reference/clustered-property-adox.md
-              - name: Свойство Command (ADOX)
+              - name: Свойство Command
                 href: access/desktop-database-reference/command-property-adox.md
-              - name: Свойство DateCreated (ADOX)
+              - name: Свойство DateCreated
                 href: access/desktop-database-reference/datecreated-property-adox.md
-              - name: Свойство DateModified (ADOX)
+              - name: Свойство DateModified
                 href: access/desktop-database-reference/datemodified-property-adox.md
-              - name: Свойство DefinedSize (ADOX)
+              - name: Свойство DefinedSize
                 href: access/desktop-database-reference/definedsize-property-adox.md
-              - name: Свойство DeleteRule (ADOX)
+              - name: Свойство DeleteRule
                 href: access/desktop-database-reference/deleterule-property-adox.md
-              - name: Свойство IndexNulls (ADOX)
+              - name: Свойство IndexNulls
                 href: access/desktop-database-reference/indexnulls-property-adox.md
-              - name: Свойство Name (ADOX)
+              - name: Свойство Name
                 href: access/desktop-database-reference/name-property-adox.md
-              - name: Свойство NumericScale (ADOX)
+              - name: Свойство NumericScale
                 href: access/desktop-database-reference/numericscale-property-adox.md
-              - name: Свойство ParentCatalog (ADOX)
+              - name: Свойство ParentCatalog
                 href: access/desktop-database-reference/parentcatalog-property-adox.md
-              - name: Свойство Precision (ADOX)
+              - name: Свойство Precision
                 href: access/desktop-database-reference/precision-property-adox.md
-              - name: Свойство PrimaryKey (ADOX)
+              - name: Свойство PrimaryKey
                 href: access/desktop-database-reference/primarykey-property-adox.md
-              - name: Свойство RelatedColumn (ADOX)
+              - name: Свойство RelatedColumn
                 href: access/desktop-database-reference/relatedcolumn-property-adox.md
-              - name: Свойство RelatedTable (ADOX)
+              - name: Свойство RelatedTable
                 href: access/desktop-database-reference/relatedtable-property-adox.md
-              - name: Свойство SortOrder (ADOX)
+              - name: Свойство SortOrder
                 href: access/desktop-database-reference/sortorder-property-adox.md
-              - name: Свойство Unique (ADOX)
+              - name: Свойство Unique
                 href: access/desktop-database-reference/unique-property-adox.md
-              - name: Свойство UpdateRule (ADOX)
+              - name: Свойство UpdateRule
                 href: access/desktop-database-reference/updaterule-property-adox.md
             - name: Методы ADOX
-              href: access/desktop-database-reference/adox-methods-reference.md
+              href: access/desktop-database-reference/adox-methods.md
               items:
-              - name: Методы ADOX
-                href: access/desktop-database-reference/adox-methods.md
               - name: Метод Append (коллекция Columns в ADOX)
                 href: access/desktop-database-reference/append-method-adox-columns.md
               - name: Метод Append (коллекция Groups в ADOX)
@@ -3679,25 +3488,23 @@ items:
                 href: access/desktop-database-reference/append-method-adox-tables.md
               - name: Метод Append (коллекция Users в ADOX)
                 href: access/desktop-database-reference/append-method-adox-users.md
-              - name: Метод Append (коллекция Views в ADOX)
+              - name: Метод Append (Views в ADOX)
                 href: access/desktop-database-reference/append-method-adox-views.md
-              - name: Метод ChangePassword (ADOX)
+              - name: Метод ChangePassword
                 href: access/desktop-database-reference/changepassword-method-adox.md
-              - name: Метод Create (ADOX)
+              - name: Метод Create
                 href: access/desktop-database-reference/create-method-adox.md
               - name: Метод Delete (коллекции ADOX)
                 href: access/desktop-database-reference/delete-method-adox-collections.md
-              - name: Метод GetObjectOwner (ADOX)
+              - name: Метод GetObjectOwner
                 href: access/desktop-database-reference/getobjectowner-method-adox.md
-              - name: Метод GetPermissions (ADOX)
+              - name: Метод GetPermissions
                 href: access/desktop-database-reference/getpermissions-method-adox.md
-              - name: Метод SetPermissions (ADOX)
+              - name: Метод SetPermissions
                 href: access/desktop-database-reference/setpermissions-method-adox.md
             - name: Перечислимые константы ADOX
-              href: access/desktop-database-reference/adox-enumerated-constants-reference.md
+              href: access/desktop-database-reference/adox-enumerated-constants.md
               items:
-              - name: Перечислимые константы ADOX
-                href: access/desktop-database-reference/adox-enumerated-constants.md
               - name: ActionEnum
                 href: access/desktop-database-reference/actionenum.md
               - name: AllowNullsEnum
@@ -3715,15 +3522,11 @@ items:
               - name: SortOrderEnum
                 href: access/desktop-database-reference/sortorderenum.md
             - name: Примеры кода ADOX
-              href: access/desktop-database-reference/adox-code-example-topics.md
+              href: access/desktop-database-reference/adox-code-examples.md
               items:
-              - name: Примеры кода ADOX
-                href: access/desktop-database-reference/adox-code-examples.md
               - name: Примеры кода ADOX на Microsoft Visual Basic
-                href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic-topics.md
+                href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic.md
                 items:
-                - name: Примеры кода ADOX на Microsoft Visual Basic
-                  href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic.md
                 - name: Пример использования свойства Attributes (VB)
                   href: access/desktop-database-reference/attributes-property-example-vb.md
                 - name: Пример использования свойства ActiveConnection объекта Catalog (VB)
@@ -3783,10 +3586,8 @@ items:
                 - name: Пример использования метода Refresh для коллекции Views (VB)
                   href: access/desktop-database-reference/views-refresh-method-example-vb.md
               - name: Примеры кода ADOX на Microsoft Visual C++
-                href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c-topics.md
+                href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c.md
                 items:
-                - name: Примеры кода ADOX на Microsoft Visual C++
-                  href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c.md
                 - name: Пример использования свойства Attributes (VC++)
                   href: access/desktop-database-reference/attributes-property-example-vc.md
                 - name: Пример использования свойства ActiveConnection объекта Catalog (VC++)
@@ -12592,9 +12393,9 @@ items:
     href: swayuri.md
   - name: Схемы URI Office
     href: office-uri-schemes.md
-ms.openlocfilehash: df26ee538c123ab874a29b94e78322683b12e0d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a2f1597f1fefc42a1859c154c05bc66de2814f40
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25453826"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947975"
