@@ -6,33 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249567(v=office.15)
 ms:contentKeyID: 48545989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52c1d64d6c6e9c2e7413f7e31dde73ebdf306ae1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 57dbb8d6cf526f51999c22b0cb0fffc84d34f3e3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946568"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025807"
 ---
-# <a name="catalog-properties-methods-and-events-adox"></a><span data-ttu-id="daa24-102">Свойства, методы и события объекта Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="daa24-102">Catalog properties, methods, and events (ADOX)</span></span>
+# <a name="catalog-properties-methods-and-events-adox"></a><span data-ttu-id="ea218-102">Свойства, методы и события объекта Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ea218-102">Catalog properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="daa24-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="daa24-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="ea218-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea218-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-## <a name="propertiescollections"></a><span data-ttu-id="daa24-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="daa24-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="ea218-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="ea218-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="daa24-105">Свойство ActiveConnection</span><span class="sxs-lookup"><span data-stu-id="daa24-105">ActiveConnection property</span></span>](activeconnection-property-adox.md)
-- [<span data-ttu-id="daa24-106">Семейства сайтов групп</span><span class="sxs-lookup"><span data-stu-id="daa24-106">Groups collection</span></span>](groups-collection-adox.md)
-- [<span data-ttu-id="daa24-107">Процедуры семейства сайтов</span><span class="sxs-lookup"><span data-stu-id="daa24-107">Procedures collection</span></span>](procedures-collection-adox.md)
-- [<span data-ttu-id="daa24-108">Коллекция таблиц</span><span class="sxs-lookup"><span data-stu-id="daa24-108">Tables collection</span></span>](tables-collection-adox.md)
-- [<span data-ttu-id="daa24-109">Пользователи семейства сайтов</span><span class="sxs-lookup"><span data-stu-id="daa24-109">Users collection</span></span>](users-collection-adox.md)
-- [<span data-ttu-id="daa24-110">Коллекции представлений</span><span class="sxs-lookup"><span data-stu-id="daa24-110">Views collection</span></span>](views-collection-adox.md)
+- [<span data-ttu-id="ea218-105">Свойство ActiveConnection</span><span class="sxs-lookup"><span data-stu-id="ea218-105">ActiveConnection property</span></span>](activeconnection-property-adox.md)
+- [<span data-ttu-id="ea218-106">Коллекция Groups</span><span class="sxs-lookup"><span data-stu-id="ea218-106">Groups collection</span></span>](groups-collection-adox.md)
+- [<span data-ttu-id="ea218-107">Коллекция Procedures</span><span class="sxs-lookup"><span data-stu-id="ea218-107">Procedures collection</span></span>](procedures-collection-adox.md)
+- [<span data-ttu-id="ea218-108">Коллекция Tables</span><span class="sxs-lookup"><span data-stu-id="ea218-108">Tables collection</span></span>](tables-collection-adox.md)
+- [<span data-ttu-id="ea218-109">Коллекция Users</span><span class="sxs-lookup"><span data-stu-id="ea218-109">Users collection</span></span>](users-collection-adox.md)
+- [<span data-ttu-id="ea218-110">Коллекция Views</span><span class="sxs-lookup"><span data-stu-id="ea218-110">Views collection</span></span>](views-collection-adox.md)
 
-## <a name="methods"></a><span data-ttu-id="daa24-111">Методы</span><span class="sxs-lookup"><span data-stu-id="daa24-111">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="ea218-111">Методы</span><span class="sxs-lookup"><span data-stu-id="ea218-111">Methods</span></span>
 
-- [<span data-ttu-id="daa24-112">Создайте метод</span><span class="sxs-lookup"><span data-stu-id="daa24-112">Create method</span></span>](create-method-adox.md)
-- [<span data-ttu-id="daa24-113">Метод GetObjectOwner</span><span class="sxs-lookup"><span data-stu-id="daa24-113">GetObjectOwner method</span></span>](getobjectowner-method-adox.md)
-- <span data-ttu-id="daa24-114">[Метод SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="daa24-114">[SetObjectOwner method](https://msdn.microsoft.com/library/jj249006\(v=office.15\))</span></span>
+- [<span data-ttu-id="ea218-112">Метод Create</span><span class="sxs-lookup"><span data-stu-id="ea218-112">Create method</span></span>](create-method-adox.md)
+- [<span data-ttu-id="ea218-113">Метод GetObjectOwner</span><span class="sxs-lookup"><span data-stu-id="ea218-113">GetObjectOwner method</span></span>](getobjectowner-method-adox.md)
+- [<span data-ttu-id="ea218-114">Метод SetObjectOwner</span><span class="sxs-lookup"><span data-stu-id="ea218-114">SetObjectOwner method</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
 
-## <a name="events"></a><span data-ttu-id="daa24-115">Мероприятия</span><span class="sxs-lookup"><span data-stu-id="daa24-115">Events</span></span>
+## <a name="events"></a><span data-ttu-id="ea218-115">События</span><span class="sxs-lookup"><span data-stu-id="ea218-115">Events</span></span>
 
-<span data-ttu-id="daa24-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="daa24-116">None.</span></span>
+<span data-ttu-id="ea218-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="ea218-116">None.</span></span>
 

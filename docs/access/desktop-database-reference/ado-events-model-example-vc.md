@@ -6,42 +6,42 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f4ef26113d81910fa989196a0b58865e1ca62f3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 6aa7828ac915b737fda541e1c9e0b967d8fe7fb0
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945756"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026304"
 ---
-# <a name="ado-events-model-example-vc"></a><span data-ttu-id="a979e-102">Пример модели событий ADO (VC ++)</span><span class="sxs-lookup"><span data-stu-id="a979e-102">ADO Events Model example (VC++)</span></span>
+# <a name="ado-events-model-example-vc"></a><span data-ttu-id="a6f42-102">Пример модели событий ADO (VC ++)</span><span class="sxs-lookup"><span data-stu-id="a6f42-102">ADO Events Model example (VC++)</span></span>
 
-<span data-ttu-id="a979e-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a979e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a6f42-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6f42-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a979e-104">В разделе Visual C++ [При создании экземпляра события ADO по языкам](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) дает общее описание способов создания экземпляра модели событий ADO.</span><span class="sxs-lookup"><span data-stu-id="a979e-104">The Visual C++ section of [ADO Event Instantiation by Language](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) gives a general description of how to instantiate the ADO event model.</span></span> <span data-ttu-id="a979e-105">Ниже приведен конкретный пример создания экземпляра модели событий в среде, созданные \*\* \#импорта\*\* директивы.</span><span class="sxs-lookup"><span data-stu-id="a979e-105">The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.</span></span>
+<span data-ttu-id="a6f42-104">В разделе Visual C++ [При создании экземпляра события ADO по языкам](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) дает общее описание способов создания экземпляра модели событий ADO.</span><span class="sxs-lookup"><span data-stu-id="a6f42-104">The Visual C++ section of [ADO Event Instantiation by Language](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) gives a general description of how to instantiate the ADO event model.</span></span> <span data-ttu-id="a6f42-105">Ниже приведен конкретный пример создания экземпляра модели событий в среде, созданные \*\* \#импорта\*\* директивы.</span><span class="sxs-lookup"><span data-stu-id="a6f42-105">The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.</span></span>
 
-<span data-ttu-id="a979e-106">Общее описание использует **adoint.h** справки для подписей методов.</span><span class="sxs-lookup"><span data-stu-id="a979e-106">The general description uses **adoint.h** as a reference for method signatures.</span></span> <span data-ttu-id="a979e-107">Тем не менее, несколько подробных сведений в общее описание немного меняется в результате использования \*\* \#импорта\*\* директивы:</span><span class="sxs-lookup"><span data-stu-id="a979e-107">However, a few details in the general description change slightly as a result of using the **\#import** directive:</span></span>
+<span data-ttu-id="a6f42-106">Общее описание использует **adoint.h** справки для подписей методов.</span><span class="sxs-lookup"><span data-stu-id="a6f42-106">The general description uses **adoint.h** as a reference for method signatures.</span></span> <span data-ttu-id="a6f42-107">Тем не менее, несколько подробных сведений в общее описание немного меняется в результате использования \*\* \#импорта\*\* директивы:</span><span class="sxs-lookup"><span data-stu-id="a6f42-107">However, a few details in the general description change slightly as a result of using the **\#import** directive:</span></span>
 
-- <span data-ttu-id="a979e-108">\*\* \#Импорта\*\* директива разрешается **typedef**абонента и модификаторы и типы данных подпись метода фундаментальные формах.</span><span class="sxs-lookup"><span data-stu-id="a979e-108">The **\#import** directive resolves **typedef**'s, and method signature data types and modifiers to their fundamental forms.</span></span>
+- <span data-ttu-id="a6f42-108">\*\* \#Импорта\*\* директива разрешается **typedef**абонента и модификаторы и типы данных подпись метода фундаментальные формах.</span><span class="sxs-lookup"><span data-stu-id="a6f42-108">The **\#import** directive resolves **typedef**'s, and method signature data types and modifiers to their fundamental forms.</span></span>
 
-- <span data-ttu-id="a979e-109">Чисто виртуальные методы, которые должны быть перезаписаны начинаются с "**необработанные\_**«.</span><span class="sxs-lookup"><span data-stu-id="a979e-109">The pure virtual methods that must be overwritten are all prefixed by "**raw\_**".</span></span>
+- <span data-ttu-id="a6f42-109">Чисто виртуальные методы, которые должны быть перезаписаны начинаются с "**необработанные\_**«.</span><span class="sxs-lookup"><span data-stu-id="a6f42-109">The pure virtual methods that must be overwritten are all prefixed by "**raw\_**".</span></span>
 
-<span data-ttu-id="a979e-110">Часть кода просто отражает стиль написания кода.</span><span class="sxs-lookup"><span data-stu-id="a979e-110">Some of the code simply reflects coding style.</span></span>
+<span data-ttu-id="a6f42-110">Часть кода просто отражает стиль написания кода.</span><span class="sxs-lookup"><span data-stu-id="a6f42-110">Some of the code simply reflects coding style.</span></span>
 
-- <span data-ttu-id="a979e-111">Указатель на **IUnknown** используемого метода **уведомлений** явным образом полученное с помощью вызова **QueryInterface**.</span><span class="sxs-lookup"><span data-stu-id="a979e-111">The pointer to **IUnknown** used by the **Advise** method is obtained explicitly with a call to **QueryInterface**.</span></span>
+- <span data-ttu-id="a6f42-111">Указатель на **IUnknown** используемого метода **уведомлений** явным образом полученное с помощью вызова **QueryInterface**.</span><span class="sxs-lookup"><span data-stu-id="a6f42-111">The pointer to **IUnknown** used by the **Advise** method is obtained explicitly with a call to **QueryInterface**.</span></span>
 
-- <span data-ttu-id="a979e-112">Не требуется явно кода деструктор в определения класса.</span><span class="sxs-lookup"><span data-stu-id="a979e-112">You don't need to explicitly code a destructor in the class definitions.</span></span>
+- <span data-ttu-id="a6f42-112">Не требуется явно кода деструктор в определения класса.</span><span class="sxs-lookup"><span data-stu-id="a6f42-112">You don't need to explicitly code a destructor in the class definitions.</span></span>
 
-- <span data-ttu-id="a979e-113">Может потребоваться кода более надежная реализации QueryInterface, AddRef и Release.</span><span class="sxs-lookup"><span data-stu-id="a979e-113">You may want to code more robust implementations of QueryInterface, AddRef, and Release.</span></span>
+- <span data-ttu-id="a6f42-113">Может потребоваться кода более надежная реализации QueryInterface, AddRef и Release.</span><span class="sxs-lookup"><span data-stu-id="a6f42-113">You may want to code more robust implementations of QueryInterface, AddRef, and Release.</span></span>
 
-- <span data-ttu-id="a979e-114">\*\* \_ \_Uuidof()\*\* директива широко используется для получения идентификаторов интерфейса.</span><span class="sxs-lookup"><span data-stu-id="a979e-114">The **\_\_uuidof()** directive is used extensively to obtain interface IDs.</span></span>
+- <span data-ttu-id="a6f42-114">\*\* \_ \_Uuidof()\*\* директива широко используется для получения идентификаторов интерфейса.</span><span class="sxs-lookup"><span data-stu-id="a6f42-114">The **\_\_uuidof()** directive is used extensively to obtain interface IDs.</span></span>
 
-<span data-ttu-id="a979e-115">И, наконец в примере содержатся некоторые рабочего кода.</span><span class="sxs-lookup"><span data-stu-id="a979e-115">Finally, the example contains some working code.</span></span>
+<span data-ttu-id="a6f42-115">И, наконец в примере содержатся некоторые рабочего кода.</span><span class="sxs-lookup"><span data-stu-id="a6f42-115">Finally, the example contains some working code.</span></span>
 
-- <span data-ttu-id="a979e-116">Пример представляет собой консольное приложение.</span><span class="sxs-lookup"><span data-stu-id="a979e-116">The example is written as a console application.</span></span>
+- <span data-ttu-id="a6f42-116">Пример представляет собой консольное приложение.</span><span class="sxs-lookup"><span data-stu-id="a6f42-116">The example is written as a console application.</span></span>
 
-- <span data-ttu-id="a979e-117">Необходимо добавить код в поле Примечание «/ аудио- и выполняют определенные операции «.</span><span class="sxs-lookup"><span data-stu-id="a979e-117">You should insert your own code under the comment, "// Do some work ".</span></span>
+- <span data-ttu-id="a6f42-117">Необходимо добавить код в поле Примечание «/ аудио- и выполняют определенные операции «.</span><span class="sxs-lookup"><span data-stu-id="a6f42-117">You should insert your own code under the comment, "// Do some work ".</span></span>
 
-- <span data-ttu-id="a979e-118">Все события обработчики по умолчанию не выполняет никаких действий и дальнейшей Отмена уведомлений.</span><span class="sxs-lookup"><span data-stu-id="a979e-118">All the event handlers default to doing nothing, and canceling further notifications.</span></span> <span data-ttu-id="a979e-119">Следует добавить соответствующий код для приложения и разрешить уведомления, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="a979e-119">You should insert the appropriate code for your application, and allow notifications if required.</span></span>
+- <span data-ttu-id="a6f42-118">Все события обработчики по умолчанию не выполняет никаких действий и дальнейшей Отмена уведомлений.</span><span class="sxs-lookup"><span data-stu-id="a6f42-118">All the event handlers default to doing nothing, and canceling further notifications.</span></span> <span data-ttu-id="a6f42-119">Следует добавить соответствующий код для приложения и разрешить уведомления, если это необходимо.</span><span class="sxs-lookup"><span data-stu-id="a6f42-119">You should insert the appropriate code for your application, and allow notifications if required.</span></span>
 
 <!-- end list -->
 
