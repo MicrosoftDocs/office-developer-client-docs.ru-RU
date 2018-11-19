@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ed31f0105d8381667e1398fc5d91577d40998d81
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 14e23b0df5344048fb510d8813a6e1bc2b9e1978
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998821"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026031"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>Операции ОБЪЕДИНЕНИЯ (Microsoft Access SQL)
 
@@ -62,7 +62,7 @@ FROM Customers
 WHERE OrderAmount > 1000;
 ```
 
-По умолчанию повторяющиеся записи не возвращаются при использовании операции ОБЪЕДИНЕНИЯ; Тем не менее можно включить [все](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) предикат, чтобы убедиться, что возвращаются все записи. Это также делает время выполнения запроса.
+По умолчанию повторяющиеся записи не возвращаются при использовании операции ОБЪЕДИНЕНИЯ; Тем не менее можно включить [все](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql) предикат, чтобы убедиться, что возвращаются все записи. Это также делает время выполнения запроса.
 
 Все запросы в операции ОБЪЕДИНЕНИЯ необходимо запросить такое же число полей; Тем не менее поля не должны иметь одинаковый размер или тип данных.
 

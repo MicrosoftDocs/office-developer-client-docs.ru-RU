@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250304(v=office.15)
 ms:contentKeyID: 48548929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cc27964bed572431f3482e0834868690f3b77df
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5bc2eeaf4d26c957abb67780fe2f5d0df8f73049
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921903"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026178"
 ---
 # <a name="index-object-adox"></a>Объект Index (ADOX)
 
@@ -27,19 +27,19 @@ ms.locfileid: "25921903"
 
 С помощью свойств и коллекций объекта **индекса** можно выполнить следующие действия.
 
-  - Определение индекса с помощью свойства [Name](name-property-adox.md) .
+- Определение индекса с помощью свойства [Name](name-property-adox.md) .
 
-  - Доступ к столбцам базы данных индекса в коллекции [столбцов](columns-collection-adox.md) .
+- Доступ к столбцам базы данных индекса в коллекции [столбцов](columns-collection-adox.md) .
 
-  - Укажите, должны ли быть уникальными со свойством [Unique](unique-property-adox.md) разделов индекса.
+- Укажите, должны ли быть уникальными со свойством [Unique](unique-property-adox.md) разделов индекса.
 
-  - Укажите, является ли индекс первичный ключ для таблицы с помощью свойства [PrimaryKey](primarykey-property-adox.md) .
+- Укажите, является ли индекс первичный ключ для таблицы с помощью свойства [PrimaryKey](primarykey-property-adox.md) .
 
-  - Укажите, будет ли записи, которые имеют значение null, значения в полях индекса записи индекса с помощью свойства [IndexNulls](indexnulls-property-adox.md) .
+- Укажите, будет ли записи, которые имеют значение null, значения в полях индекса записи индекса с помощью свойства [IndexNulls](indexnulls-property-adox.md) .
 
-  - Укажите, является ли индекс кластерные со свойством [Clustered](clustered-property-adox.md) .
+- Укажите, является ли индекс кластерные со свойством [Clustered](clustered-property-adox.md) .
 
-  - Доступа к свойствам поставщика индекса в коллекции [свойств](properties-collection-ado.md) .
+- Доступа к свойствам поставщика индекса в коллекции [свойств](properties-collection-ado.md) .
 
 
 > [!NOTE]

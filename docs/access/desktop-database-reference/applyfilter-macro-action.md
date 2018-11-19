@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 782445e9d0bb12054d41ac780c86d5d6f1a32972
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f6f0511a1358e8d9b0d0ee820e83cf59d2400345
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926663"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025970"
 ---
 # <a name="applyfilter-macro-action"></a>Макрокоманда ApplyFilter
 
@@ -44,13 +44,7 @@ ms.locfileid: "25926663"
 <tbody>
 <tr class="odd">
 <td><p>Имя фильтра</p></td>
-<td><p>Имя фильтра или запроса, который ограничивает число или сортировки записей таблицы, формы или отчета. Можно ввести имя существующего запроса или фильтр, который был сохранен как запроса в поле <strong>Имя фильтра</strong> в разделе <strong>Действие аргументы</strong> в области <strong>Построения макросов</strong> .</p>
-
-> [!NOTE]
-> При использовании этого действия Применить фильтр сервера имя фильтра аргумент должен быть пустым.
-
-
-<p></p></td>
+<td><p>Имя фильтра или запроса, который ограничивает число или сортировки записей таблицы, формы или отчета. Можно ввести имя существующего запроса или фильтр, который был сохранен как запроса в поле <strong>Имя фильтра</strong> в разделе <strong>Действие аргументы</strong> в области <strong>Построения макросов</strong> .</p><p><strong>Примечание</strong>: при использовании этого действия Применить фильтр сервера аргумента имя фильтра должен быть пустым.</p></td>
 </tr>
 <tr class="even">
 <td><p>Условие отбора</p></td>

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e521c4de48f45d080a3b201ac431b2d7da14bc22
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4babfce754ec0e9c4744142570054c0249936f8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923226"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026213"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Свойство Recordset.RecordsetType (DAO)
 
@@ -65,12 +65,8 @@ ms.locfileid: "25923226"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > Если вы не хотите данные в связанных элементов управления для редактирования при открытии формы в режиме формы или таблицы, свойства **Тип набора записей** значение 2.
-
-
 
 Свойство **Тип набора записей** используются следующие параметры в проекте Microsoft Access (файлы с расширением ADP).
 
@@ -101,12 +97,8 @@ ms.locfileid: "25923226"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > Изменение свойства **Тип набора записей** открытая форма или отчет вызывает автоматическое воссоздание набора записей.
-
-
 
 Можно создавать формы, основанные на нескольких таблицах с помощью полей, привязанных к элементам управления в формах. В зависимости от настройки свойства **Тип набора записей** , можно ограничить, какой из этих связанных элементов управления можно изменить их невозможно.
 

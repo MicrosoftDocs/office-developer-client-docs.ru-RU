@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937633"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026248"
 ---
 # <a name="gotocontrol-macro-action"></a>Макрокоманда GoToControl
 
@@ -41,12 +41,7 @@ ms.locfileid: "25937633"
 <tr class="odd">
 <td><p><strong>Имя элемента управления</strong></p></td>
 <td><p>Имя поля или элемента управления, куда необходимо переместить фокус. Введите имя элемента управления или поля в поле <strong>Имя элемента управления</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов. Обязательный аргумент.</p>
-
-> [!NOTE]
-> Введите только имя поля или элемента управления в качестве аргумента **Имя элемента управления** , не полный идентификатор, такие как Forms! Продукты! [Код продукта].
-
-
-<p></p></td>
+<p><strong>Примечание</strong>: Введите только имя поля или элемента управления в качестве аргумента <strong>Имя элемента управления</strong> , не полный идентификатор, такие как Forms! Продукты! [Код продукта].</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,7 +77,7 @@ ms.locfileid: "25937633"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Эхо</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Вывод на экран</strong>: <strong>Нет</strong></p></td>
 <td><p>Остановите обновление экрана в процессе выполнения макроса.</p></td>
 </tr>
@@ -92,7 +87,7 @@ ms.locfileid: "25937633"
 <td><p>Закрыть форму списка продуктов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ОткрытьФорму</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Имя формы</strong>: продуктов <strong>представления</strong>: <strong>FormData режима</strong>: <strong>Режим AddWindow</strong>: <strong>Обычный</strong></p></td>
 <td><p>Откройте форму продуктов.</p></td>
 </tr>
@@ -144,7 +139,7 @@ ms.locfileid: "25937633"
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>ОтменитьСобытие</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>
@@ -162,7 +157,7 @@ ms.locfileid: "25937633"
 </tr>
 <tr class="even">
 <td><p>...</p></td>
-<td><p><strong>ОтменитьСобытие</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>
@@ -180,7 +175,7 @@ ms.locfileid: "25937633"
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>ОтменитьСобытие</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>

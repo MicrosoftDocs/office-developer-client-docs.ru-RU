@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 39cad98bc6f14509491e78ac4057d6488528f0b4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c64f28769d88c2684485ba537bdbdf22afd30ac5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947856"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026052"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Инициализация драйвера источника данных Microsoft Exchange
 
@@ -33,7 +33,7 @@ ms.locfileid: "25947856"
 
 Результаты использования формата Outlook ISAM и использования формата ISAM клиента Exchange похожи. Единственное отличие заключается в том, что два разных клиента используют разные имена для одного столбца. Два формата ISAM были созданы, чтобы ядро базы данных Microsoft Access может вернуть имена столбцов в виде, который определит пользователь.
 
-## <a name="microsoft-outlook-client-isam-formats"></a>Форматы ISAM клиента Microsoft Outlook
+## <a name="microsoft-outlook-client-isam-formats"></a>Клиент Microsoft Outlook ISAM formats
 
 **Модуль подключения к Access\\ISAM Formats\\Outlook 9.0** папка содержит следующие записи.
 
@@ -169,7 +169,7 @@ ms.locfileid: "25947856"
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Настройка файла Schema.ini для Outlook и данных Exchange
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Настройка Schema.ini файла данных Outlook и Exchange
 
 Файл Schema.ini используется Outlook и Exchange ISAM точно так же, как он используется в ISAM текста. Этот файл содержит особенности источника данных: формат данных и имена столбцов, которые должны быть доступны.
 

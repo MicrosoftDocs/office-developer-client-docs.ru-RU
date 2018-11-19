@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4f9593e8bf0175ee6a25bd53d886c291eed6f75c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4179087408a9f7a68bccc673bcd456305ba41d5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929440"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026486"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>Операция INNER JOIN (Microsoft Access SQL)
 
@@ -63,7 +63,7 @@ ms.locfileid: "25929440"
 
 ## <a name="remarks"></a>Примечания
 
-Можно использовать операцию INNER JOIN в [любой FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) . Это наиболее распространенный тип объединения. Объединение записей из двух таблиц всякий раз, когда они соответствуют в поле обеих таблицах.
+Можно использовать операцию INNER JOIN в [любой FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) . Это наиболее распространенный тип объединения. Объединение записей из двух таблиц всякий раз, когда они соответствуют в поле обеих таблицах.
 
 Можно использовать INNER JOIN с таблицами отделов и сотрудников для выбора всех сотрудников в каждого подразделения. С другой стороны чтобы выбрать все отделы (даже если некоторые имеют нет сотрудников) или всех сотрудников (даже если некоторые не назначены отделом), можно использовать операцию [LEFT JOIN или RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) для создания внешнего соединения.
 

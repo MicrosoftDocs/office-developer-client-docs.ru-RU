@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6665159eaf0d385d213a35a8463cdc09e738ef45
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45416c68d52a2ba20ba9adfa19a6ebd89d1e0240
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888036"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026206"
 ---
 # <a name="appendix-a-providers"></a>Приложение А. Поставщики
 
@@ -27,11 +27,11 @@ ADO мощные и гибкие, так как он может подключи
 
 Тем не менее так как каждый поставщик данных является уникальным, как приложение взаимодействует с ADO будет отличаться поставщиком данных. Различия обычно делятся на три категории.
 
-  - Параметры подключения в свойстве [ConnectionString](connectionstring-property-ado.md) .
+- Параметры подключения в свойстве [ConnectionString](connectionstring-property-ado.md) .
 
-  - Использование объекта [команды](command-object-ado.md) .
+- Использование объекта [команды](command-object-ado.md) .
 
-  - Поставщик поведение [набора записей](recordset-object-ado.md) .
+- Поставщик поведение [набора записей](recordset-object-ado.md) .
 
 Подробные сведения для каждого из поставщиков данных, доступные в настоящее время корпорацией Майкрософт перечислены ниже.
 
@@ -89,17 +89,17 @@ ADO мощные и гибкие, так как он может подключи
 
 Чтобы использовать поставщика услуг, необходимо указать ключевое слово. Кроме того, необходимо принять во внимание от поставщика динамические свойства, связанные с каждой поставщика услуг. Сведения от поставщика, приведены для каждого из поставщиков услуг, доступные в настоящее время корпорации Майкрософт:
 
-  - [Microsoft службы формирования данных для OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
+- [Microsoft службы формирования данных для OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
 
-  - [Сохраняемость поставщик Microsoft OLE DB](microsoft-ole-db-persistence-provider-ado-service-provider.md)
+- [Сохраняемость поставщик Microsoft OLE DB](microsoft-ole-db-persistence-provider-ado-service-provider.md)
 
-  - [Поставщик Microsoft OLE DB удаленного доступа](microsoft-ole-db-remoting-provider-ado-service-provider.md)
+- [Поставщик Microsoft OLE DB удаленного доступа](microsoft-ole-db-remoting-provider-ado-service-provider.md)
 
 ## <a name="service-components"></a>Компоненты службы
 
 Компонент службы [Служба курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) дополняет функции поддержки курсора поставщиков данных. Он также требует использования ключевого слова и имеет динамические свойства.
 
-Дополнительные сведения о поставщиках обратитесь к документации по Microsoft OLE DB в пакете SDK компонентов доступа к данным Microsoft или посетите [Центр разработчиков данных платформы](https://msdn.microsoft.com/data/default.aspx).
+Дополнительные сведения о поставщиках обратитесь к документации по Microsoft OLE DB в пакете SDK компонентов доступа к данным Microsoft или посетите [Центр разработчиков данных платформы](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 
 ## <a name="provider-commands"></a>Команды поставщика
 

@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f4ef26113d81910fa989196a0b58865e1ca62f3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 6aa7828ac915b737fda541e1c9e0b967d8fe7fb0
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945756"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026304"
 ---
 # <a name="ado-events-model-example-vc"></a>Пример модели событий ADO (VC ++)
 
 **Применимо к**: Access 2013, Office 2013
 
-В разделе Visual C++ [При создании экземпляра события ADO по языкам](https://msdn.microsoft.com/library/jj250244\(v=office.15\)) дает общее описание способов создания экземпляра модели событий ADO. Ниже приведен конкретный пример создания экземпляра модели событий в среде, созданные ** \#импорта** директивы.
+В разделе Visual C++ [При создании экземпляра события ADO по языкам](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) дает общее описание способов создания экземпляра модели событий ADO. Ниже приведен конкретный пример создания экземпляра модели событий в среде, созданные ** \#импорта** директивы.
 
 Общее описание использует **adoint.h** справки для подписей методов. Тем не менее, несколько подробных сведений в общее описание немного меняется в результате использования ** \#импорта** директивы:
 

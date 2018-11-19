@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250293(v=office.15)
 ms:contentKeyID: 48548887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58ec04f92bf4d1eaaa8ea36c5937cae0bab3729f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 659e9dfe0e19b4ddb14513042f26fc80b11a00c3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943824"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026066"
 ---
 # <a name="adowfc-programming"></a>Программирование ADO/WFC
 
@@ -21,7 +21,7 @@ ms.locfileid: "25943824"
 
 ADO для Windows классов (ADO/WFC) поддерживает все стандартные ADO методы, свойства, объектов и событий. Тем не менее операции, которые требуют вариант в качестве параметра и отображение высокая производительность на языке, такие как Microsoft Visual Basic, отображение снижения производительности на языке, например Visual J ++. По этой причине ADO/WFC также предоставляет функции для доступа к данным на объект [поля](field-object-ado.md) , вступили в собственных типов данных Java вместо тип данных variant.
 
-Для получения дополнительных сведений в ADO документацию о пакетах ADO/WFC [ADO/WFC синтаксис](https://msdn.microsoft.com/library/jj250066\(v=office.15\))см.
+Для получения дополнительных сведений в ADO документацию о пакетах ADO/WFC [ADO/WFC синтаксис](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index)см.
 
 ## <a name="referencing-the-library"></a>Создание ссылок на библиотеку
 

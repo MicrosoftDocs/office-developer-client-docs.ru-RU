@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
 ms:contentKeyID: 48542993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42bd391cea721176973ce4dd30c9ddc7d15471b8
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bd958c4b2123c727c3bc0a14a067fcb719ec86b3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937024"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026388"
 ---
 # <a name="querydeftype-property-dao"></a>Свойство QueryDef.Type (DAO)
 
@@ -72,21 +72,15 @@ ms.locfileid: "25937024"
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Процедура (только для рабочих областей технология ODBCDirect)</p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
-<p></p></td>
+<td><p>Процедура (только для рабочих областей технология ODBCDirect)</p><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>
-<td><p>Выберите</p></td>
+<td><p>Select</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQSetOperation</strong></p></td>
-<td><p>Объединение</p></td>
+<td><p>Union</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSPTBulk</strong></p></td>

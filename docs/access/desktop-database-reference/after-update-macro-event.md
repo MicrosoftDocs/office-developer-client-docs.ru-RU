@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm85126
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 237b3633ab70bcdbe84ce52f7d25b2203091cb1e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 24a6bbd951fd19e7fdd25f4f1ab8bd8e9dcd2ade
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919138"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026192"
 ---
 # <a name="after-update-macro-event"></a>Событие макроса After Update
-
 
 **Применимо к**: Access 2013, Office 2013
 
 **После обновления** событие происходит после изменения записи.
 
-
 > [!NOTE]
 > Событие **После обновления** можно использовать только в макросов данных.
-
-
 
 ## <a name="remarks"></a>Примечания
 
@@ -66,7 +62,7 @@ End If
 <thead>
 <tr class="header">
 <th><p>Тип команды</p></th>
-<th><p>Команда</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84f8be8360996eb209462347dc18b118cf460442
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a6e62d302dc1164e70d83dcbb06ac56c21898b82
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937619"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026262"
 ---
 # <a name="querydef-members-dao"></a>Члены QueryDef (DAO)
 
@@ -36,16 +36,11 @@ ms.locfileid: "25937619"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cancel-method-dao.md">Отмена</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Отменяет выполнение ожидающие асинхронного вызова метода (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-close-method-dao.md">Закрыть</a></strong></p></td>
+<td><p><strong><a href="querydef-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Закрытие открытых <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -53,7 +48,7 @@ ms.locfileid: "25937619"
 <td><p>Создание пользовательских <strong><a href="property-object-dao.md">свойств</a></strong> объекта (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-execute-method-dao.md">Выполнение</a></strong></p></td>
+<td><p><strong><a href="querydef-execute-method-dao.md">Execute</a></strong></p></td>
 <td><p>Выполняет инструкции SQL на указанный объект.</p></td>
 </tr>
 <tr class="odd">
@@ -83,7 +78,7 @@ ms.locfileid: "25937619"
 <td><p>Задает или возвращает число записей, полученных из источника данных ODBC, которые будут кэшированы локально. Чтение и запись <strong>времени</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-connect-property-dao.md">Подключение</a></strong></p></td>
+<td><p><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое содержит сведения об источнике базы данных, используемой в запросе к серверу. Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -91,7 +86,7 @@ ms.locfileid: "25937619"
 <td><p>Возвращает дату и время создания объекта (только для рабочих областей Microsoft Access). Только для чтения <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-fields-property-dao.md">Поля</a></strong></p></td>
+<td><p><strong><a href="querydef-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong><a href="fields-collection-dao.md">полей</a></strong> , представляющую все хранятся объекты <strong><a href="field-object-dao.md">поля</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
@@ -103,11 +98,11 @@ ms.locfileid: "25937619"
 <td><p>Задает или возвращает максимальное число записей для возврата из запроса к источнику данных ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="querydef-name-property-dao.md">Имя</a></strong></p></td>
 <td><p>Возвращает или задает имя указанного объекта. Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-odbctimeout-property-dao.md">Время ожидания ODBC</a></strong></p></td>
+<td><p><strong><a href="querydef-odbctimeout-property-dao.md">ODBCTimeout</a></strong></p></td>
 <td><p>Указывает количество секунд до ошибку времени ожидания происходит, когда <strong><a href="querydef-object-dao.md">QueryDef</a></strong> выполняется в базе данных ODBC.</p></td>
 </tr>
 <tr class="odd">
@@ -116,12 +111,7 @@ ms.locfileid: "25937619"
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-prepare-property-dao.md">Подготовка</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Задает или возвращает значение, указывающее, следует подготовить на сервере как временной хранимой процедуры с помощью функции ODBC <strong>SQLPrepare</strong> API, прежде чем начать выполнение, запрос или просто выполняется с помощью (функция ODBC <strong>SQLExecDirect</strong> API Технология ODBCDirect рабочие области только). Чтение и запись <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -142,12 +132,7 @@ ms.locfileid: "25937619"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Указывает, следует ли асинхронной операции (то есть, вызывается метод с параметром <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a> ) завершено выполнение (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="even">

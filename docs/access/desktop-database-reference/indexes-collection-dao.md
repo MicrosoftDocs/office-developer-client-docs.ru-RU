@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21609d6299caf6de5e2fe0b777796033b69d9f87
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a809afb8e38cf23faf43d5eb49c5edadaf70b2b1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946694"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025835"
 ---
 # <a name="indexes-collection-dao"></a>Коллекции индексов (DAO)
 
@@ -23,17 +23,13 @@ ms.locfileid: "25946694"
 
 При получении доступа к таблице тип объекта набора записей, используйте свойство **Index** объекта, чтобы указать порядок записей. Этому свойству присвоено значение **свойства Name существующего объекта **индексу** в коллекции **индексов** объекта **[TableDef](tabledef-object-dao.md)** базового объекта **[набора записей](recordset-object-dao.md)** ** .
 
-
 > [!NOTE]
 > **Добавление** или **Удаление** метод на коллекцию **индексов** можно использовать только в том случае, если значение свойства **[с возможностью записи](connection-updatable-property-dao.md)** , содержащего объект **TableDef** имеет **значение True**.
 
 После создания объекта **индекса** , чтобы добавить его в коллекцию объектов **TableDef** **индексов** следует использовать метод **Append** .
 
-
 > [!IMPORTANT]
 > Убедитесь, что ваши данные стандарту атрибуты нового индекса. Если индекс требуются уникальные значения, убедитесь, что существует без повторов в существующей записи данных. Если существуют дубликаты, ядро базы данных Microsoft Access не удается создать индекс; Это перехватываемые приводит к ошибке при попытке использовать метод Append на новый индекс.
-
-
 
 ## <a name="example"></a>Пример
 

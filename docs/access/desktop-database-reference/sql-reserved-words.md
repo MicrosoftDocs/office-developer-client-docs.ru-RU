@@ -10,21 +10,24 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc481a699ad0703075e7c7c4f97dffb147cd0280
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: e3de2ba6696ac9abc065c6d4588d362f79fba273
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998947"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026402"
 ---
 # <a name="sql-reserved-words"></a>Зарезервированные слова SQL
 
 **Применимо к**: Access 2013, Office 2013
 
-Следующий список содержит все слова, зарезервированные ядром СУБД Microsoft Access, для использования в инструкциях SQL. В списке слов, которые не являются прописными буквами, зарезервированы другими приложениями. Следовательно разделы справки для этих слов содержат общие сведения, не ориентированные на работу с SQL.
+Следующий список содержит все слова, зарезервированные ядром СУБД Microsoft Access, для использования в инструкциях SQL. 
 
-> [!NOTE]
-> Слова, а затем символ звездочки (*), зарезервированы, но в настоящее время не имеют значения в контексте инструкции Microsoft Access SQL (например, **уровень** и **идентификатор таблицы**). Слова, которые не подчеркнуто нет связанные описания.
+- В списке слов, которые не являются прописными буквами, зарезервированы другими приложениями. Следовательно разделы справки для этих слов содержат общие сведения, не ориентированные на работу с SQL.
+
+- Слова, а затем символ звездочки (*), зарезервированы, но в настоящее время не имеют значения в контексте инструкции Microsoft Access SQL (например, **уровень** и **идентификатор таблицы**). 
+
+- Слова, которые не подчеркнуто нет связанные описания.
 
 ## <a name="a"></a>A
 
@@ -44,10 +47,10 @@ ms.locfileid: "25998947"
 </tr>
 <tr class="odd">
 <td><p>ADMINDB</p></td>
-<td><p><a href="select-statement-microsoft-access-sql.md">КАК</a></p></td>
+<td><p><a href="select-statement-microsoft-access-sql.md">AS</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">ВСЕ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">ALL</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">ASC</a></p></td>
 </tr>
 <tr class="odd">
@@ -55,7 +58,7 @@ ms.locfileid: "25998947"
 <td><p>УТВЕРЖДЕНИЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff821488(v=office.15)">ИЗМЕНЕНИЯ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821488(v=office.15)">ALTER</a></p></td>
 <td><p>АВТОРИЗАЦИЯ</p></td>
 </tr>
 <tr class="odd">
@@ -63,11 +66,11 @@ ms.locfileid: "25998947"
 <td><p><a href="equivalent-ansi-sql-data-types.md">АВТОУВЕЛИЧЕНИЕ</a> — увидеть СЧЕТЧИКА</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">И</a></strong></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">And</a></strong></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Avg</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">КАК</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">AS</a></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -111,8 +114,8 @@ ms.locfileid: "25998947"
 <td><p><a href="constraint-clause-microsoft-access-sql.md">ОГРАНИЧЕНИЕ, ОГРАНИЧЕНИЯ</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">С</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">КОНТЕЙНЕР</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">BY</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTAINER</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sql-data-types.md">БАЙТ</a></p></td>
@@ -132,11 +135,11 @@ ms.locfileid: "25998947"
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">СОЗДАНИЕ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CREATE</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></p></td>
-<td><p><a href="sql-data-types.md">CURRENCY</a></p></td>
+<td><p><a href="sql-data-types.md">ВАЛЮТА</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>ПРОВЕРКА</p></td>
@@ -196,7 +199,7 @@ ms.locfileid: "25998947"
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">DELETE</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">ПОМЕСТИТЕ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">DROP</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">DESC</a></p></td>
@@ -220,7 +223,7 @@ ms.locfileid: "25998947"
 </tr>
 <tr class="even">
 <td><p>EXCLUSIVECONNECT</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">От</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">FROM</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>EXEC, ВЫПОЛНЕНИЕ</p></td>
@@ -243,8 +246,8 @@ ms.locfileid: "25998947"
 <td><p><a href="sql-data-types.md">GUID</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">ПЕРВЫЙ</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">НАЛИЧИЕ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">FIRST</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">FLOAT FLOAT8</a> — см.</p></td>
@@ -276,7 +279,7 @@ ms.locfileid: "25998947"
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">IEEESINGLE</a> — увидеть ОДНИМ</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">ВСТАВКА</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERT</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="create-index-statement-microsoft-access-sql.md">ПРОПУСК</a></p></td>
@@ -299,12 +302,12 @@ ms.locfileid: "25998947"
 <td><p><a href="equivalent-ansi-sql-data-types.md">ИНТЕРВАЛ</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">ИНДЕКС</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">В</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">INDEX</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">INTO</a></p></td>
 </tr>
 <tr class="even">
 <td><p>INDEXCREATEDB</p></td>
-<td><p><strong>— Это</strong></p></td>
+<td><p><strong>Is</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="inner-join-operation-microsoft-access-sql.md">ВНУТРЕННИЙ</a></p></td>
@@ -323,7 +326,7 @@ ms.locfileid: "25998947"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">ПРИСОЕДИНЕНИЕ К</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">JOIN</a></p></td>
 <td><p><a href="sql-data-types.md">LONGTEXT</a></p></td>
 </tr>
 <tr class="even">
@@ -335,7 +338,7 @@ ms.locfileid: "25998947"
 <td><p>СООТВЕТСТВИЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">ПОСЛЕДНИЙ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">LAST</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Max</a></strong></p></td>
 </tr>
 <tr class="odd">
@@ -423,7 +426,7 @@ ms.locfileid: "25998947"
 <td><p>ТОЧНОСТЬ</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff835051(v=office.15)">. П.</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff835051(v=office.15)">ON</a></p></td>
 <td><p>ПОДГОТОВКА</p></td>
 </tr>
 <tr class="odd">
@@ -435,7 +438,7 @@ ms.locfileid: "25998947"
 <td><p>ПРИВИЛЕГИИ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Или</strong></p></td>
+<td><p><strong>Or</strong></p></td>
 <td><p><a href="procedure-clause-microsoft-access-sql.md">PROC ПРОЦЕДУРЫ</a></p></td>
 </tr>
 <tr class="even">
@@ -479,7 +482,7 @@ ms.locfileid: "25998947"
 <td><p>SQL</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">СХЕМЫ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">SCHEMA</a></p></td>
 <td><p>SQLCODE, SQLERROR, SQLSTATE</p></td>
 </tr>
 <tr class="even">
@@ -487,7 +490,7 @@ ms.locfileid: "25998947"
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDev</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">ВЫБЕРИТЕ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECT</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDevP</a></strong></p></td>
 </tr>
 <tr class="even">
@@ -527,7 +530,7 @@ ms.locfileid: "25998947"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">В ТАБЛИЦЕ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABLE</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff193874(v=office.15)">UPDATEOWNER</a></p></td>
 </tr>
 <tr class="even">
@@ -544,7 +547,7 @@ ms.locfileid: "25998947"
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">Время</a> — увидеть даты и времени</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">ПОЛЬЗОВАТЕЛЬ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USER</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">МЕТКА ВРЕМЕНИ</a></p></td>
@@ -563,7 +566,7 @@ ms.locfileid: "25998947"
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">Var</a></strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">Кому</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">TO</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a> — увидеть двоичный</p></td>
 </tr>
 <tr class="odd">
@@ -580,7 +583,7 @@ ms.locfileid: "25998947"
 </tr>
 <tr class="even">
 <td><p><a href="transform-statement-microsoft-access-sql.md">ПРЕОБРАЗОВАНИЕ</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">ПРОСМОТР</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VIEW</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Перевести</p></td>
@@ -592,11 +595,11 @@ ms.locfileid: "25998947"
 </tr>
 <tr class="odd">
 <td><p>ОБРЕЗКА</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">ГДЕ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">WHERE</a></p></td>
 </tr>
 <tr class="even">
 <td><p>TRUE</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">С ПОМОЩЬЮ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">WITH</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="union-operation-microsoft-access-sql.md">ОБЪЕДИНЕНИЕ</a></p></td>
@@ -615,7 +618,7 @@ ms.locfileid: "25998947"
 <td><p><a href="equivalent-ansi-sql-data-types.md">YESNO</a> — увидеть разрядная версия</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">ОБНОВЛЕНИЕ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">UPDATE</a></p></td>
 <td><p>ЗОНА</p></td>
 </tr>
 <tr class="even">

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4b7ec534579b070d342fe2efd80af44e2ea921ef
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5e842ed4898f98f0d3c51955c3fb66010ef02853
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927272"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026199"
 ---
 # <a name="refreshrecord-macro-action"></a>Макрокоманда RefreshRecord
 
@@ -32,7 +32,7 @@ ms.locfileid: "25927272"
 
 ## <a name="client-database"></a>База данных клиента
 
-В базе данных клиента можно использовать действие **RefreshRecord** обновление базового источника данных для активной формы или таблицы для отражения изменений, внесенных в данные в текущий набор. Изменения включают указанные текущим пользователем или другими пользователями в многопользовательской среде. Это эквивалентно метод **[Refresh](https://msdn.microsoft.com/library/ff836021\(v=office.15\))** .
+В базе данных клиента можно использовать действие **RefreshRecord** обновление базового источника данных для активной формы или таблицы для отражения изменений, внесенных в данные в текущий набор. Изменения включают указанные текущим пользователем или другими пользователями в многопользовательской среде. Это эквивалентно метод **[Refresh](https://docs.microsoft.com/office/vba/api/Access.Form.Refresh)** .
 
 Действия макроса **RefreshRecord** производит следующие действия в базе данных клиента:
 

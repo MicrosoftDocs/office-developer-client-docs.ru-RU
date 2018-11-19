@@ -1,23 +1,23 @@
 ---
-title: Совместная работа обработчиков событий
+title: Взаимодействие обработчиков событий
 TOCTitle: How event handlers work together
 ms:assetid: 02122824-881e-0bb8-cba1-c963024790ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a397b0f88bb60552a6e53432a3c8c4d788013103
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 294f1f87de85d8a8c54aeeb3ef74181cef755d32
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997275"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026367"
 ---
-# <a name="how-event-handlers-work-together"></a>Совместная работа обработчиков событий
+# <a name="how-event-handlers-work-together"></a>Взаимодействие обработчиков событий
 
 **Применимо к**: Access 2013, Office 2013
 
-Если не программирования в Visual Basic все обработчики событий для события **подключения** и **записей** должен быть реализован, независимо от того, ли вы фактически обрабатывают все события. Объем работы реализации, что вам нужно сделать зависит от языка программирования. Для получения дополнительных сведений см [При создании экземпляра события ADO по языкам](https://msdn.microsoft.com/library/jj250244\(v=office.15\)).
+Если не программирования в Visual Basic все обработчики событий для события **подключения** и **записей** должен быть реализован, независимо от того, ли вы фактически обрабатывают все события. Объем работы реализации, что вам нужно сделать зависит от языка программирования. Для получения дополнительных сведений см [При создании экземпляра события ADO по языкам](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado).
 
 ## <a name="paired-event-handlers"></a>Обработчики событий парного
 

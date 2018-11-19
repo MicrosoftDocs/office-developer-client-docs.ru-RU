@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231105
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d7f35c2f76ec8cf2fd671f5ef9eefb42f8555237
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 87df4d1597661dc599c08b0f0b45b8e129484a2d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931388"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025933"
 ---
 # <a name="connection-object-ado"></a>Объект Connection (ADO)
 
@@ -41,9 +41,8 @@ ms.locfileid: "25931388"
 
   - Установить и более поздних версий приостановки выполнения, физическое подключение к источнику данных с помощью методов [открытия](open-method-ado-connection.md) и [закрытия](close-method-ado.md) .
 
-  - Выполнить команду на подключение с помощью метода [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) и настройте выполнения со свойством [CommandTimeout](commandtimeout-property-ado.md) .
+  - Выполнить команду на подключение с помощью метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) и настройте выполнения со свойством [CommandTimeout](commandtimeout-property-ado.md) .
     
-
     > [!NOTE]
     > Для выполнения запроса без использования объекта команды, передайте строку запроса метода **Execute** объекта **подключения** . Тем не менее объект [команды](command-object-ado.md) является обязательным, когда необходимо сохранять текст команды и повторно выполнить или используйте параметры запроса.
 

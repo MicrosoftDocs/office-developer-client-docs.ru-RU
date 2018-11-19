@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3649a7146c0d6ab70bc5f785404f03269df1540b
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910805"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026381"
 ---
 # <a name="ado-methods"></a>Методы ADO
 
@@ -48,7 +48,7 @@ ms.locfileid: "25910805"
 <strong>RollbackTrans</strong> — показано, как отменить все изменения и заканчивающейся текущей операции. Он также может начать новую операцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="cancel-method-ado.md">Отмена</a></p></td>
+<td><p><a href="cancel-method-ado.md">Cancel</a></p></td>
 <td><p>Отменяет выполнение ожидающих асинхронного вызова метода.</p></td>
 </tr>
 <tr class="even">
@@ -60,15 +60,15 @@ ms.locfileid: "25910805"
 <td><p>Отменяет все изменения, внесенные в строку текущей или новый объект <strong>набора записей</strong> или коллекции <strong>полей</strong> объекта <strong>записи</strong> , прежде чем вызывать метод <strong>Update</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="clear-method-ado.md">Очистить</a></p></td>
+<td><p><a href="clear-method-ado.md">Clear</a></p></td>
 <td><p>Удаляет все объекты <strong>ошибок</strong> из семейства <strong>Errors</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="clone-method-ado.md">Копия</a></p></td>
+<td><p><a href="clone-method-ado.md">Clone</a></p></td>
 <td><p>Создает объект повторяющихся <strong>записей</strong> из существующего объекта <strong>набора записей</strong> . При необходимости указывает копию только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="close-method-ado.md">Закрыть</a></p></td>
+<td><p><a href="close-method-ado.md">Close</a></p></td>
 <td><p>Закрывает открытый объект и любые зависящие объекты.</p></td>
 </tr>
 <tr class="odd">
@@ -104,15 +104,15 @@ ms.locfileid: "25910805"
 <td><p>Удаляет файл или каталог и все его подкаталоги.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Воспользуйтесь командой (ADO)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Воспользуйтесь командой (ADO)</a></p></td>
 <td><p>Выполняет запрос, инструкции SQL или хранимую процедуру, указанных в свойстве <strong>CommandText</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Выполнение (ADO-подключение)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Выполнение (ADO-подключение)</a></p></td>
 <td><p>Выполняет указанному запросу, оператор SQL, хранимую процедуру или текст от поставщика.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Найти</a></p></td>
+<td><p><a href="find-method-ado.md">Find</a></p></td>
 <td><p>Выполняет поиск <strong>записей</strong> для строки, которая должна удовлетворять определенным условиям.</p></td>
 </tr>
 <tr class="even">
@@ -140,7 +140,7 @@ ms.locfileid: "25910805"
 <td><p>Загружает содержимое существующего файла в <strong>поток</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="move-method-ado.md">Перемещение</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Перемещает положение текущей записи в объекте <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="odd">
@@ -184,11 +184,11 @@ ms.locfileid: "25910805"
 <td><p>Считывает указанное количество символов из объекта <strong>потока</strong> текста.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="refresh-method-ado.md">Обновление</a></p></td>
+<td><p><a href="refresh-method-ado.md">Refresh</a></p></td>
 <td><p>Обновление объектов в коллекции объектов, доступных из и относящиеся к поставщику.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="requery-method-ado.md">Обновление</a></p></td>
+<td><p><a href="requery-method-ado.md">Requery</a></p></td>
 <td><p>Обновляет данные в объект <strong>набора записей</strong> , повторное выполнение запросов, на котором основан объект.</p></td>
 </tr>
 <tr class="odd">
@@ -204,7 +204,7 @@ ms.locfileid: "25910805"
 <td><p>Сохраняет двоичные содержимое <strong>потока</strong> в файл.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="seek-method-ado.md">Поиск</a></p></td>
+<td><p><a href="seek-method-ado.md">Seek</a></p></td>
 <td><p>Выполняет поиск индекса <strong>набора записей</strong> для быстрого поиска строку, в которой совпадает с указанными значениями и изменяет текущее положение строки на эту строку.</p></td>
 </tr>
 <tr class="odd">
@@ -216,7 +216,7 @@ ms.locfileid: "25910805"
 <td><p>Пропускает одну всю строку при чтении текстовый поток.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="stat-method-ado.md">Статистика</a></p></td>
+<td><p><a href="stat-method-ado.md">Stat</a></p></td>
 <td><p>Получает статистические сведения об open потока.</p></td>
 </tr>
 <tr class="even">
@@ -224,7 +224,7 @@ ms.locfileid: "25910805"
 <td><p>Определяет, поддерживает ли указанный объект <strong>набора записей</strong> определенного типа функциональные возможности.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">обновление</a>.</p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>Сохраняет все изменения, внесенные в текущей строки <strong>набора записей</strong> объекта или коллекции <strong>полей</strong> объекта <strong>записи</strong> .</p></td>
 </tr>
 <tr class="even">

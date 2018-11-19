@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 951eb10c30a0e83903b3f7c075e72d5f82e0ce9b
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: a0394b95b392bf26f68dc64f64ad70ada09e8d86
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910882"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025765"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Примеры кода ADO на Microsoft Visual J++
 
@@ -58,7 +58,7 @@ ms.locfileid: "25910882"
 - [Пример: свойства BOF, EOF и закладка](bof-eof-and-bookmark-properties-example-vj.md)
 - [Пример свойства CacheSize](cachesize-property-example-vj.md)
 - [Пример: свойства ConnectionString, ConnectionTimeout и состояния](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
-- [Пример свойства Count](count-property-example-vj.md)
+- [Пример использования свойства Count](count-property-example-vj.md)
 - [Пример: свойства CursorType, LockType для и EditMode](cursortype-locktype-and-editmode-properties-example-vj.md)
 - [Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
 - [Пример свойства фильтра и RecordCount](filter-and-recordcount-properties-example-vj.md)
@@ -76,8 +76,8 @@ ms.locfileid: "25910882"
 - [Пример состояния свойства](state-property-example-vj.md)
 - [Пример свойства состояния](status-property-example-vj.md)
 - [Пример свойства StayInSync](stayinsync-property-example-vj.md)
-- [Пример свойства типа (поля)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
-- [Пример свойства типа (свойство)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
-- [Пример свойства Value](value-property-example-vj.md)
+- [Пример свойства типа (поля)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
+- [Пример свойства типа (свойство)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
+- [Пример использования свойства Value](value-property-example-vj.md)
 - [Пример свойства версии](version-property-example-vj.md)
 

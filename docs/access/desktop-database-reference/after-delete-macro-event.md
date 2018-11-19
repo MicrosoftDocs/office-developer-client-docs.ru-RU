@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 943f16c5bb1f1525c8da36938fa6beb2e6f71444
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8f72083201fefffc5dfff4627cd3b54c1449e083
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929799"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026059"
 ---
 # <a name="after-delete-macro-event"></a>Событие макроса After Delete
-
 
 **Применимо к**: Access 2013, Office 2013
 
 **После удаления** событие происходит после удаления записи.
 
-
 > [!NOTE]
 > События **После удаления** доступна только в макросов данных.
-
-
 
 ## <a name="remarks"></a>Примечания
 
@@ -68,7 +64,7 @@ End If
 <thead>
 <tr class="header">
 <th><p>Тип команды</p></th>
-<th><p>Команда</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>

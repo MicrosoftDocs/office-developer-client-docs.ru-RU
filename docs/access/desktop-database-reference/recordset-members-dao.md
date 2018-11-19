@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 70593fdcab32602ba6b0e4597368f64371d8f116
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ab0a04fd7282c983bd200a16108babf5e40d240c
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937367"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026311"
 ---
 # <a name="recordset-members-dao"></a>Члены набора записей (DAO)
 
@@ -39,13 +39,8 @@ ms.locfileid: "25937367"
 <td><p>Создает новую запись для обновляемых объекта <strong><a href="recordset-object-dao.md">набора записей</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-cancel-method-dao.md">Отмена</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong><a href="recordset-cancel-method-dao.md">Cancel</a></strong></p></td>
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Отменяет выполнение ожидающие асинхронного вызова метода (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -53,11 +48,11 @@ ms.locfileid: "25937367"
 <td><p>Отменяет все ожидающие обновления для объекта <strong><a href="recordset-object-dao.md">набора записей</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-clone-method-dao.md">Копия</a></strong></p></td>
+<td><p><strong><a href="recordset-clone-method-dao.md">Clone</a></strong></p></td>
 <td><p>Создает объект повторяющихся <strong><a href="recordset-object-dao.md">записей</a></strong> , на который ссылается на исходный объект <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-close-method-dao.md">Закрыть</a></strong></p></td>
+<td><p><strong><a href="recordset-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Закрытие открытых <strong>набора записей</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -69,7 +64,7 @@ ms.locfileid: "25937367"
 <td><p>Не поддерживается для этого объекта.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-edit-method-dao.md">Изменение</a></strong></p></td>
+<td><p><strong><a href="recordset-edit-method-dao.md">Edit</a></strong></p></td>
 <td><p>Копирует текущей записи из обновляемый объект <strong><a href="recordset-object-dao.md">набора записей</a></strong> в буфер копирования для последующего редактирования.</p></td>
 </tr>
 <tr class="odd">
@@ -97,7 +92,7 @@ ms.locfileid: "25937367"
 <td><p>Получает несколько строк из объекта <strong><a href="recordset-object-dao.md">набора записей</a></strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-move-method-dao.md">Перемещение</a></strong></p></td>
+<td><p><strong><a href="recordset-move-method-dao.md">Move</a></strong></p></td>
 <td><p>Перемещает положение текущей записи в объекте <strong><a href="recordset-object-dao.md">набора записей</a></strong> .</p></td>
 </tr>
 <tr class="even">
@@ -118,12 +113,7 @@ ms.locfileid: "25937367"
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-nextrecordset-method-dao.md">NextRecordset</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Получает следующего набора записей, если какие-либо, возвращаемых запросом составного select в вызове <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> и возвращает значение <strong>типа Boolean</strong> , указывающее, является ли один или несколько дополнительных записей ожидающие (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -131,21 +121,16 @@ ms.locfileid: "25937367"
 <td><p>Создает новый объект <strong><a href="recordset-object-dao.md">набора записей</a></strong> и добавляет его в коллекцию <strong>наборов записей</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-requery-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="recordset-requery-method-dao.md">Requery</a></strong></p></td>
 <td><p>Обновляет данные в объект <strong><a href="recordset-object-dao.md">набора записей</a></strong> , повторное выполнение запросов, на котором основан объект.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-seek-method-dao.md">Поиск</a></strong></p></td>
+<td><p><strong><a href="recordset-seek-method-dao.md">Seek</a></strong></p></td>
 <td><p>Указывает расположение записи в объекте <strong>набора записей</strong> индексированных тип таблицы, которая должна удовлетворять определенным условиям для текущего индекса и делает, запишите текущей записи (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-update-method-dao.md">Update</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Сохранение содержимого буфера копирования обновляемый объект <strong><a href="recordset-object-dao.md">набора записей</a></strong> .</p></td>
 </tr>
 </tbody>
@@ -172,32 +157,17 @@ ms.locfileid: "25937367"
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Возвращает число записей, которые не удалось завершить последнего обновления пакета (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Возвращает массив строк, которые созданы конфликтов в последнюю операцию обновления пакета (только для рабочих областей технология ODBCDirect), указывающее, закладок.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-batchsize-property-dao.md">Размер пакета</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Задает или возвращает число операторов, отправляемых на сервер в каждом пакете (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -205,7 +175,7 @@ ms.locfileid: "25937367"
 <td><p>Возвращает значение, указывающее, является ли положение текущей записи перед первой записи в объекте <strong>набора записей</strong> . Только для чтения, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-bookmark-property-dao.md">Закладка</a></strong></p></td>
+<td><p><strong><a href="recordset-bookmark-property-dao.md">Bookmark</a></strong></p></td>
 <td><p>Задает или возвращает закладки, который уникальным образом определяет текущую запись в объект <strong><a href="recordset-object-dao.md">набора записей</a></strong> .</p></td>
 </tr>
 <tr class="odd">
@@ -221,7 +191,7 @@ ms.locfileid: "25937367"
 <td><p>Задает или возвращает значение, указывающее закладки для первой записи в объекте типа динамического набора записей, содержащий данные для локально кэшировать из источника данных ODBC (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-connection-property-dao.md">Подключение</a></strong></p></td>
+<td><p><strong><a href="recordset-connection-property-dao.md">Connection</a></strong></p></td>
 <td><p>Возвращает объект <strong><a href="connection-object-dao.md">подключения</a></strong> , который соответствует в базу данных.</p></td>
 </tr>
 <tr class="odd">
@@ -233,11 +203,11 @@ ms.locfileid: "25937367"
 <td><p>Возвращает значение, указывающее состояние редактирования для текущей записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-eof-property-dao.md">ФУНКЦИЯ EOF</a></strong></p></td>
+<td><p><strong><a href="recordset-eof-property-dao.md">EOF</a></strong></p></td>
 <td><p>Возвращает значение, указывающее, является ли положение текущей записи после последней записи в объекте <strong>набора записей</strong> . Только для чтения, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-fields-property-dao.md">Поля</a></strong></p></td>
+<td><p><strong><a href="recordset-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>полей</strong> , представляющую все хранятся объекты <strong>поля</strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
@@ -245,7 +215,7 @@ ms.locfileid: "25937367"
 <td><p>Задает или возвращает значение, определяющее записей, включенных в последующем открытого объекта <strong>набора записей</strong> (только для рабочих областей Microsoft Access). Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-index-property-dao.md">Индекс</a></strong></p></td>
+<td><p><strong><a href="recordset-index-property-dao.md">Index</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее имя текущего объекта <strong><a href="index-object-dao.md">индекса</a></strong> в таблице тип объекта <strong><a href="recordset-object-dao.md">набора записей</a></strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
@@ -261,7 +231,7 @@ ms.locfileid: "25937367"
 <td><p>Задает или возвращает значение, указывающее тип блокировки, который фактически во время редактирования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="recordset-name-property-dao.md">Имя</a></strong></p></td>
 <td><p>Возвращает имя указанного объекта. Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -282,12 +252,7 @@ ms.locfileid: "25937367"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset-recordstatus-property-dao.md">RecordStatus</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Возвращает значение, указывающее состояние обновления текущую запись, если он является частью пакета обновления (только для рабочих областей технология ODBCDirect). Только для чтения <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong>.</p></td>
 </tr>
 <tr class="even">
@@ -295,17 +260,12 @@ ms.locfileid: "25937367"
 <td><p>Возвращает значение, указывающее, поддерживает ли объект <strong><a href="recordset-object-dao.md">набора записей</a></strong> метод <strong><a href="recordset-requery-method-dao.md">повторный запрос</a></strong> , который повторно выполняет запрос, на котором основано объекта <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-sort-property-dao.md">Сортировка</a></strong></p></td>
+<td><p><strong><a href="recordset-sort-property-dao.md">Sort</a></strong></p></td>
 <td><p>Задает или возвращает порядок сортировки для записей в объекте <strong><a href="recordset-object-dao.md">набора записей</a></strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Указывает, следует ли асинхронной операции (то есть, вызывается метод с параметром <strong>dbRunAsync</strong> ) завершено выполнение (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -313,7 +273,7 @@ ms.locfileid: "25937367"
 <td><p>Возвращает значение, указывающее, поддерживает ли объект транзакции. Только для чтения, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Тип</strong></p></td>
+<td><p><strong>Type</strong></p></td>
 <td><p>Описание для данного члена будет отображаться в окончательной версии Office 14.</p></td>
 </tr>
 <tr class="odd">
@@ -322,20 +282,15 @@ ms.locfileid: "25937367"
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-updateoptions-property-dao.md">UpdateOptions</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.
-
-
+<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Задает или возвращает значение, указывающее, как предложение WHERE создается для каждой записи во время обновления пакета и ли пакетного обновления следует использовать инструкции UPDATE или DELETE последующей вставкой (только для рабочих областей технология ODBCDirect). Чтение и запись <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-validationrule-property-dao.md">Значение</a></strong></p></td>
+<td><p><strong><a href="recordset-validationrule-property-dao.md">ValidationRule</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое проверяет данные в поля, как она изменен или добавлен в таблицу (только для рабочих областей Microsoft Access). Чтение и запись <strong>строки</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-validationtext-property-dao.md">Сообщение об ошибке</a></strong></p></td>
+<td><p><strong><a href="recordset-validationtext-property-dao.md">ValidationText</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, текст сообщения, приложение, если значение <strong>поля</strong> объекта не удовлетворяют правило проверки, указанного идентификатором <strong>условие на значение</strong> свойства поля (только для рабочих областей Microsoft Access) . Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 </tbody>

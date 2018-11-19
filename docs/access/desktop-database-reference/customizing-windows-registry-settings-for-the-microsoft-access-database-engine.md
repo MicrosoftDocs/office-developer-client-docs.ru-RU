@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 99e2b31cf686895a56e9d70b177314355c1aff3c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: b961869f3add04cf4af827f96721aad6dba611b6
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945148"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025604"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>Настройка параметров реестра Windows для ядра СУБД Microsoft Access
 
@@ -25,8 +25,8 @@ ms.locfileid: "25945148"
 
 Можно настроить параметры реестра Windows четырьмя способами:
 
-- [С помощью Regedit.exe для замены параметров по умолчанию](https://msdn.microsoft.com/library/ff193205\(v=office.15\))
-- [Создание компонента в дереве реестра приложения для управления параметрами](https://msdn.microsoft.com/library/ff836342\(v=office.15\))
-- [С помощью метода SetOption от DAO](https://msdn.microsoft.com/library/ff194471\(v=office.15\))
-- [С помощью свойства подключения в поставщик Microsoft OLE DB для Access](https://msdn.microsoft.com/library/ff196356\(v=office.15\))
+- [С помощью Regedit.exe для замены параметров по умолчанию](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
+- [Создание компонента в дереве реестра приложения для управления параметрами](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
+- [С помощью метода SetOption от DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
+- [С помощью свойства подключения в поставщик Microsoft OLE DB для Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
 

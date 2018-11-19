@@ -6,23 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835944(v=office.15)
 ms:contentKeyID: 48548350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 486bbbdc8612c5a32610e6b1eaa016d5dd2ee319
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 9f0a990f94f13cddf80f3d0c1b5057c5887d5fd1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927685"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026136"
 ---
 # <a name="containers-members-dao"></a>Элементы контейнеров (DAO)
 
-
 **Применимо к**: Access 2013, Office 2013
-
 
 > [!NOTE]
 > Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access. Коллекция подключений содержит текущего объекты подключения рабочей области для объекта (только для рабочих областей технология ODBCDirect).
-
-
 
 ## <a name="methods"></a>Методы
 
@@ -39,7 +35,7 @@ ms.locfileid: "25927685"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="containers-refresh-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="containers-refresh-method-dao.md">Refresh</a></strong></p></td>
 <td><p>Не поддерживается для <strong><a href="connections-collection-dao.md">подключения к</a></strong> коллекции.</p></td>
 </tr>
 </tbody>

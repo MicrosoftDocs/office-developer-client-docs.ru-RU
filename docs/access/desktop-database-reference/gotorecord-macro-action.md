@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3840576f343492724c6f30860ceab8b82c9e2b9e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937731"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026003"
 ---
 # <a name="gotorecord-macro-action"></a>Макрокоманда GoToRecord
 
@@ -49,26 +49,20 @@ ms.locfileid: "25937731"
 <td><p>Имя объекта, содержащую запись, который требуется сделать текущей записи. В поле <strong>Имя объекта</strong> содержит все объекты базы данных, указанному в аргументе <strong>Тип объекта</strong> типа. Если <strong>Тип объекта</strong> аргумента оставлено пустым, оставьте аргумент пустым.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Запись</strong></p></td>
+<td><p><strong>Record</strong></p></td>
 <td><p>Сделать текущей запись. Нажмите кнопку <strong>Назад</strong>, <strong>Далее</strong>, <strong>первый</strong>, <strong>последний</strong>, <strong>Перейдите к</strong>или <strong>Создать</strong> в поле <strong>записи</strong> . Значение по умолчанию — <strong>Далее</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Смещение</strong></p></td>
+<td><p><strong>Offset</strong></p></td>
 <td><p>Целое число или выражение, которое оценивается как целое число. Выражение должно предшествовать знак равенства (<strong>=</strong>). Этот аргумент определяет записи, чтобы сделать текущей. Аргумент <strong>смещение</strong> можно использовать двумя способами:</p>
 <ul>
 <li><p>Если аргумент <strong>запись</strong> <strong>следующий</strong> или <strong>Предыдущий</strong>, Microsoft Office Access 2007 перемещает число записей вперед или назад, указанный в аргументе <strong>смещение</strong> .</p></li>
-<li><p>При <strong>записи</strong> аргумент <strong>Перейти к</strong>Access перемещает записи с номером равен <strong>смещение</strong> . Номер записи отображается в поле номер записи в нижней части окна.</p></li>
-</ul>
-
-> [!NOTE]
-> Если используется параметр **первого**, **последнего**или **Создать** **запись** аргумента **смещение** игнорируется. Если аргумент **смещение** слишком большого размера, Access отображает сообщение об ошибке. Нельзя вводить отрицательные числа для аргумента **смещение** .
-
-
-<p></p>
-<ul>
+<li><p>При <strong>записи</strong> аргумент <strong>Перейти к</strong>Access перемещает записи с номером равен <strong>смещение</strong> . Номер записи отображается в поле номер записи в нижней части окна.</p>
+<p><strong>Примечание</strong>: Если вы используете <strong>первого</strong>, <strong>последнего</strong>или <strong>новый</strong> параметр для аргумента <strong>записи</strong> , <strong>смещение</strong> аргумента игнорируется. Если аргумент <strong>смещение</strong> слишком большого размера, Access отображает сообщение об ошибке. Нельзя вводить отрицательные числа для аргумента <strong>смещение</strong> .</p></li>
 <li><p>Если аргумент <strong>запись</strong> <strong>следующий</strong> или <strong>Предыдущий</strong>, Microsoft Office Access 2007 перемещает число записей вперед или назад, указанный в аргументе <strong>смещение</strong> .</p></li>
 <li><p>При <strong>записи</strong> аргумент <strong>Перейти к</strong>Access перемещает записи с номером равен <strong>смещение</strong> . Номер записи отображается в поле номер записи в нижней части окна.</p></li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>

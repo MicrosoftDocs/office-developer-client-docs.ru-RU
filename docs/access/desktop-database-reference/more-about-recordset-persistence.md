@@ -1,23 +1,23 @@
 ---
-title: Дополнительные сведения о сохранения записей
+title: Дополнительные сведения о сохранении наборов записей
 TOCTitle: More about Recordset persistence
 ms:assetid: f3248de7-6eef-1dd0-ff96-557b411789e7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250232(v=office.15)
 ms:contentKeyID: 48548666
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed9d6e264c6bdaedcc0b921b6eed66bf1ff6afa4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: b0b5888d5a616ad36812af93922cb085a5c8cbb7
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946701"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026080"
 ---
-# <a name="more-about-recordset-persistence"></a>Дополнительные сведения о сохранения записей
+# <a name="more-about-recordset-persistence"></a>Дополнительные сведения о сохранении наборов записей
 
 **Применимо к**: Access 2013, Office 2013
 
-Объект ADO Recordset поддерживает хранение содержимого объекта **набора записей** в файл с помощью метода [сохранения](save-method-ado.md) . Постоянно хранимых файл существует на локальном диске, сетевом сервере или как URL-адрес веб-сайту. Более поздних версий файл можно восстановить с помощью любого из объекта **набора** [Open](open-method-ado-recordset.md) метод или метод [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) объект [подключения](connection-object-ado.md) .
+Объект ADO Recordset поддерживает хранение содержимого объекта **набора записей** в файл с помощью метода [сохранения](save-method-ado.md) . Постоянно хранимых файл существует на локальном диске, сетевом сервере или как URL-адрес веб-сайту. Более поздних версий файл можно восстановить с помощью любого из объекта **набора** [Open](open-method-ado-recordset.md) метод или метод [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) объект [подключения](connection-object-ado.md) .
 
 Кроме того метод [GetString](getstring-method-ado.md) преобразует объект **набора записей** в форму, в которой столбцы и строки разделяются знаков.
 

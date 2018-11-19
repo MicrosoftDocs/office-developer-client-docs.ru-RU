@@ -10,18 +10,18 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 9b240dbf55d2907b24b47349ee56e492f7d5e08d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997471"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026465"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Инициализация драйвера источника текстовых данных
 
 **Применимо к**: Access 2013, Office 2013
 
-Для обоих источников данных и источники данных HTML, используется один и тот же драйвер базы данных.
+Для обоих источников данных текста и для источников данных HTML, используется один и тот же драйвер базы данных.
 
 При установке драйвера базы данных источника данных текста программа установки записывает набор значений по умолчанию реестра Microsoft Windows в подразделы обработчики и ISAM Formats. Не изменяйте эти параметры напрямую; для добавления, удаления или изменения этих параметров с помощью программы установки для приложения. В следующих разделах инициализации и параметров ISAM Format драйвера базы данных источника данных текста.
 
@@ -44,6 +44,8 @@ ms.locfileid: "25997471"
     
     ExportCurrencySymbols=Yes
 ```
+
+<br/>
 
 Ядро базы данных Microsoft Access использует записи в папке Text следующим образом.
 

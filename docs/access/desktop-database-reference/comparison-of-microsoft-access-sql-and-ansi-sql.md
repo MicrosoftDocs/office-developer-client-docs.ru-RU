@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd5350248c33b344695a02020b4b91bdbb1bb984
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 8ce6b1ae1ab15a25eca61a22049d538736c3672d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937178"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026185"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Сравнение Microsoft Access SQL и ANSI SQL
-
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -22,15 +21,15 @@ ms.locfileid: "25937178"
 
 ## <a name="major-differences"></a>Основные различия
 
-  - Microsoft Access SQL и ANSI SQL иметь разные зарезервированные слова и типы данных. Для получения дополнительных сведений см [Microsoft Access базы данных модуля SQL зарезервированные слова](sql-reserved-words.md) и [Эквивалентные типы данных ANSI SQL](equivalent-ansi-sql-data-types.md). С помощью Microsoft Access базы данных модуля поставщика OLE DB существуют дополнительные зарезервированные слова.
+- Microsoft Access SQL и ANSI SQL иметь разные зарезервированные слова и типы данных. Для получения дополнительных сведений см [Microsoft Access базы данных модуля SQL зарезервированные слова](sql-reserved-words.md) и [Эквивалентные типы данных ANSI SQL](equivalent-ansi-sql-data-types.md). С помощью Microsoft Access базы данных модуля поставщика OLE DB существуют дополнительные зарезервированные слова.
 
-  - **[Между... И](https://msdn.microsoft.com/library/ff192436\(v=office.15\))**
+- **[Между... И](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
     
-    *Expr1* \[Не\] **между** *значение1* **и** *значение2*
+  *Expr1* \[Не\] **между** *значение1* **и** *значение2*
     
-    В Microsoft Access SQL *значение1* может быть больше, чем *значение2*; в формате ANSI SQL *значение1* должно быть не более чем *значение2.*
+  В Microsoft Access SQL *значение1* может быть больше, чем *значение2*; в формате ANSI SQL *значение1* должно быть не более чем *значение2.*
 
-  - Microsoft Access SQL поддерживает подстановочные знаки ANSI SQL и [подстановочные знаки](using-wildcard-characters-in-string-comparisons.md) , относящиеся к ядру базы данных Microsoft Access для использования с оператор **[Like](https://msdn.microsoft.com/library/ff195752\(v=office.15\))** . Использование ANSI и Microsoft Access базы данных модуля подстановочные знаки являются взаимоисключающими. Необходимо использовать один набор знаков, их нельзя смешивать. Подстановочные знаки доступны только при использовании ядро базы данных Microsoft Access и Microsoft Access базы данных модуля поставщика OLE DB. При попытке использовать подстановочные знаки ANSI SQL через Microsoft Access или DAO, они будут интерпретируются как литералы. При использовании Microsoft Access базы данных модуля поставщика OLE DB верно обратное.
+- Microsoft Access SQL поддерживает подстановочные знаки ANSI SQL и [подстановочные знаки](using-wildcard-characters-in-string-comparisons.md) , относящиеся к ядру базы данных Microsoft Access для использования с оператор **[Like](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)** . Использование ANSI и Microsoft Access базы данных модуля подстановочные знаки являются взаимоисключающими. Необходимо использовать один набор знаков, их нельзя смешивать. Подстановочные знаки доступны только при использовании ядро базы данных Microsoft Access и Microsoft Access базы данных модуля поставщика OLE DB. При попытке использовать подстановочные знаки ANSI SQL через Microsoft Access или DAO, они будут интерпретируются как литералы. При использовании Microsoft Access базы данных модуля поставщика OLE DB верно обратное.
     
     <table>
     <colgroup>
@@ -60,25 +59,25 @@ ms.locfileid: "25937178"
     </table>
 
 
-  - Microsoft Access SQL обычно меньше ограничений. Например уменьшение Группировка и порядок выражений.
+- Microsoft Access SQL обычно меньше ограничений. Например уменьшение Группировка и порядок выражений.
 
-  - Microsoft Access SQL поддерживает более мощного выражения.
+- Microsoft Access SQL поддерживает более мощного выражения.
 
-## <a name="enhanced-features-of-microsoft-access-sql"></a>Расширенные возможности доступа к Microsoft SQL
+## <a name="enhanced-features-of-microsoft-access-sql"></a>Расширенные возможности Microsoft Access SQL
 
 Microsoft Access SQL предоставляет следующие расширенные возможности:
 
-  - Оператор [ПРЕОБРАЗОВАНИЯ](transform-statement-microsoft-access-sql.md) , который обеспечивает поддержку перекрестных запросов.
+- Оператор [ПРЕОБРАЗОВАНИЯ](transform-statement-microsoft-access-sql.md) , который обеспечивает поддержку перекрестных запросов.
 
-  - Дополнительные [агрегатных функций](sql-aggregate-functions-sql.md), таких как **StDev** и **VarP**.
+- Дополнительные [агрегатных функций](sql-aggregate-functions-sql.md), таких как **StDev** и **VarP**.
 
-  - Объявление [параметров](parameters-declaration-microsoft-access-sql.md) для определения параметров запроса.
+- Объявление [параметров](parameters-declaration-microsoft-access-sql.md) для определения параметров запроса.
 
 ## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Функции ANSI SQL, не поддерживаемые в Microsoft Access SQL
 
 Microsoft Access SQL не поддерживает следующие функции ANSI SQL:
 
-  - Ссылки на РАЗЛИЧНЫЕ статистические функции. К примеру Microsoft Access SQL не разрешает сумм (ЧЕТКИЕ *columnname*).
+- Ссылки на РАЗЛИЧНЫЕ статистические функции. К примеру Microsoft Access SQL не разрешает сумм (ЧЕТКИЕ *columnname*).
 
-  - Предложения LIMIT TO *nn* СТРОК используется, чтобы ограничить число строк, возвращаемых запросом. [Предложение WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) можно использовать для ограничения области запроса.
+- Предложения LIMIT TO *nn* СТРОК используется, чтобы ограничить число строк, возвращаемых запросом. [Предложение WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) можно использовать для ограничения области запроса.
 

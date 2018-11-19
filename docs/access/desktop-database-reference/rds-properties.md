@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
 ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7413b8b8f30e432f29fbee495fcc67e72439ad76
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 02e5fe6f323840fe89ce64983e028bc05604f849
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910708"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026255"
 ---
 # <a name="rds-properties"></a>Свойства RDS
 
@@ -30,7 +30,7 @@ ms.locfileid: "25910708"
 <th>Описание</th>
 </tr>
 <tr class="odd">
-<td><p><a href="connect-property-rds.md">Подключение</a></p></td>
+<td><p><a href="connect-property-rds.md">Connect</a></p></td>
 <td><p>Указывает имя базы данных, из которой запускаются операций запросов и обновления.</p></td>
 </tr>
 <tr class="even">
@@ -70,7 +70,7 @@ ms.locfileid: "25910708"
 <td><p>Указывает, возвращать пользовательский бизнес-объект объекта <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Сервер</a></p></td>
+<td><p><a href="server-property-rds.md">Server</a></p></td>
 <td><p>Указывает имя и связи протокол Internet Information Services (IIS).</p></td>
 </tr>
 <tr class="even">
@@ -82,11 +82,11 @@ ms.locfileid: "25910708"
 <td><p>Указывает, будет ли порядок сортировки по возрастанию или по убыванию.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Указывает, строки запроса, используемое для извлечения <strong>записей</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="url-property-rds.md">URL</a>.</p></td>
+<td><p><a href="url-property-rds.md">URL</a></p></td>
 <td><p>Указывает строку, которая содержит относительный или абсолютный URL-адрес.</p></td>
 </tr>
 </tbody>

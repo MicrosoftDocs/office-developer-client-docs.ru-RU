@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a7bf5ee16987ba72c6f191b5f74390b26cf90ceb
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: bcad6b9e1c106bb365b0594e1e2cb32df33f0b23
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910903"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026094"
 ---
 # <a name="adox-properties"></a>Свойства ADOX
 
@@ -36,7 +36,7 @@ ms.locfileid: "25910903"
 <td><p>Указывает объект ADO- <strong>подключение</strong> , к которой принадлежит каталога.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="attributes-property-adox.md">Атрибуты</a></p></td>
+<td><p><a href="attributes-property-adox.md">Attributes</a></p></td>
 <td><p>Описывает характеристики столбца.</p></td>
 </tr>
 <tr class="odd">
@@ -44,7 +44,7 @@ ms.locfileid: "25910903"
 <td><p>Указывает, является ли индекс кластерные.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="command-property-adox.md">Команда</a></p></td>
+<td><p><a href="command-property-adox.md">Command</a></p></td>
 <td><p>Указывает объект ADO <strong>команды</strong> , который можно использовать для создания или выполнения процедуры.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ ms.locfileid: "25910903"
 <td><p>Указывает, имеют ли записи, которые имеют значение null, значения в полях индекса записи индекса.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">Элемент</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>Указывает конкретный элемент из коллекции по имени или номеру порядковый номер.</p></td>
 </tr>
 <tr class="even">
@@ -108,15 +108,15 @@ ms.locfileid: "25910903"
 <td><p>Указывает последовательности сортировки для столбца (только для столбцов индекса).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249169(v=office.15)">Тип (столбец)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Тип (столбец)</a></p></td>
 <td><p>Указывает тип данных столбца.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248879(v=office.15)">Тип (ключ)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Тип (ключ)</a></p></td>
 <td><p>Указывает тип данных ключа.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj250042(v=office.15)">Тип (таблица)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Тип (таблица)</a></p></td>
 <td><p>Указывает тип таблицы.</p></td>
 </tr>
 <tr class="odd">

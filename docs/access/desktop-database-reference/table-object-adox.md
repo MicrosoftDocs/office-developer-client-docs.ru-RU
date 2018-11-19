@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
 ms:contentKeyID: 48544874
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8984c799779f0024ff50e2814a5993119eb6205f
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 19f30bec624a43bc1b821d8bef01afa166b0c544
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996799"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026430"
 ---
 # <a name="table-object-adox"></a>Объект Table (ADOX)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25996799"
 
 - Определение таблицы с помощью свойства [Name](name-property-adox.md) .
 
-- Определите тип таблицы с помощью свойства [типа](https://msdn.microsoft.com/library/jj250042\(v=office.15\)) .
+- Определите тип таблицы с помощью свойства [типа](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox) .
 
 - Доступ к столбцам базы данных таблицы с помощью коллекции [столбцов](columns-collection-adox.md) .
 

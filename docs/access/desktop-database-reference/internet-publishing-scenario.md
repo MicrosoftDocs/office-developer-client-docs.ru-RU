@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249024(v=office.15)
 ms:contentKeyID: 48543790
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d502c95b985d83f5c19f68d3477a678c5471c54
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1f481c4bc5cf11f9345458b3859c099b40a79885
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945875"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026451"
 ---
 # <a name="internet-publishing-scenario"></a>Сценарий публикации в Интернете
 
@@ -36,7 +36,7 @@ ms.locfileid: "25945875"
 
 2.  В меню **проект** выберите команду **Справочные материалы**.
 
-3.  Выберите **«Библиотека 2.5 объекты данных ActiveX Microsoft**"и нажмите **кнопку ОК**.
+3.  Выберите **Библиотеку 2.5 объекты данных ActiveX Microsoft**и нажмите кнопку **ОК**.
 
 ### <a name="insert-controls-on-the-main-form"></a>Вставка элементов управления в форме
 

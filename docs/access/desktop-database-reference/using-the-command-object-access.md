@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250102(v=office.15)
 ms:contentKeyID: 48548088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d55fd58daf13fa0f3995480f35da4ccc0f17ac5c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3bd48ecee927f3b8a725c7d066997a4b907c5438
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946687"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026223"
 ---
 # <a name="using-the-command-object-access"></a>С помощью объекта команды (доступ)
 
@@ -29,12 +29,8 @@ ms.locfileid: "25946687"
 
 В этом разделе содержатся следующие разделы:
 
-- [Обзор объекта команды](command-object-overview.md)
-
+- [Обзор COM-объекта](command-object-overview.md)
 - [Создание и выполнение простой команды](creating-and-executing-a-simple-command.md)
-
-- [Параметры объекта команды](command-object-parameters.md)
-
+- [Параметры COM-объекта](command-object-parameters.md)
 - [Вызов хранимой процедуры с помощью команды](calling-a-stored-procedure-with-a-command.md)
-
 - [Именованные команды](named-commands.md)

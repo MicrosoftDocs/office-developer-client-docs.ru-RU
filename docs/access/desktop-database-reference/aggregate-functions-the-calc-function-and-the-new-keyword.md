@@ -1,19 +1,19 @@
 ---
-title: Агрегатных функций, функция CALC и НОВОЕ ключевое слово
+title: Агрегатные функции, функция CALC и ключевое слово NEW
 TOCTitle: Aggregate functions, the CALC function, and the NEW keyword
 ms:assetid: c91fef19-bf41-8d04-f195-5470fb18393f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db726ea0b51a345e0e40c9814cef100b90b1350f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fb3e667a23d5bfd1d3dda5b4eb8dbd60a47e36ba
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947891"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025989"
 ---
-# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Агрегатных функций, функция CALC и НОВОЕ ключевое слово
+# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Агрегатные функции, функция CALC и ключевое слово NEW
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -29,7 +29,7 @@ ms.locfileid: "25947891"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Статистические функции</p></th>
+<th><p>Агрегатные функции</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
@@ -60,17 +60,12 @@ ms.locfileid: "25947891"
 </tr>
 <tr class="odd">
 <td><p>ЛЮБОЙ (<em>псевдоним главы</em>.<em> Имя столбца</em>)</p></td>
-<td><p>Значение указанного столбца. Какие-либо имеет значение прогнозируемый только в том случае, если значение столбца является общим для всех строк в главе.</p>
-
-> [!NOTE]
-> Если столбец не содержит такое же значение для всех строк в главе, команда ФИГУРЫ произвольно возвращает одно из значений в качестве значения любой функции.
-
-
-<p></p></td>
+<td><p>Значение указанного столбца. Какие-либо имеет значение прогнозируемый только в том случае, если значение столбца является общим для всех строк в главе.</p><p><strong>Примечание</strong>: Если столбец не содержит такое же значение для всех строк в главе, команда ФИГУРЫ произвольно возвращает одно из значений в качестве значения любой функции.</p></td>
 </tr>
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -91,6 +86,7 @@ ms.locfileid: "25947891"
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -111,6 +107,7 @@ ms.locfileid: "25947891"
 </tbody>
 </table>
 
+<br/>
 
 *Тип поля* , переданные с НОВЫМ ключевым словом может быть любой из следующих типов данных.
 
