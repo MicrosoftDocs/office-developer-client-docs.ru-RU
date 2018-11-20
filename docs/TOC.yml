@@ -1949,23 +1949,6 @@ items:
                   href: access/desktop-database-reference/address-book-navigation-buttons.md
             - name: Глава 12. Руководство по RDS
               href: access/desktop-database-reference/chapter-12-rds-tutorial.md
-              items:
-              - name: 'Шаг 1: Укажите программу сервера'
-                href: access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md
-              - name: 'Шаг 2: Вызовите программу сервера'
-                href: access/desktop-database-reference/step-2-invoke-the-server-program-rds-tutorial.md
-              - name: Шаг 3. Сервер получает набор записей
-                href: access/desktop-database-reference/step-3-server-obtains-a-recordset-rds-tutorial.md
-              - name: Шаг 4. Сервер возвращает набор записей
-                href: access/desktop-database-reference/step-4-server-returns-the-recordset-rds-tutorial.md
-              - name: Шаг 5. Предоставление доступа к объекту DataControl
-                href: access/desktop-database-reference/step-5-datacontrol-is-made-usable-rds-tutorial.md
-              - name: Шаг 6. Отправка изменений на сервер
-                href: access/desktop-database-reference/step-6-changes-are-sent-to-the-server-rds-tutorial.md
-              - name: Руководство по RDS (VBScript)
-                href: access/desktop-database-reference/rds-tutorial-vbscript.md
-              - name: Руководство по RDS (Visual J++)
-                href: access/desktop-database-reference/rds-tutorial-visual-j.md
             - name: Глава 13. Безопасность и использование RDS
               href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
               items:
@@ -12393,9 +12376,9 @@ items:
     href: swayuri.md
   - name: Схемы URI Office
     href: office-uri-schemes.md
-ms.openlocfilehash: a2f1597f1fefc42a1859c154c05bc66de2814f40
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: cf1b67706f1d090d21e8c8da48cfe6b844addf6d
+ms.sourcegitcommit: 007141520d6479860f452371532f9267f33eb260
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947975"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999517"
