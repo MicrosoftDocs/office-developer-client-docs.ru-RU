@@ -17,7 +17,7 @@ ms.locfileid: "25399734"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Выбор определенной версии MAPI для загрузки
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 При связывании явно реализация интерфейса MAPI, необходимо тщательно выбрать реализация для загрузки. 
   
@@ -107,7 +107,7 @@ ms.locfileid: "25399734"
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [����� �������� � ���������������� MAPI](mapi-programming-overview.md)
-- [Ссылки на функции MAPI](how-to-link-to-mapi-functions.md)
+- [Ссылка на функции MAPI](how-to-link-to-mapi-functions.md)
 - [Параметры реестра заглушка Mapi32.dll](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
 - [Настройка разделов MSI для библиотеки DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
 - [Явным образом сопоставление вызовов программного интерфейса MAPI для библиотеки MAPI DLL](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
