@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Узнайте, как можно интегрировать программу установки Office 365 Click-to-Run с помощью решения для управления программного обеспечения.
-ms.openlocfilehash: 0e9e82fbf86b81ad35928277ff11fe9b86d91964
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: cdcdde0618e2b96ce997ba5e263f75d85c21fd11
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401750"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643222"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Интеграция приложений управляемости с установщиком click-to-run Office 365
 
@@ -127,7 +127,7 @@ BSTR contentid;
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
-#### <a name="parameters"></a>Параметры
+#### <a name="parameters"></a>Parameters
 
 -  _displaylevel_: **true** для отображения состояния установки, включая ошибки, во время процесса обновления; **значение false,** Чтобы скрыть состояние установки, включая ошибки, во время процесса обновления. Значение по умолчанию — **false**.
     
@@ -146,7 +146,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 <a name="bk_ApplyRemark"></a>
 
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Примечания
 
 - Если при запуске **Применить** действие выполняется любое приложение Office, **Применить** действие завершится с ошибкой. Передача `forceappshutdown=true` **Применить** метод будет отображено службы **OfficeClickToRun** немедленно завершить работу любого приложения Office, которые работают и установите обновление. Могут возникать данных как они не запрос на сохранение изменений для открытия документов. 
     
@@ -181,7 +181,7 @@ HRESULT Cancel() // Cancel the download action.
 
 <a name="bk_CancelRemarks"></a>
 
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Примечания
 
 - Этот метод может быть только инициируется при код состояния COM **eDOWNLOAD_WIP**. Попытка отменить текущий файл для загрузки. Состояние COM изменит **eDOWNLOAD_CANCELLING** и перейдите в конечном счете **eDOWNLOAD_CANCELED**. Состояние COM возвращает **E_ILLEGAL_METHOD_CALL** , если запускаются в любое время. 
     
@@ -191,7 +191,7 @@ HRESULT Cancel() // Cancel the download action.
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
-#### <a name="parameters"></a>Параметры
+#### <a name="parameters"></a>Parameters
 
 -  _displaylevel_: **true** для отображения состояния установки, включая ошибки, во время процесса обновления; **значение false,** Чтобы скрыть состояние установки, включая ошибки, во время процесса обновления. Значение по умолчанию — **false**.
     
@@ -214,7 +214,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 <a name="bk_DownloadRemark"></a>
 
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Примечания
 
 - Необходимо указать _downloadsource_ и _contentid_ парой. В противном случае возвращает ошибку **E_INVALIDARG** метод **загрузки** . 
     
@@ -264,7 +264,7 @@ typdef struct _UPDATE_STATUS_REPORT
 HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
-#### <a name="parameters"></a>Параметры
+#### <a name="parameters"></a>Parameters
 
 |||
 |:-----|:-----|
@@ -276,7 +276,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 |:-----|:-----|
 |**S_OK** <br/> |Метод **состояние** всегда возвращает результат. Изучение `UPDATE_STATUS_RESULT` структуры для состояния текущего действия.  <br/> |
    
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Примечания
 
 - Поле состояния `UPDATE_STATUS_REPORT` содержит состояния текущего действия. Возвращается одно из следующих значений состояния: 
     
@@ -300,7 +300,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 - Если команда возникла ошибка, поле ошибки `UPDATE_STATUS_REPORT` содержит подробные сведения об ошибке. Два типа коды ошибок возвращаются методом **состояние** . 
     
-- Если ошибка меньше, чем `UDPATE_ERROR_CODE::eUNKNOWN`, ошибки — это один из следующих кодов ошибки предварительно заданные:
+- Если ошибка меньше, чем `UPDATE_ERROR_CODE::eUNKNOWN`, ошибки — это один из следующих кодов ошибки предварительно заданные:
     
   ```cpp
   typedef enum _UPDATE_ERROR_CODE
@@ -324,7 +324,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-  Если этот код ошибки больше, чем `UDPATE_ERROR_CODE::eUNKNOWN` является **HRESULT** вызова неудачных функции. Чтобы извлечь вычитание HRESULT `UDPATE_ERROR_CODE::eUNKNOWN` по значению, возвращенному в поле ошибки `UPDATE_STATUS_REPORT`.
+  Если этот код ошибки больше, чем `UPDATE_ERROR_CODE::eUNKNOWN` является **HRESULT** вызова неудачных функции. Чтобы извлечь вычитание HRESULT `UPDATE_ERROR_CODE::eUNKNOWN` по значению, возвращенному в поле ошибки `UPDATE_STATUS_REPORT`.
     
   Полный список значений status и error можно просмотреть, изучив **IUpdateNotify** библиотеки типов, внедренные в OfficeC2RCom.dll. 
     

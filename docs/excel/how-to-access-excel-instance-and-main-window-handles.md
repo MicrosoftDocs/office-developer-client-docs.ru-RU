@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 035cd2a8423e3ab14f4b2ca4b73fbc39641e54d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b71ccd428e60c9ba2e59fea0e56eb2fc61390db
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807274"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643180"
 ---
 # <a name="access-excel-instance-and-main-window-handles"></a>Доступ к дескрипторам основного окна и экземпляра Excel
 
@@ -63,7 +63,7 @@ BOOL GetHwnd(HWND * pHwnd)
   //
   // xlGetHwnd only returns the LoWord of Excel hWnd
   // so all the windows have to be enumerated to see
-  // which match the LoWord retuned by xlGetHwnd.
+  // which match the LoWord returned by xlGetHwnd.
   //
   if (Excel4(xlGetHwnd, &x, 0) == xlretSuccess)
   {
@@ -85,9 +85,9 @@ BOOL GetHwnd(HWND * pHwnd)
 
 
 
-[Отображение диалоговых окон из библиотеки DLL или XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+[Отображение диалоговых окон из DLL или XLL](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
-[Функции API C, которые можно вызывать только из библиотеки DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[Функции интерфейса API для C, которые могут вызываться только из DLL или XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
 [���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
 
