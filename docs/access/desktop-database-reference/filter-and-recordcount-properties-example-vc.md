@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15)
 ms:contentKeyID: 48544161
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ca6e56110110086f9b608eb87228ebf17462bce
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d97c653f1bbcdc648de4641f7faf3b9e8fcb2d64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889821"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720928"
 ---
-# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="38aff-102">Пример использования свойств Filter и RecordCount (VC++)</span><span class="sxs-lookup"><span data-stu-id="38aff-102">Filter and RecordCount properties example (VC++)</span></span>
+# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="4206a-102">Пример использования свойств Filter и RecordCount (VC++)</span><span class="sxs-lookup"><span data-stu-id="4206a-102">Filter and RecordCount properties example (VC++)</span></span>
 
 
-<span data-ttu-id="38aff-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38aff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4206a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4206a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="38aff-104">В этом примере используется свойство [фильтра](filter-property-ado.md) для открытия нового [набора записей](recordset-object-ado.md) на основе указанного условия, применяемые к существующей **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="38aff-104">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**.</span></span> <span data-ttu-id="38aff-105">Свойство [RecordCount](recordcount-property-ado.md) используется для отображения количества записей в двух **наборов записей**.</span><span class="sxs-lookup"><span data-stu-id="38aff-105">It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**.</span></span> <span data-ttu-id="38aff-106">Функция FilterField является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="38aff-106">The FilterField function is required for this procedure to run.</span></span>
+<span data-ttu-id="4206a-104">В этом примере используется свойство [фильтра](filter-property-ado.md) для открытия нового [набора записей](recordset-object-ado.md) на основе указанного условия, применяемые к существующей **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="4206a-104">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**.</span></span> <span data-ttu-id="4206a-105">Свойство [RecordCount](recordcount-property-ado.md) используется для отображения количества записей в двух **наборов записей**.</span><span class="sxs-lookup"><span data-stu-id="4206a-105">It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**.</span></span> <span data-ttu-id="4206a-106">Функция FilterField является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="4206a-106">The FilterField function is required for this procedure to run.</span></span>
 
 ```cpp 
  
@@ -319,7 +320,7 @@ void PrintComError(_com_error &e)
 // EndFilterCpp 
 ```
 
-<span data-ttu-id="38aff-107">**FilterX.h**</span><span class="sxs-lookup"><span data-stu-id="38aff-107">**FilterX.h**</span></span>
+<span data-ttu-id="4206a-107">**FilterX.h**</span><span class="sxs-lookup"><span data-stu-id="4206a-107">**FilterX.h**</span></span>
 
 ```cpp 
  

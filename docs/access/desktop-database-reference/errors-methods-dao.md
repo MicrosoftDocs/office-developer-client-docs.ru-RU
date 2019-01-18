@@ -6,16 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125294(v=office.15)
 ms:contentKeyID: 52073418
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e8a3a28b0557f19a32a83e0a61f3ede725ff71c5
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 4a6dc90d933330a897ddb84af1817d083100fb86
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936443"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717722"
 ---
-# <a name="errors-methods-dao"></a><span data-ttu-id="c58e1-102">Методы ошибок (DAO)</span><span class="sxs-lookup"><span data-stu-id="c58e1-102">Errors methods (DAO)</span></span>
+# <a name="errors-methods-dao"></a><span data-ttu-id="e260c-102">Методы ошибок (DAO)</span><span class="sxs-lookup"><span data-stu-id="e260c-102">Errors methods (DAO)</span></span>
 
-<span data-ttu-id="c58e1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c58e1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e260c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e260c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c58e1-104">Метод Errors.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="c58e1-104">Errors.Refresh method (DAO)</span></span>](errors-refresh-method-dao.md)
+- [<span data-ttu-id="e260c-104">Метод Errors.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="e260c-104">Errors.Refresh method (DAO)</span></span>](errors-refresh-method-dao.md)
 

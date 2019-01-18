@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125729(v=office.15)
 ms:contentKeyID: 52074602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 194baaecc975f659ce5162cdcf76778e5f82b34c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7832be1c02fd7ef9a2de74c20507999ca626e1f2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944148"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720312"
 ---
-# <a name="data-definition-language-microsoft-access-sql"></a><span data-ttu-id="e633b-102">Язык описания данных (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="e633b-102">Data definition language (Microsoft Access SQL)</span></span>
+# <a name="data-definition-language-microsoft-access-sql"></a><span data-ttu-id="ff9ad-102">Язык описания данных (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="ff9ad-102">Data definition language (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="e633b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e633b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ff9ad-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ff9ad-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e633b-104">Оператор ADD USER</span><span class="sxs-lookup"><span data-stu-id="e633b-104">ADD USER statement</span></span>](add-user-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-105">Оператор ALTER TABLE</span><span class="sxs-lookup"><span data-stu-id="e633b-105">ALTER TABLE statement</span></span>](alter-table-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-106">Оператор ALTER USER или DATABASE</span><span class="sxs-lookup"><span data-stu-id="e633b-106">ALTER USER or DATABASE statement</span></span>](alter-user-or-database-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-107">Предложение CONSTRAINT</span><span class="sxs-lookup"><span data-stu-id="e633b-107">CONSTRAINT clause</span></span>](constraint-clause-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-108">Оператор CREATE INDEX</span><span class="sxs-lookup"><span data-stu-id="e633b-108">CREATE INDEX statement</span></span>](create-index-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-109">Оператор CREATE PROCEDURE</span><span class="sxs-lookup"><span data-stu-id="e633b-109">CREATE PROCEDURE statement</span></span>](create-procedure-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-110">Оператор CREATE TABLE</span><span class="sxs-lookup"><span data-stu-id="e633b-110">CREATE TABLE statement</span></span>](create-table-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-111">Оператор CREATE USER или GROUP</span><span class="sxs-lookup"><span data-stu-id="e633b-111">CREATE USER or GROUP statement</span></span>](create-user-or-group-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-112">Оператор CREATE VIEW</span><span class="sxs-lookup"><span data-stu-id="e633b-112">CREATE VIEW statement</span></span>](create-view-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-113">Оператор DROP</span><span class="sxs-lookup"><span data-stu-id="e633b-113">DROP statement</span></span>](drop-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-114">Оператор DROP USER или GROUP</span><span class="sxs-lookup"><span data-stu-id="e633b-114">DROP USER or GROUP statement</span></span>](drop-user-or-group-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-115">Оператор GRANT</span><span class="sxs-lookup"><span data-stu-id="e633b-115">GRANT statement</span></span>](grant-statement-microsoft-access-sql.md)
-- [<span data-ttu-id="e633b-116">Оператор REVOKE</span><span class="sxs-lookup"><span data-stu-id="e633b-116">REVOKE statement</span></span>](revoke-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-104">Оператор ADD USER</span><span class="sxs-lookup"><span data-stu-id="ff9ad-104">ADD USER statement</span></span>](add-user-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-105">Оператор ALTER TABLE</span><span class="sxs-lookup"><span data-stu-id="ff9ad-105">ALTER TABLE statement</span></span>](alter-table-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-106">Оператор ALTER USER или DATABASE</span><span class="sxs-lookup"><span data-stu-id="ff9ad-106">ALTER USER or DATABASE statement</span></span>](alter-user-or-database-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-107">Предложение CONSTRAINT</span><span class="sxs-lookup"><span data-stu-id="ff9ad-107">CONSTRAINT clause</span></span>](constraint-clause-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-108">Оператор CREATE INDEX</span><span class="sxs-lookup"><span data-stu-id="ff9ad-108">CREATE INDEX statement</span></span>](create-index-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-109">Оператор CREATE PROCEDURE</span><span class="sxs-lookup"><span data-stu-id="ff9ad-109">CREATE PROCEDURE statement</span></span>](create-procedure-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-110">Оператор CREATE TABLE</span><span class="sxs-lookup"><span data-stu-id="ff9ad-110">CREATE TABLE statement</span></span>](create-table-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-111">Оператор CREATE USER или GROUP</span><span class="sxs-lookup"><span data-stu-id="ff9ad-111">CREATE USER or GROUP statement</span></span>](create-user-or-group-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-112">Оператор CREATE VIEW</span><span class="sxs-lookup"><span data-stu-id="ff9ad-112">CREATE VIEW statement</span></span>](create-view-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-113">Оператор DROP</span><span class="sxs-lookup"><span data-stu-id="ff9ad-113">DROP statement</span></span>](drop-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-114">Оператор DROP USER или GROUP</span><span class="sxs-lookup"><span data-stu-id="ff9ad-114">DROP USER or GROUP statement</span></span>](drop-user-or-group-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-115">Оператор GRANT</span><span class="sxs-lookup"><span data-stu-id="ff9ad-115">GRANT statement</span></span>](grant-statement-microsoft-access-sql.md)
+- [<span data-ttu-id="ff9ad-116">Оператор REVOKE</span><span class="sxs-lookup"><span data-stu-id="ff9ad-116">REVOKE statement</span></span>](revoke-statement-microsoft-access-sql.md)
 
 

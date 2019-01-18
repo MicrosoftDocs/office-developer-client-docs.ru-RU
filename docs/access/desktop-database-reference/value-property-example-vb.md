@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15)
 ms:contentKeyID: 48547547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37182f2de5342374ddb3d12d38e35c63bafaf1aa
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 78743d4046950383de6d84fb2a616408158cd23f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872832"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717974"
 ---
-# <a name="value-property-example-vb"></a><span data-ttu-id="e9ba3-102">Пример использования свойства Value (VB)</span><span class="sxs-lookup"><span data-stu-id="e9ba3-102">Value property example (VB)</span></span>
+# <a name="value-property-example-vb"></a><span data-ttu-id="572e5-102">Пример использования свойства Value (VB)</span><span class="sxs-lookup"><span data-stu-id="572e5-102">Value property example (VB)</span></span>
 
 
-<span data-ttu-id="e9ba3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9ba3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="572e5-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="572e5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e9ba3-104">В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="e9ba3-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="572e5-104">В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .</span><span class="sxs-lookup"><span data-stu-id="572e5-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```vb 
  

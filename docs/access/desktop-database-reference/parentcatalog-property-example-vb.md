@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15)
 ms:contentKeyID: 48544295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e76d40a02aa70bcf977a34f1db378e8d83e5d1e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: efa482b8be80eccec2d81ea59e7b4947af6573f6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867764"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717036"
 ---
-# <a name="parentcatalog-property-example-vb"></a><span data-ttu-id="50e41-102">Пример использования свойства ParentCatalog (VB)</span><span class="sxs-lookup"><span data-stu-id="50e41-102">ParentCatalog property example (VB)</span></span>
+# <a name="parentcatalog-property-example-vb"></a><span data-ttu-id="a4049-102">Пример использования свойства ParentCatalog (VB)</span><span class="sxs-lookup"><span data-stu-id="a4049-102">ParentCatalog property example (VB)</span></span>
 
 
-<span data-ttu-id="50e41-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50e41-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a4049-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4049-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="50e41-104">Следующий код демонстрирует использование свойства [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству от поставщика перед добавлением таблицы в каталоге.</span><span class="sxs-lookup"><span data-stu-id="50e41-104">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog.</span></span> <span data-ttu-id="50e41-105">Является ли данное свойство AutoIncrement, которая создает поле AutoIncrement базы данных Microsoft Jet.</span><span class="sxs-lookup"><span data-stu-id="50e41-105">The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
+<span data-ttu-id="a4049-104">Следующий код демонстрирует использование свойства [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству от поставщика перед добавлением таблицы в каталоге.</span><span class="sxs-lookup"><span data-stu-id="a4049-104">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog.</span></span> <span data-ttu-id="a4049-105">Является ли данное свойство AutoIncrement, которая создает поле AutoIncrement базы данных Microsoft Jet.</span><span class="sxs-lookup"><span data-stu-id="a4049-105">The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
 
 ```vb 
  

@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1052879
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 515bde2cf4c25aff7c0e6ee709b8a7795e217488
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 2f1c45d6c051a0ef7dc8fe878cb0f0764a224949
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925991"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716595"
 ---
-# <a name="databasetransactions-property-dao"></a><span data-ttu-id="9908c-102">Свойство Database.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="9908c-102">Database.Transactions property (DAO)</span></span>
+# <a name="databasetransactions-property-dao"></a><span data-ttu-id="2b48c-102">Свойство Database.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="2b48c-102">Database.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="9908c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9908c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2b48c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b48c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9908c-104">Возвращает значение, указывающее, поддерживает ли объект транзакции.</span><span class="sxs-lookup"><span data-stu-id="9908c-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="9908c-105">Только для чтения, **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="9908c-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="2b48c-104">Возвращает значение, указывающее, поддерживает ли объект транзакции.</span><span class="sxs-lookup"><span data-stu-id="2b48c-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="2b48c-105">Только для чтения, **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="2b48c-105">Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9908c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9908c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2b48c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2b48c-106">Syntax</span></span>
 
-<span data-ttu-id="9908c-107">*выражение* . Транзакции</span><span class="sxs-lookup"><span data-stu-id="9908c-107">*expression* .Transactions</span></span>
+<span data-ttu-id="2b48c-107">*выражение* . Транзакции</span><span class="sxs-lookup"><span data-stu-id="2b48c-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="9908c-108">*выражение* Переменная, которая представляет собой объект **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="9908c-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="2b48c-108">*выражение* Переменная, которая представляет собой объект **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="2b48c-108">*expression* A variable that represents a **Database** object.</span></span>
 

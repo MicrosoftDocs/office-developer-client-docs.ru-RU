@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d93cd1f094d52bc6f9ccfd3ab64d2fa17f766356
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 1fc3341f4ec662c17e2a7c274b1cc3af215c877c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891102"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715321"
 ---
-# <a name="clone-method-example-vbscript"></a><span data-ttu-id="e5726-102">Пример использования метода Clone (VBScript)</span><span class="sxs-lookup"><span data-stu-id="e5726-102">Clone method example (VBScript)</span></span>
+# <a name="clone-method-example-vbscript"></a><span data-ttu-id="3fdb0-102">Пример использования метода Clone (VBScript)</span><span class="sxs-lookup"><span data-stu-id="3fdb0-102">Clone method example (VBScript)</span></span>
 
 
-<span data-ttu-id="e5726-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5726-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3fdb0-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fdb0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e5726-104">В этом примере используется метод [клонированной](clone-method-ado.md) для создания копии [набора записей](recordset-object-ado.md) и затем позволяет пользователя положение указателя записи каждой копии независимо друг от друга.</span><span class="sxs-lookup"><span data-stu-id="e5726-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="3fdb0-104">В этом примере используется метод [клонированной](clone-method-ado.md) для создания копии [набора записей](recordset-object-ado.md) и затем позволяет пользователя положение указателя записи каждой копии независимо друг от друга.</span><span class="sxs-lookup"><span data-stu-id="3fdb0-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
-<span data-ttu-id="e5726-105">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="e5726-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="e5726-106">В этом примере базы данных Northwind, поставляемых с Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="e5726-106">This example uses the Northwind database distributed with Microsoft Access.</span></span> <span data-ttu-id="e5726-107">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **CloneVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="e5726-107">Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**.</span></span> <span data-ttu-id="e5726-108">Результат можно просмотреть в браузере любого клиента.</span><span class="sxs-lookup"><span data-stu-id="e5726-108">You can view the result in any client browser.</span></span>
+<span data-ttu-id="3fdb0-105">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="3fdb0-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="3fdb0-106">В этом примере базы данных Northwind, поставляемых с Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="3fdb0-106">This example uses the Northwind database distributed with Microsoft Access.</span></span> <span data-ttu-id="3fdb0-107">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **CloneVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="3fdb0-107">Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**.</span></span> <span data-ttu-id="3fdb0-108">Результат можно просмотреть в браузере любого клиента.</span><span class="sxs-lookup"><span data-stu-id="3fdb0-108">You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="e5726-109">Чтобы использовать в примере, измените строку RsCustomerList.Source = «Клиенты» для RsCustomerList.Source = «Продукты» для подсчета таблица большего размера.</span><span class="sxs-lookup"><span data-stu-id="e5726-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
+<span data-ttu-id="3fdb0-109">Чтобы использовать в примере, измените строку RsCustomerList.Source = «Клиенты» для RsCustomerList.Source = «Продукты» для подсчета таблица большего размера.</span><span class="sxs-lookup"><span data-stu-id="3fdb0-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
 
 ```vb 
  

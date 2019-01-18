@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
 ms:contentKeyID: 48548168
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21c0f6044b0c59949984a35e6f6d4b51c80b1801
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7a92b5380837668df6661d1d88eb8bb0bd2cb4ec
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868429"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713550"
 ---
-# <a name="type-property-example-property-vc"></a><span data-ttu-id="77770-102">Пример использования свойства Type (Property) (VC++)</span><span class="sxs-lookup"><span data-stu-id="77770-102">Type property example (Property) (VC++)</span></span>
+# <a name="type-property-example-property-vc"></a><span data-ttu-id="b16a0-102">Пример использования свойства Type (Property) (VC++)</span><span class="sxs-lookup"><span data-stu-id="b16a0-102">Type property example (Property) (VC++)</span></span>
 
 
-<span data-ttu-id="77770-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="77770-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b16a0-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b16a0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="77770-104">В этом примере показано свойство [типа](type-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="77770-104">This example demonstrates the [Type](type-property-ado.md) property.</span></span> <span data-ttu-id="77770-105">Это модель служебной программы для список имен и типы семейства сайтов, как [Свойства](properties-collection-ado.md), [поля](fields-collection-ado.md)и т.д.</span><span class="sxs-lookup"><span data-stu-id="77770-105">It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
+<span data-ttu-id="b16a0-104">В этом примере показано свойство [типа](type-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="b16a0-104">This example demonstrates the [Type](type-property-ado.md) property.</span></span> <span data-ttu-id="b16a0-105">Это модель служебной программы для список имен и типы семейства сайтов, как [Свойства](properties-collection-ado.md), [поля](fields-collection-ado.md)и т.д.</span><span class="sxs-lookup"><span data-stu-id="b16a0-105">It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
 
-<span data-ttu-id="77770-106">Мы не нужно открыть [набора записей](recordset-object-ado.md) для доступа к коллекции **свойств** ; они появляются при создании экземпляра объекта **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="77770-106">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated.</span></span> <span data-ttu-id="77770-107">Тем не менее для свойства [CursorLocation](cursorlocation-property-ado.md) значение **adUseClient** добавляет несколько динамических свойств коллекции **свойств** объекта **набора записей** , делая более интересным в примере.</span><span class="sxs-lookup"><span data-stu-id="77770-107">However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting.</span></span> <span data-ttu-id="77770-108">Для иллюстрации мы явно использовать свойство [Item](item-property-ado.md) для каждого [Свойства](property-object-ado.md) объекта.</span><span class="sxs-lookup"><span data-stu-id="77770-108">For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
+<span data-ttu-id="b16a0-106">Мы не нужно открыть [набора записей](recordset-object-ado.md) для доступа к коллекции **свойств** ; они появляются при создании экземпляра объекта **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="b16a0-106">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated.</span></span> <span data-ttu-id="b16a0-107">Тем не менее для свойства [CursorLocation](cursorlocation-property-ado.md) значение **adUseClient** добавляет несколько динамических свойств коллекции **свойств** объекта **набора записей** , делая более интересным в примере.</span><span class="sxs-lookup"><span data-stu-id="b16a0-107">However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting.</span></span> <span data-ttu-id="b16a0-108">Для иллюстрации мы явно использовать свойство [Item](item-property-ado.md) для каждого [Свойства](property-object-ado.md) объекта.</span><span class="sxs-lookup"><span data-stu-id="b16a0-108">For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
 
 ```cpp 
  

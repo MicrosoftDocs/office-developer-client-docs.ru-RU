@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249869(v=office.15)
 ms:contentKeyID: 48547246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2f855cfc02350a21833fc9e2f49d8b890c307db
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: db524a8107563b465dbb56fe2bc5bb051fdc899a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886384"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722678"
 ---
-# <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a><span data-ttu-id="00f52-102">Пример использования свойств OriginalValue и UnderlyingValue (VC++)</span><span class="sxs-lookup"><span data-stu-id="00f52-102">OriginalValue and UnderlyingValue properties example (VC++)</span></span>
+# <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a><span data-ttu-id="18d11-102">Пример использования свойств OriginalValue и UnderlyingValue (VC++)</span><span class="sxs-lookup"><span data-stu-id="18d11-102">OriginalValue and UnderlyingValue properties example (VC++)</span></span>
 
-<span data-ttu-id="00f52-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="00f52-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="18d11-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="18d11-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="00f52-104">В этом примере демонстрируется [OriginalValue](originalvalue-property-ado.md) и обновление свойств [UnderlyingValue](underlyingvalue-property-ado.md) по отображения сообщения при изменении базовых данных записи во время пакетного [набора записей](recordset-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="00f52-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
+<span data-ttu-id="18d11-104">В этом примере демонстрируется [OriginalValue](originalvalue-property-ado.md) и обновление свойств [UnderlyingValue](underlyingvalue-property-ado.md) по отображения сообщения при изменении базовых данных записи во время пакетного [набора записей](recordset-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="18d11-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
 
 ```cpp 
  
@@ -230,7 +231,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="00f52-105">**OriginalValueX.h**</span><span class="sxs-lookup"><span data-stu-id="00f52-105">**OriginalValueX.h**</span></span>
+<span data-ttu-id="18d11-105">**OriginalValueX.h**</span><span class="sxs-lookup"><span data-stu-id="18d11-105">**OriginalValueX.h**</span></span>
 
 ```cpp 
  

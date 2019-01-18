@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15)
 ms:contentKeyID: 48548968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 67d7dcbf7a4663a1898fa516b359cf6aed6d128d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: f76455c78c7c58b81a327d883cdd47821f42ac6d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868681"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717029"
 ---
-# <a name="version-property-example-vb"></a><span data-ttu-id="58776-102">Пример использования свойства Version (VB)</span><span class="sxs-lookup"><span data-stu-id="58776-102">Version property example (VB)</span></span>
+# <a name="version-property-example-vb"></a><span data-ttu-id="96ae5-102">Пример использования свойства Version (VB)</span><span class="sxs-lookup"><span data-stu-id="96ae5-102">Version property example (VB)</span></span>
 
 
-<span data-ttu-id="58776-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58776-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="96ae5-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="96ae5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58776-104">В этом примере используется свойство [Version](version-property-ado.md) объекта [подключения](connection-object-ado.md) для отображения текущая версия ADO.</span><span class="sxs-lookup"><span data-stu-id="58776-104">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version.</span></span> <span data-ttu-id="58776-105">Он также использует несколько динамических свойств для отображения:</span><span class="sxs-lookup"><span data-stu-id="58776-105">It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="96ae5-104">В этом примере используется свойство [Version](version-property-ado.md) объекта [подключения](connection-object-ado.md) для отображения текущая версия ADO.</span><span class="sxs-lookup"><span data-stu-id="96ae5-104">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version.</span></span> <span data-ttu-id="96ae5-105">Он также использует несколько динамических свойств для отображения:</span><span class="sxs-lookup"><span data-stu-id="96ae5-105">It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="58776-106">Текущее имя СУБД и версии.</span><span class="sxs-lookup"><span data-stu-id="58776-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="96ae5-106">Текущее имя СУБД и версии.</span><span class="sxs-lookup"><span data-stu-id="96ae5-106">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="58776-107">Версия OLE DB.</span><span class="sxs-lookup"><span data-stu-id="58776-107">OLE DB version.</span></span>
+  - <span data-ttu-id="96ae5-107">Версия OLE DB.</span><span class="sxs-lookup"><span data-stu-id="96ae5-107">OLE DB version.</span></span>
 
-  - <span data-ttu-id="58776-108">Имя поставщика и версии.</span><span class="sxs-lookup"><span data-stu-id="58776-108">provider name and version.</span></span>
+  - <span data-ttu-id="96ae5-108">Имя поставщика и версии.</span><span class="sxs-lookup"><span data-stu-id="96ae5-108">provider name and version.</span></span>
 
-  - <span data-ttu-id="58776-109">Версия ODBC.</span><span class="sxs-lookup"><span data-stu-id="58776-109">ODBC version.</span></span>
+  - <span data-ttu-id="96ae5-109">Версия ODBC.</span><span class="sxs-lookup"><span data-stu-id="96ae5-109">ODBC version.</span></span>
 
-  - <span data-ttu-id="58776-110">Имя драйвера ODBC и версии.</span><span class="sxs-lookup"><span data-stu-id="58776-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="96ae5-110">Имя драйвера ODBC и версии.</span><span class="sxs-lookup"><span data-stu-id="96ae5-110">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 
