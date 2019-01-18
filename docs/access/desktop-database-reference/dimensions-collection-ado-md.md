@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248812(v=office.15)
 ms:contentKeyID: 48543035
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4840fe1b715c9e328034a6f2cd15b57dd78f31c1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: f947682364f48a21e6909cb13fb73f29c54f3535
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944643"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716574"
 ---
 # <a name="dimensions-collection-ado-md"></a>Коллекция Dimensions (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25944643"
 
 Содержит объекты [измерения](dimension-object-ado-md.md) , которые будут включены в куб.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Измерения** — это обычная коллекция ADO. С помощью свойства и методы коллекции сделайте следующее:
 

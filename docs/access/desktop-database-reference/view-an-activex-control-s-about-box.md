@@ -1,5 +1,5 @@
 ---
-title: Просмотр элемента управления ActiveX "о программе"
+title: Просмотр окна сведений об элементе ActiveX
 TOCTitle: View an ActiveX control About box
 description: Действия для просмотра "о программе".
 ms:assetid: 72a855b4-dd1a-a531-6402-0321335d3bf5
@@ -11,14 +11,15 @@ f1_keywords:
 - vbaac10.chm4039
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0ccd656669dc265170bd084efff595b97d428e0b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 01de3eb221187da95dcb8b3984a78c0dcb62af08
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884571"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709378"
 ---
-# <a name="view-an-activex-control-about-box"></a>Просмотр элемента управления ActiveX "о программе"
+# <a name="view-an-activex-control-about-box"></a>Просмотр окна сведений об элементе ActiveX
 
 **Применимо к**: Access 2013, Office 2013
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249207(v=office.15)
 ms:contentKeyID: 48544534
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c39d9ca7da2955343e38c67628c9c603a2c256b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: caaf755ebd63f1805d0c77ef79a0f5863a85050e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869808"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708768"
 ---
 # <a name="recordopenoptionsenum"></a>RecordOpenOptionsEnum
 
@@ -56,7 +57,7 @@ ms.locfileid: "25869808"
 </tr>
 <tr class="odd">
 <td><p><strong>adOpenRecordUnspecified</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Значение, используемое по умолчанию. Указывает, что параметры не заданы.</p></td>
 </tr>
 <tr class="even">

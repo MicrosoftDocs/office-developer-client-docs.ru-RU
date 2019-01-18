@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837173(v=office.15)
 ms:contentKeyID: 48548867
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b514d0896be25e11436cd7d7ac9f924fdf7eb3f1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: caabfb0f4e90134c10d5ab728f19e1fd2a4437dd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924983"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716196"
 ---
 # <a name="submacro-macro-statement"></a>Оператор макроса Submacro
 
@@ -19,7 +20,7 @@ ms.locfileid: "25924983"
 
 Оператор **Вложенный макрос** определяет отдельные макроса в окне конструктор макросов.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **Вложенный макрос** состоит из следующих аргументов.
 

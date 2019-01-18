@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836064(v=office.15)
 ms:contentKeyID: 48548438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7c7a42098bcc64a58f8a004c0f1d5a35fd4f34b7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: e0b7fbf20a8732e8f4db525fd32bf4e5737b4d79
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998926"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716434"
 ---
 # <a name="relationsdelete-method-dao"></a>Метод Relations.Delete (DAO)
 
@@ -46,14 +47,14 @@ ms.locfileid: "25998926"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Имя отношения для удаления.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод **Delete** поддерживается только в том случае, когда объект **связи** — это новый, unappended объект.
 

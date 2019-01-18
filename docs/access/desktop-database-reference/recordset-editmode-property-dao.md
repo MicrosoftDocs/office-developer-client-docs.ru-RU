@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192697(v=office.15)
 ms:contentKeyID: 48544329
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c111193f7cfb90eb593788381e839839f29ba784
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 326f23f95f9ccf8763f76b21df8955c39198a88c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926446"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718646"
 ---
 # <a name="recordseteditmode-property-dao"></a>Свойство Recordset.EditMode (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25926446"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Возвращает значение типа **Long** , указывающее состояние редактирования. Значение может быть одной из констант **[EditModeEnum](editmodeenum-enumeration-dao.md)** .
 

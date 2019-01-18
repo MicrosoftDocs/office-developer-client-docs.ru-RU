@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
 ms:contentKeyID: 48548361
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 672e37da0a29ecb0d9db52de6c424602c7169df2
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 7506e59104997cebb6fe55d3b892b8176da83ec6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937801"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700916"
 ---
 # <a name="connections-members-dao"></a>Члены подключений (DAO)
 
@@ -35,7 +36,7 @@ ms.locfileid: "25937801"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connections-refresh-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></p></td>
 <td><p>Не поддерживается для <strong><a href="connections-collection-dao.md">подключения к</a></strong> коллекции.</p></td>
 </tr>
 </tbody>

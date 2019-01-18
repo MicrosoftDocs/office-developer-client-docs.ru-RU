@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249778(v=office.15)
 ms:contentKeyID: 48546898
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7da0320bf42d1a1720bccfe8bf9e3843a2bb94f5
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: ca97f3ec2cbddfae4d62a72e5e6148a57abb4325
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946939"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718982"
 ---
 # <a name="sending-the-updates-updatebatch"></a>Отправка обновлений: UpdateBatch
 

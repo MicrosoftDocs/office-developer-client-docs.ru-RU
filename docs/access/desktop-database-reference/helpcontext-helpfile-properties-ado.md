@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249608(v=office.15)
 ms:contentKeyID: 48546194
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a9ad8c700b0b0ae293683f7b79062a0edf7775f9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: c90fee6b8525ab13c8a294f9b39c52c20f580a62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881372"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722517"
 ---
 # <a name="helpcontext-helpfile-properties-ado"></a>Свойства HelpContext, HelpFile (ADO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0323ba7adb617bd68ed5c97098c93be9f990ac70
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910931"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716224"
 ---
 # <a name="ado-md-properties"></a>Свойства ADO MD
 
@@ -50,7 +51,7 @@ ms.locfileid: "25910931"
 <td><p>Указывает число объектов в коллекции.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="depth-property-ado-md.md">Число уровней</a></p></td>
+<td><p><a href="depth-property-ado-md.md">Depth</a></p></td>
 <td><p>Показывает, сколько уровней между <strong>уровень</strong> и корневого уровня иерархии.</p></td>
 </tr>
 <tr class="odd">
@@ -118,7 +119,7 @@ ms.locfileid: "25910931"
 <td><p>Указывает текущее состояние ячеек.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">Тип</a></p></td>
+<td><p><a href="type-property-ado-md.md">Type</a></p></td>
 <td><p>Указывает тип текущего элемента.</p></td>
 </tr>
 <tr class="even">
@@ -126,7 +127,7 @@ ms.locfileid: "25910931"
 <td><p>Указывает имя однозначно идентифицируемый для текущего объекта.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="value-property-ado-md.md">Значение</a></p></td>
+<td><p><a href="value-property-ado-md.md">Value</a></p></td>
 <td><p>Указывает значения текущей ячейки.</p></td>
 </tr>
 </tbody>

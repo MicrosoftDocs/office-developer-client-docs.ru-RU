@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249096(v=office.15)
 ms:contentKeyID: 48544074
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6856c1f4f8098582fee7db0cfd02d72b659e8bfa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: c04eeb93d1ad323f210b229b0db7de601de79e36
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927174"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718996"
 ---
 # <a name="positions-collection-ado-md-reference"></a>Положения коллекции (Справочник по ADO MD)
 

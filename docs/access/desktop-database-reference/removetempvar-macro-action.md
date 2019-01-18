@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm147125
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e43181626b885664eaf370decb7d471082c7a263
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 5051cfd74f2a745ee430f2ed8a20445d2f9965f3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928119"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716308"
 ---
 # <a name="removetempvar-macro-action"></a>Макрокоманда RemoveTempVar
 
@@ -26,7 +27,7 @@ ms.locfileid: "25928119"
 
 Действие **RemoveTempVar** можно использовать для удаления одного временную переменную, созданный с помощью действия **SetTempVar** .
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **RemoveTempVar** использует следующий аргумент.
 
@@ -50,7 +51,7 @@ ms.locfileid: "25928119"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
   - Может быть длиной до 255 временные переменные, определенные за один раз. Если вы не удалите временную переменную, остается в памяти до закрытия базы данных. Рекомендуется удалить временные переменные после завершения их использования.
 
@@ -74,9 +75,9 @@ ms.locfileid: "25928119"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
-<th><p>Аргументы</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
+<th><p>Arguments</p></th>
 </tr>
 </thead>
 <tbody>

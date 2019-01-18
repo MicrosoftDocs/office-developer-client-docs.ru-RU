@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
 ms:contentKeyID: 48545901
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e3219d9691fa61fd1ae234cecd273ec9720ed9e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 21d775c0abac5d2afddd6b0930816c8d6d381ff0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923870"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700894"
 ---
 # <a name="databasecollatingorder-property-dao"></a>Свойство Database.CollatingOrder (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25923870"
 
 *выражение* Переменная, которая представляет собой объект **базы данных** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Возвращаемое значение — **длинное целое** значение или константа, которая может иметь одно из следующих значений.
 
@@ -37,7 +38,7 @@ ms.locfileid: "25923870"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 <th><p>Порядок сортировки</p></th>
 </tr>
 </thead>
@@ -96,7 +97,7 @@ ms.locfileid: "25923870"
 </tr>
 <tr class="even">
 <td><p><strong>dbSortNeutral</strong></p></td>
-<td><p>Neutral</p></td>
+<td><p>Нейтральный</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortNorwDan</strong></p></td>

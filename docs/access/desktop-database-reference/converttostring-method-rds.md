@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0accdb33aecacdb6bb6c51a3ec1a39d2edb08ead
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 2c589339eb838f944ce4443c19a787eafb01c3dd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949448"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717729"
 ---
 # <a name="converttostring-method-rds"></a>Метод ConvertToString (RDS)
 
@@ -23,14 +24,14 @@ ms.locfileid: "25949448"
 
 *DataFactory*. ConvertToString (*записей*)
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*DataFactory* |Объектная переменная, которая представляет объект [RDSServer.DataFactory](datafactory-object-rdsserver.md) .|
-|*Набор записей* |Объектная переменная, представляющий объект **набора записей** .|
+|*Recordset* |Объектная переменная, представляющий объект **набора записей** .|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 С помощью ASP-файлы используйте **ConvertToString** внедрение **записей** в HTML-страницу, созданный на сервере для передачи его на клиентский компьютер.
 

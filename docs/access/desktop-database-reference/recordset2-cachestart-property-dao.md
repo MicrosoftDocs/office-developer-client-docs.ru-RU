@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192239(v=office.15)
 ms:contentKeyID: 48543989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96ea7ca40c6bbc04a14b5562027de2bf17bf3bd6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: e6f68cc9704d7dafe7a1d779b338294c9d5fc1c8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925102"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718800"
 ---
 # <a name="recordset2cachestart-property-dao"></a>Свойство Recordset2.CacheStart (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25925102"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Кэширование данных улучшает производительность при использовании **набора записей** объектов для извлечения данных из удаленного сервера. Кэш — это должен быть пробел в локальной памяти, в которой содержатся данные, недавно извлеченные с сервера. Это полезно, если пользователи запрашивать данные еще раз во время выполнения приложения. Когда пользователь запрашивает данные, ядро базы данных Microsoft Access кэша для запрошенные данные сначала проверяет вместо извлечение из сервера, который занимает больше времени. Кэш сохраняет только данные, поступающие из источника данных ODBC.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248816(v=office.15)
 ms:contentKeyID: 48543055
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf0e9751e822e5ff2250a15138546678deb76bc8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 0f74532693f1054dd9d187757af840a3a00b451f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921098"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720620"
 ---
 # <a name="description-property-ado-md"></a>Свойство Description (ADO MD)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25921098"
 
 Возвращает **строку** и доступен только для чтения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объектов [члена](member-object-ado-md.md) **Описание** относится только к измерения и формул элементы. **Описание** возвращает пустую строку ("») для всех остальных типов элементов. Дополнительные сведения о различных типах элементов [типа](type-property-ado-md.md) см.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 98215394af89df30a95fcb9c5a757368cb64d4f1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 1b8e3baf4d147edcc739e59933da4697c08cdef0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946379"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700775"
 ---
 # <a name="data-section"></a>Раздел данных
 
@@ -27,9 +28,9 @@ ms.locfileid: "25946379"
 <z:row CompanyName="Joe&apos;s Garage"/> 
 ```
 
-Следующие символы зарезервированы в формате XML и должен быть заменен сущности знаков: {",» &,\<,\>}.
+Следующие символы зарезервированы в формате XML и должен быть заменен сущности знаков: {",», &,\<,\>}.
 
-## <a name="binary"></a>Двоичный
+## <a name="binary"></a>Binary
 
 Двоичные данные — bin.hex кодировке (то есть, сопоставляется один байт два символов, один символ в каждом байта).
 

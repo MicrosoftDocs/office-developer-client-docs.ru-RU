@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1de2b13892ceda1cf34758414d38e649545f229e
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 365835bc579a431d34b65cd27ed4de4e12bca309
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998275"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716882"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Метод Database.CreateRelation (DAO)
 
@@ -66,7 +67,7 @@ ms.locfileid: "25998275"
 <td><p><strong>Variant</strong> (<strong>String</strong> подтип) с именем таблицы внешнего в отношении. Если в таблице не существует, перед добавлением объект <strong>отношения</strong> , возникает ошибка времени выполнения.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Атрибуты</em></p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа или сочетание констант, который содержит сведения о типе отношения. Свойство <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> для получения дополнительных сведений см.</p></td>
@@ -77,9 +78,9 @@ ms.locfileid: "25998275"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Связь
+Relation
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **отношения** сведения к ядру базы данных Microsoft Access об отношениях между полями в двух объектов **[TableDef](tabledef-object-dao.md)** или **[QueryDef](querydef-object-dao.md)** . Целостность данных можно реализовать с помощью свойства **атрибуты** .
 

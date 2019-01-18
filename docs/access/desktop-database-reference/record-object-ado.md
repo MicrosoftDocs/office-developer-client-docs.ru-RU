@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249557(v=office.15)
 ms:contentKeyID: 48545952
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c3a42a89179cca6ec556819031865d6b6752b176
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 96ddc7fc1a93543f0eea2b42a3d423ec25a00636
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928609"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721509"
 ---
 # <a name="record-object-ado"></a>Объект Record (ADO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25928609"
 
 Представляет строку из [набора записей](recordset-object-ado.md) или поставщик данных или объект, возвращенный поставщиком частично структурированных данных, такой как файл или папку.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **запись** представляет одну строку данных и понятий похож с одной строки **набора записей**. В зависимости от возможностей вашего поставщика, объекты **записи** могут быть возвращены непосредственно от поставщика вместо одной строки **набора записей**для выполнения пример, когда запрос SQL, которая выбирает только одну строку. Также можно получить объект **записи** непосредственно из объекта **набора записей** . Или, в **записи** можно получить напрямую от поставщика для частично структурированных данных, таких как Microsoft Exchange поставщика OLE DB.
 

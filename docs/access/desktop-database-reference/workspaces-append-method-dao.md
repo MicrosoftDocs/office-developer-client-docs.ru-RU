@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845644(v=office.15)
 ms:contentKeyID: 48543498
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac8e1c9624932bf24fb47cd8a038f60b5933dad7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 11d721d58301d2adb33b2e381d88d7245531ff06
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997653"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718887"
 ---
 # <a name="workspacesappend-method-dao"></a>Метод Workspaces.Append (DAO)
 
@@ -44,16 +45,16 @@ ms.locfileid: "25997653"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Объект</em></p></td>
+<td><p><em>Object</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Объект</strong></p></td>
+<td><p><strong>Object</strong></p></td>
 <td><p>Объектная переменная, представляющий поле, добавленный в коллекцию.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Добавленный объект становится сохраняемого объекта, хранящиеся на диске, пока не будет удалена с помощью метода **Delete** .
 

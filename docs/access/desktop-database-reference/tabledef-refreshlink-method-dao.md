@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052980
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b7fda0c095a04d2a3ab7f295497cff05a620ea6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: ba9375da16cebd7db7a29fe20fca6f8b395a73a2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922540"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716469"
 ---
 # <a name="tabledefrefreshlink-method-dao"></a>Метод TableDef.RefreshLink (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25922540"
 
 *выражение* Переменная, которая представляет собой объект- **TableDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы изменить сведения о подключении для связанной таблицы, сброс свойству **[Connect](connection-connect-property-dao.md)** соответствующего объекта **TableDef** и затем использовать метод **RefreshLink** для обновления данных. С помощью метода **RefreshLink** не изменяет свойства и объекты **[отношений](relation-object-dao.md)** связанной таблицы.
 

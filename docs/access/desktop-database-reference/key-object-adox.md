@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249461(v=office.15)
 ms:contentKeyID: 48545608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7722130c76516eaa7dcaf0598a5e1c040e21ba25
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: f56a90b7accd1b64c9a52e0a7cf5385f83fd10d5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025947"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717141"
 ---
 # <a name="key-object-adox"></a>Объект Key (ADOX)
 
@@ -20,7 +21,7 @@ ms.locfileid: "26025947"
 
 Представляет основной, внешний или уникальное ключевое поле из таблицы базы данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Следующий код создает новый **ключ**.
 

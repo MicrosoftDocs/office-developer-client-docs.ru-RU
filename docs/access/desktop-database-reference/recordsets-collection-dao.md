@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
 ms:contentKeyID: 48543756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b32ef33205e23656e7bcb86d7384876e4c404c1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 3b935e05264497c7ad09ada4a8c50c775845857b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924528"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718765"
 ---
 # <a name="recordsets-collection-dao"></a>Коллекция наборов записей (DAO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25924528"
 
 Коллекция **наборов записей** содержит все открытые объекты **набора записей** в объекте **подключения** или **базы данных** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При использовании объектов DAO работы с данным почти полностью с помощью объектов **набора записей** .
 

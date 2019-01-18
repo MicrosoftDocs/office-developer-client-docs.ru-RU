@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cbf672ea3dde9725916128593e18d4289fd89057
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f42386674ff76d550fb47a971860b4e1a5905236
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945385"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721635"
 ---
 # <a name="clearmacroerror-macro-action"></a>Макрокоманда ClearMacroError
 
@@ -25,11 +26,11 @@ ms.locfileid: "25945385"
 
 Чтобы очистить сведения об ошибке, которая хранится в объекте **MacroError** можно использовать действие **ClearMacroError** .
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **ClearMacroError** не имеет каких-либо аргументов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 - При возникновении ошибки в макросе, в объекте **MacroError** хранятся сведения об ошибке. Если вы не использовали **[ПриОшибке](onerror-macro-action.md)** для отмены вывода сообщений об ошибках, останавливает макросов и сведения об ошибке отображается в стандартное сообщение об ошибке. Тем не менее если используется **ПриОшибке** для отмены вывода сообщений об ошибках, можно использовать данные, хранящиеся в объекте **MacroError** в условие или пользовательское сообщение об ошибке.
     
@@ -53,9 +54,9 @@ ms.locfileid: "25945385"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
-<th><p>Аргументы</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
+<th><p>Arguments</p></th>
 </tr>
 </thead>
 <tbody>
@@ -66,7 +67,7 @@ ms.locfileid: "25945385"
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>ОткрытьФорму</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Имя формы</strong>: CategoryForm<strong>представление</strong>: <strong>Режим FormWindow</strong>: <strong>Обычный</strong></p></td>
 </tr>
 <tr class="odd">

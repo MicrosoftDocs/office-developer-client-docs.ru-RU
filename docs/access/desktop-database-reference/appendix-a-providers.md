@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 45416c68d52a2ba20ba9adfa19a6ebd89d1e0240
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: e4549c8817361cfb5b9fa730ee37ca6a07edc98b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026206"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717054"
 ---
 # <a name="appendix-a-providers"></a>Приложение А. Поставщики
 
@@ -43,7 +44,7 @@ ADO мощные и гибкие, так как он может подключи
 <thead>
 <tr class="header">
 <th><p>Область</p></th>
-<th><p>Статья</p></th>
+<th><p>Тема</p></th>
 </tr>
 </thead>
 <tbody>

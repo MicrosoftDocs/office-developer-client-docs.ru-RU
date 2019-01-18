@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e841da9d401558311682f0abcbefde9161b71b3
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 33443fda474b3785d34d457719e49f5e358bb254
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025996"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718037"
 ---
 # <a name="odbc-scalar-functions"></a>Скалярные функции ODBC
 
@@ -105,7 +106,7 @@ Microsoft Access SQL поддерживает использование син�
 </table>
 
 
-## <a name="time--date-functions"></a>Функции даты и времени
+## <a name="time--date-functions"></a>Функции даты & времени
 
 <table>
 <colgroup>

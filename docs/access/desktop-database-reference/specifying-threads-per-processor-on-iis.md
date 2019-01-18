@@ -1,19 +1,20 @@
 ---
-title: Указание потоков процессора на сервере IIS
+title: Указание числа потоков на процессор в IIS
 TOCTitle: Specifying threads per processor on IIS
 ms:assetid: 12889d7b-5415-8077-2ca0-1c3a96fb89ec
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248898(v=office.15)
 ms:contentKeyID: 48543344
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78d4ad5b2cf87f390051793b290e174fc03e6a82
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 57e4b6228588af7f0d58caf53d3e093e824c7854
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947198"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718184"
 ---
-# <a name="specifying-threads-per-processor-on-iis"></a>Указание потоков процессора на сервере IIS
+# <a name="specifying-threads-per-processor-on-iis"></a>Указание числа потоков на процессор в IIS
 
 
 **Применимо к**: Access 2013, Office 2013

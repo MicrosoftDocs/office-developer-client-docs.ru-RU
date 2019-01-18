@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
 ms:contentKeyID: 48545209
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 034fd349f140e931d1a5f654dfb275854aa2b78d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 05a29ff9dbe720fe7c5539639b20e0abdc3c587b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998982"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716770"
 ---
 # <a name="recordset2index-property-dao"></a>Свойство Recordset2.index (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25998982"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Записи в базовые таблицы не сохраняются в любом порядке. Свойство **Index** изменяет порядок записей, возвращенных из базы данных; он не влияет на порядок, в котором хранятся записи.
 

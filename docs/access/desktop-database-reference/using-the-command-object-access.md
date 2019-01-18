@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250102(v=office.15)
 ms:contentKeyID: 48548088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bd48ecee927f3b8a725c7d066997a4b907c5438
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 9b89d292d86035e565ad18413062274dfbfc74db
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026223"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709329"
 ---
 # <a name="using-the-command-object-access"></a>С помощью объекта команды (доступ)
 

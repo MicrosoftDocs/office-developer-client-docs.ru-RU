@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
 ms:contentKeyID: 48544862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0263c87ea12384fb3e1fe722c00cd58f4d7f45e0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 09f60cb8dde407aacbb19e6b2124151dbbf9b3c5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924479"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721747"
 ---
 # <a name="parameters-collection-dao"></a>Коллекция параметров (DAO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25924479"
 
 Коллекция **параметров** содержит все объекты **параметров** объекта **QueryDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Коллекция **параметров** сведения только о существующих параметров. Не удается добавить объектов или удалять объекты из коллекции **параметров** .
 

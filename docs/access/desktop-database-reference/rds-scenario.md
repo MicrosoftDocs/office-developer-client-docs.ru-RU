@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)
 ms:contentKeyID: 48545218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c2d5d334f449391f56d339f1b3882836e87f9dd6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: e4206cedd139b551d687911f00aa9fc5e5782859
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946953"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718807"
 ---
-# <a name="rds-scenario"></a>Сценарий служб удаленных рабочих СТОЛОВ
+# <a name="rds-scenario"></a>Сценарий RDS
 
 **Применимо к**: Access 2013, Office 2013
 
-- [Кнопки адресной книги](address-book-command-buttons.md)
+- [Адресной книги кнопок команд](address-book-command-buttons.md)
 - [Объект привязки данных адресной книги](address-book-data-binding-object.md)
-- [Кнопки навигации по адресной книге](address-book-navigation-buttons.md)
-- [Запуск примера приложения адресной книги](running-the-address-book-sample-application.md)
-- [Требования к системе для приложения адресной книги](system-requirements-for-the-address-book-application.md)
+- [Адресной книги кнопки перехода](address-book-navigation-buttons.md)
+- [Выполнение примера приложения адресной книги](running-the-address-book-sample-application.md)
+- [Требования к системе для применение адресной книги](system-requirements-for-the-address-book-application.md)
 
 

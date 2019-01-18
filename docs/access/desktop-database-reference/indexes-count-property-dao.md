@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845647(v=office.15)
 ms:contentKeyID: 48543499
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae6a8098e51f271080924a8569d31e5bc268dc1f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: cffbf14e73e97113194eb25b8e0d5799d3578086
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927020"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718030"
 ---
 # <a name="indexescount-property-dao"></a>Свойство Indexes.Count (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25927020"
 
 *выражение* Переменная, которая представляет объект **индексов** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8f72083201fefffc5dfff4627cd3b54c1449e083
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: f524a544736f68bcfa6bd15e3bcc720ffa2bc4d6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026059"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710281"
 ---
 # <a name="after-delete-macro-event"></a>Событие макроса After Delete
 
@@ -26,7 +27,7 @@ ms.locfileid: "26026059"
 > [!NOTE]
 > События **После удаления** доступна только в макросов данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Событие **После удаления** используется для выполнения действий, которые должны происходить при удалении записи. Чаще всего используется **После удаления** включают применение бизнес-правил, рабочие процессы, обновление общую сумму и отправки уведомлений.
 

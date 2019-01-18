@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249046(v=office.15)
 ms:contentKeyID: 48543868
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b0af29b56eaecafca6e027f2ae7acf75cb99f8ac
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: e0fee171c6f3bf4e0d9251b62b18e467440091ac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923114"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718989"
 ---
 # <a name="primarykey-property-adox"></a>Свойство PrimaryKey (ADOX)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25923114"
 
 Задает и возвращает значение **типа Boolean** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение по умолчанию — **False**.
 

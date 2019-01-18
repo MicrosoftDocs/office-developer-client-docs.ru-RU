@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250235(v=office.15)
 ms:contentKeyID: 48548670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b41521ac3b4ba0f07eac188a7103025be2800e4d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9bd1e1259eb7b089d0387dd385ee5157eeac2f34
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946505"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698738"
 ---
 # <a name="source-property-ado-record"></a>Свойство Source (объект Record в ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25946505"
 
 Задает или возвращает значение **типа Variant** , которое указывает, сущности, представленной **записи**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **Source** возвращает *исходный* аргумент методу [Open](open-method-ado-record.md) объекта **записи** . Он может содержать абсолютное или относительное строку URL-адреса. Абсолютный URL-адрес может использоваться без установки свойства [ActiveConnection](activeconnection-property-ado.md) непосредственно открыть объект **записи** . В этом случае создается объект **подключения** неявных.
 

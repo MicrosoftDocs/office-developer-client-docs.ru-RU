@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
 ms:contentKeyID: 48546686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ea43f565199f346287abf8fd134dec494d37cf5
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 7fe15604d0160afcbde5fdf02eaa6a7831da874b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949973"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718569"
 ---
 # <a name="willexecute-event-ado"></a>Событие WillExecute (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949973"
 
 *Источник*, *CursorType*WillExecute *LockType для*, *Параметры*, *adStatus*, *командной*, *pRecordset*, *pConnection*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
@@ -36,7 +37,7 @@ ms.locfileid: "25949973"
 |*pRecordset* |Объект [набора записей](recordset-object-ado.md) , к которому применяется этот уведомления о событии.|
 |*pConnection* |Объект [подключения](connection-object-ado.md) , для которого применяется этого уведомления о событиях.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Событие **WillExecute** могут возникнуть из-за **подключения.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), или **набора записей.** Метод [Open](open-method-ado-recordset.md) параметр *pConnection* всегда должен содержать ссылку на допустимый объект **подключения** . Если событие из-за **Connection.Execute** *pRecordset* и *командной* — значение **Nothing**. Если событие из-за **Recordset.Open**параметр *pRecordset* ссылается на объект **набора записей** , параметр *командной* задано значение **Nothing**. Если событие из-за **Command.Execute**, параметр *командной* ссылаются на объект **команды** и *pRecordset* параметру присвоено значение **Nothing**.
 

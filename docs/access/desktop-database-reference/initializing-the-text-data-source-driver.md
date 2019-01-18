@@ -10,12 +10,13 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9b240dbf55d2907b24b47349ee56e492f7d5e08d
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 2e76cc7d6b5254f2347e2264b0588ee1df643d05
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026465"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709140"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Инициализация драйвера источника текстовых данных
 
@@ -499,7 +500,7 @@ ms.locfileid: "26026465"
 </tr>
 <tr class="odd">
 <td><p>TextDelimiter</p></td>
-<td><p>Можно задать для любой отдельный знак, используемый для выделения строки, содержащие любое из специальных символов. Пример: &quot;ABC&quot;,&quot;xyz, компании pqr&quot;,&quot;hij&quot; при этом нет разделителем по умолчанию является двойные кавычки. Если эта запись — это строка &quot;нет&quot; затем символы не будут рассматриваться в качестве разделителей.</p></td>
+<td><p>Можно задать для любой отдельный знак, используемый для выделения строки, содержащие любое из специальных символов. Например, &quot;ABC&quot;,&quot;xyz, компании pqr&quot;,&quot;hij&quot; при этом нет разделителем по умолчанию является двойные кавычки. Если эта запись — это строка &quot;нет&quot; затем символы не будут рассматриваться в качестве разделителей.</p></td>
 </tr>
 </tbody>
 </table>

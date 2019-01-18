@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844743(v=office.15)
 ms:contentKeyID: 48542927
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efcac1b95fe4f58a6ebef39a51c57dda4f9866a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 616e2bc6e374d7aba17c5cd07030469d8941014c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921070"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719934"
 ---
 # <a name="connectionstillexecuting-property-dao"></a>Свойство Connection.StillExecuting (DAO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25921070"
 
 *выражение* Переменная, которая содержит объект **подключения** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **StillExecuting** определяет наиболее недавно вызванный асинхронный метод **OpenConnection** (то есть, метод выполнен с помощью параметра **dbRunAsync** ) или **выполнить** завершена. Хотя свойство **StillExecuting** имеет **значение True**, любой возвращенный объект не были доступны.
 
