@@ -1,27 +1,28 @@
 ---
-title: Основные понятия (Справочник по для настольных баз данных Access)
+title: Основные понятия (справочник по базам данных Access на компьютере)
 TOCTitle: Concepts
 ms:assetid: 4fbb1a86-1cfb-4ba7-b67f-f75d7a31ec9c
 ms:mtpsurl: https://msdn.microsoft.com/library/Mt346017(v=office.15)
 ms:contentKeyID: 67946324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef53fb482970d260b55d008c3919f63f41a6140b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 44a1e549349e73708da1fa0176162492e5c808d8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946995"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726360"
 ---
-# <a name="concepts"></a>Понятия
+# <a name="concepts"></a>Основные понятия
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом разделе представлены важных концепций для разработки настраиваемых решений Access.
+Этот раздел содержит важные понятия для разработки пользовательских решений Access.
 
-При просмотре контента на docs.microsoft.com можно использовать оглавления, расположенной слева от раздел поможет сориентироваться в документации.
+Если вы просматриваете содержимое на сайте docs.microsoft.com, для перемещения по документам можно использовать содержание, расположенное слева от раздела.
 
-- [Элементы управления ActiveX](activex-controls-access.md)
+- [Элементы ActiveX](activex-controls-access.md)
 - [Преобразование](conversion.md)
 - [Лента](ribbon.md)
 - [Работа с другими приложениями](working-with-other-applications-access.md)
