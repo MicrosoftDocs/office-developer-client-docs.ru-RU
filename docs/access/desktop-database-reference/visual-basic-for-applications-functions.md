@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249223(v=office.15)
 ms:contentKeyID: 48544617
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf497c64767a872a2bfd1e07754fcc8a5afa9dd9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 00bbbce065cd27819687667a2856de951ed9a328
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881834"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707061"
 ---
 # <a name="visual-basic-for-applications-functions"></a>Функции Visual Basic для приложений
 
@@ -32,7 +33,7 @@ ms.locfileid: "25881834"
 <tbody>
 <tr class="odd">
 <td><p>Abs</p></td>
-<td><p>ASC</p></td>
+<td><p>Asc</p></td>
 <td><p>Atn</p></td>
 <td><p>CBool</p></td>
 <td><p>CByte</p></td>
@@ -65,8 +66,8 @@ ms.locfileid: "25881834"
 <tr class="odd">
 <td><p>DateDiff</p></td>
 <td><p>DatePart</p></td>
-<td><p>Функция DateSerial</p></td>
-<td><p>Функция DateValue</p></td>
+<td><p>DateSerial</p></td>
+<td><p>DateValue</p></td>
 <td><p>Day</p></td>
 <td><p>DDB</p></td>
 </tr>
@@ -79,8 +80,8 @@ ms.locfileid: "25881834"
 <td><p>Формат $</p></td>
 </tr>
 <tr class="odd">
-<td><p>БЗ</p></td>
-<td><p>Шестнадцатеричный код</p></td>
+<td><p>FV</p></td>
+<td><p>Hex</p></td>
 <td><p>Шестнадцатеричный $</p></td>
 <td><p>Час</p></td>
 <td><p>IIF</p></td>
@@ -89,15 +90,15 @@ ms.locfileid: "25881834"
 <tr class="even">
 <td><p>Int</p></td>
 <td><p>IPmt</p></td>
-<td><p>ФУНКЦИЯ IRR</p></td>
-<td><p>Функция IsDate</p></td>
-<td><p>Функция IsEmpty</p></td>
+<td><p>IRR</p></td>
+<td><p>IsDate</p></td>
+<td><p>IsEmpty</p></td>
 <td><p>IsError</p></td>
 </tr>
 <tr class="odd">
-<td><p>Функция IsNull</p></td>
-<td><p>Функция IsNumeric</p></td>
-<td><p>Функция IsObject</p></td>
+<td><p>IsNull</p></td>
+<td><p>IsNumeric</p></td>
+<td><p>IsObject</p></td>
 <td><p>LCase</p></td>
 <td><p>LCase$</p></td>
 <td><p>Left</p></td>
@@ -122,7 +123,7 @@ ms.locfileid: "25881834"
 <td><p>Now</p></td>
 <td><p>NPer</p></td>
 <td><p>NPV</p></td>
-<td><p>Центр развертывания Office</p></td>
+<td><p>Oct</p></td>
 <td><p>$ Центра развертывания Office</p></td>
 <td><p>Pmt</p></td>
 </tr>
@@ -130,7 +131,7 @@ ms.locfileid: "25881834"
 <td><p>PPmt</p></td>
 <td><p>PV</p></td>
 <td><p>QBColor</p></td>
-<td><p>Частота</p></td>
+<td><p>Rate</p></td>
 <td><p>RGB</p></td>
 <td><p>Right</p></td>
 </tr>
@@ -138,7 +139,7 @@ ms.locfileid: "25881834"
 <td><p>ПРАВБ</p></td>
 <td><p>Правом $</p></td>
 <td><p>ПРАВБ $</p></td>
-<td><p>Функция Rnd</p></td>
+<td><p>Rnd</p></td>
 <td><p>RTrim</p></td>
 <td><p>RTrim$</p></td>
 </tr>
@@ -152,7 +153,7 @@ ms.locfileid: "25881834"
 </tr>
 <tr class="even">
 <td><p>Sqr</p></td>
-<td><p>STR</p></td>
+<td><p>Str</p></td>
 <td><p>STR$</p></td>
 <td><p>StrComp</p></td>
 <td><p>StrConv</p></td>
@@ -168,15 +169,15 @@ ms.locfileid: "25881834"
 </tr>
 <tr class="even">
 <td><p>TimeSerial</p></td>
-<td><p>Функция TimeValue</p></td>
-<td><p>Обрезка</p></td>
+<td><p>TimeValue</p></td>
+<td><p>Trim</p></td>
 <td><p>Trim$</p></td>
 <td><p>TypeName</p></td>
 <td><p>UCase</p></td>
 </tr>
 <tr class="odd">
 <td><p>UCase$</p></td>
-<td><p>Функция Val</p></td>
+<td><p>Val</p></td>
 <td><p>VarType</p></td>
 <td><p>День недели</p></td>
 <td><p>Year</p></td>

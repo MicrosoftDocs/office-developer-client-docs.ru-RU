@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45e6933d01a4c47253c90857d9c42bf0ab386c16
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997568"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715608"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>Метод DBEngine.RegisterDatabase (DAO)
 
@@ -50,13 +51,13 @@ ms.locfileid: "25997568"
 <tr class="odd">
 <td><p><em>Уведомления о доставке</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>имя, используемое в методе <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> . Он ссылается на блок описательные сведения об источнике данных. Например если источник данных ODBC удаленной базы данных, может быть имя сервера.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Драйвер</em></p></td>
+<td><p><em>Driver</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Имя драйвера ODBC. Это не имя DLL-файла драйвера ODBC.</p></td>
 </tr>
 <tr class="odd">
@@ -66,16 +67,16 @@ ms.locfileid: "25997568"
 <td><p><strong>Значение true,</strong> Если вы не хотите отображение диалоговых окон драйвера ODBC, запрашивающие сведения; или <strong>значение False,</strong> Если необходимо отобразить диалоговые окна драйвера ODBC. Если автоматическая имеет <strong>значение True</strong>, атрибуты должно содержать все необходимые сведения или диалоговые окна отображаются все равно.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Атрибуты</em></p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Список ключевых слов для добавления к реестра Windows. Ключевые слова находятся в возврат каретки return – запятой строку.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если база данных уже зарегистрирована (сведения о подключении к уже введены) в реестре Windows при использовании метода **RegisterDatabase** обновляется сведения о подключении.
 

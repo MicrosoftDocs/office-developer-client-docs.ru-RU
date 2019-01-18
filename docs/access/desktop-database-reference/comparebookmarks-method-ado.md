@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249564(v=office.15)
 ms:contentKeyID: 48545977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8b4ff47c0fa778e89479df7a4281abd534fdcec8
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 460a77284141daad1834699c4dc1775be05c5c26
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949626"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712164"
 ---
 # <a name="comparebookmarks-method-ado"></a>Метод CompareBookmarks (ADO)
 
@@ -27,14 +28,14 @@ ms.locfileid: "25949626"
 
 Возвращает [CompareEnum](compareenum.md) значение, указывающее положение относительно строки из двух записей, представленное закладок.
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Bookmark1* |Закладка первой строки.|
 |*Bookmark2* |Закладка второй строке.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Закладки необходимо установить на тот же объект [набора записей](recordset-object-ado.md) или объекта **набора записей** и его [копия](clone-method-ado.md). Сравнение надежно закладок из разных объектов **набора записей** , даже в том случае, если они были созданы на основе команду или источника. Ни сравнение закладки для объекта **набора записей** , основной поставщик не поддерживает сравнения.
 

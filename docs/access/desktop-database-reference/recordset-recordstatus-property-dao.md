@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1102617
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60a9e840e611988f33a66f67aff11ac5da3fe5ad
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 85790f92258b0851762337c2f74f281546e3526a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919327"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711037"
 ---
 # <a name="recordsetrecordstatus-property-dao"></a>Свойство Recordset.RecordStatus (DAO)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25919327"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение свойства **RecordStatus** указывает ли текущей записи будут принимать участие в следующее обновление оптимистичный пакета.
 

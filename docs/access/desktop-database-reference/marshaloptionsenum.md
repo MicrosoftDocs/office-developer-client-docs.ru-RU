@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249272(v=office.15)
 ms:contentKeyID: 48544867
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: c461594687cc8be53a526920a6fcd6ff15a864a8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: a128f9980bc8c827ddfcb72e738ce5f879be1051
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891193"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715209"
 ---
 # <a name="marshaloptionsenum"></a>MarshalOptionsEnum
 
@@ -59,7 +60,7 @@ ms.locfileid: "25891193"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

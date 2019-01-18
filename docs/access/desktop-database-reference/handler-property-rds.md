@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
 ms:contentKeyID: 48546962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 98aeb3a56203fd5adbeb5b58a1298a7b1df98439
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c3ad91f0a288b9908a5af5f92d7bfca3b23cdfe9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950134"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716007"
 ---
 # <a name="handler-property-rds"></a>Свойство Handler (RDS)
 
@@ -23,14 +24,14 @@ ms.locfileid: "25950134"
 
 *DataControl*. Обработчик = *строка*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
-|*Строка* |**Строковое** значение, содержащее имя обработчика и любых параметров, все запятыми (например, «handlerName, parm1, parm2,..., parm *N*»).|
+|*String* |**Строковое** значение, содержащее имя обработчика и любых параметров, все запятыми (например, «handlerName, parm1, parm2,..., parm *N*»).|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это свойство поддерживает настройки, функциональные возможности, необходимо задать свойство [CursorLocation](cursorlocation-property-ado.md) **adUseClient**.
 

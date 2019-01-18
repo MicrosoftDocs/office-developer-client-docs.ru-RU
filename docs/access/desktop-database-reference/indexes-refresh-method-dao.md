@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837325(v=office.15)
 ms:contentKeyID: 48548973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6188eff2bda5f2810684016787b088e2078f8f5f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 7e1b2a017342532f3eba1e14ce6097fea8ebffa8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927929"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709371"
 ---
 # <a name="indexesrefresh-method-dao"></a>Метод Indexes.Refresh (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25927929"
 
 *выражение* Переменная, которая представляет объект **индексов** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **Refresh** в многопользовательских средах, в которых другие пользователи могут изменить базу данных. Кроме того, может потребоваться использовать на всех коллекций, которые косвенно затронуты изменениями в базе данных. Например при изменении коллекции **пользователей** может потребоваться обновить коллекцию **групп** перед использованием семейства сайтов **групп** .
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
 ms:contentKeyID: 48546448
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4613b6eca1048f80d7e2aabda35abf3c92d31255
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: d4b9dc49e647bdcd3123ade065da0c74538c9a88
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884228"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715370"
 ---
 # <a name="locktypeenum"></a>LockTypeEnum
 
@@ -55,7 +56,7 @@ ms.locfileid: "25884228"
 </tr>
 <tr class="odd">
 <td><p><strong>adLockUnspecified</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Не указан тип блокировки. Для копирует копия создается с тем же типом блокировки, что и исходный.</p></td>
 </tr>
 </tbody>
@@ -72,7 +73,7 @@ ms.locfileid: "25884228"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c0552d7b98fd0862b3d6b5130d9ad56886402d67
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 9abe91d4ce6996a725e246da6922015d15a8bd39
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872657"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711961"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>Преобразование оператора (Microsoft Access SQL)
 
@@ -54,7 +55,7 @@ ms.locfileid: "25872657"
 <td><p>Поле или выражение, которое будет использоваться для создания заголовков столбцов в результирующем наборе.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>значение1</em>, <em>значение2</em></p></td>
+<td><p><em>value1</em>, <em>value2</em></p></td>
 <td><p>Фиксированные значения, используемые для создания заголовков столбцов.</p></td>
 </tr>
 </tbody>

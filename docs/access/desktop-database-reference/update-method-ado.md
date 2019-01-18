@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250294(v=office.15)
 ms:contentKeyID: 48548893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7501f7607dbee558a67dd0e11d7f2498874f8870
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f077634abea6fadfe5c4305fc25b28e6d57bf13e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950232"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710638"
 ---
 # <a name="update-method-ado"></a>Метод Update (ADO)
 
@@ -25,16 +26,16 @@ ms.locfileid: "25950232"
 
 *запись*. *Поля*. Обновление
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Поля* |Необязательно указывать. **Variant** , который представляет одно имя, или **Variant** массива, который представляет имена или порядковый номер позиции в поле или поля, которые вы хотите изменить.|
-|*Значения* |Необязательно указывать. **Variant** , который представляет одно значение, или **Variant** массива, который представляет значения поля или поля в новую запись.|
+|*Fields* |Необязательно. **Variant** , который представляет одно имя, или **Variant** массива, который представляет имена или порядковый номер позиции в поле или поля, которые вы хотите изменить.|
+|*Values* |Необязательно. **Variant** , который представляет одно значение, или **Variant** массива, который представляет значения поля или поля в новую запись.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
-### <a name="recordset"></a>Набор записей
+### <a name="recordset"></a>Recordset
 
 Используйте метод **Update** , чтобы сохранить все изменения, внесенные в текущую запись объекта **набора записей** с момента вызова метода [AddNew](addnew-method-ado.md) или после изменения значения поля в существующей записи. Объект **набора записей** должен поддерживать обновлений.
 
@@ -54,7 +55,7 @@ ms.locfileid: "25950232"
 
 Текущая запись остается текущей после вызова метода **Update** .
 
-### <a name="record"></a>Запись
+### <a name="record"></a>Record
 
 Метод **Update** завершает добавления, удаления и обновления полей в коллекции [полей](fields-collection-ado.md) объекта **записи** .
 

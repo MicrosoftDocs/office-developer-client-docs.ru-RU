@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 598944aadb344ab97d7561e7ef55a67041c4fbf1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6780a27d573f5ff7ff41060074fb8abb9f8e2b80
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998752"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711336"
 ---
 # <a name="recordset2clone-method-dao"></a>Метод Recordset2.Clone (DAO)
 
@@ -27,9 +28,9 @@ ms.locfileid: "25998752"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Набор записей
+Recordset
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **клонированной** для создания нескольких дубликатов объектов **набора записей** . Каждый набор записей может иметь собственный текущей записи. С помощью **клонированной** сам по себе не изменяет данные в объектах или в их базовые структуры. При использовании метода **клонирования** могут совместно использовать закладки между двумя или более объектов **Recordset2** , так как их закладки являются взаимозаменяемыми.
 

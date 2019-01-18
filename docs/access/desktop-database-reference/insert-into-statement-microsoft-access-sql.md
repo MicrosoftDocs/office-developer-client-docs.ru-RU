@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c20701e9863d72a9308679965425b74c9f9818ac
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 4fee5e9e8878274f2c20dd83a3dbedaf2903ca62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937640"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710806"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>ВСТАВИТЬ в оператор (Microsoft Access SQL)
 
@@ -68,14 +69,14 @@ ms.locfileid: "25937640"
 <td><p>Имя таблицы или таблиц, из которого извлекаются. Этот аргумент может быть имя одной таблицы или результирующее из операцию <a href="inner-join-operation-microsoft-access-sql.md">INNER JOIN</a>, <a href="left-join-right-join-operations-microsoft-access-sql.md">LEFT JOIN</a>или <a href="left-join-right-join-operations-microsoft-access-sql.md">RIGHT JOIN</a> или сохраненный запрос.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>значение1</em>, <em>значение2</em></p></td>
+<td><p><em>value1</em>, <em>value2</em></p></td>
 <td><p>Значения для вставки в определенных полях новую запись. Каждое значение вставляется в поле, соответствующее значение позиции в списке: <em>значение1</em> вставляется в <em>field1</em> новую запись, <em>значение2</em> в <em>поле2</em>и т. д. Необходимо разделять их запятыми значения и заключать текстовые поля в кавычки ("").</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Инструкция INSERT INTO можно использовать для добавления одной записи в таблицу с помощью синтаксиса запроса Добавление одной записи, как показано выше. В этом случае код указывает имя и значение для каждого поля записи. Необходимо указать все поля из записи, который будет назначен значение и значение для этого поля. В каждом поле не указан, значение по умолчанию, или **значение Null,** вставляется для отсутствующих столбцов. Записи добавляются в конец таблицы.
 

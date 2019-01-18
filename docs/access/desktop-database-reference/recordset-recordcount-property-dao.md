@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821452(v=office.15)
 ms:contentKeyID: 48546941
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50134e8271ec5bb89a35eb3114b8b8e63267450a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b9bdc243aae48bd928468362cb86ca077f4abe52
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997527"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707614"
 ---
 # <a name="recordsetrecordcount-property-dao"></a>Свойство Recordset.RecordCount (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25997527"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте свойство **RecordCount** найдете количество записей в **записей** или объект **TableDef** осуществлялся. Свойство **RecordCount** не указывает количество записей содержащихся в динамический набор –, моментальный снимок – или объекта **набора записей** прямого — только — тип до получения доступа к все записи. После обращения последней записи свойство **RecordCount** показывает общее количество неудаленные записей в объекте **TableDef** или **набора записей** . Чтобы принудительно последней записи для доступа, используйте метод **[MoveLast](recordset-movelast-method-dao.md)** на объекте **набора записей** . Также можно использовать функцию SQL **Count** для определения приблизительное число записей, которые возвращает запрос.
 

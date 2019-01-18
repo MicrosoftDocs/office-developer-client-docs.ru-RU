@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250251(v=office.15)
 ms:contentKeyID: 48548717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfcb392fc9b89f614a8372b888db794ee4a1eb06
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: fa483d86dc345968607a0752f0552ddccfe7fef5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950183"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709875"
 ---
 # <a name="resync-method-ado"></a>Метод Resync (ADO)
 
@@ -25,16 +26,16 @@ ms.locfileid: "25950183"
 
 *Запись*. *Поля*. Выполнить повторную синхронизацию*ResyncValues*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*AffectRecords* |Необязательно указывать. От [AffectEnum](affectenum.md) значение, определяющее число записей влияет на метод **выполнить повторную синхронизацию** . Значение по умолчанию — **adAffectAll**. Это значение с помощью метода **выполнить повторную синхронизацию** коллекции **полей** объекта **записи** недоступен.|
-|*ResyncValues* |Необязательно указывать. Значение [ResyncEnum](resyncenum.md) , указывает ли базового значения перезаписываются. Значение по умолчанию — **adResyncAllValues**.|
+|*AffectRecords* |Необязательно. От [AffectEnum](affectenum.md) значение, определяющее число записей влияет на метод **выполнить повторную синхронизацию** . Значение по умолчанию — **adAffectAll**. Это значение с помощью метода **выполнить повторную синхронизацию** коллекции **полей** объекта **записи** недоступен.|
+|*ResyncValues* |Необязательно. Значение [ResyncEnum](resyncenum.md) , указывает ли базового значения перезаписываются. Значение по умолчанию — **adResyncAllValues**.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
-### <a name="recordset"></a>Набор записей
+### <a name="recordset"></a>Recordset
 
 Используйте метод **выполнить повторную синхронизацию** для повторной синхронизации записей в текущего **набора записей** с основной базы данных. Это полезно, если вы используете статического или только для прямого текущей позиции, но требуется просмотреть все изменения в базе данных.
 

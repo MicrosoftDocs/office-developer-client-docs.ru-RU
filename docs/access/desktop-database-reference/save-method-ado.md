@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
 ms:contentKeyID: 48542968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 86d164a133538379a15c80f7fb5f2f4ba71267bf
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0a3762c3d4fdb8cc833259b0435b225690d677ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950211"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712143"
 ---
 # <a name="save-method-ado"></a>Метод Save (ADO)
 
@@ -23,14 +24,14 @@ ms.locfileid: "25950211"
 
 *набор записей*. Сохранение*назначения*, *PersistFormat*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Назначения* |Необязательно указывать. **Variant** , представляющий полный путь файла, в которых будут сохраняться **записей** или ссылку на объект **Stream** .|
-|*PersistFormat* |Необязательно указывать. [PersistFormatEnum](persistformatenum.md) значение, указывающее формат, в котором должен быть сохранен (XML или ADTG) **набора записей** . Значение по умолчанию — **adPersistADTG**.|
+|*Destination* |Необязательно. **Variant** , представляющий полный путь файла, в которых будут сохраняться **записей** или ссылку на объект **Stream** .|
+|*PersistFormat* |Необязательно. [PersistFormatEnum](persistformatenum.md) значение, указывающее формат, в котором должен быть сохранен (XML или ADTG) **набора записей** . Значение по умолчанию — **adPersistADTG**.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод **Save** можно вызвать только на открытие **набора записей**. Используйте метод [Open](open-method-ado-recordset.md) позднее восстановление **набора записей** из *места назначения*.
 

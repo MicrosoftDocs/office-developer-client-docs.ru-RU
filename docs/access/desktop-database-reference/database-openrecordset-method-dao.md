@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 00b39fc81e929ad32a19ef81d3dc9fa5633308f7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 73bb48db5b47ff1824e962ac44324a17ae0636ad
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997270"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707684"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Метод Database.OpenRecordset (DAO)
 
@@ -50,11 +51,11 @@ ms.locfileid: "25997270"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Источник записей для нового <strong>набора записей</strong>. Источник может быть имя таблицы, имя запроса или инструкции SQL, которая возвращает записи. Для объектов <strong>наборов записей</strong> в таблице типа в базами данных, ядро базы данных Microsoft Access источник может быть только имя таблицы.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Тип</em></p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> , указывающая тип <strong>набора записей</strong> , чтобы открыть.</p><p><strong>Примечание</strong>: при открытии <strong>набора записей</strong> в рабочей области Microsoft Access и тип не указан, <strong>OpenRecordset</strong> создает табличного типа <strong>записей</strong>, если это возможно. При указании связанной таблицы или запроса, <strong>OpenRecordset</strong> создает добавляющий <strong>набора записей</strong>.</p>
@@ -80,9 +81,9 @@ ms.locfileid: "25997270"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Набор записей
+Recordset
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Как правило если пользователь получает Эта ошибка при обновлении записи, код должен обновить содержимое полей и извлечение измененные значения. Если ошибка возникает при удалении записи, кода удалось отобразить новые записи данных для пользователя и сообщение, указывающее, что недавно были изменены данные. На этом этапе кода можно запросить подтверждения, что по-прежнему требуется удалить эту запись.
 

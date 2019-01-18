@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249848(v=office.15)
 ms:contentKeyID: 48547155
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4cbf9fb93fa381e3195f9536b0686bd760018333
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 440d31e03b7fc09890d0f1b4f24b5369e5f41bd2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947352"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707530"
 ---
 # <a name="position-properties-methods-and-events-ado-md"></a>Положение свойства, методы и события (ADO MD)
 
@@ -19,14 +20,14 @@ ms.locfileid: "25947352"
 
 ## <a name="propertiescollections"></a>Свойства и коллекции
 
-- [Члены семейства сайтов](members-collection-ado-md.md)
+- [Коллекция Members](members-collection-ado-md.md)
 - [Свойство порядковый номер (положение)](ordinal-property-ado-md-position.md)
 
 ## <a name="methods"></a>Методы
 
-Отсутствуют.
+Нет.
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 Нет.
 

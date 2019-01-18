@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836412(v=office.15)
 ms:contentKeyID: 48548584
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e0ad367ce37a33bb90eb193266d203450fa9d543
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 178dec604a185da94493e6d586249bd2a633899c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924696"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708433"
 ---
 # <a name="recordset2close-method-dao"></a>Метод Recordset2.Close (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25924696"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если при использовании **Close**объекта **набора записей** закрыт, возникает ошибка времени выполнения.
 

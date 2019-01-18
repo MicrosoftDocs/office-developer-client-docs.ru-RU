@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197944(v=office.15)
 ms:contentKeyID: 48546493
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa56c4ff3ff0ee0001e80ea19a532a0ba041acab
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: dbaa0fe7aaa50c8aec582e2f03cd2849268816b9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923331"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715552"
 ---
 # <a name="databases-collection-dao"></a>Коллекция баз данных (DAO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25923331"
 
 Коллекция **баз данных** содержит все открытые объекты **базы данных** открывается или созданы в **рабочей области для** объекта.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При открытии существующего объекта **базы данных** или создайте новый из **рабочей области**, автоматически добавляется в коллекцию **баз данных** . При закрытии объекта **базы данных** с помощью метода **[закрытия](connection-close-method-dao.md)** , удалены из коллекции **баз данных** , но не удаляется с диска. Закройте все открытые объекты **набора записей** перед закрытием объекта **базы данных** .
 

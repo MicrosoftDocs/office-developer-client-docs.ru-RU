@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052932
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f95839ac7b8832e22f69b31914f42de4f4adad06
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a8368165f73fc52c51cf1503da9c2cc02e969bf4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929239"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708370"
 ---
 # <a name="field2foreignname-property-dao"></a>Свойство Field2.ForeignName (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25929239"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если объект **[связи](relation-object-dao.md)** не добавлено в **[базе данных](database-object-dao.md)**, но **поле2** добавляется к объекту **отношения** , свойство **ForeignName** — чтение и запись. Если объект **отношения** добавляется к базе данных, свойство **ForeignName** доступен только для чтения.
 

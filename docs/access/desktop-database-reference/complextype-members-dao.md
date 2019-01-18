@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194740(v=office.15)
 ms:contentKeyID: 48545150
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 128a938af23b6aba1f69045bcbcdba202bd416ef
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 7f8531d2135dd19e672c1f9533afc4ef6494b904
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928889"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709147"
 ---
 # <a name="complextype-members-dao"></a>Члены ComplexType (DAO)
 

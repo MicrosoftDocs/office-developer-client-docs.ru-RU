@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249404(v=office.15)
 ms:contentKeyID: 48545371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ed90dace4ed59221ed3cdc61714060daec65f29
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 48e26fd8a7aafbb39f9ff658bca36812e02c9169
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944937"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707292"
 ---
 # <a name="member-properties-methods-and-events-ado-md"></a>Свойства элементов, методы и события (ADO MD)
 
@@ -21,7 +22,7 @@ ms.locfileid: "25944937"
 
 - [Свойство Caption](caption-property-ado-md.md)
 - [Свойство ChildCount](childcount-property-ado-md.md)
-- [Свойство дочерних элементов](children-property-ado-md.md)
+- [Свойство Children](children-property-ado-md.md)
 - [Свойство Description](description-property-ado-md.md)
 - [Свойство DrilledDown](drilleddown-property-ado-md.md)
 - [Свойство LevelDepth](leveldepth-property-ado-md.md)
@@ -31,14 +32,14 @@ ms.locfileid: "25944937"
 - [Свойство ParentSameAsPrev](parentsameasprev-property-ado-md.md)
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство Type](type-property-ado-md.md)
-- [Свойство уникального имени](uniquename-property-ado-md.md)
+- [Свойство UniqueName](uniquename-property-ado-md.md)
 
 
 ## <a name="methods"></a>Методы
 
-Отсутствуют.
+Нет.
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 Нет.
 

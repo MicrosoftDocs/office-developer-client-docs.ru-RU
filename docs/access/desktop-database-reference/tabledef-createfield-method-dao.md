@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b19cf0819353dbe4d6cdb017faf0e38b3bfb7757
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 713f2530369a824a6d7204655ded4333f7fe2765
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997009"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710435"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>Метод TableDef.CreateField (DAO)
 
@@ -54,13 +55,13 @@ ms.locfileid: "25997009"
 <td><p>Строка, уникальным образом новый объект <strong>поля</strong> . Свойство <strong><a href="connection-name-property-dao.md">Name</a></strong> для получения дополнительных сведений см на допустимый имена <strong>полей</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Тип</em></p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа, которая определяет тип данных на новый объект <strong>поля</strong> . В разделе свойства <strong><a href="field-type-property-dao.md">Type</a></strong> для типов данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Размер</em></p></td>
+<td><p><em>Size</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Целое число, которое указывает максимальный размер в байтах, объект <strong>поля</strong> , который содержит текст. В разделе <strong><a href="field-size-property-dao.md">свойства Size для значений допустимый размер</a></strong> . Этот аргумент игнорируется для полей числовые и половинной ширины.</p></td>
@@ -73,7 +74,7 @@ ms.locfileid: "25997009"
 
 Поле
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы создать новое поле, а также указать имя, тип данных и размер поля можно использовать метод **CreateField** . Если опустить одно или несколько частей необязательно при использовании **CreateField**, можно использовать соответствующие присваивания установить или сбросить соответствующего свойства перед добавлением нового объекта в коллекцию. После добавления нового объекта, можно изменить некоторые, но не для всех параметров его свойств. Обратитесь к соответствующим разделам отдельных свойств для получения дополнительных сведений.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249865(v=office.15)
 ms:contentKeyID: 48547228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc495c5171788862ad7873e21ad3ddaef113445b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 09dc5984d4b6028272f3a715b40d0bb8f39ff4f6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947688"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708496"
 ---
 # <a name="locating-the-current-record"></a>Поиск текущей записи
 

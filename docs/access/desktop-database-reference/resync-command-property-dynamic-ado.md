@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 23d03c5c346b377333387a3be1c0f15bc091d235
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aa1fe05e6aa7edf04ad74864eb30a03403323c8e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927944"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713333"
 ---
 # <a name="resync-command-dynamic-property-ado"></a>Выполнить повторную синхронизацию динамических свойство Command (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25927944"
 
 Задает или возвращает **строковое** значение, который является командной строки.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект [набора записей](recordset-object-ado.md) производится в результате операции СОЕДИНЕНИЯ на нескольких базовых таблиц. Измененных строк зависят от параметра *AffectRecords* метода [выполнить повторную синхронизацию](resync-method-ado.md) . Стандартный метод **выполнить повторную синхронизацию** выполняется, если свойства [Уникальной таблицы](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) и **Выполнить повторную синхронизацию команда** не установлены.
 

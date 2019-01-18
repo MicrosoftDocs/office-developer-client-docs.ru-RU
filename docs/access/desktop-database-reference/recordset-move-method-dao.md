@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052941
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 02eb8d5e85356cd8a2f7744c057371f0ec901a20
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 1f10b5b779141189f114e420b3f7d4827e701161
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997506"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709665"
 ---
 # <a name="recordsetmove-method-dao"></a>Метод Recordset.Move (DAO)
 
@@ -48,9 +49,9 @@ ms.locfileid: "25997506"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Строк</em></p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Количество строк, которые будут перемещаться положение. Если строк больше 0, положение перемещается вперед (ближе к концу файла). Если строк меньше 0, положение перемещается назад (к началу файла).</p></td>
 </tr>
 <tr class="even">
@@ -63,7 +64,7 @@ ms.locfileid: "25997506"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если вы используете **Перемещение** навести указатель текущей записи перед первой записи указатель текущей записи перемещает в начало файла. Если **записей** не содержит записей и его свойство **[BOF](recordset-bof-property-dao.md)** имеет **значение True**, с помощью этого метода для перемещения назад приводит к ошибке.
 

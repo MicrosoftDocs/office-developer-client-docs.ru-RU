@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249535(v=office.15)
 ms:contentKeyID: 48545891
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bbeed0283eaf7982d037cfe7bf4773db9a8c03b5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d7a10bac3c02a771518038351bc4d0b780c0e774
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928455"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707460"
 ---
 # <a name="parentcatalog-property-adox"></a>Свойство ParentCatalog (ADOX)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25928455"
 
 Задает и возвращает объект [каталога](catalog-object-adox.md) . Параметру **ParentCatalog** open **каталога** позволяет получить доступ к свойствам конкретного поставщика перед добавлением таблицы или столбца в коллекцию **каталога** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Некоторые поставщики данных Разрешить значения свойства от поставщика для записи только при создании (если таблицы или столбца добавляется к коллекции **каталога** ). Для доступа к этим свойствам перед добавлением этих объектов **каталога**, укажите **каталога** в свойстве **ParentCatalog** сначала.
 

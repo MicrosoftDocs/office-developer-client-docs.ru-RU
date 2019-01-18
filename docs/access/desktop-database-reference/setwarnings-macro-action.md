@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm165020
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7642c7a727853005cb6cf664bf44f29bcd6e14ed
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: acf541bde41c282b752532cb74d5ec4fa4a13ca9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997974"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710407"
 ---
 # <a name="setwarnings-macro-action"></a>Макрокоманда SetWarnings
 
@@ -26,7 +27,7 @@ ms.locfileid: "25997974"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **УстановитьСообщения** использует следующий аргумент.
 
@@ -50,7 +51,7 @@ ms.locfileid: "25997974"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие можно использовать для предотвращения модальные окна предупреждения и окнах сообщений в каждом окне. Тем не менее всегда отображаются сообщения об ошибках. Кроме того, Microsoft Access отображает все диалоговые окна, требующие ввода данных, отличных от простого нажатия кнопок (например, **кнопку ОК**, **Отменить**, **Да**или **Нет**), к примеру, любое диалоговое окно, которое требуется для ввода текста или выберите один из несколько вариантов .
 

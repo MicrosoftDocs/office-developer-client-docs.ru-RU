@@ -1,19 +1,20 @@
 ---
-title: 'Глава 6: Обработка ошибок'
+title: Глава 6. Обработка ошибок
 TOCTitle: 'Chapter 6: Error handling'
 ms:assetid: 6ae7343b-b9e0-c4c3-f65c-110f903e573e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249420(v=office.15)
 ms:contentKeyID: 48545440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c6e4f4e4218992b89a3370375bb322adfcdd57c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 14d3dc4b291d96a47e0fb67c0e7d837463cd4bf2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937185"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708874"
 ---
-# <a name="chapter-6-error-handling"></a>Глава 6: Обработка ошибок
+# <a name="chapter-6-error-handling"></a>Глава 6. Обработка ошибок
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -38,9 +39,9 @@ ADO уведомления об ошибках несколькими спосо
 В следующих разделах каждый из этих методов уведомлений более подробно.
 
 - [Ошибки ADO](ado-errors.md)
-- [Справочник по об ошибках ADO](ado-error-reference.md)
-- [Ошибки поставщика](provider-errors.md)
+- [Справочник по ошибкам ADO](ado-error-reference.md)
+- [Ошибки поставщиков](provider-errors.md)
 - [Сведения об ошибках, связанных с полями](field-related-error-information.md)
-- [Сведения об ошибках, связанных с набора записей](recordset-related-error-information.md)
-- [Предупреждение ошибки](anticipating-errors.md)
+- [Сведения об ошибках, связанных с наборами записей](recordset-related-error-information.md)
+- [Предугадывание ошибок](anticipating-errors.md)
 - [Обработка ошибок на других языках (ADO)](handling-errors-in-other-languages.md)

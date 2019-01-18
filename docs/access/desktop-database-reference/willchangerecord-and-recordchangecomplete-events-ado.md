@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249851(v=office.15)
 ms:contentKeyID: 48547162
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4488b18d6c3ab603a84822bfeea732931746b3be
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0113a7b22d0bba8e843ce9583e93eef848f872a5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949952"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710841"
 ---
 # <a name="willchangerecord-and-recordchangecomplete-events-ado"></a>События WillChangeRecord и RecordChangeComplete (ADO)
 
@@ -25,7 +26,7 @@ WillChangeRecord*adReason*, *cRecords*, *adStatus*, *pRecordset*
 
 RecordChangeComplete*adReason*, *cRecords*, *pError*, *adStatus*, *pRecordset*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
@@ -35,7 +36,7 @@ RecordChangeComplete*adReason*, *cRecords*, *pError*, *adStatus*, *pRecordset*
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). При вызове **WillChangeRecord** этот параметр имеет значение **adStatusOK** , если операция, которая вызвала событие прошла успешно. Если это событие не могут запрашивать отмену ожидающие операции перейдут в **adStatusCantDeny** . <br/><br/>При вызове **RecordChangeComplete** этот параметр имеет значение **adStatusOK** в случае успешного операцию, которая вызвала событие или **adStatusErrorsOccurred** , если операция завершилась неудачно. <br/><br/>Прежде чем возвращает **WillChangeRecord** , присвойте этому параметру значение **adStatusCancel** для отмены запроса, которое вызвало это событие или присвойте этому параметру значение adStatusUnwantedEvent, чтобы запретить последующие notications операции. <br/><br/>Прежде чем возвращает **RecordChangeComplete** , присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления.|
 |*pRecordset* |Объект **набора записей** . **Набор записей** , для которого произошло это событие.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **WillChangeRecord** или **RecordChangeComplete** событие может произойти для первого измененные поля в строке из-за следующие операции **записей** : [обновление](update-method-ado.md), [Удаление](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [ UpdateBatch](updatebatch-method-ado.md)и [CancelBatch](cancelbatch-method-ado.md). Значение **набора записей** [CursorType](cursortype-property-ado.md) определяет, какие операции приводят к возникновении событий.
 

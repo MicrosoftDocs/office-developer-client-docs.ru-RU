@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835671(v=office.15)
 ms:contentKeyID: 48548263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69656b6ab65cef0e2dfec01a338dfc5a70752de3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 63e189143e77f9fcc42fa8d48c3ebfb2feda6633
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922099"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719821"
 ---
 # <a name="createrecord-data-block"></a>Блок данных СоздатьЗапись
 
@@ -23,7 +24,7 @@ ms.locfileid: "25922099"
 > [!NOTE]
 > Блок данных **СоздатьЗапись** доступна только в макросов данных.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Блок данных **СоздатьЗапись** имеет следующие аргументы.
 
@@ -47,7 +48,7 @@ ms.locfileid: "25922099"
 <td><p>Имя таблицы для создания новой записи в.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>псевдоним;</strong></p></td>
+<td><p><strong>Alias</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Строка, идентифицирующая эту запись. Можно использовать эту запись псевдонима для идентификации</p></td>
 </tr>
@@ -55,7 +56,7 @@ ms.locfileid: "25922099"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Записи, созданной **СоздатьЗапись** автоматически становится текущей.
 

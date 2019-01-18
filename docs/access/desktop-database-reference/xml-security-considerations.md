@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250214(v=office.15)
 ms:contentKeyID: 48548575
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 23cec1f900d109299e621ccabd30fe34cc54d63f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 648e7980be19f8af39cdb5e19858ba1ffd16518e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947344"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706340"
 ---
-# <a name="xml-security-considerations"></a>Вопросы безопасности XML
+# <a name="xml-security-considerations"></a>Рекомендации по безопасности XML
 
 
 **Применимо к**: Access 2013, Office 2013

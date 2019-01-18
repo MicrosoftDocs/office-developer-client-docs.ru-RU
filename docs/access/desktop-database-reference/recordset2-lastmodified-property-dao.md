@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845726(v=office.15)
 ms:contentKeyID: 48543557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 63a0c89739530efa16be701b27db0405241a0bff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: c3d9337c36a2b126f4ce6d9a27ae6d26712a7b6a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930212"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712864"
 ---
 # <a name="recordset2lastmodified-property-dao"></a>Свойство Recordset2.LastModified (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25930212"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **LastModified** перейти с самыми последними добавлены или обновленные записи. Используйте свойство **LastModified** с таблице - и добавляющий объекты **[набора записей](recordset-object-dao.md)** . Записи должны быть добавлены или изменены в объекте **набора записей** в порядке для свойства **LastModified** , которое должно иметь значение.
 

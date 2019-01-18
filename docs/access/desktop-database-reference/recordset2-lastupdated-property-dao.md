@@ -10,19 +10,20 @@ f1_keywords:
 - dao360.chm1052874
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d542e8c14c28f102b0ab3a6ce6929143ce33ed11
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ec6fc25933c52aa99a55c442abf32acc2334257d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923086"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710617"
 ---
 # <a name="recordset2lastupdated-property-dao"></a>Свойство Recordset2.LastUpdated (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
-Возвращает дату и время последнего изменения, внесенные базовая таблица. Только для чтения **Variant**.
+Возвращает дату и время последнего изменения, внесенные базовая таблица. Только для чтения, **Variant**.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -30,7 +31,7 @@ ms.locfileid: "25923086"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Дата и время параметры являются производными от компьютера, на котором был создан или последнее обновление базовая таблица.
 

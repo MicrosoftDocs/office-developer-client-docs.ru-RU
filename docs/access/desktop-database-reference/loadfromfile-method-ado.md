@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
 ms:contentKeyID: 48544123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7b8492da87d0443d7992a1b9443501885ade3a0
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9316bc4302a559fa44082a0576595707157e9d64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998583"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708461"
 ---
 # <a name="loadfromfile-method-ado"></a>Метод LoadFromFile (ADO)
 
@@ -27,9 +28,9 @@ ms.locfileid: "25998583"
 
 |Имя |Описание|
 |:----|:----------|
-|*Имя файла* |**Строковое** значение, которое содержит имя файла для загрузки в **поток**. *Имя файла* может содержать любой допустимый путь и имя в формате UNC. Если указанный файл не существует, возникает ошибка времени выполнения.|
+|*FileName* |**Строковое** значение, которое содержит имя файла для загрузки в **поток**. *Имя файла* может содержать любой допустимый путь и имя в формате UNC. Если указанный файл не существует, возникает ошибка времени выполнения.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Этот метод может использоваться для загрузки содержимого локального файла в объект **потока** . Могут быть использованы для загрузки содержимого локального файла на сервер.
 

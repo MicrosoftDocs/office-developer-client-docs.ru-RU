@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249362(v=office.15)
 ms:contentKeyID: 48545220
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6401e7954325eded85b70b9edb5d164e857d113
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 3abc2e8365c60987fedc0d306b274df74c7ee551
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947863"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706949"
 ---
-# <a name="immediate-mode"></a>Режим интерпретации
+# <a name="immediate-mode"></a>Режим немедленного обновления
 
 
 **Применимо к**: Access 2013, Office 2013

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835712(v=office.15)
 ms:contentKeyID: 48548290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df4400752545be2d91cda978b41b32523d28f079
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 895f29a5dd3e7ed267b96d6a46dc2c8710b4998e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927384"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709161"
 ---
 # <a name="index-members-dao"></a>Элементы индекса (DAO)
 
@@ -93,7 +94,7 @@ ms.locfileid: "25927384"
 <td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-required-property-dao.md">Обязательно</a></strong></p></td>
+<td><p><strong><a href="index-required-property-dao.md">Обязательный</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое указывает, требуется ли объект <strong><a href="field-object-dao.md">поля</a></strong> ненулевое значение.</p></td>
 </tr>
 <tr class="even">

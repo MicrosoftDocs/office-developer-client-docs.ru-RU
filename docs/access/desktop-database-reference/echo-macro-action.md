@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 03eeab3884e093b7c22f8fd23d5471d1dc620bc8
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7d536ed47c780b7f9f1675a9879e86aeff80b67f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997457"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710666"
 ---
 # <a name="echo-macro-action"></a>Макрокоманда Echo
 
@@ -19,7 +20,7 @@ ms.locfileid: "25997457"
 
 Действие **эхо** можно использовать для определения, включено ли эхо. Например можно использовать это действие скрытие или отображение результатов макроса во время его выполнения.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной.
@@ -74,14 +75,14 @@ ms.locfileid: "25997457"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Действие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Эхо</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Вывод на экран</strong>: <strong>Нет</strong></p></td>
 <td><p>Остановите обновление экрана в процессе выполнения макроса.</p></td>
 </tr>
@@ -91,7 +92,7 @@ ms.locfileid: "25997457"
 <td><p>Закройте форму списка продуктов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ОткрытьФорму</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Имя формы</strong>: продуктов <strong>представления</strong>: <strong>FormData режима</strong>: <strong>Режим AddWindow</strong>: <strong>Обычный</strong></p></td>
 <td><p>Откройте форму продуктов.</p></td>
 </tr>
@@ -122,8 +123,8 @@ ms.locfileid: "25997457"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
@@ -131,7 +132,7 @@ ms.locfileid: "25997457"
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Эхо</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Вывод на экран</strong>: <strong>Нет</strong></p></td>
 <td><p>Остановите обновление экрана в процессе выполнения макроса.</p></td>
 </tr>
@@ -155,7 +156,7 @@ ms.locfileid: "25997457"
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>ОткрытьФорму</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Имя формы</strong>: список продуктов <strong>представления</strong>: <strong>Имя DatasheetFilter</strong>: <strong>условие отбора</strong>: [код поставщика] = [Forms]! [Поставщики]! [Код поставщика] <strong>Режим данных</strong>: <strong>Режим чтения OnlyWindow</strong>: <strong>Обычный</strong></p></td>
 <td><p>Откройте форму списка продуктов и отображение текущего поставщика продуктов.</p></td>
 </tr>

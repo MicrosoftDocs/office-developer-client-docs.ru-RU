@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249007(v=office.15)
 ms:contentKeyID: 48543719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 35cab114da6536ea1a0123e0da2541dd69125824
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 4045445120d42f1ca88fce22ce566fc970fce28b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877886"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715510"
 ---
 # <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Поставщик услуг хранения Microsoft OLE DB (поставщик служб ADO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123825(v=office.15)
 ms:contentKeyID: 52071465
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b92d5b0bb9d1b9fd4f06013a78e92f585b776b93
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 40129d97bd586102a5714657b684c2442a2eefed
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920937"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710645"
 ---
 # <a name="parameter-object-reference-dao"></a>Параметр ссылку на объект (DAO)
 

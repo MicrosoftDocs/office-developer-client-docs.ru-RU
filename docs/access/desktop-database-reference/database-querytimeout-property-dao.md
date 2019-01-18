@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823170(v=office.15)
 ms:contentKeyID: 48547648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d928864d729cdfb40f44d496e983bf86413d57f7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f47d6c51079bf36cb7e1ca596a3476f1a7219c5d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925277"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713515"
 ---
 # <a name="databasequerytimeout-property-dao"></a>Свойство Database.QueryTimeout (DAO)
 
@@ -27,7 +28,7 @@ ms.locfileid: "25925277"
 
 *выражение* Переменная, которая представляет собой объект **базы данных** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение по умолчанию — 60.
 

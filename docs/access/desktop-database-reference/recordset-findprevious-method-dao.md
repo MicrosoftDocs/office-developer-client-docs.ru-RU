@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052885
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a6634067e1d26c32847f6ddf9b7ec518ff17539a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: bbd678c460ed6c54a38e76faa2a2492cfd4e3384
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997464"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706438"
 ---
 # <a name="recordsetfindprevious-method-dao"></a>Метод Recordset.FindPrevious (DAO)
 
@@ -50,14 +51,14 @@ ms.locfileid: "25997464"
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Строка, используемая для поиска записи. Это предложение WHERE в инструкции SQL, но без слова like ГДЕ.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если требуется включить все записи в поле поиска — не только те, которые соответствуют определенное условие — использовать методы **перемещения** для перемещения между записями. Чтобы найти записи в таблице тип **набора записей**, используйте метод **поиска** .
 

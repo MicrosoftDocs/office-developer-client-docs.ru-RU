@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 492602d7150f3080df329d30a38e3af51755cf0f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4f35910591d86e0e5a2b92d680be3c5f64504088
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949504"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710351"
 ---
 # <a name="server-property-rds"></a>Свойство Server (RDS)
 
@@ -39,15 +40,15 @@ ms.locfileid: "25949504"
 |В работе|`DataControl.Server=""`|
 
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*awebsrvr* или *имя компьютера* |**Строковое** значение, содержащее Интернет или интрасети путь или имя компьютера, если сервер на удаленном компьютере; или же пустая строка, если сервер не на локальном компьютере.|
-|*порт* |Необязательно указывать. Порт, используемый для подключения к серверу службы IIS. Номер порта задано в Internet Explorer (в меню **Сервис** выберите пункт **Свойства обозревателя**и перейдите на вкладку **подключения** ) или в службах IIS.|
+|*порт* |Необязательно. Порт, используемый для подключения к серверу службы IIS. Номер порта задано в Internet Explorer (в меню **Сервис** выберите пункт **Свойства обозревателя**и перейдите на вкладку **подключения** ) или в службах IIS.|
 |*DataControl* |Объектную переменную, которая представляет **RDS. DataControl** объекта.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Сервер — это местоположение где **RDS. DataControl** обработки запроса (то есть, запроса или обновления). По умолчанию все запросы обрабатываются с помощью объекта [RDSServer.DataFactory](datafactory-object-rdsserver.md) , [MSDFMAP. Обработчик](datafactory-customization.md) компонента и [MSDFMAP. INI](understanding-the-customization-file.md) файл на указанном сервере. 
 

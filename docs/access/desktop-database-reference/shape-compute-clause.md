@@ -1,19 +1,20 @@
 ---
-title: Предложение Compute фигуры
+title: Предложение Compute команды Shape
 TOCTitle: Shape Compute clause
 ms:assetid: f4fee4a6-ec9e-c0b6-40e0-258f76c4696f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250245(v=office.15)
 ms:contentKeyID: 48548699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f8dbeb97a4afdc068d635411d6035f68ba1168b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: eadc448d59814f0573a959c6c1038f9c4afdbac9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946400"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711527"
 ---
-# <a name="shape-compute-clause"></a>Предложение Compute фигуры
+# <a name="shape-compute-clause"></a>Предложение Compute команды Shape
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -69,7 +70,7 @@ SHAPE child-command [AS] child-alias
 
 Независимо от того, какой способ родительского **набора записей** сформирован (с помощью COMPUTE или APPEND) он будет содержать столбец, используемый для связи дочерних **записей**. Если вы хотите родительского **набора записей** также может содержать столбцы, содержащие статистические функции (SUM, MIN, MAX и т.д.) через дочерние строки. Родительских и дочерних **записей** может содержать столбцы, которые содержат выражения в строке, в **набор записей**, а также столбцы, которые являются новыми и изначально очистить.
 
-## <a name="operation"></a>Операция
+## <a name="operation"></a>Operation
 
 *Команда дочерних* должен быть выдан поставщика, который возвращает дочерний элемент **набора записей**.
 
@@ -85,7 +86,7 @@ SHAPE child-command [AS] child-alias
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>State</p></th>
+<th><p>Состояние</p></th>
 <th><p>City</p></th>
 <th><p>Заполнение</p></th>
 </tr>
@@ -159,7 +160,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
 <tr class="header">
 <th><p>Сумма (rs. Заполнение)</p></th>
 <th><p>RS</p></th>
-<th><p>State</p></th>
+<th><p>Состояние</p></th>
 </tr>
 </thead>
 <tbody>
@@ -192,7 +193,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>State</p></th>
+<th><p>Состояние</p></th>
 <th><p>City</p></th>
 <th><p>Заполнение</p></th>
 </tr>
@@ -222,7 +223,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>State</p></th>
+<th><p>Состояние</p></th>
 <th><p>City</p></th>
 <th><p>Заполнение</p></th>
 </tr>
@@ -252,7 +253,7 @@ rst.Open  "SHAPE {select * from demographics} AS rs "  & _
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>State</p></th>
+<th><p>Состояние</p></th>
 <th><p>City</p></th>
 <th><p>Заполнение</p></th>
 </tr>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250264(v=office.15)
 ms:contentKeyID: 48548794
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ebca4027a74bb88a006d3d62a27047f9607b32d0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ce036da3db888482de9328d70eb2656801897d88
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928399"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708013"
 ---
 # <a name="position-object-ado-md"></a>Объект Position (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25928399"
 
 Представляет набор одного или нескольких элементов различных измерений, который определяет точку оси.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 С помощью свойств и коллекций **позиции** объекта выполните следующее:
 

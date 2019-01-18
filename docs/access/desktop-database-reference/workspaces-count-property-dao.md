@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822719(v=office.15)
 ms:contentKeyID: 48547414
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a2e2d048d59add02c020b0c6d3ed5b91918c58e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 692240130d0a5aa32899b94a18302721da01d44d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922925"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709651"
 ---
 # <a name="workspacescount-property-dao"></a>Свойство Workspaces.Count (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25922925"
 
 *выражение* Переменная, которая представляет собой объект- **рабочие области** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
 

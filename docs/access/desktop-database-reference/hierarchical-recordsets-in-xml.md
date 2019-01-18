@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249351(v=office.15)
 ms:contentKeyID: 48545181
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5276dd011ec8b7c6190ab35f5417009510875e15
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e0aafaa1f7f49d34d647ec0f733e68de21cb5369
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877172"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709035"
 ---
 # <a name="hierarchical-recordsets-in-xml"></a>Иерархические наборы записей в XML
 

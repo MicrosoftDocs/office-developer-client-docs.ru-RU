@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d7548a31518f225c15dbf0e9a6de2b82c66c72af
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bd7c47e7c3e41a7b42571043cfafc9e4e909a9f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950141"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710589"
 ---
 # <a name="refresh-method-ado"></a>Метод Refresh (ADO)
 
@@ -23,11 +24,11 @@ ms.locfileid: "25950141"
 
 *семейства сайтов*. Обновление
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод **Refresh** выполняет различные задачи в зависимости от семейства сайтов, из которого вызывается его.
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 С помощью метода **обновления** на коллекцию [параметров](parameters-collection-ado.md) объекта [команда](command-object-ado.md) получает сведения о параметрах стороне поставщика для хранимой процедуры или параметризованный запрос, указанный в объекте **команды** . Коллекция будет пустым для поставщиков, которые не поддерживают вызовы хранимых процедур и запросов с заданными параметрами.
 

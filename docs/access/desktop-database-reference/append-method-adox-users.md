@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249884(v=office.15)
 ms:contentKeyID: 48547302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bf855fc6e829ebfbe3809925bf1ab8ca337d3f96
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d05cf352515d8fe4faa868088c9ba9cc8a024145
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949413"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707600"
 ---
 # <a name="append-method-adox-users"></a>Метод Append (коллекция Users в ADOX)
 
@@ -23,14 +24,14 @@ ms.locfileid: "25949413"
 
 *Пользователи*. Добавление*пользователя*\[,*пароль*\]
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*user* |Значение **типа Variant** , содержащее объект **пользователя** для добавления или имя пользователя для создания и добавления.|
-|*Password* |Необязательно указывать. **Строковое** значение, содержащее пароль для пользователя. Параметр *Password* соответствует значению, указанному с помощью метода [Изменение пароля](changepassword-method-adox.md) объекта **пользователя** .|
+|*Password* |Необязательно. **Строковое** значение, содержащее пароль для пользователя. Параметр *Password* соответствует значению, указанному с помощью метода [Изменение пароля](changepassword-method-adox.md) объекта **пользователя** .|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Коллекция **пользователей** из [каталога](catalog-object-adox.md) представляет каталога пользователей. Коллекция **пользователей** для [группы](group-object-adox.md) представляет пользователей, которые состоят в конкретную группу.
 

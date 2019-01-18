@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
 ms:contentKeyID: 48547490
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c157e088c594c7a5b6a8ae7af3df4617d79e9be3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 4280b89102e06b2ecc09a783840e671b0af9ff73
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919845"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707173"
 ---
 # <a name="propertytype-property-dao"></a>Свойство Property.Type (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25919845"
 
 *выражение* Переменная, которая представляет собой объект- **свойство** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметр или возвращаемое значение — это константа, которая указывает тип действующие или данных. Для **[Свойства](property-object-dao.md)** объекта это свойство является чтение и запись, пока объект добавляется к коллекции или другой объект, после чего он доступен только для чтения.
 
@@ -50,11 +51,11 @@ ms.locfileid: "25919845"
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Двоичный</p></td>
+<td><p>Binary</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Boolean</p></td>
+<td><p>Логический</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>
@@ -62,7 +63,7 @@ ms.locfileid: "25919845"
 </tr>
 <tr class="odd">
 <td><p><strong>dbChar</strong></p></td>
-<td><p>(Знак)</p></td>
+<td><p>Char</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbCurrency</strong></p></td>
@@ -86,7 +87,7 @@ ms.locfileid: "25919845"
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
-<td><p>GUID</p></td>
+<td><p>Идентификатор GUID</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbInteger</strong></p></td>
@@ -94,7 +95,7 @@ ms.locfileid: "25919845"
 </tr>
 <tr class="odd">
 <td><p><strong>dbLong</strong></p></td>
-<td><p>Длинный</p></td>
+<td><p>Long</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>

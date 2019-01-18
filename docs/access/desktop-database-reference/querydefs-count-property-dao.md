@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197340(v=office.15)
 ms:contentKeyID: 48546240
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f5efc7479f69d379f406a9a7cda5d4c522df6325
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 95624c82ee9ab322eec5455759cf4ec2e9708dba
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930898"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707432"
 ---
 # <a name="querydefscount-property-dao"></a>Свойство QueryDefs.Count (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25930898"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDefs** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 159e9f1b4cf7beab96a463ff476b4edf577e1371
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: a5635b2b97066394b8596dbcdb50c84abf429719
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926936"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715132"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>Макрокоманда DisplayHourglassPointer
 
@@ -24,7 +25,7 @@ ms.locfileid: "25926936"
 
 Чтобы изменить указатель мыши на изображение песочными можно использовать действие **DisplayHourglassPointer** (или другой значок выбора) во время выполнения макроса. Это действие может предоставить визуальный индикатор, на котором выполняется макрос. Эта функция особенно полезна, когда действия макроса или самого макроса занимает много времени для запуска.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **DisplayHourglassPointer** использует следующий аргумент.
 
@@ -48,7 +49,7 @@ ms.locfileid: "25926936"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие часто используется, если вы отключили эхо с помощью действия **эхо** . При отключенном эхо приостанавливается обновления экрана до завершения макроса.
 

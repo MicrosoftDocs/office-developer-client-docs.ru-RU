@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248784(v=office.15)
 ms:contentKeyID: 48542933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 00a02e74bbbc1b24939784a89965bf0757be0cfe
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0b541512de9748e94d033bb56f27dd0941c7f5a7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949406"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707558"
 ---
 # <a name="append-method-adox-indexes"></a>Метод Append (коллекция Indexes в ADOX)
 
@@ -26,14 +27,14 @@ ms.locfileid: "25949406"
 
 *Индексы*. Добавление*индекса* \[,*столбцы*\]
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Индекс* |Объект **индекса** для добавления или имя индекса для создания и добавления.|
-|*Столбцы* |Необязательно указывать. Значение **типа Variant** , который указывает имена столбцов для индексации. Параметр *столбцы* соответствует значения свойства [Name](name-property-adox.md) [столбца](column-object-adox.md) объект или объекты.|
+|*Index* |Объект **индекса** для добавления или имя индекса для создания и добавления.|
+|*Columns* |Необязательно. Значение **типа Variant** , который указывает имена столбцов для индексации. Параметр *столбцы* соответствует значения свойства [Name](name-property-adox.md) [столбца](column-object-adox.md) объект или объекты.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для *столбцов* параметра можно задать имя столбца, либо массив имена столбцов.
 

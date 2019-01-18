@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4682af5c4583b99104acf96b9cd0a4f311e6cb90
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: d9e86fb7d60af94d6ecde71b2a857a3cc5b9bcb8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997548"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712339"
 ---
 # <a name="runmacro-macro-action"></a>Макрокоманда RunMacro
 
@@ -31,7 +32,7 @@ ms.locfileid: "25997548"
 
 - Связывание макроса на настраиваемом меню команду.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ЗапускМакроса** имеет следующие аргументы.
 
@@ -62,7 +63,7 @@ ms.locfileid: "25997548"
 </tbody>
 </table>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если ввести имя группы макросов для аргумента **Имя макроса** доступа запуска первого макроса в группе макросов.
 

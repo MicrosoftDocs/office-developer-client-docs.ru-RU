@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b0b8d7cb1a224b7f9c4d587d5c8941977dab2f66
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b55fc51f70bcc2c9d2f7e93cf9c79228cd2fe440
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937129"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710176"
 ---
 # <a name="cancelevent-macro-action"></a>Макрокоманда CancelEvent
 
@@ -23,11 +24,11 @@ ms.locfileid: "25937129"
 
 Действие **ОтменитьСобытие** можно использовать для отмены события, вызвавшего доступа для запуска макроса, содержащего эту операцию. Имя макроса задано для свойства события **BeforeUpdate**, **формы**, **OnUnload**или **OnPrint**.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **ОтменитьСобытие** не требует аргументов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 В форме обычно используется **ОтменитьСобытие в макросе проверки** со свойством событие **BeforeUpdate** . При вводе данных в элемент управления или запись Access запускает макрос перед добавлением данные в базу данных. В случае сбоя в макросе условиям проверки данных **ОтменитьСобытие** действие отменяет процесс обновления до его запуска.
 
@@ -48,27 +49,27 @@ ms.locfileid: "25937129"
 <td><p><strong>MouseDown</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>До подтверждения Del</strong></p></td>
-<td><p><strong>Выход</strong></p></td>
+<td><p><strong>BeforeDelConfirm</strong></p></td>
+<td><p><strong>Exit</strong></p></td>
 <td><p><strong>NoData</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>До вставки</strong></p></td>
-<td><p><strong>Filter</strong></p></td>
-<td><p><strong>Открытие</strong></p></td>
+<td><p><strong>BeforeInsert</strong></p></td>
+<td><p><strong>Фильтр</strong></p></td>
+<td><p><strong>Open</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>До обновления</strong></p></td>
-<td><p><strong>Формат</strong></p></td>
-<td><p><strong>Печать</strong></p></td>
+<td><p><strong>BeforeUpdate</strong></p></td>
+<td><p><strong>Format</strong></p></td>
+<td><p><strong>Print</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DblClick</strong></p></td>
-<td><p><strong>Нажатие клавиши</strong></p></td>
+<td><p><strong>KeyPress</strong></p></td>
 <td><p><strong>Unload</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Delete</strong></p></td>
+<td><p><strong>удаление</strong>;</p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
@@ -102,8 +103,8 @@ ms.locfileid: "25937129"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
@@ -123,7 +124,7 @@ ms.locfileid: "25937129"
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p>ОтменитьСобытие</p></td>
+<td><p>CancelEvent</p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>
@@ -141,7 +142,7 @@ ms.locfileid: "25937129"
 </tr>
 <tr class="even">
 <td><p>...</p></td>
-<td><p>ОтменитьСобытие</p></td>
+<td><p>CancelEvent</p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>
@@ -159,7 +160,7 @@ ms.locfileid: "25937129"
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p>ОтменитьСобытие</p></td>
+<td><p>CancelEvent</p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>

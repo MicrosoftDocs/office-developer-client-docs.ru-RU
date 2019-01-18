@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
 ms:contentKeyID: 48548391
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c86a68cf4ed38fc5c2094e0df96796ce9d002736
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 52af229f03b7ea10510f3e580ba2c4e12784e461
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999024"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712325"
 ---
 # <a name="workspacecommittrans-method-dao"></a>Метод Workspace.CommitTrans (DAO)
 
@@ -44,16 +45,16 @@ ms.locfileid: "25999024"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Вариант</em></p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Необязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>В рабочей области для Microsoft Access можно включить константы <strong>dbForceOSFlush</strong> с <strong>CommitTrans</strong>. Это заставляет СУБД немедленно очистить все обновления на диске, вместо кэширование их временно. Без этого параметра, пользователь может get управления обратно сразу же после программа приложение вызывает <strong>CommitTrans</strong>включить компьютере отключена и не обновлять данные записываются на диск. При использовании этого параметра может повлиять на производительность приложения, будет полезно в ситуациях, где компьютер может отключен перед кэшированные обновления сохраняются на диске.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Методы транзакции **BeginTrans** **CommitTrans**и **отката** управление обработки во время сеанса, определенные с помощью объекта **рабочей области** транзакций. Вы можете использовать эти методы с объектом **рабочей области** , когда необходимо рассматривать ряд изменений, внесенных в базы данных в сеансе как одно целое.
 

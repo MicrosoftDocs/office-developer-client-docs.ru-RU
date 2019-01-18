@@ -1,19 +1,20 @@
 ---
-title: Модель программирования служб удаленных рабочих СТОЛОВ подробно
+title: Подробные сведения о модели программирования RDS
 TOCTitle: RDS programming model in detail
 ms:assetid: 133fc059-9b51-52e2-2e61-339716d8d965
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea0f47e8ad86ecac4dd2423c289e3891cd7c6719
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 4a2312be682ee63368397109377690b6dde3e627
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998527"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715629"
 ---
-# <a name="rds-programming-model-in-detail"></a>Модель программирования служб удаленных рабочих СТОЛОВ подробно
+# <a name="rds-programming-model-in-detail"></a>Подробные сведения о модели программирования RDS
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -58,7 +59,7 @@ ms.locfileid: "25998527"
 
 **RDS. DataControl** объект также имеет собственные методы для перемещения, сортировка и фильтрация строк связанного объекта **набора записей** . Эти методы аналогичны, но не то же, что методы объекта ADO **набора записей** .
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 Служб удаленных рабочих СТОЛОВ поддерживается два свои собственные события, находящиеся вне зависимости от модели событий ADO. Событие [onReadyStateChange](onreadystatechange-event-rds.md) вызывается при каждом **RDS. DataControl** изменения свойств [ReadyState](readystate-property-rds.md) , таким образом о том, по завершении асинхронной операции успешно завершен или произошла ошибка. События [onError](onerror-event-rds.md) вызывается каждый раз, когда возникает ошибка, даже в том случае, если возникает ошибка во время выполнения асинхронной операции.
 

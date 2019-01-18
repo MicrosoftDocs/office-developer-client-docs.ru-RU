@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198056(v=office.15)
 ms:contentKeyID: 48546575
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b0c1a85029270641a944d822ee81954ca1f2528e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c5321e834f1dd5ed663033cacb530962d7beeb5a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919810"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713368"
 ---
 # <a name="querydefupdatable-property-dao"></a>Свойство QueryDef.Updatable (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25919810"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **с возможностью записи** объекта **QueryDef** имеет значение **True** , если определение запроса могут быть обновлены, даже в том случае, если не обновляемый объекте результирующего **[набора записей](recordset-object-dao.md)** .
 

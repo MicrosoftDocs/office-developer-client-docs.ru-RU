@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a627804676ad4e61c5eef050c5bc12c36b9e6d1a
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 84ab685b946e390645027790e5b1402561527ab6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026234"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706347"
 ---
 # <a name="foreachrecord-data-block"></a>Блок данных ДляКаждойЗаписи
 
@@ -22,7 +23,7 @@ ms.locfileid: "26026234"
 > [!NOTE]
 > Блок данных **ДляКаждойЗаписи** доступна только в макросов данных.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **ДляКаждойЗаписи** имеет следующие аргументы.
 
@@ -59,7 +60,7 @@ ms.locfileid: "26026234"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Действие **[ExitForEachRecord](exitforeachrecord-macro-action.md)** используется для выхода из блока **ДляКаждойЗаписи** данных немедленно.
 

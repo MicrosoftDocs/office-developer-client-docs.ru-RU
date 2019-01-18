@@ -1,5 +1,5 @@
 ---
-title: Диалоговое окно настраиваемых свойств элемента управления ActiveX
+title: Диалоговое окно настраиваемых свойств элемента ActiveX
 TOCTitle: ActiveX control custom properties dialog box
 description: Это диалоговое окно настраиваемых свойств является альтернативой в списке свойств в окне свойств Microsoft Access для задания свойств элемента управления ActiveX в режиме конструктора.
 ms:assetid: 124cf679-6efc-567a-84d1-8057dec93bde
@@ -11,14 +11,15 @@ f1_keywords:
 - vbaac10.chm4040
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6b068da25b99c52dfa53187879678ba05f978be8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f4574abc86e6eacd38721e601d26c8b8fbf0a0d3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871894"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712137"
 ---
-# <a name="activex-control-custom-properties-dialog-box"></a>Диалоговое окно настраиваемых свойств элемента управления ActiveX
+# <a name="activex-control-custom-properties-dialog-box"></a>Диалоговое окно настраиваемых свойств элемента ActiveX
 
 **Применимо к**: Access 2013, Office 2013
 

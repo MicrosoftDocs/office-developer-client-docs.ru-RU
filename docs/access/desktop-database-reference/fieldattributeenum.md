@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
 ms:contentKeyID: 48543967
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4a99bf18207b6bd1744fb0ee2b1a2dc10254c604
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 079c79af3d15a6a5864a7db7f8334393258cfd42
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874386"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706879"
 ---
 # <a name="fieldattributeenum"></a>FieldAttributeEnum
 
@@ -107,7 +108,7 @@ ms.locfileid: "25874386"
 </tr>
 <tr class="odd">
 <td><p><strong>adFldUnspecified</strong></p></td>
-<td><p>-1<br />
+<td><p>–1<br />
 0xFFFFFFFF</p></td>
 <td><p>Указывает, что поставщик не определяет атрибуты поля.</p></td>
 </tr>
@@ -130,7 +131,7 @@ ms.locfileid: "25874386"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

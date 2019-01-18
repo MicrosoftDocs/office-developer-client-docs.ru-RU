@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249690(v=office.15)
 ms:contentKeyID: 48546519
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e7e6d88b207fecc93b9a9bafa2d6b504456a3a3e
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: df67774b9b38b5fbcc836a2ea0dfc17886d67107
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949273"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713095"
 ---
 # <a name="changepassword-method-adox"></a>Метод ChangePassword (ADOX)
 
@@ -23,14 +24,14 @@ ms.locfileid: "25949273"
 
 *Пользователь*. Изменение пароля*Старый_пароль*, *Новый_пароль*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Старый_пароль* |**Строковое** значение, задающее существующий пароль пользователя. Если у пользователя нет в настоящее время пароль, укажите пустую строку ("») для *Старый_пароль*.|
 |*Новый_пароль* |**Строковое** значение, задающее новый пароль.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 По соображениям безопасности старый пароль должен быть указан в дополнение к новый пароль.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834366(v=office.15)
 ms:contentKeyID: 48547703
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 159f476b592a8c944df2dc4570d84377c89b5043
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d203d1f1888539a4907da246e20ed711e61ee51f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929234"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708426"
 ---
 # <a name="recordset2cancel-method-dao"></a>Метод Recordset2.Cancel (DAO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25929234"
 
 *выражение* Выражение, возвращающее объект **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Использование метода **Cancel** для завершения выполнения асинхронного вызова метода **Execute** или **OpenConnection** (то есть, метод был вызван с параметром dbRunAsync). **Отменить** возвращает ошибку времени выполнения, если в метод, который вы пытаетесь прерывания не используется dbRunAsync.
 

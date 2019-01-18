@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7d368077e94a24dfd7b3d20dcdaafb0ee7d3c84
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: cf3deac487f1e114bea2a69d5423a210a51a5944
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937794"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707145"
 ---
 # <a name="field2-members-dao"></a>Члены поле2 (DAO)
 
@@ -73,7 +74,7 @@ ms.locfileid: "25937794"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="field2-allowzerolength-property-dao.md">Пустые строки</a></strong></p></td>
+<td><p><strong><a href="field2-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, является ли строка нулевой длины (&quot;&quot;) имеет недопустимое значение для свойства <strong><a href="field-value-property-dao.md">Value</a></strong> объекта <strong>поле2</strong> с типом данных Text или Memo (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -97,7 +98,7 @@ ms.locfileid: "25937794"
 <td><p>Возвращает значение, указывающее, является ли данные в поля, представленного объектом <strong>поле2</strong> обновляемым.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-defaultvalue-property-dao.md">Значение по умолчанию</a></strong></p></td>
+<td><p><strong><a href="field2-defaultvalue-property-dao.md">DefaultValue</a></strong></p></td>
 <td><p>Задает или возвращает значение по умолчанию объекта <strong>поле2</strong> . Для объекта <strong>поле2</strong> , еще не добавляется в конец коллекции <strong><a href="fields-collection-dao.md">полей</a></strong> это свойство является чтение/запись (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -135,11 +136,11 @@ ms.locfileid: "25937794"
 <td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-required-property-dao.md">Обязательно</a></strong></p></td>
+<td><p><strong><a href="field2-required-property-dao.md">Обязательный</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое указывает, требуется ли объект <strong>поле2</strong> ненулевое значение.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-size-property-dao.md">Размер</a></strong></p></td>
+<td><p><strong><a href="field2-size-property-dao.md">Size</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое указывает максимальный размер в байтах, <strong>поле2</strong> объекта.</p></td>
 </tr>
 <tr class="even">
@@ -151,7 +152,7 @@ ms.locfileid: "25937794"
 <td><p>Возвращает значение, указывающее имя таблицы, который является оригинального источника данных для объекта <strong>поле2</strong> . Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-type-property-dao.md">Тип</a></strong></p></td>
+<td><p><strong><a href="field2-type-property-dao.md">Type</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Чтение и запись <strong>целое число</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -159,15 +160,15 @@ ms.locfileid: "25937794"
 <td><p>Задает или возвращает значение, указывает ли значение объекта <strong>поле2</strong> сразу же проверке, если свойство <strong>Value</strong> объекта установлено (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-validationrule-property-dao.md">Значение</a></strong></p></td>
+<td><p><strong><a href="field2-validationrule-property-dao.md">ValidationRule</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое проверяет данные в поля, как она изменен или добавлен в таблицу (только для рабочих областей Microsoft Access). Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-validationtext-property-dao.md">Сообщение об ошибке</a></strong></p></td>
+<td><p><strong><a href="field2-validationtext-property-dao.md">ValidationText</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, текст сообщения, приложение, если значение объекта <strong>поле2</strong> не соответствует правило проверки, указанного идентификатором <strong>условие на значение</strong> свойства поля (Microsoft Access рабочие области только ). Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-value-property-dao.md">Значение</a></strong></p></td>
+<td><p><strong><a href="field2-value-property-dao.md">Value</a></strong></p></td>
 <td><p>Задает или возвращает значение объекта. Чтение и запись <strong>типа Variant</strong>.</p></td>
 </tr>
 <tr class="odd">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 576928e6538ea704bf6f10d0826c0e6bbb359bf1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: ec3cacbe1f1c7ac5d6bda16bdd47891dc58ebfe0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998240"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706795"
 ---
 # <a name="fieldsappend-method-dao"></a>Метод Fields.Append (DAO)
 
@@ -44,16 +45,16 @@ ms.locfileid: "25998240"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Объект</em></p></td>
+<td><p><em>Object</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Объект</strong></p></td>
+<td><p><strong>Object</strong></p></td>
 <td><p>Объектная переменная, представляющий поле, добавленный в коллекцию.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод **Append** используется для добавления новой таблицы в базе данных, Добавление поля в таблицу и добавить поле индекса.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052931
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4fd7d7e1335e7acd5bc9733d8c13f690be68d82b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6c306f76e34e24abb5065c627d9325b48c3acead
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926453"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708860"
 ---
 # <a name="indexignorenulls-property-dao"></a>Свойство Index.IgnoreNulls (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25926453"
 
 *выражение* Переменная, которая представляет объект **индекса** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это свойство является чтение и запись для нового объекта **[индекс](index-object-dao.md)** еще не добавлены в семейство сайтов и только для чтения для существующего объекта **индексу** в коллекции **[индексов](indexes-collection-dao.md)** .
 

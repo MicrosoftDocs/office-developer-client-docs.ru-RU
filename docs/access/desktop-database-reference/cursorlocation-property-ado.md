@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
 ms:contentKeyID: 48546182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 874662585292b9d9a9b2bc53f5b6fe5178e3517b
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 25fd81acee3c541c8a3f315f96fa69241272a655
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025849"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708615"
 ---
 # <a name="cursorlocation-property-ado"></a>Свойство CursorLocation (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "26025849"
 
 Задает или возвращает значение типа **Long** , может быть установлено одно из значений [CursorLocationEnum](cursorlocationenum.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это свойство можно выбрать одну из различных библиотек курсора, доступной для поставщика. Как правило вы можете выбрать одну с помощью библиотеки курсор на стороне клиента, либо, расположенного на сервере.
 

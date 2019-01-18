@@ -1,19 +1,20 @@
 ---
-title: Официальные фигуры грамматики
+title: Формальная грамматика фигур
 TOCTitle: Formal shape grammar
 ms:assetid: a3220569-8804-3dc3-7f9f-b4f8cdab1316
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249752(v=office.15)
 ms:contentKeyID: 48546774
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0de4f2eca0b5dd607cb9d93cc7e90f4af0ba8d89
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d30ff9146146bb0457a5aa383b2b720a4fdaeb78
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945539"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708048"
 ---
-# <a name="formal-shape-grammar"></a>Официальные фигуры грамматики
+# <a name="formal-shape-grammar"></a>Формальная грамматика фигур
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -123,7 +124,7 @@ ms.locfileid: "25945539"
 <td><p>&lt;псевдоним&gt;. [&lt;псевдоним&gt;...] &lt;имя поля&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;псевдоним&gt;</p></td>
+<td><p>&lt;alias&gt;</p></td>
 <td><p>&lt;в кавычках имя&gt;</p></td>
 </tr>
 <tr class="odd">
@@ -158,11 +159,11 @@ ms.locfileid: "25945539"
 <td><p>Тип данных OLE DB или ADO.</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Строка&gt;</p></td>
+<td><p>&lt;string&gt;</p></td>
 <td><p>символ Юникода [символ unicode...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;expression&gt;</p></td>
+<td><p>&lt;выражение&gt;</p></td>
 <td><p>Visual Basic для приложений выражения операнды которых являются другие не Вычисление столбцов в той же строке.</p></td>
 </tr>
 </tbody>

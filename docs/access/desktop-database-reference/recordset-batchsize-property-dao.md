@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1801d03eb874f5d3dec16e2adcc8595c0a88eb84
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 7693f89f07413772ea961a61c86e9c5448c4c449
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928938"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706648"
 ---
 # <a name="recordsetbatchsize-property-dao"></a>Свойство Recordset.BatchSize (DAO)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25928938"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **BatchSize** определяет пакет размер, используемый при отправке операторов на сервер в пакет обновления. Значение свойства определяет число операторов, отправляемых на сервер в один буфер команд. По умолчанию 15 операторы отправляются на сервер в каждом пакете. Это свойство можно изменить в любое время. Если сервер базы данных не поддерживает оператор пакетной обработки, можно этому свойству присвоено значение 1, вызывающие каждого оператора отправить отдельно.
 

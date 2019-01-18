@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
 ms:contentKeyID: 48544506
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: cb8873a7ddfc62429847b561736df4bfa91d429d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9f0176772b366b39d368f8bae1e402d420f0136c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872848"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707188"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
@@ -37,7 +38,7 @@ ms.locfileid: "25872848"
 <tbody>
 <tr class="odd">
 <td><p><strong>adXactUnspecified</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Указывает, что поставщик использует уровень изоляции не указан, но не удается определить уровень.</p></td>
 </tr>
 <tr class="even">
@@ -94,7 +95,7 @@ ms.locfileid: "25872848"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

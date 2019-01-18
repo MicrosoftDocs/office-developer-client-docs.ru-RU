@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
 ms:contentKeyID: 48545473
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 893dfc7b2dd8ee66dc586fc3f5e98807ca1284cb
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 261ac5640b5239f27ad91e01d1cb23794f88740a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996785"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715188"
 ---
 # <a name="prompt-dynamic-property-ado"></a>Запрашивать динамического свойства (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25996785"
 
 Задает и возвращает значение [ConnectPromptEnum](connectpromptenum.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Запрос** — это динамические свойства, которое может добавляться в коллекцию [свойств](properties-collection-ado.md) объект [подключения](connection-object-ado.md) поставщика OLE DB. Запрашивать сведения об инициализации, поставщики OLE DB обычно отображения диалогового окна для пользователя.
 

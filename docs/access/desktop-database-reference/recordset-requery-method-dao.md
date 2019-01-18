@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821155(v=office.15)
 ms:contentKeyID: 48546840
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5c98eeb94e49693cf13d358987307f61f15069c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: bd6f2fdf7d1f8ba9fc47c6223a8f872a655a1e3f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998338"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710785"
 ---
 # <a name="recordsetrequery-method-dao"></a>Метод Recordset.Requery (DAO)
 
@@ -53,7 +54,7 @@ ms.locfileid: "25998338"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте этот метод, чтобы убедиться в том, что **набор записей** содержит последние данные. Этот метод повторно заполняет текущего **набора записей** с помощью любого из текущего запроса или (в рабочей области для Microsoft Access) новых структур указано в аргументе newquerydef.
 

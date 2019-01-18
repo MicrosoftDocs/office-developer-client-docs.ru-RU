@@ -1,19 +1,20 @@
 ---
-title: Выполнения команд базового поставщика данных
+title: Отправка команд базовому поставщику данных
 TOCTitle: Issuing commands to the underlying data provider
 ms:assetid: 9d8ef3f3-d93c-af67-3114-d2c36c78a802
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249716(v=office.15)
 ms:contentKeyID: 48546626
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 142772aaff5080a6e2522ab31884f2ff2319c8a7
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 7d8876b180d668be5734233a33714d7541b9c3d1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944636"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709616"
 ---
-# <a name="issuing-commands-to-the-underlying-data-provider"></a>Выполнения команд базового поставщика данных
+# <a name="issuing-commands-to-the-underlying-data-provider"></a>Отправка команд базовому поставщику данных
 
 **Применимо к**: Access 2013, Office 2013
 

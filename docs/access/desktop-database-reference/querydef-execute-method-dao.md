@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 55a3f8a345ffa6669ef721395be4cb1286f2696b
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7ef7f61ef632617b8d64a3fd9c34e5887e50065c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997394"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709539"
 ---
 # <a name="querydefexecute-method-dao"></a>Метод QueryDef.Execute (DAO)
 
@@ -57,7 +58,7 @@ ms.locfileid: "25997394"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Следующие константы **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** можно использовать для доступа к параметрам.
 

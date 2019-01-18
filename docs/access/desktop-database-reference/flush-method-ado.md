@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
 ms:contentKeyID: 48547529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b52bb3d595c21ccc682e5af182b794065bcd1b13
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e2a55eb66c454d510d53083c495326548eda08af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920447"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708034"
 ---
 # <a name="flush-method-ado"></a>Метод Flush (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25920447"
 
 *Поток*. Очистка
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Этот метод может использоваться для отправки содержимое буфера потока базовый объект (например, узел или файл, представленный URL-адрес, который является источником объекта **потока** ). Этот метод необходимо вызывать флажок, чтобы убедиться, что все изменения, внесенные в содержимое **потока** были записаны. Тем не менее с помощью ADO не обычно требуется позвонить, **Очистка**, как ADO постоянно очищает его буфер, насколько это возможно в фоновом режиме. Содержимое **потока** внесения изменений автоматически, не кэшируется до **очистки** вызова.
 

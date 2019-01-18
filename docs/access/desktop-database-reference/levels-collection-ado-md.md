@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248892(v=office.15)
 ms:contentKeyID: 48543327
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efc4c8d1cf2297b14742fb36fd3a76c13a1a1a22
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: a9b1213f18a2ba15e2c3cbf6818dc9c122d20732
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927874"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715265"
 ---
 # <a name="levels-collection-ado-md"></a>Коллекция Levels (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25927874"
 
 Содержит объекты [уровня](level-object-ado-md.md) , которые составляют структуру иерархии.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Уровни** — это обычная коллекция ADO. С помощью свойства и методы коллекции сделайте следующее:
 

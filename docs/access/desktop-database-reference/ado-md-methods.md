@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248929(v=office.15)
 ms:contentKeyID: 48543456
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 408952195ce0b8f8170e2036a582b0dfc2376b10
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 143e26f38afee71078b96fe43ac838817b8393a3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910833"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713179"
 ---
 # <a name="ado-md-methods"></a>Методы ADO MD
 
@@ -34,7 +35,7 @@ ms.locfileid: "25910833"
 <td><p>Закрытие открытых ячеек.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="open-method-ado-md.md">Открытие</a></p></td>
+<td><p><a href="open-method-ado-md.md">Open</a></p></td>
 <td><p>Получает результаты запроса многомерных и возвращает результаты для набора ячеек.</p></td>
 </tr>
 </tbody>

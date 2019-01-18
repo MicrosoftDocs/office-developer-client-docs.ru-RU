@@ -1,19 +1,20 @@
 ---
-title: Свойство Item (ADO MD Cellset)
+title: Свойство Item (Cellset в ADO MD)
 TOCTitle: Item property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fdf405ab5cd59e7ab4268e2fea870272836fb164
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 99f381ad2f38dc7d2c467ed1e40e4084032006d1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949609"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707019"
 ---
-# <a name="item-property-ado-md-cellset"></a>Свойство Item (ADO MD Cellset)
+# <a name="item-property-ado-md-cellset"></a>Свойство Item (Cellset в ADO MD)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -23,13 +24,13 @@ ms.locfileid: "25949609"
 
 Установить в*ячейке* = *ячеек*. Элемент (*положения*)
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Положения* |**Вариантный массив** значений, которые однозначно указать ячейки. *Положения* может иметь одно из следующих:<br/><br/>-Массив положение чисел<br/>-Массив имена элементов<br/>-Порядковый номер |
+|*Positions* |**Вариантный массив** значений, которые однозначно указать ячейки. *Положения* может иметь одно из следующих:<br/><br/>-Массив положение чисел<br/>-Массив имена элементов<br/>-Порядковый номер |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте свойство **Item** возвращает объект [ячейки](cell-object-ado-md.md) в объекте [ячеек](cellset-object-ado-md.md) . Если свойство **Item** не удается найти ячейки, соответствующий аргумент *положения* , возникает ошибка.
 

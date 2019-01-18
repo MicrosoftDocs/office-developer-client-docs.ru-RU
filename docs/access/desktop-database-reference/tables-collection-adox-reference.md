@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249637(v=office.15)
 ms:contentKeyID: 48546324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60bf2b4ff0440badcd83cd07e5975b37ef0853dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bd00d2c8e27310d570d628797d74f671e9d2da94
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928049"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708300"
 ---
 # <a name="tables-collection-adox-reference"></a>Справочник по коллекции (ADOX) таблиц
 

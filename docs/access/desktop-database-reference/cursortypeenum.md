@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249519(v=office.15)
 ms:contentKeyID: 48545835
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 67b7dcd52214c23c45b48de40b46fc4782f1629d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0bcaaa1298f12d72c5e836dcfe1e74cdcda68d19
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880833"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710792"
 ---
 # <a name="cursortypeenum"></a>CursorTypeEnum
 
@@ -57,7 +58,7 @@ ms.locfileid: "25880833"
 </tr>
 <tr class="odd">
 <td><p><strong>adOpenUnspecified</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Не указан тип курсора.</p></td>
 </tr>
 </tbody>
@@ -74,7 +75,7 @@ ms.locfileid: "25880833"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

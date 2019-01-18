@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197961(v=office.15)
 ms:contentKeyID: 48546514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a703ca1bc05b40c4f86f16a808098b12d6d92678
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 33650b9fdbaf7fbc9266c8c778199e1138cd5b21
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923324"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706655"
 ---
 # <a name="recordset2batchcollisioncount-property-dao"></a>Свойство Recordset2.BatchCollisionCount (DAO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25923324"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это свойство показывает количество записей обнаружил конфликтов или в противном случае — не удалось обновить во время последней попытки обновления пакета. Значение этого свойства соответствует номеру закладки в свойстве **[BatchCollisions](recordset2-batchcollisions-property-dao.md)** .
 

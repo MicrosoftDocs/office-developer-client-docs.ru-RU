@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052877
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 81c7b3e2474ee6cbcd8e45b61369e22f20440587
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 54f91dea98f4f47057eb673a0fae08c8ac2b6f1c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996757"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707712"
 ---
 # <a name="recordsetlockedits-property-dao"></a>Свойство Recordset.LockEdits (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25996757"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметр или возвращаемое значение указывает тип блокировки, как указано в следующей таблице.
 

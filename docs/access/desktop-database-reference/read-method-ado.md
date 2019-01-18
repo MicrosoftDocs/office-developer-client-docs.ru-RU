@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
 ms:contentKeyID: 48546357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bcee0de272a14825f978abb1f6dd2834a998f86
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7ce545b1a6b036cae9f92d7e1ab7ba7479e4e252
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949336"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710890"
 ---
 # <a name="read-method-ado"></a>Метод Read (ADO)
 
@@ -23,17 +24,17 @@ ms.locfileid: "25949336"
 
 *Variant* = *потока*. Чтение (*NumBytes* )
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*NumBytes* |Необязательно указывать. Значение типа **Long** , указывающее число байтов для чтения из файла или значение [StreamReadEnum](streamreadenum.md) **adReadAll**, который используется по умолчанию.|
+|*NumBytes* |Необязательно. Значение типа **Long** , указывающее число байтов для чтения из файла или значение [StreamReadEnum](streamreadenum.md) **adReadAll**, который используется по умолчанию.|
 
 ## <a name="return-value"></a>Возвращаемое значение
 
 Метод **Read** считывает указанное число байтов или потока всей из объекта **потока** и возвращает результирующую данных как **Variant**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если *NumBytes* больше, чем количество байтов, оставшихся в **потоке**, возвращаются только остаток байтов. Данные, прочитанные не дополняется в соответствии с *NumBytes*заданной длины. Если нет байт для чтения, возвращается значение variant нулевое значение. **Чтение** не может использоваться для чтения в обратном направлении.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4babfce754ec0e9c4744142570054c0249936f8
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 64f7dda8bec7806ef510d265deab350dc3cdad6b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026213"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709659"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Свойство Recordset.RecordsetType (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "26026213"
 
 *выражение* Переменная, которая представляет собой объект- **форму** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **Тип набора записей** используются следующие параметры в базе данных Microsoft Access.
 
@@ -41,7 +42,7 @@ ms.locfileid: "26026213"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Параметр</p></th>
+<th><p>Setting</p></th>
 <th><p>Тип набора записей</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -78,7 +79,7 @@ ms.locfileid: "26026213"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Параметр</p></th>
+<th><p>Setting</p></th>
 <th><p>Тип набора записей</p></th>
 <th><p>Описание</p></th>
 </tr>

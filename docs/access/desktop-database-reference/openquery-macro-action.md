@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fe08f6c6ab0eba46f7fff2713403f56e82983357
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 3294efe5ea1ab0f82be19f5c64a51287cc4df9b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999066"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709560"
 ---
 # <a name="openquery-macro-action"></a>Макрокоманда OpenQuery
 
@@ -26,7 +27,7 @@ ms.locfileid: "25999066"
 > [!NOTE]
 > Это действие доступно только в среде базы данных Access (MDB- или .accdb). Посмотреть **OpenView**, **ОткрытьСохраненнуюПроцедуру**или **ОткрытьФункцию** действия при использовании среды проекта Microsoft Access (файлы с расширением ADP).
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ОткрытьЗапрос** имеет следующие аргументы.
 
@@ -47,7 +48,7 @@ ms.locfileid: "25999066"
 <td><p>Имя запроса, чтобы открыть. В поле <strong>Имя запроса</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов содержит все запросы текущей базы данных. Этот параметр является обязательным. Если макрос, содержащий <strong>ОткрытьЗапрос в базе данных библиотеки</strong> , Microsoft Access сначала выполняет поиск запроса с этим именем в базе данных библиотеки, а затем в текущей базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Просмотр</strong></p></td>
+<td><p><strong>View</strong></p></td>
 <td><p>Представление, в котором будут открываться запроса. Выберите <strong>таблицы</strong>, <strong>разработки</strong>, <strong>Режим предварительного просмотра</strong>, <strong>сводной таблицы</strong>или <strong>сводной диаграммы</strong> в поле <strong>View</strong> . Значение по умолчанию — <strong>таблицы данных</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +59,7 @@ ms.locfileid: "25999066"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При использовании для аргумента **представления** **таблицы данных** Access отображает набор результатов, если запрос будет выбрать, перекрестного объединения, или запроса к серверу, свойство **ReturnsRecords** установлен в значение **Yes**; и выполняет запрос, если это действие, определение данных или запроса к серверу, свойство **ReturnsRecords** задано значение **Нет**.
 

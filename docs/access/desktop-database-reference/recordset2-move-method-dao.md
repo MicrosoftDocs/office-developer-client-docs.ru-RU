@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
 ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2231e94703b49fd14fb89d7642c0144c1dda532
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: d57e73c52ca515f13d613ed3aeb9cf361054396e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998597"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707117"
 ---
 # <a name="recordset2move-method-dao"></a>Метод Recordset2.Move (DAO)
 
@@ -44,9 +45,9 @@ ms.locfileid: "25998597"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Строк</em></p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Количество строк, которые будут перемещаться положение. Если строк больше 0, положение перемещается вперед (ближе к концу файла). Если строк меньше 0, положение перемещается назад (к началу файла).</p></td>
 </tr>
 <tr class="even">
@@ -59,7 +60,7 @@ ms.locfileid: "25998597"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если вы используете **Перемещение** навести указатель текущей записи перед первой записи указатель текущей записи перемещает в начало файла. Если **записей** не содержит записей и его свойство **[BOF](recordset2-bof-property-dao.md)** имеет **значение True**, с помощью этого метода для перемещения назад приводит к ошибке.
 

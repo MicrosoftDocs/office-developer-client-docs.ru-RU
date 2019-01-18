@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45aa005b7c8337a4c5541ea7217cbdb520bb1725
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b9e2eac360d157f28b986b6598ade58b8c34ec6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997737"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711968"
 ---
 # <a name="databasemakereplica-method-dao"></a>Метод Database.MakeReplica (DAO)
 
@@ -48,15 +49,15 @@ ms.locfileid: "25997737"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Имя пути</em></p></td>
+<td><p><em>PathName</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Путь и имя новой реплики. Если реплики существующее имя файла, возникает ошибка.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Описание</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p><strong>Строка</strong> , описывающая реплики, которую вы создаете</p></td>
 </tr>
 <tr class="odd">
@@ -69,7 +70,7 @@ ms.locfileid: "25997737"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Только что созданный реплику будут иметь все **[этого](tabledef-replicafilter-property-dao.md)** свойства, значение **False**, что означает, что данные не будут в таблицах.
 

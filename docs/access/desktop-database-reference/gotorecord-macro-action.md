@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3840576f343492724c6f30860ceab8b82c9e2b9e
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 7534ae84b57d14450009865ea330a4c54d4cfb44
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026003"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708482"
 ---
 # <a name="gotorecord-macro-action"></a>Макрокоманда GoToRecord
 
@@ -24,7 +25,7 @@ ms.locfileid: "26026003"
 
 Можно использовать действие **НаЗапись** чтобы сделать указанной записи текущей открытой таблицы, формы или набора результатов запроса.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **НаЗапись** имеет следующие аргументы.
 
@@ -68,7 +69,7 @@ ms.locfileid: "26026003"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если фокус находится в конкретный элемент управления в запись, это действие оставляет его в тот же элемент управления для новой записи.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a00c61ce4cbb9cb9d6088d521f0c2bdb3cf7f573
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 1cd4188931999284a6454064a0906b64cf1f519a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998077"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708531"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Метод DBEngine.OpenDatabase (DAO)
 
@@ -50,7 +51,7 @@ ms.locfileid: "25998077"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>имя существующего файла базы данных Microsoft Access или данных источника имя источника данных ODBC (DSN). Просмотрите Дополнительные сведения о настройке это значение свойства <strong><a href="connection-name-property-dao.md">Name</a></strong> .</p></td>
 </tr>
 <tr class="even">
@@ -60,13 +61,13 @@ ms.locfileid: "25998077"
 <td><p>Задает различные параметры для базы данных, как указано в разделе Примечания.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Только для чтения</em></p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Значение true,</strong> Если вы хотите откройте базу данных с доступом только для чтения, или <strong>значение False</strong> (по умолчанию), чтобы открыть базу данных с помощью доступ на чтение и запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Подключение</em></p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Указывает различные сведения о подключении, включая пароли.</p></td>
@@ -79,7 +80,7 @@ ms.locfileid: "25998077"
 
 База данных
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Можно использовать следующие значения для аргумента options.
 

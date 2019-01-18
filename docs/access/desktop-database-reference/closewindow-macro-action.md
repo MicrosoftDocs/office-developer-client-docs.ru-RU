@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f9bffbd129d8fb4fc1334dbd884556d98e7f140c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 4397846abdc0d10b6bfa0e6a1eb5c0c435fc862a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929323"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709854"
 ---
 # <a name="closewindow-macro-action"></a>Макрокоманда CloseWindow
 
@@ -24,7 +25,7 @@ ms.locfileid: "25929323"
 
 Действие **CloseWindow** можно использовать для закрытия указанного вкладку документ Access или активный документ, если он не задан.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **CloseWindow** состоит из следующих аргументов.
 
@@ -62,7 +63,7 @@ ms.locfileid: "25929323"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Действие **CloseWindow** работает на все объекты базы данных, которые пользователь может явно открыть или закрыть. Это действие имеет тот же эффект, как при выборе объекта и закрывая его, щелкнув правой кнопкой мыши вкладку документа объекта и затем нажмите кнопку **Закрыть** в контекстном меню или нажав кнопку **Закрыть** для объекта.
 

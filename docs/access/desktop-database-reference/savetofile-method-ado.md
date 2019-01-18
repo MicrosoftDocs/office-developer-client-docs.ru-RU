@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250104(v=office.15)
 ms:contentKeyID: 48548097
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df7545b9abd29571788a0bbfc69323ec31e75f65
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: f3b08c9df435c7ce995a40af7b8ad5466b79245d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949812"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706543"
 ---
 # <a name="savetofile-method-ado"></a>Метод SaveToFile (ADO)
 
@@ -23,17 +24,17 @@ ms.locfileid: "25949812"
 
 *Поток*. SaveToFile*имя файла*, *SaveOptions*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Имя файла* |**Строковое** значение, которое содержит полное имя файла, в котором будет сохранен содержимое **потока** . Поддерживается сохранение в любое допустимое локальное местоположение или любого расположения у вас есть доступ с помощью значения UNC.|
+|*FileName* |**Строковое** значение, которое содержит полное имя файла, в котором будет сохранен содержимое **потока** . Поддерживается сохранение в любое допустимое локальное местоположение или любого расположения у вас есть доступ с помощью значения UNC.|
 |*SaveOptions* |[SaveOptionsEnum](saveoptionsenum.md) значение, указывающее, следует ли создавать новый файл с **SaveToFile**, если он еще не существует. Значение по умолчанию — **adSaveCreateNotExists**. С помощью этих параметров можно указать, что, если указанный файл не существует, возникает ошибка. Также можно указать, что **SaveToFile** перезаписывает текущий содержимое существующего файла.|
 
 > [!NOTE]
 > При перезаписи существующего файла (если установлено **adSaveCreateOverwrite** ) **SaveToFile** ограничивает длину любой байтов из исходного существующий файл, следующие новые [EOS](eos-property-ado.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **SaveToFile** могут быть использованы для копирования содержимого объекта **потока** в локальный файл. Нет никаких изменений в содержимое или свойства объекта **потока** . Прежде чем вызывать **SaveToFile**объект **Stream** необходимо открыть.
 

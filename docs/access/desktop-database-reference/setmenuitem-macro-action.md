@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 342b4c38b6a48ad36dc6d62ee34900e6f2057d42
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe61a3368813ba3420920909f818beee2029d993
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996869"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709427"
 ---
 # <a name="setmenuitem-macro-action"></a>Макрокоманда SetMenuItem
 
@@ -26,7 +27,7 @@ ms.locfileid: "25996869"
 > [!NOTE]
 > **Макрокоманды** работает только с пользовательских и глобальных меню, созданные с помощью макросов меню. **Макрокоманды** включен в Microsoft Access только для совместимости с предыдущими версиями. Он не работает с функциональных возможностях панели команд. Тем не менее можно использовать свойства **Enabled** и **состояния** в Visual Basic для приложений (VBA) модуль отключение или включение и выберите или отмените выбор настройки элементов контекстных меню или настраиваемые или глобального меню.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **Макрокоманды** имеет следующие аргументы.
 
@@ -62,7 +63,7 @@ ms.locfileid: "25996869"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Макрокоманды** работает только в пользовательских или глобального меню. Если активного окна не имеет настраиваемых или глобального меню, макрос, содержащий **макрокоманды** вызывает ошибку времени выполнения.
 

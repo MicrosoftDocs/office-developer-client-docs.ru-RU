@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
 ms:contentKeyID: 48543705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a1fff5911080811bc2556a20667ff2f2391f22e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 11bb7872514a828fdd97fb404f5366c35ff9a883
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926782"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709413"
 ---
 # <a name="optimize-dynamic-property-ado"></a>Оптимизация динамической свойство (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25926782"
 
 Задает или возвращает значение **типа Boolean** , которое указывает, должен быть создан индекс.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Индекс можно повысить производительность операций, поиск или отсортировать значения в [набор записей](recordset-object-ado.md). Индекс является внутренним в ADO — явно не удается получить доступ к или использовать в приложении.
 

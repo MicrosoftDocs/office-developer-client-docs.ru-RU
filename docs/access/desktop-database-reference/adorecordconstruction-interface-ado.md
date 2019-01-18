@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
 ms:contentKeyID: 48544387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b719c6314fb2c68a0a343a800da35ee944654df3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924591"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712010"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>Интерфейс ADORecordConstruction (ADO)
 
@@ -36,8 +37,8 @@ ms.locfileid: "25924591"
 Задает контейнер объекта OLE DB <strong>строку</strong> на этот объект ADO <strong>записи</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="row-property-ado.md">Строка</a></p></td>
-<td><p>Чтение и запись.<br />
+<td><p><a href="row-property-ado.md">Row</a></p></td>
+<td><p>Для чтения и записи.<br />
 Получает или задает объект OLE DB <strong>строку</strong> из/на этот объект ADO <strong>записи</strong> .</p></td>
 </tr>
 </tbody>
@@ -46,13 +47,13 @@ ms.locfileid: "25924591"
 
 ## <a name="methods"></a>Методы
 
-Отсутствуют.
+Нет.
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 Нет.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Заданным объекта OLE DB **строки** (pRow), конструкции (объект ADO **записи** ), конструирование объекта ADO **записи** (adoR) объемов для трех основных операций:
 
@@ -83,7 +84,7 @@ ms.locfileid: "25924591"
 
 Объект ADO **записи** также могут быть созданы из контейнера OLE DB **строки** объекта.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 **Версия:** ADO 2.0 и более поздних версий
 

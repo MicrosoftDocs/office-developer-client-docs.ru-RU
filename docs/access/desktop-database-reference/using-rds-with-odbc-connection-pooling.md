@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249437(v=office.15)
 ms:contentKeyID: 48545513
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 35a4327a76ff34f503c988e8d51f5aa73d6c454b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 87d380fdc52cdee2aa834fd6e78ff1b761a0e93a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946722"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706368"
 ---
-# <a name="using-rds-with-odbc-connection-pooling"></a>С помощью служб удаленных рабочих СТОЛОВ с группировки подключений ODBC
+# <a name="using-rds-with-odbc-connection-pooling"></a>Использование RDS с группировкой подключений ODBC
 
 
 **Применимо к**: Access 2013, Office 2013

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248835(v=office.15)
 ms:contentKeyID: 48543151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 61d31ba6044448d2b2534d6affa6157765e9cbc7
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 54e6df1f2a94bd59f1e4cf9f9c0be77d785a3048
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949637"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709266"
 ---
 # <a name="sortcolumn-property-rds"></a>Свойство SortColumn (RDS)
 
@@ -23,14 +24,14 @@ ms.locfileid: "25949637"
 
 *DataControl*. SortColumn = *строка*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
-|*Строка* |**Строковое** значение, представляющее имя или псевдоним столбца, по которому выполняется сортировка записей.|
+|*String* |**Строковое** значение, представляющее имя или псевдоним столбца, по которому выполняется сортировка записей.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **SortColumn**, [SortDirection](sortdirection-property-rds.md), [Значение_фильтра](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) свойства предоставляют функциональные возможности сортировки и фильтрации на кэш со стороны клиента. Функциональные возможности сортировки упорядочивает записей по значениями, полученными из одного столбца. Функции фильтрации отображает подмножество записей на основании условия поиска, пока сохраняется полный [набор записей](recordset-object-ado.md) в кэше. Метод [Reset](reset-method-rds.md) будет выполнять критерии и замените текущего **набора записей** обновляемых **записей**.
 

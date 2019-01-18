@@ -1,19 +1,20 @@
 ---
-title: Определение, какие возможности поддерживаются
+title: Определение поддерживаемых возможностей
 TOCTitle: Determining what is supported
 ms:assetid: 47b44dc9-e0fd-f204-0c68-e0de9247ee2c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249221(v=office.15)
 ms:contentKeyID: 48544602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b2db5fbdf0d85ee48b9dbc494ccce6022bfb165
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3abef84f05ad279edba1fcc753f0b412a807a7b9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946589"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712696"
 ---
-# <a name="determining-what-is-supported"></a>Определение, какие возможности поддерживаются
+# <a name="determining-what-is-supported"></a>Определение поддерживаемых возможностей
 
 **Применимо к**: Access 2013, Office 2013
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053325
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b01ec200278095893214f10dc9e50c5266153d72
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dd9cc563ecc885fca4fa0ef5829d82aa2f8bfef6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918935"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710687"
 ---
 # <a name="documentscount-property-dao"></a>Свойство Documents.Count (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25918935"
 
 *выражение* Переменная, которая представляет собой объект- **документы** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
 

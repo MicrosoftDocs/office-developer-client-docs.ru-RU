@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1813a80c43eb77f8fb90442ecd6e0336b636191
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf89b61a65c11f09d5a07e52caeee5ad416c118a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998975"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707628"
 ---
 # <a name="openform-macro-action"></a>Макрокоманда OpenForm
 
@@ -19,7 +20,7 @@ ms.locfileid: "25998975"
 
 **ОткрытьФорму** можно использовать для открытия формы в режиме формы, режиме конструктора, предварительный или представление таблицы данных. Можно выбрать режимы запись и окно данных для формы и ограничить записи, которые отображаются в форме.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ОткрытьФорму** имеет следующие аргументы.
 
@@ -40,7 +41,7 @@ ms.locfileid: "25998975"
 <td><p>Имя формы для ее открытия. В поле <strong>Имя формы</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов показывает все формы в текущей базе данных. Обязательный аргумент. Если макрос, содержащий <strong>ОткрытьФорму в базе данных библиотеки</strong> , Microsoft Access сначала выполняет поиск формы с указанным именем в базе данных библиотеки, а затем в текущей базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Просмотр</strong></p></td>
+<td><p><strong>View</strong></p></td>
 <td><p>Представление, в котором будет открыта форма. Выберите <strong>формы</strong>, <strong>разработки</strong>, <strong>Режим предварительного просмотра</strong>, <strong>таблицы</strong>, <strong>сводной таблицы</strong>или <strong>сводной диаграммы</strong> в поле <strong>View</strong> . Значение по умолчанию — <strong>формы</strong>.</p><p><strong>Примечание</strong>: значение аргумента <STRONG>представления</STRONG> переопределяет параметры свойств <STRONG>режим по умолчанию</STRONG> и <STRONG>Допустимые режимы</STRONG> формы. Например если свойство <STRONG>Допустимые режимы</STRONG> формы задано для <STRONG>таблицы данных</STRONG>, по-прежнему можно использовать <STRONG>ОткрытьФорму</STRONG> для открытия формы в режиме формы.</p></td>
 </tr>
 <tr class="odd">
@@ -53,7 +54,7 @@ ms.locfileid: "25998975"
 </tr>
 <tr class="odd">
 <td><p><strong>Режим данных</strong></p></td>
-<td><p>Режим ввода данных для формы. Это относится только к формах, открытых в режиме формы или таблицы. Нажмите кнопку <strong>Add</strong> (пользователь может добавлять новые записи, но не могут изменять существующие записи), <strong>Изменение</strong> (пользователь может изменять существующие записи и добавление новых записей), или <strong>Только для чтения</strong> (пользователь может только просматривать записи). Значение по умолчанию — <strong>Изменить</strong>. <strong>Примечания</strong></p>
+<td><p>Режим ввода данных для формы. Это относится только к формах, открытых в режиме формы или таблицы. Нажмите кнопку <strong>Add</strong> (пользователь может добавлять новые записи, но не могут изменять существующие записи), <strong>Изменение</strong> (пользователь может изменять существующие записи и добавление новых записей), или <strong>Только для чтения</strong> (пользователь может только просматривать записи). Значение по умолчанию — <strong>Изменить</strong>. <strong>Notes</strong></p>
 <ul>
 <li><p>Аргумент <strong>Режим данных</strong> переопределяет параметры свойств <strong>AllowEdits</strong>, <strong>AllowDeletions</strong>, <strong>AllowAdditions</strong>и <strong>DataEntry</strong> формы. Например если свойство <strong>AllowEdits</strong> формы задано значение <strong>No</strong>, по-прежнему можно использовать <strong>ОткрытьФорму</strong> для открытия формы в режиме редактирования.</p></li>
 <li><p>Если оставить этот аргумент пустым, форма будет открыта в режиме ввода данных, от <strong>AllowEdits</strong>, <strong>AllowDeletions</strong>, <strong>AllowAdditions</strong>и <strong>DataEntry</strong> свойств формы.</p></li>
@@ -74,7 +75,7 @@ ms.locfileid: "25998975"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие аналогично дважды щелкнув формы в области навигации или щелкнув правой кнопкой мыши форму в области навигации, а затем выбрав представления.
 
@@ -101,14 +102,14 @@ ms.locfileid: "25998975"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Действие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Эхо</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Вывод на экран</strong>: <strong>Нет</strong></p></td>
 <td><p>Остановите обновление экрана в процессе выполнения макроса.</p></td>
 </tr>
@@ -118,7 +119,7 @@ ms.locfileid: "25998975"
 <td><p>Закройте форму списка продуктов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ОткрытьФорму</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Имя формы</strong>: продуктов <strong>представления</strong>: <strong>FormData режима</strong>: <strong>Режим AddWindow</strong>: <strong>Обычный</strong></p></td>
 <td><p>Откройте форму продуктов.</p></td>
 </tr>
@@ -149,8 +150,8 @@ ms.locfileid: "25998975"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
@@ -158,7 +159,7 @@ ms.locfileid: "25998975"
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Эхо</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Вывод на экран</strong>: <strong>Нет</strong></p></td>
 <td><p>Остановите обновление экрана в процессе выполнения макроса.</p></td>
 </tr>
@@ -182,7 +183,7 @@ ms.locfileid: "25998975"
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>ОткрытьФорму</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Имя формы</strong>: список продуктов <strong>представления</strong>: <strong>Имя DatasheetFilter</strong>: <strong>условие отбора</strong>: [код поставщика] = [Forms]! [Поставщики]! [Код поставщика] <strong>Режим данных</strong>: <strong>Режим чтения OnlyWindow</strong>: <strong>Обычный</strong></p></td>
 <td><p>Откройте форму списка продуктов и отображение текущего поставщика продуктов.</p></td>
 </tr>

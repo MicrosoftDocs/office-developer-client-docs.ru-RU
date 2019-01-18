@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250197(v=office.15)
 ms:contentKeyID: 48548501
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b1a15f78463ca0ff6e690b600b9cdca7cc194c7
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d706bad7d1f605933a951498705657c3c454a2d6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025961"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709056"
 ---
 # <a name="numericscale-property-adox"></a>Свойство NumericScale (ADOX)
 
@@ -24,7 +25,7 @@ ms.locfileid: "26025961"
 
 Задает и возвращает значение в **байтах** , масштаб значений данных в столбце, когда [Тип](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) свойства — **adNumeric** или **adDecimal**. **NumericScale** игнорируется для всех остальных типов данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение по умолчанию — нуль (0).
 

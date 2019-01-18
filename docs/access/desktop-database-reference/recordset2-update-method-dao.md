@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052882
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 996686501d355555814a48bc665f3eb634a74298
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 4259da0eb48e7ff13e246b326cc6e96d7a916ea7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998618"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714915"
 ---
 # <a name="recordset2update-method-dao"></a>Метод Recordset2.Update (DAO)
 
@@ -48,7 +49,7 @@ ms.locfileid: "25998618"
 <tr class="odd">
 <td><p><em>UpdateType</em></p></td>
 <td><p>Необязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p><strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> константу, указывающую тип обновления, как указано в настройки (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="even">
@@ -61,7 +62,7 @@ ms.locfileid: "25998618"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для сохранения текущей записи и все изменения, внесенные в нее выполните **обновление** .
 

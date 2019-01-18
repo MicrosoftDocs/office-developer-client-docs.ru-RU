@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
 ms:contentKeyID: 48545784
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1270a775318111b6e7a4b70fbe1151dae84040d6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe8ba97e3d8306b8dc8b0415fdf50e4c7041d7f2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927497"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710358"
 ---
 # <a name="tabledefs-members-dao"></a>Члены TableDefs (DAO)
 
@@ -39,11 +40,11 @@ ms.locfileid: "25927497"
 <td><p>Добавляет новый <strong>TableDef</strong> в коллекцию <strong>TableDefs</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledefs-delete-method-dao.md">Delete</a></strong></p></td>
+<td><p><strong><a href="tabledefs-delete-method-dao.md">Удаление</a></strong></p></td>
 <td><p>Удаляет указанный объект <strong>TableDef</strong> из коллекции <strong>TableDefs</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-refresh-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="tabledefs-refresh-method-dao.md">Refresh</a></strong></p></td>
 <td><p>Обновляет объекты в указанном включающий в соответствии с текущей схеме базы данных.</p></td>
 </tr>
 </tbody>

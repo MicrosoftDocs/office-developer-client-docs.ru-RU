@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
 ms:contentKeyID: 48545559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1dd402a27164b5fb40bab10d7809f042846e37b5
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0ee7d2e68df90c8eee4227f949f93ea074b7df97
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943733"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713089"
 ---
 # <a name="catalog-object-ado-md"></a>Объект Catalog (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25943733"
 
 Содержит многомерные сведения о схеме (то есть, кубов и базовым измерений, иерархии, уровни и элементы) определенного поставщика многомерных данных (MDP).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Со свойствами объекта **каталога** и семейств сайтов выполните следующее:
 

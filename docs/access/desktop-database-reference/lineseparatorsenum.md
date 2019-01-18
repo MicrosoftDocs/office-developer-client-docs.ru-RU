@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)
 ms:contentKeyID: 48544277
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 27f94e0e9923b9adf0bba31de62e7a339ea2f28e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: c5ab57cab4829d565ea0e9ac8bffdb0790a34c9f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871481"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708608"
 ---
 # <a name="lineseparatorsenum"></a>LineSeparatorsEnum
 
@@ -42,7 +43,7 @@ ms.locfileid: "25871481"
 </tr>
 <tr class="even">
 <td><p><strong>adCRLF</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Значение, используемое по умолчанию. Указывает веб-канал строки возврата каретки.</p></td>
 </tr>
 <tr class="odd">

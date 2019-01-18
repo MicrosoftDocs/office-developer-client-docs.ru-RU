@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052905
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c096ba38c59ec9c62da56dc47a59f06254ef60f6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a2a03b97fc69d6d770a5d7a1d149f6518933002b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921742"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711093"
 ---
 # <a name="connectionquerytimeout-property-dao"></a>Свойство Connection.QueryTimeout (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25921742"
 
 *выражение* Переменная, которая содержит объект **подключения** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение по умолчанию — 60.
 

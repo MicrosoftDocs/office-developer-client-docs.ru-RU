@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249647(v=office.15)
 ms:contentKeyID: 48546385
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1555883ef8305225d6ddd1969d98de082288a6b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 23e1cab32fee6103a046219a7cda8c90f02d9f79
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887539"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712038"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Поставщик Microsoft OLE DB для службы Microsoft Active Directory
 
@@ -92,16 +93,16 @@ ADSDSOObject
 <td><p>Указывает объект <strong>путь</strong> , с которого следует начинать поиск (то есть, корень поиска).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filter</em></p></td>
+<td><p><em>Фильтр</em></p></td>
 <td><p>Указывает фильтр поиска в формате RFC 1960.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Атрибуты</em></p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Указывает, разделенный запятыми список атрибутов должно быть возвращено.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Область</em></p></td>
-<td><p>Необязательный параметр. <strong>Строка</strong> , которая определяет область поиска. Может иметь одно из следующих значений: базовый — поиск только базового объекта (корень поиска).<br />
+<td><p>Необязательно. <strong>Строка</strong> , которая определяет область поиска. Может иметь одно из следующих значений: базовый — поиск только базового объекта (корень поиска).<br />
 OneLevel — Поиск только один уровень.<br />
 Поддерево — Поиск поддерево.</p></td>
 </tr>
@@ -163,7 +164,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="bookmark-property-ado.md">Закладка</a></p></td>
+<td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
 <td><p>чтение и запись</p></td>
 </tr>
 <tr class="even">
@@ -183,11 +184,11 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>всегда <strong>как таковые</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="bof-eof-properties-ado.md">ФУНКЦИЯ EOF</a></p></td>
+<td><p><a href="bof-eof-properties-ado.md">EOF</a></p></td>
 <td><p>только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Фильтр</a></p></td>
 <td><p>чтение и запись</p></td>
 </tr>
 <tr class="even">
@@ -223,7 +224,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="status-property-ado-recordset.md">Состояние</a></p></td>
+<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
 <td><p>только для чтения</p></td>
 </tr>
 </tbody>
@@ -239,7 +240,7 @@ objectClass='user' AND objectCategory='Person'"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Метод</p></th>
+<th><p>Method</p></th>
 <th><p>Доступные?</p></th>
 </tr>
 </thead>
@@ -261,15 +262,15 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>Нет</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="clone-method-ado.md">Копия</a></p></td>
+<td><p><a href="clone-method-ado.md">Clone</a></p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="close-method-ado.md">Закрыть</a></p></td>
+<td><p><a href="close-method-ado.md">Close</a></p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">удаление</a>;</p></td>
 <td><p>Нет</p></td>
 </tr>
 <tr class="even">
@@ -277,7 +278,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Перемещение</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
@@ -301,11 +302,11 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="open-method-ado-recordset.md">Открытие</a></p></td>
+<td><p><a href="open-method-ado-recordset.md">Open</a></p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="requery-method-ado.md">Обновление</a></p></td>
+<td><p><a href="requery-method-ado.md">Requery</a></p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">

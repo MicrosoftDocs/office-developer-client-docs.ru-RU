@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249475(v=office.15)
 ms:contentKeyID: 48545656
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f4029ad534a2e36248a6e9fd149e788341b71693
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 6159fb08c321eb63f6ce6817bb30e61440ab3b9f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946288"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714992"
 ---
 # <a name="handling-errors-in-other-languages"></a>Обработка ошибок на других языках
 
@@ -20,6 +21,6 @@ ms.locfileid: "25946288"
 На данный момент в этой главе описывается ошибки с точки зрения Microsoft Visual Basic. В оставшейся части этого раздела представлены общие сведения о обработка ошибок в языках, отличных от Visual Basic.
 
 - [Обработка ошибок в JScript](handling-errors-in-jscript.md)
-- [Обработка ошибок в VBScript](handling-errors-in-vbscript.md)
+- [Обработка ошибок на языке VBScript](handling-errors-in-vbscript.md)
 - [Обработка ошибок в Visual C++](handling-errors-in-visual-c.md)
 

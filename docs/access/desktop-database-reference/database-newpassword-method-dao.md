@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e72d879482c3ed69b262f2f4d0f07a4e11f8fa4c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 20f09dbfba50526409472f7eb804ba2c47e4d1d5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998940"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708671"
 ---
 # <a name="databasenewpassword-method-dao"></a>Метод Database.NewPassword (DAO)
 
@@ -50,13 +51,13 @@ ms.locfileid: "25998940"
 <tr class="odd">
 <td><p><em>bstrOld</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Текущего значения свойства <strong>Password</strong> объекта <strong>базы данных</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><em>bstrNew</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Новый параметр <strong>Password</strong> свойство объекта <strong>базы данных</strong> .</p>
 <p><strong>Примечание</strong>: используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p>
 </td>
@@ -65,7 +66,7 @@ ms.locfileid: "25998940"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Строки bstrOld и bstrNew может иметь длину до 20 символов и может содержать все символы, за исключением символа ASCII 0 (null). Чтобы удалить пароль, используйте строку нулевой длины ("») для bstrNew.
 

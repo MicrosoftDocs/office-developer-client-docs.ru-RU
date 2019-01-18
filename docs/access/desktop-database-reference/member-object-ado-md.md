@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
 ms:contentKeyID: 48548025
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 341f6711044a577fdb82c47b1a782c17c6884bf0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 380fdf6c15f6774e27221e8500100870d22350c4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924206"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709581"
 ---
 # <a name="member-object-ado-md"></a>Объект Member (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25924206"
 
 Представляет элемент уровень в кубе, дочерние элементы элемента уровня или членом положение оси набора ячеек.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойства **члена** отличаются в зависимости от контекста, в котором она используется. **Член** [уровень](level-object-ado-md.md) [CubeDef](cubedef-object-ado-md.md) имеет свойство [дочерних элементов](children-property-ado-md.md) , которое возвращает **члены** на уровень ниже в иерархии из текущего **элемента**. Для **члена** [позицию](position-object-ado-md.md) **дочерней** коллекции всегда будет пустым. Кроме того свойство [Type](type-property-ado-md.md) применяется только к **члены** **уровня**.
 

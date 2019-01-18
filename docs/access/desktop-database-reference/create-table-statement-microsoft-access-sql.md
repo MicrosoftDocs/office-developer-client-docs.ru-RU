@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277563
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4beb013b09ce136d6ffa7558225e01fae80da645
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 296e1405245d6204d136888e78b6a3846b468a1f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937094"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710939"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>Инструкция CREATE TABLE (Microsoft Access SQL)
 
@@ -57,7 +58,7 @@ ms.locfileid: "25937094"
 <td><p>Тип данных <em>поля</em> в новую таблицу.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>size</em>.</p></td>
+<td><p><em>size</em></p></td>
 <td><p>Размер поля в знаках (только текст и двоичные поля).</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +73,7 @@ ms.locfileid: "25937094"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте инструкцию CREATE TABLE, чтобы определить новую таблицу, поля и ограничения полей. Если не указано значение NULL для поля, обязательно должно содержать допустимые данные в этих полях.
 

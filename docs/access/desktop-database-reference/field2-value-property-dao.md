@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195566(v=office.15)
 ms:contentKeyID: 48545515
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e7c17992daff5064b41507f5c2a1b2781476095a
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4324917fcabd768a9527b11fceadbfc2dc9ef2b3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936877"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707768"
 ---
 # <a name="field2value-property-dao"></a>Свойство Field2.Value (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25936877"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметр или возвращаемое значение имеет тип данных Variant, которое оценивается как значение соответствующего типа данных, указанный в свойстве **Тип** объекта.
 

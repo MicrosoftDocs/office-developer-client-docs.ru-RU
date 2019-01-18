@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
 ms:contentKeyID: 48543017
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1127e46c442f703785494e67f4cef19b2b6a1ca0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 137616721dab202e0122ccf8947d2a20a7a0509d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927951"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712689"
 ---
 # <a name="properties-members-dao"></a>Члены свойства (DAO)
 
@@ -39,11 +40,11 @@ ms.locfileid: "25927951"
 <td><p>Добавляет новое <strong>свойство</strong> в коллекцию <strong>свойств</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="properties-delete-method-dao.md">Delete</a></strong></p></td>
+<td><p><strong><a href="properties-delete-method-dao.md">Удаление</a></strong></p></td>
 <td><p>Удаляет указанный объект <strong>свойство</strong> из коллекции <strong>свойств</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="properties-refresh-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="properties-refresh-method-dao.md">Refresh</a></strong></p></td>
 <td><p>Обновляет объекты в указанном включающий в соответствии с текущей схеме базы данных.</p></td>
 </tr>
 </tbody>

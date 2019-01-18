@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
 ms:contentKeyID: 48547828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6a9047ac95e377863c2f8d0f7024ca3ff199a06
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: abdb0d07f2293a53fccaf0d628c301750027acc6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921021"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716161"
 ---
 # <a name="tabledefattributes-property-dao"></a>Свойство TableDef.Attributes (DAO)
 
@@ -27,7 +28,7 @@ ms.locfileid: "25921021"
 
 *выражение* Переменная, которая представляет собой объект- **TableDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объекта еще не добавляется в конец коллекции это свойство соответствует чтения и записи.
 
