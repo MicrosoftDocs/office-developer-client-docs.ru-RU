@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248875(v=office.15)
 ms:contentKeyID: 48543301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d187479498ac2ae28650a9c7046054f3023715d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 389148185108242d4b26721bcf7d21f631a1f8c9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923779"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700796"
 ---
 # <a name="dimensioncount-property-ado-md"></a>Свойство DimensionCount (ADO MD)
 

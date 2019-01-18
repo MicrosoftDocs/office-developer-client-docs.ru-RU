@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm50916
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 274ec88483066b4e8dd4032501ecfcc6a662b134
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 55af2ce884b26b4c3df219e7d1986e7dc2e4c8ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998142"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701699"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>Макрокоманда OpenVisualBasicModule
 
@@ -26,7 +27,7 @@ ms.locfileid: "25998142"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **OpenVisualBasicModule** состоит из следующих аргументов.
 
@@ -57,7 +58,7 @@ ms.locfileid: "25998142"
 > Необходимо ввести допустимое имя аргумента **Имя модуля** или **Имя процедуры** .
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие можно использовать для открытия процедуру события, указав имя **Модуля** и аргумент **Имя процедуры** . Например для открытия процедуру события **нажмите** кнопки в аргументе заказы формы, задайте имя **Модуля** **Form.Orders** и значение аргумента **Имя процедуры** **аргументе\_нажмите кнопку**. Чтобы просмотреть процедуру в форму или отчет, форма или отчет необходимо открыть.
 

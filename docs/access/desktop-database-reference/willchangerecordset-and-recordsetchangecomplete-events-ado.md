@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249068(v=office.15)
 ms:contentKeyID: 48543963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47d2c4a870151e8c917e7d00eca3e3d152bbfb8b
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: bfb304f41ada88e1b0546aaa4a54240b931017cd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950204"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701517"
 ---
 # <a name="willchangerecordset-and-recordsetchangecomplete-events-ado"></a>События WillChangeRecordset и RecordsetChangeComplete (ADO)
 
@@ -25,7 +26,7 @@ WillChangeRecordset*adReason*, *adStatus* *pRecordset*
 
 RecordsetChangeComplete*adReason*, *pError*, *adStatus*, *pRecordset*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
@@ -34,7 +35,7 @@ RecordsetChangeComplete*adReason*, *pError*, *adStatus*, *pRecordset*
 |*pError* |Объект [Error](error-object-ado.md) . Описание ошибки, возникшей при имеет значение *adStatus* **adStatusErrorsOccurred**; в противном случае он не задан.|
 |*pRecordset* |Объект **набора записей** . **Набор записей** , для которого произошло это событие.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **WillChangeRecordset** или **RecordsetChangeComplete** события могут быть вызваны методы **записей** [повторный запрос](requery-method-ado.md) или [Открыть](open-method-ado-recordset.md) .
 

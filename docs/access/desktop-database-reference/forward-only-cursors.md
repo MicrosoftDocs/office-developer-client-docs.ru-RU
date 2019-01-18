@@ -1,19 +1,20 @@
 ---
-title: Курсоров
+title: Однонаправленные курсоры
 TOCTitle: Forward-only cursors
 ms:assetid: 27541bac-077b-bfe6-d9d8-713e4a945125
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249035(v=office.15)
 ms:contentKeyID: 48543834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e742e3a6903faf7ab817b79675b100d026e25885
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 65eaafe805eabbac1681aa6dcd08b6b99bb056fa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946764"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705647"
 ---
-# <a name="forward-only-cursors"></a>Курсоров
+# <a name="forward-only-cursors"></a>Однонаправленные курсоры
 
 **Применимо к**: Access 2013, Office 2013
 

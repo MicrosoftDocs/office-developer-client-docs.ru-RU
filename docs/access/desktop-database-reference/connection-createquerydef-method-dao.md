@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 681da274ab1f709da2eb614df038e6aa492a224a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: b6600d4508a33a31098d6a2e7c92f5904beb0e95
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997254"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705934"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Метод Connection.CreateQueryDef (DAO)
 
@@ -67,7 +68,7 @@ ms.locfileid: "25997254"
 
 QueryDef
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 В рабочей области Microsoft Access Если вы укажите отличное от строку нулевой длины имени при создании **QueryDef**результирующего объекта **QueryDef** автоматически добавляется к коллекции **[QueryDefs](querydefs-collection-dao.md)** .
 

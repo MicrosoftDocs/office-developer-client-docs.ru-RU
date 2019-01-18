@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f622ee94fa6e37c2f618b038aea746791e58e9b8
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 47ad61495bcc96b3099af6273796626e9442cbf0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950085"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702847"
 ---
 # <a name="createobject-method-rds"></a>Метод CreateObject (RDS)
 
@@ -55,16 +56,16 @@ ms.locfileid: "25950085"
 </table>
 
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Объект* |Объектная переменная, которое оценивается как объект, тип которого указан *идентификатор ProgID*.|
-|*Пространства данных* |Объектную переменную, которая представляет [RDS. Пространства данных](dataspace-object-rds.md) используется для создания экземпляра объекта новый объект.|
+|*Object* |Объектная переменная, которое оценивается как объект, тип которого указан *идентификатор ProgID*.|
+|*DataSpace* |Объектную переменную, которая представляет [RDS. Пространства данных](dataspace-object-rds.md) используется для создания экземпляра объекта новый объект.|
 |*ProgID* |**Строковое** значение, содержащее программный идентификатор, указав на сервере бизнес-объект, который реализует приложения бизнес-правил.|
 |*awebsrvr* или *имя компьютера* |**Строковое** значение, представляющее URL-адрес, идентифицирующий веб-сервер Internet Information Services (IIS), где создается экземпляр объекта business server.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 *Протокол HTTP* используется стандартный Интернет-протокола; *HTTPS* — это безопасный протокол. Используйте *протокол DCOM* при выполнении локальной сети без HTTP. Протокол *в процесс* является локальной библиотеки динамической компоновки (DLL); сети не используется.
 

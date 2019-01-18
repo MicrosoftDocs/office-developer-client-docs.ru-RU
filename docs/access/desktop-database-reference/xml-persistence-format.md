@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249226(v=office.15)
 ms:contentKeyID: 48544643
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 291a75fb88690a5674d872f2adb01b683f5e99bd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: e7825d55c6f0c2f900f61a325265dce048f965e5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946715"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705976"
 ---
 # <a name="xml-persistence-format"></a>Формат сохранения XML
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 193cf5db350fdf0b30fe19da9a61026d1cd39aa9
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 8cc5153d851a4dc17ef690421d1080ddf91fc3bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026472"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701804"
 ---
 # <a name="filter-property-ado"></a>Свойство Filter (ADO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "26026472"
 
   - Значение [FilterGroupEnum](filtergroupenum.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте свойство **фильтра** выборочно пропускать записей в объекте **набора записей** . Отфильтрованного **набора записей** становится курсора. Другие свойства, возвращающие значения на основании текущей курсора влияет на, такие как [AbsolutePosition](absoluteposition-property-ado.md), [AbsolutePage](absolutepage-property-ado.md), [RecordCount](recordcount-property-ado.md)и [PageCount](pagecount-property-ado.md). Это связано с определенным значением свойства **фильтра** для первой записи, которая должна удовлетворять новое значение Перемещение текущей записи.
 

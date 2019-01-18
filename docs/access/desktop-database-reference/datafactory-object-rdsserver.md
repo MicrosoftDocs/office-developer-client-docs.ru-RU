@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248971(v=office.15)
 ms:contentKeyID: 48543605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4090b517dfdbe6d6870c04bf4118addad861ad95
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 77cd06992ef0062859d0a1372d115f8e65246a5d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910637"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702182"
 ---
 # <a name="datafactory-object-rdsserver"></a>Объект DataFactory (RDSServer)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25910637"
 
 Этот объект по умолчанию на сервере business реализует методы, обеспечивающие доступ к данным чтение и запись к источникам данных для клиентских приложений.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **RDSServer.DataFactory** разработан как объект автоматизации на сервере, которая принимает запросы клиентов. В реализацию Интернета он находится на веб-сервере и создается компонентом ADISAPI. Объект **RDSServer.DataFactory** предоставляет доступ на чтение и запись к источникам данных, но не содержит логику проверки или бизнес-правил.
 

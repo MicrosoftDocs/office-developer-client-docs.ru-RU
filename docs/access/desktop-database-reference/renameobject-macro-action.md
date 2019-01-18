@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm165893
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7d47a59bc82cb6f603fc52d45c675eb8e2877f91
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ce16b86ea06e041d490d0c68917daf18bd80dbb6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998968"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698388"
 ---
 # <a name="renameobject-macro-action"></a>Макрокоманда RenameObject
 
@@ -26,7 +27,7 @@ ms.locfileid: "25998968"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **RenameObject** состоит из следующих аргументов.
 
@@ -58,7 +59,7 @@ ms.locfileid: "25998968"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Новое имя объекта базы данных необходимо выполнить стандартные соглашения о наименовании для доступа к объектам.
 

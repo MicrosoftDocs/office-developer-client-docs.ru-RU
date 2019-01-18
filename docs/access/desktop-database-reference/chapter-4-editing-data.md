@@ -1,19 +1,20 @@
 ---
-title: 'Глава 4: Изменение данных'
+title: Глава 4. Редактирование данных
 TOCTitle: 'Chapter 4: Editing data'
 ms:assetid: 822b7365-0926-6411-6fb4-30de032570f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249563(v=office.15)
 ms:contentKeyID: 48545974
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28103cebeea517395ce2507402677fcde8114bb0
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: b954cf8b730a74fb7e630fbafb96c046491c6f46
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936590"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701146"
 ---
-# <a name="chapter-4-editing-data"></a>Глава 4: Изменение данных
+# <a name="chapter-4-editing-data"></a>Глава 4. Редактирование данных
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -72,8 +73,8 @@ End Function
 
 В этой главе рассматриваются следующие темы:
 
-- [Изменение существующих записей](editing-existing-records.md)
-- [Определение, какие возможности поддерживаются](determining-what-is-supported.md)
+- [Редактирование существующих записей](editing-existing-records.md)
+- [Определение поддерживаемых возможностей](determining-what-is-supported.md)
 - [Удаление записей с помощью метода Delete](deleting-records-using-the-delete-method.md)
 - [Альтернативы: использование инструкций SQL](alternatives-using-sql-statements.md)
 - [Добавление записей (ADO)](adding-records.md)

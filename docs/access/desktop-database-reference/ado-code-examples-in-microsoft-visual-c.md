@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3653099bc19bde7c1dd349c8b7984a7f988a8e11
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a3ffa94797d14e392b52e32022a225489a9d7b2b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910777"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703337"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-c"></a>Примеры кода ADO в Microsoft Visual C++
 
@@ -59,7 +60,7 @@ ms.locfileid: "25910777"
 - [Пример: свойства BOF, EOF и закладка](bof-eof-and-bookmark-properties-example-vc.md)
 - [Пример свойства CacheSize](cachesize-property-example-vc.md)
 - [Пример: свойства ConnectionString, ConnectionTimeout и состояния](connectionstring-connectiontimeout-and-state-properties-example-vc.md)
-- [Пример свойства Count](count-property-example-vc.md)
+- [Пример использования свойства Count](count-property-example-vc.md)
 - [Пример: свойства CursorType, LockType для и EditMode](cursortype-locktype-and-editmode-properties-example-vc.md)
 - [Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc.md)
 - [Пример свойства фильтра и RecordCount](filter-and-recordcount-properties-example-vc.md)
@@ -80,10 +81,10 @@ ms.locfileid: "25910777"
 - [Пример свойства StayInSync](stayinsync-property-example-vc.md)
 - [Пример свойства типа (поля)](type-property-example-field-vc.md)
 - [Пример свойства типа (свойство)](type-property-example-property-vc.md)
-- [Пример свойства Value](value-property-example-vc.md)
+- [Пример использования свойства Value](value-property-example-vc.md)
 - [Пример свойства версии](version-property-example-vc.md)
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 - [Пример использования модели событий ADO](ado-events-model-example-vc.md)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm139044
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 48b51ac15cde600b6f79968af49b73ad73333915
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c5972ad630efe3afe27565924c7c6a8a2230a9f2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918998"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703220"
 ---
 # <a name="setproperty-macro-action"></a>Макрокоманда SetProperty
 
@@ -23,7 +24,7 @@ ms.locfileid: "25918998"
 
 Действия **SetProperty** можно использовать для задания свойства для элемента управления в форму или отчет.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действия **SetProperty** имеет следующие аргументы.
 
@@ -55,7 +56,7 @@ ms.locfileid: "25918998"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 - Действия **SetProperty** можно использовать для настройки следующих свойств элемента управления: **включено**, **Visible**, **блокируется**, **слева**, **в начало**, **Ширина**, **Высота**, **цвет текста**, **Цвет фона**, или **Заголовок**.
 

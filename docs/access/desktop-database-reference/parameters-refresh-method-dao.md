@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193228(v=office.15)
 ms:contentKeyID: 48544607
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d9deafaf70ac230b2c3a93a1e8100a6300a5cc6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 29374baf16ec6c296f869b6bbf17bfb153d21bb3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920930"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704058"
 ---
 # <a name="parametersrefresh-method-dao"></a>Метод Parameters.Refresh (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25920930"
 
 *выражение* Переменная, которая представляет собой объект- **Параметры** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **Refresh** в многопользовательских средах, в которых другие пользователи могут изменить базу данных. Кроме того, может потребоваться использовать на всех коллекций, которые косвенно затронуты изменениями в базе данных. Например при изменении коллекции **пользователей** может потребоваться обновить коллекцию **групп** перед использованием семейства сайтов **групп** .
 

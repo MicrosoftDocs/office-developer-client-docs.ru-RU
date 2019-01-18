@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249746(v=office.15)
 ms:contentKeyID: 48546742
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 134dd67db437d9967cfcd4c79d0c96b1a0a33257
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 305a20ba3f300f55063b8d15869d8d14cc5b6a78
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927150"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701230"
 ---
 # <a name="positions-collection-ado-md"></a>Коллекция Positions (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25927150"
 
 Содержит объекты [положения](position-object-ado-md.md) , которые определяют точки на оси.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Положения** — это обычная коллекция ADO. С помощью свойства и методы коллекции сделайте следующее:
 

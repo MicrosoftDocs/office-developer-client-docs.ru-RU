@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
 ms:contentKeyID: 48543188
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c671ced7d3de2ce461af3bcf0a5d832e092bbf17
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: fb6cbd6cc925a3e4841d9e7d6d77332cc36c7a03
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922939"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703113"
 ---
 # <a name="ifthenelse-macro-block"></a>Блок макросов If...Then...Else
 
@@ -30,7 +31,7 @@ ms.locfileid: "25922939"
     End If
 ```
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **Если** и **Else If**требуются следующие аргументы.
 
@@ -47,14 +48,14 @@ ms.locfileid: "25922939"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Выражение</strong></p></td>
+<td><p><strong>Expression</strong></p></td>
 <td><p>Условие, которое требуется проверить. Это должно быть выражение, которое оценивается как True или False.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При выборе макрос блок **If** текстовое поле отображается таким образом, можно ввести выражение, представляющее условие, которую вы хотите проверить. Кроме того поле со списком отображается, где можно вставить действия макроса, под которой автоматически отображается текст «End If». If и End If квадратная скобка область, в котором можно ввести группу или блок действия. Блок выполняется только в том случае, если выражение, которое вводится имеет значение True.
 

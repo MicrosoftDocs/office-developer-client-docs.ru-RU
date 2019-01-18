@@ -1,19 +1,20 @@
 ---
-title: Параметризованные команды с командами промежуточных COMPUTE
+title: Параметризованные команды с промежуточными командами COMPUTE
 TOCTitle: Parameterized commands with intervening COMPUTE commands
 ms:assetid: ff3724cd-040b-4b5f-bb9b-e6a38fd938c9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250311(v=office.15)
 ms:contentKeyID: 48548959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 76093082419684cd236f4766da6afc07faf2cf20
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 4172fba2d9fc08d3cf9f588fe9ace65da7997b19
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946799"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701937"
 ---
-# <a name="parameterized-commands-with-intervening-compute-commands"></a>Параметризованные команды с командами промежуточных COMPUTE
+# <a name="parameterized-commands-with-intervening-compute-commands"></a>Параметризованные команды с промежуточными командами COMPUTE
 
 
 **Применимо к**: Access 2013, Office 2013

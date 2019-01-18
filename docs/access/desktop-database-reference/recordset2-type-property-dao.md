@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ca75e1b21e017dfbbbc5028d06a4799a9afd50f3
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 6646658daf482373ef8b62f6d3420b1d11152cac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936597"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704541"
 ---
 # <a name="recordset2type-property-dao"></a>Свойство Recordset2.Type (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25936597"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объекта **набора записей** возможные параметры и возвращаемые значения, как показано ниже.
 
@@ -41,7 +42,7 @@ ms.locfileid: "25936597"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 <th><p>Тип набора записей</p></th>
 </tr>
 </thead>

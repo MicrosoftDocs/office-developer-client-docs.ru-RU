@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66ef27165e6f5823cc97a295643dfc2ae5c205c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 4f5ffae4880cadb90f47f1ac348ffc8b3ea58785
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883185"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704562"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Поставщик Microsoft OLE DB для ODBC
 
@@ -373,7 +374,7 @@ ODBC предоставляет определенный синтаксис дл
 <td><p>только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="bookmark-property-ado.md">Закладка</a></p></td>
+<td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
 <td><p>Недоступен</p></td>
 <td><p>Недоступен</p></td>
 <td><p>чтение и запись</p></td>
@@ -408,7 +409,7 @@ ODBC предоставляет определенный синтаксис дл
 <td><p>только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Фильтр</a></p></td>
 <td><p>чтение и запись</p></td>
 <td><p>чтение и запись</p></td>
 <td><p>чтение и запись</p></td>
@@ -471,7 +472,7 @@ ODBC предоставляет определенный синтаксис дл
 <td><p>только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="status-property-ado-recordset.md">Состояние</a></p></td>
+<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
 <td><p>только для чтения</p></td>
 <td><p>только для чтения</p></td>
 <td><p>только для чтения</p></td>
@@ -495,7 +496,7 @@ ODBC предоставляет определенный синтаксис дл
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Метод</p></th>
+<th><p>Method</p></th>
 <th><p>ForwardOnly</p></th>
 <th><p>Динамическая группа</p></th>
 <th><p>Набор ключей</p></th>
@@ -532,21 +533,21 @@ ODBC предоставляет определенный синтаксис дл
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="clone-method-ado.md">Копия</a></p></td>
+<td><p><a href="clone-method-ado.md">Clone</a></p></td>
 <td><p>Нет</p></td>
 <td><p>Нет</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="close-method-ado.md">Закрыть</a></p></td>
+<td><p><a href="close-method-ado.md">Close</a></p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">удаление</a>;</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
@@ -560,7 +561,7 @@ ODBC предоставляет определенный синтаксис дл
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Перемещение</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
@@ -602,14 +603,14 @@ ODBC предоставляет определенный синтаксис дл
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="open-method-ado-recordset.md">Открытие</a></p></td>
+<td><p><a href="open-method-ado-recordset.md">Open</a></p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="requery-method-ado.md">Обновление</a></p></td>
+<td><p><a href="requery-method-ado.md">Requery</a></p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
 <td><p>Да</p></td>
@@ -780,7 +781,7 @@ ODBC предоставляет определенный синтаксис дл
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>Режим</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -832,7 +833,7 @@ ODBC предоставляет определенный синтаксис дл
 <td><p>DBPROP_OUTPUTPARAMETERAVAILABILITY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Пароль</p></td>
+<td><p>Password</p></td>
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="even">

@@ -10,12 +10,13 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c64f28769d88c2684485ba537bdbdf22afd30ac5
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: b3460786785ae7b21184b6d96384ecc59e89d287
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026052"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704170"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Инициализация драйвера источника данных Microsoft Exchange
 
@@ -54,7 +55,7 @@ ms.locfileid: "26026052"
 <tr class="odd">
 <td><p>Модуль</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Exchange</p></td>
+<td><p>Exchange;</p></td>
 </tr>
 <tr class="even">
 <td><p>ImportFilter</p></td>
@@ -122,7 +123,7 @@ ms.locfileid: "26026052"
 <tr class="odd">
 <td><p>Модуль</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Exchange</p></td>
+<td><p>Exchange;</p></td>
 </tr>
 <tr class="even">
 <td><p>ImportFilter</p></td>

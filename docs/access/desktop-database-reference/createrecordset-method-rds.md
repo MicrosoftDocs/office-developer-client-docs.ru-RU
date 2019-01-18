@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248940(v=office.15)
 ms:contentKeyID: 48543497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b4d68ac2dfca344cb98885846f2cd09fafd0ea0
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3dda0840617c32e9dceea3bd1baa362c5652a373
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950239"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703022"
 ---
 # <a name="createrecordset-method-rds"></a>Метод CreateRecordset (RDS)
 
@@ -23,11 +24,11 @@ ms.locfileid: "25950239"
 
 *объект*. CreateRecordset (*ColumnInfos*)
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Объект* |Объектную переменную, которая представляет [RDSServer.DataFactory](datafactory-object-rdsserver.md) или [RDS. DataControl](datacontrol-object-rds.md) объекта.|
+|*Object* |Объектную переменную, которая представляет [RDSServer.DataFactory](datafactory-object-rdsserver.md) или [RDS. DataControl](datacontrol-object-rds.md) объекта.|
 |*ColumnsInfos* |Создать **Variant** массив атрибутов, определяющий столбцы в **набора записей** . Определение каждого столбца содержит массив четыре обязательные атрибуты и один необязательный атрибут. Набор столбцов массивов нажмите сгруппированы в массив, который определяет **набор записей**. Список атрибутов обратитесь к таблице ниже.|
 
 ### <a name="variant-array-attributes"></a>Атрибуты массив вариантов
@@ -36,11 +37,11 @@ ms.locfileid: "25950239"
 |:--------|:----------|
 |Имя |Имя заголовка столбца.|
 |Тип |Целое число типа данных.|
-|Size |Целое число от ширины знаков, независимо от типа данных.|
+|Размер |Целое число от ширины знаков, независимо от типа данных.|
 |Возможность принимать значение NULL |Логическое значение.|
 |Масштаб (необязательно) |Этот дополнительный атрибут задает масштаб для числовых полей. Если это значение не указано, с горизонтальным трех усекаются числовых значений. Количество разрядов после запятой будет усечено до трех, но не повлияет точности.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 На сервере бизнес-объекта можно заполнить результирующего **набора записей** с данными из не - поставщиков данных OLE DB, такие как файл операционной системы, содержащий акций.
 
@@ -60,8 +61,8 @@ ms.locfileid: "25950239"
 <thead>
 <tr class="header">
 <th><p>Length</p></th>
-<th><p>Constant</p></th>
-<th><p>Number</p></th>
+<th><p>Константа</p></th>
+<th><p>Число</p></th>
 <th><p>Замена </p></th>
 </tr>
 </thead>

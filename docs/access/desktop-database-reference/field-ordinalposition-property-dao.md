@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29313e61527920cdc4918cc81c4ff9f94e932855
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: d45f0362831d91b83b3a2449affbbfb5ac2b4e51
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920090"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701881"
 ---
 # <a name="fieldordinalposition-property-dao"></a>Свойство Field.OrdinalPosition (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25920090"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объекта еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.
 

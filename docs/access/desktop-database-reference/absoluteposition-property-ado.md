@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249259(v=office.15)
 ms:contentKeyID: 48544787
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a090630b5db741f761314f598fcc783dd124d1cf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 9b5e25e014c6e93d35e3621bb9b5b3c21d5e77f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881862"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702378"
 ---
 # <a name="absoluteposition-property-ado"></a>Свойство AbsolutePosition (ADO)
 

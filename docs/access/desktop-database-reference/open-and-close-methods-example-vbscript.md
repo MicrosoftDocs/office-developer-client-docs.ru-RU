@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249513(v=office.15)
 ms:contentKeyID: 48545816
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca3bb9d5cf5286abdabe6448b1f839b8c391564d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 76bc583804942f139e311aa75206ecf971ddc2a1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876227"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703764"
 ---
 # <a name="open-and-close-methods-example-vbscript"></a>Пример использования методов Open и Close (VBScript)
 

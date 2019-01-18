@@ -1,19 +1,20 @@
 ---
-title: Добавление данных в набор записей
+title: Добавление данных в объект Recordset
 TOCTitle: Adding data to a Recordset
 ms:assetid: a3d121a8-f52f-66cd-8849-c3a75aeb276a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249761(v=office.15)
 ms:contentKeyID: 48546797
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 869fd4624b0fdc2160c74c8360101500210405dd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0d16eb5871bfe55af58a89cc06b413e8404df8cb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944216"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701398"
 ---
-# <a name="adding-data-to-a-recordset"></a>Добавление данных в набор записей
+# <a name="adding-data-to-a-recordset"></a>Добавление данных в объект Recordset
 
 **Применимо к**: Access 2013, Office 2013
 

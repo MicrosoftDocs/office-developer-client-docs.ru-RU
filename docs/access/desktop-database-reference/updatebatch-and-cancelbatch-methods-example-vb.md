@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249536(v=office.15)
 ms:contentKeyID: 48545893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b4517e49427356047fac9f1726ba064ebcd83112
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: e74e5bb72914be57268cc30dfd94874b08040b88
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867701"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702770"
 ---
 # <a name="updatebatch-and-cancelbatch-methods-example-vb"></a>Пример использования методов UpdateBatch и CancelBatch (VB)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eeaed6e6c2f32463a12f617c8fee90b2d5f24a86
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: fda1ab5a3e339d951225f4f43ab4275cce2cdb80
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998436"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705437"
 ---
 # <a name="field2appendchunk-method-dao"></a>Метод Field2.AppendChunk (DAO)
 
@@ -48,7 +49,7 @@ ms.locfileid: "25998436"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Функция Val</em></p></td>
+<td><p><em>Val</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Выражение типа Variant (String подтип) или переменная, содержащая данные необходимо добавить объект <strong>поле2</strong> .</p></td>
@@ -57,7 +58,7 @@ ms.locfileid: "25998436"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Методы **AppendChunk** и **GetChunk** для доступа к подмножества данных можно использовать в полей Memo или Long Binary.
 

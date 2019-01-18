@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248842(v=office.15)
 ms:contentKeyID: 48543166
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f1443d1f2a4eccd8599256425a971bc63cd4d8b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 653291ade258d602d7ec523dcac7e9fe51dd91fb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918984"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702028"
 ---
 # <a name="update-resync-dynamic-property-ado"></a>Обновление свойства динамического повторной синхронизации (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25918984"
 
 Задает или возвращает один или несколько [ADCPROP\_UPDATERESYNC\_ENUM](adcprop-updateresync-enum.md) значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значения ADCPROP\_UPDATERESYNC\_ENUM может быть объединен, за исключением adResyncAll, который уже представляет сочетание остальные значения.
 

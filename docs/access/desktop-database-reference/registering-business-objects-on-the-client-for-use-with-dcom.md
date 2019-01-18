@@ -1,19 +1,20 @@
 ---
-title: Регистрация бизнес-объекты на стороне клиента для использования с DCOM
+title: Регистрация бизнес-объектов в клиенте для использования с DCOM
 TOCTitle: Registering business objects on the client for use with DCOM
 ms:assetid: f98c419f-a8c0-b087-bb98-ab760154e99b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250269(v=office.15)
 ms:contentKeyID: 48548818
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b2746ad6d0736f4415788cde477e1513d9b46146
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7479eefcc975ca0fe7bb7fe0d51796d1b1f416b9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946806"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705514"
 ---
-# <a name="registering-business-objects-on-the-client-for-use-with-dcom"></a>Регистрация бизнес-объекты на стороне клиента для использования с DCOM
+# <a name="registering-business-objects-on-the-client-for-use-with-dcom"></a>Регистрация бизнес-объектов в клиенте для использования с DCOM
 
 **Применимо к**: Access 2013, Office 2013
 

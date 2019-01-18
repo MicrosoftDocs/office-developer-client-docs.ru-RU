@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f94d869cd04dc0b16e0b428abaf60e4be32dacb7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 7a84e3cc4b35886a12b2e6b4cf92b7483fea293a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998058"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705115"
 ---
 # <a name="dbengineidle-method-dao"></a>Метод DBEngine.Idle (DAO)
 
@@ -48,7 +49,7 @@ ms.locfileid: "25998058"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Действие</em></p></td>
+<td><p><em>Action</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Указывает действие, которое выполняется. Может быть <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> констант.</p></td>
@@ -57,7 +58,7 @@ ms.locfileid: "25998058"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод **Idle** позволяет ядро базы данных Microsoft Access для выполнения фоновых задач, могут не соответствовать действительности из-за процесс обработки данных. Это особенно актуально в многопользовательской, многозадачных средах, которые не являются достаточно фоновую обработку времени хранения для всех записей в наборе **[записей](recordset-object-dao.md)** текущей.
 

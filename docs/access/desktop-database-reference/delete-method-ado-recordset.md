@@ -1,19 +1,20 @@
 ---
-title: Метод Delete (набор записей ADO)
+title: Метод Delete (Recordset в ADO)
 TOCTitle: Delete method (ADO Recordset)
 ms:assetid: 62c39b4d-223e-7b48-6780-6cd272e3114e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a7ab998052cc08aa57320d05e46542b84282e6c
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: e8142d4fc4fc0036f80693f0bff779d9f3f2a62e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949511"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702490"
 ---
-# <a name="delete-method-ado-recordset"></a>Метод Delete (набор записей ADO)
+# <a name="delete-method-ado-recordset"></a>Метод Delete (Recordset в ADO)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949511"
 
 *набор записей*. Удаление *AffectRecords*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
@@ -32,7 +33,7 @@ ms.locfileid: "25949511"
 > [!NOTE]
 > **adAffectAll** и **adAffectAllChapters** не допустимый аргументы, которые нужно **Удалить**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 С помощью метода **Delete** помечает текущую запись или группу из записей в объекте [набора записей](recordset-object-ado.md) для удаления. Если объект **набора записей** не позволяет удаление записи, возникает ошибка. Если вы используете режим немедленное обновление, удаление происходит в базе данных немедленно. Если запись не может успешно удалены (из-за нарушения целостности базы данных, например), запись будет оставаться в режиме редактирования после вызова **обновления**. Это означает, что необходимо отменить обновление с [CancelUpdate](cancelupdate-method-ado.md) перед перемещением текущей записи (например, с помощью [Закрыть](close-method-ado.md), [Перемещение](move-method-ado.md)или [NextRecordset](nextrecordset-method-ado.md)).
 

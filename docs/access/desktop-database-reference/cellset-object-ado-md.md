@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249047(v=office.15)
 ms:contentKeyID: 48543869
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 005d1df7fe5b746e98966ca882865058ab039c32
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c8cb75ad7277386cfe81b2edcffa234498318444
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924467"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702189"
 ---
 # <a name="cellset-object-ado-md"></a>Объект Cellset (ADO MD)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25924467"
 
 Представляет результаты запроса многомерных. Это коллекция ячеек, выбранные из кубов или других наборов ячеек.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Данные в рамках набора **ячеек** извлекаются с помощью прямого доступа как массив. Вы можете «выполнить» к определенному элементу, для получения данных о этого элемента. Например следующий код возвращает заголовок первого элемента в начале на оси первого набора ячеек, с именем cst:
 

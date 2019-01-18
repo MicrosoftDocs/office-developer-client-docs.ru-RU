@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 55baceac9523400c5e646fbc4c1e7bb411219697
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5875a8935b1b44c3c36b29344af32df552f6e01c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998590"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699893"
 ---
 # <a name="dbenginesetoption-method-dao"></a>Метод: DBEngine.SetOption (DAO)
 
@@ -48,13 +49,13 @@ ms.locfileid: "25998590"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Вариант</em></p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Константа, как описано в разделе Примечания.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Значение</em></p></td>
+<td><p><em>Value</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Значение, которое требуется для параметра.</p></td>
@@ -63,7 +64,7 @@ ms.locfileid: "25998590"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Каждая константа ссылается на соответствующий раздел реестра в поле путь HKEY\_ЛОКАЛЬНОГО\_МАШИНЫ\\программного обеспечения\\Microsoft\\Office\\12.0\\ядро доступа подключения к\\обработчики\\ACE (то есть, **dbSharedAsyncDelay** соответствующий ключ HKEY\_ЛОКАЛЬНОГО\_МАШИНЫ\\программного обеспечения\\Microsoft\\Office\\12.0\\модуль подключения к Access\\обработчики\\элемент управления ДОСТУПОМ \\SharedAsyncDelay, и так далее).
 

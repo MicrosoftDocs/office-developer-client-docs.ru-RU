@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce8e5b8d442ba81120056219ee06753e08332354
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: a0efb40d1b5e4c5d675d8add7cdb7a05760578a9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910910"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704261"
 ---
 # <a name="ado-properties"></a>Свойства ADO
 
@@ -50,7 +51,7 @@ ms.locfileid: "25910910"
 <td><p>Фактическая длина значения поля.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="attributes-property-ado.md">Атрибуты</a></p></td>
+<td><p><a href="attributes-property-ado.md">Attributes</a></p></td>
 <td><p>Указывает один или несколько характеристик объекта.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +59,7 @@ ms.locfileid: "25910910"
 <td><p><strong>BOF</strong> — указывает, что положение текущей записи перед первой записи в объекте <strong>набора записей</strong> . <strong>Функция EOF</strong> — указывает, что положение текущей записи после последней записи в объекте <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="bookmark-property-ado.md">Закладка</a></p></td>
+<td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
 <td><p>Указывает закладки, который уникальным образом определяет текущую запись в объект <strong>набора записей</strong> или задает текущей записи в объекте <strong>набора записей</strong> к записи, обозначенный допустимый закладка.</p></td>
 </tr>
 <tr class="odd">
@@ -70,7 +71,7 @@ ms.locfileid: "25910910"
 <td><p>Получает или задает объект OLE DB <strong>главы</strong> из/на объекте <strong>ADORecordsetConstruction</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="charset-property-ado.md">Набор символов</a></p></td>
+<td><p><a href="charset-property-ado.md">CharSet</a></p></td>
 <td><p>Указывает кодировку, в которой содержимое текстового <strong>потока</strong> преобразования.</p></td>
 </tr>
 <tr class="even">
@@ -138,7 +139,7 @@ ms.locfileid: "25910910"
 <td><p>Указывает, является ли текущую позицию в конце потока.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
+<td><p><a href="filter-property-ado.md">Фильтр</a></p></td>
 <td><p>Указывает фильтр для данных в <strong>набор записей</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -146,7 +147,7 @@ ms.locfileid: "25910910"
 <td><p>Указывает файл справки и раздел, связанный с объектом <strong>Ошибка</strong> . <strong>HelpContextID</strong> — возвращает идентификатор контекста, как <strong>длинное целое</strong> значение, для раздела в файле справки. <strong>Файл справки</strong> — возвращает <strong>строковое</strong> значение, которое оценивается как полностью разрешенный путь к файлу справки.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-property-ado.md">Индекс</a></p></td>
+<td><p><a href="index-property-ado.md">Index</a></p></td>
 <td><p>Указывает имя индекса в настоящее время фактически для объекта <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="odd">
@@ -234,11 +235,11 @@ ms.locfileid: "25910910"
 <td><p>Указывает число записей в объекте <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="recordtype-property-ado.md">Типом записи</a></p></td>
+<td><p><a href="recordtype-property-ado.md">RecordType</a></p></td>
 <td><p>Указывает тип объекта <strong>записи</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="row-property-ado.md">Строка</a></p></td>
+<td><p><a href="row-property-ado.md">Row</a></p></td>
 <td><p>Получает или задает объект OLE DB <strong>строку</strong> из/на объекте <strong>ADORecordConstruction</strong> .</p></td>
 </tr>
 <tr class="even">
@@ -250,7 +251,7 @@ ms.locfileid: "25910910"
 <td><p>Получает или задает объект OLE DB <strong>строк</strong> из/на объекте <strong>ADORecordsetConstruction</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="size-property-ado.md">Размер</a></p></td>
+<td><p><a href="size-property-ado.md">Size</a></p></td>
 <td><p>Указывает максимальный размер в байтах или символов объекта <strong>параметров</strong> .</p></td>
 </tr>
 <tr class="odd">
@@ -294,7 +295,7 @@ ms.locfileid: "25910910"
 <td><p>Указывает, в объект <strong>набора записей</strong> иерархических ли ссылку на базовый дочерние записи (то есть, <em>главы</em>) изменяется при изменении позиции строки родительского.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado.md">Тип</a></p></td>
+<td><p><a href="type-property-ado.md">Type</a></p></td>
 <td><p>Указывает тип действующие или тип данных <strong>параметра</strong>, <strong>поля</strong>или <strong>Свойства</strong> объекта.</p></td>
 </tr>
 <tr class="even">
@@ -306,7 +307,7 @@ ms.locfileid: "25910910"
 <td><p>Указывает объект <strong>поля</strong> текущим значением в базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="value-property-ado.md">Значение</a></p></td>
+<td><p><a href="value-property-ado.md">Value</a></p></td>
 <td><p>Указывает значение, присваиваемое <strong>поля</strong>, <strong>параметр</strong>или <strong>Свойства</strong> объекта.</p></td>
 </tr>
 <tr class="odd">

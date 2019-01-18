@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9e7fb19504e606fed9960a3982c0f98f9081325
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 43ca69b9d761629d42138780517f8de806ed7e8c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997565"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701013"
 ---
 # <a name="openschema-method-ado"></a>Метод OpenSchema (ADO)
 
@@ -27,15 +28,15 @@ ms.locfileid: "25997565"
 
 Возвращает объект [набора записей](recordset-object-ado.md) , который содержит сведения о схеме. Как только для чтения, статический курсор будет открыт **набора записей** . *QueryType* определяет, какие столбцы должны отображаться в **набора записей**.
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*QueryType* |Любое значение [SchemaEnum](schemaenum.md) , представляющий тип запроса схемы для запуска.|
-|*Criteria* |Необязательно указывать. Массив ограничения запроса для каждого варианта *QueryType* , как указано в **SchemaEnum**.|
+|*Criteria* |Необязательно. Массив ограничения запроса для каждого варианта *QueryType* , как указано в **SchemaEnum**.|
 |*SchemaID* |Идентификатор GUID для запроса поставщика схемы не определена спецификацией OLE DB. Этот параметр является обязательным, если *QueryType* задано значение **adSchemaProviderSpecific**; в противном случае он не используется.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод **OpenSchema** возвращает столбцы в таблицах и типы данных, поддерживаемые достаточные описательные сведения об источнике данных, например таблицах, представляют в источнике данных.
 

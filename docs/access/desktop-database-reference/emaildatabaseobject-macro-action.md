@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 84d5b9c5f65e032523be8c646cdea18890744367
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 15cb7d6c422a9d7b0fae17ab649b6cfbc1b497a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997450"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699921"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>Макрокоманда EMailDatabaseObject
 
@@ -55,15 +56,15 @@ ms.locfileid: "25997450"
 <td><p>Тип формата, в котором следует отправляемого объекта. Список форматов, которые можно выбрать один из меняется в зависимости от того, установите для аргумента <strong>Тип объекта</strong> . Форматы могут включать <strong>Excel 97 - 2003 книги Excel (*.xls)</strong>, <strong>Двоичная книга Excel (*.xlsb)</strong>, <strong>Книга Excel (XLSX)</strong> <strong>HTML (*.htm, * .html)</strong>, <strong>Книга Microsoft Excel 5.0/95 (*.xls)</strong>, <strong>Формат PDF </strong>, <strong>Fomat текст в формате RTF (*.rtf)</strong>, <strong>текстовые файлы (*.txt)</strong>или <strong>формате XPS (*.xps)</strong>. в поле <strong>Формат выходных данных</strong> . Модули передаются только в текстовом формате. Страницы доступа к данным могут отправляться только в формате HTML. Если оставить это аргумент, Access запрашивает выходной формат.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Задача</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Получатели сообщения, имена которых требуется включить в строке <strong>Кому</strong> сообщения электронной почты. Если оставить это аргумент, Access запрашивает имен получателей. Разделите получателей указываемые имена этот аргумент (и аргументы <strong>«копия»</strong> и <strong>«СК»</strong> ) точкой с запятой (;) или с разделителями списков на вкладке <strong>число</strong> диалогового окна <strong>Свойства региональных параметров</strong> в Microsoft <strong>Панель управления</strong>Windows. Если почтовое приложение не может определить имена получателей, сообщение не отправляется и возникает ошибка.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>«Копия»</strong></p></td>
+<td><p><strong>Cc</strong></p></td>
 <td><p>Получатели сообщения, имена которых следует разместить на <strong>«копия»</strong> (&quot;копии&quot;) строки в сообщение электронной почты. Если оставить это аргумент, в строке <strong>копия</strong> сообщения электронной почты не задан.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Скрытой копии</strong></p></td>
+<td><p><strong>Bcc</strong></p></td>
 <td><p>Получатели сообщения, имена которых следует разместить на <strong>скрытой копии</strong> (&quot;скрытой копии&quot;) строки в сообщение электронной почты. Если оставить это аргумент, строки <strong>Скрытая копия</strong> сообщения электронной почты не задан.</p></td>
 </tr>
 <tr class="odd">
@@ -86,7 +87,7 @@ ms.locfileid: "25997450"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 — Это объект в сообщение электронной почты в указанном формате. Дважды щелкните объект, соответствующее программное обеспечение начинается с объектом открыт.
 

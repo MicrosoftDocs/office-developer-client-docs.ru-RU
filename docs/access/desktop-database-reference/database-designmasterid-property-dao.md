@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1d15cc036b33e2b64f54b89f4f8ed5c69d9fdcbe
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: a189d16880fccdc34c169aee61c6781e1d86afa8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930492"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703911"
 ---
 # <a name="databasedesignmasterid-property-dao"></a>Свойство Database.DesignMasterID (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25930492"
 
 *выражение* Переменная, которая представляет собой объект **базы данных** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **DesignMasterID** следует устанавливать только в том случае, если необходимо перенести текущей основной. Установка для этого свойства выполняет определенные в реплике набора реплик основной.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845575(v=office.15)
 ms:contentKeyID: 48543451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1fc80ac2ee1616c9203d2c178a2bd28decb771e2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: ae3dc5ba640b4b24a7400fc9e467978777ef6fcc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920286"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700460"
 ---
 # <a name="recordset2recordstatus-property-dao"></a>Свойство Recordset2.RecordStatus (DAO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25920286"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение свойства **RecordStatus** указывает ли текущей записи будут принимать участие в следующее обновление оптимистичный пакета.
 

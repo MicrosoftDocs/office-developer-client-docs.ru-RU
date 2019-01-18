@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
 ms:contentKeyID: 48544642
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be25a2f8b5d6da7b569858d758b3fb541cf9be51
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 9c874a1555fa6a6f5f948275176c57b5fb1c48bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920440"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703827"
 ---
 # <a name="containers-collection-dao"></a>Коллекция контейнеров (DAO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25920440"
 
 Коллекция **контейнеров** содержит все объекты **контейнера** , определенные в базе данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Каждый объект **базы данных** имеет коллекцию **контейнеров** , состоящую из встроенных объектов **контейнера** . Некоторые из этих объектов **контейнера** определяются ядро базы данных Microsoft Access, в то время как другие пользователи могут быть определены с другими приложениями.
 

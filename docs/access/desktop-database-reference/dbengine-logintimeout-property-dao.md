@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052923
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91669b054cf9075375c4a5457086adc45ba43c70
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: e3ff893a16e650fe7eb49b647ae8d67374375a0d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925907"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701930"
 ---
 # <a name="dbenginelogintimeout-property-dao"></a>Свойство DBEngine.LoginTimeout (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25925907"
 
 *выражение* Переменная, которая представляет собой объект- **DBEngine** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **LoginTimeout** по умолчанию установлено 20 секунд. Если свойство **LoginTimeout** имеет значение 0, происходит нет времени ожидания.
 

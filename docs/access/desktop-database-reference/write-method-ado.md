@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
 ms:contentKeyID: 48547697
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 227c7a3746d0c743c33f76362023d6d374269a81
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: c6f4bba55ec3a32d206d3a7bfd001e96cd94923e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026283"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702518"
 ---
 # <a name="write-method-ado"></a>Метод Write (ADO)
 
@@ -23,13 +24,13 @@ ms.locfileid: "26026283"
 
 *Поток*. Запись*буфера*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Буфера* |**Variant** , содержащее массив байтов для записи.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **потока** без пробелов промежуточных между каждый байт записывается указанный байт.
 

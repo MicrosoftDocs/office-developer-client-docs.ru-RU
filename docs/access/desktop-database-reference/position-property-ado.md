@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
 ms:contentKeyID: 48546709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d4d907cedc3490f4ca13d47a12b9719cf3e2ee1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 6a47cc394cf0bb1c6f5a3d707c1885d0abef0f0e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997156"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704233"
 ---
 # <a name="position-property-ado"></a>Свойство Position (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25997156"
 
 Задает или возвращает значение типа **Long** , который определяет, в число байтов текущей позиции от начала потока. Значение по умолчанию равно 0, который представляет первого байта ответа в потоке.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Можно перемещать текущей позиции в точку после завершения потока. Если указать текущую позицию за пределами потока будет соответствующим образом увеличить [размер](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) объекта **потока** . Любой новый байт, добавлены таким способом будет иметь значение null.
 

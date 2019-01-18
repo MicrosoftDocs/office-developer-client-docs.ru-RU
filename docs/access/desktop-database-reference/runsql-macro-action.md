@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0527f5a55235fa36725152d228dfd2294c63bf53
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: f3ef598ad50747d99ca884043e03ebfabfef8f63
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996876"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704583"
 ---
 # <a name="runsql-macro-action"></a>Макрокоманда RunSQL
 
@@ -26,7 +27,7 @@ ms.locfileid: "25996876"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **Макрокоманды ЗапускЗапросаSQL** имеет следующие аргументы.
 
@@ -54,7 +55,7 @@ ms.locfileid: "25996876"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Можно использовать запросы на добавление, удаление и обновление записей и сохранить как новую таблицу результатов запроса. Определение данных запросов можно использовать создавать, изменять и удалять таблицы, а также создавать и удалять индексы. **Макрокоманды ЗапускЗапросаSQL** можно использовать для выполнения этих операций в макросе без необходимости использования сохраненных запросов.
 
@@ -75,7 +76,7 @@ ms.locfileid: "25996876"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Действие</strong></p></td>
+<td><p><strong>Action</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">

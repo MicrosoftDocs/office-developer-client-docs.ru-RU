@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 27fc0c38ec0f3ec98c2709a96b6dedcce17db693
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: c2b5a19b7a92fb68dfb774afeec5cd6ba456f38d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996813"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698164"
 ---
 # <a name="runmenucommand-macro-action"></a>Макрокоманда RunMenuCommand
 
@@ -23,7 +24,7 @@ ms.locfileid: "25996813"
 
 Действие **RunMenuCommand** можно использовать для выполнения встроенных команды Microsoft Access.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **RunMenuCommand** имеет аргумент следующие действия.
 
@@ -40,7 +41,7 @@ ms.locfileid: "25996813"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Команда</strong></p></td>
+<td><p><strong>Command</strong></p></td>
 <td><p>Имя команды, которые необходимо выполнить. Поле <strong>команда</strong> отображает доступные встроенными командами в клиенте в алфавитном порядке. Обязательный аргумент.</p></td>
 </tr>
 </tbody>

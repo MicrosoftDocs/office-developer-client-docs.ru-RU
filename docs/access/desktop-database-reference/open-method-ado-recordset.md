@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e0d5302291f1514fd11bca8fe7094af4525c900
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: e5f8dbdfa61a671e2efb9aac2596cfda5cd1727b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026479"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701832"
 ---
 # <a name="open-method-ado-recordset"></a>Метод Open (объект Recordset ADO)
 
@@ -23,22 +24,22 @@ ms.locfileid: "26026479"
 
 *набор записей*. Откройте*исходный*, *ActiveConnection*, *CursorType*, *LockType для*, *Параметры*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Source* |Необязательно указывать. **Variant** , которое оценивается как допустимый объект [команды](command-object-ado.md) , инструкции SQL, имя таблицы, вызов хранимой процедуры, URL-адрес или имя файла или [потока](stream-object-ado.md) object, содержащий постоянно хранимых [набора записей](recordset-object-ado.md).|
-|*ActiveConnection* |Необязательно указывать. **Variant** , которое оценивается как допустимое имя переменной объекта [подключения](connection-object-ado.md) , либо **строку** , содержащую параметры [ConnectionString](connectionstring-property-ado.md) .|
-|*CursorType* |Необязательно указывать. [CursorTypeEnum](cursortypeenum.md) значение, определяющее тип курсора, поставщик должен использовать при открытии **набора записей**. Значение по умолчанию — **adOpenForwardOnly**.|
-|*LockType для* |Необязательно указывать. [LockTypeEnum](locktypeenum.md) значение, определяющее тип блокировки (одновременно) поставщика следует использовать при открытии **набора записей**. Значение по умолчанию — **adLockReadOnly**.|
-|*Options* |Необязательно указывать. **Длинное** значение, которое указывает, как поставщик необходимо решить *исходный* аргумент, если он представляет элемент отличный от объекта **команды** или **набора записей** должен быть восстановлен из файла, в котором он был сохранен ранее. Может быть один или несколько [CommandTypeEnum](commandtypeenum.md) или [ExecuteOptionEnum](executeoptionenum.md) значения, которые может использоваться совместно с оператор AND.|
+|*Source* |Необязательно. **Variant** , которое оценивается как допустимый объект [команды](command-object-ado.md) , инструкции SQL, имя таблицы, вызов хранимой процедуры, URL-адрес или имя файла или [потока](stream-object-ado.md) object, содержащий постоянно хранимых [набора записей](recordset-object-ado.md).|
+|*ActiveConnection* |Необязательно. **Variant** , которое оценивается как допустимое имя переменной объекта [подключения](connection-object-ado.md) , либо **строку** , содержащую параметры [ConnectionString](connectionstring-property-ado.md) .|
+|*CursorType* |Необязательно. [CursorTypeEnum](cursortypeenum.md) значение, определяющее тип курсора, поставщик должен использовать при открытии **набора записей**. Значение по умолчанию — **adOpenForwardOnly**.|
+|*LockType для* |Необязательно. [LockTypeEnum](locktypeenum.md) значение, определяющее тип блокировки (одновременно) поставщика следует использовать при открытии **набора записей**. Значение по умолчанию — **adLockReadOnly**.|
+|*Варианты* |Необязательно. **Длинное** значение, которое указывает, как поставщик необходимо решить *исходный* аргумент, если он представляет элемент отличный от объекта **команды** или **набора записей** должен быть восстановлен из файла, в котором он был сохранен ранее. Может быть один или несколько [CommandTypeEnum](commandtypeenum.md) или [ExecuteOptionEnum](executeoptionenum.md) значения, которые может использоваться совместно с оператор AND.|
 
 > [!NOTE]
 > При открытии **набора записей** из **потока** , содержащий постоянных **набора записей**с помощью значение **ExecuteOptionEnum** **adAsyncFetchNonBlocking** не будет иметь эффекта. Выборка будет синхронная и блокировки.
 
 Значения **ExecuteOpenEnum** **adExecuteNoRecords** или **adExecuteStream** не должны использоваться с **Open**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 По умолчанию курсор для набора **записей** ADO является только вперед, только для чтения на сервере.
 

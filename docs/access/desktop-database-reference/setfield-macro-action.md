@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195227(v=office.15)
 ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66dfe95aaa335e14b0148d2fcd610abc30556e3a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 4fbf7252729c7b376da6ebe67f59941c1caf924d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997499"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722321"
 ---
 # <a name="setfield-macro-action"></a>Макрокоманда SetField
 
@@ -22,7 +23,7 @@ ms.locfileid: "25997499"
 > [!NOTE]
 > **SetField** действие доступно только в макросов данных.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **SetField** содержит аргументы, перечисленные в следующей таблице.
 
@@ -43,14 +44,14 @@ ms.locfileid: "25997499"
 <td><p>Строка, идентифицирующая поле.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Значение</strong></p></td>
+<td><p><strong>Value</strong></p></td>
 <td><p>Выражение, которое задает значение, задаваемое в поле.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Действие **SetField** не может использоваться вне блока данных **[СоздатьЗапись](createrecord-data-block.md)** или **[ИзменитьЗапись](editrecord-data-block.md)** .
 

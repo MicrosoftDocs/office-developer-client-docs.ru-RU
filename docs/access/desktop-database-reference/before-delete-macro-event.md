@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm186077
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8a2757b062efe022734c674f4c59f994f1c15692
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 2b2a4f978a4af2ba79cab7807f0142d35d7d30c7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920258"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705003"
 ---
 # <a name="before-delete-macro-event"></a>Событие макроса Before Delete
 
@@ -26,7 +27,7 @@ ms.locfileid: "25920258"
 > [!NOTE]
 > **Прежде чем удалить** событие доступна только в макросов данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 С помощью события **До удаления** для выполнения действий, которые следует выполнить перед записью удаляется. **До изменения** обычно используется для выполнения проверки и повысить пользовательские сообщения об ошибках.
 
@@ -52,7 +53,7 @@ ms.locfileid: "25920258"
 <thead>
 <tr class="header">
 <th><p>Тип команды</p></th>
-<th><p>Команда</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>

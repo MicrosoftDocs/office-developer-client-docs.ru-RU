@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249254(v=office.15)
 ms:contentKeyID: 48544766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1f127e4ea9393d3b461e9b7da2901df554ee36b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 8c0ee29125bf06ef51d1ac511838bdd09231e1a6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947212"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700551"
 ---
 # <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>Предоставление права гостевой на компьютере веб-сервера; Привилегии гостевой служб удаленных рабочих СТОЛОВ
 

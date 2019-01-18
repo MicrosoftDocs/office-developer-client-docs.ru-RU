@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm98639
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b820b984972b4de7592f159884ebce3f3a59dec8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 86834cd8b6132e8939067c0e34037ca1b0ef8bad
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923317"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704422"
 ---
 # <a name="setorderby-macro-action"></a>Макрокоманда SetOrderBy
 
@@ -24,7 +25,7 @@ ms.locfileid: "25923317"
 
 Действие **ЗадатьПорядокСортировки** можно использовать для указания способа сортировки записей формы, отчета, таблицы или результата запроса.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **ЗадатьПорядокСортировки** состоит из следующих аргументов.
 
@@ -52,7 +53,7 @@ ms.locfileid: "25923317"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При выполнении этого действия макроса сортировки применяется к таблице, форме, отчете или таблицы данных (результат запроса), который является активным и фокус находится на.
 

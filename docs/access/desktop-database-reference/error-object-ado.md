@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
 ms:contentKeyID: 48546477
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f6a18570071428bfbd92d6674ca281234ea883bf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a7c77a59368851f43b5e7bf2275f9f282546fb4b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925214"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699228"
 ---
 # <a name="error-object-ado"></a>Объект Error (ADO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25925214"
 
 Содержит сведения об ошибках доступа к данным, которые относятся к одной операции, включающие использование поставщика.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Любые операции, включающие использование объекты ADO можно создать одну или несколько ошибок поставщика. Как возникают ошибки, один или несколько объектов **Ошибка** помещаются в семействе [Errors](errors-collection-ado.md) объекта [подключения](connection-object-ado.md) . Когда другой операции ADO создает сообщение об ошибке, семейство **Errors** снят и новый набор объектов **ошибок** переводится в семейство **Errors** .
 

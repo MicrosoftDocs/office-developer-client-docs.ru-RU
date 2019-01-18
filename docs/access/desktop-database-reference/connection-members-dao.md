@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39c1366a182f1757abdcbf4b36a19b553eb2b680
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 098f44d87390351c23e61000ecbe47eae35810ae
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936765"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703904"
 ---
 # <a name="connection-members-dao"></a>Элементы подключения (DAO)
 
@@ -39,7 +40,7 @@ ms.locfileid: "25936765"
 <td><p>Отменяет выполнение ожидающие асинхронного вызова метода (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-close-method-dao.md">Закрыть</a></strong></p></td>
+<td><p><strong><a href="connection-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Закрывает открытое <strong>подключение</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -47,7 +48,7 @@ ms.locfileid: "25936765"
 <td><p>Создает новый объект <strong><a href="querydef-object-dao.md">QueryDef</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-execute-method-dao.md">Выполнение</a></strong></p></td>
+<td><p><strong><a href="connection-execute-method-dao.md">Execute</a></strong></p></td>
 <td><p>Запуск запроса или выполняет инструкции SQL на указанный объект.</p></td>
 </tr>
 <tr class="odd">
@@ -73,7 +74,7 @@ ms.locfileid: "25936765"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connection-connect-property-dao.md">Подключение</a></strong></p></td>
+<td><p><strong><a href="connection-connect-property-dao.md">Connect</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое содержит сведения об источнике открытое подключение. Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -97,7 +98,7 @@ ms.locfileid: "25936765"
 <td><p>Возвращает число записей, влияет на недавно вызванного метода <strong><a href="connection-execute-method-dao.md">Execute</a></strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="connection-recordsets-property-dao.md">Наборы записей</a></strong></p></td>
+<td><p><strong><a href="connection-recordsets-property-dao.md">Recordsets</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>наборов записей</strong> , который содержит все открытые наборы записей в для указанного подключения. Только для чтения.</p></td>
 </tr>
 <tr class="even">

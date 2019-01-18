@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dba3d57a1b9ce890898ac2f5b76b916b848c5a9b
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b972174e4fe7f3c0384b7483e17eb5ceb9e8bc15
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997520"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698773"
 ---
 # <a name="openstoredprocedure-macro-action"></a>Макрокоманда OpenStoredProcedure
 
@@ -26,7 +27,7 @@ ms.locfileid: "25997520"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **ОткрытьСохраненнуюПроцедуру** имеет следующие аргументы.
 
@@ -47,7 +48,7 @@ ms.locfileid: "25997520"
 <td><p>Имя процедуры, которую следует открыть. Поле <strong>имя процедуры</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов содержит все хранимые процедуры в текущей базе данных. Обязательный аргумент. Если макрос, содержащий <strong>ОткрытьСохраненнуюПроцедуру</strong> действие в базе данных библиотеки, Microsoft Access сначала выполняет поиск хранимую процедуру с этим именем сначала в базе данных библиотеки, а затем в текущей базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Просмотр</strong></p></td>
+<td><p><strong>View</strong></p></td>
 <td><p>Представление, в котором будут открываться хранимую процедуру. Выберите <strong>таблицы</strong>, <strong>разработки</strong>, <strong>Режим предварительного просмотра</strong>, <strong>сводной таблицы</strong>или <strong>сводной диаграммы</strong> в поле <strong>View</strong> . Значение по умолчанию — <strong>таблицы данных</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -57,7 +58,7 @@ ms.locfileid: "25997520"
 </tbody>
 </table>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие аналогично дважды щелкнув хранимую процедуру на левой панели навигации или щелкнув правой кнопкой мыши хранимую процедуру на левой панели навигации и выбрав команду.
 

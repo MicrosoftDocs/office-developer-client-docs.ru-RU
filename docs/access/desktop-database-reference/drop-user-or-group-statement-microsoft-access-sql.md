@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f9662c4f0cb691136a556faa32cb0d5a1c775268
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 995f935ceea5af3b740215c5a4137e02e7ebb1b2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936835"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700838"
 ---
 # <a name="drop-user-or-group-statement-microsoft-access-sql"></a>Удаление пользователя или группы оператора (Microsoft Access SQL)
 
@@ -55,7 +56,7 @@ ms.locfileid: "25936835"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При использовании этого ключевого слова в инструкции DROP USER каждого из *пользователей* , перечисленных в инструкции будет удален из *группы* указанной после этого ключевого слова. Тем не менее, *Пользователи* сами не будут удалены.
 

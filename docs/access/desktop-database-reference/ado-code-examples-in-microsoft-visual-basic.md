@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 184100c09c2b5e34f98bf29711bf9f176fa034a8
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: 8237e9f846bb012c593bf4d94c83bac835daf28d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910917"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702406"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Примеры кода ADO в Microsoft Visual Basic
 
@@ -41,7 +42,7 @@ ms.locfileid: "25910917"
 - [Пример метода получения строк](getrows-method-example-vb.md)
 - [Пример метода GetString](getstring-method-example-vb.md)
 - [Метод SkipLine, EOS и пример свойств LineSeparator](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
-- [Пример метода Move](move-method-example-vb.md)
+- [Пример использования метода Move](move-method-example-vb.md)
 - [Пример: методы MoveFirst, MoveLast, MoveNext и MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vb.md)
 - [Пример метода NextRecordset](nextrecordset-method-example-vb.md)
 - [Открытие и закрытие пример: методы](open-and-close-methods-example-vb.md)
@@ -66,7 +67,7 @@ ms.locfileid: "25910917"
 - [Пример: свойства BOF, EOF и закладка](bof-eof-and-bookmark-properties-example-vb.md)
 - [Пример свойства CacheSize](cachesize-property-example-vb.md)
 - [Пример: свойства ConnectionString, ConnectionTimeout и состояния](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
-- [Пример свойства Count](count-property-example-vb.md)
+- [Пример использования свойства Count](count-property-example-vb.md)
 - [Пример: свойства CursorType, LockType для и EditMode](cursortype-locktype-and-editmode-properties-example-vb.md)
 - [Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
 - [Свойства EOS и LineSeparator, пример метода SkipLine](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
@@ -87,6 +88,6 @@ ms.locfileid: "25910917"
 - [Пример свойства StayInSync](stayinsync-property-example-vb.md)
 - [Пример свойства типа (поле)](type-property-example-field-vb.md)
 - [Пример свойства типа (свойство)](type-property-example-property-vb.md)
-- [Пример свойства Value](value-property-example-vb.md)
+- [Пример использования свойства Value](value-property-example-vb.md)
 - [Пример свойства версии](version-property-example-vb.md)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 82f65862c9a1fbb1441c6bd5620d3bf4e86a5c32
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 845c710954d83003f49a6cd9db21ae3f3bfab383
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997891"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704604"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>Метод DBEngine.OpenConnection (DAO)
 
@@ -48,7 +49,7 @@ ms.locfileid: "25997891"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Строковое выражение. В разделе обсуждения в разделе Примечания.</p></td>
 </tr>
 <tr class="even">
@@ -58,13 +59,13 @@ ms.locfileid: "25997891"
 <td><p>Задает различные параметры подключения, как указано в разделе Примечания. На основе этого значения, драйвера ODBC запрашивает сведения о подключении, такие как имя источника данных (DSN), имя пользователя и пароль.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Только для чтения</em></p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Значение true,</strong> Если подключение будет открыт для доступа только для чтения и <strong>значение False</strong> , если подключение должен быть открыт для чтения и записи (по умолчанию).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Подключение</em></p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Строка подключения ODBC. В разделе свойства <strong><a href="connection-connect-property-dao.md">подключения</a></strong> для определенных элементов и синтаксис этой строки. Начале стоит символ &quot;ODBC. &quot; является обязательным.</p></td>
@@ -75,9 +76,9 @@ ms.locfileid: "25997891"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Подключение
+Connection
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **OpenConnection** для подключения к источнику данных ODBC из рабочей области технология ODBCDirect. Метод **OpenConnection** похоже, но не эквивалентно **OpenDatabase**. Основное различие — это **OpenConnection** доступны только в рабочей области технология ODBCDirect.
 

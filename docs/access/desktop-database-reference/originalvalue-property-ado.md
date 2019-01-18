@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15)
 ms:contentKeyID: 48542974
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 872e7c88e5ea4e79d6bff4aa590e72743feb3893
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 0724320e1aaa1e7bfd3ceab8cf54afd5921c7425
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884914"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700425"
 ---
 # <a name="originalvalue-property-ado"></a>Свойство OriginalValue (ADO)
 
@@ -31,7 +32,7 @@ ms.locfileid: "25884914"
 
 В *пакетном режиме обновления* (в котором поставщик кэширует несколько изменений и записывает их в источнике данных только при вызове метода [UpdateBatch](updatebatch-method-ado.md) ) это свойство **OriginalValue** возвращает значение поля, существовавшего до какие-либо изменяет (то есть, с момента последнего метода **UpdateBatch** звонков). Это то же значение, метод [CancelBatch](cancelbatch-method-ado.md) используется для замены свойства **Value** . При использовании этого свойства с помощью свойства [UnderlyingValue](underlyingvalue-property-ado.md) можно разрешения конфликтов с помощью пакета обновления.
 
-## <a name="record"></a>Запись
+## <a name="record"></a>Record
 
 Для [записи](record-object-ado.md) объектов **OriginalValue** свойство будет пустым для полей, добавлены, прежде чем будет вызван метод [Update](update-method-ado.md) .
 

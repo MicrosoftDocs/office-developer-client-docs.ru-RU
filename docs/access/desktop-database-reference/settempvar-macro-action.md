@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm150219
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 342a4db4e2ed6e06dca917beb96b4562f1fc65da
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: b630304774e521162687d4c78a6a97cf18ddb419
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919446"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705233"
 ---
 # <a name="settempvar-macro-action"></a>Макрокоманда SetTempVar
 
@@ -26,7 +27,7 @@ ms.locfileid: "25919446"
 
 Чтобы создать временную переменную и присвойте ей значение определенного значения можно использовать действие **SetTempVar** . Переменная затем использовать как условие или аргумент в последующие действия или в другой макрос, в процедуре события или на форму или отчет можно использовать переменную.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **SetTempVar** состоит из следующих аргументов.
 
@@ -47,14 +48,14 @@ ms.locfileid: "25919446"
 <td><p>Введите имя временную переменную.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Выражение</strong></p></td>
+<td><p><strong>Expression</strong></p></td>
 <td><p>Введите выражение, которое будет использоваться для задания значения для этой временной переменной. Перед выражением равенства (<strong>=</strong>) входа. Можно нажать кнопку <strong>построения</strong> <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> Чтобы использовать построитель выражений для задания аргумента.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 - Может быть длиной до 255 временные переменные, определенные за один раз. Если вы не удалите временную переменную, остается в памяти до закрытия базы данных. Рекомендуется удалить временные переменные после завершения их использования. Чтобы удалить одного временную переменную, используйте действие **[RemoveTempVar](removetempvar-macro-action.md)** и установите аргумента имя временную переменную, которую требуется удалить. Если у вас есть несколько временную переменную, требуется одновременное удаление используйте действие **RemoveAllTempVars** .
 
@@ -81,9 +82,9 @@ ms.locfileid: "25919446"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
-<th><p>Аргументы</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
+<th><p>Arguments</p></th>
 </tr>
 </thead>
 <tbody>

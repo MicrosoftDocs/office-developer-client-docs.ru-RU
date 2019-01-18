@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125509(v=office.15)
 ms:contentKeyID: 52073631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfbed291e7d05580a552cf628e43052aa14ebc4a
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 89118e95259c1dfce7621bec66fd5b06d077851c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937521"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704779"
 ---
 # <a name="field-methods-dao"></a>Методы FIELD (DAO)
 

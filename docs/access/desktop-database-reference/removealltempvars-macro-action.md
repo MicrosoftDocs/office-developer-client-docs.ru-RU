@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm117413
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c8ad54044bc457d5d513adb320c59b5a3d415215
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: eade809a6e3982dc0dc4cf94ae382af72e8f454e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927412"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705080"
 ---
 # <a name="removealltempvars-macro-action"></a>Макрокоманда RemoveAllTempVars
 
@@ -25,11 +26,11 @@ ms.locfileid: "25927412"
 
 Чтобы удалить все временные переменные, которые созданы с помощью действия **SetTempVar** можно использовать действие **RemoveAllTempVars** .
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **RemoveAllTempVars** не имеет каких-либо аргументов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
   - Может быть длиной до 255 временные переменные, определенные за один раз. Если вы не удалите временную переменную, остается в памяти до закрытия базы данных или проекта. Рекомендуется удалить временные переменные после завершения их использования.
 
@@ -51,9 +52,9 @@ ms.locfileid: "25927412"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
-<th><p>Аргументы</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
+<th><p>Arguments</p></th>
 </tr>
 </thead>
 <tbody>

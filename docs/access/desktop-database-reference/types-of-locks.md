@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249565(v=office.15)
 ms:contentKeyID: 48545978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a104b2ad452cdf8b0688dbc84ca09b90ed08c62
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 47b212be1922f783889f1e5be436a616909dc5c6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944916"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699536"
 ---
-# <a name="types-of-locks"></a>Типы блокировки
+# <a name="types-of-locks"></a>Типы блокировок
 
 
 **Применимо к**: Access 2013, Office 2013

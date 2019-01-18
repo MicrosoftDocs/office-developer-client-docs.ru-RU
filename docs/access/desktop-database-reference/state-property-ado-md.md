@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249249(v=office.15)
 ms:contentKeyID: 48544744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33933fb71ee3d7541640469eebc650c0f52a9784
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 051a9f0cc50ae3a60edb033f6807f72fc0688976
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922015"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702448"
 ---
 # <a name="state-property-ado-md"></a>Свойство State (ADO MD)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25922015"
 
 Возвращает **длинное** целое число, указывающее текущее состояние объекта [ячеек](cellset-object-ado-md.md) и доступен только для чтения. Допустимыми являются следующие значения: **adStateClosed** (0) и **adStateOpen** (1).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы использовать имена констант [ObjectStateEnum](objectstateenum.md) , необходимо иметь на библиотеку типов ADO ссылается проект. [С помощью ADO с ADO MD](using-ado-with-ado-md.md) более подробные сведения.
 

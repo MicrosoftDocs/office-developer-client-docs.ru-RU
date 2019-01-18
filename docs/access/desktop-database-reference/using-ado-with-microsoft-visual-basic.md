@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249338(v=office.15)
 ms:contentKeyID: 48545130
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a405189f3130a24c98112f0b0d9f31c7bfa4c217
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 26eaa93a1abbb3778a2735d50dd5022edb3023d9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997751"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705241"
 ---
 # <a name="using-ado-with-microsoft-visual-basic"></a>Использование ADO с Microsoft Visual Basic
 
@@ -81,7 +82,7 @@ Set conn = New ADODB.Connection
 >   
 > `Dim daoRS As DAO.Recordset`
 
-### <a name="createobject"></a>Функция CreateObject
+### <a name="createobject"></a>CreateObject
 
 С помощью **CreateObject** метод, объявления и создания экземпляра объекта должно быть два отдельных действий:
 

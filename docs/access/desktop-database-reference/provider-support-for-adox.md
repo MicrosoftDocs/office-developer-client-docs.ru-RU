@@ -1,19 +1,20 @@
 ---
-title: Поддержка ADOX
+title: Поддержка поставщиков для ADOX
 TOCTitle: Provider support for ADOX
 ms:assetid: 32ea3236-d69f-df94-1685-d8791aeb9e0f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249100(v=office.15)
 ms:contentKeyID: 48544091
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bdd9ca9a2274f03f1592f73c3da5a6837101fda2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a92ffe9b4b713518330d9dbfd9979d904a5abe8e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947828"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703512"
 ---
-# <a name="provider-support-for-adox"></a>Поддержка ADOX
+# <a name="provider-support-for-adox"></a>Поддержка поставщиков для ADOX
 
 
 **Применимо к**: Access 2013, Office 2013

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101185
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2e267e913ed89707ca79642b96dafa2cae85a574
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: ced8fc78729924ce271aa0fe38d77d287a131f13
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927536"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705941"
 ---
 # <a name="recordsetupdateoptions-property-dao"></a>Свойство Recordset.UpdateOptions (DAO)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25927536"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При выполнении пакетного режима **[обновления](recordset-update-method-dao.md)** DAO и текущей позиции пакета клиентской библиотеки создать ряд инструкций SQL UPDATE, внесите необходимые изменения. Для каждого обновления для изоляции записей, которые помечены как измененный свойством **[RecordStatus](recordset-recordstatus-property-dao.md)** создается инструкцию SQL. Так как некоторые удаленных серверов с помощью триггеров или другие способы целостность данных, он часто необходимо ограничить поля обновляется только теми, которые повлияет переход. 
 

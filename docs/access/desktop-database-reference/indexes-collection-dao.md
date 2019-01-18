@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a809afb8e38cf23faf43d5eb49c5edadaf70b2b1
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: f731862e12a75f91d07ea7d012cc33dad5be0b55
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025835"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701181"
 ---
 # <a name="indexes-collection-dao"></a>Коллекции индексов (DAO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "26025835"
 
 Коллекции **индексов** содержит все хранимые объекты **индекс** объекта **TableDef** (только для рабочих областей Microsoft Access).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При получении доступа к таблице тип объекта набора записей, используйте свойство **Index** объекта, чтобы указать порядок записей. Этому свойству присвоено значение **свойства Name существующего объекта **индексу** в коллекции **индексов** объекта **[TableDef](tabledef-object-dao.md)** базового объекта **[набора записей](recordset-object-dao.md)** ** .
 

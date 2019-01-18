@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231115
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d3f2a3cf85f51ac4a0d358fcc26e992d61fedca2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 037ae753f427c42f147972170dbb2e645b260623
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886027"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703204"
 ---
 # <a name="activeconnection-property-ado"></a>Свойство ActiveConnection (ADO)
 
@@ -31,7 +32,7 @@ ms.locfileid: "25886027"
 
 Свойство **ActiveConnection** позволяет определить объект **подключения** , по которому будет выполняться на указанный объект **команды** или указанного **набора записей** будет открыт.
 
-### <a name="command"></a>Команда
+### <a name="command"></a>Command
 
 Для объектов **команду** свойства **ActiveConnection** — чтение и запись.
 
@@ -43,7 +44,7 @@ ms.locfileid: "25886027"
 
 Закрытие объект **подключения** , с помощью которой объект **команды** — это связанные наборы свойств **ActiveConnection** значение *Nothing*. Назначить этому свойству значение закрытой объект **подключения** приводит к ошибке.
 
-### <a name="recordset"></a>Набор записей
+### <a name="recordset"></a>Recordset
 
 Открыть объекты **набора записей** или объектов **наборов записей** , для свойства [источника](source-property-ado-recordset.md) задано значение допустимого объекта **команды** **ActiveConnection** свойство только для чтения. В противном случае — чтение и запись.
 
@@ -55,7 +56,7 @@ ms.locfileid: "25886027"
 
 **Удаленное использование службы данных**: при использовании в объект набора записей со стороны клиента, это свойство могут устанавливаться только на строку подключения или (в Microsoft Visual Basic или Visual Basic Scripting Edition) значение *Nothing*.
 
-### <a name="record"></a>Запись
+### <a name="record"></a>Record
 
 Это свойство соответствует чтения и записи при закрытии объекта **записи** и может содержать строку подключения или ссылку на объект open **подключения** . Это свойство только для чтения при **записи** объекта open и содержит ссылку на объект open **подключения** .
 

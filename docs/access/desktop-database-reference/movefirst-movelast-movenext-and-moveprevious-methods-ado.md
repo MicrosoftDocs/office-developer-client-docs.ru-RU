@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250039(v=office.15)
 ms:contentKeyID: 48547836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bbc9998102356622b1a31a8411fd9e502436a8f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 2cb6ea7f82ac37460d7f2a4dd998ae7435c04230
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947071"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704127"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-ado"></a>Методы MoveFirst, MoveLast, MoveNext и MovePrevious (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25947071"
 
 *набор записей*. { MoveFirst | MoveLast | MoveNext | MovePrevious}
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **MoveFirst** для перемещения в настоящее время записи для первой записи в **набор записей**.
 

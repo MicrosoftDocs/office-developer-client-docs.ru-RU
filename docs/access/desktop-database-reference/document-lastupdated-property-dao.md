@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197661(v=office.15)
 ms:contentKeyID: 48546388
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 57fb558330c602206831c1c72f09a13094eba799
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: abb766f7a47cbacaededf65eb2b5e9145bf88c60
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927314"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698381"
 ---
 # <a name="documentlastupdated-property-dao"></a>Свойство Document.LastUpdated (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
-Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения **Variant**.
+Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения, **Variant**.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -26,7 +27,7 @@ ms.locfileid: "25927314"
 
 *выражение* Переменная, которая представляет собой объект- **документов** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **DateCreated** и **LastUpdated** возвращают дату и время создания или последнего обновления. В многопользовательской среде пользователи должны получить эти параметры непосредственно из файлового сервера, чтобы избежать несоответствия в DateCreated и параметры свойства LastUpdated.
 

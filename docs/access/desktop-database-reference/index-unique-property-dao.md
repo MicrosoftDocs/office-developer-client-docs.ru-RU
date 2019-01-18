@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dd3bd047afed2e547be0fb7b6999c16dd0b12cc1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 5c94200245b4736ad244cb37beec617a98d6c367
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996477"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704625"
 ---
 # <a name="indexunique-property-dao"></a>Свойство Index.Unique (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25996477"
 
 *выражение* Переменная, которая представляет объект **индекса** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение этого свойства — чтение и запись, пока объект добавляется к коллекции, после чего он доступен только для чтения.
 

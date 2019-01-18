@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835098(v=office.15)
 ms:contentKeyID: 48548053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ee64cbdea3a17f00939041f808ae6261d9810ae
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5ffe9c679da3f11666799caa070f51f384729cc1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919642"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703610"
 ---
 # <a name="recordset2bof-property-dao"></a>Свойство Recordset2.BOF (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25919642"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойства **BOF** и **EOF** можно использовать для определения того, содержит ли объект **набора записей** ли вы уменьшилось за пределы ограничения объекта **набора записей** , при перемещении по записям или записи.
 
@@ -124,14 +125,14 @@ MoveLast</p></th>
 <tr class="header">
 <th><p></p></th>
 <th><p>BOF</p></th>
-<th><p>ФУНКЦИЯ EOF</p></th>
+<th><p>EOF</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>MoveFirst</strong> <strong>MoveLast</strong></p></td>
-<td><p><strong>Значение true</strong></p></td>
-<td><p><strong>Значение true</strong></p></td>
+<td><p><strong>True</strong></p></td>
+<td><p><strong>True</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Перемещение</strong> 0</p></td>
@@ -140,13 +141,13 @@ MoveLast</p></th>
 </tr>
 <tr class="odd">
 <td><p><strong>MovePrevious</strong>, <strong>Переместите</strong> &lt; 0</p></td>
-<td><p><strong>Значение true</strong></p></td>
+<td><p><strong>True</strong></p></td>
 <td><p>Без изменений</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MoveNext</strong>, <strong>Переместите</strong> &gt; 0</p></td>
 <td><p>Без изменений</p></td>
-<td><p><strong>Значение true</strong></p></td>
+<td><p><strong>True</strong></p></td>
 </tr>
 </tbody>
 </table>

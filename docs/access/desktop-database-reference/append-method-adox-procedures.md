@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249783(v=office.15)
 ms:contentKeyID: 48546919
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65a8e0b805bf964ae60bd9de25fc45cf5b04482f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: a2de9dc7d8dccfc4107dbd802c4013ac794acf61
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949693"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704849"
 ---
 # <a name="append-method-adox-procedures"></a>Метод Append (коллекция Procedures в ADOX)
 
@@ -23,14 +24,14 @@ ms.locfileid: "25949693"
 
 *Процедуры*. Добавьте*имя*, *команда*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Name* |**Строковое** значение, задающее имя процедуры для создания и добавления.|
-|*Команда* |Объект ADO [команды](command-object-ado.md) , который представляет процедуры для создания и добавления.|
+|*Command* |Объект ADO [команды](command-object-ado.md) , который представляет процедуры для создания и добавления.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Создает новую процедуру в источник данных с именем и атрибуты, указанные в объекте **команды** .
 

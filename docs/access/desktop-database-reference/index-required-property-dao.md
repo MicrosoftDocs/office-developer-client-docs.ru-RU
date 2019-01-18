@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052963
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d5daadde111c18831108c1149170b71960d84b64
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a2660a4cb422d91cf46b98a8d3870d2ab2db73fc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996841"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703134"
 ---
 # <a name="indexrequired-property-dao"></a>Свойство Index.Required (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25996841"
 
 *выражение* Переменная, которая представляет объект **индекса** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 > [!NOTE]
 > При установке этого свойства для объекта **индекса** или объекта **поля** задайте его для объекта **поля** . Перед, объект **индекса** проверять правильность настройки свойства для объекта **поля** .

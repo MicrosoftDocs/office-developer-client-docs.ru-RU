@@ -12,12 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8481102d587480577c0ba73d2da46385359a92c6
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b8bd9abac3aee8be8fe52e555fcd5247e804f258
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937343"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701601"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Оператор ALTER TABLE (Microsoft Access SQL)
 
@@ -59,7 +60,7 @@ ALTER TABLE в *таблице* {ДОБАВЬТЕ {СТОЛБЦА *типа по
 <td><p>Тип данных <em>поля</em>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>size</em>.</p></td>
+<td><p><em>size</em></p></td>
 <td><p>Размер поля в знаках (только текст и двоичные поля).</p></td>
 </tr>
 <tr class="odd">
@@ -78,7 +79,7 @@ ALTER TABLE в *таблице* {ДОБАВЬТЕ {СТОЛБЦА *типа по
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 С помощью оператора изменения таблицы, можно изменить существующую таблицу несколькими способами. Вы можете выполнить указанные ниже действия.
 

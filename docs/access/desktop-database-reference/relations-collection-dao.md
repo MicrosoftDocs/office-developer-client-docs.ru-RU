@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
 ms:contentKeyID: 48546153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc8fa9bb24035e344ddb8e15179d4edd128abf7d
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: fc60e36abbb353a178864b488a738fcf3247e1a1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936849"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701545"
 ---
 # <a name="relations-collection-dao"></a>Коллекции отношений (DAO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25936849"
 
 Коллекция **отношения** содержит сохраненные объекты **отношений** объектов **базы данных** (базы данных ядра базы данных Microsoft Access только).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **связи** можно использовать для создания новых связей и проверить существующих связей между таблицами в базе данных. Чтобы добавить объект **отношения** в коллекции **отношений** , сначала создайте его с помощью метода **CreateRelation** и затем добавьте его в коллекцию **отношений** с помощью метода **Append** . Объект **отношения** сохраняется при закрытии объекта **базы данных** . Чтобы удалить объект **связи** из коллекции, используйте метод **Delete** .
 

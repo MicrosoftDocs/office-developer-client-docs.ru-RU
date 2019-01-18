@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7da3eb87e775a6b02694910cd017c9535fde1df7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 1c37e798e0624a5655b63a76332073e5b57c0823
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998282"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704142"
 ---
 # <a name="navigateto-macro-action"></a>Макрокоманда NavigateTo
 
@@ -23,7 +24,7 @@ ms.locfileid: "25998282"
 
 Действие **NavigateTo** можно использовать для управления отображением объектов базы данных в области навигации. Например можно изменить как классифицируются объекты базы данных и объекты можно отфильтровать так, чтобы отображались только некоторые из них.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **NavigateTo** состоит из следующих аргументов.
 
@@ -40,18 +41,18 @@ ms.locfileid: "25998282"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Категория</strong></p></td>
-<td><p>Обязательно указывать. Категория, по которому требуется области навигации для отображения объектов. Выберите <strong>Тип объекта</strong>, <strong>таблицы и представления</strong>, <strong>Дата изменения</strong>, <strong>Дата создания</strong>или <strong>Custom</strong> в поле <strong>категории</strong> .</p></td>
+<td><p><strong>Category</strong></p></td>
+<td><p>Обязательно. Категория, по которому требуется области навигации для отображения объектов. Выберите <strong>Тип объекта</strong>, <strong>таблицы и представления</strong>, <strong>Дата изменения</strong>, <strong>Дата создания</strong>или <strong>Custom</strong> в поле <strong>категории</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>group</strong></p></td>
-<td><p>Необязательно указывать. Ограничения аргумент для <strong>групп</strong> , которые объектов в категории, отображаются в области навигации. Если <strong>Группа</strong> аргумента оставлено пустым, области навигации отображает все объекты базы данных, упорядоченные по условиям, указанным в аргументе <strong>категории</strong> . В следующей таблице показаны примеры допустимых аргументов <strong>группы</strong> для различных <strong>категорий</strong> аргументов.</p></td>
+<td><p><strong>Group</strong></p></td>
+<td><p>Необязательно. Ограничения аргумент для <strong>групп</strong> , которые объектов в категории, отображаются в области навигации. Если <strong>Группа</strong> аргумента оставлено пустым, области навигации отображает все объекты базы данных, упорядоченные по условиям, указанным в аргументе <strong>категории</strong> . В следующей таблице показаны примеры допустимых аргументов <strong>группы</strong> для различных <strong>категорий</strong> аргументов.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 - Это действие аналогично Выбор категории и группы из строки заголовка в области переходов.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc8fe1fa2addab5338d7c330d90e8616f0af9b5c
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 7fb5302d1c2b8e4eebb6dbe1a5906459834b8e41
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025716"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704303"
 ---
 # <a name="address-book-data-binding-object"></a>Объект привязки к данным адресной книги
 
@@ -63,7 +64,7 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 <td><p>Уникальный, 128-бит номер, идентифицирующий тип внедренный объект в систему. Этот идентификатор сохраняется в локальном компьютере системного реестра. (Для класса идентификаторы <strong>RDS. DataControl</strong> , см <a href="datacontrol-object-rds.md">RDS. Объект DataControl</a>.)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>ИДЕНТИФИКАТОР</em></strong></p></td>
+<td><p><strong><em>ID</em></strong></p></td>
 <td><p>Определяет идентификатор уровня документов для внедренный объект, используемый для идентификации в коде.</p></td>
 </tr>
 </tbody>

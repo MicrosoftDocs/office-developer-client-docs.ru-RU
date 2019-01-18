@@ -12,12 +12,13 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb513c83e3956a37da019d762c5fd1e0c92da755
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926565"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703960"
 ---
 # <a name="before-change-macro-event"></a>Событие макроса Before Change
 
@@ -28,7 +29,7 @@ ms.locfileid: "25926565"
 > [!NOTE]
 > Событие **Change перед** доступна только в макросов данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Изменить с помощью события **До изменения** для выполнения действий, которые следует выполнить перед записью. **До изменения** обычно используется для выполнения проверки и повысить пользовательские сообщения об ошибках.
 
@@ -84,7 +85,7 @@ ms.locfileid: "25926565"
 <thead>
 <tr class="header">
 <th><p>Тип команды</p></th>
-<th><p>Команда</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>

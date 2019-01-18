@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm118713
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 26a0a9fe66fb726bb728872ee31771d12b262864
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923702"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702112"
 ---
 # <a name="searchforrecord-macro-action"></a>Макрокоманда SearchForRecord
 
@@ -24,7 +25,7 @@ ms.locfileid: "25923702"
 
 Можно использовать действие **ПоискЗаписи** поиск определенной записи в таблице, запрос, форму или отчет.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **ПоискЗаписи** имеет следующие аргументы.
 
@@ -49,7 +50,7 @@ ms.locfileid: "25923702"
 <td><p>Введите или выберите объект, содержащий записи для поиска. Раскрывающемся списке содержит все объекты базы данных, выбранного для аргумента <strong>Тип объекта</strong> типа.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Запись</strong></p></td>
+<td><p><strong>Record</strong></p></td>
 <td><p>Укажите начальную точку и направление поиска.</p>
 <div class="tableSection">
 <table>
@@ -65,19 +66,19 @@ ms.locfileid: "25923702"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Предыдущие</strong></p></td>
+<td><p><strong>Previous</strong></p></td>
 <td><p>Поиска в обратном направлении от текущей записи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Далее</strong></p></td>
+<td><p><strong>Next</strong></p></td>
 <td><p>Поиск вперед из текущей записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Первый</strong></p></td>
+<td><p><strong>First</strong></p></td>
 <td><p>Поиск вперед из первой записи. Это значение по умолчанию для этого аргумента.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Последний</strong></p></td>
+<td><p><strong>Last</strong></p></td>
 <td><p>Поиска в обратном направлении от последней записи.</p></td>
 </tr>
 </tbody>
@@ -96,7 +97,7 @@ ms.locfileid: "25923702"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 - В случаях, когда несколько записей совпадает критерии в аргументе **Условие** влияют следующие факторы найдено записей:
     
@@ -133,17 +134,17 @@ ms.locfileid: "25923702"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Действие</p></th>
-<th><p>Аргументы</p></th>
+<th><p>Action</p></th>
+<th><p>Arguments</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ОткрытьТаблицу</strong></p></td>
+<td><p><strong>OpenTable</strong></p></td>
 <td><p><strong>Имя таблицы</strong>: категории<strong>представление</strong>: <strong>Режим DatasheetData</strong>: <strong>Редактирование</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ПоискЗаписи</strong></p></td>
+<td><p><strong>SearchForRecord</strong></p></td>
 <td><p><strong>Тип объекта</strong>: <strong>Имя TableObject</strong>: категорий<strong>запись</strong>: <strong>Условие FirstWhere</strong>: описание = &quot;Напитки&quot;</p></td>
 </tr>
 </tbody>

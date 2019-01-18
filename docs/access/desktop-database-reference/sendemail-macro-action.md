@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196780(v=office.15)
 ms:contentKeyID: 48546046
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a5016500b62a465f21ecab93a6fb66c9e6d514e1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c0fa220b3088cde46b0e82631c06520afd839c64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998842"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701671"
 ---
 # <a name="sendemail-macro-action"></a>Макрокоманда SendEmail
 
@@ -22,7 +23,7 @@ ms.locfileid: "25998842"
 > [!NOTE]
 > Действие **sendemail действие** доступно только в макросов данных.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **sendemail действие** имеет следующие аргументы.
 
@@ -41,17 +42,17 @@ ms.locfileid: "25998842"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Задача</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Да</p></td>
 <td><p>Получатели сообщения, имена которых требуется включить в строке <strong>Кому</strong> в сообщении. Разделите имена получателей, которые задают этот аргумент (и аргументы <em>«копия»</em> и <em>«СК»</em> ) точкой с запятой (;).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>«Копия»</strong></p></td>
+<td><p><strong>Cc</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Получатели сообщения, имена которых следует разместить на «копия» (&quot;копии&quot;) в строке сообщения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Скрытой копии</strong></p></td>
+<td><p><strong>Bcc</strong></p></td>
 <td><p>Нет</p></td>
 <td><p>Получатели сообщения, имена которых требуется включить в скрытой копии (&quot;скрытой копии&quot;) в строке сообщения.</p></td>
 </tr>
@@ -69,7 +70,7 @@ ms.locfileid: "25998842"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Sendemail действие** действие доступно только в **[После удаления](after-delete-macro-event.md)**, **[После вставки](after-insert-macro-event.md)** и события макрос **[После обновления](after-update-macro-event.md)** .
 

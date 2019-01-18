@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6053792912d701fd844b44835721fc0497d23ee4
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: d5051a9842645ac8f93be26bf6309dd05da7ec24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910896"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704786"
 ---
 # <a name="adox-objects"></a>Объекты ADOX
 
@@ -38,15 +39,15 @@ ms.locfileid: "25910896"
 <td><p>Содержит коллекции, которые описывают каталога схемы из источника данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="column-object-adox.md">Столбец</a></p></td>
+<td><p><a href="column-object-adox.md">Column</a></p></td>
 <td><p>Представляет столбец из таблицы, индекса или ключа.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-object-adox.md">group</a></p></td>
+<td><p><a href="group-object-adox.md">Group</a></p></td>
 <td><p>Представляет учетную запись группы, имеющей разрешения на доступ в рамках защищенной базы данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-object-adox.md">Индекс</a></p></td>
+<td><p><a href="index-object-adox.md">Index</a></p></td>
 <td><p>Представляет индекс из таблицы базы данных.</p></td>
 </tr>
 <tr class="odd">
@@ -66,7 +67,7 @@ ms.locfileid: "25910896"
 <td><p>Представляет учетную запись пользователя, который имеет разрешения на доступ в рамках защищенной базы данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="view-object-adox.md">Просмотр</a></p></td>
+<td><p><a href="view-object-adox.md">View</a></p></td>
 <td><p>Представляет отфильтрованного набора записей или виртуальной таблицы.</p></td>
 </tr>
 </tbody>

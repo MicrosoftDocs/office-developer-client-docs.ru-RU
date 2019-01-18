@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 07031639b707fc24a3e5b057520c601c9472b01b
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 54ea659aa5392dd4404ffb591eba06f1f9c2910b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026318"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701902"
 ---
 # <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Поставщик услуг удаленного взаимодействия Microsoft OLE DB (поставщик служб ADO)
 
@@ -149,7 +150,7 @@ Debug.Print cn.Properties("Internet Timeout")
 cn.Properties("Internet Timeout") = 5000 
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 В ADO 2.0 поставщик OLE DB об удаленном взаимодействии может быть указан только с помощью параметра *ActiveConnection* метод **Open** объекта [набора записей](recordset-object-ado.md) . Начиная с ADO 2.1, поставщик может также быть указано в параметре *ConnectionString* объекта [подключения к](connection-object-ado.md) методу **Open** .
 

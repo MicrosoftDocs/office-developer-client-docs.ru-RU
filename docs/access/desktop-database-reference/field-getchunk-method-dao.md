@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f8d245223549d51c49e769eedd0b92bb335357cf
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: c7eabceb1f7c130e349428aeb6b2dc079fe4319d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996995"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703750"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Метод Field.GetChunk (DAO)
 
@@ -48,15 +49,15 @@ ms.locfileid: "25996995"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Смещение</em></p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Число байтов, пропустите перед начинается копирование.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Байт</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Число байтов, которые необходимо вернуть.</p></td>
 </tr>
 </tbody>
@@ -67,7 +68,7 @@ ms.locfileid: "25996995"
 
 Variant
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Байт, возвращаемых **GetChunk** назначаются переменной. Используйте **GetChunk** для возврата значения данных за раз. Метод **[AppendChunk](field-appendchunk-method-dao.md)** воссоздать компоненты.
 

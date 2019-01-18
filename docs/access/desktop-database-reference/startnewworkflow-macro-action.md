@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm198223
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ed3c508f4799b2ef1f9939de8ce212ab11833353
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 1e37d72754531fc4dd51427eefb355a057d08073
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925494"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698157"
 ---
 # <a name="startnewworkflow-macro-action"></a>Макрокоманда StartNewWorkflow
 
@@ -24,7 +25,7 @@ ms.locfileid: "25925494"
 
 Действие **StartNewWorkflow** можно использовать для запуска нового рабочего процесса для элемента в связанном списке Microsoft SharePoint Foundation.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **StartNewWorkflow** использует следующий аргумент.
 
@@ -48,7 +49,7 @@ ms.locfileid: "25925494"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
   - Действие **StartNewWorkflow** открывает диалоговое окно **Запуск нового рабочего процесса** . Это диалоговое окно отображает все рабочие процессы, доступные для заданного элемента. Необходимо определить рабочего процесса для списка в Windows SharePoint Services, перед тем как начать с помощью этого действия.
 

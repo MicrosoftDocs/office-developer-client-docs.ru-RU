@@ -1,19 +1,20 @@
 ---
-title: Раздел подключение файла настройки
+title: Раздел Connect в файле настройки
 TOCTitle: Customization File Connect section
 ms:assetid: 037abfb4-798d-4b09-6133-356969aee95c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248802(v=office.15)
 ms:contentKeyID: 48542985
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49e2d6cc8579f064df3e752268fce5b47c9b1ada
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 8652aa2c028350aab79cdf101cba189026b9a5ae
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944188"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702854"
 ---
-# <a name="customization-file-connect-section"></a>Раздел подключение файла настройки
+# <a name="customization-file-connect-section"></a>Раздел Connect в файле настройки
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -48,7 +49,7 @@ ms.locfileid: "25944188"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Подключение</strong></p></td>
+<td><p><strong>Connect</strong></p></td>
 <td><p>Строковый литерал, которое указывает, это является запись строки подключения.</p></td>
 </tr>
 <tr class="even">

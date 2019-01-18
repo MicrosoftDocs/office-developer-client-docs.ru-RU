@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
 ms:contentKeyID: 48543926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ab9723d3acc698aa36210e26e370c0edfa67728
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 98342d5456c545e6da8539c11f616c08fd52a932
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924235"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701281"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>Интерфейс ADORecordsetConstruction (ADO)
 
@@ -32,17 +33,17 @@ ms.locfileid: "25924235"
 <tbody>
 <tr class="odd">
 <td><p><a href="chapter-property-ado.md">Главы</a></p></td>
-<td><p>Чтение и запись.<br />
+<td><p>Для чтения и записи.<br />
 Получает или задает объект OLE DB <strong>главы</strong> из/на этот объект ADO <strong>Recordset</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
-<td><p>Чтение и запись.<br />
+<td><p>Для чтения и записи.<br />
 Получает или задает объект OLE DB <strong>RowPosition</strong> из/на этот объект ADO <strong>Recordset</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="rowset-property-ado.md">Набор строк</a></p></td>
-<td><p>Чтение и запись.<br />
+<td><p>Для чтения и записи.<br />
 Получает или задает объект OLE DB <strong>строк</strong> из/на этот объект ADO <strong>Recordset</strong> .</p></td>
 </tr>
 </tbody>
@@ -51,13 +52,13 @@ ms.locfileid: "25924235"
 
 ## <a name="methods"></a>Методы
 
-Отсутствуют.
+Нет.
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 Нет.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Получает объект OLE DB **строк** (pRowset), конструкции (объект ADO **набора записей** ), конструкции суммы (adoRs) объект ADO **набора записей** к три базовых операций:
 
@@ -86,7 +87,7 @@ ms.locfileid: "25924235"
 
 Также можно создать объект ADO **записей** из объекта OLE DB **главы** или **RowPosition** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 - **Версия:** ADO 2.0 и более поздних версий
 

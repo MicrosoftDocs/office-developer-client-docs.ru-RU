@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 19b7ddca0395869b5a1dba4182a123d33e54e66d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2bfe788923d623300edac28f0f27534b3ffd8b32
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947604"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703554"
 ---
 # <a name="ado-dynamic-property-index"></a>Индекс динамических свойств ADO
 
@@ -31,7 +32,7 @@ ms.locfileid: "25947604"
 
 - Свойства Поддерживаемые OLE DB поставщика удаленного доступа
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Обратите внимание на номера, используемые в cross-index.
 
@@ -168,7 +169,7 @@ ms.locfileid: "25947604"
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>Режим</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -224,7 +225,7 @@ ms.locfileid: "25947604"
 <td><p>DBPROP_BYREFACCESSORS</p></td>
 </tr>
 <tr class="even">
-<td><p>Пароль</p></td>
+<td><p>Password</p></td>
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="odd">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
 ms:contentKeyID: 48543114
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 16292522aae34aa660a258247eeca881199e3fc8
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d863f51e7836acdc577ecd720df77114ed66f067
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949525"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703519"
 ---
 # <a name="fetchprogress-event-ado"></a>Событие FetchProgress (ADO)
 
@@ -23,16 +24,16 @@ ms.locfileid: "25949525"
 
 FetchProgress*о ходе выполнения*, *MaxProgress* *adStatus*, *pRecordset*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Ход выполнения* |**Длинное** значение, указывающее количество записей, которые в настоящее время извлечения с операции выборки.|
+|*Progress* |**Длинное** значение, указывающее количество записей, которые в настоящее время извлечения с операции выборки.|
 |*MaxProgress* |Значение типа **Long** , указывающее максимальное число записей должен извлечь.|
 |*adStatus* |Значение состояния [EventStatusEnum](eventstatusenum.md) .|
 |*pRecordset* |Объект **набора записей** , — это объект, для которого извлекаются записи.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При использовании **FetchProgress** с дочерним **записей**, обратите внимание, что значение параметра *хода выполнения* и *MaxProgress* являются производными от в базовом наборе строк [Службы курсора](microsoft-cursor-service-for-ole-db-ado-service-component.md) . Возвращаемые значения представляют общее число записей в базовом наборе строк, не только число записей в текущем.
 

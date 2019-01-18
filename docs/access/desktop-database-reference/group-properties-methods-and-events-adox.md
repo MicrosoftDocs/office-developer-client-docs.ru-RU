@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249939(v=office.15)
 ms:contentKeyID: 48547526
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e045aac2bd017c535ae1deaeff378beb119952ab
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: a572a2aa5e866eebfbfea079ce462b02e2efa9cb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943656"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700495"
 ---
 # <a name="group-properties-methods-and-events-adox"></a>Группируйте свойства, методы и события (ADOX)
 
@@ -21,14 +22,14 @@ ms.locfileid: "25943656"
 
 - [Свойство Name](name-property-adox.md)
 - [Коллекция Properties](properties-collection-ado.md)
-- [Пользователи семейства сайтов](users-collection-adox.md)
+- [Коллекция Users](users-collection-adox.md)
 
 ## <a name="methods"></a>Методы
 
 - [Метод GetPermissions](getpermissions-method-adox.md)
 - [Метод SetPermissions](setpermissions-method-adox.md)
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 Нет.
 

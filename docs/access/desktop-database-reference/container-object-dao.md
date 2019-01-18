@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
 ms:contentKeyID: 48543720
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba9284e0d62c99ab9bcb631b29587e16a3d76bce
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c9ebbeae35387f4fd59c39d4c20df6033edb06b0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919516"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702126"
 ---
 # <a name="container-object-dao"></a>Объект-контейнер (DAO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25919516"
 
 Объект **контейнера** групп сходных типов объектов **документа** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Каждый объект **базы данных** имеет коллекцию **контейнеров** , состоящую из встроенных объектов **контейнера** . Приложения могут определять собственные типы документов и соответствующих контейнеров (Microsoft Access базами данных, ядро только); Тем не менее эти объекты может не всегда поддерживаться через DAO.
 
@@ -38,15 +39,15 @@ ms.locfileid: "25919516"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Базы данных</p></td>
+<td><p>Databases</p></td>
 <td><p>Сохраненные баз данных</p></td>
 </tr>
 <tr class="even">
-<td><p>Таблицы</p></td>
+<td><p>таблицы;</p></td>
 <td><p>Сохранить таблиц и запросов</p></td>
 </tr>
 <tr class="odd">
-<td><p>Отношения</p></td>
+<td><p>Relations</p></td>
 <td><p>Сохраненные связей</p></td>
 </tr>
 </tbody>

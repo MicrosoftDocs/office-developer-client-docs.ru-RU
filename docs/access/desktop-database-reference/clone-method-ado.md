@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c72902c4ed1d1d2657bfa6e2b4c5f84d76dfefa3
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 095191bbfe55f2c38529cb1c260979c48dd2d5f1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950260"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702966"
 ---
 # <a name="clone-method-ado"></a>Метод Clone (ADO)
 
@@ -27,15 +28,15 @@ ms.locfileid: "25950260"
 
 Возвращает ссылку на объект **набора записей** .
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*rstDuplicate* |Объектная переменная, которая определяет повторяющихся **записей** объект будет создан.|
 |*rstOriginal* |Объектная переменная, которая определяет объект **набора записей** дублирование.|
-|*LockType для* |Необязательно указывать. [LockTypeEnum](locktypeenum.md) значение, задающее тип блокировки исходного **набора записей**или только для чтения **набора записей**. Допустимые значения: **adLockUnspecified** или **adLockReadOnly**.|
+|*LockType для* |Необязательно. [LockTypeEnum](locktypeenum.md) значение, задающее тип блокировки исходного **набора записей**или только для чтения **набора записей**. Допустимые значения: **adLockUnspecified** или **adLockReadOnly**.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **клонированной** для создания нескольких дубликатов объектов **набора записей** , особенно в том случае, если вы хотите поддерживать более одного текущей записи в данного набора записей. С помощью метода **клонированной** эффективнее, чем создания и открытия нового объекта **набора записей** с тем же определением, что и исходный.
 

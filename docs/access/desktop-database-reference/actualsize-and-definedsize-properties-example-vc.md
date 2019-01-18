@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15)
 ms:contentKeyID: 48546328
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 795d07827be74a5eff335483550d22bf3e9bd899
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 06398c6f7dd534c459a26b0de31342f37f22f9ec
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870620"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699494"
 ---
 # <a name="actualsize-and-definedsize-properties-example-vc"></a>Пример использования свойств ActualSize и DefinedSize (VC++)
 

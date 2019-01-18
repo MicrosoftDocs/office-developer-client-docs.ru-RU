@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6255acb0d9b7678fd8a8105bb7d0dcbdbd453d39
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 1f6d7e8f64f6b14ea699006fc0461cdf0ded2a06
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025786"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704429"
 ---
 # <a name="stream-object-ado"></a>Объект Stream (ADO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "26025786"
 
 Представляет поток двоичных данных или текст.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 В структурированной дерева иерархии в файловой системе или системы электронной почты, [записи](record-object-ado.md) могут иметь по умолчанию двоичный поток битов, связанные с ним, содержащий содержимое файл или сообщение электронной почты. Объект **потока** можно использовать для управления полей или записей, содержащих эти потоки данных. Объект **потока** можно получить следующими способами:
 

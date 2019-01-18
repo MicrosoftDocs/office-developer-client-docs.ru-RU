@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053119
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 62c8681baebf0c1959fcb86df91d61387070adc8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 3264ea010db12f3fee6c16bd82fb19ed9bda1992
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923646"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705192"
 ---
 # <a name="indexdistinctcount-property-dao"></a>Свойство Index.DistinctCount (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25923646"
 
 *выражение* Переменная, которая представляет объект **индекса** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Проверьте свойства **число различных значений** , чтобы определить число уникальных значений или ключей в индекс. Любую клавишу учитывается только один раз, даже если возможно наличие нескольких экземпляров данного значения Если индекс допускает дублирующиеся значения. Эта информация полезна в приложениях, которые пытаются оптимизировать доступ к данным, оценка данные индекса. Количество уникальных значений также называется количеством объект **индекса** .
 
