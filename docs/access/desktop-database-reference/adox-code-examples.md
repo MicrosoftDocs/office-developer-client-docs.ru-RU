@@ -6,22 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249443(v=office.15)
 ms:contentKeyID: 48545557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1dfd3df1131971ff3283c35a357dc029de1276ef
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: c0ba9aa652856a773e0986f2093b77898f259ef2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910651"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705787"
 ---
-# <a name="adox-code-examples"></a><span data-ttu-id="be0c1-102">Примеры кода ADOX</span><span class="sxs-lookup"><span data-stu-id="be0c1-102">ADOX code examples</span></span>
+# <a name="adox-code-examples"></a><span data-ttu-id="8f19b-102">Примеры кода ADOX</span><span class="sxs-lookup"><span data-stu-id="8f19b-102">ADOX code examples</span></span>
 
-<span data-ttu-id="be0c1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be0c1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8f19b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8f19b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="be0c1-104">Используйте следующие примеры кода для сведения об использовании ADOX объекты, методы, свойства и события.</span><span class="sxs-lookup"><span data-stu-id="be0c1-104">Use the following code examples to learn how to use the ADOX objects, methods, properties, and events.</span></span>
+<span data-ttu-id="8f19b-104">Используйте следующие примеры кода для сведения об использовании ADOX объекты, методы, свойства и события.</span><span class="sxs-lookup"><span data-stu-id="8f19b-104">Use the following code examples to learn how to use the ADOX objects, methods, properties, and events.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="be0c1-105">Вставьте полный пример кода в редакторе кода.</span><span class="sxs-lookup"><span data-stu-id="be0c1-105">Paste the entire code example into your code editor.</span></span> <span data-ttu-id="be0c1-106">Пример может работать неправильно, если частичное примеры используются или абзаца форматирование теряется.</span><span class="sxs-lookup"><span data-stu-id="be0c1-106">The example may not run correctly if partial examples are used or if paragraph formatting is lost.</span></span>
+> <span data-ttu-id="8f19b-105">Вставьте полный пример кода в редакторе кода.</span><span class="sxs-lookup"><span data-stu-id="8f19b-105">Paste the entire code example into your code editor.</span></span> <span data-ttu-id="8f19b-106">Пример может работать неправильно, если частичное примеры используются или абзаца форматирование теряется.</span><span class="sxs-lookup"><span data-stu-id="8f19b-106">The example may not run correctly if partial examples are used or if paragraph formatting is lost.</span></span>
 
-- [<span data-ttu-id="be0c1-107">Примеры кода ADOX в Microsoft Visual Basic</span><span class="sxs-lookup"><span data-stu-id="be0c1-107">ADOX code examples in Microsoft Visual Basic</span></span>](adox-code-examples-in-microsoft-visual-basic.md)
-- [<span data-ttu-id="be0c1-108">ADOX примеры кода на языках Microsoft Visual C++</span><span class="sxs-lookup"><span data-stu-id="be0c1-108">ADOX code examples in Microsoft Visual C++</span></span>](adox-code-examples-in-microsoft-visual-c.md)
+- [<span data-ttu-id="8f19b-107">Примеры кода ADOX на Microsoft Visual Basic</span><span class="sxs-lookup"><span data-stu-id="8f19b-107">ADOX code examples in Microsoft Visual Basic</span></span>](adox-code-examples-in-microsoft-visual-basic.md)
+- [<span data-ttu-id="8f19b-108">Примеры кода ADOX на Microsoft Visual C++</span><span class="sxs-lookup"><span data-stu-id="8f19b-108">ADOX code examples in Microsoft Visual C++</span></span>](adox-code-examples-in-microsoft-visual-c.md)
 

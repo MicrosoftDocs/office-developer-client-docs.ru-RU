@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15)
 ms:contentKeyID: 48547461
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 672eb8582f5e412a026be68cd9c56ddd603d2ac0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 9a3aa155505e8d6376c0a741f932d59906083965
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889660"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720375"
 ---
-# <a name="item-property-example-vj"></a><span data-ttu-id="4b9e4-102">Пример использования свойства Item (VJ++)</span><span class="sxs-lookup"><span data-stu-id="4b9e4-102">Item property example (VJ++)</span></span>
+# <a name="item-property-example-vj"></a><span data-ttu-id="60635-102">Пример использования свойства Item (VJ++)</span><span class="sxs-lookup"><span data-stu-id="60635-102">Item property example (VJ++)</span></span>
 
 
-<span data-ttu-id="4b9e4-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4b9e4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="60635-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60635-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4b9e4-104">В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции.</span><span class="sxs-lookup"><span data-stu-id="4b9e4-104">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection.</span></span> <span data-ttu-id="4b9e4-105">В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.</span><span class="sxs-lookup"><span data-stu-id="4b9e4-105">The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="60635-104">В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции.</span><span class="sxs-lookup"><span data-stu-id="60635-104">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection.</span></span> <span data-ttu-id="60635-105">В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.</span><span class="sxs-lookup"><span data-stu-id="60635-105">The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="4b9e4-106">Параметр в команды в базе данных осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [команды](command-object-ado.md) индекс и название.</span><span class="sxs-lookup"><span data-stu-id="4b9e4-106">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name.</span></span> <span data-ttu-id="4b9e4-107">Затем полям возвращаемых [записей](recordset-object-ado.md) осуществляется из коллекции [полей](fields-collection-ado.md) этого объекта индекс и название.</span><span class="sxs-lookup"><span data-stu-id="4b9e4-107">Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="60635-106">Параметр в команды в базе данных осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [команды](command-object-ado.md) индекс и название.</span><span class="sxs-lookup"><span data-stu-id="60635-106">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name.</span></span> <span data-ttu-id="60635-107">Затем полям возвращаемых [записей](recordset-object-ado.md) осуществляется из коллекции [полей](fields-collection-ado.md) этого объекта индекс и название.</span><span class="sxs-lookup"><span data-stu-id="60635-107">Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```java 
  

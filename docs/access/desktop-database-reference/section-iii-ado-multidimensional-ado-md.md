@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248919(v=office.15)
 ms:contentKeyID: 48543411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce1c5b3883babacbcf9f677ffcc1a63943085a48
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 9f12838db2323aa9bd4dbfbc018d1614016a10cc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936345"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722132"
 ---
-# <a name="section-iii-ado-multidimensional-ado-md"></a><span data-ttu-id="27936-102">Раздел III. ADO (многомерный) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="27936-102">Section III: ADO (multidimensional) (ADO MD)</span></span>
+# <a name="section-iii-ado-multidimensional-ado-md"></a><span data-ttu-id="af23f-102">Раздел III. ADO (многомерный) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="af23f-102">Section III: ADO (multidimensional) (ADO MD)</span></span>
 
-<span data-ttu-id="27936-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27936-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="af23f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="af23f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="27936-104">В этом разделе содержатся следующие главы:</span><span class="sxs-lookup"><span data-stu-id="27936-104">This section contains the following chapter:</span></span>
+<span data-ttu-id="af23f-104">В этом разделе содержатся следующие главы:</span><span class="sxs-lookup"><span data-stu-id="af23f-104">This section contains the following chapter:</span></span>
 
-- [<span data-ttu-id="27936-105">14 главы: Базовые концепции ADO MD</span><span class="sxs-lookup"><span data-stu-id="27936-105">Chapter 14: ADO MD fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
+- [<span data-ttu-id="af23f-105">Глава 14. Основы ADO MD</span><span class="sxs-lookup"><span data-stu-id="af23f-105">Chapter 14: ADO MD fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
 

@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250290(v=office.15)
 ms:contentKeyID: 48548878
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d07c95cf512e966598aaa058daf8c243f7828292
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 4e0fc5caea6b7535a16da88b8b348f5c2dee2c18
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919978"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717869"
 ---
-# <a name="position-object-ado-md-reference"></a><span data-ttu-id="b3512-102">Положение объекта (Справочник по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3512-102">Position object (ADO MD reference)</span></span>
+# <a name="position-object-ado-md-reference"></a><span data-ttu-id="4a674-102">Положение объекта (Справочник по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4a674-102">Position object (ADO MD reference)</span></span>
 
-<span data-ttu-id="b3512-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3512-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4a674-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a674-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b3512-104">Объект Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3512-104">Position object (ADO MD)</span></span>](position-object-ado-md.md)
-- [<span data-ttu-id="b3512-105">Положение свойства, методы и события (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3512-105">Position properties, methods, and events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="4a674-104">Объект Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4a674-104">Position object (ADO MD)</span></span>](position-object-ado-md.md)
+- [<span data-ttu-id="4a674-105">Положение свойства, методы и события (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4a674-105">Position properties, methods, and events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
 

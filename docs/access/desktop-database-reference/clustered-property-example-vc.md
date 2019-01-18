@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
 ms:contentKeyID: 48546761
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f7a57ee235f2bcf91c75abb99fa044d7e21a6c4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 0970fbb60d7e4c87685441ea893a44cf7ecb9cde
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874484"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717820"
 ---
-# <a name="clustered-property-example-vc"></a><span data-ttu-id="3e2f7-102">Пример использования свойства Clustered (VC++)</span><span class="sxs-lookup"><span data-stu-id="3e2f7-102">Clustered property example (VC++)</span></span>
+# <a name="clustered-property-example-vc"></a><span data-ttu-id="6268e-102">Пример использования свойства Clustered (VC++)</span><span class="sxs-lookup"><span data-stu-id="6268e-102">Clustered property example (VC++)</span></span>
 
 
-<span data-ttu-id="3e2f7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3e2f7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6268e-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6268e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3e2f7-104">В этом примере демонстрируется свойство [Clustered](clustered-property-adox.md) [индекса](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="3e2f7-104">This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="3e2f7-105">Обратите внимание, что баз данных Microsoft Jet не поддерживают кластеризованных индексов, поэтому этот пример возвращает **значение False** для свойства **Clustered** всех индексов в базе *данных "Борей"* .</span><span class="sxs-lookup"><span data-stu-id="3e2f7-105">Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.</span></span>
+<span data-ttu-id="6268e-104">В этом примере демонстрируется свойство [Clustered](clustered-property-adox.md) [индекса](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="6268e-104">This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="6268e-105">Обратите внимание, что баз данных Microsoft Jet не поддерживают кластеризованных индексов, поэтому этот пример возвращает **значение False** для свойства **Clustered** всех индексов в базе *данных "Борей"* .</span><span class="sxs-lookup"><span data-stu-id="6268e-105">Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.</span></span>
 
 ```cpp 
  

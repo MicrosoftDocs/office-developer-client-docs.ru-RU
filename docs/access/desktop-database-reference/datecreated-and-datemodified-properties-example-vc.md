@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248962(v=office.15)
 ms:contentKeyID: 48543573
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 100062ceb7aab0b3d5b74ee3ac1b13cf725c09bc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c74b90ad45055689c7235e4062b83d71919c02a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870179"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699172"
 ---
-# <a name="datecreated-and-datemodified-properties-example-vc"></a><span data-ttu-id="75a6b-102">Пример использования свойств DateCreated и DateModified (VC++)</span><span class="sxs-lookup"><span data-stu-id="75a6b-102">DateCreated and DateModified properties example (VC++)</span></span>
+# <a name="datecreated-and-datemodified-properties-example-vc"></a><span data-ttu-id="d622a-102">Пример использования свойств DateCreated и DateModified (VC++)</span><span class="sxs-lookup"><span data-stu-id="d622a-102">DateCreated and DateModified properties example (VC++)</span></span>
 
 
-<span data-ttu-id="75a6b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="75a6b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d622a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d622a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="75a6b-104">В этом примере демонстрируется свойства [DateCreated](datecreated-property-adox.md) и [DateModified](datemodified-property-adox.md) путем добавления нового [столбца](column-object-adox.md) к существующей [таблице](table-object-adox.md) и путем создания новой **таблицы**.</span><span class="sxs-lookup"><span data-stu-id="75a6b-104">This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**.</span></span> <span data-ttu-id="75a6b-105">Процедура DateOutput является обязательным для выполнения этого примера.</span><span class="sxs-lookup"><span data-stu-id="75a6b-105">The DateOutput procedure is required for this example to run.</span></span>
+<span data-ttu-id="d622a-104">В этом примере демонстрируется свойства [DateCreated](datecreated-property-adox.md) и [DateModified](datemodified-property-adox.md) путем добавления нового [столбца](column-object-adox.md) к существующей [таблице](table-object-adox.md) и путем создания новой **таблицы**.</span><span class="sxs-lookup"><span data-stu-id="d622a-104">This example demonstrates the [DateCreated](datecreated-property-adox.md) and [DateModified](datemodified-property-adox.md) properties by adding a new [Column](column-object-adox.md) to an existing [Table](table-object-adox.md) and by creating a new **Table**.</span></span> <span data-ttu-id="d622a-105">Процедура DateOutput является обязательным для выполнения этого примера.</span><span class="sxs-lookup"><span data-stu-id="d622a-105">The DateOutput procedure is required for this example to run.</span></span>
 
 ```cpp 
  

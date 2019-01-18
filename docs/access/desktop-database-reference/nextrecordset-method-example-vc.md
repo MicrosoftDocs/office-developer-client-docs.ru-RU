@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250143(v=office.15)
 ms:contentKeyID: 48548252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 63cd81b6df6da840e4c1ee3ad40a7a2d9c3f398a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: fb51b22dd07c40c55a3e773cc186b14e527bd98c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878201"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701174"
 ---
-# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="abee1-102">Пример использования метода NextRecordset (VC++)</span><span class="sxs-lookup"><span data-stu-id="abee1-102">NextRecordset method example (VC++)</span></span>
+# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="a4eb8-102">Пример использования метода NextRecordset (VC++)</span><span class="sxs-lookup"><span data-stu-id="a4eb8-102">NextRecordset method example (VC++)</span></span>
 
 
-<span data-ttu-id="abee1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="abee1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a4eb8-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4eb8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="abee1-104">В этом примере используется метод [NextRecordset](nextrecordset-method-ado.md) для просмотра данных в записей, оператор составные команда включает в себя три отдельных инструкции **SELECT** .</span><span class="sxs-lookup"><span data-stu-id="abee1-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="a4eb8-104">В этом примере используется метод [NextRecordset](nextrecordset-method-ado.md) для просмотра данных в записей, оператор составные команда включает в себя три отдельных инструкции **SELECT** .</span><span class="sxs-lookup"><span data-stu-id="a4eb8-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```cpp 
  

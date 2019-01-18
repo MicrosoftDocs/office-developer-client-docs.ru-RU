@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249214(v=office.15)
 ms:contentKeyID: 48544556
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 728a83868fdb684d181a444933e74afe3d501b58
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: c759faf8702f9ddba3b35610aee9fab66ffaf4a5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923044"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706214"
 ---
-# <a name="stream-object-ado-reference"></a><span data-ttu-id="01373-102">Ссылка на объект (ADO) потока</span><span class="sxs-lookup"><span data-stu-id="01373-102">Stream object (ADO) reference</span></span>
+# <a name="stream-object-ado-reference"></a><span data-ttu-id="f3341-102">Ссылка на объект (ADO) потока</span><span class="sxs-lookup"><span data-stu-id="f3341-102">Stream object (ADO) reference</span></span>
 
-<span data-ttu-id="01373-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="01373-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f3341-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3341-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="01373-104">Объект Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="01373-104">Stream object (ADO)</span></span>](stream-object-ado.md)
-- [<span data-ttu-id="01373-105">Поток свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="01373-105">Stream properties, methods, and events (ADO)</span></span>](stream-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="f3341-104">Объект Stream (ADO)</span><span class="sxs-lookup"><span data-stu-id="f3341-104">Stream object (ADO)</span></span>](stream-object-ado.md)
+- [<span data-ttu-id="f3341-105">Поток свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="f3341-105">Stream properties, methods, and events (ADO)</span></span>](stream-properties-methods-and-events-ado.md)
 

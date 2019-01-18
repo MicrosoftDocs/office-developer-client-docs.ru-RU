@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250161(v=office.15)
 ms:contentKeyID: 48548328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d890b02c75b25b69874690b057c976a3fceb2a7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 418aaf15c38fba753709d03681246341c78102bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879937"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706228"
 ---
-# <a name="move-method-example-vb"></a><span data-ttu-id="04615-102">Пример использования метода Move (VB)</span><span class="sxs-lookup"><span data-stu-id="04615-102">Move method example (VB)</span></span>
+# <a name="move-method-example-vb"></a><span data-ttu-id="4eaff-102">Пример использования метода Move (VB)</span><span class="sxs-lookup"><span data-stu-id="4eaff-102">Move method example (VB)</span></span>
 
 
-<span data-ttu-id="04615-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="04615-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4eaff-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4eaff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="04615-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="04615-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="4eaff-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="4eaff-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```vb 
  

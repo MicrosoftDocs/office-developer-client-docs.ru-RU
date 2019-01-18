@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15)
 ms:contentKeyID: 48546525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d329fb08604f0b3f9cf9336108696778ff26df0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 302c3fcfe5e42018e5d2eb5509f32de77e900c57
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879251"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720788"
 ---
-# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="94745-102">Пример использования свойств Command и CommandText (VC++)</span><span class="sxs-lookup"><span data-stu-id="94745-102">Command and CommandText properties example (VC++)</span></span>
+# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="44570-102">Пример использования свойств Command и CommandText (VC++)</span><span class="sxs-lookup"><span data-stu-id="44570-102">Command and CommandText properties example (VC++)</span></span>
 
 
-<span data-ttu-id="94745-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94745-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="44570-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="44570-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="94745-104">Следующий код демонстрирует использование свойства [команда](command-property-adox.md) обновление текста процедуры.</span><span class="sxs-lookup"><span data-stu-id="94745-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
+<span data-ttu-id="44570-104">Следующий код демонстрирует использование свойства [команда](command-property-adox.md) обновление текста процедуры.</span><span class="sxs-lookup"><span data-stu-id="44570-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
 
 ```cpp 
  

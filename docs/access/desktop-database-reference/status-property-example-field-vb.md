@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15)
 ms:contentKeyID: 48543601
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 680df8832bea713155435b6a315a008dae7e3309
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 68583b1ee211802a3cade63e85f0f62bbf3cb686
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873476"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720970"
 ---
-# <a name="status-property-example-field-vb"></a><span data-ttu-id="1f1c5-102">Пример использования свойства Status (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="1f1c5-102">Status property example (Field) (VB)</span></span>
+# <a name="status-property-example-field-vb"></a><span data-ttu-id="9667e-102">Пример использования свойства Status (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="9667e-102">Status property example (Field) (VB)</span></span>
 
 
-<span data-ttu-id="1f1c5-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f1c5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9667e-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9667e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1f1c5-104">В следующем примере открывается документ из папки чтения и записи, с использованием [Поставщика средств публикации в Интернете](microsoft-ole-db-provider-for-internet-publishing.md).</span><span class="sxs-lookup"><span data-stu-id="1f1c5-104">The following example opens a document from a read/write folder using the [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md).</span></span> <span data-ttu-id="1f1c5-105">Свойство [Status](status-property-ado-field.md) объекта [поля](field-object-ado.md) [записей](record-object-ado.md) сначала иметь значение **adFieldPendingInsert**, а затем следует обновить до **adFieldOk**.</span><span class="sxs-lookup"><span data-stu-id="1f1c5-105">The [Status](status-property-ado-field.md) property of a [Field](field-object-ado.md) object of the [Record](record-object-ado.md) will first be set to **adFieldPendingInsert**, then be updated to **adFieldOk**.</span></span>
+<span data-ttu-id="9667e-104">В следующем примере открывается документ из папки чтения и записи, с использованием [Поставщика средств публикации в Интернете](microsoft-ole-db-provider-for-internet-publishing.md).</span><span class="sxs-lookup"><span data-stu-id="9667e-104">The following example opens a document from a read/write folder using the [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md).</span></span> <span data-ttu-id="9667e-105">Свойство [Status](status-property-ado-field.md) объекта [поля](field-object-ado.md) [записей](record-object-ado.md) сначала иметь значение **adFieldPendingInsert**, а затем следует обновить до **adFieldOk**.</span><span class="sxs-lookup"><span data-stu-id="9667e-105">The [Status](status-property-ado-field.md) property of a [Field](field-object-ado.md) object of the [Record](record-object-ado.md) will first be set to **adFieldPendingInsert**, then be updated to **adFieldOk**.</span></span>
 
 ```vb
     'BeginStatusFieldVB
@@ -77,7 +78,7 @@ ms.locfileid: "25873476"
 
 <br/>
 
-<span data-ttu-id="1f1c5-106">В следующем примере удаляется **поле** из **записи** из документа.</span><span class="sxs-lookup"><span data-stu-id="1f1c5-106">The following example deletes a known **Field** from a **Record** opened from a document.</span></span> <span data-ttu-id="1f1c5-107">Свойство **Status** будет сначала задать значение **adFieldOK**, а затем **adFieldPendingUnknown**.</span><span class="sxs-lookup"><span data-stu-id="1f1c5-107">The **Status** property will first be set to **adFieldOK**, then **adFieldPendingUnknown**.</span></span>
+<span data-ttu-id="9667e-106">В следующем примере удаляется **поле** из **записи** из документа.</span><span class="sxs-lookup"><span data-stu-id="9667e-106">The following example deletes a known **Field** from a **Record** opened from a document.</span></span> <span data-ttu-id="9667e-107">Свойство **Status** будет сначала задать значение **adFieldOK**, а затем **adFieldPendingUnknown**.</span><span class="sxs-lookup"><span data-stu-id="9667e-107">The **Status** property will first be set to **adFieldOK**, then **adFieldPendingUnknown**.</span></span>
 
 ```vb
     'BeginStatusField2VB
@@ -131,7 +132,7 @@ ms.locfileid: "25873476"
 
 <br/>
 
-<span data-ttu-id="1f1c5-108">Следующий код удаляет **поля** из **записи** , открывается документ только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1f1c5-108">The following code deletes a **Field** from a **Record** opened on a read-only document.</span></span> <span data-ttu-id="1f1c5-109">**Состояние** будет иметь значение **adFieldPendingDelete**.</span><span class="sxs-lookup"><span data-stu-id="1f1c5-109">**Status** will be set to **adFieldPendingDelete**.</span></span> <span data-ttu-id="1f1c5-110">В [обновления](update-method-ado.md)удаления завершится с ошибкой и **состояние** будет **adFieldPendingDelete** , а также **adFieldPermissionDenied**.</span><span class="sxs-lookup"><span data-stu-id="1f1c5-110">At [Update](update-method-ado.md), the delete will fail and **Status** will be **adFieldPendingDelete** plus **adFieldPermissionDenied**.</span></span> <span data-ttu-id="1f1c5-111">[CancelUpdate](cancelupdate-method-ado.md) очищает отложенные параметр **состояния** .</span><span class="sxs-lookup"><span data-stu-id="1f1c5-111">[CancelUpdate](cancelupdate-method-ado.md) clears the pending **Status** setting.</span></span>
+<span data-ttu-id="9667e-108">Следующий код удаляет **поля** из **записи** , открывается документ только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9667e-108">The following code deletes a **Field** from a **Record** opened on a read-only document.</span></span> <span data-ttu-id="9667e-109">**Состояние** будет иметь значение **adFieldPendingDelete**.</span><span class="sxs-lookup"><span data-stu-id="9667e-109">**Status** will be set to **adFieldPendingDelete**.</span></span> <span data-ttu-id="9667e-110">В [обновления](update-method-ado.md)удаления завершится с ошибкой и **состояние** будет **adFieldPendingDelete** , а также **adFieldPermissionDenied**.</span><span class="sxs-lookup"><span data-stu-id="9667e-110">At [Update](update-method-ado.md), the delete will fail and **Status** will be **adFieldPendingDelete** plus **adFieldPermissionDenied**.</span></span> <span data-ttu-id="9667e-111">[CancelUpdate](cancelupdate-method-ado.md) очищает отложенные параметр **состояния** .</span><span class="sxs-lookup"><span data-stu-id="9667e-111">[CancelUpdate](cancelupdate-method-ado.md) clears the pending **Status** setting.</span></span>
 
 ```vb
     Sub Main()

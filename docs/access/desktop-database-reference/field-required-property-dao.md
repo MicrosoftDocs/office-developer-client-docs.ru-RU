@@ -6,31 +6,32 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
 ms:contentKeyID: 48543999
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6fbf95e02c9945558d70fff35f12a73ce0dee45e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 52900d4a60002695866b9960fb6b80cefeb2b2ea
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937318"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721684"
 ---
-# <a name="fieldrequired-property-dao"></a><span data-ttu-id="32ca3-102">Свойство Field.Required (DAO)</span><span class="sxs-lookup"><span data-stu-id="32ca3-102">Field.Required property (DAO)</span></span>
+# <a name="fieldrequired-property-dao"></a><span data-ttu-id="06f96-102">Свойство Field.Required (DAO)</span><span class="sxs-lookup"><span data-stu-id="06f96-102">Field.Required property (DAO)</span></span>
 
 
-<span data-ttu-id="32ca3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="32ca3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="06f96-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="06f96-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="32ca3-104">Задает или возвращает значение, которое указывает, требуется ли объект **[поля](field-object-dao.md)** ненулевое значение.</span><span class="sxs-lookup"><span data-stu-id="32ca3-104">Sets or returns a value that indicates whether a **[Field](field-object-dao.md)** object requires a non-Null value.</span></span>
+<span data-ttu-id="06f96-104">Задает или возвращает значение, которое указывает, требуется ли объект **[поля](field-object-dao.md)** ненулевое значение.</span><span class="sxs-lookup"><span data-stu-id="06f96-104">Sets or returns a value that indicates whether a **[Field](field-object-dao.md)** object requires a non-Null value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="32ca3-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="32ca3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="06f96-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="06f96-105">Syntax</span></span>
 
-<span data-ttu-id="32ca3-106">*выражение* . Обязательно</span><span class="sxs-lookup"><span data-stu-id="32ca3-106">*expression* .Required</span></span>
+<span data-ttu-id="06f96-106">*выражение* . Обязательно</span><span class="sxs-lookup"><span data-stu-id="06f96-106">*expression* .Required</span></span>
 
-<span data-ttu-id="32ca3-107">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="32ca3-107">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="06f96-107">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="06f96-107">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="32ca3-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="32ca3-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="06f96-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="06f96-108">Remarks</span></span>
 
-<span data-ttu-id="32ca3-109">Для **поля** еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="32ca3-109">For a **Field** not yet appended to the **Fields** collection, this property is read/write.</span></span>
+<span data-ttu-id="06f96-109">Для **поля** еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="06f96-109">For a **Field** not yet appended to the **Fields** collection, this property is read/write.</span></span>
 
-<span data-ttu-id="32ca3-110">Доступность свойства **необходимые** зависит от объекта, который содержит коллекцию [полей](fields-collection-dao.md) , как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="32ca3-110">The availability of the **Required** property depends on the object that contains the [Fields](fields-collection-dao.md) collection, as shown in the following table.</span></span>
+<span data-ttu-id="06f96-110">Доступность свойства **необходимые** зависит от объекта, который содержит коллекцию [полей](fields-collection-dao.md) , как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="06f96-110">The availability of the **Required** property depends on the object that contains the [Fields](fields-collection-dao.md) collection, as shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -39,46 +40,46 @@ ms.locfileid: "25937318"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="32ca3-111">Если принадлежит коллекции полей</span><span class="sxs-lookup"><span data-stu-id="32ca3-111">If the Fields collection belongs to a</span></span></p></th>
-<th><p><span data-ttu-id="32ca3-112">Затем необходимо — это</span><span class="sxs-lookup"><span data-stu-id="32ca3-112">Then Required is</span></span></p></th>
+<th><p><span data-ttu-id="06f96-111">Если принадлежит коллекции полей</span><span class="sxs-lookup"><span data-stu-id="06f96-111">If the Fields collection belongs to a</span></span></p></th>
+<th><p><span data-ttu-id="06f96-112">Затем необходимо — это</span><span class="sxs-lookup"><span data-stu-id="06f96-112">Then Required is</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32ca3-113">Объект <strong>индекса</strong></span><span class="sxs-lookup"><span data-stu-id="32ca3-113"><strong>Index</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="32ca3-114">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="32ca3-114">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="06f96-113">Объект <strong>индекса</strong></span><span class="sxs-lookup"><span data-stu-id="06f96-113"><strong>Index</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="06f96-114">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="06f96-114">Not supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32ca3-115">Объект <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="32ca3-115"><strong>QueryDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="32ca3-116">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="32ca3-116">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="06f96-115">Объект <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="06f96-115"><strong>QueryDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="06f96-116">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="06f96-116">Read-only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32ca3-117">Объект <strong>набора записей</strong></span><span class="sxs-lookup"><span data-stu-id="32ca3-117"><strong>Recordset</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="32ca3-118">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="32ca3-118">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="06f96-117">Объект <strong>набора записей</strong></span><span class="sxs-lookup"><span data-stu-id="06f96-117"><strong>Recordset</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="06f96-118">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="06f96-118">Read-only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32ca3-119"><strong>Отношения</strong> объектов</span><span class="sxs-lookup"><span data-stu-id="32ca3-119"><strong>Relation</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="32ca3-120">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="32ca3-120">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="06f96-119"><strong>Отношения</strong> объектов</span><span class="sxs-lookup"><span data-stu-id="06f96-119"><strong>Relation</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="06f96-120">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="06f96-120">Not supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32ca3-121">Объект <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="32ca3-121"><strong>TableDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="32ca3-122">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="32ca3-122">Read/write</span></span></p></td>
+<td><p><span data-ttu-id="06f96-121">Объект <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="06f96-121"><strong>TableDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="06f96-122">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="06f96-122">Read/write</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="32ca3-123">Свойства **необходимые** вместе со свойством **[пустые строки](field-allowzerolength-property-dao.md)**, **[Проверка набора](field-validateonset-property-dao.md)** или **[значение](field-validationrule-property-dao.md)** можно использовать для определения действительности значение свойства **[значение](field-value-property-dao.md)** для этого объекта **поля** .</span><span class="sxs-lookup"><span data-stu-id="32ca3-123">You can use the **Required** property along with the **[AllowZeroLength](field-allowzerolength-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)**, or **[ValidationRule](field-validationrule-property-dao.md)** property to determine the validity of the **[Value](field-value-property-dao.md)** property setting for that **Field** object.</span></span> <span data-ttu-id="32ca3-124">Если **требуется** свойство имеет значение **False**, поле может содержать значения **null** , а также значения, которые соответствуют условиям, указанным в параметрах свойство **пустые строки** и **значение** .</span><span class="sxs-lookup"><span data-stu-id="32ca3-124">If the **Required** property is set to **False**, the field can contain **null** values as well as values that meet the conditions specified by the **AllowZeroLength** and **ValidationRule** property settings.</span></span>
+<span data-ttu-id="06f96-123">Свойства **необходимые** вместе со свойством **[пустые строки](field-allowzerolength-property-dao.md)**, **[Проверка набора](field-validateonset-property-dao.md)** или **[значение](field-validationrule-property-dao.md)** можно использовать для определения действительности значение свойства **[значение](field-value-property-dao.md)** для этого объекта **поля** .</span><span class="sxs-lookup"><span data-stu-id="06f96-123">You can use the **Required** property along with the **[AllowZeroLength](field-allowzerolength-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)**, or **[ValidationRule](field-validationrule-property-dao.md)** property to determine the validity of the **[Value](field-value-property-dao.md)** property setting for that **Field** object.</span></span> <span data-ttu-id="06f96-124">Если **требуется** свойство имеет значение **False**, поле может содержать значения **null** , а также значения, которые соответствуют условиям, указанным в параметрах свойство **пустые строки** и **значение** .</span><span class="sxs-lookup"><span data-stu-id="06f96-124">If the **Required** property is set to **False**, the field can contain **null** values as well as values that meet the conditions specified by the **AllowZeroLength** and **ValidationRule** property settings.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="32ca3-125">При установке этого свойства для объекта **индекса** или объекта **поля** задайте его для объекта **поля** .</span><span class="sxs-lookup"><span data-stu-id="32ca3-125">When you can set this property for either an **Index** object or a **Field** object, set it for the **Field** object.</span></span> <span data-ttu-id="32ca3-126">Перед, объект **индекса** проверять правильность настройки свойства для объекта **поля** .</span><span class="sxs-lookup"><span data-stu-id="32ca3-126">The validity of the property setting for a **Field** object is checked before that of an **Index** object.</span></span>
+> <span data-ttu-id="06f96-125">При установке этого свойства для объекта **индекса** или объекта **поля** задайте его для объекта **поля** .</span><span class="sxs-lookup"><span data-stu-id="06f96-125">When you can set this property for either an **Index** object or a **Field** object, set it for the **Field** object.</span></span> <span data-ttu-id="06f96-126">Перед, объект **индекса** проверять правильность настройки свойства для объекта **поля** .</span><span class="sxs-lookup"><span data-stu-id="06f96-126">The validity of the property setting for a **Field** object is checked before that of an **Index** object.</span></span>
 
 
 
-## <a name="example"></a><span data-ttu-id="32ca3-127">Пример</span><span class="sxs-lookup"><span data-stu-id="32ca3-127">Example</span></span>
+## <a name="example"></a><span data-ttu-id="06f96-127">Пример</span><span class="sxs-lookup"><span data-stu-id="06f96-127">Example</span></span>
 
-<span data-ttu-id="32ca3-128">В этом примере используется свойство **требуется** отчет о котором поля в три различных таблицы должен содержать данные в порядке для новой записи для добавления.</span><span class="sxs-lookup"><span data-stu-id="32ca3-128">This example uses the **Required** property to report which fields in three different tables must contain data in order for a new record to be added.</span></span> <span data-ttu-id="32ca3-129">Процедура RequiredOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="32ca3-129">The RequiredOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="06f96-128">В этом примере используется свойство **требуется** отчет о котором поля в три различных таблицы должен содержать данные в порядке для новой записи для добавления.</span><span class="sxs-lookup"><span data-stu-id="06f96-128">This example uses the **Required** property to report which fields in three different tables must contain data in order for a new record to be added.</span></span> <span data-ttu-id="06f96-129">Процедура RequiredOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="06f96-129">The RequiredOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub RequiredX() 
