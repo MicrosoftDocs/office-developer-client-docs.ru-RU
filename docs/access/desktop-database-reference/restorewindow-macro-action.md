@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dfd7877ff1db960afcbf864f1e72ff01b12e8f09
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 35637781035b7a449ba574cf5f6c84f2cb5223db
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998954"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718835"
 ---
 # <a name="restorewindow-macro-action"></a>Макрокоманда RestoreWindow
 
@@ -26,11 +27,11 @@ ms.locfileid: "25998954"
 > [!NOTE]
 > Это действие не может применяться к windows кода в редакторе Visual Basic. Для получения сведений о действиях с кодом windows приведены в разделе свойство **WindowState** .
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **RestoreWindow** не требует аргументов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие работает на выбранный объект. При свернутых объекта можно выбрать ее с помощью **ВыделитьОбъект** и последующее восстановление предыдущих размеров с помощью действия **RestoreWindow** .
 

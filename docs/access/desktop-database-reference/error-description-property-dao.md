@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053358
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8f4783ee1a8c54727ef0ea5995c14b2cec960ede
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 1d7e949771e764c22e93ef56059930ccf39584ab
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920237"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714565"
 ---
 # <a name="errordescription-property-dao"></a>Свойство Error.Description (DAO)
 
@@ -31,7 +32,7 @@ ms.locfileid: "25920237"
 
 *выражение* Переменная, которая содержит объект **Error** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **Description** содержит краткое описание ошибки. Это свойство используется для предупреждения об ошибке, не могут и не хотите обрабатывать.
 

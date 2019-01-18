@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193648(v=office.15)
 ms:contentKeyID: 48544755
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5248a0984d58ab138e09e95e3268b9d59c3ef23f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 702218934dbf93d855fe2b6f432452fdbef0b3dd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927461"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719864"
 ---
 # <a name="databasesrefresh-method-dao"></a>Метод Databases.Refresh (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25927461"
 
 *выражение* Переменная, которая представляет собой объект- **баз данных** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод **Refresh** нельзя использовать вместе с семейств сайтов, которые не сохраняется, например, **подключений**, **баз данных**, **наборов записей**, **рабочие области**или коллекцию **QueryDefs** объект **подключения** .
 

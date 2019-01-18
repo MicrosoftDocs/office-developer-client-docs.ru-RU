@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: c056f2b0922402ea7cde7cf767969b73f912f572
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026248"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715202"
 ---
 # <a name="gotocontrol-macro-action"></a>Макрокоманда GoToControl
 
@@ -19,7 +20,7 @@ ms.locfileid: "26026248"
 
 Можно использовать **КЭлементуУправления** для перемещения фокуса указанного поля или элемента управления в записи текущей открытой формы, формы, таблицы или запроса таблицы данных. Эта макрокоманда позволяет переместить фокус на определенное поле или на другой элемент управления. В этом поле или элемент управления затем используется для сравнения или **НайтиЗапись** действий. Кроме того, можно использовать эту макрокоманду для навигации в форме в соответствии с определенными условиями. Например, если пользователь введет "Нет" в элементе управления "Брак" формы медицинского страхования, фокус может сразу автоматически переместиться на элемент управления, следующий за элементом управления "Имя партнера".
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 > [!NOTE]
 > Это действие недоступно для использования с страницы доступа к данным.
@@ -47,7 +48,7 @@ ms.locfileid: "26026248"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **КЭлементуУправления** нельзя использовать для перемещения фокуса на элемент управления на форме скрытые.
 
@@ -70,7 +71,7 @@ ms.locfileid: "26026248"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Действие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
@@ -118,8 +119,8 @@ ms.locfileid: "26026248"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>

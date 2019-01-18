@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125678(v=office.15)
 ms:contentKeyID: 52074551
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2325ded82ee4ce052ad9a8bfdfb6987c3df3166
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: e97e0c72320ef92d1444267265be0b89129d2876
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937514"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722699"
 ---
 # <a name="recordsets-methods-dao"></a>Методы наборов записей (DAO)
 

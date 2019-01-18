@@ -1,19 +1,20 @@
 ---
-title: Свойство Status (объект Field в ADO)
+title: Свойство Status (Field в ADO)
 TOCTitle: Status property (ADO Field)
 ms:assetid: 7a7b45e8-2934-2e8e-77fa-a4f38272548d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249507(v=office.15)
 ms:contentKeyID: 48545795
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7ba5c55e05cb8ab653a296982154bf93e1ffb08d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9c5f9d73a1081bb27c88541ac99307165222ab65
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946260"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712241"
 ---
-# <a name="status-property-ado-field"></a>Свойство Status (объект Field в ADO)
+# <a name="status-property-ado-field"></a>Свойство Status (Field в ADO)
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -24,7 +25,7 @@ ms.locfileid: "25946260"
 
 Возвращает значение [FieldStatusEnum](fieldstatusenum.md) . Значение по умолчанию — **adFieldOK**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Данное свойство всегда возвращает **adFieldOK** для полей объекта [набора записей](recordset-object-ado.md) .
 

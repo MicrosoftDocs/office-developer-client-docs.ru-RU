@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249927(v=office.15)
 ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa301974b4b417d09b0439b3970ee366eeb5d06e
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: 539feb1918877189548d0e7cff6ceb28e50abddc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910729"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718863"
 ---
 # <a name="ado-objects-and-interfaces"></a>Объекты и интерфейсы ADO
 
@@ -42,15 +43,15 @@ ms.locfileid: "25910729"
 <td><p>Создает объект ADO <strong>записей</strong> из объекта OLE DB <strong>строк</strong> в приложении C/C++.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Команда</a></p></td>
+<td><p><a href="error-object-ado.md">Command</a></p></td>
 <td><p>Определяет определенной команде, которые планируется выполнить в источнике данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="field-object-ado.md">Подключение</a></p></td>
+<td><p><a href="field-object-ado.md">Connection</a></p></td>
 <td><p>Представляет открытое подключение к источнику данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Ошибка</a></p></td>
+<td><p><a href="error-object-ado.md">Error</a></p></td>
 <td><p>Содержит сведения об ошибках доступа к данным, которые относятся к одной операции, включающие использование поставщика.</p></td>
 </tr>
 <tr class="even">
@@ -66,11 +67,11 @@ ms.locfileid: "25910729"
 <td><p>Представляет характеристику динамического объекта ADO, определяемый поставщиком.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="record-object-ado.md">Запись</a></p></td>
+<td><p><a href="record-object-ado.md">Record</a></p></td>
 <td><p>Представляет строку <strong>записей</strong>каталогов или файлов в файловой системе.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="recordset-object-ado.md">Набор записей</a></p></td>
+<td><p><a href="recordset-object-ado.md">Recordset</a></p></td>
 <td><p>Представляет полного набора записей из базовой таблицы или результаты выполнения команды. В любое время в объект <strong>набора записей</strong> называется только одной записи в наборе текущей записи.</p></td>
 </tr>
 <tr class="odd">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
 ms:contentKeyID: 48543562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1882486de2a2dfe61b98d4461abeea9cbcc23363
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 9b4beaa742bfc46ecd32fc04733c3e6ddaf12aa2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949315"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715006"
 ---
 # <a name="row-property-ado"></a>Свойство Row (ADO)
 
@@ -25,7 +26,7 @@ HRESULT get\_строки (\[out retval\] IUnknown\* \* ppRow);
 
 Поместите HRESULT\_строки (\[в\] IUnknown\* pRow);
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|

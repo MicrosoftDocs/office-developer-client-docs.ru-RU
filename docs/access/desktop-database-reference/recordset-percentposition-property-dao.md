@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821751(v=office.15)
 ms:contentKeyID: 48547077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 14f2f0249a878e933f89c50e7c10058cf22565b9
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 118b93641184eed367cd5f0f00a15a13ff28cd58
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998835"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717778"
 ---
 # <a name="recordsetpercentposition-property-dao"></a>Свойство Recordset.PercentPosition (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25998835"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы указать или изменить приблизительно, например положения текущей записи в объекте **набора записей** , можно проверить или задайте для свойства **PercentPosition** . При работе с объектом **набора записей** добавляющий или моментальный снимок непосредственно из базовой таблицы заполните путем перемещения к последнему записи, прежде чем задать или свойство **PercentPosition** объекта **набора записей** . Если использовать свойство **PercentPosition** до полностью заполнения объекта **набора записей** , величину перемещения задается число записей, доступны как указано значение свойства **[RecordCount](recordset-recordcount-property-dao.md)** . К последнему можно перемещать записи с помощью метода **[MoveLast](recordset-movelast-method-dao.md)** .
 

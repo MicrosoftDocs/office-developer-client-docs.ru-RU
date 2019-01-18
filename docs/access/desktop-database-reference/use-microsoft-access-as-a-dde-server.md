@@ -11,12 +11,13 @@ f1_keywords:
 - vbaac10.chm5186349
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0e22eb03571d51f28344f6d41fdcaa47321f67af
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 0750bdce0e1cda383c48f9c16e62e00997fdfb0a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870922"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716378"
 ---
 # <a name="use-microsoft-access-as-a-dde-server"></a>Использование Microsoft Access в качестве сервера DDE
 
@@ -282,11 +283,11 @@ _имя базы данных_ ; **SQL** [ _sqlstring_ ]
 <td><p>Все данные в таблице, в том числе имена полей.</p></td>
 </tr>
 <tr class="even">
-<td><p>Data</p></td>
+<td><p>Данные</p></td>
 <td><p>Все строки данных без имена полей.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Списке FieldNames</p></td>
+<td><p>FieldNames</p></td>
 <td><p>Однострочный список имен полей.</p></td>
 </tr>
 <tr class="even">

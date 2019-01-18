@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: c7f9f9e52f2220a384ba73a64d96dd93fec2cd91
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: aa70f275de164716b5b3975b56588e9dc4aec1a5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871285"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718828"
 ---
 # <a name="schemaenum"></a>SchemaEnum
 
@@ -143,13 +144,13 @@ CUBE_NAME</p></td>
 <td><p><strong>adSchemaDBInfoKeywords</strong></p></td>
 <td><p>30</p></td>
 <td><p>Возвращает список ключевых слов, зависящие от поставщика. (IDBInfo::GetKeywords *)</p></td>
-<td><p>&lt;Отсутствует&gt;</p></td>
+<td><p>&lt;Нет&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaDBInfoLiterals</strong></p></td>
 <td><p>31</p></td>
 <td><p>Возвращает список литералов от поставщика, используемых в текст команды. (IDBInfo::GetLiteralInfo *)</p></td>
-<td><p>&lt;Отсутствует&gt;</p></td>
+<td><p>&lt;Нет&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaDimensions</strong></p></td>
@@ -295,7 +296,7 @@ PROPERTY_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaProviderSpecific</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Используется, если поставщик определяет нестандартного схемы запросов.</p></td>
 <td><p>&lt;Поставщика&gt;</p></td>
 </tr>
@@ -326,7 +327,7 @@ SCHEMA_OWNER</p></td>
 <td><p><strong>adSchemaSQLLanguages</strong></p></td>
 <td><p>18</p></td>
 <td><p>Возвращает уровни соответствия, параметры и языки меньшинств, поддерживаемые данными обработки реализации SQL, определенные в каталоге. (SQL_LANGUAGES строк)</p></td>
-<td><p>&lt;Отсутствует&gt;</p></td>
+<td><p>&lt;Нет&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaStatistics</strong></p></td>
@@ -431,7 +432,7 @@ VIEW_NAME</p></td>
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

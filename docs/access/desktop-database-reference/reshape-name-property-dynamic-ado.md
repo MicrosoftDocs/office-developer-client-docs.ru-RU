@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249307(v=office.15)
 ms:contentKeyID: 48545030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5d8436979703a00f63c93e5d8cd426d190fecfc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: b606960238e2f9a08d034ed92a79f7a767a1a5f7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926166"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714978"
 ---
 # <a name="reshape-name-dynamic-property-ado"></a>Изменить форму динамических свойство Name (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25926166"
 
 Возвращает значение типа **String** , — это имя **набора записей**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Сохранение имен во время выполнения подключения или до закрытия **набора записей** .
 

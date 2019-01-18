@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm154095
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b04870a416874e2136e21b40c62d8e64a6182efe
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: f4273d6858ad98b723d66ba32fe3b9aa7c902d31
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998548"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719626"
 ---
 # <a name="opendiagram-macro-action"></a>Макрокоманда OpenDiagram
 
@@ -26,7 +27,7 @@ ms.locfileid: "25998548"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **OpenDiagram** использует следующий аргумент.
 
@@ -49,7 +50,7 @@ ms.locfileid: "25998548"
 </tbody>
 </table>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие аналогично дважды щелкнув схемы базы данных в области навигации или щелкнув правой кнопкой мыши на схеме базы данных в области навигации и затем выбрав **Представление конструирования**.
 

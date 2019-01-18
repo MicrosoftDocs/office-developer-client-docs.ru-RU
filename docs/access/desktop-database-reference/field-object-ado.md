@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248968(v=office.15)
 ms:contentKeyID: 48543600
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d131f2634551c9c2538a87cdc8f15cfa6cc96430
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: a2bf17029a706ad6902a8a01a14e73183f94d7a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924872"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715217"
 ---
 # <a name="field-object-ado"></a>Объект Field (ADO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25924872"
 
 Представляет столбец данных с типом данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Каждый объект **поля** соответствует столбца в [набора записей](recordset-object-ado.md). Задает или возвращает данные для текущей записи используйте свойство [Value](value-property-ado.md) объектов **полей** . В зависимости от функциональности предоставляет поставщик, некоторые коллекции методов, или свойства объекта **поля** могут быть недоступны.
 

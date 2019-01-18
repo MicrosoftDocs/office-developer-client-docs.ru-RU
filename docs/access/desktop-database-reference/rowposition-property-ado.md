@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15)
 ms:contentKeyID: 48547325
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0adb1cdf9ce7b096d7b80b86a89a819d5789b60b
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 84d3ad7cc5b3d43b15ac1113f6fa00932678ebc3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949385"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720963"
 ---
 # <a name="rowposition-property-ado"></a>Свойство RowPosition (ADO)
 
@@ -27,7 +28,7 @@ HRESULT get\_RowPosition (\[out retval\] IUnknown\* \* ppRowPos);
 
 Поместите HRESULT\_RowPosition (\[в\] IUnknown\* pRowPos);
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
@@ -38,7 +39,7 @@ HRESULT get\_RowPosition (\[out retval\] IUnknown\* \* ppRowPos);
 
 Этот метод свойство возвращает стандартных значений HRESULT, включая S\_ОК и E\_с ОШИБКОЙ.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если значение этого свойства, если объекта **набора записей** в объекте **RowPosition** отличается от объекта **набора записей** в объекте **набора записей** , бывшие переопределяет второй. То же самое относится к текущей **главы** **RowPosition** также.
 

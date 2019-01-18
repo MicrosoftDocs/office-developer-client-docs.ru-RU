@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250069(v=office.15)
 ms:contentKeyID: 48547951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7de4acb6278bb90b893eb290065c4c31967464d1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f335f8572fbade23b949abacce8dd3690d205e32
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884081"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721222"
 ---
 # <a name="streamopenoptionsenum"></a>StreamOpenOptionsEnum
 
@@ -46,7 +47,7 @@ ms.locfileid: "25884081"
 </tr>
 <tr class="odd">
 <td><p><strong>adOpenStreamUnspecified</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Значение, используемое по умолчанию. Указывает, открыв объект <strong>Stream</strong> с параметрами по умолчанию.</p></td>
 </tr>
 </tbody>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249181(v=office.15)
 ms:contentKeyID: 48544423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b568139a7e24446dd629afbfdc740a7bd02c409c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: eab6794bb6aaf44ed0bca84165295ffd8c417058
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946141"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718324"
 ---
 # <a name="introduction-to-ado-programming"></a>Общие сведения о программировании ADO
 
@@ -24,7 +25,7 @@ ms.locfileid: "25946141"
 - [Семейство ADO библиотек](the-ado-family-of-libraries.md)
 - [Роль ADO в данных Microsoft Access](the-role-of-ado-in-microsoft-data-access.md)
 - [Таблица задач ADO](ado-task-table.md)
-- [Таблица технологии ADO](ado-technology-table.md)
+- [Таблица технологий ADO](ado-technology-table.md)
 - [Глоссарий ADO](ado-glossary.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия

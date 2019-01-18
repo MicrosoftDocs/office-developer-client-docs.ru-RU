@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249329(v=office.15)
 ms:contentKeyID: 48545110
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2cb522a0b70517e81f086f544b1b1e366c166087
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: b0d76480bdb5d5a3ab258e103a00707af303a4d3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947401"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716861"
 ---
 # <a name="clear-method-ado"></a>Метод Clear (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25947401"
 
 *Ошибки*. Очистить
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **Clear** на семейство [Errors](errors-collection-ado.md) для удаления всех существующих объектов [Error](error-object-ado.md) из коллекции. При возникновении ошибки ADO автоматически удаляет семейство **Errors** и заполняется **Ошибка** объекты, основанные на новой ошибки.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249473(v=office.15)
 ms:contentKeyID: 48545643
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a570171386a1ff00e1740e42cf914683ad5eb03
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: fac07165416841691ee7bc3ca5dfcdc366861023
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871530"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715503"
 ---
 # <a name="parameterdirectionenum"></a>ParameterDirectionEnum
 
@@ -73,7 +74,7 @@ ms.locfileid: "25871530"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

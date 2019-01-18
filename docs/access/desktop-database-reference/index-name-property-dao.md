@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196754(v=office.15)
 ms:contentKeyID: 48546017
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 676856db2313ff96721c7b83e871642984875c25
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 78bc22e424312f7d834b3a9ba389e3d82210dd6d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930023"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718303"
 ---
 # <a name="indexname-property-dao"></a>Свойство Index.Name (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25930023"
 
 *выражение* Переменная, которая представляет объект **индекса** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Максимальная длина имени объекта **индекса** — 64 символов.
 

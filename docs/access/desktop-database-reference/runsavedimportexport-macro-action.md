@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm3022
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7f98076c147a55561adf2baf24b55274bbea463d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: adcc8a2a9462509f4b37d2dbdaf824387ae52a26
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998849"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717883"
 ---
 # <a name="runsavedimportexport-macro-action"></a>Макрокоманда RunSavedImportExport
 
@@ -26,7 +27,7 @@ ms.locfileid: "25998849"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **RunSavedImportExport** использует следующий аргумент.
 
@@ -50,7 +51,7 @@ ms.locfileid: "25998849"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 - Это действие макроса имеет тот же эффект, как в клиенте для выполнения следующей процедуры:
     

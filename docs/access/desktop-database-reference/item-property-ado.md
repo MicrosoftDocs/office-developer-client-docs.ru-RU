@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15)
 ms:contentKeyID: 48545767
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e4afbb31fb95aeea66d9cf93624b95c8796e2d25
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 9cc38101cb17c52bf2c8c08c08c14163c3772b2f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949364"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718562"
 ---
 # <a name="item-property-ado"></a>Свойство Item (ADO)
 
@@ -27,13 +28,13 @@ ms.locfileid: "25949364"
 
 Возвращает ссылку на объект.
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Индекс* |Выражение **типа Variant** , которое оценивается как имя или порядковый номер объект в коллекцию.|
+|*Index* |Выражение **типа Variant** , которое оценивается как имя или порядковый номер объект в коллекцию.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте свойство **Item** для получения определенного объекта в коллекции. Если **элемент** не удается найти объект в коллекции, соответствующий аргумент *Index* , возникает ошибка. Кроме того некоторые коллекции не поддерживают именованные объекты; для этих семейств сайтов необходимо использовать ссылки на порядковый номер.
 

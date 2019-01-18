@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197102(v=office.15)
 ms:contentKeyID: 48546197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85299765a598b969e4d9229c85e9f2e9b165d64e
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 3018bf8cc9a62cb866b35992e25ecb1f8f41514f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996890"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722797"
 ---
 # <a name="tabledefcreateproperty-method-dao"></a>Метод TableDef.CreateProperty (DAO)
 
@@ -50,13 +51,13 @@ ms.locfileid: "25996890"
 <td><p><strong>Строка</strong> , уникальным образом новый объект <strong>свойство</strong> . Свойство <strong>Name</strong> для получения дополнительных сведений см на допустимый имена <strong>свойств</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Тип</em></p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа, которая определяет тип данных нового <strong>Свойства</strong> объекта. В разделе свойства <strong><a href="field-type-property-dao.md">Type</a></strong> для типов данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Значение</em></p></td>
+<td><p><em>Value</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> содержащий исходное значение свойства. Свойство <strong><a href="field-value-property-dao.md">Value</a></strong> для получения дополнительных сведений см.</p></td>
@@ -75,7 +76,7 @@ ms.locfileid: "25996890"
 
 Свойство
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект пользовательских **свойств** можно создать только в коллекции **[свойств](properties-collection-dao.md)** объекта, который является постоянным.
 

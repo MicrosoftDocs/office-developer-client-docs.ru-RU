@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm3180
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: af6bc99374c67560e9cd78a9f26bc9dd601c70d8
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c84a737d08b791bfe560bfe6af6bcc59a14d2678
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026150"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716140"
 ---
 # <a name="after-insert-macro-event"></a>Событие макроса After Insert
 
@@ -26,7 +27,7 @@ ms.locfileid: "26026150"
 > [!NOTE]
 > События **После вставки** доступна только в макросов данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Событие **После вставки** используется для выполнения действий, которые должны происходить при добавлении записи в таблицу. Чаще всего используется **После вставки** включают применение бизнес-правил, рабочие процессы, обновление общую сумму и отправки уведомлений.
 

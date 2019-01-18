@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
 ms:contentKeyID: 48547933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b45e716844b3e616dfe5b8f94d69f29d6b0f1042
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 5f3b1ee81928a8da77cc3edff7f1feffb7196bba
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997513"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722762"
 ---
 # <a name="seteos-method-ado"></a>Метод SetEOS (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25997513"
 
 *Поток*. SetEOS
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **SetEOS** обновляет значение свойства [EOS](eos-property-ado.md) , сделав текущую [позицию](position-property-ado.md) в конец потока. Любой байт или после текущего положения знаков усекаются.
 

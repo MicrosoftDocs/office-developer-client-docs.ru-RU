@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053071
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 48397c3654d11735d13dd9499e1a6784f330f4af
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: c29f9663ce3591fe5b1633239e8ec0d8866ee16a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927152"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717540"
 ---
 # <a name="dbenginedefaultuser-property-dao"></a>Свойство DBEngine.DefaultUser (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25927152"
 
 *выражение* Выражение, возвращающее объект **DBEngine** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметр **DefaultUser** имеет тип данных String. Она может быть 1 — 20 знаков в Microsoft Access рабочих областей и он может включать буквы, диакритические знаки, чисел, пробелов и символов, за исключением: "(кавычки) / (косая черта), \\ (обратная косая черта), \[ \] (квадратные скобки) ,: (двоеточие), | (канал), \< (меньше-знак "больше"), \> (больше-знак "больше"), + (плюс), = (равно входа), (точка с запятой), (разделители)? (вопросительный знак), \* (звездочка), начальные пробелы и управляющие знаки (ASCII от 00 до ASCII 31).
 

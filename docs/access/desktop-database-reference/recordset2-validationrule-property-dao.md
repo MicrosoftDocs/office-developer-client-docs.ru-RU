@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835002(v=office.15)
 ms:contentKeyID: 48547940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 651e4d39861505f990b6d8f06809a566b88ee83b
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 7b146aa0278db278f3831bc0e00987d21e14b70a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998193"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718177"
 ---
 # <a name="recordset2validationrule-property-dao"></a>Свойство Recordset2.ValidationRule (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25998193"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметров или возвращаемых значений — это **строка** , описывающая сравнения в виде SQL, ГДЕ предложения WHERE без зарезервированным словом. Для объекта еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.
 

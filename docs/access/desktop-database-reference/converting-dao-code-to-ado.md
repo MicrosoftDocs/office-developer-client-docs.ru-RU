@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm5267115
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60baeabfce93c2987cb9621c7cc877a7525a954c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 77d56efd63d6a0841b595f12456baa808751706e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876745"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720340"
 ---
 # <a name="convert-dao-code-to-ado"></a>Преобразование кода DAO в ADO
 
@@ -42,22 +43,22 @@ ms.locfileid: "25876745"
 <tbody>
 <tr class="odd">
 <td><p>DBEngine</p></td>
-<td><p>Отсутствует</p></td>
+<td><p>Нет</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Рабочая область</p></td>
-<td><p>Отсутствует</p></td>
+<td><p>Workspace</p></td>
+<td><p>Нет</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>База данных</p></td>
-<td><p>Подключение</p></td>
+<td><p>Connection</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Набор записей</p></td>
-<td><p>Набор записей</p></td>
+<td><p>Recordset</p></td>
+<td><p>Recordset</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">

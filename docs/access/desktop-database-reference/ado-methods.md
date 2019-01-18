@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 3169b7eaab6ad290bfc385881f5de69edc80111f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026381"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716182"
 ---
 # <a name="ado-methods"></a>Методы ADO
 
@@ -48,7 +49,7 @@ ms.locfileid: "26026381"
 <strong>RollbackTrans</strong> — показано, как отменить все изменения и заканчивающейся текущей операции. Он также может начать новую операцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="cancel-method-ado.md">Cancel</a></p></td>
+<td><p><a href="cancel-method-ado.md">Отмена</a></p></td>
 <td><p>Отменяет выполнение ожидающих асинхронного вызова метода.</p></td>
 </tr>
 <tr class="even">
@@ -224,7 +225,7 @@ ms.locfileid: "26026381"
 <td><p>Определяет, поддерживает ли указанный объект <strong>набора записей</strong> определенного типа функциональные возможности.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Update</a></p></td>
+<td><p><a href="update-method-ado.md">обновление</a>.</p></td>
 <td><p>Сохраняет все изменения, внесенные в текущей строки <strong>набора записей</strong> объекта или коллекции <strong>полей</strong> объекта <strong>записи</strong> .</p></td>
 </tr>
 <tr class="even">

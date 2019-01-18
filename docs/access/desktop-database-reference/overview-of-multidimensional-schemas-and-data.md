@@ -1,19 +1,20 @@
 ---
-title: Общие сведения о многомерных схемы и данных
+title: Обзор многомерных схем и данных
 TOCTitle: Overview of multidimensional schemas and data
 ms:assetid: a963e993-b7bf-eeb4-ecd5-d6fe43cf4bb5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ce7366437028ed1e745c596c38b2c0314acefd2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: d65378bf964ad8c6e81a08cb653f09bf00a8431c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945896"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720221"
 ---
-# <a name="overview-of-multidimensional-schemas-and-data"></a>Общие сведения о многомерных схемы и данных
+# <a name="overview-of-multidimensional-schemas-and-data"></a>Обзор многомерных схем и данных
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -31,7 +32,7 @@ ms.locfileid: "25945896"
 
 Кубы, представленные объектами [CubeDef](cubedef-object-ado-md.md) в ADO MD. Измерения, иерархии, уровни и элементы также представлены их соответствующими объектами ADO MD: [ [измерений](dimension-object-ado-md.md), [иерархии](hierarchy-object-ado-md.md)и [член](member-object-ado-md.md)](level-object-ado-md.md).
 
-## <a name="dimensions"></a>Измерения
+## <a name="dimensions"></a>Dimensions
 
 Измерения куба зависят от бизнес-сущности и типы данных по моделированию в базе данных. Как правило каждого измерения — независимые Начальная точка для входа или механизм выбора данных.
 
@@ -50,11 +51,11 @@ Edinburgh, Cardiff, Pembroke, Belfast, Berlin,
 Hamburg, Munich, Stuttgart} 
 ```
 
-## <a name="hierarchies"></a>Иерархии
+## <a name="hierarchies"></a>Hierarchies
 
 Иерархии определить способы, в котором можно «сведения» или сгруппированные уровней измерения. Измерение может иметь более одной иерархии.
 
-## <a name="levels"></a>Уровни
+## <a name="levels"></a>Levels
 
 В измерении Geography примере, представлены на предыдущем рисунке каждое поле представляет уровень в иерархии.
 
@@ -70,7 +71,7 @@ Hamburg, Munich, Stuttgart}
 
   - Cities (города) = {Ottawa, Торонто, Vancouver, Калгари, Сиэтл, Буаз, Лос-Анджелес, Хьюстоне, Shreveport, Майами, может, Нью-Йорк, Лондон, Dover, Глазго, Эдинбург, Cardiff, Pembroke, Белфаст, Берлин, Hamburg, Мюнхен, Штутгартский}
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 Элементы на конечном уровне иерархии не имеющие дочерних элементов и нет родительского имеют члены на корневом уровне. Другие участники имеют по крайней мере один родительских и дочерних по крайней мере один. Например частичное обход дерева иерархии в измерении Geography дает следующие отношения родительских и дочерних:
 
@@ -97,7 +98,7 @@ Hamburg, Munich, Stuttgart}
 
 Кубы, представленные объектами [CubeDef](cubedef-object-ado-md.md) в ADO MD. Измерения, иерархии, уровни и элементы также представлены их соответствующими объектами ADO MD: [ [измерений](dimension-object-ado-md.md), [иерархии](hierarchy-object-ado-md.md)и [член](member-object-ado-md.md)](level-object-ado-md.md).
 
-## <a name="dimensions"></a>Измерения
+## <a name="dimensions"></a>Dimensions
 
 Измерения куба зависят от бизнес-сущности и типы данных по моделированию в базе данных. Как правило каждого измерения — независимые Начальная точка для входа или механизм выбора данных.
 
@@ -116,11 +117,11 @@ Edinburgh, Cardiff, Pembroke, Belfast, Berlin,
 Hamburg, Munich, Stuttgart} 
 ```
 
-## <a name="hierarchies"></a>Иерархии
+## <a name="hierarchies"></a>Hierarchies
 
 Иерархии определить способы, в котором можно «сведения» или сгруппированные уровней измерения. Измерение может иметь более одной иерархии.
 
-## <a name="levels"></a>Уровни
+## <a name="levels"></a>Levels
 
 В измерении Geography примере, представлены на предыдущем рисунке каждое поле представляет уровень в иерархии.
 
@@ -136,7 +137,7 @@ Hamburg, Munich, Stuttgart}
 
 - Cities (города) = {Ottawa, Торонто, Vancouver, Калгари, Сиэтл, Буаз, Лос-Анджелес, Хьюстоне, Shreveport, Майами, может, Нью-Йорк, Лондон, Dover, Глазго, Эдинбург, Cardiff, Pembroke, Белфаст, Берлин, Hamburg, Мюнхен, Штутгартский}
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
 Элементы на конечном уровне иерархии не имеющие дочерних элементов и нет родительского имеют члены на корневом уровне. Другие участники имеют по крайней мере один родительских и дочерних по крайней мере один. Например частичное обход дерева иерархии в измерении Geography дает следующие отношения родительских и дочерних:
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 525b261f5184f520d6f24c81f3d446fee8aa800e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 8a2105c13f5f7ce9a75e7e18e20477d8b283543a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936961"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719235"
 ---
 # <a name="workspace-members-dao"></a>Члены рабочей области (DAO)
 
@@ -39,7 +40,7 @@ ms.locfileid: "25936961"
 <td><p>Начало новой транзакции. Чтение и запись <strong>базы данных</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-close-method-dao.md">Закрыть</a></strong></p></td>
+<td><p><strong><a href="workspace-close-method-dao.md">Close</a></strong></p></td>
 <td><p>Закрытие открытых <strong>рабочей области</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -82,11 +83,11 @@ ms.locfileid: "25936961"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspace-connections-property-dao.md">Подключения</a></strong></p></td>
+<td><p><strong><a href="workspace-connections-property-dao.md">Connections</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>подключений</strong> , который представляет текущего подключения в указанной <strong>рабочей области</strong>. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-databases-property-dao.md">Базы данных</a></strong></p></td>
+<td><p><strong><a href="workspace-databases-property-dao.md">Databases</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>баз данных</strong> , который представляет open баз данных в указанной <strong>рабочей области</strong>. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
@@ -111,7 +112,7 @@ ms.locfileid: "25936961"
 <td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-type-property-dao.md">Тип</a></strong></p></td>
+<td><p><strong><a href="workspace-type-property-dao.md">Type</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Только для чтения <strong>целое число</strong>.</p></td>
 </tr>
 </tbody>

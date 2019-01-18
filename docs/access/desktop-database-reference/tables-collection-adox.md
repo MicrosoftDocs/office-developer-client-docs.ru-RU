@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248821(v=office.15)
 ms:contentKeyID: 48543082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f87863579588b586e851cd175548d62ea7a0b920
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: e53cd4b6d4a61a226103eb443bac7f3b4f92d908
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919490"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716174"
 ---
 # <a name="tables-collection-adox"></a>Коллекция Tables (ADOX)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25919490"
 
 Содержит все объекты [в таблице](table-object-adox.md) каталога.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод [Append](append-method-adox-tables.md) для семейства сайтов **таблицы** является уникальным для ADOX. Вы можете выполнить указанные ниже действия.
 

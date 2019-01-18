@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193195(v=office.15)
 ms:contentKeyID: 48544578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49e8cdb7586af93ca17782ba0cb1071036c38eeb
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 3eeaf8bf46d8673731243a1161ac578062a01f89
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936954"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716280"
 ---
 # <a name="relation-object-dao"></a>Объект отношения (DAO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25936954"
 
 Объект **связи** представляет связь между полями в таблицах и запросах (Microsoft Access базами данных, ядро только).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **связи** можно использовать для создания новых связей и проверить существующих связей между таблицами в базе данных.
 

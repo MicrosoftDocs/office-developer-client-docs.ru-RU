@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9541e8b7888f5fb5f16bcfb343d545cf304b1afd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: ac5f14d035a4e11cce67f01ca6636f3ebd39963e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945791"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717813"
 ---
-# <a name="batch-mode"></a>Пакетном режиме
+# <a name="batch-mode"></a>Пакетный режим
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -24,9 +25,9 @@ ms.locfileid: "25945791"
 В этом разделе содержатся следующие разделы:
 
 - [Отправка обновлений: UpdateBatch](sending-the-updates-updatebatch.md)
-- [Фильтрация для обновленных записей](filtering-for-updated-records.md)
-- [Работа с ошибками обновлений](dealing-with-failed-updates.md)
-- [Обнаружение и устранение конфликтов](detecting-and-resolving-conflicts.md)
+- [Поиск обновленных записей с помощью фильтра](filtering-for-updated-records.md)
+- [Исправление неудачных обновлений](dealing-with-failed-updates.md)
+- [Обнаружение и разрешение конфликтов](detecting-and-resolving-conflicts.md)
 - [Отключение и повторное подключение набора записей](disconnecting-and-reconnecting-the-recordset.md)
-- [Обновление результатов Соединяемая: уникальной таблицы](updating-joined-results-unique-table.md)
+- [Обновление результатов JOINed: уникальная таблица](updating-joined-results-unique-table.md)
 

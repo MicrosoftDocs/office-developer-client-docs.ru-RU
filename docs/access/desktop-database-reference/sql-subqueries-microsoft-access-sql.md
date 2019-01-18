@@ -12,12 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4efa4e92d7fab2dc8a4aae932ccb1ffe69c7c6c8
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7beda04d1f18014101f00078de1d125c1fd67a69
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026101"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722874"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Вложенные запросы SQL (Microsoft Access SQL)
 
@@ -55,7 +56,7 @@ ms.locfileid: "26026101"
 <td><p>Выражение и оператор сравнения, сравнивает выражение с результатами подчиненного запроса.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>expression</em></p></td>
+<td><p><em>выражение</em></p></td>
 <td><p>Выражение, для которого осуществляется в наборе результатов вложенного запроса.</p></td>
 </tr>
 <tr class="odd">
@@ -66,7 +67,7 @@ ms.locfileid: "26026101"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Вложенный запрос можно использовать вместо выражения в списке полей инструкции SELECT или в предложении [ГДЕ](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) или [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) . Во вложенном запросе используйте инструкции SELECT для предоставления набора из одного или нескольких конкретных значений для оценки в WHERE или у выражения предложения.
 
@@ -111,7 +112,7 @@ WHERE T1.Title = Employees.Title) Order by Title;
 
 ## <a name="example"></a>Пример
 
-В этом примере перечислены имя и контактов каждого клиента, выполнившим заказа во втором квартале 1995. Он вызывает процедуру EnumFields, которые можно найти в примере инструкции SELECT.
+В данном примере перечислены имена и контактные данные каждого клиента, разместившего заказ во втором квартале 1995 года. Он вызывает процедуру EnumFields, которые можно найти в примере инструкции SELECT.
 
 ```vb
     Sub SubQueryX() 

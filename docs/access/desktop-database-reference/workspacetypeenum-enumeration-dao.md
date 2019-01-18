@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823134(v=office.15)
 ms:contentKeyID: 48547625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65024e67110608d75012ec01382af92937451669
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c3c83a3364b7d21146679c8dcf612f2305a19976
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947163"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721131"
 ---
 # <a name="workspacetypeenum-enumeration-dao"></a>Перечисление WorkspaceTypeEnum (DAO)
 

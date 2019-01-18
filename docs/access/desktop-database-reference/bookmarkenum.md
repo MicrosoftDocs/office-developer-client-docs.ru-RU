@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)
 ms:contentKeyID: 48545681
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 867d1734b43526e47b3229eab0a9cff823a77725
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: df80ff40a83c6aab1fc4657ac23d2e0ec1b28b01
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876101"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716889"
 ---
 # <a name="bookmarkenum"></a>BookmarkEnum
 
@@ -64,7 +65,7 @@ ms.locfileid: "25876101"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

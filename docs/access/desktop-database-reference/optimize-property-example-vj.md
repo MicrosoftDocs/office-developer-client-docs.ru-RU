@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15)
 ms:contentKeyID: 48547949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ecbd621ddb1be36af50920cdbf77becb7d068d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: e2c89b719d61ecfe8cd8369e7aa3c3c1827fe2fb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883302"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720515"
 ---
 # <a name="optimize-property-example-vj"></a>Пример использования свойства Optimize (VJ++)
 

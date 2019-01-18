@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c03310159915fd7bbb0804582d8f3967d40fb9b2
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 603dfaa9a54ddfe769b96a57b790b4657abbeb14
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937654"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720088"
 ---
 # <a name="field2expression-property-dao"></a>Свойство Field2.Expression (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25937654"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 В Access 2013 можно создавать поля в таблице, вычисление значений. Расчеты могут включать значения из полей в одной таблицы, а также встроенных функций доступа.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
 ms:contentKeyID: 48547408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c9fe82c2d3edd5127ef6e2944f10d496a558d1fb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920524"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721082"
 ---
 # <a name="tabledef-members-dao"></a>Члены TableDef (DAO)
 
@@ -81,24 +82,24 @@ ms.locfileid: "25920524"
 <td><p>Возвращает имя таблицы конфликта, содержащий записи базы данных, которые конфликт во время синхронизации двух реплик (только для рабочих областей Microsoft Access). Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-connect-property-dao.md">Подключение</a></strong></p></td>
+<td><p><strong><a href="tabledef-connect-property-dao.md">Connect</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое предоставляет сведения о связанной таблицы. Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Возвращает дату и время создания объекта (только для рабочих областей Microsoft Access). Только для чтения <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время создания объекта (только для рабочих областей Microsoft Access). Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-fields-property-dao.md">Поля</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>полей</strong> , представляющую все хранятся объекты <strong>поля</strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-indexes-property-dao.md">Индексы</a></strong></p></td>
+<td><p><strong><a href="tabledef-indexes-property-dao.md">Indexes</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>индексов</strong> , который содержит все хранимые объекты <strong>индекса</strong> для указанной таблицы. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
@@ -125,11 +126,11 @@ ms.locfileid: "25920524"
 <td><p>Возвращает значение, указывающее, является ли объект DAO можно изменить. Только для чтения, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-validationrule-property-dao.md">Значение</a></strong></p></td>
+<td><p><strong><a href="tabledef-validationrule-property-dao.md">ValidationRule</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое проверяет данные в поля, как она изменен или добавлен в таблицу (только для рабочих областей Microsoft Access). Чтение и запись <strong>строки</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-validationtext-property-dao.md">Сообщение об ошибке</a></strong></p></td>
+<td><p><strong><a href="tabledef-validationtext-property-dao.md">ValidationText</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, текст сообщения, приложение, если значение <strong>поля</strong> объекта не удовлетворяют правило проверки, указанного идентификатором <strong>условие на значение</strong> свойства поля (только для рабочих областей Microsoft Access) . Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 </tbody>

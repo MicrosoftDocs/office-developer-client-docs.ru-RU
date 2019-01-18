@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c1b127995a2f9a0af7da80e9df862259b570870e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998814"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721649"
 ---
 # <a name="moveandsizewindow-macro-action"></a>Макрокоманда MoveAndSizeWindow
 
@@ -19,7 +20,7 @@ ms.locfileid: "25998814"
 
 Если документ окно Параметры настроены для использования перекрывающиеся windows вместо вкладками, можно использовать действие **MoveAndSizeWindow** переместить или изменить размер активного окна. Сведения о том, как задать параметры окна документа см.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **MoveAndSizeWindow** состоит из следующих аргументов.
 
@@ -44,11 +45,11 @@ ms.locfileid: "25998814"
 <td><p>Новые вертикальную позицию левом верхнем углу окна, измеряемую от верхней границы активного.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ширина</strong></p></td>
+<td><p><strong>Width</strong></p></td>
 <td><p>Новая ширина окна.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Высота</strong></p></td>
+<td><p><strong>Height</strong></p></td>
 <td><p>Новая высота окна.</p></td>
 </tr>
 </tbody>
@@ -62,7 +63,7 @@ ms.locfileid: "25998814"
 > [!NOTE]
 > Измерения — в дюймах или сантиметрах, в зависимости от региональных параметров в панели управления Windows.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы настроить приложение для использования перекрывающиеся windows вместо вкладками, используйте следующую процедуру:
 
@@ -99,8 +100,8 @@ ms.locfileid: "25998814"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
@@ -108,7 +109,7 @@ ms.locfileid: "25998814"
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Эхо</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Вывод на экран</strong>: <strong>Нет</strong></p></td>
 <td><p>Остановите обновление экрана в процессе выполнения макроса.</p></td>
 </tr>
@@ -132,7 +133,7 @@ ms.locfileid: "25998814"
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>ОткрытьФорму</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Имя формы</strong>: список продуктов <strong>представления</strong>: <strong>Имя DatasheetFilter</strong>: <strong>условие отбора</strong>: [код поставщика] = [Forms]! [Поставщики]! [Код поставщика] <strong>Режим данных</strong>: <strong>Режим чтения OnlyWindow</strong>: <strong>Обычный</strong></p></td>
 <td><p>Откройте форму списка продуктов и отображение текущего поставщика продуктов.</p></td>
 </tr>

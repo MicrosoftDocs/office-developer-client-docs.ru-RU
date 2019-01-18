@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d04c98da0ecef1c2323930c74588b7a6a07c2e29
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 119e824cae71d54bb398aa68f476a667f14a6888
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026269"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699159"
 ---
 # <a name="addmenu-macro-action"></a>Макрокоманда AddMenu
 
@@ -32,7 +33,7 @@ ms.locfileid: "26026269"
 
 - Глобальное контекстное меню. Глобальное контекстное меню заменяет встроенное контекстное меню для полей в таблице и технические описания запросов, форм и отчетов, за исключением которые пользователь добавил настраиваемого контекстного меню для формы, отчета или элемента управления.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ДобавитьМеню** имеет следующие аргументы.
 
@@ -65,7 +66,7 @@ ms.locfileid: "26026269"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для запуска **макрокоманды** в Visual Basic для приложений (VBA) модуль, используйте метод **ДобавитьМеню** **объекта** . Также можно задать свойство **строки меню** или **ShortcutMenuBar** в VBA для создания настраиваемого меню на вкладке **Надстройки** , чтобы присоединить настраиваемого контекстного меню для формы, отчета или элемента управления. Можно задать свойство **ShortcutMenuBar** объекта **приложения** для создания глобального контекстного меню.
 

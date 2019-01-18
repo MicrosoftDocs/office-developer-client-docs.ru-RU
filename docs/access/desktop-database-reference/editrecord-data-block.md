@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c2b3499d7b2a779739dc965e6f0ca35ebab369ea
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 32ddfbbf21e62d5967fa1f2f31bab0222664eb39
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930884"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715755"
 ---
 # <a name="editrecord-data-block"></a>Блок данных ИзменитьЗапись
 
@@ -23,7 +24,7 @@ ms.locfileid: "25930884"
 > Блок данных **ИзменитьЗапись** доступна только в макросов данных.
 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Блок данных **ИзменитьЗапись** имеет следующие аргументы.
 
@@ -46,7 +47,7 @@ ms.locfileid: "25930884"
 </tbody>
 </table>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 После оператора **ИзменитьЗапись** можно вставить блок команды, которые будут выполняться перед comitted изменений в запись. В блоке данных **ИзменитьЗапись** доступны следующие действия.
 

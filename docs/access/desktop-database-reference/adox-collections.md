@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
 ms:contentKeyID: 48547500
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa9cf4128f8c5ae37281cd8b996b9bf59094ba70
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: 9728c8a736e2639816f65b006394e513ea5a5d64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910701"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718926"
 ---
 # <a name="adox-collections"></a>Коллекции ADOX
 
@@ -32,35 +33,35 @@ ms.locfileid: "25910701"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="columns-collection-adox.md">Столбцы</a></p></td>
+<td><p><a href="columns-collection-adox.md">Columns</a></p></td>
 <td><p>Содержит все объекты <strong>столбец</strong> таблицы, индекса или ключа.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="groups-collection-adox.md">Группы</a></p></td>
+<td><p><a href="groups-collection-adox.md">Groups</a></p></td>
 <td><p>Содержит все хранимые объекты <strong>групповой</strong> каталога или пользователя.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="indexes-collection-adox.md">Индексы</a></p></td>
+<td><p><a href="indexes-collection-adox.md">Indexes</a></p></td>
 <td><p>Содержит все объекты <strong>индекса</strong> таблицы.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="keys-collection-adox.md">Ключи</a></p></td>
+<td><p><a href="keys-collection-adox.md">Keys</a></p></td>
 <td><p>Содержит все объекты <strong>ключ</strong> таблицы.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="procedures-collection-adox.md">Процедуры</a></p></td>
+<td><p><a href="procedures-collection-adox.md">Procedures</a></p></td>
 <td><p>Содержит все объекты <strong>процедуры</strong> каталога.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="tables-collection-adox.md">Таблицы</a></p></td>
+<td><p><a href="tables-collection-adox.md">Tables</a></p></td>
 <td><p>Содержит все объекты <strong>в таблице</strong> каталога.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="users-collection-adox.md">Пользователи</a></p></td>
+<td><p><a href="users-collection-adox.md">пользователи</a>;</p></td>
 <td><p>Содержит все хранимые объектов <strong>пользователей</strong> из каталога или группы.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="views-collection-adox.md">Представления</a></p></td>
+<td><p><a href="views-collection-adox.md">Views</a></p></td>
 <td><p>Содержит все объекты <strong>представления</strong> каталога.</p></td>
 </tr>
 </tbody>

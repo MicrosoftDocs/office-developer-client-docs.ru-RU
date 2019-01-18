@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249149(v=office.15)
 ms:contentKeyID: 48544280
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97376361a9ea5dcd71e3f9ef918a8ec7f1ebb0c0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: b3b5d25a727233b5fda5627df8dff952003bbfe3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920762"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722475"
 ---
 # <a name="view-object-adox"></a>Объект View (ADOX)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25920762"
 
 Представляет отфильтрованного набора записей или виртуальной таблицы. При использовании в сочетании с объектом ADO [команду](command-object-ado.md) объект **View** можно использовать для Добавление, удаление или изменение представления.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Представление — виртуальных таблицы, созданный из других баз данных таблицы или представления. Объект **View** позволяет создать представление без необходимости знать или используйте синтаксис поставщика «Создание ПРЕДСТАВЛЕНИЯ».
 
