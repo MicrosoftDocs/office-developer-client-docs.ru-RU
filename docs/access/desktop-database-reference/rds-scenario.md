@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)
 ms:contentKeyID: 48545218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c2d5d334f449391f56d339f1b3882836e87f9dd6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: e4206cedd139b551d687911f00aa9fc5e5782859
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946953"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718807"
 ---
-# <a name="rds-scenario"></a><span data-ttu-id="29bd6-102">Сценарий служб удаленных рабочих СТОЛОВ</span><span class="sxs-lookup"><span data-stu-id="29bd6-102">RDS scenario</span></span>
+# <a name="rds-scenario"></a><span data-ttu-id="ef415-102">Сценарий RDS</span><span class="sxs-lookup"><span data-stu-id="ef415-102">RDS scenario</span></span>
 
-<span data-ttu-id="29bd6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="29bd6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ef415-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ef415-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="29bd6-104">Кнопки адресной книги</span><span class="sxs-lookup"><span data-stu-id="29bd6-104">Address Book Command Buttons</span></span>](address-book-command-buttons.md)
-- [<span data-ttu-id="29bd6-105">Объект привязки данных адресной книги</span><span class="sxs-lookup"><span data-stu-id="29bd6-105">Address Book Data-Binding Object</span></span>](address-book-data-binding-object.md)
-- [<span data-ttu-id="29bd6-106">Кнопки навигации по адресной книге</span><span class="sxs-lookup"><span data-stu-id="29bd6-106">Address Book Navigation Buttons</span></span>](address-book-navigation-buttons.md)
-- [<span data-ttu-id="29bd6-107">Запуск примера приложения адресной книги</span><span class="sxs-lookup"><span data-stu-id="29bd6-107">Running the Address Book Sample Application</span></span>](running-the-address-book-sample-application.md)
-- [<span data-ttu-id="29bd6-108">Требования к системе для приложения адресной книги</span><span class="sxs-lookup"><span data-stu-id="29bd6-108">System Requirements for the Address Book Application</span></span>](system-requirements-for-the-address-book-application.md)
+- [<span data-ttu-id="ef415-104">Адресной книги кнопок команд</span><span class="sxs-lookup"><span data-stu-id="ef415-104">Address Book Command Buttons</span></span>](address-book-command-buttons.md)
+- [<span data-ttu-id="ef415-105">Объект привязки данных адресной книги</span><span class="sxs-lookup"><span data-stu-id="ef415-105">Address Book Data-Binding Object</span></span>](address-book-data-binding-object.md)
+- [<span data-ttu-id="ef415-106">Адресной книги кнопки перехода</span><span class="sxs-lookup"><span data-stu-id="ef415-106">Address Book Navigation Buttons</span></span>](address-book-navigation-buttons.md)
+- [<span data-ttu-id="ef415-107">Выполнение примера приложения адресной книги</span><span class="sxs-lookup"><span data-stu-id="ef415-107">Running the Address Book Sample Application</span></span>](running-the-address-book-sample-application.md)
+- [<span data-ttu-id="ef415-108">Требования к системе для применение адресной книги</span><span class="sxs-lookup"><span data-stu-id="ef415-108">System Requirements for the Address Book Application</span></span>](system-requirements-for-the-address-book-application.md)
 
 

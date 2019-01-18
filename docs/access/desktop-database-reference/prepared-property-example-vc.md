@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
 ms:contentKeyID: 48546562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0c3f6f48418b6b8df95b423b9baba3a9c84c21b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: ac0009940b3c7917db82db38d604ef6d16712953
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885817"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718968"
 ---
-# <a name="prepared-property-example-vc"></a><span data-ttu-id="0ecda-102">Пример использования свойства Prepared (VC++)</span><span class="sxs-lookup"><span data-stu-id="0ecda-102">Prepared property example (VC++)</span></span>
+# <a name="prepared-property-example-vc"></a><span data-ttu-id="b7de3-102">Пример использования свойства Prepared (VC++)</span><span class="sxs-lookup"><span data-stu-id="b7de3-102">Prepared property example (VC++)</span></span>
 
 
-<span data-ttu-id="0ecda-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ecda-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b7de3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7de3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0ecda-104">В этом примере демонстрируется свойство [подготовленных](prepared-property-ado.md) , открыв два объекта [команд](command-object-ado.md) — подготовлено и не подготовлен.</span><span class="sxs-lookup"><span data-stu-id="0ecda-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="b7de3-104">В этом примере демонстрируется свойство [подготовленных](prepared-property-ado.md) , открыв два объекта [команд](command-object-ado.md) — подготовлено и не подготовлен.</span><span class="sxs-lookup"><span data-stu-id="b7de3-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```cpp 
  

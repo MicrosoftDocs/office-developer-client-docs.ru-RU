@@ -6,20 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123518(v=office.15)
 ms:contentKeyID: 52071161
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d0f63fcf5037fe872c9ca0ca97148cda2056dac
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: cf40a993a3fc9a8ab9dfe01b8d07c0aae780a141
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946792"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715139"
 ---
-# <a name="parameter-properties-dao"></a><span data-ttu-id="7d026-102">Свойства параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d026-102">Parameter properties (DAO)</span></span>
+# <a name="parameter-properties-dao"></a><span data-ttu-id="acf1c-102">Свойства параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="acf1c-102">Parameter properties (DAO)</span></span>
 
-<span data-ttu-id="7d026-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d026-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="acf1c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="acf1c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="7d026-104">Свойство Parameter.Direction (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d026-104">Parameter.Direction property (DAO)</span></span>](parameter-direction-property-dao.md)
-- [<span data-ttu-id="7d026-105">Свойство Parameter.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d026-105">Parameter.Name property (DAO)</span></span>](parameter-name-property-dao.md)
-- [<span data-ttu-id="7d026-106">Свойство Parameter.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d026-106">Parameter.Properties property (DAO)</span></span>](parameter-properties-property-dao.md)
-- [<span data-ttu-id="7d026-107">Свойство Parameter.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d026-107">Parameter.Type property (DAO)</span></span>](parameter-type-property-dao.md)
-- [<span data-ttu-id="7d026-108">Свойство Parameter.Value (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d026-108">Parameter.Value property (DAO)</span></span>](parameter-value-property-dao.md)
+- [<span data-ttu-id="acf1c-104">Свойство Parameter.Direction (DAO)</span><span class="sxs-lookup"><span data-stu-id="acf1c-104">Parameter.Direction property (DAO)</span></span>](parameter-direction-property-dao.md)
+- [<span data-ttu-id="acf1c-105">Свойство Parameter.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="acf1c-105">Parameter.Name property (DAO)</span></span>](parameter-name-property-dao.md)
+- [<span data-ttu-id="acf1c-106">Свойство Parameter.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="acf1c-106">Parameter.Properties property (DAO)</span></span>](parameter-properties-property-dao.md)
+- [<span data-ttu-id="acf1c-107">Свойство Parameter.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="acf1c-107">Parameter.Type property (DAO)</span></span>](parameter-type-property-dao.md)
+- [<span data-ttu-id="acf1c-108">Свойство Parameter.Value (DAO)</span><span class="sxs-lookup"><span data-stu-id="acf1c-108">Parameter.Value property (DAO)</span></span>](parameter-value-property-dao.md)
 

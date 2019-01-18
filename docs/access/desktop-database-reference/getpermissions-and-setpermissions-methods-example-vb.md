@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249649(v=office.15)
 ms:contentKeyID: 48546390
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 953b4de8233b4c6b6271b69eed797422fe8b1505
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 93105c4a1705aa022d9bc9bb69fbe25943b6d50e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888092"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701629"
 ---
-# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="d2663-102">Пример использования методов GetPermissions и SetPermissions (VB)</span><span class="sxs-lookup"><span data-stu-id="d2663-102">GetPermissions and SetPermissions methods example (VB)</span></span>
+# <a name="getpermissions-and-setpermissions-methods-example-vb"></a><span data-ttu-id="d39b9-102">Пример использования методов GetPermissions и SetPermissions (VB)</span><span class="sxs-lookup"><span data-stu-id="d39b9-102">GetPermissions and SetPermissions methods example (VB)</span></span>
 
 
-<span data-ttu-id="d2663-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2663-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d39b9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d39b9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2663-104">В этом примере показаны методы [GetPermissions](getpermissions-method-adox.md) и [SetPermissions](setpermissions-method-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="d2663-104">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span> <span data-ttu-id="d2663-105">Приведенный ниже код предоставляет полный доступ для таблицы заказов пользователю с правами администратора.</span><span class="sxs-lookup"><span data-stu-id="d2663-105">The following code gives full access for the Orders table to the Admin user.</span></span>
+<span data-ttu-id="d39b9-104">В этом примере показаны методы [GetPermissions](getpermissions-method-adox.md) и [SetPermissions](setpermissions-method-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="d39b9-104">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span> <span data-ttu-id="d39b9-105">Приведенный ниже код предоставляет полный доступ для таблицы заказов пользователю с правами администратора.</span><span class="sxs-lookup"><span data-stu-id="d39b9-105">The following code gives full access for the Orders table to the Admin user.</span></span>
 
 ```vb 
  

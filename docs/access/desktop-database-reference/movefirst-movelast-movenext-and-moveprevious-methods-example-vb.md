@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249364(v=office.15)
 ms:contentKeyID: 48545226
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3b27f6deba6c17da3eb613da28cdfd18997e7c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: ccfa537f60021b17f23f4996f838651f9453097f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869255"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698017"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a><span data-ttu-id="408ca-102">Пример использования методов MoveFirst, MoveLast, MoveNext и MovePrevious (VB)</span><span class="sxs-lookup"><span data-stu-id="408ca-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a><span data-ttu-id="b3b08-102">Пример использования методов MoveFirst, MoveLast, MoveNext и MovePrevious (VB)</span><span class="sxs-lookup"><span data-stu-id="b3b08-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)</span></span>
 
 
-<span data-ttu-id="408ca-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="408ca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b3b08-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3b08-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="408ca-104">В этом примере используется [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) методы для перемещения указателя записи из [набора записей](recordset-object-ado.md) на основании предоставленного команды.</span><span class="sxs-lookup"><span data-stu-id="408ca-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span> <span data-ttu-id="408ca-105">Процедура MoveAny является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="408ca-105">The MoveAny procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="b3b08-104">В этом примере используется [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) методы для перемещения указателя записи из [набора записей](recordset-object-ado.md) на основании предоставленного команды.</span><span class="sxs-lookup"><span data-stu-id="b3b08-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span> <span data-ttu-id="b3b08-105">Процедура MoveAny является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="b3b08-105">The MoveAny procedure is required for this procedure to run.</span></span>
 
 ```vb 
  
