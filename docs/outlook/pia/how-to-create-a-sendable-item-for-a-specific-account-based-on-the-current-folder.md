@@ -5,12 +5,13 @@ ms:assetid: 665ebdc5-2912-4d85-ac40-835c9ef9a439
 ms:contentKeyID: 55119796
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 076677ed2eeedb269ddddc3bee201a162196db0c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: ccbbaab10dc88d50c1fad3c1eefeb5c222bc8446
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405765"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702161"
 ---
 # <a name="create-a-sendable-item-for-a-specific-account-based-on-the-current-folder"></a>Создание отправляемого элемента для определенной учетной записи на основе текущей папки
 

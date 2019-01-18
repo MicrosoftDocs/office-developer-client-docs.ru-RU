@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb646856(v=office.15)
 ms:contentKeyID: 55119826
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 667278b290e32bc5115a468b1c038d6aa63a5aff
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 3a048d090c946ff5a86fddf4b1ac8c6818e061b1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407396"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698850"
 ---
 # <a name="create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder"></a>Создание элемента Contact из файла vCard и сохранение этого элемента в папке
 

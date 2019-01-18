@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn292518(v=office.15)
 ms:contentKeyID: 55119845
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 2e97207ce594c6d52dad6767b907d75a8cbd72c3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 7cee8024a622e98be667b9e05ceba63ad79b1edf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406500"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710275"
 ---
 # <a name="create-a-helper-class-to-access-common-outlook-item-members"></a>Создание вспомогательного класса для доступа к общим элементам Outlook
 

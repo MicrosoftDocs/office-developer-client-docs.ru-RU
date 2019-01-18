@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7843a31094d2564f30000f21ee888e525f39f960
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: ce823159047410a8cea13b7eff5566cd8abaa5b9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397186"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699515"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Каноническое свойство PidTagExchangeProfileSectionId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит динамически созданных GUID используется для определения учетной записи при использовании нескольких учетных записей сервера Microsoft Exchange.
   
@@ -36,7 +36,7 @@ ms.locfileid: "25397186"
    
 ## <a name="remarks"></a>Замечания
 
-Microsoft Outlook 2010 и Microsoft Outlook 2013 поддерживает несколько учетных записей Exchange вместо одной одной учетной записи Exchange. Чтобы обеспечить несколько учетных записей Exchange, макет профилей MAPI был изменен. В Microsoft Office Outlook 2007 и более ранних версий профили содержащиеся раздела основных профиля, выделенного для параметров Exchange, такие как имя сервера, имя пользователя и файла автономной папки (OST). расположение. Эти параметры обнаружены с помощью уникального идентификатора, свойство **pbGlobalProfileSectionGuid** . Раздел, используемый для параметров Exchange называется глобального раздела профиля Exchange. Дополнительные сведения о глобальных профиля Exchange в Outlook 2007 [как открыть общий раздел профилей](https://support.microsoft.com/kb/188482)см.
+Microsoft Outlook 2010 и Microsoft Outlook 2013 поддерживает несколько учетных записей Exchange вместо одной одной учетной записи Exchange. Чтобы обеспечить несколько учетных записей Exchange, макет профилей MAPI был изменен. В Microsoft Office Outlook 2007 и более ранних версий профили содержащиеся раздела основных профиля, выделенного для параметров Exchange, такие как имя сервера, имя пользователя и файла автономной папки (OST). расположение. Эти параметры обнаружены с помощью уникального идентификатора, свойство **pbGlobalProfileSectionGuid** . Раздел, используемый для параметров Exchange называется глобального раздела профиля Exchange. 
   
 Расположение раздела основных профиля больше не достаточно для учета нескольких учетных записей Exchange. Вместо этого для каждой учетной записи Exchange в профиле раздел существует, предназначенный для параметров для этой учетной записи. Уникальный идентификатор **emsmdbUID**определяется новый раздел, используемые для параметров Exchange.
   

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/dn292515(v=office.15)
 ms:contentKeyID: 55119775
 ms.date: 09/15/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c60f7c25a10c80eed5254bb7654d80a96b7dc402
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: cfe322369707670833fc75f06993f6b961c28980
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405758"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699060"
 ---
 # <a name="whats-new-in-the-outlook-pia-reference"></a>Что нового в справочнике Outlook PIA
 
