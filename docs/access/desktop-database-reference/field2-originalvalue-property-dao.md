@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101183
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11f8d6bd01d1cbbf76dbbf45dbff4c50bf49fe59
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 3e3da5f7438ae83010c6ecc109dccf5d7a8eb9ef
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926474"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726136"
 ---
 # <a name="field2originalvalue-property-dao"></a>Свойство Field2.OriginalValue (DAO)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25926474"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Во время обновления оптимистичный пакета конфликт может возникнуть, где другой клиент изменяет тем же полем и запишите между время первого клиент получает данные и попытку обновления первого клиента. Свойство **OriginalValue** содержит значение поля во время начала последнего пакета **обновления** . Если это значение не соответствует значению фактически в базе данных, когда пакет **обновления** пытается выполнить запись в базу данных, происходит конфликт. В этом случае будет доступен через свойство **VisibleValue** новое значение в базе данных.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623026(v=office.15)
 ms:contentKeyID: 55119862
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 074a3eb7b83e4556b41549d18b81c97b96db1e6c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: cdd9654187685ceab1062fb4ae1882b2d48c68d4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407102"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711576"
 ---
 # <a name="create-a-mail-item-by-using-a-message-template"></a>Создание почтового элемента с помощью шаблона сообщения
 

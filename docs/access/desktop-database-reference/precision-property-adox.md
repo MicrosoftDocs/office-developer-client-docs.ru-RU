@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249330(v=office.15)
 ms:contentKeyID: 48545117
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 973e5e3a6d9c61a0fdc6b259a8a7b846b62af6fd
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: f05f6880a9599421189519f263cfb27bf1432325
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026108"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726164"
 ---
 # <a name="precision-property-adox"></a>Свойство Precision (ADOX)
 
@@ -24,7 +25,7 @@ ms.locfileid: "26026108"
 
 Задает и возвращает значение типа **Long** , является максимальной точности значений данных в столбце, если свойство [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) является числовым типом. **Точность** игнорируется для всех остальных типов данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение по умолчанию — нуль (0).
 

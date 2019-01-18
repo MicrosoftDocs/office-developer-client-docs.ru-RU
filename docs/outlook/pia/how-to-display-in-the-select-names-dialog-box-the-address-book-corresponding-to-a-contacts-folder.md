@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb610437(v=office.15)
 ms:contentKeyID: 55119799
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 8aa7093b26366f5aa47ce054b27eff04d48889b2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 3be678b13738fead1509f3854c7b23bd0cfc8528
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405793"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699221"
 ---
 # <a name="display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder"></a>Отображение в диалоговом окне "Выбор имен" адресной книги, соответствующей папке "Контакты"
 

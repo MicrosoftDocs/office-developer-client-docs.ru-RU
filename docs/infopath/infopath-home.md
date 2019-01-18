@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 09/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: 13aa6de0-3687-4f46-a1b6-a6e3aabf5981
 description: Здесь вы найдете инструкции, технические статьи, справочники и записи блогов, посвященные разработке решений и настройке InfoPath.
-ms.openlocfilehash: 20777234fbc23589659bc50ca44ad9cd24a178d1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: d5ca854e58b594351ec9665ebc7466d25206b06c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394127"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712878"
 ---
 # <a name="infopath"></a>InfoPath
 

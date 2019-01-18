@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm152234
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f01899833b4cf0537a4437a643f2aeedf99e586c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: df77d2375b66df907832b6ff2717427ae54a35a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996918"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726206"
 ---
 # <a name="importsharepointlist-macro-action"></a>Макрокоманда ImportSharePointList
 
@@ -26,7 +27,7 @@ ms.locfileid: "25996918"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **ImportSharePointList** состоит из следующих аргументов.
 
@@ -75,7 +76,7 @@ ms.locfileid: "25996918"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 - Это действие имеет тот же эффект, как нажатие **Списка SharePoint** в группу **импорта** на вкладке **Внешних данных** . Аргументы для действия соответствуют изменения, внесенные в мастере получение внешних данных.
 

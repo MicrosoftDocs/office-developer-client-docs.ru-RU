@@ -1,19 +1,20 @@
 ---
-title: Работа с многомерных данных
+title: Работа с многомерными данными
 TOCTitle: Working with multidimensional data
 ms:assetid: a0c9ac73-04da-cfdd-8787-15c8a53ff819
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1fc86aa61b9dda9db2246b7b5720eed31a595ea0
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 67b22219fdbbec8bf518b7be0fabd9a6adfbcf7f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998695"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726073"
 ---
-# <a name="working-with-multidimensional-data"></a>Работа с многомерных данных
+# <a name="working-with-multidimensional-data"></a>Работа с многомерными данными
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -30,7 +31,7 @@ ms.locfileid: "25998695"
 - Менеджер
 - География (естественной иерархии) — разных странах, странах, состояния и т. п.
 - Кварталов, Кварталов, месяцев, дней
-- Лет
+- Years
 - Меры — Продажи, PercentChange, BudgetedSales
 - Продукты
 

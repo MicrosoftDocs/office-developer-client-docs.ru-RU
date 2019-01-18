@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197361(v=office.15)
 ms:contentKeyID: 48546266
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b6911e325b070a8c6d62b70dfcacf96ae1dc3dc
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 9612c0713a86ed6ad34a5eff61e45efcddf6cf24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943558"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726108"
 ---
 # <a name="driverpromptenum-enumeration-dao"></a>Перечисление DriverPromptEnum (DAO)
 

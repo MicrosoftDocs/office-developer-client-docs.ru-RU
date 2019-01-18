@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - MAPI.TCHAR
 api_type:
 - COM
 ms.assetid: 7a92060b-4c30-4eba-993f-36f5f9231a4b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 357ace3267f22d751a20a12c96f108ee2f8ae1e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+localization_priority: Priority
+ms.openlocfilehash: 2b04ebe6d05cd72a59fe6d44c9138468fd7ddec1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595204"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710449"
 ---
 # <a name="tchar"></a>TCHAR
 

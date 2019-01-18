@@ -3,15 +3,15 @@ title: Справочник по MAPI для Outlook
 manager: soliver
 ms.date: 04/04/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 3d980b86-7001-4869-9780-121c6bfc7275
 description: MAPI предоставляет архитектуру обмена сообщениями для Microsoft Outlook 2013 и Outlook 2016.
-ms.openlocfilehash: cb3f02d872609189eaeff6b5b8fe865851ec89a6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 7adcf897607a0475699f61f9a771fb642a0b6854
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399978"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726444"
 ---
 # <a name="outlook-mapi-reference"></a>Справочник по MAPI для Outlook
   

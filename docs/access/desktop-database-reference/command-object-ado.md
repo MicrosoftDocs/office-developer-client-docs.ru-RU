@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7fc8648f40e38020e84393e71d0a269a6ba7a6d7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: dc582046ff1981a82fab9c9c551b0064c1e8c1de
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922267"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726017"
 ---
 # <a name="command-object-ado"></a>Объект Command (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25922267"
 
 Определяет определенной команде, которые планируется выполнить в источнике данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Использование объекта **команды** для запроса базы данных и возврата записей в объекте [набора записей](recordset-object-ado.md) для выполнения операции массового или для работы с структуры базы данных. В зависимости от функциональности поставщика некоторые **команды** семейств сайтов, методов или свойств может привести к ошибке при обращении к.
 

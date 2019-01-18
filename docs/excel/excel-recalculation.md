@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - forced calculation [excel 2007],selective recalculation [Excel 2007],functions [Excel 2007], volatile,calculation modes,recalculated cells [Excel 2007],dependence [Excel 2007],specified worksheet calculation [Excel 2007],recalculation [Excel 2007],workbook tree rebuild [Excel 2007],range calculation [Excel 2007],Excel recalculation,volatile functions [Excel 2007],functions [Excel 2007], non-volatile,active worksheet calculation [Excel 2007],dirty cells [Excel 2007],non-volatile functions [Excel 2007],forced recalculation [Excel 2007]
-localization_priority: Normal
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 70ca322173fb76eb1871d841b6246b62b3a5000a
-ms.sourcegitcommit: 539bc9a767ede52cb17c1b11ef7fac2fecd96fef
+localization_priority: Priority
+ms.openlocfilehash: 07deec5ad104c59074567725d6abf9b66711e351
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554171"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703351"
 ---
 # <a name="excel-recalculation"></a>Пересчет в Excel
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845853(v=office.15)
 ms:contentKeyID: 48543644
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6160c53dd1cab26b2b92ec023f28158635d7081
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: e27eb1bdfb9b393df76af8bdf54bc7f05fd82c2e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944468"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725961"
 ---
 # <a name="updatecriteriaenum-enumeration-dao"></a>Перечисление UpdateCriteriaEnum (DAO)
 

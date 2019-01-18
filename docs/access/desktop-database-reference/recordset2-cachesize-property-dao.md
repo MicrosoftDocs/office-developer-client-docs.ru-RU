@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052927
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 89a9b22ccb1318b0888d4332ca85858ac8313012
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 94453b5bd8f5a405c5ad5b7c8a175468df2adfa2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919369"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726381"
 ---
 # <a name="recordset2cachesize-property-dao"></a>Свойство Recordset2.CacheSize (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25919369"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение свойства **CacheSize** должен быть между 5 и 1200, но не больше, чем объем доступной памяти будет разрешено. Стандартное значение равно 100. Значение 0 отключает кэширование.
 

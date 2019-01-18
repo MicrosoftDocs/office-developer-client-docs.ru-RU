@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248791(v=office.15)
 ms:contentKeyID: 48542962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39c801e223eba83a8de6aa7dacda6d8296e77588
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: a537756483361733c087d5dc1c6bba6e649d17d6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936975"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726262"
 ---
 # <a name="fields-collection-ado"></a>Коллекция Fields (ADO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25936975"
 
 Содержит все объекты [поля](field-object-ado.md) объекта [набора записей](recordset-object-ado.md) или [записи](record-object-ado.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **набора записей** имеет коллекции **полей** , состоящих из **поля** объектов. Каждый объект **поля** соответствует столбца в **набора записей**. Можно заполнить коллекции **полей** перед открытием **набора записей** путем вызова метода [обновления](refresh-method-ado.md) в семействе сайтов.
 

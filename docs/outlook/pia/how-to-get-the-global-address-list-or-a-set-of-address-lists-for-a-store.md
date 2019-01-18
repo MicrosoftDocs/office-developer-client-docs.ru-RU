@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184631(v=office.15)
 ms:contentKeyID: 55119800
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: b27c6c6fd9cf70a691f4a2df628a342cf024d8d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 582b0e836edc361d1d8717f94a5d7490c57cd530
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406458"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719466"
 ---
 # <a name="get-the-global-address-list-or-a-set-of-address-lists-for-a-store"></a>Получение глобального списка адресов или набора списков адресов для хранилища
 
@@ -83,7 +84,7 @@ public Outlook.AddressList GetGlobalAddressList(Outlook.Store store)
 }
 ```
 
-Во втором примере кода используется метод EnumerateAddressListsForStore и функция GetAddressLists. Метод EnumerateAddressListsForStore показывает тип и порядок разрешения каждого списка адресов, определенного для текущего хранилища. EnumerateAddressListsForStore сначала получает сведения о текущем хранилище, а затем вызывает GetAddressLists, чтобы получить универсальный объект платформы .NET Framework [List\<T\>](https://msdn.microsoft.com/ru-RU/library/6sh2ey19), который содержит объекты AddressList для текущего хранилища. 
+Во втором примере кода используется метод EnumerateAddressListsForStore и функция GetAddressLists. Метод EnumerateAddressListsForStore показывает тип и порядок разрешения каждого списка адресов, определенного для текущего хранилища. EnumerateAddressListsForStore сначала получает сведения о текущем хранилище, а затем вызывает GetAddressLists, чтобы получить универсальный объект платформы .NET Framework [List\<T\>](https://msdn.microsoft.com/en-us/library/6sh2ey19), который содержит объекты AddressList для текущего хранилища. 
 
 GetAddressLists перечисляет каждый список адресов, определенный для этого сеанса, использует объект PropertyAccessor и именованное свойство MAPI https://schemas.microsoft.com/mapi/proptag/0x3D150102 для получения свойства PR\_EMSMDB\_SECTION\_UID для списка адресов и свойства PR\_EMSMDB\_SECTION\_UID текущего хранилища. GetGlobalAddressList определяет, что список адресов связан с хранилищем, если их свойства PR\_EMSMDB\_SECTION\_UID совпадают, и выводит набор списков адресов для текущего хранилища. Затем EnumerateAddressListsForStore применяет свойства [AddressListType](https://msdn.microsoft.com/library/bb610942\(v=office.15\)) и [ResolutionOrder](https://msdn.microsoft.com/library/bb646853\(v=office.15\)) объекта **AddressList**, чтобы показать тип и порядок разрешения для каждого возвращенного списка адресов.
 

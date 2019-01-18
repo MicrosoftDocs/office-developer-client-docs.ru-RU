@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ef0f4ad298e316cbae295bcf4f6c4c5349b18655
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 2098df82375ac47b7d5abe0bd63b0af2bb29ba40
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998534"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726115"
 ---
 # <a name="recordset2fillcache-method-dao"></a>Метод Recordset2.FillCache (DAO)
 
@@ -48,7 +49,7 @@ ms.locfileid: "25998534"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Строк</em></p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (<strong>Integer</strong> подтип), указывающее число строк для хранения в кэше. Если опустить аргумент значение определяется значение свойства <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong> .</p></td>
@@ -63,7 +64,7 @@ ms.locfileid: "25998534"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Кэширование повышает производительность приложения, которое получает данные с удаленного сервера. Кэш — это место в локальной памяти, в которой содержатся данные, недавно извлеченные с сервера. предполагается, что данные, вероятно, запрашивается еще раз во время выполнения приложения. Когда пользователь запрашивает данные, ядро базы данных Microsoft Access кэша для данных сначала проверяет вместо извлечение из сервера, который занимает больше времени. Кэш не сохраняет данные, которые не поступают из источника данных ODBC.
 

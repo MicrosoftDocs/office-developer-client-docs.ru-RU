@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - состояния [excel 2007], команды [Excel 2007], функции листов [Excel 2007], функции листа макросов [Excel 2007], состояния Excel
-localization_priority: Normal
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 60977216663fb2492f425a9b7c855b77815f0e7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: c941ba7445f1f0598bf044b5f177ad576df0137c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807179"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716238"
 ---
 # <a name="excel-commands-functions-and-states"></a>Команды, функции и состояния Excel
 

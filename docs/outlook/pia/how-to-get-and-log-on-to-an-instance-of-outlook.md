@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff462097(v=office.15)
 ms:contentKeyID: 55119926
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 6aa4ecb0b6d9a3082759c7a3b0b4a5f677d1556e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 4445d0665ea5a3d36a5ff7c92b5a46cfe4fffaa8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406465"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721187"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>Получение экземпляра Outlook и вход в него
 
@@ -24,7 +25,7 @@ ms.locfileid: "25406465"
 
 В следующем примере кода используется метод GetApplicationObject класса Sample, который реализован в рамках проекта надстройки Outlook. Каждый проект добавляет ссылку на основную сборку взаимодействия Outlook на основе пространства имен [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)).
 
-Метод GetApplicationObject использует классы из библиотеки классов .NET Framework для проверки и получения процесса Outlook, запущенного на локальном компьютере. При этом сначала используется метод [GetProcessesByName](https://msdn.microsoft.com/ru-RU/library/wbt7d3cy) класса [Process](https://msdn.microsoft.com/ru-RU/library/ccf1tfx0) в пространстве имен [System.Diagnostics](https://msdn.microsoft.com/ru-RU/library/15t15zda) для получения массива компонентов процесса на локальном компьютере, для которых используется общее имя процесса "OUTLOOK". Для проверки наличия в массиве как минимум одного процесса Outlook метод GetApplicationObject использует запрос Microsoft LINQ. В классе [Enumerable](https://msdn.microsoft.com/ru-RU/library/bb345746) пространства имен [System.Linq](https://msdn.microsoft.com/ru-RU/library/bb336768) представлен набор методов, в том числе метод [Count](https://msdn.microsoft.com/ru-RU/library/bb357758) , реализующий универсальный интерфейс [IEnumerable\<T\>](https://msdn.microsoft.com/ru-RU/library/9eekhta0) . Так как в классе [Array](https://msdn.microsoft.com/ru-RU/library/czz5hkty) реализован интерфейс **IEnumerable(T)**, метод GetApplicationObject может применять метод **Count** к массиву, возвращаемому методом **GetProcessesByName**, для проверки наличия запущенных процессов Outlook. В случае обнаружения запущенного процесса метод GetApplicationObject с помощью метода [GetActiveObject](https://msdn.microsoft.com/ru-RU/library/xt620x09) класса [Marshal](https://msdn.microsoft.com/ru-RU/library/asx0thw2) в пространстве имен [System.Runtime.InteropServices](https://msdn.microsoft.com/library/9esea608\(v=office.15\)) для получения соответствующего экземпляра приложения Outlook и обеспечивает приведение этого объекта к объекту Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)).
+Метод GetApplicationObject использует классы из библиотеки классов .NET Framework для проверки и получения процесса Outlook, запущенного на локальном компьютере. При этом сначала используется метод [GetProcessesByName](https://msdn.microsoft.com/en-us/library/wbt7d3cy) класса [Process](https://msdn.microsoft.com/en-us/library/ccf1tfx0) в пространстве имен [System.Diagnostics](https://msdn.microsoft.com/en-us/library/15t15zda) для получения массива компонентов процесса на локальном компьютере, для которых используется общее имя процесса "OUTLOOK". Для проверки наличия в массиве как минимум одного процесса Outlook метод GetApplicationObject использует запрос Microsoft LINQ. В классе [Enumerable](https://msdn.microsoft.com/en-us/library/bb345746) пространства имен [System.Linq](https://msdn.microsoft.com/en-us/library/bb336768) представлен набор методов, в том числе метод [Count](https://msdn.microsoft.com/en-us/library/bb357758) , реализующий универсальный интерфейс [IEnumerable\<T\>](https://msdn.microsoft.com/en-us/library/9eekhta0) . Так как в классе [Array](https://msdn.microsoft.com/en-us/library/czz5hkty) реализован интерфейс **IEnumerable(T)**, метод GetApplicationObject может применять метод **Count** к массиву, возвращаемому методом **GetProcessesByName**, для проверки наличия запущенных процессов Outlook. В случае обнаружения запущенного процесса метод GetApplicationObject с помощью метода [GetActiveObject](https://msdn.microsoft.com/en-us/library/xt620x09) класса [Marshal](https://msdn.microsoft.com/en-us/library/asx0thw2) в пространстве имен [System.Runtime.InteropServices](https://msdn.microsoft.com/library/9esea608\(v=office.15\)) для получения соответствующего экземпляра приложения Outlook и обеспечивает приведение этого объекта к объекту Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)).
 
 Если на локальном компьютере не запущено приложение Outlook, метод GetApplicationObject создает новый экземпляр приложения Outlook, использует метод [Logon(Object, Object, Object, Object)](https://msdn.microsoft.com/library/bb646718\(v=office.15\)) объекта [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) для входа в профиль по умолчанию, после чего возвращает новый экземпляр в приложение Outlook.
 

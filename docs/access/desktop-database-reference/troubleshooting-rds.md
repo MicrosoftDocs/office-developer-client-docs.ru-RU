@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28bc66cb521030a9f0b1fca79bd0ccb4babe407b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 9f62bb4578cfcad978bf596648ad040552edd1a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943789"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726199"
 ---
 # <a name="troubleshooting-rds"></a>Устранение неполадок RDS
 
@@ -21,9 +22,9 @@ ms.locfileid: "25943789"
 
 - [Настройка RDS в Windows 2000](configuring-rds-on-windows-2000.md)
 - [Взаимоблокировок с уровнем изоляции чтения повторяющихся](deadlocks-with-read-repeatable-isolation-level.md)
-- [Обеспечение достаточно места для базы данных TempDB](ensuring-sufficient-tempdb-space.md)
+- [Обеспечение наличия достаточного места в TempDB](ensuring-sufficient-tempdb-space.md)
 - [Ошибка сервера Интернета: Отказано в доступе](internet-server-error-access-denied.md)
-- [Минимизация пространства использование файла журнала](minimizing-log-file-space-usage.md)
-- [Возвращает ошибку «Поток не чтение», служб удаленных рабочих СТОЛОВ](rds-returns-stream-not-read-error.md)
+- [Минимизация места, занимаемого файлом журнала](minimizing-log-file-space-usage.md)
+- [RDS возвращает ошибку "Поток не прочитан"](rds-returns-stream-not-read-error.md)
 
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184622(v=office.15)
 ms:contentKeyID: 55119807
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: c1f9e1d8e7b4c884853dda9b5c37cd7357d48b6c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: beb29c46d590938d1650dac0c862dd5f898333fc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405688"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709182"
 ---
 # <a name="specify-different-recipient-types-for-an-appointment-item"></a>Указание получателей разных типов для элемента встречи
 

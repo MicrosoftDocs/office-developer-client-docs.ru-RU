@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)
 ms:contentKeyID: 55119829
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 27fc8630c8e2eb0b491dbb5075f4c58aacec7f93
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 488e00971adb1f2fa38555039478ac830d3c9f7a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406248"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717757"
 ---
 # <a name="enumerate-and-add-categories"></a>Перечисление и добавление категорий
 
@@ -40,7 +41,7 @@ ms.locfileid: "25406248"
 
 Эти свойства возвращают значение **OLE\_COLOR**, которое зависит от свойства **Color** объекта **Category**.
 
-Элементы Outlook отображаются на основе имени категории. Каждый объект элемента имеет свойство **Categories**, в котором хранится строка с разделителями запятыми, представляющая названия категорий. (Например, для объекта [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) используется свойство **MailItem** [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\))). Это позволяет добавлять категорию для элемента, даже если этой категории нет в основном списке категорий.
+Элементы Outlook отображаются на основе имени категории. Каждый объект элемента имеет свойство **Categories**, в котором хранится строка с разделителями запятыми, представляющая названия категорий. (Например, для объекта [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) используется свойство [категории](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) **MailItem**). Это позволяет добавлять категорию для элемента, даже если этой категории нет в основном списке категорий.
 
 
 > [!NOTE]

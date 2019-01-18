@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
 ms:contentKeyID: 48548768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15cae6f3f5e258a2312fcc4702333cde53be680d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: d36a65ce8a6808f2128749bd7fbc6e468acbd279
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947548"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726129"
 ---
 # <a name="bof-eof-properties-ado"></a>Свойства BOF, EOF (ADO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25947548"
 
 **Логические** значения, возвращаемые свойства **BOF** и **EOF** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте свойства **BOF** и **EOF** , чтобы определить, содержит ли объект **набора записей** записей или ли вы уменьшилось за пределы ограничения объекта **набора записей** , при перемещении между записями.
 
@@ -112,7 +113,7 @@ MoveLast</p></th>
 <tr class="header">
 <th><p></p></th>
 <th><p>BOF</p></th>
-<th><p>ФУНКЦИЯ EOF</p></th>
+<th><p>EOF</p></th>
 </tr>
 </thead>
 <tbody>

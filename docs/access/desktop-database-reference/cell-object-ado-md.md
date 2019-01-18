@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1d34409b170f2747ee5652210379087015f83dc
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 7bb2a479789a8c5bd1825b6cb04e602e0b829dfb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944085"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725989"
 ---
 # <a name="cell-object-ado-md"></a>Объект Cell (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25944085"
 
 Представляет данные на пересечении ось координат, содержащаяся в набор ячеек.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **Cell** возвращается свойством [Item](item-property-ado-md-cellset.md) объекта [ячеек](cellset-object-ado-md.md) .
 
@@ -51,7 +52,7 @@ ms.locfileid: "25944085"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Цвет фона</p></td>
+<td><p>BackColor</p></td>
 <td><p>Цвет фона, используемый при отображении ячейки.</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +68,7 @@ ms.locfileid: "25944085"
 <td><p>Размер шрифта, используемый для отображения значения ячейки.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Цвет текста</p></td>
+<td><p>ForeColor</p></td>
 <td><p>Цвет переднего плана, используемый при отображении ячейки.</p></td>
 </tr>
 <tr class="even">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fca73b9e8a77e102ad694dde8fd9759b20c1fcaf
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: a2d3acf1b236e23522da0143d577bbcbeacbb4b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910840"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726213"
 ---
 # <a name="ado-md-objects"></a>Объекты ADO MD
 
@@ -30,7 +31,7 @@ ms.locfileid: "25910840"
 <th>Описание</th>
 </tr>
 <tr class="odd">
-<td><p><a href="axis-object-ado-md.md">Ось</a></p></td>
+<td><p><a href="axis-object-ado-md.md">Axis</a></p></td>
 <td><p>Представляет позиционные или оси фильтра набора ячеек, содержащий выбранные элементы из одного или нескольких измерений.</p></td>
 </tr>
 <tr class="even">
@@ -42,7 +43,7 @@ ms.locfileid: "25910840"
 <td><p>Представляет данные на пересечении ось координат, содержащихся в набор ячеек.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cellset-object-ado-md.md">Набор ячеек</a></p></td>
+<td><p><a href="cellset-object-ado-md.md">Cellset</a></p></td>
 <td><p>Представляет результаты запроса многомерных. Это коллекция ячеек, выбранные из кубов или других наборов ячеек.</p></td>
 </tr>
 <tr class="odd">
@@ -50,15 +51,15 @@ ms.locfileid: "25910840"
 <td><p>Представляет куб из многомерных схемы, содержащая набор связанных измерений.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="dimension-object-ado-md.md">Измерения</a></p></td>
+<td><p><a href="dimension-object-ado-md.md">Dimension</a></p></td>
 <td><p>Представляет один из измерения многомерного куба, содержащего иерархии один или несколько элементов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="hierarchy-object-ado-md.md">Иерархия</a></p></td>
+<td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
 <td><p>Представляет один способ которого можно объединить элементов измерения или &quot;суммируются. &quot; Измерения можно объединить вместе один или несколько иерархий.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="level-object-ado-md.md">Уровень</a></p></td>
+<td><p><a href="level-object-ado-md.md">Level</a></p></td>
 <td><p>Содержит набор элементов, каждый из которых содержит один и тот же ранг в иерархии.</p></td>
 </tr>
 <tr class="odd">
@@ -91,7 +92,7 @@ ms.locfileid: "25910840"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="connection-object-ado.md">Подключение</a></p></td>
+<td><p><a href="connection-object-ado.md">Connection</a></p></td>
 <td><p>Представляет открытое подключение к источнику данных.</p></td>
 </tr>
 </tbody>

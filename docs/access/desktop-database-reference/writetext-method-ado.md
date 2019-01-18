@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f2a65373add9263bac97ca20a9f29de4307599f
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 92983163a909e72c3da142ebcf63b7e0723e96af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025842"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726248"
 ---
 # <a name="writetext-method-ado"></a>Метод WriteText (ADO)
 
@@ -23,14 +24,14 @@ ms.locfileid: "26025842"
 
 *Поток*. WriteText*данных*, *Параметры*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Data* |**Строковое** значение, содержащее текст в символов для записи.|
-|*Options* |Необязательно указывать. [StreamWriteEnum](streamwriteenum.md) значение, указывающее, является ли знака разделителя строки должны быть записаны в конце указанной строки.|
+|*Данные* |**Строковое** значение, содержащее текст в символов для записи.|
+|*Варианты* |Необязательно. [StreamWriteEnum](streamwriteenum.md) значение, указывающее, является ли знака разделителя строки должны быть записаны в конце указанной строки.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **потока** без промежуточных пробелов и знаков между каждую строку, записывается заданных строк.
 

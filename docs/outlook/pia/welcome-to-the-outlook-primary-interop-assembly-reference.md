@@ -15,12 +15,13 @@ f1_keywords:
 - primary interop assembly [Outlook 2010]
 - PIA [Outlook 2010]
 - reference [Outlook 2010], primary interop assembly
-ms.openlocfilehash: cd62ea6537216a8d597b225c18472b2517842aa4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 53c50c447c6f132c562a1a22934df646347a51bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407291"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701454"
 ---
 # <a name="outlook-primary-interop-assembly-reference"></a>Справочник по основной сборке взаимодействия Outlook
 

@@ -1,19 +1,20 @@
 ---
-title: Предложение Append фигуры
+title: Предложение Append команды Shape
 TOCTitle: Shape Append clause
 ms:assetid: 8f29afc3-fb93-4439-b67b-cad0eed0bda9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7eab008a03cf016edc259ef5e9d41cf320e85c8c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 40c35e8b2c3fb3f0b92bf261b62c252a61a367b4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944853"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726353"
 ---
-# <a name="shape-append-clause"></a>Предложение Append фигуры
+# <a name="shape-append-clause"></a>Предложение Append команды Shape
 
 
 **Применимо к**: Access 2013, Office 2013
@@ -104,7 +105,7 @@ SHAPE [parent-command [[AS] parent-alias]] APPEND column-list
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При построении команды поставщика из введенных пользователем данных как часть команды ФИГУРЫ ФИГУРА считать пользовательские команды поставщика непрозрачную строку и передавайте их точно к поставщику. Например в следующую команду ФИГУРЫ
 
@@ -124,10 +125,10 @@ SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO 
 
 В этом разделе содержатся следующие разделы:
 
-- [Операция для команд без параметров](operation-of-non-parameterized-commands.md)
+- [Операция команды без параметров](operation-of-non-parameterized-commands.md)
 
-- [Операция для команд с параметрами](operation-of-parameterized-commands.md)
+- [Операция параметризованные команды](operation-of-parameterized-commands.md)
 
-- [Гибридные команды](hybrid-commands.md)
+- [Гибридные команд](hybrid-commands.md)
 
-- [Предложения COMPUTE для промежуточных фигур](intervening-shape-compute-clauses.md)
+- [Промежуточных предложений COMPUTE фигуры](intervening-shape-compute-clauses.md)
