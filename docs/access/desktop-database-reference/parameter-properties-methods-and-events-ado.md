@@ -6,35 +6,36 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249125(v=office.15)
 ms:contentKeyID: 48544173
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 136d2470533a7fc8176a347a03cd1941531972aa
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 645aa1e57515f4908b8af5312b377f69cbabee76
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945567"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713585"
 ---
-# <a name="parameter-properties-methods-and-events-ado"></a><span data-ttu-id="ff9c7-102">Параметрические свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="ff9c7-102">Parameter properties, methods, and events (ADO)</span></span>
+# <a name="parameter-properties-methods-and-events-ado"></a><span data-ttu-id="79b9b-102">Параметрические свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="79b9b-102">Parameter properties, methods, and events (ADO)</span></span>
 
-<span data-ttu-id="ff9c7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ff9c7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="79b9b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79b9b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="ff9c7-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="ff9c7-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="79b9b-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="79b9b-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="ff9c7-105">Свойство Attributes</span><span class="sxs-lookup"><span data-stu-id="ff9c7-105">Attributes property</span></span>](attributes-property-ado.md)
-- [<span data-ttu-id="ff9c7-106">Свойство Direction</span><span class="sxs-lookup"><span data-stu-id="ff9c7-106">Direction property</span></span>](direction-property-ado.md)
-- [<span data-ttu-id="ff9c7-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="ff9c7-107">Name property</span></span>](name-property-ado.md)
-- [<span data-ttu-id="ff9c7-108">Свойство NumericScale</span><span class="sxs-lookup"><span data-stu-id="ff9c7-108">NumericScale property</span></span>](numericscale-property-ado.md)
-- [<span data-ttu-id="ff9c7-109">Свойство точности</span><span class="sxs-lookup"><span data-stu-id="ff9c7-109">Precision property</span></span>](precision-property-ado.md)
-- [<span data-ttu-id="ff9c7-110">Коллекция Properties</span><span class="sxs-lookup"><span data-stu-id="ff9c7-110">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="ff9c7-111">Свойство Size</span><span class="sxs-lookup"><span data-stu-id="ff9c7-111">Size property</span></span>](size-property-ado.md)
-- [<span data-ttu-id="ff9c7-112">Свойство Type</span><span class="sxs-lookup"><span data-stu-id="ff9c7-112">Type property</span></span>](type-property-ado.md)
-- [<span data-ttu-id="ff9c7-113">Свойство Value</span><span class="sxs-lookup"><span data-stu-id="ff9c7-113">Value property</span></span>](value-property-ado.md)
+- [<span data-ttu-id="79b9b-105">Свойство Attributes</span><span class="sxs-lookup"><span data-stu-id="79b9b-105">Attributes property</span></span>](attributes-property-ado.md)
+- [<span data-ttu-id="79b9b-106">Свойство Direction</span><span class="sxs-lookup"><span data-stu-id="79b9b-106">Direction property</span></span>](direction-property-ado.md)
+- [<span data-ttu-id="79b9b-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="79b9b-107">Name property</span></span>](name-property-ado.md)
+- [<span data-ttu-id="79b9b-108">Свойство NumericScale</span><span class="sxs-lookup"><span data-stu-id="79b9b-108">NumericScale property</span></span>](numericscale-property-ado.md)
+- [<span data-ttu-id="79b9b-109">Свойство Precision</span><span class="sxs-lookup"><span data-stu-id="79b9b-109">Precision property</span></span>](precision-property-ado.md)
+- [<span data-ttu-id="79b9b-110">Коллекция Properties</span><span class="sxs-lookup"><span data-stu-id="79b9b-110">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="79b9b-111">Свойство Size</span><span class="sxs-lookup"><span data-stu-id="79b9b-111">Size property</span></span>](size-property-ado.md)
+- [<span data-ttu-id="79b9b-112">Свойство Type</span><span class="sxs-lookup"><span data-stu-id="79b9b-112">Type property</span></span>](type-property-ado.md)
+- [<span data-ttu-id="79b9b-113">Свойство Value</span><span class="sxs-lookup"><span data-stu-id="79b9b-113">Value property</span></span>](value-property-ado.md)
 
 
-## <a name="methods"></a><span data-ttu-id="ff9c7-114">Методы</span><span class="sxs-lookup"><span data-stu-id="ff9c7-114">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="79b9b-114">Методы</span><span class="sxs-lookup"><span data-stu-id="79b9b-114">Methods</span></span>
 
-- [<span data-ttu-id="ff9c7-115">Метод AppendChunk</span><span class="sxs-lookup"><span data-stu-id="ff9c7-115">AppendChunk method</span></span>](appendchunk-method-ado.md)
+- [<span data-ttu-id="79b9b-115">Метод AppendChunk</span><span class="sxs-lookup"><span data-stu-id="79b9b-115">AppendChunk method</span></span>](appendchunk-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="ff9c7-116">Мероприятия</span><span class="sxs-lookup"><span data-stu-id="ff9c7-116">Events</span></span>
+## <a name="events"></a><span data-ttu-id="79b9b-116">События</span><span class="sxs-lookup"><span data-stu-id="79b9b-116">Events</span></span>
 
-<span data-ttu-id="ff9c7-117">Нет.</span><span class="sxs-lookup"><span data-stu-id="ff9c7-117">None.</span></span>
+<span data-ttu-id="79b9b-117">Нет.</span><span class="sxs-lookup"><span data-stu-id="79b9b-117">None.</span></span>
 

@@ -6,16 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124341(v=office.15)
 ms:contentKeyID: 52071975
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e09304418e604214b0e32f29bcac34c4ebae727
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3aff68df09f211e4e87a9dbdf6848ddf7ec8f975
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945393"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713431"
 ---
-# <a name="documents-properties-dao"></a><span data-ttu-id="17f6b-102">Свойства документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="17f6b-102">Documents properties (DAO)</span></span>
+# <a name="documents-properties-dao"></a><span data-ttu-id="28de6-102">Свойства документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="28de6-102">Documents properties (DAO)</span></span>
 
-<span data-ttu-id="17f6b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="17f6b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="28de6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="28de6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="17f6b-104">Свойство Documents.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="17f6b-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
+- [<span data-ttu-id="28de6-104">Свойство Documents.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="28de6-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
 

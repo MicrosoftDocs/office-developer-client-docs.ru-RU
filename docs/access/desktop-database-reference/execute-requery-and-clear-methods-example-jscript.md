@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249157(v=office.15)
 ms:contentKeyID: 48544306
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a291badb3f0f0ccfd13779613ccc65f2b03c2645
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0556c40823facf5bdddbbe67874d6417b416674e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869157"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711730"
 ---
-# <a name="execute-requery-and-clear-methods-example-jscript"></a><span data-ttu-id="d8697-102">Пример использования методов Execute, Requery и Clear (JScript)</span><span class="sxs-lookup"><span data-stu-id="d8697-102">Execute, Requery, and Clear methods example (JScript)</span></span>
+# <a name="execute-requery-and-clear-methods-example-jscript"></a><span data-ttu-id="4d64f-102">Пример использования методов Execute, Requery и Clear (JScript)</span><span class="sxs-lookup"><span data-stu-id="4d64f-102">Execute, Requery, and Clear methods example (JScript)</span></span>
 
 
-<span data-ttu-id="d8697-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8697-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4d64f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d64f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d8697-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="d8697-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="d8697-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="d8697-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="d8697-106">(Семейство **Errors** осуществляется через объект **подключения** из свойства [ActiveConnection](activeconnection-property-ado.md) [набора записей](recordset-object-ado.md)). Имя файла **ExecuteJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="d8697-106">(The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) Name the file **ExecuteJS.asp**.</span></span>
+<span data-ttu-id="4d64f-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="4d64f-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="4d64f-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="4d64f-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="4d64f-106">(Семейство **Errors** осуществляется через объект **подключения** из свойства [ActiveConnection](activeconnection-property-ado.md) [набора записей](recordset-object-ado.md)). Имя файла **ExecuteJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="4d64f-106">(The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) Name the file **ExecuteJS.asp**.</span></span>
 
 ```javascript 
  

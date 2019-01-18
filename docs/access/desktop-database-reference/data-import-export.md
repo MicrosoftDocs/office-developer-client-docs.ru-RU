@@ -6,22 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)
 ms:contentKeyID: 52071871
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c5a6e599dd43dced4c63a09f6060f1a904f683e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 767d80e8b3c73a78bb1401c4d3ffd729e0ce8bc0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927776"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713641"
 ---
-# <a name="data-importexport"></a><span data-ttu-id="9c704-102">Импорт или экспорт данных</span><span class="sxs-lookup"><span data-stu-id="9c704-102">Data import/export</span></span>
+# <a name="data-importexport"></a><span data-ttu-id="47113-102">Импорт и экспорт данных</span><span class="sxs-lookup"><span data-stu-id="47113-102">Data import/export</span></span>
 
-<span data-ttu-id="9c704-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c704-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="47113-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="47113-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9c704-104">Макрокоманда RunSavedImportExport</span><span class="sxs-lookup"><span data-stu-id="9c704-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
-- [<span data-ttu-id="9c704-105">Макрокоманда EMailDatabaseObject</span><span class="sxs-lookup"><span data-stu-id="9c704-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
-- [<span data-ttu-id="9c704-106">Макрокоманда ExportWithFormatting</span><span class="sxs-lookup"><span data-stu-id="9c704-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
-- [<span data-ttu-id="9c704-107">Макрокоманда ImportExportData</span><span class="sxs-lookup"><span data-stu-id="9c704-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
-- [<span data-ttu-id="9c704-108">Макрокоманда ImportExportSpreadsheet</span><span class="sxs-lookup"><span data-stu-id="9c704-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
-- [<span data-ttu-id="9c704-109">Макрокоманда ImportExportText</span><span class="sxs-lookup"><span data-stu-id="9c704-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
-- [<span data-ttu-id="9c704-110">Макрокоманда ImportSharePointList</span><span class="sxs-lookup"><span data-stu-id="9c704-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
+- [<span data-ttu-id="47113-104">Макрокоманда RunSavedImportExport</span><span class="sxs-lookup"><span data-stu-id="47113-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
+- [<span data-ttu-id="47113-105">Макрокоманда EMailDatabaseObject</span><span class="sxs-lookup"><span data-stu-id="47113-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
+- [<span data-ttu-id="47113-106">Макрокоманда ExportWithFormatting</span><span class="sxs-lookup"><span data-stu-id="47113-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
+- [<span data-ttu-id="47113-107">Макрокоманда ImportExportData</span><span class="sxs-lookup"><span data-stu-id="47113-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
+- [<span data-ttu-id="47113-108">Макрокоманда ImportExportSpreadsheet</span><span class="sxs-lookup"><span data-stu-id="47113-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
+- [<span data-ttu-id="47113-109">Макрокоманда ImportExportText</span><span class="sxs-lookup"><span data-stu-id="47113-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
+- [<span data-ttu-id="47113-110">Макрокоманда ImportSharePointList</span><span class="sxs-lookup"><span data-stu-id="47113-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
 

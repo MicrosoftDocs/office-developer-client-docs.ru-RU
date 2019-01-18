@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250228(v=office.15)
 ms:contentKeyID: 48548633
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cb6cf12c7b2683d5c8f35fd28bee2f9eedff387
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e1971a27a6570ceff621c4b8c0b66db7e6224196
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920160"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713186"
 ---
-# <a name="catalog-object-adox-reference"></a><span data-ttu-id="f93c6-102">Каталог ссылку на объект (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f93c6-102">Catalog object (ADOX) reference</span></span>
+# <a name="catalog-object-adox-reference"></a><span data-ttu-id="ac91a-102">Каталог ссылку на объект (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ac91a-102">Catalog object (ADOX) reference</span></span>
 
-<span data-ttu-id="f93c6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f93c6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac91a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac91a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f93c6-104">Объект Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f93c6-104">Catalog object (ADOX)</span></span>](catalog-object-adox.md)
-- [<span data-ttu-id="f93c6-105">Свойства, методы и события объекта Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f93c6-105">Catalog properties, methods, and events (ADOX)</span></span>](catalog-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="ac91a-104">Объект Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ac91a-104">Catalog object (ADOX)</span></span>](catalog-object-adox.md)
+- [<span data-ttu-id="ac91a-105">Свойства, методы и события объекта Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ac91a-105">Catalog properties, methods, and events (ADOX)</span></span>](catalog-properties-methods-and-events-adox.md)
 
