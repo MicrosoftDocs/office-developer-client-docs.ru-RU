@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249803(v=office.15)
 ms:contentKeyID: 48547008
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d66038840a2566e90f34fc5e58d1c85267cc3c5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 582acdd8500060cc340bb98d8335346f688f473a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879720"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707320"
 ---
-# <a name="execute-requery-and-clear-methods-example-vc"></a><span data-ttu-id="f11b2-102">Пример использования методов Execute, Requery и Clear (VC++)</span><span class="sxs-lookup"><span data-stu-id="f11b2-102">Execute, Requery, and Clear methods example (VC++)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vc"></a><span data-ttu-id="b61c7-102">Пример использования методов Execute, Requery и Clear (VC++)</span><span class="sxs-lookup"><span data-stu-id="b61c7-102">Execute, Requery, and Clear methods example (VC++)</span></span>
 
 
-<span data-ttu-id="f11b2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f11b2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b61c7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b61c7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f11b2-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="f11b2-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="f11b2-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="f11b2-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="f11b2-106">Функции ExecuteCommand и PrintOutput, необходимые для выполнения этого примера.</span><span class="sxs-lookup"><span data-stu-id="f11b2-106">The ExecuteCommand and PrintOutput functions are required for this example to run.</span></span>
+<span data-ttu-id="b61c7-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="b61c7-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="b61c7-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="b61c7-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="b61c7-106">Функции ExecuteCommand и PrintOutput, необходимые для выполнения этого примера.</span><span class="sxs-lookup"><span data-stu-id="b61c7-106">The ExecuteCommand and PrintOutput functions are required for this example to run.</span></span>
 
 ```cpp 
  

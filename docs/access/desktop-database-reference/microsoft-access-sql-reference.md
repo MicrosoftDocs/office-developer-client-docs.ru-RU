@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123881(v=office.15)
 ms:contentKeyID: 52071521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b38b0ff8e2d0ca7e02304ad76bf7a575be9837f
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: a08e91bfc1172c0a06a8c39eb9221d7f810c8f89
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936240"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709546"
 ---
-# <a name="microsoft-access-sql-reference"></a><span data-ttu-id="489af-102">Справочник по Microsoft Access SQL</span><span class="sxs-lookup"><span data-stu-id="489af-102">Microsoft Access SQL reference</span></span>
+# <a name="microsoft-access-sql-reference"></a><span data-ttu-id="72a88-102">Справочник по Microsoft Access SQL</span><span class="sxs-lookup"><span data-stu-id="72a88-102">Microsoft Access SQL reference</span></span>
 
-<span data-ttu-id="489af-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="489af-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="72a88-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="72a88-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="489af-104">Обзор справочника по Access SQL</span><span class="sxs-lookup"><span data-stu-id="489af-104">Overview of the Access SQL reference</span></span>](overview-of-the-access-sql-reference.md)
-- [<span data-ttu-id="489af-105">Язык описания данных (DDL)</span><span class="sxs-lookup"><span data-stu-id="489af-105">Data definition language (DDL)</span></span>](data-definition-language.md)
-- [<span data-ttu-id="489af-106">Язык обработки данных</span><span class="sxs-lookup"><span data-stu-id="489af-106">Data manipulation language</span></span>](data-manipulation-language.md)
-- [<span data-ttu-id="489af-107">Параметры реестра Windows для внешних источников данных</span><span class="sxs-lookup"><span data-stu-id="489af-107">Windows registry settings for external data sources</span></span>](windows-registry-settings-for-external-data-sources.md)
+- [<span data-ttu-id="72a88-104">Обзор справочника по Access SQL</span><span class="sxs-lookup"><span data-stu-id="72a88-104">Overview of the Access SQL reference</span></span>](overview-of-the-access-sql-reference.md)
+- [<span data-ttu-id="72a88-105">Язык описания данных (DDL)</span><span class="sxs-lookup"><span data-stu-id="72a88-105">Data definition language (DDL)</span></span>](data-definition-language.md)
+- [<span data-ttu-id="72a88-106">Язык обработки данных</span><span class="sxs-lookup"><span data-stu-id="72a88-106">Data manipulation language</span></span>](data-manipulation-language.md)
+- [<span data-ttu-id="72a88-107">Параметры реестра Windows для внешних источников данных</span><span class="sxs-lookup"><span data-stu-id="72a88-107">Windows registry settings for external data sources</span></span>](windows-registry-settings-for-external-data-sources.md)
 

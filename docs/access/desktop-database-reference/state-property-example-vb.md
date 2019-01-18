@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
 ms:contentKeyID: 48548366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d4aed1d2cbefaa8a43017b7a8ae216ddc0610d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0fee1be7c599dbab649652331c958978916d3ad2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871271"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714320"
 ---
-# <a name="state-property-example-vb"></a><span data-ttu-id="a25a2-102">Пример использования свойства State (VB)</span><span class="sxs-lookup"><span data-stu-id="a25a2-102">State property example (VB)</span></span>
+# <a name="state-property-example-vb"></a><span data-ttu-id="fea91-102">Пример использования свойства State (VB)</span><span class="sxs-lookup"><span data-stu-id="fea91-102">State property example (VB)</span></span>
 
 
-<span data-ttu-id="a25a2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a25a2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fea91-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fea91-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a25a2-104">В этом примере используется свойство [состояние](state-property-ado.md) для отображения сообщения во время открытия асинхронных подключений и выполнении асинхронных команд.</span><span class="sxs-lookup"><span data-stu-id="a25a2-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="fea91-104">В этом примере используется свойство [состояние](state-property-ado.md) для отображения сообщения во время открытия асинхронных подключений и выполнении асинхронных команд.</span><span class="sxs-lookup"><span data-stu-id="fea91-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```vb 
  

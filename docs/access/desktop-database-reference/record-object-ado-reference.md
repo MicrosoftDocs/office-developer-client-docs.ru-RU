@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
 ms:contentKeyID: 48543507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0250a7830408201498b68d796eee3ecf255d1e52
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 98e62229cdd0422e03ce83e0f6c7968d4ece7cf3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929764"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708755"
 ---
-# <a name="record-object-ado-reference"></a><span data-ttu-id="d25fb-102">Справочник по записи объектов (ADO)</span><span class="sxs-lookup"><span data-stu-id="d25fb-102">Record object (ADO) reference</span></span>
+# <a name="record-object-ado-reference"></a><span data-ttu-id="9be41-102">Справочник по записи объектов (ADO)</span><span class="sxs-lookup"><span data-stu-id="9be41-102">Record object (ADO) reference</span></span>
 
-<span data-ttu-id="d25fb-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d25fb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9be41-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9be41-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d25fb-104">Объект Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="d25fb-104">Record object (ADO)</span></span>](record-object-ado.md)
-- [<span data-ttu-id="d25fb-105">Запись свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="d25fb-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="9be41-104">Объект Record (ADO)</span><span class="sxs-lookup"><span data-stu-id="9be41-104">Record object (ADO)</span></span>](record-object-ado.md)
+- [<span data-ttu-id="9be41-105">Запись свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="9be41-105">Record properties, methods, and events (ADO)</span></span>](record-properties-methods-and-events-ado.md)
 

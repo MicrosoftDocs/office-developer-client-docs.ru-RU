@@ -10,26 +10,27 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45e6933d01a4c47253c90857d9c42bf0ab386c16
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997568"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715608"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a><span data-ttu-id="385e5-102">Метод DBEngine.RegisterDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="385e5-102">DBEngine.RegisterDatabase method (DAO)</span></span>
+# <a name="dbengineregisterdatabase-method-dao"></a><span data-ttu-id="078f2-102">Метод DBEngine.RegisterDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="078f2-102">DBEngine.RegisterDatabase method (DAO)</span></span>
 
-<span data-ttu-id="385e5-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="385e5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="078f2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="078f2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="385e5-104">Вводит сведения о подключении к источнику данных ODBC в реестре Windows.</span><span class="sxs-lookup"><span data-stu-id="385e5-104">Enters connection information for an ODBC data source in the Windows Registry.</span></span> <span data-ttu-id="385e5-105">Драйвер ODBC требуются данные подключения при открытии источника данных во время сеанса.</span><span class="sxs-lookup"><span data-stu-id="385e5-105">The ODBC driver needs connection information when the ODBC data source is opened during a session.</span></span>
+<span data-ttu-id="078f2-104">Вводит сведения о подключении к источнику данных ODBC в реестре Windows.</span><span class="sxs-lookup"><span data-stu-id="078f2-104">Enters connection information for an ODBC data source in the Windows Registry.</span></span> <span data-ttu-id="078f2-105">Драйвер ODBC требуются данные подключения при открытии источника данных во время сеанса.</span><span class="sxs-lookup"><span data-stu-id="078f2-105">The ODBC driver needs connection information when the ODBC data source is opened during a session.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="385e5-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="385e5-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="078f2-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="078f2-106">Syntax</span></span>
 
-<span data-ttu-id="385e5-107">*выражение* . RegisterDatabase (***уведомления о доставке***, ***драйвер***, ***Автоматическая***, ***атрибуты***)</span><span class="sxs-lookup"><span data-stu-id="385e5-107">*expression* .RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)</span></span>
+<span data-ttu-id="078f2-107">*выражение* . RegisterDatabase (***уведомления о доставке***, ***драйвер***, ***Автоматическая***, ***атрибуты***)</span><span class="sxs-lookup"><span data-stu-id="078f2-107">*expression* .RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)</span></span>
 
-<span data-ttu-id="385e5-108">*выражение* Переменная, которая представляет собой объект- **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="385e5-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="078f2-108">*выражение* Переменная, которая представляет собой объект- **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="078f2-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="385e5-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="385e5-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="078f2-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="078f2-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,52 +41,52 @@ ms.locfileid: "25997568"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="385e5-110">Имя</span><span class="sxs-lookup"><span data-stu-id="385e5-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="385e5-111">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="385e5-111">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="385e5-112">Тип данных</span><span class="sxs-lookup"><span data-stu-id="385e5-112">Data type</span></span></p></th>
-<th><p><span data-ttu-id="385e5-113">Описание</span><span class="sxs-lookup"><span data-stu-id="385e5-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="078f2-110">Имя</span><span class="sxs-lookup"><span data-stu-id="078f2-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="078f2-111">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="078f2-111">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="078f2-112">Тип данных</span><span class="sxs-lookup"><span data-stu-id="078f2-112">Data type</span></span></p></th>
+<th><p><span data-ttu-id="078f2-113">Описание</span><span class="sxs-lookup"><span data-stu-id="078f2-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="385e5-114"><em>Уведомления о доставке</em></span><span class="sxs-lookup"><span data-stu-id="385e5-114"><em>Dsn</em></span></span></p></td>
-<td><p><span data-ttu-id="385e5-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="385e5-115">Required</span></span></p></td>
-<td><p><span data-ttu-id="385e5-116"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="385e5-116"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="385e5-117">имя, используемое в методе <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="385e5-117">the name used in the <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> method.</span></span> <span data-ttu-id="385e5-118">Он ссылается на блок описательные сведения об источнике данных.</span><span class="sxs-lookup"><span data-stu-id="385e5-118">It refers to a block of descriptive information about the data source.</span></span> <span data-ttu-id="385e5-119">Например если источник данных ODBC удаленной базы данных, может быть имя сервера.</span><span class="sxs-lookup"><span data-stu-id="385e5-119">For example, if the data source is an ODBC remote database, it could be the name of the server.</span></span></p></td>
+<td><p><span data-ttu-id="078f2-114"><em>Уведомления о доставке</em></span><span class="sxs-lookup"><span data-stu-id="078f2-114"><em>Dsn</em></span></span></p></td>
+<td><p><span data-ttu-id="078f2-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="078f2-115">Required</span></span></p></td>
+<td><p><span data-ttu-id="078f2-116"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="078f2-116"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="078f2-117">имя, используемое в методе <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="078f2-117">the name used in the <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> method.</span></span> <span data-ttu-id="078f2-118">Он ссылается на блок описательные сведения об источнике данных.</span><span class="sxs-lookup"><span data-stu-id="078f2-118">It refers to a block of descriptive information about the data source.</span></span> <span data-ttu-id="078f2-119">Например если источник данных ODBC удаленной базы данных, может быть имя сервера.</span><span class="sxs-lookup"><span data-stu-id="078f2-119">For example, if the data source is an ODBC remote database, it could be the name of the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="385e5-120"><em>Драйвер</em></span><span class="sxs-lookup"><span data-stu-id="385e5-120"><em>Driver</em></span></span></p></td>
-<td><p><span data-ttu-id="385e5-121">Обязательный</span><span class="sxs-lookup"><span data-stu-id="385e5-121">Required</span></span></p></td>
-<td><p><span data-ttu-id="385e5-122"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="385e5-122"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="385e5-123">Имя драйвера ODBC.</span><span class="sxs-lookup"><span data-stu-id="385e5-123">The name of the ODBC driver.</span></span> <span data-ttu-id="385e5-124">Это не имя DLL-файла драйвера ODBC.</span><span class="sxs-lookup"><span data-stu-id="385e5-124">This isn't the name of the ODBC driver DLL file.</span></span></p></td>
+<td><p><span data-ttu-id="078f2-120"><em>Driver</em></span><span class="sxs-lookup"><span data-stu-id="078f2-120"><em>Driver</em></span></span></p></td>
+<td><p><span data-ttu-id="078f2-121">Обязательный</span><span class="sxs-lookup"><span data-stu-id="078f2-121">Required</span></span></p></td>
+<td><p><span data-ttu-id="078f2-122"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="078f2-122"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="078f2-123">Имя драйвера ODBC.</span><span class="sxs-lookup"><span data-stu-id="078f2-123">The name of the ODBC driver.</span></span> <span data-ttu-id="078f2-124">Это не имя DLL-файла драйвера ODBC.</span><span class="sxs-lookup"><span data-stu-id="078f2-124">This isn't the name of the ODBC driver DLL file.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="385e5-125"><em>Автоматическая</em></span><span class="sxs-lookup"><span data-stu-id="385e5-125"><em>Silent</em></span></span></p></td>
-<td><p><span data-ttu-id="385e5-126">Обязательный</span><span class="sxs-lookup"><span data-stu-id="385e5-126">Required</span></span></p></td>
-<td><p><span data-ttu-id="385e5-127"><strong>Boolean</strong></span><span class="sxs-lookup"><span data-stu-id="385e5-127"><strong>Boolean</strong></span></span></p></td>
-<td><p><span data-ttu-id="385e5-128"><strong>Значение true,</strong> Если вы не хотите отображение диалоговых окон драйвера ODBC, запрашивающие сведения; или <strong>значение False,</strong> Если необходимо отобразить диалоговые окна драйвера ODBC.</span><span class="sxs-lookup"><span data-stu-id="385e5-128"><strong>True</strong> if you don't want to display the ODBC driver dialog boxes that prompt for driver-specific information; or <strong>False</strong> if you want to display the ODBC driver dialog boxes.</span></span> <span data-ttu-id="385e5-129">Если автоматическая имеет <strong>значение True</strong>, атрибуты должно содержать все необходимые сведения или диалоговые окна отображаются все равно.</span><span class="sxs-lookup"><span data-stu-id="385e5-129">If silent is <strong>True</strong>, attributes must contain all the necessary driver-specific information or the dialog boxes are displayed anyway.</span></span></p></td>
+<td><p><span data-ttu-id="078f2-125"><em>Автоматическая</em></span><span class="sxs-lookup"><span data-stu-id="078f2-125"><em>Silent</em></span></span></p></td>
+<td><p><span data-ttu-id="078f2-126">Обязательный</span><span class="sxs-lookup"><span data-stu-id="078f2-126">Required</span></span></p></td>
+<td><p><span data-ttu-id="078f2-127"><strong>Boolean</strong></span><span class="sxs-lookup"><span data-stu-id="078f2-127"><strong>Boolean</strong></span></span></p></td>
+<td><p><span data-ttu-id="078f2-128"><strong>Значение true,</strong> Если вы не хотите отображение диалоговых окон драйвера ODBC, запрашивающие сведения; или <strong>значение False,</strong> Если необходимо отобразить диалоговые окна драйвера ODBC.</span><span class="sxs-lookup"><span data-stu-id="078f2-128"><strong>True</strong> if you don't want to display the ODBC driver dialog boxes that prompt for driver-specific information; or <strong>False</strong> if you want to display the ODBC driver dialog boxes.</span></span> <span data-ttu-id="078f2-129">Если автоматическая имеет <strong>значение True</strong>, атрибуты должно содержать все необходимые сведения или диалоговые окна отображаются все равно.</span><span class="sxs-lookup"><span data-stu-id="078f2-129">If silent is <strong>True</strong>, attributes must contain all the necessary driver-specific information or the dialog boxes are displayed anyway.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="385e5-130"><em>Атрибуты</em></span><span class="sxs-lookup"><span data-stu-id="385e5-130"><em>Attributes</em></span></span></p></td>
-<td><p><span data-ttu-id="385e5-131">Обязательный</span><span class="sxs-lookup"><span data-stu-id="385e5-131">Required</span></span></p></td>
-<td><p><span data-ttu-id="385e5-132"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="385e5-132"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="385e5-133">Список ключевых слов для добавления к реестра Windows.</span><span class="sxs-lookup"><span data-stu-id="385e5-133">A list of keywords to be added to the Windows Registry.</span></span> <span data-ttu-id="385e5-134">Ключевые слова находятся в возврат каретки return – запятой строку.</span><span class="sxs-lookup"><span data-stu-id="385e5-134">The keywords are in a carriage-return–delimited string.</span></span></p></td>
+<td><p><span data-ttu-id="078f2-130"><em>Attributes</em></span><span class="sxs-lookup"><span data-stu-id="078f2-130"><em>Attributes</em></span></span></p></td>
+<td><p><span data-ttu-id="078f2-131">Обязательный</span><span class="sxs-lookup"><span data-stu-id="078f2-131">Required</span></span></p></td>
+<td><p><span data-ttu-id="078f2-132"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="078f2-132"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="078f2-133">Список ключевых слов для добавления к реестра Windows.</span><span class="sxs-lookup"><span data-stu-id="078f2-133">A list of keywords to be added to the Windows Registry.</span></span> <span data-ttu-id="078f2-134">Ключевые слова находятся в возврат каретки return – запятой строку.</span><span class="sxs-lookup"><span data-stu-id="078f2-134">The keywords are in a carriage-return–delimited string.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="385e5-135">Примечания</span><span class="sxs-lookup"><span data-stu-id="385e5-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="078f2-135">Замечания</span><span class="sxs-lookup"><span data-stu-id="078f2-135">Remarks</span></span>
 
-<span data-ttu-id="385e5-136">Если база данных уже зарегистрирована (сведения о подключении к уже введены) в реестре Windows при использовании метода **RegisterDatabase** обновляется сведения о подключении.</span><span class="sxs-lookup"><span data-stu-id="385e5-136">If the database is already registered (connection information is already entered) in the Windows Registry when you use the **RegisterDatabase** method, the connection information is updated.</span></span>
+<span data-ttu-id="078f2-136">Если база данных уже зарегистрирована (сведения о подключении к уже введены) в реестре Windows при использовании метода **RegisterDatabase** обновляется сведения о подключении.</span><span class="sxs-lookup"><span data-stu-id="078f2-136">If the database is already registered (connection information is already entered) in the Windows Registry when you use the **RegisterDatabase** method, the connection information is updated.</span></span>
 
-<span data-ttu-id="385e5-137">В случае сбоя метода **RegisterDatabase** по любой причине никаких изменений не производится реестра Windows, и возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="385e5-137">If the **RegisterDatabase** method fails for any reason, no changes are made to the Windows Registry, and an error occurs.</span></span>
+<span data-ttu-id="078f2-137">В случае сбоя метода **RegisterDatabase** по любой причине никаких изменений не производится реестра Windows, и возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="078f2-137">If the **RegisterDatabase** method fails for any reason, no changes are made to the Windows Registry, and an error occurs.</span></span>
 
-<span data-ttu-id="385e5-138">Дополнительные сведения о драйверы ODBC, такие как SQL Server файл справки, входящие в состав драйвера см.</span><span class="sxs-lookup"><span data-stu-id="385e5-138">For more information about ODBC drivers such as SQL Server, see the Help file provided with the driver.</span></span>
+<span data-ttu-id="078f2-138">Дополнительные сведения о драйверы ODBC, такие как SQL Server файл справки, входящие в состав драйвера см.</span><span class="sxs-lookup"><span data-stu-id="078f2-138">For more information about ODBC drivers such as SQL Server, see the Help file provided with the driver.</span></span>
 
-## <a name="example"></a><span data-ttu-id="385e5-139">Пример</span><span class="sxs-lookup"><span data-stu-id="385e5-139">Example</span></span>
+## <a name="example"></a><span data-ttu-id="078f2-139">Пример</span><span class="sxs-lookup"><span data-stu-id="078f2-139">Example</span></span>
 
-<span data-ttu-id="385e5-140">В этом примере используется метод **RegisterDatabase** для регистрации источника данных Microsoft SQL Server с именем издателей в реестре Windows.</span><span class="sxs-lookup"><span data-stu-id="385e5-140">This example uses the **RegisterDatabase** method to register a Microsoft SQL Server data source named Publishers in the Windows Registry.</span></span>
+<span data-ttu-id="078f2-140">В этом примере используется метод **RegisterDatabase** для регистрации источника данных Microsoft SQL Server с именем издателей в реестре Windows.</span><span class="sxs-lookup"><span data-stu-id="078f2-140">This example uses the **RegisterDatabase** method to register a Microsoft SQL Server data source named Publishers in the Windows Registry.</span></span>
 
 ```vb 
 Sub RegisterDatabaseX() 

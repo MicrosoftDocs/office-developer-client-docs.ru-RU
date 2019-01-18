@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249171(v=office.15)
 ms:contentKeyID: 48544372
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8fbc2edc5f01ed22c0a075178c9c33d01eaddc5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 325551763f8edded4fd6ed5c7191d827c339ddf4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880693"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710694"
 ---
-# <a name="create-method-example-vb"></a><span data-ttu-id="0a568-102">Пример использования метода Create (VB)</span><span class="sxs-lookup"><span data-stu-id="0a568-102">Create method example (VB)</span></span>
+# <a name="create-method-example-vb"></a><span data-ttu-id="cdf54-102">Пример использования метода Create (VB)</span><span class="sxs-lookup"><span data-stu-id="cdf54-102">Create method example (VB)</span></span>
 
 
-<span data-ttu-id="0a568-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a568-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cdf54-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cdf54-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0a568-104">Следующий код демонстрирует создание новой базы данных Microsoft Jet с помощью метода [Create](create-method-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="0a568-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
+<span data-ttu-id="cdf54-104">Следующий код демонстрирует создание новой базы данных Microsoft Jet с помощью метода [Create](create-method-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="cdf54-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
 
 ```vb 
  
-' BeginCreateDatabseVB 
+' BeginCreateDatabaseVB 
 Sub CreateDatabase() 
  On Error GoTo CreateDatabaseError 
  

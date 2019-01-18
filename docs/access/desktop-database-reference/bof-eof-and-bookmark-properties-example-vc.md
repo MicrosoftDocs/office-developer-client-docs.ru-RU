@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
 ms:contentKeyID: 48547914
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0465c14c8dc95becd7ddf7a28eae9db811d51e32
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d9797d1cd48c397dedcd236d8762fa0dfcef7c93
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886986"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710183"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="c9148-102">Пример использования свойств BOF, EOF и Bookmark (VC++)</span><span class="sxs-lookup"><span data-stu-id="c9148-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="a93e3-102">Пример использования свойств BOF, EOF и Bookmark (VC++)</span><span class="sxs-lookup"><span data-stu-id="a93e3-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
 
 
-<span data-ttu-id="c9148-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9148-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a93e3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a93e3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c9148-104">Первая функция в этом примере свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) используется для отображения сообщения, если пользователь пытается пропустить первой или последней записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c9148-104">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="c9148-105">Для оповещения пользователя помечает записи в наборе **записей** и вернуться к нему позже используется свойство [Закладка](bookmark-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="c9148-105">It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="a93e3-104">Первая функция в этом примере свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) используется для отображения сообщения, если пользователь пытается пропустить первой или последней записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a93e3-104">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="a93e3-105">Для оповещения пользователя помечает записи в наборе **записей** и вернуться к нему позже используется свойство [Закладка](bookmark-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="a93e3-105">It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
-<span data-ttu-id="c9148-106">Вторая функция использует свойство закладку для помещения **закладку** для каждой записи из **набора записей** в массив и затем фильтрует набора записей с помощью массива.</span><span class="sxs-lookup"><span data-stu-id="c9148-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
+<span data-ttu-id="a93e3-106">Вторая функция использует свойство закладку для помещения **закладку** для каждой записи из **набора записей** в массив и затем фильтрует набора записей с помощью массива.</span><span class="sxs-lookup"><span data-stu-id="a93e3-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
 
 ```cpp 
  
@@ -355,7 +356,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBOFCpp 
 ```
 
-<span data-ttu-id="c9148-107">**BofEofBookmark.h**</span><span class="sxs-lookup"><span data-stu-id="c9148-107">**BofEofBookmark.h**</span></span>
+<span data-ttu-id="a93e3-107">**BofEofBookmark.h**</span><span class="sxs-lookup"><span data-stu-id="a93e3-107">**BofEofBookmark.h**</span></span>
 
 ```cpp 
  
