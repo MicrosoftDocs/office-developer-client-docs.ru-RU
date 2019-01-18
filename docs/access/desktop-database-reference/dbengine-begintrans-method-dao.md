@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837255(v=office.15)
 ms:contentKeyID: 48548925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b9a9669306eb7db719714c86998483ba7f6f198
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 5672d9a202c6615e4bc1f5c367e3910887ddc7a8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026290"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700859"
 ---
 # <a name="dbenginebegintrans-method-dao"></a>Метод DBEngine.BeginTrans (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "26026290"
 
 *выражение* Переменная, которая представляет собой объект- **DBEngine** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Методы транзакции **BeginTrans** **CommitTrans**и **отката** управление обработки во время сеанса, определенные с помощью объекта **рабочей области** транзакций. Вы можете использовать эти методы с объектом **рабочей области** , когда необходимо рассматривать ряд изменений, внесенных в базы данных в сеансе как одно целое.
 
