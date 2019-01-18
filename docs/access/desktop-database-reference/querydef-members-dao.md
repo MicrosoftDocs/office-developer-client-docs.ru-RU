@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6e62d302dc1164e70d83dcbb06ac56c21898b82
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5b3afc134636d5621f38ece4530be5312e42bc74
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026262"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716147"
 ---
 # <a name="querydef-members-dao"></a>Члены QueryDef (DAO)
 
@@ -83,22 +84,22 @@ ms.locfileid: "26026262"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Возвращает дату и время создания объекта (только для рабочих областей Microsoft Access). Только для чтения <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время создания объекта (только для рабочих областей Microsoft Access). Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p><strong><a href="querydef-fields-property-dao.md">Поля</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong><a href="fields-collection-dao.md">полей</a></strong> , представляющую все хранятся объекты <strong><a href="field-object-dao.md">поля</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-maxrecords-property-dao.md">MaxRecords</a></strong></p></td>
 <td><p>Задает или возвращает максимальное число записей для возврата из запроса к источнику данных ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-name-property-dao.md">Имя</a></strong></p></td>
+<td><p><strong><a href="querydef-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Возвращает или задает имя указанного объекта. Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -136,7 +137,7 @@ ms.locfileid: "26026262"
 <p>Указывает, следует ли асинхронной операции (то есть, вызывается метод с параметром <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a> ) завершено выполнение (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-type-property-dao.md">Тип</a></strong></p></td>
+<td><p><strong><a href="querydef-type-property-dao.md">Type</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Только для чтения<strong>целое число</strong>.</p></td>
 </tr>
 <tr class="odd">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248866(v=office.15)
 ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bcfde7e343a37d65356e1f9ed8d879030913f5ed
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868786"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713781"
 ---
 # <a name="using-visual-c-extensions"></a>Использование расширений Visual C++
 
@@ -117,11 +118,11 @@ _**Привязка записи плана**_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Class</em></p></td>
+<td><p><em>Класс</em></p></td>
 <td><p>Класс определенные операции привязки и переменные C/C++.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Порядковый номер</em></p></td>
+<td><p><em>Ordinal</em></p></td>
 <td><p>Порядковый номер, начиная с одним из поля <strong>набора записей</strong> , соответствующего переменной C/C++.</p></td>
 </tr>
 <tr class="odd">
@@ -133,11 +134,11 @@ _**Привязка записи плана**_
 <td><p>Имя переменной C/C++, где будут храниться в поле <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Размер</em></p></td>
+<td><p><em>Size</em></p></td>
 <td><p>Максимальный размер <em>буфера</em>в байтах. Если <em>буфер</em> будет содержать строку переменной длины, разрешить комнаты для выполнения определенного нулю.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Состояние</em></p></td>
+<td><p><em>Status</em></p></td>
 <td><p>Имя переменной, которая появится сообщение о том, является ли содержимое <em>буфера</em> являются допустимыми и ли преобразование поля в <em>типе данных</em> прошла успешно. Наиболее важные значения для этой переменной не <strong>adFldOK</strong>, что означает, что преобразование прошло успешно; и <strong>adFldNull</strong>, что означает значение поля будет иметь тип VARIANT типа VT_NULL и не просто пустой. В следующей таблице перечислены возможные значения для <em>состояния</em> &quot;значения состояния.&quot;</p></td>
 </tr>
 <tr class="odd">
@@ -149,11 +150,11 @@ _**Привязка записи плана**_
 <td><p>Число знаков, которые могут быть представлены в числовая переменная.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Масштаб</em></p></td>
+<td><p><em>Scale</em></p></td>
 <td><p>Число десятичных знаков в числовая переменная.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Длина</em></p></td>
+<td><p><em>Length</em></p></td>
 <td><p>Имя переменной 4 байта, которая будет содержать длину данные в <em>буфер</em>.</p></td>
 </tr>
 </tbody>

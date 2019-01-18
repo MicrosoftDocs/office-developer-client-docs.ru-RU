@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249489(v=office.15)
 ms:contentKeyID: 48545726
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3520216bd6f7994826fc6cf035931068f532250
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: b68d550137e1523cb929aaaaa97e62231331c439
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943817"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714894"
 ---
 # <a name="internet-explorer-error-codes"></a>Коды ошибок Internet Explorer
 
@@ -28,7 +29,7 @@ ms.locfileid: "25943817"
 <thead>
 <tr class="header">
 <th><p>Internet Explorer (Wininet) ошибки</p></th>
-<th><p>Number</p></th>
+<th><p>Число</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>

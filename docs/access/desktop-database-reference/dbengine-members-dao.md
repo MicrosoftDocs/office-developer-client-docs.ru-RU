@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17a086e38d1654a880a7c223e7a4347455b9d31a
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1128b27385ef9f8c898fb79d05ae28d596c4af6a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937738"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712626"
 ---
 # <a name="dbengine-members-dao"></a>Члены DBEngine (DAO)
 
@@ -131,7 +132,7 @@ ms.locfileid: "25937738"
 <td><p>Возвращает версию DAO в настоящее время используется. Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="dbengine-workspaces-property-dao.md">Рабочие области</a></strong></p></td>
+<td><p><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>рабочих областей</strong> , содержащий все объекты active, Показать <strong>рабочей области</strong> . Только для чтения.</p></td>
 </tr>
 </tbody>

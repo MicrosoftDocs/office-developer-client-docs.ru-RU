@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834754(v=office.15)
 ms:contentKeyID: 48547864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e00cde4c3cc44900a0a499548a987d61763148e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: e5f77697bbf0f9231500f325545c0e6ccd9c45fe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923212"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714544"
 ---
 # <a name="querydefs-members-dao"></a>Члены QueryDefs (DAO)
 
@@ -39,11 +40,11 @@ ms.locfileid: "25923212"
 <td><p>Добавляет новый <strong>QueryDef</strong> в коллекцию <strong>QueryDefs</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydefs-delete-method-dao.md">Delete</a></strong></p></td>
+<td><p><strong><a href="querydefs-delete-method-dao.md">Удаление</a></strong></p></td>
 <td><p>Не поддерживается для данного семейства сайтов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydefs-refresh-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="querydefs-refresh-method-dao.md">Refresh</a></strong></p></td>
 <td><p>Не поддерживается для этого объекта.</p></td>
 </tr>
 </tbody>

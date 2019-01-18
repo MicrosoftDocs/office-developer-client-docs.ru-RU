@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91b452eb70ecd93cf73650c68891fd00f2dfa267
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7033c612642aa3ae6ce6c6175560438c893cde6d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920041"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711933"
 ---
 # <a name="connectiondatabase-property-dao"></a>Свойство Connection.Database (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25920041"
 
 *выражение* Переменная, которая содержит объект **подключения** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 На объект **[подключения](connection-object-dao.md)** используйте свойство **базы данных** для получения ссылки на объект **базы данных** , соответствующий **подключения**. В DAO, объект **подключения** и его соответствующего объекта **базы данных** — это просто два разных объектных переменных ссылки на тот же объект. **База данных** свойств объекта **подключения** и свойство **[Connection](database-connection-property-dao.md)** объекта **базы данных** облегчают изменять подключения к источнику данных ODBC с помощью ядро базы данных Microsoft Access, чтобы использовать технология ODBCDirect.
 

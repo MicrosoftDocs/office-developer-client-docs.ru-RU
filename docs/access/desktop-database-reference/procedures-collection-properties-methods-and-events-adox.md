@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249387(v=office.15)
 ms:contentKeyID: 48545292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c7483bd0352810ab50d203008d154ef3993026a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 263fe157076d11c05f5503012d74375a2f4bbb88
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945770"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713487"
 ---
 # <a name="procedures-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Procedures (ADOX)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25945770"
 - [Удаление метода (коллекций)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 Нет.
 

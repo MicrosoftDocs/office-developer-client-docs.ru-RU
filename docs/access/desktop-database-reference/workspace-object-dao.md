@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822782(v=office.15)
 ms:contentKeyID: 48547481
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f658822255e090594bdb43cd1b5e9ec1f30199cc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 2c734d5e0f022faec4ebb9efe2dfc2f7dd7b7979
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925746"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711583"
 ---
 # <a name="workspace-object-dao"></a>Рабочая область для объекта (DAO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25925746"
 
 Объект **рабочей области** определяет именованный сеанса для пользователя. Содержит open баз данных и предоставляет механизмы для одновременных операций и, в рабочих областях Microsoft Access безопасного поддержка рабочей группы.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Рабочая область** — это непостоянные объект, который определяет, как приложение взаимодействует с данными с помощью ядро базы данных Microsoft Access. Используйте объект **рабочей области** для управления текущего сеанса или чтобы начать сеанс обмена дополнительные. В сеансе можно открыть несколько баз данных или подключения к и управление транзакции. Например можно выполнить следующие действия.
 

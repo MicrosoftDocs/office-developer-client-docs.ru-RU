@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248902(v=office.15)
 ms:contentKeyID: 48543355
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c3d42c01d1d9d4e77169f74afcc97d147d6f5d53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: afea442aa535660b5bb618297640db8fbd546dec
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921189"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712829"
 ---
 # <a name="dimension-object-ado-md"></a>Объект Dimension (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25921189"
 
 Представляет один из измерения многомерного куба, содержащего иерархии один или несколько элементов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Со свойствами объекта **измерения** и семейств сайтов выполните следующее:
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835337(v=office.15)
 ms:contentKeyID: 48548098
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01b9a49b5b8ec9b702b3fd5beb8b03e3b2365788
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 2dc6bd5ccc607854ab59de51bdb96d9ceebe1acf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919831"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708888"
 ---
 # <a name="relationattributes-property-dao"></a>Свойство Relation.Attributes (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25919831"
 
 *выражение* Переменная, которая представляет собой объект- **связи** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объекта еще не добавляется в конец коллекции это свойство соответствует чтения и записи.
 

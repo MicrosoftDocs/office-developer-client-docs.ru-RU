@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d680c89f7188dafd216edf62bd07c80fa924a119
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 8cc0237d1419c3aba818d54811f1dbdeeaa441c3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026241"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714908"
 ---
 # <a name="catalog-object-adox"></a>Объект Catalog (ADOX)
 
@@ -20,7 +21,7 @@ ms.locfileid: "26026241"
 
 Содержит коллекции ([таблицы](tables-collection-adox.md), [представления](views-collection-adox.md), [пользователей](users-collection-adox.md), [групп](groups-collection-adox.md)и [процедуры](procedures-collection-adox.md)), которые описывают каталога схемы из источника данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **каталога** можно изменить путем добавления или удаления объектов или путем изменения существующих объектов. Некоторые поставщики могут не поддерживать все объекты **каталога** или может поддерживать только для просмотра сведений о схеме.
 

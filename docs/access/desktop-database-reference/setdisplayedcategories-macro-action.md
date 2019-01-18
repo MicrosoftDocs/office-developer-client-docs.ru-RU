@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm20026
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 985630f65508f7fca37de24f93649c8cf6047180
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f08b9a8980fc6f08a9f91366d38f65e4365a037e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920321"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711422"
 ---
 # <a name="setdisplayedcategories-macro-action"></a>Макрокоманда SetDisplayedCategories
 
@@ -24,7 +25,7 @@ ms.locfileid: "25920321"
 
 Чтобы указать, какие категории отображаются в разделе **Перейти по категории** в строке заголовка области переходов можно использовать действие **SetDisplayedCategories** . Например если вы хотите запретить пользователям переходить на панели переходов, чтобы она отображала объекты, отсортированные по **Дата создания**, можно использовать это действие для скрытия соответствующий параметр в строке заголовка раскрывающегося списка.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **SetDisplayedCategories** состоит из следующих аргументов.
 
@@ -41,18 +42,18 @@ ms.locfileid: "25920321"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Show</strong> (Отображение)</p></td>
+<td><p><strong>Show</strong></p></td>
 <td><p>Выберите <strong>Да,</strong> чтобы показать категорию или категории. Выберите <strong>Нет</strong> , чтобы скрыть их.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Категория</strong></p></td>
+<td><p><strong>Category</strong></p></td>
 <td><p>Введите или выберите имя категории, которые необходимо показать или скрыть. Оставьте поле пустым, чтобы показать или скрыть все категории.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
   - Заголовок в строке заголовка области переходов указывает, какие фильтра при их наличии, в настоящее время активно. Щелкните в любом месте панели для отображения раскрывающегося списка. Элементы, которыми управляет это действие макроса перечислены в разделе **Перейти по категории**.
 

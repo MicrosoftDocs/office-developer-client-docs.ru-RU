@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248863(v=office.15)
 ms:contentKeyID: 48543263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b71cddbeaa5ed39582d2f29482f263c9c958ca9d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 0b9f7157dc0f7805f2b10470c00d35f26977584d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931255"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714845"
 ---
 # <a name="parentsameasprev-property-ado-md"></a>Свойство ParentSameAsPrev (ADO MD)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25931255"
 
 Возвращает **логическое** значение и доступен только для чтения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это свойство поддерживается только для объектов [члена](member-object-ado-md.md) , относящегося к объекту [позиции](position-object-ado-md.md) . Ошибка происходит, когда это свойство является ссылка из объектов **члена** , относящегося к объекту [уровень](level-object-ado-md.md) .
 

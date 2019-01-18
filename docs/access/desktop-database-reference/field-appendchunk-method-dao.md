@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
 ms:contentKeyID: 48548819
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 257dd342d0c0aa171d7961ab61a69da099497688
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b1ce1c359582194ce87dfaf4f409be4303486e09
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997408"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712661"
 ---
 # <a name="fieldappendchunk-method-dao"></a>Метод Field.AppendChunk (DAO)
 
@@ -44,7 +45,7 @@ ms.locfileid: "25997408"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Функция Val</em></p></td>
+<td><p><em>Val</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Выражение типа Variant (String подтип) или переменная, содержащая данные необходимо добавить объект <strong>поля</strong> .</p></td>
@@ -53,7 +54,7 @@ ms.locfileid: "25997408"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Методы **AppendChunk** и **[GetChunk](field-getchunk-method-dao.md)** для доступа к подмножества данных можно использовать в полей Memo или Long Binary.
 

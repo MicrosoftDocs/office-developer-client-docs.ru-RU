@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa627d7c44700041209b9884374e57f7e3fa6c28
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937101"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713053"
 ---
 # <a name="database-members-dao"></a>Элементы базы данных (DAO)
 
@@ -55,7 +56,7 @@ ms.locfileid: "25937101"
 <td><p>Создает новый объект <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-execute-method-dao.md">Выполнение</a></strong></p></td>
+<td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
 <td><p>Запуск запроса или выполняет инструкции SQL на указанный объект.</p></td>
 </tr>
 <tr class="odd">
@@ -101,16 +102,16 @@ ms.locfileid: "25937101"
 <td><p>Возвращает значение, указывающее последовательность порядок сортировки в текст для сравнения строк или сортировка (только для рабочих областей Microsoft Access). Только для чтения <strong>времени</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-connect-property-dao.md">Подключение</a></strong></p></td>
+<td><p><strong><a href="database-connect-property-dao.md">Connect</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое содержит сведения об источнике открыть базу данных. Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-connection-property-dao.md">Подключение</a></strong></p></td>
+<td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
 <td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
 <p>Возвращает объект <strong><a href="connection-object-dao.md">подключения</a></strong> , соответствующий базе данных (только для рабочих областей технология ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-containers-property-dao.md">Контейнеры</a></strong></p></td>
+<td><p><strong><a href="database-containers-property-dao.md">Containers</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>контейнеров</strong> , представляющий все объекты <strong>контейнера</strong> в указанной базе данных. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
@@ -138,11 +139,11 @@ ms.locfileid: "25937101"
 <td><p>Возвращает число записей, влияет на недавно вызванного метода <strong><a href="connection-execute-method-dao.md">Execute</a></strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-recordsets-property-dao.md">Наборы записей</a></strong></p></td>
+<td><p><strong><a href="database-recordsets-property-dao.md">Recordsets</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>наборов записей</strong> , который содержит все открытые наборы записей в указанной базы данных. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-relations-property-dao.md">Отношения</a></strong></p></td>
+<td><p><strong><a href="database-relations-property-dao.md">Relations</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>отношений</strong> , который содержит все хранимые объекты <strong>отношения</strong> для указанной базы данных. Только для чтения.</p></td>
 </tr>
 <tr class="odd">

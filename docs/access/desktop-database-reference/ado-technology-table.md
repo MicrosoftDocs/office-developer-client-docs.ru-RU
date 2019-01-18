@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6489e221d52e23fa3daa94f0ec3ec200baca3144
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aac4d6371b9b34142698c91812e8cdba37551fdd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025919"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712108"
 ---
 # <a name="ado-technology-table"></a>Таблица технологий ADO
 
@@ -89,7 +90,7 @@ ms.locfileid: "26025919"
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
-<td><p><a href="errors.md">Errors</a><br/><br/><a href="ado-errors.md">Ошибки ADO</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">При создании экземпляра события ADO по языкам</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic для приложений функции</a><br/><br/><a href="chapter-12-rds-tutorial.md">Глава 12: Учебник служб удаленных рабочих СТОЛОВ</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">Использование ADO с Microsoft Visual Basic</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Примеры кода ADO в Microsoft Visual Basic</a><br/><br/></p></td>
+<td><p><a href="errors.md">сведения об ошибках</a>;<br/><br/><a href="ado-errors.md">Ошибки ADO</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">При создании экземпляра события ADO по языкам</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic для приложений функции</a><br/><br/><a href="chapter-12-rds-tutorial.md">Глава 12: Учебник служб удаленных рабочих СТОЛОВ</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">Использование ADO с Microsoft Visual Basic</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Примеры кода ADO в Microsoft Visual Basic</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
@@ -100,7 +101,7 @@ ms.locfileid: "26025919"
 <td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">При создании экземпляра события ADO по языкам</a><br/><br/><a href="rds-tutorial-visual-j.md">При помощи учебника по служб удаленных рабочих СТОЛОВ (Visual J ++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">Использование ADO с Microsoft Visual J++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Примеры кода ADO на Microsoft Visual J++</a><br/><br/></p></td>
 </tr>
 <tr class="even">
-<td><p>Visual Studio.</p></td>
+<td><p>Visual Studio</p></td>
 <td><p><a href="appendix-d-ado-samples.md">Приложении D: примеры ADO</a><br/><br/></p></td>
 </tr>
 <tr class="odd">

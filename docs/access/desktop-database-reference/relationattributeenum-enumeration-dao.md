@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834499(v=office.15)
 ms:contentKeyID: 48547787
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edcf578780a2ffe1f384aeb590c6bea16ca9376f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dbb8ca2e1a63154f17bd814a26fe79ed405765cb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945777"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711121"
 ---
 # <a name="relationattributeenum-enumeration-dao"></a>Перечисление RelationAttributeEnum (DAO)
 

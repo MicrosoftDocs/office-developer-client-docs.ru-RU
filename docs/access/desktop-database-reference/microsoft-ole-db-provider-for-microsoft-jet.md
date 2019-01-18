@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249228(v=office.15)
 ms:contentKeyID: 48544660
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39cb1288ef5e6be4f50d4ef976725122635db1dc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b4f1c46b390e1f059e57f3b7a70fc667da4b09b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884088"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712843"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Поставщик Microsoft OLE DB для Microsoft Jet
 
@@ -435,7 +436,7 @@ Microsoft.Jet.OLEDB.4.0
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>Режим</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -487,7 +488,7 @@ Microsoft.Jet.OLEDB.4.0
 <td><p>DBPROP_BYREFACCESSORS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Пароль</p></td>
+<td><p>Password</p></td>
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="even">

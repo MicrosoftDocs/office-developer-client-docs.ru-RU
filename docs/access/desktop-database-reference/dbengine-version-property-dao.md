@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052986
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1723deea7f29c59fb388a11acc5e5ffcced4abe1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7e22645127f18ad815c398fd38f9ac4615dfadc9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924598"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712787"
 ---
 # <a name="dbengineversion-property-dao"></a>Свойство DBEngine.Version (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25924598"
 
 *выражение* Переменная, которая представляет собой объект- **DBEngine** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Возвращаемое значение — это строка, которое оценивается как номер версии в форме «major.minor». Например «3.0». Номер версии продукта состоит из номера версии (3), за период и номер версии (0).
 

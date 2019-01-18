@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053424
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 74676272d9ee69555762a6eb4343f1733be401e5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 378baa8cd2923366a453a6cf23d51af0ab0df5ee
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925521"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715643"
 ---
 # <a name="dbenginerollback-method-dao"></a>Метод DBEngine.Rollback (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25925521"
 
 *выражение* Переменная, которая представляет собой объект- **DBEngine** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Методы транзакции **BeginTrans** **CommitTrans**и **отката** управление обработки во время сеанса, определенные с помощью объекта **рабочей области** транзакций. Вы можете использовать эти методы с объектом **рабочей области** , когда необходимо рассматривать ряд изменений, внесенных в базы данных в сеансе как одно целое.
 

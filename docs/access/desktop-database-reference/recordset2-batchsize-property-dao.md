@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837054(v=office.15)
 ms:contentKeyID: 48548846
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d3ab4a22bc3c86e89addd07d3fabe7d5ce0e8bc3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f615823f99e2fdaa50a051d89a90c8f85a6ec841
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921280"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711275"
 ---
 # <a name="recordset2batchsize-property-dao"></a>Свойство Recordset2.BATCHSIZE (DAO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25921280"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **BatchSize** определяет пакет размер, используемый при отправке операторов на сервер в пакет обновления. Значение свойства определяет число операторов, отправляемых на сервер в один буфер команд. По умолчанию 15 операторы отправляются на сервер в каждом пакете. Это свойство можно изменить в любое время. Если сервер базы данных не поддерживает оператор пакетной обработки, можно этому свойству присвоено значение 1, вызывающие каждого оператора отправить отдельно.
 

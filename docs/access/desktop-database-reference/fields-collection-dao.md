@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193530(v=office.15)
 ms:contentKeyID: 48544702
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79515c413918bca1b83d18abec41c78f3fd52447
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: d87d1535afeaf0740627a7af3852b1929a0e6d50
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921242"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713284"
 ---
 # <a name="fields-collection-dao"></a>Коллекции полей (DAO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25921242"
 
 Коллекции **полей** содержит все хранимые объекты **поля** **индекса**, **QueryDef**, **записей**, **отношения**или **TableDef** объекта.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Коллекции **полей** объектов **индекса**, **QueryDef**, **связь**и **TableDef** содержат спецификаций для полей представляют эти объекты. Коллекция **полей** объекта **набора записей** представляет объекты **поля** в строке данных или в записи. Использовать объекты **поля** в объекте **набора записей** для чтения и для установки значений для полей в текущей записи объекта **набора записей** .
 

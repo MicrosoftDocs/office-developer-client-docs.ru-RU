@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ca95e311f6040d5834fa24ce24d392375953990
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: b572f4ebe55da1add781ecd86df97937cfeae126
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949938"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717162"
 ---
 # <a name="nextrecordset-method-ado"></a>Метод NextRecordset (ADO)
 
@@ -27,16 +28,16 @@ ms.locfileid: "25949938"
 
 Возвращает объект **набора записей** . В этой модели синтаксис *recordset1* и *recordset2* может быть один и тот же объект **набора записей** или можно использовать отдельные объекты. При использовании отдельных объектов **наборов записей** , сброс свойства **ActiveConnection** на исходный **записей** (*recordset1*) после вызова **NextRecordset** приведет к ошибке.
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*RecordsAffected* |Необязательно указывать. **Длинные** переменной, в который поставщик возвращает число записей, которое влияет на текущей операции.|
+|*RecordsAffected* |Необязательно. **Длинные** переменной, в который поставщик возвращает число записей, которое влияет на текущей операции.|
 
 > [!NOTE]
 > Этот параметр только возвращает число записей, затронутых операцией; Возвращает число записей в инструкции select, используемый для создания **записей**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **NextRecordset** для возврата результатов следующей команды в операторе составные команду или хранимую процедуру, возвращающую несколько результатов. При открытии объекта **набора записей** на основе инструкции составные команды (например, «ВЫБЕРИТЕ \* из Таблица1. Выбор \* из таблица2») с помощью метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) на [команду](command-object-ado.md) или метод [Open](open-method-ado-recordset.md) на **набора записей**ADO выполняет только первой команды и возвращает результаты для *набора записей*. Чтобы получить доступ к результаты последующих команд в операторе, вызовите метод **NextRecordset** .
 

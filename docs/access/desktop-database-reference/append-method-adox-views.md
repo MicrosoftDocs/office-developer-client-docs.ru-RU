@@ -1,19 +1,20 @@
 ---
-title: Метод Append (коллекция Views в ADOX)
+title: Метод Append (Views в ADOX)
 TOCTitle: Append method (ADOX Views)
 ms:assetid: 202f1d0a-dc5d-84e5-daf3-3212e5bc6088
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248985(v=office.15)
 ms:contentKeyID: 48543655
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cade1b4f95cfb20d517dea1e5129c208abea5960
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9e1a6e14542f267af6a9f5bc58bb2d75a11aac77
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950169"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716156"
 ---
-# <a name="append-method-adox-views"></a>Метод Append (коллекция Views в ADOX)
+# <a name="append-method-adox-views"></a>Метод Append (Views в ADOX)
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -23,14 +24,14 @@ ms.locfileid: "25950169"
 
 *Представления*. Добавьте*имя*, *команда*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Name* |**Строковое** значение, задающее имя представления для создания.|
-|*Команда* |Объект ADO [команды](command-object-ado.md) , представляющий представление для создания.|
+|*Command* |Объект ADO [команды](command-object-ado.md) , представляющий представление для создания.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Создает новое представление источника данных с именем и атрибуты, указанные в объекте **команды** .
 

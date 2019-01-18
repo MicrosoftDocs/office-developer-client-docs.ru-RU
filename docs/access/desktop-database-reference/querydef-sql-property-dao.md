@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053054
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 43acce256d3a46fd7b01122a8502e0af502eb3e9
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c51f0da8541cf0ba2790827c58a0b017bd6ed875
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937682"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712633"
 ---
 # <a name="querydefsql-property-dao"></a>Свойство QueryDef.SQL (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25937682"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **SQL** содержит инструкции SQL, которая определяет как запись, сгруппированных и упорядоченные при выполнении запроса. Запрос можно использовать для выбора записей для включения в объект **[набора записей](recordset-object-dao.md)** . Можно также определить запросы для изменения данных без возвращения записей.
 

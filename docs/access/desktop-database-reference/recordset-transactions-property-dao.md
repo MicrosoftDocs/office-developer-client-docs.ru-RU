@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196110(v=office.15)
 ms:contentKeyID: 48545746
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c033ec6f3d80210aaeeb36e9e3eca4b80bfb070d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: b23568e0830ef07e58119d02c4d221dad4b1d015
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931318"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709637"
 ---
 # <a name="recordsettransactions-property-dao"></a>Свойство Recordset.Transactions (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25931318"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 В рабочей области Microsoft Access можно также свойство **транзакции** с или таблице добавляющий объекты **набора записей** . Моментальный снимок и прямого — только – **[набора записей](recordset-object-dao.md)** объекты типа всегда возвращает **значение False**.
 

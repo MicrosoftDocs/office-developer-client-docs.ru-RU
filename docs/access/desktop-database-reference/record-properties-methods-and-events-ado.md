@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
 ms:contentKeyID: 48547573
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 215ec344c402f69c7acb5d6235ec2dbf5677ebdf
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e8d7cbf0620d896044edd41f783180148bceae66
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945504"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710995"
 ---
 # <a name="record-properties-methods-and-events-ado"></a>Запись свойства, методы и события (ADO)
 
@@ -24,9 +25,9 @@ ms.locfileid: "25945504"
 - [Свойство Mode](mode-property-ado.md)
 - [Свойство ParentURL](parenturl-property-ado.md)
 - [Коллекция Properties](properties-collection-ado.md)
-- [Свойство типом записи](recordtype-property-ado.md)
+- [Свойство RecordType](recordtype-property-ado.md)
 - [Свойство Source (объект Record в ADO)](source-property-ado-record.md)
-- [Состояния свойства](state-property-ado.md)
+- [Свойство State](state-property-ado.md)
 
 
 ## <a name="methods"></a>Методы
@@ -34,12 +35,12 @@ ms.locfileid: "25945504"
 - [Метод Cancel](cancel-method-ado.md)
 - [Метод Close](close-method-ado.md)
 - [Метод CopyRecord](copyrecord-method-ado.md)
-- [Метод макрокоманду УдалитьЗапись](deleterecord-method-ado.md)
+- [Метод DeleteRecord](deleterecord-method-ado.md)
 - [Метод GetChildren](getchildren-method-ado.md)
 - [Метод MoveRecord](moverecord-method-ado.md)
 - [Метод Open (объект Record в ADO)](open-method-ado-record.md)
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 Нет.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3a838819b2bac097d3f2fb704ef42c9d2329e51c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: feb24e0f498e02bae01ef689a2ad62e487e314bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929904"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713501"
 ---
 # <a name="parameters-collection-ado"></a>Коллекция Parameters (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25929904"
 
 Содержит все объекты [параметров](parameter-object-ado.md) объекта [Command](command-object-ado.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Объект **команды** имеет коллекцию **параметров** , состоящих из объектов **параметров** .
 

@@ -1,19 +1,20 @@
 ---
-title: Обзор объекта команды
+title: Обзор COM-объекта
 TOCTitle: Command object overview
 ms:assetid: 3d6d81c4-4cf0-0c13-adb3-0c2c5934dc21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249166(v=office.15)
 ms:contentKeyID: 48544346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65ca58b7a2edc0397207cf7bbf6a001349ffc636
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f2c7697d4ae8b830afb53eee10e7dd59a7dc8db4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947394"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712087"
 ---
-# <a name="command-object-overview"></a>Обзор объекта команды
+# <a name="command-object-overview"></a>Обзор COM-объекта
 
 **Применимо к**: Access 2013, Office 2013
 

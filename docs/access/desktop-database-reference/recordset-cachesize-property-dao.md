@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196807(v=office.15)
 ms:contentKeyID: 48546079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3a337226d0b710394469649c0846d92b079b2ed
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 369ff9192bb592c96e17920c9771c10b70dc233b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924829"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715811"
 ---
 # <a name="recordsetcachesize-property-dao"></a>Свойство Recordset.CacheSize (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25924829"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение свойства **CacheSize** должен быть между 5 и 1200, но не больше, чем объем доступной памяти будет разрешено. Стандартное значение равно 100. Значение 0 отключает кэширование.
 

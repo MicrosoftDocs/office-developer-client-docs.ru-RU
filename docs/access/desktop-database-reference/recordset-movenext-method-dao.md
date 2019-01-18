@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845090(v=office.15)
 ms:contentKeyID: 48543142
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1f34085cf4b53bd94a9d9a7693cf68dd880e0a46
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 1b0ebe0edcfcbfac5942fc83a3ff1f99eddfea7f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922813"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711345"
 ---
 # <a name="recordsetmovenext-method-dao"></a>Метод Recordset.MoveNext (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25922813"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте методы **перемещения** для перемещения между записями без применения условие.
 

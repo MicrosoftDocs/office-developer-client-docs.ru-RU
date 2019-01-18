@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836915(v=office.15)
 ms:contentKeyID: 48548765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53a632999f1b60b078e9365c9f99e52ddec284e9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6050e2d0b97421bda7a2914f068db4019459ee7a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927881"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714495"
 ---
 # <a name="tabledefsrefresh-method-dao"></a>Метод TableDefs.Refresh (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25927881"
 
 *выражение* Переменная, которая представляет собой объект- **TableDefs** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы определить позицию, ядро базы данных Microsoft Access с помощью **поля** объектов в коллекции **полей** **QueryDef**, **набора записей**или **TableDef** объекта, используйте свойство **OrdinalPosition** Каждый объект **поля** . Изменение свойства **OrdinalPosition** объекта **поля** могут не изменить порядок **полей** объектов в коллекции только при вызове метода **обновления на**
 

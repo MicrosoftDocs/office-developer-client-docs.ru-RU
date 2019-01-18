@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194433(v=office.15)
 ms:contentKeyID: 48545034
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ebae18ecfa7d0f9b5857ef64ffc751ff25db7bd3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dca910ff7ae8fb4ce72c488829166dae1201f535
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944817"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711632"
 ---
 # <a name="tabledefattributeenum-enumeration-dao"></a>Перечисление TableDefAttributeEnum (DAO)
 

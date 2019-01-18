@@ -1,19 +1,20 @@
 ---
-title: Включение библиотеки DLL для запуска на DCOM
+title: Подготовка библиотеки DLL к работе в DCOM
 TOCTitle: Enabling a DLL to run on DCOM
 ms:assetid: b405f767-91f0-c869-d34e-7a953de49106
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9feb189221a1d447e6c2e0242240ca13784b7fe
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: b97f4e8050cf293621c7b7fc79437c89171d86fc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946463"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715783"
 ---
-# <a name="enabling-a-dll-to-run-on-dcom"></a>Включение библиотеки DLL для запуска на DCOM
+# <a name="enabling-a-dll-to-run-on-dcom"></a>Подготовка библиотеки DLL к работе в DCOM
 
 
 **Применимо к**: Access 2013, Office 2013

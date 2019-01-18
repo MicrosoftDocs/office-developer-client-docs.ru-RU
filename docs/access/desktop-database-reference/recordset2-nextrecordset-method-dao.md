@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ada4a573b691fc63a34a9daa5bd60d3aebe0c87d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 54d0e49dfbe9dc3fb87eb10af9eefe3aa2f83709
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997072"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715930"
 ---
 # <a name="recordset2nextrecordset-method-dao"></a>Метод Recordset2.NextRecordset (DAO)
 
@@ -30,9 +31,9 @@ ms.locfileid: "25997072"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Boolean
+Логический
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 В рабочей области технология ODBCDirect можно открыть **набор записей** , содержащий несколько выборку в исходный аргумент **OpenRecordset**или свойство **[SQL](querydef-sql-property-dao.md)** select запроса объекта **[QueryDef](querydef-object-dao.md)** , как показано в следующем примере.
 

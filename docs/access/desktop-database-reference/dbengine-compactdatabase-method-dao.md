@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb3deeb6e2f90c6ddbe7cdc90c5e599349ebfb10
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b50cb0453df1fa357fbd0b089af2e74fdd4b4c1e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998723"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714061"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>Метод DBEngine.CompactDatabase (DAO)
 
@@ -53,13 +54,13 @@ ms.locfileid: "25998723"
 <tr class="odd">
 <td><p><em>SrcName</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Определяет базу данных существующей, закрытой. Это может быть полный путь и имя файла, такие как &quot;C:\db1.mdb&quot;. Если расширение имени файла, необходимо указать его. Если сеть поддерживает его, можно также указать сетевой путь, таких как &quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DstName</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Имя файла (и путь) сжатии базы данных, который вы создаете. Можно также указать сетевой путь. Чтобы указать один и тот же файл базы данных в качестве SrcName нельзя использовать этот аргумент.</p></td>
 </tr>
 <tr class="odd">
@@ -77,10 +78,10 @@ ms.locfileid: "25998723"
 <td><p><em>Варианты</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Необязательно указывать. Константа или сочетание констант, которое указывает один или несколько параметров, как указано в примечания. Параметры можно использовать суммируются соответствующий констант.</p></td>
+<td><p>Необязательно. Константа или сочетание констант, которое указывает один или несколько параметров, как указано в примечания. Параметры можно использовать суммируются соответствующий констант.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>password</em></p></td>
+<td><p><em>пароль</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Строковое выражение, содержащий ключ шифрования, если база данных зашифрована. Строка &quot;; pwd =&quot; должны предшествовать текущий пароль. Этот параметр игнорируется, если включить параметр password в DstLocale.</p><p><strong>Примечание</strong>: это не рекомендуемые для использования параметра, не поддерживается в. Формат ACCDB. Для шифрования. ACCDB-файлу, используйте «pwd =» параметр string. Используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p>
@@ -90,7 +91,7 @@ ms.locfileid: "25998723"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Допустимы следующие константы для аргумента DstLocale можно использовать для указания свойство **CollatingOrder** для сравнения строк текста.
 
@@ -101,7 +102,7 @@ ms.locfileid: "25998723"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 <th><p>Порядок сортировки</p></th>
 </tr>
 </thead>

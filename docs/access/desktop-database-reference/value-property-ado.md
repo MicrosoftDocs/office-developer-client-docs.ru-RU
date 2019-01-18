@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
 ms:contentKeyID: 48548958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a61803648a0efa5f226b222fb54ce96c8aadbfe
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 00b82706d934356621ac1e41fffca61ec88e081f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999059"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715069"
 ---
 # <a name="value-property-ado"></a>Свойство Value (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25999059"
 
 Задает или возвращает значение **типа Variant** , которое указывает значение объекта. Значение по умолчанию зависит от [типа](type-property-ado.md) свойства.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте свойство **Value** задает или возвращает данные из **поля** объектов, изменять или возвращаемые значения параметра с объектами **параметров** для или установить параметры свойств с помощью **Свойства** объектов. Является ли **значение** свойства чтения и записи или только для чтения зависит от множество факторов, обратитесь к соответствующим разделам соответствующего объекта для получения дополнительных сведений.
 

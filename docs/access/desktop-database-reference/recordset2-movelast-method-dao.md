@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
 ms:contentKeyID: 48544079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 83db6ae8da804237222fc1f58e03058951d7ce41
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 829c4dd759bce86388cc65aa5b63276eec438ea0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998989"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713760"
 ---
 # <a name="recordset2movelast-method-dao"></a>Метод Recordset2.MoveLast (DAO)
 
@@ -46,14 +47,14 @@ ms.locfileid: "25998989"
 <tr class="odd">
 <td><p><em>Варианты</em></p></td>
 <td><p>Необязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Задайте значение <strong>dbRunAsync</strong> для rune вызов <strong>MoveLast</strong> асинхронно.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте методы **перемещения** для перемещения между записями без применения условие.
 

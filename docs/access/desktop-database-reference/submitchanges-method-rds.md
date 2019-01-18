@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
 ms:contentKeyID: 48548521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b5c18aa12519e9206702eb2a152e6f0d084edc9
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ea7f3e27a75b4483cb8cf46e27d4492f831cff33
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026346"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714446"
 ---
 # <a name="submitchanges-method-rds"></a>Метод SubmitChanges (RDS)
 
@@ -25,7 +26,7 @@ ms.locfileid: "26026346"
 
 *DataFactory*. SubmitChanges*подключения*, *записей*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
@@ -34,7 +35,7 @@ ms.locfileid: "26026346"
 |*Connection* |Значение типа **String** , представляющий подключение, созданных с помощью **RDS. DataControl** **Подключить** свойства объекта.|
 |*Recordset* |Объектная переменная, представляющий объект **набора записей** .|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Необходимо задать свойства [подключения](connect-property-rds.md), [сервер](server-property-rds.md)и [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) , прежде чем использовать метод **SubmitChanges** с **RDS. DataControl** объекта.
 

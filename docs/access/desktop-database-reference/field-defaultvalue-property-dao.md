@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 38ce5fe4287b298ddf48e4c6c60556ace2d567cb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 18fb4d3a4427db2b407b6a20507339fe83665c97
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928252"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711737"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Свойство Field.DefaultValue (DAO)
 
@@ -27,7 +28,7 @@ ms.locfileid: "25928252"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметр или возвращаемое значение имеет тип данных **String** , которое может содержать не более 255 знаков. Она может быть текст или выражение. Если значение свойства — это выражение, не может содержать пользовательские функции, статистические функции ядра базы данных SQL Microsoft Access или ссылки на запросы, форм или других объектов **поля** .
 

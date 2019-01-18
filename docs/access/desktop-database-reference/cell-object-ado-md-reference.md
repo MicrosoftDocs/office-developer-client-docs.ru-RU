@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249073(v=office.15)
 ms:contentKeyID: 48543975
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea920de647ca4ec70832f7aa833041bb31e138cb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: de9c239bf23c6cc1307447db4600afa720527a4d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930142"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713018"
 ---
 # <a name="cell-object-ado-md-reference"></a>Объект Cell (Справочник по ADO MD)
 

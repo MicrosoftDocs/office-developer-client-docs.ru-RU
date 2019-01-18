@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198082(v=office.15)
 ms:contentKeyID: 48546585
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2e387dee902dd0867057deec9b97d99649d7a9b4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 2764b21955670e0bc2f4962b683fac980556e366
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946036"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715904"
 ---
 # <a name="replicatypeenum-enumeration-dao"></a>Перечисление ReplicaTypeEnum (DAO)
 

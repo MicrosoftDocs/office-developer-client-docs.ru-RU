@@ -1,19 +1,20 @@
 ---
-title: Абсолютный и относительный URL-адресов
+title: Абсолютные и относительные URL-адреса
 TOCTitle: Absolute and relative URLs
 ms:assetid: 79a1f793-7154-1c13-7dfe-a1b8cd64e1ea
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 39286a3b94712c15628e6163c12ee7c8d2d3e502
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a488617dc7ba0d7d1f7e38391f8382fa1e7ed247
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882737"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710330"
 ---
-# <a name="absolute-and-relative-urls"></a>Абсолютный и относительный URL-адресов
+# <a name="absolute-and-relative-urls"></a>Абсолютные и относительные URL-адреса
 
 **Применимо к**: Access 2013, Office 2013    
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0cd2198d0578c6ec42e4bf800d95e1d7afe22786
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 515d28f0d7d99359c36df79cf3b8769d8f71e06d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998345"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715517"
 ---
 # <a name="properties-collection-dao"></a>Коллекция Properties (DAO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25998345"
 
 Коллекция **свойств** содержит все объекты **[Свойства](property-object-dao.md)** для указанного экземпляра объекта.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Каждый объект DAO, за исключением **подключения** и объектов **ошибок** содержит коллекцию **свойств** , которая имеет определенных встроенных **свойств** объектов. Эти объекты **свойство** (которые часто просто называются свойства) однозначно Создание характеристик этого экземпляра объекта.
 

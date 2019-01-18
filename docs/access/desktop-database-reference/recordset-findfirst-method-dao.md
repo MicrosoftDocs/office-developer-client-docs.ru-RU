@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194787(v=office.15)
 ms:contentKeyID: 48545170
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 489e6060fdbaa4183c006e3f422c207d9a5013ee
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b2e334dcad84d2a9c3441e76e6552c1cb04f8552
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998856"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711793"
 ---
 # <a name="recordsetfindfirst-method-dao"></a>Метод Recordset.FindFirst (DAO)
 
@@ -46,14 +47,14 @@ ms.locfileid: "25998856"
 <tr class="odd">
 <td><p><em>Criteria</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Строка, используемая для поиска записи. Это предложение WHERE в инструкции SQL, но без слова like ГДЕ.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если требуется включить все записи в поле поиска — не только те, которые соответствуют определенное условие — использовать методы **перемещения** для перемещения между записями. Чтобы найти записи в таблице тип **набора записей**, используйте метод **поиска** .
 

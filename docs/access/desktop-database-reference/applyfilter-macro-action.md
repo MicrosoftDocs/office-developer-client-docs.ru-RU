@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f6f0511a1358e8d9b0d0ee820e83cf59d2400345
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: e79ab56778f9429e7f1a985f0f81864ae4363606
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025970"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716851"
 ---
 # <a name="applyfilter-macro-action"></a>Макрокоманда ApplyFilter
 
@@ -26,7 +27,7 @@ ms.locfileid: "26025970"
 > [!NOTE]
 > Это действие можно использовать для применения инструкцию SQL только при применении серверного фильтра. Не удается применить фильтр сервера к источнику записей хранимую процедуру.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ПрименитьФильтр** имеет следующие аргументы.
 
@@ -58,7 +59,7 @@ ms.locfileid: "26025970"
 > [!NOTE]
 > Аргумент имя фильтра можно использовать при указании фильтра, который предоставляет требуемые данные. Аргумент Условие можно использовать для ввода критериев ограничения напрямую. Если вы используете оба аргумента, Microsoft Office Access 2007 применяется предложение WHERE к фильтру. Необходимо использовать один или оба элемента.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Можно применить фильтр или запрос в форму в режиме формы или таблицы.
 
