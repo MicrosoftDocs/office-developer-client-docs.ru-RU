@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
 ms:contentKeyID: 48545539
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6bd5f0f894928032e975e8eebe33b18427c5dae1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 7f1d82a792961b0be398bb0ef8c2c046d9e8b375
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891256"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726227"
 ---
-# <a name="sort-property-example-vb"></a><span data-ttu-id="1414f-102">Пример использования свойства Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="1414f-102">Sort property example (VB)</span></span>
+# <a name="sort-property-example-vb"></a><span data-ttu-id="c551d-102">Пример использования свойства Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="c551d-102">Sort property example (VB)</span></span>
 
 
-<span data-ttu-id="1414f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1414f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c551d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c551d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1414f-104">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="1414f-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="1414f-105">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="1414f-105">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="c551d-104">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="c551d-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="c551d-105">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="c551d-105">A secondary utility routine prints each row.</span></span>
 
 ```vb 
  
@@ -100,7 +101,7 @@ End Sub
 'EndSortVB 
 ```
 
-<span data-ttu-id="1414f-106">Это дополнительный служебной процедуры, печатает заданный заголовок и содержимое указанного **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="1414f-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
+<span data-ttu-id="c551d-106">Это дополнительный служебной процедуры, печатает заданный заголовок и содержимое указанного **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="c551d-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
 
 ```vb 
  
