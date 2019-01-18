@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053356
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e99fcc052ebef8af5d76490625f86f1e6dd45e16
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 0189a5163dd5e225ad34841264cf84e85785d7fb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923835"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718919"
 ---
 # <a name="tabledefconflicttable-property-dao"></a>Свойство TableDef.ConflictTable (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25923835"
 
 *выражение* Выражение, возвращающее объект **TableDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Возвращаемое значение имеет тип данных **String** , который является строкой нулевой длины ("») Если нет конфликтов таблицы или базы данных не является репликой.
 

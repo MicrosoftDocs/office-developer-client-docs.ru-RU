@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161389(v=office.15)
 ms:contentKeyID: 52074355
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbc873edcf00a1579c78e4871a0815844b9a727a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 4c7a5759e6ca39f59a030f1d591f82843d98c7ee
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924150"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722363"
 ---
 # <a name="tabledefs-object-reference-dao"></a>Ссылку на объект TableDefs (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
 ms:contentKeyID: 48548864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6db51927182008314da045021f81e6547d5d78be
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9cf773090ccb37bf4cad4aff41499ad01f966479
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026143"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699823"
 ---
 # <a name="executeoptions-property-rds"></a>Свойство ExecuteOptions (RDS)
 
@@ -50,7 +51,7 @@ ms.locfileid: "26026143"
 > [!NOTE]
 > Каждый исполняемый файл со стороны клиента, который использует эти константы необходимо предоставить объявления для них. Можно вырежьте и вставьте объявлений констант, которые будут из файла Adcvbs.inc, находящийся в папке C:\Program Files\Common Files\System\MSADC.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если **ExecuteOptions** **adcExecAsync**, затем это асинхронно выполняет следующий вызов **обновления** на [RDS. DataControl](datacontrol-object-rds.md) объекта **набора записей**.
 

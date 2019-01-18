@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 14f3cd56323b68f54228e01413f984542c7f3c1a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 1175e3903e54fd3420be43dfd9e3652d9990468b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944517"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722930"
 ---
 # <a name="messagebox-macro-action"></a>Макрокоманда MessageBox
 
@@ -19,7 +20,7 @@ ms.locfileid: "25944517"
 
 Действие **MessageBox** можно использовать для отображения окна сообщения, содержащее предупреждение или информационное сообщение. Например можно использовать действие **MessageBox** с макросами проверки. Элемент управления или запись не условие в макросе, прошедших окно сообщения можно отображать сообщение об ошибке и приведены инструкции по тип данных, который должен быть введен.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **MessageBox** имеет следующие аргументы.
 
@@ -36,7 +37,7 @@ ms.locfileid: "25944517"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Сообщение</strong></p></td>
+<td><p><strong>Message</strong></p></td>
 <td><p>Текст в окне сообщения. Введите текст сообщения в окне <strong>сообщения</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов. Можно ввести до 255 знаков или введите выражение (стоять знак равенства).</p></td>
 </tr>
 <tr class="even">
@@ -44,18 +45,18 @@ ms.locfileid: "25944517"
 <td><p>Указывает ли ваше звукового сигнала при выводе сообщения. Нажмите кнопку <strong>Да</strong> (звук сигнала) или <strong>Нет</strong> (не звук сигнала). По умолчанию используется значение <strong>Да</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Тип</strong></p></td>
+<td><p><strong>Type</strong></p></td>
 <td><p>Тип окна сообщения. Каждый тип имеет другой значок. Нажмите кнопку <strong>Нет</strong>, <strong>важных</strong>, <strong>Предупреждение?</strong>, <strong>Предупреждение!</strong>, или <strong>сведения</strong>. Значение по умолчанию — <strong>None</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Название</strong></p></td>
+<td><p><strong>Title</strong></p></td>
 <td><p>Текст, отображаемый в строке заголовка окна сообщения. Например имеется отображения панели заголовка &quot;проверка кода клиента&quot;. Если оставить этот аргумент пустым, &quot;Microsoft Access&quot; отображается.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Действие **MessageBox** можно использовать для создания форматированное сообщение об ошибке, аналогичное встроенным сообщениям об ошибках в Microsoft Access. Действие **MessageBox** позволяет ввести сообщение из трех разделов для аргумента сообщения. Разделите разделы с «@» символов.
 
@@ -82,8 +83,8 @@ ms.locfileid: "25944517"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
@@ -91,7 +92,7 @@ ms.locfileid: "25944517"
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Эхо</strong></p></td>
+<td><p><strong>Echo</strong></p></td>
 <td><p><strong>Вывод на экран</strong>: <strong>Нет</strong></p></td>
 <td><p>Остановите обновление экрана в процессе выполнения макроса.</p></td>
 </tr>
@@ -115,7 +116,7 @@ ms.locfileid: "25944517"
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>ОткрытьФорму</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Имя формы</strong>: список продуктов <strong>представления</strong>: <strong>Имя DatasheetFilter</strong>: <strong>условие отбора</strong>: [код поставщика] = [Forms]! [Поставщики]! [Код поставщика] <strong>Режим данных</strong>: <strong>Режим чтения OnlyWindow</strong>: <strong>Обычный</strong></p></td>
 <td><p>Откройте форму списка продуктов и отображение текущего поставщика продуктов.</p></td>
 </tr>
@@ -142,8 +143,8 @@ ms.locfileid: "25944517"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condition</p></th>
-<th><p>Действие</p></th>
+<th><p>Условие</p></th>
+<th><p>Action</p></th>
 <th><p>Аргументы: параметр</p></th>
 <th><p>Comment</p></th>
 </tr>
@@ -163,7 +164,7 @@ ms.locfileid: "25944517"
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>ОтменитьСобытие</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>
@@ -181,7 +182,7 @@ ms.locfileid: "25944517"
 </tr>
 <tr class="even">
 <td><p>...</p></td>
-<td><p><strong>ОтменитьСобытие</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>
@@ -199,7 +200,7 @@ ms.locfileid: "25944517"
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>ОтменитьСобытие</strong></p></td>
+<td><p><strong>CancelEvent</strong></p></td>
 <td><p></p></td>
 <td><p>Отмените событие.</p></td>
 </tr>

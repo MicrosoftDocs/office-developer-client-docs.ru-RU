@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
 ms:contentKeyID: 48547603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b46dc21b8453101299caf3f8a0fffde5f9b99c8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: babd2351775a9a3cf3128a55627be291a29ea025
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919600"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699676"
 ---
 # <a name="recordsetbof-property-dao"></a>Свойство Recordset.BOF (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25919600"
 
 *выражение* Переменная, которая представляет собой объект **набора записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойства **BOF** и **EOF** можно использовать для определения того, содержит ли объект **набора записей** ли вы уменьшилось за пределы ограничения объекта **набора записей** , при перемещении по записям или записи.
 
@@ -124,14 +125,14 @@ MoveLast</p></th>
 <tr class="header">
 <th><p></p></th>
 <th><p>BOF</p></th>
-<th><p>ФУНКЦИЯ EOF</p></th>
+<th><p>EOF</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>MoveFirst</strong> <strong>MoveLast</strong></p></td>
-<td><p><strong>Значение true</strong></p></td>
-<td><p><strong>Значение true</strong></p></td>
+<td><p><strong>True</strong></p></td>
+<td><p><strong>True</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Перемещение</strong> 0</p></td>
@@ -140,13 +141,13 @@ MoveLast</p></th>
 </tr>
 <tr class="odd">
 <td><p><strong>MovePrevious</strong>, <strong>Переместите</strong> &lt; 0</p></td>
-<td><p><strong>Значение true</strong></p></td>
+<td><p><strong>True</strong></p></td>
 <td><p>Без изменений</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MoveNext</strong>, <strong>Переместите</strong> &gt; 0</p></td>
 <td><p>Без изменений</p></td>
-<td><p><strong>Значение true</strong></p></td>
+<td><p><strong>True</strong></p></td>
 </tr>
 </tbody>
 </table>

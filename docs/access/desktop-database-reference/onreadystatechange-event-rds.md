@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249593(v=office.15)
 ms:contentKeyID: 48546126
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 87e6e7718ef99f10dc185104f1f11959e6589c89
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: ec2104634d9158d59d488b50d543cf0e57d9bd62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949847"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699732"
 ---
 # <a name="onreadystatechange-event-rds"></a>Событие onReadyStateChange (RDS)
 
@@ -27,7 +28,7 @@ onReadyStateChange
 
 Нет.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **ReadyState** отражает ход выполнения [RDS. DataControl](datacontrol-object-rds.md) как асинхронно получает данные в его объекта [набора записей](recordset-object-ado.md) . Событие **onReadyStateChange** используется для отслеживания изменений в свойстве **ReadyState** каждый раз, когда они возникают. Это эффективнее, чем периодически проверки значения свойства.
 

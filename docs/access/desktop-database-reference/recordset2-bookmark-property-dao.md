@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195857(v=office.15)
 ms:contentKeyID: 48545637
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 306962eda3430a1797cf79dc04a34d2e55e9daf8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 31791e9fb3c7081989232e36a90b184ed7e31866
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930975"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699256"
 ---
 # <a name="recordset2bookmark-property-dao"></a>Свойство Recordset2.Bookmark (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25930975"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объекта **набора записей** на основании полностью таблиц ядра базы данных Microsoft Access значение свойства **Bookmarkable** имеет значение True, а свойство **закладки** с этого набора записей. Другие базы данных могут не поддерживать закладки, однако. Например нельзя использовать закладки в любой объект **Recordset2** для связанной таблицы Paradox, не имеющей первичного ключа.
 

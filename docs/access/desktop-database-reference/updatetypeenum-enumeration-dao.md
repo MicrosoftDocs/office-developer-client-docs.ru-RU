@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196186(v=office.15)
 ms:contentKeyID: 48545800
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d38cf4554837c9c6434b7607746f2c40836ac950
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: d1e4ecbc216ab4a00dabd85f623bc134772dfd4c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944622"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706165"
 ---
 # <a name="updatetypeenum-enumeration-dao"></a>Перечисление UpdateTypeEnum (DAO)
 

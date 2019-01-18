@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191899(v=office.15)
 ms:contentKeyID: 48543816
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ad1428d9a820a2489a9051ca77c0de854e03d57
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0d655ba231466ac41902dba3a1422ca02893938f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920853"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698668"
 ---
 # <a name="recordset2updateoptions-property-dao"></a>Свойство Recordset2.UpdateOptions (DAO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25920853"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 При выполнении пакетного режима **[обновления](recordset2-update-method-dao.md)** DAO и текущей позиции пакета клиентской библиотеки создать ряд инструкций SQL UPDATE, внесите необходимые изменения. Для каждого обновления для изоляции записей, которые помечены как измененный свойством **[RecordStatus](recordset2-recordstatus-property-dao.md)** создается инструкцию SQL. Так как некоторые удаленных серверов с помощью триггеров или другие способы целостность данных, он часто необходимо ограничить поля обновляется только теми, которые повлияет переход. 
 

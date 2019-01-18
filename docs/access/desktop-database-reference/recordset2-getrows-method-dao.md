@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835959(v=office.15)
 ms:contentKeyID: 48548367
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 652bd4ce63164463d58f30a0259a7e4208f118ee
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d7b20e2f41074e9f12198477a6abf2f1f1f9f719
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998738"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699109"
 ---
 # <a name="recordset2getrows-method-dao"></a>Метод Recordset2.GetRows (DAO)
 
@@ -57,7 +58,7 @@ ms.locfileid: "25998738"
 
 Variant
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **получения строк** для копирования записей из **набора записей**. **Получение строк** возвращает двухмерный массив. Первый индекс определяет поля и второй — указывает номер строки. Например `intField` представляет это поле, и `intRecord` определяет номер строки:
 

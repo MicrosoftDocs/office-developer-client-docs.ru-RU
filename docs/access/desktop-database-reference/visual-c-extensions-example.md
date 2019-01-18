@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250305(v=office.15)
 ms:contentKeyID: 48548934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2f7bbcdc4f3ddcadfd45ba627873945ec1a3adfe
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 080281ae0deb25fa10fcdccd8577d3aab076c2cd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946916"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716497"
 ---
 # <a name="visual-c-extensions-example"></a>Пример расширений Visual C++
 

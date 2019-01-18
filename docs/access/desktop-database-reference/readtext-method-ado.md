@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
 ms:contentKeyID: 48543108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66db24f95e3f6338174be3a70ca75dbb3332adeb
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 883f74c06da83a46f9ffd1c30861d796c04b5c74
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949392"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699935"
 ---
 # <a name="readtext-method-ado"></a>Метод ReadText (ADO)
 
@@ -23,17 +24,17 @@ ms.locfileid: "25949392"
 
 *Строка* = *потока*. ReadText (*NumChars*)
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*NumChars* |Необязательно указывать. **Длинное целое** значение, задающее число символов для чтения из файла, или значение [StreamReadEnum](streamreadenum.md) . Значение по умолчанию — **adReadAll**.|
+|*NumChars* |Необязательно. **Длинное целое** значение, задающее число символов для чтения из файла, или значение [StreamReadEnum](streamreadenum.md) . Значение по умолчанию — **adReadAll**.|
 
 ## <a name="return-value"></a>Возвращаемое значение
 
 Метод **ReadText** считывает указанное число символов, строку целиком или всей потока из объекта **потока** и возвращает результирующую строку.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если *NumChar* больше, чем количество символов в потоке, возвращаются только оставшиеся символы. Чтение строки не дополняется в соответствии с *NumChar*заданной длины. Если не используются никакие символы для чтения, возвращается значение типа variant, значение которого равно null. **ReadText** не может использоваться для чтения в обратном направлении.
 

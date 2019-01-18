@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835700(v=office.15)
 ms:contentKeyID: 48548282
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 241233c65606df54feceb99903656d4d873b320b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f1467414729f4ea82bc2779eeb2bd162465b5ccd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930457"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699039"
 ---
 # <a name="field2size-property-dao"></a>Свойство Field2.Size (DAO)
 
@@ -27,7 +28,7 @@ ms.locfileid: "25930457"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объекта еще не добавляется в конец коллекции **[полей](fields-collection-dao.md)** это свойство соответствует чтения и записи.
 
@@ -48,7 +49,7 @@ ms.locfileid: "25930457"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Индекс</strong></p></td>
+<td><p><strong>Index</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
@@ -56,11 +57,11 @@ ms.locfileid: "25930457"
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Набор записей</strong></p></td>
+<td><p><strong>Recordset</strong></p></td>
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Связь</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249915(v=office.15)
 ms:contentKeyID: 48547438
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 8fa81d535a10aa0f359ba6e03b0f47048713671f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: febeb3b52eb579647c995b01d6723a5c1f1b0c1f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867855"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718310"
 ---
 # <a name="executeoptionenum"></a>ExecuteOptionEnum
 
@@ -68,7 +69,7 @@ ms.locfileid: "25867855"
 </tr>
 <tr class="odd">
 <td><p><strong>adOptionUnspecified</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Указывает, что команда не определено.</p></td>
 </tr>
 </tbody>
@@ -85,7 +86,7 @@ ms.locfileid: "25867855"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

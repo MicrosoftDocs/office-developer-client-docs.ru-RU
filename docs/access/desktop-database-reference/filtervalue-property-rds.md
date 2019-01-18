@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249399(v=office.15)
 ms:contentKeyID: 48545350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0de54097c7992583851bbbd7b04c40f10fbca76e
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 70dca16f4a949cc6088779c1406e0c77cb477ba1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949483"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721950"
 ---
 # <a name="filtervalue-property-rds"></a>Свойство FilterValue (RDS)
 
@@ -23,14 +24,14 @@ ms.locfileid: "25949483"
 
 *DataControl*. Значение_фильтра = *строка*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
-|*Строка* |**Строковое** значение, представляющее значение данных для фильтрации записей (например, «Программиста» или 125).|
+|*String* |**Строковое** значение, представляющее значение данных для фильтрации записей (например, «Программиста» или 125).|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 [SortColumn](sortcolumn-property-rds.md), [SortDirection](sortdirection-property-rds.md), **Значение_фильтра**, [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) свойства предоставляют функциональные возможности сортировки и фильтрации на кэш со стороны клиента. 
 

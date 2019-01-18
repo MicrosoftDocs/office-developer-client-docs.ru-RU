@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 69429aa0c623be06eae93a5e62fa06f1f0687007
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: a2ef6c5f38064ae3253cd7e0e58732f63294ceb3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996463"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722832"
 ---
 # <a name="repaintobject-macro-action"></a>Макрокоманда RepaintObject
 
@@ -23,7 +24,7 @@ ms.locfileid: "25996463"
 
 **ОбновитьОбъект** можно использовать для выполнения все ожидающие обновления экрана для указанного объекта или для активного объекта базы данных, если он не задан. Такие обновления включают все ожидающие пересчета для элементов управления объекта.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ОбновитьОбъект** имеет следующие аргументы.
 
@@ -51,7 +52,7 @@ ms.locfileid: "25996463"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Microsoft Access будет ожидать завершения ожидающие обновления экрана до завершения другие ожидающие задачи. С помощью этого действия можно принудительно немедленное обновление элементов управления в указанном объекте. Это действие можно использовать:
 

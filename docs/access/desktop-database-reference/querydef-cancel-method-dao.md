@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1055470
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab28f1b976144c40eb8be639bb7c7a1adc3e4450
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 56a4ba804dba25eb0b4722bcf5396229ee003f43
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920230"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720557"
 ---
 # <a name="querydefcancel-method-dao"></a>Метод QueryDef.Cancel (DAO)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25920230"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Использование метода **Cancel** для завершения выполнения асинхронного вызова метода **Execute** или **OpenConnection** (то есть, метод был вызван с параметром dbRunAsync). **Отменить** возвращает ошибку времени выполнения, если в метод, который вы пытаетесь прерывания не используется dbRunAsync.
 

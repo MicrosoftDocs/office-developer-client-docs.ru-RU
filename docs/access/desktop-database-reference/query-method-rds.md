@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
 ms:contentKeyID: 48547658
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e7f9dfc3ce5cb0d757951f13c1078ab44d04760
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 92c72bf78f8f01a675038f63b065aceb6869fcd0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949427"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717358"
 ---
 # <a name="query-method-rds"></a>Метод Query (RDS)
 
@@ -23,16 +24,16 @@ ms.locfileid: "25949427"
 
 Установка*набора записей* = *DataFactory*. Запрос (*подключения*, *запросов*)
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Набор записей* |Объектная переменная, представляющий объект **набора записей** .|
+|*Recordset* |Объектная переменная, представляющий объект **набора записей** .|
 |*DataFactory* |Объектная переменная, которая представляет объект [RDSServer.DataFactory](datafactory-object-rdsserver.md) .|
-|*Подключение* |**Строковое** значение, содержащее сведения о подключении сервера. Это свойства [подключения](connect-property-rds.md) .|
+|*Connection* |**Строковое** значение, содержащее сведения о подключении сервера. Это свойства [подключения](connect-property-rds.md) .|
 |*Query* |**Строка** , содержащая запрос SQL.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Запрос следует использовать диалект SQL сервера базы данных. Если возникает ошибка при выполнении запроса, был выполнен возвращается состояние результатов. Метод **Query** не выполняет проверку строки **запроса** синтаксис.
 

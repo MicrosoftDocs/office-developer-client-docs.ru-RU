@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
 ms:contentKeyID: 48545151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 07b2945f2e9a59cc8a7db4a6f5a44cfaf9b35043
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: dbc0ed4849e8c22bc7023bd4254fdee74a5d016c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928287"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699613"
 ---
 # <a name="workspacelogintimeout-property-dao"></a>Свойство Workspace.LoginTimeout (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25928287"
 
 *выражение* Переменная, которая представляет собой объект- **рабочей области** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **LoginTimeout** по умолчанию установлено 20 секунд. Если свойство **LoginTimeout** имеет значение 0, происходит нет времени ожидания.
 

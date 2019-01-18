@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248865(v=office.15)
 ms:contentKeyID: 48543267
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a99b3f792518e65900841bab90977e2edda6e804
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 636681cf8e0c20f078387b21974141a9cb66cfcd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927041"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719997"
 ---
 # <a name="recordset-object-ado"></a>Объект Recordset (ADO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25927041"
 
 Представляет полного набора записей из базовой таблицы или результаты выполнения команды. В любое время в объект **набора записей** называется только одной записи в наборе текущей записи.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте объекты **набора записей** для работы с данными из поставщика. При использовании ADO работы с данным почти полностью с помощью объектов **набора записей** . Все объекты **наборов записей** состоят из записей (строк) и полей (столбцов). В зависимости от функциональных возможностей, поддерживаемых поставщиком некоторые из **набора записей** методов и свойств недоступен.
 

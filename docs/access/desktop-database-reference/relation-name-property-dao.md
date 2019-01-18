@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196187(v=office.15)
 ms:contentKeyID: 48545802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d0b0b983de4c9fa4ca3e831946accdc7439a3ff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 82075a2421632c08daf40903aa389774e65231e4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928350"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718842"
 ---
 # <a name="relationname-property-dao"></a>Свойство Relation.Name (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25928350"
 
 *выражение* Переменная, которая представляет собой объект- **связи** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Максимальная длина имени объекта **связи** — 64 символов.
 

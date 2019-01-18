@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821784(v=office.15)
 ms:contentKeyID: 48547123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 977bdfa921ea99db82fd2a429fcfba53680140f3
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 1ef68db39b7dcad380eae16f789f4dd5b0eab75f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937255"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722111"
 ---
 # <a name="fieldvalidationrule-property-dao"></a>Свойство Field.ValidationRule (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25937255"
 
 *выражение* Выражение, возвращающее объект **поля** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметры или возвращаемые значения — это строка, описывающая сравнения в виде SQL, ГДЕ предложения WHERE без зарезервированным словом. Для объекта еще не добавляется в конец коллекции **[полей](fields-collection-dao.md)** это свойство соответствует чтения и записи.
 
@@ -47,7 +48,7 @@ ms.locfileid: "25937255"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Индекс</strong></p></td>
+<td><p><strong>Index</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
@@ -55,11 +56,11 @@ ms.locfileid: "25937255"
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Набор записей</strong></p></td>
+<td><p><strong>Recordset</strong></p></td>
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Связь</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052988
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ad3de8bba18b15b15311bf188822a451e74bb24d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 8678b825f509f483bf70d3aa2f3d767dbf7b0e32
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926614"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698283"
 ---
 # <a name="fielddataupdatable-property-dao"></a>Свойство Field.DataUpdatable (DAO)
 
@@ -31,7 +32,7 @@ ms.locfileid: "25926614"
 
 *выражение* Переменная, которая представляет собой объект- **поля** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это свойство можно используйте для определения, можно ли изменить параметр свойства **[Value](field-value-property-dao.md)** объекта **поля** . Это свойство всегда имеет **значение False** для объекта **поля** , **[атрибутов](field-attributes-property-dao.md)** для свойства — это **dbAutoIncrField**.
 

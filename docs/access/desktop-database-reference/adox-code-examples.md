@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249443(v=office.15)
 ms:contentKeyID: 48545557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1dfd3df1131971ff3283c35a357dc029de1276ef
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: c0ba9aa652856a773e0986f2093b77898f259ef2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910651"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705787"
 ---
 # <a name="adox-code-examples"></a>Примеры кода ADOX
 
@@ -22,6 +23,6 @@ ms.locfileid: "25910651"
 > [!NOTE]
 > Вставьте полный пример кода в редакторе кода. Пример может работать неправильно, если частичное примеры используются или абзаца форматирование теряется.
 
-- [Примеры кода ADOX в Microsoft Visual Basic](adox-code-examples-in-microsoft-visual-basic.md)
-- [ADOX примеры кода на языках Microsoft Visual C++](adox-code-examples-in-microsoft-visual-c.md)
+- [Примеры кода ADOX на Microsoft Visual Basic](adox-code-examples-in-microsoft-visual-basic.md)
+- [Примеры кода ADOX на Microsoft Visual C++](adox-code-examples-in-microsoft-visual-c.md)
 

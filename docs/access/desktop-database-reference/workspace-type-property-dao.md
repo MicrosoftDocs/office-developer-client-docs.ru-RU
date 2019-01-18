@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
 ms:contentKeyID: 48546177
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c715da6ec535d90397b49e47be6ca76a72e5685
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: e698963d60809e8d88c4ff87532fb7b74cff275c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926775"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722685"
 ---
 # <a name="workspacetype-property-dao"></a>Свойство Workspace.Type (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25926775"
 
 *выражение* Переменная, которая представляет собой объект- **рабочей области** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объекта **рабочей области** возможные параметры и возвращаемые значения, как показано ниже.
 
@@ -37,7 +38,7 @@ ms.locfileid: "25926775"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 <th><p>Тип рабочей области</p></th>
 </tr>
 </thead>

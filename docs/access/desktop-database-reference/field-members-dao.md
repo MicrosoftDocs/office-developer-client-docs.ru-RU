@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 549559756a2929e6b2daad01c4a0542a973a8bca
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a0e448662384572163fca074e554a5e30be30a7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937122"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703603"
 ---
 # <a name="field-members-dao"></a>Члены поля (DAO)
 
@@ -65,7 +66,7 @@ ms.locfileid: "25937122"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="field-allowzerolength-property-dao.md">Пустые строки</a></strong></p></td>
+<td><p><strong><a href="field-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, является ли строка нулевой длины (&quot;&quot;) имеет недопустимое значение для свойства <strong><a href="field-value-property-dao.md">Value</a></strong> объекта <strong><a href="field-object-dao.md">поле</a></strong> с типом данных Text или Memo (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -81,7 +82,7 @@ ms.locfileid: "25937122"
 <td><p>Возвращает значение, указывающее, является ли данные в поля, представленного объектом <strong><a href="field-object-dao.md">поля</a></strong> обновляемым.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-defaultvalue-property-dao.md">Значение по умолчанию</a></strong></p></td>
+<td><p><strong><a href="field-defaultvalue-property-dao.md">DefaultValue</a></strong></p></td>
 <td><p>Задает или возвращает значение по умолчанию объекта <strong><a href="field-object-dao.md">поля</a></strong> . Для объекта <strong>поля</strong> , еще не добавляется в конец коллекции <strong><a href="fields-collection-dao.md">полей</a></strong> это свойство является чтение/запись (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -111,11 +112,11 @@ ms.locfileid: "25937122"
 <td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-required-property-dao.md">Обязательно</a></strong></p></td>
+<td><p><strong><a href="field-required-property-dao.md">Обязательный</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое указывает, требуется ли объект <strong><a href="field-object-dao.md">поля</a></strong> ненулевое значение.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-fieldsize-property-dao.md">Размер</a></strong></p></td>
+<td><p><strong><a href="field-fieldsize-property-dao.md">Size</a></strong></p></td>
 <td><p>Возвращает число байтов, используемых в базе данных (а не в памяти) объекта Memo или Long Binary <strong><a href="field-object-dao.md">поле</a></strong> в коллекции <strong><a href="fields-collection-dao.md">полей</a></strong> объекта <strong><a href="recordset-object-dao.md">набора записей</a></strong> .</p></td>
 </tr>
 <tr class="even">
@@ -127,7 +128,7 @@ ms.locfileid: "25937122"
 <td><p>Возвращает значение, указывающее имя таблицы, который является оригинального источника данных для объекта <strong>поля</strong> . Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-type-property-dao.md">Тип</a></strong></p></td>
+<td><p><strong><a href="field-type-property-dao.md">Type</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Чтение и запись <strong>целое число</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -135,15 +136,15 @@ ms.locfileid: "25937122"
 <td><p>Задает или возвращает значение, указывает ли значение <strong><a href="field-object-dao.md">поля</a></strong> объекта сразу же проверке, если свойство <strong><a href="field-value-property-dao.md">Value</a></strong> объекта установлено (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-validationrule-property-dao.md">Значение</a></strong></p></td>
+<td><p><strong><a href="field-validationrule-property-dao.md">ValidationRule</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое проверяет данные в поля, как она изменен или добавлен в таблицу (только для рабочих областей Microsoft Access). Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-validationtext-property-dao.md">Сообщение об ошибке</a></strong></p></td>
+<td><p><strong><a href="field-validationtext-property-dao.md">ValidationText</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, текст сообщения, приложение, если значение <strong>поля</strong> объекта не удовлетворяют правило проверки, указанного идентификатором <strong>условие на значение</strong> свойства поля (только для рабочих областей Microsoft Access) . Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-value-property-dao.md">Значение</a></strong></p></td>
+<td><p><strong><a href="field-value-property-dao.md">Value</a></strong></p></td>
 <td><p>Задает или возвращает значение объекта. Чтение и запись <strong>типа Variant</strong>.</p></td>
 </tr>
 <tr class="odd">

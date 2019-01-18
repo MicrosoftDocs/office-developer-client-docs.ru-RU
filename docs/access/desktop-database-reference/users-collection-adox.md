@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
 ms:contentKeyID: 48547413
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3d91af56dc37cf8719a241a35046d663f7c9d57
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 24d7a5cab3260dac80b39e5134938c5f55175851
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998075"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720410"
 ---
 # <a name="users-collection-adox"></a>Коллекция Users (ADOX)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25998075"
 
 Содержит все хранимые объектов [пользователей](user-object-adox.md) из каталога или группы.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Коллекция **пользователей** из [каталога](catalog-object-adox.md) представляет каталога пользователей. Коллекция **пользователей** для [группы](group-object-adox.md) представляет пользователей, которые состоят в конкретную группу.
 

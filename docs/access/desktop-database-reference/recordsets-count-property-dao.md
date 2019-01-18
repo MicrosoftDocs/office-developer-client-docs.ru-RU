@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192940(v=office.15)
 ms:contentKeyID: 48544500
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 778367a39a1e27bdf405b897e88ad37c72f0cd6f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: a81c1ede8a3afb95e39b2c33fb8112119faf8bd8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927902"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722839"
 ---
 # <a name="recordsetscount-property-dao"></a>Свойство Recordsets.Count (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25927902"
 
 *выражение* Переменная, которая представляет собой объект- **наборов записей** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
 

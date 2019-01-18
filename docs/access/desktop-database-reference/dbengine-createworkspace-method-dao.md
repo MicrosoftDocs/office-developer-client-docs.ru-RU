@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7e56fa340ceedd33fbd7f628af0acffee5c32438
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9cd84b6b5441edda2042ce0a63ae25b2cf399bd2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997939"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699886"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>Метод DBEngine.CreateWorkspace (DAO)
 
@@ -50,19 +51,19 @@ ms.locfileid: "25997939"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p><strong>Строка</strong> , уникальным образом новый объект <strong>рабочей области</strong> . Свойство <strong><a href="connection-name-property-dao.md">Name</a></strong> для получения дополнительных сведений см допустимые имена <strong>рабочей области</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Имя пользователя</em></p></td>
+<td><p><em>UserName</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p><strong>Строка</strong> , идентифицирующая владелец новый объект <strong>рабочей области</strong> . Свойству <strong>имя пользователя</strong> для получения дополнительных сведений см.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Password</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p><strong>Строка</strong> , содержащая пароль для нового объекта <strong>рабочей области</strong> . Пароль может иметь длину до 20 символов и может содержать все символы, за исключением символа ASCII 0 (null).</p>
 <p><strong>Примечание</strong>: используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p>
 </td>
@@ -81,9 +82,9 @@ ms.locfileid: "25997939"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Рабочая область
+Workspace
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 После использовать метод **CreateWorkspace** для создания нового объекта **рабочей области** , запуске сеанса **рабочей области** и может ссылаться на объект **рабочей области** в приложении.
 

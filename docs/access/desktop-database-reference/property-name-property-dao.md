@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845211(v=office.15)
 ms:contentKeyID: 48543225
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47053a815d6728087c8a0c4f5e584ee5da5abcac
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: aa552a477ad6b9f047f3fd2231e4b0ba8d26c1ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930583"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700411"
 ---
 # <a name="propertyname-property-dao"></a>Свойство Property.Name (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25930583"
 
 *выражение* Переменная, которая представляет собой объект- **свойство** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **Name** встроенных свойств всегда является только для чтения.
 

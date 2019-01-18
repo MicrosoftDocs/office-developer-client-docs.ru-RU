@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
 ms:contentKeyID: 48543818
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3040896c1613e64a41fb839a7ea111cbca547e00
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 269a782e85fab1e5dc47cd32f2e2c11306e11470
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923275"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720774"
 ---
 # <a name="close-method-ado"></a>Метод Close (ADO)
 
@@ -24,11 +25,11 @@ ms.locfileid: "25923275"
 
 *object*.Close
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **Close** для закрытия [подключения](connection-object-ado.md), [записи](record-object-ado.md), [набора записей](recordset-object-ado.md)или объект [Stream](stream-object-ado.md) , чтобы освободить место на все связанные системные ресурсы. Закрытие объект не удаляется из памяти; можно изменить параметры его свойств и откройте его позже. Чтобы полностью удалить объект из памяти, задайте объектной переменной значение *Nothing* (в Visual Basic) после закрытия объекта.
 
-**Подключение**
+**Connection**
 
 Также с помощью метода **Закрыть** , чтобы закрыть объект **подключения** закрывает любые active объекты **набора записей** , связанные с подключением. Объект [команды](command-object-ado.md) , связанного с объектом **подключения** , закрытие будут сохранены и отобразятся, однако он больше не будет связан с объектом **подключения** ; то есть его свойство [ActiveConnection](activeconnection-property-ado.md) устанавливается значение **Nothing**. Кроме того коллекции [параметров](parameters-collection-ado.md) объекта **команды** будут удалены из параметров, определенных поставщиком.
 

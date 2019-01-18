@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250304(v=office.15)
 ms:contentKeyID: 48548929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5bc2eeaf4d26c957abb67780fe2f5d0df8f73049
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 02d12fffa2c766425054e344e9f7d9d7a22cb517
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026178"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699179"
 ---
 # <a name="index-object-adox"></a>Объект Index (ADOX)
 
@@ -19,7 +20,7 @@ ms.locfileid: "26026178"
 
 Представляет индекс из таблицы базы данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Следующий код создает новый **индекса**.
 

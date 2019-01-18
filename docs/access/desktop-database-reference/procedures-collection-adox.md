@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250150(v=office.15)
 ms:contentKeyID: 48548267
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd426f25567dee3eb7e43e46b341ac503e558f1f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6c7bded8a6d0e6f2a4907977f32c8c37301ab323
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919117"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721173"
 ---
 # <a name="procedures-collection-adox"></a>Коллекция Procedures (ADOX)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25919117"
 
 Содержит все объекты [процедуры](procedure-object-adox.md) каталога.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод [Append](append-method-adox-procedures.md) для семейства сайтов **процедуры** является уникальным для ADOX. Вы можете выполнить указанные ниже действия.
 

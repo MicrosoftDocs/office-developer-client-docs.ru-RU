@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm8454
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f22d1a30a2dc7de003510f54d64fcafc9f0f7878
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 921396edd480e06194d1c3dcbb683aa8556553e2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920209"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721859"
 ---
 # <a name="workflowtasks-macro-action"></a>Макрокоманда WorkflowTasks
 
@@ -24,7 +25,7 @@ ms.locfileid: "25920209"
 
 Чтобы открыть диалоговое окно **Задачи рабочего процесса** можно использовать действие **WorkflowTasks** .
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **WorkflowTasks** использует следующий аргумент.
 
@@ -48,7 +49,7 @@ ms.locfileid: "25920209"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
   - Действие **WorkflowTasks** открывает диалоговое окно **Задачи рабочего процесса** . Это диалоговое окно отображает все задачи, доступные для заданного элемента. Рабочий процесс необходимо определить для списка в Windows SharePoint Services.
 

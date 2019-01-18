@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249348(v=office.15)
 ms:contentKeyID: 48545165
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4fc03ab931d7ae178d1192a00332d460634a4008
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 7c6195fe233736a393e5ce83d4175b47e22f9d6f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925557"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702483"
 ---
 # <a name="hierarchies-collection-ado-md"></a>Коллекция Hierarchies (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25925557"
 
 Содержит набор объектов [иерархии](hierarchy-object-ado-md.md) измерения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Иерархии** — это обычная коллекция ADO. С помощью свойства и методы коллекции сделайте следующее:
 

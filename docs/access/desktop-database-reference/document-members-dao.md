@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197365(v=office.15)
 ms:contentKeyID: 48546270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d21151b2a30ec44b717031f2b0b8a8f506f22193
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: cd50ec72113b0615849ff6b8b2e8d73c0e61c3ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930422"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720011"
 ---
 # <a name="document-members-dao"></a>Члены документа (DAO)
 
@@ -57,16 +58,16 @@ ms.locfileid: "25930422"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="document-container-property-dao.md">Контейнер</a></strong></p></td>
+<td><p><strong><a href="document-container-property-dao.md">Container</a></strong></p></td>
 <td><p>Возвращает имя объекта <strong><a href="container-object-dao.md">контейнера</a></strong> , которому принадлежит объект <strong>Document</strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Возвращает дату и время создания объекта. Только для чтения <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время создания объекта. Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="document-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-name-property-dao.md">Name</a></strong></p></td>

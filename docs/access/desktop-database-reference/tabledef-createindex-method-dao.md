@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 429b64ae3909e320433b34d1426e396926fafba7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: baa82b659cc2260d4a003c644b2d03d6c897fd21
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997478"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706239"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>Метод TableDef.CreateIndex (DAO)
 
@@ -59,9 +60,9 @@ ms.locfileid: "25997478"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Указатель
+Index
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы создать новый объект **индекса** для объекта **TableDef** можно использовать метод **CreateIndex** . Если опустить часть необязательное имя при использовании **CreateIndex**, можно использовать соответствующие присваивания установить или сбросить свойство **Name** , прежде чем добавить новый объект в коллекцию. После добавления объекта, можно или не может иметь возможность задать его свойство **Name** , в зависимости от типа объекта, который содержит коллекцию **индексов** . В разделе **имя** свойства для получения дополнительных сведений.
 

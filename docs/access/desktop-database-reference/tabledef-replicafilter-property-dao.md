@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc8f9103cffb4df4a4db327da9c8ff36e3ec2555
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: ba296701faebb32696741a742b7fe01660b74c46
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997807"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722433"
 ---
 # <a name="tabledefreplicafilter-property-dao"></a>Свойство TableDef.ReplicaFilter (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25997807"
 
 *выражение* Переменная, которая представляет собой объект- **TableDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметр или возвращаемое значение — это **строка** или **типа Boolean** , которое указывает, какие подмножество записей репликации, как указано в следующей таблице:
 
@@ -50,7 +51,7 @@ ms.locfileid: "25997807"
 <td><p>Критерии, по которым должны соответствовать записи в таблице реплику для реплицируемых из полной реплики.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Значение true</strong></p></td>
+<td><p><strong>True</strong></p></td>
 <td><p>Реплицирует все записи.</p></td>
 </tr>
 <tr class="odd">

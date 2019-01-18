@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a3a1ed5b08c9bf0b318baeebb7190868b90682f0
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: b13d21ef1bd8a95587eb78cd448f19f9fd0c24c0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998863"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720214"
 ---
 # <a name="openfunction-macro-action"></a>Макрокоманда OpenFunction
 
@@ -26,7 +27,7 @@ ms.locfileid: "25998863"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **ОткрытьФункцию** имеет следующие аргументы.
 
@@ -47,7 +48,7 @@ ms.locfileid: "25998863"
 <td><p>Имя функции, определенной пользователем, чтобы открыть. В поле <strong>Имя функции</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов показаны все пользовательские функции в текущей базе данных. Этот параметр является обязательным. Если макрос, содержащий действие <strong>функции</strong> в базе данных библиотеки, Microsoft Access сначала выполняет поиск функции с указанным именем в базе данных библиотеки, а затем в текущей базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Просмотр</strong></p></td>
+<td><p><strong>View</strong></p></td>
 <td><p>Представление, в котором будут открываться пользовательских функций. Выберите <strong>таблицы</strong>, <strong>разработки</strong>, <strong>Режим предварительного просмотра</strong>, <strong>сводной таблицы</strong>или <strong>сводной диаграммы</strong> в поле <strong>View</strong> . Значение по умолчанию — <strong>таблицы данных</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +59,7 @@ ms.locfileid: "25998863"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие аналогично дважды щелкнув пользовательской функции в области навигации или щелкнув правой кнопкой мыши функцию на левой панели навигации и выбрав представления.
 

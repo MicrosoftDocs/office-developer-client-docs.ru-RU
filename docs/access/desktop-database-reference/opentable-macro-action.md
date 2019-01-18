@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d80065c976a014ccf379bdc2016b0324cb02b269
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 48a3797c2008f261eda8acc3391b39561fec05f3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998149"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700362"
 ---
 # <a name="opentable-macro-action"></a>Макрокоманда OpenTable
 
@@ -23,7 +24,7 @@ ms.locfileid: "25998149"
 
 Чтобы открыть таблицу в режиме таблицы, конструктора или просмотра можно использовать **ОткрытьТаблицу** . Также можно выбрать режим ввода данных для таблицы.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ОткрытьТаблицу** имеет следующие аргументы.
 
@@ -44,7 +45,7 @@ ms.locfileid: "25998149"
 <td><p>Имя таблицы. В поле <strong>Имя таблицы</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов содержит все таблицы в текущей базе данных. Обязательный аргумент. Если макрос, содержащий <strong>ОткрытьТаблицу в базе данных библиотеки</strong> , Microsoft Microsoft Access выполняет поиск таблицы с указанным именем сначала в библиотеке базы данных, а затем в текущей базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Просмотр</strong></p></td>
+<td><p><strong>View</strong></p></td>
 <td><p>Представление, в котором будут открываться в таблице. Выберите <strong>таблицы</strong>, <strong>разработки</strong>, <strong>Режим предварительного просмотра</strong>, <strong>сводной таблицы</strong>или <strong>сводной диаграммы</strong> в поле <strong>View</strong> . Значение по умолчанию — <strong>таблицы данных</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -54,7 +55,7 @@ ms.locfileid: "25998149"
 </tbody>
 </table>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие аналогична таблице на левой панели навигации, дважды щелкнув или щелкнув правой кнопкой мыши таблицу в области навигации и выбрав представления.
 

@@ -12,12 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4179087408a9f7a68bccc673bcd456305ba41d5
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6ff2ad40d318801ecec2332b53b41f327c20fbc5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026486"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722524"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>Операция INNER JOIN (Microsoft Access SQL)
 
@@ -61,7 +62,7 @@ ms.locfileid: "26026486"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Можно использовать операцию INNER JOIN в [любой FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) . Это наиболее распространенный тип объединения. Объединение записей из двух таблиц всякий раз, когда они соответствуют в поле обеих таблицах.
 
@@ -95,7 +96,7 @@ LEFT JOIN или RIGHT JOIN может быть вложена в ВНУТРЕН
 
 В этом примере создается два эквивалентные соединения: один между сведения о заказе и заказы таблиц между таблицами заказы и сотрудников. Это необходимо, так как в таблице сотрудников не содержит данные о продажах и в таблице сведения о заказе не содержит данные о сотрудниках. Запрос создает список сотрудников и общего объема продаж.
 
-В этом примере вызывается процедура EnumFields, которые можно найти в примере инструкции SELECT.
+В этом примере вызывает процедуре EnumFields, которую можно найти в приведенном примере инструкции SELECT.
 
 ```vb
     Sub InnerJoinX() 

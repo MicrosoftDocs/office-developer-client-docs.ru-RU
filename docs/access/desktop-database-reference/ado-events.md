@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
 ms:contentKeyID: 48546041
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3cc8ac02e2410a2f7bfe1038851e16f50c1ea2ee
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: cc2ef73798dca18e00c42768fde78da2abdb56a3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910945"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706046"
 ---
 # <a name="ado-events"></a>События ADO
 
@@ -42,7 +43,7 @@ ms.locfileid: "25910945"
 <td><p>Вызывается после запуска подключения.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connectcomplete-and-disconnect-events-ado.md">Отключение</a></p></td>
+<td><p><a href="connectcomplete-and-disconnect-events-ado.md">Disconnect</a></p></td>
 <td><p>Вызывается после завершения подключения.</p></td>
 </tr>
 <tr class="odd">

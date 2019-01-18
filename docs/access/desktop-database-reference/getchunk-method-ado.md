@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 27d6f2c9884441042d67615072738c7762f4f789
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 44cd0cb5632e64811de14f9abd3c78aac9203705
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949917"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698185"
 ---
 # <a name="getchunk-method-ado"></a>Метод GetChunk (ADO)
 
@@ -27,13 +28,13 @@ ms.locfileid: "25949917"
 
 Возвращает значение **типа Variant**.
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Размер* |**Длинные** выражения, равный число байтов или символов, которые необходимо получить.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **GetChunk** для объекта **поля** для извлечения или часть ее длинные двоичный или данных символов. В случаях, когда системной памяти ограниченный можно использовать метод **GetChunk** для работы с длинные значения в частях, а не полностью.
 

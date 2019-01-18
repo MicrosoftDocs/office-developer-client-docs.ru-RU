@@ -7,12 +7,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ618413(v=office.15)
 ms:contentKeyID: 49106417
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4563ccafb9f4078f7016abf6d5bb96ac37b4bddd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: de2ff21598639b445f5ff84240b115704b484209
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878803"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698948"
 ---
 # <a name="changes-in-access"></a>Изменения в Access
 
@@ -48,6 +49,6 @@ Access предназначен для подключения баз данны�
 
 ## <a name="see-also"></a>См. также
 
-- [Новые возможности Access 2013 для разработчиков (en)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)
+- [Новые возможности Access 2013 для разработчиков](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)
 
 

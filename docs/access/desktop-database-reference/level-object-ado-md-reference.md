@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249131(v=office.15)
 ms:contentKeyID: 48544191
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2d8cdfd922e8a0d546863255aa560ebe8377ea74
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 07dca990800a96e05826e719e45425eb4b8ba955
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924668"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718478"
 ---
 # <a name="level-object-ado-md-reference"></a>Объект уровня (Справочник по ADO MD)
 

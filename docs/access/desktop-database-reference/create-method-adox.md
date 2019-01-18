@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250060(v=office.15)
 ms:contentKeyID: 48547924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 866faae5d8c99258075a81f504fa9ce069f4690a
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: e98854665185d682b9049b000bf4b600040ba624
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949378"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718317"
 ---
 # <a name="create-method-adox"></a>Метод Create (ADOX)
 
@@ -23,13 +24,13 @@ ms.locfileid: "25949378"
 
 *Каталог*. Создание*стрсоедин*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Стрсоедин* |**Строковое** значение, используемое для подключения к источнику данных.|
+|*ConnectString* |**Строковое** значение, используемое для подключения к источнику данных.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод **Create** создает и открывает новый ADO [подключения](connection-object-ado.md) к источнику данных, указанной в *стрсоедин*. В случае успешной свойству [ActiveConnection](activeconnection-property-adox.md) назначен новый объект **подключения** .
 

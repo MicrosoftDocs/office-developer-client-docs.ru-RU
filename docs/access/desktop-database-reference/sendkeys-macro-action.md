@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 206c12d324b2b9c11b22357a3262a343bba3c122
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: f8c45cdf0d9cf588f61d1b51b728a8a15f6d7e12
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998807"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722377"
 ---
 # <a name="sendkeys-macro-action"></a>Макрокоманда SendKeys
 
@@ -41,7 +42,7 @@ ms.locfileid: "25998807"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **SendKeys** содержит следующие аргументы.
 
@@ -69,7 +70,7 @@ ms.locfileid: "25998807"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Доступа обрабатывает нажатия клавиш, переданные с помощью действие **SendKeys** точно, как если бы был введен их непосредственно в окне Access.
 

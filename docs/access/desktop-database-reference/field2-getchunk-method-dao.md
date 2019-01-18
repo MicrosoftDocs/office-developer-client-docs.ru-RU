@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fae8e5f0331f3c59aad482b827140ecd6366f2f1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 6a4b850658ca4ab36b0d4f4cbed7266d39b4ff8d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996435"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722860"
 ---
 # <a name="field2getchunk-method-dao"></a>Метод Field2.GetChunk (DAO)
 
@@ -44,15 +45,15 @@ ms.locfileid: "25996435"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Смещение</em></p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Число байтов, пропустите перед начинается копирование.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Байт</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Число байтов, которые необходимо вернуть.</p></td>
 </tr>
 </tbody>
@@ -63,7 +64,7 @@ ms.locfileid: "25996435"
 
 Variant
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Байт, возвращаемых **GetChunk** назначаются переменной. Используйте **GetChunk** для возврата значения данных за раз. Метод **[AppendChunk](field-appendchunk-method-dao.md)** воссоздать компоненты.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
 ms:contentKeyID: 48545603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efba5d3703f41c54a03202dde2c3f30ffa17005a
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: aafc8cc10410cafed21e38ad7fec269c391c1fa2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949469"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702392"
 ---
 # <a name="url-property-rds"></a>Свойство URL (RDS)
 
@@ -27,14 +28,14 @@ ms.locfileid: "25949469"
 
 Во время выполнения: DataControl.URL="Server»
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Сервер* |**Строковое** значение, содержащее допустимый URL-адрес.|
+|*Server* |**Строковое** значение, содержащее допустимый URL-адрес.|
 |*DataControl* |Объектная переменная, которая представляет собой объект- **DataControl** .|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Как правило URL-адрес указывает файл страницы Active Server (.asp), который может создавать и возвращать [набора записей](recordset-object-ado.md). Таким образом пользователь может получить **записей** без вызова объекта [DataFactory](datafactory-object-rdsserver.md) на сервере или программа настраиваемый бизнес-объект.
 

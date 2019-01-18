@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b34deff80157b3de63038251a649794587dacc85
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 6287bc8a66858d51d65c37477eed7a86cd7839af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997415"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721852"
 ---
 # <a name="selectobject-macro-action"></a>Макрокоманда SelectObject
 
@@ -23,7 +24,7 @@ ms.locfileid: "25997415"
 
 **ВыделитьОбъект** можно использовать для выбора объекта указанной базы данных.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ВыделитьОбъект** имеет следующие аргументы.
 
@@ -55,7 +56,7 @@ ms.locfileid: "25997415"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **ВыделитьОбъект** работает с любой объект доступа, который может получать фокус. Это действие предоставляет указанный объект фокус и отображается объект если оно скрыто. Если объект является формы, **ВыделитьОбъект** задает для свойства **Visible** формы значение **Да** и возвращает форму отключен или не настроен, его свойства формы (например, как модальные окна или всплывающего формы).
 

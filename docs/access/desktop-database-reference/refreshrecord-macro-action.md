@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5e842ed4898f98f0d3c51955c3fb66010ef02853
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: d8682c19686650ab193536658c6b56961f289174
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026199"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721564"
 ---
 # <a name="refreshrecord-macro-action"></a>Макрокоманда RefreshRecord
 
@@ -24,7 +25,7 @@ ms.locfileid: "26026199"
 
 Действие **RefreshRecord** можно использовать для обновления базового источника данных для активной формы или таблицы для отражения изменений, внесенных в записи в текущий набор.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Действие **RefreshRecord** показывает только изменения, внесенные в записи в текущий набор. Поскольку действие **RefreshRecord** фактически не запрашивать базу, текущий набор не будет включать записи, которые были добавлены или исключения записей, которые были удалены с момента базы данных последнего опросить; И не будет исключать записям, которые больше не отвечают условию запроса или фильтра. Чтобы запросить базу данных, используйте метод **[повторный запрос](requery-macro-action.md)** . Если обновляется источника записей для формы, текущего набора записей будет точно отражают все данные из источника данных.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052925
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 47dbb798a0b293f1651308de9aa2064e1c421a07
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 44329a4cc320e9adcc0612629bcc3fdcd179a1c3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996862"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699579"
 ---
 # <a name="tabledefvalidationrule-property-dao"></a>Свойство TableDef.ValidationRule (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25996862"
 
 *выражение* Переменная, которая представляет собой объект- **TableDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметров или возвращаемых значений — это **строка** , описывающая сравнения в виде SQL, ГДЕ предложения WHERE без зарезервированным словом. Для объекта еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.
 

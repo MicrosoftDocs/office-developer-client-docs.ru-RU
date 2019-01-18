@@ -1,19 +1,20 @@
 ---
-title: Метод Open (объект Connection в ADO)
+title: Метод Open (Connection в ADO)
 TOCTitle: Open method (ADO Connection)
 ms:assetid: 1adaa17d-dfe1-22e0-3415-720516d138f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248951(v=office.15)
 ms:contentKeyID: 48543525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66a62128a8ad8828c501cdaf899448edd9f1d37f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: b3b83eb87b181320c86e1aea91ede70cd173a5ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949875"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717568"
 ---
-# <a name="open-method-ado-connection"></a>Метод Open (объект Connection в ADO)
+# <a name="open-method-ado-connection"></a>Метод Open (Connection в ADO)
 
 **Применимо к**: Access 2013, Office 2013
  
@@ -23,16 +24,16 @@ ms.locfileid: "25949875"
 
 *подключение*. Откройте*ConnectionString*, *идентификатор пользователя*, *пароль*, *Параметры*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ConnectionString* |Необязательно указывать. **Строковое** значение, содержащее сведения о подключении. Свойство [ConnectionString](connectionstring-property-ado.md) для получения дополнительных сведений см на допустимые значения.|
-|*Идентификатор пользователя* |Необязательно указывать. **Строковое** значение, которое содержит имя пользователя для использования при установке подключения.|
-|*Password* |Необязательно указывать. **Строковое** значение, содержащее пароль для использования при установке подключения.|
-|*Варианты* |Необязательно указывать. [ConnectOptionEnum](connectoptionenum.md) значение, определяющее, будет ли этот метод должен возвращать после (синхронно) или до (асинхронно) подключения.|
+|*ConnectionString* |Необязательно. **Строковое** значение, содержащее сведения о подключении. Свойство [ConnectionString](connectionstring-property-ado.md) для получения дополнительных сведений см на допустимые значения.|
+|*UserID* |Необязательно. **Строковое** значение, которое содержит имя пользователя для использования при установке подключения.|
+|*Password* |Необязательно. **Строковое** значение, содержащее пароль для использования при установке подключения.|
+|*Варианты* |Необязательно. [ConnectOptionEnum](connectoptionenum.md) значение, определяющее, будет ли этот метод должен возвращать после (синхронно) или до (асинхронно) подключения.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 С помощью метода **Open** объекта [подключения](connection-object-ado.md) устанавливает физических подключение к источнику данных. После успешного завершения этого метода подключения live можно и выполнение команд его обработки результатов.
 

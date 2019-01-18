@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c69c04f5ef87a487f7e14ccb6f68bb487226df96
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 44f573d179c26677fc801dac82e0deecc3874fb1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997898"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698542"
 ---
 # <a name="recordset2requery-method-dao"></a>Метод Recordset2.Requery (DAO)
 
@@ -57,7 +58,7 @@ ms.locfileid: "25997898"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте этот метод, чтобы убедиться в том, что **набор записей** содержит последние данные. Этот метод повторно заполняет текущего **набора записей** с помощью любого из текущего запроса или (в рабочей области для Microsoft Access) новых структур указано в аргументе newquerydef.
 

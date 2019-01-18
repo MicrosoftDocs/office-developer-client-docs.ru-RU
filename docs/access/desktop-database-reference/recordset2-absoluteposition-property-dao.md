@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 76137608ed5de0fbd2b841fba3101d70209c7a6d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 4de869866e2aeb28032553be78bee7af16f60402
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998758"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716700"
 ---
 # <a name="recordset2absoluteposition-property-dao"></a>Свойство Recordset2.AbsolutePosition (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25998758"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **AbsolutePosition** наведите указатель текущей записи на основании его порядковый номер в объект **Recordset2** добавляющий или моментальный снимок определенную запись. Также можно определить текущий номер записи, проверив значение свойства **AbsolutePosition** .
 

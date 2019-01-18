@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
 ms:contentKeyID: 48545899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6a1249c3b529f55989f00ae6f967f80898f86d5
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6797cb36821f99a2ec5aadf6e1c1c6fbedc5f3c3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910938"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699958"
 ---
 # <a name="rds-methods"></a>Методы RDS
 
@@ -42,7 +43,7 @@ ms.locfileid: "25910938"
 <td><p>Преобразование <strong>набора записей</strong> MIME строку, представляющую данных набора записей.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="createobject-method-rds.md">Функция CreateObject</a></p></td>
+<td><p><a href="createobject-method-rds.md">CreateObject</a></p></td>
 <td><p>Создает прокси-сервера для бизнес-конечного объекта и возвращает указатель на него.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +59,7 @@ ms.locfileid: "25910938"
 <td><p>Допустимая строка запроса SQL используется для возврата <strong>набора записей</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="refresh-method-rds.md">Обновление</a></p></td>
+<td><p><a href="refresh-method-rds.md">Refresh</a></p></td>
 <td><p>Повторный запрос источника данных, указанных в свойстве <strong>подключение</strong> и обновляет результаты запроса.</p></td>
 </tr>
 <tr class="odd">

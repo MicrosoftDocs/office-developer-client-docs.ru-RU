@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249544(v=office.15)
 ms:contentKeyID: 48545921
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 37420ab37b350f0f852305958edbf414d9aecdb3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 95b622d2216b085ffd0f76c8a26533187c17bd7b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867316"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699963"
 ---
 # <a name="connectoptionenum"></a>ConnectOptionEnum
 
@@ -42,7 +43,7 @@ ms.locfileid: "25867316"
 </tr>
 <tr class="even">
 <td><p><strong>adConnectUnspecified</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Значение, используемое по умолчанию. Открывает подключение синхронно.</p></td>
 </tr>
 </tbody>
@@ -59,7 +60,7 @@ ms.locfileid: "25867316"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

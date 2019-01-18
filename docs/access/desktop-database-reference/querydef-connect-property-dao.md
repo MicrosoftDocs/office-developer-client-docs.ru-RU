@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
 ms:contentKeyID: 48543398
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4956d9d2652ab8268a5f49a9b7edc63ebe2878c7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 009e49a96ea1cd5ee3db0b96adb9cae4a6bce21b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997985"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698276"
 ---
 # <a name="querydefconnect-property-dao"></a>Свойство QueryDef.Connect (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25997985"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Настройка свойства **подключение** — **строка** состоит из спецификатора типа базы данных и ноль или больше параметров, разделенных точкой с запятой. Свойство **Connect** передает Дополнительные сведения о ODBC и драйверы некоторых ISAM при необходимости.
 
@@ -137,7 +138,7 @@ ms.locfileid: "25997985"
 <tr class="even">
 <td><p>Open Database Connectivity</p></td>
 <td><p>ODBC. Базы данных = база данных; UID = пользователя; PWD = пароля; Уведомления о Доставке = источнику данных; [LOGINTIMEOUT = секунды;]</p></td>
-<td><p>Отсутствует</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Exchange</p></td>

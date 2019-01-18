@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249373(v=office.15)
 ms:contentKeyID: 48545244
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 20454d00d745776e3f45b6a14a34cbcd7fcb838a
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: f9b67e44e8374a88f83ee4523d031a055d75bbc3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026444"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720564"
 ---
 # <a name="command-properties-methods-and-events-ado"></a>Команда свойства, методы и события (ADO)
 

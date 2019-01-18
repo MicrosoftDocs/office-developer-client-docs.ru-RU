@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249039(v=office.15)
 ms:contentKeyID: 48543842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 667e1934c9095cda209f1ac46206e10cf3432aa2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5bd8196670513156011d69f08eacf790fa4a0a03
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867603"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703155"
 ---
 # <a name="moverecordoptionsenum"></a>MoveRecordOptionsEnum
 
@@ -36,7 +37,7 @@ ms.locfileid: "25867603"
 <tbody>
 <tr class="odd">
 <td><p><strong>adMoveUnspecified</strong></p></td>
-<td><p>-1</p></td>
+<td><p>–1</p></td>
 <td><p>Значение, используемое по умолчанию. Выполняет операцию перемещения по умолчанию: операция не выполняется, если конечный файл или каталог уже существует, а операция обновляет ссылкам.</p></td>
 </tr>
 <tr class="even">

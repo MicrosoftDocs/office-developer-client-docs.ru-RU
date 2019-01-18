@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
 ms:contentKeyID: 48547019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fea6f59479578cfd701b1adeece609c6595583a1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d49605e923f13cd423b7ad0ac6b0d1ef64b94841
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947800"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702238"
 ---
 # <a name="recordset-properties-methods-and-events-ado"></a>Свойства набора записей, методы и события (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25947800"
 - [Свойство AbsolutePosition](absoluteposition-property-ado.md)
 - [Свойство ActiveCommand](activecommand-property-ado.md)
 - [Свойство ActiveConnection](activeconnection-property-ado.md)
-- [BOF, свойства EOF](bof-eof-properties-ado.md)
+- [Свойства BOF, EOF](bof-eof-properties-ado.md)
 - [Свойство Bookmark](bookmark-property-ado.md)
 - [Свойство CacheSize](cachesize-property-ado.md)
 - [Свойство CursorLocation](cursorlocation-property-ado.md)
@@ -34,17 +35,17 @@ ms.locfileid: "25947800"
 - [Коллекция Fields](fields-collection-ado.md)
 - [Свойство Filter](filter-property-ado.md)
 - [Свойство Index](index-property-ado.md)
-- [Свойство LockType для](locktype-property-ado.md)
+- [Свойство LockType](locktype-property-ado.md)
 - [Свойство MarshalOptions](marshaloptions-property-ado.md)
 - [Свойство MaxRecords](maxrecords-property-ado.md)
 - [Свойство PageCount](pagecount-property-ado.md)
-- [Свойства PageSize](pagesize-property-ado.md)
+- [Свойство PageSize](pagesize-property-ado.md)
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство RecordCount](recordcount-property-ado.md)
 - [Свойство Sort](sort-property-ado.md)
-- [Свойство Source (объект Recordset в ADO)](source-property-ado-recordset.md)
-- [Состояния свойства](state-property-ado.md)
-- [Свойство Status (объект Recordset в ADO)](status-property-ado-recordset.md)
+- [Свойство Source (Recordset в ADO)](source-property-ado-recordset.md)
+- [Свойство State](state-property-ado.md)
+- [Свойство Status (Recordset в ADO)](status-property-ado-recordset.md)
 - [Свойство StayInSync](stayinsync-property-ado.md)
 
 
@@ -57,7 +58,7 @@ ms.locfileid: "25947800"
 - [Метод Clone](clone-method-ado.md)
 - [Метод Close](close-method-ado.md)
 - [Метод CompareBookmarks](comparebookmarks-method-ado.md)
-- [Метод Delete (набор записей ADO)](delete-method-ado-recordset.md)
+- [Метод Delete (Recordset в ADO)](delete-method-ado-recordset.md)
 - [Метод Find](find-method-ado.md)
 - [Метод GetRows](getrows-method-ado.md)
 - [Метод GetString](getstring-method-ado.md)
@@ -66,15 +67,15 @@ ms.locfileid: "25947800"
 - [Метод NextRecordset](nextrecordset-method-ado.md)
 - [Метод Open (объект Recordset ADO)](open-method-ado-recordset.md)
 - [Метод Requery](requery-method-ado.md)
-- [Выполнить повторную синхронизацию метод](resync-method-ado.md)
+- [Метод Resync](resync-method-ado.md)
 - [Метод Save](save-method-ado.md)
 - [Метод Seek](seek-method-ado.md)
-- [Поддержка метода](supports-method-ado.md)
+- [Метод Supports](supports-method-ado.md)
 - [Метод Update](update-method-ado.md)
 - [Метод UpdateBatch](updatebatch-method-ado.md)
 
 
-## <a name="events"></a>Мероприятия
+## <a name="events"></a>События
 
 - [Событие EndOfRecordset](endofrecordset-event-ado.md)
 - [Событие FetchComplete](fetchcomplete-event-ado.md)

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191839(v=office.15)
 ms:contentKeyID: 48543768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 253be078fa6a8f5fdd4cb0c6c67fc6d5385e554c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: a3ecf8b6655bb9f1dd2b25d264708112834e8a90
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936541"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717946"
 ---
 # <a name="field2sourcetable-property-dao"></a>Свойство Field2.SourceTable (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25936541"
 
 *выражение* Переменная, которая представляет собой объект- **поле2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Для объекта **поле2** использование свойств **SourceField** и **Таблица** зависит от объекта, который содержит коллекцию **полей** , добавляется объект **поле2** , как показано в следующей таблице.
 
@@ -43,7 +44,7 @@ ms.locfileid: "25936541"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Индекс</strong></p></td>
+<td><p><strong>Index</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
@@ -51,11 +52,11 @@ ms.locfileid: "25936541"
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Набор записей</strong></p></td>
+<td><p><strong>Recordset</strong></p></td>
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Связь</strong></p></td>
+<td><p><strong>Relation</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">

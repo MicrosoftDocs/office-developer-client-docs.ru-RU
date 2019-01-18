@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250178(v=office.15)
 ms:contentKeyID: 48548426
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 845697f54ea5e37e051836896b84d8a3ff061237
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 3299a6c0742e7fcbbd26532f3522fdc96b7956b2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919882"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702616"
 ---
 # <a name="user-object-adox"></a>Объект User (ADOX)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25919882"
 
 Представляет учетную запись пользователя, который имеет разрешения на доступ в рамках защищенной базы данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Коллекция [пользователей](users-collection-adox.md) из [каталога](catalog-object-adox.md) представляет каталога пользователей. Коллекция **пользователей** для [группы](group-object-adox.md) представляет только пользователи конкретную группу.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249008(v=office.15)
 ms:contentKeyID: 48543723
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e8278e43ba04047225f54171782c6a745a579595
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: c1827fe11696e28871bdd03594ff0d7057c377dc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922302"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720487"
 ---
 # <a name="columns-collection-adox"></a>Коллекция Columns (ADOX)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25922302"
 
 Содержит все объекты [столбец](column-object-adox.md) таблицы, индекса или ключа.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Метод [Append](append-method-adox-columns.md) для коллекции **столбцов** является уникальным для ADOX. Вы можете выполнить указанные ниже действия.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053557
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11f8017c01cec9af2da26bedaf689d69554e554c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fef48902b806f13947ae4b81728af4c5704c2b8e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998194"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698409"
 ---
 # <a name="relationpartialreplica-property-dao"></a>Свойство Relation.PartialReplica (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25998194"
 
 *выражение* Выражение, возвращающее объект **связи** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Параметр или возвращаемое значение — это тип данных Boolean, которое имеет **значение True** , когда отношение должно быть реализовано во время синхронизации.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248941(v=office.15)
 ms:contentKeyID: 48543502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f48b3ea16e45b3bde12ed9f8584c3218f955eba
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: c82c95a430da76694fe26300e877e86f86a2eb4b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922393"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719906"
 ---
 # <a name="cubedef-object-ado-md"></a>Объект CubeDef (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25922393"
 
 Представляет куб из многомерных схемы, содержащая набор связанных измерений.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Со свойствами объекта **CubeDef** и семейств сайтов выполните следующее:
 

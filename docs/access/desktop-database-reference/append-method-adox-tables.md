@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249726(v=office.15)
 ms:contentKeyID: 48546664
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e43f8fe5537ded015b5b8d79bb32f811e73368c
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: d2bf2479c2a34291f245783ebaecd75ba31d2ac8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949350"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706060"
 ---
 # <a name="append-method-adox-tables"></a>Метод Append (коллекция Tables в ADOX)
 
@@ -23,13 +24,13 @@ ms.locfileid: "25949350"
 
 *Таблицы*. Добавление*таблицы*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Table* | Значение **типа Variant** , содержащий ссылку на **таблицу** для добавления или имя таблицы для создания и добавления.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если поставщик не поддерживает создание таблиц, произойдет ошибка.
 

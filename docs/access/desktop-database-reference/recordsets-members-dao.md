@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197366(v=office.15)
 ms:contentKeyID: 48546271
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c88e0e98a8d45e4cf211cfed0eef8c45ae9f750a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 154de04122d67c782b3ae0b4d9a084dadada97bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923933"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718688"
 ---
 # <a name="recordsets-members-dao"></a>Члены наборов записей (DAO)
 
@@ -35,7 +36,7 @@ ms.locfileid: "25923933"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="recordsets-refresh-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="recordsets-refresh-method-dao.md">Refresh</a></strong></p></td>
 <td><p>Не поддерживается для этого объекта.</p></td>
 </tr>
 </tbody>

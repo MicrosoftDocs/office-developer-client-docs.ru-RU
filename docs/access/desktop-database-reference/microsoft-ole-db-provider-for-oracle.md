@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249674(v=office.15)
 ms:contentKeyID: 48546465
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7e473176ae6a34d04fc316a8d5075e414f6c8e98
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: b9b506f40039ff91a6b1985606322fd86a9e7c0e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868149"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722503"
 ---
 # <a name="microsoft-ole-db-provider-for-oracle"></a>Поставщик Microsoft OLE DB для Oracle
 
@@ -106,7 +107,7 @@ MSDAORA
 <td><p>Указывает битовую маску, которая определяет службы OLE DB для включения или отключения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Запрос</strong></p></td>
+<td><p><strong>Prompt</strong></p></td>
 <td><p>Указывает, следует ли запрашивать у пользователя при установке подключения.</p></td>
 </tr>
 <tr class="odd">

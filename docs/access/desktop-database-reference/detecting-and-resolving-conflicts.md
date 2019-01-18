@@ -1,19 +1,20 @@
 ---
-title: Обнаружение и устранение конфликтов
+title: Обнаружение и разрешение конфликтов
 TOCTitle: Detecting and resolving conflicts
 ms:assetid: 8299745b-e595-21d5-26c1-a078d00a1c0c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249566(v=office.15)
 ms:contentKeyID: 48545983
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c267f33577f3fb2a8d586d33949325517bcc16ba
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: ddd7566be2581fe449872eb576bf7f11e5a806fb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944419"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716630"
 ---
-# <a name="detecting-and-resolving-conflicts"></a>Обнаружение и устранение конфликтов
+# <a name="detecting-and-resolving-conflicts"></a>Обнаружение и разрешение конфликтов
 
 **Применимо к**: Access 2013, Office 2013
 

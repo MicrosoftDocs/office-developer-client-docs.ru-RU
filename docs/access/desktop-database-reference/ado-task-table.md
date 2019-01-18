@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b7da083471149316c39595913aec26053e5ad718
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ffb9ece91d674e3447f43ae17e2ea9415e2339ac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936751"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700180"
 ---
 # <a name="ado-task-table"></a>Таблица задач ADO
 
@@ -33,7 +34,7 @@ ms.locfileid: "25936751"
 <tbody>
 <tr class="odd">
 <td><p>Подключение к поставщику данных</p></td>
-<td><p><a href="making-a-connection.md">Создание подключения</a></p></td>
+<td><p><a href="making-a-connection.md">Подключения</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Выполнение команд или вызов хранимых процедур</p></td>
@@ -49,7 +50,7 @@ ms.locfileid: "25936751"
 </tr>
 <tr class="odd">
 <td><p>Переход к определенной записи</p></td>
-<td><p><a href="navigating-through-the-data.md">Навигация по данным</a></p></td>
+<td><p><a href="navigating-through-the-data.md">Перемещение по данным</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Доступ к значениям столбцов</p></td>
@@ -61,7 +62,7 @@ ms.locfileid: "25936751"
 </tr>
 <tr class="even">
 <td><p>Изменение данных и изменение значений</p></td>
-<td><p><a href="editing-existing-records.md">Редактирование существующих записей</a></p></td>
+<td><p><a href="editing-existing-records.md">Изменение существующих записей</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Добавление новых данных</p></td>
@@ -89,7 +90,7 @@ ms.locfileid: "25936751"
 </tr>
 <tr class="odd">
 <td><p>Обработка событий асинхронного программирования</p></td>
-<td><p><a href="ado-event-handler-summary.md">Сводка по обработчикам событий ADO</a></p></td>
+<td><p><a href="ado-event-handler-summary.md">Сводка обработчик события ADO</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Выбор расположения курсора и тип</p></td>
@@ -97,19 +98,19 @@ ms.locfileid: "25936751"
 </tr>
 <tr class="odd">
 <td><p>Выбор типов блокировки</p></td>
-<td><p><a href="types-of-locks.md">Типы блокировок</a></p></td>
+<td><p><a href="types-of-locks.md">Типы блокировки</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Возвращает ошибку связанные записи в <strong>набор записей</strong></p></td>
-<td><p><a href="data-shaping.md">Формирование данных</a></p></td>
+<td><p><a href="data-shaping.md">Формирования данных</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Доступ к частично структурированных данных</p></td>
-<td><p><a href="chapter-10-records-and-streams.md">Глава 10. Записи и потоки</a></p></td>
+<td><p><a href="chapter-10-records-and-streams.md">Глава 10: Записей и потоков</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Публикация в службах IIS</p></td>
-<td><p><a href="using-ado-for-internet-publishing.md">Использование ADO для публикации в Интернете</a></p></td>
+<td><p><a href="using-ado-for-internet-publishing.md">С помощью ADO для публикации в Интернете</a></p></td>
 </tr>
 </tbody>
 </table>

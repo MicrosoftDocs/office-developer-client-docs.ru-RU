@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250143(v=office.15)
 ms:contentKeyID: 48548252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 63cd81b6df6da840e4c1ee3ad40a7a2d9c3f398a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: fb51b22dd07c40c55a3e773cc186b14e527bd98c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878201"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701174"
 ---
 # <a name="nextrecordset-method-example-vc"></a>Пример использования метода NextRecordset (VC++)
 

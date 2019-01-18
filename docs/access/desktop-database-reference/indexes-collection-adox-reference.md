@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249075(v=office.15)
 ms:contentKeyID: 48543990
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2303384975af75062cfaf639b5330e4f7772da91
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 9310cc893e3ad075cdbc0c637e871b8203c41911
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920643"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698332"
 ---
 # <a name="indexes-collection-adox-reference"></a>Справочник по коллекции (ADOX) индексов
 

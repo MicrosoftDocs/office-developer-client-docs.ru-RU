@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
 ms:contentKeyID: 48546670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d4b1b1a3a06d0605793667f8c9258ea5b6336f5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923730"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722727"
 ---
 # <a name="relation-members-dao"></a>Члены отношения (DAO)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101188
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b418b63e0c89246ac2caa88c98ea1d4e490cbbb
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 7424e31e7f351af02bdd54bd06fe41f7db5b5f54
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937647"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722125"
 ---
 # <a name="recordset2parentrecordset-property-dao"></a>Свойство Recordset2.ParentRecordset (DAO)
 
@@ -34,7 +35,7 @@ ms.locfileid: "25937647"
 
 *выражение* Переменная, которая представляет собой объект- **Recordset2** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Свойство **ParentRecordset** возвращает **значение Null** , если указанный набор записей представляет многозначное поле.
 

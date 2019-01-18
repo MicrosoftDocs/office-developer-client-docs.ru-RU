@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249416(v=office.15)
 ms:contentKeyID: 48545420
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ce946d3354f6bbf05ac3819efc5f96c436fa174
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 9d269a9012588a7b82505ac2e28466151715cbb0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950127"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706004"
 ---
 # <a name="updatebatch-method-ado"></a>Метод UpdateBatch (ADO)
 
@@ -23,13 +24,13 @@ ms.locfileid: "25950127"
 
 *набор записей*. UpdateBatch*AffectRecords*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
-|*AffectRecords* |Необязательно указывать. От [AffectEnum](affectenum.md) значение, которое указывает, сколько записей влияет на метод **UpdateBatch** .|
+|*AffectRecords* |Необязательно. От [AffectEnum](affectenum.md) значение, которое указывает, сколько записей влияет на метод **UpdateBatch** .|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **UpdateBatch** при изменении объекта **набора записей** в пакетном режиме обновления для передачи все изменения, внесенные в объект **набора записей** в основной базе данных.
 

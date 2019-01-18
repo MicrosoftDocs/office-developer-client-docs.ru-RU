@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f6e797865889bcf52c6f13e4411e945a72b978e8
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 8d9dc28bd64966e85d16ee2d8cb62fdebc3ba942
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949994"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720333"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>Методы BeginTrans, CommitTrans и RollbackTrans (ADO)
 
@@ -39,13 +40,13 @@ ms.locfileid: "25949994"
 
 **BeginTrans** можно вызывать как функцию, которая возвращает **длинный** переменной, указывающее уровень вложенности транзакции.
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*object* |Объект **подключения** .|
 
-### <a name="connection"></a>Подключение
+### <a name="connection"></a>Connection
 
 Использование этих методов с объектом **подключения** необходимо сохранить или отменить ряд изменений, внесенных в источник данных как единый элемент. К примеру деньги переключение между учетными записями, вы вычесть сумму из одного и добавьте совпадает со значением в другой. Если либо обновить возникает ошибка, больше не сбалансировать учетные записи. Эти изменения в открытую операцию гарантирует, что все или изменения проходят через.
 

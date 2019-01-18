@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
 ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d7441775dd82313ac9ac9b9e87c7657673e416e
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 40c4ca85e28813f9827d959ff202e0036e379e96
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026045"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721719"
 ---
 # <a name="adox-methods"></a>Методы ADOX
 
@@ -68,11 +69,11 @@ ms.locfileid: "26026045"
 <td><p>Изменение пароля для учетной записи пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-method-adox.md">Create</a></p></td>
+<td><p><a href="create-method-adox.md">создание</a>;</p></td>
 <td><p>Создает новый каталог.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-adox-collections.md">Delete</a></p></td>
+<td><p><a href="delete-method-adox-collections.md">удаление</a>;</p></td>
 <td><p>Удаляет объект из коллекции.</p></td>
 </tr>
 <tr class="even">

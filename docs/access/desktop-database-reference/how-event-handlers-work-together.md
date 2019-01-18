@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 294f1f87de85d8a8c54aeeb3ef74181cef755d32
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: e772e93f27d6bb5f30d865e3435d4bde6bdc5e73
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026367"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722909"
 ---
 # <a name="how-event-handlers-work-together"></a>Взаимодействие обработчиков событий
 

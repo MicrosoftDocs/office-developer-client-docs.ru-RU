@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
 ms:contentKeyID: 48548374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b2c3c87a820638b74e74c513443261e052e2c4d7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5f4bf93afc200edd88e89cf5d4e90435c2476942
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919432"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721355"
 ---
 # <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Уникальной таблицы, уникальные схемы динамические свойства уникальный каталога (ADO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25919432"
 
 Задает или возвращает значение типа **String** , — это имя таблицы, схемы или каталога.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Требуемое базовая таблица однозначно определяется его каталога, схемы и имена таблиц. Если свойство **Уникальной таблицы** , значения свойств **Уникальный схемы** и **Уникальные каталогов** используются для поиска базовая таблица. Он предназначен, но не требуется, что один или оба свойства **Уникальный схемы** и **Уникальные каталога** задать перед свойству **Уникальной таблицы** .
 

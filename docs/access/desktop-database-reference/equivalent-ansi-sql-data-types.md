@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d1a07e3a7565e15fc5689bf73fe066a3529d3234
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 3ea0641c7325bfcb4339572bc8b50724115af8d6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946281"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699382"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Эквивалентные типы данных ANSI SQL
 
@@ -79,7 +80,7 @@ ms.locfileid: "25946281"
 <tr class="odd">
 <td><p>Не поддерживается</p></td>
 <td><p>UNIQUEIDENTIFIER</p></td>
-<td><p>GUID</p></td>
+<td><p>Идентификатор GUID</p></td>
 <td><p>UNIQUEIDENTIFIER</p></td>
 </tr>
 <tr class="even">

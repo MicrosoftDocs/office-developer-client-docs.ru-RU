@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm174420
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c1c8cb8d0f1166b63031925a02186ebc8a1bdac2
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9f7c4ab535010dc0329673fd04721615f6eb3cd8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996715"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721215"
 ---
 # <a name="minimizewindow-macro-action"></a>Макрокоманда MinimizeWindow
 
@@ -26,11 +27,11 @@ ms.locfileid: "25996715"
 > [!NOTE]
 > Это действие не может применяться к windows кода в редакторе Visual Basic. Для получения сведений о действиях с кодом windows приведены в разделе свойство **WindowState** .
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **MinimizeWindow** не требует аргументов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие можно использовать для удаления окна на экране, не закрывая объекта. Это действие также можно использовать для открытия объекта без отображения окна. **Чтобы отобразить объект макрокоманда с действием либо **MaximizeWindow** , либо **RestoreWindow** .** Действие **RestoreWindow** восстанавливает свернутого окна предыдущих размеров.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161006(v=office.15)
 ms:contentKeyID: 52072968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4729170e5759ce4f0df273febdefce843eb0759f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 76bc229ffb0fd361575a6d7d7e8643b387228c24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931262"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718471"
 ---
 # <a name="database-objects"></a>Объекты баз данных
 

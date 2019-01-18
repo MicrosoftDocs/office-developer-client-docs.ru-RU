@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3ed8580d95128dae475a6d5fe3963f7daaad53f0
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dae5718e7b4cb609cb50bd65ee6e2486f4ebaab6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997261"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700096"
 ---
 # <a name="deleteobject-macro-action"></a>Макрокоманда DeleteObject
 
@@ -26,7 +27,7 @@ ms.locfileid: "25997261"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **DeleteObject** имеет следующие аргументы.
 
@@ -56,7 +57,7 @@ ms.locfileid: "25997261"
 > [!WARNING]
 > Если оставить поля **Тип объекта** и **Имя объекта** , Access удаляет объект, выбранного в области навигации без вывода предупреждающего сообщения при обнаружении **DeleteObject** действие.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы удалить временные объекты, созданные во время выполнения макроса можно использовать действие **DeleteObject** . Например можно использовать **ОткрытьЗапрос** для выполнения запроса создание таблицы, который создает временные таблицы. По окончании с помощью временной таблицы, можно использовать действие **DeleteObject** удалить ее.
 

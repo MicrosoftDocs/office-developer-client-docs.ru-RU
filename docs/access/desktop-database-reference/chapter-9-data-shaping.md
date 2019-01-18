@@ -1,19 +1,20 @@
 ---
-title: 'Глава 9: Формирования данных'
+title: Глава 9. Формирование данных
 TOCTitle: 'Chapter 9: Data shaping'
 ms:assetid: f66a319f-1b3d-c4a3-50b3-af1a47540832
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53a74a53b8c741921ad51ae79ca18e95cda2923d
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 43ad9d5e989bc1c6f4a54fb4882cfe3c3e357fd1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936555"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721556"
 ---
-# <a name="chapter-9-data-shaping"></a>Глава 9: Формирования данных
+# <a name="chapter-9-data-shaping"></a>Глава 9. Формирование данных
 
 **Применимо к**: Access 2013, Office 2013
 
@@ -25,11 +26,11 @@ ms.locfileid: "25936555"
 
 В следующих разделах для получения дополнительных сведений о формирования данных:
 
-- [Обязательный поставщиков для формирования данных](required-providers-for-data-shaping.md)
-- [Предложение Compute фигуры](shape-compute-clause.md)
-- [Fabricating иерархические наборы записей](fabricating-hierarchical-recordsets.md)
-- [Доступ к строк в иерархической записей](accessing-rows-in-a-hierarchical-recordset.md)
-- [Официальные фигуры грамматики](formal-shape-grammar.md)
+- [Необходимые поставщики для формирования данных](required-providers-for-data-shaping.md)
+- [Предложение Compute команды Shape](shape-compute-clause.md)
+- [Создание иерархических наборов записей](fabricating-hierarchical-recordsets.md)
+- [Доступ к строкам в иерархическом наборе записей](accessing-rows-in-a-hierarchical-recordset.md)
+- [Формальная грамматика фигур](formal-shape-grammar.md)
 - [Функции Visual Basic для приложений](visual-basic-for-applications-functions.md)
 - [Предложение Append фигуры (ADO)](shape-append-clause.md)
 - [Формирования (ADO) данных](data-shaping.md)

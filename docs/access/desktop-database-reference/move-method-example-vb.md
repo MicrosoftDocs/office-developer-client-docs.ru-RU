@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250161(v=office.15)
 ms:contentKeyID: 48548328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d890b02c75b25b69874690b057c976a3fceb2a7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 418aaf15c38fba753709d03681246341c78102bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879937"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706228"
 ---
 # <a name="move-method-example-vb"></a>Пример использования метода Move (VB)
 

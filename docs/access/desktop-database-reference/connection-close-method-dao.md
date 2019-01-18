@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198015(v=office.15)
 ms:contentKeyID: 48546559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6f84b9580fbd6256069de57b2295cf3460edaf8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: bf99abf97a2eb1b88e7056a36c160eb774959719
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928980"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717218"
 ---
 # <a name="connectionclose-method-dao"></a>Метод Connection.Close (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25928980"
 
 *выражение* Переменная, которая содержит объект **подключения** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Если при использовании **Close**объекта **набора записей** закрыт, возникает ошибка времени выполнения.
 

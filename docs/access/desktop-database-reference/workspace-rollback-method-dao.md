@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845335(v=office.15)
 ms:contentKeyID: 48543294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6efe2a9f63ff514fccb2c55c992f41eea3d9b2cf
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 377d122821dc95b275c28ecab420748c3d120e0f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997660"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715090"
 ---
 # <a name="workspacerollback-method-dao"></a>Метод Workspace.Rollback (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25997660"
 
 *выражение* Переменная, которая представляет собой объект- **рабочей области** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Методы транзакции **BeginTrans** **CommitTrans**и **отката** управление обработки во время сеанса, определенные с помощью объекта **рабочей области** транзакций. Вы можете использовать эти методы с объектом **рабочей области** , когда необходимо рассматривать ряд изменений, внесенных в базы данных в сеансе как одно целое.
 

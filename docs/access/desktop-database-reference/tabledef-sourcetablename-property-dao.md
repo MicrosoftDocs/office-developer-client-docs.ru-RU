@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052901
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9139ae6593f2c1645c8bf68fe2b79f2f763f746c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: bd2610e728d97d3a9fc2f6359a42fd3cdccb11e5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929113"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722552"
 ---
 # <a name="tabledefsourcetablename-property-dao"></a>Свойство TableDef.SourceTableName (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25929113"
 
 *выражение* Переменная, которая представляет собой объект- **TableDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Этот параметр свойства доступен только для чтения для базовой таблицы, а также чтения и записи для связанной таблицы и не добавляется к коллекции объектов. Для базовой таблицы параметр — это строка нулевой длины (»»).
 

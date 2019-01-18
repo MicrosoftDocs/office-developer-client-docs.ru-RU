@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e59a1f5ce676ceaa1b0b346a38b4487b3233e514
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 8b90af8d1cda073ffa37022bb5db5e8cf8e3b978
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997380"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705990"
 ---
 # <a name="requery-macro-action"></a>Макрокоманда Requery
 
@@ -23,7 +24,7 @@ ms.locfileid: "25997380"
 
 Действие **запроса** можно использовать для обновления данных в указанный элемент управления для текущего объекта повторным запросом источника элемента управления. Если элемент не указан, это действие вызывает повторный запрос источника самого объекта. Используйте это действие для убедитесь, что объекте или в элементе управления отображает текущих данных.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **повторный запрос** использует следующий аргумент.
 
@@ -47,7 +48,7 @@ ms.locfileid: "25997380"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Действие **повторный запрос** выполняет одно из следующих действия.
 

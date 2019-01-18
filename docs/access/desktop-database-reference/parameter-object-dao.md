@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845640(v=office.15)
 ms:contentKeyID: 48543495
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2702c9e32803015e28c90607b553c5f2d41c06b3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 5df04b1ee06a2224db9e21f67e9c68a3ee5740bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920636"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698101"
 ---
 # <a name="parameter-object-dao"></a>Параметр object (DAO)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25920636"
 
 Объект **параметра** представляет значение, заданное в запросе. Параметр связан с объектом **QueryDef** , созданный из параметра запроса.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 **Параметр** объектов можно изменить аргументы в объекте часто выполнения **QueryDef** без повторной компиляции запроса.
 

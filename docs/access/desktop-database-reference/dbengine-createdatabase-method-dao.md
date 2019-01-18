@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9c77eabfc0689c6696c4ea6c8b4998b6b345458
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 13e41dcd182f720b3611108311db6cd56fb4847e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998352"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701923"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>Метод DBEngine.CreateDatabase (DAO)
 
@@ -50,13 +51,13 @@ ms.locfileid: "25998352"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Строка длиной до 255 знаков, — это имя файла базы данных, который вы создаете. Это может быть полный путь и имя файла. Если сеть поддерживает его, можно также указать сетевой путь, таких как &quot; \\server1\share1\dir1\db1&quot;. Файлы базы данных Microsoft Access можно создать только с помощью этого метода.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Языковой стандарт</em></p></td>
+<td><p><em>Locale</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Строковое выражение, которое определяет порядок сортировки при создании базы данных, как указано в настройки. Необходимо указать этот аргумент или возникает ошибка.</p></li>
 <li><p>Можно также создать пароль для нового объекта <strong>базы данных</strong> , объединив Строка пароля (начиная с &quot;; pwd =&quot; ) с константой в аргументе <em>языкового стандарта</em> , следующим образом:</p></li>
@@ -67,7 +68,7 @@ ms.locfileid: "25998352"
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><em>Вариант</em></p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа или сочетание констант, которое указывает один или несколько параметров, как указано в настройки. Параметры можно использовать суммируются соответствующий констант.</p></td>
@@ -76,7 +77,7 @@ ms.locfileid: "25998352"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Можно использовать один из следующих константы для аргумента языковой стандарт для указания свойства **[CollatingOrder](database-collatingorder-property-dao.md)** текста для сравнения строк.
 
@@ -87,7 +88,7 @@ ms.locfileid: "25998352"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 <th><p>Порядок сортировки</p></th>
 </tr>
 </thead>

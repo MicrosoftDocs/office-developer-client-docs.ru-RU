@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ff903c459a351f69b272224ca29f9cc717498f0a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5ed20555726d0a6f63f0e48fb154cedb411ef8cd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996855"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711492"
 ---
 # <a name="transfersqldatabase-macro-action"></a>Макрокоманда TransferSQLDatabase
 
@@ -26,7 +27,7 @@ ms.locfileid: "25996855"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **«ПереносБазыДанныхSQL»** имеет следующие аргументы.
 
@@ -43,7 +44,7 @@ ms.locfileid: "25996855"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Сервер</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>Имя SQL Server 7.0 или более поздняя версия сервера базы данных выполняется копирование.</p></td>
 </tr>
 <tr class="even">
@@ -70,7 +71,7 @@ ms.locfileid: "25996855"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Нельзя выполнять другие операции во время передачи базы данных.
 

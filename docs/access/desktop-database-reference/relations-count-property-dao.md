@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196377(v=office.15)
 ms:contentKeyID: 48545843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5af98ffa550dc2ba959284e16af1e1bf5ac39328
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: dd9cc00d2dc33263d6226783770fdae5207137f5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920741"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699564"
 ---
 # <a name="relationscount-property-dao"></a>Свойство Relations.Count (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25920741"
 
 *выражение* Переменная, которая представляет собой объект- **связи** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
 

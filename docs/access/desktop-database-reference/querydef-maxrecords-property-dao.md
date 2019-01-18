@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053583
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0156983a455c72e4046424def188e41b94705087
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6738762ba18289293c67392d47e278066ead071d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998230"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699313"
 ---
 # <a name="querydefmaxrecords-property-dao"></a>Свойство QueryDef.MaxRecords (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25998230"
 
 *выражение* Переменная, которая представляет собой объект- **QueryDef** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Значение по умолчанию равно 0, указывающее без ограничений на количество возвращаемых записей.
 

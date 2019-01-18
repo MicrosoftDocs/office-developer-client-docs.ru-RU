@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
 ms:contentKeyID: 48548761
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9679a39a8509bb73e9d788e776e208f3c899d3c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 90378dc61d12485a290bbd7857d026a46cd9da96
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998408"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721376"
 ---
 # <a name="recordset2cancelupdate-method-dao"></a>Метод Recordset2.CancelUpdate (DAO)
 
@@ -46,7 +47,7 @@ ms.locfileid: "25998408"
 <tr class="odd">
 <td><p><em>UpdateType</em></p></td>
 <td><p>Необязательный</p></td>
-<td><p><strong>Длинный</strong></p></td>
+<td><p><strong>Long</strong></p></td>
 <td><p>Установите одно из значений <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Примечание</strong>: значения <EM>dbUpdateRegular</EM> и <EM>dbUpdateBatch</EM> действительны только в том случае, если обновление пакета включен.</p>
 </td>
 </tr>
@@ -54,7 +55,7 @@ ms.locfileid: "25998408"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Чтобы отменить все ожидающие обновления, полученный после **[изменения](recordset2-edit-method-dao.md)** или **[AddNew](recordset2-addnew-method-dao.md)** операции можно использовать метод **CancelUpdate** . Например если пользователь вызывает метод **AddNew** или **Изменить** и еще не вызван метод **Update** , **CancelUpdate** показано, как отменить все изменения, внесенные после **изменения** или **AddNew** вызван.
 

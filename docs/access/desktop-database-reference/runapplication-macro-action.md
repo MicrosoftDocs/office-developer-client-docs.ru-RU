@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm93359
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: caa22f142062b929b2520d5a2de69f9ccddb2145
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e7bf54934c6be215b2be5f32160d74fc2b4ab346
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998681"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721789"
 ---
 # <a name="runapplication-macro-action"></a>Макрокоманда RunApplication
 
@@ -39,7 +40,7 @@ ms.locfileid: "25998681"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 Действие **RunApplication** использует следующий аргумент.
 

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c2e5b3e2cdfb743df8a098d3978ccd3d6eb66d90
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 04212a8bf63d5039c6548463612f006f0d116229
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999031"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718597"
 ---
 # <a name="printout-macro-action"></a>Макрокоманда PrintOut
 
@@ -26,7 +27,7 @@ ms.locfileid: "25999031"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **Макрокоманду** имеет следующие аргументы.
 
@@ -59,7 +60,7 @@ ms.locfileid: "25999031"
 <td><p>Качество печати. Щелкните <strong>высокой</strong>, <strong>Medium</strong>, <strong>Low</strong>или <strong>черновиков</strong>. Чем ниже качество, скорость печатает. Значение по умолчанию — <strong>высокий</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Копий</strong></p></td>
+<td><p><strong>Copies</strong></p></td>
 <td><p>Число копий для печати. Значение по умолчанию — 1.</p></td>
 </tr>
 <tr class="even">
@@ -70,7 +71,7 @@ ms.locfileid: "25999031"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие аналогично при выборе объекта, щелкнув вкладку **файл** и затем выбрав команду **Печать**. С помощью этого действия тем не менее, не **Print** откроется диалоговое окно.
 

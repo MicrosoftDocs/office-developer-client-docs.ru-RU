@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm50135
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7951836b3f975e81d0f7cd21b38d42532082c48d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 88bebab46cd6b76fb101c86c4fe33c5ab86a3e70
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997576"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699011"
 ---
 # <a name="openview-macro-action"></a>Макрокоманда OpenView
 
@@ -26,7 +27,7 @@ ms.locfileid: "25997576"
 > [!NOTE]
 > Это действие не разрешено, если база данных не является доверенной. 
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
 **ОткрытьПредставление** имеет следующие аргументы.
 
@@ -47,7 +48,7 @@ ms.locfileid: "25997576"
 <td><p>Имя представления, чтобы открыть. В поле <strong>Имя представления</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов содержит все представления в текущей базе данных. Обязательный аргумент. Если макрос, содержащий <strong>ОткрытьПредставление в базе данных библиотеки</strong> , Microsoft Access сначала выполняет поиск представления с этим именем в базе данных библиотеки, а затем в текущей базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Просмотр</strong></p></td>
+<td><p><strong>View</strong></p></td>
 <td><p>Представление, в котором откроется представление. Выберите <strong>таблицы</strong>, <strong>разработки</strong>, <strong>Режим предварительного просмотра</strong>, <strong>сводной таблицы</strong>или <strong>сводной диаграммы</strong> в поле <strong>View</strong> . Значение по умолчанию — <strong>таблицы данных</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +59,7 @@ ms.locfileid: "25997576"
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Это действие аналогично дважды щелкнув представления в области переходов или щелкнув правой кнопкой мыши представления в области переходов и затем выбрав команду.
 

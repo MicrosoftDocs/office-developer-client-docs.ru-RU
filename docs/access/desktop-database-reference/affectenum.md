@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
 ms:contentKeyID: 48543404
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 3c31b42d7b496762e74ffcf8d62e4927d5420374
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 0183cde0862e947f686bed9821e447abc117d205
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937668"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720585"
 ---
 # <a name="affectenum"></a>AffectEnum
 
@@ -70,7 +71,7 @@ ms.locfileid: "25937668"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Константа</p></th>
 </tr>
 </thead>
 <tbody>

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835760(v=office.15)
 ms:contentKeyID: 48548322
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a4fe07dc71e344b7b25eac51a0273f5f53d620db
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 475a02c7593188a987a2196663d67d19a5aed0c3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923366"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721312"
 ---
 # <a name="documentdatecreated-property-dao"></a>Свойство Document.DateCreated (DAO)
 
 
 **Применимо к**: Access 2013, Office 2013
 
-Возвращает дату и время создания объекта. Только для чтения **Variant**.
+Возвращает дату и время создания объекта. Только для чтения, **Variant**.
 
 ## <a name="syntax"></a>Синтаксис
 

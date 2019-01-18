@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 54217fdfe40bd8fea9b94ac78f1e05d2d94daa71
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f733c574ba7927587c6fcb6305a361ca1070de0f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949987"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703309"
 ---
 # <a name="addnew-method-ado"></a>Метод AddNew (ADO)
 
@@ -23,15 +24,15 @@ ms.locfileid: "25949987"
 
 *набор записей*. AddNew *FieldList*, *значения*
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
 |Параметр|Описание|
 |:--------|:----------|
 |*набор записей* |Объект **набора записей** .|
-|*FieldList* |Необязательно указывать. Имя одного или массив имен или порядковый номер позиции поля в новую запись.|
-|*Значения* |Необязательно указывать. Одиночное значение или массив значений для полей в новую запись. Если *Fieldlist* является массивом, *значения* также должны быть массив с числом участников; в противном случае возникает ошибка. Порядок имена полей должен совпадать с порядком значений полей в каждом массиве.|
+|*FieldList* |Необязательно. Имя одного или массив имен или порядковый номер позиции поля в новую запись.|
+|*Values* |Необязательно. Одиночное значение или массив значений для полей в новую запись. Если *Fieldlist* является массивом, *значения* также должны быть массив с числом участников; в противном случае возникает ошибка. Порядок имена полей должен совпадать с порядком значений полей в каждом массиве.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 Используйте метод **AddNew** для создания и инициализации новую запись. Использование метода [поддерживает](supports-method-ado.md) с **adAddNew** (значение [CursorOptionEnum](cursoroptionenum.md) ) для проверки, является ли записи можно добавлять в текущий объект **набора записей** .
 
