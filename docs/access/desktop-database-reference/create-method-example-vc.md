@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249609(v=office.15)
 ms:contentKeyID: 48546195
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 205c727b140ac8d9bd5b0aa096b7650e12e78e2e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 17bb30a3af97c3ec83fd44c8a9e5d3c5dbf12d2a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873420"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700824"
 ---
-# <a name="create-method-example-vc"></a><span data-ttu-id="23feb-102">Пример использования метода Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="23feb-102">Create method example (VC++)</span></span>
+# <a name="create-method-example-vc"></a><span data-ttu-id="9d534-102">Пример использования метода Create (VC++)</span><span class="sxs-lookup"><span data-stu-id="9d534-102">Create method example (VC++)</span></span>
 
 
-<span data-ttu-id="23feb-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23feb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9d534-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9d534-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="23feb-104">Следующий код демонстрирует создание новой базы данных Microsoft Jet с помощью метода [Create](create-method-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="23feb-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
+<span data-ttu-id="9d534-104">Следующий код демонстрирует создание новой базы данных Microsoft Jet с помощью метода [Create](create-method-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="9d534-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
 
 ```cpp 
  

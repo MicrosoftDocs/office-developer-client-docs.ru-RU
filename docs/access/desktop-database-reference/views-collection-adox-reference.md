@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249542(v=office.15)
 ms:contentKeyID: 48545907
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 59159809fb004d7e16e0ffef4b1ce9a423ef73b7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 03f662221fe91a35b574ee991a785384df5e1314
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919152"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704464"
 ---
-# <a name="views-collection-adox-reference"></a><span data-ttu-id="39a61-102">Справочник по представления коллекции (ADOX)</span><span class="sxs-lookup"><span data-stu-id="39a61-102">Views collection (ADOX) reference</span></span>
+# <a name="views-collection-adox-reference"></a><span data-ttu-id="ac968-102">Справочник по представления коллекции (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ac968-102">Views collection (ADOX) reference</span></span>
 
-<span data-ttu-id="39a61-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="39a61-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac968-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac968-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="39a61-104">Коллекция Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="39a61-104">Views collection (ADOX)</span></span>](views-collection-adox.md)
-- [<span data-ttu-id="39a61-105">Свойства, методы и события коллекции Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="39a61-105">Views collection properties, methods, and events (ADOX)</span></span>](views-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="ac968-104">Коллекция Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ac968-104">Views collection (ADOX)</span></span>](views-collection-adox.md)
+- [<span data-ttu-id="ac968-105">Свойства, методы и события коллекции Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ac968-105">Views collection properties, methods, and events (ADOX)</span></span>](views-collection-properties-methods-and-events-adox.md)
 

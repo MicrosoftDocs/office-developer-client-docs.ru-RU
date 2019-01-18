@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15)
 ms:contentKeyID: 48543909
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 71df0230e9f1ddd99f29c28c33260f43244f62e0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: b746902f84aa3afb2213b40d7bab4bb1bc6cb9b0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880070"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705254"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a><span data-ttu-id="0d52f-102">Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (JScript)</span><span class="sxs-lookup"><span data-stu-id="0d52f-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (JScript)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a><span data-ttu-id="c6e1d-102">Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (JScript)</span><span class="sxs-lookup"><span data-stu-id="c6e1d-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (JScript)</span></span>
 
-<span data-ttu-id="0d52f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0d52f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c6e1d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c6e1d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0d52f-104">В этом примере использует [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [размер](size-property-ado.md)и [направление](direction-property-ado.md) свойства для выполнения хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="0d52f-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span> <span data-ttu-id="0d52f-105">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ActiveConnectionJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="0d52f-105">Cut and paste the following code to Notepad or another text editor, and save it as **ActiveConnectionJS.asp**.</span></span>
+<span data-ttu-id="c6e1d-104">В этом примере использует [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [размер](size-property-ado.md)и [направление](direction-property-ado.md) свойства для выполнения хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="c6e1d-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span> <span data-ttu-id="c6e1d-105">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ActiveConnectionJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="c6e1d-105">Cut and paste the following code to Notepad or another text editor, and save it as **ActiveConnectionJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveConnectionJS --> 

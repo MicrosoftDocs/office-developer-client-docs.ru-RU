@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248942(v=office.15)
 ms:contentKeyID: 48543506
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e6f4c9035041280b0cf2122ca99b1f6a08305012
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 590bc9c22dbc62b30ed3db329ef1e744434ca2ae
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931031"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703456"
 ---
-# <a name="error-object-ado-reference"></a><span data-ttu-id="965ea-102">Ошибка ссылку на объект (ADO)</span><span class="sxs-lookup"><span data-stu-id="965ea-102">Error object (ADO) reference</span></span>
+# <a name="error-object-ado-reference"></a><span data-ttu-id="20e54-102">Ошибка ссылку на объект (ADO)</span><span class="sxs-lookup"><span data-stu-id="20e54-102">Error object (ADO) reference</span></span>
 
-<span data-ttu-id="965ea-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="965ea-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="20e54-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20e54-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="965ea-104">Объект Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="965ea-104">Error object (ADO)</span></span>](error-object-ado.md)
-- [<span data-ttu-id="965ea-105">Ошибка свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="965ea-105">Error properties, methods, and events (ADO)</span></span>](error-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="20e54-104">Объект Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="20e54-104">Error object (ADO)</span></span>](error-object-ado.md)
+- [<span data-ttu-id="20e54-105">Ошибка свойства, методы и события (ADO)</span><span class="sxs-lookup"><span data-stu-id="20e54-105">Error properties, methods, and events (ADO)</span></span>](error-properties-methods-and-events-ado.md)
 

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249494(v=office.15)
 ms:contentKeyID: 48545737
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29f573d5faa84f965a83d750fa1f0a815263a2e0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 844cb85e4e760f9d6c92fdc4d6ec8996fcc167ac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886622"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701391"
 ---
-# <a name="append-and-createparameter-methods-example-jscript"></a><span data-ttu-id="aaa6c-102">Пример использования методов Append и CreateParameter (JScript)</span><span class="sxs-lookup"><span data-stu-id="aaa6c-102">Append and CreateParameter methods example (JScript)</span></span>
+# <a name="append-and-createparameter-methods-example-jscript"></a><span data-ttu-id="9b342-102">Пример использования методов Append и CreateParameter (JScript)</span><span class="sxs-lookup"><span data-stu-id="9b342-102">Append and CreateParameter methods example (JScript)</span></span>
 
 
-<span data-ttu-id="aaa6c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aaa6c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9b342-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b342-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aaa6c-104">В этом примере использует методы [Append](append-method-ado.md) и [CreateParameter](createparameter-method-ado.md) для выполнения хранимой процедуры с входным параметром.</span><span class="sxs-lookup"><span data-stu-id="aaa6c-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span> <span data-ttu-id="aaa6c-105">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **AppendJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="aaa6c-105">Cut and paste the following code to Notepad or another text editor, and save it as **AppendJS.asp**.</span></span>
+<span data-ttu-id="9b342-104">В этом примере использует методы [Append](append-method-ado.md) и [CreateParameter](createparameter-method-ado.md) для выполнения хранимой процедуры с входным параметром.</span><span class="sxs-lookup"><span data-stu-id="9b342-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span> <span data-ttu-id="9b342-105">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **AppendJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="9b342-105">Cut and paste the following code to Notepad or another text editor, and save it as **AppendJS.asp**.</span></span>
 
 ```javascript 
  

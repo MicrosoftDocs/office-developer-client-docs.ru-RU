@@ -6,24 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845862(v=office.15)
 ms:contentKeyID: 48543652
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 7a27874a7264258fee51f90fabaeecd180d7aeae
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 8ba60a646fd234748bcc39b9a5604a33675caee5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868611"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705395"
 ---
-# <a name="add-user-statement-microsoft-access-sql"></a><span data-ttu-id="8a382-102">Добавление пользователя оператора (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="8a382-102">ADD USER statement (Microsoft Access SQL)</span></span>
+# <a name="add-user-statement-microsoft-access-sql"></a><span data-ttu-id="225e4-102">Добавление пользователя оператора (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="225e4-102">ADD USER statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="8a382-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a382-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="225e4-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="225e4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8a382-104">Добавление одного или нескольких существующих *пользователей*s существующей *группы*.</span><span class="sxs-lookup"><span data-stu-id="8a382-104">Adds one or more existing *user*s to an existing *group*.</span></span>
+<span data-ttu-id="225e4-104">Добавление одного или нескольких существующих *пользователей*s существующей *группы*.</span><span class="sxs-lookup"><span data-stu-id="225e4-104">Adds one or more existing *user*s to an existing *group*.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8a382-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8a382-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="225e4-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="225e4-105">Syntax</span></span>
 
-<span data-ttu-id="8a382-106">Добавление пользователя *пользователя*\[, *пользователь*... \] В *группу*</span><span class="sxs-lookup"><span data-stu-id="8a382-106">ADD USER *user*\[, *user*, …\] TO *group*</span></span>
+<span data-ttu-id="225e4-106">Добавление пользователя *пользователя*\[, *пользователь*... \] В *группу*</span><span class="sxs-lookup"><span data-stu-id="225e4-106">ADD USER *user*\[, *user*, …\] TO *group*</span></span>
 
-<span data-ttu-id="8a382-107">Оператор добавить пользователя состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="8a382-107">The ADD USER statement has these parts:</span></span>
+<span data-ttu-id="225e4-107">Оператор добавить пользователя состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="225e4-107">The ADD USER statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -32,24 +33,24 @@ ms.locfileid: "25868611"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8a382-108">Часть</span><span class="sxs-lookup"><span data-stu-id="8a382-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="8a382-109">Описание</span><span class="sxs-lookup"><span data-stu-id="8a382-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="225e4-108">Часть</span><span class="sxs-lookup"><span data-stu-id="225e4-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="225e4-109">Описание</span><span class="sxs-lookup"><span data-stu-id="225e4-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8a382-110"><em>user</em></span><span class="sxs-lookup"><span data-stu-id="8a382-110"><em>user</em></span></span></p></td>
-<td><p><span data-ttu-id="8a382-111">Имя пользователя для добавления файла рабочей группы.</span><span class="sxs-lookup"><span data-stu-id="8a382-111">The name of a user to be added to the workgroup information file.</span></span></p></td>
+<td><p><span data-ttu-id="225e4-110"><em>user</em></span><span class="sxs-lookup"><span data-stu-id="225e4-110"><em>user</em></span></span></p></td>
+<td><p><span data-ttu-id="225e4-111">Имя пользователя для добавления файла рабочей группы.</span><span class="sxs-lookup"><span data-stu-id="225e4-111">The name of a user to be added to the workgroup information file.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8a382-112"><em>group</em></span><span class="sxs-lookup"><span data-stu-id="8a382-112"><em>group</em></span></span></p></td>
-<td><p><span data-ttu-id="8a382-113">Имя группы для добавления файла рабочей группы.</span><span class="sxs-lookup"><span data-stu-id="8a382-113">The name of a group to be added to the workgroup information file.</span></span></p></td>
+<td><p><span data-ttu-id="225e4-112"><em>group</em></span><span class="sxs-lookup"><span data-stu-id="225e4-112"><em>group</em></span></span></p></td>
+<td><p><span data-ttu-id="225e4-113">Имя группы для добавления файла рабочей группы.</span><span class="sxs-lookup"><span data-stu-id="225e4-113">The name of a group to be added to the workgroup information file.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="8a382-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="8a382-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="225e4-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="225e4-114">Remarks</span></span>
 
-<span data-ttu-id="8a382-115">После *пользователь* добавлен в *группу*, *пользователь* имеет все разрешения, предоставленные в *группу*.</span><span class="sxs-lookup"><span data-stu-id="8a382-115">After a *user* had been added to a *group*, the *user* has all the permissions that have been granted to the *group*.</span></span>
+<span data-ttu-id="225e4-115">После *пользователь* добавлен в *группу*, *пользователь* имеет все разрешения, предоставленные в *группу*.</span><span class="sxs-lookup"><span data-stu-id="225e4-115">After a *user* had been added to a *group*, the *user* has all the permissions that have been granted to the *group*.</span></span>
 

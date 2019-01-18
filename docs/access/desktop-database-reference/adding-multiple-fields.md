@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249560(v=office.15)
 ms:contentKeyID: 48545961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ea9b4999ae107c6b6ca88ca7cf75888163a5b05
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: bc9822f2055e7cdfd9a2ef5fe9d2312fc5622ac7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944111"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702308"
 ---
-# <a name="adding-multiple-fields"></a><span data-ttu-id="4a71b-102">Добавление нескольких полей</span><span class="sxs-lookup"><span data-stu-id="4a71b-102">Adding multiple fields</span></span>
+# <a name="adding-multiple-fields"></a><span data-ttu-id="ac044-102">Добавление нескольких полей</span><span class="sxs-lookup"><span data-stu-id="ac044-102">Adding multiple fields</span></span>
 
-<span data-ttu-id="4a71b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a71b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac044-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac044-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4a71b-104">В некоторых случаях может быть более эффективный для передачи в массиве полей и их соответствующие значения в метод **AddNew** , а не **для параметра несколько раз для каждого нового поля** .</span><span class="sxs-lookup"><span data-stu-id="4a71b-104">Occasionally, it might be more efficient to pass in an array of fields and their corresponding values to the **AddNew** method, rather than setting **Value** multiple times for each new field.</span></span> <span data-ttu-id="4a71b-105">Если *FieldList* является массивом, *значения* также должны быть массив с числом участников; в противном случае возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="4a71b-105">If *FieldList* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs.</span></span> <span data-ttu-id="4a71b-106">Порядок имена полей должен совпадать с порядком значений полей в каждом массиве.</span><span class="sxs-lookup"><span data-stu-id="4a71b-106">The order of field names must match the order of field values in each array.</span></span> <span data-ttu-id="4a71b-107">Следующий код в метод **AddNew** передает массив полей и массив значений.</span><span class="sxs-lookup"><span data-stu-id="4a71b-107">The following code passes an array of fields and an array of values to the **AddNew** method.</span></span>
+<span data-ttu-id="ac044-104">В некоторых случаях может быть более эффективный для передачи в массиве полей и их соответствующие значения в метод **AddNew** , а не **для параметра несколько раз для каждого нового поля** .</span><span class="sxs-lookup"><span data-stu-id="ac044-104">Occasionally, it might be more efficient to pass in an array of fields and their corresponding values to the **AddNew** method, rather than setting **Value** multiple times for each new field.</span></span> <span data-ttu-id="ac044-105">Если *FieldList* является массивом, *значения* также должны быть массив с числом участников; в противном случае возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="ac044-105">If *FieldList* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs.</span></span> <span data-ttu-id="ac044-106">Порядок имена полей должен совпадать с порядком значений полей в каждом массиве.</span><span class="sxs-lookup"><span data-stu-id="ac044-106">The order of field names must match the order of field values in each array.</span></span> <span data-ttu-id="ac044-107">Следующий код в метод **AddNew** передает массив полей и массив значений.</span><span class="sxs-lookup"><span data-stu-id="ac044-107">The following code passes an array of fields and an array of values to the **AddNew** method.</span></span>
 
 ```vb 
  

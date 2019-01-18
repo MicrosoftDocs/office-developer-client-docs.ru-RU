@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249238(v=office.15)
 ms:contentKeyID: 48544697
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7c19e12077c42d9487d6410793f07a6fa2c4bb18
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8dc5684951ce71b5ceb926c3d65008bd14c2ccf1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885614"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700271"
 ---
-# <a name="addnew-method-example-vb"></a><span data-ttu-id="bfc26-102">Пример использования метода AddNew (VB)</span><span class="sxs-lookup"><span data-stu-id="bfc26-102">AddNew method example (VB)</span></span>
+# <a name="addnew-method-example-vb"></a><span data-ttu-id="76025-102">Пример использования метода AddNew (VB)</span><span class="sxs-lookup"><span data-stu-id="76025-102">AddNew method example (VB)</span></span>
 
 
-<span data-ttu-id="bfc26-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bfc26-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76025-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76025-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bfc26-104">В этом примере используется метод [AddNew](addnew-method-ado.md) , чтобы создать новую запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="bfc26-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="76025-104">В этом примере используется метод [AddNew](addnew-method-ado.md) , чтобы создать новую запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="76025-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```vb 
  

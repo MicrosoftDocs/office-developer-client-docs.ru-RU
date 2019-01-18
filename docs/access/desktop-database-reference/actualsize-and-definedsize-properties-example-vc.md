@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249638(v=office.15)
 ms:contentKeyID: 48546328
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 795d07827be74a5eff335483550d22bf3e9bd899
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 06398c6f7dd534c459a26b0de31342f37f22f9ec
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870620"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699494"
 ---
-# <a name="actualsize-and-definedsize-properties-example-vc"></a><span data-ttu-id="be7c2-102">Пример использования свойств ActualSize и DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="be7c2-102">ActualSize and DefinedSize properties example (VC++)</span></span>
+# <a name="actualsize-and-definedsize-properties-example-vc"></a><span data-ttu-id="4c055-102">Пример использования свойств ActualSize и DefinedSize (VC++)</span><span class="sxs-lookup"><span data-stu-id="4c055-102">ActualSize and DefinedSize properties example (VC++)</span></span>
 
 
-<span data-ttu-id="be7c2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be7c2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4c055-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c055-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="be7c2-104">В этом примере с помощью свойства [ActualSize](actualsize-property-ado.md) и [DefinedSize](definedsize-property-ado.md) для отображения определенного размера и фактический размер поля.</span><span class="sxs-lookup"><span data-stu-id="be7c2-104">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.</span></span>
+<span data-ttu-id="4c055-104">В этом примере с помощью свойства [ActualSize](actualsize-property-ado.md) и [DefinedSize](definedsize-property-ado.md) для отображения определенного размера и фактический размер поля.</span><span class="sxs-lookup"><span data-stu-id="4c055-104">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.</span></span>
 
 ```cpp 
  

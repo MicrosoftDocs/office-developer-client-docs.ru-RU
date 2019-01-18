@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: efc40e60a2a155e64c4721e9f8262a5d74c15806
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: d4dd221d55b9f5deecf142daddf96132990c016b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925165"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701846"
 ---
-# <a name="dbengineworkspaces-property-dao"></a><span data-ttu-id="625bf-102">Свойство DBEngine.Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="625bf-102">DBEngine.Workspaces property (DAO)</span></span>
+# <a name="dbengineworkspaces-property-dao"></a><span data-ttu-id="ccaea-102">Свойство DBEngine.Workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="ccaea-102">DBEngine.Workspaces property (DAO)</span></span>
 
 
-<span data-ttu-id="625bf-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="625bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ccaea-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ccaea-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="625bf-104">Возвращает коллекцию **рабочих областей** , содержащий все объекты active, Показать **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="625bf-104">Returns a **Workspaces** collection that contains all of the active, unhidden **Workspace** objects.</span></span> <span data-ttu-id="625bf-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="625bf-105">Read-only.</span></span>
+<span data-ttu-id="ccaea-104">Возвращает коллекцию **рабочих областей** , содержащий все объекты active, Показать **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="ccaea-104">Returns a **Workspaces** collection that contains all of the active, unhidden **Workspace** objects.</span></span> <span data-ttu-id="ccaea-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="ccaea-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="625bf-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="625bf-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ccaea-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ccaea-106">Syntax</span></span>
 
-<span data-ttu-id="625bf-107">*выражение* . Рабочие области</span><span class="sxs-lookup"><span data-stu-id="625bf-107">*expression* .Workspaces</span></span>
+<span data-ttu-id="ccaea-107">*выражение* . Рабочие области</span><span class="sxs-lookup"><span data-stu-id="ccaea-107">*expression* .Workspaces</span></span>
 
-<span data-ttu-id="625bf-108">*выражение* Переменная, которая представляет собой объект- **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="625bf-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="ccaea-108">*выражение* Переменная, которая представляет собой объект- **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="ccaea-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 

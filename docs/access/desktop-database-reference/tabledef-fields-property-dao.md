@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1052902
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 58e80763b7dab00d9a55cf50df2cfad4e53511c7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e4e9ab3fc79ff4684da37d7c108891b90c5e71d8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929617"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700355"
 ---
-# <a name="tabledeffields-property-dao"></a><span data-ttu-id="15eed-102">Свойство TableDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="15eed-102">TableDef.Fields property (DAO)</span></span>
+# <a name="tabledeffields-property-dao"></a><span data-ttu-id="0614b-102">Свойство TableDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="0614b-102">TableDef.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="15eed-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="15eed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0614b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0614b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="15eed-104">Возвращает коллекцию **полей** , представляющую все хранятся объекты **поля** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="15eed-104">Returns a **Fields** collection that represents all stored **Field** objects for the specified object.</span></span> <span data-ttu-id="15eed-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="15eed-105">Read-only.</span></span>
+<span data-ttu-id="0614b-104">Возвращает коллекцию **полей** , представляющую все хранятся объекты **поля** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="0614b-104">Returns a **Fields** collection that represents all stored **Field** objects for the specified object.</span></span> <span data-ttu-id="0614b-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0614b-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="15eed-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="15eed-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0614b-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0614b-106">Syntax</span></span>
 
-<span data-ttu-id="15eed-107">*выражение* . Поля</span><span class="sxs-lookup"><span data-stu-id="15eed-107">*expression* .Fields</span></span>
+<span data-ttu-id="0614b-107">*выражение* . Поля</span><span class="sxs-lookup"><span data-stu-id="0614b-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="15eed-108">*выражение* Переменная, которая представляет собой объект- **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="15eed-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="0614b-108">*выражение* Переменная, которая представляет собой объект- **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="0614b-108">*expression* A variable that represents a **TableDef** object.</span></span>
 

@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125933(v=office.15)
 ms:contentKeyID: 52074804
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c80a4fa72e8b7c26c1992d2ebe3a24c7c0fa8969
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2afdd172b8e2c01eddb3c6aaf0d9aaa17fbb7122
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937766"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703099"
 ---
-# <a name="indexes-methods-dao"></a><span data-ttu-id="eefa7-102">Методы индексов (DAO)</span><span class="sxs-lookup"><span data-stu-id="eefa7-102">Indexes methods (DAO)</span></span>
+# <a name="indexes-methods-dao"></a><span data-ttu-id="146e2-102">Методы индексов (DAO)</span><span class="sxs-lookup"><span data-stu-id="146e2-102">Indexes methods (DAO)</span></span>
 
-<span data-ttu-id="eefa7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eefa7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="146e2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="146e2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="eefa7-104">Метод Indexes.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="eefa7-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
-- [<span data-ttu-id="eefa7-105">Метод Indexes.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="eefa7-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
-- [<span data-ttu-id="eefa7-106">Метод Indexes.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="eefa7-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
+- [<span data-ttu-id="146e2-104">Метод Indexes.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="146e2-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
+- [<span data-ttu-id="146e2-105">Метод Indexes.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="146e2-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
+- [<span data-ttu-id="146e2-106">Метод Indexes.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="146e2-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
 
