@@ -6,42 +6,43 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
 ms:contentKeyID: 48546766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b265063d1912b81aa852505b756e58e7a643d4ae
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922946"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702882"
 ---
 # <a name="tabledefs-collection-dao"></a>Коллекция TableDefs (DAO)
 
-**Применимо к:** Access 2013 | Office 2013
+**Область применения**: Access 2013 | Office 2013
 
-Коллекция **TableDefs** содержит все хранимые **TableDef** объектов базы данных (только для рабочих областей Microsoft Access).
+Коллекция **TableDefs** содержит все сохраненные объекты **TableDef** в базе данных (только для рабочих областей Microsoft Access).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Работа с помощью объекта **TableDef** и его методы и свойства определения таблицы.
+Работа с определением таблицы выполняется с помощью объекта **TableDef** и его методов и свойств.
 
-Коллекцию объектов **базы данных** по умолчанию — коллекция **TableDefs** .
+По умолчанию коллекция объекта **Database** – коллекция **TableDefs**
 
-Для ссылки на объект **TableDef** в семействе сайтов, с его порядковый номер или **его свойства Name** , используйте любой из следующих форм синтаксиса:
+Чтобы сослаться на объект **TableDef** в коллекции по его порядковому номеру или по его свойству**Name**, используйте любую из указанных ниже синтаксических форм.
 
-**TableDefs** (0)
+**TableDefs**(0)
 
-**TableDefs** («имя»)
+**TableDefs**("name")
 
-**TableDefs**\!\[имя\]
+**TableDefs**\!\[name\]
 
-**Автор ссылки** [UtterAccess](https://www.utteraccess.com) сообщества. UtterAccess — это премьер форум вики-сайт и Справка по Microsoft Access.
+**Ссылки, предоставляемые** сообщества [UtterAccess](https://www.utteraccess.com). UtterAccess — это премиальный wiki-портал и форум, посвященный Microsoft Access.
 
-  - [Повторное компоновщика Multi-серверных системах](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
+  - [Инструмент повторной компоновки с множественной обработкой на стороне сервера](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
-  - [Файл подкачки и повторно связать между LIVE, тестирования и ЛОКАЛЬНЫХ данных](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
+  - [Переключение/перекомпоновка между данными LIVE, TEST и LOCAL](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
 
 ## <a name="example"></a>Пример
 
-В этом примере создается новый объект **TableDef** и добавляет его в коллекцию **TableDefs** объекта базы данных Northwind. Затем выполняется перечисление коллекции **TableDefs** и коллекции **свойств** нового **TableDef**.
+В этом примере создается новый объект **TableDef**, который добавляется в коллекцию **TableDefs** объекта базы данных Northwind. Затем перечисляются коллекции **TableDefs** и **Properties** нового объекта **TableDef**.
 
 ```vb
     Sub TableDefX() 
@@ -94,7 +95,7 @@ ms.locfileid: "25922946"
 
 <br/>
 
-В этом примере создается новый объект **TableDef** базы данных Northwind.
+В этом примере создается новый объект **TableDef** в базе данных Northwind.
 
 ```vb 
 Sub CreateTableDefX() 
