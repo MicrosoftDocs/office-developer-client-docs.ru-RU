@@ -6,42 +6,44 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
 ms:contentKeyID: 48546766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b265063d1912b81aa852505b756e58e7a643d4ae
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922946"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702882"
 ---
-# <a name="tabledefs-collection-dao"></a><span data-ttu-id="86d47-102">Коллекция TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="86d47-102">TableDefs collection (DAO)</span></span>
+# <a name="tabledefs-collection-dao"></a><span data-ttu-id="fc99d-102">Коллекция TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc99d-102">TableDefs Collection (DAO)</span></span>
 
-<span data-ttu-id="86d47-103">**Применимо к:** Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="86d47-103">**Applies to:** Access 2013 | Office 2013</span></span>
+<span data-ttu-id="fc99d-103">**Область применения**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc99d-103">**Applies to:** Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="86d47-104">Коллекция **TableDefs** содержит все хранимые **TableDef** объектов базы данных (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="86d47-104">A **TableDefs** collection contains all stored **TableDef** objects in a database (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="fc99d-104">Коллекция **TableDefs** содержит все сохраненные объекты **TableDef** в базе данных (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="fc99d-104">A **TableDefs** collection contains all stored **TableDef** objects in a database (Microsoft Access workspaces only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="86d47-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="86d47-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc99d-105">Комментарии</span><span class="sxs-lookup"><span data-stu-id="fc99d-105">Remarks</span></span>
 
-<span data-ttu-id="86d47-106">Работа с помощью объекта **TableDef** и его методы и свойства определения таблицы.</span><span class="sxs-lookup"><span data-stu-id="86d47-106">You manipulate a table definition using a **TableDef** object and its methods and properties.</span></span>
+<span data-ttu-id="fc99d-106">Работа с определением таблицы выполняется с помощью объекта **TableDef** и его методов и свойств.</span><span class="sxs-lookup"><span data-stu-id="fc99d-106">You manipulate a table definition using a **TableDef** object and its methods and properties.</span></span>
 
-<span data-ttu-id="86d47-107">Коллекцию объектов **базы данных** по умолчанию — коллекция **TableDefs** .</span><span class="sxs-lookup"><span data-stu-id="86d47-107">The default collection of a **Database** object is the **TableDefs** collection.</span></span>
+<span data-ttu-id="fc99d-107">По умолчанию коллекция объекта **Database** – коллекция **TableDefs**</span><span class="sxs-lookup"><span data-stu-id="fc99d-107">The default collection of a **Database** object is the **TableDefs** collection.</span></span>
 
-<span data-ttu-id="86d47-108">Для ссылки на объект **TableDef** в семействе сайтов, с его порядковый номер или **его свойства Name** , используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="86d47-108">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="fc99d-108">Чтобы сослаться на объект **TableDef** в коллекции по его порядковому номеру или по его свойству**Name**, используйте любую из указанных ниже синтаксических форм.</span><span class="sxs-lookup"><span data-stu-id="fc99d-108">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="86d47-109">**TableDefs** (0)</span><span class="sxs-lookup"><span data-stu-id="86d47-109">**TableDefs**(0)</span></span>
+<span data-ttu-id="fc99d-109">**TableDefs**(0)</span><span class="sxs-lookup"><span data-stu-id="fc99d-109">**TableDefs**(0)</span></span>
 
-<span data-ttu-id="86d47-110">**TableDefs** («имя»)</span><span class="sxs-lookup"><span data-stu-id="86d47-110">**TableDefs**("name")</span></span>
+<span data-ttu-id="fc99d-110">**TableDefs**("name")</span><span class="sxs-lookup"><span data-stu-id="fc99d-110">**TableDefs**("name")</span></span>
 
-<span data-ttu-id="86d47-111">**TableDefs**\!\[имя\]</span><span class="sxs-lookup"><span data-stu-id="86d47-111">**TableDefs**\!\[name\]</span></span>
+<span data-ttu-id="fc99d-111">**TableDefs**\!\[name\]</span><span class="sxs-lookup"><span data-stu-id="fc99d-111">**TableDefs**\!\[name\]</span></span>
 
-<span data-ttu-id="86d47-112">**Автор ссылки** [UtterAccess](https://www.utteraccess.com) сообщества.</span><span class="sxs-lookup"><span data-stu-id="86d47-112">**Links provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="86d47-113">UtterAccess — это премьер форум вики-сайт и Справка по Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="86d47-113">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
+<span data-ttu-id="fc99d-112">**Ссылки, предоставляемые** сообщества [UtterAccess](https://www.utteraccess.com).</span><span class="sxs-lookup"><span data-stu-id="fc99d-112">**Links provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="fc99d-113">UtterAccess — это премиальный wiki-портал и форум, посвященный Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="fc99d-113">UtterAccess is the premier Microsoft Access wiki and help forum. Click here to join.
+</span></span>
 
-  - [<span data-ttu-id="86d47-114">Повторное компоновщика Multi-серверных системах</span><span class="sxs-lookup"><span data-stu-id="86d47-114">Re-Linker Multi-Backends</span></span>](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
+  - [<span data-ttu-id="fc99d-114">Инструмент повторной компоновки с множественной обработкой на стороне сервера</span><span class="sxs-lookup"><span data-stu-id="fc99d-114">Re-Linker Multi-Backends</span></span>](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 
-  - [<span data-ttu-id="86d47-115">Файл подкачки и повторно связать между LIVE, тестирования и ЛОКАЛЬНЫХ данных</span><span class="sxs-lookup"><span data-stu-id="86d47-115">Swap/Relink Between LIVE, TEST and LOCAL Data</span></span>](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
+  - [<span data-ttu-id="fc99d-115">Переключение/перекомпоновка между данными LIVE, TEST и LOCAL</span><span class="sxs-lookup"><span data-stu-id="fc99d-115">Swap/Relink Between LIVE, TEST and LOCAL Data</span></span>](https://www.utteraccess.com/forum/swap-relink-live-test-t1328573.html)
 
-## <a name="example"></a><span data-ttu-id="86d47-116">Пример</span><span class="sxs-lookup"><span data-stu-id="86d47-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fc99d-116">Пример</span><span class="sxs-lookup"><span data-stu-id="fc99d-116">Example</span></span>
 
-<span data-ttu-id="86d47-117">В этом примере создается новый объект **TableDef** и добавляет его в коллекцию **TableDefs** объекта базы данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="86d47-117">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object.</span></span> <span data-ttu-id="86d47-118">Затем выполняется перечисление коллекции **TableDefs** и коллекции **свойств** нового **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="86d47-118">It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
+<span data-ttu-id="fc99d-117">В этом примере создается новый объект **TableDef**, который добавляется в коллекцию **TableDefs** объекта базы данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="fc99d-117">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object.</span></span> <span data-ttu-id="fc99d-118">Затем перечисляются коллекции **TableDefs** и **Properties** нового объекта **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="fc99d-118">It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
 
 ```vb
     Sub TableDefX() 
@@ -94,7 +96,7 @@ ms.locfileid: "25922946"
 
 <br/>
 
-<span data-ttu-id="86d47-119">В этом примере создается новый объект **TableDef** базы данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="86d47-119">This example creates a new **TableDef** object in the Northwind database.</span></span>
+<span data-ttu-id="fc99d-119">В этом примере создается новый объект **TableDef** в базе данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="fc99d-119">This example creates a new **TableDef** object in the Northwind database.</span></span>
 
 ```vb 
 Sub CreateTableDefX() 
