@@ -1,5 +1,5 @@
 ---
-title: Инструкция EXECUTE (Microsoft Access SQL)
+title: Оператор EXECUTE (Microsoft Access SQL)
 TOCTitle: EXECUTE statement (Microsoft Access SQL)
 ms:assetid: 9ec4d9ee-db2a-0319-3ccf-c035d67a1496
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198330(v=office.15)
@@ -10,24 +10,25 @@ f1_keywords:
 - jetsql40.chm5277471
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a0fa90ac252e877c583982f4e9f900196a4674b3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: df70d2728732f33161622ce71fc9273bd9f016f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879748"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701944"
 ---
-# <a name="execute-statement-microsoft-access-sql"></a>Инструкция EXECUTE (Microsoft Access SQL)
+# <a name="execute-statement-microsoft-access-sql"></a>Оператор EXECUTE (Microsoft Access SQL)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Используется для вызова выполнения процедуры.
 
 ## <a name="syntax"></a>Синтаксис
 
-ВЫПОЛНЕНИЕ *процедуры* \[ *param1*\[, *param2*\[,...\]\]
+EXECUTE *procedure* \[*param1*\[, *param2*\[, …\]\]
 
-Инструкция EXECUTE состоит из следующих частей:
+Оператор EXECUTE состоит из следующих частей:
 
 <table>
 <colgroup>
@@ -42,12 +43,12 @@ ms.locfileid: "25879748"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>процедура</em></p></td>
-<td><p>Имя процедуры, который должен быть выполнен.</p></td>
+<td><p><em>procedure</em></p></td>
+<td><p>Имя процедуры, которая будет выполняться.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>param1 param2...</em></p></td>
-<td><p>Значения для параметров, определенных в процедуре.</p></td>
+<td><p><em>param1, param2, …</em></p></td>
+<td><p>Значения для параметров, определяемых указанной процедурой.</p></td>
 </tr>
 </tbody>
 </table>
@@ -55,7 +56,7 @@ ms.locfileid: "25879748"
 
 ## <a name="example"></a>Пример
 
-В этом примере имена запроса CategoryList и вызывает процедуру EnumFields, которые можно найти в примере инструкции SELECT.
+В этом примере присваивается имя запросу CategoryList и выполняется вызов процедуры EnumFields, которую вы можете найти в приведенном примере для оператора SELECT.
 
 ```vb
     Sub ProcedureX() 
