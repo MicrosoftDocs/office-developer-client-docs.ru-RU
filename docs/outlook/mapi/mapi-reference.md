@@ -5,29 +5,29 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 807d1b76-ccc1-4cbe-bbe3-5d5cadffbef4
-description: Документы MAPI, элементы программирования.
-ms.openlocfilehash: a3f489754eb06792c64cc271a5f1dc8e43c842a3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: Документы по программным элементам MAPI
+localization_priority: Priority
+ms.openlocfilehash: 9489343e1ea88aa51bdf09ee5b705a9cfa59fafa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585915"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714238"
 ---
 # <a name="mapi-reference"></a>Справочник по MAPI
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе описываются MAPI, элементы программирования.
+В этом разделе задокументированы программные элементы MAPI.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 - [Интерфейсы MAPI](mapi-interfaces.md)
     
-- [Функции интерфейса MAPI, обратные вызовы и макросов](mapi-functions-callbacks-and-macros.md)
+- [Функции, методы обратного вызова и макросы MAPI](mapi-functions-callbacks-and-macros.md)
     
 - [Свойства MAPI](mapi-properties.md)
     

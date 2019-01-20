@@ -1,39 +1,39 @@
 ---
-title: Приступая к работе с Справочник по интерфейсу MAPI приложения Outlook
+title: Начало работы со справочником по MAPI для Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: a191f5e0-2a60-4d01-9010-892360b3bfa6
-description: Справочник по API системы обмена сообщениями Microsoft Outlook (MAPI) описывается, как создавать решения MAPI, которые работают с Microsoft Outlook 2013 и Outlook 2016.
-ms.openlocfilehash: f8603c2aff1d2647ff3b02cafc4760aa7f00392c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: В справочнике по MAPI (Messaging API) для Microsoft Outlook описано, как создавать решения MAPI, поддерживаемые в Microsoft Outlook 2013 и Outlook 2016.
+localization_priority: Priority
+ms.openlocfilehash: 879495949423de7ebfe01ba584adc91ce387ef97
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577088"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718268"
 ---
-# <a name="getting-started-with-the-outlook-mapi-reference"></a>Приступая к работе с Справочник по интерфейсу MAPI приложения Outlook
+# <a name="getting-started-with-the-outlook-mapi-reference"></a>Начало работы со справочником по MAPI для Outlook
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Справочник по API системы обмена сообщениями Microsoft Outlook (MAPI) описывается, как создавать решения MAPI, которые работают с Microsoft Outlook 2013 и Outlook 2016. В этом разделе описывается, как поиск различных ссылку и общие ресурсы в справочник по интерфейсу MAPI приложения Outlook.
+В справочнике по MAPI (Messaging API) для Microsoft Outlook описано, как создавать решения MAPI, поддерживаемые в Microsoft Outlook 2013 и Outlook 2016. В этом разделе описано, как находить различные справочные ресурсы и списки определений в справочнике по MAPI для Outlook.
   
-Если вы не знакомы с разработкой решения для Outlook, статью [Выбор API или технологий для разработки решений для Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) для идентификации интерфейсы API и технологии, наиболее подходящие вашим потребностям. 
+Если у вас нет опыта разработки решений для Outlook, см. статью [Выбор API или технологии разработки решений для Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md), чтобы выбрать API-интерфейсы и технологии, наиболее соответствующие вашим потребностям. 
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Общие сведения о Outlook MAPI](outlook-mapi-reference-overview.md): содержит общие сведения о Справочник по интерфейсу MAPI приложения Outlook.
+- [Обзор справочника по MAPI для Outlook](outlook-mapi-reference-overview.md). Предоставляет общие сведения о справочнике по MAPI для Outlook.
     
-- [Новые возможности этой версии](what-s-new-in-this-edition.md): Описание обновлений в версии Outlook 2013 Справочник по интерфейсу MAPI.
+- [Новые возможности этого выпуска](what-s-new-in-this-edition.md). Описаны обновления в справочнике по MAPI для версии Outlook 2013.
     
-- [Часто используемые файлы заголовков](commonly-used-header-files.md): предоставляет список файлы заголовков MAPI, которые разработчики обычно используются.
+- [Часто используемые файлов заголовков](commonly-used-header-files.md). Перечислены файлы заголовков MAPI, часто используемые разработчиками.
     
-- [Часто используемые свойства](commonly-used-properties.md): описание местоположения документации по необходимые и дополнительные свойства.
+- [Часто используемые свойства](commonly-used-properties.md). Описано, где найти документы по обязательным и необязательным свойствам.
     
-- [Часто используемые объекты](commonly-used-objects.md): описывается, как найти сведения о объектов MAPI и интерфейсы.
+- [Часто используемые объекты](commonly-used-objects.md). Описано, как найти сведения об объектах и интерфейсах MAPI.
     
-- [API элементы, удаленные в этот выпуск](api-elements-deprecated-in-this-edition.md): описываются свойства, которые не должны использоваться в текущей версии MAPI.
+- [Элементы API, объявленные устаревшими в этом выпуске](api-elements-deprecated-in-this-edition.md). Описаны свойства, которые не следует использовать в текущей версии MAPI.
     
 ## <a name="related-sections"></a>Связанные разделы
 

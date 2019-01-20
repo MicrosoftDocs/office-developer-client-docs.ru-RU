@@ -1,41 +1,41 @@
 ---
-title: НЕ [] значение NULL (приложение настраиваемых web Access)
+title: IS [NOT] NULL (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: b941a0c7-9753-4920-bb6d-cbba94ba9422
-description: Определяет, является ли указанный элемент expression равен NULL.
-ms.openlocfilehash: fcbceb1e8edac65fe232ba9c2b12195b99db9545
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: Определяет, имеет ли указанное выражение значение NULL.
+localization_priority: Priority
+ms.openlocfilehash: fe6a0fe4f182a1385304b783e7cfaaf515f732d4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806960"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699319"
 ---
-# <a name="is-not-null-access-custom-web-app"></a>НЕ [] значение NULL (приложение настраиваемых web Access)
+# <a name="is-not-null-access-custom-web-app"></a>IS [NOT] NULL (пользовательское веб-приложение для Access)
 
-Определяет, является ли указанный элемент expression равен NULL.
+Определяет, имеет ли указанное выражение значение NULL.
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-RU/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
- *выражение* **IS** [ *Не* ] **Значение NULL**
+ *выражение* **IS** [  *NOT*  ] **NULL**
   
-**IS [NOT] NULL** предикат содержит следующие аргументы. 
+Предикат **IS [NOT] NULL** содержит указанные ниже аргументы. 
   
 |||
 |:-----|:-----|
-| *expression*  <br/> |Любое допустимое выражение.  <br/> |
-| *NOT*  <br/> |Указывает, должен быть инвертирован логическое значение. Предикат отменяет его возвращаемых значений, возвращает значение TRUE, если значение не NULL и FALSE, если значение равно NULL.  <br/> |
+| *выражение*  <br/> |Любое допустимое выражение.  <br/> |
+| *NOT*  <br/> |Указывает, что логический результат отвергается. Предикат меняет возвращенные значения на противоположные, возвращая TRUE, если значение отлично от NULL, и FALSE, если значением является NULL.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Если значение *выражения* имеет значение NULL, ИМЕЕТ значение NULL возвращает значение TRUE; в противном случае возвращает значение FALSE. 
+Если *выражение* имеет значение NULL, предикат IS NULL возвращает значение TRUE; в ином случае возвращается значение FALSE. 
   
-Если значение выражения имеет значение NULL, IS NOT NULL возвращает FALSE. в противном случае возвращается значение TRUE.
+Если выражение имеет значение NULL, предикат IS NOT NULL возвращает значение FALSE; в ином случае возвращается значение TRUE.
   
 
