@@ -1,21 +1,22 @@
 ---
-title: Макрос команды (Справочник по для настольных баз данных Access)
+title: Макрокоманды (Справочник по базам данных Access на компьютере)
 TOCTitle: Macro commands
 ms:assetid: 24e7f34d-7902-4644-bb67-33689d9895c0
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124057(v=office.15)
 ms:contentKeyID: 52071694
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d37d107848808ed7a97b836c4d2be90c6d346c62
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: e0454b876b8d81d929252b1561ecb881afe230c6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926418"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715062"
 ---
 # <a name="macro-commands"></a>Макрокоманды
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 - [Макрокоманда CancelEvent](cancelevent-macro-action.md)
 - [Макрокоманда Echo](echo-macro-action.md)
