@@ -5,27 +5,27 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3b980217-b65b-442b-8c18-b8b9f3ff487a
-description: 'Последнее изменение: 12 марта 2013 г.'
-ms.openlocfilehash: 8550963a50ea2475a3f5a6869264eb714eef6b5a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: 'Дата последнего изменения: 12 марта 2013 г.'
+localization_priority: Priority
+ms.openlocfilehash: d08e0526035010d5eaf272dfa9b3311c7aeda6c0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585404"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719315"
 ---
 # <a name="mapi-properties"></a>Свойства MAPI
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Этот раздел содержит канонического свойства, которые поддерживаются в Microsoft Outlook системы обмена сообщениями API (MAPI). Каждое свойство каноническое соответствует одной или нескольких связанных свойств MAPI. Дополнительные сведения о свойствах каноническое видеть [Каноническое свойств MAPI](mapi-canonical-properties.md). [Обзор свойств MAPI](mapi-property-overview.md)общее описание принципы работы MAPI с помощью свойств и список свойств, доступных для каждого объекта см. Сведения о макросах, связанные с свойство отображается страница ссылку для структуры [SPropValue](spropvalue.md) . Полный список свойств MAPI и их сопоставления имен каноническое свойств в разделе [Сопоставление MAPI имен для канонического имена свойств](mapping-mapi-names-to-canonical-property-names.md) и [сопоставление каноническое свойств MAPI именам](mapping-canonical-property-names-to-mapi-names.md). 
+В этом разделе рассказывается о канонических свойствах, поддерживаемых в Microsoft Outlook Messaging API (MAPI). Каждое каноническое свойство соответствует одному или нескольким связанным свойствам MAPI. Дополнительные сведения о канонических свойствах см. в статье [Канонические свойства MAPI](mapi-canonical-properties.md). Общее описание принципов работы MAPI со свойствами и список свойств, доступных для каждого объекта, см. в статье [Обзор свойств MAPI](mapi-property-overview.md). Сведения о макросах, связанных со свойствами, см. на странице, посвященной структуре [SPropValue](spropvalue.md). Полный список свойств MAPI и их сопоставлений с именами канонических свойств см. в статьях [Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md) и [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md). 
   
-Примечание: В отличие от членов OLE variant массивов каждого элемента в массиве многозначного свойства MAPI имеет тот же тип. 
+Примечание. В отличие от массивов OLE с элементами типа Variant все элементы массивов многозначных свойств MAPI имеют один и тот же тип. 
   
 ## <a name="see-also"></a>См. также
 
