@@ -3,29 +3,29 @@ title: Примеры MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 641659f2-3c0a-43af-96f1-2521b4b06680
-description: Примеры кода, показывающие, как для достижения определенных задач или использования некоторых служб поставщиков с помощью Outlook MAPI.
-ms.openlocfilehash: 717d261930c42b46d8bc1b3d0213c58a9210d9d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: Примеры кода, показывающие способы выполнения определенных задач или реализации определенных поставщиков служб с помощью MAPI для Outlook.
+localization_priority: Priority
+ms.openlocfilehash: b4d866d1e064c722228af4dbc16cf5f7251603d9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585817"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702609"
 ---
 # <a name="mapi-samples"></a>Примеры MAPI
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе содержатся примеры кода, показывающие, как для достижения определенных задач или использования некоторых поставщиков услуг, с помощью интерфейса MAPI. Mfcmapi (en) также используется в этой справке для демонстрации использования многие API. Для запуска примеров в ОС Windows Vista, Windows Server 2008, Windows XP или операционных систем Windows Server 2003, необходимо сначала настроить система среды выполнения MAPI. Для получения дополнительных сведений см [MAPI программирования](mapi-programming-overview.md).
+В этом разделе содержатся примеры кода, показывающие способы выполнения определенных задач или реализации определенных поставщиков служб с помощью MAPI. В этом справочнике также используется MFCMAPI для демонстрации применения нескольких API. Чтобы выполнить любой из примеров в операционных системах Windows Vista, Windows Server 2008, Windows XP или Windows Server 2003, необходимо сначала настроить среду выполнения MAPI. Дополнительные сведения см. в статье [Общие сведения о программировании MAPI](mapi-programming-overview.md).
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
-- [Mfcmapi (en) в качестве примера кода](mfcmapi-as-a-code-sample.md): описывается, как загрузить и использовать mfcmapi (en) в качестве примера приложения для этой ссылки.
+- [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md). Описано, как скачать и использовать MFCMAPI в качестве примера приложения для этого справочника.
     
-- [Примеры поставщика службы MAPI](mapi-service-provider-samples.md): поставщиками услуг показаны примеры MAPI.
+- [Примеры поставщика службы MAPI](mapi-service-provider-samples.md). Показаны примеры поставщиков служб MAPI.
     
-- [Создание элементов Outlook с помощью интерфейса MAPI](creating-outlook-items-by-using-mapi.md): пример кода показывает способы создания элементов Outlook с помощью интерфейса MAPI.
+- [Создание элементов Outlook с помощью MAPI](creating-outlook-items-by-using-mapi.md). Показаны примеры кода со способами создания элементов Outlook с помощью MAPI.
     
 ## <a name="related-sections"></a>Связанные разделы
 
