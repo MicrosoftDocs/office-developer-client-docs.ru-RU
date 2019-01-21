@@ -10,111 +10,111 @@ f1_keywords:
 - PSErrorID
 - PSI errors
 keywords:
-- PSI, коды ошибок, коды ошибок, Project Server, PSErrorID, интерфейс Project Server, коды ошибок ошибка коды, Project Server
-localization_priority: Normal
+- psi, коды ошибок, Коды ошибок, Project Server, PSErrorID, интерфейс Project Server, коды ошибок, Project Server, коды ошибок
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
-description: В этом разделе содержатся таблицы коды ошибок для интерфейса Project Server (PSI) в Project Server 2013. Таблицы будут упорядочены по функциональной области и по диапазону кода ошибки.
-ms.openlocfilehash: 7fdfafa562492fe4d5671f1335ca58cf50c91e88
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: Эта статья содержит таблицы кодов ошибок для интерфейса Project Server (PSI) в Project Server 2013. Таблицы упорядочены по функциональным областям и по диапазонам кодов ошибок.
+localization_priority: Priority
+ms.openlocfilehash: c61821bcb85fa3bd83601659850577eaa93eda61
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401785"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705598"
 ---
 # <a name="project-server-error-codes"></a>Коды ошибок Project Server
 
-В этом разделе содержатся таблицы коды ошибок для интерфейса Project Server (PSI) в Project Server 2013. Таблицы будут упорядочены по функциональной области и по диапазону кода ошибки.
+Эта статья содержит таблицы кодов ошибок для интерфейса Project Server (PSI) в Project Server 2013. Таблицы упорядочены по функциональным областям и по диапазонам кодов ошибок.
    
-Project Server 2013 процессов и методам интерфейса PSI имеют номер кода ошибки, обычно упорядоченные по функциональной области. Перечисление [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) дублируется в [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx); они перечислены коды ошибок в алфавитном порядке по имени. В этом разделе перечислены коды ошибок в таблицах, которые расположены в классе PSI или функциональная область и номер ошибки идентификатор (ID). 
+Процессы Project Server 2013 и методы интерфейса Project Server имеют номера кодов ошибок, упорядоченные, как правило, по функциональной области. Перечисление [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) дублируется в [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx); здесь коды ошибок перечисляются в алфавитном порядке по имени. В этой статье перечислены коды ошибок в таблицах, упорядоченные по классу интерфейса Project Server или функциональной области, а также по номеру идентификатора ошибки. 
   
 > [!NOTE]
->  Многие коды ошибок являются общими и могут иметь несколько возможных причин. Для получения дополнительных сведений об ошибках вы можете сделать следующее: 
+>  Многие коды ошибок являются общими и могут иметь несколько возможных причин. Для получения дополнительной информации об ошибках можно выполнить указанные ниже действия. 
 > - Для ASMX-приложений используйте **System.Web.Services.Protocols.SoapException** с объектом **PSClientError**, чтобы отобразить иерархию ошибок в вызове метода PSI. См. [пример кода ошибки для ASMX](#pj15_ErrorCodes_ASMXExample). 
 > - Для WCF-приложений вы можете использовать **System.ServiceModel.FaultException**, чтобы получить объект **PSClientError** и дополнительные сведения об ошибке. См. [пример кода ошибки для WCF](#pj15_ErrorCodes_WCFExample). 
-> - Используйте журнал событий приложений на компьютере с Project Server.
-> - Используйте журналы трассировки единой службы ведения журналов (ULS). Описание обратитесь к разделу *Проверка ошибок* в [Начало работы по разработке для Project 2010](https://msdn.microsoft.com/library/gg607685.aspx). 
-> - Дополнительные сведения об использовании в журналах ULS в статье поддержка проектов блог [Project Server 2010: что следует при получении непредвиденным](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)и выполните поиск блога для «чтение ULS журналы.» 
-> - Чтобы найти или просмотрите для конкретных проблем в ULS данных, используйте средство [Просмотра ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
-> - Используйте Microsoft SQL Server Profiler, чтобы выявлять или отслеживать ошибки в базах данных. Дополнительные сведения см. в статье [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
+> - Используйте журнал событий приложения на компьютере Project Server.
+> - Используйте журналы трассировки единой службы ведения журналов (ULS). Объяснения приводятся в разделе *Проверка ошибок* в статье [Начало разработки для Project 2010](https://msdn.microsoft.com/library/gg607685.aspx). 
+> - Для получения дополнительных сведений об использовании журналов ULS см. статью [Project Server 2010: чего следует ожидать от непредвиденного](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx) или выполните поиск блога по словам "reading ULS logs". 
+> - Чтобы облегчить поиск проблем в данных ULS, воспользуйтесь [средством просмотра ULS Viewer](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
+> - Используйте приложение Microsoft SQL Server Profiler для перехвата или отслеживания ошибок базы данных. Дополнительные сведения см. в статье [Приложение SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
 > - Многие коды ошибок предназначены только для внутреннего использования. Например, поскольку веб-службы **ExchangeSync** и **PWA** недоступны для сторонней разработки, вы вряд ли столкнетесь с кодами ошибок из методов, относящихся к данной области, таких как **Rules** и **StatusReports**. Однако для полноты информации в таблицы данной статьи занесены все коды ошибок Project Server. 
   
-## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>Табл. 1. Функциональные области кодов ошибок и соответствующие диапазоны номеров
+## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>Табл. 1. Функциональные области кодов ошибок и связанные диапазоны номеров
 
-|Функциональная область Project Server|Диапазоны номеров для кодов ошибок|
+|Функциональная область Project Server|Диапазон номеров кодов ошибок|
 |:-----|:-----|
-|[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |0 — 99; 500 — 999; 9131; 10000 - 10099; 20000 - 20099; 26000 - 26099  <br/> |
-|[Табл. 4. Активный кэш](#pj15_ErrorCodes_ActiveCache) <br/> |12000 - 12099  <br/> |
-|[Табл. 5. Синхронизация Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |27000 - 27999  <br/> |
-|[Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |16600–16699, 19011, 19012, 19032, 20003 и 25000–25099  <br/> |
+|[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |0–99, 500–999, 9131, 10000–10099, 20000–20099, 26000–26099  <br/> |
+|[Табл. 4. Активный кэш](#pj15_ErrorCodes_ActiveCache) <br/> |12000–12099  <br/> |
+|[Табл. 5. Синхронизация Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |27000–27999  <br/> |
+|[Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |16600–16699; 19011, 19012, 19032; 20003; 25000–25099  <br/> |
 |[Табл. 7. Архивирование (резервное копирование и восстановление)](#pj15_ErrorCodes_Archive) <br/> |25000–25999 и 29000–29099  <br/> |
-|[Табл. 8. Назначения](#pj15_ErrorCodes_Assignments) <br/> |120 - 199  <br/> |
+|[Табл. 8. Назначения](#pj15_ErrorCodes_Assignments) <br/> |120–199  <br/> |
 |[Табл. 9. Календарь](#pj15_ErrorCodes_Calendar) <br/> |77 и 13000–13999  <br/> |
-|[Табл. 10. Служба построения куба (CBS)](#pj15_ErrorCodes_CBS) <br/> |17000 - 17999  <br/> |
-|[В таблице 11: Возврат - извлечение](#pj15_ErrorCodes_CICO) <br/> |10100 - 10199  <br/> |
-|[Табл. 12. Настраиваемые поля](#pj15_ErrorCodes_CustomFields) <br/> |11500 - 11999  <br/> |
-|[Табл. 13. Таблицы подстановки](#pj15_ErrorCodes_LookupTables) <br/> |11000 - 11499  <br/> |
-|[Табл. 14. Прочее](#pj15_ErrorCodes_Miscellaneous) <br/> |11000 - 11499  <br/> |
-|[Табл. 15. Уведомления](#pj15_ErrorCodes_Notifications) <br/> |16000 - 16599  <br/> |
-|[Табл. 16. Оптимизатор](#pj15_ErrorCodes_Optimizer) (анализ портфеля проектов)  <br/> |29000 - 29999  <br/> |
-|[Табл. 17. Планировщик](#pj15_ErrorCodes_Planner) (анализ портфеля проектов)  <br/> |28000 - 28999  <br/> |
-|[Табл. 18. Проекты](#pj15_ErrorCodes_Projects) <br/> |100 - 499; 1000 - 1199; 9100 - 9199; и 23000 23999  <br/> |
-|[Табл. 19. Служба отчетных данных](#pj15_ErrorCodes_RDS) (RDS)  <br/> |24000 - 24999  <br/> |
-|[Табл. 20. Ресурсы](#pj15_ErrorCodes_Resources) <br/> |2000 - 2999  <br/> |
-|[Табл. 21. Планы использования ресурсов](#pj15_ErrorCodes_ResourcePlans) <br/> |30000 - 30999  <br/> |
-|[Табл. 22. Правила](#pj15_ErrorCodes_Rules) <br/> |21000 - 21099  <br/> |
-|[Табл. 23. Безопасность](#pj15_ErrorCodes_Security) <br/> |19000 - 19099  <br/> |
+|[Табл. 10. Служба построения куба (CBS)](#pj15_ErrorCodes_CBS) <br/> |17000–17999  <br/> |
+|[Табл. 11. Возвращение — извлечение](#pj15_ErrorCodes_CICO) <br/> |10100–10199  <br/> |
+|[Табл. 12. Настраиваемые поля](#pj15_ErrorCodes_CustomFields) <br/> |11500–11999  <br/> |
+|[Табл. 13. Таблицы подстановки](#pj15_ErrorCodes_LookupTables) <br/> |11000–11499  <br/> |
+|[Табл. 14. Прочие](#pj15_ErrorCodes_Miscellaneous) <br/> |11000–11499  <br/> |
+|[Табл. 15. Уведомления](#pj15_ErrorCodes_Notifications) <br/> |16000–16599  <br/> |
+|[Табл. 16. Оптимизатор](#pj15_ErrorCodes_Optimizer) (анализ портфеля проектов)  <br/> |29000–29999  <br/> |
+|[Табл. 17. Планировщик](#pj15_ErrorCodes_Planner) (анализ портфеля проектов)  <br/> |28000–28999  <br/> |
+|[Табл. 18. Проекты](#pj15_ErrorCodes_Projects) <br/> |100–499, 1000–1199, 9100–9199 и 23000–23999  <br/> |
+|[Табл. 19. Служба отчетных данных](#pj15_ErrorCodes_RDS) (RDS)  <br/> |24000–24999  <br/> |
+|[Табл. 20. Ресурсы](#pj15_ErrorCodes_Resources) <br/> |2000–2999  <br/> |
+|[Табл. 21. Планы использования ресурсов](#pj15_ErrorCodes_ResourcePlans) <br/> |30000–30999  <br/> |
+|[Табл. 22. Правила](#pj15_ErrorCodes_Rules) <br/> |21000–21099  <br/> |
+|[Табл. 23. Безопасность](#pj15_ErrorCodes_Security) <br/> |19000–19099  <br/> |
 |[Табл. 24. События сервера](#pj15_ErrorCodes_Events) <br/> |19033 и 22000–22999  <br/> |
-|[Табл. 25. Определение состояния](#pj15_ErrorCodes_Statusing) <br/> |3100 - 3199  <br/> |
-|[Табл. 26. Отчеты о состоянии](#pj15_ErrorCodes_StatusReports) <br/> |12100 - 12299  <br/> |
-|[Табл. 27. Задачи](#pj15_ErrorCodes_Tasks) <br/> |7000 - 7099  <br/> |
-|[Табл. 28. Расписания](#pj15_ErrorCodes_Timesheets) <br/> |3200 - 3299  <br/> |
-|[Табл. 29. Делегирование пользователей](#pj15_ErrorCodes_UserDelegation) <br/> |43000 - 43500  <br/> |
+|[Табл. 25. Определение состояния](#pj15_ErrorCodes_Statusing) <br/> |3100–3199  <br/> |
+|[Табл. 26. Отчеты о состоянии](#pj15_ErrorCodes_StatusReports) <br/> |12100–12299  <br/> |
+|[Табл. 27. Задачи](#pj15_ErrorCodes_Tasks) <br/> |7000–7099  <br/> |
+|[Табл. 28. Расписания](#pj15_ErrorCodes_Timesheets) <br/> |3200–3299  <br/> |
+|[Табл. 29. Делегирование пользователей](#pj15_ErrorCodes_UserDelegation) <br/> |43000–43500  <br/> |
 |[Табл. 30. Рабочий процесс](#pj15_ErrorCodes_Workflow) <br/> |35000–35999: рабочий процесс  <br/> |
-|[Табл. 31. WSSInterop и ObjectLinkProvider (интеграция с SharePoint)](#pj15_ErrorCodes_WSS) <br/> |16400–16499: интеграция с SharePoint и рабочие области проектов  <br/> 18000–18099: поставщик связей с объектами и импорт проектов SharePoint  <br/> |
+|[Табл. 31. WssInterop и ObjectLinkProvider (интеграция с SharePoint)](#pj15_ErrorCodes_WSS) <br/> |16400–16499: интеграция с SharePoint и рабочие области проектов  <br/> 18000–18099: поставщик связей с объектами и импорт проектов SharePoint  <br/> |
    
 ## <a name="table-2-error-code-table-by-number-range"></a>Табл. 2. Таблица кодов ошибок по диапазону номеров
 
-|Диапазон кодов ошибок |Таблица кодов ошибок|
+|Диапазон кодов ошибок|Таблица кодов ошибок|
 |:-----|:-----|
-|0 — 99  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General), кроме 77, который указан в [Табл. 9. Календарь](#pj15_ErrorCodes_Calendar) <br/> |
-|100 - 119  <br/> |[Табл. 18. Проекты](#pj15_ErrorCodes_Projects) <br/> |
-|120 - 199  <br/> |[Табл. 8. Назначения](#pj15_ErrorCodes_Assignments) <br/> |
-|500 — 999  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |
-|1000 - 1199  <br/> |[Табл. 18. Проекты](#pj15_ErrorCodes_Projects) <br/> |
-|2000 - 2999  <br/> |[Табл. 20. Ресурсы](#pj15_ErrorCodes_Resources) <br/> |
-|3100 - 3199  <br/> |[Табл. 25. Определение состояния](#pj15_ErrorCodes_Statusing) <br/> |
-|3200 - 3299  <br/> |[Табл. 28. Расписания](#pj15_ErrorCodes_Timesheets) <br/> |
-|7000 - 7099  <br/> |[Табл. 27. Задачи](#pj15_ErrorCodes_Tasks) <br/> |
-|9100 - 9199  <br/> |[Табл. 18. Проекты](#pj15_ErrorCodes_Projects), кроме 9131, который указан в [Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |
-|10000 - 10099  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |
-|10100 - 10199  <br/> |[В таблице 11: Возврат - извлечение](#pj15_ErrorCodes_CICO) <br/> |
-|11000 - 11499  <br/> |[Табл. 13. Таблицы подстановки](#pj15_ErrorCodes_LookupTables) <br/> |
-|11500 - 11999  <br/> |[Табл. 12. Настраиваемые поля](#pj15_ErrorCodes_CustomFields) <br/> |
-|12000 - 12099  <br/> |[Табл. 4. Активный кэш](#pj15_ErrorCodes_ActiveCache) <br/> |
-|12100 - 12299  <br/> |[Табл. 26. Отчеты о состоянии](#pj15_ErrorCodes_StatusReports) <br/> |
-|13000 - 13999  <br/> |[Табл. 9. Календарь](#pj15_ErrorCodes_Calendar) <br/> |
-|16000 - 16399  <br/> |[Табл. 15. Уведомления](#pj15_ErrorCodes_Notifications) <br/> |
-|16400 - 16499  <br/> |[Табл. 31. WssInterop и поставщик связей с объектами (интеграция с SharePoint)](#pj15_ErrorCodes_WSS) <br/> |
-|16600 - 16699  <br/> |[Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
-|17000 - 17999  <br/> |[Табл. 10. Служба построения куба (CBS)](#pj15_ErrorCodes_CBS) <br/> |
-|18000 - 18099  <br/> |[Табл. 31. Интеграция с SharePoint](#pj15_ErrorCodes_WSS) <br/> |
-|19000 - 19099  <br/> |[Табл. 23. Безопасность](#pj15_ErrorCodes_Security), кроме связанных с безопасностью кодов 19011, 19012 и 19032, которые указаны в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
-|20000 - 20099  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General), кроме 20003, который указан в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
-|21000 - 21099  <br/> |[Табл. 22. Правила](#pj15_ErrorCodes_Rules) <br/> |
-|22000 - 22999  <br/> |[Табл. 24. События сервера](#pj15_ErrorCodes_Events) <br/> |
-|23000 - 23999  <br/> |[Табл. 18. Проекты](#pj15_ErrorCodes_Projects) <br/> |
-|24000 - 24999  <br/> |[Табл. 19. Служба отчетных данных](#pj15_ErrorCodes_RDS) (RDS)  <br/> |
-|25000 - 25999  <br/> |[Табл. 7. Архивирование (резервное копирование и восстановление)](#pj15_ErrorCodes_Archive), кроме 25004 и 25006, которые указаны в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
-|26000 - 26099  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |
-|27000 - 27999  <br/> |[Табл. 5. Синхронизация Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |
-|28000 - 28999  <br/> |[Табл. 17. Планировщик](#pj15_ErrorCodes_Planner) (анализ портфеля проектов)  <br/> |
-|29000 - 29999  <br/> |[Табл. 16. Оптимизатор](#pj15_ErrorCodes_Optimizer) (анализ портфеля проектов), кроме 29021, который указан в [Табл. 7. Архивирование](#pj15_ErrorCodes_Archive) <br/> |
-|30000 - 30999  <br/> |[Табл. 21. Планы использования ресурсов](#pj15_ErrorCodes_ResourcePlans) <br/> |
-|31000 - 31999  <br/> 32000 - 32100  <br/> |[Табл. 14. Прочее](#pj15_ErrorCodes_Miscellaneous) (аудит, не используется)  <br/> Страницы сведений о проекте  <br/> |
-|35000 - 35999  <br/> 40000 - 40499  <br/> |[Табл. 30. Рабочий процесс](#pj15_ErrorCodes_Workflow) <br/> |
-|40500 - 40999  <br/> 42000 - 42999  <br/> |[Табл. 14. Прочее](#pj15_ErrorCodes_Miscellaneous) (**ExchangeSync**, для внутреннего использования)  <br/> Временная шкала Project Web App  <br/> |
-|43000 - 43500  <br/> |[Табл. 29. Делегирование пользователей](#pj15_ErrorCodes_UserDelegation) <br/> |
-|50000 - 51999  <br/> |[Табл. 14. Прочее](#pj15_ErrorCodes_Miscellaneous) (ошибки в базе данных)  <br/> |
+|0–99  <br/> |[Табл. 3. Общие коды ошибок](#pj15_ErrorCodes_General), за исключением 77 — в [Табл. 9. Календарь](#pj15_ErrorCodes_Calendar) <br/> |
+|100–119  <br/> |[Табл. 18. Проекты](#pj15_ErrorCodes_Projects) <br/> |
+|120–199  <br/> |[Табл. 8. Назначения](#pj15_ErrorCodes_Assignments) <br/> |
+|500–999  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |
+|1000–1199  <br/> |[Табл. 18. Проекты](#pj15_ErrorCodes_Projects) <br/> |
+|2000–2999  <br/> |[Табл. 20. Ресурсы](#pj15_ErrorCodes_Resources) <br/> |
+|3100–3199  <br/> |[Табл. 25. Определение состояния](#pj15_ErrorCodes_Statusing) <br/> |
+|3200–3299  <br/> |[Табл. 28. Расписания](#pj15_ErrorCodes_Timesheets) <br/> |
+|7000–7099  <br/> |[Табл. 27. Задачи](#pj15_ErrorCodes_Tasks) <br/> |
+|9100–9199  <br/> |[Табл. 18. Проекты](#pj15_ErrorCodes_Projects), за исключением 9131 — в [Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |
+|10000–10099  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |
+|10100–10199  <br/> |[Табл. 11. Возвращение — извлечение](#pj15_ErrorCodes_CICO) <br/> |
+|11000–11499  <br/> |[Табл. 13. Таблицы подстановки](#pj15_ErrorCodes_LookupTables) <br/> |
+|11500–11999  <br/> |[Табл. 12. Настраиваемые поля](#pj15_ErrorCodes_CustomFields) <br/> |
+|12000–12099  <br/> |[Табл. 4. Активный кэш](#pj15_ErrorCodes_ActiveCache) <br/> |
+|12100–12299  <br/> |[Табл. 26. Отчеты о состоянии](#pj15_ErrorCodes_StatusReports) <br/> |
+|13000–13999  <br/> |[Табл. 9. Календарь](#pj15_ErrorCodes_Calendar) <br/> |
+|16000–16399  <br/> |[Табл. 15. Уведомления](#pj15_ErrorCodes_Notifications) <br/> |
+|16400–16499  <br/> |[Табл. 31. WssInterop и Object Link Provider (интеграция с SharePoint)](#pj15_ErrorCodes_WSS) <br/> |
+|16600–16699  <br/> |[Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
+|17000–17999  <br/> |[Табл. 10. Служба построения куба (CBS)](#pj15_ErrorCodes_CBS) <br/> |
+|18000–18099  <br/> |[Табл. 31. Интеграция с SharePoint](#pj15_ErrorCodes_WSS) <br/> |
+|19000–19099  <br/> |[Табл. 23. Безопасность](#pj15_ErrorCodes_Security), за исключением 19011, 19012 и 19032, — коды, связанные с безопасностью, в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
+|20000–20099  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General), за исключением 20003 — в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
+|21000–21099  <br/> |[Табл. 22. Правила](#pj15_ErrorCodes_Rules) <br/> |
+|22000–22999  <br/> |[Табл. 24. События сервера](#pj15_ErrorCodes_Events) <br/> |
+|23000–23999  <br/> |[Табл. 18. Проекты](#pj15_ErrorCodes_Projects) <br/> |
+|24000–24999  <br/> |[Табл. 19. Служба отчетных данных](#pj15_ErrorCodes_RDS) (RDS)  <br/> |
+|25000–25999  <br/> |[Табл. 7: Архивирование (резервное копирование и восстановление)](#pj15_ErrorCodes_Archive), за исключением 25004, 25006 — в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
+|26000–26099  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |
+|27000–27999  <br/> |[Табл. 5. Синхронизация Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |
+|28000–28999  <br/> |[Табл. 17. Планировщик](#pj15_ErrorCodes_Planner) (анализ портфеля проектов)  <br/> |
+|29000–29999  <br/> |[Табл. 16. Оптимизатор](#pj15_ErrorCodes_Optimizer) (анализ портфеля проектов), за исключением 29021 — в [Табл. 7. Архивирование](#pj15_ErrorCodes_Archive) <br/> |
+|30000–30999  <br/> |[Табл. 21. Планы использования ресурсов](#pj15_ErrorCodes_ResourcePlans) <br/> |
+|31000–31999  <br/> 32000–32100  <br/> |[Табл. 14. Прочие](#pj15_ErrorCodes_Miscellaneous) (аудит; не используется)  <br/> Страницы сведений о проекте  <br/> |
+|35000–35999  <br/> 40000–40499  <br/> |[Табл. 30. Рабочий процесс](#pj15_ErrorCodes_Workflow) <br/> |
+|40500–40999  <br/> 42000–42999  <br/> |[Табл. 14. Прочие](#pj15_ErrorCodes_Miscellaneous) (**ExchangeSync**; внутреннее использование)  <br/> Временная шкала Project Web App  <br/> |
+|43000–43500  <br/> |[Табл. 29. Делегирование пользователей](#pj15_ErrorCodes_UserDelegation) <br/> |
+|50000–51999  <br/> |[Табл. 14. Прочие](#pj15_ErrorCodes_Miscellaneous) (ошибки базы данных)  <br/> |
 
 <a name="pj15_ErrorCodes_General"></a>
 
@@ -139,15 +139,15 @@ Project Server 2013 процессов и методам интерфейса PS
 |GeneralSessionInvalid = 76  <br/> |Недопустимый параметр сеанса.  <br/> |
 |GeneralDependencyUidInvalid = 78  <br/> |Недопустимый GUID зависимости.  <br/> |
 |GeneralNumberInvalid = 79  <br/> |Недопустимое число.  <br/> |
-|GeneralInvalidDataStore = 80  <br/> |Указанная база данных не существует. Использование базы данных в [DataStoreEnum](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.DataStoreEnum.aspx) .  <br/> |
+|GeneralInvalidDataStore = 80  <br/> |Указанная база данных не существует. Используйте базу данных в [DataStoreEnum](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.DataStoreEnum.aspx).  <br/> |
 |GeneralDurationOrWorkFormatInvalid = 513  <br/> |Недопустимая длительность или формат трудозатрат.  <br/> |
 |GeneralRateFormatInvalid = 518  <br/> |Недопустимый формат ставки.  <br/> |
 |GeneralQueueException = 9131  <br/> |Исключение. В службе очередей возникла общая ошибка.  <br/> |
 |GeneralItemDoesNotExist = 10000  <br/> |Указанный элемент не существует.  <br/> |
 |GeneralLCIDInvalid = 10001  <br/> |Недопустимый код (или идентификатор) языка.  <br/> |
-|GeneralRowDoesNotExist = 10002  <br/> |Указанная строка в **DataTable** не существует.  <br/> |
-|GeneralInvalidColumnValue = 20000  <br/> |Недопустимое значение столбца в **DataTable**.  <br/> |
-|GeneralInvalidDataRowState = 20001  <br/> |Недопустимое состояние **DataRow**.  <br/> |
+|GeneralRowDoesNotExist = 10002  <br/> |Строки, указанной в **DataTable**, не существует.  <br/> |
+|GeneralInvalidColumnValue = 20000  <br/> |Значение столбца в **DataTable** является недопустимым.  <br/> |
+|GeneralInvalidDataRowState = 20001  <br/> |Состояние **DataRow** является недопустимым.  <br/> |
 |GeneralDuplicatedNames = 20004  <br/> |Имеется повторяющееся имя. Имена должны быть уникальными.  <br/> |
 |GeneralReadOnlyColumn = 20005  <br/> |Этот столбец доступен только для чтения.  <br/> |
 |GeneralReadOnlyRow = 20006  <br/> |Эта строка доступна только для чтения.  <br/> |
@@ -156,7 +156,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |GeneralInvalidObject = 20009  <br/> |Недопустимый объект.  <br/> |
 |GeneralSecurityAccessDenied = 20010  <br/> |Отказ в доступе из-за разрешений безопасности.  <br/> |
 |GeneralInvalidOperation = 20011  <br/> |Недопустимая операция.  <br/> |
-|GeneralInvalidCharacters = 20012  <br/> |Некоторые символы не допускаются. В дополнение к символ табуляции следующие символы не допускаются в поле имя проекта: "\ /":; < > | , . ' ? * #` <br/> |
+|GeneralInvalidCharacters = 20012  <br/> |Некоторые символы являются недопустимыми. Кроме символа табуляции, в имени проекта нельзя использовать следующие символы: `\ / " : ; < > | , . ' ? * #` <br/> |
 |GeneralNameTooLong = 20013  <br/> |Слишком длинное имя.  <br/> |
 |GeneralNameCannotBeBlank = 20014  <br/> |Имя не может быть пустым. Не используйте значение NULL или пустую строку.  <br/> |
 |GeneralInvalidOperationOnReadOnlyValue = 20016  <br/> |Запрошенная операция со значением, доступным только для чтения, не является допустимой.  <br/> |
@@ -181,7 +181,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |GeneralQueueInvalidGroupPriority = 26009  <br/> |Недопустимый приоритет группы в очереди.  <br/> |
 |GeneralQueueInvalidCorrelationPriority = 26010  <br/> |Недопустимый приоритет корреляции в очереди.  <br/> |
 |GeneralQueueInvalidQueueID = 26011  <br/> |Недопустимый идентификационный номер очереди.  <br/> |
-|GeneralQueueInvalidAdminAction = 26012  <br/> |Действие **Admin** не является допустимым для этой очереди.  <br/> |
+|GeneralQueueInvalidAdminAction = 26012  <br/> |Действие **Admin** является недопустимым для очереди.  <br/> |
 |GeneralQueueInvalidStatType = 26013  <br/> |Недопустимый тип состояния очереди.  <br/> |
 |GeneralQueueInvalidBlockPolicy = 26014  <br/> |Недопустимая политика блокировки очереди.  <br/> |
 |GeneralQueueCannotRetryJob = 26015  <br/> |Очереди не удается повторить попытку выполнения задания.  <br/> |
@@ -190,18 +190,18 @@ Project Server 2013 процессов и методам интерфейса PS
 |GeneralDalErrorGettingConnectionStrings = 26018  <br/> |Ошибка при получении строк подключения для уровня доступа к данным (DAL).  <br/> |
 |GeneralDalErrorConnectingToDatabase = 26019  <br/> |Ошибка при подключении к базе данных на уровне доступа к данным.  <br/> |
 |GeneralDalInvalidArgumentCountCreatingFilter = 26020  <br/> |Недопустимое число аргументов для создания фильтра.  <br/> |
-|GeneralDataTableCannotBeNull = 26024  <br/> |**DataTable** не может иметь значение **null**.  <br/> |
+|GeneralDataTableCannotBeNull = 26024  <br/> |Таблица данных **DataTable** не может быть **null**.  <br/> |
 |GeneralDatasetConstraints = 26025  <br/> |Ошибка в ограничениях **DataSet**.  <br/> |
-|GeneralInvalidDataSetStructure = 26027  <br/> |Недопустимая структура **DataSet**.  <br/> |
+|GeneralInvalidDataSetStructure = 26027  <br/> |Структура **DataSet** является недопустимой.  <br/> |
 |GeneralDalNoRowsUpdated = 26028  <br/> |Обновленные строки на уровне доступа к данным (DAL) отсутствуют.  <br/> |
-|GeneralDataTableCannotBeEmpty = 26029  <br/> |**DataTable** не может быть пустым.  <br/> |
+|GeneralDataTableCannotBeEmpty = 26029  <br/> |Таблица данных **DataTable** не может быть пустой.  <br/> |
 |GeneralWSSContentDBNotWritable = 26030  <br/> |Не удается выполнить запись базу данных контента SharePoint. Эта база данных контента доступна только для чтения, либо действует блокировка на уровне семейства веб-сайтов.  <br/> |
-|GeneralSPValidateFormDigestError = 26031  <br/> |Ошибка при проверке дайджест формы в Project Web App обратного вызова, обычно из-за истечения времени ожидания.  <br/> |
-|GeneralDelegationActiveForCurrentUser = 26032  <br/> |Текущий пользователь имеет активное делегирование. Эта ошибка выдается веб-методами в службе **WinProj** для Project профессиональный.<br/> |
+|GeneralSPValidateFormDigestError = 26031  <br/> |Ошибка проверки сводки формы в обратном вызове Project Web App, обычно это вызвано истечением времени ожидания.  <br/> |
+|GeneralDelegationActiveForCurrentUser = 26032  <br/> |Текущий пользователь имеет активное делегирование. Такая ошибка создается веб-методами в службе **WinProj** для Project профессиональный.  <br/> |
 
 <a name="pj15_ErrorCodes_ActiveCache"></a>
 
-## <a name="table-4-active-cache"></a>Таблица 4. Активный кэш
+## <a name="table-4-active-cache"></a>Табл. 4. Активный кэш
 
 |Код ошибки для активного кэша|Описание|
 |:-----|:-----|
@@ -219,11 +219,11 @@ Project Server 2013 процессов и методам интерфейса PS
 |ActiveCacheProjectTypeMismatch = 12013  <br/> |Тип проекта не совпадает с ожидаемым типом.  <br/> |
 |ActiveCacheDataValidationFailed = 12014  <br/> |Сбой проверки данных.  <br/> |
 |ActiveCacheUnsupportedProjectProfessionalVersion = 12015  <br/> |Версия Project профессиональный не поддерживается.  <br/> |
-|ActiveCacheGeneralSQLException = 12016  <br/> |Произошла общая ошибка SQL.  <br/> |
+|ActiveCacheGeneralSQLException = 12016  <br/> |Существует общая ошибка SQL.  <br/> |
 
 <a name="pj15_ErrorCodes_ActiveDirectory"></a>
 
-## <a name="table-5-active-directory-synchronization"></a>В таблице 5. Синхронизация Active Directory
+## <a name="table-5-active-directory-synchronization"></a>Табл. 5. Синхронизация Active Directory
 
 |Код ошибки для синхронизации Active Directory|Описание|
 |:-----|:-----|
@@ -233,11 +233,11 @@ Project Server 2013 процессов и методам интерфейса PS
 |AdMaximumGroupsCountExceeded = 27007  <br/> |Было превышено максимальное число групп.  <br/> |
 |SRAInvalidVersion = 27300  <br/> |Недопустимая версия SRA.  <br/> |
 |SRADelayedUpgradeFailed = 27301  <br/> |Сбой действия по асинхронному обновлению SRA.  <br/> |
-|(27000 - 27999)  <br/> |Остальные ошибки синхронизации для Active Directory не перечисляются в Project Server.  <br/> |
+|(27000–27999)  <br/> |Другие ошибки синхронизации для службы Active Directory не перечислены на сервере Project Server.  <br/> |
 
 <a name="pj15_ErrorCodes_Admin"></a>
 
-## <a name="table-6-admin-web-service"></a>В таблице 6. Веб-службы администрирования
+## <a name="table-6-admin-web-service"></a>Табл. 6. Веб-служба администрирования
 
 |Код ошибки веб-службы администрирования|Описание|
 |:-----|:-----|
@@ -259,11 +259,11 @@ Project Server 2013 процессов и методам интерфейса PS
 |AdminUserAccountNameNull = 28021  <br/> |Имя учетной записи пользователя имеет значение NULL.  <br/> |
 |AdminIsWindowsUserNull = 28022  <br/> |Учетная запись пользователя Windows (NTLM) имеет значение NULL.  <br/> |
 |AdminInvalidTimePeriodState = 28023  <br/> |Недопустимое состояние периода времени.  <br/> |
-|AdminGlobalUpdateFailed = 28024  <br/> |Сбой глобального корпоративного обновления во время вызова в **SetServerCurrency**.  <br/> |
-|AdminGlobalCheckedOut = 28025  <br/> |Глобальный корпоративный шаблон уже извлечен во время вызова в **SetServerCurrency**.  <br/> |
+|AdminGlobalUpdateFailed = 28024  <br/> |Во время вызова **SetServerCurrency** произошел сбой глобального корпоративного обновления.  <br/> |
+|AdminGlobalCheckedOut = 28025  <br/> |Глобальный корпоративный шаблон уже извлечен во время вызова **SetServerCurrency**.  <br/> |
 |AdminInvalidDatabaseTimeout = 28026  <br/> |Истекло время ожидания из-за недопустимой базы данных.  <br/> |
 |AdminInvalidDatabaseTimeoutType = 28027  <br/> |Истекло время ожидания из-за недопустимого типа базы данных.  <br/> |
-|AdminInvalidEntityType = 28028  <br/> |Недопустимый тип сущности. В разделе [EntityCollection](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.aspx) .  <br/> |
+|AdminInvalidEntityType = 28028  <br/> |Тип объекта является недопустимым. См. [EntityCollection](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.aspx) .  <br/> |
 |AdminInvalidCompatibilityModeChange = 28029  <br/> |Недопустимое изменение режима совместимости.  <br/> |
 |AdminInvalidCompatibilityMode = 28030  <br/> |Недопустимый режим совместимости.  <br/> |
 |AdminInvalidProjectProfessionalVersions = 28031  <br/> |Недопустимый набор версий Project профессиональный.  <br/> |
@@ -271,13 +271,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |AdminTooManyProjectProfessionalVersions = 28033  <br/> |Указано слишком много версий Project профессиональный.  <br/> |
 |AdminDuplicateProjectProfessionalMajorVersions = 28034  <br/> |В основных номерах версий Project профессиональный присутствуют повторения. Вы можете указать только одну версию для каждого основного выпуска, начиная с Project Профессиональный 2007.  <br/> |
 |AdminInvalidServerFlags = 28035  <br/> |Один или несколько флагов в параметрах Project Server не являются допустимыми.  <br/> |
-|AdminNullProjectProfessionalVersions = 28036  <br/> |Одна или несколько версий Project профессиональный имеют значение NULL.  <br/> |
+|AdminNullProjectProfessionalVersions = 28036  <br/> |Одна или несколько версий Project профессиональный являются пустыми.  <br/> |
 
 <a name="pj15_ErrorCodes_Archive"></a>
 
-## <a name="table-7-archive-web-service"></a>В таблице 7. Архив веб-службы
+## <a name="table-7-archive-web-service"></a>Табл. 7. Веб-служба архивации
 
-|Код ошибки архив веб-службы (резервное копирование и восстановление)|Описание|
+|Код ошибки веб-службы архивации (резервное копирование и восстановление)|Описание|
 |:-----|:-----|
 |ArchiveProjectFailure = 25000  <br/> |Сбой операции архивирования проекта.  <br/> |
 |ArchiveProjectsFailed = 25001  <br/> |Не удается сохранить проекты в архивной базе данных.  <br/> |
@@ -314,9 +314,9 @@ Project Server 2013 процессов и методам интерфейса PS
 
 <a name="pj15_ErrorCodes_Assignments"></a>
 
-## <a name="table-8-assignment"></a>В таблице 8. Assignment
+## <a name="table-8-assignment"></a>Табл. 8. Назначение
 
-|Код ошибки для назначений|Описание|
+|Код ошибки назначения|Описание|
 |:-----|:-----|
 |AssignmentNotFound = 120  <br/> |Назначение не найдено.  <br/> |
 |AssignmentWrongTrackingMethod = 122  <br/> |Назначение имеет неправильный метод отслеживания.  <br/> |
@@ -330,13 +330,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |AssignmentInvalid = 136  <br/> |Недопустимое назначение.  <br/> |
 |AssignmentFieldsInvalidForBudget = 137  <br/> |Поля назначений не являются допустимыми для бюджета.  <br/> |
 |AssignmentAlreadyAssignedToResource = 138  <br/> |Этот ресурс уже имеет назначение.  <br/> |
-|AssignmentInvalidOwner = 139  <br/> |Недопустимый владелец назначения.  <br/> |
+|AssignmentInvalidOwner = 139  <br/> |Владелец назначения является недопустимым.  <br/> |
 
 <a name="pj15_ErrorCodes_Calendar"></a>
 
-## <a name="table-9-calendar"></a>В таблице 9. Календарь
+## <a name="table-9-calendar"></a>Табл. 9. Календарь
 
-|Код ошибки для календаря|Описание|
+|Код ошибки календаря|Описание|
 |:-----|:-----|
 |CalendarUidInvalid = 77  <br/> |Недопустимый GUID календаря.  <br/> |
 |CalendarOnlyOneShiftIsNull = 13000  <br/> |Значение NULL имеет только одна смена.  <br/> |
@@ -371,13 +371,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |CalendarCannotDeleteStandardCalendar = 13040  <br/> |Стандартный календарь нельзя удалить.  <br/> |
 |CalendarCannotRenameStandardCalendar = 13041  <br/> |Стандартный календарь нельзя переименовать.  <br/> |
 |CalendarCannotDeleteCalendarUsedByEnterpriseResource = 13042  <br/> |Этот календарь используется корпоративным ресурсом и не может быть удален.  <br/> |
-|CalendarFilterInvalid = 13043  <br/> |Недопустимый фильтр для календаря.  <br/> |
+|CalendarFilterInvalid = 13043  <br/> |Фильтр для календаря является недопустимым.  <br/> |
 
 <a name="pj15_ErrorCodes_CBS"></a>
 
-## <a name="table-10-cubeadmin-and-cube-build-service"></a>В таблице 10. Служба построения куба и cubeadmin задание таймера
+## <a name="table-10-cubeadmin-and-cube-build-service"></a>Табл. 10. CubeAdmin и служба построения куба
 
-|Код ошибки cubeadmin задание таймера и службы построения куба (CBS)|Описание|
+|Код ошибки CubeAdmin и службы построения куба (CBS)|Описание|
 |:-----|:-----|
 |CBSGeneralFailure = 17001  <br/> |Сбой в службе построения куба (CBS). Это код общей ошибки, который может быть вызван множеством разных причин.  <br/> |
 |CBSDsoNotInstalled = 17002  <br/> |Службе CBS требуется установленный компонент объектов поддержки принятия решений (DSO) для служб Analysis Services.  <br/> |
@@ -412,13 +412,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |CBSSetCubeFieldsSettingsFromListForGroupMeasureFailed = 17032  <br/> |Не удалось задать список для параметров групповых показателей полей куба.  <br/> |
 |CBSErrorReadingCubeDepartments = 17033  <br/> |Ошибка при считывании отделов в кубе OLAP.  <br/> |
 |CBSErrorMaxOlapDatabaseCountReached = 17034  <br/> |Достигнуто максимальное число баз данных OLAP.  <br/> |
-|CBSErrorReadingCubeFieldsSettings = 17035  <br/> |Ошибка при считывании параметров полей куба.  <br/> |
+|CBSErrorReadingCubeFieldsSettings = 17035  <br/> |Ошибка чтения параметров полей куба.  <br/> |
 
 <a name="pj15_ErrorCodes_CICO"></a>
 
-## <a name="table-11-check-in-and-check-out"></a>В таблице 11. Возврат и извлечение
+## <a name="table-11-check-in-and-check-out"></a>Табл. 11. Возвращение и извлечение
 
-|Код ошибки для возвращения и извлечения|Описание|
+|Код ошибки возвращения — извлечения|Описание|
 |:-----|:-----|
 |CICOCheckedOutToOtherUser = 10100  <br/> |Извлечено другому пользователю.  <br/> |
 |CICOAlreadyCheckedOutToYou = 10101  <br/> |Уже извлечено вам.  <br/> |
@@ -426,13 +426,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |CICOCheckedOutInOtherSession = 10103  <br/> |Извлечено в другом сеансе.  <br/> |
 |CICOInvalidSessionGuid = 10104  <br/> |Недопустимый GUID сеанса.  <br/> |
 |CICOAlreadyCheckedOutInSameSession = 10105  <br/> |Уже извлечено в том же сеансе.  <br/> |
-|CICOCannotCheckOutVisibilityModeProjectWithMppInDocLib = 10106  <br/> |Не удается извлечь проект режима видимости с помощью MPP-файла в библиотеке документов.  <br/> |
+|CICOCannotCheckOutVisibilityModeProjectWithMppInDocLib = 10106  <br/> |Невозможно извлечь проект режима видимости с помощью MPP-файла в библиотеке документов.  <br/> |
 
 <a name="pj15_ErrorCodes_CustomFields"></a>
 
-## <a name="table-12-custom-field"></a>В таблице 12. Настраиваемые поля
+## <a name="table-12-custom-field"></a>Табл. 12 Настраиваемое поле
 
-|Код ошибки для настраиваемого поля|Описание|
+|Код ошибки настраиваемого поля|Описание|
 |:-----|:-----|
 |CustomFieldInvalidPropertyType = 11500  <br/> |Недопустимый тип свойства.  <br/> |
 |CustomFieldInvalidScope = 11503  <br/> |Недопустимая область настраиваемого поля.  <br/> |
@@ -466,21 +466,21 @@ Project Server 2013 процессов и методам интерфейса PS
 |CustomFieldInvalidID = 11701  <br/> |Недопустимый идентификационный номер настраиваемого поля.  <br/> |
 |CustomFieldInvalidUID = 11702  <br/> |Недопустимый GUID настраиваемого поля.  <br/> |
 |CustomFieldInvalidType = 11703  <br/> |Недопустимый тип настраиваемого поля.  <br/> |
-|CustomFieldInvalidTypeColumnFilledIn = 11704  <br/> |Недопустимое значение столбца типа настраиваемого поля. Просмотрите пример в [Примере кода ошибки для WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
+|CustomFieldInvalidTypeColumnFilledIn = 11704  <br/> |Значение столбца типа настраиваемого поля является недопустимым. См. пример в [Пример кода ошибки для WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
 |CustomFieldCodeValueDoesNotMatchLookupTable = 11706  <br/> |Значение кода не совпадает с таблицей подстановки.  <br/> |
 |CustomFieldCodeValueIsNotLeafNode = 11707  <br/> |Значение кода не является листовым узлом таблицы подстановки.  <br/> |
 |CustomFieldRowAlreadyExists = 11708  <br/> |Эта строка настраиваемого поля уже существует.  <br/> |
 |CustomFieldRowDoesNotMatchCorrespondingDefinitionInDB = 11710  <br/> |Строка настраиваемого поля не соответствует определению базы данных.  <br/> |
 |CustomFieldCodeValueAlreadyUsed = 11711  <br/> |Это значение кода уже используется.  <br/> |
 |CustomFieldMaxValuesExceeded = 11712  <br/> |Превышено максимальное число значение настраиваемых полей.  <br/> |
-|CustomFieldRequiredValueNotProvided = 11713  <br/> |Не указано значение обязательного настраиваемого поля. Просмотрите пример в [Примере кода ошибки для WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
+|CustomFieldRequiredValueNotProvided = 11713  <br/> |Необходимое значение настраиваемого поля не предоставлено. См. пример в [Пример кода ошибки для WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
 |CustomFieldCannotChangeLookupTable = 11715  <br/> |Не удается изменить таблицу подстановки настраиваемого поля.  <br/> |
 |CustomFieldFilterInvalid = 11716  <br/> |Недопустимый фильтр настраиваемого поля.  <br/> |
 |CustomFieldRolldownInvalidOnFormulaFields = 11717  <br/> |Не удается выполнить развертывание в настраиваемом поле формул.  <br/> |
 |CustomFieldFormulaFieldCannotBeRequired = 11718  <br/> |Поле формул не может быть обязательным.  <br/> |
 |CustomFieldFormulaFieldCannotBeWorkflowControlled = 11719  <br/> |Поле формул не может управляться рабочим процессом.  <br/> |
 |CustomFieldCannotSetValueOnFormulaFields = 11720  <br/> |Не удается установить значение для полей формул.  <br/> |
-|CustomFieldNewPerRequestLimitExcedeed = 11721  <br/> |Превышено ограничение запроса для новых настраиваемых полей. Ограничение составляет [NEW_CF_PER_REQUEST_LIMIT](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.CustomField.NEW_CF_PER_REQUEST_LIMIT.aspx) в один запрос.  <br/> |
+|CustomFieldNewPerRequestLimitExcedeed = 11721  <br/> |Превышено ограничение запроса для новых настраиваемых полей. Ограничение составляет [NEW_CF_PER_REQUEST_LIMIT](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.CustomField.NEW_CF_PER_REQUEST_LIMIT.aspx) в одном запросе.  <br/> |
 |CustomFieldNameIsReservedName = 11722  <br/> |Имя настраиваемого поля не может быть зарезервированным именем.  <br/> |
 |CustomFieldNameInvalidForOlapMeasure = 11723  <br/> |Имя настраиваемого поля не является допустимым для показателя куба OLAP.  <br/> |
 |CustomFieldNameInvalidForOlapDimension = 11724  <br/> |Имя настраиваемого поля не является допустимым для измерения куба OLAP.  <br/> |
@@ -492,7 +492,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |CustomFieldCannotModifyDepartmentUidOnBuiltinFields = 11732  <br/> |GUID отдела нельзя изменить во встроенных настраиваемых полях.  <br/> |
 |CustomFieldCannotHaveBothLookupTableAndMultilineText = 11733  <br/> |Настраиваемое поле не может включать в себя как таблицу подстановки, так и многострочный текст.  <br/> |
 |CustomFieldCannotHaveBothFormulaAndMultilineText = 11734  <br/> |Настраиваемое поле не может включать в себя как формулу, так и многострочный текст.  <br/> |
-|CustomFieldDescriptionExceedsLimit = 11735  <br/> |Слишком длинное описание настраиваемого поля. Максимальная длина свойства **MD_PROP_DESCRIPTION** составляет 1000 символов.<br/> |
+|CustomFieldDescriptionExceedsLimit = 11735  <br/> |Слишком большое описание настраиваемого поля. Максимальная длина свойства **MD_PROP_DESCRIPTION** — 1000 знаков.  <br/> |
 |CustomFieldOnlyTextFieldsCanHaveMultilineText = 11736  <br/> |Многострочный текст могут содержать только текстовые настраиваемые поля.  <br/> |
 |CustomFieldOnlyProjectFieldsCanHaveMultilineText = 11737  <br/> |Многострочный текст могут содержать только настраиваемые поля проекта.  <br/> |
 |CustomFieldCannotChangeWorkflowControlledBehaviorForNonProjectCustomFields = 11738  <br/> |Настраиваемое поле не может изменить режим работы настраиваемых полей вне проекта, управляемых рабочим процессом.  <br/> |
@@ -506,24 +506,24 @@ Project Server 2013 процессов и методам интерфейса PS
 |CustomFieldGraphicalIndicatorContainsInvalidFieldReference = 11747  <br/> |Графический индикатор настраиваемого поля содержит недопустимую ссылку на поле.  <br/> |
 |CustomFieldGraphicalIndicatorTypeMismatch = 11748  <br/> |Для графического индикатора настраиваемого поля имеет место несоответствие типов.  <br/> |
 |CustomFieldFormulaFieldCannotReferenceWorkflowControlledField = 11749  <br/> |Поле в формуле не может ссылаться на поле, управляемое рабочим процессом.  <br/> |
-|CustomFieldWorkflowCustomFieldBeingReferencedByFormula = 11750  <br/> |Формула пытается ссылаться на настраиваемое поле рабочего процесса.  <br/> |
+|CustomFieldWorkflowCustomFieldBeingReferencedByFormula = 11750  <br/> |Формула пытается сослаться на настраиваемое поле рабочего процесса.  <br/> |
 
 <a name="pj15_ErrorCodes_LookupTables"></a>
 
-## <a name="table-13-lookup-table"></a>В таблице 13. Таблица подстановки
+## <a name="table-13-lookup-table"></a>Табл. 13. Таблица подстановки
 
-|Код ошибки для таблицы подстановки|Описание|
+|Код ошибки таблицы подстановки|Описание|
 |:-----|:-----|
 |LookupTableMaskNotDefined = 11000  <br/> |Маска кода таблицы подстановки не определена.  <br/> |
 |LookupTableMaskHasTooManyValues = 11001  <br/> |Маска кода таблицы подстановки имеет слишком много значений.  <br/> |
 |LookupTableMaskHasGaps = 11002  <br/> |Маска кода таблицы подстановки имеет пробелы.  <br/> |
 |LookupTableMaskSequenceTypeLimitedToOneLevelDeep = 11003  <br/> |Тип последовательности маски кода ограничен одним уровнем.  <br/> |
 |LookupTableMaskSequenceTypeInvalid = 11004  <br/> |Недопустимый тип последовательности маски кода.  <br/> |
-|LookupTableMaskSequenceRequiresAnyLength = 11005  <br/> |Последовательность маска кода требует _любой_длины.  <br/> |
+|LookupTableMaskSequenceRequiresAnyLength = 11005  <br/> |Последовательность маски кода запрашивает длину _Any_.  <br/> |
 |LookupTableMaskSeparatorTooLong = 11006  <br/> |Разделитель маски кода содержит слишком много символов.  <br/> |
 |LookupTableMaskLevelMustBeBlankAcrossLCIDs = 11007  <br/> |Уровень маски кода должен быть пустым для всех кодов (или идентификаторов) языка.  <br/> |
 |LookupTableMaskSeparatorInvalid = 11008  <br/> |Недопустимый знак разделителя маски кода.  <br/> |
-|LookupTableMaskBlankSeparatorInvalidAfterAnyLengthSequence = 11009  <br/> |Пустая разделитель после _любой_последовательности длина недействительны.  <br/> |
+|LookupTableMaskBlankSeparatorInvalidAfterAnyLengthSequence = 11009  <br/> |Пустой знак разделителя является недопустимым после длины последовательности _Any_.  <br/> |
 |LookupTableMaskSequenceLengthInvalid = 11010  <br/> |Недопустимая длина последовательности маски кода.  <br/> |
 |LookupTableMaskLevelMustBeOneOrMore = 11011  <br/> |Маска кода должна относиться к 1 или более высокому уровню.  <br/> |
 |LookupTableItemDoesNotFitMask = 11050  <br/> |Элемент таблицы подстановки не соответствует определению маски кода.  <br/> |
@@ -551,20 +551,20 @@ Project Server 2013 процессов и методам интерфейса PS
 |LookupTableAlreadyExists = 11076  <br/> |Таблица подстановки уже существует.  <br/> |
 |LookupTableInvalidUID = 11078  <br/> |Недопустимый GUID таблицы подстановки.  <br/> |
 |LookupTableFilterInvalid = 11079  <br/> |Недопустимый фильтр таблицы подстановки.  <br/> |
-|LookupTableLanguageParameterInvalidWithXmlFilter = 11080  <br/> |Параметр language недействительны с параметром _xmlFilter_ в таблице подстановки.  <br/> |
+|LookupTableLanguageParameterInvalidWithXmlFilter = 11080  <br/> |Параметр языка является недопустимым при использовании параметра _xmlFilter_ таблицы подстановки.  <br/> |
 |LookupTableInvalidParentStructUid = 11081  <br/> |Недопустимый GUID для родительской структуры таблицы подстановки.  <br/> |
 |LookupTableItemContainsListSeparator = 11082  <br/> |Элемент таблицы подстановки содержит разделитель элементов списка.  <br/> |
    
-Коды ошибок в таблице 14 включают элементы для страницы сведений о проекте (PDP), синхронизации Exchange, временная шкала Project Web App и ошибки базы данных. Многие из кодов прочих ошибок в таблице 14 используются во внутренней сети.
+Коды ошибок в таблице 14 включают в себя элементы для страниц сведений о проекте (PDP), синхронизации Exchange, временной шкалы Project Web App и ошибок баз данных. Многие из кодов прочих ошибок в таблице 14 предназначены для внутреннего использования.
   
 > [!NOTE]
-> Аудит коды ошибок не используются в Project Server 2013. 
+> Коды ошибок аудита в Project Server 2013 не используются. 
 
 <a name="pj15_ErrorCodes_Miscellaneous"></a>
 
 ## <a name="table-14-miscellaneous-error-codes"></a>Табл. 14. Коды прочих ошибок
 
-|Код ошибки Прочее|Описание|
+|Код прочих ошибок|Описание|
 |:-----|:-----|
 |AuditingUpdateFailure = 31000  <br/> |Не используется.  <br/> |
 |AuditingCannotDeleteFeature = 31001  <br/> |Не используется.  <br/> |
@@ -582,8 +582,8 @@ Project Server 2013 процессов и методам интерфейса PS
 |ProjectDetailPagesUnavailableWorker = 32002  <br/> |Сбой загрузки детализации проекта. Нет доступных работников.  <br/> |
 |ProjectDetailPagesFailedToLoadProjectInWorker = 32003  <br/> |Сбой при загрузке работника.  <br/> |
 |AppPermissionInvalidAppPermissionId = 32300  <br/> |Проблема с идентификатором разрешения приложения.  <br/> |
-|InvariantValidationPSIFailed = 40000  <br/> |Возвращается методами **PWA**. если любые частные методы возвращают **ValidationMethodFailed**. Для внутреннего использования.<br/> |
-|ValidationMethodFailed = 40001  <br/> |Возвращается частными методами **PWA**, когда они обнаруживают несогласованности баз данных. Для внутреннего использования.<br/> |
+|InvariantValidationPSIFailed = 40000  <br/> |Возвращается методами **PWA**, если любой из личных методов возвращает **ValidationMethodFailed**. Для внутреннего использования.  <br/> |
+|ValidationMethodFailed = 40001  <br/> |Возвращается личными методами **PWA** при обнаружении ими несоответствий базы данных. Для внутреннего использования.  <br/> |
 |GeneralExchangeSyncError = 40500  <br/> |Общая ошибка при синхронизации Microsoft Exchange. Для внутреннего использования.  <br/> |
 |ExchangeSyncRootFolderCreationFailed = 40501  <br/> |Не удалось создать корневую папку при синхронизации Microsoft Exchange.  <br/> |
 |ExchangeSyncTaskFolderCreationFailed = 40502  <br/> |Не удалось создать папку задач.  <br/> |
@@ -600,15 +600,15 @@ Project Server 2013 процессов и методам интерфейса PS
 |ExchangeSyncDeletionOfTasksInExchangeFailure = 40513  <br/> |Не удалось удалить задачи при синхронизации Exchange.  <br/> |
 |ExchangeSyncAttemptedSyncOfInvalidConfiguredResource = 40514  <br/> |Предпринята попытка синхронизации ресурса с недопустимой конфигурацией.  <br/> |
 |ExchangeSyncRetrievalOfEWSUrlCausedException = 40515  <br/> |Во время извлечения веб-службы Exchange возникло исключение.  <br/> |
-|TimelineViewDataDoesNotExist = 42000  <br/> |Данные не существуют для представление временной шкалой в Project Web App.  <br/> |
+|TimelineViewDataDoesNotExist = 42000  <br/> |Данные не существуют в представлении временной шкалы в Project Web App.  <br/> |
 |DatabaseUndefinedError = 50000  <br/> |База данных не определена.  <br/> |
-|DatabaseCannotInsertDuplicateKeyError = 50001  <br/> |База данных не может вставлять повторяющийся ключ.  <br/> |
+|DatabaseCannotInsertDuplicateKeyError = 50001  <br/> |Базе данных не удается вставить дублируемый ключ.  <br/> |
 
 <a name="pj15_ErrorCodes_Notifications"></a>
 
-## <a name="table-15-notification"></a>В таблице 15. Notification
+## <a name="table-15-notification"></a>Табл. 15. Уведомление
 
-|Код ошибки для уведомлений|Описание|
+|Код ошибки уведомления|Описание|
 |:-----|:-----|
 |NotificationReminderUnknown = 16050  <br/> |Неизвестное уведомление с напоминанием.  <br/> |
 |NotificationReminderParentNotSubscribed = 16051  <br/> |Отсутствует подписка на родительский элемент уведомления с напоминанием.  <br/> |
@@ -619,18 +619,18 @@ Project Server 2013 процессов и методам интерфейса PS
 |NotificationQueueMessageFailed = 16082  <br/> |Сбой сообщения в очереди уведомлений.  <br/> |
 |NotificationXSLTTransformationError = 16084  <br/> |Ошибка в преобразовании XSLT уведомления.  <br/> |
    
-Все коды ошибок в таблице 16 относятся к оптимизатору — компоненту, используемому для анализа портфеля проектов.
+Все коды ошибок в таблице 16 предназначены для оптимизатора, который является компонентом, используемым в анализе портфеля проектов.
 
 <a name="pj15_ErrorCodes_Optimizer"></a>
 
-## <a name="table-16-optimizer-project-portfolio-analysis"></a>В таблице 16. Оптимизатора (анализа портфеля проектов)
+## <a name="table-16-optimizer-project-portfolio-analysis"></a>Табл. 16. Оптимизатор (анализ портфеля проектов)
 
 |Код ошибки оптимизатора|Описание|
 |:-----|:-----|
-|OptimizerDepInvalidDepType = 29000  <br/> |Недопустимое значение **DEPENDENCY_TYPE** в [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) оптимизатора. В разделе [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx) .  <br/> |
-|OptimizerDepInvalidEntityType = 29001  <br/> |Недопустимый тип сущности. В разделе свойства [сущностей](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.Entities.aspx) .  <br/> |
-|OptimizerDepInvalidPosition = 29003  <br/> |Недопустимое значение [ПОЗИЦИИ](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsRow.POSITION.aspx) .  <br/> |
-|OptimizerDepDuplicateDependentProjects = 29004  <br/> |В [OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable.aspx) есть дублирующиеся проектов.  <br/> |
+|OptimizerDepInvalidDepType = 29000  <br/> |Значение оптимизатора **DEPENDENCY_TYPE** в [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) является недопустимым. См. статью [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx) .  <br/> |
+|OptimizerDepInvalidEntityType = 29001  <br/> |Тип объекта является недопустимым. См. свойство [Entities](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.Entities.aspx).  <br/> |
+|OptimizerDepInvalidPosition = 29003  <br/> |Значение [POSITION](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsRow.POSITION.aspx) является недопустимым.  <br/> |
+|OptimizerDepDuplicateDependentProjects = 29004  <br/> |В [OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable.aspx) имеются повторяющиеся проекты.  <br/> |
 |OptimizerDepInvalidDependency = 29005  <br/> |Недопустимая зависимость оптимизатора.  <br/> |
 |OptimizerDepCircularDependency = 29006  <br/> |Имеется циклическая зависимость.  <br/> |
 |OptimizerCannotDeleteDependency = 29007  <br/> |Не удается удалить зависимость.  <br/> |
@@ -648,7 +648,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |OptimizerEngineBinarySubOptimal = 29107  <br/> |Неоптимальные результаты расчета оптимизатора.  <br/> |
 |OptimizerEngineBinaryInternalError = 29108  <br/> |Внутренняя ошибка в расчете оптимизатора.  <br/> |
 |OptimizerInvalidRange = 29200  <br/> |Недопустимый диапазон данных для оптимизатора.  <br/> |
-|OptimizerNonNormalizedWeights = 29201  <br/> |**ВЕС** значения в [AnalysisDataSet.AnalysisPriorityDataDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisPriorityDataDataTable.aspx) не нормализован.  <br/> |
+|OptimizerNonNormalizedWeights = 29201  <br/> |Значения **WEIGHT** в [AnalysisDataSet.AnalysisPriorityDataDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisPriorityDataDataTable.aspx) не нормализованы.  <br/> |
 |OptimizerCannotEditPrioritization = 29300  <br/> |Не удается изменить определение приоритетов целей.  <br/> |
 |OptimizerCannotDeletePrioritization = 29301  <br/> |Не удается удалить определение приоритетов целей.  <br/> |
 |OptimizerCannotCreatePrioritization = 29302  <br/> |Не удается создать определение приоритетов целей.  <br/> |
@@ -656,10 +656,10 @@ Project Server 2013 процессов и методам интерфейса PS
 |OptimizerCannotCalculateDriverPriorities = 29304  <br/> |Не удается вычислить приоритеты целей.  <br/> |
 |OptimizerCannotCreateMultiplePrioritizations = 29305  <br/> |Не удается создать несколько определений приоритетов целей.  <br/> |
 |OptimizerCannotUpdateMultiplePrioritizations = 29306  <br/> |Не удается обновить несколько определений приоритетов целей.  <br/> |
-|OptimizerDriverRelationsNotFilled = 29307  <br/> |Данные DriverRelationsRow не завершена.  <br/> |
+|OptimizerDriverRelationsNotFilled = 29307  <br/> |Данные DriverRelationsRow являются неполными.  <br/> |
 |OptimizerDriversNotFilled = 29308  <br/> |В целях проекта недостаточно информации для выработки решения.  <br/> |
-|OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |В [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx) есть обратных величин.  <br/> |
-|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |Существует неактивных драйвер, указанный в [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx) . Проверьте свойства **DRIVER1_UID** и **DRIVER2_UID** .  <br/> |
+|OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |В [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx) имеются обратные значения.  <br/> |
+|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |В [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx) указан неактивный драйвер. Проверьте свойства **DRIVER1_UID** и **DRIVER2_UID**.  <br/> |
 |OptimizerCannotChangePrioritizationType = 29311  <br/> |Не удается изменить тип определения приоритетов.  <br/> |
 |OptimizerCannotSpecifyPriorityValuesForCalculatedPrioritizations = 29312  <br/> |В случае расчета приоритета для него нельзя указать значение.  <br/> |
 |OptimizerCannotNormalizePriorityValues = 29313  <br/> |Значения приоритета нельзя нормализовать.  <br/> |
@@ -702,21 +702,21 @@ Project Server 2013 процессов и методам интерфейса PS
 |OptimizerInvalidPlannerData = 29615  <br/> |Недопустимые данные планировщика для оптимизатора.  <br/> |
 |OptimizerCannotChangeImpactData = 29616  <br/> |Не удается изменить данные о влиянии проекта.  <br/> |
 |OptimizerInvalidProjectsNumber = 29617  <br/> |Недопустимое число проектов.  <br/> |
-|OptimizerCannotAddImpactCFUIDToCFAnalysis = 29618  <br/> |Не удается добавить проект воздействия настраиваемого поля GUID ([PROJECT_IMPACT_CF_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisRow.PROJECT_IMPACT_CF_UID.aspx) ) для анализа портфеля.  <br/> |
-|OptimizerInvalidDepartmentUid = 29619  <br/> |[DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisRow.DEPARTMENT_UID.aspx) не является допустимым.  <br/> |
+|OptimizerCannotAddImpactCFUIDToCFAnalysis = 29618  <br/> |Не удается добавить GUID настраиваемого поля влияния проекта ([PROJECT_IMPACT_CF_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisRow.PROJECT_IMPACT_CF_UID.aspx) ) для анализа портфеля.  <br/> |
+|OptimizerInvalidDepartmentUid = 29619  <br/> |Значение [DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.AnalysisDataSet.AnalysisRow.DEPARTMENT_UID.aspx) является недопустимым.  <br/> |
 |OptimizerTooManyProjectsInAnalysis = 29620  <br/> |Слишком много проектов в анализе.  <br/> |
-|QueueAnalysisCannotDeleteAnalysis = 29680  <br/> |Метод [QueueDeleteAnalyses](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueDeleteAnalyses.aspx) не смогут удалять анализа.  <br/> |
-|QueueAnalysisCannotCreateAnalysis = 29681  <br/> |Метод [QueueCreateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueCreateAnalysis.aspx) не удается создать анализа.  <br/> |
-|QueueAnalysisCannotUpdateAnalysis = 29682  <br/> |Метод [QueueUpdateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueUpdateAnalysis.aspx) не удается обновить анализа.  <br/> |
+|QueueAnalysisCannotDeleteAnalysis = 29680  <br/> |Метод [QueueDeleteAnalyses](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueDeleteAnalyses.aspx) не может удалить анализ.  <br/> |
+|QueueAnalysisCannotCreateAnalysis = 29681  <br/> |Метод [QueueCreateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueCreateAnalysis.aspx) не может создать анализ.  <br/> |
+|QueueAnalysisCannotUpdateAnalysis = 29682  <br/> |Метод [QueueUpdateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueUpdateAnalysis.aspx) не может обновить анализ.  <br/> |
 |AnalysisMismatchedJobList = 29690  <br/> |Несоответствие списка заданий анализа.  <br/> |
 |OptimizerInvalidForceInLookupTableUid = 29691  <br/> |GUID таблицы подстановки нельзя включить принудительно.  <br/> |
 |OptimizerInvalidForceOutLookupTableUid = 29692  <br/> |GUID таблицы подстановки нельзя исключить принудительно.  <br/> |
 |OptimizerDuplicateForceLookupTableUids = 29693  <br/> |Повторяющиеся принудительные GUID таблицы подстановки.  <br/> |
 |OptimizerInvalidDecisionResult = 29701  <br/> |Недопустимый результат по решению.  <br/> |
 |OptimizerInvalidForcedStatus = 29702  <br/> |Недопустимое принудительное состояние.  <br/> |
-|OptimizerCannotDeleteSolution = 29703  <br/> |Метод [QueueDeleteOptimizerSolutions](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueDeleteOptimizerSolutions.aspx) не удается удалить решение оптимизатора.  <br/> |
-|OptimizerCannotCreateSolution = 29704  <br/> |Метод [QueueCreateOptimizerSolution](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueCreateOptimizerSolution.aspx) не удается создать решение оптимизатора.  <br/> |
-|OptimizerCannotUpdateSolution = 29705  <br/> |Метод [QueueUpdateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueUpdateAnalysis.aspx) не удается обновить оптимизатора решения.  <br/> |
+|OptimizerCannotDeleteSolution = 29703  <br/> |Метод [QueueDeleteOptimizerSolutions](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueDeleteOptimizerSolutions.aspx) не может удалить решение оптимизатора.  <br/> |
+|OptimizerCannotCreateSolution = 29704  <br/> |Метод [QueueCreateOptimizerSolution](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueCreateOptimizerSolution.aspx) не может создать решение оптимизатора.  <br/> |
+|OptimizerCannotUpdateSolution = 29705  <br/> |Метод [QueueUpdateAnalysis](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.QueueUpdateAnalysis.aspx) не может обновить решение оптимизатора.  <br/> |
 |OptimizerCannotCalculateSolutionStrategicAlignment = 29706  <br/> |Оптимизатор не может вычислить решение для стратегического выравнивания.  <br/> |
 |OptimizerCannotCreateMultipleSolutions = 29707  <br/> |Оптимизатор не может создать несколько решений.  <br/> |
 |OptimizerCannotUpdateMultipleSolutions = 29708  <br/> |Оптимизатор не может обновить несколько решений.  <br/> |
@@ -731,7 +731,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |OptimizerInvalidConstraintLimit = 29718  <br/> |Недопустимый предел ограничения в оптимизаторе.  <br/> |
 |OptimizerInvalidConstraintValue = 29719  <br/> |Недопустимое значение ограничения.  <br/> |
 |OptimizerInvalidSolutionProjectsSet = 29720  <br/> |Недопустимый набор проектов в решении.  <br/> |
-|OptimizerCannotCommitSolution = 29721  <br/> |Метод [CommitOptimizerSolution](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.CommitOptimizerSolution.aspx) невозможно сохранить решение.  <br/> |
+|OptimizerCannotCommitSolution = 29721  <br/> |Метод [CommitOptimizerSolution](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.CommitOptimizerSolution.aspx) не может зафиксировать решение.  <br/> |
 |OptimizerInvalidInputData = 29723  <br/> |Недопустимые входные данные для оптимизатора.  <br/> |
 |OptimizerInvalidConstraintSet = 29724  <br/> |Недопустимый набор ограничений для оптимизатора.  <br/> |
 |OptimizerCannotUpdateAnalysisMetrics = 29725  <br/> |Не удается обновить метрики анализа.  <br/> |
@@ -740,11 +740,11 @@ Project Server 2013 процессов и методам интерфейса PS
 |OptimizerCannotCreateSolutionWhileAnalysisUpdateIsPending = 29728  <br/> |Не удается создать решение оптимизатора при наличии ожидающего обновления анализа.  <br/> |
 |OptimizerProjectSelectorAtLeastOne = 29800  <br/> |Для оптимизатора следует выбрать хотя бы один проект.  <br/> |
    
-Коды ошибок в таблице 17 относятся к планировщику — компоненту, используемому для анализа портфеля проектов.
+Коды ошибок в таблице 17 предназначены для планировщика, который является компонентом, используемым в анализе портфеля проектов.
 
 <a name="pj15_ErrorCodes_Planner"></a>
 
-## <a name="table-17-planner-project-portfolio-analysis"></a>В таблице 17. Планировщик работы (анализа портфеля проектов)
+## <a name="table-17-planner-project-portfolio-analysis"></a>Табл. 17. Планировщик (анализ портфеля проектов)
 
 |Код ошибки планировщика|Описание|
 |:-----|:-----|
@@ -758,8 +758,8 @@ Project Server 2013 процессов и методам интерфейса PS
 |PlannerInvalidTimeScale = 28007  <br/> |Недопустимая шкала времени.  <br/> |
 |PlannerInvalidProjectSNET = 28008  <br/> |Недопустимая дата "Начало не ранее" для проекта.  <br/> |
 |PlannerInvalidProjectFNLT = 28009  <br/> |Недопустимая дата "Окончание не позднее" для проекта.  <br/> |
-|PlannerInvalidAnalysisStartDate = 28010  <br/> |[Нач_дата](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionProjectRequirementsByRoleRow.START_DATE.aspx) для проекта не является допустимым.  <br/> |
-|PlannerInvalidAnalysisDuration = 28011  <br/> |Недопустимая [ДЛИТЕЛЬНОСТЬ](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionProjectsRow.DURATION.aspx) для анализа портфеля.  <br/> |
+|PlannerInvalidAnalysisStartDate = 28010  <br/> |Дата [START_DATE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionProjectRequirementsByRoleRow.START_DATE.aspx) для проекта является недопустимой.  <br/> |
+|PlannerInvalidAnalysisDuration = 28011  <br/> |Длительность [DURATION](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionProjectsRow.DURATION.aspx) для анализа портфеля является недопустимой.  <br/> |
 |PlannerInvalidHorizonStartDate = 28012  <br/> |Недопустимая дата начала для временного горизонта.  <br/> |
 |PlannerInvalidHorizonEndDate = 28013  <br/> |Недопустимая дата окончания для временного горизонта.  <br/> |
 |PlannerInvalidHorizonTimeScale = 28014  <br/> |Недопустимая шкала времени для временного горизонта.  <br/> |
@@ -770,17 +770,17 @@ Project Server 2013 процессов и методам интерфейса PS
 |PlannerInvalidSolutionUid = 28100  <br/> |Недопустимый GUID решения анализа.  <br/> |
 |PlannerInvalidOptimizerSolutionUid = 28101  <br/> |Недопустимый GUID решения оптимизатора.  <br/> |
 |PlannerInvalidLookupTableValueUid = 28102  <br/> |Недопустимый GUID значения таблицы подстановки.  <br/> |
-|PlannerInvalidEfficientFrontierUid = 28103  <br/> |[FRONTIER_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionEfficientFrontierRow.FRONTIER_UID.aspx) не является допустимым.  <br/> |
+|PlannerInvalidEfficientFrontierUid = 28103  <br/> |Значение [FRONTIER_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionEfficientFrontierRow.FRONTIER_UID.aspx) является недопустимым.  <br/> |
 |PlannerInvalidProjectUid = 28104  <br/> |Недопустимый GUID проекта.  <br/> |
 |PlannerInvalidAllocationThreshold = 28105  <br/> |Недопустимый порог выделения.  <br/> |
-|PlannerInvalidHiringType = 28109  <br/> |[HIRING_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.HIRING_TYPE.aspx) не является допустимым. В разделе [Planner.PlannerHiringType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.PlannerHiringType.aspx) .  <br/> |
-|PlannerInvalidConstraintType = 28110  <br/> |[CONSTRAINT_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_TYPE.aspx) не является допустимым. В разделе [Planner.ConstraintType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.ConstraintType.aspx) .  <br/> |
-|PlannerInvalidConstraintValue = 28111  <br/> |[CONSTRAINT_VALUE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_VALUE.aspx) не является допустимым.  <br/> |
-|PlannerInvalidRateTable = 28112  <br/> |[RATE_TABLE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.RATE_TABLE.aspx) не является допустимым.  <br/> |
+|PlannerInvalidHiringType = 28109  <br/> |Значение [HIRING_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.HIRING_TYPE.aspx) является недопустимым. См. статью [Planner.PlannerHiringType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.PlannerHiringType.aspx).  <br/> |
+|PlannerInvalidConstraintType = 28110  <br/> |Значение [CONSTRAINT_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_TYPE.aspx) является недопустимым. См. статью [Planner.ConstraintType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.ConstraintType.aspx).  <br/> |
+|PlannerInvalidConstraintValue = 28111  <br/> |Значение [CONSTRAINT_VALUE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_VALUE.aspx) является недопустимым.  <br/> |
+|PlannerInvalidRateTable = 28112  <br/> |Значение [RATE_TABLE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.RATE_TABLE.aspx) является недопустимым.  <br/> |
 |PlannerInvalidSolutionForConstraint = 28113  <br/> |Недопустимое решение планировщика для ограничения. Слишком много принудительных включений проектов во время первого прохода планировщика.  <br/> |
 |PlannerInvalidSolutionForDependencies = 28114  <br/> |Решение планировщика не является допустимым из-за слишком большого числа проектов для анализа бизнес-зависимостей или конфликтов. Эта ошибка возникает при втором проходе.  <br/> |
 |PlannerInvalidSolutionForScheduling = 28115  <br/> |Решение планировщика не является допустимым для планирования из-за наличия циклических зависимостей.  <br/> |
-|PlannerInvalidAnalysisUid = 28116  <br/> |[ANALYSIS_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.ANALYSIS_UID.aspx) не является допустимым.  <br/> |
+|PlannerInvalidAnalysisUid = 28116  <br/> |Значение [ANALYSIS_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.ANALYSIS_UID.aspx) является недопустимым.  <br/> |
 |PlannerInvalidProjectStartDate = 28200  <br/> |Недопустимая дата начала проекта.  <br/> |
 |PlannerInvalidProjectEndDate = 28201  <br/> |Недопустимая дата окончания проекта.  <br/> |
 |PlannerInvalidProjectDuration = 28202  <br/> |Недопустимая длительность проекта.  <br/> |
@@ -791,7 +791,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |PlannerCannotDeleteSolution = 28902  <br/> |Планировщик не может удалить решение.  <br/> |
 |PlannerCannotCreateMultipleSolutions = 28903  <br/> |Планировщик не может создать несколько решений.  <br/> |
 |PlannerCannotUpdateMultipleSolutions = 28904  <br/> |Планировщик не может обновить несколько решений.  <br/> |
-|PlannerTableIsReadOnly = 28907  <br/> |**DataTable** доступен только для чтения.  <br/> |
+|PlannerTableIsReadOnly = 28907  <br/> |Таблица **DataTable** доступна только для чтения.  <br/> |
 |PlannerCannotCommitSolution = 28908  <br/> |Планировщик не может зафиксировать решение в базе данных.  <br/> |
 |PlannerFieldIsReadOnly = 28909  <br/> |Это поле доступно только для чтения.  <br/> |
 |PlannerProjectNotInParentSolution = 28910  <br/> |Проект находится не в родительском решении.  <br/> |
@@ -806,13 +806,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |PlannerDecimalOverflowError = 28921  <br/> |Ошибка переполнения десятичных разрядов в планировщике.  <br/> |
 |PlannerSolutionMismatchedJobList = 28922  <br/> |Это решение содержит несоответствующий список заданий.  <br/> |
 |PlannerInvalidForceLookupTableValue = 28923  <br/> |Недопустимое принудительное значение в таблице подстановки.  <br/> |
-|PlannerNoHiredResource = 28924  <br/> |Отсутствует нанятый ресурс для этой инициативы.  <br/> |
+|PlannerNoHiredResource = 28924  <br/> |Отсутствует ресурс, нанятый для предложения.  <br/> |
 
 <a name="pj15_ErrorCodes_Projects"></a>
 
-## <a name="table-18-project"></a>В таблице 18. Project
+## <a name="table-18-project"></a>Табл. 18. Проект
 
-|Код ошибки для проектов|Описание|
+|Код ошибки проекта|Описание|
 |:-----|:-----|
 |ProjectGlobalNotFound = 100  <br/> |Не удается найти глобальный корпоративный шаблон.  <br/> |
 |ProjectGlobalCannotBeDeleted = 101  <br/> |Не удается удалить глобальный корпоративный шаблон.  <br/> |
@@ -843,7 +843,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |ProjectOptCurrencyDigitsInvalid = 1037  <br/> |Число цифр необязательной денежной единицы не является допустимым.  <br/> |
 |ProjectOptCurrencySymbolTooLong = 1038  <br/> |Слишком длинное обозначение необязательной денежной единицы.  <br/> |
 |ProjectCannotDelete = 1039  <br/> |Не удается удалить проект. Удалить можно только обычные проекты и шаблоны проектов, находящиеся на стороне сервера.  <br/> |
-|ProjectCannotAdd = 1040  <br/> |Не удается использовать метод **AddToProject** для проекта, находящегося на стороне сервера.  <br/> |
+|ProjectCannotAdd = 1040  <br/> |Невозможно использовать метод **AddToProject** в проекте на стороне сервера.  <br/> |
 |ProjectOptCurrencySymbolInvalid = 1041  <br/> |Обозначение необязательной денежной единицы не является допустимым.  <br/> |
 |ProjectHasNoWriteLock = 1042  <br/> |У проекта нет блокировки записи.  <br/> |
 |ProjectFilterInvalid = 1043  <br/> |Недопустимый фильтр проектов.  <br/> |
@@ -855,12 +855,12 @@ Project Server 2013 процессов и методам интерфейса PS
 |ProjectCurrencyCodeInvalid = 1049  <br/> |Недопустимый код валюты.  <br/> |
 |ProjectCannotEditCostResource = 1050  <br/> |Не удается изменить затратный ресурс.  <br/> |
 |ProjectIsNotPublished = 1051  <br/> |Проект не опубликован.  <br/> |
-|ProjectExceededLWPTaskLimit = 1052  <br/> |Превышен предел по заданиям для проектной инициативы (облегченный проект).  <br/> |
+|ProjectExceededLWPTaskLimit = 1052  <br/> |Превышено ограничение задачи для предложения проекта (простой проект).  <br/> |
 |ProjectOptFinishDateInvalid = 1053  <br/> |Недопустимая дата окончания в параметрах проекта.  <br/> |
 |ProjectExceededItemsLimit = 1054  <br/> |Превышен предел по обрабатываемым элементам. Приложение службы Project Server не может использовать **ProjectDataSet** для добавления или обновления более 1000 элементов совокупно во всех таблицах. Чтобы обработать более 1000 элементов, используйте несколько вызовов, например, в **QueueUpdateProject**.<br/> |
 |ProjectColumnNotReadOnly = 1055  <br/> |Этот столбец доступен не только для чтения.  <br/> |
 |ProjectInvalidOwner = 1056  <br/> |Недопустимый владелец проекта.  <br/> |
-|ProjectCantEditPctWrkCompForNonWrkRscs = 1057  <br/> |Не удается изменить **PctWorkComplete** для задачи без реальных назначенных трудозатрат.  <br/> |
+|ProjectCantEditPctWrkCompForNonWrkRscs = 1057  <br/> |Не удается изменить **PctWorkComplete** для задачи, которая не имеет реальных назначенных трудозатрат.  <br/> |
 |ProjectCannotEditMaterialResource = 1058  <br/> |Не удается изменить материальный ресурс.  <br/> |
 |ProjectCannotEditFieldWhenTaskHasNoWorkAssignment = 1059  <br/> |Не удается изменить поле, так как задача не имеет назначенных трудозатрат.  <br/> |
 |ProjectSubProjectNotFound = 1070  <br/> |. Подпроекты не найдены.  <br/> |
@@ -906,13 +906,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |ProjectUpdateScheduledProjectFailure = 26026  <br/> |Сбой обновления планирования проекта во время обработки очереди.  <br/> |
 |ProjectSyncProjectEnterpriseEntitiesFailure = 26033  <br/> |Сбой синхронизации корпоративных сущностей проекта во время обработки очереди.  <br/> |
 |GeneralDalDatabaseIsReadOnly = 26034  <br/> |Сбой загрузки детализации проекта. База данных доступна только для чтения.  <br/> |
-|GeneralDatabaseCommunicationError = 26035  <br/> |Может быть множество различных причин, например проблемы с работой сети или проверкой подлинности.  <br/> |
+|GeneralDatabaseCommunicationError = 26035  <br/> |Могут быть разные причины, например неполадки сети или проблемы проверки подлинности.  <br/> |
 
 <a name="pj15_ErrorCodes_RDS"></a>
 
-## <a name="table-19-reporting-data-service-rds"></a>В таблице 19. Службы данных отчетов (RDS)
+## <a name="table-19-reporting-data-service-rds"></a>Табл. 19. Служба отчетных данных (RDS)
 
-|Код ошибки для RDS|Описание|
+|Код ошибки RDS|Описание|
 |:-----|:-----|
 |ReportingAttributeCubeSettingsChangedMessageFailed = 24000  <br/> |Сбой сообщения об изменении RDS для атрибута параметров куба.  <br/> |
 |ReportingBaseCalendarChangeMessageFailed = 24001  <br/> |Сбой сообщения об изменении RDS для базового календаря.  <br/> |
@@ -946,13 +946,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |ReportingEptSyncMessageFailed = 24029  <br/> |Сообщению RDS не удалось синхронизировать шаблон корпоративного проекта.  <br/> |
 |ReportingSummaryProjectPublishMessageFailed = 24030  <br/> |Сообщению RDS не удалось опубликовать сводный проект.  <br/> |
 |ReportingSolutionCommitedDecisionChangedMessageFailed = 24031  <br/> |Сообщению RDS не удалось изменить зафиксированное решение по приложению.  <br/> |
-|ReportingDelayedUpgradeFailed = 24032  <br/> |Сбой отложенного обновления службы RDB.  <br/> |
+|ReportingDelayedUpgradeFailed = 24032  <br/> |Сбой отложенного обновления RDB.  <br/> |
 
 <a name="pj15_ErrorCodes_Resources"></a>
 
-## <a name="table-20-resource"></a>В таблице 20. Resource
+## <a name="table-20-resource"></a>Табл. 20. Ресурс
 
-|Код ошибки для ресурсов|Описание|
+|Код ошибки ресурса|Описание|
 |:-----|:-----|
 |ResourceNotFound = 2000  <br/> |Ресурс не найден.  <br/> |
 |ResourceAlreadyExists = 2001  <br/> |Ресурс уже существует.  <br/> |
@@ -1024,13 +1024,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |ResourceInvalidPrincipalNameWithExchangeSync = 2094  <br/> |Недопустимое имя участника-ресурса для синхронизации с Exchange Server.  <br/> |
 |ResourceInvalidAuthenticationTypeWithExchangeSync = 2095  <br/> |Недопустимый тип проверки подлинности ресурса для синхронизации с Exchange Server.  <br/> |
 |ResourceExchangeSyncFlagAndPrincipalNameMismatch = 2096  <br/> |Несоответствие между флагом синхронизации Exchange Server и именем участника для ресурса.  <br/> |
-|ResourceUnsupportedUserUpdateInSharePointSecurityMode = 2097  <br/> |В режиме безопасности SharePoint создание пользователей не поддерживается.  <br/> |
+|ResourceUnsupportedUserUpdateInSharePointSecurityMode = 2097  <br/> |Создание пользователя не поддерживается в режиме безопасности SharePoint.  <br/> |
 
 <a name="pj15_ErrorCodes_ResourcePlans"></a>
 
-## <a name="table-21-resource-plan"></a>В таблице 21. План ресурсов
+## <a name="table-21-resource-plan"></a>Табл. 21. План ресурсов
 
-|Код ошибок для плана использования ресурсов|Описание|
+|Код ошибки плана ресурсов|Описание|
 |:-----|:-----|
 |ResourcePlanProjectPublishIncomplete = 30000  <br/> |Публикация проекта для плана использования ресурсов не была завершена.  <br/> |
 |ResourcePlanInvalidResourceType = 30001  <br/> |Недопустимый тип ресурса в плане использования ресурсов.  <br/> |
@@ -1044,29 +1044,29 @@ Project Server 2013 процессов и методам интерфейса PS
 |ResourcePlanMismatchedJobList = 30009  <br/> |Несоответствие в списке заданий плана использования ресурсов.  <br/> |
 |ResourcePlanAlreadyExists = 30010  <br/> |План использования ресурсов уже существует.  <br/> |
 |ResourcePlanInvalidProjectUID = 30011  <br/> |Недопустимый GUID проекта для плана использования ресурсов.  <br/> |
-|ResourcePlanResourceAlreadyExists = 30012  <br/> |Этот ресурс уже существует в плане использования ресурсов.  <br/> |
+|ResourcePlanResourceAlreadyExists = 30012  <br/> |Ресурс уже существует в плане ресурсов.  <br/> |
    
 Коды ошибок в таблице 22 относятся к методам **Rules** в веб-службе **PWA**. Они предназначены для внутреннего использования. 
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
-## <a name="table-22-rules"></a>В таблице 22. Rules
+## <a name="table-22-rules"></a>Табл. 22. Правила
 
 |Код ошибки правил|Описание|
 |:-----|:-----|
-|RulesNameTooLong = 21001  <br/> |Имя правила утверждения слишком много времени. Только в Project Web App для внутреннего использования.  <br/> |
-|RulesDescriptionTooLong = 21002  <br/> |Описание правила слишком много времени. Только в Project Web App для внутреннего использования.  <br/> |
-|RulesInvalidRuleType = 21003  <br/> |Недопустимый тип правила. Только в Project Web App для внутреннего использования.  <br/> |
-|RulesInvalidConditionType = 21004  <br/> |Недопустимый тип условие для правила. Только в Project Web App для внутреннего использования.  <br/> |
-|RulesInvalidOperatorType = 21005  <br/> |Недопустимый тип оператора для правила. Только в Project Web App для внутреннего использования.  <br/> |
-|RulesInvalidListItemType = 21007  <br/> |Недопустимый тип элемента списка для правила. Только в Project Web App для внутреннего использования.  <br/> |
-|RulesNameInvalidCharacters = 21008  <br/> |Существует один или несколько знаков в поле имя правила, которые являются недопустимыми. Только в Project Web App для внутреннего использования.  <br/> |
-|RulesDescriptionInvalidCharacters = 21009  <br/> |Существует один или несколько знаков в поле Описание правила, которые являются недопустимыми. Только в Project Web App для внутреннего использования.  <br/> |
-|RulesInvalidValueType = 21010  <br/> |Недопустимый тип значение в правиле. Только в Project Web App для внутреннего использования.  <br/> |
+|RulesNameTooLong = 21001  <br/> |Слишком длинное имя правила утверждения. Только для внутреннего использования в Project Web App.  <br/> |
+|RulesDescriptionTooLong = 21002  <br/> |Слишком длинное описание правила. Только для внутреннего использования в Project Web App.  <br/> |
+|RulesInvalidRuleType = 21003  <br/> |Тип правила является недопустимым. Только для внутреннего использования в Project Web App.  <br/> |
+|RulesInvalidConditionType = 21004  <br/> |Недопустимый тип условия для правила. Только для внутреннего использования в Project Web App.  <br/> |
+|RulesInvalidOperatorType = 21005  <br/> |Тип оператора для правила является недопустимым. Только для внутреннего использования в Project Web App.  <br/> |
+|RulesInvalidListItemType = 21007  <br/> |Тип элемента списка для правила является недопустимым. Только для внутреннего использования в Project Web App.  <br/> |
+|RulesNameInvalidCharacters = 21008  <br/> |В имени правила присутствует один или несколько недопустимых символов. Только для внутреннего использования в Project Web App.  <br/> |
+|RulesDescriptionInvalidCharacters = 21009  <br/> |В описании правила присутствует один или несколько недопустимых символов. Только для внутреннего использования в Project Web App.  <br/> |
+|RulesInvalidValueType = 21010  <br/> |Недопустимый тип значения в правиле. Только для внутреннего использования в Project Web App.  <br/> |
 
 <a name="pj15_ErrorCodes_Security"></a>
 
-## <a name="table-23-security"></a>В таблице 23. Security
+## <a name="table-23-security"></a>Табл. 23. Безопасность
 
 |Код ошибки безопасности|Описание|
 |:-----|:-----|
@@ -1120,83 +1120,83 @@ Project Server 2013 процессов и методам интерфейса PS
 |SecurityCategoryCannotDeletePermissionForNewlyAddedRelation = 19096  <br/> |Не удается удалить разрешение для добавленного отношения в категории безопасности.  <br/> |
 |SecurityCategoryCannotHaveDuplicateUserOrGroupUidsForRelation = 19097  <br/> |Нельзя использовать повторяющиеся идентификаторы UID пользователя или группы для отношения категории безопасности.  <br/> |
 |SecurityCategoryPermissionMustHaveMatchingRelation = 19098  <br/> |Разрешение категории должно иметь соответствующее отношение категории безопасности.  <br/> |
-|SecurityCategoryProjectAlreadyHasSecurityProjectCategory = 19099  <br/> |Список выбранных категорий уже содержит категорию безопасности проекта.  <br/> |
+|SecurityCategoryProjectAlreadyHasSecurityProjectCategory = 19099  <br/> |Список выбранных категорий уже имеет категорию безопасности проекта.  <br/> |
 
 <a name="pj15_ErrorCodes_Events"></a>
 
-## <a name="table-24-project-server-event"></a>В таблице 24. События Project Server
+## <a name="table-24-project-server-event"></a>Табл. 24. Событие Project Server
 
-|Код ошибки для событий Project Server|Описание|
+|Код ошибки события Project Server|Описание|
 |:-----|:-----|
 |ServerEventInvalidEventId = 19033  <br/> |Недопустимый идентификационный номер события Project Server.  <br/> |
 |ServerEventServiceNotFound = 22003  <br/> |Отсутствует служба событий Project Server. Эта ошибка не используется в коде Project Server, но она связана с необработанным событием единой службы ведения журналов (ULS).  <br/> |
-|ServerEventRemoteCouldNotReachProxy = 22005  <br/> |Удаленный Project Web App не может получить доступ прокси-сервера диспетчера событий Project Server. Эта ошибка не используется в коде сервера Project Server, но оно сопоставлено необработанные события ULS.  <br/> |
-|ServerEventManagerCouldNotReachRemote = 22006  <br/> |Диспетчер событий Project Server не может получить доступ удаленных Project Web App. Эта ошибка не используется в коде сервера Project Server, но оно сопоставлено необработанные события ULS.  <br/> |
+|ServerEventRemoteCouldNotReachProxy = 22005  <br/> |Удаленному приложению Project Web App не удается связаться с диспетчером событий прокси-сервера Project Server. Данная ошибка не используется в коде Project Server, однако она сопоставляется с необработанным событием ULS.  <br/> |
+|ServerEventManagerCouldNotReachRemote = 22006  <br/> |Диспетчеру событий Project Server не удается связаться с удаленным приложением Project Web App. Данная ошибка не используется в коде Project Server, однако она сопоставляется с необработанным событием ULS.  <br/> |
 |ServerEventHandlerNotSigned = 22007  <br/> |Обработчик событий Project Server не подписан.  <br/> |
 |ServerEventHandlerMalformedAssemblyName = 22008  <br/> |Недопустимое имя сборки для обработчика событий Project Server.  <br/> |
 |ServerEventHandlerOrderInvalid = 22009  <br/> |Недопустимый порядок для обработчика событий Project Server.  <br/> |
 |ServerEventHandlerDuplicateEntry = 22010  <br/> |Повторяющаяся запись для обработчика событий Project Server.  <br/> |
 |ServerEventHandlerNotFound = 22011  <br/> |Обработчик событий Project Server не найден.  <br/> |
 |ServerEventHandlerDuplicateName = 22012  <br/> |Повторяющееся имя для обработчика событий Project Server.  <br/> |
-|ServerEventHandlerNullAssemblyNameAndEndpointUrl = 22013  <br/> |Убедитесь в наличии URL-адреса конечной точки или имени сборки.  <br/> |
+|ServerEventHandlerNullAssemblyNameAndEndpointUrl = 22013  <br/> |Проверьте, имеется ли URL-адрес конечной точки или имя сборки.  <br/> |
 
 <a name="pj15_ErrorCodes_Statusing"></a>
 
-## <a name="table-25-statusing-web-service"></a>В таблице 25. Отчеты о состоянии веб-службы 
+## <a name="table-25-statusing-web-service"></a>Табл. 25. Веб-служба определения состояния 
 
-|Код ошибки отчеты о состоянии веб-службы|Описание|
+|Коды ошибок для веб-службы определения состояния|Описание|
 |:-----|:-----|
-|StatusingInvalidEntity = 3102  <br/> |Недопустимая сущность для **Statusing**.  <br/> |
+|StatusingInvalidEntity = 3102  <br/> |Объект для **Statusing** является недопустимым.  <br/> |
 |StatusingGetDataForTaskFailed = 3103  <br/> |Не удалось получить данные для состояния задачи.  <br/> |
 |StatusingGetTaskOrAssnCntrFailed = 3104  <br/> |Не удалось получить задачу или центр назначений для состояния.  <br/> |
-|StatusingInvalidPIDForProjCntr = 3105  <br/> |Недопустимый идентификационный номер свойства **Statusing** для центра проектов.  <br/> |
+|StatusingInvalidPIDForProjCntr = 3105  <br/> |Идентификационный номер свойства **Statusing** для центра проектов является недопустимым.  <br/> |
 |StatusingDeleteAssnFailed = 3106  <br/> |Не удалось удалить назначение в процессе **Statusing**.  <br/> |
 |StatusingAssnSaveFailed = 3107  <br/> |Не удалось сохранить назначение в процессе **Statusing**.  <br/> |
 |StatusingTaskSaveFailed = 3108  <br/> |Не удалось сохранить задачу в процессе **Statusing**.  <br/> |
-|StatusingInvalidPID = 3109  <br/> |Недопустимый идентификационный номер свойства **Statusing**.  <br/> |
-|StatusingSetDataValueInvalid = 3111  <br/> |Недопустимое значение данных **Statusing**.  <br/> |
-|StatusingSetDataFailed = 3112  <br/> |Не удалось задать значение данных **Statusing**.  <br/> |
-|StatusingInvalidDelegationStart = 3113  <br/> |Недопустимое время начала для назначения в методе **DelegateAssignments**.  <br/> |
+|StatusingInvalidPID = 3109  <br/> |Идентификационный номер свойства **Statusing** является недопустимым.  <br/> |
+|StatusingSetDataValueInvalid = 3111  <br/> |Значение данных **Statusing** является недопустимым.  <br/> |
+|StatusingSetDataFailed = 3112  <br/> |Не удалось задать значение **Statusing**.  <br/> |
+|StatusingInvalidDelegationStart = 3113  <br/> |Время начала для назначения в методе **DelegateAssignments** является недопустимым.  <br/> |
 |StatusingApprovalUpdateFailed = 3114  <br/> |Не удалось обновить утверждение состояния.  <br/> |
 |StatusingInvalidApprovalType = 3115  <br/> |Недопустимый тип утверждения состояния.  <br/> |
 |StatusingInternalError = 3116  <br/> |Внутренняя ошибка обработки в методе **Statusing**.  <br/> |
-|StatusingInvalidUpdateData = 3117  <br/> |Недопустимые данные обновления в методе **Statusing**.  <br/> |
+|StatusingInvalidUpdateData = 3117  <br/> |Данные обновления в методе **Statusing** являются недопустимыми.  <br/> |
 |StatusingProjectUpdateFailed = 3118  <br/> |Сбой обновления **Statusing** проекта.  <br/> |
-|StatusingInvalidPreviewData = 3119  <br/> |Недопустимые данные предварительного просмотра **Statusing**.  <br/> |
-|StatusingInvalidTransaction = 3120  <br/> |Недопустимая транзакция **Statusing**.  <br/> |
+|StatusingInvalidPreviewData = 3119  <br/> |Данные предварительного просмотра **Statusing** являются недопустимыми.  <br/> |
+|StatusingInvalidTransaction = 3120  <br/> |Транзакция **Statusing** является недопустимой.  <br/> |
 |StatusingTooManyResults = 3121  <br/> |Слишком много результатов. При считывании повременных данных о состоянии возвращается более 5000 строк.  <br/> |
-|StatusingInvalidInterval = 3122  <br/> |Недопустимый интервал в методе **Statusing**. Этот интервал должен быть указан в минутах и быть больше нуля.<br/> |
-|StatusingApplyUpdatesFailed = 3123  <br/> |Не удалось применить обновления **Statusing** при помещении запроса в очередь.  <br/> |
+|StatusingInvalidInterval = 3122  <br/> |Интервал в методе **Statusing** является недопустимым. Интервал должен быть указан в минутах и быть больше нуля.  <br/> |
+|StatusingApplyUpdatesFailed = 3123  <br/> |Не удалось применить обновления **Statusing** при постановке запроса в очередь.  <br/> |
 |StatusingApplyUpdatesFailure = 3124  <br/> |Не удалось применить обновления **Statusing** во время обработки очереди.  <br/> |
-|StatusingInvalidWorkData = 3125  <br/> |Недопустимые данные о трудозатратах для **Statusing**.  <br/> |
+|StatusingInvalidWorkData = 3125  <br/> |Данные трудозатрат для **Statusing** являются недопустимыми.  <br/> |
 |StatusingMissingNameAttribute = 3126  <br/> |Отсутствует атрибут имени для **Statusing**.  <br/> |
-|StatusingInvalidNameAttribute = 3127  <br/> |Недопустимый атрибут имени для **Statusing**.  <br/> |
-|StatusingInvalidData = 3128  <br/> |Недопустимые данные **Statusing**.  <br/> |
-|StatusingInvalidChangelist = 3130  <br/> |XML-данные, с помощью параметра _changexml_ метода **UpdateStatus** недействительны.  <br/> |
-|StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** не удается обновить назначение, так как пользователь не имеет такого разрешения.  <br/> |
-|StatusingInvalidChangeNumber = 3132  <br/> |Недопустимый номер изменения **Statusing**.  <br/> |
-|StatusingPidNotEditable = 3133  <br/> |Идентификационный номер свойства **Statusing** недоступен для изменения.  <br/> |
+|StatusingInvalidNameAttribute = 3127  <br/> |Атрибут имени для **Statusing** является недопустимым.  <br/> |
+|StatusingInvalidData = 3128  <br/> |Данные **Statusing** являются недопустимыми.  <br/> |
+|StatusingInvalidChangelist = 3130  <br/> |Данные XML являются недопустимыми в параметре _changexml_ метода **UpdateStatus**.  <br/> |
+|StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** не удается обновить назначение, так как пользователь не имеет разрешения.  <br/> |
+|StatusingInvalidChangeNumber = 3132  <br/> |Номер изменения **Statusing** является недопустимым.  <br/> |
+|StatusingPidNotEditable = 3133  <br/> |Идентификационный номер свойства **Statusing** является неизменяемым.  <br/> |
 |StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |Не удается задать повременные данные в выполняемых вручную задачах для **Statusing**.  <br/> |
 |StatusingCannotChangeTaskMode = 3135  <br/> |Не удается изменить режим задачи для **Statusing**.  <br/> |
    
-Коды ошибок в таблице 26 используются **StatusReports** методов в веб-службы **веб-клиента Project** . Они используются во внутренней сети в Project Web App. 
+Коды ошибок в таблице 26 относятся к методам **StatusReports** в веб-службе **PWA**. Они предназначены для внутреннего использования в Project Web App. 
 
 <a name="pj15_ErrorCodes_StatusReports"></a>
 
-## <a name="table-26-statusreports"></a>В таблице 26. StatusReports 
+## <a name="table-26-statusreports"></a>Табл. 26. Отчеты о состоянии 
 
-|Код ошибки для отчетов о состоянии|Описание|
+|Код ошибки отчетов о состоянии|Описание|
 |:-----|:-----|
 |StatusReportsUnknownError = 12100  <br/> |Неизвестная ошибка в **StatusReports**.  <br/> |
 |StatusReportsPeriodUnmatched = 12101  <br/> |Не удается сопоставить период отчета о состоянии.  <br/> |
 |StatusReportsPeriodUnavailable = 12102  <br/> |Период отчета о состоянии недоступен.  <br/> |
-|StatusReportsInvalidFormInput = 12103  <br/> |Недопустимые данные в форме отчета о состоянии.  <br/> |
+|StatusReportsInvalidFormInput = 12103  <br/> |Данные в форме отчета о состоянии являются недопустимыми.  <br/> |
 
 <a name="pj15_ErrorCodes_Tasks"></a>
 
-## <a name="table-27-task"></a>В таблице 27. Task 
+## <a name="table-27-task"></a>Табл. 27. Задачи 
 
-|Код ошибки для задач|Описание|
+|Код ошибки задач|Описание|
 |:-----|:-----|
 |TaskIDInvalid = 7001  <br/> |Недопустимый GUID задачи.  <br/> |
 |TaskNameTooLong = 7003  <br/> |Слишком длинное имя задачи.  <br/> |
@@ -1243,9 +1243,9 @@ Project Server 2013 процессов и методам интерфейса PS
 
 <a name="pj15_ErrorCodes_Timesheets"></a>
 
-## <a name="table-28-timesheet"></a>В таблице 28. Табеля учета рабочего времени 
+## <a name="table-28-timesheet"></a>Табл. 28. Расписание 
 
-|Код ошибки для расписаний|Описание|
+|Код ошибки расписания|Описание|
 |:-----|:-----|
 |TimesheetMaxHourPerDayExceeded = 3201  <br/> |Превышено максимальное число часов в день для расписания.  <br/> |
 |TimesheetHoursPerTSLimitExceeded = 3202  <br/> |Превышен лимит для количества часов в расписании.  <br/> |
@@ -1259,13 +1259,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |TimesheetInvalidDateRange = 3211  <br/> |Недопустимый диапазон дат расписания.  <br/> |
 |TimesheetLineClassDisabled = 3212  <br/> |Класс строк расписания отключен.  <br/> |
 |TimesheetLineHasNonExistentItem = 3213  <br/> |Строка расписания включает в себя несуществующий элемент.  <br/> |
-|TimesheetLineInvalidStatus = 3214  <br/> |Недопустимое состояние строки расписания.  <br/> |
+|TimesheetLineInvalidStatus = 3214  <br/> |Состояние строки расписания является недопустимым.  <br/> |
 
 <a name="pj15_ErrorCodes_UserDelegation"></a>
 
-## <a name="table-29-user-delegation"></a>В таблице 29. Делегирование пользователя 
+## <a name="table-29-user-delegation"></a>Табл. 29. Делегирование пользователя 
 
-|Код ошибки для делегирования пользователей|Описание|
+|Код ошибки делегирования пользователя|Описание|
 |:-----|:-----|
 |UserDelegationExpired = 43000  <br/> |Истек срок действия делегирования пользователя.  <br/> |
 |UserDelegationCannotSelfDelegate = 43001  <br/> |Пользователь не может выполнить делегирование самому себе.  <br/> |
@@ -1277,13 +1277,13 @@ Project Server 2013 процессов и методам интерфейса PS
 |UserDelegationDelegateIsInactive = 43007  <br/> |Неактивный делегат пользователя.  <br/> |
 |UserDelegationInvalidFilter = 43008  <br/> |Недопустимый фильтр делегатов пользователей.  <br/> |
 |UserDelegationUserCannotLogon = 43010  <br/> |Пользователь не может выполнить вход в Project Server.  <br/> |
-|UserDelegationUserIsInactive = 43011  <br/> |Неактивный делегат пользователя.  <br/> |
+|UserDelegationUserIsInactive = 43011  <br/> |Делегирование пользователя неактивно.  <br/> |
 
 <a name="pj15_ErrorCodes_Workflow"></a>
 
-## <a name="table-30-workflow"></a>Таблица 30. Рабочий процесс 
+## <a name="table-30-workflow"></a>Табл. 30. Рабочий процесс 
 
-|Код ошибки для рабочих процессов|Описание|
+|Код ошибки рабочего процесса|Описание|
 |:-----|:-----|
 |WorkflowPhasesCannotCreatePhase = 35000  <br/> |Не удается создать этап рабочего процесса.  <br/> |
 |WorkflowPhasesCannotUpdatePhase = 35001  <br/> |Не удается обновить этап рабочего процесса.  <br/> |
@@ -1298,9 +1298,9 @@ Project Server 2013 процессов и методам интерфейса PS
 |WorkflowInvalidCustomFieldUid = 35010  <br/> |Недопустимый GUID настраиваемого поля.  <br/> |
 |WorkflowCustomFieldNotWorkflowControlled = 35011  <br/> |Настраиваемое поле не управляется рабочим процессом.  <br/> |
 |WorkflowCustomFieldCannotBeRequiredAndReadOnly = 35012  <br/> |Настраиваемое поле рабочего процесса не может быть одновременно обязательным и доступным только для чтения.  <br/> |
-|WorkflowInvalidWorkflowPhaseUid = 35013  <br/> |Рабочий процесс [PHASE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowPhaseRow.PHASE_UID.aspx) не является допустимым.  <br/> |
+|WorkflowInvalidWorkflowPhaseUid = 35013  <br/> |Рабочий процесс [PHASE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowPhaseRow.PHASE_UID.aspx) является недопустимым.  <br/> |
 |WorkflowInsertWorkflowPhaseNotAllowed = 35014  <br/> |Не удается вставить этап рабочего процесса.  <br/> |
-|WorkflowInvalidWorkflowStageUid = 35015  <br/> |Рабочий процесс [STAGE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowStageRow.STAGE_UID.aspx) не является допустимым.  <br/> |
+|WorkflowInvalidWorkflowStageUid = 35015  <br/> |Рабочий процесс [STAGE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowStageRow.STAGE_UID.aspx) является недопустимым.  <br/> |
 |WorkflowPhaseHasStages = 35016  <br/> |Этап рабочего процесса содержит стадии.  <br/> |
 |WorkflowStageNameIsRequired = 35020  <br/> |Рабочий процесс [STAGE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.WorkflowStageRow.STAGE_NAME.aspx) является обязательным.  <br/> |
 |WorkflowStageAtLeastOnePDPIsRequired = 35021  <br/> |Для этой стадии рабочего процесса требуется хотя бы одна страница сведений о проекте.  <br/> |
@@ -1316,7 +1316,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |WorkflowCannotChangeWorkflow = 35109  <br/> |Не удается изменить рабочий процесс.  <br/> |
 |WorkflowWorkflowStatusPDPNotAllowed = 35110  <br/> |Запрещено использовать страницу сведений о проекте для состояния рабочего процесса.  <br/> |
 |WorkflowInvalidWorkflowStatusPDPUid = 35111  <br/> |Недопустимый GUID страницы сведений о проекте для состояния рабочего процесса.  <br/> |
-|WorkflowInvalidStageStatusValue = 35112  <br/> |Значение состояние стадии рабочего процесса не является допустимым. Если задать состояние стадии рабочего процесса, разрешены только значения **InProgressRequestSent** **InProgressRunning**или **InProgressWaiting** в [Workflow.StageStatus](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Workflow.StageStatus.aspx) .  <br/> |
+|WorkflowInvalidStageStatusValue = 35112  <br/> |Значение состояния этапа рабочего процесса является недопустимым. При установке состояния этапа рабочего процесса разрешены только значения **InProgressRequestSent**, **InProgressRunning** и **InProgressWaiting** в [Workflow.StageStatus](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Workflow.StageStatus.aspx).  <br/> |
 |WorkflowCannotCheckinNotify = 35113  <br/> |Не удается уведомить рабочий процесс о том, что проект возвращен.  <br/> |
 |WorkflowCannotCommitNotify = 35114  <br/> |Не удается уведомить рабочий процесс о том, что проект зафиксирован в планировщике или оптимизаторе.  <br/> |
 |WorkflowExceptionStartingWorkflow = 35115  <br/> |Ошибка при запуске рабочего процесса.  <br/> |
@@ -1326,38 +1326,38 @@ Project Server 2013 процессов и методам интерфейса PS
 |WorkflowMultipleStagesInProgress = 35119  <br/> |В рабочем процессе одновременно выполняются несколько стадий.  <br/> |
 |WorkflowActivityInvalidArgument = 35120  <br/> |Сообщение, получаемое в случае появления действия рабочего процесса, не является допустимым.  <br/> |
 |WorkflowMTWConfigurationError = 35121  <br/> |Ошибка конфигурации рабочего процесса Microsoft Azure.  <br/> |
-|EnterpriseProjectTypeInvalidEnterpriseProjectTypeUid = 35200  <br/> |**ENTERPRISE_PROJECT_TYPE_UID** не является допустимым.  <br/> |
+|EnterpriseProjectTypeInvalidEnterpriseProjectTypeUid = 35200  <br/> |Значение **ENTERPRISE_PROJECT_TYPE_UID** является недопустимым.  <br/> |
 |EnterpriseProjectTypeCannotCreateEnterpriseProjectType = 35201  <br/> |Не удается создать тип корпоративного проекта.  <br/> |
 |EnterpriseProjectTypeCannotUpdateEnterpriseProjectType = 35202  <br/> |Не удается обновить тип корпоративного проекта.  <br/> |
 |EnterpriseProjectTypeCannotDeleteEnterpriseProjectType = 35203  <br/> |Не удается удалить тип корпоративного проекта.  <br/> |
 |EnterpriseProjectTypeCannotCreateMultipleEnterpriseProjectTypes = 35204  <br/> |Не удается создать несколько типов корпоративного проекта.  <br/> |
 |EnterpriseProjectTypeCannotUpdateMultipleEnterpriseProjectTypes = 35205  <br/> |Не удается обновить несколько типов корпоративного проекта.  <br/> |
-|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |Корпоративный шаблон проекта (типа корпоративного проекта) требуется связанного проекта страница сведений о проекте (PDP) для создания проекта с помощью типа корпоративного проекта. Если типа корпоративного проекта для рабочего процесса, эта ошибка возникает во время проверки типа корпоративного проекта, когда страница сведений о проекте (PDP) не *Создать* тип. Другие типы страница сведений о Проекте, *Обычный* для редактирования проекта и *Состояния рабочего процесса* для отображения сведений о связанных с рабочего процесса проекта.  <br/> |
-|EnterpriseProjectTypeInvalidProjectPlanTemplateUid = 35207  <br/> |[ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID.aspx) не является допустимым.  <br/> |
-|EnterpriseProjectTypeInvalidWorkspaceTemplateName = 35208  <br/> |[ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME.aspx) не является допустимым.  <br/> |
-|EnterpriseProjectTypeInvalidWorkflowAssociationUid = 35209  <br/> |[WORKFLOW_ASSOCIATION_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.WORKFLOW_ASSOCIATION_UID.aspx) не является допустимым.  <br/> |
+|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |Шаблон корпоративного проекта (EPT) требует наличия связанной страницы сведений о проекте (PDP) для создания проекта с помощью EPT. Если EPT предназначен для рабочего процесса, такая ошибка возникает во время проверки EPT, когда страница сведений о проекте (PDP) не соответствует типу *Create*. Другие типы PDP: *Normal* — для редактирования проекта; и *Workflow Status* —  для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
+|EnterpriseProjectTypeInvalidProjectPlanTemplateUid = 35207  <br/> |Значение [ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID.aspx) является недопустимым.  <br/> |
+|EnterpriseProjectTypeInvalidWorkspaceTemplateName = 35208  <br/> |Значение [ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME.aspx) является недопустимым.  <br/> |
+|EnterpriseProjectTypeInvalidWorkflowAssociationUid = 35209  <br/> |Значение [WORKFLOW_ASSOCIATION_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.WORKFLOW_ASSOCIATION_UID.aspx) является недопустимым.  <br/> |
 |EnterpriseProjectTypeCannotReadWssSettings = 35210  <br/> |Не удается считать параметры SharePoint.  <br/> |
 |EnterpriseProjectTypeCannotReadWssLanguagesAndTemplates = 35211  <br/> |Не удается считать языки и шаблоны сайтов SharePoint.  <br/> |
-|EnterpriseProjectTypeInvalidDepartmentUid = 35212  <br/> |[DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.DEPARTMENT_UID.aspx) не является допустимым.  <br/> |
-|EnterpriseProjectTypeInvalidUri = 35213  <br/> |[ENTERPRISE_PROJECT_TYPE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.ENTERPRISE_PROJECT_TYPE_UID.aspx) не является допустимым.  <br/> |
+|EnterpriseProjectTypeInvalidDepartmentUid = 35212  <br/> |Значение [DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.DEPARTMENT_UID.aspx) является недопустимым.  <br/> |
+|EnterpriseProjectTypeInvalidUri = 35213  <br/> |Значение [ENTERPRISE_PROJECT_TYPE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.ENTERPRISE_PROJECT_TYPE_UID.aspx) является недопустимым.  <br/> |
 |EnterpriseProjectTypeUriRequiresHttp = 35214  <br/> |Для кода URI типа корпоративного проекта требуется протокол HTTP.  <br/> |
 |EnterpriseProjectTypeCannotDeleteDefault = 35215  <br/> |Не удается удалить тип корпоративного проекта по умолчанию.  <br/> |
 |EnterpriseProjectTypeCannotChangeDefault = 35216  <br/> |Не удается изменить тип корпоративного проекта по умолчанию.  <br/> |
 |EnterpriseProjectTypeHasProjectsCannotDelete = 35217  <br/> |Не удается удалить тип корпоративного проекта, содержащий проекты.  <br/> |
-|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Корпоративного проекта шаблона (типа корпоративного проекта) для рабочего процесса требуется связанного *Создать* тип страница сведений о проекте (PDP), чтобы создать проект с помощью типа корпоративного проекта. Эта ошибка происходит, когда страница сведений о Проекте не включено в определении типа корпоративного проекта. Другие типы страница сведений о Проекте, *Обычный* для редактирования проекта и *Состояния рабочего процесса* для отображения сведений о связанных с рабочего процесса проекта.  <br/> |
-|EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |Определение типа корпоративного проекта позволяет только одна страница сведений о проекте *Создать* тип.  <br/> |
-|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Корпоративного проекта шаблона (типа корпоративного проекта) для рабочего процесса требуется связанного *Создать* тип страница сведений о проекте (PDP), чтобы создать проект с помощью типа корпоративного проекта. Эта ошибка возникает, если страница сведений о Проекте в рабочем процессе определения типа корпоративного проекта другого типа. Другие типы страница сведений о Проекте, *Обычный* для редактирования проекта и *Состояния рабочего процесса* для отображения сведений о связанных с рабочего процесса проекта.  <br/> |
-|EnterpriseProjectTypeInvalidData = 35221  <br/> |**WorkflowDataSet** для типа корпоративного проекта имеет недопустимые данные.  <br/> |
+|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Шаблон корпоративного проекта (EPT) для рабочего процесса требует наличия связанной страницы сведений о проекте (PDP) типа *Create* для создания проекта с использованием EPT. Эта ошибка возникает, когда страница сведений о проекте не включается в определение типа корпоративного проекта. Другие типы PDP: *Normal* — для редактирования проекта; и *Workflow Status* —  для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
+|EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |Определение шаблона корпоративного проекта допускает только одну страницу сведений о проекте типа *Create*.  <br/> |
+|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Шаблон корпоративного проекта (EPT) для рабочего процесса требует наличия связанной страницы сведений о проекте (PDP) типа *Create* для создания проекта с использованием EPT. Эта ошибка возникает, когда страница сведений о проекте в определении шаблона корпоративного проекта рабочего процесса соответствует другому типу. Другие типы PDP: *Normal* — для редактирования проекта; и *Workflow Status* —  для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
+|EnterpriseProjectTypeInvalidData = 35221  <br/> |**WorkflowDataSet** для типа корпоративного проекта содержит данные, являющиеся недопустимыми.  <br/> |
 |EnterpriseProjectNoDefaultEnterpriseProjectTypeDefined = 35222  <br/> |Не задан тип корпоративного проекта по умолчанию.  <br/> |
 |EnterpriseProjectTypeAtLeastOnePDPIsRequired = 35223  <br/> |Для этого типа корпоративного проекта требуется хотя бы одна страница сведений о проекте.  <br/> |
 |EnterpriseProjectTypeWorkflowStatusPDPNotAllowed = 35224  <br/> |Запрещено использовать страницу сведений о проекте для состояния рабочего процесса для данного типа корпоративного проекта.  <br/> |
-|EnterpriseProjectTypeCannotChangeWorkflowAssociation = 35225  <br/> |Проект уже имеет тип корпоративного проекта (EPT); вы не можете изменить этот тип для проекта.  <br/> |
+|EnterpriseProjectTypeCannotChangeWorkflowAssociation = 35225  <br/> |Проект уже имеет тип корпоративного проекта (EPT); нельзя изменить EPT для проекта.  <br/> |
 
 <a name="pj15_ErrorCodes_WSS"></a>
 
-## <a name="table-31-wssinterop-and-objectlinkprovider-sharepoint-integration"></a>В таблице 31. WssInterop и ObjectLinkProvider (интеграции с SharePoint)
+## <a name="table-31-wssinterop-and-objectlinkprovider-sharepoint-integration"></a>Табл. 31. WssInterop и ObjectLinkProvider (интеграция с SharePoint)
 
-|Код ошибки для интеграции с SharePoint|Описание|
+|Код ошибки интеграции с SharePoint|Описание|
 |:-----|:-----|
 |WSSCreateSiteFailure = 16400  <br/> |Не удалось создать сайт SharePoint для рабочей области проекта.  <br/> |
 |WSSCannotCreateWebWithBlankName = 16401  <br/> |Не удается создать веб-сайт SharePoint с пустым именем.  <br/> |
@@ -1371,7 +1371,7 @@ Project Server 2013 процессов и методам интерфейса PS
 |WSSURIInvalidFormat = 16409  <br/> |Недопустимый формат для кода URI веб-сайта SharePoint.  <br/> |
 |WSSSyncReportingDataFailed = 16410  <br/> |Не удалось синхронизировать данные отчетности для SharePoint.  <br/> |
 |WSSWorkspaceUrlPathTooLong = 16411  <br/> |Слишком длинный URL-путь для рабочей области проекта SharePoint.  <br/> |
-|WSSWorkspaceNameContainsIllegalChars = 16412  <br/> |Один или несколько знаков в поле имя сайта проекта SharePoint не допускается. Следующие символы не допускаются в имени проекта: / ": \<\> | , . ' ? \* #  <br/> |
+|WSSWorkspaceNameContainsIllegalChars = 16412  <br/> |Один или несколько символов в имени сайта проекта SharePoint являются недопустимыми. Следующие символы в имени проекта являются недопустимыми: / " : \< \> | , . ' ? \* #  <br/> |
 |WSSInvalidWssServerUid = 16413  <br/> |Недопустимый GUID сервера SharePoint.  <br/> |
 |WSSSyncUsersFailed = 16414  <br/> |Не удалось синхронизировать пользователей Project Server с SharePoint.  <br/> |
 |WSSWrongWebTemplateLCID = 16415  <br/> |Недопустимый код (или идентификатор) языка для веб-шаблона SharePoint.  <br/> |
@@ -1380,10 +1380,10 @@ Project Server 2013 процессов и методам интерфейса PS
 |WSSWebCannotStartOrEndOnPeriod = 16418  <br/> |Имя веб-сайта SharePoint не может начинаться с точки или заканчиваться точкой.  <br/> |
 |WSSCannotDeleteSiteCollection = 16419  <br/> |Не удается удалить семейство веб-сайтов.  <br/> |
 |WSSListUidInvalid = 16420  <br/> |Недопустимый GUID списка SharePoint.  <br/> |
-|WSSSyncDataSetListUidMismatch = 16421  <br/> |GUID списка SharePoint не соответствует GUID списка в **DataSet** синхронизации.  <br/> |
-|WSSSyncDataSetMissingProjectSettingsRow = 16422  <br/> |В **DataSet** для синхронизации с SharePoint нет строки параметров проекта.  <br/> |
-|WSSSyncDataSetTaskMappingsNotAllowed = 16423  <br/> |Сопоставления задач в **DataSet** для синхронизации с SharePoint запрещены.  <br/> |
-|WSSSyncDataSetWssListUidEmpty = 16424  <br/> |Пустой GUID списка SharePoint в **DataSet** для синхронизации с SharePoint.  <br/> |
+|WSSSyncDataSetListUidMismatch = 16421  <br/> |GUID списка SharePoint не соответствует GUID списка в синхронизируемом **DataSet**.  <br/> |
+|WSSSyncDataSetMissingProjectSettingsRow = 16422  <br/> |**DataSet** для синхронизации с SharePoint отсутствует в строке настроек проекта.  <br/> |
+|WSSSyncDataSetTaskMappingsNotAllowed = 16423  <br/> |Сопоставления задач не разрешаются в **DataSet** для синхронизации с SharePoint.  <br/> |
+|WSSSyncDataSetWssListUidEmpty = 16424  <br/> |GUID списка SharePoint является пустым в **DataSet** для синхронизации с SharePoint.  <br/> |
 |WSSSyncDataNotFound = 16425  <br/> |Отсутствуют данные для синхронизации с SharePoint.  <br/> |
 |WSSSyncCriticalDataValidationError = 16426  <br/> |Критическая ошибка проверки данных при синхронизации с SharePoint.  <br/> |
 |WSSSyncSharePointListNotAccessibleError = 16427  <br/> |Список SharePoint недоступен.  <br/> |
@@ -1396,17 +1396,17 @@ Project Server 2013 процессов и методам интерфейса PS
 |WSSOLPDeleteWebObjectLinkError = 18001  <br/> |Ошибка при удалении связи с веб-объектом в поставщике связей с объектами SharePoint.  <br/> |
 |WSSInvalidPermissionsToWssList = 18002  <br/> |Недопустимые разрешения для списка SharePoint.  <br/> |
 |WSSWebIsNotUnderDefaultCollection = 18003  <br/> |Веб-сайт SharePoint находится не в семействе по умолчанию.  <br/> |
-|WSSWorkspaceUrlIsNotUnderPrimaryCollection = 18004  <br/> |Указанный рабочей области для URL-адрес не в коллекции веб-сайтов, связанного с данным экземпляром сервера project Server. Это требуется текущий режим разрешений.  <br/> |
-|WSSWorkspacesMustBeRestrictedToDefaultCollection = 18005  <br/> |Рабочие области следует ограничить семейством веб-сайтов по умолчанию в текущем режиме разрешений.  <br/> |
+|WSSWorkspaceUrlIsNotUnderPrimaryCollection = 18004  <br/> |Указанный URL-адрес рабочей области не является семейством веб-сайтов, сопоставленным с этим экземпляром сервера проектов. Это необходимо для текущего режима разрешений.  <br/> |
+|WSSWorkspacesMustBeRestrictedToDefaultCollection = 18005  <br/> |Рабочие области должны быть ограничены до семейства веб-сайтов по умолчанию в текущем режиме разрешений.  <br/> |
 
 <a name="pj15_ErrorCodes_ASMXExample"> </a>
 
 ## <a name="error-code-example-for-asmx"></a>Пример кода ошибки для ASMX
 
-Чтобы получить список ошибок, если вы получаете исключение при вызове метода PSI, передайте объект **SoapException** конструктору класса [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx) . Затем можно использовать [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) для хранения сведений об ошибках в массиве **PSErrorInfo** и перечисление ошибок, как показано в следующем примере. 
+Чтобы получить список ошибок, если вы получаете исключение, когда вызываете метод PSI, передайте объект **SoapException** конструктору класса [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx). Затем вы сможете использовать [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) для хранения информации об ошибке в массиве **PSErrorInfo** и перечислять ошибки, как показано в примере ниже. 
   
 > [!NOTE]
-> Объект **PSErrorInfo** не включает все необходимые сведения. Например при использовании **Resource.CheckOutResources** , где один из ресурсов уже извлечен **PSErrorInfo** показывает причину сбоя для каждого ресурса, не может быть извлечен, но не включает ресурсов имя или идентификатор GUID. Способ получить дополнительные сведения в приложении на основе ASMX в разделе [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx) . 
+> Объект **PSErrorInfo** не включает всю информацию, которая вам может потребоваться. Например, если вы используете **Resource.CheckOutResources**, где один из ресурсов уже извлечен, **PSErrorInfo** показывает причину сбоя для каждого ресурса, который не удается извлечь, но не включает имя ресурса или GUID. Для получения дополнительной информации в приложении на основе ASMX см. статью [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx) . 
   
 ```cs
 using System;
@@ -1452,7 +1452,7 @@ catch (SoapException ex)
 
 ## <a name="error-code-example-for-wcf"></a>Пример кода ошибки для WCF
 
-Чтобы получить список ошибок, если вы получаете **System.ServiceModel.FaultException** при вызове метода PSI в приложении на основе WCF, можно извлечь объект **PSClientError** из объекта **FaultException** . Затем можно использовать [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) для хранения сведений об ошибках в массиве **PSErrorInfo** и перечисление ошибок, как показано в предыдущем примере ASMX. 
+Чтобы получить список ошибок, если вы получили **System.ServiceModel.FaultException** при вызове метода PSI в приложении на основе WCF, можно извлечь объект **PSClientError** из объекта **FaultException**. Затем можно использовать [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) для хранения информации об ошибке в массиве **PSErrorInfo** и перечисления ошибок, как в предыдущем примере для ASMX. 
   
 ```cs
 using System;
@@ -1576,7 +1576,7 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 <br/>
 
-В дополнение к данным в объекте **PSClientError** объект **FaultException** может включать другие типы ошибок, таких как не удается подключиться к серверу Project Server. Параметр _errOut_ метода **GetPSClientError** в предыдущем примере отображается дополнительная информация. Например в образце кода **CreateProject4Department** в методе [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) включает в себя комментарии, которые показывают, как создать ошибки при задании свойств в таблице **ProjectCustomFields** . При запуске приложения параметр _errOut_ включает в себя элемент **errinfo** и других данных (форматирование вывода консоли). 
+Помимо данных в объекте **PSClientError**, объект **FaultException** может включать другие типы ошибок, например сбой при подключении к Project Server. Параметр _errOut_ метода **GetPSClientError** в предыдущем примере показывает дополнительную информацию. Например образец кода **CreateProject4Department** в методе [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) включает комментарии, которые показывают, как создаются ошибки при настройке свойств в таблице **ProjectCustomFields**. Когда приложение запускается, параметр _errOut_ включает элемент **errinfo** и другие данные (форматируемые здесь с вывода консоли). 
   
 ```XML
 ==============================
@@ -1609,9 +1609,9 @@ CustomFieldRequiredValueNotProvided
 
 ## <a name="see-also"></a>См. также
 
-- [Общие и практические статьи проекта](project-conceptual-and-how-to-articles.md)
-- [Профилировщика SQL Server](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
-- [Project Server 2010: Что следует при получении непредвиденным](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
-- [Средства просмотра ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
+- [Общие и практические статьи по проектам](project-conceptual-and-how-to-articles.md)
+- [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
+- [Project Server 2010: чего следует ожидать от непредвиденного](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
+- [Средство просмотра ULS](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
     
 
