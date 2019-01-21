@@ -10,24 +10,25 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f2e8eab52491eb4ff48f398848d7ffc303999bb4
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c986f0a96c14dac8a9ee4f3c7fded5a049fa451e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998891"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718492"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Метод Database.CreateTableDef (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Создает новый объект **[TableDef](tabledef-object-dao.md)** (только для рабочих областей Microsoft Access). .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CreateTableDef (***имя***, ***атрибуты***, ***SourceTableName***, ***подключение***)
+*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -41,7 +42,7 @@ ms.locfileid: "25998891"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -49,27 +50,27 @@ ms.locfileid: "25998891"
 <tbody>
 <tr class="odd">
 <td><p><em>Name</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>String</strong> подтип), уникальным образом новый объект <strong>TableDef</strong> . Свойство <strong><a href="tabledef-name-property-dao.md">Name</a></strong> для получения дополнительных сведений см допустимые имена <strong>TableDef</strong> .</p></td>
+<td><p><strong>Variant</strong> (подтип <strong>String</strong>) присваивает уникальное имя новому объекту <strong>TableDef</strong>. См. свойство <strong><a href="tabledef-name-property-dao.md">Name</a></strong> для получения более подробных сведений о допустимых именах <strong>TableDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Атрибуты</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p><em>Attributes</em></p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа или сочетание констант, которое указывает один или несколько характеристик этого нового объекта <strong>TableDef</strong> . Свойство <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> для получения дополнительных сведений см.</p></td>
+<td><p>Константа или сочетание констант, которое отражает одну или несколько характеристик нового объекта <strong>TableDef</strong>. См. свойство <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> для получения дополнительной информации.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>SourceTableName</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>String</strong> подтип), содержащей имя таблицы во внешней базе данных, который является оригинального источника данных. Источник строки, становится значения свойства <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> новый объект <strong>TableDef</strong> .</p></td>
+<td><p><strong>Variant</strong> (подтип <strong>String</strong>) содержит название таблицы во внешней базе данных, которая служит исходным источником данных. Исходная строка становится параметром свойства <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> для нового объекта <strong>TableDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Подключение</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p><em>Connect</em></p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>String</strong> подтип), содержащее сведения о источника базу данных, используемые в запроса к серверу или связанной таблицы базы данных. В разделе свойства <strong><a href="tabledef-connect-property-dao.md">Подключить</a></strong> Дополнительные сведения о допустимых строках подключения.</p></td>
+<td><p><strong>Variant</strong> (подтип <strong>String</strong>) с информацией об источнике открытой базы данных, базе данных, используемой в запросе к серверу, или связанной таблицы. См. свойство <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> для получения дополнительной информации о допустимых строках подключения.</p></td>
 </tr>
 </tbody>
 </table>
@@ -79,17 +80,17 @@ ms.locfileid: "25998891"
 
 TableDef
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Если опустить одно или несколько частей необязательно при использовании метода **CreateTableDef** , можно использовать соответствующие присваивания установить или сбросить соответствующего свойства перед добавлением нового объекта в коллекцию. После добавления объекта, можно изменить некоторые, но не все его свойства. Обратитесь к соответствующим разделам отдельных свойств для получения дополнительных сведений.
+Если опустить одну или несколько необязательных частей при использовании метода **CreateTableDef**, вы можете воспользоваться соответствующим оператором присваивания, чтобы задать или сбросить соответствующее свойство перед добавлением нового объекта в коллекцию. После добавления объекта вы можете изменять некоторые, но не все его свойства. См. разделы для отдельных свойств для получения дополнительных данных.
 
-Если имя ссылается на объект, который уже входит в коллекции или указать недопустимое свойство в объекте **TableDef** или **[поля](field-object-dao.md)** , в которую добавляются, то во время выполнения возникает ошибка при использовании метода **[Append](tabledefs-append-method-dao.md)** . Кроме того нельзя добавьте **TableDef** объект в коллекцию **TableDefs** до определить по крайней мере один **поля** для объекта **TableDef** .
+Если имя ссылается объект, который уже входит в коллекцию, или вы указываете недопустимое свойство в объекте **TableDef** или **[Field](field-object-dao.md)**, который вы добавляете, возникает ошибка во время выполнения, если вы используете метод **[Append](tabledefs-append-method-dao.md)**. Кроме того, нельзя добавить объект **TableDef** в коллекцию **TableDefs**, пока вы не определите по крайней мере один объект **Field** для объекта **TableDef**.
 
-Чтобы удалить объект **TableDef** из коллекции **[TableDefs](tabledefs-collection-dao.md)** , используйте метод **[Delete](tabledefs-delete-method-dao.md)** в семействе сайтов.
+Чтобы удалить объект **TableDef** из коллекции **[TableDefs](tabledefs-collection-dao.md)**, используйте метод **[Delete](tabledefs-delete-method-dao.md)** для коллекции.
 
 ## <a name="example"></a>Пример
 
-В этом примере создается новый объект **TableDef** базы данных Northwind.
+В этом примере создается новый объект **TableDef** в базе данных Northwind.
 
 ```vb
     Sub CreateTableDefX() 
@@ -154,7 +155,7 @@ TableDef
 
 <br/>
 
-В этом примере используется **CacheSize**, **CacheStart** и **SourceTableName** свойства и методы **CreateTableDef** и **FillCache** дважды перечисление записей в связанной таблице. Затем выполняется перечисление записей дважды с 50 записи кэша. Затем отображается статистика производительности без кэш-памяти и кэшированные просматривает связанную таблицу.
+В этом примере используются методы **CreateTableDef** и **FillCache** и свойства **CacheSize**, **CacheStart** и **SourceTableName** для перечисления записей в связанной таблице два раза. Затем выполняется перечисление дважды с кэшем в 50 записей. Затем пример отображает статистику производительности для некэшированных и кэшированных запусков в связанной таблице.
 
 ```vb
     Sub ClientServerX3() 
