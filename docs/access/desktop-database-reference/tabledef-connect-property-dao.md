@@ -10,34 +10,35 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d5ce90c362d6d8cddcbf04326b5443b2c1dda2ae
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 2d8aef3c8bdaac93bd84231b3098d98ee896a81f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996792"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722755"
 ---
 # <a name="tabledefconnect-property-dao"></a>Свойство TableDef.Connect (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, которое предоставляет сведения о связанной таблицы. Для чтения и записи, **String**.
+Задает или возвращает значение, которое содержит сведения о связанной таблице. Для чтения и записи, **String**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Подключение
+*expression* .Connect
 
-*выражение* Переменная, которая представляет собой объект- **TableDef** .
+*выражение*: переменная, представляющая объект **TableDef**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Настройка свойства **подключение** — **строка** состоит из спецификатора типа базы данных и ноль или больше параметров, разделенных точкой с запятой. Свойство **Connect** передает Дополнительные сведения о ODBC и драйверы некоторых ISAM при необходимости.
+Параметры свойства **Connect** сохранены в **String**, состоящей из указателя типа базы данных и нуля либо нескольких параметров, разделенных точкой с запятой. Свойство **Connect** передает дополнительные сведения для ODBC и определенным драйверам ISAM при необходимости.
 
-Для объекта **TableDef** , представляющий связанной таблицы значение свойства **подключение** состоит из одного или двух частях (описатель типа базы данных и путь к базе данных), каждая из которых заканчиваются точкой с запятой.
+Для объекта **TableDef**, представляющего связанную таблицу, параметры свойства **Connect** состоит из одной или двух частей (указатель типа базы данных и путь к базе данных), каждый из которых заканчивается точкой с запятой.
 
-Путь, как показано в следующей таблице — это полный путь к каталогу, содержащему файлы базы данных и должен предшествовать идентификатор базы данных =. В некоторых случаях (как с помощью Microsoft Excel и Microsoft Access базы данных базами данных, ядро) должен включать имя файла в качестве аргумента базы данных.
+Путь, как показано в приведенной ниже таблице, содержит полный путь к каталогу, содержащему файлы базы данных, и должен иметь впереди идентификатор DATABASE=. В некоторых случаях (как в случае с базами данных Microsoft Excel и ядра СУБД Microsoft Access) следует включить конкретное имя файла в аргумент пути к базе данных.
 
-Ниже приведены возможные типы и баз данных и их соответствующие спецификаторы базы данных пути для настройки свойства **подключения** .
+Таблица ниже содержит возможные типы базы данных и соответствующие указатели базы данных и пути к параметрам свойства **Connect**.
 
 <table>
 <colgroup>
@@ -48,116 +49,116 @@ ms.locfileid: "25996792"
 <thead>
 <tr class="header">
 <th><p>Тип базы данных</p></th>
-<th><p>Описателя</p></th>
+<th><p>Указатель</p></th>
 <th><p>Пример</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Базы данных Microsoft Access</p></td>
-<td><p>База данных [];</p></td>
-<td><p>диск: \path\filename</p></td>
+<td><p>База данных Microsoft Access</p></td>
+<td><p>[database];</p></td>
+<td><p>диск: \путь\имяфайла</p></td>
 </tr>
 <tr class="even">
 <td><p>dBASE III</p></td>
 <td><p>dBASE III;</p></td>
-<td><p>диск: \path</p></td>
+<td><p>диск: \путь</p></td>
 </tr>
 <tr class="odd">
 <td><p>dBASE IV</p></td>
 <td><p>dBASE IV;</p></td>
-<td><p>диск: \path</p></td>
+<td><p>диск: \путь</p></td>
 </tr>
 <tr class="even">
 <td><p>dBASE 5</p></td>
 <td><p>dBASE 5.0;</p></td>
-<td><p>диск: \path</p></td>
+<td><p>диск: \путь</p></td>
 </tr>
 <tr class="odd">
 <td><p>Paradox 3.x</p></td>
 <td><p>Paradox 3.x;</p></td>
-<td><p>диск: \path</p></td>
+<td><p>диск: \путь</p></td>
 </tr>
 <tr class="even">
 <td><p>Paradox 4.x</p></td>
 <td><p>Paradox 4.x;</p></td>
-<td><p>диск: \path</p></td>
+<td><p>диск: \путь</p></td>
 </tr>
 <tr class="odd">
 <td><p>Paradox 5.x</p></td>
 <td><p>Paradox 5.x;</p></td>
-<td><p>диск: \path</p></td>
+<td><p>диск: \путь</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Excel 3.0</p></td>
 <td><p>Excel 3.0;</p></td>
-<td><p>Drive:\path\filename.xls</p></td>
+<td><p>диск: \путь\имяфайла.xls</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Excel 4.0</p></td>
 <td><p>Excel 4.0;</p></td>
-<td><p>Drive:\path\filename.xls</p></td>
+<td><p>диск: \путь\имяфайла.xls</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Excel 5.0 или Microsoft Excel 95</p></td>
 <td><p>Excel 5.0;</p></td>
-<td><p>Drive:\path\filename.xls</p></td>
+<td><p>диск: \путь\имяфайла.xls</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Excel 97</p></td>
 <td><p>Excel 8.0;</p></td>
-<td><p>Drive:\path\filename.xls</p></td>
+<td><p>диск: \путь\имяфайла.xls</p></td>
 </tr>
 <tr class="even">
 <td><p>Lotus 1-2-3 WKS и WK1</p></td>
 <td><p>Lotus WK1;</p></td>
-<td><p>Drive:\path\filename.WK1</p></td>
+<td><p>диск: \путь\имяфайла.wk1</p></td>
 </tr>
 <tr class="odd">
-<td><p>WK3 Lotus 1-2-3</p></td>
+<td><p>Lotus 1-2-3 WK3</p></td>
 <td><p>Lotus WK3;</p></td>
-<td><p>Drive:\path\filename.WK3</p></td>
+<td><p>диск: \путь\имяфайла.wk3</p></td>
 </tr>
 <tr class="even">
-<td><p>WK4 Lotus 1-2-3</p></td>
+<td><p>Lotus 1-2-3 WK4</p></td>
 <td><p>Lotus WK4;</p></td>
-<td><p>Drive:\path\filename.WK4</p></td>
+<td><p>диск: \путь\имяфайла.wk4</p></td>
 </tr>
 <tr class="odd">
-<td><p>Импорт HTML</p></td>
-<td><p>Импорт HTML;</p></td>
-<td><p>диск: \path\filename</p></td>
+<td><p>HTML Import</p></td>
+<td><p>HTML Import;</p></td>
+<td><p>диск: \путь\имяфайла</p></td>
 </tr>
 <tr class="even">
-<td><p>Экспорт HTML</p></td>
-<td><p>Экспорт HTML;</p></td>
-<td><p>диск: \path</p></td>
+<td><p>HTML Export</p></td>
+<td><p>HTML Export;</p></td>
+<td><p>диск: \путь</p></td>
 </tr>
 <tr class="odd">
-<td><p>Текст</p></td>
-<td><p>Текст;</p></td>
-<td><p>диск: \path</p></td>
+<td><p>Text</p></td>
+<td><p>Text;</p></td>
+<td><p>диск: \путь</p></td>
 </tr>
 <tr class="even">
-<td><p>Open Database Connectivity</p></td>
-<td><p>ODBC. Базы данных = база данных; UID = пользователя; PWD = пароля; Уведомления о Доставке = источнику данных; [LOGINTIMEOUT = секунды;]</p></td>
-<td><p>Отсутствует</p></td>
+<td><p>ODBC</p></td>
+<td><p>ODBC; DATABASE=database; UID=user; PWD=password; DSN= datasourcename; [LOGINTIMEOUT=seconds;]</p></td>
+<td><p>Нет</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Exchange</p></td>
-<td><p>Exchange 4.0; MAPILEVEL = folderpath; [TABLETYPE = {0 | 1}]; [ПРОФИЛЕЙ = профиля;] [PWD = пароль;] [Базы данных = база данных;]</p></td>
-<td><p>диск: \path\filename</p></td>
+<td><p>Exchange 4.0; MAPILEVEL=folderpath; [TABLETYPE={ 0 | 1 }];[PROFILE=profile;] [PWD=password;] [DATABASE=database;]</p></td>
+<td><p>диск: \путь\имяфайла</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Если пароль требуется, но не указан в параметре свойства **подключения** , диалоговое окно входа в систему отображается впервые таблицам драйвер ODBC и снова закрыто и повторно открыть подключение.
+Если пароль необходим, но не указан в параметрах свойства **Connect**, диалоговое окно входа отображается при первой попытке доступа к таблице со стороны драйвера ODBC и еще раз при закрытии и повторном установлении подключения.
 
-Для данных в Microsoft Exchange требуется ключ MAPILEVEL должно быть присвоено полностью разрешить пути (например, «почтовый ящик – Pat SmithIAlpha/текущую»). Путь не включает имя папки, которая будет открыта в виде таблицы; Вместо этого следует указать имя этой папки в качестве аргумента имя метода **CreateTable** . Клавиша TABLETYPE должно быть присвоено значение «0» откройте папку (по умолчанию) или «1», чтобы открыть адресную книгу. В настоящее время с помощью ключа ПРОФИЛЯ по умолчанию к профилю.
+Для данных в Microsoft Exchange обязательный ключ MAPILEVEL должен иметь полностью разрешенный путь к папке (например, "Mailbox - Pat SmithIAlpha/Today"). Путь не включает имя папки, которая будет открываться в качестве таблицы; вместо этого необходимо указать имя этой папки в качестве имени аргумента для метода **CreateTable**. Для ключа TABLETYPE должно быть установлено значение «0», чтобы открыть папку (по умолчанию) или «1», чтобы открыть адресную книгу. Ключ PROFILE по умолчанию относится к профилю, который в настоящее время используется.
 
-Для базовых таблиц в базе данных Micorosoft Access значение свойства **подключение** является строкой нулевой длины (»»).
+Для базовых таблиц в базе данных Micorosoft Access параметр свойства **Connect** должен быть строкой нулевой длины ("").
 
 > [!NOTE]
-> - Необходимо установить свойство **подключение** , прежде чем задать свойство **ReturnsRecords** .
-> - Необходимо иметь разрешения доступа на компьютере, где размещается сервер базы данных, который вы пытаетесь получить доступ к.
+> - Необходимо задать значение свойства **Connect** перед настройкой свойства **ReturnsRecords**.
+> - Необходимо иметь разрешения на доступ к компьютеру, который содержит сервер базы данных, доступ к которому вы пытаетесь получить доступ.

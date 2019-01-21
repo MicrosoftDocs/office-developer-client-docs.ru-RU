@@ -1,21 +1,22 @@
 ---
-title: Язык обработки данных (Microsoft Access SQL)
+title: Язык обработки данных DML (Microsoft Access SQL)
 TOCTitle: Data manipulation language
 ms:assetid: 25c6f127-0fee-470e-bf16-9253b14e8086
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124073(v=office.15)
 ms:contentKeyID: 52071710
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e4dd6063ba0f4fce5ba97b37f318e94072d73191
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c0cfc490bf2028f53c307396d4be2dceadf0794c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947254"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703995"
 ---
-# <a name="data-manipulation-language-microsoft-access-sql"></a>Язык обработки данных (Microsoft Access SQL)
+# <a name="data-manipulation-language-microsoft-access-sql"></a>Язык обработки данных DML (Microsoft Access SQL)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 - [Оператор DELETE](delete-statement-microsoft-access-sql.md)
 - [Оператор EXECUTE](execute-statement-microsoft-access-sql.md)
