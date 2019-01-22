@@ -1,5 +1,5 @@
 ---
-title: Справочный обзор PSI Project
+title: Общий справочник по Project PSI
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -38,136 +38,136 @@ f1_keywords:
 - WinProj
 - WssInterop
 keywords:
-- веб-службы, календарь, проверка подлинности для веб-службы, ResourcePlan, Web, StatusReports, веб-службы, PSI, пространства имен, обработчиков событий, Project Server, веб-служба уведомлений, QueueSystem, веб-службы, Project 2013 платформы LoginWindows, веб службы, веб-службы, отчеты о состоянии, веб-служба, ресурсов, WinProj, веб-службы, WssInterop, веб-службы, веб-службы, Winproj, события обработчики, LookupTable, Web, веб-клиента Project, веб-службы, веб-службы, безопасности, уведомления веб-службы, веб-службы Расписания, веб-службы, QueueSystem, PSI, веб-службы, веб-службы, событий, PSI, программирования, веб-службы, LookupTable, версию, веб-служба, настраиваемых полей, веб-службы, веб-службы, веб-клиента Project, PSI, ресурсов, веб-службы, веб-службы, ResourcePlan, расписания, Web службы, веб-службы, правила, PSI, управляемого кода ссылку, безопасности, веб-службы, веб-службы, настраиваемых полей, URL-адрес для PSI (en), веб-службы, WssInterop, Web, Admin, Web ссылку PSI, веб-служба, cubeadmin задание таймера, представления, веб-службы, календарь, веб-служба Web Служба, представления, администратора, веб-службы, LoginForms, веб-службы, веб-служба, LoginForms, PSI, URL-адреса, ObjectLinkProvider, веб-службы, архив, Web службы, cubeadmin задание таймера, Web, правил, веб-служба, веб-службы, проверка подлинности для веб-служб, PSI, Project Server , события, события, веб-службы, веб-служба Project, отчеты о состоянии, веб-службы, веб-служба, ObjectLinkProvider, интерфейс Project Server, веб-методы PSI, Web, StatusReports, веб-службы, архив, Project, веб-службы, веб-службы, LoginWindows
-localization_priority: Normal
+- веб-служба, календарь, проверка подлинности, веб-служба, ResourcePlan, веб-служба, StatusReports, веб-служба, PSI, пространства имен, обработчики событий, Project Server, веб-служба, уведомления, QueueSystem, веб-служба, Project 2013, платформа, LoginWindows, веб-служба, веб-служба, отчеты о состоянии, веб-служба, ресурс, WinProj, веб-служба, WssInterop, веб-служба, веб-служба, Winproj, обработчики событий, LookupTable, веб-служба, PWA, веб-служба, веб-служба, безопасность, уведомления, веб-служба, веб-служба, TimeSheet, веб-служба, QueueSystem, PSI, веб-службы, веб-служба, события, PSI, программирование, веб-служба, LookupTable, версия, веб-служба, CustomFields, веб-служба, веб-служба, PWA, PSI, ресурс, веб-служба, веб-служба, ResourcePlan, TimeSheet, веб-служба, веб-служба, правила, PSI, ссылка на управляемый код, безопасность, веб-служба, веб-служба, CustomFields, URL, для PSI, веб-служба, WssInterop, веб-служба, администрирование, веб-ссылка, PSI, веб-служба, CubeAdmin, View, веб-служба, календарь, веб-служба, веб-служба, View, администрирование, веб-служба, LoginForms, веб-служба, веб-служба, LoginForms, PSI, URL-адреса, ObjectLinkProvider, веб-служба, архив, веб-служба, CubeAdmin, веб-служба, правила, веб-служба, веб-служба, проверка подлинности, веб-службы, PSI, Project Server, события, события, веб-служба, веб-служба, Project, отчеты о состоянии, веб-служба, веб-служба, ObjectLinkProvider, интерфейс Project Server, веб-методы, PSI, веб-служба, StatusReports, веб-служба, архив, Project, веб-служба, веб-служба, LoginWindows
 ms.assetid: d3c33089-0cbe-48c3-bfc0-0be819ca4d73
-description: Интерфейс Project Server (PSI) — это API для разработки приложений, которые интегрируются с Project Server 2013 в локальной.
-ms.openlocfilehash: 58235e16afd208d0d4415e28ad200cc7ff62ac8b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: Интерфейс Project Server (PSI) — это интерфейс API, используемый для разработки приложений, которые локально интегрируются с Project Server 2013.
+localization_priority: Priority
+ms.openlocfilehash: 178f050022916ac1d26bd3d71f0ac5210c92295d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390123"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716126"
 ---
-# <a name="project-psi-reference-overview"></a>Справочный обзор PSI Project
+# <a name="project-psi-reference-overview"></a>Общий справочник по Project PSI
 
-Интерфейс Project Server (PSI) — это API для разработки приложений, которые интегрируются с Project Server 2013 в локальной.
+Интерфейс Project Server (PSI) — это интерфейс API, используемый для разработки приложений, которые локально интегрируются с Project Server 2013.
   
-В этой статье представлен обзор документированных сборки, пространства имен и службы в PSI. [Справочник по библиотеке и веб-службы Project Server 2013 класс](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) в пакете SDK содержит все управляемого кода в документации по PSI и пространства имен [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) в Project Server 2013. Для разработки приложений для Project Online, необходимо использовать пространство имен **Microsoft.ProjectServer.Client** вместо PSI. 
+В этой статье приведены общие сведения о задокументированных сборках, пространствах имен и службах в интерфейсе PSI. [Справочник по библиотеке классов и веб-службам Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) в пакете SDK содержит всю документацию по управляемому коду для PSI и пространства имен [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) в Project Server 2013. При разработке приложений для Project Online необходимо вместо интерфейса PSI использовать пространство имен **Microsoft.ProjectServer.Client**. 
 
-PSI в Project Server 2013 имеет два интерфейса. Интерфейс ASMX для веб-службы определяется обнаружения и языка (disco и WSDL) файлов в `https://ServerName/ProjectServerName/_vti_bin/psi/` виртуальный каталог (например, Projectdisco.aspx и Projectwsdl.aspx). Интерфейс ASMX доступны только с помощью URL-адреса для локальной установки Project Web App (например, `https://ServerName/ProjectServerName/_vti_bin/psi/project.asmx?wsdl)`. Чтобы отобразить веб-службы в браузере, необходимо включить `?wsdl` вариант URL-адреса. Поскольку интерфейс ASMX создан с помощью инфраструктуры Windows Communication Foundation (WCF), ASMX-файлы для веб-службы Project Server в виртуальном каталоге PSI фактически не существуют. 
+PSI в Project Server 2013 имеет двойной интерфейс. Интерфейс ASMX для веб-служб определяется файлами обнаружения (disco) и WSDL в виртуальном каталоге `https://ServerName/ProjectServerName/_vti_bin/psi/` (например, Projectdisco.aspx и Projectwsdl.aspx). К интерфейсу ASMX можно получить доступ только с помощью URL-адреса локально установленной версии Project Web App (например, `https://ServerName/ProjectServerName/_vti_bin/psi/project.asmx?wsdl)`). Чтобы отобразить веб-службу в браузере, необходимо включить параметр URL-адреса `?wsdl`. Так как интерфейс ASMX создается на основе инфраструктуры Windows Communication Foundation (WCF), в виртуальном каталоге PSI фактически нет ASMX-файлов для веб-служб Project Server. 
   
-Интерфейс служб WCF определяется SVC-файлов в серверной `https://ServerName:32843/GUID/PSI/` виртуального каталога в приложении веб-службы SharePoint. Службы URL-адрес PSI в виртуальном каталоге приложения-службы Project (например, `https://ServerName:32843/GUID/PSI/project.svc`) включает в себя SVC-файлов. Однако нельзя непосредственно использовать серверной URL-адрес для задания ссылки на службу WCF. Чтобы разработать приложение или компонент, который использует службы WCF PSI, можно использовать сборки прокси-сервера или файла прокси-сервера. Загрузить пакет SDK Project 2013 включает в себя файлы прокси-сервера для службы WCF в Project Server 2013 и построения скриптов для получения обновленных файлов прокси-сервера WCF и компиляция файлов в сборки прокси-сервера для последних Project Server.
+Интерфейс служб WCF определяется SVC-файлами в тыловом виртуальном каталоге `https://ServerName:32843/GUID/PSI/` в приложении веб-служб SharePoint. URL-адрес служб PSI в виртуальном каталоге приложения-службы Project (например, `https://ServerName:32843/GUID/PSI/project.svc`) включает SVC-файлы. Однако с помощью тылового URL-адреса невозможно непосредственно задать ссылку на службу WCF. Разработать приложение или компонент, использующие службы WCF, которые входят в интерфейс PSI, можно с помощью сборки прокси-сервера или прокси-файла. Доступный для скачивания пакет для SDK Project 2013 включает прокси-файлы для служб WCF в Project Server 2013, а также сценарии для получения обновленных прокси-файлов WCF и их последующей компиляции в сборку прокси-сервера для более новых сборок Project Server.
   
-Имя каталога приложения-службы Project — это значение GUID, которое совпадает с GUID экземпляра Project Web App в локальной. В окне **Диспетчер Internet Information Services (IIS)** разверните узел **Веб-служб SharePoint** , выберите имя каталога GUID и нажмите кнопку **Дополнительные параметры** , чтобы скопировать значение **Виртуального пути** . 
+Имя каталога приложения службы Project представляет собой значение GUID, которое совпадает с GUID локального экземпляра Project Web App. В окне **диспетчера Internet Information Services (IIS)** разверните узел **Веб-службы SharePoint**, выберите имя каталога GUID, а затем нажмите **Дополнительные параметры**, чтобы скопировать значение **Виртуальный путь**. 
   
 > [!IMPORTANT]
-> Интерфейс веб-службы ASMX из PSI рекомендуется использовать в Project Server 2013, но по-прежнему поддерживается. Новые приложения должны использовать WCF интерфейса PSI или CSOM. Дополнительные сведения об устаревших функциях в статье [обновления в Project 2013 для разработчиков](updates-for-developers-in-project-2013.md)
+> Интерфейс веб-службы ASMX PSI признан нерекомендуемым в Project Server 2013, однако все еще поддерживается. В новых приложениях необходимо использовать интерфейс WCF PSI или CSOM. Дополнительные сведения о нерекомендуемых компонентах см. в статье [Обновления для разработчиков в Project 2013](updates-for-developers-in-project-2013.md).
 > 
-> Новые приложения и компоненты промежуточного программного обеспечения, на которых выполняется только на локальной установки Project Server, следует использовать интерфейс WCF, который является технологии, рекомендуется использовать сетевые подключения. Устаревшие приложения, использующие интерфейс ASMX необходимо использовать URL-адреса через Project Web App проверяет разрешения Project Server. 
+> Новые приложения и компоненты ПО промежуточного слоя, которые выполняются только в локально установленной версии Project Server, должны использовать интерфейс WCF. Именно эту технологию мы рекомендуем использовать для сетевых подключений. Приложения прежних версий, в которых используется интерфейс ASMX, должны использовать URL-адрес в Project Web App, который отвечает за проверку разрешений Project Server. 
 > 
-> Дополнительные сведения об интерфейсе ASMX и порядок использования интерфейса WCF можно [Необходимые условия для образцов кода на основе ASMX в проекте](prerequisites-for-asmx-based-code-samples-in-project.md) и [Необходимые условия для образцов кода на основе WCF в проекте](prerequisites-for-wcf-based-code-samples-in-project.md). 
+> Дополнительные сведения об интерфейсе ASMX и использовании интерфейса WCF см. в статьях [Предварительные требования для примеров кода на основе ASMX в Project](prerequisites-for-asmx-based-code-samples-in-project.md) и [Предварительные требования для примеров кода на основе WCF в Project](prerequisites-for-wcf-based-code-samples-in-project.md). 
   
-Для разработки приложений, использующих интерфейс WCF, можно использовать Visual Studio 2010 или Visual Studio 2012. Для создания декларативных рабочих процессов Project Server, можно использовать SharePoint Designer 2013. Рабочих процессов Project Server, которым требуется доступ к PSI или CSOM может быть разработан с помощью Visual Studio 2012.
+Разрабатывать приложения, в которых используется интерфейс WCF, можно с помощью Visual Studio 2010 или Visual Studio 2012. Для создания декларативных бизнес-процессов Project Server можно использовать SharePoint Designer 2013. Бизнес-процессы Project Server, которым требуется доступ к PSI или CSOM, можно разрабатывать с помощью Visual Studio 2012.
   
-### <a name="using-the-psi-reference"></a>Использование справки PSI
+### <a name="using-the-psi-reference"></a>Использование справочника по PSI
 <a name="pj15_PSIRefOverview_Using"> </a>
 
-Объектная модель PSI больших и многие классы и члены являются только для внутреннего использования. В результате может быть некоторая путаница найти разделы, которые будут в [Project Server 2013 класс библиотеки и веб-ссылки на службу](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx). Большинство ссылки на разделы, которые будут использовать для разработки, в следующих групп:
+Объектная модель PSI отличается большим размером. Ряд классов и элементов предназначен исключительно для внутреннего использования. Поэтому вам может быть сложно найти необходимые разделы в [справочнике по библиотеке классов и веб-службам Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx). Большинство разделов справки, которые используются при разработке, находятся в следующих группах:
   
-- **Методы основного класса:** Каждой службы PSI содержит основной класс с именем для имени службы. Например служба **ресурсов** содержит класс [ресурсов](https://msdn.microsoft.com/library/WebSvcResource.Resource.aspx) , который находится в пространстве имен [WebSvcResource](https://msdn.microsoft.com/library/WebSvcResource.aspx) . Чтобы просмотреть список методов, которые доступны в классе **ресурсов** , разверните узел класс в области содержимого и выберите в разделе **Ресурсов, методов** . 
+- **Методы основных классов.** Каждая служба в интерфейсе PSI включает основной класс, которому присваивается имя службы. Например, служба **Resource** содержит класс [Resource](https://msdn.microsoft.com/library/WebSvcResource.Resource.aspx), который входит в пространство имен [WebSvcResource](https://msdn.microsoft.com/library/WebSvcResource.aspx). Чтобы просмотреть список методов, доступных в классе **Resource**, разверните узел класса в области содержимого, а затем выберите раздел **Методы Resource**. 
     
-- **Свойства DataRow:** Многие из методов основной класс использовать или возврата **набора данных**. Каждый объект **DataTable** в **набор данных** содержит данные в один или несколько объектов **DataRow** . В большинстве случаев необходимо просмотреть только свойства строки, не всех других членов классов **DataSet**, **DataTable**или **DataRow** . Например класс **ResourceAssignmentDataSet** включает в себя подклассов для **ResourceAssignmentDataTable** и [ResourceAssignmentDataSet.ResourceAssignmentRow](https://msdn.microsoft.com/library/WebSvcResource.ResourceAssignmentDataSet.ResourceAssignmentRow.aspx) класса. Для просмотра списка свойств, которые находятся в классе **ResourceAssignmentRow** , разверните узел класс в области содержимого и выберите в разделе **Свойства ResourceAssignmentDataSet.ResourceAssignmentRow** . 
+- **Свойства DataRow.** Многие методы основных классов используют или возвращают класс **DataSet**. Каждый объект **DataTable** в классе **DataSet** содержит данные в одном или нескольких объектах **DataRow**. В большинстве случаев вам нужно просмотреть только свойства строки, а не все другие элементы классов **DataSet**, **DataTable** или **DataRow**. Например, класс **ResourceAssignmentDataSet** включает подклассы для классов **ResourceAssignmentDataTable** и [ResourceAssignmentDataSet.ResourceAssignmentRow](https://msdn.microsoft.com/library/WebSvcResource.ResourceAssignmentDataSet.ResourceAssignmentRow.aspx). Чтобы просмотреть список свойств, доступных в классе **ResourceAssignmentRow**, разверните узел класса в области содержимого, а затем выберите раздел **ResourceAssignmentDataSet.ResourceAssignmentRow Properties**. 
     
-Помимо пространства имен служб [библиотеки и веб-службы Project Server 2013 класс ссылаться](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) раздел содержит ссылки на три Project Server сборки, используемые в разработке решений сторонних производителей для локальных установок. Мы предоставляют только минимальной документации для этих сборок. PSI справочных материалах задокументировано основных классов и членов в 23 общедоступных служб. Службы PSI шесть не только для внутреннего использования, а не рассматриваются. 
+Кроме пространств имен служб, раздел [справочника по библиотеке классов и веб-службам Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) содержит ссылки на три сборки Project Server, которые используются при разработке сторонних приложений для локальных установок. Документация по этим сборкам представлена в минимальном объеме. В справочнике по PSI описываются основные классы и элементы, которые входят в 23 общедоступные службы. Шесть служб PSI предназначены исключительно для внутреннего использования и не представлены в справочнике. 
   
 > [!NOTE]
-> Классы в клиентской объектной модели (CSOM) можно использовать независимо от других сборок Project Server и служб. Можно использовать пространство имен **Microsoft.ProjectServer.Client** в среде удаленного развертывания на компьютере с Project Server и разработка приложений, которые интегрируются с Project Online или с локальной установкой Project Server. Однако CSOM содержит подмножество функциональных возможностей завершения PSI. CSOM позволяет разработки наиболее распространенные сценарии для интеграции с Project Server. Для получения дополнительных сведений см [CSOM что делает и не имеет](what-the-csom-does-and-does-not-do.md) и [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
+> Классы в клиентской объектной модели (CSOM) можно использовать независимо от других сборок и служб Project Server. Вы можете использовать пространство имен **Microsoft.ProjectServer.Client** в среде удаленной разработки с компьютера Project Server и разрабатывать приложения, которые интегрируются с Project Online или локально установленной версией Project Server. Однако CSOM содержит подмножество функций полного решения PSI. CSOM обеспечивает разработку наиболее распространенных сценариев для интеграции с Project Server. Дополнительные сведения см. в статьях [Какие задачи CSOM выполняет, а какие — нет](what-the-csom-does-and-does-not-do.md) и [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx). 
   
-Для разработки большинство приложений, использующих PSI нет необходимости разрабатывать на компьютере сервера Project Server или задать ссылки на Project Server сборки в глобальном кэше сборок. Необходимые сборки Project Server можно скопировать на компьютере разработчика. Project Server 2013 устанавливает следующие сборки в _[Program Files]_ `\Microsoft Office Servers\15.0\Bin`: 
+Для разработки большинства приложений, в которых используется интерфейс PSI, не требуется компьютер с установленным Project Server. Кроме того, вам не нужно задавать ссылки на сборки Project Server в глобальном кэше сборок. Вы можете скопировать сборки Project Server на свой компьютер, используемый для разработки. Project Server 2013 устанавливает следующие сборки в раздел _[Program Files]_ `\Microsoft Office Servers\15.0\Bin`: 
   
-- Microsoft.Office.Project.Server.Events.Receivers.dll 
-- Microsoft.Office.Project.Server.Library.dll
-- Microsoft.Office.Project.Server.Workflow.dll
+- Microsoft.Office.Project.Server.Events.Receivers.dll; 
+- Microsoft.Office.Project.Server.Library.dll;
+- Microsoft.Office.Project.Server.Workflow.dll.
     
-Пространства имен для службы PSI имеют произвольных имена, созданные для сборки PSI прокси-сервера, ProjectServerServices.dll, который создается в качестве документации. В ссылке PSI каждого пространства имен службы имеет имя заполнителя (например, _[проекта веб-службы]_) и веб-ссылки (например, `https://ServerName/ProjectServerName/_vti_bin/psi/Project.asmx?wsdl`). 
+Пространствам имен для служб PSI присваиваются произвольные имена, созданные для сборки прокси-сервера PSI (ProjectServerServices.dll), выполняемой в целях документации. В ссылке на PSI каждое пространство имен службы содержит имя-заполнитель, такое как _[Веб-служба Project]_, и веб-ссылку (например, `https://ServerName/ProjectServerName/_vti_bin/psi/Project.asmx?wsdl`). 
   
 ## <a name="project-server-assemblies-and-namespaces"></a>Сборки и пространства имен Project Server
 <a name="pj15_PSIRefOverview_Assemblies"> </a>
 
-Многие сборки устанавливаются при установке Project Server; описаны только четыре сборки Project Server. Сторонние разработчики обычно используйте только несколько классов и членов в этих сборках. Недокументированного сборки Project Server включают пространства имен и классы, которые использует Project Server, во внутренней сети, таких как классы для Project Web App бизнес-сущностей и доступа к данным уровнем (DAL). Если установка в Visual Studio ссылки на одну из документированным сборок Project Server, могут видеть все пространства имен, классы и элементы в обозреватель объектов Visual Studio.
+Многие сборки устанавливаются при установке Project Server. Задокументированы только четыре сборки Project Server. Как правило, сторонние разработчики используют только несколько классов и элементов в этих сборках. К незадокументированным сборкам Project Server относятся пространства имен и классы, которые используются в Project Server для внутренних целей. Например, классы для Project Web App, бизнес-элементы и компонент DAL (Data Access Layer). Если в Visual Studio вы задали ссылку на одну из задокументированных сборок Project Server, все пространства имен, классы и элементы отобразятся в обозревателе объектов Visual Studio.
   
 > [!NOTE]
-> Многие элементы задокументированных пространств имен Project Server используются только внутренним образом и имеют минимальный объем документации. 
+> Многие элементы задокументированных пространств имен Project Server используются только во внутренних целях и представлены в документации в минимальном объеме. 
   
-При разработке для Project Online для доступа к возможностям Project Server можно использовать только CSOM. Нет доступа к службы PSI или другие сборки, Project Server.
+При разработке для Project Online можно использовать только CSOM для доступа к функциональным возможностям Project Server. У вас не будет доступа к службам PSI или другим сборкам Project Server.
   
-[Справочник по библиотеке и веб-службы Project Server 2013 класс](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) для PSI содержит пространства имен из следующие сборки: 
+[Справочник по библиотеке классов и веб-службам Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) для PSI включает пространства имен из следующих сборок: 
   
-- **Microsoft.Office.Project.Server.Library.dll** эта сборка содержит один документированным пространства имен и три недокументированного пространства имен, следующим образом: 
+- **Microsoft.Office.Project.Server.Library.dll**. Эта сборка содержит одно задокументированное и три незадокументированных пространства имен, как указано ниже. 
     
-  - Пространство имен [Microsoft.Office.Project.Server.Library](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.aspx) включает множество перечислений и класс поля и свойства, которые часто используются в локальных приложений для Project Server. Например разработчики обычно используется перечисления, такие как **CustomField.Type**и соответствующие им классы **PSClientError**, **PSErrorInfo**и **фильтра** . 
+  - Пространство имен [Microsoft.Office.Project.Server.Library](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.aspx) включает ряд перечислений, поля и свойства классов, которые часто используются в локальных приложениях для Project Server. Например, разработчики обычно используют такие перечисления, как **CustomField.Type**, а также классы **PSClientError**, **PSErrorInfo** и **Filter**. 
     
-    В пространстве имен **Microsoft.Office.Project.Server.Library** также содержатся следующие семь классов свойств, включающих свыше 3200 подклассов: 
+    Пространство имен **Microsoft.Office.Project.Server.Library** также включает следующие семь классов свойств, в которые входят более чем 3200 подклассов: 
     
-      - **AssignmentProperties**  
-      - **CalendarProperties**
-      - **ConstraintProperties**
-      - **LookupTableProperties**
-      - **ProjectProperties**
-      - **ResourceProperties**
-      - **TaskProperties**
+      - **AssignmentProperties**;  
+      - **CalendarProperties**;
+      - **ConstraintProperties**;
+      - **LookupTableProperties**;
+      - **ProjectProperties**;
+      - **ResourceProperties**;
+      - **TaskProperties**.
     
-    Свойство классы используются во внутренней сети и не рассматриваются. Свойство классы используются для сериализации между Project Professional 2013 и Project Server. При работе с использованием пространства имен **Microsoft.Office.Project.Server.Library** в Visual Studio, обозревателя объектов отображаются все классы свойства, которые усложняет поиск классов, которые могут помочь в разработке сторонних производителей. Так как сторонние разработчики нет необходимости использовать свойство классы, их не документа в пакет SDK. 
+    Классы свойств используются для внутренних целей и не документируются. Классы свойств также используются для сериализации между Project профессиональный 2013 и Project Server. Когда вы работаете с пространством имен **Microsoft.Office.Project.Server.Library** в Visual Studio, в обозревателе объектов отображаются все классы свойств, что усложняет поиск классов, необходимых для сторонней разработки. Так как сторонним разработчикам не нужно использовать классы свойств, они не документируются в пакете SDK. 
     
-  - **Microsoft.Office.Project.Server.DataServices** классы и элементы этого пространства имен используются во внутреннем службы **OData** в Project Online для доступа к отчетности таблиц в базе данных Project. Классы **DataServices** не документированы. 
+  - **Microsoft.Office.Project.Server.DataServices.** Классы и элементы этого пространства имен используются службой **OData** во внутренних целях в Project Online для доступа к таблицам отчетов в базе данных Project. Классы **DataServices** не задокументированы. 
     
-  - **Microsoft.Office.Project.Server.Administration** класс и его элементы этого пространства имен во внутренней сети используются для сбора данных диагностики и не рассматриваются. 
+  - **Microsoft.Office.Project.Server.Administration.** Класс и элементы этого пространства имен используются во внутренних целях для журнала ведения диагностики и не документируются. 
     
-  - **Microsoft.Office.Project.Server.Base** классы и элементы этого пространства имен во внутренней сети используются в качестве базовых классов, а не рассматриваются. 
+  - **Microsoft.Office.Project.Server.Base.** Классы и элементы этого пространства имен используются во внутренних целях как базовые классы и не документируются. 
     
-  - **Microsoft.Office.Project.Server.Library.FilterSchema** этого пространства имен во внутренней сети используются для создания схемы фильтра, а не задокументирован. 
+  - **Microsoft.Office.Project.Server.Library.FilterSchema.** Это пространство имен используется во внутренних целях для создания схем фильтров и не документируется. 
     
-- **Microsoft.Office.Project.Server.Workflow.dll** эта сборка используется для устаревших рабочих процессов Project Server 2010, которые можно по-прежнему работают в Project Server 2013. Для создания новых рабочих процессов, следует использовать SharePoint Designer 2013 или можно также использовать Visual Studio 2012 с классом [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) . Сборка Microsoft.Office.Project.Server.Workflow.dll включает в себя следующие три пространства имен: 
+- **Microsoft.Office.Project.Server.Workflow.dll.** Эта сборка используется для бизнес-процессов Project Server 2010 прежних версий, которые могут работать в Project Server 2013. Для создания бизнес-процессов следует использовать SharePoint Designer 2013 или Visual Studio 2012 с классом [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx). Сборка Microsoft.Office.Project.Server.Workflow.dll включает три следующих пространства имен: 
     
-  - [Microsoft.Office.Project.Server.Workflow](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Workflow.aspx) это пространство имен содержит классы, используемые для действий рабочего процесса Project Server. Действия включают чтение, сравнение и обновление свойств проекта. Другие классы управления рабочими процессами и включать ответных звонков рабочий процесс при изменении проектов. 
+  - [Microsoft.Office.Project.Server.Workflow.](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Workflow.aspx) Это пространство имен включает классы, которые используются для действий бизнес-процессов Project Server. К действиям относятся чтение, сравнение и обновление свойств проектов. Другие классы управляют бизнес-процессами и включают обратные вызовы бизнес-процессов при изменении проектов. 
     
-  - **Microsoft.Office.Project.PWA** это пространство имен содержит внутренний прокси-сервера для PSI (en), для использования с Project Web App и настраиваемые действия рабочего процесса; не задокументирован. 
+  - **Microsoft.Office.Project.PWA.** Это пространство имен содержит внутренний прокси для PSI, который используется с Project Web App и настраиваемыми действиями бизнес-процессов. Данное пространство имен не документируется. 
     
-    Действий настраиваемого рабочего процесса требуется ссылка на **Microsoft.Office.Project.PWA** для доступа ко всем классы в службы PSI. Например класс **Microsoft.Office.Project.PWA.PSI** включает в себя свойство **ProjectWebService** , которое возвращает прокси-сервер для пространства имен [WebSvcProject](https://msdn.microsoft.com/library/WebSvcProject.aspx) . 
+    Для доступа ко всем классам в службах PSI настраиваемому действию бизнес-процесса требуется ссылка на **Microsoft.Office.Project.PWA**. Например, класс **Microsoft.Office.Project.PWA.PSI** включает свойство **ProjectWebService**, которое позволяет получить прокси для пространства имен [WebSvcProject](https://msdn.microsoft.com/library/WebSvcProject.aspx). 
     
-  - **Microsoft.Office.Project.Server.WebServiceProxy** это пространство имен включает в себя внутренней прокси-классы для основного класса в каждой службы PSI. С помощью повышенным уровнем разрешений пользователя, рабочий процесс, рабочий процесс можно вызвать методы PSI через прокси-классы. Прокси-классы не документированы. 
+  - **Microsoft.Office.Project.Server.WebServiceProxy.** Это пространство имен включает внутренние прокси-классы для основного класса в каждой службе PSI. Используя повышенные права пользователя бизнес-процесса, бизнес-процесс может вызывать методы PSI с помощью прокси-классов. Прокси-классы не задокументированы. 
     
-- **Microsoft.Office.Project.Server.Events.Receivers.dll** [Microsoft.Office.Project.Server.Events](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.aspx) является единственным пространства имен в этой сборке. Содержит приемник событий и классов аргументов событий для службы PSI и другие внутренние классы. 
+- **Microsoft.Office.Project.Server.Events.Receivers.dll**[Microsoft.Office.Project.Server.Events](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.aspx) — единственное пространство имен в этой сборке. Включает приемник событий и классы аргументов событий для служб PSI и других внутренних классов. 
     
   Разработчики пишут обработчики событий, производные от классов приемника события. Большинство основных классов в службах PSI имеет соответствующий класс приемника события. Например, класс **ProjectEventReceiver** содержит методы приемника события до операции и события после операции, которые соответствуют методам в классе **Project** в PSI. Методы **OnCreating** и **OnCreated** являются методами приемника события до операции и события после операции для метода **QueueCreateProject**. 
     
-  Разработчики обычно используют следующие классы приемника события:
+  Разработчики обычно используют следующие классы приемников событий:
   <br/>  
-  - [AdminEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.AdminEventReceiver.aspx)
-  - [CalendarEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CalendarEventReceiver.aspx)
-  - [CubeAdminEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CubeAdminEventReceiver.aspx)
-  - [CustomFieldsEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CustomFieldsEventReceiver.aspx)
-  - [LookupTableEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.LookupTableEventReceiver.aspx)
-  - [ProjectEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ProjectEventReceiver.aspx)
-  - [OptimizerEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.OptimizerEventReceiver.aspx)
-  - [ReportingEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ReportingEventReceiver.aspx)
-  - [ResourceEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ResourceEventReceiver.aspx)
-  - [SecurityEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.SecurityEventReceiver.aspx)
-  - [StatusingEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.StatusingEventReceiver.aspx)
-  - [TimesheetEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.TimesheetEventReceiver.aspx)
-  - [UserDelegationEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.UserDelegationEventReceiver.aspx)
-  - [WorkflowEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.WorkflowEventReceiver.aspx)
-  - [WssInteropEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.WssInteropEventReceiver.aspx)
+  - [AdminEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.AdminEventReceiver.aspx);
+  - [CalendarEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CalendarEventReceiver.aspx);
+  - [CubeAdminEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CubeAdminEventReceiver.aspx);
+  - [CustomFieldsEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.CustomFieldsEventReceiver.aspx);
+  - [LookupTableEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.LookupTableEventReceiver.aspx);
+  - [ProjectEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ProjectEventReceiver.aspx);
+  - [OptimizerEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.OptimizerEventReceiver.aspx);
+  - [ReportingEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ReportingEventReceiver.aspx);
+  - [ResourceEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.ResourceEventReceiver.aspx);
+  - [SecurityEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.SecurityEventReceiver.aspx);
+  - [StatusingEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.StatusingEventReceiver.aspx);
+  - [TimesheetEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.TimesheetEventReceiver.aspx);
+  - [UserDelegationEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.UserDelegationEventReceiver.aspx);
+  - [WorkflowEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.WorkflowEventReceiver.aspx);
+  - [WssInteropEventReceiver](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Events.WssInteropEventReceiver.aspx).
     
-  Класс **RulesEventReceiver** и класс **StatusReportsEventReceiver** во внутренней сети используются в Project Web App. 
+  Классы **RulesEventReceiver** и **StatusReportsEventReceiver** используются в Project Web App для внутренних целей. 
     
-- **Microsoft.ProjectServer.Client.dll** эта сборка содержит CSOM для разработки с помощью .NET Framework 4. Сборка располагается в `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll`. Разработка приложений с использованием пространства имен **Microsoft.ProjectServer.Client** не зависит от интерфейсы API в локальной Project Server и служб, несмотря на то, что приложений может работать с либо локальный или online установленного сервера Project Server. Связанные CSOM сборки, которые можно использовать для Windows Phone 8, Microsoft Silverlight или JavaScript с веб-приложений в разделе [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
+- **Microsoft.ProjectServer.Client.dll.** Эта сборка содержит CSOM для разработки с помощью .NET Framework 4. Она расположена здесь: `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll`. Разработка приложений с помощью пространства имен **Microsoft.ProjectServer.Client** не зависит от локальных API и служб Project Server, хотя приложения могут работать как с локальной, так и с сетевой версией Project Server. Сведения о связанных сборках CSOM, которые можно использовать для Windows Phone 8, Microsoft Silverlight или JavaScript с веб-приложениями, см. в статье [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx). 
     
-- **Microsoft.Office.Project.Server.Schema.dll** пакет SDK для Project 2013 документировать пространства имен **Microsoft.Office.Project.Server.Schema** , который находится в `[Windows]\Microsoft.NET\assembly\GAC_MSIL\Microsoft.Office.Project.Schema\v4.0_15.0.0.0__71e9bce111e9429c\Microsoft.Office.Project.Schema.dll` сборки. Пространство имен содержит определения всех **наборов данных**, **DataTable**и **DataRow** классы, используемые в PSI (en), а также много похожие классы, которые использует Project Server во внутренней сети. Открытые классы в каждой службы PSI описаны в ссылке на отдельных служб. Например класс **DriverDataSet.DriverRow** описана в пространстве имен [WebSvcDriver](https://msdn.microsoft.com/library/WebSvcDriver.aspx) . 
+- **Microsoft.Office.Project.Server.Schema.dll.** В пакете SDK для Project 2013 не задокументировано пространство имен **Microsoft.Office.Project.Server.Schema**, которое входит в сборку `[Windows]\Microsoft.NET\assembly\GAC_MSIL\Microsoft.Office.Project.Schema\v4.0_15.0.0.0__71e9bce111e9429c\Microsoft.Office.Project.Schema.dll`. Это пространство имен содержит определения всех классов **DataSet**, **DataTable** и **DataRow**, используемых в PSI, а также ряд других похожих классов, которые используются в Project Server во внутренних целях. Общедоступные классы в каждой службе PSI задокументированы в справочниках по соответствующим службам. Например, класс **DriverDataSet.DriverRow** задокументирован в пространстве имен [WebSvcDriver](https://msdn.microsoft.com/library/WebSvcDriver.aspx). 
     
   > [!NOTE]
-  > Приложения, используйте CSOM, использование обработчиков событий удаленного или получить доступ к Project Online не используют пространство имен **Microsoft.Office.Project.Server.Schema** . 
+  > В приложениях, которые используют CSOM, применяют удаленные обработчики событий или получают доступ к Project Online, не используется пространство имен **Microsoft.Office.Project.Server.Schema**. 
   
   В некоторых приложениях, использующих обработчики событий с полным доверием, когда обработчики событий устанавливаются на компьютере Project Server, необходимо установить ссылку на сборку Microsoft.Office.Project.Schema.dll. Далее приводятся два примера.
     
@@ -193,121 +193,121 @@ PSI в Project Server 2013 имеет два интерфейса. Интерф�
         }
      ```
 
-  - Настраиваемому действию рабочего процесса может требоваться ссылка на **Microsoft.Office.Project.Server.Schema** для определений **DataSet**. 
+  - Настраиваемому действию бизнес-процесса может требоваться ссылка на пространство имен **Microsoft.Office.Project.Server.Schema** для определений **DataSet**. 
     
 ## <a name="psi-services"></a>Службы PSI
 <a name="pj15_PSIRefOverview_PSI"> </a>
 
-PSI представляют собой набор служб WCF и идентичные ASMX для веб-служб Project Server 2013. Чтобы использовать службу в проект Visual Studio, сначала задать ссылку на URL-адрес `.svc` файл или `.asmx?wsdl` service с помощью случайное имя для nameservice. Служебная программа wsdl.exe или служебной программы svcutil.exe создает исходный код прокси-сервера для этого пространства имен и компилятор создает сборки службы прокси-сервера для включения в приложении. 
+PSI — это набор служб WCF и идентичных веб-служб ASMX для Project Server 2013. Чтобы использовать службу в проекте Visual Studio, необходимо задать ссылку на URL-адрес файла с расширением `.svc` или службы `.asmx?wsdl`, используя произвольное имя для службы имен. Затем служебная программа wsdl.exe или svcutil.exe генерирует исходный код прокси-сервера для этого пространства имен, после чего компилятор создает сборку прокси-службы, которую необходимо включить в приложение. 
   
 > [!NOTE]
-> Справочник PSI содержит имена nameservice заполнитель для службы PSI, такие как _[веб-службы администрирования]_, _[драйвер веб-службы]_ и _[проекта веб-службы]_. Каждый nameservice PSI включает в себя основной класс, который содержит веб-методы для этой службы. К примеру если задания ссылки на службы **администрирования** и присвойте ему имя **WebSvcAdmin**, затем в приложении **WebSvcAdmin** nameservice включает в себя основного класса **Admin** , имеющей веб-методы **GetServerCurrency** **ListInstalledLanguages**, **ReadServerVersion**и т. д. Чтобы получить список не рекомендуемые для использования службы PSI в статье [обновления в Project 2013 для разработчиков](updates-for-developers-in-project-2013.md) . 
+> Справочник по PSI включает имена-заполнители службы имен для служб PSI, такие как _[Веб-служба администрирования]_, _[Веб-служба драйверов]_ и _[Веб-служба проектов]_. Каждая служба имен PSI содержит основной класс, в который входят веб-методы для этой службы. Например, если задать ссылку на службу **Admin** и присвоить ей имя **WebSvcAdmin**, в вашем приложении служба имен **WebSvcAdmin** будет включать основной класс **Admin** с веб-методами **GetServerCurrency**, **ListInstalledLanguages**, **ReadServerVersion** и т. д. Список нерекомендуемых служб PSI см. в статье [Обновления для разработчиков в Project 2013](updates-for-developers-in-project-2013.md). 
   
-30 общее служб PSI **проверки подлинности**, **ExchangeSync**, **OData**, **P12Upgrade**, **psiserviceapp**, **веб-клиента Project**, **представления**и **WinProj** предназначены для внутреннего использования с Project Web App и Project Профессиональный и являются не задокументирован. Несмотря на то, что можно создать файлы прокси-сервера или сборки прокси-сервера, который включает в себя внутренней службы PSI, внутренней службы не для использования сторонних производителей; Справочник по PSI документировать этих служб. На следующем рисунке показано расположение серверным службам PSI в диспетчере служб IIS. 
+Всего насчитывается 30 служб PSI. Службы **authentication**, **ExchangeSync**, **OData**, **P12Upgrade**, **psiserviceapp**, **PWA**, **View** и **WinProj** используются в Project Web App и Project профессиональный во внутренних целях и не задокументированы. Хотя вы можете создать прокси-файлы или сборку прокси-сервера, в которую входят внутренние службы PSI, они не предназначены для использования сторонними разработчиками. Эти службы не задокументированы в справочнике по PSI. На рисунке ниже показано расположение серверных служб PSI в диспетчере Internet Information Services. 
   
 **Поиск служб PSI в IIS**
 
-![Службы PSI в диспетчере служб IIS] (media/pj15_PSIReference_IIS.gif "Службы PSI в диспетчере служб IIS")
+![Службы PSI в диспетчере IIS](media/pj15_PSIReference_IIS.gif "Службы PSI в диспетчере IIS")
   
-Далее приводятся классы, которые содержат веб-методы, в службах PSI.
+Ниже перечислены все классы, содержащие веб-методы в службах PSI.
   
-1. [Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx) Содержит методы, используемые на страницах **Администрирования Project Server** в Project Web App. Определяет финансовый год, управляет параметрами отчеты о состоянии и денежных единиц, отчетов периодов, журнала аудита и параметров для Active Directory. 
+1. [Admin.](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx) Включает методы, которые используются на страницах **Администрирование Project Server** в Project Web App. Определяет финансовые года, управляет параметрами отчетов о состоянии и валют, определяет отчетные периоды, журнал аудита и настройки Active Directory. 
     
-2. [Архив](https://msdn.microsoft.com/library/WebSvcArchive.Archive.aspx) Включает в себя методы для управления резервного копирования и восстановления проектов, категории безопасности, настраиваемые поля, ресурсы, параметры системы, представления и глобального корпоративного проекта. Считывает и обновляет расписание архива. Архивы; все проекты или удаляет указанный архивных проектов. Сохраняет резервного копирования объектов таблицы архива базы данных и восстановление, резервное копирование объектов с таблицами базы данных опубликованных проектов. 
+2. [Archive.](https://msdn.microsoft.com/library/WebSvcArchive.Archive.aspx) Включает методы для управления резервным копированием и восстановлением проектов, категориями безопасности, настраиваемыми полями, ресурсами, системными параметрами, представлениями и глобальными корпоративными проектами. Считывает и обновляет расписание архивирования. Сохраняет все проекты в архиве или удаляет указанные архивированные проекты. Сохраняет объекты резервных копий в архивных таблицах баз данных и восстанавливает резервные копии объектов в опубликованных таблицах баз данных. 
     
-3. **Проверка подлинности** Содержит методы для внутреннего использования только с Project профессиональный и Project Web App. 
+3. **authentication.** Включает методы, которые используются в Project профессиональный и Project Web App исключительно во внутренних целях. 
     
-4. [Календарь](https://msdn.microsoft.com/library/WebSvcCalendar.Calendar.aspx) Управляет исключения корпоративных календарей. Извлекает и проверка в календарей ресурсов. Создает, удаляет список всех, обновляет или возвращает исключения календарей. 
+4. [Calendar.](https://msdn.microsoft.com/library/WebSvcCalendar.Calendar.aspx) Управляет исключениями в корпоративном календаре. Извлекает и возвращает ресурсы календаря. Используется для перечисления всех исключений календаря, а также их создания, удаления, обновления и возврата. 
     
-5. [Cubeadmin задание таймера](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx) Управляет параметрами куба OLAP. Получает сервера анализа данных, состояние базы данных и список кубов. Помещает запрос службы построения куба в очередь. Считывает и обновляет определения вычисляемых элементов и параметры поля для измерений и мер в кубе. 
+5. [CubeAdmin.](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx) Управляет параметрами куба OLAP. Получает сведения о состоянии сервера анализа данных и базы данных, а также список кубов. Переводит запрос службы построения куба в очередь. Используется для считывания и обновления определений вычисляемых элементов и параметров полей для измерений в кубе. 
     
-6. [Настраиваемых полей](https://msdn.microsoft.com/library/WebSvcCustomFields.CustomFields.aspx) Управляет корпоративных настраиваемых полей. Включает в себя извлечение и возврат методы и создания, чтения, обновления и методы удаления (CRUD) для корпоративных настраиваемых полей. 
+6. [CustomFields.](https://msdn.microsoft.com/library/WebSvcCustomFields.CustomFields.aspx) Управляет корпоративными настраиваемыми полями. Включает методы извлечения и возврата, а также методы создания, чтения, обновления и удаления (CRUD) для корпоративных настраиваемых полей. 
     
-7. [Драйвер](https://msdn.microsoft.com/library/WebSvcDriver.Driver.aspx) Управление драйверами анализа портфеля и определения приоритетов факторов для создания проекта и управления запросами. Включает в себя методы CRUD для рамки начала проекта. 
+7. [Driver.](https://msdn.microsoft.com/library/WebSvcDriver.Driver.aspx) Управляет целями анализа портфеля, а также определением приоритетов целей для создания проектов и управления запросами. Содержит методы CRUD для целей проекта. 
     
-8. [События](https://msdn.microsoft.com/library/WebSvcEvents.Events.aspx) Управляет связей обработчика событий Project Server. Включает в себя методы CRUD для связи обработчика событий Project Server для определенных событий или для всех сопоставлений обработчика событий. 
+8. [Events.](https://msdn.microsoft.com/library/WebSvcEvents.Events.aspx) Управляет связями с обработчиками событий. Содержит методы CRUD для связей обработчиков событий Project Server для конкретного события или для всех связей обработчиков событий. 
     
-9. **ExchangeSync** Это внутренняя служба Project Server, который обрабатывает события Exchange Server. Project Web App для синхронизации назначений между Project Server и Exchange Server, вместо синхронизации непосредственно с клиентом Outlook, как и в Office Project Server 2007 используется **ExchangeSync** . 
+9. **ExchangeSync.** Это внутренняя служба Project Server, которая управляет событиями Exchange Server. **ExchangeSync** используется в Project Web App для синхронизации назначений между Project Server и Exchange Server вместо непосредственной синхронизации с клиентом Outlook, как в Office Project Server 2007. 
     
     Доступ к службе **ExchangeSync** возможен только с помощью URL-адреса **ProjectServiceApplication**. Классы и элементы **ExchangeSync** для сторонней разработки не поддерживаются. 
     
-10. [LoginForms](https://msdn.microsoft.com/library/WebSvcLoginForms.LoginForms.aspx) Предоставляет методы **для входа** и **выхода из системы** с проверкой подлинности на основе форм. Доступ к службе **LoginForms** доступен только на клиентский сайт Project Web App. 
+10. [LoginForms.](https://msdn.microsoft.com/library/WebSvcLoginForms.LoginForms.aspx) Предоставляет методы **Login** и **Logoff** с проверкой подлинности на основе форм. Доступ к службе **LoginForms** предоставляется только с сайта Project Web App переднего плана. 
     
-11. [LoginWindows](https://msdn.microsoft.com/library/WebSvcLoginWindows.LoginWindows.aspx) Предоставляет методы **для входа** и **выхода из системы** , для которых будет использоваться проверка подлинности Windows на основе ASMX с приложениями с целью проверки подлинности на нескольких (утверждений и на основе форм) установок Project Server 2013. Доступ к службе **LoginWindows** доступен только на клиентский сайт Project Web App. 
+11. [LoginWindows.](https://msdn.microsoft.com/library/WebSvcLoginWindows.LoginWindows.aspx) Обеспечивает методы **Login** и **Logoff**, которые позволяют выполнять проверку подлинности Windows в приложениях на основе ASMX для установленных версий Project Server 2013 с использованием нескольких способов (на основе утверждений и форм). Доступ к службе **LoginWindows** предоставляется только с сайта Project Web App переднего плана. 
     
     > [!CAUTION]
     > Служба **LoginWindows** не используется в приложениях на основе WCF и для приложений, работающих в установках Project Server, применяющих только проверку подлинности на основе утверждений или **OAuth**; в этих случаях метод **Login** всегда возвращает **false**. Проверка подлинности на основе утверждений обрабатывает интегрированную проверку подлинности Windows. 
   
-12. [LookupTable](https://msdn.microsoft.com/library/WebSvcLookupTable.LookupTable.aspx) Управляет таблицы подстановки, многоязычных таблиц подстановки и их соответствующих маски кода. Извлекает, проверка в, считывает, создает, удаляет и обновления. 
+12. [LookupTable.](https://msdn.microsoft.com/library/WebSvcLookupTable.LookupTable.aspx) Управляет таблицами подстановки (в том числе многоязыковыми) и соответствующими масками кодов. Извлекает, возвращает, считывает, создает, удаляет и обновляет эти таблицы. 
     
-13. [Уведомления](https://msdn.microsoft.com/library/WebSvcNotifications.Notifications.aspx) Управление оповещениями и напоминаниями. Содержит методы, получение, установка, регистрации и отмены регистрации результатов оповещения. 
+13. [Notifications.](https://msdn.microsoft.com/library/WebSvcNotifications.Notifications.aspx) Управляет оповещениями и напоминаниями. Включает методы для получения, установки, регистрации и отмены регистрации результатов оповещений. 
     
-14. [ObjectLinkProvider](https://msdn.microsoft.com/library/WebSvcObjectLinkProvider.ObjectLinkProvider.aspx) Управление веб-объекты и ссылки для документов и элементов списка на сайтах SharePoint. Создает, удаляет или считывает проекта, связанный с проектом, задаче или связанных задач веб-объекты. 
+14. [ObjectLinkProvider.](https://msdn.microsoft.com/library/WebSvcObjectLinkProvider.ObjectLinkProvider.aspx) Управляет веб-объектами и ссылками для документов и элементов списков на сайтах SharePoint. Создает, удаляет или считывает проекты, задачи, а также связанные с проектами и задачами веб-объекты. 
     
     > [!NOTE]
-    > Служба **ObjectLinkProvider** поддерживается в Project Server 2013. Для получения дополнительных сведений обратитесь к разделу *устарел функции* в [обновляется в Project 2013 для разработчиков](updates-for-developers-in-project-2013.md). 
+    > Службу **ObjectLinkProvider** не рекомендуется использовать в Project Server 2013. Дополнительные сведения см. в разделе *Нерекомендуемые компоненты* статьи [Обновления для разработчиков в Project 2013](updates-for-developers-in-project-2013.md). 
   
-15. **OData** Предоставляет внутренний интерфейс **OData** для работы с отчетами таблицы и представления. Доступ к службе **OData** доступен только в серверной **ProjectServiceApplication** URL-адрес. Закрытый службы **OData** в PSI предоставляет один метод **ODataClient.ProcessOdataMessage**, который Project Server использует для обработки запросов для работы с отчетами данных. HTTP-запросы, выполните в интерфейсной службе **ProjectData** . 
+15. **OData.** Предоставляет внутренний интерфейс **OData** для таблиц и представлений отчетов. Доступ к службе **OData** предоставляется только через URL-адрес серверной части **ProjectServiceApplication**. В частной службе **OData** в PSI предусмотрен один метод (**ODataClient.ProcessOdataMessage**), который используется в Project Server во внутренних целях для обработки запросов, связанных с данными отчетов. HTTP-запросы направляются через интерфейсную службу **ProjectData**. 
     
-    Сведения о службе **ProjectData** и протокола OData для чтения данных отчетов можно [ProjectData — Справочник по службе Project OData](https://msdn.microsoft.com/library/office/jj163015.aspx).
+    Сведения о службе **ProjectData** и протоколе OData для считывания данных отчетов см. в статье [ProjectData — справочник по службе OData](https://msdn.microsoft.com/library/office/jj163015.aspx).
     
-16. **P12Upgrade** Внутренний методы для установки Project Server 2013 обновление установки Office Project Server 2007. Доступ к службе **P12Upgrade** доступен только с помощью **ProjectServiceApplication** URL-адрес. Методы **P12Upgrade** не поддерживается для разработки приложений сторонних производителей. 
+16. **P12Upgrade.** Обеспечивает внутренние методы, используемые установщиком Project Server 2013 для обновления установленной версии Office Project Server 2007. Доступ к службе **P12Upgrade** предоставляется только через URL-адрес **ProjectServiceApplication**. Методы **P12Upgrade** не поддерживаются для сторонней разработки. 
     
-17. [PortfolioAnalyses](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.aspx) Содержит методы CRUD для зависимости проекта, а также для оптимизатора, планировщик работы и анализа решений. 
+17. [PortfolioAnalyses.](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PortfolioAnalyses.aspx) Содержит методы CRUD для зависимостей проекта, а также для решений по оптимизатору, Планировщику и анализу. 
     
-18. [Проекта](https://msdn.microsoft.com/library/WebSvcProject.Project.aspx) Управление проектами. Извлекает, проверка в, создает, удаление, считывает или обновления проектов в таблицах базы данных черновиков Project или опубликованных таблиц. Помещение сообщения в очереди для публикации. 
+18. [Project.](https://msdn.microsoft.com/library/WebSvcProject.Project.aspx) Управляет проектами. Извлекает, возвращает, создает, удаляет, считывает или обновляет проекты в черновых или опубликованных таблицах в базах данных Project. Переводит сообщение в очередь на публикацию. 
     
-    Создание или удаление сущности в рамках проектов (задачи, ресурсы, назначения и т. д.). Получает сведения о или обновляет рабочей группы или адрес сайта проекта. Получает состояние проекта, список проектов в таблицах черновиков, все суммарные задачи, задачи, доступные для назначения для указанного ресурса или все проекты которых имеет назначения ресурса.
+    Создает или удаляет сущности в проектах (задачи, ресурсы, назначения и т. д.). Извлекает сведения или обновляет группу проекта или адрес сайта проекта. Извлекает состояние проекта, список проектов в черновых таблицах, все суммарные задачи, задачи, которые можно назначить указанному ресурсу, или все проекты, в которых ресурс имеет назначения.
     
-    Создает обязательства и управляет ими, создает проектные инициативы и проекты из списков задач SharePoint, а также обнаруживает отношения "проект-главный проект".
+    Создает обязательства и управляет ими, создает предложения по проекту и проекты из списков задач SharePoint, а также находит отношения между проектами и главными проектами.
     
-19. **psiserviceapp** Используется системой Project Online. **Psiserviceapp** классы и члены для разработки сторонних производителей не поддерживаются. 
+19. **psiserviceapp.** Используется в Project Online во внутренних целях. Классы и элементы **psiserviceapp** не поддерживаются для сторонней разработки. 
     
-20. **Веб-клиента Project** Содержит множество методов, оптимизированных для Project Web App, включая методы для правила утверждения обновления задач и управление отчетами о состоянии. Методы **веб-клиента Project** часто специализированные и несколько избыточных по сравнению с эквивалентный методы в другие службы PSI. Методы **веб-клиента Project** использовать или возврата многие из одной наборов данных, как и другие методы PSI. 
+20. **PWA.** Содержит ряд методов, оптимизированных для Project Web App, в том числе методы для правил утверждения обновления задач и для управления отчетами о состоянии. Методы **PWA** часто являются специализированными и в некоторой мере избыточными по сравнению с эквивалентными методами в других службах PSI. Методы **PWA** часто используют или возвращают те же наборы данных, что и другие методы PSI. 
     
-    Доступ к службе **PWA** возможен только с помощью URL-адреса **ProjectServiceApplication**. Классы и элементы **PWA** для сторонней разработки не поддерживаются. 
+    Доступ к службе **PWA** возможен только с помощью URL-адреса **ProjectServiceApplication**. Классы и элементы **PWA** не поддерживаются для сторонней разработки. 
     
-21. [QueueSystem](https://msdn.microsoft.com/library/WebSvcQueueSystem.QueueSystem.aspx) Управляет очередей Project Server. Возвращает число заданий, задания и время ожидания задания группы, состояние заданий, указанного задания, владельцем задания или заданий для указанных проектов. Управляет корреляции заданий и настраивает очереди. 
+21. [QueueSystem.](https://msdn.microsoft.com/library/WebSvcQueueSystem.QueueSystem.aspx) Управляет очередью Project Server. Извлекает счетчик заданий, время ожидания задания или группы заданий, состояние всех заданий, указанные задания, задания, принадлежащие вызывающему объекту, или задания для указанных проектов. Управляет корреляцией заданий и настраивает очередь. 
     
-22. [Ресурс](https://msdn.microsoft.com/library/WebSvcResource.Resource.aspx) Управляет корпоративных ресурсов. Извлекает, проверка в, обновляет или создает ресурсы и пользователи Project Server и их параметров проверки подлинности; Поиск ресурсов по имени или GUID; Считывает ресурсов или пользовательских данных и структуры декомпозиции ресурсов (СДРЕС) и сведения о безопасности; Получает все назначения ресурса; и сброс паролей пользователей. Класс **ресурсов** включает в себя методы CRUD для делегирования пользователей. 
+22. [Resource.](https://msdn.microsoft.com/library/WebSvcResource.Resource.aspx) Управляет корпоративными ресурсами. Извлекает, возвращает, обновляет или создает ресурсы либо пользователей Project Server и их параметры авторизации. Обнаруживает ресурсы по имени или GUID. Считывает данные ресурса или пользователя, а также структурную декомпозицию ресурсов (СДРес) и соответствующие сведения о безопасности. Извлекает все назначения для ресурса и сбрасывает пароли пользователей. Класс **Resource** содержит методы CRUD для делегирования пользователей. 
     
-23. [ResourcePlan](https://msdn.microsoft.com/library/WebSvcResourcePlan.ResourcePlan.aspx) Управляет планов ресурсов. Извлекает проверок в, публикацию и включает в себя методы CRUD для планов ресурсов. 
+23. [ResourcePlan.](https://msdn.microsoft.com/library/WebSvcResourcePlan.ResourcePlan.aspx) Управляет планами ресурсов. Извлекает, возвращает, публикует и включает методы CRUD для планов ресурсов. 
     
-24. [Безопасность](https://msdn.microsoft.com/library/WebSvcSecurity.Security.aspx) Включает в себя методы CRUD для шаблонов безопасности, категории безопасности, организации и глобальных разрешений и разрешений группы. Класс **безопасности** включает в себя методы для категорий проекта. 
+24. [Security.](https://msdn.microsoft.com/library/WebSvcSecurity.Security.aspx) Содержит методы CRUD для шаблонов безопасности, категорий безопасности, организационных и глобальных разрешений, а также групповых разрешений. Класс **Security** включает методы для категорий проекта. 
     
-25. [Отчеты о состоянии](https://msdn.microsoft.com/library/WebSvcStatusing.Statusing.aspx) Управление обновлениями состояния и назначений. Применяет обновления состояния и утверждения, отправляет данные состояния обновляется, сводные данные для добавленных обновлений, удаляет обновления утвержденных состояния или истории утверждения для указанного пользователя или удаляет все сведения о состоянии для набора проектов. Создает и получает делегирует назначения; Задает продолжительность работы назначения. Получает нового назначения для текущего пользователя; Получает История транзакций для назначения или задачи, повременные фактические данные или иерархии суммарных задач. 
+25. [Statusing.](https://msdn.microsoft.com/library/WebSvcStatusing.Statusing.aspx) Управляет обновлениями состояния и назначениями. Применяет обновления состояния или утверждения, отправляет обновления состояния, устанавливает сводные сведения для отправленных обновлений, удаляет утвержденные обновления состояния или историю утверждений для конкретного пользователя, а также удаляет все сведения о состоянии для набора проектов. Создает, извлекает или делегирует назначения, а также устанавливает длительность работ назначения. Извлекает новые назначения для текущего пользователя. Извлекает журнал назначений или транзакций задач, повременные фактические данные или иерархию суммарных задач. 
     
     Выполняет предварительный просмотр или импорт данных расписания или читает рабочее и нерабочее время пользователя. Находит ожидающие обновления состояния, сведения для отправленных обновлений или запись транзакции изменений в отправленном обновлении. Читает состояние группы.
     
-26. [Табеля учета рабочего времени](https://msdn.microsoft.com/library/WebSvcTimeSheet.TimeSheet.aspx) Управление расписаниями. Содержит методы CRUD для расписания и отправляет данные или отзыва расписаний. Находит расписания, которые позднее или ожидает утверждения; Находит расписаний, даты или периода времени. Получает список утверждающих табеля учета рабочего времени. Предварительно загружает фактические данные расписаний и проверяет строки расписания. **Класс** включает в себя метод **ReadProjectTimesheetLines** и метод **SubmitTimesheetLines** для чтения и отправка расписаний для другого ресурса без необходимости установки олицетворения. 
+26. [TimeSheet.](https://msdn.microsoft.com/library/WebSvcTimeSheet.TimeSheet.aspx) Управляет расписаниями. Включает методы CRUD для расписаний и отправляет или повторно вызывает расписания. Находит расписания, которые просрочены или ожидают утверждения. Выполняет поиск расписаний по дате или периоду. Получает список утверждающих расписания. Предварительно загружает фактические данные расписаний и проверяет строки расписаний. Класс **TimeSheet** включает методы **ReadProjectTimesheetLines** и **SubmitTimesheetLines** для считывания и отправки расписаний для другого ресурса без необходимости в олицетворении. 
     
-27. **Просмотр** Служба **представления** предназначена только для использования в Project Web App. Методы в классе **представления** Управление представлениями и просмотр отчетов и прочитайте полей в представлениях. 
+27. **View.** Служба **View** разработана для использования только в Project Web App. Методы в классе **View** управляют представлениями, просматривают отчеты и считывают поля в представлениях. 
     
     Доступ к службе **View** возможен только с помощью URL-адреса **ProjectServiceApplication**. Методы **View** не поддерживаются для сторонней разработки. 
     
-28. **WinProj** Служба **WinProj** предназначена для использования только с Project профессиональный. Сторонние разработчики не следует использовать методы **WinProj** по программированию с помощью Project Server. 
+28. **WinProj.** Служба **WinProj** предназначена для использования только в Project профессиональный. Сторонние разработчики не должны использовать методы **WinProj** для программирования в Project Server. 
     
     Некоторые методы **WinProj** используют наборы данных, например **ProjectRelationsDataSet** и **ResourceDataSet**, которые также используются службами **Project** и **Resource**, но в Project Professional для них требуются особые свойства и функции. 
     
-    Доступ к службе **WinProj** возможен только с помощью URL-адреса **ProjectServiceApplication**. Методы **WinProj** для сторонней разработки не поддерживаются. 
+    Доступ к службе **WinProj** возможен только с помощью URL-адреса **ProjectServiceApplication**. Методы **WinProj** не поддерживаются для сторонней разработки. 
     
-29. [Рабочий процесс](https://msdn.microsoft.com/library/WebSvcWorkflow.Workflow.aspx) Включает в себя методы CRUD типы корпоративных проектов и управление этапы рабочего процесса и этапов. Запускает рабочие процессы, задает сведения о состоянии и управляет этапов страницы (PDP) сведений о project в рабочих процессах управления запросами. Для разработки рабочих процессов Project Server, можно использовать SharePoint Designer 2013 для декларативных рабочих процессов или использовать инструменты разработчика Office для Visual Studio 2012 для разработки с помощью .NET Framework 4 и [для разработчиков (en) Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) класса в CSOM. 
+29. [Workflow.](https://msdn.microsoft.com/library/WebSvcWorkflow.Workflow.aspx) Включает методы CRUD для типов корпоративных проектов, а также управления этапами и стадиями бизнес-процессов. Запускает бизнес-процессы, задает сведения о состоянии и управляет стадиями создания страницы сведений о проекте (PDP) в бизнес-процессах управления запросами. При разработке бизнес-процессов Project Server разработчики могут использовать SharePoint Designer 2013 для декларативных бизнес-процессов или использовать "Инструменты разработчика Office для Visual Studio 2012" для разработки с помощью .NET Framework 4 и класса [Microsoft.ProjectServer.Client.WorkflowActivities](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.WorkflowActivities.aspx) в CSOM. 
     
-30. [WssInterop](https://msdn.microsoft.com/library/WebSvcWssInterop.WssInterop.aspx) Управление сайтами проектов. Создает и удалению сайтов проектов. Получает сведения о и обновляет параметры SharePoint и сайты администрирования. Синхронизирует и обновляет членство на сайте проекта и групп. 
+30. [WssInterop.](https://msdn.microsoft.com/library/WebSvcWssInterop.WssInterop.aspx) Управляет сайтами проектов. Создает и удаляет сайты проектов. Получает сведения, а также обновляет параметры и сайты администрирования SharePoint. Синхронизирует и обновляет данные членства и группы для сайтов проектов. 
     
-Каждое пространство имен службы включает все **набора данных** схемы и класс обработчика событий, которые использует службу. Например `Calendar.svc` (или `Calendar.asmx?wsdl` для ASMX веб-службы) описание службы **календаря** . Если имя ссылки **WebSvcCalendar**пространство имен прокси-сервера содержит основной класс с методами **CheckInCalendars** **календаря** , **CheckOutCalendars**и т. д. Пространство имен прокси-сервера **WebSvcCalendar** также включает класс **CalendarDataSet** и всех его подклассов. 
+Пространство имен каждой службы включает все классы схемы **DataSet** и обработчик событий, используемые службой. Например, `Calendar.svc` (или `Calendar.asmx?wsdl` для веб-службы ASMX) описывает службу **Calendar**. Если вы присвоите ссылке имя **WebSvcCalendar**, пространство имен прокси-сервера будет содержать основной класс **Calendar** с методами **CheckInCalendars**, **CheckOutCalendars** и т. д. Пространство имен прокси-сервера **WebSvcCalendar** также включает класс **CalendarDataSet** со всеми его подклассами. 
   
 Некоторые из служб PSI содержат дублирующиеся классы **DataSet**. Например, обе службы **Project** и **Statusing** содержат класс **ProjectDataSet**. Это объясняется тем, что методы в обеих службах **Project** и **Statusing** включают ссылки на **ProjectDataSet**, и сборки прокси, созданные при установке ссылок и компиляции приложения, включают соответствующие наборы данных. Службам **Project** и **Statusing** могут требоваться значения для разных полей в классе **ProjectDataSet.ProjectRow**. 
   
 При переходе по пространствам имен и классам в справке PSI, например, для просмотра веб-методов для службы **Project**, разверните пространство имен **[Веб-служба Project]** в списке **Содержимое**, а затем разверните класс **Project**. 
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные ресурсы
 
-- [Project Server 2013 architecture](project-server-2013-architecture.md)
+- [Архитектура Project Server 2013](project-server-2013-architecture.md)
 - [Возможности программирования для Project Server](project-server-programmability.md)   
 - [Какие задачи PSI выполняет, а какие — нет](what-the-psi-does-and-does-not-do.md)   
-- [Предварительные требования для основанных на ASMX примеров кода в Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
-- [Необходимые условия для примеров кода на основе WCF в Project](prerequisites-for-wcf-based-code-samples-in-project.md)   
-- [Веб-сайт центра разработчиков .NET Framework](https://msdn.microsoft.com/netframework/aa496123.aspx)
+- [Предварительные требования для примеров кода на основе ASMX в Project](prerequisites-for-asmx-based-code-samples-in-project.md)   
+- [Предварительные требования для примеров кода на основе WCF в Project](prerequisites-for-wcf-based-code-samples-in-project.md)   
+- [Центр разработчика .NET Framework](https://msdn.microsoft.com/netframework/aa496123.aspx)
     
 

@@ -5,44 +5,44 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- Справочник по функциям API [excel 2007], [Excel 2007] функции, ссылки [Excel 2007, Excel 2007 XLL пакет средств разработки, ссылка
-localization_priority: Normal
+- Справочник по функциям API [Excel 2007], функции [Excel 2007], справочник [Excel 2007], пакет средств разработки XLL для Excel 2007, справочник
 api_type:
 - COM
 ms.assetid: 2f6df879-7546-4ac0-a4e3-6b009aee9463
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 2bb0a57ebcae618c8e921135b2bd4c50e8adf751
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
+localization_priority: Priority
+ms.openlocfilehash: e116021a3dc24de7decbe0dad76cc762cd66d032
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807251"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715958"
 ---
 # <a name="excel-xll-sdk-api-function-reference"></a>Справочник по функциям API SDK XLL для Excel
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Пакет SDK Microsoft Excel 2013 XLL содержит исходные файлы для библиотеки Framework, предназначенный для ускорения записи XLL-модулей и два примера проекта, пример и универсальный. 
+Пакет SDK XLL для Microsoft Excel 2013 содержит исходные файлы для библиотеки платформы, предназначенной для ускорения записи библиотек XLL, а также два примера проектов (Example и Generic). 
   
-В этом разделе представлены ссылки на функцию для следующих:
+В этом разделе приведены справочные сведения по следующим функциям:
   
-- Обратные вызовы для Excel, которые могут вызывать XLL.
+- обратные вызовы Excel, доступные для XLL;
     
-- XLL обратных вызовов, которые ищет Microsoft Excel.
+- обратные вызовы XLL, поиск которых выполняется в Microsoft Excel;
     
-- Ключевые функции в проектах образец и framework.
+- ключевые функции в примерах проектов и платформ.
     
 ## <a name="sample-projects"></a>Примеры проектов
 
-Пакет SDK Excel XLL 2013 предоставляет исходные файлы и файлы проекта Microsoft Visual Studio для следующие примеры проектов:
+Пакет SDK XLL для Excel 2013 содержит исходные файлы и файлы проектов Microsoft Visual Studio для следующих примеров проектов:
   
-- Проект **Framework** (`SAMPLES\FRAMEWRK\`) содержит проекта, который можно создать в библиотеке FRAMEWRK.lib, который затем могут быть связаны в другие проекты XLL. Библиотека содержит множество функций и средств, которые делают создание XLL-модулей для удобства. Эта библиотека используется в обоих других проектов в сочетании с файл заголовка FRAMEWRK.h.
+- Проект **Framework** (`SAMPLES\FRAMEWRK\`) содержит проект, который можно встроить в библиотеку FRAMEWRK.lib для последующего связывания с другими проектами XLL. Эта библиотека включает множество функций и инструментов, которые упрощают написание библиотек XLL. Данная библиотека используется в каждом из других проектов в сочетании с файлом заголовка FRAMEWRK.h.
     
-- **Пример** проекта (`SAMPLES\EXAMPLE\`) содержит проекта, который можно создать в надстройке XLL EXAMPLE.xll. Многие примеры использования библиотеки Framework и примеры реализации функции интерфейса надстройки XLL, такие как **xlAutoOpen**XLL.
+- Проект **Example** (`SAMPLES\EXAMPLE\`) содержит проект EXAMPLE.xll, который можно встроить в библиотеку XLL. Библиотека XLL включает ряд примеров использования библиотеки платформы, а также пример реализации функций интерфейса надстройки XLL, таких как **xlAutoOpen**.
     
-- **Универсальный** проекта (`SAMPLES\GENERIC\`) содержит проекта, который можно создать в надстройке XLL GENERIC.xll. XLL демонстрирует несколько пример функции и команды и является хорошей отправной точкой для написания собственного XLL-модулей.
+- Проект **Generic** (`SAMPLES\GENERIC\`) содержит проект GENERIC.xll, который можно встроить в библиотеку XLL. Эта библиотека XLL демонстрирует несколько примеров функций и команд. Ее можно использовать в качестве отправной точки при написании собственных библиотек XLL.
     
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе
 
 - [Функции диспетчера надстроек и интерфейса XLL](add-in-manager-and-xll-interface-functions.md)
   
@@ -54,13 +54,13 @@ ms.locfileid: "19807251"
   
 - [Функции в библиотеке платформы](functions-in-the-framework-library.md)
   
-- [Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
+- [Функции в универсальной библиотеке DLL](functions-in-the-generic-dll.md)
   
 - [Функции для работы с соединителями кластеров Excel](excel-cluster-connector-functions.md)
   
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>Дополнительные ресурсы
 
 - [Программирование с использованием API C в Excel](programming-with-the-c-api-in-excel.md)
   
-- [���������� XLL-������� ��� Excel 2013](developing-excel-xlls.md)
+- [Разработка библиотек XLL для Excel](developing-excel-xlls.md)
 
