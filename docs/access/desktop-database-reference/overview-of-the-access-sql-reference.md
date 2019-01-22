@@ -1,21 +1,22 @@
 ---
-title: Обзор справочника по Access SQL
+title: Обзор справочных материалов по Access SQL
 TOCTitle: Overview of the Access SQL reference
 ms:assetid: cbe45ec3-0f13-43cb-b18a-90481d89078f
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161402(v=office.15)
 ms:contentKeyID: 52074368
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 681578bcf10b64d9d93f77ab024404edcef1839d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 2046041b6994500800315278368abd036c0b277c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943712"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717064"
 ---
-# <a name="overview-of-the-access-sql-reference"></a>Обзор справочника по Access SQL
+# <a name="overview-of-the-access-sql-reference"></a>Обзор справочных материалов по Access SQL
 
-**Применимо к**: Access 2013, Office 2013
+**Относится к**: Access 2013, Office 2013
 
 - [Сравнение Microsoft Access SQL и ANSI SQL](comparison-of-microsoft-access-sql-and-ansi-sql.md)
 - [Эквивалентные типы данных ANSI SQL](equivalent-ansi-sql-data-types.md)
