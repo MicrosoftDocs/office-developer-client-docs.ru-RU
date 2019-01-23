@@ -6,31 +6,32 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836011(v=office.15)
 ms:contentKeyID: 48548404
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5eaa2153e2c420fb91518a47509abec8059d87a0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: f7cbd94bfacc91bfe080d33807ca7989c1dca661
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922848"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717456"
 ---
-# <a name="recordsetclose-method-dao"></a><span data-ttu-id="d1fdc-102">Метод Recordset.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1fdc-102">Recordset.Close method (DAO)</span></span>
+# <a name="recordsetclose-method-dao"></a><span data-ttu-id="a26a1-102">Метод Recordset.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="a26a1-102">Recordset.Close Method (DAO)</span></span>
 
 
-<span data-ttu-id="d1fdc-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1fdc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a26a1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a26a1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d1fdc-104">Закрытие открытых **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="d1fdc-104">Closes an open **Recordset**.</span></span>
+<span data-ttu-id="a26a1-104">Закрывает открытый объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="a26a1-104">Closes an open **Recordset**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d1fdc-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d1fdc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a26a1-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a26a1-105">Syntax</span></span>
 
-<span data-ttu-id="d1fdc-106">*выражение* . Закрыть</span><span class="sxs-lookup"><span data-stu-id="d1fdc-106">*expression* .Close</span></span>
+<span data-ttu-id="a26a1-106">*выражение*.Close</span><span class="sxs-lookup"><span data-stu-id="a26a1-106">*expression* .Close</span></span>
 
-<span data-ttu-id="d1fdc-107">*выражение* Переменная, которая представляет собой объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="d1fdc-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="a26a1-107">*выражение* Переменная, которая представляет объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="a26a1-107">*expression* A variable that represents a **FileDialog** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d1fdc-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="d1fdc-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a26a1-108">Комментарии</span><span class="sxs-lookup"><span data-stu-id="a26a1-108">Remarks</span></span>
 
-<span data-ttu-id="d1fdc-109">Если при использовании **Close**объекта **набора записей** закрыт, возникает ошибка времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="d1fdc-109">If the **Recordset** object is already closed when you use **Close**, a run-time error occurs.</span></span>
+<span data-ttu-id="a26a1-109">Если на момент использования метода **Close** объект **Recordset** уже закрыт, возникнет ошибка во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="a26a1-109">If the **Recordset** object is already closed when you use **Close**, a run-time error occurs.</span></span>
 
-<span data-ttu-id="d1fdc-110">При попытке закрыть объект **подключения** имеет все открытые объекты **набора записей** объекты **набора записей** будут закрыты, а все ожидающие обновления или изменения будут отменены.</span><span class="sxs-lookup"><span data-stu-id="d1fdc-110">If you try to close a **Connection** object while it has any open **Recordset** objects, the **Recordset** objects will be closed and any pending updates or edits will be canceled.</span></span> <span data-ttu-id="d1fdc-111">Аналогично при попытке закрыть объект **рабочей области** , имеет все открытые объекты **подключения** , эти объекты **подключения** будут закрыты, которой закрывается их объекты **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="d1fdc-111">Similarly, if you try to close a **Workspace** object while it has any open **Connection** objects, those **Connection** objects will be closed, which will close their **Recordset** objects.</span></span>
+<span data-ttu-id="a26a1-110">Если вы попытаетесь закрыть объект **Connection**, у которого имеются какие-либо открытые объекты **Recordset**, объекты **Recordset** будут закрыты, и все ожидающие операции обновления или изменения будут отменены.</span><span class="sxs-lookup"><span data-stu-id="a26a1-110">If you try to close a **Connection** object while it has any open **Recordset** objects, the **Recordset** objects will be closed and any pending updates or edits will be canceled.</span></span> <span data-ttu-id="a26a1-111">Аналогично, если вы попытаетесь закрыть объект **Workspace**, у которого имеются какие-либо открытые объекты **Connection**, эти объекты **Connection** будут закрыты, что приведет к закрытию их объектов **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="a26a1-111">Similarly, if you try to close a **Workspace** object while it has any open **Connection** objects, those **Connection** objects will be closed, which will close their **Recordset** objects.</span></span>
 
-<span data-ttu-id="d1fdc-112">Альтернативой метод **Close** — это значение переменной объекта значение **Nothing** (задать dbsTemp = ничего).</span><span class="sxs-lookup"><span data-stu-id="d1fdc-112">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
+<span data-ttu-id="a26a1-112">Альтернатива методу **Close** заключается в присвоении объектной переменной значения **Nothing** (Set dbsTemp = Nothing).</span><span class="sxs-lookup"><span data-stu-id="a26a1-112">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
 
