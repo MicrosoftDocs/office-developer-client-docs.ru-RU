@@ -1,32 +1,33 @@
 ---
-title: Удалите оператор (Microsoft Access SQL)
+title: Инструкция DROP (Microsoft Access SQL)
 TOCTitle: DROP statement (Microsoft Access SQL)
 ms:assetid: a8c79c35-22da-2e6d-88b5-620eb481bb61
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821409(v=office.15)
 ms:contentKeyID: 48546907
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f08da4f5a5b8dd0bd2604598cf72ab15d994c529
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: f31067c96c19804352ca74957e064f9338b49260
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880945"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718296"
 ---
-# <a name="drop-statement-microsoft-access-sql"></a>Удалите оператор (Microsoft Access SQL)
+# <a name="drop-statement-microsoft-access-sql"></a>Инструкция DROP (Microsoft Access SQL)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Удаление существующей таблицы, процедуры или представления из базы данных или удаление существующего индекса из таблицы.
+Удаляет существующую таблицу, процедуру или представление из базы данных либо удаляет существующий индекс из таблицы.
 
 > [!NOTE]
-> Ядро СУБД Microsoft Access не поддерживает использование ПЕРЕТАСКИВАНИЯ или любой другой инструкции DDL с базами данных, ядро базы данных Microsoft Access. Используйте метод DAO **Удалить** .
+> Ядро СУБД Microsoft Access не поддерживает использование инструкции DROP или любых инструкций DDL с базами данных с ядрами СУБД, отличными от Microsoft Access. Вместо этого используйте метод DAO **Delete**.
 
 ## <a name="syntax"></a>Синтаксис
 
-ПОМЕСТИТЕ {таблицы в *таблице* | Д *индекса* ИНДЕКСА *в таблице* | ПРОЦЕДУРА *процедуры* | Просмотр *представления*}
+DROP {TABLE *таблица* | INDEX *индекс* ON *таблица* | PROCEDURE *процедура* | VIEW *представление*}
 
-Инструкции DROP состоит из следующих частей:
+Инструкция DROP состоит из трех указанных ниже частей.
 
 <table>
 <colgroup>
@@ -41,38 +42,38 @@ ms.locfileid: "25880945"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>table</em></p></td>
-<td><p>Имя таблицы для удаления или таблицы, из которого удаляется индекс.</p></td>
+<td><p><em>таблица</em></p></td>
+<td><p>Имя таблицы, которую необходимо удалить, либо таблицы, из которой необходимо удалить индекс.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>процедура</em></p></td>
 <td><p>Имя процедуры, которую необходимо удалить.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>view</em></p></td>
-<td><p>Имя представления для удаления.</p></td>
+<td><p><em>представление</em></p></td>
+<td><p>Имя представления, которое необходимо удалить.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>index</em></p></td>
-<td><p>Имя индекса, удаляемый из <em>таблицы.</em></p></td>
+<td><p><em>индекс</em></p></td>
+<td><p>Имя индекса, который необходимо удалить из <em>таблицы</em>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Прежде чем удалить его или удаление индекса из его необходимо закрыть таблицы.
+Чтобы можно было удалить таблицу или индекс из нее, необходимо сначала закрыть эту таблицу.
 
-Можно также использовать [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) удаление индекса из таблицы.
+Кроме того, для удаления индекса из таблицы можно использовать инструкцию [ALTER TABLE](alter-table-statement-microsoft-access-sql.md).
 
-[Создание таблицы](create-table-statement-microsoft-access-sql.md) можно использовать для создания таблицы и [CREATE INDEX](create-index-statement-microsoft-access-sql.md) или ALTER TABLE, чтобы создать индекс. Для изменения таблицы, используйте ALTER TABLE.
+С помощью инструкции [CREATE TABLE](create-table-statement-microsoft-access-sql.md) можно создать таблицу, а с помощью инструкции [CREATE INDEX](create-index-statement-microsoft-access-sql.md) или ALTER TABLE — создать индекс. Изменить таблицу можно с помощью инструкции ALTER TABLE.
 
 ## <a name="example"></a>Пример
 
-В следующем примере предполагается существование предполагаемую NewIndex индекса на таблице Employees базы данных Northwind.
+В примере ниже предполагается, что существует гипотетический индекс NewIndex в таблице Employees в базе данных Northwind.
 
-В этом примере удаляется индекс MyIndex из таблицы сотрудников.
+В этом примере показано, как удалить индекс MyIndex из таблицы Employees.
 
 ```vb
     Sub DropX1() 
@@ -93,7 +94,7 @@ ms.locfileid: "25880945"
 
 <br/>
 
-В этом примере удаляется таблицу Employees из базы данных.
+В этом примере показано, как удалить таблицу Employees из базы данных.
 
 ```vb
     Sub DropX2() 

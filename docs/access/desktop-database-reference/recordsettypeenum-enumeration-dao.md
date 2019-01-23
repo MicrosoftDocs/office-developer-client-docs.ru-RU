@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195231(v=office.15)
 ms:contentKeyID: 48545357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4472653044804fea24cd723346fd5d768e49b95e
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7d2700d9b9a514dc4ad02bcb18a1bc3003cd3521
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943747"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718527"
 ---
 # <a name="recordsettypeenum-enumeration-dao"></a>Перечисление RecordsetTypeEnum (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется со свойством **типа** для определения типа объекта **набора записей** .
+Используется со свойством **Type** для указания типа объекта **Recordset**.
 
 <table>
 <colgroup>
@@ -37,27 +38,27 @@ ms.locfileid: "25943747"
 <tr class="odd">
 <td><p>dbOpenDynamic</p></td>
 <td><p>16</p></td>
-<td><p>Открывается добавляющий записей</p></td>
+<td><p>Открывает объект Recordset типа "динамическое подмножество данных"</p></td>
 </tr>
 <tr class="even">
 <td><p>dbOpenDynaset</p></td>
 <td><p>2</p></td>
-<td><p>Открывается добавляющий записей</p></td>
+<td><p>Открывает объект Recordset типа "динамическое подмножество данных"</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbOpenForwardOnly</p></td>
 <td><p>8</p></td>
-<td><p>Открывает только для прямого типов записей</p></td>
+<td><p>Открывает объект Recordset типа "только вперед"</p></td>
 </tr>
 <tr class="even">
 <td><p>dbOpenSnapshot</p></td>
 <td><p>4</p></td>
-<td><p>Открывается типа записей</p></td>
+<td><p>Открывает объект Recordset типа "моментальный снимок"</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbOpenTable</p></td>
 <td><p>1</p></td>
-<td><p>Открывается таблица тип записей</p></td>
+<td><p>Открывает объект Recordset табличного типа</p></td>
 </tr>
 </tbody>
 </table>

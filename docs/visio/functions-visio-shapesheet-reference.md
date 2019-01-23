@@ -1,23 +1,23 @@
 ---
-title: Функции (Справочник по таблице свойств фигуры Visio)
+title: Функции (справочник по Visio ShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: 928b8cff-c314-4502-be4f-daa44503c7f0
-ms.openlocfilehash: b803c2cafbe79ca2e965ec18250a0db6b7cb8b67
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 606f34af82a8acd3152d672c1a20fae9f70d7900
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813844"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712871"
 ---
-# <a name="functions-visio-shapesheet-reference"></a>Функции (Справочник по таблице свойств фигуры Visio)
+# <a name="functions-visio-shapesheet-reference"></a>Функции (справочник по Visio ShapeSheet)
 
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>В этом разделе:
 
-- [ABS Function (VisioShapeSheet)](abs-function-visioshapesheet.md)
+- [Функция ABS (VisioShapeSheet)](abs-function-visioshapesheet.md)
     
 - [Функция ACOS](acos-function.md)
     
@@ -83,7 +83,7 @@ ms.locfileid: "19813844"
     
 - [Функция COSH](cosh-function.md)
     
-- [COS Function (VisioShapeSheet)](cos-function-visioshapesheet.md)
+- [Функция COS (VisioShapeSheet)](cos-function-visioshapesheet.md)
     
 - [Функция CREATOR](creator-function.md)
     
@@ -97,13 +97,13 @@ ms.locfileid: "19813844"
     
 - [Функция DATETIME](datetime-function.md)
     
-- [DATEVALUE Function (VisioShapeSheet)](datevalue-function-visioshapesheet.md)
+- [Функция DATEVALUE (VisioShapeSheet)](datevalue-function-visioshapesheet.md)
     
-- [DATE Function (VisioShapeSheet)](date-function-visioshapesheet.md)
+- [Функция DATE (VisioShapeSheet)](date-function-visioshapesheet.md)
     
 - [Функция DAYOFYEAR](dayofyear-function.md)
     
-- [DAY Function (VisioShapeSheet)](day-function-visioshapesheet.md)
+- [Функция DAY (VisioShapeSheet)](day-function-visioshapesheet.md)
     
 - [Функция DECIMALSEP](decimalsep-function.md)
     
@@ -169,7 +169,7 @@ ms.locfileid: "19813844"
     
 - [Функция HELP](help-function.md)
     
-- [HOUR Function (VisioShapeSheet)](hour-function-visioshapesheet.md)
+- [Функция HOUR (VisioShapeSheet)](hour-function-visioshapesheet.md)
     
 - [Функция HSL](hsl-function.md)
     
@@ -201,7 +201,7 @@ ms.locfileid: "19813844"
     
 - [Функция ISERRNA](iserrna-function.md)
     
-- [ISERROR Function (VisioShapeSheet)](iserror-function-visioshapesheet.md)
+- [Функция ISERROR (VisioShapeSheet)](iserror-function-visioshapesheet.md)
     
 - [Функция ISERRVALUE](iserrvalue-function.md)
     
@@ -211,11 +211,11 @@ ms.locfileid: "19813844"
     
 - [Функция KEYWORDS](keywords-function.md)
     
-- [LANGUAGE Function](language-function.md)
+- [Функция LANGUAGE](language-function.md)
     
-- [LEFT Function (VisioShapeSheet)](left-function-visioshapesheet.md)
+- [Функция LEFT (VisioShapeSheet)](left-function-visioshapesheet.md)
     
-- [LEN Function (VisioShapeSheet)](len-function-visioshapesheet.md)
+- [Функция LEN (VisioShapeSheet)](len-function-visioshapesheet.md)
     
 - [Функция LISTMEMBERCOUNT](listmembercount-function.md)
     
@@ -233,7 +233,7 @@ ms.locfileid: "19813844"
     
 - [Функция LOCTOPAR](loctopar-function.md)
     
-- [LOC Function (VisioShapeSheet)](loc-function-visioshapesheet.md)
+- [Функция LOC (VisioShapeSheet)](loc-function-visioshapesheet.md)
     
 - [Функция LOG10](log10-function.md)
     
@@ -253,15 +253,15 @@ ms.locfileid: "19813844"
     
 - [Функция MAX](max-function.md)
     
-- [MID Function (VisioShapeSheet)](mid-function-visioshapesheet.md)
+- [Функция MID (VisioShapeSheet)](mid-function-visioshapesheet.md)
     
-- [MINUTE Function (VisioShapeSheet)](minute-function-visioshapesheet.md)
+- [Функция MINUTE (VisioShapeSheet)](minute-function-visioshapesheet.md)
     
 - [Функция MIN](min-function.md)
     
 - [Функция MODULUS](modulus-function.md)
     
-- [MONTH Function (VisioShapeSheet)](month-function-visioshapesheet.md)
+- [Функция MONTH (VisioShapeSheet)](month-function-visioshapesheet.md)
     
 - [Функция MSOSHADE](msoshade-function.md)
     
@@ -275,7 +275,7 @@ ms.locfileid: "19813844"
     
 - [Функция NOT](not-function.md)
     
-- [NOW Function (VisioShapeSheet)](now-function-visioshapesheet.md)
+- [Функция NOW (VisioShapeSheet)](now-function-visioshapesheet.md)
     
 - [Функция NURBS](nurbs-function.md)
     
@@ -329,17 +329,17 @@ ms.locfileid: "19813844"
     
 - [Функция REF](ref-function.md)
     
-- [REPLACE Function (VisioShapeSheet)](replace-function-visioshapesheet.md)
+- [Функция REPLACE (VisioShapeSheet)](replace-function-visioshapesheet.md)
     
 - [Функция REPT](rept-function.md)
     
 - [Функция REWIDEN](rewiden-function.md)
     
-- [RGB Function (VisioShapeSheet)](rgb-function-visioshapesheet.md)
+- [Функция RGB (VisioShapeSheet)](rgb-function-visioshapesheet.md)
     
-- [RIGHT Function (VisioShapeSheet)](right-function-visioshapesheet.md)
+- [Функция RIGHT (VisioShapeSheet)](right-function-visioshapesheet.md)
     
-- [ROUND Function (VisioShapeSheet)](round-function-visioshapesheet.md)
+- [Функция ROUND (VisioShapeSheet)](round-function-visioshapesheet.md)
     
 - [Функция RUNADDONWARGS](runaddonwargs-function.md)
     
@@ -351,7 +351,7 @@ ms.locfileid: "19813844"
     
 - [Функция SAT](sat-function.md)
     
-- [SECOND Function (VisioShapeSheet)](second-function-visioshapesheet.md)
+- [Функция SECOND (VisioShapeSheet)](second-function-visioshapesheet.md)
     
 - [Функция SEGMENTCOUNT](segmentcount-function.md)
     
@@ -373,7 +373,7 @@ ms.locfileid: "19813844"
     
 - [Функция SINH](sinh-function.md)
     
-- [SIN Function (VisioShapeSheet)](sin-function-visioshapesheet.md)
+- [Функция SIN (VisioShapeSheet)](sin-function-visioshapesheet.md)
     
 - [Функция SQRT](sqrt-function.md)
     
@@ -389,7 +389,7 @@ ms.locfileid: "19813844"
     
 - [Функция TANH](tanh-function.md)
     
-- [TAN Function (VisioShapeSheet)](tan-function-visioshapesheet.md)
+- [Функция TAN (VisioShapeSheet)](tan-function-visioshapesheet.md)
     
 - [Функция TEXTHEIGHT](textheight-function.md)
     
@@ -405,9 +405,9 @@ ms.locfileid: "19813844"
     
 - [Функция THEMEVAL](themeval-function.md)
     
-- [TIMEVALUE Function (VisioShapeSheet)](timevalue-function-visioshapesheet.md)
+- [Функция TIMEVALUE (VisioShapeSheet)](timevalue-function-visioshapesheet.md)
     
-- [TIME Function (VisioShapeSheet)](time-function-visioshapesheet.md)
+- [Функция TIME (VisioShapeSheet)](time-function-visioshapesheet.md)
     
 - [Функция TINT](tint-function.md)
     
@@ -433,8 +433,8 @@ ms.locfileid: "19813844"
     
 - [Функция VERSION](version-function.md)
     
-- [WEEKDAY Function (VisioShapeSheet)](weekday-function-visioshapesheet.md)
+- [Функция WEEKDAY (VisioShapeSheet)](weekday-function-visioshapesheet.md)
     
-- [YEAR Function (VisioShapeSheet)](year-function-visioshapesheet.md)
+- [Функция YEAR (VisioShapeSheet)](year-function-visioshapesheet.md)
     
 

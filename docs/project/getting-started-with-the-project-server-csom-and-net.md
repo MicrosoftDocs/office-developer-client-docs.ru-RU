@@ -1,40 +1,40 @@
 ---
-title: Начало работы с Project Server CSOM и .NET
+title: Начало работы с CSOM Project Server и .NET
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 5ce73baa-dfb6-41d0-918d-b0c3a498815f
-description: Project Server 2013 клиентской объектной модели (CSOM) можно использовать для разработки Project Online и локальных решений с помощью .NET Framework 4. В этой статье описывается создание консольного приложения, использующего CSOM для создания и публикации проектов. После публикации проекта, приложение ожидает службы очередей Project Server завершить действие опубликовать и выводит список опубликованных проектов.
-ms.openlocfilehash: f4e40cb3165bb2b3caf05b01736d90c21b6ac881
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: Клиентскую объектную модель (CSOM) Project Server 2013 можно использовать для разработки решений Project Online и локальных решений с помощью .NET Framework 4. В этой статье описано создание консольного приложения, использующего CSOM для создания и публикации проектов. После публикации проекта приложение ожидает, пока служба очередей Project Server не завершит публикацию, а затем выводит список опубликованных проектов.
+localization_priority: Priority
+ms.openlocfilehash: b53587ca1959faefdc1b40f08c4adfda4ee11d70
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401745"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710463"
 ---
-# <a name="getting-started-with-the-project-server-csom-and-net"></a>Начало работы с Project Server CSOM и .NET
+# <a name="getting-started-with-the-project-server-csom-and-net"></a>Начало работы с CSOM Project Server и .NET
 
-Project Server 2013 клиентской объектной модели (CSOM) можно использовать для разработки Project Online и локальных решений с помощью .NET Framework 4. В этой статье описывается создание консольного приложения, использующего CSOM для создания и публикации проектов. После публикации проекта, приложение ожидает службы очередей Project Server завершить действие опубликовать и выводит список опубликованных проектов.
+Клиентскую объектную модель (CSOM) Project Server 2013 можно использовать для разработки решений Project Online и локальных решений с помощью .NET Framework 4. В этой статье описано создание консольного приложения, использующего CSOM для создания и публикации проектов. После публикации проекта приложение ожидает, пока служба очередей Project Server не завершит публикацию, а затем выводит список опубликованных проектов.
   
-Общие сведения о Project Server CSOM посетите страницу [обновления в Project 2013 для разработчиков](updates-for-developers-in-project-2013.md). Ссылки на разделы в пространстве имен CSOM в разделе [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
+Общие сведения о CSOM Project Server см. в статье [Обновления для разработчиков решений в Project 2013](updates-for-developers-in-project-2013.md). Справочные материалы по пространству имен CSOM см. в статье [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx). 
   
 ## <a name="creating-a-csom-project-in-visual-studio"></a>Создание проекта CSOM в Visual Studio
 <a name="pj15_GettingStartedCSOM_CreatingVSProject"> </a>
 
-Можно использовать Visual Studio 2010 или Visual Studio 2012 для разработки решений, использующих Project Server CSOM. Project Server CSOM включает в себя три сборки для разработки клиентских приложений, приложений Microsoft Silverlight и Windows Phone 8 приложений с помощью .NET Framework 4. CSOM также включает в себя файл JavaScript для разработки веб-приложений, как описано в [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
+Разрабатывать решения, использующие CSOM Project Server, можно в Visual Studio 2010 или Visual Studio 2012. CSOM Project Server включает в себя три сборки для разработки клиентских приложений, приложений Microsoft Silverlight и приложений для Windows Phone 8 с помощью .NET Framework 4. CSOM также включает файл JavaScript для разработки веб-приложений, как описано в статье [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx). 
   
-Можно скопировать CSOM сборки, в которой необходимо на компьютере с Project Server или из загружаемого пакета Project 2013 SDK для удаленной разработки компьютера. Консольное приложение **QueueCreateProject** , описанного в данном разделе не приложение Silverlight или приложении Windows Phone 8, вам потребуется Microsoft.ProjectServer.Client.dll сборки. Так как CSOM не зависит от на основе WCF или на основе ASMX Project Server интерфейса (PSI), не нужно задать ссылку на службу для PSI или использовать пространство имен **Microsoft.Office.Project.Server.Library** . 
+Вы можете скопировать необходимую сборку CSOM с компьютера с Project Server или из скачанного пакета SDK для Project 2013 на удаленный компьютер разработчика. Консольное приложение **QueueCreateProject**, описанное в этой статье, не является приложением Silverlight или приложением для Windows Phone 8, поэтому вам понадобится сборка Microsoft.ProjectServer.Client.dll. Так как CSOM не зависит от интерфейса Project Server (PSI) на основе WCF или ASMX, добавлять ссылки на службы для PSI или использовать пространство имен **Microsoft.Office.Project.Server.Library** необязательно. 
   
 В приложении **QueueCreateProject** в качестве имени создаваемого проекта и максимального времени ожидания очереди используются аргументы командной строки. В процедуре 1 создается базовое консольное приложение, добавляется подпрограмма анализа командной строки, а также сообщение об использовании, если в командной строке есть ошибки. 
   
 ### <a name="procedure-1-to-create-a-csom-project-in-visual-studio"></a>Процедура 1. Создание проекта CSOM в Visual Studio
 
-1. Скопируйте сборку Microsoft.ProjectServer.Client.dll из `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\` папку на компьютере разработчика. Скопируйте сборку в папку удобным для других Project Server и SharePoint ссылочные сборки, которые будут использовать, такие как `C:\Project\Assemblies`.
+1. Скопируйте сборку Microsoft.ProjectServer.Client.dll из папки `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\` на компьютер разработчика. Скопируйте сборку в папку с удобным расположением для других сборок Project Server и SharePoint, на которые вы собираетесь ссылаться (например, `C:\Project\Assemblies`).
     
 2. Скопируйте сборки Microsoft.SharePoint.Client.dll и Microsoft.SharePoint.Client.Runtime.dll из той же исходной папки на компьютер разработчика. Сборка Microsoft.ProjectServer.Client.dll зависит от связанных сборок SharePoint.
     
-3. В Visual Studio создайте консольное приложение Windows и требуемая версия .NET Framework 4. Например имя приложения QueueCreateProject.
+3. В Visual Studio создайте консольное приложение Windows и задайте требуемую версию .NET Framework 4. Например, присвойте приложению имя QueueCreateProject.
     
    > [!NOTE]
    > Если вы забыли задать требуемую версию, после создания проекта в Visual Studio откройте окно **Свойства QueueCreateProject** в меню **Проект**. На вкладке **Приложение** в раскрывающемся списке **Требуемая версия .NET Framework** выберите **.NET Framework 4**. Не используйте вариант **Клиентский профиль .NET Framework 4**. 
@@ -45,7 +45,7 @@ Project Server 2013 клиентской объектной модели (CSOM) 
    - Microsoft.SharePoint.Client.dll
    - Microsoft.SharePoint.Client.Runtime.dll
     
-5. В файле Program.cs изменение `using` операторы, как показано ниже. 
+5. В файле Program.cs измените операторы `using`, как показано ниже. 
     
    ```cs
     using System;
@@ -130,11 +130,11 @@ Project Server 2013 клиентской объектной модели (CSOM) 
 ## <a name="getting-the-project-context"></a>Получение контекста проекта
 <a name="pj15_GettingStartedCSOM_GettingContext"> </a>
 
-Разработка CSOM требуется **ProjectContext** объект инициализирован с URL-адрес Project Web App. Код в процедуре 2 использует константу **pwaPath** . Если вы планируете использовать в приложении для нескольких экземпляров Project Web App, можно сделать **pwaPath** переменную и добавьте другой аргумент командной строки. 
+При разработке CSOM требуется инициализировать объект **ProjectContext** с помощью URL-адреса Project Web App. В коде в процедуре 2 используется константа **pwaPath**. Если вы планируете использовать приложение для нескольких экземпляров Project Web App, можете сделать **pwaPath** переменной и добавить еще один аргумент командной строки. 
   
-### <a name="procedure-2-to-get-the-project-context"></a>Процедура 2. Получение контекста проекта
+### <a name="procedure-2-to-get-the-project-context"></a>Процедура 2. Получение контекста проекта
 
-1. Добавьте **программы** класс константы и переменные, которые будут использоваться приложением **QueueCreateProject** . В дополнение к Project Web App URL-адрес приложение использует имя типа корпоративного проекта по умолчанию (типа корпоративного проекта), имя проекта, чтобы создать и очереди Максимальное время ожидания в секундах. В этом случае переменная **timeoutSeconds** позволяет проверить, как различные значения времени ожидания влияют на приложение. Объект **ProjectContext** — это основной объект для доступа к CSOM. 
+1. Добавьте константы и переменные класса **Program**, которые будет использовать приложение **QueueCreateProject**. Кроме URL-адреса Project Web App, приложение использует имя типа корпоративного проекта (EPT) по умолчанию, имя создаваемого проекта и максимальное время ожидания очереди в секундах. В этом случае переменная **timeoutSeconds** позволяет проверить влияние различных значений времени ожидания на приложение. Объект **ProjectContext** является основным для доступа к CSOM. 
     
    ```cs
     private const string pwaPath = "https://ServerName /pwa/"; // Change the path to your Project Web App instance.
@@ -144,7 +144,7 @@ Project Server 2013 клиентской объектной модели (CSOM) 
     private static ProjectContext projContext;
    ```
 
-2. Замените `/* Add calls to methods here to get the project context and create a project. */` комментарий следующим кодом. Инициализируется объект **Microsoft.ProjectServer.Client.ProjectContext** , с помощью URL-адрес Project Web App. Метод **CreateTestProject** и метод **ListPublishedProjects** показаны в процедуру 4 и 5 процедуры. 
+2. Замените комментарий `/* Add calls to methods here to get the project context and create a project. */` приведенным ниже кодом. Объект **Microsoft.ProjectServer.Client.ProjectContext** инициализируется с использованием URL-адреса Project Web App. Методы **CreateTestProject** и **ListPublishedProjects** показаны в процедуре 4 и процедуре 5. 
     
    ```cs
     projContext = new ProjectContext(pwaPath);
@@ -161,7 +161,7 @@ Project Server 2013 клиентской объектной модели (CSOM) 
   
 Метод **GetEptUid** запрашивает в объекте **ProjectContext** коллекцию объектов **EnterpriseProjectTypes** с указанным именем EPT. После выполнения запроса для переменной **eptUid** задается GUID первого объекта **EnterpriseProjectType** в коллекции **eptList**. Так как имена EPT уникальны, имеется только один объект **EnterpriseProjectType** с указанным именем. 
   
-### <a name="procedure-3-to-get-the-guid-of-an-ept-for-a-new-project"></a>Процедура 3. Получение GUID EPT для нового проекта
+### <a name="procedure-3-to-get-the-guid-of-an-ept-for-a-new-project"></a>Процедура 3. Получение GUID EPT для нового проекта
 
 - Добавьте метод **GetEptUid** в класс **Program**. 
     
@@ -203,7 +203,7 @@ foreach (EnterpriseProjectType ept in projSvr.EnterpriseProjectTypes)
 }
 ```
 
-Указанная ниже подпрограмма используются запрос LINQ и лямбда-выражение для выбора объекта EPT, но все равно скачивает все объекты **EnterpriseProjectType**. 
+Указанная ниже подпрограмма использует запрос LINQ и лямбда-выражение для выбора объекта EPT, но все равно скачивает все объекты **EnterpriseProjectType**. 
 
 ```cs
 var eptList = projContext.LoadQuery(projContext.EnterpriseProjectTypes);
@@ -218,7 +218,7 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
   
 После того как свойства нового проекта заданы, метод **Projects.Add** добавляет его в коллекцию **Projects**. Чтобы сохранить и опубликовать проект, необходимо вызвать метод **Projects.Update**, чтобы отправить сообщение в очередь Project Server и создать проект. 
   
-### <a name="procedure-4-to-set-the-new-project-properties-create-the-project-and-publish-the-project"></a>Процедура 4. Задание свойств нового проекта, его создание и публикация
+### <a name="procedure-4-to-set-the-new-project-properties-create-the-project-and-publish-the-project"></a>Процедура 4. Задание свойств нового проекта, его создание и публикация
 
 1. Добавьте метод **CreateTestProject** в класс **Program**. Приведенный ниже код создает и публикует проект, но не дожидается завершения задания в очереди. 
     
@@ -252,7 +252,7 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
     }
    ```
 
-2. Замените `/* Add code here to wait for the queue. */` комментарий ожидания задания очереди следующим кодом. Процедура ожидает не более указанного **timeoutSeconds** количество секунд или переходит при завершении задания очереди до истечения времени ожидания. Состояния заданий в очереди в разделе [Microsoft.ProjectServer.Client.JobState](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.JobState.aspx) . 
+2. Замените комментарий `/* Add code here to wait for the queue. */` приведенным ниже кодом, чтобы дождаться завершения задания в очереди. Подпрограмма ожидает завершения в течение указанного времени в секундах (**timeoutSeconds**) или продолжает работу, если задание в очереди завершается раньше. Возможные состояния заданий в очереди см. в статье [Microsoft.ProjectServer.Client.JobState](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.JobState.aspx). 
     
    Вызывать методы **Load** и **ExecuteQuery** для объекта **QueueJob** необязательно. Если объект **QueueJob** не инициализируется при вызове метода **WaitForQueue**, его инициализирует Project Server. 
     
@@ -279,9 +279,9 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
 ## <a name="listing-the-published-projects"></a>Перечисление опубликованных проектов
 <a name="pj15_GettingStartedCSOM_ListingPublished"> </a>
 
-Метод **ListPublishedProjects** возвращает коллекцию всех проектов, опубликованных в Project Web App. Если задания очереди, который создает проект в 4 процедуры не завершается успешно, или времени ожидания, новый проект не включены в коллекцию **проектов** . 
+Метод **ListPublishedProjects** получает коллекцию всех проектов, опубликованных в Project Web App. Новый проект не включается в коллекцию **Projects**, если задание в очереди, которое создает проект в процедуре 4, не удается выполнить или время его ожидания истекает. 
   
-### <a name="procedure-5-to-list-the-published-projects"></a>Процедура 5. Перечисление опубликованных проектов
+### <a name="procedure-5-to-list-the-published-projects"></a>Процедура 5. Перечисление опубликованных проектов
 
 1. Добавьте метод **ListPublishedProjects** в класс **Program**. 
     
@@ -301,18 +301,18 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
     }
    ```
 
-2. Установите правильное значение для URL-адреса Project Web App, выполните компиляцию приложения **QueueCreateProject** и проверить приложение, как показано 6 процедуры. 
+2. Задайте правильное значение для URL-адреса Project Web App, скомпилируйте приложение **QueueCreateProject**, а затем протестируйте его, как описано в процедуре 6. 
     
 ## <a name="testing-the-queuecreateproject-application"></a>Тестирование приложения QueueCreateProject
 <a name="pj15_GettingStartedCSOM_Testing"> </a>
 
-При первом запуске приложения **QueueCreateProject** тестирования экземпляра Project Web App, особенно если Project Server устанавливается на виртуальной машине, приложение может потребоваться больше времени на выполнение, чем время ожидания очереди по умолчанию из 10 секунд. 
+Для первого запуска приложения **QueueCreateProject** в тестовом экземпляре Project Web App, особенно если Project Server установлен на виртуальной машине, приложению может потребоваться больше десяти секунд (время ожидания очереди по умолчанию). 
   
-### <a name="procedure-6-to-test-the-queuecreateproject-application"></a>Процедура 6. Тестирование приложения QueueCreateProject
+### <a name="procedure-6-to-test-the-queuecreateproject-application"></a>Процедура 6. Тестирование приложения QueueCreateProject
 
-1. Откройте окно **Свойств QueueCreateProject** , перейдите на вкладку **отладки** и добавьте следующие аргументы командной строки в разделе **Параметры запуска** :`-n "Test proj 1" -t 20`
+1. Откройте окно **Свойства QueueCreateProject**, перейдите на вкладку **Отладка**, а затем добавьте следующие аргументы командной строки в раздел **Параметры запуска**: `-n "Test proj 1" -t 20`.
     
-   Запуск приложения (например, нажмите клавишу **F5**). Если значение времени ожидания будет достаточно длинной, приложение отображает следующие выходные данные (Если других опубликованных проектов в экземпляр Project Web App, они также отображается):
+   Запустите приложение (например, нажмите клавишу **F5**). Если времени ожидания достаточно, в приложении отобразятся следующие данные (если в экземпляре Project Web App есть другие опубликованные проекты, они также будут показаны):
     
    ```MS-DOS
     Creating project: Test proj 1 ...
@@ -322,9 +322,9 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
     Press any key to exit...
    ```
 
-2. Выполнение другой теста с помощью следующей командной строки, использовать время ожидания очереди 10 секунд по умолчанию.`-n "Test proj 1"`
+2. Чтобы использовать время ожидания очереди по умолчанию (10 с), выполните еще одну проверку со следующими аргументами командной строки: `-n "Test proj 1"`.
     
-   Так как проект Test proj 1 уже существует, в приложении отобразятся указанные ниже данные.
+   Так как проект Test proj 1 уже существует, в приложении отобразятся указанные ниже данные.
     
    ```MS-DOS
     Creating project: Test proj 1 ...
@@ -335,11 +335,11 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
     Press any key to exit...
    ```
 
-3. Выполнение другой теста с помощью следующей командной строки, использовать время ожидания очереди 10 секунд по умолчанию.`-n "Test proj 2"`
+3. Чтобы использовать время ожидания очереди по умолчанию (10 с), выполните еще одну проверку со следующими аргументами командной строки: `-n "Test proj 2"`.
     
-   Приложение **QueueCreateProject** создаст и опубликует проект Test proj 2. 
+   Приложение **QueueCreateProject** создаст и опубликует проект Test proj 2. 
     
-4. Запустите другого теста с помощью следующей командной строки и задать время ожидания быть для задания очереди для завершения:`-n "Test proj 3" -t 1`
+4. Задав время ожидания, недостаточное для завершения задания в очереди, выполните еще одну проверку со следующими аргументами командной строки: `-n "Test proj 3" -t 1`.
     
    Так как времени ожидания очереди недостаточно, проект не будет создан. В приложении отобразятся приведенные ниже данные.
     
@@ -351,7 +351,7 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
     Press any key to exit...
    ```
 
-5. Измените код, чтобы приложения без ожидания задания очереди. Например, закомментировать код, который ожидает выполнения задания в очереди, за исключением `projCreated = true` строки, как показано ниже. 
+5. Измените код, чтобы приложение не дожидалось завершения задания в очереди. Например, закомментируйте код ожидания очереди (кроме строки `projCreated = true`), как показано ниже. 
     
    ```cs
     //JobState jobState = projContext.WaitForQueue(qJob, timeoutSeconds);
@@ -370,7 +370,7 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
     
    ```
 
-6. Выполните повторную компиляцию приложения и выполните другого теста с помощью следующей командной строки:`-n "Test proj 4"`
+6. Повторно скомпилируйте приложение и выполните еще одну проверку со следующими аргументами командной строки: `-n "Test proj 4"`.
     
    Так как подпрограмма **WaitForQueue** закомментирована, приложение не использует значение времени ожидания по умолчанию. Несмотря на то, что приложение не ждет очереди, в нем может отобразиться проект Test proj 4, если публикация на Project Server будет выполнена достаточно быстро. 
     
@@ -386,18 +386,18 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
     Press any key to exit...
    ```
 
-Обновите страницу центра проектов в Project Web App (`https://ServerName/ProjectServerName/Projects.aspx`), чтобы показать опубликованных проектов. На следующем рисунке показана публикацию проектов тестирования.
+Обновите страницу центра проектов в Project Web App (`https://ServerName/ProjectServerName/Projects.aspx`), чтобы отобразить опубликованные проекты. На приведенном ниже рисунке видно, что тестовые проекты опубликованы.
 
 **Проверка опубликованных проектов в Project Web App**
 
-![Проверка опубликованных проектов в Project Web App] (media/pj15_GetStartedCSOMNET_pwa.gif "Проверка опубликованных проектов в Project Web App")
+![Проверка опубликованных проектов в Project Web App](media/pj15_GetStartedCSOMNET_pwa.gif "Проверка опубликованных проектов в Project Web App")
   
-Пример приложения **QueueCreateProject** показано как создать объект project с помощью CSOM с помощью класса **ProjectCreationInformation** , как добавить в проект в коллекцию опубликованные как следует ожидать выполнения задания очереди с с помощью метода **WaitForQueue** , а также для перечисления коллекции опубликованных проектов. 
+На примере приложения **QueueCreateProject** мы показали, как создать проект с помощью CSOM, используя класс **ProjectCreationInformation**, добавить проект в опубликованную коллекцию, дождаться завершения задания в очереди с помощью метода **WaitForQueue** и перечислить коллекцию опубликованных проектов. 
   
 ## <a name="complete-code-example"></a>Полный пример кода
 <a name="pj15_GettingStartedCSOM_CompleteCode"> </a>
 
-Ниже приведен полный код для примера приложения **QueueCreateProject** . Ссылка на класс [Microsoft.ProjectServer.Client.ProjectCreationInformation](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectCreationInformation.aspx) также включает код в этом разделе. 
+Ниже приведен полный код приложения **QueueCreateProject**. Ссылка на класс [Microsoft.ProjectServer.Client.ProjectCreationInformation](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectCreationInformation.aspx) также содержит код в этой статье. 
   
 ```cs
 using System;
@@ -578,7 +578,7 @@ namespace QueueCreateProject
 
 ## <a name="see-also"></a>См. также
 
-- [Обновления для разработчиков в Project 2013](updates-for-developers-in-project-2013.md) 
-- [Клиентская объектная модель (CSOM) для Project 2013](client-side-object-model-csom-for-project-2013.md)
+- [Обновления для разработчиков решений в Project 2013](updates-for-developers-in-project-2013.md) 
+- [Клиентская объектная модель (CSOM) для Project 2013](client-side-object-model-csom-for-project-2013.md)
     
 

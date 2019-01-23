@@ -6,28 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197737(v=office.15)
 ms:contentKeyID: 48546446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7e4ab089af54a53889afac054598cbca57028353
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924682"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718345"
 ---
 # <a name="recordset2-object-dao"></a>Объект Recordset2 (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объект **Recordset2** представляет записей в базовой таблице или записи, в результате выполнения запроса.
+Объект **Recordset2** представляет записи в базовой таблице или записи, получаемые в результате выполнения запроса.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Объект **Recordset2** — содержит все же свойства и методы объекта **[набора записей](recordset-object-dao.md)** . Объект **Recordset2** содержит новое свойство **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, поддерживающие типы полей, поддерживающий несколько значений.
+Объект **Recordset2** содержит все те же свойства и методы, что и объект **[Recordset](recordset-object-dao.md)**. Объект **Recordset2** содержит новое свойство **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, которое поддерживает многозначные типы полей.
 
 ## <a name="example"></a>Пример
 
-Следующем примере показано, как переходить набор записей с несколькими значениями полей.
+В примере ниже показано, как выполнять навигацию по объекту Recordset, содержащему многозначное поле.
 
-**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -91,7 +92,7 @@ ms.locfileid: "25924682"
 
 <br/>
 
-Следующем примере показано, как для перемещения файлов в поле вложения. Тип файла и имя файла для каждого вложения печать в окне Интерпретация.
+В примере ниже показано, как выполнять навигацию по файлам в поле вложения. Код из этого примера печатает тип и имя файла каждого вложения в окне интерпретации.
 
 ```vb
     Sub ListAttachments()
@@ -141,7 +142,7 @@ ms.locfileid: "25924682"
 
 <br/>
 
-Следующем примере показано, как добавить файлы из указанной папки путь полем вложения.
+В примере ниже показано, как добавить файлы из папки с указанным путем в поле вложений.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -198,7 +199,7 @@ ms.locfileid: "25924682"
 
 <br/>
 
-Следующем примере показано, как для сохранения файлов, сохраненных в поля вложения для указанной папки.
+В примере ниже показано, как сохранить файлы, хранящиеся в поле вложения, в папку с указанным путем.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -254,7 +255,7 @@ ms.locfileid: "25924682"
 
 <br/>
 
-Следующем примере показано, как для удаления файлов, хранящихся в поле вложения.
+В примере ниже показано, как удалить файл, хранящийся в поле вложения.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

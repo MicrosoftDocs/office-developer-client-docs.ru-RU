@@ -5,24 +5,24 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- надстройки - [excel 2007], разработка XLL-модулей - [Excel 2007], XLL-модулей - [Excel 2007], разработка
-localization_priority: Normal
+- надстройки — [excel 2007], разработка XLL-файлов — [Excel 2007], XLL-файлы — [Excel 2007], разработка
 ms.assetid: dd27ae4d-ef97-47db-885c-ddd955816900
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: cb2483b9cd1b11bcfeee81bba02b6d593e8818fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
+localization_priority: Priority
+ms.openlocfilehash: d05041f2629694c4a96240ea83b6e84b17f9be38
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807157"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701097"
 ---
 # <a name="developing-excel-xlls"></a>Разработка XLL-файлов Excel
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения**: Excel 2013 | Office 2013 | Visual Studio 
   
-Главной причиной для записи Microsoft Excel XLL-модулей и с помощью интерфейса API для C — Создание высокопроизводительных функций. Приложения высокопроизводительные функции — и, начиная с версии Excel 2007, возможность записи многопоточных интерфейсы мощные серверные ресурсы — сделать его важной частью возможностями расширения Excel. Производительность XLL-модулей для дальнейшей был улучшенные в Excel 2007 путем добавления новых типов данных и, наиболее важные, поддержку многопоточность.
+Основная цель написания XLL-файлов Microsoft Excel и использования API C — создание высокопроизводительных функций. Применения высокопроизводительных функций — и, начиная с Excel 2007, возможность писать многопоточные интерфейсы для мощных серверных ресурсов — делают их очень важной частью расширения Excel. Производительность XLL-файлов была повышена в Excel 2007 путем добавления новых типов данных и, что самое важное, поддержки многопоточности.
   
-Интерфейса API для C нет более высокого уровня функций быстрой разработки Microsoft Visual Basic для приложений (VBA), COM или Microsoft .NET Framework. Управление памятью — низкий уровень и поэтому размещает больше, ответственность за на разработчика. Многие функции Excel, предоставляемые посредством COM, делая их доступными через VBA и .NET Framework, не представленных C API-интерфейса.
+В API C нет высокоуровневых функций быстрой разработки на Microsoft Visual Basic для приложений (VBA), COM или Microsoft .NET Framework. Управление памятью осуществляется на низком уровне, и поэтому возлагает большую ответственность на разработчика. Многие функции Excel, предоставляемые через COM (что делает их доступными через VBA и .NET Framework), недоступны интерфейсу API C.
 
 
 - [Понятия, связанные с программированием для Excel](excel-programming-concepts.md)
@@ -33,7 +33,7 @@ ms.locfileid: "19807157"
   
 - [Вызов функций XLL из диалоговых окон "Мастер функций" и "Замена"](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   
-- [����� � Excel �� DLL ��� XLL](calling-into-excel-from-the-dll-or-xll.md)
+- [Вызов Excel из библиотеки DLL или XLL](calling-into-excel-from-the-dll-or-xll.md)
   
 - [Создание XLL-файлов](creating-xlls.md)
   

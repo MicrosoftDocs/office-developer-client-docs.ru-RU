@@ -10,28 +10,29 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 14021d3f16987b40af24491ff72abdfb95052045
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 78b08575b1fde304dc47b8219c1143cda265baf8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998765"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706984"
 ---
 # <a name="field2savetofile-method-dao"></a>Метод Field2.SaveToFile (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Сохранение вложений на диске.
+Сохраняет вложение на диске.
 
 ## <a name="version-information"></a>Сведения о версии
 
-Добавлена версия: Access 2007
+Добавлен в версии: Access 2007
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . SaveToFile (***имя файла***)
+*expression* .SaveToFile(***FileName***)
 
-*выражение* Переменная, которая представляет собой объект- **поле2** .
+*expression* — переменная, представляющая объект **Field2**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -45,17 +46,17 @@ ms.locfileid: "25998765"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Имя файла</em></p></td>
+<td><p><em>FileName</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Строка</strong></p></td>
-<td><p>Полный путь к файлу, к которому вы хотите сохранить вложение.</p></td>
+<td><p>Полный путь к файлу, в котором требуется сохранить вложение.</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +64,7 @@ ms.locfileid: "25998765"
 
 ## <a name="example"></a>Пример
 
-В следующем фрагменте кода показано, как использовать метод **SaveToFile** для сохранения всех вложений для конкретного сотрудника на диске.
+В представленном ниже фрагменте кода показано, как использовать метод **SaveToFile**, чтобы сохранить все вложения для определенного сотрудника на диск.
 
 ```vb
     '  Instantiate the parent recordset.  
@@ -86,9 +87,9 @@ ms.locfileid: "25998765"
 
 <br/>
 
-Следующем примере показано, как для сохранения файлов, сохраненных в поля вложения для указанной папки.
+В приведенном ниже примере показано, как сохранить файлы, хранящиеся в поле вложения, в папку с указанным путем.
 
-**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
