@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0e5ffb61-1469-bc91-f237-27d1156179cd
 description: Инициализирует диспетчер учетных записей для использования.
-ms.openlocfilehash: 621c6a73ab2bcbdff17b87ce15af8b4e0c2e1e24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a643a4636251afc98750be8acf47cd3bdab3847
+ms.sourcegitcommit: b361919ae2d3ac000d9fcaa3030713df7062ecd4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807843"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "29715342"
 ---
 # <a name="iolkaccountmanagerinit"></a>IOlkAccountManager::Init
 
@@ -43,18 +43,20 @@ _dwFlags_
    - **ACCT_INIT_NO_STORES_CHECK** — запрещает синхронизацию с связанного хранилища учетной записи (например, учетной записи IMAP). 
     
    - **ACCT_INIT_NOSYNCH_MAPI_ACCTS** — служб MAPI, не позволяет синхронизировать с учетными записями. 
-    
+   
+   - **ACCT_INIT_NO_NOTIFICATIONS** — запрещает диспетчер учетных записей перехват широковещательные сообщения, для других приложений. 
+   
    - **OLK_ACCOUNT_NO_FLAGS** — служб MAPI синхронизируется с учетными записями. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
 |E_OLK_ALREADY_INITIALIZED  <br/> |Уже был вызван **init** .  <br/> |
 |E_OLK_REGISTRY  <br/> |Диспетчер учетных записей не удалось получить доступ к требуемые разделы реестра.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
 Клиента необходимо вызвать **IOlkAccountManager::Init** для инициализации учетной записи диспетчера перед использованием диспетчера учетной записи для доступа к учетных записей или настроить уведомления. Так как Outlook автоматически синхронизирует служб MAPI с учетных записей при загрузке системы, используйте **ACCT_INIT_NOSYNCH_MAPI_ACCTS** при отсутствии определенных причина для синхронизации. 
   
