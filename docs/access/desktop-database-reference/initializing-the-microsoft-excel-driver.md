@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: cec7890385e5730831cea9241278511d88b6f3a1
-ms.sourcegitcommit: 8ead5b5501f59c108cf02969070be21f7fc52467
+ms.openlocfilehash: 2fe59f34c04314f70117b3bc7f08d78c2d23ae6d
+ms.sourcegitcommit: 62228a65109a9543cd223dfbf326dbf1af256748
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30135749"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30179665"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Инициализация драйвера Microsoft Excel
 
@@ -228,6 +228,3 @@ ms.locfileid: "30135749"
 > [!NOTE]
 > При изменении параметров реестра Windows необходимо выйти и перезапустить ядро СУБД, чтобы новые параметры вступили в силу.
 
-## <a name="see-also"></a>См. также
-
-- [Использование параметра Типегуессровс для драйвера Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
