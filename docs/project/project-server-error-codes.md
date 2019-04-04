@@ -33,14 +33,14 @@ ms.locfileid: "28705598"
 > - Для WCF-приложений вы можете использовать **System.ServiceModel.FaultException**, чтобы получить объект **PSClientError** и дополнительные сведения об ошибке. См. [пример кода ошибки для WCF](#pj15_ErrorCodes_WCFExample). 
 > - Используйте журнал событий приложения на компьютере Project Server.
 > - Используйте журналы трассировки единой службы ведения журналов (ULS). Объяснения приводятся в разделе *Проверка ошибок* в статье [Начало разработки для Project 2010](https://msdn.microsoft.com/library/gg607685.aspx). 
-> - Для получения дополнительных сведений об использовании журналов ULS см. статью [Project Server 2010: чего следует ожидать от непредвиденного](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx) или выполните поиск блога по словам "reading ULS logs". 
+> - Для получения дополнительных сведений об использовании журналов ULS см. статью [Project Server 2010: чего следует ожидать от непредвиденного](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx) или выполните поиск в блоге по словам "reading ULS logs". 
 > - Чтобы облегчить поиск проблем в данных ULS, воспользуйтесь [средством просмотра ULS Viewer](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
 > - Используйте приложение Microsoft SQL Server Profiler для перехвата или отслеживания ошибок базы данных. Дополнительные сведения см. в статье [Приложение SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
 > - Многие коды ошибок предназначены только для внутреннего использования. Например, поскольку веб-службы **ExchangeSync** и **PWA** недоступны для сторонней разработки, вы вряд ли столкнетесь с кодами ошибок из методов, относящихся к данной области, таких как **Rules** и **StatusReports**. Однако для полноты информации в таблицы данной статьи занесены все коды ошибок Project Server. 
   
 ## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>Табл. 1. Функциональные области кодов ошибок и связанные диапазоны номеров
 
-|Функциональная область Project Server|Диапазон номеров кодов ошибок|
+|Функциональная область Project Server|Диапазоны номеров кодов ошибок|
 |:-----|:-----|
 |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General) <br/> |0–99, 500–999, 9131, 10000–10099, 20000–20099, 26000–26099  <br/> |
 |[Табл. 4. Активный кэш](#pj15_ErrorCodes_ActiveCache) <br/> |12000–12099  <br/> |
@@ -98,7 +98,7 @@ ms.locfileid: "28705598"
 |16600–16699  <br/> |[Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
 |17000–17999  <br/> |[Табл. 10. Служба построения куба (CBS)](#pj15_ErrorCodes_CBS) <br/> |
 |18000–18099  <br/> |[Табл. 31. Интеграция с SharePoint](#pj15_ErrorCodes_WSS) <br/> |
-|19000–19099  <br/> |[Табл. 23. Безопасность](#pj15_ErrorCodes_Security), за исключением 19011, 19012 и 19032, — коды, связанные с безопасностью, в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
+|19000–19099  <br/> |[Табл. 23. Безопасность](#pj15_ErrorCodes_Security), за исключением 19011, 19012 и 19032 (кодов, связанных с безопасностью) — в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
 |20000–20099  <br/> |[Табл. 3. Коды общих ошибок](#pj15_ErrorCodes_General), за исключением 20003 — в [Табл. 6. Веб-служба администрирования](#pj15_ErrorCodes_Admin) <br/> |
 |21000–21099  <br/> |[Табл. 22. Правила](#pj15_ErrorCodes_Rules) <br/> |
 |22000–22999  <br/> |[Табл. 24. События сервера](#pj15_ErrorCodes_Events) <br/> |
@@ -219,7 +219,7 @@ ms.locfileid: "28705598"
 |ActiveCacheProjectTypeMismatch = 12013  <br/> |Тип проекта не совпадает с ожидаемым типом.  <br/> |
 |ActiveCacheDataValidationFailed = 12014  <br/> |Сбой проверки данных.  <br/> |
 |ActiveCacheUnsupportedProjectProfessionalVersion = 12015  <br/> |Версия Project профессиональный не поддерживается.  <br/> |
-|ActiveCacheGeneralSQLException = 12016  <br/> |Существует общая ошибка SQL.  <br/> |
+|ActiveCacheGeneralSQLException = 12016  <br/> |Возникла общая ошибка SQL.  <br/> |
 
 <a name="pj15_ErrorCodes_ActiveDirectory"></a>
 
@@ -233,7 +233,7 @@ ms.locfileid: "28705598"
 |AdMaximumGroupsCountExceeded = 27007  <br/> |Было превышено максимальное число групп.  <br/> |
 |SRAInvalidVersion = 27300  <br/> |Недопустимая версия SRA.  <br/> |
 |SRADelayedUpgradeFailed = 27301  <br/> |Сбой действия по асинхронному обновлению SRA.  <br/> |
-|(27000–27999)  <br/> |Другие ошибки синхронизации для службы Active Directory не перечислены на сервере Project Server.  <br/> |
+|(27000–27999)  <br/> |Другие ошибки синхронизации для службы Active Directory не перечисляются на сервере Project Server.  <br/> |
 
 <a name="pj15_ErrorCodes_Admin"></a>
 
@@ -426,7 +426,7 @@ ms.locfileid: "28705598"
 |CICOCheckedOutInOtherSession = 10103  <br/> |Извлечено в другом сеансе.  <br/> |
 |CICOInvalidSessionGuid = 10104  <br/> |Недопустимый GUID сеанса.  <br/> |
 |CICOAlreadyCheckedOutInSameSession = 10105  <br/> |Уже извлечено в том же сеансе.  <br/> |
-|CICOCannotCheckOutVisibilityModeProjectWithMppInDocLib = 10106  <br/> |Невозможно извлечь проект режима видимости с помощью MPP-файла в библиотеке документов.  <br/> |
+|CICOCannotCheckOutVisibilityModeProjectWithMppInDocLib = 10106  <br/> |Невозможно извлечь проект в режиме видимости, если MPP-файл находится в библиотеке документов.  <br/> |
 
 <a name="pj15_ErrorCodes_CustomFields"></a>
 
@@ -466,14 +466,14 @@ ms.locfileid: "28705598"
 |CustomFieldInvalidID = 11701  <br/> |Недопустимый идентификационный номер настраиваемого поля.  <br/> |
 |CustomFieldInvalidUID = 11702  <br/> |Недопустимый GUID настраиваемого поля.  <br/> |
 |CustomFieldInvalidType = 11703  <br/> |Недопустимый тип настраиваемого поля.  <br/> |
-|CustomFieldInvalidTypeColumnFilledIn = 11704  <br/> |Значение столбца типа настраиваемого поля является недопустимым. См. пример в [Пример кода ошибки для WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
+|CustomFieldInvalidTypeColumnFilledIn = 11704  <br/> |Значение столбца типа настраиваемого поля является недопустимым. См. [пример кода ошибки для WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
 |CustomFieldCodeValueDoesNotMatchLookupTable = 11706  <br/> |Значение кода не совпадает с таблицей подстановки.  <br/> |
 |CustomFieldCodeValueIsNotLeafNode = 11707  <br/> |Значение кода не является листовым узлом таблицы подстановки.  <br/> |
 |CustomFieldRowAlreadyExists = 11708  <br/> |Эта строка настраиваемого поля уже существует.  <br/> |
 |CustomFieldRowDoesNotMatchCorrespondingDefinitionInDB = 11710  <br/> |Строка настраиваемого поля не соответствует определению базы данных.  <br/> |
 |CustomFieldCodeValueAlreadyUsed = 11711  <br/> |Это значение кода уже используется.  <br/> |
 |CustomFieldMaxValuesExceeded = 11712  <br/> |Превышено максимальное число значение настраиваемых полей.  <br/> |
-|CustomFieldRequiredValueNotProvided = 11713  <br/> |Необходимое значение настраиваемого поля не предоставлено. См. пример в [Пример кода ошибки для WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
+|CustomFieldRequiredValueNotProvided = 11713  <br/> |Необходимое значение настраиваемого поля не предоставлено. См. [пример кода ошибки для WCF](#pj15_ErrorCodes_WCFExample).  <br/> |
 |CustomFieldCannotChangeLookupTable = 11715  <br/> |Не удается изменить таблицу подстановки настраиваемого поля.  <br/> |
 |CustomFieldFilterInvalid = 11716  <br/> |Недопустимый фильтр настраиваемого поля.  <br/> |
 |CustomFieldRolldownInvalidOnFormulaFields = 11717  <br/> |Не удается выполнить развертывание в настраиваемом поле формул.  <br/> |
@@ -519,7 +519,7 @@ ms.locfileid: "28705598"
 |LookupTableMaskHasGaps = 11002  <br/> |Маска кода таблицы подстановки имеет пробелы.  <br/> |
 |LookupTableMaskSequenceTypeLimitedToOneLevelDeep = 11003  <br/> |Тип последовательности маски кода ограничен одним уровнем.  <br/> |
 |LookupTableMaskSequenceTypeInvalid = 11004  <br/> |Недопустимый тип последовательности маски кода.  <br/> |
-|LookupTableMaskSequenceRequiresAnyLength = 11005  <br/> |Последовательность маски кода запрашивает длину _Any_.  <br/> |
+|LookupTableMaskSequenceRequiresAnyLength = 11005  <br/> |Для последовательности маски кода требуется длина _Any_.  <br/> |
 |LookupTableMaskSeparatorTooLong = 11006  <br/> |Разделитель маски кода содержит слишком много символов.  <br/> |
 |LookupTableMaskLevelMustBeBlankAcrossLCIDs = 11007  <br/> |Уровень маски кода должен быть пустым для всех кодов (или идентификаторов) языка.  <br/> |
 |LookupTableMaskSeparatorInvalid = 11008  <br/> |Недопустимый знак разделителя маски кода.  <br/> |
@@ -582,8 +582,8 @@ ms.locfileid: "28705598"
 |ProjectDetailPagesUnavailableWorker = 32002  <br/> |Сбой загрузки детализации проекта. Нет доступных работников.  <br/> |
 |ProjectDetailPagesFailedToLoadProjectInWorker = 32003  <br/> |Сбой при загрузке работника.  <br/> |
 |AppPermissionInvalidAppPermissionId = 32300  <br/> |Проблема с идентификатором разрешения приложения.  <br/> |
-|InvariantValidationPSIFailed = 40000  <br/> |Возвращается методами **PWA**, если любой из личных методов возвращает **ValidationMethodFailed**. Для внутреннего использования.  <br/> |
-|ValidationMethodFailed = 40001  <br/> |Возвращается личными методами **PWA** при обнаружении ими несоответствий базы данных. Для внутреннего использования.  <br/> |
+|InvariantValidationPSIFailed = 40000  <br/> |Возвращается методами **PWA**, если любой из частных методов возвращает **ValidationMethodFailed**. Для внутреннего использования.  <br/> |
+|ValidationMethodFailed = 40001  <br/> |Возвращается частными методами **PWA** при обнаружении ими несоответствий базы данных. Для внутреннего использования.  <br/> |
 |GeneralExchangeSyncError = 40500  <br/> |Общая ошибка при синхронизации Microsoft Exchange. Для внутреннего использования.  <br/> |
 |ExchangeSyncRootFolderCreationFailed = 40501  <br/> |Не удалось создать корневую папку при синхронизации Microsoft Exchange.  <br/> |
 |ExchangeSyncTaskFolderCreationFailed = 40502  <br/> |Не удалось создать папку задач.  <br/> |
@@ -1316,7 +1316,7 @@ ms.locfileid: "28705598"
 |WorkflowCannotChangeWorkflow = 35109  <br/> |Не удается изменить рабочий процесс.  <br/> |
 |WorkflowWorkflowStatusPDPNotAllowed = 35110  <br/> |Запрещено использовать страницу сведений о проекте для состояния рабочего процесса.  <br/> |
 |WorkflowInvalidWorkflowStatusPDPUid = 35111  <br/> |Недопустимый GUID страницы сведений о проекте для состояния рабочего процесса.  <br/> |
-|WorkflowInvalidStageStatusValue = 35112  <br/> |Значение состояния этапа рабочего процесса является недопустимым. При установке состояния этапа рабочего процесса разрешены только значения **InProgressRequestSent**, **InProgressRunning** и **InProgressWaiting** в [Workflow.StageStatus](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Workflow.StageStatus.aspx).  <br/> |
+|WorkflowInvalidStageStatusValue = 35112  <br/> |Значение состояния стадии рабочего процесса является недопустимым. При установке состояния стадии рабочего процесса разрешены только значения **InProgressRequestSent**, **InProgressRunning** и **InProgressWaiting** в [Workflow.StageStatus](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Workflow.StageStatus.aspx).  <br/> |
 |WorkflowCannotCheckinNotify = 35113  <br/> |Не удается уведомить рабочий процесс о том, что проект возвращен.  <br/> |
 |WorkflowCannotCommitNotify = 35114  <br/> |Не удается уведомить рабочий процесс о том, что проект зафиксирован в планировщике или оптимизаторе.  <br/> |
 |WorkflowExceptionStartingWorkflow = 35115  <br/> |Ошибка при запуске рабочего процесса.  <br/> |
@@ -1332,7 +1332,7 @@ ms.locfileid: "28705598"
 |EnterpriseProjectTypeCannotDeleteEnterpriseProjectType = 35203  <br/> |Не удается удалить тип корпоративного проекта.  <br/> |
 |EnterpriseProjectTypeCannotCreateMultipleEnterpriseProjectTypes = 35204  <br/> |Не удается создать несколько типов корпоративного проекта.  <br/> |
 |EnterpriseProjectTypeCannotUpdateMultipleEnterpriseProjectTypes = 35205  <br/> |Не удается обновить несколько типов корпоративного проекта.  <br/> |
-|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |Шаблон корпоративного проекта (EPT) требует наличия связанной страницы сведений о проекте (PDP) для создания проекта с помощью EPT. Если EPT предназначен для рабочего процесса, такая ошибка возникает во время проверки EPT, когда страница сведений о проекте (PDP) не соответствует типу *Create*. Другие типы PDP: *Normal* — для редактирования проекта; и *Workflow Status* —  для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
+|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |Шаблон корпоративного проекта (EPT) требует наличия связанной страницы сведений о проекте (PDP) для создания проекта с помощью EPT. Если EPT предназначен для рабочего процесса, такая ошибка возникает во время проверки EPT, когда страница сведений о проекте (PDP) не соответствует типу *Create*. Другие типы PDP: *Normal* — для редактирования проекта; *Workflow Status* — для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
 |EnterpriseProjectTypeInvalidProjectPlanTemplateUid = 35207  <br/> |Значение [ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID.aspx) является недопустимым.  <br/> |
 |EnterpriseProjectTypeInvalidWorkspaceTemplateName = 35208  <br/> |Значение [ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME.aspx) является недопустимым.  <br/> |
 |EnterpriseProjectTypeInvalidWorkflowAssociationUid = 35209  <br/> |Значение [WORKFLOW_ASSOCIATION_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.WORKFLOW_ASSOCIATION_UID.aspx) является недопустимым.  <br/> |
@@ -1344,9 +1344,9 @@ ms.locfileid: "28705598"
 |EnterpriseProjectTypeCannotDeleteDefault = 35215  <br/> |Не удается удалить тип корпоративного проекта по умолчанию.  <br/> |
 |EnterpriseProjectTypeCannotChangeDefault = 35216  <br/> |Не удается изменить тип корпоративного проекта по умолчанию.  <br/> |
 |EnterpriseProjectTypeHasProjectsCannotDelete = 35217  <br/> |Не удается удалить тип корпоративного проекта, содержащий проекты.  <br/> |
-|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Шаблон корпоративного проекта (EPT) для рабочего процесса требует наличия связанной страницы сведений о проекте (PDP) типа *Create* для создания проекта с использованием EPT. Эта ошибка возникает, когда страница сведений о проекте не включается в определение типа корпоративного проекта. Другие типы PDP: *Normal* — для редактирования проекта; и *Workflow Status* —  для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
+|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Шаблон корпоративного проекта (EPT) для рабочего процесса требует наличия связанной страницы сведений о проекте (PDP) типа *Create* для создания проекта с использованием EPT. Эта ошибка возникает, когда страница сведений о проекте не включается в определение типа корпоративного проекта. Другие типы PDP: *Normal* — для редактирования проекта; *Workflow Status* — для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
 |EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |Определение шаблона корпоративного проекта допускает только одну страницу сведений о проекте типа *Create*.  <br/> |
-|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Шаблон корпоративного проекта (EPT) для рабочего процесса требует наличия связанной страницы сведений о проекте (PDP) типа *Create* для создания проекта с использованием EPT. Эта ошибка возникает, когда страница сведений о проекте в определении шаблона корпоративного проекта рабочего процесса соответствует другому типу. Другие типы PDP: *Normal* — для редактирования проекта; и *Workflow Status* —  для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
+|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Шаблон корпоративного проекта (EPT) для рабочего процесса требует наличия связанной страницы сведений о проекте (PDP) типа *Create* для создания проекта с использованием EPT. Эта ошибка возникает, когда страница сведений о проекте в определении шаблона корпоративного проекта рабочего процесса соответствует другому типу. Другие типы PDP: *Normal* — для редактирования проекта; *Workflow Status* — для отображения сведений о проекте, связанном с рабочим процессом.  <br/> |
 |EnterpriseProjectTypeInvalidData = 35221  <br/> |**WorkflowDataSet** для типа корпоративного проекта содержит данные, являющиеся недопустимыми.  <br/> |
 |EnterpriseProjectNoDefaultEnterpriseProjectTypeDefined = 35222  <br/> |Не задан тип корпоративного проекта по умолчанию.  <br/> |
 |EnterpriseProjectTypeAtLeastOnePDPIsRequired = 35223  <br/> |Для этого типа корпоративного проекта требуется хотя бы одна страница сведений о проекте.  <br/> |
@@ -1576,7 +1576,7 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 <br/>
 
-Помимо данных в объекте **PSClientError**, объект **FaultException** может включать другие типы ошибок, например сбой при подключении к Project Server. Параметр _errOut_ метода **GetPSClientError** в предыдущем примере показывает дополнительную информацию. Например образец кода **CreateProject4Department** в методе [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) включает комментарии, которые показывают, как создаются ошибки при настройке свойств в таблице **ProjectCustomFields**. Когда приложение запускается, параметр _errOut_ включает элемент **errinfo** и другие данные (форматируемые здесь с вывода консоли). 
+Помимо данных в объекте **PSClientError**, объект **FaultException** может включать другие типы ошибок, например сбой при подключении к Project Server. Параметр _errOut_ метода **GetPSClientError** в предыдущем примере показывает дополнительную информацию. Например, образец кода **CreateProject4Department** в методе [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) включает комментарии, которые показывают, как создаются ошибки при настройке свойств в таблице **ProjectCustomFields**. Когда приложение запускается, параметр _errOut_ включает элемент **errinfo** и другие данные (форматируемые здесь с вывода консоли). 
   
 ```XML
 ==============================
