@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0d36657ac471e7ddd707b11f21d4e6b6b8ce329
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288100"
 ---
-# <a name="parametername-property-dao"></a><span data-ttu-id="8bfc8-102">Свойство Parameter.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="8bfc8-102">Parameter.Name property (DAO)</span></span>
+# <a name="parametername-property-dao"></a><span data-ttu-id="e86dd-102">Свойство Parameter.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="e86dd-102">Parameter.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="8bfc8-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8bfc8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e86dd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e86dd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8bfc8-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="8bfc8-104">Returns the name of the specified object.</span></span> <span data-ttu-id="8bfc8-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="8bfc8-105">Read-only **String**.</span></span>
+<span data-ttu-id="e86dd-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="e86dd-104">Returns the name of the specified object.</span></span> <span data-ttu-id="e86dd-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="e86dd-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8bfc8-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8bfc8-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e86dd-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e86dd-106">Syntax</span></span>
 
-<span data-ttu-id="8bfc8-107">*выражение* . Имя</span><span class="sxs-lookup"><span data-stu-id="8bfc8-107">*expression* .Name</span></span>
+<span data-ttu-id="e86dd-107">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="e86dd-107">*expression* .Name</span></span>
 
-<span data-ttu-id="8bfc8-108">*выражение* Переменная, которая представляет собой объект- **параметр** .</span><span class="sxs-lookup"><span data-stu-id="8bfc8-108">*expression* A variable that represents a **Parameter** object.</span></span>
+<span data-ttu-id="e86dd-108">*Expression (выражение* ) Переменная, представляющая объект **Parameter** .</span><span class="sxs-lookup"><span data-stu-id="e86dd-108">*expression* A variable that represents a **Parameter** object.</span></span>
 

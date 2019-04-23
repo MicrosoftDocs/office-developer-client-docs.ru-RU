@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 029306002946e3743f19a868c3d809a0bd0a079a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288815"
 ---
-# <a name="move-method-example-vj"></a><span data-ttu-id="d0a27-102">Пример использования метода Move (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d0a27-102">Move method example (VJ++)</span></span>
+# <a name="move-method-example-vj"></a><span data-ttu-id="1c790-102">Пример использования метода Move (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1c790-102">Move method example (VJ++)</span></span>
 
 
-<span data-ttu-id="d0a27-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d0a27-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1c790-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c790-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d0a27-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="d0a27-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="1c790-104">В этом примере с помощью метода [Move](move-method-ado.md) замещается указатель записи на основании вводимых пользователем данных.</span><span class="sxs-lookup"><span data-stu-id="1c790-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```java 
  

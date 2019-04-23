@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d8da02821ccb6d1066288b69d2698971aeb00e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288759"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vc"></a><span data-ttu-id="bc373-102">Пример использования методов MoveFirst, MoveLast, MoveNext и MovePrevious (VC++)</span><span class="sxs-lookup"><span data-stu-id="bc373-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vc"></a><span data-ttu-id="0b01c-102">Пример использования методов MoveFirst, MoveLast, MoveNext и MovePrevious (VC++)</span><span class="sxs-lookup"><span data-stu-id="0b01c-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VC++)</span></span>
 
 
-<span data-ttu-id="bc373-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc373-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0b01c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0b01c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bc373-104">В этом примере используется [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) методы для перемещения указателя записи из [набора записей](recordset-object-ado.md) на основании предоставленного команды.</span><span class="sxs-lookup"><span data-stu-id="bc373-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span> <span data-ttu-id="bc373-105">Функция MoveAny является обязательным для выполнения этого примера.</span><span class="sxs-lookup"><span data-stu-id="bc373-105">The MoveAny function is required for this example to run.</span></span>
+<span data-ttu-id="0b01c-104">В этом примере используются методы [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) для перемещения указателя записи объекта [Recordset](recordset-object-ado.md) на основе предоставленной команды.</span><span class="sxs-lookup"><span data-stu-id="0b01c-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span> <span data-ttu-id="0b01c-105">Для запуска этого примера требуется функция Мовеани.</span><span class="sxs-lookup"><span data-stu-id="0b01c-105">The MoveAny function is required for this example to run.</span></span>
 
 ```cpp 
  

@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 76bc583804942f139e311aa75206ecf971ddc2a1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288436"
 ---
-# <a name="open-and-close-methods-example-vbscript"></a><span data-ttu-id="5f8e8-102">Пример использования методов Open и Close (VBScript)</span><span class="sxs-lookup"><span data-stu-id="5f8e8-102">Open and Close methods example (VBScript)</span></span>
+# <a name="open-and-close-methods-example-vbscript"></a><span data-ttu-id="5cde7-102">Пример использования методов Open и Close (VBScript)</span><span class="sxs-lookup"><span data-stu-id="5cde7-102">Open and Close methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="5f8e8-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f8e8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5cde7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5cde7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5f8e8-104">В этом примере использует методы [открытия](open-method-ado-recordset.md) и [закрытия](close-method-ado.md) [набора записей](recordset-object-ado.md) и [подключения](connection-object-ado.md) объектов, которые были открыты.</span><span class="sxs-lookup"><span data-stu-id="5f8e8-104">This example uses the [Open](open-method-ado-recordset.md) and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="5cde7-104">В этом примере используются методы [Open](open-method-ado-recordset.md) и [Close](close-method-ado.md) для объектов [Recordset](recordset-object-ado.md) и [Connections](connection-object-ado.md) , которые были открыты.</span><span class="sxs-lookup"><span data-stu-id="5cde7-104">This example uses the [Open](open-method-ado-recordset.md) and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
-<span data-ttu-id="5f8e8-105">Используйте следующий пример в активную страницу сервера (ASP).</span><span class="sxs-lookup"><span data-stu-id="5f8e8-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="5f8e8-106">Используйте **Поиск** для найдите файл Adovbs.inc и помещения их в каталог, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="5f8e8-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="5f8e8-107">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **OpenVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="5f8e8-107">Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**.</span></span> <span data-ttu-id="5f8e8-108">Результат можно просмотреть в любой браузер.</span><span class="sxs-lookup"><span data-stu-id="5f8e8-108">You can view the result in any browser.</span></span>
+<span data-ttu-id="5cde7-105">Используйте приведенный ниже пример на активной серверной странице (ASP).</span><span class="sxs-lookup"><span data-stu-id="5cde7-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="5cde7-106">Используйте **Find** , чтобы найти файл адовбс. Inc и разместить его в каталоге, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="5cde7-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="5cde7-107">Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **опенвбс. ASP**.</span><span class="sxs-lookup"><span data-stu-id="5cde7-107">Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**.</span></span> <span data-ttu-id="5cde7-108">Вы можете просмотреть результат в любом браузере.</span><span class="sxs-lookup"><span data-stu-id="5cde7-108">You can view the result in any browser.</span></span>
 
 ```vb 
  

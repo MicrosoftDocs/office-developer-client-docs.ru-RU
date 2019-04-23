@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 91b8d66929e360f88385b6773a03fcaffb79161d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288205"
 ---
-# <a name="ordinal-property-ado-md-cell"></a><span data-ttu-id="126f2-102">Свойство Ordinal (Cell в ADO MD)</span><span class="sxs-lookup"><span data-stu-id="126f2-102">Ordinal property (ADO MD Cell)</span></span>
+# <a name="ordinal-property-ado-md-cell"></a><span data-ttu-id="f6a26-102">Свойство Ordinal (Cell в ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f6a26-102">Ordinal property (ADO MD Cell)</span></span>
 
 
-<span data-ttu-id="126f2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="126f2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f6a26-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6a26-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="126f2-104">Однозначно определяет ячейку по ее позиции в рамках набора ячеек.</span><span class="sxs-lookup"><span data-stu-id="126f2-104">Uniquely identifies a cell by its position within a cellset.</span></span>
+<span data-ttu-id="f6a26-104">Уникально определяет ячейку по ее позиции в наборе ячеек.</span><span class="sxs-lookup"><span data-stu-id="f6a26-104">Uniquely identifies a cell by its position within a cellset.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="126f2-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="126f2-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f6a26-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="f6a26-105">Return values</span></span>
 
-<span data-ttu-id="126f2-106">Возвращает значение типа **Long** integer и доступен только для чтения.</span><span class="sxs-lookup"><span data-stu-id="126f2-106">Returns a **Long** integer and is read-only.</span></span>
+<span data-ttu-id="f6a26-106">Возвращает целое значение **типа Long** и доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="f6a26-106">Returns a **Long** integer and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="126f2-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="126f2-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f6a26-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="f6a26-107">Remarks</span></span>
 
-<span data-ttu-id="126f2-108">Порядковый номер ячейки однозначно определяет ячейку в рамках набора ячеек.</span><span class="sxs-lookup"><span data-stu-id="126f2-108">The cell's ordinal value uniquely identifies the cell within a cellset.</span></span> <span data-ttu-id="126f2-109">Концептуально ячеек нумеруются в набора ячеек, как будто ячеек *p*-двумерного массива array, где *p* — это число [осей](axes-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="126f2-109">Conceptually, cells are numbered in a cellset as if the cellset were a *p*-dimensional array, where *p* is the number of [axes](axes-collection-ado-md.md).</span></span> <span data-ttu-id="126f2-110">Ячейки нумеруются, начиная с нуля в строкам.</span><span class="sxs-lookup"><span data-stu-id="126f2-110">Cells are numbered starting from zero in row-major order.</span></span>
+<span data-ttu-id="f6a26-108">Порядковое значение ячейки однозначно определяет ячейку в наборе ячеек.</span><span class="sxs-lookup"><span data-stu-id="f6a26-108">The cell's ordinal value uniquely identifies the cell within a cellset.</span></span> <span data-ttu-id="f6a26-109">Как концептуально, ячейки пронумерованы в наборе ячеек, как если бы набор ячеек был \*\* одномерным массивом, где *p* — это количество [осей](axes-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="f6a26-109">Conceptually, cells are numbered in a cellset as if the cellset were a *p*-dimensional array, where *p* is the number of [axes](axes-collection-ado-md.md).</span></span> <span data-ttu-id="f6a26-110">Нумерация ячеек начинается с нуля в порядке строки основной.</span><span class="sxs-lookup"><span data-stu-id="f6a26-110">Cells are numbered starting from zero in row-major order.</span></span>
 
-<span data-ttu-id="126f2-111">Порядковый номер ячейки можно использовать свойство [Item](item-property-ado-md-cellset.md) объекта [ячеек](cellset-object-ado-md.md) для быстрого извлечения [ячейки](cell-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="126f2-111">The cell's ordinal value can be used with the [Item](item-property-ado-md-cellset.md) property of the [Cellset](cellset-object-ado-md.md) object to quickly retrieve the [Cell](cell-object-ado-md.md).</span></span>
+<span data-ttu-id="f6a26-111">Порядковое значение ячейки можно использовать вместе со свойством [Item](item-property-ado-md-cellset.md) объекта [Cell](cellset-object-ado-md.md) , чтобы быстро извлечь [ячейку](cell-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="f6a26-111">The cell's ordinal value can be used with the [Item](item-property-ado-md-cellset.md) property of the [Cellset](cellset-object-ado-md.md) object to quickly retrieve the [Cell](cell-object-ado-md.md).</span></span>
 

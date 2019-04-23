@@ -1,5 +1,5 @@
 ---
-title: 'Пример: свойства ActiveConnection CommandText, CommandTimeout (VC ++)'
+title: Пример свойств ActiveConnection, CommandText, CommandTimeout (VC + +)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
 ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 50604f870a4902a7b6a5c26bb687fdc7dba17864
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280559"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a><span data-ttu-id="89a90-102">Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (VC++)</span><span class="sxs-lookup"><span data-stu-id="89a90-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a><span data-ttu-id="8b822-102">Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (VC++)</span><span class="sxs-lookup"><span data-stu-id="8b822-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)</span></span>
 
-<span data-ttu-id="89a90-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="89a90-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8b822-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b822-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="89a90-104">В этом примере использует [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [размер](size-property-ado.md)и [направление](direction-property-ado.md) свойства для выполнения хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="89a90-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="8b822-104">В этом примере используются свойства [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [size](size-property-ado.md)и [Direction](direction-property-ado.md) для выполнения хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="8b822-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```cpp 
  
@@ -202,7 +202,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="89a90-105">**ActiveConnectionX.h**</span><span class="sxs-lookup"><span data-stu-id="89a90-105">**ActiveConnectionX.h**</span></span>
+<span data-ttu-id="8b822-105">**Активеконнектионкс. h**</span><span class="sxs-lookup"><span data-stu-id="8b822-105">**ActiveConnectionX.h**</span></span>
 
 ```cpp 
  

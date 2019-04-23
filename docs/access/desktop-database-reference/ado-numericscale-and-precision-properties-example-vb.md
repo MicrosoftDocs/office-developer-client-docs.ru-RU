@@ -1,5 +1,5 @@
 ---
-title: Пример свойства ADO NumericScale и точность (VB)
+title: Пример свойств ADO NumericScale и Precision (VB)
 TOCTitle: NumericScale and Precision properties example (VB)
 ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2c234de05db031790f7241ed686fe4d86d83dc7d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283277"
 ---
-# <a name="ado-numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="8f177-102">Пример свойства ADO NumericScale и точность (VB)</span><span class="sxs-lookup"><span data-stu-id="8f177-102">ADO NumericScale and Precision properties example (VB)</span></span>
+# <a name="ado-numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="d2023-102">Пример свойств ADO NumericScale и Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="d2023-102">ADO NumericScale and Precision properties example (VB)</span></span>
 
 
-<span data-ttu-id="8f177-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8f177-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2023-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2023-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8f177-104">В этом примере с помощью свойства [NumericScale](numericscale-property-ado.md) и [точность](precision-property-ado.md) для отображения числовых масштаб и точность поля в таблице ***скидок*** базы данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="8f177-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="d2023-104">В этом примере используются свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) для отображения числового масштаба и точности полей в таблице ***скидок*** базы данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="d2023-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```vb 
  

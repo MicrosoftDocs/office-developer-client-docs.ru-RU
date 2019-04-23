@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d7a10bac3c02a771518038351bc4d0b780c0e774
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287785"
 ---
-# <a name="parentcatalog-property-adox"></a><span data-ttu-id="3dcb7-102">Свойство ParentCatalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="3dcb7-102">ParentCatalog property (ADOX)</span></span>
+# <a name="parentcatalog-property-adox"></a><span data-ttu-id="af0ec-102">Свойство ParentCatalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="af0ec-102">ParentCatalog property (ADOX)</span></span>
 
 
-<span data-ttu-id="3dcb7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3dcb7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="af0ec-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="af0ec-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3dcb7-104">Указывает каталог родительской таблицы или столбца для предоставления доступа к свойствам конкретного поставщика.</span><span class="sxs-lookup"><span data-stu-id="3dcb7-104">Specifies the parent catalog of a table or column to provide access to provider-specific properties.</span></span>
+<span data-ttu-id="af0ec-104">Задает родительский каталог таблицы или столбца для предоставления доступа к свойствам, зависящим от поставщика.</span><span class="sxs-lookup"><span data-stu-id="af0ec-104">Specifies the parent catalog of a table or column to provide access to provider-specific properties.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="3dcb7-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="3dcb7-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="af0ec-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="af0ec-105">Settings and return values</span></span>
 
-<span data-ttu-id="3dcb7-106">Задает и возвращает объект [каталога](catalog-object-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="3dcb7-106">Sets and returns a [Catalog](catalog-object-adox.md) object.</span></span> <span data-ttu-id="3dcb7-107">Параметру **ParentCatalog** open **каталога** позволяет получить доступ к свойствам конкретного поставщика перед добавлением таблицы или столбца в коллекцию **каталога** .</span><span class="sxs-lookup"><span data-stu-id="3dcb7-107">Setting **ParentCatalog** to an open **Catalog** allows access to provider-specific properties prior to appending a table or column to a **Catalog** collection.</span></span>
+<span data-ttu-id="af0ec-106">Задает и возвращает объект [Catalog](catalog-object-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="af0ec-106">Sets and returns a [Catalog](catalog-object-adox.md) object.</span></span> <span data-ttu-id="af0ec-107">Установка **ParentCatalog** в открытый **Каталог** позволяет получить доступ к свойствам, зависящим от поставщика, перед добавлением таблицы или столбца в коллекцию **каталогов** .</span><span class="sxs-lookup"><span data-stu-id="af0ec-107">Setting **ParentCatalog** to an open **Catalog** allows access to provider-specific properties prior to appending a table or column to a **Catalog** collection.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3dcb7-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="3dcb7-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="af0ec-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="af0ec-108">Remarks</span></span>
 
-<span data-ttu-id="3dcb7-109">Некоторые поставщики данных Разрешить значения свойства от поставщика для записи только при создании (если таблицы или столбца добавляется к коллекции **каталога** ).</span><span class="sxs-lookup"><span data-stu-id="3dcb7-109">Some data providers allow provider-specific property values to be written only at creation (when a table or column is appended to its **Catalog** collection).</span></span> <span data-ttu-id="3dcb7-110">Для доступа к этим свойствам перед добавлением этих объектов **каталога**, укажите **каталога** в свойстве **ParentCatalog** сначала.</span><span class="sxs-lookup"><span data-stu-id="3dcb7-110">To access these properties before appending these objects to a **Catalog**, specify the **Catalog** in the **ParentCatalog** property first.</span></span>
+<span data-ttu-id="af0ec-109">Некоторые поставщики данных позволяют записывать значения свойств, специфичные для поставщика, только при создании (при добавлении таблицы или столбца в коллекцию **каталогов** ).</span><span class="sxs-lookup"><span data-stu-id="af0ec-109">Some data providers allow provider-specific property values to be written only at creation (when a table or column is appended to its **Catalog** collection).</span></span> <span data-ttu-id="af0ec-110">Чтобы получить доступ к этим свойствам перед добавлением этих объектов в **Каталог**, сначала укажите **Каталог** в свойстве **ParentCatalog** .</span><span class="sxs-lookup"><span data-stu-id="af0ec-110">To access these properties before appending these objects to a **Catalog**, specify the **Catalog** in the **ParentCatalog** property first.</span></span>
 
-<span data-ttu-id="3dcb7-111">Когда таблицы или столбца добавляется другой **каталог** чем **ParentCatalog**возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="3dcb7-111">An error occurs when the table or column is appended to a different **Catalog** than the **ParentCatalog**.</span></span>
+<span data-ttu-id="af0ec-111">Ошибка возникает, когда таблица или столбец добавляются в каталог, отличный от **каталога** **ParentCatalog**.</span><span class="sxs-lookup"><span data-stu-id="af0ec-111">An error occurs when the table or column is appended to a different **Catalog** than the **ParentCatalog**.</span></span>
 

@@ -8,30 +8,30 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a80b089fa72ef01eb1b4b2f1dae494e002c6a6fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281958"
 ---
-# <a name="accessing-rows-in-a-hierarchical-recordset"></a><span data-ttu-id="77b34-102">Доступ к строкам в иерархическом наборе записей</span><span class="sxs-lookup"><span data-stu-id="77b34-102">Accessing rows in a hierarchical Recordset</span></span>
+# <a name="accessing-rows-in-a-hierarchical-recordset"></a><span data-ttu-id="d183c-102">Доступ к строкам в иерархическом наборе записей</span><span class="sxs-lookup"><span data-stu-id="d183c-102">Accessing rows in a hierarchical Recordset</span></span>
 
-<span data-ttu-id="77b34-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="77b34-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d183c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d183c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="77b34-104">В следующем примере показано действия, необходимые для доступа к строк в иерархической [набора записей](recordset-object-ado.md):</span><span class="sxs-lookup"><span data-stu-id="77b34-104">The following example shows the steps necessary to access rows in a hierarchical [Recordset](recordset-object-ado.md):</span></span>
+<span data-ttu-id="d183c-104">В следующем примере показаны действия, необходимые для доступа к строкам в иерархическом [наборе записей](recordset-object-ado.md):</span><span class="sxs-lookup"><span data-stu-id="d183c-104">The following example shows the steps necessary to access rows in a hierarchical [Recordset](recordset-object-ado.md):</span></span>
 
-1. <span data-ttu-id="77b34-105">Объекты **набора записей** из авторов и titleauthor таблицы связаны с идентификатором автора.</span><span class="sxs-lookup"><span data-stu-id="77b34-105">**Recordset** objects from the authors and titleauthor tables are related by author ID.</span></span>
+1. <span data-ttu-id="d183c-105">Объекты **Recordset** из таблиц Authors и титлеаусор связаны по идентификатору автора.</span><span class="sxs-lookup"><span data-stu-id="d183c-105">**Recordset** objects from the authors and titleauthor tables are related by author ID.</span></span>
 
-2. <span data-ttu-id="77b34-106">Внешний цикл отображается имя и фамилию, состояние и идентификации каждого автора.</span><span class="sxs-lookup"><span data-stu-id="77b34-106">The outer loop displays each author's first and last name, state, and identification.</span></span>
+2. <span data-ttu-id="d183c-106">В внешнем цикле отображаются имя, состояние и идентификатор каждого автора.</span><span class="sxs-lookup"><span data-stu-id="d183c-106">The outer loop displays each author's first and last name, state, and identification.</span></span>
 
-3. <span data-ttu-id="77b34-107">Добавленный **набора записей** для каждой строки извлекается из коллекции **полей** и назначается *rstTitleAuthor*.</span><span class="sxs-lookup"><span data-stu-id="77b34-107">The appended **Recordset** for each row is retrieved from the **Fields** collection and assigned to *rstTitleAuthor*.</span></span>
+3. <span data-ttu-id="d183c-107">Добавленный **набор записей** для каждой строки извлекается из коллекции **Fields** и назначается *рсттитлеаусор*.</span><span class="sxs-lookup"><span data-stu-id="d183c-107">The appended **Recordset** for each row is retrieved from the **Fields** collection and assigned to *rstTitleAuthor*.</span></span>
 
-4. <span data-ttu-id="77b34-108">Внутренний цикл отображаются четыре поля из каждой строки в присоединенной **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="77b34-108">The inner loop displays four fields from each row in the appended **Recordset**.</span></span>
+4. <span data-ttu-id="d183c-108">Внутренний цикл отображает четыре поля из каждой строки добавленного **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="d183c-108">The inner loop displays four fields from each row in the appended **Recordset**.</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="77b34-109">Свойство [StayInSync](stayinsync-property-ado.md) присвоено значение FALSE для наглядности, чтобы увидеть, главы явным образом изменить в каждой итерации внешнего цикла.</span><span class="sxs-lookup"><span data-stu-id="77b34-109">The [StayInSync](stayinsync-property-ado.md) property is set to FALSE for purposes of illustration, so you can see the chapter change explicitly in each iteration of the outer loop.</span></span> <span data-ttu-id="77b34-110">Тем не менее пример будет более эффективным, если назначение на шаге 3 перемещается перед первой строки на шаге 2, поэтому назначения выполняется только один раз.</span><span class="sxs-lookup"><span data-stu-id="77b34-110">However, the example will be more efficient if the assignment in step 3 is moved before the first line in step 2, so that the assignment is performed only once.</span></span> <span data-ttu-id="77b34-111">Присвойте свойству **StayInSync** значение TRUE, поэтому *rstTitleAuthor* неявно и автоматически изменится на соответствующий главы каждый раз, когда *rst* перемещает на новую строку.</span><span class="sxs-lookup"><span data-stu-id="77b34-111">Set the **StayInSync** property to TRUE, so that *rstTitleAuthor* will implicitly and automatically change to the corresponding chapter whenever *rst* moves to a new row.</span></span>
+> <span data-ttu-id="d183c-109">Для иллюстрации в свойстве [StayInSync](stayinsync-property-ado.md) ЗАДАНО значение false, поэтому в каждой итерации внешнего цикла можно увидеть изменение главы явным образом.</span><span class="sxs-lookup"><span data-stu-id="d183c-109">The [StayInSync](stayinsync-property-ado.md) property is set to FALSE for purposes of illustration, so you can see the chapter change explicitly in each iteration of the outer loop.</span></span> <span data-ttu-id="d183c-110">Однако этот пример будет эффективнее, если назначение на шаге 3 перемещается перед первой строкой на шаге 2, чтобы назначение выполнялось только один раз.</span><span class="sxs-lookup"><span data-stu-id="d183c-110">However, the example will be more efficient if the assignment in step 3 is moved before the first line in step 2, so that the assignment is performed only once.</span></span> <span data-ttu-id="d183c-111">Задайте для свойства **STAYINSYNC** значение true, чтобы *рсттитлеаусор* неявно и автоматически переместились в соответствующую главу, когда *RST* перемещается в новую строку.</span><span class="sxs-lookup"><span data-stu-id="d183c-111">Set the **StayInSync** property to TRUE, so that *rstTitleAuthor* will implicitly and automatically change to the corresponding chapter whenever *rst* moves to a new row.</span></span>
 
-<span data-ttu-id="77b34-112">**Пример**</span><span class="sxs-lookup"><span data-stu-id="77b34-112">**Example**</span></span>
+<span data-ttu-id="d183c-112">**Пример**</span><span class="sxs-lookup"><span data-stu-id="d183c-112">**Example**</span></span>
 
 ```vb 
  

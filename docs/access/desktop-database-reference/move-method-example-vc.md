@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b5136c9b07d1d450f7b08d823175febb8716ad4c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288822"
 ---
-# <a name="move-method-example-vc"></a><span data-ttu-id="28959-102">Пример использования метода Move (VC++)</span><span class="sxs-lookup"><span data-stu-id="28959-102">Move method example (VC++)</span></span>
+# <a name="move-method-example-vc"></a><span data-ttu-id="76e05-102">Пример использования метода Move (VC++)</span><span class="sxs-lookup"><span data-stu-id="76e05-102">Move method example (VC++)</span></span>
 
-<span data-ttu-id="28959-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="28959-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76e05-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76e05-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="28959-104">В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.</span><span class="sxs-lookup"><span data-stu-id="28959-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="76e05-104">В этом примере с помощью метода [Move](move-method-ado.md) замещается указатель записи на основании вводимых пользователем данных.</span><span class="sxs-lookup"><span data-stu-id="76e05-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```cpp 
  
@@ -257,7 +257,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="28959-105">**MoveX.h**</span><span class="sxs-lookup"><span data-stu-id="28959-105">**MoveX.h**</span></span>
+<span data-ttu-id="76e05-105">**Мовекс. h**</span><span class="sxs-lookup"><span data-stu-id="76e05-105">**MoveX.h**</span></span>
 
 ```cpp
 // BeginMoveH 

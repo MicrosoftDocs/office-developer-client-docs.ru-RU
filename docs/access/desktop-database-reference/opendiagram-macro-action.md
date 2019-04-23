@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f4273d6858ad98b723d66ba32fe3b9aa7c902d31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288359"
 ---
-# <a name="opendiagram-macro-action"></a><span data-ttu-id="948f7-102">Макрокоманда OpenDiagram</span><span class="sxs-lookup"><span data-stu-id="948f7-102">OpenDiagram macro action</span></span>
+# <a name="opendiagram-macro-action"></a><span data-ttu-id="9b5d8-102">Макрокоманда OpenDiagram</span><span class="sxs-lookup"><span data-stu-id="9b5d8-102">OpenDiagram macro action</span></span>
 
-<span data-ttu-id="948f7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="948f7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9b5d8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b5d8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="948f7-104">В проекте Microsoft Access можно использовать действие **OpenDiagram** для открытия схемы базы данных в режиме конструктора.</span><span class="sxs-lookup"><span data-stu-id="948f7-104">In an Access project, you can use the **OpenDiagram** action to open a database diagram in Design view.</span></span>
+<span data-ttu-id="9b5d8-104">В проекте Access вы можете использовать действие **опендиаграм** , чтобы открыть схему базы данных в режиме конструктора.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-104">In an Access project, you can use the **OpenDiagram** action to open a database diagram in Design view.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="948f7-105">Это действие не разрешено, если база данных не является доверенной.</span><span class="sxs-lookup"><span data-stu-id="948f7-105">This action will not be allowed if the database is not trusted.</span></span> 
+> <span data-ttu-id="9b5d8-105">Эта макрокоманда доступна только для доверенных баз данных.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-105">This action will not be allowed if the database is not trusted.</span></span> 
 
-## <a name="setting"></a><span data-ttu-id="948f7-106">Setting</span><span class="sxs-lookup"><span data-stu-id="948f7-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="9b5d8-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="9b5d8-106">Setting</span></span>
 
-<span data-ttu-id="948f7-107">Действие **OpenDiagram** использует следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="948f7-107">The **OpenDiagram** action has the following argument.</span></span>
+<span data-ttu-id="9b5d8-107">Действие **опендиаграм** имеет следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-107">The **OpenDiagram** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -38,24 +38,24 @@ ms.locfileid: "28719626"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="948f7-108">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="948f7-108">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="948f7-109">Описание</span><span class="sxs-lookup"><span data-stu-id="948f7-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="9b5d8-108">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="9b5d8-108">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="9b5d8-109">Описание</span><span class="sxs-lookup"><span data-stu-id="9b5d8-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="948f7-110"><strong>Имя схемы</strong></span><span class="sxs-lookup"><span data-stu-id="948f7-110"><strong>Diagram Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="948f7-111">Имя схемы базы данных, чтобы открыть.</span><span class="sxs-lookup"><span data-stu-id="948f7-111">The name of the database diagram to open.</span></span> <span data-ttu-id="948f7-112">В поле <strong>Имя схемы</strong> в разделе <strong>Действие аргументы</strong> в области построения макросов показывает все схемы базы данных в текущей базе данных.</span><span class="sxs-lookup"><span data-stu-id="948f7-112">The <strong>Diagram Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane shows all database diagrams in the current database.</span></span> <span data-ttu-id="948f7-113">Обязательный аргумент.</span><span class="sxs-lookup"><span data-stu-id="948f7-113">This is a required argument.</span></span> <span data-ttu-id="948f7-114">Если макрос, содержащий <strong>OpenDiagram</strong> действие в базе данных библиотеки, Microsoft Access сначала выполняет поиск схемы с этим именем в базе данных библиотеки, а затем в текущей базе данных.</span><span class="sxs-lookup"><span data-stu-id="948f7-114">If you run a macro containing the <strong>OpenDiagram</strong> action in a library database, Microsoft Access first looks for the diagram with this name in the library database, and then in the current database.</span></span></p></td>
+<td><p><span data-ttu-id="9b5d8-110"><strong>Имя схемы</strong></span><span class="sxs-lookup"><span data-stu-id="9b5d8-110"><strong>Diagram Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="9b5d8-111">Имя схемы базы данных, которую требуется открыть.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-111">The name of the database diagram to open.</span></span> <span data-ttu-id="9b5d8-112">В поле <strong>имя схемы</strong> в разделе <strong>аргументы макрокоманды</strong> области построителя макросов отображаются все схемы базы данных в текущей базе данных.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-112">The <strong>Diagram Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane shows all database diagrams in the current database.</span></span> <span data-ttu-id="9b5d8-113">Обязательный аргумент.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-113">This is a required argument.</span></span> <span data-ttu-id="9b5d8-114">При запуске макроса, содержащего действие <strong>опендиаграм</strong> , в библиотечной базе данных Microsoft Access сначала выполняет поиск схемы с этим именем в библиотечной базе данных, а затем в текущей базе данных.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-114">If you run a macro containing the <strong>OpenDiagram</strong> action in a library database, Microsoft Access first looks for the diagram with this name in the library database, and then in the current database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a><span data-ttu-id="948f7-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="948f7-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9b5d8-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="9b5d8-115">Remarks</span></span>
 
-<span data-ttu-id="948f7-116">Это действие аналогично дважды щелкнув схемы базы данных в области навигации или щелкнув правой кнопкой мыши на схеме базы данных в области навигации и затем выбрав **Представление конструирования**.</span><span class="sxs-lookup"><span data-stu-id="948f7-116">This action is similar to double-clicking a database diagram in the Navigation Pane, or right-clicking the database diagram in the Navigation Pane and then clicking **Design View**.</span></span>
+<span data-ttu-id="9b5d8-116">Это действие аналогично двойному щелчку схемы базы данных в области навигации или щелчку правой кнопкой мыши схемы базы данных в области навигации и выбора **режима конструктора**.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-116">This action is similar to double-clicking a database diagram in the Navigation Pane, or right-clicking the database diagram in the Navigation Pane and then clicking **Design View**.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="948f7-117">Схемы базы данных можно перетаскивать из области переходов в строку действие в макросе.</span><span class="sxs-lookup"><span data-stu-id="948f7-117">You can drag a database diagram from the Navigation Pane to a macro action row.</span></span> <span data-ttu-id="948f7-118">Это автоматически создает **ОткрытьСхему открывает схему базы данных в режиме конструктора** .</span><span class="sxs-lookup"><span data-stu-id="948f7-118">This automatically creates an **OpenDiagram** action that opens the database diagram in Design view.</span></span>
+> <span data-ttu-id="9b5d8-117">Схему базы данных можно перетащить из области навигации в строку макрокоманды.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-117">You can drag a database diagram from the Navigation Pane to a macro action row.</span></span> <span data-ttu-id="9b5d8-118">При этом автоматически создается действие **опендиаграм** , которое открывает схему базы данных в представлении конструктора.</span><span class="sxs-lookup"><span data-stu-id="9b5d8-118">This automatically creates an **OpenDiagram** action that opens the database diagram in Design view.</span></span>
 
-<span data-ttu-id="948f7-119">Чтобы выполнить действие **OpenDiagram** в Visual Basic для приложений (VBA) модуль, используйте метод **OpenDiagram** **объекта** .</span><span class="sxs-lookup"><span data-stu-id="948f7-119">To run the **OpenDiagram** action in a Visual Basic for Applications (VBA) module, use the **OpenDiagram** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="9b5d8-119">Чтобы запустить действие **опендиаграм** в модуле Visual Basic для приложений (VBA), используйте метод **опендиаграм** объекта **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="9b5d8-119">To run the **OpenDiagram** action in a Visual Basic for Applications (VBA) module, use the **OpenDiagram** method of the **DoCmd** object.</span></span>
 

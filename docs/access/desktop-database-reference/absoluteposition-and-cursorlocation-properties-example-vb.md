@@ -8,18 +8,18 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a8a030a586edc715ac62580510f9cd200b21eb3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282000"
 ---
-# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a><span data-ttu-id="50365-102">Пример использования свойств AbsolutePosition и CursorLocation (VB)</span><span class="sxs-lookup"><span data-stu-id="50365-102">AbsolutePosition and CursorLocation properties example (VB)</span></span>
+# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a><span data-ttu-id="86c0b-102">Пример использования свойств AbsolutePosition и CursorLocation (VB)</span><span class="sxs-lookup"><span data-stu-id="86c0b-102">AbsolutePosition and CursorLocation properties example (VB)</span></span>
 
 
-<span data-ttu-id="50365-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50365-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="86c0b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86c0b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="50365-104">В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) можно отслеживать цикл, который перечисляет все записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="50365-104">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="50365-105">Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойство **AbsolutePosition** , установив курсор на курсор клиента.</span><span class="sxs-lookup"><span data-stu-id="50365-105">It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.</span></span>
+<span data-ttu-id="86c0b-104">В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) может отслеживать ход выполнения цикла, который перечисляет все записи в объекте [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="86c0b-104">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="86c0b-105">Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойства **AbsolutePosition** путем установки курсора на клиентский курсор.</span><span class="sxs-lookup"><span data-stu-id="86c0b-105">It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor.</span></span>
 
 ```vb 
  

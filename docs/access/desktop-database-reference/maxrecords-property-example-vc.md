@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c3c68aeaf44491c15adac6040289437f1a132982
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289709"
 ---
-# <a name="maxrecords-property-example-vc"></a><span data-ttu-id="199ba-102">Пример использования свойства MaxRecords (VC++)</span><span class="sxs-lookup"><span data-stu-id="199ba-102">MaxRecords property example (VC++)</span></span>
+# <a name="maxrecords-property-example-vc"></a><span data-ttu-id="65a73-102">Пример использования свойства MaxRecords (VC++)</span><span class="sxs-lookup"><span data-stu-id="65a73-102">MaxRecords property example (VC++)</span></span>
 
 
-<span data-ttu-id="199ba-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="199ba-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="65a73-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65a73-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="199ba-104">В этом примере используется свойство [MaxRecords](maxrecords-property-ado.md) для открытия [набора записей](recordset-object-ado.md) , содержащий 10 самых больших затрат заголовков в таблице ***заголовки*** .</span><span class="sxs-lookup"><span data-stu-id="199ba-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="65a73-104">В этом примере используется свойство [maxRecords](maxrecords-property-ado.md) для открытия объекта [Recordset](recordset-object-ado.md) , содержащего 10 наиболее дорогих заголовков в таблице ***titles*** .</span><span class="sxs-lookup"><span data-stu-id="65a73-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```cpp 
  

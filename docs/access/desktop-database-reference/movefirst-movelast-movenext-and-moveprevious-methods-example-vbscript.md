@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a4863a222eaa777897242895ea2758219eea619
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288773"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript"></a><span data-ttu-id="e6728-102">Пример использования методов MoveFirst, MoveLast, MoveNext и MovePrevious (VBScript)</span><span class="sxs-lookup"><span data-stu-id="e6728-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript"></a><span data-ttu-id="69f0e-102">Пример использования методов MoveFirst, MoveLast, MoveNext и MovePrevious (VBScript)</span><span class="sxs-lookup"><span data-stu-id="69f0e-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="e6728-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e6728-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69f0e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69f0e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e6728-104">В этом примере используется [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) методы для перемещения указателя записи из [набора записей](recordset-object-ado.md) на основании предоставленного команды.</span><span class="sxs-lookup"><span data-stu-id="e6728-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span>
+<span data-ttu-id="69f0e-104">В этом примере используются методы [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) для перемещения указателя записи объекта [Recordset](recordset-object-ado.md) на основе предоставленной команды.</span><span class="sxs-lookup"><span data-stu-id="69f0e-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span>
 
-<span data-ttu-id="e6728-105">Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **MoveFirstVBS.asp**.</span><span class="sxs-lookup"><span data-stu-id="e6728-105">Cut and paste the following code into Notepad or another text editor, and save it as **MoveFirstVBS.asp**.</span></span> <span data-ttu-id="e6728-106">Результат можно просмотреть в любой браузер.</span><span class="sxs-lookup"><span data-stu-id="e6728-106">You can view the result in any browser.</span></span>
+<span data-ttu-id="69f0e-105">Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **мовефирствбс. ASP**.</span><span class="sxs-lookup"><span data-stu-id="69f0e-105">Cut and paste the following code into Notepad or another text editor, and save it as **MoveFirstVBS.asp**.</span></span> <span data-ttu-id="69f0e-106">Вы можете просмотреть результат в любом браузере.</span><span class="sxs-lookup"><span data-stu-id="69f0e-106">You can view the result in any browser.</span></span>
 
 ```vb 
  

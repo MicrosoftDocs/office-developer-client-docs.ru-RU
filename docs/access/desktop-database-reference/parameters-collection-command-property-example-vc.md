@@ -1,5 +1,5 @@
 ---
-title: Коллекции параметров, пример свойства команды (VC ++)
+title: Коллекция Parameters, пример свойства Command (VC + +)
 TOCTitle: Parameters Collection, Command property example (VC++)
 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9d0f5b2996fe7021c11454bff9d49c0c932bf8e3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287911"
 ---
-# <a name="parameters-collection-command-property-example-vc"></a><span data-ttu-id="4be93-102">Коллекции параметров, пример свойства команды (VC ++)</span><span class="sxs-lookup"><span data-stu-id="4be93-102">Parameters Collection, Command property example (VC++)</span></span>
+# <a name="parameters-collection-command-property-example-vc"></a><span data-ttu-id="cec04-102">Коллекция Parameters, пример свойства Command (VC + +)</span><span class="sxs-lookup"><span data-stu-id="cec04-102">Parameters Collection, Command property example (VC++)</span></span>
 
 
-<span data-ttu-id="4be93-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4be93-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cec04-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cec04-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4be93-104">Следующий код демонстрирует использование свойства [команда](command-property-adox.md) с помощью объекта [команды](command-object-ado.md) для получения сведений о параметрах для выполнения процедуры.</span><span class="sxs-lookup"><span data-stu-id="4be93-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
+<span data-ttu-id="cec04-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.</span><span class="sxs-lookup"><span data-stu-id="cec04-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
 
 ```cpp 
  
