@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0002f571a2022a7975271c40e9204864824bdb92
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314492"
 ---
-# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="6fa3a-102">Пример использования свойства StayInSync (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6fa3a-102">StayInSync property example (VJ++)</span></span>
+# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="21803-102">Пример использования свойства StayInSync (VJ++)</span><span class="sxs-lookup"><span data-stu-id="21803-102">StayInSync property example (VJ++)</span></span>
 
 
-<span data-ttu-id="6fa3a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6fa3a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="21803-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="21803-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6fa3a-104">В этом примере показано, как свойство [StayInSync](stayinsync-property-ado.md) упрощает доступ к строк в иерархической [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6fa3a-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="21803-104">В этом примере показано, как свойство [StayInSync](stayinsync-property-ado.md) упрощает доступ к строкам в иерархическом [наборе записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="21803-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="6fa3a-105">Внешний цикл отображается имя и фамилию, состояние и идентификации каждого автора.</span><span class="sxs-lookup"><span data-stu-id="6fa3a-105">The outer loop displays each author's first and last name, state, and identification.</span></span> <span data-ttu-id="6fa3a-106">Добавленный **набора записей** для каждой строки извлекается из коллекции [полей](fields-collection-ado.md) и автоматически назначается **rstTitleAuthor** свойством **StayInSync** при перемещении родительского **набора записей** на новую строку.</span><span class="sxs-lookup"><span data-stu-id="6fa3a-106">The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row.</span></span> <span data-ttu-id="6fa3a-107">Внутренний цикл отображаются четыре поля из каждой строки в присоединенной записей.</span><span class="sxs-lookup"><span data-stu-id="6fa3a-107">The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="21803-105">В внешнем цикле отображаются имя, состояние и идентификатор каждого автора.</span><span class="sxs-lookup"><span data-stu-id="21803-105">The outer loop displays each author's first and last name, state, and identification.</span></span> <span data-ttu-id="21803-106">Добавленный **набор записей** для каждой строки извлекается из коллекции [Fields](fields-collection-ado.md) и автоматически назначается свойству **рсттитлеаусор** , когда родительский объект **Recordset** перемещается в новую строку. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="21803-106">The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row.</span></span> <span data-ttu-id="21803-107">Внутренний цикл отображает четыре поля из каждой строки добавленного набора записей.</span><span class="sxs-lookup"><span data-stu-id="21803-107">The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```java 
  

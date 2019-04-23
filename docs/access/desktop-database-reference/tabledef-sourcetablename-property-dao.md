@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef.SourceTableName (DAO)
+title: Свойство TableDef. SourceTableName (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -12,32 +12,32 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bd2610e728d97d3a9fc2f6359a42fd3cdccb11e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314261"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a><span data-ttu-id="0c259-102">Свойство TableDef.SourceTableName (DAO)</span><span class="sxs-lookup"><span data-stu-id="0c259-102">TableDef.SourceTableName property (DAO)</span></span>
+# <a name="tabledefsourcetablename-property-dao"></a><span data-ttu-id="9c78f-102">Свойство TableDef. SourceTableName (DAO)</span><span class="sxs-lookup"><span data-stu-id="9c78f-102">TableDef.SourceTableName property (DAO)</span></span>
 
 
-<span data-ttu-id="0c259-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0c259-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="9c78f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c78f-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="0c259-104">Задает или возвращает значение, указывающее имя связанной таблицы или имя таблицы (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="0c259-104">Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="9c78f-104">Задает или возвращает значение, задающее имя связанной таблицы или имя базовой таблицы (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="9c78f-104">Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0c259-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0c259-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9c78f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9c78f-105">Syntax</span></span>
 
-<span data-ttu-id="0c259-106">*выражение* . SourceTableName</span><span class="sxs-lookup"><span data-stu-id="0c259-106">*expression* .SourceTableName</span></span>
+<span data-ttu-id="9c78f-106">*Expression* . SourceTableName</span><span class="sxs-lookup"><span data-stu-id="9c78f-106">*expression* .SourceTableName</span></span>
 
-<span data-ttu-id="0c259-107">*выражение* Переменная, которая представляет собой объект- **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="0c259-107">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="9c78f-107">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="9c78f-107">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0c259-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="0c259-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9c78f-108">Комментарии</span><span class="sxs-lookup"><span data-stu-id="9c78f-108">Remarks</span></span>
 
-<span data-ttu-id="0c259-109">Этот параметр свойства доступен только для чтения для базовой таблицы, а также чтения и записи для связанной таблицы и не добавляется к коллекции объектов.</span><span class="sxs-lookup"><span data-stu-id="0c259-109">This property setting is read-only for a base table and read/write for a linked table or an object not appended to a collection.</span></span> <span data-ttu-id="0c259-110">Для базовой таблицы параметр — это строка нулевой длины (»»).</span><span class="sxs-lookup"><span data-stu-id="0c259-110">For a base table, the setting is a zero-length string ("").</span></span>
+<span data-ttu-id="9c78f-109">Это свойство предназначено только для чтения для базовой таблицы, а также для чтения и записи для связанной таблицы или объекта, не добавленного в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="9c78f-109">This property setting is read-only for a base table and read/write for a linked table or an object not appended to a collection.</span></span> <span data-ttu-id="9c78f-110">Для базовой таблицы параметр является строкой нулевой длины ("").</span><span class="sxs-lookup"><span data-stu-id="9c78f-110">For a base table, the setting is a zero-length string ("").</span></span>
 
-## <a name="example"></a><span data-ttu-id="0c259-111">Пример</span><span class="sxs-lookup"><span data-stu-id="0c259-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9c78f-111">Пример</span><span class="sxs-lookup"><span data-stu-id="9c78f-111">Example</span></span>
 
-<span data-ttu-id="0c259-112">В этом примере с помощью свойства **подключения** и **SourceTableName** для связывания различных внешних таблиц в базе данных Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="0c259-112">This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database.</span></span> <span data-ttu-id="0c259-113">Процедура ConnectOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="0c259-113">The ConnectOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="9c78f-112">В этом примере используются свойства **Connect** и **SourceTableName** для связи различных внешних таблиц с базой данных Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="9c78f-112">This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database.</span></span> <span data-ttu-id="9c78f-113">Для выполнения этой процедуры требуется процедура Коннектаутпут.</span><span class="sxs-lookup"><span data-stu-id="9c78f-113">The ConnectOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub ConnectX() 

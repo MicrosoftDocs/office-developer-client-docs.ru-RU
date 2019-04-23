@@ -1,5 +1,5 @@
 ---
-title: Метод TableDef.RefreshLink (DAO)
+title: Метод TableDef. RefreshLink (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198349(v=office.15)
@@ -12,33 +12,33 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba9375da16cebd7db7a29fe20fca6f8b395a73a2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314282"
 ---
-# <a name="tabledefrefreshlink-method-dao"></a><span data-ttu-id="f3491-102">Метод TableDef.RefreshLink (DAO)</span><span class="sxs-lookup"><span data-stu-id="f3491-102">TableDef.RefreshLink method (DAO)</span></span>
+# <a name="tabledefrefreshlink-method-dao"></a><span data-ttu-id="88179-102">Метод TableDef. RefreshLink (DAO)</span><span class="sxs-lookup"><span data-stu-id="88179-102">TableDef.RefreshLink method (DAO)</span></span>
 
-<span data-ttu-id="f3491-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3491-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="88179-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88179-103">**Applies to**: Access 2013, Office 2013</span></span>
  
-<span data-ttu-id="f3491-104">Обновляет сведения о подключении для связанной таблицы (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="f3491-104">Updates the connection information for a linked table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="88179-104">Обновляет сведения о подключении для связанной таблицы (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="88179-104">Updates the connection information for a linked table (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f3491-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f3491-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="88179-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="88179-105">Syntax</span></span>
 
-<span data-ttu-id="f3491-106">*выражение* . RefreshLink</span><span class="sxs-lookup"><span data-stu-id="f3491-106">*expression* .RefreshLink</span></span>
+<span data-ttu-id="88179-106">*Expression* . RefreshLink</span><span class="sxs-lookup"><span data-stu-id="88179-106">*expression* .RefreshLink</span></span>
 
-<span data-ttu-id="f3491-107">*выражение* Переменная, которая представляет собой объект- **TableDef** .</span><span class="sxs-lookup"><span data-stu-id="f3491-107">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="88179-107">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="88179-107">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f3491-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="f3491-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="88179-108">Комментарии</span><span class="sxs-lookup"><span data-stu-id="88179-108">Remarks</span></span>
 
-<span data-ttu-id="f3491-109">Чтобы изменить сведения о подключении для связанной таблицы, сброс свойству **[Connect](connection-connect-property-dao.md)** соответствующего объекта **TableDef** и затем использовать метод **RefreshLink** для обновления данных.</span><span class="sxs-lookup"><span data-stu-id="f3491-109">To change the connection information for a linked table, reset the **[Connect](connection-connect-property-dao.md)** property of the corresponding **TableDef** object and then use the **RefreshLink** method to update the information.</span></span> <span data-ttu-id="f3491-110">С помощью метода **RefreshLink** не изменяет свойства и объекты **[отношений](relation-object-dao.md)** связанной таблицы.</span><span class="sxs-lookup"><span data-stu-id="f3491-110">Using **RefreshLink** method doesn't change the linked table's properties and **[Relation](relation-object-dao.md)** objects.</span></span>
+<span data-ttu-id="88179-109">Чтобы изменить сведения о соединении для связанной таблицы, сбросьте свойство **[Connect](connection-connect-property-dao.md)** соответствующего объекта **tabledef** , а затем используйте метод **RefreshLink** для обновления данных.</span><span class="sxs-lookup"><span data-stu-id="88179-109">To change the connection information for a linked table, reset the **[Connect](connection-connect-property-dao.md)** property of the corresponding **TableDef** object and then use the **RefreshLink** method to update the information.</span></span> <span data-ttu-id="88179-110">При использовании метода **RefreshLink** свойства и объекты **[связи](relation-object-dao.md)** связанной таблицы не изменяются.</span><span class="sxs-lookup"><span data-stu-id="88179-110">Using **RefreshLink** method doesn't change the linked table's properties and **[Relation](relation-object-dao.md)** objects.</span></span>
 
-<span data-ttu-id="f3491-111">Для этого сведения о подключении существовать в все семейства сайтов, связанного с объектом **TableDef** , представляющий связанную таблицу необходимо использовать метод **[Refresh](tabledefs-refresh-method-dao.md)** для каждого семейства сайтов.</span><span class="sxs-lookup"><span data-stu-id="f3491-111">For this connection information to exist in all collections associated with the **TableDef** object that represents the linked table, you must use the **[Refresh](tabledefs-refresh-method-dao.md)** method on each collection.</span></span>
+<span data-ttu-id="88179-111">Чтобы эти сведения о подключении существовали во всех коллекциях, связанных с объектом **tabledef** , представляющим связанную таблицу, необходимо использовать метод **[Refresh](tabledefs-refresh-method-dao.md)** для каждой коллекции.</span><span class="sxs-lookup"><span data-stu-id="88179-111">For this connection information to exist in all collections associated with the **TableDef** object that represents the linked table, you must use the **[Refresh](tabledefs-refresh-method-dao.md)** method on each collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f3491-112">Пример</span><span class="sxs-lookup"><span data-stu-id="f3491-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="88179-112">Пример</span><span class="sxs-lookup"><span data-stu-id="88179-112">Example</span></span>
 
-<span data-ttu-id="f3491-113">В этом примере используется метод **RefreshLink** для обновления данных в связанной таблице после его подключения изменения из источника данных в другой.</span><span class="sxs-lookup"><span data-stu-id="f3491-113">This example uses the **RefreshLink** method to refresh the data in a linked table after its connection has been changed from one data source to another.</span></span> <span data-ttu-id="f3491-114">Процедура RefreshLinkOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="f3491-114">The RefreshLinkOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="88179-113">В этом примере используется метод **RefreshLink** для обновления данных в связанной таблице после того, как подключение было изменено с одного источника данных на другой.</span><span class="sxs-lookup"><span data-stu-id="88179-113">This example uses the **RefreshLink** method to refresh the data in a linked table after its connection has been changed from one data source to another.</span></span> <span data-ttu-id="88179-114">Для выполнения этой процедуры требуется процедура Рефрешлинкаутпут.</span><span class="sxs-lookup"><span data-stu-id="88179-114">The RefreshLinkOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub RefreshLinkX() 

@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e807a12bd0494e222efbf4d78737386efe182eda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312056"
 ---
-# <a name="views-collection-properties-methods-and-events-adox"></a><span data-ttu-id="cc9ef-102">Свойства, методы и события коллекции Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cc9ef-102">Views collection properties, methods, and events (ADOX)</span></span>
+# <a name="views-collection-properties-methods-and-events-adox"></a><span data-ttu-id="868fe-102">Свойства, методы и события коллекции Views (ADOX)</span><span class="sxs-lookup"><span data-stu-id="868fe-102">Views collection properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="cc9ef-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc9ef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="868fe-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="868fe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="cc9ef-104">Свойства</span><span class="sxs-lookup"><span data-stu-id="cc9ef-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="868fe-104">Свойства</span><span class="sxs-lookup"><span data-stu-id="868fe-104">Properties</span></span>
 
-- [<span data-ttu-id="cc9ef-105">Свойство Count</span><span class="sxs-lookup"><span data-stu-id="cc9ef-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="cc9ef-106">Свойство Item</span><span class="sxs-lookup"><span data-stu-id="cc9ef-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="868fe-105">Свойство Count</span><span class="sxs-lookup"><span data-stu-id="868fe-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="868fe-106">Свойство Item</span><span class="sxs-lookup"><span data-stu-id="868fe-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="cc9ef-107">Методы</span><span class="sxs-lookup"><span data-stu-id="cc9ef-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="868fe-107">Методы</span><span class="sxs-lookup"><span data-stu-id="868fe-107">Methods</span></span>
 
-- [<span data-ttu-id="cc9ef-108">Добавьте метод (представления)</span><span class="sxs-lookup"><span data-stu-id="cc9ef-108">Append method (Views)</span></span>](append-method-adox-views.md)
-- [<span data-ttu-id="cc9ef-109">Удаление метода (коллекций)</span><span class="sxs-lookup"><span data-stu-id="cc9ef-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
-- [<span data-ttu-id="cc9ef-110">Метод Refresh</span><span class="sxs-lookup"><span data-stu-id="cc9ef-110">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="868fe-108">Метод Append (views)</span><span class="sxs-lookup"><span data-stu-id="868fe-108">Append method (Views)</span></span>](append-method-adox-views.md)
+- [<span data-ttu-id="868fe-109">Метод Delete (Collections)</span><span class="sxs-lookup"><span data-stu-id="868fe-109">Delete method (Collections)</span></span>](delete-method-adox-collections.md)
+- [<span data-ttu-id="868fe-110">Метод Refresh</span><span class="sxs-lookup"><span data-stu-id="868fe-110">Refresh method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="cc9ef-111">События</span><span class="sxs-lookup"><span data-stu-id="cc9ef-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="868fe-111">События</span><span class="sxs-lookup"><span data-stu-id="868fe-111">Events</span></span>
 
-<span data-ttu-id="cc9ef-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="cc9ef-112">None.</span></span>
+<span data-ttu-id="868fe-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="868fe-112">None.</span></span>
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9018ae314f814f3adca3268beba2f82e4e0ea2fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312161"
 ---
-# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="cd2e9-102">Пример использования метода Refresh для коллекции Views (VB)</span><span class="sxs-lookup"><span data-stu-id="cd2e9-102">Views Refresh method example (VB)</span></span>
+# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="c0fdf-102">Пример использования метода Refresh для коллекции Views (VB)</span><span class="sxs-lookup"><span data-stu-id="c0fdf-102">Views Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="cd2e9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd2e9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c0fdf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0fdf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cd2e9-104">Приведенный ниже код показано, как обновить коллекцию [представлений](views-collection-adox.md) [каталога](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="cd2e9-104">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="cd2e9-105">Это необходимо, чтобы получить доступ к объектам [представления](view-object-adox.md) из **каталога** .</span><span class="sxs-lookup"><span data-stu-id="cd2e9-105">This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="c0fdf-104">В приведенном ниже коде показано, как [](views-collection-adox.md) обновить коллекцию views [каталога](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="c0fdf-104">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="c0fdf-105">Это необходимо, прежде чем можно будет получить доступ к объектам [просмотра](view-object-adox.md) из **каталога** .</span><span class="sxs-lookup"><span data-stu-id="c0fdf-105">This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  
