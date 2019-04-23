@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db791ddce4c4f207bfe096d3f59acd7ff99e57ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314506"
 ---
 # <a name="status-property-example-vj"></a>Пример использования свойства Status (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [состояние](status-property-ado-recordset.md) для отображения записи, которые были изменены в пакетной операции до пакета обновления.
+В этом примере используется свойство [Status](status-property-ado-recordset.md) , чтобы показать, какие записи были изменены в пакетной операции до выполнения пакетного обновления.
 
 ```java 
  

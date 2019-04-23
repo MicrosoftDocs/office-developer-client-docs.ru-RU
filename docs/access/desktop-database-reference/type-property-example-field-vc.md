@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f4646326469b4db688277885c31b5629aba8d408
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314094"
 ---
 # <a name="type-property-example-field-vc"></a>Пример использования свойства Type (Field) (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [типа](type-property-ado.md) , отображая имя константы, соответствующее значение свойства **типа** всех объектов [поля](field-object-ado.md) в таблице ***сотрудников*** . Функция FieldType является обязательным для выполнения этой процедуры.
+В этом примере показано свойство [Type](type-property-ado.md) , которое отображает имя константы, которое соответствует значению свойства **Type** всех объектов [field](field-object-ado.md) в таблице ***Employees*** . Для выполнения этой процедуры требуется функция FieldType.
 
 ```cpp 
  

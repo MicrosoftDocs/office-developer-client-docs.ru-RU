@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef.SourceTableName (DAO)
+title: Свойство TableDef. SourceTableName (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -12,32 +12,32 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: bd2610e728d97d3a9fc2f6359a42fd3cdccb11e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314261"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a>Свойство TableDef.SourceTableName (DAO)
+# <a name="tabledefsourcetablename-property-dao"></a>Свойство TableDef. SourceTableName (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013 
+**Область применения**: Access 2013, Office 2013 
 
-Задает или возвращает значение, указывающее имя связанной таблицы или имя таблицы (только для рабочих областей Microsoft Access).
+Задает или возвращает значение, задающее имя связанной таблицы или имя базовой таблицы (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . SourceTableName
+*Expression* . SourceTableName
 
-*выражение* Переменная, которая представляет собой объект- **TableDef** .
+*выражение*: переменная, представляющая объект **TableDef**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Этот параметр свойства доступен только для чтения для базовой таблицы, а также чтения и записи для связанной таблицы и не добавляется к коллекции объектов. Для базовой таблицы параметр — это строка нулевой длины (»»).
+Это свойство предназначено только для чтения для базовой таблицы, а также для чтения и записи для связанной таблицы или объекта, не добавленного в коллекцию. Для базовой таблицы параметр является строкой нулевой длины ("").
 
 ## <a name="example"></a>Пример
 
-В этом примере с помощью свойства **подключения** и **SourceTableName** для связывания различных внешних таблиц в базе данных Microsoft Access. Процедура ConnectOutput является обязательным для выполнения этой процедуры.
+В этом примере используются свойства **Connect** и **SourceTableName** для связи различных внешних таблиц с базой данных Microsoft Access. Для выполнения этой процедуры требуется процедура Коннектаутпут.
 
 ```vb 
 Sub ConnectX() 

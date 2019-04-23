@@ -1,5 +1,5 @@
 ---
-title: Метод TableDefs.Delete (DAO)
+title: Методы TableDef. Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 130bb50d-17c3-b2ab-9360-0d91d0cee131
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845419(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 63f543fd86e309372e0432c3e45513cd9d3942ab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313995"
 ---
-# <a name="tabledefsdelete-method-dao"></a>Метод TableDefs.Delete (DAO)
+# <a name="tabledefsdelete-method-dao"></a>Методы TableDef. Delete (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Удаляет указанный объект **TableDef** из коллекции **TableDefs** .
+Удаляет указанный объект **tabledef** из коллекции **tabledef** .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Удаление (***имя***)
+*Expression* . Delete (***имя***)
 
-*выражение* Переменная, которая представляет собой объект- **TableDefs** .
+*Expression (выражение* ) Переменная, представляющая объект **TableDefs** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ ms.locfileid: "28709322"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -48,13 +48,13 @@ ms.locfileid: "28709322"
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Имя TableDef для удаления.</p></td>
+<td><p>Имя объекта TableDef, который необходимо удалить.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Метод Delete поддерживается только в том случае, когда объект **TableDef** новые и еще не был добавлен к базе данных или свойство **с возможностью записи** **TableDef** имеет значение **True**.
+Метод Delete поддерживается только в том случае, если объект **tabledef** является новым и не был добавлен в базу данных, или если для **** свойства объекта **tabledef** задано значение **true**.
 

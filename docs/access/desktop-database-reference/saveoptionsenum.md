@@ -1,5 +1,5 @@
 ---
-title: SaveOptionsEnum (Справочник по для настольных баз данных Access)
+title: Савеоптионсенум (Справочник по базам данных Access на компьютере)
 TOCTitle: SaveOptionsEnum
 ms:assetid: 2a4e4c7a-6331-7270-0514-cc549c721ffd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249053(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 77a617dc54d8acd145648d926e10cf7c9a3cf252
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314744"
 ---
 # <a name="saveoptionsenum"></a>SaveOptionsEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, создан или перезаписан при сохранении из объекта [потока](stream-object-ado.md) файла. Значения может использоваться совместно с оператора AND.
+Указывает, следует ли создать или перезаписать файл при сохранении из объекта [Stream](stream-object-ado.md) . Значения можно сочетать с помощью оператора AND.
 
 <br/>
 
@@ -37,14 +37,14 @@ ms.locfileid: "28705997"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adSaveCreateNotExist</strong></p></td>
-<td><p>1</p></td>
-<td><p>Значение, используемое по умолчанию. Создает новый файл, если файл, указанный с помощью параметра <em>имени файла</em> еще не существует.</p></td>
+<td><p><strong>Адсавекреатенотексист</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Значение, используемое по умолчанию. Создает новый файл, если файл, указанный с помощью параметра <em>filename</em> , еще не существует.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSaveCreateOverWrite</strong></p></td>
+<td><p><strong>Адсавекреатеоверврите</strong></p></td>
 <td><p>2</p></td>
-<td><p>Перезапись файла с данными из открытая в настоящий момент объект <strong>Stream</strong> , если файл, указанный с помощью параметра <em>имени файла</em> уже существует.</p></td>
+<td><p>Перезаписывает файл данными из текущего открытого объекта <strong>Stream</strong> , если файл, указанный с помощью параметра <em>filename</em> , уже существует.</p></td>
 </tr>
 </tbody>
 </table>
@@ -52,5 +52,5 @@ ms.locfileid: "28705997"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Эти константы нет ADO/WFC эквивалентами.
+Эти константы не имеют эквивалентов ADO/WFC.
 

@@ -1,5 +1,5 @@
 ---
-title: Справочник по таблице объектов (ADOX)
+title: Справочник по объектам таблицы (ADOX)
 TOCTitle: Table object (ADOX)
 ms:assetid: 5841a0ab-717b-4e12-b85d-87be480d31ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249298(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 602e632e7a068dc34c755cb685db02f0da05f29b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314443"
 ---
-# <a name="table-object-adox-reference"></a>Справочник по таблице объектов (ADOX)
+# <a name="table-object-adox-reference"></a>Справочник по объектам таблицы (ADOX)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 - [Объект Table (ADOX)](table-object-adox.md)
-- [В таблице свойства, методы и события (ADOX)](table-properties-methods-and-events-adox.md)
+- [Свойства, методы и события таблицы (ADOX)](table-properties-methods-and-events-adox.md)
 

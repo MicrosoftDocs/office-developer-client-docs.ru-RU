@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6d1618a0cb310c1e564fe18289da6a2d35e91d0b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314002"
 ---
 # <a name="underlyingvalue-property-ado"></a>Свойство UnderlyingValue (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 
 
-Указывает объект [поля](field-object-ado.md) текущим значением в базе данных.
+Указывает текущее значение объекта [field](field-object-ado.md) в базе данных.
 
 ## <a name="return-value"></a>Возвращаемое значение
 
 Возвращает значение **типа Variant** , которое указывает значение **поля**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Свойство **UnderlyingValue** возвращает текущее значение поля из базы данных. Значение поля в свойстве **UnderlyingValue** — это значение, которое будет отображаться транзакции и может быть вызвана последнее обновление с другой транзакции. Могут отличаться от свойств [OriginalValue](originalvalue-property-ado.md) , который отражает значение, которое было изначально возвращаемых [записей](recordset-object-ado.md).
+Используйте свойство **UnderlyingValue** , чтобы возвратить значение текущего поля из базы данных. Значение поля в свойстве **UnderlyingValue** является значением, видимым для транзакции, и может быть результатом последнего обновления другой транзакции. Это может отличаться от свойства [originalValue](originalvalue-property-ado.md) , которое отражает значение, которое изначально было возвращено в [набор записей](recordset-object-ado.md).
 
-Это похоже на использование метода [выполнить повторную синхронизацию](resync-method-ado.md) , но это свойство **UnderlyingValue** возвращает только значение определенного поля из текущей записи. Это то же значение, которое использует метод [выполнить повторную синхронизацию](resync-method-ado.md) для замены свойства [Value](value-property-ado.md) .
+Это аналогично использованию метода [Resync](resync-method-ado.md) , но свойство **UnderlyingValue** возвращает только значение определенного поля из текущей записи. Это то же значение, которое метод [Resync](resync-method-ado.md) использует для замены свойства [value](value-property-ado.md) .
 
-При использовании этого свойства с помощью свойства **OriginalValue** можно разрешения конфликтов с помощью пакета обновления.
+При использовании этого свойства со свойством **originalValue** можно устранить конфликты, возникающие при пакетном обновлении.
 
 ## <a name="record"></a>Record
 
-Для [записи](record-object-ado.md) объектов это свойство будет пустым для полей, добавлены, прежде чем будет вызван метод [Update](update-method-ado.md) .
+Для объектов [Record](record-object-ado.md) это свойство будет пустым для полей, добавленных перед вызовом метода [Update](update-method-ado.md) .
 

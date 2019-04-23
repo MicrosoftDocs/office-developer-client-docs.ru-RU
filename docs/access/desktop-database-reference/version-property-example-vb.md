@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f76455c78c7c58b81a327d883cdd47821f42ac6d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312077"
 ---
 # <a name="version-property-example-vb"></a>Пример использования свойства Version (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [Version](version-property-ado.md) объекта [подключения](connection-object-ado.md) для отображения текущая версия ADO. Он также использует несколько динамических свойств для отображения:
+В этом примере используется свойство [Version](version-property-ado.md) объекта [Connection](connection-object-ado.md) для отображения текущей версии ADO. Кроме того, в нем используется несколько динамических свойств для отображения:
 
-  - Текущее имя СУБД и версии.
+  - Текущее имя и версия СУБД.
 
   - Версия OLE DB.
 
-  - Имя поставщика и версии.
+  - имя и версия поставщика.
 
   - Версия ODBC.
 
-  - Имя драйвера ODBC и версии.
+  - Имя и версия драйвера ODBC.
 
 <!-- end list -->
 

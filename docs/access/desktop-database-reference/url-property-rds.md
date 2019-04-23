@@ -1,5 +1,5 @@
 ---
-title: Свойство URL-адрес (RDS - ссылки для настольных баз данных Access)
+title: Свойство URL (Справочник по базам данных для рабочих столов RDS)
 TOCTitle: URL property (RDS)
 ms:assetid: 722765dc-f89c-0131-73b1-69c56a795546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aafc8cc10410cafed21e38ad7fec269c391c1fa2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313400"
 ---
 # <a name="url-property-rds"></a>Свойство URL (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает строку, которая содержит относительный или абсолютный URL-адрес.
+Указывает строку, содержащую относительный или абсолютный URL-адрес.
 
-Можно задать свойство **URL-адреса** в тег OBJECT объекта [DataControl](datacontrol-object-rds.md) во время разработки или во время выполнения в код сценария.
+Свойство **URL** можно задать во время конструирования в теге объекта [элемента управления](datacontrol-object-rds.md) DataObject или во время выполнения в коде скрипта.
 
 ## <a name="syntax"></a>Синтаксис
 
-Время разработки: \<параметров имя = значение «URL-адрес» = «Сервер»\>
+Время конструирования \<: param Name = "URL" значение = "Server"\>
 
-Во время выполнения: DataControl.URL="Server»
+Время выполнения: Control. URL = "Server"
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Server* |**Строковое** значение, содержащее допустимый URL-адрес.|
-|*DataControl* |Объектная переменная, которая представляет собой объект- **DataControl** .|
+|*DataControl* |Объектная переменная, представляющая объект **управления** DataObject.|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Как правило URL-адрес указывает файл страницы Active Server (.asp), который может создавать и возвращать [набора записей](recordset-object-ado.md). Таким образом пользователь может получить **записей** без вызова объекта [DataFactory](datafactory-object-rdsserver.md) на сервере или программа настраиваемый бизнес-объект.
+Как правило, URL-адрес определяет активный файл страницы сервера (ASP), который может создавать и возвращать [набор записей](recordset-object-ado.md). Таким образом, пользователь может получить **набор записей** , не выполняя серверный объект [](datafactory-object-rdsserver.md) данных DataObject или запрограммировать настраиваемый бизнес-объект.
 
-Если свойство **URL-адрес** [SubmitChanges](submitchanges-method-rds.md) будет внесения изменений в расположении, указанном URL-адрес.
+Если задано свойство **URL** , [SubmitChanges](submitchanges-method-rds.md) отправит изменения в расположении, указанном с помощью URL-адреса.
 

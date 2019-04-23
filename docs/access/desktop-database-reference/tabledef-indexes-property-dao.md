@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef.Indexes (DAO)
+title: Свойство TableDef. indexes (DAO)
 TOCTitle: Indexes Property
 ms:assetid: b168ff75-0a5f-2bc0-9180-2add520a12c6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822007(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 59eb77548d6fc46db99596204cb931c916f5c80c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314345"
 ---
-# <a name="tabledefindexes-property-dao"></a>Свойство TableDef.Indexes (DAO)
+# <a name="tabledefindexes-property-dao"></a>Свойство TableDef. indexes (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **индексов** , который содержит все хранимые объекты **индекса** для указанной таблицы. Только для чтения.
+Возвращает коллекцию **indexes** , содержащую все хранимые объекты **индекса** для указанной таблицы. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Индексы
+*Expression* . Индекса
 
-*выражение* Переменная, которая представляет собой объект- **TableDef** .
+*выражение*: переменная, представляющая объект **TableDef**.
 

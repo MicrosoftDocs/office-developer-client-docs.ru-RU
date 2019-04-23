@@ -1,5 +1,5 @@
 ---
-title: Пример расширения Visual C++
+title: Visual C++ Extensions Example
 TOCTitle: Visual C++ Extensions Example
 ms:assetid: fe57868f-5707-3c5b-cb93-4121732d67cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250305(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 080281ae0deb25fa10fcdccd8577d3aab076c2cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312070"
 ---
 # <a name="visual-c-extensions-example"></a>Пример расширений Visual C++
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Эта программа показано получение значений из полей и преобразуются в переменные C/C++.
+Эта программа показывает, как значения извлекаются из полей и преобразуются в переменные C/C++.
 
-В этом примере также используются преимущества «смарт-указатели», которые автоматически обрабатывать подробные сведения о вызове и подсчета для интерфейса **IADORecordBinding** ссылок COM-отношение.
+В этом примере также используются преимущества смарт-указателей, которые автоматически обрабатывают зависящие от COM сведения о подсчете вызовов и ссылок для интерфейса **иадорекордбиндинг** .
 
-Без смарт-указатели кода:
+Если смарт-указатели отсутствуют, можно выполнить следующие действия:
 
 ```cpp 
  
@@ -35,21 +35,21 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-С помощью смарт-указатели типа IADORecordBindingPtr производными тип из интерфейса IADORecordBinding этот оператор with:
+При использовании смарт-указателей тип Иадорекордбиндингптр наследуется от типа из интерфейса Иадорекордбиндинг с помощью следующего оператора:
 
 ```cpp 
  
 _COM_SMARTPTR_TYPEDEF(IADORecordBinding, __uuidof(IADORecordBinding)); 
 ```
 
-И создайте указатель следующим образом:
+И создайте экземпляр указателя следующим образом:
 
 ```cpp 
  
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-Так как расширений Visual C++ реализованы объектом **набора записей** , конструктор смарт-указатель picRs, принимает \_RecordsetPtr указатель, pRs. Конструктор вызывает поиск с помощью pRs QueryInterface, принимает \_RecordsetPtr указатель, pRs. Конструктор вызывает QueryInterface, с помощью pRs найти интерфейс IADORecordBinding.
+Так как расширения Visual C++ реализуются объектом **Recordset** , конструктор для интеллектуального указателя пикрс принимает указатель \_рекордсетптр, ПРС. Конструктор вызывает QueryInterface с помощью ПРС для поиска, принимает указатель \_Рекордсетптр, ПРС. Конструктор вызывает QueryInterface с помощью ПРС, чтобы найти интерфейс Иадорекордбиндинг.
 
 ```cpp 
  

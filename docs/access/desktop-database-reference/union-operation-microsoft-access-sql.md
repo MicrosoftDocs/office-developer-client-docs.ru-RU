@@ -14,11 +14,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: f842e662f2576d8aab5f3857877f45e380d3d3b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314702"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>Операция UNION (Microsoft Access SQL)
 

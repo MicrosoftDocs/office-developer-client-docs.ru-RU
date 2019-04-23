@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 78743d4046950383de6d84fb2a616408158cd23f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312112"
 ---
 # <a name="value-property-example-vb"></a>Пример использования свойства Value (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано [значение](value-property-ado.md) свойства с помощью [поля](field-object-ado.md) и [Свойства](property-object-ado.md) объектов, отображая поля и значения свойств для таблицы ***сотрудников*** .
+В этом примере показано свойство [value](value-property-ado.md) с объектами [field](field-object-ado.md) и [Property](property-object-ado.md) , отображая значения поля и свойства для таблицы ***Employees*** .
 
 ```vb 
  

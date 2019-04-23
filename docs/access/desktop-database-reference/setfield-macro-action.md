@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4fbf7252729c7b376da6ebe67f59941c1caf924d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314618"
 ---
 # <a name="setfield-macro-action"></a>Макрокоманда SetField
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Действие **SetField** используется для присвоения значения поля.
+Действие **SetField** можно использовать для присвоения значения полю.
 
 > [!NOTE]
-> **SetField** действие доступно только в макросов данных.
+> Действие **SetField** доступно только в макросах данных.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Параметр
 
-Действие **SetField** содержит аргументы, перечисленные в следующей таблице.
+Макрокоманда **SetField** содержит аргументы, приведенные в следующей таблице.
 
 <table>
 <colgroup>
@@ -41,17 +41,17 @@ ms.locfileid: "28722321"
 <tbody>
 <tr class="odd">
 <td><p><strong>Name</strong></p></td>
-<td><p>Строка, идентифицирующая поле.</p></td>
+<td><p>Строка, определяющая поле.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Value</strong></p></td>
-<td><p>Выражение, которое задает значение, задаваемое в поле.</p></td>
+<td><p><strong>Значение</strong></p></td>
+<td><p>Выражение, задающее значение, присваиваемое полю.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Действие **SetField** не может использоваться вне блока данных **[СоздатьЗапись](createrecord-data-block.md)** или **[ИзменитьЗапись](editrecord-data-block.md)** .
+Действие **SetField** нельзя использовать вне блока данных **[СоздатьЗапись](createrecord-data-block.md)** или **[ИзменитьЗапись](editrecord-data-block.md)** .
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3816e1699865b1e58c745e9fb466c37885833802
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312049"
 ---
 # <a name="views-append-method-example-vb"></a>Пример использования метода Append для коллекции Views (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Следующий код демонстрирует использование объекта [команды](command-object-ado.md) и метод [Append](append-method-adox-views.md) коллекции [представлений](views-collection-adox.md) для создания нового представления в источнике данных.
+В приведенном ниже коде показано, как использовать объект [Command](command-object-ado.md) и метод [append](append-method-adox-views.md) коллекции [views](views-collection-adox.md) для создания нового представления в базовом источнике данных.
 
 ```vb 
  

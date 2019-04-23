@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fbdf8362796bfec7821e1464400ec1ba00637d6b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312763"
 ---
 # <a name="users-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Users (ADOX)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="properties"></a>Свойства
 
@@ -25,8 +25,8 @@ ms.locfileid: "28698143"
 
 ## <a name="methods"></a>Методы
 
-- [Добавьте метод (пользователи)](append-method-adox-users.md)
-- [Удаление метода (коллекций)](delete-method-adox-collections.md)
+- [Метод Append (Users)](append-method-adox-users.md)
+- [Метод Delete (Collections)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>События

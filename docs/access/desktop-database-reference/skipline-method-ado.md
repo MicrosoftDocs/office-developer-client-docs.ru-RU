@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5e49b8379f078ad698a4a0040de0eb2e4429fd34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314562"
 ---
 # <a name="skipline-method-ado"></a>Метод SkipLine (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Пропускает одну всю строку при чтении текстовый поток.
+ПроПускает одну строку целиком при чтении текстового потока.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Поток*. SkipLine
+*Stream*. SkipLine
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Все символы, включая Далее разделителя строки, пропускаются. По умолчанию [LineSeparator](lineseparator-property-ado.md) — **adCRLF**. При попытке пропустить [EOS](eos-property-ado.md)текущей позиции просто останется на **EOS**.
+Все символы до и включительно разделитель в следующую строку будут пропущены. По умолчанию [LineSeparator](lineseparator-property-ado.md) — **адкрлф**. Если вы попытаетесь пропустить прошедший [EOS](eos-property-ado.md), текущее положение просто останется в **EOS**.
 
-Метод **SkipLine** используется с потоками текст ([Тип](type-property-ado-stream.md) — **adTypeText**).
+Метод **SkipLine** используется с текстовыми потоками ([Type](type-property-ado-stream.md) — **адтипетекст**).
 
