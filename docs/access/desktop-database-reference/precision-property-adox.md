@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f05f6880a9599421189519f263cfb27bf1432325
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287491"
 ---
 # <a name="precision-property-adox"></a>Свойство Precision (ADOX)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает максимальное точность значений данных в столбце.
+Указывает максимальную точность значений данных в столбце.
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает и возвращает значение типа **Long** , является максимальной точности значений данных в столбце, если свойство [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) является числовым типом. **Точность** игнорируется для всех остальных типов данных.
+Задает и возвращает **длинное** значение, которое является максимальной точностью значений данных в столбце, если свойство [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) имеет числовой тип. **Точность** игнорируется для всех других типов данных.
 
 ## <a name="remarks"></a>Замечания
 
-Значение по умолчанию — нуль (0).
+Значение по умолчанию — ноль (0).
 
-Это свойство доступно только для чтения для объектов [столбца](column-object-adox.md) уже добавляется в конец коллекции.
+Это свойство доступно только для чтения для объектов [Column](column-object-adox.md) , уже добавленных в коллекцию.
 

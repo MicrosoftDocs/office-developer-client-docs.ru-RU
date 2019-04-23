@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0b9f7157dc0f7805f2b10470c00d35f26977584d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287733"
 ---
 # <a name="parentsameasprev-property-ado-md"></a>Свойство ParentSameAsPrev (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, является ли родительский этот член положение то же, что родителя предыдущего элемента.
+Указывает, совпадает ли родительский элемент этого элемента Position с родителем непосредственно предыдущего члена.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает **логическое** значение и доступен только для чтения.
+Возвращает **логическое** значение и доступно только для чтения.
 
 ## <a name="remarks"></a>Замечания
 
-Это свойство поддерживается только для объектов [члена](member-object-ado-md.md) , относящегося к объекту [позиции](position-object-ado-md.md) . Ошибка происходит, когда это свойство является ссылка из объектов **члена** , относящегося к объекту [уровень](level-object-ado-md.md) .
+Это свойство поддерживается только для объектов [member](member-object-ado-md.md) , принадлежащих объекту [position](position-object-ado-md.md) . При обращении к этому свойству из объектов **member** , принадлежащих объекту [уровня](level-object-ado-md.md) , возникает ошибка.
 

@@ -1,5 +1,5 @@
 ---
-title: Параметр члены (DAO)
+title: Элементы Parameter (DAO)
 TOCTitle: Parameter Members
 ms:assetid: 38e19de8-5318-6077-13b1-10653069aaeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192517(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 25eae70d88307331c44983c4e7cbbcce3fe9d309
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288114"
 ---
-# <a name="parameter-members-dao"></a>Параметр члены (DAO)
+# <a name="parameter-members-dao"></a>Элементы Parameter (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объект параметра представляет значение, заданное в запросе. Параметр связан с объектом QueryDef, созданный из параметра запроса.
+Объект Parameter представляет значение, предоставленное запросу. Параметр связан с объектом QueryDef, созданным на основе запроса с параметрами.
 
 ## <a name="properties"></a>Свойства
 
@@ -36,24 +36,24 @@ ms.locfileid: "28707908"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="parameter-direction-property-dao.md">Direction</a></strong></p></td>
-<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
-<p>Задает или возвращает значение, указывающее, представляет ли объект <strong><a href="parameter-object-dao.md">параметра</a></strong> входного параметра, выходного параметра, оба адресата, или возвращаемое значение из процедуры (только для рабочих областей технология ODBCDirect).</p></td>
+<td><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
+<p>Задает или возвращает значение, которое указывает, представляет ли объект <strong><a href="parameter-object-dao.md">Parameter</a></strong> входной параметр, выходной параметр, оба значения или возвращаемое значение из процедуры (только для рабочих областей ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="parameter-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Возвращает имя указанного объекта. Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="parameter-properties-property-dao.md">Свойства</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
+<td><p><strong><a href="parameter-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="parameter-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Чтение и запись <strong>целое число</strong>.</p></td>
+<td><p><strong><a href="parameter-type-property-dao.md">Тип</a></strong></p></td>
+<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Чтение и запись <strong>целоГо числа</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="parameter-value-property-dao.md">Value</a></strong></p></td>
-<td><p>Задает или возвращает значение объекта. Чтение и запись <strong>типа Variant</strong>.</p></td>
+<td><p><strong><a href="parameter-value-property-dao.md">Значение</a></strong></p></td>
+<td><p>Задает или возвращает значение объекта. Для чтения и записи, <strong>Variant</strong>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,19 +8,19 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 53e51f2386658ee975ec8847f7e5550ac22bbd8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281903"
 ---
-# <a name="adcpropasyncthreadpriorityenum"></a>ADCPROP\_ASYNCTHREADPRIORITY\_ENUM
+# <a name="adcpropasyncthreadpriorityenum"></a>Перечисление АДКПРОП\_асинксреадприорити\_
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объект служб удаленных рабочих СТОЛОВ [записей](recordset-object-ado.md) указывает приоритет выполнения асинхронного потока, который получает данные.
+Для объекта [RECORDSET](recordset-object-ado.md) RDS указывает приоритет выполнения асинхронного потока, который получает данные.
 
-Используйте эти константы с свойство динамических «**Приоритет потока фона**» **набора записей** , которое по ссылке в индексе динамические свойства ADO и описаны в документации по [Microsoft служба курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) .
+Используйте эти константы с динамическим свойством **Recordset** "**приоритет фонового потока**", на который ссылается индекс динамического свойства ADO и задокументированы в документации [службы курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) .
 
 <br/>
 
@@ -39,36 +39,36 @@ ms.locfileid: "28700281"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adPriorityAboveNormal</strong></p></td>
-<td><p>4</p></td>
-<td><p>Задает между обычной и самый высокий приоритет.</p></td>
+<td><p><strong>Адприоритябовенормал</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Задает приоритет между обычным и максимальным приоритетом.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPriorityBelowNormal</strong></p></td>
+<td><p><strong>Адприоритибеловнормал</strong></p></td>
 <td><p>2</p></td>
-<td><p>Задает приоритет между низкий и обычный.</p></td>
+<td><p>Задает приоритет между самым низким и нормальным.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adPriorityHighest</strong></p></td>
-<td><p>5</p></td>
-<td><p>Задает приоритет к наибольшим возможной.</p></td>
+<td><p><strong>Адприоритихигхест</strong></p></td>
+<td><p>17:00</p></td>
+<td><p>Задает максимально возможный приоритет.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>AdPriorityLowest</strong></p></td>
-<td><p>1</p></td>
-<td><p>Задает приоритет до наименьшего возможного.</p></td>
+<td><p><strong>Адприоритиловест</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Устанавливает минимально возможный приоритет.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adPriorityNormal</strong></p></td>
-<td><p>3</p></td>
-<td><p>Задает приоритет normal.</p></td>
+<td><p><strong>Адприоритинормал</strong></p></td>
+<td><p>4</p></td>
+<td><p>Устанавливает для приоритета значение Обычная.</p></td>
 </tr>
 </tbody>
 </table>
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -81,19 +81,19 @@ ms.locfileid: "28700281"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.ABOVENORMAL</p></td>
+<td><p>Адоенумс. Адкпропасинксреадприорити. АБОВЕНОРМАЛ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.BELOWNORMAL</p></td>
+<td><p>Адоенумс. Адкпропасинксреадприорити. БЕЛОВНОРМАЛ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.HIGHEST</p></td>
+<td><p>Адоенумс. Адкпропасинксреадприорити. ВЫСШИй</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.LOWEST</p></td>
+<td><p>Адоенумс. Адкпропасинксреадприорити. НИЗШИй</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.NORMAL</p></td>
+<td><p>Адоенумс. Адкпропасинксреадприорити. NORMAL</p></td>
 </tr>
 </tbody>
 </table>

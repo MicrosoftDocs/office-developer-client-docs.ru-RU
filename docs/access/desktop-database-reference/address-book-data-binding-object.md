@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7fb5302d1c2b8e4eebb6dbe1a5906459834b8e41
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704303"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281869"
 ---
 # <a name="address-book-data-binding-object"></a>Объект привязки к данным адресной книги
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Приложение адресной книги использует [RDS. DataControl](datacontrol-object-rds.md) объект привязки данных из базы данных SQL Server к визуального объекта (в данном случае таблице DHTML) на странице HTML клиентского приложения. Логика программы VBScript событиями использует [RDS. DataControl](datacontrol-object-rds.md) для:
+Приложение адресной книги использует [RDS. Объект элемента управления](datacontrol-object-rds.md) данными для привязывания данных из базы данных SQL Server к визуальному объекту (в данном случае — таблице DHTML) на HTML-странице клиента приложения. Логика программы VBScript, основанной на событиях, использует [RDS. Элемент управления](datacontrol-object-rds.md) для:
 
-  - Запрос к базе данных, отправки обновлений в базу данных и обновить данные.
+  - ЗаПросите базу данных, отправьте обновления в базу данных и обновите сетку данных.
 
-  - Разрешить пользователям перемещение к первому, затем предыдущий, или последней записи в таблице данных.
+  - Разрешить пользователям переходить к первой, следующей, предыдущей или последней записи в сетке данных.
 
-В следующем коде определяется **RDS. DataControl** компонента:
+В приведенном ниже коде определяется **RDS. Компонент управления** элементом:
 
 ```vb 
  
@@ -37,15 +37,15 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 </OBJECT> 
 ```
 
-Тег ОБЪЕКТА определяет **RDS. DataControl** компонента в программе. Тег включает два типа параметров:
+Тег OBJECT определяет **ActiveX RDS. Компонент элемента управления** "компонент" в программе. Тег включает два типа параметров:
 
-  - Те, связанные с универсальный тег OBJECT.
+  - Связанные с тегом универсального объекта.
 
-  - Те, относящиеся к **RDS. DataControl** объекта.
+  - Характерные для **RDS. Объект управления** DataObject.
 
-## <a name="generic-object-tag-parameters"></a>Универсальный объект тег параметров
+## <a name="generic-object-tag-parameters"></a>Параметры тега универсального объекта
 
-В следующей таблице описаны параметры, связанные с тег OBJECT.
+В следующей таблице описываются параметры, связанные с тегом объекта.
 
 <table>
 <colgroup>
@@ -60,20 +60,20 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><em>CLASSID</em></strong></p></td>
-<td><p>Уникальный, 128-бит номер, идентифицирующий тип внедренный объект в систему. Этот идентификатор сохраняется в локальном компьютере системного реестра. (Для класса идентификаторы <strong>RDS. DataControl</strong> , см <a href="datacontrol-object-rds.md">RDS. Объект DataControl</a>.)</p></td>
+<td><p><strong><em>КЛАССА</em></strong></p></td>
+<td><p>Уникальный 128 разрядного числа, определяющего тип внедренного объекта в системе. Этот идентификатор сохраняется в системном реестре локального компьютера. (Идентификаторы класса <strong>RDS. Объект управления</strong> элементом, можно узнать в статье <a href="datacontrol-object-rds.md">RDS. Объект управления</a>элементом.)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>ID</em></strong></p></td>
-<td><p>Определяет идентификатор уровня документов для внедренный объект, используемый для идентификации в коде.</p></td>
+<td><p><strong><em>КОДОВ</em></strong></p></td>
+<td><p>Определяет идентификатор для внедренного объекта, который используется для определения кода на уровне документа.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="rdsdatacontrol-tag-parameters"></a>RDS. Параметры DataControl тег
+## <a name="rdsdatacontrol-tag-parameters"></a>Рабочих. Параметры тега элемента управления "элемент управления"
 
-В следующей таблице описаны параметры, относящиеся к **RDS. DataControl** объекта. (Чтобы получить полный список **RDS. DataControl** параметров объекта и способы их реализации, см [RDS. Объект DataControl](datacontrol-object-rds.md).)
+В следующей таблице описываются параметры, характерные для **RDS. Объект управления** DataObject. (Полный список элементов **ActiveX RDS. **Параметры объекта, а когда их можно реализовать, ознакомьтесь с разрядом с [RDS. Объект управления](datacontrol-object-rds.md)элементом.)
 
 <table>
 <colgroup>
@@ -89,15 +89,15 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 <tbody>
 <tr class="odd">
 <td><p><a href="server-property-rds.md">СЕРВЕР</a></p></td>
-<td><p>При использовании HTTP значение — это имя компьютера сервера, префикс https://.</p></td>
+<td><p>При использовании протокола HTTP значением является имя компьютера сервера, которому предшествует https://.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-property-rds.md">ПОДКЛЮЧЕНИЕ</a></p></td>
-<td><p>Предоставляет сведения о подключении, необходимые для <strong>RDS. DataControl</strong> для подключения к SQL Server.</p></td>
+<td><p><a href="connect-property-rds.md">CONNECT</a></p></td>
+<td><p>Предоставляет необходимые сведения о подключении для <strong>RDS. Элемент управления</strong> для подключения к SQL Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
-<td><p>Задает или возвращает строку запроса, используемое для извлечения <a href="recordset-object-ado.md">записей</a>.</p></td>
+<td><p>Задает или возвращает строку запроса, используемую для получения объекта <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
 </tbody>
 </table>

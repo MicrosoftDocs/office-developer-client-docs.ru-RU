@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b5631ce68a0479146e15ba74b41af5669d86175a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288688"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>Методы MoveFirst, MoveLast, MoveNext и MovePrevious (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Перемещает имя, Фамилия следующий или предыдущий записи в указанном объекте [набора записей](recordset-object-ado.md) .
+Перемещение к первой, последней, следующей или предыдущей записи в указанном объекте [Recordset](recordset-object-ado.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
-*DataControl*. Набор записей. { MoveFirst | MoveLast | MoveNext | MovePrevious}
+*Элемент управления*. Recordset. { MoveFirst | MoveLast | MoveNext | MovePrevious
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
+|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
 
 ## <a name="remarks"></a>Замечания
 
-Можно использовать методы **перемещения** с **RDS. DataControl** объекта для перехода по записям данных в элементах управления с привязкой к данным на веб-страницы. 
+Методы **Move** можно использовать вместе с **RDS. Объект управления** данными для перемещения по записям данных в элементах управления с привязкой к данным на веб-странице. 
 
-Например предположим, что отображение **записей** в таблице путем привязки к **RDS. DataControl** объекта. Первый, последний, Далее и назад кнопки, которая используется для перемещения на первый, последний, далее, затем можно включить или предыдущей записи в отображаемой **набора записей**. Это делается путем вызова **MoveFirst**, **MoveLast**, **MoveNext**и методы **MovePrevious** **RDS. DataControl** объект в процедуры onClick для кнопки первый, последний, Далее и назад, соответственно. В [примере адресной книги](address-book-navigation-buttons.md) показано, как это сделать.
+Например, предположим, что в сетке отображается **набор записей** с помощью привязки к **RDS. Объект управления** DataObject. Затем можно добавить кнопки "первая", "Последняя", "назад" и "назад", чтобы перейти к первой, последней, следующей или предыдущей записи в отображаемом **наборе записей**. Для этого необходимо вызвать методы **MoveFirst**, **MoveLast**, **MoveNext**и **MovePrevious** объекта **RDS. Объект управления** данные в процедурах OnClick для первой, последней, следующей и предыдущей кнопок соответственно. В [примере адресной книги](address-book-navigation-buttons.md) показано, как это сделать.
 

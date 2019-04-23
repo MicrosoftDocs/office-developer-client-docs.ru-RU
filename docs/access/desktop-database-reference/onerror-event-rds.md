@@ -1,5 +1,5 @@
 ---
-title: Событие onError (RDS)
+title: событие OnError (RDS)
 TOCTitle: onError event (RDS)
 ms:assetid: e26a3f7f-0f00-919a-65ad-bf39ffb83e92
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250153(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fc51522d143306d9625cdc07251edfe1dddf22d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288478"
 ---
-# <a name="onerror-event-rds"></a>Событие onError (RDS)
+# <a name="onerror-event-rds"></a>событие OnError (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-События **onError** вызывается каждый раз, когда возникает ошибка во время выполнения операции.
+Событие **OnError** вызывается при возникновении ошибки во время выполнения операции.
 
 ## <a name="syntax"></a>Синтаксис
 
-onError*SCode* *Описание* *источника* *CancelDisplay*
+OnError*SCode*, *Description*, *Source*, *canceldisplay AS*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
 |*SCode* |Целое число, указывающее код состояния ошибки.|
 |*Описание* |**Строка** , указывающая описание ошибки.|
-|*Source* |**Строка** , указывающая запроса или команды, вызвавшей ошибку.|
-|*CancelDisplay* |**Логическое** значение, которая, в случае присвоено **значение True**, который запрещает отображение в диалоговом окне ошибки.|
+|*Source* |**Строка** , указывающая на запрос или команду, которая вызвала ошибку.|
+|*Canceldisplay AS* |**Логическое** значение, при котором задано значение **true**, которое предотвращает отображение ошибки в диалоговом окне.|
 

@@ -8,18 +8,18 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe9ef182f19d62b45b3e69695d04f930c4634abf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281972"
 ---
 # <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a>Пример использования свойств AbsolutePosition и CursorLocation (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) можно отслеживать цикл, который перечисляет все записи из [набора записей](recordset-object-ado.md). Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойство **AbsolutePosition** , установив курсор на курсор клиента.
+В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) может отслеживать ход выполнения цикла, который перечисляет все записи в объекте [Recordset](recordset-object-ado.md). Свойство [CursorLocation](cursorlocation-property-ado.md) используется для включения свойства **AbsolutePosition** путем установки курсора на клиентский курсор.
 
 ```cpp 
  
@@ -303,7 +303,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-**AbsolutePositionX.h**
+**Абсолутепоситионкс. h**
 
 ```cpp 
  

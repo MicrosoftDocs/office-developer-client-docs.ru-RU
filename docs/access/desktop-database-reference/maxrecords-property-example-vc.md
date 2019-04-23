@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c3c68aeaf44491c15adac6040289437f1a132982
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289709"
 ---
 # <a name="maxrecords-property-example-vc"></a>Пример использования свойства MaxRecords (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [MaxRecords](maxrecords-property-ado.md) для открытия [набора записей](recordset-object-ado.md) , содержащий 10 самых больших затрат заголовков в таблице ***заголовки*** .
+В этом примере используется свойство [maxRecords](maxrecords-property-ado.md) для открытия объекта [Recordset](recordset-object-ado.md) , содержащего 10 наиболее дорогих заголовков в таблице ***titles*** .
 
 ```cpp 
  

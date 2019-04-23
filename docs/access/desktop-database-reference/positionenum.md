@@ -1,5 +1,5 @@
 ---
-title: PositionEnum (Справочник по для настольных баз данных Access)
+title: Поситионенум (Справочник по базам данных Access на компьютере)
 TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c791cbd31e346eef5ab8503cb55b0dec5e9fbbc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287505"
 ---
 # <a name="positionenum"></a>PositionEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает текущую позицию указателя записи в наборе [записей](recordset-object-ado.md).
+Задает текущее положение указателя записи в [наборе записей](recordset-object-ado.md).
 
 <br/>
 
@@ -37,19 +37,19 @@ ms.locfileid: "28702840"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adPosBOF</strong></p></td>
+<td><p><strong>Адпосбоф</strong></p></td>
 <td><p>–2</p></td>
-<td><p>Указывает, что указатель текущей записи BOF (то есть, свойство <a href="bof-eof-properties-ado.md">BOF</a> имеет <strong>значение True</strong>).</p></td>
+<td><p>Указывает, что указатель текущей записи находится на BOF (то есть свойство <a href="bof-eof-properties-ado.md">BOF</a> имеет <strong>значение true</strong>).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPosEOF</strong></p></td>
+<td><p><strong>Адпосеоф</strong></p></td>
 <td><p>–3</p></td>
-<td><p>Указывает, что указатель текущей записи в конец файла (то есть, свойство <a href="bof-eof-properties-ado.md">EOF</a> имеет <strong>значение True</strong>).</p></td>
+<td><p>Указывает, что указатель текущей записи находится на EOF (свойство <a href="bof-eof-properties-ado.md">EOF</a> имеет <strong>значение true</strong>).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adPosUnknown</strong></p></td>
+<td><p><strong>Адпосункновн</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Показывает, что <strong>записей</strong> пуст, текущей позиции не известен, или поставщик не поддерживает свойство <a href="absolutepage-property-ado.md">AbsolutePage</a> или <a href="absoluteposition-property-ado.md">AbsolutePosition</a> .</p></td>
+<td><p>Указывает, что <strong>набор записей</strong> пуст, текущая позиция неизвестна или поставщик не поддерживает свойство <a href="absolutepage-property-ado.md">AbsolutePage</a> или <a href="absoluteposition-property-ado.md">AbsolutePosition</a> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -57,7 +57,7 @@ ms.locfileid: "28702840"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -70,13 +70,13 @@ ms.locfileid: "28702840"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Position.BOF</p></td>
+<td><p>Адоенумс. Position. BOF</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Position.EOF</p></td>
+<td><p>Адоенумс. Position. EOF</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Position.UNKNOWN</p></td>
+<td><p>Адоенумс. Position. UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

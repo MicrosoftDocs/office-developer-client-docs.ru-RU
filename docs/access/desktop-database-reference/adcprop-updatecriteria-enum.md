@@ -8,19 +8,19 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8be93b0b7e4b32e3c040e871ff7d97a95f1e247e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282854"
 ---
-# <a name="adcpropupdatecriteriaenum"></a>ADCPROP\_UPDATECRITERIA\_ENUM
+# <a name="adcpropupdatecriteriaenum"></a>Перечисление АДКПРОП\_упдатекритериа\_
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает поля, которые можно использовать для определения конфликтов при обновлении оптимистичный строки из источника данных с помощью объекта [набора записей](recordset-object-ado.md) .
+Указывает, какие поля можно использовать для обнаружения конфликтов во время оптимистического обновления строки источника данных с помощью объекта [Recordset](recordset-object-ado.md) .
 
-Используйте эти константы со свойством динамических «**Условию обновления**» **набора записей** , который по ссылке в [ADO динамических свойство индекса](ado-dynamic-property-index.md) и описаны в документации по [Microsoft служба курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) .
+Используйте эти константы с динамическим свойством **Recordset** "**критерии обновления**", на который ссылается [индекс динамического свойства ADO](ado-dynamic-property-index.md) и задокументированы в документации [службы курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) .
 
 <br/>
 
@@ -39,24 +39,24 @@ ms.locfileid: "28704310"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adCriteriaAllCols</strong></p></td>
-<td><p>1</p></td>
-<td><p>Обнаруживает конфликтов при изменении любого столбца строки источника данных.</p></td>
+<td><p><strong>Адкритериааллколс</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Обнаруживает конфликты при изменении любого столбца строки источника данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adCriteriaKey</strong></p></td>
-<td><p>0</p></td>
-<td><p>Обнаружение конфликтов Если ключевого столбца данных источника строки был изменен, что означает, что строка была удалена.</p></td>
+<td><p><strong>Адкритериакэй</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Обнаруживает конфликты, если ключевой столбец строки источника данных изменился, что означает, что строка была удалена.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adCriteriaTimeStamp</strong></p></td>
-<td><p>3</p></td>
-<td><p>Обнаружение конфликтов, если метка времени данных источника строки был изменен, что означает, что строка осуществлялся после получения <strong>набора записей</strong> .</p></td>
+<td><p><strong>Адкритериатиместамп</strong></p></td>
+<td><p>4</p></td>
+<td><p>Обнаруживает конфликты, если отметка времени строки источника данных была изменена, то есть доступ к строке выполнялся после получения <strong>набора записей</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adCriteriaUpdCols</strong></p></td>
+<td><p><strong>Адкритериаупдколс</strong></p></td>
 <td><p>2</p></td>
-<td><p>Обнаруживает конфликты, если столбцы строки источника данных, которые соответствуют обновляться полям <strong>набора записей</strong> были изменены.</p></td>
+<td><p>Обнаруживает конфликты при изменении одного из столбцов строки источника данных, соответствующих обновленным полям <strong>набора записей</strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,7 +64,7 @@ ms.locfileid: "28704310"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -77,16 +77,16 @@ ms.locfileid: "28704310"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropUpdateCriteria.ALLCOLS</p></td>
+<td><p>Адоенумс. Адкпропупдатекритериа. АЛЛКОЛС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropUpdateCriteria.KEY</p></td>
+<td><p>Адоенумс. Адкпропупдатекритериа. KEY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropUpdateCriteria.TIMESTAMP</p></td>
+<td><p>Адоенумс. Адкпропупдатекритериа. TIMESTAMP</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropUpdateCriteria.UPDCOLS</p></td>
+<td><p>Адоенумс. Адкпропупдатекритериа. УПДКОЛС</p></td>
 </tr>
 </tbody>
 </table>

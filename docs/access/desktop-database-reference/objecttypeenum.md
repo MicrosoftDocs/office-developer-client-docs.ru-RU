@@ -1,5 +1,5 @@
 ---
-title: ObjectTypeEnum (Справочник по для настольных баз данных Access)
+title: Обжекттипинум (Справочник по базам данных Access на компьютере)
 TOCTitle: ObjectTypeEnum
 ms:assetid: b0ee2113-dea9-912d-3442-e54885397310
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249842(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6e3b470c8c0d0c3f04b59bd382b66117bd79c188
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288534"
 ---
 # <a name="objecttypeenum"></a>ObjectTypeEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает тип объекта базы данных, для которого необходимо задать разрешения или владельца.
 
@@ -37,34 +37,34 @@ ms.locfileid: "28711835"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adPermObjColumn</strong></p></td>
+<td><p><strong>Адпермобжколумн</strong></p></td>
 <td><p>2</p></td>
-<td><p>Объект является столбец.</p></td>
+<td><p>Объект является столбцом.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPermObjDatabase</strong></p></td>
-<td><p>3</p></td>
+<td><p><strong>Адпермобждатабасе</strong></p></td>
+<td><p>4</p></td>
 <td><p>Объект представляет собой базу данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adPermObjProcedure</strong></p></td>
-<td><p>4</p></td>
-<td><p>Объект не является процедурой.</p></td>
+<td><p><strong>Адпермобжпроцедуре</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Объект является процедурой.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPermObjProviderSpecific</strong></p></td>
+<td><p><strong>АдпермобжпровидерспеЦифик</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Объект — это тип, определяемый поставщиком. Если параметр <em>ObjectType</em> <strong>adPermObjProviderSpecific</strong> и <em>ObjectTypeId</em> не указан, произойдет ошибка.</p></td>
+<td><p>Объект является типом, определяемым поставщиком. Если параметр <em>ObjectType</em> имеет значение <strong>АдпермобжпровидерспеЦифик</strong> , а <em>обжекттипеид</em> не предоставлено, возникает ошибка.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adPermObjTable</strong></p></td>
-<td><p>1</p></td>
-<td><p>Объект — это таблица.</p></td>
+<td><p><strong>Адпермобжтабле</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Объект является таблицей.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPermObjView</strong></p></td>
-<td><p>5</p></td>
-<td><p>Объект — это представление.</p></td>
+<td><p><strong>Адпермобжвиев</strong></p></td>
+<td><p>17:00</p></td>
+<td><p>Объект является представлением.</p></td>
 </tr>
 </tbody>
 </table>

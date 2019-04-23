@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5906683354159df144bc31ff0d707658026aa1a1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282459"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Примеры кода ADO на Microsoft JScript
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используйте в следующих примерах кода, чтобы узнать, как использовать методы, свойства и события при записи в JScript ADO.
+Используйте приведенные ниже примеры кода, чтобы узнать, как использовать методы, свойства и события ADO при написании текста в JScript.
 
 > [!NOTE]
-> Вставьте полный пример кода, от начала до конца в редакторе кода. Пример может работать неправильно, если частичное примеры используются или абзаца форматирование теряется.
+> Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
 
 ## <a name="methods"></a>Методы
 
 - [Пример метода AddNew](addnew-method-example-jscript.md)
-- [Добавление и пример: методы CreateParameter](append-and-createparameter-methods-example-jscript.md)
-- [Выполнение, обновление и очистка пример: методы](execute-requery-and-clear-methods-example-jscript.md)
-- [Найдите пример метода](find-method-example-jscript.md)
-- [Пример метода получения строк](getrows-method-example-vb.md)
+- [Пример методов Append и CreateParameter](append-and-createparameter-methods-example-jscript.md)
+- [Пример методов Execute, reQuery и Clear](execute-requery-and-clear-methods-example-jscript.md)
+- [Пример метода Find](find-method-example-jscript.md)
+- [Пример метода GetRows](getrows-method-example-vb.md)
 
 ## <a name="properties"></a>Свойства
 
-- [Пример: свойства AbsolutePage, PageCount и PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
-- [Пример свойства AbsolutePosition и CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
+- [Пример свойств AbsolutePage, PageCount и PageSize](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
+- [Пример свойств AbsolutePosition и CursorLocation](absoluteposition-and-cursorlocation-properties-example-jscript.md)
 - [Пример свойства ActiveCommand](activecommand-property-example-jscript.md)
-- [Пример: свойства ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
-- [Пример свойства ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
+- [Пример свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
+- [Пример свойств ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
 - [Пример свойства CacheSize](cachesize-property-example-jscript.md)
-- [Пример свойства фильтра и RecordCount](filter-and-recordcount-properties-example-jscript.md)
+- [Пример свойств Filter и RecordCount](filter-and-recordcount-properties-example-jscript.md)
 

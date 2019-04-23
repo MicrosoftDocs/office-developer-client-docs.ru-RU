@@ -1,5 +1,5 @@
 ---
-title: Перечисление ParameterDirectionEnum (DAO)
+title: Перечисление Параметердиректионенум (DAO)
 TOCTitle: ParameterDirectionEnum Enumeration
 ms:assetid: 3f2b91f4-a932-aca5-34a0-4002c27d6b3b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192844(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d467f66da41559e607520a4328388c41843bc87
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287993"
 ---
-# <a name="parameterdirectionenum-enumeration-dao"></a>Перечисление ParameterDirectionEnum (DAO)
+# <a name="parameterdirectionenum-enumeration-dao"></a>Перечисление Параметердиректионенум (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется со свойством **направление** для указания типа объекта **параметра** .
+Используется вместе со свойством **Direction** , чтобы указать тип для объекта **Parameter** .
 
 <table>
 <colgroup>
@@ -36,23 +36,23 @@ ms.locfileid: "28704051"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbParamInput</p></td>
-<td><p>1</p></td>
-<td><p>(По умолчанию) Передает данные в процедуру.</p></td>
+<td><p>Дбпараминпут</p></td>
+<td><p>1,1</p></td>
+<td><p>Умолчани Передает сведения в процедуру.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbParamInputOutput</p></td>
-<td><p>3</p></td>
-<td><p>Передает сведения в, а также из процедуры.</p></td>
+<td><p>Дбпараминпутаутпут</p></td>
+<td><p>4</p></td>
+<td><p>Передает информацию в процедуру и из нее.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbParamOutput</p></td>
+<td><p>Дбпарамаутпут</p></td>
 <td><p>2</p></td>
-<td><p>Возвращает сведения из процедуры как параметр выходных данных в SQL.</p></td>
+<td><p>Возвращает сведения из процедуры в виде выходного параметра в SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbParamReturnValue</p></td>
-<td><p>4</p></td>
+<td><p>Дбпарамретурнвалуе</p></td>
+<td><p>SP4</p></td>
 <td><p>Передает возвращаемое значение из процедуры.</p></td>
 </tr>
 </tbody>

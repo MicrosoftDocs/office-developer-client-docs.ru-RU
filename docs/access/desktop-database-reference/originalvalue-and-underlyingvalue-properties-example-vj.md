@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b2e7c70979b5bc5d791350e13fba744a34ee2e82
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288163"
 ---
 # <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>Пример использования свойств OriginalValue и UnderlyingValue (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется [OriginalValue](originalvalue-property-ado.md) и обновление свойств [UnderlyingValue](underlyingvalue-property-ado.md) по отображения сообщения при изменении базовых данных записи во время пакетного [набора записей](recordset-object-ado.md) .
+В этом примере демонстрируются свойства [originalValue](originalvalue-property-ado.md) и [UnderlyingValue](underlyingvalue-property-ado.md) , в результате чего отображается сообщение, если базовые данные записи изменились во время пакетного обновления [набора записей](recordset-object-ado.md) .
 
 ```java 
  

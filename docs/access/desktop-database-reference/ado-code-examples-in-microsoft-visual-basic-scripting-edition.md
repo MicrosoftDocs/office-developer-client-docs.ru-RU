@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b8be48c74dbf17062388866d3ab982b6a24643f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281841"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic-scripting-edition"></a>Примеры кода ADO на языке сценариев VBScript
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используйте в следующих примерах кода, чтобы узнать о том, как использовать методы ADO при записи в Visual Basic Scripting Edition (VBScript).
+Используйте приведенные ниже примеры кода, чтобы узнать, как использовать методы ADO при написании в Visual Basic Scripting Edition (VBScript).
 
 > [!NOTE]
-> Вставьте полный пример кода, от начала до конца в редакторе кода. Пример может работать неправильно, если частичное примеры используются или абзаца форматирование теряется.
+> Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
 
 ## <a name="methods"></a>Методы
 
 - [Пример метода AddNew](addnew-method-example-vbscript.md)
-- [Пример метода клонированной](clone-method-example-vbscript.md)
-- [Удаление пример метода](delete-method-example-vbscript.md)
-- [Выполнение, обновление и очистка пример: методы](execute-requery-and-clear-methods-example-vbscript.md)
+- [Пример метода Clone](clone-method-example-vbscript.md)
+- [Пример метода Delete](delete-method-example-vbscript.md)
+- [Пример методов Execute, reQuery и Clear](execute-requery-and-clear-methods-example-vbscript.md)
 - [Пример использования метода Move](move-method-example-vbscript.md)
-- [Пример: методы MoveFirst, MoveLast, MoveNext и MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
-- [Открытие и закрытие пример: методы](open-and-close-methods-example-vbscript.md)
+- [Пример методов MoveFirst, MoveLast, MoveNext и MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
+- [Пример методов Open и Close](open-and-close-methods-example-vbscript.md)
 

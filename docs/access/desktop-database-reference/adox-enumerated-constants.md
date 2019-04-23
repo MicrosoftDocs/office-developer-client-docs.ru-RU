@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 385a3a106c04db11b36ea646368f80fe28ffd413
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280197"
 ---
 # <a name="adox-enumerated-constants"></a>Перечислимые константы ADOX
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Для помощи отладки, констант перечисления ADOX списка значение для каждого константу. Тем не менее это значение исключительно рекомендации и может измениться в разных выпусках ADOX в другую. Код только должен зависеть от имени, а не фактические значения, перечисленных констант.
+Для поддержки отладки в списке константы ADOX перечислены значения для каждой константы. Однако это значение является исключительно рекомендацией и может изменяться от одного выпуска ADOX к другому. Код должен зависеть только от имени, а не фактического значения перечислимых констант.
 
-Следующие перечисляемые константы определены.
+Определены следующие перечислимые константы.
 
 <br/>
 
@@ -38,27 +38,27 @@ ms.locfileid: "28720537"
 <tbody>
 <tr class="odd">
 <td><p><a href="actionenum.md">ActionEnum</a></p></td>
-<td><p>Указывает тип действие, которое необходимо выполнить при вызове <strong>SetPermissions</strong> .</p></td>
+<td><p>Задает тип действия, выполняемого при вызове <strong>SetPermissions</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="allownullsenum.md">AllowNullsEnum</a></p></td>
-<td><p>Указывает, индексированные записи с пустым значением.</p></td>
+<td><p>Указывает, индексируются ли записи со значениями NULL.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="columnattributesenum.md">ColumnAttributesEnum</a></p></td>
-<td><p>Определяет характеристики <strong>столбца</strong>.</p></td>
+<td><p>Задает характеристики <strong>столбца</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datatypeenum.md">DataTypeEnum</a></p></td>
-<td><p>Указывает тип данных <strong>параметра</strong>, <strong>поля</strong>или <strong>Свойства</strong>.</p></td>
+<td><p>Указывает тип данных <strong>поля</strong>, <strong>параметра</strong>или <strong>Свойства</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="inherittypeenum.md">InheritTypeEnum</a></p></td>
-<td><p>Указывает, как будет наследуют разрешения, установленные с <strong>SetPermissions</strong>.</p></td>
+<td><p>Указывает, как объекты наследуют разрешения, заданные с помощью <strong>SetPermissions</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="keytypeenum.md">KeyTypeEnum</a></p></td>
-<td><p>Указывает тип <strong>ключа</strong>: основной, внешний или уникальным.</p></td>
+<td><p>Указывает тип <strong>ключа</strong>: основной, внешний или уникальный.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="objecttypeenum.md">ObjectTypeEnum</a></p></td>
@@ -66,15 +66,15 @@ ms.locfileid: "28720537"
 </tr>
 <tr class="even">
 <td><p><a href="rightsenum.md">RightsEnum</a></p></td>
-<td><p>Задает права и разрешения для группы или пользователя на объект.</p></td>
+<td><p>Задает права или разрешения для группы или пользователя в объекте.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="ruleenum.md">RuleEnum</a></p></td>
-<td><p>Задает правило, которое следует придерживаться при удалении <strong>ключа</strong> .</p></td>
+<td><p>Задает правило, которое необходимо выполнить при удалении <strong>ключа</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="sortorderenum.md">SortOrderEnum</a></p></td>
-<td><p>Определяет последовательность сортировки для индексированного столбца.</p></td>
+<td><p>Задает последовательность сортировки для индексированного столбца.</p></td>
 </tr>
 </tbody>
 </table>

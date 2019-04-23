@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2ded9721eb2af2f409a4b4a6ea261898a4d1b3fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288009"
 ---
 # <a name="parameterattributesenum"></a>ParameterAttributesEnum
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Определяет атрибуты объект [параметра](parameter-object-ado.md) .
+Задает атрибуты объекта [Parameter](parameter-object-ado.md) .
 
 <table>
 <colgroup>
@@ -36,19 +36,19 @@ ms.locfileid: "28716322"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adParamSigned</strong></p></td>
-<td><p>16</p></td>
-<td><p>Указывает, что параметр может принимать значения со знаком.</p></td>
+<td><p><strong>Адпарамсигнед</strong></p></td>
+<td><p>столбцов</p></td>
+<td><p>Указывает, что параметр принимает значения со знаком.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adParamNullable</strong></p></td>
+<td><p><strong>Адпарамнуллабле</strong></p></td>
 <td><p>64</p></td>
-<td><p>Указывает, что параметр может принимать значения null.</p></td>
+<td><p>Указывает, что параметр может принимать значения NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adParamLong</strong></p></td>
+<td><p><strong>Адпарамлонг</strong></p></td>
 <td><p>128</p></td>
-<td><p>Указывает, что параметр может принимать двоичные данные.</p></td>
+<td><p>Указывает, что параметр принимает длинные двоичные данные.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,7 +56,7 @@ ms.locfileid: "28716322"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -69,13 +69,13 @@ ms.locfileid: "28716322"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ParameterAttributes.SIGNED</p></td>
+<td><p>Адоенумс. Параметераттрибутес. SIGNED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ParameterAttributes.NULLABLE</p></td>
+<td><p>Адоенумс. Параметераттрибутес. NULLABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ParameterAttributes.LONG</p></td>
+<td><p>Адоенумс. Параметераттрибутес. LONG</p></td>
 </tr>
 </tbody>
 </table>

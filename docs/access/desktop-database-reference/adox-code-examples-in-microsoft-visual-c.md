@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 67ddc4d6eab70fa8581021704cc8cc76b32357f4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282819"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-c"></a>Примеры кода ADOX на Microsoft Visual C++
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этих разделах предоставлены примеры кода, которые помогут вам понять, как использовать ADOX. Все примеры кода написаны с помощью Microsoft Visual C++.
+В этих разделах представлен пример кода, который поможет вам узнать, как использовать ADOX. Все примеры кода написаны с помощью Microsoft Visual C++.
 
 > [!NOTE]
-> Вставьте полный пример кода, от начала до конца в редакторе кода. Пример может работать неправильно, если вы используете частичное примеры или при потере форматирование абзаца.
+> Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются частичные примеры или потеряно форматирование абзаца.
 
 ## <a name="methods"></a>Методы
 
@@ -32,7 +32,7 @@ ms.locfileid: "28711219"
 - [Пример использования методов GetPermissions и SetPermissions (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
 - [Пример использования методов Append и ChangePassword для коллекций Groups и Users (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
 - [Пример использования метода Append для коллекции Indexes (VC++)](indexes-append-method-example-vc.md)
-- [Ключи Append метод, тип ключа RelatedColumn, RelatedTable и UpdateRule пример свойств (VC ++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Пример: метод Append, тип ключа, свойство RelatedColumn, RelatedTable и UpdateRule (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
 ## <a name="properties"></a>Свойства
 
@@ -40,17 +40,17 @@ ms.locfileid: "28711219"
 - [Пример использования свойства ActiveConnection объекта Catalog (VC++)](catalog-activeconnection-property-example-vc.md)
 - [Пример использования свойства Clustered (VC++)](clustered-property-example-vc.md)
 - [Пример использования свойств Command и CommandText (VC++)](command-and-commandtext-properties-example-vc.md)
-- [Свойство Command, пример коллекции параметров (VC ++)](parameters-collection-command-property-example-vc.md)
+- [Пример свойства Command, коллекции Parameters (VC + +)](parameters-collection-command-property-example-vc.md)
 - [Пример использования свойств DateCreated и DateModified (VC++)](datecreated-and-datemodified-properties-example-vc.md)
 - [Пример использования свойства DefinedSize (VC++)](definedsize-property-example-vc.md)
 - [Пример использования свойства DeleteRule (VC++)](deleterule-property-example-vc.md)
 - [Пример использования свойства IndexNulls (VC++)](indexnulls-property-example-vc.md)
-- [Тип ключа, RelatedColumn, RelatedTable, UpdateRule свойства, добавьте ключи пример метода (VC ++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
-- [Имя свойства, столбцов и добавление таблиц пример: методы (VC ++)](columns-and-tables-append-methods-name-property-example-vc.md)
+- [Пример: тип ключа, RelatedColumn, RelatedTable, свойства UpdateRule, пример метода Append (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Пример: свойство Name, методы Append для столбцов и таблиц (VC + +)](columns-and-tables-append-methods-name-property-example-vc.md)
 - [Пример использования свойств NumericScale и Precision (VC++)](numericscale-and-precision-properties-example-vc.md)
 - [Пример использования свойства ParentCatalog (VC++)](parentcatalog-property-example-vc.md)
 - [Пример использования свойств PrimaryKey и Unique (VC++)](primarykey-and-unique-properties-example-vc.md)
-- [Таблица свойство Type, пример метода Close подключения (VC ++)](connection-close-method-table-type-property-example-vc.md)
+- [Пример свойства Type таблицы, метод Close для подключения (VC + +)](connection-close-method-table-type-property-example-vc.md)
 
 ## <a name="collections"></a>Коллекции
 

@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d3d51fa745f17fb07f6a46064ba8ffc626cbb3e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283389"
 ---
 # <a name="ado-error-codes"></a>Коды ошибок ADO
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В дополнение к поставщика ошибок, возвращаемых в объектах [Ошибка](error-object-ado.md) семейства [Errors](errors-collection-ado.md) ADO самого можно возвращают ошибки механизм обработки исключений среды выполнения. Используйте механизм перехват ошибок, язык программирования, таких как оператор **On Error** в Microsoft Visual Basic или **try-catch** блок в Microsoft Visual C++ или Microsoft Visual J ++, чтобы запись данных ADO ошибки.
+В дополнение к ошибкам поставщика, возвращенным в объектах [Error](error-object-ado.md) коллекции [Errors](errors-collection-ado.md) , ADO может возвращать ошибки механизму обработки исключений среды выполнения. Используйте механизм перехвата ошибок для вашего языка программирования, например оператор **On Error** в Microsoft Visual Basic или блок **try/catch** в Microsoft Visual C++ или Microsoft Visual J++ для захвата ошибок ADO.
 
-Список кодов ошибок ADO в разделе [ErrorValueEnum](errorvalueenum.md).
+Список кодов ошибок ADO приведен в разделе [еррорвалуинум](errorvalueenum.md).
 

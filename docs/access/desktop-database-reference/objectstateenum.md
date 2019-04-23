@@ -1,5 +1,5 @@
 ---
-title: ObjectStateEnum (Справочник по для настольных баз данных Access)
+title: Обжектстатинум (Справочник по базам данных Access на компьютере)
 TOCTitle: ObjectStateEnum
 ms:assetid: 129d589a-2955-3da9-e60a-7fbfdd6bfbdc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b6e346db2fb2dac0695e8c9048a210d8e40e6dc4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288527"
 ---
 # <a name="objectstateenum"></a>ObjectStateEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, является ли объект открытой или закрытой, подключение к источнику данных, выполнение команды или получения данных.
+Указывает, является ли объект открытым или закрытым, подключается к источнику данных, выполняя команду или получая данные.
 
 <br/>
 
@@ -37,29 +37,29 @@ ms.locfileid: "28712269"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adStateClosed</strong></p></td>
-<td><p>0</p></td>
+<td><p><strong>Адстатеклосед</strong></p></td>
+<td><p>нуль</p></td>
 <td><p>Указывает, что объект закрыт.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adStateOpen</strong></p></td>
-<td><p>1</p></td>
+<td><p><strong>Адстатеопен</strong></p></td>
+<td><p>1,1</p></td>
 <td><p>Указывает, что объект открыт.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adStateConnecting</strong></p></td>
+<td><p><strong>Адстатеконнектинг</strong></p></td>
 <td><p>2</p></td>
-<td><p>Указывает, что объект подключения.</p></td>
+<td><p>Указывает, что объект подключается.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adStateExecuting</strong></p></td>
-<td><p>4</p></td>
+<td><p><strong>Адстатиксекутинг</strong></p></td>
+<td><p>SP4</p></td>
 <td><p>Указывает, что объект выполняет команду.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adStateFetching</strong></p></td>
-<td><p>8</p></td>
-<td><p>Указывает, извлекается строк объекта.</p></td>
+<td><p><strong>Адстатефетчинг</strong></p></td>
+<td><p>8,5</p></td>
+<td><p>Указывает, что извлекаются строки объекта.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "28712269"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "28712269"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.CLOSED</p></td>
+<td><p>Адоенумс. Обжектстате. CLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ObjectState.OPEN</p></td>
+<td><p>Адоенумс. Обжектстате. OPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.CONNECTING</p></td>
+<td><p>Адоенумс. Обжектстате. подключение</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ObjectState.EXECUTING</p></td>
+<td><p>Адоенумс. Обжектстате. выполнение</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ObjectState.FETCHING</p></td>
+<td><p>Адоенумс. Обжектстате. получение</p></td>
 </tr>
 </tbody>
 </table>

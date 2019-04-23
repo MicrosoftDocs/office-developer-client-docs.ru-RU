@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98342d5456c545e6da8539c11f616c08fd52a932
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281635"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>Интерфейс ADORecordsetConstruction (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Интерфейс **ADORecordsetConstruction** используется для создания объекта ADO **записей** из объекта OLE DB **строк** в приложении C/C++.
+Интерфейс **ADORecordsetConstruction** используется для создания объекта ADO **Recordset** из объекта **набора строк** OLE DB в приложении C/C++.
 
 Этот интерфейс поддерживает следующие свойства:
 
@@ -32,19 +32,19 @@ ms.locfileid: "28701281"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="chapter-property-ado.md">Главы</a></p></td>
+<td><p><a href="chapter-property-ado.md">Части</a></p></td>
 <td><p>Для чтения и записи.<br />
-Получает или задает объект OLE DB <strong>главы</strong> из/на этот объект ADO <strong>Recordset</strong> .</p></td>
+Получает или задает объект <strong>главы</strong> OLE DB от или on этого объекта <strong>Recordset</strong> ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
 <td><p>Для чтения и записи.<br />
-Получает или задает объект OLE DB <strong>RowPosition</strong> из/на этот объект ADO <strong>Recordset</strong> .</p></td>
+Получает/устанавливает объект <strong>ROWPOSITION</strong> OLE DB from/On этого объекта <strong>Recordset</strong> ADO.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">Набор строк</a></p></td>
+<td><p><a href="rowset-property-ado.md">Возвращаем</a></p></td>
 <td><p>Для чтения и записи.<br />
-Получает или задает объект OLE DB <strong>строк</strong> из/на этот объект ADO <strong>Recordset</strong> .</p></td>
+Получает или задает объект <strong>набора строк</strong> OLE DB from/On этого объекта <strong>Recordset</strong> ADO.</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,15 +60,15 @@ ms.locfileid: "28701281"
 
 ## <a name="remarks"></a>Замечания
 
-Получает объект OLE DB **строк** (pRowset), конструкции (объект ADO **набора записей** ), конструкции суммы (adoRs) объект ADO **набора записей** к три базовых операций:
+При наличии объекта **набора строк** OLE DB (провсет) построение объекта ADO **Recordset** (), создание объекта Recordset ADO (Адорс), **** будет иметь следующие три основные операции:
 
-1. Создайте объект ADO **набора записей** :
+1. Создайте объект ADO **Recordset** :
     
    ```vb
     Recordset20Ptr adoRs;
     adoRs.CreateInstance(__uuidof(Recordset));
    ```
-2. Запрос интерфейс **IADORecordsetConstruction** объекта **набора записей** :
+2. ЗаПросите интерфейс **иадорекордсетконструктион** для объекта **Recordset** :
 
    ```vb    
     adoRecordsetConstructionPtr adoRsConstruct=NULL;
@@ -76,22 +76,22 @@ ms.locfileid: "28701281"
          (void**)&adoRsConstruct);
    ```
 
-3. Вызов IADORecordsetConstruction::put\_метод свойства строк установить объект строк OLE DB для объекта набора записей ADO:
+3. ВыЗовите метод Иадорекордсетконструктион::p\_UT Rowset, чтобы задать объект набора строк OLE DB для объекта RECORDSET объекта ADO:
 
    ```vb     
     IUnknown *pUnk=NULL;
     pRowset->QueryInterface(IID_IUnknown, (void**)&pUnk);
     adoRsConstruct->put_Rowset(pUnk);
    ```
-Результирующий объект теперь представляет объект ADO **записей** , созданный из объекта OLE DB **строк** .
+Объект Result теперь представляет объект **RECORDSET** ADO, созданный на основе объекта **набора строк** OLE DB.
 
-Также можно создать объект ADO **записей** из объекта OLE DB **главы** или **RowPosition** .
+Вы также можете создать объект ADO **Recordset** из **главы** OLE DB или объекта **RowPosition** .
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
-- **Версия:** ADO 2.0 и более поздних версий
+- **Версия:** ADO 2,0 и более поздние версии
 
-- **Библиотеки:** msado15.dll
+- **Библиотека:** Msado15. dll
 
 - **UUID:** 00000283-0000-0010-8000-00AA006D2EA4
 

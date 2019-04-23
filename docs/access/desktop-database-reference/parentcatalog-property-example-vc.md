@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3e879df56cbf3c35aae67ece0e4c464bc7587e63
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287771"
 ---
 # <a name="parentcatalog-property-example-vc"></a>Пример использования свойства ParentCatalog (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Следующий код демонстрирует использование свойства [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству от поставщика перед добавлением таблицы в каталоге. Является ли данное свойство AutoIncrement, которая создает поле AutoIncrement базы данных Microsoft Jet.
+В приведенном ниже коде показано, как использовать свойство [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству, зависящему от поставщика, перед добавлением таблицы в каталог. Свойство имеет автоПриращение, которое создает поле AutoIncrement в базе данных Microsoft Jet.
 
 ```cpp 
  

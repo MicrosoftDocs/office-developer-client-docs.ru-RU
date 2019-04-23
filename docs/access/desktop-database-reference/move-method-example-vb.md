@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 418aaf15c38fba753709d03681246341c78102bc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288857"
 ---
 # <a name="move-method-example-vb"></a>Пример использования метода Move (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [Move](move-method-ado.md) навести указатель записи, в зависимости от введенных пользователем.
+В этом примере с помощью метода [Move](move-method-ado.md) замещается указатель записи на основании вводимых пользователем данных.
 
 ```vb 
  

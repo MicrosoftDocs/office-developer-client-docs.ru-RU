@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c37c1257ad3f3cb046f7faf82ffcb93f067b1ff5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283375"
 ---
-# <a name="ado-event-handler-summary"></a>Сводка по обработчикам событий ADO
+# <a name="ado-event-handler-summary"></a>ADO Event Handler Summary
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Два объекта ADO могут вызывать события: объект [подключения](connection-object-ado.md) и объекта [набора записей](recordset-object-ado.md) . Семейство **ConnectionEvent** относится к операции на объект **подключения** , а семейства **RecordsetEvent** относится к операции в объекте **набора записей** .
+Два объекта ADO могут вызывать события: объект [Connection](connection-object-ado.md) и объект [Recordset](recordset-object-ado.md) . Семейство **коннектионевент** относится к операциям объекта **Connection** , а семейство **рекордсетевент** относится к операциям объекта **Recordset** .
 
-- **Подключение событий**: события выдается, когда начинается транзакций для подключения, прилагает все усилия или откат; При выполнении [команды](command-object-ado.md) ; При появлении предупреждения во время операции **Подключения событий** ; или при запуске или завершает **подключение** .
+- **События подключения**: события, выдаваемые при начале транзакции подключения, фиксируются или откатываются; При выполнении [команды](command-object-ado.md) ; При возникновении предупреждения во время операции **подключения** ; или время начала или окончания **подключения** .
 
-- **Набор записей событий**: события выдается вокруг операции асинхронной выборки, а также при переходе по строкам объекта **набора записей** , изменение поля в строке из **набора записей**, измените строку в **набор записей**, откройте ** Набор записей** с курсором на сервере, закройте **записей**или внести какие-либо изменения никакой в **набора записей**.
+- **События Recordset**: события создаются в асинхронных операциях выборки, а также при навигации по строкам объекта **Recordset** , изменении поля в строке объекта Recordset, изменении строки **** в **наборе записей**и открытии ** Объект Recordset** с помощью курсора на стороне сервера, закройте **набор записей**или внесите изменения в **набор записей**.
 
-В следующей таблице перечислены события и их описание.
+В приведенных ниже таблицах приводится сводка по событиям и их описаниям.
 
 <table>
 <colgroup>
@@ -34,26 +34,26 @@ ms.locfileid: "28710211"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ConnectionEvent</p></th>
+<th><p>Коннектионевент</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
-<td><p><strong>Управление транзакциями</strong> , уведомления о запуске текущей операции на подключение, фиксации или отката.</p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">События begintranscomplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
+<td><p><strong>Управление транзакциями</strong> — уведомление о том, что текущая транзакция подключения была запущена, зафиксирована или отменена.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, отключите</a></p></td>
-<td><p><strong>Управление подключениями</strong> — уведомление, в котором будет запущен процесс текущее подключение, запущена или его завершения.</p></td>
+<td><p><a href="willconnect-event-ado.md">Событие willconnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">события connectcomplete, Disconnect</a></p></td>
+<td><p><strong>Управление подключением</strong> — уведомление о том, что текущее подключение будет запущено, начато или завершено.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willexecute-event-ado.md">WillExecute</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></p></td>
-<td><p><strong>Управление командами выполнения</strong> — уведомление, выполнение текущей команды на подключение будет запущен процесс или его завершения.</p></td>
+<td><p><a href="willexecute-event-ado.md">WillExecute</a>, <a href="executecomplete-event-ado.md">событие executecomplete</a></p></td>
+<td><p><strong>Управление выполнением команд</strong> — уведомление о том, что выполнение текущей команды для подключения будет начато или завершено.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="infomessage-event-ado.md">InfoMessage</a></p></td>
-<td><p><strong>Информационное</strong> — уведомления о наличии Дополнительные сведения о текущей операции.</p></td>
+<td><p><strong>Информационное</strong> сообщение — уведомление о том, что существует дополнительная информация о текущей операции.</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,30 +66,30 @@ ms.locfileid: "28710211"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>RecordsetEvent</p></th>
+<th><p>Рекордсетевент</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="fetchprogress-event-ado.md">FetchProgress</a>, <a href="fetchcomplete-event-ado.md">FetchComplete</a></p></td>
-<td><p><strong>Состояние извлечения</strong> — уведомления о ходе выполнения операции по извлечению данных или завершения операции извлечения. Эти события доступны только в том случае, если <strong>набор записей</strong> был открыт с помощью клиентского курсора.</p></td>
+<td><p><a href="fetchprogress-event-ado.md">Событие fetchprogress</a>, <a href="fetchcomplete-event-ado.md">событие fetchcomplete</a></p></td>
+<td><p><strong>Состояние извлечения</strong> — уведомление о ходе выполнения операции извлечения данных или завершении операции извлечения. Эти события доступны только в том случае, если <strong>набор записей</strong> был открыт с помощью курсора на стороне клиента.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField FieldChangeComplete</a></p></td>
-<td><p><strong>Управление измените поле</strong> — уведомление, значение текущего поля изменится или была изменена.</p></td>
+<td><p><a href="willchangefield-and-fieldchangecomplete-events-ado.md">События willchangefield, FieldChangeComplete</a></p></td>
+<td><p><strong>Управление изменениями полей</strong> — уведомление о том, что значение текущего поля изменится или изменилось.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willmove-and-movecomplete-events-ado.md">WillMove, MoveComplete</a>, <a href="endofrecordset-event-ado.md">EndOfRecordset</a></p></td>
-<td><p><strong>Управления навигации</strong> — уведомление, изменится текущей позиции строки в <strong>набор записей</strong> , были изменены или достигнут конец <strong>набора записей</strong>.</p></td>
+<td><p><a href="willmove-and-movecomplete-events-ado.md">События WillMove, MoveComplete</a>, <a href="endofrecordset-event-ado.md">событие endofrecordset</a></p></td>
+<td><p><strong>Управление навигацией</strong> — уведомление о том, что текущая позиция строки в <strong>наборе записей</strong> будет изменена, изменена или достигнут конец <strong>набора записей</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord RecordChangeComplete</a></p></td>
-<td><p><strong>Управление измените строку</strong> — уведомление, что-нибудь в текущей строки <strong>набора записей</strong> изменится или была изменена.</p></td>
+<td><p><a href="willchangerecord-and-recordchangecomplete-events-ado.md">События willchangerecord, RecordChangeComplete</a></p></td>
+<td><p><strong>Управление изменениями строк</strong> — уведомление о том, что значение в текущей строке <strong>набора записей</strong> изменится или изменилось.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset RecordsetChangeComplete</a></p></td>
-<td><p><strong>Управление изменение записей</strong> — уведомление, что-нибудь в текущего <strong>набора записей</strong> изменится или была изменена.</p></td>
+<td><p><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">События willchangerecordset, RecordsetChangeComplete</a></p></td>
+<td><p><strong>Управление изменениями в наборе записей</strong> — уведомление о том, что объект в текущем <strong>наборе записей</strong> изменится или изменился.</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fac07165416841691ee7bc3ca5dfcdc366861023
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287974"
 ---
 # <a name="parameterdirectionenum"></a>ParameterDirectionEnum
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, представляет ли [параметр](parameter-object-ado.md) входного параметра, выходного параметра, и входным и выходной параметр или возвращаемое значение из хранимой процедуры.
+Указывает, представляет ли [параметр](parameter-object-ado.md) входной параметр, выходной параметр, входной и выходной параметры, а также возвращаемое значение из хранимой процедуры.
 
 <table>
 <colgroup>
@@ -36,28 +36,28 @@ ms.locfileid: "28715503"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adParamInput</strong></p></td>
-<td><p>1</p></td>
-<td><p>Значение, используемое по умолчанию. Указывает, что параметр представляет входного параметра.</p></td>
+<td><p><strong>Адпараминпут</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Значение, используемое по умолчанию. Указывает, что параметр представляет входной параметр.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adParamInputOutput</strong></p></td>
-<td><p>3</p></td>
-<td><p>Указывает, что параметр представляет входных и выходных параметров.</p></td>
+<td><p><strong>Адпараминпутаутпут</strong></p></td>
+<td><p>4</p></td>
+<td><p>Указывает, что параметр представляет оба входного и выходного параметра.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adParamOutput</strong></p></td>
+<td><p><strong>Адпарамаутпут</strong></p></td>
 <td><p>2</p></td>
-<td><p>Указывает, что параметр представляет выходного параметра.</p></td>
+<td><p>Указывает, что параметр представляет выходной параметр.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adParamReturnValue</strong></p></td>
-<td><p>4</p></td>
+<td><p><strong>Адпарамретурнвалуе</strong></p></td>
+<td><p>SP4</p></td>
 <td><p>Указывает, что параметр представляет возвращаемое значение.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adParamUnknown</strong></p></td>
-<td><p>0</p></td>
+<td><p><strong>Адпарамункновн</strong></p></td>
+<td><p>нуль</p></td>
 <td><p>Указывает, что направление параметра неизвестно.</p></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ ms.locfileid: "28715503"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -79,19 +79,19 @@ ms.locfileid: "28715503"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ParameterDirection.INPUT</p></td>
+<td><p>Адоенумс. Параметердиректион. INPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ParameterDirection.INPUTOUTPUT</p></td>
+<td><p>Адоенумс. Параметердиректион. процессы</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ParameterDirection.OUTPUT</p></td>
+<td><p>Адоенумс. Параметердиректион. OUTPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ParameterDirection.RETURNVALUE</p></td>
+<td><p>Адоенумс. Параметердиректион. RETURNVALUE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ParameterDirection.UNKNOWN</p></td>
+<td><p>Адоенумс. Параметердиректион. UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

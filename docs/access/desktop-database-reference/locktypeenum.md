@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum (Справочник по для настольных баз данных Access)
+title: LockTypeEnum (Справочник по базам данных Access на компьютере)
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d4b9dc49e647bdcd3123ade065da0c74538c9a88
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289866"
 ---
 # <a name="locktypeenum"></a>LockTypeEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает тип блокировки, помещенные на записей во время редактирования.
+Указывает тип блокировки, помещаемой в записи во время редактирования.
 
 <table>
 <colgroup>
@@ -35,29 +35,29 @@ ms.locfileid: "28715370"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adLockBatchOptimistic</strong></p></td>
+<td><p><strong>Адлоккбатчоптимистик</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Указывает на неоптимистичные пакетные обновления. Обязательный режим для режима пакетного обновления.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Адлоккоптимистик</strong></p></td>
 <td><p>4</p></td>
-<td><p>Указывает оптимистичный пакета обновлений. Требуется для пакетного обновления.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>adLockOptimistic</strong></p></td>
-<td><p>3</p></td>
-<td><p>Указывает, оптимистичный блокировки, записи по. Поставщик использует оптимистичный блокировки блокировка записи только при вызове метода <a href="update-method-ado.md">Update</a> .</p></td>
+<td><p>Указывает на оптимистичную блокировку, запись по записи. Поставщик использует оптимистическую блокировку, блокируя записи только при вызове метода <a href="update-method-ado.md">Update</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adLockPessimistic</strong></p></td>
+<td><p><strong>Адлоккпессимистик</strong></p></td>
 <td><p>2</p></td>
-<td><p>Указывает, жесткой блокировки, записи по. Поставщик выполняет, что является обязательным для обеспечения успешной редактирования записей, обычно путем блокировки сразу же после изменения записи в источнике данных.</p></td>
+<td><p>Указывает на пессимистическую блокировку, запись по записи. Поставщик выполняет то, что необходимо для успешного редактирования записей, как правило, путем блокировки записей в источнике данных сразу же после редактирования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adLockReadOnly</strong></p></td>
-<td><p>1</p></td>
-<td><p>Указывает записи только для чтения. Невозможно изменить данные.</p></td>
+<td><p><strong>Адлоккреадонли</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Указывает записи, предназначенные только для чтения. Вы не можете изменить данные.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adLockUnspecified</strong></p></td>
+<td><p><strong>АдлоккунспеЦифиед</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Не указан тип блокировки. Для копирует копия создается с тем же типом блокировки, что и исходный.</p></td>
+<td><p>Не указывает тип блокировки. Для клонов создается клон с тем же типом блокировки, что и исходный.</p></td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ ms.locfileid: "28715370"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -78,19 +78,19 @@ ms.locfileid: "28715370"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.LockType.BATCHOPTIMISTIC</p></td>
+<td><p>Адоенумс. LockType. БАТЧОПТИМИСТИК</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.LockType.OPTIMISTIC</p></td>
+<td><p>Адоенумс. LockType. ОПТИМИСТИЧеская блокировка</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.LockType.PESSIMISTIC</p></td>
+<td><p>Адоенумс. LockType. ПЕССИМИСТическая блокировка</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.LockType.READONLY</p></td>
+<td><p>Адоенумс. LockType. READONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.LockType.UNSPECIFIED</p></td>
+<td><p>Адоенумс. LockType. unspecifieded</p></td>
 </tr>
 </tbody>
 </table>

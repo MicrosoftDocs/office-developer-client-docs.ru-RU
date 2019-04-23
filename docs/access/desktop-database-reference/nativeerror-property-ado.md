@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 86734d77cafd8dbe3c26219e291c16b81ef0026b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288612"
 ---
 # <a name="nativeerror-property-ado"></a>Свойство NativeError (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает код ошибки поставщика для того или иного объекта [ошибки](error-object-ado.md) .
+Указывает код ошибки, зависящий от поставщика, для данного объекта [Error](error-object-ado.md) .
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значение типа **Long** , указывающее код ошибки.
+Возвращает значение **типа Long** , которое указывает код ошибки.
 
 ## <a name="remarks"></a>Замечания
 
-Используйте свойство **NativeError** получение сведений о базе данных об ошибке для определенный объект **Error** . Например при использовании поставщика ODBC Microsoft для OLE DB с базой данных Microsoft SQL Server, коды собственной ошибки, которые создаются из SQL Server проходить через ODBC и поставщика ODBC свойство ADO **NativeError** .
+Используйте свойство **NativeError** для получения сведений об ошибках, связанных с базой данных, для определенного объекта **Error** . Например, при использовании поставщика Microsoft ODBC для OLE DB с базой данных Microsoft SQL Server собственные коды ошибок, полученные с помощью ODBC и поставщика ODBC, в свойство ADO **NativeError** .
 

@@ -1,5 +1,5 @@
 ---
-title: 'Пример: свойства ActiveConnection CommandText, CommandTimeout (JScript)'
+title: Пример свойств ActiveConnection, CommandText, CommandTimeout (JScript)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example(JScript)
 ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b746902f84aa3afb2213b40d7bab4bb1bc6cb9b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280483"
 ---
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a>Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (JScript)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере использует [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [размер](size-property-ado.md)и [направление](direction-property-ado.md) свойства для выполнения хранимой процедуры. Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ActiveConnectionJS.asp**.
+В этом примере используются свойства [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [size](size-property-ado.md)и [Direction](direction-property-ado.md) для выполнения хранимой процедуры. Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **активеконнектионжс. ASP**.
 
 ```javascript
 <!-- BeginActiveConnectionJS --> 

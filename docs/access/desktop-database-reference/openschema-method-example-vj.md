@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c66c16e8e110fd9565b9417c70e98247f2abc24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288331"
 ---
 # <a name="openschema-method-example-vj"></a>Пример использования метода OpenSchema (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [OpenSchema](openschema-method-ado.md) для отображения имени и типа каждой таблицы в базе данных ***Pubs*** .
+В этом примере используется метод [OpenSchema](openschema-method-ado.md) для отображения имени и типа каждой таблицы в базе данных ***pubs*** .
 
 ```java 
  

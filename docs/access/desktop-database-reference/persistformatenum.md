@@ -1,5 +1,5 @@
 ---
-title: PersistFormatEnum (Справочник по для настольных баз данных Access)
+title: Персистформатенум (Справочник по базам данных Access на компьютере)
 TOCTitle: PersistFormatEnum
 ms:assetid: 5aa99a63-d422-0812-5aba-19305a3ad405
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249313(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4954c09c3eff67bb6f55dfc9e49464ad58fad5e6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287610"
 ---
 # <a name="persistformatenum"></a>PersistFormatEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает формат для сохранения [записей](recordset-object-ado.md).
+Задает формат, в котором будет сохранен [набор записей](recordset-object-ado.md).
 
 <br/>
 
@@ -37,24 +37,24 @@ ms.locfileid: "28718093"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adPersistADTG</strong></p></td>
-<td><p>0</p></td>
-<td><p>Указывает формат TableGram дополнительные данные (ADTG).</p></td>
+<td><p><strong>Адперсистадтг</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Указывает формат Microsoft Advanced Data Таблеграм (АДТГ).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPersistADO</strong></p></td>
-<td><p>1</p></td>
-<td><p>Указывает, что будет использоваться формат ADO собственные языке (XML). Это значение совпадает с adPersistXML и будет включено для обратной совместимости.</p></td>
+<td><p><strong>Адперсистадо</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Указывает, что будет использоваться собственный формат языка XML для ADO. Это значение аналогично Адперсистксмл и включено для обратной совместимости.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adPersistXML</strong></p></td>
-<td><p>1</p></td>
-<td><p>Указывает формат языке (XML).</p></td>
+<td><p><strong>Адперсистксмл</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Указывает на XML-формат.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPersistProviderSpecific</strong></p></td>
+<td><p><strong>АдперсистпровидерспеЦифик</strong></p></td>
 <td><p>2</p></td>
-<td><p>Указывает, что поставщик будет сохраняться <strong>набора записей</strong> с использованием собственного формата.</p></td>
+<td><p>Указывает, что поставщик сохранит <strong>набор записей</strong> в собственном формате.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,7 +62,7 @@ ms.locfileid: "28718093"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -75,10 +75,10 @@ ms.locfileid: "28718093"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.PersistFormat.ADTG</p></td>
+<td><p>Адоенумс. Персистформат. АДТГ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PersistFormat.XML</p></td>
+<td><p>Адоенумс. Персистформат. XML</p></td>
 </tr>
 </tbody>
 </table>

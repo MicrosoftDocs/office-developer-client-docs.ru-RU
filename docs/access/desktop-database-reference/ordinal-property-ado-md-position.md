@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2e29b5c86e8f37d84116aa92432e93eb8943e29e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288192"
 ---
 # <a name="ordinal-property-ado-md-position"></a>Свойство Ordinal (Position в ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Однозначно определяет положение оси.
+Уникально определяет положение вдоль оси.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает значение типа **Long** integer и доступен только для чтения.
+Возвращает целое значение **типа Long** и доступно только для чтения.
 
 ## <a name="remarks"></a>Замечания
 
-**Порядковый номер** [позиции](position-object-ado-md.md) объекта соответствует индекс **позиции** в коллекции [положения](positions-collection-ado-md.md) .
+**ПорядкОвый номер** объекта [position](position-object-ado-md.md) соответствует индексу **позиции** в коллекции [Positions](positions-collection-ado-md.md) .
 
-Ячейки можно быстро получить с помощью **порядковый номер** **позиции** каждой оси со свойством [Item](item-property-ado-md-cellset.md) объекта [ячеек](cellset-object-ado-md.md) .
+Ячейка может быстро извлекаться с помощью **порядкОвого номера** **позиции** на каждой оси со свойством [Item](item-property-ado-md-cellset.md) объекта набора [ячеек](cellset-object-ado-md.md) .
 

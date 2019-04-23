@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ab6600c6fd1794e860f432f41e4733690cc516af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280707"
 ---
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a>Пример использования свойств AbsolutePage, PageCount и PageSize (JScript)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере с помощью свойства [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md)и [PageSize](pagesize-property-ado.md) отображаемые имена и даты в таблице ***сотрудников*** пять записей во время приема на работу. Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **AbsolutePageJS.asp**.
+В этом примере используются свойства [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md)и [pageSize](pagesize-property-ado.md) для отображения имен и дат найма из таблицы ***Employees*** , по пять записей за раз. Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **абсолутепажежс. ASP**.
 
 ```javascript
 <!-- BeginAbsolutePageJS --> 

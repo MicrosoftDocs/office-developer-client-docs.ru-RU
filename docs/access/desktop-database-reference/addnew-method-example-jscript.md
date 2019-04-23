@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 11a280ffc1434d58b73169231b47f1ff132e1263
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280211"
 ---
 # <a name="addnew-method-example-jscript"></a>Пример использования метода AddNew (JScript)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [AddNew](addnew-method-ado.md) , чтобы создать новую запись с указанным именем. Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **AddNewJS.asp**.
+В этом примере используется метод [AddNew](addnew-method-ado.md), чтобы создать запись с указанным именем. Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **аддневжс. ASP**.
 
 ```javascript
 <!-- BeginAddNewJS --> 

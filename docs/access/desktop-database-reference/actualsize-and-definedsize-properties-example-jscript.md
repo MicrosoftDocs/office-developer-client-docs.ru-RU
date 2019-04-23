@@ -8,17 +8,17 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 99c88249180a0c8aeb7baff0e81a7c9e590a5ef4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704289"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280583"
 ---
 # <a name="actualsize-and-definedsize-properties-example-jscript"></a>Пример использования свойств ActualSize и DefinedSize (JScript)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере с помощью свойства [ActualSize](actualsize-property-ado.md) и [DefinedSize](definedsize-property-ado.md) для отображения определенного размера и фактический размер поля. Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ActualSizeJS.asp**.
+В этом примере используются свойства [ActualSize](actualsize-property-ado.md) и [DefinedSize](definedsize-property-ado.md) для отображения определенного размера и фактического размера поля. Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **актуалсизежс. ASP**.
 
 ```javascript
 <!-- BeginActualSizeJS --> 

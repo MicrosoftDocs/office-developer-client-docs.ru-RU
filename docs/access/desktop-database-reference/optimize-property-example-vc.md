@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f7c1d48bca7460ca5dc7aea4c65ffd25ea5c0ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288219"
 ---
 # <a name="optimize-property-example-vc"></a>Пример использования свойства Optimize (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется динамических свойство оптимизировать [поля](field-object-ado.md) объекта. Поле ***zip*** таблицы ***авторов*** в базе данных ***Pubs*** не индексируются. Свойства [оптимизировать](optimize-property-dynamic-ado.md) значение **True** в поле ***zip*** авторизует ADO для построения индекса, которая улучшает производительность метод [поиска](find-method-ado.md) .
+В этом примере показано динамическое свойство optimize объекта [field](field-object-ado.md) . Поле ***ZIP*** таблицы authors ****** в базе данных ***pubs*** не индексируется. Установка для свойства [optimize](optimize-property-dynamic-ado.md) значения **true** в поле ***ZIP*** авторизует ADO для создания индекса, который повышает производительность метода [Find](find-method-ado.md) .
 
 ```cpp 
  

@@ -8,21 +8,21 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e558346d69ca713b2de242e7e245310f81600d32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28697982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280462"
 ---
 # <a name="activeconnection-property-adox"></a>Свойство ActiveConnection (ADOX)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает объект ADO- [подключение](connection-object-ado.md) , к которой принадлежит [каталога](catalog-object-adox.md) .
+Указывает объект [подключения](connection-object-ado.md) ADO, к которому принадлежит [Каталог](catalog-object-adox.md) .
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает объект **подключения** или **строка** , содержащая определения для подключения. Возвращает объект активного **подключения** .
+Задает объект **Connection** или **строку** , содержащую определение подключения. Возвращает объект активного **подключения** .
 
 ## <a name="remarks"></a>Замечания
 

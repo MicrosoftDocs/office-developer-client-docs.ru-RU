@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281628"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>Интерфейс ADORecordConstruction (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Интерфейс **ADORecordConstruction** используется для создания объекта ADO **записи** из объекта OLE DB **строки** в приложении C/C++.
+Интерфейс **ADORecordConstruction** используется для создания объекта **записи** ADO из объекта **строки** OLE DB в приложении C/C++.
 
 Этот интерфейс поддерживает следующие свойства:
 
@@ -34,12 +34,12 @@ ms.locfileid: "28712010"
 <tr class="odd">
 <td><p><a href="parentrow-property-ado.md">ParentRow</a></p></td>
 <td><p>Только для записи.<br />
-Задает контейнер объекта OLE DB <strong>строку</strong> на этот объект ADO <strong>записи</strong> .</p></td>
+Задает контейнер объекта <strong>строки</strong> OLE DB для этого объекта <strong>записи</strong> ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="row-property-ado.md">Row</a></p></td>
 <td><p>Для чтения и записи.<br />
-Получает или задает объект OLE DB <strong>строку</strong> из/на этот объект ADO <strong>записи</strong> .</p></td>
+Получает или задает объект <strong>строки</strong> OLE DB от или on этого объекта <strong>записи</strong> ADO.</p></td>
 </tr>
 </tbody>
 </table>
@@ -55,16 +55,16 @@ ms.locfileid: "28712010"
 
 ## <a name="remarks"></a>Замечания
 
-Заданным объекта OLE DB **строки** (pRow), конструкции (объект ADO **записи** ), конструирование объекта ADO **записи** (adoR) объемов для трех основных операций:
+ПоЛучив объект **строки** OLE DB (пров), создание объекта **записи** ADO (), создание объекта **записи** ADO (Адор), суммы для следующих трех базовых операций:
 
-1.  Создайте объект ADO **записи** :
+1.  Создание объекта **записи** ADO:
     
     ```vb
         _RecordPtr adoR;
         adoRs.CreateInstance(__uuidof(_Record));
     ```
 
-2.  Запрос интерфейс **IADORecordConstruction** объекта **записи** :
+2.  ЗаПросите интерфейс **иадорекордконструктион** для объекта **Record** :
     
     ```vb
         adoRecordConstructionPtr adoRConstruct=NULL;
@@ -72,7 +72,7 @@ ms.locfileid: "28712010"
                             (void**)&adoRConstruct);
     ```
 
-3.  Вызов **IADORecordConstruction::put\_строки** метод свойства, чтобы установить для объекта OLE DB **строку** на объект ADO **записи** :
+3.  ВыЗовите метод **иадорекордконструктион::p\_UT Row** , чтобы задать объект **строки** OLE DB для объекта **записи** ADO:
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -80,15 +80,15 @@ ms.locfileid: "28712010"
         adoRConstruct->put_Row(pUnk);
     ```
     
-Объект результирующее **adoR** теперь представляет объект ADO **записи** , созданный из объекта OLE DB **строки** .
+Объект resultd **Адор** теперь представляет объект **записи** ADO, созданный на основе объекта **строки** OLE DB.
 
-Объект ADO **записи** также могут быть созданы из контейнера OLE DB **строки** объекта.
+Объект **записи** ADO также может быть создан из контейнера объекта **строки** OLE DB.
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
-**Версия:** ADO 2.0 и более поздних версий
+**Версия:** ADO 2,0 и более поздние версии
 
-**Библиотеки:** msado15.dll
+**Библиотека:** Msado15. dll
 
 **UUID:** 00000567-0000-0010-8000-00AA006D2EA4
 

@@ -8,77 +8,77 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e190791fe5be0cc4a8242cba4f711bf00837b366
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281820"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Примеры кода ADO на Microsoft Visual J++
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Чтобы узнать, как использовать ADO методы и свойства, при записи в Microsoft Visual J ++ используйте в следующих примерах кода.
+Используйте приведенные ниже примеры кода, чтобы узнать, как использовать методы и свойства ADO при написании кода в Microsoft Visual J++.
 
 > [!NOTE]
-> Вставьте полный пример кода, от начала до конца в редакторе кода. Пример может работать неправильно, если частичное примеры используются или абзаца форматирование теряется.
+> Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
 
 ## <a name="methods"></a>Методы
 
 - [Пример метода AddNew](addnew-method-example-vj.md)
-- [Добавление и пример: методы CreateParameter](append-and-createparameter-methods-example-vj.md)
-- [Пример: методы AppendChunk и GetChunk](appendchunk-and-getchunk-methods-example-vj.md)
-- [Пример: методы BeginTrans CommitTrans и RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
-- [Пример метода "Отмена"](cancel-method-example-vj.md)
-- [Пример метода клонированной](clone-method-example-vj.md)
+- [Пример методов Append и CreateParameter](append-and-createparameter-methods-example-vj.md)
+- [Пример методов AppendChunk и методического блока](appendchunk-and-getchunk-methods-example-vj.md)
+- [Пример методов BeginTrans, CommitTrans и RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
+- [Пример метода Cancel](cancel-method-example-vj.md)
+- [Пример метода Clone](clone-method-example-vj.md)
 - [Пример метода CompareBookmarks](comparebookmarks-method-example-vj.md)
-- [Удаление пример метода](delete-method-example-vj.md)
-- [Выполнение, обновление и очистка пример: методы](execute-requery-and-clear-methods-example-vj.md)
-- [Найдите пример метода](find-method-example-vj.md)
-- [Пример метода получения строк](getrows-method-example-vj.md)
+- [Пример метода Delete](delete-method-example-vj.md)
+- [Пример методов Execute, reQuery и Clear](execute-requery-and-clear-methods-example-vj.md)
+- [Пример метода Find](find-method-example-vj.md)
+- [Пример метода GetRows](getrows-method-example-vj.md)
 - [Пример метода GetString](getstring-method-example-vj.md)
-- [Пример: методы MoveFirst, MoveLast, MoveNext и MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vj.md)
+- [Пример методов MoveFirst, MoveLast, MoveNext и MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vj.md)
 - [Пример метода NextRecordset](nextrecordset-method-example-vj.md)
-- [Открытие и закрытие пример: методы](open-and-close-methods-example-vj.md)
+- [Пример методов Open и Close](open-and-close-methods-example-vj.md)
 - [Пример метода OpenSchema](openschema-method-example-vj.md)
-- [Пример метода обновления](refresh-method-example-vj.md)
-- [Выполнить повторную синхронизацию пример метода](resync-method-example-vj.md)
-- [Сохранить и пример открытые методы](save-and-open-methods-example-vj.md)
-- [Пример метода поддерживает](supports-method-example-vj.md)
-- [Пример: методы обновления и CancelUpdate](update-and-cancelupdate-methods-example-vj.md)
-- [Пример: методы UpdateBatch и CancelBatch](updatebatch-and-cancelbatch-methods-example-vj.md)
+- [Пример метода Refresh](refresh-method-example-vj.md)
+- [Пример метода Resync для повторной синхронизации](resync-method-example-vj.md)
+- [Пример методов Save и Open](save-and-open-methods-example-vj.md)
+- [Пример метода поддержки](supports-method-example-vj.md)
+- [Пример методов Update и CancelUpdate](update-and-cancelupdate-methods-example-vj.md)
+- [Пример методов UpdateBatch и CancelBatch](updatebatch-and-cancelbatch-methods-example-vj.md)
 
 ## <a name="properties"></a>Свойства
 
-- [Пример: свойства AbsolutePage, PageCount и PageSize](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
-- [Пример свойства AbsolutePosition и CursorLocation](absoluteposition-and-cursorlocation-properties-example-vj.md)
+- [Пример свойств AbsolutePage, PageCount и PageSize](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
+- [Пример свойств AbsolutePosition и CursorLocation](absoluteposition-and-cursorlocation-properties-example-vj.md)
 - [Пример свойства ActiveCommand](activecommand-property-example-vj.md)
-- [Пример: свойства ActiveConnection, CommandText, CommandTimeout, CommandType, размер и направление](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
-- [Пример свойства ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-vj.md)
-- [Пример: имя свойства и атрибуты](attributes-and-name-properties-example-vj.md)
-- [Пример: свойства BOF, EOF и закладка](bof-eof-and-bookmark-properties-example-vj.md)
+- [Пример свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
+- [Пример свойств ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-vj.md)
+- [Пример свойств атрибутов и имени](attributes-and-name-properties-example-vj.md)
+- [Пример свойств BOF, EOF и Bookmark](bof-eof-and-bookmark-properties-example-vj.md)
 - [Пример свойства CacheSize](cachesize-property-example-vj.md)
-- [Пример: свойства ConnectionString, ConnectionTimeout и состояния](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
+- [Пример свойств ConnectionString, ConnectionTimeout и State](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
 - [Пример использования свойства Count](count-property-example-vj.md)
-- [Пример: свойства CursorType, LockType для и EditMode](cursortype-locktype-and-editmode-properties-example-vj.md)
-- [Пример: свойства Description, HelpContext, файл справки, NativeError, номер, источника и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
-- [Пример свойства фильтра и RecordCount](filter-and-recordcount-properties-example-vj.md)
-- [Пример свойства IsolationLevel и режим](isolationlevel-and-mode-properties-example-vj.md)
-- [Пример свойства элемента](item-property-example-vj.md)
+- [Пример свойств CursorType, LockType и EditMode](cursortype-locktype-and-editmode-properties-example-vj.md)
+- [Пример свойств Description, HelpContext, HelpFile, NativeError, Number, Source и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
+- [Пример свойств Filter и RecordCount](filter-and-recordcount-properties-example-vj.md)
+- [Пример свойств IsolationLevel и Mode](isolationlevel-and-mode-properties-example-vj.md)
+- [Пример свойства Item](item-property-example-vj.md)
 - [Пример свойства MarshalOptions](marshaloptions-property-example-vj.md)
 - [Пример свойства MaxRecords](maxrecords-property-example-vj.md)
-- [Пример: свойства NumericScale и точность](numericscale-and-precision-properties-example-vj.md)
-- [Оптимизация пример свойства](optimize-property-example-vj.md)
-- [Пример свойства OriginalValue и UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vj.md)
-- [Пример свойства подготовленный](prepared-property-example-vj.md)
-- [Пример поставщика и DefaultDatabase свойства](provider-and-defaultdatabase-properties-example-vj.md)
-- [Пример свойства сортировки](sort-property-example-vj.md)
-- [Пример свойства источника](source-property-example-vj.md)
-- [Пример состояния свойства](state-property-example-vj.md)
-- [Пример свойства состояния](status-property-example-vj.md)
+- [Пример свойств NumericScale и Precision](numericscale-and-precision-properties-example-vj.md)
+- [Пример свойства OPTIMIZE](optimize-property-example-vj.md)
+- [Пример свойств OriginalValue и UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vj.md)
+- [Пример подготовленного свойства](prepared-property-example-vj.md)
+- [Пример свойств provider и DefaultDatabase](provider-and-defaultdatabase-properties-example-vj.md)
+- [Пример свойства Sort](sort-property-example-vj.md)
+- [Пример свойства Source](source-property-example-vj.md)
+- [Пример свойства State](state-property-example-vj.md)
+- [Пример свойства Status](status-property-example-vj.md)
 - [Пример свойства StayInSync](stayinsync-property-example-vj.md)
-- [Пример свойства типа (поля)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
-- [Пример свойства типа (свойство)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
+- [Пример свойства Type (Fields)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
+- [Пример свойства Type (Property)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
 - [Пример использования свойства Value](value-property-example-vj.md)
-- [Пример свойства версии](version-property-example-vj.md)
+- [Пример свойства Version](version-property-example-vj.md)
 

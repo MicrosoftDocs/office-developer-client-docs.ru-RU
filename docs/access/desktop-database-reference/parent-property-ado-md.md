@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0c0eef638cb76676cd2287a34c0e4b17bd89c4d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287792"
 ---
 # <a name="parent-property-ado-md"></a>Свойство Parent (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает элемент, являющийся родительским для текущего элемента в иерархии.
+Указывает члена, который является родительским для текущего элемента в иерархии.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает объект, [член](member-object-ado-md.md) и доступен только для чтения.
+Возвращает объект [member](member-object-ado-md.md) и доступен только для чтения.
 
 ## <a name="remarks"></a>Замечания
 
-Элемент, который находится на верхнем уровне иерархии (корень) не имеет родительского узла. Это свойство поддерживается только для объектов **члена** , относящегося к объекту [уровень](level-object-ado-md.md) . Ошибка происходит, когда это свойство является ссылка из объектов **члена** , относящегося к объекту [позиции](position-object-ado-md.md) .
+Элемент, расположенный на верхнем уровне иерархии (корень), не имеет родителя. Это свойство поддерживается только для объектов **member** , принадлежащих объекту [уровня](level-object-ado-md.md) . При обращении к этому свойству из объектов **member** , принадлежащих объекту [position](position-object-ado-md.md) , возникает ошибка.
 

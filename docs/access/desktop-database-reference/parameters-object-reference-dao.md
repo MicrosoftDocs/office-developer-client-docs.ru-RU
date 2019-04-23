@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект параметров (DAO)
+title: Ссылка на объект Parameters (DAO)
 TOCTitle: Parameters Object
 ms:assetid: c39f8d6f-74c0-46b9-bc2c-853b974a2006
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161302(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4bf4a5069af7603916308daa6d41291023379dfc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287834"
 ---
-# <a name="parameters-object-reference-dao"></a>Ссылка на объект параметров (DAO)
+# <a name="parameters-object-reference-dao"></a>Ссылка на объект Parameters (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-- [Коллекция параметров (DAO)](parameters-collection-dao.md)
-- [Параметры членов (DAO)](parameters-members-dao.md)
-- [Параметры свойства (DAO)](parameters-properties-dao.md)
-- [Параметры методов (DAO)](parameters-methods-dao.md)
+- [Коллекция Parameters (DAO)](parameters-collection-dao.md)
+- [Элементы Parameters (DAO)](parameters-members-dao.md)
+- [Свойства параметров (DAO)](parameters-properties-dao.md)
+- [Методы с параметрами (DAO)](parameters-methods-dao.md)
 

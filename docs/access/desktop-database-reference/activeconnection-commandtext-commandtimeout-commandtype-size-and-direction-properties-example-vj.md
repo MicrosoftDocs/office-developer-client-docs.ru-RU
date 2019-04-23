@@ -1,5 +1,5 @@
 ---
-title: 'Пример: свойства ActiveConnection CommandText, CommandTimeout (VJ ++)'
+title: Пример свойств ActiveConnection, CommandText, CommandTimeout (VJ + +)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)
 ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2c448ccb1f3ff9f0dd30fbd2c25234340e807c86
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282539"
 ---
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a>Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (VJ++)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере использует [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [размер](size-property-ado.md)и [направление](direction-property-ado.md) свойства для выполнения хранимой процедуры.
+В этом примере используются свойства [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [size](size-property-ado.md)и [Direction](direction-property-ado.md) для выполнения хранимой процедуры.
 
 ```java 
  

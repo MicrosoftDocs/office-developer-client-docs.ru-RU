@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fae0df2a4cc5c9de585d2b101e9fa31cb6a0a545
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281717"
 ---
 # <a name="ado-dynamic-properties"></a>Динамические свойства ADO
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Динамические свойства можно добавить в коллекции [свойств](properties-collection-ado.md) объектов [подключения](connection-object-ado.md), [команда](command-object-ado.md)или [набора записей](recordset-object-ado.md) . Источник данных свойств — это либо поставщик данных, таких как [Поставщик OLE DB для SQL Server](microsoft-ole-db-provider-for-sql-server.md)или поставщика услуг, таких как [Служба курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md). Обратитесь к требуемые данные поставщика или документации поставщика службы Дополнительные сведения о конкретных динамического свойства.
+Динамические свойства можно добавить в коллекции [свойств](properties-collection-ado.md) объекта [подключения](connection-object-ado.md), [команды](command-object-ado.md)или объекта [Recordset](recordset-object-ado.md) . Источником этих свойств является поставщик данных, например [поставщик OLE DB для SQL Server](microsoft-ole-db-provider-for-sql-server.md), или поставщик услуг, например, [Служба курсора Майкрософт для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md). Для получения дополнительных сведений о конкретном динамическом свойстве обратитесь к документации соответствующего поставщика данных или поставщика услуг.
 
-[Динамические свойства индекса ADO](ado-dynamic-property-index.md) предоставляет перекрестная ссылка между имена ADO и OLE DB для каждого стандартных OLE DB поставщика динамические свойства.
+[Индекс динамического свойства ADO](ado-dynamic-property-index.md) предоставляет перекрестные ссылки между именами ADO и OLE DB для каждого стандартного динамического свойства поставщика OLE DB.
 
-Следующие свойства динамического представляют интерес и также описаны в источниках, перечисленных выше. Специальные функциональные возможности с помощью ADO описана в перечисленных ниже разделах справки ADO.
+Следующие динамические свойства являются особым интересом и задокументированы в указанных выше источниках. Специальные функции ADO задокументированы в разделах справки ADO, перечисленных ниже.
 
 <br/>
 
@@ -33,32 +33,32 @@ ms.locfileid: "28714523"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Динамические свойства</th>
+<th>Динамическое свойство</th>
 <th>Описание</th>
 </tr>
 <tr class="odd">
 <td><p><a href="optimize-property-dynamic-ado.md">Оптимизация</a></p></td>
-<td><p>Указывает, следует ли создавать индекса на это поле.</p></td>
+<td><p>Указывает, следует ли создать индекс для этого поля.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="prompt-property-dynamic-ado.md">Prompt</a></p></td>
-<td><p>Указывает, следует ли поставщик OLE DB запрашивать у пользователя сведения инициализации.</p></td>
+<td><p>Указывает, должен ли поставщик OLE DB запрашивать у пользователя сведения о инициализации.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="reshape-name-property-dynamic-ado.md">Изменить форму имя</a></p></td>
-<td><p>Указывает имя для объекта <strong>набора записей</strong> .</p></td>
+<td><p><a href="reshape-name-property-dynamic-ado.md">Изменение имени фигуры</a></p></td>
+<td><p>Задает имя объекта <strong>Recordset</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="resync-command-property-dynamic-ado.md">Команда синхронизации</a></p></td>
-<td><p>Указывает строку пользовательские команды, метод <strong>выполнить повторную синхронизацию</strong> проблемы для обновления данных в таблице с именем в свойстве динамических <strong>Уникальной таблицы</strong> .</p></td>
+<td><p><a href="resync-command-property-dynamic-ado.md">Команда Resync</a></p></td>
+<td><p>Задает пользовательскую строку команды, которая выдает <strong></strong> метод Resync для обновления данных в таблице, имя которой указано в динамическом свойстве <strong>таблицы Unique</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Уникальной таблицы, уникальные схемы, уникальный каталога</a></p></td>
-<td><p><strong>Уникальная таблица</strong> — определяет имя базовая таблица, для которой разрешены обновления, вставки и удаления.<br/><br/><strong>Уникальный схемы</strong> — определяет схему или имя владельца таблицы.<br/><br/><strong>Уникальный каталога</strong> — указывает каталог или имя базы данных, содержащий таблицу.</p></td>
+<td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Уникальная таблица, уникальная схема, уникальный каталог</a></p></td>
+<td><p><strong>Уникальная таблица</strong> — указывает имя базовой таблицы, для которой разрешены обновления, вставки и удаления.<br/><br/><strong>Уникальная схема</strong> — указывает схему или имя владельца таблицы.<br/><br/><strong>Уникальный каталог</strong> — указывает каталог или имя базы данных, содержащей таблицу.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-resync-property-dynamic-ado.md">Обновление повторной синхронизации</a></p></td>
-<td><p>Указывает, будет ли метод <strong>UpdateBatch</strong> следуют неявных <strong>выполнить повторную синхронизацию</strong> метод операцию и если да, области действия этой операции.</p></td>
+<td><p><a href="update-resync-property-dynamic-ado.md">Повторная синхронизация обновлений</a></p></td>
+<td><p>Указывает, сопровождается ли метод <strong>UpdateBatch</strong> неявным методом повторной <strong>синхронизации</strong> , и, если это так, областью этой операции.</p></td>
 </tr>
 </tbody>
 </table>

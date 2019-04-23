@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 91b8d66929e360f88385b6773a03fcaffb79161d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288205"
 ---
 # <a name="ordinal-property-ado-md-cell"></a>Свойство Ordinal (Cell в ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Однозначно определяет ячейку по ее позиции в рамках набора ячеек.
+Уникально определяет ячейку по ее позиции в наборе ячеек.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает значение типа **Long** integer и доступен только для чтения.
+Возвращает целое значение **типа Long** и доступно только для чтения.
 
 ## <a name="remarks"></a>Замечания
 
-Порядковый номер ячейки однозначно определяет ячейку в рамках набора ячеек. Концептуально ячеек нумеруются в набора ячеек, как будто ячеек *p*-двумерного массива array, где *p* — это число [осей](axes-collection-ado-md.md). Ячейки нумеруются, начиная с нуля в строкам.
+Порядковое значение ячейки однозначно определяет ячейку в наборе ячеек. Как концептуально, ячейки пронумерованы в наборе ячеек, как если бы набор ячеек был ** одномерным массивом, где *p* — это количество [осей](axes-collection-ado-md.md). Нумерация ячеек начинается с нуля в порядке строки основной.
 
-Порядковый номер ячейки можно использовать свойство [Item](item-property-ado-md-cellset.md) объекта [ячеек](cellset-object-ado-md.md) для быстрого извлечения [ячейки](cell-object-ado-md.md).
+Порядковое значение ячейки можно использовать вместе со свойством [Item](item-property-ado-md-cellset.md) объекта [Cell](cellset-object-ado-md.md) , чтобы быстро извлечь [ячейку](cell-object-ado-md.md).
 

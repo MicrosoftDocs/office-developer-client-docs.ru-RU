@@ -8,41 +8,41 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2bfe788923d623300edac28f0f27534b3ffd8b32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283403"
 ---
 # <a name="ado-dynamic-property-index"></a>Индекс динамических свойств ADO
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Поставщики данных, поставщиков услуг и компоненты службы можно добавить динамические свойства коллекции **свойств** объектов неоткрытый [подключения](connection-object-ado.md) и [набора записей](recordset-object-ado.md) . Данный поставщик также вставить дополнительные свойства при открытии эти объекты. В разделе [Свойства динамического ADO](ado-dynamic-properties.md) перечислены некоторые из этих свойств. Больше, указанных для конкретных поставщиков в разделе [Приложение а: поставщиков](appendix-a-providers.md) .
+Поставщики данных, поставщики услуг и компоненты служб могут добавлять динамические свойства в коллекции **свойств** неоткрытого [подключения](connection-object-ado.md) и объектов [Recordset](recordset-object-ado.md) . Заданный поставщик может также вставлять дополнительные свойства при открытии этих объектов. Некоторые из этих свойств перечислены в разделе [динамические свойства ADO](ado-dynamic-properties.md) . Дополнительные сведения приведены в разделе конкретные поставщики в разделе [приложение A: поставщики](appendix-a-providers.md) .
 
-В таблице ниже приведен cross-index имен ADO и OLE DB для каждого стандартных OLE DB поставщика динамические свойства. Ваше поставщики могут добавлять несколько свойств, чем перечисленных здесь. Определенные сведения о динамических свойств от поставщика обратитесь к документации поставщика.
+Приведенная ниже таблица является перекрестным индексом имен ADO и OLE DB для каждого стандартного динамического свойства поставщика OLE DB. Поставщики могут добавлять больше свойств, чем указано здесь. Конкретные сведения о динамических свойствах, связанных с поставщиками, можно найти в документации по поставщику.
 
-Справочник программиста OLE DB указано имя свойства ADO по слову «Описание». Дополнительные сведения об этих стандартных свойств можно найти в Справочник программиста OLE DB. Поиск имени свойства OLE DB в индексе или в следующих разделах:
+Справочник программиста OLE DB ссылается на имя свойства ADO по термину "Описание". Дополнительные сведения об этих стандартных свойствах можно найти в справочнике программиста по OLE DB. Найдите имя свойства OLE DB в индексе или ознакомьтесь со следующими разделами:
 
-- Приложение c. свойства OLE DB
+- Приложение C: свойства OLE DB
 
 - Поддерживаемые свойства службы курсора
 
-- Поддерживаемые свойства поставщика службы сохранения
+- Поддерживаемые свойства поставщика сохраняемости
 
-- Свойства Поддерживаемые OLE DB поставщика удаленного доступа
+- Поддерживаемые свойства OLE DB поставщика удаленного взаимодействия
 
 ## <a name="remarks"></a>Замечания
 
-Обратите внимание на номера, используемые в cross-index.
+Номера заМеток, используемые в перекрестном индексе:
 
-(1) это свойство соответствует флаг типа Boolean, указывающее, следует ли использовать данный интерфейс. Имя свойства в эквивалентный OLE DB отображается, если он существует.
+(1) это свойство является логическим флагом, указывающим, следует ли использовать именованный интерфейс. Эквивалентное имя свойства OLE DB указано, если оно существует.
 
-(2) свойство «Bookmarkable» ADO создается внутренне для обратной совместимости и назначается свойству OLE DB DBPROP\_IROWSETLOCATE. Это то же свойство, которое соответствует свойству ADO IRowsetLocate.
+(2) свойство ADO "Bookmarkd" создается внутренне для обратной совместимости и сопоставляется со свойством OLE DB, ДБПРОП\_ировсетлокате. Это то же свойство, которое соответствует свойству ADO, Ировсетлокате.
 
-(3) ADO имя свойства, «Скрытые столбцы», называется иначе, чем имя свойства OLE DB описания, «Count скрытые столбцы».
+(3) имя свойства ADO, "Hidden Columns", называется иначе, чем описание имени свойства OLE DB, "число скрытых столбцов".
 
-(4) для иерархические наборы записей ADO «Максимальное число строк» свойство получает применять на все дочерние элементы. В зависимости от того, в том порядке, в котором возвращенных строк может содержать все, некоторые или нет дочерних элементов для каждого родительского или потерянного дочерние элементы в наборе результатов. Таким образом после изменения формы иерархические наборы записей, идентификатор для каждого дочернего должен быть уникальным. В общем случае поставщика [Услуг формирования Microsoft данных для OLE DB (MSDATASHAPE)](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) не разрешает различие между свойства, которые могут наследоваться от родительского сайта и те, которые не могут быть унаследованы.
+(4) для иерархических наборов записей свойство ADO "Maximum Rows" применяется ко всем дочерним элементам. В зависимости от порядка, в котором возвращаются строки, могут иметься все, некоторые или не дочерние элементы для каждого родительского или потерянного дочерних элементов в наборе результатов. Таким образом, при изменении формы иерархических наборов записей идентификаторы для каждого потомка должны быть уникальными. Как правило, поставщик [службы формирования данных Майкрософт для OLE DB (мсдаташапе)](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) не позволяет различать свойства, которые могут быть унаследованы от родительского элемента, и те, которые не могут быть унаследованы.
 
 (5) не применяется.
 
@@ -61,264 +61,264 @@ ms.locfileid: "28703554"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Активных сеансов</p></td>
-<td><p>DBPROP_ACTIVESESSIONS</p></td>
+<td><p>Активные сеансы</p></td>
+<td><p>ДБПРОП_АКТИВЕСЕССИОНС</p></td>
 </tr>
 <tr class="even">
-<td><p>Прерывание Asynchable</p></td>
-<td><p>DBPROP_ASYNCTXNABORT</p></td>
+<td><p>Асинчабле Abort</p></td>
+<td><p>ДБПРОП_АСИНКТКСНАБОРТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Зафиксировать Asynchable</p></td>
-<td><p>DBPROP_ASYNCTNXCOMMIT</p></td>
+<td><p>Фиксация Асинчабле</p></td>
+<td><p>ДБПРОП_АСИНКТНКСКОММИТ</p></td>
 </tr>
 <tr class="even">
-<td><p>Уровни изоляции автоматической фиксации</p></td>
-<td><p>DBPROP_SESS_AUTOCOMMITISOLEVELS</p></td>
+<td><p>Уровни изоляции для автоматической фиксации</p></td>
+<td><p>ДБПРОП_СЕСС_АУТОКОММИТИСОЛЕВЕЛС</p></td>
 </tr>
 <tr class="odd">
 <td><p>Расположение каталога</p></td>
-<td><p>DBPROP_CATALOGLOCATION</p></td>
+<td><p>ДБПРОП_КАТАЛОГЛОКАТИОН</p></td>
 </tr>
 <tr class="even">
-<td><p>Каталог терминов</p></td>
-<td><p>DBPROP_CATALOGTERM</p></td>
+<td><p>Термин каталога</p></td>
+<td><p>ДБПРОП_КАТАЛОГТЕРМ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Определение столбца</p></td>
-<td><p>DBPROP_COLUMNDEFINITION</p></td>
+<td><p>ДБПРОП_КОЛУМНДЕФИНИТИОН</p></td>
 </tr>
 <tr class="even">
 <td><p>Время ожидания подключения</p></td>
-<td><p>DBPROP_INIT_TIMEOUT</p></td>
+<td><p>ДБПРОП_ИНИТ_ТИМЕАУТ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Текущий каталог</p></td>
-<td><p>DBPROP_CURRENTCATALOG</p></td>
+<td><p>ДБПРОП_КУРРЕНТКАТАЛОГ</p></td>
 </tr>
 <tr class="even">
 <td><p>Источник данных</p></td>
-<td><p>DBPROP_INIT_DATASOURCE</p></td>
+<td><p>ДБПРОП_ИНИТ_ДАТАСАУРЦЕ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Имя источника данных</p></td>
-<td><p>DBPROP_DATASOURCENAME</p></td>
+<td><p>ДБПРОП_ДАТАСАУРЦЕНАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Модель потоков объекта источника данных</p></td>
-<td><p>DBPROP_DSOTHREADMODEL</p></td>
+<td><p>Модель потоков объектов источника данных</p></td>
+<td><p>ДБПРОП_ДСОСРЕАДМОДЕЛ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Имя СУБД</p></td>
-<td><p>DBPROP_DBMSNAME</p></td>
+<td><p>ДБПРОП_ДБМСНАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Версия СУБД</p></td>
-<td><p>DBPROP_DBMSVER</p></td>
+<td><p>Версия DBMS</p></td>
+<td><p>ДБПРОП_ДБМСВЕР</p></td>
 </tr>
 <tr class="odd">
 <td><p>Расширенные свойства</p></td>
-<td><p>DBPROP_INIT_PROVIDERSTRING</p></td>
+<td><p>ДБПРОП_ИНИТ_ПРОВИДЕРСТРИНГ</p></td>
 </tr>
 <tr class="even">
-<td><p>ГРУППИРОВКА по поддержке</p></td>
-<td><p>DBPROP_GROUPBY</p></td>
+<td><p>ГРУППИРОВКа по поддержке</p></td>
+<td><p>ДБПРОП_ГРАУПБИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Поддержка разнородных таблиц</p></td>
-<td><p>DBPROP_HETEROGENEOUSTABLES</p></td>
+<td><p>Поддержка гетерогенных таблиц</p></td>
+<td><p>ДБПРОП_ХЕТЕРОЖЕНЕАУСТАБЛЕС</p></td>
 </tr>
 <tr class="even">
-<td><p>Идентификатор регистра</p></td>
-<td><p>DBPROP_IDENTIFIERCASE</p></td>
+<td><p>Чувствительность к регистру идентификаторов</p></td>
+<td><p>ДБПРОП_ИДЕНТИФИЕРКАСЕ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Исходный каталог</p></td>
-<td><p>DBPROP_INIT_CATALOG</p></td>
+<td><p>ДБПРОП_ИНИТ_КАТАЛОГ</p></td>
 </tr>
 <tr class="even">
 <td><p>Уровни изоляции</p></td>
-<td><p>DBPROP_SUPPORTEDTXNISOLEVELS</p></td>
+<td><p>ДБПРОП_СУППОРТЕДТКСНИСОЛЕВЕЛС</p></td>
 </tr>
 <tr class="odd">
 <td><p>Хранение изоляции</p></td>
-<td><p>DBPROP_SUPPORTEDTXNISORETAIN</p></td>
+<td><p>ДБПРОП_СУППОРТЕДТКСНИСОРЕТАИН</p></td>
 </tr>
 <tr class="even">
-<td><p>Идентификатор языка</p></td>
-<td><p>DBPROP_INIT_LCID</p></td>
+<td><p>Идентификатор языкового стандарта</p></td>
+<td><p>ДБПРОП_ИНИТ_ЛЦИД</p></td>
 </tr>
 <tr class="odd">
-<td><p>Location</p></td>
-<td><p>DBPROP_INIT_LOCATION</p></td>
+<td><p>Расположение</p></td>
+<td><p>ДБПРОП_ИНИТ_ЛОКАТИОН</p></td>
 </tr>
 <tr class="even">
 <td><p>Максимальный размер индекса</p></td>
-<td><p>DBPROP_MAXINDEXSIZE</p></td>
+<td><p>ДБПРОП_МАКСИНДЕКССИЗЕ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Максимальный размер строки</p></td>
-<td><p>DBPROP_MAXROWSIZE</p></td>
+<td><p>ДБПРОП_МАКСРОВСИЗЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальный размер строки включает в себя больших двоичных ОБЪЕКТОВ</p></td>
-<td><p>DBPROP_MAXROWSIZEINCLUDESBLOB</p></td>
+<td><p>Максимальный размер строки включает большой ДВОИЧный объект</p></td>
+<td><p>ДБПРОП_МАКСРОВСИЗЕИНКЛУДЕСБЛОБ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальная таблиц в Выбор</p></td>
-<td><p>DBPROP_MAXTABLESINSELECT</p></td>
+<td><p>Максимальное число таблиц в SELECT</p></td>
+<td><p>ДБПРОП_МАКСТАБЛЕСИНСЕЛЕКТ</p></td>
 </tr>
 <tr class="even">
 <td><p>Режим</p></td>
-<td><p>DBPROP_INIT_MODE</p></td>
+<td><p>ДБПРОП_ИНИТ_МОДЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Несколько наборов параметров</p></td>
-<td><p>DBPROP_MULTIPLEPARAMSETS</p></td>
+<td><p>Наборы параметров с несколькими параметрами</p></td>
+<td><p>ДБПРОП_МУЛТИПЛЕПАРАМСЕТС</p></td>
 </tr>
 <tr class="even">
 <td><p>Несколько результатов</p></td>
-<td><p>DBPROP_MULTIPLERESULTS</p></td>
+<td><p>ДБПРОП_МУЛТИПЛЕРЕСУЛТС</p></td>
 </tr>
 <tr class="odd">
-<td><p>Несколько объектов хранения</p></td>
-<td><p>DBPROP_MULTIPLESTORAGEOBJECTS</p></td>
+<td><p>Несколько объектов хранилища</p></td>
+<td><p>ДБПРОП_МУЛТИПЛЕСТОРАЖЕОБЖЕКТС</p></td>
 </tr>
 <tr class="even">
-<td><p>Обновление нескольких таблицы</p></td>
-<td><p>DBPROP_MULTITABLEUPDATE</p></td>
+<td><p>Обновление с несколькими таблицами</p></td>
+<td><p>ДБПРОП_МУЛТИТАБЛЕУПДАТЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Порядок сортировки значений NULL</p></td>
-<td><p>DBPROP_NULLCOLLATION</p></td>
+<td><p>Порядок сортировки NULL</p></td>
+<td><p>ДБПРОП_НУЛЛКОЛЛАТИОН</p></td>
 </tr>
 <tr class="even">
-<td><p>Поведение NULL объединения</p></td>
-<td><p>DBPROP_CONCATNULLBEHAVIOR</p></td>
+<td><p>Поведение сцепления со ЗНАЧЕНИЕМ NULL</p></td>
+<td><p>ДБПРОП_КОНКАТНУЛЛБЕХАВИОР</p></td>
 </tr>
 <tr class="odd">
 <td><p>Службы OLE DB</p></td>
-<td><p>DBPROP_INIT_OLEDBSERVICES, УСТАНОВИТЬ</p></td>
+<td><p>ДБПРОП_ИНИТ_ОЛЕДБСЕРВИЦЕС</p></td>
 </tr>
 <tr class="even">
 <td><p>Версия OLE DB</p></td>
-<td><p>DBPROP_PROVIDEROLEDBVER</p></td>
+<td><p>ДБПРОП_ПРОВИДЕРОЛЕДБВЕР</p></td>
 </tr>
 <tr class="odd">
-<td><p>Поддержка OLE-объектов</p></td>
-<td><p>DBPROP_OLEOBJECTS</p></td>
+<td><p>Поддержка объектов OLE</p></td>
+<td><p>ДБПРОП_ОЛЕОБЖЕКТС</p></td>
 </tr>
 <tr class="even">
 <td><p>Поддержка открытых наборов строк</p></td>
-<td><p>DBPROP_OPENROWSETSUPPORT</p></td>
+<td><p>ДБПРОП_ОПЕНРОВСЕТСУППОРТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>ORDER BY столбцы в списке Select</p></td>
-<td><p>DBPROP_ORDERBYCOLUMNSINSELECT</p></td>
+<td><p>УПОРЯДОЧЕНие по столбцам в списке выборки</p></td>
+<td><p>ДБПРОП_ОРДЕРБИКОЛУМНСИНСЕЛЕКТ</p></td>
 </tr>
 <tr class="even">
-<td><p>Выходной параметр доступности</p></td>
-<td><p>DBPROP_OUTPUTPARAMETERAVAILABILITY</p></td>
+<td><p>Доступность выходного параметра</p></td>
+<td><p>ДБПРОП_АУТПУТПАРАМЕТЕРАВАИЛАБИЛИТИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Передайте с указанные методы</p></td>
-<td><p>DBPROP_BYREFACCESSORS</p></td>
+<td><p>Передача по параметрам доступа ref</p></td>
+<td><p>ДБПРОП_БИРЕФАКЦЕССОРС</p></td>
 </tr>
 <tr class="even">
-<td><p>Password</p></td>
-<td><p>DBPROP_AUTH_PASSWORD</p></td>
+<td><p>Пароль</p></td>
+<td><p>ДБПРОП_АУС_ПАССВОРД</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранять сведения о безопасности</p></td>
-<td><p>DBPROP_AUTH_PERSIST_SENSITIVE_AUTHINFO</p></td>
+<td><p>Сохранение сведений о безопасности</p></td>
+<td><p>ДБПРОП_АУС_ПЕРСИСТ_СЕНСИТИВЕ_АУСИНФО</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип сохраняемого идентификатора</p></td>
-<td><p>DBPROP_PERSISTENTIDTYPE</p></td>
+<td><p>Тип постоянного идентификатора</p></td>
+<td><p>ДБПРОП_ПЕРСИСТЕНТИДТИПЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Подготовка поведение аварийное завершение</p></td>
-<td><p>DBPROP_PREPAREABORTBEHAVIOR</p></td>
+<td><p>Действие по подготовке к прерыванию</p></td>
+<td><p>ДБПРОП_ПРЕПАРЕАБОРТБЕХАВИОР</p></td>
 </tr>
 <tr class="even">
-<td><p>Подготовка поведение выделения</p></td>
-<td><p>DBPROP_PREPARECOMMITBEHAVIOR</p></td>
+<td><p>Подготовка режима фиксации</p></td>
+<td><p>ДБПРОП_ПРЕПАРЕКОММИТБЕХАВИОР</p></td>
 </tr>
 <tr class="odd">
-<td><p>Процедура терминов</p></td>
-<td><p>DBPROP_PROCEDURETERM</p></td>
+<td><p>Термин процедуры</p></td>
+<td><p>ДБПРОП_ПРОЦЕДУРЕТЕРМ</p></td>
 </tr>
 <tr class="even">
-<td><p>Запрос</p></td>
-<td><p>DBPROP_INIT_PROMPT</p></td>
+<td><p>Prompt</p></td>
+<td><p>ДБПРОП_ИНИТ_ПРОМПТ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Понятное имя поставщика</p></td>
-<td><p>DBPROP_PROVIDERFRIENDLYNAME</p></td>
+<td><p>ДБПРОП_ПРОВИДЕРФРИЕНДЛИНАМЕ</p></td>
 </tr>
 <tr class="even">
 <td><p>Имя поставщика</p></td>
-<td><p>DBPROP_PROVIDERFILENAME</p></td>
+<td><p>ДБПРОП_ПРОВИДЕРФИЛЕНАМЕ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Версия поставщика</p></td>
-<td><p>DBPROP_PROVIDERVER</p></td>
+<td><p>ДБПРОП_ПРОВИДЕРВЕР</p></td>
 </tr>
 <tr class="even">
-<td><p>Источник данных только для чтения</p></td>
-<td><p>DBPROP_DATASOURCEREADONLY</p></td>
+<td><p>Источник данных, предназначенный только для чтения</p></td>
+<td><p>ДБПРОП_ДАТАСАУРЦЕРЕАДОНЛИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Преобразование строк на команду</p></td>
-<td><p>DBPROP_ROWSETCONVERSIONSONCOMMAND</p></td>
+<td><p>Преобразования наборов строк для команды</p></td>
+<td><p>ДБПРОП_РОВСЕТКОНВЕРСИОНСОНКОММАНД</p></td>
 </tr>
 <tr class="even">
-<td><p>Схема терминов</p></td>
-<td><p>DBPROP_SCHEMATERM</p></td>
+<td><p>Термин схемы</p></td>
+<td><p>ДБПРОП_СЧЕМАТЕРМ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Об использовании схемы</p></td>
-<td><p>DBPROP_SCHEMAUSAGE</p></td>
+<td><p>Использование схемы</p></td>
+<td><p>ДБПРОП_СЧЕМАУСАЖЕ</p></td>
 </tr>
 <tr class="even">
 <td><p>Поддержка SQL</p></td>
-<td><p>DBPROP_SQLSUPPORT</p></td>
+<td><p>ДБПРОП_СКЛСУППОРТ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Структурированное хранилище</p></td>
-<td><p>DBPROP_STRUCTUREDSTORAGE</p></td>
+<td><p>ДБПРОП_СТРУКТУРЕДСТОРАЖЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Поддержка вложенного запроса</p></td>
-<td><p>DBPROP_SUBQUERIES</p></td>
+<td><p>Поддержка вложенных запросов</p></td>
+<td><p>ДБПРОП_СУБКУЕРИЕС</p></td>
 </tr>
 <tr class="odd">
-<td><p>В таблице терминов</p></td>
-<td><p>DBPROP_TABLETERM</p></td>
+<td><p>Табличный термин</p></td>
+<td><p>ДБПРОП_ТАБЛЕТЕРМ</p></td>
 </tr>
 <tr class="even">
-<td><p>Транзакций DDL</p></td>
-<td><p>DBPROP_SUPPORTEDTXNDDL</p></td>
+<td><p>DDL транзакции</p></td>
+<td><p>ДБПРОП_СУППОРТЕДТКСНДДЛ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Идентификатор пользователя</p></td>
-<td><p>DBPROP_AUTH_USERID</p></td>
+<td><p>ДБПРОП_АУС_УСЕРИД</p></td>
 </tr>
 <tr class="even">
-<td><p>Имя пользователя</p></td>
-<td><p>DBPROP_USERNAME</p></td>
+<td><p>имя пользователя;</p></td>
+<td><p>ДБПРОП_УСЕРНАМЕ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Дескриптор окна</p></td>
-<td><p>DBPROP_INIT_HWND</p></td>
+<td><p>ДБПРОП_ИНИТ_ХВНД</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Свойства динамической набора записей**
+**Динамические свойства Recordset**
 
-Обратите внимание, что **Динамические свойства** объекта **набора записей** выйдет из области действия (становятся недоступными) при закрытии **набора записей** .
+Обратите внимание, что **динамические свойства** объекта **Recordset** выходят из области действия (становятся недоступными) при закрытии **набора записей** .
 
 <table>
 <colgroup>
@@ -333,412 +333,412 @@ ms.locfileid: "28703554"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IAccessor</p></td>
-<td><p>DBPROP_IACCESSOR (1)</p></td>
+<td><p>Иакцессор</p></td>
+<td><p>ДБПРОП_ИАКЦЕССОР (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IChapteredRowset</p></td>
-<td><p>(1)</p></td>
+<td><p>Ичаптередровсет</p></td>
+<td><p>1,1</p></td>
 </tr>
 <tr class="odd">
-<td><p>IColumnsInfo</p></td>
-<td><p>DBPROP_ICOLUMNSINFO (1)</p></td>
+<td><p>Иколумнсинфо</p></td>
+<td><p>ДБПРОП_ИКОЛУМНСИНФО (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IColumnsRowset</p></td>
-<td><p>DBPROP_ICOLUMNSROWSET (1)</p></td>
+<td><p>Иколумнсровсет</p></td>
+<td><p>ДБПРОП_ИКОЛУМНСРОВСЕТ (1)</p></td>
 </tr>
 <tr class="odd">
-<td><p>IConnectionPointContainer</p></td>
-<td><p>DBPROP_ICONNECTIONPOINTCONTAINER (1)</p></td>
+<td><p>Иконнектионпоинтконтаинер</p></td>
+<td><p>ДБПРОП_ИКОННЕКТИОНПОИНТКОНТАИНЕР (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IConvertType</p></td>
-<td><p>(1)</p></td>
+<td><p>Иконверттипе</p></td>
+<td><p>1,1</p></td>
 </tr>
 <tr class="odd">
 <td><p>ILockBytes</p></td>
-<td><p>DBPROP_ILOCKBYTES (1)</p></td>
+<td><p>ДБПРОП_ИЛОККБИТЕС (1)</p></td>
 </tr>
 <tr class="even">
 <td><p>IRowset</p></td>
-<td><p>DBPROP_IROWSET (1)</p></td>
+<td><p>ДБПРОП_ИРОВСЕТ (1)</p></td>
 </tr>
 <tr class="odd">
-<td><p>IDBAsynchStatus</p></td>
-<td><p>DBPROP_IDBASYNCHSTATUS (1)</p></td>
+<td><p>Идбасинчстатус</p></td>
+<td><p>ДБПРОП_ИДБАСИНЧСТАТУС (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IParentRowset</p></td>
-<td><p>(1)</p></td>
+<td><p>Ипарентровсет</p></td>
+<td><p>1,1</p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetChange</p></td>
-<td><p>DBPROP_IROWSETCHANGE (1)</p></td>
+<td><p>Ировсетчанже</p></td>
+<td><p>ДБПРОП_ИРОВСЕТЧАНЖЕ (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IRowsetExactScroll</p></td>
-<td><p>(1)</p></td>
+<td><p>Ировсетексактскролл</p></td>
+<td><p>1,1</p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetFind</p></td>
-<td><p>DBPROP_IROWSETFIND (1)</p></td>
+<td><p>Ировсетфинд</p></td>
+<td><p>ДБПРОП_ИРОВСЕТФИНД (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IRowsetIdentity</p></td>
-<td><p>DBPROP_IROWSETIDENTITY (1)</p></td>
+<td><p>Ировсетидентити</p></td>
+<td><p>ДБПРОП_ИРОВСЕТИДЕНТИТИ (1)</p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetInfo</p></td>
-<td><p>DBPROP_IROWSETINFO (1)</p></td>
+<td><p>Ировсетинфо</p></td>
+<td><p>ДБПРОП_ИРОВСЕТИНФО (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IRowsetLocate</p></td>
-<td><p>DBPROP_IROWSETLOCATE (1)</p></td>
+<td><p>Ировсетлокате</p></td>
+<td><p>ДБПРОП_ИРОВСЕТЛОКАТЕ (1)</p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetRefresh</p></td>
-<td><p>DBPROP_IROWSETREFRESH (1)</p></td>
+<td><p>Ировсетрефреш</p></td>
+<td><p>ДБПРОП_ИРОВСЕТРЕФРЕШ (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IRowsetResynch</p></td>
-<td><p>(1)</p></td>
+<td><p>Ировсетресинч</p></td>
+<td><p>1,1</p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetScroll</p></td>
-<td><p>DBPROP_IROWSETSCROLL (1)</p></td>
+<td><p>Ировсетскролл</p></td>
+<td><p>ДБПРОП_ИРОВСЕТСКРОЛЛ (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IRowsetUpdate</p></td>
-<td><p>DBPROP_IROWSETUPDATE (1)</p></td>
+<td><p>Ировсетупдате</p></td>
+<td><p>ДБПРОП_ИРОВСЕТУПДАТЕ (1)</p></td>
 </tr>
 <tr class="odd">
-<td><p>IRowsetView</p></td>
-<td><p>DBPROP_IROWSETVIEW (1)</p></td>
+<td><p>Ировсетвиев</p></td>
+<td><p>ДБПРОП_ИРОВСЕТВИЕВ (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IRowsetIndex</p></td>
-<td><p>DBPROP_IROWSETINDEX (1)</p></td>
+<td><p>Ировсетиндекс</p></td>
+<td><p>ДБПРОП_ИРОВСЕТИНДЕКС (1)</p></td>
 </tr>
 <tr class="odd">
-<td><p>ISequentialStream</p></td>
-<td><p>DBPROP_ISEQUENTIALSTREAM (1)</p></td>
+<td><p>Исекуентиалстреам</p></td>
+<td><p>ДБПРОП_ИСЕКУЕНТИАЛСТРЕАМ (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>IStorage</p></td>
-<td><p>DBPROP_ISTORAGE (1)</p></td>
+<td><p>Содержим</p></td>
+<td><p>ДБПРОП_ИСТОРАЖЕ (1)</p></td>
 </tr>
 <tr class="odd">
 <td><p>IStream</p></td>
-<td><p>DBPROP_ISTREAM (1)</p></td>
+<td><p>ДБПРОП_ИСТРЕАМ (1)</p></td>
 </tr>
 <tr class="even">
-<td><p>ISupportErrorInfo</p></td>
-<td><p>DBPROP_ISUPPORTERRORINFO (1)</p></td>
+<td><p>Исуппортерроринфо</p></td>
+<td><p>ДБПРОП_ИСУППОРТЕРРОРИНФО (1)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Порядок доступа</p></td>
-<td><p>DBPROP_ACCESSORDER</p></td>
+<td><p>ДБПРОП_АКЦЕССОРДЕР</p></td>
 </tr>
 <tr class="even">
-<td><p>Только для добавления строк</p></td>
-<td><p>DBPROP_APPENDONLY</p></td>
+<td><p>Набор строк только для добавления</p></td>
+<td><p>ДБПРОП_АППЕНДОНЛИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Обработка асинхронных строк</p></td>
-<td><p>DBPROP_ROWSET_ASYNCH</p></td>
+<td><p>Асинхронная обработка наборов строк</p></td>
+<td><p>ДБПРОП_РОВСЕТ_АСИНЧ</p></td>
 </tr>
 <tr class="even">
-<td><p>Автоматическое обновление ссылок</p></td>
-<td><p>DBPROP_ADC_AUTORECALC</p></td>
+<td><p>Автоматическое перерасчет</p></td>
+<td><p>ДБПРОП_АДК_АУТОРЕКАЛК</p></td>
 </tr>
 <tr class="odd">
-<td><p>Размер выборки фона</p></td>
-<td><p>DBPROP_ASYNCHFETCHSIZE</p></td>
+<td><p>Размер фоновой загрузки</p></td>
+<td><p>ДБПРОП_АСИНЧФЕТЧСИЗЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Приоритет потока фона</p></td>
-<td><p>DBPROP_ASYNCHTHREADPRIORITY</p></td>
+<td><p>Приоритет фонового потока</p></td>
+<td><p>ДБПРОП_АСИНЧСРЕАДПРИОРИТИ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Размер пакета</p></td>
-<td><p>DBPROP_ADC_BATCHSIZE</p></td>
+<td><p>ДБПРОП_АДК_БАТЧСИЗЕ</p></td>
 </tr>
 <tr class="even">
 <td><p>Блокировка объектов хранилища</p></td>
-<td><p>DBPROP_BLOCKINGSTORAGEOBJECTS</p></td>
+<td><p>ДБПРОП_БЛОККИНГСТОРАЖЕОБЖЕКТС</p></td>
 </tr>
 <tr class="odd">
 <td><p>Тип закладки</p></td>
-<td><p>DBPROP_BOOKMARKTYPE</p></td>
+<td><p>ДБПРОП_БУКМАРКТИПЕ</p></td>
 </tr>
 <tr class="even">
 <td><p>Bookmarkable</p></td>
-<td><p>DBPROP_IROWSETLOCATE (2)</p></td>
+<td><p>ДБПРОП_ИРОВСЕТЛОКАТЕ (2)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Упорядоченные закладки</p></td>
-<td><p>DBPROP_ORDEREDBOOKMARKS</p></td>
+<td><p>ДБПРОП_ОРДЕРЕДБУКМАРКС</p></td>
 </tr>
 <tr class="even">
-<td><p>Кэш дочерних строк</p></td>
-<td><p>DBPROP_ADC_CACHECHILDROWS</p></td>
+<td><p>ДоЧерние строки кэша</p></td>
+<td><p>ДБПРОП_АДК_КАЧЕЧИЛДРОВС</p></td>
 </tr>
 <tr class="odd">
-<td><p>Кэш отложенной столбцов</p></td>
-<td><p>DBPROP_CACHEDEFERRED</p></td>
+<td><p>Кэширование отложенных столбцов</p></td>
+<td><p>ДБПРОП_КАЧЕДЕФЕРРЕД</p></td>
 </tr>
 <tr class="even">
 <td><p>Изменение вставленных строк</p></td>
-<td><p>DBPROP_CHANGEINSERTEDROWS</p></td>
+<td><p>ДБПРОП_ЧАНЖЕИНСЕРТЕДРОВС</p></td>
 </tr>
 <tr class="odd">
-<td><p>Права доступа столбца</p></td>
-<td><p>DBPROP_COLUMNRESTRICT</p></td>
+<td><p>Права на столбцы</p></td>
+<td><p>ДБПРОП_КОЛУМНРЕСТРИКТ</p></td>
 </tr>
 <tr class="even">
-<td><p>Столбец набор уведомлений</p></td>
-<td><p>DBPROP_NOTIFYCOLUMNSET</p></td>
+<td><p>Уведомление о наборе столбцов</p></td>
+<td><p>ДБПРОП_НОТИФИКОЛУМНСЕТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Столбец для записи</p></td>
-<td><p>DBPROP_MAYWRITECOLUMN</p></td>
+<td><p>Столбец доступен для записи</p></td>
+<td><p>ДБПРОП_МАЙВРИТЕКОЛУМН</p></td>
 </tr>
 <tr class="even">
 <td><p>Время ожидания команды</p></td>
-<td><p>DBPROP_COMMANDTIMEOUT</p></td>
+<td><p>ДБПРОП_КОММАНДТИМЕАУТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Версия модуля текущей позиции</p></td>
-<td><p>DBPROP_ADC_CEVER</p></td>
+<td><p>Версия обработчика курсора</p></td>
+<td><p>ДБПРОП_АДК_ЦЕВЕР</p></td>
 </tr>
 <tr class="even">
-<td><p>Отложите столбца</p></td>
-<td><p>DBPROP_DEFERRED</p></td>
+<td><p>ОтКладывание столбца</p></td>
+<td><p>ДБПРОП_ДЕФЕРРЕД</p></td>
 </tr>
 <tr class="odd">
-<td><p>Отложенное обновление объекта хранения</p></td>
-<td><p>DBPROP_DELAYSTORAGEOBJECTS</p></td>
+<td><p>ОтКладывание обновлений объектов хранилища</p></td>
+<td><p>ДБПРОП_ДЕЛАЙСТОРАЖЕОБЖЕКТС</p></td>
 </tr>
 <tr class="even">
-<td><p>Выборку</p></td>
-<td><p>DBPROP_CANFETCHBACKWARDS</p></td>
+<td><p>Извлечение назад</p></td>
+<td><p>ДБПРОП_КАНФЕТЧБАККВАРДС</p></td>
 </tr>
 <tr class="odd">
-<td><p>Операции фильтрации</p></td>
-<td><p>DBPROP_FILTERCOMPAREOPS</p></td>
+<td><p>Операции фильтра</p></td>
+<td><p>ДБПРОП_ФИЛТЕРКОМПАРЕОПС</p></td>
 </tr>
 <tr class="even">
-<td><p>Найдите операций</p></td>
-<td><p>DBPROP_FINDCOMPAREOPS</p></td>
+<td><p>Операции поиска</p></td>
+<td><p>ДБПРОП_ФИНДКОМПАРЕОПС</p></td>
 </tr>
 <tr class="odd">
 <td><p>Скрытые столбцы (количество)</p></td>
-<td><p>DBPROP_HIDDENCOLUMNS (3)</p></td>
+<td><p>ДБПРОП_ХИДДЕНКОЛУМНС (3)</p></td>
 </tr>
 <tr class="even">
-<td><p>Хранение строк</p></td>
-<td><p>DBPROP_CANHOLDROWS</p></td>
+<td><p>Удержание строк</p></td>
+<td><p>ДБПРОП_КАНХОЛДРОВС</p></td>
 </tr>
 <tr class="odd">
-<td><p>Немобильные строки</p></td>
-<td><p>DBPROP_IMMOBILEROWS</p></td>
+<td><p>Строки для мобильных устройств</p></td>
+<td><p>ДБПРОП_ИММОБИЛЕРОВС</p></td>
 </tr>
 <tr class="even">
-<td><p>Размер начальной выборки</p></td>
-<td><p>DBPROP_ASYNCHPREFETCHSIZE</p></td>
+<td><p>Размер начальной извлечения</p></td>
+<td><p>ДБПРОП_АСИНЧПРЕФЕТЧСИЗЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Литерал закладки</p></td>
-<td><p>DBPROP_LITERALBOOKMARKS</p></td>
+<td><p>Литеральные закладки</p></td>
+<td><p>ДБПРОП_ЛИТЕРАЛБУКМАРКС</p></td>
 </tr>
 <tr class="even">
-<td><p>Удостоверение литерала строки</p></td>
-<td><p>DBPROP_LITERALIDENTITY</p></td>
+<td><p>Идентификация строк литералов</p></td>
+<td><p>ДБПРОП_ЛИТЕРАЛИДЕНТИТИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Обслуживание изменений состояния</p></td>
-<td><p>DBPROP_ADC_MAINTAINCHANGESTATUS</p></td>
+<td><p>Ведение состояния изменения</p></td>
+<td><p>ДБПРОП_АДК_МАИНТАИНЧАНЖЕСТАТУС</p></td>
 </tr>
 <tr class="even">
 <td><p>Максимальное число открытых строк</p></td>
-<td><p>DBPROP_MAXOPENROWS</p></td>
+<td><p>ДБПРОП_МАКСОПЕНРОВС</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимум ожидающие строк</p></td>
-<td><p>DBPROP_MAXPENDINGROWS</p></td>
+<td><p>Максимальное число ожидающих строк</p></td>
+<td><p>ДБПРОП_МАКСПЕНДИНГРОВС</p></td>
 </tr>
 <tr class="even">
 <td><p>Максимальное число строк</p></td>
-<td><p>DBPROP_MAXROWS (4)</p></td>
+<td><p>ДБПРОП_МАКСРОВС (4)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Использование памяти</p></td>
-<td><p>ОПРЕДЕЛЕН</p></td>
+<td><p>ДБПРОП_МЕМОРЮСАЖЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Степень детализации уведомлений</p></td>
-<td><p>DBPROP_NOTIFICATIONGRANULARITY</p></td>
+<td><p>Детализация уведомлений</p></td>
+<td><p>ДБПРОП_НОТИФИКАТИОНГРАНУЛАРИТИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Этапы уведомлений</p></td>
-<td><p>DBPROP_NOTIFICATIONPHASES</p></td>
+<td><p>Этапы уведомления</p></td>
+<td><p>ДБПРОП_НОТИФИКАТИОНФАСЕС</p></td>
 </tr>
 <tr class="even">
-<td><p>Объекты в транзакции</p></td>
-<td><p>DBPROP_TRANSACTEDOBJECT</p></td>
+<td><p>Объекты, транзакционные</p></td>
+<td><p>ДБПРОП_ТРАНСАКТЕДОБЖЕКТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Видны прочие изменения</p></td>
-<td><p>DBPROP_OTHERUPDATEDELETE</p></td>
+<td><p>Видны другие изменения</p></td>
+<td><p>ДБПРОП_ОСЕРУПДАТЕДЕЛЕТЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Других пользователей вставки видимым</p></td>
-<td><p>DBPROP_OTHERINSERT</p></td>
+<td><p>Видимые вставки других пользователей</p></td>
+<td><p>ДБПРОП_ОСЕРИНСЕРТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Видны собственные изменения</p></td>
-<td><p>DBPROP_OWNUPDATEDELETE</p></td>
+<td><p>Видны изменения</p></td>
+<td><p>ДБПРОП_ОВНУПДАТЕДЕЛЕТЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Видны собственные операции вставки</p></td>
-<td><p>DBPROP_OWNINSERT</p></td>
+<td><p>Отображение собственных вставок</p></td>
+<td><p>ДБПРОП_ОВНИНСЕРТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранять при аварийном завершении</p></td>
-<td><p>DBPROP_ABORTPRESERVE</p></td>
+<td><p>Сохранение при прерывании</p></td>
+<td><p>ДБПРОП_АБОРТПРЕСЕРВЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Сохранять при фиксации</p></td>
-<td><p>DBPROP_COMMITPRESERVE</p></td>
+<td><p>Сохранение при фиксации</p></td>
+<td><p>ДБПРОП_КОММИТПРЕСЕРВЕ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Private1</p></td>
-<td><p>(5)</p></td>
+<td><p>17:00</p></td>
 </tr>
 <tr class="even">
 <td><p>Быстрый перезапуск</p></td>
-<td><p>DBPROP_QUICKRESTART</p></td>
+<td><p>ДБПРОП_КУИККРЕСТАРТ</p></td>
 </tr>
 <tr class="odd">
 <td><p>Повторные события</p></td>
-<td><p>DBPROP_REENTRANTEVENTS</p></td>
+<td><p>ДБПРОП_РИНТРАНТЕВЕНТС</p></td>
 </tr>
 <tr class="even">
 <td><p>Удаление удаленных строк</p></td>
-<td><p>DBPROP_REMOVEDELETED</p></td>
+<td><p>ДБПРОП_РЕМОВЕДЕЛЕТЕД</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сообщить о нескольких изменений</p></td>
-<td><p>DBPROP_REPORTMULTIPLECHANGES</p></td>
+<td><p>Отчет о нескольких изменениях</p></td>
+<td><p>ДБПРОП_РЕПОРТМУЛТИПЛЕЧАНЖЕС</p></td>
 </tr>
 <tr class="even">
-<td><p>Изменить форму имя</p></td>
-<td><p>DBPROP_ADC_RESHAPENAME</p></td>
+<td><p>Изменение имени фигуры</p></td>
+<td><p>ДБПРОП_АДК_РЕШАПЕНАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Команда синхронизации</p></td>
-<td><p>DBPROP_ADC_CUSTOMRESYNCH</p></td>
+<td><p>Команда Resync</p></td>
+<td><p>ДБПРОП_АДК_КУСТОМРЕСИНЧ</p></td>
 </tr>
 <tr class="even">
-<td><p>Вернуть ожидающие вставки</p></td>
-<td><p>DBPROP_RETURNPENDINGINSERTS</p></td>
+<td><p>Возврат ожидающих вставок</p></td>
+<td><p>ДБПРОП_РЕТУРНПЕНДИНГИНСЕРТС</p></td>
 </tr>
 <tr class="odd">
-<td><p>Удалить строку уведомлений</p></td>
-<td><p>DBPROP_NOTIFYROWDELETE</p></td>
+<td><p>Уведомление об удалении строки</p></td>
+<td><p>ДБПРОП_НОТИФИРОВДЕЛЕТЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Строка первого уведомления об изменении</p></td>
-<td><p>DBPROP_NOTIFYROWFIRSTCHANGE</p></td>
+<td><p>Уведомление о первом изменении строки</p></td>
+<td><p>ДБПРОП_НОТИФИРОВФИРСТЧАНЖЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Строка вставки уведомлений</p></td>
-<td><p>DBPROP_NOTIFYROWINSERT</p></td>
+<td><p>Уведомление о вставке строк</p></td>
+<td><p>ДБПРОП_НОТИФИРОВИНСЕРТ</p></td>
 </tr>
 <tr class="even">
-<td><p>Привилегии строки</p></td>
-<td><p>DBPROP_ROWRESTRICT</p></td>
+<td><p>Права на строки</p></td>
+<td><p>ДБПРОП_РОВРЕСТРИКТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомления о повторной синхронизации строки</p></td>
-<td><p>DBPROP_NOTIFYROWRESYNCH</p></td>
+<td><p>Уведомление о повторной синхронизации строк</p></td>
+<td><p>ДБПРОП_НОТИФИРОВРЕСИНЧ</p></td>
 </tr>
 <tr class="even">
-<td><p>Строка, потоковой модели</p></td>
-<td><p>DBPROP_ROWTHREADMODEL</p></td>
+<td><p>Потоковая модель для строк</p></td>
+<td><p>ДБПРОП_РОВСРЕАДМОДЕЛ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление об изменении отмены строки</p></td>
-<td><p>DBPROP_NOTIFYROWUNDOCHANGE</p></td>
+<td><p>Уведомление об отмене изменения строки</p></td>
+<td><p>ДБПРОП_НОТИФИРОВУНДОЧАНЖЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Строка отмены Delete уведомлений</p></td>
-<td><p>DBPROP_NOTIFYROWUNDODELETE</p></td>
+<td><p>Уведомление о отмене удаления строки</p></td>
+<td><p>ДБПРОП_НОТИФИРОВУНДОДЕЛЕТЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Вставка отмены строки уведомлений</p></td>
-<td><p>DBPROP_NOTIFYROWUNDOINSERT</p></td>
+<td><p>Уведомление об отмене вставки строки</p></td>
+<td><p>ДБПРОП_НОТИФИРОВУНДОИНСЕРТ</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление об обновлении строки</p></td>
-<td><p>DBPROP_NOTIFYROWUPDATE</p></td>
+<td><p>Уведомление об обновлении строк</p></td>
+<td><p>ДБПРОП_НОТИФИРОВУПДАТЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление об изменении положения строк выборки</p></td>
-<td><p>DBPROP_NOTIFYROWSETFETCHPOSITIONCHANGE</p></td>
+<td><p>Уведомление об изменении положения при получении набора строк</p></td>
+<td><p>ДБПРОП_НОТИФИРОВСЕТФЕТЧПОСИТИОНЧАНЖЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление о выпуске набора строк</p></td>
-<td><p>DBPROP_NOTIFYROWSETRELEASE</p></td>
+<td><p>Уведомление о выПуске набора строк</p></td>
+<td><p>ДБПРОП_НОТИФИРОВСЕТРЕЛЕАСЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Прокрутка назад</p></td>
-<td><p>DBPROP_CANSCROLLBACKWARDS</p></td>
+<td><p>ПроКрутка назад</p></td>
+<td><p>ДБПРОП_КАНСКРОЛЛБАККВАРДС</p></td>
 </tr>
 <tr class="even">
 <td><p>Серверный курсор</p></td>
-<td><p>DBPROP_SERVERCURSOR</p></td>
+<td><p>ДБПРОП_СЕРВЕРКУРСОР</p></td>
 </tr>
 <tr class="odd">
-<td><p>Пропустить удаленных закладки</p></td>
-<td><p>DBPROP_BOOKMARKSKIPPED</p></td>
+<td><p>Пропуск удаленных закладок</p></td>
+<td><p>ДБПРОП_БУКМАРКСКИППЕД</p></td>
 </tr>
 <tr class="even">
-<td><p>Строка строгого удостоверений</p></td>
-<td><p>DBPROP_STRONGIDENTITY</p></td>
+<td><p>Строгая идентификация строк</p></td>
+<td><p>ДБПРОП_СТРОНГИДЕНТИТИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уникальный каталога</p></td>
-<td><p>DBPROP_ADC_UNIQUECATALOG</p></td>
+<td><p>Уникальный каталог</p></td>
+<td><p>ДБПРОП_АДК_УНИКУЕКАТАЛОГ</p></td>
 </tr>
 <tr class="even">
 <td><p>Уникальные строки</p></td>
-<td><p>DBPROP_UNIQUEROWS</p></td>
+<td><p>ДБПРОП_УНИКУЕРОВС</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уникальный схемы</p></td>
-<td><p>DBPROP_ADC_UNIQUESCHEMA</p></td>
+<td><p>Уникальная схема</p></td>
+<td><p>ДБПРОП_АДК_УНИКУЕСЧЕМА</p></td>
 </tr>
 <tr class="even">
 <td><p>Уникальная таблица</p></td>
-<td><p>DBPROP_ADC_UNIQUETABLE</p></td>
+<td><p>ДБПРОП_АДК_УНИКУЕТАБЛЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Возможности обновления</p></td>
-<td><p>DBPROP_UPDATABILITY</p></td>
+<td><p>Обновление</p></td>
+<td><p>ДБПРОП_УПДАТАБИЛИТИ</p></td>
 </tr>
 <tr class="even">
-<td><p>Обновление критериев</p></td>
-<td><p>DBPROP_ADC_UPDATECRITERIA</p></td>
+<td><p>Условия обновления</p></td>
+<td><p>ДБПРОП_АДК_УПДАТЕКРИТЕРИА</p></td>
 </tr>
 <tr class="odd">
-<td><p>Обновление повторной синхронизации</p></td>
-<td><p>DBPROP_ADC_UPDATERESYNC</p></td>
+<td><p>Повторная синхронизация обновлений</p></td>
+<td><p>ДБПРОП_АДК_УПДАТЕРЕСИНК</p></td>
 </tr>
 <tr class="even">
 <td><p>Использование закладок</p></td>
-<td><p>DBPROP_BOOKMARKS</p></td>
+<td><p>ДБПРОП_БУКМАРКС</p></td>
 </tr>
 </tbody>
 </table>

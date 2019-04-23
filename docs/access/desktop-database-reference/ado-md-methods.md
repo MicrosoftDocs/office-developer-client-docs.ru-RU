@@ -1,5 +1,5 @@
 ---
-title: Методы ActiveX Data Objects (ADO) MD
+title: Методы ADO MD для объектов данных ActiveX (ADO)
 TOCTitle: ADO MD methods
 ms:assetid: 17fa36ab-3e0b-dcde-7d64-37921c322fb2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248929(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 143e26f38afee71078b96fe43ac838817b8393a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283333"
 ---
 # <a name="ado-md-methods"></a>Методы ADO MD
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 <br/>
 
@@ -32,11 +32,11 @@ ms.locfileid: "28713179"
 </tr>
 <tr class="odd">
 <td><p><a href="close-method-ado-md.md">Закрыть</a></p></td>
-<td><p>Закрытие открытых ячеек.</p></td>
+<td><p>ЗаКрывает открытый набор ячеек.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="open-method-ado-md.md">Open</a></p></td>
-<td><p>Получает результаты запроса многомерных и возвращает результаты для набора ячеек.</p></td>
+<td><p>Получает результаты многомерного запроса и возвращает результаты в набор ячеек.</p></td>
 </tr>
 </tbody>
 </table>

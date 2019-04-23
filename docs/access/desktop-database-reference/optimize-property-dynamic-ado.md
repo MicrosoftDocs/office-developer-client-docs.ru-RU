@@ -1,5 +1,5 @@
 ---
-title: Оптимизация динамической свойство (ADO)
+title: Оптимизация динамического свойства (ADO)
 TOCTitle: Optimize dynamic property (ADO)
 ms:assetid: 2253b052-2d8a-f6f0-f8b8-f56e79d243de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 11bb7872514a828fdd97fb404f5366c35ff9a883
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288254"
 ---
-# <a name="optimize-dynamic-property-ado"></a>Оптимизация динамической свойство (ADO)
+# <a name="optimize-dynamic-property-ado"></a>Оптимизация динамического свойства (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, должен быть создан индекс для поля.
+Указывает, следует ли создать индекс для поля.
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает или возвращает значение **типа Boolean** , которое указывает, должен быть создан индекс.
+Задает или возвращает **логическое** значение, которое указывает, следует ли создать индекс.
 
 ## <a name="remarks"></a>Замечания
 
-Индекс можно повысить производительность операций, поиск или отсортировать значения в [набор записей](recordset-object-ado.md). Индекс является внутренним в ADO — явно не удается получить доступ к или использовать в приложении.
+Индекс может увеличить производительность операций, в которых выполняется поиск или сортировка значений в [наборе записей](recordset-object-ado.md). Индекс является внутренним по отношению к ADO, поэтому вы не можете явно получить доступ к нему или использовать его в вашем приложении.
 
-Чтобы создать индекс для поля, присвойте свойству **оптимизировать** значение **True**. Чтобы удалить индекс, этому свойству присвоено значение **False**.
+Чтобы создать индекс для поля, задайте для свойства **optimize** значение **true**. Чтобы удалить индекс, установите для этого свойства **значение false**.
 
-**Оптимизировать** является динамическим добавляется в конец коллекции [свойств](properties-collection-ado.md) объекта [поля](field-object-ado.md) при [CursorLocation](cursorlocation-property-ado.md) задано значение **adUseClient**.
+**Optimize** — это динамическое свойство, добавленное в коллекцию [свойств](properties-collection-ado.md) объекта [поля](field-object-ado.md) , если для свойства [CursorLocation](cursorlocation-property-ado.md) задано значение **адусеклиент**.
 
-**Использование**
+**Usage**
 
 ```vb
     Dim rs As New Recordset

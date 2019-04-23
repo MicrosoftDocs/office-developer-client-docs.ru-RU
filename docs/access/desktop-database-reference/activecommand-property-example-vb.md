@@ -8,20 +8,20 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 32ab8ba94570c98da03c3effc484490c327fd0a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282602"
 ---
 # <a name="activecommand-property-example-vb"></a>Пример использования свойства ActiveCommand (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется свойство [ActiveCommand](activecommand-property-ado.md) .
+В этом примере показано свойство [ActiveCommand](activecommand-property-ado.md) .
 
-Подпрограмма предоставляется объект [набора записей](recordset-object-ado.md) , в которых свойство **ActiveCommand** используется для отображения текст команды и параметр, который создан **набора записей**.
+Подпрограмме предоставляется объект [Recordset](recordset-object-ado.md) , свойство **ActiveCommand** которого используется для отображения текста команды и параметра, создавшего **набор записей**.
 
 ```vb 
  
@@ -88,11 +88,11 @@ End Sub
 'EndActiveCommandVB 
 ```
 
-Процедура **ActiveCommandXprint** предоставляется только объекта **набора записей** , но необходимо напечатать текст команды и параметр, который создан **набора записей**. Это можно сделать, так как свойство **ActiveCommand** объекта **набора записей** уступает связанного объекта [команды](command-object-ado.md) .
+Процедуре **активекоммандкспринт** предоставляется только объект **Recordset** , но он должен напечатать текст команды и параметр, который создал **набор записей**. Это можно сделать, так как свойство **ActiveCommand** объекта **Recordset** получает связанный объект [Command](command-object-ado.md) .
 
-Свойства объекта **команды** [CommandText](commandtext-property-ado.md) уступает параметризованные команды, которые созданы **набора записей**. Коллекция [параметров](parameters-collection-ado.md) объекта **команды** дает значение, которое было заменить заполнитель параметр команды («**?**»).
+Свойство [CommandText](commandtext-property-ado.md) объекта **Command** возвращает параметризованную команду, которая создала **набор записей**. Коллекция [Parameters](parameters-collection-ado.md) объекта **Command** возвращает значение, которое было заменено на заполнитель параметра команды ("**?**").
 
-И, наконец печати сообщения об ошибке или автора имя и идентификатор.
+Наконец, печатается сообщение об ошибке или имя автора и идентификатор.
 
 ```vb 
  

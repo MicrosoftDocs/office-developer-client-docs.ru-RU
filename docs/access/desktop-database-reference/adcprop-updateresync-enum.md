@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1952d473b51048a271a689498ae844cee761b001
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280441"
 ---
-# <a name="adcpropupdateresyncenum"></a>ADCPROP\_UPDATERESYNC\_ENUM
+# <a name="adcpropupdateresyncenum"></a>Перечисление АДКПРОП\_упдатересинк\_
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, будет ли метод [UpdateBatch](updatebatch-method-ado.md) следуют неявных [выполнить повторную синхронизацию](resync-method-ado.md) метод операции и, если да, области действия этой операции.
+Указывает, следует ли метод [UpdateBatch](updatebatch-method-ado.md) выполнить неявную операцию [](resync-method-ado.md) метода Resync и, если это так, область этой операции.
 
 <br/>
 
@@ -37,34 +37,34 @@ ms.locfileid: "28698339"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adResyncAll</strong></p></td>
-<td><p>15</p></td>
-<td><p>Вызывает <strong>выполнить повторную синхронизацию</strong> с комбинацией всех других членов ADCPROP_UPDATERESYNC_ENUM.</p></td>
+<td><p><strong>Адресинкалл</strong></p></td>
+<td><p>означает</p></td>
+<td><p>Вызывает <strong>повторную синхронизацию</strong> со объединенным значением всех других элементов адкпроп_упдатересинк_енум.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adResyncAutoIncrement</strong></p></td>
-<td><p>1</p></td>
-<td><p>Значение, используемое по умолчанию. Пытается получить новое значение identity для столбцов, которые автоматически увеличивается или создается источник данных, таких как полей Microsoft Jet счетчика или Microsoft SQL Server Identity столбцов.</p></td>
+<td><p><strong>Адресинкаутоинкремент</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Значение, используемое по умолчанию. Пытается получить новое значение идентификатора для столбцов, которые автоматически увеличиваются или генерируются источником данных, например поля автоНумерации Microsoft Jet или столбцы идентификаторов Microsoft SQL Server.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adResyncConflicts</strong></p></td>
+<td><p><strong>Адресинкконфликтс</strong></p></td>
 <td><p>2</p></td>
-<td><p>Вызывает <strong>выполнить повторную синхронизацию</strong> для всех строк, в которых update или delete операция завершилась неудачно из-за конфликта параллелизма.</p></td>
+<td><p>Вызывает <strong>повторную синхронизацию</strong> для всех строк, в которых произошел сбой операции обновления или удаления из-за конфликта параллелизма.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adResyncInserts</strong></p></td>
-<td><p>8</p></td>
-<td><p>Вызывает <strong>выполнить повторную синхронизацию</strong> для всех успешно вставленных строк. Тем не менее значения в столбцах AutoIncrement не синхронизируются. Вместо этого содержимое вставленных новых строк синхронизируются, на основе существующего основного ключа значения. Если первичный ключ значение AutoIncrement <strong>выполнить повторную синхронизацию</strong> не извлечь содержимое предполагаемая строки. Для автоматически увеличивающееся AutoIncrement значения первичного ключа, вызовите <strong>UpdateBatch</strong> с <strong>adResyncAutoIncrement</strong> объединенное значение + <strong>adResyncInserts</strong>.</p></td>
+<td><p><strong>АдресинЦинсертс</strong></p></td>
+<td><p>8,5</p></td>
+<td><p>Вызывает <strong>повторную синхронизацию</strong> для всех успешно вставленных строк. Однако значения столбцов AutoIncrement не синхронизируются повторно. Вместо этого содержимое вновь вставленных строк синхронизируется в соответствии с существующим значением первичного ключа. Если первичный ключ является значением AutoIncrement, повторная <strong>Синхронизация</strong> не извлекает содержимое предполагаемой строки. Для автоматического увеличения значений первичных ключей автоПриращения вызовите <strong>UpdateBatch</strong> с объединенным значением <strong>адресинкаутоинкремент</strong> + <strong>адресинЦинсертс</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adResyncNone</strong></p></td>
-<td><p>0</p></td>
-<td><p>Не вызывает <strong>выполнить повторную синхронизацию</strong>.</p></td>
+<td><p><strong>Адресинкноне</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Не вызывает <strong>повторную синхронизацию</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adResyncUpdates</strong></p></td>
-<td><p>4</p></td>
-<td><p>Вызывает <strong>выполнить повторную синхронизацию</strong> для всех успешно обновленных строк.</p></td>
+<td><p><strong>Адресинкупдатес</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Вызывает <strong>повторную синхронизацию</strong> для всех успешно обновленных строк.</p></td>
 </tr>
 </tbody>
 </table>

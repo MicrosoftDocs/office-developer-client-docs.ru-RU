@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ccfa537f60021b17f23f4996f838651f9453097f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288801"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a>Пример использования методов MoveFirst, MoveLast, MoveNext и MovePrevious (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) методы для перемещения указателя записи из [набора записей](recordset-object-ado.md) на основании предоставленного команды. Процедура MoveAny является обязательным для выполнения этой процедуры.
+В этом примере используются методы [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) для перемещения указателя записи объекта [Recordset](recordset-object-ado.md) на основе предоставленной команды. Для выполнения этой процедуры требуется процедура Мовеани.
 
 ```vb 
  

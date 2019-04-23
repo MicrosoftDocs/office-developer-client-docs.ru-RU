@@ -8,19 +8,19 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e385df5029238106b51aa62949d5e4e94f065657
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280524"
 ---
-# <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_ENUM
+# <a name="adcpropautorecalcenum"></a>Перечисление АДКПРОП\_ауторекалк\_
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, когда поставщик [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) повторно вычисляет статистические и вычисляемых столбцов в иерархической записей.
+Указывает, когда поставщик [мсдаташапе](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) выполняет повторное вычисление статистических и вычисляемых столбцов в иерархическом наборе записей.
 
-Эти константы используются только с поставщик **MSDataShape** и **записей** «**Автоматическое обновление ссылок**» динамические свойства, которое по ссылке в [ADO динамических свойство индекса](ado-dynamic-property-index.md) и описаны в [службы Microsoft курсора для OLE База данных](microsoft-cursor-service-for-ole-db-ado-service-component.md) или документации [Служба формирования Microsoft данных для OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) .
+Эти константы используются только с поставщиком **мсдаташапе** и динамическим свойством **Recordset** "**Auto пересчет**", на который ссылается [индекс динамического свойства ADO](ado-dynamic-property-index.md) и задокументированы в [службе курсора Майкрософт для OLE ](microsoft-cursor-service-for-ole-db-ado-service-component.md)Документация по базе [данных или службе формирования данных Майкрософт для OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) .
 
 <br/>
 
@@ -39,14 +39,14 @@ ms.locfileid: "28705402"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adRecalcAlways</strong></p></td>
-<td><p>1</p></td>
-<td><p>Значение, используемое по умолчанию. Пересчет каждый раз, когда поставщик <strong>MSDataShape</strong> определяет значения, которые зависят от вычисляемых столбцов были изменены.</p></td>
+<td><p><strong>Адрекалкалвайс</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Значение, используемое по умолчанию. Пересчитывается всякий раз, когда поставщик <strong>мсдаташапе</strong> определяет значения, от которых зависит изменение вычисляемых столбцов.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecalcUpFront</strong></p></td>
-<td><p>0</p></td>
-<td><p>Вычисляет только в том случае, если изначально построение иерархических <strong>набора записей</strong>.</p></td>
+<td><p><strong>Адрекалкупфронт</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Вычисляется только при первоначальном построении иерархического <strong>набора записей</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -54,5 +54,5 @@ ms.locfileid: "28705402"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Эти константы нет ADO/WFC эквивалентами.
+Эти константы не имеют эквивалентов ADO/WFC.
 

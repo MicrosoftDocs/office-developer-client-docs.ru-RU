@@ -1,5 +1,5 @@
 ---
-title: Положения коллекции свойства, методы и события (ADO MD)
+title: Свойства, методы и события коллекции Positions (ADO MD)
 TOCTitle: Positions collection properties, methods, and events
 ms:assetid: c41f2abd-b5a8-e66a-4c01-3b20b8f69667
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249959(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 347a5fca1ad226b8d475d76e108cf0fef5236e29
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287498"
 ---
-# <a name="positions-collection-properties-methods-and-events-ado-md"></a>Положения коллекции свойства, методы и события (ADO MD)
+# <a name="positions-collection-properties-methods-and-events-ado-md"></a>Свойства, методы и события коллекции Positions (ADO MD)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="properties"></a>Свойства
 
