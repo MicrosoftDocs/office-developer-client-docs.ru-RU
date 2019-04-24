@@ -1,5 +1,5 @@
 ---
-title: Ячейка IsTextEditTarget (раздел "Свойства группы")
+title: IsTextEditTarget Cell (Group Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,40 +9,40 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: Определяет назначение текста для группы.
-ms.openlocfilehash: 65baf90254f6b213efea04739d8e4a66952b2856
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78a70dc0398745765bca12a1e768390b35fce8ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314919"
 ---
-# <a name="istextedittarget-cell-group-properties-section"></a>Ячейка IsTextEditTarget (раздел "Свойства группы")
+# <a name="istextedittarget-cell-group-properties-section"></a>IsTextEditTarget Cell (Group Properties Section)
 
 Определяет назначение текста для группы.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Текст добавляется в группы фигур.  <br/> |
-|FALSE  <br/> |Текст добавляется фигура в группе в верхней части порядок размещения.  <br/> |
+|TRUE  <br/> |Текст добавляется в фигуру группы.  <br/> |
+|FALSE  <br/> |Текст добавляется к фигуре в группе в верхней части порядка размещения.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Также можно задать это значение, выбрав в группу, щелкая вкладки " [Разработчик](run-in-developer-mode-display-the-developer-tab.md) " **поведение** и затем установите флажок **Изменить текст группы** . 
+Вы также можете задать это значение, выбрав группу, нажав кнопку **поведение** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) , а затем установив флажок **изменить текст группы** . 
   
-Группы, созданные в версиях, более ранних чем Visio 2000 имеют значение по умолчанию FALSE. Приступая к работе с Visio версии 2000, значение по умолчанию — TRUE. 
+Группы, созданные в более ранних версиях, чем Visio 2000, имеют значение по умолчанию (FALSE). Начиная с Visio версии 2000, значение по умолчанию — TRUE. 
   
-Чтобы получить ссылку на ячейку IsTextEditTarget по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку IsTextEditTarget по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |IsTextEditTarget  <br/> |
+|Имя ячейки:  <br/> |IsTextEditTarget  <br/> |
    
-Для получения ссылки на ячейки IsTextEditTarget по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку IsTextEditTarget по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowGroup** <br/> |
-|Индекс ячейки:  <br/> |**visGroupIsTextEditTarget** <br/> |
+|Индекс строки:  <br/> |**Висровграуп** <br/> |
+|Индекс ячейки:  <br/> |**Висграупистекстедиттаржет** <br/> |
    
 

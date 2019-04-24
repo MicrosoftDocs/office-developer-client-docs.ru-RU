@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8e4ce129-137d-4618-80a6-88781a578d01
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 6781209cd1bf87f4becf1893b7cba5618549fbce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 95a2b7b9bac11404817fb6848d58c45251c141f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309676"
 ---
 # <a name="inbox-and-outbox-folders-in-message-stores"></a>�������� � ��������� ����� � �������� ���������
 

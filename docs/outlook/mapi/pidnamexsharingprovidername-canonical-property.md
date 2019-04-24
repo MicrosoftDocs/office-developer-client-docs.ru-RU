@@ -13,43 +13,43 @@ api_type:
 ms.assetid: 4d385754-5132-4ae3-9e5d-686d58857b5b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a56a93f425ccba36229e262c0e93815ffc998017
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315885"
 ---
 # <a name="pidnamexsharingprovidername-canonical-property"></a>Каноническое свойство PidNameXSharingProviderName
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Представляет пользователя отображаемое имя поставщика общего доступа, заданной свойством **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)).
+Представляет отображаемое пользователем имя поставщика общего доступа, определенного свойством **диспидшарингпровидергуид** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Отсутствует  <br/> |
-|Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Имя свойства:  <br/> |X-общий доступ к--имя поставщика  <br/> |
+|Понятные имена:  <br/> |Нет  <br/> |
+|Набор свойств:  <br/> |ПС_ИНТЕРНЕТ_ХЕАДЕРС  <br/> |
+|Имя свойства:  <br/> |X – Sharing — имя поставщика  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Sharing  <br/> |
+|Область:  <br/> |Общий доступ  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS — ОКСШАРЕ]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Открывает общий доступ папки почтовых ящиков между клиентами.
+> Предоставляет общий доступ к папкам почтового ящика между клиентами.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

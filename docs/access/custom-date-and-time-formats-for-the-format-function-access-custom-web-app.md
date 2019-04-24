@@ -7,11 +7,11 @@ ms.assetid: f7d15fe6-bdad-4f1f-aa18-12a21fc111c4
 description: Узнайте, как управлять отображением даты и времени, создав пользовательское форматирование.
 localization_priority: Priority
 ms.openlocfilehash: 76ba7361be4f7902a3ee4a1a8d6e51211ad114bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282210"
 ---
 # <a name="custom-date-and-time-formats-for-the-format-function-access-custom-web-app"></a>Настраиваемые форматы даты и времени для функции Format (пользовательское веб-приложение для Access)
 

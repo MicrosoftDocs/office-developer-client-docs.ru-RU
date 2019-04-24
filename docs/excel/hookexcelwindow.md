@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - HookExcelWindow
 keywords:
-- функция hookexcelwindow [excel 2007]
+- Функция хукексцелвиндов [Excel 2007]
 localization_priority: Normal
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 8965cc6b1e3d24001c42744f2ee7d447aa4c79b5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4103bf3a95388d20efeb74fcd736aeb5520d0845
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310831"
 ---
 # <a name="hookexcelwindow"></a>HookExcelWindow
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Устанавливает **ExcelCursorProc** , чтобы вызывается до Microsoft Excel главного **WndProc**.
+Устанавливает **ексцелкурсорпрок** таким образом, чтобы он вызывался до основного **WndProc**Microsoft Excel.
   
 ```cs
 extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
@@ -30,25 +30,25 @@ extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 
 ## <a name="parameters"></a>Параметры
 
- _hWndExcel_ (**ОБРАБАТЫВАТЬ**)
+ _хвндексцел_ (**Handle**)
   
-Обработка форма главных окон Excel.
+Основной дескриптор Windows Excel.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
 Функция не возвращает значение.
   
 ## <a name="remarks"></a>Замечания
 
-Функция получает адреса Excel **WndProc** посредством использования **GetWindowLong()**. Это значение сохраняется в глобальный, который можно использовать для звонков по умолчанию **WndProc** и восстановить его. И, наконец он заменяет этот адрес адресом **ExcelCursorProc** с помощью **SetWindowLong()**.
+Функция получает адрес объекта Excel **WndProc** с помощью **жетвиндовлонг ()**. Он сохраняет это значение в глобальном наборе, который можно использовать для вызова **WndProc** по умолчанию, а также для его восстановления. Наконец, он заменяет этот адрес адресом **ексцелкурсорпрок** с помощью **сетвиндовлонг ()**.
   
 ### <a name="example"></a>Пример
 
-Просмотреть `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции в универсальной библиотеке DLL](functions-in-the-generic-dll.md)
 

@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ae4cbe4b-a0cb-c3c5-cf2e-d396b4acb68f
-description: Этот член — это и не поддерживается.
-ms.openlocfilehash: f0c44be13010971f4ff85af2af85d7f8b798a6f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Этот элемент является заполнителем и не поддерживается.
+ms.openlocfilehash: af5bc0b8599fa9f90faa5287938642dbb9a9f78b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317523"
 ---
 # <a name="ifreebusydataplaceholder2"></a>IFreeBusyData::Placeholder2
 
-Этот член — это и не поддерживается.
+Этот элемент является заполнителем и не поддерживается.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IFreeBusyData](ifreebusydata.md).
+Обратитесь к разделу [ифрибусидата](ifreebusydata.md).
   
 ```cpp
 HRESULT Placeholder2(void *);
@@ -28,15 +28,15 @@ HRESULT Placeholder2(void *);
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Всегда E_NOTIMPL, так как этот член является заполнителя в **IFreeBusyData** и не поддерживается. 
+Всегда значение E_NOTIMPL, так как этот член является заполнителем в **ифрибусидата** и не поддерживается. 
   
 ## <a name="remarks"></a>Замечания
 
-Этот член должен возвращать значение E_NOTIMPL.
+Этот элемент должен возвращать E_NOTIMPL.
   
 ## <a name="see-also"></a>См. также
 
-- [Константы (занятости API)](constants-free-busy-api.md)
+- [Константы (API сведений о доступности)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)

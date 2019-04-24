@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8017094f6af95940aab8352d52cd1160f0b7a827
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ec806ed3ab871d6a36778b0898b2977628ccdcec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573763"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316207"
 ---
 # <a name="pidtagformversion-canonical-property"></a>Каноническое свойство PidTagFormVersion
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит версию формы. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W  <br/> |
+|Связанные свойства:  <br/> |ПР_ФОРМ_ВЕРСИОН, ПР_ФОРМ_ВЕРСИОН_А, ПР_ФОРМ_ВЕРСИОН_В  <br/> |
 |Идентификатор:  <br/> |0x3301  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Распространенные MAPI  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Общие протоколы MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Эти свойства указывают, какие версии проекта в настоящее время в силу для формы. Версии определенных и обслуживают формы в конструкторе и относится к любой версии компонента MAPI не обязательно. 
+Эти свойства указывают, какая версия проекта действует в данный момент для формы. Версия определена и поддерживается конструктором формы и не обязательно связана ни с одной версией компонента MAPI. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlGetHwnd
 keywords:
-- функция xlgethwnd [excel 2007]
+- Функция кслжесвнд [Excel 2007]
 localization_priority: Normal
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a22365d6c945aaa5995e2c519c757a1a7515655a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab4ac1bc040ef2ea9bca182624111e03722c5200
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310068"
 ---
 # <a name="xlgethwnd"></a>xlGetHwnd
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Возвращает дескриптор окна верхнего уровня Microsoft Excel.
+Возвращает дескриптор окна верхнего уровня в окне Microsoft Excel.
   
 ```cs
 Excel4(xlGetHwnd, LPXLOPER pxRes, 0); /* returns low part only */
@@ -31,21 +31,21 @@ Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 ## <a name="parameters"></a>Параметры
 
-Эта функция не содержит аргументов.
+У этой функции нет аргументов.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-Содержит дескриптор окна (**xltypeInt**) в поле **val.w** . 
+Содержит дескриптор окна (**кслтипеинт**) в поле **Val. w** . 
   
 ## <a name="remarks"></a>Замечания
 
 Эта функция полезна для написания кода Windows API.
   
-При вызове этой функции, с помощью [Excel4](excel4-excel12.md) или [Excel4v](excel4v-excel12v.md)переменной целое число возвращаемых XLOPER является подписанных короткий внутреннего 16-разрядный Это только может содержать низкой 16 бит дескриптор 32-разрядная версия Windows. Чтобы найти высокой часть, код должен выполните итерацию по совпадение с низкой части всех открытых окон. Начиная с версии Excel 2007, переменной integer **XLOPER12** является подписью int 32-разрядная версия и поэтому содержит весь дескриптор, нужно будет выполнять итерацию всех открытых окон. 
+При вызове этой функции с помощью [Excel4](excel4-excel12.md) или [Excel4v](excel4v-excel12v.md)возвращенная целочисленная переменная XLOPER имеет знак 16-bit short int. Это может быть только в том случае, если он содержит младшие 16 разрядов для дескриптора Windows 32-bit. Чтобы найти большую часть, код должен выполнить итерацию всех открытых окон, чтобы найти соответствующее значение с нижней частью. Начиная с версии Excel 2007, целочисленная переменная **XLOPER12** — это подписанное 32-разрядное целое число, поэтому он содержит весь дескриптор, устраняя необходимость в итерации всех открытых окон. 
   
 ### <a name="example"></a>Пример
 
-Просмотр кода для [функции fShowDialog](fshowdialog.md) в `SAMPLES\GENERIC\GENERIC.C`.
+Обратитесь к коду [функции фшовдиалог](fshowdialog.md) в `SAMPLES\GENERIC\GENERIC.C`файле.
   
 ## <a name="see-also"></a>См. также
 

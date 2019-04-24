@@ -1,5 +1,5 @@
 ---
-title: IPSTXGetLastError
+title: Ипстксжетластеррор
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 68dc0ecc-881e-de69-faaa-90acb9857031
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f45b070464fe1b3c177088ff6aa3295f961d45f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d0fb16ba63548a44dba3920670c0e65f8c700a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315101"
 ---
 # <a name="ipstxgetlasterror"></a>IPSTX::GetLastError
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Получает расширенные сведения о последней ошибки.
+Получает расширенные сведения о последней ошибке.
   
 ```cpp
 HRESULT GetLastError( 
@@ -37,17 +37,17 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Параметры
 
- _hResult_
+ _Состав_
   
->  [in] Код ошибки. 
+>  возврата Код ошибки. 
     
  _ulFlags_
   
->  [in] Flags to modify behavior. Это должно быть равно 0. 
+>  [in] Flags to modify behavior. Значение должно быть равно 0. 
     
- _lppMAPIError_
+ _Лппмапиеррор_
   
->  [out] Указатель на структуру **MAPIERROR** , который содержит дополнительные сведения об ошибке. В разделе mapidefs.h для определения типа **LPMAPIERROR**. 
+>  вышли Указатель на структуру **мапиеррор** , которая содержит расширенные сведения об ошибке. Определение типа **лпмапиеррор**можно найти в файле MAPIDEFS. h. 
     
 ## <a name="see-also"></a>См. также
 

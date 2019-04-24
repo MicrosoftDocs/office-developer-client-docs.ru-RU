@@ -10,11 +10,11 @@ dev_langs:
 - sql
 localization_priority: Priority
 ms.openlocfilehash: f223e164bd36a6a1a76140a28dd57cd2005e4a20
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295407"
 ---
 # <a name="create-procedure-statement-microsoft-access-sql"></a>Оператор CREATE PROCEDURE (Microsoft Access SQL)
 
@@ -47,7 +47,7 @@ CREATE PROCEDURE *procedure* \[*param1 datatype*\[, *param2 datatype*\[, …\]\]
 
 ## <a name="example"></a>Пример
 
-В этом примере присваивается имя запросу EnumFields и выполняется вызов процедуры EnumFields, который вы можете найти в приведенном примере инструкции SELECT.
+В этом примере присваивается имя запросу CategoryList и выполняется вызов процедуры EnumFields, которую вы можете найти в приведенном примере для оператора SELECT.
 
 ```vb
     Sub ProcedureX() 

@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: f4bd5ddb-f1e7-4e2a-b312-b1884f78cc1a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 47978ca84bb6a3f542134b8fba4f8521ed3645bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b9d1d76be6f61a1b8e60c2553d74424672d1a6f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316277"
 ---
 # <a name="pidtagformcategory-canonical-property"></a>Каноническое свойство PidTagFormCategory
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит категории формы. 
+Содержит категорию формы. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_FORM_CATEGORY, PR_FORM_CATEGORY_A, PR_FORM_CATEGORY_W  <br/> |
+|Связанные свойства:  <br/> |ПР_ФОРМ_КАТЕГОРИ, ПР_ФОРМ_КАТЕГОРИ_А, ПР_ФОРМ_КАТЕГОРИ_В  <br/> |
 |Идентификатор:  <br/> |0x3304  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Распространенные MAPI  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Общие протоколы MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Имя категории определяется клиентского приложения в виде, в зависимости от приложения. 
+Имя категории определяется клиентским приложением в соответствии с требованиями приложения. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

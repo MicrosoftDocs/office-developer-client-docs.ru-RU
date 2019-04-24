@@ -1,5 +1,5 @@
 ---
-title: IPersistMessageLoad
+title: Иперсистмессажелоад
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,19 +13,19 @@ api_type:
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 5024c2f8b88b54051e4b8400f4b3f14374b10c23
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317131"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Загружает формы для указанного сообщения.
+ЗаГружает форму для указанного сообщения.
   
 ```cpp
 HRESULT Load(
@@ -38,49 +38,49 @@ HRESULT Load(
 
 ## <a name="parameters"></a>Параметры
 
- _pMessageSite_
+ _Пмессажесите_
   
-> [in] Указатель на сообщение сайта для формы для загрузки.
+> возврата Указатель на сайт сообщений для загружаемой формы.
     
- _pMessage_
+ _Пмессаже_
   
-> [in] Указатель на сообщение, для которого следует загрузить форму.
+> возврата Указатель на сообщение, для которого должна быть загружена форма.
     
- _ulMessageStatus_
+ _Улмессажестатус_
   
-> [in] Битовая маска флагов клиента или поставщика, скопированные из свойства **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) сообщение, предоставляют информацию о состоянии сообщения.
+> возврата Битовая маска определяемых клиентом или поставщика флагов, скопированная из свойства **пр_мсг_статус** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) сообщения, которые предоставляют сведения о состоянии сообщения.
     
- _ulMessageFlags_
+ _Улмессажефлагс_
   
-> [in] Битовая маска флагов, скопированные из свойства **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) сообщение, предоставляют информацию о состоянии сообщения.
+> возврата Битовая маска флагов, скопированных из свойства сообщения **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)), которые предоставляют дополнительные сведения о состоянии сообщения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Форма успешно загружен.
+> Форма успешно загружена.
     
 ## <a name="remarks"></a>Замечания
 
-Средства просмотра форм вызовите метод **IPersistMessage::Load** для загрузки формы для существующего сообщения. 
+Средства просмотра форм вызывают метод **иперсистмессаже:: Load** для загрузки формы для существующего сообщения. 
   
-## <a name="notes-to-implementers"></a>Примечания для реализующих
+## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
- **Нагрузки** вызывается только при открытии формы в одном из следующих состояний: 
+ Метод **Load** вызывается только в том случае, если форма находится в одном из следующих состояний: 
   
-- [Неинициализированная переменная](uninitialized-state.md)
+- [Неинициализированное](uninitialized-state.md)
     
 - [HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-Если форма просмотра вызывает **нагрузки** , пока форма находится в другое состояние, метод возвращает значение E_UNEXPECTED. 
+Если средство просмотра формы вызывает **загрузку** , когда форма находится в любом другом состоянии, метод возвращает е_унекспектед. 
   
-Если форма имеет ссылку на сайт active сообщение помимо того, передаваемый в **нагрузки**, так как он больше не будет использоваться release исходного сайта. Хранение указатели на сайт сообщений и сообщений из параметров _pMessageSite_ и _pMessage_ и вызвать методы [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) оба объекта для увеличения их счетчики ссылок. 
+Если форма содержит ссылку на активный сайт сообщений, отличную от переданной в **загрузку**, освободите исходный сайт, так как он больше не будет использоваться. Храните указатели на сайт сообщения и сообщение из параметров _пмессажесите_ и _пмессаже_ , а также вызывайте оба объекта: методы [AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) для увеличения счетчиков ссылок. 
   
-После завершения **AddRef** хранилища свойств из параметров _ulMessageStatus_ и _ulMessageFlags_ в данный момент форму. Перенос форм в состояние [Normal](normal-state.md) перед их отображением и уведомить зарегистрированных средств просмотра, вызвав их [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) методы. 
+После завершения **AddRef** сохраните свойства из параметров _улмессажестатус_ и _улмессажефлагс_ в форме. Перед отображением формы переведите ее в [нормальное](normal-state.md) состояние и уведомите зарегистрированных средств просмотра, вызвав их методы [Имапивиевадвисесинк:: онневмессаже](imapiviewadvisesink-onnewmessage.md) . 
   
-При отсутствии ошибок возвращает значение S_OK. 
+Если ошибок не возникло, возвращается значение S_OK. 
   
 ## <a name="see-also"></a>См. также
 
@@ -102,9 +102,9 @@ S_OK
 [Состояния форм](form-states.md)
 
 
-[IPersistStorage::Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
+[Иперсистстораже:: Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   
-[IPersistStream::Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
+[IPersistStream:: Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
   
-[IPersistFile::Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
+[IPersistFile:: Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
 

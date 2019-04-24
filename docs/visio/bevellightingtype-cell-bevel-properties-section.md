@@ -1,56 +1,56 @@
 ---
-title: Ячейка BevelLightingType (раздел "Свойства багетной рамки")
+title: BevelLightingType Cell (Bevel Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7fbb4b16-fe54-42d6-803a-c9980897166d
-description: Определяет тип освещения, используемых эффект рельефов.
-ms.openlocfilehash: a8e7c2340f96362965d5ecb890fb47427be9e752
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет тип освещения, используемый с помощью эффекты фаски.
+ms.openlocfilehash: 6d92c56b01d192c1df04eecdaca4eb915baebcae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315773"
 ---
-# <a name="bevellightingtype-cell-bevel-properties-section"></a>Ячейка BevelLightingType (раздел "Свойства багетной рамки")
+# <a name="bevellightingtype-cell-bevel-properties-section"></a>BevelLightingType Cell (Bevel Properties Section)
 
-Определяет тип освещения, используемых эффект рельефов.
+Определяет тип освещения, используемый с помощью эффекты фаски.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|0  <br/> |Нет освещения  <br/> |
-|1  <br/> |Три точки  <br/> |
-|2  <br/> |Баланс  <br/> |
-|3  <br/> |Мягкий  <br/> |
-|4  <br/> |Неблагоприятных  <br/> |
-|5  <br/> |От переполнения  <br/> |
-|6  <br/> |Сравнение  <br/> |
-|7  <br/> |Ежедневно  <br/> |
-|8  <br/> |Палитра  <br/> |
-|9  <br/> |Закат  <br/> |
-|10  <br/> |Chilly  <br/> |
-|11  <br/> |Замораживание  <br/> |
-|12  <br/> |Плоский  <br/> |
+|нуль  <br/> |Без освещения  <br/> |
+|1,1  <br/> |Три точки  <br/> |
+|2  <br/> |Равномерно  <br/> |
+|4  <br/> |Мягкий  <br/> |
+|SP4  <br/> |Харш  <br/> |
+|17:00  <br/> |Массово  <br/> |
+|ICMPv6  <br/> |Контрастных  <br/> |
+|см  <br/> |Утром  <br/> |
+|8,5  <br/> |Сунрисе  <br/> |
+|10  <br/> |Закат  <br/> |
+|десяти  <br/> |Чилли  <br/> |
+|-11:00  <br/> |Сущего  <br/> |
+|12  <br/> |Обычно  <br/> |
 |13  <br/> |Две точки  <br/> |
-|14  <br/> |Свечения  <br/> |
-|15  <br/> |Ярко комнаты  <br/> |
+|14  <br/> |Подсветка  <br/> |
+|означает  <br/> |Яркое комната  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **BevelLightingType** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelLightingType** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |BevelLightingType  <br/> |
+|Имя ячейки:  <br/> |BevelLightingType  <br/> |
    
-Для получения ссылки на ячейки **BevelLightingType** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **BevelLightingType** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
-|Индекс ячейки:  <br/> |**visBevelLightingType** <br/> |
+|Индекс строки:  <br/> |**Висровбевелпропертиес** <br/> |
+|Индекс ячейки:  <br/> |**Висбевеллигхтингтипе** <br/> |
    
 

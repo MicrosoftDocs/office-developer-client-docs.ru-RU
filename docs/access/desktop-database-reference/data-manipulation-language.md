@@ -8,11 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c0cfc490bf2028f53c307396d4be2dceadf0794c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295060"
 ---
 # <a name="data-manipulation-language-microsoft-access-sql"></a>Язык обработки данных DML (Microsoft Access SQL)
 

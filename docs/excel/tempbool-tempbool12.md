@@ -8,22 +8,22 @@ f1_keywords:
 - TempBool
 - TempBool12
 keywords:
-- функция tempbool [excel 2007], функция TempBool12 [Excel 2007]
+- Функция темпбул [Excel 2007], функция TempBool12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 30874e7b918d8cd780bef60b4b02de1319f0f9ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8c917f0004fe091413ea670f1cc562f1d701fa0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310355"
 ---
 # <a name="tempbooltempbool12"></a>TempBool/TempBool12
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, который создает временные **XLOPER**/ **XLOPER12** , содержащий **логическое** **значение TRUE** или **FALSE**.
+Функция библиотеки Framework, которая создает временную структуру **XLOPER**/ **** , содержащую **логическое** **значение true** или **false**.
   
 ```cs
 LPXLOPER TempBool(int b);
@@ -34,15 +34,15 @@ LPXLOPER12 TempBool12(int b);
 
  _b_ (**int**)
   
-Используйте 0, чтобы возвратить **значение FALSE**; Используйте другое значение возвращало **значение TRUE**.
+Чтобы возвращать **значение false**, используйте значение 0; Используйте любое другое значение, чтобы возвратить **значение true**.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-Возвращает **xltypeBool** **логическое** содержащий логическое значение, переданное в. 
+Возвращает объект **** **Boolean** кслтипебул, содержащий логическое значение, переданное в параметре. 
   
 ## <a name="example"></a>Пример
 
-В следующем примере функция **TempBool12** снимите флажок в строке состояния. Временные память освобождается при вызове функции [Excel/Excel12f](excel-excel12f.md) . 
+В примере ниже показано, как очистить строку состояния с помощью функции **TempBool12** . Временная память освобождается при вызове функции [Excel/Excel12f](excel-excel12f.md) . 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

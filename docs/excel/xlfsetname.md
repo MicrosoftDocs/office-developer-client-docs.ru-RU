@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlfSetName
 keywords:
-- функция xlfSetName [excel 2007]
+- Функция xlfSetName [Excel 2007]
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 48ce927f6bcb328a90779948a660cf9d0b460205
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6327ccf2cd18e42c3ef9abe538e6f669e498352
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310278"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Используется для создания и удаления определенных имен, связанные с DLL.
+Используется для создания и удаления определенных имен, связанных с БИБЛИОТЕКой DLL.
   
 ```cs
 Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNameDefinition);
@@ -30,27 +30,27 @@ Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNam
 
 ## <a name="parameters"></a>Параметры
 
-_pxNameText_ (**xltypeStr**)
+_пкснаметекст_ (**кслтипестр**)
   
-Имя диапазона, который должен соответствовать типу обычным ограничения в Microsoft Excel в допустимых имен.
+Имя диапазона, которое должно соответствовать обычным ограничениям в Microsoft Excel по действительным именам.
   
-_pxNameDefinition_ (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef**или **xltypeInt**)
+_пкснамедефинитион_ (**кслтипестр**, **кслтипенум**, **кслтипебул**, **кслтипирр**, **xltypeMulti**, **кслтипесреф**, **кслтипереф**или **кслтипеинт**)
   
-(Необязательно). Значение, набор значений, ячейки или диапазона ячеек этой _pxNameText_ определяется как. Если этот параметр опущен, имя будет удален. 
+(НеОбязательно). Значение, набор значений, ячейка или диапазон ячеек, которые _пкснаметекст_ задают как. Если этот параметр не задан, имя удаляется. 
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-_pxRes_ (**xltypeBool** или **xltypeErr**)
+_пксрес_ (**кслтипебул** или **кслтипирр**)
   
-Значение TRUE, если операция выполнена успешно, или значение FALSE, если имя не может быть создан или удален. Возвращает #VALUE! Если один или несколько аргументов недопустима.
+ЗНАЧЕНИЕ TRUE, если операция завершилась успешно, или значение FALSE, если имя не удалось создать или удалить. Возвращает #VALUE! Если один или несколько аргументов являются недопустимыми.
   
 ## <a name="remarks"></a>Замечания
 
-При команду или функция регистрируется с помощью **xlfRegister** с аргументом допустимый _pxFunctionText_ , Excel создает имя, связанное с DLL-Библиотеку ресурсов. После выгрузки библиотеки DLL, такие имена следует удалить с помощью [функции xlfSetName](xlfsetname.md). Тем не менее из-за известная проблема в Excel, эта операция удаления не удается выполнить. Для получения дополнительных сведений см [Известные проблемы при разработке XLL для Excel](known-issues-in-excel-xll-development.md).
+Если функция или команда зарегистрирована с помощью **xlfRegister** с допустимым аргументом _пксфунктионтекст_ , Excel создает имя, связанНОЕ с ресурсом DLL. При выгрузке библиотеки DLL такие имена необходимо удалить с помощью [функции xlfSetName](xlfsetname.md). Однако из-за известной проблемы в Excel эта операция удаления завершается с ошибкой. Дополнительные сведения см. в статье [Известные проблемы, возникающие при разработке XLL для Excel](known-issues-in-excel-xll-development.md).
   
 ### <a name="example"></a>Пример
 
-Просмотр кода для функции **xlAutoClose** в `\SAMPLES\GENERIC\GENERIC.C`.
+Обратитесь к коду функции **xlAutoClose** в `\SAMPLES\GENERIC\GENERIC.C`файле.
   
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Функции для работы с соединителями кластеров Excel
+title: Функции соединителя кластера Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,26 +7,26 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 65927ef9-29f7-499a-a1c1-6f672c09bb6b
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4a069aa4ed3ee17320ac65ab793ea8812153cc18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41a5cf1ecb7c8f38f4aa5b62a493b3f45c2fe090
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311069"
 ---
-# <a name="excel-cluster-connector-functions"></a>Функции для работы с соединителями кластеров Excel
+# <a name="excel-cluster-connector-functions"></a>Функции соединителя кластера Excel
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Соединитель кластера Microsoft Excel 2013 библиотеки DLL необходимо реализовать функции, описанные в этом разделе.
+В библиотеках DLL соединителя кластера Microsoft Excel 2013 должны быть реализованы функции, описанные в этом разделе.
   
-Возвращаемые значения, упомянутые в ссылки в этом разделе определяются в пакете SDK включают файл, xlcall.h.
+Возвращаемые значения, указанные в разделах справочника в этом разделе, определены в файле SDK include, Xlcall. h.
   
 ## <a name="cluster-connector-architecture"></a>Архитектура соединителя кластера
 
-Excel вызывает точки входа в соединитель кластера передача пользовательской функции вызова к высокой производительности вычислительному кластеру, а также для управления сеансами кластера.
+Excel вызывает точки входа в кластерном соединителе для передачи вызовов пользовательских функций в высокопроизводительный вычислительный кластер, а для управления сеансом кластера.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
 [CallUDF](calludf.md)
   

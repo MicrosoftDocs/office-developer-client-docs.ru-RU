@@ -12,11 +12,11 @@ ms.assetid: 2f6df879-7546-4ac0-a4e3-6b009aee9463
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: e116021a3dc24de7decbe0dad76cc762cd66d032
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304125"
 ---
 # <a name="excel-xll-sdk-api-function-reference"></a>Справочник по функциям API SDK XLL для Excel
 

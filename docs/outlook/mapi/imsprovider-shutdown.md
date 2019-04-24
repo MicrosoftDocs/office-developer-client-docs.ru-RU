@@ -1,5 +1,5 @@
 ---
-title: IMSProviderShutdown
+title: Имспровидершутдовн
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 342b87a3a8f0349631e64600e294d4f19ab1099c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77688f8a09c1d990201a247a3c4e3a11ba0963b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317264"
 ---
 # <a name="imsprovidershutdown"></a>IMSProvider::Shutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589093"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Закрывает поставщика хранилища сообщений определенным образом.
+ЗаКрывает поставщик хранилища сообщений в определенном порядке.
   
 ```cpp
 HRESULT Shutdown(
@@ -35,19 +35,19 @@ HRESULT Shutdown(
 
 ## <a name="parameters"></a>Параметры
 
- _lpulFlags_
+ _Лпулфлагс_
   
-> [in] Зарезервировано; должен быть указатель нулевое значение.
+> возврата Резервирования должен быть нулевым указателем.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Вызов успешно и возвращается ожидаемым значением или значения.
+> Вызов выполнен успешно и вернул ожидаемое значение или значения.
     
 ## <a name="remarks"></a>Замечания
 
-MAPI вызывает метод **IMSProvider::Shutdown** перед объект поставщика хранилища сообщений. MAPI освобождает все объекты входа в систему для поставщика, прежде чем вызывать **Завершение работы** для этого поставщика. 
+MAPI вызывает метод **функцииimsprovider:: Shutdown** непосредственно перед освобождением объекта поставщика хранилища сообщений. MAPI освобождает все объекты входа для поставщика до **завершения** вызова для этого поставщика. 
   
 ## <a name="see-also"></a>См. также
 

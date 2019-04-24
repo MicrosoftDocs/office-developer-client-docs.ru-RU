@@ -10,11 +10,11 @@ ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: d07217fe410fedb18da4600ab07078d1aaf5d083
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310468"
 ---
 # <a name="programming-with-the-c-api-in-excel"></a>Программирование с использованием API C в Excel
 

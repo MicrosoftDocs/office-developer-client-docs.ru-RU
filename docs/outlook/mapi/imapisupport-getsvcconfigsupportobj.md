@@ -1,5 +1,5 @@
 ---
-title: IMAPISupportGetSvcConfigSupportObj
+title: Имаписуппортжетсвкконфигсуппортобж
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 56c3bdae-a3a8-4334-b6d2-a89c6820d72e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1c48ceefa84658b236b8dfa4e10df18c175d920e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6de0fed4df9d23e67c3520ffb019a961b890f988
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316560"
 ---
 # <a name="imapisupportgetsvcconfigsupportobj"></a>IMAPISupport::GetSvcConfigSupportObj
 
@@ -25,7 +25,7 @@ ms.locfileid: "22595162"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает объект сообщения службы поддержки.
+Создает объект поддержки службы сообщений.
   
 ```cpp
 HRESULT GetSvcConfigSupportObj(
@@ -34,15 +34,15 @@ HRESULT GetSvcConfigSupportObj(
 );
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
  _ulFlags_
   
 > [in] ���������������; ������ ���� ����� ����.
     
- _lppSvcSupport_
+ _Лппсвксуппорт_
   
-> [out] Указатель на указатель на новый объект сообщения службы поддержки.
+> вышли Указатель на указатель на новый объект поддержки службы сообщений.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -52,9 +52,9 @@ S_OK
     
 ## <a name="remarks"></a>Замечания
 
-Метод **IMAPISupport::GetSvcConfigSupportObj** применяется для всех объектов поддержки. Поставщики услуг вызова **GetSvcConfigSupportObj** для создания объекта поддержки конфигурации для передачи сообщений функции точки входа службы. 
+Метод **имаписуппорт:: жетсвкконфигсуппортобж** реализован для всех объектов поддержки. Поставщики услуг вызывают **жетсвкконфигсуппортобж** , чтобы создать объект поддержки конфигурации для передачи в функцию точки входа службы сообщений. 
   
-Функция точки входа службы сообщений на основании прототип [MSGSERVICEENTRY](msgserviceentry.md) и вызывается методы интерфейса [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Функция точки входа службы сообщений позволяет службам сообщение настраиваться или другие действия при изменении профиля. Точка входа службы сообщений поддержку функций можно изменения конфигурации, отображая свойств или с помощью массива значение свойства, переданной в метод [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
+Функция точки входа службы сообщений основана на прототипе [мсгсервицеентри](msgserviceentry.md) и вызывается методами интерфейса [имсгсервицеадмин](imsgserviceadminiunknown.md) . Функция точки входа службы сообщений позволяет службам сообщений настраивать себя или выполнять другие действия при изменении профиля. Функции точки входа службы сообщений могут поддерживать изменения конфигурации, отображая страницу свойств или массив значений свойства, переданный методу [имсгсервицеадмин:: конфигуремсгсервице](imsgserviceadmin-configuremsgservice.md) . 
   
 ## <a name="see-also"></a>См. также
 

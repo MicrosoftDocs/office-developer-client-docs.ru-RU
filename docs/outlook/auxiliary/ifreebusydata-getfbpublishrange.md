@@ -1,26 +1,26 @@
 ---
-title: IFreeBusyDataGetFBPublishRange
+title: Ифрибусидатажетфбпублишранже
 manager: soliver
 ms.date: 09/23/2016
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
-description: Получает указанного интервала времени для перечисления сведений о доступности блоков данных для пользователя.
-ms.openlocfilehash: 2a322a43da38a0b902789f4c83baaabd769154c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Получает предварительно заданный диапазон времени для перечисления блоков сведений о занятости для пользователя.
+ms.openlocfilehash: 26951ea6a885f8d0e5e6a2fb5bcf9a63069c7f44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317530"
 ---
 # <a name="ifreebusydatagetfbpublishrange"></a>IFreeBusyData::GetFBPublishRange
 
-Получает указанного интервала времени для перечисления сведений о доступности блоков данных для пользователя.
+Получает предварительно заданный диапазон времени для перечисления блоков сведений о занятости для пользователя.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IFreeBusyData](ifreebusydata.md).
+Обратитесь к разделу [ифрибусидата](ifreebusydata.md).
   
 ```cpp
 HRESULT GetFBPublishRange( 
@@ -32,23 +32,23 @@ HRESULT GetFBPublishRange(
 
 ## <a name="parameters"></a>Параметры
 
-_prtmStart_
+_Пртмстарт_
   
-> [out] Значение относительно времени для начала сведения о доступности. Это значение — число минут, начиная с 1 января 1601.
+> вышли Относительное значение времени начала сведений о занятости. Это значение равно количеству минут, прошедших с 1 января 1601 г.
     
-_prtmEnd_
+_Пртменд_
   
-> [out] Значение относительно времени в конце сведений о доступности. Это значение — число минут, начиная с 1 января 1601.
+> вышли Относительное значение времени завершения сведений о занятости. Это значение равно количеству минут, прошедших с 1 января 1601 г.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Замечания
 
-Обмен сведениями о доступности поставщик вызывает [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) или [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) , чтобы задать интервал для перечисления. Если не был вызван [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) или [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) , значения по умолчанию для **prtmStart** и **prtmEnd** должно иметь значение между 1 апреля 1601 00:00:00Z и 31 августа 4500 11:59:59Z соответственно. Кроме того не следует устанавливать время начала должно быть больше времени окончания. 
+Поставщик сведений о доступности вызывает [ифрибусидата:: енумблоккс](ifreebusydata-enumblocks.md) или [Ифрибусидата:: сетфбранже](ifreebusydata-setfbrange.md) , чтобы задать диапазон времени для перечисления. Если [ифрибусидата:: енумблоккс](ifreebusydata-enumblocks.md) или [Ифрибусидата:: сетфбранже](ifreebusydata-setfbrange.md) не вызывался, значения по умолчанию для **пртмстарт** и **Пртменд** должны быть заданы между 1 апреля 1601 00:00:00Z и 31 августа 4500 11:59:59Z соответственно. Кроме того, не следует устанавливать время начала, превышающее время окончания. 
   
-**IFreeBusyData::GetFBPublishRange** должен возвращать набора кэшированных значений в диапазоне времени с самыми последними звонка для **IFreeBusyData::EnumBlocks** или **IFreeBusyData::SetFBRange**. 
+**Ифрибусидата:: жетфбпублишранже** должны возвращать кэшированные значения для диапазона времени, установленного самым последним вызовом для **Ифрибусидата:: енумблоккс** или **ифрибусидата:: сетфбранже**. 
   
 ## <a name="see-also"></a>См. также
 

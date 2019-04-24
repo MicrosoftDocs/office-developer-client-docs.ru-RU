@@ -1,5 +1,5 @@
 ---
-title: IPSTX2 IPSTX
+title: IPSTX2 ИПСТКС
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 75a876d38e7fd7447058d70ec96f709f84812dae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: abc0afa30aaac75d7980d7de83705ae4c3b43f99
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315049"
 ---
 # <a name="ipstx2--ipstx"></a>IPSTX2 : IPSTX
 
@@ -25,20 +25,20 @@ ms.locfileid: "22587049"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Этот интерфейс предоставляет функциональные возможности модуля поддержки при выполнении репликации с помощью интерфейса **[IOSTX](iostxiunknown.md)** . 
+Этот интерфейс предоставляет вспомогательные функциональные возможности при выполнении репликации с помощью интерфейса **[иосткс](iostxiunknown.md)** . 
   
 |||
 |:-----|:-----|
-|Автор  <br/> |Запрос на [IMsgStore](imsgstoreimapiprop.md) <br/> |
+|Предоставлено  <br/> |Запрос на [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IPSTX2  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Задает приостановленном состоянии очереди.  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+|**[Сетспулсуспендстате](ipstx2-setspoolsuspendstate.md)** <br/> |Задает состояние приостановки для диспетчера очереди печати.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

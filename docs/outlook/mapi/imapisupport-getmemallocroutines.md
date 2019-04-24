@@ -1,5 +1,5 @@
 ---
-title: IMAPISupportGetMemAllocRoutines
+title: Имаписуппортжетмемаллокраутинес
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c3ec99e4e284ca2cdc4fba8fcf53a6c5741594cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 680fd16771b62d705808a04d768115a076e54750
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316564"
 ---
 # <a name="imapisupportgetmemallocroutines"></a>IMAPISupport::GetMemAllocRoutines
 
@@ -25,7 +25,7 @@ ms.locfileid: "22577816"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Получает адреса MAPI памяти выделение и освобождение функции ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)и [MAPIFreeBuffer](mapifreebuffer.md)).
+Получение адресов функций выделения и освобождения памяти MAPI ([мапиаллокатебуффер](mapiallocatebuffer.md), [мапиаллокатеморе](mapiallocatemore.md)и [мапифрибуффер](mapifreebuffer.md)).
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -37,27 +37,27 @@ HRESULT GetMemAllocRoutines(
 
 ## <a name="parameters"></a>Параметры
 
- _lppAllocateBuffer_
+ _Лппаллокатебуффер_
   
-> [out] Указатель на указатель на функцию **MAPIAllocateBuffer** . **MAPIAllocateBuffer** выделение памяти. 
+> вышли Указатель на указатель на функцию **мапиаллокатебуффер** . **Мапиаллокатебуффер** выделяет память. 
     
- _lppAllocateMore_
+ _Лппаллокатеморе_
   
-> [out] Указатель на указатель на функцию **MAPIAllocateMore** . **MAPIAllocateMore** выделяет дополнительную память для память, изначально выделенную с помощью **MAPIAllocateBuffer**.
+> вышли Указатель на указатель на функцию **мапиаллокатеморе** . **Мапиаллокатеморе** выделяет дополнительную память для памяти, которая была изначально выделена с помощью **мапиаллокатебуффер**.
     
- _lppFreeBuffer_
+ _Лппфрибуффер_
   
-> [out] Указатель на указатель на функцию **MAPIFreeBuffer** . **MAPIFreeBuffer** освобождает память. 
+> вышли Указатель на указатель на функцию **мапифрибуффер** . **Мапифрибуффер** освобождает память. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Функция адреса были успешно возвращен.
+> Адреса функции были успешно возвращены.
     
 ## <a name="remarks"></a>Замечания
 
-Метод **IMAPISupport::GetMemAllocRoutines** применяется для всех объектов поддержки. Поставщики услуг вызов **GetMemAllocRoutines** для получения адреса функций выделения памяти, которые передаются в свои функции инициализации ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)или [XPProviderInit](xpproviderinit.md)). 
+Метод **имаписуппорт:: жетмемаллокраутинес** реализован для всех объектов поддержки. Поставщики услуг вызывают **жетмемаллокраутинес** для получения адресов трех функций выделения памяти, которые передаются в функцию инициализации ( [абпровидеринит](abproviderinit.md), [мспровидеринит](msproviderinit.md)или [ксппровидеринит](xpproviderinit.md)). 
   
 ## <a name="see-also"></a>См. также
 

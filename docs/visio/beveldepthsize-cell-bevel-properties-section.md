@@ -1,37 +1,37 @@
 ---
-title: Ячейка BevelDepthSize (раздел "Свойства багетной рамки")
+title: BevelDepthSize Cell (Bevel Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c6a57e52-c7ed-4a52-940f-1cef9baa70a5
-description: Определяет размер рельефов глубины в точках.
-ms.openlocfilehash: 4b6f686b0afe1c09411435797cadc6f93fa0938f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет размер глубины скоса в пунктах.
+ms.openlocfilehash: 13c00536d6fc4f19ff2c62cab2afd04f9cdf8985
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315780"
 ---
-# <a name="beveldepthsize-cell-bevel-properties-section"></a>Ячейка BevelDepthSize (раздел "Свойства багетной рамки")
+# <a name="beveldepthsize-cell-bevel-properties-section"></a>BevelDepthSize Cell (Bevel Properties Section)
 
-Определяет размер рельефов глубины в точках. 
+Определяет размер глубины скоса в пунктах. 
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **BevelDepthSize** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelDepthSize** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | BevelDepthSize  <br/> |
+| Имя ячейки:  <br/> | BevelDepthSize  <br/> |
    
-Для получения ссылки на ячейки **BevelDepthSize** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **BevelDepthSize** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
-| Индекс ячейки:  <br/> |**visBevelDepthSize** <br/> |
+| Индекс строки:  <br/> |**Висровбевелпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висбевелдепссизе** <br/> |
    
 

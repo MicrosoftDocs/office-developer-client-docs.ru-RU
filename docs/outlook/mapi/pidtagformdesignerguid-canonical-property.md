@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 30c8f31c104be52da2900eb81c7b7c29dfa55015
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0e0847a3a9e21f080a852738ec8afbc98a2263f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586531"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316235"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>Каноническое свойство PidTagFormDesignerGuid
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит уникальный идентификатор для объекта, который используется для создания формы.
+Содержит уникальный идентификатор объекта, используемого для создания формы.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_FORM_DESIGNER_GUID  <br/> |
+|Связанные свойства:  <br/> |ПР_ФОРМ_ДЕСИГНЕР_ГУИД  <br/> |
 |Идентификатор:  <br/> |0x3309  <br/> |
-|Тип данных:  <br/> |PT_GUID  <br/> |
-|Область:  <br/> |Распространенные MAPI  <br/> |
+|Тип данных:  <br/> |ПТ_ГУИД  <br/> |
+|Область:  <br/> |Общие протоколы MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство обычно содержит глобальный уникальный идентификатор (GUID) программы разработки, который используется для создания формы. Это свойство может быть пустым. 
+Это свойство обычно содержит глобальный уникальный идентификатор (GUID) программы-конструктора, которая используется для создания формы. Это свойство может быть пустым. 
   
-Структура [MAPIUID](mapiuid.md) содержит определения уникального идентификатора. 
+Структура [мапиуид](mapiuid.md) содержит определение уникального идентификатора. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,26 +1,26 @@
 ---
-title: IFreeBusyDataEnumBlocks
+title: Ифрибусидатаенумблоккс
 manager: soliver
 ms.date: 02/18/2016
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
-description: Получает интерфейс, который перечисляет занятости блоков данных для пользователя в рамках в заданном диапазоне времени.
+description: Получает интерфейс, который перечисляет блоки данных о занятости для пользователя в указанном диапазоне времени.
 ms.openlocfilehash: 51a77b2f47166628db07259ef841e0d6173ee370
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317558"
 ---
 # <a name="ifreebusydataenumblocks"></a>IFreeBusyData::EnumBlocks
 
-Получает интерфейс, который перечисляет занятости блоков данных для пользователя в рамках в заданном диапазоне времени.
+Получает интерфейс, который перечисляет блоки данных о занятости для пользователя в указанном диапазоне времени.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IFreeBusyData](ifreebusydata.md).
+Обратитесь к разделу [ифрибусидата](ifreebusydata.md).
   
 ```cpp
 HRESULT EnumBlocks( 
@@ -33,27 +33,27 @@ HRESULT EnumBlocks(
 
 ## <a name="parameters"></a>Параметры
 
-_ppenumfb_
+_ппенумфб_
   
-> [out] Интерфейс для перечисления блоки сведениям о доступности.
+> вышли Интерфейс для перечисления блоков занятости.
     
-_ftmStart_
+_Фтмстарт_
   
-> [in] Время начала для перечисления. Выражается в [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
+> возврата Время начала перечисления. Он выражается в [fileTime](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).
     
-_ftmEnd_
+_Фтменд_
   
-> [in] Время окончания для перечисления. Выражается в **FILETIME**. 
+> возврата Время окончания перечисления. Он выражается в **fileTime**. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Замечания
 
-Этот метод используется для указания диапазона времени для элементов календаря, для которого нужно извлечь подробные сведения. Значения *ftmStart* и *ftmEnd* кэширования и возвращаются в последующих вызовов из [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+Этот метод используется для указания диапазона времени элементов календаря, сведения о котором требуется получить. Значения *фтмстарт* и *фтменд* кэшируются и возвращаются при последующих вызовах [ифрибусидата:: жетфбпублишранже](ifreebusydata-getfbpublishrange.md).
   
-Обмен сведениями о доступности поставщика можно также последовательно использовать возвращенный интерфейс [IEnumFBBlock](ienumfbblock.md) для доступа к перечисления. 
+Поставщик сведений о доступности также может впоследствии использовать возвращенный интерфейс [иенумфбблокк](ienumfbblock.md) для доступа к перечислению. 
   
 ## <a name="see-also"></a>См. также
 

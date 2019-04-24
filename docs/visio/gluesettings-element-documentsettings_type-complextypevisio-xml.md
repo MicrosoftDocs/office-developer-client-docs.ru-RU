@@ -1,31 +1,31 @@
 ---
-title: Элемент GlueSettings (DocumentSettings_Type complexType) ('Visio XML»)
+title: Элемент GlueSettings (Документсеттингс_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a5675dea-3b78-9fc2-c1c0-51fefe45c6e3
-description: Определяет объекты, которые связывания фигуры на при включении связывающих в документе.
+description: Указывает объекты, на которые фигуры привязываются при включении параметра приклеивание в документе.
 ms.openlocfilehash: c85f1b201a15f5edb7e3ddb0f21553d80b9dd17a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316473"
 ---
-# <a name="gluesettings-element-documentsettingstype-complextype-visio-xml"></a>Элемент GlueSettings (DocumentSettings_Type complexType) ('Visio XML»)
+# <a name="gluesettings-element-documentsettingstype-complextype-visio-xml"></a>Элемент GlueSettings (Документсеттингс_типе complexType) (' Visio XML ')
 
-Определяет объекты, которые связывания фигуры на при включении связывающих в документе.
+Указывает объекты, на которые фигуры привязываются при включении параметра приклеивание в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Глуесеттингс_типе](gluesettings_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Windows.XML, document.xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Windows. XML, Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25398145"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, которые определяют параметры документов.  <br/> |
+|[Документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документсеттингс_типе](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

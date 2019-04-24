@@ -1,5 +1,5 @@
 ---
-title: Функция Log10 (приложение настраиваемых web Access)
+title: Функция LOG10 (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 89c2d4f0-0de9-41d4-bc34-a21f5636e8c4
 description: Возвращает десятичный логарифм числа.
-ms.openlocfilehash: a7849f07723f348a8a1d483776c812aa70e79c2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3aa17051de4ce22d211ab909e6eaffebbabb4d6d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311132"
 ---
-# <a name="log10-function-access-custom-web-app"></a>Функция Log10 (приложение настраиваемых web Access)
+# <a name="log10-function-access-custom-web-app"></a>Функция LOG10 (пользовательское веб-приложение для Access)
 
 Возвращает десятичный логарифм числа.
   
@@ -23,16 +23,16 @@ ms.locfileid: "19807304"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Log10** (*NumericExpression*) 
+ **LOG10** (*Нумерицекспрессион*) 
   
-Функция **Log10** содержит следующий аргумент. 
+Функция **LOG10** содержит следующий аргумент. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Положительное число, для которого требуется логарифма.  <br/> |
+| *Нумерицекспрессион*  <br/> |Положительное число, для которого вычисляется логарифм по основанию 10.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Функция **Log** позволяет изменять основание логарифма, вместо использования основанию 10. 
+Функция **log** позволяет изменить основание логарифма вместо использования основания 10. 
   
 

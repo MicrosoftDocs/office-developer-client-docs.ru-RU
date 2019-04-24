@@ -13,49 +13,49 @@ api_type:
 ms.assetid: e5a94968-7e84-4faf-8104-9ea36d35fa1a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: dfe3b57c246e247eda365bed46af2e0f35f0e54b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315388"
 ---
 # <a name="pidlidvalidflagstringproof-canonical-property"></a>Каноническое свойство PidLidValidFlagStringProof
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет, является ли было задано значение свойства **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) по агенту, который знала, значение свойства **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
+Проверяет, было ли значение свойства **диспидрекуест** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) задано агентом, который знал значение свойства **пр_мессаже_деливери_тиме** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidValidFlagStringProof  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x000085BF  <br/> |
+|Связанные свойства:  <br/> |Диспидвалидфлагстрингпруф  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x000085BF  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Не отправляемого объектов (полученной почты и не содержащие почту объекты) клиенты должны присвойте этому параметру значение значение **PR_MESSAGE_DELIVERY_TIME** при изменении **dispidRequest**.
+Для объектов, не относящихся к отправке (получены почтовые сообщения и объекты, не являющиеся сообщениями), при изменении **диспидрекуест**клиенты должны задать для этого параметра значение **пр_мессаже_деливери_тиме** .
   
-Так как значение **PR_MESSAGE_DELIVERY_TIME** непредсказуемым образом отправителем, если значение этого свойства равно значению **PR_MESSAGE_DELIVERY_TIME**, это уверенность, что значение **dispidRequest** не поступают от отправителя сообщения. Клиент может решить, как бы представить значение **dispidRequest** конечного пользователя, на основе результатов этого сравнения в соответствии с политикой безопасности клиента. Если значение **dispidRequest** игнорируется из-за наличия значение для **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), это свойство должны игнорироваться.
+Так как значение **пр_мессаже_деливери_тиме** не может быть предсказано отправителем, если значение этого свойства равно значению **пр_мессаже_деливери_тиме**, то разумно убедиться, что значение **диспидрекуест** не исходит от отправителя сообщения. Клиент может принять решение о том, как предоставить конечному пользователю значение **диспидрекуест** на основании результатов этого сравнения в соответствии с определенной политикой безопасности клиента. Если значение **диспидрекуест** игнорируется из-за наличия значения для **диспидфлагстринженум** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), это свойство необходимо игнорировать.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Задает свойства и операции, связанные с флагов.
+> Задает свойства и операции, связанные с пометкой.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -68,7 +68,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

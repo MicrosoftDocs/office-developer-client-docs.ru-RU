@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtWidth (раздел "Преобразование текста")
+title: TxtWidth Cell (Text Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm82251270
 localization_priority: Normal
 ms.assetid: e2215c67-25fa-1d75-9cce-f126bb8760a1
-description: 'Определяет ширину блока текста. Формула по умолчанию имеет вид:'
-ms.openlocfilehash: ecba66aaf1f7eeb6d16c6b0d4c6569aed051910f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Определяет ширину блока текста. По умолчанию используется следующая формула:'
+ms.openlocfilehash: 806307166035ebc2f8e20e7025d5ecb03c4d6e79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316004"
 ---
-# <a name="txtwidth-cell-text-transform-section"></a>Ячейка TxtWidth (раздел "Преобразование текста")
+# <a name="txtwidth-cell-text-transform-section"></a>TxtWidth Cell (Text Transform Section)
 
-Определяет ширину блока текста. Формула по умолчанию имеет вид:
+Определяет ширину блока текста. По умолчанию используется следующая формула:
   
-= Ширина \* 1
+= Width \* 1
   
 ## <a name="remarks"></a>Замечания
 
-Чтобы получить ссылку на ячейку ШиринаТекста по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку TxtWidth по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | ШиринаТекста  <br/> |
+| Имя ячейки:  <br/> | TxtWidth  <br/> |
    
-Для получения ссылки на ячейки ШиринаТекста по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку TxtWidth по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowTextXForm** <br/> |
-| Индекс ячейки:  <br/> |**visXFormWidth** <br/> |
+| Индекс строки:  <br/> |**Висровтекстксформ** <br/> |
+| Индекс ячейки:  <br/> |**Висксформвидс** <br/> |
    
 

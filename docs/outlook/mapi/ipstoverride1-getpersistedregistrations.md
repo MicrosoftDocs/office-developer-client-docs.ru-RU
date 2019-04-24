@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 548ec33e39e181aba8a72b5325f3f426b9d51762
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 822b4164737aa6010ccce108b544410104ac023d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315472"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575870"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Получение списка регистраций для файл личных папок (PST).
+Получает список регистраций для файла личных папок (PST).
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
@@ -33,18 +33,18 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 
 ## <a name="parameters"></a>Параметры
 
- _ppmval_
+ _ппмвал_
   
-> [in] Указатель на указатель на структуру [SPropValue](spropvalue.md) . Элемент ulPropTag эта структура является типа PT_MV_UNICODE и член значение MVszW будет массив строк Юникод, завершающуюся символом null. Эти строки, путей к библиотеки DLL, для которых были сохранены регистрации. 
+> возврата Указатель на указатель на структуру [спропвалуе](spropvalue.md) . Элемент Улпроптаг данной структуры имеет тип ПТ_МВ_УНИКОДЕ, а элемент Мвсзв Value будет массивом строк Юникода с завершающим нулем. Эти строки представляют собой пути к DLL, для которых была сохранена регистрация. 
     
 > [!NOTE]
-> Поддержка .pst ANSI не реализован. 
+> Поддержка PST для ANSI не реализована. 
   
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Вызов функции прошла успешно.
+> Вызов функции выполнен успешно.
     
 ## <a name="see-also"></a>См. также
 

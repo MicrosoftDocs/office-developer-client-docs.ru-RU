@@ -13,49 +13,49 @@ api_type:
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2ed498295de6748dfa50f1f4a8ba2710c8be64f7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316382"
 ---
 # <a name="pidtagexceptionstarttime-canonical-property"></a>Каноническое свойство PidTagExceptionStartTime
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает дату и время начала исключения в локальном часовом поясе компьютера при создании исключения.
+Указывает дату и время начала исключения в местном часовом поясе компьютера при создании исключения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_EXCEPTION_STARTTIME  <br/> |
+|Связанные свойства:  <br/> |ПР_ЕКСЦЕПТИОН_СТАРТТИМЕ  <br/> |
 |Идентификатор:  <br/> |0x7FFB  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Область:  <br/> |Сообщение, определенное класс передаваемого  <br/> |
+|Область:  <br/> |Класс сообщения, определяемый не для передачи  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
 > [!NOTE]
-> Это свойство является информационным и не должен быть опирались на важные сведения. 
+> Это свойство является информационным и не должно использоваться для важных сведений. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответы.
+> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

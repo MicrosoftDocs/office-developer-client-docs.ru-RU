@@ -1,5 +1,5 @@
 ---
-title: IPersistMessageInitNew
+title: Иперсистмессажеинитнев
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9f70b178e7c30e1cdf94b485c77f80374113211c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317152"
 ---
 # <a name="ipersistmessageinitnew"></a>IPersistMessage::InitNew
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Инициализирует новое сообщение.
   
@@ -36,57 +36,57 @@ HRESULT InitNew(
 
 ## <a name="parameters"></a>Параметры
 
- _pMessageSite_
+ _Пмессажесите_
   
-> [in] Указатель на сайте сообщения, форма будет использоваться для работы с сообщением в средстве просмотра.
+> возврата Указатель на сайт сообщений, который форма будет использовать для работы с сообщением в средстве просмотра.
     
- _pMessage_
+ _Пмессаже_
   
-> [in] Указатель на новое сообщение.
+> возврата Указатель на новое сообщение.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Новое сообщение успешно инициализирована.
+> Новое сообщение успешно инициализировано.
     
 ## <a name="remarks"></a>Замечания
 
-Средства просмотра форм вызовите метод **IPersistMessage::InitNew** при записи нового сообщения, к которой принадлежит класс сообщений, который обрабатывает формы пользователем. Если объект формы указатель интерфейса пользователя, должно отображаться пользовательского интерфейса для объекта сообщения. 
+Средства просмотра форм вызывают метод **иперсистмессаже:: инитнев** , когда пользователь записывает новое сообщение, принадлежащее классу сообщений, который обрабатывается формой. Если объект Form имеет допустимый указатель пользовательского интерфейса, необходимо отобразить пользовательский интерфейс для объекта Message. 
   
- **InitNew** не должен вызываться, когда формы — в любом состоянии, кроме состояния [не инициализировано](uninitialized-state.md) . Если форма находится в одном из других состояний при вызове **InitNew** , возвратите значение E_UNEXPECTED. 
+ **Инитнев** не следует вызывать, если форма находится в любом состоянии, кроме неинициализированного состояния. [](uninitialized-state.md) Если форма находится в одном из других состояний при вызове **инитнев** , возвращайте е_унекспектед. 
   
-## <a name="notes-to-implementers"></a>Примечания для реализующих
+## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Как правило сообщения, которые имеются несохраненные свойства помечаются как измененные, чтобы клиент может отображать диалоговое окно, в котором пользователь должен быть сохранен этих свойств. Если пользователь указывает, сохранить сообщение, сохранить данные, пометить сообщение как чистая и выйдите из обычно.
+Как правило, сообщения с несохраненными свойствами помечаются как измененные, чтобы клиент мог отобразить диалоговое окно, предлагающее пользователю указать, следует ли сохранять эти свойства. Если пользователь указывает, что необходимо сохранить сообщение, сохранить данные, пометить сообщение как чистый и выйти из него обычным способом.
   
-Тем не менее если обработки вновь инициализированный сообщений включает в себя определения значения для одного или нескольких вычисляемых свойств и очень важно для этих свойств для сохранения, помечает сообщения как изменены. Так как вычисляемые свойства должны быть невидимы для пользователей, диалоговое окно не должно отображаться.
+Тем не менее, если при обработке новых инициализированных сообщений задано одно или несколько вычисляемых свойств, важно, чтобы эти свойства были сохранены, не помечать сообщения как измененные. Так как вычисляемые свойства должны быть невидимы для пользователей, диалоговое окно не должно отображаться.
   
-Если форма имеет ссылку на сайт active сообщение помимо того, передаваемый в **InitNew**, release исходного сайта, так как он больше не будет использоваться. Хранение указатели на сайт сообщений и сообщений из параметров _pMessageSite_ и _pMessage_ и вызвать методы [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) оба объекта для увеличения их счетчики ссылок. 
+Если форма содержит ссылку на активный сайт сообщений, отличный от переданного в **инитнев**, освободите исходный сайт, так как он больше не будет использоваться. Храните указатели на сайт сообщения и сообщение из параметров _пмессажесите_ и _пмессаже_ , а также вызывайте оба объекта: методы [AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) для увеличения счетчиков ссылок. 
   
-Настройка параметров **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) и **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) для нового сообщения на что-то соответствующий класс сообщения. Множество классов сообщений, например, значение **PR_MESSAGE_FLAGS** MSGFLAG_UNSENT для новых сообщений. 
+Задайте для свойства **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) и **пр_мсг_статус** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) новое сообщение, соответствующее классу сообщения. Многие классы сообщений, например, установите для **пр_мессаже_флагс** значение мсгфлаг_унсент для новых сообщений. 
   
-До возвращения происходили перехода формы в состояние [Normal](normal-state.md) Если без ошибок. Отправлять уведомление о получении сообщений всем зарегистрированным пользователям, вызвав их методы [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) и возвращает значение S_OK. 
+Прежде чем возвратить форму, переведите [](normal-state.md) ее в нормальное состояние, если ошибок не было. Отправьте новое уведомление всем зарегистрированным читателям, вызвав их методы [имапивиевадвисесинк:: онневмессаже](imapiviewadvisesink-onnewmessage.md) и возВРАЩАЯ значение S_OK. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-После успешного вызова **InitNew**предполагается, что следующие обязательные свойства и другие, заданные для формы:
+После успешного вызова **инитнев**можно предположить, что для формы заданы следующие обязательные свойства, а не другие.
   
- **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
+ **Пр_делете_афтер_субмит** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
   
- **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))
+ **Пр_импортанце** ([PidTagImportance](pidtagimportance-canonical-property.md))
   
- **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))
+ **Пр_оригинатор_деливери_репорт_рекуестед** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))
   
- **PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))
+ **Пр_приорити** ([PidTagPriority](pidtagpriority-canonical-property.md))
   
- **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md))
+ **Пр_реад_рецеипт_рекуестед** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md))
   
- **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))
+ **Пр_сенситивити** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))
   
- **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
+ **Пр_сентмаил_ентрид** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
-Дополнительные сведения о состояниях форм можно [Состояния формы](form-states.md). Дополнительные сведения о способ инициализации объектов хранилища [IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) см. 
+Более подробную информацию о состояниях форм можно узнать в статье [состояния форм](form-states.md). Дополнительные сведения о том, как инициализируются объекты хранилища, можно найти в методе [иперсистстораже:: инитнев](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
   
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Раздел "Свойства группы"
+title: Group Properties Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,20 +8,20 @@ f1_keywords:
 - vis_sdr.chm2065
 localization_priority: Normal
 ms.assetid: fb422d46-0b4d-3bf7-73aa-6b01e2454a84
-description: Содержит ячейки для группы, которые управляют, как добавить фигуры в группу, перемещение участников группы и выберите группы.
-ms.openlocfilehash: 63bc2717d838174080d3bd13da07e5f9d6929767
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Содержит ячейки для группы, которые управляют способом добавления фигур в группу, перемещения участников группы и выбора групп.
+ms.openlocfilehash: bb5d0bccd21e192ed4aff244929d2dbb507ae40b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317075"
 ---
-# <a name="group-properties-section"></a>Раздел "Свойства группы"
+# <a name="group-properties-section"></a>Group Properties Section
 
-Содержит ячейки для группы, которые управляют, как добавить фигуры в группу, перемещение участников группы и выберите группы. 
+Содержит ячейки для группы, которые управляют способом добавления фигур в группу, перемещения участников группы и выбора групп. 
   
 ## <a name="remarks"></a>Замечания
 
-Эти значения также можно настроить на вкладке **поведение** в диалоговом окне **поведение** (выберите **поведение** группы **Разработки фигуры** на вкладки " [Разработчик](run-in-developer-mode-display-the-developer-tab.md) "). 
+Вы также можете задать эти значения на вкладке **поведение** в диалоговом окне **поведение** (нажмите **поведение** в группе **Макет фигуры** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) ). 
   
 

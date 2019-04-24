@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - fExit
 keywords:
-- функция fexit [excel 2007]
+- Функция фексит [Excel 2007]
 localization_priority: Normal
 ms.assetid: d85685fa-df70-45bb-b629-a9d43b5cb926
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3abb5cd68a45fbcd16665dbc4d492d764bbd315e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97f0a1ec797176fb51c87c58f94e46a323ae5b32
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310859"
 ---
 # <a name="fexit"></a>fExit
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Пример пользовательской команды, выгружает GENERIC.xll. При загрузке GENERIC.xll, он создает пользовательских меню, общая, через который доступ к этой команды. 
+Пример пользовательской команды, которая выгружает GENERIC. XLL. При загрузке GENERIC. XLL создается пользовательское меню с общим доступом, через которое осуществляется доступ к этой команде. 
   
 ```cs
 int WINAPI fExit(void);
@@ -32,21 +32,21 @@ int WINAPI fExit(void);
 
 Функция не принимает параметры.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
 Функция всегда возвращает 1.
   
 ## <a name="remarks"></a>Замечания
 
-Это инициированных пользователем процедуру, чтобы выйти из GENERIC.xll следует избегать просто вызова `UNREGISTER("GENERIC.XLL")` в этой функции. Это будет принудительно отменить регистрацию всех функций в данной библиотеки DLL, даже в том случае, если они являются зарегистрированными где-либо другим способом. Вместо этого отменить регистрацию функции одному за раз. 
+Эта процедура вызывается пользователем для выхода из УНИВЕРСАЛЬНого объекта. XLL, поэтому не следует `UNREGISTER("GENERIC.XLL")` просто вызывать эту функцию. При этом будут принудительно отменены все функции в этой библиотеке DLL, даже если они были зарегистрированы в другом месте. Вместо этого отмените регистрацию функций по одному. 
   
 ### <a name="example"></a>Пример
 
-Просмотреть `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции в универсальной библиотеке DLL](functions-in-the-generic-dll.md)
 

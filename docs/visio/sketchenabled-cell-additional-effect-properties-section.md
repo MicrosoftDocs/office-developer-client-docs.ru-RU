@@ -1,37 +1,37 @@
 ---
-title: Ячейка SketchEnabled (раздел "Дополнительные свойства эффекта")
+title: SketchEnabled Cell (Additional Effect Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0baef353-41a1-4071-b5b4-ae342086fe34
-description: Определяет, отображается ли эскиза влияние на форме или не так, как логическое значение.
-ms.openlocfilehash: 7428d54eccce1a62d95a78dbc5fc6770fa5f1a77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, отображается ли в фигуре эффекты эскиза или нет, как логическое значение.
+ms.openlocfilehash: 713b9b5579ca0503157b9810ebf6ec849651c9c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314786"
 ---
-# <a name="sketchenabled-cell-additional-effect-properties-section"></a>Ячейка SketchEnabled (раздел "Дополнительные свойства эффекта")
+# <a name="sketchenabled-cell-additional-effect-properties-section"></a>SketchEnabled Cell (Additional Effect Properties Section)
 
-Определяет, отображается ли эскиза влияние на форме или не так, как логическое значение. 
+Определяет, отображается ли в фигуре эффекты эскиза или нет, как логическое значение. 
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **SketchEnabled** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **SketchEnabled** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | SketchEnabled  <br/> |
+| Имя ячейки:  <br/> | SketchEnabled  <br/> |
    
-Для получения ссылки на ячейки **SketchEnabled** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **SketchEnabled** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Индекс ячейки:  <br/> |**visSketchEnabled** <br/> |
+| Индекс строки:  <br/> |**Висровосереффектпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висскетченаблед** <br/> |
    
 

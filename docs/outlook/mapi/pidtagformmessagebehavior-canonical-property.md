@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0abb3cba2b72c18a2bc1a43a07130509ba29b56c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8bfb7e5af2e2e5e1a51225dc1cf20baf897752c1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316214"
 ---
 # <a name="pidtagformmessagebehavior-canonical-property"></a>Каноническое свойство PidTagFormMessageBehavior
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если сообщение должны включать в себя в текущую папку. 
+Содержит значение TRUE, если сообщение должно состоять в текущей папке. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_FORM_MESSAGE_BEHAVIOR  <br/> |
+|Связанные свойства:  <br/> |ПР_ФОРМ_МЕССАЖЕ_БЕХАВИОР  <br/> |
 |Идентификатор:  <br/> |0x330A  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Распространенные MAPI  <br/> |
+|Область:  <br/> |Общие протоколы MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Значение FALSE указывает, что сообщение должно включать в себя как любые другие электронной почты — это сообщение, то есть в папке Исходящие. 
+Значение FALSE указывает на то, что сообщение должно состоять из любого другого междоступного сообщения, то есть в папке "исХодящие". 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

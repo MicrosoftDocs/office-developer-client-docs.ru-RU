@@ -1,37 +1,37 @@
 ---
-title: Ячейка RotationYAngle (раздел "Свойства поворота объемной фигуры")
+title: RotationYAngle Cell (3-D Rotation Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 642d5931-aba3-443d-8c11-d12aa8e56d05
-description: Определяет угол вращения по оси y в градусов (0,0 - 359.9).
-ms.openlocfilehash: 4691b856f35e74a700030a54685831d6e4acdff4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет угол вращения вдоль оси Y в градусах (0,0-359,9).
+ms.openlocfilehash: a0ec330ded88aace6c8e4ab658fceca79eb94570
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315591"
 ---
-# <a name="rotationyangle-cell-3-d-rotation-properties-section"></a>Ячейка RotationYAngle (раздел "Свойства поворота объемной фигуры")
+# <a name="rotationyangle-cell-3-d-rotation-properties-section"></a>RotationYAngle Cell (3-D Rotation Properties Section)
 
-Определяет угол вращения по оси y в градусов (0,0 - 359.9).
+Определяет угол вращения вдоль оси Y в градусах (0,0-359,9).
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **RotationYAngle** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **RotationYAngle** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |RotationYAngle  <br/> |
+|Имя ячейки:  <br/> |RotationYAngle  <br/> |
    
-Для получения ссылки на ячейки **RotationYAngle** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **RotationYAngle** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
 |Индекс строки:  <br/> |**visRow3DRotationProperties** <br/> |
-|Индекс ячейки:  <br/> |**visRotationYAngle** <br/> |
+|Индекс ячейки:  <br/> |**Висротатионянгле** <br/> |
    
 

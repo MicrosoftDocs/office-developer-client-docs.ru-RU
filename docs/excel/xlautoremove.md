@@ -7,26 +7,26 @@ ms.topic: reference
 f1_keywords:
 - xlAutoRemove
 keywords:
-- функция xlautoremove [excel 2007]
+- Функция кслауторемове [Excel 2007]
 localization_priority: Normal
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 6e5daac21a6d89472a7d84a25e9aeaea56db1ae1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af8bd2d44883b1820be42b82d4fe4794fa29caab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807351"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310285"
 ---
 # <a name="xlautoremove"></a>xlAutoRemove
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Вызывается с Microsoft Excel, если пользователь деактивирует XLL во время сеанса обмена Excel с помощью диспетчера надстроек. Эта функция не вызывается при сеанс Excel закрывается, обычно или аварийно, с установленной надстройкой.
+Вызывается Microsoft Excel, когда пользователь отключает XLL во время сеанса Excel с помощью диспетчера надстроек. Вызов этой функции не выполняется, если сеанс Excel закрывается (правильно или ненормально) при установленной надстройке.
   
-Эта функция используется для отображения настраиваемого диалогового окна о том, что надстройка отключен, чтение или запись в реестр, например.
+Эта функция может использоваться для отображения настраиваемого диалогового окна, указывающего на то, что надстройка была отключена, а также для чтения или записи в реестре, например.
   
-Excel не требуется XLL внедрение и экспорт этой функции. 
+Для реализации и экспорта этой функции в Excel не требуется XLL. 
   
 ```cs
 int WINAPI xlAutoRemove(void);
@@ -42,7 +42,7 @@ int WINAPI xlAutoRemove(void);
   
 ## <a name="remarks"></a>Замечания
 
-Эта функция вашей XLL должны быть выполнены все задачи при удалении с диспетчер надстроек.
+Используйте эту функцию, если XLL-модуль должен выполнить любую задачу, когда она удалена с помощью диспетчера надстроек.
   
 ## <a name="example"></a>Пример
 

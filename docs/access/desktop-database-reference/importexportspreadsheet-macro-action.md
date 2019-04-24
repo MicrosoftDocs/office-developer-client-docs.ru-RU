@@ -12,11 +12,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: f910393c6d7a64258e5afc7545641fc5c6778b03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291875"
 ---
 # <a name="importexportspreadsheet-macro-action"></a>Макрокоманда ИмпортЭкспортЭлектроннойТаблицы
 

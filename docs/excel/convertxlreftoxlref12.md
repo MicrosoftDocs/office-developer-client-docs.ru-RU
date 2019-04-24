@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRefToXLRef12
 keywords:
-- функция convertxlreftoxlref12 [excel 2007]
+- Функция convertxlreftoxlref12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 94580044-9497-425f-a31e-53bb4d94dc30
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: f2830633482e5329d285907b610386b708c406a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 530cb9cce5b0023318ff6b8a0ff73472f8250aa3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310992"
 ---
 # <a name="convertxlreftoxlref12"></a>ConvertXLRefToXLRef12
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Функция Framework, пытается выполнить преобразование **XLREF** в **XLREF12**.
+Функция Framework, которая пытается преобразовать **кслреф** в **XLREF12**.
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
@@ -30,21 +30,21 @@ BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
 
 ## <a name="parameters"></a>Параметры
 
- _pxRef_ (**LPXLREF**)
+ _пксреф_ (**Лпкслреф**)
   
-Указатель на структуру источника ссылки.
+Указатель на исходную ссылочную структуру.
   
  _pxRef12_ (**LPXLREF12**)
   
-Указатель на структуру ссылку конечного, в который преобразованное значение — для размещения.
+Указатель на целевую ссылочную структуру, в которую будет включено преобразованное значение.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **Значение TRUE,** Если преобразование выполнено успешно, **значение FALSE** в противном случае. 
+ **Значение true** , если преобразование выполнено успешно, в противном случае — **значение false** . 
   
 ## <a name="remarks"></a>Замечания
 
-При условии, что переданное **XLREF** является допустимым, эта операция всегда должна быть установлена. С другой стороны преобразования другим способом из **XLREF12** **XLREF**, выполненный [ConvertXLRef12ToXLRef](convertxlref12toxlref.md)не выполняется, если заданный ссылка на часть таблицу Excel 2007, который не поддерживается в более ранних версиях.
+При условии, что переданный **кслреф** является допустимым, эта операция всегда должна быть успешной. В отличие от этого, преобразование других способов из **XLREF12** в **кслреф**, выполняемое [ConvertXLRef12ToXLRef](convertxlref12toxlref.md), завершается неудачей, если предоставленная ссылка относится к части листа Excel 2007, которая не поддерживается в более ранних версиях.
   
 ## <a name="example"></a>Пример
 

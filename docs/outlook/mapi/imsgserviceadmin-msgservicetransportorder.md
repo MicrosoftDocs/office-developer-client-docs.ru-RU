@@ -1,5 +1,5 @@
 ---
-title: IMsgServiceAdminMsgServiceTransportOrder
+title: Имсгсервицеадминмсгсервицетранспортордер
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 559f1c609000608d0eb920a0240ac8848e4bc2a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d532e0eb46daa412711344421936a58da309b7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310005"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570795"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает порядок вызова поставщиков какие транспорта доставить сообщение.
+Задает порядок, в котором будут вызываться поставщики транспорта для доставки сообщения.
   
 ```cpp
 HRESULT MsgServiceTransportOrder(
@@ -37,13 +37,13 @@ HRESULT MsgServiceTransportOrder(
 
 ## <a name="parameters"></a>Параметры
 
- _cUID_
+ _Куид_
   
-> [in] Число уникальных идентификаторов с помощью параметра _lpUIDList_ . 
+> возврата Количество уникальных идентификаторов в параметре _лпуидлист_ . 
     
- _lpUIDList_
+ _Лпуидлист_
   
-> [in] Указатель на массив уникальные идентификаторы, представляющие поставщиками транспорта. Массив содержит один идентификатор для каждого поставщика транспорта, настроенных в текущий профиль.
+> возврата Указатель на массив уникальных идентификаторов, представляющих поставщики транспорта. Массив содержит один идентификатор для каждого поставщика транспорта, настроенного в текущем профиле.
     
  _ulFlags_
   
@@ -53,21 +53,21 @@ HRESULT MsgServiceTransportOrder(
 
 S_OK 
   
-> Порядок транспорта успешно установлены.
+> Транспортный заказ успешно установлен.
     
-MAPI_E_BUSY 
+МАПИ_Е_БУСИ 
   
-> Значение параметра _cUID_ отличается от числа поставщиками транспорта фактически в профиле. 
+> Значение параметра _куид_ отличается от количества поставщиков транспорта в профиле. 
     
-MAPI_E_NOT_FOUND 
+МАПИ_Е_НОТ_ФАУНД 
   
-> Одно или несколько из структур [MAPIUID](mapiuid.md) , переданной в параметре _lpUIDList_ относится к поставщика транспорта в настоящее время в профиле. 
+> Одна или несколько структур [мапиуид](mapiuid.md) , переданных в параметре _лпуидлист_ , не ссылаются на поставщика транспорта, находящихся в данный момент в профиле. 
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
-Метод **IMsgServiceAdmin::MsgServiceTransportOrder** задает порядок доставки поставщиками транспорта в профиле. Параметр _lpUIDList_ должен содержать отсортированный список идентификаторов запись поставщика транспорта, полученного из свойства **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) в таблице, возвращенный из [IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md) метод. Клиентское приложение должно передавать полный список в _lpUIDList_.
+Метод **имсгсервицеадмин:: мсгсервицетранспортордер** устанавливает порядок доставки поставщиков транспорта в профиле. Параметр _лпуидлист_ должен содержать отсортированный список идентификаторов записей поставщика транспорта, полученных из свойства **пр_провидер_уид** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) таблицы, возвращаемой из [имсгсервицеадмин:: Метод Жетпровидертабле](imsgserviceadmin-getprovidertable.md) . Клиентское приложение должно передать полный список в _лпуидлист_.
   
- **SetTransportOrder** переопределений транспорта параметры поставщика, такие как флаг STATUS_XP_PREFER_LAST в свойстве **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
+ **Сеттранспортордер** переопределяет параметры поставщика транспорта, такие как флаг статус_ксп_префер_ласт, установленный в свойстве **пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   
 ## <a name="see-also"></a>См. также
 

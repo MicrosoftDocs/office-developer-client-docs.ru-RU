@@ -13,62 +13,62 @@ api_type:
 ms.assetid: 374cef41-141a-491b-8dd1-eaf1a2044204
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 205b6ddc2b65297d69a2223aab7b745b223ee553
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316284"
 ---
 # <a name="pidtagfollowupicon-canonical-property"></a>Каноническое свойство PidTagFollowupIcon
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает цвет объекта message.
+Задает цвет флажка для объекта Message.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_FOLLOWUP_ICON  <br/> |
+|Связанные свойства:  <br/> |ПР_ФОЛЛОВУП_ИКОН  <br/> |
 |Идентификатор:  <br/> |0x1095  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Переименование папки сообщения  <br/> |
+|Область:  <br/> |ПереИменование папки сообщений  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство не должна существовать, если значение свойства **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) имеет значение «followupFlagged» или объект message — это объект, относящихся к собранию. Это свойство не должна существовать для объекта задачи. Если установлено на другие объекты сообщения, это свойство должно быть присвоено одно из следующих значений.
+Это свойство не должно существовать, если для свойства **пр_флаг_статус** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) не задано значение "фолловупфлагжед", или объект Message является объектом, связанным с собранием. Это свойство не должно существовать для объекта Task. Если задано для других объектов Message, этому свойству необходимо присвоить одно из следующих значений.
   
 |**Числовое значение**|**Имя**|**Описание**|
 |:-----|:-----|:-----|
-|Этот параметр не указан  <br/> |Н/Д  <br/> |Без цвета  <br/> |
-|1  <br/> |followupIcon1  <br/> |Лиловый флажок  <br/> |
-|2  <br/> |followupIcon2  <br/> |Оранжевый флажок  <br/> |
-|3  <br/> |followupIcon3  <br/> |Зеленый флажок  <br/> |
-|4  <br/> |followupIcon4  <br/> |Желтый флажок  <br/> |
-|5  <br/> |followupIcon5  <br/> |Синий флажок  <br/> |
-|6  <br/> |followupIcon6  <br/> |Красный флажок  <br/> |
+|Отсутствует  <br/> |Недоступно  <br/> |Нет цвета  <br/> |
+|1,1  <br/> |followupIcon1  <br/> |Лиловый флаг  <br/> |
+|2  <br/> |followupIcon2  <br/> |Оранжевый флаг  <br/> |
+|4  <br/> |followupIcon3  <br/> |Зеленый флаг  <br/> |
+|SP4  <br/> |followupIcon4  <br/> |Желтый флаг  <br/> |
+|17:00  <br/> |followupIcon5  <br/> |Синий флажок  <br/> |
+|ICMPv6  <br/> |followupIcon6  <br/> |Красный флаг  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Задает свойства и операции, связанные с флагов.
+> Задает свойства и операции, связанные с пометкой.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -76,7 +76,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

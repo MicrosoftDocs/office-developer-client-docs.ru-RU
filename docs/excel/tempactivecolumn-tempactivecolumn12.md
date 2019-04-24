@@ -8,22 +8,22 @@ f1_keywords:
 - TempActiveColumn
 - TempActiveColumn12
 keywords:
-- функция tempactivecolumn12 [excel 2007], функция TempActiveColumn [Excel 2007]
+- Функция TempActiveColumn12 [Excel 2007], функция Темпактивеколумн [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ac3dbb0bb43527f790e6934d73bee30a33f8555f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1399a407e3e269b78c7afbde8ff32c126b4b1bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310474"
 ---
 # <a name="tempactivecolumntempactivecolumn12"></a>TempActiveColumn/TempActiveColumn12
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Функции библиотеки Framework, создайте временный **XLOPER**/ **XLOPER12** , содержащий внешняя ссылка на целый столбец на активном листе. 
+Функции библиотеки Framework, которые создают временную структуру **XLOPER**/ **** , содержащую внешнюю ссылку на весь столбец на активном листе. 
   
 ```cs
 LPXLOPER TempActiveColumn(BYTE col);
@@ -32,17 +32,17 @@ LPXLOPER12 TempActiveColumn12(COL col);
 
 ## <a name="parameters"></a>Параметры
 
- _столбец_ (**БАЙТ**)
+ _Col_ (**Байт**)
   
-Ссылка на столбец. Это с отсчетом от нуля, поэтому этот столбец A передается как 0. В Microsoft Office Excel 2003 и более ранних версий, а начиная с версии Excel 2007, выполнение книги в режиме совместимости, максимальное значение — 255 = 2 ^ 8-1, а — максимальное значение, которое может быть занято БАЙТОВОЕ целое число. Начиная с версии Excel 2007 под управлением книги, максимальное значение — 16,383 = 2 ^ 14-1. Столбец — это 32-разрядное целое число со знаком в XLCALL. З.
+Столбец, на который необходимо сослаться. Это отсчитывается от нуля, поэтому столбец A передается как 0. В Microsoft Office Excel 2003 и более ранних версиях, начиная с Excel 2007 Запуск книги в режиме совместимости, максимальное значение равно 255 = 2 ^ 8-1 и является максимальным значением, которое может быть получено с помощью БАЙТового целого числа. Начиная с Excel 2007 Запуск книги, максимальное значение равно 16 383 = 2 ^ 14-1. COL определен как 32-разрядное целое число со знаком в XLCALL. Высоты.
   
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает **xltypeRef** внешняя ссылка на столбец, переданные в. 
+Возвращает внешнюю ссылку **кслтипереф** на переданный столбец. 
   
 ## <a name="example"></a>Пример
 
-В следующем примере используется **TempActiveColumn12** для выбора целый столбец б. 
+В следующем примере используется **TempActiveColumn12** для выделения всего столбца B. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

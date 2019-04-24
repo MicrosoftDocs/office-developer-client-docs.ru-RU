@@ -13,40 +13,40 @@ api_type:
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 485d3f3cd4b6be4748a2ebf2ba0d0b71f691478f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315521"
 ---
 # <a name="iproxystoreobject"></a>IProxyStoreObject
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит объект хранилища протокола доступа сообщения Интернета (IMAP), которая была оболочку и без вызова синхронизации и загрузку элементов, которая позволяет получить доступ к элементов в файл личных папок (PST).
+Предоставляет объект хранилища протокола IMAP, который был развернут и предоставляет доступ к элементам в файле личных папок (PST), не вызывая синхронизацию и не загружая элементы.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследуется от:  <br/> |[Интерфейс IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
-|Автор:  <br/> |Поставщик хранилища сообщений  <br/> |
-|Идентификатор интерфейса:  <br/> |**IID_IProxyStoreObject** <br/> |
+|НаСледуется от:  <br/> |[Интерфейс](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) <br/> |
+|Предоставлено:  <br/> |Поставщик хранилища сообщений  <br/> |
+|Идентификатор интерфейса:  <br/> |**Иид_ипроксистореобжект** <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Получает указатель на хранилище оболочку IMAP.  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Получает указатель на неупакованное хранилище IMAP.  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Вызов [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) хранилища сообщений источника для получения интерфейса **IProxyStoreObject** . Затем вызовите **IProxyStoreObject::UnwrapNoRef** , чтобы получить объект развернуть хранилища. Если **QueryInterface** возвращает ошибку **MAPI_E_INTERFACE_NOT_SUPPORTED**, затем хранилище не заключен. 
+ВыЗовите метод [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) в исходном хранилище сообщений для получения интерфейса **ипроксистореобжект** . Затем вызовите **ипроксистореобжект:: унврапнореф** , чтобы получить объект неупакованного хранилища. Если **QueryInterface** возвращает ошибку **мапи_е_интерфаце_нот_суппортед**, то хранилище не было заключено в оболочку. 
   
-Так как **UnwrapNoRef** не увеличивает счетчик ссылок для этого нового указателя на объект оболочку хранилище после успешного вызова **UnwrapNoRef**, должны вызывать [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) для поддержки счетчик ссылок. 
+Так как **унврапнореф** не увеличивает значение счетчика ссылок для нового указателя на неупакованный объект Store после успешного вызова **унврапнореф**, необходимо вызвать метод [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) для поддержания счетчика ссылок. 
   
 

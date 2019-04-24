@@ -13,66 +13,66 @@ api_type:
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e5177d47749c2f60a883bd12fbba27045114c601
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315815"
 ---
 # <a name="pidtag7bitdisplayname-canonical-property"></a>Каноническое свойство PidTag7BitDisplayName
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит представление ASCII 7-битовое имя системы обмена сообщениями пользователя. 
+Содержит 7 – двоичное представление имени пользователя для обмена сообщениями. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_7BIT_DISPLAY_NAME, PR_7BIT_DISPLAY_NAME_A, PR_7BIT_DISPLAY_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x39FF  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Адресная книга  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Эти свойства в набор символов 7-битовое сопоставить свойство **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Некоторые систем обмена сообщениями, такие как Интернет, а также некоторые ссылки X.400 не более 128-7-битовое ASCII кода кодировку. Производительность шлюзов для таких систем обмена сообщениями можно увеличить путем вызова метода [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) непосредственно для получения этого свойства, тем самым позволяет избежать дополнительной обработки для преобразования кода. 
+Эти свойства сопоставляют свойство **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) с 7-разрядным набором знаков. Некоторые системы обмена сообщениями, такие как Интернет и определенные ссылки X. 400, ограничены набором символов ASCII с 128 символами 7 бит. Шлюзы к таким системам обмена сообщениями могут увеличить производительность, вызвав метод [IAddrBook::P репаререЦипс](iaddrbook-preparerecips.md) непосредственно для получения этого свойства, чтобы избежать дополнительной обработки преобразования кода. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS — ОКСОАБК]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Задает свойства и операции над списками пользователей, контактов, групп и ресурсов.
+> Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-[[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
+[[MS — NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Обрабатывает клиентами с NSPI-сервера.
+> Обрабатывает взаимодействие клиента с сервером NSPI.
     
-[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Обрабатывает порядке и потоков данных, который используется для передачи данных между клиентом и сервером.
+> Обрабатывает порядок и потоки данных, которые используются для передачи данных между клиентом и сервером.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые в сообщениях электронной почты.
+> Задает свойства и операции, допустимые для сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -82,7 +82,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

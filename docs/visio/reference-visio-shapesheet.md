@@ -8,11 +8,11 @@ ms.assetid: 047e9641-003e-4cae-a6d7-88f3c3c64384
 description: Эта часть справочника по таблицам свойств фигур Visio 2013 содержит указанные ниже разделы.
 localization_priority: Priority
 ms.openlocfilehash: 5c41113e8021243c338100fd3d65846dedeb3b38
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314758"
 ---
 # <a name="reference-visio-shapesheet"></a>Справочник (таблица свойств фигур Visio)
 
@@ -22,8 +22,8 @@ ms.locfileid: "28721817"
     
 - [Функции](abs-function-visioshapesheet.md)
     
-- [Строки](actions-row-actions-section.md)
+- [Rows](actions-row-actions-section.md)
     
-- [Разделы](1-d-endpoints-section.md)
+- [Sections](1-d-endpoints-section.md)
     
 

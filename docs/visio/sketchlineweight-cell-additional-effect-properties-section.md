@@ -1,37 +1,37 @@
 ---
-title: Ячейка SketchLineWeight (раздел "Дополнительные свойства эффекта")
+title: SketchLineWeight Cell (Additional Effect Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6cb838be-1d6d-48e1-8e9e-bd126f0c2385
-description: Определяет дополнительные толщина добавить Толщина линии результате эффекта эскиза в пунктах от 0 до 50. Толщина линии фигуры с увеличением значение SketchLineWeight, увеличивается ячейки.
-ms.openlocfilehash: 9ab99faab907ddf0d944abbeea39672906b4c03d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет дополнительную толщину, добавленную к весу линии в качестве результата действия эскиза, в пунктах от 0 до 50. Толщина линии фигуры увеличивается при увеличении значения ячейки SketchLineWeight.
+ms.openlocfilehash: 0ee71bbaec59f5c79b72314b08478f8028b4e0ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315122"
 ---
-# <a name="sketchlineweight-cell-additional-effect-properties-section"></a>Ячейка SketchLineWeight (раздел "Дополнительные свойства эффекта")
+# <a name="sketchlineweight-cell-additional-effect-properties-section"></a>SketchLineWeight Cell (Additional Effect Properties Section)
 
-Определяет дополнительные толщина добавить Толщина линии результате эффекта эскиза в пунктах от 0 до 50. Толщина линии фигуры с увеличением значение увеличения **SketchLineWeight** ячейки. 
+Определяет дополнительную толщину, добавленную к весу линии в качестве результата действия эскиза, в пунктах от 0 до 50. Толщина линии фигуры увеличивается при увеличении значения ячейки **SketchLineWeight** . 
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **SketchLineWeight** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **SketchLineWeight** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | SketchLineWeight  <br/> |
+| Имя ячейки:  <br/> | SketchLineWeight  <br/> |
    
-Для получения ссылки на ячейки **SketchLineWeight** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **SketchLineWeight** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Индекс ячейки:  <br/> |**visSketchLineWeight** <br/> |
+| Индекс строки:  <br/> |**Висровосереффектпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висскетчлиневеигхт** <br/> |
    
 

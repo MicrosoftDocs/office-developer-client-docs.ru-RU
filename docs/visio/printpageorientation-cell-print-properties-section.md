@@ -1,5 +1,5 @@
 ---
-title: Ячейка PrintPageOrientation (раздел "Свойства печати")
+title: PrintPageOrientation Cell (Print Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,40 +8,40 @@ f1_keywords:
 - Vis_DSS.chm1033795
 localization_priority: Normal
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
-description: Определяет, будет ли страницы при печати книжная или альбомная ориентация.
-ms.openlocfilehash: 2adc7dadcb3702e6c5307bb569b2ae1df7aee54e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, будет ли страница печататься по книжной или альбомной ориентации.
+ms.openlocfilehash: f7e73bea5120d878a1b2dbf553a66b349d247fce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315185"
 ---
-# <a name="printpageorientation-cell-print-properties-section"></a>Ячейка PrintPageOrientation (раздел "Свойства печати")
+# <a name="printpageorientation-cell-print-properties-section"></a>PrintPageOrientation Cell (Print Properties Section)
 
-Определяет, будет ли страницы при печати книжная или альбомная ориентация.
+Определяет, будет ли страница печататься по книжной или альбомной ориентации.
   
-|**Значение**|**Ориентация**|**Константа автоматизации**|
+|**Значение**|**Orientation**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | То же, что принтера  <br/> |**visPPOSameAsPrinter** <br/> |
-| 1  <br/> | Книжная  <br/> |**visPPOPortrait** <br/> |
-|2  <br/> |Альбомная  <br/> |**visPPOLandscape** <br/> |
+| нуль  <br/> | То же, что принтер  <br/> |**Висппосамеаспринтер** <br/> |
+| 1,1  <br/> | Ориентацию  <br/> |**Висппопортраит** <br/> |
+|2  <br/> |Вдоль  <br/> |**Виспполандскапе** <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-При добавлении новых страниц в документе, этот параметр по умолчанию параметр на активной странице.
+При вставке в документ новых страниц этот параметр по умолчанию устанавливается на активной странице.
   
-Чтобы получить ссылку на ячейку PrintPageOrientation по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку PrintPageOrientation по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | PrintPageOrientation  <br/> |
+| Имя ячейки:  <br/> | PrintPageOrientation  <br/> |
    
-Для получения ссылки на ячейки PrintPageOrientation по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку PrintPageOrientation по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPrintProperties** <br/> |
-| Индекс ячейки:  <br/> |**visPrintPropertiesPageOrientation** <br/> |
+| Индекс строки:  <br/> |**Висровпринтпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Виспринтпропертиеспажеориентатион** <br/> |
    
 

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 41dc96f26e7e0040467096731cb16ae7c0c08f74
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316039"
 ---
 # <a name="select-a-folder-and-display-folder-information"></a>Выбор папки и отображение сведений о папке
 
@@ -25,7 +25,7 @@ ms.locfileid: "28721942"
 
 В следующем примере кода ShowFolderInfo использует метод [PickFolder()](https://msdn.microsoft.com/library/bb623484\(v=office.15\)) объекта [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)), чтобы вывести для пользователя диалоговое окно **Выбор папки** и дождаться, пока пользователь выберет папку. После того как пользователь выберет папку, отображаются свойства [EntryID](https://msdn.microsoft.com/library/bb646192\(v=office.15\)), [StoreID](https://msdn.microsoft.com/library/bb612609\(v=office.15\)), [UnReadItemCount](https://msdn.microsoft.com/library/bb610138\(v=office.15\)), [DefaultMessageClass](https://msdn.microsoft.com/library/bb646541\(v=office.15\)), [CurrentView](https://msdn.microsoft.com/library/bb612411\(v=office.15\)), [Name](https://msdn.microsoft.com/library/bb623727\(v=office.15\)) и [FolderPath](https://msdn.microsoft.com/library/bb647409\(v=office.15\)) этой папки. Затем в примере вызывается метод [GetFolderFromID](https://msdn.microsoft.com/library/bb647784\(v=office.15\)), чтобы создать новый объект [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) и отобразить папку.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -70,5 +70,5 @@ private void ShowFolderInfo()
 
 ## <a name="see-also"></a>См. также
 
-- [Папки](folders.md)
+- [Folders](folders.md)
 

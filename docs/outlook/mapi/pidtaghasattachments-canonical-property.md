@@ -13,50 +13,50 @@ api_type:
 ms.assetid: fd236d74-2868-46a8-bb3d-17f8365931b6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: aca9c9f9c22fc4057f1650d1342492d2ed34653c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316130"
 ---
 # <a name="pidtaghasattachments-canonical-property"></a>Каноническое свойство PidTagHasAttachments
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если сообщение содержит по крайней мере одного вложения. 
+Содержит значение TRUE, если сообщение содержит по крайней мере одно вложение. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_HASATTACH  <br/> |
+|Связанные свойства:  <br/> |ПР_ХАСАТТАЧ  <br/> |
 |Идентификатор:  <br/> |0x0E1B  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство копирует хранилища сообщений из флаг **MSGFLAG_HASATTACH** свойства **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). Клиентское приложение затем можно использовать **PR_HASATTACH** для сортировки вложений сообщений в средстве просмотра сообщений. 
+Хранилище сообщений копирует это свойство из флага **мсгфлаг_хасаттач** свойства **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). После этого клиентское приложение может использовать **пр_хасаттач** для сортировки вложений сообщений в средстве просмотра сообщений. 
   
-Значение этого свойства обновляются с помощью метода [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
+Значение, которое обновляет это свойство, с помощью метода [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщения электронной почты.
+> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

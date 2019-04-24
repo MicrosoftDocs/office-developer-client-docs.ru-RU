@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - UnhookExcelWindow
 keywords:
-- функция unhookexcelwindow
+- Функция унхукексцелвиндов
 localization_priority: Normal
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 7b70bf4ed0ff45921df407605baa692c7621bca4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aef2734aeb4d9cf5df33e3d012cef309e8a1eb6e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310313"
 ---
 # <a name="unhookexcelwindow"></a>UnhookExcelWindow
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Удаляет **ExcelCursorProc** , которая ранее была установлена **HookExcelWindow**. Это может быть сделано, чтобы **ExcelCursorProc** вызван перед основной Microsoft Excel **WndProc**.
+Удаляет **ексцелкурсорпрок** , ранее установленный с помощью **хукексцелвиндов**. Это было бы сделано таким образом, что **ексцелкурсорпрок** вызывался до основного **WndProc**Microsoft Excel.
   
 ```cs
 extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
@@ -30,25 +30,25 @@ extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 
 ## <a name="parameters"></a>Параметры
 
- _hWndExcel_ (**ОБРАБАТЫВАТЬ**)
+ _хвндексцел_ (**Handle**)
   
-Обработка форма главных окон Excel.
+Основной дескриптор Windows Excel.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
 Функция не возвращает значение.
   
 ## <a name="remarks"></a>Замечания
 
-Эта функция восстанавливает Excel по умолчанию **WndProc** использование **SetWindowLong()** для восстановления адрес, который был сохранен с **HookExcelWindow()**.
+Эта функция восстанавливает значение по умолчанию для Excel **WndProc** с помощью **сетвиндовлонг ()** , чтобы восстановить адрес, сохраненный в **хукексцелвиндов ()**.
   
 ### <a name="example"></a>Пример
 
-Просмотреть `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции в универсальной библиотеке DLL](functions-in-the-generic-dll.md)
 

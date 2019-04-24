@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f92891188e7c317465ce70fede1dedca7f6344fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316067"
 ---
 # <a name="display-the-select-names-dialog-box-to-resolve-recipients"></a>Отображение диалогового окна "Выбор имен" для сопоставления получателей
 
@@ -22,7 +22,7 @@ ms.locfileid: "28723042"
 
 Код этого примера вызывает объект [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) , чтобы отобразить диалоговое окно **Выбор имен**, показывающее адресную книгу Outlook. В этом диалоговом окне пользователь может выбрать имя адресной книги. Если имя не удается разрешить, получатель будет удален из recips. Если имя разрешается, то пример кода возвращает в recips объект [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) получателя.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **Imports** или **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

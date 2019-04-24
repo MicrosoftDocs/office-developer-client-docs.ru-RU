@@ -4,25 +4,25 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- автоматизации [infopath 2007] внешнего, автоматизация InfoPath 2007 и InfoPath 2007, автоматизация из других приложений
+- Автоматизация [InfoPath 2007], внешняя Автоматизация, Автоматизация InfoPath 2007, InfoPath 2007, Автоматизация из других приложений
 localization_priority: Normal
 ms.assetid: c82daa2d-59d2-44d0-9e82-40483df6dad0
-description: В этом разделе рассматриваются основной сборке взаимодействия Microsoft InfoPath и сборки взаимодействия XML и как их типы и члены используются для автоматизации InfoPath из внешних приложений, использующих управляемый код.
-ms.openlocfilehash: 5534fcc73970107baaacdced7cfc3be8396a42a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: В этом разделе рассматриваются основные сборки взаимодействия Microsoft InfoPath и сборки взаимодействия XML, а также их типы и члены, используемые для автоматизации InfoPath из внешних приложений с помощью управляемого кода.
+ms.openlocfilehash: b6618dbe838446555920bf9e79c07712bc66fdda
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310180"
 ---
 # <a name="automating-infopath-from-other-applications"></a>Автоматизация InfoPath из других приложений
 
-В этом разделе рассматриваются основной сборке взаимодействия Microsoft InfoPath и сборки взаимодействия XML и как их типы и члены используются для автоматизации InfoPath из внешних приложений, использующих управляемый код.
+В этом разделе рассматриваются основные сборки взаимодействия Microsoft InfoPath и сборки взаимодействия XML, а также их типы и члены, используемые для автоматизации InfoPath из внешних приложений с помощью управляемого кода.
 
-- [О Microsoft Office InfoPath основной сборки взаимодействия](about-the-microsoft-office-infopath-primary-interop-assembly.md): описание сборки основной сборке взаимодействия Microsoft Office InfoPath и объектной моделью предоставляет для внешней автоматизации.
+- [О основной сборке взаимодействия Microsoft Office InfoPath](about-the-microsoft-office-infopath-primary-interop-assembly.md): описание основной сборки взаимодействия Microsoft Office InfoPath и объектной модели, предоставляемой для внешней автоматизации.
     
-- [О InfoPath XML сборки взаимодействия](about-the-infopath-xml-interop-assembly.md): описание сборки взаимодействия InfoPath XML и объектной моделью предоставляет для внешней автоматизации приложений.
+- [Сведения о сборке взаимодействия InfoPath в InfoPath](about-the-infopath-xml-interop-assembly.md): Описание сборки XML-взаимодействия InfoPath и объектной модели, которую он предоставляет для использования в внешних приложениях автоматизации.
     
-- [Внешние сценарии автоматизации и примеры](external-automation-scenarios-and-examples.md): описываются распространенные сценарии внешней автоматизации и примеры.
+- [Сценарии с внешними средствами автоматизации и примеры](external-automation-scenarios-and-examples.md): описание распространенных сценариев и примеров с внешними средствами автоматизации.
     
 

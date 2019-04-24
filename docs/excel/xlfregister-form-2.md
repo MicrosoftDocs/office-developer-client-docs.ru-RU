@@ -7,30 +7,30 @@ ms.topic: reference
 f1_keywords:
 - xlfRegister
 keywords:
-- функция xlfRegister [excel 2007]
+- функция xlfRegister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a535018e2b644966d183ba9ae862ce83670c9231
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66af741456ab763ef346a8777429f0ae1be77c11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310124"
 ---
 # <a name="xlfregister-form-2"></a>xlfRegister (форма 2)
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Может быть вызван из DLL или XLL команду, которая был вызван с Microsoft Excel. Это эквивалентно вызову **регистрации** из таблицы Excel XLM макрос. 
+Может вызываться из команды DLL или XLL, которая вызывается Microsoft Excel. Это эквивалентно вызову **Register** из листа макросов Microsoft Office XLM. 
   
-Функция **xlfRegister** может быть вызвана в двух вариантах: 
+Функцию **xlfRegister** можно вызвать в двух формах: 
   
-- [xlfRegister (формы 1)](xlfregister-form-1.md): регистрирует отдельные команды или функции.
+- [xlfRegister (форма 1)](xlfregister-form-1.md): регистрирует отдельные команды или функции.
     
-- xlfRegister (формы 2): загружает и активирует надстройке XLL.
+- xlfRegister (форма 2): Загрузка и активация XLL-модуля.
     
-Вызывает в виде 2, эта функция может использоваться только для загружать и активировать XLL, содержащий процедуру [xlAutoOpen](xlautoopen.md) . 
+Эта функция, выЗываемая в форме 2, может использоваться только для загрузки и активации XLL, содержащего процедуру [xlAutoOpen](xlautoopen.md) . 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
@@ -38,13 +38,13 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 
 ## <a name="parameters"></a>Параметры
 
- _pxModuleText_ (**xltypeStr**)
+ _пксмодулетекст_ (**кслтипестр**)
   
-Имя библиотеки DLL, загружать и активирован.
+Имя библиотеки DLL, которая должна быть загружена и активирована.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-В случае успешного выполнения возвращает имя DLL (**xltypeStr**). В противном случае возвращается #VALUE! Ошибка.
+В случае успешного выполнения возвращается имя DLL (**кслтипестр**). В противном случае возвращается #VALUE! ошибкой.
   
 ## <a name="see-also"></a>См. также
 

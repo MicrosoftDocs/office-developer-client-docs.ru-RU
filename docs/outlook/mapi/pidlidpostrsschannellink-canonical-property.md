@@ -13,43 +13,43 @@ api_type:
 ms.assetid: 2ec95ed9-4848-43ac-9b17-8092a37055e9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 06ceac59dc41461c1ee60b012f4bb4470a591e77
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315976"
 ---
 # <a name="pidlidpostrsschannellink-canonical-property"></a>Каноническое свойство PidLidPostRssChannelLink
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит URL-адрес RSS или Atom, из которого получена XML-файл.
+Содержит URL-адрес RSS-канала или канала Atom, из которого получен XML-файл.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidPostRssChannelLink  <br/> |
-|Набор свойств:  <br/> |PSETID_PostRss  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008900  <br/> |
+|Связанные свойства:  <br/> |Диспидпострссчаннеллинк  <br/> |
+|Набор свойств:  <br/> |Псетид_пострсс  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008900  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |RSS-КАНАЛ  <br/> |
+|Область:  <br/> |ТРАНСЛЯЦИЙ  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определение набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Предоставляет определение набора свойств и ссылки на соответствующие спецификации протокола Exchange Server.
     
-[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
+[[MS — ОКСОРСС]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Задает свойства и операции, которые представляют элементам RSS-Каналов.
+> Задает свойства и операции, представляющие элементы RSS.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

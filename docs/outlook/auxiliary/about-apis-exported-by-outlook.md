@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7b251308-70ff-a1ec-e968-9d5993909505
-description: Outlook экспортирует определений, структуры данных, функции и интерфейсы, которые изначально были разработаны для внутреннего использования, но теперь доступно для общего использования.
+description: Outlook экспортирует следующие определения, структуры данных, функции и интерфейсы, изначально предназначенные для внутреннего использования, но теперь они доступны для общедоступного потребления.
 ms.openlocfilehash: 0ed68b6c1b8082ee5cc22deb96333a0bd4d29390
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316984"
 ---
 # <a name="about-apis-exported-by-outlook"></a>Сведения об интерфейсах API, экспортируемых Outlook
 
-Outlook экспортирует определений, структуры данных, функции и интерфейсы, которые изначально были разработаны для внутреннего использования, но теперь доступно для общего использования.
+Outlook экспортирует следующие определения, структуры данных, функции и интерфейсы, изначально предназначенные для внутреннего использования, но теперь они доступны для общедоступного потребления.
   
 ### <a name="definitions"></a>Определения
   
@@ -46,12 +46,12 @@ Outlook экспортирует определений, структуры да
     
 ### <a name="events"></a>События
   
-- [Доступные события и их идентификаторы DISPID (Outlook экспортировать API-интерфейсы)](available-events-and-their-dispids-outlook-exported-apis.md)
+- [Доступные события и их идентификаторы DISPID (экспортированные API Outlook)](available-events-and-their-dispids-outlook-exported-apis.md)
     
-Кроме того с помощью идентификаторов отправки, **dispidFDirty** и **dispidShowSenderPhoto**, можно получить следующие задачи:
+Кроме того, с помощью идентификаторов диспетчеризации, **диспидфдирти** и **диспидшовсендерфото**можно выполнить следующие задачи:
   
-- [Определить, является ли элемент Outlook был изменен, но не сохраняются (Outlook дополнительные справочные материалы по)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
+- [Определение того, был ли элемент Outlook изменен, но не сохранен (Вспомогательная справка по Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)  
     
-- [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/library/office/gg262879.aspx)
+- [Указание на необходимость отображать изображение контакта в Outlook (Дополнительная справка по Outlook)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 

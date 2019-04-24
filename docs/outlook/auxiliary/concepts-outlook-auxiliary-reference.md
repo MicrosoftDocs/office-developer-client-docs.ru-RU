@@ -1,22 +1,22 @@
 ---
-title: Основные понятия (Справочник по Outlook для вспомогательных)
+title: Основные понятия (вспомогательная Справка по Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: fa68a055-9e58-40ef-886e-4e8ebb08a2a9
-description: В этом разделе описаны четыре интерфейсы API в дополнительные справочные материалы по Outlook 2013 и приведены примеры задач, использующие эти API.
-ms.openlocfilehash: 9c62f4fe6593b0d58e5ab29305292537d289d69d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: В этом разделе описываются четыре API в вспомогательном справочнике по Outlook 2013 и приводятся примеры задач, в которых используются эти API.
+ms.openlocfilehash: c546166c42742fc54ee43eef7d006183b7c8a40e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316858"
 ---
-# <a name="concepts-outlook-auxiliary-reference"></a>Основные понятия (Справочник по Outlook для вспомогательных)
+# <a name="concepts-outlook-auxiliary-reference"></a>Основные понятия (вспомогательная Справка по Outlook)
 
-В этом разделе описаны четыре интерфейсы API в дополнительные справочные материалы по Outlook 2013 и приведены примеры задач, использующие эти API.
+В этом разделе описываются четыре API в вспомогательном справочнике по Outlook 2013 и приводятся примеры задач, в которых используются эти API.
 
 - [Управление учетными записями Outlook](outlook-account-management.md)
     

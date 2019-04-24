@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRef12ToXLRef
 keywords:
-- функция convertxlref12toxlref [excel 2007]
+- Функция ConvertXLRef12ToXLRef [Excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 826428edb57eba9e17d601164aa8b4b797fc8929
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a12052a93d030088feb548449955129ff5bdc0f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311055"
 ---
 # <a name="convertxlref12toxlref"></a>ConvertXLRef12ToXLRef
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Пытается преобразовать **XLREF12** в **XLREF**.
+Пытается преобразовать **XLREF12** в **кслреф**.
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
@@ -32,19 +32,19 @@ BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 
  _pxRef12_ (**LPXLREF12**)
   
-Указатель на структуру источника ссылки.
+Указатель на исходную ссылочную структуру.
   
- _pxRef_ (**LPXLREF**)
+ _пксреф_ (**Лпкслреф**)
   
-Указатель на структуру ссылку конечного, в который преобразованное значение — для размещения.
+Указатель на целевую ссылочную структуру, в которую будет включено преобразованное значение.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **Значение TRUE,** Если преобразование выполнено успешно, **значение FALSE** в противном случае. 
+ **Значение true** , если преобразование выполнено успешно, в противном случае — **значение false** . 
   
 ## <a name="remarks"></a>Замечания
 
-Преобразование из **XLREF12** в **XLREF** не выполняется, если заданный ссылка на части листа Excel 2007, не поддерживаются в более ранних версиях. 
+Преобразование из **XLREF12** в **кслреф** завершается с ошибкой, если предоставленная ссылка относится к части листа Excel 2007, которая не поддерживается в более ранних версиях. 
   
 ## <a name="example"></a>Пример
 

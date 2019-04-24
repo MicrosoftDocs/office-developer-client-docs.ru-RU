@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4664df83-cf81-36d4-189d-4a09be371638
-description: Переменная этого типа данных содержит значение свойства, которое имеет тип данных variant.
-ms.openlocfilehash: c85af4bd4fefffb4fadf671bb7cf5b7f072d5e95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Переменная этого типа данных содержит значение свойства, которое относится к типу данных Variant.
+ms.openlocfilehash: 124cfaef40e63d60e2e9c6681884bfb57a043dde
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316921"
 ---
 # <a name="acctvariant"></a>ACCT_VARIANT
 
-Переменная этого типа данных содержит значение свойства, которое имеет тип данных variant.
+Переменная этого типа данных содержит значение свойства, которое относится к типу данных Variant.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -34,11 +34,11 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
-_dwType_
+_Двтипе_
   
-> Тип variant:
+> Тип варианта:
     
     - PT_LONG
     
@@ -46,16 +46,16 @@ _dwType_
     
     - PT_BINARY
     
-_DW_
+_хранилищ_
   
-> Значение DWORD значение типа variant.
+> Значение Variant типа DWORD.
     
-_pwsz_
+_пвсз_
   
-> Строковое значение типа variant.
+> Строковое значение Variant.
     
-_корзины_
+_bin_
   
-> Двоичное значение типа variant.
+> Двоичное значение Variant.
     
 

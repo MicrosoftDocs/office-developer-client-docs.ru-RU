@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - DIALOGMsgProc
 keywords:
-- функция dialogmsgproc [excel 2007]
+- Функция диалогмсгпрок [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3a69d192babbcf0419850e203f51d8cfd81cdef6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1de1b73f5672067f07518ef3367d77349395a1c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310964"
 ---
 # <a name="dialogmsgproc"></a>DIALOGMsgProc
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Эта процедура связан с помощью собственного диалоговое окно Windows, [fShowDialog](fshowdialog.md) отображает. Она предоставляет службы подпрограммы, вызываемой Windows для событий (сообщений), которые происходят, когда пользователь работает одну из кнопок диалоговое окно "", поля ввода или элементов управления. 
+Эта процедура связана с встроенным диалоговым окном Windows, которое отображается в [фшовдиалог](fshowdialog.md) . Он предоставляет процедуры службы, вызываемые Windows для событий (сообщений), происходящих, когда пользователь работает с одной из кнопок диалогового окна, полей ввода или элементов управления. 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
@@ -30,31 +30,31 @@ BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lP
 
 ## <a name="parameters"></a>Параметры
 
- _hWndDlg_ (**HWND**)
+ _хвнддлг_ (**HWND**)
   
-Содержит маркер HWND Windows диалогового окна.
+Содержит дескриптор окна HWND диалогового окна.
   
- _сообщение_ (**UINT**)
+ _Message (сообщение_ ) (**Uint**)
   
-Ответ на сообщение.
+Сообщение, на которое необходимо ответить.
   
- _wParam_ (**WPARAM**)
+ _wParam_ (**WParam**)
   
- _lParam_ (**LPARAM**)
+ _lParam_ (**LParam**)
   
-Аргументов, передаваемых операционной системой Windows.
+Аргументы, переданные Windows.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **Значение TRUE,** Если сообщение обработано, **значение FALSE,** Если это не так. 
+ **Значение true** , если сообщение обработано, в противном случае — **false** . 
   
 ### <a name="example"></a>Пример
 
-Просмотреть `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции в универсальной библиотеке DLL](functions-in-the-generic-dll.md)
 

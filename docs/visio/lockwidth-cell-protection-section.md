@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockWidth (раздел "Защита")
+title: LockWidth Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - vis_sdr.chm675
 localization_priority: Normal
 ms.assetid: fef022ea-38ab-2b66-60c8-b94a6b0bdfbf
-description: Блокирует ширину фигуры таким образом, чтобы его ширина не изменяется при изменении размеров фигуры.
-ms.openlocfilehash: abdcc0d5285e98e5856524925a41c4f72ee7f6ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует ширину фигуры таким образом, чтобы ее ширина оставалась неизменной при изменении размера фигуры.
+ms.openlocfilehash: 84c89b5f264c00d6fe5f95cb27eae74b91b88dc3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314835"
 ---
-# <a name="lockwidth-cell-protection-section"></a>Ячейка LockWidth (раздел "Защита")
+# <a name="lockwidth-cell-protection-section"></a>LockWidth Cell (Protection Section)
 
-Блокирует ширину фигуры таким образом, чтобы его ширина не изменяется при изменении размеров фигуры.
+Блокирует ширину фигуры таким образом, чтобы ее ширина оставалась неизменной при изменении размера фигуры.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Ширина блокировки.  <br/> |
-| FALSE  <br/> | Ширина не блокируется.  <br/> |
+| TRUE  <br/> | Ширина заблокирована.  <br/> |
+| FALSE  <br/> | Ширина не заблокирована.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Чтобы получить ссылку на ячейку LockWidth по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockWidth по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LockWidth  <br/> |
+| Имя ячейки:  <br/> | LockWidth  <br/> |
    
-Для получения ссылки на ячейки LockWidth по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockWidth по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLock** <br/> |
-| Индекс ячейки:  <br/> |**visLockWidth** <br/> |
+| Индекс строки:  <br/> |**Висровлокк** <br/> |
+| Индекс ячейки:  <br/> |**Вислокквидс** <br/> |
    
 

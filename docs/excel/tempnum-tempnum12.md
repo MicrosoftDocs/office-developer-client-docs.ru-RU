@@ -8,22 +8,22 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- функция tempnum12 [excel 2007], функция TempNum [Excel 2007]
+- Функция tempnum12 [Excel 2007], функция Темпнум [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5ebe58dba32c2cf0382bf0811713eaa0a5471dda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cabd44ab828a2cfe22253e9aaf12abf7b7709d69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807326"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310362"
 ---
 # <a name="tempnumtempnum12"></a>TempNum/TempNum12
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, который создает временные **XLOPER**/ **XLOPER12** , содержащее число лист Microsoft Excel (IEEE double 8 байтов). 
+Функция библиотеки Framework, которая создает временную структуру **XLOPER**/ **** , содержащую номер листа Microsoft Excel (значение Double 8 байт). 
   
 ```cs
 LPXLOPER TempNum(double d);
@@ -32,17 +32,17 @@ LPXLOPER12 TempNum12(double d);
 
 ## <a name="parameters"></a>Параметры
 
- _d_ (**double**)
+ _d_ (**двойной**)
   
-Целевое значение. Обратите внимание, что IEEE вложенных обычных чисел в настоящее время не поддерживается округляются до нуля. Отрицательное infinity поддерживается.
+Предполагаемое значение. Обратите внимание, что в настоящее время в настоящее время не поддерживаются и округляются значения IEEE, которые округляются до нуля. Поддерживается отрицательная бесконечность.
   
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает числовое **xltypeNum** , содержащая значение переданного или ноль, если переданное значение было вложенных обычный. 
+Возвращает числовое значение **кслтипенум** , которое содержит переданное значение или ноль, если переданное значение было вложенным в обычный. 
   
 ## <a name="example"></a>Пример
 
-В этом примере используется функция **TempNum12** для передачи аргумента **xlfGetWorkspace**.
+В этом примере функция **TempNum12** используется для передачи аргумента в **кслфжетворкспаце**.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

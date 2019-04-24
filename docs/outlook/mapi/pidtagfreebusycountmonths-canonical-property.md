@@ -13,52 +13,52 @@ api_type:
 ms.assetid: 278a77f2-65ec-4281-b406-942cc416a476
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 610e9d396442f981b7bcbf126e3086e6885399d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316193"
 ---
 # <a name="pidtagfreebusycountmonths-canonical-property"></a>Каноническое свойство PidTagFreeBusyCountMonths
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение для расчета начальную и конечную даты диапазона данных о доступности для публикации для общих папок.
+Содержит значение для вычисления дат начала и окончания диапазона данных о занятости, публикуемых в общедоступных папках.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
+|Связанные свойства:  <br/> |ПР_ФРИБУСИ_КАУНТ_МОНСС  <br/> |
 |Идентификатор:  <br/> |0x6869  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Сообщение, определенное класс передаваемого  <br/> |
+|Область:  <br/> |Определяемый классом Message передающей  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Значение этого свойства должно быть больше или равно 0 и меньше или равно 36. Это не обязательное свойство.
+Значение этого свойства должно быть больше или равно 0 и меньше или равно 36. Это свойство не является обязательным.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS — ОКСОПФФБ]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
-> Публикует доступности пользователя или ресурса.
+> Публикует доступность пользователя или ресурса.
     
-[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответы.
+> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

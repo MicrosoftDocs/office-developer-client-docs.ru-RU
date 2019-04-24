@@ -1,5 +1,5 @@
 ---
-title: IMsgServiceAdminRenameMsgService
+title: Имсгсервицеадминренамемсгсервице
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: eba0e7f2-03c1-4713-aa36-3d0b398cd197
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a6eba20fb346f53052808abf8fcae8993d423d34
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2f0f1fb94ea36512bbc40df8a4877e89d2613a25
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589562"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309984"
 ---
 # <a name="imsgserviceadminrenamemsgservice"></a>IMsgServiceAdmin::RenameMsgService
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589562"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Рекомендуется использовать. Назначает новое имя службы сообщений. 
+Устаревшие. Назначает новое имя службе сообщений. 
   
 ```cpp
 HRESULT RenameMsgService(
@@ -37,27 +37,27 @@ HRESULT RenameMsgService(
 
 ## <a name="parameters"></a>Параметры
 
- _lpUID_
+ _Лпуид_
   
-> [in] Указатель на структуру [MAPIUID](mapiuid.md) , который содержит уникальный идентификатор для службы сообщений переименовать. 
+> возврата Указатель на структуру [мапиуид](mapiuid.md) , которая содержит уникальный идентификатор для переименования службы сообщений. 
     
  _ulFlags_
   
 > [in] ���������������; ������ ���� ����� ����.
     
- _lpszDisplayName_
+ _Лпсздисплайнаме_
   
-> [in] Указатель на новое имя для службы сообщений.
+> возврата Указатель на новое имя для службы сообщений.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-MAPI_E_NO_SUPPORT 
+МАПИ_Е_НО_СУППОРТ 
   
-> MAPI не поддерживает переименование этой службы сообщений. **RenameMsgService** всегда возвращает значение. 
+> MAPI не поддерживает переименование этой службы сообщений. **Ренамемсгсервице** всегда возвращает это значение. 
     
 ## <a name="remarks"></a>Замечания
 
-Чтобы назначить новое имя службы сообщений, клиенты следует использовать свойство **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) службы сообщений. Имена поставщиков услуг службы сообщений сохраняются в их свойства **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
+Чтобы назначить новое имя службе сообщений, клиенты должны использовать свойство **пр_сервице_наме** ([PidTagServiceName](pidtagservicename-canonical-property.md)) службы сообщений. Имена поставщиков служб в службе сообщений хранятся в своих свойствах **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
   
 ## <a name="see-also"></a>См. также
 

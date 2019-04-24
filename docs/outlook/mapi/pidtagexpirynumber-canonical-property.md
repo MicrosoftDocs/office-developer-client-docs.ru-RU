@@ -13,48 +13,48 @@ api_type:
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: da90347f5aacdb2fcac8547eddd5b89a0a44820d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316368"
 ---
 # <a name="pidtagexpirynumber-canonical-property"></a>Каноническое свойство PidTagExpiryNumber
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет время отправки истечения срока действия в сочетании со свойством **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
+Определяет время отправки с истекшим сроком действия в сочетании со свойством **пр_експири_унитс** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_EXPIRY_NUMBER  <br/> |
+|Связанные свойства:  <br/> |ПР_ЕКСПИРИ_НУМБЕР  <br/> |
 |Идентификатор:  <br/> |0x3FED  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство должен иметь значение от 0 до 999 включительно, если он существует.
+Значение этого свойства должно быть задано в диапазоне от 0 до 999 включительно, если оно присутствует.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщения электронной почты.
+> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
