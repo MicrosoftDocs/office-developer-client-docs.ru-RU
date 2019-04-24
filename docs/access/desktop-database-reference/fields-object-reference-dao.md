@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект поля (DAO)
+title: Ссылка на объект Fields (DAO)
 TOCTitle: Fields Object
 ms:assetid: 2c85ad07-f3b7-471a-954e-7295bd4c13f2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124179(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7515c768f39dc7e9b2665c37f6138389ab955366
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717302"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292505"
 ---
-# <a name="fields-object-reference-dao"></a>Ссылка на объект поля (DAO)
+# <a name="fields-object-reference-dao"></a>Ссылка на объект Fields (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-- [Коллекции полей (DAO)](fields-collection-dao.md)
-- [Члены поля (DAO)](fields-members-dao.md)
-- [Свойства поля (DAO)](fields-properties-dao.md)
-- [Методы полей (DAO)](fields-methods-dao.md)
+- [Коллекция Fields (DAO)](fields-collection-dao.md)
+- [Элементы Fields (DAO)](fields-members-dao.md)
+- [Свойства Fields (DAO)](fields-properties-dao.md)
+- [Методы Fields (DAO)](fields-methods-dao.md)
 

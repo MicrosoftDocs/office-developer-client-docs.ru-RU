@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 488e37f53218a7dabfa6248ea1da7630f82818a6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291471"
 ---
 # <a name="indexnulls-property-example-vb"></a>Пример использования свойства IndexNulls (VB)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется свойство [IndexNulls](indexnulls-property-adox.md) [индекса](index-object-adox.md). Код создает новый индекс и задает значение **IndexNulls** на основе ввода пользователя (из поля со списком с именем List1). Затем **индекс** добавляется **сотрудников** [в таблице](table-object-adox.md) в [каталог](catalog-object-adox.md) *"Борей"* . Новый **индекс** применяется к [набору записей](recordset-object-ado.md) , основанного на таблице **Employees** и открывается **набора записей** . Новая запись добавляется к таблице **Employees** **нулевое** значение в индексированных полей. Отображение этой новой записи зависит от значения свойства **IndexNulls** .
+В этом примере показано свойство [IndexNulls](indexnulls-property-adox.md) [индекса](index-object-adox.md). Код создает новый индекс и задает значение **IndexNulls** на основе входных данных пользователя (из поля списка с именем list1). Затем **индекс** добавляется в [таблицу](table-object-adox.md) Employees в **** [каталоге](catalog-object-adox.md) *Northwind* . Новый **индекс** применяется к [набору записей](recordset-object-ado.md) , основанному на **** таблице Employees, и открывается **набор записей** . В таблицу Employees добавляется новая **** запись со значением **null** в индексированном поле. Отображение этой новой записи зависит от значения свойства **IndexNulls** .
 
 ```vb
     ' IndexNullsVB 

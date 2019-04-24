@@ -1,5 +1,5 @@
 ---
-title: ConnectModeEnum (Справочник по для настольных баз данных Access)
+title: Коннектмодинум (Справочник по базам данных Access на компьютере)
 TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 453d84e687a31f7df5082e17b80fe2a1bda756be
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295697"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает разрешения, доступные для изменения данных в [подключения](connection-object-ado.md), открытие [записи](record-object-ado.md)или указания значения для свойства [режима](mode-property-ado.md) объектов [потока](stream-object-ado.md) и **запись** .
+Указывает доступные разрешения для изменения данных в [подключении](connection-object-ado.md), открытия [записи](record-object-ado.md)или указания значений для свойства [mode](mode-property-ado.md) объектов **Record** и [Stream](stream-object-ado.md) .
 
 <br/>
 
@@ -37,49 +37,49 @@ ms.locfileid: "28708664"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adModeRead</strong></p></td>
-<td><p>1</p></td>
-<td><p>Указывает разрешения только для чтения.</p></td>
+<td><p><strong>Адмодереад</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Указывает разрешения только на чтение.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adModeReadWrite</strong></p></td>
-<td><p>3</p></td>
+<td><p><strong>Адмодереадврите</strong></p></td>
+<td><p>4</p></td>
 <td><p>Указывает разрешения на чтение и запись.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adModeRecursive</strong></p></td>
+<td><p><strong>Адмодерекурсиве</strong></p></td>
 <td><p>0x400000</p></td>
-<td><p>Используется в сочетании с другими <em>*ShareDeny*</em> значения (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>или <strong>adModeShareDenyRead</strong>) для распространения ограничения общего доступа ко всем дочерним записям текущей <strong>записи</strong>. Он не оказывает воздействия, если <strong>запись</strong> не имеет дочерние элементы.</p><p>При использовании с <strong>adModeShareDenyNone</strong> только создается ошибку времени выполнения. Тем не менее его можно использовать с <strong>adModeShareDenyNone</strong> в сочетании с другими значениями. Например, можно использовать &quot; <strong>adModeRead</strong> или <strong>adModeShareDenyNone</strong> или <strong>adModeRecursive</strong>&quot;.</p></td>
+<td><p>Используется совместно с другими значениями <em>*шаредени*</em> (<strong>адмодешаредениноне</strong>, <strong>адмодешаредениврите</strong>или <strong>адмодешаредениреад</strong>) для распространения ограничений общего доступа ко всем вложенным записям текущей <strong>записи</strong>. Он не оказывает влияния, если у <strong>записи</strong> нет дочерних элементов.</p><p>Ошибка во время выполнения создается, если она используется только с <strong>адмодешаредениноне</strong> . Однако его можно использовать с <strong>адмодешаредениноне</strong> в сочетании с другими значениями. Например, можно использовать &quot; <strong>адмодереад</strong> или <strong>адмодешаредениноне</strong> или <strong>адмодерекурсиве</strong>&quot;.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adModeShareDenyNone</strong></p></td>
-<td><p>16</p></td>
-<td><p>Позволяет другим пользователям открывать соединение с другими разрешениями. Доступ на запись ни чтения можно запретить другим пользователям.</p></td>
+<td><p><strong>Адмодешаредениноне</strong></p></td>
+<td><p>столбцов</p></td>
+<td><p>Позволяет другим пользователям открывать подключение с любыми разрешениями. Ни доступ для чтения, ни доступ для записи не могут быть запрещены для других пользователей.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adModeShareDenyRead</strong></p></td>
-<td><p>4</p></td>
-<td><p>Запрет другим пользователям открывать соединение с разрешениями на чтение.</p></td>
+<td><p><strong>Адмодешаредениреад</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Запрещает другим пользователям открывать подключение с разрешениями на чтение.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adModeShareDenyWrite</strong></p></td>
-<td><p>8</p></td>
-<td><p>Запрет другим пользователям открывать соединение с разрешениями на запись.</p></td>
+<td><p><strong>Адмодешаредениврите</strong></p></td>
+<td><p>8,5</p></td>
+<td><p>Запрещает другим пользователям открывать подключение с разрешениями на запись.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adModeShareExclusive</strong></p></td>
+<td><p><strong>Адмодешариксклусиве</strong></p></td>
 <td><p>12</p></td>
-<td><p>Запрет другим пользователям открывать подключения.</p></td>
+<td><p>Запрещает другим пользователям открывать подключение.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adModeUnknown</strong></p></td>
-<td><p>0</p></td>
-<td><p>Значение, используемое по умолчанию. Показывает, что разрешения еще не были настроены или не может быть определен.</p></td>
+<td><p><strong>Адмодеункновн</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Значение, используемое по умолчанию. Указывает, что разрешения еще не установлены или не могут быть определены.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adModeWrite</strong></p></td>
+<td><p><strong>Адмодеврите</strong></p></td>
 <td><p>2</p></td>
-<td><p>Указывает разрешения только для записи.</p></td>
+<td><p>Указывает разрешения только на запись.</p></td>
 </tr>
 </tbody>
 </table>
@@ -87,7 +87,7 @@ ms.locfileid: "28708664"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -100,31 +100,31 @@ ms.locfileid: "28708664"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ConnectMode.READ</p></td>
+<td><p>Адоенумс. Коннектмоде. READ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectMode.READWRITE</p></td>
+<td><p>Адоенумс. Коннектмоде. READWRITE</p></td>
 </tr>
 <tr class="odd">
-<td><p>(Нет эквивалента AdoEnums.ConnectMode.RECURSIVE)</p></td>
+<td><p>(Нет эквивалента Адоенумс. Коннектмоде. recursive)</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectMode.SHAREDENYNONE</p></td>
+<td><p>Адоенумс. Коннектмоде. ШАРЕДЕНИНОНЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ConnectMode.SHAREDENYREAD</p></td>
+<td><p>Адоенумс. Коннектмоде. ШАРЕДЕНИРЕАД</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectMode.SHAREDENYWRITE</p></td>
+<td><p>Адоенумс. Коннектмоде. ШАРЕДЕНИВРИТЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ConnectMode.SHAREEXCLUSIVE</p></td>
+<td><p>Адоенумс. Коннектмоде. ШАРИКСКЛУСИВЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectMode.UNKNOWN</p></td>
+<td><p>Адоенумс. Коннектмоде. UNKNOWN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ConnectMode.WRITE</p></td>
+<td><p>Адоенумс. Коннектмоде. WRITE</p></td>
 </tr>
 </tbody>
 </table>

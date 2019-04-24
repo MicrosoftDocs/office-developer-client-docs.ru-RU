@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9cf773090ccb37bf4cad4aff41499ad01f966479
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293254"
 ---
 # <a name="executeoptions-property-rds"></a>Свойство ExecuteOptions (RDS)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, включена ли асинхронное выполнение.
+Указывает, включено ли асинхронное выполнение.
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
@@ -38,24 +38,24 @@ ms.locfileid: "28699823"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adcExecSync</strong></p></td>
-<td><p>Синхронно выполняет следующего обновления <a href="recordset-object-ado.md">набора записей</a> .</p></td>
+<td><p><strong>Адцексексинк</strong></p></td>
+<td><p>Выполняет следующее обновление <a href="recordset-object-ado.md">набора записей</a> в синхронном режиме.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adcExecAsync</strong></p></td>
-<td><p>Значение, используемое по умолчанию. Асинхронно выполняет следующего обновления <strong>набора записей</strong> .</p></td>
+<td><p><strong>Адцексекасинк</strong></p></td>
+<td><p>Значение, используемое по умолчанию. Асинхронно выполняет следующее обновление объекта <strong>Recordset</strong> .</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Каждый исполняемый файл со стороны клиента, который использует эти константы необходимо предоставить объявления для них. Можно вырежьте и вставьте объявлений констант, которые будут из файла Adcvbs.inc, находящийся в папке C:\Program Files\Common Files\System\MSADC.
+> Каждый исполняемый файл на стороне клиента, использующий эти константы, должен предоставлять объявления для них. Вы можете вырезать и вставить объявления констант из файла Адквбс. Inc, расположенного в папке C:\Program Files\Common Филес\систем\мсадк.
 
 ## <a name="remarks"></a>Замечания
 
-Если **ExecuteOptions** **adcExecAsync**, затем это асинхронно выполняет следующий вызов **обновления** на [RDS. DataControl](datacontrol-object-rds.md) объекта **набора записей**.
+Если для **ExecuteOptions** задано значение **адцексекасинк**, асинхронно выполняется следующий вызов **обновления** в [RDS. ](datacontrol-object-rds.md) **Набор записей**объекта DataObject.
 
-При попытке вызова [Сброс](reset-method-rds.md), [обновление](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md)или [набора записей](recordset-sourcerecordset-properties-rds.md) при другой асинхронной операции, который может изменяться [RDS. DataControl](datacontrol-object-rds.md) объекта **набора записей** выполняется, возникает ошибка.
+Если вы попытаетесь вызвать [Reset](reset-method-rds.md), [Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md)или [Recordset](recordset-sourcerecordset-properties-rds.md) , в то время как другая асинхронная операция, которая может изменить [RDS. ](datacontrol-object-rds.md)Выполняется **набор записей** объекта DataObject, возникает ошибка.
 
-При возникновении ошибки во время выполнения асинхронной операции, **RDS. DataControl** значения [ReadyState](readystate-property-rds.md) объекта изменяется с **adcReadyStateLoaded** на **adcReadyStateComplete**и *ничего не*остается значение свойства **набора записей** .
+Если во время асинхронной операции возникает ошибка, то **RDS. **Изменение значения свойства [ReadyState](readystate-property-rds.md) объекта **адкреадистателоадед** на **Адкреадистатекомплете**, а значение свойства **Recordset** *не*остается.
 

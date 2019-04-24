@@ -1,5 +1,5 @@
 ---
-title: Поле2 object (DAO)
+title: Объект field2 (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
@@ -8,47 +8,47 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88c8b7ff347235bbdc29745e9f5383933d3d1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292764"
 ---
-# <a name="field2-object-dao"></a>Поле2 object (DAO)
+# <a name="field2-object-dao"></a>Объект field2 (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объект **поле2** представляет столбец данных с типом данных и общий набор свойств.
+Объект **field2** представляет столбец данных с общим типом данных и общим набором свойств.
 
 ## <a name="remarks"></a>Замечания
 
-Объект **поле2** — содержит все же свойства и методы объекта **[поля](field-object-dao.md)** . Объект **поле2** содержит несколько новых свойств и методов, которые поддерживают типы полей, поддерживающий несколько значений. Новые свойства и методы являются:
+Объект **field2** содержит все те же свойства и методы, что и объект **[field](field-object-dao.md)** . Объект **field2** содержит несколько новых свойств и методов, поддерживающих многозначные типы полей. Новые свойства и методы:
 
-- Свойство **[AppendOnly](field2-appendonly-property-dao.md)**
+- Свойство **[аппендонли](field2-appendonly-property-dao.md)**
 
-- Свойство **[ComplexType](field2-complextype-property-dao.md)**
+- Свойство **[complexType](field2-complextype-property-dao.md)**
 
-- Свойство **[IsComplex](field2-iscomplex-property-dao.md)**
+- Свойство **[Complex](field2-iscomplex-property-dao.md)**
 
 - Метод **[LoadFromFile](field2-loadfromfile-method-dao.md)**
 
 - Метод **[SaveToFile](field2-savetofile-method-dao.md)**
 
-Для ссылки на объект **поле2** в семействе сайтов, с его порядковый номер или **его свойства Name** , используйте любой из следующих форм синтаксиса:
+Чтобы сослаться на объект **field2** в коллекции по его порядковому номеру или по значению свойства **Name** , используйте любую из следующих синтаксических форм:
 
-**Поля** (0)
+**Fields (поля** ) нуль
 
-**Поля** («имя»)
+**Fields (поля** ) ("имя")
 
-**Поля**\!\[имя\]
+**Имя поля**\!\[\]
 
-С помощью одной синтаксиса форм можно найти в свойство **Value** объекта **поле2** , добавляемых к коллекции **полей** . Контекст ссылку на поле определяет, будет ли вы ссылаетесь на объект **поле2** или свойство **Value** объекта **Field** .
+Используя те же формы синтаксиса, вы также можете ссылаться на свойство **value** объекта **field2** , который вы создаете и добавляете в коллекцию **Fields** . Контекст ссылки на поле определяет, будет ли ссылка на объект **field2** или свойство **value** объекта **field** .
 
 ## <a name="example"></a>Пример
 
-Следующем примере показано, как переходить набор записей с несколькими значениями полей.
+В примере ниже показано, как выполнять навигацию по объекту Recordset, содержащему многозначное поле.
 
-**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ ms.locfileid: "28713144"
 
 <br/>
 
-Следующем примере показано, как для перемещения файлов в поле вложения. Тип файла и имя файла для каждого вложения печать в окне Интерпретация.
+В примере ниже показано, как выполнять навигацию по файлам в поле вложения. Код из этого примера печатает тип и имя файла каждого вложения в окне интерпретации.
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ ms.locfileid: "28713144"
 
 <br/>
 
-Следующем примере показано, как добавить файлы из указанной папки путь полем вложения.
+В примере ниже показано, как добавить файлы из папки с указанным путем в поле вложений.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ ms.locfileid: "28713144"
 
 <br/>
 
-Следующем примере показано, как для сохранения файлов, сохраненных в поля вложения для указанной папки.
+В примере ниже показано, как сохранить файлы, хранящиеся в поле вложения, в папку с указанным путем.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ ms.locfileid: "28713144"
 
 <br/>
 
-Следующем примере показано, как для удаления файлов, хранящихся в поле вложения.
+В примере ниже показано, как удалить файл, хранящийся в поле вложения.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

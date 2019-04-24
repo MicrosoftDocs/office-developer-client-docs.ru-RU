@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.DataUpdatable (DAO)
+title: Свойство field2. доПускает обновление (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: e6619c4e-26b1-777b-f0de-78fed3dbc890
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835966(v=office.15)
@@ -8,35 +8,35 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88a57ff2daeaaaab202daad55f01eebc6bdf86dd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292841"
 ---
-# <a name="field2dataupdatable-property-dao"></a>Свойство Field2.DataUpdatable (DAO)
+# <a name="field2dataupdatable-property-dao"></a>Свойство field2. доПускает обновление (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 
-Возвращает значение, указывающее, является ли данные в поля, представленного объектом **поле2** обновляемым.
+Возвращает значение, которое указывает, является ли данные в поле, представленном объектом **field2** , обновляемым.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . DataUpdatable
+*Expression* . Обновляемые с возможностью обновления
 
-*выражение* Переменная, которая представляет собой объект- **поле2** .
+*expression* — переменная, представляющая объект **Field2**.
 
 ## <a name="remarks"></a>Замечания
 
-Это свойство можно используйте для определения, можно ли изменить параметр свойства **[Value](field-value-property-dao.md)** объекта **поле2** . Это свойство всегда имеет **значение False** для объекта **поле2** , для свойства **[атрибуты](field-attributes-property-dao.md)** — это **dbAutoIncrField**.
+Используйте это свойство, чтобы определить, можно ли изменить значение свойства **[value](field-value-property-dao.md)** объекта **field2** . Это свойство всегда имеет **значение false** для объекта **field2** , свойство **[Attributes](field-attributes-property-dao.md)** которого равно **дбаутоинкрфиелд**.
 
-Можно использовать свойство **DataUpdatable** **поле2** объектов, которые присоединяются к коллекции **[полей](fields-collection-dao.md)** **[QueryDef](querydef-object-dao.md)**, **[записей](recordset-object-dao.md)** и **[отношения](relation-object-dao.md)** объектов, но не коллекции **полей** **[ Индекс](index-object-dao.md)** объектов **[TableDef](tabledef-object-dao.md)** или.
+Можно использовать свойство с **возможностью обновления** для объектов **field2** , добавленных в коллекцию Fields объектов **[](fields-collection-dao.md)** **[QueryDef](querydef-object-dao.md)**, **[Recordset](recordset-object-dao.md)** и **[relation](relation-object-dao.md)** , но не коллекцию **Fields** объекта **[ Объекты index](index-object-dao.md)** или **[tabledef](tabledef-object-dao.md)** .
 
 ## <a name="example"></a>Пример
 
-В этом примере свойства **DataUpdatable** , с помощью первого поля из шести различных **наборов записей**. Функция DataOutput является обязательным для выполнения этой процедуры.
+В этом примере показано свойство с **возможностью обновления** данных, использующее первое поле из шести разных **наборов записей**. Для выполнения этой процедуры требуется функция Output.
 
 ```vb 
 Sub DataUpdatableX() 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: daecca6a8d2997fefdca4736cc8325733a2b9188
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292302"
 ---
 # <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a>Пример использования методов GetObjectOwner и SetObjectOwner (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показаны методы [GetObjectOwner](getobjectowner-method-adox.md) и [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) . В этом коде предполагается наличие группы Accounting (Ознакомьтесь со [групп и добавление пользователей, пример: методы изменение пароля (VB)](groups-and-users-append-changepassword-methods-example-vb.md) и узнайте, как добавить эту группу в систему). Владелец таблицы категорий присвоено значение бухгалтерского учета.
+В этом примере демонстрируются методы [GetObjectOwner](getobjectowner-method-adox.md) и [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) . В этом коде предполагается наличие учетной записи группы (например, в [примере "группы" и "Пользователи", "методы ChangePassword" (VB),](groups-and-users-append-changepassword-methods-example-vb.md) чтобы узнать, как добавить эту группу в систему). Владелец таблицы категории имеет значение Accounting.
 
 ```vb 
  

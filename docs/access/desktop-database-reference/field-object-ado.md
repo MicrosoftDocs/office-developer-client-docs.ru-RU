@@ -1,5 +1,5 @@
 ---
-title: Поле объекта - ActiveX Data Objects (ADO)
+title: Объект Field — объекты данных ActiveX (ADO)
 TOCTitle: Field object (ADO)
 ms:assetid: 1dbd535e-48ad-a5c8-a1b2-6776c1e3e19d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248968(v=office.15)
@@ -8,40 +8,40 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a2bf17029a706ad6902a8a01a14e73183f94d7a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293058"
 ---
 # <a name="field-object-ado"></a>Объект Field (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Представляет столбец данных с типом данных.
+Представляет столбец данных с общим типом данных.
 
 ## <a name="remarks"></a>Замечания
 
-Каждый объект **поля** соответствует столбца в [набора записей](recordset-object-ado.md). Задает или возвращает данные для текущей записи используйте свойство [Value](value-property-ado.md) объектов **полей** . В зависимости от функциональности предоставляет поставщик, некоторые коллекции методов, или свойства объекта **поля** могут быть недоступны.
+Каждый объект **field** соответствует столбцу в наборе [записей](recordset-object-ado.md). Свойство [value](value-property-ado.md) объекта **field** используется для задания или возвращения данных для текущей записи. В зависимости от функциональных возможностей, предоставляемых поставщиком, некоторые коллекции, методы или свойства объекта **field** могут быть недоступны.
 
-С помощью семейства сайтов, методы и свойства объекта **поля** сделайте следующее:
+В коллекциях, методах и свойствах объекта **field** можно выполнить следующие действия:
 
-  - Возвращает имя поля с помощью свойства [Name](name-property-ado.md) .
+  - Возвращает имя поля со свойством [Name](name-property-ado.md) .
 
-  - Просмотр или изменение данных в поле с помощью свойства **Value** . **Значение** является свойством по умолчанию объекта **поля** .
+  - Просмотрите или измените данные в поле со свойством **value** . **Value** является свойством по умолчанию объекта **field** .
 
-  - Возвращает основные характеристики поля со свойствами [типа](type-property-ado.md), [точность](precision-property-ado.md)и [NumericScale](numericscale-property-ado.md) .
+  - Возвращает основные характеристики поля с помощью свойств [Type](type-property-ado.md), [Precision](precision-property-ado.md)и [NumericScale](numericscale-property-ado.md) .
 
-  - Возвращает объявленные размер поля со свойством [DefinedSize](definedsize-property-ado.md) .
+  - Возврат объявленного размера поля с помощью свойства [DefinedSize](definedsize-property-ado.md) .
 
-  - В этом поле со свойством [ActualSize](actualsize-property-ado.md) возвращает фактический размер данных.
+  - Возвращает фактический размер данных в заданном поле с помощью свойства [ActualSize](actualsize-property-ado.md) .
 
-  - Определите, какие функциональные возможности поддерживаются для данного поля со свойством [атрибуты](attributes-property-ado.md) и [Свойства](properties-collection-ado.md) коллекции.
+  - Определите, какие типы функциональных возможностей поддерживаются для данного поля с помощью [](attributes-property-ado.md) свойства Attributes и коллекции [свойств](properties-collection-ado.md) .
 
-  - Работа с элементами управления значения полей, содержащие данные длинный двоичные или много символов с помощью методов [AppendChunk](appendchunk-method-ado.md) и [GetChunk](getchunk-method-ado.md) .
+  - Управлять значениями полей с длинными двоичными или длинными символьными данными с помощью [](getchunk-method-ado.md) методов [AppendChunk и](appendchunk-method-ado.md) .
 
-  - Если поставщик поддерживает пакетные обновления, разрешения несоответствий в значения полей во время обновление пакета с помощью свойства [OriginalValue](originalvalue-property-ado.md) и [UnderlyingValue](underlyingvalue-property-ado.md) .
+  - Если поставщик поддерживает пакетные обновления, разрешите несоответствия в значениях полей во время пакетного обновления с помощью свойств [originalValue](originalvalue-property-ado.md) и [UnderlyingValue](underlyingvalue-property-ado.md) .
 
-Все свойства метаданных (**имя**, **Тип**, **DefinedSize**, **точности**и **NumericScale**) доступны перед открытием объекта **поля** **набора записей**. Задание их в это время полезно для динамического создания форм.
+Все свойства метаданных (**Name**, **Type**, **DefinedSize**, **Precision**и **NumericScale**) доступны до открытия **набора записей**объекта **поля** . Их настройка в это время полезна для динамического создания форм.
 

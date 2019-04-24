@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 993209478d18d013771de8239d8e8cd10efc5da2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292491"
 ---
 # <a name="filter-and-recordcount-properties-example-jscript"></a>Пример использования свойств Filter и RecordCount (JScript)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере открывается **набор записей** в таблице компании базы данных Northwind и использует свойство [фильтра](filter-property-ado.md) для ограничения записей видимым для тех, где поле CompanyName начинается с буквой D. вырезания и вставьте следующий код в "Блокнот" или другом текстовом редакторе и сохраните файл с именем **FilterJS.asp**.
+В этом примере открывается объект **Recordset** в таблице "компании" базы данных "Борей", а затем используется свойство [Filter](filter-property-ado.md) , чтобы ограничить отображаемые записи теми записями, в которых поле CompanyName начинается с буквы "D". Скопируйте и вставьте следующий код в блокнот или в другом текстовом редакторе, и сохраните его как **филтержс. ASP**.
 

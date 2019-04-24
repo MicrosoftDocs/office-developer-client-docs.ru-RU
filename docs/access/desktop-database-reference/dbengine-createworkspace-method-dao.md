@@ -1,5 +1,5 @@
 ---
-title: Метод DBEngine.CreateWorkspace (DAO)
+title: Метод DBEngine. CreateWorkspace (DAO)
 TOCTitle: CreateWorkspace Method
 ms:assetid: a7d73771-9420-0448-99e6-d6c4aa78683a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821374(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9cd84b6b5441edda2042ce0a63ae25b2cf399bd2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699886"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294352"
 ---
-# <a name="dbenginecreateworkspace-method-dao"></a>Метод DBEngine.CreateWorkspace (DAO)
+# <a name="dbenginecreateworkspace-method-dao"></a>Метод DBEngine. CreateWorkspace (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Создает новый объект **[рабочей области](workspace-object-dao.md)** .
+Создает новый объект **[Workspace](workspace-object-dao.md)** .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CreateWorkspace (***имя***, ***имя пользователя***, ***пароль***, ***UseType***)
+*Expression* . CreateWorkspace (***имя***, ***имя пользователя***, ***пароль***, ***усетипе***)
 
-*выражение* Переменная, которая представляет собой объект- **DBEngine** .
+*Expression (выражение* ) Переменная, представляющая объект **DBEngine** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,7 +42,7 @@ ms.locfileid: "28699886"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -52,28 +52,28 @@ ms.locfileid: "28699886"
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p><strong>Строка</strong> , уникальным образом новый объект <strong>рабочей области</strong> . Свойство <strong><a href="connection-name-property-dao.md">Name</a></strong> для получения дополнительных сведений см допустимые имена <strong>рабочей области</strong> .</p></td>
+<td><p><strong>Строка</strong> , которая уникальным образом присваивает новый объект <strong>Workspace</strong> . Сведения о допустимых именах <strong>рабочих областей</strong> приведены в свойстве <strong><a href="connection-name-property-dao.md">Name</a></strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><em>UserName</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p><strong>Строка</strong> , идентифицирующая владелец новый объект <strong>рабочей области</strong> . Свойству <strong>имя пользователя</strong> для получения дополнительных сведений см.</p></td>
+<td><p><strong>Строка</strong> , определяющая владельца нового объекта <strong>Workspace</strong> . Для получения дополнительных сведений ознакомьтесь со статьей свойство <strong>username</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Password</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p><strong>Строка</strong> , содержащая пароль для нового объекта <strong>рабочей области</strong> . Пароль может иметь длину до 20 символов и может содержать все символы, за исключением символа ASCII 0 (null).</p>
-<p><strong>Примечание</strong>: используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p>
+<td><p><strong>Строка</strong> , содержащая пароль для нового объекта <strong>Workspace</strong> . Пароль может содержать до 20 символов и может содержать любые символы, кроме символов ASCII (null).</p>
+<p><strong>Note</strong>: Используйте надежные пароли, объединяющие прописные и строчные буквы, цифры и символы. В слабых паролях эти элементы не комбинируются. Надежный пароль: Y6dh!et5. Слабый пароль: House27. Используйте надежный пароль, который можно запомнить, чтобы не записывать его.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p><em>UseType</em></p></td>
+<td><p><em>Усетипе</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Одно из значений <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
-<p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
+<td><p>Одно из значений <strong><a href="workspacetypeenum-enumeration-dao.md">воркспацетипинум</a></strong> .</p>
+<p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
 </td>
 </tr>
 </tbody>
@@ -86,17 +86,17 @@ Workspace
 
 ## <a name="remarks"></a>Замечания
 
-После использовать метод **CreateWorkspace** для создания нового объекта **рабочей области** , запуске сеанса **рабочей области** и может ссылаться на объект **рабочей области** в приложении.
+Когда вы используете метод **CreateWorkspace** , чтобы создать новый объект **Workspace** , запускается сеанс **рабочей области** , и вы можете ссылаться на объект **Workspace** в своем приложении.
 
-**Рабочая область для** объектов, не сохраняются и не могут сохранять их на диск. После создания **рабочей области для** объекта невозможно изменить любые параметры его свойства, за исключением **имени** свойства, которое можно изменить перед добавлением объекта **рабочей области** для семейства сайтов **[рабочих областей](workspaces-collection-dao.md)** .
+Объекты **рабочей области** не являются постоянными и не могут быть сохранены на диске. После создания объекта **Workspace** невозможно изменить какие-либо параметры его свойств, кроме свойства **Name** , которое можно изменить перед добавлением объекта **Workspace** в коллекцию **[workspaces](workspaces-collection-dao.md)** .
 
-Добавьте новый объект **рабочей области** в семейство сайтов, прежде чем использовать его не нужно. Можно добавить только что созданный объект **рабочей области** только в том случае, если необходимо сослаться на него через коллекцию **рабочих областей** .
+Не нужно добавлять новый объект **Workspace** в коллекцию, прежде чем его можно будет использовать. Только что созданный объект **Workspace** добавляется только в том случае, если необходимо сослаться на него через коллекцию **workspaces** .
 
-Чтобы удалить объект **рабочей области** из коллекции **рабочих областей** , закройте все открытые баз данных и подключения к и затем использовать метод **[Close](connection-close-method-dao.md)** объекта **рабочей области** .
+Чтобы удалить объект **Workspace** из коллекции **workspaces** , закройте все открытые базы данных и подключения, а затем используйте метод **[Close](connection-close-method-dao.md)** для объекта **Workspace** .
 
 ## <a name="example"></a>Пример
 
-В этом примере используется метод **CreateWorkspace** в рабочей области для доступа к createMicrosoft. Затем список свойств рабочей области.
+В этом примере используется метод **CreateWorkspace** для рабочей области Креатемикрософт доступа к данным. Затем выводится список свойств рабочей области.
 
 ```vb 
 Sub CreateWorkspaceX() 

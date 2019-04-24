@@ -12,11 +12,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c3424fd4b85108120ea4accc2dfa65d55394f0d2
-ms.sourcegitcommit: e59070b67358b3700ca677149a849768c144c1a3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31518133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291437"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Инициализация драйвера Microsoft Excel
 
@@ -147,7 +147,7 @@ ms.locfileid: "31518133"
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Использование параметра Типегуессровс для драйвера Excel
 При использовании драйвера Microsoft Excel можно указать количество строк, проверяемых для типа данных, с помощью значения реестра **типегуессровс** . Значение **типегуессровс** находится в следующем подразделе реестра:
 
-# [<a name="office-2016"></a>Office 2016](#tab/office-2016)
+# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
 
 Для установки пакета Office для MSI
 
@@ -181,7 +181,7 @@ ms.locfileid: "31518133"
 
 Если обнаружены данные, которые не совпадают с предполагаемым типом данных для столбца, эти данные возвращаются в виде значения **null** . При импорте, если столбец содержит смешанные типы данных, столбец целиком приводится к типу данных, заданному параметром **импортмикседтипес** .
 
-# [<a name="office-2013"></a>Office 2013](#tab/office-2013)
+# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
 
 Для 32 — разрядная версия Office в 32 — разрядная версия Windows или 64 — разрядная версия для Windows:
 
@@ -203,7 +203,7 @@ ms.locfileid: "31518133"
 
 Если обнаружены данные, которые не совпадают с предполагаемым типом данных для столбца, эти данные возвращаются в виде значения **null** . При импорте, если столбец содержит смешанные типы данных, столбец целиком приводится к типу данных, заданному параметром **импортмикседтипес** .
 
-# [<a name="office-2010"></a>Office 2010](#tab/office-2010)
+# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
 
 Для 32 — разрядная версия Office в 32 — разрядная версия Windows или 64 — разрядная версия для Windows:
 

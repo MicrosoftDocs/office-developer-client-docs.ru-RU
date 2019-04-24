@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 895f29a5dd3e7ed267b96d6a46dc2c8710b4998e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291798"
 ---
 # <a name="index-members-dao"></a>Элементы индекса (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объекты индекса указать порядок записей, доступного из таблицы базы данных и принимаются ли повторяющихся записей, предоставляя эффективного доступа к данным. Для внешних баз данных объекты индекса описывают индексов, установленных для внешних таблиц (только для рабочих областей Microsoft Access).
+Объект index указывает порядок записей, доступ к которым осуществляется из таблиц базы данных, а также сведения о том, принимаются ли повторяющиеся записи, что обеспечивает эффективный доступ к данным. Для внешних баз данных объекты index описывают индексы, установленные для внешних таблиц (только для рабочих областей Microsoft Access).
 
 ## <a name="methods"></a>Методы
 
@@ -37,11 +37,11 @@ ms.locfileid: "28709161"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="index-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="field-object-dao.md">поля</a></strong> (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Создает новый объект <strong><a href="field-object-dao.md">field</a></strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Создание пользовательских <strong><a href="property-object-dao.md">свойств</a></strong> объекта (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Создает новый объект определяемого пользователем <strong><a href="property-object-dao.md">Свойства</a></strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,44 +62,44 @@ ms.locfileid: "28709161"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="index-clustered-property-dao.md">Кластерные</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее, представляет ли объект <strong>индекса</strong> кластеризованных индекса для таблицы (только для рабочих областей Microsoft Access). Для чтения и записи, <strong>Boolean</strong>.</p></td>
+<td><p><strong><a href="index-clustered-property-dao.md">Сгруппирован</a></strong></p></td>
+<td><p>Задает или возвращает значение, которое указывает, представляет ли объект <strong>index</strong> кластеризованный индекс для таблицы (только для рабочих областей Microsoft Access). Для чтения и записи, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-distinctcount-property-dao.md">Число различных значений</a></strong></p></td>
-<td><p>Возвращает значение, указывающее количество уникальных значений для объекта <strong><a href="index-object-dao.md">индекса</a></strong> , содержащихся в связанной таблице (только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="index-distinctcount-property-dao.md">Дистинкткаунт</a></strong></p></td>
+<td><p>Возвращает значение, которое указывает количество уникальных значений для объекта <strong><a href="index-object-dao.md">index</a></strong> , включенных в связанную таблицу (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-fields-property-dao.md">Поля</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>полей</strong> , представляющую все хранятся объекты <strong>поля</strong> для указанного объекта. Для чтения и записи.</p></td>
+<td><p><strong><a href="index-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p>Возвращает коллекцию <strong>Fields</strong>, которая представляет все объекты <strong>Field</strong> для указанного объекта. Для чтения и записи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-foreign-property-dao.md">Внешний</a></strong></p></td>
-<td><p>Возвращает значение, указывающее, представляет ли объект <strong><a href="index-object-dao.md">индекса</a></strong> внешний ключ в таблице (только для рабочих областей Microsoft Access). .</p></td>
+<td><p><strong><a href="index-foreign-property-dao.md">Правительства</a></strong></p></td>
+<td><p>Возвращает значение, которое указывает, представляет ли объект <strong><a href="index-object-dao.md">index</a></strong> внешний ключ в таблице (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-ignorenulls-property-dao.md">IgnoreNulls</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее, имеют ли записи, для которых значения Null в полях индекса записи индекса (только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="index-ignorenulls-property-dao.md">Игноренуллс</a></strong></p></td>
+<td><p>Задает или возвращает значение, которое указывает, имеют ли записи индекса значения NULL в полях индекса (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Возвращает или задает имя указанного объекта. Чтение и запись <strong>строки</strong> Если объект не были добавлены в коллекцию. Только для чтения <strong>строка</strong> Если объект были добавлены в коллекцию.</p></td>
+<td><p>Возвращает или задает имя указанного объекта. <strong>Строка</strong> для чтения и записи, если объект не был добавлен в коллекцию. <strong>Строка</strong> , доступная только для чтения, если объект добавлен в коллекцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-primary-property-dao.md">Основной</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее, представляет ли объект <strong><a href="index-object-dao.md">индекса</a></strong> индекс первичного ключа для таблицы (только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="index-primary-property-dao.md">Primary</a></strong></p></td>
+<td><p>Задает или возвращает значение, которое указывает, представляет ли объект <strong><a href="index-object-dao.md">индекса</a></strong> первичный индекс ключа для таблицы (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-properties-property-dao.md">Свойства</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
+<td><p><strong><a href="index-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-required-property-dao.md">Обязательный</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое указывает, требуется ли объект <strong><a href="field-object-dao.md">поля</a></strong> ненулевое значение.</p></td>
+<td><p><strong><a href="index-required-property-dao.md">Обязательно</a></strong></p></td>
+<td><p>Задает или возвращает значение, которое указывает, требуется ли для объекта <strong><a href="field-object-dao.md">field</a></strong> значение, отличное от NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-unique-property-dao.md">Уникальный</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее, представляет ли объект <strong><a href="index-object-dao.md">индекса</a></strong> уникальный индекс (основные) для таблицы (только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="index-unique-property-dao.md">Уникальные</a></strong></p></td>
+<td><p>Задает или возвращает значение, указывающее, представляет ли объект <strong><a href="index-object-dao.md">индекса</a></strong> уникальный (ключ) индекс для таблицы (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>

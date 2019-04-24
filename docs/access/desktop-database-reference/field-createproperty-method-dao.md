@@ -1,5 +1,5 @@
 ---
-title: Метод Field.CreateProperty (DAO)
+title: Метод Field. CreateProperty (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: b3c1d303-7cab-89c3-8e90-f18a0445d304
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822050(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b9a88dce09798fa05aa602799f18a22e28d39c53
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293142"
 ---
-# <a name="fieldcreateproperty-method-dao"></a>Метод Field.CreateProperty (DAO)
+# <a name="fieldcreateproperty-method-dao"></a>Метод Field. CreateProperty (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Создание пользовательских **[свойств](property-object-dao.md)** объекта (только для рабочих областей Microsoft Access).
+Создает новый объект определяемого пользователем **[Свойства](property-object-dao.md)** (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CreateProperty (***имя***, ***Тип***, ***значение***, ***DDL***)
+*Expression* . CreateProperty (***имя***, ***Тип***, ***значение***, ***DDL***)
 
-*выражение* Переменная, которая представляет собой объект- **поля** .
+*выражение*: переменная, представляющая объект **Field**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -39,7 +39,7 @@ ms.locfileid: "28726220"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -49,25 +49,25 @@ ms.locfileid: "28726220"
 <td><p><em>Name</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Строка</strong> , уникальным образом новый объект <strong>свойство</strong> . Свойство <strong>Name</strong> для получения дополнительных сведений см на допустимый имена <strong>свойств</strong> .</p></td>
+<td><p><strong>Строка</strong> , которая уникально названа нового объекта <strong>Property</strong> . Сведения о допустимых именах <strong>свойств</strong> приведены в свойстве <strong>Name</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа, которая определяет тип данных нового <strong>Свойства</strong> объекта. В разделе свойства <strong><a href="field-type-property-dao.md">Type</a></strong> для типов данных.</p></td>
+<td><p>Константа, определяющая тип данных нового объекта <strong>Property</strong> . В разделе свойство <strong><a href="field-type-property-dao.md">Type</a></strong> для допустимых типов данных.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Value</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> содержащий исходное значение свойства. Свойство <strong><a href="field-value-property-dao.md">Value</a></strong> для получения дополнительных сведений см.</p></td>
+<td><p><strong>Переменная Variant</strong> , содержащая начальное значение свойства. Для получения подробных сведений просмотрите свойство <strong><a href="field-value-property-dao.md">value</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><em>DDL</em></p></td>
+<td><p><em>DLL</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>логическое</strong> подтип), которое указывает, является ли <strong>свойство</strong> объектом DDL. Значение по умолчанию — <strong>False</strong>. Если DDL имеет <strong>значение True</strong>, пользователи не могут изменить и удалить этот объект <strong>Свойства</strong> , если у них есть разрешение <strong>dbSecWriteDef</strong> .</p></td>
+<td><p><strong>Variant</strong> (<strong>логический</strong> подтип), указывающий, является ли <strong>свойство</strong> объектом DDL. По умолчанию используется значение <strong>False</strong>. Если DDL имеет <strong>значение true</strong>, пользователи не могут изменить или удалить этот объект <strong>Property</strong> , если у них нет разрешения <strong>дбсеквритедеф</strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -79,16 +79,16 @@ ms.locfileid: "28726220"
 
 ## <a name="remarks"></a>Замечания
 
-Объект пользовательских **свойств** можно создать только в коллекции **[свойств](properties-collection-dao.md)** объекта, который является постоянным.
+Пользовательский объект **Свойства** можно создать только в коллекции **[свойств](properties-collection-dao.md)** сохраняемого объекта.
 
-Если при использовании **CreateProperty**опустить одно или несколько частей необязательно, можно использовать соответствующие присваивания установить или сбросить соответствующего свойства перед добавлением нового объекта в коллекцию. После добавления объекта, можно изменить некоторые, но не для всех параметров его свойств. Обратитесь к соответствующим разделам **имя**, **Тип**и **значение** свойства для получения дополнительных сведений.
+Если опустить одну или несколько дополнительных частей при использовании **CreateProperty**, можно использовать соответствующий оператор присвоения для установки или сброса соответствующего свойства перед добавлением нового объекта в коллекцию. После добавления объекта можно изменить не все параметры его свойств. Для получения дополнительных сведений ознакомьтесь с разделами свойства " **имя**", " **Тип**" и " **значение** ".
 
-Если имя ссылается на объект, который уже входит в коллекции, то во время выполнения возникает ошибка при использовании метода **[Append](fields-append-method-dao.md)** .
+Если имя ссылается на объект, который уже является членом коллекции, при использовании метода **[append](fields-append-method-dao.md)** возникает ошибка во время выполнения.
 
-Чтобы удалить объект пользовательских **свойств** из коллекции, используйте метод **[Delete](fields-delete-method-dao.md)** на **Properties** collection. Не удается удалить встроенные свойства.
+Чтобы удалить объект определяемого пользователем **Свойства** из коллекции, используйте метод **[Delete](fields-delete-method-dao.md)** в коллекции **свойств** . Невозможно удалить встроенные свойства.
 
 
 > [!NOTE]
-> Если опустить аргумент DDL по умолчанию используется значение False (не являющиеся DDL). Так как не соответствующее свойство DDL предоставляется, необходимо удалить и повторно создать объект **свойств** , чтобы перейти с DDL не DDL.
+> Если опустить аргумент DDL, по умолчанию используется значение false (не для DDL). Так как соответствующее свойство DDL не предоставлено, необходимо удалить и повторно создать объект **Свойства** , который нужно изменить с DDL на non-DDL.
 
 

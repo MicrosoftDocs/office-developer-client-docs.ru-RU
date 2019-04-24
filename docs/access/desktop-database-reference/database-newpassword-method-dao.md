@@ -1,5 +1,5 @@
 ---
-title: Метод Database.NewPassword (DAO)
+title: Метод Database. NewPassword (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 20f09dbfba50526409472f7eb804ba2c47e4d1d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294857"
 ---
-# <a name="databasenewpassword-method-dao"></a>Метод Database.NewPassword (DAO)
+# <a name="databasenewpassword-method-dao"></a>Метод Database. NewPassword (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Изменение пароля существующей базы данных ядра базы данных Microsoft Access (только для рабочих областей Microsoft Access).
+Изменяет пароль существующей базы данных ядра СУБД Microsoft Access (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Новый_пароль (***bstrOld***, ***bstrNew***)
+*Expression* . NewPassword (***бстролд***, ***бстрнев***)
 
-*выражение* Выражение, возвращающее объект **базы данных** .
+*Expression (выражение* ) Выражение, возвращающее объект **базы данных** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,24 +42,24 @@ ms.locfileid: "28708671"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>bstrOld</em></p></td>
+<td><p><em>Бстролд</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Текущего значения свойства <strong>Password</strong> объекта <strong>базы данных</strong> .</p></td>
+<td><p>Текущее значение свойства <strong>Password</strong> объекта <strong>Database</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><em>bstrNew</em></p></td>
+<td><p><em>Бстрнев</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Новый параметр <strong>Password</strong> свойство объекта <strong>базы данных</strong> .</p>
-<p><strong>Примечание</strong>: используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p>
+<td><p>Новый параметр свойства <strong>Password</strong> объекта <strong>Database</strong> .</p>
+<p><strong>Note</strong>: Используйте надежные пароли, объединяющие прописные и строчные буквы, цифры и символы. В слабых паролях эти элементы не комбинируются. Надежный пароль: Y6dh!et5. Слабый пароль: House27. Используйте надежный пароль, который можно запомнить, чтобы не записывать его.</p>
 </td>
 </tr>
 </tbody>
@@ -68,14 +68,14 @@ ms.locfileid: "28708671"
 
 ## <a name="remarks"></a>Замечания
 
-Строки bstrOld и bstrNew может иметь длину до 20 символов и может содержать все символы, за исключением символа ASCII 0 (null). Чтобы удалить пароль, используйте строку нулевой длины ("») для bstrNew.
+Строки Бстролд и Бстрнев могут иметь длину до 20 символов и могут содержать любые символы, кроме символов ASCII 0 (null). Чтобы очистить пароль, используйте строку нулевой длины ("") для Бстрнев.
 
-Пароли зависят от регистра символов.
+В паролях учитывается регистр.
 
-Если базы данных не имеет пароля, ядро базы данных Microsoft Access автоматически создаст, передав строку нулевой длины ("») для старого пароля.
+Если база данных не имеет пароля, ядро СУБД Microsoft Access автоматически создаст ее, передав для старого пароля строку нулевой длины ("").
 
 
 > [!IMPORTANT]
-> Если пароль утерян, могут никогда не откройте базу данных еще раз.
+> Если вы потеряли пароль, вы не сможете повторно открыть базу данных.
 
 

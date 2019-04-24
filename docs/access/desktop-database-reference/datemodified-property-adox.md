@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: daf72804d51c18b5875e607ce5fdb0dfe20f406c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294409"
 ---
 # <a name="datemodified-property-adox"></a>Свойство DateModified (ADOX)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает дату последнего изменения объекта.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает значение **типа Variant** , указав дату изменения. Значение null, если **DateModified** не поддерживается поставщиком.
+Возвращает значение **типа Variant** , указывающее дату изменения. Значение равно null, если **DateModified** не поддерживается поставщиком.
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **DateModified** имеет значение null для добавленного объектов. После добавления нового [представления](view-object-adox.md) или [процедуры](procedure-object-adox.md), необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции для получения значения для свойства **DateModified** [представления](views-collection-adox.md) или [процедуры](procedures-collection-adox.md) .
+Для новых добавленных объектов свойство **DateModified** имеет значение null. После добавления нового [представления](view-object-adox.md) или [процедуры](procedure-object-adox.md)необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции [представлений](views-collection-adox.md) или [процедур](procedures-collection-adox.md) для получения значений для свойства **DateModified** .
 

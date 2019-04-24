@@ -1,5 +1,5 @@
 ---
-title: GetRowsOptionEnum (Справочник по для настольных баз данных Access)
+title: Жетровсоптионенум (Справочник по базам данных Access на компьютере)
 TOCTitle: GetRowsOptionEnum
 ms:assetid: 5c1665bb-555c-f83f-066c-d6de2dd0343f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249323(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 16a878aaded9368d89f935df5a7ae9575c31f480
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292197"
 ---
 # <a name="getrowsoptionenum"></a>GetRowsOptionEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает количество записей для извлечения из [набора записей](recordset-object-ado.md).
+Указывает количество записей, извлекаемых из [набора записей](recordset-object-ado.md).
 
 <br/>
 
@@ -37,9 +37,9 @@ ms.locfileid: "28722076"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adGetRowsRest</strong></p></td>
+<td><p><strong>Аджетровсрест</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Получает остальную часть записей в наборе <strong>записей</strong>из текущей позиции или закладки, указанного с помощью параметра <em>запуска</em> метода <a href="getrows-method-ado.md">получения строк</a> .</p></td>
+<td><p>Извлекает остальные записи в <strong>наборе записей</strong>из текущей позиции или из закладки, заданной параметром <em>Start</em> метода <a href="getrows-method-ado.md">GetRows</a> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -47,7 +47,7 @@ ms.locfileid: "28722076"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ ms.locfileid: "28722076"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.GetRowsOption.REST</p></td>
+<td><p>Адоенумс. Жетровсоптион. REST</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: FilterGroupEnum (Справочник по для настольных баз данных Access)
+title: Филтерграупенум (Справочник по базам данных Access на компьютере)
 TOCTitle: FilterGroupEnum
 ms:assetid: 141f8f9a-c188-5937-91cc-3155eaebebd2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be2ce54fe743c46468850abc5dc16520e208ec9e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292421"
 ---
 # <a name="filtergroupenum"></a>FilterGroupEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает группу записей для фильтрации из [набора записей](recordset-object-ado.md).
+Задает группу записей для фильтрации из [набора записей](recordset-object-ado.md).
 
 <br/>
 
@@ -37,29 +37,29 @@ ms.locfileid: "28704069"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adFilterAffectedRecords</strong></p></td>
+<td><p><strong>Адфилтераффектедрекордс</strong></p></td>
 <td><p>2</p></td>
-<td><p>Фильтры для просмотра только записей, влияет на последнем вызове <a href="delete-method-ado-recordset.md">Удаление</a>, <a href="resync-method-ado.md">выполнить повторную синхронизацию</a>, <a href="updatebatch-method-ado.md">UpdateBatch</a>или <a href="cancelbatch-method-ado.md">CancelBatch</a> .</p></td>
+<td><p>Фильтры для просмотра записей, затронутых последним вызовом <a href="delete-method-ado-recordset.md">Delete</a>, Resync, <a href="updatebatch-method-ado.md">UpdateBatch</a>или <a href="cancelbatch-method-ado.md">CancelBatch</a> . <a href="resync-method-ado.md"></a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adFilterConflictingRecords</strong></p></td>
-<td><p>5</p></td>
-<td><p>Фильтры для просмотра записей, которые не удалось последнего обновления пакета.</p></td>
+<td><p><strong>Адфилтерконфликтингрекордс</strong></p></td>
+<td><p>17:00</p></td>
+<td><p>Фильтры для просмотра записей, для которых не удалось выполнить Последнее пакетное обновление.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adFilterFetchedRecords</strong></p></td>
-<td><p>3</p></td>
-<td><p>Фильтры для просмотра записей в кэше текущего — то есть, результаты последнего звонка для извлечения записей из базы данных.</p></td>
+<td><p><strong>Адфилтерфетчедрекордс</strong></p></td>
+<td><p>4</p></td>
+<td><p>Фильтры для просмотра записей в текущем кэше (то есть результаты последнего вызова для получения записей из базы данных).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adFilterNone</strong></p></td>
-<td><p>0</p></td>
+<td><p><strong>Адфилтерноне</strong></p></td>
+<td><p>нуль</p></td>
 <td><p>Удаляет текущий фильтр и восстанавливает все записи для просмотра.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adFilterPendingRecords</strong></p></td>
-<td><p>1</p></td>
-<td><p>Фильтры для просмотра только записей, были изменены, но еще не были отправлены на сервер. Применимо только к режим пакетного обновления.</p></td>
+<td><p><strong>Адфилтерпендингрекордс</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Фильтры для просмотра только тех записей, которые были изменены, но еще не отправлены на сервер. Применяется только для режима пакетного обновления.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "28704069"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "28704069"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.AFFECTEDRECORDS</p></td>
+<td><p>Адоенумс. Филтерграуп. АФФЕКТЕДРЕКОРДС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FilterGroup.CONFLICTINGRECORDS</p></td>
+<td><p>Адоенумс. Филтерграуп. КОНФЛИКТИНГРЕКОРДС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.FETCHEDRECORDS</p></td>
+<td><p>Адоенумс. Филтерграуп. ФЕТЧЕДРЕКОРДС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FilterGroup.NONE</p></td>
+<td><p>Адоенумс. Филтерграуп. NONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.PENDINGRECORDS</p></td>
+<td><p>Адоенумс. Филтерграуп. ПЕНДИНГРЕКОРДС</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Ключи добавить метод, тип ключа, пример свойств RelatedColumn (VC ++)
+title: Метод Append с ключами, тип ключа, свойства RelatedColumn (VC + +)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: edbb25c9eda48a33f659e577882e40cc67a07190
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290640"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Пример: свойства ключей добавить метод, тип ключа RelatedColumn, RelatedTable и UpdateRule (VC ++)
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Пример: метод Append, тип ключа, RelatedColumn, RelatedTable и UpdateRule свойства (VC + +)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Следующий код демонстрирует создание нового внешнего ключа. Предполагается, что существуют две таблицы (клиентов и заказы).
+В приведенном ниже коде показано, как создать новый внешний ключ. Предполагается, что существуют две таблицы (Customers и Orders).
 
 ```cpp 
  

@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.Recordsets (DAO)
+title: Свойство Database. Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: e2ee02bc-d53a-2bec-2c5b-227979b92332
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835730(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 66880041d204bdcb5d15c9476bd290875409038a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294766"
 ---
-# <a name="databaserecordsets-property-dao"></a>Свойство Database.Recordsets (DAO)
+# <a name="databaserecordsets-property-dao"></a>Свойство Database. Recordsets (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **наборов записей** , который содержит все открытые наборы записей в указанной базы данных. Только для чтения.
+Возвращает коллекцию **Recordset** , содержащую все открытые наборы записей в указанной базе данных. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Наборы записей
+*Expression* . Recordsets
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 

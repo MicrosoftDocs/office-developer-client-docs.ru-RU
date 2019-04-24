@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.Containers (DAO)
+title: Свойство Database. Containers (DAO)
 TOCTitle: Containers Property
 ms:assetid: d6b13bae-461c-fe5e-692b-0e04fcd5df2a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835049(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 01fec649391f8c0cda6d9b6b4718b8b630373c81
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294969"
 ---
-# <a name="databasecontainers-property-dao"></a>Свойство Database.Containers (DAO)
+# <a name="databasecontainers-property-dao"></a>Свойство Database. Containers (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **контейнеров** , представляющий все объекты **контейнера** в указанной базе данных. Только для чтения.
+Возвращает коллекцию **Containers** , которая представляет все объекты **контейнера** в указанной базе данных. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Контейнеры
+*Expression* . Контейнеры
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.complexType (DAO)
+title: Свойство field2. ComplexType (DAO)
 TOCTitle: ComplexType Property
 ms:assetid: 9b4ebabf-22de-0ab8-73ea-10c496eedf97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198034(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 10cb2df307cf8c8df429454b98fba4a90115243f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292855"
 ---
-# <a name="field2complextype-property-dao"></a>Свойство Field2.complexType (DAO)
+# <a name="field2complextype-property-dao"></a>Свойство field2. ComplexType (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает объект **[ComplexType](complextype-object-dao.md)** , который представляет многозначное поле. Только для чтения.
+Возвращает объект **[complexType](complextype-object-dao.md)** , представляющий Многозначное поле. Только для чтения.
 
 ## <a name="version-information"></a>Сведения о версии
 
-Добавлена версия: Access 2007
+Добавлен в версии: Access 2007
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . ComplexType
+*Expression* . Типу
 
-*выражение* Переменная, которая представляет собой объект- **поле2** .
+*expression* — переменная, представляющая объект **Field2**.
 
