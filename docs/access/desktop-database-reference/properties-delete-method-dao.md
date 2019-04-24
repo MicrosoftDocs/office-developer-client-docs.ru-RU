@@ -1,5 +1,5 @@
 ---
-title: Метод Properties.Delete (DAO)
+title: Метод Properties. Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: dc2493c6-337c-cb56-7c0d-36762528fa43
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8bc822abe52b8bc9e71a275f0fd9e5006099317a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301255"
 ---
-# <a name="propertiesdelete-method-dao"></a>Метод Properties.Delete (DAO)
+# <a name="propertiesdelete-method-dao"></a>Метод Properties. Delete (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Удаляет указанный объект **свойство** из коллекции **свойств** .
+Удаляет указанный объект **Property** из коллекции **свойств** .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Удаление (***имя***)
+*Expression* . Delete (***имя***)
 
-*выражение* Переменная, которая представляет собой объект- **Свойства** .
+*Expression (выражение* ) Переменная, представляющая объект **Properties** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ ms.locfileid: "28716546"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -48,7 +48,7 @@ ms.locfileid: "28716546"
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Имя свойства для удаления.</p></td>
+<td><p>Имя удаляемого свойства.</p></td>
 </tr>
 </tbody>
 </table>

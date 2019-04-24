@@ -1,5 +1,5 @@
 ---
-title: Члены рабочей области (DAO)
+title: Участники рабочих областей (DAO)
 TOCTitle: Workspace Members
 ms:assetid: 13ac7d41-1b25-20d2-5c85-0f21bfd38328
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8a2105c13f5f7ce9a75e7e18e20477d8b283543a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302596"
 ---
-# <a name="workspace-members-dao"></a>Члены рабочей области (DAO)
+# <a name="workspace-members-dao"></a>Участники рабочих областей (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объект рабочей области определяет именованный сеанса для пользователя. Содержит open баз данных и предоставляет механизмы для одновременных операций и, в рабочих областях Microsoft Access безопасного поддержка рабочей группы.
+Объект Workspace определяет именованный сеанс для пользователя. Он содержит открытые базы данных и предоставляет механизмы для одновременных транзакций, а в рабочих областях Microsoft Access обеспечивает надежную поддержку рабочих групп.
 
 ## <a name="methods"></a>Методы
 
@@ -37,32 +37,32 @@ ms.locfileid: "28719235"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="workspace-begintrans-method-dao.md">BeginTrans</a></strong></p></td>
-<td><p>Начало новой транзакции. Чтение и запись <strong>базы данных</strong>.</p></td>
+<td><p>Начинает новую транзакцию. Чтение и запись <strong>базы данных</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-close-method-dao.md">Close</a></strong></p></td>
-<td><p>Закрытие открытых <strong>рабочей области</strong>.</p></td>
+<td><p>ЗаКрывает открытую <strong>рабочую область</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-committrans-method-dao.md">CommitTrans</a></strong></p></td>
-<td><p>Завершает текущий транзакций и сохраняет изменения.</p></td>
+<td><p>Завершает текущую транзакцию и сохраняет изменения.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="database-object-dao.md">базы данных</a></strong> , сохраняет базы данных на диск и возвращает объект открыт <strong>базы данных</strong> (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Создает новый объект <strong><a href="database-object-dao.md">Database</a></strong> , сохраняет базу данных на диске и возвращает открытый объект <strong>базы данных</strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
-<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
-<p>Открывает объект <strong><a href="connection-object-dao.md">подключения</a></strong> для источника данных ODBC (только для рабочих областей технология ODBCDirect).</p></td>
+<td><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
+<p>Открывает объект <strong><a href="connection-object-dao.md">Connection</a></strong> в источнике данных ODBC (только для рабочих областей ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-opendatabase-method-dao.md">OpenDatabase</a></strong></p></td>
-<td><p>Открывает указанной базы данных в объекте <strong><a href="workspace-object-dao.md">рабочей области</a></strong> и возвращает ссылку на объект <strong><a href="database-object-dao.md">базы данных</a></strong> , который представляет его.</p></td>
+<td><p>Открывает указанную базу данных в объекте <strong> <a href="workspace-object-dao.md">Workspace</a> </strong> и возвращает ссылку на объект <strong> <a href="database-object-dao.md">Database</a> </strong>, который ее представляет.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspace-rollback-method-dao.md">Откат</a></strong></p></td>
-<td><p>Завершает текущий транзакцию и восстановление базы данных в объекте <strong>рабочей области</strong> для состояния, в котором они были на момент начала текущей транзакции.</p></td>
+<td><p><strong><a href="workspace-rollback-method-dao.md">Отката</a></strong></p></td>
+<td><p>Завершает текущую транзакцию и восстанавливает базы данных в объекте <strong>Workspace</strong> в том состоянии, в котором они были в момент начала текущей транзакции.</p></td>
 </tr>
 </tbody>
 </table>
@@ -84,36 +84,36 @@ ms.locfileid: "28719235"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="workspace-connections-property-dao.md">Connections</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>подключений</strong> , который представляет текущего подключения в указанной <strong>рабочей области</strong>. Только для чтения.</p></td>
+<td><p>Возвращает коллекцию <strong>Connections</strong> , представляющую текущие подключения в указанной <strong>рабочей области</strong>. Только для чтения.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-databases-property-dao.md">Databases</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>баз данных</strong> , который представляет open баз данных в указанной <strong>рабочей области</strong>. Только для чтения.</p></td>
+<td><p>Возвращает коллекцию <strong>баз данных</strong> , представляющую открытые базы данных в указанной <strong>рабочей области</strong>. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">DefaultCursorDriver</a></strong></p></td>
-<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
-<p>Задает или возвращает тип курсора драйвер, используемый для подключения, созданные методами <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> или <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> (только для рабочих областей технология ODBCDirect).</p></td>
+<td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">Дефаулткурсордривер</a></strong></p></td>
+<td><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
+<p>Задает или возвращает тип драйвера курсора, используемого в соединении, созданном методами <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> или <strong><a href="dbengine-opendatabase-method-dao.md">openDatabase</a></strong> (только для рабочих областей ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">IsolateODBCTrans</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее, включены ли несколько transactiond, связанных с одной Microsoft Access базы данных подключен модуль источник данных ODBC изолированный (Microsoft Access рабочие области только).</p></td>
+<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">Исолатеодбктранс</a></strong></p></td>
+<td><p>Задает или возвращает значение, указывающее, изолированы ли множественные транзакции, использующие один и тот же источник данных ODBC, подключенный к ядру СУБД Microsoft Access (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-logintimeout-property-dao.md">LoginTimeout</a></strong></p></td>
-<td><p>Задает или возвращает число секунд, прежде чем возникает ошибка при попытке выполнить вход в базе данных ODBC.</p></td>
+<td><p>Задает или возвращает число секунд до возникновения ошибки при попытке входа в базу данных ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Возвращает или задает имя указанного объекта. Чтение и запись <strong>строки</strong> Если объект не были добавлены в коллекцию. Только для чтения <strong>строка</strong> Если объект были добавлены в коллекцию.</p></td>
+<td><p>Возвращает или задает имя указанного объекта. <strong>Строка</strong> для чтения и записи, если объект не был добавлен в коллекцию. <strong>Строка</strong> , доступная только для чтения, если объект добавлен в коллекцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspace-properties-property-dao.md">Свойства</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
+<td><p><strong><a href="workspace-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Только для чтения <strong>целое число</strong>.</p></td>
+<td><p><strong><a href="workspace-type-property-dao.md">Тип</a></strong></p></td>
+<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Только для чтения, <strong>Integer</strong>.</p></td>
 </tr>
 </tbody>
 </table>

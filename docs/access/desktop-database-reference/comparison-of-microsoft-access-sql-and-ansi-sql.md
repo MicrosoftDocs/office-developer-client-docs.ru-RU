@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 195d9f5d882fd252b1b10e937fe851c4830c52d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296054"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Сравнение Microsoft Access SQL и ANSI SQL
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Ядро СУБД Microsoft Access SQL обычно является совместимым с ANSI-89 уровня 1. Тем не менее некоторые функции ANSI SQL не реализованы в Microsoft Access SQL. С другой стороны Microsoft Access SQL включает в себя зарезервированные слова и функции, не поддерживаемые в формате ANSI SQL.
+SQL ядра СУБД Microsoft Access, как правило, соответствует СТАНДАРТу ANSI-89 Level 1. Однако некоторые функции ANSI SQL не реализованы в Microsoft Access SQL. И наоборот, Microsoft Access SQL включает зарезервированные слова и функции, не поддерживаемые в ANSI SQL.
 
 ## <a name="major-differences"></a>Основные различия
 
-- Microsoft Access SQL и ANSI SQL иметь разные зарезервированные слова и типы данных. Для получения дополнительных сведений см [Microsoft Access базы данных модуля SQL зарезервированные слова](sql-reserved-words.md) и [Эквивалентные типы данных ANSI SQL](equivalent-ansi-sql-data-types.md). С помощью Microsoft Access базы данных модуля поставщика OLE DB существуют дополнительные зарезервированные слова.
+- Microsoft Access SQL и ANSI SQL имеют различные зарезервированные слова и типы данных. Для получения дополнительных сведений см [ЗарезервированНые слова SQL для ядра СУБД Microsoft Access](sql-reserved-words.md) и [эквивалентные типы данных ANSI SQL](equivalent-ansi-sql-data-types.md). Использование поставщика OLE DB для ядра СУБД Microsoft Access содержит дополнительные зарезервированные слова.
 
-- **[Между... И](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
+- **[Между... С](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
     
-  *Expr1* \[Не\] **между** *значение1* **и** *значение2*
+  *Выражение1* \[Не\] **между** *Значение1* **и** *value2*
     
-  В Microsoft Access SQL *значение1* может быть больше, чем *значение2*; в формате ANSI SQL *значение1* должно быть не более чем *значение2.*
+  В Microsoft Access SQL *Значение1* может быть больше, чем *value2*. в ANSI SQL *Значение1* должно быть равно или меньше *value2.*
 
-- Microsoft Access SQL поддерживает подстановочные знаки ANSI SQL и [подстановочные знаки](using-wildcard-characters-in-string-comparisons.md) , относящиеся к ядру базы данных Microsoft Access для использования с оператор **[Like](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)** . Использование ANSI и Microsoft Access базы данных модуля подстановочные знаки являются взаимоисключающими. Необходимо использовать один набор знаков, их нельзя смешивать. Подстановочные знаки доступны только при использовании ядро базы данных Microsoft Access и Microsoft Access базы данных модуля поставщика OLE DB. При попытке использовать подстановочные знаки ANSI SQL через Microsoft Access или DAO, они будут интерпретируются как литералы. При использовании Microsoft Access базы данных модуля поставщика OLE DB верно обратное.
+- Microsoft Access SQL поддерживает как подстановочные знаки ANSI SQL, так и [подстановочные знаки](using-wildcard-characters-in-string-comparisons.md) , которые относятся к ядру СУБД Microsoft Access с помощью оператора **[Like](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)** . Использование подстановочных знаков для механизма базы данных ANSI и Microsoft Access является взаимно исключающим. Вы должны использовать один набор или другой, и они не могут смешиваться. Подстановочные знаки ANSI SQL доступны только при использовании ядра СУБД Microsoft Access и поставщика OLE DB ядра СУБД Microsoft Access. Если вы попытаетесь использовать подстановочные знаки ANSI SQL с помощью Microsoft Access или DAO, они будут интерпретироваться как литералы. Противоположным является true при использовании поставщика OLE DB для ядра СУБД Microsoft Access.
     
     <table>
     <colgroup>
@@ -40,7 +40,7 @@ ms.locfileid: "28713081"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Символ соответствия</p></th>
+    <th><p>СоПоставленный символ</p></th>
     <th><p>Microsoft Access SQL</p></th>
     <th><p>ANSI SQL</p></th>
     </tr>
@@ -60,25 +60,25 @@ ms.locfileid: "28713081"
     </table>
 
 
-- Microsoft Access SQL обычно меньше ограничений. Например уменьшение Группировка и порядок выражений.
+- Microsoft Access SQL, как правило, является менее ограниченным. Например, Допускается группировка и упорядочивание выражений.
 
-- Microsoft Access SQL поддерживает более мощного выражения.
+- Microsoft Access SQL поддерживает более эффективные выражения.
 
-## <a name="enhanced-features-of-microsoft-access-sql"></a>Расширенные возможности Microsoft Access SQL
+## <a name="enhanced-features-of-microsoft-access-sql"></a>Расширенные функции Microsoft Access SQL
 
 Microsoft Access SQL предоставляет следующие расширенные возможности:
 
-- Оператор [ПРЕОБРАЗОВАНИЯ](transform-statement-microsoft-access-sql.md) , который обеспечивает поддержку перекрестных запросов.
+- Оператор [Transform](transform-statement-microsoft-access-sql.md) , который обеспечивает поддержку перекрестных запросов.
 
-- Дополнительные [агрегатных функций](sql-aggregate-functions-sql.md), таких как **StDev** и **VarP**.
+- Дополнительные [статистические функции](sql-aggregate-functions-sql.md), такие как **STDEV** и **ДИСПР**.
 
-- Объявление [параметров](parameters-declaration-microsoft-access-sql.md) для определения параметров запроса.
+- Объявление [параметров](parameters-declaration-microsoft-access-sql.md) для определения запросов с параметрами.
 
 ## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Функции ANSI SQL, не поддерживаемые в Microsoft Access SQL
 
 Microsoft Access SQL не поддерживает следующие функции ANSI SQL:
 
-- Ссылки на РАЗЛИЧНЫЕ статистические функции. К примеру Microsoft Access SQL не разрешает сумм (ЧЕТКИЕ *columnname*).
+- Ссылки на статистические функции DISTINCT. Например, SQL Microsoft Access не позволяет использовать SUM (DISTINCT) **.
 
-- Предложения LIMIT TO *nn* СТРОК используется, чтобы ограничить число строк, возвращаемых запросом. [Предложение WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) можно использовать для ограничения области запроса.
+- Предложение LIMIT TO *nn* Rows, используемое для ограничения числа строк, возвращаемых запросом. Для ограничения области запроса можно использовать только [предложение WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) .
 

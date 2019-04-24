@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d19e7adcdd3bb60f24d90e75942fcc0b4e16e2e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296656"
 ---
 # <a name="cancelrecordchange-macro-action"></a>Макрокоманда CancelRecordChange
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Отмена изменения, примененные к записи блока данных **[СоздатьЗапись](createrecord-data-block.md)** или **[ИзменитьЗапись](editrecord-data-block.md)** до изменения, можно использовать действие **CancelRecordChange** .
+Вы можете использовать действие **канцелрекордчанже** , чтобы отменить изменения, примененные к записи в блоке данных **[СоздатьЗапись](createrecord-data-block.md)** или **[ИзменитьЗапись](editrecord-data-block.md)** перед фиксацией изменений.
 
 
 > [!NOTE]
-> Действие **CancelRecordChange** доступна только в макросов данных.
+> Действие **канцелрекордчанже** доступно только в макросах данных.
 
 
 
 ## <a name="remarks"></a>Замечания
 
-При вызове действие **CancelRecordChange** блок данных **СоздатьЗапись** или **ИзменитьЗапись** немедленно прекращается.
+При вызове действия **канцелрекордчанже** сразу же завершается блок данных **СоздатьЗапись** или **ИзменитьЗапись** .
 

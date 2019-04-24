@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3075c0c9bd8267f6b30773a846523172eb2ef603
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296418"
 ---
 # <a name="chapter-8-understanding-cursors-and-locks"></a>Глава 8. Курсоры и блокировки
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Важно понять принципы работы курсоры, чтобы вы могли выбрать тип курсора рекомендации и наиболее эффективным для требования доступа к данным приложения. Менее чем оптимальную конфигурацию курсора можно сделать еще медленных операций доступа к данным.
+Важно понимать, как работают курсоры, чтобы можно было выбрать лучший и наиболее эффективный тип курсора для требований к доступу к данным приложения. Менее Оптимальная конфигурация курсора может сделать операции доступа к данным более медленными.
 
-Возможности объект ADO **Recordset** определяется тип и расположение курсора, а также тип блокировки.
+Многие возможности объекта **RECORDSET** ADO определяются типом и расположением курсора, а также типом блокировки.
 
 В этой главе рассматриваются следующие темы:
 
 - [Что такое курсор?](what-is-a-cursor.md)
-- [Значение позиции курсора](the-significance-of-cursor-location.md)
+- [Значение положения курсора](the-significance-of-cursor-location.md)
 - [The Microsoft Cursor Service for OLE DB](the-microsoft-cursor-service-for-ole-db.md)
-- [Использование свойства CacheSize](using-cachesize.md)
+- [Using CacheSize](using-cachesize.md)
 - [Характеристики курсоров и блокировок](cursor-and-lock-characteristics.md)
 - [Типы курсоров (ADO)](types-of-cursors.md)
-- [Что такое блокировки? (ADO)](what-is-a-lock.md)
+- [Что такое блокировка? ОБЪЕКТЫ](what-is-a-lock.md)
 

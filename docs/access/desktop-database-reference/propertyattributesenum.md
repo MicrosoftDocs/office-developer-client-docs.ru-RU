@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c929bcf5dc7f5267c2e7d3a8dac5ed6bfb55b20b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302879"
 ---
 # <a name="propertyattributesenum"></a>PropertyAttributesEnum
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает атрибуты [Свойства](property-object-ado.md) объекта.
+Задает атрибуты объекта [Property](property-object-ado.md) .
 
 <table>
 <colgroup>
@@ -36,29 +36,29 @@ ms.locfileid: "28717267"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adPropNotSupported</strong></p></td>
-<td><p>0</p></td>
+<td><p><strong>Адпропнотсуппортед</strong></p></td>
+<td><p>нуль</p></td>
 <td><p>Указывает, что свойство не поддерживается поставщиком.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPropRequired</strong></p></td>
-<td><p>1</p></td>
+<td><p><strong>Адпропрекуиред</strong></p></td>
+<td><p>1,1</p></td>
 <td><p>Указывает, что пользователь должен указать значение для этого свойства перед инициализацией источника данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adPropOptional</strong></p></td>
+<td><p><strong>Адпропоптионал</strong></p></td>
 <td><p>2</p></td>
-<td><p>Указывает, что пользователю необходимо указать значение для этого свойства перед инициализацией источника данных.</p></td>
+<td><p>Указывает, что пользователю не нужно указывать значение этого свойства перед инициализацией источника данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adPropRead</strong></p></td>
+<td><p><strong>Адпропреад</strong></p></td>
 <td><p>512</p></td>
-<td><p>Указывает, что пользователи могут читать свойства.</p></td>
+<td><p>Указывает, что пользователь может прочитать свойство.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adPropWrite</strong></p></td>
+<td><p><strong>Адпропврите</strong></p></td>
 <td><p>1024</p></td>
-<td><p>Указывает, что пользователь может задать свойства.</p></td>
+<td><p>Указывает, что пользователь может задать свойство.</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,7 +66,7 @@ ms.locfileid: "28717267"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -79,19 +79,19 @@ ms.locfileid: "28717267"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.NOTSUPPORTED</p></td>
+<td><p>Адоенумс. Пропертяттрибутес. NOTSUPPORTED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PropertyAttributes.REQUIRED</p></td>
+<td><p>Адоенумс. Пропертяттрибутес. REQUIRED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.OPTIONAL</p></td>
+<td><p>Адоенумс. Пропертяттрибутес. OPTIONAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PropertyAttributes.READ</p></td>
+<td><p>Адоенумс. Пропертяттрибутес. READ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.WRITE</p></td>
+<td><p>Адоенумс. Пропертяттрибутес. WRITE</p></td>
 </tr>
 </tbody>
 </table>

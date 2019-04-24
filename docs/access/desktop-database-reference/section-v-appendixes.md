@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aa64e5582dd13a10d5071cfae2ddee5d1a826d5e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308766"
 ---
 # <a name="section-v-appendixes"></a>Раздел V. Приложения
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Руководство программиста ADO содержит следующие приложения:
+Руководство программиста по ADO содержит следующие приложения:
 
-- [Приложение А. Поставщики](appendix-a-providers.md)
+- [Appendix A: Providers](appendix-a-providers.md)
 - [Приложение Б. Ошибки ADO](appendix-b-ado-errors.md)
-- [Приложение В. Программирование с помощью ADO](appendix-c-programming-with-ado.md)
+- [Appendix C: Programming with ADO](appendix-c-programming-with-ado.md)
 - [Приложение Г. Примеры ADO](appendix-d-ado-samples.md)
 

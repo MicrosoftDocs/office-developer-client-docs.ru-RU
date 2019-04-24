@@ -1,5 +1,5 @@
 ---
-title: RecordStatusEnum (Справочник по для настольных баз данных Access)
+title: RecordStatusEnum (Справочник по базам данных Access на компьютере)
 TOCTitle: RecordStatusEnum
 ms:assetid: 302915b8-494d-0be2-6dce-eaf91a0ea8ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a83de7730224c5ecd5080c795d38cf2e9a3305a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309382"
 ---
 # <a name="recordstatusenum"></a>RecordStatusEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает состояние записи по отношению к пакета обновлений и других массовых операций.
+Указывает состояние записи по отношению к пакетным обновлениям и другим массовым операциям.
 
 <br/>
 
@@ -37,94 +37,94 @@ ms.locfileid: "28722713"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adRecCanceled</strong></p></td>
+<td><p><strong>Адрекканцелед</strong></p></td>
 <td><p>0x100</p></td>
-<td><p>Указывает, что запись не была сохранена, так как операция отменена.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как операция была отменена.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecCantRelease</strong></p></td>
+<td><p><strong>Адреккантрелеасе</strong></p></td>
 <td><p>0x400</p></td>
-<td><p>Указывает, что новую запись не был сохранен, так как существующей записи был заблокирован.</p></td>
+<td><p>Указывает, что новая запись не была сохранена, так как существующая запись заблокирована.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adRecConcurrencyViolation</strong></p></td>
+<td><p><strong>Адрекконкурренцивиолатион</strong></p></td>
 <td><p>0x800</p></td>
-<td><p>Указывает, что запись не была сохранена оптимистичный параллелизм использовался в.</p></td>
+<td><p>Указывает, что запись не была сохранена из-за использования оптимистичного параллелизма.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecDBDeleted</strong></p></td>
+<td><p><strong>Адрекдбделетед</strong></p></td>
 <td><p>0x40000</p></td>
 <td><p>Указывает, что запись уже была удалена из источника данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adRecDeleted</strong></p></td>
+<td><p><strong>Адрекделетед</strong></p></td>
 <td><p>0x4</p></td>
 <td><p>Указывает, что запись была удалена.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecIntegrityViolation</strong></p></td>
+<td><p><strong>АдреЦинтегритивиолатион</strong></p></td>
 <td><p>0x1000</p></td>
-<td><p>Указывает, что запись не была сохранена, так как пользователь нарушает ограничения целостности данных.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как пользователь нарушил ограничения целостности.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adRecInvalid</strong></p></td>
+<td><p><strong>АдреЦинвалид</strong></p></td>
 <td><p>0x10</p></td>
-<td><p>Указывает, что запись не была сохранена, так как ее закладки является недопустимым.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как ее Закладка является недопустимой.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecMaxChangesExceeded</strong></p></td>
+<td><p><strong>Адрекмаксчанжесексцеедед</strong></p></td>
 <td><p>0x2000</p></td>
-<td><p>Указывает, что запись не была сохранена из-за слишком много ожидающих изменений.</p></td>
+<td><p>Указывает, что запись не была сохранена из-за слишком большого количества ожидающих изменений.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adRecModified</strong></p></td>
+<td><p><strong>Адрекмодифиед</strong></p></td>
 <td><p>0x2</p></td>
 <td><p>Указывает, что запись была изменена.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecMultipleChanges</strong></p></td>
+<td><p><strong>Адрекмултиплечанжес</strong></p></td>
 <td><p>0x40</p></td>
-<td><p>Указывает, что запись не была сохранена, так как он бы влияет несколько записей.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как она бы затронула несколько записей.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adRecNew</strong></p></td>
+<td><p><strong>Адрекнев</strong></p></td>
 <td><p>0x1</p></td>
 <td><p>Указывает, что запись является новой.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecObjectOpen</strong></p></td>
+<td><p><strong>Адрекобжектопен</strong></p></td>
 <td><p>0x4000</p></td>
-<td><p>Указывает, что запись не была сохранена из-за конфликта с помощью объекта open хранилища.</p></td>
+<td><p>Указывает, что запись не была сохранена из-за конфликта с открытым объектом хранилища.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adRecOK</strong></p></td>
-<td><p>0</p></td>
-<td><p>Указывает, что запись успешно обновлены.</p></td>
+<td><p><strong>Адрекок</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Указывает, что запись успешно обновлена.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecOutOfMemory</strong></p></td>
+<td><p><strong>Адрекаутофмемори</strong></p></td>
 <td><p>0x8000</p></td>
-<td><p>Указывает, что запись не была сохранена, так как компьютер хватает памяти.</p></td>
+<td><p>Указывает, что запись не была сохранена из-за нехватки памяти.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adRecPendingChanges</strong></p></td>
+<td><p><strong>Адрекпендингчанжес</strong></p></td>
 <td><p>0x80</p></td>
-<td><p>Указывает, что запись не была сохранена, так как она ссылается на очередь вставки.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как она относится к ожидающей вставке.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecPermissionDenied</strong></p></td>
+<td><p><strong>Адрекпермиссиондениед</strong></p></td>
 <td><p>0x10000</p></td>
-<td><p>Указывает, что запись не была сохранена, так как пользователь не имеет разрешений.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как у пользователя недостаточно разрешений.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adRecSchemaViolation</strong></p></td>
+<td><p><strong>Адрексчемавиолатион</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>Указывает, что запись не была сохранена, поскольку оно нарушает структуры базы данных.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как она нарушает структуру основной базы данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecUnmodified</strong></p></td>
+<td><p><strong>Адрекунмодифиед</strong></p></td>
 <td><p>0x8</p></td>
-<td><p>Указывает, что записи не были изменены.</p></td>
+<td><p>Указывает, что запись не была изменена.</p></td>
 </tr>
 </tbody>
 </table>
@@ -132,9 +132,9 @@ ms.locfileid: "28722713"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-AdoEnums.RecordStatus.
+Адоенумс. Рекордстатус.
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -147,58 +147,58 @@ AdoEnums.RecordStatus.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.CANCELED</p></td>
+<td><p>Адоенумс. Рекордстатус. CANCELed</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.CANTRELEASE</p></td>
+<td><p>Адоенумс. Рекордстатус. КАНТРЕЛЕАСЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.CONCURRENCYVIOLATION</p></td>
+<td><p>Адоенумс. Рекордстатус. КОНКУРРЕНЦИВИОЛАТИОН</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.DBDELETED</p></td>
+<td><p>Адоенумс. Рекордстатус. ДБДЕЛЕТЕД</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.DELETED</p></td>
+<td><p>Адоенумс. Рекордстатус. DELETEd</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.INTEGRITYVIOLATION</p></td>
+<td><p>Адоенумс. Рекордстатус. ИНТЕГРИТИВИОЛАТИОН</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.INVALID</p></td>
+<td><p>Адоенумс. Рекордстатус. INVALID</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.MAXCHANGESEXCEEDED</p></td>
+<td><p>Адоенумс. Рекордстатус. МАКСЧАНЖЕСЕКСЦЕЕДЕД</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.MODIFIED</p></td>
+<td><p>Адоенумс. Рекордстатус. MODIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.MULTIPLECHANGES</p></td>
+<td><p>Адоенумс. Рекордстатус. МУЛТИПЛЕЧАНЖЕС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.NEW</p></td>
+<td><p>Адоенумс. Рекордстатус. NEW</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.OBJECTOPEN</p></td>
+<td><p>Адоенумс. Рекордстатус. ОБЖЕКТОПЕН</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.OK</p></td>
+<td><p>Адоенумс. Рекордстатус. ОК</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.OUTOFMEMORY</p></td>
+<td><p>Адоенумс. Рекордстатус. АУТОФМЕМОРИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.PENDINGCHANGES</p></td>
+<td><p>Адоенумс. Рекордстатус. ПЕНДИНГЧАНЖЕС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.PERMISSIONDENIED</p></td>
+<td><p>Адоенумс. Рекордстатус. ПЕРМИССИОНДЕНИЕД</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.SCHEMAVIOLATION</p></td>
+<td><p>Адоенумс. Рекордстатус. СЧЕМАВИОЛАТИОН</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.UNMODIFIED</p></td>
+<td><p>Адоенумс. Рекордстатус. unMODIFIED</p></td>
 </tr>
 </tbody>
 </table>

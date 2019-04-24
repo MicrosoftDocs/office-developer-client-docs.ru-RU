@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7f8531d2135dd19e672c1f9533afc4ef6494b904
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296047"
 ---
 # <a name="complextype-members-dao"></a>Члены ComplexType (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Представляет поле, поддерживающий несколько значений.
+Представляет Многозначное поле.
 
 ## <a name="properties"></a>Свойства
 
@@ -36,8 +36,8 @@ ms.locfileid: "28709147"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="complextype-fields-property-dao.md">Поля</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>полей</strong> , представляющую все хранятся объекты <strong>поля</strong> для указанного объекта. Только для чтения.</p></td>
+<td><p><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></p></td>
+<td><p>Возвращает коллекцию <strong>Fields</strong>, которая представляет все объекты <strong>Field</strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

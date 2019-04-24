@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef.ODBCTimeout (DAO)
+title: Свойство QueryDef. ODBCTimeout (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822019(v=office.15)
@@ -12,36 +12,36 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d34aee30e649b1c25ddc6af8078da2af9dd3b84
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301003"
 ---
-# <a name="querydefodbctimeout-property-dao"></a>Свойство QueryDef.ODBCTimeout (DAO)
+# <a name="querydefodbctimeout-property-dao"></a>Свойство QueryDef. ODBCTimeout (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает количество секунд до ошибку времени ожидания происходит, когда **[QueryDef](querydef-object-dao.md)** выполняется в базе данных ODBC.
+Указывает время ожидания (в секундах) до возникновения ошибки времени ожидания при выполнении объекта **[QueryDef](querydef-object-dao.md)** в базе данных ODBC.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Время ожидания ODBC
+*Expression* . ODBCTimeout
 
-*выражение* Переменная, которая представляет собой объект- **QueryDef** .
+*выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Замечания
 
-Если свойство **время ожидания ODBC** — это значение -1, время ожидания по умолчанию используется текущий параметр свойства **[QueryTimeout](database-querytimeout-property-dao.md)** **[подключения](connection-object-dao.md)** или объекта **[базы данных](database-object-dao.md)** , содержащий **QueryDef**. Если свойство **время ожидания ODBC** имеет значение 0, время ожидания ошибок нет.
+Если для **Свойства ODBCTimeout** задано значение-1, время ожидания по умолчанию равно текущему значению **[Свойства QueryTimeout](database-querytimeout-property-dao.md)** **[подключения](connection-object-dao.md)** или объекта **[базы данных](database-object-dao.md)** , содержащего объект **QueryDef**. Если для свойства **ODBCTimeout** задано значение 0, ошибка времени ожидания не возникает.
 
-При использовании базы данных ODBC, например Microsoft SQL Server, задержки могут возникнуть из-за сетевой трафик или интенсивное использование сервера ODBC. Без необходимости неограниченное время, можно указать время ожидания перед сообщение об ошибке.
+При использовании базы данных ODBC, такой как Microsoft SQL Server, могут возникать задержки из-за сетевого трафика или интенсивного использования сервера ODBC. Вместо неопределенного периода ожидания можно указать время ожидания перед возвращением ошибки.
 
-**Время ожидания ODBC** свойства объекта **QueryDef** переопределяет значение, назначаемое свойству **QueryTimeout** объекта **подключения** или **базы данных** , содержащего **QueryDef**, но только для этого ** QueryDef** объекта.
+Установка свойства **ODBCTimeout** объекта **QueryDef** переопределяет значение, указанное в свойстве **QueryTimeOut** **подключения** или объекта **базы данных** , содержащего объект **QueryDef**, но только для этого ** Объект QueryDef** .
 
 ## <a name="example"></a>Пример
 
-В этом примере используется для отображения как параметр **QueryTimeout** для объекта **базы данных** задает **время ожидания ODBC** по умолчанию для любого объекта **QueryDef** , созданный из свойства **QueryTimeout** и **время ожидания ODBC** Объект **базы данных** .
+В этом примере используются свойства **ODBCTimeout** и **QueryTimeOut** , чтобы показать, как параметр **QueryTimeOut** в объекте **Database** задает значение по умолчанию **ODBCTimeout** для объектов **QueryDef** , созданных из Объект **Database** .
 
 ```vb 
 Sub ODBCTimeoutX() 

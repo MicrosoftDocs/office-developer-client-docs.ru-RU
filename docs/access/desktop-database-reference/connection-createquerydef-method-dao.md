@@ -1,5 +1,5 @@
 ---
-title: Метод Connection.CreateQueryDef (DAO)
+title: Метод Connection. CreateQueryDef (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191860(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b6600d4508a33a31098d6a2e7c92f5904beb0e95
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295935"
 ---
-# <a name="connectioncreatequerydef-method-dao"></a>Метод Connection.CreateQueryDef (DAO)
+# <a name="connectioncreatequerydef-method-dao"></a>Метод Connection. CreateQueryDef (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Создает новый объект **[QueryDef](querydef-object-dao.md)** .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CreateQueryDef (***имя***, ***SQLText***)
+*Expression* . CreateQueryDef (***имя***, ***склтекст***)
 
-*выражение* Переменная, которая содержит объект **подключения** .
+*Expression (выражение* ) Переменная, представляющая объект **Connection** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,7 +42,7 @@ ms.locfileid: "28705934"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -52,13 +52,13 @@ ms.locfileid: "28705934"
 <td><p><em>Name</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>String</strong> подтип), уникальным образом новые <strong>QueryDef</strong>.</p></td>
+<td><p><strong>Variant</strong> (подтип<strong>String</strong> ), уникально названный новому <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>SQLText</em></p></td>
+<td><p><em>Склтекст</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>String</strong> подтип), которая является инструкцией SQL, определение <strong>QueryDef</strong>. Если опустить аргумент, можно определить <strong>QueryDef</strong> путем установки свойства <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> до или после добавления его в коллекцию.</p></td>
+<td><p><strong>Variant</strong> (подтип<strong>String</strong> ), который представляет собой инструкцию SQL, определяющую объект <strong>QueryDef</strong>. Если опустить этот аргумент, можно определить объект <strong>QueryDef</strong> , задав его свойство <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> перед добавлением в коллекцию или после него.</p></td>
 </tr>
 </tbody>
 </table>
@@ -70,13 +70,13 @@ QueryDef
 
 ## <a name="remarks"></a>Замечания
 
-В рабочей области Microsoft Access Если вы укажите отличное от строку нулевой длины имени при создании **QueryDef**результирующего объекта **QueryDef** автоматически добавляется к коллекции **[QueryDefs](querydefs-collection-dao.md)** .
+Если при создании объекта **QueryDef**в рабочей области Microsoft Access для имени указана любая строка, отличная от нулевой длины, полученный объект **QueryDef** автоматически добавляется в коллекцию **[QueryDef](querydefs-collection-dao.md)** .
 
-Если объектом, заданным с именем уже должна быть членом **QueryDefs** коллекции, возникает ошибка времени выполнения. Временные **QueryDef** можно создать с помощью строку нулевой длины для аргумента имени, при выполнении метода **CreateQueryDef** . Это также можно сделать, задав свойство **[Name](connection-name-property-dao.md)** только что созданный **QueryDef** в строку нулевой длины (»»). Временные объекты **QueryDef** полезны, если требуется повторно использовать динамические инструкции SQL, не создавая для создания новых постоянных объектов в коллекции **QueryDefs** . Временные **QueryDef** невозможно добавить в любой коллекции, так как строку нулевой длины не является допустимым именем для постоянного объекта **QueryDef** . Всегда можно задать **имя** и свойства **SQL** объекта **QueryDef** только что созданный и затем добавьте **QueryDef** в коллекцию **QueryDefs** .
+Если объект, указанный по имени, уже является членом коллекции **QueryDef** , возникает ошибка времени выполнения. Вы можете создать временный объект **QueryDef** , используя строку нулевой длины для аргумента name при выполнении метода **CreateQueryDef** . Это также можно сделать, задав для свойства **[Name](connection-name-property-dao.md)** созданного экземпляра **QueryDef** пустую строку (""). Временные объекты **QueryDef** удобно использовать, если вы хотите многократно использовать динамические инструкции SQL без необходимости создавать новые постоянные объекты в коллекции **QueryDef** . Невозможно добавить временный объект **QueryDef** в коллекцию, так как строка нулевой длины не является допустимым именем для постоянного объекта **QueryDef** . Вы всегда можете задать свойства **Name** и **SQL** нового объекта **QueryDef** , а затем добавить объект **QueryDef** в коллекцию **QueryDef** .
 
-Чтобы запустить инструкции SQL в объект **QueryDef** , используйте метод **[Execute](connection-execute-method-dao.md)** или **[OpenRecordset](connection-openrecordset-method-dao.md)** .
+Чтобы выполнить инструкцию SQL в объекте **QueryDef** , используйте метод **[EXECUTE](connection-execute-method-dao.md)** или **[OpenRecordset](connection-openrecordset-method-dao.md)** .
 
-С помощью объекта **QueryDef** является предпочтительным для выполнения запросов к серверу с использованием баз данных ODBC.
+Использование объекта **QueryDef** является предпочтительным способом выполнения запросов к серверу SQL с помощью баз данных ODBC.
 
-Для удаления объекта **QueryDef** из коллекции **QueryDefs** в базе данных ядра базы данных Microsoft Access, используйте метод **[Delete](fields-delete-method-dao.md)** в семействе сайтов.
+Чтобы удалить объект **QueryDef** из коллекции **QueryDef** в базе данных ядра СУБД Microsoft Access, используйте метод **[Delete](fields-delete-method-dao.md)** в коллекции.
 

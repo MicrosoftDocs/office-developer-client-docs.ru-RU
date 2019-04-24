@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b931dd869281dcc880f39b3585c257d9308b0734
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301416"
 ---
 # <a name="primarykey-and-unique-properties-example-vc"></a>Пример использования свойств PrimaryKey и Unique (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере свойства [PrimaryKey](primarykey-property-adox.md) и [Уникальный](unique-property-adox.md) [индекс](index-object-adox.md). Код создает новую таблицу с двумя столбцами. Свойства **PrimaryKey** и **Unique** используются для сделать один столбец первичного ключа, для которого не разрешены повторяющиеся значения.
+В этом примере демонстрируются свойства [PrimaryKey](primarykey-property-adox.md) и [UNIQUE](unique-property-adox.md) для [индекса](index-object-adox.md). Код создает новую таблицу с двумя столбцами. Свойства **PrimaryKey** и **UNIQUE** используются, чтобы сделать один столбец первичным ключом, для которого не разрешены повторяющиеся значения.
 
 ```cpp 
  

@@ -1,5 +1,5 @@
 ---
-title: 'Пример: методы BeginTrans CommitTrans, RollbackTrans (VJ ++)'
+title: Пример методов BeginTrans, CommitTrans и RollbackTrans (VJ + +)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)
 ms:assetid: 8c1ca470-792e-4792-8913-fa7d3b46218f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249616(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 976de07f293e4160ac8946205504498931cbdd07
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296845"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-example-vj"></a>Пример использования методов BeginTrans, CommitTrans и RollbackTrans (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере изменяется тип книги все психологии книг в таблице ***Titles*** базы данных. После запуска операции, изолирует все изменения, внесенные в таблице ***заголовки*** метод [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. Можно использовать метод [отката](begintrans-committrans-and-rollbacktrans-methods-ado.md) для отмены изменений, сохраненный с помощью метода [Update](update-method-ado.md) .
+В этом примере изменяется тип Book всех книг психологии в таблице ***titles*** базы данных. После того как метод [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) начинает транзакцию, которая изолирует все изменения, внесенные ****** в таблицу titles, метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. Метод [ROLLBACK](begintrans-committrans-and-rollbacktrans-methods-ado.md) можно использовать для отмены изменений, сохраненных с помощью метода [Update](update-method-ado.md) .
 
 ```java 
  

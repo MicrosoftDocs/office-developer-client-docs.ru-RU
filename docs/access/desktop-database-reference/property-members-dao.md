@@ -1,5 +1,5 @@
 ---
-title: Свойство члены (DAO)
+title: Элементы Property (DAO)
 TOCTitle: Property Members
 ms:assetid: 32658adb-f153-148d-a216-eb97b996579a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe60c12a85eff0dd8f796f9affeef71979dac580
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301213"
 ---
-# <a name="property-members-dao"></a>Свойство члены (DAO)
+# <a name="property-members-dao"></a>Элементы Property (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объект Property представляет характеристику встроенные или пользовательские объекта DAO.
+Объект Property представляет встроенную или определяемую пользователем характеристику объекта DAO.
 
 ## <a name="properties"></a>Свойства
 
@@ -36,24 +36,24 @@ ms.locfileid: "28699144"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="property-inherited-property-dao.md">Унаследованный</a></strong></p></td>
-<td><p>Возвращает значение, указывающее, является ли объект <strong><a href="property-object-dao.md">Свойства</a></strong> наследуется из базового объекта.</p></td>
+<td><p><strong><a href="property-inherited-property-dao.md">Унаследованные</a></strong></p></td>
+<td><p>Возвращает значение, которое указывает, наследуется ли объект <strong><a href="property-object-dao.md">Свойства</a></strong> из базового объекта.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="property-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Возвращает или задает имя указанного объекта. Чтение и запись <strong>строки</strong> Если объект не были добавлены в коллекцию. Только для чтения <strong>строка</strong> Если объект были добавлены в коллекцию.</p></td>
+<td><p>Возвращает или задает имя указанного объекта. <strong>Строка</strong> для чтения и записи, если объект не был добавлен в коллекцию. <strong>Строка</strong> , доступная только для чтения, если объект добавлен в коллекцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="property-properties-property-dao.md">Свойства</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
+<td><p><strong><a href="property-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="property-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Чтение и запись <strong>целое число</strong>.</p></td>
+<td><p><strong><a href="property-type-property-dao.md">Тип</a></strong></p></td>
+<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Чтение и запись <strong>целоГо числа</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="property-value-property-dao.md">Value</a></strong></p></td>
-<td><p>Задает или возвращает значение объекта. Чтение и запись <strong>типа Variant</strong>.</p></td>
+<td><p><strong><a href="property-value-property-dao.md">Значение</a></strong></p></td>
+<td><p>Задает или возвращает значение объекта. Для чтения и записи, <strong>Variant</strong>.</p></td>
 </tr>
 </tbody>
 </table>

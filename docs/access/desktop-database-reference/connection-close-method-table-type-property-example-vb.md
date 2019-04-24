@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2066f4e0f5cb6002d42e029943e8f7b1fc7ad6a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295949"
 ---
 # <a name="connection-close-method-table-type-property-example-vb"></a>Метод Close подключения, пример свойства Type таблицы (VB)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** «закрыть» каталог. Связанные коллекции будет пустым. Любые объекты, которые были созданы на основе схемы объектам в каталоге будут изолированы. Любые свойства на те объекты, которые были кэшированы по-прежнему доступны, но при чтении свойства, которые требуют вызова к поставщику завершится с ошибкой.
+Если задать для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** , каталог будет закрыт. СоПоставленные коллекции будут пустыми. Все объекты, созданные из объектов схемы в каталоге, будут потеряны. Все свойства для этих объектов, которые были кэшированы, будут доступны, но попытка чтения свойств, требующих вызова поставщика, завершится с ошибками.
 
 ```vb 
  
@@ -65,7 +65,7 @@ ms.locfileid: "28699396"
 
 <br/>
 
-Закрытие объект [подключения](connection-object-ado.md) , который использовался для «открыть» каталог должен иметь тот же эффект, что для свойства **ActiveConnection** значение **Nothing**.
+Закрытие объекта [подключения](connection-object-ado.md) , который использовался для "открытия" каталога, должен иметь такой же результат, как и для свойства **ActiveConnection** значение **Nothing**.
 
 ```vb
     Sub CloseConnection() 

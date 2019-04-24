@@ -12,37 +12,37 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: eade809a6e3982dc0dc4cf94ae382af72e8f454e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306799"
 ---
 # <a name="removealltempvars-macro-action"></a>Макрокоманда RemoveAllTempVars
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 
-Чтобы удалить все временные переменные, которые созданы с помощью действия **SetTempVar** можно использовать действие **RemoveAllTempVars** .
+Вы можете использовать действие **Макрокоманда removealltempvars** , чтобы удалить все временные переменные, созданные с помощью действия **Макрокоманда SetTempVar** .
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Параметр
 
-Действие **RemoveAllTempVars** не имеет каких-либо аргументов.
+Действие **Макрокоманда removealltempvars** не имеет аргументов.
 
 ## <a name="remarks"></a>Замечания
 
-  - Может быть длиной до 255 временные переменные, определенные за один раз. Если вы не удалите временную переменную, остается в памяти до закрытия базы данных или проекта. Рекомендуется удалить временные переменные после завершения их использования.
+  - Одновременно может быть определено до 255 временных переменных. Если не удалить временную переменную, она останется в памяти до тех пор, пока не будет закрыта база данных или проект. Рекомендуется удалять временные переменные после завершения их использования.
 
   - Access автоматически удаляет все временные переменные при закрытии базы данных или проекта.
 
-  - Чтобы удалить одного временную переменную, используйте действие **RemoveTempVar** и установите аргумента имя временную переменную, которые вы хотите удалить.
+  - Чтобы удалить одну временную переменную, используйте действие **Макрокоманда removetempvar** и задайте для аргумента имя удаляемой временной переменной.
 
-  - Чтобы выполнить действие **RemoveAllTempVars** в модуле VBA, используйте метод **RemoveAll** объекта **в TempVar** .
+  - Чтобы выполнить действие **Макрокоманда removealltempvars** в модуле VBA, используйте метод **RemoveAll** объекта **TempVars** .
 
 ## <a name="example"></a>Пример
 
-Следующий макрос показано, как создать временную переменную, используйте в окне сообщения и условия и затем удалить временную переменную с помощью действия **RemoveAllTempVars** .
+В следующем макросе показано, как создать временную переменную, использовать ее в условии и окне сообщения, а затем удалить временную переменную с помощью действия **Макрокоманда removealltempvars** .
 
 <table>
 <colgroup>
@@ -53,24 +53,24 @@ ms.locfileid: "28705080"
 <thead>
 <tr class="header">
 <th><p>Условие</p></th>
-<th><p>Action</p></th>
-<th><p>Arguments</p></th>
+<th><p>Действие</p></th>
+<th><p>Аргументы</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>SetTempVar</strong></p></td>
-<td><p><strong>Имя</strong>: MyVar<strong>выражение</strong>: InputBox (&quot;введите ненулевое число.&quot;)</p></td>
+<td><p><strong>Макрокоманда SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>:<strong>выражение</strong>мивар: InputBox (&quot;введите ненулевое значение).&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p>[В TempVar]! [MyVar] &lt; &gt;0</p></td>
+<td><p>[TempVars]! [Мивар] &lt; &gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Сообщение</strong>: =&quot;вы ввели &quot; &amp; [в TempVar]! [MyVar] &amp; &quot;. &quot; <strong>Звуковые сигналы</strong>: <strong>YesType</strong>: <strong>сведения</strong></p></td>
+<td><p><strong>Сообщение</strong>: =&quot;вы ввели &quot; &amp; [TempVars]! [Мивар] &amp; &quot;. &quot; <strong>Гудок</strong>: <strong>естипе</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>RemoveAllTempVars</strong></p></td>
+<td><p><strong>Макрокоманда removealltempvars</strong></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
