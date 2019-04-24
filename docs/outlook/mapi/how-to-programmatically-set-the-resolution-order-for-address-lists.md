@@ -1,57 +1,57 @@
 ---
-title: Приоритет разрешения для списков адресов для задания программным путем
+title: Программная установка порядка разрешения для списков адресов
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
-description: 'Последнее изменение: 06 июля 2012 г.'
+description: 'Дата последнего изменения: 06 июля, 2012'
 ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345964"
 ---
-# <a name="programmatically-set-the-resolution-order-for-address-lists"></a><span data-ttu-id="21024-103">Приоритет разрешения для списков адресов для задания программным путем</span><span class="sxs-lookup"><span data-stu-id="21024-103">Programmatically set the resolution order for address lists</span></span>
+# <a name="programmatically-set-the-resolution-order-for-address-lists"></a><span data-ttu-id="faa56-103">Программная установка порядка разрешения для списков адресов</span><span class="sxs-lookup"><span data-stu-id="faa56-103">Programmatically set the resolution order for address lists</span></span>
   
-<span data-ttu-id="21024-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="21024-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="faa56-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="faa56-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="21024-105">В этом разделе содержится пример кода на C++, который программно задает порядок списков адресов в список получателей электронной почты разрешаются сообщений и участниками в рабочей области приглашений на собрания.</span><span class="sxs-lookup"><span data-stu-id="21024-105">This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.</span></span>
+<span data-ttu-id="faa56-105">В этой статье приведен пример кода на языке C++, который программно устанавливает порядок списков адресов, по которым разрешены получатели в сообщениях электронной почты и участников в приглашении на собрание.</span><span class="sxs-lookup"><span data-stu-id="faa56-105">This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.</span></span>
   
-<span data-ttu-id="21024-106">В MAPI каждый профиль может поддерживать несколько списков адресов, а каждый список адресов в свой собственный контейнер.</span><span class="sxs-lookup"><span data-stu-id="21024-106">In MAPI, each profile can support multiple address lists and each address list resides in its own container.</span></span> <span data-ttu-id="21024-107">Метод **[SetSearchPath](https://support.microsoft.com/kb/292590)** поддерживает MAPI в интерфейс, который позволяет задать новый путь для поиска профиля, который используется для разрешения имен.</span><span class="sxs-lookup"><span data-stu-id="21024-107">MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution.</span></span> <span data-ttu-id="21024-108">Чтобы использовать метод **IAddrBook::SetSearchPath** , необходимо определить порядок необходимое разрешение в массиве **[SRowSet](srowset.md)** , в котором размещается контейнеров соответствующих адресными книгами в установленном порядке, а затем укажите массив как *lpSearchPath*  параметр.</span><span class="sxs-lookup"><span data-stu-id="21024-108">To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter.</span></span> <span data-ttu-id="21024-109">Первое свойство для каждой записи в массиве **SRowSet** значения свойства **[PR_ENTRYID](pidtagentryid-canonical-property.md)** соответствующий адресной книги.</span><span class="sxs-lookup"><span data-stu-id="21024-109">The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book.</span></span> 
+<span data-ttu-id="faa56-106">В MAPI каждый профиль может поддерживать несколько списков адресов и каждый из них находится в отдельном контейнере.</span><span class="sxs-lookup"><span data-stu-id="faa56-106">In MAPI, each profile can support multiple address lists and each address list resides in its own container.</span></span> <span data-ttu-id="faa56-107">MAPI поддерживает метод **[сетсеарчпас](https://support.microsoft.com/kb/292590)** в интерфейсе, с помощью которого можно задать новый путь поиска в профиле, который используется для разрешения имен.</span><span class="sxs-lookup"><span data-stu-id="faa56-107">MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution.</span></span> <span data-ttu-id="faa56-108">Чтобы использовать метод **IAddrBook:: сетсеарчпас** , необходимо определить нужный порядок разрешения в массиве **[SRowSet](srowset.md)** , который содержит контейнеры соответствующих адресных книг, в нужном порядке, а затем указать массив в качестве *лпсеарчпас*  параметр.</span><span class="sxs-lookup"><span data-stu-id="faa56-108">To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter.</span></span> <span data-ttu-id="faa56-109">Первое свойство для каждой записи в массиве **SRowSet** должно быть свойством **[пр_ентрид](pidtagentryid-canonical-property.md)** соответствующей адресной книги.</span><span class="sxs-lookup"><span data-stu-id="faa56-109">The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book.</span></span> 
   
-<span data-ttu-id="21024-110">Пример кода задает порядок обработки выполняются следующие шаги:</span><span class="sxs-lookup"><span data-stu-id="21024-110">The code sample sets the resolution order in the following steps:</span></span>
+<span data-ttu-id="faa56-110">В примере кода выполняется установка порядка разрешения в следующих шагах:</span><span class="sxs-lookup"><span data-stu-id="faa56-110">The code sample sets the resolution order in the following steps:</span></span>
   
-1. <span data-ttu-id="21024-111">Инициализирует `numANR` число контейнеров в соответствии с и указывает имена и порядок обработки списков нужный адрес `ANROrder` массива.</span><span class="sxs-lookup"><span data-stu-id="21024-111">Initializes  `numANR` to the number of containers to match, and specifies the names and resolution order of the desired address lists in an  `ANROrder` array.</span></span> 
+1. <span data-ttu-id="faa56-111">`numANR` Инициализирует число сравниваемых контейнеров и задает имена и порядок разрешения для требуемых списков адресов в `ANROrder` массиве.</span><span class="sxs-lookup"><span data-stu-id="faa56-111">Initializes  `numANR` to the number of containers to match, and specifies the names and resolution order of the desired address lists in an  `ANROrder` array.</span></span> 
     
-2. <span data-ttu-id="21024-112">Инициализирует MAPI с помощью функции **MAPIInitialize** .</span><span class="sxs-lookup"><span data-stu-id="21024-112">Initializes MAPI by using the **MAPIInitialize** function.</span></span> 
+2. <span data-ttu-id="faa56-112">Инициализирует MAPI с помощью функции **мапиинитиализе** .</span><span class="sxs-lookup"><span data-stu-id="faa56-112">Initializes MAPI by using the **MAPIInitialize** function.</span></span> 
     
-3.  <span data-ttu-id="21024-113">Вход в MAPI и пользователь может выбрать профиль.</span><span class="sxs-lookup"><span data-stu-id="21024-113">Logs on to MAPI and allows the user to choose a profile.</span></span> 
+3.  <span data-ttu-id="faa56-113">Выполняет вход в MAPI и позволяет пользователю выбрать профиль.</span><span class="sxs-lookup"><span data-stu-id="faa56-113">Logs on to MAPI and allows the user to choose a profile.</span></span> 
     
-4.  <span data-ttu-id="21024-114">Получает указатель на адресной книги из текущего сеанса.</span><span class="sxs-lookup"><span data-stu-id="21024-114">Gets a pointer to the address book from the current session.</span></span> 
+4.  <span data-ttu-id="faa56-114">Получает указатель на адресную книгу из текущего сеанса.</span><span class="sxs-lookup"><span data-stu-id="faa56-114">Gets a pointer to the address book from the current session.</span></span> 
     
-5. <span data-ttu-id="21024-115">Открыть адресную книгу.</span><span class="sxs-lookup"><span data-stu-id="21024-115">Opens the Address Book.</span></span>
+5. <span data-ttu-id="faa56-115">Открывает адресную книгу.</span><span class="sxs-lookup"><span data-stu-id="faa56-115">Opens the Address Book.</span></span>
     
-6. <span data-ttu-id="21024-116">Открывает контейнер для корневого адресной книги.</span><span class="sxs-lookup"><span data-stu-id="21024-116">Opens the container for the root Address Book.</span></span>
+6. <span data-ttu-id="faa56-116">Открывает контейнер для корневой адресной книги.</span><span class="sxs-lookup"><span data-stu-id="faa56-116">Opens the container for the root Address Book.</span></span>
     
-7. <span data-ttu-id="21024-117">Открывает таблицу иерархии контейнер корневого адресной книги.</span><span class="sxs-lookup"><span data-stu-id="21024-117">Opens the hierarchy table of the root address book container.</span></span>
+7. <span data-ttu-id="faa56-117">Открывает таблицу иерархий в контейнере корневой адресной книги.</span><span class="sxs-lookup"><span data-stu-id="faa56-117">Opens the hierarchy table of the root address book container.</span></span>
     
-8. <span data-ttu-id="21024-118">Получает список адресов книги контейнеров в иерархии.</span><span class="sxs-lookup"><span data-stu-id="21024-118">Gets the list of address book containers in the hierarchy.</span></span>
+8. <span data-ttu-id="faa56-118">Получает список контейнеров адресных книг в иерархии.</span><span class="sxs-lookup"><span data-stu-id="faa56-118">Gets the list of address book containers in the hierarchy.</span></span>
     
-9. <span data-ttu-id="21024-119">Выполняет поиск идентификаторы нужный адрес списков путем сравнения имена желаемую адресными книгами в `ANROrder` для существующих имен в иерархии адресной книги.</span><span class="sxs-lookup"><span data-stu-id="21024-119">Looks for the entry IDs of the desired address lists by comparing the names of the desired address lists in  `ANROrder` to the existing names in the address book hierarchy.</span></span> 
+9. <span data-ttu-id="faa56-119">Ищет идентификаторы элементов требуемых списков адресов, сравнивая имена нужных списков адресов `ANROrder` с существующими именами в иерархии адресной книги.</span><span class="sxs-lookup"><span data-stu-id="faa56-119">Looks for the entry IDs of the desired address lists by comparing the names of the desired address lists in  `ANROrder` to the existing names in the address book hierarchy.</span></span> 
     
-10. <span data-ttu-id="21024-120">Задает средством идентификаторы в массив **SRowSet** `pNewRows`.</span><span class="sxs-lookup"><span data-stu-id="21024-120">Sets the appropriate entry IDs to the **SRowSet** array,  `pNewRows`.</span></span>
+10. <span data-ttu-id="faa56-120">Задает соответствующие идентификаторы записи в массиве **SRowSet** `pNewRows`.</span><span class="sxs-lookup"><span data-stu-id="faa56-120">Sets the appropriate entry IDs to the **SRowSet** array,  `pNewRows`.</span></span>
     
-11. <span data-ttu-id="21024-121">Вызывает и передает `pNewRows` как параметр *lpSearchPath* для **IAddrBook::SetSearchPath** , чтобы задать путь для поиска.</span><span class="sxs-lookup"><span data-stu-id="21024-121">Calls and passes  `pNewRows` as the  *lpSearchPath*  parameter to **IAddrBook::SetSearchPath** to set the search path.</span></span> 
+11. <span data-ttu-id="faa56-121">Вызывает метод и `pNewRows` передает его в качестве параметра *лпсеарчпас* в **IAddrBook:: сетсеарчпас** , чтобы задать путь для поиска.</span><span class="sxs-lookup"><span data-stu-id="faa56-121">Calls and passes  `pNewRows` as the  *lpSearchPath*  parameter to **IAddrBook::SetSearchPath** to set the search path.</span></span> 
     
-12. <span data-ttu-id="21024-122">Очищает внутренние буферы и указатели.</span><span class="sxs-lookup"><span data-stu-id="21024-122">Cleans up internal buffers and pointers.</span></span>
+12. <span data-ttu-id="faa56-122">Очищает внутренние буферы и указатели.</span><span class="sxs-lookup"><span data-stu-id="faa56-122">Cleans up internal buffers and pointers.</span></span>
     
-13. <span data-ttu-id="21024-123">Журналы отключение MAPI.</span><span class="sxs-lookup"><span data-stu-id="21024-123">Logs off from MAPI.</span></span>
+13. <span data-ttu-id="faa56-123">Выполняет выход из MAPI.</span><span class="sxs-lookup"><span data-stu-id="faa56-123">Logs off from MAPI.</span></span>
     
-14. <span data-ttu-id="21024-124">Uninitalizes MAPI.</span><span class="sxs-lookup"><span data-stu-id="21024-124">Uninitalizes MAPI.</span></span>
+14. <span data-ttu-id="faa56-124">Унинитализес MAPI.</span><span class="sxs-lookup"><span data-stu-id="faa56-124">Uninitalizes MAPI.</span></span>
     
-<span data-ttu-id="21024-125">В этом примере кода используется списки адресов, доступные в по умолчанию при установке Microsoft Office Outlook: **Все контакты**, **Всех групп**и **контактов**.</span><span class="sxs-lookup"><span data-stu-id="21024-125">This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**.</span></span> <span data-ttu-id="21024-126">После того как Outlook запущено и работает на инициализированный профилей необходимо запустить примера.</span><span class="sxs-lookup"><span data-stu-id="21024-126">You must run the sample after Outlook is started and is running on an initialized profile.</span></span> <span data-ttu-id="21024-127">Пример хорошо работает с именами, которые находятся в одном языке (например, все имена, на английском языке).</span><span class="sxs-lookup"><span data-stu-id="21024-127">The sample works well with names that are in one language (for example, all names are in English).</span></span> <span data-ttu-id="21024-128">Он не предназначен для работы в многоязычной развертываниях например папку **Контакты** , локализован для пользователя, выполняющего построения не английской Outlook.</span><span class="sxs-lookup"><span data-stu-id="21024-128">It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build.</span></span> 
+<span data-ttu-id="faa56-125">В этом примере кода используются списки адресов, доступные в установке Microsoft Office Outlook по умолчанию: " **все контакты**", " **все группы**" и " **Контакты**".</span><span class="sxs-lookup"><span data-stu-id="faa56-125">This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**.</span></span> <span data-ttu-id="faa56-126">Необходимо запустить пример после запуска Outlook и запуска в инициализированном профиле.</span><span class="sxs-lookup"><span data-stu-id="faa56-126">You must run the sample after Outlook is started and is running on an initialized profile.</span></span> <span data-ttu-id="faa56-127">Пример хорошо подходит для имен, которые находятся на одном языке (например, все имена отображаются на английском языке).</span><span class="sxs-lookup"><span data-stu-id="faa56-127">The sample works well with names that are in one language (for example, all names are in English).</span></span> <span data-ttu-id="faa56-128">Он не предназначен для работы с многоязычными развертываниями, например для папки " **Контакты** ", локализованной для пользователя с не английской сборкой Outlook.</span><span class="sxs-lookup"><span data-stu-id="faa56-128">It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build.</span></span> 
   
 ```cpp
 #include "stdafx.h" 
@@ -264,7 +264,7 @@ STDMETHODIMP CopySBinary(
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="21024-129">См. также</span><span class="sxs-lookup"><span data-stu-id="21024-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="faa56-129">См. также</span><span class="sxs-lookup"><span data-stu-id="faa56-129">See also</span></span>
 
-- [<span data-ttu-id="21024-130">Сведения о настройке порядка разрешения для списков адресов в Outlook</span><span class="sxs-lookup"><span data-stu-id="21024-130">About Setting the Resolution Order for Address Lists in Outlook</span></span>](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [<span data-ttu-id="faa56-130">О настройке порядка разрешения для списков адресов в Outlook</span><span class="sxs-lookup"><span data-stu-id="faa56-130">About Setting the Resolution Order for Address Lists in Outlook</span></span>](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

@@ -13,59 +13,59 @@ api_type:
 ms.assetid: cd57a5be-5550-4492-acb9-52255fac9014
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bbac700c2bf5a0e17967cbf94b68b03627a47256
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344942"
 ---
-# <a name="pidlidchangehighlight-canonical-property"></a><span data-ttu-id="30c99-103">Каноническое свойство PidLidChangeHighlight</span><span class="sxs-lookup"><span data-stu-id="30c99-103">PidLidChangeHighlight Canonical Property</span></span>
+# <a name="pidlidchangehighlight-canonical-property"></a><span data-ttu-id="663c8-103">Каноническое свойство PidLidChangeHighlight</span><span class="sxs-lookup"><span data-stu-id="663c8-103">PidLidChangeHighlight Canonical Property</span></span>
 
   
   
-<span data-ttu-id="30c99-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="30c99-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="663c8-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="663c8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="30c99-105">Задает битовое поле, которое указывает, как изменения объекта собрания.</span><span class="sxs-lookup"><span data-stu-id="30c99-105">Specifies a bit field that indicates how the meeting object changed.</span></span>
+<span data-ttu-id="663c8-105">Задает битовое поле, которое указывает способ изменения объекта собрания.</span><span class="sxs-lookup"><span data-stu-id="663c8-105">Specifies a bit field that indicates how the meeting object changed.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="30c99-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="30c99-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="30c99-107">dispidChangeHighlight</span><span class="sxs-lookup"><span data-stu-id="30c99-107">dispidChangeHighlight</span></span>  <br/> |
-|<span data-ttu-id="30c99-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="30c99-108">Property set:</span></span>  <br/> |<span data-ttu-id="30c99-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="30c99-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="30c99-110">Длинный идентификатор (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="30c99-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="30c99-111">0x00008204</span><span class="sxs-lookup"><span data-stu-id="30c99-111">0x00008204</span></span>  <br/> |
-|<span data-ttu-id="30c99-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="30c99-112">Data type:</span></span>  <br/> |<span data-ttu-id="30c99-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="30c99-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="30c99-114">Область:</span><span class="sxs-lookup"><span data-stu-id="30c99-114">Area:</span></span>  <br/> |<span data-ttu-id="30c99-115">Meetings (собрания);</span><span class="sxs-lookup"><span data-stu-id="30c99-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="663c8-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="663c8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="663c8-107">Диспидчанжехигхлигхт</span><span class="sxs-lookup"><span data-stu-id="663c8-107">dispidChangeHighlight</span></span>  <br/> |
+|<span data-ttu-id="663c8-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="663c8-108">Property set:</span></span>  <br/> |<span data-ttu-id="663c8-109">Псетид_аппоинтмент</span><span class="sxs-lookup"><span data-stu-id="663c8-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="663c8-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="663c8-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="663c8-111">0x00008204</span><span class="sxs-lookup"><span data-stu-id="663c8-111">0x00008204</span></span>  <br/> |
+|<span data-ttu-id="663c8-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="663c8-112">Data type:</span></span>  <br/> |<span data-ttu-id="663c8-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="663c8-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="663c8-114">Область:</span><span class="sxs-lookup"><span data-stu-id="663c8-114">Area:</span></span>  <br/> |<span data-ttu-id="663c8-115">Meetings</span><span class="sxs-lookup"><span data-stu-id="663c8-115">Meetings</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="30c99-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="30c99-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="663c8-116">Комментарии</span><span class="sxs-lookup"><span data-stu-id="663c8-116">Remarks</span></span>
 
-<span data-ttu-id="30c99-117">Это свойство не требуется.</span><span class="sxs-lookup"><span data-stu-id="30c99-117">This property is not required.</span></span> <span data-ttu-id="30c99-118">Можно задать отдельные флаги подробно рассмотрены в [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="30c99-118">The individual flags that can be set are detailed in [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="663c8-117">Это свойство не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="663c8-117">This property is not required.</span></span> <span data-ttu-id="663c8-118">Отдельные флажки, которые можно задать, подробно описаны в разделе [[MS – оксокал]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="663c8-118">The individual flags that can be set are detailed in [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="30c99-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="30c99-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="663c8-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="663c8-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="30c99-120">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="30c99-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="663c8-120">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="663c8-120">Protocol specifications</span></span>
 
-<span data-ttu-id="30c99-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="30c99-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="663c8-121">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="663c8-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="30c99-122">Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="30c99-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="663c8-122">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="663c8-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="30c99-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="30c99-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="663c8-123">[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="663c8-123">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="30c99-124">Задает свойства и операции для встречи, приглашения на собрание и ответы.</span><span class="sxs-lookup"><span data-stu-id="30c99-124">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="663c8-124">Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="663c8-124">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="30c99-125">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="30c99-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="663c8-125">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="663c8-125">Header files</span></span>
 
-<span data-ttu-id="30c99-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="30c99-126">Mapidefs.h</span></span>
+<span data-ttu-id="663c8-126">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="663c8-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="30c99-127">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="30c99-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="663c8-127">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="663c8-127">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="30c99-128">См. также</span><span class="sxs-lookup"><span data-stu-id="30c99-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="663c8-128">См. также</span><span class="sxs-lookup"><span data-stu-id="663c8-128">See also</span></span>
 
 
 
-[<span data-ttu-id="30c99-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="30c99-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="663c8-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="663c8-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="30c99-130">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="30c99-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="663c8-130">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="663c8-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="30c99-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="30c99-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="663c8-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="663c8-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="30c99-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="30c99-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="663c8-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="663c8-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

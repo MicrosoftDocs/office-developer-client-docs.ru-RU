@@ -1,25 +1,25 @@
 ---
-title: Раздел "Свойства темы"
+title: Theme Properties Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 135c4a12-8ee0-4b70-bb58-572a064ecee4
-description: Представлены значения индекса в настоящее время применяется к документу, включая цвета, шрифта, соединителя и значения эффекты темы.
-ms.openlocfilehash: 91d7d34d5751ceb5a4eab7927d10ccdfa7876cd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Показывает значения индекса темы, которые в данный момент применены к документу, в том числе значения цвета, шрифта, соединителя и эффектов.
+ms.openlocfilehash: 4ee074e11cea0787ccbe616e97a279ee5e8e20dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360587"
 ---
-# <a name="theme-properties-section"></a><span data-ttu-id="34443-103">Раздел "Свойства темы"</span><span class="sxs-lookup"><span data-stu-id="34443-103">Theme Properties Section</span></span>
+# <a name="theme-properties-section"></a><span data-ttu-id="a75b2-103">Theme Properties Section</span><span class="sxs-lookup"><span data-stu-id="a75b2-103">Theme Properties Section</span></span>
 
-<span data-ttu-id="34443-104">Представлены значения индекса в настоящее время применяется к документу, включая цвета, шрифта, соединителя и значения эффекты темы.</span><span class="sxs-lookup"><span data-stu-id="34443-104">Shows the index values of the theme currently applied to the document, including color, font, connector, and effects values.</span></span> 
+<span data-ttu-id="a75b2-104">Показывает значения индекса темы, которые в данный момент применены к документу, в том числе значения цвета, шрифта, соединителя и эффектов.</span><span class="sxs-lookup"><span data-stu-id="a75b2-104">Shows the index values of the theme currently applied to the document, including color, font, connector, and effects values.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="34443-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="34443-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a75b2-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="a75b2-105">Remarks</span></span>
 
-<span data-ttu-id="34443-106">На вкладке **Конструктор** или при внесении изменений в ячейках в разделе **Свойства темы** из таблицы свойств фигуры, можно задать значения темы.</span><span class="sxs-lookup"><span data-stu-id="34443-106">You can set theme values on the **Design** tab or by making changes in the cells in the **Theme Properties** section of the ShapeSheet.</span></span> 
+<span data-ttu-id="a75b2-106">Вы можете задать значения темы на вкладке " **конструктор** " или внести изменения в ячейки в разделе " **свойства темы** " таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="a75b2-106">You can set theme values on the **Design** tab or by making changes in the cells in the **Theme Properties** section of the ShapeSheet.</span></span> 
   
 

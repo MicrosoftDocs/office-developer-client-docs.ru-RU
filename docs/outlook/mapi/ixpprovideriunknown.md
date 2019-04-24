@@ -1,5 +1,5 @@
 ---
-title: IXPProvider IUnknown
+title: Иксппровидер IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,35 +12,35 @@ api_type:
 - COM
 ms.assetid: d5507785-c924-4981-ae80-19709ceb054d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 49cb500279540317059cde2d9baba28fcbf06165
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0aa77ced9d0c242dcafb84ca1e1a60d02db9504a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357451"
 ---
-# <a name="ixpprovider--iunknown"></a><span data-ttu-id="0e264-103">IXPProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0e264-103">IXPProvider : IUnknown</span></span>
+# <a name="ixpprovider--iunknown"></a><span data-ttu-id="44edd-103">IXPProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="44edd-103">IXPProvider : IUnknown</span></span>
 
   
   
-<span data-ttu-id="0e264-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0e264-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="44edd-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="44edd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0e264-105">Инициализирует объект поставщика транспорта и завершает работу объекта, если они больше не нужны.</span><span class="sxs-lookup"><span data-stu-id="0e264-105">Initializes a transport provider object and shuts down the object when it is no longer needed.</span></span>
+<span data-ttu-id="44edd-105">Инициализирует объект поставщика транспорта и завершает объект, когда он больше не нужен.</span><span class="sxs-lookup"><span data-stu-id="44edd-105">Initializes a transport provider object and shuts down the object when it is no longer needed.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0e264-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="0e264-106">Header file:</span></span>  <br/> |<span data-ttu-id="0e264-107">Mapispi.h</span><span class="sxs-lookup"><span data-stu-id="0e264-107">Mapispi.h</span></span>  <br/> |
-|<span data-ttu-id="0e264-108">Предоставляемые:</span><span class="sxs-lookup"><span data-stu-id="0e264-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="0e264-109">Объекты поставщика транспорта</span><span class="sxs-lookup"><span data-stu-id="0e264-109">Transport provider objects</span></span>  <br/> |
-|<span data-ttu-id="0e264-110">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="0e264-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="0e264-111">Поставщиками транспорта</span><span class="sxs-lookup"><span data-stu-id="0e264-111">Transport providers</span></span>  <br/> |
-|<span data-ttu-id="0e264-112">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="0e264-112">Called by:</span></span>  <br/> |<span data-ttu-id="0e264-113">Диспетчер очереди MAPI</span><span class="sxs-lookup"><span data-stu-id="0e264-113">The MAPI spooler</span></span>  <br/> |
-|<span data-ttu-id="0e264-114">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="0e264-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="0e264-115">IID_IXPProvider</span><span class="sxs-lookup"><span data-stu-id="0e264-115">IID_IXPProvider</span></span>  <br/> |
-|<span data-ttu-id="0e264-116">Тип указателя:</span><span class="sxs-lookup"><span data-stu-id="0e264-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="0e264-117">LPXPROVIDER</span><span class="sxs-lookup"><span data-stu-id="0e264-117">LPXPROVIDER</span></span>  <br/> |
+|<span data-ttu-id="44edd-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="44edd-106">Header file:</span></span>  <br/> |<span data-ttu-id="44edd-107">Маписпи. h</span><span class="sxs-lookup"><span data-stu-id="44edd-107">Mapispi.h</span></span>  <br/> |
+|<span data-ttu-id="44edd-108">Предоставлено:</span><span class="sxs-lookup"><span data-stu-id="44edd-108">Exposed by:</span></span>  <br/> |<span data-ttu-id="44edd-109">Объекты поставщиков транспорта</span><span class="sxs-lookup"><span data-stu-id="44edd-109">Transport provider objects</span></span>  <br/> |
+|<span data-ttu-id="44edd-110">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="44edd-110">Implemented by:</span></span>  <br/> |<span data-ttu-id="44edd-111">Поставщики транспорта</span><span class="sxs-lookup"><span data-stu-id="44edd-111">Transport providers</span></span>  <br/> |
+|<span data-ttu-id="44edd-112">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="44edd-112">Called by:</span></span>  <br/> |<span data-ttu-id="44edd-113">Диспетчер очереди MAPI</span><span class="sxs-lookup"><span data-stu-id="44edd-113">The MAPI spooler</span></span>  <br/> |
+|<span data-ttu-id="44edd-114">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="44edd-114">Interface identifier:</span></span>  <br/> |<span data-ttu-id="44edd-115">Иид_иксппровидер</span><span class="sxs-lookup"><span data-stu-id="44edd-115">IID_IXPProvider</span></span>  <br/> |
+|<span data-ttu-id="44edd-116">Тип указателя:</span><span class="sxs-lookup"><span data-stu-id="44edd-116">Pointer type:</span></span>  <br/> |<span data-ttu-id="44edd-117">ЛПКСПРОВИДЕР</span><span class="sxs-lookup"><span data-stu-id="44edd-117">LPXPROVIDER</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="0e264-118">Порядке vtable</span><span class="sxs-lookup"><span data-stu-id="0e264-118">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="44edd-118">Заказ vtable</span><span class="sxs-lookup"><span data-stu-id="44edd-118">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="0e264-119">Shutdown</span><span class="sxs-lookup"><span data-stu-id="0e264-119">Shutdown</span></span>](ixpprovider-shutdown.md) <br/> |<span data-ttu-id="0e264-120">Закрывает вниз поставщика транспорта определенным образом.</span><span class="sxs-lookup"><span data-stu-id="0e264-120">Closes down a transport provider in an orderly fashion.</span></span>  <br/> |
-|[<span data-ttu-id="0e264-121">TransportLogon</span><span class="sxs-lookup"><span data-stu-id="0e264-121">TransportLogon</span></span>](ixpprovider-transportlogon.md) <br/> |<span data-ttu-id="0e264-122">Устанавливает сеанс, в котором клиентское приложение входит в систему поставщика транспорта.</span><span class="sxs-lookup"><span data-stu-id="0e264-122">Establishes a session in which a client application logs on to a transport provider.</span></span>  <br/> |
+|[<span data-ttu-id="44edd-119">Shutdown</span><span class="sxs-lookup"><span data-stu-id="44edd-119">Shutdown</span></span>](ixpprovider-shutdown.md) <br/> |<span data-ttu-id="44edd-120">ЗаКрывает поставщик транспорта в определенном порядке.</span><span class="sxs-lookup"><span data-stu-id="44edd-120">Closes down a transport provider in an orderly fashion.</span></span>  <br/> |
+|[<span data-ttu-id="44edd-121">Транспортлогон</span><span class="sxs-lookup"><span data-stu-id="44edd-121">TransportLogon</span></span>](ixpprovider-transportlogon.md) <br/> |<span data-ttu-id="44edd-122">Устанавливает сеанс, в котором клиентское приложение выполняет вход в поставщик транспорта.</span><span class="sxs-lookup"><span data-stu-id="44edd-122">Establishes a session in which a client application logs on to a transport provider.</span></span>  <br/> |
    
 

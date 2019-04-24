@@ -1,5 +1,5 @@
 ---
-title: Ячейка FlipX (раздел "Преобразование фигуры")
+title: FlipX Cell (Shape Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251197
 localization_priority: Normal
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
-description: Указывает, является ли фигура отразилось по горизонтали.
-ms.openlocfilehash: fc014ff6c5a3650361d6afd478a5858f84fb5c47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает, была ли фигура отражена по горизонтали.
+ms.openlocfilehash: b7a4a15e5a7759eddcda3ec391a81f14df545691
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346188"
 ---
-# <a name="flipx-cell-shape-transform-section"></a><span data-ttu-id="da2eb-103">Ячейка FlipX (раздел "Преобразование фигуры")</span><span class="sxs-lookup"><span data-stu-id="da2eb-103">FlipX Cell (Shape Transform Section)</span></span>
+# <a name="flipx-cell-shape-transform-section"></a><span data-ttu-id="31229-103">FlipX Cell (Shape Transform Section)</span><span class="sxs-lookup"><span data-stu-id="31229-103">FlipX Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="da2eb-104">Указывает, является ли фигура отразилось по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="da2eb-104">Indicates whether the shape has been flipped horizontally.</span></span>
+<span data-ttu-id="31229-104">Указывает, была ли фигура отражена по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="31229-104">Indicates whether the shape has been flipped horizontally.</span></span>
   
-|<span data-ttu-id="da2eb-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="da2eb-105">**Value**</span></span>|<span data-ttu-id="da2eb-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="da2eb-106">**Description**</span></span>|
+|<span data-ttu-id="31229-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="31229-105">**Value**</span></span>|<span data-ttu-id="31229-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="31229-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="da2eb-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="da2eb-107">TRUE</span></span>  <br/> | <span data-ttu-id="da2eb-108">По горизонтали отразилось фигуры.</span><span class="sxs-lookup"><span data-stu-id="da2eb-108">The shape has been flipped horizontally.</span></span>  <br/> |
-| <span data-ttu-id="da2eb-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="da2eb-109">FALSE</span></span>  <br/> | <span data-ttu-id="da2eb-110">Фигура не отразилось по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="da2eb-110">The shape has not been flipped horizontally.</span></span>  <br/> |
+| <span data-ttu-id="31229-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="31229-107">TRUE</span></span>  <br/> | <span data-ttu-id="31229-108">Фигура была зеркально отражена по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="31229-108">The shape has been flipped horizontally.</span></span>  <br/> |
+| <span data-ttu-id="31229-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="31229-109">FALSE</span></span>  <br/> | <span data-ttu-id="31229-110">Фигура не была отражена по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="31229-110">The shape has not been flipped horizontally.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="da2eb-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="da2eb-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="31229-111">Комментарии</span><span class="sxs-lookup"><span data-stu-id="31229-111">Remarks</span></span>
 
-<span data-ttu-id="da2eb-112">Чтобы получить ссылку на ячейку FlipX по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="da2eb-112">To get a reference to the FlipX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="31229-112">Чтобы получить ссылку на ячейку FlipX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="31229-112">To get a reference to the FlipX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="da2eb-113">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="da2eb-113">Cell name:</span></span>  <br/> | <span data-ttu-id="da2eb-114">FlipX</span><span class="sxs-lookup"><span data-stu-id="da2eb-114">FlipX</span></span>  <br/> |
+| <span data-ttu-id="31229-113">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="31229-113">Cell name:</span></span>  <br/> | <span data-ttu-id="31229-114">FlipX</span><span class="sxs-lookup"><span data-stu-id="31229-114">FlipX</span></span>  <br/> |
    
-<span data-ttu-id="da2eb-115">Для получения ссылки на ячейки FlipX по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="da2eb-115">To get a reference to the FlipX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="31229-115">Чтобы получить ссылку на ячейку FlipX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="31229-115">To get a reference to the FlipX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="da2eb-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="da2eb-116">Section index:</span></span>  <br/> |<span data-ttu-id="da2eb-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="da2eb-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="da2eb-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="da2eb-118">Row index:</span></span>  <br/> |<span data-ttu-id="da2eb-119">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="da2eb-119">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="da2eb-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="da2eb-120">Cell index:</span></span>  <br/> |<span data-ttu-id="da2eb-121">**visXFormFlipX**</span><span class="sxs-lookup"><span data-stu-id="da2eb-121">**visXFormFlipX**</span></span> <br/> |
+| <span data-ttu-id="31229-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="31229-116">Section index:</span></span>  <br/> |<span data-ttu-id="31229-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="31229-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="31229-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="31229-118">Row index:</span></span>  <br/> |<span data-ttu-id="31229-119">**Висровксформаут**</span><span class="sxs-lookup"><span data-stu-id="31229-119">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="31229-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="31229-120">Cell index:</span></span>  <br/> |<span data-ttu-id="31229-121">**Висксформфлипкс**</span><span class="sxs-lookup"><span data-stu-id="31229-121">**visXFormFlipX**</span></span> <br/> |
    
 

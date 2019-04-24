@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251583
 localization_priority: Normal
 ms.assetid: b2453014-7d45-f4c9-0384-def705c5c4d4
-description: Возвращает текст из поля диспетчера свойств документа.
-ms.openlocfilehash: fb012e4bcb3ed2a95782873e8f24241eba7886c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает текст из поля "руководитель" в свойствах документа.
+ms.openlocfilehash: f69666fa762a96ecedd9ab4c41a4db34ce78f2cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344788"
 ---
-# <a name="manager-function"></a><span data-ttu-id="a4344-103">Функция MANAGER</span><span class="sxs-lookup"><span data-stu-id="a4344-103">MANAGER Function</span></span>
+# <a name="manager-function"></a><span data-ttu-id="89665-103">Функция MANAGER</span><span class="sxs-lookup"><span data-stu-id="89665-103">MANAGER Function</span></span>
 
-<span data-ttu-id="a4344-104">Возвращает текст из поля **диспетчера** свойств документа.</span><span class="sxs-lookup"><span data-stu-id="a4344-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
+<span data-ttu-id="89665-104">Возвращает текст из поля " **руководитель** " в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="89665-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="a4344-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a4344-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="89665-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="89665-105">Syntax</span></span>
 
-<span data-ttu-id="a4344-106">(ДИСПЕТЧЕР)</span><span class="sxs-lookup"><span data-stu-id="a4344-106">MANAGER ()</span></span>
+<span data-ttu-id="89665-106">MANAGER ()</span><span class="sxs-lookup"><span data-stu-id="89665-106">MANAGER ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="a4344-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="89665-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="89665-107">Return value</span></span>
 
-<span data-ttu-id="a4344-108">String</span><span class="sxs-lookup"><span data-stu-id="a4344-108">String</span></span>
+<span data-ttu-id="89665-108">Строка</span><span class="sxs-lookup"><span data-stu-id="89665-108">String</span></span>
   
 

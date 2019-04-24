@@ -13,64 +13,64 @@ api_type:
 ms.assetid: 7db0645b-f3ab-4fc4-b865-68c952aeb359
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 0e49b73c777988ad3559a442af920af3d8f4bdbb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356471"
 ---
-# <a name="pidtagreadreceiptrequested-canonical-property"></a><span data-ttu-id="704a9-103">Каноническое свойство PidTagReadReceiptRequested</span><span class="sxs-lookup"><span data-stu-id="704a9-103">PidTagReadReceiptRequested Canonical Property</span></span>
+# <a name="pidtagreadreceiptrequested-canonical-property"></a><span data-ttu-id="1d205-103">Каноническое свойство PidTagReadReceiptRequested</span><span class="sxs-lookup"><span data-stu-id="1d205-103">PidTagReadReceiptRequested Canonical Property</span></span>
 
   
   
-<span data-ttu-id="704a9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="704a9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1d205-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1d205-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="704a9-105">Содержит значение TRUE, если отправитель сообщения запрашивает системы обмена сообщениями для создания чтения отчета, когда получатель сообщения.</span><span class="sxs-lookup"><span data-stu-id="704a9-105">Contains TRUE if a message sender wants the messaging system to generate a read report when the recipient has read a message.</span></span>
+<span data-ttu-id="1d205-105">Содержит значение TRUE, если отправителю требуется, чтобы система обмена сообщениями создавала отчет о прочтении, когда получатель прочитал сообщение.</span><span class="sxs-lookup"><span data-stu-id="1d205-105">Contains TRUE if a message sender wants the messaging system to generate a read report when the recipient has read a message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="704a9-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="704a9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="704a9-107">PR_READ_RECEIPT_REQUESTED</span><span class="sxs-lookup"><span data-stu-id="704a9-107">PR_READ_RECEIPT_REQUESTED</span></span>  <br/> |
-|<span data-ttu-id="704a9-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="704a9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="704a9-109">0x0029</span><span class="sxs-lookup"><span data-stu-id="704a9-109">0x0029</span></span>  <br/> |
-|<span data-ttu-id="704a9-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="704a9-110">Data type:</span></span>  <br/> |<span data-ttu-id="704a9-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="704a9-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="704a9-112">Область:</span><span class="sxs-lookup"><span data-stu-id="704a9-112">Area:</span></span>  <br/> |<span data-ttu-id="704a9-113">Электронная почта</span><span class="sxs-lookup"><span data-stu-id="704a9-113">Email</span></span>  <br/> |
+|<span data-ttu-id="1d205-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="1d205-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1d205-107">ПР_РЕАД_РЕЦЕИПТ_РЕКУЕСТЕД</span><span class="sxs-lookup"><span data-stu-id="1d205-107">PR_READ_RECEIPT_REQUESTED</span></span>  <br/> |
+|<span data-ttu-id="1d205-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="1d205-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1d205-109">0x0029</span><span class="sxs-lookup"><span data-stu-id="1d205-109">0x0029</span></span>  <br/> |
+|<span data-ttu-id="1d205-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="1d205-110">Data type:</span></span>  <br/> |<span data-ttu-id="1d205-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="1d205-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="1d205-112">Область:</span><span class="sxs-lookup"><span data-stu-id="1d205-112">Area:</span></span>  <br/> |<span data-ttu-id="1d205-113">Email</span><span class="sxs-lookup"><span data-stu-id="1d205-113">Email</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="704a9-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="704a9-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d205-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="1d205-114">Remarks</span></span>
 
-<span data-ttu-id="704a9-115">Это свойство должно быть присвоено значение TRUE для проверки значения свойства **PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) и **PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="704a9-115">This property must be set to TRUE to validate the values in the **PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) and **PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) properties.</span></span>
+<span data-ttu-id="1d205-115">Для этого свойства должно быть задано значение TRUE, чтобы проверить значения в свойствах **пр_реад_рецеипт_ентрид** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) и **пр_реад_рецеипт_сеарч_кэй** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="1d205-115">This property must be set to TRUE to validate the values in the **PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) and **PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) properties.</span></span>
   
-<span data-ttu-id="704a9-116">Если сообщение с набором **PR_READ_RECEIPT_REQUESTED** удаляется или истекает до системы обмена сообщениями можно создать отчет о чтения, nonread отчет создается.</span><span class="sxs-lookup"><span data-stu-id="704a9-116">If a message with **PR_READ_RECEIPT_REQUESTED** set is deleted or expires before the messaging system can generate a read report, a nonread report is generated.</span></span> 
+<span data-ttu-id="1d205-116">Если сообщение с набором **пр_реад_рецеипт_рекуестед** удаляется или истечет до тех пор, пока система обмена сообщениями не сможет создать отчет о прочтении, создается отчет о непрочтении.</span><span class="sxs-lookup"><span data-stu-id="1d205-116">If a message with **PR_READ_RECEIPT_REQUESTED** set is deleted or expires before the messaging system can generate a read report, a nonread report is generated.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="704a9-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="704a9-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1d205-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="1d205-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="704a9-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="704a9-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="1d205-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="1d205-118">Protocol specifications</span></span>
 
-<span data-ttu-id="704a9-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="704a9-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1d205-119">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1d205-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="704a9-120">Содержит ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="704a9-120">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="1d205-120">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="1d205-120">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="704a9-121">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="704a9-121">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1d205-121">[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1d205-121">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="704a9-122">Задает свойства и операции, допустимые для объектов сообщения электронной почты.</span><span class="sxs-lookup"><span data-stu-id="704a9-122">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="1d205-122">Задает свойства и операции, допустимые для объектов сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="1d205-122">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="704a9-123">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="704a9-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1d205-123">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="1d205-123">Header files</span></span>
 
-<span data-ttu-id="704a9-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="704a9-124">Mapidefs.h</span></span>
+<span data-ttu-id="1d205-124">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="1d205-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="704a9-125">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="704a9-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="1d205-125">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="1d205-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="704a9-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="704a9-126">Mapitags.h</span></span>
+<span data-ttu-id="1d205-126">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="1d205-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="704a9-127">Содержит определения свойства в списке альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="704a9-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="1d205-127">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="1d205-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="704a9-128">См. также</span><span class="sxs-lookup"><span data-stu-id="704a9-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1d205-128">См. также</span><span class="sxs-lookup"><span data-stu-id="1d205-128">See also</span></span>
 
 
 
-[<span data-ttu-id="704a9-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="704a9-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="1d205-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="1d205-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="704a9-130">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="704a9-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1d205-130">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="1d205-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="704a9-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="704a9-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1d205-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="1d205-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="704a9-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="704a9-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1d205-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="1d205-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

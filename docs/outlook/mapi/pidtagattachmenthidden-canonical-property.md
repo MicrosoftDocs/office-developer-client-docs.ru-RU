@@ -13,58 +13,58 @@ api_type:
 ms.assetid: d92a01e3-9bc4-4985-aeb6-c23636cb8b2e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 90900b2af87f06928f22eb321c7c0f620a9a2844
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345831"
 ---
-# <a name="pidtagattachmenthidden-canonical-property"></a><span data-ttu-id="ebf6b-103">Каноническое свойство PidTagAttachmentHidden</span><span class="sxs-lookup"><span data-stu-id="ebf6b-103">PidTagAttachmentHidden Canonical Property</span></span>
+# <a name="pidtagattachmenthidden-canonical-property"></a><span data-ttu-id="f366f-103">Каноническое свойство PidTagAttachmentHidden</span><span class="sxs-lookup"><span data-stu-id="f366f-103">PidTagAttachmentHidden Canonical Property</span></span>
 
   
   
-<span data-ttu-id="ebf6b-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ebf6b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f366f-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f366f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ebf6b-105">Указывает, скрыто ли вложения из конечного пользователя.</span><span class="sxs-lookup"><span data-stu-id="ebf6b-105">Indicates whether an attachment is hidden from the end user.</span></span>
+<span data-ttu-id="f366f-105">Указывает, скрыто ли вложение от конечного пользователя.</span><span class="sxs-lookup"><span data-stu-id="f366f-105">Indicates whether an attachment is hidden from the end user.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ebf6b-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="ebf6b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ebf6b-107">PR_ATTACHMENT_HIDDEN</span><span class="sxs-lookup"><span data-stu-id="ebf6b-107">PR_ATTACHMENT_HIDDEN</span></span>  <br/> |
-|<span data-ttu-id="ebf6b-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="ebf6b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ebf6b-109">0x7FFE</span><span class="sxs-lookup"><span data-stu-id="ebf6b-109">0x7FFE</span></span>  <br/> |
-|<span data-ttu-id="ebf6b-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="ebf6b-110">Data type:</span></span>  <br/> |<span data-ttu-id="ebf6b-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="ebf6b-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="ebf6b-112">Область:</span><span class="sxs-lookup"><span data-stu-id="ebf6b-112">Area:</span></span>  <br/> |<span data-ttu-id="ebf6b-113">Вложение в сообщение</span><span class="sxs-lookup"><span data-stu-id="ebf6b-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="f366f-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="f366f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f366f-107">ПР_АТТАЧМЕНТ_ХИДДЕН</span><span class="sxs-lookup"><span data-stu-id="f366f-107">PR_ATTACHMENT_HIDDEN</span></span>  <br/> |
+|<span data-ttu-id="f366f-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="f366f-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f366f-109">0x7FFE</span><span class="sxs-lookup"><span data-stu-id="f366f-109">0x7FFE</span></span>  <br/> |
+|<span data-ttu-id="f366f-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="f366f-110">Data type:</span></span>  <br/> |<span data-ttu-id="f366f-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="f366f-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="f366f-112">Область:</span><span class="sxs-lookup"><span data-stu-id="f366f-112">Area:</span></span>  <br/> |<span data-ttu-id="f366f-113">Вложение в сообщение</span><span class="sxs-lookup"><span data-stu-id="f366f-113">Message attachment</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="ebf6b-114">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="ebf6b-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="f366f-114">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="f366f-114">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="ebf6b-115">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="ebf6b-115">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="f366f-115">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="f366f-115">Protocol specifications</span></span>
 
-<span data-ttu-id="ebf6b-116">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ebf6b-116">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f366f-116">[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f366f-116">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ebf6b-117">Обрабатывает объекты сообщения и вложения.</span><span class="sxs-lookup"><span data-stu-id="ebf6b-117">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="f366f-117">Обрабатывает объекты сообщений и вложений.</span><span class="sxs-lookup"><span data-stu-id="f366f-117">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="ebf6b-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ebf6b-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f366f-118">[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f366f-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ebf6b-119">Определяет структуры основных данных, которые используются для удаленных операций.</span><span class="sxs-lookup"><span data-stu-id="ebf6b-119">Defines the basic data structures that are used in remote operations.</span></span>
+> <span data-ttu-id="f366f-119">Определяет основные структуры данных, используемые в удаленных операциях.</span><span class="sxs-lookup"><span data-stu-id="f366f-119">Defines the basic data structures that are used in remote operations.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="ebf6b-120">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="ebf6b-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="f366f-120">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="f366f-120">Header files</span></span>
 
-<span data-ttu-id="ebf6b-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ebf6b-121">Mapidefs.h</span></span>
+<span data-ttu-id="f366f-121">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="f366f-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="ebf6b-122">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="ebf6b-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="f366f-122">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="f366f-122">Provides data type definitions.</span></span>
     
-<span data-ttu-id="ebf6b-123">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="ebf6b-123">Mapitags.h</span></span>
+<span data-ttu-id="f366f-123">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="f366f-123">Mapitags.h</span></span>
   
-> <span data-ttu-id="ebf6b-124">Содержит определения свойства в списке альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="ebf6b-124">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="f366f-124">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="f366f-124">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="ebf6b-125">См. также</span><span class="sxs-lookup"><span data-stu-id="ebf6b-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f366f-125">См. также</span><span class="sxs-lookup"><span data-stu-id="f366f-125">See also</span></span>
 
 
 
-[<span data-ttu-id="ebf6b-126">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ebf6b-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="f366f-126">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="f366f-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="ebf6b-127">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ebf6b-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="f366f-127">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="f366f-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="ebf6b-128">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="ebf6b-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="f366f-128">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="f366f-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="ebf6b-129">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="ebf6b-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="f366f-129">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="f366f-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

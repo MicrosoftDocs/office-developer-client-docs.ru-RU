@@ -1,5 +1,5 @@
 ---
-title: Карта схемы (схема местоположения погоды Outlook)
+title: Карта схемы (схема расположений о погоде Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
-description: В этом разделе показано определение схемы для схемы XML местоположения погоды Outlook.
+description: В этом разделе показано определение схемы для XML-схемы расположения погоды в Outlook.
 ms.openlocfilehash: fa14fd05a26bd89820c18e8d6523d80e60616f0f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355141"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="b31a8-103">Карта схемы (схема местоположения погоды Outlook)</span><span class="sxs-lookup"><span data-stu-id="b31a8-103">Schema map (Outlook Weather Location Schema)</span></span>
+# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="b0f2d-103">Карта схемы (схема расположений о погоде Outlook)</span><span class="sxs-lookup"><span data-stu-id="b0f2d-103">Schema map (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="b31a8-104">В этом разделе показано определение схемы для схемы XML местоположения погоды Outlook.</span><span class="sxs-lookup"><span data-stu-id="b31a8-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
+<span data-ttu-id="b0f2d-104">В этом разделе показано определение схемы для XML-схемы расположения погоды в Outlook.</span><span class="sxs-lookup"><span data-stu-id="b0f2d-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>

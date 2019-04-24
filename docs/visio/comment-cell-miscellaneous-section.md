@@ -1,5 +1,5 @@
 ---
-title: Ячейка Comment (раздел "Прочее")
+title: Comment Cell (Miscellaneous Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - vis_sdr.chm170
 localization_priority: Normal
 ms.assetid: 6f52ed60-d58b-86e6-f7e2-2ef19d4afa75
-description: Содержит текст комментария в формате строки для фигуры.
-ms.openlocfilehash: f5222836b29a26cc26ca8093576d0962f0592fae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Содержит текст комментария в строковом формате для фигуры.
+ms.openlocfilehash: e6f21875928bce31dc2004d88f2d281e31265d65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357115"
 ---
-# <a name="comment-cell-miscellaneous-section"></a><span data-ttu-id="c6ab0-103">Ячейка Comment (раздел "Прочее")</span><span class="sxs-lookup"><span data-stu-id="c6ab0-103">Comment Cell (Miscellaneous Section)</span></span>
+# <a name="comment-cell-miscellaneous-section"></a><span data-ttu-id="c7fd4-103">Comment Cell (Miscellaneous Section)</span><span class="sxs-lookup"><span data-stu-id="c7fd4-103">Comment Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="c6ab0-104">Содержит текст комментария в формате строки для фигуры.</span><span class="sxs-lookup"><span data-stu-id="c6ab0-104">Contains the comment text in string format for a shape.</span></span>
+<span data-ttu-id="c7fd4-104">Содержит текст комментария в строковом формате для фигуры.</span><span class="sxs-lookup"><span data-stu-id="c7fd4-104">Contains the comment text in string format for a shape.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c6ab0-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="c6ab0-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c7fd4-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="c7fd4-105">Remarks</span></span>
 
-<span data-ttu-id="c6ab0-106">Также можно добавить примечание, нажав кнопку **Создать примечание** на вкладке **Обзор** .</span><span class="sxs-lookup"><span data-stu-id="c6ab0-106">You can also insert a comment by clicking **New Comment** on the **Review** tab.</span></span> 
+<span data-ttu-id="c7fd4-106">Вы также можете вставить комментарий, нажав кнопку **создать Примечание** на вкладке **Рецензирование** .</span><span class="sxs-lookup"><span data-stu-id="c7fd4-106">You can also insert a comment by clicking **New Comment** on the **Review** tab.</span></span> 
   
-<span data-ttu-id="c6ab0-107">Чтобы получить ссылку на ячейку комментария по имени из другой формулы или из файла с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="c6ab0-107">To get a reference to the Comment cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="c7fd4-107">Чтобы получить ссылку на ячейку комментария по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="c7fd4-107">To get a reference to the Comment cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c6ab0-108">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="c6ab0-108">Cell name:</span></span>  <br/> |<span data-ttu-id="c6ab0-109">Comment</span><span class="sxs-lookup"><span data-stu-id="c6ab0-109">Comment</span></span>  <br/> |
+|<span data-ttu-id="c7fd4-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="c7fd4-108">Cell name:</span></span>  <br/> |<span data-ttu-id="c7fd4-109">Комментарий</span><span class="sxs-lookup"><span data-stu-id="c7fd4-109">Comment</span></span>  <br/> |
    
-<span data-ttu-id="c6ab0-110">Для получения ссылки на ячейки комментарий по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="c6ab0-110">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="c7fd4-110">Чтобы получить ссылку на ячейку Comment по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="c7fd4-110">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c6ab0-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="c6ab0-111">Section index:</span></span>  <br/> |<span data-ttu-id="c6ab0-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="c6ab0-112">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="c6ab0-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="c6ab0-113">Row index:</span></span>  <br/> |<span data-ttu-id="c6ab0-114">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="c6ab0-114">**visRowMisc**</span></span> <br/> |
-|<span data-ttu-id="c6ab0-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="c6ab0-115">Cell index:</span></span>  <br/> |<span data-ttu-id="c6ab0-116">**visComment**</span><span class="sxs-lookup"><span data-stu-id="c6ab0-116">**visComment**</span></span> <br/> |
+|<span data-ttu-id="c7fd4-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="c7fd4-111">Section index:</span></span>  <br/> |<span data-ttu-id="c7fd4-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="c7fd4-112">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="c7fd4-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="c7fd4-113">Row index:</span></span>  <br/> |<span data-ttu-id="c7fd4-114">**Висровмиск**</span><span class="sxs-lookup"><span data-stu-id="c7fd4-114">**visRowMisc**</span></span> <br/> |
+|<span data-ttu-id="c7fd4-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="c7fd4-115">Cell index:</span></span>  <br/> |<span data-ttu-id="c7fd4-116">**Вискоммент**</span><span class="sxs-lookup"><span data-stu-id="c7fd4-116">**visComment**</span></span> <br/> |
    
 

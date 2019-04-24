@@ -1,5 +1,5 @@
 ---
-title: ActionTagRow_Type complexType ('Visio XML»)
+title: Актионтагров_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,23 +7,23 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2d42c212-b068-84fa-e271-bbe1fae52a48
 ms.openlocfilehash: 8caef77494efa99df8f681deb1268dfee95f03cc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346559"
 ---
-# <a name="actiontagrowtype-complextype-visio-xml"></a><span data-ttu-id="fd2b2-102">ActionTagRow_Type complexType ('Visio XML»)</span><span class="sxs-lookup"><span data-stu-id="fd2b2-102">ActionTagRow_Type complexType ('Visio XML')</span></span>
+# <a name="actiontagrowtype-complextype-visio-xml"></a><span data-ttu-id="6174d-102">Актионтагров_типе complexType (' Visio XML ')</span><span class="sxs-lookup"><span data-stu-id="6174d-102">ActionTagRow_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="fd2b2-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="fd2b2-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="6174d-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="6174d-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="fd2b2-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="fd2b2-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="fd2b2-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="fd2b2-105">**Schema file**</span></span> <br/> |<span data-ttu-id="fd2b2-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="fd2b2-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="fd2b2-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="fd2b2-107">**Extension base**</span></span> <br/> |<span data-ttu-id="fd2b2-108">NamedRow_Type</span><span class="sxs-lookup"><span data-stu-id="fd2b2-108">NamedRow_Type</span></span>  <br/> |
+|<span data-ttu-id="6174d-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="6174d-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="6174d-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="6174d-105">**Schema file**</span></span> <br/> |<span data-ttu-id="6174d-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="6174d-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="6174d-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="6174d-107">**Extension base**</span></span> <br/> |<span data-ttu-id="6174d-108">Намедров_типе</span><span class="sxs-lookup"><span data-stu-id="6174d-108">NamedRow_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="fd2b2-109">Определение</span><span class="sxs-lookup"><span data-stu-id="fd2b2-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="6174d-109">Определение</span><span class="sxs-lookup"><span data-stu-id="6174d-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="ActionTagRow_Type">
@@ -44,18 +44,18 @@ ms.locfileid: "25398999"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="fd2b2-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="fd2b2-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="6174d-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="6174d-110">Elements and attributes</span></span>
 
-<span data-ttu-id="fd2b2-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="6174d-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="6174d-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="fd2b2-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="fd2b2-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6174d-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6174d-112">Child elements</span></span>
 
-|<span data-ttu-id="fd2b2-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="fd2b2-113">**Element**</span></span>|<span data-ttu-id="fd2b2-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="fd2b2-114">**Type**</span></span>|<span data-ttu-id="fd2b2-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="fd2b2-115">**Description**</span></span>|
+|<span data-ttu-id="6174d-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6174d-113">**Element**</span></span>|<span data-ttu-id="6174d-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="6174d-114">**Type**</span></span>|<span data-ttu-id="6174d-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6174d-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="fd2b2-116">Cell</span><span class="sxs-lookup"><span data-stu-id="fd2b2-116">Cell</span></span>](cell-element-action-tag-sectionvisio-xml.md) <br/> |[<span data-ttu-id="fd2b2-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="fd2b2-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="6174d-116">Cell</span><span class="sxs-lookup"><span data-stu-id="6174d-116">Cell</span></span>](cell-element-action-tag-sectionvisio-xml.md) <br/> |[<span data-ttu-id="6174d-117">Целл_типе</span><span class="sxs-lookup"><span data-stu-id="6174d-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="fd2b2-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="fd2b2-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6174d-118">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6174d-118">Attributes</span></span>
 
-<span data-ttu-id="fd2b2-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="fd2b2-119">None.</span></span>
+<span data-ttu-id="6174d-119">Нет.</span><span class="sxs-lookup"><span data-stu-id="6174d-119">None.</span></span>
   
 

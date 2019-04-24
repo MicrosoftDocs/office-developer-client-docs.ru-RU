@@ -1,5 +1,5 @@
 ---
-title: IMAPIViewAdviseSinkOnSubmitted
+title: Имапивиевадвисесинконсубмиттед
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,50 +12,50 @@ api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2aa1aca2816b8f0e148d35d1fcec761f621a2239
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ebde06d0d22320ecb5edb633cf8d04aaeec2a841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351172"
 ---
-# <a name="imapiviewadvisesinkonsubmitted"></a><span data-ttu-id="2de23-103">IMAPIViewAdviseSink::OnSubmitted</span><span class="sxs-lookup"><span data-stu-id="2de23-103">IMAPIViewAdviseSink::OnSubmitted</span></span>
+# <a name="imapiviewadvisesinkonsubmitted"></a><span data-ttu-id="326e7-103">IMAPIViewAdviseSink::OnSubmitted</span><span class="sxs-lookup"><span data-stu-id="326e7-103">IMAPIViewAdviseSink::OnSubmitted</span></span>
 
   
   
-<span data-ttu-id="2de23-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2de23-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="326e7-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="326e7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2de23-105">Уведомляет средство просмотра формы, что текущего сообщения были отправлены диспетчер очереди MAPI.</span><span class="sxs-lookup"><span data-stu-id="2de23-105">Notifies the form viewer that the current message has been submitted to the MAPI spooler.</span></span>
+<span data-ttu-id="326e7-105">Уведомляет средство просмотра форм о том, что текущее сообщение было отправлено в Диспетчер очереди MAPI.</span><span class="sxs-lookup"><span data-stu-id="326e7-105">Notifies the form viewer that the current message has been submitted to the MAPI spooler.</span></span>
   
 ```cpp
 HRESULT OnSubmitted( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2de23-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="2de23-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="326e7-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="326e7-106">Parameters</span></span>
 
-<span data-ttu-id="2de23-107">None</span><span class="sxs-lookup"><span data-stu-id="2de23-107">None</span></span>
+<span data-ttu-id="326e7-107">Нет</span><span class="sxs-lookup"><span data-stu-id="326e7-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="2de23-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2de23-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="326e7-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="326e7-108">Return value</span></span>
 
-<span data-ttu-id="2de23-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="2de23-109">S_OK</span></span> 
+<span data-ttu-id="326e7-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="326e7-109">S_OK</span></span> 
   
-> <span data-ttu-id="2de23-110">Уведомление успешно завершен.</span><span class="sxs-lookup"><span data-stu-id="2de23-110">The notification succeeded.</span></span>
+> <span data-ttu-id="326e7-110">Уведомление успешно установлено.</span><span class="sxs-lookup"><span data-stu-id="326e7-110">The notification succeeded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="2de23-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="2de23-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="326e7-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="326e7-111">Remarks</span></span>
 
-<span data-ttu-id="2de23-112">Объект формы вызывает метод **IMAPIViewAdviseSink::OnSubmitted** после успешного возврата вызова [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="2de23-112">A form object calls the **IMAPIViewAdviseSink::OnSubmitted** method after a call to [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) has returned successfully.</span></span> 
+<span data-ttu-id="326e7-112">Объект Form вызывает метод **имапивиевадвисесинк::** onsubmittedся после вызова [Имапимессажесите:: субмитмессаже](imapimessagesite-submitmessage.md) успешно возвращен.</span><span class="sxs-lookup"><span data-stu-id="326e7-112">A form object calls the **IMAPIViewAdviseSink::OnSubmitted** method after a call to [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) has returned successfully.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="2de23-113">Примечания для реализующих</span><span class="sxs-lookup"><span data-stu-id="2de23-113">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="326e7-113">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="326e7-113">Notes to implementers</span></span>
 
-<span data-ttu-id="2de23-114">После вызова **OnSubmitted** можно продолжить предполагается, что сообщение были обновлены.</span><span class="sxs-lookup"><span data-stu-id="2de23-114">After **OnSubmitted** is called, you can continue on the assumption that the message has been updated.</span></span> <span data-ttu-id="2de23-115">Обновление windows в соответствии с все изменения, произошедшие.</span><span class="sxs-lookup"><span data-stu-id="2de23-115">Update your windows to reflect any changes that have occurred.</span></span> 
+<span data-ttu-id="326e7-114">После \*\*\*\* вызова OnSubmitted можно продолжить предположение о том, что сообщение было обновлено.</span><span class="sxs-lookup"><span data-stu-id="326e7-114">After **OnSubmitted** is called, you can continue on the assumption that the message has been updated.</span></span> <span data-ttu-id="326e7-115">Обновите Windows, чтобы отразить все произошедшие изменения.</span><span class="sxs-lookup"><span data-stu-id="326e7-115">Update your windows to reflect any changes that have occurred.</span></span> 
   
-<span data-ttu-id="2de23-116">Дополнительные сведения о уведомлений формы можно [Отправка и получение уведомлений формы](sending-and-receiving-form-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="2de23-116">For more information about form notifications, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
+<span data-ttu-id="326e7-116">Дополнительные сведения об уведомлениях формы можно найти в статье [Отправка и получение уведомлений формы](sending-and-receiving-form-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="326e7-116">For more information about form notifications, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="2de23-117">См. также</span><span class="sxs-lookup"><span data-stu-id="2de23-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="326e7-117">См. также</span><span class="sxs-lookup"><span data-stu-id="326e7-117">See also</span></span>
 
 
 
-[<span data-ttu-id="2de23-118">IMAPIMessageSite::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="2de23-118">IMAPIMessageSite::SubmitMessage</span></span>](imapimessagesite-submitmessage.md)
+[<span data-ttu-id="326e7-118">IMAPIMessageSite::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="326e7-118">IMAPIMessageSite::SubmitMessage</span></span>](imapimessagesite-submitmessage.md)
   
-[<span data-ttu-id="2de23-119">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2de23-119">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
+[<span data-ttu-id="326e7-119">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="326e7-119">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
 

@@ -12,53 +12,53 @@ api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7635dd24f4fbc5128d3d96556802ab2e3fe56e35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0e18ef529b65317abd9446408ed73638c792809
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346608"
 ---
-# <a name="pidtagimplicitconversionprohibited-canonical-property"></a><span data-ttu-id="06716-103">Каноническое свойство PidTagImplicitConversionProhibited</span><span class="sxs-lookup"><span data-stu-id="06716-103">PidTagImplicitConversionProhibited Canonical Property</span></span>
+# <a name="pidtagimplicitconversionprohibited-canonical-property"></a><span data-ttu-id="543b6-103">Каноническое свойство PidTagImplicitConversionProhibited</span><span class="sxs-lookup"><span data-stu-id="543b6-103">PidTagImplicitConversionProhibited Canonical Property</span></span>
 
   
   
-<span data-ttu-id="06716-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="06716-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="543b6-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="543b6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="06716-105">Содержит значение TRUE, если сообщение передачи (агента) — это могут выполнять неявные сообщение преобразования текста.</span><span class="sxs-lookup"><span data-stu-id="06716-105">Contains TRUE if a message transfer agent (MTA) is prohibited from making implicit message text conversions.</span></span>
+<span data-ttu-id="543b6-105">Содержит значение TRUE, если агенту передачи сообщений (MTA) запрещено делать неявные преобразования текста сообщений.</span><span class="sxs-lookup"><span data-stu-id="543b6-105">Contains TRUE if a message transfer agent (MTA) is prohibited from making implicit message text conversions.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="06716-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="06716-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="06716-107">PR_IMPLICIT_CONVERSION_PROHIBITED</span><span class="sxs-lookup"><span data-stu-id="06716-107">PR_IMPLICIT_CONVERSION_PROHIBITED</span></span>  <br/> |
-|<span data-ttu-id="06716-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="06716-108">Identifier:</span></span>  <br/> |<span data-ttu-id="06716-109">0x0016</span><span class="sxs-lookup"><span data-stu-id="06716-109">0x0016</span></span>  <br/> |
-|<span data-ttu-id="06716-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="06716-110">Data type:</span></span>  <br/> |<span data-ttu-id="06716-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="06716-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="06716-112">Область:</span><span class="sxs-lookup"><span data-stu-id="06716-112">Area:</span></span>  <br/> |<span data-ttu-id="06716-113">Сервер</span><span class="sxs-lookup"><span data-stu-id="06716-113">Server</span></span>  <br/> |
+|<span data-ttu-id="543b6-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="543b6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="543b6-107">ПР_ИМПЛИЦИТ_КОНВЕРСИОН_ПРОХИБИТЕД</span><span class="sxs-lookup"><span data-stu-id="543b6-107">PR_IMPLICIT_CONVERSION_PROHIBITED</span></span>  <br/> |
+|<span data-ttu-id="543b6-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="543b6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="543b6-109">0x0016</span><span class="sxs-lookup"><span data-stu-id="543b6-109">0x0016</span></span>  <br/> |
+|<span data-ttu-id="543b6-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="543b6-110">Data type:</span></span>  <br/> |<span data-ttu-id="543b6-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="543b6-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="543b6-112">Область:</span><span class="sxs-lookup"><span data-stu-id="543b6-112">Area:</span></span>  <br/> |<span data-ttu-id="543b6-113">Сервер</span><span class="sxs-lookup"><span data-stu-id="543b6-113">Server</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="06716-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="06716-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="543b6-114">Комментарии</span><span class="sxs-lookup"><span data-stu-id="543b6-114">Remarks</span></span>
 
-<span data-ttu-id="06716-115">Если это свойство имеет значение TRUE, системы обмена сообщениями должен не выполняет преобразование содержимого в окне сообщения без его явного запроса на основе каждого получателя с помощью свойства **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="06716-115">If this property is TRUE, the messaging system must not perform any content conversion on the message unless it is explicitly requested on a per-recipient basis with the **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) property.</span></span>
+<span data-ttu-id="543b6-115">Если это свойство имеет значение TRUE, система обмена сообщениями не должна выполнять преобразование содержимого для сообщения, если оно не было явно запрошено для каждого получателя с помощью свойства **пр_експлиЦит_конверсион** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="543b6-115">If this property is TRUE, the messaging system must not perform any content conversion on the message unless it is explicitly requested on a per-recipient basis with the **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="06716-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="06716-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="543b6-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="543b6-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="06716-117">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="06716-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="543b6-117">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="543b6-117">Header files</span></span>
 
-<span data-ttu-id="06716-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="06716-118">Mapidefs.h</span></span>
+<span data-ttu-id="543b6-118">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="543b6-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="06716-119">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="06716-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="543b6-119">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="543b6-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="06716-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="06716-120">Mapitags.h</span></span>
+<span data-ttu-id="543b6-120">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="543b6-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="06716-121">Содержит определения свойств указано, что связанными свойствами.</span><span class="sxs-lookup"><span data-stu-id="06716-121">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="543b6-121">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="543b6-121">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="06716-122">См. также</span><span class="sxs-lookup"><span data-stu-id="06716-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="543b6-122">См. также</span><span class="sxs-lookup"><span data-stu-id="543b6-122">See also</span></span>
 
 
 
-[<span data-ttu-id="06716-123">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="06716-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="543b6-123">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="543b6-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="06716-124">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="06716-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="543b6-124">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="543b6-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="06716-125">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="06716-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="543b6-125">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="543b6-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="06716-126">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="06716-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="543b6-126">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="543b6-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

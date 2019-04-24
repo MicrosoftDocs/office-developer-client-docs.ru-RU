@@ -1,5 +1,5 @@
 ---
-title: Ячейка FlipY (раздел "Преобразование фигуры")
+title: FlipY Cell (Shape Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251198
 localization_priority: Normal
 ms.assetid: 062022ff-e243-2540-becd-d9b969ce83ce
-description: Указывает, является ли фигура отразилось по вертикали.
-ms.openlocfilehash: 42ee740a13c3f447f5cd4a6caa9959189320a8af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает, была ли фигура отражена по вертикали.
+ms.openlocfilehash: 44ea0341cda3655e8acc69e82e89acddac69b80d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346202"
 ---
-# <a name="flipy-cell-shape-transform-section"></a><span data-ttu-id="976ca-103">Ячейка FlipY (раздел "Преобразование фигуры")</span><span class="sxs-lookup"><span data-stu-id="976ca-103">FlipY Cell (Shape Transform Section)</span></span>
+# <a name="flipy-cell-shape-transform-section"></a><span data-ttu-id="298a5-103">FlipY Cell (Shape Transform Section)</span><span class="sxs-lookup"><span data-stu-id="298a5-103">FlipY Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="976ca-104">Указывает, является ли фигура отразилось по вертикали.</span><span class="sxs-lookup"><span data-stu-id="976ca-104">Indicates whether the shape has been flipped vertically.</span></span>
+<span data-ttu-id="298a5-104">Указывает, была ли фигура отражена по вертикали.</span><span class="sxs-lookup"><span data-stu-id="298a5-104">Indicates whether the shape has been flipped vertically.</span></span>
   
-|<span data-ttu-id="976ca-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="976ca-105">**Value**</span></span>|<span data-ttu-id="976ca-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="976ca-106">**Description**</span></span>|
+|<span data-ttu-id="298a5-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="298a5-105">**Value**</span></span>|<span data-ttu-id="298a5-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="298a5-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="976ca-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="976ca-107">TRUE</span></span>  <br/> | <span data-ttu-id="976ca-108">Фигура отразилось по вертикали.</span><span class="sxs-lookup"><span data-stu-id="976ca-108">The shape has been flipped vertically.</span></span>  <br/> |
-| <span data-ttu-id="976ca-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="976ca-109">FALSE</span></span>  <br/> | <span data-ttu-id="976ca-110">Фигура не отразилось по вертикали.</span><span class="sxs-lookup"><span data-stu-id="976ca-110">The shape has not been flipped vertically.</span></span>  <br/> |
+| <span data-ttu-id="298a5-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="298a5-107">TRUE</span></span>  <br/> | <span data-ttu-id="298a5-108">Фигура была зеркально отражена по вертикали.</span><span class="sxs-lookup"><span data-stu-id="298a5-108">The shape has been flipped vertically.</span></span>  <br/> |
+| <span data-ttu-id="298a5-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="298a5-109">FALSE</span></span>  <br/> | <span data-ttu-id="298a5-110">Фигура не была зеркально отражена по вертикали.</span><span class="sxs-lookup"><span data-stu-id="298a5-110">The shape has not been flipped vertically.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="976ca-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="976ca-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="298a5-111">Комментарии</span><span class="sxs-lookup"><span data-stu-id="298a5-111">Remarks</span></span>
 
-<span data-ttu-id="976ca-112">Чтобы получить ссылку на ячейку FlipY по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="976ca-112">To get a reference to the FlipY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="298a5-112">Чтобы получить ссылку на переВернутую ячейку по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="298a5-112">To get a reference to the FlipY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="976ca-113">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="976ca-113">Cell name:</span></span>  <br/> | <span data-ttu-id="976ca-114">FlipY</span><span class="sxs-lookup"><span data-stu-id="976ca-114">FlipY</span></span>  <br/> |
+| <span data-ttu-id="298a5-113">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="298a5-113">Cell name:</span></span>  <br/> | <span data-ttu-id="298a5-114">FlipY</span><span class="sxs-lookup"><span data-stu-id="298a5-114">FlipY</span></span>  <br/> |
    
-<span data-ttu-id="976ca-115">Для получения ссылки на ячейки FlipY по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="976ca-115">To get a reference to the FlipY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="298a5-115">Чтобы получить ссылку на переВернутую ячейку по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="298a5-115">To get a reference to the FlipY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="976ca-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="976ca-116">Section index:</span></span>  <br/> |<span data-ttu-id="976ca-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="976ca-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="976ca-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="976ca-118">Row index:</span></span>  <br/> |<span data-ttu-id="976ca-119">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="976ca-119">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="976ca-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="976ca-120">Cell index:</span></span>  <br/> |<span data-ttu-id="976ca-121">**visXFormFlipY**</span><span class="sxs-lookup"><span data-stu-id="976ca-121">**visXFormFlipY**</span></span> <br/> |
+| <span data-ttu-id="298a5-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="298a5-116">Section index:</span></span>  <br/> |<span data-ttu-id="298a5-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="298a5-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="298a5-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="298a5-118">Row index:</span></span>  <br/> |<span data-ttu-id="298a5-119">**Висровксформаут**</span><span class="sxs-lookup"><span data-stu-id="298a5-119">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="298a5-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="298a5-120">Cell index:</span></span>  <br/> |<span data-ttu-id="298a5-121">**Висксформфлипи**</span><span class="sxs-lookup"><span data-stu-id="298a5-121">**visXFormFlipY**</span></span> <br/> |
    
 

@@ -1,37 +1,37 @@
 ---
-title: Ячейка VariationStyleIndex (раздел "Свойства темы")
+title: VariationStyleIndex Cell (Theme Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 932195d5-2cb7-49f7-bc64-4ce00bf780b2
-description: Определяет стиль индекс вариант активной темы на странице, как целое число.
-ms.openlocfilehash: fc29d95c6601303671e83e2c89f693447550c5f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет индекс стиля для активного варианта темы на странице в виде целого числа.
+ms.openlocfilehash: 57d4b2493b7278064daf7b0cb986e58ebacf4be2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355890"
 ---
-# <a name="variationstyleindex-cell-theme-properties-section"></a><span data-ttu-id="80d3d-103">Ячейка VariationStyleIndex (раздел "Свойства темы")</span><span class="sxs-lookup"><span data-stu-id="80d3d-103">VariationStyleIndex Cell (Theme Properties Section)</span></span>
+# <a name="variationstyleindex-cell-theme-properties-section"></a><span data-ttu-id="da93a-103">VariationStyleIndex Cell (Theme Properties Section)</span><span class="sxs-lookup"><span data-stu-id="da93a-103">VariationStyleIndex Cell (Theme Properties Section)</span></span>
 
-<span data-ttu-id="80d3d-104">Определяет стиль индекс вариант активной темы на странице, как целое число.</span><span class="sxs-lookup"><span data-stu-id="80d3d-104">Determines the style index of the active theme variation on the page, as an integer.</span></span>
+<span data-ttu-id="da93a-104">Определяет индекс стиля для активного варианта темы на странице в виде целого числа.</span><span class="sxs-lookup"><span data-stu-id="da93a-104">Determines the style index of the active theme variation on the page, as an integer.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="80d3d-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="80d3d-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="da93a-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="da93a-105">Remarks</span></span>
 
-<span data-ttu-id="80d3d-106">Для получения ссылки на ячейки **VariationStyleIndex** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="80d3d-106">To get a reference to the **VariationStyleIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="da93a-106">Чтобы получить ссылку на ячейку **VariationStyleIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="da93a-106">To get a reference to the **VariationStyleIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="80d3d-107">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="80d3d-107">Cell name:</span></span>  <br/> | <span data-ttu-id="80d3d-108">VariationStyleIndex</span><span class="sxs-lookup"><span data-stu-id="80d3d-108">VariationStyleIndex</span></span>  <br/> |
+| <span data-ttu-id="da93a-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="da93a-107">Cell name:</span></span>  <br/> | <span data-ttu-id="da93a-108">VariationStyleIndex</span><span class="sxs-lookup"><span data-stu-id="da93a-108">VariationStyleIndex</span></span>  <br/> |
    
-<span data-ttu-id="80d3d-109">Для получения ссылки на ячейки **VariationStyleIndex** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="80d3d-109">To get a reference to the **VariationStyleIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="da93a-109">Чтобы получить ссылку на ячейку **VariationStyleIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="da93a-109">To get a reference to the **VariationStyleIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="80d3d-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="80d3d-110">Section index:</span></span>  <br/> |<span data-ttu-id="80d3d-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="80d3d-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="80d3d-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="80d3d-112">Row index:</span></span>  <br/> |<span data-ttu-id="80d3d-113">**visRowThemeProperties**</span><span class="sxs-lookup"><span data-stu-id="80d3d-113">**visRowThemeProperties**</span></span> <br/> |
-| <span data-ttu-id="80d3d-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="80d3d-114">Cell index:</span></span>  <br/> |<span data-ttu-id="80d3d-115">**visVariationStyleIndex**</span><span class="sxs-lookup"><span data-stu-id="80d3d-115">**visVariationStyleIndex**</span></span> <br/> |
+| <span data-ttu-id="da93a-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="da93a-110">Section index:</span></span>  <br/> |<span data-ttu-id="da93a-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="da93a-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="da93a-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="da93a-112">Row index:</span></span>  <br/> |<span data-ttu-id="da93a-113">**Висровсемепропертиес**</span><span class="sxs-lookup"><span data-stu-id="da93a-113">**visRowThemeProperties**</span></span> <br/> |
+| <span data-ttu-id="da93a-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="da93a-114">Cell index:</span></span>  <br/> |<span data-ttu-id="da93a-115">**Висвариатионстилеиндекс**</span><span class="sxs-lookup"><span data-stu-id="da93a-115">**visVariationStyleIndex**</span></span> <br/> |
    
 

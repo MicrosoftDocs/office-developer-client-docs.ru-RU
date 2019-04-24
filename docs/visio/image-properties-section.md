@@ -1,5 +1,5 @@
 ---
-title: Раздел "Свойства изображения"
+title: Image Properties Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,16 +8,16 @@ f1_keywords:
 - Vis_DSS.chm2075
 localization_priority: Normal
 ms.assetid: 2a032f5f-1094-f536-cbd8-7e791b7fa55d
-description: Содержит гамма, яркость, контраст, чтобы минимизировать, Резкость и Устранение шума значения для растровых изображений (изображения, состоящую из пикселов) и будет отображаться в окне таблицы свойств фигуры только для таких объектов.
-ms.openlocfilehash: e35b9bacb3154d051249aa38113b78a6bb4e2a90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Содержит значения гамма, яркости, контраста, размытия, резкости и нешума для растровых изображений (изображение, состоящее из точек) и отображается в окне таблицы свойств фигуры только для таких объектов.
+ms.openlocfilehash: 32d16e7d7fb308c211c9493720d8a972202d1a71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344746"
 ---
-# <a name="image-properties-section"></a><span data-ttu-id="517f7-103">Раздел "Свойства изображения"</span><span class="sxs-lookup"><span data-stu-id="517f7-103">Image Properties Section</span></span>
+# <a name="image-properties-section"></a><span data-ttu-id="55c1e-103">Image Properties Section</span><span class="sxs-lookup"><span data-stu-id="55c1e-103">Image Properties Section</span></span>
 
-<span data-ttu-id="517f7-104">Содержит гамма, яркость, контраст, чтобы минимизировать, Резкость и Устранение шума значения для растровых изображений (изображения, состоящую из пикселов) и будет отображаться в окне таблицы свойств фигуры только для таких объектов.</span><span class="sxs-lookup"><span data-stu-id="517f7-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
+<span data-ttu-id="55c1e-104">Содержит значения гамма, яркости, контраста, размытия, резкости и нешума для растровых изображений (изображение, состоящее из точек) и отображается в окне таблицы свойств фигуры только для таких объектов.</span><span class="sxs-lookup"><span data-stu-id="55c1e-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
   
 

@@ -8,23 +8,23 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cdd9654187685ceab1062fb4ae1882b2d48c68d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349541"
 ---
-# <a name="create-a-mail-item-by-using-a-message-template"></a><span data-ttu-id="81abb-102">Создание почтового элемента с помощью шаблона сообщения</span><span class="sxs-lookup"><span data-stu-id="81abb-102">Create a mail item by using a message template</span></span>
+# <a name="create-a-mail-item-by-using-a-message-template"></a><span data-ttu-id="e422a-102">Создание почтового элемента с помощью шаблона сообщения</span><span class="sxs-lookup"><span data-stu-id="e422a-102">Create a mail item by using a message template</span></span>
 
-<span data-ttu-id="81abb-103">В этом примере показано, как создать почтовый элемент с помощью метода [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="81abb-103">This example creates a mail item by using the [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)) method.</span></span>
+<span data-ttu-id="e422a-103">В этом примере показано, как создать почтовый элемент с помощью метода [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="e422a-103">This example creates a mail item by using the [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)) method.</span></span>
 
-## <a name="example"></a><span data-ttu-id="81abb-104">Пример</span><span class="sxs-lookup"><span data-stu-id="81abb-104">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e422a-104">Пример</span><span class="sxs-lookup"><span data-stu-id="e422a-104">Example</span></span>
 
-<span data-ttu-id="81abb-105">Код примера открывает файл шаблона Ivy.oft, назначает тему, а затем сохраняет сообщение в папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="81abb-105">This code sample opens the Ivy.oft template file, assigns a subject, and then saves the message to the Drafts folder.</span></span>
+<span data-ttu-id="e422a-105">Код примера открывает файл шаблона Ivy.oft, назначает тему, а затем сохраняет сообщение в папке "Черновики".</span><span class="sxs-lookup"><span data-stu-id="e422a-105">This code sample opens the Ivy.oft template file, assigns a subject, and then saves the message to the Drafts folder.</span></span>
 
-<span data-ttu-id="81abb-p101">Метод **CreateItemFromTemplate** полезен, если есть сохраненный на диске файл шаблона формы Outlook (.oft), который нужно использовать в качестве шаблона сообщения. Файл шаблона может содержать предварительно форматированный текст, бланк или изображения, которые нужно включить в сообщение. Но если файл шаблона содержит код для формы, код формы выполнен не будет.</span><span class="sxs-lookup"><span data-stu-id="81abb-p101">The **CreateItemFromTemplate** method is useful if you have an Outlook form template file (.oft) stored on disk that you want to use as a message template. The template file can contain preformatted text, stationery, or images that you want to include in the message. However, if the template file contains code behind the form, the form code will not run.</span></span>
+<span data-ttu-id="e422a-p101">Метод **CreateItemFromTemplate** полезен, если есть сохраненный на диске файл шаблона формы Outlook (.oft), который нужно использовать в качестве шаблона сообщения. Файл шаблона может содержать предварительно форматированный текст, бланк или изображения, которые нужно включить в сообщение. Но если файл шаблона содержит код для формы, код формы выполнен не будет.</span><span class="sxs-lookup"><span data-stu-id="e422a-p101">The **CreateItemFromTemplate** method is useful if you have an Outlook form template file (.oft) stored on disk that you want to use as a message template. The template file can contain preformatted text, stationery, or images that you want to include in the message. However, if the template file contains code behind the form, the form code will not run.</span></span>
 
-<span data-ttu-id="81abb-109">Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="81abb-109">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="81abb-110">Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса.</span><span class="sxs-lookup"><span data-stu-id="81abb-110">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="81abb-111">В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.</span><span class="sxs-lookup"><span data-stu-id="81abb-111">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
+<span data-ttu-id="e422a-109">Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="e422a-109">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="e422a-110">Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса.</span><span class="sxs-lookup"><span data-stu-id="e422a-110">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="e422a-111">В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.</span><span class="sxs-lookup"><span data-stu-id="e422a-111">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -64,7 +64,7 @@ private void CreateItemFromTemplate()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="81abb-112">См. также</span><span class="sxs-lookup"><span data-stu-id="81abb-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e422a-112">См. также</span><span class="sxs-lookup"><span data-stu-id="e422a-112">See also</span></span>
 
-- [<span data-ttu-id="81abb-113">Mail</span><span class="sxs-lookup"><span data-stu-id="81abb-113">Mail</span></span>](mail.md)
+- [<span data-ttu-id="e422a-113">Почта</span><span class="sxs-lookup"><span data-stu-id="e422a-113">Mail</span></span>](mail.md)
 
