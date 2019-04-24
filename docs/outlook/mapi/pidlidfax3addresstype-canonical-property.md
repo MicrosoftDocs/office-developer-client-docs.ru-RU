@@ -13,59 +13,59 @@ api_type:
 ms.assetid: 77e22ecc-a4fa-4bd2-b0dd-bd58183b7485
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bbe2d6c5fc6683de06602c61aa8ef7b8ca8ada55
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331992"
 ---
-# <a name="pidlidfax3addresstype-canonical-property"></a><span data-ttu-id="130a9-103">Каноническое свойство PidLidFax3AddressType</span><span class="sxs-lookup"><span data-stu-id="130a9-103">PidLidFax3AddressType Canonical Property</span></span>
+# <a name="pidlidfax3addresstype-canonical-property"></a><span data-ttu-id="545ca-103">Каноническое свойство PidLidFax3AddressType</span><span class="sxs-lookup"><span data-stu-id="545ca-103">PidLidFax3AddressType Canonical Property</span></span>
 
   
   
-<span data-ttu-id="130a9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="130a9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="545ca-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="545ca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="130a9-105">Указывает тип адреса для адреса факса других контактов.</span><span class="sxs-lookup"><span data-stu-id="130a9-105">Specifies the address type for the other contact's fax address.</span></span>
+<span data-ttu-id="545ca-105">Задает тип адреса для факса другого контакта.</span><span class="sxs-lookup"><span data-stu-id="545ca-105">Specifies the address type for the other contact's fax address.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="130a9-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="130a9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="130a9-107">dispidFax3AddrType</span><span class="sxs-lookup"><span data-stu-id="130a9-107">dispidFax3AddrType</span></span>  <br/> |
-|<span data-ttu-id="130a9-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="130a9-108">Property set:</span></span>  <br/> |<span data-ttu-id="130a9-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="130a9-109">PSETID_Address</span></span>  <br/> |
-|<span data-ttu-id="130a9-110">Длинный идентификатор (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="130a9-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="130a9-111">0x000080D2</span><span class="sxs-lookup"><span data-stu-id="130a9-111">0x000080D2</span></span>  <br/> |
-|<span data-ttu-id="130a9-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="130a9-112">Data type:</span></span>  <br/> |<span data-ttu-id="130a9-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="130a9-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="130a9-114">Область:</span><span class="sxs-lookup"><span data-stu-id="130a9-114">Area:</span></span>  <br/> |<span data-ttu-id="130a9-115">Contact</span><span class="sxs-lookup"><span data-stu-id="130a9-115">Contact</span></span>  <br/> |
+|<span data-ttu-id="545ca-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="545ca-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="545ca-107">dispidFax3AddrType</span><span class="sxs-lookup"><span data-stu-id="545ca-107">dispidFax3AddrType</span></span>  <br/> |
+|<span data-ttu-id="545ca-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="545ca-108">Property set:</span></span>  <br/> |<span data-ttu-id="545ca-109">Псетид_аддресс</span><span class="sxs-lookup"><span data-stu-id="545ca-109">PSETID_Address</span></span>  <br/> |
+|<span data-ttu-id="545ca-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="545ca-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="545ca-111">0x000080D2</span><span class="sxs-lookup"><span data-stu-id="545ca-111">0x000080D2</span></span>  <br/> |
+|<span data-ttu-id="545ca-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="545ca-112">Data type:</span></span>  <br/> |<span data-ttu-id="545ca-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="545ca-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="545ca-114">Область:</span><span class="sxs-lookup"><span data-stu-id="545ca-114">Area:</span></span>  <br/> |<span data-ttu-id="545ca-115">Контакт</span><span class="sxs-lookup"><span data-stu-id="545ca-115">Contact</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="130a9-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="130a9-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="545ca-116">Комментарии</span><span class="sxs-lookup"><span data-stu-id="545ca-116">Remarks</span></span>
 
-<span data-ttu-id="130a9-117">Это свойство, если этот параметр указан, должен иметь значение «ФАКС».</span><span class="sxs-lookup"><span data-stu-id="130a9-117">This property, if present, must be set to "FAX".</span></span>
+<span data-ttu-id="545ca-117">Для этого свойства, если оно задано, должно быть присвоено значение "FAX".</span><span class="sxs-lookup"><span data-stu-id="545ca-117">This property, if present, must be set to "FAX".</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="130a9-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="130a9-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="545ca-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="545ca-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="130a9-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="130a9-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="545ca-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="545ca-119">Protocol specifications</span></span>
 
-<span data-ttu-id="130a9-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="130a9-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="545ca-120">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="545ca-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="130a9-121">Содержит определения определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="130a9-121">Provides property set definition definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="545ca-121">Содержит определения определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="545ca-121">Provides property set definition definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="130a9-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="130a9-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="545ca-122">[[MS — ОКСОКНТК]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="545ca-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="130a9-123">Задает свойства и операции, допустимые для контакты и списки рассылки.</span><span class="sxs-lookup"><span data-stu-id="130a9-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="545ca-123">Задает свойства и операции, допустимые для контактов и личных списков рассылки.</span><span class="sxs-lookup"><span data-stu-id="545ca-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="130a9-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="130a9-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="545ca-124">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="545ca-124">Header files</span></span>
 
-<span data-ttu-id="130a9-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="130a9-125">Mapidefs.h</span></span>
+<span data-ttu-id="545ca-125">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="545ca-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="130a9-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="130a9-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="545ca-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="545ca-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="130a9-127">См. также</span><span class="sxs-lookup"><span data-stu-id="130a9-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="545ca-127">См. также</span><span class="sxs-lookup"><span data-stu-id="545ca-127">See also</span></span>
 
 
 
-[<span data-ttu-id="130a9-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="130a9-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="545ca-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="545ca-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="130a9-129">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="130a9-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="545ca-129">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="545ca-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="130a9-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="130a9-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="545ca-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="545ca-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="130a9-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="130a9-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="545ca-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="545ca-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

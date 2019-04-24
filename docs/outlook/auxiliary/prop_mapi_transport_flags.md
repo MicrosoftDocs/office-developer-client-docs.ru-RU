@@ -6,37 +6,37 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 12cfe096-6882-c0be-b248-87567cb71e83
-description: Представляет параметры транспорта, используемые Outlook для определения необходимости синхронизации задач и отключить элементы пользовательского интерфейса (UI), которые учетной записи не поддерживаются.
-ms.openlocfilehash: 95b61ea994557be76303f8b9b0541353b6ed13f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет параметры транспорта, которые Outlook использует для определения необходимых задач синхронизации и отключения элементов пользовательского интерфейса, которые не поддерживаются учетной записью.
+ms.openlocfilehash: 707306c3bfbeebdd18f82bacfc121274be08aa50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326483"
 ---
-# <a name="propmapitransportflags"></a><span data-ttu-id="108bc-103">PROP_MAPI_TRANSPORT_FLAGS</span><span class="sxs-lookup"><span data-stu-id="108bc-103">PROP_MAPI_TRANSPORT_FLAGS</span></span>
+# <a name="propmapitransportflags"></a><span data-ttu-id="6e1dc-103">PROP_MAPI_TRANSPORT_FLAGS</span><span class="sxs-lookup"><span data-stu-id="6e1dc-103">PROP_MAPI_TRANSPORT_FLAGS</span></span>
 
-<span data-ttu-id="108bc-104">Представляет параметры транспорта, используемые Outlook для определения необходимости синхронизации задач и отключить элементы пользовательского интерфейса (UI), которые учетной записи не поддерживаются.</span><span class="sxs-lookup"><span data-stu-id="108bc-104">Represents transport settings that Outlook uses to determine the necessary synchronization tasks and to disable the user interface (UI) elements that the account does not support.</span></span>
+<span data-ttu-id="6e1dc-104">Представляет параметры транспорта, которые Outlook использует для определения необходимых задач синхронизации и отключения элементов пользовательского интерфейса, которые не поддерживаются учетной записью.</span><span class="sxs-lookup"><span data-stu-id="6e1dc-104">Represents transport settings that Outlook uses to determine the necessary synchronization tasks and to disable the user interface (UI) elements that the account does not support.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="108bc-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="108bc-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="6e1dc-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="6e1dc-105">Quick info</span></span>
 
-<span data-ttu-id="108bc-106">В разделе [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="108bc-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="6e1dc-106">Обратитесь к разделу [иолкаккаунт](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="6e1dc-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="108bc-107">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="108bc-107">Identifier:</span></span>  <br/> |<span data-ttu-id="108bc-108">0x2010</span><span class="sxs-lookup"><span data-stu-id="108bc-108">0x2010</span></span>  <br/> |
-|<span data-ttu-id="108bc-109">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="108bc-109">Property type:</span></span>  <br/> |<span data-ttu-id="108bc-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="108bc-110">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="108bc-111">Свойство tag:</span><span class="sxs-lookup"><span data-stu-id="108bc-111">Property tag:</span></span>  <br/> |<span data-ttu-id="108bc-112">0x20100102</span><span class="sxs-lookup"><span data-stu-id="108bc-112">0x20100102</span></span>  <br/> |
-|<span data-ttu-id="108bc-113">Access:</span><span class="sxs-lookup"><span data-stu-id="108bc-113">Access:</span></span>  <br/> |<span data-ttu-id="108bc-114">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="108bc-114">Read/write</span></span>  <br/> |
+|<span data-ttu-id="6e1dc-107">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="6e1dc-107">Identifier:</span></span>  <br/> |<span data-ttu-id="6e1dc-108">0x2010</span><span class="sxs-lookup"><span data-stu-id="6e1dc-108">0x2010</span></span>  <br/> |
+|<span data-ttu-id="6e1dc-109">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="6e1dc-109">Property type:</span></span>  <br/> |<span data-ttu-id="6e1dc-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="6e1dc-110">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="6e1dc-111">Тег свойства:</span><span class="sxs-lookup"><span data-stu-id="6e1dc-111">Property tag:</span></span>  <br/> |<span data-ttu-id="6e1dc-112">0x20100102</span><span class="sxs-lookup"><span data-stu-id="6e1dc-112">0x20100102</span></span>  <br/> |
+|<span data-ttu-id="6e1dc-113">Обращения</span><span class="sxs-lookup"><span data-stu-id="6e1dc-113">Access:</span></span>  <br/> |<span data-ttu-id="6e1dc-114">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="6e1dc-114">Read/write</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="108bc-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="108bc-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6e1dc-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="6e1dc-115">Remarks</span></span>
 
-<span data-ttu-id="108bc-116">Получение или задание этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md) или [IOlkAccount::SetProp](iolkaccount-setprop.md)соответственно.</span><span class="sxs-lookup"><span data-stu-id="108bc-116">Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.</span></span>
+<span data-ttu-id="6e1dc-116">Получите или задайте значение этого свойства с помощью [иолкаккаунт::](iolkaccount-getprop.md) GetProperty или [Иолкаккаунт:: сетпроп](iolkaccount-setprop.md), соответственно.</span><span class="sxs-lookup"><span data-stu-id="6e1dc-116">Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.</span></span>
   
-<span data-ttu-id="108bc-117">Возвращает **MAPIACCT_SEND_ONLY** , если учетная запись можно только отправлять сообщения, но не могут получать сообщения.</span><span class="sxs-lookup"><span data-stu-id="108bc-117">Returns **MAPIACCT_SEND_ONLY** if the account can only send messages but cannot receive messages.</span></span> <span data-ttu-id="108bc-118">В этом случае Outlook отключает пользовательского интерфейса, который не применяется к этому типу учетные записи (например, пользовательский Интерфейс для **Отправки и получения**).</span><span class="sxs-lookup"><span data-stu-id="108bc-118">In this case, Outlook disables UI that does not apply to this type of accounts (for example, the UI for **Send/Receive**).</span></span>
+<span data-ttu-id="6e1dc-117">Возвращает **мапиаккт_сенд_онли** , если учетная запись может отправлять только сообщения, но не может получать сообщения.</span><span class="sxs-lookup"><span data-stu-id="6e1dc-117">Returns **MAPIACCT_SEND_ONLY** if the account can only send messages but cannot receive messages.</span></span> <span data-ttu-id="6e1dc-118">В этом случае Outlook отключает пользовательский интерфейс, который не применяется к учетным записям этого типа (например, Пользовательский интерфейс для **отправки и получения**).</span><span class="sxs-lookup"><span data-stu-id="6e1dc-118">In this case, Outlook disables UI that does not apply to this type of accounts (for example, the UI for **Send/Receive**).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="108bc-119">См. также</span><span class="sxs-lookup"><span data-stu-id="108bc-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6e1dc-119">См. также</span><span class="sxs-lookup"><span data-stu-id="6e1dc-119">See also</span></span>
 
-- [<span data-ttu-id="108bc-120">About the Account Management API</span><span class="sxs-lookup"><span data-stu-id="108bc-120">About the Account Management API</span></span>](about-the-account-management-api.md)  
-- [<span data-ttu-id="108bc-121">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="108bc-121">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="6e1dc-120">About the Account Management API</span><span class="sxs-lookup"><span data-stu-id="6e1dc-120">About the Account Management API</span></span>](about-the-account-management-api.md)  
+- [<span data-ttu-id="6e1dc-121">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="6e1dc-121">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

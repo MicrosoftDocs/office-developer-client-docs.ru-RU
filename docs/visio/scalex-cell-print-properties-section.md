@@ -1,5 +1,5 @@
 ---
-title: Ячейка ScaleX (раздел "Свойства печати")
+title: ScaleX Cell (Print Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm60072
 localization_priority: Normal
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
-description: Указывает процент увеличения страницы документа на странице принтера.
-ms.openlocfilehash: 1713e88f06dc93a2806e64cae3d7af20c9df1fc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает процентное отношение увеличения страницы документа на странице принтера.
+ms.openlocfilehash: d1c2f6c184f987e1e7190b1c208310b83a823ee3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326714"
 ---
-# <a name="scalex-cell-print-properties-section"></a><span data-ttu-id="cc701-103">Ячейка ScaleX (раздел "Свойства печати")</span><span class="sxs-lookup"><span data-stu-id="cc701-103">ScaleX Cell (Print Properties Section)</span></span>
+# <a name="scalex-cell-print-properties-section"></a><span data-ttu-id="3b05c-103">ScaleX Cell (Print Properties Section)</span><span class="sxs-lookup"><span data-stu-id="3b05c-103">ScaleX Cell (Print Properties Section)</span></span>
 
-<span data-ttu-id="cc701-104">Указывает процент увеличения страницы документа на странице принтера.</span><span class="sxs-lookup"><span data-stu-id="cc701-104">Specifies the percentage of magnification of the drawing page on the printer page.</span></span>
+<span data-ttu-id="3b05c-104">Указывает процентное отношение увеличения страницы документа на странице принтера.</span><span class="sxs-lookup"><span data-stu-id="3b05c-104">Specifies the percentage of magnification of the drawing page on the printer page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="cc701-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="cc701-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3b05c-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="3b05c-105">Remarks</span></span>
 
-<span data-ttu-id="cc701-106">Это значение используется только в том случае, если значение ячейки OnPage — FALSE.</span><span class="sxs-lookup"><span data-stu-id="cc701-106">This value is used only when the OnPage cell value is FALSE.</span></span> <span data-ttu-id="cc701-107">Ячейки ScaleX и ScaleY всегда с таким же значением, который соответствует значению в параметре **обеспечить, чтобы** на вкладке **Параметры печати** в диалоговом окне " **Параметры страницы** " (на вкладке " **Конструктор** ", щелкните стрелку **Параметры страницы** ).</span><span class="sxs-lookup"><span data-stu-id="cc701-107">The ScaleX and ScaleY cells always have the same value, which corresponds to the value in the **Adjust to** setting on the **Print Setup** tab in the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow).</span></span> 
+<span data-ttu-id="3b05c-106">Это значение используется только в том случае, если ячейка onPage имеет значение FALSE.</span><span class="sxs-lookup"><span data-stu-id="3b05c-106">This value is used only when the OnPage cell value is FALSE.</span></span> <span data-ttu-id="3b05c-107">Ячейки ScaleX и Scale всегда имеют одинаковое значение, которое соответствует значению, указанному в параметре **изменить** на вкладке **Настройка печати** в диалоговом окне **Параметры страницы** (на вкладке **конструктор** щелкните стрелку **настройки страницы** ).</span><span class="sxs-lookup"><span data-stu-id="3b05c-107">The ScaleX and ScaleY cells always have the same value, which corresponds to the value in the **Adjust to** setting on the **Print Setup** tab in the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow).</span></span> 
   
-<span data-ttu-id="cc701-108">Чтобы получить ссылку на ячейку ScaleX по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="cc701-108">To get a reference to the ScaleX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="3b05c-108">Чтобы получить ссылку на ячейку ScaleX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="3b05c-108">To get a reference to the ScaleX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cc701-109">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="cc701-109">Cell name:</span></span>  <br/> |<span data-ttu-id="cc701-110">ScaleX</span><span class="sxs-lookup"><span data-stu-id="cc701-110">ScaleX</span></span>  <br/> |
+|<span data-ttu-id="3b05c-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="3b05c-109">Cell name:</span></span>  <br/> |<span data-ttu-id="3b05c-110">ScaleX</span><span class="sxs-lookup"><span data-stu-id="3b05c-110">ScaleX</span></span>  <br/> |
    
-<span data-ttu-id="cc701-111">Для получения ссылки на ячейки ScaleX по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="cc701-111">To get a reference to the ScaleX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="3b05c-111">Чтобы получить ссылку на ячейку ScaleX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="3b05c-111">To get a reference to the ScaleX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cc701-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="cc701-112">Section index:</span></span>  <br/> |<span data-ttu-id="cc701-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cc701-113">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="cc701-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="cc701-114">Row index:</span></span>  <br/> |<span data-ttu-id="cc701-115">**visRowPrintProperties**</span><span class="sxs-lookup"><span data-stu-id="cc701-115">**visRowPrintProperties**</span></span> <br/> |
-|<span data-ttu-id="cc701-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="cc701-116">Cell index:</span></span>  <br/> |<span data-ttu-id="cc701-117">**visPrintPropertiesScaleX**</span><span class="sxs-lookup"><span data-stu-id="cc701-117">**visPrintPropertiesScaleX**</span></span> <br/> |
+|<span data-ttu-id="3b05c-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="3b05c-112">Section index:</span></span>  <br/> |<span data-ttu-id="3b05c-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3b05c-113">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="3b05c-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="3b05c-114">Row index:</span></span>  <br/> |<span data-ttu-id="3b05c-115">**Висровпринтпропертиес**</span><span class="sxs-lookup"><span data-stu-id="3b05c-115">**visRowPrintProperties**</span></span> <br/> |
+|<span data-ttu-id="3b05c-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="3b05c-116">Cell index:</span></span>  <br/> |<span data-ttu-id="3b05c-117">**Виспринтпропертиесскалекс**</span><span class="sxs-lookup"><span data-stu-id="3b05c-117">**visPrintPropertiesScaleX**</span></span> <br/> |
    
 

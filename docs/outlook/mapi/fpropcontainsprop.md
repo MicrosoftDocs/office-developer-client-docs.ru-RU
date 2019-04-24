@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b08d3af8c61d8ced31e822bb787d49ad90b4df54
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea56996ad56bb4ce93d103a75eba2c29e6059a87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328044"
 ---
-# <a name="fpropcontainsprop"></a><span data-ttu-id="48c2d-103">FPropContainsProp</span><span class="sxs-lookup"><span data-stu-id="48c2d-103">FPropContainsProp</span></span>
+# <a name="fpropcontainsprop"></a><span data-ttu-id="7b2a8-103">FPropContainsProp</span><span class="sxs-lookup"><span data-stu-id="7b2a8-103">FPropContainsProp</span></span>
 
-<span data-ttu-id="48c2d-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="48c2d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7b2a8-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7b2a8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="48c2d-105">Сравнивает два значения свойств, обычно строк или двоичные массивы, если один содержит другое.</span><span class="sxs-lookup"><span data-stu-id="48c2d-105">Compares two property values, generally strings or binary arrays, to see if one contains the other.</span></span> 
+<span data-ttu-id="7b2a8-105">Сравнивает два значения свойств, обычно строки или двоичные массивы, чтобы проверить, содержит ли один из них другой.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-105">Compares two property values, generally strings or binary arrays, to see if one contains the other.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="48c2d-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="48c2d-106">Header file:</span></span>  <br/> |<span data-ttu-id="48c2d-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="48c2d-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="48c2d-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="48c2d-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="48c2d-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="48c2d-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="48c2d-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="48c2d-110">Called by:</span></span>  <br/> |<span data-ttu-id="48c2d-111">Клиентские приложения и поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="48c2d-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="7b2a8-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="7b2a8-106">Header file:</span></span>  <br/> |<span data-ttu-id="7b2a8-107">Мапиутил. h</span><span class="sxs-lookup"><span data-stu-id="7b2a8-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="7b2a8-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="7b2a8-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="7b2a8-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="7b2a8-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="7b2a8-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="7b2a8-110">Called by:</span></span>  <br/> |<span data-ttu-id="7b2a8-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="7b2a8-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 BOOL FPropContainsProp(
@@ -39,50 +39,50 @@ BOOL FPropContainsProp(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="48c2d-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="48c2d-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7b2a8-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="7b2a8-112">Parameters</span></span>
 
-<span data-ttu-id="48c2d-113">_lpSPropValueDst_</span><span class="sxs-lookup"><span data-stu-id="48c2d-113">_lpSPropValueDst_</span></span>
+<span data-ttu-id="7b2a8-113">_Лпспропвалуедст_</span><span class="sxs-lookup"><span data-stu-id="7b2a8-113">_lpSPropValueDst_</span></span>
   
-> <span data-ttu-id="48c2d-114">[in] Указатель на структуру [SPropValue](spropvalue.md) , определяющее значение свойства, которое может содержать строку поиска, на который указывает параметр _lpSPropValueSrc_ .</span><span class="sxs-lookup"><span data-stu-id="48c2d-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining the property value that might contain the search string pointed to by the  _lpSPropValueSrc_ parameter.</span></span> 
+> <span data-ttu-id="7b2a8-114">возврата Указатель на структуру [спропвалуе](spropvalue.md) , определяющую значение свойства, которое может содержать строку поиска, на которую указывает параметр _лпспропвалуесрк_ .</span><span class="sxs-lookup"><span data-stu-id="7b2a8-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining the property value that might contain the search string pointed to by the  _lpSPropValueSrc_ parameter.</span></span> 
     
-<span data-ttu-id="48c2d-115">_lpSPropValueSrc_</span><span class="sxs-lookup"><span data-stu-id="48c2d-115">_lpSPropValueSrc_</span></span>
+<span data-ttu-id="7b2a8-115">_Лпспропвалуесрк_</span><span class="sxs-lookup"><span data-stu-id="7b2a8-115">_lpSPropValueSrc_</span></span>
   
-> <span data-ttu-id="48c2d-116">[in] Указатель на структуру **SPropValue** определение строку поиска, поиск **FPropContainsProp** в значение свойства, на который указывает параметр _lpSPropValueDst_ .</span><span class="sxs-lookup"><span data-stu-id="48c2d-116">[in] Pointer to an **SPropValue** structure defining the search string that **FPropContainsProp** is seeking in the property value pointed to by the  _lpSPropValueDst_ parameter.</span></span> 
+> <span data-ttu-id="7b2a8-116">возврата Указатель на структуру **спропвалуе** , определяющую строку поиска, которую **фпропконтаинспроп** ищет в значении свойства, на которое указывает параметр _лпспропвалуедст_ .</span><span class="sxs-lookup"><span data-stu-id="7b2a8-116">[in] Pointer to an **SPropValue** structure defining the search string that **FPropContainsProp** is seeking in the property value pointed to by the  _lpSPropValueDst_ parameter.</span></span> 
     
-<span data-ttu-id="48c2d-117">_ulFuzzyLevel_</span><span class="sxs-lookup"><span data-stu-id="48c2d-117">_ulFuzzyLevel_</span></span>
+<span data-ttu-id="7b2a8-117">_Улфуззилевел_</span><span class="sxs-lookup"><span data-stu-id="7b2a8-117">_ulFuzzyLevel_</span></span>
   
-> <span data-ttu-id="48c2d-118">[in] Параметр параметры определение уровня привыкли использовать для сравнения.</span><span class="sxs-lookup"><span data-stu-id="48c2d-118">[in] Option settings defining the level of preciseness to use in the comparison.</span></span> 
+> <span data-ttu-id="7b2a8-118">возврата Параметры параметров, определяющие степень точности, используемую в сравнении.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-118">[in] Option settings defining the level of preciseness to use in the comparison.</span></span> 
 
-  - <span data-ttu-id="48c2d-119">**Снижение 16-разрядный** относятся к свойств типа PT_BINARY и PT_STRING8.</span><span class="sxs-lookup"><span data-stu-id="48c2d-119">The **lower 16 bits** apply to properties of type PT_BINARY and PT_STRING8.</span></span> <span data-ttu-id="48c2d-120">Они должны иметь значение только один из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="48c2d-120">They must be set to exactly one of the following values:</span></span>
+  - <span data-ttu-id="7b2a8-119">**Младшие 16 битов** применяются к свойствам типа ПТ_БИНАРИ и PT_STRING8.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-119">The **lower 16 bits** apply to properties of type PT_BINARY and PT_STRING8.</span></span> <span data-ttu-id="7b2a8-120">Для них должно быть задано значение, равное одному из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="7b2a8-120">They must be set to exactly one of the following values:</span></span>
       
-    - <span data-ttu-id="48c2d-121">FL_FULLSTRING: Строка поиска _lpSPropValueSrc_ должно быть равно значению свойства, определяемую средством _lpSPropValueDst_.</span><span class="sxs-lookup"><span data-stu-id="48c2d-121">FL_FULLSTRING: The  _lpSPropValueSrc_ search string must be equal to the property value identified by  _lpSPropValueDst_.</span></span>
+    - <span data-ttu-id="7b2a8-121">ФЛ_ФУЛЛСТРИНГ: строка поиска _лпспропвалуесрк_ должна быть равна значению свойства, определенному с помощью _лпспропвалуедст_.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-121">FL_FULLSTRING: The  _lpSPropValueSrc_ search string must be equal to the property value identified by  _lpSPropValueDst_.</span></span>
         
-    - <span data-ttu-id="48c2d-122">FL_PREFIX: Строка поиска _lpSPropValueSrc_ , которые должны встречаться в начале значение свойства, определяемую средством _lpSPropValueDst_.</span><span class="sxs-lookup"><span data-stu-id="48c2d-122">FL_PREFIX: The  _lpSPropValueSrc_ search string must appear at the beginning of the property value identified by  _lpSPropValueDst_.</span></span> <span data-ttu-id="48c2d-123">Только полностью заполняя длину строки поиска, указанный в параметре _lpSPropValueSrc_сравнения двух значений.</span><span class="sxs-lookup"><span data-stu-id="48c2d-123">The two values should be compared only up to the length of the search string indicated by  _lpSPropValueSrc_.</span></span> 
+    - <span data-ttu-id="7b2a8-122">ФЛ_ПРЕФИКС: строка поиска _лпспропвалуесрк_ должна находиться в начале значения свойства, идентифицируемого _лпспропвалуедст_.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-122">FL_PREFIX: The  _lpSPropValueSrc_ search string must appear at the beginning of the property value identified by  _lpSPropValueDst_.</span></span> <span data-ttu-id="7b2a8-123">Эти два значения должны сравниваться только с длиной строки поиска, указанной в _лпспропвалуесрк_.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-123">The two values should be compared only up to the length of the search string indicated by  _lpSPropValueSrc_.</span></span> 
         
-    - <span data-ttu-id="48c2d-124">FL_SUBSTRING: Строка поиска _lpSPropValueSrc_ должны быть включены в любом месте в значение свойства, определяемую средством _lpSPropValueDst_.</span><span class="sxs-lookup"><span data-stu-id="48c2d-124">FL_SUBSTRING: The  _lpSPropValueSrc_ search string must be contained anywhere in the property value identified by  _lpSPropValueDst_.</span></span> 
+    - <span data-ttu-id="7b2a8-124">ФЛ_СУБСТРИНГ: строка поиска _лпспропвалуесрк_ должна содержаться в любом месте в значении свойства, определенном с помощью _лпспропвалуедст_.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-124">FL_SUBSTRING: The  _lpSPropValueSrc_ search string must be contained anywhere in the property value identified by  _lpSPropValueDst_.</span></span> 
       
-  - <span data-ttu-id="48c2d-125">**Верхний 16-разрядный** применяются только к свойств типа PT_STRING8.</span><span class="sxs-lookup"><span data-stu-id="48c2d-125">The **upper 16 bits** apply only to properties of type PT_STRING8.</span></span> <span data-ttu-id="48c2d-126">Они могут применяться следующие значения в любом сочетании:</span><span class="sxs-lookup"><span data-stu-id="48c2d-126">They can be set to the following values in any combination:</span></span>
+  - <span data-ttu-id="7b2a8-125">**Верхние 16 битов** применяются только к свойствам типа PT_STRING8.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-125">The **upper 16 bits** apply only to properties of type PT_STRING8.</span></span> <span data-ttu-id="7b2a8-126">Можно задать следующие значения в любой комбинации:</span><span class="sxs-lookup"><span data-stu-id="7b2a8-126">They can be set to the following values in any combination:</span></span>
     
-    - <span data-ttu-id="48c2d-127">FL_IGNORECASE: Необходимо выполнить сравнение без учета регистра.</span><span class="sxs-lookup"><span data-stu-id="48c2d-127">FL_IGNORECASE: The comparison should be made without considering case sensitivity.</span></span> 
+    - <span data-ttu-id="7b2a8-127">ФЛ_ИГНОРЕКАСЕ: сравнение следует производить без учета регистра.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-127">FL_IGNORECASE: The comparison should be made without considering case sensitivity.</span></span> 
         
-    - <span data-ttu-id="48c2d-128">FL_IGNORENONSPACE: Сравнение следует игнорировать определенные Юникод непробельные символы, такие как диакритические знаки.</span><span class="sxs-lookup"><span data-stu-id="48c2d-128">FL_IGNORENONSPACE: The comparison should ignore Unicode-defined nonspacing characters such as diacritical marks.</span></span> 
+    - <span data-ttu-id="7b2a8-128">ФЛ_ИГНОРЕНОНСПАЦЕ: сравнение должно игнорировать заданные Юникод несамостоятельные символы, такие как диакритические знаки.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-128">FL_IGNORENONSPACE: The comparison should ignore Unicode-defined nonspacing characters such as diacritical marks.</span></span> 
         
-    - <span data-ttu-id="48c2d-129">FL_LOOSE: Сравнение следует указать соответствие по возможности без учета регистра знаков и непробельные символы.</span><span class="sxs-lookup"><span data-stu-id="48c2d-129">FL_LOOSE: The comparison should indicate a match whenever possible, ignoring case sensitivity and nonspacing characters.</span></span>
+    - <span data-ttu-id="7b2a8-129">ФЛ_ЛУСЕ: сравнение должно указывать на сопоставление, если это возможно, без учета регистра символов и несамостоятельных символов.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-129">FL_LOOSE: The comparison should indicate a match whenever possible, ignoring case sensitivity and nonspacing characters.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="48c2d-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="48c2d-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7b2a8-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7b2a8-130">Return value</span></span>
 
-<span data-ttu-id="48c2d-131">TRUE</span><span class="sxs-lookup"><span data-stu-id="48c2d-131">TRUE</span></span> 
+<span data-ttu-id="7b2a8-131">TRUE</span><span class="sxs-lookup"><span data-stu-id="7b2a8-131">TRUE</span></span> 
   
-> <span data-ttu-id="48c2d-132">Параметры доступны и строка поиска _lpSPropValueSrc_ содержится указанный в значение свойства _lpSPropValueDst_ .</span><span class="sxs-lookup"><span data-stu-id="48c2d-132">The parameters are all valid and the  _lpSPropValueSrc_ search string is contained as specified in the  _lpSPropValueDst_ property value.</span></span> 
+> <span data-ttu-id="7b2a8-132">Все параметры являются допустимыми, а строка поиска _лпспропвалуесрк_ указывается в значении свойства _лпспропвалуедст_ .</span><span class="sxs-lookup"><span data-stu-id="7b2a8-132">The parameters are all valid and the  _lpSPropValueSrc_ search string is contained as specified in the  _lpSPropValueDst_ property value.</span></span> 
     
-<span data-ttu-id="48c2d-133">FALSE</span><span class="sxs-lookup"><span data-stu-id="48c2d-133">FALSE</span></span> 
+<span data-ttu-id="7b2a8-133">FALSE</span><span class="sxs-lookup"><span data-stu-id="7b2a8-133">FALSE</span></span> 
   
-> <span data-ttu-id="48c2d-134">Сравниваемые значения свойства не типа PT_STRING8 или PT_BINARY, значения свойств относятся к различным типам или не содержится строка поиска _lpSPropValueSrc_ , как указано в значение свойства _lpSPropValueDst_ .</span><span class="sxs-lookup"><span data-stu-id="48c2d-134">The property values being compared are not of type PT_STRING8 or PT_BINARY, the property values are of different types, or the  _lpSPropValueSrc_ search string is not contained as specified in the  _lpSPropValueDst_ property value.</span></span> 
+> <span data-ttu-id="7b2a8-134">Сравниваемые значения свойств не относятся к типу PT_STRING8 или ПТ_БИНАРИ, значения свойств относятся к разным типам, или строка поиска _лпспропвалуесрк_ не указана в значении свойства _лпспропвалуедст_ .</span><span class="sxs-lookup"><span data-stu-id="7b2a8-134">The property values being compared are not of type PT_STRING8 or PT_BINARY, the property values are of different types, or the  _lpSPropValueSrc_ search string is not contained as specified in the  _lpSPropValueDst_ property value.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="48c2d-135">Примечания</span><span class="sxs-lookup"><span data-stu-id="48c2d-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7b2a8-135">Комментарии</span><span class="sxs-lookup"><span data-stu-id="7b2a8-135">Remarks</span></span>
 
-<span data-ttu-id="48c2d-136">Метод сравнения зависит от типы свойств, указанных в определениях свойство [SPropValue](spropvalue.md) и нечеткое уровня совет, заданного в параметре _ulFuzzyLevel_ .</span><span class="sxs-lookup"><span data-stu-id="48c2d-136">The comparison method depends on the property types specified in the [SPropValue](spropvalue.md) property definitions and the fuzzy level heuristic provided in the  _ulFuzzyLevel_ parameter.</span></span> <span data-ttu-id="48c2d-137">Функции [FPropCompareProp](fpropcompareprop.md) и **FPropContainsProp** можно использовать для подготовки ограничения для создания таблицы.</span><span class="sxs-lookup"><span data-stu-id="48c2d-137">The [FPropCompareProp](fpropcompareprop.md) and **FPropContainsProp** functions can be used to prepare restrictions for generating a table.</span></span> 
+<span data-ttu-id="7b2a8-136">Метод сравнения зависит от типов свойств, указанных в определениях свойств [спропвалуе](spropvalue.md) , и эвристического алгоритма нечеткого уровня, указанного в параметре _улфуззилевел_ .</span><span class="sxs-lookup"><span data-stu-id="7b2a8-136">The comparison method depends on the property types specified in the [SPropValue](spropvalue.md) property definitions and the fuzzy level heuristic provided in the  _ulFuzzyLevel_ parameter.</span></span> <span data-ttu-id="7b2a8-137">Функции [фпропкомпарепроп](fpropcompareprop.md) и **фпропконтаинспроп** можно использовать для подготовки ограничений для создания таблицы.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-137">The [FPropCompareProp](fpropcompareprop.md) and **FPropContainsProp** functions can be used to prepare restrictions for generating a table.</span></span> 
   
-<span data-ttu-id="48c2d-138">Для типа свойства PT_BINARY верхнем 16 бит _ulFuzzyLevel_ игнорируются.</span><span class="sxs-lookup"><span data-stu-id="48c2d-138">The upper 16 bits of  _ulFuzzyLevel_ are ignored for property type PT_BINARY.</span></span> <span data-ttu-id="48c2d-139">Если в параметрах _ulFuzzyLevel_ отсутствует или недопустимо, выполняется точного совпадения строки full.</span><span class="sxs-lookup"><span data-stu-id="48c2d-139">If the settings in  _ulFuzzyLevel_ are missing or invalid, a full-string exact match is performed.</span></span> <span data-ttu-id="48c2d-140">Дополнительные сведения о вложенности свойство Просмотр структуры [SContentRestriction](scontentrestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="48c2d-140">For more information about property containment, see the [SContentRestriction](scontentrestriction.md) structure.</span></span> 
+<span data-ttu-id="7b2a8-138">Верхние 16 разрядов _улфуззилевел_ игнорируются для свойства пт_бинари типа.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-138">The upper 16 bits of  _ulFuzzyLevel_ are ignored for property type PT_BINARY.</span></span> <span data-ttu-id="7b2a8-139">Если параметры в _улфуззилевел_ отсутствуют или являются недопустимыми, выполняется точное точное совпадение.</span><span class="sxs-lookup"><span data-stu-id="7b2a8-139">If the settings in  _ulFuzzyLevel_ are missing or invalid, a full-string exact match is performed.</span></span> <span data-ttu-id="7b2a8-140">Дополнительные сведения о вложении свойств можно найти в разделе Структура [сконтентрестриктион](scontentrestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="7b2a8-140">For more information about property containment, see the [SContentRestriction](scontentrestriction.md) structure.</span></span> 
   
 

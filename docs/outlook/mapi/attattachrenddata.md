@@ -8,19 +8,19 @@ api_type:
 - COM
 ms.assetid: c510b7a5-0f55-46af-bddb-40a8195a84d4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a006c126ec5e0fb86847226195efd03f7ae5351f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d58fc0eae5401773d28f5bbe510913ff381ade8d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331915"
 ---
-# <a name="attattachrenddata"></a><span data-ttu-id="7e7e8-103">attAttachRenddata</span><span class="sxs-lookup"><span data-stu-id="7e7e8-103">attAttachRenddata</span></span>
+# <a name="attattachrenddata"></a><span data-ttu-id="1dc1e-103">attAttachRenddata</span><span class="sxs-lookup"><span data-stu-id="1dc1e-103">attAttachRenddata</span></span>
 
   
   
-<span data-ttu-id="7e7e8-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7e7e8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1dc1e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1dc1e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7e7e8-105">Атрибут **attAttachRenddata** закодирован структура **RENDDATA** , описывается, как и где вложения отображается в тексте сообщения.</span><span class="sxs-lookup"><span data-stu-id="7e7e8-105">The **attAttachRenddata** attribute is encoded as a **RENDDATA** structure that describes how and where the attachment is rendered in the message text.</span></span> <span data-ttu-id="7e7e8-106">Структура **RENDDATA** просто кодируется в потоке TNEF **sizeof(RENDDATA)** байт, начиная с первого элемента структуры **RENDDATA** .</span><span class="sxs-lookup"><span data-stu-id="7e7e8-106">The **RENDDATA** structure is simply encoded in the TNEF stream as **sizeof(RENDDATA)** bytes beginning with the first member of the **RENDDATA** structure.</span></span> <span data-ttu-id="7e7e8-107">Если участник **dwFlags** структура **RENDDATA** имеет значение **MAC_BINARY**, затем данные для следующих вложения хранятся в файлы формата; в противном случае данные вложения кодируются как обычно.</span><span class="sxs-lookup"><span data-stu-id="7e7e8-107">If the value of the **RENDDATA** structure's **dwFlags** member is set to **MAC_BINARY**, then the data for the following attachment is stored in MacBinary format; otherwise, the attachment data is encoded as usual.</span></span>
+<span data-ttu-id="1dc1e-105">Атрибут **аттаттачренддата** кодируется как структура **ренддата** , описывающая способ и место отображения вложения в тексте сообщения.</span><span class="sxs-lookup"><span data-stu-id="1dc1e-105">The **attAttachRenddata** attribute is encoded as a **RENDDATA** structure that describes how and where the attachment is rendered in the message text.</span></span> <span data-ttu-id="1dc1e-106">Структура **ренддата** просто кодируется в потоке TNEF как **sizeof (ренддата)** байтов, начиная с первого элемента структуры **ренддата** .</span><span class="sxs-lookup"><span data-stu-id="1dc1e-106">The **RENDDATA** structure is simply encoded in the TNEF stream as **sizeof(RENDDATA)** bytes beginning with the first member of the **RENDDATA** structure.</span></span> <span data-ttu-id="1dc1e-107">Если для элемента **dwFlags** структуры **ренддата** задано значение **мак_бинари**, то данные для следующего вложения хранятся в формате макбинари; в противном случае данные вложения кодируются как обычно.</span><span class="sxs-lookup"><span data-stu-id="1dc1e-107">If the value of the **RENDDATA** structure's **dwFlags** member is set to **MAC_BINARY**, then the data for the following attachment is stored in MacBinary format; otherwise, the attachment data is encoded as usual.</span></span>
   
 

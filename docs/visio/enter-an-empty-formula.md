@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5df5c253-f491-7039-ce00-e66417590bb2
 description: ''
-ms.openlocfilehash: 46feb04453025824c2d24358bf82b8e967cba84e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc97a64da977d20d3c76f3d3a083268b4c93bbb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328978"
 ---
-# <a name="enter-an-empty-formula"></a><span data-ttu-id="0313c-102">Ввод пустой формулы</span><span class="sxs-lookup"><span data-stu-id="0313c-102">Enter an Empty Formula</span></span>
+# <a name="enter-an-empty-formula"></a><span data-ttu-id="1da1b-102">Ввод пустой формулы</span><span class="sxs-lookup"><span data-stu-id="1da1b-102">Enter an Empty Formula</span></span>
 
-1. <span data-ttu-id="0313c-103">Выберите ячейку, которая будет содержать формулу.</span><span class="sxs-lookup"><span data-stu-id="0313c-103">Select the cell that will contain the formula.</span></span>
+1. <span data-ttu-id="1da1b-103">Выберите ячейку, которая будет содержать формулу.</span><span class="sxs-lookup"><span data-stu-id="1da1b-103">Select the cell that will contain the formula.</span></span>
     
-2. <span data-ttu-id="0313c-104">Нажмите клавишу DELETE и затем нажмите клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="0313c-104">Press DELETE, and then press ENTER.</span></span>
+2. <span data-ttu-id="1da1b-104">Нажмите клавишу DELETE, а затем клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="1da1b-104">Press DELETE, and then press ENTER.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="0313c-105">Выберите этот вариант в ячейке **вспомогательный** после вставки локальную формулу.</span><span class="sxs-lookup"><span data-stu-id="0313c-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="0313c-106">Ячейки возвращается «No формула», так как формулы, не наследование из образца.</span><span class="sxs-lookup"><span data-stu-id="0313c-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
+> <span data-ttu-id="1da1b-105">Попробуйте это сделать во **вспомогательной** ячейке после вставки локальной формулы.</span><span class="sxs-lookup"><span data-stu-id="1da1b-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="1da1b-106">Ячейка возвращает значение "No формула", так как не существует формулы, которая наследуется от образца.</span><span class="sxs-lookup"><span data-stu-id="1da1b-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
   
 

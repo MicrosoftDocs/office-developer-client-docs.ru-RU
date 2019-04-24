@@ -1,5 +1,5 @@
 ---
-title: IMAPITableSeekRow
+title: Имапитаблесикров
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: aead09eb10a3015a54867f14011c56b686bc8624
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fbc990a8c962883aa07987b200d1d2fd55434f93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328828"
 ---
-# <a name="imapitableseekrow"></a><span data-ttu-id="5e136-103">IMAPITable::SeekRow</span><span class="sxs-lookup"><span data-stu-id="5e136-103">IMAPITable::SeekRow</span></span>
+# <a name="imapitableseekrow"></a><span data-ttu-id="2c451-103">IMAPITable::SeekRow</span><span class="sxs-lookup"><span data-stu-id="2c451-103">IMAPITable::SeekRow</span></span>
 
   
   
-<span data-ttu-id="5e136-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5e136-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2c451-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2c451-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5e136-105">Перемещение курсора в определенное место в таблице.</span><span class="sxs-lookup"><span data-stu-id="5e136-105">Moves the cursor to a specific position in the table.</span></span>
+<span data-ttu-id="2c451-105">ПереМещает курсор к определенному положению в таблице.</span><span class="sxs-lookup"><span data-stu-id="2c451-105">Moves the cursor to a specific position in the table.</span></span>
   
 ```cpp
 HRESULT SeekRow(
@@ -35,96 +35,96 @@ LONG FAR * lplRowsSought
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5e136-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="5e136-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2c451-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="2c451-106">Parameters</span></span>
 
- <span data-ttu-id="5e136-107">_bkOrigin_</span><span class="sxs-lookup"><span data-stu-id="5e136-107">_bkOrigin_</span></span>
+ <span data-ttu-id="2c451-107">_Бкоригин_</span><span class="sxs-lookup"><span data-stu-id="2c451-107">_bkOrigin_</span></span>
   
-> <span data-ttu-id="5e136-108">[in] Закладки, определяющее позицию для операции поиска.</span><span class="sxs-lookup"><span data-stu-id="5e136-108">[in] The bookmark identifying the starting position for the seek operation.</span></span> <span data-ttu-id="5e136-109">Закладки можно создать с помощью метода [IMAPITable::CreateBookmark](imapitable-createbookmark.md) или один из следующих предварительно заданных значений может быть передан.</span><span class="sxs-lookup"><span data-stu-id="5e136-109">A bookmark can be created using the [IMAPITable::CreateBookmark](imapitable-createbookmark.md) method, or one of the following predefined values can be passed.</span></span> 
+> <span data-ttu-id="2c451-108">возврата Закладка, указывающая начальную позицию для операции поиска.</span><span class="sxs-lookup"><span data-stu-id="2c451-108">[in] The bookmark identifying the starting position for the seek operation.</span></span> <span data-ttu-id="2c451-109">Можно создать закладку с помощью метода [IMAPITable:: креатебукмарк](imapitable-createbookmark.md) или одного из следующих предварительно заданных значений.</span><span class="sxs-lookup"><span data-stu-id="2c451-109">A bookmark can be created using the [IMAPITable::CreateBookmark](imapitable-createbookmark.md) method, or one of the following predefined values can be passed.</span></span> 
     
-<span data-ttu-id="5e136-110">BOOKMARK_BEGINNING</span><span class="sxs-lookup"><span data-stu-id="5e136-110">BOOKMARK_BEGINNING</span></span> 
+<span data-ttu-id="2c451-110">БУКМАРК_БЕГИННИНГ</span><span class="sxs-lookup"><span data-stu-id="2c451-110">BOOKMARK_BEGINNING</span></span> 
   
-> <span data-ttu-id="5e136-111">Запускает операции поиска с начала таблицы.</span><span class="sxs-lookup"><span data-stu-id="5e136-111">Starts the seek operation from the beginning of the table.</span></span> 
+> <span data-ttu-id="2c451-111">Начинает операцию поиска с начала таблицы.</span><span class="sxs-lookup"><span data-stu-id="2c451-111">Starts the seek operation from the beginning of the table.</span></span> 
     
-<span data-ttu-id="5e136-112">BOOKMARK_CURRENT</span><span class="sxs-lookup"><span data-stu-id="5e136-112">BOOKMARK_CURRENT</span></span> 
+<span data-ttu-id="2c451-112">БУКМАРК_КУРРЕНТ</span><span class="sxs-lookup"><span data-stu-id="2c451-112">BOOKMARK_CURRENT</span></span> 
   
-> <span data-ttu-id="5e136-113">Запускает операцию поиска из строки в таблице, в котором находится курсор.</span><span class="sxs-lookup"><span data-stu-id="5e136-113">Starts the seek operation from the row in the table where the cursor is located.</span></span> 
+> <span data-ttu-id="2c451-113">Начинает операцию поиска из строки в таблице, в которой находится курсор.</span><span class="sxs-lookup"><span data-stu-id="2c451-113">Starts the seek operation from the row in the table where the cursor is located.</span></span> 
     
-<span data-ttu-id="5e136-114">BOOKMARK_END</span><span class="sxs-lookup"><span data-stu-id="5e136-114">BOOKMARK_END</span></span> 
+<span data-ttu-id="2c451-114">БУКМАРК_ЕНД</span><span class="sxs-lookup"><span data-stu-id="2c451-114">BOOKMARK_END</span></span> 
   
-> <span data-ttu-id="5e136-115">Запускает операции поиска с конца таблицы.</span><span class="sxs-lookup"><span data-stu-id="5e136-115">Starts the seek operation from the end of the table.</span></span> 
+> <span data-ttu-id="2c451-115">Начинает операцию поиска с конца таблицы.</span><span class="sxs-lookup"><span data-stu-id="2c451-115">Starts the seek operation from the end of the table.</span></span> 
     
- <span data-ttu-id="5e136-116">_lRowCount_</span><span class="sxs-lookup"><span data-stu-id="5e136-116">_lRowCount_</span></span>
+ <span data-ttu-id="2c451-116">_Лровкаунт_</span><span class="sxs-lookup"><span data-stu-id="2c451-116">_lRowCount_</span></span>
   
-> <span data-ttu-id="5e136-117">[in] Счетчик со знаком число строк для перемещения, начиная с закладки определенного параметром _bkOrigin_ .</span><span class="sxs-lookup"><span data-stu-id="5e136-117">[in] The signed count of the number of rows to move, starting from the bookmark identified by the  _bkOrigin_ parameter.</span></span> 
+> <span data-ttu-id="2c451-117">возврата Число подписанных строк, которые необходимо переместить, начиная с закладки, указанной параметром _бкоригин_ .</span><span class="sxs-lookup"><span data-stu-id="2c451-117">[in] The signed count of the number of rows to move, starting from the bookmark identified by the  _bkOrigin_ parameter.</span></span> 
     
- <span data-ttu-id="5e136-118">_lplRowsSought_</span><span class="sxs-lookup"><span data-stu-id="5e136-118">_lplRowsSought_</span></span>
+ <span data-ttu-id="2c451-118">_Лплровссаугхт_</span><span class="sxs-lookup"><span data-stu-id="2c451-118">_lplRowsSought_</span></span>
   
-> <span data-ttu-id="5e136-119">[out] Если _lRowCount_ допустимый указатель на ввода, _lplRowsSought_ указывает на количество строк, обработанных в операции поиска, знак из которых указывает направление поиска, вперед или назад.</span><span class="sxs-lookup"><span data-stu-id="5e136-119">[out] If  _lRowCount_ is a valid pointer on input,  _lplRowsSought_ points to the number of rows that were processed in the seek operation, the sign of which indicates the direction of search, forward or backward.</span></span> <span data-ttu-id="5e136-120">Если _lRowCount_ является отрицательным, _lplRowsSought_ является отрицательным.</span><span class="sxs-lookup"><span data-stu-id="5e136-120">If  _lRowCount_ is negative, then  _lplRowsSought_ is negative.</span></span> 
+> <span data-ttu-id="2c451-119">вышли Если _лровкаунт_ является допустимым указателем на входе, _лплровссаугхт_ указывает на количество строк, обработанных в операции поиска, знак, указывающий направление поиска, вперед или назад.</span><span class="sxs-lookup"><span data-stu-id="2c451-119">[out] If  _lRowCount_ is a valid pointer on input,  _lplRowsSought_ points to the number of rows that were processed in the seek operation, the sign of which indicates the direction of search, forward or backward.</span></span> <span data-ttu-id="2c451-120">Если _лровкаунт_ отрицательно, то _лплровссаугхт_ является отрицательным.</span><span class="sxs-lookup"><span data-stu-id="2c451-120">If  _lRowCount_ is negative, then  _lplRowsSought_ is negative.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="5e136-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5e136-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2c451-121">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2c451-121">Return value</span></span>
 
-<span data-ttu-id="5e136-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="5e136-122">S_OK</span></span> 
+<span data-ttu-id="2c451-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="2c451-122">S_OK</span></span> 
   
-> <span data-ttu-id="5e136-123">Операции поиска выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="5e136-123">The seek operation was successful.</span></span>
+> <span data-ttu-id="2c451-123">Операция поиска выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="2c451-123">The seek operation was successful.</span></span>
     
-<span data-ttu-id="5e136-124">MAPI_E_BUSY</span><span class="sxs-lookup"><span data-stu-id="5e136-124">MAPI_E_BUSY</span></span> 
+<span data-ttu-id="2c451-124">МАПИ_Е_БУСИ</span><span class="sxs-lookup"><span data-stu-id="2c451-124">MAPI_E_BUSY</span></span> 
   
-> <span data-ttu-id="5e136-125">В, не позволяющей операции поиска строки запуск выполняется другой операции.</span><span class="sxs-lookup"><span data-stu-id="5e136-125">Another operation is in progress that prevents the row-seeking operation from starting.</span></span> <span data-ttu-id="5e136-126">В процессе выполнения операции должны выполнить либо должна быть остановлена.</span><span class="sxs-lookup"><span data-stu-id="5e136-126">Either the operation in progress should be allowed to complete or it should be stopped.</span></span>
+> <span data-ttu-id="2c451-125">Выполняется другая операция, которая не позволяет запустить операцию поиска строк.</span><span class="sxs-lookup"><span data-stu-id="2c451-125">Another operation is in progress that prevents the row-seeking operation from starting.</span></span> <span data-ttu-id="2c451-126">Выполнение выполняемой операции должно быть разрешено или остановлено.</span><span class="sxs-lookup"><span data-stu-id="2c451-126">Either the operation in progress should be allowed to complete or it should be stopped.</span></span>
     
-<span data-ttu-id="5e136-127">MAPI_E_INVALID_BOOKMARK</span><span class="sxs-lookup"><span data-stu-id="5e136-127">MAPI_E_INVALID_BOOKMARK</span></span> 
+<span data-ttu-id="2c451-127">МАПИ_Е_ИНВАЛИД_БУКМАРК</span><span class="sxs-lookup"><span data-stu-id="2c451-127">MAPI_E_INVALID_BOOKMARK</span></span> 
   
-> <span data-ttu-id="5e136-128">Закладки, указанный в параметре _bkOrigin_ является недопустимым, так как он был удален или находится за последней строки запроса.</span><span class="sxs-lookup"><span data-stu-id="5e136-128">The bookmark specified in the  _bkOrigin_ parameter is invalid because it was removed or because it is beyond the last row requested.</span></span> 
+> <span data-ttu-id="2c451-128">Закладка, указанная в параметре _бкоригин_ , является недопустимой, так как она была удалена или находится за пределами последней запрошенной строки.</span><span class="sxs-lookup"><span data-stu-id="2c451-128">The bookmark specified in the  _bkOrigin_ parameter is invalid because it was removed or because it is beyond the last row requested.</span></span> 
     
-<span data-ttu-id="5e136-129">MAPI_W_POSITION_CHANGED</span><span class="sxs-lookup"><span data-stu-id="5e136-129">MAPI_W_POSITION_CHANGED</span></span> 
+<span data-ttu-id="2c451-129">МАПИ_В_ПОСИТИОН_ЧАНЖЕД</span><span class="sxs-lookup"><span data-stu-id="2c451-129">MAPI_W_POSITION_CHANGED</span></span> 
   
-> <span data-ttu-id="5e136-130">Вызов завершился успешно, но закладку, указанный в параметре _bkOrigin_ больше не устанавливаются в той же строке, что его последнего использования.</span><span class="sxs-lookup"><span data-stu-id="5e136-130">The call succeeded, but the bookmark specified in the  _bkOrigin_ parameter is no longer set at the same row as it was when it was last used.</span></span> <span data-ttu-id="5e136-131">Если не использовалась закладки, больше не в том же месте, которая была при его создании.</span><span class="sxs-lookup"><span data-stu-id="5e136-131">If the bookmark has not been used, it is no longer in the same position as it was when it was created.</span></span> <span data-ttu-id="5e136-132">При возвращении этого предупреждения вызова необходимо обрабатывать об успешном завершении.</span><span class="sxs-lookup"><span data-stu-id="5e136-132">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="5e136-133">Чтобы проверить это предупреждение, используйте **HR_FAILED** макрос.</span><span class="sxs-lookup"><span data-stu-id="5e136-133">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="5e136-134">Дополнительные сведения можно [С помощью макросов для обработки ошибок](using-macros-for-error-handling.md).</span><span class="sxs-lookup"><span data-stu-id="5e136-134">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
+> <span data-ttu-id="2c451-130">Вызов выполнен успешно, но закладка, указанная в параметре _бкоригин_ , больше не задается в той же строке, что и при ее последнем использовании.</span><span class="sxs-lookup"><span data-stu-id="2c451-130">The call succeeded, but the bookmark specified in the  _bkOrigin_ parameter is no longer set at the same row as it was when it was last used.</span></span> <span data-ttu-id="2c451-131">Если закладка не использовалась, она больше не находится в той же позиции, что и при ее создании.</span><span class="sxs-lookup"><span data-stu-id="2c451-131">If the bookmark has not been used, it is no longer in the same position as it was when it was created.</span></span> <span data-ttu-id="2c451-132">При возвращении этого предупреждения вызов должен обрабатываться как успешный.</span><span class="sxs-lookup"><span data-stu-id="2c451-132">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="2c451-133">Чтобы проверить это предупреждение, используйте макрос **хр_фаилед** .</span><span class="sxs-lookup"><span data-stu-id="2c451-133">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="2c451-134">Дополнительные сведения см. [в разделе Использование макросов для обработки ошибок](using-macros-for-error-handling.md).</span><span class="sxs-lookup"><span data-stu-id="2c451-134">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="5e136-135">Замечания</span><span class="sxs-lookup"><span data-stu-id="5e136-135">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2c451-135">Комментарии</span><span class="sxs-lookup"><span data-stu-id="2c451-135">Remarks</span></span>
 
-<span data-ttu-id="5e136-136">Метод **IMAPITable::SeekRow** устанавливает новую BOOKMARK_CURRENT позицию курсора.</span><span class="sxs-lookup"><span data-stu-id="5e136-136">The **IMAPITable::SeekRow** method establishes a new BOOKMARK_CURRENT position for the cursor.</span></span> <span data-ttu-id="5e136-137">Параметр _lRowCount_ указывает число строк, которые перемещает курсор и направление перемещения.</span><span class="sxs-lookup"><span data-stu-id="5e136-137">The  _lRowCount_ parameter indicates the number of rows that the cursor moves and the direction of movement.</span></span> 
+<span data-ttu-id="2c451-136">Метод **IMAPITable:: сикров** устанавливает новую позицию букмарк_куррент для курсора.</span><span class="sxs-lookup"><span data-stu-id="2c451-136">The **IMAPITable::SeekRow** method establishes a new BOOKMARK_CURRENT position for the cursor.</span></span> <span data-ttu-id="2c451-137">Параметр _лровкаунт_ указывает количество строк, на которые курсор перемещается и направление движения.</span><span class="sxs-lookup"><span data-stu-id="2c451-137">The  _lRowCount_ parameter indicates the number of rows that the cursor moves and the direction of movement.</span></span> 
   
-<span data-ttu-id="5e136-138">Если итоговый позицию за пределами последней строки в таблице, курсор расположен после последней строки.</span><span class="sxs-lookup"><span data-stu-id="5e136-138">If the resulting position is beyond the last row of the table, the cursor is positioned after the last row.</span></span> <span data-ttu-id="5e136-139">Если итоговый положение перед первой строки в таблице, курсор расположен в начале первой строки.</span><span class="sxs-lookup"><span data-stu-id="5e136-139">If the resulting position is before the first row of the table, the cursor is positioned at the beginning of the first row.</span></span> 
+<span data-ttu-id="2c451-138">Если полученная позиция находится за пределами последней строки таблицы, курсор помещается после последней строки.</span><span class="sxs-lookup"><span data-stu-id="2c451-138">If the resulting position is beyond the last row of the table, the cursor is positioned after the last row.</span></span> <span data-ttu-id="2c451-139">Если полученная позиция находится перед первой строкой таблицы, курсор помещается в начало первой строки.</span><span class="sxs-lookup"><span data-stu-id="2c451-139">If the resulting position is before the first row of the table, the cursor is positioned at the beginning of the first row.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="5e136-140">Примечания для реализующих</span><span class="sxs-lookup"><span data-stu-id="5e136-140">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="2c451-140">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="2c451-140">Notes to implementers</span></span>
 
-<span data-ttu-id="5e136-141">Если не удается установить новую позицию закладки строки, на который указывает _bkOrigin_ больше не существует в таблице, возвращают MAPI_E_INVALID_BOOKMARK.</span><span class="sxs-lookup"><span data-stu-id="5e136-141">If the row pointed to by  _bkOrigin_ no longer exists in the table and you cannot establish a new position for the bookmark, return MAPI_E_INVALID_BOOKMARK.</span></span> <span data-ttu-id="5e136-142">Если строка, на который указывает _bkOrigin_ больше не существует, можно создать новую позицию закладки возврата MAPI_W_POSITION_CHANGED.</span><span class="sxs-lookup"><span data-stu-id="5e136-142">If the row pointed to by  _bkOrigin_ no longer exists and you can establish a new position for the bookmark, return MAPI_W_POSITION_CHANGED.</span></span> 
+<span data-ttu-id="2c451-141">Если строка, на которую указывает _бкоригин_ , больше не существует в таблице, и невозможно установить новое положение для закладки, возвращайте мапи_е_инвалид_букмарк.</span><span class="sxs-lookup"><span data-stu-id="2c451-141">If the row pointed to by  _bkOrigin_ no longer exists in the table and you cannot establish a new position for the bookmark, return MAPI_E_INVALID_BOOKMARK.</span></span> <span data-ttu-id="2c451-142">Если строка, на которую указывает _бкоригин_ , больше не существует, и вы можете задать новую позицию для закладки, возвращайте мапи_в_поситион_чанжед.</span><span class="sxs-lookup"><span data-stu-id="2c451-142">If the row pointed to by  _bkOrigin_ no longer exists and you can establish a new position for the bookmark, return MAPI_W_POSITION_CHANGED.</span></span> 
   
-<span data-ttu-id="5e136-143">Строка, в которой сворачивается из представления таблицы с указанием закладку по-прежнему можно использовать.</span><span class="sxs-lookup"><span data-stu-id="5e136-143">A bookmark pointing to a row that is collapsed out of the table view can still be used.</span></span> <span data-ttu-id="5e136-144">Попытка вызывающего абонента, переместите курсор к такой как закладка переместите курсор к следующей строке видимым и возвращают MAPI_W_POSITION_CHANGED.</span><span class="sxs-lookup"><span data-stu-id="5e136-144">If the caller attempts to move the cursor to such a bookmark, move the cursor to the next visible row and return MAPI_W_POSITION_CHANGED.</span></span> 
+<span data-ttu-id="2c451-143">По-прежнему можно использовать закладку, указывающую на строку, свернутую в представлении таблицы.</span><span class="sxs-lookup"><span data-stu-id="2c451-143">A bookmark pointing to a row that is collapsed out of the table view can still be used.</span></span> <span data-ttu-id="2c451-144">Если вызывающий объект пытается переместить курсор на такую закладку, переместите курсор на следующую видимую строку и возвратите МАПИ_В_ПОСИТИОН_ЧАНЖЕД.</span><span class="sxs-lookup"><span data-stu-id="2c451-144">If the caller attempts to move the cursor to such a bookmark, move the cursor to the next visible row and return MAPI_W_POSITION_CHANGED.</span></span> 
   
-<span data-ttu-id="5e136-145">Вы можете переместить закладки для положения свернуты экрана, во время использования или во время скрытую строку.</span><span class="sxs-lookup"><span data-stu-id="5e136-145">You can move bookmarks for positions collapsed out of view, either at the time of use or at the time that the row is collapsed.</span></span> <span data-ttu-id="5e136-146">Если закладки перемещается во время скрытую строку, помните, немного закладки, которое указывает, имеет ли закладки перемещен с момента ее последнего использования или, если он имеет никогда не использовался, с момента его создания.</span><span class="sxs-lookup"><span data-stu-id="5e136-146">If a bookmark is moved at the time that the row is collapsed, keep a bit in the bookmark that indicates whether the bookmark has moved since its last use or, if it has never been used, since its creation.</span></span>
+<span data-ttu-id="2c451-145">Можно переместить закладки для элементов, свернутых в представлении, в момент использования или во время свертывания строки.</span><span class="sxs-lookup"><span data-stu-id="2c451-145">You can move bookmarks for positions collapsed out of view, either at the time of use or at the time that the row is collapsed.</span></span> <span data-ttu-id="2c451-146">Если закладка перемещается в то время, когда строка свернута, сохраните бит в закладку, которая указывает на то, была ли эта закладка перемещена с момента ее последнего использования, или, если она никогда не использовалась, с момента ее создания.</span><span class="sxs-lookup"><span data-stu-id="2c451-146">If a bookmark is moved at the time that the row is collapsed, keep a bit in the bookmark that indicates whether the bookmark has moved since its last use or, if it has never been used, since its creation.</span></span>
   
-## <a name="notes-to-callers"></a><span data-ttu-id="5e136-147">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="5e136-147">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="2c451-147">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="2c451-147">Notes to callers</span></span>
 
-<span data-ttu-id="5e136-148">Чтобы указать обратной перемещения для **SeekRow**, передайте отрицательное значение _lRowCount_.</span><span class="sxs-lookup"><span data-stu-id="5e136-148">To indicate a backward move for **SeekRow**, pass a negative value in  _lRowCount_.</span></span> <span data-ttu-id="5e136-149">Чтобы выполнить поиск в начало таблицы, передайте нулевое значение в _lRowCount_ и значение BOOKMARK_BEGINNING в _bkOrigin_.</span><span class="sxs-lookup"><span data-stu-id="5e136-149">To search to the beginning of the table, pass zero in  _lRowCount_ and the value BOOKMARK_BEGINNING in  _bkOrigin_.</span></span> 
+<span data-ttu-id="2c451-148">Чтобы указать обратное перемещение для **сикров**, передайте отрицательное значение в _лровкаунт_.</span><span class="sxs-lookup"><span data-stu-id="2c451-148">To indicate a backward move for **SeekRow**, pass a negative value in  _lRowCount_.</span></span> <span data-ttu-id="2c451-149">Чтобы выполнить поиск в начале таблицы, в _лровкаунт_ передается ноль и значение Букмарк_бегиннинг в _бкоригин_.</span><span class="sxs-lookup"><span data-stu-id="2c451-149">To search to the beginning of the table, pass zero in  _lRowCount_ and the value BOOKMARK_BEGINNING in  _bkOrigin_.</span></span> 
   
-<span data-ttu-id="5e136-150">Если большое количество строк в таблице, операция **SeekRow** может быть медленно.</span><span class="sxs-lookup"><span data-stu-id="5e136-150">If there are lots of rows in the table, the **SeekRow** operation can be slow.</span></span> <span data-ttu-id="5e136-151">Может также повлиять на производительность при необходимости число строк должно быть возвращено содержимое параметр _lplRowsSought_ .</span><span class="sxs-lookup"><span data-stu-id="5e136-151">Performance can also be affected if you require a row count to be returned in the contents of the  _lplRowsSought_ parameter.</span></span> 
+<span data-ttu-id="2c451-150">Если в таблице много строк, операция **сикров** может быть медленной.</span><span class="sxs-lookup"><span data-stu-id="2c451-150">If there are lots of rows in the table, the **SeekRow** operation can be slow.</span></span> <span data-ttu-id="2c451-151">Кроме того, если необходимо вернуть количество строк в содержимом параметра _лплровссаугхт_ , это может поВлиять на производительность.</span><span class="sxs-lookup"><span data-stu-id="2c451-151">Performance can also be affected if you require a row count to be returned in the contents of the  _lplRowsSought_ parameter.</span></span> 
   
- <span data-ttu-id="5e136-152">**SeekRow** возвращает количество строк, фактически осуществляется через, положительное или отрицательное, указанному в переменной, на который указывает _lRowCount_.</span><span class="sxs-lookup"><span data-stu-id="5e136-152">**SeekRow** returns the number of rows actually searched through, positive or negative, in the variable pointed to by  _lRowCount_.</span></span> <span data-ttu-id="5e136-153">В обычные операции он должен возвращать такое же значение для _lplRowsSought_ как передано в качестве _lRowCount_, если не достигнут начала или окончания в таблице.</span><span class="sxs-lookup"><span data-stu-id="5e136-153">In ordinary operation, it should return the same value for  _lplRowsSought_ as passed in for  _lRowCount_, unless the search reached the beginning or end of the table.</span></span> 
+ <span data-ttu-id="2c451-152">**Сикров** возвращает количество строк, на которые фактически выполнялось Поиск, положительное или отрицательное, в переменной, на которую указывает _лровкаунт_.</span><span class="sxs-lookup"><span data-stu-id="2c451-152">**SeekRow** returns the number of rows actually searched through, positive or negative, in the variable pointed to by  _lRowCount_.</span></span> <span data-ttu-id="2c451-153">В обычной операции она должна возвращать одно и то же значение для _лплровссаугхт_ , как было передано в _лровкаунт_, если поиск не достиг начала или конца таблицы.</span><span class="sxs-lookup"><span data-stu-id="2c451-153">In ordinary operation, it should return the same value for  _lplRowsSought_ as passed in for  _lRowCount_, unless the search reached the beginning or end of the table.</span></span> 
   
-<span data-ttu-id="5e136-154">Не следует устанавливать _lRowCount_ значение больше, чем 50.</span><span class="sxs-lookup"><span data-stu-id="5e136-154">Do not set  _lRowCount_ to a number greater than 50.</span></span> <span data-ttu-id="5e136-155">Чтобы поиск с помощью большое число строк, используйте метод [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) .</span><span class="sxs-lookup"><span data-stu-id="5e136-155">To seek through a larger number of rows, use the [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) method.</span></span> 
+<span data-ttu-id="2c451-154">Не присвойте параметру _лровкаунт_ значение больше 50.</span><span class="sxs-lookup"><span data-stu-id="2c451-154">Do not set  _lRowCount_ to a number greater than 50.</span></span> <span data-ttu-id="2c451-155">Чтобы выполнить поиск по большему количеству строк, используйте метод [IMAPITable:: сикроваппрокс](imapitable-seekrowapprox.md) .</span><span class="sxs-lookup"><span data-stu-id="2c451-155">To seek through a larger number of rows, use the [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) method.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="5e136-156">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="5e136-156">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="2c451-156">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="2c451-156">MFCMAPI reference</span></span>
 
-<span data-ttu-id="5e136-157">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="5e136-157">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="2c451-157">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="2c451-157">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="5e136-158">**Файл**</span><span class="sxs-lookup"><span data-stu-id="5e136-158">**File**</span></span>|<span data-ttu-id="5e136-159">**Функция**</span><span class="sxs-lookup"><span data-stu-id="5e136-159">**Function**</span></span>|<span data-ttu-id="5e136-160">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="5e136-160">**Comment**</span></span>|
+|<span data-ttu-id="2c451-158">**Файл**</span><span class="sxs-lookup"><span data-stu-id="2c451-158">**File**</span></span>|<span data-ttu-id="2c451-159">**Функция**</span><span class="sxs-lookup"><span data-stu-id="2c451-159">**Function**</span></span>|<span data-ttu-id="2c451-160">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="2c451-160">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="5e136-161">MAPIProcessor.cpp</span><span class="sxs-lookup"><span data-stu-id="5e136-161">MAPIProcessor.cpp</span></span>  <br/> |<span data-ttu-id="5e136-162">CMAPIProcessor::ProcessMailboxTable</span><span class="sxs-lookup"><span data-stu-id="5e136-162">CMAPIProcessor::ProcessMailboxTable</span></span>  <br/> |<span data-ttu-id="5e136-163">Mfcmapi (en) использует метод **IMAPITable::SeekRow** для обнаружения начало таблицы перед обработкой.</span><span class="sxs-lookup"><span data-stu-id="5e136-163">MFCMAPI uses the **IMAPITable::SeekRow** method to locate the beginning of the table before processing.</span></span>  <br/> |
+|<span data-ttu-id="2c451-161">Мапипроцессор. cpp</span><span class="sxs-lookup"><span data-stu-id="2c451-161">MAPIProcessor.cpp</span></span>  <br/> |<span data-ttu-id="2c451-162">Кмапипроцессор::P Роцессмаилбокстабле</span><span class="sxs-lookup"><span data-stu-id="2c451-162">CMAPIProcessor::ProcessMailboxTable</span></span>  <br/> |<span data-ttu-id="2c451-163">MFCMAPI использует метод **IMAPITable:: сикров** для обнаружения начала таблицы перед обработкой.</span><span class="sxs-lookup"><span data-stu-id="2c451-163">MFCMAPI uses the **IMAPITable::SeekRow** method to locate the beginning of the table before processing.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="5e136-164">См. также</span><span class="sxs-lookup"><span data-stu-id="5e136-164">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2c451-164">См. также</span><span class="sxs-lookup"><span data-stu-id="2c451-164">See also</span></span>
 
 
 
-[<span data-ttu-id="5e136-165">IMAPITable::CreateBookmark</span><span class="sxs-lookup"><span data-stu-id="5e136-165">IMAPITable::CreateBookmark</span></span>](imapitable-createbookmark.md)
+[<span data-ttu-id="2c451-165">IMAPITable::CreateBookmark</span><span class="sxs-lookup"><span data-stu-id="2c451-165">IMAPITable::CreateBookmark</span></span>](imapitable-createbookmark.md)
   
-[<span data-ttu-id="5e136-166">IMAPITable::FindRow</span><span class="sxs-lookup"><span data-stu-id="5e136-166">IMAPITable::FindRow</span></span>](imapitable-findrow.md)
+[<span data-ttu-id="2c451-166">IMAPITable::FindRow</span><span class="sxs-lookup"><span data-stu-id="2c451-166">IMAPITable::FindRow</span></span>](imapitable-findrow.md)
   
-[<span data-ttu-id="5e136-167">IMAPITable::QueryRows</span><span class="sxs-lookup"><span data-stu-id="5e136-167">IMAPITable::QueryRows</span></span>](imapitable-queryrows.md)
+[<span data-ttu-id="2c451-167">IMAPITable::QueryRows</span><span class="sxs-lookup"><span data-stu-id="2c451-167">IMAPITable::QueryRows</span></span>](imapitable-queryrows.md)
   
-[<span data-ttu-id="5e136-168">IMAPITable::SeekRowApprox</span><span class="sxs-lookup"><span data-stu-id="5e136-168">IMAPITable::SeekRowApprox</span></span>](imapitable-seekrowapprox.md)
+[<span data-ttu-id="2c451-168">IMAPITable::SeekRowApprox</span><span class="sxs-lookup"><span data-stu-id="2c451-168">IMAPITable::SeekRowApprox</span></span>](imapitable-seekrowapprox.md)
   
-[<span data-ttu-id="5e136-169">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="5e136-169">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
+[<span data-ttu-id="2c451-169">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2c451-169">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
 
 
-[<span data-ttu-id="5e136-170">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="5e136-170">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="2c451-170">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="2c451-170">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

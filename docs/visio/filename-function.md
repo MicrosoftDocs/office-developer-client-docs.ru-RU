@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 03423eb8-160b-2877-de61-f0cc53ae51a1
 description: Возвращает имя файла документа в виде строки.
-ms.openlocfilehash: 6a5f535cc047bb5f83992854afb0600cfe5c9823
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41ea7e8bc8f2402435f8df22c77d23c60a61e03d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322521"
 ---
-# <a name="filename-function"></a><span data-ttu-id="61c25-103">Функция FILENAME</span><span class="sxs-lookup"><span data-stu-id="61c25-103">FILENAME Function</span></span>
+# <a name="filename-function"></a><span data-ttu-id="8a644-103">Функция FILENAME</span><span class="sxs-lookup"><span data-stu-id="8a644-103">FILENAME Function</span></span>
 
-<span data-ttu-id="61c25-104">Возвращает имя файла документа в виде строки.</span><span class="sxs-lookup"><span data-stu-id="61c25-104">Returns a document's file name as a string.</span></span>
+<span data-ttu-id="8a644-104">Возвращает имя файла документа в виде строки.</span><span class="sxs-lookup"><span data-stu-id="8a644-104">Returns a document's file name as a string.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="61c25-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="61c25-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8a644-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8a644-105">Syntax</span></span>
 
-<span data-ttu-id="61c25-106">ИМЯ ФАЙЛА)</span><span class="sxs-lookup"><span data-stu-id="61c25-106">FILENAME ()</span></span>
+<span data-ttu-id="8a644-106">FILENAME ()</span><span class="sxs-lookup"><span data-stu-id="8a644-106">FILENAME ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="61c25-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="8a644-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8a644-107">Return value</span></span>
 
-<span data-ttu-id="61c25-108">String</span><span class="sxs-lookup"><span data-stu-id="61c25-108">String</span></span>
+<span data-ttu-id="8a644-108">Строка</span><span class="sxs-lookup"><span data-stu-id="8a644-108">String</span></span>
   
 

@@ -8,20 +8,20 @@ api_type:
 - COM
 ms.assetid: 69b466b6-3f65-479a-8148-644443331927
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: dbd69ab7719d5def312792995a4a74c202efeec7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea211b8bb0bdcdd60b34396c44c37c23cbf66413
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328168"
 ---
-# <a name="mapi-programming-elements"></a><span data-ttu-id="ce3f6-103">Элементы программирования MAPI</span><span class="sxs-lookup"><span data-stu-id="ce3f6-103">MAPI programming elements</span></span>
+# <a name="mapi-programming-elements"></a><span data-ttu-id="065ed-103">Элементы программирования MAPI</span><span class="sxs-lookup"><span data-stu-id="065ed-103">MAPI programming elements</span></span>
 
-<span data-ttu-id="ce3f6-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ce3f6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="065ed-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="065ed-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ce3f6-105">Этот раздел содержит общие сведения об элементов программирования в [Справочник по интерфейсу MAPI](mapi-reference.md).</span><span class="sxs-lookup"><span data-stu-id="ce3f6-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
+<span data-ttu-id="065ed-105">В этом разделе представлены концептуальные обзоры элементов программирования в справочнике по [MAPI](mapi-reference.md).</span><span class="sxs-lookup"><span data-stu-id="065ed-105">This section contains conceptual overviews of the programming elements in the [MAPI Reference](mapi-reference.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="ce3f6-106">См. также</span><span class="sxs-lookup"><span data-stu-id="ce3f6-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="065ed-106">См. также</span><span class="sxs-lookup"><span data-stu-id="065ed-106">See also</span></span>
 
-- [<span data-ttu-id="ce3f6-107">Понятия MAPI</span><span class="sxs-lookup"><span data-stu-id="ce3f6-107">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="065ed-107">Понятия MAPI</span><span class="sxs-lookup"><span data-stu-id="065ed-107">MAPI Concepts</span></span>](mapi-concepts.md)
 

@@ -12,42 +12,42 @@ api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4397315ef5ebc8009805f911f7d7b549a698b955
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 11f078c0e2071e6f58a85dbe627b2ced676bacb9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329507"
 ---
-# <a name="cbnewentryid"></a><span data-ttu-id="b8b65-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="b8b65-103">CbNewENTRYID</span></span>
+# <a name="cbnewentryid"></a><span data-ttu-id="234ba-103">CbNewENTRYID</span><span class="sxs-lookup"><span data-stu-id="234ba-103">CbNewENTRYID</span></span>
 
   
   
-<span data-ttu-id="b8b65-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b8b65-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="234ba-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="234ba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b8b65-105">Вычисляет число байтов, должен быть размещен для новой структуры [ENTRYID](entryid.md) указанного размера.</span><span class="sxs-lookup"><span data-stu-id="b8b65-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
+<span data-ttu-id="234ba-105">Вычисляет количество байтов, которое должно быть выделено для новой структуры [EntryID](entryid.md) указанного размера.</span><span class="sxs-lookup"><span data-stu-id="234ba-105">Computes the number of bytes that should be allocated for a new [ENTRYID](entryid.md) structure of a specified size.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b8b65-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="b8b65-106">Header file:</span></span>  <br/> |<span data-ttu-id="b8b65-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b8b65-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="b8b65-108">Связанные структуры:</span><span class="sxs-lookup"><span data-stu-id="b8b65-108">Related structure:</span></span>  <br/> |<span data-ttu-id="b8b65-109">**ENTRYID**</span><span class="sxs-lookup"><span data-stu-id="b8b65-109">**ENTRYID**</span></span> <br/> |
+|<span data-ttu-id="234ba-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="234ba-106">Header file:</span></span>  <br/> |<span data-ttu-id="234ba-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="234ba-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="234ba-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="234ba-108">Related structure:</span></span>  <br/> |<span data-ttu-id="234ba-109">**КОД**</span><span class="sxs-lookup"><span data-stu-id="234ba-109">**ENTRYID**</span></span> <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b8b65-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="b8b65-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="234ba-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="234ba-110">Parameters</span></span>
 
- <span data-ttu-id="b8b65-111">__Сертификация_</span><span class="sxs-lookup"><span data-stu-id="b8b65-111">__cb_</span></span>
+ <span data-ttu-id="234ba-111">__CB_</span><span class="sxs-lookup"><span data-stu-id="234ba-111">__cb_</span></span>
   
-> <span data-ttu-id="b8b65-112">Число байт в идентификатор записи будут сохраняться в новой структуры **ENTRYID** .</span><span class="sxs-lookup"><span data-stu-id="b8b65-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
+> <span data-ttu-id="234ba-112">Количество байтов в идентификаторе записи, которые будут храниться в новой структуре **EntryID** .</span><span class="sxs-lookup"><span data-stu-id="234ba-112">Count of bytes in the entry identifier to be stored in the new **ENTRYID** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="b8b65-113">См. также</span><span class="sxs-lookup"><span data-stu-id="b8b65-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="234ba-113">См. также</span><span class="sxs-lookup"><span data-stu-id="234ba-113">See also</span></span>
 
 
 
-[<span data-ttu-id="b8b65-114">ENTRYID</span><span class="sxs-lookup"><span data-stu-id="b8b65-114">ENTRYID</span></span>](entryid.md)
+[<span data-ttu-id="234ba-114">КОД</span><span class="sxs-lookup"><span data-stu-id="234ba-114">ENTRYID</span></span>](entryid.md)
 
 
-[<span data-ttu-id="b8b65-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="b8b65-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="234ba-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="234ba-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 
