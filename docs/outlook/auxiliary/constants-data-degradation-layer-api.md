@@ -1,31 +1,31 @@
 ---
-title: Константы (layer уменьшение объема данных API).
+title: Константы (API уровня замедления данных)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 541dfe13-0f85-bac6-b302-fc044a75631e
-description: В этом разделе содержатся определения констант для API Layer уменьшение объема данных.
-ms.openlocfilehash: aaeac8804be96ece41f9d80a6355c51f3b58b1f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: В этом разделе содержатся определения констант для API уровня ухудшения данных.
+ms.openlocfilehash: c2ad2fa7eba374fb7878609943ab63e684d1702c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19807701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319014"
 ---
-# <a name="constants-data-degradation-layer-api"></a><span data-ttu-id="64ca4-103">Константы (layer уменьшение объема данных API).</span><span class="sxs-lookup"><span data-stu-id="64ca4-103">Constants (Data degradation layer API)</span></span>
+# <a name="constants-data-degradation-layer-api"></a><span data-ttu-id="eb0df-103">Константы (API уровня замедления данных)</span><span class="sxs-lookup"><span data-stu-id="eb0df-103">Constants (Data degradation layer API)</span></span>
 
-<span data-ttu-id="64ca4-104">В этом разделе содержатся определения констант для API Layer уменьшение объема данных.</span><span class="sxs-lookup"><span data-stu-id="64ca4-104">This topic contains constant definitions for the Data Degradation Layer API.</span></span>
+<span data-ttu-id="eb0df-104">В этом разделе содержатся определения констант для API уровня ухудшения данных.</span><span class="sxs-lookup"><span data-stu-id="eb0df-104">This topic contains constant definitions for the Data Degradation Layer API.</span></span>
   
-## <a name="constants"></a><span data-ttu-id="64ca4-105">Константы</span><span class="sxs-lookup"><span data-stu-id="64ca4-105">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="eb0df-105">Константы</span><span class="sxs-lookup"><span data-stu-id="eb0df-105">Constants</span></span>
 
-|<span data-ttu-id="64ca4-106">**Constant**</span><span class="sxs-lookup"><span data-stu-id="64ca4-106">**Constant**</span></span>|<span data-ttu-id="64ca4-107">**Определение**</span><span class="sxs-lookup"><span data-stu-id="64ca4-107">**Definition**</span></span>|
+|<span data-ttu-id="eb0df-106">**Константа**</span><span class="sxs-lookup"><span data-stu-id="eb0df-106">**Constant**</span></span>|<span data-ttu-id="eb0df-107">**Определение**</span><span class="sxs-lookup"><span data-stu-id="eb0df-107">**Definition**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="64ca4-108">DDLWRAP_FLAG_ANSI</span><span class="sxs-lookup"><span data-stu-id="64ca4-108">DDLWRAP_FLAG_ANSI</span></span>  <br/> |<span data-ttu-id="64ca4-109">0x00000001</span><span class="sxs-lookup"><span data-stu-id="64ca4-109">0x00000001</span></span>  <br/> |
-|<span data-ttu-id="64ca4-110">DDLWRAP_FLAG_UNICODE</span><span class="sxs-lookup"><span data-stu-id="64ca4-110">DDLWRAP_FLAG_UNICODE</span></span>  <br/> |<span data-ttu-id="64ca4-111">0x00000002</span><span class="sxs-lookup"><span data-stu-id="64ca4-111">0x00000002</span></span>  <br/> |
+|<span data-ttu-id="eb0df-108">ДДЛВРАП_ФЛАГ_АНСИ</span><span class="sxs-lookup"><span data-stu-id="eb0df-108">DDLWRAP_FLAG_ANSI</span></span>  <br/> |<span data-ttu-id="eb0df-109">0x00000001</span><span class="sxs-lookup"><span data-stu-id="eb0df-109">0x00000001</span></span>  <br/> |
+|<span data-ttu-id="eb0df-110">ДДЛВРАП_ФЛАГ_УНИКОДЕ</span><span class="sxs-lookup"><span data-stu-id="eb0df-110">DDLWRAP_FLAG_UNICODE</span></span>  <br/> |<span data-ttu-id="eb0df-111">0x00000002</span><span class="sxs-lookup"><span data-stu-id="eb0df-111">0x00000002</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="64ca4-112">См. также</span><span class="sxs-lookup"><span data-stu-id="64ca4-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eb0df-112">См. также</span><span class="sxs-lookup"><span data-stu-id="eb0df-112">See also</span></span>
 
-- [<span data-ttu-id="64ca4-113">About the Data Degradation Layer API</span><span class="sxs-lookup"><span data-stu-id="64ca4-113">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
+- [<span data-ttu-id="eb0df-113">About the Data Degradation Layer API</span><span class="sxs-lookup"><span data-stu-id="eb0df-113">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
 

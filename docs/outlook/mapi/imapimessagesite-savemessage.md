@@ -1,5 +1,5 @@
 ---
-title: IMAPIMessageSiteSaveMessage
+title: Имапимессажеситесавемессаже
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,57 +12,57 @@ api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9fa7c7226c4ddb5acf5c6b73f55c46829d959eef
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 938eaa6c1a39d24157d5d690c42b435af6192cb6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321422"
 ---
-# <a name="imapimessagesitesavemessage"></a><span data-ttu-id="80b6b-103">IMAPIMessageSite::SaveMessage</span><span class="sxs-lookup"><span data-stu-id="80b6b-103">IMAPIMessageSite::SaveMessage</span></span>
+# <a name="imapimessagesitesavemessage"></a><span data-ttu-id="204c3-103">IMAPIMessageSite::SaveMessage</span><span class="sxs-lookup"><span data-stu-id="204c3-103">IMAPIMessageSite::SaveMessage</span></span>
 
   
   
-<span data-ttu-id="80b6b-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="80b6b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="204c3-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="204c3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="80b6b-105">Запросы, которые сохранены текущего сообщения.</span><span class="sxs-lookup"><span data-stu-id="80b6b-105">Requests that the current message be saved.</span></span>
+<span data-ttu-id="204c3-105">ЗаПрашивает сохранение текущего сообщения.</span><span class="sxs-lookup"><span data-stu-id="204c3-105">Requests that the current message be saved.</span></span>
   
 ```cpp
 HRESULT SaveMessage( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="80b6b-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="80b6b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="204c3-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="204c3-106">Parameters</span></span>
 
-<span data-ttu-id="80b6b-107">Нет.</span><span class="sxs-lookup"><span data-stu-id="80b6b-107">None.</span></span>
+<span data-ttu-id="204c3-107">Нет.</span><span class="sxs-lookup"><span data-stu-id="204c3-107">None.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="80b6b-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="80b6b-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="204c3-108">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="204c3-108">Return value</span></span>
 
-<span data-ttu-id="80b6b-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="80b6b-109">S_OK</span></span> 
+<span data-ttu-id="204c3-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="204c3-109">S_OK</span></span> 
   
-> <span data-ttu-id="80b6b-110">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="80b6b-110">The call succeeded and has returned the expected value or values.</span></span> 
+> <span data-ttu-id="204c3-110">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="204c3-110">The call succeeded and has returned the expected value or values.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="80b6b-111">���������</span><span class="sxs-lookup"><span data-stu-id="80b6b-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="204c3-111">Замечания</span><span class="sxs-lookup"><span data-stu-id="204c3-111">Remarks</span></span>
 
-<span data-ttu-id="80b6b-112">Форм вызовите метод **IMAPIMessageSite::SaveMessage** для запроса сохранить сообщение.</span><span class="sxs-lookup"><span data-stu-id="80b6b-112">Forms call the **IMAPIMessageSite::SaveMessage** method to request that a message be saved.</span></span> 
+<span data-ttu-id="204c3-112">Формы вызывают метод **имапимессажесите:: савемессаже** , чтобы запросить сохранение сообщения.</span><span class="sxs-lookup"><span data-stu-id="204c3-112">Forms call the **IMAPIMessageSite::SaveMessage** method to request that a message be saved.</span></span> 
   
-<span data-ttu-id="80b6b-113">Список интерфейсы, связанные с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="80b6b-113">For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
+<span data-ttu-id="204c3-113">Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="204c3-113">For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="80b6b-114">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="80b6b-114">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="204c3-114">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="204c3-114">MFCMAPI reference</span></span>
 
-<span data-ttu-id="80b6b-115">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="80b6b-115">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="204c3-115">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="204c3-115">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="80b6b-116">**Файл**</span><span class="sxs-lookup"><span data-stu-id="80b6b-116">**File**</span></span>|<span data-ttu-id="80b6b-117">**Функция**</span><span class="sxs-lookup"><span data-stu-id="80b6b-117">**Function**</span></span>|<span data-ttu-id="80b6b-118">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="80b6b-118">**Comment**</span></span>|
+|<span data-ttu-id="204c3-116">**Файл**</span><span class="sxs-lookup"><span data-stu-id="204c3-116">**File**</span></span>|<span data-ttu-id="204c3-117">**Функция**</span><span class="sxs-lookup"><span data-stu-id="204c3-117">**Function**</span></span>|<span data-ttu-id="204c3-118">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="204c3-118">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="80b6b-119">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="80b6b-119">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="80b6b-120">CMyMAPIFormViewer::SaveMessage</span><span class="sxs-lookup"><span data-stu-id="80b6b-120">CMyMAPIFormViewer::SaveMessage</span></span>  <br/> |<span data-ttu-id="80b6b-121">Mfcmapi (en) использует метод **IMAPIMessageSite::SaveMessage** для сохранения сообщения.</span><span class="sxs-lookup"><span data-stu-id="80b6b-121">MFCMAPI uses the **IMAPIMessageSite::SaveMessage** method to save the message.</span></span>  <br/> |
+|<span data-ttu-id="204c3-119">Мимапиформвиевер. cpp</span><span class="sxs-lookup"><span data-stu-id="204c3-119">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="204c3-120">Кмимапиформвиевер:: Савемессаже</span><span class="sxs-lookup"><span data-stu-id="204c3-120">CMyMAPIFormViewer::SaveMessage</span></span>  <br/> |<span data-ttu-id="204c3-121">MFCMAPI использует метод **имапимессажесите:: савемессаже** для сохранения сообщения.</span><span class="sxs-lookup"><span data-stu-id="204c3-121">MFCMAPI uses the **IMAPIMessageSite::SaveMessage** method to save the message.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="80b6b-122">См. также</span><span class="sxs-lookup"><span data-stu-id="80b6b-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="204c3-122">См. также</span><span class="sxs-lookup"><span data-stu-id="204c3-122">See also</span></span>
 
 
 
-[<span data-ttu-id="80b6b-123">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="80b6b-123">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
+[<span data-ttu-id="204c3-123">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="204c3-123">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
 
 
-[<span data-ttu-id="80b6b-124">MFCMAPI как пример кода</span><span class="sxs-lookup"><span data-stu-id="80b6b-124">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="204c3-124">MFCMAPI как пример кода</span><span class="sxs-lookup"><span data-stu-id="204c3-124">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="80b6b-125">Интерфейсы формы MAPI</span><span class="sxs-lookup"><span data-stu-id="80b6b-125">MAPI Form Interfaces</span></span>](mapi-form-interfaces.md)
+[<span data-ttu-id="204c3-125">Интерфейсы форм MAPI</span><span class="sxs-lookup"><span data-stu-id="204c3-125">MAPI Form Interfaces</span></span>](mapi-form-interfaces.md)
 

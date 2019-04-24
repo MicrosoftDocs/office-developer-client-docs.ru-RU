@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormMgrCreateForm
+title: Имапиформмгркреатеформ
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e86c3d9678739c09024c0655cbbbb702749a53f0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c6e18ee9f8ea1d7dc6592d576c5a1163db526639
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321667"
 ---
-# <a name="imapiformmgrcreateform"></a><span data-ttu-id="1fc64-103">IMAPIFormMgr::CreateForm</span><span class="sxs-lookup"><span data-stu-id="1fc64-103">IMAPIFormMgr::CreateForm</span></span>
+# <a name="imapiformmgrcreateform"></a><span data-ttu-id="1a672-103">IMAPIFormMgr::CreateForm</span><span class="sxs-lookup"><span data-stu-id="1a672-103">IMAPIFormMgr::CreateForm</span></span>
 
   
   
-<span data-ttu-id="1fc64-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1fc64-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1a672-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a672-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1fc64-105">Открывает форму для создания нового сообщения на основе класса сообщения формы.</span><span class="sxs-lookup"><span data-stu-id="1fc64-105">Opens a form to create a new message based on the form's message class.</span></span>
+<span data-ttu-id="1a672-105">Открывает форму для создания нового сообщения на основе класса сообщений формы.</span><span class="sxs-lookup"><span data-stu-id="1a672-105">Opens a form to create a new message based on the form's message class.</span></span>
   
 ```cpp
 HRESULT CreateForm(
@@ -37,70 +37,70 @@ HRESULT CreateForm(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1fc64-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="1fc64-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1a672-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="1a672-106">Parameters</span></span>
 
- <span data-ttu-id="1fc64-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="1fc64-107">_ulUIParam_</span></span>
+ <span data-ttu-id="1a672-107">_Улуипарам_</span><span class="sxs-lookup"><span data-stu-id="1a672-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="1fc64-108">[in] Дескриптор родительского окна для индикатора, отображаемое при открытии формы.</span><span class="sxs-lookup"><span data-stu-id="1fc64-108">[in] A handle to the parent window for the progress indicator that is displayed while the form is opened.</span></span> <span data-ttu-id="1fc64-109">Параметр _ulUIParam_ игнорируется, пока флаг MAPI_DIALOG будет выполнен с помощью параметра _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="1fc64-109">The  _ulUIParam_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="1a672-108">возврата Дескриптор родительского окна для индикатора хода выполнения, отображаемого при открытии формы.</span><span class="sxs-lookup"><span data-stu-id="1a672-108">[in] A handle to the parent window for the progress indicator that is displayed while the form is opened.</span></span> <span data-ttu-id="1a672-109">Параметр _улуипарам_ игнорируется, если не установлен флаг мапи_диалог в параметре _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="1a672-109">The  _ulUIParam_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="1fc64-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="1fc64-110">_ulFlags_</span></span>
+ <span data-ttu-id="1a672-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="1a672-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="1fc64-111">[in] Битовая маска флаги, который определяет, как форма будет открыта.</span><span class="sxs-lookup"><span data-stu-id="1fc64-111">[in] A bitmask of flags that controls how the form is opened.</span></span> <span data-ttu-id="1fc64-112">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="1fc64-112">The following flag can be set:</span></span>
+> <span data-ttu-id="1a672-111">возврата Битовая маска флагов, определяющих способ открытия формы.</span><span class="sxs-lookup"><span data-stu-id="1a672-111">[in] A bitmask of flags that controls how the form is opened.</span></span> <span data-ttu-id="1a672-112">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="1a672-112">The following flag can be set:</span></span>
     
-<span data-ttu-id="1fc64-113">MAPI_DIALOG</span><span class="sxs-lookup"><span data-stu-id="1fc64-113">MAPI_DIALOG</span></span> 
+<span data-ttu-id="1a672-113">МАПИ_ДИАЛОГ</span><span class="sxs-lookup"><span data-stu-id="1a672-113">MAPI_DIALOG</span></span> 
   
-> <span data-ttu-id="1fc64-114">Отображает пользовательский интерфейс для предоставления состояния или запрашивать у пользователя для получения дополнительных сведений.</span><span class="sxs-lookup"><span data-stu-id="1fc64-114">Displays a user interface to provide status or prompt the user for more information.</span></span> <span data-ttu-id="1fc64-115">Если этот флаг не установлен, пользовательский интерфейс не отображается.</span><span class="sxs-lookup"><span data-stu-id="1fc64-115">If this flag is not set, no user interface is displayed.</span></span>
+> <span data-ttu-id="1a672-114">Отображает пользовательский интерфейс для предоставления сведений о состоянии или предлагает пользователю ввести дополнительные сведения.</span><span class="sxs-lookup"><span data-stu-id="1a672-114">Displays a user interface to provide status or prompt the user for more information.</span></span> <span data-ttu-id="1a672-115">Если этот флаг не установлен, Пользовательский интерфейс не отображается.</span><span class="sxs-lookup"><span data-stu-id="1a672-115">If this flag is not set, no user interface is displayed.</span></span>
     
- <span data-ttu-id="1fc64-116">_pfrminfoToActivate_</span><span class="sxs-lookup"><span data-stu-id="1fc64-116">_pfrminfoToActivate_</span></span>
+ <span data-ttu-id="1a672-116">_Пфрминфотоактивате_</span><span class="sxs-lookup"><span data-stu-id="1a672-116">_pfrminfoToActivate_</span></span>
   
-> <span data-ttu-id="1fc64-117">[in] Указатель на объект данные формы, который используется для открытия формы.</span><span class="sxs-lookup"><span data-stu-id="1fc64-117">[in] A pointer to the form information object that is used to open the form.</span></span>
+> <span data-ttu-id="1a672-117">возврата Указатель на объект сведений о форме, используемый для открытия формы.</span><span class="sxs-lookup"><span data-stu-id="1a672-117">[in] A pointer to the form information object that is used to open the form.</span></span>
     
- <span data-ttu-id="1fc64-118">_refiidToAsk_</span><span class="sxs-lookup"><span data-stu-id="1fc64-118">_refiidToAsk_</span></span>
+ <span data-ttu-id="1a672-118">_Рефиидтоаск_</span><span class="sxs-lookup"><span data-stu-id="1a672-118">_refiidToAsk_</span></span>
   
-> <span data-ttu-id="1fc64-119">[in] Указатель интерфейса должно быть возвращено для объекта формы, которая была создана с идентификатором интерфейса (ИД интерфейса).</span><span class="sxs-lookup"><span data-stu-id="1fc64-119">[in] A pointer to the interface identifier (IID) for the interface to be returned for the form object that was created.</span></span> <span data-ttu-id="1fc64-120">Параметр _refiidToAsk_ не должна быть NULL.</span><span class="sxs-lookup"><span data-stu-id="1fc64-120">The  _refiidToAsk_ parameter must not be NULL.</span></span> 
+> <span data-ttu-id="1a672-119">возврата Указатель на идентификатор интерфейса (IID) для интерфейса, возвращаемого для объекта формы, который был создан.</span><span class="sxs-lookup"><span data-stu-id="1a672-119">[in] A pointer to the interface identifier (IID) for the interface to be returned for the form object that was created.</span></span> <span data-ttu-id="1a672-120">Параметр _рефиидтоаск_ не должен иметь значение null.</span><span class="sxs-lookup"><span data-stu-id="1a672-120">The  _refiidToAsk_ parameter must not be NULL.</span></span> 
     
- <span data-ttu-id="1fc64-121">_ppvObj_</span><span class="sxs-lookup"><span data-stu-id="1fc64-121">_ppvObj_</span></span>
+ <span data-ttu-id="1a672-121">_Ппвобж_</span><span class="sxs-lookup"><span data-stu-id="1a672-121">_ppvObj_</span></span>
   
-> <span data-ttu-id="1fc64-122">[out] Указатель на указатель на возвращенный интерфейс.</span><span class="sxs-lookup"><span data-stu-id="1fc64-122">[out] A pointer to a pointer to the returned interface.</span></span>
+> <span data-ttu-id="1a672-122">вышли Указатель на указатель на возвращенный интерфейс.</span><span class="sxs-lookup"><span data-stu-id="1a672-122">[out] A pointer to a pointer to the returned interface.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="1fc64-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1fc64-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1a672-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1a672-123">Return value</span></span>
 
-<span data-ttu-id="1fc64-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="1fc64-124">S_OK</span></span> 
+<span data-ttu-id="1a672-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="1a672-124">S_OK</span></span> 
   
-> <span data-ttu-id="1fc64-125">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="1fc64-125">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="1a672-125">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="1a672-125">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="1fc64-126">MAPI_E_NO_INTERFACE</span><span class="sxs-lookup"><span data-stu-id="1fc64-126">MAPI_E_NO_INTERFACE</span></span> 
+<span data-ttu-id="1a672-126">МАПИ_Е_НО_ИНТЕРФАЦЕ</span><span class="sxs-lookup"><span data-stu-id="1a672-126">MAPI_E_NO_INTERFACE</span></span> 
   
-> <span data-ttu-id="1fc64-127">Запрошенный интерфейс не поддерживается объектом формы.</span><span class="sxs-lookup"><span data-stu-id="1fc64-127">The requested interface is not supported by the form object.</span></span>
+> <span data-ttu-id="1a672-127">Запрошенный интерфейс не поддерживается объектом Form.</span><span class="sxs-lookup"><span data-stu-id="1a672-127">The requested interface is not supported by the form object.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1fc64-128">Замечания</span><span class="sxs-lookup"><span data-stu-id="1fc64-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1a672-128">Замечания</span><span class="sxs-lookup"><span data-stu-id="1a672-128">Remarks</span></span>
 
-<span data-ttu-id="1fc64-129">Средства просмотра форм вызовите метод **IMAPIFormMgr::CreateForm** для открытия формы для создания нового сообщения на основе класса сообщения формы.</span><span class="sxs-lookup"><span data-stu-id="1fc64-129">Form viewers call the **IMAPIFormMgr::CreateForm** method to open a form to create a new message based on the form's message class.</span></span> <span data-ttu-id="1fc64-130">**CreateForm** открывает форму путем создания экземпляра сервера форм для этой формы, как описано в объекте данные указанной формы.</span><span class="sxs-lookup"><span data-stu-id="1fc64-130">**CreateForm** opens the form by creating an instance of the form server for that form as described in the given form information object.</span></span> <span data-ttu-id="1fc64-131">При необходимости **CreateForm** вызывает метод [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) , чтобы загрузить серверного кода формы диск компьютера пользователя.</span><span class="sxs-lookup"><span data-stu-id="1fc64-131">If required, **CreateForm** calls the [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) method to download the form server code to the user's disk.</span></span> 
+<span data-ttu-id="1a672-129">Средства просмотра форм вызывают метод **имапиформмгр:: креатеформ** , чтобы открыть форму для создания нового сообщения на основе класса сообщений формы.</span><span class="sxs-lookup"><span data-stu-id="1a672-129">Form viewers call the **IMAPIFormMgr::CreateForm** method to open a form to create a new message based on the form's message class.</span></span> <span data-ttu-id="1a672-130">**Креатеформ** открывает форму, создавая экземпляр сервера форм для этой формы, как описано в данном объекте сведений о форме.</span><span class="sxs-lookup"><span data-stu-id="1a672-130">**CreateForm** opens the form by creating an instance of the form server for that form as described in the given form information object.</span></span> <span data-ttu-id="1a672-131">При необходимости **креатеформ** вызывает метод [Имапиформмгр::P репареформ](imapiformmgr-prepareform.md) для загрузки кода сервера форм на диск пользователя.</span><span class="sxs-lookup"><span data-stu-id="1a672-131">If required, **CreateForm** calls the [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) method to download the form server code to the user's disk.</span></span> 
   
-<span data-ttu-id="1fc64-132">Параметр _pfrminfoToActivate_ должен указывать на объект данные формы, правильно разрешены.</span><span class="sxs-lookup"><span data-stu-id="1fc64-132">The  _pfrminfoToActivate_ parameter must point to a form information object that has been correctly resolved.</span></span> 
+<span data-ttu-id="1a672-132">Параметр _пфрминфотоактивате_ должен указать на объект сведений о форме, который был правильно распознан.</span><span class="sxs-lookup"><span data-stu-id="1a672-132">The  _pfrminfoToActivate_ parameter must point to a form information object that has been correctly resolved.</span></span> 
   
-<span data-ttu-id="1fc64-133">После открытия формы, вызывающий средство просмотра формы необходимо настроить сообщение с помощью интерфейса [IPersistMessage](ipersistmessageiunknown.md) и при необходимости можно настроить контекст представления для формы.</span><span class="sxs-lookup"><span data-stu-id="1fc64-133">After the form has been opened, the calling form viewer must set up a message by using the [IPersistMessage](ipersistmessageiunknown.md) interface and can optionally set up a view context for the form.</span></span> <span data-ttu-id="1fc64-134">Для получения дополнительных сведений см [запуска сервера формы](launching-a-form-server.md).</span><span class="sxs-lookup"><span data-stu-id="1fc64-134">For more information, see [Launching a Form Server](launching-a-form-server.md).</span></span> 
+<span data-ttu-id="1a672-133">После открытия формы средство просмотра формы должно настроить сообщение с помощью интерфейса [иперсистмессаже](ipersistmessageiunknown.md) и при необходимости может задать контекст представления для формы.</span><span class="sxs-lookup"><span data-stu-id="1a672-133">After the form has been opened, the calling form viewer must set up a message by using the [IPersistMessage](ipersistmessageiunknown.md) interface and can optionally set up a view context for the form.</span></span> <span data-ttu-id="1a672-134">Более подробную информацию можно узнать в статье [Запуск сервера форм](launching-a-form-server.md).</span><span class="sxs-lookup"><span data-stu-id="1a672-134">For more information, see [Launching a Form Server](launching-a-form-server.md).</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="1fc64-135">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="1fc64-135">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="1a672-135">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="1a672-135">MFCMAPI reference</span></span>
 
-<span data-ttu-id="1fc64-136">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="1fc64-136">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="1a672-136">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="1a672-136">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="1fc64-137">**Файл**</span><span class="sxs-lookup"><span data-stu-id="1fc64-137">**File**</span></span>|<span data-ttu-id="1fc64-138">**Функция**</span><span class="sxs-lookup"><span data-stu-id="1fc64-138">**Function**</span></span>|<span data-ttu-id="1fc64-139">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="1fc64-139">**Comment**</span></span>|
+|<span data-ttu-id="1a672-137">**Файл**</span><span class="sxs-lookup"><span data-stu-id="1a672-137">**File**</span></span>|<span data-ttu-id="1a672-138">**Функция**</span><span class="sxs-lookup"><span data-stu-id="1a672-138">**Function**</span></span>|<span data-ttu-id="1a672-139">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="1a672-139">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="1fc64-140">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="1fc64-140">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="1fc64-141">CreateAndDisplayNewMailInFolder</span><span class="sxs-lookup"><span data-stu-id="1fc64-141">CreateAndDisplayNewMailInFolder</span></span>  <br/> |<span data-ttu-id="1fc64-142">Mfcmapi (en) использует метод **IMAPIFormMgr::CreateForm** для создания формы перед их отображением.</span><span class="sxs-lookup"><span data-stu-id="1fc64-142">MFCMAPI uses the **IMAPIFormMgr::CreateForm** method to create a form before displaying it.</span></span>  <br/> |
+|<span data-ttu-id="1a672-140">Мапиформфунктионс. cpp</span><span class="sxs-lookup"><span data-stu-id="1a672-140">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="1a672-141">Креатеанддисплайневмаилинфолдер</span><span class="sxs-lookup"><span data-stu-id="1a672-141">CreateAndDisplayNewMailInFolder</span></span>  <br/> |<span data-ttu-id="1a672-142">MFCMAPI использует метод **имапиформмгр:: креатеформ** , чтобы создать форму перед ее отображением.</span><span class="sxs-lookup"><span data-stu-id="1a672-142">MFCMAPI uses the **IMAPIFormMgr::CreateForm** method to create a form before displaying it.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="1fc64-143">См. также</span><span class="sxs-lookup"><span data-stu-id="1fc64-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a672-143">См. также</span><span class="sxs-lookup"><span data-stu-id="1a672-143">See also</span></span>
 
 
 
-[<span data-ttu-id="1fc64-144">IMAPIFormMgr::PrepareForm</span><span class="sxs-lookup"><span data-stu-id="1fc64-144">IMAPIFormMgr::PrepareForm</span></span>](imapiformmgr-prepareform.md)
+[<span data-ttu-id="1a672-144">IMAPIFormMgr::PrepareForm</span><span class="sxs-lookup"><span data-stu-id="1a672-144">IMAPIFormMgr::PrepareForm</span></span>](imapiformmgr-prepareform.md)
   
-[<span data-ttu-id="1fc64-145">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1fc64-145">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
+[<span data-ttu-id="1a672-145">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1a672-145">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
   
-[<span data-ttu-id="1fc64-146">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1fc64-146">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
+[<span data-ttu-id="1a672-146">IMAPIFormMgr : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1a672-146">IMAPIFormMgr : IUnknown</span></span>](imapiformmgriunknown.md)
 
 
-[<span data-ttu-id="1fc64-147">MFCMAPI как пример кода</span><span class="sxs-lookup"><span data-stu-id="1fc64-147">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="1a672-147">MFCMAPI как пример кода</span><span class="sxs-lookup"><span data-stu-id="1a672-147">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="1fc64-148">Запуск сервера форм</span><span class="sxs-lookup"><span data-stu-id="1fc64-148">Launching a Form Server</span></span>](launching-a-form-server.md)
+[<span data-ttu-id="1a672-148">Запуск сервера форм</span><span class="sxs-lookup"><span data-stu-id="1a672-148">Launching a Form Server</span></span>](launching-a-form-server.md)
 

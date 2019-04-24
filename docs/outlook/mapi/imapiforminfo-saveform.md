@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormInfoSaveForm
+title: Имапиформинфосавеформ
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7fec6b6236d26789a3ec9abee7d2ae1c620f89b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 391ea3ef4f44db2a9d007241232f58db27647ba2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321716"
 ---
-# <a name="imapiforminfosaveform"></a><span data-ttu-id="2494a-103">IMAPIFormInfo::SaveForm</span><span class="sxs-lookup"><span data-stu-id="2494a-103">IMAPIFormInfo::SaveForm</span></span>
+# <a name="imapiforminfosaveform"></a><span data-ttu-id="6c2cd-103">IMAPIFormInfo::SaveForm</span><span class="sxs-lookup"><span data-stu-id="6c2cd-103">IMAPIFormInfo::SaveForm</span></span>
 
   
   
-<span data-ttu-id="2494a-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2494a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6c2cd-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6c2cd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2494a-105">Сохраняет описание определенной формы в файл конфигурации.</span><span class="sxs-lookup"><span data-stu-id="2494a-105">Saves a description of a particular form in a configuration file.</span></span>
+<span data-ttu-id="6c2cd-105">Сохраняет описание конкретной формы в файле конфигурации.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-105">Saves a description of a particular form in a configuration file.</span></span>
   
 ```cpp
 HRESULT SaveForm(
@@ -33,43 +33,43 @@ HRESULT SaveForm(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2494a-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="2494a-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6c2cd-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="6c2cd-106">Parameters</span></span>
 
- <span data-ttu-id="2494a-107">_szFileName_</span><span class="sxs-lookup"><span data-stu-id="2494a-107">_szFileName_</span></span>
+ <span data-ttu-id="6c2cd-107">_Сзфиленаме_</span><span class="sxs-lookup"><span data-stu-id="6c2cd-107">_szFileName_</span></span>
   
-> <span data-ttu-id="2494a-108">[in] Строка, имя файла сообщения описание формы, сохранения ее описание.</span><span class="sxs-lookup"><span data-stu-id="2494a-108">[in] A string that names the form's description message file where its description is saved.</span></span> <span data-ttu-id="2494a-109">Это имя файла должен иметь расширение .fdm.</span><span class="sxs-lookup"><span data-stu-id="2494a-109">This file name must have the .fdm extension.</span></span>
+> <span data-ttu-id="6c2cd-108">возврата Строка с именем файла сообщения Description формы, в котором сохраняется его описание.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-108">[in] A string that names the form's description message file where its description is saved.</span></span> <span data-ttu-id="6c2cd-109">Это имя файла должно иметь расширение ФДМ.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-109">This file name must have the .fdm extension.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="2494a-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2494a-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6c2cd-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6c2cd-110">Return value</span></span>
 
-<span data-ttu-id="2494a-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="2494a-111">S_OK</span></span> 
+<span data-ttu-id="6c2cd-111">S_OK</span><span class="sxs-lookup"><span data-stu-id="6c2cd-111">S_OK</span></span> 
   
-> <span data-ttu-id="2494a-112">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="2494a-112">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="6c2cd-112">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-112">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="2494a-113">MAPI_E_EXTENDED_ERROR</span><span class="sxs-lookup"><span data-stu-id="2494a-113">MAPI_E_EXTENDED_ERROR</span></span> 
+<span data-ttu-id="6c2cd-113">МАПИ_Е_ЕКСТЕНДЕД_ЕРРОР</span><span class="sxs-lookup"><span data-stu-id="6c2cd-113">MAPI_E_EXTENDED_ERROR</span></span> 
   
-> <span data-ttu-id="2494a-114">Не удалось записать файл конфигурации.</span><span class="sxs-lookup"><span data-stu-id="2494a-114">The configuration file could not be written.</span></span> <span data-ttu-id="2494a-115">Чтобы получить структура [MAPIERROR](mapierror.md) , связанный с ошибкой, вызовите метод [IMAPIProp::GetLastError](imapiprop-getlasterror.md) .</span><span class="sxs-lookup"><span data-stu-id="2494a-115">To get the [MAPIERROR](mapierror.md) structure that is associated with the error, call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method.</span></span> 
+> <span data-ttu-id="6c2cd-114">Не удалось записать файл конфигурации.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-114">The configuration file could not be written.</span></span> <span data-ttu-id="6c2cd-115">Чтобы получить структуру [мапиеррор](mapierror.md) , связанную с ошибкой, вызовите метод [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) .</span><span class="sxs-lookup"><span data-stu-id="6c2cd-115">To get the [MAPIERROR](mapierror.md) structure that is associated with the error, call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method.</span></span> 
     
-<span data-ttu-id="2494a-116">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="2494a-116">MAPI_E_NO_SUPPORT</span></span> 
+<span data-ttu-id="6c2cd-116">МАПИ_Е_НО_СУППОРТ</span><span class="sxs-lookup"><span data-stu-id="6c2cd-116">MAPI_E_NO_SUPPORT</span></span> 
   
-> <span data-ttu-id="2494a-117">Возможно, **SaveForm** вызван для сохранения формы в контейнере локального формы.</span><span class="sxs-lookup"><span data-stu-id="2494a-117">**SaveForm** was probably called to save a form in the local form container.</span></span> <span data-ttu-id="2494a-118">**SaveForm** не поддерживается для контейнера локального формы.</span><span class="sxs-lookup"><span data-stu-id="2494a-118">**SaveForm** is not supported on the local form container.</span></span> 
+> <span data-ttu-id="6c2cd-117">**Савеформ** , вероятно, был вызван для сохранения формы в локальном контейнере форм.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-117">**SaveForm** was probably called to save a form in the local form container.</span></span> <span data-ttu-id="6c2cd-118">**Савеформ** не поддерживается в локальном контейнере форм.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-118">**SaveForm** is not supported on the local form container.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="2494a-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="2494a-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6c2cd-119">Замечания</span><span class="sxs-lookup"><span data-stu-id="6c2cd-119">Remarks</span></span>
 
-<span data-ttu-id="2494a-120">Клиентские приложения вызовите метод **IMAPIFormInfo::SaveForm** для сохранения описание текущей формы в файле с заданным именем файла.</span><span class="sxs-lookup"><span data-stu-id="2494a-120">Client applications call the **IMAPIFormInfo::SaveForm** method to save a description of the current form in the file that has the given file name.</span></span> <span data-ttu-id="2494a-121">**SaveForm** создает файл конфигурации.</span><span class="sxs-lookup"><span data-stu-id="2494a-121">**SaveForm** creates a configuration file.</span></span> 
+<span data-ttu-id="6c2cd-120">Клиентские приложения вызывают метод **имапиформинфо:: савеформ** для сохранения описания текущей формы в файле с заданное именем файла.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-120">Client applications call the **IMAPIFormInfo::SaveForm** method to save a description of the current form in the file that has the given file name.</span></span> <span data-ttu-id="6c2cd-121">**Савеформ** создает файл конфигурации.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-121">**SaveForm** creates a configuration file.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="2494a-122">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="2494a-122">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="6c2cd-122">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="6c2cd-122">Notes to callers</span></span>
 
-<span data-ttu-id="2494a-123">Формы можно установить, выбрав их из списка сообщений дескриптора формы в диалоговом окне, формирующих отображения поставщиков библиотеки.</span><span class="sxs-lookup"><span data-stu-id="2494a-123">You can reinstall forms by selecting them from a list of form descriptor messages in a dialog box that form library providers display.</span></span> <span data-ttu-id="2494a-124">Рекомендуемые расширения для сообщений дескриптора формы — .fdm.</span><span class="sxs-lookup"><span data-stu-id="2494a-124">The recommended extension for form descriptor messages is .fdm.</span></span>
+<span data-ttu-id="6c2cd-123">Можно переустановить формы, выбрав их в списке сообщений с дескриптором формы в диалоговом окне, в котором отображаются поставщики библиотеки форм.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-123">You can reinstall forms by selecting them from a list of form descriptor messages in a dialog box that form library providers display.</span></span> <span data-ttu-id="6c2cd-124">Рекомендуемое расширение для сообщений с дескриптором формы —. ФДМ.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-124">The recommended extension for form descriptor messages is .fdm.</span></span>
   
-<span data-ttu-id="2494a-125">Вызовите метод [IMAPIProp::GetLastError](imapiprop-getlasterror.md) , если **SaveForm** возвращает MAPI_E_EXTENDED_ERROR и проверьте, возвращенные структура **MAPIERROR** для определения условий, вызвавшей ошибку.</span><span class="sxs-lookup"><span data-stu-id="2494a-125">Call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method if **SaveForm** returns MAPI_E_EXTENDED_ERROR, and check the returned **MAPIERROR** structure to determine the condition that caused the error.</span></span> 
+<span data-ttu-id="6c2cd-125">ВыЗовите метод [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) , если **савеформ** возвращает мапи_е_екстендед_еррор, и Проверьте возвращаемую структуру **мапиеррор** , чтобы определить условие, вызвавшее ошибку.</span><span class="sxs-lookup"><span data-stu-id="6c2cd-125">Call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method if **SaveForm** returns MAPI_E_EXTENDED_ERROR, and check the returned **MAPIERROR** structure to determine the condition that caused the error.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="2494a-126">См. также</span><span class="sxs-lookup"><span data-stu-id="2494a-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c2cd-126">См. также</span><span class="sxs-lookup"><span data-stu-id="6c2cd-126">See also</span></span>
 
 
 
-[<span data-ttu-id="2494a-127">IMAPIProp::GetLastError</span><span class="sxs-lookup"><span data-stu-id="2494a-127">IMAPIProp::GetLastError</span></span>](imapiprop-getlasterror.md)
+[<span data-ttu-id="6c2cd-127">IMAPIProp::GetLastError</span><span class="sxs-lookup"><span data-stu-id="6c2cd-127">IMAPIProp::GetLastError</span></span>](imapiprop-getlasterror.md)
   
-[<span data-ttu-id="2494a-128">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="2494a-128">MAPIERROR</span></span>](mapierror.md)
+[<span data-ttu-id="6c2cd-128">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="6c2cd-128">MAPIERROR</span></span>](mapierror.md)
   
-[<span data-ttu-id="2494a-129">IMAPIFormInfo : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="2494a-129">IMAPIFormInfo : IMAPIProp</span></span>](imapiforminfoimapiprop.md)
+[<span data-ttu-id="6c2cd-129">IMAPIFormInfo : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="6c2cd-129">IMAPIFormInfo : IMAPIProp</span></span>](imapiforminfoimapiprop.md)
 

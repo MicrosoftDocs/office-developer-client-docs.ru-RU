@@ -1,5 +1,5 @@
 ---
-title: IMAPIMessageSiteNewMessage
+title: Имапимессажеситеневмессаже
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 133a2ae3896b9aaedb502cb77516040c53584882
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f51dd1fe533d0577996e6e1be185302f2dc972fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321457"
 ---
-# <a name="imapimessagesitenewmessage"></a><span data-ttu-id="7ae76-103">IMAPIMessageSite::NewMessage</span><span class="sxs-lookup"><span data-stu-id="7ae76-103">IMAPIMessageSite::NewMessage</span></span>
+# <a name="imapimessagesitenewmessage"></a><span data-ttu-id="f140e-103">IMAPIMessageSite::NewMessage</span><span class="sxs-lookup"><span data-stu-id="f140e-103">IMAPIMessageSite::NewMessage</span></span>
 
   
   
-<span data-ttu-id="7ae76-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7ae76-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f140e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f140e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7ae76-105">Создает новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="7ae76-105">Creates a new message.</span></span>
+<span data-ttu-id="f140e-105">Создает новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="f140e-105">Creates a new message.</span></span>
   
 ```cpp
 HRESULT NewMessage(
@@ -38,64 +38,64 @@ HRESULT NewMessage(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7ae76-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="7ae76-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f140e-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="f140e-106">Parameters</span></span>
 
- <span data-ttu-id="7ae76-107">_fComposeInFolder_</span><span class="sxs-lookup"><span data-stu-id="7ae76-107">_fComposeInFolder_</span></span>
+ <span data-ttu-id="f140e-107">_Фкомпосеинфолдер_</span><span class="sxs-lookup"><span data-stu-id="f140e-107">_fComposeInFolder_</span></span>
   
-> <span data-ttu-id="7ae76-108">[in] Указывает, в папке, какие сообщения следует включать в себя.</span><span class="sxs-lookup"><span data-stu-id="7ae76-108">[in] Indicates in which folder the message should be composed.</span></span> <span data-ttu-id="7ae76-109">Если эта переменная имеет значение FALSE, параметр _pFolderFocus_ игнорируется и просмотра формы можно создать сообщение в любой папке.</span><span class="sxs-lookup"><span data-stu-id="7ae76-109">If the variable is FALSE, the  _pFolderFocus_ parameter is ignored and the form viewer can compose the message in any folder.</span></span> <span data-ttu-id="7ae76-110">Если эта переменная имеет значение TRUE и передается в параметре _pFolderFocus_ , сообщение состоит в текущую папку.</span><span class="sxs-lookup"><span data-stu-id="7ae76-110">If the variable is TRUE and NULL is passed in the  _pFolderFocus_ parameter, the message is composed in the current folder.</span></span> <span data-ttu-id="7ae76-111">Если эта переменная имеет значение TRUE, НЕНУЛЕВОЕ значение передается в _pFolderFocus_сообщение состоит в папке, на который указывает _pFolderFocus_.</span><span class="sxs-lookup"><span data-stu-id="7ae76-111">If the variable is TRUE and a non-NULL value is passed in  _pFolderFocus_, the message is composed in the folder pointed to by  _pFolderFocus_.</span></span>
+> <span data-ttu-id="f140e-108">возврата Указывает, в какой папке должно состоять сообщение.</span><span class="sxs-lookup"><span data-stu-id="f140e-108">[in] Indicates in which folder the message should be composed.</span></span> <span data-ttu-id="f140e-109">Если переменная имеет значение FALSE, то параметр _пфолдерфокус_ игнорируется, и средство просмотра форм может создать сообщение в любой папке.</span><span class="sxs-lookup"><span data-stu-id="f140e-109">If the variable is FALSE, the  _pFolderFocus_ parameter is ignored and the form viewer can compose the message in any folder.</span></span> <span data-ttu-id="f140e-110">Если переменная имеет значение TRUE и в параметре _пфолдерфокус_ переДАЕТСЯ значение null, сообщение будет составлено в текущей папке.</span><span class="sxs-lookup"><span data-stu-id="f140e-110">If the variable is TRUE and NULL is passed in the  _pFolderFocus_ parameter, the message is composed in the current folder.</span></span> <span data-ttu-id="f140e-111">Если переменная имеет значение TRUE и в _пфолдерфокус_передается значение, отличное от NULL, сообщение создается в папке, на которую указывает _пфолдерфокус_.</span><span class="sxs-lookup"><span data-stu-id="f140e-111">If the variable is TRUE and a non-NULL value is passed in  _pFolderFocus_, the message is composed in the folder pointed to by  _pFolderFocus_.</span></span>
     
- <span data-ttu-id="7ae76-112">_pFolderFocus_</span><span class="sxs-lookup"><span data-stu-id="7ae76-112">_pFolderFocus_</span></span>
+ <span data-ttu-id="f140e-112">_Пфолдерфокус_</span><span class="sxs-lookup"><span data-stu-id="f140e-112">_pFolderFocus_</span></span>
   
-> <span data-ttu-id="7ae76-113">[in] Указатель на папку, где создается новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="7ae76-113">[in] A pointer to the folder where the new message is created.</span></span>
+> <span data-ttu-id="f140e-113">возврата Указатель на папку, в которой создается новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="f140e-113">[in] A pointer to the folder where the new message is created.</span></span>
     
- <span data-ttu-id="7ae76-114">_pPersistMessage_</span><span class="sxs-lookup"><span data-stu-id="7ae76-114">_pPersistMessage_</span></span>
+ <span data-ttu-id="f140e-114">_Пперсистмессаже_</span><span class="sxs-lookup"><span data-stu-id="f140e-114">_pPersistMessage_</span></span>
   
-> <span data-ttu-id="7ae76-115">[in] Указатель на объект формы для новой формы.</span><span class="sxs-lookup"><span data-stu-id="7ae76-115">[in] A pointer to the form object for the new form.</span></span>
+> <span data-ttu-id="f140e-115">возврата Указатель на объект формы для новой формы.</span><span class="sxs-lookup"><span data-stu-id="f140e-115">[in] A pointer to the form object for the new form.</span></span>
     
- <span data-ttu-id="7ae76-116">_ppMessage_</span><span class="sxs-lookup"><span data-stu-id="7ae76-116">_ppMessage_</span></span>
+ <span data-ttu-id="f140e-116">_Ппмессаже_</span><span class="sxs-lookup"><span data-stu-id="f140e-116">_ppMessage_</span></span>
   
-> <span data-ttu-id="7ae76-117">[out] Указатель на указатель на новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="7ae76-117">[out] A pointer to a pointer to the new message.</span></span>
+> <span data-ttu-id="f140e-117">вышли Указатель на указатель на новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="f140e-117">[out] A pointer to a pointer to the new message.</span></span>
     
- <span data-ttu-id="7ae76-118">_ppMessageSite_</span><span class="sxs-lookup"><span data-stu-id="7ae76-118">_ppMessageSite_</span></span>
+ <span data-ttu-id="f140e-118">_Ппмессажесите_</span><span class="sxs-lookup"><span data-stu-id="f140e-118">_ppMessageSite_</span></span>
   
-> <span data-ttu-id="7ae76-119">[out] Указатель на указатель на объект сайта сообщения для нового сообщения.</span><span class="sxs-lookup"><span data-stu-id="7ae76-119">[out] A pointer to a pointer to a message site object for the new message.</span></span>
+> <span data-ttu-id="f140e-119">вышли Указатель на указатель на объект сайта сообщения для нового сообщения.</span><span class="sxs-lookup"><span data-stu-id="f140e-119">[out] A pointer to a pointer to a message site object for the new message.</span></span>
     
- <span data-ttu-id="7ae76-120">_ppViewContext_</span><span class="sxs-lookup"><span data-stu-id="7ae76-120">_ppViewContext_</span></span>
+ <span data-ttu-id="f140e-120">_Ппвиевконтекст_</span><span class="sxs-lookup"><span data-stu-id="f140e-120">_ppViewContext_</span></span>
   
-> <span data-ttu-id="7ae76-121">[out] Указатель на указатель на контекст представления, подходящую для передачи в новую форму с помощью нового сообщения.</span><span class="sxs-lookup"><span data-stu-id="7ae76-121">[out] A pointer to a pointer to a view context that is appropriate for passing to a new form with the new message.</span></span> <span data-ttu-id="7ae76-122">Если форма реализует контекст представления, NULL может быть передан в параметре _ppViewContext_ .</span><span class="sxs-lookup"><span data-stu-id="7ae76-122">If the form implements its own view context, NULL can be passed in the  _ppViewContext_ parameter.</span></span> 
+> <span data-ttu-id="f140e-121">вышли Указатель на указатель на контекст представления, который подходит для передачи новой формы с новым сообщением.</span><span class="sxs-lookup"><span data-stu-id="f140e-121">[out] A pointer to a pointer to a view context that is appropriate for passing to a new form with the new message.</span></span> <span data-ttu-id="f140e-122">Если в форме реализован собственный контекст представления, в параметре _ппвиевконтекст_ можно передать значение null.</span><span class="sxs-lookup"><span data-stu-id="f140e-122">If the form implements its own view context, NULL can be passed in the  _ppViewContext_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="7ae76-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7ae76-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f140e-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="f140e-123">Return value</span></span>
 
-<span data-ttu-id="7ae76-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="7ae76-124">S_OK</span></span> 
+<span data-ttu-id="f140e-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="f140e-124">S_OK</span></span> 
   
-> <span data-ttu-id="7ae76-125">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="7ae76-125">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="f140e-125">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="f140e-125">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="7ae76-126">���������</span><span class="sxs-lookup"><span data-stu-id="7ae76-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f140e-126">Замечания</span><span class="sxs-lookup"><span data-stu-id="f140e-126">Remarks</span></span>
 
-<span data-ttu-id="7ae76-127">Объекты формы вызовите метод **IMAPIMessageSite::NewMessage** для создания нового сообщения.</span><span class="sxs-lookup"><span data-stu-id="7ae76-127">Form objects call the **IMAPIMessageSite::NewMessage** method to create a new message.</span></span> <span data-ttu-id="7ae76-128">Форма использует **NewMessage** для получения новых сообщений и связанные сообщения сайта с его представления.</span><span class="sxs-lookup"><span data-stu-id="7ae76-128">The form uses **NewMessage** to get a new message and the associated message site from its view.</span></span> <span data-ttu-id="7ae76-129">Затем можно изменить нового сообщения.</span><span class="sxs-lookup"><span data-stu-id="7ae76-129">It can then modify the new message.</span></span> 
+<span data-ttu-id="f140e-127">Объекты формы вызывают метод **имапимессажесите:: невмессаже** для создания нового сообщения.</span><span class="sxs-lookup"><span data-stu-id="f140e-127">Form objects call the **IMAPIMessageSite::NewMessage** method to create a new message.</span></span> <span data-ttu-id="f140e-128">Форма использует **невмессаже** , чтобы получить новое сообщение и связанный с ним сайт сообщений из его представления.</span><span class="sxs-lookup"><span data-stu-id="f140e-128">The form uses **NewMessage** to get a new message and the associated message site from its view.</span></span> <span data-ttu-id="f140e-129">Затем он может изменить новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="f140e-129">It can then modify the new message.</span></span> 
   
-<span data-ttu-id="7ae76-130">Путем передачи НЕНУЛЕВОЕ значение с помощью параметра _ppViewContext_ может также получить контекст связанным представлением.</span><span class="sxs-lookup"><span data-stu-id="7ae76-130">You can also obtain an associated view context by passing in a non-NULL value in the  _ppViewContext_ parameter.</span></span> <span data-ttu-id="7ae76-131">В этом контексте представления можно использовать непосредственно или объединять, переданной в новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="7ae76-131">This view context can be used directly, or it can be aggregated and passed to the new message.</span></span> <span data-ttu-id="7ae76-132">Если требуется полная реализация, передайте _ppViewContext_NULL.</span><span class="sxs-lookup"><span data-stu-id="7ae76-132">If a complete implementation is required, pass NULL in  _ppViewContext_.</span></span>
+<span data-ttu-id="f140e-130">Кроме того, можно получить связанный контекст представления, передав значение, отличное от NULL, в параметре _ппвиевконтекст_ .</span><span class="sxs-lookup"><span data-stu-id="f140e-130">You can also obtain an associated view context by passing in a non-NULL value in the  _ppViewContext_ parameter.</span></span> <span data-ttu-id="f140e-131">Этот контекст представления можно использовать напрямую, или его можно объединить и передать в новое сообщение.</span><span class="sxs-lookup"><span data-stu-id="f140e-131">This view context can be used directly, or it can be aggregated and passed to the new message.</span></span> <span data-ttu-id="f140e-132">Если необходима полная реализация, в _ппвиевконтекст_переДАЕТСЯ значение null.</span><span class="sxs-lookup"><span data-stu-id="f140e-132">If a complete implementation is required, pass NULL in  _ppViewContext_.</span></span>
   
-<span data-ttu-id="7ae76-133">Список интерфейсы, связанные с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="7ae76-133">For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
+<span data-ttu-id="f140e-133">Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="f140e-133">For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="7ae76-134">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="7ae76-134">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="f140e-134">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="f140e-134">MFCMAPI reference</span></span>
 
-<span data-ttu-id="7ae76-135">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="7ae76-135">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="f140e-135">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="f140e-135">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="7ae76-136">**Файл**</span><span class="sxs-lookup"><span data-stu-id="7ae76-136">**File**</span></span>|<span data-ttu-id="7ae76-137">**Функция**</span><span class="sxs-lookup"><span data-stu-id="7ae76-137">**Function**</span></span>|<span data-ttu-id="7ae76-138">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="7ae76-138">**Comment**</span></span>|
+|<span data-ttu-id="f140e-136">**Файл**</span><span class="sxs-lookup"><span data-stu-id="f140e-136">**File**</span></span>|<span data-ttu-id="f140e-137">**Функция**</span><span class="sxs-lookup"><span data-stu-id="f140e-137">**Function**</span></span>|<span data-ttu-id="f140e-138">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="f140e-138">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="7ae76-139">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="7ae76-139">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="7ae76-140">CMyMAPIFormViewer::NewMessage</span><span class="sxs-lookup"><span data-stu-id="7ae76-140">CMyMAPIFormViewer::NewMessage</span></span>  <br/> |<span data-ttu-id="7ae76-141">Mfcmapi (en) использует метод **IMAPIMessageSite::NewMessage** для создания нового сообщения, создайте новое средство просмотра формы и вызова **SetPersist** , чтобы задать для сообщения на форму просмотра.</span><span class="sxs-lookup"><span data-stu-id="7ae76-141">MFCMAPI uses the **IMAPIMessageSite::NewMessage** method to create a new message, instantiate a new form viewer, and call **SetPersist** to set the message on the form viewer.</span></span> <span data-ttu-id="7ae76-142">И, наконец он возвращает средство просмотра формы как сайт сообщения.</span><span class="sxs-lookup"><span data-stu-id="7ae76-142">Finally, it returns the form viewer as the message site.</span></span>  <br/> |
+|<span data-ttu-id="f140e-139">Мимапиформвиевер. cpp</span><span class="sxs-lookup"><span data-stu-id="f140e-139">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="f140e-140">Кмимапиформвиевер:: Невмессаже</span><span class="sxs-lookup"><span data-stu-id="f140e-140">CMyMAPIFormViewer::NewMessage</span></span>  <br/> |<span data-ttu-id="f140e-141">MFCMAPI использует метод **имапимессажесите:: невмессаже** для создания нового сообщения, создания экземпляра нового средства просмотра формы и вызова **сетперсист** для установки сообщения в средстве просмотра форм.</span><span class="sxs-lookup"><span data-stu-id="f140e-141">MFCMAPI uses the **IMAPIMessageSite::NewMessage** method to create a new message, instantiate a new form viewer, and call **SetPersist** to set the message on the form viewer.</span></span> <span data-ttu-id="f140e-142">Наконец, он возвращает средство просмотра форм в качестве сайта сообщений.</span><span class="sxs-lookup"><span data-stu-id="f140e-142">Finally, it returns the form viewer as the message site.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="7ae76-143">См. также</span><span class="sxs-lookup"><span data-stu-id="7ae76-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f140e-143">См. также</span><span class="sxs-lookup"><span data-stu-id="f140e-143">See also</span></span>
 
 
 
-[<span data-ttu-id="7ae76-144">IMAPIViewContext : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7ae76-144">IMAPIViewContext : IUnknown</span></span>](imapiviewcontextiunknown.md)
+[<span data-ttu-id="f140e-144">IMAPIViewContext : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f140e-144">IMAPIViewContext : IUnknown</span></span>](imapiviewcontextiunknown.md)
   
-[<span data-ttu-id="7ae76-145">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7ae76-145">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
+[<span data-ttu-id="f140e-145">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f140e-145">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
 
 
-[<span data-ttu-id="7ae76-146">MFCMAPI как пример кода</span><span class="sxs-lookup"><span data-stu-id="7ae76-146">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="f140e-146">MFCMAPI как пример кода</span><span class="sxs-lookup"><span data-stu-id="f140e-146">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="7ae76-147">Интерфейсы формы MAPI</span><span class="sxs-lookup"><span data-stu-id="7ae76-147">MAPI Form Interfaces</span></span>](mapi-form-interfaces.md)
+[<span data-ttu-id="f140e-147">Интерфейсы форм MAPI</span><span class="sxs-lookup"><span data-stu-id="f140e-147">MAPI Form Interfaces</span></span>](mapi-form-interfaces.md)
 

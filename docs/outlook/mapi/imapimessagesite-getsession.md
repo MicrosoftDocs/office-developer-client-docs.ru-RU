@@ -1,5 +1,5 @@
 ---
-title: IMAPIMessageSiteGetSession
+title: Имапимессажеситежетсессион
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: c35d9e38-f4cf-4908-aaa1-a4263b58f7e8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d5d86af111bc778839a78f9b56ba7126e6c973d5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e1ea68a7690a93915cd80ad5406c4d71d3a97400
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321443"
 ---
-# <a name="imapimessagesitegetsession"></a><span data-ttu-id="209d7-103">IMAPIMessageSite::GetSession</span><span class="sxs-lookup"><span data-stu-id="209d7-103">IMAPIMessageSite::GetSession</span></span>
+# <a name="imapimessagesitegetsession"></a><span data-ttu-id="023ab-103">IMAPIMessageSite::GetSession</span><span class="sxs-lookup"><span data-stu-id="023ab-103">IMAPIMessageSite::GetSession</span></span>
 
   
   
-<span data-ttu-id="209d7-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="209d7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="023ab-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="023ab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="209d7-105">Возвращает сеанса MAPI, в которой была создана или открыта текущего сообщения.</span><span class="sxs-lookup"><span data-stu-id="209d7-105">Returns the MAPI session in which the current message was created or opened.</span></span>
+<span data-ttu-id="023ab-105">Возвращает сеанс MAPI, в котором было создано или открыто текущее сообщение.</span><span class="sxs-lookup"><span data-stu-id="023ab-105">Returns the MAPI session in which the current message was created or opened.</span></span>
   
 ```cpp
 HRESULT GetSession(
@@ -33,40 +33,40 @@ HRESULT GetSession(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="209d7-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="209d7-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="023ab-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="023ab-106">Parameters</span></span>
 
- <span data-ttu-id="209d7-107">_ppSession_</span><span class="sxs-lookup"><span data-stu-id="209d7-107">_ppSession_</span></span>
+ <span data-ttu-id="023ab-107">_Ппсессион_</span><span class="sxs-lookup"><span data-stu-id="023ab-107">_ppSession_</span></span>
   
-> <span data-ttu-id="209d7-108">[out] Указатель на указатель на объект возвращенные сеанса.</span><span class="sxs-lookup"><span data-stu-id="209d7-108">[out] A pointer to a pointer to the returned session object.</span></span>
+> <span data-ttu-id="023ab-108">вышли Указатель на указатель на возвращенный объект Session.</span><span class="sxs-lookup"><span data-stu-id="023ab-108">[out] A pointer to a pointer to the returned session object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="209d7-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="209d7-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="023ab-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="023ab-109">Return value</span></span>
 
-<span data-ttu-id="209d7-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="209d7-110">S_OK</span></span> 
+<span data-ttu-id="023ab-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="023ab-110">S_OK</span></span> 
   
-> <span data-ttu-id="209d7-111">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="209d7-111">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="023ab-111">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="023ab-111">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="209d7-112">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="209d7-112">S_FALSE</span></span> 
+<span data-ttu-id="023ab-112">S_FALSE</span><span class="sxs-lookup"><span data-stu-id="023ab-112">S_FALSE</span></span> 
   
-> <span data-ttu-id="209d7-113">Не существуют сеансы для текущего сообщения.</span><span class="sxs-lookup"><span data-stu-id="209d7-113">No session exists for the current message.</span></span>
+> <span data-ttu-id="023ab-113">Для текущего сообщения не существует сеансов.</span><span class="sxs-lookup"><span data-stu-id="023ab-113">No session exists for the current message.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="209d7-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="209d7-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="023ab-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="023ab-114">Remarks</span></span>
 
-<span data-ttu-id="209d7-115">Список интерфейсов, которые связаны с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="209d7-115">For a list of interfaces that are related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
+<span data-ttu-id="023ab-115">Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="023ab-115">For a list of interfaces that are related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="209d7-116">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="209d7-116">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="023ab-116">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="023ab-116">MFCMAPI reference</span></span>
 
-<span data-ttu-id="209d7-117">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="209d7-117">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="023ab-117">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="023ab-117">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="209d7-118">**Файл**</span><span class="sxs-lookup"><span data-stu-id="209d7-118">**File**</span></span>|<span data-ttu-id="209d7-119">**Функция**</span><span class="sxs-lookup"><span data-stu-id="209d7-119">**Function**</span></span>|<span data-ttu-id="209d7-120">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="209d7-120">**Comment**</span></span>|
+|<span data-ttu-id="023ab-118">**Файл**</span><span class="sxs-lookup"><span data-stu-id="023ab-118">**File**</span></span>|<span data-ttu-id="023ab-119">**Функция**</span><span class="sxs-lookup"><span data-stu-id="023ab-119">**Function**</span></span>|<span data-ttu-id="023ab-120">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="023ab-120">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="209d7-121">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="209d7-121">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="209d7-122">CMyMAPIFormViewer::GetSession</span><span class="sxs-lookup"><span data-stu-id="209d7-122">CMyMAPIFormViewer::GetSession</span></span>  <br/> |<span data-ttu-id="209d7-123">Mfcmapi (en) использует метод **IMAPIMessageSite::GetSession** возвращает указатель в настоящее время кэширования сеанса, если она доступна.</span><span class="sxs-lookup"><span data-stu-id="209d7-123">MFCMAPI uses the **IMAPIMessageSite::GetSession** method to return the currently cached session pointer, if it is available.</span></span>  <br/> |
+|<span data-ttu-id="023ab-121">Мимапиформвиевер. cpp</span><span class="sxs-lookup"><span data-stu-id="023ab-121">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="023ab-122">Кмимапиформвиевер:: @ Session</span><span class="sxs-lookup"><span data-stu-id="023ab-122">CMyMAPIFormViewer::GetSession</span></span>  <br/> |<span data-ttu-id="023ab-123">MFCMAPI использует метод **имапимессажесите::-Session** для возврата текущего кэшированного указателя сеанса, если он доступен.</span><span class="sxs-lookup"><span data-stu-id="023ab-123">MFCMAPI uses the **IMAPIMessageSite::GetSession** method to return the currently cached session pointer, if it is available.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="209d7-124">См. также</span><span class="sxs-lookup"><span data-stu-id="209d7-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="023ab-124">См. также</span><span class="sxs-lookup"><span data-stu-id="023ab-124">See also</span></span>
 
 
 
-[<span data-ttu-id="209d7-125">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="209d7-125">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
+[<span data-ttu-id="023ab-125">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="023ab-125">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
 
 
-[<span data-ttu-id="209d7-126">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="209d7-126">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="023ab-126">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="023ab-126">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
