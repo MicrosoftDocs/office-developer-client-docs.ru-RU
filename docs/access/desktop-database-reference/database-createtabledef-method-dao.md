@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c986f0a96c14dac8a9ee4f3c7fded5a049fa451e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718492"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294948"
 ---
-# <a name="databasecreatetabledef-method-dao"></a><span data-ttu-id="deee6-102">Метод Database.CreateTableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="deee6-102">Database.CreateTableDef Method (DAO)</span></span>
+# <a name="databasecreatetabledef-method-dao"></a><span data-ttu-id="6b7ca-102">Метод Database.CreateTableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="6b7ca-102">Database.CreateTableDef method (DAO)</span></span>
 
-<span data-ttu-id="deee6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="deee6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6b7ca-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b7ca-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="deee6-104">Создает новый объект **[TableDef](tabledef-object-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="deee6-104">Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only).</span></span> <span data-ttu-id="deee6-105">.</span><span class="sxs-lookup"><span data-stu-id="deee6-105"></span></span>
+<span data-ttu-id="6b7ca-104">Создает новый объект **[TableDef](tabledef-object-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="6b7ca-104">Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only).</span></span> <span data-ttu-id="6b7ca-105">.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-105"></span></span>
 
-## <a name="syntax"></a><span data-ttu-id="deee6-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="deee6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6b7ca-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6b7ca-106">Syntax</span></span>
 
-<span data-ttu-id="deee6-107">*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)</span><span class="sxs-lookup"><span data-stu-id="deee6-107">*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)</span></span>
+<span data-ttu-id="6b7ca-107">*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)</span><span class="sxs-lookup"><span data-stu-id="6b7ca-107">*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)</span></span>
 
-<span data-ttu-id="deee6-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="deee6-108">*expression* A variable that represents a **Range** object.</span></span>
+<span data-ttu-id="6b7ca-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-108">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="deee6-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="deee6-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6b7ca-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="6b7ca-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,56 +41,56 @@ ms.locfileid: "28718492"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="deee6-110">Имя</span><span class="sxs-lookup"><span data-stu-id="deee6-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="deee6-111">Обязательно/необязательно</span><span class="sxs-lookup"><span data-stu-id="deee6-111">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="deee6-112">Тип данных</span><span class="sxs-lookup"><span data-stu-id="deee6-112">Data type</span></span></p></th>
-<th><p><span data-ttu-id="deee6-113">Описание</span><span class="sxs-lookup"><span data-stu-id="deee6-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="6b7ca-110">Имя</span><span class="sxs-lookup"><span data-stu-id="6b7ca-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="6b7ca-111">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="6b7ca-111">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="6b7ca-112">Тип данных</span><span class="sxs-lookup"><span data-stu-id="6b7ca-112">Data type</span></span></p></th>
+<th><p><span data-ttu-id="6b7ca-113">Описание</span><span class="sxs-lookup"><span data-stu-id="6b7ca-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="deee6-114"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="deee6-114"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="deee6-115">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="deee6-115">Optional</span></span></p></td>
-<td><p><span data-ttu-id="deee6-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="deee6-116"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="deee6-117"><strong>Variant</strong> (подтип <strong>String</strong>) присваивает уникальное имя новому объекту <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="deee6-117">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>TableDef</strong> object.</span></span> <span data-ttu-id="deee6-118">См. свойство <strong><a href="tabledef-name-property-dao.md">Name</a></strong> для получения более подробных сведений о допустимых именах <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="deee6-118">See the <strong><a href="tabledef-name-property-dao.md">Name</a></strong> property for details on valid <strong>TableDef</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-114"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="6b7ca-114"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-115">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-115">Optional</span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="6b7ca-116"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-117"><strong>Variant</strong> (подтип <strong>String</strong>) присваивает уникальное имя новому объекту <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-117">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>TableDef</strong> object.</span></span> <span data-ttu-id="6b7ca-118">См. свойство <strong><a href="tabledef-name-property-dao.md">Name</a></strong> для получения более подробных сведений о допустимых именах <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-118">See the <strong><a href="tabledef-name-property-dao.md">Name</a></strong> property for details on valid <strong>TableDef</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="deee6-119"><em>Attributes</em></span><span class="sxs-lookup"><span data-stu-id="deee6-119"><em>Attributes</em></span></span></p></td>
-<td><p><span data-ttu-id="deee6-120">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="deee6-120">Optional</span></span></p></td>
-<td><p><span data-ttu-id="deee6-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="deee6-121"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="deee6-122">Константа или сочетание констант, которое отражает одну или несколько характеристик нового объекта <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="deee6-122">A constant or combination of constants that indicates one or more characteristics of the new <strong>TableDef</strong> object.</span></span> <span data-ttu-id="deee6-123">См. свойство <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> для получения дополнительной информации.</span><span class="sxs-lookup"><span data-stu-id="deee6-123">See the <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> property for more information.</span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-119"><em>Attributes</em></span><span class="sxs-lookup"><span data-stu-id="6b7ca-119"><em>Attributes</em></span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-120">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-120">Optional</span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="6b7ca-121"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-122">Константа или сочетание констант, которое отражает одну или несколько характеристик нового объекта <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-122">A constant or combination of constants that indicates one or more characteristics of the new <strong>TableDef</strong> object.</span></span> <span data-ttu-id="6b7ca-123">См. свойство <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> для получения дополнительной информации.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-123">See the <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> property for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="deee6-124"><em>SourceTableName</em></span><span class="sxs-lookup"><span data-stu-id="deee6-124"><em>SourceTableName property</em></span></span></p></td>
-<td><p><span data-ttu-id="deee6-125">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="deee6-125">Optional</span></span></p></td>
-<td><p><span data-ttu-id="deee6-126"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="deee6-126"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="deee6-127"><strong>Variant</strong> (подтип <strong>String</strong>) содержит название таблицы во внешней базе данных, которая служит исходным источником данных.</span><span class="sxs-lookup"><span data-stu-id="deee6-127">A <strong>Variant</strong> (<strong>String</strong> subtype) containing the name of a table in an external database that is the original source of the data.</span></span> <span data-ttu-id="deee6-128">Исходная строка становится параметром свойства <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> для нового объекта <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="deee6-128">The source string becomes the <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> property setting of the new <strong>TableDef</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-124"><em>SourceTableName</em></span><span class="sxs-lookup"><span data-stu-id="6b7ca-124"><em>SourceTableName</em></span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-125">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-125">Optional</span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-126"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="6b7ca-126"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-127"><strong>Variant</strong> (подтип <strong>String</strong>) содержит название таблицы во внешней базе данных, которая служит исходным источником данных.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-127">A <strong>Variant</strong> (<strong>String</strong> subtype) containing the name of a table in an external database that is the original source of the data.</span></span> <span data-ttu-id="6b7ca-128">Исходная строка становится параметром свойства <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> для нового объекта <strong>TableDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-128">The source string becomes the <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> property setting of the new <strong>TableDef</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="deee6-129"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="deee6-129"><em>Connect</em></span></span></p></td>
-<td><p><span data-ttu-id="deee6-130">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="deee6-130">Optional</span></span></p></td>
-<td><p><span data-ttu-id="deee6-131"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="deee6-131"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="deee6-132"><strong>Variant</strong> (подтип <strong>String</strong>) с информацией об источнике открытой базы данных, базе данных, используемой в запросе к серверу, или связанной таблицы.</span><span class="sxs-lookup"><span data-stu-id="deee6-132">A <strong>Variant</strong> (<strong>String</strong> subtype) containing information about the source of an open database, a database used in a pass-through query, or a linked table.</span></span> <span data-ttu-id="deee6-133">См. свойство <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> для получения дополнительной информации о допустимых строках подключения.</span><span class="sxs-lookup"><span data-stu-id="deee6-133">See the <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> property for more information about valid connection strings.</span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-129"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="6b7ca-129"><em>Connect</em></span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-130">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-130">Optional</span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-131"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="6b7ca-131"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="6b7ca-132"><strong>Variant</strong> (подтип <strong>String</strong>) с информацией об источнике открытой базы данных, базе данных, используемой в запросе к серверу, или связанной таблицы.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-132">A <strong>Variant</strong> (<strong>String</strong> subtype) containing information about the source of an open database, a database used in a pass-through query, or a linked table.</span></span> <span data-ttu-id="6b7ca-133">См. свойство <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> для получения дополнительной информации о допустимых строках подключения.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-133">See the <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> property for more information about valid connection strings.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="deee6-134">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="deee6-134">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6b7ca-134">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6b7ca-134">Return value</span></span>
 
-<span data-ttu-id="deee6-135">TableDef</span><span class="sxs-lookup"><span data-stu-id="deee6-135">TableDef</span></span>
+<span data-ttu-id="6b7ca-135">TableDef</span><span class="sxs-lookup"><span data-stu-id="6b7ca-135">TableDef</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="deee6-136">Комментарии</span><span class="sxs-lookup"><span data-stu-id="deee6-136">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6b7ca-136">Комментарии</span><span class="sxs-lookup"><span data-stu-id="6b7ca-136">Remarks</span></span>
 
-<span data-ttu-id="deee6-137">Если опустить одну или несколько необязательных частей при использовании метода **CreateTableDef**, вы можете воспользоваться соответствующим оператором присваивания, чтобы задать или сбросить соответствующее свойство перед добавлением нового объекта в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="deee6-137">If you omit one or more of the optional parts when you use the **CreateTableDef** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection.</span></span> <span data-ttu-id="deee6-138">После добавления объекта вы можете изменять некоторые, но не все его свойства.</span><span class="sxs-lookup"><span data-stu-id="deee6-138">After you append the object, you can alter some but not all of its properties.</span></span> <span data-ttu-id="deee6-139">См. разделы для отдельных свойств для получения дополнительных данных.</span><span class="sxs-lookup"><span data-stu-id="deee6-139">See the individual property topics for more details.</span></span>
+<span data-ttu-id="6b7ca-137">Если опустить одну или несколько необязательных частей при использовании метода **CreateTableDef**, вы можете воспользоваться соответствующим оператором присваивания, чтобы задать или сбросить соответствующее свойство перед добавлением нового объекта в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-137">If you omit one or more of the optional parts when you use the **CreateTableDef** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection.</span></span> <span data-ttu-id="6b7ca-138">После добавления объекта вы можете изменять некоторые, но не все его свойства.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-138">After you append the object, you can alter some but not all of its properties.</span></span> <span data-ttu-id="6b7ca-139">См. разделы для отдельных свойств для получения дополнительных данных.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-139">See the individual property topics for more details.</span></span>
 
-<span data-ttu-id="deee6-140">Если имя ссылается объект, который уже входит в коллекцию, или вы указываете недопустимое свойство в объекте **TableDef** или **[Field](field-object-dao.md)**, который вы добавляете, возникает ошибка во время выполнения, если вы используете метод **[Append](tabledefs-append-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="deee6-140">If name refers to an object that is already a member of the collection, or you specify an invalid property in the **TableDef** or **[Field](field-object-dao.md)** object you're appending, a run-time error occurs when you use the **[Append](tabledefs-append-method-dao.md)** method.</span></span> <span data-ttu-id="deee6-141">Кроме того, нельзя добавить объект **TableDef** в коллекцию **TableDefs**, пока вы не определите по крайней мере один объект **Field** для объекта **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="deee6-141">Also, you can't append a **TableDef** object to the **TableDefs** collection until you define at least one **Field** for the **TableDef** object.</span></span>
+<span data-ttu-id="6b7ca-140">Если имя ссылается объект, который уже входит в коллекцию, или вы указываете недопустимое свойство в объекте **TableDef** или **[Field](field-object-dao.md)**, который вы добавляете, возникает ошибка во время выполнения, если вы используете метод **[Append](tabledefs-append-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-140">If name refers to an object that is already a member of the collection, or you specify an invalid property in the **TableDef** or **[Field](field-object-dao.md)** object you're appending, a run-time error occurs when you use the **[Append](tabledefs-append-method-dao.md)** method.</span></span> <span data-ttu-id="6b7ca-141">Кроме того, нельзя добавить объект **TableDef** в коллекцию **TableDefs**, пока вы не определите по крайней мере один объект **Field** для объекта **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-141">Also, you can't append a **TableDef** object to the **TableDefs** collection until you define at least one **Field** for the **TableDef** object.</span></span>
 
-<span data-ttu-id="deee6-142">Чтобы удалить объект **TableDef** из коллекции **[TableDefs](tabledefs-collection-dao.md)**, используйте метод **[Delete](tabledefs-delete-method-dao.md)** для коллекции.</span><span class="sxs-lookup"><span data-stu-id="deee6-142">To remove a **TableDef** object from the **[TableDefs](tabledefs-collection-dao.md)** collection, use the **[Delete](tabledefs-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="6b7ca-142">Чтобы удалить объект **TableDef** из коллекции **[TableDefs](tabledefs-collection-dao.md)**, используйте метод **[Delete](tabledefs-delete-method-dao.md)** для коллекции.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-142">To remove a **TableDef** object from the **[TableDefs](tabledefs-collection-dao.md)** collection, use the **[Delete](tabledefs-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="deee6-143">Пример</span><span class="sxs-lookup"><span data-stu-id="deee6-143">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6b7ca-143">Пример</span><span class="sxs-lookup"><span data-stu-id="6b7ca-143">Example</span></span>
 
-<span data-ttu-id="deee6-144">В этом примере создается новый объект **TableDef** в базе данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="deee6-144">This example creates a new **TableDef** object in the Northwind database.</span></span>
+<span data-ttu-id="6b7ca-144">В этом примере создается новый объект **TableDef** в базе данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-144">This example creates a new **TableDef** object in the Northwind database.</span></span>
 
 ```vb
     Sub CreateTableDefX() 
@@ -155,7 +155,7 @@ ms.locfileid: "28718492"
 
 <br/>
 
-<span data-ttu-id="deee6-145">В этом примере используются методы **CreateTableDef** и **FillCache** и свойства **CacheSize**, **CacheStart** и **SourceTableName** для перечисления записей в связанной таблице два раза.</span><span class="sxs-lookup"><span data-stu-id="deee6-145">This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice.</span></span> <span data-ttu-id="deee6-146">Затем выполняется перечисление дважды с кэшем в 50 записей.</span><span class="sxs-lookup"><span data-stu-id="deee6-146">Then it enumerates the records twice with a 50-record cache.</span></span> <span data-ttu-id="deee6-147">Затем пример отображает статистику производительности для некэшированных и кэшированных запусков в связанной таблице.</span><span class="sxs-lookup"><span data-stu-id="deee6-147">The example then displays the performance statistics for the uncached and cached runs through the linked table.</span></span>
+<span data-ttu-id="6b7ca-145">В этом примере используются методы **CreateTableDef** и **FillCache** и свойства **CacheSize**, **CacheStart** и **SourceTableName** для перечисления записей в связанной таблице два раза.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-145">This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice.</span></span> <span data-ttu-id="6b7ca-146">Затем выполняется перечисление дважды с кэшем в 50 записей.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-146">Then it enumerates the records twice with a 50-record cache.</span></span> <span data-ttu-id="6b7ca-147">Затем пример отображает статистику производительности для некэшированных и кэшированных запусков в связанной таблице.</span><span class="sxs-lookup"><span data-stu-id="6b7ca-147">The example then displays the performance statistics for the uncached and cached runs through the linked table.</span></span>
 
 ```vb
     Sub ClientServerX3() 

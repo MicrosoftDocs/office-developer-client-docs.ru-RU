@@ -1,37 +1,37 @@
 ---
-title: Ячейка BevelDepthColor (раздел "Свойства багетной рамки")
+title: BevelDepthColor Cell (Bevel Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1665774f-4049-4eda-ba7a-62314286699e
-description: Определяет цвет глубина рельефов как значение RGB, либо в соответствии с активной темы.
-ms.openlocfilehash: b3b10ad220367a504a3df5c90453524a1c5fe59d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет цвет глубины скоса в виде значения RGB или определяется активной темой.
+ms.openlocfilehash: 027b7b8675666b82d0ae26259fe77470708628c2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285142"
 ---
-# <a name="beveldepthcolor-cell-bevel-properties-section"></a><span data-ttu-id="20069-103">Ячейка BevelDepthColor (раздел "Свойства багетной рамки")</span><span class="sxs-lookup"><span data-stu-id="20069-103">BevelDepthColor Cell (Bevel Properties Section)</span></span>
+# <a name="beveldepthcolor-cell-bevel-properties-section"></a><span data-ttu-id="ab01c-103">BevelDepthColor Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="ab01c-103">BevelDepthColor Cell (Bevel Properties Section)</span></span>
 
-<span data-ttu-id="20069-104">Определяет цвет глубина рельефов как значение RGB, либо в соответствии с активной темы.</span><span class="sxs-lookup"><span data-stu-id="20069-104">Determines the color of the bevel's depth, as an RGB value or as determined by the active theme.</span></span>
+<span data-ttu-id="ab01c-104">Определяет цвет глубины скоса в виде значения RGB или определяется активной темой.</span><span class="sxs-lookup"><span data-stu-id="ab01c-104">Determines the color of the bevel's depth, as an RGB value or as determined by the active theme.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="20069-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="20069-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ab01c-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="ab01c-105">Remarks</span></span>
 
-<span data-ttu-id="20069-106">Для получения ссылки на ячейки **BevelDepthColor** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="20069-106">To get a reference to the **BevelDepthColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="ab01c-106">Чтобы получить ссылку на ячейку **BevelDepthColor** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="ab01c-106">To get a reference to the **BevelDepthColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="20069-107">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="20069-107">Cell name:</span></span>  <br/> | <span data-ttu-id="20069-108">BevelDepthColor</span><span class="sxs-lookup"><span data-stu-id="20069-108">BevelDepthColor</span></span>  <br/> |
+| <span data-ttu-id="ab01c-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="ab01c-107">Cell name:</span></span>  <br/> | <span data-ttu-id="ab01c-108">BevelDepthColor</span><span class="sxs-lookup"><span data-stu-id="ab01c-108">BevelDepthColor</span></span>  <br/> |
    
-<span data-ttu-id="20069-109">Для получения ссылки на ячейки **BevelDepthColor** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="20069-109">To get a reference to the **BevelDepthColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="ab01c-109">Чтобы получить ссылку на ячейку **BevelDepthColor** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="ab01c-109">To get a reference to the **BevelDepthColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="20069-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="20069-110">Section index:</span></span>  <br/> |<span data-ttu-id="20069-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="20069-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="20069-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="20069-112">Row index:</span></span>  <br/> |<span data-ttu-id="20069-113">**visRowBevelProperties**</span><span class="sxs-lookup"><span data-stu-id="20069-113">**visRowBevelProperties**</span></span> <br/> |
-| <span data-ttu-id="20069-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="20069-114">Cell index:</span></span>  <br/> |<span data-ttu-id="20069-115">**visBevelDepthColor**</span><span class="sxs-lookup"><span data-stu-id="20069-115">**visBevelDepthColor**</span></span> <br/> |
+| <span data-ttu-id="ab01c-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="ab01c-110">Section index:</span></span>  <br/> |<span data-ttu-id="ab01c-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="ab01c-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="ab01c-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="ab01c-112">Row index:</span></span>  <br/> |<span data-ttu-id="ab01c-113">**Висровбевелпропертиес**</span><span class="sxs-lookup"><span data-stu-id="ab01c-113">**visRowBevelProperties**</span></span> <br/> |
+| <span data-ttu-id="ab01c-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="ab01c-114">Cell index:</span></span>  <br/> |<span data-ttu-id="ab01c-115">**Висбевелдепсколор**</span><span class="sxs-lookup"><span data-stu-id="ab01c-115">**visBevelDepthColor**</span></span> <br/> |
    
 

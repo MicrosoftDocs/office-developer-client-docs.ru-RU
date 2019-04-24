@@ -1,28 +1,28 @@
 ---
-title: Функции базы данных (приложение настраиваемых web Access)
+title: Функции баз данных (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f2bfd27a-e6cd-4d07-b03f-071ed40c15a6
 description: ''
-ms.openlocfilehash: b5435ef6825d40b3835e811310c489d37c8b2f89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d38e9b40ba3879fe3cb6e315d96ca2e63204d242
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280714"
 ---
-# <a name="database-functions-access-custom-web-app"></a><span data-ttu-id="a3325-102">Функции базы данных (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="a3325-102">Database functions (Access custom web app)</span></span>
+# <a name="database-functions-access-custom-web-app"></a><span data-ttu-id="48c72-102">Функции баз данных (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="48c72-102">Database functions (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="a3325-103">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="a3325-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="a3325-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="a3325-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="48c72-103">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="48c72-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="48c72-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="48c72-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 
-- [<span data-ttu-id="a3325-105">Функция UserDisplayName (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="a3325-105">UserDisplayName function (Access custom web app)</span></span>](userdisplayname-function-access-custom-web-app.md)
+- [<span data-ttu-id="48c72-105">Функция UserDisplayName (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="48c72-105">UserDisplayName function (Access custom web app)</span></span>](userdisplayname-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="a3325-106">Функция UserEmailAddress (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="a3325-106">UserEmailAddress function (Access custom web app)</span></span>](useremailaddress-function-access-custom-web-app.md)
+- [<span data-ttu-id="48c72-106">Функция Усеремаиладдресс (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="48c72-106">UserEmailAddress function (Access custom web app)</span></span>](useremailaddress-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="a3325-107">Функции обновления (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="a3325-107">Update function (Access custom web app)</span></span>](update-function-access-custom-web-app.md)
+- [<span data-ttu-id="48c72-107">Функция Update (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="48c72-107">Update function (Access custom web app)</span></span>](update-function-access-custom-web-app.md)
     
 

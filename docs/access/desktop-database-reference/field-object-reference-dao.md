@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 3e1c3586d06c877517be1c8006a756ce7bc9a075
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293030"
 ---
-# <a name="field-object-reference-dao"></a><span data-ttu-id="92760-102">Справочник по объекту Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="92760-102">Field Object Reference (DAO)</span></span>
+# <a name="field-object-reference-dao"></a><span data-ttu-id="cb2c9-102">Справочник по объекту Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb2c9-102">Field object reference (DAO)</span></span>
 
-<span data-ttu-id="92760-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="92760-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cb2c9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb2c9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="92760-104">Объект Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="92760-104">Field Object (DAO)</span></span>](field-object-dao.md)
-- [<span data-ttu-id="92760-105">Элементы Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="92760-105">Field Members (DAO)</span></span>](field-members-dao.md)
-- [<span data-ttu-id="92760-106">Свойства Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="92760-106">Field Properties (DAO)</span></span>](field-properties-dao.md)
-- [<span data-ttu-id="92760-107">Методы Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="92760-107">Field Methods (DAO)</span></span>](field-methods-dao.md)
+- [<span data-ttu-id="cb2c9-104">Объект Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb2c9-104">Field object (DAO)</span></span>](field-object-dao.md)
+- [<span data-ttu-id="cb2c9-105">Элементы Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb2c9-105">Field members (DAO)</span></span>](field-members-dao.md)
+- [<span data-ttu-id="cb2c9-106">Свойства Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb2c9-106">Field properties (DAO)</span></span>](field-properties-dao.md)
+- [<span data-ttu-id="cb2c9-107">Методы Field (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb2c9-107">Field methods (DAO)</span></span>](field-methods-dao.md)
 

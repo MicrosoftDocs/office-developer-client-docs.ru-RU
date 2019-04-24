@@ -1,5 +1,5 @@
 ---
-title: Ячейка Transparency (раздел "Символ")
+title: Transparency Cell (Character Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,42 +8,42 @@ f1_keywords:
 - vis_sdr.chm50135
 localization_priority: Normal
 ms.assetid: ab835a1a-9e90-126e-279f-463882c48e93
-description: Определяет уровень прозрачности для диапазона цвет текста фигуры.
-ms.openlocfilehash: 5914a061b1bba2173b338544b05abda8780ff164
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет уровень прозрачности для диапазона цвета текста фигуры.
+ms.openlocfilehash: 8619ec25372ae163fff1759aca36ff6693820e39
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280985"
 ---
-# <a name="transparency-cell-character-section"></a><span data-ttu-id="2d03b-103">Ячейка Transparency (раздел "Символ")</span><span class="sxs-lookup"><span data-stu-id="2d03b-103">Transparency Cell (Character Section)</span></span>
+# <a name="transparency-cell-character-section"></a><span data-ttu-id="9f9f5-103">Transparency Cell (Character Section)</span><span class="sxs-lookup"><span data-stu-id="9f9f5-103">Transparency Cell (Character Section)</span></span>
 
-<span data-ttu-id="2d03b-104">Определяет уровень прозрачности для диапазона цвет текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="2d03b-104">Determines the transparency level for a range of a shape's text color.</span></span>
+<span data-ttu-id="9f9f5-104">Определяет уровень прозрачности для диапазона цвета текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="9f9f5-104">Determines the transparency level for a range of a shape's text color.</span></span>
   
-|<span data-ttu-id="2d03b-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="2d03b-105">**Value**</span></span>|<span data-ttu-id="2d03b-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="2d03b-106">**Description**</span></span>|
+|<span data-ttu-id="9f9f5-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="9f9f5-105">**Value**</span></span>|<span data-ttu-id="9f9f5-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="9f9f5-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="2d03b-107">0 — 100</span><span class="sxs-lookup"><span data-stu-id="2d03b-107">0 - 100</span></span>  <br/> |<span data-ttu-id="2d03b-108">Представляет собой процентную долю прозрачность.</span><span class="sxs-lookup"><span data-stu-id="2d03b-108">Represents the percentage of transparency.</span></span> <span data-ttu-id="2d03b-109">Значение по умолчанию — 0% (полностью непрозрачный).</span><span class="sxs-lookup"><span data-stu-id="2d03b-109">The default is 0% (completely opaque).</span></span>  <br/> |
+|<span data-ttu-id="9f9f5-107">0-100</span><span class="sxs-lookup"><span data-stu-id="9f9f5-107">0 - 100</span></span>  <br/> |<span data-ttu-id="9f9f5-108">Представляет процент прозрачности.</span><span class="sxs-lookup"><span data-stu-id="9f9f5-108">Represents the percentage of transparency.</span></span> <span data-ttu-id="9f9f5-109">Значение по умолчанию: 0% (полностью непрозрачно).</span><span class="sxs-lookup"><span data-stu-id="9f9f5-109">The default is 0% (completely opaque).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="2d03b-110">Замечания</span><span class="sxs-lookup"><span data-stu-id="2d03b-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9f9f5-110">Замечания</span><span class="sxs-lookup"><span data-stu-id="9f9f5-110">Remarks</span></span>
 
-<span data-ttu-id="2d03b-111">Значения округляются до ближайшего большего половины процентов.</span><span class="sxs-lookup"><span data-stu-id="2d03b-111">Values are rounded to the nearest half percent.</span></span> <span data-ttu-id="2d03b-112">Значение 100% является полностью прозрачным.</span><span class="sxs-lookup"><span data-stu-id="2d03b-112">A value of 100% is completely transparent.</span></span> <span data-ttu-id="2d03b-113">Хотя фигуры, полностью прозрачным текст отображается на странице документа как фигуры, которая не содержит текста, взаимодействия с другие объекты на странице таким же образом, как если бы его прозрачность 0%.</span><span class="sxs-lookup"><span data-stu-id="2d03b-113">Although a shape that has completely transparent text appears the same on the drawing page as a shape that has no text, it interacts with other objects on the page in the same way as if its transparency were 0%.</span></span>
+<span data-ttu-id="9f9f5-111">Значения округляются до ближайшей половины процентов.</span><span class="sxs-lookup"><span data-stu-id="9f9f5-111">Values are rounded to the nearest half percent.</span></span> <span data-ttu-id="9f9f5-112">Значение 100% полностью прозрачно.</span><span class="sxs-lookup"><span data-stu-id="9f9f5-112">A value of 100% is completely transparent.</span></span> <span data-ttu-id="9f9f5-113">Несмотря на то, что фигура с полностью прозрачным текстом отображается на странице рисунка как фигура без текста, она взаимодействует с другими объектами на странице точно так же, как если бы ее прозрачность была равна 0%.</span><span class="sxs-lookup"><span data-stu-id="9f9f5-113">Although a shape that has completely transparent text appears the same on the drawing page as a shape that has no text, it interacts with other objects on the page in the same way as if its transparency were 0%.</span></span>
   
-<span data-ttu-id="2d03b-114">Также можно задать это значение с помощью ползунка на вкладке « **Шрифт** » в диалоговое окно " **Text** " (на вкладке **Главная** щелкните стрелку **шрифтов** ).</span><span class="sxs-lookup"><span data-stu-id="2d03b-114">You can also set this value by using the slider control on the **Font** tab in the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
+<span data-ttu-id="9f9f5-114">Вы также можете задать это значение с помощью ползунка на вкладке **Шрифт** в диалоговом окне **текст** (на вкладке **Главная** щелкните стрелку **Шрифт** ).</span><span class="sxs-lookup"><span data-stu-id="9f9f5-114">You can also set this value by using the slider control on the **Font** tab in the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
   
-<span data-ttu-id="2d03b-115">Если раздел символов содержит несколько строк, ячейка прозрачность содержит сведения о форматировании, применяемые к поддиапазона текстом фигуры.</span><span class="sxs-lookup"><span data-stu-id="2d03b-115">If the Characters section contains multiple rows, the Transparency cell contains formatting information applied to a sub-range of a shape's text.</span></span> <span data-ttu-id="2d03b-116">В противном случае содержит сведения о форматировании для всех текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="2d03b-116">Otherwise, it contains formatting information for all of the shape's text.</span></span>
+<span data-ttu-id="9f9f5-115">Если раздел символы содержит несколько строк, ячейка прозрачности содержит сведения о форматировании, примененные к поддиапазону текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="9f9f5-115">If the Characters section contains multiple rows, the Transparency cell contains formatting information applied to a sub-range of a shape's text.</span></span> <span data-ttu-id="9f9f5-116">В противном случае он содержит сведения о форматировании для всего текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="9f9f5-116">Otherwise, it contains formatting information for all of the shape's text.</span></span>
   
-<span data-ttu-id="2d03b-117">Чтобы получить ссылку на ячейку прозрачность по имени из другой формулы или из файла с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="2d03b-117">To get a reference to the Transparency cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="9f9f5-117">Чтобы получить ссылку на ячейку прозрачности по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="9f9f5-117">To get a reference to the Transparency cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2d03b-118">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="2d03b-118">Cell name:</span></span>  <br/> |<span data-ttu-id="2d03b-119">Char.ColorTrans [ *i* ] где *i* = < 1 > 2, 3...</span><span class="sxs-lookup"><span data-stu-id="2d03b-119">Char.ColorTrans[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="9f9f5-118">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="9f9f5-118">Cell name:</span></span>  <br/> |<span data-ttu-id="9f9f5-119">Char. Колортранс [ *i* ], где *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="9f9f5-119">Char.ColorTrans[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="2d03b-120">Для получения ссылки на ячейки прозрачность по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="2d03b-120">To get a reference to the Transparency cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="9f9f5-120">Чтобы получить ссылку на ячейку "прозрачность" по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="9f9f5-120">To get a reference to the Transparency cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2d03b-121">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="2d03b-121">Section index:</span></span>  <br/> |<span data-ttu-id="2d03b-122">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="2d03b-122">**visSectionCharacter**</span></span> <br/> |
-|<span data-ttu-id="2d03b-123">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="2d03b-123">Row index:</span></span>  <br/> |<span data-ttu-id="2d03b-124">**visRowCharacter** +  *i* где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="2d03b-124">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="2d03b-125">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="2d03b-125">Cell index:</span></span>  <br/> |<span data-ttu-id="2d03b-126">**visCharacterColorTrans**</span><span class="sxs-lookup"><span data-stu-id="2d03b-126">**visCharacterColorTrans**</span></span> <br/> |
+|<span data-ttu-id="9f9f5-121">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="9f9f5-121">Section index:</span></span>  <br/> |<span data-ttu-id="9f9f5-122">**Виссектиончарактер**</span><span class="sxs-lookup"><span data-stu-id="9f9f5-122">**visSectionCharacter**</span></span> <br/> |
+|<span data-ttu-id="9f9f5-123">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="9f9f5-123">Row index:</span></span>  <br/> |<span data-ttu-id="9f9f5-124">**висровчарактер** +  *i* , где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="9f9f5-124">**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="9f9f5-125">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="9f9f5-125">Cell index:</span></span>  <br/> |<span data-ttu-id="9f9f5-126">**Висчарактерколортранс**</span><span class="sxs-lookup"><span data-stu-id="9f9f5-126">**visCharacterColorTrans**</span></span> <br/> |
    
 

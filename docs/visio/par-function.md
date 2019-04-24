@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm82251477
 localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
-description: Возвращает x, y координаты точки в системе координат родительского фигуры.
-ms.openlocfilehash: a3f7afd3f9bc988a20526451a6d7d7081d27a2d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает координаты x и y точки в системе координат родительского элемента фигуры.
+ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814352"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269946"
 ---
-# <a name="par-function"></a><span data-ttu-id="a455e-103">Функция PAR</span><span class="sxs-lookup"><span data-stu-id="a455e-103">PAR Function</span></span>
+# <a name="par-function"></a><span data-ttu-id="c85c5-103">Функция PAR</span><span class="sxs-lookup"><span data-stu-id="c85c5-103">PAR Function</span></span>
 
-<span data-ttu-id="a455e-104">Возвращает координаты _x, y_ точки в системе координат родительского фигуры.</span><span class="sxs-lookup"><span data-stu-id="a455e-104">Returns the  _x,y_ coordinates of a point in the coordinate system of the shape's parent.</span></span> 
+<span data-ttu-id="c85c5-104">Возвращает координаты _x и y_ точки в системе координат родительского элемента фигуры.</span><span class="sxs-lookup"><span data-stu-id="c85c5-104">Returns the  _x,y_ coordinates of a point in the coordinate system of the shape's parent.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="a455e-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a455e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c85c5-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c85c5-105">Syntax</span></span>
 
-<span data-ttu-id="a455e-106">Параметр ИМЕЕТ (** *пункт* **)</span><span class="sxs-lookup"><span data-stu-id="a455e-106">PAR(** *point* ** )</span></span> 
+<span data-ttu-id="c85c5-106">НОМИНАЛ (\* \* *Point* \* \*)</span><span class="sxs-lookup"><span data-stu-id="c85c5-106">PAR(\*\* *point* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="a455e-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="a455e-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="c85c5-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="c85c5-107">Parameters</span></span>
 
-|<span data-ttu-id="a455e-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="a455e-108">**Name**</span></span>|<span data-ttu-id="a455e-109">**Обязательный или необязательный**</span><span class="sxs-lookup"><span data-stu-id="a455e-109">**Required/Optional**</span></span>|<span data-ttu-id="a455e-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="a455e-110">**Data Type**</span></span>|<span data-ttu-id="a455e-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a455e-111">**Description**</span></span>|
+|<span data-ttu-id="c85c5-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="c85c5-108">**Name**</span></span>|<span data-ttu-id="c85c5-109">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="c85c5-109">**Required/Optional**</span></span>|<span data-ttu-id="c85c5-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="c85c5-110">**Data Type**</span></span>|<span data-ttu-id="c85c5-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c85c5-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="a455e-112">_пункт_</span><span class="sxs-lookup"><span data-stu-id="a455e-112">_point_</span></span> <br/> |<span data-ttu-id="a455e-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="a455e-113">Required</span></span>  <br/> |<span data-ttu-id="a455e-114">**Номер, номер**</span><span class="sxs-lookup"><span data-stu-id="a455e-114">**Number, Number**</span></span> <br/> |<span data-ttu-id="a455e-115">Координаты точки в системе координат текущей фигуры.</span><span class="sxs-lookup"><span data-stu-id="a455e-115">The coordinates of the point in the coordinate system of the current shape.</span></span>  <br/> |
+| <span data-ttu-id="c85c5-112">_Указывает_</span><span class="sxs-lookup"><span data-stu-id="c85c5-112">_point_</span></span> <br/> |<span data-ttu-id="c85c5-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="c85c5-113">Required</span></span>  <br/> |<span data-ttu-id="c85c5-114">**Число, число**</span><span class="sxs-lookup"><span data-stu-id="c85c5-114">**Number, Number**</span></span> <br/> |<span data-ttu-id="c85c5-115">Координаты точки в системе координат текущей фигуры.</span><span class="sxs-lookup"><span data-stu-id="c85c5-115">The coordinates of the point in the coordinate system of the current shape.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a455e-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="a455e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c85c5-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="c85c5-116">Remarks</span></span>
 
-<span data-ttu-id="a455e-117">В Microsoft Visio точки — это одно значение, которое реализует пары *x* - и *y* -координаты.</span><span class="sxs-lookup"><span data-stu-id="a455e-117">In Microsoft Visio, a point is a single value that embodies a pair of  *x*  - and  *y*  -coordinates.</span></span> <span data-ttu-id="a455e-118">Если фигуры в группе, родительского — группа.</span><span class="sxs-lookup"><span data-stu-id="a455e-118">If the shape is in a group, its parent is the group.</span></span> <span data-ttu-id="a455e-119">Если фигура не является группу, его родителя является страницы.</span><span class="sxs-lookup"><span data-stu-id="a455e-119">If the shape is not in a group, its parent is the page.</span></span> 
+<span data-ttu-id="c85c5-117">В Microsoft Visio точка — это одно значение, ембодиес с двумя координатами *x* и *y* .</span><span class="sxs-lookup"><span data-stu-id="c85c5-117">In Microsoft Visio, a point is a single value that embodies a pair of  *x*  - and  *y*  -coordinates.</span></span> <span data-ttu-id="c85c5-118">Если фигура находится в группе, ее родитель — это группа.</span><span class="sxs-lookup"><span data-stu-id="c85c5-118">If the shape is in a group, its parent is the group.</span></span> <span data-ttu-id="c85c5-119">Если фигура не входит в группу, ее родителем является страница.</span><span class="sxs-lookup"><span data-stu-id="c85c5-119">If the shape is not in a group, its parent is the page.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="a455e-120">Пример</span><span class="sxs-lookup"><span data-stu-id="a455e-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c85c5-120">Пример</span><span class="sxs-lookup"><span data-stu-id="c85c5-120">Example</span></span>
 
-<span data-ttu-id="a455e-121">PAR(PNT(PinX,PinY))</span><span class="sxs-lookup"><span data-stu-id="a455e-121">PAR(PNT(PinX,PinY))</span></span> 
+<span data-ttu-id="c85c5-121">НОМИНАЛ (PNT (PinX, PinY))</span><span class="sxs-lookup"><span data-stu-id="c85c5-121">PAR(PNT(PinX,PinY))</span></span> 
   
-<span data-ttu-id="a455e-122">В это выражение раздела PNT преобразует пары координат текущего фигуры в точку.</span><span class="sxs-lookup"><span data-stu-id="a455e-122">In this expression, PNT converts a pair of coordinates in the current shape into a point.</span></span> <span data-ttu-id="a455e-123">Параметр ИМЕЕТ затем преобразует точку в пары координат при использовании нижнем левом углу страницы или группа, содержащая текущей фигуры.</span><span class="sxs-lookup"><span data-stu-id="a455e-123">PAR then converts the point into a pair of coordinates in relation to the lower-left corner of the page or group that contains the current shape.</span></span> 
+<span data-ttu-id="c85c5-122">В этом выражении PNT преобразует две координаты в текущей фигуре в точку.</span><span class="sxs-lookup"><span data-stu-id="c85c5-122">In this expression, PNT converts a pair of coordinates in the current shape into a point.</span></span> <span data-ttu-id="c85c5-123">Номинал затем преобразует точку в комбинацию координат относительно левого нижнего угла страницы или группы, в которой содержится текущая фигура.</span><span class="sxs-lookup"><span data-stu-id="c85c5-123">PAR then converts the point into a pair of coordinates in relation to the lower-left corner of the page or group that contains the current shape.</span></span> 
   
 
