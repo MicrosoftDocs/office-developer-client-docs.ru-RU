@@ -1,5 +1,5 @@
 ---
-title: Документы семейства (DAO)
+title: Коллекция Documents (DAO)
 TOCTitle: Documents Collection
 ms:assetid: ae2fef58-34e7-eea6-ca51-d3903432c7f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821742(v=office.15)
@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2f6edd02c316fdff3f64b8a09c1504c46c9812a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293751"
 ---
-# <a name="documents-collection-dao"></a><span data-ttu-id="71a0d-102">Документы семейства (DAO)</span><span class="sxs-lookup"><span data-stu-id="71a0d-102">Documents collection (DAO)</span></span>
+# <a name="documents-collection-dao"></a><span data-ttu-id="e2d21-102">Коллекция Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="e2d21-102">Documents collection (DAO)</span></span>
 
 
-<span data-ttu-id="71a0d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="71a0d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e2d21-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2d21-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="71a0d-104">Коллекция **документов** содержит все объекты **документа** для определенного типа объекта (Microsoft Access базами данных, ядро только).</span><span class="sxs-lookup"><span data-stu-id="71a0d-104">A **Documents** collection contains all of the **Document** objects for a specific type of object (Microsoft Access database engine databases only).</span></span>
+<span data-ttu-id="e2d21-104">Коллекция **Documents** содержит все объекты **документа** для определенного типа объекта (только базы данных ядра СУБД Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="e2d21-104">A **Documents** collection contains all of the **Document** objects for a specific type of object (Microsoft Access database engine databases only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="71a0d-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="71a0d-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e2d21-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="e2d21-105">Remarks</span></span>
 
-<span data-ttu-id="71a0d-106">Каждый объект- **контейнер** имеет **документы** коллекцию, содержащую объекты **документов** , которые описывают экземпляры встроенные объекты типа, указанного в качестве **контейнера**.</span><span class="sxs-lookup"><span data-stu-id="71a0d-106">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**.</span></span>
+<span data-ttu-id="e2d21-106">Каждый объект **Container** содержит коллекцию **Documents** , содержащую объекты **Document** , которые описывают экземпляры встроенных объектов типа, указанного в контейнере \*\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="e2d21-106">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**.</span></span>
 
-<span data-ttu-id="71a0d-107">Для ссылки на объект **Document** в семействе сайтов, с его порядковый номер или **его свойства Name** , используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="71a0d-107">To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="e2d21-107">Чтобы сослаться на объект **Document** в коллекции по его порядковому номеру или по его свойству **Name** , используйте любую из следующих синтаксических форм:</span><span class="sxs-lookup"><span data-stu-id="e2d21-107">To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-  - <span data-ttu-id="71a0d-108">**Документы** (0)</span><span class="sxs-lookup"><span data-stu-id="71a0d-108">**Documents**(0)</span></span>
+  - <span data-ttu-id="e2d21-108">**Документы** нуль</span><span class="sxs-lookup"><span data-stu-id="e2d21-108">**Documents**(0)</span></span>
 
-  - <span data-ttu-id="71a0d-109">**Документы** («*имя*»)</span><span class="sxs-lookup"><span data-stu-id="71a0d-109">**Documents**("*name*")</span></span>
+  - <span data-ttu-id="e2d21-109">**Документы** ("*имя*")</span><span class="sxs-lookup"><span data-stu-id="e2d21-109">**Documents**("*name*")</span></span>
 
-  - <span data-ttu-id="71a0d-110">**Документы**\!\[*имя*\]</span><span class="sxs-lookup"><span data-stu-id="71a0d-110">**Documents**\!\[*name*\]</span></span>
+  - <span data-ttu-id="e2d21-110">\*\*\*\*\!\[*Имя* документа\]</span><span class="sxs-lookup"><span data-stu-id="e2d21-110">**Documents**\!\[*name*\]</span></span>
 
-## <a name="example"></a><span data-ttu-id="71a0d-111">Пример</span><span class="sxs-lookup"><span data-stu-id="71a0d-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e2d21-111">Пример</span><span class="sxs-lookup"><span data-stu-id="e2d21-111">Example</span></span>
 
-<span data-ttu-id="71a0d-112">В этом примере создается перечисление коллекции **документов** контейнер таблиц и затем создается перечисление коллекции **свойств** первый объект **документа** в коллекции.</span><span class="sxs-lookup"><span data-stu-id="71a0d-112">This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.</span></span>
+<span data-ttu-id="e2d21-112">В этом примере выполняется перечисление коллекции **Documents** контейнера Tables, после чего выполняется перечисление коллекции **свойств** первого объекта **Document** в коллекции.</span><span class="sxs-lookup"><span data-stu-id="e2d21-112">This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.</span></span>
 
 ```vb 
 Sub DocumentX() 

@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 791cbbd16eef7baf95fd51ab8624a04dc687166b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292400"
 ---
-# <a name="filtering-for-updated-records"></a><span data-ttu-id="d8fb6-102">Поиск обновленных записей с помощью фильтра</span><span class="sxs-lookup"><span data-stu-id="d8fb6-102">Filtering for updated records</span></span>
+# <a name="filtering-for-updated-records"></a><span data-ttu-id="4147f-102">Поиск обновленных записей с помощью фильтра</span><span class="sxs-lookup"><span data-stu-id="4147f-102">Filtering for updated records</span></span>
 
-<span data-ttu-id="d8fb6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8fb6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4147f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4147f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="filtering-for-updated-records"></a><span data-ttu-id="d8fb6-104">Фильтрация для обновленных записей</span><span class="sxs-lookup"><span data-stu-id="d8fb6-104">Filtering for Updated Records</span></span>
+## <a name="filtering-for-updated-records"></a><span data-ttu-id="4147f-104">Filtering for Updated Records</span><span class="sxs-lookup"><span data-stu-id="4147f-104">Filtering for Updated Records</span></span>
 
-<span data-ttu-id="d8fb6-105">До вызова метода **UpdateBatch**, можно использовать свойство **фильтра** **набора записей** для просмотра только тех записей, которые были изменены с момента открытия **набора записей** или последнего вызова **UpdateBatch**.</span><span class="sxs-lookup"><span data-stu-id="d8fb6-105">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**.</span></span> <span data-ttu-id="d8fb6-106">Чтобы сделать это, равным **фильтра** **adFilterPendingRecords** , чтобы определить, сколько записей будут обновлены, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="d8fb6-106">To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
+<span data-ttu-id="4147f-105">Перед вызовом **UpdateBatch**можно использовать свойство **Filter** в **наборе записей** для просмотра только тех записей, которые были изменены с момента открытия **набора записей** или последнего вызова **UpdateBatch**.</span><span class="sxs-lookup"><span data-stu-id="4147f-105">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**.</span></span> <span data-ttu-id="4147f-106">Для этого установите **Фильтр** равное **адфилтерпендингрекордс** , чтобы определить количество записей, которые будут обновлены, как показано ниже.</span><span class="sxs-lookup"><span data-stu-id="4147f-106">To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
 
-<span data-ttu-id="d8fb6-107">Этот пример демонстрирует расширение в предыдущем примере **UpdateBatch** путем фильтрации **набора записей** до вызова **UpdateBatch**, отображение пользователем записи изменится и позволяя ему для отмены обновления (с помощью **CancelBatch** метод).</span><span class="sxs-lookup"><span data-stu-id="d8fb6-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
+<span data-ttu-id="4147f-107">В этом примере показано, как расширить предыдущий пример **UpdateBatch** , выполнив фильтрацию **набора записей** непосредственно перед вызовом **UpdateBatch**, отображая пользователя, какие записи будут изменены, и позволяя ему отменить обновление (с помощью **CancelBatch** метод).</span><span class="sxs-lookup"><span data-stu-id="4147f-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
 
 ```vb 
  

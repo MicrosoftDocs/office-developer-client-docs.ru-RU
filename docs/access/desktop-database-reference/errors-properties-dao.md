@@ -1,5 +1,5 @@
 ---
-title: Свойства ошибки (DAO)
+title: Свойства ошибок (DAO)
 TOCTitle: Properties
 ms:assetid: 0e6577ae-d9d2-4d25-8329-3651b3ce75a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123703(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 20c1a9d76bb21b2d6578b3b551cc7648e82b7657
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293366"
 ---
-# <a name="errors-properties-dao"></a><span data-ttu-id="cd97e-102">Свойства ошибки (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd97e-102">Errors properties (DAO)</span></span>
+# <a name="errors-properties-dao"></a><span data-ttu-id="13709-102">Свойства ошибок (DAO)</span><span class="sxs-lookup"><span data-stu-id="13709-102">Errors properties (DAO)</span></span>
 
-<span data-ttu-id="cd97e-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd97e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="13709-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="13709-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cd97e-104">Свойство Errors.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd97e-104">Errors.Count property (DAO)</span></span>](errors-count-property-dao.md)
+- [<span data-ttu-id="13709-104">Свойство Errors. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="13709-104">Errors.Count property (DAO)</span></span>](errors-count-property-dao.md)
 

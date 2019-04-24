@@ -12,34 +12,34 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 262e6781b61018cec3d52dbb930f380d3ff5bd85
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289751"
 ---
-# <a name="maximizewindow-macro-action"></a><span data-ttu-id="bc916-102">Макрокоманда MaximizeWindow</span><span class="sxs-lookup"><span data-stu-id="bc916-102">MaximizeWindow macro action</span></span>
+# <a name="maximizewindow-macro-action"></a><span data-ttu-id="13ad9-102">Макрокоманда MaximizeWindow</span><span class="sxs-lookup"><span data-stu-id="13ad9-102">MaximizeWindow macro action</span></span>
 
-<span data-ttu-id="bc916-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc916-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="13ad9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="13ad9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bc916-104">Если доступа настроены на использование перекрывающиеся windows вместо вкладками, можно использовать действие **MaximizeWindow** увеличить размер активного окна, чтобы он заполняет окна клиента.</span><span class="sxs-lookup"><span data-stu-id="bc916-104">If Access is configured to use overlapping windows instead of tabbed documents, you can use the **MaximizeWindow** action to enlarge the active window so that it fills the Access window.</span></span> <span data-ttu-id="bc916-105">Это действие позволит увидеть столько объекта в активном окне ответов.</span><span class="sxs-lookup"><span data-stu-id="bc916-105">This action will allow you to see as much of the object in the active window as possible.</span></span>
+<span data-ttu-id="13ad9-104">Если приложение Access настроено на использование перекрывающихся окон вместо документов с вкладками, можно использовать действие **максимизевиндов** , чтобы увеличить активное окно, чтобы оно заполнило окно Access.</span><span class="sxs-lookup"><span data-stu-id="13ad9-104">If Access is configured to use overlapping windows instead of tabbed documents, you can use the **MaximizeWindow** action to enlarge the active window so that it fills the Access window.</span></span> <span data-ttu-id="13ad9-105">Это действие позволит увидеть максимально возможный объем объекта в активном окне.</span><span class="sxs-lookup"><span data-stu-id="13ad9-105">This action will allow you to see as much of the object in the active window as possible.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="bc916-106">Это действие не может применяться к windows кода в редакторе Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="bc916-106">This action can't be applied to code windows in the Visual Basic Editor.</span></span> <span data-ttu-id="bc916-107">Для получения сведений о действиях с кодом windows приведены в разделе свойство **WindowState** .</span><span class="sxs-lookup"><span data-stu-id="bc916-107">For information about how to affect code windows, see the **WindowState** property topic.</span></span>
+> <span data-ttu-id="13ad9-106">Это действие невозможно применить к окнам кода в редакторе Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="13ad9-106">This action can't be applied to code windows in the Visual Basic Editor.</span></span> <span data-ttu-id="13ad9-107">Сведения о том, как повлиять на окна кода, представлены в разделе свойство **WindowState** .</span><span class="sxs-lookup"><span data-stu-id="13ad9-107">For information about how to affect code windows, see the **WindowState** property topic.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="bc916-108">Setting</span><span class="sxs-lookup"><span data-stu-id="bc916-108">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="13ad9-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="13ad9-108">Setting</span></span>
 
-<span data-ttu-id="bc916-109">Действие **MaximizeWindow** не требует аргументов.</span><span class="sxs-lookup"><span data-stu-id="bc916-109">The **MaximizeWindow** action doesn't have any arguments.</span></span>
+<span data-ttu-id="13ad9-109">Макрокоманда **максимизевиндов** не содержит аргументов.</span><span class="sxs-lookup"><span data-stu-id="13ad9-109">The **MaximizeWindow** action doesn't have any arguments.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="bc916-110">Замечания</span><span class="sxs-lookup"><span data-stu-id="bc916-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="13ad9-110">Замечания</span><span class="sxs-lookup"><span data-stu-id="13ad9-110">Remarks</span></span>
 
-<span data-ttu-id="bc916-111">Это действие имеет тот же эффект, нажав кнопку **Развернуть** в правом верхнем углу окна или нажав кнопку **Развернуть** в **элемент управления** меню.</span><span class="sxs-lookup"><span data-stu-id="bc916-111">This action has the same effect as clicking the **Maximize** button in the window's upper-right corner or clicking **Maximize** on the window's **Control** menu.</span></span>
+<span data-ttu-id="13ad9-111">Это действие имеет тот же результат, что и нажатие кнопки **развернуть** в правом верхнем углу окна, или с помощью команды **развернуть** в меню \*\*\*\* оконного меню.</span><span class="sxs-lookup"><span data-stu-id="13ad9-111">This action has the same effect as clicking the **Maximize** button in the window's upper-right corner or clicking **Maximize** on the window's **Control** menu.</span></span>
 
-<span data-ttu-id="bc916-112">Действие **RestoreWindow** можно использовать для восстановления предыдущих размеров развернутого окна.</span><span class="sxs-lookup"><span data-stu-id="bc916-112">You can use the **RestoreWindow** action to restore a maximized window to its previous size.</span></span>
+<span data-ttu-id="13ad9-112">Вы можете использовать действие **ресторевиндов** для восстановления предыдущего размера развернутого окна.</span><span class="sxs-lookup"><span data-stu-id="13ad9-112">You can use the **RestoreWindow** action to restore a maximized window to its previous size.</span></span>
 
 > [!TIP]
-> - <span data-ttu-id="bc916-113">Может потребоваться **Макрокоманда Если окно, которое требуется развернуть, не является активным** .</span><span class="sxs-lookup"><span data-stu-id="bc916-113">You may need to use the **SelectObject** action if the window you want to maximize isn't the active window.</span></span>
-> - <span data-ttu-id="bc916-114">При развертывании окна в Access все остальные окна также будут развернуты при открытии или переключении на них.</span><span class="sxs-lookup"><span data-stu-id="bc916-114">When you maximize a window in Access, all other windows are also maximized when you open them or switch to them.</span></span> <span data-ttu-id="bc916-115">Тем не менее не развертываются всплывающих форм.</span><span class="sxs-lookup"><span data-stu-id="bc916-115">However, pop-up forms aren't maximized.</span></span> <span data-ttu-id="bc916-116">Форма для сохранения его размер при развертывании других окон, установите его свойство **всплывающее окно** значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="bc916-116">If you want a form to maintain its size when other windows are maximized, set its **PopUp** property to **Yes**.</span></span>
+> - <span data-ttu-id="13ad9-113">Если окно, которое вы хотите развернуть, не является активным, может потребоваться использовать макрокоманду "ВыделитьОбъект" ( **SelectObject** ).</span><span class="sxs-lookup"><span data-stu-id="13ad9-113">You may need to use the **SelectObject** action if the window you want to maximize isn't the active window.</span></span>
+> - <span data-ttu-id="13ad9-114">При развертывании окна в Access все остальные окна также размещаются в развернутом состоянии при открытии или переключении на них.</span><span class="sxs-lookup"><span data-stu-id="13ad9-114">When you maximize a window in Access, all other windows are also maximized when you open them or switch to them.</span></span> <span data-ttu-id="13ad9-115">Однако всплывающие формы не развернуты.</span><span class="sxs-lookup"><span data-stu-id="13ad9-115">However, pop-up forms aren't maximized.</span></span> <span data-ttu-id="13ad9-116">Если вы хотите, чтобы форма состроила свой размер при разворачивании других окон, задайте для свойства **Popup свойство Popup** значение **Да**.</span><span class="sxs-lookup"><span data-stu-id="13ad9-116">If you want a form to maintain its size when other windows are maximized, set its **PopUp** property to **Yes**.</span></span>
 
-<span data-ttu-id="bc916-117">Чтобы выполнить действие **MaximizeWindow** в Visual Basic для приложений модуль, используйте метод **Развернуть** **объекта** .</span><span class="sxs-lookup"><span data-stu-id="bc916-117">To run the **MaximizeWindow** action in a Visual Basic for Applications module, use the **Maximize** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="13ad9-117">Чтобы запустить действие **максимизевиндов** в модуле Visual Basic для приложений, используйте метод **Maximize** объекта **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="13ad9-117">To run the **MaximizeWindow** action in a Visual Basic for Applications module, use the **Maximize** method of the **DoCmd** object.</span></span>
 

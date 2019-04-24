@@ -1,5 +1,5 @@
 ---
-title: Подключения к коллекции (DAO)
+title: Коллекция Connections (DAO)
 TOCTitle: Connections collection
 ms:assetid: 65d073be-a84b-e3f2-cb43-b87ffa60e497
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
@@ -8,43 +8,43 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 66f122b7bdaa9069b839cd5884b5da5da48a15f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295788"
 ---
-# <a name="connections-collection-dao"></a><span data-ttu-id="42c87-102">Подключения к коллекции (DAO)</span><span class="sxs-lookup"><span data-stu-id="42c87-102">Connections collection (DAO)</span></span>
+# <a name="connections-collection-dao"></a><span data-ttu-id="ade3c-102">Коллекция Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="ade3c-102">Connections collection (DAO)</span></span>
 
-<span data-ttu-id="42c87-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="42c87-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="42c87-104">Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="42c87-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="42c87-105">Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="42c87-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
-
-<span data-ttu-id="42c87-106">**Подключения к** коллекции содержит текущий объекты **подключения** объекта **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="42c87-106">A **Connections** collection contains the current **Connection** objects of a **Workspace** object.</span></span> <span data-ttu-id="42c87-107">(Технология ODBCDirect рабочие области только).</span><span class="sxs-lookup"><span data-stu-id="42c87-107">(ODBCDirect workspaces only).</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="42c87-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="42c87-108">Remarks</span></span>
-
-<span data-ttu-id="42c87-109">При открытии объект **подключения** , автоматически добавляется в коллекцию **подключения** **рабочей области**.</span><span class="sxs-lookup"><span data-stu-id="42c87-109">When you open a **Connection** object, it is automatically appended to the **Connections** collection of the **Workspace**.</span></span> <span data-ttu-id="42c87-110">При закрытии объекта **подключения** с помощью метода **[Закрыть](connection-close-method-dao.md)** , она удаляется из коллекции **подключений** .</span><span class="sxs-lookup"><span data-stu-id="42c87-110">When you close a **Connection** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Connections** collection.</span></span> <span data-ttu-id="42c87-111">Закройте все открытые объекты **[набора записей](recordset-object-dao.md)** в рамках **подключения** перед закрытием.</span><span class="sxs-lookup"><span data-stu-id="42c87-111">You should close all open **[Recordset](recordset-object-dao.md)** objects within the **Connection** before closing it.</span></span>
-
-<span data-ttu-id="42c87-112">В то же время, откройте объект **подключения** , создается и добавляется в конец коллекции **[баз данных](databases-collection-dao.md)** в одной **рабочей области для**соответствующего объекта **[базы данных](database-object-dao.md)** и наоборот.</span><span class="sxs-lookup"><span data-stu-id="42c87-112">At the same time you open a **Connection** object, a corresponding **[Database](database-object-dao.md)** object is created and appended to the **[Databases](databases-collection-dao.md)** collection in the same **Workspace**, and vice versa.</span></span> <span data-ttu-id="42c87-113">Аналогичным образом при закрытии **подключения к**базе соответствующих **баз данных** удаляется из коллекции **баз данных** и т. д.</span><span class="sxs-lookup"><span data-stu-id="42c87-113">Similarly, when you close the **Connection**, the corresponding **Database** is deleted from the **Databases** collection, and so on.</span></span>
-
-<span data-ttu-id="42c87-114">\*\*Свойства Name **подключения** \*\* — это строка, которая указывает путь к файлу базы данных.</span><span class="sxs-lookup"><span data-stu-id="42c87-114">The **Name** property setting of a **Connection** is a string that specifies the path of the database file.</span></span> <span data-ttu-id="42c87-115">Для ссылки на объект **подключения** в семействе сайтов, с его порядковый номер или **его свойства Name** , можно используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="42c87-115">To refer to a **Connection** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
-
-- <span data-ttu-id="42c87-116">**Подключения** (0)</span><span class="sxs-lookup"><span data-stu-id="42c87-116">**Connections**(0)</span></span>
-
-- <span data-ttu-id="42c87-117">**Подключения** («*имя*»)</span><span class="sxs-lookup"><span data-stu-id="42c87-117">**Connections**("*name*")</span></span>
-
-- <span data-ttu-id="42c87-118">**Подключения к**\!\[*имя*\]</span><span class="sxs-lookup"><span data-stu-id="42c87-118">**Connections**\!\[*name*\]</span></span>
-
+<span data-ttu-id="ade3c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ade3c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="42c87-119">Можно открыть один и тот же источник данных более одного раза, Создание повторяющихся имен в коллекции **Connections** .</span><span class="sxs-lookup"><span data-stu-id="42c87-119">You can open the same data source more than once, creating duplicate names in the **Connections** collection.</span></span> <span data-ttu-id="42c87-120">Следует назначить объекты **подключения** объектных переменных и обращаться к ним с именем переменной.</span><span class="sxs-lookup"><span data-stu-id="42c87-120">You should assign **Connection** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="ade3c-104">Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="ade3c-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="ade3c-105">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="ade3c-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+
+<span data-ttu-id="ade3c-106">Коллекция **Connections** содержит текущие объекты **подключения** объекта **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="ade3c-106">A **Connections** collection contains the current **Connection** objects of a **Workspace** object.</span></span> <span data-ttu-id="ade3c-107">(Только для рабочих областей ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="ade3c-107">(ODBCDirect workspaces only).</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="ade3c-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="ade3c-108">Remarks</span></span>
+
+<span data-ttu-id="ade3c-109">При открытии объекта **подключения** он автоматически добавляется в коллекцию **Connections** **рабочей области**.</span><span class="sxs-lookup"><span data-stu-id="ade3c-109">When you open a **Connection** object, it is automatically appended to the **Connections** collection of the **Workspace**.</span></span> <span data-ttu-id="ade3c-110">При закрытии объекта **Connection** с помощью метода **[Close](connection-close-method-dao.md)** он удаляется из коллекции Connections \*\*\*\* .</span><span class="sxs-lookup"><span data-stu-id="ade3c-110">When you close a **Connection** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Connections** collection.</span></span> <span data-ttu-id="ade3c-111">Прежде чем закрыть все открытые объекты **[Recordset](recordset-object-dao.md)** в **подключении** , необходимо закрыть их.</span><span class="sxs-lookup"><span data-stu-id="ade3c-111">You should close all open **[Recordset](recordset-object-dao.md)** objects within the **Connection** before closing it.</span></span>
+
+<span data-ttu-id="ade3c-112">При открытии объекта **Connection** создается соответствующий объект **[базы данных](database-object-dao.md)** , который добавляется в коллекцию **[баз данных](databases-collection-dao.md)** в той же **рабочей области**и наоборот.</span><span class="sxs-lookup"><span data-stu-id="ade3c-112">At the same time you open a **Connection** object, a corresponding **[Database](database-object-dao.md)** object is created and appended to the **[Databases](databases-collection-dao.md)** collection in the same **Workspace**, and vice versa.</span></span> <span data-ttu-id="ade3c-113">Аналогично, когда вы закрываете **Подключение**, соответствующая **база данных** удаляется из коллекции **баз данных** и т. д.</span><span class="sxs-lookup"><span data-stu-id="ade3c-113">Similarly, when you close the **Connection**, the corresponding **Database** is deleted from the **Databases** collection, and so on.</span></span>
+
+<span data-ttu-id="ade3c-114">Значение свойства **Name** для **подключения** — это строка, указывающая путь к файлу базы данных.</span><span class="sxs-lookup"><span data-stu-id="ade3c-114">The **Name** property setting of a **Connection** is a string that specifies the path of the database file.</span></span> <span data-ttu-id="ade3c-115">Чтобы сослаться на объект **Connection** в коллекции по его порядковому номеру или по значению свойства **Name** , используйте любую из следующих синтаксических форм:</span><span class="sxs-lookup"><span data-stu-id="ade3c-115">To refer to a **Connection** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+
+- <span data-ttu-id="ade3c-116">**Connections (подключения** ) нуль</span><span class="sxs-lookup"><span data-stu-id="ade3c-116">**Connections**(0)</span></span>
+
+- <span data-ttu-id="ade3c-117">**Connections (подключения** ) ("*имя*")</span><span class="sxs-lookup"><span data-stu-id="ade3c-117">**Connections**("*name*")</span></span>
+
+- <span data-ttu-id="ade3c-118">\*\*\*\*\!\[*Имя* подключений\]</span><span class="sxs-lookup"><span data-stu-id="ade3c-118">**Connections**\!\[*name*\]</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="42c87-121">Пример</span><span class="sxs-lookup"><span data-stu-id="42c87-121">Example</span></span>
+> [!NOTE]
+> <span data-ttu-id="ade3c-119">Вы можете открыть один и тот же источник данных несколько раз, создав повторяющиеся имена \*\*\*\* в коллекции Connections.</span><span class="sxs-lookup"><span data-stu-id="ade3c-119">You can open the same data source more than once, creating duplicate names in the **Connections** collection.</span></span> <span data-ttu-id="ade3c-120">Необходимо назначить объекты **подключения** переменным объектов и ссылаться на них по имени переменной.</span><span class="sxs-lookup"><span data-stu-id="ade3c-120">You should assign **Connection** objects to object variables and refer to them by variable name.</span></span>
 
-<span data-ttu-id="42c87-122">В этом примере демонстрируется объект **подключения** и **подключения к** коллекции, открыв объекта **базы данных** и два объекта технология ODBCDirect **подключения** и список свойств, доступных для каждого объекта.</span><span class="sxs-lookup"><span data-stu-id="42c87-122">This example demonstrates the **Connection** object and **Connections** collection by opening a **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.</span></span>
+
+## <a name="example"></a><span data-ttu-id="ade3c-121">Пример</span><span class="sxs-lookup"><span data-stu-id="ade3c-121">Example</span></span>
+
+<span data-ttu-id="ade3c-122">В этом примере демонстрируется объект **Connection** и коллекция **Connections** , открывая объект **базы данных** и два объекта **подключения** ODBCDirect и указывая свойства, доступные для каждого объекта.</span><span class="sxs-lookup"><span data-stu-id="ade3c-122">This example demonstrates the **Connection** object and **Connections** collection by opening a **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.</span></span>
 
 ```vb 
 Sub ConnectionObjectX() 
@@ -125,7 +125,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="42c87-123">В этом примере используется метод **OpenConnection** с другими параметрами для открытия трех разных объектов **подключения** .</span><span class="sxs-lookup"><span data-stu-id="42c87-123">This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.</span></span>
+<span data-ttu-id="ade3c-123">В этом примере используется метод **OpenConnection** с другими параметрами для открытия трех различных объектов **Connection** .</span><span class="sxs-lookup"><span data-stu-id="ade3c-123">This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.</span></span>
 
 ```vb 
 Sub OpenConnectionX() 

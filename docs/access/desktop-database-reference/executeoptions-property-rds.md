@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9cf773090ccb37bf4cad4aff41499ad01f966479
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293254"
 ---
-# <a name="executeoptions-property-rds"></a><span data-ttu-id="f93f1-102">Свойство ExecuteOptions (RDS)</span><span class="sxs-lookup"><span data-stu-id="f93f1-102">ExecuteOptions property (RDS)</span></span>
+# <a name="executeoptions-property-rds"></a><span data-ttu-id="5c8fd-102">Свойство ExecuteOptions (RDS)</span><span class="sxs-lookup"><span data-stu-id="5c8fd-102">ExecuteOptions property (RDS)</span></span>
 
 
-<span data-ttu-id="f93f1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f93f1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5c8fd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c8fd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f93f1-104">Указывает, включена ли асинхронное выполнение.</span><span class="sxs-lookup"><span data-stu-id="f93f1-104">Indicates whether asynchronous execution is enabled.</span></span>
+<span data-ttu-id="5c8fd-104">Указывает, включено ли асинхронное выполнение.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-104">Indicates whether asynchronous execution is enabled.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="f93f1-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="f93f1-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="5c8fd-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="5c8fd-105">Settings and return values</span></span>
 
-<span data-ttu-id="f93f1-106">Задает или возвращает одно из следующих значений.</span><span class="sxs-lookup"><span data-stu-id="f93f1-106">Sets or returns one of the following values.</span></span>
+<span data-ttu-id="5c8fd-106">Задает или возвращает одно из следующих значений.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-106">Sets or returns one of the following values.</span></span>
 
 <table>
 <colgroup>
@@ -32,30 +32,30 @@ ms.locfileid: "28699823"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f93f1-107">Константа</span><span class="sxs-lookup"><span data-stu-id="f93f1-107">Constant</span></span></p></th>
-<th><p><span data-ttu-id="f93f1-108">Описание</span><span class="sxs-lookup"><span data-stu-id="f93f1-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="5c8fd-107">Константа</span><span class="sxs-lookup"><span data-stu-id="5c8fd-107">Constant</span></span></p></th>
+<th><p><span data-ttu-id="5c8fd-108">Описание</span><span class="sxs-lookup"><span data-stu-id="5c8fd-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f93f1-109"><strong>adcExecSync</strong></span><span class="sxs-lookup"><span data-stu-id="f93f1-109"><strong>adcExecSync</strong></span></span></p></td>
-<td><p><span data-ttu-id="f93f1-110">Синхронно выполняет следующего обновления <a href="recordset-object-ado.md">набора записей</a> .</span><span class="sxs-lookup"><span data-stu-id="f93f1-110">Executes the next refresh of the <a href="recordset-object-ado.md">Recordset</a> synchronously.</span></span></p></td>
+<td><p><span data-ttu-id="5c8fd-109"><strong>Адцексексинк</strong></span><span class="sxs-lookup"><span data-stu-id="5c8fd-109"><strong>adcExecSync</strong></span></span></p></td>
+<td><p><span data-ttu-id="5c8fd-110">Выполняет следующее обновление <a href="recordset-object-ado.md">набора записей</a> в синхронном режиме.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-110">Executes the next refresh of the <a href="recordset-object-ado.md">Recordset</a> synchronously.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f93f1-111"><strong>adcExecAsync</strong></span><span class="sxs-lookup"><span data-stu-id="f93f1-111"><strong>adcExecAsync</strong></span></span></p></td>
-<td><p><span data-ttu-id="f93f1-112">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="f93f1-112">Default.</span></span> <span data-ttu-id="f93f1-113">Асинхронно выполняет следующего обновления <strong>набора записей</strong> .</span><span class="sxs-lookup"><span data-stu-id="f93f1-113">Executes the next refresh of the <strong>Recordset</strong> asynchronously.</span></span></p></td>
+<td><p><span data-ttu-id="5c8fd-111"><strong>Адцексекасинк</strong></span><span class="sxs-lookup"><span data-stu-id="5c8fd-111"><strong>adcExecAsync</strong></span></span></p></td>
+<td><p><span data-ttu-id="5c8fd-112">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-112">Default.</span></span> <span data-ttu-id="5c8fd-113">Асинхронно выполняет следующее обновление объекта <strong>Recordset</strong> .</span><span class="sxs-lookup"><span data-stu-id="5c8fd-113">Executes the next refresh of the <strong>Recordset</strong> asynchronously.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="f93f1-114">Каждый исполняемый файл со стороны клиента, который использует эти константы необходимо предоставить объявления для них.</span><span class="sxs-lookup"><span data-stu-id="f93f1-114">Each client-side executable file that uses these constants must provide declarations for them.</span></span> <span data-ttu-id="f93f1-115">Можно вырежьте и вставьте объявлений констант, которые будут из файла Adcvbs.inc, находящийся в папке C:\Program Files\Common Files\System\MSADC.</span><span class="sxs-lookup"><span data-stu-id="f93f1-115">You can cut and paste the constant declarations that you want from the file Adcvbs.inc, located in the C:\Program Files\Common Files\System\MSADC folder.</span></span>
+> <span data-ttu-id="5c8fd-114">Каждый исполняемый файл на стороне клиента, использующий эти константы, должен предоставлять объявления для них.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-114">Each client-side executable file that uses these constants must provide declarations for them.</span></span> <span data-ttu-id="5c8fd-115">Вы можете вырезать и вставить объявления констант из файла Адквбс. Inc, расположенного в папке C:\Program Files\Common Филес\систем\мсадк.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-115">You can cut and paste the constant declarations that you want from the file Adcvbs.inc, located in the C:\Program Files\Common Files\System\MSADC folder.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f93f1-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="f93f1-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5c8fd-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="5c8fd-116">Remarks</span></span>
 
-<span data-ttu-id="f93f1-117">Если **ExecuteOptions** **adcExecAsync**, затем это асинхронно выполняет следующий вызов **обновления** на [RDS. DataControl](datacontrol-object-rds.md) объекта **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="f93f1-117">If **ExecuteOptions** is set to **adcExecAsync**, then this asynchronously executes the next **Refresh** call on the [RDS.DataControl](datacontrol-object-rds.md) object's **Recordset**.</span></span>
+<span data-ttu-id="5c8fd-117">Если для **ExecuteOptions** задано значение **адцексекасинк**, асинхронно выполняется следующий вызов **обновления** в [RDS. ](datacontrol-object-rds.md) **Набор записей**объекта DataObject.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-117">If **ExecuteOptions** is set to **adcExecAsync**, then this asynchronously executes the next **Refresh** call on the [RDS.DataControl](datacontrol-object-rds.md) object's **Recordset**.</span></span>
 
-<span data-ttu-id="f93f1-118">При попытке вызова [Сброс](reset-method-rds.md), [обновление](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md)или [набора записей](recordset-sourcerecordset-properties-rds.md) при другой асинхронной операции, который может изменяться [RDS. DataControl](datacontrol-object-rds.md) объекта **набора записей** выполняется, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="f93f1-118">If you try to call [Reset](reset-method-rds.md), [Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md), or [Recordset](recordset-sourcerecordset-properties-rds.md) while another asynchronous operation that might change the [RDS.DataControl](datacontrol-object-rds.md) object's **Recordset** is executing, an error occurs.</span></span>
+<span data-ttu-id="5c8fd-118">Если вы попытаетесь вызвать [Reset](reset-method-rds.md), [Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md)или [Recordset](recordset-sourcerecordset-properties-rds.md) , в то время как другая асинхронная операция, которая может изменить [RDS. ](datacontrol-object-rds.md)Выполняется **набор записей** объекта DataObject, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-118">If you try to call [Reset](reset-method-rds.md), [Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md), or [Recordset](recordset-sourcerecordset-properties-rds.md) while another asynchronous operation that might change the [RDS.DataControl](datacontrol-object-rds.md) object's **Recordset** is executing, an error occurs.</span></span>
 
-<span data-ttu-id="f93f1-119">При возникновении ошибки во время выполнения асинхронной операции, **RDS. DataControl** значения [ReadyState](readystate-property-rds.md) объекта изменяется с **adcReadyStateLoaded** на **adcReadyStateComplete**и *ничего не*остается значение свойства **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="f93f1-119">If an error occurs during an asynchronous operation, the **RDS.DataControl** object's [ReadyState](readystate-property-rds.md) value changes from **adcReadyStateLoaded** to **adcReadyStateComplete**, and the **Recordset** property value remains *Nothing*.</span></span>
+<span data-ttu-id="5c8fd-119">Если во время асинхронной операции возникает ошибка, то \*\*RDS. \*\*Изменение значения свойства [ReadyState](readystate-property-rds.md) объекта **адкреадистателоадед** на **Адкреадистатекомплете**, а значение свойства **Recordset** *не*остается.</span><span class="sxs-lookup"><span data-stu-id="5c8fd-119">If an error occurs during an asynchronous operation, the **RDS.DataControl** object's [ReadyState](readystate-property-rds.md) value changes from **adcReadyStateLoaded** to **adcReadyStateComplete**, and the **Recordset** property value remains *Nothing*.</span></span>
 

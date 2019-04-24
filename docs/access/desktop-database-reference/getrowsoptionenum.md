@@ -1,5 +1,5 @@
 ---
-title: GetRowsOptionEnum (Справочник по для настольных баз данных Access)
+title: Жетровсоптионенум (Справочник по базам данных Access на компьютере)
 TOCTitle: GetRowsOptionEnum
 ms:assetid: 5c1665bb-555c-f83f-066c-d6de2dd0343f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249323(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 16a878aaded9368d89f935df5a7ae9575c31f480
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292197"
 ---
-# <a name="getrowsoptionenum"></a><span data-ttu-id="857aa-102">GetRowsOptionEnum</span><span class="sxs-lookup"><span data-stu-id="857aa-102">GetRowsOptionEnum</span></span>
+# <a name="getrowsoptionenum"></a><span data-ttu-id="db2ce-102">GetRowsOptionEnum</span><span class="sxs-lookup"><span data-stu-id="db2ce-102">GetRowsOptionEnum</span></span>
 
-<span data-ttu-id="857aa-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="857aa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db2ce-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db2ce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="857aa-104">Указывает количество записей для извлечения из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="857aa-104">Specifies how many records to retrieve from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="db2ce-104">Указывает количество записей, извлекаемых из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="db2ce-104">Specifies how many records to retrieve from a [Recordset](recordset-object-ado.md).</span></span>
 
 <br/>
 
@@ -30,24 +30,24 @@ ms.locfileid: "28722076"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="857aa-105">Константа</span><span class="sxs-lookup"><span data-stu-id="857aa-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="857aa-106">Значение</span><span class="sxs-lookup"><span data-stu-id="857aa-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="857aa-107">Описание</span><span class="sxs-lookup"><span data-stu-id="857aa-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="db2ce-105">Константа</span><span class="sxs-lookup"><span data-stu-id="db2ce-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="db2ce-106">Значение</span><span class="sxs-lookup"><span data-stu-id="db2ce-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="db2ce-107">Описание</span><span class="sxs-lookup"><span data-stu-id="db2ce-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="857aa-108"><strong>adGetRowsRest</strong></span><span class="sxs-lookup"><span data-stu-id="857aa-108"><strong>adGetRowsRest</strong></span></span></p></td>
-<td><p><span data-ttu-id="857aa-109">–1</span><span class="sxs-lookup"><span data-stu-id="857aa-109">-1</span></span></p></td>
-<td><p><span data-ttu-id="857aa-110">Получает остальную часть записей в наборе <strong>записей</strong>из текущей позиции или закладки, указанного с помощью параметра <em>запуска</em> метода <a href="getrows-method-ado.md">получения строк</a> .</span><span class="sxs-lookup"><span data-stu-id="857aa-110">Retrieves the rest of the records in the <strong>Recordset</strong>, from either the current position or a bookmark specified by the <em>Start</em> parameter of the <a href="getrows-method-ado.md">GetRows</a> method.</span></span></p></td>
+<td><p><span data-ttu-id="db2ce-108"><strong>Аджетровсрест</strong></span><span class="sxs-lookup"><span data-stu-id="db2ce-108"><strong>adGetRowsRest</strong></span></span></p></td>
+<td><p><span data-ttu-id="db2ce-109">–1</span><span class="sxs-lookup"><span data-stu-id="db2ce-109">-1</span></span></p></td>
+<td><p><span data-ttu-id="db2ce-110">Извлекает остальные записи в <strong>наборе записей</strong>из текущей позиции или из закладки, заданной параметром <em>Start</em> метода <a href="getrows-method-ado.md">GetRows</a> .</span><span class="sxs-lookup"><span data-stu-id="db2ce-110">Retrieves the rest of the records in the <strong>Recordset</strong>, from either the current position or a bookmark specified by the <em>Start</em> parameter of the <a href="getrows-method-ado.md">GetRows</a> method.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="857aa-111">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="857aa-111">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="db2ce-111">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="db2ce-111">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="857aa-112">Пакет: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="857aa-112">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="db2ce-112">Пакет: **com. MS. WFC. Data**</span><span class="sxs-lookup"><span data-stu-id="db2ce-112">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -55,12 +55,12 @@ ms.locfileid: "28722076"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="857aa-113">Константа</span><span class="sxs-lookup"><span data-stu-id="857aa-113">Constant</span></span></p></th>
+<th><p><span data-ttu-id="db2ce-113">Константа</span><span class="sxs-lookup"><span data-stu-id="db2ce-113">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="857aa-114">AdoEnums.GetRowsOption.REST</span><span class="sxs-lookup"><span data-stu-id="857aa-114">AdoEnums.GetRowsOption.REST</span></span></p></td>
+<td><p><span data-ttu-id="db2ce-114">Адоенумс. Жетровсоптион. REST</span><span class="sxs-lookup"><span data-stu-id="db2ce-114">AdoEnums.GetRowsOption.REST</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Поле2 object (DAO)
+title: Объект field2 (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
@@ -8,47 +8,47 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88c8b7ff347235bbdc29745e9f5383933d3d1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292764"
 ---
-# <a name="field2-object-dao"></a><span data-ttu-id="37eb1-102">Поле2 object (DAO)</span><span class="sxs-lookup"><span data-stu-id="37eb1-102">Field2 object (DAO)</span></span>
+# <a name="field2-object-dao"></a><span data-ttu-id="d2ffe-102">Объект field2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d2ffe-102">Field2 object (DAO)</span></span>
 
-<span data-ttu-id="37eb1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="37eb1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2ffe-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2ffe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="37eb1-104">Объект **поле2** представляет столбец данных с типом данных и общий набор свойств.</span><span class="sxs-lookup"><span data-stu-id="37eb1-104">A **Field2** object represents a column of data with a common data type and a common set of properties.</span></span>
+<span data-ttu-id="d2ffe-104">Объект **field2** представляет столбец данных с общим типом данных и общим набором свойств.</span><span class="sxs-lookup"><span data-stu-id="d2ffe-104">A **Field2** object represents a column of data with a common data type and a common set of properties.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="37eb1-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="37eb1-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d2ffe-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="d2ffe-105">Remarks</span></span>
 
-<span data-ttu-id="37eb1-106">Объект **поле2** — содержит все же свойства и методы объекта **[поля](field-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="37eb1-106">A **Field2** object is contains all of the same properties and methods as the **[Field](field-object-dao.md)** object.</span></span> <span data-ttu-id="37eb1-107">Объект **поле2** содержит несколько новых свойств и методов, которые поддерживают типы полей, поддерживающий несколько значений.</span><span class="sxs-lookup"><span data-stu-id="37eb1-107">The **Field2** object contains several new properties and methods that support multi-valued field types.</span></span> <span data-ttu-id="37eb1-108">Новые свойства и методы являются:</span><span class="sxs-lookup"><span data-stu-id="37eb1-108">The new properties and methods are:</span></span>
+<span data-ttu-id="d2ffe-106">Объект **field2** содержит все те же свойства и методы, что и объект **[field](field-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="d2ffe-106">A **Field2** object is contains all of the same properties and methods as the **[Field](field-object-dao.md)** object.</span></span> <span data-ttu-id="d2ffe-107">Объект **field2** содержит несколько новых свойств и методов, поддерживающих многозначные типы полей.</span><span class="sxs-lookup"><span data-stu-id="d2ffe-107">The **Field2** object contains several new properties and methods that support multi-valued field types.</span></span> <span data-ttu-id="d2ffe-108">Новые свойства и методы:</span><span class="sxs-lookup"><span data-stu-id="d2ffe-108">The new properties and methods are:</span></span>
 
-- <span data-ttu-id="37eb1-109">Свойство **[AppendOnly](field2-appendonly-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="37eb1-109">**[AppendOnly](field2-appendonly-property-dao.md)** property</span></span>
+- <span data-ttu-id="d2ffe-109">Свойство **[аппендонли](field2-appendonly-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="d2ffe-109">**[AppendOnly](field2-appendonly-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="37eb1-110">Свойство **[ComplexType](field2-complextype-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="37eb1-110">**[ComplexType](field2-complextype-property-dao.md)** property</span></span>
+- <span data-ttu-id="d2ffe-110">Свойство **[complexType](field2-complextype-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="d2ffe-110">**[ComplexType](field2-complextype-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="37eb1-111">Свойство **[IsComplex](field2-iscomplex-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="37eb1-111">**[IsComplex](field2-iscomplex-property-dao.md)** property</span></span>
+- <span data-ttu-id="d2ffe-111">Свойство **[Complex](field2-iscomplex-property-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="d2ffe-111">**[IsComplex](field2-iscomplex-property-dao.md)** property</span></span>
 
-- <span data-ttu-id="37eb1-112">Метод **[LoadFromFile](field2-loadfromfile-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="37eb1-112">**[LoadFromFile](field2-loadfromfile-method-dao.md)** method</span></span>
+- <span data-ttu-id="d2ffe-112">Метод **[LoadFromFile](field2-loadfromfile-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="d2ffe-112">**[LoadFromFile](field2-loadfromfile-method-dao.md)** method</span></span>
 
-- <span data-ttu-id="37eb1-113">Метод **[SaveToFile](field2-savetofile-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="37eb1-113">**[SaveToFile](field2-savetofile-method-dao.md)** method</span></span>
+- <span data-ttu-id="d2ffe-113">Метод **[SaveToFile](field2-savetofile-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="d2ffe-113">**[SaveToFile](field2-savetofile-method-dao.md)** method</span></span>
 
-<span data-ttu-id="37eb1-114">Для ссылки на объект **поле2** в семействе сайтов, с его порядковый номер или **его свойства Name** , используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="37eb1-114">To refer to a **Field2** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="d2ffe-114">Чтобы сослаться на объект **field2** в коллекции по его порядковому номеру или по значению свойства **Name** , используйте любую из следующих синтаксических форм:</span><span class="sxs-lookup"><span data-stu-id="d2ffe-114">To refer to a **Field2** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="37eb1-115">**Поля** (0)</span><span class="sxs-lookup"><span data-stu-id="37eb1-115">**Fields**(0)</span></span>
+<span data-ttu-id="d2ffe-115">**Fields (поля** ) нуль</span><span class="sxs-lookup"><span data-stu-id="d2ffe-115">**Fields**(0)</span></span>
 
-<span data-ttu-id="37eb1-116">**Поля** («имя»)</span><span class="sxs-lookup"><span data-stu-id="37eb1-116">**Fields**("name")</span></span>
+<span data-ttu-id="d2ffe-116">**Fields (поля** ) ("имя")</span><span class="sxs-lookup"><span data-stu-id="d2ffe-116">**Fields**("name")</span></span>
 
-<span data-ttu-id="37eb1-117">**Поля**\!\[имя\]</span><span class="sxs-lookup"><span data-stu-id="37eb1-117">**Fields**\!\[name\]</span></span>
+<span data-ttu-id="d2ffe-117">**Имя поля**\!\[\]</span><span class="sxs-lookup"><span data-stu-id="d2ffe-117">**Fields**\!\[name\]</span></span>
 
-<span data-ttu-id="37eb1-118">С помощью одной синтаксиса форм можно найти в свойство **Value** объекта **поле2** , добавляемых к коллекции **полей** .</span><span class="sxs-lookup"><span data-stu-id="37eb1-118">With the same syntax forms, you can also refer to the **Value** property of a **Field2** object that you create and append to a **Fields** collection.</span></span> <span data-ttu-id="37eb1-119">Контекст ссылку на поле определяет, будет ли вы ссылаетесь на объект **поле2** или свойство **Value** объекта **Field** .</span><span class="sxs-lookup"><span data-stu-id="37eb1-119">The context of the field reference will determine whether you are referring to the **Field2** object or the **Value** property of the **Field** object.</span></span>
+<span data-ttu-id="d2ffe-118">Используя те же формы синтаксиса, вы также можете ссылаться на свойство **value** объекта **field2** , который вы создаете и добавляете в коллекцию **Fields** .</span><span class="sxs-lookup"><span data-stu-id="d2ffe-118">With the same syntax forms, you can also refer to the **Value** property of a **Field2** object that you create and append to a **Fields** collection.</span></span> <span data-ttu-id="d2ffe-119">Контекст ссылки на поле определяет, будет ли ссылка на объект **field2** или свойство **value** объекта **field** .</span><span class="sxs-lookup"><span data-stu-id="d2ffe-119">The context of the field reference will determine whether you are referring to the **Field2** object or the **Value** property of the **Field** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="37eb1-120">Пример</span><span class="sxs-lookup"><span data-stu-id="37eb1-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d2ffe-120">Пример</span><span class="sxs-lookup"><span data-stu-id="d2ffe-120">Example</span></span>
 
-<span data-ttu-id="37eb1-121">Следующем примере показано, как переходить набор записей с несколькими значениями полей.</span><span class="sxs-lookup"><span data-stu-id="37eb1-121">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="d2ffe-121">В примере ниже показано, как выполнять навигацию по объекту Recordset, содержащему многозначное поле.</span><span class="sxs-lookup"><span data-stu-id="d2ffe-121">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="37eb1-122">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="37eb1-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="d2ffe-122">**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="d2ffe-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ ms.locfileid: "28713144"
 
 <br/>
 
-<span data-ttu-id="37eb1-123">Следующем примере показано, как для перемещения файлов в поле вложения.</span><span class="sxs-lookup"><span data-stu-id="37eb1-123">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="37eb1-124">Тип файла и имя файла для каждого вложения печать в окне Интерпретация.</span><span class="sxs-lookup"><span data-stu-id="37eb1-124">The file type and filename of each attachment is printed in the Immediate window.</span></span>
+<span data-ttu-id="d2ffe-123">В примере ниже показано, как выполнять навигацию по файлам в поле вложения.</span><span class="sxs-lookup"><span data-stu-id="d2ffe-123">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="d2ffe-124">Код из этого примера печатает тип и имя файла каждого вложения в окне интерпретации.</span><span class="sxs-lookup"><span data-stu-id="d2ffe-124">The file type and filename of each attachment is printed in the Immediate window.</span></span>
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ ms.locfileid: "28713144"
 
 <br/>
 
-<span data-ttu-id="37eb1-125">Следующем примере показано, как добавить файлы из указанной папки путь полем вложения.</span><span class="sxs-lookup"><span data-stu-id="37eb1-125">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="d2ffe-125">В примере ниже показано, как добавить файлы из папки с указанным путем в поле вложений.</span><span class="sxs-lookup"><span data-stu-id="d2ffe-125">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ ms.locfileid: "28713144"
 
 <br/>
 
-<span data-ttu-id="37eb1-126">Следующем примере показано, как для сохранения файлов, сохраненных в поля вложения для указанной папки.</span><span class="sxs-lookup"><span data-stu-id="37eb1-126">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="d2ffe-126">В примере ниже показано, как сохранить файлы, хранящиеся в поле вложения, в папку с указанным путем.</span><span class="sxs-lookup"><span data-stu-id="d2ffe-126">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ ms.locfileid: "28713144"
 
 <br/>
 
-<span data-ttu-id="37eb1-127">Следующем примере показано, как для удаления файлов, хранящихся в поле вложения.</span><span class="sxs-lookup"><span data-stu-id="37eb1-127">The following example shows how to delete a file stored in an attachment field.</span></span>
+<span data-ttu-id="d2ffe-127">В примере ниже показано, как удалить файл, хранящийся в поле вложения.</span><span class="sxs-lookup"><span data-stu-id="d2ffe-127">The following example shows how to delete a file stored in an attachment field.</span></span>
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

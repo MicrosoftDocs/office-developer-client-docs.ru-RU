@@ -1,5 +1,5 @@
 ---
-title: Ключи добавить метод, тип ключа, пример свойств RelatedColumn (VC ++)
+title: Метод Append с ключами, тип ключа, свойства RelatedColumn (VC + +)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: edbb25c9eda48a33f659e577882e40cc67a07190
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290640"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="f9d95-102">Пример: свойства ключей добавить метод, тип ключа RelatedColumn, RelatedTable и UpdateRule (VC ++)</span><span class="sxs-lookup"><span data-stu-id="f9d95-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="6a676-102">Пример: метод Append, тип ключа, RelatedColumn, RelatedTable и UpdateRule свойства (VC + +)</span><span class="sxs-lookup"><span data-stu-id="6a676-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="f9d95-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9d95-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6a676-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a676-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f9d95-104">Следующий код демонстрирует создание нового внешнего ключа.</span><span class="sxs-lookup"><span data-stu-id="f9d95-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="f9d95-105">Предполагается, что существуют две таблицы (клиентов и заказы).</span><span class="sxs-lookup"><span data-stu-id="f9d95-105">It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="6a676-104">В приведенном ниже коде показано, как создать новый внешний ключ.</span><span class="sxs-lookup"><span data-stu-id="6a676-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="6a676-105">Предполагается, что существуют две таблицы (Customers и Orders).</span><span class="sxs-lookup"><span data-stu-id="6a676-105">It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  

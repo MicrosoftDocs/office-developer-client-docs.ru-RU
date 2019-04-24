@@ -1,5 +1,5 @@
 ---
-title: Перечисление SetOptionEnum (DAO)
+title: Перечисление Сетоптионенум (DAO)
 TOCTitle: SetOptionEnum Enumeration
 ms:assetid: 0a26b7f7-b6cd-cf0f-1071-d872beeefaa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 566c1e01242f1ac3711211e5f87ff4d176d5c594
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713774"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314604"
 ---
-# <a name="setoptionenum-enumeration-dao"></a><span data-ttu-id="1f9c7-102">Перечисление SetOptionEnum (DAO)</span><span class="sxs-lookup"><span data-stu-id="1f9c7-102">SetOptionEnum enumeration (DAO)</span></span>
+# <a name="setoptionenum-enumeration-dao"></a><span data-ttu-id="e1252-102">Перечисление Сетоптионенум (DAO)</span><span class="sxs-lookup"><span data-stu-id="e1252-102">SetOptionEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="1f9c7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f9c7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e1252-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e1252-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1f9c7-104">Используется с методом **SetOption** для указания ключа ядра базы данных Microsoft Access в реестре Windows для переопределения.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-104">Used with the **SetOption** method to specify a Microsoft Access database engine key in the Windows Registry to override.</span></span>
+<span data-ttu-id="e1252-104">Используется с методом **SetOption** для указания ключа ядра СУБД Microsoft Access в реестре Windows для переопределения.</span><span class="sxs-lookup"><span data-stu-id="e1252-104">Used with the **SetOption** method to specify a Microsoft Access database engine key in the Windows Registry to override.</span></span>
 
 <table>
 <colgroup>
@@ -29,81 +29,81 @@ ms.locfileid: "28713774"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1f9c7-105">Имя</span><span class="sxs-lookup"><span data-stu-id="1f9c7-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="1f9c7-106">Значение</span><span class="sxs-lookup"><span data-stu-id="1f9c7-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="1f9c7-107">Описание</span><span class="sxs-lookup"><span data-stu-id="1f9c7-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="e1252-105">Имя</span><span class="sxs-lookup"><span data-stu-id="e1252-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="e1252-106">Значение</span><span class="sxs-lookup"><span data-stu-id="e1252-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="e1252-107">Описание</span><span class="sxs-lookup"><span data-stu-id="e1252-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1f9c7-108">dbExclusiveAsyncDelay</span><span class="sxs-lookup"><span data-stu-id="1f9c7-108">dbExclusiveAsyncDelay</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-109">60</span><span class="sxs-lookup"><span data-stu-id="1f9c7-109">60</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-110">Ключ ExclusiveAsyncDelay.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-110">The ExclusiveAsyncDelay key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-108">Дбексклусивеасинкделай</span><span class="sxs-lookup"><span data-stu-id="e1252-108">dbExclusiveAsyncDelay</span></span></p></td>
+<td><p><span data-ttu-id="e1252-109">60</span><span class="sxs-lookup"><span data-stu-id="e1252-109">60</span></span></p></td>
+<td><p><span data-ttu-id="e1252-110">Ключ Ексклусивеасинкделай.</span><span class="sxs-lookup"><span data-stu-id="e1252-110">The ExclusiveAsyncDelay key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1f9c7-111">dbFlushTransactionTimeout</span><span class="sxs-lookup"><span data-stu-id="1f9c7-111">dbFlushTransactionTimeout</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-112">66</span><span class="sxs-lookup"><span data-stu-id="1f9c7-112">66</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-113">Ключ FlushTransactionTimeout.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-113">The FlushTransactionTimeout key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-111">Дбфлуштрансактионтимеаут</span><span class="sxs-lookup"><span data-stu-id="e1252-111">dbFlushTransactionTimeout</span></span></p></td>
+<td><p><span data-ttu-id="e1252-112">66</span><span class="sxs-lookup"><span data-stu-id="e1252-112">66</span></span></p></td>
+<td><p><span data-ttu-id="e1252-113">Ключ Флуштрансактионтимеаут.</span><span class="sxs-lookup"><span data-stu-id="e1252-113">The FlushTransactionTimeout key.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1f9c7-114">dbImplicitCommitSync</span><span class="sxs-lookup"><span data-stu-id="1f9c7-114">dbImplicitCommitSync</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-115">59</span><span class="sxs-lookup"><span data-stu-id="1f9c7-115">59</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-116">Ключ ImplicitCommitSync.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-116">The ImplicitCommitSync key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-114">ДбимплиЦиткоммитсинк</span><span class="sxs-lookup"><span data-stu-id="e1252-114">dbImplicitCommitSync</span></span></p></td>
+<td><p><span data-ttu-id="e1252-115">59</span><span class="sxs-lookup"><span data-stu-id="e1252-115">59</span></span></p></td>
+<td><p><span data-ttu-id="e1252-116">Ключ ИмплиЦиткоммитсинк.</span><span class="sxs-lookup"><span data-stu-id="e1252-116">The ImplicitCommitSync key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1f9c7-117">dbLockDelay</span><span class="sxs-lookup"><span data-stu-id="1f9c7-117">dbLockDelay</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-118">63</span><span class="sxs-lookup"><span data-stu-id="1f9c7-118">63</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-119">Ключ LockDelay.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-119">The LockDelay key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-117">Дблоккделай</span><span class="sxs-lookup"><span data-stu-id="e1252-117">dbLockDelay</span></span></p></td>
+<td><p><span data-ttu-id="e1252-118">63</span><span class="sxs-lookup"><span data-stu-id="e1252-118">63</span></span></p></td>
+<td><p><span data-ttu-id="e1252-119">Ключ Локкделай.</span><span class="sxs-lookup"><span data-stu-id="e1252-119">The LockDelay key.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1f9c7-120">dbLockRetry</span><span class="sxs-lookup"><span data-stu-id="1f9c7-120">dbLockRetry</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-121">57</span><span class="sxs-lookup"><span data-stu-id="1f9c7-121">57</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-122">Ключ LockRetry.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-122">The LockRetry key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-120">Дблоккретри</span><span class="sxs-lookup"><span data-stu-id="e1252-120">dbLockRetry</span></span></p></td>
+<td><p><span data-ttu-id="e1252-121">57</span><span class="sxs-lookup"><span data-stu-id="e1252-121">57</span></span></p></td>
+<td><p><span data-ttu-id="e1252-122">Ключ Локкретри.</span><span class="sxs-lookup"><span data-stu-id="e1252-122">The LockRetry key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1f9c7-123">dbMaxBufferSize</span><span class="sxs-lookup"><span data-stu-id="1f9c7-123">dbMaxBufferSize</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-124">8</span><span class="sxs-lookup"><span data-stu-id="1f9c7-124">8</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-125">Ключ MaxBufferSize.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-125">The MaxBufferSize key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-123">Дбмаксбуфферсизе</span><span class="sxs-lookup"><span data-stu-id="e1252-123">dbMaxBufferSize</span></span></p></td>
+<td><p><span data-ttu-id="e1252-124">8,5</span><span class="sxs-lookup"><span data-stu-id="e1252-124">8</span></span></p></td>
+<td><p><span data-ttu-id="e1252-125">Ключ Максбуфферсизе.</span><span class="sxs-lookup"><span data-stu-id="e1252-125">The MaxBufferSize key.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1f9c7-126">dbMaxLocksPerFile</span><span class="sxs-lookup"><span data-stu-id="1f9c7-126">dbMaxLocksPerFile</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-127">62</span><span class="sxs-lookup"><span data-stu-id="1f9c7-127">62</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-128">Ключ MaxLocksPerFile.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-128">The MaxLocksPerFile key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-126">Дбмакслокксперфиле</span><span class="sxs-lookup"><span data-stu-id="e1252-126">dbMaxLocksPerFile</span></span></p></td>
+<td><p><span data-ttu-id="e1252-127">62</span><span class="sxs-lookup"><span data-stu-id="e1252-127">62</span></span></p></td>
+<td><p><span data-ttu-id="e1252-128">Клавиша MaxLocksPerFile.</span><span class="sxs-lookup"><span data-stu-id="e1252-128">The MaxLocksPerFile key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1f9c7-129">dbPageTimeout</span><span class="sxs-lookup"><span data-stu-id="1f9c7-129">dbPageTimeout</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-130">6</span><span class="sxs-lookup"><span data-stu-id="1f9c7-130">6</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-131">Ключ PageTimeout.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-131">The PageTimeout key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-129">Дбпажетимеаут</span><span class="sxs-lookup"><span data-stu-id="e1252-129">dbPageTimeout</span></span></p></td>
+<td><p><span data-ttu-id="e1252-130">ICMPv6</span><span class="sxs-lookup"><span data-stu-id="e1252-130">6</span></span></p></td>
+<td><p><span data-ttu-id="e1252-131">Ключ Пажетимеаут.</span><span class="sxs-lookup"><span data-stu-id="e1252-131">The PageTimeout key.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1f9c7-132">dbPasswordEncryptionAlgorithm</span><span class="sxs-lookup"><span data-stu-id="1f9c7-132">dbPasswordEncryptionAlgorithm</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-133">81</span><span class="sxs-lookup"><span data-stu-id="1f9c7-133">81</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-134">Имя алгоритма шифрования.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-134">The name of the encryption algorithm.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-132">Дбпассворденкриптионалгорисм</span><span class="sxs-lookup"><span data-stu-id="e1252-132">dbPasswordEncryptionAlgorithm</span></span></p></td>
+<td><p><span data-ttu-id="e1252-133">81</span><span class="sxs-lookup"><span data-stu-id="e1252-133">81</span></span></p></td>
+<td><p><span data-ttu-id="e1252-134">Имя алгоритма шифрования.</span><span class="sxs-lookup"><span data-stu-id="e1252-134">The name of the encryption algorithm.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1f9c7-135">dbPasswordEncryptionKeyLength</span><span class="sxs-lookup"><span data-stu-id="1f9c7-135">dbPasswordEncryptionKeyLength</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-136">82</span><span class="sxs-lookup"><span data-stu-id="1f9c7-136">82</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-137">Длина ключа шифрования.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-137">The encryption key length.</span></span> <span data-ttu-id="1f9c7-138">Должен быть нескольких 8, начиная с 40.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-138">Must be a multiple of 8, starting at 40.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-135">Дбпассворденкриптионкэйленгс</span><span class="sxs-lookup"><span data-stu-id="e1252-135">dbPasswordEncryptionKeyLength</span></span></p></td>
+<td><p><span data-ttu-id="e1252-136">82</span><span class="sxs-lookup"><span data-stu-id="e1252-136">82</span></span></p></td>
+<td><p><span data-ttu-id="e1252-137">Длина ключа шифрования.</span><span class="sxs-lookup"><span data-stu-id="e1252-137">The encryption key length.</span></span> <span data-ttu-id="e1252-138">Должно быть кратно 8, начиная с 40.</span><span class="sxs-lookup"><span data-stu-id="e1252-138">Must be a multiple of 8, starting at 40.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1f9c7-139">dbPasswordEncryptionProvider</span><span class="sxs-lookup"><span data-stu-id="1f9c7-139">dbPasswordEncryptionProvider</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-140">80</span><span class="sxs-lookup"><span data-stu-id="1f9c7-140">80</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-141">Имя поставщика шифрования.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-141">The name of the encryption provider.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-139">Дбпассворденкриптионпровидер</span><span class="sxs-lookup"><span data-stu-id="e1252-139">dbPasswordEncryptionProvider</span></span></p></td>
+<td><p><span data-ttu-id="e1252-140">80</span><span class="sxs-lookup"><span data-stu-id="e1252-140">80</span></span></p></td>
+<td><p><span data-ttu-id="e1252-141">Имя поставщика шифрования.</span><span class="sxs-lookup"><span data-stu-id="e1252-141">The name of the encryption provider.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1f9c7-142">dbRecycleLVs</span><span class="sxs-lookup"><span data-stu-id="1f9c7-142">dbRecycleLVs</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-143">65</span><span class="sxs-lookup"><span data-stu-id="1f9c7-143">65</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-144">Ключ RecycleLVs.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-144">The RecycleLVs key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-142">Дбрециклелвс</span><span class="sxs-lookup"><span data-stu-id="e1252-142">dbRecycleLVs</span></span></p></td>
+<td><p><span data-ttu-id="e1252-143">65</span><span class="sxs-lookup"><span data-stu-id="e1252-143">65</span></span></p></td>
+<td><p><span data-ttu-id="e1252-144">Ключ Рециклелвс.</span><span class="sxs-lookup"><span data-stu-id="e1252-144">The RecycleLVs key.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1f9c7-145">dbSharedAsyncDelay</span><span class="sxs-lookup"><span data-stu-id="1f9c7-145">dbSharedAsyncDelay</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-146">61</span><span class="sxs-lookup"><span data-stu-id="1f9c7-146">61</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-147">Ключ SharedAsyncDelay.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-147">The SharedAsyncDelay key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-145">Дбшаредасинкделай</span><span class="sxs-lookup"><span data-stu-id="e1252-145">dbSharedAsyncDelay</span></span></p></td>
+<td><p><span data-ttu-id="e1252-146">61</span><span class="sxs-lookup"><span data-stu-id="e1252-146">61</span></span></p></td>
+<td><p><span data-ttu-id="e1252-147">Ключ Шаредасинкделай.</span><span class="sxs-lookup"><span data-stu-id="e1252-147">The SharedAsyncDelay key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1f9c7-148">dbUserCommitSync</span><span class="sxs-lookup"><span data-stu-id="1f9c7-148">dbUserCommitSync</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-149">58</span><span class="sxs-lookup"><span data-stu-id="1f9c7-149">58</span></span></p></td>
-<td><p><span data-ttu-id="1f9c7-150">Ключ UserCommitSync.</span><span class="sxs-lookup"><span data-stu-id="1f9c7-150">The UserCommitSync key.</span></span></p></td>
+<td><p><span data-ttu-id="e1252-148">Дбусеркоммитсинк</span><span class="sxs-lookup"><span data-stu-id="e1252-148">dbUserCommitSync</span></span></p></td>
+<td><p><span data-ttu-id="e1252-149">58</span><span class="sxs-lookup"><span data-stu-id="e1252-149">58</span></span></p></td>
+<td><p><span data-ttu-id="e1252-150">Ключ Усеркоммитсинк.</span><span class="sxs-lookup"><span data-stu-id="e1252-150">The UserCommitSync key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

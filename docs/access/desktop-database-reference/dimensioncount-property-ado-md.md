@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 389148185108242d4b26721bcf7d21f631a1f8c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293884"
 ---
-# <a name="dimensioncount-property-ado-md"></a><span data-ttu-id="1f89c-102">Свойство DimensionCount (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1f89c-102">DimensionCount property (ADO MD)</span></span>
+# <a name="dimensioncount-property-ado-md"></a><span data-ttu-id="a291a-102">Свойство DimensionCount (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a291a-102">DimensionCount property (ADO MD)</span></span>
 
 
-<span data-ttu-id="1f89c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f89c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a291a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a291a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1f89c-104">Указывает количество измерений на оси.</span><span class="sxs-lookup"><span data-stu-id="1f89c-104">Indicates the number of dimensions on an axis.</span></span>
+<span data-ttu-id="a291a-104">Указывает количество измерений на оси.</span><span class="sxs-lookup"><span data-stu-id="a291a-104">Indicates the number of dimensions on an axis.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="1f89c-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="1f89c-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a291a-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="a291a-105">Return values</span></span>
 
-<span data-ttu-id="1f89c-106">Возвращает **длинное** целое и доступен только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1f89c-106">Returns a **Long** integer, and is read-only.</span></span>
+<span data-ttu-id="a291a-106">Возвращает целое число **типа Long** и доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a291a-106">Returns a **Long** integer, and is read-only.</span></span>
 

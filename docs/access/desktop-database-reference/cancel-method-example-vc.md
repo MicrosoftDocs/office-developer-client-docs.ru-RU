@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b7afa0e4487b1bc01d7a45849df0c58c0e5dc04a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296684"
 ---
-# <a name="cancel-method-example-vc"></a><span data-ttu-id="b949b-102">Пример использования метода Cancel (VC++)</span><span class="sxs-lookup"><span data-stu-id="b949b-102">Cancel method example (VC++)</span></span>
+# <a name="cancel-method-example-vc"></a><span data-ttu-id="e95ca-102">Пример использования метода Cancel (VC++)</span><span class="sxs-lookup"><span data-stu-id="e95ca-102">Cancel method example (VC++)</span></span>
 
 
-<span data-ttu-id="b949b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b949b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e95ca-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e95ca-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b949b-104">В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены выполняется команда на объект [подключения](connection-object-ado.md) Если подключение «занят».</span><span class="sxs-lookup"><span data-stu-id="b949b-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="e95ca-104">В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены команды, выполняемой для объекта [Connection](connection-object-ado.md) , если соединение занято.</span><span class="sxs-lookup"><span data-stu-id="e95ca-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```cpp 
  
