@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a39cf987682ad919422b50a299f6cd2bea0f4fd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291599"
 ---
 # <a name="indexes-append-method-example-vc"></a>Пример использования метода Append для коллекции Indexes (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Следующий код демонстрирует для создания нового индекса. Индекс находится на два столбца в таблице.
+В приведенном ниже коде показано, как создать новый индекс. Индекс находится в двух столбцах таблицы.
 
 ```cpp 
  

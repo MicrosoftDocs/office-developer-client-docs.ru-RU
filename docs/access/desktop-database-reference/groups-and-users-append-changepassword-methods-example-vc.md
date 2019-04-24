@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5bf0c89dc588ba710b14f3753af889beba8d5b24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292085"
 ---
 # <a name="groups-and-users-append-changepassword-methods-example-vc"></a>Пример использования методов Append и ChangePassword для коллекций Groups и Users (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод [Append](append-method-adox-groups.md) [групп](groups-collection-adox.md), а также метод [Append](append-method-adox-users.md) [пользователей](users-collection-adox.md) путем добавления новой [группы](group-object-adox.md) и нового [пользователя](user-object-adox.md) в систему. Новая **Группа** добавляется в коллекцию **групп** нового **пользователя**. Следовательно нового **пользователя** добавляется в **группу**. Кроме того метод [Изменение пароля](changepassword-method-adox.md) используется для указания пароль **пользователя** .
+В этом примере демонстрируется метод [append](append-method-adox-groups.md) [групп](groups-collection-adox.md), а также метод [append](append-method-adox-users.md) [пользователей](users-collection-adox.md) , добавляя новую [группу](group-object-adox.md) и нового [пользователя](user-object-adox.md) в систему. Новая **Группа** добавляется в коллекцию **Groups** нового **пользователя**. Таким образом, новый **пользователь** добавляется в **группу**. Кроме того, метод [ChangePassword](changepassword-method-adox.md) используется для указания пароля **пользователя** .
 
 ```cpp 
  

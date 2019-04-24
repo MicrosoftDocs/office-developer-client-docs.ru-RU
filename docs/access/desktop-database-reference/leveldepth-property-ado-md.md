@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 664a21f8b642c8db27580993089268e5d7b6f4ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290008"
 ---
 # <a name="leveldepth-property-ado-md"></a>Свойство LevelDepth (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Показывает, сколько уровней между корень иерархии и участником.
+Указывает количество уровней между корнем иерархии и элементом.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает **длинное** целое и доступен только для чтения.
+Возвращает целое число **типа Long** и доступно только для чтения.
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **LevelDepth** используется для определения расстояния объект [члена](member-object-ado-md.md) на корневом уровне иерархии. **LevelDepth** элемента на корневом уровне равно 0. Это соответствует свойству [глубину](depth-property-ado-md.md) объекта [уровень](level-object-ado-md.md) .
+Свойство **LevelDepth** используется для определения расстояния от объекта [member](member-object-ado-md.md) на корневом уровне иерархии. **LevelDepth** элемента на корневом уровне равен 0. Соответствует свойству [Depth](depth-property-ado-md.md) объекта [Level](level-object-ado-md.md) .
 

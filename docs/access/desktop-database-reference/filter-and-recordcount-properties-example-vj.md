@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7b4b12fb7a9bbe8d3363574936d63d1c5f175665
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292463"
 ---
 # <a name="filter-and-recordcount-properties-example-vj"></a>Пример использования свойств Filter и RecordCount (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [фильтра](filter-property-ado.md) для открытия нового [набора записей](recordset-object-ado.md) на основе указанного условия, применяемые к существующей **набора записей**. Свойство [RecordCount](recordcount-property-ado.md) используется для отображения количества записей в двух **наборов записей**. Функция FilterField является обязательным для выполнения этой процедуры.
+В этом примере используется свойство [Filter](filter-property-ado.md) для открытия нового объекта [Recordset](recordset-object-ado.md) на основе указанного условия, примененНого к существующему **набору записей**. Свойство [RecordCount](recordcount-property-ado.md) используется для отображения количества записей в двух **наборах записей**. Для выполнения этой процедуры требуется функция Филтерфиелд.
 
 ```java 
  

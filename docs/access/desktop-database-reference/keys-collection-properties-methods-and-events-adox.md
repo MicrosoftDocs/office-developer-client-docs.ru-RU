@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: db6b5da7ac2cb094772b44bd98aec3d8c5283171
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290171"
 ---
 # <a name="keys-collection-properties-methods-and-events-adox"></a>Свойства, методы и события коллекции Keys (ADOX)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="properties"></a>Свойства
 
@@ -25,8 +25,8 @@ ms.locfileid: "28701160"
 
 ## <a name="methods"></a>Методы
 
-- [Добавьте метод (ключи)](append-method-adox-keys.md)
-- [Удаление метода (коллекций)](delete-method-adox-collections.md)
+- [Метод Append (Keys)](append-method-adox-keys.md)
+- [Метод Delete (Collections)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>События

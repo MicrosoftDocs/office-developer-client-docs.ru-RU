@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9a3aa155505e8d6376c0a741f932d59906083965
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290802"
 ---
 # <a name="item-property-example-vj"></a>Пример использования свойства Item (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции. В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.
+В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к членам коллекции. В этом примере открывается ****** таблица Authors базы данных ***pubs*** с параметризованной командой.
 
-Параметр в команды в базе данных осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [команды](command-object-ado.md) индекс и название. Затем полям возвращаемых [записей](recordset-object-ado.md) осуществляется из коллекции [полей](fields-collection-ado.md) этого объекта индекс и название.
+Доступ к параметру в команде, выданной для базы данных, осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [Command](command-object-ado.md) по индексу и имени. Затем к полям возвращаемого [набора записей](recordset-object-ado.md) обращаются из коллекции [полей](fields-collection-ado.md) объекта по индексу и имени.
 
 ```java 
  

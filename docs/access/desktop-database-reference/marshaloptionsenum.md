@@ -1,5 +1,5 @@
 ---
-title: MarshalOptionsEnum (Справочник по для настольных баз данных Access)
+title: Маршалоптионсенум (Справочник по базам данных Access на компьютере)
 TOCTitle: MarshalOptionsEnum
 ms:assetid: 5361884b-a0fe-c480-1b9f-18e53be77f86
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249272(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a128f9980bc8c827ddfcb72e738ce5f879be1051
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289730"
 ---
 # <a name="marshaloptionsenum"></a>MarshalOptionsEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, какие записи должны быть возвращены на сервер.
+Указывает, какие записи должны возвращаться на сервер.
 
 <br/>
 
@@ -37,14 +37,14 @@ ms.locfileid: "28715209"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adMarshalAll</strong></p></td>
-<td><p>0</p></td>
-<td><p>Значение, используемое по умолчанию. Возвращает все строки на сервере.</p></td>
+<td><p><strong>Адмаршалалл</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Значение, используемое по умолчанию. Возвращает все строки на сервер.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adMarshalModifiedOnly</strong></p></td>
-<td><p>1</p></td>
-<td><p>Возвращает только измененные строки на сервере.</p></td>
+<td><p><strong>Адмаршалмодифиедонли</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Возвращает на сервер только измененные строки.</p></td>
 </tr>
 </tbody>
 </table>
@@ -52,7 +52,7 @@ ms.locfileid: "28715209"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -65,10 +65,10 @@ ms.locfileid: "28715209"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.MarshalOptions.ALL</p></td>
+<td><p>Адоенумс. MarshalOptions. ALL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.MarshalOptions.MODIFIEDONLY</p></td>
+<td><p>Адоенумс. MarshalOptions. МОДИФИЕДОНЛИ</p></td>
 </tr>
 </tbody>
 </table>

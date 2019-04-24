@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4e941339ad1c8622d1c87ada848a44fa82a9ef2d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289951"
 ---
 # <a name="lineseparator-property-ado"></a>Свойство LineSeparator (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает двоичных символов для использования в качестве разделителя строки в объектах [потока](stream-object-ado.md) текста.
+Указывает двоичный символ, который будет использоваться в качестве разделителя строк в текстовых объектах [потока](stream-object-ado.md) .
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает или возвращает [LineSeparatorsEnum](lineseparatorsenum.md) значение, указывающее знак разделителя строки, используемые в **поток**. Значение по умолчанию — **adCRLF**.
+Задает или возвращает значение [линесепараторсенум](lineseparatorsenum.md) , указывающее символ разделителя строки, используемый в потоке ****. Значение по умолчанию — **адкрлф**.
 
 ## <a name="remarks"></a>Замечания
 
-**LineSeparator** используется для интерпретации строки при чтении содержимое текста **потока**. С помощью метода [SkipLine](skipline-method-ado.md) можно пропустить строки.
+**LineSeparator** используется для интерпретации строк при чтении содержимого **потока**текста. Строки можно опустить с помощью метода [SkipLine](skipline-method-ado.md) .
 
-**LineSeparator** используется только с объектами **потока** текста ([Тип](type-property-ado-stream.md) — **adTypeText**). Это свойство игнорируется, если **Тип** — **adTypeBinary**.
+**LineSeparator** используется только с объектами текстового **потока** ([Type](type-property-ado-stream.md) — **адтипетекст**). Это свойство игнорируется, если **тип** — **адтипебинари**.
 

@@ -1,5 +1,5 @@
 ---
-title: Справочник по разделам семейства сайтов (ADOX)
+title: Справочник по коллекции Keys (ADOX)
 TOCTitle: Keys collection (ADOX)
 ms:assetid: e604e8b3-bc2a-4075-a7d5-cc840a0f66c2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250168(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 007b7841f4e2ac51290bfb03c01fb7eb79281ae8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698325"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290178"
 ---
-# <a name="keys-collection-adox-reference"></a>Справочник по разделам семейства сайтов (ADOX)
+# <a name="keys-collection-adox-reference"></a>Справочник по коллекции Keys (ADOX)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 - [Коллекция Keys (ADOX)](keys-collection-adox.md)
 - [Свойства, методы и события коллекции Keys (ADOX)](keys-collection-properties-methods-and-events-adox.md)

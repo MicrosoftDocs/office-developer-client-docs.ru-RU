@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 15845c1e2c85c90157297b21b1bb36a550d10875
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292267"
 ---
 # <a name="getstring-method-example-vc"></a>Пример использования метода GetString (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется использование метода [GetString](getstring-method-ado.md) .
+В этом примере показан метод [GetString](getstring-method-ado.md) .
 
-Предположим, отладке проблемы доступа к данным и требуется быстрый и простой способ Печать текущего содержимого малого [набора записей](recordset-object-ado.md).
+Предположим, что вы отлаживается проблему доступа к данным и хотите быстро и просто распечатать текущее содержимое небольшого [набора записей](recordset-object-ado.md).
 
 ```cpp 
  

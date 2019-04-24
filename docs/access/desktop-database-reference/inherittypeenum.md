@@ -1,5 +1,5 @@
 ---
-title: InheritTypeEnum (Справочник по для настольных баз данных Access)
+title: Инхериттипинум (Справочник по базам данных Access на компьютере)
 TOCTitle: InheritTypeEnum
 ms:assetid: aa505c66-5871-10a8-35a7-cb30bb5dc21a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249787(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba1a78e49d44bce0c489e4f5259ec9699543e231
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706809"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291416"
 ---
 # <a name="inherittypeenum"></a>InheritTypeEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, как будет наследуют разрешения, установленные с [SetPermissions](setpermissions-method-adox.md).
+Указывает, как объекты наследуют разрешения, заданные с помощью [SetPermissions](setpermissions-method-adox.md).
 
 <br/>
 
@@ -37,29 +37,29 @@ ms.locfileid: "28706809"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adInheritBoth</strong></p></td>
-<td><p>3</p></td>
-<td><p>Объекты и другие контейнеры, содержащихся в основных объекте наследовать словом.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>adInheritContainers</strong></p></td>
-<td><p>2</p></td>
-<td><p>Другие контейнеры, содержащиеся в объекте основной наследовать словом.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>adInheritNone</strong></p></td>
-<td><p>0</p></td>
-<td><p>Значение, используемое по умолчанию. Наследование не происходит.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>adInheritNoPropagate</strong></p></td>
+<td><p><strong>Адинхеритбос</strong></p></td>
 <td><p>4</p></td>
-<td><p>Флаги <strong>adInheritObjects</strong> и <strong>adInheritContainers</strong> не распространяются на наследуемые записи.</p></td>
+<td><p>Записи наследуют оба объекта и других контейнеров, содержащихся в первичном объекте.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Адинхеритконтаинерс</strong></p></td>
+<td><p>2</p></td>
+<td><p>Другие контейнеры, которые находятся в основном объекте, наследуют эту запись.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adInheritObjects</strong></p></td>
-<td><p>1</p></td>
-<td><p>Non контейнер объектов в контейнере наследовать разрешения.</p></td>
+<td><p><strong>Адинхеритноне</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Значение, используемое по умолчанию. Наследование не выполняется.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Адинхеритнопропагате</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Флаги <strong>адинхеритобжектс</strong> и <strong>адинхеритконтаинерс</strong> не распространяются на наследуемую запись.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>Адинхеритобжектс</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Объекты, не являющиеся контейнерами в контейнере, наследуют разрешения.</p></td>
 </tr>
 </tbody>
 </table>
