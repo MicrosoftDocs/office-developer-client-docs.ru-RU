@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 683d0d00-1b93-445d-86ff-180a3e6d2323
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 076fb4946af9a80e53fb8452d720c22b351f5ef6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 852ce31ba5ab02ff8f05dee25c9b32acb73130ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337970"
 ---
-# <a name="setattribimsgonistg"></a><span data-ttu-id="8c68c-103">SetAttribIMsgOnIStg</span><span class="sxs-lookup"><span data-stu-id="8c68c-103">SetAttribIMsgOnIStg</span></span>
+# <a name="setattribimsgonistg"></a><span data-ttu-id="f3f23-103">SetAttribIMsgOnIStg</span><span class="sxs-lookup"><span data-stu-id="f3f23-103">SetAttribIMsgOnIStg</span></span>
 
   
   
-<span data-ttu-id="8c68c-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8c68c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f3f23-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f3f23-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8c68c-105">Задает или изменяет атрибуты свойств в объект [IMessage](imessageimapiprop.md) функцию [OpenIMsgOnIStg](openimsgonistg.md) .</span><span class="sxs-lookup"><span data-stu-id="8c68c-105">Sets or alters attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
+<span data-ttu-id="f3f23-105">Задает или изменяет атрибуты свойств объекта [iMessage](imessageimapiprop.md) , предоставляемого функцией [опенимсгонистг](openimsgonistg.md) .</span><span class="sxs-lookup"><span data-stu-id="f3f23-105">Sets or alters attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8c68c-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="8c68c-106">Header file:</span></span>  <br/> |<span data-ttu-id="8c68c-107">IMessage.h</span><span class="sxs-lookup"><span data-stu-id="8c68c-107">Imessage.h</span></span>  <br/> |
-|<span data-ttu-id="8c68c-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="8c68c-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="8c68c-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="8c68c-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="8c68c-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="8c68c-110">Called by:</span></span>  <br/> |<span data-ttu-id="8c68c-111">Поставщики удаленного хранилища клиентских приложений и сообщения</span><span class="sxs-lookup"><span data-stu-id="8c68c-111">Client applications and message store providers</span></span>  <br/> |
+|<span data-ttu-id="f3f23-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="f3f23-106">Header file:</span></span>  <br/> |<span data-ttu-id="f3f23-107">IMessage. h</span><span class="sxs-lookup"><span data-stu-id="f3f23-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="f3f23-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="f3f23-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="f3f23-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="f3f23-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="f3f23-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="f3f23-110">Called by:</span></span>  <br/> |<span data-ttu-id="f3f23-111">Клиентские приложения и поставщики хранилищ сообщений</span><span class="sxs-lookup"><span data-stu-id="f3f23-111">Client applications and message store providers</span></span>  <br/> |
    
 ```cpp
 HRESULT SetAttribIMsgOnIStg(
@@ -42,42 +42,42 @@ HRESULT SetAttribIMsgOnIStg(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8c68c-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="8c68c-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f3f23-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="f3f23-112">Parameters</span></span>
 
- <span data-ttu-id="8c68c-113">_lpObject_</span><span class="sxs-lookup"><span data-stu-id="8c68c-113">_lpObject_</span></span>
+ <span data-ttu-id="f3f23-113">_Лпобжект_</span><span class="sxs-lookup"><span data-stu-id="f3f23-113">_lpObject_</span></span>
   
-> <span data-ttu-id="8c68c-114">[in] Указатель на объект, для которых свойство задаются атрибуты.</span><span class="sxs-lookup"><span data-stu-id="8c68c-114">[in] Pointer to the object for which property attributes are being set.</span></span> 
+> <span data-ttu-id="f3f23-114">возврата Указатель на объект, для которого задаются атрибуты свойства.</span><span class="sxs-lookup"><span data-stu-id="f3f23-114">[in] Pointer to the object for which property attributes are being set.</span></span> 
     
- <span data-ttu-id="8c68c-115">_lpPropTags_</span><span class="sxs-lookup"><span data-stu-id="8c68c-115">_lpPropTags_</span></span>
+ <span data-ttu-id="f3f23-115">_Лппроптагс_</span><span class="sxs-lookup"><span data-stu-id="f3f23-115">_lpPropTags_</span></span>
   
-> <span data-ttu-id="8c68c-116">[in] Указатель на структуру [SPropTagArray](sproptagarray.md) , содержащий массив теги свойство, определяющее, какие свойства задаются атрибуты свойства.</span><span class="sxs-lookup"><span data-stu-id="8c68c-116">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure containing an array of property tags indicating the properties for which property attributes are being set.</span></span> 
+> <span data-ttu-id="f3f23-116">возврата Указатель на структуру [спроптагаррай](sproptagarray.md) , содержащую массив тегов свойств, указывающий свойства, для которых задаются атрибуты свойств.</span><span class="sxs-lookup"><span data-stu-id="f3f23-116">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure containing an array of property tags indicating the properties for which property attributes are being set.</span></span> 
     
- <span data-ttu-id="8c68c-117">_lpPropAttrs_</span><span class="sxs-lookup"><span data-stu-id="8c68c-117">_lpPropAttrs_</span></span>
+ <span data-ttu-id="f3f23-117">_Лппропаттрс_</span><span class="sxs-lookup"><span data-stu-id="f3f23-117">_lpPropAttrs_</span></span>
   
-> <span data-ttu-id="8c68c-118">[in] Указатель на структуру [SPropAttrArray](spropattrarray.md) атрибуты свойства для установки списков.</span><span class="sxs-lookup"><span data-stu-id="8c68c-118">[in] Pointer to an [SPropAttrArray](spropattrarray.md) structure listing the property attributes to set.</span></span> 
+> <span data-ttu-id="f3f23-118">возврата Указатель на структуру [спропаттраррай](spropattrarray.md) , в которой перечислены атрибуты свойств, которые требуется задать.</span><span class="sxs-lookup"><span data-stu-id="f3f23-118">[in] Pointer to an [SPropAttrArray](spropattrarray.md) structure listing the property attributes to set.</span></span> 
     
- <span data-ttu-id="8c68c-119">_lppPropProblems_</span><span class="sxs-lookup"><span data-stu-id="8c68c-119">_lppPropProblems_</span></span>
+ <span data-ttu-id="f3f23-119">_Лпппроппроблемс_</span><span class="sxs-lookup"><span data-stu-id="f3f23-119">_lppPropProblems_</span></span>
   
-> <span data-ttu-id="8c68c-120">[out] Указатель на структуру [SPropProblemArray](spropproblemarray.md) возвращенные, содержащий набор свойств проблем.</span><span class="sxs-lookup"><span data-stu-id="8c68c-120">[out] Pointer to the returned [SPropProblemArray](spropproblemarray.md) structure containing a set of property problems.</span></span> <span data-ttu-id="8c68c-121">Эта структура определяет проблем, возникающих при **SetAttribIMsgOnIStg** была возможность установить некоторые свойства, но не все.</span><span class="sxs-lookup"><span data-stu-id="8c68c-121">This structure identifies problems encountered if **SetAttribIMsgOnIStg** has been able to set some properties, but not all.</span></span> <span data-ttu-id="8c68c-122">Если в параметре _lppPropProblems_ передается указатель на значение NULL, массив проблема не свойство возвращается даже в том случае, если не заданы некоторые свойства.</span><span class="sxs-lookup"><span data-stu-id="8c68c-122">If a pointer to NULL is passed in the  _lppPropProblems_ parameter, no property problem array is returned even if some properties were not set.</span></span> 
+> <span data-ttu-id="f3f23-120">вышли Указатель на возвращаемую структуру [спроппроблемаррай](spropproblemarray.md) , содержащую набор проблем свойств.</span><span class="sxs-lookup"><span data-stu-id="f3f23-120">[out] Pointer to the returned [SPropProblemArray](spropproblemarray.md) structure containing a set of property problems.</span></span> <span data-ttu-id="f3f23-121">Эта структура определяет проблемы, которые возникают, если **сетаттрибимсгонистг** удалось задать некоторые свойства, но не все.</span><span class="sxs-lookup"><span data-stu-id="f3f23-121">This structure identifies problems encountered if **SetAttribIMsgOnIStg** has been able to set some properties, but not all.</span></span> <span data-ttu-id="f3f23-122">Если в параметре _лпппроппроблемс_ передается указатель на значение null, то массив проблем свойств не возвращается, даже если не заданы некоторые свойства.</span><span class="sxs-lookup"><span data-stu-id="f3f23-122">If a pointer to NULL is passed in the  _lppPropProblems_ parameter, no property problem array is returned even if some properties were not set.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="8c68c-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8c68c-123">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f3f23-123">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="f3f23-123">Return value</span></span>
 
-<span data-ttu-id="8c68c-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="8c68c-124">S_OK</span></span> 
+<span data-ttu-id="f3f23-124">S_OK</span><span class="sxs-lookup"><span data-stu-id="f3f23-124">S_OK</span></span> 
   
-> <span data-ttu-id="8c68c-125">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="8c68c-125">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="f3f23-125">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="f3f23-125">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="8c68c-126">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="8c68c-126">MAPI_W_ERRORS_RETURNED</span></span> 
+<span data-ttu-id="f3f23-126">МАПИ_В_ЕРРОРС_РЕТУРНЕД</span><span class="sxs-lookup"><span data-stu-id="f3f23-126">MAPI_W_ERRORS_RETURNED</span></span> 
   
-> <span data-ttu-id="8c68c-127">Вызов завершился успешно в целом, но одно или несколько свойств не удается получить доступ к и были возвращены с типом свойства PT_ERROR.</span><span class="sxs-lookup"><span data-stu-id="8c68c-127">The call succeeded overall, but one or more properties could not be accessed and were returned with a property type of PT_ERROR.</span></span>
+> <span data-ttu-id="f3f23-127">Вызов выполнен в целом, но не удалось получить доступ к одному или нескольким свойствам и они возвращались с типом свойства ПТ_ЕРРОР.</span><span class="sxs-lookup"><span data-stu-id="f3f23-127">The call succeeded overall, but one or more properties could not be accessed and were returned with a property type of PT_ERROR.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="8c68c-128">Замечания</span><span class="sxs-lookup"><span data-stu-id="8c68c-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f3f23-128">Комментарии</span><span class="sxs-lookup"><span data-stu-id="f3f23-128">Remarks</span></span>
 
-<span data-ttu-id="8c68c-129">Свойство атрибуты осуществляется только на свойство объекты, то есть, реализация [IMAPIProp: IUnknown](imapipropiunknown.md) интерфейса.</span><span class="sxs-lookup"><span data-stu-id="8c68c-129">Property attributes can only be accessed on property objects, that is, objects implementing the [IMAPIProp : IUnknown](imapipropiunknown.md) interface.</span></span> <span data-ttu-id="8c68c-130">Чтобы сделать свойства MAPI на объект структурированного хранилища OLE, обеспечивающая [OpenIMsgOnIStg](openimsgonistg.md) [IMessage: IMAPIProp](imessageimapiprop.md) объекта поверх объекта OLE **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="8c68c-130">To make MAPI properties available on an OLE structured storage object, [OpenIMsgOnIStg](openimsgonistg.md) builds an [IMessage : IMAPIProp](imessageimapiprop.md) object on top of the OLE **IStorage** object.</span></span> <span data-ttu-id="8c68c-131">Атрибуты свойств для таких объектов можно задать или изменены с помощью **SetAttribIMsgOnIStg** и получены с [GetAttribIMsgOnIStg](getattribimsgonistg.md).</span><span class="sxs-lookup"><span data-stu-id="8c68c-131">The property attributes on such objects can be set or altered with **SetAttribIMsgOnIStg** and retrieved with [GetAttribIMsgOnIStg](getattribimsgonistg.md).</span></span> 
+<span data-ttu-id="f3f23-129">Доступ к атрибутам свойств возможен только для объектов Property, то есть объектов, реализующих интерфейс [IMAPIProp: IUnknown](imapipropiunknown.md) .</span><span class="sxs-lookup"><span data-stu-id="f3f23-129">Property attributes can only be accessed on property objects, that is, objects implementing the [IMAPIProp : IUnknown](imapipropiunknown.md) interface.</span></span> <span data-ttu-id="f3f23-130">Чтобы сделать свойства MAPI доступными в объекте структурированного хранилища OLE, [опенимсгонистг](openimsgonistg.md) создает объект [iMessage: IMAPIProp](imessageimapiprop.md) в начале объекта OLE **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="f3f23-130">To make MAPI properties available on an OLE structured storage object, [OpenIMsgOnIStg](openimsgonistg.md) builds an [IMessage : IMAPIProp](imessageimapiprop.md) object on top of the OLE **IStorage** object.</span></span> <span data-ttu-id="f3f23-131">Атрибуты свойств таких объектов можно задавать или изменять с помощью **сетаттрибимсгонистг** и извлекаются с помощью [жетаттрибимсгонистг](getattribimsgonistg.md).</span><span class="sxs-lookup"><span data-stu-id="f3f23-131">The property attributes on such objects can be set or altered with **SetAttribIMsgOnIStg** and retrieved with [GetAttribIMsgOnIStg](getattribimsgonistg.md).</span></span> 
   
- <span data-ttu-id="8c68c-132">**Примечание** **GetAttribIMsgOnIStg** и **SetAttribIMsgOnIStg** работают на все объекты **IMessage** .</span><span class="sxs-lookup"><span data-stu-id="8c68c-132">**Note** **GetAttribIMsgOnIStg** and **SetAttribIMsgOnIStg** do not operate on all **IMessage** objects.</span></span> <span data-ttu-id="8c68c-133">Они действительны только для **IMessage**- on - **IStorage** объекты, возвращаемые **OpenIMsgOnIStg**.</span><span class="sxs-lookup"><span data-stu-id="8c68c-133">They are only valid for **IMessage**-on- **IStorage** objects returned by **OpenIMsgOnIStg**.</span></span> 
+ <span data-ttu-id="f3f23-132">**Note (Примечание** ) **Жетаттрибимсгонистг** и **сетаттрибимсгонистг** не работают со всеми объектами **iMessage** .</span><span class="sxs-lookup"><span data-stu-id="f3f23-132">**Note** **GetAttribIMsgOnIStg** and **SetAttribIMsgOnIStg** do not operate on all **IMessage** objects.</span></span> <span data-ttu-id="f3f23-133">Они действительны только для объектов **iMessage**— On — **IStorage** , возвращаемых методом **опенимсгонистг**.</span><span class="sxs-lookup"><span data-stu-id="f3f23-133">They are only valid for **IMessage**-on- **IStorage** objects returned by **OpenIMsgOnIStg**.</span></span> 
   
-<span data-ttu-id="8c68c-134">В параметре _lpPropAttrs_ номер и положение атрибутов должны соответствовать номер и положение тегов свойств, переданной в параметре _lpPropTags_ .</span><span class="sxs-lookup"><span data-stu-id="8c68c-134">In the  _lpPropAttrs_ parameter, the number and position of the attributes must match the number and position of the property tags passed in the  _lpPropTags_ parameter.</span></span> 
+<span data-ttu-id="f3f23-134">В параметре _лппропаттрс_ число и положение атрибутов должны быть соответствующими количеству и положению тегов свойств, переданных в параметре _лппроптагс_ .</span><span class="sxs-lookup"><span data-stu-id="f3f23-134">In the  _lpPropAttrs_ parameter, the number and position of the attributes must match the number and position of the property tags passed in the  _lpPropTags_ parameter.</span></span> 
   
-<span data-ttu-id="8c68c-135">Функция **SetAttribIMsgOnIStg** используется для сделать свойства сообщений доступно только для чтения, при необходимости в схеме **IMessage** .</span><span class="sxs-lookup"><span data-stu-id="8c68c-135">The **SetAttribIMsgOnIStg** function is used to make message properties read-only when required by the **IMessage** schema.</span></span> <span data-ttu-id="8c68c-136">Пример поставщика хранилища сообщений использует его для этой цели.</span><span class="sxs-lookup"><span data-stu-id="8c68c-136">The sample message store provider uses it for this purpose.</span></span> <span data-ttu-id="8c68c-137">[Дополнительные сведения см.](mapi-messages.md)</span><span class="sxs-lookup"><span data-stu-id="8c68c-137">For more information, see [Messages](mapi-messages.md).</span></span> 
+<span data-ttu-id="f3f23-135">Функция **сетаттрибимсгонистг** используется, чтобы сделать свойства сообщения доступными только для чтения, если это требуется для схемы **iMessage** .</span><span class="sxs-lookup"><span data-stu-id="f3f23-135">The **SetAttribIMsgOnIStg** function is used to make message properties read-only when required by the **IMessage** schema.</span></span> <span data-ttu-id="f3f23-136">Для этой цели в качестве примера используется поставщик хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="f3f23-136">The sample message store provider uses it for this purpose.</span></span> <span data-ttu-id="f3f23-137">Более подробную информацию можно [](mapi-messages.md)узнать в статье messages.</span><span class="sxs-lookup"><span data-stu-id="f3f23-137">For more information, see [Messages](mapi-messages.md).</span></span> 
   
 

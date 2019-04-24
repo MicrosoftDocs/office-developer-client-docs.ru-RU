@@ -1,5 +1,5 @@
 ---
-title: Ячейка LineWeight (раздел "Формат линий")
+title: LineWeight Cell (Line Format Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm585
 localization_priority: Normal
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
-description: Определяет Толщина линии фигуры. Задайте Толщина линии путем ввода цифр с допустимой единицы измерения.
-ms.openlocfilehash: a5207607d90ef6a79dcb3acc191521b73e2cdf54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет толщину линии фигуры. Задайте толщину линии, введя число с допустимой единицей измерения.
+ms.openlocfilehash: 654a93f939226bedab2e40ab591dad0e3f872267
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341813"
 ---
-# <a name="lineweight-cell-line-format-section"></a><span data-ttu-id="0ab1e-104">Ячейка LineWeight (раздел "Формат линий")</span><span class="sxs-lookup"><span data-stu-id="0ab1e-104">LineWeight Cell (Line Format Section)</span></span>
+# <a name="lineweight-cell-line-format-section"></a><span data-ttu-id="e8eec-104">LineWeight Cell (Line Format Section)</span><span class="sxs-lookup"><span data-stu-id="e8eec-104">LineWeight Cell (Line Format Section)</span></span>
 
-<span data-ttu-id="0ab1e-105">Определяет Толщина линии фигуры.</span><span class="sxs-lookup"><span data-stu-id="0ab1e-105">Determines the line weight of a shape.</span></span> <span data-ttu-id="0ab1e-106">Задайте Толщина линии путем ввода цифр с допустимой единицы измерения.</span><span class="sxs-lookup"><span data-stu-id="0ab1e-106">Set the line weight by entering a number with a valid unit of measure.</span></span>
+<span data-ttu-id="e8eec-105">Определяет толщину линии фигуры.</span><span class="sxs-lookup"><span data-stu-id="e8eec-105">Determines the line weight of a shape.</span></span> <span data-ttu-id="e8eec-106">Задайте толщину линии, введя число с допустимой единицей измерения.</span><span class="sxs-lookup"><span data-stu-id="e8eec-106">Set the line weight by entering a number with a valid unit of measure.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0ab1e-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="0ab1e-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e8eec-107">Комментарии</span><span class="sxs-lookup"><span data-stu-id="e8eec-107">Remarks</span></span>
 
-<span data-ttu-id="0ab1e-108">Можно также задать значение Толщина линии в диалоговом окне " **строка** " (на вкладке **Главная** в группе **фигуры** щелкните **строку**, выберите пункт **Вес**и нажмите кнопку **Другие линии**).</span><span class="sxs-lookup"><span data-stu-id="0ab1e-108">You can also set the value of LineWeight in the **Line** dialog box (on the **Home** tab, in the **Shape** group, click **Line**, point to **Weight**, and then click **More Lines**).</span></span>
+<span data-ttu-id="e8eec-108">Кроме того, можно задать значение LineWeight в диалоговом окне **линия** (на вкладке **Главная** , в группе **фигур** , щелкнуть **линия**, выбрать толщину и щелкнуть \*\*\*\* **больше линий**).</span><span class="sxs-lookup"><span data-stu-id="e8eec-108">You can also set the value of LineWeight in the **Line** dialog box (on the **Home** tab, in the **Shape** group, click **Line**, point to **Weight**, and then click **More Lines**).</span></span>
   
-<span data-ttu-id="0ab1e-109">Если единицы измерения не введена, используется единицу измерения для текста, указанного в диалоговом окне **Параметры Visio** (перейдите на вкладку **файл** и выберите пункт **Параметры**).</span><span class="sxs-lookup"><span data-stu-id="0ab1e-109">If the unit of measure is not entered, the unit of measure for text specified in the **Visio Options** dialog box is used (click the **File** tab, and then click **Options**).</span></span> <span data-ttu-id="0ab1e-110">Толщина линии не зависит от масштаба документа.</span><span class="sxs-lookup"><span data-stu-id="0ab1e-110">Line weight is independent of the scale of the drawing.</span></span> <span data-ttu-id="0ab1e-111">Если документа изменяется, толщина линии остается неизменным.</span><span class="sxs-lookup"><span data-stu-id="0ab1e-111">If the drawing is scaled, the line weight remains the same.</span></span> 
+<span data-ttu-id="e8eec-109">Если единица измерения не введена, используется единица измерения для текста, указанного в диалоговом окне " **Параметры Visio** " (перейдите на вкладку " **файл** " и нажмите кнопку " **Параметры**").</span><span class="sxs-lookup"><span data-stu-id="e8eec-109">If the unit of measure is not entered, the unit of measure for text specified in the **Visio Options** dialog box is used (click the **File** tab, and then click **Options**).</span></span> <span data-ttu-id="e8eec-110">Толщина линии не зависит от масштаба документа.</span><span class="sxs-lookup"><span data-stu-id="e8eec-110">Line weight is independent of the scale of the drawing.</span></span> <span data-ttu-id="e8eec-111">Если масштаб документа изменяется, то толщина линии остается неизменной.</span><span class="sxs-lookup"><span data-stu-id="e8eec-111">If the drawing is scaled, the line weight remains the same.</span></span> 
   
-<span data-ttu-id="0ab1e-112">Для получения ссылки на ячейки Толщина линии по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="0ab1e-112">To get a reference to the LineWeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="e8eec-112">Чтобы получить ссылку на ячейку LineWeight по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="e8eec-112">To get a reference to the LineWeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0ab1e-113">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="0ab1e-113">Cell name:</span></span>  <br/> | <span data-ttu-id="0ab1e-114">Толщина линии</span><span class="sxs-lookup"><span data-stu-id="0ab1e-114">LineWeight</span></span>  <br/> |
+| <span data-ttu-id="e8eec-113">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="e8eec-113">Cell name:</span></span>  <br/> | <span data-ttu-id="e8eec-114">LineWeight</span><span class="sxs-lookup"><span data-stu-id="e8eec-114">LineWeight</span></span>  <br/> |
    
-<span data-ttu-id="0ab1e-115">Для получения ссылки на ячейки Толщина линии по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="0ab1e-115">To get a reference to the LineWeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="e8eec-115">Чтобы получить ссылку на ячейку LineWeight по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="e8eec-115">To get a reference to the LineWeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0ab1e-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="0ab1e-116">Section index:</span></span>  <br/> |<span data-ttu-id="0ab1e-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="0ab1e-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="0ab1e-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="0ab1e-118">Row index:</span></span>  <br/> |<span data-ttu-id="0ab1e-119">**visRowLine**</span><span class="sxs-lookup"><span data-stu-id="0ab1e-119">**visRowLine**</span></span> <br/> |
-| <span data-ttu-id="0ab1e-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="0ab1e-120">Cell index:</span></span>  <br/> |<span data-ttu-id="0ab1e-121">**visLineWeight**</span><span class="sxs-lookup"><span data-stu-id="0ab1e-121">**visLineWeight**</span></span> <br/> |
+| <span data-ttu-id="e8eec-116">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="e8eec-116">Section index:</span></span>  <br/> |<span data-ttu-id="e8eec-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="e8eec-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="e8eec-118">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="e8eec-118">Row index:</span></span>  <br/> |<span data-ttu-id="e8eec-119">**Висровлине**</span><span class="sxs-lookup"><span data-stu-id="e8eec-119">**visRowLine**</span></span> <br/> |
+| <span data-ttu-id="e8eec-120">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="e8eec-120">Cell index:</span></span>  <br/> |<span data-ttu-id="e8eec-121">**Вислиневеигхт**</span><span class="sxs-lookup"><span data-stu-id="e8eec-121">**visLineWeight**</span></span> <br/> |
    
 

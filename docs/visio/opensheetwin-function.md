@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b574a99d-08f4-29e4-c40a-eb0770580ed5
 description: Открывает окно таблицы свойств фигуры в новом окне.
-ms.openlocfilehash: 609dce37429c899a68f485a07adeeb9479a442c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c68ab1e0c9d52514dff16b7b1b4adbd8789d3e85
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340133"
 ---
-# <a name="opensheetwin-function"></a><span data-ttu-id="181d5-103">Функция OPENSHEETWIN</span><span class="sxs-lookup"><span data-stu-id="181d5-103">OPENSHEETWIN Function</span></span>
+# <a name="opensheetwin-function"></a><span data-ttu-id="1e215-103">Функция OPENSHEETWIN</span><span class="sxs-lookup"><span data-stu-id="1e215-103">OPENSHEETWIN Function</span></span>
 
-<span data-ttu-id="181d5-104">Открывает окно таблицы свойств фигуры в новом окне.</span><span class="sxs-lookup"><span data-stu-id="181d5-104">Opens the ShapeSheet window in a new window.</span></span>
+<span data-ttu-id="1e215-104">Открывает окно таблицы свойств фигуры в новом окне.</span><span class="sxs-lookup"><span data-stu-id="1e215-104">Opens the ShapeSheet window in a new window.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="181d5-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="181d5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1e215-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1e215-105">Syntax</span></span>
 
-<span data-ttu-id="181d5-106">(OPENSHEETWIN)</span><span class="sxs-lookup"><span data-stu-id="181d5-106">OPENSHEETWIN( )</span></span>
+<span data-ttu-id="1e215-106">OPENSHEETWIN ()</span><span class="sxs-lookup"><span data-stu-id="1e215-106">OPENSHEETWIN( )</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="181d5-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="181d5-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1e215-107">Комментарии</span><span class="sxs-lookup"><span data-stu-id="1e215-107">Remarks</span></span>
 
-<span data-ttu-id="181d5-108">В более ранних версиях Visio эта функция отображается в виде _OPENSHEETWIN.</span><span class="sxs-lookup"><span data-stu-id="181d5-108">In earlier versions of Visio, this function appears as _OPENSHEETWIN.</span></span> <span data-ttu-id="181d5-109">Visio версии 4.0 и более поздних версий принимать любого из стилей.</span><span class="sxs-lookup"><span data-stu-id="181d5-109">Visio versions 4.0 and later accept either style.</span></span> 
+<span data-ttu-id="1e215-108">В более ранних версиях Visio Эта функция отображается как _ОПЕНШИТВИН.</span><span class="sxs-lookup"><span data-stu-id="1e215-108">In earlier versions of Visio, this function appears as _OPENSHEETWIN.</span></span> <span data-ttu-id="1e215-109">Visio версии 4,0 и более поздних принимают любой из этих стилей.</span><span class="sxs-lookup"><span data-stu-id="1e215-109">Visio versions 4.0 and later accept either style.</span></span> 
   
 

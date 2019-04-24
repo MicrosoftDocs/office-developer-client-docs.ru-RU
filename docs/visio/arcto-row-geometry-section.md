@@ -1,5 +1,5 @@
 ---
-title: Строка ArcTo (раздел "Геометрия")
+title: ArcTo Row (Geometry Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm82253229
 localization_priority: Normal
 ms.assetid: 612b605d-a703-b08f-2e8e-7bc1624b5370
-description: Содержит x - и y-координаты и галстук дугу.
-ms.openlocfilehash: 77ed0dcaee7ddefa8771d3e890776d4adfcc3b40
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Содержит координаты x и y, а также арксинус круга.
+ms.openlocfilehash: 222edea250be794adc964345384f2c08a7798f2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341407"
 ---
-# <a name="arcto-row-geometry-section"></a><span data-ttu-id="3d23e-103">Строка ArcTo (раздел "Геометрия")</span><span class="sxs-lookup"><span data-stu-id="3d23e-103">ArcTo Row (Geometry Section)</span></span>
+# <a name="arcto-row-geometry-section"></a><span data-ttu-id="ff450-103">ArcTo Row (Geometry Section)</span><span class="sxs-lookup"><span data-stu-id="ff450-103">ArcTo Row (Geometry Section)</span></span>
 
-<span data-ttu-id="3d23e-104">Содержит *x* - и *y* -координаты и галстук дугу.</span><span class="sxs-lookup"><span data-stu-id="3d23e-104">Contains the  *x*  - and  *y*  -coordinates and bow of a circular arc.</span></span> 
+<span data-ttu-id="ff450-104">Содержит координаты *x* и *y* , а также арксинус круга.</span><span class="sxs-lookup"><span data-stu-id="ff450-104">Contains the  *x*  - and  *y*  -coordinates and bow of a circular arc.</span></span> 
   
-<span data-ttu-id="3d23e-105">Строка ArcTo содержит следующие ячеек.</span><span class="sxs-lookup"><span data-stu-id="3d23e-105">An ArcTo row contains the following cells.</span></span>
+<span data-ttu-id="ff450-105">Строка строка ArcTo содержит следующие ячейки.</span><span class="sxs-lookup"><span data-stu-id="ff450-105">An ArcTo row contains the following cells.</span></span>
   
-|<span data-ttu-id="3d23e-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="3d23e-106">**Cell**</span></span>|<span data-ttu-id="3d23e-107">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3d23e-107">**Description**</span></span>|
+|<span data-ttu-id="ff450-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="ff450-106">**Cell**</span></span>|<span data-ttu-id="ff450-107">**Описание**</span><span class="sxs-lookup"><span data-stu-id="ff450-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="3d23e-108">X</span><span class="sxs-lookup"><span data-stu-id="3d23e-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="3d23e-109">*X* -координаты окончания вершины дугу.</span><span class="sxs-lookup"><span data-stu-id="3d23e-109">The  *x*  -coordinate of the ending vertex of an arc.</span></span>  <br/> |
-|[<span data-ttu-id="3d23e-110">Да</span><span class="sxs-lookup"><span data-stu-id="3d23e-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="3d23e-111">*Y* -координат окончания вершины дугу.</span><span class="sxs-lookup"><span data-stu-id="3d23e-111">The  *y*  -coordinate of the ending vertex of an arc.</span></span>  <br/> |
-|[<span data-ttu-id="3d23e-112">A</span><span class="sxs-lookup"><span data-stu-id="3d23e-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="3d23e-113">Расстояние от среднего дуги по центру его кабеля.</span><span class="sxs-lookup"><span data-stu-id="3d23e-113">The distance from the arc's midpoint to the midpoint of its chord.</span></span>  <br/> |
+|[<span data-ttu-id="ff450-108">X</span><span class="sxs-lookup"><span data-stu-id="ff450-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="ff450-109">Координата *X* последней вершины дуги.</span><span class="sxs-lookup"><span data-stu-id="ff450-109">The  *x*  -coordinate of the ending vertex of an arc.</span></span>  <br/> |
+|[<span data-ttu-id="ff450-110">Y (да)</span><span class="sxs-lookup"><span data-stu-id="ff450-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="ff450-111">Координата *Y* последней вершины дуги.</span><span class="sxs-lookup"><span data-stu-id="ff450-111">The  *y*  -coordinate of the ending vertex of an arc.</span></span>  <br/> |
+|[<span data-ttu-id="ff450-112">А</span><span class="sxs-lookup"><span data-stu-id="ff450-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="ff450-113">Расстояние от средней дуги до средней точки аккорда.</span><span class="sxs-lookup"><span data-stu-id="ff450-113">The distance from the arc's midpoint to the midpoint of its chord.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3d23e-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="3d23e-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff450-114">Комментарии</span><span class="sxs-lookup"><span data-stu-id="ff450-114">Remarks</span></span>
 
-<span data-ttu-id="3d23e-115">Дуг в Visio, эллиптических дуг даже в том случае, если они будут основываться круг.</span><span class="sxs-lookup"><span data-stu-id="3d23e-115">Arcs drawn in Visio are elliptical arcs, even if they are based on a circle.</span></span> <span data-ttu-id="3d23e-116">По умолчанию отображаемого дуг представлены в виде строки EllipticalArcTo в окне таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="3d23e-116">By default, drawn arcs are represented by an EllipticalArcTo row in a ShapeSheet window.</span></span> <span data-ttu-id="3d23e-117">Чтобы показать строку ArcTo в окне таблицы свойств фигуры, необходимо нарисовать дугу и измените тип строки EllipticalArcTo в строку тип ArcTo; фактически переходе руководство дугу.</span><span class="sxs-lookup"><span data-stu-id="3d23e-117">To show an ArcTo row in a ShapeSheet window, you must draw an arc, and then change the EllipticalArcTo row type to an ArcTo row type; in effect you are changing an elliptical arc to a circular arc.</span></span>
+<span data-ttu-id="ff450-115">Дуги, рисуемые в Visio, являются эллиптическими дугами, даже если они основаны на круге.</span><span class="sxs-lookup"><span data-stu-id="ff450-115">Arcs drawn in Visio are elliptical arcs, even if they are based on a circle.</span></span> <span data-ttu-id="ff450-116">По умолчанию отображаемые дуги представлены в виде строки строка ellipticalarcto в окне таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="ff450-116">By default, drawn arcs are represented by an EllipticalArcTo row in a ShapeSheet window.</span></span> <span data-ttu-id="ff450-117">Чтобы отобразить строку строка ArcTo в окне таблицы свойств фигуры, необходимо нарисовать дугу и затем изменить тип строки строка ellipticalarcto на тип строки строка ArcTo; в результате вы изменяете дугу эллиптического кружка на круговую дугу.</span><span class="sxs-lookup"><span data-stu-id="ff450-117">To show an ArcTo row in a ShapeSheet window, you must draw an arc, and then change the EllipticalArcTo row type to an ArcTo row type; in effect you are changing an elliptical arc to a circular arc.</span></span>
   
-<span data-ttu-id="3d23e-118">Чтобы изменить тип строки, щелкните правой кнопкой мыши строку и нажмите кнопку **Изменить тип строки** в контекстном меню.</span><span class="sxs-lookup"><span data-stu-id="3d23e-118">To change a row type, right-click a row, and then click **Change Row Type** on the shortcut menu.</span></span> 
+<span data-ttu-id="ff450-118">Чтобы изменить тип строки, щелкните строку правой кнопкой мыши и выберите в контекстном меню команду **изменить тип строки** .</span><span class="sxs-lookup"><span data-stu-id="ff450-118">To change a row type, right-click a row, and then click **Change Row Type** on the shortcut menu.</span></span> 
   
 

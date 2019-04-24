@@ -12,55 +12,55 @@ api_type:
 - COM
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 236349a6b53eeb2f5c18c841c05cfb80a3fce824
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da01385f83d9af9ad02eeb2fed08e3bc22d4df84
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336402"
 ---
-# <a name="pidtagservicedeletefiles-canonical-property"></a><span data-ttu-id="5a2fd-103">Каноническое свойство PidTagServiceDeleteFiles</span><span class="sxs-lookup"><span data-stu-id="5a2fd-103">PidTagServiceDeleteFiles Canonical Property</span></span>
+# <a name="pidtagservicedeletefiles-canonical-property"></a><span data-ttu-id="957fa-103">Каноническое свойство PidTagServiceDeleteFiles</span><span class="sxs-lookup"><span data-stu-id="957fa-103">PidTagServiceDeleteFiles Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5a2fd-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5a2fd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="957fa-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="957fa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5a2fd-105">Содержит список имен файлов, которые должны быть удалены при удалении службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="5a2fd-105">Contains a list of filenames that are to be deleted when the message service is uninstalled.</span></span>
+<span data-ttu-id="957fa-105">Содержит список имен файлов, которые необходимо удалить при удалении службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="957fa-105">Contains a list of filenames that are to be deleted when the message service is uninstalled.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5a2fd-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="5a2fd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5a2fd-107">PR_SERVICE_DELETE_FILES, PR_SERVICE_DELETE_FILES_A, PR_SERVICE_DELETE_FILES_W</span><span class="sxs-lookup"><span data-stu-id="5a2fd-107">PR_SERVICE_DELETE_FILES, PR_SERVICE_DELETE_FILES_A, PR_SERVICE_DELETE_FILES_W</span></span>  <br/> |
-|<span data-ttu-id="5a2fd-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="5a2fd-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5a2fd-109">0x3D10</span><span class="sxs-lookup"><span data-stu-id="5a2fd-109">0x3D10</span></span>  <br/> |
-|<span data-ttu-id="5a2fd-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="5a2fd-110">Data type:</span></span>  <br/> |<span data-ttu-id="5a2fd-111">PT_MV_STRING8 PT_MV_UNICODE</span><span class="sxs-lookup"><span data-stu-id="5a2fd-111">PT_MV_STRING8, PT_MV_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="5a2fd-112">Область:</span><span class="sxs-lookup"><span data-stu-id="5a2fd-112">Area:</span></span>  <br/> |<span data-ttu-id="5a2fd-113">Профиль MAPI</span><span class="sxs-lookup"><span data-stu-id="5a2fd-113">MAPI profile</span></span>  <br/> |
+|<span data-ttu-id="957fa-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="957fa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="957fa-107">ПР_СЕРВИЦЕ_ДЕЛЕТЕ_ФИЛЕС, ПР_СЕРВИЦЕ_ДЕЛЕТЕ_ФИЛЕС_А, ПР_СЕРВИЦЕ_ДЕЛЕТЕ_ФИЛЕС_В</span><span class="sxs-lookup"><span data-stu-id="957fa-107">PR_SERVICE_DELETE_FILES, PR_SERVICE_DELETE_FILES_A, PR_SERVICE_DELETE_FILES_W</span></span>  <br/> |
+|<span data-ttu-id="957fa-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="957fa-108">Identifier:</span></span>  <br/> |<span data-ttu-id="957fa-109">0x3D10</span><span class="sxs-lookup"><span data-stu-id="957fa-109">0x3D10</span></span>  <br/> |
+|<span data-ttu-id="957fa-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="957fa-110">Data type:</span></span>  <br/> |<span data-ttu-id="957fa-111">PT_MV_STRING8, ПТ_МВ_УНИКОДЕ</span><span class="sxs-lookup"><span data-stu-id="957fa-111">PT_MV_STRING8, PT_MV_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="957fa-112">Область:</span><span class="sxs-lookup"><span data-stu-id="957fa-112">Area:</span></span>  <br/> |<span data-ttu-id="957fa-113">Профиль MAPI</span><span class="sxs-lookup"><span data-stu-id="957fa-113">MAPI profile</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5a2fd-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="5a2fd-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="957fa-114">Комментарии</span><span class="sxs-lookup"><span data-stu-id="957fa-114">Remarks</span></span>
 
-<span data-ttu-id="5a2fd-115">Имена файлов в списке, содержащихся в эти свойства удаляются с компьютера при с помощью панели управления для удаления службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="5a2fd-115">The filenames in the list contained in these properties are deleted from the computer when using the control panel to uninstall the message service.</span></span> <span data-ttu-id="5a2fd-116">Не включайте в списке любой библиотеки DLL, которая поддерживает несколько служб сообщение или служб дополнительное сообщение случайно не может быть удален.</span><span class="sxs-lookup"><span data-stu-id="5a2fd-116">Do not include in the list any DLL that supports multiple message services, or additional message services could be inadvertently removed.</span></span>
+<span data-ttu-id="957fa-115">Имена файлов из списка, содержащегося в этих свойствах, удаляются с компьютера при использовании панели управления для удаления службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="957fa-115">The filenames in the list contained in these properties are deleted from the computer when using the control panel to uninstall the message service.</span></span> <span data-ttu-id="957fa-116">Не включайте в список всех библиотек DLL, поддерживающих несколько служб сообщений, или непреднамеренно удаляются дополнительные службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="957fa-116">Do not include in the list any DLL that supports multiple message services, or additional message services could be inadvertently removed.</span></span>
   
-<span data-ttu-id="5a2fd-117">MAPI для работы только с имена файлов и другие строки, переданным в него, в набор символов ANSI.</span><span class="sxs-lookup"><span data-stu-id="5a2fd-117">MAPI works only with filenames, and other strings passed to it, in the ANSI character set.</span></span> <span data-ttu-id="5a2fd-118">Приложения, использующие имена файлов в кодировке OEM необходимо преобразовать их в формате ANSI перед вызовом MAPI.</span><span class="sxs-lookup"><span data-stu-id="5a2fd-118">Applications that use filenames in an OEM character set must convert them to ANSI before calling MAPI.</span></span>
+<span data-ttu-id="957fa-117">MAPI работает только с именами файлов и другими строками, передаваемыми в нее, в наборе знаков ANSI.</span><span class="sxs-lookup"><span data-stu-id="957fa-117">MAPI works only with filenames, and other strings passed to it, in the ANSI character set.</span></span> <span data-ttu-id="957fa-118">Приложения, использующие имена файлов в наборе символов OEM, должны преобразовать их в ANSI перед вызовом MAPI.</span><span class="sxs-lookup"><span data-stu-id="957fa-118">Applications that use filenames in an OEM character set must convert them to ANSI before calling MAPI.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="5a2fd-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="5a2fd-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="957fa-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="957fa-119">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="5a2fd-120">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="5a2fd-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="957fa-120">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="957fa-120">Header files</span></span>
 
-<span data-ttu-id="5a2fd-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5a2fd-121">Mapidefs.h</span></span>
+<span data-ttu-id="957fa-121">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="957fa-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="5a2fd-122">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="5a2fd-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="957fa-122">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="957fa-122">Provides data type definitions.</span></span>
     
-<span data-ttu-id="5a2fd-123">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="5a2fd-123">Mapitags.h</span></span>
+<span data-ttu-id="957fa-123">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="957fa-123">Mapitags.h</span></span>
   
-> <span data-ttu-id="5a2fd-124">Содержит определения свойства в списке альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="5a2fd-124">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="957fa-124">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="957fa-124">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5a2fd-125">См. также</span><span class="sxs-lookup"><span data-stu-id="5a2fd-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="957fa-125">См. также</span><span class="sxs-lookup"><span data-stu-id="957fa-125">See also</span></span>
 
 
 
-[<span data-ttu-id="5a2fd-126">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="5a2fd-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="957fa-126">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="957fa-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="5a2fd-127">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="5a2fd-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="957fa-127">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="957fa-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="5a2fd-128">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="5a2fd-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="957fa-128">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="957fa-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="5a2fd-129">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="5a2fd-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="957fa-129">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="957fa-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -12,22 +12,22 @@ api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1ce379ac70f140aae24880b118ca7293f2e72aa4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2a2ca1fba5dceb45b41c2f25a96e163f02c41440
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339412"
 ---
-# <a name="dtctl"></a><span data-ttu-id="c070f-103">DTCTL</span><span class="sxs-lookup"><span data-stu-id="c070f-103">DTCTL</span></span>
+# <a name="dtctl"></a><span data-ttu-id="34f21-103">DTCTL</span><span class="sxs-lookup"><span data-stu-id="34f21-103">DTCTL</span></span>
 
-<span data-ttu-id="c070f-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c070f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="34f21-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="34f21-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c070f-105">Описывает элемент управления, который будет использоваться в диалоговое окно, построенная на основе таблицы отображения.</span><span class="sxs-lookup"><span data-stu-id="c070f-105">Describes a control that will be used in a dialog box built from a display table.</span></span> 
+<span data-ttu-id="34f21-105">Описывает элемент управления, который будет использоваться в диалоговом окне, созданном из таблицы отображения.</span><span class="sxs-lookup"><span data-stu-id="34f21-105">Describes a control that will be used in a dialog box built from a display table.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c070f-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="c070f-106">Header file:</span></span>  <br/> |<span data-ttu-id="c070f-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c070f-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="34f21-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="34f21-106">Header file:</span></span>  <br/> |<span data-ttu-id="34f21-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="34f21-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct
@@ -58,144 +58,144 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="c070f-108">Members</span><span class="sxs-lookup"><span data-stu-id="c070f-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="34f21-108">Members</span><span class="sxs-lookup"><span data-stu-id="34f21-108">Members</span></span>
 
-<span data-ttu-id="c070f-109">**ulCtlType**</span><span class="sxs-lookup"><span data-stu-id="c070f-109">**ulCtlType**</span></span>
+<span data-ttu-id="34f21-109">**Улктлтипе**</span><span class="sxs-lookup"><span data-stu-id="34f21-109">**ulCtlType**</span></span>
   
-> <span data-ttu-id="c070f-110">Тип элемента управления, который включен в **список доверия сертификатов** член и соответствует свойству **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) элемента управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-110">Type of control that is included in the **ctl** member and corresponds to the control's **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) property.</span></span> <span data-ttu-id="c070f-111">Ниже приведены возможные значения:</span><span class="sxs-lookup"><span data-stu-id="c070f-111">Possible values are as follows:</span></span>
+> <span data-ttu-id="34f21-110">Тип элемента управления, включенный в элемент **CTL** и соответствующий свойству **пр_контрол_типе** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) элемента управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-110">Type of control that is included in the **ctl** member and corresponds to the control's **PR_CONTROL_TYPE** ([PidTagControlType](pidtagcontroltype-canonical-property.md)) property.</span></span> <span data-ttu-id="34f21-111">Возможны следующие значения:</span><span class="sxs-lookup"><span data-stu-id="34f21-111">Possible values are as follows:</span></span>
     
-<span data-ttu-id="c070f-112">DTCT_LABEL</span><span class="sxs-lookup"><span data-stu-id="c070f-112">DTCT_LABEL</span></span> 
+<span data-ttu-id="34f21-112">ДТКТ_ЛАБЕЛ</span><span class="sxs-lookup"><span data-stu-id="34f21-112">DTCT_LABEL</span></span> 
   
-> <span data-ttu-id="c070f-113">Элемент управления Label.</span><span class="sxs-lookup"><span data-stu-id="c070f-113">Label control.</span></span>
+> <span data-ttu-id="34f21-113">Элемент управления Label.</span><span class="sxs-lookup"><span data-stu-id="34f21-113">Label control.</span></span>
     
-<span data-ttu-id="c070f-114">DTCT_EDIT</span><span class="sxs-lookup"><span data-stu-id="c070f-114">DTCT_EDIT</span></span> 
+<span data-ttu-id="34f21-114">ДТКТ_ЕДИТ</span><span class="sxs-lookup"><span data-stu-id="34f21-114">DTCT_EDIT</span></span> 
   
-> <span data-ttu-id="c070f-115">Изменение элемента управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-115">Edit control.</span></span>
+> <span data-ttu-id="34f21-115">Элемент управления Edit.</span><span class="sxs-lookup"><span data-stu-id="34f21-115">Edit control.</span></span>
     
-<span data-ttu-id="c070f-116">DTCT_LBX</span><span class="sxs-lookup"><span data-stu-id="c070f-116">DTCT_LBX</span></span> 
+<span data-ttu-id="34f21-116">ДТКТ_ЛБКС</span><span class="sxs-lookup"><span data-stu-id="34f21-116">DTCT_LBX</span></span> 
   
-> <span data-ttu-id="c070f-117">Окно списка.</span><span class="sxs-lookup"><span data-stu-id="c070f-117">List box control.</span></span>
+> <span data-ttu-id="34f21-117">Элемент управления "список".</span><span class="sxs-lookup"><span data-stu-id="34f21-117">List box control.</span></span>
     
-<span data-ttu-id="c070f-118">DTCT_COMBOBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-118">DTCT_COMBOBOX</span></span> 
+<span data-ttu-id="34f21-118">ДТКТ_КОМБОБОКС</span><span class="sxs-lookup"><span data-stu-id="34f21-118">DTCT_COMBOBOX</span></span> 
   
-> <span data-ttu-id="c070f-119">Элемент управления ComboBox.</span><span class="sxs-lookup"><span data-stu-id="c070f-119">Combo box control.</span></span>
+> <span data-ttu-id="34f21-119">Элемент управления "поле со списком".</span><span class="sxs-lookup"><span data-stu-id="34f21-119">Combo box control.</span></span>
     
-<span data-ttu-id="c070f-120">DTCT_DDLBX</span><span class="sxs-lookup"><span data-stu-id="c070f-120">DTCT_DDLBX</span></span> 
+<span data-ttu-id="34f21-120">ДТКТ_ДДЛБКС</span><span class="sxs-lookup"><span data-stu-id="34f21-120">DTCT_DDLBX</span></span> 
   
-> <span data-ttu-id="c070f-121">Элемент управления раскрывающегося списка.</span><span class="sxs-lookup"><span data-stu-id="c070f-121">Drop-down list control.</span></span>
+> <span data-ttu-id="34f21-121">Элемент управления "раскрывающийся список".</span><span class="sxs-lookup"><span data-stu-id="34f21-121">Drop-down list control.</span></span>
     
-<span data-ttu-id="c070f-122">DTCT_CHECKBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-122">DTCT_CHECKBOX</span></span> 
+<span data-ttu-id="34f21-122">ДТКТ_ЧЕККБОКС</span><span class="sxs-lookup"><span data-stu-id="34f21-122">DTCT_CHECKBOX</span></span> 
   
-> <span data-ttu-id="c070f-123">Элемент управления "флажок".</span><span class="sxs-lookup"><span data-stu-id="c070f-123">Check box control.</span></span>
+> <span data-ttu-id="34f21-123">Элемент управления "флажок".</span><span class="sxs-lookup"><span data-stu-id="34f21-123">Check box control.</span></span>
     
-<span data-ttu-id="c070f-124">DTCT_GROUPBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-124">DTCT_GROUPBOX</span></span> 
+<span data-ttu-id="34f21-124">ДТКТ_ГРАУПБОКС</span><span class="sxs-lookup"><span data-stu-id="34f21-124">DTCT_GROUPBOX</span></span> 
   
-> <span data-ttu-id="c070f-125">Элемент управления поля группы.</span><span class="sxs-lookup"><span data-stu-id="c070f-125">Group box control.</span></span>
+> <span data-ttu-id="34f21-125">Элемент управления "Группа".</span><span class="sxs-lookup"><span data-stu-id="34f21-125">Group box control.</span></span>
     
-<span data-ttu-id="c070f-126">DTCT_BUTTON</span><span class="sxs-lookup"><span data-stu-id="c070f-126">DTCT_BUTTON</span></span> 
+<span data-ttu-id="34f21-126">ДТКТ_БУТТОН</span><span class="sxs-lookup"><span data-stu-id="34f21-126">DTCT_BUTTON</span></span> 
   
-> <span data-ttu-id="c070f-127">Элемент управления Button.</span><span class="sxs-lookup"><span data-stu-id="c070f-127">Button control.</span></span>
+> <span data-ttu-id="34f21-127">Элемент управления "Кнопка".</span><span class="sxs-lookup"><span data-stu-id="34f21-127">Button control.</span></span>
     
-<span data-ttu-id="c070f-128">DTCT_PAGE</span><span class="sxs-lookup"><span data-stu-id="c070f-128">DTCT_PAGE</span></span> 
+<span data-ttu-id="34f21-128">ДТКТ_ПАЖЕ</span><span class="sxs-lookup"><span data-stu-id="34f21-128">DTCT_PAGE</span></span> 
   
-> <span data-ttu-id="c070f-129">Элемент управления страницы с вкладками.</span><span class="sxs-lookup"><span data-stu-id="c070f-129">Tabbed page control.</span></span>
+> <span data-ttu-id="34f21-129">Элемент управления "Вкладка".</span><span class="sxs-lookup"><span data-stu-id="34f21-129">Tabbed page control.</span></span>
     
-<span data-ttu-id="c070f-130">DTCT_RADIOBUTTON</span><span class="sxs-lookup"><span data-stu-id="c070f-130">DTCT_RADIOBUTTON</span></span> 
+<span data-ttu-id="34f21-130">ДТКТ_РАДИОБУТТОН</span><span class="sxs-lookup"><span data-stu-id="34f21-130">DTCT_RADIOBUTTON</span></span> 
   
-> <span data-ttu-id="c070f-131">Управления "переключатель".</span><span class="sxs-lookup"><span data-stu-id="c070f-131">Radio button control.</span></span>
+> <span data-ttu-id="34f21-131">Элемент управления "переключатель".</span><span class="sxs-lookup"><span data-stu-id="34f21-131">Radio button control.</span></span>
     
-<span data-ttu-id="c070f-132">DTCT_MVLISTBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-132">DTCT_MVLISTBOX</span></span> 
+<span data-ttu-id="34f21-132">ДТКТ_МВЛИСТБОКС</span><span class="sxs-lookup"><span data-stu-id="34f21-132">DTCT_MVLISTBOX</span></span> 
   
-> <span data-ttu-id="c070f-133">Элемент управления, поддерживающий несколько значений списка.</span><span class="sxs-lookup"><span data-stu-id="c070f-133">Multi-valued list control.</span></span>
+> <span data-ttu-id="34f21-133">Многозначный список элементов управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-133">Multi-valued list control.</span></span>
     
-<span data-ttu-id="c070f-134">DTCT_MVDDLBX</span><span class="sxs-lookup"><span data-stu-id="c070f-134">DTCT_MVDDLBX</span></span> 
+<span data-ttu-id="34f21-134">ДТКТ_МВДДЛБКС</span><span class="sxs-lookup"><span data-stu-id="34f21-134">DTCT_MVDDLBX</span></span> 
   
-> <span data-ttu-id="c070f-135">Элемент управления, поддерживающий несколько значений раскрывающегося списка.</span><span class="sxs-lookup"><span data-stu-id="c070f-135">Multi-valued drop-down list control.</span></span>
+> <span data-ttu-id="34f21-135">Элемент управления раскрывающегося списка с несколькими значениями.</span><span class="sxs-lookup"><span data-stu-id="34f21-135">Multi-valued drop-down list control.</span></span>
     
-<span data-ttu-id="c070f-136">**ulCtlFlags**</span><span class="sxs-lookup"><span data-stu-id="c070f-136">**ulCtlFlags**</span></span>
+<span data-ttu-id="34f21-136">**Улктлфлагс**</span><span class="sxs-lookup"><span data-stu-id="34f21-136">**ulCtlFlags**</span></span>
   
-> <span data-ttu-id="c070f-137">Битовая маска флаги с описанием функций элемента управления и соответствует свойству **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) элемента управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-137">Bitmask of flags that describes the control's features and corresponds to the control's **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property.</span></span> <span data-ttu-id="c070f-138">Эти флаги можно задать для флажки, поля со списками, списков и изменить только элементы управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-138">These flags can be set for check boxes, combo boxes, list boxes, and edit controls only.</span></span> <span data-ttu-id="c070f-139">Ниже приведены возможные значения:</span><span class="sxs-lookup"><span data-stu-id="c070f-139">Possible values are as follows:</span></span>
+> <span data-ttu-id="34f21-137">Битовая маска флагов, описывающих компоненты элемента управления и соответствующие свойству **пр_контрол_флагс** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) элемента управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-137">Bitmask of flags that describes the control's features and corresponds to the control's **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)) property.</span></span> <span data-ttu-id="34f21-138">Эти флажки можно устанавливать только для флажков, полей со списками, списков и элементов управления редактирования.</span><span class="sxs-lookup"><span data-stu-id="34f21-138">These flags can be set for check boxes, combo boxes, list boxes, and edit controls only.</span></span> <span data-ttu-id="34f21-139">Возможны следующие значения:</span><span class="sxs-lookup"><span data-stu-id="34f21-139">Possible values are as follows:</span></span>
     
-<span data-ttu-id="c070f-140">DT_ACCEPT_DBCS</span><span class="sxs-lookup"><span data-stu-id="c070f-140">DT_ACCEPT_DBCS</span></span> 
+<span data-ttu-id="34f21-140">ДТ_АКЦЕПТ_ДБКС</span><span class="sxs-lookup"><span data-stu-id="34f21-140">DT_ACCEPT_DBCS</span></span> 
   
-> <span data-ttu-id="c070f-141">Допускается формата ANSI или DBCS.</span><span class="sxs-lookup"><span data-stu-id="c070f-141">Either the ANSI or DBCS format is accepted.</span></span> <span data-ttu-id="c070f-142">Этот флаг является допустимым редактирования только для элементов управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-142">This flag is valid for edit controls only.</span></span>
+> <span data-ttu-id="34f21-141">Принимается формат ANSI или DBCS.</span><span class="sxs-lookup"><span data-stu-id="34f21-141">Either the ANSI or DBCS format is accepted.</span></span> <span data-ttu-id="34f21-142">Этот флаг действителен только для элементов управления редактированием.</span><span class="sxs-lookup"><span data-stu-id="34f21-142">This flag is valid for edit controls only.</span></span>
     
-<span data-ttu-id="c070f-143">DT_EDITABLE</span><span class="sxs-lookup"><span data-stu-id="c070f-143">DT_EDITABLE</span></span> 
+<span data-ttu-id="34f21-143">ДТ_ЕДИТАБЛЕ</span><span class="sxs-lookup"><span data-stu-id="34f21-143">DT_EDITABLE</span></span> 
   
-> <span data-ttu-id="c070f-144">Пользователь может изменить текст в элементе управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-144">A user can modify the text in the control.</span></span> 
+> <span data-ttu-id="34f21-144">Пользователь может изменять текст в элементе управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-144">A user can modify the text in the control.</span></span> 
     
-<span data-ttu-id="c070f-145">DT_MULTILINE</span><span class="sxs-lookup"><span data-stu-id="c070f-145">DT_MULTILINE</span></span> 
+<span data-ttu-id="34f21-145">ДТ_МУЛТИЛИНЕ</span><span class="sxs-lookup"><span data-stu-id="34f21-145">DT_MULTILINE</span></span> 
   
-> <span data-ttu-id="c070f-146">Элемент управления может содержать несколько строк текста.</span><span class="sxs-lookup"><span data-stu-id="c070f-146">The control can contain multiple text lines.</span></span> <span data-ttu-id="c070f-147">Этот флаг является допустимым редактирования только для элементов управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-147">This flag is valid for edit controls only.</span></span>
+> <span data-ttu-id="34f21-146">Элемент управления может содержать несколько строк текста.</span><span class="sxs-lookup"><span data-stu-id="34f21-146">The control can contain multiple text lines.</span></span> <span data-ttu-id="34f21-147">Этот флаг действителен только для элементов управления редактированием.</span><span class="sxs-lookup"><span data-stu-id="34f21-147">This flag is valid for edit controls only.</span></span>
     
-<span data-ttu-id="c070f-148">DT_PASSWORD_EDIT</span><span class="sxs-lookup"><span data-stu-id="c070f-148">DT_PASSWORD_EDIT</span></span> 
+<span data-ttu-id="34f21-148">ДТ_ПАССВОРД_ЕДИТ</span><span class="sxs-lookup"><span data-stu-id="34f21-148">DT_PASSWORD_EDIT</span></span> 
   
-> <span data-ttu-id="c070f-149">Элемент управления содержит пароль; Таким образом содержимое элемента управления не должен отображаться для пользователя.</span><span class="sxs-lookup"><span data-stu-id="c070f-149">The control contains a password; therefore, the contents of the control should not be displayed to the user.</span></span> <span data-ttu-id="c070f-150">Этот флаг является допустимым редактирования только для элементов управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-150">This flag is valid for edit controls only.</span></span>
+> <span data-ttu-id="34f21-149">Элемент управления содержит пароль; Поэтому содержимое элемента управления не должно отображаться для пользователя.</span><span class="sxs-lookup"><span data-stu-id="34f21-149">The control contains a password; therefore, the contents of the control should not be displayed to the user.</span></span> <span data-ttu-id="34f21-150">Этот флаг действителен только для элементов управления редактированием.</span><span class="sxs-lookup"><span data-stu-id="34f21-150">This flag is valid for edit controls only.</span></span>
     
-<span data-ttu-id="c070f-151">DT_REQUIRED</span><span class="sxs-lookup"><span data-stu-id="c070f-151">DT_REQUIRED</span></span> 
+<span data-ttu-id="34f21-151">ДТ_РЕКУИРЕД</span><span class="sxs-lookup"><span data-stu-id="34f21-151">DT_REQUIRED</span></span> 
   
-> <span data-ttu-id="c070f-152">Элемент управления полем диалоговое окно является обязательным.</span><span class="sxs-lookup"><span data-stu-id="c070f-152">The dialog box control is required.</span></span> <span data-ttu-id="c070f-153">Этот флаг является допустимым только для элементов управления редактирования и поля со списком.</span><span class="sxs-lookup"><span data-stu-id="c070f-153">This flag is valid only for edit and combo box controls.</span></span>
+> <span data-ttu-id="34f21-152">Элемент управления "диалоговое окно" является обязательным.</span><span class="sxs-lookup"><span data-stu-id="34f21-152">The dialog box control is required.</span></span> <span data-ttu-id="34f21-153">Этот флаг действителен только для элементов управления "поле ввода" и "поле со списком".</span><span class="sxs-lookup"><span data-stu-id="34f21-153">This flag is valid only for edit and combo box controls.</span></span>
     
-<span data-ttu-id="c070f-154">DT_SET_IMMEDIATE</span><span class="sxs-lookup"><span data-stu-id="c070f-154">DT_SET_IMMEDIATE</span></span> 
+<span data-ttu-id="34f21-154">ДТ_СЕТ_ИММЕДИАТЕ</span><span class="sxs-lookup"><span data-stu-id="34f21-154">DT_SET_IMMEDIATE</span></span> 
   
-> <span data-ttu-id="c070f-155">Включение Интерпретация выходных данных, значение при изменении в элементе управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-155">Enables immediate output of a value upon a change in the control.</span></span> <span data-ttu-id="c070f-156">Это позволяет отношения зависимости соединения между двумя элементами управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-156">This allows a dependency relationship to be established between two controls.</span></span> 
+> <span data-ttu-id="34f21-155">Включает немедленный вывод значения при изменении элемента управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-155">Enables immediate output of a value upon a change in the control.</span></span> <span data-ttu-id="34f21-156">Это позволяет установить отношение зависимости между двумя элементами управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-156">This allows a dependency relationship to be established between two controls.</span></span> 
     
-<span data-ttu-id="c070f-157">**lpbNotif**</span><span class="sxs-lookup"><span data-stu-id="c070f-157">**lpbNotif**</span></span>
+<span data-ttu-id="34f21-157">**Лпбнотиф**</span><span class="sxs-lookup"><span data-stu-id="34f21-157">**lpbNotif**</span></span>
   
-> <span data-ttu-id="c070f-158">Указатель на структуру, которая состоит из структуру [идентификатор GUID](guid.md) для представления поставщика услуг и идентификатор для элемента управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-158">Pointer to a structure that consists of a [GUID](guid.md) structure, to represent the service provider and an identifier for the control.</span></span> <span data-ttu-id="c070f-159">Члены **lpbNotif** и **cbNotif** соответствуют свойства **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) и использовать для уведомления пользовательского интерфейса, когда элемент управления имеет должны обновляться.</span><span class="sxs-lookup"><span data-stu-id="c070f-159">The **lpbNotif** and **cbNotif** members correspond to the control's **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) property and are used to notify the user interface when the control has to be updated.</span></span>
+> <span data-ttu-id="34f21-158">Указатель на структуру, состоящую из структуры [GUID](guid.md) , которая представляет поставщика услуг и идентификатор элемента управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-158">Pointer to a structure that consists of a [GUID](guid.md) structure, to represent the service provider and an identifier for the control.</span></span> <span data-ttu-id="34f21-159">Члены **лпбнотиф** и **кбнотиф** соответствуют свойству **пр_контрол_ид** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) элемента управления и используются для уведомления пользовательского интерфейса при необходимости обновления элемента управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-159">The **lpbNotif** and **cbNotif** members correspond to the control's **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) property and are used to notify the user interface when the control has to be updated.</span></span>
     
-<span data-ttu-id="c070f-160">**cbNotif**</span><span class="sxs-lookup"><span data-stu-id="c070f-160">**cbNotif**</span></span>
+<span data-ttu-id="34f21-160">**Кбнотиф**</span><span class="sxs-lookup"><span data-stu-id="34f21-160">**cbNotif**</span></span>
   
-> <span data-ttu-id="c070f-161">Число байт в структуре, на который указывает член **lpbNotif** .</span><span class="sxs-lookup"><span data-stu-id="c070f-161">Count of bytes in the structure pointed to by the **lpbNotif** member.</span></span> 
+> <span data-ttu-id="34f21-161">Количество байтов в структуре, на которую указывает элемент **лпбнотиф** .</span><span class="sxs-lookup"><span data-stu-id="34f21-161">Count of bytes in the structure pointed to by the **lpbNotif** member.</span></span> 
     
-<span data-ttu-id="c070f-162">**lpszFilter**</span><span class="sxs-lookup"><span data-stu-id="c070f-162">**lpszFilter**</span></span>
+<span data-ttu-id="34f21-162">**Лпсзфилтер**</span><span class="sxs-lookup"><span data-stu-id="34f21-162">**lpszFilter**</span></span>
   
-> <span data-ttu-id="c070f-163">Указатель на строку символов, которая описывается, какие символы можно ввести в элемент управления поля со списком или изменить.</span><span class="sxs-lookup"><span data-stu-id="c070f-163">Pointer to a character string that describes which characters can be entered into an edit or combo box control.</span></span> <span data-ttu-id="c070f-164">Для других типов элементов управления **lpszFilter** участник может быть NULL.</span><span class="sxs-lookup"><span data-stu-id="c070f-164">For other types of controls, the **lpszFilter** member can be NULL.</span></span> <span data-ttu-id="c070f-165">Для редактирования и поля со списком элементов управления следует регулярное выражение, которое применяется к один символ за раз.</span><span class="sxs-lookup"><span data-stu-id="c070f-165">For edit and combo box controls, it should be a regular expression that applies to a single character at a time.</span></span> <span data-ttu-id="c070f-166">Тот же фильтр будет применяться ко всем символов в элементе управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-166">The same filter is applied to all characters in the control.</span></span> <span data-ttu-id="c070f-167">Формат строки фильтра выглядит следующим образом:</span><span class="sxs-lookup"><span data-stu-id="c070f-167">The format of the filter string is as follows:</span></span> 
+> <span data-ttu-id="34f21-163">Указатель на строку символов, описывающую символы, которые можно ввести в элемент управления "поле ввода" или "поле со списком".</span><span class="sxs-lookup"><span data-stu-id="34f21-163">Pointer to a character string that describes which characters can be entered into an edit or combo box control.</span></span> <span data-ttu-id="34f21-164">Для других типов элементов управления элемент **лпсзфилтер** может иметь значение null.</span><span class="sxs-lookup"><span data-stu-id="34f21-164">For other types of controls, the **lpszFilter** member can be NULL.</span></span> <span data-ttu-id="34f21-165">Для элементов управления "поле со списком" и "поле со списком" это должно быть регулярное выражение, которое применяется к отдельному символу за раз.</span><span class="sxs-lookup"><span data-stu-id="34f21-165">For edit and combo box controls, it should be a regular expression that applies to a single character at a time.</span></span> <span data-ttu-id="34f21-166">Один и тот же фильтр применяется ко всем символам в элементе управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-166">The same filter is applied to all characters in the control.</span></span> <span data-ttu-id="34f21-167">Строка фильтра имеет следующий формат:</span><span class="sxs-lookup"><span data-stu-id="34f21-167">The format of the filter string is as follows:</span></span> 
     
-|<span data-ttu-id="c070f-168">**Символ**</span><span class="sxs-lookup"><span data-stu-id="c070f-168">**Character**</span></span>|<span data-ttu-id="c070f-169">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c070f-169">**Description**</span></span>|
+|<span data-ttu-id="34f21-168">**Символ**</span><span class="sxs-lookup"><span data-stu-id="34f21-168">**Character**</span></span>|<span data-ttu-id="34f21-169">**Описание**</span><span class="sxs-lookup"><span data-stu-id="34f21-169">**Description**</span></span>|
 |:-----|:-----|
-| `*` <br/> | <span data-ttu-id="c070f-170">Допускается любой символ (например, `"*"`).</span><span class="sxs-lookup"><span data-stu-id="c070f-170">Any character is allowed (for example, `"*"`).</span></span>  <br/> |
-| `[ ]` <br/> |<span data-ttu-id="c070f-171">Определяет набор символов (например, `"[0123456789]"`.)</span><span class="sxs-lookup"><span data-stu-id="c070f-171">Defines a set of characters (for example, `"[0123456789]"`.)</span></span>  <br/> |
-| `-` <br/> |<span data-ttu-id="c070f-172">Указывает диапазон символов (например, `"[a-z]"`).</span><span class="sxs-lookup"><span data-stu-id="c070f-172">Indicates a range of characters (for example, `"[a-z]"`).</span></span>  <br/> |
-| `~` <br/> |<span data-ttu-id="c070f-173">Указывает, что эти символы не разрешены (например, `"[~0-9]")`.</span><span class="sxs-lookup"><span data-stu-id="c070f-173">Indicates that these characters are not allowed (for example, `"[~0-9]")`.</span></span> <br/>|   
-| `\` <br/> |<span data-ttu-id="c070f-174">Используется для любой из предыдущих символы кавычек (например, `"[\-\\\[\]]"` означает, что-, \, [, и] могут знаков).</span><span class="sxs-lookup"><span data-stu-id="c070f-174">Used to quote any of the previous symbols (for example, `"[\-\\\[\]]"` means -, \, [, and ] characters are allowed).</span></span>  <br/> |
+| `*` <br/> | <span data-ttu-id="34f21-170">Разрешен любой символ (например, `"*"`).</span><span class="sxs-lookup"><span data-stu-id="34f21-170">Any character is allowed (for example, `"*"`).</span></span>  <br/> |
+| `[ ]` <br/> |<span data-ttu-id="34f21-171">Определяет набор символов (например, `"[0123456789]"`.).</span><span class="sxs-lookup"><span data-stu-id="34f21-171">Defines a set of characters (for example, `"[0123456789]"`.)</span></span>  <br/> |
+| `-` <br/> |<span data-ttu-id="34f21-172">Указывает диапазон символов (например, `"[a-z]"`).</span><span class="sxs-lookup"><span data-stu-id="34f21-172">Indicates a range of characters (for example, `"[a-z]"`).</span></span>  <br/> |
+| `~` <br/> |<span data-ttu-id="34f21-173">Указывает, что эти символы не разрешены (например, `"[~0-9]")`.</span><span class="sxs-lookup"><span data-stu-id="34f21-173">Indicates that these characters are not allowed (for example, `"[~0-9]")`.</span></span> <br/>|   
+| `\` <br/> |<span data-ttu-id="34f21-174">Используется для заключения в кавычки любого из предыдущих символов (например `"[\-\\\[\]]"` , допустимые \, символы-, [, и]).</span><span class="sxs-lookup"><span data-stu-id="34f21-174">Used to quote any of the previous symbols (for example, `"[\-\\\[\]]"` means -, \, [, and ] characters are allowed).</span></span>  <br/> |
    
-<span data-ttu-id="c070f-175">**ulItemID**</span><span class="sxs-lookup"><span data-stu-id="c070f-175">**ulItemID**</span></span>
+<span data-ttu-id="34f21-175">**Улитемид**</span><span class="sxs-lookup"><span data-stu-id="34f21-175">**ulItemID**</span></span>
   
-> <span data-ttu-id="c070f-176">Значение, идентифицирующее элемент управления в ресурс диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="c070f-176">Value that identifies the control in the dialog box resource.</span></span> <span data-ttu-id="c070f-177">Для элементов управления страниц с вкладками типа DTCT_PAGE **ulItemID** член при необходимости используется для загрузки имя компонента страницы из строки ресурсов.</span><span class="sxs-lookup"><span data-stu-id="c070f-177">For tabbed pages controls of type DTCT_PAGE the **ulItemID** member is optionally used to load the component name for the page from a string resource.</span></span> <span data-ttu-id="c070f-178">Положение и сведения о метке считываются из ресурс диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="c070f-178">Position and label information are read from the dialog box resource.</span></span> 
+> <span data-ttu-id="34f21-176">Значение, идентифицирующее элемент управления в ресурсе диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="34f21-176">Value that identifies the control in the dialog box resource.</span></span> <span data-ttu-id="34f21-177">Для элементов управления страниц с вкладками типа ДТКТ_ПАЖЕ элемент **улитемид** (необязательно) используется для загрузки имени компонента страницы из строкового ресурса.</span><span class="sxs-lookup"><span data-stu-id="34f21-177">For tabbed pages controls of type DTCT_PAGE the **ulItemID** member is optionally used to load the component name for the page from a string resource.</span></span> <span data-ttu-id="34f21-178">Сведения о положении и метке считываются из диалогового окна ресурс.</span><span class="sxs-lookup"><span data-stu-id="34f21-178">Position and label information are read from the dialog box resource.</span></span> 
     
-<span data-ttu-id="c070f-179">**список доверия сертификатов**</span><span class="sxs-lookup"><span data-stu-id="c070f-179">**ctl**</span></span>
+<span data-ttu-id="34f21-179">**доверен**</span><span class="sxs-lookup"><span data-stu-id="34f21-179">**ctl**</span></span>
   
-> <span data-ttu-id="c070f-180">Структура, которая содержит данные для элемента управления и соответствует свойству **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) элемента управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-180">A structure that holds the data for the control and corresponds to the control's **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) property.</span></span> <span data-ttu-id="c070f-181">Каждый тип элемента управления имеет другую структуру.</span><span class="sxs-lookup"><span data-stu-id="c070f-181">Each type of control has a different structure.</span></span>
+> <span data-ttu-id="34f21-180">Структура, содержащая данные для элемента управления и соответствующая свойству **пр_контрол_структуре** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) элемента управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-180">A structure that holds the data for the control and corresponds to the control's **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) property.</span></span> <span data-ttu-id="34f21-181">Каждый тип элемента управления имеет разную структуру.</span><span class="sxs-lookup"><span data-stu-id="34f21-181">Each type of control has a different structure.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c070f-182">Замечания</span><span class="sxs-lookup"><span data-stu-id="c070f-182">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="34f21-182">Комментарии</span><span class="sxs-lookup"><span data-stu-id="34f21-182">Remarks</span></span>
 
-<span data-ttu-id="c070f-183">Структура **DTCTL** описывает один элемент управления любого типа.</span><span class="sxs-lookup"><span data-stu-id="c070f-183">The **DTCTL** structure describes one control of any type.</span></span> <span data-ttu-id="c070f-184">Большая часть его члены используются для задания свойств элемента управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-184">Most of its members are used to set properties on the control.</span></span> 
+<span data-ttu-id="34f21-183">Структура **дтктл** описывает один элемент управления любого типа.</span><span class="sxs-lookup"><span data-stu-id="34f21-183">The **DTCTL** structure describes one control of any type.</span></span> <span data-ttu-id="34f21-184">Большинство его членов используются для задания свойств элемента управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-184">Most of its members are used to set properties on the control.</span></span> 
   
-<span data-ttu-id="c070f-185">Член **список доверия сертификатов** — это объединение структуры, относящиеся к определенным типом элемента управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-185">The **ctl** member is a union of structures that relate to a particular type of control.</span></span> <span data-ttu-id="c070f-186">Если структура **DTCTL** — это описания элемента управления, например, член **список доверия сертификатов** будет наведите указатель мыши [DTBLEDIT](dtbledit.md) структуры.</span><span class="sxs-lookup"><span data-stu-id="c070f-186">If the **DTCTL** structure is describing an edit control, for example, the **ctl** member will point to a [DTBLEDIT](dtbledit.md) structure.</span></span> <span data-ttu-id="c070f-187">Эта структура соответствует свойству **PR_CONTROL_STRUCTURE** элемента управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-187">This structure corresponds to the control's **PR_CONTROL_STRUCTURE** property.</span></span> <span data-ttu-id="c070f-188">Объединение имеет его, входящей в первой переменной типа LPVOID, чтобы разрешить инициализацию времени компиляции **DTCTL** структуры.</span><span class="sxs-lookup"><span data-stu-id="c070f-188">The union has as its first member a variable of type LPVOID to allow compile time initialization of the **DTCTL** structure.</span></span> 
+<span data-ttu-id="34f21-185">Элемент **CTL** является объединением структур, которые относятся к определенному типу элементов управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-185">The **ctl** member is a union of structures that relate to a particular type of control.</span></span> <span data-ttu-id="34f21-186">Если структура **дтктл** описывает элемент управления для редактирования, например, элемент **CTL** будет указывает на структуру [дтбледит](dtbledit.md) .</span><span class="sxs-lookup"><span data-stu-id="34f21-186">If the **DTCTL** structure is describing an edit control, for example, the **ctl** member will point to a [DTBLEDIT](dtbledit.md) structure.</span></span> <span data-ttu-id="34f21-187">Эта структура соответствует свойству **пр_контрол_структуре** элемента управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-187">This structure corresponds to the control's **PR_CONTROL_STRUCTURE** property.</span></span> <span data-ttu-id="34f21-188">Union имеет в качестве первого члена переменную типа ЛПВОИД, чтобы разрешить инициализацию времени компиляции структуры **дтктл** .</span><span class="sxs-lookup"><span data-stu-id="34f21-188">The union has as its first member a variable of type LPVOID to allow compile time initialization of the **DTCTL** structure.</span></span> 
   
-<span data-ttu-id="c070f-189">Несмотря на то, что функция [BuildDisplayTable](builddisplaytable.md) использует структуру **DTCTL** для построения в таблице отображения из элемента управления ресурсами, структура **DTCTL** никогда не отображается в самой таблицы отображения.</span><span class="sxs-lookup"><span data-stu-id="c070f-189">Although the [BuildDisplayTable](builddisplaytable.md) function uses the **DTCTL** structure for building the display table from control resources, the **DTCTL** structure never appears in the display table itself.</span></span> <span data-ttu-id="c070f-190">Эта структура только что предоставляет сведения о **BuildDisplayTable**.</span><span class="sxs-lookup"><span data-stu-id="c070f-190">This structure just supplies information to **BuildDisplayTable**.</span></span>
+<span data-ttu-id="34f21-189">Несмотря на то, что функция [буилддисплайтабле](builddisplaytable.md) использует структуру **дтктл** для создания таблицы отображения из ресурсов управления, структура **дтктл** никогда не отображается в самой таблице.</span><span class="sxs-lookup"><span data-stu-id="34f21-189">Although the [BuildDisplayTable](builddisplaytable.md) function uses the **DTCTL** structure for building the display table from control resources, the **DTCTL** structure never appears in the display table itself.</span></span> <span data-ttu-id="34f21-190">Эта структура просто предоставляет информацию в **буилддисплайтабле**.</span><span class="sxs-lookup"><span data-stu-id="34f21-190">This structure just supplies information to **BuildDisplayTable**.</span></span>
   
-<span data-ttu-id="c070f-191">Элемент **ulCtlFlags** четыре флаги DT_ACCEPT_DBCS, DT_EDITABLE, влияющие на DT_MULTILINE_and DT_PASSWORD_EDIT изменить только элементы управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-191">In the **ulCtlFlags** member, four flags DT_ACCEPT_DBCS, DT_EDITABLE, DT_MULTILINE_and DT_PASSWORD_EDIT affect edit controls only.</span></span> <span data-ttu-id="c070f-192">Два других пользователей DT_REQUIRED и DT_SET_IMMEDIATE влияет на любой редактируемом элементе управления.</span><span class="sxs-lookup"><span data-stu-id="c070f-192">Two others DT_REQUIRED and DT_SET_IMMEDIATE affect any editable control.</span></span> 
+<span data-ttu-id="34f21-191">В элементе **улктлфлагс** четыре флага ДТ_АКЦЕПТ_ДБКС, Дт_едитабле, дт_мултилине_анд дт_пассворд_едит влияют только на элементы управления редактированием.</span><span class="sxs-lookup"><span data-stu-id="34f21-191">In the **ulCtlFlags** member, four flags DT_ACCEPT_DBCS, DT_EDITABLE, DT_MULTILINE_and DT_PASSWORD_EDIT affect edit controls only.</span></span> <span data-ttu-id="34f21-192">Два других ДТ_РЕКУИРЕД и ДТ_СЕТ_ИММЕДИАТЕ влияют на любой редактируемый элемент управления.</span><span class="sxs-lookup"><span data-stu-id="34f21-192">Two others DT_REQUIRED and DT_SET_IMMEDIATE affect any editable control.</span></span> 
   
-<span data-ttu-id="c070f-193">Элементы управления, доступные для диалогового окна, метки, текстовое поле, принять во внимание рукописного ввода текстовое поле, список, раскрывающегося списка, поля со списком, флажок, поле группы, кнопка, переключатель и страницы с вкладками.</span><span class="sxs-lookup"><span data-stu-id="c070f-193">The controls available for a dialog box are label, text box, ink-aware text box, list, drop-down list, combo box, check box, group box, button, radio button, and tabbed page.</span></span>
+<span data-ttu-id="34f21-193">Элементы управления, доступные для диалогового окна: Label, текстовое поле, текстовое поле с поддержкой рукописного ввода, список, раскрывающийся список, поле со списком, флажок, группа, кнопка, переключатель и страница с вкладками.</span><span class="sxs-lookup"><span data-stu-id="34f21-193">The controls available for a dialog box are label, text box, ink-aware text box, list, drop-down list, combo box, check box, group box, button, radio button, and tabbed page.</span></span>
   
-<span data-ttu-id="c070f-194">Общие сведения о таблицах отображения разделе [Отображение таблиц](display-tables.md).</span><span class="sxs-lookup"><span data-stu-id="c070f-194">For an overview of display tables, see [Display Tables](display-tables.md).</span></span> <span data-ttu-id="c070f-195">Сведения о том, как реализовать отображения таблицу [Таблица отображения](display-table-implementation.md)см.</span><span class="sxs-lookup"><span data-stu-id="c070f-195">For information about how to implement a display table, see [Implementing a Display Table](display-table-implementation.md).</span></span>
+<span data-ttu-id="34f21-194">Общие сведения о отображаемых таблицах приведены в разделе [Display Tables](display-tables.md).</span><span class="sxs-lookup"><span data-stu-id="34f21-194">For an overview of display tables, see [Display Tables](display-tables.md).</span></span> <span data-ttu-id="34f21-195">Сведения о том, как реализовать таблицу отображения, можно найти [в статье реализация таблицы отображения](display-table-implementation.md).</span><span class="sxs-lookup"><span data-stu-id="34f21-195">For information about how to implement a display table, see [Implementing a Display Table](display-table-implementation.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c070f-196">См. также</span><span class="sxs-lookup"><span data-stu-id="c070f-196">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="34f21-196">См. также</span><span class="sxs-lookup"><span data-stu-id="34f21-196">See also</span></span>
 
-- [<span data-ttu-id="c070f-197">BuildDisplayTable</span><span class="sxs-lookup"><span data-stu-id="c070f-197">BuildDisplayTable</span></span>](builddisplaytable.md)
-- [<span data-ttu-id="c070f-198">DTBLBUTTON</span><span class="sxs-lookup"><span data-stu-id="c070f-198">DTBLBUTTON</span></span>](dtblbutton.md)
-- [<span data-ttu-id="c070f-199">DTBLCHECKBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-199">DTBLCHECKBOX</span></span>](dtblcheckbox.md)
-- [<span data-ttu-id="c070f-200">DTBLCOMBOBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-200">DTBLCOMBOBOX</span></span>](dtblcombobox.md)
-- [<span data-ttu-id="c070f-201">DTBLDDLBX</span><span class="sxs-lookup"><span data-stu-id="c070f-201">DTBLDDLBX</span></span>](dtblddlbx.md)
-- [<span data-ttu-id="c070f-202">DTBLEDIT</span><span class="sxs-lookup"><span data-stu-id="c070f-202">DTBLEDIT</span></span>](dtbledit.md)
-- [<span data-ttu-id="c070f-203">DTBLGROUPBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-203">DTBLGROUPBOX</span></span>](dtblgroupbox.md)
-- [<span data-ttu-id="c070f-204">DTBLLABEL</span><span class="sxs-lookup"><span data-stu-id="c070f-204">DTBLLABEL</span></span>](dtbllabel.md)
-- [<span data-ttu-id="c070f-205">DTBLLBX</span><span class="sxs-lookup"><span data-stu-id="c070f-205">DTBLLBX</span></span>](dtbllbx.md)
-- [<span data-ttu-id="c070f-206">DTBLMVDDLBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-206">DTBLMVDDLBOX</span></span>](dtblmvddlbox.md)
-- [<span data-ttu-id="c070f-207">DTBLMVLISTBOX</span><span class="sxs-lookup"><span data-stu-id="c070f-207">DTBLMVLISTBOX</span></span>](dtblmvlistbox.md)
-- [<span data-ttu-id="c070f-208">DTBLPAGE</span><span class="sxs-lookup"><span data-stu-id="c070f-208">DTBLPAGE</span></span>](dtblpage.md)
-- [<span data-ttu-id="c070f-209">DTBLRADIOBUTTON</span><span class="sxs-lookup"><span data-stu-id="c070f-209">DTBLRADIOBUTTON</span></span>](dtblradiobutton.md)
-- [<span data-ttu-id="c070f-210">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="c070f-210">MAPI Structures</span></span>](mapi-structures.md)
+- [<span data-ttu-id="34f21-197">BuildDisplayTable</span><span class="sxs-lookup"><span data-stu-id="34f21-197">BuildDisplayTable</span></span>](builddisplaytable.md)
+- [<span data-ttu-id="34f21-198">DTBLBUTTON</span><span class="sxs-lookup"><span data-stu-id="34f21-198">DTBLBUTTON</span></span>](dtblbutton.md)
+- [<span data-ttu-id="34f21-199">DTBLCHECKBOX</span><span class="sxs-lookup"><span data-stu-id="34f21-199">DTBLCHECKBOX</span></span>](dtblcheckbox.md)
+- [<span data-ttu-id="34f21-200">DTBLCOMBOBOX</span><span class="sxs-lookup"><span data-stu-id="34f21-200">DTBLCOMBOBOX</span></span>](dtblcombobox.md)
+- [<span data-ttu-id="34f21-201">DTBLDDLBX</span><span class="sxs-lookup"><span data-stu-id="34f21-201">DTBLDDLBX</span></span>](dtblddlbx.md)
+- [<span data-ttu-id="34f21-202">DTBLEDIT</span><span class="sxs-lookup"><span data-stu-id="34f21-202">DTBLEDIT</span></span>](dtbledit.md)
+- [<span data-ttu-id="34f21-203">DTBLGROUPBOX</span><span class="sxs-lookup"><span data-stu-id="34f21-203">DTBLGROUPBOX</span></span>](dtblgroupbox.md)
+- [<span data-ttu-id="34f21-204">DTBLLABEL</span><span class="sxs-lookup"><span data-stu-id="34f21-204">DTBLLABEL</span></span>](dtbllabel.md)
+- [<span data-ttu-id="34f21-205">DTBLLBX</span><span class="sxs-lookup"><span data-stu-id="34f21-205">DTBLLBX</span></span>](dtbllbx.md)
+- [<span data-ttu-id="34f21-206">DTBLMVDDLBOX</span><span class="sxs-lookup"><span data-stu-id="34f21-206">DTBLMVDDLBOX</span></span>](dtblmvddlbox.md)
+- [<span data-ttu-id="34f21-207">DTBLMVLISTBOX</span><span class="sxs-lookup"><span data-stu-id="34f21-207">DTBLMVLISTBOX</span></span>](dtblmvlistbox.md)
+- [<span data-ttu-id="34f21-208">DTBLPAGE</span><span class="sxs-lookup"><span data-stu-id="34f21-208">DTBLPAGE</span></span>](dtblpage.md)
+- [<span data-ttu-id="34f21-209">DTBLRADIOBUTTON</span><span class="sxs-lookup"><span data-stu-id="34f21-209">DTBLRADIOBUTTON</span></span>](dtblradiobutton.md)
+- [<span data-ttu-id="34f21-210">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="34f21-210">MAPI Structures</span></span>](mapi-structures.md)
 

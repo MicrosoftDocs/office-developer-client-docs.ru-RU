@@ -1,5 +1,5 @@
 ---
-title: Строка InfiniteLine (раздел "Геометрия")
+title: InfiniteLine Row (Geometry Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,29 +8,29 @@ f1_keywords:
 - vis_sdr.chm3020
 localization_priority: Normal
 ms.assetid: 55942a42-5e88-2f6b-69f8-405ce406fcaf
-description: Содержит x - и y-координаты двух точек на строку не ограничен.
-ms.openlocfilehash: 68818bc657d9bdc5a9e47effa9254fd1cbd1c1cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Содержит координаты x и y по двум точкам в бесконечной линии.
+ms.openlocfilehash: b6338b6b50535379759649c791b9678de640df70
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335352"
 ---
-# <a name="infiniteline-row-geometry-section"></a><span data-ttu-id="426b3-103">Строка InfiniteLine (раздел "Геометрия")</span><span class="sxs-lookup"><span data-stu-id="426b3-103">InfiniteLine Row (Geometry Section)</span></span>
+# <a name="infiniteline-row-geometry-section"></a><span data-ttu-id="15b55-103">InfiniteLine Row (Geometry Section)</span><span class="sxs-lookup"><span data-stu-id="15b55-103">InfiniteLine Row (Geometry Section)</span></span>
 
-<span data-ttu-id="426b3-104">Содержит *x* - и *y* -координаты двух точек на строку не ограничен.</span><span class="sxs-lookup"><span data-stu-id="426b3-104">Contains the  *x*  - and  *y*  -coordinates of two points on an infinite line.</span></span> 
+<span data-ttu-id="15b55-104">Содержит координаты *x* и *y* по двум точкам в бесконечной линии.</span><span class="sxs-lookup"><span data-stu-id="15b55-104">Contains the  *x*  - and  *y*  -coordinates of two points on an infinite line.</span></span> 
   
-<span data-ttu-id="426b3-105">Строка InfiniteLine содержит следующие ячеек.</span><span class="sxs-lookup"><span data-stu-id="426b3-105">An InfiniteLine row contains the following cells.</span></span>
+<span data-ttu-id="15b55-105">Строка строка infiniteline содержит следующие ячейки.</span><span class="sxs-lookup"><span data-stu-id="15b55-105">An InfiniteLine row contains the following cells.</span></span>
   
-|<span data-ttu-id="426b3-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="426b3-106">**Cell**</span></span>|<span data-ttu-id="426b3-107">**Описание**</span><span class="sxs-lookup"><span data-stu-id="426b3-107">**Description**</span></span>|
+|<span data-ttu-id="15b55-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="15b55-106">**Cell**</span></span>|<span data-ttu-id="15b55-107">**Описание**</span><span class="sxs-lookup"><span data-stu-id="15b55-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="426b3-108">X</span><span class="sxs-lookup"><span data-stu-id="426b3-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="426b3-109">*X* -координаты точки на строке не ограничен. в сочетании с *y* -координата, представленный в ячейку Y.</span><span class="sxs-lookup"><span data-stu-id="426b3-109">An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the Y cell.</span></span>  <br/> |
-|[<span data-ttu-id="426b3-110">Да</span><span class="sxs-lookup"><span data-stu-id="426b3-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="426b3-111">*Y* -координаты точки на строке не ограничен. в сочетании с *x* -координата, представленный в ячейку X.</span><span class="sxs-lookup"><span data-stu-id="426b3-111">A  *y*  -coordinate of a point on the infinite line; paired with  *x*  -coordinate represented by the X cell.</span></span>  <br/> |
-|[<span data-ttu-id="426b3-112">A</span><span class="sxs-lookup"><span data-stu-id="426b3-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="426b3-113">*X* -координаты точки на строке не ограничен. в сочетании с *y* -координата, представленное B ячейки.</span><span class="sxs-lookup"><span data-stu-id="426b3-113">An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the B cell.</span></span>  <br/> |
-|[<span data-ttu-id="426b3-114">B</span><span class="sxs-lookup"><span data-stu-id="426b3-114">B</span></span>](b-cell-geometry-section.md) <br/> |<span data-ttu-id="426b3-115">*Y* -координаты точки на неограниченное строке. в сочетании с *x* -координата, представленное ячейке.</span><span class="sxs-lookup"><span data-stu-id="426b3-115">A  *y*  -coordinate of a point on an infinite line; paired with  *x*  -coordinate represented by the A cell.</span></span>  <br/> |
+|[<span data-ttu-id="15b55-108">X</span><span class="sxs-lookup"><span data-stu-id="15b55-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="15b55-109">Координата *x* точки на бесконечной линии; Связывание с координатой *y* , представленной ячейкой y.</span><span class="sxs-lookup"><span data-stu-id="15b55-109">An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the Y cell.</span></span>  <br/> |
+|[<span data-ttu-id="15b55-110">Y (да)</span><span class="sxs-lookup"><span data-stu-id="15b55-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="15b55-111">Координата *y* точки на бесконечной линии; Связывание с координатой *x* , представленной ячейкой x.</span><span class="sxs-lookup"><span data-stu-id="15b55-111">A  *y*  -coordinate of a point on the infinite line; paired with  *x*  -coordinate represented by the X cell.</span></span>  <br/> |
+|[<span data-ttu-id="15b55-112">А</span><span class="sxs-lookup"><span data-stu-id="15b55-112">A</span></span>](a-cell-geometry-section.md) <br/> |<span data-ttu-id="15b55-113">Координата *x* точки на бесконечной линии; Связывание с координатой *y* , представленной в ячейке B.</span><span class="sxs-lookup"><span data-stu-id="15b55-113">An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the B cell.</span></span>  <br/> |
+|[<span data-ttu-id="15b55-114">З</span><span class="sxs-lookup"><span data-stu-id="15b55-114">B</span></span>](b-cell-geometry-section.md) <br/> |<span data-ttu-id="15b55-115">Координата *y* точки на бесконечной линии; Связывание с координатой *x* , представленной ячейкой.</span><span class="sxs-lookup"><span data-stu-id="15b55-115">A  *y*  -coordinate of a point on an infinite line; paired with  *x*  -coordinate represented by the A cell.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="426b3-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="426b3-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="15b55-116">Комментарии</span><span class="sxs-lookup"><span data-stu-id="15b55-116">Remarks</span></span>
 
-<span data-ttu-id="426b3-117">Раздел геометрии, в котором содержится эллипса или InfiniteLine строка не должен содержать других строк.</span><span class="sxs-lookup"><span data-stu-id="426b3-117">A geometry section that contains an Ellipse or InfiniteLine row should not contain any other rows.</span></span>
+<span data-ttu-id="15b55-117">Раздел геометрии, содержащий строку эллипса или строка infiniteline, не должен содержать других строк.</span><span class="sxs-lookup"><span data-stu-id="15b55-117">A geometry section that contains an Ellipse or InfiniteLine row should not contain any other rows.</span></span>
   
 

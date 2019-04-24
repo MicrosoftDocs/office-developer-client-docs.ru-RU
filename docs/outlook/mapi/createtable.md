@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5d4717dad51e7e6b90da59d285268761eec84d7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e8c399569e68b8cb55d803733ed93105ea0be799
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332986"
 ---
-# <a name="createtable"></a><span data-ttu-id="16342-103">CreateTable</span><span class="sxs-lookup"><span data-stu-id="16342-103">CreateTable</span></span>
+# <a name="createtable"></a><span data-ttu-id="7b034-103">CreateTable</span><span class="sxs-lookup"><span data-stu-id="7b034-103">CreateTable</span></span>
 
   
   
-<span data-ttu-id="16342-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="16342-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7b034-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7b034-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="16342-105">Создание структуры и дескриптор объекта для объекта [ITableData](itabledataiunknown.md) , которую можно использовать для создания содержимого таблицы.</span><span class="sxs-lookup"><span data-stu-id="16342-105">Creates structures and an object handle for an [ITableData](itabledataiunknown.md) object which can be used to create table contents.</span></span> 
+<span data-ttu-id="7b034-105">Создает структуры и дескриптор объекта для объекта [итабледата](itabledataiunknown.md) , который можно использовать для создания содержимого таблицы.</span><span class="sxs-lookup"><span data-stu-id="7b034-105">Creates structures and an object handle for an [ITableData](itabledataiunknown.md) object which can be used to create table contents.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="16342-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="16342-106">Header file:</span></span>  <br/> |<span data-ttu-id="16342-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="16342-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="16342-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="16342-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="16342-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="16342-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="16342-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="16342-110">Called by:</span></span>  <br/> |<span data-ttu-id="16342-111">Клиентские приложения и поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="16342-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="7b034-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="7b034-106">Header file:</span></span>  <br/> |<span data-ttu-id="7b034-107">Мапиутил. h</span><span class="sxs-lookup"><span data-stu-id="7b034-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="7b034-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="7b034-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="7b034-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="7b034-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="7b034-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="7b034-110">Called by:</span></span>  <br/> |<span data-ttu-id="7b034-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="7b034-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE CreateTable(
@@ -47,69 +47,69 @@ SCODE CreateTable(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="16342-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="16342-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7b034-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="7b034-112">Parameters</span></span>
 
- <span data-ttu-id="16342-113">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="16342-113">_lpInterface_</span></span>
+ <span data-ttu-id="7b034-113">_Лпинтерфаце_</span><span class="sxs-lookup"><span data-stu-id="7b034-113">_lpInterface_</span></span>
   
-> <span data-ttu-id="16342-114">[in] Указатель на идентификатор интерфейса (ИД интерфейса) для объекта в таблице данных.</span><span class="sxs-lookup"><span data-stu-id="16342-114">[in] Pointer to an interface identifier (IID) for the table data object.</span></span> <span data-ttu-id="16342-115">Допустимый идентификатор является IID_IMAPITableData.</span><span class="sxs-lookup"><span data-stu-id="16342-115">The valid interface identifier is IID_IMAPITableData.</span></span> <span data-ttu-id="16342-116">Указать значение NULL для параметра _lpInterface_ вызывает объект данных в таблице, возвращаемой в параметре _lppTableData_ приведения стандартный интерфейс для объекта данных в таблице.</span><span class="sxs-lookup"><span data-stu-id="16342-116">Passing NULL in the  _lpInterface_ parameter also causes the table data object returned in the  _lppTableData_ parameter to be cast to the standard interface for a table data object.</span></span> 
+> <span data-ttu-id="7b034-114">возврата Указатель на идентификатор интерфейса (IID) для объекта данных TABLE.</span><span class="sxs-lookup"><span data-stu-id="7b034-114">[in] Pointer to an interface identifier (IID) for the table data object.</span></span> <span data-ttu-id="7b034-115">Допустимый идентификатор интерфейса — Иид_имапитабледата.</span><span class="sxs-lookup"><span data-stu-id="7b034-115">The valid interface identifier is IID_IMAPITableData.</span></span> <span data-ttu-id="7b034-116">При передаче значения NULL в параметре _лпинтерфаце_ объект табличных данных, возвращаемый в параметре _лпптабледата_ , будет приведен к стандартному интерфейсу для объекта данных таблицы.</span><span class="sxs-lookup"><span data-stu-id="7b034-116">Passing NULL in the  _lpInterface_ parameter also causes the table data object returned in the  _lppTableData_ parameter to be cast to the standard interface for a table data object.</span></span> 
     
- <span data-ttu-id="16342-117">_lpAllocateBuffer_</span><span class="sxs-lookup"><span data-stu-id="16342-117">_lpAllocateBuffer_</span></span>
+ <span data-ttu-id="7b034-117">_Лпаллокатебуффер_</span><span class="sxs-lookup"><span data-stu-id="7b034-117">_lpAllocateBuffer_</span></span>
   
-> <span data-ttu-id="16342-118">[in] Указатель на функцию [MAPIAllocateBuffer](mapiallocatebuffer.md) , которые будут использоваться для выделения памяти.</span><span class="sxs-lookup"><span data-stu-id="16342-118">[in] Pointer to the [MAPIAllocateBuffer](mapiallocatebuffer.md) function, to be used to allocate memory.</span></span> 
+> <span data-ttu-id="7b034-118">возврата Указатель на функцию [мапиаллокатебуффер](mapiallocatebuffer.md) , которая будет использоваться для выделения памяти.</span><span class="sxs-lookup"><span data-stu-id="7b034-118">[in] Pointer to the [MAPIAllocateBuffer](mapiallocatebuffer.md) function, to be used to allocate memory.</span></span> 
     
- <span data-ttu-id="16342-119">_lpAllocateMore_</span><span class="sxs-lookup"><span data-stu-id="16342-119">_lpAllocateMore_</span></span>
+ <span data-ttu-id="7b034-119">_Лпаллокатеморе_</span><span class="sxs-lookup"><span data-stu-id="7b034-119">_lpAllocateMore_</span></span>
   
-> <span data-ttu-id="16342-120">[in] Указатель на функцию [MAPIAllocateMore](mapiallocatemore.md) , которые будут использоваться для выделения дополнительной памяти.</span><span class="sxs-lookup"><span data-stu-id="16342-120">[in] Pointer to the [MAPIAllocateMore](mapiallocatemore.md) function, to be used to allocate additional memory.</span></span> 
+> <span data-ttu-id="7b034-120">возврата Указатель на функцию [мапиаллокатеморе](mapiallocatemore.md) , которая будет использоваться для выделения дополнительной памяти.</span><span class="sxs-lookup"><span data-stu-id="7b034-120">[in] Pointer to the [MAPIAllocateMore](mapiallocatemore.md) function, to be used to allocate additional memory.</span></span> 
     
- <span data-ttu-id="16342-121">_lpFreeBuffer_</span><span class="sxs-lookup"><span data-stu-id="16342-121">_lpFreeBuffer_</span></span>
+ <span data-ttu-id="7b034-121">_Лпфрибуффер_</span><span class="sxs-lookup"><span data-stu-id="7b034-121">_lpFreeBuffer_</span></span>
   
-> <span data-ttu-id="16342-122">[in] Указатель на функцию [MAPIFreeBuffer](mapifreebuffer.md) , которые будут использоваться для свободного использования памяти.</span><span class="sxs-lookup"><span data-stu-id="16342-122">[in] Pointer to the [MAPIFreeBuffer](mapifreebuffer.md) function, to be used to free memory.</span></span> 
+> <span data-ttu-id="7b034-122">возврата Указатель на функцию [мапифрибуффер](mapifreebuffer.md) , который будет использоваться для освобождения памяти.</span><span class="sxs-lookup"><span data-stu-id="7b034-122">[in] Pointer to the [MAPIFreeBuffer](mapifreebuffer.md) function, to be used to free memory.</span></span> 
     
- <span data-ttu-id="16342-123">_lpvReserved_</span><span class="sxs-lookup"><span data-stu-id="16342-123">_lpvReserved_</span></span>
+ <span data-ttu-id="7b034-123">_Лпвресервед_</span><span class="sxs-lookup"><span data-stu-id="7b034-123">_lpvReserved_</span></span>
   
-> <span data-ttu-id="16342-124">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="16342-124">[in] Reserved; must be zero.</span></span> 
+> <span data-ttu-id="7b034-124">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="7b034-124">[in] Reserved; must be zero.</span></span> 
     
- <span data-ttu-id="16342-125">_ulTableType_</span><span class="sxs-lookup"><span data-stu-id="16342-125">_ulTableType_</span></span>
+ <span data-ttu-id="7b034-125">_Ултаблетипе_</span><span class="sxs-lookup"><span data-stu-id="7b034-125">_ulTableType_</span></span>
   
-> <span data-ttu-id="16342-126">[in] Тип таблицы, доступные в клиентском приложении или поставщика услуг в составе [IMAPITable::GetStatus](imapitable-getstatus.md) возвращаемые данные в режимах таблицы.</span><span class="sxs-lookup"><span data-stu-id="16342-126">[in] A table type that is available to a client application or service provider as part of the [IMAPITable::GetStatus](imapitable-getstatus.md) return data on its table views.</span></span> <span data-ttu-id="16342-127">Возможные значения:</span><span class="sxs-lookup"><span data-stu-id="16342-127">Possible values are:</span></span> 
+> <span data-ttu-id="7b034-126">возврата Тип таблицы, доступный клиентскому приложению или поставщику услуг в составе данных, возвращаемых с помощью [IMAPITable::-Status](imapitable-getstatus.md) , в представлениях таблицы.</span><span class="sxs-lookup"><span data-stu-id="7b034-126">[in] A table type that is available to a client application or service provider as part of the [IMAPITable::GetStatus](imapitable-getstatus.md) return data on its table views.</span></span> <span data-ttu-id="7b034-127">Возможные значения:</span><span class="sxs-lookup"><span data-stu-id="7b034-127">Possible values are:</span></span> 
     
-<span data-ttu-id="16342-128">TBLTYPE_DYNAMIC</span><span class="sxs-lookup"><span data-stu-id="16342-128">TBLTYPE_DYNAMIC</span></span> 
+<span data-ttu-id="7b034-128">ТБЛТИПЕ_ДИНАМИК</span><span class="sxs-lookup"><span data-stu-id="7b034-128">TBLTYPE_DYNAMIC</span></span> 
   
-> <span data-ttu-id="16342-129">Содержимое таблицы являются динамическими и можно изменить при изменении базовых данных.</span><span class="sxs-lookup"><span data-stu-id="16342-129">The table's contents are dynamic and can change as the underlying data changes.</span></span> 
+> <span data-ttu-id="7b034-129">Содержимое таблицы является динамическим и может изменяться при изменении базовых данных.</span><span class="sxs-lookup"><span data-stu-id="7b034-129">The table's contents are dynamic and can change as the underlying data changes.</span></span> 
     
-<span data-ttu-id="16342-130">TBLTYPE_KEYSET</span><span class="sxs-lookup"><span data-stu-id="16342-130">TBLTYPE_KEYSET</span></span> 
+<span data-ttu-id="7b034-130">ТБЛТИПЕ_КЭЙСЕТ</span><span class="sxs-lookup"><span data-stu-id="7b034-130">TBLTYPE_KEYSET</span></span> 
   
-> <span data-ttu-id="16342-131">Исправленные строки в таблице, но значения в следующих строках динамических и можно изменить при изменении базовых данных.</span><span class="sxs-lookup"><span data-stu-id="16342-131">The rows in the table are fixed, but the values in these rows are dynamic and can change as the underlying data changes.</span></span> 
+> <span data-ttu-id="7b034-131">Строки в таблице фиксированы, но значения в этих строках являются динамическими и могут изменяться при изменении базовых данных.</span><span class="sxs-lookup"><span data-stu-id="7b034-131">The rows in the table are fixed, but the values in these rows are dynamic and can change as the underlying data changes.</span></span> 
     
-<span data-ttu-id="16342-132">TBLTYPE_SNAPSHOT</span><span class="sxs-lookup"><span data-stu-id="16342-132">TBLTYPE_SNAPSHOT</span></span> 
+<span data-ttu-id="7b034-132">ТБЛТИПЕ_СНАПШОТ</span><span class="sxs-lookup"><span data-stu-id="7b034-132">TBLTYPE_SNAPSHOT</span></span> 
   
-> <span data-ttu-id="16342-133">В таблице приведен статических и содержимое не изменяются при изменении базовых данных.</span><span class="sxs-lookup"><span data-stu-id="16342-133">The table is static and the contents do not change when the underlying data changes.</span></span> 
+> <span data-ttu-id="7b034-133">Таблица является статической, и ее содержимое не изменяется при изменении базовых данных.</span><span class="sxs-lookup"><span data-stu-id="7b034-133">The table is static and the contents do not change when the underlying data changes.</span></span> 
     
- <span data-ttu-id="16342-134">_ulPropTagIndexColumn_</span><span class="sxs-lookup"><span data-stu-id="16342-134">_ulPropTagIndexColumn_</span></span>
+ <span data-ttu-id="7b034-134">_Улпроптагиндексколумн_</span><span class="sxs-lookup"><span data-stu-id="7b034-134">_ulPropTagIndexColumn_</span></span>
   
-> <span data-ttu-id="16342-135">[in] Индекс столбца для использования при изменении данных в таблице.</span><span class="sxs-lookup"><span data-stu-id="16342-135">[in] Index number of the column for use when changing table data.</span></span> 
+> <span data-ttu-id="7b034-135">возврата Номер индекса столбца, используемый при изменении табличных данных.</span><span class="sxs-lookup"><span data-stu-id="7b034-135">[in] Index number of the column for use when changing table data.</span></span> 
     
- <span data-ttu-id="16342-136">_lpSPropTagArrayColumns_</span><span class="sxs-lookup"><span data-stu-id="16342-136">_lpSPropTagArrayColumns_</span></span>
+ <span data-ttu-id="7b034-136">_Лпспроптагаррайколумнс_</span><span class="sxs-lookup"><span data-stu-id="7b034-136">_lpSPropTagArrayColumns_</span></span>
   
-> <span data-ttu-id="16342-137">[in] Указатель на структуру [SPropTagArray](sproptagarray.md) , который содержит массив теги свойство, указывающее, свойства, необходимые в таблице, для которого объект содержит данные.</span><span class="sxs-lookup"><span data-stu-id="16342-137">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags indicating the properties required in the table for which the object holds data.</span></span> 
+> <span data-ttu-id="7b034-137">возврата Указатель на структуру [спроптагаррай](sproptagarray.md) , которая содержит массив тегов свойств, указывающих свойства, необходимые в таблице, для которой объект содержит данные.</span><span class="sxs-lookup"><span data-stu-id="7b034-137">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags indicating the properties required in the table for which the object holds data.</span></span> 
     
- <span data-ttu-id="16342-138">_lppTableData_</span><span class="sxs-lookup"><span data-stu-id="16342-138">_lppTableData_</span></span>
+ <span data-ttu-id="7b034-138">_Лпптабледата_</span><span class="sxs-lookup"><span data-stu-id="7b034-138">_lppTableData_</span></span>
   
-> <span data-ttu-id="16342-139">[out] Указатель на указатель на объект возвращаемой таблицы данных.</span><span class="sxs-lookup"><span data-stu-id="16342-139">[out] Pointer to a pointer to the returned table data object.</span></span>
+> <span data-ttu-id="7b034-139">вышли Указатель на указатель на возвращенный объект данных таблицы.</span><span class="sxs-lookup"><span data-stu-id="7b034-139">[out] Pointer to a pointer to the returned table data object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="16342-140">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="16342-140">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7b034-140">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7b034-140">Return value</span></span>
 
-<span data-ttu-id="16342-141">S_OK</span><span class="sxs-lookup"><span data-stu-id="16342-141">S_OK</span></span> 
+<span data-ttu-id="7b034-141">S_OK</span><span class="sxs-lookup"><span data-stu-id="7b034-141">S_OK</span></span> 
   
-> <span data-ttu-id="16342-142">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="16342-142">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="7b034-142">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="7b034-142">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="16342-143">���������</span><span class="sxs-lookup"><span data-stu-id="16342-143">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7b034-143">Комментарии</span><span class="sxs-lookup"><span data-stu-id="7b034-143">Remarks</span></span>
 
-<span data-ttu-id="16342-144">Входные параметры _lpAllocateBuffer_, _lpAllocateMore_и _lpFreeBuffer_ пункты функции [MAPIFreeBuffer](mapifreebuffer.md) , [MAPIAllocateMore](mapiallocatemore.md)и [MAPIAllocateBuffer](mapiallocatebuffer.md)соответственно.</span><span class="sxs-lookup"><span data-stu-id="16342-144">The  _lpAllocateBuffer_,  _lpAllocateMore_, and  _lpFreeBuffer_ input parameters point to the [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) functions, respectively.</span></span> <span data-ttu-id="16342-145">Клиентское приложение вызов **CreateTable** передается в указатели функции MAPI только с именем; Поставщик службы передает указатели эти функции, которые он полученных в его инициализация звонок или получить с помощью вызова метода [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) .</span><span class="sxs-lookup"><span data-stu-id="16342-145">A client application calling **CreateTable** passes in pointers to the MAPI functions just named; a service provider passes the pointers to these functions that it received in its initialization call or retrieved with a call to the [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) method.</span></span> 
+<span data-ttu-id="7b034-144">Входные параметры _лпаллокатебуффер_, _лпаллокатеморе_и _Лпфрибуффер_ заменяют функции [мапиаллокатебуффер](mapiallocatebuffer.md), [мапиаллокатеморе](mapiallocatemore.md)и [MAPIFreeBuffer](mapifreebuffer.md) соответственно.</span><span class="sxs-lookup"><span data-stu-id="7b034-144">The  _lpAllocateBuffer_,  _lpAllocateMore_, and  _lpFreeBuffer_ input parameters point to the [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) functions, respectively.</span></span> <span data-ttu-id="7b034-145">Клиентское приложение, вызывающее **креатетабле** , передает указатели на функции MAPI только с именем; поставщик услуг передает указатели на эти функции, полученные в результате инициализации или извлеченные при вызове метода [имаписуппорт:: жетмемаллокраутинес](imapisupport-getmemallocroutines.md) .</span><span class="sxs-lookup"><span data-stu-id="7b034-145">A client application calling **CreateTable** passes in pointers to the MAPI functions just named; a service provider passes the pointers to these functions that it received in its initialization call or retrieved with a call to the [IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md) method.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="16342-146">См. также</span><span class="sxs-lookup"><span data-stu-id="16342-146">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7b034-146">См. также</span><span class="sxs-lookup"><span data-stu-id="7b034-146">See also</span></span>
 
 
 
-[<span data-ttu-id="16342-147">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="16342-147">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
+[<span data-ttu-id="7b034-147">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7b034-147">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
 

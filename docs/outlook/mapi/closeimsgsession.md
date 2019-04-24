@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: a0a17309-fc59-4822-be9b-b6f623b68bb1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f358467d72f2a9f395762f529244041a5d9d8d6a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 877bebf0a156c99907505d815ca8d36a4b398678
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334939"
 ---
-# <a name="closeimsgsession"></a><span data-ttu-id="ad4fe-103">CloseIMsgSession</span><span class="sxs-lookup"><span data-stu-id="ad4fe-103">CloseIMsgSession</span></span>
+# <a name="closeimsgsession"></a><span data-ttu-id="09730-103">CloseIMsgSession</span><span class="sxs-lookup"><span data-stu-id="09730-103">CloseIMsgSession</span></span>
 
   
   
-<span data-ttu-id="ad4fe-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ad4fe-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="09730-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="09730-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ad4fe-105">Закрывает сеанса сообщения и все сообщения, созданные в течение этого сеанса.</span><span class="sxs-lookup"><span data-stu-id="ad4fe-105">Closes a message session and all the messages created within that session.</span></span> 
+<span data-ttu-id="09730-105">ЗаКрывает сеанс сообщения и все сообщения, созданные в этом сеансе.</span><span class="sxs-lookup"><span data-stu-id="09730-105">Closes a message session and all the messages created within that session.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ad4fe-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="ad4fe-106">Header file:</span></span>  <br/> |<span data-ttu-id="ad4fe-107">IMessage.h</span><span class="sxs-lookup"><span data-stu-id="ad4fe-107">Imessage.h</span></span>  <br/> |
-|<span data-ttu-id="ad4fe-108">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="ad4fe-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="ad4fe-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="ad4fe-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="ad4fe-110">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="ad4fe-110">Called by:</span></span>  <br/> |<span data-ttu-id="ad4fe-111">Клиентские приложения и поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="ad4fe-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="09730-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="09730-106">Header file:</span></span>  <br/> |<span data-ttu-id="09730-107">IMessage. h</span><span class="sxs-lookup"><span data-stu-id="09730-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="09730-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="09730-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="09730-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="09730-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="09730-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="09730-110">Called by:</span></span>  <br/> |<span data-ttu-id="09730-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="09730-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 VOID CloseIMsgSession(
@@ -39,20 +39,20 @@ VOID CloseIMsgSession(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ad4fe-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="ad4fe-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="09730-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="09730-112">Parameters</span></span>
 
- <span data-ttu-id="ad4fe-113">_lpMsgSess_</span><span class="sxs-lookup"><span data-stu-id="ad4fe-113">_lpMsgSess_</span></span>
+ <span data-ttu-id="09730-113">_Лпмсгсесс_</span><span class="sxs-lookup"><span data-stu-id="09730-113">_lpMsgSess_</span></span>
   
-> <span data-ttu-id="ad4fe-114">[in] Указатель на объект сеанса сообщения, полученные с помощью функции [OpenIMsgSession](openimsgsession.md) в начале сеанса сообщения.</span><span class="sxs-lookup"><span data-stu-id="ad4fe-114">[in] Pointer to the message session object obtained using the [OpenIMsgSession](openimsgsession.md) function at the start of the message session.</span></span> 
+> <span data-ttu-id="09730-114">возврата Указатель на объект сеанса сообщения, полученный с помощью функции [опенимсгсессион](openimsgsession.md) в начале сеанса сообщения.</span><span class="sxs-lookup"><span data-stu-id="09730-114">[in] Pointer to the message session object obtained using the [OpenIMsgSession](openimsgsession.md) function at the start of the message session.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="ad4fe-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="ad4fe-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="09730-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="09730-115">Return value</span></span>
 
-<span data-ttu-id="ad4fe-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="ad4fe-116">None.</span></span>
+<span data-ttu-id="09730-116">Нет.</span><span class="sxs-lookup"><span data-stu-id="09730-116">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ad4fe-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="ad4fe-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="09730-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="09730-117">Remarks</span></span>
 
-<span data-ttu-id="ad4fe-118">Сообщение сеанса используется клиентскими приложениями и поставщиками услуг, которые хотите работать с нескольких связанных объектов MAPI **IMessage** , построенные базовые объекты OLE **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="ad4fe-118">A message session is used by client applications and service providers that want to deal with several related MAPI **IMessage** objects built on top of underlying OLE **IStorage** objects.</span></span> <span data-ttu-id="ad4fe-119">Клиента или поставщика с помощью функции [OpenIMsgSession](openimsgsession.md) и **CloseIMsgSession** для создания таких сообщений во время сеанса сообщения.</span><span class="sxs-lookup"><span data-stu-id="ad4fe-119">The client or provider uses the [OpenIMsgSession](openimsgsession.md) and **CloseIMsgSession** functions to wrap the creation of such messages inside a message session.</span></span> <span data-ttu-id="ad4fe-120">После запуска сеанса сообщения клиента или поставщика передает указатель на него в вызове [OpenIMsgOnIStg](openimsgonistg.md) для создания нового **IMessage**- на - **IStorage** объект.</span><span class="sxs-lookup"><span data-stu-id="ad4fe-120">Once the message session is opened, the client or provider passes a pointer to it in a call to [OpenIMsgOnIStg](openimsgonistg.md) to create a new **IMessage**-on- **IStorage** object.</span></span> 
+<span data-ttu-id="09730-118">Сеанс сообщений используется клиентскими приложениями и поставщиками услуг, которые хотят работать с несколькими связанными объектами MAPI **iMessage** , построенными на основе базовых объектов OLE **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="09730-118">A message session is used by client applications and service providers that want to deal with several related MAPI **IMessage** objects built on top of underlying OLE **IStorage** objects.</span></span> <span data-ttu-id="09730-119">Клиент или поставщик использует функции [опенимсгсессион](openimsgsession.md) и **клосеимсгсессион** , чтобы создать оболочку для создания таких сообщений в сеансе сообщений.</span><span class="sxs-lookup"><span data-stu-id="09730-119">The client or provider uses the [OpenIMsgSession](openimsgsession.md) and **CloseIMsgSession** functions to wrap the creation of such messages inside a message session.</span></span> <span data-ttu-id="09730-120">После открытия сеанса сообщения клиент или поставщик передает указатель на него в вызове [опенимсгонистг](openimsgonistg.md) для создания нового объекта **iMessage**-On- **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="09730-120">Once the message session is opened, the client or provider passes a pointer to it in a call to [OpenIMsgOnIStg](openimsgonistg.md) to create a new **IMessage**-on- **IStorage** object.</span></span> 
   
-<span data-ttu-id="ad4fe-121">Сообщение сеанса хранит информацию о всех объектов **IMessage**- on - **IStorage** , открытых в течение сеанса, помимо все вложения и другие свойства сообщений.</span><span class="sxs-lookup"><span data-stu-id="ad4fe-121">A message session keeps track of all **IMessage**-on- **IStorage** objects opened during the duration of the session, in addition to all the attachments and other properties of the messages.</span></span> <span data-ttu-id="ad4fe-122">Когда клиента или поставщика вызывает **CloseIMsgSession**, закрывает все эти объекты.</span><span class="sxs-lookup"><span data-stu-id="ad4fe-122">When a client or provider calls **CloseIMsgSession**, it closes all these objects.</span></span> <span data-ttu-id="ad4fe-123">Вызов **CloseIMsgSession** — это единственный способ закрыть **IMessage**- on - **IStorage** объекты.</span><span class="sxs-lookup"><span data-stu-id="ad4fe-123">Calling **CloseIMsgSession** is the only way to close **IMessage**-on- **IStorage** objects.</span></span> 
+<span data-ttu-id="09730-121">В сеансе сообщений отслеживается все объекты **iMessage**(ON — **IStorage** ), открытые в течение сеанса, а также все вложения и другие свойства сообщений.</span><span class="sxs-lookup"><span data-stu-id="09730-121">A message session keeps track of all **IMessage**-on- **IStorage** objects opened during the duration of the session, in addition to all the attachments and other properties of the messages.</span></span> <span data-ttu-id="09730-122">Когда клиент или поставщик вызывает **клосеимсгсессион**, он закрывает все эти объекты.</span><span class="sxs-lookup"><span data-stu-id="09730-122">When a client or provider calls **CloseIMsgSession**, it closes all these objects.</span></span> <span data-ttu-id="09730-123">Вызов **клосеимсгсессион** является единственным способом закрытия объектов **iMessage**-On- **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="09730-123">Calling **CloseIMsgSession** is the only way to close **IMessage**-on- **IStorage** objects.</span></span> 
   
 

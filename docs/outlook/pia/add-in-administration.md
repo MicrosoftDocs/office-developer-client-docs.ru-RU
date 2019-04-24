@@ -8,23 +8,23 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 51b876307a3215461514a3220c683be88090669b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336367"
 ---
-# <a name="add-in-administration"></a><span data-ttu-id="db497-102">Администрирование надстроек</span><span class="sxs-lookup"><span data-stu-id="db497-102">Add-in administration</span></span>
+# <a name="add-in-administration"></a><span data-ttu-id="5b69e-102">Администрирование надстроек</span><span class="sxs-lookup"><span data-stu-id="5b69e-102">Add-in administration</span></span>
 
-<span data-ttu-id="db497-103">В этом разделе представлены процедуры, иллюстрирующие распространенные задачи администрирования.</span><span class="sxs-lookup"><span data-stu-id="db497-103">This section includes procedures that show common add-in administrative tasks.</span></span>
+<span data-ttu-id="5b69e-103">В этом разделе представлены процедуры, иллюстрирующие распространенные задачи администрирования.</span><span class="sxs-lookup"><span data-stu-id="5b69e-103">This section includes procedures that show common add-in administrative tasks.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="db497-104">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="db497-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5b69e-104">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="5b69e-104">In this section</span></span>
 
-|<span data-ttu-id="db497-105">Статья</span><span class="sxs-lookup"><span data-stu-id="db497-105">Topic</span></span>|<span data-ttu-id="db497-106">Описание</span><span class="sxs-lookup"><span data-stu-id="db497-106">Description</span></span>|
+|<span data-ttu-id="5b69e-105">Статья</span><span class="sxs-lookup"><span data-stu-id="5b69e-105">Topic</span></span>|<span data-ttu-id="5b69e-106">Описание</span><span class="sxs-lookup"><span data-stu-id="5b69e-106">Description</span></span>|
 |:----|:----------|
-|[<span data-ttu-id="db497-107">Как проверить, является ли Outlook на компьютере приложением, устанавливаемым по технологии "нажми и работай"</span><span class="sxs-lookup"><span data-stu-id="db497-107">Determine whether Outlook is a Click-to-Run application on a computer</span></span>](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md) |<span data-ttu-id="db497-108">В этой статье показано, как определить, было ли приложение Outlook установлено на клиентском компьютере с использованием технологии "нажми и работай".</span><span class="sxs-lookup"><span data-stu-id="db497-108">Shows how to determine whether Outlook was delivered by Click-to-Run on a client computer.</span></span>|
+|[<span data-ttu-id="5b69e-107">Как проверить, является ли Outlook на компьютере приложением, устанавливаемым по технологии "нажми и работай"</span><span class="sxs-lookup"><span data-stu-id="5b69e-107">Determine whether Outlook is a Click-to-Run application on a computer</span></span>](how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md) |<span data-ttu-id="5b69e-108">В этой статье показано, как определить, было ли приложение Outlook установлено на клиентском компьютере с использованием технологии "нажми и работай".</span><span class="sxs-lookup"><span data-stu-id="5b69e-108">Shows how to determine whether Outlook was delivered by Click-to-Run on a client computer.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="db497-109">См. также</span><span class="sxs-lookup"><span data-stu-id="db497-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5b69e-109">См. также</span><span class="sxs-lookup"><span data-stu-id="5b69e-109">See also</span></span>
 
-- [<span data-ttu-id="db497-110">Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="db497-110">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+- [<span data-ttu-id="5b69e-110">Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="5b69e-110">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
 

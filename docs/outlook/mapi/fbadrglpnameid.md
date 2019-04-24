@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 96dddc438df67b76f854827eab4dc3e210523243
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4eef7c0b1078cb9e7ced21e2403f0b3948362d6c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341036"
 ---
-# <a name="fbadrglpnameid"></a><span data-ttu-id="98e4d-103">FBadRglpNameID</span><span class="sxs-lookup"><span data-stu-id="98e4d-103">FBadRglpNameID</span></span>
+# <a name="fbadrglpnameid"></a><span data-ttu-id="ea786-103">FBadRglpNameID</span><span class="sxs-lookup"><span data-stu-id="ea786-103">FBadRglpNameID</span></span>
 
   
   
-<span data-ttu-id="98e4d-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="98e4d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ea786-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ea786-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="98e4d-105">Проверяет массив структур, которые описывают с именем свойства и проверяет их выделении.</span><span class="sxs-lookup"><span data-stu-id="98e4d-105">Validates an array of structures that describe named properties and verifies their allocation.</span></span> 
+<span data-ttu-id="ea786-105">Проверяет массив структур, описывающих именованные свойства, и проверяет их выделение.</span><span class="sxs-lookup"><span data-stu-id="ea786-105">Validates an array of structures that describe named properties and verifies their allocation.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="98e4d-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="98e4d-106">Header file:</span></span>  <br/> |<span data-ttu-id="98e4d-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="98e4d-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="98e4d-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="98e4d-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="98e4d-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="98e4d-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="98e4d-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="98e4d-110">Called by:</span></span>  <br/> |<span data-ttu-id="98e4d-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="98e4d-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="ea786-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="ea786-106">Header file:</span></span>  <br/> |<span data-ttu-id="ea786-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="ea786-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="ea786-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="ea786-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="ea786-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="ea786-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="ea786-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="ea786-110">Called by:</span></span>  <br/> |<span data-ttu-id="ea786-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="ea786-111">Service providers</span></span>  <br/> |
    
 ```cpp
 BOOL FBadRglpNameID(
@@ -40,28 +40,28 @@ BOOL FBadRglpNameID(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="98e4d-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="98e4d-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ea786-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="ea786-112">Parameters</span></span>
 
- <span data-ttu-id="98e4d-113">_lppNameId_</span><span class="sxs-lookup"><span data-stu-id="98e4d-113">_lppNameId_</span></span>
+ <span data-ttu-id="ea786-113">_Лппнамеид_</span><span class="sxs-lookup"><span data-stu-id="ea786-113">_lppNameId_</span></span>
   
-> <span data-ttu-id="98e4d-114">[in] Указатель на массив структур [MAPINAMEID](mapinameid.md) , описывающее именованных свойств.</span><span class="sxs-lookup"><span data-stu-id="98e4d-114">[in] Pointer to an array of [MAPINAMEID](mapinameid.md) structures describing the named properties.</span></span> 
+> <span data-ttu-id="ea786-114">возврата Указатель на массив структур [мапинамеид](mapinameid.md) , описывающих именованные свойства.</span><span class="sxs-lookup"><span data-stu-id="ea786-114">[in] Pointer to an array of [MAPINAMEID](mapinameid.md) structures describing the named properties.</span></span> 
     
- <span data-ttu-id="98e4d-115">_записи CNAME_</span><span class="sxs-lookup"><span data-stu-id="98e4d-115">_cNames_</span></span>
+ <span data-ttu-id="ea786-115">_записи cName_</span><span class="sxs-lookup"><span data-stu-id="ea786-115">_cNames_</span></span>
   
-> <span data-ttu-id="98e4d-116">[in] Число структур именованное свойство в массиве указывает параметр _lppNameId_ .</span><span class="sxs-lookup"><span data-stu-id="98e4d-116">[in] Count of named property structures in the array pointed to by the  _lppNameId_ parameter.</span></span> 
+> <span data-ttu-id="ea786-116">возврата Количество именованных структур свойств в массиве, на которое указывает параметр _лппнамеид_ .</span><span class="sxs-lookup"><span data-stu-id="ea786-116">[in] Count of named property structures in the array pointed to by the  _lppNameId_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="98e4d-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="98e4d-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ea786-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="ea786-117">Return value</span></span>
 
-<span data-ttu-id="98e4d-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="98e4d-118">TRUE</span></span> 
+<span data-ttu-id="ea786-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="ea786-118">TRUE</span></span> 
   
-> <span data-ttu-id="98e4d-119">Один или несколько структур имя указанного свойства является недопустимым.</span><span class="sxs-lookup"><span data-stu-id="98e4d-119">One or more of the specified property name structures is invalid.</span></span> 
+> <span data-ttu-id="ea786-119">Одна или несколько указанных структур имени свойства являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="ea786-119">One or more of the specified property name structures is invalid.</span></span> 
     
-<span data-ttu-id="98e4d-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="98e4d-120">FALSE</span></span> 
+<span data-ttu-id="ea786-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="ea786-120">FALSE</span></span> 
   
-> <span data-ttu-id="98e4d-121">Структуры имя указанного свойства являются допустимыми.</span><span class="sxs-lookup"><span data-stu-id="98e4d-121">The specified property name structures are all valid.</span></span>
+> <span data-ttu-id="ea786-121">Указаны допустимые структуры имени свойства.</span><span class="sxs-lookup"><span data-stu-id="ea786-121">The specified property name structures are all valid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="98e4d-122">Замечания</span><span class="sxs-lookup"><span data-stu-id="98e4d-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ea786-122">Комментарии</span><span class="sxs-lookup"><span data-stu-id="ea786-122">Remarks</span></span>
 
-<span data-ttu-id="98e4d-123">Функция **FBadRglpNameID** можно использовать при настройке для вызова [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) или [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md).</span><span class="sxs-lookup"><span data-stu-id="98e4d-123">The **FBadRglpNameID** function can be used when setting up for a call to [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) or [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md).</span></span> 
+<span data-ttu-id="ea786-123">Функцию **фбадрглпнамеид** можно использовать при настройке вызова [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) или [IMAPIProp:: жетнамесфромидс](imapiprop-getnamesfromids.md).</span><span class="sxs-lookup"><span data-stu-id="ea786-123">The **FBadRglpNameID** function can be used when setting up for a call to [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) or [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md).</span></span> 
   
 

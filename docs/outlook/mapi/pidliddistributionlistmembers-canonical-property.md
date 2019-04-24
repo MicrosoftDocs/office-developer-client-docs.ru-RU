@@ -13,65 +13,65 @@ api_type:
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f04d1593e2a13a2bfc23412340d7eb9f38f5d9ef
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335072"
 ---
-# <a name="pidliddistributionlistmembers-canonical-property"></a><span data-ttu-id="06354-103">Каноническое свойство PidLidDistributionListMembers</span><span class="sxs-lookup"><span data-stu-id="06354-103">PidLidDistributionListMembers Canonical Property</span></span>
+# <a name="pidliddistributionlistmembers-canonical-property"></a><span data-ttu-id="bfe27-103">Каноническое свойство PidLidDistributionListMembers</span><span class="sxs-lookup"><span data-stu-id="bfe27-103">PidLidDistributionListMembers Canonical Property</span></span>
 
   
   
-<span data-ttu-id="06354-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="06354-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bfe27-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bfe27-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="06354-105">Задает список EntryIds объектов, которые соответствуют членов списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="06354-105">Specifies the list of EntryIds of the objects that correspond to the members of the personal distribution list.</span></span>
+<span data-ttu-id="bfe27-105">Задает список идентификаторами EntryID объектов, соответствующих членам личного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="bfe27-105">Specifies the list of EntryIds of the objects that correspond to the members of the personal distribution list.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="06354-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="06354-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="06354-107">dispidDLMembers</span><span class="sxs-lookup"><span data-stu-id="06354-107">dispidDLMembers</span></span>  <br/> |
-|<span data-ttu-id="06354-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="06354-108">Property set:</span></span>  <br/> |<span data-ttu-id="06354-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="06354-109">PSETID_Address</span></span>  <br/> |
-|<span data-ttu-id="06354-110">Длинный идентификатор (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="06354-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="06354-111">0x00008055</span><span class="sxs-lookup"><span data-stu-id="06354-111">0x00008055</span></span>  <br/> |
-|<span data-ttu-id="06354-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="06354-112">Data type:</span></span>  <br/> |<span data-ttu-id="06354-113">PT_MV_BINARY</span><span class="sxs-lookup"><span data-stu-id="06354-113">PT_MV_BINARY</span></span>  <br/> |
-|<span data-ttu-id="06354-114">Область:</span><span class="sxs-lookup"><span data-stu-id="06354-114">Area:</span></span>  <br/> |<span data-ttu-id="06354-115">Contact</span><span class="sxs-lookup"><span data-stu-id="06354-115">Contact</span></span>  <br/> |
+|<span data-ttu-id="bfe27-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="bfe27-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bfe27-107">Диспиддлмемберс</span><span class="sxs-lookup"><span data-stu-id="bfe27-107">dispidDLMembers</span></span>  <br/> |
+|<span data-ttu-id="bfe27-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="bfe27-108">Property set:</span></span>  <br/> |<span data-ttu-id="bfe27-109">Псетид_аддресс</span><span class="sxs-lookup"><span data-stu-id="bfe27-109">PSETID_Address</span></span>  <br/> |
+|<span data-ttu-id="bfe27-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="bfe27-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="bfe27-111">0x00008055</span><span class="sxs-lookup"><span data-stu-id="bfe27-111">0x00008055</span></span>  <br/> |
+|<span data-ttu-id="bfe27-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="bfe27-112">Data type:</span></span>  <br/> |<span data-ttu-id="bfe27-113">PT_MV_BINARY</span><span class="sxs-lookup"><span data-stu-id="bfe27-113">PT_MV_BINARY</span></span>  <br/> |
+|<span data-ttu-id="bfe27-114">Область:</span><span class="sxs-lookup"><span data-stu-id="bfe27-114">Area:</span></span>  <br/> |<span data-ttu-id="bfe27-115">Контакт</span><span class="sxs-lookup"><span data-stu-id="bfe27-115">Contact</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="06354-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="06354-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bfe27-116">Комментарии</span><span class="sxs-lookup"><span data-stu-id="bfe27-116">Remarks</span></span>
 
-<span data-ttu-id="06354-117">Члены списка рассылки может быть другие списки рассылки, содержащихся в контакт, пользователи глобального списка адресов или списки рассылки или адреса электронной почты одноразовых электронных адресов.</span><span class="sxs-lookup"><span data-stu-id="06354-117">Members of the personal distribution list can be other personal distribution lists, electronic addresses contained in a contact, Global Address List users or distribution lists, or one-off email addresses.</span></span> <span data-ttu-id="06354-118">Формат каждого EntryId должен быть одноразовых EntryId, как указано в [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) или оболочку EntryId.</span><span class="sxs-lookup"><span data-stu-id="06354-118">The format of each EntryId must be either a one-off EntryId, as specified in [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) or a wrapped EntryId.</span></span> 
+<span data-ttu-id="bfe27-117">Участники личного списка рассылки могут быть другими личными списками рассылки, электронными адресами, входящими в контакт, глобальными списками адресов пользователей или списками рассылки или одноразовыми адресами электронной почты.</span><span class="sxs-lookup"><span data-stu-id="bfe27-117">Members of the personal distribution list can be other personal distribution lists, electronic addresses contained in a contact, Global Address List users or distribution lists, or one-off email addresses.</span></span> <span data-ttu-id="bfe27-118">Формат каждого EntryId должен быть либо одноразовым EntryIdом, указанным в разделе [[MS – окскдата],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) либо упакованным entryidм.</span><span class="sxs-lookup"><span data-stu-id="bfe27-118">The format of each EntryId must be either a one-off EntryId, as specified in [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) or a wrapped EntryId.</span></span> 
   
-<span data-ttu-id="06354-119">Если для свойства, клиент или сервер необходимо убедиться, что его общий размер составляет менее 15 000 байт.</span><span class="sxs-lookup"><span data-stu-id="06354-119">When setting this property, the client or the server must ensure its total size is less than 15,000 bytes.</span></span>
+<span data-ttu-id="bfe27-119">При задании этого свойства клиент или сервер должны обеспечивать его общий размер менее 15 000 байт.</span><span class="sxs-lookup"><span data-stu-id="bfe27-119">When setting this property, the client or the server must ensure its total size is less than 15,000 bytes.</span></span>
   
-<span data-ttu-id="06354-120">Это свойство определяет список единичных записей, соответствующих членов списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="06354-120">This property specifies the list of one-off EntryIds that correspond to the members of the personal distribution list.</span></span> <span data-ttu-id="06354-121">Эти единичных записей инкапсулируют отображаемые имена и адреса электронной почты из личного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="06354-121">These one-off EntryIds encapsulate display names and email addresses of the personal distribution list members.</span></span>
+<span data-ttu-id="bfe27-120">Это свойство указывает список одноразовых идентификаторами EntryID, соответствующих членам личного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="bfe27-120">This property specifies the list of one-off EntryIds that correspond to the members of the personal distribution list.</span></span> <span data-ttu-id="bfe27-121">Эти одноразовые идентификаторами EntryID инкапсулируют отображаемые имена и адреса электронной почты для участников личного списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="bfe27-121">These one-off EntryIds encapsulate display names and email addresses of the personal distribution list members.</span></span>
   
-<span data-ttu-id="06354-122">Если этому свойству присвоено клиент или сервер, его необходимо синхронизировать с этой свойство **dispidDLMembers** для каждой записи в свойстве **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), должна быть запись в же позиции в **dispidDLOneOffMembers**.</span><span class="sxs-lookup"><span data-stu-id="06354-122">If the client or the server set this property, it must be synchronized with this property **dispidDLMembers** for each entry in the **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) property, there must be an entry in the same position in the **dispidDLOneOffMembers**.</span></span>
+<span data-ttu-id="bfe27-122">Если клиент или сервер задают значение этого свойства, его необходимо синхронизировать с этим свойством **диспиддлмемберс** для каждой записи в свойстве **диспиддлонеоффмемберс** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), так как должна быть запись в элементе одно и то же положение в **диспиддлонеоффмемберс**.</span><span class="sxs-lookup"><span data-stu-id="bfe27-122">If the client or the server set this property, it must be synchronized with this property **dispidDLMembers** for each entry in the **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) property, there must be an entry in the same position in the **dispidDLOneOffMembers**.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="06354-123">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="06354-123">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="bfe27-123">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="bfe27-123">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="06354-124">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="06354-124">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="bfe27-124">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="bfe27-124">Protocol specifications</span></span>
 
-<span data-ttu-id="06354-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="06354-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bfe27-125">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bfe27-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="06354-126">Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="06354-126">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="bfe27-126">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="bfe27-126">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="06354-127">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="06354-127">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bfe27-127">[[MS — ОКСОКНТК]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bfe27-127">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="06354-128">Задает свойства и операции, допустимые для контакты и списки рассылки.</span><span class="sxs-lookup"><span data-stu-id="06354-128">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="bfe27-128">Задает свойства и операции, допустимые для контактов и личных списков рассылки.</span><span class="sxs-lookup"><span data-stu-id="bfe27-128">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="06354-129">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="06354-129">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="bfe27-129">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="bfe27-129">Header files</span></span>
 
-<span data-ttu-id="06354-130">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="06354-130">Mapidefs.h</span></span>
+<span data-ttu-id="bfe27-130">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="bfe27-130">Mapidefs.h</span></span>
   
-> <span data-ttu-id="06354-131">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="06354-131">Provides data type definitions.</span></span>
+> <span data-ttu-id="bfe27-131">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="bfe27-131">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="06354-132">См. также</span><span class="sxs-lookup"><span data-stu-id="06354-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bfe27-132">См. также</span><span class="sxs-lookup"><span data-stu-id="bfe27-132">See also</span></span>
 
 
 
-[<span data-ttu-id="06354-133">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="06354-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="bfe27-133">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="bfe27-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="06354-134">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="06354-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="bfe27-134">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="bfe27-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="06354-135">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="06354-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="bfe27-135">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="bfe27-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="06354-136">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="06354-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="bfe27-136">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="bfe27-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

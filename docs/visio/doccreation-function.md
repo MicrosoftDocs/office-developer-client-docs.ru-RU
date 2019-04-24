@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251604
 localization_priority: Normal
 ms.assetid: dcbc240a-e36d-b27f-02c3-fd1eac04114a
-description: Возвращает дату и время создания документа, как последовательное значение.
-ms.openlocfilehash: b9d94cf53895b0b4b9fcf84eb32e441c8a2a0196
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает дату и время создания документа в виде порядкового значения.
+ms.openlocfilehash: a1f66a8fe2561578a2b37deefcfa6556f10455a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332727"
 ---
-# <a name="doccreation-function"></a><span data-ttu-id="1ab59-103">Функция DOCCREATION</span><span class="sxs-lookup"><span data-stu-id="1ab59-103">DOCCREATION Function</span></span>
+# <a name="doccreation-function"></a><span data-ttu-id="ba73e-103">Функция DOCCREATION</span><span class="sxs-lookup"><span data-stu-id="ba73e-103">DOCCREATION Function</span></span>
 
-<span data-ttu-id="1ab59-104">Возвращает дату и время создания документа, как последовательное значение.</span><span class="sxs-lookup"><span data-stu-id="1ab59-104">Returns the date and time a document was created, as a serial value.</span></span>
+<span data-ttu-id="ba73e-104">Возвращает дату и время создания документа в виде порядкового значения.</span><span class="sxs-lookup"><span data-stu-id="ba73e-104">Returns the date and time a document was created, as a serial value.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="1ab59-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1ab59-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ba73e-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ba73e-105">Syntax</span></span>
 
-<span data-ttu-id="1ab59-106">(DOCCREATION)</span><span class="sxs-lookup"><span data-stu-id="1ab59-106">DOCCREATION ()</span></span>
+<span data-ttu-id="ba73e-106">DOCCREATION ()</span><span class="sxs-lookup"><span data-stu-id="ba73e-106">DOCCREATION ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="1ab59-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="1ab59-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ba73e-107">Комментарии</span><span class="sxs-lookup"><span data-stu-id="ba73e-107">Remarks</span></span>
 
-<span data-ttu-id="1ab59-108">Функция FORMAT используется для форматирования значения.</span><span class="sxs-lookup"><span data-stu-id="1ab59-108">Use the FORMAT function to format the value.</span></span> 
+<span data-ttu-id="ba73e-108">Чтобы отформатировать значение, используйте функцию FORMAT.</span><span class="sxs-lookup"><span data-stu-id="ba73e-108">Use the FORMAT function to format the value.</span></span> 
   
 
