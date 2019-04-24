@@ -9,29 +9,29 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7acfeef6-29e4-d5e0-116a-75b5c61c3b41
 description: 'Функция REF возвращает значение ошибки #REF!.'
-ms.openlocfilehash: 2089fb78cf347c851bdac1ef243626f4cb7c4845
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21683edb3da717f7b1968f409b68e3bf242e665b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359978"
 ---
-# <a name="ref-function"></a><span data-ttu-id="73dab-103">Функция REF</span><span class="sxs-lookup"><span data-stu-id="73dab-103">REF Function</span></span>
+# <a name="ref-function"></a><span data-ttu-id="f1b17-103">Функция REF</span><span class="sxs-lookup"><span data-stu-id="f1b17-103">REF Function</span></span>
 
-<span data-ttu-id="73dab-104">Функция REF возвращает значение ошибки #REF!.</span><span class="sxs-lookup"><span data-stu-id="73dab-104">The REF function returns the error value #REF!.</span></span>
+<span data-ttu-id="f1b17-104">Функция REF возвращает значение ошибки #REF!.</span><span class="sxs-lookup"><span data-stu-id="f1b17-104">The REF function returns the error value #REF!.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="73dab-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="73dab-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f1b17-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f1b17-105">Syntax</span></span>
 
-<span data-ttu-id="73dab-106">ПАРАМЕТРЫ REF)</span><span class="sxs-lookup"><span data-stu-id="73dab-106">REF( )</span></span>
+<span data-ttu-id="f1b17-106">REF ()</span><span class="sxs-lookup"><span data-stu-id="f1b17-106">REF( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="73dab-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="f1b17-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="f1b17-107">Return value</span></span>
 
-<span data-ttu-id="73dab-108">String</span><span class="sxs-lookup"><span data-stu-id="73dab-108">String</span></span>
+<span data-ttu-id="f1b17-108">String</span><span class="sxs-lookup"><span data-stu-id="f1b17-108">String</span></span>
   
-## <a name="example"></a><span data-ttu-id="73dab-109">Пример</span><span class="sxs-lookup"><span data-stu-id="73dab-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f1b17-109">Пример</span><span class="sxs-lookup"><span data-stu-id="f1b17-109">Example</span></span>
 
-<span data-ttu-id="73dab-110">ПАРАМЕТРЫ REF)</span><span class="sxs-lookup"><span data-stu-id="73dab-110">REF( )</span></span> 
+<span data-ttu-id="f1b17-110">REF ()</span><span class="sxs-lookup"><span data-stu-id="f1b17-110">REF( )</span></span> 
   
-<span data-ttu-id="73dab-111">Возвращает #REF!.</span><span class="sxs-lookup"><span data-stu-id="73dab-111">Returns #REF!.</span></span> 
+<span data-ttu-id="f1b17-111">Возвращает #REF!.</span><span class="sxs-lookup"><span data-stu-id="f1b17-111">Returns #REF!.</span></span> 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Ячейка Value (раздел "Пользовательские ячейки")
+title: Value Cell (User-Defined Cells Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
 description: Задает значение для соответствующей пользовательской ячейки.
-ms.openlocfilehash: d320c35fa8ae65dd0b21a83ad2cf23dbb3af77f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 137d22430829f96a9c6ad69a73a6b44e964d5f4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355897"
 ---
-# <a name="value-cell-user-defined-cells-section"></a><span data-ttu-id="45995-103">Ячейка Value (раздел "Пользовательские ячейки")</span><span class="sxs-lookup"><span data-stu-id="45995-103">Value Cell (User-Defined Cells Section)</span></span>
+# <a name="value-cell-user-defined-cells-section"></a><span data-ttu-id="706c2-103">Value Cell (User-Defined Cells Section)</span><span class="sxs-lookup"><span data-stu-id="706c2-103">Value Cell (User-Defined Cells Section)</span></span>
 
-<span data-ttu-id="45995-104">Задает значение для соответствующей пользовательской ячейки.</span><span class="sxs-lookup"><span data-stu-id="45995-104">Specifies a value for the corresponding user-defined cell.</span></span>
+<span data-ttu-id="706c2-104">Задает значение для соответствующей пользовательской ячейки.</span><span class="sxs-lookup"><span data-stu-id="706c2-104">Specifies a value for the corresponding user-defined cell.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="45995-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="45995-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="706c2-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="706c2-105">Remarks</span></span>
 
-<span data-ttu-id="45995-106">Чтобы указать это значение в ячейке, укажите пользовательских имя, введенное в строке метки User.Row.</span><span class="sxs-lookup"><span data-stu-id="45995-106">To refer to this value in another cell, specify the user-defined name entered in the row label User.Row.</span></span>
+<span data-ttu-id="706c2-106">Чтобы сослаться на это значение в другой ячейке, укажите пользовательское имя, введенное в поле Подпись строки User. Row.</span><span class="sxs-lookup"><span data-stu-id="706c2-106">To refer to this value in another cell, specify the user-defined name entered in the row label User.Row.</span></span>
   
-<span data-ttu-id="45995-107">Чтобы получить ссылку на значение ячейки по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду:</span><span class="sxs-lookup"><span data-stu-id="45995-107">To get a reference to the Value cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="706c2-107">Чтобы получить ссылку на ячейку значения по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="706c2-107">To get a reference to the Value cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="45995-108">Имя ячейки.</span><span class="sxs-lookup"><span data-stu-id="45995-108">Cell name:</span></span>  <br/> | <span data-ttu-id="45995-109">Пользователь.</span><span class="sxs-lookup"><span data-stu-id="45995-109">User.</span></span>  <span data-ttu-id="45995-110">*Имя* . Значение where пользователя.</span><span class="sxs-lookup"><span data-stu-id="45995-110">*Name*  .Value            where User.</span></span>  <span data-ttu-id="45995-111">*Имя* — это имя строки</span><span class="sxs-lookup"><span data-stu-id="45995-111">*Name*  is the row name</span></span>  <br/> |
+| <span data-ttu-id="706c2-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="706c2-108">Cell name:</span></span>  <br/> | <span data-ttu-id="706c2-109">Пользователем.</span><span class="sxs-lookup"><span data-stu-id="706c2-109">User.</span></span>  <span data-ttu-id="706c2-110">*Name (имя* ). Значение, где пользователь.</span><span class="sxs-lookup"><span data-stu-id="706c2-110">*Name*  .Value            where User.</span></span>  <span data-ttu-id="706c2-111">*Name* — имя строки</span><span class="sxs-lookup"><span data-stu-id="706c2-111">*Name*  is the row name</span></span>  <br/> |
    
-<span data-ttu-id="45995-112">Для получения ссылки на ячейки значение по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы:</span><span class="sxs-lookup"><span data-stu-id="45995-112">To get a reference to the Value cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="706c2-112">Чтобы получить ссылку на ячейку value по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="706c2-112">To get a reference to the Value cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="45995-113">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="45995-113">Section index:</span></span>  <br/> |<span data-ttu-id="45995-114">**visSectionUser**</span><span class="sxs-lookup"><span data-stu-id="45995-114">**visSectionUser**</span></span> <br/> |
-| <span data-ttu-id="45995-115">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="45995-115">Row index:</span></span>  <br/> |<span data-ttu-id="45995-116">**visRowUser** +  *i* где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="45995-116">**visRowUser** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="45995-117">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="45995-117">Cell index:</span></span>  <br/> |<span data-ttu-id="45995-118">**visUserValue**</span><span class="sxs-lookup"><span data-stu-id="45995-118">**visUserValue**</span></span> <br/> |
+| <span data-ttu-id="706c2-113">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="706c2-113">Section index:</span></span>  <br/> |<span data-ttu-id="706c2-114">**Виссектионусер**</span><span class="sxs-lookup"><span data-stu-id="706c2-114">**visSectionUser**</span></span> <br/> |
+| <span data-ttu-id="706c2-115">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="706c2-115">Row index:</span></span>  <br/> |<span data-ttu-id="706c2-116">**висровусер** +  *i* , где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="706c2-116">**visRowUser** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="706c2-117">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="706c2-117">Cell index:</span></span>  <br/> |<span data-ttu-id="706c2-118">**Висусервалуе**</span><span class="sxs-lookup"><span data-stu-id="706c2-118">**visUserValue**</span></span> <br/> |
    
 

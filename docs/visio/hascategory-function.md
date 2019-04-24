@@ -6,39 +6,39 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ed3c997b-0a58-0432-c468-a24614b67f2e
-description: Возвращает значение TRUE, если указанная строка найдена в списке Категория фигуры.
-ms.openlocfilehash: 2445b4c3af63b331b303897997ce38b0747f17fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает значение TRUE, если указанная строка найдена в списке категорий фигуры.
+ms.openlocfilehash: 902819f981b53aed96695e181ab556d3841d97c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360167"
 ---
-# <a name="hascategory-function"></a><span data-ttu-id="eb4bf-103">Функция HASCATEGORY</span><span class="sxs-lookup"><span data-stu-id="eb4bf-103">HASCATEGORY Function</span></span>
+# <a name="hascategory-function"></a><span data-ttu-id="767d0-103">Функция HASCATEGORY</span><span class="sxs-lookup"><span data-stu-id="767d0-103">HASCATEGORY Function</span></span>
 
-<span data-ttu-id="eb4bf-104">Возвращает значение TRUE, если указанная строка найдена в списке Категория фигуры.</span><span class="sxs-lookup"><span data-stu-id="eb4bf-104">Returns TRUE if the specified string is found in the shape's category list.</span></span>
+<span data-ttu-id="767d0-104">Возвращает значение TRUE, если указанная строка найдена в списке категорий фигуры.</span><span class="sxs-lookup"><span data-stu-id="767d0-104">Returns TRUE if the specified string is found in the shape's category list.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="eb4bf-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="eb4bf-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="767d0-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="767d0-105">Version Information</span></span>
 
-<span data-ttu-id="eb4bf-106">Добавлена версия: Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="eb4bf-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="767d0-106">Добавлена версия: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="767d0-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="eb4bf-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="eb4bf-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="767d0-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="767d0-107">Syntax</span></span>
 
-<span data-ttu-id="eb4bf-108">HASCATEGORY (** *категории* **)</span><span class="sxs-lookup"><span data-stu-id="eb4bf-108">HASCATEGORY(** *category* ** )</span></span> 
+<span data-ttu-id="767d0-108">HASCATEGORY (\* \* *Category* \* \*)</span><span class="sxs-lookup"><span data-stu-id="767d0-108">HASCATEGORY(\*\* *category* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="eb4bf-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="eb4bf-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="767d0-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="767d0-109">Parameters</span></span>
 
-|<span data-ttu-id="eb4bf-110">**Имя**</span><span class="sxs-lookup"><span data-stu-id="eb4bf-110">**Name**</span></span>|<span data-ttu-id="eb4bf-111">**Обязательный или необязательный**</span><span class="sxs-lookup"><span data-stu-id="eb4bf-111">**Required/Optional**</span></span>|<span data-ttu-id="eb4bf-112">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="eb4bf-112">**Data Type**</span></span>|<span data-ttu-id="eb4bf-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="eb4bf-113">**Description**</span></span>|
+|<span data-ttu-id="767d0-110">**Имя**</span><span class="sxs-lookup"><span data-stu-id="767d0-110">**Name**</span></span>|<span data-ttu-id="767d0-111">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="767d0-111">**Required/Optional**</span></span>|<span data-ttu-id="767d0-112">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="767d0-112">**Data Type**</span></span>|<span data-ttu-id="767d0-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="767d0-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="eb4bf-114">_category_</span><span class="sxs-lookup"><span data-stu-id="eb4bf-114">_category_</span></span> <br/> |<span data-ttu-id="eb4bf-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="eb4bf-115">Required</span></span>  <br/> |<span data-ttu-id="eb4bf-116">**Строка**</span><span class="sxs-lookup"><span data-stu-id="eb4bf-116">**String**</span></span> <br/> |<span data-ttu-id="eb4bf-117">Категории, которую требуется найти.</span><span class="sxs-lookup"><span data-stu-id="eb4bf-117">The category to search for.</span></span>  <br/> |
+| <span data-ttu-id="767d0-114">_категории_</span><span class="sxs-lookup"><span data-stu-id="767d0-114">_category_</span></span> <br/> |<span data-ttu-id="767d0-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="767d0-115">Required</span></span>  <br/> |<span data-ttu-id="767d0-116">**String**</span><span class="sxs-lookup"><span data-stu-id="767d0-116">**String**</span></span> <br/> |<span data-ttu-id="767d0-117">Категория, для которой необходимо выполнить поиск.</span><span class="sxs-lookup"><span data-stu-id="767d0-117">The category to search for.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="eb4bf-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="767d0-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="767d0-118">Return value</span></span>
 
- <span data-ttu-id="eb4bf-119">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="eb4bf-119">**Boolean**</span></span>
+ <span data-ttu-id="767d0-119">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="767d0-119">**Boolean**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="eb4bf-120">Замечания</span><span class="sxs-lookup"><span data-stu-id="eb4bf-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="767d0-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="767d0-120">Remarks</span></span>
 
- <span data-ttu-id="eb4bf-121">*Категории* являются пользовательских строк, которые можно использовать для упорядочивания фигур.</span><span class="sxs-lookup"><span data-stu-id="eb4bf-121">*Categories*  are user-defined strings that you can use to categorize shapes.</span></span> <span data-ttu-id="eb4bf-122">Можно определить категории в ячейке User.msvShapeCategories в таблице свойств фигуры для фигуры.</span><span class="sxs-lookup"><span data-stu-id="eb4bf-122">You can define categories in the User.msvShapeCategories cell in the ShapeSheet for a shape.</span></span> <span data-ttu-id="eb4bf-123">Можно определить нескольких категорий для фигуры на категории, разделив их точкой с запятой.</span><span class="sxs-lookup"><span data-stu-id="eb4bf-123">You can define multiple categories for a shape by separating the categories with semi-colons.</span></span> 
+ <span data-ttu-id="767d0-121">*Категории* — это пользовательские строки, которые можно использовать для категоризации фигур.</span><span class="sxs-lookup"><span data-stu-id="767d0-121">*Categories*  are user-defined strings that you can use to categorize shapes.</span></span> <span data-ttu-id="767d0-122">Можно определить категории в ячейке User. Мсвшапекатегориес таблицы свойств фигуры для фигуры.</span><span class="sxs-lookup"><span data-stu-id="767d0-122">You can define categories in the User.msvShapeCategories cell in the ShapeSheet for a shape.</span></span> <span data-ttu-id="767d0-123">Можно определить несколько категорий для фигуры, разделяя категории точками с запятой.</span><span class="sxs-lookup"><span data-stu-id="767d0-123">You can define multiple categories for a shape by separating the categories with semi-colons.</span></span> 
   
 

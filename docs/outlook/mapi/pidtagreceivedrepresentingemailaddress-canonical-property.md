@@ -13,83 +13,83 @@ api_type:
 ms.assetid: f85ce31c-f621-47ed-badf-4f59a45ec0a1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6916b1148caaf8283c6d7ae64ac2e05deb3ee0c3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359103"
 ---
-# <a name="pidtagreceivedrepresentingemailaddress-canonical-property"></a><span data-ttu-id="99b41-103">Каноническое свойство PidTagReceivedRepresentingEmailAddress</span><span class="sxs-lookup"><span data-stu-id="99b41-103">PidTagReceivedRepresentingEmailAddress Canonical Property</span></span>
+# <a name="pidtagreceivedrepresentingemailaddress-canonical-property"></a><span data-ttu-id="7ec2d-103">Каноническое свойство PidTagReceivedRepresentingEmailAddress</span><span class="sxs-lookup"><span data-stu-id="7ec2d-103">PidTagReceivedRepresentingEmailAddress Canonical Property</span></span>
 
   
   
-<span data-ttu-id="99b41-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="99b41-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7ec2d-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7ec2d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="99b41-105">Содержит адрес электронной почты для обмена сообщениями пользователя, представленного получателя.</span><span class="sxs-lookup"><span data-stu-id="99b41-105">Contains the email address for the messaging user who is represented by the receiving user.</span></span>
+<span data-ttu-id="7ec2d-105">Содержит адрес электронной почты пользователя для обмена сообщениями, представленного пользователем-получателем.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-105">Contains the email address for the messaging user who is represented by the receiving user.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="99b41-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="99b41-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="99b41-107">PR_RCVD_REPRESENTING_EMAIL_ADDRESS, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W</span><span class="sxs-lookup"><span data-stu-id="99b41-107">PR_RCVD_REPRESENTING_EMAIL_ADDRESS, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W</span></span>  <br/> |
-|<span data-ttu-id="99b41-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="99b41-108">Identifier:</span></span>  <br/> |<span data-ttu-id="99b41-109">0x0078</span><span class="sxs-lookup"><span data-stu-id="99b41-109">0x0078</span></span>  <br/> |
-|<span data-ttu-id="99b41-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="99b41-110">Data type:</span></span>  <br/> |<span data-ttu-id="99b41-111">PT_UNICODE PT_STRING8</span><span class="sxs-lookup"><span data-stu-id="99b41-111">PT_UNICODE, PT_STRING8</span></span>  <br/> |
-|<span data-ttu-id="99b41-112">Область:</span><span class="sxs-lookup"><span data-stu-id="99b41-112">Area:</span></span>  <br/> |<span data-ttu-id="99b41-113">Address</span><span class="sxs-lookup"><span data-stu-id="99b41-113">Address</span></span>  <br/> |
+|<span data-ttu-id="7ec2d-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="7ec2d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7ec2d-107">ПР_РКВД_РЕПРЕСЕНТИНГ_ЕМАИЛ_АДДРЕСС, ПР_РКВД_РЕПРЕСЕНТИНГ_ЕМАИЛ_АДДРЕСС_А, ПР_РКВД_РЕПРЕСЕНТИНГ_ЕМАИЛ_АДДРЕСС_В</span><span class="sxs-lookup"><span data-stu-id="7ec2d-107">PR_RCVD_REPRESENTING_EMAIL_ADDRESS, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W</span></span>  <br/> |
+|<span data-ttu-id="7ec2d-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="7ec2d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7ec2d-109">0x0078</span><span class="sxs-lookup"><span data-stu-id="7ec2d-109">0x0078</span></span>  <br/> |
+|<span data-ttu-id="7ec2d-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="7ec2d-110">Data type:</span></span>  <br/> |<span data-ttu-id="7ec2d-111">ПТ_УНИКОДЕ, PT_STRING8</span><span class="sxs-lookup"><span data-stu-id="7ec2d-111">PT_UNICODE, PT_STRING8</span></span>  <br/> |
+|<span data-ttu-id="7ec2d-112">Область:</span><span class="sxs-lookup"><span data-stu-id="7ec2d-112">Area:</span></span>  <br/> |<span data-ttu-id="7ec2d-113">Address</span><span class="sxs-lookup"><span data-stu-id="7ec2d-113">Address</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="99b41-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="99b41-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7ec2d-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="7ec2d-114">Remarks</span></span>
 
-<span data-ttu-id="99b41-115">Эти свойства являются примерами свойства адреса для обмена мгновенными сообщениями пользователя, который представляется получателя.</span><span class="sxs-lookup"><span data-stu-id="99b41-115">These properties are examples of the address properties for the messaging user who is being represented by the receiving user.</span></span> <span data-ttu-id="99b41-116">Им должен иметь значение входящих поставщика транспорта, также несет ответственность за авторизации или проверки делегата.</span><span class="sxs-lookup"><span data-stu-id="99b41-116">They must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate.</span></span> <span data-ttu-id="99b41-117">Если пользователь не обмена сообщениями представлен, эти свойства должны быть установлены на адрес электронной почты, содержащихся в свойстве **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="99b41-117">If no messaging user is being represented, these properties should be set to the email address contained in the **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property.</span></span>
+<span data-ttu-id="7ec2d-115">Эти свойства являются примерами свойств адресов для пользователя обмена сообщениями, представленного принимающим пользователем.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-115">These properties are examples of the address properties for the messaging user who is being represented by the receiving user.</span></span> <span data-ttu-id="7ec2d-116">Они должны быть заданы входящим поставщиком транспорта, который также отвечает за авторизацию или проверку делегата.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-116">They must be set by the incoming transport provider, which is also responsible for authorization or verification of the delegate.</span></span> <span data-ttu-id="7ec2d-117">Если пользователя обмена сообщениями нет, для этих свойств необходимо задать адрес электронной почты, который хранится в свойстве **пр_рецеивед_би_емаил_аддресс** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="7ec2d-117">If no messaging user is being represented, these properties should be set to the email address contained in the **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)) property.</span></span>
   
-<span data-ttu-id="99b41-118">Клиентского приложения ответ на сообщение получено от имени другого клиента должен скопировать эти свойства из полученного сообщения в свойство **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) ответ.</span><span class="sxs-lookup"><span data-stu-id="99b41-118">A client application replying to a message received on behalf of another client should copy these properties from the received message into the **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) property for the reply.</span></span>
+<span data-ttu-id="7ec2d-118">Клиентское приложение, отвечающее на сообщение, полученное от имени другого клиента, должно копировать эти свойства из полученного сообщения в свойство **пр_сент_репресентинг_емаил_аддресс** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) для них.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-118">A client application replying to a message received on behalf of another client should copy these properties from the received message into the **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) property for the reply.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="99b41-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="99b41-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="7ec2d-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="7ec2d-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="99b41-120">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="99b41-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="7ec2d-120">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="7ec2d-120">Protocol specifications</span></span>
 
-<span data-ttu-id="99b41-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="99b41-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7ec2d-121">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7ec2d-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="99b41-122">Содержит ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="99b41-122">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="7ec2d-122">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-122">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="99b41-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="99b41-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7ec2d-123">[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7ec2d-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="99b41-124">Задает свойства и операции, допустимые для объектов сообщения электронной почты.</span><span class="sxs-lookup"><span data-stu-id="99b41-124">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="7ec2d-124">Задает свойства и операции, допустимые для объектов сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-124">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-<span data-ttu-id="99b41-125">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="99b41-125">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7ec2d-125">[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7ec2d-125">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="99b41-126">Обрабатывает порядок и поток для передачи данных между клиентом и сервером.</span><span class="sxs-lookup"><span data-stu-id="99b41-126">Handles the order and flow for data transfers between a client and server.</span></span>
+> <span data-ttu-id="7ec2d-126">Обрабатывает порядок и потоки для передачи данных между клиентом и сервером.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-126">Handles the order and flow for data transfers between a client and server.</span></span>
     
-<span data-ttu-id="99b41-127">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="99b41-127">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7ec2d-127">[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7ec2d-127">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="99b41-128">Преобразование между IETF RFC2445, RFC2446 и RFC2447 и встречи и собрания объекты.</span><span class="sxs-lookup"><span data-stu-id="99b41-128">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="7ec2d-128">Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-128">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-<span data-ttu-id="99b41-129">[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="99b41-129">[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7ec2d-129">[[MS — ОКСОДЛГТ]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7ec2d-129">[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="99b41-130">Указывает методы для подключений и настройки почтовых ящиков как делегаты и взаимодействия с объектами сообщений и календаря, когда они действовать от имени другого пользователя.</span><span class="sxs-lookup"><span data-stu-id="99b41-130">Specifies methods for connecting to and configuring mailboxes as delegates, and interactions with message and calendar objects when they act on behalf of another user.</span></span>
+> <span data-ttu-id="7ec2d-130">Задает методы для подключения и настройки почтовых ящиков в качестве делегатов и взаимодействия с объектами Message и Calendar, когда они действуют от имени другого пользователя.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-130">Specifies methods for connecting to and configuring mailboxes as delegates, and interactions with message and calendar objects when they act on behalf of another user.</span></span>
     
-<span data-ttu-id="99b41-131">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="99b41-131">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7ec2d-131">[[MS — ОКСТНЕФ]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7ec2d-131">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="99b41-132">Кодирует и декодирует объекты сообщения и вложения в представление эффективным потока.</span><span class="sxs-lookup"><span data-stu-id="99b41-132">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
+> <span data-ttu-id="7ec2d-132">Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-132">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="99b41-133">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="99b41-133">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="7ec2d-133">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="7ec2d-133">Header files</span></span>
 
-<span data-ttu-id="99b41-134">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="99b41-134">Mapidefs.h</span></span>
+<span data-ttu-id="7ec2d-134">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="7ec2d-134">Mapidefs.h</span></span>
   
-> <span data-ttu-id="99b41-135">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="99b41-135">Provides data type definitions.</span></span>
+> <span data-ttu-id="7ec2d-135">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-135">Provides data type definitions.</span></span>
     
-<span data-ttu-id="99b41-136">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="99b41-136">Mapitags.h</span></span>
+<span data-ttu-id="7ec2d-136">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="7ec2d-136">Mapitags.h</span></span>
   
-> <span data-ttu-id="99b41-137">Содержит определения свойств указано, что связанными свойствами.</span><span class="sxs-lookup"><span data-stu-id="99b41-137">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="7ec2d-137">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="7ec2d-137">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="99b41-138">См. также</span><span class="sxs-lookup"><span data-stu-id="99b41-138">See also</span></span>
-
-
-
-[<span data-ttu-id="99b41-139">Каноническое свойство PidTagEmailAddress</span><span class="sxs-lookup"><span data-stu-id="99b41-139">PidTagEmailAddress Canonical Property</span></span>](pidtagemailaddress-canonical-property.md)
+## <a name="see-also"></a><span data-ttu-id="7ec2d-138">См. также</span><span class="sxs-lookup"><span data-stu-id="7ec2d-138">See also</span></span>
 
 
-[<span data-ttu-id="99b41-140">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="99b41-140">MAPI Properties</span></span>](mapi-properties.md)
+
+[<span data-ttu-id="7ec2d-139">Каноническое свойство PidTagEmailAddress</span><span class="sxs-lookup"><span data-stu-id="7ec2d-139">PidTagEmailAddress Canonical Property</span></span>](pidtagemailaddress-canonical-property.md)
+
+
+[<span data-ttu-id="7ec2d-140">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="7ec2d-140">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="99b41-141">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="99b41-141">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7ec2d-141">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="7ec2d-141">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="99b41-142">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="99b41-142">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7ec2d-142">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="7ec2d-142">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="99b41-143">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="99b41-143">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7ec2d-143">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="7ec2d-143">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

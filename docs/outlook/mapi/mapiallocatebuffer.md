@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: f1fc7fc5-c71f-44f7-930a-571773eb6809
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0520b219c87207a54555ba74050761f6ecc4854a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 589ad42199e6f2ec1039499dfd9beda044ccc3dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357311"
 ---
-# <a name="mapiallocatebuffer"></a><span data-ttu-id="66bcf-103">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="66bcf-103">MAPIAllocateBuffer</span></span>
+# <a name="mapiallocatebuffer"></a><span data-ttu-id="15aa1-103">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="15aa1-103">MAPIAllocateBuffer</span></span>
 
   
   
-<span data-ttu-id="66bcf-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="66bcf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="15aa1-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="15aa1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="66bcf-105">Выделяет буфер памяти.</span><span class="sxs-lookup"><span data-stu-id="66bcf-105">Allocates a memory buffer.</span></span> 
+<span data-ttu-id="15aa1-105">Выделяет буфер памяти.</span><span class="sxs-lookup"><span data-stu-id="15aa1-105">Allocates a memory buffer.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="66bcf-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="66bcf-106">Header file:</span></span>  <br/> |<span data-ttu-id="66bcf-107">Mapix.h</span><span class="sxs-lookup"><span data-stu-id="66bcf-107">Mapix.h</span></span>  <br/> |
-|<span data-ttu-id="66bcf-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="66bcf-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="66bcf-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="66bcf-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="66bcf-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="66bcf-110">Called by:</span></span>  <br/> |<span data-ttu-id="66bcf-111">Клиентские приложения и поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="66bcf-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="15aa1-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="15aa1-106">Header file:</span></span>  <br/> |<span data-ttu-id="15aa1-107">Мапикс. h</span><span class="sxs-lookup"><span data-stu-id="15aa1-107">Mapix.h</span></span>  <br/> |
+|<span data-ttu-id="15aa1-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="15aa1-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="15aa1-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="15aa1-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="15aa1-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="15aa1-110">Called by:</span></span>  <br/> |<span data-ttu-id="15aa1-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="15aa1-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE MAPIAllocateBuffer(
@@ -40,31 +40,31 @@ SCODE MAPIAllocateBuffer(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="66bcf-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="66bcf-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="15aa1-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="15aa1-112">Parameters</span></span>
 
- <span data-ttu-id="66bcf-113">_cbSize_</span><span class="sxs-lookup"><span data-stu-id="66bcf-113">_cbSize_</span></span>
+ <span data-ttu-id="15aa1-113">_Кбсизе_</span><span class="sxs-lookup"><span data-stu-id="15aa1-113">_cbSize_</span></span>
   
-> <span data-ttu-id="66bcf-114">[in] Размер, в байтах, выделения буфера.</span><span class="sxs-lookup"><span data-stu-id="66bcf-114">[in] Size, in bytes, of the buffer to be allocated.</span></span> 
+> <span data-ttu-id="15aa1-114">возврата Размер выделяемого буфера (в байтах).</span><span class="sxs-lookup"><span data-stu-id="15aa1-114">[in] Size, in bytes, of the buffer to be allocated.</span></span> 
     
- <span data-ttu-id="66bcf-115">_lppBuffer_</span><span class="sxs-lookup"><span data-stu-id="66bcf-115">_lppBuffer_</span></span>
+ <span data-ttu-id="15aa1-115">_Лппбуффер_</span><span class="sxs-lookup"><span data-stu-id="15aa1-115">_lppBuffer_</span></span>
   
-> <span data-ttu-id="66bcf-116">[out] Указатель на возвращаемый выделенный буфер.</span><span class="sxs-lookup"><span data-stu-id="66bcf-116">[out] Pointer to the returned allocated buffer.</span></span>
+> <span data-ttu-id="15aa1-116">вышли Указатель на возвращенный выделенный буфер.</span><span class="sxs-lookup"><span data-stu-id="15aa1-116">[out] Pointer to the returned allocated buffer.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="66bcf-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="66bcf-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="15aa1-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="15aa1-117">Return value</span></span>
 
-<span data-ttu-id="66bcf-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="66bcf-118">S_OK</span></span> 
+<span data-ttu-id="15aa1-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="15aa1-118">S_OK</span></span> 
   
-> <span data-ttu-id="66bcf-119">Вызов успешно и вернул буфер запрошенные памяти.</span><span class="sxs-lookup"><span data-stu-id="66bcf-119">The call succeeded and has returned the requested memory buffer.</span></span>
+> <span data-ttu-id="15aa1-119">Вызов выполнен успешно и вернулся запрошенный буфер памяти.</span><span class="sxs-lookup"><span data-stu-id="15aa1-119">The call succeeded and has returned the requested memory buffer.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="66bcf-120">Замечания</span><span class="sxs-lookup"><span data-stu-id="66bcf-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="15aa1-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="15aa1-120">Remarks</span></span>
 
-<span data-ttu-id="66bcf-121">Во время **MAPIAllocateBuffer** вызовите обработки, вызывающий реализации Получает блок памяти от операционной системы.</span><span class="sxs-lookup"><span data-stu-id="66bcf-121">During **MAPIAllocateBuffer** call processing, the calling implementation acquires a block of memory from the operating system.</span></span> <span data-ttu-id="66bcf-122">Буфер памяти, выделенный на адрес четных байтов.</span><span class="sxs-lookup"><span data-stu-id="66bcf-122">The memory buffer is allocated on an even-numbered byte address.</span></span> <span data-ttu-id="66bcf-123">На платформах, где доступа "длинное целое" — это более эффективный операционная система выделяет буфера на адрес, размер которых в байтах делится на четыре.</span><span class="sxs-lookup"><span data-stu-id="66bcf-123">On platforms where long integer access is more efficient, the operating system allocates the buffer on an address whose size in bytes is a multiple of four.</span></span> 
+<span data-ttu-id="15aa1-121">Во время обработки вызовов **мапиаллокатебуффер** вызывающая реализация получает блок памяти из операционной системы.</span><span class="sxs-lookup"><span data-stu-id="15aa1-121">During **MAPIAllocateBuffer** call processing, the calling implementation acquires a block of memory from the operating system.</span></span> <span data-ttu-id="15aa1-122">Буфер памяти выделяется на байтовый адрес с четным номером.</span><span class="sxs-lookup"><span data-stu-id="15aa1-122">The memory buffer is allocated on an even-numbered byte address.</span></span> <span data-ttu-id="15aa1-123">На платформах, где доступ к долговременному целому числу эффективнее, операционная система выделяет буфер на адресе, размер которого в байтах равен четырем.</span><span class="sxs-lookup"><span data-stu-id="15aa1-123">On platforms where long integer access is more efficient, the operating system allocates the buffer on an address whose size in bytes is a multiple of four.</span></span> 
   
-<span data-ttu-id="66bcf-124">Вызов выпусков функция [MAPIFreeBuffer](mapifreebuffer.md) буфер памяти, выделенный с **MAPIAllocateBuffer**путем вызова функции [MAPIAllocateMore](mapiallocatemore.md) и буферов по ссылке, когда объем памяти больше не требуется.</span><span class="sxs-lookup"><span data-stu-id="66bcf-124">Calling the [MAPIFreeBuffer](mapifreebuffer.md) function releases the memory buffer allocated by **MAPIAllocateBuffer**, by calling the [MAPIAllocateMore](mapiallocatemore.md) function and any buffers linked to it, when the memory is no longer needed.</span></span> 
+<span data-ttu-id="15aa1-124">Вызов функции [мапифрибуффер](mapifreebuffer.md) освобождает буфер памяти, выделенный в **мапиаллокатебуффер**, вызывая функцию [мапиаллокатеморе](mapiallocatemore.md) и все связанные с ней буферы, когда память больше не нужна.</span><span class="sxs-lookup"><span data-stu-id="15aa1-124">Calling the [MAPIFreeBuffer](mapifreebuffer.md) function releases the memory buffer allocated by **MAPIAllocateBuffer**, by calling the [MAPIAllocateMore](mapiallocatemore.md) function and any buffers linked to it, when the memory is no longer needed.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="66bcf-125">См. также</span><span class="sxs-lookup"><span data-stu-id="66bcf-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="15aa1-125">См. также</span><span class="sxs-lookup"><span data-stu-id="15aa1-125">See also</span></span>
 
 
 
-[<span data-ttu-id="66bcf-126">MAPIReallocateBuffer</span><span class="sxs-lookup"><span data-stu-id="66bcf-126">MAPIReallocateBuffer</span></span>](mapireallocatebuffer.md)
+[<span data-ttu-id="15aa1-126">MAPIReallocateBuffer</span><span class="sxs-lookup"><span data-stu-id="15aa1-126">MAPIReallocateBuffer</span></span>](mapireallocatebuffer.md)
 
