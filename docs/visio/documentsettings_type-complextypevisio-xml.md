@@ -1,5 +1,5 @@
 ---
-title: DocumentSettings_Type complexType ('Visio XML»)
+title: Документсеттингс_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8fb61b5f-1bab-78b6-c56c-384e52609397
 ms.openlocfilehash: 704591a2bf03f3eaf4d93b167475a8bae286da3e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349037"
 ---
-# <a name="documentsettingstype-complextype-visio-xml"></a>DocumentSettings_Type complexType ('Visio XML»)
+# <a name="documentsettingstype-complextype-visio-xml"></a>Документсеттингс_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -129,27 +129,27 @@ ms.locfileid: "25384677"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[AttachedToolbars](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> ||
-|[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> ||
-|[CustomToolbarsFile](customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> ||
-|[DynamicGridEnabled](dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md) <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> ||
-|[GlueSettings](gluesettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> ||
-|[ProtectBkgnds](protectbkgnds-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> ||
-|[ProtectMasters](protectmasters-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> ||
-|[ProtectShapes](protectshapes-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectShapes_Type](protectshapes_type-complextypevisio-xml.md) <br/> ||
-|[ProtectStyles](protectstyles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> ||
-|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> ||
-|[SnapExtensions](snapextensions-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> ||
-|[SnapSettings](snapsettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> ||
+|[Аттачедтулбарс](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Аттачедтулбарс_типе](attachedtoolbars_type-complextypevisio-xml.md) <br/> ||
+|[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Кустомменусфиле_типе](custommenusfile_type-complextypevisio-xml.md) <br/> ||
+|[CustomToolbarsFile](customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Кустомтулбарсфиле_типе](customtoolbarsfile_type-complextypevisio-xml.md) <br/> ||
+|[DynamicGridEnabled](dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Динамикгриденаблед_типе](dynamicgridenabled_type-complextypevisio-xml.md) <br/> ||
+|[GlueSettings](gluesettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Глуесеттингс_типе](gluesettings_type-complextypevisio-xml.md) <br/> ||
+|[Протектбкгндс](protectbkgnds-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Протектбкгндс_типе](protectbkgnds_type-complextypevisio-xml.md) <br/> ||
+|[Протектмастерс](protectmasters-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Протектмастерс_типе](protectmasters_type-complextypevisio-xml.md) <br/> ||
+|[Протектшапес](protectshapes-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Протектшапес_типе](protectshapes_type-complextypevisio-xml.md) <br/> ||
+|[Протектстилес](protectstyles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Протектстилес_типе](protectstyles_type-complextypevisio-xml.md) <br/> ||
+|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Снапанглес_типе](snapangles_type-complextypevisio-xml.md) <br/> ||
+|[SnapExtensions](snapextensions-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Снапекстенсионс_типе](snapextensions_type-complextypevisio-xml.md) <br/> ||
+|[SnapSettings](snapsettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Снапсеттингс_типе](snapsettings_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|DefaultFillStyle  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|DefaultGuideStyle  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|DefaultLineStyle  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|DefaultTextStyle  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|TopPage  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|DefaultFillStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|DefaultGuideStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|DefaultLineStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|DefaultTextStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Навышена  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

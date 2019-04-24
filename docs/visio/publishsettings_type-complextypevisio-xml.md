@@ -1,5 +1,5 @@
 ---
-title: PublishSettings_Type complexType ('Visio XML»)
+title: Публишсеттингс_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: cf14299e-8d21-0eed-bbd7-ad33d4f03533
 ms.openlocfilehash: eaa4bba1c5772b11fdbd2ec1c975f475e1c5d57a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360020"
 ---
-# <a name="publishsettingstype-complextype-visio-xml"></a>PublishSettings_Type complexType ('Visio XML»)
+# <a name="publishsettingstype-complextype-visio-xml"></a>Публишсеттингс_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -54,8 +54,8 @@ ms.locfileid: "25383501"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[PublishedPage](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> ||
-|[RefreshableData](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> ||
+|[Публишедпаже](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[Публишедпаже_типе](publishedpage_type-complextypevisio-xml.md) <br/> ||
+|[Рефрешабледата](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[Рефрешабледата_типе](refreshabledata_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

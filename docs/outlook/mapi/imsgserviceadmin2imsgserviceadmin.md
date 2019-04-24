@@ -1,5 +1,5 @@
 ---
-title: IMsgServiceAdmin2 IMsgServiceAdmin
+title: IMsgServiceAdmin2 Имсгсервицеадмин
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f501ffc9fdb708604e3e64769de16081f87a2450
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2b1e00938800fb6517e634c3ba365276e0e76bd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348841"
 ---
 # <a name="imsgserviceadmin2--imsgserviceadmin"></a>IMsgServiceAdmin2 : IMsgServiceAdmin
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вносятся изменения в службы сообщений в профиле.
+Вносит изменения в службу сообщений в профиле.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiaux.h  <br/> |
-|Предоставляемые:  <br/> |Объекты администрирования службы сообщений  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения  <br/> |
+|Файл заголовка:  <br/> |Мапиаукс. h  <br/> |
+|Предоставлено:  <br/> |Объекты администрирования службы сообщений  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMsgServiceAdmin2  <br/> |
 |Тип указателя:  <br/> |LPSERVICEADMIN2  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Добавление службы сообщений для текущего профиля и возвращает, недавно добавленных службы ИД пользователя.  <br/> |
+|[Креатемсгсервицеекс](imsgserviceadmin2-createmsgserviceex.md) <br/> |Добавляет службу сообщений в текущий профиль и возвращает только что добавленный идентификатор UID службы.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Интерфейс **IMsgServiceAdmin2** предоставляется те же объекты, которые предоставляют интерфейс [IMsgServiceAdmin](imsgserviceadminiunknown.md) и уже была доступна с помощью Outlook реализации подсистемы MAPI, начиная с Microsoft Outlook 2003. 
+Интерфейс **IMsgServiceAdmin2** предоставляется теми же объектами, которые предоставляют интерфейс [имсгсервицеадмин](imsgserviceadminiunknown.md) , и был доступен с помощью реализации Outlook подсистемы MAPI с момента выпуска Microsoft Outlook 2003. 
   
 ## <a name="see-also"></a>См. также
 

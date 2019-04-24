@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e9a1b9d5f65d8683c08821d4cf0851f599f32030
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349457"
 ---
 # <a name="create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone"></a>Создание встречи, начинающейся по тихоокеанскому времени и заканчивающейся по восточному поясному времени
 
@@ -20,15 +20,15 @@ ms.locfileid: "28698717"
 
 ## <a name="example"></a>Пример
 
-В этом примере кода применяется объект [TimeZones](https://msdn.microsoft.com/library/bb611081\(v=office.15\)), который представляет собой все часовые пояса, распознаваемые в Microsoft Windows. Здесь также применяется объект [TimeZone](https://msdn.microsoft.com/library/bb646259\(v=office.15\)) , используемый для задания или получения свойства [StartTimeZone](https://msdn.microsoft.com/library/bb623657\(v=office.15\)) и свойства [EndTimeZone](https://msdn.microsoft.com/library/bb612198\(v=office.15\)) объекта [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) .
+В этом примере кода используется [](https://msdn.microsoft.com/library/bb611081\(v=office.15\)) объект timezones, который представляет все часовые пояса, распознаваемые в Microsoft Windows. Он также использует объект [TimeZone](https://msdn.microsoft.com/library/bb646259\(v=office.15\)) для задания или получения свойства [StartTimeZone](https://msdn.microsoft.com/library/bb623657\(v=office.15\)) и свойства [EndTimeZone](https://msdn.microsoft.com/library/bb612198\(v=office.15\)) объекта [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) .
 
-Все даты в Outlook отображаются с использованием местного времени, которое выражено в текущем часовом поясе пользователя, контролируемом параметрами пользователя в панели управления Windows. При задании или получении свойств в Outlook (например, [Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) и [End](https://msdn.microsoft.com/library/bb623715\(v=office.15\))) они также выражаются в формате местного времени. Однако Outlook сохраняет значения даты и времени в формате UTC, а не в формате местного времени. При изучении внутреннего значения Appointment.Start при помощи объекта [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) выясняется, что внутреннее значение даты и времени равняется значению местной даты и времени, преобразованному в равноценное значение в формате UTC.
+Все даты в Outlook отображаются с использованием местного времени, которое выражено в текущем часовом поясе пользователя, контролируемом параметрами пользователя в панели управления Windows. Outlook также задает или получает свойства, такие как [Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) и [End](https://msdn.microsoft.com/library/bb623715\(v=office.15\)), по местному времени. Однако значения даты и времени сохраняются в Outlook в формате UTC, а не в формате местного времени. Если вы изучите внутреннее значение встречи. Начните с использования объекта [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) , вы обнаружите внутреннее значение даты и времени, равное локальному значению даты и времени, преобразованному в эквивалентное значение даты и времени в формате UTC.
 
-При сохранении встречи Outlook использует сведения о часовом поясе, чтобы сопоставить встречу с соответствующим временем в формате UTC, а при отображении элемента в календаре — с соответствующим местным временем. Изменение элемента StartTimeZone влияет на значение Appointment.Start, которое всегда выражается в местном часовом поясе, представленном свойством [CurrentTimeZone](https://msdn.microsoft.com/library/bb612024\(v=office.15\)) объекта, возвращенного с помощью [TimeZones](https://msdn.microsoft.com/library/bb645170\(v=office.15\)). Аналогичным образом изменение элемента EndTimeZone влияет на значение Appointment.End, которое всегда выражается в местном часовом поясе, представленном свойством CurrentTimeZone объекта, возвращенного с помощью Application.TimeZones.
+Outlook использует сведения о часовом поясе, чтобы сопоставить встречу с правильным временем в формате UTC, когда он сохраняет встречу, и в правильное местное время при отображении элемента в календаре. Изменение StartTimeZone влияет на значение свойства встреча. Start, которое всегда выражается в местном часовом поясе, представленном свойством [CurrentTimeZone](https://msdn.microsoft.com/library/bb612024\(v=office.15\)) объекта, возвращаемого с помощью [часовых поясов](https://msdn.microsoft.com/library/bb645170\(v=office.15\)). Аналогично, изменение EndTimeZone влияет на значение свойства встреча. end, которое всегда выражается в местном часовом поясе, представленном свойством CurrentTimeZone объекта, возвращаемого приложением. TimeZones.
 
-Вы можете получить определенный объект TimeZone из объекта TimeZones с помощью независимого от региональных стандартов ключа для TimeZone в реестре Windows. Независимые от региональных стандартов ключи TimeZone перечислены в следующем разделе: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\TimeZones`.
+Конкретное значение TimeZone можно извлечь из объекта TimeZones с помощью независимого от региональных стандартов ключа TimeZone в реестре Windows. Независимые от региональных стандартов ключи TimeZone перечислены в следующем разделе: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\TimeZones`.
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В следующих строках кода показано, как выполнить импорт и назначение в Visual Basic и C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 
 ```vb

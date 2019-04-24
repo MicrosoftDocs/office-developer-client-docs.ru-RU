@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 6d5062d3-743b-8664-8ec9-5a8f11d5edf9
 description: Контролирует поведение координаты Y управляющего маркера после его перемещения. Доступны приведенные ниже формулы.
-ms.openlocfilehash: ee2a5e28748df603635f64c080119e28569f576a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf8cbd490884244c92b68784dcbf041093539c94
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360146"
 ---
 # <a name="y-behavior-cell-controls-section"></a>Ячейка Y Behavior (раздел "Элементы управления")
 

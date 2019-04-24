@@ -13,54 +13,54 @@ api_type:
 ms.assetid: 141d49c8-87cf-4d80-a33b-ccbf3eeae19e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 662c191f36f9ca30dcdf0f559ea5385bfe5fd305
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356527"
 ---
 # <a name="pidtagreadreceiptentryid-canonical-property"></a>Каноническое свойство PidTagReadReceiptEntryId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор записи для обмена сообщениями пользователя, где системы обмена сообщениями необходимо прямое подключение чтения отчет для данного сообщения.
+Содержит идентификатор записи для пользователя обмена сообщениями, в котором система обмена сообщениями должна направить отчет о прочтении этого сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_READ_RECEIPT_ENTRYID  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕАД_РЕЦЕИПТ_ЕНТРИД  <br/> |
 |Идентификатор:  <br/> |0x0046  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство игнорируется, если свойство **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) не установлен в значение TRUE.
+Это свойство игнорируется, если для свойства **пр_реад_рецеипт_рекуестед** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) не задано значение true.
   
-Если клиентское приложение может принимать чтение отчетов, его можно оставить это свойство неопределенные или задайте для него значение идентификатор записи, содержащиеся в свойстве **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) во время отправки сообщения.
+Если клиентское приложение хочет получать отчеты о прочтении, оно может оставить это свойство неопределенным или задать его в качестве значения, содержащегося в свойстве **пр_сендер_ентрид** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) во время отправки сообщения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщения электронной почты.
+> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

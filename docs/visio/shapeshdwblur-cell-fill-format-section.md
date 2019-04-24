@@ -1,37 +1,37 @@
 ---
-title: Ячейка ShapeShdwBlur (раздел "Формат заливки")
+title: ShapeShdwBlur Cell (Fill Format Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 90ace659-d979-43e1-ac64-25af3ec5d666
-description: Определяет размер размытия для тени фигуры, в пунктах (0,00 100,00).
-ms.openlocfilehash: 87502e9e34252afa81aca1c480e2b1c61b2effaa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет размер размытия для тени фигуры в точках (от 0,00 до 100,00).
+ms.openlocfilehash: ae559cbb183266dbba3ed0e98c98d24db71f3b58
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349177"
 ---
-# <a name="shapeshdwblur-cell-fill-format-section"></a>Ячейка ShapeShdwBlur (раздел "Формат заливки")
+# <a name="shapeshdwblur-cell-fill-format-section"></a>ShapeShdwBlur Cell (Fill Format Section)
 
-Определяет размер размытия для тени фигуры, в пунктах (0,00 100,00). 
+Определяет размер размытия для тени фигуры в точках (от 0,00 до 100,00). 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для получения ссылки на ячейки **ShapeShdwBlur** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **ShapeShdwBlur** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | ShapeShdwBlur  <br/> |
+| Имя ячейки:  <br/> | ShapeShdwBlur  <br/> |
    
-Для получения ссылки на ячейки **ShapeShdwBlur** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **ShapeShdwBlur** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowFill** <br/> |
-| Индекс ячейки:  <br/> |**visFillShdwBlur** <br/> |
+| Индекс строки:  <br/> |**Висровфилл** <br/> |
+| Индекс ячейки:  <br/> |**Висфиллшдвблур** <br/> |
    
 

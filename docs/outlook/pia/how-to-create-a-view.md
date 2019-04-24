@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c91f43001d6c56ad3b4c316aede9845a5e0a0064
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349492"
 ---
 # <a name="create-a-view"></a>Создание представления
 
@@ -74,7 +74,7 @@ ms.locfileid: "28721873"
 
 В представленном ниже примере кода CreateMeetingRequestsView добавляет новое представление с именем "Приглашения на собрания" в папку "Входящие" пользователя путем приведения объекта **View** к объекту **TableView**. Затем CreateMeetingRequestsView вызывает метод **Add** объекта **Views** с параметром *Name*, заданным как "Приглашения на собрания", и параметром *ViewType*, заданным как **olTableView**. Свойство [Filter](https://msdn.microsoft.com/library/bb610296\(v=office.15\)) объекта **TableView** задано соответствующим строке DASL, что приводит к отображению представления только в том случае, если в классе сообщений для элемента имеются элементы, содержащие "IPM.Schedule". Новое представление затем сохраняется и применяется.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

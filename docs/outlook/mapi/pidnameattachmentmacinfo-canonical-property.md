@@ -13,47 +13,47 @@ api_type:
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d2a7fcf06c4e09f46c0d50f9e5f8897874c5f9a2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360930"
 ---
 # <a name="pidnameattachmentmacinfo-canonical-property"></a>Каноническое свойство PidNameAttachmentMacInfo
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение вложения [RFC3282], который включает в себя соответствующие заголовка и ресурсов данных ветвления, используемого клиентами электронной почты на основе Macintosh.
+Содержит значение вложения [RFC3282], которое состоит из соответствующих данных о заголовке и ресурсных ресурсах, используемых почтовыми клиентами на основе Macintosh.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Отсутствует  <br/> |
-|Набор свойств:  <br/> |PSETID_Attachment  <br/> |
-|Имя свойства:  <br/> |AttachmentMacInfo  <br/> |
+|Понятные имена:  <br/> |Нет  <br/> |
+|Набор свойств:  <br/> |Псетид_аттачмент  <br/> |
+|Имя свойства:  <br/> |АттачментмаЦинфо  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Дополнительные сведения см в форматы файлов MS-OXCMAIL раздел 2.2.4.2 Apple.
+Для получения дополнительных сведений обратитесь к разделу MS – ОКСКМАИЛ, 2.2.4.2 форматы файлов Apple.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
+> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

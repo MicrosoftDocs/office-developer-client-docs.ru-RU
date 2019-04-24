@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockAspect (раздел "Защита")
+title: LockAspect Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251218
 localization_priority: Normal
 ms.assetid: e9bfced5-af29-f86c-8604-44ec9a573229
-description: Блокирует пропорции фигуры, форму можно изменять только пропорционально. не может иметь размер одного измерения.
-ms.openlocfilehash: fb5736add65f548f06697077bc539ec7fac5feb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует пропорции фигуры таким образом, чтобы ее можно было изменять только пропорционально. его нельзя изменять в отдельном измерении.
+ms.openlocfilehash: 83ce1aaf555cfaaa0109423e74ae930450b4c1e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359642"
 ---
-# <a name="lockaspect-cell-protection-section"></a>Ячейка LockAspect (раздел "Защита")
+# <a name="lockaspect-cell-protection-section"></a>LockAspect Cell (Protection Section)
 
-Блокирует пропорции фигуры, форму можно изменять только пропорционально. не может иметь размер одного измерения.
+Блокирует пропорции фигуры таким образом, чтобы ее можно было изменять только пропорционально. его нельзя изменять в отдельном измерении.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Заблокированный пропорции.  <br/> |
-| FALSE  <br/> | Отношение сторон не блокируется.  <br/> |
+| TRUE  <br/> | Пропорции заблокированы.  <br/> |
+| FALSE  <br/> | Пропорции не блокируются.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LockAspect по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockAspect по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LockAspect  <br/> |
+| Имя ячейки:  <br/> | LockAspect  <br/> |
    
-Для получения ссылки на ячейки LockAspect по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockAspect по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLock** <br/> |
-| Индекс ячейки:  <br/> |**visLockAspect** <br/> |
+| Индекс строки:  <br/> |**Висровлокк** <br/> |
+| Индекс ячейки:  <br/> |**Вислоккаспект** <br/> |
    
 

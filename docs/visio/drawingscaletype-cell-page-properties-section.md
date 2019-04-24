@@ -1,5 +1,5 @@
 ---
-title: Ячейка DrawingScaleType (раздел "Свойства страницы")
+title: DrawingScaleType Cell (Page Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,41 +8,41 @@ f1_keywords:
 - Vis_DSS.chm270
 localization_priority: Normal
 ms.assetid: 5d4f1cf8-bc1f-07b8-1da5-7253808e337e
-description: Определяет масштаб документа, указанный в диалоговом окне Параметры страницы (щелкните стрелку Параметры страницы на вкладке "Главная").
-ms.openlocfilehash: b93bd95a30fe5a8a5de15a8e5ea104279cf1bcda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет масштаб документа, выбранный в диалоговом окне "Параметры страницы" (щелкните стрелку настройки страницы на вкладке "Главная").
+ms.openlocfilehash: d1c1c00ffe025c566646a1f8b9fe034732ad86a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359691"
 ---
-# <a name="drawingscaletype-cell-page-properties-section"></a>Ячейка DrawingScaleType (раздел "Свойства страницы")
+# <a name="drawingscaletype-cell-page-properties-section"></a>DrawingScaleType Cell (Page Properties Section)
 
-Определяет масштаб документа, указанный в диалоговом окне **Параметры страницы** (щелкните стрелку **Параметры страницы** на вкладке **Главная** ). 
+Определяет масштаб документа, выбранный в диалоговом окне " **Параметры страницы** " (щелкните стрелку **настройки страницы** на вкладке " **Главная** "). 
   
-|**Значение**|**Описание**|**Константа автоматизации**|
+|**Value**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | Нет масштаба  <br/> |**visNoScale** <br/> |
-| 1  <br/> | Архитектурные масштаба  <br/> |**visArchitectural** <br/> |
-| 2  <br/> | Масштаб Гражданское Engineering  <br/> |**visEngineering** <br/> |
-| 3  <br/> | Настраиваемые масштаба  <br/> |**visScaleCustom** <br/> |
-| 4  <br/> | Метрики  <br/> |**visScaleMetric** <br/> |
-| 5  <br/> | Схема Engineering масштаба  <br/> |**visScaleMechanical** <br/> |
+| нуль  <br/> | Без масштаба  <br/> |**Висноскале** <br/> |
+| 1,1  <br/> | Архитектурный масштаб  <br/> |**Висарчитектурал** <br/> |
+| 2  <br/> | Масштабирование гражданского проектирования  <br/> |**Висенгиниринг** <br/> |
+| 4  <br/> | Настраиваемый масштаб  <br/> |**Висскалекустом** <br/> |
+| SP4  <br/> | Метр  <br/> |**Висскалеметрик** <br/> |
+| 17:00  <br/> | Механическая масштабируемость  <br/> |**Висскалемечаникал** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку DrawingScaleType по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку DrawingScaleType по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | DrawingScaleType  <br/> |
+| Имя ячейки:  <br/> | DrawingScaleType  <br/> |
    
-Для получения ссылки на ячейки DrawingScaleType по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку DrawingScaleType по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPage** <br/> |
-| Индекс ячейки:  <br/> |**visPageDrawScaleType** <br/> |
+| Индекс строки:  <br/> |**Висровпаже** <br/> |
+| Индекс ячейки:  <br/> |**Виспажедравскалетипе** <br/> |
    
 

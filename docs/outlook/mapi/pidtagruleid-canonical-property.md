@@ -13,54 +13,54 @@ api_type:
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8d88838893836c550136be9556299258b44e3e49
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359495"
 ---
 # <a name="pidtagruleid-canonical-property"></a>Каноническое свойство PidTagRuleId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает уникальный идентификатор, создаваемых сервером обмена сообщениями для каждого правила при создании правила. 
+Задает уникальный идентификатор, создаваемый сервером обмена сообщениями для каждого правила при первом создании правила. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RULE_ID  <br/> |
+|Связанные свойства:  <br/> |ПР_РУЛЕ_ИД  <br/> |
 |Идентификатор:  <br/> |0x6674  <br/> |
 |Тип данных:  <br/> |PT_I8  <br/> |
-|Область:  <br/> |Правила со стороны сервера  <br/> |
+|Область:  <br/> |Правила на стороне сервера  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Клиент не может быть указано это свойство при создании нового правила, но необходимо указать его при изменении или удалении правила.
+Клиент не должен указывать это свойство при создании нового правила, но при изменении или удалении правила он должен быть указан.
   
-При удалении правила, единственный параметр, клиент должен проходить является **PR_RULE_ID** и не следует передавать в любых других свойств. Сервер должен игнорировать свойства отличный от этого свойства. При добавлении правила, клиент не должен проходить в **PR_RULE_ID**, его необходимо передать в **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) и **PR_RULE_PROVIDER** ([ PidTagRuleProvider](pidtagruleprovider-canonical-property.md)) свойства. При изменении правила, клиент должен пройти в **PR_RULE_ID** и должен передавать остальные свойства, которые должны быть изменены. 
+При удалении правила необходимо, чтобы единственное свойство, которое должен пройти клиент, **пр_руле_ид** и не передавалось никаким другим свойствам. Сервер должен игнорировать свойства, отличные от данного свойства. При добавлении правила клиент не должен передаваться в **пр_руле_ид**, он должен передаватьСя в **пр_руле_кондитион** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **пр_руле_актионс** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) и **пр_руле_провидер** ([ Свойства PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). При изменении правила клиент должен передать **пр_руле_ид** и передать остальные свойства, которые необходимо изменить. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS — ОКСОРУЛЕ]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Управляет входящие сообщения электронной почты на сервере.
+> Управляет входящими сообщениями электронной почты на сервере.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -75,7 +75,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

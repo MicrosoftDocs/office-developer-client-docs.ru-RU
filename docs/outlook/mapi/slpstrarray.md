@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 5f570d9b-eb3d-4fc7-bcbe-348a0b8fe9e9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ccad74a9f2553bf29af124821c6d6a87dcde3303
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 987020bd6fd49fcba9453075cd502bd5cea4c3a3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361154"
 ---
 # <a name="slpstrarray"></a>SLPSTRArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит массив строковых значений, которые используются для описания свойства типа PT_MV_STRING8.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SLPSTRArray
@@ -42,17 +42,17 @@ typedef struct _SLPSTRArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **lppszA** . 
+> Количество значений в массиве, на которое указывает элемент **лппсза** . 
     
- **lppszA**
+ **Лппсза**
   
-> Указатель на массив строк завершен null 8-разрядных символов.
+> Указатель на массив 8 – разрядных символьных строк со значением NULL.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Дополнительные сведения о PT_MV_STRING8 увидеть [Список типы свойств](property-types.md).
+Дополнительные сведения о PT_MV_STRING8 приведены в разделе [список типов свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 

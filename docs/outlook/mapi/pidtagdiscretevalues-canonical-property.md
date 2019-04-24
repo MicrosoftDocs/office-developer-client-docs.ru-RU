@@ -12,47 +12,47 @@ api_type:
 - HeaderDef
 ms.assetid: 958f3cf7-953a-43f4-9102-ad35edf5e813
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f1aa54c3364185d322137ef41f6aface31c5c556
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6d6974302e3413db3590abbbd3e6567976c6ac72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360825"
 ---
 # <a name="pidtagdiscretevalues-canonical-property"></a>Каноническое свойство PidTagDiscreteValues
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если о недоставке применяется только для отдельных участников в список рассылки, а не всего списка. 
+Содержит значение TRUE, если отчет о недоставке применяется только к дискретным членам списка рассылки, а не ко всему списку. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_DISCRETE_VALUES  <br/> |
+|Связанные свойства:  <br/> |ПР_ДИСКРЕТЕ_ВАЛУЕС  <br/> |
 |Идентификатор:  <br/> |0x0E0E  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |MAPI передаваемого  <br/> |
+|Область:  <br/> |Несъемный MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство используется в рамках о недоставке, когда сообщение не может быть доставлено, для одного или нескольких членов списка рассылки. Он предназначен для ограничения повторной передачи пытается отдельные элементы и не списка рассылки в целом. 
+Это свойство используется в отчете о недоставке, если сообщение не может быть доставлено одному или нескольким участникам списка рассылки. Для этого необходимо ограничить повторную передачу только отдельными участниками, а не списком рассылки в целом. 
   
-Таблице получателей о недоставке содержит записи для всех получателей, к которому сообщение не может быть доставлено, а также для списков рассылки, если они существуют, к которым они относятся. Поставщика транспорта следует этому свойству присвоено значение TRUE для каждой записи списка рассылки, и он должен скопировать **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) и **PR_SEARCH_KEY** ([ PidTagSearchKey](pidtagsearchkey-canonical-property.md)) из списка рассылки, чтобы **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) и **PR_ORIGINAL_SEARCH_KEY** ([ PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) свойства для каждого элемента этого списка рассылки. 
+В таблице получателей отчета о недоставке содержатся записи для всех получателей, которым не удалось доставить сообщение, а также для списков рассылки (если они есть), к которым они относятся. Поставщик транспорта должен задать для этого свойства значение TRUE для каждой записи списка рассылки и скопировать **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)) и **пр_сеарч_кэй** ([ PidTagSearchKey](pidtagsearchkey-canonical-property.md)) из списка рассылки в **пр_оригинал_дисплай_наме** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **пр_оригинал_ентрид** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) и **пр_оригинал_сеарч_кэй** ([ PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) свойства каждого участника списка рассылки. 
   
- **PR_DISCRETE_VALUES** не должен устанавливаться запись получателя отчет о недоставке отличный от списка рассылки. 
+ **Пр_дискрете_валуес** не должно быть задано ни для одной записи получателя отчета о недоставке, кроме списка рассылки. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -13,54 +13,54 @@ api_type:
 ms.assetid: 645fe61d-414a-455e-b034-db3cfd003b9d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 431a212b6e024d695fe2de084080996d8b1054d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360412"
 ---
 # <a name="pidtaginternetreferences-canonical-property"></a>Каноническое свойство PidTagInternetReferences
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение поля заголовка сообщения Multipurpose Internet Mail Extensions (MIME) ссылки.
+Содержит значение поля заголовка REFERENCES для многоцелевого почтового расширения Интернета (MIME).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_INTERNET_REFERENCES, PR_INTERNET_REFERENCES_A, PR_INTERNET_REFERENCES_W  <br/> |
+|Связанные свойства:  <br/> |ПР_ИНТЕРНЕТ_РЕФЕРЕНЦЕС, ПР_ИНТЕРНЕТ_РЕФЕРЕНЦЕС_А, ПР_ИНТЕРНЕТ_РЕФЕРЕНЦЕС_В  <br/> |
 |Идентификатор:  <br/> |0x1039  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для создания ссылки на поля заголовка, клиенты необходимо задать эти свойства нужное значение. Записи MIME необходимо скопировать значения этих свойств поля заголовка ссылки.
+Чтобы создать поле заголовка References, клиенты должны задать для этих свойств нужное значение. Записи MIME должны копировать значения этих свойств в поле заголовка References.
   
-Для установки значения этих свойств, клиенты MIME должен записи нужное значение в поле Заголовок справочные материалы. Читатели MIME, должен скопировать значение поля заголовка ссылки на эти свойства. Читатели MIME усекать значение эти свойства, если оно превышает 64 КБ в длину.
+Чтобы задать значение этих свойств, клиенты MIME должны записать нужное значение в поле заголовка References. Устройства чтения MIME должны копировать значение поля заголовка References в эти свойства. Средства чтения MIME могут усечь значение этих свойств, если длина превышает 64 КБ.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
+> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

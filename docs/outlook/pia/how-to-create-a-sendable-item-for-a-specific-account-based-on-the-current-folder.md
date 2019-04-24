@@ -7,11 +7,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ccbbaab10dc88d50c1fad3c1eefeb5c222bc8446
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349534"
 ---
 # <a name="create-a-sendable-item-for-a-specific-account-based-on-the-current-folder"></a>Создание отправляемого элемента для определенной учетной записи на основе текущей папки
 
@@ -25,7 +25,7 @@ ms.locfileid: "28702161"
 
 В этом разделе показано, как программно создать отправляемый элемент и отправить его с помощью определенной учетной записи. Раздел содержит два примера кода, показывающих, как создать элементы [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) и [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) для конкретной учетной записи, определенной текущей папкой в активном проводнике.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

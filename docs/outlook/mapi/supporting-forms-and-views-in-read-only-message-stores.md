@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b7ffe07278cfcbba95351f2720e427dd8500221
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350619"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>��������� ���� � ������������� � �������� ��������� ������ ��� ������
 
@@ -29,7 +29,7 @@ ms.locfileid: "22563354"
   
 ��� ����������, ��� � �������� ��������� ���������� ���� ������� � ��������� ��� �������� ������ ��������� ��������� ������������, ��� ��������� ��������� ��������� ������ �������� �������� � ������� ����������� ���������, ��� ������� � MAPI ����� ������������� ���������� ��� ��������, ������������� � �����. ������ ��� ������� ����� �������� �� ������� � ��������� ����� MAPI ������������, ������� �� ����� ���� ������������� ����� �������� ��.
   
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 

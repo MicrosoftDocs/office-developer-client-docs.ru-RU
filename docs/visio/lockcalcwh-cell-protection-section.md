@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockCalcWH (раздел "Защита")
+title: LockCalcWH Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm605
 localization_priority: Normal
 ms.assetid: 6eb51e5a-03d8-3daa-b4e1-6107d540aed9
-description: Блокирует прямоугольник выделения фигуры, чтобы ее нельзя было обновить при редактировании узел или изменить тип строки в раздел геометрии.
-ms.openlocfilehash: f7f9c99eb4978e9b32968d3076b0341efe42faa6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует прямоугольник выделения фигуры, чтобы его нельзя было пересчитать при изменении вершины или при изменении типа строки в разделе Geometry.
+ms.openlocfilehash: 2b1d907f480a22a56f5847035da8d1cbde5fdcc5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359635"
 ---
-# <a name="lockcalcwh-cell-protection-section"></a>Ячейка LockCalcWH (раздел "Защита")
+# <a name="lockcalcwh-cell-protection-section"></a>LockCalcWH Cell (Protection Section)
 
-Блокирует прямоугольник выделения фигуры, чтобы ее нельзя было обновить при редактировании узел или изменить тип строки в раздел геометрии.
+Блокирует прямоугольник выделения фигуры, чтобы его нельзя было пересчитать при изменении вершины или при изменении типа строки в разделе Geometry.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Не удалось обновить ширины и высоты.  <br/> |
-| FALSE  <br/> | Можно перерасчете ширины и высоты.  <br/> |
+| TRUE  <br/> | Невозможно пересчитать ширину и высоту.  <br/> |
+| FALSE  <br/> | Можно пересчитать ширину и высоту.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LockCalcWH по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockCalcWH по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LockCalcWH  <br/> |
+| Имя ячейки:  <br/> | LockCalcWH  <br/> |
    
-Для получения ссылки на ячейки LockCalcWH по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockCalcWH по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLock** <br/> |
-| Индекс ячейки:  <br/> |**visLockCalcWH** <br/> |
+| Индекс строки:  <br/> |**Висровлокк** <br/> |
+| Индекс ячейки:  <br/> |**Вислокккалквх** <br/> |
    
 

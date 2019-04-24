@@ -1,5 +1,5 @@
 ---
-title: RowDef_Type complexType ('Visio XML»)
+title: Ровдеф_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64897258-dd7e-a730-d4f5-d9c217308491
 ms.openlocfilehash: 11acab820fe51b6dde9cf9d57977699ca3c977cb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355771"
 ---
-# <a name="rowdeftype-complextype-visio-xml"></a>RowDef_Type complexType ('Visio XML»)
+# <a name="rowdeftype-complextype-visio-xml"></a>Ровдеф_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25394589"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
+|Целлдеф <br/> |[Целлдеф_типе](celldef_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

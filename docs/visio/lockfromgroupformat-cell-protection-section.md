@@ -1,38 +1,38 @@
 ---
-title: Ячейка LockFromGroupFormat (раздел "Защита")
+title: LockFromGroupFormat Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: abd175af-ad4e-b84a-2687-2c9358653499
-ms.openlocfilehash: 95633ab7a4127564fef65062bcf328d4364ebd86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3daeb4704a33ba836cf82c9ab3517c6ca6be8db7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19814145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359593"
 ---
-# <a name="lockfromgroupformat-cell-protection-section"></a>Ячейка LockFromGroupFormat (раздел "Защита")
+# <a name="lockfromgroupformat-cell-protection-section"></a>LockFromGroupFormat Cell (Protection Section)
 
-Блоки изменений формата групповой фигуры распространения на вложенные фигуры, при этом позволяя пользователям напрямую форматирование указанных вложенных фигур. 
+Запрещает распространение изменений формата фигуры группы на вложенные фигуры, в то же время разрешив пользователям отформатировать выбранные дочерние фигуры напрямую. 
   
-Значение ячейки LockFromGroupFormat соответствует параметру **из группы форматирования** флажок в диалоговом окне " **Защита** ". 
+Значение ячейки LockFromGroupFormat соответствует параметру флажка **from Group Formatting** в диалоговом окне **Защита** . 
   
-Для ссылки на ячейки LockFromGroupFormat по имени из другой формулы или из программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы сослаться на ячейку LockFromGroupFormat по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |LockFromGroupFormat  <br/> |
+|Имя ячейки:  <br/> |LockFromGroupFormat  <br/> |
    
-Для ссылки на ячейки LockFromGroupFormat по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы сослаться на ячейку LockFromGroupFormat по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowLock** <br/> |
-|Индекс ячейки:  <br/> |**visLockFromGroupFormat** <br/> |
+|Индекс строки:  <br/> |**Висровлокк** <br/> |
+|Индекс ячейки:  <br/> |**Вислоккфромграупформат** <br/> |
    
-Значение по умолчанию для ячейки равно 0 (False).
+Значение по умолчанию для ячейки равно 0 (false).
   
 

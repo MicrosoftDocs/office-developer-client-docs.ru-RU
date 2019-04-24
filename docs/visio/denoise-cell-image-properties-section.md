@@ -1,5 +1,5 @@
 ---
-title: Ячейка Denoise (раздел "Свойства изображения")
+title: Denoise Cell (Image Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,32 +8,32 @@ f1_keywords:
 - vis_sdr.chm225
 localization_priority: Normal
 ms.assetid: e305585f-f0d8-0494-91d4-0c76929dc170
-description: 'Удаление помех (точки со случайно распределенными уровнями цвета) из точечного рисунка. Значение по умолчанию: 0%.'
-ms.openlocfilehash: f08d09126a24935c0dd4dcda5e88fdd559c8d176
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Удаляет шум (пикселов с произвольно распространенными уровнями цвета) из растрового изображения. Значение по умолчанию: 0%.'
+ms.openlocfilehash: f970fde22e864239ea3f3f9bcb704e7f4692e9cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360251"
 ---
-# <a name="denoise-cell-image-properties-section"></a>Ячейка Denoise (раздел "Свойства изображения")
+# <a name="denoise-cell-image-properties-section"></a>Denoise Cell (Image Properties Section)
 
-Удаление помех (точки со случайно распределенными уровнями цвета) из точечного рисунка. Значение по умолчанию: 0%.
+Удаляет шум (пикселов с произвольно распространенными уровнями цвета) из растрового изображения. Значение по умолчанию: 0%.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку Denoise по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку "unnoise" по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Устранение шума  <br/> |
+| Имя ячейки:  <br/> | Denoise  <br/> |
    
-Для получения ссылки на ячейки Denoise по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку "unnoise" по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowImage** <br/> |
-| Индекс ячейки:  <br/> |**visImageDenoise** <br/> |
+| Индекс строки:  <br/> |**Висровимаже** <br/> |
+| Индекс ячейки:  <br/> |**Висимажеденоисе** <br/> |
    
 

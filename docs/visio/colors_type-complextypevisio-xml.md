@@ -1,5 +1,5 @@
 ---
-title: Colors_Type complexType ('Visio XML»)
+title: Колорс_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09f997b5-1f3c-ddff-41f2-af84960266ff
 ms.openlocfilehash: e447ceb6fc0e6b79ec6e62b5f3b73a32cec589d9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359026"
 ---
-# <a name="colorstype-complextype-visio-xml"></a>Colors_Type complexType ('Visio XML»)
+# <a name="colorstype-complextype-visio-xml"></a>Колорс_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25400917"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[ColorEntry](colorentry-element-colors_type-complextypevisio-xml.md) <br/> |[ColorEntry_Type](colorentry_type-complextypevisio-xml.md) <br/> ||
+|[Колорентри](colorentry-element-colors_type-complextypevisio-xml.md) <br/> |[Колорентри_типе](colorentry_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

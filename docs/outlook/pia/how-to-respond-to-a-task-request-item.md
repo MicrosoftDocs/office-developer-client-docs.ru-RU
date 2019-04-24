@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9aa6416680bbf2443506415b5fa871d30fe5f32e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357395"
 ---
 # <a name="respond-to-a-task-request-item"></a>Ответ на элемент запроса выполнения задачи
 
@@ -25,7 +25,7 @@ ms.locfileid: "28705409"
 
 В примере кода ниже метод AcceptTaskRequest использует метод [GetAssociatedTask(Boolean)](https://msdn.microsoft.com/library/bb645779\(v=office.15\)) объекта [TaskRequestItem](https://msdn.microsoft.com/library/bb610737\(v=office.15\)), чтобы получить объект [TaskItem](https://msdn.microsoft.com/library/bb624227\(v=office.15\)). Затем код в примере вызывает метод [Respond(OlTaskResponse, Object, Object)](https://msdn.microsoft.com/library/bb644188\(v=office.15\)), параметру которого присвоено значение [olTaskAccept](https://msdn.microsoft.com/library/bb624484\(v=office.15\)), чтобы принять запрос выполнения задачи.
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В строке кода ниже показано, как выполнить импорт и назначение на языке C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -55,5 +55,5 @@ private void AcceptTaskRequest()
 
 ## <a name="see-also"></a>См. также
 
-- [Tasks](tasks.md)
+- [Задачи](tasks.md)
 

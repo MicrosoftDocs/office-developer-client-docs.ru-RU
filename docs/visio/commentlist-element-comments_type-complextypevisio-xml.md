@@ -1,31 +1,31 @@
 ---
-title: Элемент CommentList (Comments_Type complexType) ('Visio XML»)
+title: Элемент Комментлист (Комментс_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 49fee70d-6556-887b-003f-4f56916d541d
-description: Указывает комментарии в документе.
+description: Задает комментарии в документе.
 ms.openlocfilehash: 424eb10ab356fc2b7f07a1fae27a8e2715e3f2fd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359432"
 ---
-# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>Элемент CommentList (Comments_Type complexType) ('Visio XML»)
+# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>Элемент Комментлист (Комментс_типе complexType) (' Visio XML ')
 
-Указывает комментарии в документе.
+Задает комментарии в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Комментлист_типе](commentlist_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Comments.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Comments. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,13 +42,13 @@ ms.locfileid: "25395170"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[�����������](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |Задает свойства, используемые для идентификации авторов и комментарии в документе.  <br/> |
+|[Comments](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Комментс_типе](comments_type-complextypevisio-xml.md) <br/> |Задает свойства, используемые для идентификации авторов и комментариев в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[CommentEntry](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |Задает свойства, используемые для идентификации комментария в документ.  <br/> |
+|[Комментентри](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[Комментентри_типе](commententry_type-complextypevisio-xml.md) <br/> |Задает свойства, используемые для идентификации комментария в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

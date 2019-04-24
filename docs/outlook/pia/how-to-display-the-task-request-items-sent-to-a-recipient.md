@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9ab5e830003fbfb64b44fc9e0d813c7a7c5163bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357423"
 ---
 # <a name="display-the-task-request-items-sent-to-a-recipient"></a>Отображение элементов запроса выполнения задачи, отправленных получателю
 
@@ -25,7 +25,7 @@ ms.locfileid: "28726052"
 
 Объект [TaskRequestItem](https://msdn.microsoft.com/library/bb610737\(v=office.15\)) представляет запрос на назначение задачи другому пользователю. **TaskRequestItem** создается, когда элемент получен в папке "Входящие" получателя. В представленном ниже примере кода ShowTaskRequests выполняет фильтрацию папки "Входящие" получателя, создает объект [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) и вставляет строку для каждого элемента, для которого значение свойства [MessageClass](https://msdn.microsoft.com/library/bb610592\(v=office.15\)) равно **IPM.TaskRequest**. После этого тема каждой задачи в папке "Входящие" записывается в прослушивателях трассировки коллекции [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

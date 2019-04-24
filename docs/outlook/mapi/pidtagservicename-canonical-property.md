@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d950ee21c0c4c41e84c0fe1f8104219e63f84cec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e5659113b1c6579913042ae0c8dfcd03e9802621
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359481"
 ---
 # <a name="pidtagservicename-canonical-property"></a>Каноническое свойство PidTagServiceName
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит имя службы сообщение как набор пользователем в файла MapiSvc.inf.
+Содержит имя службы сообщений, заданной пользователем в файле MapiSvc. INF.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_SERVICE_NAME, PR_SERVICE_NAME_A, PR_SERVICE_NAME_W  <br/> |
+|Связанные свойства:  <br/> |ПР_СЕРВИЦЕ_НАМЕ, ПР_СЕРВИЦЕ_НАМЕ_А, ПР_СЕРВИЦЕ_НАМЕ_В  <br/> |
 |Идентификатор:  <br/> |0x3D09  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Имя, содержащихся в этих свойств для службы сообщений. Текст поступает из раздела [Services] в MapiSvc.inf.
+Имя, которое хранится в этих свойствах, относится только к службе сообщений. Он поступает из раздела [Services] в MapiSvc. INF.
   
-Эти свойства отображаются в виде столбцов в таблице службы сообщений и может использоваться для фильтрации служб. Так как она используется для идентификации и фильтрации служб, значение не должно быть локализовано.
+Эти свойства отображаются в виде столбца в таблице службы сообщений и могут использоваться для фильтрации служб. Так как он используется для идентификации и фильтрации служб, значение не должно быть локализовано.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

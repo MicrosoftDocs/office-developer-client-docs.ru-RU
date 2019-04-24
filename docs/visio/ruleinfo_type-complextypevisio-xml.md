@@ -1,5 +1,5 @@
 ---
-title: RuleInfo_Type complexType ('Visio XML»)
+title: Рулеинфо_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9ec3a334-dd0e-acc1-2b4e-026568b6f265
 ms.openlocfilehash: 0548f2b493677ab63ef75548149e709645c0cf75
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360468"
 ---
-# <a name="ruleinfotype-complextype-visio-xml"></a>RuleInfo_Type complexType ('Visio XML»)
+# <a name="ruleinfotype-complextype-visio-xml"></a>Рулеинфо_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -51,7 +51,7 @@ ms.locfileid: "25382570"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|RuleID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|RuleSetID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|RuleID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Рулесетид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

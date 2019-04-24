@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 57435634-202d-4998-9931-4562f1a66f5f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a44974accea30b5d1406c9cc74570012f61639e5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9b1c5a09a60240efa9d4fa117f0d8fe8113169d5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361168"
 ---
 # <a name="slongarray"></a>SLongArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив типов значение типа LONG, которые используются для описания свойства типа PT_MV_LONG. 
+Содержит массив типов ДЛИННых значений, которые используются для описания свойства типа ПТ_МВ_ЛОНГ. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SLongArray
@@ -42,17 +42,17 @@ typedef struct _SLongArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **lpl** . 
+> Количество значений в массиве, на которое указывает элемент **ЛПЛ** . 
     
- **lpl**
+ **ЛПЛ**
   
-> Указатель на массив значений времени.
+> Указатель на массив ДЛИННых значений.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Дополнительные сведения о PT_MV_LONG увидеть [Список типы свойств](property-types.md).
+Дополнительные сведения о ПТ_МВ_ЛОНГ приведены в разделе [список типов свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 

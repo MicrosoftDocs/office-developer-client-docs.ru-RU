@@ -1,5 +1,5 @@
 ---
-title: Установка параметров адресной книги
+title: Настройка параметров адресной книги
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: 9bd31233-fc8d-4e0a-9f1b-218c5ecb6d1b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0d93fde7d654f0ee56dcda9f2fb69ad622e476dd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f72c916e917543b11089f8f5ef1aa4b9552a1b6a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351410"
 ---
-# <a name="setting-address-book-options"></a>Установка параметров адресной книги
+# <a name="setting-address-book-options"></a>Настройка параметров адресной книги
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Можно задать три свойства, описывающие параметры для использования в адресной книге:
+Вы можете задать три свойства, описывающих параметры использования адресной книги:
   
-- **PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md))
+- **Пр_аб_сеарч_пас** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md))
     
-    Свойство **PR_AB_SEARCH_PATH** используется [IAddrBook::ResolveName](iaddrbook-resolvename.md) для определения контейнеров для принимать участие в том порядке, в том, что они должны принимать участие и разрешения имен. Для каждого контейнера в **PR_AB_SEARCH_PATH** **IAddrBook::ResolveName** вызывает метод [IABContainer::ResolveNames](iabcontainer-resolvenames.md) . Контейнеры в начале **PR_AB_SEARCH_PATH** выполняется перед контейнеров в конце **PR_AB_SEARCH_PATH**. 
+    Свойство **пр_аб_сеарч_пас** используется [IAddrBook:: ресолвенаме](iaddrbook-resolvename.md) для определения контейнеров, участвующих в разрешении имен, и порядка, в котором они должны быть задействованы. Для каждого контейнера в **пр_аб_сеарч_пас**, **IAddrBook:: Ресолвенаме** вызывает метод [иабконтаинер:: ResolveNames](iabcontainer-resolvenames.md) . Контейнеры в начале **пр_аб_сеарч_пас** ищутся перед контейнерами в конце **пр_аб_сеарч_пас**. 
     
-    Порядок поиска в **PR_AB_SEARCH_PATH** задается с помощью структуру [SRowSet](srowset.md) ту же структуру, которая используется для представления строки в таблице. Можно просмотреть текущий путь поиска путем вызова метода [IAddrBook::GetSearchPath](iaddrbook-getsearchpath.md) и измените его путем вызова метода [IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md) . 
+    Порядок поиска в **пр_аб_сеарч_пас** указывается с помощью структуры [SRowSet](srowset.md) , той же структуры, которая используется для представления строк в таблице. Вы можете просмотреть текущий путь поиска, вызвав метод [IAddrBook:: жетсеарчпас](iaddrbook-getsearchpath.md) и изменив его, вызвав метод [IAddrBook:: сетсеарчпас](iaddrbook-setsearchpath.md) . 
     
-- **PR_AB_DEFAULT_DIR** ([PidTagAbDefaultDir](pidtagabdefaultdir-canonical-property.md))
+- **Пр_аб_дефаулт_дир** ([PidTagAbDefaultDir](pidtagabdefaultdir-canonical-property.md))
     
-    Свойство **PR_AB_DEFAULT_DIR** — это идентификатор операции контейнер адресной книги для отображения изначально при отображении в адресной книге. Каталог по умолчанию действует, пока не будет изменено путем вызова метода [IAddrBook::SetDefaultDir](iaddrbook-setdefaultdir.md) . Можно просматривать каталог по умолчанию путем вызова метода [IAddrBook::GetDefaultDir](iaddrbook-getdefaultdir.md) . 
+    Свойство **пр_аб_дефаулт_дир** — это идентификатор записи контейнера адресной книги, который будет отображаться первоначально при отображении адресной книги. Параметры каталога по умолчанию действуют до тех пор, пока вы не измените его, вызвав метод [IAddrBook:: сетдефаултдир](iaddrbook-setdefaultdir.md) . Вы можете просмотреть каталог по умолчанию, вызвав метод [IAddrBook:: жетдефаултдир](iaddrbook-getdefaultdir.md) . 
     
-- **PR_AB_DEFAULT_PAB** ([PidTagAbDefaultPab](pidtagabdefaultpab-canonical-property.md))
+- **Пр_аб_дефаулт_паб** ([PidTagAbDefaultPab](pidtagabdefaultpab-canonical-property.md))
     
-Эти три свойства являются особыми, так как он не может работать с ними с помощью стандартных способов **IMAPIProp** . Вместо этого необходимо использовать методы **IAddrBook** . Так как ни один из этих свойств можно изменить с помощью **IMAPIProp::SetProps**, нет необходимости для вызова **IMAPIProp::SaveChanges** вносить изменения постоянной. Изменения, сделанные через методы **IAddrBook** вступили в силу немедленно. 
+Эти три свойства являются особыми, так как вы не можете работать с ними с помощью стандартных методов **IMAPIProp** . Вместо этого необходимо использовать методы **IAddrBook** . Так как ни одно из этих свойств не может быть изменено с помощью **IMAPIProp:: SetProps**, нет необходимости вызывать **IMAPIProp:: SaveChanges** , чтобы сделать изменения постоянными. Изменения, внесенные с помощью методов **IAddrBook** , вступают в силу немедленно. 
   
 ## <a name="see-also"></a>См. также
 

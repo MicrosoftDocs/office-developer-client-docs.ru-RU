@@ -1,40 +1,40 @@
 ---
-title: Типичные задачи (таблицы свойств фигуры Visio)
+title: Общие задачи (таблица свойств фигуры Visio)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 3be0b895-d01a-d7b7-0ccf-067ba5b39ade
-description: 'На этой странице навигации приведены ссылки на разделы Обзор возможностей программирования в Visio. Щелкните ссылки ниже или используйте Оглавление для перехода на следующие разделы:'
-ms.openlocfilehash: 6f9a9903d3216c34b737d24310006a23b14b18b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Эта страница навигации содержит ссылки на общие разделы, посвященные программированию в Visio. Щелкните ссылки ниже или воспользуйтесь ОГЛАВЛЕНИем, чтобы перейти к следующим разделам:'
+ms.openlocfilehash: 2bcf96f65c774f5b5a5e0534d75ea9605a523fed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359352"
 ---
-# <a name="common-tasks-visio-shapesheet"></a>Типичные задачи (таблицы свойств фигуры Visio)
+# <a name="common-tasks-visio-shapesheet"></a>Общие задачи (таблица свойств фигуры Visio)
 
-На этой странице навигации приведены ссылки на разделы Обзор возможностей программирования в Visio. Щелкните ссылки ниже или используйте Оглавление для перехода на следующие разделы:
+Эта страница навигации содержит ссылки на общие разделы, посвященные программированию в Visio. Щелкните ссылки ниже или воспользуйтесь ОГЛАВЛЕНИем, чтобы перейти к следующим разделам:
   
 - [Добавление, изменение и удаление строк в таблице свойств фигуры](add-change-or-delete-rows-in-the-shapesheet.md)
     
 - [Добавление, отображение, скрытие или удаление раздела](add-show-hide-or-delete-a-section.md)
     
-- [Изменение имени и просмотр ИД фигуры](change-the-name-and-view-the-id-of-a-shape.md)
+- [Изменение имени и просмотр идентификатора фигуры](change-the-name-and-view-the-id-of-a-shape.md)
     
-- [Копирование и вставка формулы из одной ячейки в другую](copy-and-paste-a-formula-from-one-cell-into-another.md)
+- [Копирование и Вставка формулы из одной ячейки в другую](copy-and-paste-a-formula-from-one-cell-into-another.md)
     
 - [Отображение формул или значений в ячейках](display-formulas-or-values-in-cells.md)
     
-- [Редактирование фрагмента формулы](edit-a-part-of-a-formula.md)
+- [Изменение части формулы](edit-a-part-of-a-formula.md)
     
 - [Ввод пустой формулы](enter-an-empty-formula.md)
     
 - [Перемещение по окну таблицы свойств фигуры](move-around-a-shapesheet-window.md)
     
-- [Открытие всех таблиц свойств фигур в одном окне](open-each-shapesheet-in-the-same-window.md)
+- [Открытие каждой таблицы свойств фигур в одном и том же окне](open-each-shapesheet-in-the-same-window.md)
     
 - [Открытие таблицы свойств фигуры, страницы или документа](open-the-shapesheet-for-a-shape-page-or-document.md)
     

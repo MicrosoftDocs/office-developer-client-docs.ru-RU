@@ -1,42 +1,42 @@
 ---
-title: Ячейка LineGradientEnabled (раздел "Свойства градиента")
+title: LineGradientEnabled Cell (Gradient Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 276a661f-d14e-404a-a494-ae36601a8ce3
-description: Определяет, включена ли градиент строки для линии или границы фигуры.
-ms.openlocfilehash: d78a94a25c0290bd5e58522c9a45955868f31b32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, включен ли градиент линии для линии или границы фигуры.
+ms.openlocfilehash: 1d2b33275d26bb0c8e5550bcb7cf282c64d34544
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361140"
 ---
-# <a name="linegradientenabled-cell-gradient-properties-section"></a>Ячейка LineGradientEnabled (раздел "Свойства градиента")
+# <a name="linegradientenabled-cell-gradient-properties-section"></a>LineGradientEnabled Cell (Gradient Properties Section)
 
-Определяет, включена ли градиент строки для линии или границы фигуры. 
+Определяет, включен ли градиент линии для линии или границы фигуры. 
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Градиентные отображается в строке или границы фигуры.  <br/> |
-|FALSE  <br/> |Градиентом, не отображаются в строке или границы фигуры.  <br/> |
+|TRUE  <br/> |Градиент отображается на линии или границе фигуры.  <br/> |
+|FALSE  <br/> |Градиенты не отображаются в линии или границе фигуры.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для получения ссылки на ячейки **LineGradientEnabled** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **LineGradientEnabled** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LineGradientEnabled  <br/> |
+| Имя ячейки:  <br/> | LineGradientEnabled  <br/> |
    
-Для получения ссылки на ячейки **LineGradientEnabled** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **LineGradientEnabled** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowGradientProperties** <br/> |
-| Индекс ячейки:  <br/> |**visLineGradientEnabled** <br/> |
+| Индекс строки:  <br/> |**Висровградиентпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Вислинеградиентенаблед** <br/> |
    
 

@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 65f890d8-9d25-408e-ab29-89991278b92d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 966af9b3b3cbe52031402450be324ab6821d53ac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d367073de2134ff766cbae3d4f6bcfa30b862122
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351109"
 ---
 # <a name="pidtagoriginatorcertificate-canonical-property"></a>Каноническое свойство PidTagOriginatorCertificate
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит сертификат ASN.1 для этого отправитель сообщения.
+Содержит сертификат ASN. 1 для инициатора сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORIGINATOR_CERTIFICATE  <br/> |
+|Связанные свойства:  <br/> |ПР_ОРИГИНАТОР_ЦЕРТИФИКАТЕ  <br/> |
 |Идентификатор:  <br/> |0x0022  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство соответствует копию этого отправитель свойство **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)).
+Это свойство является копией свойства **пр_усер_цертификате** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) создателя.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

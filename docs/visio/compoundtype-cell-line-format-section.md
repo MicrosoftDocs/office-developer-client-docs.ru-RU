@@ -1,45 +1,45 @@
 ---
-title: Ячейка CompoundType (раздел "Формат линий")
+title: CompoundType Cell (Line Format Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3e2a88ad-d92c-4550-8da3-fa7fdd032e73
-description: Определяет тип составные строки фигуры.
-ms.openlocfilehash: 663b683030251c8b57324f1d2bdf492463c50eef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет составной тип линии фигуры.
+ms.openlocfilehash: 120975e419656234266cb8151b2fa37ef19602e5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359374"
 ---
-# <a name="compoundtype-cell-line-format-section"></a>Ячейка CompoundType (раздел "Формат линий")
+# <a name="compoundtype-cell-line-format-section"></a>CompoundType Cell (Line Format Section)
 
-Определяет тип составные строки фигуры. 
+Определяет составной тип линии фигуры. 
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|0  <br/> |Простое  <br/> |
-|1  <br/> |Double  <br/> |
-|2  <br/> |Жирная тонкая  <br/> |
-|3  <br/> |Тонкая Жирная  <br/> |
-|4  <br/> |Triple  <br/> |
+|нуль  <br/> |Simple (Простая)  <br/> |
+|1,1  <br/> |Двойное с плавающей точкой  <br/> |
+|2  <br/> |Толстая тонкая  <br/> |
+|4  <br/> |Тонкие плотности  <br/> |
+|SP4  <br/> |Triple  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для получения ссылки на ячейки **CompoundType** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **CompoundType** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | CompoundType  <br/> |
+| Имя ячейки:  <br/> | CompoundType  <br/> |
    
-Для получения ссылки на ячейки **CompoundType** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **CompoundType** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLine** <br/> |
-| Индекс ячейки:  <br/> |**visCompoundType** <br/> |
+| Индекс строки:  <br/> |**Висровлине** <br/> |
+| Индекс ячейки:  <br/> |**Вискомпаундтипе** <br/> |
    
 

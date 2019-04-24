@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: a067455f-c67e-4434-83bf-5acc320865d0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5d1ebd7752dec05db112c6a8805244579cc9848f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c998d2c48ba1a17a08b591854896023373b6e83
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359467"
 ---
 # <a name="pidtagservices-canonical-property"></a>Каноническое свойство PidTagServices
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список идентификаторов для службы сообщений текущего профиля.
+Содержит список идентификаторов служб сообщений в текущем профиле.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_SERVICES  <br/> |
+|Связанные свойства:  <br/> |ПР_СЕРВИЦЕС  <br/> |
 |Идентификатор:  <br/> |0x3D0E  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство не используется. Зарезервирован для использования с MAPI.
+Не используйте это свойство. Оно зарезервировано для использования MAPI.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

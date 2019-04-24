@@ -1,5 +1,5 @@
 ---
-title: Схема XML расположения для прогноза погоды в Outlook
+title: Схема XML расположения погоды в Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8bb17e80-3be5-228e-ddb4-fcda03b60ba6
-description: Этот раздел содержит ссылки на Outlook 2013 схему для Outlook прогноза погоды местоположения XML-схему. Эта схема позволяет поставщиков услуг прогноза погоды в ответ на запрос Outlook web службы для расположения кода. Код должен соответствовать расположение, для которого пользователь запрашивает информацию о погоде в панели прогноза погоды.
-ms.openlocfilehash: 30fcf1611cd6fac9c37b0afd82f544bb0f68735f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: В этом разделе содержится справочник по схеме Outlook 2013 для XML-схемы расположения погоды в Outlook. Эта схема позволяет поставщикам услуг Weather реагировать на запрос веб-службы Outlook для кода расположения. Код расположения должен соответствовать местоположению, для которого пользователь запрашивает информацию о погоде на панели прогноза погоды.
+ms.openlocfilehash: 153244bc1ddcf84299d1e72821a5ebe65ad4ca4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355127"
 ---
-# <a name="outlook-weather-location-xml-schema"></a>Схема XML расположения для прогноза погоды в Outlook
+# <a name="outlook-weather-location-xml-schema"></a>Схема XML расположения погоды в Outlook
 
-Этот раздел содержит ссылки на Outlook 2013 схему для Outlook прогноза погоды местоположения XML-схему. Эта схема позволяет поставщиков услуг прогноза погоды в ответ на запрос Outlook web службы для расположения кода. Код должен соответствовать расположение, для которого пользователь запрашивает информацию о погоде в панели прогноза погоды.
+В этом разделе содержится справочник по схеме Outlook 2013 для XML-схемы расположения погоды в Outlook. Эта схема позволяет поставщикам услуг Weather реагировать на запрос веб-службы Outlook для кода расположения. Код расположения должен соответствовать местоположению, для которого пользователь запрашивает информацию о погоде на панели прогноза погоды.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
-- [Карта схемы (схема местоположения погоды Outlook)](schema-map-outlook-weather-location-schema.md)
+- [Карта схемы (схема расположений о погоде Outlook)](schema-map-outlook-weather-location-schema.md)
     
-- [Элементы (схема местоположения погоды Outlook)](elements-outlook-weather-location-schema.md)
+- [Элементы (схема расположения прогноза погоды Outlook)](elements-outlook-weather-location-schema.md)
     
-- [Типы (схема местоположения погоды Outlook)](types-outlook-weather-location-schema.md)
+- [Типы (схема расположений о погоде Outlook)](types-outlook-weather-location-schema.md)
     
 ## <a name="related-sections"></a>Связанные разделы
 

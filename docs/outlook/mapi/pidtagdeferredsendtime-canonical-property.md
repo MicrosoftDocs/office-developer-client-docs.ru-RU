@@ -13,52 +13,52 @@ api_type:
 ms.assetid: ee206c2d-8371-4d19-b42b-78f6479e13ca
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2d6374c2fd3c277e2bb976930e9e105cc839b1e8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397207"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359880"
 ---
 # <a name="pidtagdeferredsendtime-canonical-property"></a>Каноническое свойство PidTagDeferredSendTime
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает время, когда это клиент, предоставляемых отложите отправки сообщения.
+Указывает время, в течение которого клиент хочет отложить отправку сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_DEFERRED_SEND_TIME  <br/> |
+|Связанные свойства:  <br/> |ПР_ДЕФЕРРЕД_СЕНД_ТИМЕ  <br/> |
 |Идентификатор:  <br/> |0x3FEF  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Если присутствуют **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) и **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) свойства, значение этого свойства — это пересчитывать с помощью следующей формулы и Старое значение игнорируется.
+Если присутствуют свойства **пр_деферред_сенд_унитс** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) и **пр_деферред_сенд_нумбер** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)), значение этого свойства пересчитывается с помощью следующей формулы и старое значение игнорируется.
   
- **PR_DEFERRED_SEND_TIME** = **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) + **PR_DEFERRED_SEND_NUMBER** * TimeOf (**PR_DEFERRED_SEND_UNITS**)
+ **Пр_деферред_сенд_тиме** = **пр_клиент_субмит_тиме** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) + **пр_деферред_сенд_нумбер** * тимеоф (**пр_деферред_сенд_унитс**)
   
-Если значение **PR_DEFERRED_SEND_TIME** является более ранней, чем текущая время (в формате UTC), сообщение отправляется немедленно. 
+Если значение **пр_деферред_сенд_тиме** более раннее, чем текущее время (в формате UTC), сообщение отправляется немедленно. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщения электронной почты.
+> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 29dd2e3b47d0f43df7824274d2fdcc4f7f16eeb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ea877c9328279322de0f15e5755096e74819425
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357416"
 ---
 # <a name="ltid"></a>LTID
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Универсальный длинный идентификатор термина объекта в хранилище Outlook.
+Общий долгосрочный идентификатор термина объекта в магазине Outlook.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -34,19 +34,19 @@ struct LTID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
- _Идентификатор GUID_
+ _кодом_
   
-- [out] Идентификатор GUID сервера, создавшее этот объект.
+- вышли GUID сервера, который создал объект.
     
- _globcnt_
+ _глобкнт_
   
-- [out] 6-байтовое уникальный номер, идентифицирующий объекта в хранилище Outlook.
+- вышли 6 байт уникальный номер, идентифицирующий объект в магазине Outlook.
     
- _wLevel_
+ _Влевел_
   
-- [out] Уровень иерархии идентификатор записи для Exchange избранные общей папки.
+- вышли Уровень иерархии идентификатора записи для общеДоступной папки Exchange.
     
 ## <a name="see-also"></a>См. также
 

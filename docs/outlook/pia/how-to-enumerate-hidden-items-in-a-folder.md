@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6508ea955ad74b49b5fef73352b4a1706d8e338c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357409"
 ---
 # <a name="enumerate-hidden-items-in-a-folder"></a>Перечисление скрытых элементов в папке
 
@@ -25,7 +25,7 @@ ms.locfileid: "28713200"
 
 Одна из функций объекта [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)), который представляет набор элементов в папке, заключается в том, что он может содержать скрытые элементы. Для возврата скрытых элементов в папке присвойте параметру *TableContents* метода [GetTable(Object, Object)](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) объекта [MAPIFolder](https://msdn.microsoft.com/library/bb624369\(v=office.15\)) значение [olHiddenItems](https://msdn.microsoft.com/library/bb622801\(v=office.15\)). В следующем примере кода процедура TableForInboxHiddenItems получает скрытые элементы в папке "Входящие" и записывает значения свойств [Subject](https://msdn.microsoft.com/library/bb611353\(v=office.15\)) и [MessageClass](https://msdn.microsoft.com/library/bb645845\(v=office.15\)) для каждого скрытого элемента в прослушиватели трассировки в коллекции [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

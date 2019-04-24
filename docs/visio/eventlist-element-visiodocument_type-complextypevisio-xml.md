@@ -1,31 +1,31 @@
 ---
-title: Элемент EventList (VisioDocument_Type complexType) ('Visio XML»)
+title: Элемент EventList (Висиодокумент_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
-description: Содержит элемент EventItem для каждого события, к которому должны отвечать объекта.
+description: Содержит элемент Евентитем для каждого события, на которое должен отвечать объект.
 ms.openlocfilehash: 5331f1b4a510b05b862f8c7c6306c89c6be4d9f0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351053"
 ---
-# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Элемент EventList (VisioDocument_Type complexType) ('Visio XML»)
+# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Элемент EventList (Висиодокумент_типе complexType) (' Visio XML ')
 
-Содержит элемент **EventItem** для каждого события, к которому должны отвечать объекта. 
+Содержит элемент **евентитем** для каждого события, на которое должен отвечать объект. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Евентлист_типе](eventlist_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,13 +42,13 @@ ms.locfileid: "25383977"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
+|[Висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[Висиодокумент_типе](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[EventItem](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |Инкапсулирует код события.  <br/> |
+|[Евентитем](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[Евентитем_типе](eventitem_type-complextypevisio-xml.md) <br/> |Инкапсулирует код события.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -13,56 +13,56 @@ api_type:
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1a5f8688b8ea747590cf2a2d6d5efb271aa488f8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356548"
 ---
 # <a name="pidtagattachdatabinary-canonical-property"></a>Каноническое свойство PidTagAttachDataBinary
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит двоичные вложения данные обычно через интерфейс объекта связывания и внедрения (OLE) **IStream** . 
+Содержит двоичные данные вложения, доступ к которым осуществляется с помощью интерфейса OLE (технология **** связывания и внедрения объектов). 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_DATA_BIN  <br/> |
+|Связанные свойства:  <br/> |ПР_АТТАЧ_ДАТА_БИН  <br/> |
 |Идентификатор:  <br/> |0x3701  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство содержит вложения, если значение свойства **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) ATTACH_BY_VALUE, метод обычного вложения, и только один, которые должны поддерживаться. Если значение **PR_ATTACH_METHOD** ATTACH_OLE **PR_ATTACH_DATA_BIN** также содержит вложения OLE 1.0 **OLESTREAM** . 
+Это свойство содержит вложение, когда значение свойства **пр_аттач_месод** ([PIDTAGATTACHMETHOD](pidtagattachmethod-canonical-property.md)) равно аттач_би_валуе, которое является обычным методом вложения и только один, который требуется для поддержки. **Пр_аттач_дата_бин** также содержит вложение OLE 1,0 **олестреам** , когда значение **пр_аттач_месод** равно аттач_оле. 
   
- **OLESTREAM** вложения могут быть скопированы в файл путем вызова метода OLE **IStream::CopyTo** . Тип кодировки OLE можно определить по свойству **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+ Вложения **олестреам** можно скопировать в файл, вызвав метод OLE **IStream:: CopyTo** . Тип кодирования OLE можно определить в свойстве **пр_аттач_таг** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
-Для вложения файла документа OLE поставщика хранилища сообщений, необходимо ответить на звонок [IMAPIProp::OpenProperty](imapiprop-openproperty.md) на **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) и при необходимости может ответить на звонок на **PR_ATTACH_DATA_BIN **. Обратите внимание, что **PR_ATTACH_DATA_BIN** и **PR_ATTACH_DATA_OBJ** совместно использовать один и тот же идентификатор свойства и таким образом, два представления одного свойства. 
+Для вложенного файла документа OLE поставщик хранилища сообщений должен отвечать на вызов [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) на **пр_аттач_дата_обж** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)), а также может ответить на вызов в **пр_аттач_дата_бин **. Обратите внимание, что **пр_аттач_дата_бин** и **пр_аттач_дата_обж** совместно используют один и тот же идентификатор свойства и, таким образом, являются двумя представлениями одного и того же свойства. 
   
-Для объекта хранилища например составные файл в формате документа OLE 2.0, некоторых поставщиков услуг позволяет открыть с помощью интерфейса MAPI **IStreamDocfile** для повышения производительности. Поставщик, который поддерживает **IStreamDocfile** должен предоставлять на **PR_ATTACH_DATA_OBJ** и может при необходимости привести на **PR_ATTACH_DATA_BIN**. 
+Для объекта хранилища, например составного файла в формате OLE 2,0 докфиле, некоторые поставщики услуг позволяют открыть его с помощью интерфейса MAPI **помощью istreamdocfile** для улучшения производительности. Поставщик, который поддерживает **помощью istreamdocfile** , должен предоставлять его в **пр_аттач_дата_обж** и может при необходимости предоставлять его в **пр_аттач_дата_бин**. 
   
-Дополнительные сведения о интерфейсов OLE и форматов видеть [OLE и передачи данных](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Дополнительные сведения о OLE interfaces и formats можно найти в статье [OLE and Data Transfer](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-## <a name="header-files"></a>Файлы заголовков
+## <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

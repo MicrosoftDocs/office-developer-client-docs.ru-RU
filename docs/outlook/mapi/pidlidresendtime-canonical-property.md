@@ -12,40 +12,40 @@ api_type:
 - COM
 ms.assetid: ac58c0b4-9497-40ec-918e-58bd81144fd6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e90ae9d25ff4b98b7cd8fb83ab23f7e71889c79f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 34f0af06e9635a0160fc9df7c4ff5f6da5921035
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358830"
 ---
 # <a name="pidlidresendtime-canonical-property"></a>Каноническое свойство PidLidResendTime
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Если значение на отчет о недоставке, указывает время, повторно сообщения.
+Если этот параметр установлен в отчете о недоставке, указывает время, когда сообщение было отправлено.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidResendTime  <br/> |
-|Набор свойств:  <br/> |PSETID_Report  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008D00  <br/> |
+|Связанные свойства:  <br/> |Диспидресендтиме  <br/> |
+|Набор свойств:  <br/> |Псетид_репорт  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008D00  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -55,7 +55,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

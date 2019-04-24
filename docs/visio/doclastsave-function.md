@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251593
 localization_priority: Normal
 ms.assetid: be65d1c2-e48a-a85a-79ad-1a3409e60c16
-description: Возвращает дату и время последнего сохранения документа как последовательное значение.
-ms.openlocfilehash: 59c303e7bb6ce84f851cf46065e76eae50fedc02
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает дату и время последнего сохранения документа в виде порядкового значения.
+ms.openlocfilehash: 35d3a3f3051d5e5024eb48c56f131325e86314cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359055"
 ---
 # <a name="doclastsave-function"></a>Функция DOCLASTSAVE
 
-Возвращает дату и время последнего сохранения документа как последовательное значение.
+Возвращает дату и время последнего сохранения документа в виде порядкового значения.
   
 ## <a name="syntax"></a>Синтаксис
 
-(DOCLASTSAVE)
+DOCLASTSAVE ()
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Функция FORMAT используется для форматирования значения. 
+Чтобы отформатировать значение, используйте функцию FORMAT. 
   
 

@@ -7,11 +7,11 @@ ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: Project Online — это служба Office 365, возможности которой компании могут расширить, чтобы удовлетворить свои бизнес-потребности. Одна из областей расширения — корпоративные настраиваемые поля (ECF). Они представляют собой поля со значениями типов, которые можно добавлять к проектам, ресурсам и задачам. В приведенной ниже таблице перечислены корпоративные настраиваемые поля, которые можно связать с проектами, ресурсами и задачами, а также примеры значений для соответствующих экземпляров этих полей.
 localization_priority: Priority
 ms.openlocfilehash: 9f754f1446890ae021bf6f7000ffba11e2a2df33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355085"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Доступ к корпоративным настраиваемым полям Project Online
 

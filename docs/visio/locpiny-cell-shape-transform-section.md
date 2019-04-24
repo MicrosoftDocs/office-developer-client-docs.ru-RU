@@ -1,5 +1,5 @@
 ---
-title: Ячейка LocPinY (раздел "Преобразование фигуры")
+title: LocPinY Cell (Shape Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - vis_sdr.chm685
 localization_priority: Normal
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
-description: 'Представляет y-координата ПИН-код фигуры (центр вращения) относительно начала фигуры. Формула для расчета LocPinX — это:'
-ms.openlocfilehash: 8d98906e8082af0fc54bc01fe3a8537b66ac56b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Представляет координату центра вращения фигуры по оси y относительно начала координат фигуры. По умолчанию для определения LocPinY используется следующая формула:'
+ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358046"
 ---
-# <a name="locpiny-cell-shape-transform-section"></a>Ячейка LocPinY (раздел "Преобразование фигуры")
+# <a name="locpiny-cell-shape-transform-section"></a>LocPinY Cell (Shape Transform Section)
 
-Представляет *y* -координата ПИН-код фигуры (центр вращения) относительно начала фигуры. Формула для расчета LocPinX — это: 
+Представляет координату центра вращения фигуры по *оси y* относительно начала координат фигуры. По умолчанию для определения LocPinY используется следующая формула: 
   
 = Высота \* 0,5
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LocPinY по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LocPinY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LocPinY  <br/> |
+| Имя ячейки:  <br/> | LocPinY  <br/> |
    
-Для получения ссылки на ячейки LocPinY по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LocPinY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowXFormOut** <br/> |
-| Индекс ячейки:  <br/> |**visXFormLocPinY** <br/> |
+| Индекс строки:  <br/> |**Висровксформаут** <br/> |
+| Индекс ячейки:  <br/> |**Висксформлокпини** <br/> |
    
 

@@ -6,11 +6,11 @@ ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Узнайте о совместимости 32- и 64-разрядных версий Office.
 localization_priority: Priority
 ms.openlocfilehash: b03323b37b242c9992c47cd737ae54f3f9bbf2ca
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359824"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Совместимость 32- и 64-разрядных версий Office
 

@@ -13,43 +13,43 @@ api_type:
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e89209b39f2d904967011731c885e12a0d6ddc19
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360054"
 ---
 # <a name="pidlidreminderplaysound-canonical-property"></a>Каноническое свойство PidLidReminderPlaySound
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, следует ли клиенту воспроизведения звука при напоминания становится просроченные.
+Указывает, должен ли клиент проигрывать звук, когда напоминание становится просроченным.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidReminderPlaySound  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x0000851E  <br/> |
+|Связанные свойства:  <br/> |Диспидреминдерплайсаунд  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x0000851E  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Reminder  <br/> |
+|Область:  <br/> |Напоминание  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS — ОКСОРМДР]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Задает свойства и модель взаимодействия для электронной почты и других объектов напоминания.
+> Задает свойства и модель взаимодействия для сообщений электронной почты и других объектов.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

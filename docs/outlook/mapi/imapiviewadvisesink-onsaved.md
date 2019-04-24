@@ -1,5 +1,5 @@
 ---
-title: IMAPIViewAdviseSinkOnSaved
+title: Имапивиевадвисесинконсавед
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1ae94b40d984adee0f3c888f69dfdbffb1e352e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ec78331fd013777f001d39bd7e978a67abb5342
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351200"
 ---
 # <a name="imapiviewadvisesinkonsaved"></a>IMAPIViewAdviseSink::OnSaved
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584438"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Уведомляет средство просмотра формы, который был сохранен текущего сообщения в форме.
+Уведомляет средство просмотра форм о том, что текущее сообщение сохранено в форме.
   
 ```cpp
 HRESULT OnSaved( void );
@@ -33,7 +33,7 @@ HRESULT OnSaved( void );
 
 ## <a name="parameters"></a>Параметры
 
-None
+Нет
   
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -41,11 +41,11 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>���������
+## <a name="remarks"></a>Примечания
 
-Объект формы вызывает метод **IMAPIViewAdviseSink::OnSaved** после сохранения текущего сообщения в форме. Это позволяет использовать средства просмотра для обновления их windows сведения об изменениях в сообщение. 
+Объект Form вызывает метод **имапивиевадвисесинк::** onsaveed после успешного сохранения текущего сообщения в форме. Это позволяет читателям обновлять окна в соответствии с изменениями сообщения. 
   
-Дополнительные сведения о уведомлений формы можно [Отправка и получение уведомлений формы](sending-and-receiving-form-notifications.md).
+Дополнительные сведения об уведомлениях формы можно найти в статье [Отправка и получение уведомлений формы](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>См. также
 

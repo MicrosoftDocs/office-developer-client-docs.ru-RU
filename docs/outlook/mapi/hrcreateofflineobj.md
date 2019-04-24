@@ -8,22 +8,22 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f86266f192ffb1c86ca48f0fd5f99559737a9e76
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a34c441a473154a43a107b4236ccc259d327dba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348057"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
 **Область применения**: Outlook 2013 | Outlook 2016 
   
- Создает объект автономной MAPI, используемый поставщиком и хранилища для уведомления MAPI после выхода автономный режим и Интернет-версия 
+ Создает автономный объект MAPI, используемый поставщиком и хранилищем, чтобы уведомить MAPI, когда объект перемещается в оперативный и автономный режим. 
   
 |||
 |:-----|:-----|
-|Экспортировать с:  <br/> |Msmapi32.dll  <br/> |
+|Экспортировано:  <br/> |Msmapi32. dll  <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
    
@@ -35,19 +35,19 @@ IMAPIOfflineMgr** ppOffline
 );
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
 _ulFlags_
   
-> [in] Он должен иметь значение 0.
+> возврата Значение должно быть равно 0.
     
-_pCreateInfo_
+_Пкреатеинфо_
   
-> [in] Указатель на структуру **MAPIOFFLINE_CREATEINFO** , который содержит сведения, необходимые для создания автономного объекта. 
+> возврата Указатель на структуру **мапиоффлине_креатеинфо** , которая содержит сведения, необходимые для создания автономного объекта. 
     
-_ppOffline_
+_Ппоффлине_
   
-> [out] Указатель на интерфейс **IMAPIOfflineMgr** . 
+> вышли Указатель на интерфейс **имапиоффлинемгр** . 
     
 ## <a name="return-value"></a>Возвращаемое значение
 

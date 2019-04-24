@@ -12,40 +12,40 @@ api_type:
 - COM
 ms.assetid: dcd786e2-5b93-4a4c-933a-df305abe4bcb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a990c3622b9f37332056c162dce9445fd5b2947e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7c9048c8db43a0d9833bed8439f2517ad13623f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358809"
 ---
 # <a name="pidlidremoteattachment-canonical-property"></a>Каноническое свойство PidLidRemoteAttachment
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, будет ли удаленного элемента вложение, связанные с ним.
+Указывает, связан ли с удаленным элементом вложение.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidRemoteAttachment  <br/> |
-|Набор свойств:  <br/> |PSETID_Remote  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008F07  <br/> |
+|Связанные свойства:  <br/> |Диспидремотеаттачмент  <br/> |
+|Набор свойств:  <br/> |Псетид_ремоте  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008F07  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Удаленные сообщения  <br/> |
+|Область:  <br/> |Удаленное сообщение  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -55,7 +55,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

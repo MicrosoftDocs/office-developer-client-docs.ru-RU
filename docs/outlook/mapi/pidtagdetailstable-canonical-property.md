@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1602d1753d9f7f6e6f407a85dab0a33255db7aae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74eae4a4ed742c3bb90496f5975ad7dac6ff798f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360839"
 ---
 # <a name="pidtagdetailstable-canonical-property"></a>Каноническое свойство PidTagDetailsTable
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит объект отображения внедренных в таблице.
+Содержит внедренный объект таблицы отображения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_DETAILS_TABLE  <br/> |
+|Связанные свойства:  <br/> |ПР_ДЕТАИЛС_ТАБЛЕ  <br/> |
 |Идентификатор:  <br/> |0x3605  <br/> |
-|Тип данных:  <br/> |PT_OBJECT  <br/> |
+|Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
 |Область:  <br/> |Контейнер MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Передача этого свойства в метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) для объекта возвращает [IMAPITable](imapitableiunknown.md) интерфейс, который позволяет создавать в таблице отображения. Эта таблица MAPI используется для отображения свойств для объекта адресной книги в ответ на вызов [IAddrBook::Details](iaddrbook-details.md) . 
+При передаче этого свойства методу [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) для объекта возвращается интерфейс [IMAPITable](imapitableiunknown.md) , позволяющий создать таблицу отображения. MAPI использует эту таблицу для отображения страниц свойств для объекта адресной книги в ответ на вызов [IAddrBook::D етаилс](iaddrbook-details.md) . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

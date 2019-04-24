@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b07df7458f80b751077358ac3c53ad41032d1080
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361049"
 ---
 # <a name="save-a-calendar-to-disk"></a>Сохранение календаря на диск
 
@@ -26,7 +26,7 @@ ms.locfileid: "28712507"
 
 Чтобы сохранить данные календаря в ICS-файле, пример кода вызывает метод [SaveAsICal](https://msdn.microsoft.com/library/bb644844\(v=office.15\)) объекта **CalendarSharing**.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **Imports** или **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -89,5 +89,5 @@ private void SaveCalendarToDisk(string calendarFileName)
 
 ## <a name="see-also"></a>См. также
 
-- [Календарь](calendar.md)
+- [Calendar](calendar.md)
 

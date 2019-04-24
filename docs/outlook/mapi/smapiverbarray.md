@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 8736f75c-3e95-42dd-9bc1-2f0bd23c4a02
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7a2911779e5f9edb8c0bba7c3476a74ce410477c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7cba5dce60ce15ddb12776d619143849298aac9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357479"
 ---
 # <a name="smapiverbarray"></a>SMAPIVerbArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив структур [SMAPIVerb](smapiverb.md) , которые описывают команд MAPI. 
+Содержит массив структур [смапиверб](smapiverb.md) , ОПИСЫВАЮЩИХ команды MAPI. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Связанные макрос:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
+|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Связанный макрос:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -43,17 +43,17 @@ typedef struct
 
 ## <a name="members"></a>Members
 
- **cForms**
+ **Кформс**
   
-> Число команд в массиве.
+> Количество команд в массиве.
     
- **aFormInfo**
+ **Аформинфо**
   
 > Массив команд MAPI.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Структура **SMAPIVerbArray** передается как параметр в методе [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) . 
+Структура **смапивербаррай** передается в качестве параметра в методе [Имапиформинфо:: калквербсет](imapiforminfo-calcverbset.md) . 
   
 ## <a name="see-also"></a>См. также
 

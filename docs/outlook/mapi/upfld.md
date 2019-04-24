@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 34d6eb0653c3eb550bf03242a2c1b2acc3330a13
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c8f7bdc5864c049d8db6f38e92a69c97b6f9dc73
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360482"
 ---
 # <a name="upfld"></a>UPFLD
 
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Сведения для передачи в папку во время [загрузки состояние папки](upload-folder-state.md).
+Сведения для отправки папки в [состояние папки отправки](upload-folder-state.md).
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -37,31 +37,31 @@ struct UPFLD
 
 _ulFlags_
   
->  [out] и [in] флаги для определения соответствующих действий для uplaod. 
+>  [out]/[in] флаги для определения подходящих действий для уплаод. 
     
   - UPF_NEW
     
-    - [out] Папка является новым.
+    - вышли Папка является новой.
     
   - UPF_MOD_PARENT
     
-    - [out] Папка была перемещена.
+    - вышли Папка была перемещена.
     
   - UPF_MOD_PROPS
     
-    - [out] Свойства папки были изменены.
+    - вышли Свойства папки изменены.
     
   - UPF_DEL
     
-    - [out] Папка была удалена.
+    - вышли Удалена папка.
     
   - UPF_OK
     
-    - [in] Отправка прошла успешно. Клиент устанавливает это после отправки сведений о папке на сервере.
+    - возврата Отправка выполнена успешно. Клиент устанавливает это после отправки сведений о папке на сервер.
     
-_pfld_
+_пфлд_
   
-> [out] Объект открыть папку для загрузки.
+> вышли Объект открываемой папки для отправки.
     
 _feid_
   

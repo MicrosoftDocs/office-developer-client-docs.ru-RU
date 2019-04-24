@@ -7,11 +7,11 @@ ms.assetid: dd279238-ae75-4ad9-b9e5-364924090485
 description: Познакомьтесь с проблемами, отображаемыми в журнале телеметрии и связанными с возможной несовместимостью продуктов Office.
 localization_priority: Priority
 ms.openlocfilehash: f0c2462662121ee6ec7944dde5a01e2964fc28cf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357507"
 ---
 # <a name="compatibility-issues-in-office"></a>Проблемы совместимости в Office
 

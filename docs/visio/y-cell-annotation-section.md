@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 527a4615-2013-a4b4-81cd-7f5d71c1803c
 description: Представляет y-координату знака примечания в координатах страницы.
-ms.openlocfilehash: cc2399de7919512796a39ca39c705c214f4c51a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48a37c261078cd1000331920b33549cee2c1da03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360125"
 ---
 # <a name="y-cell-annotation-section"></a>Ячейка Y (раздел "Заметка")
 

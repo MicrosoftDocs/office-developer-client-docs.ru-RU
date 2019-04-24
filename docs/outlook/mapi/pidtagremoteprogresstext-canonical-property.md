@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: b74d4350-4ad6-4c3f-8326-bd28537dfa0f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0a9d6bbe6807c2893c1bb208976dae9e695aa125
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b2a7a415f97af6aee4b9aa62b4349d2c40bfb55c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355134"
 ---
 # <a name="pidtagremoteprogresstext-canonical-property"></a>Каноническое свойство PidTagRemoteProgressText
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Это свойство содержит строку, которая показывает состояние удаленной передачи.
+Это свойство содержит строку, указывающую состояние удаленной передачи.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ, ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ_А, ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ_В  <br/> |
 |Идентификатор:  <br/> |0x3E0C  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Числовой индекс, связанный с этой текст передается в свойстве **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).
+Числовой код, связанный с этим текстом, передается в свойстве **пр_ремоте_прогресс** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

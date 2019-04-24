@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251472
 localization_priority: Normal
 ms.assetid: 856ece39-18a4-766a-0dd9-7e888b8b78a5
-description: Открывает группы в окне «группа». Если объект не является группу, эта функция не имеет никакого эффекта.
-ms.openlocfilehash: 690c0addeaf4a32735d8526522d2d7500e5fc126
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Открывает группу в окне группы. Если объект не является группой, эта функция не выполняет никаких действий.
+ms.openlocfilehash: 67d5f055408d5dd887a6bbf052b34726986a1220
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360972"
 ---
 # <a name="opengroupwin-function"></a>Функция OPENGROUPWIN
 
-Открывает группы в окне «группа». Если объект не является группу, эта функция не имеет никакого эффекта.
+Открывает группу в окне группы. Если объект не является группой, эта функция не выполняет никаких действий.
   
 ## <a name="syntax"></a>Синтаксис
 
-(OPENGROUPWIN)
+OPENGROUPWIN ()
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-В более ранних версиях Visio эта функция отображается в виде _OPENGROUPWIN. Visio версии 4.0 и более поздних версий принимать любого из стилей. 
+В более ранних версиях Visio Эта функция отображается как _ОПЕНГРАУПВИН. Visio версии 4,0 и более поздних принимают любой из этих стилей. 
   
 

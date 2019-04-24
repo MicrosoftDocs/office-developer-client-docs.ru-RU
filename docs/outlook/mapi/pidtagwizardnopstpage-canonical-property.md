@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 1ac09578-892b-4c72-92f6-c2419ac2efe8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ae1f5b62c59c2e9a1c02c1a2fc0ee91ef1e19387
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e816af2ce60b4c06ae14f720cf7c36d58468d09d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22562983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350724"
 ---
 # <a name="pidtagwizardnopstpage-canonical-property"></a>Каноническое свойство PidTagWizardNoPstPage
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Это свойство содержит значение TRUE, если мастер профиля для отмены вывода страницы личное сообщение store (PST).
+Это свойство содержит значение TRUE, если мастер профилей запрещает отдавление со страницы PST-хранилища личных сообщений.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_WIZARD_NO_PST_PAGE  <br/> |
+|Связанные свойства:  <br/> |ПР_ВИЗАРД_НО_ПСТ_ПАЖЕ  <br/> |
 |Идентификатор:  <br/> |0x6700  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Администрирования Exchange  <br/> |
+|Область:  <br/> |Административная служба Exchange  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-При вызове функции, основанной на прототип функции [LAUNCHWIZARDENTRY](launchwizardentry.md) этому свойству можно задать поставщиков услуг. Это свойство сообщает мастер профилей, что поставщик не нужно странице PST-файлов будет отображаться во время диалоговое окно user. 
+Поставщики услуг могут задать это свойство при вызове функции на основе прототипа функции [лаунчвизардентри](launchwizardentry.md) . Это свойство сообщает мастеру профилей, что поставщик не хочет, чтобы страница PST отображалась в диалоговом окне пользователя. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

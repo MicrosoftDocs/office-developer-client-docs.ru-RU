@@ -1,31 +1,31 @@
 ---
-title: Элемент DataRecordSets ('Visio XML»)
+title: Элемент RecordSets (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
-description: Содержит все элементы записей данных в документе.
+description: Содержит все элементы Record в документе.
 ms.openlocfilehash: 7730e55f0025181db193a1e64226e879f9072e90
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360328"
 ---
-# <a name="datarecordsets-element-visio-xml"></a>Элемент DataRecordSets ('Visio XML»)
+# <a name="datarecordsets-element-visio-xml"></a>Элемент RecordSets (' Visio XML ')
 
-Содержит все элементы **записей данных** в документе. 
+Содержит все элементы **Record** в документе. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Датарекордсетс_типе](datarecordsets_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |recordsets.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Recordset. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,14 +46,14 @@ ms.locfileid: "25401491"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Записей данных](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Содержит все элементы **записей данных** в документе.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[Датарекордсет_типе](datarecordset_type-complextypevisio-xml.md) <br/> |Содержит все элементы **Record** в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ActiveRecordsetID  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Открывает идентификатор набора записей активных данных в окно **Внешних данных** , когда окно закроется, так что он может быть восстановлена следующем окне.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|DataWindowOrder  <br/> |XSD:String  <br/> |необязательный  <br/> |Порядок наборов записей данных, отображаемых на вкладках окно **Внешних данных** . Упорядоченный список идентификаторов данных записей, разделенных точкой с запятой.  <br/> |Значения типа xsd:string.  <br/> |
-|NextID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Далее доступные идентификатор нового набора записей данных.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Активерекордсетид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |ИДЕНТИФИКАТОР активного набора данных в окне " **Внешние данные** " при закрытии окна, чтобы его можно было восстановить при следующем открытии окна.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Датавиндовордер  <br/> |XSD: строка  <br/> |необязательный  <br/> |Порядок наборов записей данных, отображаемых на вкладках окна " **Внешние данные** ". Упорядоченный список идентификаторов записей данных, разделенных точкой с запятой.  <br/> |Значения типа String: XSD.  <br/> |
+|Некстид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Следующий доступный идентификатор для нового набора записей данных.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 
