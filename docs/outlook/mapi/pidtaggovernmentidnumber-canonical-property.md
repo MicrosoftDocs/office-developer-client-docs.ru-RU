@@ -13,68 +13,68 @@ api_type:
 ms.assetid: fa265d37-a1ea-4812-8fe9-21dac374cd7c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 4b7ce4620f224597e753fb05ec377461b4c19c9a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316151"
 ---
-# <a name="pidtaggovernmentidnumber-canonical-property"></a><span data-ttu-id="55996-103">Каноническое свойство PidTagGovernmentIdNumber</span><span class="sxs-lookup"><span data-stu-id="55996-103">PidTagGovernmentIdNumber Canonical Property</span></span>
+# <a name="pidtaggovernmentidnumber-canonical-property"></a><span data-ttu-id="078d7-103">Каноническое свойство PidTagGovernmentIdNumber</span><span class="sxs-lookup"><span data-stu-id="078d7-103">PidTagGovernmentIdNumber Canonical Property</span></span>
 
   
   
-<span data-ttu-id="55996-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="55996-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="078d7-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="078d7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="55996-105">Содержит идентификатор государственных организаций для получателя.</span><span class="sxs-lookup"><span data-stu-id="55996-105">Contains a government identifier for the recipient.</span></span> 
+<span data-ttu-id="078d7-105">Содержит личный идентификатор получателя.</span><span class="sxs-lookup"><span data-stu-id="078d7-105">Contains a government identifier for the recipient.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="55996-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="55996-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="55996-107">PR_GOVERNMENT_ID_NUMBER, PR_GOVERNMENT_ID_NUMBER_A, PR_GOVERNMENT_ID_NUMBER_W</span><span class="sxs-lookup"><span data-stu-id="55996-107">PR_GOVERNMENT_ID_NUMBER, PR_GOVERNMENT_ID_NUMBER_A, PR_GOVERNMENT_ID_NUMBER_W</span></span>  <br/> |
-|<span data-ttu-id="55996-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="55996-108">Identifier:</span></span>  <br/> |<span data-ttu-id="55996-109">0x3A07</span><span class="sxs-lookup"><span data-stu-id="55996-109">0x3A07</span></span>  <br/> |
-|<span data-ttu-id="55996-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="55996-110">Data type:</span></span>  <br/> |<span data-ttu-id="55996-111">PT_STRING8 PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="55996-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="55996-112">Область:</span><span class="sxs-lookup"><span data-stu-id="55996-112">Area:</span></span>  <br/> |<span data-ttu-id="55996-113">Пользователь почты MAPI</span><span class="sxs-lookup"><span data-stu-id="55996-113">MAPI mail user</span></span>  <br/> |
+|<span data-ttu-id="078d7-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="078d7-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="078d7-107">ПР_ГОВЕРНМЕНТ_ИД_НУМБЕР, ПР_ГОВЕРНМЕНТ_ИД_НУМБЕР_А, ПР_ГОВЕРНМЕНТ_ИД_НУМБЕР_В</span><span class="sxs-lookup"><span data-stu-id="078d7-107">PR_GOVERNMENT_ID_NUMBER, PR_GOVERNMENT_ID_NUMBER_A, PR_GOVERNMENT_ID_NUMBER_W</span></span>  <br/> |
+|<span data-ttu-id="078d7-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="078d7-108">Identifier:</span></span>  <br/> |<span data-ttu-id="078d7-109">0x3A07</span><span class="sxs-lookup"><span data-stu-id="078d7-109">0x3A07</span></span>  <br/> |
+|<span data-ttu-id="078d7-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="078d7-110">Data type:</span></span>  <br/> |<span data-ttu-id="078d7-111">PT_STRING8, ПТ_УНИКОДЕ</span><span class="sxs-lookup"><span data-stu-id="078d7-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="078d7-112">Область:</span><span class="sxs-lookup"><span data-stu-id="078d7-112">Area:</span></span>  <br/> |<span data-ttu-id="078d7-113">Пользователь почты MAPI</span><span class="sxs-lookup"><span data-stu-id="078d7-113">MAPI mail user</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="55996-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="55996-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="078d7-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="078d7-114">Remarks</span></span>
 
-<span data-ttu-id="55996-115">Эти свойства предоставляют идентификации и доступа к сведениям о получателе.</span><span class="sxs-lookup"><span data-stu-id="55996-115">These properties provide identification and access information about a recipient.</span></span> <span data-ttu-id="55996-116">Они определены получателя и организации получателя.</span><span class="sxs-lookup"><span data-stu-id="55996-116">They are defined by the recipient and the recipient's organization.</span></span> 
+<span data-ttu-id="078d7-115">Эти свойства обеспечивают идентификацию и доступ к сведениям о получателе.</span><span class="sxs-lookup"><span data-stu-id="078d7-115">These properties provide identification and access information about a recipient.</span></span> <span data-ttu-id="078d7-116">Они определяются получателем и Организацией получателя.</span><span class="sxs-lookup"><span data-stu-id="078d7-116">They are defined by the recipient and the recipient's organization.</span></span> 
   
-<span data-ttu-id="55996-117">Эти свойства часто устанавливаются номер паспорта, граждане номер или номер налогоплательщика, такие как номера социального страхования.</span><span class="sxs-lookup"><span data-stu-id="55996-117">These properties are commonly set to a passport number, citizen number, or taxpayer number such as a Social Security number.</span></span> 
+<span data-ttu-id="078d7-117">Для этих свойств обычно задаются номер паспорта, номер сообщения или номер налогоплательщика, например номер социального страхования.</span><span class="sxs-lookup"><span data-stu-id="078d7-117">These properties are commonly set to a passport number, citizen number, or taxpayer number such as a Social Security number.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="55996-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="55996-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="078d7-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="078d7-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="55996-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="55996-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="078d7-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="078d7-119">Protocol specifications</span></span>
 
-<span data-ttu-id="55996-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="55996-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="078d7-120">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="078d7-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="55996-121">Содержит ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="55996-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="078d7-121">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="078d7-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="55996-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="55996-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="078d7-122">[[MS — ОКСОКНТК]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="078d7-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="55996-123">Задает свойства и операции, допустимые для контакты и списки рассылки.</span><span class="sxs-lookup"><span data-stu-id="55996-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="078d7-123">Задает свойства и операции, допустимые для контактов и личных списков рассылки.</span><span class="sxs-lookup"><span data-stu-id="078d7-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-<span data-ttu-id="55996-124">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="55996-124">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="078d7-124">[[MS — ОКСОАБК]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="078d7-124">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="55996-125">Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.</span><span class="sxs-lookup"><span data-stu-id="55996-125">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="078d7-125">Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.</span><span class="sxs-lookup"><span data-stu-id="078d7-125">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="55996-126">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="55996-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="078d7-126">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="078d7-126">Header files</span></span>
 
-<span data-ttu-id="55996-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="55996-127">Mapidefs.h</span></span>
+<span data-ttu-id="078d7-127">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="078d7-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="55996-128">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="55996-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="078d7-128">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="078d7-128">Provides data type definitions.</span></span>
     
-<span data-ttu-id="55996-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="55996-129">Mapitags.h</span></span>
+<span data-ttu-id="078d7-129">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="078d7-129">Mapitags.h</span></span>
   
-> <span data-ttu-id="55996-130">Содержит определения свойства в списке альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="55996-130">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="078d7-130">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="078d7-130">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="55996-131">См. также</span><span class="sxs-lookup"><span data-stu-id="55996-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="078d7-131">См. также</span><span class="sxs-lookup"><span data-stu-id="078d7-131">See also</span></span>
 
 
 
-[<span data-ttu-id="55996-132">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="55996-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="078d7-132">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="078d7-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="55996-133">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="55996-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="078d7-133">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="078d7-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="55996-134">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="55996-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="078d7-134">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="078d7-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="55996-135">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="55996-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="078d7-135">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="078d7-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

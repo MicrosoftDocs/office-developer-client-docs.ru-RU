@@ -1,26 +1,26 @@
 ---
-title: IFreeBusyDataEnumBlocks
+title: Ифрибусидатаенумблоккс
 manager: soliver
 ms.date: 02/18/2016
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
-description: Получает интерфейс, который перечисляет занятости блоков данных для пользователя в рамках в заданном диапазоне времени.
+description: Получает интерфейс, который перечисляет блоки данных о занятости для пользователя в указанном диапазоне времени.
 ms.openlocfilehash: 51a77b2f47166628db07259ef841e0d6173ee370
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317558"
 ---
-# <a name="ifreebusydataenumblocks"></a><span data-ttu-id="3c016-103">IFreeBusyData::EnumBlocks</span><span class="sxs-lookup"><span data-stu-id="3c016-103">IFreeBusyData::EnumBlocks</span></span>
+# <a name="ifreebusydataenumblocks"></a><span data-ttu-id="abc51-103">IFreeBusyData::EnumBlocks</span><span class="sxs-lookup"><span data-stu-id="abc51-103">IFreeBusyData::EnumBlocks</span></span>
 
-<span data-ttu-id="3c016-104">Получает интерфейс, который перечисляет занятости блоков данных для пользователя в рамках в заданном диапазоне времени.</span><span class="sxs-lookup"><span data-stu-id="3c016-104">Gets an interface that enumerates free/busy blocks of data for a user within a specified time range.</span></span>
+<span data-ttu-id="abc51-104">Получает интерфейс, который перечисляет блоки данных о занятости для пользователя в указанном диапазоне времени.</span><span class="sxs-lookup"><span data-stu-id="abc51-104">Gets an interface that enumerates free/busy blocks of data for a user within a specified time range.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="3c016-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="3c016-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="abc51-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="abc51-105">Quick info</span></span>
 
-<span data-ttu-id="3c016-106">В разделе [IFreeBusyData](ifreebusydata.md).</span><span class="sxs-lookup"><span data-stu-id="3c016-106">See [IFreeBusyData](ifreebusydata.md).</span></span>
+<span data-ttu-id="abc51-106">Обратитесь к разделу [ифрибусидата](ifreebusydata.md).</span><span class="sxs-lookup"><span data-stu-id="abc51-106">See [IFreeBusyData](ifreebusydata.md).</span></span>
   
 ```cpp
 HRESULT EnumBlocks( 
@@ -31,34 +31,34 @@ HRESULT EnumBlocks(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3c016-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="3c016-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="abc51-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="abc51-107">Parameters</span></span>
 
-<span data-ttu-id="3c016-108">_ppenumfb_</span><span class="sxs-lookup"><span data-stu-id="3c016-108">_ppenumfb_</span></span>
+<span data-ttu-id="abc51-108">_ппенумфб_</span><span class="sxs-lookup"><span data-stu-id="abc51-108">_ppenumfb_</span></span>
   
-> <span data-ttu-id="3c016-109">[out] Интерфейс для перечисления блоки сведениям о доступности.</span><span class="sxs-lookup"><span data-stu-id="3c016-109">[out] An interface to enumerate free/busy blocks.</span></span>
+> <span data-ttu-id="abc51-109">вышли Интерфейс для перечисления блоков занятости.</span><span class="sxs-lookup"><span data-stu-id="abc51-109">[out] An interface to enumerate free/busy blocks.</span></span>
     
-<span data-ttu-id="3c016-110">_ftmStart_</span><span class="sxs-lookup"><span data-stu-id="3c016-110">_ftmStart_</span></span>
+<span data-ttu-id="abc51-110">_Фтмстарт_</span><span class="sxs-lookup"><span data-stu-id="abc51-110">_ftmStart_</span></span>
   
-> <span data-ttu-id="3c016-111">[in] Время начала для перечисления.</span><span class="sxs-lookup"><span data-stu-id="3c016-111">[in] The start time for the enumeration.</span></span> <span data-ttu-id="3c016-112">Выражается в [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).</span><span class="sxs-lookup"><span data-stu-id="3c016-112">It is expressed in [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).</span></span>
+> <span data-ttu-id="abc51-111">возврата Время начала перечисления.</span><span class="sxs-lookup"><span data-stu-id="abc51-111">[in] The start time for the enumeration.</span></span> <span data-ttu-id="abc51-112">Он выражается в [fileTime](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).</span><span class="sxs-lookup"><span data-stu-id="abc51-112">It is expressed in [FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx).</span></span>
     
-<span data-ttu-id="3c016-113">_ftmEnd_</span><span class="sxs-lookup"><span data-stu-id="3c016-113">_ftmEnd_</span></span>
+<span data-ttu-id="abc51-113">_Фтменд_</span><span class="sxs-lookup"><span data-stu-id="abc51-113">_ftmEnd_</span></span>
   
-> <span data-ttu-id="3c016-114">[in] Время окончания для перечисления.</span><span class="sxs-lookup"><span data-stu-id="3c016-114">[in] The end time for the enumeration.</span></span> <span data-ttu-id="3c016-115">Выражается в **FILETIME**.</span><span class="sxs-lookup"><span data-stu-id="3c016-115">It is expressed in **FILETIME**.</span></span> 
+> <span data-ttu-id="abc51-114">возврата Время окончания перечисления.</span><span class="sxs-lookup"><span data-stu-id="abc51-114">[in] The end time for the enumeration.</span></span> <span data-ttu-id="abc51-115">Он выражается в **fileTime**.</span><span class="sxs-lookup"><span data-stu-id="abc51-115">It is expressed in **FILETIME**.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="3c016-116">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="3c016-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="abc51-116">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="abc51-116">Return values</span></span>
 
-<span data-ttu-id="3c016-117">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="3c016-117">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="abc51-117">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="abc51-117">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3c016-118">Remarks</span><span class="sxs-lookup"><span data-stu-id="3c016-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="abc51-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="abc51-118">Remarks</span></span>
 
-<span data-ttu-id="3c016-119">Этот метод используется для указания диапазона времени для элементов календаря, для которого нужно извлечь подробные сведения.</span><span class="sxs-lookup"><span data-stu-id="3c016-119">This method is used to indicate the time range of calendar items for which to retrieve details.</span></span> <span data-ttu-id="3c016-120">Значения *ftmStart* и *ftmEnd* кэширования и возвращаются в последующих вызовов из [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).</span><span class="sxs-lookup"><span data-stu-id="3c016-120">The values of  *ftmStart* and *ftmEnd* are cached and returned in a subsequent call of [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).</span></span>
+<span data-ttu-id="abc51-119">Этот метод используется для указания диапазона времени элементов календаря, сведения о котором требуется получить.</span><span class="sxs-lookup"><span data-stu-id="abc51-119">This method is used to indicate the time range of calendar items for which to retrieve details.</span></span> <span data-ttu-id="abc51-120">Значения *фтмстарт* и *фтменд* кэшируются и возвращаются при последующих вызовах [ифрибусидата:: жетфбпублишранже](ifreebusydata-getfbpublishrange.md).</span><span class="sxs-lookup"><span data-stu-id="abc51-120">The values of  *ftmStart* and *ftmEnd* are cached and returned in a subsequent call of [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).</span></span>
   
-<span data-ttu-id="3c016-121">Обмен сведениями о доступности поставщика можно также последовательно использовать возвращенный интерфейс [IEnumFBBlock](ienumfbblock.md) для доступа к перечисления.</span><span class="sxs-lookup"><span data-stu-id="3c016-121">A free/busy provider can also subsequently use the returned [IEnumFBBlock](ienumfbblock.md) interface to access the enumeration.</span></span> 
+<span data-ttu-id="abc51-121">Поставщик сведений о доступности также может впоследствии использовать возвращенный интерфейс [иенумфбблокк](ienumfbblock.md) для доступа к перечислению.</span><span class="sxs-lookup"><span data-stu-id="abc51-121">A free/busy provider can also subsequently use the returned [IEnumFBBlock](ienumfbblock.md) interface to access the enumeration.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="3c016-122">См. также</span><span class="sxs-lookup"><span data-stu-id="3c016-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="abc51-122">См. также</span><span class="sxs-lookup"><span data-stu-id="abc51-122">See also</span></span>
 
-- [<span data-ttu-id="3c016-123">IEnumFBBlock</span><span class="sxs-lookup"><span data-stu-id="3c016-123">IEnumFBBlock</span></span>](ienumfbblock.md)
-- [<span data-ttu-id="3c016-124">IFreeBusyData::GetFBPublishRange</span><span class="sxs-lookup"><span data-stu-id="3c016-124">IFreeBusyData::GetFBPublishRange</span></span>](ifreebusydata-getfbpublishrange.md)
-- [<span data-ttu-id="3c016-125">IFreeBusyData::SetFBRange</span><span class="sxs-lookup"><span data-stu-id="3c016-125">IFreeBusyData::SetFBRange</span></span>](ifreebusydata-setfbrange.md)
-- [<span data-ttu-id="3c016-126">Использование относительного времени для доступа к данным о доступности</span><span class="sxs-lookup"><span data-stu-id="3c016-126">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
+- [<span data-ttu-id="abc51-123">IEnumFBBlock</span><span class="sxs-lookup"><span data-stu-id="abc51-123">IEnumFBBlock</span></span>](ienumfbblock.md)
+- [<span data-ttu-id="abc51-124">IFreeBusyData::GetFBPublishRange</span><span class="sxs-lookup"><span data-stu-id="abc51-124">IFreeBusyData::GetFBPublishRange</span></span>](ifreebusydata-getfbpublishrange.md)
+- [<span data-ttu-id="abc51-125">IFreeBusyData::SetFBRange</span><span class="sxs-lookup"><span data-stu-id="abc51-125">IFreeBusyData::SetFBRange</span></span>](ifreebusydata-setfbrange.md)
+- [<span data-ttu-id="abc51-126">Использование относительного времени для доступа к данным о доступности</span><span class="sxs-lookup"><span data-stu-id="abc51-126">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
 

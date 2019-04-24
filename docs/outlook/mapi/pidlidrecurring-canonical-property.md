@@ -13,61 +13,61 @@ api_type:
 ms.assetid: 3d39a053-277f-4d59-ab2e-cee81710f2ab
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 85e78695a7c4fca5a1e5cd28b0254d4559be0c13
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315920"
 ---
-# <a name="pidlidrecurring-canonical-property"></a><span data-ttu-id="0773b-103">Каноническое свойство PidLidRecurring</span><span class="sxs-lookup"><span data-stu-id="0773b-103">PidLidRecurring Canonical Property</span></span>
+# <a name="pidlidrecurring-canonical-property"></a><span data-ttu-id="3fe07-103">Каноническое свойство PidLidRecurring</span><span class="sxs-lookup"><span data-stu-id="3fe07-103">PidLidRecurring Canonical Property</span></span>
 
   
   
-<span data-ttu-id="0773b-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0773b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3fe07-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3fe07-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0773b-105">Указывает, является ли повторяющаяся сообщение встречи.</span><span class="sxs-lookup"><span data-stu-id="0773b-105">Specifies whether an appointment message is recurrent.</span></span>
+<span data-ttu-id="3fe07-105">Указывает, следует ли переназначить сообщение о встрече.</span><span class="sxs-lookup"><span data-stu-id="3fe07-105">Specifies whether an appointment message is recurrent.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0773b-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="0773b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="0773b-107">dispidRecurring</span><span class="sxs-lookup"><span data-stu-id="0773b-107">dispidRecurring</span></span>  <br/> |
-|<span data-ttu-id="0773b-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="0773b-108">Property set:</span></span>  <br/> |<span data-ttu-id="0773b-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="0773b-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="0773b-110">Длинный идентификатор (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="0773b-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="0773b-111">0x00008223</span><span class="sxs-lookup"><span data-stu-id="0773b-111">0x00008223</span></span>  <br/> |
-|<span data-ttu-id="0773b-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="0773b-112">Data type:</span></span>  <br/> |<span data-ttu-id="0773b-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="0773b-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="0773b-114">Область:</span><span class="sxs-lookup"><span data-stu-id="0773b-114">Area:</span></span>  <br/> |<span data-ttu-id="0773b-115">Календарь</span><span class="sxs-lookup"><span data-stu-id="0773b-115">Calendar</span></span>  <br/> |
+|<span data-ttu-id="3fe07-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="3fe07-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3fe07-107">Диспидрекурринг</span><span class="sxs-lookup"><span data-stu-id="3fe07-107">dispidRecurring</span></span>  <br/> |
+|<span data-ttu-id="3fe07-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="3fe07-108">Property set:</span></span>  <br/> |<span data-ttu-id="3fe07-109">Псетид_аппоинтмент</span><span class="sxs-lookup"><span data-stu-id="3fe07-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="3fe07-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="3fe07-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="3fe07-111">0x00008223</span><span class="sxs-lookup"><span data-stu-id="3fe07-111">0x00008223</span></span>  <br/> |
+|<span data-ttu-id="3fe07-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="3fe07-112">Data type:</span></span>  <br/> |<span data-ttu-id="3fe07-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="3fe07-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="3fe07-114">Область:</span><span class="sxs-lookup"><span data-stu-id="3fe07-114">Area:</span></span>  <br/> |<span data-ttu-id="3fe07-115">Календарь</span><span class="sxs-lookup"><span data-stu-id="3fe07-115">Calendar</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="0773b-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="0773b-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3fe07-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="3fe07-116">Remarks</span></span>
 
-<span data-ttu-id="0773b-117">Это свойство имеет значение TRUE, если встреча является повторяющейся встречи и имеет значение FALSE, если оно не является повторяющимся.</span><span class="sxs-lookup"><span data-stu-id="0773b-117">This property is TRUE if the appointment is a recurring appointment, and is FALSE if it is not recurring.</span></span>
+<span data-ttu-id="3fe07-117">Это свойство имеет значение TRUE, если встреча является повторяющейся встречей, и имеет значение FALSE, если она не повторяется.</span><span class="sxs-lookup"><span data-stu-id="3fe07-117">This property is TRUE if the appointment is a recurring appointment, and is FALSE if it is not recurring.</span></span>
   
-<span data-ttu-id="0773b-118">Это свойство определяет, представляет ли объект серии повторяющихся.</span><span class="sxs-lookup"><span data-stu-id="0773b-118">This property specifies whether or not the object represents a recurring series.</span></span> <span data-ttu-id="0773b-119">Значение TRUE указывает, что объект представляет серии повторяющихся.</span><span class="sxs-lookup"><span data-stu-id="0773b-119">A value of TRUE indicates that the object represents a recurring series.</span></span> <span data-ttu-id="0773b-120">Значение FALSE или отсутствие этого свойства указывает, что объект представляет один экземпляр или исключение (включая потерянного экземпляра).</span><span class="sxs-lookup"><span data-stu-id="0773b-120">A value of FALSE, or the absence of this property, indicates that the object represents either a single instance or an exception (including an orphan instance).</span></span> <span data-ttu-id="0773b-121">Обратите внимание на разницу между этого свойства и свойства **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="0773b-121">Note the difference between this property and the **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) property.</span></span>
+<span data-ttu-id="3fe07-118">Данное свойство указывает, представляет ли объект повторяющиеся ряды.</span><span class="sxs-lookup"><span data-stu-id="3fe07-118">This property specifies whether or not the object represents a recurring series.</span></span> <span data-ttu-id="3fe07-119">Значение TRUE указывает, что объект представляет ряд повторяющихся данных.</span><span class="sxs-lookup"><span data-stu-id="3fe07-119">A value of TRUE indicates that the object represents a recurring series.</span></span> <span data-ttu-id="3fe07-120">Значение FALSE или отсутствие этого свойства указывает на то, что объект представляет либо один экземпляр, либо исключение (в том числе потерянный экземпляр).</span><span class="sxs-lookup"><span data-stu-id="3fe07-120">A value of FALSE, or the absence of this property, indicates that the object represents either a single instance or an exception (including an orphan instance).</span></span> <span data-ttu-id="3fe07-121">Обратите внимание на разницу между этим свойством и свойством **лид_ис_рекурринг** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="3fe07-121">Note the difference between this property and the **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="0773b-122">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="0773b-122">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="3fe07-122">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="3fe07-122">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="0773b-123">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="0773b-123">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="3fe07-123">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="3fe07-123">Protocol specifications</span></span>
 
-<span data-ttu-id="0773b-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0773b-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3fe07-124">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3fe07-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0773b-125">Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="0773b-125">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="3fe07-125">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="3fe07-125">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="0773b-126">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0773b-126">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3fe07-126">[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3fe07-126">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0773b-127">Задает свойства и операции для встречи, приглашения на собрание и ответы.</span><span class="sxs-lookup"><span data-stu-id="0773b-127">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="3fe07-127">Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="3fe07-127">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="0773b-128">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="0773b-128">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="3fe07-128">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="3fe07-128">Header files</span></span>
 
-<span data-ttu-id="0773b-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0773b-129">Mapidefs.h</span></span>
+<span data-ttu-id="3fe07-129">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="3fe07-129">Mapidefs.h</span></span>
   
-> <span data-ttu-id="0773b-130">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="0773b-130">Provides data type definitions.</span></span>
+> <span data-ttu-id="3fe07-130">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="3fe07-130">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="0773b-131">См. также</span><span class="sxs-lookup"><span data-stu-id="0773b-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3fe07-131">См. также</span><span class="sxs-lookup"><span data-stu-id="3fe07-131">See also</span></span>
 
 
 
-[<span data-ttu-id="0773b-132">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="0773b-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="3fe07-132">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="3fe07-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="0773b-133">Каноническое свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="0773b-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="3fe07-133">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="3fe07-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="0773b-134">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="0773b-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="3fe07-134">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="3fe07-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="0773b-135">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="0773b-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="3fe07-135">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="3fe07-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

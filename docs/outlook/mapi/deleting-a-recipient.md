@@ -8,23 +8,23 @@ api_type:
 - COM
 ms.assetid: f7495030-e3b8-4c7c-9e19-284ba820e846
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 03917ad52f1dc1ce4d0b59cd54fe33f58f352061
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bd01c66d9fff7c94ffb1ce9f956f1951bc482020
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316816"
 ---
-# <a name="deleting-a-recipient"></a><span data-ttu-id="057eb-103">Удаление получателя</span><span class="sxs-lookup"><span data-stu-id="057eb-103">Deleting a Recipient</span></span>
+# <a name="deleting-a-recipient"></a><span data-ttu-id="1e28d-103">Удаление получателя</span><span class="sxs-lookup"><span data-stu-id="1e28d-103">Deleting a Recipient</span></span>
 
   
   
-<span data-ttu-id="057eb-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="057eb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1e28d-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1e28d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="057eb-105">**Чтобы удалить одного или нескольких записей адресной книги из изменяемые контейнера**</span><span class="sxs-lookup"><span data-stu-id="057eb-105">**To remove one or more address book entries from a modifiable container**</span></span>
+ <span data-ttu-id="1e28d-105">**Удаление одной или нескольких записей адресной книги из изменяемого контейнера**</span><span class="sxs-lookup"><span data-stu-id="1e28d-105">**To remove one or more address book entries from a modifiable container**</span></span>
   
-- <span data-ttu-id="057eb-106">Вызовите метод [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) , передав массив идентификаторов записи, которые представляют адресной книги к удалению.</span><span class="sxs-lookup"><span data-stu-id="057eb-106">Call the [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) method, passing an array of entry identifiers that represent the address book entries to be deleted.</span></span> <span data-ttu-id="057eb-107">**Внешнее** может вернуть предупреждение MAPI_W_PARTIAL_COMPLETION, чтобы указать, что она не удается удалить одну или несколько записей.</span><span class="sxs-lookup"><span data-stu-id="057eb-107">**DeleteEntries** can return a warning, MAPI_W_PARTIAL_COMPLETION, to indicate that it couldn't delete one or more of the entries.</span></span> <span data-ttu-id="057eb-108">Тестирование этого возвращаемого значения с помощью макроса **HR_FAILED** и вызовите метод [IMAPIProp::GetLastError](imapiprop-getlasterror.md) контейнера, если требуется дополнительная информация о проблеме.</span><span class="sxs-lookup"><span data-stu-id="057eb-108">Test for this return value with the **HR_FAILED** macro and call the container's [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method if more information about the problem is needed.</span></span> 
+- <span data-ttu-id="1e28d-106">ВыЗовите метод [иабконтаинер::D елетинтриес](iabcontainer-deleteentries.md) , передав массив идентификаторов записей, представляющих удаляемые записи адресной книги.</span><span class="sxs-lookup"><span data-stu-id="1e28d-106">Call the [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) method, passing an array of entry identifiers that represent the address book entries to be deleted.</span></span> <span data-ttu-id="1e28d-107">**Делетинтриес** может возвращать предупреждение, мапи_в_партиал_комплетион, чтобы показать, что не удалось удалить одну или несколько записей.</span><span class="sxs-lookup"><span data-stu-id="1e28d-107">**DeleteEntries** can return a warning, MAPI_W_PARTIAL_COMPLETION, to indicate that it couldn't delete one or more of the entries.</span></span> <span data-ttu-id="1e28d-108">Проверьте возвращаемое значение с помощью макроса **хр_фаилед** и вызовите метод Container [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) , если требуется больше сведений о проблеме.</span><span class="sxs-lookup"><span data-stu-id="1e28d-108">Test for this return value with the **HR_FAILED** macro and call the container's [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method if more information about the problem is needed.</span></span> 
     
-<span data-ttu-id="057eb-109">Если навести указатель структуру [ADRENTRY](adrentry.md) удаленные записи в кэше по-прежнему можно для извлечения свойств с помощью его идентификатор записи.</span><span class="sxs-lookup"><span data-stu-id="057eb-109">When you hold a pointer to a deleted entry's [ADRENTRY](adrentry.md) structure in your cache, you will still be able to retrieve properties using its entry identifier.</span></span> <span data-ttu-id="057eb-110">Это, так как операция только помеченным для удаления.</span><span class="sxs-lookup"><span data-stu-id="057eb-110">This is because the entry is only marked for deletion.</span></span> <span data-ttu-id="057eb-111">Уровень доступа к эти помеченные записи поддерживает MAPI, разработки.</span><span class="sxs-lookup"><span data-stu-id="057eb-111">MAPI maintains a level of access to these marked entries by design.</span></span> 
+<span data-ttu-id="1e28d-109">Когда вы наводите указатель на структуру [адрентри](adrentry.md) удаленного элемента в кэше, вы по-прежнему сможете получать свойства с помощью идентификатора записи.</span><span class="sxs-lookup"><span data-stu-id="1e28d-109">When you hold a pointer to a deleted entry's [ADRENTRY](adrentry.md) structure in your cache, you will still be able to retrieve properties using its entry identifier.</span></span> <span data-ttu-id="1e28d-110">Это вызвано тем, что запись отмечена только для удаления.</span><span class="sxs-lookup"><span data-stu-id="1e28d-110">This is because the entry is only marked for deletion.</span></span> <span data-ttu-id="1e28d-111">MAPI поддерживает уровень доступа к этим помеченным записям по проектированию.</span><span class="sxs-lookup"><span data-stu-id="1e28d-111">MAPI maintains a level of access to these marked entries by design.</span></span> 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Реализация стандартных команд для форм
+title: Реализация стандартных команд форм
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,33 +8,33 @@ api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 46585859e1dde4ecf38262f99cac5e3a9d29e5db
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6360b86dc23a5404b818f76cb1c2cd10747ef3cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317446"
 ---
-# <a name="implementing-standard-form-verbs"></a><span data-ttu-id="3d8d7-103">Реализация стандартных команд для форм</span><span class="sxs-lookup"><span data-stu-id="3d8d7-103">Implementing Standard Form Verbs</span></span>
+# <a name="implementing-standard-form-verbs"></a><span data-ttu-id="6733a-103">Реализация стандартных команд форм</span><span class="sxs-lookup"><span data-stu-id="6733a-103">Implementing Standard Form Verbs</span></span>
 
   
   
-<span data-ttu-id="3d8d7-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3d8d7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6733a-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6733a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3d8d7-105">MAPI определяет набор стандартных команд или действия в случае, если пользователь выбирает элемент меню или нажатии кнопки, поддерживающая всем пользователям формы.</span><span class="sxs-lookup"><span data-stu-id="3d8d7-105">MAPI defines a set of standard verbs, or actions taken when a user makes a menu selection or clicks a button, that all form viewers should support.</span></span> <span data-ttu-id="3d8d7-106">Каждый имеет константа, связанные с ним для идентификации, определенных в EXCHFORM. Файл заголовка.</span><span class="sxs-lookup"><span data-stu-id="3d8d7-106">Each verb has a constant associated with it for identification, defined in the EXCHFORM.H header file.</span></span> <span data-ttu-id="3d8d7-107">В следующей таблице приведены команды стандартной формы и их связанных констант:</span><span class="sxs-lookup"><span data-stu-id="3d8d7-107">The following table lists the standard form verbs and their associated constants:</span></span>
+<span data-ttu-id="6733a-105">MAPI определяет набор стандартных глаголов или действий, выполняемых при выборе пользователем кнопки меню или нажатии кнопки, которые должны поддерживаться всеми средствами просмотра формы.</span><span class="sxs-lookup"><span data-stu-id="6733a-105">MAPI defines a set of standard verbs, or actions taken when a user makes a menu selection or clicks a button, that all form viewers should support.</span></span> <span data-ttu-id="6733a-106">С каждой командой связана константа, связанная с идентификацией, определенная в ЕКСЧФОРМ. H файл заголовка.</span><span class="sxs-lookup"><span data-stu-id="6733a-106">Each verb has a constant associated with it for identification, defined in the EXCHFORM.H header file.</span></span> <span data-ttu-id="6733a-107">В следующей таблице перечислены стандартные команды форм и связанные с ними константы.</span><span class="sxs-lookup"><span data-stu-id="6733a-107">The following table lists the standard form verbs and their associated constants:</span></span>
   
-|<span data-ttu-id="3d8d7-108">**Глагол**</span><span class="sxs-lookup"><span data-stu-id="3d8d7-108">**Verb**</span></span>|<span data-ttu-id="3d8d7-109">**Значение**</span><span class="sxs-lookup"><span data-stu-id="3d8d7-109">**Value**</span></span>|
+|<span data-ttu-id="6733a-108">**Verb**</span><span class="sxs-lookup"><span data-stu-id="6733a-108">**Verb**</span></span>|<span data-ttu-id="6733a-109">**Значение**</span><span class="sxs-lookup"><span data-stu-id="6733a-109">**Value**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3d8d7-110">Open</span><span class="sxs-lookup"><span data-stu-id="3d8d7-110">Open</span></span>  <br/> |<span data-ttu-id="3d8d7-111">EXCHIVERB_OPEN</span><span class="sxs-lookup"><span data-stu-id="3d8d7-111">EXCHIVERB_OPEN</span></span>  <br/> |
-|<span data-ttu-id="3d8d7-112">Ответить</span><span class="sxs-lookup"><span data-stu-id="3d8d7-112">Reply</span></span>  <br/> |<span data-ttu-id="3d8d7-113">EXCHIVERB_REPLYTOSENDER</span><span class="sxs-lookup"><span data-stu-id="3d8d7-113">EXCHIVERB_REPLYTOSENDER</span></span>  <br/> |
-|<span data-ttu-id="3d8d7-114">Ответить всем</span><span class="sxs-lookup"><span data-stu-id="3d8d7-114">Reply to All</span></span>  <br/> |<span data-ttu-id="3d8d7-115">EXCHIVERB_REPLYTOALL</span><span class="sxs-lookup"><span data-stu-id="3d8d7-115">EXCHIVERB_REPLYTOALL</span></span>  <br/> |
-|<span data-ttu-id="3d8d7-116">Переслать</span><span class="sxs-lookup"><span data-stu-id="3d8d7-116">Forward</span></span>  <br/> |<span data-ttu-id="3d8d7-117">EXCHIVERB_FORWARD</span><span class="sxs-lookup"><span data-stu-id="3d8d7-117">EXCHIVERB_FORWARD</span></span>  <br/> |
-|<span data-ttu-id="3d8d7-118">Print</span><span class="sxs-lookup"><span data-stu-id="3d8d7-118">Print</span></span>  <br/> |<span data-ttu-id="3d8d7-119">EXCHIVERB_PRINT</span><span class="sxs-lookup"><span data-stu-id="3d8d7-119">EXCHIVERB_PRINT</span></span>  <br/> |
-|<span data-ttu-id="3d8d7-120">Сохранить как</span><span class="sxs-lookup"><span data-stu-id="3d8d7-120">Save As</span></span>  <br/> |<span data-ttu-id="3d8d7-121">EXCHIVERB_SAVEAS</span><span class="sxs-lookup"><span data-stu-id="3d8d7-121">EXCHIVERB_SAVEAS</span></span>  <br/> |
-|<span data-ttu-id="3d8d7-122">Ответ в папку</span><span class="sxs-lookup"><span data-stu-id="3d8d7-122">Reply to Folder</span></span>  <br/> |<span data-ttu-id="3d8d7-123">EXCHIVERB_REPLYTOFOLDER</span><span class="sxs-lookup"><span data-stu-id="3d8d7-123">EXCHIVERB_REPLYTOFOLDER</span></span>  <br/> |
+|<span data-ttu-id="6733a-110">Открыть</span><span class="sxs-lookup"><span data-stu-id="6733a-110">Open</span></span>  <br/> |<span data-ttu-id="6733a-111">ЕКСЧИВЕРБ_ОПЕН</span><span class="sxs-lookup"><span data-stu-id="6733a-111">EXCHIVERB_OPEN</span></span>  <br/> |
+|<span data-ttu-id="6733a-112">Ответить</span><span class="sxs-lookup"><span data-stu-id="6733a-112">Reply</span></span>  <br/> |<span data-ttu-id="6733a-113">ЕКСЧИВЕРБ_РЕПЛИТОСЕНДЕР</span><span class="sxs-lookup"><span data-stu-id="6733a-113">EXCHIVERB_REPLYTOSENDER</span></span>  <br/> |
+|<span data-ttu-id="6733a-114">Ответить всем</span><span class="sxs-lookup"><span data-stu-id="6733a-114">Reply to All</span></span>  <br/> |<span data-ttu-id="6733a-115">ЕКСЧИВЕРБ_РЕПЛИТОАЛЛ</span><span class="sxs-lookup"><span data-stu-id="6733a-115">EXCHIVERB_REPLYTOALL</span></span>  <br/> |
+|<span data-ttu-id="6733a-116">Переслать</span><span class="sxs-lookup"><span data-stu-id="6733a-116">Forward</span></span>  <br/> |<span data-ttu-id="6733a-117">ЕКСЧИВЕРБ_ФОРВАРД</span><span class="sxs-lookup"><span data-stu-id="6733a-117">EXCHIVERB_FORWARD</span></span>  <br/> |
+|<span data-ttu-id="6733a-118">Print</span><span class="sxs-lookup"><span data-stu-id="6733a-118">Print</span></span>  <br/> |<span data-ttu-id="6733a-119">ЕКСЧИВЕРБ_ПРИНТ</span><span class="sxs-lookup"><span data-stu-id="6733a-119">EXCHIVERB_PRINT</span></span>  <br/> |
+|<span data-ttu-id="6733a-120">Сохранить как</span><span class="sxs-lookup"><span data-stu-id="6733a-120">Save As</span></span>  <br/> |<span data-ttu-id="6733a-121">ЕКСЧИВЕРБ_САВЕАС</span><span class="sxs-lookup"><span data-stu-id="6733a-121">EXCHIVERB_SAVEAS</span></span>  <br/> |
+|<span data-ttu-id="6733a-122">Ответить на папку</span><span class="sxs-lookup"><span data-stu-id="6733a-122">Reply to Folder</span></span>  <br/> |<span data-ttu-id="6733a-123">ЕКСЧИВЕРБ_РЕПЛИТОФОЛДЕР</span><span class="sxs-lookup"><span data-stu-id="6733a-123">EXCHIVERB_REPLYTOFOLDER</span></span>  <br/> |
    
-<span data-ttu-id="3d8d7-124">Если пользователь выбирает команду, передайте его константу вызов метода [IMAPIForm::DoVerb](imapiform-doverb.md) формы для его соответствующих действий.</span><span class="sxs-lookup"><span data-stu-id="3d8d7-124">When a user chooses a verb, pass its constant in a call to the form's [IMAPIForm::DoVerb](imapiform-doverb.md) method to perform its corresponding action.</span></span> 
+<span data-ttu-id="6733a-124">Когда пользователь выбирает команду, передайте ее константу в вызове метода [имапиформ::D оверб](imapiform-doverb.md) , чтобы выполнить соответствующее действие.</span><span class="sxs-lookup"><span data-stu-id="6733a-124">When a user chooses a verb, pass its constant in a call to the form's [IMAPIForm::DoVerb](imapiform-doverb.md) method to perform its corresponding action.</span></span> 
   
-<span data-ttu-id="3d8d7-125">В дополнение к доступ к команд с помощью средства просмотра вашей формы, в некоторых случаях пользователям глаголов непосредственно из формы.</span><span class="sxs-lookup"><span data-stu-id="3d8d7-125">In addition to accessing verbs through your form viewer, users can sometimes access verbs directly from the form.</span></span> <span data-ttu-id="3d8d7-126">К примеру некоторые объекты формы пользователь может вызвать глаголов **Print** , щелкнув правой кнопкой мыши на форме и выберите команду **Печать** контекстное меню.</span><span class="sxs-lookup"><span data-stu-id="3d8d7-126">For example, some form objects allow the user to invoke the **Print** verb by right-clicking on the form and choosing **Print** from a context-sensitive menu.</span></span> 
+<span data-ttu-id="6733a-125">Помимо доступа к командам в средстве просмотра форм, пользователи могут иногда получать доступ к командам непосредственно из формы.</span><span class="sxs-lookup"><span data-stu-id="6733a-125">In addition to accessing verbs through your form viewer, users can sometimes access verbs directly from the form.</span></span> <span data-ttu-id="6733a-126">Например, некоторые объекты форм позволяют пользователю вызвать команду **печати** , щелкнув форму правой кнопкой мыши и выбрав **Печать** из контекстного меню.</span><span class="sxs-lookup"><span data-stu-id="6733a-126">For example, some form objects allow the user to invoke the **Print** verb by right-clicking on the form and choosing **Print** from a context-sensitive menu.</span></span> 
   
 

@@ -1,1 +1,1 @@
-# <a name="welcome-to-officedocs-dev-client-docs"></a><span data-ttu-id="55940-101">Добро пожаловать на страницу officedocs-dev-client документов!</span><span class="sxs-lookup"><span data-stu-id="55940-101">Welcome to officedocs-dev-client-docs!</span></span>
+# <a name="welcome-to-officedocs-dev-client-docs"></a><span data-ttu-id="aa183-101">Добро поЖаловать в оффицедокс – dev – Client – документы!</span><span class="sxs-lookup"><span data-stu-id="aa183-101">Welcome to officedocs-dev-client-docs!</span></span>

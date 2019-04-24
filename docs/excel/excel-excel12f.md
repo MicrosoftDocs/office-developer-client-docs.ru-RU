@@ -7,24 +7,24 @@ ms.topic: reference
 f1_keywords:
 - Excel12f
 keywords:
-- функции Excel [excel 2007], функция Excel12f [Excel 2007]
+- функция Excel [Excel 2007], функция Excel12f [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 56034984852713496465c3d1f79a9989fc47df1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7ff6afac1737ee869e69fffd3dbed36a908b376
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310915"
 ---
-# <a name="excelexcel12f"></a><span data-ttu-id="f928f-104">Excel/Excel12f</span><span class="sxs-lookup"><span data-stu-id="f928f-104">Excel/Excel12f</span></span>
+# <a name="excelexcel12f"></a><span data-ttu-id="a0ea1-104">Excel/Excel12f</span><span class="sxs-lookup"><span data-stu-id="a0ea1-104">Excel/Excel12f</span></span>
 
- <span data-ttu-id="f928f-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="f928f-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="a0ea1-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a0ea1-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="f928f-106">Функции библиотеки Framework.</span><span class="sxs-lookup"><span data-stu-id="f928f-106">Framework library functions.</span></span> <span data-ttu-id="f928f-107">**Excel** является оболочкой для функции [Excel4](excel4-excel12.md) .</span><span class="sxs-lookup"><span data-stu-id="f928f-107">**Excel** is a wrapper for the [Excel4](excel4-excel12.md) function.</span></span> <span data-ttu-id="f928f-108">**Excel12f** является оболочкой для функции [Excel12](excel4-excel12.md) .</span><span class="sxs-lookup"><span data-stu-id="f928f-108">**Excel12f** is a wrapper for the [Excel12](excel4-excel12.md) function.</span></span> <span data-ttu-id="f928f-109">Каждый проверяется, что ни один из аргументов равно нулю, что указывает, что не удалось создать временные **XLOPER** или **XLOPER12** .</span><span class="sxs-lookup"><span data-stu-id="f928f-109">Each checks to see that none of the arguments is zero, which would indicate that the creation of a temporary **XLOPER** or **XLOPER12** failed.</span></span> <span data-ttu-id="f928f-110">Если возникает ошибка, каждый печатает сообщение отладки.</span><span class="sxs-lookup"><span data-stu-id="f928f-110">If an error occurs, each prints a debug message.</span></span> <span data-ttu-id="f928f-111">По завершении каждого освобождает все временные памяти, который мог быть создан для временного s **XLOPER**и **XLOPER12**.</span><span class="sxs-lookup"><span data-stu-id="f928f-111">When finished, each frees all temporary memory that might have been created for temporary **XLOPER**s and **XLOPER12**s.</span></span>
+<span data-ttu-id="a0ea1-106">Функции библиотеки Framework.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-106">Framework library functions.</span></span> <span data-ttu-id="a0ea1-107">**Excel** — это оболочка для функции [Excel4](excel4-excel12.md) .</span><span class="sxs-lookup"><span data-stu-id="a0ea1-107">**Excel** is a wrapper for the [Excel4](excel4-excel12.md) function.</span></span> <span data-ttu-id="a0ea1-108">**Excel12f** — это оболочка для функции [Excel12](excel4-excel12.md) .</span><span class="sxs-lookup"><span data-stu-id="a0ea1-108">**Excel12f** is a wrapper for the [Excel12](excel4-excel12.md) function.</span></span> <span data-ttu-id="a0ea1-109">Каждый из них проверяет, не имеет ли ни одного из аргументов нулевого значения, что свидетельствует о том, что не удалось создать временную **XLOPER** или **XLOPER12** .</span><span class="sxs-lookup"><span data-stu-id="a0ea1-109">Each checks to see that none of the arguments is zero, which would indicate that the creation of a temporary **XLOPER** or **XLOPER12** failed.</span></span> <span data-ttu-id="a0ea1-110">При возникновении ошибки каждая печатает сообщение отладки.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-110">If an error occurs, each prints a debug message.</span></span> <span data-ttu-id="a0ea1-111">По завершении каждая освобождает всю временную память, которая могла быть создана для временных \*\*\*\* и **XLOPER12**s.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-111">When finished, each frees all temporary memory that might have been created for temporary **XLOPER**s and **XLOPER12**s.</span></span>
   
- <span data-ttu-id="f928f-112">**Excel12f** могут вызываться только из DLL, начиная с Excel 2007 C API библиотеки.</span><span class="sxs-lookup"><span data-stu-id="f928f-112">**Excel12f** can only be called from a DLL starting with the Excel 2007 C API library.</span></span> <span data-ttu-id="f928f-113">Кроме того его только работы при запуске, начиная с помощью Excel 2007 и в противном случае — ошибка в **xlretFailed** .</span><span class="sxs-lookup"><span data-stu-id="f928f-113">Furthermore, it only works when running starting with Excel 2007, and fails with **xlretFailed** otherwise.</span></span> 
+ <span data-ttu-id="a0ea1-112">**Excel12f** можно вызывать только из библиотеки DLL, начиная с библиотеки Excel 2007 C API C.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-112">**Excel12f** can only be called from a DLL starting with the Excel 2007 C API library.</span></span> <span data-ttu-id="a0ea1-113">Кроме того, она работает только при запуске с Excel 2007 и завершается с помощью **кслретфаилед** в противном случае.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-113">Furthermore, it only works when running starting with Excel 2007, and fails with **xlretFailed** otherwise.</span></span> 
   
 ```cs
 int Excel(int iFunction, LPXLOPER pxRes, int iCount, 
@@ -33,31 +33,31 @@ int Excel12f(int iFunction, LPXLOPER12 pxRes, int iCount,
 LPXLOPER12 argument1, ...);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f928f-114">Параметры</span><span class="sxs-lookup"><span data-stu-id="f928f-114">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a0ea1-114">Параметры</span><span class="sxs-lookup"><span data-stu-id="a0ea1-114">Parameters</span></span>
 
- <span data-ttu-id="f928f-115">_iFunction_ (**int**)</span><span class="sxs-lookup"><span data-stu-id="f928f-115">_iFunction_ (**int**)</span></span>
+ <span data-ttu-id="a0ea1-115">_ифунктион_ (**int**)</span><span class="sxs-lookup"><span data-stu-id="a0ea1-115">_iFunction_ (**int**)</span></span>
   
-<span data-ttu-id="f928f-116">Число, указывающее команда или функция, которому нужно позвонить.</span><span class="sxs-lookup"><span data-stu-id="f928f-116">A number indicating the command or function you want to call.</span></span> <span data-ttu-id="f928f-117">Для получения дополнительных сведений см [Excel4/Excel12](excel4-excel12.md).</span><span class="sxs-lookup"><span data-stu-id="f928f-117">For more information, see [Excel4/Excel12](excel4-excel12.md).</span></span>
+<span data-ttu-id="a0ea1-116">Число, обозначающее команду или функцию, которую необходимо вызвать.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-116">A number indicating the command or function you want to call.</span></span> <span data-ttu-id="a0ea1-117">Дополнительные сведения см. в статье [Excel4/Excel12](excel4-excel12.md).</span><span class="sxs-lookup"><span data-stu-id="a0ea1-117">For more information, see [Excel4/Excel12](excel4-excel12.md).</span></span>
   
- <span data-ttu-id="f928f-118">_pxRes_</span><span class="sxs-lookup"><span data-stu-id="f928f-118">_pxRes_</span></span>
+ <span data-ttu-id="a0ea1-118">_Пксрес_</span><span class="sxs-lookup"><span data-stu-id="a0ea1-118">_pxRes_</span></span>
   
-<span data-ttu-id="f928f-119">Указатель на результат вычисления функции.</span><span class="sxs-lookup"><span data-stu-id="f928f-119">A pointer to result of the evaluated function.</span></span> <span data-ttu-id="f928f-120">Память, на который указывает в результате будет выделено, Excel и нужно освободить в вызове [xlFree](xlfree.md) после больше не требуется, или задав **xlbitXLFree** Если возвращаясь в Excel.</span><span class="sxs-lookup"><span data-stu-id="f928f-120">Any memory pointed to in the result will have been allocated by Excel and should be freed in a call to [xlFree](xlfree.md) once it is no longer needed, or by setting **xlbitXLFree** if returning it to Excel.</span></span> 
+<span data-ttu-id="a0ea1-119">Указатель на результат вычисления функции.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-119">A pointer to result of the evaluated function.</span></span> <span data-ttu-id="a0ea1-120">Все модули памяти, на которые указывает результат, будут выделены приложением Excel и должны быть освобождены в вызове [кслфри](xlfree.md) , когда он больше не нужен, или путем установки **кслбиткслфри** при его возврате в Excel.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-120">Any memory pointed to in the result will have been allocated by Excel and should be freed in a call to [xlFree](xlfree.md) once it is no longer needed, or by setting **xlbitXLFree** if returning it to Excel.</span></span> 
   
- <span data-ttu-id="f928f-121">_iCount_ (**int**)</span><span class="sxs-lookup"><span data-stu-id="f928f-121">_iCount_ (**int**)</span></span>
+ <span data-ttu-id="a0ea1-121">_икаунт_ (**int**)</span><span class="sxs-lookup"><span data-stu-id="a0ea1-121">_iCount_ (**int**)</span></span>
   
-<span data-ttu-id="f928f-122">Число аргументов, передаваемых в функцию.</span><span class="sxs-lookup"><span data-stu-id="f928f-122">The number of arguments that will be passed to the function.</span></span> <span data-ttu-id="f928f-123">Начиная с версии Excel 2007, ограничение составляет 255 аргументов.</span><span class="sxs-lookup"><span data-stu-id="f928f-123">Starting in Excel 2007, the limit is 255 arguments.</span></span> <span data-ttu-id="f928f-124">В более ранних версиях ограничение: 30.</span><span class="sxs-lookup"><span data-stu-id="f928f-124">In earlier versions, the limit is 30.</span></span>
+<span data-ttu-id="a0ea1-122">Число аргументов, которые будут переданы в функцию.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-122">The number of arguments that will be passed to the function.</span></span> <span data-ttu-id="a0ea1-123">Начиная с Excel 2007, предельное число аргументов равно 255.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-123">Starting in Excel 2007, the limit is 255 arguments.</span></span> <span data-ttu-id="a0ea1-124">В более ранних версиях лимит равен 30.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-124">In earlier versions, the limit is 30.</span></span>
   
- <span data-ttu-id="f928f-125">_аргумент1..._</span><span class="sxs-lookup"><span data-stu-id="f928f-125">_argument1, ..._</span></span>
+ <span data-ttu-id="a0ea1-125">_argument1,..._</span><span class="sxs-lookup"><span data-stu-id="a0ea1-125">_argument1, ..._</span></span>
   
-<span data-ttu-id="f928f-126">Необязательные аргументы для функции.</span><span class="sxs-lookup"><span data-stu-id="f928f-126">The optional arguments to the function.</span></span> <span data-ttu-id="f928f-127">Все аргументы должны быть указатели на **XLOPER**в случае **Excel**, или **XLOPER12**в случае **Excel12f**.</span><span class="sxs-lookup"><span data-stu-id="f928f-127">All arguments must be pointers to **XLOPER**s in the case of **Excel**, or **XLOPER12**s in the case of **Excel12f**.</span></span>
+<span data-ttu-id="a0ea1-126">Необязательные аргументы функции.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-126">The optional arguments to the function.</span></span> <span data-ttu-id="a0ea1-127">Все аргументы должны быть указателями в **XLOPER**s в случае **Excel**или **XLOPER12**s в случае **Excel12f**.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-127">All arguments must be pointers to **XLOPER**s in the case of **Excel**, or **XLOPER12**s in the case of **Excel12f**.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="f928f-128">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a0ea1-128">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="a0ea1-128">Return value</span></span>
 
-<span data-ttu-id="f928f-129">Обе функции возвращают же об ошибках и коды при успешном выполнении как **Excel4**, **Excel4v**, **Excel12**и **Excel12v**.</span><span class="sxs-lookup"><span data-stu-id="f928f-129">Both functions return the same error and success codes as **Excel4**, **Excel4v**, **Excel12**, and **Excel12v**.</span></span> <span data-ttu-id="f928f-130">В разделе [Excel4/Excel12](excel4-excel12.md) полное описание этих кодов.</span><span class="sxs-lookup"><span data-stu-id="f928f-130">See [Excel4/Excel12](excel4-excel12.md) for a full description of these codes.</span></span> <span data-ttu-id="f928f-131">Кроме того эти функции Framework возвращают обнаружил **xlretFailed** без вызова интерфейса API C, если указатель на параметр NULL.</span><span class="sxs-lookup"><span data-stu-id="f928f-131">In addition, these Framework functions return **xlretFailed** without calling the C API if a NULL pointer to a parameter is detected.</span></span> 
+<span data-ttu-id="a0ea1-129">Обе функции возвращают одни и те же коды ошибок и успешности, что и в **Excel4**, **Excel4v**, **Excel12**и **Excel12v**.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-129">Both functions return the same error and success codes as **Excel4**, **Excel4v**, **Excel12**, and **Excel12v**.</span></span> <span data-ttu-id="a0ea1-130">Полное описание этих кодов приведено в статье [Excel4/Excel12](excel4-excel12.md) .</span><span class="sxs-lookup"><span data-stu-id="a0ea1-130">See [Excel4/Excel12](excel4-excel12.md) for a full description of these codes.</span></span> <span data-ttu-id="a0ea1-131">Кроме того, эти функции платформы возвращают **кслретфаилед** без вызова API C, если обнаружен указатель NULL на параметр.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-131">In addition, these Framework functions return **xlretFailed** without calling the C API if a NULL pointer to a parameter is detected.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="f928f-132">Пример</span><span class="sxs-lookup"><span data-stu-id="f928f-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a0ea1-132">Пример</span><span class="sxs-lookup"><span data-stu-id="a0ea1-132">Example</span></span>
 
-<span data-ttu-id="f928f-133">В этом примере функция **Excel12f** , которая отправляет сообщение в отладчике передает недопустимый аргумент.</span><span class="sxs-lookup"><span data-stu-id="f928f-133">This example passes a bad argument to the **Excel12f** function, which sends a message to the debugger.</span></span> 
+<span data-ttu-id="a0ea1-133">В этом примере в функцию **Excel12f** передается неверный аргумент, который отправляет сообщение отладчику.</span><span class="sxs-lookup"><span data-stu-id="a0ea1-133">This example passes a bad argument to the **Excel12f** function, which sends a message to the debugger.</span></span> 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -69,12 +69,12 @@ short WINAPI Excel12fExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="f928f-134">См. также</span><span class="sxs-lookup"><span data-stu-id="f928f-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a0ea1-134">См. также</span><span class="sxs-lookup"><span data-stu-id="a0ea1-134">See also</span></span>
 
 
 
-[<span data-ttu-id="f928f-135">Excel4/Excel12</span><span class="sxs-lookup"><span data-stu-id="f928f-135">Excel4/Excel12</span></span>](excel4-excel12.md)
+[<span data-ttu-id="a0ea1-135">Excel4/Excel12</span><span class="sxs-lookup"><span data-stu-id="a0ea1-135">Excel4/Excel12</span></span>](excel4-excel12.md)
 
 
-[<span data-ttu-id="f928f-136">Функции в библиотеке платформы</span><span class="sxs-lookup"><span data-stu-id="f928f-136">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="a0ea1-136">Функции в библиотеке платформы</span><span class="sxs-lookup"><span data-stu-id="a0ea1-136">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

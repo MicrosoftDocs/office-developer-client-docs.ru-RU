@@ -11,60 +11,60 @@ keywords:
 localization_priority: Normal
 ms.assetid: 147e46cd-d4d7-49eb-acdc-5a2ebc2fb6c2
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3cbe1cd879fb5a91d14b38f8a659a7f77d943fe7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: e27ac922c4ba53a30e8e485d3210acc62b7d4bd3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310236"
 ---
-# <a name="xlautoclose"></a><span data-ttu-id="a4a68-104">xlAutoClose</span><span class="sxs-lookup"><span data-stu-id="a4a68-104">xlAutoClose</span></span>
+# <a name="xlautoclose"></a><span data-ttu-id="0bae8-104">xlAutoClose</span><span class="sxs-lookup"><span data-stu-id="0bae8-104">xlAutoClose</span></span>
 
- <span data-ttu-id="a4a68-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a4a68-105">Applies to: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="0bae8-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="0bae8-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="a4a68-106">Вызывается приложением Microsoft Excel при каждом отключении XLL.</span><span class="sxs-lookup"><span data-stu-id="a4a68-106">Called by Microsoft Excel whenever the XLL is deactivated.</span></span> <span data-ttu-id="a4a68-107">Надстройка отключается после нормального завершения сеанса Excel.</span><span class="sxs-lookup"><span data-stu-id="a4a68-107">The add-in is deactivated when an Excel session ends normally.</span></span> <span data-ttu-id="a4a68-108">Надстройку может отключить пользователь во время сеанса Excel, что также потянет за собой вызов этой функции.</span><span class="sxs-lookup"><span data-stu-id="a4a68-108">The add-in can be deactivated by the user during an Excel session, and this function will be called in that case.</span></span>
+<span data-ttu-id="0bae8-106">Вызывается приложением Microsoft Excel при каждом отключении XLL.</span><span class="sxs-lookup"><span data-stu-id="0bae8-106">Called by Microsoft Excel whenever the XLL is deactivated.</span></span> <span data-ttu-id="0bae8-107">Надстройка отключается после нормального завершения сеанса Excel.</span><span class="sxs-lookup"><span data-stu-id="0bae8-107">The add-in is deactivated when an Excel session ends normally.</span></span> <span data-ttu-id="0bae8-108">Надстройку может отключить пользователь во время сеанса Excel, что также потянет за собой вызов этой функции.</span><span class="sxs-lookup"><span data-stu-id="0bae8-108">The add-in can be deactivated by the user during an Excel session, and this function will be called in that case.</span></span>
   
-<span data-ttu-id="a4a68-109">Для внедрения и экспорта этой функции в приложении Excel надстройка XLL не обязательна, но рекомендована: с помощью XLL можно отключать функции и команды, освобождать ресурсы, отменять настройки и т. д.</span><span class="sxs-lookup"><span data-stu-id="a4a68-109">Excel does not require an XLL to implement and export this function, although it is advisable so that your XLL can unregister functions and commands, release resources, undo customizations, and so on.</span></span> <span data-ttu-id="a4a68-110">Если надстройка XLL не отключает функции и команды явным образом, это делает Excel после вызова функции **xlAutoClose**.</span><span class="sxs-lookup"><span data-stu-id="a4a68-110">If functions and commands are not explicitly unregistered by the XLL, Excel does this after calling the **xlAutoClose** function.</span></span> 
+<span data-ttu-id="0bae8-109">Для внедрения и экспорта этой функции в приложении Excel надстройка XLL не обязательна, но рекомендована: с помощью XLL можно отключать функции и команды, освобождать ресурсы, отменять настройки и т. д.</span><span class="sxs-lookup"><span data-stu-id="0bae8-109">Excel does not require an XLL to implement and export this function, although it is advisable so that your XLL can unregister functions and commands, release resources, undo customizations, and so on.</span></span> <span data-ttu-id="0bae8-110">Если надстройка XLL не отключает функции и команды явным образом, это делает Excel после вызова функции **xlAutoClose**.</span><span class="sxs-lookup"><span data-stu-id="0bae8-110">If functions and commands are not explicitly unregistered by the XLL, Excel does this after calling the **xlAutoClose** function.</span></span> 
   
 ```cs
 int WINAPI xlAutoClose(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a4a68-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="a4a68-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0bae8-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="0bae8-111">Parameters</span></span>
 
-<span data-ttu-id="a4a68-112">Эта функция не получает никаких аргументов.</span><span class="sxs-lookup"><span data-stu-id="a4a68-112">This function takes no parameters.</span></span>
+<span data-ttu-id="0bae8-112">Эта функция не получает никаких аргументов.</span><span class="sxs-lookup"><span data-stu-id="0bae8-112">This function takes no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="a4a68-113">Значение свойства или возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="a4a68-113">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="0bae8-113">Значение свойства или возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0bae8-113">Property value/Return value</span></span>
 
-<span data-ttu-id="a4a68-114">Внедрении этой функции должно возвратить значение 1 (**int**).</span><span class="sxs-lookup"><span data-stu-id="a4a68-114">Your implementation of this function must return 1 (**int**).</span></span>
+<span data-ttu-id="0bae8-114">Внедрении этой функции должно возвратить значение 1 (**int**).</span><span class="sxs-lookup"><span data-stu-id="0bae8-114">Your implementation of this function must return 1 (**int**).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a4a68-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="a4a68-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0bae8-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="0bae8-115">Remarks</span></span>
 
-<span data-ttu-id="a4a68-116">Excel вызывает функцию **xlAutoClose** каждый раз, когда надстройка XLL отключается (то есть выгружается из памяти).</span><span class="sxs-lookup"><span data-stu-id="a4a68-116">Excel calls the **xlAutoClose** function whenever the XLL is deactivated, that is, unloaded from memory.</span></span> <span data-ttu-id="a4a68-117">Надстройка XLL отключается в перечисленных ниже ситуациях:</span><span class="sxs-lookup"><span data-stu-id="a4a68-117">The XLL is deactivated in the following situations:</span></span> 
+<span data-ttu-id="0bae8-116">Excel вызывает функцию **xlAutoClose** каждый раз, когда надстройка XLL отключается (то есть выгружается из памяти).</span><span class="sxs-lookup"><span data-stu-id="0bae8-116">Excel calls the **xlAutoClose** function whenever the XLL is deactivated, that is, unloaded from memory.</span></span> <span data-ttu-id="0bae8-117">Надстройка XLL отключается в перечисленных ниже ситуациях:</span><span class="sxs-lookup"><span data-stu-id="0bae8-117">The XLL is deactivated in the following situations:</span></span> 
   
-- <span data-ttu-id="a4a68-118">При нормальном завершении сеанса Excel, во время которого она была активна.</span><span class="sxs-lookup"><span data-stu-id="a4a68-118">At the normal end of an Excel session if active during that session.</span></span>
+- <span data-ttu-id="0bae8-118">При нормальном завершении сеанса Excel, во время которого она была активна.</span><span class="sxs-lookup"><span data-stu-id="0bae8-118">At the normal end of an Excel session if active during that session.</span></span>
     
-- <span data-ttu-id="a4a68-119">Если она была явным образом выгружена из памяти во время сеанса Excel.</span><span class="sxs-lookup"><span data-stu-id="a4a68-119">If explicitly unloaded during an Excel session.</span></span>
+- <span data-ttu-id="0bae8-119">Если она была явным образом выгружена из памяти во время сеанса Excel.</span><span class="sxs-lookup"><span data-stu-id="0bae8-119">If explicitly unloaded during an Excel session.</span></span>
     
-- <span data-ttu-id="a4a68-120">XLL может выгружаться несколькими способами:</span><span class="sxs-lookup"><span data-stu-id="a4a68-120">An XLOPER/XLOPER12 can be created in several ways:</span></span>
+- <span data-ttu-id="0bae8-120">XLL может выгружаться несколькими способами:</span><span class="sxs-lookup"><span data-stu-id="0bae8-120">An XLL can be unloaded in several ways:</span></span>
     
-- <span data-ttu-id="a4a68-121">С помощью диспетчера надстроек.</span><span class="sxs-lookup"><span data-stu-id="a4a68-121">Using the Add-In Manager</span></span>
+- <span data-ttu-id="0bae8-121">С помощью диспетчера надстроек.</span><span class="sxs-lookup"><span data-stu-id="0bae8-121">Using the Add-In Manager.</span></span>
     
-- <span data-ttu-id="a4a68-122">Из другой надстройки XLL, которая вызывает [xlfUnregister](xlfunregister-form-1.md), указывая имя этой библиотеки DLL в качестве единственного аргумента.</span><span class="sxs-lookup"><span data-stu-id="a4a68-122">From another XLL that calls [xlfUnregister](xlfunregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
+- <span data-ttu-id="0bae8-122">Из другой надстройки XLL, которая вызывает [xlfUnregister](xlfunregister-form-1.md), указывая имя этой библиотеки DLL в качестве единственного аргумента.</span><span class="sxs-lookup"><span data-stu-id="0bae8-122">From another XLL that calls [xlfUnregister](xlfunregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
     
-- <span data-ttu-id="a4a68-123">Из макроса XLM, который вызывает [UNREGISTER](xlfunregister-form-1.md), указывая имя этой библиотеки DLL в качестве единственного аргумента.</span><span class="sxs-lookup"><span data-stu-id="a4a68-123">From an XLM macro sheet that calls [UNREGISTER](xlfunregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
+- <span data-ttu-id="0bae8-123">Из макроса XLM, который вызывает [UNREGISTER](xlfunregister-form-1.md), указывая имя этой библиотеки DLL в качестве единственного аргумента.</span><span class="sxs-lookup"><span data-stu-id="0bae8-123">From an XLM macro sheet that calls [UNREGISTER](xlfunregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
     
-<span data-ttu-id="a4a68-124">Эта функция должна выполнять следующее:</span><span class="sxs-lookup"><span data-stu-id="a4a68-124">This function should do the following:</span></span>
+<span data-ttu-id="0bae8-124">Эта функция должна выполнять следующее:</span><span class="sxs-lookup"><span data-stu-id="0bae8-124">This function should do the following:</span></span>
   
-- <span data-ttu-id="a4a68-125">Удалять меню или элементы меню, которые были добавлены надстройкой XLL.</span><span class="sxs-lookup"><span data-stu-id="a4a68-125">Remove any menus or menu items that were added by the XLL.</span></span>
+- <span data-ttu-id="0bae8-125">Удалять меню или элементы меню, которые были добавлены надстройкой XLL.</span><span class="sxs-lookup"><span data-stu-id="0bae8-125">Remove any menus or menu items that were added by the XLL.</span></span>
     
-- <span data-ttu-id="a4a68-126">В случае надобности выполнять любую глобальную очистку.</span><span class="sxs-lookup"><span data-stu-id="a4a68-126">Perform any necessary global cleanup.</span></span>
+- <span data-ttu-id="0bae8-126">В случае надобности выполнять любую глобальную очистку.</span><span class="sxs-lookup"><span data-stu-id="0bae8-126">Perform any necessary global cleanup.</span></span>
     
-- <span data-ttu-id="a4a68-127">Удалять какие-либо созданные имена, в частности имена экспортированных функций.</span><span class="sxs-lookup"><span data-stu-id="a4a68-127">Delete any names that were created, especially names of exported functions.</span></span> <span data-ttu-id="a4a68-128">Помните, что регистрация функций может привести к созданию некоторых имен, если присутствует четвертый аргумент для **РЕГИСТРАЦИИ**.</span><span class="sxs-lookup"><span data-stu-id="a4a68-128">Remember that registering functions may cause some names to be created, if the fourth argument to **REGISTER** is present.</span></span> 
+- <span data-ttu-id="0bae8-127">Удалять какие-либо созданные имена, в частности имена экспортированных функций.</span><span class="sxs-lookup"><span data-stu-id="0bae8-127">Delete any names that were created, especially names of exported functions.</span></span> <span data-ttu-id="0bae8-128">Помните, что регистрация функций может привести к созданию некоторых имен, если присутствует четвертый аргумент для **РЕГИСТРАЦИИ**.</span><span class="sxs-lookup"><span data-stu-id="0bae8-128">Remember that registering functions may cause some names to be created, if the fourth argument to **REGISTER** is present.</span></span> 
     
-## <a name="example"></a><span data-ttu-id="a4a68-129">Пример</span><span class="sxs-lookup"><span data-stu-id="a4a68-129">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0bae8-129">Пример</span><span class="sxs-lookup"><span data-stu-id="0bae8-129">Example</span></span>
 
-<span data-ttu-id="a4a68-130">В файлах `SAMPLES\EXAMPLE\EXAMPLE.C` и `SAMPLES\GENERIC\GENERIC.C` приведены примеры внедрения этой функции.</span><span class="sxs-lookup"><span data-stu-id="a4a68-130">See the files  `SAMPLES\EXAMPLE\EXAMPLE.C` and  `SAMPLES\GENERIC\GENERIC.C` for example implementations of this function.</span></span> <span data-ttu-id="a4a68-131">Следующий код — из файла `SAMPLES\GENERIC\GENERIC.C`.</span><span class="sxs-lookup"><span data-stu-id="a4a68-131">The following code is from  `SAMPLES\GENERIC\GENERIC.C`.</span></span>
+<span data-ttu-id="0bae8-130">В файлах `SAMPLES\EXAMPLE\EXAMPLE.C` и `SAMPLES\GENERIC\GENERIC.C` приведены примеры внедрения этой функции.</span><span class="sxs-lookup"><span data-stu-id="0bae8-130">See the files  `SAMPLES\EXAMPLE\EXAMPLE.C` and  `SAMPLES\GENERIC\GENERIC.C` for example implementations of this function.</span></span> <span data-ttu-id="0bae8-131">Следующий код — из файла `SAMPLES\GENERIC\GENERIC.C`.</span><span class="sxs-lookup"><span data-stu-id="0bae8-131">The following code is from  `SAMPLES\GENERIC\GENERIC.C`.</span></span>
   
 ```cs
 int WINAPI xlAutoClose(void)
@@ -109,12 +109,12 @@ int WINAPI xlAutoClose(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="a4a68-132">См. также</span><span class="sxs-lookup"><span data-stu-id="a4a68-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0bae8-132">См. также</span><span class="sxs-lookup"><span data-stu-id="0bae8-132">See also</span></span>
 
 
 
-[<span data-ttu-id="a4a68-133">xlAutoOpen</span><span class="sxs-lookup"><span data-stu-id="a4a68-133">xlAutoOpen</span></span>](xlautoopen.md)
+[<span data-ttu-id="0bae8-133">xlAutoOpen</span><span class="sxs-lookup"><span data-stu-id="0bae8-133">xlAutoOpen</span></span>](xlautoopen.md)
 
 
-[<span data-ttu-id="a4a68-134">Функции диспетчера надстроек и интерфейса XLL</span><span class="sxs-lookup"><span data-stu-id="a4a68-134">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
+[<span data-ttu-id="0bae8-134">Функции диспетчера надстроек и интерфейса XLL</span><span class="sxs-lookup"><span data-stu-id="0bae8-134">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
 

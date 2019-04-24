@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 396db029-1d4a-203d-2256-3353d03c6767
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: b6a36c1e0c3854342b627b6fddd6eb5459211f62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e988114e8e71ad1f80d20ab0d5a30c37425f5952
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315059"
 ---
-# <a name="ipstx2setspoolsuspendstate"></a><span data-ttu-id="4d4ef-103">IPSTX2::SetSpoolSuspendState</span><span class="sxs-lookup"><span data-stu-id="4d4ef-103">IPSTX2::SetSpoolSuspendState</span></span>
+# <a name="ipstx2setspoolsuspendstate"></a><span data-ttu-id="bab4e-103">IPSTX2::SetSpoolSuspendState</span><span class="sxs-lookup"><span data-stu-id="bab4e-103">IPSTX2::SetSpoolSuspendState</span></span>
 
   
   
-<span data-ttu-id="4d4ef-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4d4ef-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bab4e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bab4e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4d4ef-105">Задает приостановленном состоянии очереди.</span><span class="sxs-lookup"><span data-stu-id="4d4ef-105">Sets the suspended state on the spooler.</span></span>
+<span data-ttu-id="bab4e-105">Задает состояние приостановки для диспетчера очереди печати.</span><span class="sxs-lookup"><span data-stu-id="bab4e-105">Sets the suspended state on the spooler.</span></span>
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -33,23 +33,23 @@ void SetSpoolSuspendState(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4d4ef-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="4d4ef-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bab4e-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="bab4e-106">Parameters</span></span>
 
- <span data-ttu-id="4d4ef-107">_ulState_</span><span class="sxs-lookup"><span data-stu-id="4d4ef-107">_ulState_</span></span>
+ <span data-ttu-id="bab4e-107">_Улстате_</span><span class="sxs-lookup"><span data-stu-id="bab4e-107">_ulState_</span></span>
   
-> <span data-ttu-id="4d4ef-108">[in] Состояние, значение очереди.</span><span class="sxs-lookup"><span data-stu-id="4d4ef-108">[in] The state to set the spooler to.</span></span> <span data-ttu-id="4d4ef-109">Оно должно быть одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="4d4ef-109">It must be one of the following values:</span></span>
+> <span data-ttu-id="bab4e-108">возврата Состояние, в которое задается Диспетчер очереди.</span><span class="sxs-lookup"><span data-stu-id="bab4e-108">[in] The state to set the spooler to.</span></span> <span data-ttu-id="bab4e-109">Он должен иметь одно из следующих значений:</span><span class="sxs-lookup"><span data-stu-id="bab4e-109">It must be one of the following values:</span></span>
     
- <span data-ttu-id="4d4ef-110">**SS_ACTIVE**</span><span class="sxs-lookup"><span data-stu-id="4d4ef-110">**SS_ACTIVE**</span></span>
-  
-> 
-    
- <span data-ttu-id="4d4ef-111">**SS_SUSPENDED**</span><span class="sxs-lookup"><span data-stu-id="4d4ef-111">**SS_SUSPENDED**</span></span>
+ <span data-ttu-id="bab4e-110">**SS_ACTIVE**</span><span class="sxs-lookup"><span data-stu-id="bab4e-110">**SS_ACTIVE**</span></span>
   
 > 
     
-## <a name="see-also"></a><span data-ttu-id="4d4ef-112">См. также</span><span class="sxs-lookup"><span data-stu-id="4d4ef-112">See also</span></span>
+ <span data-ttu-id="bab4e-111">**SS_SUSPENDED**</span><span class="sxs-lookup"><span data-stu-id="bab4e-111">**SS_SUSPENDED**</span></span>
+  
+> 
+    
+## <a name="see-also"></a><span data-ttu-id="bab4e-112">См. также</span><span class="sxs-lookup"><span data-stu-id="bab4e-112">See also</span></span>
 
 
 
-[<span data-ttu-id="4d4ef-113">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="4d4ef-113">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="bab4e-113">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="bab4e-113">MAPI Constants</span></span>](mapi-constants.md)
 

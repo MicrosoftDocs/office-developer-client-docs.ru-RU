@@ -1,5 +1,5 @@
 ---
-title: IMSProvider IUnknown
+title: Функцииimsprovider IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,54 +12,54 @@ api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1c00e54d02ba494c94c9826eabe142e1bd3b9a80
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c5305ddd20b690f5c2e5807fb7ce2410549f7124
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579629"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317251"
 ---
-# <a name="imsprovider--iunknown"></a><span data-ttu-id="1430f-103">IMSProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1430f-103">IMSProvider : IUnknown</span></span>
+# <a name="imsprovider--iunknown"></a><span data-ttu-id="2ca4b-103">IMSProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="2ca4b-103">IMSProvider : IUnknown</span></span>
 
   
   
-<span data-ttu-id="1430f-104">**Применимо к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1430f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2ca4b-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2ca4b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1430f-105">Предоставляет доступ к поставщику хранилища сообщений через объект поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="1430f-105">Provides access to a message store provider through a message store provider object.</span></span> <span data-ttu-id="1430f-106">Этот объект поставщика хранилища сообщений возвращается при входе в систему поставщика функции точки входа [MSProviderInit](msproviderinit.md) поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="1430f-106">This message store provider object is returned at provider logon by the message store provider's [MSProviderInit](msproviderinit.md) entry point function.</span></span> <span data-ttu-id="1430f-107">Объект поставщика хранилища сообщений в основном используется для открытия хранилищ сообщений с клиентскими приложениями и диспетчер очереди MAPI.</span><span class="sxs-lookup"><span data-stu-id="1430f-107">The message store provider object is primarily used by client applications and the MAPI spooler to open message stores.</span></span> 
+<span data-ttu-id="2ca4b-105">Предоставляет доступ к поставщику хранилища сообщений через объект поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-105">Provides access to a message store provider through a message store provider object.</span></span> <span data-ttu-id="2ca4b-106">Этот объект поставщика хранилища сообщений возвращается при входе поставщика в функцию точки входа [мспровидеринит](msproviderinit.md) поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-106">This message store provider object is returned at provider logon by the message store provider's [MSProviderInit](msproviderinit.md) entry point function.</span></span> <span data-ttu-id="2ca4b-107">Объект поставщика хранилища сообщений в основном используется клиентскими приложениями и диспетчером очереди MAPI для открытия хранилищ сообщений.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-107">The message store provider object is primarily used by client applications and the MAPI spooler to open message stores.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1430f-108">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="1430f-108">Header file:</span></span>  <br/> |<span data-ttu-id="1430f-109">Mapispi.h</span><span class="sxs-lookup"><span data-stu-id="1430f-109">Mapispi.h</span></span>  <br/> |
-|<span data-ttu-id="1430f-110">Предоставляемые:</span><span class="sxs-lookup"><span data-stu-id="1430f-110">Exposed by:</span></span>  <br/> |<span data-ttu-id="1430f-111">Объекты поставщика хранилища сообщений</span><span class="sxs-lookup"><span data-stu-id="1430f-111">Message store provider objects</span></span>  <br/> |
-|<span data-ttu-id="1430f-112">Реализованный:</span><span class="sxs-lookup"><span data-stu-id="1430f-112">Implemented by:</span></span>  <br/> |<span data-ttu-id="1430f-113">Поставщики хранилища сообщений</span><span class="sxs-lookup"><span data-stu-id="1430f-113">Message store providers</span></span>  <br/> |
-|<span data-ttu-id="1430f-114">Вызывается:</span><span class="sxs-lookup"><span data-stu-id="1430f-114">Called by:</span></span>  <br/> |<span data-ttu-id="1430f-115">MAPI и диспетчер очереди MAPI</span><span class="sxs-lookup"><span data-stu-id="1430f-115">MAPI and the MAPI spooler</span></span>  <br/> |
-|<span data-ttu-id="1430f-116">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="1430f-116">Interface identifier:</span></span>  <br/> |<span data-ttu-id="1430f-117">IID_IMSProvider</span><span class="sxs-lookup"><span data-stu-id="1430f-117">IID_IMSProvider</span></span>  <br/> |
-|<span data-ttu-id="1430f-118">Тип указателя:</span><span class="sxs-lookup"><span data-stu-id="1430f-118">Pointer type:</span></span>  <br/> |<span data-ttu-id="1430f-119">LPMSPROVIDER</span><span class="sxs-lookup"><span data-stu-id="1430f-119">LPMSPROVIDER</span></span>  <br/> |
+|<span data-ttu-id="2ca4b-108">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="2ca4b-108">Header file:</span></span>  <br/> |<span data-ttu-id="2ca4b-109">Маписпи. h</span><span class="sxs-lookup"><span data-stu-id="2ca4b-109">Mapispi.h</span></span>  <br/> |
+|<span data-ttu-id="2ca4b-110">Предоставлено:</span><span class="sxs-lookup"><span data-stu-id="2ca4b-110">Exposed by:</span></span>  <br/> |<span data-ttu-id="2ca4b-111">Объекты поставщиков хранилищ сообщений</span><span class="sxs-lookup"><span data-stu-id="2ca4b-111">Message store provider objects</span></span>  <br/> |
+|<span data-ttu-id="2ca4b-112">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="2ca4b-112">Implemented by:</span></span>  <br/> |<span data-ttu-id="2ca4b-113">Поставщики хранилища сообщений</span><span class="sxs-lookup"><span data-stu-id="2ca4b-113">Message store providers</span></span>  <br/> |
+|<span data-ttu-id="2ca4b-114">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="2ca4b-114">Called by:</span></span>  <br/> |<span data-ttu-id="2ca4b-115">MAPI и Диспетчер очереди MAPI</span><span class="sxs-lookup"><span data-stu-id="2ca4b-115">MAPI and the MAPI spooler</span></span>  <br/> |
+|<span data-ttu-id="2ca4b-116">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="2ca4b-116">Interface identifier:</span></span>  <br/> |<span data-ttu-id="2ca4b-117">Иид_имспровидер</span><span class="sxs-lookup"><span data-stu-id="2ca4b-117">IID_IMSProvider</span></span>  <br/> |
+|<span data-ttu-id="2ca4b-118">Тип указателя:</span><span class="sxs-lookup"><span data-stu-id="2ca4b-118">Pointer type:</span></span>  <br/> |<span data-ttu-id="2ca4b-119">ЛПМСПРОВИДЕР</span><span class="sxs-lookup"><span data-stu-id="2ca4b-119">LPMSPROVIDER</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="1430f-120">Порядке vtable</span><span class="sxs-lookup"><span data-stu-id="1430f-120">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="2ca4b-120">Заказ vtable</span><span class="sxs-lookup"><span data-stu-id="2ca4b-120">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="1430f-121">Shutdown</span><span class="sxs-lookup"><span data-stu-id="1430f-121">Shutdown</span></span>](imsprovider-shutdown.md) <br/> |<span data-ttu-id="1430f-122">Закрывает поставщика хранилища сообщений определенным образом.</span><span class="sxs-lookup"><span data-stu-id="1430f-122">Closes a message store provider in an orderly fashion.</span></span>  <br/> |
-|[<span data-ttu-id="1430f-123">Вход в систему</span><span class="sxs-lookup"><span data-stu-id="1430f-123">Logon</span></span>](imsprovider-logon.md) <br/> |<span data-ttu-id="1430f-124">Журналы MAPI на один экземпляр поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="1430f-124">Logs MAPI on to one instance of a message store provider.</span></span>  <br/> |
-|[<span data-ttu-id="1430f-125">SpoolerLogon</span><span class="sxs-lookup"><span data-stu-id="1430f-125">SpoolerLogon</span></span>](imsprovider-spoolerlogon.md) <br/> |<span data-ttu-id="1430f-126">Журналы очереди MAPI вход в систему хранения сообщений.</span><span class="sxs-lookup"><span data-stu-id="1430f-126">Logs the MAPI spooler on to a message store.</span></span>  <br/> |
-|[<span data-ttu-id="1430f-127">CompareStoreIDs</span><span class="sxs-lookup"><span data-stu-id="1430f-127">CompareStoreIDs</span></span>](imsprovider-comparestoreids.md) <br/> |<span data-ttu-id="1430f-128">Сравнение двух сообщений идентификаторы хранилища записей для определения, является ли они ссылаются на тот же объект хранилища.</span><span class="sxs-lookup"><span data-stu-id="1430f-128">Compares two message store entry identifiers to determine whether they refer to the same store object.</span></span>  <br/> |
+|[<span data-ttu-id="2ca4b-121">Shutdown</span><span class="sxs-lookup"><span data-stu-id="2ca4b-121">Shutdown</span></span>](imsprovider-shutdown.md) <br/> |<span data-ttu-id="2ca4b-122">ЗаКрывает поставщик хранилища сообщений в определенном порядке.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-122">Closes a message store provider in an orderly fashion.</span></span>  <br/> |
+|[<span data-ttu-id="2ca4b-123">Logon</span><span class="sxs-lookup"><span data-stu-id="2ca4b-123">Logon</span></span>](imsprovider-logon.md) <br/> |<span data-ttu-id="2ca4b-124">Регистрирует MAPI на одном экземпляре поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-124">Logs MAPI on to one instance of a message store provider.</span></span>  <br/> |
+|[<span data-ttu-id="2ca4b-125">Спулерлогон</span><span class="sxs-lookup"><span data-stu-id="2ca4b-125">SpoolerLogon</span></span>](imsprovider-spoolerlogon.md) <br/> |<span data-ttu-id="2ca4b-126">ЗаНосит в журнал Диспетчер очереди MAPI в хранилище сообщений.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-126">Logs the MAPI spooler on to a message store.</span></span>  <br/> |
+|[<span data-ttu-id="2ca4b-127">Компарестореидс</span><span class="sxs-lookup"><span data-stu-id="2ca4b-127">CompareStoreIDs</span></span>](imsprovider-comparestoreids.md) <br/> |<span data-ttu-id="2ca4b-128">Сравнивает два идентификатора записи хранилища сообщений, чтобы определить, ссылаются ли они на один и тот же объект хранилища.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-128">Compares two message store entry identifiers to determine whether they refer to the same store object.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="1430f-129">Замечания</span><span class="sxs-lookup"><span data-stu-id="1430f-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2ca4b-129">Замечания</span><span class="sxs-lookup"><span data-stu-id="2ca4b-129">Remarks</span></span>
 
-<span data-ttu-id="1430f-130">MAPI использует один объект поставщика хранилища сообщений на сеанс, независимо от того, сколько сообщений хранилищ открываются поставщиком хранилища.</span><span class="sxs-lookup"><span data-stu-id="1430f-130">MAPI uses one message store provider object per session, no matter how many message stores are opened by the store provider.</span></span> <span data-ttu-id="1430f-131">Если второй журналы сеанса MAPI на любой open хранилищ, MAPI вызывает **MSProviderInit** еще раз для создания нового объекта поставщика хранилища сообщений для данного сеанса для использования.</span><span class="sxs-lookup"><span data-stu-id="1430f-131">If a second MAPI session logs on to any open stores, MAPI calls **MSProviderInit** a second time to create a new message store provider object for that session to use.</span></span> 
+<span data-ttu-id="2ca4b-130">MAPI использует один объект поставщика хранилища сообщений для каждого сеанса, независимо от того, сколько хранилищ сообщений открыто поставщиком хранилища.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-130">MAPI uses one message store provider object per session, no matter how many message stores are opened by the store provider.</span></span> <span data-ttu-id="2ca4b-131">Если второй сеанс MAPI выполняет вход в все открытые хранилища, Служба MAPI вызывает **мспровидеринит** во второй раз, чтобы создать новый объект поставщика хранилища сообщений для используемого сеанса.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-131">If a second MAPI session logs on to any open stores, MAPI calls **MSProviderInit** a second time to create a new message store provider object for that session to use.</span></span> 
   
-<span data-ttu-id="1430f-132">Объект поставщика хранилища сообщений, должна содержать следующие действия, чтобы обеспечить правильное функционирование:</span><span class="sxs-lookup"><span data-stu-id="1430f-132">A message store provider object must contain the following to operate correctly:</span></span>
+<span data-ttu-id="2ca4b-132">Для правильной работы объект поставщика хранилища сообщений должен содержать следующие объекты:</span><span class="sxs-lookup"><span data-stu-id="2ca4b-132">A message store provider object must contain the following to operate correctly:</span></span>
   
-- <span data-ttu-id="1430f-133">_LpMalloc_ выделение памяти выполнять рутинные указатель для использования сервером все открыто с помощью этого объекта поставщика хранилища.</span><span class="sxs-lookup"><span data-stu-id="1430f-133">An  _lpMalloc_ memory-allocation routine pointer for use by all stores opened by using this provider object.</span></span> 
+- <span data-ttu-id="2ca4b-133">Указатель процедуры выделения памяти _лпмаллок_ для использования всеми хранилищами, открытыми с помощью этого объекта поставщика.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-133">An  _lpMalloc_ memory-allocation routine pointer for use by all stores opened by using this provider object.</span></span> 
     
-- <span data-ttu-id="1430f-134">_LpfAllocateBuffer_, _ lpfAllocateMore _ и _lpfFreeBuffer_ процедуры указатели на [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)и [MAPIFreeBuffer](mapifreebuffer.md) функций выделения памяти.</span><span class="sxs-lookup"><span data-stu-id="1430f-134">The  _lpfAllocateBuffer_,  _ lpfAllocateMore _, and  _lpfFreeBuffer_ routine pointers to the [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) memory allocation functions.</span></span> 
+- <span data-ttu-id="2ca4b-134">Стандартные указатели _лпфаллокатебуффер_, _ лпфаллокатеморе _ и _лпффрибуффер_ для функций выделения памяти [мапиаллокатебуффер](mapiallocatebuffer.md), [мапиаллокатеморе](mapiallocatemore.md)и [MAPIFreeBuffer](mapifreebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="2ca4b-134">The  _lpfAllocateBuffer_,  _ lpfAllocateMore _, and  _lpfFreeBuffer_ routine pointers to the [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) memory allocation functions.</span></span> 
     
-- <span data-ttu-id="1430f-135">Связанный список всех хранилищ открыто с помощью этого объекта поставщика и еще не закрытый.</span><span class="sxs-lookup"><span data-stu-id="1430f-135">A linked list of all the stores opened by using this provider object and not yet closed.</span></span>
+- <span data-ttu-id="2ca4b-135">Связанный список всех хранилищ, открытых с помощью этого объекта поставщика и еще не закрытых.</span><span class="sxs-lookup"><span data-stu-id="2ca4b-135">A linked list of all the stores opened by using this provider object and not yet closed.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="1430f-136">См. также</span><span class="sxs-lookup"><span data-stu-id="1430f-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2ca4b-136">См. также</span><span class="sxs-lookup"><span data-stu-id="2ca4b-136">See also</span></span>
 
 
 
-[<span data-ttu-id="1430f-137">Интерфейсы MAPI</span><span class="sxs-lookup"><span data-stu-id="1430f-137">MAPI Interfaces</span></span>](mapi-interfaces.md)
+[<span data-ttu-id="2ca4b-137">Интерфейсы MAPI</span><span class="sxs-lookup"><span data-stu-id="2ca4b-137">MAPI Interfaces</span></span>](mapi-interfaces.md)
 

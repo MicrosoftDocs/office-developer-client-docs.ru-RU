@@ -1,5 +1,5 @@
 ---
-title: IMAPISupportGetLastError
+title: Имаписуппортжетластеррор
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 5b4290d9-230f-416a-9644-188578565c7b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 3e641842dd8264c0cd3556c498bd74c77bda32f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c34c175c43ada03e982f08a27f675448ea24a567
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316600"
 ---
-# <a name="imapisupportgetlasterror"></a><span data-ttu-id="c4f5a-103">IMAPISupport::GetLastError</span><span class="sxs-lookup"><span data-stu-id="c4f5a-103">IMAPISupport::GetLastError</span></span>
+# <a name="imapisupportgetlasterror"></a><span data-ttu-id="43bed-103">IMAPISupport::GetLastError</span><span class="sxs-lookup"><span data-stu-id="43bed-103">IMAPISupport::GetLastError</span></span>
 
   
   
-<span data-ttu-id="c4f5a-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c4f5a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="43bed-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="43bed-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c4f5a-105">Возвращает структуру [MAPIERROR](mapierror.md) , содержащий сведения об ошибке предыдущей объект поддержки.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-105">Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous support object error.</span></span> 
+<span data-ttu-id="43bed-105">Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения об ошибке предыдущего объекта поддержки.</span><span class="sxs-lookup"><span data-stu-id="43bed-105">Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous support object error.</span></span> 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,56 +35,56 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c4f5a-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="c4f5a-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="43bed-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="43bed-106">Parameters</span></span>
 
- <span data-ttu-id="c4f5a-107">_hResult_</span><span class="sxs-lookup"><span data-stu-id="c4f5a-107">_hResult_</span></span>
+ <span data-ttu-id="43bed-107">_Состав_</span><span class="sxs-lookup"><span data-stu-id="43bed-107">_hResult_</span></span>
   
-> <span data-ttu-id="c4f5a-108">[in] Дескриптор значение ошибки, созданный в предыдущем вызове метода для объекта поддержки.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-108">[in] A handle to the error value generated in the previous method call for the support object.</span></span>
+> <span data-ttu-id="43bed-108">возврата Дескриптор значения ошибки, созданной в предыдущем вызове метода для объекта support.</span><span class="sxs-lookup"><span data-stu-id="43bed-108">[in] A handle to the error value generated in the previous method call for the support object.</span></span>
     
- <span data-ttu-id="c4f5a-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c4f5a-109">_ulFlags_</span></span>
+ <span data-ttu-id="43bed-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="43bed-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="c4f5a-110">[in] Битовая маска флаги, определяющее тип возвращаемой строки.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-110">[in] A bitmask of flags that controls the type of strings returned.</span></span> <span data-ttu-id="c4f5a-111">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="c4f5a-111">The following flag can be set:</span></span>
+> <span data-ttu-id="43bed-110">возврата Битовая маска флагов, определяющих тип возвращаемых строк.</span><span class="sxs-lookup"><span data-stu-id="43bed-110">[in] A bitmask of flags that controls the type of strings returned.</span></span> <span data-ttu-id="43bed-111">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="43bed-111">The following flag can be set:</span></span>
     
-<span data-ttu-id="c4f5a-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c4f5a-112">MAPI_UNICODE</span></span> 
+<span data-ttu-id="43bed-112">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="43bed-112">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="c4f5a-113">Строки в структуре **MAPIERROR** , возвращаемые в параметре _lppMAPIError_ хранятся в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-113">The strings in the **MAPIERROR** structure returned in the  _lppMAPIError_ parameter are in Unicode format.</span></span> <span data-ttu-id="c4f5a-114">Если флаг MAPI_UNICODE не установлен, они в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span> 
+> <span data-ttu-id="43bed-113">Строки в структуре **мапиеррор** , возвращаемые в параметре _лппмапиеррор_ , представлены в формате Юникод.</span><span class="sxs-lookup"><span data-stu-id="43bed-113">The strings in the **MAPIERROR** structure returned in the  _lppMAPIError_ parameter are in Unicode format.</span></span> <span data-ttu-id="43bed-114">Если флаг МАПИ_УНИКОДЕ не установлен, строки представлены в формате ANSI.</span><span class="sxs-lookup"><span data-stu-id="43bed-114">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span> 
     
- <span data-ttu-id="c4f5a-115">_lppMAPIError_</span><span class="sxs-lookup"><span data-stu-id="c4f5a-115">_lppMAPIError_</span></span>
+ <span data-ttu-id="43bed-115">_Лппмапиеррор_</span><span class="sxs-lookup"><span data-stu-id="43bed-115">_lppMAPIError_</span></span>
   
-> <span data-ttu-id="c4f5a-116">[out] Указатель на указатель на структуру **MAPIERROR** , который содержит сведения о версии, компонент и контекста для ошибки.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-116">[out] A pointer to a pointer to the **MAPIERROR** structure that contains version, component, and context information for the error.</span></span> <span data-ttu-id="c4f5a-117">Параметр _lppMAPIError_ может быть присвоено значение NULL, если структура **MAPIERROR** с сведения об ошибке.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-117">The  _lppMAPIError_ parameter can be set to NULL if a **MAPIERROR** structure with appropriate error information cannot be provided.</span></span> 
+> <span data-ttu-id="43bed-116">вышли Указатель на указатель на структуру **мапиеррор** , содержащую сведения о версии, компоненте и контексте ошибки.</span><span class="sxs-lookup"><span data-stu-id="43bed-116">[out] A pointer to a pointer to the **MAPIERROR** structure that contains version, component, and context information for the error.</span></span> <span data-ttu-id="43bed-117">Параметр _лппмапиеррор_ может иметь значение null, если не удается предоставить структуру **мапиеррор** с соответствующими сведениями об ошибках.</span><span class="sxs-lookup"><span data-stu-id="43bed-117">The  _lppMAPIError_ parameter can be set to NULL if a **MAPIERROR** structure with appropriate error information cannot be provided.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="c4f5a-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c4f5a-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="43bed-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="43bed-118">Return value</span></span>
 
-<span data-ttu-id="c4f5a-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="c4f5a-119">S_OK</span></span> 
+<span data-ttu-id="43bed-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="43bed-119">S_OK</span></span> 
   
-> <span data-ttu-id="c4f5a-120">Вызов успешно и возвращается ожидаемым значением или значения.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-120">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="43bed-120">Вызов выполнен успешно и вернул ожидаемое значение или значения.</span><span class="sxs-lookup"><span data-stu-id="43bed-120">The call succeeded and returned the expected value or values.</span></span>
     
-<span data-ttu-id="c4f5a-121">MAPI_E_BAD_CHARWIDTH</span><span class="sxs-lookup"><span data-stu-id="c4f5a-121">MAPI_E_BAD_CHARWIDTH</span></span> 
+<span data-ttu-id="43bed-121">МАПИ_Е_БАД_ЧАРВИДС</span><span class="sxs-lookup"><span data-stu-id="43bed-121">MAPI_E_BAD_CHARWIDTH</span></span> 
   
-> <span data-ttu-id="c4f5a-122">Либо был установлен флажок MAPI_UNICODE и MAPI не поддерживает Юникод, или MAPI_UNICODE не было установлено и MAPI поддерживает только Юникод.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-122">Either the MAPI_UNICODE flag was set and MAPI does not support Unicode, or MAPI_UNICODE was not set and MAPI supports only Unicode.</span></span>
+> <span data-ttu-id="43bed-122">Установлен либо флаг МАПИ_УНИКОДЕ, либо MAPI не поддерживает Юникод, или МАПИ_УНИКОДЕ не задан, а MAPI поддерживает только Юникод.</span><span class="sxs-lookup"><span data-stu-id="43bed-122">Either the MAPI_UNICODE flag was set and MAPI does not support Unicode, or MAPI_UNICODE was not set and MAPI supports only Unicode.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c4f5a-123">Замечания</span><span class="sxs-lookup"><span data-stu-id="c4f5a-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="43bed-123">Замечания</span><span class="sxs-lookup"><span data-stu-id="43bed-123">Remarks</span></span>
 
-<span data-ttu-id="c4f5a-124">Метод **IMAPISupport::GetLastError** применяется для всех объектов поддержки.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-124">The **IMAPISupport::GetLastError** method is implemented for all support objects.</span></span> <span data-ttu-id="c4f5a-125">Вызывающие объекты можно предоставить своим пользователям подробные сведения об ошибке, включая данные из структуры **MAPIERROR** в диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-125">Callers can provide their users with detailed information about the error by including the data from the **MAPIERROR** structure in a dialog box.</span></span> 
+<span data-ttu-id="43bed-124">Метод **имаписуппорт:: GetLastError** реализован для всех объектов support.</span><span class="sxs-lookup"><span data-stu-id="43bed-124">The **IMAPISupport::GetLastError** method is implemented for all support objects.</span></span> <span data-ttu-id="43bed-125">Вызывающие абоненты могут предоставить пользователям подробные сведения об ошибке, включив данные из структуры **мапиеррор** в диалоговом окне.</span><span class="sxs-lookup"><span data-stu-id="43bed-125">Callers can provide their users with detailed information about the error by including the data from the **MAPIERROR** structure in a dialog box.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="c4f5a-126">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="c4f5a-126">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="43bed-126">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="43bed-126">Notes to callers</span></span>
 
-<span data-ttu-id="c4f5a-127">Указатель на структуру **MAPIERROR** можно использовать, если MAPI предоставляет один с помощью параметра _lppMAPIError_ только в том случае, если **код последней ошибки** возвращается значение S_OK.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-127">You can use the pointer to the **MAPIERROR** structure, if MAPI supplies one, in the  _lppMAPIError_ parameter only if **GetLastError** returns S_OK.</span></span> <span data-ttu-id="c4f5a-128">В некоторых случаях MAPI не может определить последнюю ошибку был или он не более отчет об ошибке содержит.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-128">Sometimes MAPI cannot determine what the last error was or it has nothing more to report about the error.</span></span> <span data-ttu-id="c4f5a-129">В этом случае _lppMAPIError_ возвращает указатель на значение NULL вместо этого.</span><span class="sxs-lookup"><span data-stu-id="c4f5a-129">In this situation,  _lppMAPIError_ returns a pointer to NULL instead.</span></span> 
+<span data-ttu-id="43bed-127">Можно использовать указатель на структуру **мапиеррор** , если MAPI предоставляет один, в параметре _лппмапиеррор_ , только если **GetLastError** возвращает значение S_OK.</span><span class="sxs-lookup"><span data-stu-id="43bed-127">You can use the pointer to the **MAPIERROR** structure, if MAPI supplies one, in the  _lppMAPIError_ parameter only if **GetLastError** returns S_OK.</span></span> <span data-ttu-id="43bed-128">Иногда MAPI не может определить, в чем последняя ошибка, или сообщение об ошибке больше не содержит ничего.</span><span class="sxs-lookup"><span data-stu-id="43bed-128">Sometimes MAPI cannot determine what the last error was or it has nothing more to report about the error.</span></span> <span data-ttu-id="43bed-129">В этом случае _лппмапиеррор_ возвращает указатель на null вместо него.</span><span class="sxs-lookup"><span data-stu-id="43bed-129">In this situation,  _lppMAPIError_ returns a pointer to NULL instead.</span></span> 
   
-<span data-ttu-id="c4f5a-130">Дополнительные сведения о методе **GetLastError** отображаются [Ошибки расширенного MAPI](mapi-extended-errors.md).</span><span class="sxs-lookup"><span data-stu-id="c4f5a-130">For more information about the **GetLastError** method, see [MAPI Extended Errors](mapi-extended-errors.md).</span></span>
+<span data-ttu-id="43bed-130">Дополнительные сведения о методе **GetLastError** приведены в разделе [Расширенные ошибки MAPI](mapi-extended-errors.md).</span><span class="sxs-lookup"><span data-stu-id="43bed-130">For more information about the **GetLastError** method, see [MAPI Extended Errors](mapi-extended-errors.md).</span></span>
   
-<span data-ttu-id="c4f5a-131">Для освобождения всех памяти, выделенной MAPI, вызовите функцию [MAPIFreeBuffer](mapifreebuffer.md) для возвращаемых структуры **MAPIERROR** .</span><span class="sxs-lookup"><span data-stu-id="c4f5a-131">To release all the memory allocated by MAPI, call the [MAPIFreeBuffer](mapifreebuffer.md) function for the returned **MAPIERROR** structure.</span></span> 
+<span data-ttu-id="43bed-131">Чтобы освободить всю память, выделенную MAPI, вызовите функцию [мапифрибуффер](mapifreebuffer.md) для возвращенной структуры **мапиеррор** .</span><span class="sxs-lookup"><span data-stu-id="43bed-131">To release all the memory allocated by MAPI, call the [MAPIFreeBuffer](mapifreebuffer.md) function for the returned **MAPIERROR** structure.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c4f5a-132">См. также</span><span class="sxs-lookup"><span data-stu-id="c4f5a-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="43bed-132">См. также</span><span class="sxs-lookup"><span data-stu-id="43bed-132">See also</span></span>
 
 
 
-[<span data-ttu-id="c4f5a-133">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="c4f5a-133">MAPIERROR</span></span>](mapierror.md)
+[<span data-ttu-id="43bed-133">MAPIERROR</span><span class="sxs-lookup"><span data-stu-id="43bed-133">MAPIERROR</span></span>](mapierror.md)
   
-[<span data-ttu-id="c4f5a-134">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="c4f5a-134">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
+[<span data-ttu-id="43bed-134">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="43bed-134">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
   
-[<span data-ttu-id="c4f5a-135">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="c4f5a-135">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="43bed-135">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="43bed-135">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 
 
-[<span data-ttu-id="c4f5a-136">Расширенных ошибки MAPI</span><span class="sxs-lookup"><span data-stu-id="c4f5a-136">MAPI Extended Errors</span></span>](mapi-extended-errors.md)
+[<span data-ttu-id="43bed-136">Расширенные ошибки MAPI</span><span class="sxs-lookup"><span data-stu-id="43bed-136">MAPI Extended Errors</span></span>](mapi-extended-errors.md)
 

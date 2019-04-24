@@ -1,5 +1,5 @@
 ---
-title: IMAPISupportNewEntry
+title: Имаписуппортневентри
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d978b7a6bd8af9a505fa025aef2e5da68308468f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3468e4a92787e440f230d60ab31f37526fe7d5e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316647"
 ---
-# <a name="imapisupportnewentry"></a><span data-ttu-id="5c075-103">IMAPISupport::NewEntry</span><span class="sxs-lookup"><span data-stu-id="5c075-103">IMAPISupport::NewEntry</span></span>
+# <a name="imapisupportnewentry"></a><span data-ttu-id="e4bec-103">IMAPISupport::NewEntry</span><span class="sxs-lookup"><span data-stu-id="e4bec-103">IMAPISupport::NewEntry</span></span>
 
   
   
-<span data-ttu-id="5c075-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5c075-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e4bec-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e4bec-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5c075-105">Добавляет нового получателя непосредственно к контейнеру адресной книги или списка получателей исходящих сообщений.</span><span class="sxs-lookup"><span data-stu-id="5c075-105">Adds a new recipient directly to an address book container or to the recipient list of an outgoing message.</span></span>
+<span data-ttu-id="e4bec-105">Добавляет нового получателя непосредственно в контейнер адресной книги или в список получателей исходящего сообщения.</span><span class="sxs-lookup"><span data-stu-id="e4bec-105">Adds a new recipient directly to an address book container or to the recipient list of an outgoing message.</span></span>
   
 ```cpp
 HRESULT NewEntry(
@@ -40,79 +40,79 @@ HRESULT NewEntry(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="5c075-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="5c075-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e4bec-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="e4bec-106">Parameters</span></span>
 
- <span data-ttu-id="5c075-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="5c075-107">_ulUIParam_</span></span>
+ <span data-ttu-id="e4bec-107">_Улуипарам_</span><span class="sxs-lookup"><span data-stu-id="e4bec-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="5c075-108">[in] Дескриптор родительского окна диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="5c075-108">[in] A handle to the parent window of the dialog box.</span></span>
+> <span data-ttu-id="e4bec-108">возврата Дескриптор родительского окна диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="e4bec-108">[in] A handle to the parent window of the dialog box.</span></span>
     
- <span data-ttu-id="5c075-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="5c075-109">_ulFlags_</span></span>
+ <span data-ttu-id="e4bec-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="e4bec-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="5c075-110">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="5c075-110">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="e4bec-110">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="e4bec-110">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="5c075-111">_cbEIDContainer_</span><span class="sxs-lookup"><span data-stu-id="5c075-111">_cbEIDContainer_</span></span>
+ <span data-ttu-id="e4bec-111">_Кбеидконтаинер_</span><span class="sxs-lookup"><span data-stu-id="e4bec-111">_cbEIDContainer_</span></span>
   
-> <span data-ttu-id="5c075-112">[in] Число байтов в идентификатор записи, на который указывает параметр _lpEIDContainer_ .</span><span class="sxs-lookup"><span data-stu-id="5c075-112">[in] The byte count in the entry identifier pointed to by the  _lpEIDContainer_ parameter.</span></span> 
+> <span data-ttu-id="e4bec-112">возврата Число байтов в идентификаторе записи, на которое указывает параметр _лпеидконтаинер_ .</span><span class="sxs-lookup"><span data-stu-id="e4bec-112">[in] The byte count in the entry identifier pointed to by the  _lpEIDContainer_ parameter.</span></span> 
     
- <span data-ttu-id="5c075-113">_lpEIDContainer_</span><span class="sxs-lookup"><span data-stu-id="5c075-113">_lpEIDContainer_</span></span>
+ <span data-ttu-id="e4bec-113">_Лпеидконтаинер_</span><span class="sxs-lookup"><span data-stu-id="e4bec-113">_lpEIDContainer_</span></span>
   
-> <span data-ttu-id="5c075-114">[in] Указатель на идентификатор записи контейнера для получения новая запись.</span><span class="sxs-lookup"><span data-stu-id="5c075-114">[in] A pointer to the entry identifier of the container to receive the new entry.</span></span> <span data-ttu-id="5c075-115">Если _cbEIDContainer_ равно 0 и _lpEIDContainer_ имеет значение NULL, **NewEntry** создает идентификатор единичных записей, который имеет тот же тип, как создается путем вызова метода [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) .</span><span class="sxs-lookup"><span data-stu-id="5c075-115">If  _cbEIDContainer_ is 0 and  _lpEIDContainer_ is NULL, **NewEntry** creates a one-off entry identifier that is the same type as is generated by a call to the [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) method.</span></span> 
+> <span data-ttu-id="e4bec-114">возврата Указатель на идентификатор записи контейнера для получения новой записи.</span><span class="sxs-lookup"><span data-stu-id="e4bec-114">[in] A pointer to the entry identifier of the container to receive the new entry.</span></span> <span data-ttu-id="e4bec-115">Если _кбеидконтаинер_ имеет значение 0, а _ЛПЕИДКОНТАИНЕР_ имеет значение null, **невентри** создает односторонняя идентификатор записи, который создается при вызове метода [имаписуппорт:: креатеонеофф](imapisupport-createoneoff.md) .</span><span class="sxs-lookup"><span data-stu-id="e4bec-115">If  _cbEIDContainer_ is 0 and  _lpEIDContainer_ is NULL, **NewEntry** creates a one-off entry identifier that is the same type as is generated by a call to the [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) method.</span></span> 
     
- <span data-ttu-id="5c075-116">_cbEIDNewEntryTpl_</span><span class="sxs-lookup"><span data-stu-id="5c075-116">_cbEIDNewEntryTpl_</span></span>
+ <span data-ttu-id="e4bec-116">_Кбеидневентритпл_</span><span class="sxs-lookup"><span data-stu-id="e4bec-116">_cbEIDNewEntryTpl_</span></span>
   
-> <span data-ttu-id="5c075-117">[in] Число байтов в идентификатор записи, на который указывает параметр _lpEIDNewEntryTpl_ .</span><span class="sxs-lookup"><span data-stu-id="5c075-117">[in] The byte count in the entry identifier pointed to by the  _lpEIDNewEntryTpl_ parameter.</span></span> 
+> <span data-ttu-id="e4bec-117">возврата Число байтов в идентификаторе записи, на которое указывает параметр _лпеидневентритпл_ .</span><span class="sxs-lookup"><span data-stu-id="e4bec-117">[in] The byte count in the entry identifier pointed to by the  _lpEIDNewEntryTpl_ parameter.</span></span> 
     
- <span data-ttu-id="5c075-118">_lpEIDNewEntryTpl_</span><span class="sxs-lookup"><span data-stu-id="5c075-118">_lpEIDNewEntryTpl_</span></span>
+ <span data-ttu-id="e4bec-118">_Лпеидневентритпл_</span><span class="sxs-lookup"><span data-stu-id="e4bec-118">_lpEIDNewEntryTpl_</span></span>
   
-> <span data-ttu-id="5c075-119">[in] Указатель на идентификатор записи шаблона, который используется для создания новой записи.</span><span class="sxs-lookup"><span data-stu-id="5c075-119">[in] A pointer to the entry identifier of the template to be used to create the new entry.</span></span> <span data-ttu-id="5c075-120">Если _cbEIDNewEntryTpl_ равно 0 и _lpEIDNewEntryTpl_ имеет значение NULL, **NewEntry** отображает диалоговое окно, которое позволяет пользователям выбирать из списка шаблонов для добавления новых записей.</span><span class="sxs-lookup"><span data-stu-id="5c075-120">If  _cbEIDNewEntryTpl_ is 0 and  _lpEIDNewEntryTpl_ is NULL, **NewEntry** displays a dialog box that enables the user to select from a list of templates for adding new entries.</span></span> 
+> <span data-ttu-id="e4bec-119">возврата Указатель на идентификатор записи шаблона, который будет использоваться для создания новой записи.</span><span class="sxs-lookup"><span data-stu-id="e4bec-119">[in] A pointer to the entry identifier of the template to be used to create the new entry.</span></span> <span data-ttu-id="e4bec-120">Если _кбеидневентритпл_ имеет значение 0, а _ЛПЕИДНЕВЕНТРИТПЛ_ имеет значение null, **невентри** отображает диалоговое окно, которое позволяет пользователю выбрать из списка шаблонов для добавления новых записей.</span><span class="sxs-lookup"><span data-stu-id="e4bec-120">If  _cbEIDNewEntryTpl_ is 0 and  _lpEIDNewEntryTpl_ is NULL, **NewEntry** displays a dialog box that enables the user to select from a list of templates for adding new entries.</span></span> 
     
- <span data-ttu-id="5c075-121">_lpcbEIDNewEntry_</span><span class="sxs-lookup"><span data-stu-id="5c075-121">_lpcbEIDNewEntry_</span></span>
+ <span data-ttu-id="e4bec-121">_Лпкбеидневентри_</span><span class="sxs-lookup"><span data-stu-id="e4bec-121">_lpcbEIDNewEntry_</span></span>
   
-> <span data-ttu-id="5c075-122">[out] Указатель на число байтов в идентификатор записи, на который указывает параметр _lppEIDNewEntry_ .</span><span class="sxs-lookup"><span data-stu-id="5c075-122">[out] A pointer to the byte count in the entry identifier pointed to by the  _lppEIDNewEntry_ parameter.</span></span> 
+> <span data-ttu-id="e4bec-122">вышли Указатель на число байтов в идентификаторе записи, на который указывает параметр _лппеидневентри_ .</span><span class="sxs-lookup"><span data-stu-id="e4bec-122">[out] A pointer to the byte count in the entry identifier pointed to by the  _lppEIDNewEntry_ parameter.</span></span> 
     
- <span data-ttu-id="5c075-123">_lppEIDNewEntry_</span><span class="sxs-lookup"><span data-stu-id="5c075-123">_lppEIDNewEntry_</span></span>
+ <span data-ttu-id="e4bec-123">_Лппеидневентри_</span><span class="sxs-lookup"><span data-stu-id="e4bec-123">_lppEIDNewEntry_</span></span>
   
-> <span data-ttu-id="5c075-124">[out] Указатель на указатель на идентификатор операции записи в только что созданный.</span><span class="sxs-lookup"><span data-stu-id="5c075-124">[out] A pointer to a pointer to the entry identifier of the newly created entry.</span></span>
+> <span data-ttu-id="e4bec-124">вышли Указатель на указатель на идентификатор записи вновь созданной записи.</span><span class="sxs-lookup"><span data-stu-id="e4bec-124">[out] A pointer to a pointer to the entry identifier of the newly created entry.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="5c075-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5c075-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e4bec-125">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e4bec-125">Return value</span></span>
 
-<span data-ttu-id="5c075-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="5c075-126">S_OK</span></span> 
+<span data-ttu-id="e4bec-126">S_OK</span><span class="sxs-lookup"><span data-stu-id="e4bec-126">S_OK</span></span> 
   
-> <span data-ttu-id="5c075-127">Новая запись успешно создан.</span><span class="sxs-lookup"><span data-stu-id="5c075-127">The new entry was successfully created.</span></span>
+> <span data-ttu-id="e4bec-127">Новая запись успешно создана.</span><span class="sxs-lookup"><span data-stu-id="e4bec-127">The new entry was successfully created.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="5c075-128">Замечания</span><span class="sxs-lookup"><span data-stu-id="5c075-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e4bec-128">Замечания</span><span class="sxs-lookup"><span data-stu-id="e4bec-128">Remarks</span></span>
 
-<span data-ttu-id="5c075-129">Метод **IMAPISupport::NewEntry** реализуется для объектов поддержки поставщик адресной книги.</span><span class="sxs-lookup"><span data-stu-id="5c075-129">The **IMAPISupport::NewEntry** method is implemented for address book provider support objects.</span></span> <span data-ttu-id="5c075-130">Поставщиками адресной книги вызовите **NewEntry** , чтобы создать новую запись книги адрес добавляемого непосредственно в контейнер или для использования с учетом исходящих сообщений.</span><span class="sxs-lookup"><span data-stu-id="5c075-130">Address book providers call **NewEntry** to create a new address book entry to be added directly into a container or to be used to address an outgoing message.</span></span> 
+<span data-ttu-id="e4bec-129">Метод **имаписуппорт:: невентри** реализован для объектов поддержки поставщика адресных книг.</span><span class="sxs-lookup"><span data-stu-id="e4bec-129">The **IMAPISupport::NewEntry** method is implemented for address book provider support objects.</span></span> <span data-ttu-id="e4bec-130">Поставщики адресных книг вызывают **невентри** , чтобы создать новую запись адресной книги, которую необходимо добавить непосредственно в контейнер или использовать для адресации исходящих сообщений.</span><span class="sxs-lookup"><span data-stu-id="e4bec-130">Address book providers call **NewEntry** to create a new address book entry to be added directly into a container or to be used to address an outgoing message.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="5c075-131">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="5c075-131">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="e4bec-131">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="e4bec-131">Notes to callers</span></span>
 
-<span data-ttu-id="5c075-132">Новая запись будет добавлена к конкретному контейнеру, установите _lpEIDContainer_ идентификатор записи и _cbEIDContainer_ на число байтов в идентификатор записи контейнера.</span><span class="sxs-lookup"><span data-stu-id="5c075-132">If you want the new entry to be added to a specific container, set  _lpEIDContainer_ to the container's entry identifier and  _cbEIDContainer_ to the byte count in the entry identifier.</span></span> 
+<span data-ttu-id="e4bec-132">Если вы хотите добавить новую запись в определенный контейнер, задайте для параметра _лпеидконтаинер_ идентификатор записи контейнера и _кбеидконтаинер_ в качестве значения счетчика байтов в идентификаторе записи.</span><span class="sxs-lookup"><span data-stu-id="e4bec-132">If you want the new entry to be added to a specific container, set  _lpEIDContainer_ to the container's entry identifier and  _cbEIDContainer_ to the byte count in the entry identifier.</span></span> 
   
-<span data-ttu-id="5c075-133">Новая запись будет добавлена в список получателей исходящих сообщений, установите _lpEIDContainer_ NULL и _cbEIDContainer_ значение 0.</span><span class="sxs-lookup"><span data-stu-id="5c075-133">If you want the new entry to be added to the recipient list of an outgoing message, set  _lpEIDContainer_ to NULL and  _cbEIDContainer_ to 0.</span></span> 
+<span data-ttu-id="e4bec-133">Если требуется добавить новую запись в список получателей исходящего сообщения, установите для параметра _ЛПЕИДКОНТАИНЕР_ значение NULL и _кбеидконтаинер_ значение 0.</span><span class="sxs-lookup"><span data-stu-id="e4bec-133">If you want the new entry to be added to the recipient list of an outgoing message, set  _lpEIDContainer_ to NULL and  _cbEIDContainer_ to 0.</span></span> 
   
-<span data-ttu-id="5c075-134">Если вы хотите разрешить пользователю создавать клиентского приложения, чтобы выбрать тип записи, передайте 0 в _cbEIDNewEntryTpl_ и NULL в _lpEIDNewEntryTpl_.</span><span class="sxs-lookup"><span data-stu-id="5c075-134">If you want to allow the user of a client application to select the type of entry to be created, pass 0 in  _cbEIDNewEntryTpl_ and NULL in  _lpEIDNewEntryTpl_.</span></span> <span data-ttu-id="5c075-135">**NewEntry** отображаются в таблице одноразовых MAPI, список шаблонов, которые поддерживают MAPI и каждый из поставщиками адресной книги в сеансе.</span><span class="sxs-lookup"><span data-stu-id="5c075-135">**NewEntry** displays the MAPI one-off table, a list of templates that MAPI and each of the address book providers in the session support.</span></span> <span data-ttu-id="5c075-136">В каждый шаблон можно создать запись получателей для одного или нескольких типов адресов.</span><span class="sxs-lookup"><span data-stu-id="5c075-136">Each template can create a recipient entry for one or more address types.</span></span> 
+<span data-ttu-id="e4bec-134">Если вы хотите разрешить пользователю клиентского приложения выбирать тип создаваемой записи, передайте значение 0 в _кбеидневентритпл_ и значение NULL в _лпеидневентритпл_.</span><span class="sxs-lookup"><span data-stu-id="e4bec-134">If you want to allow the user of a client application to select the type of entry to be created, pass 0 in  _cbEIDNewEntryTpl_ and NULL in  _lpEIDNewEntryTpl_.</span></span> <span data-ttu-id="e4bec-135">В **невентри** отображается односторонняя таблица MAPI, список шаблонов, которые MAPI и каждый из поставщиков адресной книги поддерживаются в сеансе.</span><span class="sxs-lookup"><span data-stu-id="e4bec-135">**NewEntry** displays the MAPI one-off table, a list of templates that MAPI and each of the address book providers in the session support.</span></span> <span data-ttu-id="e4bec-136">Каждый шаблон может создать запись получателя для одного или нескольких типов адресов.</span><span class="sxs-lookup"><span data-stu-id="e4bec-136">Each template can create a recipient entry for one or more address types.</span></span> 
   
-<span data-ttu-id="5c075-137">Если вы хотите сохранить идентификатор записи новой записи, передайте допустимый указатели параметры _lpcbEIDNewEntry_ и _lppEIDNewEntry_ .</span><span class="sxs-lookup"><span data-stu-id="5c075-137">If you want to retain the entry identifier of the new entry, pass valid pointers in the  _lpcbEIDNewEntry_ and  _lppEIDNewEntry_ parameters.</span></span> <span data-ttu-id="5c075-138">Вы несете ответственность за освобождение этот идентификатор записи после завершения с ним с помощью вызова функции [MAPIFreeBuffer](mapifreebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="5c075-138">You are responsible for freeing this entry identifier when you are finished with it by calling the [MAPIFreeBuffer](mapifreebuffer.md) function.</span></span> 
+<span data-ttu-id="e4bec-137">Если необходимо сохранить идентификатор записи новой записи, передайте допустимые указатели в параметрах _лпкбеидневентри_ и _лппеидневентри_ .</span><span class="sxs-lookup"><span data-stu-id="e4bec-137">If you want to retain the entry identifier of the new entry, pass valid pointers in the  _lpcbEIDNewEntry_ and  _lppEIDNewEntry_ parameters.</span></span> <span data-ttu-id="e4bec-138">Вы несете ответственность за освобождение этого идентификатора записи при завершении работы с ним, вызвав функцию [мапифрибуффер](mapifreebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="e4bec-138">You are responsible for freeing this entry identifier when you are finished with it by calling the [MAPIFreeBuffer](mapifreebuffer.md) function.</span></span> 
   
-<span data-ttu-id="5c075-139">Чтобы использовать шаблон, определенного для добавления записи к контейнеру можно изменить, используйте следующую процедуру:</span><span class="sxs-lookup"><span data-stu-id="5c075-139">To use a particular template to add a new entry to a modifiable container, use the following procedure:</span></span>
+<span data-ttu-id="e4bec-139">Чтобы использовать определенный шаблон для добавления новой записи в изменяемый контейнер, выполните следующую процедуру:</span><span class="sxs-lookup"><span data-stu-id="e4bec-139">To use a particular template to add a new entry to a modifiable container, use the following procedure:</span></span>
   
-1. <span data-ttu-id="5c075-140">Вызовите метод [IMAPISupport::OpenEntry](imapisupport-openentry.md) для открытия конечного контейнера и установите для параметра _lpEntryID_ значение идентификатор записи контейнера.</span><span class="sxs-lookup"><span data-stu-id="5c075-140">Call the [IMAPISupport::OpenEntry](imapisupport-openentry.md) method to open the destination container, and set the  _lpEntryID_ parameter to the entry identifier of the container.</span></span> 
+1. <span data-ttu-id="e4bec-140">ВыЗовите метод [имаписуппорт:: OpenEntry](imapisupport-openentry.md) , чтобы открыть целевой контейнер, и присвойте параметру _лпентрид_ идентификатор элемента контейнера.</span><span class="sxs-lookup"><span data-stu-id="e4bec-140">Call the [IMAPISupport::OpenEntry](imapisupport-openentry.md) method to open the destination container, and set the  _lpEntryID_ parameter to the entry identifier of the container.</span></span> 
     
-2. <span data-ttu-id="5c075-141">Вызовите метод конечный контейнер [IMAPIProp::OpenProperty](imapiprop-openproperty.md) и установите параметр _ulPropTag_ для **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) и параметр _lpiid_ IID_IMAPITable.</span><span class="sxs-lookup"><span data-stu-id="5c075-141">Call the destination container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method, and set the  _ulPropTag_ parameter to **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) and the  _lpiid_ parameter to IID_IMAPITable.</span></span> <span data-ttu-id="5c075-142">Контейнер будет возвращать одноразовых таблице перечислены все шаблоны, поддерживаемые для создания новых записей.</span><span class="sxs-lookup"><span data-stu-id="5c075-142">The container will return a one-off table that lists all of the templates that it supports for creating new entries.</span></span> 
+2. <span data-ttu-id="e4bec-141">ВыЗовите метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) конечного контейнера и задайте для параметра _улпроптаг_ значение **пр_креате_темплатес** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) и для параметра _лпиид_ значение иид_имапитабле.</span><span class="sxs-lookup"><span data-stu-id="e4bec-141">Call the destination container's [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method, and set the  _ulPropTag_ parameter to **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) and the  _lpiid_ parameter to IID_IMAPITable.</span></span> <span data-ttu-id="e4bec-142">Контейнер вернет одноразовую таблицу, в которой перечислены все шаблоны, которые она поддерживает для создания новых записей.</span><span class="sxs-lookup"><span data-stu-id="e4bec-142">The container will return a one-off table that lists all of the templates that it supports for creating new entries.</span></span> 
     
-3. <span data-ttu-id="5c075-143">Получите строку, которая представляет шаблон для определенного типа записи, которую требуется создать.</span><span class="sxs-lookup"><span data-stu-id="5c075-143">Retrieve the row that represents the template for the particular type of entry you want to create.</span></span> <span data-ttu-id="5c075-144">В столбце **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) указывается тип адреса, который поддерживается в шаблоне.</span><span class="sxs-lookup"><span data-stu-id="5c075-144">The **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) column indicates the address type that is supported by the template.</span></span> 
+3. <span data-ttu-id="e4bec-143">Получите строку, представляющую шаблон для определенного типа записи, которую вы хотите создать.</span><span class="sxs-lookup"><span data-stu-id="e4bec-143">Retrieve the row that represents the template for the particular type of entry you want to create.</span></span> <span data-ttu-id="e4bec-144">В столбце **пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) указывается тип адреса, поддерживаемый шаблоном.</span><span class="sxs-lookup"><span data-stu-id="e4bec-144">The **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) column indicates the address type that is supported by the template.</span></span> 
     
-4. <span data-ttu-id="5c075-145">Вызовите **IMAPISupport::NewEntry** и установите для параметра _lpEIDNewEntryTpl_ значение идентификатор записи выбранного шаблона.</span><span class="sxs-lookup"><span data-stu-id="5c075-145">Call **IMAPISupport::NewEntry** and set the  _lpEIDNewEntryTpl_ parameter to the entry identifier of the selected template.</span></span> <span data-ttu-id="5c075-146">Идентификатор записи — это столбец **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) из шаблона строку в таблице одноразовых.</span><span class="sxs-lookup"><span data-stu-id="5c075-146">The entry identifier is the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column from the template's row in the one-off table.</span></span> <span data-ttu-id="5c075-147">Передайте 0 в _cbEIDContainer_ и NULL в _lpEIDContainer_.</span><span class="sxs-lookup"><span data-stu-id="5c075-147">Pass 0 in  _cbEIDContainer_ and NULL in  _lpEIDContainer_.</span></span> <span data-ttu-id="5c075-148">Передайте допустимый указатель в параметре _lppEIDNewEntry_ , если вы хотите сохранить идентификатор записи новую запись.</span><span class="sxs-lookup"><span data-stu-id="5c075-148">Pass a valid pointer in the  _lppEIDNewEntry_ parameter if you want to retain the new entry's entry identifier.</span></span> 
+4. <span data-ttu-id="e4bec-145">Call **имаписуппорт:: невентри** и задайте для параметра _лпеидневентритпл_ идентификатор записи выбранного шаблона.</span><span class="sxs-lookup"><span data-stu-id="e4bec-145">Call **IMAPISupport::NewEntry** and set the  _lpEIDNewEntryTpl_ parameter to the entry identifier of the selected template.</span></span> <span data-ttu-id="e4bec-146">Идентификатор записи — это столбец **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)) из строки шаблона в односторонней таблице.</span><span class="sxs-lookup"><span data-stu-id="e4bec-146">The entry identifier is the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column from the template's row in the one-off table.</span></span> <span data-ttu-id="e4bec-147">В _кбеидконтаинер_ передается значение 0, а в _лпеидконтаинер_— null.</span><span class="sxs-lookup"><span data-stu-id="e4bec-147">Pass 0 in  _cbEIDContainer_ and NULL in  _lpEIDContainer_.</span></span> <span data-ttu-id="e4bec-148">Если требуется сохранить идентификатор записи нового элемента, переДается допустимый указатель в параметре _лппеидневентри_ .</span><span class="sxs-lookup"><span data-stu-id="e4bec-148">Pass a valid pointer in the  _lppEIDNewEntry_ parameter if you want to retain the new entry's entry identifier.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="5c075-149">См. также</span><span class="sxs-lookup"><span data-stu-id="5c075-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e4bec-149">См. также</span><span class="sxs-lookup"><span data-stu-id="e4bec-149">See also</span></span>
 
 
 
-[<span data-ttu-id="5c075-150">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="5c075-150">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
+[<span data-ttu-id="e4bec-150">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="e4bec-150">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
   
-[<span data-ttu-id="5c075-151">IMAPISupport::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="5c075-151">IMAPISupport::OpenEntry</span></span>](imapisupport-openentry.md)
+[<span data-ttu-id="e4bec-151">IMAPISupport::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="e4bec-151">IMAPISupport::OpenEntry</span></span>](imapisupport-openentry.md)
   
-[<span data-ttu-id="5c075-152">Каноническое свойство PidTagCreateTemplates</span><span class="sxs-lookup"><span data-stu-id="5c075-152">PidTagCreateTemplates Canonical Property</span></span>](pidtagcreatetemplates-canonical-property.md)
+[<span data-ttu-id="e4bec-152">Каноническое свойство PidTagCreateTemplates</span><span class="sxs-lookup"><span data-stu-id="e4bec-152">PidTagCreateTemplates Canonical Property</span></span>](pidtagcreatetemplates-canonical-property.md)
   
-[<span data-ttu-id="5c075-153">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="5c075-153">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="e4bec-153">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="e4bec-153">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

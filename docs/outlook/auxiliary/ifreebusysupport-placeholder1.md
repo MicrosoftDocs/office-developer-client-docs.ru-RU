@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dfb3bca5-5f51-9868-e4f6-e4a94006585d
-description: Этот член — это и не поддерживается.
-ms.openlocfilehash: 71fe758170d1c0c48bab75f7af0a3582a6c3de8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Этот элемент является заполнителем и не поддерживается.
+ms.openlocfilehash: ef07ea8d01c34fe9c1454cee3baa4dbb7d5adc71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317516"
 ---
-# <a name="ifreebusysupportplaceholder1"></a><span data-ttu-id="77599-103">IFreeBusySupport::Placeholder1</span><span class="sxs-lookup"><span data-stu-id="77599-103">IFreeBusySupport::Placeholder1</span></span>
+# <a name="ifreebusysupportplaceholder1"></a><span data-ttu-id="0ad76-103">IFreeBusySupport::Placeholder1</span><span class="sxs-lookup"><span data-stu-id="0ad76-103">IFreeBusySupport::Placeholder1</span></span>
 
-<span data-ttu-id="77599-104">Этот член — это и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="77599-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="0ad76-104">Этот элемент является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="0ad76-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="77599-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="77599-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="0ad76-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="0ad76-105">Quick info</span></span>
 
-<span data-ttu-id="77599-106">В разделе [IFreeBusySupport](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="77599-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="0ad76-106">Обратитесь к разделу [ифрибусисуппорт](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="0ad76-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder1( 
@@ -31,12 +31,12 @@ HRESULT Placeholder1(
 
 ```
 
-## <a name="return-values"></a><span data-ttu-id="77599-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="77599-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0ad76-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="0ad76-107">Return values</span></span>
 
-<span data-ttu-id="77599-108">ЗНАЧЕНИЕ S_OK</span><span class="sxs-lookup"><span data-stu-id="77599-108">S_OK</span></span>
+<span data-ttu-id="0ad76-108">S_OK</span><span class="sxs-lookup"><span data-stu-id="0ad76-108">S_OK</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="77599-109">См. также</span><span class="sxs-lookup"><span data-stu-id="77599-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0ad76-109">См. также</span><span class="sxs-lookup"><span data-stu-id="0ad76-109">See also</span></span>
 
-- [<span data-ttu-id="77599-110">Константы (занятости API)</span><span class="sxs-lookup"><span data-stu-id="77599-110">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="77599-111">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="77599-111">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
+- [<span data-ttu-id="0ad76-110">Константы (API сведений о доступности)</span><span class="sxs-lookup"><span data-stu-id="0ad76-110">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="0ad76-111">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="0ad76-111">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
 

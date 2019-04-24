@@ -1,5 +1,5 @@
 ---
-title: IMsgServiceAdminCreateMsgService
+title: Имсгсервицеадминкреатемсгсервице
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7c649680d1d04e210ac4d90779e9a4e57aaab25a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e7d30c1aba8ddc1419045c1caa8524f7d2063dc5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317402"
 ---
-# <a name="imsgserviceadmincreatemsgservice"></a><span data-ttu-id="15f6d-103">IMsgServiceAdmin::CreateMsgService</span><span class="sxs-lookup"><span data-stu-id="15f6d-103">IMsgServiceAdmin::CreateMsgService</span></span>
+# <a name="imsgserviceadmincreatemsgservice"></a><span data-ttu-id="51b0a-103">IMsgServiceAdmin::CreateMsgService</span><span class="sxs-lookup"><span data-stu-id="51b0a-103">IMsgServiceAdmin::CreateMsgService</span></span>
 
   
   
-<span data-ttu-id="15f6d-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="15f6d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="51b0a-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="51b0a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="15f6d-105">Устаревшие: Рекомендуется использовать [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) .</span><span class="sxs-lookup"><span data-stu-id="15f6d-105">Deprecated: The use of [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) is recommended.</span></span> <span data-ttu-id="15f6d-106">Добавление службы сообщений для текущего профиля.</span><span class="sxs-lookup"><span data-stu-id="15f6d-106">Adds a message service to the current profile.</span></span> 
+<span data-ttu-id="51b0a-105">Устаревший: рекомендуется использовать [IMsgServiceAdmin2:: креатемсгсервицеекс](imsgserviceadmin2-createmsgserviceex.md) .</span><span class="sxs-lookup"><span data-stu-id="51b0a-105">Deprecated: The use of [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) is recommended.</span></span> <span data-ttu-id="51b0a-106">Добавляет службу сообщений в текущий профиль.</span><span class="sxs-lookup"><span data-stu-id="51b0a-106">Adds a message service to the current profile.</span></span> 
   
 ```cpp
 HRESULT CreateMsgService(
@@ -36,92 +36,92 @@ HRESULT CreateMsgService(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="15f6d-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="15f6d-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="51b0a-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="51b0a-107">Parameters</span></span>
 
- <span data-ttu-id="15f6d-108">_lpszService_</span><span class="sxs-lookup"><span data-stu-id="15f6d-108">_lpszService_</span></span>
+ <span data-ttu-id="51b0a-108">_Лпсзсервице_</span><span class="sxs-lookup"><span data-stu-id="51b0a-108">_lpszService_</span></span>
   
-> <span data-ttu-id="15f6d-109">[in] Указатель на имя службы сообщений для добавления.</span><span class="sxs-lookup"><span data-stu-id="15f6d-109">[in] A pointer to the name of the message service to add.</span></span> <span data-ttu-id="15f6d-110">Это имя службы сообщений, которые должны встречаться в разделе **[Services]** файла MapiSvc.inf.</span><span class="sxs-lookup"><span data-stu-id="15f6d-110">This message service name must appear in the **[Services]** section of the MapiSvc.inf file.</span></span> 
+> <span data-ttu-id="51b0a-109">возврата Указатель на имя добавляемой службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="51b0a-109">[in] A pointer to the name of the message service to add.</span></span> <span data-ttu-id="51b0a-110">Это имя службы сообщений должно отображаться в разделе **[Services]** файла MapiSvc. INF.</span><span class="sxs-lookup"><span data-stu-id="51b0a-110">This message service name must appear in the **[Services]** section of the MapiSvc.inf file.</span></span> 
     
- <span data-ttu-id="15f6d-111">_lpszDisplayName_</span><span class="sxs-lookup"><span data-stu-id="15f6d-111">_lpszDisplayName_</span></span>
+ <span data-ttu-id="51b0a-111">_Лпсздисплайнаме_</span><span class="sxs-lookup"><span data-stu-id="51b0a-111">_lpszDisplayName_</span></span>
   
-> <span data-ttu-id="15f6d-112">[in] Указатель на отображаемое имя службы сообщений для добавления.</span><span class="sxs-lookup"><span data-stu-id="15f6d-112">[in] A pointer to the display name of the message service to add.</span></span> <span data-ttu-id="15f6d-113">Параметр _lpszDisplayName_ игнорируется, если служба сообщений значение свойства **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) в файле MapiSvc.inf.</span><span class="sxs-lookup"><span data-stu-id="15f6d-113">The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.</span></span>
+> <span data-ttu-id="51b0a-112">возврата Указатель на отображаемое имя добавляемой службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="51b0a-112">[in] A pointer to the display name of the message service to add.</span></span> <span data-ttu-id="51b0a-113">Параметр _лпсздисплайнаме_ игнорируется, если в службе сообщений в файле MapiSvc. INF задано свойство **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="51b0a-113">The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.</span></span>
     
- <span data-ttu-id="15f6d-114">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="15f6d-114">_ulUIParam_</span></span>
+ <span data-ttu-id="51b0a-114">_Улуипарам_</span><span class="sxs-lookup"><span data-stu-id="51b0a-114">_ulUIParam_</span></span>
   
-> <span data-ttu-id="15f6d-115">[in] Дескриптор родительского окна из диалоговых окон и windows отображает этот метод.</span><span class="sxs-lookup"><span data-stu-id="15f6d-115">[in] A handle to the parent window of any dialog boxes or windows this method displays.</span></span>
+> <span data-ttu-id="51b0a-115">возврата Дескриптор родительского окна любых диалоговых окон или окон, которые отображает этот метод.</span><span class="sxs-lookup"><span data-stu-id="51b0a-115">[in] A handle to the parent window of any dialog boxes or windows this method displays.</span></span>
     
- <span data-ttu-id="15f6d-116">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="15f6d-116">_ulFlags_</span></span>
+ <span data-ttu-id="51b0a-116">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="51b0a-116">_ulFlags_</span></span>
   
-> <span data-ttu-id="15f6d-117">[in] Битовая маска флаги, который определяет способ установки службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="15f6d-117">[in] A bitmask of flags that controls how the message service is installed.</span></span> <span data-ttu-id="15f6d-118">Можно задать следующие флажки:</span><span class="sxs-lookup"><span data-stu-id="15f6d-118">The following flags can be set:</span></span>
+> <span data-ttu-id="51b0a-117">возврата Битовая маска флагов, определяющих способ установки службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="51b0a-117">[in] A bitmask of flags that controls how the message service is installed.</span></span> <span data-ttu-id="51b0a-118">Можно задать следующие флаги:</span><span class="sxs-lookup"><span data-stu-id="51b0a-118">The following flags can be set:</span></span>
     
-<span data-ttu-id="15f6d-119">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="15f6d-119">MAPI_UNICODE</span></span>
+<span data-ttu-id="51b0a-119">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="51b0a-119">MAPI_UNICODE</span></span>
   
-> <span data-ttu-id="15f6d-120">Параметры lpszDisplayName и lpszService должен привести к LPWSTR и как строк в кодировке Юникод.</span><span class="sxs-lookup"><span data-stu-id="15f6d-120">The lpszService and the lpszDisplayName parameters should be cast to LPWSTR and interpreted as Unicode strings.</span></span>
+> <span data-ttu-id="51b0a-120">Параметры Лпсзсервице и Лпсздисплайнаме должны быть приведены к LPWSTR и интерпретироваться как строки в Юникоде.</span><span class="sxs-lookup"><span data-stu-id="51b0a-120">The lpszService and the lpszDisplayName parameters should be cast to LPWSTR and interpreted as Unicode strings.</span></span>
     
-<span data-ttu-id="15f6d-121">SERVICE_NO_RESTART_WARNING</span><span class="sxs-lookup"><span data-stu-id="15f6d-121">SERVICE_NO_RESTART_WARNING</span></span>
+<span data-ttu-id="51b0a-121">СЕРВИЦЕ_НО_РЕСТАРТ_ВАРНИНГ</span><span class="sxs-lookup"><span data-stu-id="51b0a-121">SERVICE_NO_RESTART_WARNING</span></span>
   
-> <span data-ttu-id="15f6d-122">При добавлении нового сообщения службы профиля, подсистема MAPI на основе различных ситуациях и условия, часто определяет, что это действие требуется для Outlook.</span><span class="sxs-lookup"><span data-stu-id="15f6d-122">When adding a new message service to the profile, the MAPI subsystem, based on various circumstances and criteria, often determines that this action requires a restart of Outlook.</span></span> <span data-ttu-id="15f6d-123">Если флаг SERVICE_NO_RESTART_WARNING не указан и может пользовательского интерфейса — в зависимости от флаги SERVICE_UI_ALWAYS и SERVICE_UI_ALLOWED - и по крайней мере один процесс выполнил вход в систему текущего профиля, эта функция отображает сообщение «необходимо перезапустить Outlook для Эти изменения вступили в силу.»</span><span class="sxs-lookup"><span data-stu-id="15f6d-123">If the SERVICE_NO_RESTART_WARNING flag is not included and UI is allowed - based on the SERVICE_UI_ALWAYS and SERVICE_UI_ALLOWED flags - and at least one process is logged onto the current profile, this function displays the message "You must restart Outlook for these changes to take effect."</span></span> <span data-ttu-id="15f6d-124">Включая флаг SERVICE_NO_RESTART_WARNING подавляет, сообщение с предупреждением.</span><span class="sxs-lookup"><span data-stu-id="15f6d-124">Including the SERVICE_NO_RESTART_WARNING flag suppresses the display of that warning message.</span></span>
+> <span data-ttu-id="51b0a-122">При добавлении новой службы сообщений в профиль подсистема MAPI на основе различных условий и условий часто определяет, что это действие требует перезапуска Outlook.</span><span class="sxs-lookup"><span data-stu-id="51b0a-122">When adding a new message service to the profile, the MAPI subsystem, based on various circumstances and criteria, often determines that this action requires a restart of Outlook.</span></span> <span data-ttu-id="51b0a-123">Если флаг СЕРВИЦЕ_НО_РЕСТАРТ_ВАРНИНГ не включен, а пользовательский интерфейс разрешен на основе флагов СЕРВИЦЕ_УИ_АЛВАЙС и СЕРВИЦЕ_УИ_АЛЛОВЕД, и в текущий профиль записывается по крайней мере один процесс, эта функция отображает сообщение "необходимо перезапустить Outlook для изменения вступят в силу. "</span><span class="sxs-lookup"><span data-stu-id="51b0a-123">If the SERVICE_NO_RESTART_WARNING flag is not included and UI is allowed - based on the SERVICE_UI_ALWAYS and SERVICE_UI_ALLOWED flags - and at least one process is logged onto the current profile, this function displays the message "You must restart Outlook for these changes to take effect."</span></span> <span data-ttu-id="51b0a-124">Включение флага СЕРВИЦЕ_НО_РЕСТАРТ_ВАРНИНГ подавляет отображение этого сообщения.</span><span class="sxs-lookup"><span data-stu-id="51b0a-124">Including the SERVICE_NO_RESTART_WARNING flag suppresses the display of that warning message.</span></span>
     
-<span data-ttu-id="15f6d-125">SERVICE_UI_ALLOWED</span><span class="sxs-lookup"><span data-stu-id="15f6d-125">SERVICE_UI_ALLOWED</span></span>
+<span data-ttu-id="51b0a-125">СЕРВИЦЕ_УИ_АЛЛОВЕД</span><span class="sxs-lookup"><span data-stu-id="51b0a-125">SERVICE_UI_ALLOWED</span></span>
   
-> <span data-ttu-id="15f6d-126">Конфигурация службы сообщения пользовательского интерфейса может при необходимости.</span><span class="sxs-lookup"><span data-stu-id="15f6d-126">The message service configuration UI is allowed if needed.</span></span>
+> <span data-ttu-id="51b0a-126">При необходимости вы можете использовать пользовательский интерфейс настройки службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="51b0a-126">The message service configuration UI is allowed if needed.</span></span>
     
-<span data-ttu-id="15f6d-127">SERVICE_UI_ALWAYS</span><span class="sxs-lookup"><span data-stu-id="15f6d-127">SERVICE_UI_ALWAYS</span></span> 
+<span data-ttu-id="51b0a-127">СЕРВИЦЕ_УИ_АЛВАЙС</span><span class="sxs-lookup"><span data-stu-id="51b0a-127">SERVICE_UI_ALWAYS</span></span> 
   
-> <span data-ttu-id="15f6d-128">Служба сообщений отображается окно свойств конфигурации.</span><span class="sxs-lookup"><span data-stu-id="15f6d-128">The message service displays its configuration property sheet.</span></span>
+> <span data-ttu-id="51b0a-128">Служба сообщений отображает страницу свойств конфигурации.</span><span class="sxs-lookup"><span data-stu-id="51b0a-128">The message service displays its configuration property sheet.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="15f6d-129">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="15f6d-129">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="51b0a-129">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="51b0a-129">Return value</span></span>
 
-<span data-ttu-id="15f6d-130">S_OK</span><span class="sxs-lookup"><span data-stu-id="15f6d-130">S_OK</span></span> 
+<span data-ttu-id="51b0a-130">S_OK</span><span class="sxs-lookup"><span data-stu-id="51b0a-130">S_OK</span></span> 
   
-> <span data-ttu-id="15f6d-131">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="15f6d-131">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="51b0a-131">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="51b0a-131">The call succeeded and has returned the expected value or values.</span></span>
     
-<span data-ttu-id="15f6d-132">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="15f6d-132">MAPI_E_NOT_FOUND</span></span> 
+<span data-ttu-id="51b0a-132">МАПИ_Е_НОТ_ФАУНД</span><span class="sxs-lookup"><span data-stu-id="51b0a-132">MAPI_E_NOT_FOUND</span></span> 
   
-> <span data-ttu-id="15f6d-133">Имя службы сообщение не является в разделе **[Services]** MapiSvc.inf.</span><span class="sxs-lookup"><span data-stu-id="15f6d-133">The message service name is not in the **[Services]** section of MapiSvc.inf.</span></span> 
+> <span data-ttu-id="51b0a-133">Имя службы сообщений не входит в раздел **[Services]** файла MapiSvc. INF.</span><span class="sxs-lookup"><span data-stu-id="51b0a-133">The message service name is not in the **[Services]** section of MapiSvc.inf.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="15f6d-134">Замечания</span><span class="sxs-lookup"><span data-stu-id="15f6d-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="51b0a-134">Замечания</span><span class="sxs-lookup"><span data-stu-id="51b0a-134">Remarks</span></span>
 
-<span data-ttu-id="15f6d-135">Метод **IMsgServiceAdmin::CreateMsgService** добавляет службы сообщений для текущего профиля.</span><span class="sxs-lookup"><span data-stu-id="15f6d-135">The **IMsgServiceAdmin::CreateMsgService** method adds a message service to the current profile.</span></span> <span data-ttu-id="15f6d-136">**CreateMsgService** вызывает функцию точки входа службы сообщений для выполнения каких-либо задач конфигурации службы.</span><span class="sxs-lookup"><span data-stu-id="15f6d-136">**CreateMsgService** calls the message service's entry point function to perform any service-specific configuration tasks.</span></span> <span data-ttu-id="15f6d-137">Если в параметре _ulFlags_ флаг SERVICE_UI_ALLOWED, устанавливаемой службы сообщений можно отобразить страницу свойств, чтобы разрешить пользователю настраивать его параметры.</span><span class="sxs-lookup"><span data-stu-id="15f6d-137">If the SERVICE_UI_ALLOWED flag is set in the  _ulFlags_ parameter, the message service being installed can display a property sheet to enable the user to configure its settings.</span></span> 
+<span data-ttu-id="51b0a-135">Метод **имсгсервицеадмин:: креатемсгсервице** добавляет службу сообщений в текущий профиль.</span><span class="sxs-lookup"><span data-stu-id="51b0a-135">The **IMsgServiceAdmin::CreateMsgService** method adds a message service to the current profile.</span></span> <span data-ttu-id="51b0a-136">**Креатемсгсервице** вызывает функцию точки входа службы сообщений для выполнения определенных задач по настройке служб.</span><span class="sxs-lookup"><span data-stu-id="51b0a-136">**CreateMsgService** calls the message service's entry point function to perform any service-specific configuration tasks.</span></span> <span data-ttu-id="51b0a-137">Если в параметре _ulFlags_ ЗАДАН флаг сервице_уи_алловед, устанавливаемая служба сообщений может отображать страницу свойств, позволяющую пользователю настраивать его параметры.</span><span class="sxs-lookup"><span data-stu-id="51b0a-137">If the SERVICE_UI_ALLOWED flag is set in the  _ulFlags_ parameter, the message service being installed can display a property sheet to enable the user to configure its settings.</span></span> 
   
-<span data-ttu-id="15f6d-138">Файла MapiSvc.inf содержит список поставщиков, которые составляют службы сообщений и свойства для каждого из них.</span><span class="sxs-lookup"><span data-stu-id="15f6d-138">The MapiSvc.inf file contains the list of providers that make up a message service and the properties for each.</span></span> <span data-ttu-id="15f6d-139">**CreateMsgService** сначала создается новый раздел профиля для службы сообщений и затем копирует все данные для этой службы из файла MapiSvc.inf в профиль, создание новых раздела для каждого поставщика.</span><span class="sxs-lookup"><span data-stu-id="15f6d-139">**CreateMsgService** first creates a new profile section for the message service and then copies all of the information for that service from the MapiSvc.inf file into the profile, creating new sections for each provider.</span></span> 
+<span data-ttu-id="51b0a-138">Файл MapiSvc. inf содержит список поставщиков, которые составляют службу сообщений и свойства для каждого из них.</span><span class="sxs-lookup"><span data-stu-id="51b0a-138">The MapiSvc.inf file contains the list of providers that make up a message service and the properties for each.</span></span> <span data-ttu-id="51b0a-139">**Креатемсгсервице** сначала создает новый раздел профиля для службы сообщений, а затем копирует все сведения для этой службы из файла MapiSvc. INF в профиль, создавая новые разделы для каждого поставщика.</span><span class="sxs-lookup"><span data-stu-id="51b0a-139">**CreateMsgService** first creates a new profile section for the message service and then copies all of the information for that service from the MapiSvc.inf file into the profile, creating new sections for each provider.</span></span> 
   
-<span data-ttu-id="15f6d-140">После копирования всей информации из MapiSvc.inf функции точки входа службы сообщений вызывается с MSG_SERVICE_CREATE значение, установленное в параметре _ulContext_ .</span><span class="sxs-lookup"><span data-stu-id="15f6d-140">After all the information has been copied from MapiSvc.inf, the message service's entry point function is called with the MSG_SERVICE_CREATE value set in the  _ulContext_ parameter.</span></span> <span data-ttu-id="15f6d-141">Если флаг SERVICE_UI_ALLOWED установлен в параметре _ulFlags_ метод **CreateMsgService** , в параметрах _ulUIParam_ и _ulFlags_ также передаются значения при вызове функции точки входа службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="15f6d-141">If the SERVICE_UI_ALLOWED flag is set in the **CreateMsgService** method's  _ulFlags_ parameter, the values in the  _ulUIParam_ and  _ulFlags_ parameters are also passed when the message service's entry point function is called.</span></span> <span data-ttu-id="15f6d-142">Поставщиков услуг должны отображать свойств их конфигурации, поэтому пользователи могут настраивать службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="15f6d-142">Service providers should display their configuration property sheets so users can configure the message service.</span></span> 
+<span data-ttu-id="51b0a-140">После того как все данные будут скопированы из MapiSvc. INF, функция точки входа службы сообщений вызывается со значением МСГ_СЕРВИЦЕ_КРЕАТЕ, установленным в параметре _улконтекст_ .</span><span class="sxs-lookup"><span data-stu-id="51b0a-140">After all the information has been copied from MapiSvc.inf, the message service's entry point function is called with the MSG_SERVICE_CREATE value set in the  _ulContext_ parameter.</span></span> <span data-ttu-id="51b0a-141">Если в параметре _ulFlags_ метода **КРЕАТЕМСГСЕРВИЦЕ** задан флаг сервице_уи_алловед, значения в параметрах _улуипарам_ и _ulFlags_ также передаются при вызове функции точки входа службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="51b0a-141">If the SERVICE_UI_ALLOWED flag is set in the **CreateMsgService** method's  _ulFlags_ parameter, the values in the  _ulUIParam_ and  _ulFlags_ parameters are also passed when the message service's entry point function is called.</span></span> <span data-ttu-id="51b0a-142">Поставщики услуг должны отображать свои страницы свойств конфигурации, чтобы пользователи могли настраивать службу сообщений.</span><span class="sxs-lookup"><span data-stu-id="51b0a-142">Service providers should display their configuration property sheets so users can configure the message service.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="15f6d-143">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="15f6d-143">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="51b0a-143">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="51b0a-143">Notes to callers</span></span>
 
- <span data-ttu-id="15f6d-144">**CreateMsgService** не возвращает структуру [MAPIUID](mapiuid.md) для службы сообщений, который был добавлен к профилю.</span><span class="sxs-lookup"><span data-stu-id="15f6d-144">**CreateMsgService** does not return the [MAPIUID](mapiuid.md) structure for the message service that was added to the profile.</span></span> 
+ <span data-ttu-id="51b0a-144">**Креатемсгсервице** не возвращает структуру [мапиуид](mapiuid.md) для службы сообщений, которая была добавлена в профиль.</span><span class="sxs-lookup"><span data-stu-id="51b0a-144">**CreateMsgService** does not return the [MAPIUID](mapiuid.md) structure for the message service that was added to the profile.</span></span> 
   
-<span data-ttu-id="15f6d-145">Чтобы получить **MAPIUID** сообщение о создании службы, используйте следующую процедуру:</span><span class="sxs-lookup"><span data-stu-id="15f6d-145">To retrieve the **MAPIUID** for the created message service, use the following procedure:</span></span> 
+<span data-ttu-id="51b0a-145">Чтобы получить **мапиуид** для созданной службы сообщений, используйте следующую процедуру:</span><span class="sxs-lookup"><span data-stu-id="51b0a-145">To retrieve the **MAPIUID** for the created message service, use the following procedure:</span></span> 
   
-1. <span data-ttu-id="15f6d-146">Вызовите метод [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) для получения таблицы администрирования службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="15f6d-146">Call the [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) method to get the message service administration table.</span></span> 
+1. <span data-ttu-id="51b0a-146">ВыЗовите метод [имсгсервицеадмин:: жетмсгсервицетабле](imsgserviceadmin-getmsgservicetable.md) , чтобы получить таблицу администрирования службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="51b0a-146">Call the [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) method to get the message service administration table.</span></span> 
     
-2. <span data-ttu-id="15f6d-147">Найдите строку, которая представляет службы сообщений, установив ограничение в таблице, которая соответствует свойству **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) с именем службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="15f6d-147">Locate the row that represents the message service by placing a restriction on the table that matches the **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) property with the name of the message service.</span></span> 
+2. <span data-ttu-id="51b0a-147">Чтобы определить строку, представляющую службу сообщений, разместите в таблице ограничение, соответствующее свойству **пр_сервице_наме** ([PidTagServiceName](pidtagservicename-canonical-property.md)) с именем службы сообщений.</span><span class="sxs-lookup"><span data-stu-id="51b0a-147">Locate the row that represents the message service by placing a restriction on the table that matches the **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) property with the name of the message service.</span></span> 
     
-3. <span data-ttu-id="15f6d-148">Получение свойств службы **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="15f6d-148">Retrieve the service's **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property.</span></span> 
+3. <span data-ttu-id="51b0a-148">Получите свойство **пр_сервице_уид** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) службы.</span><span class="sxs-lookup"><span data-stu-id="51b0a-148">Retrieve the service's **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property.</span></span> 
     
-4. <span data-ttu-id="15f6d-149">Передайте значение свойства **PR_SERVICE_UID** с помощью параметра _lpUid_ методу [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) , чтобы настроить службу.</span><span class="sxs-lookup"><span data-stu-id="15f6d-149">Pass the value of the **PR_SERVICE_UID** property in the  _lpUid_ parameter to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method to configure the service.</span></span> 
+4. <span data-ttu-id="51b0a-149">Передайте значение свойства **пр_сервице_уид** в параметре _Лпуид_ в метод [имсгсервицеадмин:: конфигуремсгсервице](imsgserviceadmin-configuremsgservice.md) для настройки службы.</span><span class="sxs-lookup"><span data-stu-id="51b0a-149">Pass the value of the **PR_SERVICE_UID** property in the  _lpUid_ parameter to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method to configure the service.</span></span> 
     
 > [!CAUTION]
-> <span data-ttu-id="15f6d-150">Реализация Microsoft Outlook 2010 подсистемы MAPI не поддерживает MAPI_UNICODE и завершится ошибкой, если она используется.</span><span class="sxs-lookup"><span data-stu-id="15f6d-150">The Microsoft Outlook 2010 implementation of the MAPI subsystem does not support MAPI_UNICODE and will fail if it is used.</span></span> 
+> <span data-ttu-id="51b0a-150">Реализация подсистемы MAPI для Microsoft Outlook 2010 не поддерживает МАПИ_УНИКОДЕ и не будет работать, если она используется.</span><span class="sxs-lookup"><span data-stu-id="51b0a-150">The Microsoft Outlook 2010 implementation of the MAPI subsystem does not support MAPI_UNICODE and will fail if it is used.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="15f6d-151">_UlFlags_ SERVICE_NO_RESTART_WARNING не могут быть определены в файле загружаемых заголовка в настоящий момент, в этом случае можно добавить его в код с помощью следующее значение: >`#define SERVICE_NO_RESTART_WARNING 0x00000080`</span><span class="sxs-lookup"><span data-stu-id="15f6d-151">The  _ulFlags_ SERVICE_NO_RESTART_WARNING might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following value: >  `#define SERVICE_NO_RESTART_WARNING 0x00000080`</span></span>
+> <span data-ttu-id="51b0a-151">_UlFlags_ сервице_но_рестарт_варнинг может быть не определен в текущем загружаемом файле заголовке, в таком случае его можно добавить в код, используя следующее значение: _гт_`#define SERVICE_NO_RESTART_WARNING 0x00000080`</span><span class="sxs-lookup"><span data-stu-id="51b0a-151">The  _ulFlags_ SERVICE_NO_RESTART_WARNING might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following value: >  `#define SERVICE_NO_RESTART_WARNING 0x00000080`</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="15f6d-152">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="15f6d-152">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="51b0a-152">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="51b0a-152">MFCMAPI reference</span></span>
 
-<span data-ttu-id="15f6d-153">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="15f6d-153">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="51b0a-153">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="51b0a-153">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="15f6d-154">**Файл**</span><span class="sxs-lookup"><span data-stu-id="15f6d-154">**File**</span></span>|<span data-ttu-id="15f6d-155">**Функция**</span><span class="sxs-lookup"><span data-stu-id="15f6d-155">**Function**</span></span>|<span data-ttu-id="15f6d-156">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="15f6d-156">**Comment**</span></span>|
+|<span data-ttu-id="51b0a-154">**Файл**</span><span class="sxs-lookup"><span data-stu-id="51b0a-154">**File**</span></span>|<span data-ttu-id="51b0a-155">**Функция**</span><span class="sxs-lookup"><span data-stu-id="51b0a-155">**Function**</span></span>|<span data-ttu-id="51b0a-156">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="51b0a-156">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="15f6d-157">MAPIProfileFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="15f6d-157">MAPIProfileFunctions.cpp</span></span>  <br/> |<span data-ttu-id="15f6d-158">HrAddServiceToProfile</span><span class="sxs-lookup"><span data-stu-id="15f6d-158">HrAddServiceToProfile</span></span>  <br/> |<span data-ttu-id="15f6d-159">Mfcmapi (en) использует метод **IMsgServiceAdmin::CreateMsgService** для добавления в профиль службы.</span><span class="sxs-lookup"><span data-stu-id="15f6d-159">MFCMAPI uses the **IMsgServiceAdmin::CreateMsgService** method to add a service to a profile.</span></span>  <br/> |
+|<span data-ttu-id="51b0a-157">Мапипрофилефунктионс. cpp</span><span class="sxs-lookup"><span data-stu-id="51b0a-157">MAPIProfileFunctions.cpp</span></span>  <br/> |<span data-ttu-id="51b0a-158">Храддсервицетопрофиле</span><span class="sxs-lookup"><span data-stu-id="51b0a-158">HrAddServiceToProfile</span></span>  <br/> |<span data-ttu-id="51b0a-159">MFCMAPI использует метод **имсгсервицеадмин:: креатемсгсервице** , чтобы добавить службу в профиль.</span><span class="sxs-lookup"><span data-stu-id="51b0a-159">MFCMAPI uses the **IMsgServiceAdmin::CreateMsgService** method to add a service to a profile.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="15f6d-160">См. также</span><span class="sxs-lookup"><span data-stu-id="15f6d-160">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="51b0a-160">См. также</span><span class="sxs-lookup"><span data-stu-id="51b0a-160">See also</span></span>
 
 
 
-[<span data-ttu-id="15f6d-161">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="15f6d-161">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
+[<span data-ttu-id="51b0a-161">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="51b0a-161">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
 
 
-[<span data-ttu-id="15f6d-162">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="15f6d-162">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="51b0a-162">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="51b0a-162">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

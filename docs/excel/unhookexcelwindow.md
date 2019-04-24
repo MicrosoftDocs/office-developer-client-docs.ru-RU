@@ -7,48 +7,48 @@ ms.topic: reference
 f1_keywords:
 - UnhookExcelWindow
 keywords:
-- функция unhookexcelwindow
+- Функция унхукексцелвиндов
 localization_priority: Normal
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 7b70bf4ed0ff45921df407605baa692c7621bca4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aef2734aeb4d9cf5df33e3d012cef309e8a1eb6e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310313"
 ---
-# <a name="unhookexcelwindow"></a><span data-ttu-id="284b2-104">UnhookExcelWindow</span><span class="sxs-lookup"><span data-stu-id="284b2-104">UnhookExcelWindow</span></span>
+# <a name="unhookexcelwindow"></a><span data-ttu-id="412d1-104">UnhookExcelWindow</span><span class="sxs-lookup"><span data-stu-id="412d1-104">UnhookExcelWindow</span></span>
 
- <span data-ttu-id="284b2-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="284b2-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="412d1-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="412d1-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="284b2-106">Удаляет **ExcelCursorProc** , которая ранее была установлена **HookExcelWindow**.</span><span class="sxs-lookup"><span data-stu-id="284b2-106">Removes the **ExcelCursorProc** that was previously installed by **HookExcelWindow**.</span></span> <span data-ttu-id="284b2-107">Это может быть сделано, чтобы **ExcelCursorProc** вызван перед основной Microsoft Excel **WndProc**.</span><span class="sxs-lookup"><span data-stu-id="284b2-107">This would have been done so that **ExcelCursorProc** was called before the Microsoft Excel main **WndProc**.</span></span>
+<span data-ttu-id="412d1-106">Удаляет **ексцелкурсорпрок** , ранее установленный с помощью **хукексцелвиндов**.</span><span class="sxs-lookup"><span data-stu-id="412d1-106">Removes the **ExcelCursorProc** that was previously installed by **HookExcelWindow**.</span></span> <span data-ttu-id="412d1-107">Это было бы сделано таким образом, что **ексцелкурсорпрок** вызывался до основного **WndProc**Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="412d1-107">This would have been done so that **ExcelCursorProc** was called before the Microsoft Excel main **WndProc**.</span></span>
   
 ```cs
 extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="284b2-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="284b2-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="412d1-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="412d1-108">Parameters</span></span>
 
- <span data-ttu-id="284b2-109">_hWndExcel_ (**ОБРАБАТЫВАТЬ**)</span><span class="sxs-lookup"><span data-stu-id="284b2-109">_hWndExcel_ (**HANDLE**)</span></span>
+ <span data-ttu-id="412d1-109">_хвндексцел_ (**Handle**)</span><span class="sxs-lookup"><span data-stu-id="412d1-109">_hWndExcel_ (**HANDLE**)</span></span>
   
-<span data-ttu-id="284b2-110">Обработка форма главных окон Excel.</span><span class="sxs-lookup"><span data-stu-id="284b2-110">The Excel main Windows handle.</span></span>
+<span data-ttu-id="412d1-110">Основной дескриптор Windows Excel.</span><span class="sxs-lookup"><span data-stu-id="412d1-110">The Excel main Windows handle.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="284b2-111">Значение свойства или возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="284b2-111">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="412d1-111">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="412d1-111">Property value/Return value</span></span>
 
-<span data-ttu-id="284b2-112">Функция не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="284b2-112">The function does not return a value.</span></span>
+<span data-ttu-id="412d1-112">Функция не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="412d1-112">The function does not return a value.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="284b2-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="284b2-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="412d1-113">Замечания</span><span class="sxs-lookup"><span data-stu-id="412d1-113">Remarks</span></span>
 
-<span data-ttu-id="284b2-114">Эта функция восстанавливает Excel по умолчанию **WndProc** использование **SetWindowLong()** для восстановления адрес, который был сохранен с **HookExcelWindow()**.</span><span class="sxs-lookup"><span data-stu-id="284b2-114">This function restores the Excel default **WndProc** using **SetWindowLong()** to restore the address that was saved by **HookExcelWindow()**.</span></span>
+<span data-ttu-id="412d1-114">Эта функция восстанавливает значение по умолчанию для Excel **WndProc** с помощью **сетвиндовлонг ()** , чтобы восстановить адрес, сохраненный в **хукексцелвиндов ()**.</span><span class="sxs-lookup"><span data-stu-id="412d1-114">This function restores the Excel default **WndProc** using **SetWindowLong()** to restore the address that was saved by **HookExcelWindow()**.</span></span>
   
-### <a name="example"></a><span data-ttu-id="284b2-115">Пример</span><span class="sxs-lookup"><span data-stu-id="284b2-115">Example</span></span>
+### <a name="example"></a><span data-ttu-id="412d1-115">Пример</span><span class="sxs-lookup"><span data-stu-id="412d1-115">Example</span></span>
 
-<span data-ttu-id="284b2-116">Просмотреть `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции.</span><span class="sxs-lookup"><span data-stu-id="284b2-116">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
+<span data-ttu-id="412d1-116">Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе.</span><span class="sxs-lookup"><span data-stu-id="412d1-116">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="284b2-117">См. также</span><span class="sxs-lookup"><span data-stu-id="284b2-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="412d1-117">См. также</span><span class="sxs-lookup"><span data-stu-id="412d1-117">See also</span></span>
 
 
 
-[<span data-ttu-id="284b2-118">Функции из универсальной библиотеки DLL</span><span class="sxs-lookup"><span data-stu-id="284b2-118">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
+[<span data-ttu-id="412d1-118">Функции в универсальной библиотеке DLL</span><span class="sxs-lookup"><span data-stu-id="412d1-118">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
 
