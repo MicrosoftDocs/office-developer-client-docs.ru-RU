@@ -1,5 +1,5 @@
 ---
-title: Преобразование в XSLT
+title: XSLT Transformations
 TOCTitle: XSLT Transformations
 ms:assetid: 6a19310d-027f-e8d6-9859-0b545ae7e2f1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249418(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7120ec08a6a222293fc53c5a98f62c50fd5b3621
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302473"
 ---
-# <a name="xslt-transformations"></a><span data-ttu-id="a8635-102">XSLT</span><span class="sxs-lookup"><span data-stu-id="a8635-102">XSLT transformations</span></span>
+# <a name="xslt-transformations"></a><span data-ttu-id="2e262-102">XSLT</span><span class="sxs-lookup"><span data-stu-id="2e262-102">XSLT transformations</span></span>
 
 
-<span data-ttu-id="a8635-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a8635-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2e262-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e262-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="xslt-transformations"></a><span data-ttu-id="a8635-104">Преобразование в XSLT</span><span class="sxs-lookup"><span data-stu-id="a8635-104">XSLT Transformations</span></span>
+## <a name="xslt-transformations"></a><span data-ttu-id="2e262-104">XSLT Transformations</span><span class="sxs-lookup"><span data-stu-id="2e262-104">XSLT Transformations</span></span>
 
-<span data-ttu-id="a8635-105">XSLT может применяться к созданным XML для преобразования в другой формат.</span><span class="sxs-lookup"><span data-stu-id="a8635-105">XSLT can be applied to the generated XML to transform it into another format.</span></span> <span data-ttu-id="a8635-106">Общие сведения о формате XML в ADO помогает при разработке XSLT-шаблонов, которые можно преобразовать в форме удобства работы.</span><span class="sxs-lookup"><span data-stu-id="a8635-106">Understanding the XML format in ADO helps in developing XSLT templates that can transform it into a more user-friendly form.</span></span>
+<span data-ttu-id="2e262-105">XSLT можно применять к созданному XML-коду, чтобы преобразовать его в другой формат.</span><span class="sxs-lookup"><span data-stu-id="2e262-105">XSLT can be applied to the generated XML to transform it into another format.</span></span> <span data-ttu-id="2e262-106">Общие сведения о формате XML в ADO помогают разрабатывать шаблоны XSLT, которые могут преобразовать его в более удобное для пользователя форму.</span><span class="sxs-lookup"><span data-stu-id="2e262-106">Understanding the XML format in ADO helps in developing XSLT templates that can transform it into a more user-friendly form.</span></span>
 
-<span data-ttu-id="a8635-107">Например известно, что каждой строки **набора записей** сохраняется как элемент z: строки внутри элемента rs: данные.</span><span class="sxs-lookup"><span data-stu-id="a8635-107">For example, you know that each row of the **Recordset** is saved as the z:row element inside the rs:data element.</span></span> <span data-ttu-id="a8635-108">Аналогично каждого поля **набора записей** сохраняется в виде пара значение атрибута для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="a8635-108">Similarly, each field of the **Recordset** is saved as an attribute-value pair for this element.</span></span>
+<span data-ttu-id="2e262-107">Например, вы знаете, что каждая строка **набора записей** сохранена в элементе з:ров в элементе RS: Data.</span><span class="sxs-lookup"><span data-stu-id="2e262-107">For example, you know that each row of the **Recordset** is saved as the z:row element inside the rs:data element.</span></span> <span data-ttu-id="2e262-108">Аналогично, каждое поле **набора записей** сохраняется как запись Attribute-Value для этого элемента.</span><span class="sxs-lookup"><span data-stu-id="2e262-108">Similarly, each field of the **Recordset** is saved as an attribute-value pair for this element.</span></span>
 
-<span data-ttu-id="a8635-109">Приведенный ниже сценарий XSLT может применяться к XML, показано в предыдущем разделе, для преобразования в HTML-таблицы для отображения в браузере:</span><span class="sxs-lookup"><span data-stu-id="a8635-109">The following XSLT script can be applied to the XML shown in the previous section to transform it into an HTML table to be displayed in the browser:</span></span>
+<span data-ttu-id="2e262-109">Приведенный ниже скрипт XSLT можно применить к XML-коду, приведенному в предыдущем разделе, чтобы преобразовать его в HTML-таблицу для отображения в браузере:</span><span class="sxs-lookup"><span data-stu-id="2e262-109">The following XSLT script can be applied to the XML shown in the previous section to transform it into an HTML table to be displayed in the browser:</span></span>
 
 ```xml 
  
@@ -52,5 +52,5 @@ ms.locfileid: "28722601"
 </html> 
 ```
 
-<span data-ttu-id="a8635-110">Преобразования XSLT преобразует поток XML, созданные с помощью метода ADO **Сохранить** в таблицу HTML, в котором отображаются все поля **набора записей** , а также заголовка таблицы.</span><span class="sxs-lookup"><span data-stu-id="a8635-110">The XSLT converts the XML stream generated by the ADO **Save** method into an HTML table which displays each field of the **Recordset** along with a table heading.</span></span> <span data-ttu-id="a8635-111">В таблице заголовки строк также назначаются и различных шрифтов и цвета.</span><span class="sxs-lookup"><span data-stu-id="a8635-111">Table headings and rows also are assigned different fonts and colors.</span></span>
+<span data-ttu-id="2e262-110">XSLT преобразует поток XML, созданный методом **сохранения** ADO, в HTML-таблицу, которая отображает каждое поле **набора записей** вместе с заголовком таблицы.</span><span class="sxs-lookup"><span data-stu-id="2e262-110">The XSLT converts the XML stream generated by the ADO **Save** method into an HTML table which displays each field of the **Recordset** along with a table heading.</span></span> <span data-ttu-id="2e262-111">Для заголовков и строк таблицы также назначаются различные шрифты и цвета.</span><span class="sxs-lookup"><span data-stu-id="2e262-111">Table headings and rows also are assigned different fonts and colors.</span></span>
 

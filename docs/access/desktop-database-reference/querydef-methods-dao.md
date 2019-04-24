@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 51db80f5bfd19e404cad8ed893ec961c986c769d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301038"
 ---
-# <a name="querydef-methods-dao"></a><span data-ttu-id="9935a-102">Методы QueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="9935a-102">QueryDef methods (DAO)</span></span>
+# <a name="querydef-methods-dao"></a><span data-ttu-id="93d1d-102">Методы QueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="93d1d-102">QueryDef methods (DAO)</span></span>
 
-<span data-ttu-id="9935a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9935a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="93d1d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93d1d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9935a-104">Метод QueryDef.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="9935a-104">QueryDef.Cancel method (DAO)</span></span>](querydef-cancel-method-dao.md)
-- [<span data-ttu-id="9935a-105">Метод QueryDef.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="9935a-105">QueryDef.Close method (DAO)</span></span>](querydef-close-method-dao.md)
-- [<span data-ttu-id="9935a-106">Метод QueryDef.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="9935a-106">QueryDef.CreateProperty method (DAO)</span></span>](querydef-createproperty-method-dao.md)
-- [<span data-ttu-id="9935a-107">Метод QueryDef.Execute (DAO)</span><span class="sxs-lookup"><span data-stu-id="9935a-107">QueryDef.Execute method (DAO)</span></span>](querydef-execute-method-dao.md)
-- [<span data-ttu-id="9935a-108">Метод QueryDef.OpenRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="9935a-108">QueryDef.OpenRecordset method (DAO)</span></span>](querydef-openrecordset-method-dao.md)
+- [<span data-ttu-id="93d1d-104">Метод QueryDef. Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="93d1d-104">QueryDef.Cancel method (DAO)</span></span>](querydef-cancel-method-dao.md)
+- [<span data-ttu-id="93d1d-105">Метод QueryDef. Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="93d1d-105">QueryDef.Close method (DAO)</span></span>](querydef-close-method-dao.md)
+- [<span data-ttu-id="93d1d-106">Метод QueryDef. CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="93d1d-106">QueryDef.CreateProperty method (DAO)</span></span>](querydef-createproperty-method-dao.md)
+- [<span data-ttu-id="93d1d-107">Метод QueryDef. Execute (DAO)</span><span class="sxs-lookup"><span data-stu-id="93d1d-107">QueryDef.Execute method (DAO)</span></span>](querydef-execute-method-dao.md)
+- [<span data-ttu-id="93d1d-108">Метод QueryDef.OpenRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="93d1d-108">QueryDef.OpenRecordset method (DAO)</span></span>](querydef-openrecordset-method-dao.md)
 

@@ -8,49 +8,49 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 515d28f0d7d99359c36df79cf3b8769d8f71e06d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301283"
 ---
-# <a name="properties-collection-dao"></a><span data-ttu-id="88722-102">Коллекция Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="88722-102">Properties collection (DAO)</span></span>
+# <a name="properties-collection-dao"></a><span data-ttu-id="8398c-102">Коллекция Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="8398c-102">Properties collection (DAO)</span></span>
 
-<span data-ttu-id="88722-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88722-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8398c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8398c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="88722-104">Коллекция **свойств** содержит все объекты **[Свойства](property-object-dao.md)** для указанного экземпляра объекта.</span><span class="sxs-lookup"><span data-stu-id="88722-104">A **Properties** collection contains all the **[Property](property-object-dao.md)** objects for a specific instance of an object.</span></span>
+<span data-ttu-id="8398c-104">Коллекция **Properties** содержит все объекты **[Property](property-object-dao.md)** для определенного экземпляра объекта.</span><span class="sxs-lookup"><span data-stu-id="8398c-104">A **Properties** collection contains all the **[Property](property-object-dao.md)** objects for a specific instance of an object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="88722-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="88722-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8398c-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="8398c-105">Remarks</span></span>
 
-<span data-ttu-id="88722-106">Каждый объект DAO, за исключением **подключения** и объектов **ошибок** содержит коллекцию **свойств** , которая имеет определенных встроенных **свойств** объектов.</span><span class="sxs-lookup"><span data-stu-id="88722-106">Every DAO object except the **Connection** and **Error** objects contains a **Properties** collection, which has certain built-in **Property** objects.</span></span> <span data-ttu-id="88722-107">Эти объекты **свойство** (которые часто просто называются свойства) однозначно Создание характеристик этого экземпляра объекта.</span><span class="sxs-lookup"><span data-stu-id="88722-107">These **Property** objects (which are often just called properties) uniquely characterize that instance of the object.</span></span>
+<span data-ttu-id="8398c-106">Каждый объект DAO, за исключением объектов **Connection** и **Error** , содержит коллекцию **Properties** , у которой есть некоторые встроенные объекты **Property** .</span><span class="sxs-lookup"><span data-stu-id="8398c-106">Every DAO object except the **Connection** and **Error** objects contains a **Properties** collection, which has certain built-in **Property** objects.</span></span> <span data-ttu-id="8398c-107">Эти объекты **свойств** (часто называемые свойствами) однозначно характеризуют экземпляр объекта.</span><span class="sxs-lookup"><span data-stu-id="8398c-107">These **Property** objects (which are often just called properties) uniquely characterize that instance of the object.</span></span>
 
-<span data-ttu-id="88722-108">Кроме встроенных свойств можно также создать и добавить свои собственные пользовательские свойства.</span><span class="sxs-lookup"><span data-stu-id="88722-108">In addition to the built-in properties, you can also create and add your own user-defined properties.</span></span> <span data-ttu-id="88722-109">Чтобы добавить пользовательские свойства существующего экземпляра объекта, сначала определите его характеристики с помощью метода **CreateProperty** , а затем добавить его в коллекцию с помощью метода **Append** .</span><span class="sxs-lookup"><span data-stu-id="88722-109">To add a user-defined property to an existing instance of an object, first define its characteristics with the **CreateProperty** method, then add it to the collection with the **Append** method.</span></span> <span data-ttu-id="88722-110">Создание ссылок на объект пользовательские **Свойства** , который еще не была добавлена к коллекции **свойств** вызовет ошибку, как и добавление объект пользовательских **свойств** в коллекцию **свойств** , содержащую \*\* Свойство\*\* объект с таким же именем.</span><span class="sxs-lookup"><span data-stu-id="88722-110">Referencing a user-defined **Property** object that has not yet been appended to a **Properties** collection will cause an error, as will appending a user-defined **Property** object to a **Properties** collection containing a **Property** object of the same name.</span></span>
+<span data-ttu-id="8398c-108">В дополнение к встроенным свойствам можно также создавать и добавлять собственные пользовательские свойства.</span><span class="sxs-lookup"><span data-stu-id="8398c-108">In addition to the built-in properties, you can also create and add your own user-defined properties.</span></span> <span data-ttu-id="8398c-109">Чтобы добавить пользовательское свойство в существующий экземпляр объекта, сначала определите его характеристики с помощью метода **CreateProperty** , а затем добавьте его в коллекцию с помощью метода **append** .</span><span class="sxs-lookup"><span data-stu-id="8398c-109">To add a user-defined property to an existing instance of an object, first define its characteristics with the **CreateProperty** method, then add it to the collection with the **Append** method.</span></span> <span data-ttu-id="8398c-110">Обращение к объекту пользовательского **Свойства** , еще не добавленному в коллекцию **свойств** , приводит к ошибке, в результате чего объект пользовательского **Свойства** будет добавлен в коллекцию **свойств** , содержащую \*\* Объект Property\*\* с тем же именем.</span><span class="sxs-lookup"><span data-stu-id="8398c-110">Referencing a user-defined **Property** object that has not yet been appended to a **Properties** collection will cause an error, as will appending a user-defined **Property** object to a **Properties** collection containing a **Property** object of the same name.</span></span>
 
-<span data-ttu-id="88722-111">Можно использовать метод **Delete** для удаления пользовательских свойств из коллекции **свойств** , но вы не можете удалить встроенных свойств.</span><span class="sxs-lookup"><span data-stu-id="88722-111">You can use the **Delete** method to remove user-defined properties from the **Properties** collection, but you can't remove built-in properties.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="88722-112">Объект пользовательских **свойств** сопоставляется только с определенный экземпляр объекта.</span><span class="sxs-lookup"><span data-stu-id="88722-112">A user-defined **Property** object is associated only with the specific instance of an object.</span></span> <span data-ttu-id="88722-113">Свойство не определено для всех экземпляров объектов выбранного типа.</span><span class="sxs-lookup"><span data-stu-id="88722-113">The property isn't defined for all instances of objects of the selected type.</span></span>
-
-<span data-ttu-id="88722-114">Для ссылки на объект встроенных **свойств** в семействе сайтов, с его порядковый номер или **его свойства Name** , можно используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="88722-114">To refer to a built-in **Property** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
-
-- <span data-ttu-id="88722-115">объект. **Свойства** (0)</span><span class="sxs-lookup"><span data-stu-id="88722-115">object.**Properties**(0)</span></span>
-
-- <span data-ttu-id="88722-116">объект. **Свойства** («имя»)</span><span class="sxs-lookup"><span data-stu-id="88722-116">object.**Properties**("name")</span></span>
-
-- <span data-ttu-id="88722-117">объект. **Свойства** \! \[имя\]</span><span class="sxs-lookup"><span data-stu-id="88722-117">object.**Properties**\!\[name\]</span></span>
-
-<span data-ttu-id="88722-118">Для встроенных свойств можно также используйте следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="88722-118">For a built-in property, you can also use this syntax:</span></span>
-
-- <span data-ttu-id="88722-119">Object.Name</span><span class="sxs-lookup"><span data-stu-id="88722-119">object.name</span></span>
+<span data-ttu-id="8398c-111">С помощью метода **Delete** можно удалять пользовательские свойства из коллекции **свойств** , но нельзя удалять встроенные свойства.</span><span class="sxs-lookup"><span data-stu-id="8398c-111">You can use the **Delete** method to remove user-defined properties from the **Properties** collection, but you can't remove built-in properties.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="88722-120">Пользовательские свойства необходимо использовать полный объект. **Свойства** синтаксис («имя»).</span><span class="sxs-lookup"><span data-stu-id="88722-120">For a user-defined property, you must use the full object.**Properties**("name") syntax.</span></span>
+> <span data-ttu-id="8398c-112">Объект определяемого пользователем **Свойства** связан только с определенным экземпляром объекта.</span><span class="sxs-lookup"><span data-stu-id="8398c-112">A user-defined **Property** object is associated only with the specific instance of an object.</span></span> <span data-ttu-id="8398c-113">Свойство не определено для всех экземпляров объектов выбранного типа.</span><span class="sxs-lookup"><span data-stu-id="8398c-113">The property isn't defined for all instances of objects of the selected type.</span></span>
 
-<span data-ttu-id="88722-121">С помощью одной синтаксиса форм можно найти в свойство **Value** объекта **Property** .</span><span class="sxs-lookup"><span data-stu-id="88722-121">With the same syntax forms, you can also refer to the **Value** property of a **Property** object.</span></span> <span data-ttu-id="88722-122">Контекст ссылки определяет, будет ли вы ссылаетесь на объект **свойств** , самого или свойство **Value** объекта **Property** .</span><span class="sxs-lookup"><span data-stu-id="88722-122">The context of the reference will determine whether you are referring to the **Property** object itself or the **Value** property of the **Property** object.</span></span>
+<span data-ttu-id="8398c-114">Чтобы сослаться на встроенный объект **Property** в коллекции по его порядковому номеру или по его свойству **Name** , используйте любую из следующих синтаксических форм:</span><span class="sxs-lookup"><span data-stu-id="8398c-114">To refer to a built-in **Property** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-## <a name="example"></a><span data-ttu-id="88722-123">Пример</span><span class="sxs-lookup"><span data-stu-id="88722-123">Example</span></span>
+- <span data-ttu-id="8398c-115">объектам. **Свойства** нуль</span><span class="sxs-lookup"><span data-stu-id="8398c-115">object.**Properties**(0)</span></span>
 
-<span data-ttu-id="88722-124">В этом примере создается пользовательское свойство в текущей базе данных, задает его **Тип** и **значение** свойства и добавляет его в коллекцию **свойств** базы данных.</span><span class="sxs-lookup"><span data-stu-id="88722-124">This example creates a user-defined property for the current database, sets its **Type** and **Value** properties, and appends it to the **Properties** collection of the database.</span></span> <span data-ttu-id="88722-125">Затем в примере перечисляются все свойства в базе данных.</span><span class="sxs-lookup"><span data-stu-id="88722-125">Then the example enumerates all properties in the database.</span></span>
+- <span data-ttu-id="8398c-116">объектам. **Свойства** ("имя")</span><span class="sxs-lookup"><span data-stu-id="8398c-116">object.**Properties**("name")</span></span>
+
+- <span data-ttu-id="8398c-117">объектам. **Свойства** \! \[\]</span><span class="sxs-lookup"><span data-stu-id="8398c-117">object.**Properties**\!\[name\]</span></span>
+
+<span data-ttu-id="8398c-118">Для встроенного свойства также можно использовать следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="8398c-118">For a built-in property, you can also use this syntax:</span></span>
+
+- <span data-ttu-id="8398c-119">Object.Name</span><span class="sxs-lookup"><span data-stu-id="8398c-119">object.name</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8398c-120">Для свойства, определяемого пользователем, необходимо использовать весь объект. **Свойства** ("имя") синтаксис.</span><span class="sxs-lookup"><span data-stu-id="8398c-120">For a user-defined property, you must use the full object.**Properties**("name") syntax.</span></span>
+
+<span data-ttu-id="8398c-121">Используя те же формы синтаксиса, вы также можете ссылаться на свойство **value** объекта **Property** .</span><span class="sxs-lookup"><span data-stu-id="8398c-121">With the same syntax forms, you can also refer to the **Value** property of a **Property** object.</span></span> <span data-ttu-id="8398c-122">Контекст ссылки определяет, будет ли ссылка на сам объект **Property** или свойство **value** объекта **Property** .</span><span class="sxs-lookup"><span data-stu-id="8398c-122">The context of the reference will determine whether you are referring to the **Property** object itself or the **Value** property of the **Property** object.</span></span>
+
+## <a name="example"></a><span data-ttu-id="8398c-123">Пример</span><span class="sxs-lookup"><span data-stu-id="8398c-123">Example</span></span>
+
+<span data-ttu-id="8398c-124">В этом примере создается пользовательское свойство для текущей базы данных, задаются его свойства **Type** и **value** , а затем она добавляется в коллекцию **свойств** базы данных.</span><span class="sxs-lookup"><span data-stu-id="8398c-124">This example creates a user-defined property for the current database, sets its **Type** and **Value** properties, and appends it to the **Properties** collection of the database.</span></span> <span data-ttu-id="8398c-125">Затем в примере перечисляются все свойства в базе данных.</span><span class="sxs-lookup"><span data-stu-id="8398c-125">Then the example enumerates all properties in the database.</span></span>
 
 ```vb
     Sub PropertyX() 
@@ -91,7 +91,7 @@ ms.locfileid: "28715517"
 
 <br/>
 
-<span data-ttu-id="88722-126">В этом примере предпринимается попытка задать значение свойства пользовательских.</span><span class="sxs-lookup"><span data-stu-id="88722-126">This example tries to set the value of a user-defined property.</span></span> <span data-ttu-id="88722-127">Если свойство не существует, метод **CreateProperty** используется для создания и установите значение нового свойства.</span><span class="sxs-lookup"><span data-stu-id="88722-127">If the property doesn't exist, it uses the **CreateProperty** method to create and set the value of the new property.</span></span> <span data-ttu-id="88722-128">Процедура SetProperty является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="88722-128">The SetProperty procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="8398c-126">В этом примере предпринимается попытка задать значение определяемого пользователем свойства.</span><span class="sxs-lookup"><span data-stu-id="8398c-126">This example tries to set the value of a user-defined property.</span></span> <span data-ttu-id="8398c-127">Если свойство не существует, оно использует метод **CreateProperty** , чтобы создать и задать значение нового свойства.</span><span class="sxs-lookup"><span data-stu-id="8398c-127">If the property doesn't exist, it uses the **CreateProperty** method to create and set the value of the new property.</span></span> <span data-ttu-id="8398c-128">Для выполнения этой процедуры требуется процедура SetProperty.</span><span class="sxs-lookup"><span data-stu-id="8398c-128">The SetProperty procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub CreatePropertyX() 

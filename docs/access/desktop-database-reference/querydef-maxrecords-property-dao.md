@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef.MaxRecords (DAO)
+title: Свойство QueryDef. MaxRecords (DAO)
 TOCTitle: MaxRecords Property
 ms:assetid: 7492cde9-be30-3473-dabc-9602465910d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195877(v=office.15)
@@ -12,36 +12,36 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6738762ba18289293c67392d47e278066ead071d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301080"
 ---
-# <a name="querydefmaxrecords-property-dao"></a><span data-ttu-id="1625b-102">Свойство QueryDef.MaxRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="1625b-102">QueryDef.MaxRecords property (DAO)</span></span>
+# <a name="querydefmaxrecords-property-dao"></a><span data-ttu-id="9cf66-102">Свойство QueryDef. MaxRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="9cf66-102">QueryDef.MaxRecords property (DAO)</span></span>
 
-<span data-ttu-id="1625b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1625b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9cf66-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9cf66-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1625b-104">Задает или возвращает максимальное число записей для возврата из запроса к источнику данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="1625b-104">Sets or returns the maximum number of records to return from a query against an ODBC data source.</span></span>
+<span data-ttu-id="9cf66-104">Задает или возвращает максимальное число записей, возвращаемых из запроса к источнику данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="9cf66-104">Sets or returns the maximum number of records to return from a query against an ODBC data source.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1625b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1625b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9cf66-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9cf66-105">Syntax</span></span>
 
-<span data-ttu-id="1625b-106">*выражение* . MaxRecords</span><span class="sxs-lookup"><span data-stu-id="1625b-106">*expression* .MaxRecords</span></span>
+<span data-ttu-id="9cf66-106">*Expression* . MaxRecords</span><span class="sxs-lookup"><span data-stu-id="9cf66-106">*expression* .MaxRecords</span></span>
 
-<span data-ttu-id="1625b-107">*выражение* Переменная, которая представляет собой объект- **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="1625b-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="9cf66-107">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="9cf66-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1625b-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="1625b-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9cf66-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="9cf66-108">Remarks</span></span>
 
-<span data-ttu-id="1625b-109">Значение по умолчанию равно 0, указывающее без ограничений на количество возвращаемых записей.</span><span class="sxs-lookup"><span data-stu-id="1625b-109">The default value is 0, indicating no limit on the number of records returned.</span></span>
+<span data-ttu-id="9cf66-109">Значение по умолчанию — 0, что означает, что количество возвращаемых записей не ограничено.</span><span class="sxs-lookup"><span data-stu-id="9cf66-109">The default value is 0, indicating no limit on the number of records returned.</span></span>
 
-<span data-ttu-id="1625b-110">После возвращения максимальному числу строк, указанного идентификатором **MaxRecords** в приложение в **[набор записей](recordset-object-dao.md)**, обработчик запросов остановит возвращение дополнительные записи даже в том случае, если удовлетворяющих несколько записей для включения в **набор записей**.</span><span class="sxs-lookup"><span data-stu-id="1625b-110">Once the number of rows specified by **MaxRecords** is returned to your application in a **[Recordset](recordset-object-dao.md)**, the query processor will stop returning additional records even if more records would qualify for inclusion in the **Recordset**.</span></span> <span data-ttu-id="1625b-111">Это свойство можно использовать в ситуациях, где ресурсы ограниченный клиент запретить управление большим количеством записей.</span><span class="sxs-lookup"><span data-stu-id="1625b-111">This property is useful in situations where limited client resources prohibit management of large numbers of records.</span></span>
+<span data-ttu-id="9cf66-110">Когда количество строк, заданное в свойстве **maxRecords** , возвращается приложению в **[наборе записей](recordset-object-dao.md)**, обработчик запросов перестанет возвращать дополнительные записи, даже если для включения в **набор записей**потребуется больше записей.</span><span class="sxs-lookup"><span data-stu-id="9cf66-110">Once the number of rows specified by **MaxRecords** is returned to your application in a **[Recordset](recordset-object-dao.md)**, the query processor will stop returning additional records even if more records would qualify for inclusion in the **Recordset**.</span></span> <span data-ttu-id="9cf66-111">Это свойство полезно в тех случаях, когда ограниченные клиентские ресурсы запрещают управление большим количеством записей.</span><span class="sxs-lookup"><span data-stu-id="9cf66-111">This property is useful in situations where limited client resources prohibit management of large numbers of records.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1625b-112">Свойство **MaxRecords** может использоваться только с источником данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="1625b-112">The **MaxRecords** property can only be used with an ODBC data source.</span></span>
+> <span data-ttu-id="9cf66-112">Свойство **maxRecords** можно использовать только с источником данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="9cf66-112">The **MaxRecords** property can only be used with an ODBC data source.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1625b-113">Пример</span><span class="sxs-lookup"><span data-stu-id="1625b-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9cf66-113">Пример</span><span class="sxs-lookup"><span data-stu-id="9cf66-113">Example</span></span>
 
-<span data-ttu-id="1625b-114">В этом примере используется свойство **MaxRecords** задание ограничения на количество записей возвращаемых запросом на источник данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="1625b-114">This example uses the **MaxRecords** property to set a limit on how many records are returned by a query on an ODBC data source.</span></span>
+<span data-ttu-id="9cf66-114">В этом примере используется свойство **maxRecords** для установки ограничения на количество записей, возвращаемых запросом к источнику данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="9cf66-114">This example uses the **MaxRecords** property to set a limit on how many records are returned by a query on an ODBC data source.</span></span>
 
 ```vb 
 Sub MaxRecordsX() 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8722276f7c927d5ac452100da55395cb2de7cf70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296810"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="3f964-102">Пример использования свойств BOF, EOF и Bookmark (VJ++)</span><span class="sxs-lookup"><span data-stu-id="3f964-102">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="cb1a7-102">Пример использования свойств BOF, EOF и Bookmark (VJ++)</span><span class="sxs-lookup"><span data-stu-id="cb1a7-102">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="3f964-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f964-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cb1a7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb1a7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3f964-104">В этом примере с помощью свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) отображать сообщение, если пользователь пытается пропустить первой или последней записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="3f964-104">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="3f964-105">Для оповещения пользователя помечает записи в наборе **записей** и вернуться к нему позже используется свойство [Закладка](bookmark-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="3f964-105">It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="cb1a7-104">В этом примере показано, как использовать свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) для отображения сообщения, если пользователь пытается переместиться после первой или последней записи объекта [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="cb1a7-104">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="cb1a7-105">Он использует свойство [Bookmark](bookmark-property-ado.md) , чтобы разрешить пользователю пометить запись в наборе **записей** и вернуться к ней позже.</span><span class="sxs-lookup"><span data-stu-id="cb1a7-105">It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```java 
  

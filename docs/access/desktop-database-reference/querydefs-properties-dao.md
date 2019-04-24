@@ -1,5 +1,5 @@
 ---
-title: Свойства QueryDefs (DAO)
+title: Свойства QueryDef (DAO)
 TOCTitle: Properties
 ms:assetid: 06937998-6487-401e-a15c-ce3482223efb
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123567(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4d521fcb66a81b771cdaf047a8494c3b50b69706
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303446"
 ---
-# <a name="querydefs-properties-dao"></a><span data-ttu-id="9d2c3-102">Свойства QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="9d2c3-102">QueryDefs properties (DAO)</span></span>
+# <a name="querydefs-properties-dao"></a><span data-ttu-id="94437-102">Свойства QueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="94437-102">QueryDefs properties (DAO)</span></span>
 
-<span data-ttu-id="9d2c3-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9d2c3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="94437-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94437-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9d2c3-104">Свойство QueryDefs.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="9d2c3-104">QueryDefs.Count property (DAO)</span></span>](querydefs-count-property-dao.md)
+- [<span data-ttu-id="94437-104">Свойство QueryDef. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="94437-104">QueryDefs.Count property (DAO)</span></span>](querydefs-count-property-dao.md)
 

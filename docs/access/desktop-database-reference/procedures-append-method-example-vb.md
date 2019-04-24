@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0e1df7d4914a247dac6f96a3709f0930bceea0ea
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301374"
 ---
-# <a name="procedures-append-method-example-vb"></a><span data-ttu-id="108c6-102">Пример использования метода Append для коллекции Procedures (VB)</span><span class="sxs-lookup"><span data-stu-id="108c6-102">Procedures Append method example (VB)</span></span>
+# <a name="procedures-append-method-example-vb"></a><span data-ttu-id="8ad53-102">Пример использования метода Append для коллекции Procedures (VB)</span><span class="sxs-lookup"><span data-stu-id="8ad53-102">Procedures Append method example (VB)</span></span>
 
 
-<span data-ttu-id="108c6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="108c6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8ad53-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8ad53-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="108c6-104">Следующий код демонстрирует использование [процедуры](procedures-collection-adox.md) сбора метод [Append](append-method-adox-procedures.md) и объект [команды](command-object-ado.md) для создания новой процедуры в источнике данных.</span><span class="sxs-lookup"><span data-stu-id="108c6-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Procedures](procedures-collection-adox.md) collection [Append](append-method-adox-procedures.md) method to create a new procedure in the underlying data source.</span></span>
+<span data-ttu-id="8ad53-104">В приведенном ниже коде показано, как использовать объект [Command](command-object-ado.md) и метод [append](append-method-adox-procedures.md) в коллекции [процедур](procedures-collection-adox.md) для создания новой процедуры в базовом источнике данных.</span><span class="sxs-lookup"><span data-stu-id="8ad53-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Procedures](procedures-collection-adox.md) collection [Append](append-method-adox-procedures.md) method to create a new procedure in the underlying data source.</span></span>
 
 ```vb 
  

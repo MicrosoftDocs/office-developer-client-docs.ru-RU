@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0fee171c6f3bf4e0d9251b62b18e467440091ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301402"
 ---
-# <a name="primarykey-property-adox"></a><span data-ttu-id="fbd41-102">Свойство PrimaryKey (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fbd41-102">PrimaryKey property (ADOX)</span></span>
+# <a name="primarykey-property-adox"></a><span data-ttu-id="a3fd7-102">Свойство PrimaryKey (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a3fd7-102">PrimaryKey property (ADOX)</span></span>
 
 
-<span data-ttu-id="fbd41-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fbd41-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a3fd7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3fd7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fbd41-104">Указывает, представляет ли индекс первичный ключ в таблице.</span><span class="sxs-lookup"><span data-stu-id="fbd41-104">Indicates whether the index represents the primary key on the table.</span></span>
+<span data-ttu-id="a3fd7-104">Указывает, представляет ли индекс первичный ключ для таблицы.</span><span class="sxs-lookup"><span data-stu-id="a3fd7-104">Indicates whether the index represents the primary key on the table.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="fbd41-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="fbd41-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="a3fd7-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="a3fd7-105">Settings and return values</span></span>
 
-<span data-ttu-id="fbd41-106">Задает и возвращает значение **типа Boolean** .</span><span class="sxs-lookup"><span data-stu-id="fbd41-106">Sets and returns a **Boolean** value.</span></span>
+<span data-ttu-id="a3fd7-106">Задает и возвращает **логическое** значение.</span><span class="sxs-lookup"><span data-stu-id="a3fd7-106">Sets and returns a **Boolean** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fbd41-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="fbd41-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a3fd7-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="a3fd7-107">Remarks</span></span>
 
-<span data-ttu-id="fbd41-108">Значение по умолчанию — **False**.</span><span class="sxs-lookup"><span data-stu-id="fbd41-108">The default value is **False**.</span></span>
+<span data-ttu-id="a3fd7-108">Значение по умолчанию — **False**.</span><span class="sxs-lookup"><span data-stu-id="a3fd7-108">The default value is **False**.</span></span>
 
-<span data-ttu-id="fbd41-109">Это свойство доступно только для чтения объектов [индекса](index-object-adox.md) уже добавляется в конец коллекции.</span><span class="sxs-lookup"><span data-stu-id="fbd41-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="a3fd7-109">Это свойство доступно только для чтения для объектов [индекса](index-object-adox.md) , уже добавленных в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="a3fd7-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
 

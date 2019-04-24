@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 373ee7720f706bae1db2f446a407c89f2a7f3baf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296698"
 ---
-# <a name="cachesize-property-example-vj"></a><span data-ttu-id="07526-102">Пример использования свойства CacheSize (VJ++)</span><span class="sxs-lookup"><span data-stu-id="07526-102">CacheSize property example (VJ++)</span></span>
+# <a name="cachesize-property-example-vj"></a><span data-ttu-id="7bcf5-102">Пример использования свойства CacheSize (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7bcf5-102">CacheSize property example (VJ++)</span></span>
 
 
-<span data-ttu-id="07526-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="07526-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7bcf5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7bcf5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="07526-104">В этом примере используется свойство [CacheSize](cachesize-property-ado.md) для отображения разницу в производительности для операции, выполняемой с и без 30 записи кэша.</span><span class="sxs-lookup"><span data-stu-id="07526-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="7bcf5-104">В этом примере используется свойство [CacheSize](cachesize-property-ado.md) для отображения разницы в производительности для операции, выполняемой с кэшем с 30 записями и без него.</span><span class="sxs-lookup"><span data-stu-id="7bcf5-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```java 
  

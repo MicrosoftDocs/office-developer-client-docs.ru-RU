@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 55dc01afc874403bcdf52008e17daab7e6d98ae9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296306"
 ---
-# <a name="clone-method-example-vc"></a><span data-ttu-id="4c052-102">Пример использования метода Clone (VC++)</span><span class="sxs-lookup"><span data-stu-id="4c052-102">Clone method example (VC++)</span></span>
+# <a name="clone-method-example-vc"></a><span data-ttu-id="5d749-102">Пример использования метода Clone (VC++)</span><span class="sxs-lookup"><span data-stu-id="5d749-102">Clone method example (VC++)</span></span>
 
 
-<span data-ttu-id="4c052-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c052-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5d749-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d749-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4c052-104">В этом примере используется метод [клонированной](clone-method-ado.md) для создания копии [набора записей](recordset-object-ado.md) и затем позволяет пользователя положение указателя записи каждой копии независимо друг от друга.</span><span class="sxs-lookup"><span data-stu-id="4c052-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="5d749-104">В этом примере используется метод [clone](clone-method-ado.md) для создания копий объекта [Recordset](recordset-object-ado.md) , а затем пользователю разрешается располагать указатель записи каждой копии независимо друг от друга.</span><span class="sxs-lookup"><span data-stu-id="5d749-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```cpp 
  
@@ -252,7 +252,7 @@ void PrintComError(_com_error &e)
 // EndCloneCpp 
 ```
 
-<span data-ttu-id="4c052-105">**CloneX.h**</span><span class="sxs-lookup"><span data-stu-id="4c052-105">**CloneX.h**</span></span>
+<span data-ttu-id="5d749-105">**Клонекс. h**</span><span class="sxs-lookup"><span data-stu-id="5d749-105">**CloneX.h**</span></span>
 
 ```cpp 
  
