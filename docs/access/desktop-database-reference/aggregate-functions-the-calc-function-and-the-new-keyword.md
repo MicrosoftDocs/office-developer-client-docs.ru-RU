@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 25f52489430465235a928fff3c38469ec6ba83ad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297195"
 ---
 # <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Агрегатные функции, функция CALC и ключевое слово NEW
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Формирование данных поддерживает следующие функции. Имя, присвоенное главы, содержащую столбец, чтобы работать — это *псевдоним главы*.
+Функция формирования данных поддерживает следующие функции. Имя, присвоенное разделу, содержащему столбец, с которым выполняется работа, — это *псевдоним главы*.
 
-Псевдонима главы может быть полным, состоящий из каждой главы имя столбца, приводя к главе, содержащая *имя столбца,* все разделенных точками. Например если главе родительского chap1, содержит дочерних главы, chap2, которая содержит столбец Сумма, сумма, а затем полным именем будет chap1.chap2.amt.
+Название главы — псевдоним может быть полностью полным, состоящим из каждого имени столбца главы, которое начинается с раздела *, содержащего имя столбца,* разделенных точками. Например, если родительская глава, Chap1, содержит дочернюю главу, Chap2, которая содержит столбец Amount (сумма), то полное имя будет Chap1. Chap2. AMT.
 
 <table>
 <colgroup>
@@ -36,32 +36,32 @@ ms.locfileid: "28718051"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Сумма (<em>псевдоним главы</em>.<em> Имя столбца</em>)</p></td>
-<td><p>Вычисление суммы всех значений в указанном столбце.</p></td>
+<td><p>SUM (<em>Chapter-Alias</em>.<em> column-name</em>)</p></td>
+<td><p>Вычисляет сумму всех значений в указанном столбце.</p></td>
 </tr>
 <tr class="even">
-<td><p>AVG (<em>псевдоним главы</em>.<em> Имя столбца</em>)</p></td>
-<td><p>Вычисляет среднее значение указанного столбца.</p></td>
+<td><p>AVG (<em>Chapter-Alias</em>.<em> column-name</em>)</p></td>
+<td><p>Вычисляет среднее для всех значений в указанном столбце.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число (<em>псевдоним главы</em>.<em> Имя столбца</em>)</p></td>
+<td><p>MAX (<em>Chapter-Alias</em>.<em> column-name</em>)</p></td>
 <td><p>Вычисляет максимальное значение в указанном столбце.</p></td>
 </tr>
 <tr class="even">
-<td><p>MIN (<em>псевдоним главы</em>.<em> Имя столбца</em>)</p></td>
+<td><p>MIN (<em>Chapter-Alias</em>.<em> column-name</em>)</p></td>
 <td><p>Вычисляет минимальное значение в указанном столбце.</p></td>
 </tr>
 <tr class="odd">
-<td><p>COUNT (<em>псевдоним главы</em>[.<em> Имя столбца</em>])</p></td>
-<td><p>Подсчитывает количество строк в указанном псевдоним. Если столбец указан, только строки, для которых этот столбец не равно Null включаются в подсчет.</p></td>
+<td><p>COUNT (<em>Chapter-Alias</em>[.<em> column-name</em>])</p></td>
+<td><p>ПодСчитывает количество строк в указанном псевдониме. Если указан столбец, в число включаются только те строки, для которых этот столбец имеет значение, отличное от NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p>STDEV (<em>псевдоним главы</em>.<em> Имя столбца</em>)</p></td>
+<td><p>СТАНДОТКЛОН (<em>Chapter-Alias</em>.<em> column-name</em>)</p></td>
 <td><p>Вычисляет стандартное отклонение в указанном столбце.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ЛЮБОЙ (<em>псевдоним главы</em>.<em> Имя столбца</em>)</p></td>
-<td><p>Значение указанного столбца. Какие-либо имеет значение прогнозируемый только в том случае, если значение столбца является общим для всех строк в главе.</p><p><strong>Примечание</strong>: Если столбец не содержит такое же значение для всех строк в главе, команда ФИГУРЫ произвольно возвращает одно из значений в качестве значения любой функции.</p></td>
+<td><p>ANY (<em>Chapter-Alias</em>.<em> column-name</em>)</p></td>
+<td><p>Значение указанного столбца. Значение ANY имеет прогнозируемое значение, только если значение столбца одинаково для всех строк в главе.</p><p><strong>Note</strong>: если столбец содержит одно и то же значение для всех строк в главе, команда Shape произвольно возвращает одно из значений в качестве значения функции Any.</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,14 +75,14 @@ ms.locfileid: "28718051"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Расчетного выражения</p></th>
+<th><p>Вычисляемое выражение</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Вычисление (<em>выражение</em>)</p></td>
-<td><p>Вычисляет произвольного выражения, но только в той строке <strong>набора записей</strong> , содержащий функция CALC. Любое выражение, с помощью этих <a href="visual-basic-for-applications-functions.md">Visual Basic для приложений (VBA) функции</a> разрешены.</p></td>
+<td><p>CALC (<em>выражение</em>)</p></td>
+<td><p>Вычисляет произвольное выражение, но только для строки <strong>Recordset</strong> , СОДЕРЖАЩЕЙ функцию Calc. Любое выражение, использующее эти <a href="visual-basic-for-applications-functions.md">функции Visual Basic для приложений (VBA)</a> , разрешено.</p></td>
 </tr>
 </tbody>
 </table>
@@ -96,21 +96,21 @@ ms.locfileid: "28718051"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>НОВОЕ ключевое слово</p></th>
+<th><p>Ключевое слово NEW</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>НОВЫЙ <em>Тип поля</em> [(<em>Ширина</em> | <em>масштаба</em> | <em>точности</em> | <em>Ошибка</em> [, <em>масштаба</em> | <em>Ошибка</em>])]</p></td>
-<td><p>Добавляет пустой столбец указанного типа <strong>набора записей</strong>.</p></td>
+<td><p>New <em>field-Type</em> [(<em>Ошибка</em> <em>точности</em> | <em>масштабирования</em> | <em>ширины</em> | , ошибка <em>масштабирования</em> | <em></em>])]</p></td>
+<td><p>Добавляет в <strong>набор записей</strong>пустой столбец указанного типа.</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-*Тип поля* , переданные с НОВЫМ ключевым словом может быть любой из следующих типов данных.
+*Типом поля* , передаваемым с помощью ключевого слова New, может быть любой из следующих типов данных.
 
 <table>
 <colgroup>
@@ -119,94 +119,94 @@ ms.locfileid: "28718051"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Типы данных OLE DB </p></th>
-<th><p>Тип данных ADO equivalent(s)</p></th>
+<th><p>Типы данных OLE DB</p></th>
+<th><p>Эквиваленты типов данных ADO</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DBTYPE_BSTR</p></td>
-<td><p>adBSTR</p></td>
+<td><p>ДБТИПЕ_БСТР</p></td>
+<td><p>Адбстр</p></td>
 </tr>
 <tr class="even">
-<td><p>DBTYPE_BOOL</p></td>
-<td><p>adBoolean</p></td>
+<td><p>ДБТИПЕ_БУЛ</p></td>
+<td><p>Адбулеан</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBTYPE_DECIMAL</p></td>
-<td><p>adDecimal</p></td>
+<td><p>ДБТИПЕ_ДЕЦИМАЛ</p></td>
+<td><p>АддеЦимал</p></td>
 </tr>
 <tr class="even">
 <td><p>DBTYPE_UI1</p></td>
-<td><p>adUnsignedTinyInt</p></td>
+<td><p>Адунсигнедтининт</p></td>
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_I1</p></td>
-<td><p>adTinyInt</p></td>
+<td><p>Адтининт</p></td>
 </tr>
 <tr class="even">
 <td><p>DBTYPE_UI2</p></td>
-<td><p>adUnsignedSmallInt</p></td>
+<td><p>Адунсигнедсмаллинт</p></td>
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_UI4</p></td>
-<td><p>adUnsignedInt</p></td>
+<td><p>Адунсигнединт</p></td>
 </tr>
 <tr class="even">
 <td><p>DBTYPE_I8</p></td>
-<td><p>adBigInt</p></td>
+<td><p>Адбигинт</p></td>
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_UI8</p></td>
-<td><p>adUnsignedBigInt</p></td>
+<td><p>Адунсигнедбигинт</p></td>
 </tr>
 <tr class="even">
-<td><p>DBTYPE_GUID</p></td>
-<td><p>adGuid</p></td>
+<td><p>ДБТИПЕ_ГУИД</p></td>
+<td><p>Адгуид</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBTYPE_BYTES</p></td>
-<td><p>adBinary, AdVarBinary, adLongVarBinary</p></td>
+<td><p>ДБТИПЕ_БИТЕС</p></td>
+<td><p>Адбинари, Адварбинари, Адлонгварбинари</p></td>
 </tr>
 <tr class="even">
-<td><p>DBTYPE_STR</p></td>
-<td><p>adChar, adVarChar, adLongVarChar</p></td>
+<td><p>ДБТИПЕ_СТР</p></td>
+<td><p>Адчар, Адварчар, Адлонгварчар</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBTYPE_WSTR</p></td>
-<td><p>adWChar, adVarWChar, adLongVarWChar</p></td>
+<td><p>ДБТИПЕ_ВСТР</p></td>
+<td><p>Адвчар, Адварвчар, Адлонгварвчар</p></td>
 </tr>
 <tr class="even">
-<td><p>DBTYPE_NUMERIC</p></td>
-<td><p>adNumeric</p></td>
+<td><p>ДБТИПЕ_НУМЕРИК</p></td>
+<td><p>Аднумерик</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBTYPE_DBDATE</p></td>
-<td><p>adDBDate</p></td>
+<td><p>ДБТИПЕ_ДБДАТЕ</p></td>
+<td><p>Аддбдате</p></td>
 </tr>
 <tr class="even">
-<td><p>DBTYPE_DBTIME</p></td>
-<td><p>adDBTime</p></td>
+<td><p>ДБТИПЕ_ДБТИМЕ</p></td>
+<td><p>Аддбтиме</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBTYPE_DBTIMESTAMP</p></td>
-<td><p>adDBTimeStamp</p></td>
+<td><p>ДБТИПЕ_ДБТИМЕСТАМП</p></td>
+<td><p>Аддбтиместамп</p></td>
 </tr>
 <tr class="even">
-<td><p>DBTYPE_VARNUMERIC</p></td>
-<td><p>adVarNumeric</p></td>
+<td><p>ДБТИПЕ_ВАРНУМЕРИК</p></td>
+<td><p>Адварнумерик</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBTYPE_FILETIME</p></td>
-<td><p>adFileTime</p></td>
+<td><p>ДБТИПЕ_ФИЛЕТИМЕ</p></td>
+<td><p>Адфилетиме</p></td>
 </tr>
 <tr class="even">
-<td><p>DBTYPE_ERROR</p></td>
-<td><p>adError</p></td>
+<td><p>ДБТИПЕ_ЕРРОР</p></td>
+<td><p>Адеррор</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Если новое поле имеет тип decimal (в OLE DB DBTYPE\_DECIMAL, или в ADO, adDecimal), необходимо указать значения точности и масштаба.
+Если новое поле имеет тип Decimal (в OLE DB, DBTYPE\_Decimal или в ADO, аддеЦимал), необходимо указать значения точности и масштаба.
 

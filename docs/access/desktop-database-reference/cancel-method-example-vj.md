@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 72625820abe74b5a6a8989893a7ed0ab1bfec3b6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296663"
 ---
 # <a name="cancel-method-example-vj"></a>Пример использования метода Cancel (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены выполняется команда на объект [подключения](connection-object-ado.md) Если подключение «занят».
+В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены команды, выполняемой для объекта [Connection](connection-object-ado.md) , если соединение занято.
 
 ```java 
  

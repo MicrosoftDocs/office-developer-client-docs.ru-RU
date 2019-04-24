@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d9797d1cd48c397dedcd236d8762fa0dfcef7c93
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296817"
 ---
 # <a name="bof-eof-and-bookmark-properties-example-vc"></a>Пример использования свойств BOF, EOF и Bookmark (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Первая функция в этом примере свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) используется для отображения сообщения, если пользователь пытается пропустить первой или последней записи из [набора записей](recordset-object-ado.md). Для оповещения пользователя помечает записи в наборе **записей** и вернуться к нему позже используется свойство [Закладка](bookmark-property-ado.md) .
+Первая функция в этом примере использует свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) для отображения сообщения, если пользователь пытается переместиться после первой или последней записи в [наборе записей](recordset-object-ado.md). Он использует свойство [Bookmark](bookmark-property-ado.md) , чтобы разрешить пользователю пометить запись в наборе **записей** и вернуться к ней позже.
 
-Вторая функция использует свойство закладку для помещения **закладку** для каждой записи из **набора записей** в массив и затем фильтрует набора записей с помощью массива.
+Вторая функция использует свойство Bookmark, чтобы поместить заКладку каждой другой записи из **набора записей** в массив, а затем фильтрует набор записей с помощью массива. ****
 
 ```cpp 
  
@@ -356,7 +356,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBOFCpp 
 ```
 
-**BofEofBookmark.h**
+**Бофеофбукмарк. h**
 
 ```cpp 
  

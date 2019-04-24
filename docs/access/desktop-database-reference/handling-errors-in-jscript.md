@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f06584ef752e0be7f68b3f661fbdba50b52cd20e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292043"
 ---
 # <a name="handling-errors-in-jscript"></a>Обработка ошибок в JScript
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Код Microsoft JScript необходимо проверить свойство **Count** семейства **Errors** объект **подключения** . Если значение больше 0, пройдите по коллекции и печати значений, как и в любом другом языке.
+Код Microsoft JScript должен проверить свойство **Count** коллекции **ошибок** объекта **Connection** . Если значение больше 0, необходимо выполнить итерацию по коллекции и напечатать значения так же, как и на любом другом языке.
 
 ```javascript 
  

@@ -1,5 +1,5 @@
 ---
-title: Перечисление UpdateTypeEnum (DAO)
+title: Перечисление Упдатетипинум (DAO)
 TOCTitle: UpdateTypeEnum Enumeration
 ms:assetid: 7ac38bae-27fc-f3d0-5b75-569bce547954
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196186(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d1e4ecbc216ab4a00dabd85f623bc134772dfd4c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306190"
 ---
-# <a name="updatetypeenum-enumeration-dao"></a>Перечисление UpdateTypeEnum (DAO)
+# <a name="updatetypeenum-enumeration-dao"></a>Перечисление Упдатетипинум (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется с методом **обновления** для указания необходимых обновлений для записи на диск.
+Используется с методом **Update** для указания обновлений, которые необходимо записать на диск.
 
 <table>
 <colgroup>
@@ -36,19 +36,19 @@ ms.locfileid: "28706165"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbUpdateBatch</p></td>
-<td><p>4</p></td>
+<td><p>Дбупдатебатч</p></td>
+<td><p>SP4</p></td>
 <td><p>Все ожидающие изменения в кэше обновления записываются на диск.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbUpdateCurrentRecord</p></td>
+<td><p>Дбупдатекуррентрекорд</p></td>
 <td><p>2</p></td>
-<td><p>Только для текущей записи ожидающие изменения записываются на диск.</p></td>
+<td><p>На диск записываются только ожидающие изменения текущей записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbUpdateRegular</p></td>
-<td><p>1</p></td>
-<td><p>(По умолчанию) Отложенные изменения не кэшируются и записи на диск немедленно.</p></td>
+<td><p>Дбупдатерегулар</p></td>
+<td><p>1,1</p></td>
+<td><p>Умолчани Ожидающие изменения не кэшируются и немедленно записываются на диск.</p></td>
 </tr>
 </tbody>
 </table>

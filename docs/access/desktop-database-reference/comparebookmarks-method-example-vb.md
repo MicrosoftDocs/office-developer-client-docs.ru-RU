@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0f6678400ad575bcc46d4fe2a463281b3c075615
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296075"
 ---
 # <a name="comparebookmarks-method-example-vb"></a>Пример использования метода CompareBookmarks (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется использование метода [CompareBookmarks](comparebookmarks-method-ado.md) . Относительное значение закладки редко требуется, если не определенную закладку каким-либо образом специальные.
+В этом примере демонстрируется метод [CompareBookmarks](comparebookmarks-method-ado.md) . Относительные значения закладок редко необходимы, если конкретная закладка не является каким-либо особым.
 
-Назначьте в случайном порядке строке из [набора записей](recordset-object-ado.md) , полученных из таблицы ***авторов*** целевым поиска. Положение каждой строки, относящиеся к, предназначенных для отображения.
+Назначить произвольную строку [набора записей](recordset-object-ado.md) , полученную из таблицы ***authors*** , в качестве целевого объекта поиска. Затем отобразите положение каждой строки относительно целевого объекта.
 
 ```vb 
  

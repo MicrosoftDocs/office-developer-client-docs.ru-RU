@@ -1,5 +1,5 @@
 ---
-title: Метод Database.Close (DAO)
+title: Метод Database. Close (DAO)
 TOCTitle: Close Method
 ms:assetid: b777ee92-172a-3342-31fc-76e7361c47fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822418(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 190b47b59bd9781553912f91156c74a3fd09c2d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295025"
 ---
-# <a name="databaseclose-method-dao"></a>Метод Database.Close (DAO)
+# <a name="databaseclose-method-dao"></a>Метод Database. Close (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Закрывает открыть **базу данных**.
+ЗаКрывает открытую **базу данных**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Закрыть
+*выражение*.Close
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 
 ## <a name="remarks"></a>Замечания
 
-Если объект **базы данных** уже работает при использовании **Закрыть**, возникает ошибка времени выполнения.
+Если объект **Database** уже закрыт при использовании **Close**, возникает ошибка времени выполнения.
 
-Альтернативой метод **Close** — это значение переменной объекта значение **Nothing** (задать dbsTemp = ничего).
+Альтернатива методу **Close** заключается в присвоении объектной переменной значения **Nothing** (Set dbsTemp = Nothing).
 

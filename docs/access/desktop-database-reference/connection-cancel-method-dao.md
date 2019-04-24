@@ -1,5 +1,5 @@
 ---
-title: Метод Connection.Cancel (DAO)
+title: Метод Connection. Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 43ad7b64-823d-3fac-e4d4-5e9514f60011
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a0826a30f22cc46eb6ff9a114dbf02cab1d9f76a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295970"
 ---
-# <a name="connectioncancel-method-dao"></a>Метод Connection.Cancel (DAO)
+# <a name="connectioncancel-method-dao"></a>Метод Connection. Cancel (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Отмена
+*Expression* . Отмена
 
-*выражение* Переменная, которая содержит объект **подключения** .
+*Expression (выражение* ) Переменная, представляющая объект **Connection** .
 
 ## <a name="remarks"></a>Замечания
 
-Использование метода **Cancel** для завершения выполнения асинхронного вызова метода **Execute** или **OpenConnection** (то есть, метод был вызван с параметром dbRunAsync). **Отменить** возвращает ошибку времени выполнения, если в метод, который вы пытаетесь прерывания не используется dbRunAsync.
+Используйте метод **Cancel** для завершения выполнения асинхронного вызова метода **EXECUTE** или **OpenConnection** (то есть метод вызывается с помощью параметра дбрунасинк). **Отмена** возвращает ошибку времени выполнения, если дбрунасинк не использовался в методе, который вы пытаетесь завершить.
 
-Приводит к ошибке при после вызова метода **Отменить** , попробуйте для ссылки на объект, который будет создан с асинхронный вызов **OpenConnection** (то есть, объект **подключения** из которого вызывается **Отмена** метод).
+Ошибка возникает, если после вызова метода **Cancel** вы пытаетесь ссылаться на объект, который был бы создан асинхронным вызовом **OpenConnection** (то есть, с помощью объекта **Connection** , из которого вы вызвали **Cancel** ). метод).
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **StillExecuting** и метод **Cancel** асинхронно Открытие объект **подключения** .
+В этом примере используется свойство **стиллексекутинг** и метод **Cancel** для асинхронного открытия объекта **Connection** .
 
 ```vb
     Sub CancelConnectionX() 
