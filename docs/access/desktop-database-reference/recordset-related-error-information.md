@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 12a67657d5543aac22a49690256b0410a2b901bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708902"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307618"
 ---
-# <a name="recordset-related-error-information"></a><span data-ttu-id="75257-102">Сведения об ошибках, связанных с наборами записей</span><span class="sxs-lookup"><span data-stu-id="75257-102">Recordset-related error information</span></span>
+# <a name="recordset-related-error-information"></a><span data-ttu-id="9f1e5-102">Сведения об ошибках, связанных с наборами записей</span><span class="sxs-lookup"><span data-stu-id="9f1e5-102">Recordset-related error information</span></span>
 
-<span data-ttu-id="75257-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="75257-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9f1e5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f1e5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="75257-104">Во время пакетной обработки свойство **Status** объекта **набора записей** сведения об отдельных записей в **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="75257-104">During batch processing, the **Status** property of the **Recordset** object provides information about the individual records in the **Recordset**.</span></span> <span data-ttu-id="75257-105">Перед обновлением пакета, свойство **Status** **записей** отражает сведения о записях для добавления, изменения и удаления.</span><span class="sxs-lookup"><span data-stu-id="75257-105">Before a batch update takes place, the **Status** property of the **Recordset** reflects information about records to be added, changed and deleted.</span></span> 
+<span data-ttu-id="9f1e5-104">Во время пакетной обработки свойство **Status** объекта **Recordset** предоставляет сведения об отдельных записЯх в **наборе записей**.</span><span class="sxs-lookup"><span data-stu-id="9f1e5-104">During batch processing, the **Status** property of the **Recordset** object provides information about the individual records in the **Recordset**.</span></span> <span data-ttu-id="9f1e5-105">Перед пакетным обновлением в свойстве **Status** объекта **Recordset** отображаются сведения о записях, которые необходимо добавить, изменить и удалить.</span><span class="sxs-lookup"><span data-stu-id="9f1e5-105">Before a batch update takes place, the **Status** property of the **Recordset** reflects information about records to be added, changed and deleted.</span></span> 
 
-<span data-ttu-id="75257-106">После вызова **UpdateBatch** свойство **Status** указывает успешное или неудачное выполнение операции.</span><span class="sxs-lookup"><span data-stu-id="75257-106">After **UpdateBatch** has been called, the **Status** property indicates the success or failure of the operation.</span></span> <span data-ttu-id="75257-107">При перемещении по записям в **набор записей,** значение изменения свойств **состояния** для описания состояние текущей записи.</span><span class="sxs-lookup"><span data-stu-id="75257-107">As you move from record to record in the **Recordset,** the value of the **Status** property changes to describe the status of the current record.</span></span>
+<span data-ttu-id="9f1e5-106">После вызова **UpdateBatch** свойство **Status** указывает на успешное или неудачное выполнение операции.</span><span class="sxs-lookup"><span data-stu-id="9f1e5-106">After **UpdateBatch** has been called, the **Status** property indicates the success or failure of the operation.</span></span> <span data-ttu-id="9f1e5-107">При переходе от записи к записи в **наборе записей** значение свойства **Status** изменяется, чтобы описать состояние текущей записи.</span><span class="sxs-lookup"><span data-stu-id="9f1e5-107">As you move from record to record in the **Recordset,** the value of the **Status** property changes to describe the status of the current record.</span></span>
 

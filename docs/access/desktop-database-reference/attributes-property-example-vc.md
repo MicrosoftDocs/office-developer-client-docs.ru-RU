@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cb5a7050e17dfc1424809cfc5588236ed61d602f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296943"
 ---
-# <a name="attributes-property-example-vc"></a><span data-ttu-id="ca60c-102">Пример использования свойства Attributes (VC++)</span><span class="sxs-lookup"><span data-stu-id="ca60c-102">Attributes property example (VC++)</span></span>
+# <a name="attributes-property-example-vc"></a><span data-ttu-id="ebbce-102">Пример использования свойства Attributes (VC++)</span><span class="sxs-lookup"><span data-stu-id="ebbce-102">Attributes property example (VC++)</span></span>
 
 
-<span data-ttu-id="ca60c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca60c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ebbce-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ebbce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ca60c-104">В этом примере свойство [Attributes](attributes-property-adox.md) [столбца](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="ca60c-104">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="ca60c-105">Установка его **adColNullable** пользователь может задать значение [набора записей](recordset-object-ado.md)[поля](field-object-ado.md) пустую строку.</span><span class="sxs-lookup"><span data-stu-id="ca60c-105">Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string.</span></span> <span data-ttu-id="ca60c-106">В этом случае пользователь может различать записи, где неизвестно данных и запись, где данные не применяется.</span><span class="sxs-lookup"><span data-stu-id="ca60c-106">In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+<span data-ttu-id="ebbce-104">В этом примере показано [](attributes-property-adox.md) свойство Attributes [столбца](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="ebbce-104">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="ebbce-105">Если задать для него значение **адколнуллабле** , пользователь может задать для[поля](field-object-ado.md) [Recordset](recordset-object-ado.md)значение пустая строка.</span><span class="sxs-lookup"><span data-stu-id="ebbce-105">Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string.</span></span> <span data-ttu-id="ebbce-106">В этом случае пользователь может различать записи, в которых неизвестны данные, и запись, в которой данные не применяются.</span><span class="sxs-lookup"><span data-stu-id="ebbce-106">In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
 
 ```cpp 
  
@@ -222,7 +222,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-<span data-ttu-id="ca60c-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="ca60c-107">**ADOXAttributesX.h**</span></span>
+<span data-ttu-id="ebbce-107">**Адоксаттрибутескс. h**</span><span class="sxs-lookup"><span data-stu-id="ebbce-107">**ADOXAttributesX.h**</span></span>
 
 ```cpp
     // BeginAttributesH 

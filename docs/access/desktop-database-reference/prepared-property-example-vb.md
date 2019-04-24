@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a4d66edef0ca8a789c912d3c4d00c57f4a17ef36
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301451"
 ---
-# <a name="prepared-property-example-vb"></a><span data-ttu-id="df0e9-102">Пример использования свойства Prepared (VB)</span><span class="sxs-lookup"><span data-stu-id="df0e9-102">Prepared property example (VB)</span></span>
+# <a name="prepared-property-example-vb"></a><span data-ttu-id="3420b-102">Пример использования свойства Prepared (VB)</span><span class="sxs-lookup"><span data-stu-id="3420b-102">Prepared property example (VB)</span></span>
 
 
-<span data-ttu-id="df0e9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="df0e9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3420b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3420b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="df0e9-104">В этом примере демонстрируется свойство [подготовленных](prepared-property-ado.md) , открыв два объекта [команд](command-object-ado.md) — подготовлено и не подготовлен.</span><span class="sxs-lookup"><span data-stu-id="df0e9-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="3420b-104">В этом примере показано свойство [Prepared](prepared-property-ado.md) , открывающее два объекта [Command](command-object-ado.md) — один подготовленный и один не подготовленный.</span><span class="sxs-lookup"><span data-stu-id="3420b-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```vb 
  

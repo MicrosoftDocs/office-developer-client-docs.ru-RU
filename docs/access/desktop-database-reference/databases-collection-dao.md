@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbaa0fe7aaa50c8aec582e2f03cd2849268816b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294647"
 ---
-# <a name="databases-collection-dao"></a><span data-ttu-id="3a20f-102">Коллекция баз данных (DAO)</span><span class="sxs-lookup"><span data-stu-id="3a20f-102">Databases collection (DAO)</span></span>
+# <a name="databases-collection-dao"></a><span data-ttu-id="7b169-102">Коллекция баз данных (DAO)</span><span class="sxs-lookup"><span data-stu-id="7b169-102">Databases collection (DAO)</span></span>
 
-<span data-ttu-id="3a20f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a20f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7b169-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b169-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3a20f-104">Коллекция **баз данных** содержит все открытые объекты **базы данных** открывается или созданы в **рабочей области для** объекта.</span><span class="sxs-lookup"><span data-stu-id="3a20f-104">A **Databases** collection contains all open **Database** objects opened or created in a **Workspace** object.</span></span>
+<span data-ttu-id="7b169-104">Коллекция **баз данных** содержит все открытые объекты **базы данных** , открытые или созданные в объекте **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="7b169-104">A **Databases** collection contains all open **Database** objects opened or created in a **Workspace** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3a20f-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="3a20f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7b169-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="7b169-105">Remarks</span></span>
 
-<span data-ttu-id="3a20f-106">При открытии существующего объекта **базы данных** или создайте новый из **рабочей области**, автоматически добавляется в коллекцию **баз данных** .</span><span class="sxs-lookup"><span data-stu-id="3a20f-106">When you open an existing **Database** object or create a new one from a **Workspace**, it is automatically appended to the **Databases** collection.</span></span> <span data-ttu-id="3a20f-107">При закрытии объекта **базы данных** с помощью метода **[закрытия](connection-close-method-dao.md)** , удалены из коллекции **баз данных** , но не удаляется с диска.</span><span class="sxs-lookup"><span data-stu-id="3a20f-107">When you close a **Database** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Databases** collection but not deleted from disk.</span></span> <span data-ttu-id="3a20f-108">Закройте все открытые объекты **набора записей** перед закрытием объекта **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="3a20f-108">You should close all open **Recordset** objects before closing a **Database** object.</span></span>
+<span data-ttu-id="7b169-106">Когда вы открываете существующий объект **базы данных** или создаете новый в **рабочей области**, он автоматически добавляется в коллекцию **баз данных** .</span><span class="sxs-lookup"><span data-stu-id="7b169-106">When you open an existing **Database** object or create a new one from a **Workspace**, it is automatically appended to the **Databases** collection.</span></span> <span data-ttu-id="7b169-107">При закрытии объекта **базы данных** с помощью метода **[Close](connection-close-method-dao.md)** он удаляется из коллекции **баз данных** , но не удаляется с диска.</span><span class="sxs-lookup"><span data-stu-id="7b169-107">When you close a **Database** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Databases** collection but not deleted from disk.</span></span> <span data-ttu-id="7b169-108">Перед закрытием объекта **базы данных** следует закрыть все открытые объекты **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="7b169-108">You should close all open **Recordset** objects before closing a **Database** object.</span></span>
 
-<span data-ttu-id="3a20f-109">В рабочей области Microsoft Access **свойства Name базы данных** — это строка, которая указывает путь к файлу базы данных.</span><span class="sxs-lookup"><span data-stu-id="3a20f-109">In a Microsoft Access workspace, the **Name** property setting of a database is a string that specifies the path of the database file.</span></span>
+<span data-ttu-id="7b169-109">В рабочей области Microsoft Access значение свойства " **имя** " базы данных — это строка, указывающая путь к файлу базы данных.</span><span class="sxs-lookup"><span data-stu-id="7b169-109">In a Microsoft Access workspace, the **Name** property setting of a database is a string that specifies the path of the database file.</span></span>
 
-<span data-ttu-id="3a20f-110">Для ссылки на объект **базы данных** в семействе сайтов, с его порядковый номер или **его свойства Name** , используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="3a20f-110">To refer to a **Database** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="7b169-110">Чтобы сослаться на объект **базы данных** в коллекции по порядковому номеру или по его свойству **Name** , используйте любую из следующих синтаксических форм:</span><span class="sxs-lookup"><span data-stu-id="7b169-110">To refer to a **Database** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-- <span data-ttu-id="3a20f-111">**Базы данных** (0)</span><span class="sxs-lookup"><span data-stu-id="3a20f-111">**Databases**(0)</span></span>
+- <span data-ttu-id="7b169-111">**Базы данных** нуль</span><span class="sxs-lookup"><span data-stu-id="7b169-111">**Databases**(0)</span></span>
 
-- <span data-ttu-id="3a20f-112">**Базы данных** («*имя*»)</span><span class="sxs-lookup"><span data-stu-id="3a20f-112">**Databases**("*name*")</span></span>
+- <span data-ttu-id="7b169-112">**Базы данных** ("*имя*")</span><span class="sxs-lookup"><span data-stu-id="7b169-112">**Databases**("*name*")</span></span>
 
-- <span data-ttu-id="3a20f-113">**Базы данных**\!\[*имя*\]</span><span class="sxs-lookup"><span data-stu-id="3a20f-113">**Databases**\!\[*name*\]</span></span>
+- <span data-ttu-id="7b169-113">**Имя базы данных**\!\[\*\*\]</span><span class="sxs-lookup"><span data-stu-id="7b169-113">**Databases**\!\[*name*\]</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3a20f-114">Можно открыть один и тот же источник данных или базы данных более одного раза, Создание повторяющихся имен в семействе **баз данных** .</span><span class="sxs-lookup"><span data-stu-id="3a20f-114">You can open the same data source or database more than once, creating duplicate names in the **Databases** collection.</span></span> <span data-ttu-id="3a20f-115">Следует назначать объектных переменных объектов **базы данных** и обращаться к ним с именем переменной.</span><span class="sxs-lookup"><span data-stu-id="3a20f-115">You should assign **Database** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="7b169-114">Вы можете открыть один и тот же источник данных или базу данных несколько раз, создав повторяющиеся имена в коллекции **баз данных** .</span><span class="sxs-lookup"><span data-stu-id="7b169-114">You can open the same data source or database more than once, creating duplicate names in the **Databases** collection.</span></span> <span data-ttu-id="7b169-115">Необходимо назначить объекты **базы данных** переменным объектов и ссылаться на них по имени переменной.</span><span class="sxs-lookup"><span data-stu-id="7b169-115">You should assign **Database** objects to object variables and refer to them by variable name.</span></span>
 
-## <a name="example"></a><span data-ttu-id="3a20f-116">Пример</span><span class="sxs-lookup"><span data-stu-id="3a20f-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7b169-116">Пример</span><span class="sxs-lookup"><span data-stu-id="7b169-116">Example</span></span>
 
-<span data-ttu-id="3a20f-117">В этом примере создается новый объект **базы данных** и открывает существующий объект **базы данных** в объекте **рабочей области** по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="3a20f-117">This example creates a new **Database** object and opens an existing **Database** object in the default **Workspace** object.</span></span> <span data-ttu-id="3a20f-118">Затем перечисляет набор **баз данных** и коллекции **свойств** каждого объекта **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="3a20f-118">Then it enumerates the **Database** collection and the **Properties** collection of each **Database** object.</span></span>
+<span data-ttu-id="7b169-117">В этом примере показано, как создать объект **базы данных** и открыть существующий объект **базы данных** в объекте **рабочей области** по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7b169-117">This example creates a new **Database** object and opens an existing **Database** object in the default **Workspace** object.</span></span> <span data-ttu-id="7b169-118">Затем выполняется перечисление коллекции **баз данных** и коллекции **свойств** каждого объекта **Database** .</span><span class="sxs-lookup"><span data-stu-id="7b169-118">Then it enumerates the **Database** collection and the **Properties** collection of each **Database** object.</span></span>
 
 ```vb 
 Sub DatabaseObjectX() 
@@ -86,7 +86,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="3a20f-119">В этом примере используется **CreateDatabase** для создания нового, зашифрованные объекта **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="3a20f-119">This example uses **CreateDatabase** to create a new, encrypted **Database** object.</span></span>
+<span data-ttu-id="7b169-119">В этом примере используется **CreateDatabase** для создания нового зашифрованного объекта **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="7b169-119">This example uses **CreateDatabase** to create a new, encrypted **Database** object.</span></span>
 
 ```vb
     Sub CreateDatabaseX() 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection.StillExecuting (DAO)
+title: Свойство Connection. Стиллексекутинг (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0121f98a-cc23-5b5e-9a75-28307404a9a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844743(v=office.15)
@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 616e2bc6e374d7aba17c5cd07030469d8941014c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295795"
 ---
-# <a name="connectionstillexecuting-property-dao"></a><span data-ttu-id="4ba14-102">Свойство Connection.StillExecuting (DAO)</span><span class="sxs-lookup"><span data-stu-id="4ba14-102">Connection.StillExecuting property (DAO)</span></span>
+# <a name="connectionstillexecuting-property-dao"></a><span data-ttu-id="578c7-102">Свойство Connection. Стиллексекутинг (DAO)</span><span class="sxs-lookup"><span data-stu-id="578c7-102">Connection.StillExecuting property (DAO)</span></span>
 
-<span data-ttu-id="4ba14-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4ba14-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="578c7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="578c7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4ba14-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4ba14-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="578c7-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="578c7-104">Syntax</span></span>
 
-<span data-ttu-id="4ba14-105">*выражение* . StillExecuting</span><span class="sxs-lookup"><span data-stu-id="4ba14-105">*expression* .StillExecuting</span></span>
+<span data-ttu-id="578c7-105">*Expression* . Стиллексекутинг</span><span class="sxs-lookup"><span data-stu-id="578c7-105">*expression* .StillExecuting</span></span>
 
-<span data-ttu-id="4ba14-106">*выражение* Переменная, которая содержит объект **подключения** .</span><span class="sxs-lookup"><span data-stu-id="4ba14-106">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="578c7-106">*Expression (выражение* ) Переменная, представляющая объект **Connection** .</span><span class="sxs-lookup"><span data-stu-id="578c7-106">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4ba14-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="4ba14-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="578c7-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="578c7-107">Remarks</span></span>
 
-<span data-ttu-id="4ba14-108">Свойство **StillExecuting** определяет наиболее недавно вызванный асинхронный метод **OpenConnection** (то есть, метод выполнен с помощью параметра **dbRunAsync** ) или **выполнить** завершена.</span><span class="sxs-lookup"><span data-stu-id="4ba14-108">Use the **StillExecuting** property to determine if the most recently called asynchronous **Execute** or **OpenConnection** method (that is, a method executed with the **dbRunAsync** option) is complete.</span></span> <span data-ttu-id="4ba14-109">Хотя свойство **StillExecuting** имеет **значение True**, любой возвращенный объект не были доступны.</span><span class="sxs-lookup"><span data-stu-id="4ba14-109">While the **StillExecuting** property is **True**, any returned object cannot be accessed.</span></span>
+<span data-ttu-id="578c7-108">Используйте свойство **стиллексекутинг** , чтобы определить, завершен ли последний вызов метода асинхронного **выполнения** или **OpenConnection** (то есть метод, выполняемый с параметром **дбрунасинк** ).</span><span class="sxs-lookup"><span data-stu-id="578c7-108">Use the **StillExecuting** property to determine if the most recently called asynchronous **Execute** or **OpenConnection** method (that is, a method executed with the **dbRunAsync** option) is complete.</span></span> <span data-ttu-id="578c7-109">Несмотря на то, что свойство **стиллексекутинг** имеет **значение true**, доступ к возвращенному объекту невозможен.</span><span class="sxs-lookup"><span data-stu-id="578c7-109">While the **StillExecuting** property is **True**, any returned object cannot be accessed.</span></span>
 
-<span data-ttu-id="4ba14-110">Как только свойство **StillExecuting** возвращает **значение False**, следующий за вызовом **OpenConnection** , которое возвращает связанный объект **подключения** можно ссылка на объект.</span><span class="sxs-lookup"><span data-stu-id="4ba14-110">Once the **StillExecuting** property returns **False**, following the **OpenConnection** call that returns the associated **Connection** object, the object can be referenced.</span></span> <span data-ttu-id="4ba14-111">До тех пор, пока **StillExecuting** остается равным **True**, объект не может существовать ссылок, отличный от для чтения свойство **StillExecuting** .</span><span class="sxs-lookup"><span data-stu-id="4ba14-111">So long as **StillExecuting** remains **True**, the object may not be referenced, other than to read the **StillExecuting** property.</span></span>
+<span data-ttu-id="578c7-110">После того как свойство **стиллексекутинг** возвращает **значение false**, после вызова **OpenConnection** , возвращающего связанный объект **Connection** , можно ссылаться на объект.</span><span class="sxs-lookup"><span data-stu-id="578c7-110">Once the **StillExecuting** property returns **False**, following the **OpenConnection** call that returns the associated **Connection** object, the object can be referenced.</span></span> <span data-ttu-id="578c7-111">До тех пор пока **стиллексекутинг** остается **true**, на объект не может быть ссылок, кроме чтения свойства **стиллексекутинг** .</span><span class="sxs-lookup"><span data-stu-id="578c7-111">So long as **StillExecuting** remains **True**, the object may not be referenced, other than to read the **StillExecuting** property.</span></span>
 
-<span data-ttu-id="4ba14-112">Используйте метод **[Cancel](connection-cancel-method-dao.md)** для завершения выполнения задачи в процессе выполнения.</span><span class="sxs-lookup"><span data-stu-id="4ba14-112">Use the **[Cancel](connection-cancel-method-dao.md)** method to terminate execution of a task in progress.</span></span>
+<span data-ttu-id="578c7-112">Используйте метод **[Cancel](connection-cancel-method-dao.md)** , чтобы прекратить выполнение задачи в ходе выполнения.</span><span class="sxs-lookup"><span data-stu-id="578c7-112">Use the **[Cancel](connection-cancel-method-dao.md)** method to terminate execution of a task in progress.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4ba14-113">Пример</span><span class="sxs-lookup"><span data-stu-id="4ba14-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="578c7-113">Пример</span><span class="sxs-lookup"><span data-stu-id="578c7-113">Example</span></span>
 
-<span data-ttu-id="4ba14-114">В этом примере используется свойство **StillExecuting** и метод **Cancel** асинхронно Открытие объект **подключения** .</span><span class="sxs-lookup"><span data-stu-id="4ba14-114">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
+<span data-ttu-id="578c7-114">В этом примере используется свойство **стиллексекутинг** и метод **Cancel** для асинхронного открытия объекта **Connection** .</span><span class="sxs-lookup"><span data-stu-id="578c7-114">This example uses the **StillExecuting** property and the **Cancel** method to asynchronously open a **Connection** object.</span></span>
 
 ```vb
     Sub CancelConnectionX() 

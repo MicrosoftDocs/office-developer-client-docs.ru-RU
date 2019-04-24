@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.Relations (DAO)
+title: Свойство Database. отношениях (DAO)
 TOCTitle: Relations Property
 ms:assetid: 7b2f9cfb-72f2-4641-8af9-3a4d1cd887ce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196193(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e14cfde828322fee22b8a833bdbc7934900953a7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294724"
 ---
-# <a name="databaserelations-property-dao"></a><span data-ttu-id="6762e-102">Свойство Database.Relations (DAO)</span><span class="sxs-lookup"><span data-stu-id="6762e-102">Database.Relations property (DAO)</span></span>
+# <a name="databaserelations-property-dao"></a><span data-ttu-id="9fa62-102">Свойство Database. отношениях (DAO)</span><span class="sxs-lookup"><span data-stu-id="9fa62-102">Database.Relations property (DAO)</span></span>
 
 
-<span data-ttu-id="6762e-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6762e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9fa62-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9fa62-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6762e-104">Возвращает коллекцию **отношений** , который содержит все хранимые объекты **отношения** для указанной базы данных.</span><span class="sxs-lookup"><span data-stu-id="6762e-104">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database.</span></span> <span data-ttu-id="6762e-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="6762e-105">Read-only.</span></span>
+<span data-ttu-id="9fa62-104">Возвращает коллекцию **связей** , содержащую все хранимые объекты **relation** для указанной базы данных.</span><span class="sxs-lookup"><span data-stu-id="9fa62-104">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database.</span></span> <span data-ttu-id="9fa62-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9fa62-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6762e-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6762e-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9fa62-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9fa62-106">Syntax</span></span>
 
-<span data-ttu-id="6762e-107">*выражение* . Отношения</span><span class="sxs-lookup"><span data-stu-id="6762e-107">*expression* .Relations</span></span>
+<span data-ttu-id="9fa62-107">*Expression* . Отношениях</span><span class="sxs-lookup"><span data-stu-id="9fa62-107">*expression* .Relations</span></span>
 
-<span data-ttu-id="6762e-108">*выражение* Переменная, которая представляет собой объект **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="6762e-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="9fa62-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="9fa62-108">*expression* A variable that represents a **Database** object.</span></span>
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b8e817557c882a28365677a8f5e5ae7f677f4fc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295956"
 ---
-# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="9453d-102">Метод Close подключения, пример свойства Type таблицы (VC++)</span><span class="sxs-lookup"><span data-stu-id="9453d-102">Connection Close method, Table Type property example (VC++)</span></span>
+# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="3973d-102">Метод Close подключения, пример свойства Type таблицы (VC++)</span><span class="sxs-lookup"><span data-stu-id="3973d-102">Connection Close method, Table Type property example (VC++)</span></span>
 
 
-<span data-ttu-id="9453d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9453d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3973d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3973d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9453d-104">Для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** «закрыть» каталог.</span><span class="sxs-lookup"><span data-stu-id="9453d-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog.</span></span> <span data-ttu-id="9453d-105">Связанные коллекции будет пустым.</span><span class="sxs-lookup"><span data-stu-id="9453d-105">Associated collections will be empty.</span></span> <span data-ttu-id="9453d-106">Любые объекты, которые были созданы на основе схемы объектам в каталоге будут изолированы.</span><span class="sxs-lookup"><span data-stu-id="9453d-106">Any objects that were created from schema objects in the catalog will be orphaned.</span></span> <span data-ttu-id="9453d-107">Любые свойства на те объекты, которые были кэшированы по-прежнему доступны, но при чтении свойства, которые требуют вызова к поставщику завершится с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="9453d-107">Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="3973d-104">Если задать для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** , каталог будет закрыт.</span><span class="sxs-lookup"><span data-stu-id="3973d-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog.</span></span> <span data-ttu-id="3973d-105">СоПоставленные коллекции будут пустыми.</span><span class="sxs-lookup"><span data-stu-id="3973d-105">Associated collections will be empty.</span></span> <span data-ttu-id="3973d-106">Все объекты, созданные из объектов схемы в каталоге, будут потеряны.</span><span class="sxs-lookup"><span data-stu-id="3973d-106">Any objects that were created from schema objects in the catalog will be orphaned.</span></span> <span data-ttu-id="3973d-107">Все свойства для этих объектов, которые были кэшированы, будут доступны, но попытка чтения свойств, требующих вызова поставщика, завершится с ошибками.</span><span class="sxs-lookup"><span data-stu-id="3973d-107">Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```cpp 
  

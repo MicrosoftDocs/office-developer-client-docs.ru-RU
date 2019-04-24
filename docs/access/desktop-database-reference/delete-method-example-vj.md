@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 586dc434dfe2c3176232a98fe63005300ce13d55
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294073"
 ---
-# <a name="delete-method-example-vj"></a><span data-ttu-id="eed6a-102">Пример использования метода Delete (VJ++)</span><span class="sxs-lookup"><span data-stu-id="eed6a-102">Delete method example (VJ++)</span></span>
+# <a name="delete-method-example-vj"></a><span data-ttu-id="ec294-102">Пример использования метода Delete (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ec294-102">Delete method example (VJ++)</span></span>
 
 
-<span data-ttu-id="eed6a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eed6a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec294-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec294-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="eed6a-104">В этом примере с помощью метода [Delete](delete-method-ado-recordset.md) для удаления определенной записи из [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="eed6a-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="ec294-104">В этом примере используется метод [Delete](delete-method-ado-recordset.md) для удаления указанной записи из объекта [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="ec294-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```java 
  

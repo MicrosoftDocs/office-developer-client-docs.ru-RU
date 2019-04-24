@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e23cf573d51e52c74f4bbf24801f4bd6f47ea22a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306925"
 ---
-# <a name="sort-property-example-vc"></a><span data-ttu-id="29e53-102">Пример использования свойства Sort (VC++)</span><span class="sxs-lookup"><span data-stu-id="29e53-102">Sort property example (VC++)</span></span>
+# <a name="sort-property-example-vc"></a><span data-ttu-id="85e6a-102">Пример использования свойства Sort (VC++)</span><span class="sxs-lookup"><span data-stu-id="85e6a-102">Sort property example (VC++)</span></span>
 
 
-<span data-ttu-id="29e53-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="29e53-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="85e6a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85e6a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="29e53-104">В этом примере используется свойство [сортировки](sort-property-ado.md) объекта [набора записей](recordset-object-ado.md) для изменения порядка строк **набора записей** , полученных из таблицы ***авторов*** базы данных **Pubs** .</span><span class="sxs-lookup"><span data-stu-id="29e53-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database.</span></span> <span data-ttu-id="29e53-105">Дополнительный служебной процедуры печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="29e53-105">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="85e6a-104">В этом примере используется свойство [Sort](sort-property-ado.md) объекта [Recordset](recordset-object-ado.md) для изменения порядка строк в **наборе записей** , полученном из таблицы ***authors*** базы данных **pubs** .</span><span class="sxs-lookup"><span data-stu-id="85e6a-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database.</span></span> <span data-ttu-id="85e6a-105">Дополнительная вспомогательная программа печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="85e6a-105">A secondary utility routine prints each row.</span></span>
 
 ```cpp 
  

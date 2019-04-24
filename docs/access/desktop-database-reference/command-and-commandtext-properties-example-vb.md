@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 99570fc54cc7393d3dff7c51e81df086696b58f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296194"
 ---
-# <a name="command-and-commandtext-properties-example-vb"></a><span data-ttu-id="ce446-102">Пример использования свойств Command и CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="ce446-102">Command and CommandText properties example (VB)</span></span>
+# <a name="command-and-commandtext-properties-example-vb"></a><span data-ttu-id="48fa5-102">Пример использования свойств Command и CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="48fa5-102">Command and CommandText properties example (VB)</span></span>
 
 
-<span data-ttu-id="ce446-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce446-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="48fa5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48fa5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ce446-104">Следующий код демонстрирует использование свойства [команда](command-property-adox.md) обновление текста процедуры.</span><span class="sxs-lookup"><span data-stu-id="ce446-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
+<span data-ttu-id="48fa5-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) для обновления текста процедуры.</span><span class="sxs-lookup"><span data-stu-id="48fa5-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
 
 ```vb 
  

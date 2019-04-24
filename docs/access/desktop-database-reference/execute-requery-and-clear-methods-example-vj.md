@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2d8af2ac4dc49d8ff2236ac49f372864d0d21f6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293282"
 ---
-# <a name="execute-requery-and-clear-methods-example-vj"></a><span data-ttu-id="336d5-102">Пример использования методов Execute, Requery и Clear (VJ++)</span><span class="sxs-lookup"><span data-stu-id="336d5-102">Execute, Requery, and Clear methods example (VJ++)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vj"></a><span data-ttu-id="03b66-102">Пример использования методов Execute, Requery и Clear (VJ++)</span><span class="sxs-lookup"><span data-stu-id="03b66-102">Execute, Requery, and Clear methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="336d5-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="336d5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="03b66-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="03b66-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="336d5-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="336d5-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="336d5-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в наборе записей и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="336d5-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="336d5-106">Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="336d5-106">The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="03b66-104">В этом примере демонстрируется метод **EXECUTE** при выполнении как из объекта [Command](command-object-ado.md) , так и из объекта [Connection](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="03b66-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="03b66-105">Кроме того, он [](requery-method-ado.md) использует метод Requery для получения текущих данных в объекте Recordset, а метод [clear](clear-method-ado.md) — для очистки содержимого коллекции [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="03b66-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="03b66-106">Для выполнения этой процедуры необходимы процедуры ExecuteCommand и Принтаутпут.</span><span class="sxs-lookup"><span data-stu-id="03b66-106">The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
 ```java 
  

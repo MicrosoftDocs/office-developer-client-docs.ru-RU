@@ -1,5 +1,5 @@
 ---
-title: Члены ошибки (DAO)
+title: Элементы Errors (DAO)
 TOCTitle: Errors Members
 ms:assetid: 7e7eb080-16dc-c873-af80-6286222cd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 78e4f74c353990a07ff8c84fa8d984c169d62db9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293387"
 ---
-# <a name="errors-members-dao"></a><span data-ttu-id="0bf33-102">Члены ошибки (DAO)</span><span class="sxs-lookup"><span data-stu-id="0bf33-102">Errors members (DAO)</span></span>
+# <a name="errors-members-dao"></a><span data-ttu-id="0d9fa-102">Элементы Errors (DAO)</span><span class="sxs-lookup"><span data-stu-id="0d9fa-102">Errors members (DAO)</span></span>
 
 
-<span data-ttu-id="0bf33-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0bf33-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0d9fa-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0d9fa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0bf33-104">Семейство Errors содержит все хранимые объекты ошибки, каждая из которых относятся к одной операции, включающие использование DAO.</span><span class="sxs-lookup"><span data-stu-id="0bf33-104">An Errors collection contains all stored Error objects, each of which pertains to a single operation involving DAO.</span></span>
+<span data-ttu-id="0d9fa-104">Коллекция Errors содержит все хранимые объекты Error, каждая из которых относится к одной операции, включающей в себя DAO.</span><span class="sxs-lookup"><span data-stu-id="0d9fa-104">An Errors collection contains all stored Error objects, each of which pertains to a single operation involving DAO.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="0bf33-105">Методы</span><span class="sxs-lookup"><span data-stu-id="0bf33-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="0d9fa-105">Методы</span><span class="sxs-lookup"><span data-stu-id="0d9fa-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -30,20 +30,20 @@ ms.locfileid: "28726003"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0bf33-106">Имя</span><span class="sxs-lookup"><span data-stu-id="0bf33-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="0bf33-107">Описание</span><span class="sxs-lookup"><span data-stu-id="0bf33-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="0d9fa-106">Имя</span><span class="sxs-lookup"><span data-stu-id="0d9fa-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="0d9fa-107">Описание</span><span class="sxs-lookup"><span data-stu-id="0d9fa-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0bf33-108"><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="0bf33-108"><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="0bf33-109">Обновляет объекты в указанном включающий в соответствии с текущей схеме базы данных.</span><span class="sxs-lookup"><span data-stu-id="0bf33-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
+<td><p><span data-ttu-id="0d9fa-108"><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="0d9fa-108"><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="0d9fa-109">Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</span><span class="sxs-lookup"><span data-stu-id="0d9fa-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="0bf33-110">Свойства</span><span class="sxs-lookup"><span data-stu-id="0bf33-110">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="0d9fa-110">Свойства</span><span class="sxs-lookup"><span data-stu-id="0d9fa-110">Properties</span></span>
 
 <table>
 <colgroup>
@@ -52,14 +52,14 @@ ms.locfileid: "28726003"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="0bf33-111">Имя</span><span class="sxs-lookup"><span data-stu-id="0bf33-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="0bf33-112">Описание</span><span class="sxs-lookup"><span data-stu-id="0bf33-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="0d9fa-111">Имя</span><span class="sxs-lookup"><span data-stu-id="0d9fa-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="0d9fa-112">Описание</span><span class="sxs-lookup"><span data-stu-id="0d9fa-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0bf33-113"><strong><a href="errors-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="0bf33-113"><strong><a href="errors-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="0bf33-114">Возвращает число объектов в указанном семействе сайтов.</span><span class="sxs-lookup"><span data-stu-id="0bf33-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="0bf33-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0bf33-115">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="0d9fa-113"><strong><a href="errors-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="0d9fa-113"><strong><a href="errors-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="0d9fa-114">Возвращает число объектов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="0d9fa-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="0d9fa-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0d9fa-115">Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

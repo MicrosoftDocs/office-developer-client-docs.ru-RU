@@ -1,5 +1,5 @@
 ---
-title: Рабочие области для методов (DAO)
+title: Методы рабочих областей (DAO)
 TOCTitle: Methods
 ms:assetid: f664a3b9-e381-4eb7-8abf-314b71be9fb7
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180120(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aa0640769e385d146dfab88976bc1a5ec777b418
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308318"
 ---
-# <a name="workspaces-methods-dao"></a><span data-ttu-id="149d7-102">Рабочие области для методов (DAO)</span><span class="sxs-lookup"><span data-stu-id="149d7-102">Workspaces methods (DAO)</span></span>
+# <a name="workspaces-methods-dao"></a><span data-ttu-id="d1d17-102">Методы рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1d17-102">Workspaces methods (DAO)</span></span>
 
-<span data-ttu-id="149d7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="149d7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d1d17-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1d17-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="149d7-104">Метод Workspaces.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="149d7-104">Workspaces.Append method (DAO)</span></span>](workspaces-append-method-dao.md)
-- [<span data-ttu-id="149d7-105">Метод Workspaces.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="149d7-105">Workspaces.Delete method (DAO)</span></span>](workspaces-delete-method-dao.md)
-- [<span data-ttu-id="149d7-106">Метод Workspaces.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="149d7-106">Workspaces.Refresh method (DAO)</span></span>](workspaces-refresh-method-dao.md)
+- [<span data-ttu-id="d1d17-104">Метод workspaces. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1d17-104">Workspaces.Append method (DAO)</span></span>](workspaces-append-method-dao.md)
+- [<span data-ttu-id="d1d17-105">Метод workspaces. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1d17-105">Workspaces.Delete method (DAO)</span></span>](workspaces-delete-method-dao.md)
+- [<span data-ttu-id="d1d17-106">Метод workspaces. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1d17-106">Workspaces.Refresh method (DAO)</span></span>](workspaces-refresh-method-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef.ReturnsRecords (DAO)
+title: Свойство QueryDef. ReturnsRecords (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -12,34 +12,34 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7d2202aa506750cd0a0d2a84eea5c507c3bb1147
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303341"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a><span data-ttu-id="b236d-102">Свойство QueryDef.ReturnsRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="b236d-102">QueryDef.ReturnsRecords property (DAO)</span></span>
+# <a name="querydefreturnsrecords-property-dao"></a><span data-ttu-id="c6f0a-102">Свойство QueryDef. ReturnsRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="c6f0a-102">QueryDef.ReturnsRecords property (DAO)</span></span>
 
-<span data-ttu-id="b236d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b236d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c6f0a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c6f0a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b236d-104">Задает или возвращает значение, указывающее, возвращает ли запрос к серверу к внешней базе данных записей (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="b236d-104">Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="c6f0a-104">Задает или возвращает значение, указывающее, возвращает ли запрос к серверу SQL Server только записи (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="c6f0a-104">Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b236d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b236d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c6f0a-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c6f0a-105">Syntax</span></span>
 
-<span data-ttu-id="b236d-106">*выражение* . ReturnsRecords</span><span class="sxs-lookup"><span data-stu-id="b236d-106">*expression* .ReturnsRecords</span></span>
+<span data-ttu-id="c6f0a-106">*Expression* . Записей</span><span class="sxs-lookup"><span data-stu-id="c6f0a-106">*expression* .ReturnsRecords</span></span>
 
-<span data-ttu-id="b236d-107">*выражение* Переменная, которая представляет собой объект- **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="b236d-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="c6f0a-107">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="c6f0a-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b236d-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="b236d-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c6f0a-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="c6f0a-108">Remarks</span></span>
 
-<span data-ttu-id="b236d-109">Не все запросы к серверу SQL к внешним базам данных возвращает записи.</span><span class="sxs-lookup"><span data-stu-id="b236d-109">Not all SQL pass-through queries to external databases return records.</span></span> <span data-ttu-id="b236d-110">Например инструкция SQL UPDATE обновляет записи без возвращения записей, пока инструкции SQL SELECT возврата записей.</span><span class="sxs-lookup"><span data-stu-id="b236d-110">For example, an SQL UPDATE statement updates records without returning records, while an SQL SELECT statement does return records.</span></span> <span data-ttu-id="b236d-111">Если запрос возвращает записей, присвойте свойству **ReturnsRecords** значение **True**; Если запрос не возвращает записей, присвойте свойству **ReturnsRecords** значение **False**.</span><span class="sxs-lookup"><span data-stu-id="b236d-111">If the query returns records, set the **ReturnsRecords** property to **True**; if the query doesn't return records, set the **ReturnsRecords** property to **False**.</span></span>
+<span data-ttu-id="c6f0a-109">Не все запросы к серверу SQL возвращаются к внешним базам данных и возвращают записи.</span><span class="sxs-lookup"><span data-stu-id="c6f0a-109">Not all SQL pass-through queries to external databases return records.</span></span> <span data-ttu-id="c6f0a-110">Например, инструкция SQL UPDATE обновляет записи, не возвращая записи, а инструкция SQL SELECT возвращает записи.</span><span class="sxs-lookup"><span data-stu-id="c6f0a-110">For example, an SQL UPDATE statement updates records without returning records, while an SQL SELECT statement does return records.</span></span> <span data-ttu-id="c6f0a-111">Если запрос возвращает записи, задайте для свойства **ReturnsRecords** значение **true**; Если запрос не возвращает записи, задайте для свойства **ReturnsRecords** значение **false**.</span><span class="sxs-lookup"><span data-stu-id="c6f0a-111">If the query returns records, set the **ReturnsRecords** property to **True**; if the query doesn't return records, set the **ReturnsRecords** property to **False**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b236d-112">Необходимо установить свойство **[подключение](querydef-connect-property-dao.md)** , прежде чем задать свойство **ReturnsRecords** .</span><span class="sxs-lookup"><span data-stu-id="b236d-112">You must set the **[Connect](querydef-connect-property-dao.md)** property before you set the **ReturnsRecords** property.</span></span>
+> <span data-ttu-id="c6f0a-112">Перед заданием свойства **ReturnsRecords** необходимо задать свойство **[Connect](querydef-connect-property-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="c6f0a-112">You must set the **[Connect](querydef-connect-property-dao.md)** property before you set the **ReturnsRecords** property.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b236d-113">Пример</span><span class="sxs-lookup"><span data-stu-id="b236d-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c6f0a-113">Пример</span><span class="sxs-lookup"><span data-stu-id="c6f0a-113">Example</span></span>
 
-<span data-ttu-id="b236d-114">В этом примере используется **подключение** и **ReturnsRecords** свойств, выберите верхний пять книги заголовков из базы данных Microsoft SQL Server, используя суммы продаж с начала года.</span><span class="sxs-lookup"><span data-stu-id="b236d-114">This example uses the **Connect** and **ReturnsRecords** properties to select the top five book titles from a Microsoft SQL Server database based on year-to-date sales amounts.</span></span> <span data-ttu-id="b236d-115">В случае точное совпадение в суммы продаж в примере увеличивается размер списка отображения результатов запроса и печатает сообщение о том, почему это произошло.</span><span class="sxs-lookup"><span data-stu-id="b236d-115">In the event of an exact match in sales amounts, the example increases the size of the list displaying the results of the query and prints a message explaining why this occurred.</span></span>
+<span data-ttu-id="c6f0a-114">В этом примере используются свойства **Connect** и **ReturnsRecords** для выбора пяти основных названий книг из базы данных Microsoft SQL Server на основе сумм продаж с начала года.</span><span class="sxs-lookup"><span data-stu-id="c6f0a-114">This example uses the **Connect** and **ReturnsRecords** properties to select the top five book titles from a Microsoft SQL Server database based on year-to-date sales amounts.</span></span> <span data-ttu-id="c6f0a-115">В случае точного совпадения в суммах продаж в примере увеличивается размер списка, в котором отображаются результаты запроса, и выводится сообщение с объяснением причины возникновения.</span><span class="sxs-lookup"><span data-stu-id="c6f0a-115">In the event of an exact match in sales amounts, the example increases the size of the list displaying the results of the query and prints a message explaining why this occurred.</span></span>
 
 ```vb 
 Sub ClientServerX1() 
@@ -105,7 +105,7 @@ Sub ClientServerX1()
 
 <br/>
 
-<span data-ttu-id="b236d-116">В этом примере используется свойство **ReturnsRecords** и пользовательское свойство **LogMessages** для создания запроса к серверу, который будет возвращать данные и все сообщения, создаваемые с удаленного сервера.</span><span class="sxs-lookup"><span data-stu-id="b236d-116">This example uses the **ReturnsRecords** property and the custom **LogMessages** property to create a pass-through query that will return data and any messages generated by the remote server.</span></span>
+<span data-ttu-id="c6f0a-116">В этом примере используется свойство **ReturnsRecords** и свойство Custom **логмессажес** для создания запроса к серверу, который будет возвращать данные и все сообщения, созданные удаленным сервером.</span><span class="sxs-lookup"><span data-stu-id="c6f0a-116">This example uses the **ReturnsRecords** property and the custom **LogMessages** property to create a pass-through query that will return data and any messages generated by the remote server.</span></span>
 
 ```vb 
 Sub LogMessagesX() 

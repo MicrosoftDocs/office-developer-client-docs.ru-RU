@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d8eab8295ec9c3f14277e252467499508f15c491
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307128"
 ---
-# <a name="refresh-method-example-vj"></a><span data-ttu-id="d9e13-102">Пример использования метода Refresh (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d9e13-102">Refresh method example (VJ++)</span></span>
+# <a name="refresh-method-example-vj"></a><span data-ttu-id="9bfef-102">Пример использования метода Refresh (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9bfef-102">Refresh method example (VJ++)</span></span>
 
 
-<span data-ttu-id="d9e13-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9e13-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9bfef-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bfef-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d9e13-104">В этом примере показано использование метода [обновления на](refresh-method-ado.md) обновление коллекцию [параметров](parameters-collection-ado.md) для хранимой процедуры объект [команды](command-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="d9e13-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="9bfef-104">В этом примере демонстрируется использование метода [Refresh](refresh-method-ado.md) для обновления коллекции [Parameters](parameters-collection-ado.md) для объекта [Command](command-object-ado.md) хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="9bfef-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
 
 ```java 
  

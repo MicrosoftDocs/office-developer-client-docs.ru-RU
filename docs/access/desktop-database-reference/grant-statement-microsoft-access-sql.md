@@ -1,5 +1,5 @@
 ---
-title: Инструкция GRANT (Microsoft Access SQL)
+title: Оператор GRANT (Microsoft Access SQL)
 TOCTitle: GRANT statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193820(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4357099f8bcb9b2308b5cda3543949765b8c3420
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292134"
 ---
-# <a name="grant-statement-microsoft-access-sql"></a><span data-ttu-id="52086-102">Инструкция GRANT (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="52086-102">GRANT statement (Microsoft Access SQL)</span></span>
+# <a name="grant-statement-microsoft-access-sql"></a><span data-ttu-id="c2ca8-102">Оператор GRANT (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="c2ca8-102">GRANT statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="52086-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="52086-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c2ca8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2ca8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="52086-104">Предоставление определенных привилегий существующему пользователю или группе.</span><span class="sxs-lookup"><span data-stu-id="52086-104">Grants specific privileges to an existing user or group.</span></span>
+<span data-ttu-id="c2ca8-104">Предоставляет определенные привилегии существующему пользователю или группе.</span><span class="sxs-lookup"><span data-stu-id="c2ca8-104">Grants specific privileges to an existing user or group.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="52086-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="52086-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c2ca8-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c2ca8-105">Syntax</span></span>
 
-<span data-ttu-id="52086-106">Предоставление {*принципу предоставления минимальных прав*\[, *принципу предоставления минимальных прав*,... \]} Д {таблицы в *таблице* | Объект *object*|</span><span class="sxs-lookup"><span data-stu-id="52086-106">GRANT {*privilege*\[, *privilege*, …\]} ON{TABLE *table* | OBJECT *object*|</span></span>
+<span data-ttu-id="c2ca8-106">Grant {*привилегия*\[, *привилегия*,... \]} В *таблице* {Table | *Объект* Object|</span><span class="sxs-lookup"><span data-stu-id="c2ca8-106">GRANT {*privilege*\[, *privilege*, …\]} ON{TABLE *table* | OBJECT *object*|</span></span>
 
-<span data-ttu-id="52086-107">КОНТЕЙНЕР *container* } Кому {*имя_обладателя_прав*\[, *имя_обладателя_прав*,... \]}</span><span class="sxs-lookup"><span data-stu-id="52086-107">CONTAINER *container* } TO {*authorizationname*\[, *authorizationname*, …\]}</span></span>
+<span data-ttu-id="c2ca8-107">*Container Container* } to {*аусоризатионнаме*\[, *аусоризатионнаме*,... \]}</span><span class="sxs-lookup"><span data-stu-id="c2ca8-107">CONTAINER *container* } TO {*authorizationname*\[, *authorizationname*, …\]}</span></span>
 
-<span data-ttu-id="52086-108">Инструкция GRANT состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="52086-108">The GRANT statement has these parts:</span></span>
+<span data-ttu-id="c2ca8-108">Оператор GRANT состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="c2ca8-108">The GRANT statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,30 +39,30 @@ ms.locfileid: "28716399"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="52086-109">Часть</span><span class="sxs-lookup"><span data-stu-id="52086-109">Part</span></span></p></th>
-<th><p><span data-ttu-id="52086-110">Описание</span><span class="sxs-lookup"><span data-stu-id="52086-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="c2ca8-109">Часть</span><span class="sxs-lookup"><span data-stu-id="c2ca8-109">Part</span></span></p></th>
+<th><p><span data-ttu-id="c2ca8-110">Описание</span><span class="sxs-lookup"><span data-stu-id="c2ca8-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="52086-111"><em>принципу предоставления минимальных прав</em></span><span class="sxs-lookup"><span data-stu-id="52086-111"><em>privilege</em></span></span></p></td>
-<td><p><span data-ttu-id="52086-112">Принципу предоставления минимальных прав или предоставляемые привилегии.</span><span class="sxs-lookup"><span data-stu-id="52086-112">The privilege or privileges to be granted.</span></span> <span data-ttu-id="52086-113">Привилегии задаются с помощью следующих ключевых слов: выбор, DELETE, INSERT, UPDATE, размещения сообщений, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, создать, SELECTSCHEMA, СХЕМЫ и UPDATEOWNER.</span><span class="sxs-lookup"><span data-stu-id="52086-113">Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-111"><em>правах</em></span><span class="sxs-lookup"><span data-stu-id="c2ca8-111"><em>privilege</em></span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-112">Привилегия или привилегии, которые необходимо получить.</span><span class="sxs-lookup"><span data-stu-id="c2ca8-112">The privilege or privileges to be granted.</span></span> <span data-ttu-id="c2ca8-113">Разрешения указываются с помощью следующих ключевых слов: SELECT, DELETE, INSERT, UPDATE, DROP, СЕЛЕКТСЕКУРИТИ, УПДАТЕСЕКУРИТИ, DBPASSWORD, УПДАТЕИДЕНТИТИ, CREATE, СЕЛЕКТСЧЕМА, SCHEMA и УПДАТЕОВНЕР.</span><span class="sxs-lookup"><span data-stu-id="c2ca8-113">Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="52086-114"><em>TableName</em></span><span class="sxs-lookup"><span data-stu-id="52086-114"><em>tablename</em></span></span></p></td>
-<td><p><span data-ttu-id="52086-115">Любое допустимое имя таблицы.</span><span class="sxs-lookup"><span data-stu-id="52086-115">Any valid table name.</span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-114"><em>TableName</em></span><span class="sxs-lookup"><span data-stu-id="c2ca8-114"><em>tablename</em></span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-115">Любое допустимое имя таблицы.</span><span class="sxs-lookup"><span data-stu-id="c2ca8-115">Any valid table name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="52086-116"><em>object</em></span><span class="sxs-lookup"><span data-stu-id="52086-116"><em>object</em></span></span></p></td>
-<td><p><span data-ttu-id="52086-117">Это могут использовать любой объект не таблицы.</span><span class="sxs-lookup"><span data-stu-id="52086-117">This can encompass any non-table object.</span></span> <span data-ttu-id="52086-118">Сохраненные запрос (представления или процедуры) — один пример.</span><span class="sxs-lookup"><span data-stu-id="52086-118">A stored query (view or procedure) is one example.</span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-116"><em>object</em></span><span class="sxs-lookup"><span data-stu-id="c2ca8-116"><em>object</em></span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-117">Это может охватывать любой объект, не являющийся таблицей.</span><span class="sxs-lookup"><span data-stu-id="c2ca8-117">This can encompass any non-table object.</span></span> <span data-ttu-id="c2ca8-118">Сохраненным запросом (представление или процедура) является один из примеров.</span><span class="sxs-lookup"><span data-stu-id="c2ca8-118">A stored query (view or procedure) is one example.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="52086-119"><em>контейнер</em></span><span class="sxs-lookup"><span data-stu-id="52086-119"><em>container</em></span></span></p></td>
-<td><p><span data-ttu-id="52086-120">Имя допустимого хранилища.</span><span class="sxs-lookup"><span data-stu-id="52086-120">The name of a valid container.</span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-119"><em>Container</em></span><span class="sxs-lookup"><span data-stu-id="c2ca8-119"><em>container</em></span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-120">Имя допустимого контейнера.</span><span class="sxs-lookup"><span data-stu-id="c2ca8-120">The name of a valid container.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="52086-121"><em>имя_обладателя_прав</em></span><span class="sxs-lookup"><span data-stu-id="52086-121"><em>authorizationname</em></span></span></p></td>
-<td><p><span data-ttu-id="52086-122">Имя пользователя или группы.</span><span class="sxs-lookup"><span data-stu-id="52086-122">A user or group name.</span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-121"><em>аусоризатионнаме</em></span><span class="sxs-lookup"><span data-stu-id="c2ca8-121"><em>authorizationname</em></span></span></p></td>
+<td><p><span data-ttu-id="c2ca8-122">Имя пользователя или группы.</span><span class="sxs-lookup"><span data-stu-id="c2ca8-122">A user or group name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

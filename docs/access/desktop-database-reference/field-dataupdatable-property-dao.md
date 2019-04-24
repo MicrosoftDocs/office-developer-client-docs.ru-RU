@@ -1,5 +1,5 @@
 ---
-title: Свойство Field.DataUpdatable (DAO)
+title: Свойство Field. доПускает обновление (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: 08ca57b6-2d7c-36b4-7d51-b76ac5467163
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845029(v=office.15)
@@ -12,35 +12,35 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8678b825f509f483bf70d3aa2f3d767dbf7b0e32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293135"
 ---
-# <a name="fielddataupdatable-property-dao"></a><span data-ttu-id="07232-102">Свойство Field.DataUpdatable (DAO)</span><span class="sxs-lookup"><span data-stu-id="07232-102">Field.DataUpdatable property (DAO)</span></span>
+# <a name="fielddataupdatable-property-dao"></a><span data-ttu-id="1c129-102">Свойство Field. доПускает обновление (DAO)</span><span class="sxs-lookup"><span data-stu-id="1c129-102">Field.DataUpdatable property (DAO)</span></span>
 
 
-<span data-ttu-id="07232-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="07232-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1c129-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c129-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="07232-104">Возвращает значение, указывающее, является ли данные в поля, представленного объектом **[поля](field-object-dao.md)** обновляемым.</span><span class="sxs-lookup"><span data-stu-id="07232-104">Returns a value that indicates whether the data in the field represented by a **[Field](field-object-dao.md)** object is updatable.</span></span>
+<span data-ttu-id="1c129-104">Возвращает значение, которое указывает, можно ли обновлять данные в поле, представленном объектом **[field](field-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="1c129-104">Returns a value that indicates whether the data in the field represented by a **[Field](field-object-dao.md)** object is updatable.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="07232-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="07232-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1c129-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1c129-105">Syntax</span></span>
 
-<span data-ttu-id="07232-106">*выражение* . DataUpdatable</span><span class="sxs-lookup"><span data-stu-id="07232-106">*expression* .DataUpdatable</span></span>
+<span data-ttu-id="1c129-106">*Expression* . Обновляемые с возможностью обновления</span><span class="sxs-lookup"><span data-stu-id="1c129-106">*expression* .DataUpdatable</span></span>
 
-<span data-ttu-id="07232-107">*выражение* Переменная, которая представляет собой объект- **поля** .</span><span class="sxs-lookup"><span data-stu-id="07232-107">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="1c129-107">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="1c129-107">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="07232-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="07232-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1c129-108">Комментарии</span><span class="sxs-lookup"><span data-stu-id="1c129-108">Remarks</span></span>
 
-<span data-ttu-id="07232-109">Это свойство можно используйте для определения, можно ли изменить параметр свойства **[Value](field-value-property-dao.md)** объекта **поля** .</span><span class="sxs-lookup"><span data-stu-id="07232-109">Use this property to determine whether you can change the **[Value](field-value-property-dao.md)** property setting of a **Field** object.</span></span> <span data-ttu-id="07232-110">Это свойство всегда имеет **значение False** для объекта **поля** , **[атрибутов](field-attributes-property-dao.md)** для свойства — это **dbAutoIncrField**.</span><span class="sxs-lookup"><span data-stu-id="07232-110">This property is always **False** on a **Field** object whose **[Attributes](field-attributes-property-dao.md)** property is **dbAutoIncrField**.</span></span>
+<span data-ttu-id="1c129-109">Используйте это свойство, чтобы определить, можно ли изменить значение свойства **[value](field-value-property-dao.md)** объекта **field** .</span><span class="sxs-lookup"><span data-stu-id="1c129-109">Use this property to determine whether you can change the **[Value](field-value-property-dao.md)** property setting of a **Field** object.</span></span> <span data-ttu-id="1c129-110">Это свойство всегда имеет **значение false** для объекта **field** , свойство **[Attributes](field-attributes-property-dao.md)** которого равно **дбаутоинкрфиелд**.</span><span class="sxs-lookup"><span data-stu-id="1c129-110">This property is always **False** on a **Field** object whose **[Attributes](field-attributes-property-dao.md)** property is **dbAutoIncrField**.</span></span>
 
-<span data-ttu-id="07232-111">Можно использовать свойство **DataUpdatable** на объекты **поля** , которые присоединяются к коллекции **[полей](fields-collection-dao.md)** **[QueryDef](querydef-object-dao.md)**, **[записей](recordset-object-dao.md)** и **[отношения](relation-object-dao.md)** объектов, но не коллекции **полей** **[индекса ](index-object-dao.md)** объектов **[TableDef](tabledef-object-dao.md)** или.</span><span class="sxs-lookup"><span data-stu-id="07232-111">You can use the **DataUpdatable** property on **Field** objects that are appended to the **[Fields](fields-collection-dao.md)** collection of **[QueryDef](querydef-object-dao.md)**, **[Recordset](recordset-object-dao.md)**, and **[Relation](relation-object-dao.md)** objects, but not the **Fields** collection of **[Index](index-object-dao.md)** or **[TableDef](tabledef-object-dao.md)** objects.</span></span>
+<span data-ttu-id="1c129-111">Свойство с **возможностью обновления** данных можно использовать для объектов **field** , добавляемых в коллекцию Fields **[](fields-collection-dao.md)** объектов **[QueryDef](querydef-object-dao.md)**, **[Recordset](recordset-object-dao.md)** и **[relation](relation-object-dao.md)** , но не для коллекции **Fields** **[индекса ](index-object-dao.md)** объекты **[tabledef](tabledef-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="1c129-111">You can use the **DataUpdatable** property on **Field** objects that are appended to the **[Fields](fields-collection-dao.md)** collection of **[QueryDef](querydef-object-dao.md)**, **[Recordset](recordset-object-dao.md)**, and **[Relation](relation-object-dao.md)** objects, but not the **Fields** collection of **[Index](index-object-dao.md)** or **[TableDef](tabledef-object-dao.md)** objects.</span></span>
 
-## <a name="example"></a><span data-ttu-id="07232-112">Пример</span><span class="sxs-lookup"><span data-stu-id="07232-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1c129-112">Пример</span><span class="sxs-lookup"><span data-stu-id="1c129-112">Example</span></span>
 
-<span data-ttu-id="07232-113">В этом примере свойства **DataUpdatable** , с помощью первого поля из шести различных **наборов записей**.</span><span class="sxs-lookup"><span data-stu-id="07232-113">This example demonstrates the **DataUpdatable** property using the first field from six different **Recordsets**.</span></span> <span data-ttu-id="07232-114">Функция DataOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="07232-114">The DataOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="1c129-113">В этом примере показано свойство с **возможностью обновления** данных, использующее первое поле из шести разных **наборов записей**.</span><span class="sxs-lookup"><span data-stu-id="1c129-113">This example demonstrates the **DataUpdatable** property using the first field from six different **Recordsets**.</span></span> <span data-ttu-id="1c129-114">Для выполнения этой процедуры требуется функция Output.</span><span class="sxs-lookup"><span data-stu-id="1c129-114">The DataOutput function is required for this procedure to run.</span></span>
 
 ```vb 
 Sub DataUpdatableX() 

@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d05cf352515d8fe4faa868088c9ba9cc8a024145
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297069"
 ---
-# <a name="append-method-adox-users"></a><span data-ttu-id="d896f-102">Метод Append (коллекция Users в ADOX)</span><span class="sxs-lookup"><span data-stu-id="d896f-102">Append method (ADOX Users)</span></span>
+# <a name="append-method-adox-users"></a><span data-ttu-id="ae77a-102">Метод Append (коллекция Users в ADOX)</span><span class="sxs-lookup"><span data-stu-id="ae77a-102">Append method (ADOX Users)</span></span>
 
-<span data-ttu-id="d896f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d896f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ae77a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae77a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d896f-104">Добавляет новый объект [пользователя](user-object-adox.md) в коллекции [пользователей](users-collection-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="d896f-104">Adds a new [User](user-object-adox.md) object to the [Users](users-collection-adox.md) collection.</span></span>
+<span data-ttu-id="ae77a-104">Добавляет новый объект [User](user-object-adox.md) в коллекцию [Users](users-collection-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="ae77a-104">Adds a new [User](user-object-adox.md) object to the [Users](users-collection-adox.md) collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d896f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d896f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ae77a-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ae77a-105">Syntax</span></span>
 
-<span data-ttu-id="d896f-106">*Пользователи*. Добавление*пользователя*\[,*пароль*\]</span><span class="sxs-lookup"><span data-stu-id="d896f-106">*Users*.Append*User*\[,*Password*\]</span></span>
+<span data-ttu-id="ae77a-106">*Пользователи*. Добавление*пользователя*\[,*пароль*\]</span><span class="sxs-lookup"><span data-stu-id="ae77a-106">*Users*.Append*User*\[,*Password*\]</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="d896f-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="d896f-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ae77a-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="ae77a-107">Parameters</span></span>
 
-|<span data-ttu-id="d896f-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="d896f-108">Parameter</span></span>|<span data-ttu-id="d896f-109">Описание</span><span class="sxs-lookup"><span data-stu-id="d896f-109">Description</span></span>|
+|<span data-ttu-id="ae77a-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="ae77a-108">Parameter</span></span>|<span data-ttu-id="ae77a-109">Описание</span><span class="sxs-lookup"><span data-stu-id="ae77a-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="d896f-110">*user*</span><span class="sxs-lookup"><span data-stu-id="d896f-110">*User*</span></span> |<span data-ttu-id="d896f-111">Значение **типа Variant** , содержащее объект **пользователя** для добавления или имя пользователя для создания и добавления.</span><span class="sxs-lookup"><span data-stu-id="d896f-111">A **Variant** value that contains the **User** object to append or the name of the user to create and append.</span></span>|
-|<span data-ttu-id="d896f-112">*Password*</span><span class="sxs-lookup"><span data-stu-id="d896f-112">*Password*</span></span> |<span data-ttu-id="d896f-113">Необязательно.</span><span class="sxs-lookup"><span data-stu-id="d896f-113">Optional.</span></span> <span data-ttu-id="d896f-114">**Строковое** значение, содержащее пароль для пользователя.</span><span class="sxs-lookup"><span data-stu-id="d896f-114">A **String** value that contains the password for the user.</span></span> <span data-ttu-id="d896f-115">Параметр *Password* соответствует значению, указанному с помощью метода [Изменение пароля](changepassword-method-adox.md) объекта **пользователя** .</span><span class="sxs-lookup"><span data-stu-id="d896f-115">The *Password* parameter corresponds to the value specified by the [ChangePassword](changepassword-method-adox.md) method of a **User** object.</span></span>|
+|<span data-ttu-id="ae77a-110">*Пользователь*</span><span class="sxs-lookup"><span data-stu-id="ae77a-110">*User*</span></span> |<span data-ttu-id="ae77a-111">Значение **Variant** , содержащее объект **пользователя** для добавления или имя пользователя, для которого создается и добавляется.</span><span class="sxs-lookup"><span data-stu-id="ae77a-111">A **Variant** value that contains the **User** object to append or the name of the user to create and append.</span></span>|
+|<span data-ttu-id="ae77a-112">*Password*</span><span class="sxs-lookup"><span data-stu-id="ae77a-112">*Password*</span></span> |<span data-ttu-id="ae77a-113">Необязательный атрибут.</span><span class="sxs-lookup"><span data-stu-id="ae77a-113">Optional.</span></span> <span data-ttu-id="ae77a-114">**Строковое** значение, содержащее пароль для пользователя.</span><span class="sxs-lookup"><span data-stu-id="ae77a-114">A **String** value that contains the password for the user.</span></span> <span data-ttu-id="ae77a-115">Параметр *Password* соответствует значению, указанному в методе [ChangePassword](changepassword-method-adox.md) объекта **пользователя** .</span><span class="sxs-lookup"><span data-stu-id="ae77a-115">The *Password* parameter corresponds to the value specified by the [ChangePassword](changepassword-method-adox.md) method of a **User** object.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="d896f-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="d896f-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ae77a-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="ae77a-116">Remarks</span></span>
 
-<span data-ttu-id="d896f-117">Коллекция **пользователей** из [каталога](catalog-object-adox.md) представляет каталога пользователей.</span><span class="sxs-lookup"><span data-stu-id="d896f-117">The **Users** collection of a [Catalog](catalog-object-adox.md) represents all the catalog's users.</span></span> <span data-ttu-id="d896f-118">Коллекция **пользователей** для [группы](group-object-adox.md) представляет пользователей, которые состоят в конкретную группу.</span><span class="sxs-lookup"><span data-stu-id="d896f-118">The **Users** collection for a [Group](group-object-adox.md) represents only the users that have a membership in the specific group.</span></span>
+<span data-ttu-id="ae77a-117">Коллекция **Users** [каталога](catalog-object-adox.md) Users содержит все пользователи каталога.</span><span class="sxs-lookup"><span data-stu-id="ae77a-117">The **Users** collection of a [Catalog](catalog-object-adox.md) represents all the catalog's users.</span></span> <span data-ttu-id="ae77a-118">Коллекция **Users** для [группы](group-object-adox.md) представляет только тех пользователей, у которых есть членство в определенной группе.</span><span class="sxs-lookup"><span data-stu-id="ae77a-118">The **Users** collection for a [Group](group-object-adox.md) represents only the users that have a membership in the specific group.</span></span>
 
-<span data-ttu-id="d896f-119">Если поставщик не поддерживает создание пользователей, произойдет ошибка.</span><span class="sxs-lookup"><span data-stu-id="d896f-119">An error will occur if the provider does not support creating users.</span></span>
+<span data-ttu-id="ae77a-119">Если поставщик не поддерживает создание пользователей, произойдет ошибка.</span><span class="sxs-lookup"><span data-stu-id="ae77a-119">An error will occur if the provider does not support creating users.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d896f-120">Перед добавлением объекта **пользователя** в коллекцию **пользователей** объекта **группы** , объект **пользователя** с тем же [именем](name-property-adox.md) , который будет добавляться должны уже существовать в коллекции **пользователей** из **каталога**.</span><span class="sxs-lookup"><span data-stu-id="d896f-120">Before appending a **User** object to the **Users** collection of a **Group** object, a **User** object with the same [Name](name-property-adox.md) as the one to be appended must already exist in the **Users** collection of the **Catalog**.</span></span>
+> <span data-ttu-id="ae77a-120">Перед добавлением объекта **User** в коллекцию **Users** объекта **Group** объект **пользователя** с тем же [именем](name-property-adox.md) , что и у добавляемОго объекта, должен уже существовать в коллекции Users **каталога**. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="ae77a-120">Before appending a **User** object to the **Users** collection of a **Group** object, a **User** object with the same [Name](name-property-adox.md) as the one to be appended must already exist in the **Users** collection of the **Catalog**.</span></span>
 
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.VisibleValue (DAO)
+title: Свойство field2. Висиблевалуе (DAO)
 TOCTitle: VisibleValue Property
 ms:assetid: 1e023a1a-fd49-7570-42bd-2f4c06ac5e5e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845809(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0161ea66068457b53a9667a6739c3a3a0458c8c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292617"
 ---
-# <a name="field2visiblevalue-property-dao"></a><span data-ttu-id="4f3e7-102">Свойство Field2.VisibleValue (DAO)</span><span class="sxs-lookup"><span data-stu-id="4f3e7-102">Field2.VisibleValue property (DAO)</span></span>
+# <a name="field2visiblevalue-property-dao"></a><span data-ttu-id="49988-102">Свойство field2. Висиблевалуе (DAO)</span><span class="sxs-lookup"><span data-stu-id="49988-102">Field2.VisibleValue property (DAO)</span></span>
 
 
-<span data-ttu-id="4f3e7-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f3e7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="49988-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="49988-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4f3e7-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4f3e7-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="49988-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="49988-104">Syntax</span></span>
 
-<span data-ttu-id="4f3e7-105">*выражение* . VisibleValue</span><span class="sxs-lookup"><span data-stu-id="4f3e7-105">*expression* .VisibleValue</span></span>
+<span data-ttu-id="49988-105">*Expression* . Висиблевалуе</span><span class="sxs-lookup"><span data-stu-id="49988-105">*expression* .VisibleValue</span></span>
 
-<span data-ttu-id="4f3e7-106">*выражение* Переменная, которая представляет собой объект- **поле2** .</span><span class="sxs-lookup"><span data-stu-id="4f3e7-106">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="49988-106">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="49988-106">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4f3e7-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="4f3e7-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="49988-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="49988-107">Remarks</span></span>
 
-<span data-ttu-id="4f3e7-108">Это свойство содержит значение поля, который в данный момент в базе данных на сервере.</span><span class="sxs-lookup"><span data-stu-id="4f3e7-108">This property contains the value of the field that is currently in the database on the server.</span></span> <span data-ttu-id="4f3e7-109">Во время обновления оптимистичный пакета конфликт может возникнуть, где второй клиента изменены тем же полем и записи между время первого клиента извлечения данных и попытку обновления первого клиента.</span><span class="sxs-lookup"><span data-stu-id="4f3e7-109">During an optimistic batch update, a collision may occur where a second client modified the same field and record in between the time the first client retrieved the data and the first client's update attempt.</span></span> <span data-ttu-id="4f3e7-110">В этом случае значение, которое задано второй клиента будет доступен через это свойство.</span><span class="sxs-lookup"><span data-stu-id="4f3e7-110">When this happens, the value that the second client set will be accessible through this property.</span></span>
+<span data-ttu-id="49988-108">Это свойство содержит значение поля, которое в настоящее время находится в базе данных на сервере.</span><span class="sxs-lookup"><span data-stu-id="49988-108">This property contains the value of the field that is currently in the database on the server.</span></span> <span data-ttu-id="49988-109">Во время оптимистического пакетного обновления может произойти конфликт, при котором второй клиент изменил то же поле и записывает данные между моментом, когда первый клиент получил данные, и попытка обновления первого клиента.</span><span class="sxs-lookup"><span data-stu-id="49988-109">During an optimistic batch update, a collision may occur where a second client modified the same field and record in between the time the first client retrieved the data and the first client's update attempt.</span></span> <span data-ttu-id="49988-110">В этом случае значение, которое будет доступно во втором наборе клиентов, будет доступно через это свойство.</span><span class="sxs-lookup"><span data-stu-id="49988-110">When this happens, the value that the second client set will be accessible through this property.</span></span>
 

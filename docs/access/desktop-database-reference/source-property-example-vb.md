@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4e14eeee7c8ea31cf21b045b1d355d7a30ddf96b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306409"
 ---
-# <a name="source-property-example-vb"></a><span data-ttu-id="e9146-102">Пример использования свойства Source (VB)</span><span class="sxs-lookup"><span data-stu-id="e9146-102">Source property example (VB)</span></span>
+# <a name="source-property-example-vb"></a><span data-ttu-id="088f0-102">Пример использования свойства Source (VB)</span><span class="sxs-lookup"><span data-stu-id="088f0-102">Source property example (VB)</span></span>
 
 
-<span data-ttu-id="e9146-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9146-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="088f0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="088f0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e9146-104">В этом примере показано свойство [Source](source-property-ado-recordset.md) , открыв три объекты [набора записей](recordset-object-ado.md) по различным источникам данных.</span><span class="sxs-lookup"><span data-stu-id="e9146-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="088f0-104">В этом примере показано свойство [Source](source-property-ado-recordset.md) , открывающее три объекта [Recordset](recordset-object-ado.md) на основе различных источников данных.</span><span class="sxs-lookup"><span data-stu-id="088f0-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```vb 
  

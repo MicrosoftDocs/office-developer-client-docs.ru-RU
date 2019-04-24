@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 58bde31a3386e3c129933d02e6464de5bc18fd68
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308626"
 ---
-# <a name="sortorder-property-example-vb"></a><span data-ttu-id="b84db-102">Пример использования свойства SortOrder (VB)</span><span class="sxs-lookup"><span data-stu-id="b84db-102">SortOrder property example (VB)</span></span>
+# <a name="sortorder-property-example-vb"></a><span data-ttu-id="23ae5-102">Пример использования свойства SortOrder (VB)</span><span class="sxs-lookup"><span data-stu-id="23ae5-102">SortOrder property example (VB)</span></span>
 
-<span data-ttu-id="b84db-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b84db-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="23ae5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23ae5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b84db-104">В этом примере демонстрируется свойство [SortOrder](sortorder-property-adox.md) [столбец](column-object-adox.md) , который был добавлен к коллекции [столбцов](columns-collection-adox.md) из [индекса](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="b84db-104">This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="b84db-105">Код добавляет по возрастанию индекс столбца страны в таблице **сотрудников** , а затем отображаются записи.</span><span class="sxs-lookup"><span data-stu-id="b84db-105">The code appends an ascending index to the Country column in the **Employees** table, then displays the records.</span></span> <span data-ttu-id="b84db-106">Затем код добавляет по убыванию индекс столбца страны в таблице **Employees** и отображаются записи еще раз.</span><span class="sxs-lookup"><span data-stu-id="b84db-106">Then the code appends a descending index to the Country column in the **Employees** table and displays the records again.</span></span> <span data-ttu-id="b84db-107">Показаны различия между по возрастанию и по убыванию индексов.</span><span class="sxs-lookup"><span data-stu-id="b84db-107">The difference between ascending and descending indexes is shown.</span></span>
+<span data-ttu-id="23ae5-104">В этом примере показано свойство [SortOrder](sortorder-property-adox.md) [столбца](column-object-adox.md) , который был добавлен в коллекцию [Columns](columns-collection-adox.md) [индекса](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="23ae5-104">This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="23ae5-105">Код добавляет индекс по возрастанию в столбец страна в таблице **сотрудники** , а затем отображает записи.</span><span class="sxs-lookup"><span data-stu-id="23ae5-105">The code appends an ascending index to the Country column in the **Employees** table, then displays the records.</span></span> <span data-ttu-id="23ae5-106">Затем код добавляет нисходящий индекс в столбец Country в таблице Employees ( **сотрудники** ) и снова отображает записи.</span><span class="sxs-lookup"><span data-stu-id="23ae5-106">Then the code appends a descending index to the Country column in the **Employees** table and displays the records again.</span></span> <span data-ttu-id="23ae5-107">Разница между индексами по возрастанию и убыванию отображается.</span><span class="sxs-lookup"><span data-stu-id="23ae5-107">The difference between ascending and descending indexes is shown.</span></span>
 
 
 ```vb 

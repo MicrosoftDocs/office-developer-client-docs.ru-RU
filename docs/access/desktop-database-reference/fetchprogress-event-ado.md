@@ -1,5 +1,5 @@
 ---
-title: Событие FetchProgress (ADO)
+title: Событие событие fetchprogress (ADO)
 TOCTitle: FetchProgress event (ADO)
 ms:assetid: 09145d9a-ea5e-b41c-6c54-33ec83e642a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d863f51e7836acdc577ecd720df77114ed66f067
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293184"
 ---
-# <a name="fetchprogress-event-ado"></a><span data-ttu-id="1e975-102">Событие FetchProgress (ADO)</span><span class="sxs-lookup"><span data-stu-id="1e975-102">FetchProgress event (ADO)</span></span>
+# <a name="fetchprogress-event-ado"></a><span data-ttu-id="f8cf6-102">Событие событие fetchprogress (ADO)</span><span class="sxs-lookup"><span data-stu-id="f8cf6-102">FetchProgress event (ADO)</span></span>
 
-<span data-ttu-id="1e975-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e975-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8cf6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8cf6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1e975-104">Событие **FetchProgress** вызывается периодически во время длительных асинхронной операции для отчета, сколько увеличение количества строк в настоящее время извлечения в [набор записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1e975-104">The **FetchProgress** event is called periodically during a lengthy asynchronous operation to report how many more rows have currently been retrieved into the [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="f8cf6-104">Событие **событие fetchprogress** вызывается периодически в течение длительной асинхронной операции, чтобы сообщить, сколько строк в данный момент было извлечено в [набор записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="f8cf6-104">The **FetchProgress** event is called periodically during a lengthy asynchronous operation to report how many more rows have currently been retrieved into the [Recordset](recordset-object-ado.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1e975-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1e975-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f8cf6-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f8cf6-105">Syntax</span></span>
 
-<span data-ttu-id="1e975-106">FetchProgress*о ходе выполнения*, *MaxProgress* *adStatus*, *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="1e975-106">FetchProgress*Progress*, *MaxProgress*, *adStatus*, *pRecordset*</span></span>
+<span data-ttu-id="f8cf6-106">*Ход выполнения*событие fetchprogress, *макспрогресс*, *адстатус*, пред \*\*</span><span class="sxs-lookup"><span data-stu-id="f8cf6-106">FetchProgress*Progress*, *MaxProgress*, *adStatus*, *pRecordset*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="1e975-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="1e975-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f8cf6-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="f8cf6-107">Parameters</span></span>
 
-|<span data-ttu-id="1e975-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="1e975-108">Parameter</span></span>|<span data-ttu-id="1e975-109">Описание</span><span class="sxs-lookup"><span data-stu-id="1e975-109">Description</span></span>|
+|<span data-ttu-id="f8cf6-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="f8cf6-108">Parameter</span></span>|<span data-ttu-id="f8cf6-109">Описание</span><span class="sxs-lookup"><span data-stu-id="f8cf6-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="1e975-110">*Progress*</span><span class="sxs-lookup"><span data-stu-id="1e975-110">*Progress*</span></span> |<span data-ttu-id="1e975-111">**Длинное** значение, указывающее количество записей, которые в настоящее время извлечения с операции выборки.</span><span class="sxs-lookup"><span data-stu-id="1e975-111">A **Long** value indicating the number of records that have currently been retrieved by the fetch operation.</span></span>|
-|<span data-ttu-id="1e975-112">*MaxProgress*</span><span class="sxs-lookup"><span data-stu-id="1e975-112">*MaxProgress*</span></span> |<span data-ttu-id="1e975-113">Значение типа **Long** , указывающее максимальное число записей должен извлечь.</span><span class="sxs-lookup"><span data-stu-id="1e975-113">A **Long** value indicating the maximum number of records expected to be retrieved.</span></span>|
-|<span data-ttu-id="1e975-114">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="1e975-114">*adStatus*</span></span> |<span data-ttu-id="1e975-115">Значение состояния [EventStatusEnum](eventstatusenum.md) .</span><span class="sxs-lookup"><span data-stu-id="1e975-115">An [EventStatusEnum](eventstatusenum.md) status value.</span></span>|
-|<span data-ttu-id="1e975-116">*pRecordset*</span><span class="sxs-lookup"><span data-stu-id="1e975-116">*pRecordset*</span></span> |<span data-ttu-id="1e975-117">Объект **набора записей** , — это объект, для которого извлекаются записи.</span><span class="sxs-lookup"><span data-stu-id="1e975-117">A **Recordset** object that is the object for which the records are being retrieved.</span></span>|
+|<span data-ttu-id="f8cf6-110">*Progress*</span><span class="sxs-lookup"><span data-stu-id="f8cf6-110">*Progress*</span></span> |<span data-ttu-id="f8cf6-111">**Длинное** значение, указывающее количество записей, которые в настоящее время были получены операцией выборки.</span><span class="sxs-lookup"><span data-stu-id="f8cf6-111">A **Long** value indicating the number of records that have currently been retrieved by the fetch operation.</span></span>|
+|<span data-ttu-id="f8cf6-112">*Макспрогресс*</span><span class="sxs-lookup"><span data-stu-id="f8cf6-112">*MaxProgress*</span></span> |<span data-ttu-id="f8cf6-113">**Длинное** значение, указывающее максимальное количество получаемых записей.</span><span class="sxs-lookup"><span data-stu-id="f8cf6-113">A **Long** value indicating the maximum number of records expected to be retrieved.</span></span>|
+|<span data-ttu-id="f8cf6-114">*Адстатус*</span><span class="sxs-lookup"><span data-stu-id="f8cf6-114">*adStatus*</span></span> |<span data-ttu-id="f8cf6-115">Значение состояния [евентстатусенум](eventstatusenum.md) .</span><span class="sxs-lookup"><span data-stu-id="f8cf6-115">An [EventStatusEnum](eventstatusenum.md) status value.</span></span>|
+|<span data-ttu-id="f8cf6-116">*предшнур*</span><span class="sxs-lookup"><span data-stu-id="f8cf6-116">*pRecordset*</span></span> |<span data-ttu-id="f8cf6-117">Объект **Recordset** , представляющий собой объект, для которого извлекаются записи.</span><span class="sxs-lookup"><span data-stu-id="f8cf6-117">A **Recordset** object that is the object for which the records are being retrieved.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="1e975-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="1e975-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f8cf6-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="f8cf6-118">Remarks</span></span>
 
-<span data-ttu-id="1e975-119">При использовании **FetchProgress** с дочерним **записей**, обратите внимание, что значение параметра *хода выполнения* и *MaxProgress* являются производными от в базовом наборе строк [Службы курсора](microsoft-cursor-service-for-ole-db-ado-service-component.md) .</span><span class="sxs-lookup"><span data-stu-id="1e975-119">When using **FetchProgress** with a child **Recordset**, be aware that the *Progress* and *MaxProgress* parameter values are derived from the underlying [Cursor Service](microsoft-cursor-service-for-ole-db-ado-service-component.md) rowset.</span></span> <span data-ttu-id="1e975-120">Возвращаемые значения представляют общее число записей в базовом наборе строк, не только число записей в текущем.</span><span class="sxs-lookup"><span data-stu-id="1e975-120">The values returned represent the total number of records in the underlying rowset, not just the number of records in the current chapter.</span></span>
+<span data-ttu-id="f8cf6-119">При использовании **событие fetchprogress** с дочернИм объектом **Recordset**имейте в виду, что значения параметров *Progress* и *макспрогресс* являются производными от базового набора строк [службы курсора](microsoft-cursor-service-for-ole-db-ado-service-component.md) .</span><span class="sxs-lookup"><span data-stu-id="f8cf6-119">When using **FetchProgress** with a child **Recordset**, be aware that the *Progress* and *MaxProgress* parameter values are derived from the underlying [Cursor Service](microsoft-cursor-service-for-ole-db-ado-service-component.md) rowset.</span></span> <span data-ttu-id="f8cf6-120">Возвращаемые значения представляют общее число записей в базовом наборе строк, а не только число записей в текущей главе.</span><span class="sxs-lookup"><span data-stu-id="f8cf6-120">The values returned represent the total number of records in the underlying rowset, not just the number of records in the current chapter.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1e975-121">Чтобы использовать **FetchProgress** с помощью Microsoft Visual Basic, необходим Visual Basic 6.0 или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="1e975-121">To use **FetchProgress** with Microsoft Visual Basic, Visual Basic 6.0 or later is required.</span></span>
+> <span data-ttu-id="f8cf6-121">Чтобы использовать **событие fetchprogress** с Microsoft Visual Basic, требуется Visual Basic 6,0 или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="f8cf6-121">To use **FetchProgress** with Microsoft Visual Basic, Visual Basic 6.0 or later is required.</span></span>
 
 

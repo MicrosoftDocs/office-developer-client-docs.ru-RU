@@ -1,5 +1,5 @@
 ---
-title: Свойство Workspace.DefaultCursorDriver (DAO)
+title: Свойство Workspace. Дефаулткурсордривер (DAO)
 TOCTitle: DefaultCursorDriver Property
 ms:assetid: 15a8356d-7ae0-3c8e-fbb7-2d8ad6d9a582
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845499(v=office.15)
@@ -12,33 +12,33 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 73567aae9bc332c7113f9128dedc1e2cc8893cab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305931"
 ---
-# <a name="workspacedefaultcursordriver-property-dao"></a><span data-ttu-id="2b2aa-102">Свойство Workspace.DefaultCursorDriver (DAO)</span><span class="sxs-lookup"><span data-stu-id="2b2aa-102">Workspace.DefaultCursorDriver property (DAO)</span></span>
+# <a name="workspacedefaultcursordriver-property-dao"></a><span data-ttu-id="ee7dc-102">Свойство Workspace. Дефаулткурсордривер (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee7dc-102">Workspace.DefaultCursorDriver property (DAO)</span></span>
 
 
-<span data-ttu-id="2b2aa-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b2aa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ee7dc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ee7dc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-## <a name="syntax"></a><span data-ttu-id="2b2aa-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2b2aa-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ee7dc-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ee7dc-104">Syntax</span></span>
 
-<span data-ttu-id="2b2aa-105">*выражение* . DefaultCursorDriver</span><span class="sxs-lookup"><span data-stu-id="2b2aa-105">*expression* .DefaultCursorDriver</span></span>
+<span data-ttu-id="ee7dc-105">*Expression* . Дефаулткурсордривер</span><span class="sxs-lookup"><span data-stu-id="ee7dc-105">*expression* .DefaultCursorDriver</span></span>
 
-<span data-ttu-id="2b2aa-106">*выражение* Переменная, которая представляет собой объект- **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="2b2aa-106">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="ee7dc-106">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="ee7dc-106">*expression* A variable that represents a **Workspace** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2b2aa-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="2b2aa-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ee7dc-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="ee7dc-107">Remarks</span></span>
 
-<span data-ttu-id="2b2aa-108">Параметр или возвращаемое значение может быть установлено одно константы **[CursorDriverEnum](cursordriverenum-enumeration-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="2b2aa-108">The setting or return value can be set to one of the **[CursorDriverEnum](cursordriverenum-enumeration-dao.md)** constants.</span></span>
+<span data-ttu-id="ee7dc-108">Параметру или возвращаемому значению можно присвоить одну из констант **[курсордриверенум](cursordriverenum-enumeration-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="ee7dc-108">The setting or return value can be set to one of the **[CursorDriverEnum](cursordriverenum-enumeration-dao.md)** constants.</span></span>
 
-<span data-ttu-id="2b2aa-109">Значение этого свойства влияет только на подключения, установленные после установки свойства.</span><span class="sxs-lookup"><span data-stu-id="2b2aa-109">This property setting only affects connections established after the property has been set.</span></span> <span data-ttu-id="2b2aa-110">Изменение свойства **DefaultCursorDriver** не влияет на существующие подключения.</span><span class="sxs-lookup"><span data-stu-id="2b2aa-110">Changing the **DefaultCursorDriver** property has no effect on existing connections.</span></span>
+<span data-ttu-id="ee7dc-109">Этот параметр свойства влияет только на подключения, установленные после задания свойства.</span><span class="sxs-lookup"><span data-stu-id="ee7dc-109">This property setting only affects connections established after the property has been set.</span></span> <span data-ttu-id="ee7dc-110">Изменение свойства **дефаулткурсордривер** не оказывает никакого действия для существующих подключений.</span><span class="sxs-lookup"><span data-stu-id="ee7dc-110">Changing the **DefaultCursorDriver** property has no effect on existing connections.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2b2aa-111">Пример</span><span class="sxs-lookup"><span data-stu-id="2b2aa-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ee7dc-111">Пример</span><span class="sxs-lookup"><span data-stu-id="ee7dc-111">Example</span></span>
 
-<span data-ttu-id="2b2aa-112">В этом примере используется метод **NextRecordset** для просмотра данных из составного запроса.</span><span class="sxs-lookup"><span data-stu-id="2b2aa-112">This example uses the **NextRecordset** method to view the data from a compound SELECT query.</span></span> <span data-ttu-id="2b2aa-113">Свойство **DefaultCursorDriver** должно иметь значение **dbUseODBCCursor** при выполнении таких запросов.</span><span class="sxs-lookup"><span data-stu-id="2b2aa-113">The **DefaultCursorDriver** property must be set to **dbUseODBCCursor** when executing such queries.</span></span> <span data-ttu-id="2b2aa-114">Метод **NextRecordset** возвращает **значение True,** даже в том случае, если некоторые или все инструкции SELECT возвращают записей; только после проверки отдельных предложений SQL, он будет возвращать **значение False** .</span><span class="sxs-lookup"><span data-stu-id="2b2aa-114">The **NextRecordset** method will return **True** even if some or all of the SELECT statements return zero records; it will return **False** only after all the individual SQL clauses have been checked.</span></span>
+<span data-ttu-id="ee7dc-112">В этом примере используется метод **NextRecordset** для просмотра данных из составного запроса на выборку.</span><span class="sxs-lookup"><span data-stu-id="ee7dc-112">This example uses the **NextRecordset** method to view the data from a compound SELECT query.</span></span> <span data-ttu-id="ee7dc-113">При выполнении таких запросов свойству **дефаулткурсордривер** должно быть присвоено значение **дбусеодбккурсор** .</span><span class="sxs-lookup"><span data-stu-id="ee7dc-113">The **DefaultCursorDriver** property must be set to **dbUseODBCCursor** when executing such queries.</span></span> <span data-ttu-id="ee7dc-114">Метод **NextRecordset** будет возвращать **значение true** , даже если некоторые или все инструкции SELECT возвращают нулевые записи; он возвратит **значение false** только после того, как все отдельные предложения SQL будут проверены.</span><span class="sxs-lookup"><span data-stu-id="ee7dc-114">The **NextRecordset** method will return **True** even if some or all of the SELECT statements return zero records; it will return **False** only after all the individual SQL clauses have been checked.</span></span>
 
 ```vb
     Sub NextRecordsetX() 
@@ -95,7 +95,7 @@ ms.locfileid: "28721138"
 
 <br/>
 
-Другой способ выполнения этой задачи является создание подготовленной инструкции, содержащий составные инструкции SQL. <span data-ttu-id="2b2aa-116">Свойство **CacheSize** объекта **QueryDef** должен иметь значение 1, и объект **набора записей** должен иметь только вперед и только для чтения.</span><span class="sxs-lookup"><span data-stu-id="2b2aa-116">The **CacheSize** property of the **QueryDef** object must be set to 1, and the **Recordset** object must be forward-only and read-only.</span></span>
+Другой способ выполнить ту же задачу — создать подготовленный оператор, содержащий составной оператор SQL. <span data-ttu-id="ee7dc-116">Свойству **CacheSize** объекта **QueryDef** должно быть присвоено значение 1, а объект **Recordset** должен быть доступен только для чтения и доступен только для чтения.</span><span class="sxs-lookup"><span data-stu-id="ee7dc-116">The **CacheSize** property of the **QueryDef** object must be set to 1, and the **Recordset** object must be forward-only and read-only.</span></span>
 
 ```vb 
 Sub NextRecordsetX2() 
@@ -161,7 +161,7 @@ End Sub
 
 <br/>
 
-В этом примере с помощью свойства **RecordStatus** и **DefaultCursorDriver** для отображения способ отслеживания изменений в локальном **набора записей** во время обновления пакета. <span data-ttu-id="2b2aa-118">Функция RecordStatusOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="2b2aa-118">The RecordStatusOutput function is required for this procedure to run.</span></span>
+В этом примере используются свойства **рекордстатус** и **дефаулткурсордривер** , чтобы показать, как изменения локального **набора записей** отслеживаются во время пакетного обновления. <span data-ttu-id="ee7dc-118">Для выполнения этой процедуры требуется функция Рекордстатусаутпут.</span><span class="sxs-lookup"><span data-stu-id="ee7dc-118">The RecordStatusOutput function is required for this procedure to run.</span></span>
 
 ```vb 
 Sub RecordStatusX() 

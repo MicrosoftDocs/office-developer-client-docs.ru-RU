@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 527f680ca43bf1735e273b23545514f084a69a0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294122"
 ---
-# <a name="definedsize-property-example-vb"></a><span data-ttu-id="f71ff-102">Пример использования свойства DefinedSize (VB)</span><span class="sxs-lookup"><span data-stu-id="f71ff-102">DefinedSize property example (VB)</span></span>
+# <a name="definedsize-property-example-vb"></a><span data-ttu-id="11450-102">Пример использования свойства DefinedSize (VB)</span><span class="sxs-lookup"><span data-stu-id="11450-102">DefinedSize property example (VB)</span></span>
 
 
-<span data-ttu-id="f71ff-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f71ff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11450-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11450-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f71ff-104">В этом примере демонстрируется свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="f71ff-104">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="f71ff-105">Код будет переопределения размера столбце FirstName таблице **Employees** базы данных *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="f71ff-105">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="f71ff-106">Затем отображается на изменение значений [полей](field-object-ado.md) [набора записей](recordset-object-ado.md) , основанного на таблице **Employees** .</span><span class="sxs-lookup"><span data-stu-id="f71ff-106">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="f71ff-107">Обратите внимание на то, что по умолчанию для поля FirstName становится дополняются пробелами после переопределить свойство **DefinedSize** .</span><span class="sxs-lookup"><span data-stu-id="f71ff-107">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
+<span data-ttu-id="11450-104">В этом примере показано свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="11450-104">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="11450-105">Код переопределит размер столбца "FirstName" таблицы Employees базы данных \*\*\*\* *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="11450-105">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="11450-106">Затем отображается изменение значений [поля](field-object-ado.md) FirstName объекта [Recordset](recordset-object-ado.md) на основе таблицы Employees ( **сотрудники** ).</span><span class="sxs-lookup"><span data-stu-id="11450-106">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="11450-107">Обратите внимание, что по умолчанию поле FirstName заполняется пробелами после переопределения свойства **DefinedSize** .</span><span class="sxs-lookup"><span data-stu-id="11450-107">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
 
 ```vb 
  

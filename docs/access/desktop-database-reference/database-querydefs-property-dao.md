@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.QueryDefs (DAO)
+title: Свойство Database. QueryDefs (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: f589eb3c-658f-9bd1-423a-5a641f19b9fa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836728(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d1a16f2ee39233dc42af0afeb3c07d8c4294ac14
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294787"
 ---
-# <a name="databasequerydefs-property-dao"></a><span data-ttu-id="eb0a9-102">Свойство Database.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="eb0a9-102">Database.QueryDefs property (DAO)</span></span>
+# <a name="databasequerydefs-property-dao"></a><span data-ttu-id="1f885-102">Свойство Database. QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="1f885-102">Database.QueryDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="eb0a9-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eb0a9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1f885-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f885-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="eb0a9-104">Возвращает коллекцию **QueryDefs** , который содержит все объекты **QueryDef** с указанной базы данных.</span><span class="sxs-lookup"><span data-stu-id="eb0a9-104">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified database.</span></span> <span data-ttu-id="eb0a9-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="eb0a9-105">Read-only.</span></span>
+<span data-ttu-id="1f885-104">Возвращает коллекцию **QueryDef** , содержащую все объекты **QueryDef** указанной базы данных.</span><span class="sxs-lookup"><span data-stu-id="1f885-104">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified database.</span></span> <span data-ttu-id="1f885-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1f885-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="eb0a9-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="eb0a9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1f885-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1f885-106">Syntax</span></span>
 
-<span data-ttu-id="eb0a9-107">*выражение* . QueryDefs</span><span class="sxs-lookup"><span data-stu-id="eb0a9-107">*expression* .QueryDefs</span></span>
+<span data-ttu-id="1f885-107">*Expression* . QueryDefs</span><span class="sxs-lookup"><span data-stu-id="1f885-107">*expression* .QueryDefs</span></span>
 
-<span data-ttu-id="eb0a9-108">*выражение* Переменная, которая представляет собой объект **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="eb0a9-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="1f885-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="1f885-108">*expression* A variable that represents a **Database** object.</span></span>
 

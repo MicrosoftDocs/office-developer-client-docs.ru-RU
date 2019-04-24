@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2.LockEdits (DAO)
+title: Свойство Recordset2. LockEdits (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: 77055f44-f8e9-ac64-ecc3-144ddb4a4558
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196045(v=office.15)
@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ff2db22dcb0119792eb57a971d3cf36e763d3049
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309648"
 ---
-# <a name="recordset2lockedits-property-dao"></a><span data-ttu-id="dd96f-102">Свойство Recordset2.LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd96f-102">Recordset2.LockEdits property (DAO)</span></span>
+# <a name="recordset2lockedits-property-dao"></a><span data-ttu-id="acb4a-102">Свойство Recordset2. LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="acb4a-102">Recordset2.LockEdits property (DAO)</span></span>
 
-<span data-ttu-id="dd96f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd96f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="acb4a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="acb4a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dd96f-104">Задает или возвращает значение, указывающее тип блокировки, который фактически во время редактирования.</span><span class="sxs-lookup"><span data-stu-id="dd96f-104">Sets or returns a value indicating the type of locking that is in effect while editing.</span></span>
+<span data-ttu-id="acb4a-104">Задает или возвращает значение, определяющее тип блокировки, которая действует во время редактирования.</span><span class="sxs-lookup"><span data-stu-id="acb4a-104">Sets or returns a value indicating the type of locking that is in effect while editing.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dd96f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="dd96f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="acb4a-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="acb4a-105">Syntax</span></span>
 
-<span data-ttu-id="dd96f-106">*выражение* . LockEdits</span><span class="sxs-lookup"><span data-stu-id="dd96f-106">*expression* .LockEdits</span></span>
+<span data-ttu-id="acb4a-106">*Expression* . LockEdits</span><span class="sxs-lookup"><span data-stu-id="acb4a-106">*expression* .LockEdits</span></span>
 
-<span data-ttu-id="dd96f-107">*выражение* Переменная, которая представляет собой объект- **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="dd96f-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="acb4a-107">*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="acb4a-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="dd96f-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="dd96f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="acb4a-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="acb4a-108">Remarks</span></span>
 
-<span data-ttu-id="dd96f-109">Параметр или возвращаемое значение указывает тип блокировки, как указано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="dd96f-109">The setting or return value indicates the type of locking, as specified in the following table.</span></span>
+<span data-ttu-id="acb4a-109">Параметр или возвращаемое значение указывает тип блокировки, как указано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="acb4a-109">The setting or return value indicates the type of locking, as specified in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -37,37 +37,37 @@ ms.locfileid: "28701125"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="dd96f-110">Значение</span><span class="sxs-lookup"><span data-stu-id="dd96f-110">Value</span></span></p></th>
-<th><p><span data-ttu-id="dd96f-111">Описание</span><span class="sxs-lookup"><span data-stu-id="dd96f-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="acb4a-110">Значение</span><span class="sxs-lookup"><span data-stu-id="acb4a-110">Value</span></span></p></th>
+<th><p><span data-ttu-id="acb4a-111">Описание</span><span class="sxs-lookup"><span data-stu-id="acb4a-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dd96f-112">True</span><span class="sxs-lookup"><span data-stu-id="dd96f-112">True</span></span></p></td>
-<td><p><span data-ttu-id="dd96f-113">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="dd96f-113">Default.</span></span> <span data-ttu-id="dd96f-114">Жесткой блокировки действует.</span><span class="sxs-lookup"><span data-stu-id="dd96f-114">Pessimistic locking is in effect.</span></span> <span data-ttu-id="dd96f-115">На этой странице содержится запись, которую требуется изменить заблокированный сразу после вызова метода Правка.</span><span class="sxs-lookup"><span data-stu-id="dd96f-115">The page containing the record you're editing is locked as soon as you call the Edit method.</span></span></p></td>
+<td><p><span data-ttu-id="acb4a-112">True</span><span class="sxs-lookup"><span data-stu-id="acb4a-112">True</span></span></p></td>
+<td><p><span data-ttu-id="acb4a-113">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="acb4a-113">Default.</span></span> <span data-ttu-id="acb4a-114">Применяется Пессимистическая блокировка.</span><span class="sxs-lookup"><span data-stu-id="acb4a-114">Pessimistic locking is in effect.</span></span> <span data-ttu-id="acb4a-115">Страница, содержащая редактируемую запись, блокируется сразу после вызова метода Edit.</span><span class="sxs-lookup"><span data-stu-id="acb4a-115">The page containing the record you're editing is locked as soon as you call the Edit method.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dd96f-116">False</span><span class="sxs-lookup"><span data-stu-id="dd96f-116">False</span></span></p></td>
-<td><p><span data-ttu-id="dd96f-117">Оптимистичный блокировки применяется для редактирования.</span><span class="sxs-lookup"><span data-stu-id="dd96f-117">Optimistic locking is in effect for editing.</span></span> <span data-ttu-id="dd96f-118">На этой странице содержится запись не блокируется до выполнения метода Update.</span><span class="sxs-lookup"><span data-stu-id="dd96f-118">The page containing the record is not locked until the Update method is executed.</span></span></p></td>
+<td><p><span data-ttu-id="acb4a-116">False</span><span class="sxs-lookup"><span data-stu-id="acb4a-116">False</span></span></p></td>
+<td><p><span data-ttu-id="acb4a-117">Для редактирования применяется Оптимистическая блокировка.</span><span class="sxs-lookup"><span data-stu-id="acb4a-117">Optimistic locking is in effect for editing.</span></span> <span data-ttu-id="acb4a-118">Страница, содержащая запись, не блокируется до тех пор, пока не будет выполнен метод Update.</span><span class="sxs-lookup"><span data-stu-id="acb4a-118">The page containing the record is not locked until the Update method is executed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="dd96f-119">Свойство **LockEdits** с обновляемым объекты **[набора записей](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="dd96f-119">You can use the **LockEdits** property with updatable **[Recordset](recordset-object-dao.md)** objects.</span></span>
+<span data-ttu-id="acb4a-119">Можно использовать свойство **LockEdits** с обновляемыми объектами **[Recordset](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="acb4a-119">You can use the **LockEdits** property with updatable **[Recordset](recordset-object-dao.md)** objects.</span></span>
 
-<span data-ttu-id="dd96f-120">Если страницу заблокирован, другой пользователь не может редактировать записи на той же странице.</span><span class="sxs-lookup"><span data-stu-id="dd96f-120">If a page is locked, no other user can edit records on the same page.</span></span> <span data-ttu-id="dd96f-121">Если **LockEdits** задать **значение True** , а другой пользователь уже имеет странице блокируется, возникает ошибка при использовании метода **Edit** .</span><span class="sxs-lookup"><span data-stu-id="dd96f-121">If you set **LockEdits** to **True** and another user already has the page locked, an error occurs when you use the **Edit** method.</span></span> <span data-ttu-id="dd96f-122">Другие пользователи могут читать данные из страниц в заблокированной.</span><span class="sxs-lookup"><span data-stu-id="dd96f-122">Other users can read data from locked pages.</span></span>
+<span data-ttu-id="acb4a-120">Если страница заблокирована, другие пользователи не могут изменять записи на той же странице.</span><span class="sxs-lookup"><span data-stu-id="acb4a-120">If a page is locked, no other user can edit records on the same page.</span></span> <span data-ttu-id="acb4a-121">Если для **LockEdits** задано **значение true** , а у другого пользователя уже есть страница заблокирована, то при использовании метода **Edit** возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="acb4a-121">If you set **LockEdits** to **True** and another user already has the page locked, an error occurs when you use the **Edit** method.</span></span> <span data-ttu-id="acb4a-122">Другие пользователи могут считывать данные из заблокированных страниц.</span><span class="sxs-lookup"><span data-stu-id="acb4a-122">Other users can read data from locked pages.</span></span>
 
-<span data-ttu-id="dd96f-123">Если **LockEdits** свойству присвоено **значение False** и более поздних версий используйте метод **Update** в процессе странице заблокирован другим пользователем, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="dd96f-123">If you set the **LockEdits** property to **False** and later use the **Update** method while another user has the page locked, an error occurs.</span></span> <span data-ttu-id="dd96f-124">Чтобы просмотреть изменения, внесенные записи другим пользователем, используйте метод **[Move](recordset2-move-method-dao.md)** с 0 в качестве аргумента; Тем не менее при этом будут потеряны изменения.</span><span class="sxs-lookup"><span data-stu-id="dd96f-124">To see the changes made to your record by another user, use the **[Move](recordset2-move-method-dao.md)** method with 0 as the argument; however, if you do this, you will lose your changes.</span></span>
+<span data-ttu-id="acb4a-123">Если для свойства **LockEdits** задано **значение false** , а в дальнейшем используется метод **Update** , а страница заблокирована другим пользователем, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="acb4a-123">If you set the **LockEdits** property to **False** and later use the **Update** method while another user has the page locked, an error occurs.</span></span> <span data-ttu-id="acb4a-124">Чтобы просмотреть изменения, внесенные в запись другим пользователем, используйте метод **[Move](recordset2-move-method-dao.md)** с 0 в качестве аргумента; Тем не менее, если вы сделаете это, изменения будут потеряны.</span><span class="sxs-lookup"><span data-stu-id="acb4a-124">To see the changes made to your record by another user, use the **[Move](recordset2-move-method-dao.md)** method with 0 as the argument; however, if you do this, you will lose your changes.</span></span>
 
-<span data-ttu-id="dd96f-125">При работе с источниками данных ODBC подключением модуля Microsoft Access базы данных, свойство **LockEdits** всегда имеет значение **False**или оптимистичный блокировки.</span><span class="sxs-lookup"><span data-stu-id="dd96f-125">When working with Microsoft Access database engine-connected ODBC data sources, the **LockEdits** property is always set to **False**, or optimistic locking.</span></span> <span data-ttu-id="dd96f-126">Ядро СУБД Microsoft Access не контролирует механизмы блокировки, используемые на серверах внешней базе данных.</span><span class="sxs-lookup"><span data-stu-id="dd96f-126">The Microsoft Access database engine has no control over the locking mechanisms used in external database servers.</span></span>
+<span data-ttu-id="acb4a-125">При работе с источниками данных ODBC, подключенными к ядру СУБД Microsoft Access, свойство **LockEdits** всегда имеет значение **false**или Оптимистическая блокировка.</span><span class="sxs-lookup"><span data-stu-id="acb4a-125">When working with Microsoft Access database engine-connected ODBC data sources, the **LockEdits** property is always set to **False**, or optimistic locking.</span></span> <span data-ttu-id="acb4a-126">Ядро СУБД Microsoft Access не контролирует механизмы блокировки, используемые на внешних серверах баз данных.</span><span class="sxs-lookup"><span data-stu-id="acb4a-126">The Microsoft Access database engine has no control over the locking mechanisms used in external database servers.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="dd96f-127">Значение **LockEdits** могут быть предварительно при первом открытии **набора записей** , задав аргумент lockedits **[OpenRecordset](connection-openrecordset-method-dao.md)** метода.</span><span class="sxs-lookup"><span data-stu-id="dd96f-127">You can preset the value of **LockEdits** when you first open the **Recordset** by setting the lockedits argument of the **[OpenRecordset](connection-openrecordset-method-dao.md)** method.</span></span> <span data-ttu-id="dd96f-128">Установка для аргумента lockedits **dbPessimistic** будет **LockEdits** свойству присвоено **значение True,** и lockedits параметр к любым другим значением будет **LockEdits** свойству присвоено **значение False**.</span><span class="sxs-lookup"><span data-stu-id="dd96f-128">Setting the lockedits argument to **dbPessimistic** will set the **LockEdits** property to **True**, and setting lockedits to any other value will set the **LockEdits** property to **False**.</span></span>
+> <span data-ttu-id="acb4a-127">Вы можете предварительно установить значение **LockEdits** при первом открытии объекта **Recordset** , задав аргумент LockEdits метода **[OpenRecordset](connection-openrecordset-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="acb4a-127">You can preset the value of **LockEdits** when you first open the **Recordset** by setting the lockedits argument of the **[OpenRecordset](connection-openrecordset-method-dao.md)** method.</span></span> <span data-ttu-id="acb4a-128">Если задать для аргумента LockEdits значение **дбпессимистик** , свойству **LockEdits** будет присвоено **значение true**, а для свойства **LockEdits** будет задано значение **false**.</span><span class="sxs-lookup"><span data-stu-id="acb4a-128">Setting the lockedits argument to **dbPessimistic** will set the **LockEdits** property to **True**, and setting lockedits to any other value will set the **LockEdits** property to **False**.</span></span>
 
-## <a name="example"></a><span data-ttu-id="dd96f-129">Пример</span><span class="sxs-lookup"><span data-stu-id="dd96f-129">Example</span></span>
+## <a name="example"></a><span data-ttu-id="acb4a-129">Пример</span><span class="sxs-lookup"><span data-stu-id="acb4a-129">Example</span></span>
 
-<span data-ttu-id="dd96f-130">В этом примере демонстрируется жесткой блокировки, задав свойство **LockEdits** значение **True**, а затем оптимистичный блокировки, задав свойство **LockEdits** значение False.</span><span class="sxs-lookup"><span data-stu-id="dd96f-130">This example demonstrates pessimistic locking by setting the **LockEdits** property to **True**, and then demonstrates optimistic locking by setting the **LockEdits** property to False.</span></span> <span data-ttu-id="dd96f-131">Также показано, какие виды обработки ошибок необходим в среде многопользовательской базы данных для изменения поля.</span><span class="sxs-lookup"><span data-stu-id="dd96f-131">It also demonstrates what kind of error handling is required in a multiuser database environment in order to modify a field.</span></span> <span data-ttu-id="dd96f-132">Функции PessimisticLock и OptimisticLock, необходимые для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="dd96f-132">The PessimisticLock and OptimisticLock functions are required for this procedure to run.</span></span>
+<span data-ttu-id="acb4a-130">В этом примере показана Пессимистическая блокировка путем установки свойства **LockEdits** в **значение true**, а затем демонстрируется Оптимистическая блокировка путем установки свойства **LockEdits** в значение false.</span><span class="sxs-lookup"><span data-stu-id="acb4a-130">This example demonstrates pessimistic locking by setting the **LockEdits** property to **True**, and then demonstrates optimistic locking by setting the **LockEdits** property to False.</span></span> <span data-ttu-id="acb4a-131">Здесь также показано, какой тип обработки ошибок необходим в многопользовательской среде базы данных для изменения поля.</span><span class="sxs-lookup"><span data-stu-id="acb4a-131">It also demonstrates what kind of error handling is required in a multiuser database environment in order to modify a field.</span></span> <span data-ttu-id="acb4a-132">Для выполнения этой процедуры необходимы функции Пессимистиклокк и Оптимистиклокк.</span><span class="sxs-lookup"><span data-stu-id="acb4a-132">The PessimisticLock and OptimisticLock functions are required for this procedure to run.</span></span>
 
 ```vb
     Sub LockEditsX() 

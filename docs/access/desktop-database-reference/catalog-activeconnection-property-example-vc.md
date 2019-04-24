@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8839d436359a9d08c3ec1d31b1187d74701daac9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296600"
 ---
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="0b77b-102">Пример использования свойства ActiveConnection объекта Catalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="0b77b-102">Catalog ActiveConnection property example (VC++)</span></span>
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="fef38-102">Пример использования свойства ActiveConnection объекта Catalog (VC++)</span><span class="sxs-lookup"><span data-stu-id="fef38-102">Catalog ActiveConnection property example (VC++)</span></span>
 
 
-<span data-ttu-id="0b77b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0b77b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fef38-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fef38-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0b77b-104">Установка для свойства [ActiveConnection](activeconnection-property-adox.md) допустимый, откройте подключение «открывает» каталог.</span><span class="sxs-lookup"><span data-stu-id="0b77b-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog.</span></span> <span data-ttu-id="0b77b-105">Открытие каталога можно приступить к объекты схемы, содержащиеся в каталоге.</span><span class="sxs-lookup"><span data-stu-id="0b77b-105">From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="fef38-104">Установка для свойства [ActiveConnection](activeconnection-property-adox.md) допустимого, открытого подключения "открывает каталог".</span><span class="sxs-lookup"><span data-stu-id="fef38-104">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog.</span></span> <span data-ttu-id="fef38-105">В открытом каталоге можно получить доступ к объектам схемы, включенным в этот каталог.</span><span class="sxs-lookup"><span data-stu-id="fef38-105">From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```cpp 
  

@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7985df074caee9b1508be9c045ac84f2f8ef248f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309107"
 ---
-# <a name="recordtype-property-ado"></a><span data-ttu-id="58dd2-102">Свойство RecordType (ADO)</span><span class="sxs-lookup"><span data-stu-id="58dd2-102">RecordType property (ADO)</span></span>
+# <a name="recordtype-property-ado"></a><span data-ttu-id="10531-102">Свойство RecordType (ADO)</span><span class="sxs-lookup"><span data-stu-id="10531-102">RecordType property (ADO)</span></span>
 
 
-<span data-ttu-id="58dd2-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58dd2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="10531-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="10531-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58dd2-104">Указывает тип объекта [записи](record-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="58dd2-104">Indicates the type of [Record](record-object-ado.md) object.</span></span>
+<span data-ttu-id="10531-104">Указывает тип объекта [Record](record-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="10531-104">Indicates the type of [Record](record-object-ado.md) object.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="58dd2-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="58dd2-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="10531-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="10531-105">Return value</span></span>
 
-<span data-ttu-id="58dd2-106">Возвращает значение [RecordTypeEnum](recordtypeenum.md) .</span><span class="sxs-lookup"><span data-stu-id="58dd2-106">Returns a [RecordTypeEnum](recordtypeenum.md) value.</span></span>
+<span data-ttu-id="10531-106">Возвращает значение [рекордтипинум](recordtypeenum.md) .</span><span class="sxs-lookup"><span data-stu-id="10531-106">Returns a [RecordTypeEnum](recordtypeenum.md) value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="58dd2-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="58dd2-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="10531-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="10531-107">Remarks</span></span>
 
-<span data-ttu-id="58dd2-108">Свойство **типом записи** только для чтения.</span><span class="sxs-lookup"><span data-stu-id="58dd2-108">The **RecordType** property is read-only.</span></span>
+<span data-ttu-id="10531-108">Свойство **RecordType** доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="10531-108">The **RecordType** property is read-only.</span></span>
 

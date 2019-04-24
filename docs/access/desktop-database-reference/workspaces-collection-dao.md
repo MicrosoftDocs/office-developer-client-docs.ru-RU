@@ -1,5 +1,5 @@
 ---
-title: Рабочие области для семейства сайтов (DAO)
+title: Коллекция workspaces (DAO)
 TOCTitle: Workspaces Collection
 ms:assetid: 88b851ce-4180-964f-582e-bc9571bf554c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197057(v=office.15)
@@ -8,44 +8,44 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c615be9e92a936486c15377514c2b695f68bb5b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308325"
 ---
-# <a name="workspaces-collection-dao"></a><span data-ttu-id="da340-102">Рабочие области для семейства сайтов (DAO)</span><span class="sxs-lookup"><span data-stu-id="da340-102">Workspaces collection (DAO)</span></span>
+# <a name="workspaces-collection-dao"></a><span data-ttu-id="6cb6d-102">Коллекция workspaces (DAO)</span><span class="sxs-lookup"><span data-stu-id="6cb6d-102">Workspaces collection (DAO)</span></span>
 
 
-<span data-ttu-id="da340-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da340-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6cb6d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6cb6d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="da340-104">**Рабочие области для** семейства содержит все активные, Показать объекты **рабочей области для** объекта **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="da340-104">A **Workspaces** collection contains all active, unhidden **Workspace** objects of the **DBEngine** object.</span></span> <span data-ttu-id="da340-105">(Скрытые **рабочей области** объекты не добавляется в конец коллекции и ссылается переменная, к которому они назначены.)</span><span class="sxs-lookup"><span data-stu-id="da340-105">(Hidden **Workspace** objects are not appended to the collection and referenced by the variable to which they are assigned.)</span></span>
+<span data-ttu-id="6cb6d-104">Коллекция **Workspace** содержит все активные, нескрытые объекты **рабочей области** объекта **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="6cb6d-104">A **Workspaces** collection contains all active, unhidden **Workspace** objects of the **DBEngine** object.</span></span> <span data-ttu-id="6cb6d-105">(Скрытые объекты **рабочей области** не добавляются в коллекцию и ссылаются на переменную, которой они назначены.)</span><span class="sxs-lookup"><span data-stu-id="6cb6d-105">(Hidden **Workspace** objects are not appended to the collection and referenced by the variable to which they are assigned.)</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="da340-106">Замечания</span><span class="sxs-lookup"><span data-stu-id="da340-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6cb6d-106">Замечания</span><span class="sxs-lookup"><span data-stu-id="6cb6d-106">Remarks</span></span>
 
-<span data-ttu-id="da340-107">Используйте объект **рабочей области** для управления текущего сеанса или чтобы начать сеанс обмена дополнительные.</span><span class="sxs-lookup"><span data-stu-id="da340-107">Use the **Workspace** object to manage the current session or to start an additional session.</span></span>
+<span data-ttu-id="6cb6d-107">Используйте объект **Workspace** для управления текущим сеансом или для запуска дополнительного сеанса.</span><span class="sxs-lookup"><span data-stu-id="6cb6d-107">Use the **Workspace** object to manage the current session or to start an additional session.</span></span>
 
-<span data-ttu-id="da340-108">При первом обращайтесь к или использовать объект **рабочей области** , автоматическое создание рабочей области по умолчанию DBEngine.Workspaces(0).</span><span class="sxs-lookup"><span data-stu-id="da340-108">When you first refer to or use a **Workspace** object, you automatically create the default workspace, DBEngine.Workspaces(0).</span></span> <span data-ttu-id="da340-109">Может принимать следующие значения свойства **Name** и **имя пользователя** рабочей области по умолчанию "\#рабочей области по умолчанию\#" и «Администратор», соответственно.</span><span class="sxs-lookup"><span data-stu-id="da340-109">The settings of the **Name** and **UserName** properties of the default workspace are "\#Default Workspace\#" and "Admin," respectively.</span></span> <span data-ttu-id="da340-110">Если этот параметр безопасности включен, значение свойства **UserName** — имя пользователя, вошедшего в систему.</span><span class="sxs-lookup"><span data-stu-id="da340-110">If security is enabled, the **UserName** property setting is the name of the user who logged on.</span></span>
+<span data-ttu-id="6cb6d-108">Когда вы впервые указываете на объект **Workspace** или используете его, вы автоматически создаете рабочую область по умолчанию DBEngine. workspaces (0).</span><span class="sxs-lookup"><span data-stu-id="6cb6d-108">When you first refer to or use a **Workspace** object, you automatically create the default workspace, DBEngine.Workspaces(0).</span></span> <span data-ttu-id="6cb6d-109">Параметры свойств **Name** и **username** для рабочей области по умолчанию: "\#Рабочая область\#по умолчанию" и "Администратор" соответственно.</span><span class="sxs-lookup"><span data-stu-id="6cb6d-109">The settings of the **Name** and **UserName** properties of the default workspace are "\#Default Workspace\#" and "Admin," respectively.</span></span> <span data-ttu-id="6cb6d-110">Если параметр "безопасность" включен, свойство **username** является именем пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="6cb6d-110">If security is enabled, the **UserName** property setting is the name of the user who logged on.</span></span>
 
-<span data-ttu-id="da340-111">Новые объекты **рабочей области** можно создать с помощью метода **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="da340-111">You can create new **Workspace** objects with the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method.</span></span> <span data-ttu-id="da340-112">После создания объекта **рабочей области** , необходимо добавить его семейства сайтов **рабочих областей** при необходимости ссылаться на него из коллекции **рабочих областей** .</span><span class="sxs-lookup"><span data-stu-id="da340-112">After you create a new **Workspace** object, you must append it to the **Workspaces** collection if you need to refer to it from the **Workspaces** collection.</span></span> <span data-ttu-id="da340-113">Тем не менее, можно используйте только что созданный объект **рабочей области** без добавления его в коллекцию **рабочих областей** .</span><span class="sxs-lookup"><span data-stu-id="da340-113">You can, however, use a newly created **Workspace** object without appending it to the **Workspaces** collection.</span></span>
+<span data-ttu-id="6cb6d-111">Вы можете создавать новые объекты **Workspace** с помощью метода **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="6cb6d-111">You can create new **Workspace** objects with the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method.</span></span> <span data-ttu-id="6cb6d-112">После создания нового объекта **Workspace** его необходимо добавить в коллекцию workspaces, если \*\*\*\* необходимо сослаться на него из коллекции **workspaces** .</span><span class="sxs-lookup"><span data-stu-id="6cb6d-112">After you create a new **Workspace** object, you must append it to the **Workspaces** collection if you need to refer to it from the **Workspaces** collection.</span></span> <span data-ttu-id="6cb6d-113">Тем не менее, вы можете использовать только что созданный объект **Workspace** , не добавив его \*\*\*\* в коллекцию workspaces.</span><span class="sxs-lookup"><span data-stu-id="6cb6d-113">You can, however, use a newly created **Workspace** object without appending it to the **Workspaces** collection.</span></span>
 
-<span data-ttu-id="da340-114">Для ссылки на объект **рабочей области** в семействе сайтов, с его порядковый номер или **его свойства Name** , используйте любой из следующих форм синтаксиса:</span><span class="sxs-lookup"><span data-stu-id="da340-114">To refer to a **Workspace** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="6cb6d-114">Чтобы сослаться на объект **Workspace** в коллекции по его порядковому номеру или по значению свойства **Name** , используйте любую из следующих синтаксических форм:</span><span class="sxs-lookup"><span data-stu-id="6cb6d-114">To refer to a **Workspace** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="da340-115">**DBEngine**. **Рабочие области** (0)</span><span class="sxs-lookup"><span data-stu-id="da340-115">**DBEngine**.**Workspaces**(0)</span></span>
+<span data-ttu-id="6cb6d-115">**DBEngine**. **Рабочие области** нуль</span><span class="sxs-lookup"><span data-stu-id="6cb6d-115">**DBEngine**.**Workspaces**(0)</span></span>
 
-<span data-ttu-id="da340-116">**DBEngine**. **Рабочие области** («имя»)</span><span class="sxs-lookup"><span data-stu-id="da340-116">**DBEngine**.**Workspaces**("name")</span></span>
+<span data-ttu-id="6cb6d-116">**DBEngine**. **Рабочие области** ("имя")</span><span class="sxs-lookup"><span data-stu-id="6cb6d-116">**DBEngine**.**Workspaces**("name")</span></span>
 
-<span data-ttu-id="da340-117">**DBEngine**. **Рабочие области** \! \[имя\]</span><span class="sxs-lookup"><span data-stu-id="da340-117">**DBEngine**.**Workspaces**\!\[name\]</span></span>
+<span data-ttu-id="6cb6d-117">**DBEngine**. **Рабочие области** \! \[\]</span><span class="sxs-lookup"><span data-stu-id="6cb6d-117">**DBEngine**.**Workspaces**\!\[name\]</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="da340-118">Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="da340-118">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="da340-119">Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="da340-119">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+> <span data-ttu-id="6cb6d-118">Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="6cb6d-118">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="6cb6d-119">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="6cb6d-119">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
 
-## <a name="example"></a><span data-ttu-id="da340-120">Пример</span><span class="sxs-lookup"><span data-stu-id="da340-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6cb6d-120">Пример</span><span class="sxs-lookup"><span data-stu-id="6cb6d-120">Example</span></span>
 
-<span data-ttu-id="da340-121">В этом примере создается новый объект рабочей области для Microsoft Access и добавляет его в коллекцию **рабочих областей** .</span><span class="sxs-lookup"><span data-stu-id="da340-121">This example creates a new Microsoft Access Workspace object and appends it to the **Workspaces** collection.</span></span> <span data-ttu-id="da340-122">Затем выполняется перечисление семейств сайтов **рабочих областей** и коллекции **свойств** объекта **рабочей области** .</span><span class="sxs-lookup"><span data-stu-id="da340-122">It then enumerates the **Workspaces** collections and the **Properties** collection of the **Workspace** object.</span></span>
+<span data-ttu-id="6cb6d-121">В этом примере создается новый объект рабочей области Microsoft Access, который добавляется в \*\*\*\* коллекцию workspaces.</span><span class="sxs-lookup"><span data-stu-id="6cb6d-121">This example creates a new Microsoft Access Workspace object and appends it to the **Workspaces** collection.</span></span> <span data-ttu-id="6cb6d-122">Затем перечисляет коллекции workspaces \*\*\*\* и **свойства** объекта **Workspace** .</span><span class="sxs-lookup"><span data-stu-id="6cb6d-122">It then enumerates the **Workspaces** collections and the **Properties** collection of the **Workspace** object.</span></span>
 
 ```vb 
 Sub WorkspaceX() 
@@ -80,7 +80,7 @@ End Sub
 
 <br/>
 
-В этом примере используется метод **CreateWorkspace** создать рабочую область для Microsoft Access. <span data-ttu-id="da340-124">Затем приведены свойства theworkspace.</span><span class="sxs-lookup"><span data-stu-id="da340-124">It then lists the properties of theworkspace.</span></span>
+В этом примере используется метод **CreateWorkspace** для создания рабочей области Microsoft Access. <span data-ttu-id="6cb6d-124">Затем выводится список свойств севоркспаце.</span><span class="sxs-lookup"><span data-stu-id="6cb6d-124">It then lists the properties of theworkspace.</span></span>
 
 ```vb 
 Sub CreateWorkspaceX() 

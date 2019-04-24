@@ -1,5 +1,5 @@
 ---
-title: Пример представления и коллекции полей (VB)
+title: Пример коллекций представлений и полей (VB)
 TOCTitle: Views and Fields Collections example (VB)
 ms:assetid: 7c166bea-d6a3-0a9d-5220-af72996a76fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 619795b0911462ec46800a29080a50c9ea889c5b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306000"
 ---
-# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="d2e4f-102">Пример коллекций Views и Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="d2e4f-102">Views and Fields collections example (VB)</span></span>
+# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="525e9-102">Пример коллекций Views и Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="525e9-102">Views and Fields collections example (VB)</span></span>
 
 
-<span data-ttu-id="d2e4f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2e4f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="525e9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="525e9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2e4f-104">Следующий код демонстрирует использование свойства [команды](command-property-adox.md) и объекта [набора записей](recordset-object-ado.md) для получения сведений поля для представления.</span><span class="sxs-lookup"><span data-stu-id="d2e4f-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
+<span data-ttu-id="525e9-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) и объект [Recordset](recordset-object-ado.md) для получения сведений о поле для представления.</span><span class="sxs-lookup"><span data-stu-id="525e9-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
 
 ```vb 
  

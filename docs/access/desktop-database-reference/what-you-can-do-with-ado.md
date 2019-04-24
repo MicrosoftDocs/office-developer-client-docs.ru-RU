@@ -1,5 +1,5 @@
 ---
-title: Что можно сделать с помощью ADO
+title: What You Can Do With ADO
 TOCTitle: What You Can Do With ADO
 ms:assetid: 98246cb0-aec6-6a77-c953-85895ad83a5d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
@@ -8,48 +8,48 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5b7d0bab179cd7ec658bc04cee05f486947f38c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306022"
 ---
-# <a name="what-you-can-do-with-ado"></a><span data-ttu-id="f5c5e-102">Что можно делать с помощью ADO</span><span class="sxs-lookup"><span data-stu-id="f5c5e-102">What you can do with ADO</span></span>
+# <a name="what-you-can-do-with-ado"></a><span data-ttu-id="577a2-102">Что можно делать с помощью ADO</span><span class="sxs-lookup"><span data-stu-id="577a2-102">What you can do with ADO</span></span>
 
 
-<span data-ttu-id="f5c5e-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5c5e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="577a2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="577a2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f5c5e-104">ADO предназначен для предоставления разработчикам мощные, логических объектной модели для программного доступа к, изменение и обновление широкий спектр источники данных через интерфейсы OLE DB системы.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-104">ADO is designed to provide developers with a powerful, logical object model for programmatically accessing, editing, and updating a wide variety of data sources through OLE DB system interfaces.</span></span> <span data-ttu-id="f5c5e-105">Наиболее распространенные использования ADO является запрос таблицы или таблицы в реляционной базе данных, извлечения и отображения результатов в приложении и возможно разрешить пользователям одновременное внесение и сохранение изменений в данные.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-105">The most common usage of ADO is to query a table or tables in a relational database, retrieve and display the results in an application, and perhaps allow users to make and save changes to the data.</span></span> <span data-ttu-id="f5c5e-106">Другие действия, которые выполняются программным путем с помощью ADO включают:</span><span class="sxs-lookup"><span data-stu-id="f5c5e-106">Other things that can be done programmatically with ADO include:</span></span>
+<span data-ttu-id="577a2-104">ADO предоставляет разработчикам мощную логическую объектную модель для программного доступа, редактирования и обновления разнообразных источников данных с помощью системных интерфейсов OLE DB.</span><span class="sxs-lookup"><span data-stu-id="577a2-104">ADO is designed to provide developers with a powerful, logical object model for programmatically accessing, editing, and updating a wide variety of data sources through OLE DB system interfaces.</span></span> <span data-ttu-id="577a2-105">Наиболее распространенный способ использования ADO — запрос таблицы или таблиц в реляционной базе данных, извлечение и отображение результатов в приложении и, возможно, предоставление пользователям возможности вносить и сохранять изменения данных.</span><span class="sxs-lookup"><span data-stu-id="577a2-105">The most common usage of ADO is to query a table or tables in a relational database, retrieve and display the results in an application, and perhaps allow users to make and save changes to the data.</span></span> <span data-ttu-id="577a2-106">Ниже перечислены другие возможности, которые можно выполнять программным способом с помощью ADO.</span><span class="sxs-lookup"><span data-stu-id="577a2-106">Other things that can be done programmatically with ADO include:</span></span>
 
-- <span data-ttu-id="f5c5e-107">Запросы к базе данных с помощью SQL и отображения результатов.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-107">Querying a database using SQL and displaying the results.</span></span>
+- <span data-ttu-id="577a2-107">Запрос к базе данных с помощью SQL и отображение результатов.</span><span class="sxs-lookup"><span data-stu-id="577a2-107">Querying a database using SQL and displaying the results.</span></span>
 
-- <span data-ttu-id="f5c5e-108">Доступ к данным в хранилище файлов через Интернет.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-108">Accessing information in a file store over the Internet.</span></span>
+- <span data-ttu-id="577a2-108">Доступ к данным в хранилище файлов через Интернет.</span><span class="sxs-lookup"><span data-stu-id="577a2-108">Accessing information in a file store over the Internet.</span></span>
 
-- <span data-ttu-id="f5c5e-109">Управление файлами сообщений и папок в системе электронной почты.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-109">Manipulating messages and folders in an email system.</span></span>
+- <span data-ttu-id="577a2-109">Управление сообщениями и папками в почтовой системе.</span><span class="sxs-lookup"><span data-stu-id="577a2-109">Manipulating messages and folders in an email system.</span></span>
 
-- <span data-ttu-id="f5c5e-110">Сохранение данных из базы данных в XML-файл.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-110">Saving data from a database into an XML file.</span></span>
+- <span data-ttu-id="577a2-110">Сохранение данных из базы данных в XML-файл.</span><span class="sxs-lookup"><span data-stu-id="577a2-110">Saving data from a database into an XML file.</span></span>
 
-- <span data-ttu-id="f5c5e-111">Позволяет пользователю для просмотра и изменения данных в таблицах базы данных.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-111">Allowing a user to review and make changes to data in database tables.</span></span>
+- <span data-ttu-id="577a2-111">Разрешение пользователям просматривать и вносить изменения в данные в таблицах базы данных.</span><span class="sxs-lookup"><span data-stu-id="577a2-111">Allowing a user to review and make changes to data in database tables.</span></span>
 
-- <span data-ttu-id="f5c5e-112">Создание и повторное использование параметризованные команды базы данных.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-112">Creating and reusing parameterized database commands.</span></span>
+- <span data-ttu-id="577a2-112">Создание и повторное использование параметризованных команд базы данных.</span><span class="sxs-lookup"><span data-stu-id="577a2-112">Creating and reusing parameterized database commands.</span></span>
 
-- <span data-ttu-id="f5c5e-113">Выполнение хранимых процедур.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-113">Executing stored procedures.</span></span>
+- <span data-ttu-id="577a2-113">Выполнение хранимых процедур.</span><span class="sxs-lookup"><span data-stu-id="577a2-113">Executing stored procedures.</span></span>
 
-- <span data-ttu-id="f5c5e-114">Динамическое создание гибкие структуры, называется набора **записей**, для хранения, перейдите и работы с данными.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-114">Dynamically creating a flexible structure, called a **Recordset**, to hold, navigate, and manipulate data.</span></span>
+- <span data-ttu-id="577a2-114">Динамическое создание гибкой структуры, называемой **наборОм записей**, для хранения, навигации и управления данными.</span><span class="sxs-lookup"><span data-stu-id="577a2-114">Dynamically creating a flexible structure, called a **Recordset**, to hold, navigate, and manipulate data.</span></span>
 
-- <span data-ttu-id="f5c5e-115">Для выполнения операций транзакций базы данных.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-115">Performing transactional database operations.</span></span>
+- <span data-ttu-id="577a2-115">Выполнение транзакционных операций базы данных.</span><span class="sxs-lookup"><span data-stu-id="577a2-115">Performing transactional database operations.</span></span>
 
-- <span data-ttu-id="f5c5e-116">Фильтрация и сортировка локальные копии сведения о базе данных на основе критериев во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-116">Filtering and sorting local copies of database information based on run-time criteria.</span></span>
+- <span data-ttu-id="577a2-116">Фильтрация и сортировка локальных копий данных базы данных на основе критериев времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="577a2-116">Filtering and sorting local copies of database information based on run-time criteria.</span></span>
 
-- <span data-ttu-id="f5c5e-117">Создание и управление ими иерархических результаты из базы данных.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-117">Creating and manipulating hierarchical results from databases.</span></span>
+- <span data-ttu-id="577a2-117">Создание иерархических результатов из баз данных и управление ими.</span><span class="sxs-lookup"><span data-stu-id="577a2-117">Creating and manipulating hierarchical results from databases.</span></span>
 
-- <span data-ttu-id="f5c5e-118">Привязка полей базы данных для данных компонентов.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-118">Binding database fields to data-aware components.</span></span>
+- <span data-ttu-id="577a2-118">Привязка полей базы данных к компонентам, поддерживающим данные.</span><span class="sxs-lookup"><span data-stu-id="577a2-118">Binding database fields to data-aware components.</span></span>
 
-- <span data-ttu-id="f5c5e-119">Создание удаленных, прервана **наборов записей**.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-119">Creating remote, disconnected **Recordsets**.</span></span>
+- <span data-ttu-id="577a2-119">Создание удаленных, отключенных **наборов записей**.</span><span class="sxs-lookup"><span data-stu-id="577a2-119">Creating remote, disconnected **Recordsets**.</span></span>
 
-<span data-ttu-id="f5c5e-120">ADO должен предоставлять широкий набор параметров и настроек, чтобы обеспечить такую гибкость.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-120">ADO must expose a wide variety of options and settings in order to provide such flexibility.</span></span> <span data-ttu-id="f5c5e-121">Поэтому важно выполнить тщательно, чтобы научиться использовать ADO в приложении, неудачного завершения каждого из выполнения задач на контролируемый части.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-121">Therefore it's important to take a methodical approach to learning how to use ADO in an application, breaking down each of your goals into manageable pieces.</span></span>
+<span data-ttu-id="577a2-120">Для обеспечения такой гибкости в ADO должны быть предоставлены разнообразные параметры и настройки.</span><span class="sxs-lookup"><span data-stu-id="577a2-120">ADO must expose a wide variety of options and settings in order to provide such flexibility.</span></span> <span data-ttu-id="577a2-121">Поэтому важно принять методичномуный подход к изучению использования ADO в приложении, разбивая каждую из ваших целей на управляемые части.</span><span class="sxs-lookup"><span data-stu-id="577a2-121">Therefore it's important to take a methodical approach to learning how to use ADO in an application, breaking down each of your goals into manageable pieces.</span></span>
 
-<span data-ttu-id="f5c5e-122">Четыре основных операций участвуют в большинстве программ ADO: получение данных, анализ данных, изменение данных и обновление данных.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-122">Four primary operations are involved in most ADO programs: getting data, examining data, editing data, and updating data.</span></span> <span data-ttu-id="f5c5e-123">Следующие четыре главы проверьте каждой из этих операций, более подробно.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-123">The next four chapters examine each of these operations in more detail.</span></span>
+<span data-ttu-id="577a2-122">В большинстве программ ADO используются четыре основных операции: извлечение данных, анализ данных, редактирование данных и обновление данных.</span><span class="sxs-lookup"><span data-stu-id="577a2-122">Four primary operations are involved in most ADO programs: getting data, examining data, editing data, and updating data.</span></span> <span data-ttu-id="577a2-123">В следующих четырех главах каждая из этих операций рассматривается более подробно.</span><span class="sxs-lookup"><span data-stu-id="577a2-123">The next four chapters examine each of these operations in more detail.</span></span>
 
-<span data-ttu-id="f5c5e-124">Прежде чем продолжить, ознакомьтесь с объектами в объектной модели ADO.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-124">Before proceeding, familiarize yourself with the objects in the ADO Object Model.</span></span> <span data-ttu-id="f5c5e-125">Просмотрите [HelloData: простое приложение ADO](hellodata-a-simple-ado-application.md).</span><span class="sxs-lookup"><span data-stu-id="f5c5e-125">Then review [HelloData: A Simple ADO Application](hellodata-a-simple-ado-application.md).</span></span> <span data-ttu-id="f5c5e-126">В этом приложении написаны в Visual Basic и выполняет каждого из четырех основных операций ADO.</span><span class="sxs-lookup"><span data-stu-id="f5c5e-126">This application is written in Visual Basic and performs each of the four primary ADO operations.</span></span>
+<span data-ttu-id="577a2-124">Прежде чем продолжить, ознакомьтесь с объектами в объектной модели ADO.</span><span class="sxs-lookup"><span data-stu-id="577a2-124">Before proceeding, familiarize yourself with the objects in the ADO Object Model.</span></span> <span data-ttu-id="577a2-125">Проверьте [HelloData: простое приложение ADO](hellodata-a-simple-ado-application.md).</span><span class="sxs-lookup"><span data-stu-id="577a2-125">Then review [HelloData: A Simple ADO Application](hellodata-a-simple-ado-application.md).</span></span> <span data-ttu-id="577a2-126">Это приложение написано в Visual Basic и выполняет каждую из четырех основных операций ADO.</span><span class="sxs-lookup"><span data-stu-id="577a2-126">This application is written in Visual Basic and performs each of the four primary ADO operations.</span></span>
 

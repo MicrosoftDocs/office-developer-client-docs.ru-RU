@@ -1,5 +1,5 @@
 ---
-title: Пространства данных (RDS) (ADO)
+title: Пространство (RDS) (ADO)
 TOCTitle: DataSpace (RDS)
 ms:assetid: eb9d33ab-e71d-42e0-bbfc-d7de80656dae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250196(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6b65960364081929f0b69367aa94793594881038
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294458"
 ---
-# <a name="dataspace-rds-ado"></a><span data-ttu-id="b4f5d-102">Пространства данных (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="b4f5d-102">DataSpace (RDS) (ADO)</span></span>
+# <a name="dataspace-rds-ado"></a><span data-ttu-id="63faa-102">Пространство (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="63faa-102">DataSpace (RDS) (ADO)</span></span>
 
-<span data-ttu-id="b4f5d-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4f5d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="63faa-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="63faa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b4f5d-104">Объект DataSpace (RDS)</span><span class="sxs-lookup"><span data-stu-id="b4f5d-104">DataSpace object (RDS)</span></span>](dataspace-object-rds.md)
-- [<span data-ttu-id="b4f5d-105">Пространства данных свойства, методы и события (RDS)</span><span class="sxs-lookup"><span data-stu-id="b4f5d-105">DataSpace properties, methods, and events (RDS)</span></span>](dataspace-properties-methods-and-events-rds.md)
+- [<span data-ttu-id="63faa-104">Объект Space (RDS)</span><span class="sxs-lookup"><span data-stu-id="63faa-104">DataSpace object (RDS)</span></span>](dataspace-object-rds.md)
+- [<span data-ttu-id="63faa-105">Свойства, методы и события пространства, события (RDS)</span><span class="sxs-lookup"><span data-stu-id="63faa-105">DataSpace properties, methods, and events (RDS)</span></span>](dataspace-properties-methods-and-events-rds.md)
 

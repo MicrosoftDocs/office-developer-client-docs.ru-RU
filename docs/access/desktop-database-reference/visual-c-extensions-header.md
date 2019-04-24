@@ -1,5 +1,5 @@
 ---
-title: Заголовок расширений Visual C++
+title: Visual C++ Extensions Header
 TOCTitle: Visual C++ Extensions Header
 ms:assetid: 59fb9758-be43-051e-b3ae-6fdf50218057
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 60dbf94824c5563196c549e2276b903ea814b1fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311328"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="e35a0-102">Заголовок расширений Visual C++</span><span class="sxs-lookup"><span data-stu-id="e35a0-102">Visual C++ Extensions header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="082cc-102">Заголовок расширений Visual C++</span><span class="sxs-lookup"><span data-stu-id="082cc-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="e35a0-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e35a0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="082cc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="082cc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e35a0-104">Следующий заголовок, **icrsint.h**, сведения о интерфейс, который клиенты извлекаются поля из **набора записей** в переменные, определенные в класс, производный от **CADORecordBinding**.</span><span class="sxs-lookup"><span data-stu-id="e35a0-104">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**.</span></span> <span data-ttu-id="e35a0-105">Необходимо указать привязку макросе ADO для каждого поля, которое требуется получить доступ к.</span><span class="sxs-lookup"><span data-stu-id="e35a0-105">You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="082cc-104">Следующий заголовок, **икрсинт. h**, подробно описывает интерфейс, позволяющий клиентам получать поля из **набора записей** в переменные, определенные в классе, производном от **кадорекордбиндинг**.</span><span class="sxs-lookup"><span data-stu-id="082cc-104">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**.</span></span> <span data-ttu-id="082cc-105">Для каждого поля, к которому требуется доступ, необходимо указать макрос привязки ADO.</span><span class="sxs-lookup"><span data-stu-id="082cc-105">You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  

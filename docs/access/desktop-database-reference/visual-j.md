@@ -1,5 +1,5 @@
 ---
-title: Visual J ++ (Справочник по для настольных баз данных Access)
+title: Visual J++ (Справочник по базам данных Access для настольных ПК)
 TOCTitle: Visual J++
 ms:assetid: 5c05db85-cdf2-9a73-fbc5-3dbfa6752376
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249320(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: da13ae0f10e2338b961f2f12686bd378580a69d7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311335"
 ---
-# <a name="visual-j"></a><span data-ttu-id="e8c18-102">Visual J++</span><span class="sxs-lookup"><span data-stu-id="e8c18-102">Visual J++</span></span>
+# <a name="visual-j"></a><span data-ttu-id="0ca6d-102">Visual J++</span><span class="sxs-lookup"><span data-stu-id="0ca6d-102">Visual J++</span></span>
 
 
-<span data-ttu-id="e8c18-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8c18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0ca6d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ca6d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e8c18-104">Этот короткий Microsoft Visual J ++ пример как собственную функцию можно связать с конкретным событием.</span><span class="sxs-lookup"><span data-stu-id="e8c18-104">This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.</span></span>
+<span data-ttu-id="0ca6d-104">В этом кратком примере для Microsoft Visual J++ показано, как связать свою функцию с определенным событием.</span><span class="sxs-lookup"><span data-stu-id="0ca6d-104">This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.</span></span>
 
 ```java 
  
@@ -53,7 +53,7 @@ public class EventExampleVJ
 // EndEventExampleVJ 
 ```
 
-<span data-ttu-id="e8c18-105">Во-первых, метод класса *onConnectionComplete* связан с событием **ConnectionComplete** , создав новый объект **ConnectionEventHandler** и назначение функции *onConnectComplete* объект.</span><span class="sxs-lookup"><span data-stu-id="e8c18-105">First, the class method *onConnectionComplete* is associated with the **ConnectionComplete** event by creating a new **ConnectionEventHandler** object and assigning the *onConnectComplete* function to the object.</span></span>
+<span data-ttu-id="0ca6d-105">Во-первых, метод класса *онконнектионкомплете* связан с событием **коннектионкомплете** путем создания нового объекта **коннектионевенсандлер** и назначения функции *онконнекткомплете* объекту.</span><span class="sxs-lookup"><span data-stu-id="0ca6d-105">First, the class method *onConnectionComplete* is associated with the **ConnectionComplete** event by creating a new **ConnectionEventHandler** object and assigning the *onConnectComplete* function to the object.</span></span>
 
-<span data-ttu-id="e8c18-106">*Основная* функция затем создает объект **подключения** и включает обработки путем вызова метода **addOnConnectComplete** и передачи его адрес функции *обработчика* событий.</span><span class="sxs-lookup"><span data-stu-id="e8c18-106">The *main* function then creates a **Connection** object and enables event handling by calling the **addOnConnectComplete** method and passing it the address of the *handler* function.</span></span>
+<span data-ttu-id="0ca6d-106">Затем функция *Main* создает объект **Connection** и включает обработку событий, вызывая метод **аддонконнекткомплете** и передавая ему адрес функции обработчика. \*\*</span><span class="sxs-lookup"><span data-stu-id="0ca6d-106">The *main* function then creates a **Connection** object and enables event handling by calling the **addOnConnectComplete** method and passing it the address of the *handler* function.</span></span>
 

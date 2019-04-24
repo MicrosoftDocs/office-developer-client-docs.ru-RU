@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c378ba722af1266cf7e68c60d52592059ef45ce4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722244"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308458"
 ---
-# <a name="supports-method-example-vc"></a><span data-ttu-id="93357-102">Пример использования метода Supports (VC++)</span><span class="sxs-lookup"><span data-stu-id="93357-102">Supports method example (VC++)</span></span>
+# <a name="supports-method-example-vc"></a><span data-ttu-id="48640-102">Пример использования метода Supports (VC++)</span><span class="sxs-lookup"><span data-stu-id="48640-102">Supports method example (VC++)</span></span>
 
 
-<span data-ttu-id="93357-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93357-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="48640-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48640-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="93357-104">В этом примере используется метод [поддерживает](supports-method-ado.md) для отображения параметров, поддерживаемый набор записей, открытый с типами другой курсор.</span><span class="sxs-lookup"><span data-stu-id="93357-104">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types.</span></span> <span data-ttu-id="93357-105">Функция DisplaySupport является обязательным для выполнения этого примера.</span><span class="sxs-lookup"><span data-stu-id="93357-105">The DisplaySupport function is required for this example to run.</span></span>
+<span data-ttu-id="48640-104">В этом примере используется [](supports-method-ado.md) метод Supports для отображения параметров, которые поддерживаются набором записей с разными типами курсоров.</span><span class="sxs-lookup"><span data-stu-id="48640-104">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types.</span></span> <span data-ttu-id="48640-105">Для запуска этого примера требуется функция Дисплайсуппорт.</span><span class="sxs-lookup"><span data-stu-id="48640-105">The DisplaySupport function is required for this example to run.</span></span>
 
 ```cpp 
  

@@ -12,32 +12,32 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 35637781035b7a449ba574cf5f6c84f2cb5223db
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306589"
 ---
-# <a name="restorewindow-macro-action"></a><span data-ttu-id="1d56a-102">Макрокоманда RestoreWindow</span><span class="sxs-lookup"><span data-stu-id="1d56a-102">RestoreWindow macro action</span></span>
+# <a name="restorewindow-macro-action"></a><span data-ttu-id="8a8ee-102">Макрокоманда RestoreWindow</span><span class="sxs-lookup"><span data-stu-id="8a8ee-102">RestoreWindow macro action</span></span>
 
-<span data-ttu-id="1d56a-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d56a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8a8ee-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a8ee-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1d56a-104">Действие **RestoreWindow** можно использовать для восстановления предыдущих размеров развернутого или свернутого окна.</span><span class="sxs-lookup"><span data-stu-id="1d56a-104">You can use the **RestoreWindow** action to restore a maximized or minimized window to its previous size.</span></span>
+<span data-ttu-id="8a8ee-104">Вы можете использовать действие **ресторевиндов** для восстановления предыдущего размера развернутого или свернутого окна.</span><span class="sxs-lookup"><span data-stu-id="8a8ee-104">You can use the **RestoreWindow** action to restore a maximized or minimized window to its previous size.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1d56a-105">Это действие не может применяться к windows кода в редакторе Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="1d56a-105">This action can't be applied to code windows in the Visual Basic Editor.</span></span> <span data-ttu-id="1d56a-106">Для получения сведений о действиях с кодом windows приведены в разделе свойство **WindowState** .</span><span class="sxs-lookup"><span data-stu-id="1d56a-106">For information about how to affect code windows, see the **WindowState** property topic.</span></span>
+> <span data-ttu-id="8a8ee-105">Это действие невозможно применить к окнам кода в редакторе Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="8a8ee-105">This action can't be applied to code windows in the Visual Basic Editor.</span></span> <span data-ttu-id="8a8ee-106">Сведения о том, как повлиять на окна кода, представлены в разделе свойство **WindowState** .</span><span class="sxs-lookup"><span data-stu-id="8a8ee-106">For information about how to affect code windows, see the **WindowState** property topic.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="1d56a-107">Setting</span><span class="sxs-lookup"><span data-stu-id="1d56a-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="8a8ee-107">Параметр</span><span class="sxs-lookup"><span data-stu-id="8a8ee-107">Setting</span></span>
 
-<span data-ttu-id="1d56a-108">Действие **RestoreWindow** не требует аргументов.</span><span class="sxs-lookup"><span data-stu-id="1d56a-108">The **RestoreWindow** action doesn't have any arguments.</span></span>
+<span data-ttu-id="8a8ee-108">Макрокоманда **ресторевиндов** не содержит аргументов.</span><span class="sxs-lookup"><span data-stu-id="8a8ee-108">The **RestoreWindow** action doesn't have any arguments.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1d56a-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="1d56a-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8a8ee-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="8a8ee-109">Remarks</span></span>
 
-<span data-ttu-id="1d56a-110">Это действие работает на выбранный объект.</span><span class="sxs-lookup"><span data-stu-id="1d56a-110">This action works on the selected object.</span></span> <span data-ttu-id="1d56a-111">При свернутых объекта можно выбрать ее с помощью **ВыделитьОбъект** и последующее восстановление предыдущих размеров с помощью действия **RestoreWindow** .</span><span class="sxs-lookup"><span data-stu-id="1d56a-111">If an object has been minimized, you can first select it by using the **SelectObject** action and then restore it to its previous size by using the **RestoreWindow** action.</span></span>
+<span data-ttu-id="8a8ee-110">Это действие выполняется для выбранного объекта.</span><span class="sxs-lookup"><span data-stu-id="8a8ee-110">This action works on the selected object.</span></span> <span data-ttu-id="8a8ee-111">Если объект свернут, его можно сначала выбрать с помощью макрокоманды **ВыделитьОбъект (SelectObject** ), а затем восстановить до его предыдущего размера с помощью действия **ресторевиндов** .</span><span class="sxs-lookup"><span data-stu-id="8a8ee-111">If an object has been minimized, you can first select it by using the **SelectObject** action and then restore it to its previous size by using the **RestoreWindow** action.</span></span>
 
-<span data-ttu-id="1d56a-112">Чтобы переместить или изменить ее размер окна, после восстановления можно использовать действие **MoveAndSizeWindow** .</span><span class="sxs-lookup"><span data-stu-id="1d56a-112">You can use the **MoveAndSizeWindow** action to move or size a window that you have restored.</span></span>
+<span data-ttu-id="8a8ee-112">Вы можете использовать действие **мовеандсизевиндов** для перемещения или изменения размера восстановленного окна.</span><span class="sxs-lookup"><span data-stu-id="8a8ee-112">You can use the **MoveAndSizeWindow** action to move or size a window that you have restored.</span></span>
 
-<span data-ttu-id="1d56a-113">Действие **RestoreWindow** имеет тот же эффект, как нажать кнопку " **Восстановление** " в правом верхнем углу окна или выбрав команду **восстановить** в **элемент управления** меню.</span><span class="sxs-lookup"><span data-stu-id="1d56a-113">The **RestoreWindow** action has the same effect as clicking the **Restore** button in the window's upper-right corner or clicking the **Restore** command on the window's **Control** menu.</span></span>
+<span data-ttu-id="8a8ee-113">Действие **ресторевиндов** имеет тот же результат, что и нажатие кнопки " **восстановить** " в правом верхнем углу окна или нажатие команды " **восстановить** " в оконном меню окна. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="8a8ee-113">The **RestoreWindow** action has the same effect as clicking the **Restore** button in the window's upper-right corner or clicking the **Restore** command on the window's **Control** menu.</span></span>
 
-<span data-ttu-id="1d56a-114">Чтобы выполнить действие **RestoreWindow** в Visual Basic для приложений (VBA) модуль, используйте метод **восстановления** **объекта** .</span><span class="sxs-lookup"><span data-stu-id="1d56a-114">To run the **RestoreWindow** action in a Visual Basic for Applications (VBA) module, use the **Restore** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="8a8ee-114">Чтобы запустить действие **ресторевиндов** в модуле Visual Basic для приложений (VBA), используйте метод Restore \*\*\*\* объекта DoCmd. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="8a8ee-114">To run the **RestoreWindow** action in a Visual Basic for Applications (VBA) module, use the **Restore** method of the **DoCmd** object.</span></span>
 
