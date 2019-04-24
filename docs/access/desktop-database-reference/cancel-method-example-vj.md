@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 72625820abe74b5a6a8989893a7ed0ab1bfec3b6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296663"
 ---
-# <a name="cancel-method-example-vj"></a><span data-ttu-id="76a02-102">Пример использования метода Cancel (VJ++)</span><span class="sxs-lookup"><span data-stu-id="76a02-102">Cancel method example (VJ++)</span></span>
+# <a name="cancel-method-example-vj"></a><span data-ttu-id="1c781-102">Пример использования метода Cancel (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1c781-102">Cancel method example (VJ++)</span></span>
 
 
-<span data-ttu-id="76a02-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76a02-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1c781-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c781-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="76a02-104">В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены выполняется команда на объект [подключения](connection-object-ado.md) Если подключение «занят».</span><span class="sxs-lookup"><span data-stu-id="76a02-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="1c781-104">В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены команды, выполняемой для объекта [Connection](connection-object-ado.md) , если соединение занято.</span><span class="sxs-lookup"><span data-stu-id="1c781-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```java 
  

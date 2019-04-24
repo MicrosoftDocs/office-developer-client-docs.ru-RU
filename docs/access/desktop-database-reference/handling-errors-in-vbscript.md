@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292050"
 ---
-# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="2f3ba-102">Обработка ошибок на языке VBScript</span><span class="sxs-lookup"><span data-stu-id="2f3ba-102">Handling errors in VBScript</span></span>
+# <a name="handling-errors-in-vbscript"></a><span data-ttu-id="24ebd-102">Обработка ошибок на языке VBScript</span><span class="sxs-lookup"><span data-stu-id="24ebd-102">Handling errors in VBScript</span></span>
 
 
-<span data-ttu-id="2f3ba-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f3ba-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="24ebd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="24ebd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2f3ba-104">Отличается от методов, используемых в Visual Basic и тех, которые используются с помощью VBScript.</span><span class="sxs-lookup"><span data-stu-id="2f3ba-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="2f3ba-105">Основное различие заключается в том, что VBScript не поддерживает концепцию ошибок с продолжение выполнения на метку.</span><span class="sxs-lookup"><span data-stu-id="2f3ba-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="2f3ba-106">Другими словами On Error GoTo нельзя использовать в VBScript.</span><span class="sxs-lookup"><span data-stu-id="2f3ba-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="2f3ba-107">Используйте в VBScript.</span><span class="sxs-lookup"><span data-stu-id="2f3ba-107">Instead, use in VBScript.</span></span> <span data-ttu-id="2f3ba-108">Вместо этого используйте On Error Resume Next и затем проверить **Err.Number** и свойство **Count** коллекции **ошибок** , как показано в следующем примере:</span><span class="sxs-lookup"><span data-stu-id="2f3ba-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
+<span data-ttu-id="24ebd-104">Существует небольшое различие между методами, используемыми в Visual Basic, и теми, которые используются в VBScript.</span><span class="sxs-lookup"><span data-stu-id="24ebd-104">There is little difference between the methods used in Visual Basic and those used with VBScript.</span></span> <span data-ttu-id="24ebd-105">Основное отличие заключается в том, что VBScript не поддерживает концепцию обработки ошибок, продолжая выполнение на метке.</span><span class="sxs-lookup"><span data-stu-id="24ebd-105">The primary difference is that VBScript does not support the concept of error handling by continuing execution at a label.</span></span> <span data-ttu-id="24ebd-106">Другими словами, нельзя использовать On Error GoTo в VBScript.</span><span class="sxs-lookup"><span data-stu-id="24ebd-106">In other words, you cannot use On Error GoTo in VBScript.</span></span> <span data-ttu-id="24ebd-107">Вместо этого используйте в VBScript.</span><span class="sxs-lookup"><span data-stu-id="24ebd-107">Instead, use in VBScript.</span></span> <span data-ttu-id="24ebd-108">Вместо этого используйте On Error Resume Next, а затем проверьте значение **Err. Number** и **Count** коллекции Errors \*\*\*\* , как показано в следующем примере:</span><span class="sxs-lookup"><span data-stu-id="24ebd-108">Instead, use On Error Resume Next and then check both **Err.Number** and the **Count** property of the **Errors** collection, as shown in the following example:</span></span>
 
 ```vb 
  

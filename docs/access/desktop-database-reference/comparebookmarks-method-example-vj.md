@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7f9a5b0e31381d36d523c23290076e0d9b07a01c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296089"
 ---
-# <a name="comparebookmarks-method-example-vj"></a><span data-ttu-id="c50c0-102">Пример использования метода CompareBookmarks (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c50c0-102">CompareBookmarks method example (VJ++)</span></span>
+# <a name="comparebookmarks-method-example-vj"></a><span data-ttu-id="51fa8-102">Пример использования метода CompareBookmarks (VJ++)</span><span class="sxs-lookup"><span data-stu-id="51fa8-102">CompareBookmarks method example (VJ++)</span></span>
 
 
-<span data-ttu-id="c50c0-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c50c0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="51fa8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51fa8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c50c0-104">В этом примере демонстрируется использование метода [CompareBookmarks](comparebookmarks-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="c50c0-104">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method.</span></span> <span data-ttu-id="c50c0-105">Относительное значение закладки редко требуется, если не определенную закладку каким-либо образом специальные.</span><span class="sxs-lookup"><span data-stu-id="c50c0-105">The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
+<span data-ttu-id="51fa8-104">В этом примере демонстрируется метод [CompareBookmarks](comparebookmarks-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="51fa8-104">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method.</span></span> <span data-ttu-id="51fa8-105">Относительные значения закладок редко необходимы, если конкретная закладка не является каким-либо особым.</span><span class="sxs-lookup"><span data-stu-id="51fa8-105">The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
 
-<span data-ttu-id="c50c0-106">Назначьте в случайном порядке строке из [набора записей](recordset-object-ado.md) , полученных из таблицы ***авторов*** целевым поиска.</span><span class="sxs-lookup"><span data-stu-id="c50c0-106">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search.</span></span> <span data-ttu-id="c50c0-107">Положение каждой строки, относящиеся к, предназначенных для отображения.</span><span class="sxs-lookup"><span data-stu-id="c50c0-107">Then display the position of each row relative to that target.</span></span>
+<span data-ttu-id="51fa8-106">Назначить произвольную строку [набора записей](recordset-object-ado.md) , полученную из таблицы ***authors*** , в качестве целевого объекта поиска.</span><span class="sxs-lookup"><span data-stu-id="51fa8-106">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search.</span></span> <span data-ttu-id="51fa8-107">Затем отобразите положение каждой строки относительно целевого объекта.</span><span class="sxs-lookup"><span data-stu-id="51fa8-107">Then display the position of each row relative to that target.</span></span>
 
 ```java 
  

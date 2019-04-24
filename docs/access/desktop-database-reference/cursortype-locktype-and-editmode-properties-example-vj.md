@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4bdf0ee11a90348752a29c5a8ecf059a8ebe98d7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295193"
 ---
-# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a><span data-ttu-id="142b1-102">Пример использования свойств CursorType, LockType и EditMode (VJ++)</span><span class="sxs-lookup"><span data-stu-id="142b1-102">CursorType, LockType, and EditMode properties example (VJ++)</span></span>
+# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a><span data-ttu-id="1b881-102">Пример использования свойств CursorType, LockType и EditMode (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1b881-102">CursorType, LockType, and EditMode properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="142b1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="142b1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1b881-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b881-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="142b1-104">В этом примере демонстрируется настройка свойств [CursorType](cursortype-property-ado.md) и [LockType для](locktype-property-ado.md) перед открытием [набора записей](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="142b1-104">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="142b1-105">Также показано значение свойства [EditMode](editmode-property-ado.md) в различных условиях.</span><span class="sxs-lookup"><span data-stu-id="142b1-105">It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions.</span></span> <span data-ttu-id="142b1-106">Функция EditModeOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="142b1-106">The EditModeOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="1b881-104">В этом примере показано, как задать свойства [CursorType](cursortype-property-ado.md) и [LockType](locktype-property-ado.md) перед открытием объекта [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1b881-104">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md).</span></span> <span data-ttu-id="1b881-105">В нем также показано значение свойства [EditMode](editmode-property-ado.md) в различных условиях.</span><span class="sxs-lookup"><span data-stu-id="1b881-105">It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions.</span></span> <span data-ttu-id="1b881-106">Для выполнения этой процедуры требуется функция Едитмодеаутпут.</span><span class="sxs-lookup"><span data-stu-id="1b881-106">The EditModeOutput function is required for this procedure to run.</span></span>
 
 ```java 
  

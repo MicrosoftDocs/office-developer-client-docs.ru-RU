@@ -1,5 +1,5 @@
 ---
-title: Столбцы и методы добавления таблиц, пример свойства Name (VC ++)
+title: Методы Append столбцов и таблиц, пример свойства Name (VC + +)
 TOCTitle: Columns and Tables Append Methods, Name property example (VC++)
 ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0fa9f903317e337b06afb4c2d0fdc1c3085df50d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296222"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="e1f16-102">Столбцы и методы добавления таблиц, пример свойства Name (VC ++)</span><span class="sxs-lookup"><span data-stu-id="e1f16-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="58223-102">Методы Append столбцов и таблиц, пример свойства Name (VC + +)</span><span class="sxs-lookup"><span data-stu-id="58223-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
 
 
-<span data-ttu-id="e1f16-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e1f16-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="58223-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58223-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e1f16-104">Следующий код демонстрирует создайте новую таблицу.</span><span class="sxs-lookup"><span data-stu-id="e1f16-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="58223-104">В приведенном ниже коде показано, как создать новую таблицу.</span><span class="sxs-lookup"><span data-stu-id="58223-104">The following code demonstrates how to create a new table.</span></span>
 
 ```cpp 
  
